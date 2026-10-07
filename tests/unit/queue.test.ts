@@ -18,6 +18,10 @@ test("quota keys follow the stage", () => {
   assert.equal(quotaFor("video", "captioned"), "captions");
   assert.equal(quotaFor("video", "extracted"), "video_extract");
   assert.equal(quotaFor("blog", "fetched"), "posts");
+  // D61: a change's GitHub calls are deterministic (change_fetch); its Haiku pass is an LLM quota (changes)
+  assert.equal(quotaFor("change", "fetched"), "change_fetch");
+  assert.equal(quotaFor("change", "extracted"), "changes");
+  assert.equal(quotaFor("change", "published"), null);
   assert.equal(quotaFor("docs", "reviewed"), "opus_reviews");
   assert.equal(quotaFor("docs", "linked"), null);
   assert.equal(quotaFor("roadmap", "fetched"), null);

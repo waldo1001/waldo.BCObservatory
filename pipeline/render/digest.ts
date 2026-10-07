@@ -7,6 +7,7 @@
  */
 import { readdirSync } from "node:fs";
 import { relative, resolve } from "node:path";
+import matter from "gray-matter";
 import { stringify as toYaml } from "yaml";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import type { ManifestItem } from "../lib/manifest.js";
@@ -17,6 +18,9 @@ import type { SnapshotManifest } from "../code/job.js";
 import type { AlDiff, Deprecation } from "../code/diff.js";
 import { latestRoadmap } from "./feature.js";
 import { postPageKey } from "./post.js";
+import { loadSources } from "../lib/config.js";
+import { activityPath, mergedLogPath, type Activity, type MergedKind } from "../ingest/github-prs.js";
+import { loadNarrative } from "../summarize/changes-week.js";
 import { PIPELINE_VERSION } from "../version.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -68,13 +72,24 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   const overdue = dep ? dep.items.filter((d) => d.clean_version && Number(d.clean_version) <= Number(inp.currentMajor)) : [];
   const tags = dep ? Object.entries(dep.by_tag).filter(([t]) => t !== "untagged").sort((a, b) => b[0].localeCompare(a[0], "en", { numeric: true })).slice(0, 8) : [];
 
-  const counts = { roadmap_added: rAdded.length, roadmap_changed: rChanged.length, videos: videos.length, posts: posts.length, docs: docs.length, deprecations: dep?.count ?? 0, cleanup_due: overdue.length };
-  const summary = `Business Central, week ${w.id} (${w.start} to ${w.end}): ${counts.videos} videos, ${counts.posts} community posts, ${counts.docs} Learn pages changed, ${counts.roadmap_added} roadmap features added and ${counts.roadmap_changed} changed; ${counts.deprecations} obsolete elements in BC${inp.currentMajor}, ${counts.cleanup_due} with their cleanup due.`;
+  // code changes (D61): every merged pull request counts (bots and backports too); pages for the AL-touching ones
+  const merged: { repo: string; n: string; day: string; base: string; kind: MergedKind }[] = [];
+  for (const s of loadSources().filter((x) => x.kind === "github-pr" && x.repo)) {
+    const p = mergedLogPath(dataDir, s.repo!);
+    if (exists(p)) for (const [n, [d, base, kind]] of Object.entries(readJson<Record<string, [string, string, MergedKind]>>(p))) if (inWeek(d, w)) merged.push({ repo: s.repo!, n, day: d, base, kind });
+  }
+  const changePages = listFiles(resolve(contentDir, "changes"), ".md").map((f) => ({ rel: relative(resolve(contentDir, "changes"), f).replace(/\.md$/, ""), fm: matterData(f) }))
+    .filter((c) => c.fm?.type === "change" && inWeek(String(c.fm.merged_at), w)).sort((a, b) => String(b.fm.merged_at).localeCompare(String(a.fm.merged_at)));
+  const behavior = changePages.filter((c) => c.fm.behavior_change || c.fm.breaking);
+  const obsoleting = changePages.filter((c) => (c.fm.obsoletions ?? []).length);
+  const counts = { roadmap_added: rAdded.length, roadmap_changed: rChanged.length, videos: videos.length, posts: posts.length, docs: docs.length, deprecations: dep?.count ?? 0, cleanup_due: overdue.length,
+    changes: merged.length, changes_behavior: behavior.length, changes_obsoletions: obsoleting.length };
+  const summary = `Business Central, week ${w.id} (${w.start} to ${w.end}): ${counts.videos} videos, ${counts.posts} community posts, ${counts.docs} Learn pages changed, ${counts.roadmap_added} roadmap features added and ${counts.roadmap_changed} changed, ${counts.changes} pull requests merged into the code (${counts.changes_behavior} changing behaviour); ${counts.deprecations} obsolete elements in BC${inp.currentMajor}, ${counts.cleanup_due} with their cleanup due.`;
   const fm = {
     id: `digest/${w.id}`, type: "digest", title: `BC Observatory weekly: ${w.id}`, summary, tier: "mixed", language: "en", tags: ["digest"],
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify([counts, videos.map((i) => i.id), posts.map((i) => i.id), rAdded, rChanged])) },
-    evidence: [], links: { learn: docs.slice(0, 50).map((i) => i.url), objects: [], features: [...rAdded, ...rChanged].map((id) => `feature/${id}`), topics: [], localizations: [], videos: videos.filter((i) => exists(resolve(contentDir, "videos", `${i.id.slice(i.id.lastIndexOf("/") + 1)}.md`))).map((i) => `video/${i.id.slice(i.id.lastIndexOf("/") + 1)}`), posts: posts.filter((i) => exists(resolve(contentDir, "posts", `${postPageKey(i)}.md`))).map((i) => `post/${postPageKey(i)}`), guidelines: [] },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify([counts, videos.map((i) => i.id), posts.map((i) => i.id), rAdded, rChanged, changePages.map((c) => c.rel), loadNarrative(dataDir, w.id)?.input_hash ?? null])) },
+    evidence: [], links: { learn: docs.slice(0, 50).map((i) => i.url), objects: [], features: [...rAdded, ...rChanged].map((id) => `feature/${id}`), topics: [], localizations: [], videos: videos.filter((i) => exists(resolve(contentDir, "videos", `${i.id.slice(i.id.lastIndexOf("/") + 1)}.md`))).map((i) => `video/${i.id.slice(i.id.lastIndexOf("/") + 1)}`), posts: posts.filter((i) => exists(resolve(contentDir, "posts", `${postPageKey(i)}.md`))).map((i) => `post/${postPageKey(i)}`), guidelines: [], changes: changePages.slice(0, 50).map((c) => `change/${c.rel}`) },
     week: w.id, range: { start: w.start, end: w.end }, sections: counts,
   };
   validateOrThrow("frontmatter.digest", fm, `digest ${w.id}`);
@@ -87,6 +102,23 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   lines.push("## Learn pages changed", "", ...(docs.length ? [`${docs.length} pages had commits this week${docs.length > 40 ? "; the 40 most recent" : ""}:`, "", ...docs.slice(0, 40).map((i) => `- [${cell(i.title)}](${i.url})`)] : ["No Learn page commits this week."]), "");
   lines.push("## Code", "", ...snaps.map((m) => `- BC${m.major}: ${m.branch} at ${m.commit.slice(0, 8)}, ${m.objects} W1 objects`),
     ...vdiffs.map((d) => `- BC${d.from.version} to BC${d.to.version}: ${d.summary.objects} objects differ (${d.summary.fields_added} fields, ${d.summary.events_added} events, ${d.summary.procedures_added} procedures added)`), "");
+  lines.push("## Code changes", "");
+  const story = loadNarrative(dataDir, w.id);
+  if (story) lines.push(`${story.text}`, "", `(${story.changes} changes summarised by Sonnet from the change pages; machine-generated.)`, "");
+  if (merged.length) {
+    const byBranch = new Map<string, Record<MergedKind, number>>();
+    for (const m of merged) { const b = byBranch.get(`${m.repo} ${m.base}`) ?? { item: 0, bot: 0, backport: 0 }; b[m.kind]++; byBranch.set(`${m.repo} ${m.base}`, b); }
+    lines.push(`${merged.length} pull requests merged, ${changePages.length} of them touch AL source and have a page:`, "",
+      ...[...byBranch].sort((a, b) => a[0].localeCompare(b[0])).map(([k, c]) => `- ${k.replace(" ", ": ")}: ${c.item + c.bot + c.backport} merged (${c.bot} bots, ${c.backport} backports)`), "");
+    if (behavior.length) lines.push(`Behaviour changes${behavior.length > 20 ? " (the 20 most recent)" : ""}:`, "", ...behavior.slice(0, 20).map((c) => `- [${cell(c.fm.title)}](../changes/${c.rel}.md) (${c.fm.base_branch}, ${c.fm.change_kind}${c.fm.breaking ? ", breaking" : ""})`), "");
+    if (obsoleting.length) lines.push("Obsoletions:", "", ...obsoleting.flatMap((c) => (c.fm.obsoletions as { object: string; member: string | null }[]).map((o) => `- ${cell(o.object)}${o.member ? `: ${cell(o.member)}` : ""} ([#${c.fm.number}](../changes/${c.rel}.md))`)), "");
+  } else lines.push("No pull requests merged this week, or the change pillar has not run yet.", "");
+  const released = loadSources().filter((x) => x.kind === "github-pr" && x.repo).flatMap((x) => {
+    const p = activityPath(dataDir, x.repo!);
+    return exists(p) ? readJson<Activity>(p).releases.filter((r) => inWeek(r.published_at, w)).map((r) => ({ ...r, repo: x.repo! })) : [];
+  });
+  if (released.length) lines.push("Releases:", "", ...released.map((r) => `- [${cell(r.repo)} ${cell(r.name)}](${r.url}) (${r.published_at!.slice(0, 10)}${r.prerelease ? ", prerelease" : ""})`), "");
+
   lines.push("## Deprecation radar", "");
   if (dep) {
     lines.push(`${dep.count} obsolete or CLEAN-guarded elements in W1 of BC${inp.currentMajor}. Newest tags:`, "", "| Tag | Elements |", "|---|---|", ...tags.map(([t, n]) => `| ${t} | ${n} |`), "");
@@ -101,6 +133,7 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
 }
 
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
+function matterData(f: string): Record<string, any> { try { return matter(readText(f)).data; } catch { return {}; } }
 
 /** Render the current week and `back` weeks before it; write only on change; refresh the index. */
 export function renderDigests(inp: DigestInput, now: Date, back = 1): string[] {

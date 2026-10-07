@@ -106,7 +106,7 @@ export function decideGuard(usage: PlanUsage | PlanUsageUnavailable, cfg: Pick<B
 }
 
 /** Quotas that cost LLM calls scale with the guard; deterministic work (captions, code jobs) does not. */
-export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "guidelines", "hub_refresh", "roadmap_links", "topic_links", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max"]);
+export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "changes", "guidelines", "hub_refresh", "roadmap_links", "topic_links", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max", "change_narrative"]);
 
 export function scaleQuotas(quotas: Record<string, number>, g: Pick<GuardDecision, "factor" | "facts_only">): Record<string, number> {
   const out: Record<string, number> = {};

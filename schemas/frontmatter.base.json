@@ -5,8 +5,8 @@
   "type": "object",
   "required": ["id", "type", "title", "summary", "tier", "language", "review", "generated", "evidence", "links"],
   "properties": {
-    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
-    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest"] },
+    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest|change)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
+    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest", "change"] },
     "title": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1, "maxLength": 600 },
     "tier": { "enum": ["official", "community", "mixed"] },
@@ -40,7 +40,8 @@
         "learn": { "type": "array", "items": { "type": "string" } }, "objects": { "type": "array", "items": { "type": "string" } },
         "features": { "type": "array", "items": { "type": "string" } }, "topics": { "type": "array", "items": { "type": "string" } },
         "localizations": { "type": "array", "items": { "type": "string" } }, "videos": { "type": "array", "items": { "type": "string" } },
-        "posts": { "type": "array", "items": { "type": "string" } }, "guidelines": { "type": "array", "items": { "type": "string" } }
+        "posts": { "type": "array", "items": { "type": "string" } }, "guidelines": { "type": "array", "items": { "type": "string" } },
+        "changes": { "type": "array", "items": { "type": "string" }, "description": "D61: change pages (merged pull requests) that touched this page's object" }
       }
     }
   }

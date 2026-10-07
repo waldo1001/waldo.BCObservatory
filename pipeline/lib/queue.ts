@@ -17,9 +17,9 @@ export interface Plan {
   quota_use: Record<string, { selected: number; available: number; limit: number | null }>;
 }
 
-const PILLAR_ORDER: Pillar[] = ["video", "docs", "blog", "guidelines", "code", "roadmap"];
+const PILLAR_ORDER: Pillar[] = ["video", "docs", "blog", "change", "guidelines", "code", "roadmap"];
 const PILLAR_QUOTA: Record<Pillar, string | null> = {
-  video: "video_extract", docs: "docs", blog: "posts", guidelines: "guidelines", code: "code_jobs", roadmap: null,
+  video: "video_extract", docs: "docs", blog: "posts", guidelines: "guidelines", code: "code_jobs", roadmap: null, change: "changes",
 };
 
 /** Which quota an item's next unit of work consumes; null = always runs (deterministic and cheap). */
@@ -29,6 +29,8 @@ export function quotaFor(pillar: Pillar, stage: Stage): string | null {
   if (stage === "fetched" && (pillar === "docs" || pillar === "guidelines")) return null;
   if (stage === "reviewed") return "opus_reviews";
   if (pillar === "video" && (stage === "fetched" || stage === "captioned")) return "captions";
+  // a pull request's record and file list: GitHub calls, deterministic (D61)
+  if (pillar === "change" && stage === "fetched") return "change_fetch";
   return PILLAR_QUOTA[pillar];
 }
 

@@ -29,6 +29,7 @@ export function validateSourcesDoc(raw: SourcesDoc, applied: SourceDef[]): Sourc
     if (s.kind === "blog" && !s.fetch?.feed && !s.fetch?.rest && !s.fetch?.scrape) errors.push(`${at}: blog needs fetch.feed, fetch.rest or fetch.scrape`);
     if (s.kind === "youtube" && s.full_text && !OFFICIAL_CHANNELS.has(s.channel_id ?? "") && !s.consent) errors.push(`${at}: community channel captions need consent for full_text`);
     if (s.kind === "code-git" && s.mode !== "metadata-only") errors.push(`${at}: code sources must be mode metadata-only (never vendor source text)`);
+    if (s.kind === "github-pr" && s.mode !== "metadata-only") errors.push(`${at}: pull-request sources must be mode metadata-only (D61: no body, no patch)`);
     if (s.tier === "community" && !s.author?.name) warnings.push(`${at}: community source without author.name`);
   }
   return { ok: errors.length === 0, errors, warnings };

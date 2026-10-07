@@ -131,11 +131,13 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
     for (const f of L.features ?? []) edge(id, f, "demonstrates");
     for (const l of L.localizations ?? []) edge(id, l, "localizes");
     // a localization's objects are the same pairs as the objects' localizations: one edge type for both directions
-    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : "mentions");
+    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : fm.type === "change" ? "changes" : "mentions");
     for (const p of L.posts ?? []) edge(id, p, "discusses");
+    // D61: an object's changes are the same pairs as the changes' objects; a hub's are what it documents changing
+    for (const c of L.changes ?? []) edge(id, c, fm.type === "object" ? "changes" : "relates");
     if (fm.type === "video" || fm.type === "post") for (const o of mentioned(fm)) { edge(id, o, "mentions"); addMedia(o, id); }
     if (["topic", "feature", "object", "localization"].includes(fm.type)) for (const m of [...(L.videos ?? []), ...(L.posts ?? [])]) addMedia(id, m);
-    const src = fm.type === "post" ? fm.source_id : fm.type === "video" ? fm.channel : null;
+    const src = fm.type === "post" || fm.type === "change" ? fm.source_id : fm.type === "video" ? fm.channel : null;
     if (src) {
       const s = sources.get(src);
       add({ id: `source/${src}`, type: "source", label: s?.name ?? src, tier: s?.tier === "official" ? "official" : "community", group: "sources", url: s?.url ?? "", lit_at: null });

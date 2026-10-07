@@ -22,7 +22,7 @@
         "type": "object", "required": ["id", "type", "label", "tier", "group", "weight"],
         "properties": {
           "id": { "type": "string" },
-          "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "guideline", "version", "author"] },
+          "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "guideline", "version", "author", "change"] },
           "label": { "type": "string" }, "tier": { "enum": ["official", "community", "mixed"] },
           "group": { "type": "string", "description": "galaxy system id" }, "weight": { "type": "number" },
           "url": { "type": "string", "description": "absent in the summary when it is the page path of the id: <type>s/<rest>/" }, "x": { "type": "number" }, "y": { "type": "number" },
@@ -50,7 +50,7 @@
         "type": "object", "required": ["s", "t", "type"],
         "properties": {
           "s": { "type": "string" }, "t": { "type": "string" },
-          "type": { "enum": ["mentions", "documents", "demonstrates", "discusses", "implements", "extends", "subscribes", "calls", "localizes", "deprecates", "introduced_in", "relates", "authored"] },
+          "type": { "enum": ["mentions", "documents", "demonstrates", "discusses", "implements", "extends", "subscribes", "calls", "localizes", "deprecates", "introduced_in", "relates", "authored", "changes"] },
           "w": { "type": "number" }, "ev": { "type": "array", "items": { "type": "string" } }
         }
       }

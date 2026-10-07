@@ -50,6 +50,23 @@ a `claude setup-token` token returns `unavailable:scope`.
   reason, at } }`, `videos: [{ id, reason, at }]`). Both are applied when pages render, so no re-probe is needed:
   the next nightly re-renders the video pages and every post whose preview no longer matches.
 
+## Code changes (D61)
+
+- Token: the nightly workflow passes the Actions token as step env `GITHUB_TOKEN` (1,000 requests an hour, no secret).
+  Manual and backfill runs read `BCOBS_GITHUB_TOKEN` from the Mini env file (a fine-grained PAT, public read only,
+  optional). Without a token the limit is 60 an hour: enough for a normal night, not for a backfill. An exhausted
+  limit holds the items (no attempt counted) and leaves the listing cursor; the next run continues by itself.
+- State: `data/state/github-prs.json` (cursor and ETag per source and branch, and per activity list). Delete a source's
+  entry to list it again from the backfill horizon.
+- Backfill (three months, about 1,400 merged pull requests on BCApps, 1,100 items, a few hundred Haiku calls): one
+  dispatched run, `gh workflow run nightly -f pillars=change -f only=bcapps-prs,al-go-prs,bcquality-prs -f unlimited=true`,
+  or on the Mini `BCOBS_GITHUB_TOKEN=... npm run nightly -- --pillars change --only bcapps-prs --unlimited --commit --push`.
+  Without it the nightly quotas (`change_fetch` 60, `changes` 40) take about a month.
+- A pull request classified wrongly: the rules are constants in `pipeline/changes/classify.ts`, each with a test;
+  bump `CHANGE_VERSION` in `pipeline/ingest/github-prs.ts` to re-fetch every change after a rule change.
+- The weekly narrative (`data/changes/narratives/<week>.json`) is one Sonnet call when a week's changes move
+  (`quotas.change_narrative`); delete the file to have it written again.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

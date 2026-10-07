@@ -38,4 +38,9 @@ const sources = defineCollection({
   loader: glob({ pattern: "*.md", base: "../content/sources", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
-export const collections = { videos, topics, features, objects, localizations, posts, digests, sources };
+const changes = defineCollection({
+  // ids are <repo slug>/<pull request number>: bcapps/12207 (D61)
+  loader: glob({ pattern: "**/*.md", base: "../content/changes", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes };

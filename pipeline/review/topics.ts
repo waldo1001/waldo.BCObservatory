@@ -59,7 +59,7 @@ export const reviewSchema = (refs: string[]) => ({
   },
 });
 
-export interface TopicReviewLink { ref: string; key: string; hash: string; kind: "video" | "post"; title: string; source: string | null; text: string; quote: string }
+export interface TopicReviewLink { ref: string; key: string; hash: string; kind: "video" | "post" | "change"; title: string; source: string | null; text: string; quote: string }
 export interface TopicReviewRun { candidates: number; calls: number; reviewed: number; kept: number; dropped: number; failed: number; cost_usd: number; stopped: string; errors: string[] }
 
 /**

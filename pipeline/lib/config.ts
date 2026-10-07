@@ -5,7 +5,7 @@ import { readJson, readText } from "./fsx.js";
 import { CONFIG_DIR, SOURCES_FILE } from "./paths.js";
 
 export type Tier = "official" | "community";
-export type SourceKind = "blog" | "youtube" | "docs-git" | "code-git" | "guidelines-git" | "roadmap-api" | "discovery";
+export type SourceKind = "blog" | "youtube" | "docs-git" | "code-git" | "guidelines-git" | "roadmap-api" | "discovery" | "github-pr";
 
 export interface SourceDef {
   id: string;

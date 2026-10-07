@@ -445,8 +445,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   evidence chip opens the player in a dialog at its second, the video stage gains a chapter rail and a mini-player,
   and a blog that refuses framing but serves WordPress's `/embed/` card shows that card in a frame without
   `allow-same-origin`. Channel avatars come from yt-dlp's channel metadata (`data/preview/channels.json`).
-- **D61 Merged BCApps pull requests are observed as changes (spec `docs/specs/bcapps-pull-requests.md`, not yet
-  implemented).** D28 fixed the code pillar at one snapshot per major, so the observatory knows what differs between
+- **D61 Merged BCApps pull requests are observed as changes (spec `docs/specs/bcapps-pull-requests.md`, implemented
+  2026-10-07 with every phase of its section 9).** D28 fixed the code pillar at one snapshot per major, so the observatory knows what differs between
   BC29 and BC30 but not what moved in BCApps this week or which objects a merge touched. A new pillar `change`
   (source kind `github-pr`, source `bcapps-prs`) discovers merged pull requests on the tracked branches through the
   GitHub REST list endpoint with an ETag and a per-branch cursor, one item per pull request keyed by its number,
@@ -460,8 +460,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   title, file paths and counts, a derived summary and at most one quote under 25 words (CONTENT-NOTICE, metadata
   only, D10). The nightly authenticates with the workflow token as step env (no new secret, D14); manual and
   backfill runs may set `BCOBS_GITHUB_TOKEN` from the Mini env file; a rate limit holds items and leaves the cursor
-  instead of failing. Backfill three months. Open pull requests, issues, releases and other repositories are later
-  phases of the same spec.
+  instead of failing. Backfill three months. Built with the spec's later phases too: (a) open pull requests, the newest
+  open issues and the releases per repository as lists (`data/changes/<repo>/activity.json`, the site's
+  `/changes/upcoming/`, the changes `llms.txt`; no page until a pull request merges); the issues a change fixes get
+  their title and state on its page. (b) The same kind for microsoft/AL-Go and microsoft/BCQuality (`al-go-prs`,
+  `bcquality-prs`), whose source roots are listed in `paths`. (c) Changes are a third unit kind of the topic linker
+  (link/topics.ts), so hubs list the code changes about them. (d) The pull-request source has a footprint page.
+  (e) One Sonnet paragraph per week, "what moved in Microsoft's code", from the change pages only, in the digest;
+  a text naming a pull request that is not that week's is rejected. Two findings changed the code: BCApps spells an
+  app folder both `app/` and `App/` while the snapshot stores `app/`, so paths join without case; and the listing is
+  sorted by update, so an old pull request with a fresh comment no longer stops it (the horizon is read on
+  `updated_at`), and the first listing pages down to the horizon instead of ten pages.
 - **D62 Older majors as diffs: BC23-27, with compact diffs.** The owner chose diffs back to 23 over full snapshots
   (2026-10-07). Base App is in BCApps only from 29, so 23-27 come from the sandbox history (w1-23 to w1-27), like 28,
   and are marked `diff_only`. Such a major's code job extracts W1 only (no countries, no apps), writes the full

@@ -11,6 +11,7 @@ summaries, cross-references and visualizations. It is unofficial and not affilia
 | Official: Microsoft's YouTube channel | captions yes | caption VTTs under `data/captions/microsoft/`, derived video pages with timestamped links |
 | Official: source code (microsoft/BCApps, MIT; StefanMaron code history, no license) | metadata only | per-object JSON (names, IDs, signatures, properties, obsolete state), structured diffs; never source text |
 | Official: microsoft/BCQuality (MIT) | yes | linked and summarized |
+| Official: merged pull requests of microsoft/BCApps, microsoft/AL-Go, microsoft/BCQuality (MIT) | **no**: the description is read for extraction and never stored | number, title, labels, merge data, changed file paths and counts, a summary in our words, at most one quote under 25 words (D61); open pull requests, issues and releases as title lists |
 | Community blogs and channels | **no**, unless opted in | summary, quotes under 25 words, timestamps, deep links, trust tier "community" |
 | Community, opted in (`full_text: true` + consent evidence in `sources.yaml`) | yes | full text may appear on derived pages with attribution |
 

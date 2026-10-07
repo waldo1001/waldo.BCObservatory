@@ -28,6 +28,7 @@ import { incoming, outgoing, type RelEdge, type Relations } from "../code/relati
 import { areaOf } from "../lib/systems.js";
 import type { DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { changesByObjectPath, type ChangeRef } from "./change.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
 
 const TYPE_LABEL: Record<string, string> = {
@@ -67,6 +68,8 @@ export interface ObjectWorld {
   basePage?: (o: AlObject) => string | null;
   /** Page key and title of any object key, once page keys are known (relations link through it). */
   pageOf?: (key: string) => { pk: string; title: string } | null;
+  /** Merged pull requests with a page that touched the object, per page key, newest first (D61). */
+  changes?: Map<string, ChangeRef[]>;
 }
 
 /** Everything the object pages need, read once. */
@@ -136,7 +139,9 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     const p = resolve(dataDir, "code", "relations", `${m}.json`);
     if (exists(p)) { const rel = readJson<Relations>(p); relations.set(m, { rel, in: incoming(rel), out: outgoing(rel) }); }
   }
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations, countryOnly };
+  const cbo = changesByObjectPath(dataDir);
+  const changes = new Map<string, ChangeRef[]>(exists(cbo) ? Object.entries(readJson<Record<string, unknown>>(cbo)).filter(([k]) => k !== "schema") as [string, ChangeRef[]][] : []);
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations, countryOnly, changes };
 }
 
 const REL_CAP = 50;
@@ -157,6 +162,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const topics = [...new Set(docs.flatMap((d) => w.topicsByUrl.get(d.url) ?? []))].sort();
   const countries = own ? [] : (w.replacedIn.get(key) ?? []).sort();
   const pageKey = own ? ownPageKey(o, own.cc) : objectPageKey(o);
+  const changes = w.changes?.get(pageKey) ?? [];
   const title = own ? `${titleOf(o)} (${own.cc.toUpperCase()})` : titleOf(o);
   const events = o.procedures.filter((p) => p.event && p.event !== "subscriber");
   const subs = o.procedures.filter((p) => p.subscribes_to);
@@ -189,12 +195,12 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}|${own?.cc ?? ""}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
       learn: docs.map((d) => d.url), objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
       localizations: own ? (hasLocalization(own.cc) ? [`localization/${own.cc}`] : []) : countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
-      videos: [], posts: [], guidelines: [],
+      videos: [], posts: [], guidelines: [], ...(changes.length ? { changes: changes.map((c) => `change/${c.page}`) } : {}),
     },
     object_type: o.type, object_id: o.id, name: o.name, namespace: o.namespace, app: o.app, extends: o.extends,
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
@@ -255,6 +261,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     lines.push("");
   }
   if (extendedBy.length) lines.push("## Extended by", "", ...extendedBy.slice(0, REL_CAP).map((e) => `- ${link(e.s)}`), ...(extendedBy.length > REL_CAP ? [`- and ${extendedBy.length - REL_CAP} more`] : []), "");
+  if (changes.length) lines.push("## Recent changes", "", ...changes.map((c) => `- ${c.merged_at} [#${c.number} ${cell(c.title)}](${"../".repeat(pageKey.split("/").length)}changes/${c.page}.md) (${c.base}${c.major ? `, BC${c.major}` : ""}, ${c.kind}${c.status !== "modified" ? `, ${c.status}` : ""})`), "");
   lines.push("## Across versions", "", `- Present in: ${life.versions.map((v) => `BC${v}`).join(", ")}`, `- Changed (declaration) in: ${life.changed.length ? life.changed.map((v) => `BC${v}`).join(", ") : "none"}`,
     ...(o.obsolete && o.obsolete.state !== "No" ? [`- Obsolete: ${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}${o.obsolete.reason ? `, "${cell(o.obsolete.reason)}"` : ""}`] : []), "");
   if (countries.length) lines.push("## Countries that replace it", "", countries.map((cc) => (hasLocalization(cc) ? `[${cc.toUpperCase()}](../../localizations/${cc}.md)` : cc.toUpperCase())).join(", "), "");

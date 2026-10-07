@@ -1,6 +1,6 @@
 # Code changes: merged BCApps pull requests as observed changes
 
-Status: proposed, 2026-10-07. Decision: D61. Owner: waldo.
+Status: implemented, 2026-10-07, v1 and every phase of section 9 (section 12 records what was built and where it differs). Decision: D61. Owner: waldo.
 Scope: merged pull requests of `microsoft/BCApps` on the branches the code pillar tracks (`main`, `releases/29.x`;
 `releases/30.x` when `config/versions.json` adds it). Open pull requests, issues, releases and other repositories
 are later phases (section 9).
@@ -397,8 +397,54 @@ Modified: `sources.yaml`, `schemas/sources.json`, `schemas/manifest-item.json`, 
 
 ## Definition of Done
 
-- [ ] Section 5 tests written first and green; `npm run typecheck && npm test`, `npm run validate:sources`,
+- [x] Section 5 tests written first and green; `npm run typecheck && npm test`, `npm run validate:sources`,
       `npm run validate:content`, `npm run lint:workflows`, `npm run check:leak` green.
 - [ ] AC1 to AC9 observed on a real nightly after the three-month backfill.
-- [ ] D61 recorded; CONTENT-NOTICE row, AGENTS.md section list, RUNBOOK token note and PLAN rows updated.
+- [x] D61 recorded; CONTENT-NOTICE row, AGENTS.md section list, RUNBOOK token note and PLAN rows updated.
 - [ ] MCP package description updated (publish optional, D40).
+
+## 12. Outcome (2026-10-07)
+
+v1 (sections 2 to 8) and every phase of section 9 are built. Tests: `changes-classify`, `changes-ingest`,
+`changes-join`, `change-pages` (fetch, extract, link, publish, object page, reverse index, digest, search record,
+graph edge), `changes-phases` (topic units, source page, narrative, activity), plus the MCP, schema and queue
+additions; 299 tests in all.
+
+Checked against the live API (dry run, `--pillars change --only bcapps-prs`): the three-month listing found 1,435
+merged pull requests on `main` and `releases/29.x`, 120 bots and 176 backports among them, 1,139 items. Six recent
+ones went through every stage with a real Haiku call; their pages validate and join to the object pages they
+changed (#12207 to seven System Application objects, #11560 to ten E-Document and PEPPOL objects).
+
+Differences from sections 1 to 8:
+
+- **Case-insensitive join.** BCApps spells an app folder both `app/` and `App/`; the snapshot stores `app/`. The
+  path classes and the join compare without case. (Object pages build their GitHub source links from the same
+  lowercased paths, which can 404 for `App/` apps: a code-pillar issue, not fixed here.)
+- **The horizon is read on `updated_at`.** The list is sorted by update, so an old pull request with a fresh comment
+  came first and stopped the listing; it is now skipped. The first listing of a branch pages down to the horizon
+  (at most 100 pages) instead of ten, or a backfill would set the cursor past what it never read.
+- **`[main]` titles.** A `[29.x]` or `[releases/29.x]` prefix marks a backport; a `[main]` prefix does only with a
+  backport note in the body, because BCApps uses it for originals too. A backport without `#n` finds its original
+  by title (`title_key`).
+- **What is kept per pull request.** A non-code pull request keeps its totals, not its file list. Every merged one,
+  bots and backports included, is logged in `data/changes/<repo>/merged.json` for the digest's counts.
+- **The file index** is refreshed by the nightly's `changes-relink` phase rather than inside `refreshCodeDerived`
+  (an import cycle), one entry per line. **The reverse index** is keyed by object page key, not object key: a
+  country's own objects share an object key across countries.
+- **Order of the post-loop:** relink, re-render change pages, reverse index and change index all run before
+  `code-pages`, so object pages read tonight's changes.
+
+Section 9, as built:
+
+- **Open pull requests, issues, releases:** `data/changes/<repo>/activity.json` per source (three ETag-conditional
+  lists a night), the site's `/changes/upcoming/`, the changes `llms.txt`, releases in the digest. A change's
+  `fixes_issues` get title and state (at most three calls). No manifest items: an open pull request has no page.
+- **Other repositories:** `al-go-prs` (`Actions/`, `Templates/`) and `bcquality-prs` (`microsoft/`, `community/`,
+  `custom/`, `skills/`); a source's `paths` decides its source files before any extension rule.
+- **Topic-hub links:** a change is a unit of `link/topics.ts` (systems from the join first), and topic pages list it
+  under "Videos, posts and code changes" with `links.changes`.
+- **Source footprint:** `content/sources/bcapps-prs.md` and the others, dated by merge, with a flight path.
+- **Weekly narrative:** `pipeline/summarize/changes-week.ts`, one Sonnet call when a week's change pages move,
+  quota `change_narrative: 1`; rendered at the top of the digest's "Code changes".
+
+Open: the backfill itself (RUNBOOK, "Code changes"), after which AC1 to AC9 are observed on a real nightly.

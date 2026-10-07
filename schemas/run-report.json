@@ -159,6 +159,15 @@
         "rerendered": { "type": "integer" }, "flipped": { "type": "array", "items": { "type": "string" } }, "channels": { "type": "integer" }
       }
     },
+    "changes": {
+      "description": "D61: merged pull requests fetched, skipped as non-code, planned but not reached, change pages, relinked records, GitHub calls",
+      "type": "object",
+      "required": ["fetched", "skipped_non_code", "held", "pages", "relinked", "api_calls"],
+      "properties": {
+        "fetched": { "type": "integer" }, "skipped_non_code": { "type": "integer" }, "held": { "type": "integer" }, "pages": { "type": "integer" },
+        "relinked": { "type": "integer" }, "rerendered": { "type": "integer" }, "api_calls": { "type": "integer" }, "narrated": { "type": "integer" }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   }

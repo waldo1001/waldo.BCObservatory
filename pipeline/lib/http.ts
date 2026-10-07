@@ -5,12 +5,18 @@ export const USER_AGENTS = {
   browser: "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
 } as const;
 
-/** `raw`: return the response whatever its status (the preview probe reads headers of refusals too, D60). */
-export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number; raw?: boolean }) => Promise<Response>;
+/**
+ * `raw`: return the response whatever its status (the preview probe reads headers of refusals too, D60).
+ * `headers`: extra request headers (the GitHub client's version, token and ETag, D61).
+ */
+export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number; raw?: boolean; headers?: Record<string, string> }) => Promise<Response>;
+
+/** 2xx, and 304 for a conditional request: a "not modified" is an answer, not an error. */
+export const ok = (status: number) => (status >= 200 && status < 300) || status === 304;
 
 export const httpGet: HttpGet = async (url, opts = {}) => {
   const res = await fetch(url, {
-    headers: { "user-agent": USER_AGENTS[opts.ua ?? "default"], accept: opts.accept ?? "*/*" },
+    headers: { "user-agent": USER_AGENTS[opts.ua ?? "default"], accept: opts.accept ?? "*/*", ...(opts.headers ?? {}) },
     signal: AbortSignal.timeout(opts.timeoutMs ?? 45_000),
     redirect: "follow",
   });

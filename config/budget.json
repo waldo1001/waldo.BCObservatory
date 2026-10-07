@@ -49,7 +49,10 @@
     "coverage_reviews": 20,
     "opus_reviews": 10,
     "llm_calls_max": 450,
-    "preview_probes": 80
+    "preview_probes": 80,
+    "change_fetch": 60,
+    "changes": 40,
+    "change_narrative": 1
   },
   "preview_ttl_days": 30,
   "retry": {
@@ -62,8 +65,8 @@
   },
   "concurrency": 6,
   "catch_up": { "until": "2026-10-06" },
-  "lanes": { "web": 3, "youtube": 1, "code": 1 },
-  "lane_timeout_seconds": { "web": 180, "youtube": 1200 },
+  "lanes": { "web": 3, "youtube": 1, "code": 1, "github": 2 },
+  "lane_timeout_seconds": { "web": 180, "youtube": 1200, "github": 120 },
   "checkpoint_items": 50,
   "checkpoint_minutes": 20
 }

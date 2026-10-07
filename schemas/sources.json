@@ -43,7 +43,7 @@
       "type": "object", "required": ["id", "kind", "name", "url"], "additionalProperties": false,
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
-        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery"] },
+        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery", "github-pr"] },
         "name": { "type": "string", "minLength": 2 },
         "url": { "type": "string", "format": "uri" },
         "tier": { "$ref": "#/$defs/tier" },
@@ -65,7 +65,7 @@
       },
       "allOf": [
         { "if": { "properties": { "kind": { "const": "youtube" } } }, "then": { "required": ["channel_id"] } },
-        { "if": { "properties": { "kind": { "enum": ["docs-git", "code-git", "guidelines-git"] } } }, "then": { "required": ["repo"] } },
+        { "if": { "properties": { "kind": { "enum": ["docs-git", "code-git", "guidelines-git", "github-pr"] } } }, "then": { "required": ["repo"] } },
         { "if": { "properties": { "kind": { "enum": ["blog", "discovery", "roadmap-api"] } } }, "then": { "required": ["fetch"] } }
       ]
     }

@@ -40,7 +40,7 @@ export function learnText(desc: string, pageUrl: string): string {
 }
 
 /** A video or post linked to a topic (link/topics.ts): page id, kind, title and the quote that grounds the link. */
-export interface TopicMedia { key: string; kind: "video" | "post"; title: string; quote: string }
+export interface TopicMedia { key: string; kind: "video" | "post" | "change"; title: string; quote: string }
 
 export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = []): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
@@ -63,6 +63,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
     links: {
       learn: own.map((m) => m.url), objects: [], features: [], topics: [...(hub.parent ? [hub.parent] : []), ...hub.children], localizations: [],
       videos: media.filter((x) => x.kind === "video").map((x) => x.key), posts: media.filter((x) => x.kind === "post").map((x) => x.key), guidelines: [],
+      ...(media.some((x) => x.kind === "change") ? { changes: media.filter((x) => x.kind === "change").map((x) => x.key) } : {}),
     },
     learn_toc_path: [...hub.breadcrumb, hub.title], toc_file: hub.toc, parent: hub.parent, children: hub.children,
     coverage: { learn: members.length, code: 0, video: media.filter((x) => x.kind === "video").length, blog: media.filter((x) => x.kind === "post").length, guideline: 0 }, bc_forms: forms, member_hash: hub.member_hash, narrative: narrative ? "generated" : "none",
@@ -88,9 +89,10 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   if (media.length) {
     // page links relative to this topic page: content/topics/<rel> -> content/<videos|posts>/<id>.md
     const up = "../".repeat(topicRel(hub.id).split("/").length);
-    const link = (x: TopicMedia) => `${up}${x.kind === "video" ? "videos" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
-    lines.push("## Videos and posts", "", "Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.", "",
-      ...media.map((x) => `- [${cell(x.title)}](${link(x)}) (${x.kind === "video" ? "video" : "community post"}): "${cell(x.quote)}"`), "");
+    const link = (x: TopicMedia) => `${up}${x.kind === "video" ? "videos" : x.kind === "change" ? "changes" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
+    const label = { video: "video", post: "community post", change: "code change" } as const;
+    lines.push(media.some((x) => x.kind === "change") ? "## Videos, posts and code changes" : "## Videos and posts", "", "Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.", "",
+      ...media.map((x) => `- [${cell(x.title)}](${link(x)}) (${label[x.kind]}): "${cell(x.quote)}"`), "");
   }
   if (forms.length) lines.push("## Business Central pages and reports", "", `Learn's ms.search.form names these object ids (not yet joined to the code pillar): ${forms.join(", ")}.`, "");
   lines.push("Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.", "");

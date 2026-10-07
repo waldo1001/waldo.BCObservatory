@@ -139,7 +139,7 @@ cache; they build from committed `content/`.
 
 ```yaml
 id: topic/posting-groups          # <type>/<slug>, stable
-type: topic                       # topic|feature|object|localization|source|video|post|digest
+type: topic                       # topic|feature|object|localization|source|video|post|digest|change
 title: …
 summary: one or two agent-facing sentences
 tier: official|community|mixed
@@ -150,7 +150,7 @@ review: {state: unreviewed|reviewed|flagged, by: null|opus, at: null, flags: []}
 generated: {at: …, pipeline: "0.1.0", prompts: {extract-video: 3, hub-topic: 2}, input_hash: sha256}
 evidence:                         # captured from day one; UI in v0.2
   - {kind: learn|code|video|blog|guideline|roadmap, url, title, date, commit: sha|null, t: seconds|null, quote: "<25 words"|null}
-links: {learn: [], objects: [], features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: []}
+links: {learn: [], objects: [], features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [], changes: []}
 ```
 
 | type | extra fields |
@@ -158,6 +158,7 @@ links: {learn: [], objects: [], features: [], topics: [], localizations: [], vid
 | topic | `learn_toc_path`, `children`, `coverage: {learn, code, video, blog, guideline}` |
 | feature | `roadmap_id`, `wave`, `status: preview|ga|announced|unclear`, `ga_date`, `preview_date`, `whatsnew_url`, `localizations`, `objects_touched` |
 | object | `object_type`, `object_id`, `name`, `namespace`, `app`, `first_version`, `last_version`, `obsolete: {state, tag, reason}`, `countries`, `ms_search_form_ids`, `counts: {fields, procedures, events, subscribers}` |
+| change | `number`, `repo`, `source_id`, `url`, `kind: pr`, `base_branch`, `major`, `merged_at`, `author`, `community_contribution`, `labels`, `change_class`, `change_kind`, `behavior_change`, `breaking`, `files`, `apps`, `objects_touched`, `objects_unjoined`, `obsoletions`, `backports`, `fixes_issues`, `work_items`, `systems`, `quote`, `joined_against` (D61, `schemas/frontmatter.change.json`) |
 | localization | `country`, `version`, `w1_version`, `added_objects`, `replaced_objects`, `added_fields`, `added_events`, `learn_folder: LocalFunctionality/Belgium` |
 | source | `source_id`, `kind`, `author`, `mvp`, `full_text`, `item_count`, `footprint: {topics: [{id, weight}], objects, features}`, `first_item`, `last_item` |
 | video | `video_id`, `channel`, `published_at`, `duration_s`, `captions: full|derived`, `chapters: [{t, title}]`, `quotes: [{t, text, check}]`, `transcript_page` |
@@ -209,6 +210,8 @@ different content.
 | 1 | ingest-youtube | channel RSS nightly; `yt-dlp --flat-playlist` weekly reconcile → items | RSS, yt-dlp | Mini |
 | 1 | ingest-blogs | WP REST → paged RSS → scraper (2 sites); language detect | fetch, cheerio, franc | Mini |
 | 1 | ingest-roadmap | m365 API filtered on product + RSS → dated snapshot + diff items | fetch (prev `fetch.ts`) | Mini |
+| 1 | ingest-changes | GitHub REST: merged pull requests per tracked branch (ETag, cursor; bots and backports from the list payload), open pull requests, issues, releases (D61) | `pipeline/ingest/github-prs.ts` | Mini |
+| 2 | fetch-change | pull request + files → record, path classes, exact join to object pages (`data/code/<major>/files.json`); non-code skipped | GitHub REST, lane `github` | Mini |
 | 2 | caption | yt-dlp `en-orig` auto-subs, 5–10 s sleep → VTT → segments (prev 01) | yt-dlp, deno | Mini only |
 | 3 | extract | item text/segments → `{topics, features, objects, entities, links, quotes, language}` under schema | **Haiku**; 15-min / 6k-token windows then consolidate (prev 02) | Mini |
 | 4 | validate-1 | schema; quotes verbatim (prev `quotes.ts`; ≤ 25 words for community); objects exist in code index; links resolve | deterministic | Mini |

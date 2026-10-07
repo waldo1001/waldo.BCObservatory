@@ -22,6 +22,8 @@ export interface IngestContext {
   versions: VersionsConfig;
   /** data/state: small committed bookkeeping (e.g. when a channel was last reconciled). */
   stateDir?: string;
+  /** The data directory (change records, backports: D61); defaults to the parent of roadmapDir. */
+  dataDir?: string;
   /** Full channel listing for the weekly reconcile; tests inject a fake, production uses yt-dlp. */
   flatPlaylist?: (channelId: string) => Promise<{ id: string; title: string; duration_s: number | null }[]>;
 }
@@ -39,7 +41,7 @@ export interface SourceResult {
 
 export const PILLAR_OF: Record<SourceKind, Pillar | null> = {
   "docs-git": "docs", "guidelines-git": "guidelines", "code-git": "code", youtube: "video", blog: "blog",
-  "roadmap-api": "roadmap", discovery: null,
+  "roadmap-api": "roadmap", discovery: null, "github-pr": "change",
 };
 
 export function newResult(source: Pick<SourceDef, "id" | "kind">): SourceResult {

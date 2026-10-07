@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+const base = import.meta.env.BASE_URL;
+const all = (await getCollection("changes")).sort((a, b) => String(b.data.merged_at).localeCompare(String(a.data.merged_at)) || b.data.number - a.data.number);
+const kinds = [...new Set(all.map((c) => String(c.data.change_kind)))].sort();
+---
+<List section="changes" title="Code changes · BC Observatory" description="Merged pull requests of Microsoft's Business Central code, joined to the AL objects they changed.">
+  <p class="eyebrow">Code changes</p>
+  <h1>{all.length} changes</h1>
+  <p class="lede">Merged pull requests of Microsoft's Business Central repositories (<a href="https://github.com/microsoft/BCApps">BCApps</a>, <a href="https://github.com/microsoft/AL-Go">AL-Go</a>, <a href="https://github.com/microsoft/BCQuality">BCQuality</a>) that touch their source, described in our words; BCApps changes link to the AL object pages they changed. Metadata only: no source text. Agents: <a href={`${base}changes/llms.txt`}>llms.txt</a>. What is still open: <a href={`${base}changes/upcoming/`}>upcoming</a>.</p>
+  <p class="meta">{kinds.map((k) => `${all.filter((c) => c.data.change_kind === k).length} ${k}`).join(" · ")}</p>
+  <ul class="list">
+    {all.map((c) => (
+      <li>
+        <a href={`${base}changes/${c.id}/`}>{c.data.title}</a>
+        <span class="row-meta"><span class="badge">{c.data.change_kind}</span>{c.data.breaking && <span class="badge obsolete">breaking</span>}{c.data.community_contribution && <span class="badge">community contribution</span>}</span>
+        <div class="meta">{c.data.base_branch}{c.data.major ? ` · BC${c.data.major}` : ""} · {String(c.data.merged_at).slice(0, 10)} · {(c.data.objects_touched ?? []).length} {(c.data.objects_touched ?? []).length === 1 ? "object" : "objects"}</div>
+        <div>{c.data.summary}</div>
+      </li>
+    ))}
+  </ul>
+</List>

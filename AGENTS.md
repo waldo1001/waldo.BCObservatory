@@ -19,7 +19,8 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    W1; see `content/localizations/` and `data/code/diffs/country/`.
 5. Sections: `topics/` (Learn hubs), `objects/<type>/<id>` (AL objects of W1 and Microsoft's first-party apps,
    BC28-30), `localizations/`, `features/` (Microsoft 365 roadmap), `videos/`, `posts/` (community, derived),
-   `sources/` (footprints), `digests/` (weekly, with the deprecation radar). Lookups: `data/index/pages-*.json` +
+   `sources/` (footprints), `digests/` (weekly, with the deprecation radar), `changes/<repo>/<n>` (merged pull
+   requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
    exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.

@@ -48,6 +48,10 @@ import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { pendingPreviewPages, renderPostIndex, rerenderPostPages } from "../render/post.js";
 import { refreshChannels, refreshPreviews, writeIcons } from "../extract/preview-probe.js";
+import { relinkChanges, renderChangeIndex, renderChangesByObject, rerenderChangePages } from "../render/change.js";
+import { narrateChangeWeeks } from "../summarize/changes-week.js";
+import { refreshFileIndex } from "../code/files-index.js";
+import { githubCalls } from "../lib/github.js";
 import { renderSearchIndex } from "../render/search.js";
 import { renderObjectsIndex } from "../render/objects-index.js";
 import { renderDigests } from "../render/digest.js";
@@ -146,6 +150,8 @@ export interface RunReport {
   content?: { pages: number; errors: number };
   /** The preview probe (D60): posts probed for framing and card fields; hosts that stopped allowing framing. */
   previews?: { probed: number; refreshed: number; failed: number; rerendered: number; flipped: string[]; channels?: number };
+  /** The change pillar (D61): pull requests fetched, skipped as non-code, planned but not reached, pages, relinked, GitHub calls. */
+  changes?: { fetched: number; skipped_non_code: number; held: number; pages: number; relinked: number; rerendered: number; api_calls: number; narrated?: number };
   items_changed: number; errors: string[];
 }
 
@@ -200,7 +206,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
   }
 
   const ctx: IngestContext = {
-    manifest, http: deps.http, now, mirrorsDir: resolve(opts.cacheDir, "git-mirrors"), roadmapDir: resolve(opts.dataDir, "roadmap"),
+    manifest, http: deps.http, now, mirrorsDir: resolve(opts.cacheDir, "git-mirrors"), roadmapDir: resolve(opts.dataDir, "roadmap"), dataDir: opts.dataDir,
     repoUrl: deps.repoUrl ?? ((repo) => `https://github.com/${repo}`), knownHosts: knownHosts(deps.sources),
     versions: loadConfig<VersionsConfig>("versions"),
     stateDir: resolve(opts.dataDir, "state"), flatPlaylist: deps.flatPlaylist ?? flatPlaylist,
@@ -297,6 +303,22 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         errors.push(...nErr);
         report.code.narratives = nRun;
       }
+      // change pages first (D61): the object pages read the reverse index they produce
+      report.changes = await phase("changes-relink", () => {
+        for (const [m, v] of Object.entries(loadConfig<VersionsConfig>("versions").majors)) if (v.snapshot_source === "bcapps") refreshFileIndex(opts.dataDir, m);
+        const relinked = relinkChanges(manifest, opts.dataDir);
+        const rerendered = rerenderChangePages(manifest, { dataDir: opts.dataDir, contentDir: contentDirOf(opts), now: () => now });
+        renderChangesByObject(contentDirOf(opts), opts.dataDir);
+        const pages = renderChangeIndex(contentDirOf(opts), opts.dataDir);
+        const startedAt = report.started_at;
+        const changeItems = manifest.list("change");
+        return {
+          fetched: execution.stages_run["change:fetched"] ?? 0,
+          skipped_non_code: changeItems.filter((i) => i.skip === "non-code" && (i.skipped_at ?? "") >= startedAt).length,
+          held: Math.max(0, plan.work.filter((w) => w.pillar === "change" && w.stage === "fetched").length - (execution.stages_run["change:fetched"] ?? 0)),
+          pages, relinked, rerendered, api_calls: githubCalls(),
+        };
+      });
       report.code.pages = await phase("code-pages", () => renderCodePages(opts.dataDir, contentDirOf(opts)));
     } catch (e) {
       errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
@@ -338,6 +360,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
+    // the week in Microsoft's code, one Sonnet paragraph for the digest (D61 section 9); shed like every LLM phase
+    const narrated = await optionalPhase("change-narrative", () => narrateChangeWeeks(contentDirOf(opts), opts.dataDir, now, { quota: linking ? quotas.change_narrative ?? 0 : 0 }));
+    if (report.changes && narrated) Object.assign(report.changes, { narrated: narrated.written });
     await phase("indexes", () => {
       renderVideoIndex(contentDirOf(opts));
       renderPostIndex(contentDirOf(opts));

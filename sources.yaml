@@ -81,6 +81,42 @@ sources:
     repo: microsoft/BCApps
     license: MIT
     mode: metadata-only
+  # D61: merged pull requests as observed changes; metadata only (no body, no patch), pages for AL-touching ones
+  - id: bcapps-prs
+    kind: github-pr
+    name: microsoft/BCApps pull requests
+    url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
+    tier: official
+    full_text: false
+    repo: microsoft/BCApps
+    license: MIT
+    mode: metadata-only
+    backfill: { months: 3 }
+  # D61 section 9: the same kind for Microsoft's other Business Central repositories; `paths` names their source
+  - id: al-go-prs
+    kind: github-pr
+    name: microsoft/AL-Go pull requests
+    url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
+    tier: official
+    full_text: false
+    repo: microsoft/AL-Go
+    branch: main
+    paths: ["Actions/", "Templates/"]
+    license: MIT
+    mode: metadata-only
+    backfill: { months: 3 }
+  - id: bcquality-prs
+    kind: github-pr
+    name: microsoft/BCQuality pull requests
+    url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
+    tier: official
+    full_text: false
+    repo: microsoft/BCQuality
+    branch: main
+    paths: ["microsoft/", "community/", "custom/", "skills/"]
+    license: MIT
+    mode: metadata-only
+    backfill: { months: 3 }
   - id: sandbox-history
     kind: code-git
     name: StefanMaron/MSDyn365BC.Sandbox.Code.History

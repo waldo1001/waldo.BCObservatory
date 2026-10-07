@@ -24,6 +24,7 @@ import { logger } from "../lib/log.js";
 import { sha256 } from "../lib/text.js";
 import type { Llm, VideoExtraction } from "../extract/video.js";
 import type { PostExtraction } from "../extract/post.js";
+import type { ChangeExtraction } from "../extract/change.js";
 import { pool } from "../summarize/hub.js";
 import { quoteIn } from "./roadmap.js";
 
@@ -34,7 +35,7 @@ export const MAX_PER_UNIT = 3;
 const REJECTIONS_KEPT = 20;
 const log = logger("topic-links");
 
-export const SYSTEM = `You link Business Central videos and blog posts to topic hubs of a knowledge base. A topic hub is a section of the Microsoft Learn documentation (title and path).
+export const SYSTEM = `You link Business Central videos, blog posts and code changes (merged pull requests of Microsoft's code) to topic hubs of a knowledge base. A topic hub is a section of the Microsoft Learn documentation (title and path).
 For each evidence item, name the topic hubs it is about: the item explains, demonstrates or discusses something that Learn section documents.
 Rules:
 - Pick the most specific hub that fits ("Set up VAT" over "Finance"). A parent hub only when the item covers that area broadly.
@@ -45,9 +46,11 @@ Rules:
 - quote: copy 3 to 15 consecutive words verbatim from the evidence item's text (never from the hub) that show the subject. Do not shorten or reword them.
 - Only refs and hub ids from the input.`;
 
+/** D61: merged pull requests (change pages) are a third unit kind, linked from their summary and key points. */
+export type UnitKind = "video" | "post" | "change";
 export interface TopicCandidate { id: string; alias: string; title: string; path: string; system: string }
 export interface TopicMatch { topic: string; quote: string }
-export interface TopicLinkUnit { kind: "video" | "post"; key: string; hash: string; title: string; source: string | null; at: string; matches: TopicMatch[] }
+export interface TopicLinkUnit { kind: UnitKind; key: string; hash: string; title: string; source: string | null; at: string; matches: TopicMatch[] }
 export interface TopicLinks { prompt_version: number; units: Record<string, TopicLinkUnit> }
 export interface TopicLinkRun {
   units: number; stale: number; calls: number; matched: number; rejected: number; failed: number; cost_usd: number;
@@ -79,7 +82,7 @@ export function topicCandidates(contentDir: string): TopicCandidate[] {
   return out.sort((a, b) => a.id.localeCompare(b.id)).map((c, i) => ({ ...c, alias: `t${i + 1}` }));
 }
 
-export interface Pending { kind: "video" | "post"; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string }
+export interface Pending { kind: UnitKind; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string }
 
 const unitHash = (text: string, cands: TopicCandidate[]) => sha256(JSON.stringify({ v: PROMPT_VERSION, text, cands: cands.map((c) => [c.id, c.title, c.path]) }));
 const inSystems = (all: TopicCandidate[], systems: string[]) => all.filter((c) => systems.includes(c.system));
@@ -99,12 +102,25 @@ export function postUnit(x: PostExtraction, all: TopicCandidate[]): Pending | nu
   return { kind: "post", key: x.item_id.replace(/^blog\//, "post/"), title: x.title, source: x.source, text, systems: x.systems, cands, hash: unitHash(text, cands) };
 }
 
-/** Every unit the video and post extractions on disk produce; units without candidates are absent. */
+/** A code change (D61): its title, our summary and key points; systems from the record's join or the extraction. */
+export function changeUnit(x: ChangeExtraction, all: TopicCandidate[]): Pending | null {
+  if (!x.title || !x.repo) return null;
+  // the join's systems are facts (D61 decision 7); Haiku's are the fallback when nothing joined
+  const systems = x.systems_joined?.length ? x.systems_joined : x.systems;
+  const cands = inSystems(all, systems);
+  if (!cands.length) return null;
+  const text = [x.title, x.summary, ...x.key_points].filter(Boolean).join(". ");
+  const slug = x.repo.split("/")[1].toLowerCase();
+  return { kind: "change", key: `change/${slug}/${x.number}`, title: `#${x.number} ${x.title}`, source: x.item_id.split("/")[1] ?? null, text, systems, cands, hash: unitHash(text, cands) };
+}
+
+/** Every unit the video, post and change extractions on disk produce; units without candidates are absent. */
 export function gatherTopicUnits(dataDir: string, contentDir: string): Pending[] {
   const all = topicCandidates(contentDir);
   const out: Pending[] = [];
   for (const p of listFiles(resolve(dataDir, "extract", "video"), ".json").sort()) { const u = videoUnit(readJson<VideoExtraction>(p), all); if (u) out.push(u); }
   for (const p of listFiles(resolve(dataDir, "extract", "blog"), ".json").sort()) { const u = postUnit(readJson<PostExtraction>(p), all); if (u) out.push(u); }
+  for (const p of listFiles(resolve(dataDir, "extract", "change"), ".json").sort()) { const u = changeUnit(readJson<ChangeExtraction>(p), all); if (u) out.push(u); }
   return out;
 }
 
@@ -214,15 +230,15 @@ export async function linkTopics(
  * a blogger tag id, which is not a file name: its page lives at `post/<source>/<fileKey(key)>` (render/post.ts). The
  * unit key stays the identity for hashes and verdicts; only the views translate (D58).
  */
-export function unitPageId(kind: "video" | "post", key: string): string {
+export function unitPageId(kind: UnitKind, key: string): string {
   if (kind !== "post") return key;
   const [, source, ...rest] = key.split("/");
   return `post/${source}/${fileKey(rest.join("/"))}`;
 }
 
 /** Per topic id: the videos and posts linked to it, minus links Opus dropped (the topic pages and the graph read this). */
-export function mediaByTopic(links: TopicLinks, review: TopicReview = NO_REVIEW): Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]> {
-  const m = new Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]>();
+export function mediaByTopic(links: TopicLinks, review: TopicReview = NO_REVIEW): Map<string, { key: string; kind: UnitKind; title: string; quote: string }[]> {
+  const m = new Map<string, { key: string; kind: UnitKind; title: string; quote: string }[]>();
   for (const u of Object.values(links.units)) for (const x of u.matches) {
     if (topicVerdictOf(review, x.topic, u.key, u.hash)?.verdict === "drop") continue;
     m.set(x.topic, [...(m.get(x.topic) ?? []), { key: unitPageId(u.kind, u.key), kind: u.kind, title: u.title, quote: x.quote }]);

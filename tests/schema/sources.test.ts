@@ -56,3 +56,13 @@ test("schema: a source's embed opt-out (D60) is a boolean", () => {
   assert.deepEqual(validateSourcesDoc(withEmbed(false), loadSources()).errors, []);
   assert.ok(validateSourcesDoc(withEmbed("no"), loadSources()).errors.length > 0, "embed: \"no\" is rejected");
 });
+
+test("schema and policy: a github-pr source needs repo and mode metadata-only (D61)", () => {
+  const raw = loadSourcesRaw();
+  const pr = loadSources().find((s) => s.kind === "github-pr");
+  assert.ok(pr, "bcapps-prs is registered");
+  const withoutRepo = { ...raw, sources: raw.sources.map((s) => (s.id === pr!.id ? (({ repo: _r, ...rest }) => rest)(s) : s)) } as SourcesDoc;
+  assert.ok(validateSourcesDoc(withoutRepo, loadSources()).errors.some((e) => /repo/.test(e)));
+  const r = withSource((s) => ({ ...s, mode: undefined }), (s) => s.kind === "github-pr");
+  assert.ok(r.errors.some((e) => e.includes("pull-request sources must be mode metadata-only")));
+});

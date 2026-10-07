@@ -26,6 +26,11 @@ export function writeText(path: string, text: string): void {
 export function writeJson(path: string, value: unknown, pretty = true): void {
   writeText(path, (pretty ? JSON.stringify(value, null, 2) : JSON.stringify(value)) + "\n");
 }
+/** An object as JSON with one key per line: one valid document whose git diff reads entry by entry. */
+export function writeJsonLines(path: string, value: Record<string, unknown>): void {
+  const body = Object.entries(value).map(([k, v]) => `${JSON.stringify(k)}:${JSON.stringify(v)}`).join(",\n");
+  writeText(path, body ? `{\n${body}\n}\n` : "{}\n");
+}
 export function appendLine(path: string, line: string): void {
   ensureDir(dirname(path));
   writeFileSync(path, line.endsWith("\n") ? line : line + "\n", { flag: "a", encoding: "utf8" });

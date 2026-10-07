@@ -1,0 +1,38 @@
+---
+import List from "../../../layouts/List.astro";
+import { activities } from "../../../lib/activity";
+const base = import.meta.env.BASE_URL;
+const all = activities();
+const repoName = (slug: string) => ({ bcapps: "microsoft/BCApps", "al-go": "microsoft/AL-Go", bcquality: "microsoft/BCQuality" } as Record<string, string>)[slug] ?? slug;
+---
+<List section="changes" title="Upcoming code changes · BC Observatory" description="Open pull requests, open issues and releases of Microsoft's Business Central repositories.">
+  <p class="eyebrow">Code changes · upcoming</p>
+  <h1>What is moving</h1>
+  <p class="lede">Open pull requests (no page until they merge), the newest open issues and the releases, per repository. Merged changes are on <a href={`${base}changes/`}>Code changes</a>. Lists only, read every night.</p>
+  {all.length === 0 && <p>Nothing read yet: the change pillar lists these on its next run.</p>}
+  {all.map(({ slug, activity: a }) => (
+    <section>
+      <h2>{repoName(slug)}</h2>
+      {a.open.length > 0 && <>
+        <h3>Open pull requests ({a.open.length})</h3>
+        <ul class="list">
+          {a.open.slice(0, 60).map((p) => (
+            <li>
+              <a href={p.url} rel="noopener">#{p.number} {p.title}</a>
+              <span class="row-meta">{p.draft && <span class="badge">draft</span>}{p.community_contribution && <span class="badge">community contribution</span>}</span>
+              <div class="meta">into {p.base}{p.major ? ` · BC${p.major}` : ""} · updated {p.updated_at.slice(0, 10)}{p.labels.length ? ` · ${p.labels.join(", ")}` : ""}</div>
+            </li>
+          ))}
+        </ul>
+      </>}
+      {a.issues.length > 0 && <>
+        <h3>Newest open issues</h3>
+        <ul class="list">{a.issues.slice(0, 30).map((i) => <li><a href={i.url} rel="noopener">#{i.number} {i.title}</a><div class="meta">{i.created_at.slice(0, 10)}{i.labels.length ? ` · ${i.labels.join(", ")}` : ""} · {i.comments} comments</div></li>)}</ul>
+      </>}
+      {a.releases.length > 0 && <>
+        <h3>Releases</h3>
+        <ul class="list">{a.releases.slice(0, 10).map((r) => <li><a href={r.url} rel="noopener">{r.name}</a><div class="meta">{r.published_at?.slice(0, 10) ?? "undated"}{r.prerelease ? " · prerelease" : ""}</div></li>)}</ul>
+      </>}
+    </section>
+  ))}
+</List>

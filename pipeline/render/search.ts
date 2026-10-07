@@ -22,7 +22,7 @@ export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards:
 /** The record of one page from its frontmatter. */
 export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   // a real date only (published, GA): object and topic pages are regenerated nightly, which is not news
-  const date = fm.published_at ?? fm.ga_date ?? undefined;
+  const date = fm.published_at ?? fm.ga_date ?? fm.merged_at ?? undefined;
   const r: PageRecord = {
     path, type: String(fm.type), title: String(fm.title ?? ""), summary: String(fm.summary ?? ""), tier: String(fm.tier ?? ""),
     ...(fm.system ? { system: fm.system } : {}), ...(date ? { date: String(date).slice(0, 10) } : {}),
@@ -33,6 +33,8 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   if (fm.type === "post") r.source = fm.source_id;
   if (fm.type === "video") r.source = fm.channel;
   if (fm.type === "feature") r.status = fm.status;
+  // a change page (D61): its repository source, and its kind as the status (feature, fix, breaking, ...)
+  if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind });
   return r;
 }
 

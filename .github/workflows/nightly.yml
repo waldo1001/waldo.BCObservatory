@@ -16,7 +16,7 @@ on:
         options: [all, ingest]
         default: all
       pillars:
-        description: "comma-separated pillars (docs,code,guidelines,video,blog,roadmap); empty = all"
+        description: "comma-separated pillars (docs,code,guidelines,video,blog,roadmap,change); empty = all"
         type: string
         default: ""
       only:
@@ -50,6 +50,8 @@ jobs:
           ONLY: ${{ inputs.only }}
           UNLIMITED: ${{ inputs.unlimited }}
           EVENT: ${{ github.event_name }}
+          # D61: the Actions token reads microsoft/BCApps pull requests at 1,000 requests an hour (ephemeral, no secret)
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           [[ "$STAGES" == all || "$STAGES" == ingest ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }

@@ -11,7 +11,7 @@ import { MANIFEST_DIR } from "./paths.js";
 import { validateOrThrow } from "./schema.js";
 import { canonicalJson, shortHash, slugify, truncate } from "./text.js";
 
-export type Pillar = "docs" | "code" | "guidelines" | "video" | "blog" | "roadmap";
+export type Pillar = "docs" | "code" | "guidelines" | "video" | "blog" | "roadmap" | "change";
 export type Stage = "discovered" | "fetched" | "captioned" | "extracted" | "summarized" | "linked" | "reviewed" | "published";
 export type State = Stage | "failed" | "skipped" | "stale";
 
@@ -50,6 +50,8 @@ export const FLOWS: Record<Pillar, Stage[]> = {
   blog: ["discovered", "fetched", "extracted", "summarized", "linked", "reviewed", "published"],
   code: ["discovered", "fetched", "extracted", "linked", "published"],
   roadmap: ["discovered", "fetched", "linked", "published"],
+  // merged pull requests (D61): fetch the record and file list, one Haiku facts pass, the object join, the page
+  change: ["discovered", "fetched", "extracted", "linked", "published"],
 };
 export const REMOVED_UPSTREAM = "removed-upstream";
 const TERMINAL = new Set<State>(["published", "failed", "skipped"]);

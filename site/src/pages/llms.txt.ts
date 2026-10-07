@@ -10,6 +10,7 @@ export const GET: APIRoute = async () => {
   const objects = (await getCollection("objects")).length;
   const localizations = (await getCollection("localizations")).length;
   const posts = (await getCollection("posts")).length;
+  const changes = (await getCollection("changes")).length;
   const digests = (await getCollection("digests")).length;
   const sources = (await getCollection("sources")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
@@ -31,6 +32,7 @@ export const GET: APIRoute = async () => {
     ...(sources ? [`- [Sources](${site}sources/llms.txt): ${sources} blogs and channels with their footprint (systems, topics, objects named, flight path)`] : []),
     ...(digests ? [`- [Weekly digests](${site}digests/llms.txt): what changed each week (roadmap, videos, posts, Learn commits, code, deprecation radar); RSS at ${site}rss.xml`] : []),
     ...(posts ? [`- [Community posts](${site}posts/llms.txt): ${posts} Business Central blog posts as derived evidence (summary, key points, short quotes, link to the original)`] : []),
+    ...(changes ? [`- [Code changes](${site}changes/llms.txt): ${changes} merged pull requests of microsoft/BCApps that touch AL source, joined to the AL object pages they changed (D61)`] : []),
     ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : []),
     "",
     "## Start here",

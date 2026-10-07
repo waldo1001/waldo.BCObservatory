@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.change.json",
+  "title": "Frontmatter of a code change page (content/changes/<repo>/<n>.md, D61): a merged pull request, metadata only",
+  "allOf": [{ "$ref": "frontmatter.base.json" }],
+  "type": "object",
+  "required": ["number", "repo", "source_id", "url", "kind", "base_branch", "merged_at", "change_class", "change_kind", "behavior_change", "breaking", "files", "objects_touched", "objects_unjoined"],
+  "properties": {
+    "type": { "const": "change" },
+    "number": { "type": "integer" },
+    "repo": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$" },
+    "source_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "url": { "type": "string", "pattern": "^https://github\\.com/" },
+    "kind": { "enum": ["pr"] },
+    "base_branch": { "type": "string" },
+    "major": { "type": ["string", "null"] },
+    "merged_at": { "type": "string" },
+    "author": { "type": ["string", "null"] },
+    "author_type": { "type": ["string", "null"] },
+    "community_contribution": { "type": "boolean" },
+    "labels": { "type": "array", "items": { "type": "string" } },
+    "change_class": { "enum": ["code", "test-only", "translation", "build", "docs", "non-code"] },
+    "change_kind": { "enum": ["feature", "fix", "refactor", "obsoletion", "performance", "breaking", "other"] },
+    "behavior_change": { "type": "boolean" },
+    "breaking": { "type": "boolean" },
+    "files": {
+      "type": "object", "required": ["count", "additions", "deletions", "al"], "additionalProperties": false,
+      "properties": { "count": { "type": "integer" }, "additions": { "type": "integer" }, "deletions": { "type": "integer" }, "al": { "type": "integer" } }
+    },
+    "apps": { "type": "array", "items": { "type": "string" } },
+    "objects_touched": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["key", "type", "name", "status"], "additionalProperties": false,
+        "properties": { "key": { "type": "string" }, "page": { "type": ["string", "null"] }, "type": { "type": "string" }, "id": { "type": ["integer", "null"] }, "name": { "type": "string" }, "app": { "type": ["string", "null"] }, "status": { "type": "string" } }
+      }
+    },
+    "objects_unjoined": {
+      "type": "array",
+      "items": { "type": "object", "required": ["path", "status", "reason"], "additionalProperties": false, "properties": { "path": { "type": "string" }, "status": { "type": "string" }, "reason": { "enum": ["removed", "not-in-snapshot"] } } }
+    },
+    "obsoletions": {
+      "type": "array",
+      "items": { "type": "object", "required": ["object"], "additionalProperties": false, "properties": { "object": { "type": "string" }, "member": { "type": ["string", "null"] }, "replacement": { "type": ["string", "null"] } } }
+    },
+    "backports": {
+      "type": "array",
+      "items": { "type": "object", "required": ["number", "base", "url"], "additionalProperties": false, "properties": { "number": { "type": "integer" }, "base": { "type": "string" }, "url": { "type": "string" } } }
+    },
+    "fixes_issues": { "type": "array", "items": { "type": "integer" } },
+    "work_items": { "type": "array", "items": { "type": "integer" } },
+    "systems": { "type": "array", "items": { "type": "string" } },
+    "quote": { "type": ["string", "null"], "maxLength": 240 },
+    "joined_against": { "type": "object", "properties": { "major": { "type": ["string", "null"] }, "commit": { "type": ["string", "null"] } } }
+  }
+}
