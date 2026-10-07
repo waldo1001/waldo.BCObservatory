@@ -1,30 +1,35 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-profiler-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview",
-  "title": "AL Profiler overview",
-  "blob": "bafdd84fa676a1b092b1ea72132d17062b71b562",
-  "summary": "AL Profiler analyzes performance hot spots in Business Central extensions by recording code execution details in instrumentation or sampling modes, helping developers validate optimizations and isolate slow processes.",
+  "title": "Analyze AL Performance with the AL Profiler",
+  "blob": "44392addbcde6fabf93af52a7c7e26635d0ecfa7",
+  "summary": "The AL Profiler helps developers analyze performance hot spots in Business Central extensions by recording execution details through instrumentation or sampling modes, which can be configured in launch.json and viewed in Visual Studio Code with call stack graphs, timings, and SQL call activity.",
   "systems": [
     "development",
     "platform"
   ],
   "topics": [
+    "performance analysis",
     "profiling",
-    "performance",
-    "al development",
-    "debugging",
+    "al extension",
+    "instrumentation",
+    "sampling",
+    "snapshot debugging",
     "optimization"
   ],
   "objects": [],
   "features": [
-    "Instrumentation profiling",
-    "Sampling profiling",
+    "Instrumentation profiling mode",
+    "Sampling profiling mode",
     "SQL call tracking",
-    "Call stack views",
-    "CodeLens integration",
-    "In-client profiling"
+    "Top-down and bottom-up call stack views",
+    "Performance Profiler page",
+    "CodeLens inline timing display",
+    "In-client performance profiler",
+    "Snapshot configuration in launch.json"
   ],
   "versions": [
+    "2022 release wave 1",
     "2025 release wave 2"
   ],
   "parts": 1,
@@ -33,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005051,
-      "pages_in_call": 8
+      "cost_usd": 0.011238,
+      "pages_in_call": 1
     }
   ]
 }

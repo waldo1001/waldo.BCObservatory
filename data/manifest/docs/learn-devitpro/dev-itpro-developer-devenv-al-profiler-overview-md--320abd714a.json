@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AL Profiler overview",
+  "title": "Analyze AL Performance with the AL Profiler",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview",
   "published_at": "2026-10-07T10:38:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.222Z",
-      "blob": "bafdd84fa676a1b092b1ea72132d17062b71b562",
-      "words": 2057,
+      "at": "2026-10-07T18:13:54.927Z",
+      "blob": "44392addbcde6fabf93af52a7c7e26635d0ecfa7",
+      "words": 1646,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:23:30.378Z",
+      "at": "2026-10-07T18:14:03.764Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005051
+      "cost_usd": 0.011238
     },
     "summarized": {
-      "at": "2026-10-06T18:23:30.387Z",
+      "at": "2026-10-07T18:14:03.765Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:23:30.387Z",
+      "at": "2026-10-07T18:14:03.767Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:23:30.388Z",
+      "at": "2026-10-07T18:14:03.770Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-al-profiler-overview.md",
-    "description": "Description of how to use the AL profiler and the Performance Profiler to analyze performance in code written for Business Central.",
-    "ms_date": "2025-09-03",
+    "description": "Use instrumentation or sampling with the AL Profiler to analyze AL execution, SQL activity, call stacks, and performance hot spots.",
+    "ms_date": "2026-10-07",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2057
+    "words": 1646
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "69556e80f7c35c9befec6d47967d9fec2d88592f0579d61b6d644d67da94eda4"
+  "output_hash": "c63160854775a9f2873e786fcfbc68c660e5ba69dbe64955c1a38b548380f5c5"
 }

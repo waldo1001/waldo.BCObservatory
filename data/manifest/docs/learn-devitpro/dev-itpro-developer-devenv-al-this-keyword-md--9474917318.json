@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Use the this keyword for codeunit self-reference",
+  "title": "Use the AL this Keyword for Object Self-Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-this-keyword",
   "published_at": "2026-10-07T10:38:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.531Z",
-      "blob": "1365feb837a27dee58d0693b9e03781ddcd9950b",
-      "words": 231,
+      "at": "2026-10-07T18:13:55.327Z",
+      "blob": "b971d3d9bc712e36b03a3726cdf045ac6a260f56",
+      "words": 212,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:10.887Z",
+      "at": "2026-10-07T18:14:03.751Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003275
+      "cost_usd": 0.005408
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.744Z",
+      "at": "2026-10-07T18:14:03.752Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.745Z",
+      "at": "2026-10-07T18:14:03.754Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.746Z",
+      "at": "2026-10-07T18:14:03.755Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-al-this-keyword.md",
-    "description": "Enhance readability and pass current objects as arguments in AL codeunits using the self-reference keyword this.",
-    "ms_date": "2024-08-21",
+    "description": "Use the AL this keyword to qualify object members, improve code readability, and pass the current codeunit instance to other methods.",
+    "ms_date": "2026-10-07",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 231
+    "words": 212
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d41372a58c97a2a9132e798585ac1dd572bf8335cfd453742c69293a6f52ee88"
+  "output_hash": "84c0977dc7d78cf79cd780aaaeac6fdb43f6598bfe51b36eac831c81cd164010"
 }

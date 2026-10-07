@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AL Table Proxy Generator",
+  "title": "Generate AL Proxy Tables for Dataverse",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator",
   "published_at": "2026-10-07T10:38:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.541Z",
-      "blob": "3b993148daef411843038e4671913a8b482309dc",
-      "words": 678,
+      "at": "2026-10-07T18:13:55.079Z",
+      "blob": "6f9d9125db17160a8bfa2dce1c3e027a28af01ae",
+      "words": 608,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:10.890Z",
+      "at": "2026-10-07T18:14:03.740Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003275
+      "cost_usd": 0.004196
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.750Z",
+      "at": "2026-10-07T18:14:03.741Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.751Z",
+      "at": "2026-10-07T18:14:03.742Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.752Z",
+      "at": "2026-10-07T18:14:03.743Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-al-table-proxy-generator.md",
-    "description": "Tool for creating integration or proxy tables for integration with Microsoft Dataverse from Business Central",
-    "ms_date": "2025-06-16",
-    "ms_topic": "overview",
+    "description": "Use the AL Table Proxy Generator to create Business Central integration tables from Microsoft Dataverse tables and their relationships.",
+    "ms_date": "2026-10-07",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 678
+    "words": 608
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9bab54e47617b8fb620ca4018da1db70d26b131ef2f7c63a3ff6cd689eba2d35"
+  "output_hash": "c0d1b361b046836bf5f863f26a4b3a7abefadd08a835b5969cc3ba5232a13575"
 }

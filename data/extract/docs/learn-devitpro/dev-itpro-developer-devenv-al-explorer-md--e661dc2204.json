@@ -2,28 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-explorer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-explorer",
   "title": "AL Explorer",
-  "blob": "f4f26c7bcc46ba14f4161b92bdf9e618f8e6eebd",
-  "summary": "AL Explorer allows you to explore and navigate AL objects in extensions without reading code, with filtering, bookmarks, and source code navigation capabilities.",
+  "blob": "bf07a6ad80eafcdfbe8639b28479f0b0c3ae97fa",
+  "summary": "AL Explorer is a Visual Studio Code tool for exploring, navigating, and understanding AL objects, events, APIs, and extensible enums in extensions without reviewing code.",
   "systems": [
     "development"
   ],
   "topics": [
     "al explorer",
-    "extension objects",
-    "debugging",
-    "navigation",
-    "code structure"
+    "development tools",
+    "extensions",
+    "visual studio code",
+    "object navigation"
   ],
   "objects": [],
   "features": [
-    "object exploration",
-    "dependency view",
-    "extension points",
-    "event subscribers",
-    "filtering",
-    "bookmarks",
-    "source code navigation",
-    "run objects"
+    "object exploration and filtering",
+    "event subscriber overview",
+    "API discovery",
+    "extensible enums browsing",
+    "dependency visualization",
+    "bookmarking objects",
+    "search with wildcards",
+    "source code navigation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003688,
-      "pages_in_call": 8
+      "cost_usd": 0.003535,
+      "pages_in_call": 1
     }
   ]
 }

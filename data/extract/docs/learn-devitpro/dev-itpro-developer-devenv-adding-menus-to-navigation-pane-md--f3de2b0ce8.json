@@ -1,24 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-menus-to-navigation-pane.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane",
-  "title": "Adding Menus to the Navigation Area",
-  "blob": "22c59ea74eaf92e5a5279c47cf7251ef76c59186",
-  "summary": "Adding menus to the navigation area involves using the area() control and action() controls in AL to define navigation menu, navigation bar, and actions sections on Role Centers and page extensions.",
+  "title": "Add Menus to Role Center Navigation",
+  "blob": "fdf410dcc99b1f9da832b56f6cdcb1fd83e27354",
+  "summary": "Adding menus to Role Center navigation involves using area() controls in AL to define navigation menu sections, navigation bar links, and action areas (Creation, Processing, Reporting) for organizing pages, reports, and codeunits.",
   "systems": [
-    "development"
+    "development",
+    "administration"
   ],
   "topics": [
+    "role center",
     "navigation",
-    "role centers",
-    "page extensions",
-    "user interface",
+    "menu",
+    "action area",
+    "page extension",
     "al development"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Order Processor Role Center"
-    },
     {
       "type": "page",
       "name": "Customer Bank Account List"
@@ -29,6 +27,14 @@
     },
     {
       "type": "page",
+      "name": "Sales Document Entity"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
       "name": "Sales Cycles"
     },
     {
@@ -36,25 +42,19 @@
       "name": "Sales Journal"
     },
     {
-      "type": "page",
-      "name": "Sales Document Entity"
-    },
-    {
-      "type": "page",
-      "name": "Sales Document Line Entity"
-    },
-    {
       "type": "report",
-      "name": "Customer Sales Statistics"
+      "name": "Customer/Item Sales"
     }
   ],
   "features": [
     "navigation menu",
     "navigation bar",
-    "actions area",
-    "page extensions",
-    "submenu",
-    "role centers"
+    "action area (Creation)",
+    "action area (Processing)",
+    "action area (Reporting)",
+    "page groups and submenus",
+    "area(Sections) control",
+    "area(Embedding) control"
   ],
   "versions": [],
   "parts": 1,
@@ -63,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.004554,
+      "pages_in_call": 1
     }
   ]
 }

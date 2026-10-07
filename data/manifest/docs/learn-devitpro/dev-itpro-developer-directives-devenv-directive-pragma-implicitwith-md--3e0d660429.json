@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Pragma ImplicitWith directive in AL",
+  "title": "Pragma ImplicitWith Directive in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma-implicitwith",
   "published_at": "2026-10-07T07:28:32.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.783Z",
-      "blob": "043e32f6eec6deaad9b6ec23bfb83a39799465b6",
-      "words": 245,
+      "at": "2026-10-07T18:13:55.364Z",
+      "blob": "742a7680bfa92feee10bf1646b822c8730d3b0eb",
+      "words": 227,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.802Z",
+      "at": "2026-10-07T18:14:00.141Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003387
+      "cost_usd": 0.003091
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.839Z",
+      "at": "2026-10-07T18:14:03.729Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.840Z",
+      "at": "2026-10-07T18:14:03.731Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.840Z",
+      "at": "2026-10-07T18:14:03.732Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/directives/devenv-directive-pragma-implicitwith.md",
-    "description": "The pragma implicitwith instruction on the pragma directive in AL.",
-    "ms_date": "2025-06-02",
+    "description": "Learn how the pragma implicitwith directive controls implicit record contexts in AL and supports code migration in Microsoft Dynamics 365 Business Central.",
+    "ms_date": "2026-10-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 245
+    "words": 227
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a48a0211a7e9abc12ba61e651e9931075c41fdd420fa737736597aade8f1248b"
+  "output_hash": "53c0bee1c140f933e464f3e98414cf71958c7a82fc9a1fa70e288e1eeaef71ea"
 }

@@ -2,30 +2,38 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-complextypes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-complextypes",
   "title": "AL complex types",
-  "blob": "d097958c881a89b30259fdb7de6c0190a060b007",
-  "summary": "AL complex types enable procedures to return record types, user-defined types, and built-in types like HttpClient and HttpResponseMessage, supporting both anonymous and named return values.",
+  "blob": "462a5004acb78cc291d04572cf1e8b65fd7cbc0e",
+  "summary": "AL complex types enable procedures to return user-defined types like records and built-in types like HttpClient and HttpResponseMessage. Use this when you need to understand procedure return types and how to work with returned values in expressions.",
   "systems": [
     "development"
   ],
   "topics": [
-    "al development",
-    "return types",
+    "al programming",
     "procedures",
+    "return types",
     "complex types",
-    "coding"
+    "user-defined types"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Customer"
+      "type": "other",
+      "name": "Record Customer"
+    },
+    {
+      "type": "other",
+      "name": "HttpClient"
+    },
+    {
+      "type": "other",
+      "name": "HttpResponseMessage"
     }
   ],
   "features": [
-    "return statements",
+    "procedure return types",
     "named return values",
-    "record return",
-    "httpclient",
-    "httpresponsemessage"
+    "record return types",
+    "built-in type returns",
+    "expression usage of return values"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003699,
-      "pages_in_call": 8
+      "cost_usd": 0.003913,
+      "pages_in_call": 1
     }
   ]
 }

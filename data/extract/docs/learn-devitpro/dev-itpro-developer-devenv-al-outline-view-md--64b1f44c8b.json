@@ -1,29 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-outline-view.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-outline-view",
-  "title": "AL outline view",
-  "blob": "24b9d6f871ea6e45c2b56212d8e5ea83da8ae4bb",
-  "summary": "AL Outline view in Visual Studio Code displays the symbol tree of AL code with filtering, error display, and customizable settings for managing code visibility and icons.",
+  "title": "Use the AL Outline View in Visual Studio Code",
+  "blob": "f942752443813bb2daef12d5c31913f604bbcdb7",
+  "summary": "The AL Outline View in Visual Studio Code lets developers browse and navigate symbols in active AL documents, with filtering, highlighting, and configurable display settings for errors and warnings.",
   "systems": [
     "development"
   ],
   "topics": [
-    "outline view",
-    "symbol tree",
+    "al development",
     "visual studio code",
+    "outline view",
     "code navigation",
-    "filtering",
-    "errors display"
+    "symbol browsing"
   ],
   "objects": [],
   "features": [
-    "outline view",
-    "symbol tree display",
-    "filtering as you type",
-    "error badges",
-    "icon display",
-    "collapsible items",
-    "customizable settings"
+    "Outline view in Explorer sidebar",
+    "Symbol tree display",
+    "Cursor highlight",
+    "Filtering",
+    "Error and warning decorations",
+    "Collapsible items",
+    "Icon display",
+    "Symbol type filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.003372,
+      "pages_in_call": 1
     }
   ]
 }
