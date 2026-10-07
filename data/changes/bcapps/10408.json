@@ -1,0 +1,466 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10408,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10408",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T09:57:56Z",
+  "merge_commit_sha": "283acc8b84a97769b29c61aac5fb547258eea372",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)",
+  "body_hash": "3ee803edbe0c6c4cb3a36597be60e628a4707a1d7824baa4571c5ce1256d5ee4",
+  "fixes_issues": [],
+  "work_items": [
+    445769
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/.resources/AITools/TaxMatchFunction-ToolDef.json",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/.resources/Prompts/ShpfyTaxMatchingAgent-SystemPrompt.md",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/app.json",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAActivityLog.Codeunit.al",
+      "status": "added",
+      "additions": 193,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAEvents.Codeunit.al",
+      "status": "added",
+      "additions": 235,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAInstall.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAMatcher.Codeunit.al",
+      "status": "added",
+      "additions": 810,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMARegister.Codeunit.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAUpgrade.Codeunit.al",
+      "status": "added",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTaxAreaBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 157,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTaxMatchFunction.Codeunit.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Enum Extensions/ShpfyTMACap.EnumExt.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Enums/ShpfyTaxMatchReviewMode.Enum.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/PermissionSets/ShpfyTMA.PermissionSet.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderHeader.TableExt.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderTaxLine.TableExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMASalesHeader.TableExt.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAShop.TableExt.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMATaxJurisdiction.TableExt.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/CompanyData/TMA-Setup.yaml",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-AccCA.yaml",
+      "status": "added",
+      "additions": 2062,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-AccUS-1.yaml",
+      "status": "added",
+      "additions": 4994,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-AccUS-2.yaml",
+      "status": "added",
+      "additions": 4386,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-Guard.yaml",
+      "status": "added",
+      "additions": 95,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-Hard.yaml",
+      "status": "added",
+      "additions": 384,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-Heldout.yaml",
+      "status": "added",
+      "additions": 266,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-JurisdictionCreate.yaml",
+      "status": "added",
+      "additions": 131,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-JurisdictionMatch.yaml",
+      "status": "added",
+      "additions": 1023,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-RealCA.yaml",
+      "status": "added",
+      "additions": 463,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-RealUS.yaml",
+      "status": "added",
+      "additions": 1865,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-ShippingTax.yaml",
+      "status": "added",
+      "additions": 260,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-TaxArea.yaml",
+      "status": "added",
+      "additions": 233,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-TaxDetail.yaml",
+      "status": "added",
+      "additions": 261,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-Traps.yaml",
+      "status": "added",
+      "additions": 216,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestSuites/TMA-ACCUR.xml",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestSuites/TMA-UNIT.xml",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/app.json",
+      "status": "added",
+      "additions": 82,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMAGuardTest.Codeunit.al",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMAMatchTest.Codeunit.al",
+      "status": "added",
+      "additions": 158,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMATaxAreaTest.Codeunit.al",
+      "status": "added",
+      "additions": 116,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMATestLibrary.Codeunit.al",
+      "status": "added",
+      "additions": 601,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMATestsInstall.Codeunit.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMAVerify.Codeunit.al",
+      "status": "added",
+      "additions": 371,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/app.json",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 49,
+    "additions": 20256,
+    "deletions": 3,
+    "al": 16
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAActivityLog.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAEvents.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAInstall.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAMatcher.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMARegister.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAUpgrade.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTaxAreaBuilder.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTaxMatchFunction.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Enum Extensions/ShpfyTMACap.EnumExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Enums/ShpfyTaxMatchReviewMode.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/PermissionSets/ShpfyTMA.PermissionSet.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderHeader.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderTaxLine.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMASalesHeader.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAShop.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMATaxJurisdiction.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

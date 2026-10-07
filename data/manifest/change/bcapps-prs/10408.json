@@ -6,10 +6,35 @@
   "title": "Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)",
   "url": "https://github.com/microsoft/BCApps/pull/10408",
   "published_at": "2026-08-28T09:57:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:46.485Z",
+      "change_class": "code",
+      "files": 49,
+      "al": 16,
+      "objects": 0,
+      "unjoined": 16
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:52.200Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009987
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:52.406Z",
+      "objects": 0,
+      "unjoined": 16,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:52.412Z",
+      "path": "content/changes/bcapps/10408.md"
     }
   },
   "input_hash": "283acc8b84a97769b29c61aac5fb547258eea372:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify copilot tax matching agent matching engine and data model stack 2 3"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "072c7bca030bc1e60ea6e7e305eb12e1dc85fdaa5cbd13b7954e96a65de47dfd"
 }

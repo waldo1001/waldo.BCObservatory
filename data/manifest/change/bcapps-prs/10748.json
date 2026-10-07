@@ -6,10 +6,35 @@
   "title": "[SOA] Resolve the current agent's setup instead of an arbitrary one",
   "url": "https://github.com/microsoft/BCApps/pull/10748",
   "published_at": "2026-08-28T14:04:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:40.804Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:45.929Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004561
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:46.084Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:46.089Z",
+      "path": "content/changes/bcapps/10748.md"
     }
   },
   "input_hash": "d9739a77823f95c1443e98431381bde0f817ce62:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa resolve the current agent s setup instead of an arbitrary one"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6dfa62c4c49a5ab7e22b6886cd9e9996c927e047386b077d3a39fded09fb8578"
 }

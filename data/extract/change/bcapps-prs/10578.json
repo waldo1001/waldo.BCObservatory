@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10578",
+  "number": 10578,
+  "title": "[Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Four integration events are added to allow extensions to select the correct CRM integration table mapping when multiple mappings share the same table ID, enabling proper disambiguation in order-status updates, coupling, uncoupling, and match-based coupling scenarios.",
+  "key_points": [
+    "Four new IntegrationEvent publishers added: OnUpdateSalesOrdersOnBeforeFindIntegrationTableMapping, OnAfterInitialize, OnRemoveCouplingOnBeforeGetIntegrationTableMappingForUncoupling, OnMatchBasedCouplingOnBeforeGetIntegrationTableMappingForMatchBasedCoupling",
+    "Events use read-only RecordRef parameters to allow subscribers to inspect source records without mutating caller state",
+    "Addresses scenario where extensions have multiple same-table mappings (e.g., Sales Header quotes alongside standard orders)",
+    "Thin event publishers marked with [IntegrationEvent(false, false)]",
+    "Enables correct mapping resolution during CRM sync operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "crm"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004224,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10524",
+  "number": 10524,
+  "title": "Add a purchase order matching API",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "New public APIs enable external applications to programmatically create purchase order matches with receipts, including a convenience feature to suggest unmatched receipts based on remaining invoice amounts.",
+  "key_points": [
+    "Three new public codeunits provide a facade for inserting matched order line records",
+    "A receipt suggestion algorithm discovers unmatched receipts that could cover remaining invoice amounts",
+    "Match group buffers validate all matches quantity-wise before database insertion",
+    "Iterators allow consumers to traverse matches and invoiceable receipts",
+    "All changes are additive with no impact on existing BaseApp matching logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003714,
+    "changes_in_call": 1
+  }
+}

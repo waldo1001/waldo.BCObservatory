@@ -6,7 +6,7 @@
   "title": "[Master] - Bug 639548 [Expense Agent] Consolidate country demo data into single W1 app",
   "url": "https://github.com/microsoft/BCApps/pull/10637",
   "published_at": "2026-08-28T15:30:39Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "refactor",
       "behavior": false,
       "cost_usd": 0.007124
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:39.130Z",
+      "objects": 3,
+      "unjoined": 10,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:39.136Z",
+      "path": "content/changes/bcapps/10637.md"
     }
   },
   "input_hash": "d0c590892ce825c6b40edf3c810d39fe18c8634a:c1",
@@ -49,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1625fa2b91e4e8793c63b5ea2643f49a65947855fe23232843b7772452980ec2"
+  "output_hash": "de0c0a4edf0a9b62f35f02b6dc22188e199cf02894ff1e21ec6f5d866f2bdd9e"
 }

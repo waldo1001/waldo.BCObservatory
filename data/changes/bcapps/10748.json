@@ -1,0 +1,137 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10748,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10748",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T14:04:39Z",
+  "merge_commit_sha": "d9739a77823f95c1443e98431381bde0f817ce62",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Resolve the current agent's setup instead of an arbitrary one",
+  "body_hash": "0efcb6a28f622195046be5856106f67d3c0659cf0598a6bd7eeb1ac36b21a285",
+  "fixes_issues": [],
+  "work_items": [
+    647996
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 30,
+    "deletions": 13,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4589",
+        "type": "codeunit",
+        "id": 4589,
+        "name": "SOA Upgrade",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4589"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+        "status": "modified",
+        "key": "page/4410",
+        "type": "page",
+        "id": 4410,
+        "name": "SOA Multi Items Availability",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4410"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4591",
+        "type": "codeunit",
+        "id": 4591,
+        "name": "SOA Item Search",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4591"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Table.al",
+        "status": "modified",
+        "key": "table/4325",
+        "type": "table",
+        "id": 4325,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "table/4325"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4306",
+        "type": "codeunit",
+        "id": 4306,
+        "name": "SOA Session Filter",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4306"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

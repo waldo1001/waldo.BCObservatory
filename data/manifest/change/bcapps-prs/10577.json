@@ -6,7 +6,7 @@
   "title": "[Shopify] Fix Shpfy Order Totals FB Test posting tests failing in CZ",
   "url": "https://github.com/microsoft/BCApps/pull/10577",
   "published_at": "2026-08-28T11:07:42Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix shpfy order totals fb test posting tests failing in cz"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:44.957Z",
+  "retry_after": null
 }

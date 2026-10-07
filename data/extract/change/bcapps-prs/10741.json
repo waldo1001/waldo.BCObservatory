@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10741",
+  "number": 10741,
+  "title": "[Shopify] Fix exchange refund order links, totals, and refund page layout",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed Shopify return-with-exchange processing by ensuring exchange credit memos retain order identifiers, creating proper document links for moved invoices, excluding exchange items from order totals in the factbox, and repositioning the tax section on the refund page.",
+  "key_points": [
+    "Exchange credit memos and moved invoices now stamped with Shopify order identifiers for proper sync",
+    "Moved invoices created from exchange credit memos automatically linked to Shopify orders",
+    "Order totals factbox now excludes exchange items from Shopify subtotal, total, and VAT calculations",
+    "Tax section repositioned below lines on Shopify refund page layout",
+    "New tests validate exchange item handling in credit memos and order totals"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004383,
+    "changes_in_call": 1
+  }
+}

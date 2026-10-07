@@ -6,7 +6,7 @@
   "title": "[Bug 646558] Stabilize remittance advice tests in CZ",
   "url": "https://github.com/microsoft/BCApps/pull/10669",
   "published_at": "2026-08-28T11:24:00Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug 646558 stabilize remittance advice tests in cz"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:43.865Z",
+  "retry_after": null
 }

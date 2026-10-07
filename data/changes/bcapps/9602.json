@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9602,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9602",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T08:30:00Z",
+  "merge_commit_sha": "1bf1eb8599f0c6136f076bfcb63d13a4762acb95",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "User experience for adding attribute in item categories is wrong",
+  "body_hash": "c0d26ecbfb5d2b71e2ec73d8e0a9e14de274b43dea57d9d526229d08ceb1c0ea",
+  "fixes_issues": [],
+  "work_items": [
+    641060
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemCategoryAttributes.Page.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 59,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemVarAttrValueMapping.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMItemCategories.Codeunit.al",
+      "status": "modified",
+      "additions": 116,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 11,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 169,
+    "deletions": 103,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemCategoryAttributes.Page.al",
+        "status": "modified",
+        "key": "page/5734",
+        "type": "page",
+        "id": 5734,
+        "name": "Item Category Attributes",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5734"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemVarAttrValueMapping.Table.al",
+        "status": "modified",
+        "key": "table/7507",
+        "type": "table",
+        "id": 7507,
+        "name": "Item Var. Attr. Value Mapping",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7507"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

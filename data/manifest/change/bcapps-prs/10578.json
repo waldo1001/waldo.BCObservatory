@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings",
   "url": "https://github.com/microsoft/BCApps/pull/10578",
   "published_at": "2026-08-28T11:07:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:44.905Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:54.696Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004224
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:54.851Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:54.856Z",
+      "path": "content/changes/bcapps/10578.md"
     }
   },
   "input_hash": "7e9bc152b84253f330141e7191a418832cd45083:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30429 add events to disambiguate crm integration table mappings"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21faf8588ac0f70d57e9f2b5ec7a1d7833c286e2ad5a095c9416421ed2f27b68"
 }

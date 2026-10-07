@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10432",
+  "number": 10432,
+  "title": "[MCP] Change System Tool factbox caption to 'Active System Tools'",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The caption of the MCP System Tool List factbox page has been updated from 'System Tools' to 'Active System Tools' to better reflect that only tools from active server features are displayed.",
+  "key_points": [
+    "Page 8365 factbox caption renamed for clarity",
+    "Clarifies that displayed tools are only from active features",
+    "UI-only change with no behavioral or data impact",
+    "Appears on the MCP Configuration Card",
+    "Improves user understanding of what is shown"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00338,
+    "changes_in_call": 1
+  }
+}

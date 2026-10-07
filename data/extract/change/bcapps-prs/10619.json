@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10619",
+  "number": 10619,
+  "title": "[Shopify] Index Has Order State Error to fix slow Shopify Activities cue",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "A database index is added to the Shopify Order Header table on the \"Has Order State Error\" field to improve the performance of the Activities cue, which was consuming significant server resources during slow counts.",
+  "key_points": [
+    "New key added to Shpfy Order Header table to support filtering on Has Order State Error field",
+    "Addresses performance bottleneck in Shopify Activities cue that was running full table scans",
+    "Index enables SQL to seek narrow index instead of scanning the wide ~100-column table",
+    "Expected to reduce CPU time from ~16.5s to near-instant for the Unprocessed Order Updates count"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003425,
+    "changes_in_call": 1
+  }
+}

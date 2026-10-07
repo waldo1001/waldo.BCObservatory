@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10498",
+  "number": 10498,
+  "title": "[Pmt. Recon. Journal] Optimize opening of the Payment Application screen",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "finance",
+    "hr"
+  ],
+  "summary": "Payment application screen opening is optimized by adding a date filter setting to reduce candidate records, avoiding duplicate database reads, and preventing excessive SetAutoCalcfields calls. A critical issue in DK FIK payment matching that performed unfiltered full table scans is also fixed.",
+  "key_points": [
+    "Adds optional date filter setting on Payment Application Settings page to narrow candidate list",
+    "Eliminates double database reads when building temporary record sets",
+    "Reduces unnecessary SetAutoCalcfields calls for better performance",
+    "Fixes unfiltered full table scan issue in DK FIK payment matching drilldown",
+    "New index added on Vendor Ledger Entry to support date filtering"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Introducing a simple date filter setting on Payment Application Settings page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004762,
+    "changes_in_call": 1
+  }
+}

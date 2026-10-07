@@ -6,10 +6,35 @@
   "title": "[Shopify] Fix exchange refund order links, totals, and refund page layout",
   "url": "https://github.com/microsoft/BCApps/pull/10741",
   "published_at": "2026-08-28T12:29:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:42.306Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:47.556Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004383
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:47.763Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:47.775Z",
+      "path": "content/changes/bcapps/10741.md"
     }
   },
   "input_hash": "542c26b4440ba4d498932e722279f847d39ffd43:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix exchange refund order links totals and refund page layout"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e680e477ef0024d7a1dd1d1952a7599f9857031c38bdeae3f2fe9536984c7372"
 }

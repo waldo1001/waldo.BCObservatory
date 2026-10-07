@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10661,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10661",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T12:48:09Z",
+  "merge_commit_sha": "5368c309fbc0536dba429bd34724c3dd25593e81",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[Bug 646559] Make E-Doc attachment tests CZ-compatible",
+  "body_hash": "526e00ceef3e56a3372bd2ad66b07ab85b7ec666642da43043461b48c9c65bc8",
+  "fixes_issues": [],
+  "work_items": [
+    646559
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 10,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10748",
+  "number": 10748,
+  "title": "[SOA] Resolve the current agent's setup instead of an arbitrary one",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now resolves its setup configuration through the current session identity instead of reading arbitrary setup records, ensuring each agent instance uses its own settings for item search and availability filtering.",
+  "key_points": [
+    "Added GetForCurrentAgentSession() method to SOA Setup table to retrieve the setup belonging to the current agent session",
+    "Fixed item search and availability filtering to use the correct agent's configuration instead of arbitrary setup records",
+    "Updated upgrade routines to iterate all setup records instead of only the first one, ensuring every agent receives configuration updates",
+    "Eliminated inconsistencies where different code paths read different setup records during single operations",
+    "Session identity-based filtering aligns this with patterns already used by other SOA components"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004561,
+    "changes_in_call": 1
+  }
+}

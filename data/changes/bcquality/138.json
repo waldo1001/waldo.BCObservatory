@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 138,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/138",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-28T09:07:06Z",
+  "merge_commit_sha": "85ceaaa1a49057a5eeef5866d795326d30c57a6a",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch",
+  "body_hash": "e0e46adbc1e4e98e3056e3e355b8b4310924b61e292d1f4f4fcc42acb1363381",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/style/event-subscriber-param-names-match-publisher.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/style/event-subscriber-param-names-match-publisher.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

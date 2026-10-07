@@ -6,10 +6,35 @@
   "title": "Add a purchase order matching API",
   "url": "https://github.com/microsoft/BCApps/pull/10524",
   "published_at": "2026-08-28T09:32:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:47.322Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:52.508Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003714
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:52.656Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:52.662Z",
+      "path": "content/changes/bcapps/10524.md"
     }
   },
   "input_hash": "c7451ebed589b3f2e3d56754cd5b50fc9a3ec38a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "add a purchase order matching api"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "457bc89d7332ed591e33c11ada894974c07689f033fdbc18096cafc2cf64487f"
 }

@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10602,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10602",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T11:26:08Z",
+  "merge_commit_sha": "2da1442f529a15c27e7d998811c858567975080e",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Fix E-Document test object ID collision",
+  "body_hash": "09a520ca8189041843f73a35a45c95e75f1f74a6f21611ea0bf4086833a52499",
+  "fixes_issues": [],
+  "work_items": [
+    647666
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9602",
+  "number": 9602,
+  "title": "User experience for adding attribute in item categories is wrong",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page and related test coverage.",
+  "key_points": [
+    "Fixed incorrect user experience workflow when adding attributes to item categories",
+    "Updated the Item Category Attributes page layout and interaction",
+    "Enhanced test coverage for item category attribute operations",
+    "Adjusted item variant attribute value mapping table validation",
+    "Improved consistency across localized test implementations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "User experience for adding attribute in item categories is wrong",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003193,
+    "changes_in_call": 1
+  }
+}

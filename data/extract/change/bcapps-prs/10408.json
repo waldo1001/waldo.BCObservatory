@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10408",
+  "number": 10408,
+  "title": "Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Shopify Copilot Tax Matching Agent adds a headless matching engine that uses AI to match Shopify tax lines to Business Central tax jurisdictions, creates tax areas, and includes comprehensive unit tests.",
+  "key_points": [
+    "Implements tax matching engine with GPT-4.1 capability registration and deterministic provenance tracking",
+    "Builds or reuses Tax Areas and seeds Tax Details for matched jurisdictions",
+    "Includes configurable review-mode gate to hold Sales Document creation until human verification",
+    "Adds comprehensive test app with AITest suites, unit tests, and accuracy datasets for matching logic",
+    "Adds table extensions and permission sets to support tax matching workflow in Shopify connector"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009987,
+    "changes_in_call": 1
+  }
+}

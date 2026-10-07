@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/138",
+  "number": 138,
+  "title": "knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The style guide for event subscribers is clarified to document the actual behavior that AL binds subscribers by parameter name rather than position, allowing subscribers to omit parameters and reorder them without it being a mismatch.",
+  "key_points": [
+    "AL binds event subscribers to publishers by parameter name, not by position",
+    "Subscribers can omit any parameters they don't use from any position",
+    "Subscriber parameters can be declared in a different order than the publisher",
+    "The style guide is updated to prevent false positives from flagging valid shorter parameter lists",
+    "Evidence from real BCApps code shows 11 subscribers with reordering or non-prefix subsets that currently ship"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004212,
+    "changes_in_call": 1
+  }
+}

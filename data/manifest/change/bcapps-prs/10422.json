@@ -6,10 +6,18 @@
   "title": "[Extensibility Request] issue 30423: expose previous service header",
   "url": "https://github.com/microsoft/BCApps/pull/10422",
   "published_at": "2026-08-28T08:58:21Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:53.480Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "e555f1c48fcaff1e88315196a1a4f4c16e9cb5e1:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30423 expose previous service header"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f1aba41d7775561379ec52f4a54c592020bbd5ecc3e67b27b7b1088d8259c06d"
 }

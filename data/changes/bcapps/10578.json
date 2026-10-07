@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10578,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10578",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T11:07:42Z",
+  "merge_commit_sha": "7e9bc152b84253f330141e7191a418832cd45083",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings",
+  "body_hash": "0d1cf5fce3bca42e0eb6cd30f0bcab86eac126850815bc0729e90f64b2bff484",
+  "fixes_issues": [],
+  "work_items": [
+    647520
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMOrderStatusUpdateJob.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CouplingRecordBuffer.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 25,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMOrderStatusUpdateJob.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5352",
+        "type": "codeunit",
+        "id": 5352,
+        "name": "CRM Order Status Update Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5352"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5330",
+        "type": "codeunit",
+        "id": 5330,
+        "name": "CRM Integration Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5330"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CouplingRecordBuffer.Table.al",
+        "status": "modified",
+        "key": "table/5332",
+        "type": "table",
+        "id": 5332,
+        "name": "Coupling Record Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5332"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

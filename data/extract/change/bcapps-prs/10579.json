@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10579",
+  "number": 10579,
+  "title": "[Bug 638696] Add teaching tip to Effective Permissions page 9852",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "A teaching tip was added to the Effective Permissions page to explain what effective permissions are and how users can work with them, matching the teaching tips on related permission pages.",
+  "key_points": [
+    "Added AboutTitle and AboutText properties to page 9852 for in-product guidance",
+    "Provides consistent user experience with other permission-related pages in the System/Permissions folder",
+    "Static metadata change with no behavioral, data, or upgrade impact",
+    "Strings are translatable and will be picked up by standard translation extraction"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003558,
+    "changes_in_call": 1
+  }
+}

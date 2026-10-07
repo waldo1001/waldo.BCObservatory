@@ -6,7 +6,7 @@
   "title": "[SOA] Accuracy test fixes: agent instructions",
   "url": "https://github.com/microsoft/BCApps/pull/10740",
   "published_at": "2026-08-28T07:44:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa accuracy test fixes agent instructions"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:52.161Z",
+  "retry_after": null
 }

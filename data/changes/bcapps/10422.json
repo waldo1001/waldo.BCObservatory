@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10422,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10422",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T08:58:21Z",
+  "merge_commit_sha": "e555f1c48fcaff1e88315196a1a4f4c16e9cb5e1",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30423: expose previous service header",
+  "body_hash": "7fe661ea30ba7440a098135772ac505602724995a800372bf0e2cab075a58327",
+  "fixes_issues": [],
+  "work_items": [
+    647077
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+        "status": "modified",
+        "key": "table/5900",
+        "type": "table",
+        "id": 5900,
+        "name": "Service Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5900"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

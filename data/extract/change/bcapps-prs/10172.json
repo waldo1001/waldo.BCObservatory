@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10172",
+  "number": 10172,
+  "title": "[Extensibility Request] issue 30111: add purchase prepayment update events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Three integration events are added to the purchase prepayment line update procedure, allowing extensions to adjust line selection, handle missing-lines errors, and modify custom fields before each line update.",
+  "key_points": [
+    "Event fired after filters are set on prepayment lines",
+    "Event fired before the standard no-lines-found error is raised",
+    "Event fired before each line modification occurs",
+    "Extensions can override standard behavior when subscribing",
+    "Changes applied across all regional layers (W1, NA, APAC, ES, IT, NL)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003588,
+    "changes_in_call": 1
+  }
+}

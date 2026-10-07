@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10577,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10577",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T11:07:42Z",
+  "merge_commit_sha": "88c9f1fb767b984d060ad5fcfa927311c7d9fdb6",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix Shpfy Order Totals FB Test posting tests failing in CZ",
+  "body_hash": "e066dfc95bd2c79bfd5e1463f6fbafb3aedfa27be7140d3ebad60d8d301aff67",
+  "fixes_issues": [],
+  "work_items": [
+    647314
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

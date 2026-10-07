@@ -6,7 +6,7 @@
   "title": "[Bug 646559] Make E-Doc attachment tests CZ-compatible",
   "url": "https://github.com/microsoft/BCApps/pull/10661",
   "published_at": "2026-08-28T12:48:09Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug 646559 make e doc attachment tests cz compatible"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:41.627Z",
+  "retry_after": null
 }

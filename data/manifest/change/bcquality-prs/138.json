@@ -6,10 +6,35 @@
   "title": "knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch",
   "url": "https://github.com/microsoft/BCQuality/pull/138",
   "published_at": "2026-08-28T09:07:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:48.945Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:54.441Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004212
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:54.443Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:06:54.451Z",
+      "path": "content/changes/bcquality/138.md"
     }
   },
   "input_hash": "85ceaaa1a49057a5eeef5866d795326d30c57a6a:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge style event subscribers bind by parameter name so a shorter list is not a mismatch"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17b49b9a94585ebd738bab9dd98b068d5e25d89e8ef7078e2ffb49e030896b01"
 }

@@ -6,7 +6,7 @@
   "title": "Fix E-Document test object ID collision",
   "url": "https://github.com/microsoft/BCApps/pull/10602",
   "published_at": "2026-08-28T11:26:08Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": true,
     "title_key": "fix e document test object id collision"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:43.133Z",
+  "retry_after": null
 }

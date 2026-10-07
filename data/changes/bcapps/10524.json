@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10524,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10524",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T09:32:08Z",
+  "merge_commit_sha": "c7451ebed589b3f2e3d56754cd5b50fc9a3ec38a",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Add a purchase order matching API",
+  "body_hash": "694264435a3bc7d9c5724908ad7023a4206c2ed4058b64d1b0950398056a13dd",
+  "fixes_issues": [],
+  "work_items": [
+    625392
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InvoiceableReceipts.Codeunit.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatching.Codeunit.al",
+      "status": "added",
+      "additions": 148,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatchingGroup.Codeunit.al",
+      "status": "added",
+      "additions": 604,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/POMatchingGroupTests.Codeunit.al",
+      "status": "added",
+      "additions": 1292,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 2107,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InvoiceableReceipts.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5828",
+        "type": "codeunit",
+        "id": 5828,
+        "name": "Invoiceable Receipts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5828"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatching.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5831",
+        "type": "codeunit",
+        "id": 5831,
+        "name": "PO Matching",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5831"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatchingGroup.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5829",
+        "type": "codeunit",
+        "id": 5829,
+        "name": "PO Matching Group",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5829"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
