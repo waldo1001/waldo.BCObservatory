@@ -4,7 +4,7 @@
  * relates to, the objects and pages that reference it, its extensions, its event subscribers and the Learn pages
  * naming it. Every node is a link; the markdown sections below carry the full lists.
  */
-import { layoutRadial, neighbourhood, RING_LABEL, type Lookup, type Ring } from "../lib/relations";
+import { layoutRadial, neighbourhood, RING_LABEL, systemOfKey, type Lookup, type Ring } from "../lib/relations";
 interface Props { objectKey: string; major: string; title: string; system: string | null; lookup: (k: string) => Lookup | null; learn: { url: string; title: string }[] }
 const { objectKey, major, title, system, lookup, learn } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -25,9 +25,10 @@ const colour = (n: { system: string | null; kind: string }) => (n.kind === "lear
 const href = (n: { href: string | null; kind: string }) => (n.href ? (n.kind === "learn" ? n.href : `${base}${n.href}`) : null);
 const SECTION: Record<Ring, string> = { relates: "#relations", referenced: "#referenced-by", pages: "#pages-and-codeunits-on-this-table", extensions: "#extended-by", subscribers: "#events-published", learn: "#documented-on-microsoft-learn" };
 const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
+const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replace(/%2F/g, "/")}&s=${systemOfKey(objectKey)}&v=${major}`;
 ---
 {placed.length > 0 && (
-  <section class="nb" aria-labelledby="neighbourhood" data-base={base} data-major={major} data-key={objectKey}>
+  <section class="nb" aria-labelledby="neighbourhood">
     <h2 class="section-title" id="neighbourhood">Neighbourhood <small>{Object.values(totals).reduce((a, b) => a + b, 0)} connected objects and pages</small></h2>
     <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Neighbourhood of ${title}: ${rings.map((r) => `${totals[r]} ${RING_LABEL[r]}`).join(", ")}`}>
       {placed.map((n) => <line x1={W / 2} y1={H / 2} x2={n.x.toFixed(1)} y2={n.y.toFixed(1)} class={`e ${n.ring}`} />)}
@@ -38,21 +39,16 @@ const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
           ? <rect x={(n.x - n.r).toFixed(1)} y={(n.y - n.r).toFixed(1)} width={(n.r * 2).toFixed(1)} height={(n.r * 2).toFixed(1)} rx={(n.r * 0.25).toFixed(1)} style={`fill: ${colour(n)}`} />
           : <circle cx={n.x.toFixed(1)} cy={n.y.toFixed(1)} r={n.r.toFixed(1)} style={`fill: ${colour(n)}`} />;
         const label = labelled.has(n) ? <text x={(n.x + (n.x < W / 2 ? -n.r - 4 : n.r + 4)).toFixed(1)} y={(n.y + 4).toFixed(1)} text-anchor={n.x < W / 2 ? "end" : "start"}>{short(n.label)}</text> : null;
-        const k = n.kind === "learn" ? undefined : n.key;
-        return h ? <a href={h} data-k={k} data-x={n.x.toFixed(1)} data-y={n.y.toFixed(1)}><title>{n.label} ({RING_LABEL[n.ring]}{n.weight > 1 ? `, ${n.weight} links` : ""})</title>{shape}{label}</a> : <g data-k={k} data-x={n.x.toFixed(1)} data-y={n.y.toFixed(1)}><title>{n.label}</title>{shape}{label}</g>;
+        return h ? <a href={h}><title>{n.label} ({RING_LABEL[n.ring]}{n.weight > 1 ? `, ${n.weight} links` : ""})</title>{shape}{label}</a> : <g><title>{n.label}</title>{shape}{label}</g>;
       })}
     </svg>
     <ul class="nb-legend">
       {rings.map((r) => <li><span class={`sw ${r}`}></span><a href={SECTION[r]}>{RING_LABEL[r]}</a> <span class="mono-meta">{totals[r]}</span></li>)}
     </ul>
-    <p class="nb-actions"><button type="button" class="btn nb-hops" aria-pressed="false">Show 2 hops</button> <span class="nb-live mono-meta" aria-live="polite"></span></p>
-    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions). The sections below list everything; the diagram shows up to 40, and 2 hops adds up to 60 more.</p>
+    <p class="nb-actions"><a class="btn" href={explorer}>Open in the neighbourhood explorer</a></p>
+    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions). The sections below list everything; the diagram shows up to 40. The explorer walks on from here, one neighbour at a time.</p>
   </section>
 )}
-<script>
-  import { mountNeighbourhood } from "../scripts/neighbourhood";
-  for (const el of document.querySelectorAll<HTMLElement>(".nb[data-key]")) mountNeighbourhood(el);
-</script>
 <!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
 <style is:global>
   .nb svg { width: 100%; height: auto; display: block; max-width: 760px; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
@@ -68,8 +64,5 @@ const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
   .nb-legend .sw { width: 14px; height: 0; border-top: 2px solid var(--g-edge); }
   .nb-legend .sw.subscribers { border-top-style: dashed; }
   .nb-legend .sw.learn { border-top-color: var(--ev-learn-text); }
-  .nb .hop2 line { stroke: var(--g-edge); stroke-width: 1; opacity: .5; }
-  .nb .hop2 circle { fill: var(--muted); }
-  .nb .hop2 a:hover circle, .nb .hop2 a:focus circle { fill: var(--accent-dot); }
   .nb-actions { display: flex; align-items: center; gap: 12px; margin: 8px 0 0; }
 </style>
