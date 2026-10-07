@@ -4,10 +4,11 @@
  * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
  * Lens bar: changed in a version, this week, more lenses (type, tier, coverage, localization, source), list view, and
  * at system level the Tilt control (A): the same system as four planes, from graph/layers/<system>.json.
- * Tools: zoom, panel, full screen.
+ * Tools: zoom, panel, full screen. With `questions` (the home page, D70), a "Questions" menu opens the lens bar.
  */
-interface Props { height?: string; label?: string }
-const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central" } = Astro.props;
+import type { Question } from "../lib/questions";
+interface Props { height?: string; label?: string; questions?: Question[] }
+const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central", questions = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 <section class="galaxy" data-base={base} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
@@ -17,6 +18,14 @@ const base = import.meta.env.BASE_URL;
   <div class="g-table" hidden></div>
   <nav class="g-crumbs" aria-label="Galaxy position"></nav>
   <div class="g-lensbar" role="toolbar" aria-label="Lenses">
+    {questions.length > 0 && (
+      <details class="ask g-ask">
+        <summary>Questions</summary>
+        <ul>
+          {questions.map((q) => <li><a href={q.href}><b>{q.ask}</b><span class="mono-meta">{q.where}</span></a></li>)}
+        </ul>
+      </details>
+    )}
     <label class="skip" for="g-lens">More lenses</label>
     <select id="g-lens" data-g-lens><option value="">more lenses</option></select>
     <button type="button" class="g-lens" data-g-view aria-pressed="false">list view</button>
@@ -84,6 +93,11 @@ const base = import.meta.env.BASE_URL;
     background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: var(--r-badge);
   }
   .g-lensbar select { max-width: 200px; }
+  /* the questions menu (D70): a lens chip in the accent outline; its list drops over the canvas */
+  .g-ask summary { min-height: 32px; padding: 0 12px; font: 600 12px var(--font-mono); color: var(--text); background: var(--g-port-bg); border-color: var(--accent); border-radius: var(--r-badge); }
+  .g-ask summary:hover, .g-ask[open] summary { color: var(--accent); border-color: var(--accent); }
+  .g-ask ul { z-index: 3; max-height: calc(var(--g-h) - 100px); }
+  @media (pointer: coarse) { .g-ask summary { min-height: 44px; } }
   .g-lensbar :global(.g-lens[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
   .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
   @media (pointer: coarse) { .g-lensbar :global(.g-lens), .g-lensbar select { min-height: 44px; } }
@@ -188,6 +202,7 @@ const base = import.meta.env.BASE_URL;
     .galaxy:global(.g-panel-open) .g-tools { right: 16px; }
     .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 32px); top: 90px; flex-wrap: nowrap; overflow-x: auto; }
     .g-tools { top: 44px; }
+    .g-ask ul { position: fixed; top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 70vh; }
     .g-legend { display: none; }
     .g-table, .galaxy:global(.g-panel-open) .g-table { inset: 136px 0 56px 0; right: 0; }
   }

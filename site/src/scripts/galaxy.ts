@@ -182,7 +182,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     b.addEventListener("click", () => setLens(lens?.id === l.id ? "" : l.id, true));
     return b;
   });
-  lensBar.prepend(...lensButtons);
+  // the home page's questions menu (D70) stays first, top left
+  const ask = lensBar.querySelector(".g-ask");
+  if (ask) ask.after(...lensButtons); else lensBar.prepend(...lensButtons);
 
   const reduce = matchMedia("(prefers-reduced-motion: reduce)");
   let colors: Record<string, string> = {};

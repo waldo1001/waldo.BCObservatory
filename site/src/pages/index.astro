@@ -4,6 +4,7 @@ import Base from "../layouts/Base.astro";
 import Galaxy from "../components/Galaxy.astro";
 import Badges from "../components/Badges.astro";
 import { latestRun } from "../lib/state";
+import { questions } from "../lib/questions";
 import { pageSystem, systemLabel } from "../lib/page";
 const [topics, features, objects, localizations, videos, posts, digests, sources] = await Promise.all(
   ["topics", "features", "objects", "localizations", "videos", "posts", "digests", "sources"].map((c) => getCollection(c as any)),
@@ -30,7 +31,7 @@ const sections = [
 <Base title="BC Observatory" description="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, rebuilt every night.">
   <main>
     <h1 class="skip">BC Observatory</h1>
-    <div id="galaxy"><Galaxy height="calc(100svh - var(--hdr-h, 72px))" /></div>
+    <div id="galaxy"><Galaxy height="calc(100svh - var(--hdr-h, 72px))" questions={questions(base)} /></div>
     <p class="wrap meta g-help">Systems are domains, placed next to the ones they share the most links with. Stars are hubs on their Learn table of contents and the most connected AL objects in their namespace plots, plus roadmap features, localizations and sources. Click a system to fly in, a star for its connections and where they cross into other systems. Type in the search box to light up matching stars; Enter opens the full results. Esc goes back out; the arrow keys step through systems, or from star to star. "list view" shows the same as a table. Every page's side column shows where it sits here.</p>
 
     <section class="wrap block" aria-labelledby="lit">

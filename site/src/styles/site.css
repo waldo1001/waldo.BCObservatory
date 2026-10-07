@@ -30,7 +30,7 @@ img { max-width: 100%; }
   background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card);
   font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: min(240px, 60vw);
 }
-/* D70: wider than the page so wordmark, nav, questions, the week's pill and search fit one row on a laptop */
+/* D70: wider than the page so wordmark, nav, the week's pill and search fit one row on a laptop; .ask is the galaxy's questions menu */
 .site-header .wrap { max-width: max(var(--page-max), 1440px); gap: 8px 20px; }
 .site-nav { gap: 4px 14px; }
 .ask { position: relative; font-size: 14px; }

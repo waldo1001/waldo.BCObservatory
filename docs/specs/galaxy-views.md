@@ -184,7 +184,7 @@ Will not do: starting C from a hub, video or source (not drawn); a markdown twin
 
 ## 4. Phase 4: home question entries
 
-Superseded by D70: the questions are a menu in the header of every page, and the galaxy opens the home page.
+Superseded by D70: the questions are a menu at the start of the galaxy's lens bar, and the galaxy opens the home page.
 
 A row of question links above the galaxy on `index.astro`, each a deep link with a lens preset:
 `/#lens=landed` (this week), `/#lens=src:` + picker, `/#system=<id>&lens=version:30`, `/neighbourhood/?mode=relations`

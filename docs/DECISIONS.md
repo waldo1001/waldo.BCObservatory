@@ -543,9 +543,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
 - **D70 The home page opens on the galaxy.** The hero (kicker, a display title repeating the wordmark, lede, six
   count boxes, Explore/Search/llms.txt buttons) and the grid of eight question cards took a full screen before the
   galaxy began, and "what is new" sat below it. Now the galaxy is the first thing on the home page and fills the
-  viewport under the header (`--hdr-h`, measured from the header). The question entries (D66) moved into a
-  "Questions" menu in the header of every page (`site/src/lib/questions.ts`); galaxy questions link to the home path
-  with a lens hash, so on the home page only the hash changes. A pill beside it, "N new this week", counts the videos
+  viewport under the header (`--hdr-h`, measured from the header). The question entries (D66) are a "Questions"
+  menu, the first item of the galaxy's lens bar, top left (`site/src/lib/questions.ts`, the `questions` prop of
+  `Galaxy.astro`); on narrow screens its list opens as a sheet at the bottom. A first cut put the menu in the header of
+  every page; it read better inside the galaxy, where the answers appear. The links carry the home path with a lens
+  hash, so only the hash changes. A pill in the header, "N new this week", counts the videos
   and posts of `graph/landed.json` and opens the this-week lens; the lens chip counts the stars they light, which is
   why its number differs. The counts live on in the Sections cards, the lede moved to the "About, and for your agent"
   block, the Search button went (the header field is the one search; Ctrl+K stays the object finder, D46). The
