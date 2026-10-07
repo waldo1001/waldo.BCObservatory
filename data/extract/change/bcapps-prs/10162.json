@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10162",
+  "number": 10162,
+  "title": "Fix stale start status in e-document import pipeline",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The e-document import pipeline now uses the initial processing status instead of the post-undo status for telemetry emission and event triggering, fixing an edge case where no telemetry or event was sent after undoing to unprocessed.",
+  "key_points": [
+    "Changed telemetry emit guard to use initial status before undo operations",
+    "Modified OnAfterProcessIncomingEDocument event to use initial status instead of current status",
+    "Fixes edge case where undoing to unprocessed state prevented telemetry and events from being emitted",
+    "Improves code quality by maintaining consistent status usage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Use the initial (pre-undo) processing status instead of the post-undo CurrentStatus for both the telemetry emit guard and the OnAfterProcessIncomingEDocument event.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003517,
+    "changes_in_call": 1
+  }
+}

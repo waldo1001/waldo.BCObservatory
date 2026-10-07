@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10167",
+  "number": 10167,
+  "title": "[Extensibility Request] issue 30240: add event before adding price list lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "A cancellable event is added before price list line creation so extensions can implement custom logic or replace the standard line creation behavior.",
+  "key_points": [
+    "New OnBeforeAddLine event added to Price List Management.AddLine procedure",
+    "Event includes relevant price records and an IsHandled parameter",
+    "Allows subscribers to bypass standard line creation",
+    "Enables extensibility for custom asset price list line handling",
+    "Available to country-specific implementations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Extensions need to replace the standard logic that creates a price list line for an asset when suggested price lines are added.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003186,
+    "changes_in_call": 1
+  }
+}

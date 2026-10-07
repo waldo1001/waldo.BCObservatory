@@ -6,10 +6,35 @@
   "title": "[master] Projects WIP related field tooltips missing broken grammar outdated terminology",
   "url": "https://github.com/microsoft/BCApps/pull/10211",
   "published_at": "2026-08-13T11:39:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:11.650Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:16.234Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003204
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:16.383Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:16.388Z",
+      "path": "content/changes/bcapps/10211.md"
     }
   },
   "input_hash": "5daa399f2af59924fbcc16a5c39b337554d1b109:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master projects wip related field tooltips missing broken grammar outdated terminology"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dad32052b5ed6eb4261234a8d78d5861e03fc6ba518686621830d60d590d56fc"
 }

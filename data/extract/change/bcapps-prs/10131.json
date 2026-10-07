@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10131",
+  "number": 10131,
+  "title": "[Extensibility Request] issue 30298: allow production scheduling direction control",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production order line quantity changes can now be extended to control scheduling direction, allowing backward or forward rescheduling instead of only backward scheduling.",
+  "key_points": [
+    "Added handled events before quantity validations on Prod. Order Line",
+    "Extensions can now override default backward scheduling behavior",
+    "Allows start dates to remain unchanged when intended by users",
+    "Applies to both Quantity and Quantity (Base) fields",
+    "Extensibility enhancement for manufacturing scheduling control"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Added handled events before validating Ending Time from Quantity and Quantity (Base), allowing extensions to override the hardcoded backward scheduling path in W1.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003373,
+    "changes_in_call": 1
+  }
+}

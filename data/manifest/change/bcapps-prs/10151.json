@@ -6,10 +6,35 @@
   "title": "Fix vendor contact relation read permission",
   "url": "https://github.com/microsoft/BCApps/pull/10151",
   "published_at": "2026-08-13T08:37:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:18.828Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:23.870Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003777
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:24.010Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:27.277Z",
+      "path": "content/changes/bcapps/10151.md"
     }
   },
   "input_hash": "21030cd8011505778c956dea22d47ae27c82bd91:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix vendor contact relation read permission"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e83824d113181be9afd2cda4f8049c600444f77917850e610ff2988d1366d200"
 }

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10127,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10127",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T11:29:00Z",
+  "merge_commit_sha": "2ccfedba6a0ccc709b9ab4bd250e021305dfdbf7",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30379: enable grouped pick printing",
+  "body_hash": "3a9cbccfd22e5c38d2753b8ad2566635e855e18f8a3abfcc25f5e105a5940c29",
+  "fixes_issues": [],
+  "work_items": [
+    646350
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 20,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Report.al",
+        "status": "modified",
+        "key": "report/5754",
+        "type": "report",
+        "id": 5754,
+        "name": "Create Pick",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5754"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

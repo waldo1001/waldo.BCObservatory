@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10129,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10129",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T11:29:57Z",
+  "merge_commit_sha": "e23852cf75263a01ff4fed0a8adbe63a6f90406e",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30342: allow skipping blocked item checks",
+  "body_hash": "d2b9df4a5bdfd7befcb7cacc67f47a518b03104006b2bd7c3d8fce072c8998df",
+  "fixes_issues": [],
+  "work_items": [
+    646130
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Contract/ServContractManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 22,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Contract/ServContractManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5940",
+        "type": "codeunit",
+        "id": 5940,
+        "name": "ServContractManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5940"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

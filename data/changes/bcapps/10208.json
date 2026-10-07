@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10208,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10208",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T10:00:50Z",
+  "merge_commit_sha": "702fbbcd5d8139760583f606eda4d16156bd178a",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Detect subcontracting purchase/transfer orders in legacy data check",
+  "body_hash": "ea79c12ad49670feff66f6bc1789d99d49a102a65614405f5e1baa807648bcf3",
+  "fixes_issues": [],
+  "work_items": [
+    646168
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/SCMLegacySubcontracting.Codeunit.al",
+      "status": "modified",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 112,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99008501",
+        "type": "codeunit",
+        "id": 99008501,
+        "name": "Legacy Subc. Feature Handler",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/99008501-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9968,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9968",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T20:44:33Z",
+  "merge_commit_sha": "d95885cef41c0ad552f99418a4ac75b4fb8c4d55",
+  "author": "v-maheshsharma",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[BC-IN] TDS Amount Not Calculated on Initial TDS Section Selection in Bank Payment Voucher",
+  "body_hash": "593bf0acb3f81d2a457480862d120e3a6cdefe8907261afbe7f7917148163b66",
+  "fixes_issues": [],
+  "work_items": [
+    645153
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/FAGLGeneral.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankPaymentVoucherExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankReceiptVoucherExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashPaymentVoucherExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashReceiptJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashReceiptVoucherExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTGeneralJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTPaymentJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTPurchaseJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTSalesJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSBase/src/pageextension/GeneralJournalTCS.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/BankPaymentVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/BankReceiptVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashPaymentVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashReceiptJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashReceiptVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/PaymentJournalTCS.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSOnSales/src/pageextension/SalesJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSForCustomer/src/pageextension/CashReceiptJournalTDS.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/BankReceiptVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/CashReceiptVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/GeneralJournalExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/JournalVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/PurchaseJournalTDS.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/BankPaymentVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/CashPaymentVoucher.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/PaymentJnl.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/codeunit/CalculateTax.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/pageextension/CashReceiptJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/pageextension/GeneralJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/pageextension/PaymentJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/pageextension/PurchaseJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 32,
+    "additions": 197,
+    "deletions": 0,
+    "al": 32
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/FAGLGeneral.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankPaymentVoucherExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankReceiptVoucherExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashPaymentVoucherExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashReceiptJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTCashReceiptVoucherExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTGeneralJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTPaymentJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTPurchaseJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTSalesJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSBase/src/pageextension/GeneralJournalTCS.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/BankPaymentVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/BankReceiptVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashPaymentVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashReceiptJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/CashReceiptVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnReceipt/src/pageextension/PaymentJournalTCS.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSOnSales/src/pageextension/SalesJournal.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSForCustomer/src/pageextension/CashReceiptJournalTDS.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/BankReceiptVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/CashReceiptVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/GeneralJournalExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/JournalVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSOnPayments/src/pageextension/PurchaseJournalTDS.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/BankPaymentVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/CashPaymentVoucher.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/pageextension/PaymentJnl.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/codeunit/CalculateTax.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/pageextension/CashReceiptJournal.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/pageextension/GeneralJournal.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/pageextension/PaymentJournal.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/pageextension/PurchaseJournal.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

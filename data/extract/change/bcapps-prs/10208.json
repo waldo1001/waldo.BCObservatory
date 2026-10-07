@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10208",
+  "number": 10208,
+  "title": "[Subcontracting] Detect subcontracting purchase/transfer orders in legacy data check",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The legacy data check for subcontracting now detects production-order-linked purchase and transfer orders to ensure migration runs when needed, and renames an internal function for clarity.",
+  "key_points": [
+    "Adds detection for subcontracting purchase orders linked to production orders",
+    "Adds detection for subcontracting transfer orders linked to production orders",
+    "Renames internal function OpenSubcontractingTransfersExist to OpenWIPTransfersExist for accuracy",
+    "Fixes migration gaps where legacy data existed but was not detected",
+    "Includes new tests to verify detection of linked orders without WIP Item flag"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "The migration check missed them as a result, disabling Legacy Subcontracting skipped a needed data migration.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003847,
+    "changes_in_call": 1
+  }
+}

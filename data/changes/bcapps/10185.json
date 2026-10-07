@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10185,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10185",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T09:44:00Z",
+  "merge_commit_sha": "626a9d1f017ef64f6dbd0091d47bda521e2deb61",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix Reduce Contacts report silently ignores contacts whose company no…",
+  "body_hash": "b8739ede2d96a5b531f17ac3bf1fe228aba9851734950951abb20faa1721ff0c",
+  "fixes_issues": [],
+  "work_items": [
+    640984
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Segment/RemoveContacts.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Segment/RemoveContacts.Report.al",
+        "status": "modified",
+        "key": "report/5186",
+        "type": "report",
+        "id": 5186,
+        "name": "Remove Contacts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5186"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "crm"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

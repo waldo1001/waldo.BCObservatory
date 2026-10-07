@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10151,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10151",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T08:37:28Z",
+  "merge_commit_sha": "21030cd8011505778c956dea22d47ae27c82bd91",
+  "author": "PredragMaricic",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix vendor contact relation read permission",
+  "body_hash": "fe9507dc8e1addb2c2ac0658bdeef51fd35e9b56d53224e8fc2e19795fa103b7",
+  "fixes_issues": [],
+  "work_items": [
+    617469
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/BankContUpdate.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/CustContUpdate.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/VendContUpdate.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 6,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/BankContUpdate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5058",
+        "type": "codeunit",
+        "id": 5058,
+        "name": "BankCont-Update",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5058"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/CustContUpdate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5056",
+        "type": "codeunit",
+        "id": 5056,
+        "name": "CustCont-Update",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5056"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/BusinessRelation/VendContUpdate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5057",
+        "type": "codeunit",
+        "id": 5057,
+        "name": "VendCont-Update",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5057"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "crm"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

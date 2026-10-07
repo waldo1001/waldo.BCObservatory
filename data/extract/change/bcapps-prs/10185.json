@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10185",
+  "number": 10185,
+  "title": "Fix Reduce Contacts report silently ignores contacts whose company no…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "The Remove Contacts report now correctly handles contacts whose company reference doesn't match their actual company, filtering by contact number for single contacts and by company number only for entire companies.",
+  "key_points": [
+    "Fixed silent skipping of contacts when segment line company number didn't match contact's actual company",
+    "Report now filters by unique contact 'No.' for individual contacts",
+    "Report filters by 'Company No.' only when processing entire companies",
+    "Resolves issue where matching logic incorrectly combined two filter conditions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003179,
+    "changes_in_call": 1
+  }
+}

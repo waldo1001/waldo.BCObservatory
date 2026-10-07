@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10128",
+  "number": 10128,
+  "title": "[Extensibility Request] issue 30357: add prepayment credit memo confirmation event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A handled event is added to the prepayment credit memo posting process, allowing extensions to replace the standard confirmation dialog just as they can for prepayment invoices.",
+  "key_points": [
+    "Added a handled event before the credit memo confirmation in PostPrepmtCrMemoYN",
+    "Extensions can now provide custom confirmation experiences for prepayment credit memos",
+    "Matches existing customization capabilities already available for prepayment invoices",
+    "Subscribers can prevent the default dialog from showing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Extensions need to replace the standard confirmation when posting sales prepayment credit memos",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003198,
+    "changes_in_call": 1
+  }
+}

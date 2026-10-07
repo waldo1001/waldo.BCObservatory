@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10164",
+  "number": 10164,
+  "title": "Correction of where inventory valuation Power BI reports are shown",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Inventory valuation Power BI reports now appear only in the Business Manager Role Center with their own dedicated section, instead of being shown in the Finance Manager Role Center.",
+  "key_points": [
+    "Inventory valuation Power BI reports moved from Finance Manager RC to Business Manager RC",
+    "Reports now have their own dedicated section in Business Manager RC",
+    "Finance Manager RC no longer displays these reports",
+    "Improves report organization and role-specific relevance"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Instead now they only show in the Business Manager RC with their own section.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003125,
+    "changes_in_call": 1
+  }
+}

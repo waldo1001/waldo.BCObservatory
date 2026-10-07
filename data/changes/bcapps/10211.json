@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10211,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10211",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T11:39:15Z",
+  "merge_commit_sha": "5daa399f2af59924fbcc16a5c39b337554d1b109",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Projects WIP related field tooltips missing broken grammar outdated terminology",
+  "body_hash": "0c7005523dbb2b1175b8b14490d73411640f5227abf9720b1615bba7e6f86e0f",
+  "fixes_issues": [],
+  "work_items": [
+    641093
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+        "status": "modified",
+        "key": "table/167",
+        "type": "table",
+        "id": 167,
+        "name": "Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/167"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

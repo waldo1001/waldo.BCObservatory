@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30240: add event before adding price list lines",
   "url": "https://github.com/microsoft/BCApps/pull/10167",
   "published_at": "2026-08-13T10:04:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:13.987Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:18.837Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003186
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:19.008Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:19.022Z",
+      "path": "content/changes/bcapps/10167.md"
     }
   },
   "input_hash": "ba7935058478145c4dafb04583ccd4c3d6cf1a24:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30240 add event before adding price list lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3c332bada804f0c91de9cbdb7865444f33c6e3e62fe0800f1da6b194f7e94e9"
 }

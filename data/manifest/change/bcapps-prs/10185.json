@@ -6,10 +6,35 @@
   "title": "Fix Reduce Contacts report silently ignores contacts whose company no…",
   "url": "https://github.com/microsoft/BCApps/pull/10185",
   "published_at": "2026-08-13T09:44:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:17.962Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:22.732Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003179
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:22.879Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:22.885Z",
+      "path": "content/changes/bcapps/10185.md"
     }
   },
   "input_hash": "626a9d1f017ef64f6dbd0091d47bda521e2deb61:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix reduce contacts report silently ignores contacts whose company no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "58bc84f494927ee607cf7d3a949c7c09e636ce938beae2f4d505538f38d2570c"
 }

@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9085,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9085",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T18:32:23Z",
+  "merge_commit_sha": "1a4de1430e890c63801bce9c9d3061542fe68fc6",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 640958: Guided error for subcontracting direct transfer from whse-handling location",
+  "body_hash": "0f829012bf91ae9c169caa6727b85084324d625e580302d424e64ea2befc42e3",
+  "fixes_issues": [],
+  "work_items": [
+    640958
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcLocationHandlerTest.Codeunit.al",
+      "status": "modified",
+      "additions": 163,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 199,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+        "status": "modified",
+        "key": "report/20501",
+        "type": "report",
+        "id": 20501,
+        "name": "Subc. Create Transf. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

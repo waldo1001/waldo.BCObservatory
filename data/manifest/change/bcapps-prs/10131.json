@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30298: allow production scheduling direction control",
   "url": "https://github.com/microsoft/BCApps/pull/10131",
   "published_at": "2026-08-13T11:39:15Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:10.969Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003373
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:11.103Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:11.107Z",
+      "path": "content/changes/bcapps/10131.md"
     }
   },
   "input_hash": "03a71173e9ec31fd9c983c922db19c8243f342d2:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95709595060239099e1299fbb1c7432e872c3b624f099f308bf8c479105d8352"
+  "output_hash": "818a882dfa5bd84cdba9f2f79a581c7261aad9d8836f6e33c5fe6c1609c38468"
 }

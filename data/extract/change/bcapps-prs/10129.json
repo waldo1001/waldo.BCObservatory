@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10129",
+  "number": 10129,
+  "title": "[Extensibility Request] issue 30342: allow skipping blocked item checks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service contract invoicing now allows extensions to skip blocked item and service item validation checks independently, enabling contracts to be invoiced when appropriate despite blocked or deleted references.",
+  "key_points": [
+    "Added IsHandled event to CheckServiceItemBlockedForAll for skipping service item validation",
+    "Added IsHandled event to CheckItemServiceBlocked for skipping item and variant validation",
+    "Enables extensions to bypass blocked-item checks independently",
+    "Allows active contracts to continue invoicing when business logic permits",
+    "Service contract invoicing no longer stops due to blocked referenced items"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003444,
+    "changes_in_call": 1
+  }
+}

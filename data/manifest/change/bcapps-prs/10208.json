@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Detect subcontracting purchase/transfer orders in legacy data check",
   "url": "https://github.com/microsoft/BCApps/pull/10208",
   "published_at": "2026-08-13T10:00:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:14.217Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:19.260Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003847
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:19.438Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:19.443Z",
+      "path": "content/changes/bcapps/10208.md"
     }
   },
   "input_hash": "702fbbcd5d8139760583f606eda4d16156bd178a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting detect subcontracting purchase transfer orders in legacy data check"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b142884dee95bd2b085c07ab526c320b71eb1d4d1ea5362a86e968ac52a9f2e3"
 }

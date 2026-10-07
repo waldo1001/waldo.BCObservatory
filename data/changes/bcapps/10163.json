@@ -1,0 +1,43 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10163,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10163",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T08:27:29Z",
+  "merge_commit_sha": "772b078dcefdab7d677208e964589f6fb4393805",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Ownership: Needs Review",
+    "Team: Finance",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "All emails in folder were processed at first activation",
+  "body_hash": "00d153c2314ecd84f50cdeb70d164f8eb0450d8b386f8e6e148f7a7bf5a04a73",
+  "fixes_issues": [],
+  "work_items": [
+    638782
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 3,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30389: allow skipping service item confirmation",
   "url": "https://github.com/microsoft/BCApps/pull/10126",
   "published_at": "2026-08-13T12:58:15Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003118
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:10.786Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:10.790Z",
+      "path": "content/changes/bcapps/10126.md"
     }
   },
   "input_hash": "5e56aaa0bb6de3e05736d1449db5b3dd2b9b9226:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86f827cf8a237ff9a9b39d119f62d6b131d43b0cf998fbe6e12bbb3a28da3df4"
+  "output_hash": "8b5ef0eb300d703754c78c5c37d1abf3b85ba5ff641de610c87e9357de18d6d3"
 }

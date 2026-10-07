@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9968",
+  "number": 9968,
+  "title": "[BC-IN] TDS Amount Not Calculated on Initial TDS Section Selection in Bank Payment Voucher",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "TDS/GST/TCS taxes are now calculated on first entry of tax fields in Indian journal and voucher pages. The fix restores record saving before tax calculation and adds an event for advanced customization.",
+  "key_points": [
+    "TDS/GST/TCS amount now calculates correctly when tax section code or related fields are entered initially",
+    "Restored CurrPage.SaveRecord() call in tax calculation flow across 31 India journal and voucher page extensions",
+    "Added integration event OnBeforeUpdateTaxAmountOnGenJnlLine to codeunit Calculate Tax for extensibility",
+    "Event allows subscribers to override save and tax calculation logic, useful for environments with complex approval workflows",
+    "Fixes regression from earlier commit that removed the save call, which caused zero tax on first pass"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005249,
+    "changes_in_call": 1
+  }
+}
