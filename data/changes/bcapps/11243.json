@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11243,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11243",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T16:43:51Z",
+  "merge_commit_sha": "608da87df765358cb2d31cadcf06d79b65c4c80a",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix 647571: remove superseded VATVIESDeclarationTaxAuthReport test fr…",
+  "body_hash": "053ae451d0b5e1b189d21e04060efcfc4d55cf0a82b9347d94b69482246022d6",
+  "fixes_issues": [],
+  "work_items": [
+    647571
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 0,
+    "deletions": 33,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

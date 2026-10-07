@@ -6,10 +6,35 @@
   "title": "Support standalone runners and complete app-folder reviews",
   "url": "https://github.com/microsoft/BCQuality/pull/172",
   "published_at": "2026-09-09T14:55:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:24.377Z",
+      "change_class": "code",
+      "files": 25,
+      "al": 21,
+      "objects": 0,
+      "unjoined": 21
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:29.262Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00403
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:29.264Z",
+      "objects": 0,
+      "unjoined": 21,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:03:29.270Z",
+      "path": "content/changes/bcquality/172.md"
     }
   },
   "input_hash": "17bb84a25e23e8384eecb8d89e22b16957079bd4:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "support standalone runners and complete app folder reviews"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aec406b4f5d16dc7ffef5cf156a2de20267c278f040b913a1d7cf5bffd824b56"
 }

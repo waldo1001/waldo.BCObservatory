@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/174",
+  "number": 174,
+  "title": "Make BCQuality documentation easier for partners to get started",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality documentation is reorganized to guide partners through practical first-use paths, leading with CLI prerequisites and plugin installation rather than internal architecture. Sample references across knowledge articles become clickable links, and the Community Agents review gains folder-path support.",
+  "key_points": [
+    "README restructured with task-based navigation for partners",
+    "491 sample references converted to clickable links across 253 articles",
+    "New focused guides for usage, troubleshooting, customization, and contributing",
+    "Community Agents review extended with folder-path support",
+    "Architecture details moved to advanced references"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Lead the README with CLI prerequisites, plugin installation, an app-review example, expected outcomes, and task-based navigation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00522,
+    "changes_in_call": 1
+  }
+}

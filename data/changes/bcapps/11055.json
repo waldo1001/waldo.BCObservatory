@@ -1,0 +1,148 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11055,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11055",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T15:43:01Z",
+  "merge_commit_sha": "caa491c5a220f6d98e87d94cc0f5b4de5fa9c339",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Allow bank rec. duplicated transactions surfaced in UI",
+  "body_hash": "3dbc83a2434b856e3fb1027f9c3f9264d7fd2eba862d6496f67cdd0ea99bb8e9",
+  "fixes_issues": [],
+  "work_items": [
+    648907
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/Reconciliation/PaymentReconciliationJournal.Page.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Bank/Reconciliation/BankAccReconciliation.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Bank/Reconciliation/BankAccReconciliation.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/BankAccReconciliation.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/BankAccReconciliation.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/PaymentReconciliationJournal.Page.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 144,
+    "deletions": 4,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Bank/Reconciliation/BankAccReconciliation.Page.al",
+        "status": "modified",
+        "key": "page/379",
+        "type": "page",
+        "id": 379,
+        "name": "Bank Acc. Reconciliation",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/379"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Bank/Reconciliation/BankAccReconciliation.Table.al",
+        "status": "modified",
+        "key": "table/273",
+        "type": "table",
+        "id": 273,
+        "name": "Bank Acc. Reconciliation",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/273"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/BankAccReconciliation.Page.al",
+        "status": "modified",
+        "key": "page/379",
+        "type": "page",
+        "id": 379,
+        "name": "Bank Acc. Reconciliation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/379"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/BankAccReconciliation.Table.al",
+        "status": "modified",
+        "key": "table/273",
+        "type": "table",
+        "id": 273,
+        "name": "Bank Acc. Reconciliation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/273"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/PaymentReconciliationJournal.Page.al",
+        "status": "modified",
+        "key": "page/1290",
+        "type": "page",
+        "id": 1290,
+        "name": "Payment Reconciliation Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1290"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/Reconciliation/PaymentReconciliationJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

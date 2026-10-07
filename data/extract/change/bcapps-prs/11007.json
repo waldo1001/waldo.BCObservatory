@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11007",
+  "number": 11007,
+  "title": "Add Travel Request API lifecycle to Expense Agent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Travel Request API lifecycle management is integrated into the Expense Agent, enabling creation, approval, and rejection of travel requests through scoped OData endpoints with proper authorization and linked expense report generation.",
+  "key_points": [
+    "Advertises travelRequest capability and adds owner/approver-scoped navigation for travel requests in API endpoints",
+    "Implements bound submit, approve, and reject actions with authorization checks, status guards, and audit fields",
+    "Automatically creates linked expense reports on travel request approval with cascade delete protection",
+    "Normalizes currency handling on reads and writes while preventing PATCH requests from changing status or ownership",
+    "Emits distinct submit, approve, and reject usage events without sensitive identifiers; excludes HTTP integration tests from CI"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Extends the Expense Agent beta API so travel requests can be managed through the same scoped OData model as expenses and expense reports.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010175,
+    "changes_in_call": 1
+  }
+}

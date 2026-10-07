@@ -6,10 +6,35 @@
   "title": "Make BCQuality documentation easier for partners to get started",
   "url": "https://github.com/microsoft/BCQuality/pull/174",
   "published_at": "2026-09-09T15:31:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:24.591Z",
+      "change_class": "code",
+      "files": 276,
+      "al": 264,
+      "objects": 0,
+      "unjoined": 264
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:29.730Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.00522
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:29.732Z",
+      "objects": 0,
+      "unjoined": 264,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:03:29.745Z",
+      "path": "content/changes/bcquality/174.md"
     }
   },
   "input_hash": "2b5550c3463017f498a47691f740c684471eaaf8:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "make bcquality documentation easier for partners to get started"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3aa571ddf07ea74194d183966e9f12550e2b516b1e74b1025db0e41e5da11fc5"
 }

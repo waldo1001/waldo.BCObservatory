@@ -6,10 +6,35 @@
   "title": "[Master] Bug 645040: Expense Agent: BC Approval Workflow - Improve error message when Approval User Setup is missing",
   "url": "https://github.com/microsoft/BCApps/pull/10890",
   "published_at": "2026-09-09T14:33:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:28.346Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:33.297Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003834
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:33.458Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:33.465Z",
+      "path": "content/changes/bcapps/10890.md"
     }
   },
   "input_hash": "7c690786989e179b624b3422056bdd22d63ebfea:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 645040 expense agent bc approval workflow improve error message when approval user setup is missing"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7622ca898ca61951c2bef72f4bbad3d4e2c586664aed2f8976d9767ac24484ce"
 }

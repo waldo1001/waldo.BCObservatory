@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11150,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11150",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T15:43:01Z",
+  "merge_commit_sha": "c58846504dddaa52c4fbd7956fd17a6fba9e7e19",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field",
+  "body_hash": "23951196e88ed34be5e467089ba871c7e83ea082ad4a0b2b8f8bb65d81e1a9a6",
+  "fixes_issues": [],
+  "work_items": [
+    638799
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+        "status": "modified",
+        "key": "table/6840",
+        "type": "table",
+        "id": 6840,
+        "name": "Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6840"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

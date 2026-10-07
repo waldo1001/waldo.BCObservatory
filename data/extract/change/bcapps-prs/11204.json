@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11204",
+  "number": 11204,
+  "title": "Chat v2 privacy notice behavior changed to not auto agree for Eval companies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Copilot chat privacy notice now requires explicit agreement for evaluation companies instead of being automatically skipped, aligning their behavior with non-evaluation companies.",
+  "key_points": [
+    "Privacy notice check is no longer bypassed for evaluation companies",
+    "Evaluation companies now see the same privacy notice requirement as standard companies",
+    "Changes affect the Copilot Capability Implementation and Copilot Settings",
+    "Users in evaluation companies must now explicitly agree to privacy terms"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003242,
+    "changes_in_call": 1
+  }
+}

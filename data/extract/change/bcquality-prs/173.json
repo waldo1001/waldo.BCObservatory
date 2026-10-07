@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/173",
+  "number": 173,
+  "title": "Frame app review as one standalone plugin example",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality documentation now presents the project as a general skill plugin model with app review as one example, removing code-review-specific framing and external orchestrator references.",
+  "key_points": [
+    "Standalone installation explained as discovery and invocation of BCQuality skills",
+    "Complete app review repositioned as a concrete example of the walk-up pattern",
+    "Future skills documented to follow the same discovery pattern",
+    "Removed historical naming and external orchestrator references",
+    "Documentation refocused on BCQuality's own concepts and behavior"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Label complete app review as one concrete example of the walk-up pattern.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003287,
+    "changes_in_call": 1
+  }
+}

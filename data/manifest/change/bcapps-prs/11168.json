@@ -6,10 +6,35 @@
   "title": "Restore E-Document vendor invoice field compatibility",
   "url": "https://github.com/microsoft/BCApps/pull/11168",
   "published_at": "2026-09-09T11:54:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:29.558Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 6,
+      "objects": 4,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:34.250Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004089
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:34.435Z",
+      "objects": 4,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:38.181Z",
+      "path": "content/changes/bcapps/11168.md"
     }
   },
   "input_hash": "ca36c0386e0a1d8f1e91dc1ffa59924380837d56:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "restore e document vendor invoice field compatibility"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e09846778835bc48dcd9458f96fb76f1268115c620fa41114a942c22199430d3"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11213",
+  "number": 11213,
+  "title": "Fix sample invoice email when the agent setup is not saved yet",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The payables agent demo guide now receives the setup configuration from the setup page buffer instead of fetching it from the database, allowing sample invoice emails to be sent even before saving the setup.",
+  "key_points": [
+    "Setup page passes its in-memory configuration to the demo guide instead of requiring it to be saved first",
+    "Sample invoice email is sent when pressing Next in the guide, providing immediate feedback",
+    "Three procedures now take setup configuration as a parameter",
+    "Redundant parameterless SendDemoEmail overload removed",
+    "No database writes or data changes involved"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "The setup page now hands its current buffer to the guide instead of letting the guide go and fetch a saved copy.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004001,
+    "changes_in_call": 1
+  }
+}

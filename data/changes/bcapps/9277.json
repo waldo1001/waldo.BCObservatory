@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9277,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9277",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T10:06:01Z",
+  "merge_commit_sha": "dd3b6933db19bbae9cf1914b49c731c819947883",
+  "author": "attilatoury",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Add PRODUCED item template to Contoso Coffee manufacturing demo data",
+  "body_hash": "7497d25001105148d7cb22b7c0ad56d1398516ad9bf6b53bb9f35a2fd2126422",
+  "fixes_issues": [],
+  "work_items": [
+    639371
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgItemTemplate.Codeunit.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/ManufacturingModule.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoInventory.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 78,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgItemTemplate.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5310",
+        "type": "codeunit",
+        "id": 5310,
+        "name": "Create Mfg Item Template",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5310"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/ManufacturingModule.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4783",
+        "type": "codeunit",
+        "id": 4783,
+        "name": "Manufacturing Module",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4783"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoInventory.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5699",
+        "type": "codeunit",
+        "id": 5699,
+        "name": "Contoso Inventory",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5699"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "development"
+  ],
+  "apps": [
+    "ContosoCoffeeDemoDataset"
+  ]
+}

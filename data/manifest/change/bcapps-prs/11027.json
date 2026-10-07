@@ -6,10 +6,18 @@
   "title": "[Master]-Bug 648538: Add mileage setup to Expense Agent wizard",
   "url": "https://github.com/microsoft/BCApps/pull/11027",
   "published_at": "2026-09-08T19:10:04Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:34.145Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "b5c950fb4bf137d2009c2b1ab6d86d54699b4433:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 648538 add mileage setup to expense agent wizard"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d347c586805c0791e331735608ad5cc5e47daaad356dd9bd24d1c189aeb47b2"
 }

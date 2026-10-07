@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10890",
+  "number": 10890,
+  "title": "[Master] Bug 645040: Expense Agent: BC Approval Workflow - Improve error message when Approval User Setup is missing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense approval workflow now shows a clear, actionable error message when the current user lacks a User Setup record, with a link to open the configuration page.",
+  "key_points": [
+    "New helper function GetCurrentUserSetupForApproval replaces generic platform error with user-friendly messaging",
+    "Error message instructs users to configure their User Setup and explains why it is needed",
+    "Navigation action allows users to open the Approval User Setup page directly from the error",
+    "Error helper guarded to check read permissions on User Setup before showing navigation",
+    "Applied consistently across all expense report and approval workflow pages"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003834,
+    "changes_in_call": 1
+  }
+}

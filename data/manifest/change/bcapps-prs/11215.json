@@ -6,7 +6,7 @@
   "title": "Fix 647572: add ContractTemplateConfirmHandler to FI Company Field Report Test",
   "url": "https://github.com/microsoft/BCApps/pull/11215",
   "published_at": "2026-09-09T11:06:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix 647572 add contracttemplateconfirmhandler to fi company field report test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:03:30.169Z",
+  "retry_after": null
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11168",
+  "number": 11168,
+  "title": "Restore E-Document vendor invoice field compatibility",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.' to 'Vendor Invoice No.' across handlers, tests, and documentation to maintain upgrade and extension compatibility.",
+  "key_points": [
+    "Field 40 in E-Document Purchase Header renamed back to 'Vendor Invoice No.' for compatibility",
+    "All APAC, DE, DK, ES, and FR handlers updated to use the restored field name",
+    "Test cases and documentation aligned with the field name change",
+    "Ensures existing extensions and translations continue to work",
+    "Resolves upgrade compatibility issues introduced by the previous rename"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Restores field 40 and W1 E-Document processing to use `Vendor Invoice No.`",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004089,
+    "changes_in_call": 1
+  }
+}

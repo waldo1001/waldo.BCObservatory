@@ -6,7 +6,7 @@
   "title": "[main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.",
   "url": "https://github.com/microsoft/BCApps/pull/11095",
   "published_at": "2026-09-10T06:25:58Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004097
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:21.145Z",
+      "objects": 14,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:21.149Z",
+      "path": "content/changes/bcapps/11095.md"
     }
   },
   "input_hash": "3044d5156dd596da7360083a30a2c9d10ec5b28a:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1de98d814f7444d2a3a110f1b70372fb9a8aad3ddfefa327f6f5feefffa8cee8"
+  "output_hash": "2ae37bb666927e2b5f58d8e32cfaf3d29e179af1db107ed4dfa739f883999ac4"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11150",
+  "number": 11150,
+  "title": "Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A missing data classification attribute was restored on a user field in the Spend Request table.",
+  "key_points": [
+    "The approver name field on Spend Request table lacked DataClassification due to previous changes",
+    "DataClassification attribute has been reintroduced to the field",
+    "Ensures proper data handling and compliance for the user field"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Due to some back-and-forth changes to a approver name field on the Spend Request, the DataClassification we lost.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002936,
+    "changes_in_call": 1
+  }
+}

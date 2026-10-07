@@ -6,10 +6,35 @@
   "title": "Add Travel Request API lifecycle to Expense Agent",
   "url": "https://github.com/microsoft/BCApps/pull/11007",
   "published_at": "2026-09-09T10:12:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:31.997Z",
+      "change_class": "code",
+      "files": 30,
+      "al": 23,
+      "objects": 23,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:38.193Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010175
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:38.398Z",
+      "objects": 23,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:38.406Z",
+      "path": "content/changes/bcapps/11007.md"
     }
   },
   "input_hash": "96a6e9956b57ba6ec008f64824d8a3e4ca5500d4:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "add travel request api lifecycle to expense agent"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da38a24e46b1a59df77a1ecffba05d0253de96332d1a1b2e7ebec184027da3e6"
 }

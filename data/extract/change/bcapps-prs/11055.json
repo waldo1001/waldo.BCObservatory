@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11055",
+  "number": 11055,
+  "title": "Allow bank rec. duplicated transactions surfaced in UI",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Bank reconciliation now exposes UI controls to allow users to process duplicate transactions when importing bank statements, addressing scenarios with SEPA CAMT files containing duplicate transaction IDs.",
+  "key_points": [
+    "Resurfaces existing functionality for handling duplicate transactions during bank statement imports",
+    "Adds UI controls to bank reconciliation and payment reconciliation journal pages",
+    "Addresses SEPA CAMT import scenarios where duplicate transaction IDs are valid",
+    "Improves caption precision for reconciliation options",
+    "Resolves issue discovered with German customer SEPA imports"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "This change resurfaces this functionality, to give this option to users that need it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003702,
+    "changes_in_call": 1
+  }
+}

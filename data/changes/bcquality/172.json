@@ -1,0 +1,318 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 172,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/172",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-09T14:55:36Z",
+  "merge_commit_sha": "17bb84a25e23e8384eecb8d89e22b16957079bd4",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Support standalone runners and complete app-folder reviews",
+  "body_hash": "3fd2c6313126b627b22485cc89d47db127a0c029592544dae133b4e1c9ec74cf",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 4,
+      "class": "docs"
+    },
+    {
+      "path": "docs/README.md",
+      "status": "added",
+      "additions": 8,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "docs/agent-consumption.md",
+      "status": "renamed",
+      "additions": 2,
+      "deletions": 1,
+      "class": "docs",
+      "previous_filename": "agent-consumption.md"
+    },
+    {
+      "path": "docs/standalone-runner.md",
+      "status": "added",
+      "additions": 103,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "microsoft/skills/review/al-appsource-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-breaking-changes-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-error-handling-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-events-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-interfaces-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-performance-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-privacy-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-query-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-security-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-telemetry-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-testing-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-ui-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-upgrade-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-web-services-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/al-code-review/SKILL.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/entry.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 25,
+    "additions": 229,
+    "deletions": 51,
+    "al": 21
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-appsource-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-breaking-changes-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-error-handling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-events-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-interfaces-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-performance-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-privacy-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-query-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-security-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-telemetry-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-testing-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-ui-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-upgrade-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-web-services-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/README.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/al-code-review/SKILL.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/entry.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

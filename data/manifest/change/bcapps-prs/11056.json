@@ -6,10 +6,35 @@
   "title": "29.x: Allow bank rec. duplicated transactions surfaced in UI",
   "url": "https://github.com/microsoft/BCApps/pull/11056",
   "published_at": "2026-09-09T14:08:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:27.659Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 5,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:32.662Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003666
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:32.956Z",
+      "objects": 5,
+      "unjoined": 1,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:32.962Z",
+      "path": "content/changes/bcapps/11056.md"
     }
   },
   "input_hash": "d7bab3dfa8f0962357ad4f66cf7cd05e029dee35:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x allow bank rec duplicated transactions surfaced in ui"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4336d444000ae8fb0593f9684f5d513d9d663ca55b26bc27d20180c702f45d0"
 }

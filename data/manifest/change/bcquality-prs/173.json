@@ -6,10 +6,35 @@
   "title": "Frame app review as one standalone plugin example",
   "url": "https://github.com/microsoft/BCQuality/pull/173",
   "published_at": "2026-09-09T15:07:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:23.488Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:28.178Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003287
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:28.179Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:03:28.184Z",
+      "path": "content/changes/bcquality/173.md"
     }
   },
   "input_hash": "a21edfec460e7b8d066d5ca3aaba4875d787edb4:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "frame app review as one standalone plugin example"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5cf6ba2c32b310640eb2a1d1efa49ac40392a2d201ef304b259fae478cbda7ab"
 }

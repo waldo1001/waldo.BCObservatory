@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/172",
+  "number": 172,
+  "title": "Support standalone runners and complete app-folder reviews",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "AL review skills now support standalone runners and folder-based app reviews by decoupling scheduling concerns and enabling parallel execution of independent review domains while maintaining deterministic result ordering.",
+  "key_points": [
+    "Scheduling becomes an orchestrator responsibility, allowing isolated review leaves to run serially or concurrently",
+    "Folder-path is defined as a complete review scope across standalone adapter and all AL review leaves",
+    "Severity counts now calculate from deduplicated findings instead of summing leaf results",
+    "Documentation reorganized with standalone-runner guide, walk-up app review flow, and conceptual architecture moved to docs/",
+    "Sub-results ordering remains deterministic regardless of completion order"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Define scheduling as an orchestrator-owned concern and allow isolated leaves to run serially or concurrently.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00403,
+    "changes_in_call": 1
+  }
+}

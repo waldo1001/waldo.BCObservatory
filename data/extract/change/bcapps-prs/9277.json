@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9277",
+  "number": 9277,
+  "title": "Add PRODUCED item template to Contoso Coffee manufacturing demo data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "development"
+  ],
+  "summary": "Manufacturing demo data now includes a PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy, and flushing method pre-configured for created items.",
+  "key_points": [
+    "New PRODUCED item template added to Manufacturing module with manufacturing-specific field values",
+    "New codeunit 5310 creates the template with insert-if-not-exists logic for idempotency",
+    "Extended Contoso Inventory.InsertItemTemplateData with manufacturing-capable overload that sets planning fields",
+    "Template includes standard manufacturing settings like Prod. Order replenishment, Make-to-Order policy, and Manual flushing",
+    "Existing thin overload and callers remain untouched to avoid side effects"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004023,
+    "changes_in_call": 1
+  }
+}
