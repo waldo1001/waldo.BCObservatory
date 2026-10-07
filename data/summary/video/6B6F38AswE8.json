@@ -1,16 +1,16 @@
 {
   "video_id": "6B6F38AswE8",
   "item_id": "video/yt-microsoft/6B6F38AswE8",
-  "summary": "AL-Go for GitHub plans in the 2025 release wave 1 video: indirect templates, NuGet publishing of runtime packages, running tests on online environments (generally available), security updates, and a 2-3 year move away from BC Container Helper.",
+  "summary": "Freddy Christensen outlines planned AL-Go for GitHub work for 2025 release wave 1: indirect (private) templates expected around April or May, NuGet generation and publishing of runtime packages, running tests and page scripting tests when publishing to online sandbox or QA environments, ongoing security hardening, and a multi-year move away from BC Container Helper. Publishing test apps to online environments was released in this release; running the tests there is still in progress.",
   "overview": "The video covers what is next for AL-Go for GitHub in 2025 release wave 1. The speaker frames security recommendations and partner feedback as must-haves, and says AL-Go benefits from Microsoft's security investments, including monthly security updates implemented in DevOps pipelines.\n\nIt then walks through indirect templates for customer-specific customizations, NuGet support for runtime packages, running tests and page scripting tests on online environments when publishing, and the gradual move away from BC Container Helper. The speaker gives no firm dates, and says one item may land in April or May.",
   "key_points": [
-    "Indirect (private) templates let partners add customer-specific customizations without changing the final repositories; custom jobs and custom steps are merged into templates. It is at PR stage, being tested by partners, and settings handling is still being finalized.",
+    "Indirect (private) templates let partners add customer-specific customizations without changing the final repositories; custom jobs and custom steps are merged into templates. It is at PR stage, being tested by partners, and settings handling is still being finalized; the speaker expects it around April or May.",
     "NuGet support is meant to generate and publish runtime packages efficiently, a frequent partner request. It needs more testing and partner adoption.",
-    "Running tests and page scripting tests on online environments is generally available. It applies when publishing to sandbox or QA environments, not in the core CI/CD pipeline.",
+    "Publishing test apps to online environments was released in this release. Running tests and page scripting tests when publishing to sandbox or QA environments is still being worked on, as part of publishing (continuous or manual deployment) rather than the core CI/CD pipeline.",
     "AL-Go will move away from BC Container Helper, shifting DevOps-relevant features into PowerShell modules or GitHub actions. The speaker expects this to take two to three years.",
-    "Partners running their own DevOps solution will need to migrate. BC Container Helper stays in the PowerShell gallery during the transition.",
-    "Monthly security updates from Microsoft teams are implemented in the DevOps pipelines that AL-Go uses.",
-    "The speaker states no promises and no dates, though one item is expected around April or May."
+    "Partners running their own DevOps solution based on BC Container Helper are recommended to move to a managed DevOps solution. BC Container Helper will not be removed from the PowerShell gallery, but support will stop at some point.",
+    "The team receives security requirements every month to implement in its DevOps pipelines, and AL-Go for GitHub benefits from these Microsoft security investments.",
+    "The speaker says these are must-haves but gives no firm dates, apart from expecting indirect templates around April or May."
   ],
   "audience": [
     "developer",

@@ -191,10 +191,10 @@
     {
       "name": "Manufacturing Power BI App Update",
       "description": "Comprehensive update to manufacturing Power BI app incorporating feedback from subject matter experts and partner community, modernizing legacy reports and adding Power BI specific visualizations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 450.8,
+      "status_evidence_quote": "this was just a sneak peek into the enhanced powerbi app for manufacturing that we ship in version 26.1",
+      "status_evidence_verified": true,
       "t_start": 5.4,
       "t_end": 450.8,
       "is_demoed": true,
@@ -284,6 +284,12 @@
       "t": 313.3,
       "text": "you can see capacity in minutes uh that is something that that you can change but you have to get access to the powerbi",
       "why_it_matters": "Indicates customization options and limitations in the Power BI report.",
+      "check": "exact"
+    },
+    {
+      "t": 430.8,
+      "text": "this is not on live data this is the data that has been refreshed in the powerbi uh report",
+      "why_it_matters": "Makes clear that the Gantt chart shows refreshed Power BI data, not live data.",
       "check": "exact"
     },
     {

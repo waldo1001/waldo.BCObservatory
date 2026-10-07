@@ -2,7 +2,7 @@
 id: video/64_cQzp8BP4
 type: video
 title: "What's New: Concurrent Inventory Posting (2025 release wave 1)"
-summary: "Concurrent inventory posting in Business Central (BC25, 2025 release wave 1): a feature key lets multiple users post item ledger and value entries at once, using number sequences instead of table locking. Covers the item register number field, deferred automatic cost posting to GL, and developer guidance."
+summary: "Concurrent inventory posting in Business Central 2025 release wave 1 (BC26): a feature key in Feature Management lets multiple users post item, value, project and resource ledger entries at the same time. It uses number sequences instead of table locks and adds an item register number field for register drill-down. Automatic cost posting to the GL is deferred to the end of the batch, and the video gives developer guidance for custom entries."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - backwards compatibility
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:02.372Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:02.416Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,20 @@ evidence:
     commit: null
     t: 290
     quote: we also filter on the register number because all the entries now have a new field called item register number
+  - kind: video
+    url: https://www.youtube.com/watch?v=64_cQzp8BP4&t=377s
+    title: "What's New: Concurrent Inventory Posting (2025 release wave 1)"
+    date: "2025-04-01T15:00:11.000Z"
+    commit: null
+    t: 377
+    quote: what we did did for BC26 was that we basically do the same as before, but we postpone it till the end
+  - kind: video
+    url: https://www.youtube.com/watch?v=64_cQzp8BP4&t=461s
+    title: "What's New: Concurrent Inventory Posting (2025 release wave 1)"
+    date: "2025-04-01T15:00:11.000Z"
+    commit: null
+    t: 461
+    quote: you can use the get next entry number functions on the entry tables and you would also need to specify
   - kind: video
     url: https://www.youtube.com/watch?v=64_cQzp8BP4&t=614s
     title: "What's New: Concurrent Inventory Posting (2025 release wave 1)"
@@ -174,6 +188,12 @@ quotes:
   - t: 290
     text: we also filter on the register number because all the entries now have a new field called item register number
     check: exact
+  - t: 377
+    text: what we did did for BC26 was that we basically do the same as before, but we postpone it till the end
+    check: exact
+  - t: 461
+    text: you can use the get next entry number functions on the entry tables and you would also need to specify
+    check: exact
   - t: 614
     text: if we post one batch it took you know ballpark of 20 seconds and if we post two um batches as we just demoed
     check: exact
@@ -184,9 +204,9 @@ quotes:
 
 # What's New: Concurrent Inventory Posting (2025 release wave 1)
 
-> Concurrent inventory posting in Business Central (BC25, 2025 release wave 1): a feature key lets multiple users post item ledger and value entries at once, using number sequences instead of table locking. Covers the item register number field, deferred automatic cost posting to GL, and developer guidance.
+> Concurrent inventory posting in Business Central 2025 release wave 1 (BC26): a feature key in Feature Management lets multiple users post item, value, project and resource ledger entries at the same time. It uses number sequences instead of table locks and adds an item register number field for register drill-down. Automatic cost posting to the GL is deferred to the end of the batch, and the video gives developer guidance for custom entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=64_cQzp8BP4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=64_cQzp8BP4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,13 +216,13 @@ It also shows the supporting changes: a new item register number field on ledger
 
 ## Key points
 
-- The feature is enabled through a feature key named for letting multiple users post item ledger entries and value entries at the same time. It is off by default and is planned to be on by default in three releases.
-- There is no upgrade step, and the speaker says there is no penalty to switch it on and off to try it out.
-- Entry numbers come from number sequences, so numbers can be assigned out of order and unused numbers can be lost, like a bakery number dispenser.
-- Ledger entries get a new item register number field. Drill-down from the item register filters on it, and old entries have value zero for backwards compatibility.
-- Automatic cost posting to the GL is deferred to the end of the batch. Only one user can post to the GL at a time, so one of two concurrent batches still waits for the other at the GL.
-- Project ledger and resource ledger entries follow the same concurrent posting rules as item ledger entries.
-- Developers with custom entries should review the developer guidance and event handling chapter.
+- In BC25 or earlier, only one user or session could insert into the item ledger at a time, and others could hit lock timeouts.
+- The feature key 'enable multiple users to post item ledger entries and value entries at the same time' is off by default and is planned to be on by default in three releases. There is no upgrade step and no penalty for switching it on and off.
+- Project (job) ledger and resource ledger entries follow the same concurrent posting rules.
+- Entry numbers come from number sequences, so unused numbers can be lost, like a bakery number dispenser. Legacy code paths remain behind the inventory setup legacy posting check.
+- Ledger entries get a new item register number field. Register drill-down filters on it, and old entries have value zero for backwards compatibility.
+- Automatic cost posting to the GL is deferred to the end of the batch. Only one session can post to the GL at a time, so concurrent batches still wait for each other at the GL step.
+- Developers adding entries must use the get next entry number functions and set the item register number. Otherwise they get 'record already exists' errors. Before each batch, the number sequence is resynced with the table, and changes made in events are checked.
 
 ## Chapters
 
@@ -215,13 +235,13 @@ It also shows the supporting changes: a new item register number field on ledger
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Enable multiple users to post item ledger entries and value entries at the same time | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=64_cQzp8BP4&t=33s) |  |
-| Concurrent posting for project ledger entries | status not stated | [1:53](https://www.youtube.com/watch?v=64_cQzp8BP4&t=113s) |  |
-| Number sequence-based entry numbering for concurrent posting | status not stated, demoed | [3:11](https://www.youtube.com/watch?v=64_cQzp8BP4&t=191s) |  |
-| Item register number field for drill-down filtering | status not stated, demoed | [4:21](https://www.youtube.com/watch?v=64_cQzp8BP4&t=261s) |  |
-| Deferred automatic cost posting to GL | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=64_cQzp8BP4&t=333s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Enable multiple users to post item ledger entries and value entries at the same time | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=64_cQzp8BP4&t=33s) |
+| Concurrent posting for project ledger entries | status not stated | [1:53](https://www.youtube.com/watch?v=64_cQzp8BP4&t=113s) |
+| Number sequence-based entry numbering for concurrent posting | status not stated, demoed | [3:11](https://www.youtube.com/watch?v=64_cQzp8BP4&t=191s) |
+| Item register number field for drill-down filtering | status not stated, demoed | [4:21](https://www.youtube.com/watch?v=64_cQzp8BP4&t=261s) |
+| Deferred automatic cost posting to GL | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=64_cQzp8BP4&t=333s) |
 
 ## AL objects mentioned
 
@@ -246,6 +266,8 @@ Not found in BC28-30: table "item ledger", table "project ledger", table "job le
 - [1:31](https://www.youtube.com/watch?v=64_cQzp8BP4&t=91s) "It's off by default. Um, we will set it on by default in three releases."
 - [3:25](https://www.youtube.com/watch?v=64_cQzp8BP4&t=205s) "instead of incrementing the counter the next entry number we just ask for the next entry number which may not be you know 1"
 - [4:50](https://www.youtube.com/watch?v=64_cQzp8BP4&t=290s) "we also filter on the register number because all the entries now have a new field called item register number"
+- [6:17](https://www.youtube.com/watch?v=64_cQzp8BP4&t=377s) "what we did did for BC26 was that we basically do the same as before, but we postpone it till the end"
+- [7:41](https://www.youtube.com/watch?v=64_cQzp8BP4&t=461s) "you can use the get next entry number functions on the entry tables and you would also need to specify"
 - [10:14](https://www.youtube.com/watch?v=64_cQzp8BP4&t=614s) "if we post one batch it took you know ballpark of 20 seconds and if we post two um batches as we just demoed"
 - [10:49](https://www.youtube.com/watch?v=64_cQzp8BP4&t=649s) "one will always be slower than I mean one of them will always have to wait for the other for the GL. But the"
 

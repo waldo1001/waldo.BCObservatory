@@ -2,7 +2,7 @@
 id: video/6B6F38AswE8
 type: video
 title: "What's Next: AL-Go for GitHub (2025 release wave 1)"
-summary: "AL-Go for GitHub plans in the 2025 release wave 1 video: indirect templates, NuGet publishing of runtime packages, running tests on online environments (generally available), security updates, and a 2-3 year move away from BC Container Helper."
+summary: "Freddy Christensen outlines planned AL-Go for GitHub work for 2025 release wave 1: indirect (private) templates expected around April or May, NuGet generation and publishing of runtime packages, running tests and page scripting tests when publishing to online sandbox or QA environments, ongoing security hardening, and a multi-year move away from BC Container Helper. Publishing test apps to online environments was released in this release; running the tests there is still in progress."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - cicd
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:05.629Z"
   flags: []
 generated:
-  at: "2026-10-06T18:53:39.762Z"
+  at: "2026-10-07T23:01:05.667Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -30,12 +30,26 @@ generated:
   input_hash: 47413a7a3c0eb9105d9488bc5224153ebb47e9e8ca1d81be789e62064935aa95
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=6B6F38AswE8&t=282s
-    title: "Running Tests on Online Environments: generally available"
+    url: https://www.youtube.com/watch?v=6B6F38AswE8&t=266s
+    title: "NuGet Support - Generate and Publish Runtime Packages: announced"
     date: "2025-04-01T15:00:10.000Z"
     commit: null
-    t: 282
-    quote: in this release we have released a functionality that can publish test and test apps and stuff like that to online environments
+    t: 266
+    quote: that is big on the agenda for Al go for GitHub in the future
+  - kind: video
+    url: https://www.youtube.com/watch?v=6B6F38AswE8&t=266s
+    title: "Running Tests on Online Environments: announced"
+    date: "2025-04-01T15:00:10.000Z"
+    commit: null
+    t: 266
+    quote: another thing we're working on is running tests and Page scripting tests on online environments
+  - kind: video
+    url: https://www.youtube.com/watch?v=6B6F38AswE8&t=343s
+    title: "Move Away from BC Container Helper: announced"
+    date: "2025-04-01T15:00:10.000Z"
+    commit: null
+    t: 343
+    quote: we will be moving away from BC from using BC container helper in Al go for GitHub
   - kind: video
     url: https://www.youtube.com/watch?v=6B6F38AswE8&t=46s
     title: "What's Next: AL-Go for GitHub (2025 release wave 1)"
@@ -118,19 +132,19 @@ features:
     verified: false
     status_source: video
   - name: NuGet Support - Generate and Publish Runtime Packages
-    status: unclear
+    status: announced
     t: 246
-    verified: false
+    verified: true
     status_source: video
   - name: Running Tests on Online Environments
-    status: ga
+    status: announced
     t: 266
     verified: true
     status_source: video
   - name: Move Away from BC Container Helper
-    status: unclear
+    status: announced
     t: 322
-    verified: false
+    verified: true
     status_source: video
   - name: Security Recommendations Implementation
     status: unclear
@@ -161,9 +175,9 @@ quotes:
 
 # What's Next: AL-Go for GitHub (2025 release wave 1)
 
-> AL-Go for GitHub plans in the 2025 release wave 1 video: indirect templates, NuGet publishing of runtime packages, running tests on online environments (generally available), security updates, and a 2-3 year move away from BC Container Helper.
+> Freddy Christensen outlines planned AL-Go for GitHub work for 2025 release wave 1: indirect (private) templates expected around April or May, NuGet generation and publishing of runtime packages, running tests and page scripting tests when publishing to online sandbox or QA environments, ongoing security hardening, and a multi-year move away from BC Container Helper. Publishing test apps to online environments was released in this release; running the tests there is still in progress.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6B6F38AswE8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6B6F38AswE8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,13 +187,13 @@ It then walks through indirect templates for customer-specific customizations, N
 
 ## Key points
 
-- Indirect (private) templates let partners add customer-specific customizations without changing the final repositories; custom jobs and custom steps are merged into templates. It is at PR stage, being tested by partners, and settings handling is still being finalized.
+- Indirect (private) templates let partners add customer-specific customizations without changing the final repositories; custom jobs and custom steps are merged into templates. It is at PR stage, being tested by partners, and settings handling is still being finalized; the speaker expects it around April or May.
 - NuGet support is meant to generate and publish runtime packages efficiently, a frequent partner request. It needs more testing and partner adoption.
-- Running tests and page scripting tests on online environments is generally available. It applies when publishing to sandbox or QA environments, not in the core CI/CD pipeline.
+- Publishing test apps to online environments was released in this release. Running tests and page scripting tests when publishing to sandbox or QA environments is still being worked on, as part of publishing (continuous or manual deployment) rather than the core CI/CD pipeline.
 - AL-Go will move away from BC Container Helper, shifting DevOps-relevant features into PowerShell modules or GitHub actions. The speaker expects this to take two to three years.
-- Partners running their own DevOps solution will need to migrate. BC Container Helper stays in the PowerShell gallery during the transition.
-- Monthly security updates from Microsoft teams are implemented in the DevOps pipelines that AL-Go uses.
-- The speaker states no promises and no dates, though one item is expected around April or May.
+- Partners running their own DevOps solution based on BC Container Helper are recommended to move to a managed DevOps solution. BC Container Helper will not be removed from the PowerShell gallery, but support will stop at some point.
+- The team receives security requirements every month to implement in its DevOps pipelines, and AL-Go for GitHub benefits from these Microsoft security investments.
+- The speaker says these are must-haves but gives no firm dates, apart from expecting indirect templates around April or May.
 
 ## Chapters
 
@@ -195,9 +209,9 @@ It then walks through indirect templates for customer-specific customizations, N
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Indirect Templates and Customizations | status not stated | [2:04](https://www.youtube.com/watch?v=6B6F38AswE8&t=124s) |  |
-| NuGet Support - Generate and Publish Runtime Packages | status not stated | [4:06](https://www.youtube.com/watch?v=6B6F38AswE8&t=246s) |  |
-| Running Tests on Online Environments | generally available | [4:26](https://www.youtube.com/watch?v=6B6F38AswE8&t=266s) | "in this release we have released a functionality that can publish test and test apps and stuff like that to online environments" ([4:42](https://www.youtube.com/watch?v=6B6F38AswE8&t=282s)) |
-| Move Away from BC Container Helper | status not stated | [5:22](https://www.youtube.com/watch?v=6B6F38AswE8&t=322s) |  |
+| NuGet Support - Generate and Publish Runtime Packages | announced | [4:06](https://www.youtube.com/watch?v=6B6F38AswE8&t=246s) | "that is big on the agenda for Al go for GitHub in the future" ([4:26](https://www.youtube.com/watch?v=6B6F38AswE8&t=266s)) |
+| Running Tests on Online Environments | announced | [4:26](https://www.youtube.com/watch?v=6B6F38AswE8&t=266s) | "another thing we're working on is running tests and Page scripting tests on online environments" ([4:26](https://www.youtube.com/watch?v=6B6F38AswE8&t=266s)) |
+| Move Away from BC Container Helper | announced | [5:22](https://www.youtube.com/watch?v=6B6F38AswE8&t=322s) | "we will be moving away from BC from using BC container helper in Al go for GitHub" ([5:43](https://www.youtube.com/watch?v=6B6F38AswE8&t=343s)) |
 | Security Recommendations Implementation | status not stated | [1:26](https://www.youtube.com/watch?v=6B6F38AswE8&t=86s) |  |
 
 ## Quotes

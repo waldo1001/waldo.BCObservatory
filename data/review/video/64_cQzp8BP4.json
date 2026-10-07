@@ -1,0 +1,30 @@
+{
+  "video_id": "64_cQzp8BP4",
+  "item_id": "video/yt-microsoft/64_cQzp8BP4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary calls the feature BC25. The transcript says BC25 or earlier allowed only one user or session to insert, and the deferred cost posting was done 'for BC26'. The summary is rewritten to fix this.",
+    "The first feature's description says 'New feature in BC25 wave 1', which has the same version error. It cannot be edited here, so it is noted only.",
+    "The last key point only pointed readers to a chapter. It is replaced with the actual developer guidance from the transcript.",
+    "Performance figures (about 20 s for one batch, 23 s for two concurrent batches) and the resync safeguard were missing. Both are added as key points.",
+    "Quotes are verbatim. 'item lure' at 33.2 is a caption error but is kept as spoken.",
+    "All feature statuses stay unclear. The feature key is off by default, and the transcript never says whether it is preview or GA."
+  ],
+  "input_hash": "4288025be6bf3df848a54aae0501ce06053cb9b5a86bb10ce4765849c492525c",
+  "by": "opus",
+  "at": "2026-10-07T23:01:02.372Z",
+  "applied": [
+    "quote at 378s",
+    "quote at 461s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.089477
+  }
+}

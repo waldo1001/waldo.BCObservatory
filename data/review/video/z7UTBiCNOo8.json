@@ -1,0 +1,32 @@
+{
+  "video_id": "z7UTBiCNOo8",
+  "item_id": "video/yt-microsoft/z7UTBiCNOo8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Excel Layouts feature: the evidence quote was too short (5 words) and pointed at t 19.6, but the line is in segment 39.8. The video describes GA as coming in 2025 release wave 1, so the status should be announced, not ga.",
+    "Slicer feature was marked ga based on a tentative remark about slicer placement in the GA version. That does not state a status, so it is now unclear.",
+    "The 'Excel Reports with Copilot Integration' feature overstates the transcript. It is only a documentation tip about using pivot table raw data with Copilot, so it was dropped.",
+    "Summary and key points did not mention the 2025 release wave 1 timing or the BC Finance analytics short URL. Both were added.",
+    "All quotes are verbatim. Some run across segment boundaries, which is allowed."
+  ],
+  "input_hash": "f5f929be6f624761ad66224a56d930267be1f75ce1bee44a13062ee093b0f732",
+  "by": "opus",
+  "at": "2026-10-07T23:01:52.509Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Excel Layouts for Built-in Reports: status announced",
+    "Slicer Controls for Report Filtering: status unclear",
+    "quote at 384s",
+    "quote at 405s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077933
+  }
+}

@@ -147,6 +147,12 @@
       "check": "exact"
     },
     {
+      "t": 67,
+      "text": "Before closing the page, notice other examples related to items or sales invoice exports.",
+      "why_it_matters": "Shows that skipped records are not limited to customers: item and sales invoice exports also appear on the page.",
+      "check": "exact"
+    },
+    {
       "t": 84.2,
       "text": "The functionality is controlled by the logging mode field. Both all and error only activate logging of skipped entries.",
       "why_it_matters": "Clarifies the control mechanism for the logging feature and which modes enable skipped entry logging.",

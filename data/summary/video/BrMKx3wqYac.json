@@ -4,13 +4,13 @@
   "summary": "AI consumption billing for Business Central copilot features, shown with the sales order agent: usage is measured in Microsoft Copilot Studio messages, paid by prepaid message packs or pay-as-you-go, and configured by linking a Business Central environment to a Power Platform environment.",
   "overview": "The video explains how AI features in Business Central are billed. Microsoft Copilot Studio messages act as a common currency across Microsoft products. At the time of the video, the sales order agent is the only capability built for this billing. Every tenant gets a limited preview evaluation capacity to set up and try the agent.\n\nThe demo covers the Copilot and Agents capabilities page, with its notifications about AI activation and capacity use. It then covers the billing meters, linking to a Power Platform environment, billing policies, prepaid packs, pay-as-you-go, and allocating capacity to individual environments.",
   "key_points": [
-    "Usage is measured in Microsoft Copilot Studio messages. Two meters apply: generative answers (each email message the sales order agent generates) and autonomous actions (operations on sales quotes and sales orders).",
-    "Only the sales order agent is currently built for AI consumption billing.",
-    "Every Business Central tenant gets a limited preview evaluation capacity to set up and try the sales order agent. It runs out after the initial trial.",
-    "Billing policies require linking the Business Central environment to a Power Platform environment. The two must have the same environment type and geography.",
-    "Prepaid message packs are a monthly subscription with a fixed number of messages, renewed monthly. The presenter suggests them if you always consume 25,000 or more messages.",
-    "Pay-as-you-go bills the messages consumed after the month ends. The presenter suggests it for variable consumption.",
-    "Administrators can allocate message capacity to each environment and can disable overages to keep costs predictable."
+    "Usage is measured in Microsoft Copilot Studio messages using two common meters: generative answers (each email message the sales order agent handles or generates) and autonomous actions (operations on sales quotes and sales orders).",
+    "Only the sales order agent is currently billed under AI consumption billing.",
+    "Every Business Central tenant gets a limited preview evaluation capacity to set up and try the sales order agent. When it runs out, notifications appear and the agent stops processing tasks until billing is set up.",
+    "Billing policies require linking the Business Central environment to a Power Platform environment in the Business Central admin center. In the demo, the linked environment was of the same type and in the same geography. An existing Power Platform billing policy is inherited automatically.",
+    "Pay-as-you-go plans are created in the Power Platform admin center against an Azure subscription, with Copilot Studio enabled as a product. Messages consumed are billed after the month ends.",
+    "Prepaid message packs are a monthly subscription bought from a partner or in the Microsoft 365 admin center. The Copilot Studio trial gave 25,000 messages. The presenters suggest prepaid if you always consume 25,000 or more messages, and pay-as-you-go for variable consumption.",
+    "The two options combine: prepaid capacity is consumed first, and pay-as-you-go covers anything beyond it."
   ],
   "audience": [
     "administrator",

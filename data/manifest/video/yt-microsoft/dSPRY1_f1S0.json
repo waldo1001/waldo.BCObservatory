@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=dSPRY1_f1S0",
   "published_at": "2025-03-06T16:28:01.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 5
     },
     "published": {
-      "at": "2026-10-06T19:00:34.471Z",
+      "at": "2026-10-07T23:01:52.318Z",
       "path": "content/videos/dSPRY1_f1S0.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:01:52.265Z",
+      "path": "data/review/video/dSPRY1_f1S0.json",
+      "verdict": "fix",
+      "applied": 6,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.24072899999999997
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da0e089f47a0bd4ec2d126f1d0e3a024a4be0fe58e6866042f0514a802ac550a"
+  "output_hash": "f320ecc0dd03d988e27f690d44811940f9aa24529ddf4ee5088eddfff3bfc74a",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:01:52.246Z"
+  }
 }

@@ -1,16 +1,16 @@
 {
   "video_id": "D2KPQEbO40Q",
   "item_id": "video/yt-microsoft/D2KPQEbO40Q",
-  "summary": "Business Central 2025 release wave 1 highlights video covering Autofill, Summarize with Copilot on the most used pages, and Scope 3 value chain process automation for calculating carbon dioxide equivalent of finished goods. Feature status is not stated in the facts.",
+  "summary": "Business Central 2025 release wave 1 highlights video covering three features. Autofill uses AI to suggest field values, such as customer addresses, when creating records. Summarize lets Copilot show an instant summary on the most used pages, with quick links. Scope 3 value chain process automation calculates the carbon dioxide equivalent of finished goods for indirect emissions reporting. The video does not say whether these features are in preview or generally available.",
   "overview": "A short release highlights video from the Business Central channel, published 2025-03-14. It covers three areas: faster data entry with AI, instant Copilot summaries, and sustainability reporting.\n\nAutofill suggests customer information when creating new records, including addresses found by searching the web and frequently used answers. Summarize with Copilot shows important and urgent items on the most used pages, including items from related pages and custom fields. Scope 3 value chain process automation is built into the standard ERP processes and calculates carbon dioxide equivalent for finished goods.",
   "key_points": [
-    "Autofill suggests customer information on new records by searching the web for addresses and suggesting frequently used answers; it was demoed.",
+    "Autofill suggests likely values when a user creates a new record, for example a customer: it can search the web for the customer's address or suggest the most frequently used or most sensible answer for the next field.",
     "Autofill is described as using AI grounded in Business Central data.",
-    "Summarize with Copilot gives an instant summary on the most used pages only, and it was demoed.",
-    "Summaries cover urgent items from the current page and related pages, including information from custom fields.",
+    "The Summarize capability shows an instant Copilot-generated summary on the most used pages in Business Central.",
+    "Summaries highlight important or urgent items from the current page and from related pages, including information from custom fields, and are tailored to the user's role.",
+    "Quick links in the summary go straight to the relevant content in the record, and users can click for more insights and ask Copilot how to take action.",
     "Scope 3 value chain process automation is embedded across the standard Business Central ERP processes.",
-    "The Scope 3 feature calculates carbon dioxide equivalent for finished goods from raw material emissions data on purchase documents plus emissions from manufacturing operations.",
-    "Scope 3 calculation depends on raw material emissions data being present on purchase documents."
+    "The Scope 3 feature calculates carbon dioxide equivalent for finished goods from raw material emissions data on purchase documents, plus emissions from operations in manufacturing processes, for reporting indirect emissions across the upstream and downstream value chain."
   ],
   "audience": [
     "functional consultant",

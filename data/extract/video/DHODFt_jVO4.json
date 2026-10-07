@@ -192,6 +192,12 @@
       "check": "exact"
     },
     {
+      "t": 26.1,
+      "text": "First activate the standard cost per stock keeping unit in a manufacturing setup",
+      "why_it_matters": "Shows that SKU standard costing must be switched on in manufacturing setup.",
+      "check": "exact"
+    },
+    {
       "t": 66.6,
       "text": "the location differs the cost also varies as it utilizes information from either the item card or stock keeping unit if available",
       "why_it_matters": "Demonstrates that the system intelligently selects costs from SKU or item card based on what is configured, providing flexible and accurate costing.",
@@ -213,6 +219,12 @@
       "t": 128.9,
       "text": "you can also include non-inventory cost into the produ C cost calculation",
       "why_it_matters": "Announces the new capability to include non-inventory costs in production costing, expanding the types of costs that can be tracked.",
+      "check": "exact"
+    },
+    {
+      "t": 206.3,
+      "text": "where you can view consumption entries with non-inventory costs as well as the cost of finished items",
+      "why_it_matters": "Shows where posted non-inventory costs appear after the order is finished.",
       "check": "exact"
     }
   ],

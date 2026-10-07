@@ -6,11 +6,11 @@
   "key_points": [
     "Small language models have fewer parameters (billions). Phi 4 has 14 billion, runs on a single GPU, and is described as outperforming GPT-3. They are weaker at reasoning and world knowledge, and are about 10 times faster.",
     "Model distillation uses a larger model such as GPT-4 as teacher to train a smaller one such as GPT-4 mini. The price difference between them is a factor of 10-15. The larger model must already work well on the use case.",
-    "Sales order agent test on 10 emails: GPT-4 reached about 85% accuracy at about 22 cents, and GPT-4 mini reached about 30% at about 1 cent. Fine-tuned GPT-4 mini reached over 90% on execute task steps at a modest cost increase over plain GPT-4 mini.",
-    "Fine-tuning data came from successful test case runs, taking input-output pairs from the execute task steps. Hundreds of test cases measure accuracy.",
+    "OpenAI models such as GPT-4o and GPT-4 mini can be fine-tuned in Azure AI Foundry, deployed from there, and consumed in Business Central through the AI toolkit like any other model.",
+    "Sales order agent test on 10 emails: GPT-4 reached about 85% accuracy at about 22 cents, and GPT-4 mini reached about 30% at about 1 cent. Fine-tuned GPT-4 mini reached over 90% on execute task steps at about twice the cost of plain GPT-4 mini.",
+    "Fine-tuning data came from successful test case runs, taking input-output pairs from the execute task steps. Hundreds of test cases measure accuracy. The AI test toolkit runs data-driven AL tests and also supports LLM-based checks of natural-language output such as reply emails.",
     "The fine-tuned results are preliminary and trained on a limited data set. The model may overfit to the toy customer and item names and not generalize to other customers' master data.",
-    "Try prompt engineering first (few-shot prompting, Chain of Thought). Fine-tune only if the model does not do a good job. Training data must be representative, accurate and kept separate from test data.",
-    "Data generation with an LLM takes seed examples and creates variations to build larger test datasets. Seed data needs careful curation."
+    "Try prompt engineering first (few-shot prompting, Chain of Thought). Fine-tune only if the model does not do a good job. Training data must be representative, accurate and kept separate from test data."
   ],
   "audience": [
     "developer",

@@ -7,8 +7,8 @@
     "Copilot only accesses records the signed-in user already has access to, and it has no access to bank accounts.",
     "Clear the chat when changing context to improve the chance of a good answer.",
     "Citation controls show whether an answer came from the Business Central database or Microsoft online documentation, and show the filters and logic applied.",
-    "The Copilot and Agent Capabilities page lists Copilot and agent functionality in the environment, and individual capabilities such as chat can be activated or deactivated.",
-    "A Copilot permission set was introduced with update 26. It contains Copilot system features including chat. Users should have it by default, but admins may need to configure it manually if default assignment is changed.",
+    "The Copilot and Agent Capabilities page lists Copilot and agent functionality in the environment; make sure the chat line is active, and use the action to activate it if not.",
+    "A Copilot permission set was introduced with update 26. It contains Copilot system features including chat. All users should have it by default, but admins can configure it; if users cannot access chat, a missing assignment is the likely cause.",
     "Copilot can generate analysis tabs from a question, and users can add columns such as vendors and substitutes.",
     "Copilot recognizes capabilities on the open page, including custom ones from installed extensions, for example suggesting item substitutes on the item substitution page."
   ],

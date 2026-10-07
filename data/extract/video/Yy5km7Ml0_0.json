@@ -305,10 +305,10 @@
     {
       "name": "AL-GO Incremental Builds for GitHub",
       "description": "An improvement to AL-GO for GitHub where if only one of many projects in a CI/CD pipeline is modified, only that project is rebuilt and outputs from previous builds are reused, significantly reducing build and deployment times.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 1423,
+      "status_evidence_quote": "one thing the team is working on that Freddy is is driving now is incremental bills",
+      "status_evidence_verified": true,
       "t_start": 1423,
       "t_end": 1463.2,
       "is_demoed": false,
@@ -574,15 +574,15 @@
       "check": "fuzzy"
     },
     {
-      "t": 309.7,
-      "text": "from the beginning right obviously so we had another internal uh internal product which has some similar capability than",
-      "why_it_matters": "Explains the motivation for migrating from Source Depot to Git as the standard version control system.",
-      "check": "fuzzy"
+      "t": 410.2,
+      "text": "binaries and stuff in Source Depot that would take up something like 30 gigabytes on your disc for business Central",
+      "why_it_matters": "Shows the size of the legacy Source Depot repo that had to be migrated to Git.",
+      "check": "exact"
     },
     {
-      "t": 410.2,
-      "text": "if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would",
-      "why_it_matters": "Illustrates the scale and complexity of the legacy Source Depot system that needed migration to Git.",
+      "t": 430.2,
+      "text": "git doesn't really do binaries well like it does text really well but not binaries",
+      "why_it_matters": "Explains why binaries needed special handling (symlinks, packages) during the Git migration.",
       "check": "exact"
     },
     {

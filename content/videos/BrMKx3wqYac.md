@@ -18,12 +18,12 @@ tags:
   - capacity allocation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:39.829Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:39.901Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     commit: null
     t: 453
     quote: every tenant in business central environment comes with a very limited preview evaluation capacity that would allow you to set up the sales order
+  - kind: video
+    url: https://www.youtube.com/watch?v=BrMKx3wqYac&t=479s
+    title: "Introducing: AI Consumption Billing for Business Central (2025 release wave 1)"
+    date: "2025-04-01T15:00:21.000Z"
+    commit: null
+    t: 479
+    quote: if you have any on your tenant, this is what the agent would consume from first.
   - kind: video
     url: https://www.youtube.com/watch?v=BrMKx3wqYac&t=547s
     title: "Introducing: AI Consumption Billing for Business Central (2025 release wave 1)"
@@ -194,6 +201,9 @@ quotes:
   - t: 453
     text: every tenant in business central environment comes with a very limited preview evaluation capacity that would allow you to set up the sales order
     check: exact
+  - t: 479
+    text: if you have any on your tenant, this is what the agent would consume from first.
+    check: exact
   - t: 547
     text: to use billing policies on a business central environment is required that you link it to a power platform environment so that knows which
     check: exact
@@ -206,7 +216,7 @@ quotes:
 
 > AI consumption billing for Business Central copilot features, shown with the sales order agent: usage is measured in Microsoft Copilot Studio messages, paid by prepaid message packs or pay-as-you-go, and configured by linking a Business Central environment to a Power Platform environment.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BrMKx3wqYac) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 16:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BrMKx3wqYac) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 16:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -216,13 +226,13 @@ The demo covers the Copilot and Agents capabilities page, with its notifications
 
 ## Key points
 
-- Usage is measured in Microsoft Copilot Studio messages. Two meters apply: generative answers (each email message the sales order agent generates) and autonomous actions (operations on sales quotes and sales orders).
-- Only the sales order agent is currently built for AI consumption billing.
-- Every Business Central tenant gets a limited preview evaluation capacity to set up and try the sales order agent. It runs out after the initial trial.
-- Billing policies require linking the Business Central environment to a Power Platform environment. The two must have the same environment type and geography.
-- Prepaid message packs are a monthly subscription with a fixed number of messages, renewed monthly. The presenter suggests them if you always consume 25,000 or more messages.
-- Pay-as-you-go bills the messages consumed after the month ends. The presenter suggests it for variable consumption.
-- Administrators can allocate message capacity to each environment and can disable overages to keep costs predictable.
+- Usage is measured in Microsoft Copilot Studio messages using two common meters: generative answers (each email message the sales order agent handles or generates) and autonomous actions (operations on sales quotes and sales orders).
+- Only the sales order agent is currently billed under AI consumption billing.
+- Every Business Central tenant gets a limited preview evaluation capacity to set up and try the sales order agent. When it runs out, notifications appear and the agent stops processing tasks until billing is set up.
+- Billing policies require linking the Business Central environment to a Power Platform environment in the Business Central admin center. In the demo, the linked environment was of the same type and in the same geography. An existing Power Platform billing policy is inherited automatically.
+- Pay-as-you-go plans are created in the Power Platform admin center against an Azure subscription, with Copilot Studio enabled as a product. Messages consumed are billed after the month ends.
+- Prepaid message packs are a monthly subscription bought from a partner or in the Microsoft 365 admin center. The Copilot Studio trial gave 25,000 messages. The presenters suggest prepaid if you always consume 25,000 or more messages, and pay-as-you-go for variable consumption.
+- The two options combine: prepaid capacity is consumed first, and pay-as-you-go covers anything beyond it.
 
 ## Chapters
 
@@ -238,17 +248,17 @@ The demo covers the Copilot and Agents capabilities page, with its notifications
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI consumption billing for Business Central | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=BrMKx3wqYac&t=17s) |  |
-| Copilot and Agents capabilities page | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=BrMKx3wqYac&t=96s) |  |
-| Preview evaluation capacity | status not stated | [7:33](https://www.youtube.com/watch?v=BrMKx3wqYac&t=453s) |  |
-| Prepaid Copilot Studio message packs | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=BrMKx3wqYac&t=253s) |  |
-| Pay-as-you-go billing plan | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=BrMKx3wqYac&t=253s) |  |
-| Generative answers meter | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=BrMKx3wqYac&t=303s) |  |
-| Autonomous actions meter | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=BrMKx3wqYac&t=303s) |  |
-| Power Platform billing inheritance | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=BrMKx3wqYac&t=516s) |  |
-| Per-environment capacity allocation | status not stated, demoed | [13:32](https://www.youtube.com/watch?v=BrMKx3wqYac&t=812s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI consumption billing for Business Central | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=BrMKx3wqYac&t=17s) |
+| Copilot and Agents capabilities page | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=BrMKx3wqYac&t=96s) |
+| Preview evaluation capacity | status not stated | [7:33](https://www.youtube.com/watch?v=BrMKx3wqYac&t=453s) |
+| Prepaid Copilot Studio message packs | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=BrMKx3wqYac&t=253s) |
+| Pay-as-you-go billing plan | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=BrMKx3wqYac&t=253s) |
+| Generative answers meter | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=BrMKx3wqYac&t=303s) |
+| Autonomous actions meter | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=BrMKx3wqYac&t=303s) |
+| Power Platform billing inheritance | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=BrMKx3wqYac&t=516s) |
+| Per-environment capacity allocation | status not stated, demoed | [13:32](https://www.youtube.com/watch?v=BrMKx3wqYac&t=812s) |
 
 ## AL objects mentioned
 
@@ -268,6 +278,7 @@ Not found in BC28-30: page "Copilot and Agents capabilities", page "Copilot pane
 - [4:13](https://www.youtube.com/watch?v=BrMKx3wqYac&t=253s) "there are the prepaid copilot studio message packs which are monthly subscription containing x number of messages uh renewable every month. And secondly, there's"
 - [5:49](https://www.youtube.com/watch?v=BrMKx3wqYac&t=349s) "we're going to use a generative answer for the for any message that the agent generates an autonomous action for the operation on sales"
 - [7:33](https://www.youtube.com/watch?v=BrMKx3wqYac&t=453s) "every tenant in business central environment comes with a very limited preview evaluation capacity that would allow you to set up the sales order"
+- [7:59](https://www.youtube.com/watch?v=BrMKx3wqYac&t=479s) "if you have any on your tenant, this is what the agent would consume from first."
 - [9:07](https://www.youtube.com/watch?v=BrMKx3wqYac&t=547s) "to use billing policies on a business central environment is required that you link it to a power platform environment so that knows which"
 - [15:39](https://www.youtube.com/watch?v=BrMKx3wqYac&t=939s) "if you always consume 25,000 or more messages, uh that this prepaid pack makes sense for you. If you have variable consumption, pay as"
 

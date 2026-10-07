@@ -5,12 +5,12 @@
   "overview": "The video covers two additions to the REST client module in Business Central, which the presenter says will be released with version 26. The first is cookie support: setting cookies on requests, reading them from responses, and working with cookie objects.\n\nThe second is collectible errors. With error collection enabled, the REST client throws collectible errors for problems such as connection failures, invalid JSON and HTTP errors. The code can then read the collected error and test an exception enum, which gets close to a try-catch pattern.",
   "key_points": [
     "The cookie support and error handling shown are in the next version of the REST client module, released with Business Central version 26.",
-    "To set extra properties such as domain or secret on a cookie, create a cookie object.",
-    "The get cookie names function returns a list of cookie names in the response, so you can check whether a cookie was returned. It returns an empty cookie if the cookie does not exist.",
+    "Set cookie on the request message takes either a cookie object or a cookie name and value. To set extra properties such as domain or secret, create a cookie object first. An existing cookie is replaced.",
+    "The get cookie names function returns a list of cookie names in the response, so you can check whether a cookie was returned.",
+    "If you get a cookie without checking the names first, you get an empty cookie when it does not exist. A try-get variant returns a Boolean that says whether the cookie exists.",
     "The get cookies function returns a full dictionary with cookie names as keys, which is more convenient than a list of names.",
-    "Collectible errors need an error behavior line added to the function. Only one error is collected, because the REST client stops at the first failure.",
-    "The REST client exception enum covers blocked by environment, connection failed, request failed (HTTP errors), invalid JSON, invalid XML and unknown errors.",
-    "Codeunit REST Client Exception Builder gets the exception enum from the error info custom dimensions, so you can test for a specific exception code."
+    "Adding the error behavior line (error collection) to your function makes the REST client throw collectible errors instead of normal errors. Only one error is collected, because the client stops at the first failure.",
+    "The REST client exception enum covers blocked by environment, connection failed, request failed (HTTP errors), invalid JSON, invalid XML and unknown errors."
   ],
   "audience": [
     "developer"

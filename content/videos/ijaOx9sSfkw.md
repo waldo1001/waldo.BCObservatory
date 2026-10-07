@@ -13,12 +13,12 @@ tags:
   - aggregated columns
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:49.654Z"
   flags: []
 generated:
-  at: "2026-10-06T18:57:40.247Z"
+  at: "2026-10-07T23:01:49.696Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,7 +122,7 @@ quotes:
 
 > Filtering on aggregated (totaled) columns in Business Central's data analysis mode, shown on an accounts receivable report by removing zero amounts with a "greater than zero" filter. The filter can be saved as part of the analysis definition.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ijaOx9sSfkw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-13 · 1:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ijaOx9sSfkw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-13 · 1:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -132,11 +132,10 @@ In the demo, an accounts receivable report in analysis mode contains rows with z
 
 ## Key points
 
-- Data analysis mode already lets you filter fields; you can also filter on totals.
-- Totals filtering works on the aggregated (summed) column, similar to filtering in normal reports.
-- Demo: in an accounts receivable report, a 'greater than zero' filter on the total removes rows with zero amounts.
-- The filtered setup can be saved as part of the data analysis definition for reuse.
-- The clip is about one minute long and does not state a feature status or version.
+- Data analysis mode already lets you filter fields in the analysis filter menu; you can also filter on totals.
+- Filtering on totals works on the aggregated (totaled) column, just like in normal reports in Business Central.
+- Demo: in an accounts receivable report, a 'greater than zero' filter on the totaled remaining amount column removes the rows with zero amounts.
+- The filtered setup can be saved as part of the data analysis definition.
 
 ## Chapters
 
@@ -147,10 +146,10 @@ In the demo, an accounts receivable report in analysis mode contains rows with z
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Filter totals in Analysis Mode | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=ijaOx9sSfkw&t=5s) |  |
-| Save filtered analysis definition | status not stated | [1:04](https://www.youtube.com/watch?v=ijaOx9sSfkw&t=64s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Filter totals in Analysis Mode | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=ijaOx9sSfkw&t=5s) |
+| Save filtered analysis definition | status not stated | [1:04](https://www.youtube.com/watch?v=ijaOx9sSfkw&t=64s) |
 
 ## Quotes
 

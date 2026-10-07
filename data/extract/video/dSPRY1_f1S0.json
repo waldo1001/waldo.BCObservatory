@@ -108,8 +108,8 @@
       "name": "GitHub app authentication",
       "description": "Service-to-service authentication method for AL Go using GitHub app ID and private key instead of personal access tokens, reducing security risk of token exposure.",
       "status": "preview",
-      "status_evidence_t": 81.7,
-      "status_evidence_quote": "everything that you'll see here is in preview um so we'll go through what's new",
+      "status_evidence_t": 169.2,
+      "status_evidence_quote": "what's right now been shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps",
       "status_evidence_verified": true,
       "t_start": 169.2,
       "t_end": 424.4,
@@ -130,8 +130,8 @@
       "name": "Embed secrets in install apps",
       "description": "Ability to use secret references with dollar sign and curly brackets in install apps and install test apps settings to avoid exposing secrets in source code or logs.",
       "status": "preview",
-      "status_evidence_t": 81.7,
-      "status_evidence_quote": "everything that you'll see here is in preview",
+      "status_evidence_t": 505.6,
+      "status_evidence_quote": "so what we've done in preview right now is the ability to add like a dollar sign and and some curly brackets",
       "status_evidence_verified": true,
       "t_start": 444.7,
       "t_end": 569.5,
@@ -148,10 +148,10 @@
     {
       "name": "Incremental builds",
       "description": "Performance enhancement that builds and publishes only modified apps instead of complete builds, reducing build and publish time and avoiding republishing unchanged apps. Apps maintain version numbers reflecting when they were built.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 169.2,
+      "status_evidence_quote": "shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps um incremental builds",
+      "status_evidence_verified": true,
       "t_start": 569.5,
       "t_end": 833.4,
       "is_demoed": true,
@@ -332,26 +332,6 @@
       "system": "platform"
     },
     {
-      "name": "GitHub apps support",
-      "description": "GitHub apps are currently not supported in version 6.1 and require updating to preview, with general availability in version 6.4.",
-      "status": "preview",
-      "status_evidence_t": 1335.8,
-      "status_evidence_quote": "GitHub abs are currently not supported in version 6.1 you would need to update to um is it 6.3 or preview preview preview right",
-      "status_evidence_verified": true,
-      "t_start": 1335.8,
-      "t_end": 1361.6,
-      "is_demoed": false,
-      "caveats": [
-        "Not available in 6.1",
-        "Currently in preview"
-      ],
-      "tags": [
-        "github apps",
-        "version support"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Last known good build detection",
       "description": "Build system identifies last good build as the last successful build on the same branch, using it as baseline for determining what apps need rebuilding.",
       "status": "unclear",
@@ -456,28 +436,6 @@
       "system": "platform"
     },
     {
-      "name": "AL Go GitHub Adoption Metrics",
-      "description": "Telemetry shows approximately 2,500 repositories using AL Go for GitHub with running workflows, and the majority are on the latest version.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2022.4,
-      "t_end": 2039,
-      "is_demoed": false,
-      "caveats": [
-        "telemetry cannot identify specific updating users",
-        "only aggregate statistics available"
-      ],
-      "tags": [
-        "telemetry",
-        "adoption",
-        "metrics",
-        "github"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Runtime Packages without Full Dependencies",
       "description": "Request for runtime packages capability that doesn't require full app dependencies, only symbols. The team determined the AL compiler won't deliver this, so they must create workflows to automate runtime package creation with full dependencies.",
       "status": "unclear",
@@ -518,28 +476,6 @@
         "repositories",
         "customization",
         "management"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "PowerBI Dashboards for Repository Monitoring",
-      "description": "Partners creating PowerBI dashboards to monitor and manage multiple AL Go repositories, potentially using telemetry or GitHub APIs.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2428.1,
-      "t_end": 2448.6,
-      "is_demoed": false,
-      "caveats": [
-        "unclear whether using telemetry or GitHub APIs",
-        "community-driven efforts"
-      ],
-      "tags": [
-        "dashboards",
-        "monitoring",
-        "powerbi",
-        "repositories"
       ],
       "system": "platform"
     },
@@ -730,49 +666,6 @@
         "performance"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Compiler folder optimization",
-      "description": "Using compiler folder to fail fast in testing, though total setup time remains the same as tests must still deploy and run.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3169.7,
-      "t_end": 3190.2,
-      "is_demoed": false,
-      "caveats": [
-        "total setup time is not reduced",
-        "tests must still deploy and run"
-      ],
-      "tags": [
-        "compiler",
-        "testing",
-        "performance",
-        "optimization"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Testing performance improvements investigation",
-      "description": "The team is aware of testing performance concerns and is looking into what can be done better.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3190.2,
-      "t_end": 3205.4,
-      "is_demoed": false,
-      "caveats": [
-        "no specific timeline or commitment given"
-      ],
-      "tags": [
-        "testing",
-        "performance",
-        "roadmap",
-        "investigation"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -904,6 +797,12 @@
       "text": "the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap",
       "why_it_matters": "Explains the design decision to publish test apps on-demand rather than run tests automatically on every build.",
       "check": "snapped"
+    },
+    {
+      "t": 1010,
+      "text": "two settings in deploy two structure one called include test apps in sandbox environment and you set that to true",
+      "why_it_matters": "Names the new deploy setting for publishing test apps to sandbox environments.",
+      "check": "exact"
     },
     {
       "t": 1043.3,

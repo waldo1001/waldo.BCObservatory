@@ -1,0 +1,30 @@
+{
+  "video_id": "D2KPQEbO40Q",
+  "item_id": "video/yt-microsoft/D2KPQEbO40Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim. The t=32 and t=92.7 quotes run on into the next segment, which is allowed.",
+    "Keeping all three features as 'unclear' is right: the transcript never says whether they are in preview or generally available.",
+    "One key point says summaries appear on the most used pages 'only' and that the feature was demoed. The transcript supports neither claim.",
+    "The key point saying the Scope 3 calculation depends on purchase document data is an inference the transcript does not state. Removed it.",
+    "Added what the page was missing: quick links, asking Copilot how to take action, and Scope 3 being the majority of emissions and the hardest to measure.",
+    "Rewrote the summary to drop the meta note about feature status."
+  ],
+  "input_hash": "b630aed1426c34a9d32c65f7ec5df46a857afc58c4bff4ec698e2b3930a3b6c8",
+  "by": "opus",
+  "at": "2026-10-07T23:01:37.370Z",
+  "applied": [
+    "quote at 73s",
+    "quote at 134s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05293300000000001
+  }
+}

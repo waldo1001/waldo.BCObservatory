@@ -2,7 +2,7 @@
 id: video/5Qfc7r618OM
 type: video
 title: "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)"
-summary: "Shopify connector skipped records page in Business Central: shows records skipped during export to Shopify because they are invalid or likely to be rejected. The video demos opening the page from the sync notification, fixing a customer with a missing email, and the logging mode field that controls logging."
+summary: "Shopify connector skipped records page in Business Central: it shows records skipped during export to Shopify because they are invalid or likely to be rejected. The video opens the page from the sync notification, fixes a customer with a missing email using Show record, and points out the logging mode field, where both All and Error only log skipped entries."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - error handling
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:16.650Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:16.693Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 38
     quote: There is an entry indicating an email is missing, which is a required field.
+  - kind: video
+    url: https://www.youtube.com/watch?v=5Qfc7r618OM&t=67s
+    title: "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)"
+    date: "2025-04-01T15:00:07.000Z"
+    commit: null
+    t: 67
+    quote: Before closing the page, notice other examples related to items or sales invoice exports.
   - kind: video
     url: https://www.youtube.com/watch?v=5Qfc7r618OM&t=84s
     title: "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)"
@@ -127,6 +134,9 @@ quotes:
   - t: 38
     text: There is an entry indicating an email is missing, which is a required field.
     check: exact
+  - t: 67
+    text: Before closing the page, notice other examples related to items or sales invoice exports.
+    check: exact
   - t: 84
     text: The functionality is controlled by the logging mode field. Both all and error only activate logging of skipped entries.
     check: exact
@@ -134,9 +144,9 @@ quotes:
 
 # What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)
 
-> Shopify connector skipped records page in Business Central: shows records skipped during export to Shopify because they are invalid or likely to be rejected. The video demos opening the page from the sync notification, fixing a customer with a missing email, and the logging mode field that controls logging.
+> Shopify connector skipped records page in Business Central: it shows records skipped during export to Shopify because they are invalid or likely to be rejected. The video opens the page from the sync notification, fixes a customer with a missing email using Show record, and points out the logging mode field, where both All and Error only log skipped entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5Qfc7r618OM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 1:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5Qfc7r618OM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 1:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -147,12 +157,12 @@ During synchronization a notification about skipped records appears. Choosing vi
 ## Key points
 
 - The Shopify connector skips records during export if they are invalid or likely to be rejected by Shopify.
+- In the demo scenario, customer data is exported as a Shopify company.
 - A notification about skipped records appears during synchronization; choose view skipped records to open the Shopify skipped records page.
-- The page only appears when records are skipped during synchronization.
 - The demo shows an entry for a missing email, a required field, on a customer record.
 - Show record on a skipped entry opens the source record card (the customer card in the demo) so you can correct it.
+- The skipped records page also shows examples related to item and sales invoice exports.
 - After the record is corrected, the export succeeds.
-- The logging mode field controls this logging; both all and error only activate logging of skipped entries.
 
 ## Chapters
 
@@ -165,11 +175,11 @@ During synchronization a notification about skipped records appears. Choosing vi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify skipped records page | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=5Qfc7r618OM&t=23s) |  |
-| Logging mode field for Shopify connector | status not stated | [1:24](https://www.youtube.com/watch?v=5Qfc7r618OM&t=84s) |  |
-| Show record functionality in skipped records page | status not stated, demoed | [0:54](https://www.youtube.com/watch?v=5Qfc7r618OM&t=54s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify skipped records page | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=5Qfc7r618OM&t=23s) |
+| Logging mode field for Shopify connector | status not stated | [1:24](https://www.youtube.com/watch?v=5Qfc7r618OM&t=84s) |
+| Show record functionality in skipped records page | status not stated, demoed | [0:54](https://www.youtube.com/watch?v=5Qfc7r618OM&t=54s) |
 
 ## AL objects mentioned
 
@@ -186,4 +196,5 @@ Not found in BC28-30: page "Shopify skipped records page", page "customer card p
 - [0:23](https://www.youtube.com/watch?v=5Qfc7r618OM&t=23s) "When exporting data to Shopify, the Shopify connector skips records if they are invalid for export or likely to be rejected by Shopify."
 - [0:38](https://www.youtube.com/watch?v=5Qfc7r618OM&t=38s) "During synchronization, a notification about skipped records appears. Choose view skipped records to open the Shopify skipped records page."
 - [0:38](https://www.youtube.com/watch?v=5Qfc7r618OM&t=38s) "There is an entry indicating an email is missing, which is a required field."
+- [1:07](https://www.youtube.com/watch?v=5Qfc7r618OM&t=67s) "Before closing the page, notice other examples related to items or sales invoice exports."
 - [1:24](https://www.youtube.com/watch?v=5Qfc7r618OM&t=84s) "The functionality is controlled by the logging mode field. Both all and error only activate logging of skipped entries."

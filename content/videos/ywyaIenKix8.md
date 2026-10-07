@@ -16,12 +16,12 @@ tags:
   - recurring billing process
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:14.944Z"
   flags: []
 generated:
-  at: "2026-10-06T18:59:34.925Z"
+  at: "2026-10-07T23:02:14.980Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,7 @@ quotes:
 
 > Subscription billing in Business Central: a feature set for managing subscription contracts, running recurring billing, recognizing subscription revenue, and running usage-based billing via CSV or custom API import. The video states it is part of the essential Business Central license.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ywyaIenKix8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-22 · 0:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ywyaIenKix8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-22 · 0:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -172,12 +172,12 @@ It also describes running the recurring billing process to fit your billing rhyt
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Subscription billing feature set | status not stated | [0:03](https://www.youtube.com/watch?v=ywyaIenKix8&t=3s) |  |
-| Recurring billing process | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |  |
-| Subscription revenue recognition | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |  |
-| Usage-based billing | status not stated | [0:37](https://www.youtube.com/watch?v=ywyaIenKix8&t=37s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Subscription billing feature set | status not stated | [0:03](https://www.youtube.com/watch?v=ywyaIenKix8&t=3s) |
+| Recurring billing process | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
+| Subscription revenue recognition | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
+| Usage-based billing | status not stated | [0:37](https://www.youtube.com/watch?v=ywyaIenKix8&t=37s) |
 
 ## Quotes
 

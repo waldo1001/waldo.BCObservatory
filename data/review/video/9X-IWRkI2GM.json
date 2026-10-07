@@ -1,0 +1,31 @@
+{
+  "video_id": "9X-IWRkI2GM",
+  "item_id": "video/yt-microsoft/9X-IWRkI2GM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary, a key point and the Legacy Report Deprecation description say 'seven' legacy reports. The caption reads 'these 711 reports', which is garbled, so the transcript does not support a specific count. The number is removed from the summary and key points; the feature description cannot be edited here and still says seven.",
+    "The key point saying the obsoleted layout is 'kept for backward compatibility' is not in the transcript. That phrase is removed.",
+    "The evidence_t for Legacy Report Deprecation pointed to 645.2, but the quote starts at 658.8. It is corrected.",
+    "The quote at 841.9 adds nothing useful and is dropped.",
+    "The 26.2 availability is hedged ('hopefully version 26.2'). The other features are left as unclear."
+  ],
+  "input_hash": "c633254a4cbeb9e039576e8fbba7cb19bfa8a0947e0546ff34b549befae2dde0",
+  "by": "opus",
+  "at": "2026-10-07T23:00:41.238Z",
+  "applied": [
+    "Legacy Report Deprecation: status announced",
+    "dropped 1 quote(s)",
+    "quote at 542s",
+    "quote at 741s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10267300000000001
+  }
+}

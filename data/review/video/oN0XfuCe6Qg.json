@@ -1,0 +1,29 @@
+{
+  "video_id": "oN0XfuCe6Qg",
+  "item_id": "video/yt-microsoft/oN0XfuCe6Qg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The module's status can be determined: the transcript says it is ready for release with 2025 wave 1 and 'ready to be used'. I set it to ga with verbatim evidence.",
+    "The key point about API methods used invented camel-case names (OpenFileDialog/SaveFileDialog). The transcript only describes initializing with a scenario, opening a save file dialog and invoking create file. I reworded it.",
+    "The key point on the storage browser said users can 'manage' files. The transcript only shows the uploaded test PDF appearing in the browser, so I narrowed it.",
+    "The claim that developers 'need to create their own implementations' went beyond the transcript. I reworded it to say developers can use the API.",
+    "The quotes are verbatim and the summary is supported."
+  ],
+  "input_hash": "0842dc66c7485933d66c14d5f20bfc3882eff1ae1bff6c6c9a5329dab632a32c",
+  "by": "opus",
+  "at": "2026-10-07T23:02:07.643Z",
+  "applied": [
+    "quote at 236s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status External File Storage System Application Module -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055517
+  }
+}

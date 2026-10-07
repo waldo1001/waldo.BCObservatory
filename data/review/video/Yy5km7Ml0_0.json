@@ -1,0 +1,31 @@
+{
+  "video_id": "Yy5km7Ml0_0",
+  "item_id": "video/yt-microsoft/Yy5km7Ml0_0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All quotes checked are verbatim; summary and key points are supported by the transcript.",
+    "Quote at 309.7 is low-information (only says an internal tool existed); dropped.",
+    "Quote at 410.2 is a fragment that stops before the key fact (30 GB repo); replaced with a fuller span.",
+    "Feature 'Automated Certificate Management and Rotation' description says 'onerent'; caption says 'onert'. Minor caption-derived naming.",
+    "AL-Go incremental builds are described as in progress ('the team is working on'), set to announced.",
+    "'Automated Build and Test Infrastructure' largely overlaps the build pipeline and test infrastructure features; kept because it is supported as advice to partners.",
+    "'Turn-based test selection' follows the caption wording and is kept as is."
+  ],
+  "input_hash": "46563a32a34e381ad3e080bcfc11b196fa1c5da6abe165b3ff6504d859d33747",
+  "by": "opus",
+  "at": "2026-10-07T23:01:36.097Z",
+  "applied": [
+    "AL-GO Incremental Builds for GitHub: status announced",
+    "dropped 2 quote(s)",
+    "quote at 410s",
+    "quote at 430s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.193633
+  }
+}

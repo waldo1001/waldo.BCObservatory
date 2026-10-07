@@ -1,0 +1,31 @@
+{
+  "video_id": "6NuJOL8DEqA",
+  "item_id": "video/yt-microsoft/6NuJOL8DEqA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim; some run on into the next segment, which is acceptable.",
+    "The transcript says the enhanced manufacturing Power BI app ships in version 26.1, so the app update can be marked ga with evidence.",
+    "The deprecation of the two utilization reports is hedged ('likely'), so status is announced. The feature descriptions and summary overstate it as definite.",
+    "Video title mentions Electronic Documents, but the transcript only covers manufacturing analytics.",
+    "The demo used the raw Power BI app because the embedded experience was still being finished at recording time."
+  ],
+  "input_hash": "b8b199ef7d774650573515026f9a8ece81890f597113e9e136b6332199441bef",
+  "by": "opus",
+  "at": "2026-10-07T23:00:56.685Z",
+  "applied": [
+    "Manufacturing Power BI App Update: status ga",
+    "quote at 431s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status Current Utilization Report Deprecation -> announced: evidence not verbatim or does not state the status",
+    "status Historical Utilization Report Deprecation -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078685
+  }
+}

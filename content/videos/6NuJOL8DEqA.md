@@ -2,7 +2,7 @@
 id: video/6NuJOL8DEqA
 type: video
 title: "What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)"
-summary: "Updated Manufacturing Power BI app in Business Central 2025 release wave 1: reworked Work Center Load, Expected Capacity Need and Finished Production Order Breakdown reports, new Work Center and Machine Center statistics reports, a routing lines Gantt chart, and planned hiding of two utilization reports in version 26.1."
+summary: "Updated Manufacturing Power BI app in Business Central 2025 release wave 1 (version 26.1): reworked Work Center Load, Expected Capacity Need and Finished Production Order Breakdown reports, new Work Center and Machine Center statistics reports migrated from legacy reports, and a production order routing lines Gantt chart. The current and historical utilization reports will likely be hidden in this version and removed later."
 tier: official
 language: en
 tags:
@@ -18,18 +18,25 @@ tags:
   - deprecation
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:56.685Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:56.723Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d46dc4f42e05750ae7b9cba737ae08df8b977e602e949ec9c6066ab8a321309c
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=6NuJOL8DEqA&t=450s
+    title: "Manufacturing Power BI App Update: generally available"
+    date: "2025-04-01T15:00:12.000Z"
+    commit: null
+    t: 450
+    quote: this was just a sneak peek into the enhanced powerbi app for manufacturing that we ship in version 26.1
   - kind: video
     url: https://www.youtube.com/watch?v=6NuJOL8DEqA&t=5s
     title: "What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)"
@@ -65,6 +72,13 @@ evidence:
     commit: null
     t: 313
     quote: you can see capacity in minutes uh that is something that that you can change but you have to get access to the powerbi
+  - kind: video
+    url: https://www.youtube.com/watch?v=6NuJOL8DEqA&t=430s
+    title: "What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)"
+    date: "2025-04-01T15:00:12.000Z"
+    commit: null
+    t: 430
+    quote: this is not on live data this is the data that has been refreshed in the powerbi uh report
   - kind: video
     url: https://www.youtube.com/watch?v=6NuJOL8DEqA&t=471s
     title: "What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)"
@@ -142,9 +156,9 @@ features:
     verified: false
     status_source: video
   - name: Manufacturing Power BI App Update
-    status: unclear
+    status: ga
     t: 5
-    verified: false
+    verified: true
     status_source: video
   - name: Current Utilization Report Deprecation
     status: unclear
@@ -174,6 +188,9 @@ quotes:
   - t: 313
     text: you can see capacity in minutes uh that is something that that you can change but you have to get access to the powerbi
     check: exact
+  - t: 430
+    text: this is not on live data this is the data that has been refreshed in the powerbi uh report
+    check: exact
   - t: 471
     text: we will also likely deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove
     check: exact
@@ -181,9 +198,9 @@ quotes:
 
 # What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)
 
-> Updated Manufacturing Power BI app in Business Central 2025 release wave 1: reworked Work Center Load, Expected Capacity Need and Finished Production Order Breakdown reports, new Work Center and Machine Center statistics reports, a routing lines Gantt chart, and planned hiding of two utilization reports in version 26.1.
+> Updated Manufacturing Power BI app in Business Central 2025 release wave 1 (version 26.1): reworked Work Center Load, Expected Capacity Need and Finished Production Order Breakdown reports, new Work Center and Machine Center statistics reports migrated from legacy reports, and a production order routing lines Gantt chart. The current and historical utilization reports will likely be hidden in this version and removed later.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6NuJOL8DEqA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6NuJOL8DEqA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -222,7 +239,7 @@ The demo covers updated reports (work center load, expected capacity need, finis
 | Work Center Statistics Report | status not stated, demoed | [5:13](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=313s) |  |
 | Machine Center Statistics Report | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=334s) |  |
 | Production Order Routing Lines Gantt Chart | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=390s) |  |
-| Manufacturing Power BI App Update | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=5s) |  |
+| Manufacturing Power BI App Update | generally available, demoed | [0:05](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=5s) | "this was just a sneak peek into the enhanced powerbi app for manufacturing that we ship in version 26.1" ([7:30](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=450s)) |
 | Current Utilization Report Deprecation | status not stated | [7:51](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=471s) |  |
 | Historical Utilization Report Deprecation | status not stated | [7:51](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=471s) |  |
 
@@ -239,6 +256,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:15](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=75s) "we have uh this vision of modernizing in the Legacy reports in in manufacturing and simply making as much of the analytical analytical power"
 - [1:35](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=95s) "we added a report that give you a Gant visualization of your pro production order routing lines"
 - [5:13](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=313s) "you can see capacity in minutes uh that is something that that you can change but you have to get access to the powerbi"
+- [7:10](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=430s) "this is not on live data this is the data that has been refreshed in the powerbi uh report"
 - [7:51](https://www.youtube.com/watch?v=6NuJOL8DEqA&t=471s) "we will also likely deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove"
 
 ## Disclaimers in the video

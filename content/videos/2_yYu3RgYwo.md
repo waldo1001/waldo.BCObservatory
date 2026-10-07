@@ -18,12 +18,12 @@ tags:
   - purchase invoice
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:15.115Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:15.163Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,7 +193,7 @@ quotes:
 
 > Default sustainability values in Business Central (2025 release wave 1): an optional setting in sustainability setup, off by default, adds default sustainability account and emission fields to GL accounts, items, resources and machine centers. Those defaults carry over to purchase document lines and can be edited there.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2_yYu3RgYwo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2_yYu3RgYwo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

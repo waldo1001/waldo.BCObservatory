@@ -1,0 +1,31 @@
+{
+  "video_id": "RfHVHa_Qiqk",
+  "item_id": "video/yt-microsoft/RfHVHa_Qiqk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Small Language Models was marked ga based on the Phi 4 release date. That is a model release, not a Business Central availability status, and the evidence_t (232.5) did not match the segment where the quote starts (455.9). Set to unclear.",
+    "Phi Model Series was marked ga based on a Microsoft model release. The transcript gives no Business Central GA status for it. Set to unclear.",
+    "Sales order agent preview evidence is verbatim at t 1173.2 and is kept.",
+    "All 20 quotes checked against the transcript. Several cross segment boundaries but are verbatim.",
+    "The page was missing that fine-tuned models are deployed from AI Foundry and used through the AI toolkit, and that the AI test toolkit supports LLM-based evaluation. Added quotes and a key point."
+  ],
+  "input_hash": "6168446ee228a2db4668448c9824c0a8c00d040d5e6e4fed93af51e3592c6980",
+  "by": "opus",
+  "at": "2026-10-07T23:02:03.312Z",
+  "applied": [
+    "Small Language Models: status unclear",
+    "Phi Model Series: status unclear",
+    "Sales order agent: status preview",
+    "quote at 900s",
+    "quote at 1230s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.17583300000000002
+  }
+}

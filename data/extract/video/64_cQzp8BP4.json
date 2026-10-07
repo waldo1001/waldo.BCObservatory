@@ -244,6 +244,18 @@
       "check": "exact"
     },
     {
+      "t": 377.6,
+      "text": "what we did did for BC26 was that we basically do the same as before, but we postpone it till the end",
+      "why_it_matters": "Gives the version (BC26) and the design for deferring automatic cost posting to the GL.",
+      "check": "exact"
+    },
+    {
+      "t": 461.4,
+      "text": "you can use the get next entry number functions on the entry tables and you would also need to specify",
+      "why_it_matters": "The main instruction for developers who add their own ledger entries.",
+      "check": "exact"
+    },
+    {
       "t": 614.2,
       "text": "if we post one batch it took you know ballpark of 20 seconds and if we post two um batches as we just demoed",
       "why_it_matters": "Provides performance benchmark showing two concurrent batches take nearly the same time as one batch",

@@ -2,7 +2,7 @@
 id: video/z7UTBiCNOo8
 type: video
 title: "What's Cooking in Business Central: Excel Reports that Become Generally Available"
-summary: "Excel layouts for built-in Business Central reports moving to general availability, demoed with the Trial Balance report: opening it in Excel, customizing the layout, uploading it back, and finding the finance reports documentation."
+summary: "Excel layouts for built-in Business Central reports were added as preview a couple of releases ago and become generally available in 2025 release wave 1. The video demos the Trial Balance Excel report: opening it in Excel, enabling editing, customizing the layout and pivot table, and uploading it back. It also shows the finance analytics documentation, where each report has worksheet descriptions, persona use cases and alternatives."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - general availability
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:52.509Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:52.552Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -30,18 +30,11 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=z7UTBiCNOo8&t=39s
-    title: "Excel Layouts for Built-in Reports: generally available"
+    title: "Excel Layouts for Built-in Reports: announced"
     date: "2025-03-13T13:56:05.000Z"
     commit: null
     t: 39
-    quote: they will be generally available
-  - kind: video
-    url: https://www.youtube.com/watch?v=z7UTBiCNOo8&t=193s
-    title: "Slicer Controls for Report Filtering: generally available"
-    date: "2025-03-13T13:56:05.000Z"
-    commit: null
-    t: 193
-    quote: generally available version we'll likely put these slices to the right
+    quote: they are marked here with a preview the new thing for wave 1 is that they will be generally available
   - kind: video
     url: https://www.youtube.com/watch?v=z7UTBiCNOo8&t=19s
     title: "What's Cooking in Business Central: Excel Reports that Become Generally Available"
@@ -84,6 +77,20 @@ evidence:
     commit: null
     t: 343
     quote: you can also get a description of the worksheets in the report with screenshots so you can kind of get an idea of what
+  - kind: video
+    url: https://www.youtube.com/watch?v=z7UTBiCNOo8&t=384s
+    title: "What's Cooking in Business Central: Excel Reports that Become Generally Available"
+    date: "2025-03-13T13:56:05.000Z"
+    commit: null
+    t: 384
+    quote: there's a link to the report if you want to try it out so you don't have to go from business Central
+  - kind: video
+    url: https://www.youtube.com/watch?v=z7UTBiCNOo8&t=404s
+    title: "What's Cooking in Business Central: Excel Reports that Become Generally Available"
+    date: "2025-03-13T13:56:05.000Z"
+    commit: null
+    t: 404
+    quote: links to alternative ways to analyze this data maybe you want to use powerbi maybe you want to use the legac report
 links:
   learn: []
   objects: []
@@ -123,7 +130,7 @@ chapters:
     title: Alternative Analysis Tools and Resources
 features:
   - name: Excel Layouts for Built-in Reports
-    status: ga
+    status: announced
     t: 19
     verified: true
     status_source: video
@@ -133,18 +140,13 @@ features:
     verified: false
     status_source: video
   - name: Slicer Controls for Report Filtering
-    status: ga
+    status: unclear
     t: 193
-    verified: true
+    verified: false
     status_source: video
   - name: Finance Analytics Documentation
     status: unclear
     t: 270
-    verified: false
-    status_source: video
-  - name: Excel Reports with Copilot Integration
-    status: unclear
-    t: 363
     verified: false
     status_source: video
   - name: Alternative Analysis Methods Documentation
@@ -176,13 +178,19 @@ quotes:
   - t: 343
     text: you can also get a description of the worksheets in the report with screenshots so you can kind of get an idea of what
     check: snapped
+  - t: 384
+    text: there's a link to the report if you want to try it out so you don't have to go from business Central
+    check: exact
+  - t: 404
+    text: links to alternative ways to analyze this data maybe you want to use powerbi maybe you want to use the legac report
+    check: exact
 ---
 
 # What's Cooking in Business Central: Excel Reports that Become Generally Available
 
-> Excel layouts for built-in Business Central reports moving to general availability, demoed with the Trial Balance report: opening it in Excel, customizing the layout, uploading it back, and finding the finance reports documentation.
+> Excel layouts for built-in Business Central reports were added as preview a couple of releases ago and become generally available in 2025 release wave 1. The video demos the Trial Balance Excel report: opening it in Excel, enabling editing, customizing the layout and pivot table, and uploading it back. It also shows the finance analytics documentation, where each report has worksheet descriptions, persona use cases and alternatives.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=z7UTBiCNOo8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-13 · 7:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=z7UTBiCNOo8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-13 · 7:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -192,13 +200,13 @@ The presenter then shows how a user can change the look of the report. Rows can 
 
 ## Key points
 
-- Excel layouts for built-in reports replace reports that were coded in AL, and they move to general availability.
-- Excel layouts were marked as preview in earlier releases, per the presenter.
-- Opening the report in Excel requires enabling editing. The Power Query connection must be allowed to communicate externally.
-- After download, you can remove rows, hide tabs, adjust spacing and modify pivot table fields.
-- Clear filters before uploading a modified report back to Business Central.
-- Slicer placement may change in the generally available version. The presenter said they will likely go on the right.
-- The finance reports documentation has worksheet descriptions with screenshots, persona use cases, Copilot tips with pivot table data, and links to Power BI, legacy reports and financial reporting.
+- The Excel reports menu was once limited to built-in reports that were hard for users to change because they were coded in AL. New Excel layouts were added a couple of releases ago and are marked as preview.
+- Per the presenter, the new Excel layouts become generally available in 2025 release wave 1.
+- When you open the downloaded report, you need to enable editing in Excel. The report uses Power Query, so you must also allow it to communicate before it renders.
+- Users can change the look and feel of the Microsoft-provided template: delete rows, reduce white space, hide tabs such as the data tab, filter with slicers, and remove pivot table fields.
+- The modified report can be uploaded back to Business Central. Clear filters before uploading.
+- For the generally available version, slicers will likely be moved to the right side.
+- The short URL 'BC Finance analytics' opens the finance analytics documentation. It lists Excel and classic finance reports, with descriptions, worksheet screenshots, persona use cases, a tip on using raw pivot data with Copilot, direct links to try reports, and alternatives such as Power BI, legacy reports and financial reporting.
 
 ## Chapters
 
@@ -215,11 +223,10 @@ The presenter then shows how a user can change the look of the report. Rows can 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Excel Layouts for Built-in Reports | generally available, demoed | [0:19](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=19s) | "they will be generally available" ([0:39](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=39s)) |
+| Excel Layouts for Built-in Reports | announced, demoed | [0:19](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=19s) | "they are marked here with a preview the new thing for wave 1 is that they will be generally available" ([0:39](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=39s)) |
 | Report Customization in Excel | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=152s) |  |
-| Slicer Controls for Report Filtering | generally available, demoed | [3:13](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=193s) | "generally available version we'll likely put these slices to the right" ([3:13](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=193s)) |
+| Slicer Controls for Report Filtering | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=193s) |  |
 | Finance Analytics Documentation | status not stated, demoed | [4:30](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=270s) |  |
-| Excel Reports with Copilot Integration | status not stated | [6:03](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=363s) |  |
 | Alternative Analysis Methods Documentation | status not stated | [6:44](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=404s) |  |
 
 ## AL objects mentioned
@@ -241,6 +248,8 @@ Not found in BC28-30: report "Trial Balance Over Previous Year", report "Detaile
 - [2:32](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=152s) "as a user I can completely change the look and feel for this um if I don't what I don't like"
 - [4:13](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=253s) "I can upload this back to business Central make sure I clear my filters"
 - [5:43](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=343s) "you can also get a description of the worksheets in the report with screenshots so you can kind of get an idea of what"
+- [6:24](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=384s) "there's a link to the report if you want to try it out so you don't have to go from business Central"
+- [6:44](https://www.youtube.com/watch?v=z7UTBiCNOo8&t=404s) "links to alternative ways to analyze this data maybe you want to use powerbi maybe you want to use the legac report"
 
 ## Disclaimers in the video
 

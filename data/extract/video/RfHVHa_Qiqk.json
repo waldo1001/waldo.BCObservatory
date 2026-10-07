@@ -108,10 +108,10 @@
     {
       "name": "Small Language Models",
       "description": "Smaller AI models with fewer parameters (measured in billions) that can perform tasks comparable to large language models. Phi 4 has 14 billion parameters and outperforms GPT-3, runs on single GPU, and can even run on home computers. Approximately 10 times faster than larger models in generating responses.",
-      "status": "ga",
-      "status_evidence_t": 455.9,
-      "status_evidence_quote": "was released um this december with i think 14 billion parameters",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 232.5,
       "t_end": 960.8,
       "is_demoed": false,
@@ -178,10 +178,10 @@
     {
       "name": "Phi Model Series",
       "description": "Microsoft's series of small language models released over time. Phi 1 had 1.3 billion parameters released a year and a half ago, and Phi 4 with 14 billion parameters was released in December. These models outperform GPT-3 and are on par with GPT-4 for many simple tasks.",
-      "status": "ga",
-      "status_evidence_t": 435.7,
-      "status_evidence_quote": "Microsoft for example introduced this or have we have done this series of five Phi models the first one was released a year and",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 435.7,
       "t_end": 476.1,
       "is_demoed": false,
@@ -450,9 +450,21 @@
       "check": "exact"
     },
     {
+      "t": 900.4,
+      "text": "you can deploy them also from AI Foundry and then you can consume them just like any other model",
+      "why_it_matters": "Shows how fine-tuned models reach Business Central: deployed from AI Foundry and consumed through the AI toolkit.",
+      "check": "exact"
+    },
+    {
       "t": 1019,
       "text": "for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an",
       "why_it_matters": "Demonstrates the testing strategy for AI agents by defining accuracy as correct email processing and quote generation.",
+      "check": "exact"
+    },
+    {
+      "t": 1229.7,
+      "text": "we also have support in the AI test to kit for using an llm to to test features",
+      "why_it_matters": "Confirms that the AI test toolkit supports LLM-based evaluation of natural-language output.",
       "check": "exact"
     },
     {

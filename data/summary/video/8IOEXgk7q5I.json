@@ -1,16 +1,16 @@
 {
   "video_id": "8IOEXgk7q5I",
   "item_id": "video/yt-microsoft/8IOEXgk7q5I",
-  "summary": "Business Central 2025 release wave 1 cost adjustment changes: iterative adjustment by period for high-volume items, item by item commit, forced adjustment with reprocessing of entries, automatic self-diagnostics, and a cost adjustment tracer tool. Iterative adjustment and the tracer are demoed.",
+  "summary": "Business Central 2025 release wave 1 cost adjustment changes: iterative period by period adjustment for high-volume items and selected production/assembly orders, item by item commit, forced adjustment via mark for adjustment and resetting outbound entries, automatic self-diagnostics on the Inventory Cost Adjustment page, and a cost adjustment tracer. The tracer is demoed on two items in a batch.",
   "overview": "The video presents four main enhancements to cost adjustment in Business Central, which the presenter describes as a key step for accurate inventory valuation. It covers handling large transaction volumes, reducing lock times, correcting wrongly adjusted items, and finding the causes of slow runs.\n\nFor high-volume items, cost adjustment can run period by period from the Inventory Cost Adjustment page. Item by item commit, forced adjustment actions, self-diagnostics warnings and a tracer that logs the adjustment process are also covered. The tracer and iterative adjustment are shown in demos.",
   "key_points": [
-    "Iterative adjustment: on the Inventory Cost Adjustment page, select an item, choose a date and run adjust cost until valuation date. It is limited to one run per period.",
+    "Iterative adjustment: on the Inventory Cost Adjustment page, select an item, choose the date until which to complete the adjustment and run adjust cost until valuation date. This allows adjustment on a period by period basis when a single run might not finish.",
     "Specific production and assembly orders can be adjusted by selecting them and choosing adjust cost for selected orders.",
-    "Item by item commit reduces lock times and avoids a full rerun if one item fails. It is turned on with the item by item adjustment toggle in the Adjust Cost - Item Entries report, and is only available there.",
-    "Mark for adjustment forces a rerun for items marked as adjusted but carrying incorrect costs. It is meant for old or highly customized environments.",
-    "The new Item Application Entries page has a reset action that sets outbound entries to be reprocessed in the next cost adjustment.",
+    "Item by item commit reduces lock times and avoids a full rerun if one item fails. It is used by running the Adjust Cost - Item Entries report with the item by item adjustment toggle on.",
+    "Mark for adjustment on the Item Ledger Entries page forces a rerun for inbound entries so linked outbound entries are recalculated. This helps with items marked as adjusted but carrying inaccurate costs, especially in old or highly customized environments.",
+    "The new Item Application Entries page has a reset action that sets outbound entries to be reconsidered in the next cost adjustment.",
     "Self-diagnostics scan setup and cost adjustment data when the Inventory Cost Adjustment page opens, and can be run manually with the run checks action. They cannot be fully disabled but can be snoozed up to 30 days.",
-    "The cost adjustment tracer records events, entries, items, variances and orders into a log saved to the database. Its timeout can be set up to 12 hours, and the log may be too large to analyze manually."
+    "The cost adjustment tracer runs on a selected batch with a timeout of up to 12 hours. It records events, processed entries, items, locations, variances, orders and cost differences into a log saved to the database. Analysis view mode is recommended because the log can be too large to read line by line."
   ],
   "audience": [
     "functional consultant",

@@ -1,0 +1,32 @@
+{
+  "video_id": "6B6F38AswE8",
+  "item_id": "video/yt-microsoft/6B6F38AswE8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Running tests on online environments was marked GA, but the transcript says it is still being worked on. Only publishing test apps to online environments was released in this release. Changed to announced and fixed the summary and key point.",
+    "Indirect templates, NuGet runtime package publishing and the move away from BC Container Helper are stated as planned work. Set them to announced with verbatim evidence.",
+    "The security key point said the monthly updates go into the DevOps pipelines that AL-Go uses. The transcript says the team receives monthly security requirements for its own DevOps pipelines, and AL-Go benefits from them. Reworded.",
+    "All six quotes are verbatim and useful."
+  ],
+  "input_hash": "4b80169e7a1ccc71be71d96cf15f4f0648d2002943319e8599f3746fc9897271",
+  "by": "opus",
+  "at": "2026-10-07T23:01:05.629Z",
+  "applied": [
+    "Running Tests on Online Environments: status announced",
+    "NuGet Support - Generate and Publish Runtime Packages: status announced",
+    "Move Away from BC Container Helper: status announced",
+    "Security Recommendations Implementation: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Indirect Templates and Customizations -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08978900000000001
+  }
+}

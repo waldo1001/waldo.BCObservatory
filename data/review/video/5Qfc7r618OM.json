@@ -1,0 +1,27 @@
+{
+  "video_id": "5Qfc7r618OM",
+  "item_id": "video/yt-microsoft/5Qfc7r618OM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'The page only appears when records are skipped during synchronization' is not stated in the transcript. The transcript only says a notification appears during synchronization. Removed it.",
+    "The page left out that the skipped records page also lists items and sales invoice exports. Added a key point and a quote for it.",
+    "Feature statuses stay unclear: the transcript does not say whether the feature is in preview or generally available.",
+    "Quotes are verbatim. The t=23.2 quote runs on into the next segment, which is acceptable."
+  ],
+  "input_hash": "bc2cc252205e738a974e71cd2085b0da3f28b94398fad5312f3e64034b2bb9d0",
+  "by": "opus",
+  "at": "2026-10-07T23:01:16.650Z",
+  "applied": [
+    "quote at 67s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039173
+  }
+}

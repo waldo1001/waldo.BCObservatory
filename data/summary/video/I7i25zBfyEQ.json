@@ -1,12 +1,12 @@
 {
   "video_id": "I7i25zBfyEQ",
   "item_id": "video/yt-microsoft/I7i25zBfyEQ",
-  "summary": "Sales Order Agent in Business Central, shown in a 6-minute February 2025 demo. The agent reads customer emails in a shared Outlook mailbox, maps them to customer accounts, drafts replies and creates quotes. A user approves emails and quotes before they go out.",
+  "summary": "A 6-minute 2025 demo of the Sales Order Agent in Business Central. The agent picks up customer emails sent to a shared address, maps them to the customer account, drafts replies and creates sales quotes. Users approve each email and quote before it is sent to the customer.",
   "overview": "The video walks through setting up the Sales Order Agent in Business Central and follows one scenario: a customer, Ian, emails a request for office furniture. The agent matches the email to the customer account, drafts a response, and waits for a user to approve it.",
   "key_points": [
     "Setup shown: add a shared customer email address, manage which users have access for approval, and activate the agent. The video says no additional configuration is needed.",
-    "The agent works with Outlook and processes incoming customer requests for quotes and orders from a shared mailbox.",
-    "Incoming emails are mapped to the correct customer account by email address.",
+    "The customer side is shown in Outlook. The agent processes incoming customer requests for quotes and orders sent to the shared email address.",
+    "The agent mapped the incoming email to the correct customer account (Ian's) and created a draft reply.",
     "Generated quotes include selected products mapped to SKUs, pricing, sales tax, delivery dates and the external purchase order number from the email.",
     "The agent can ask the customer to clarify vague requirements and handles back-and-forth email.",
     "A user must approve each email response and review and confirm each quote before it is sent to the customer.",

@@ -16,12 +16,12 @@ tags:
   - al development
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:58.052Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:58.090Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -30,7 +30,7 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=qNHUj3ZEang&t=6s
-    title: "Cookie Support in REST Client: generally available"
+    title: "Cookie Support in REST Client: announced"
     date: "2025-02-27T14:30:32.000Z"
     commit: null
     t: 6
@@ -114,7 +114,7 @@ chapters:
     title: REST Client Exception Enum and Try-Catch Pattern
 features:
   - name: Cookie Support in REST Client
-    status: ga
+    status: announced
     t: 6
     verified: true
     status_source: video
@@ -173,7 +173,7 @@ quotes:
 
 > Business Central REST client module additions: cookie support (set on requests, read from responses) and collectible errors with a REST client exception enum. Described as coming in the module version released with Business Central version 26.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qNHUj3ZEang) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-27 · 7:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qNHUj3ZEang) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-27 · 7:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -184,12 +184,12 @@ The second is collectible errors. With error collection enabled, the REST client
 ## Key points
 
 - The cookie support and error handling shown are in the next version of the REST client module, released with Business Central version 26.
-- To set extra properties such as domain or secret on a cookie, create a cookie object.
-- The get cookie names function returns a list of cookie names in the response, so you can check whether a cookie was returned. It returns an empty cookie if the cookie does not exist.
+- Set cookie on the request message takes either a cookie object or a cookie name and value. To set extra properties such as domain or secret, create a cookie object first. An existing cookie is replaced.
+- The get cookie names function returns a list of cookie names in the response, so you can check whether a cookie was returned.
+- If you get a cookie without checking the names first, you get an empty cookie when it does not exist. A try-get variant returns a Boolean that says whether the cookie exists.
 - The get cookies function returns a full dictionary with cookie names as keys, which is more convenient than a list of names.
-- Collectible errors need an error behavior line added to the function. Only one error is collected, because the REST client stops at the first failure.
+- Adding the error behavior line (error collection) to your function makes the REST client throw collectible errors instead of normal errors. Only one error is collected, because the client stops at the first failure.
 - The REST client exception enum covers blocked by environment, connection failed, request failed (HTTP errors), invalid JSON, invalid XML and unknown errors.
-- Codeunit REST Client Exception Builder gets the exception enum from the error info custom dimensions, so you can test for a specific exception code.
 
 ## Chapters
 
@@ -202,7 +202,7 @@ The second is collectible errors. With error collection enabled, the REST client
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Cookie Support in REST Client | generally available, demoed | [0:06](https://www.youtube.com/watch?v=qNHUj3ZEang&t=6s) | "in the next version of the rest client module that will be released with version 26 of business Central the rest client module now" ([0:06](https://www.youtube.com/watch?v=qNHUj3ZEang&t=6s)) |
+| Cookie Support in REST Client | announced, demoed | [0:06](https://www.youtube.com/watch?v=qNHUj3ZEang&t=6s) | "in the next version of the rest client module that will be released with version 26 of business Central the rest client module now" ([0:06](https://www.youtube.com/watch?v=qNHUj3ZEang&t=6s)) |
 | Get Cookie Names Function | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=qNHUj3ZEang&t=84s) |  |
 | Get Cookies Dictionary Function | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=qNHUj3ZEang&t=165s) |  |
 | Collectible Errors in REST Client | status not stated, demoed | [4:33](https://www.youtube.com/watch?v=qNHUj3ZEang&t=273s) |  |

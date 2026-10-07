@@ -18,12 +18,12 @@ tags:
   - average costing method
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:59.550Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:59.614Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -264,7 +264,7 @@ quotes:
 
 > Value chain tracking for sustainability in Business Central production orders, in preview in 2025 release wave 1. It covers sustainability value entries, emissions on items, work centers, BOMs, routings and production journals. Only the average costing method and carbon equivalent are supported.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6d6iajwQQ-c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6d6iajwQQ-c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

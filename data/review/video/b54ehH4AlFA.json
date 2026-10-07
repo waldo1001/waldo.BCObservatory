@@ -1,0 +1,32 @@
+{
+  "video_id": "b54ehH4AlFA",
+  "item_id": "video/yt-microsoft/b54ehH4AlFA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says a disclaimer marks this as preview. The transcript never says preview; it only says it is being cooked for 2025 release wave 1.",
+    "The key point saying telemetry 'must' be turned on is an inference. The presenter only says he turned telemetry on for this environment.",
+    "Feature statuses were all unclear. The transcript says the features are coming in 2025 release wave 1, so they are set to announced with evidence.",
+    "The quotes are verbatim and the chapters are reasonable."
+  ],
+  "input_hash": "05ce96731989d00883f2230eb2502de501a2b7bf244e29468d128b78944af306",
+  "by": "opus",
+  "at": "2026-10-07T23:01:29.527Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Financial Report Creation Telemetry -> announced: evidence not verbatim or does not state the status",
+    "status Row Definition Telemetry -> announced: evidence not verbatim or does not state the status",
+    "status Column Definition Telemetry -> announced: evidence not verbatim or does not state the status",
+    "status Financial Report Modification Telemetry -> announced: evidence not verbatim or does not state the status",
+    "status Financial Report Usage Telemetry -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.064193
+  }
+}

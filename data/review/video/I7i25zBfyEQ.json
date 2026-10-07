@@ -1,0 +1,28 @@
+{
+  "video_id": "I7i25zBfyEQ",
+  "item_id": "video/yt-microsoft/I7i25zBfyEQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'February 2025', but the transcript never gives a month. The title only says 2025.",
+    "The transcript says the email was mapped to Ian's account but never says how. The claim that mapping is based on email address is unsupported. Fixed in key_points; the feature description for 'Agent email mapping to customer accounts' still says this.",
+    "The Sales Order Agent can be set to announced: the video opens with 'Microsoft has just announced a series of new autonomous agents'.",
+    "The quotes are verbatim and the other key points are supported."
+  ],
+  "input_hash": "a7f2668ba1707450c81f48919ee0bdfcc1513cb1a29db1668cd335d292f7deae",
+  "by": "opus",
+  "at": "2026-10-07T23:02:03.860Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Sales Order Agent -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061625
+  }
+}

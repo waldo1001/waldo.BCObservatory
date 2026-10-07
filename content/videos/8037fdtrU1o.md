@@ -17,12 +17,12 @@ tags:
   - flexible update management
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:11.551Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:11.597Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,7 +171,7 @@ quotes:
 
 > Contoso Demo Tool redesign in 2025 release wave 1: demo data moves from monolithic Rapid Start packages to modular, code-based codeunits with layers, translation files and dynamic historical data. Code is in a GitHub app extensions repository, and the video says it is already available as part of 25.3.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8037fdtrU1o) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8037fdtrU1o) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -199,14 +199,14 @@ The new tool splits demo data into independent modules that follow Business Cent
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Modular demo data architecture | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=121s) |  |
-| Code-based demo data definition | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=8037fdtrU1o&t=161s) |  |
-| Translation support in demo data | status not stated | [3:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=181s) |  |
-| GitHub repository for demo tool | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=8037fdtrU1o&t=201s) |  |
-| Layered demo data structure | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=241s) |  |
-| Dynamic historical data calculation | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=8037fdtrU1o&t=262s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Modular demo data architecture | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=121s) |
+| Code-based demo data definition | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=8037fdtrU1o&t=161s) |
+| Translation support in demo data | status not stated | [3:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=181s) |
+| GitHub repository for demo tool | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=8037fdtrU1o&t=201s) |
+| Layered demo data structure | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=8037fdtrU1o&t=241s) |
+| Dynamic historical data calculation | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=8037fdtrU1o&t=262s) |
 
 ## AL objects mentioned
 

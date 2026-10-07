@@ -13,12 +13,12 @@ tags:
   - 2025 wave 1
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:38.924Z"
   flags: []
 generated:
-  at: "2026-10-06T18:56:30.968Z"
+  at: "2026-10-07T23:01:38.959Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,7 +123,7 @@ quotes:
 
 > Editing purchase order emails before sending them to a supplier in Business Central, through a new Send by Email button in the Print/Send menu of purchase documents. It was built by a community member through the code development initiative and is tied to the 2025 release wave 1.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DvZd6y69sWk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-06 · 1:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DvZd6y69sWk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-06 · 1:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,10 +149,10 @@ Clicking the button opens the familiar email editor. There the user can change t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Edit purchase order emails before sending | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=DvZd6y69sWk&t=4s) |  |
-| Send by Email button in purchase documents | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=DvZd6y69sWk&t=16s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Edit purchase order emails before sending | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=DvZd6y69sWk&t=4s) |
+| Send by Email button in purchase documents | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=DvZd6y69sWk&t=16s) |
 
 ## Quotes
 

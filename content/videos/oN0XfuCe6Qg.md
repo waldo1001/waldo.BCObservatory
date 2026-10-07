@@ -15,12 +15,12 @@ tags:
   - system application module
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:07.643Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:07.684Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 174
     quote: we initialize our external file file storage um with our scenario um we open a file a save file dialogue
+  - kind: video
+    url: https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s
+    title: "What's Cooking in Business Central: External File Storage Module"
+    date: "2025-02-06T15:38:12.000Z"
+    commit: null
+    t: 236
+    quote: now when we go to file accounts and we open the new storage browser we can see that our test PDF was put into
   - kind: video
     url: https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=248s
     title: "What's Cooking in Business Central: External File Storage Module"
@@ -139,6 +146,9 @@ quotes:
   - t: 174
     text: we initialize our external file file storage um with our scenario um we open a file a save file dialogue
     check: exact
+  - t: 236
+    text: now when we go to file accounts and we open the new storage browser we can see that our test PDF was put into
+    check: exact
   - t: 248
     text: we will be looking into uptaking some of these capabilities in business Central in the upcoming waves
     check: exact
@@ -148,7 +158,7 @@ quotes:
 
 > External File Storage system application module in Business Central: an API for storing files outside Business Central, such as in Azure blob storage, Azure file share or SharePoint online. Covers file accounts, file scenarios, API methods and a demo. The base application does not use it yet.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oN0XfuCe6Qg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-06 · 4:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=oN0XfuCe6Qg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-06 · 4:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,12 +169,12 @@ It walks through setting up a storage account on the File Accounts page, definin
 ## Key points
 
 - The module is a system application module with an API to store files in Azure blob storage, Azure file share or SharePoint online.
-- Per the video, it is ready for release with 2025 wave 1.
-- The base application has no uptake of it yet, so developers need to create their own implementations.
-- Storage accounts are configured on the File Accounts page, which follows the email accounts pattern.
-- File scenarios are defined through an extensible enum; the base application ships with no built-in scenarios initially.
-- The code flow shown uses Initialize with a scenario, OpenFileDialog/SaveFileDialog, and CreateFile.
-- A storage browser lets users view and manage files in the external storage account.
+- Per the video, it is ready for release with 2025 wave 1 and ready to be used.
+- The base application does not use it yet, but developers can use the API in their own code.
+- Storage accounts are configured on the File Accounts page, which follows the same pattern as email accounts. The demo sets up blob storage with a storage account name, a shared key and a container.
+- File scenarios work like email scenarios. Developers extend the file scenario enum with their own scenario, and because the base application has no uptake yet, no scenarios exist out of the box.
+- In the demo code, the developer initializes external file storage with a scenario, opens a save file dialog to get the target path, then invokes create file.
+- Files stored this way show up in the new storage browser, which is opened from File Accounts.
 
 ## Chapters
 
@@ -178,13 +188,13 @@ It walks through setting up a storage account on the File Accounts page, definin
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| External File Storage System Application Module | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=6s) |  |
-| File Accounts Page | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=75s) |  |
-| File Scenarios Enum | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=110s) |  |
-| External File Storage API Methods | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s) |  |
-| Storage Browser | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s) |  |
+| Feature | Status | At |
+|---|---|---|
+| External File Storage System Application Module | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=6s) |
+| File Accounts Page | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=75s) |
+| File Scenarios Enum | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=110s) |
+| External File Storage API Methods | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s) |
+| Storage Browser | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s) |
 
 ## AL objects mentioned
 
@@ -198,6 +208,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:37](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=37s) "with 2025 wave 1 this new SST application module is ready for release"
 - [0:37](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=37s) "there is no uptake of it yet so the base application as such does not use it"
 - [2:54](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=174s) "we initialize our external file file storage um with our scenario um we open a file a save file dialogue"
+- [3:56](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s) "now when we go to file accounts and we open the new storage browser we can see that our test PDF was put into"
 - [4:08](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=248s) "we will be looking into uptaking some of these capabilities in business Central in the upcoming waves"
 
 ## Disclaimers in the video

@@ -20,32 +20,18 @@ tags:
   - data generation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:03.312Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:03.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 09368b29f48c5c828ebbee938dc795fe98a20f1919bee523d04e90c83403d1c9
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=455s
-    title: "Small Language Models: generally available"
-    date: "2025-02-18T16:09:42.000Z"
-    commit: null
-    t: 455
-    quote: was released um this december with i think 14 billion parameters
-  - kind: video
-    url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=435s
-    title: "Phi Model Series: generally available"
-    date: "2025-02-18T16:09:42.000Z"
-    commit: null
-    t: 435
-    quote: Microsoft for example introduced this or have we have done this series of five Phi models the first one was released a year and
   - kind: video
     url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1173s
     title: "Sales order agent: preview"
@@ -110,12 +96,26 @@ evidence:
     t: 859
     quote: the difference between in pricing of dg4 for example in tpg4 mini is is a factor 10 15
   - kind: video
+    url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=900s
+    title: "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning"
+    date: "2025-02-18T16:09:42.000Z"
+    commit: null
+    t: 900
+    quote: you can deploy them also from AI Foundry and then you can consume them just like any other model
+  - kind: video
     url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1019s
     title: "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning"
     date: "2025-02-18T16:09:42.000Z"
     commit: null
     t: 1019
     quote: for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an
+  - kind: video
+    url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1229s
+    title: "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning"
+    date: "2025-02-18T16:09:42.000Z"
+    commit: null
+    t: 1229
+    quote: we also have support in the AI test to kit for using an llm to to test features
   - kind: video
     url: https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1331s
     title: "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning"
@@ -249,9 +249,9 @@ chapters:
     title: Speed Advantages and Best Practices for Fine-tuning
 features:
   - name: Small Language Models
-    status: ga
+    status: unclear
     t: 232
-    verified: true
+    verified: false
     status_source: video
   - name: Fine-tuning for Business Central
     status: unclear
@@ -264,9 +264,9 @@ features:
     verified: false
     status_source: video
   - name: Phi Model Series
-    status: ga
+    status: unclear
     t: 435
-    verified: true
+    verified: false
     status_source: video
   - name: AI test toolkit
     status: unclear
@@ -338,8 +338,14 @@ quotes:
   - t: 859
     text: the difference between in pricing of dg4 for example in tpg4 mini is is a factor 10 15
     check: exact
+  - t: 900
+    text: you can deploy them also from AI Foundry and then you can consume them just like any other model
+    check: exact
   - t: 1019
     text: for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an
+    check: exact
+  - t: 1229
+    text: we also have support in the AI test to kit for using an llm to to test features
     check: exact
   - t: 1331
     text: we have test cases so we have hundreds of test cases that run mhm and if these test cases pass that's actually a good
@@ -380,7 +386,7 @@ quotes:
 
 > Small language models and fine-tuning for Business Central AI features, shown with the sales order agent. Compares GPT-4, GPT-4 mini and a fine-tuned GPT-4 mini on accuracy and cost, using preliminary results from test cases.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RfHVHa_Qiqk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-18 · 31:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RfHVHa_Qiqk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-18 · 31:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -392,11 +398,11 @@ The demo covers generating test data from seed examples, running test cases with
 
 - Small language models have fewer parameters (billions). Phi 4 has 14 billion, runs on a single GPU, and is described as outperforming GPT-3. They are weaker at reasoning and world knowledge, and are about 10 times faster.
 - Model distillation uses a larger model such as GPT-4 as teacher to train a smaller one such as GPT-4 mini. The price difference between them is a factor of 10-15. The larger model must already work well on the use case.
-- Sales order agent test on 10 emails: GPT-4 reached about 85% accuracy at about 22 cents, and GPT-4 mini reached about 30% at about 1 cent. Fine-tuned GPT-4 mini reached over 90% on execute task steps at a modest cost increase over plain GPT-4 mini.
-- Fine-tuning data came from successful test case runs, taking input-output pairs from the execute task steps. Hundreds of test cases measure accuracy.
+- OpenAI models such as GPT-4o and GPT-4 mini can be fine-tuned in Azure AI Foundry, deployed from there, and consumed in Business Central through the AI toolkit like any other model.
+- Sales order agent test on 10 emails: GPT-4 reached about 85% accuracy at about 22 cents, and GPT-4 mini reached about 30% at about 1 cent. Fine-tuned GPT-4 mini reached over 90% on execute task steps at about twice the cost of plain GPT-4 mini.
+- Fine-tuning data came from successful test case runs, taking input-output pairs from the execute task steps. Hundreds of test cases measure accuracy. The AI test toolkit runs data-driven AL tests and also supports LLM-based checks of natural-language output such as reply emails.
 - The fine-tuned results are preliminary and trained on a limited data set. The model may overfit to the toy customer and item names and not generalize to other customers' master data.
 - Try prompt engineering first (few-shot prompting, Chain of Thought). Fine-tune only if the model does not do a good job. Training data must be representative, accurate and kept separate from test data.
-- Data generation with an LLM takes seed examples and creates variations to build larger test datasets. Seed data needs careful curation.
 
 ## Chapters
 
@@ -421,10 +427,10 @@ The demo covers generating test data from seed examples, running test cases with
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Small Language Models | generally available | [3:52](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=232s) | "was released um this december with i think 14 billion parameters" ([7:35](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=455s)) |
+| Small Language Models | status not stated | [3:52](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=232s) |  |
 | Fine-tuning for Business Central | status not stated, demoed | [8:56](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=536s) |  |
 | Model Distillation | status not stated | [12:58](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=778s) |  |
-| Phi Model Series | generally available | [7:15](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=435s) | "Microsoft for example introduced this or have we have done this series of five Phi models the first one was released a year and" ([7:15](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=435s)) |
+| Phi Model Series | status not stated | [7:15](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=435s) |  |
 | AI test toolkit | status not stated, demoed | [16:00](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=960s) |  |
 | Data generation for AI testing | status not stated, demoed | [18:19](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1099s) |  |
 | Sales order agent | preview, demoed | [19:33](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1173s) | "it's a feature which is in preview uh you we actually generate we have the LM generating a reply to the customer" ([19:33](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1173s)) |
@@ -453,7 +459,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [12:18](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=738s) "you would do that only if you find out that the model is not doing a good job to start with"
 - [13:39](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=819s) "you take a big model and uh which performs for your particular application well yes and you take the output of that and then"
 - [14:19](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=859s) "the difference between in pricing of dg4 for example in tpg4 mini is is a factor 10 15"
+- [15:00](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=900s) "you can deploy them also from AI Foundry and then you can consume them just like any other model"
 - [16:59](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1019s) "for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an"
+- [20:29](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1229s) "we also have support in the AI test to kit for using an llm to to test features"
 - [22:11](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1331s) "we have test cases so we have hundreds of test cases that run mhm and if these test cases pass that's actually a good"
 - [24:33](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1473s) "uh um here on the left we ran through 10 emails and in approximately 85% of the cases gbgo did the right thing so"
 - [25:13](https://www.youtube.com/watch?v=RfHVHa_Qiqk&t=1513s) "tt4 mini achieves around 30% accuracy so that's a quite a significant drop and so useless"

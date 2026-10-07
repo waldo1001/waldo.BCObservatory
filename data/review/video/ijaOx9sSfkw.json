@@ -1,0 +1,28 @@
+{
+  "video_id": "ijaOx9sSfkw",
+  "item_id": "video/yt-microsoft/ijaOx9sSfkw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes match the transcript verbatim; differences are only in case.",
+    "Both features are correctly marked 'unclear' because the transcript never gives a release status or version.",
+    "Removed the last key point: it describes the clip itself, not its content, and calls an 83-second clip 'about one minute long'.",
+    "The transcript does not say 'for reuse'. Removed it from the key point about saving. The feature description for saving still includes it, but this is a small inference.",
+    "The summary is supported by the transcript, so it stays as is."
+  ],
+  "input_hash": "bd8d7e4627e46bece46cfe8d346f6f7bbeffaa3d017daa0bbaace43f055463d2",
+  "by": "opus",
+  "at": "2026-10-07T23:01:49.654Z",
+  "applied": [
+    "Filter totals in Analysis Mode: status unclear",
+    "Save filtered analysis definition: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034548999999999996
+  }
+}

@@ -2,7 +2,7 @@
 id: video/9X-IWRkI2GM
 type: video
 title: "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)"
-summary: "Manufacturing reports in Business Central 2025 release wave 1: six updated reports in version 26.2 with Word and Excel layouts, two new Excel reports (Production Cost Shares, Work/Machine Center Load), and the deprecation of seven legacy reports. Shows how the Production Order VIP report works with its layouts."
+summary: "Manufacturing reports in Business Central 2025 release wave 1: six updated reports in version 26.2 with Word layouts for printing and Excel layouts for analysis. Two new Excel reports (Production Cost Shares and Work/Machine Center Load) replace several legacy reports, and a set of legacy reports is marked obsolete for removal in a later version. Also includes a demo of the Production Order VIP report's layouts and the manufacturing analytics landing page."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - legacy report deprecation
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:41.238Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:41.310Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,6 +73,13 @@ evidence:
     t: 493
     quote: these are the six updated reports you get in version 26.2, just a complete list
   - kind: video
+    url: https://www.youtube.com/watch?v=9X-IWRkI2GM&t=541s
+    title: "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)"
+    date: "2025-04-01T15:00:19.000Z"
+    commit: null
+    t: 541
+    quote: Instead of those four, we uh created a new production cost shares report in Excel. And this one is replacing these four.
+  - kind: video
     url: https://www.youtube.com/watch?v=9X-IWRkI2GM&t=658s
     title: "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)"
     date: "2025-04-01T15:00:19.000Z"
@@ -80,12 +87,12 @@ evidence:
     t: 658
     quote: these 711 reports are going away in a and will will be removed in a later version
   - kind: video
-    url: https://www.youtube.com/watch?v=9X-IWRkI2GM&t=841s
+    url: https://www.youtube.com/watch?v=9X-IWRkI2GM&t=740s
     title: "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)"
     date: "2025-04-01T15:00:19.000Z"
     commit: null
-    t: 841
-    quote: We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI
+    t: 740
+    quote: So the warning is coming here in this uh release wave and uh then in an like an upcoming release wave will update this
 links:
   learn: []
   objects:
@@ -190,19 +197,22 @@ quotes:
   - t: 493
     text: these are the six updated reports you get in version 26.2, just a complete list
     check: exact
+  - t: 541
+    text: Instead of those four, we uh created a new production cost shares report in Excel. And this one is replacing these four.
+    check: exact
   - t: 658
     text: these 711 reports are going away in a and will will be removed in a later version
     check: exact
-  - t: 841
-    text: We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI
-    check: snapped
+  - t: 740
+    text: So the warning is coming here in this uh release wave and uh then in an like an upcoming release wave will update this
+    check: exact
 ---
 
 # What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)
 
-> Manufacturing reports in Business Central 2025 release wave 1: six updated reports in version 26.2 with Word and Excel layouts, two new Excel reports (Production Cost Shares, Work/Machine Center Load), and the deprecation of seven legacy reports. Shows how the Production Order VIP report works with its layouts.
+> Manufacturing reports in Business Central 2025 release wave 1: six updated reports in version 26.2 with Word layouts for printing and Excel layouts for analysis. Two new Excel reports (Production Cost Shares and Work/Machine Center Load) replace several legacy reports, and a set of legacy reports is marked obsolete for removal in a later version. Also includes a demo of the Production Order VIP report's layouts and the manufacturing analytics landing page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9X-IWRkI2GM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 14:46 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9X-IWRkI2GM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 14:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -212,13 +222,13 @@ It demonstrates the updated Production Order VIP report and two new Excel report
 
 ## Key points
 
-- Six updated manufacturing reports are available in version 26.2, with Word layouts for printing and Excel layouts for analysis.
-- Users can change Excel and Word layouts themselves without a developer.
-- Production Order VIP offers an obsoleted layout (kept for backward compatibility), a Word layout and an Excel layout, with slicers for filtering in analysis mode.
-- The new Production Cost Shares Excel report replaces four legacy reports: cost share distribution, rolled up cost shares, detail calculation and quantity explosion. It has single level, exploded and rolled up worksheets.
-- The new Work/Machine Center Load Excel report replaces the legacy work center load and machine center load reports. It has two printable and two analysis worksheets for capacity planning.
-- Seven legacy manufacturing reports are marked obsolete and will be removed in a later version. No removal date was given, and the documentation will be updated with a timeline.
-- The manufacturing analytics landing page at aka.ms/bc manufacturing analytics covers the Power BI app, reports and other data viewing options by persona.
+- Six updated manufacturing reports are expected in version 26.2 (the presenter says 'hopefully'), with Word layouts for printing and Excel layouts for analysis. The Excel layouts also include a printable worksheet.
+- Users can change Excel and Word layouts themselves without developer tools, which is the reason for deprecating legacy RDL layouts.
+- On the Production Order VIP request page you can choose an obsoleted layout, a Word layout or an Excel layout. The Excel layout can be opened in analysis mode, with slicers.
+- The new Production Cost Shares Excel report replaces four legacy reports: BOM cost share distribution, rolled up cost shares, detail calculation and quantity explosion of BOM. It has single level, exploded and rolled up worksheets, in printable and non-printable versions.
+- The new Work/Machine Center Load Excel report replaces the legacy work center load and machine center load reports. It has two printable and two analysis worksheets.
+- A set of legacy manufacturing reports is marked obsolete and will be removed in a later version. They are listed under obsolete reports in the documentation and on the deprecated features page, and a later release wave will update that page with the removal timing.
+- The manufacturing analytics landing page at aka.ms/bc manufacturing analytics covers the Power BI manufacturing app, reports and other data viewing options by persona.
 
 ## Chapters
 
@@ -266,8 +276,9 @@ Not found in BC28-30: report "Subcontractor Dispatch Lists", report "Bill of Mat
 - [1:43](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=103s) "with the other two layout options you as a customer or user can change things in Excel or Word. you don't need any developer"
 - [3:50](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=230s) "in hopefully version 26.2 two, you will be able to use updated reports for manufacturing"
 - [8:13](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=493s) "these are the six updated reports you get in version 26.2, just a complete list"
+- [9:01](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=541s) "Instead of those four, we uh created a new production cost shares report in Excel. And this one is replacing these four."
 - [10:58](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=658s) "these 711 reports are going away in a and will will be removed in a later version"
-- [14:01](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=841s) "We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI"
+- [12:20](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=740s) "So the warning is coming here in this uh release wave and uh then in an like an upcoming release wave will update this"
 
 ## Disclaimers in the video
 

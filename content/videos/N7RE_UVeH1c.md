@@ -2,7 +2,7 @@
 id: video/N7RE_UVeH1c
 type: video
 title: "What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?"
-summary: 'Excel export from the data analysis tool (analysis mode) in Business Central: two ways to export (right-click in the data area, or the menu on the data analysis tab) and a new file naming that uses the page name and analysis tab name instead of "export". Shown on the customer ledger entries page.'
+summary: 'Excel export from the data analysis tool (analysis mode) in Business Central. There are two ways to export: right-click in the data area (always possible, now easier) or the new menu on the data analysis tab. Exported workbooks are now named after the page and analysis tab instead of "export". The changes were backported to the current version and are in 2025 release wave 1, shown on customer ledger entries.'
 tier: official
 language: en
 tags:
@@ -12,12 +12,12 @@ tags:
   - file naming
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:10.947Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:10.981Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,9 +116,9 @@ quotes:
 
 # What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?
 
-> Excel export from the data analysis tool (analysis mode) in Business Central: two ways to export (right-click in the data area, or the menu on the data analysis tab) and a new file naming that uses the page name and analysis tab name instead of "export". Shown on the customer ledger entries page.
+> Excel export from the data analysis tool (analysis mode) in Business Central. There are two ways to export: right-click in the data area (always possible, now easier) or the new menu on the data analysis tab. Exported workbooks are now named after the page and analysis tab instead of "export". The changes were backported to the current version and are in 2025 release wave 1, shown on customer ledger entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=N7RE_UVeH1c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-30 · 1:30 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=N7RE_UVeH1c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-30 · 1:30 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -128,7 +128,7 @@ It also shows that the exported Excel workbook now gets a file name built from t
 
 ## Key points
 
-- Right-click in the data area of the data analysis tool, choose Excel export, then open in Excel.
+- Right-click in the data area of the data analysis tool, choose Excel export, then open in Excel. This was always possible but is now easier.
 - A new menu on the data analysis tab offers an open in Excel option to export data directly.
 - Exported workbooks are named with the page name and the analysis tab name rather than just "export".
 - The speaker says these changes were backported to the current version and are also in the 2025 release wave 1.
@@ -142,11 +142,11 @@ It also shows that the exported Excel workbook now gets a file name built from t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Excel Export via Right-Click | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=25s) |  |
-| Excel Export via Data Analysis Tab Menu | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=43s) |  |
-| Improved Excel File Naming | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Excel Export via Right-Click | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=25s) |
+| Excel Export via Data Analysis Tab Menu | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=43s) |
+| Improved Excel File Naming | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s) |
 
 ## AL objects mentioned
 

@@ -63,9 +63,9 @@
     {
       "name": "Excel Layouts for Built-in Reports",
       "description": "New Excel layouts that replace AL-coded built-in reports, allowing users to generate reports in Excel format with Power Query for data connections.",
-      "status": "ga",
+      "status": "announced",
       "status_evidence_t": 39.8,
-      "status_evidence_quote": "they will be generally available",
+      "status_evidence_quote": "they are marked here with a preview the new thing for wave 1 is that they will be generally available",
       "status_evidence_verified": true,
       "t_start": 19.6,
       "t_end": 130.3,
@@ -107,10 +107,10 @@
     {
       "name": "Slicer Controls for Report Filtering",
       "description": "Excel reports include slicers that allow users to filter data by dimensions like fixed assets categories, with plans to position them on the right side in the GA version.",
-      "status": "ga",
-      "status_evidence_t": 193,
-      "status_evidence_quote": "generally available version we'll likely put these slices to the right",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 193,
       "t_end": 233.5,
       "is_demoed": true,
@@ -141,25 +141,6 @@
         "finance",
         "analytics",
         "reference"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Excel Reports with Copilot Integration",
-      "description": "Documentation includes tips on how to use raw data from pivot tables with Copilot for enhanced analysis capabilities.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 363.8,
-      "t_end": 384.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "copilot",
-        "excel",
-        "ai",
-        "analysis"
       ],
       "system": "reporting"
     },
@@ -247,6 +228,18 @@
       "text": "you can also get a description of the worksheets in the report with screenshots so you can kind of get an idea of what",
       "why_it_matters": "Documentation provides visual guidance helping users understand report capabilities",
       "check": "snapped"
+    },
+    {
+      "t": 384.2,
+      "text": "there's a link to the report if you want to try it out so you don't have to go from business Central",
+      "why_it_matters": "Shows that you can try the reports straight from the documentation without opening Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 404.5,
+      "text": "links to alternative ways to analyze this data maybe you want to use powerbi maybe you want to use the legac report",
+      "why_it_matters": "Supports the point that the documentation links to alternative ways to analyze the data.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

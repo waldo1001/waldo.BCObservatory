@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=DHODFt_jVO4",
   "published_at": "2025-04-01T15:00:15.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 6
     },
     "published": {
-      "at": "2026-10-06T18:51:56.198Z",
+      "at": "2026-10-07T23:00:43.605Z",
       "path": "content/videos/DHODFt_jVO4.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:00:43.566Z",
+      "path": "data/review/video/DHODFt_jVO4.json",
+      "verdict": "fix",
+      "applied": 4,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.066657
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fac13038bc4742d3dcfd2e4fc0edac839faa9972da393df43c91738c1972952c"
+  "output_hash": "2b2fbd073214b6d48b2d0f9fc4a133e4b31590fb23bd13c199a334a9f505dca3",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:00:43.561Z"
+  }
 }

@@ -2,7 +2,7 @@
 id: video/8IOEXgk7q5I
 type: video
 title: "What's New: Cost Adjustment (2025 release wave 1)"
-summary: "Business Central 2025 release wave 1 cost adjustment changes: iterative adjustment by period for high-volume items, item by item commit, forced adjustment with reprocessing of entries, automatic self-diagnostics, and a cost adjustment tracer tool. Iterative adjustment and the tracer are demoed."
+summary: "Business Central 2025 release wave 1 cost adjustment changes: iterative period by period adjustment for high-volume items and selected production/assembly orders, item by item commit, forced adjustment via mark for adjustment and resetting outbound entries, automatic self-diagnostics on the Inventory Cost Adjustment page, and a cost adjustment tracer. The tracer is demoed on two items in a batch."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - item by item commit
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:59.981Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:00.030Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,13 @@ evidence:
     t: 132
     quote: we've also introduced item by item commit which helps to reduce lock times and to prevent full reruns if one of the items fail
   - kind: video
+    url: https://www.youtube.com/watch?v=8IOEXgk7q5I&t=156s
+    title: "What's New: Cost Adjustment (2025 release wave 1)"
+    date: "2025-04-01T15:00:13.000Z"
+    commit: null
+    t: 156
+    quote: you might spot an item which is Market is adjusted but some of its entries carry incorrect inaccurate cost
+  - kind: video
     url: https://www.youtube.com/watch?v=8IOEXgk7q5I&t=204s
     title: "What's New: Cost Adjustment (2025 release wave 1)"
     date: "2025-04-01T15:00:13.000Z"
@@ -77,6 +84,13 @@ evidence:
     commit: null
     t: 288
     quote: Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help
+  - kind: video
+    url: https://www.youtube.com/watch?v=8IOEXgk7q5I&t=308s
+    title: "What's New: Cost Adjustment (2025 release wave 1)"
+    date: "2025-04-01T15:00:13.000Z"
+    commit: null
+    t: 308
+    quote: while the course adjustment is in process it records events processed entries and the information about these entries
   - kind: video
     url: https://www.youtube.com/watch?v=8IOEXgk7q5I&t=366s
     title: "What's New: Cost Adjustment (2025 release wave 1)"
@@ -176,6 +190,9 @@ quotes:
   - t: 132
     text: we've also introduced item by item commit which helps to reduce lock times and to prevent full reruns if one of the items fail
     check: exact
+  - t: 156
+    text: you might spot an item which is Market is adjusted but some of its entries carry incorrect inaccurate cost
+    check: exact
   - t: 204
     text: to help you detect and uh resolve inefficiencies business Central now scans your setup and the coast adjustment data when you open the inventory
     check: exact
@@ -185,6 +202,9 @@ quotes:
   - t: 288
     text: Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help
     check: exact
+  - t: 308
+    text: while the course adjustment is in process it records events processed entries and the information about these entries
+    check: exact
   - t: 366
     text: we introduced the inventory course adjustment tool a year ago and since then we have continued improving its perform performance and features
     check: exact
@@ -192,9 +212,9 @@ quotes:
 
 # What's New: Cost Adjustment (2025 release wave 1)
 
-> Business Central 2025 release wave 1 cost adjustment changes: iterative adjustment by period for high-volume items, item by item commit, forced adjustment with reprocessing of entries, automatic self-diagnostics, and a cost adjustment tracer tool. Iterative adjustment and the tracer are demoed.
+> Business Central 2025 release wave 1 cost adjustment changes: iterative period by period adjustment for high-volume items and selected production/assembly orders, item by item commit, forced adjustment via mark for adjustment and resetting outbound entries, automatic self-diagnostics on the Inventory Cost Adjustment page, and a cost adjustment tracer. The tracer is demoed on two items in a batch.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8IOEXgk7q5I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8IOEXgk7q5I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -204,13 +224,13 @@ For high-volume items, cost adjustment can run period by period from the Invento
 
 ## Key points
 
-- Iterative adjustment: on the Inventory Cost Adjustment page, select an item, choose a date and run adjust cost until valuation date. It is limited to one run per period.
+- Iterative adjustment: on the Inventory Cost Adjustment page, select an item, choose the date until which to complete the adjustment and run adjust cost until valuation date. This allows adjustment on a period by period basis when a single run might not finish.
 - Specific production and assembly orders can be adjusted by selecting them and choosing adjust cost for selected orders.
-- Item by item commit reduces lock times and avoids a full rerun if one item fails. It is turned on with the item by item adjustment toggle in the Adjust Cost - Item Entries report, and is only available there.
-- Mark for adjustment forces a rerun for items marked as adjusted but carrying incorrect costs. It is meant for old or highly customized environments.
-- The new Item Application Entries page has a reset action that sets outbound entries to be reprocessed in the next cost adjustment.
+- Item by item commit reduces lock times and avoids a full rerun if one item fails. It is used by running the Adjust Cost - Item Entries report with the item by item adjustment toggle on.
+- Mark for adjustment on the Item Ledger Entries page forces a rerun for inbound entries so linked outbound entries are recalculated. This helps with items marked as adjusted but carrying inaccurate costs, especially in old or highly customized environments.
+- The new Item Application Entries page has a reset action that sets outbound entries to be reconsidered in the next cost adjustment.
 - Self-diagnostics scan setup and cost adjustment data when the Inventory Cost Adjustment page opens, and can be run manually with the run checks action. They cannot be fully disabled but can be snoozed up to 30 days.
-- The cost adjustment tracer records events, entries, items, variances and orders into a log saved to the database. Its timeout can be set up to 12 hours, and the log may be too large to analyze manually.
+- The cost adjustment tracer runs on a selected batch with a timeout of up to 12 hours. It records events, processed entries, items, locations, variances, orders and cost differences into a log saved to the database. Analysis view mode is recommended because the log can be too large to read line by line.
 
 ## Chapters
 
@@ -224,15 +244,15 @@ For high-volume items, cost adjustment can run period by period from the Invento
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Iterative adjustment for high-volume items | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=67s) |  |
-| Specific order adjustment | status not stated | [1:51](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=111s) |  |
-| Item by item commit | status not stated | [2:12](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=132s) |  |
-| Mark for adjustment action | status not stated | [2:36](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=156s) |  |
-| Item Application Entries page with reset action | status not stated | [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s) |  |
-| Cost adjustment self-diagnostics | status not stated | [3:24](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=204s) |  |
-| Cost adjustment tracer tool | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=267s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Iterative adjustment for high-volume items | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=67s) |
+| Specific order adjustment | status not stated | [1:51](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=111s) |
+| Item by item commit | status not stated | [2:12](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=132s) |
+| Mark for adjustment action | status not stated | [2:36](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=156s) |
+| Item Application Entries page with reset action | status not stated | [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s) |
+| Cost adjustment self-diagnostics | status not stated | [3:24](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=204s) |
+| Cost adjustment tracer tool | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=267s) |
 
 ## AL objects mentioned
 
@@ -251,9 +271,11 @@ Not found in BC28-30: page "Inventory Cost Adjustment".
 - [0:35](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=35s) "iterative adjustment for better control over a large volume of transactions forced adjustment to correct issues when needed a self diagnostics"
 - [1:07](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=67s) "for items with large amount of transaction can be challenging and the cost adjustment might might not finish in one run to make it"
 - [2:12](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=132s) "we've also introduced item by item commit which helps to reduce lock times and to prevent full reruns if one of the items fail"
+- [2:36](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=156s) "you might spot an item which is Market is adjusted but some of its entries carry incorrect inaccurate cost"
 - [3:24](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=204s) "to help you detect and uh resolve inefficiencies business Central now scans your setup and the coast adjustment data when you open the inventory"
 - [4:27](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=267s) "the Diagnostics happens automatically but you can manually run a scan any time using run checks action if you need a break if you"
 - [4:48](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=288s) "Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help"
+- [5:08](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=308s) "while the course adjustment is in process it records events processed entries and the information about these entries"
 - [6:06](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=366s) "we introduced the inventory course adjustment tool a year ago and since then we have continued improving its perform performance and features"
 
 Presenters (as heard): Alexa Driansky.

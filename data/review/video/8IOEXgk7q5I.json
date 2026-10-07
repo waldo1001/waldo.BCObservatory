@@ -1,0 +1,30 @@
+{
+  "video_id": "8IOEXgk7q5I",
+  "item_id": "video/yt-microsoft/8IOEXgk7q5I",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 says iterative adjustment is 'limited to one run per period'. The transcript only says adjustment is allowed on a period by period basis, so I removed that claim.",
+    "Key point 3 says item by item commit 'is only available there'. The transcript does not say that, so I removed it.",
+    "Key point 4 says mark for adjustment is 'meant for' old or customized environments. The transcript only says such cases come up 'especially' in those environments, so I softened the wording.",
+    "The summary says iterative adjustment is demoed. The transcript describes its steps, but only the tracer has a clear demo (selecting two items, adding them to a batch and running with trace). I rewrote the summary to match.",
+    "All feature statuses stay unclear because no segment states preview or GA.",
+    "All existing quotes are verbatim. I added quotes for forced adjustment and for the tracer recording."
+  ],
+  "input_hash": "3eeccfae52a801a6700f9dcb1ea82b3d7636b6f4b105707ddaee292d33ff6fdd",
+  "by": "opus",
+  "at": "2026-10-07T23:00:59.981Z",
+  "applied": [
+    "quote at 157s",
+    "quote at 308s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.081153
+  }
+}

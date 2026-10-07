@@ -2,7 +2,7 @@
 id: video/b54ehH4AlFA
 type: video
 title: "What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry"
-summary: "Telemetry events for Business Central financial reporting, viewed in Application Insights: creation of financial reports, row definitions and column definitions, with definition codes logged. Also mentions modification, deletion and report-run events. A disclaimer in the facts says preview, version 2025 release wave one."
+summary: Demo of new Business Central financial reporting telemetry planned for 2025 release wave 1, viewed through a KQL query on Application Insights traces. It shows lifecycle events for creating financial reports, row definitions and column definitions, each with its definition code logged. Modification, deletion and report-run (usage) events are mentioned but not shown.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - auditing
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:29.527Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:29.569Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,9 +153,9 @@ quotes:
 
 # What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry
 
-> Telemetry events for Business Central financial reporting, viewed in Application Insights: creation of financial reports, row definitions and column definitions, with definition codes logged. Also mentions modification, deletion and report-run events. A disclaimer in the facts says preview, version 2025 release wave one.
+> Demo of new Business Central financial reporting telemetry planned for 2025 release wave 1, viewed through a KQL query on Application Insights traces. It shows lifecycle events for creating financial reports, row definitions and column definitions, each with its definition code logged. Modification, deletion and report-run (usage) events are mentioned but not shown.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=b54ehH4AlFA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-20 · 4:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=b54ehH4AlFA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-20 · 4:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,13 +165,13 @@ The presenter had telemetry turned on for the demo environment. In Application I
 
 ## Key points
 
-- Creating a financial report logs a 'financial report created' event with the report definition code and a timestamp in Application Insights.
-- Row definition lifecycle events log the row definition code in custom dimensions.
-- Column definition lifecycle events log the column definition code.
+- Creating a financial report logs a 'financial report created' event with the report definition code.
+- Creating a row definition logs a lifecycle event with the row definition code, visible in custom dimensions.
+- Creating a column definition logs a similar lifecycle event with the column definition code.
 - Modification and deletion events for reports, row definitions and column definitions are mentioned but not demonstrated.
-- Events for report execution (usage) are mentioned but not demonstrated.
-- The demo queries Application Insights traces from the last day, filtered by the user's telemetry ID.
-- Telemetry must be turned on for the environment to see these events. The presenter turned it on for the demo.
+- Running a financial report produces usage telemetry. This is mentioned but not demonstrated.
+- The demo query takes Application Insights traces from the last day, filters on the user's telemetry ID, and projects timestamp, message, event ID and custom dimensions.
+- The presenter turned on telemetry for the demo environment before querying Application Insights.
 
 ## Chapters
 
@@ -184,13 +184,13 @@ The presenter had telemetry turned on for the demo environment. In Application I
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Financial Report Creation Telemetry | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=b54ehH4AlFA&t=180s) |  |
-| Row Definition Telemetry | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=b54ehH4AlFA&t=180s) |  |
-| Column Definition Telemetry | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=b54ehH4AlFA&t=200s) |  |
-| Financial Report Modification Telemetry | status not stated | [3:40](https://www.youtube.com/watch?v=b54ehH4AlFA&t=220s) |  |
-| Financial Report Usage Telemetry | status not stated | [3:40](https://www.youtube.com/watch?v=b54ehH4AlFA&t=220s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Financial Report Creation Telemetry | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=b54ehH4AlFA&t=180s) |
+| Row Definition Telemetry | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=b54ehH4AlFA&t=180s) |
+| Column Definition Telemetry | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=b54ehH4AlFA&t=200s) |
+| Financial Report Modification Telemetry | status not stated | [3:40](https://www.youtube.com/watch?v=b54ehH4AlFA&t=220s) |
+| Financial Report Usage Telemetry | status not stated | [3:40](https://www.youtube.com/watch?v=b54ehH4AlFA&t=220s) |
 
 ## AL objects mentioned
 

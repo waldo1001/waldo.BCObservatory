@@ -20,12 +20,12 @@ tags:
   - telemetry
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:52.246Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:52.305Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,19 +33,26 @@ generated:
   input_hash: 6b305474b9efc5b2bb45ea0e239743f09d2d0b457c36812090c15190fccbc120
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=81s
+    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s
     title: "GitHub app authentication: preview"
     date: "2025-03-06T16:28:01.000Z"
     commit: null
-    t: 81
-    quote: everything that you'll see here is in preview um so we'll go through what's new
+    t: 169
+    quote: what's right now been shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps
   - kind: video
-    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=81s
+    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=505s
     title: "Embed secrets in install apps: preview"
     date: "2025-03-06T16:28:01.000Z"
     commit: null
-    t: 81
-    quote: everything that you'll see here is in preview
+    t: 505
+    quote: so what we've done in preview right now is the ability to add like a dollar sign and and some curly brackets
+  - kind: video
+    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s
+    title: "Incremental builds: preview"
+    date: "2025-03-06T16:28:01.000Z"
+    commit: null
+    t: 169
+    quote: shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps um incremental builds
   - kind: video
     url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1133s
     title: "Workflow schedule setting migration: announced"
@@ -53,13 +60,6 @@ evidence:
     commit: null
     t: 1133
     quote: the setting where like the schedule and the workflow name is is a like a dynamic setting key name uh will be changed to
-  - kind: video
-    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1335s
-    title: "GitHub apps support: preview"
-    date: "2025-03-06T16:28:01.000Z"
-    commit: null
-    t: 1335
-    quote: GitHub abs are currently not supported in version 6.1 you would need to update to um is it 6.3 or preview preview preview right
   - kind: video
     url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1637s
     title: "AL Go Architecture Transition: announced"
@@ -144,6 +144,13 @@ evidence:
     commit: null
     t: 989
     quote: the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap
+  - kind: video
+    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1010s
+    title: AL Go for GitHub February Office Hour
+    date: "2025-03-06T16:28:01.000Z"
+    commit: null
+    t: 1010
+    quote: two settings in deploy two structure one called include test apps in sandbox environment and you set that to true
   - kind: video
     url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1043s
     title: AL Go for GitHub February Office Hour
@@ -235,13 +242,6 @@ evidence:
     commit: null
     t: 2617
     quote: runtime packages is not a guaranteed um it's not guaranteed you can you can unpack the runtime packages you can find find the the
-  - kind: video
-    url: https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2671s
-    title: AL Go for GitHub February Office Hour
-    date: "2025-03-06T16:28:01.000Z"
-    commit: null
-    t: 2671
-    quote: if you like in your resource exposure policy in app Json or wherever you would say it is allowed for Microsoft to share runtime
 links:
   learn: []
   objects: []
@@ -307,9 +307,9 @@ features:
     verified: true
     status_source: video
   - name: Incremental builds
-    status: unclear
+    status: preview
     t: 569
-    verified: false
+    verified: true
     status_source: video
   - name: Workflow concurrency
     status: unclear
@@ -351,11 +351,6 @@ features:
     t: 1209
     verified: false
     status_source: video
-  - name: GitHub apps support
-    status: preview
-    t: 1335
-    verified: true
-    status_source: video
   - name: Last known good build detection
     status: unclear
     t: 1367
@@ -381,11 +376,6 @@ features:
     t: 1859
     verified: false
     status_source: video
-  - name: AL Go GitHub Adoption Metrics
-    status: unclear
-    t: 2022
-    verified: false
-    status_source: video
   - name: Runtime Packages without Full Dependencies
     status: unclear
     t: 2321
@@ -394,11 +384,6 @@ features:
   - name: Template Capabilities for Repository Management
     status: unclear
     t: 2404
-    verified: false
-    status_source: video
-  - name: PowerBI Dashboards for Repository Monitoring
-    status: unclear
-    t: 2428
     verified: false
     status_source: video
   - name: Federated credentials for Azure subscriptions
@@ -446,16 +431,6 @@ features:
     t: 3087
     verified: true
     status_source: video
-  - name: Compiler folder optimization
-    status: unclear
-    t: 3169
-    verified: false
-    status_source: video
-  - name: Testing performance improvements investigation
-    status: unclear
-    t: 3190
-    verified: false
-    status_source: video
 objects_mentioned:
   - other AO office hours 2025-2
   - other MS AL-Go deprecations
@@ -493,6 +468,9 @@ quotes:
   - t: 989
     text: the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap
     check: snapped
+  - t: 1010
+    text: two settings in deploy two structure one called include test apps in sandbox environment and you set that to true
+    check: exact
   - t: 1043
     text: they do expect in um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to
     check: exact
@@ -556,7 +534,7 @@ quotes:
 
 > AL Go for GitHub February 2025 office hour: preview features after version 6.3 (GitHub app authentication, secrets in install apps, incremental builds), workflow concurrency, test app deployment to sandboxes, upcoming deprecations, and Q&A on build performance, runtime packages and container helper.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=dSPRY1_f1S0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-06 · 55:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=dSPRY1_f1S0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-06 · 55:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -566,12 +544,12 @@ The team also covers workflow concurrency, pushing test apps to online environme
 
 ## Key points
 
-- GitHub app authentication is in preview and uses an app ID and private key instead of personal access tokens. GitHub packages still needs a fine-grained token, and create release does not yet work with it. GitHub apps are not supported in 6.1 and are expected to be generally available in 6.4.
+- GitHub app authentication is in preview and uses an app ID and private key instead of personal access tokens. GitHub packages still needs a fine-grained token, and create release does not yet work with it. GitHub apps are not supported in 6.1 and are expected to be available in 6.4.
 - Secrets can be referenced with dollar sign and curly brackets in install apps and install test apps settings, so they are not exposed in source code or logs (preview).
-- Incremental builds are not enabled by default, except on pull requests. They can be configured per trigger (push, pull request, schedule), in modified apps or modified projects mode. They are branch-specific, and release branches do not yet use releases as baseline.
+- Incremental builds (preview) are not enabled by default, except on pull requests. They can be configured per trigger (push, pull request, schedule), in modified apps or modified projects mode. They are branch-specific, and release branches do not yet use releases as baseline.
 - Incremental builds should be combined with workflow concurrency settings, which go in conditional settings or a workflow-specific settings file.
 - Deprecations: clean mode pre-processor symbols change after April 1st (use conditional settings with build modes). The always build all projects setting changes after October 1st. The dynamic schedule setting moves to a workflow-specific workflow schedule setting after October 1st.
-- Pushing test apps to online environments needs a new version of the test libraries, expected no earlier than April 1st and probably October. AI tests are not ready for automated CI/CD runs, partly because of cost.
+- A new deploy setting, include test apps in sandbox environment, publishes test apps and their dependencies to online sandboxes, mainly for running AI tests on demand because running them on every build is costly. Test apps that depend on Test Libraries are skipped. A new online-installable version of Test Libraries is expected no earlier than April 1st, probably October.
 - To speed up builds for projects without tests, set use compiler folder to true together with do not publish apps (3-4 minutes versus 15-20 for the standard container build). This prevents test execution. Running tests in online sandboxes is being worked on but is not possible now.
 
 ## Chapters
@@ -597,9 +575,9 @@ The team also covers workflow concurrency, pushing test apps to online environme
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| GitHub app authentication | preview, demoed | [2:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s) | "everything that you'll see here is in preview um so we'll go through what's new" ([1:21](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=81s)) |
-| Embed secrets in install apps | preview, demoed | [7:24](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=444s) | "everything that you'll see here is in preview" ([1:21](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=81s)) |
-| Incremental builds | status not stated, demoed | [9:29](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=569s) |  |
+| GitHub app authentication | preview, demoed | [2:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s) | "what's right now been shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps" ([2:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s)) |
+| Embed secrets in install apps | preview, demoed | [7:24](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=444s) | "so what we've done in preview right now is the ability to add like a dollar sign and and some curly brackets" ([8:25](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=505s)) |
+| Incremental builds | preview, demoed | [9:29](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=569s) | "shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps um incremental builds" ([2:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s)) |
 | Workflow concurrency | status not stated | [13:53](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=833s) |  |
 | Push test apps to online environments | status not stated | [2:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=169s) |  |
 | Include test apps in sandbox environment setting | status not stated | [16:50](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1010s) |  |
@@ -608,16 +586,13 @@ The team also covers workflow concurrency, pushing test apps to online environme
 | Always build all projects setting deprecation | status not stated | [18:53](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1133s) |  |
 | Workflow schedule setting migration | announced | [18:53](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1133s) | "the setting where like the schedule and the workflow name is is a like a dynamic setting key name uh will be changed to" ([18:53](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1133s)) |
 | Private repository support in AL-Go | status not stated | [20:09](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1209s) |  |
-| GitHub apps support | preview | [22:15](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1335s) | "GitHub abs are currently not supported in version 6.1 you would need to update to um is it 6.3 or preview preview preview right" ([22:15](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1335s)) |
 | Last known good build detection | status not stated | [22:47](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1367s) |  |
 | Container Helper Telemetry | status not stated | [26:13](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1573s) |  |
 | AL Go Architecture Transition | announced | [27:17](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1637s) | "in the future the the as go algo will stop using container hel so over the next two to three years algo will will" ([27:17](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1637s)) |
 | Override Functions for Run Pipeline | status not stated | [30:06](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1806s) |  |
 | Trusted Signing in AL Go | status not stated | [30:59](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1859s) |  |
-| AL Go GitHub Adoption Metrics | status not stated | [33:42](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2022s) |  |
 | Runtime Packages without Full Dependencies | status not stated | [38:41](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2321s) |  |
 | Template Capabilities for Repository Management | status not stated | [40:04](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2404s) |  |
-| PowerBI Dashboards for Repository Monitoring | status not stated | [40:28](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2428s) |  |
 | Federated credentials for Azure subscriptions | status not stated | [42:16](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2536s) |  |
 | Runtime packages for AppSource apps | status not stated | [43:37](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2617s) |  |
 | Multiple NuGet feeds support | status not stated | [44:51](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=2691s) |  |
@@ -627,8 +602,6 @@ The team also covers workflow concurrency, pushing test apps to online environme
 | Use compiler folder setting | status not stated | [50:10](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3010s) |  |
 | Multi-project build and test strategy | status not stated | [50:50](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3050s) |  |
 | Online sandbox testing for AL Go | announced | [51:27](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3087s) | "run the tests in online sandboxes which is not possible right now but it's something we are we've been working on" ([51:27](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3087s)) |
-| Compiler folder optimization | status not stated | [52:49](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3169s) |  |
-| Testing performance improvements investigation | status not stated | [53:10](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=3190s) |  |
 
 ## AL objects mentioned
 
@@ -652,6 +625,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [13:33](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=813s) "the actual apps have the version number of when they were built and as such when they try to publish those to an online"
 - [15:27](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=927s) "the workflow concurrency is described very well uh in in settings or in GitHub where you'll have the the ability to differentiate whether you"
 - [16:29](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=989s) "the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap"
+- [16:50](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1010s) "two settings in deploy two structure one called include test apps in sandbox environment and you set that to true"
 - [17:23](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1043s) "they do expect in um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to"
 - [18:32](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1112s) "changes to in effect after April 1st is the clean mode pre-processor symbols instead of of using that you will have to use conditional"
 - [18:53](https://www.youtube.com/watch?v=dSPRY1_f1S0&t=1133s) "that's going to be in effect uh after October 1st is the setting called Always build all projects uh instead of that you should"

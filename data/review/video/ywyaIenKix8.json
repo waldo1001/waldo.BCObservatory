@@ -1,0 +1,23 @@
+{
+  "video_id": "ywyaIenKix8",
+  "item_id": "video/yt-microsoft/ywyaIenKix8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes match the transcript word for word. The revenue recognition quote runs on into the 37.7 segment for the word 'finance', which is allowed.",
+    "The summary and key points are supported, including the CSV/custom API import and the statement about the essential license.",
+    "Leaving all feature statuses as unclear is correct. 'We have added a new subscription billing feature set' does not say whether the feature is in preview or generally available.",
+    "Minor: chapter boundaries at 0 and 12 s do not line up with caption segments, which start at 3.2 and 23.4 s. Two topics overlap ('recurring billing' and 'recurring billing process'). Neither affects accuracy."
+  ],
+  "input_hash": "a084112878ba5c52757e4b0dd022ff30c38bb8a3fdb4fd33f69da9346c52aa83",
+  "by": "opus",
+  "at": "2026-10-07T23:02:14.944Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032449
+  }
+}

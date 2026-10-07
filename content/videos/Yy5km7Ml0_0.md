@@ -20,18 +20,25 @@ tags:
   - supply chain attacks
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:01:36.097Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:01:36.157Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 244566ae073e62168db3960fe4c6ab63c386bfbfdddbb435f5e72eb355bf470e
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1423s
+    title: "AL-GO Incremental Builds for GitHub: announced"
+    date: "2025-03-28T13:00:52.000Z"
+    commit: null
+    t: 1423
+    quote: one thing the team is working on that Freddy is is driving now is incremental bills
   - kind: video
     url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=131s
     title: "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development"
@@ -40,19 +47,19 @@ evidence:
     t: 131
     quote: we have about a 100 repositories with code bases that we build on a regular basis
   - kind: video
-    url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=309s
-    title: "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development"
-    date: "2025-03-28T13:00:52.000Z"
-    commit: null
-    t: 309
-    quote: from the beginning right obviously so we had another internal uh internal product which has some similar capability than
-  - kind: video
     url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=410s
     title: "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development"
     date: "2025-03-28T13:00:52.000Z"
     commit: null
     t: 410
-    quote: if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would
+    quote: binaries and stuff in Source Depot that would take up something like 30 gigabytes on your disc for business Central
+  - kind: video
+    url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=430s
+    title: "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development"
+    date: "2025-03-28T13:00:52.000Z"
+    commit: null
+    t: 430
+    quote: git doesn't really do binaries well like it does text really well but not binaries
   - kind: video
     url: https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=591s
     title: "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development"
@@ -286,9 +293,9 @@ features:
     verified: false
     status_source: video
   - name: AL-GO Incremental Builds for GitHub
-    status: unclear
+    status: announced
     t: 1423
-    verified: false
+    verified: true
     status_source: video
   - name: Managed DevBox Environments for Developers
     status: unclear
@@ -348,11 +355,11 @@ quotes:
   - t: 131
     text: we have about a 100 repositories with code bases that we build on a regular basis
     check: fuzzy
-  - t: 309
-    text: from the beginning right obviously so we had another internal uh internal product which has some similar capability than
-    check: fuzzy
   - t: 410
-    text: if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would
+    text: binaries and stuff in Source Depot that would take up something like 30 gigabytes on your disc for business Central
+    check: exact
+  - t: 430
+    text: git doesn't really do binaries well like it does text really well but not binaries
     check: exact
   - t: 591
     text: in the last 60 days we did that almost 800 times in master and in the 25x branch we did it almost 600 times
@@ -417,7 +424,7 @@ quotes:
 
 > Business Central engineering systems at Microsoft: about 100 repositories, ~70 build pipelines, ~30 active branches, and roughly 40 million tests per day. Covers the Source Depot to Git migration, turn-based PR test selection, supply chain security, and advice for partners (AL-Go for GitHub, Azure DevOps).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Yy5km7Ml0_0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-28 · 32:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Yy5km7Ml0_0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-03-28 · 32:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -465,7 +472,7 @@ The talk also covers security (permission baselines, sign-off rules, component g
 | Automated Certificate Management and Rotation | status not stated | [18:38](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1118s) |  |
 | Business Central as Internal Platform for Build System UI | status not stated | [19:49](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1189s) |  |
 | Project Test Tolerance | status not stated | [22:10](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1330s) |  |
-| AL-GO Incremental Builds for GitHub | status not stated | [23:43](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1423s) |  |
+| AL-GO Incremental Builds for GitHub | announced | [23:43](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1423s) | "one thing the team is working on that Freddy is is driving now is incremental bills" ([23:43](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1423s)) |
 | Managed DevBox Environments for Developers | status not stated | [25:23](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1523s) |  |
 | Virus Scanner Exclusions for Development Folders | status not stated | [26:38](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1598s) |  |
 | Shared Test Tenant for All Developers | status not stated | [27:59](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=1679s) |  |
@@ -492,8 +499,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Quotes
 
 - [2:11](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=131s) "we have about a 100 repositories with code bases that we build on a regular basis"
-- [5:09](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=309s) "from the beginning right obviously so we had another internal uh internal product which has some similar capability than"
-- [6:50](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=410s) "if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would"
+- [6:50](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=410s) "binaries and stuff in Source Depot that would take up something like 30 gigabytes on your disc for business Central"
+- [7:10](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=430s) "git doesn't really do binaries well like it does text really well but not binaries"
 - [9:51](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=591s) "in the last 60 days we did that almost 800 times in master and in the 25x branch we did it almost 600 times"
 - [11:53](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=713s) "we use a lot of compute Power Engineering system teams like we have up to 3,000 and machines running on a daily basis doing"
 - [12:53](https://www.youtube.com/watch?v=Yy5km7Ml0_0&t=773s) "january 9 for instance we ran almost 80 million tests wow uh on that single day on the product"

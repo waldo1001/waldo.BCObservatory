@@ -1,0 +1,30 @@
+{
+  "video_id": "8037fdtrU1o",
+  "item_id": "video/yt-microsoft/8037fdtrU1o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word. Some run on into the next segment, which is allowed.",
+    "The summary and key points are supported, including 25.3 availability (captioned as '20 5.3'), the flexible update management dependency and the plan to open-source the code in BC apps.",
+    "All features were marked unclear even though the transcript says the redesigned tool is already available in 25.3. The tool's features are now set to ga with that quote as evidence.",
+    "The GitHub repository is set to ga based on the statement that the code is already in the GitHub app extensions repository. Moving the code into BC apps as open source is only planned, and the page already reflects that in the key points."
+  ],
+  "input_hash": "aba0d71a7a634d4db477aa5223a8ea65287eebe3a016b8024be7492889adf61a",
+  "by": "opus",
+  "at": "2026-10-07T23:01:11.551Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Modular demo data architecture -> ga: evidence not verbatim or does not state the status",
+    "status Code-based demo data definition -> ga: evidence not verbatim or does not state the status",
+    "status Translation support in demo data -> ga: evidence not verbatim or does not state the status",
+    "status GitHub repository for demo tool -> ga: evidence not verbatim or does not state the status",
+    "status Layered demo data structure -> ga: evidence not verbatim or does not state the status",
+    "status Dynamic historical data calculation -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.065337
+  }
+}

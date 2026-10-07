@@ -1,0 +1,33 @@
+{
+  "video_id": "6d6iajwQQ-c",
+  "item_id": "video/yt-microsoft/6d6iajwQQ-c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 9 features use the same evidence quote ('value chain completely functionality is in public preview in this moment'), but their evidence_t values point to other segments (46.5, 267.7, 359.9, etc.). The quote actually starts in segment 308, so every evidence_t is now set to 308.",
+    "Preview status is supported for each sub-feature because the presenter says the whole value chain functionality is in public preview.",
+    "All quotes are verbatim; some run on into the next segment, which is allowed.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "2d4fe094789af9e50b600b4ae2465d2d7576ee5e2024ae58980e715f5c0049b4",
+  "by": "opus",
+  "at": "2026-10-07T23:00:59.550Z",
+  "applied": [
+    "Sustainability Value Entries: status preview",
+    "Value Chain Tracking: status preview",
+    "Item Emissions on Item Cards: status preview",
+    "Work Center Emissions: status preview",
+    "Production Order Carbon Equivalent Tracking: status preview",
+    "Production Journal Emissions Posting: status preview",
+    "Production BOM Sustainability Setup: status preview",
+    "Routing Emissions Tracking: status preview",
+    "Capacity Ledger Entry Sustainability Link: status preview"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08784900000000001
+  }
+}

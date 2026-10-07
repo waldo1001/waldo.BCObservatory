@@ -1,0 +1,33 @@
+{
+  "video_id": "dSPRY1_f1S0",
+  "item_id": "video/yt-microsoft/dSPRY1_f1S0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Evidence for 'GitHub app authentication' and 'Embed secrets in install apps' used the generic preview quote from t=81.7 but cited other segment times. I replaced both with quotes from the segments that name each feature as shipped in preview.",
+    "Incremental builds is explicitly listed as shipped in preview at t=169.2. I set its status to preview.",
+    "'GitHub apps support' duplicates 'GitHub app authentication', so I dropped it. Its 6.4 availability is already covered in the key points.",
+    "I dropped items that are not product features: the adoption metrics, the partner PowerBI dashboards and the vague testing performance investigation. I also dropped 'Compiler folder optimization', which duplicates 'Use compiler folder setting'.",
+    "The 'Trusted Signing' description says 'keyboard-based certificate storage', which repeats a caption error (the captions say 'keyboard'). Descriptions can't be edited in this review, so the wording stays.",
+    "The test apps key point was misleading. Publishing test apps to sandboxes is in preview now. Only test apps that depend on Test Libraries are skipped, and a new online-capable version is expected no earlier than April 1st, probably October. I reworded the key point.",
+    "All quotes checked against the transcript as verbatim spans, some running across segment boundaries."
+  ],
+  "input_hash": "911c65e3ccb9c6035ee66e12af89998b63955f257fce4d7d3717cd2f40f0d0aa",
+  "by": "opus",
+  "at": "2026-10-07T23:01:52.246Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "GitHub app authentication: status preview",
+    "Embed secrets in install apps: status preview",
+    "Incremental builds: status preview",
+    "quote at 1010s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.24072899999999997
+  }
+}

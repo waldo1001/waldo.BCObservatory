@@ -2,7 +2,7 @@
 id: video/I7i25zBfyEQ
 type: video
 title: Sales Order Agent for Dynamics 365 Business Central (2025)
-summary: Sales Order Agent in Business Central, shown in a 6-minute February 2025 demo. The agent reads customer emails in a shared Outlook mailbox, maps them to customer accounts, drafts replies and creates quotes. A user approves emails and quotes before they go out.
+summary: A 6-minute 2025 demo of the Sales Order Agent in Business Central. The agent picks up customer emails sent to a shared address, maps them to the customer account, drafts replies and creates sales quotes. Users approve each email and quote before it is sent to the customer.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - outlook integration
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:03.860Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:03.907Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,9 +170,9 @@ quotes:
 
 # Sales Order Agent for Dynamics 365 Business Central (2025)
 
-> Sales Order Agent in Business Central, shown in a 6-minute February 2025 demo. The agent reads customer emails in a shared Outlook mailbox, maps them to customer accounts, drafts replies and creates quotes. A user approves emails and quotes before they go out.
+> A 6-minute 2025 demo of the Sales Order Agent in Business Central. The agent picks up customer emails sent to a shared address, maps them to the customer account, drafts replies and creates sales quotes. Users approve each email and quote before it is sent to the customer.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=I7i25zBfyEQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-10 · 5:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=I7i25zBfyEQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-10 · 5:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,8 +181,8 @@ The video walks through setting up the Sales Order Agent in Business Central and
 ## Key points
 
 - Setup shown: add a shared customer email address, manage which users have access for approval, and activate the agent. The video says no additional configuration is needed.
-- The agent works with Outlook and processes incoming customer requests for quotes and orders from a shared mailbox.
-- Incoming emails are mapped to the correct customer account by email address.
+- The customer side is shown in Outlook. The agent processes incoming customer requests for quotes and orders sent to the shared email address.
+- The agent mapped the incoming email to the correct customer account (Ian's) and created a draft reply.
 - Generated quotes include selected products mapped to SKUs, pricing, sales tax, delivery dates and the external purchase order number from the email.
 - The agent can ask the customer to clarify vague requirements and handles back-and-forth email.
 - A user must approve each email response and review and confirm each quote before it is sent to the customer.
@@ -199,14 +199,14 @@ The video walks through setting up the Sales Order Agent in Business Central and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=7s) |  |
-| Agent email mapping to customer accounts | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |  |
-| Agent-generated quote creation | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=252s) |  |
-| Agent setup and configuration | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=17s) |  |
-| Outlook email integration for agent | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=68s) |  |
-| Agent approval workflow in Business Central | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=7s) |
+| Agent email mapping to customer accounts | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
+| Agent-generated quote creation | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=252s) |
+| Agent setup and configuration | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=17s) |
+| Outlook email integration for agent | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=68s) |
+| Agent approval workflow in Business Central | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,24 @@
+{
+  "video_id": "2_yYu3RgYwo",
+  "item_id": "video/yt-microsoft/2_yYu3RgYwo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Item charge evidence quote starts at t=134.4, not 71.4; set evidence_t accordingly.",
+    "Other features have no explicit GA/preview statement in transcript; left unclear.",
+    "Calculate carbon equivalent on list is only demonstrated for resources; minor generalization in key points, acceptable."
+  ],
+  "input_hash": "839f8adbd759c0aea476f337fb1b4c25ce6a4ca33828f1b998e58e67e9b8930d",
+  "by": "opus",
+  "at": "2026-10-07T23:01:15.115Z",
+  "applied": [
+    "Item charge default sustainability values: status announced"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.062705
+  }
+}
