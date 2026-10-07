@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8745",
+  "number": 8745,
+  "title": "Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Table Information Cache refresh now aggregates metrics when duplicate table numbers are encountered instead of failing with a duplicate-key error. This makes the Data Administrator page's refresh action resilient to orphaned or renamed SQL tables.",
+  "key_points": [
+    "Resolves a failure in the Table Information Cache refresh when platform virtual table contains duplicate table numbers with different names",
+    "Aggregates numeric metrics (record count, size, index size) across multiple cache rows with the same company and table number",
+    "Prevents NavCSideDuplicateKeyException that interrupted the entire refresh operation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003474,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9400",
+  "number": 9400,
+  "title": "Route early preview feedback to the correct OCV area",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Early Access Preview feedback now routes to the correct OCV feedback area instead of appearing in the general feedback category.",
+  "key_points": [
+    "Feedback from Early Access Preview features is now properly tagged with OCV metadata",
+    "Both release-level and feature-level feedback use the EarlyAccessPreview area",
+    "No changes to user-facing prompts or feature names",
+    "Only routing metadata is modified, no behavioral impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Early Access Preview feedback was submitted without OCV area metadata, causing it to appear in the general feedback area.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003388,
+    "changes_in_call": 1
+  }
+}

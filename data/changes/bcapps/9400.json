@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9400,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9400",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T08:45:10Z",
+  "merge_commit_sha": "e92e31c9907ede9fc89dd8436b9e4dc1cffe8e52",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Route early preview feedback to the correct OCV area",
+  "body_hash": "b7c67ae2736767297ad3bac7dda5adaf0c77d52c989174daa4a220c9f35c543b",
+  "fixes_issues": [],
+  "work_items": [
+    634022
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Guided Experience/src/Early Access Preview/EarlyAccessPreviewFeatures.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Guided Experience/src/Early Access Preview/EarlyAccessPreviewFeatures.Page.al",
+        "status": "modified",
+        "key": "page/1965",
+        "type": "page",
+        "id": 1965,
+        "name": "Early Access Preview Features",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/1965"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

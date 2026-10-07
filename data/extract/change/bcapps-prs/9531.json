@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9531",
+  "number": 9531,
+  "title": "[Master]- Report 152 \"Calculate Low Level Code\" terminates with error: \"Cannot add instance as another with key %1 has already been added.\" after upgrade to v28.1",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 152 now correctly handles items with multiple SKUs sharing the same Production BOM by replacing enumeration-based lookup with a direct dictionary key search in the BOM tree node logic.",
+  "key_points": [
+    "Fixed a regression where Report 152 crashed when an item and its SKUs referenced the same Production BOM",
+    "Changed IsChild procedure from enumeration-based to O(1) key lookup to avoid leaving the shared enumerator in an incorrect state",
+    "Added regression test for items with multiple SKUs sharing one Production BOM",
+    "The issue occurred because exiting mid-enumeration left the shared enumerator stranded, preventing duplicate detection"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": "Replaced the enumeration in IsChild with a direct O(1) key lookup.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003901,
+    "changes_in_call": 1
+  }
+}

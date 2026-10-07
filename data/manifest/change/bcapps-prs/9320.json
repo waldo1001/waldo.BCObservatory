@@ -6,10 +6,35 @@
   "title": "[Shopify] Import HS code and country of origin from Shopify",
   "url": "https://github.com/microsoft/BCApps/pull/9320",
   "published_at": "2026-07-16T16:27:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:01.702Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:07.205Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004515
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:07.451Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:07.457Z",
+      "path": "content/changes/bcapps/9320.md"
     }
   },
   "input_hash": "d03f4ddf7267c0552bbd478f21bc504b7e5155c1:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify import hs code and country of origin from shopify"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2800aef214f1b7dd2d5f2d33fbb4409aaf787df5cc3dc47f0ccfbe2f12f4af6d"
 }

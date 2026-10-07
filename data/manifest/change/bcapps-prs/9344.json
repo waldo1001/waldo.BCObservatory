@@ -6,10 +6,25 @@
   "title": "[master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries",
   "url": "https://github.com/microsoft/BCApps/pull/9344",
   "published_at": "2026-07-16T11:59:17Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:04.475Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:11.711Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003377
     }
   },
   "input_hash": "32386050f4eed63b11cc9136109734b1a1c216bd:c1",
@@ -30,5 +45,8 @@
     ],
     "community_contribution": true,
     "title_key": "master posting service order without external document no will copy the service order no to gl entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30e019c2c7841048797dcb843aaccdab1d6fec84cb4cc0ab5bbd1fa03e0608fc"
 }

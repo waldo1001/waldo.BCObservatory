@@ -6,10 +6,35 @@
   "title": "[Master]- Report 152 \"Calculate Low Level Code\" terminates with error: \"Cannot add instance as another with key %1 has already been added.\" after upgrade to v28.1",
   "url": "https://github.com/microsoft/BCApps/pull/9531",
   "published_at": "2026-07-17T08:40:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:56.540Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:01.937Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003901
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:02.109Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:02.115Z",
+      "path": "content/changes/bcapps/9531.md"
     }
   },
   "input_hash": "3183d7d36954fb8f377f36dc12602ec61dc0932a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master report 152 calculate low level code terminates with error cannot add instance as another with key 1 has already been added after upgrade to v28 1"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2e2dbdaadeae9fa4e6d02edeaef2d9128e0ee8deabc51ee9a790f5a9cdf78b89"
 }

@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9514,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9514",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T08:58:04Z",
+  "merge_commit_sha": "f242f075824fdd9177af3a8c5495b526c795f909",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Interest Document issued with non-taxable VAT does not generate non-taxable VAT entries in the Spanish localization",
+  "body_hash": "83f2e3877fdcaf7a30b6959d6ed6168113064e63825a28ff0394c3036917465e",
+  "fixes_issues": [],
+  "work_items": [
+    642269
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Finance/VAT/Calculation/NoTaxableMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/NoTaxableDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 229,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 259,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Finance/VAT/Calculation/NoTaxableMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10740",
+        "type": "codeunit",
+        "id": 10740,
+        "name": "No Taxable Mgt.",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10740-es"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

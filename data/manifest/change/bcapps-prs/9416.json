@@ -6,10 +6,18 @@
   "title": "[ALAppExtensions #30313]codeunit 441 \"Prepayment Mgt.\"  OnBeforeReleaseSalesDocument",
   "url": "https://github.com/microsoft/BCApps/pull/9416",
   "published_at": "2026-07-16T11:34:41Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:06.863Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "c87a1a0887b2e37f3fab764223102ede70448e69:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30313 codeunit 441 prepayment mgt onbeforereleasesalesdocument"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e24aabf426ce70a13b9c9f816f16e093d243d9d2037ba42d7a3612788fa5a0ff"
 }

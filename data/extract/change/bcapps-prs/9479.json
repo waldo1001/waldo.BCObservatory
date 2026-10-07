@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9479",
+  "number": 9479,
+  "title": "[Master]-]Withholding Tax Entries are not generated at payment because the Withholding Tax. Prod. Posting Group field gets not transferred to the payment line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The withholding tax production posting group is now transferred to payment lines during payment processing, fixing missing withholding tax entry generation.",
+  "key_points": [
+    "Withholding tax production posting group was not being transferred to payment lines",
+    "This caused withholding tax journal entries to fail to generate at payment",
+    "Added logic in the withholding tax journal subscriber codeunit to handle the transfer",
+    "Includes test coverage for the fix in the test codeunit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003386,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/8905",
+  "number": 8905,
+  "title": "[Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "warehouse",
+    "projects",
+    "inventory"
+  ],
+  "summary": "Reservation entries created from job planning lines now maintain consistent source references whether created directly or through warehouse picks, with upgrade logic to migrate existing data.",
+  "key_points": [
+    "Ensures reservation entries from job planning lines have matching source references regardless of creation method",
+    "Adds upgrade logic to migrate existing reservation entries to use consistent references",
+    "Updates warehouse activity and job warehouse management processes to maintain source reference consistency",
+    "Includes extensive test coverage for inventory picks and warehouse picks on job planning lines",
+    "Manages item tracking and reference resolution across multiple warehousing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "warehouse",
+    "inventory"
+  ],
+  "quote": "Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00529,
+    "changes_in_call": 1
+  }
+}

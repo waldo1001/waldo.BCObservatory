@@ -6,10 +6,18 @@
   "title": "[master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)",
   "url": "https://github.com/microsoft/BCApps/pull/9351",
   "published_at": "2026-07-16T12:32:13Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:07.120Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "a6e62558641cd59ad4f8e59cb47b15d032b5d5a1:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "master subscription billing o n contract renewal detection in sales post subscribers slows posting 28 of batch cpu"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "759f5eb99a2def3faf5a674a6fe1c1021cf60d3d2c7719e92b579bc225c6664b"
 }

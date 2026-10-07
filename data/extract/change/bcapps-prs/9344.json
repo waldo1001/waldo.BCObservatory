@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9344",
+  "number": 9344,
+  "title": "[master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "When posting a service order without an external document number, the service order number is now correctly copied to GL entries instead of remaining blank.",
+  "key_points": [
+    "Service orders without external document numbers now populate GL entry document references",
+    "Fixes inconsistent behavior where GL entries lacked document identification",
+    "Changes applied across multiple localization layers (W1, NA, ES, IT)",
+    "Test coverage added for the posting scenario",
+    "Ensures audit trail clarity in general ledger records"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "Posting service order without External document no. will copy the 'Service Order No.' to GL entries",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003377,
+    "changes_in_call": 1
+  }
+}

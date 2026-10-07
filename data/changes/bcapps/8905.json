@@ -1,0 +1,696 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8905,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8905",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T06:13:03Z",
+  "merge_commit_sha": "3f6ddd39063492806cfe0697fac04f265df95f9e",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.",
+  "body_hash": "75a3a4f9b7f70203a7f605b1fd58ddf9686444a2d4487d3fe28398aab79a9d83",
+  "fixes_issues": [],
+  "work_items": [
+    630792
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SCM/SCMInvtPickPostPreview.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Location/Location.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobWarehouseMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobPlanningLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPickMovement.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityRegister.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Journal/WMSManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseValidateSourceLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Worksheet/WhseWorksheetCreate.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/InvPickOnJobPlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 291,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/JobItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/JobsAssembleToOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/WhsePickOnJobPlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMFulfillment.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInvtPickPostPreview.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/DataSetup/UpgradeTestDataSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/UpgRefsToRemTablesTests.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 42,
+    "additions": 1205,
+    "deletions": 77,
+    "al": 33
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+        "status": "modified",
+        "key": "table/5767",
+        "type": "table",
+        "id": 5767,
+        "name": "Warehouse Activity Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5767"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Location/Location.Table.al",
+        "status": "modified",
+        "key": "table/14",
+        "type": "table",
+        "id": 14,
+        "name": "Location",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/14"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6500",
+        "type": "codeunit",
+        "id": 6500,
+        "name": "Item Tracking Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6500"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+        "status": "modified",
+        "key": "table/167",
+        "type": "table",
+        "id": 167,
+        "name": "Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/167"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "key": "page/88",
+        "type": "page",
+        "id": 88,
+        "name": "Job Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/88"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "key": "page/89",
+        "type": "page",
+        "id": 89,
+        "name": "Job List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/89"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobWarehouseMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5998",
+        "type": "codeunit",
+        "id": 5998,
+        "name": "Job Warehouse Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobPlanningLine.Table.al",
+        "status": "modified",
+        "key": "table/1003",
+        "type": "table",
+        "id": 1003,
+        "name": "Job Planning Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1003"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPickMovement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7322",
+        "type": "codeunit",
+        "id": 7322,
+        "name": "Create Inventory Pick/Movement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7322"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7312",
+        "type": "codeunit",
+        "id": 7312,
+        "name": "Create Pick",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityHeader.Table.al",
+        "status": "modified",
+        "key": "table/5766",
+        "type": "table",
+        "id": 5766,
+        "name": "Warehouse Activity Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5766"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+        "status": "modified",
+        "key": "table/5767",
+        "type": "table",
+        "id": 5767,
+        "name": "Warehouse Activity Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5767"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7324",
+        "type": "codeunit",
+        "id": 7324,
+        "name": "Whse.-Activity-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7324"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityRegister.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7307",
+        "type": "codeunit",
+        "id": 7307,
+        "name": "Whse.-Activity-Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7307"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7314",
+        "type": "codeunit",
+        "id": 7314,
+        "name": "Warehouse Availability Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7314"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Journal/WMSManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7302",
+        "type": "codeunit",
+        "id": 7302,
+        "name": "WMS Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7302"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+        "status": "modified",
+        "key": "report/7305",
+        "type": "report",
+        "id": 7305,
+        "name": "Whse.-Source - Create Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7305"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseValidateSourceLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5777",
+        "type": "codeunit",
+        "id": 5777,
+        "name": "Whse. Validate Source Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5777"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Worksheet/WhseWorksheetCreate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7311",
+        "type": "codeunit",
+        "id": 7311,
+        "name": "Whse. Worksheet-Create",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7311"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "warehouse",
+    "projects",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

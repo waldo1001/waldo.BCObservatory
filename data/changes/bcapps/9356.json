@@ -1,0 +1,126 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9356,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9356",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-16T16:03:42Z",
+  "merge_commit_sha": "a624e0df465eff10691325ecb0bdbaeb7eda3738",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Payment XML file generated from EB Payment Journal upon selecting \"FCY Symbol\" includes currency text",
+  "body_hash": "2f1af4aa214e5314af805ce40f6ef6181070cf6e928bfb594e5d188234ee0085",
+  "fixes_issues": [],
+  "work_items": [
+    641821
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileFCYSEPA00100109Pmts.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileNonEuroSEPAPayments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPA00100109Pmts.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPAPayments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/EBPaymentJournalExport.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 25,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileFCYSEPA00100109Pmts.Report.al",
+        "status": "modified",
+        "key": "report/2000008",
+        "type": "report",
+        "id": 2000008,
+        "name": "File FCY SEPA 001.001.09 Pmts",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000008-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileNonEuroSEPAPayments.Report.al",
+        "status": "modified",
+        "key": "report/2000006",
+        "type": "report",
+        "id": 2000006,
+        "name": "File Non Euro SEPA Payments",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000006-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPA00100109Pmts.Report.al",
+        "status": "modified",
+        "key": "report/2000007",
+        "type": "report",
+        "id": 2000007,
+        "name": "File SEPA 001.001.09 Pmts",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000007-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPAPayments.Report.al",
+        "status": "modified",
+        "key": "report/2000005",
+        "type": "report",
+        "id": 2000005,
+        "name": "File SEPA Payments",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000005-be"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

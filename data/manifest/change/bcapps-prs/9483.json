@@ -6,7 +6,7 @@
   "title": "MaxLength=30 for updated and new currencies",
   "url": "https://github.com/microsoft/BCApps/pull/9483",
   "published_at": "2026-07-16T18:36:52Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "maxlength 30 for updated and new currencies"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:17:59.431Z",
+  "retry_after": null
 }

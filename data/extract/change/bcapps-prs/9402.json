@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9402",
+  "number": 9402,
+  "title": "Fix RSA private key PEM import",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "RSA private key import from PEM format now works correctly by using the proper RSA cryptographic service provider type instead of the base RSA type.",
+  "key_points": [
+    "Fixed runtime failure when calling RSA.ToSecretXmlString with PEM private keys",
+    "RSAEncryptionHelper.ImportFromPem now receives the correct RSACryptoServiceProvider type",
+    "PEM key material remains wrapped as SecretText outside debuggable boundaries",
+    "Added test coverage for private key PEM import functionality",
+    "Public API unchanged; low risk update"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003903,
+    "changes_in_call": 1
+  }
+}

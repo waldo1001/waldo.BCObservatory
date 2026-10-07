@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9514",
+  "number": 9514,
+  "title": "[Main]-Interest Document issued with non-taxable VAT does not generate non-taxable VAT entries in the Spanish localization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Interest documents with non-taxable VAT now correctly generate non-taxable VAT entries in the Spanish localization. The fix updates the No Taxable Management codeunit to handle interest documents properly.",
+  "key_points": [
+    "Interest documents issued with non-taxable VAT were not creating the required non-taxable VAT entries",
+    "The No Taxable Management codeunit was modified to address this issue",
+    "Additional test coverage was added to verify the fix works correctly",
+    "This fix is specific to the Spanish localization",
+    "VAT calculation now properly handles non-taxable interest documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Interest Document issued with non-taxable VAT does not generate non-taxable VAT entries in the Spanish localization",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003358,
+    "changes_in_call": 1
+  }
+}

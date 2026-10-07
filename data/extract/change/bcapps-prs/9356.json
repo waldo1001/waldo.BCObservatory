@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9356",
+  "number": 9356,
+  "title": "[Main]-Payment XML file generated from EB Payment Journal upon selecting \"FCY Symbol\" includes currency text",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment XML files exported from EB Payment Journal now correctly exclude currency text when FCY Symbol option is selected, fixing formatting issues in SEPA payment files.",
+  "key_points": [
+    "Fixed XML generation in four SEPA payment report variants when FCY Symbol is selected",
+    "Corrected currency formatting to prevent unwanted text in payment file exports",
+    "Changes applied to Belgium localization payment file reports",
+    "Added test coverage for EB Payment Journal export functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Payment XML file generated from EB Payment Journal upon selecting \"FCY Symbol\" includes currency text",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003378,
+    "changes_in_call": 1
+  }
+}

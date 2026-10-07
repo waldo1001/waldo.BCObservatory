@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9320",
+  "number": 9320,
+  "title": "[Shopify] Import HS code and country of origin from Shopify",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now imports harmonized system codes and country of origin from Shopify variants when the sync setting is enabled, matching them to existing Business Central tariff numbers and countries during item creation and updates.",
+  "key_points": [
+    "HS codes are fetched from Shopify inventory items and applied to item tariff numbers during import",
+    "Country ISO codes from Shopify are resolved to Business Central country/region codes",
+    "Tariff numbers are only populated if they already exist in Business Central; separator-less Shopify codes are matched to dotted BC tariff numbers by digit comparison",
+    "Updates preserve existing item values when Shopify data is unmapped or blank",
+    "Feature is controlled by the existing Sync HS Code and Country setting and includes comprehensive test coverage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004515,
+    "changes_in_call": 1
+  }
+}

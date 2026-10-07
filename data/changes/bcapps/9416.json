@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9416,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9416",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-16T11:34:41Z",
+  "merge_commit_sha": "c87a1a0887b2e37f3fab764223102ede70448e69",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[ALAppExtensions #30313]codeunit 441 \"Prepayment Mgt.\"  OnBeforeReleaseSalesDocument",
+  "body_hash": "837b915dd3967edf1266c464fc678d1d0eda0b58624f896bed747ce7a6bd00b1",
+  "fixes_issues": [],
+  "work_items": [
+    641536
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/PrepaymentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 20,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/PrepaymentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/441",
+        "type": "codeunit",
+        "id": 441,
+        "name": "Prepayment Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/441"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

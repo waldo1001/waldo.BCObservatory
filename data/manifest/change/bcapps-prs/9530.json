@@ -6,7 +6,7 @@
   "title": "[master] NORWAY - Test Report (ID 2) cannot be run and throw validation errors about field reference that is not more included in the dataset of the Norway version",
   "url": "https://github.com/microsoft/BCApps/pull/9530",
   "published_at": "2026-07-17T05:59:58Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "master norway test report id 2 cannot be run and throw validation errors about field reference that is not more included in the dataset of the norway version"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:17:57.580Z",
+  "retry_after": null
 }

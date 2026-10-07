@@ -6,10 +6,35 @@
   "title": "[Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.",
   "url": "https://github.com/microsoft/BCApps/pull/8905",
   "published_at": "2026-07-17T06:13:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:57.560Z",
+      "change_class": "code",
+      "files": 42,
+      "al": 33,
+      "objects": 31,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:03.147Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00529
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:03.376Z",
+      "objects": 31,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:03.385Z",
+      "path": "content/changes/bcapps/8905.md"
     }
   },
   "input_hash": "3f6ddd39063492806cfe0697fac04f265df95f9e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master different source reference on reservation entries created directly from job planning line and via a warehouse pick"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "85aa5c17c092fc7fafdd1caac9cfa00428e64be81ddebc79bb7cfd4b5c97f151"
 }
