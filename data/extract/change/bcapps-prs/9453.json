@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9453",
+  "number": 9453,
+  "title": "[Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "platform"
+  ],
+  "summary": "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call, ensuring selected header and theme parts are saved to the database. A minor caption casing fix is also applied to the Report Layouts page.",
+  "key_points": [
+    "Added Rec.Modify() calls in lookup handlers for header and theme part assignments",
+    "Selections on the Header/Footer Theme Assignment page now persist after navigation",
+    "Caption text corrected from 'Composite Layout' to 'Composite layout' on Report Layouts page",
+    "No schema or permission changes required",
+    "Low-risk fix with manual verification testing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003998,
+    "changes_in_call": 1
+  }
+}

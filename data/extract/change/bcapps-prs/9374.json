@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9374",
+  "number": 9374,
+  "title": "[master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed a regression in the Contact No. lookup on Sales Quotes that was showing all contacts instead of filtering to only the related customer's contacts.",
+  "key_points": [
+    "Contact lookup on Sales Quote documents now correctly filters to show only contacts related to the selected customer",
+    "The issue was caused by a condition that excluded Quote document type from contact filtering logic",
+    "The fix removes the Quote exclusion while preserving the prospect flow for quotes without a customer",
+    "Same fix applied across all localization layers to ensure consistent behavior",
+    "Test coverage added to prevent future regressions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004099,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9440",
+  "number": 9440,
+  "title": "[Extensibility Request] issue 30331: add event to adjust corrective credit memo confirmation text",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "An integration event has been added before the corrective credit memo confirmation dialog, allowing extensions to adjust the confirmation text when a posted sales invoice is being corrected.",
+  "key_points": [
+    "New integration event `OnCreateCreditMemoCopyDocumentOnBeforeConfirm` fires before the confirmation dialog appears",
+    "Event exposes the posted invoice, originating sales order, and modifiable confirmation text",
+    "Enables extensions to customize confirmation text to reflect their own behavior changes",
+    "Change applied across W1, APAC, and ES layers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003418,
+    "changes_in_call": 1
+  }
+}

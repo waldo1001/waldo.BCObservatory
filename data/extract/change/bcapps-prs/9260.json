@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9260",
+  "number": 9260,
+  "title": "Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The VAT Reconciliation Report now includes a configurable option to report either the total VAT amount including non-deductible VAT or only the deductible portion, addressing cases where non-deductible VAT was previously always included.",
+  "key_points": [
+    "Added a new 'VAT Amount Type' option to the report for users to select between reporting modes",
+    "Users can now choose to report deductible VAT only instead of always including non-deductible VAT",
+    "New enum 'VAT Reconciliation Amount Type' created to support the reporting option",
+    "Test scenarios added to verify both reporting options work correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Added a \"VAT Amount Type\" option to the report letting the user choose between including Non-Deductible VAT or reporting deductible VAT only.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003657,
+    "changes_in_call": 1
+  }
+}

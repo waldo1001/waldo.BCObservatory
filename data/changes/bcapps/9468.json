@@ -1,0 +1,37 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9468,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9468",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T10:22:34Z",
+  "merge_commit_sha": "9917f88d7b8539e280e169d58ea1ed0a3ebe26b3",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation"
+  ],
+  "community_contribution": false,
+  "title": "Change cron schedule to run daily at midnight UTC",
+  "body_hash": "19dd23d1ae9299a45d67f8db31e3c873563175ccf7406ca5e41cffa977c28e8c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

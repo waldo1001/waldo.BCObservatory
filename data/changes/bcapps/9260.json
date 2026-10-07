@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9260,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9260",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T11:51:41Z",
+  "merge_commit_sha": "84e4a14298739b4fb3f506afe10de584f3749478",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT",
+  "body_hash": "dc07e681d73f0e220887e5454c800a5c475b6882ca3c4427fc00337a181a913e",
+  "fixes_issues": [],
+  "work_items": [
+    637507
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATReconciliationAmountType.Enum.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATReconciliationReport.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATReports.Codeunit.al",
+      "status": "modified",
+      "additions": 337,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 385,
+    "deletions": 10,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATReconciliationAmountType.Enum.al",
+        "status": "added",
+        "key": "enum/261",
+        "type": "enum",
+        "id": 261,
+        "name": "VAT Reconciliation Amount Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/261"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATReconciliationReport.Report.al",
+        "status": "modified",
+        "key": "report/743",
+        "type": "report",
+        "id": 743,
+        "name": "VAT Reconciliation Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/743"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

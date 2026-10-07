@@ -6,7 +6,7 @@
   "title": "[master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.",
   "url": "https://github.com/microsoft/BCApps/pull/9374",
   "published_at": "2026-07-15T14:20:44Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 15,
       "objects": 12,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:31.772Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004099
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:31.959Z",
+      "objects": 12,
+      "unjoined": 3,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:31.964Z",
+      "path": "content/changes/bcapps/9374.md"
     }
   },
   "input_hash": "b5e2e473f2fa9a459b023125547e64b482ddb154:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1987c5001640a8cfc28678199e46d6b7ada5b39556a90d2a577d19de938502c6"
+  "output_hash": "1e5296c99fc0f713d1776766cc5fd339d95b6a5faa7624b5a6983d617784502f"
 }

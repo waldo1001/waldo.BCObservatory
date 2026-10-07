@@ -6,10 +6,35 @@
   "title": "[QM] Fix internal put-away from Quality Inspection sourcing wrong bin",
   "url": "https://github.com/microsoft/BCApps/pull/9168",
   "published_at": "2026-07-15T11:51:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:35.740Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:41.203Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004066
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:41.368Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:41.380Z",
+      "path": "content/changes/bcapps/9168.md"
     }
   },
   "input_hash": "b85440bb3b33eb3d097ac6ece18ba396adbbaddd:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "qm fix internal put away from quality inspection sourcing wrong bin"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f57312305c924320a59c547072e50fc60e76a04e81f05cd0c278067c3f25c8ea"
 }

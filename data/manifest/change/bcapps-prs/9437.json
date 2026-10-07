@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line",
   "url": "https://github.com/microsoft/BCApps/pull/9437",
   "published_at": "2026-07-15T12:59:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:34.711Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:40.237Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003795
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:40.403Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:40.408Z",
+      "path": "content/changes/bcapps/9437.md"
     }
   },
   "input_hash": "87fbc1c434244fd08cf7d4f71d33c10249672c9f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30339 add onaftercalcavailableqtybase event to whse worksheet line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5a93fb26387c3c9fdea0bdaf820cf14422ff1a09ad28a8705bc0eee6e7b3ec8"
 }

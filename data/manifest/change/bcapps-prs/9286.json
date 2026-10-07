@@ -6,7 +6,7 @@
   "title": "Improve error message when demo data container has no apps to install",
   "url": "https://github.com/microsoft/BCApps/pull/9286",
   "published_at": "2026-07-15T10:25:28Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "improve error message when demo data container has no apps to install"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:18:41.766Z",
+  "retry_after": null
 }

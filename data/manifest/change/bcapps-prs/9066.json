@@ -6,10 +6,35 @@
   "title": "[master][ALAppExtensions #30068][ES] Codeunit 7000000 CarteraManagement - Refactor the Functions InsertReceivableDocs and InsertPayableDocs",
   "url": "https://github.com/microsoft/BCApps/pull/9066",
   "published_at": "2026-07-15T14:20:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:33.501Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:38.081Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003048
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:38.237Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:38.242Z",
+      "path": "content/changes/bcapps/9066.md"
     }
   },
   "input_hash": "3448bd1a833d85ce5d7ebc812acc69971ffc44f6:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "master alappextensions 30068 es codeunit 7000000 carteramanagement refactor the functions insertreceivabledocs and insertpayabledocs"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdf0e5f68ef240b7673b58249ba50d092b17cdea9544bab7d467cd4d375e74e3"
 }

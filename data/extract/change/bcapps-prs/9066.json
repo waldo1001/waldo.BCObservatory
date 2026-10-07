@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9066",
+  "number": 9066,
+  "title": "[master][ALAppExtensions #30068][ES] Codeunit 7000000 CarteraManagement - Refactor the Functions InsertReceivableDocs and InsertPayableDocs",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Functions InsertReceivableDocs and InsertPayableDocs in CarteraManagement codeunit were refactored to improve code organization and maintainability.",
+  "key_points": [
+    "Refactored InsertReceivableDocs function logic",
+    "Refactored InsertPayableDocs function logic",
+    "Affects Spanish localization finance features for receivables and payables",
+    "Code structure improved without changing behavior",
+    "Addresses internal quality bug fix"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003048,
+    "changes_in_call": 1
+  }
+}

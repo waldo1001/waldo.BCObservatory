@@ -1,0 +1,83 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9453,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9453",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T14:20:44Z",
+  "merge_commit_sha": "34a2fe00555335e94d93d26aa6ee1b2776f3f7b6",
+  "author": "v-mortenr",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Bug"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)",
+  "body_hash": "484f0f8fbc3d34bd3bf328b2b518a2995b3a570426579ee4572dfc3c4e1b0c9e",
+  "fixes_issues": [],
+  "work_items": [
+    642248
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/HeaderFooterThemeAssignment.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/HeaderFooterThemeAssignment.Page.al",
+        "status": "modified",
+        "key": "page/9667",
+        "type": "page",
+        "id": 9667,
+        "name": "Header/Footer Theme Assignment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9667"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+        "status": "modified",
+        "key": "page/9660",
+        "type": "page",
+        "id": 9660,
+        "name": "Report Layouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9660"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

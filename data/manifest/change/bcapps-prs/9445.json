@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30173: add integration events to Sales Line Discounts page",
   "url": "https://github.com/microsoft/BCApps/pull/9445",
   "published_at": "2026-07-15T14:25:24Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:31.618Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003642
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:31.765Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:31.769Z",
+      "path": "content/changes/bcapps/9445.md"
     }
   },
   "input_hash": "75d5da90a9d83b746f02216cae0810afa6c222ea:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d9f067677b6c62a5e99a9978a0979239c1a4573709e572011f30ebfb338dacb"
+  "output_hash": "9b5e9bcfdcad75004e82e72a7bb0847700a4b71f239e5c7f09582364d0c76509"
 }

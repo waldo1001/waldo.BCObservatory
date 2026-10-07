@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9282",
+  "number": 9282,
+  "title": "[Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Contact history descriptions in reminder automation now display the registered reminder number instead of the original unregistered reminder number when reminders are posted.",
+  "key_points": [
+    "Fixed contact history descriptions to reference the final posted reminder document number",
+    "Updated reminder automation logic to populate the correct reminder number before logging history",
+    "Added test coverage for reminder automation to verify the fix",
+    "Changes applied across multiple localization layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": "Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003977,
+    "changes_in_call": 1
+  }
+}

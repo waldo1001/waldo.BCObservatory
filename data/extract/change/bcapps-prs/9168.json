@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9168",
+  "number": 9168,
+  "title": "[QM] Fix internal put-away from Quality Inspection sourcing wrong bin",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "summary": "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content in directed put-away locations instead of relying on field naming conventions, fixing errors when items no longer exist in their original receive bins.",
+  "key_points": [
+    "Resolves source bins from real Bin Content for bin-mandatory locations, excluding receive and adjustment bins",
+    "Validates source bins for receive-bin issues before document creation to show actionable error messages",
+    "Displays intended quantity instead of 0 in failed creation notifications",
+    "Falls back to naming-convention logic only for non-bin-mandatory locations or when item has no current stock",
+    "Extracted IsReceiveBin as a reusable helper function"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004066,
+    "changes_in_call": 1
+  }
+}

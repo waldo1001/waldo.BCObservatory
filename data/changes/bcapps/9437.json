@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9437,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9437",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T12:59:14Z",
+  "merge_commit_sha": "87fbc1c434244fd08cf7d4f71d33c10249672c9f",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line",
+  "body_hash": "9fe998a5c3b8513a4f5a958b5623bdef5272f0753653e8c6c2898c025c7ca761",
+  "fixes_issues": [],
+  "work_items": [
+    641774
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Worksheet/WhseWorksheetLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Worksheet/WhseWorksheetLine.Table.al",
+        "status": "modified",
+        "key": "table/7326",
+        "type": "table",
+        "id": 7326,
+        "name": "Whse. Worksheet Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7326"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

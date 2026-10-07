@@ -6,10 +6,18 @@
   "title": "[master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting",
   "url": "https://github.com/microsoft/BCApps/pull/9339",
   "published_at": "2026-07-15T10:03:29Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:42.929Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
     }
   },
   "input_hash": "dbeafdb0c0dad723c2b6b785c158550c6816cd14:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "master gen jnl post line add var nextentryno var nextvatentryno and var nexttransactionno to onafterinitglregister in startposting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c533df456b332c1f743a5b0ac603bef3e35ab401fda43c962a32e8a38578def5"
 }

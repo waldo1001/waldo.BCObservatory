@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9430",
+  "number": 9430,
+  "title": "Fix untrappable JSON error in E-Document ADI import (Bug 640122)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document matching assistance import now handles malformed Azure Document Intelligence responses gracefully by checking JSON property existence and adding telemetry for diagnostic purposes instead of crashing with an untrappable error.",
+  "key_points": [
+    "Every JSON property read in E-Document matching assistance now validates the Get call return value",
+    "Missing or malformed ADI response properties no longer cause untrappable runtime errors",
+    "Telemetry warnings added to diagnose which property is missing from ADI responses",
+    "Import degrades gracefully when Azure response structure is incomplete",
+    "Helper functions return empty objects instead of dereferencing uninitialized tokens"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003493,
+    "changes_in_call": 1
+  }
+}

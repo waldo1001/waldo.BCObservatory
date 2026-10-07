@@ -6,10 +6,35 @@
   "title": "[Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)",
   "url": "https://github.com/microsoft/BCApps/pull/9453",
   "published_at": "2026-07-15T14:20:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:33.323Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:38.716Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003998
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:38.866Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:38.871Z",
+      "path": "content/changes/bcapps/9453.md"
     }
   },
   "input_hash": "34a2fe00555335e94d93d26aa6ee1b2776f3f7b6:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642248 header footer theme assignment persist selected layout missing rec modify"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eafbd76f012c49b13bd88b2d4cfc2f249a60f37613356943e1e44e6711012f36"
 }

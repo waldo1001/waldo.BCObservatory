@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9407",
+  "number": 9407,
+  "title": "Add Microsoft apps view to AppSource product list (Fix ADO #642217)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "A new predefined view called \"Microsoft apps\" was added to the AppSource Product List page to let customers quickly filter and browse only Microsoft-published applications.",
+  "key_points": [
+    "Added a new view filtered to show only apps where PublisherType equals Microsoft",
+    "Customers can now access Microsoft apps with a single click instead of manually applying filters",
+    "The change is purely additive and follows existing page view patterns",
+    "No code paths or behavior changes affect existing functionality",
+    "Fixes ADO bug 642217"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003405,
+    "changes_in_call": 1
+  }
+}

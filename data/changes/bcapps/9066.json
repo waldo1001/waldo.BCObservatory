@@ -1,0 +1,61 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9066,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9066",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T14:20:44Z",
+  "merge_commit_sha": "3448bd1a833d85ce5d7ebc812acc69971ffc44f6",
+  "author": "AndreasHans",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "[master][ALAppExtensions #30068][ES] Codeunit 7000000 CarteraManagement - Refactor the Functions InsertReceivableDocs and InsertPayableDocs",
+  "body_hash": "53d3631a2cec2f5a5222c71db58b70601baa24e71cb2efb867f084d77fa51071",
+  "fixes_issues": [],
+  "work_items": [
+    635592
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Finance/ReceivablesPayables/CarteraManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 10,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 16,
+    "deletions": 10,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Finance/ReceivablesPayables/CarteraManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000000",
+        "type": "codeunit",
+        "id": 7000000,
+        "name": "CarteraManagement",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000000-es"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

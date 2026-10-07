@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9452",
+  "number": 9452,
+  "title": "[Extensibility Request] issue 30329: override confirmation text in CancelPostedInvoiceAndOpenSalesOrder",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "An integration event allows extensions to override the confirmation text when canceling a posted sales invoice, enabling accurate messaging when custom logic changes the behavior applied to the originating sales order.",
+  "key_points": [
+    "New integration event `OnCancelPostedInvoiceAndOpenSalesOrderOnBeforeConfirm` added to codeunit 1322",
+    "Extensions can now override confirmation question text instead of duplicating the procedure logic",
+    "Confirmation text is stored in a variable before being shown to users",
+    "Event exposes sales invoice header, sales header, and the confirmation text parameter",
+    "Addresses inconsistency when extensions customize how posted invoice corrections affect originating order quantities"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "quote": "an extension can override the confirmation question text before it is shown, without duplicating the procedure's logic",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003587,
+    "changes_in_call": 1
+  }
+}

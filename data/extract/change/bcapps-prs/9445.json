@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9445",
+  "number": 9445,
+  "title": "[Extensibility Request] issue 30173: add integration events to Sales Line Discounts page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Two integration events are added to the Sales Line Discounts page to allow extensions to customize record filtering and resolve filter descriptions for item type values without modifying base code.",
+  "key_points": [
+    "OnSetRecFiltersOnBeforeCurrPageUpdate event enables subscribers to apply additional filtering with access to the record and filter context",
+    "OnGetFilterDescriptionCaseElse event lets subscribers supply custom source tables and item filtering for unsupported item type values",
+    "Both events use the page's ItemTypeFilter option type for parameters",
+    "Events follow existing patterns on the page with IncludeSender set to true",
+    "Extensibility request addresses partner needs for building extensions on this page"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003642,
+    "changes_in_call": 1
+  }
+}

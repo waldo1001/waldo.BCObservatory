@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9437",
+  "number": 9437,
+  "title": "[Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "An integration event was added to the warehouse worksheet line calculation to allow extensions to adjust the available quantity after the standard calculation completes.",
+  "key_points": [
+    "New OnAfterCalcAvailableQtyBase event enables extensions to modify calculated available quantity",
+    "Eliminates the need for extensions to reimplement entire CalcAvailableQtyBase logic",
+    "Supports scenarios like stock ring-fencing that require tweaking results based on standard calculation",
+    "Event is raised at the end of CalcAvailableQtyBase procedure with calculated AvailableQty parameter",
+    "Complements the existing OnBeforeCalcAvailableQtyBase event with post-calculation flexibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003795,
+    "changes_in_call": 1
+  }
+}
