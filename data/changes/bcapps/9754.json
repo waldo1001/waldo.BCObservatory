@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9754,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9754",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T09:20:37Z",
+  "merge_commit_sha": "2b0e5c98fdace155798d9f0ab344527086cdf53b",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event",
+  "body_hash": "4ca2b7cc978da38a74ae1f6f62cc6be2318b559a52aa023fea442947f137f657",
+  "fixes_issues": [],
+  "work_items": [
+    644119
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 11,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6500",
+        "type": "codeunit",
+        "id": 6500,
+        "name": "Item Tracking Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6500"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

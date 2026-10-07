@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9548",
+  "number": 9548,
+  "title": "636017 Move Projects report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects",
+    "development"
+  ],
+  "summary": "Report action tooltips for Projects reports are moved from page actions to the report objects themselves, reducing duplication and ensuring consistent tooltips across all report invocations.",
+  "key_points": [
+    "27 Projects reports now have tooltips defined at the report level",
+    "Duplicate tooltips removed from page actions in pages like Job Card, Resource Card, and role centers",
+    "Changes propagated to all country layer forks to maintain consistency",
+    "Metadata-only change with no runtime behavior or breaking changes",
+    "Follows the same cleanup pattern already applied to other system areas"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "development"
+  ],
+  "quote": "Moves the report action ToolTips for the Projects (Jobs & Resources) reports off the page actions that run them and onto the report objects themselves",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012343,
+    "changes_in_call": 1
+  }
+}

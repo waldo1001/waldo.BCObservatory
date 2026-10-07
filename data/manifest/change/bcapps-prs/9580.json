@@ -6,10 +6,35 @@
   "title": "636017 Move Manufacturing report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9580",
   "published_at": "2026-07-30T11:31:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:26.152Z",
+      "change_class": "code",
+      "files": 27,
+      "al": 27,
+      "objects": 23,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:31.578Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005171
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:31.762Z",
+      "objects": 23,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:31.770Z",
+      "path": "content/changes/bcapps/9580.md"
     }
   },
   "input_hash": "c77896a9d31f88e5b9d7ca2c1a5fbe8c6f0a9975:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move manufacturing report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0bf3e7a22208bdd11073a87fd7495a49914e9cd500434c0bced5930e515b808"
 }

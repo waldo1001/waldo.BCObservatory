@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8553",
+  "number": 8553,
+  "title": "[Bug][SubscriptionBilling]: Performance: Billing document creation does not scale to large datasets (4M+ subscription lines)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Billing document creation now scales to millions of subscription lines through code optimizations, database indexes, transaction checkpoints, and progress tracking, eliminating redundant lookups and event dispatch overhead.",
+  "key_points": [
+    "New Progress Tracker codeunit provides reusable ETA dialog for long-running operations with Job Queue safety",
+    "Transaction commits added at intervals (per 10 contracts, per document) to prevent timeout on large datasets",
+    "Dictionary-based aggregation and SetLoadFields replace O(n) loops and uncached Gets for performance",
+    "Database indexes added or extended on BillingLine, SubscriptionLine, UsageDataBilling, and related tables",
+    "Removed redundant event subscribers by inlining logic into hot paths to reduce dispatch overhead"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005191,
+    "changes_in_call": 1
+  }
+}

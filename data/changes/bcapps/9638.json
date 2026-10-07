@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9638,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9638",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T09:38:10Z",
+  "merge_commit_sha": "97a5245ecf0f47ffa317144c44eaff527897a92c",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fixed Filtering the Sales Order List using the 'Delayed' view the list shows sales orders that are out of scope",
+  "body_hash": "d7c0ff236d6b223384d7f144ef1ce4fa5b088af1fb06eccfc2ce268b42ea1b4e",
+  "fixes_issues": [],
+  "work_items": [
+    642628
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 4,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderList.Page.al",
+        "status": "modified",
+        "key": "page/9305",
+        "type": "page",
+        "id": 9305,
+        "name": "Sales Order List",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/9305"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderList.Page.al",
+        "status": "modified",
+        "key": "page/9305",
+        "type": "page",
+        "id": 9305,
+        "name": "Sales Order List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9305"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

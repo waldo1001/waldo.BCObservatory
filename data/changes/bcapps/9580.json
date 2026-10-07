@@ -1,0 +1,512 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9580,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9580",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T11:31:54Z",
+  "merge_commit_sha": "c77896a9d31f88e5b9d7ca2c1a5fbe8c6f0a9975",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Manufacturing report action tooltips to report objects",
+  "body_hash": "8b4583639bd8cfb2a647442eb730875550b875da1a840e2872dc767c5abd847c",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ReleasedProductionOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FinishedProductionOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/PlannedProductionOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Finance/RoleCenters/MfgFinanceManagerRC.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CapacityTaskList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProdOrderShortageList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProductionOrderStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/QuantityExplosionofBOM.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/SubcontractorDispatchList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/WhereUsedTopLevel.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/MachineOperatorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSuperbasicActivities.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 27,
+    "additions": 7,
+    "deletions": 39,
+    "al": 27
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FinishedProductionOrders.Page.al",
+        "status": "modified",
+        "key": "page/9327",
+        "type": "page",
+        "id": 9327,
+        "name": "Finished Production Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9327"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrder.Page.al",
+        "status": "modified",
+        "key": "page/99000829",
+        "type": "page",
+        "id": 99000829,
+        "name": "Firm Planned Prod. Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000829"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrders.Page.al",
+        "status": "modified",
+        "key": "page/9325",
+        "type": "page",
+        "id": 9325,
+        "name": "Firm Planned Prod. Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9325"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/PlannedProductionOrder.Page.al",
+        "status": "modified",
+        "key": "page/99000813",
+        "type": "page",
+        "id": 99000813,
+        "name": "Planned Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000813"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrder.Page.al",
+        "status": "modified",
+        "key": "page/99000831",
+        "type": "page",
+        "id": 99000831,
+        "name": "Released Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000831"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrders.Page.al",
+        "status": "modified",
+        "key": "page/9326",
+        "type": "page",
+        "id": 9326,
+        "name": "Released Production Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9326"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Finance/RoleCenters/MfgFinanceManagerRC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000780",
+        "type": "pageextension",
+        "id": 99000780,
+        "name": "Mfg. Finance Manager RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000780"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000751",
+        "type": "pageextension",
+        "id": 99000751,
+        "name": "Mfg. Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMList.Page.al",
+        "status": "modified",
+        "key": "page/99000787",
+        "type": "page",
+        "id": 99000787,
+        "name": "Production BOM List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000787"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CapacityTaskList.Report.al",
+        "status": "modified",
+        "key": "report/99000780",
+        "type": "report",
+        "id": 99000780,
+        "name": "Capacity Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000780"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+        "status": "modified",
+        "key": "report/5802",
+        "type": "report",
+        "id": 5802,
+        "name": "Inventory Valuation - WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5802"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProdOrderShortageList.Report.al",
+        "status": "modified",
+        "key": "report/99000788",
+        "type": "report",
+        "id": 99000788,
+        "name": "Prod. Order - Shortage List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000788"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProductionOrderStatistics.Report.al",
+        "status": "modified",
+        "key": "report/99000791",
+        "type": "report",
+        "id": 99000791,
+        "name": "Production Order Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000791"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/QuantityExplosionofBOM.Report.al",
+        "status": "modified",
+        "key": "report/99000753",
+        "type": "report",
+        "id": 99000753,
+        "name": "Quantity Explosion of BOM",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000753"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/SubcontractorDispatchList.Report.al",
+        "status": "modified",
+        "key": "report/99000789",
+        "type": "report",
+        "id": 99000789,
+        "name": "Subcontractor - Dispatch List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000789"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/WhereUsedTopLevel.Report.al",
+        "status": "modified",
+        "key": "report/99000757",
+        "type": "report",
+        "id": 99000757,
+        "name": "Where-Used (Top Level)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000757"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/MachineOperatorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9013",
+        "type": "page",
+        "id": 9013,
+        "name": "Machine Operator Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9013"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9010",
+        "type": "page",
+        "id": 9010,
+        "name": "Production Planner Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9010"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSuperbasicActivities.Page.al",
+        "status": "modified",
+        "key": "page/9044",
+        "type": "page",
+        "id": 9044,
+        "name": "Shop Super. basic Activities",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+        "status": "modified",
+        "key": "page/9011",
+        "type": "page",
+        "id": 9011,
+        "name": "Shop Supervisor Mfg Foundation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9011"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9012",
+        "type": "page",
+        "id": 9012,
+        "name": "Shop Supervisor Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9012"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000754"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ReleasedProductionOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing",
+    "development",
+    "finance",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

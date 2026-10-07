@@ -1,0 +1,992 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9583,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9583",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T10:53:29Z",
+  "merge_commit_sha": "df5d0dfb690dc25a9254be793ab5ff97ea4c2abc",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Sales report action tooltips to report objects",
+  "body_hash": "c35d50090877e44e8f9f5d6060e0a514b15394a2b981c29ed19e0429083c8106",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Customer/CustomerList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reports/CustomerItemSales.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/CustomerList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Customer/CustomerList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Customer/CustomerList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/AccountReceivables.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/CustomerList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/Reminder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerItemSales.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonCommission.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 70,
+    "additions": 9,
+    "deletions": 176,
+    "al": 70
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reports/CustomerItemSales.Report.al",
+        "status": "modified",
+        "key": "report/113",
+        "type": "report",
+        "id": 113,
+        "name": "Customer/Item Sales",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/113"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/114",
+        "type": "report",
+        "id": 114,
+        "name": "Salesperson - Sales Statistics",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/114"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+        "status": "modified",
+        "key": "report/107",
+        "type": "report",
+        "id": 107,
+        "name": "Customer - Order Summary",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+        "status": "modified",
+        "key": "page/9026",
+        "type": "page",
+        "id": 9026,
+        "name": "Sales & Relationship Mgr. RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9026"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "key": "page/9003",
+        "type": "page",
+        "id": 9003,
+        "name": "Acc. Receivables Adm. RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9003"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/AccountReceivables.Page.al",
+        "status": "modified",
+        "key": "page/9077",
+        "type": "page",
+        "id": 9077,
+        "name": "Account Receivables",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9077"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "key": "page/9020",
+        "type": "page",
+        "id": 9020,
+        "name": "Small Business Owner RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/CustomerList.Page.al",
+        "status": "modified",
+        "key": "page/22",
+        "type": "page",
+        "id": 22,
+        "name": "Customer List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/22"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "key": "page/434",
+        "type": "page",
+        "id": 434,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/434"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerItemSales.Report.al",
+        "status": "modified",
+        "key": "report/113",
+        "type": "report",
+        "id": 113,
+        "name": "Customer/Item Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/113"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderDetail.Report.al",
+        "status": "modified",
+        "key": "report/108",
+        "type": "report",
+        "id": 108,
+        "name": "Customer - Order Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/108"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+        "status": "modified",
+        "key": "report/107",
+        "type": "report",
+        "id": 107,
+        "name": "Customer - Order Summary",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonCommission.Report.al",
+        "status": "modified",
+        "key": "report/115",
+        "type": "report",
+        "id": 115,
+        "name": "Salesperson - Commission",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/115"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/114",
+        "type": "report",
+        "id": 114,
+        "name": "Salesperson - Sales Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/114"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9006",
+        "type": "page",
+        "id": 9006,
+        "name": "Order Processor Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9006"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9005",
+        "type": "page",
+        "id": 9005,
+        "name": "Sales Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9005"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Customer/CustomerList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/CustomerList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Customer/CustomerList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccReceivablesAdmRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Reminder/Reminder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Customer/CustomerList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales",
+    "finance",
+    "crm",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

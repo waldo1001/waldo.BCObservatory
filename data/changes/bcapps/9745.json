@@ -1,0 +1,76 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9745,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9745",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T10:11:26Z",
+  "merge_commit_sha": "e6b9071bdfad0d560fed8858f1b015d42118ecc4",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] Implement item variant caching in calculate inventory",
+  "body_hash": "5a0b097ba98846806672fccfea7970495e4e2cb4e1fc04a9b0d0508846c7fd57",
+  "fixes_issues": [],
+  "work_items": [
+    643995
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 16,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 160,
+    "deletions": 32,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+        "status": "modified",
+        "key": "report/790",
+        "type": "report",
+        "id": 790,
+        "name": "Calculate Inventory",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/790"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

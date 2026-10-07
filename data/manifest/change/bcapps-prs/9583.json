@@ -6,10 +6,35 @@
   "title": "636017 Move Sales report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9583",
   "published_at": "2026-07-30T10:53:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:28.605Z",
+      "change_class": "code",
+      "files": 70,
+      "al": 70,
+      "objects": 17,
+      "unjoined": 53
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:34.230Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.010922
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:34.706Z",
+      "objects": 17,
+      "unjoined": 53,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:34.725Z",
+      "path": "content/changes/bcapps/9583.md"
     }
   },
   "input_hash": "df5d0dfb690dc25a9254be793ab5ff97ea4c2abc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move sales report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04be21658c295323753a43786d7b86fa6578425a14a03d80cd59d78fedbb5c93"
 }

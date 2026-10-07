@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9281",
+  "number": 9281,
+  "title": "Add read isolation support to Isolated Storage Management ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Isolated Storage Management codeunit now provides Get method overloads that accept an IsolationLevel parameter, allowing explicit control over read isolation for both Text and SecretText values.",
+  "key_points": [
+    "Adds Get overloads accepting IsolationLevel for Text values",
+    "Adds Get overloads accepting IsolationLevel for SecretText values",
+    "Preserves existing key-length validation and output-clearing behavior",
+    "Delegates to platform IsolatedStorage.Get without new storage logic",
+    "No breaking changes or compatibility risks"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003599,
+    "changes_in_call": 1
+  }
+}

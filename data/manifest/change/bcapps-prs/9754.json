@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event",
   "url": "https://github.com/microsoft/BCApps/pull/9754",
   "published_at": "2026-07-30T09:20:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:36.846Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:42.826Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003624
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:43.037Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:43.041Z",
+      "path": "content/changes/bcapps/9754.md"
     }
   },
   "input_hash": "2b0e5c98fdace155798d9f0ab344527086cdf53b:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30380 add onsplitpostedwhsereceiptlineonnotfindwhseitementryrelation event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "958a93585a8956d267883e30b0c36bbff833e822c5a44204370aff6f3aeee933"
 }

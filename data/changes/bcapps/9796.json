@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9796,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9796",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T12:52:33Z",
+  "merge_commit_sha": "bb672c8a60f3f05135c6ad40c4719bf623d6282a",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Show a message when an e-document file cannot be viewed or no data could be extracted",
+  "body_hash": "0811653c7c2a0c166b52a77b12669bf5fb7a10b1a58527079af03a12965b753b",
+  "fixes_issues": [],
+  "work_items": [
+    638785
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocImport.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocImport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6140",
+        "type": "codeunit",
+        "id": 6140,
+        "name": "E-Doc. Import",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6140"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

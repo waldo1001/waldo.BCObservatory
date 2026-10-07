@@ -6,10 +6,35 @@
   "title": "[Bug][SubscriptionBilling]: Performance: Billing document creation does not scale to large datasets (4M+ subscription lines)",
   "url": "https://github.com/microsoft/BCApps/pull/8553",
   "published_at": "2026-07-30T11:17:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:28.065Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 14,
+      "objects": 13,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:33.881Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.005191
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:34.206Z",
+      "objects": 13,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:34.222Z",
+      "path": "content/changes/bcapps/8553.md"
     }
   },
   "input_hash": "aea3fe77199a9e88287de991ce81c065d2027339:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscriptionbilling performance billing document creation does not scale to large datasets 4m subscription lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34dbc0ad80a6df1e176eee9184d2fd3d6ec10fd9c2053753bc9fed899b64f86d"
 }

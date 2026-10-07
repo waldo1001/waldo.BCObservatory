@@ -6,7 +6,7 @@
   "title": "Grant indirect read on Privacy Notice tables in Privacy Notice Impl.",
   "url": "https://github.com/microsoft/BCApps/pull/9838",
   "published_at": "2026-07-30T14:42:40Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:24.914Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003876
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:25.088Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:25.094Z",
+      "path": "content/changes/bcapps/9838.md"
     }
   },
   "input_hash": "d66fa8d19504355f1b0d82b6c4178c5c777291e7:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "83555d337c1927ab0698343b695469c4aa6ad36843e165375c8ecac606dc5511"
+  "output_hash": "282c4300565d919724663778125ac5c8c6a97df11a26395068cdab0dc4142eb0"
 }

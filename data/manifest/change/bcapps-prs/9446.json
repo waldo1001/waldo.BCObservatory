@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30216: add OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine event in codeunit 90 Purch.-Post",
   "url": "https://github.com/microsoft/BCApps/pull/9446",
   "published_at": "2026-07-30T10:49:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:29.616Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:35.065Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004347
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:35.327Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:35.334Z",
+      "path": "content/changes/bcapps/9446.md"
     }
   },
   "input_hash": "e72a8e3d2d5f8c4464bcce3b7fa268fb86627956:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30216 add onpostitemjnllinejobconsumptiononbeforepreparejobline event in codeunit 90 purch post"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d2c62de72edf88fc6ac1bda68eac350ccab0f759bcd5f070ad5143cf14aaa3e"
 }

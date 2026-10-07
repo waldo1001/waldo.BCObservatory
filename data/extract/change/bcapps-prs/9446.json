@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9446",
+  "number": 9446,
+  "title": "[Extensibility Request] issue 30216: add OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine event in codeunit 90 Purch.-Post",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "A new integration event `OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine` is added to codeunit 90 Purch.-Post, allowing extensions to modify the quantity to invoice and optionally bypass standard job line preparation during purchase posting.",
+  "key_points": [
+    "New `IsHandled` integration event fires in `PostItemJnlLineJobConsumption` after quantity is set but before job line preparation",
+    "Extensions can adjust `PurchLine.\"Qty. to Invoice\"` and skip the standard `InvoicePostingInterface.PrepareJobLine` call",
+    "Event added to W1 base layer and propagated to all country-specific layers",
+    "Addresses extensibility gap where existing events fire too early or after quantity is already consumed",
+    "Enables custom job consumption logic based on extension fields"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004347,
+    "changes_in_call": 1
+  }
+}

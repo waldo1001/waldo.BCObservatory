@@ -6,10 +6,18 @@
   "title": "[Extensibility Request] issue 30361: add OnAutoArchiveJobOnCaseElse event to Job Archive Management",
   "url": "https://github.com/microsoft/BCApps/pull/9779",
   "published_at": "2026-07-30T08:58:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:38.396Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "9dfc31f6ef1cc07e984f4af412cf6ec67494ae57:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30361 add onautoarchivejoboncaseelse event to job archive management"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40fb1ad8e61b3d67c265ebd25d0f0591c69022707194624c9d37c9c02e85ec30"
 }

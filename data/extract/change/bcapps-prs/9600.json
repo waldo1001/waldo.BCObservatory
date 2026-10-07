@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9600",
+  "number": 9600,
+  "title": "Uptake sift disable enable support",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Index management pages now support viewing and disabling SIFT indexes on relevant tables, with fixes to primary key references required for platform compatibility.",
+  "key_points": [
+    "Added support for disabling and enabling SIFT indexes in index management UI",
+    "Fixed primary key references on index pages to maintain platform compatibility",
+    "Updated Indexes List Part and Table Information Card pages",
+    "Changes required for proper platform uptake"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "quote": "Uptake the new support for disabling and enabling sift on relevant tables + fixes platform uptake",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003195,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9805",
+  "number": 9805,
+  "title": "Update Email Folder tooltip to reference renamed 'Manage per sender' review option",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payables Agent strings are updated to reference the renamed email review option 'Manage per sender' instead of 'Only if untrusted' across tooltips and labels.",
+  "key_points": [
+    "Updated Email Folder tooltip in the Known Sender table",
+    "Updated Email review field tooltip in the Payables Agent Setup page",
+    "Updated known-senders review-policy tooltips across page and table",
+    "Updated policy label used in confirmation messages",
+    "Consistent naming for the email review option throughout the Payables Agent"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003418,
+    "changes_in_call": 1
+  }
+}

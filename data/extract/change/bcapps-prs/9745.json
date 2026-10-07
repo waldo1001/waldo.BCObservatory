@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9745",
+  "number": 9745,
+  "title": "[main] Implement item variant caching in calculate inventory",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Calculate Inventory report now caches item variant information to reduce redundant database lookups when processing multiple records with the same variants.",
+  "key_points": [
+    "Item variant existence and blocked state are cached in a dictionary during calculation",
+    "Reduces repeated NST data cache checks and SQL queries for the same variants",
+    "Improves performance in scenarios where many records share the same variants",
+    "Dictionary approach eliminates NST cache maintenance overhead"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Caches processed Item Variants in the dictionary: whether Item Variants exists and Blocked state.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003253,
+    "changes_in_call": 1
+  }
+}

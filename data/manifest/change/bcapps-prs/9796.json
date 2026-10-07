@@ -6,10 +6,35 @@
   "title": "Show a message when an e-document file cannot be viewed or no data could be extracted",
   "url": "https://github.com/microsoft/BCApps/pull/9796",
   "published_at": "2026-07-30T12:52:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:27.084Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:31.372Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0032
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:31.558Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:31.572Z",
+      "path": "content/changes/bcapps/9796.md"
     }
   },
   "input_hash": "bb672c8a60f3f05135c6ad40c4719bf623d6282a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "show a message when an e document file cannot be viewed or no data could be extracted"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "359a7760f63097b8fdd5ac814a52a191e55fbdd5ba6ec2b447a05fa2b5493228"
 }

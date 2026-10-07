@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9779,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9779",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T08:58:30Z",
+  "merge_commit_sha": "9dfc31f6ef1cc07e984f4af412cf6ec67494ae57",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30361: add OnAutoArchiveJobOnCaseElse event to Job Archive Management",
+  "body_hash": "0dfbc2e5d997da22d89a1b7d4842b065baf32704276726598d589ff28515b9a8",
+  "fixes_issues": [],
+  "work_items": [
+    644126
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5139",
+        "type": "codeunit",
+        "id": 5139,
+        "name": "Job Archive Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5139"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

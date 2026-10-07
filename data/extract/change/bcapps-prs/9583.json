@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9583",
+  "number": 9583,
+  "title": "636017 Move Sales report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "finance",
+    "crm",
+    "development"
+  ],
+  "summary": "Sales report action tooltips are moved from page actions to the report objects themselves, eliminating duplicates across role centers and pages where these reports are invoked.",
+  "key_points": [
+    "Tooltip definitions moved from 5 sales reports' action invocations to the report objects",
+    "Action tooltips removed from 9 pages and role centers across W1 and 18 country layers",
+    "Tooltips now apply wherever reports are invoked via the 2025 release wave 1 UI descriptors feature",
+    "Completes the sales area migration, leaving no remaining sales reports with duplicate tooltips",
+    "Metadata-only change with no functional impact on report behavior"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "quote": "Moves the report action ToolTips for 5 Sales reports off the page actions that run them and onto the report objects themselves.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010922,
+    "changes_in_call": 1
+  }
+}

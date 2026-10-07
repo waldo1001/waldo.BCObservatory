@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9754",
+  "number": 9754,
+  "title": "[Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new integration event OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation is added to codeunit 6500 Item Tracking Management, allowing extensions to customize the handling of posted warehouse receipt lines when no warehouse item entry relations exist.",
+  "key_points": [
+    "New integration event added in SplitPostedWhseRcptLine method's else branch",
+    "Event uses IsHandled pattern to let extensions override default behavior",
+    "Enables custom splitting logic for posted warehouse receipt lines",
+    "Follows existing event pattern already used in the codeunit",
+    "Addresses extensibility gap when WhseItemEntryRelation records not found"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003624,
+    "changes_in_call": 1
+  }
+}

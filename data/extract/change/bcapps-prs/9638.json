@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9638",
+  "number": 9638,
+  "title": "Fixed Filtering the Sales Order List using the 'Delayed' view the list shows sales orders that are out of scope",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The Sales Order List page now correctly filters sales orders when using the 'Delayed' view, removing orders that fall outside the intended scope.",
+  "key_points": [
+    "Fixed filtering logic in Sales Order List page for the 'Delayed' view",
+    "Prevents out-of-scope sales orders from appearing in the filtered view",
+    "Changes applied consistently across all localization layers (NA, NO, RU, W1)",
+    "Single line modification in each localization version"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003367,
+    "changes_in_call": 1
+  }
+}

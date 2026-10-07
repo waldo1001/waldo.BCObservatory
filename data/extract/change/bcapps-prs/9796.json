@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9796",
+  "number": 9796,
+  "title": "Show a message when an e-document file cannot be viewed or no data could be extracted",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed or no data was extracted, instead of throwing runtime errors.",
+  "key_points": [
+    "Added guards to prevent runtime errors when viewing corrupted PDF files",
+    "Shows clear message when extracted data is unavailable",
+    "Improves user experience for invalid or corrupt e-document files",
+    "No schema or permission changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This adds small guards so both actions show a clear message when there is nothing to display or the file cannot be read.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0032,
+    "changes_in_call": 1
+  }
+}

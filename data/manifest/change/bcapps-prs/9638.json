@@ -6,10 +6,25 @@
   "title": "Fixed Filtering the Sales Order List using the 'Delayed' view the list shows sales orders that are out of scope",
   "url": "https://github.com/microsoft/BCApps/pull/9638",
   "published_at": "2026-07-30T09:38:10Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:36.140Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 2,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:43.044Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003367
     }
   },
   "input_hash": "97a5245ecf0f47ffa317144c44eaff527897a92c:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "fixed filtering the sales order list using the delayed view the list shows sales orders that are out of scope"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "237dc017b72795d378807a17c1e93f61d46e81a3401fa3376c705b1e71f36922"
 }
