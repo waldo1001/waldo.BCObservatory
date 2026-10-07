@@ -6,10 +6,35 @@
   "title": "[Payables Agent] set Document Date and Due Date on Incomming Document when Draft is created",
   "url": "https://github.com/microsoft/BCApps/pull/9575",
   "published_at": "2026-07-20T10:32:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:26.518Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:31.500Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00371
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:35.654Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:35.659Z",
+      "path": "content/changes/bcapps/9575.md"
     }
   },
   "input_hash": "75b6ca8782dc1a6abc47c482f2a16f9b8d74763d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "payables agent set document date and due date on incomming document when draft is created"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "026cd79c9ec1e67550f7a9b86822e7ad061cd94474685ddb73c59fb29afc015c"
 }

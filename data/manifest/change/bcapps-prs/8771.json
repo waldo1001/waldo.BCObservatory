@@ -6,10 +6,35 @@
   "title": "Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl",
   "url": "https://github.com/microsoft/BCApps/pull/8771",
   "published_at": "2026-07-20T20:13:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:17.369Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:25.275Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003947
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:25.436Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:25.441Z",
+      "path": "content/changes/bcapps/8771.md"
     }
   },
   "input_hash": "1e0fad2c02a30b701d0460d6c1b80b85f855c7c0:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "add onbeforefilterremovedsourcerecords integration event in email impl"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf609bd8ce06d4b246cd570807491fb0ed66166e15a1149992d802baaf861ad8"
 }

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/8947",
+  "number": 8947,
+  "title": "[Permissions] Add Where-Used and Permissions Overview navigation actions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration",
+    "development"
+  ],
+  "summary": "Navigation actions have been added to Permission Sets, Permission Set cards, Table Information, and Page Inspection pages to open the Permissions Overview page with optional filters for viewing related permissions.",
+  "key_points": [
+    "New integration events in System Application Permissions Overview codeunit enable cross-app navigation",
+    "Permission Sets list and card pages gain Where-Used and Permissions Overview actions",
+    "Table Information and Page Inspection pages now support drilling down to permissions",
+    "Integration events allow BaseApp to handle page navigation while Permissions Overview remains in BaseApp",
+    "New PermissionsOverviewHandler codeunit bridges System Application events to BaseApp"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004015,
+    "changes_in_call": 1
+  }
+}

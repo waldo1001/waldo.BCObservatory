@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 29875: add OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event",
   "url": "https://github.com/microsoft/BCApps/pull/9591",
   "published_at": "2026-07-21T08:56:29Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": false,
       "cost_usd": 0.003134
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:16.100Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:16.104Z",
+      "path": "content/changes/bcapps/9591.md"
     }
   },
   "input_hash": "49dd5cf3b2e8dcb04593b2f1b217b0877ea6f807:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e51ef6dc56d714927879af619046cc075e63c86b933b6ce9e29abfd86bc83000"
+  "output_hash": "6c23a8c094fe7e1aab7767a2395dabcee5783122202c51310c6309273155e0fe"
 }

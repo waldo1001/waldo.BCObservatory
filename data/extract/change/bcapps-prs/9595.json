@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9595",
+  "number": 9595,
+  "title": "[main] Feature 640068 - Separate settings for automatic dimensions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A new settings table and page enable separate management of automatic dimension creation configuration, introducing a \"Do Not Create Default Dimension\" option and decoupling this feature from the Default Dimension table.",
+  "key_points": [
+    "New AutoCreateDefaultDimCZA table stores automatic dimension creation settings independently",
+    "New page provides dedicated UI for managing automatic dimension creation configuration",
+    "Adds \"Do Not Create Default Dimension\" option to control when dimensions are created",
+    "DimensionAutoCreateMgtCZA refactored to use new table and mark old methods obsolete",
+    "Dimension auto-creation logic now conditional based on new setting"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "New feature introducing a dedicated settings table for automatic dimension creation, separating configuration from the existing Default Dimension table.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004395,
+    "changes_in_call": 1
+  }
+}

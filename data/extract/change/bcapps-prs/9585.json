@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9585",
+  "number": 9585,
+  "title": "[master] Description Field value gets automatically reverted the original value after changing it.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Fixed a bug where the Description field on sales lines would revert to its original item value after editing, when Calc. Inv. Discount was enabled and Quantity had been validated.",
+  "key_points": [
+    "Description field was being overwritten by a database reload after Quantity validation",
+    "The NeedRefreshSalesLine flag was incorrectly set to false after an early-exit, preventing proper cleanup",
+    "Moved the flag reset before the early-exit to ensure RefreshSalesLine doesn't reload uncommitted edits",
+    "Bug occurred in CalculateSalesSubPageTotals when totals were already up-to-date",
+    "Added test coverage to document the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Description Field value gets automatically reverted the original value after changing it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003818,
+    "changes_in_call": 1
+  }
+}

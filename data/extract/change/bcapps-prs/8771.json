@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8771",
+  "number": 8771,
+  "title": "Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "An OnBeforeFilterRemovedSourceRecords integration event was added to the Email codeunit to let partners override the default permission checking logic for source records, resolving issues with security-filtered users unable to find attachments.",
+  "key_points": [
+    "New integration event allows subscribers to customize how read permissions are checked on source records",
+    "Partners can apply SecurityFiltering or other logic before the permission check runs",
+    "Purely additive change with no impact on existing behavior when the event is not subscribed to",
+    "Follows the existing event pattern in the Email codeunit",
+    "Solves the issue where security-filtered users cannot see attachments in the Add file from source document action"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003947,
+    "changes_in_call": 1
+  }
+}

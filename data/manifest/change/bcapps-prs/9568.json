@@ -6,10 +6,35 @@
   "title": "[main] bug 640523 - Bonus depreciation functionality in CZ",
   "url": "https://github.com/microsoft/BCApps/pull/9568",
   "published_at": "2026-07-20T10:32:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:25.847Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:30.515Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003201
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:30.747Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:30.753Z",
+      "path": "content/changes/bcapps/9568.md"
     }
   },
   "input_hash": "b3fe94207a3bfea1a66659ec9e692882a362ca47:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 640523 bonus depreciation functionality in cz"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d0efc4878e1f014b5e9d6b546654c317cb30ffe4fe8438b6657b9fa27b65728f"
 }

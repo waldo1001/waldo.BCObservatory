@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9575",
+  "number": 9575,
+  "title": "[Payables Agent] set Document Date and Due Date on Incomming Document when Draft is created",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Prepare draft step for inbound E-Documents now copies Document Date and Due Date from the E-Document Purchase Header, ensuring these dates appear correctly on the Inbound E-Documents list once the document reaches Draft ready status.",
+  "key_points": [
+    "Document Date and Due Date are now populated from E-Document Purchase Header during draft preparation",
+    "Values are only copied when present, preventing blank dates from overwriting existing data",
+    "Matches the existing approach used for vendor name and number population",
+    "No schema or permission changes",
+    "Low-risk change affecting only the Prepare draft processing step"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This fix copies the Document Date and Due Date from the E-Document Purchase Header onto the E-Document during the Prepare draft step.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00371,
+    "changes_in_call": 1
+  }
+}

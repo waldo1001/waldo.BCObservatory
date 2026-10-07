@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8771,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8771",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-20T20:13:32Z",
+  "merge_commit_sha": "1e0fad2c02a30b701d0460d6c1b80b85f855c7c0",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: System Application",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl",
+  "body_hash": "fb884dc2b12976517e2ffcc40bc1b08db86d55dfde955f643c187116a61f521f",
+  "fixes_issues": [],
+  "work_items": [
+    642092
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Email/src/Email/Email.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Email/EmailImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 12,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Email/src/Email/Email.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8901",
+        "type": "codeunit",
+        "id": 8901,
+        "name": "Email",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8901"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Email/EmailImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8900",
+        "type": "codeunit",
+        "id": 8900,
+        "name": "Email Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8900"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

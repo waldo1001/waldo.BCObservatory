@@ -1,0 +1,229 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9595,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9595",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-21T08:56:29Z",
+  "merge_commit_sha": "6c4ea52ab04906fbd1f9c2447563ca6ac1bd7817",
+  "author": "v-janpopr",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[main] Feature 640068 - Separate settings for automatic dimensions",
+  "body_hash": "3939a92180571146b45752c84ca684c2ae765312402c44a2db57354d0f1bd127",
+  "fixes_issues": [],
+  "work_items": [
+    640068
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/CopyFixedAssetHandlerCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DefaultDimensionHandlerCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoCreateMgtCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 111,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoUpdateMgtCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 57,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/AccountTypeDefaultDimCZA.PageExt.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/DimensionsCZA.PageExt.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Pages/AutoCreateDefaultDimCZA.Page.al",
+      "status": "added",
+      "additions": 96,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackEditCZA.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackObjectsCZA.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackReadCZA.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/TableExtensions/DefaultDimensionCZA.TableExt.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Tables/AutoCreateDefaultDimCZA.Table.al",
+      "status": "added",
+      "additions": 190,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/test/Src/DimAutomaticCreationCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 11,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 16,
+    "additions": 712,
+    "deletions": 223,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/CopyFixedAssetHandlerCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DefaultDimensionHandlerCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoCreateMgtCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoUpdateMgtCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/AccountTypeDefaultDimCZA.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/DimensionsCZA.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Pages/AutoCreateDefaultDimCZA.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackEditCZA.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackObjectsCZA.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackReadCZA.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/TableExtensions/DefaultDimensionCZA.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Tables/AutoCreateDefaultDimCZA.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

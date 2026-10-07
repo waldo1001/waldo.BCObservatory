@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9515",
+  "number": 9515,
+  "title": "[Master] - 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The 'Greater Than' withholding tax calculation rule and other rule options are now applied correctly in withholding tax posting setup by replacing hard-coded threshold checks with a rule-aware procedure.",
+  "key_points": [
+    "Fixed incorrect withholding tax calculations when using rules other than 'Less than'",
+    "Created a reusable ShouldCreateWithholdingTax procedure that respects the configured calculation rule",
+    "Updated threshold checks across multiple codeunits to use the new rule-aware logic instead of hard-coded comparisons",
+    "Withholding tax is now created or suppressed based on the actual configured rule, not always the 'Less than' rule",
+    "Added comprehensive tests to verify correct behavior for all calculation rule options"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "the other rule options (Greater than, etc.) were never honored",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003955,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9568",
+  "number": 9568,
+  "title": "[main] bug 640523 - Bonus depreciation functionality in CZ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Czech Republic fixed asset localization now supports bonus depreciation functionality through updates to the depreciation calculation report and setup tables.",
+  "key_points": [
+    "Added bonus depreciation calculation logic to the depreciation report for CZ localization",
+    "Extended FADepreciationBook and FASetup tables with bonus depreciation support fields",
+    "Resolves missing feature in Czech fixed asset localization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "quote": "Bug fix to implement missing bonus depreciation functionality in the CZ (Czech Republic) fixed asset localization.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003201,
+    "changes_in_call": 1
+  }
+}

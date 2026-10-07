@@ -6,10 +6,35 @@
   "title": "[Permissions] Add Where-Used and Permissions Overview navigation actions",
   "url": "https://github.com/microsoft/BCApps/pull/8947",
   "published_at": "2026-07-20T20:13:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:18.113Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:23.482Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004015
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:23.666Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:23.673Z",
+      "path": "content/changes/bcapps/8947.md"
     }
   },
   "input_hash": "cf133f13c60a353a59311a8eb94bb216862682cb:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "permissions add where used and permissions overview navigation actions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8bdb972f89ff5232ab315032089b5c420a30d934381c7479a2d7c5c53ab53e1d"
 }

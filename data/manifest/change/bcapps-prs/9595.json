@@ -6,10 +6,35 @@
   "title": "[main] Feature 640068 - Separate settings for automatic dimensions",
   "url": "https://github.com/microsoft/BCApps/pull/9595",
   "published_at": "2026-07-21T08:56:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:16.899Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 15,
+      "objects": 0,
+      "unjoined": 15
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:24.863Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004395
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:25.037Z",
+      "objects": 0,
+      "unjoined": 15,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:25.043Z",
+      "path": "content/changes/bcapps/9595.md"
     }
   },
   "input_hash": "6c4ea52ab04906fbd1f9c2447563ca6ac1bd7817:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "feature 640068 separate settings for automatic dimensions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9cad32ccd903c66c30f15adfe20ee7ba220787015f729be72c949f26ffbc294d"
 }

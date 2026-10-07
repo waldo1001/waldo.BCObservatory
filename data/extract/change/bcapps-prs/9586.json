@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9586",
+  "number": 9586,
+  "title": "[master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The Customer Card now applies a default date filter in the OnAfterGetCurrRecord function to ensure the Overdue Balance (LCY) calculation displays the correct overdue amount and drill-down filters work properly when opened from documents or journals.",
+  "key_points": [
+    "Date filter now defaults to 0D..WorkDate() in OnAfterGetCurrRecord, not just OnOpenPage",
+    "Overdue Balance (LCY) now shows the correct overdue amount instead of total balance when opening the card from documents or journals",
+    "Drill-down filters on the overdue balance now correctly include the due-date filter regardless of how the card is opened",
+    "Aligns the Customer Card behavior with the Vendor Card logic",
+    "Fix applied across all localization layers (APAC, BE, ES, FR, GB, IT, NA, NL, NO, RU, W1)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Also default Date Filter to 0D..WorkDate() in the card's OnAfterGetCurrRecordFunc (mirroring the Vendor Card)",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004165,
+    "changes_in_call": 1
+  }
+}

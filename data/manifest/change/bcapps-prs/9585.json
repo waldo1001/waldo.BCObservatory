@@ -6,10 +6,35 @@
   "title": "[master] Description Field value gets automatically reverted the original value after changing it.",
   "url": "https://github.com/microsoft/BCApps/pull/9585",
   "published_at": "2026-07-20T12:56:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:18.487Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:23.797Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003818
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:23.938Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:23.942Z",
+      "path": "content/changes/bcapps/9585.md"
     }
   },
   "input_hash": "4a99d5900499dbbfe6bb7befb96d454de34d58a4:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master description field value gets automatically reverted the original value after changing it"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c743a123147b9bda88f7841d852a46ae26590fa24c5e30b1d5f195edc9d0af45"
 }

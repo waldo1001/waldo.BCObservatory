@@ -6,10 +6,35 @@
   "title": "Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation",
   "url": "https://github.com/microsoft/AL-Go/pull/2323",
   "published_at": "2026-07-21T07:11:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:16.119Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:21.446Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003863
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:21.447Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:21.450Z",
+      "path": "content/changes/al-go/2323.md"
     }
   },
   "input_hash": "1150d93046c5e705683771a8d33c51f7f9b7d06f:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix enablecodeanalyzersontestapps not disabling customcodecops in workspace compilation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63ad8431b2ba918d25ab3682af40c849b72488170ef390327eca529f14cb6d7f"
 }

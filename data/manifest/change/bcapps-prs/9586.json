@@ -6,10 +6,35 @@
   "title": "[master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.",
   "url": "https://github.com/microsoft/BCApps/pull/9586",
   "published_at": "2026-07-20T10:42:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:22.463Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 3,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:27.883Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004165
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:28.101Z",
+      "objects": 3,
+      "unjoined": 8,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:28.109Z",
+      "path": "content/changes/bcapps/9586.md"
     }
   },
   "input_hash": "2161aac0d5d1bab58e053160a68beef06ca2cdb5:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master overdue balance lcy filters do not behave as expected if you open the customer card from a document or journal"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee85313a721a0a90cc518456204c23d8282d0ed282dd38fe5bcb9e5566f7c396"
 }

@@ -1,0 +1,1596 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9089,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9089",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-20T11:07:41Z",
+  "merge_commit_sha": "b6ab48ceb4c044446b97cd5c83c0d6eae4e3ea16",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Merge-ES-Excluded-from-Calculation-to-W1",
+  "body_hash": "1051dd3dadc67d2dac0c99ba38007e06e2cf5fce9ae6938acb37caa016c8603a",
+  "fixes_issues": [],
+  "work_items": [
+    636627
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/MyCustomer.Table.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 111,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/StandardStatement.Report.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 1478,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Customer/StandardStatement.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/MyCustomer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/StandardStatement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/Statement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 90,
+    "additions": 560,
+    "deletions": 1919,
+    "al": 90
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/379"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/379"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/379"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/379"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/379"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/DetailedVendorLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/380",
+        "type": "table",
+        "id": 380,
+        "name": "Detailed Vendor Ledg. Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/380"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/MyCustomer.Table.al",
+        "status": "modified",
+        "key": "table/9150",
+        "type": "table",
+        "id": 9150,
+        "name": "My Customer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/9150"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/StandardStatement.Report.al",
+        "status": "modified",
+        "key": "report/1316",
+        "type": "report",
+        "id": 1316,
+        "name": "Standard Statement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1316"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "key": "report/116",
+        "type": "report",
+        "id": 116,
+        "name": "Statement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/116"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Receivables/DetailedCustLedgEntry.Table.al",
+        "status": "modified",
+        "key": "table/379",
+        "type": "table",
+        "id": 379,
+        "name": "Detailed Cust. Ledg. Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/379"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/MyCustomer.Table.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/StandardStatement.Report.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Customer/StandardStatement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Customer/Statement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

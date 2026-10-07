@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2323",
+  "number": 2323,
+  "title": "Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Workspace compilation now correctly disables custom code analyzers when enableCodeAnalyzersOnTestApps is false, preventing custom analyzer diagnostics from running against test apps.",
+  "key_points": [
+    "Custom analyzers are now cleared in test and BCPT-test folders when enableCodeAnalyzersOnTestApps is false",
+    "Previously only built-in analyzers were disabled while custom analyzers continued running",
+    "Fix aligns workspace compilation behavior with the documented setting and classic container flow",
+    "Mutable buildParams hashtable ensures test folder changes don't affect normal app compilation",
+    "Regression tests added to verify correct --customanalyzers argument emission"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003863,
+    "changes_in_call": 1
+  }
+}

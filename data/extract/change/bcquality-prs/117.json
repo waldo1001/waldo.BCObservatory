@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/117",
+  "number": 117,
+  "title": "tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "PR review now independently flags genuinely missing tooltips on page fields instead of deferring to compiler analyzer AA0218, which can be disabled or downgraded in team rulesets.",
+  "key_points": [
+    "Adds detection for missing tooltips on bound fields where source field also lacks tooltip",
+    "Adds detection for missing tooltips on unbound controls",
+    "Preserves existing guard against false positives on inherited tooltips",
+    "Clarifies that AA0218 severity is configurable per app and often downgraded",
+    "Improves accessibility by ensuring PR review acts as safety net"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "PR review is the last line of defence.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003562,
+    "changes_in_call": 1
+  }
+}

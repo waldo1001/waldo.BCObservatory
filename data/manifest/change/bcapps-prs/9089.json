@@ -6,10 +6,18 @@
   "title": "Merge-ES-Excluded-from-Calculation-to-W1",
   "url": "https://github.com/microsoft/BCApps/pull/9089",
   "published_at": "2026-07-20T11:07:41Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:25.263Z",
+      "change_class": "code",
+      "files": 90,
+      "al": 90,
+      "objects": 78,
+      "unjoined": 12
     }
   },
   "input_hash": "b6ab48ceb4c044446b97cd5c83c0d6eae4e3ea16:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "merge es excluded from calculation to w1"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82f8f76054578570e905c3fc350ff1dc88bb450b56fdf4bd86ea31c3304c90fd"
 }

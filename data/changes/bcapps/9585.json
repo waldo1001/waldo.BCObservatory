@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9585,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9585",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-20T12:56:29Z",
+  "merge_commit_sha": "4a99d5900499dbbfe6bb7befb96d454de34d58a4",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Description Field value gets automatically reverted the original value after changing it.",
+  "body_hash": "9a0221d256a5959fcba1fddacf98bc2f0b63afdfe1786877f00e6bb575110131",
+  "fixes_issues": [],
+  "work_items": [
+    638838
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/DocumentTotalsPages.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 44,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/57"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/57"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/57"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

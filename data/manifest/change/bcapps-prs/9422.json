@@ -6,10 +6,18 @@
   "title": "table 12116 \"Withholding Tax\": scope Reported/Paid modify guard to st…",
   "url": "https://github.com/microsoft/BCApps/pull/9422",
   "published_at": "2026-07-17T20:03:32Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:28.627Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "e4954e9dd44b765e5be2be06f81f39a4bf535d04:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "table 12116 withholding tax scope reported paid modify guard to st"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "839a9a08e9d30cada06c601ebc8de66d578ea8c8634ec0dc5f087dcc9944a98a"
 }

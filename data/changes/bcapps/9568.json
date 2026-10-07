@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9568,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9568",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-20T10:32:03Z",
+  "merge_commit_sha": "b3fe94207a3bfea1a66659ec9e692882a362ca47",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 640523 - Bonus depreciation functionality in CZ",
+  "body_hash": "8ffb2e96031aab8b4c57317ad2a537f5b5c74600413f992f5ce3a6e4d85e7bfc",
+  "fixes_issues": [],
+  "work_items": [
+    640523
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/CalculateDepreciationCZF.Report.al",
+      "status": "modified",
+      "additions": 128,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FADepreciationBookCZF.TableExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FASetupCZF.TableExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 157,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/CalculateDepreciationCZF.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FADepreciationBookCZF.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FASetupCZF.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2283",
+  "number": 2283,
+  "title": "Fix issue 2267: appsourcecop.json is not created for testapps",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Test and BCPT apps now generate appsourcecop.json files when code analyzers are enabled on test apps, preventing AS0054 compilation failures.",
+  "key_points": [
+    "AppSourceCop analyzer was applied to test apps but configuration file wasn't created",
+    "New-AppSourceCopJson is now called for test app folders in addition to regular app folders",
+    "Resolves AS0054 errors when enableCodeAnalyzersOnTestApps setting is used",
+    "Compilation action in AL-Go workflow now handles test apps consistently"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003241,
+    "changes_in_call": 1
+  }
+}

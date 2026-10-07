@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9513,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9513",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T21:53:31Z",
+  "merge_commit_sha": "397d01199c321e774edaf23a7290fee40f75c6a6",
+  "author": "v-mjofre",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bugs/639734 master disable mx cdfi date boundary flaky tests",
+  "body_hash": "4431ba0662540cd9f10d17514bc41ad697196f82a6c0c6845f48c4bbebe456d9",
+  "fixes_issues": [],
+  "work_items": [
+    639734,
+    642132
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 62,
+    "deletions": 27,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

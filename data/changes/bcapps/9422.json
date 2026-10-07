@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9422,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9422",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T20:03:32Z",
+  "merge_commit_sha": "e4954e9dd44b765e5be2be06f81f39a4bf535d04",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "table 12116 \"Withholding Tax\": scope Reported/Paid modify guard to st…",
+  "body_hash": "eec025c4c2876914984166ab3327942f9e7c8305d40b785e6c2976a2c6a5ddab",
+  "fixes_issues": [],
+  "work_items": [
+    640860
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Finance/WithholdingTax/WithholdingTax.Table.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 27,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Finance/WithholdingTax/WithholdingTax.Table.al",
+        "status": "modified",
+        "key": "table/12116",
+        "type": "table",
+        "id": 12116,
+        "name": "Withholding Tax",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/12116-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
