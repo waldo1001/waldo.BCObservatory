@@ -6,10 +6,35 @@
   "title": "[29.x][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachmentsIntial Commit",
   "url": "https://github.com/microsoft/BCApps/pull/11342",
   "published_at": "2026-09-29T11:10:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:39.205Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:43.770Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003433
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:44.012Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:44.017Z",
+      "path": "content/changes/bcapps/11342.md"
     }
   },
   "input_hash": "9abb50c16236576e55a88b35c2720e194db37b9c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e document type is quote in document attachment table 1173 after posting a sales invoice with attachmentsintial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f33fd260677e7ae2dfb888cf479decab4bf5b0cead2d84ca30efa02287666204"
 }

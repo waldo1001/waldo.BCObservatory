@@ -6,7 +6,7 @@
   "title": "Fix IRS Forms statement filters for box codes containing parentheses",
   "url": "https://github.com/microsoft/BCApps/pull/11992",
   "published_at": "2026-09-29T14:28:24Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 0,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:35.091Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003554
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:35.273Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:35.278Z",
+      "path": "content/changes/bcapps/11992.md"
     }
   },
   "input_hash": "fab743ed67bbb459787ec95e1393fbdb3a7e724c:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "590add111fa9f916fbd2cfb8fe686dfa5c9de16802a55107f1fc5c18cde5fa22"
+  "output_hash": "91c1939ca885c72b4af2adbc58fd23c252e4faec1fe8d5388436f510d0ad7a7f"
 }

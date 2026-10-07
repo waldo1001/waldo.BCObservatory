@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/158",
+  "number": 158,
+  "title": "3 AL/BC patterns from CURABIS's internal automated-testing training material",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Four new AL/BC best practice patterns were added covering item ledger entry document numbers after combined posting and three testing approaches for verifying field UI state and generating unique test values.",
+  "key_points": [
+    "Item Ledger Entry carries the shipment's document number, not the invoice number, after combined Ship and Invoice posting of sales orders",
+    "Use TestPage field .Visible()/.Enabled() to verify UI rendering state and .Editable() via OpenEdit() for editability verification",
+    "Generate test fixture values with GenerateGUID() for full-length fields or GenerateRandomCodeWithLength/GenerateRandomCode20 when uniqueness must be verified",
+    "Four atomic AL-specific patterns documented with good/bad code examples from CURABIS internal training material",
+    "Patterns cover data modeling and testing domains with best practices and anti-patterns"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004447,
+    "changes_in_call": 1
+  }
+}

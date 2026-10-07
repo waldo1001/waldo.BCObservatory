@@ -6,10 +6,35 @@
   "title": "3 AL/BC patterns from CURABIS's internal automated-testing training material",
   "url": "https://github.com/microsoft/BCQuality/pull/158",
   "published_at": "2026-09-29T10:49:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:43.576Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 14,
+      "objects": 0,
+      "unjoined": 14
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:49.299Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004447
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:49.300Z",
+      "objects": 0,
+      "unjoined": 14,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:49.305Z",
+      "path": "content/changes/bcquality/158.md"
     }
   },
   "input_hash": "186691f815c288a06cd538075729e98dc5469013:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "3 al bc patterns from curabis s internal automated testing training material"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6f1375ede493712c421719cecc61df43b6db286eb33907fb7b93d4aa7b2472a"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/156",
+  "number": 156,
+  "title": "18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "18 new AL/BC development patterns added covering style conventions, data modeling, web services, AppSource, breaking changes, performance, and testing guidance with code examples.",
+  "key_points": [
+    "7 style patterns addressing identifier naming, casing, type choices, and namespace verification",
+    "4 data modeling patterns for DimensionManagement wiring, posting routines, primary key immutability, and setup field validation",
+    "3 web service patterns for FlowFields, editable key fields, and derived field recalculation on API pages",
+    "Individual patterns for AppSource (File datatype), breaking changes (Email module preference), performance (Word layout), and testing (randomized data)",
+    "Each pattern includes bad and good code examples with frontmatter metadata and description"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "18 knowledge articles generalized from patterns observed across real AppSource/PTE Business Central development",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005372,
+    "changes_in_call": 1
+  }
+}

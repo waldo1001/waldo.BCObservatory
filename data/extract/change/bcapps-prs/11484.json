@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11484",
+  "number": 11484,
+  "title": "[E-Documents Core] - Supported type direction configuration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "development"
+  ],
+  "summary": "E-Document services now support per-document-type direction configuration (Incoming, Outgoing, or Both), allowing administrators to control which document types each service can process and preventing implicit document exchanges.",
+  "key_points": [
+    "Adds Direction field to E-Doc. Service Supported Type table with new closed enum E-Doc. Supp. Type Direction",
+    "Enforces direction restrictions in outbound document creation and inbound processing, logging errors when type direction doesn't match",
+    "Upgrade migration converts existing implicit permissions to explicit direction rows, preserving fallback relationships for seven document types",
+    "Seeds built-in services (PDF reader, ForNAV, Payables Agent, Contoso demo) with minimal Incoming-only supported-type rows",
+    "Optimizes supported-type evaluation with single lookup caching and guards batch export against rejected document types"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005428,
+    "changes_in_call": 1
+  }
+}

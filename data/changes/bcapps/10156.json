@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10156,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10156",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T16:49:07Z",
+  "merge_commit_sha": "bbd83b641b97ecb0fabc7bbd6651fea278176783",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][SubscriptionBilling] Assign Subscription Lines dialog does not identify the sales line it was opened for",
+  "body_hash": "6f8d387659552179e13059ccae9e4621d2521d5aa6d9137a3f93f0464239be42",
+  "fixes_issues": [
+    9965
+  ],
+  "work_items": [
+    650454
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Codeunits/SalesSubscriptionLineMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Pages/AssignServiceCommitments.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/SalesServiceCommitmentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 246,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 318,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Codeunits/SalesSubscriptionLineMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8069",
+        "type": "codeunit",
+        "id": 8069,
+        "name": "Sales Subscription Line Mgmt.",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8069"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8054",
+        "type": "tableextension",
+        "id": 8054,
+        "name": "Sales Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8054"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Pages/AssignServiceCommitments.Page.al",
+        "status": "modified",
+        "key": "page/8065",
+        "type": "page",
+        "id": 8065,
+        "name": "Assign Service Commitments",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8065"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 9965,
+      "title": "[Bug][SubscriptionBilling] Assign Subscription Lines dialog does not identify the sales line it was opened for",
+      "state": "closed"
+    }
+  ]
+}

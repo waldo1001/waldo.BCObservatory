@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11321",
+  "number": 11321,
+  "title": "Update default Pricing implementation (v.30)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The default pricing calculation implementation was updated with a minor code cleanup that removes 4 lines from the Price Calculation Management codeunit.",
+  "key_points": [
+    "Removed 4 lines of code from Price Calculation Management",
+    "Updates default pricing implementation for Business Central v.30",
+    "No functional behavior change, only cleanup",
+    "Addresses defect AB#651521"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002982,
+    "changes_in_call": 1
+  }
+}

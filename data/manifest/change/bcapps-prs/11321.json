@@ -6,10 +6,35 @@
   "title": "Update default Pricing implementation (v.30)",
   "url": "https://github.com/microsoft/BCApps/pull/11321",
   "published_at": "2026-09-28T22:28:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:47.603Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:54.133Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.002982
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:54.370Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:54.375Z",
+      "path": "content/changes/bcapps/11321.md"
     }
   },
   "input_hash": "021b863cb0585f740c1acb6ad0d53ecb94acd643:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "update default pricing implementation v 30"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f242990e80a7c1686261e4ef794bacf0288691a0ee047427cc6cc9d284b6a11f"
 }

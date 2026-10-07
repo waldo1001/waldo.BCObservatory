@@ -6,10 +6,35 @@
   "title": "Fix indirect permission letters: `ri` is indirect read plus insert",
   "url": "https://github.com/microsoft/BCQuality/pull/199",
   "published_at": "2026-09-29T10:49:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:42.747Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:47.913Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003736
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:47.914Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:47.918Z",
+      "path": "content/changes/bcquality/199.md"
     }
   },
   "input_hash": "130d5de6c4bd72d2158240fe431862b6434c735a:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix indirect permission letters ri is indirect read plus insert"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "77502528e66d38a6c6e6ecfed89407e08bc0a41b4461b57da2831f349f47da73"
 }

@@ -1,0 +1,97 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11342,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11342",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-29T11:10:29Z",
+  "merge_commit_sha": "9abb50c16236576e55a88b35c2720e194db37b9c",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachmentsIntial Commit",
+  "body_hash": "73897744623ebdfc9094ea0ebc647786480f03dcfd775bba61b99849d6c2c8fc",
+  "fixes_issues": [],
+  "work_items": [
+    649906
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/Tests/Misc/DocumentAttachmentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 182,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocumentAttachmentMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServDocumentAttachmentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/DocumentAttachmentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 183,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 409,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocumentAttachmentMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1173",
+        "type": "codeunit",
+        "id": 1173,
+        "name": "Document Attachment Mgmt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1173"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServDocumentAttachmentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6459",
+        "type": "codeunit",
+        "id": 6459,
+        "name": "Serv. Document Attachment Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6459"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform",
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

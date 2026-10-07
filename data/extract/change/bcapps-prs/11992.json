@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11992",
+  "number": 11992,
+  "title": "Fix IRS Forms statement filters for box codes containing parentheses",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "IRS Forms statement filters now handle box codes with parentheses correctly by treating form-box identifiers as literal values instead of filter syntax.",
+  "key_points": [
+    "Added SetFormBoxFilter method to build literal filters using SetRange instead of text interpolation",
+    "Updated upgrade and setup statement creation to use the new setter method",
+    "Preserves existing metadata, insertion behavior, and upgrade guards",
+    "Resolves statement creation and data upgrade failures caused by parentheses in box codes",
+    "Added regression test covering parentheses in form-box codes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Programmatically generated filters should treat the form-box identifier as a literal value rather than filter syntax.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003554,
+    "changes_in_call": 1
+  }
+}

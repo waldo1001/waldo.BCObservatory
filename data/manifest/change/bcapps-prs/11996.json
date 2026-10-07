@@ -6,10 +6,35 @@
   "title": "Restrict expense configuration maintenance to admins",
   "url": "https://github.com/microsoft/BCApps/pull/11996",
   "published_at": "2026-09-29T12:43:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:36.271Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:41.419Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003675
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:41.568Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:41.573Z",
+      "path": "content/changes/bcapps/11996.md"
     }
   },
   "input_hash": "9b8f23733e0646da2fbe615dec67fc4ab1e70839:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "restrict expense configuration maintenance to admins"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04ae998a47573fbb9110728ab6e904de08d1ef2aca71e52a461933abc53bb298"
 }

@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11726,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11726",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T10:04:19Z",
+  "merge_commit_sha": "ae31ddecb123e60927599c0b8a3ea536e1b8bbcd",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix Verifactu export for non-taxable transactions",
+  "body_hash": "ec88b22a38045bbccdf614df551d1e819c3339a5f60bc8f301899a20b9a7b604",
+  "fixes_issues": [],
+  "work_items": [
+    650982
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 277,
+    "deletions": 18,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

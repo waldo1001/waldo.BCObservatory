@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/196",
+  "number": 196,
+  "title": "Strengthen review contracts and add AL reliability guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Five new AL reliability rules are added with good/bad code samples covering data handling, security, testing, and web service integration, alongside framework improvements for deterministic review execution and layered rule precedence.",
+  "key_points": [
+    "Five new source-backed AL reliability rules added: base quantity derivation, SetFilter concatenation security, test isolation, JSON null checking, and standard format usage for external data exchange",
+    "Review framework hardened with deterministic super-skill resolution, fallback logic for layered overrides, and findings report validation",
+    "Good/bad AL sample pairs provided for all new rules with routing keywords and evaluation fixtures",
+    "Layered action-skill overrides now follow documented custom > community > microsoft precedence deterministically",
+    "Comprehensive testing added including skill index validation, review contract enforcement, and knowledge retrieval verification"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Adds five source-backed rules, each with focused good/bad AL samples, routing keywords/checks, and deterministic evaluation coverage",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00512,
+    "changes_in_call": 1
+  }
+}

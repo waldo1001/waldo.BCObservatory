@@ -6,10 +6,35 @@
   "title": "OfficeMgt.IsAvailable check added to fix flaky tests",
   "url": "https://github.com/microsoft/BCApps/pull/11995",
   "published_at": "2026-09-29T11:26:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:36.665Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:41.663Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003488
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:41.810Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:41.814Z",
+      "path": "content/changes/bcapps/11995.md"
     }
   },
   "input_hash": "9db99acb727fc042ccb1d21ab44acabf84ea133f:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "officemgt isavailable check added to fix flaky tests"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ee32e7523bcfd470628843e91cf2c5c940f14ab8ae6f5e6e695f3dd90c905f3"
 }

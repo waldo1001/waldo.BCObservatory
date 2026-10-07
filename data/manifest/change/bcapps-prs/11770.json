@@ -6,10 +6,18 @@
   "title": "[Master] - Bug 650783: [Expense Agent][Demo Data] Posted demo expenses remain Submitted with a dangling Expense Report No.",
   "url": "https://github.com/microsoft/BCApps/pull/11770",
   "published_at": "2026-09-28T16:15:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:50.402Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "716efe4a9f8aad09a7ae3439682555c723c20e42:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 650783 expense agent demo data posted demo expenses remain submitted with a dangling expense report no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b5f05bf75131878350436ba08b805eae54b444894ebc11a6c33543d37f49e0b"
 }

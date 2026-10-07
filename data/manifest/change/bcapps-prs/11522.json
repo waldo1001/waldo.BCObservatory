@@ -6,10 +6,35 @@
   "title": "[main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders",
   "url": "https://github.com/microsoft/BCApps/pull/11522",
   "published_at": "2026-09-29T11:21:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:38.855Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:44.504Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004037
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:44.673Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:44.680Z",
+      "path": "content/changes/bcapps/11522.md"
     }
   },
   "input_hash": "becb23791f8d1e33a6b7bf34c0132700e3e47284:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "order planning production copy allows req worksheet templates that cannot create production orders"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "470c8ec8b5a6963e0e980fb2bf7ae8e263865f474c239f646fd3b774b6a8c064"
 }

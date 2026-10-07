@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11321,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11321",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T22:28:04Z",
+  "merge_commit_sha": "021b863cb0585f740c1acb6ad0d53ecb94acd643",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Update default Pricing implementation (v.30)",
+  "body_hash": "9a701126b7ae29ec5bb0d6d32da1aae84f18a40825ee6e629aed954212505f0e",
+  "fixes_issues": [],
+  "work_items": [
+    651521
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7001",
+        "type": "codeunit",
+        "id": 7001,
+        "name": "Price Calculation Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7001"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

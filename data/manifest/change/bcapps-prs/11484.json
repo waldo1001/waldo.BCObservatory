@@ -6,10 +6,35 @@
   "title": "[E-Documents Core] - Supported type direction configuration",
   "url": "https://github.com/microsoft/BCApps/pull/11484",
   "published_at": "2026-09-29T11:15:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:37.901Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:44.025Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005428
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:44.206Z",
+      "objects": 15,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:44.222Z",
+      "path": "content/changes/bcapps/11484.md"
     }
   },
   "input_hash": "a94e98bc167c637c0ce50810639d6c459c1e4aef:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "e documents core supported type direction configuration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6ce541f8ea4459f47c00ddf692f9afc400548786d82b45239d34209251e0497"
 }

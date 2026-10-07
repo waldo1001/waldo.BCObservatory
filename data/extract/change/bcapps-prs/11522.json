@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11522",
+  "number": 11522,
+  "title": "[main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing"
+  ],
+  "summary": "Production order copying in Order Planning now restricts the destination to nonrecurring Planning-type worksheets only, preventing invalid selections that would silently lose production demand when carrying out actions.",
+  "key_points": [
+    "Production copy action restricted to Planning worksheet templates with Recurring = false",
+    "Template Type filter added to prevent selecting Requisition worksheets that cannot create production orders",
+    "Option renamed from 'Copy to Req. Wksh.' to 'Copy to Planning Wksh.' to reflect actual constraint",
+    "Prevents silent data loss when production lines are left unprocessed and deleted during nonrecurring batch cleanup",
+    "Validation ensures worksheet destination matches production order carry-out capability"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": "Restrict the production copy to the only destination that can carry it out - a nonrecurring Planning-type worksheet.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004037,
+    "changes_in_call": 1
+  }
+}

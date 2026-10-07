@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11995",
+  "number": 11995,
+  "title": "OfficeMgt.IsAvailable check added to fix flaky tests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "The Outlook Mail Engine now checks if Office Management is available before reinitializing the configured Office host, preventing test failures when the Library Office Host Provider is overwritten with unsupported client host types.",
+  "key_points": [
+    "Added OfficeMgt.IsAvailable check before reinitializing Office host from client",
+    "Prevents overwriting Library Office Host Provider host type OutlookMobileApp with unsupported client host types",
+    "Fixes flaky test failures where Office Management.GetHandlerCodeunit returned no handler",
+    "Maintains Office configuration stability during testing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm",
+    "integration"
+  ],
+  "quote": "The Outlook Mail Engine always reinitialized the configured Office host from the client-side .NET OfficeHost whenever the client reported availability.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003488,
+    "changes_in_call": 1
+  }
+}

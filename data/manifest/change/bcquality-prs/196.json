@@ -6,10 +6,35 @@
   "title": "Strengthen review contracts and add AL reliability guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/196",
   "published_at": "2026-09-29T11:03:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:39.752Z",
+      "change_class": "code",
+      "files": 41,
+      "al": 28,
+      "objects": 0,
+      "unjoined": 28
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:45.587Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00512
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:45.588Z",
+      "objects": 0,
+      "unjoined": 28,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:45.594Z",
+      "path": "content/changes/bcquality/196.md"
     }
   },
   "input_hash": "4287233f80678fd4fb02aca6455d9cf046ca9262:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "strengthen review contracts and add al reliability guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3bc993baa8859979193eaf660c5064420fa070d4a538081fb7d5d27ccc873124"
 }

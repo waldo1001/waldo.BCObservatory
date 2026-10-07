@@ -6,10 +6,35 @@
   "title": "18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing",
   "url": "https://github.com/microsoft/BCQuality/pull/156",
   "published_at": "2026-09-29T10:48:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:45.253Z",
+      "change_class": "code",
+      "files": 56,
+      "al": 56,
+      "objects": 0,
+      "unjoined": 56
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:54.119Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005372
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:54.120Z",
+      "objects": 0,
+      "unjoined": 56,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:54.128Z",
+      "path": "content/changes/bcquality/156.md"
     }
   },
   "input_hash": "0a8c9a85560204e2fe75a1180767330bcfb62581:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "18 al bc patterns style data modeling web services appsource breaking changes performance testing"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4d6bfe5e58628472158848ec7a48bfca43603e13d5ff09b4ded261f8ee77ddd"
 }

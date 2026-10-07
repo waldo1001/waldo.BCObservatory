@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11996",
+  "number": 11996,
+  "title": "Restrict expense configuration maintenance to admins",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Restrict configuration maintenance for expense management to administrators by removing write permissions from the Expense Mgmt. Edit permission set and granting them only through Expense Mgmt. Admin.",
+  "key_points": [
+    "Remove insert, modify, and delete permissions for Expense User, Expense Team, and Expense Approval Setup from Expense Mgmt. Edit",
+    "Grant configuration permissions exclusively through Expense Mgmt. Admin permission set",
+    "Prevent standard users (D365 BASIC, D365 TEAM MEMBER) from modifying expense setup while preserving their ability to edit expense reports",
+    "Employee synchronization continues using scoped inherent permissions",
+    "Add test coverage for the permission separation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": "Remove direct insert, modify, and delete permissions for Expense User, Expense Team, and Expense Approval Setup from Expense Mgmt. Edit.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003675,
+    "changes_in_call": 1
+  }
+}

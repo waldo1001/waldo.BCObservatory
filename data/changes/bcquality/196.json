@@ -1,0 +1,464 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 196,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/196",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-29T11:03:40Z",
+  "merge_commit_sha": "4287233f80678fd4fb02aca6455d9cf046ca9262",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Strengthen review contracts and add AL reliability guidance",
+  "body_hash": "698f13e7c7fb8d4a4383a6eff001814832ca69fa610b53064e1e1e8666d84736",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/scripts/Test-SkillIndex.ps1",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": ".github/scripts/validate_frontmatter.py",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/review-fixtures.yml",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": "docs/customizing-bcquality.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "docs/standalone-runner.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 5,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/README.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.bad.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.good.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.md",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.bad.al",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.good.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.bad.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.good.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.md",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.bad.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.good.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.bad.al",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.good.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.md",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.bad.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.good.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.bad.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.good.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-error-handling-review.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-scm-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-security-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-testing-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-web-services-review.md",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Build-SkillIndex.ps1",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "build"
+    },
+    {
+      "path": "tools/Resolve-SkillWorklist.ps1",
+      "status": "added",
+      "additions": 92,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "tools/Test-KnowledgeRetrieval.ps1",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "tools/Test-ReviewContract.ps1",
+      "status": "modified",
+      "additions": 353,
+      "deletions": 6,
+      "class": "build"
+    },
+    {
+      "path": "tools/Test-ReviewFixtures.ps1",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "tools/Validate-FindingsReport.ps1",
+      "status": "added",
+      "additions": 540,
+      "deletions": 0,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 41,
+    "additions": 1974,
+    "deletions": 38,
+    "al": 28
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/do-not-concatenate-external-text-into-setfilter.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/reset-per-test-state-before-the-isinitialized-guard.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-error-handling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-scm-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-security-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-testing-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-web-services-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

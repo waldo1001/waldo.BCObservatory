@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11996,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11996",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T12:43:04Z",
+  "merge_commit_sha": "9b8f23733e0646da2fbe615dec67fc4ab1e70839",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Restrict expense configuration maintenance to admins",
+  "body_hash": "ba3087609a59d4bec7712ac68aa19ca5ac26c5db07290a86d99d15cf4562987b",
+  "fixes_issues": [],
+  "work_items": [
+    648885
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 12,
+    "deletions": 8,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6905",
+        "type": "permissionset",
+        "id": 6905,
+        "name": "Expense Mgmt. Admin",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6906",
+        "type": "permissionset",
+        "id": 6906,
+        "name": "Expense Mgmt. Edit",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6906"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

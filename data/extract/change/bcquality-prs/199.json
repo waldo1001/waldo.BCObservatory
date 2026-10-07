@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/199",
+  "number": 199,
+  "title": "Fix indirect permission letters: `ri` is indirect read plus insert",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A security best practice article now correctly explains that permission letters r, i, m, d each represent one permission (read, insert, modify, delete), and corrects its examples to avoid over-granting indirect permissions.",
+  "key_points": [
+    "Permission tokens consist of individual letters: r (read), i (insert), m (modify), d (delete), with lowercase meaning indirect",
+    "The read-only 'Report Runner' example now correctly uses 'r' instead of 'ri', which would have also granted indirect insert",
+    "Best practice guidance and keywords updated to reflect the correct interpretation of permission letters",
+    "Added references to official Microsoft Learn documentation on permissions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "quote": "so `ri` is indirect read **plus indirect insert**, `ii` repeats insert, and `mi` and `di` each add indirect insert",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003736,
+    "changes_in_call": 1
+  }
+}

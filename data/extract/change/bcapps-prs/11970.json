@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11970",
+  "number": 11970,
+  "title": "Allow Azure OpenAI privacy notice in evaluation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Azure OpenAI privacy notice is now treated as approved during evaluation mode unless explicitly declined, while the Expense Agent privacy notice continues to require explicit approval.",
+  "key_points": [
+    "Azure OpenAI privacy notice assumed approved in evaluation unless explicitly declined",
+    "Expense Agent privacy notice still requires explicit user approval",
+    "Behavior applied consistently to both approval-state checks and confirmation flows",
+    "Fixes issue with privacy notice handling during evaluation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Treat the Azure OpenAI privacy notice as approved during evaluation unless it was explicitly declined.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003199,
+    "changes_in_call": 1
+  }
+}

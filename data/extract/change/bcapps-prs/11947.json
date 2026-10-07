@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11947",
+  "number": 11947,
+  "title": "[29x]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "The Create Movement from Movement Worksheet process now correctly applies the specified quantity and quantity to handle values when retrieving bin content, instead of ignoring these limits during bin lookups.",
+  "key_points": [
+    "Fixed quantity constraints being ignored when Get Bin Content is used in movement worksheet",
+    "Bin content retrieval now respects the Quantity to Handle field",
+    "Bug affected movement creation logic for warehouse activities",
+    "Test coverage added to validate the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00318,
+    "changes_in_call": 1
+  }
+}

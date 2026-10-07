@@ -1,0 +1,121 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11522,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11522",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T11:21:42Z",
+  "merge_commit_sha": "becb23791f8d1e33a6b7bf34c0132700e3e47284",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders",
+  "body_hash": "3679a0c5564c99cdee6bb0f311c2176dabda87c708cd9d6557e4e571f1c1bbc7",
+  "fixes_issues": [],
+  "work_items": [
+    649861
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningCreateProdOrder.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ManufacturingUserTemplate.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryPlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningI.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningIII.Codeunit.al",
+      "status": "modified",
+      "additions": 215,
+      "deletions": 9,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 288,
+    "deletions": 27,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningCreateProdOrder.Enum.al",
+        "status": "modified",
+        "key": "enum/5526",
+        "type": "enum",
+        "id": 5526,
+        "name": "Planning Create Prod. Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5526"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+        "status": "modified",
+        "key": "report/99001020",
+        "type": "report",
+        "id": 99001020,
+        "name": "Carry Out Action Msg. - Plan.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ManufacturingUserTemplate.Table.al",
+        "status": "modified",
+        "key": "table/5525",
+        "type": "table",
+        "id": 5525,
+        "name": "Manufacturing User Template",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5525"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
