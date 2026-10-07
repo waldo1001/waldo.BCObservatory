@@ -6,7 +6,7 @@
   "title": "Route Expense Agent app family reviews to dedicated team",
   "url": "https://github.com/microsoft/BCApps/pull/10811",
   "published_at": "2026-08-31T12:22:04Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "route expense agent app family reviews to dedicated team"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:06:08.070Z",
+  "retry_after": null
 }

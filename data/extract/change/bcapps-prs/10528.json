@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10528",
+  "number": 10528,
+  "title": "Track receipt on invoice per purchase order line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "platform",
+    "inventory"
+  ],
+  "summary": "Receipt on invoice tracking can now be configured at the purchase order line level instead of just header level, with vendor-level defaults that cascade to new purchase lines.",
+  "key_points": [
+    "Adds receipt on invoice control per purchase order line via new field in Purchase Line",
+    "Introduces vendor-level receipt on invoice default setting in Vendor table",
+    "Purchase lines inherit receipt on invoice from header or vendor configuration",
+    "Column is hidden by default under personalization in Purchase Order page",
+    "Includes upgrade logic to migrate existing header-level settings"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011018,
+    "changes_in_call": 1
+  }
+}

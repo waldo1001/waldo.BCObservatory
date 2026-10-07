@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10312",
+  "number": 10312,
+  "title": "Update expense VAT specification source",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent now tracks whether VAT specifications were created by the API or manually, prevents modifications to API-created records, and improves error messages when posting expense reports with pending VAT reclaim status.",
+  "key_points": [
+    "Added Source field to VAT specification records to distinguish API-created (Agent) from manually-created (Manual) entries",
+    "Enforced immutability for API-created VAT specifications to prevent unauthorized modifications or deletions",
+    "Skipped certain validations and calculations for agent-created records to handle them differently",
+    "Enhanced error messages during expense report posting with specific guidance for resolving VAT reclaim issues",
+    "Added upgrade logic and comprehensive test coverage for the new VAT specification handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010804,
+    "changes_in_call": 1
+  }
+}

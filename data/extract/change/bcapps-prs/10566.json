@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10566",
+  "number": 10566,
+  "title": "[main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Trial Balance Excel reports now correctly apply Global Dimension filters when generating figures, fixing an issue where department filters were ignored and aggregated data included excluded dimensions.",
+  "key_points": [
+    "Global Dimension 1 and 2 filters from G/L Account are now read and passed through the data collection codeunit",
+    "Dimension filters are applied via SetFilter on query columns for both ending date and opening balance calculations",
+    "Dimension filters added to RequestFilterFields to match the obsolete report behavior",
+    "Fixes incorrect totals when department filters are combined with date filters",
+    "Applies to standard, budget, and consolidated Trial Balance Excel reports using the query-based path"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "The Excel report collects its data through codeunit 4410 \"Trial Balance\", which builds figures from the aggregation queries",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004145,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10368",
+  "number": 10368,
+  "title": "Bug 614967: Skip mismatched TransferFields in posting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Sales and Purchase posting now skip fields with mismatched types when transferring from source to posted records, allowing posting to continue even when extension fields reuse the same field numbers with different data types.",
+  "key_points": [
+    "TransferFields calls updated to skip fields with type mismatches",
+    "Posting behavior changes to continue instead of blocking on type conflicts",
+    "Compatible same-numbered fields still transfer correctly",
+    "Mismatched fields retain target record default values",
+    "Behavior applied consistently across W1 and all localized versions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales",
+    "localization"
+  ],
+  "quote": "posting continues, compatible same-numbered fields are still transferred, and fields whose AL types do not match remain at the target record's default value",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004537,
+    "changes_in_call": 1
+  }
+}

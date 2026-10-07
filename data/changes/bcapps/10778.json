@@ -1,0 +1,145 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10778,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10778",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-08-31T09:48:25Z",
+  "merge_commit_sha": "d237a9694d8aa50d4ec04ef18483a96fdbbd72cd",
+  "author": "Naveen26423",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Backport 29.x] Harden Contact Sync delta URL and ownership checks (#9966)",
+  "body_hash": "bff2b4622479803ebca73fc2b9f0b026014cb14d32e51a4fbdc8f9e9077439b6",
+  "fixes_issues": [],
+  "work_items": [
+    645036
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/User/TestUserTasks.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/Tests/User/TestUserTasks.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSync.Page.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSyncUser.Table.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSyncUserSubscriber.Codeunit.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Outlook/O365BidirectionalSync.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/CRM integration/ContactSyncTest.Codeunit.al",
+      "status": "modified",
+      "additions": 123,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/User/TestUserTasks.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 21,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 460,
+    "deletions": 34,
+    "al": 4
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSync.Page.al",
+        "status": "modified",
+        "key": "page/7100",
+        "type": "page",
+        "id": 7100,
+        "name": "Contact Sync",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/7100"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSyncUser.Table.al",
+        "status": "modified",
+        "key": "table/7121",
+        "type": "table",
+        "id": 7121,
+        "name": "Contact Sync User",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Outlook/ContactSyncUserSubscriber.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7100",
+        "type": "codeunit",
+        "id": 7100,
+        "name": "Contact Sync User Subscriber",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7100"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Outlook/O365BidirectionalSync.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7106",
+        "type": "codeunit",
+        "id": 7106,
+        "name": "O365 Bidirectional Sync",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7106"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "crm"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

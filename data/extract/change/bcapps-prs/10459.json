@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10459",
+  "number": 10459,
+  "title": "Bug 647298: Incorrect currency conversion rates for new currencies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Currency exchange rates in the Contoso demo dataset were corrected from reciprocal values and updated to current rates to ensure accurate currency conversions.",
+  "key_points": [
+    "Fixed reciprocal currency exchange rate values that were entered incorrectly",
+    "Updated exchange rates to more recent data",
+    "Changes applied to demo data codeunit and currency data files",
+    "Affects finance module demo dataset only"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Corrected currency exchange rates that had been entered 'reciprocally', as well as updated to more recent exchange rates",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003267,
+    "changes_in_call": 1
+  }
+}

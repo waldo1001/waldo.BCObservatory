@@ -6,10 +6,35 @@
   "title": "[Main]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company",
   "url": "https://github.com/microsoft/BCApps/pull/10604",
   "published_at": "2026-08-31T10:37:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:10.742Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:15.752Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004086
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:15.903Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:15.908Z",
+      "path": "content/changes/bcapps/10604.md"
     }
   },
   "input_hash": "084d90dea19fe0deebbb9a241c199b61c0bf4ca1:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "export import of a report definition fails if the statuses in the originating company do not exist in the destination company"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0cb9fa8fe5388f807e0e16025f096e327374cc28c1f0bbcd7efb0b31825048e2"
 }

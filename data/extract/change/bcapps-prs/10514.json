@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/10514",
+  "number": 10514,
+  "title": "Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance",
+    "integration",
+    "service",
+    "warehouse"
+  ],
+  "summary": "Five analyzer rules (AS0022, AA0087, AW0003, AA0203, AL0717) are promoted from Warning to Error by removing their overrides from the shared ruleset, with targeted pragmas added to suppress specific violations.",
+  "key_points": [
+    "Five AL analyzer rules moved back to Error severity in the ruleset hierarchy",
+    "94 ruleset overrides reduced to 89 by removing five rule suppression entries",
+    "Each remaining violation suppressed with narrowly scoped pragmas rather than repo-wide disabling",
+    "Violations ranged from none to three across 1-2 files per rule",
+    "Scope established through comprehensive diagnostic census from green CI builds covering 855 of 877 projects"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004514,
+    "changes_in_call": 1
+  }
+}

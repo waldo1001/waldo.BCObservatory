@@ -6,10 +6,35 @@
   "title": "[Main]-Stock card report shows incorrect received quantity",
   "url": "https://github.com/microsoft/BCApps/pull/10663",
   "published_at": "2026-08-31T10:13:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:11.136Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:16.185Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003701
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:16.337Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:16.342Z",
+      "path": "content/changes/bcapps/10663.md"
     }
   },
   "input_hash": "5b58c5c8af9f92fe1fbece40872fb03c4b45c195:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "stock card report shows incorrect received quantity"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d63eaa7e713f38b2b4881651b0d583bdf59810d9658e0dceb7519c5208dfb9b9"
 }

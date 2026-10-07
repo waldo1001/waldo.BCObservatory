@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10663,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10663",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T10:13:15Z",
+  "merge_commit_sha": "5b58c5c8af9f92fe1fbece40872fb03c4b45c195",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Stock card report shows incorrect received quantity",
+  "body_hash": "8a472760bd7c33557c51f2c34dc6874e7f946557eeaa8a7288a87ca06f1aa744",
+  "fixes_issues": [],
+  "work_items": [
+    647830
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/InventoryMgt/Reports/StockCard.Report.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Local/UTREPStockCard.Codeunit.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 147,
+    "deletions": 8,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/InventoryMgt/Reports/StockCard.Report.al",
+        "status": "modified",
+        "key": "report/14311",
+        "type": "report",
+        "id": 14311,
+        "name": "Stock Card",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/14311-au"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

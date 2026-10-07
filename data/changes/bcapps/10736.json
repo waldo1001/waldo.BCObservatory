@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10736,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10736",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T14:20:03Z",
+  "merge_commit_sha": "2df39bf5e9738b621b6d9fcb1f21b24bd303b264",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]- Mismatch between Purchase Invoice Total in Lines and Statistics after VAT adjustment",
+  "body_hash": "6214b3197d9dfa4ac3d224d9380ee9ba70a349faca812b9cb181147392764ca7",
+  "fixes_issues": [],
+  "work_items": [
+    642172
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/DocumentTotalsPages.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 227,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/57"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/57"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DocumentTotals.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/57",
+        "type": "codeunit",
+        "id": 57,
+        "name": "Document Totals",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/57"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

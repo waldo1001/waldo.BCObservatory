@@ -6,10 +6,35 @@
   "title": "[Reminders] Complete the communication texts model uptake",
   "url": "https://github.com/microsoft/BCApps/pull/10504",
   "published_at": "2026-08-31T10:47:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:09.903Z",
+      "change_class": "code",
+      "files": 158,
+      "al": 62,
+      "objects": 30,
+      "unjoined": 32
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:14.530Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.011059
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:14.707Z",
+      "objects": 30,
+      "unjoined": 32,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:14.717Z",
+      "path": "content/changes/bcapps/10504.md"
     }
   },
   "input_hash": "5ebbccd89969820e8de68aa8ff89c72baf3a5dcb:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "reminders complete the communication texts model uptake"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36daff48866ef85edaf7e4cdefb607cf07d54873cedb6f9b1f18a676e466a8b9"
 }

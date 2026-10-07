@@ -1,0 +1,1647 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10504,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10504",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T10:47:55Z",
+  "merge_commit_sha": "5ebbccd89969820e8de68aa8ff89c72baf3a5dcb",
+  "author": "Jose-agg",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Reminders] Complete the communication texts model uptake",
+  "body_hash": "c18a5c147ba001a213db257b6ed53db91bed3844a40f2c0c30117e92b84e61a2",
+  "fixes_issues": [],
+  "work_items": [
+    599040
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/GovTalk/test/src/RegularTests/UTREPPurchaseSalesGovTalk.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/GB/ReportsGB/test/src/Codeunits/UTREPPurchaseSales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Sales/1.Setup Data/CreateReminderText.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 111,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/test/src/ContosoReminderTest.Codeunit.al",
+      "status": "added",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14ReminderTextMigrator.Codeunit.al",
+      "status": "modified",
+      "additions": 67,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/migrators/BC14MigratorCSVTests.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AT/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/TestEnterpriseNoandBranch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMFinancialReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/Tests/Local/ERMExcelReportsDACH.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 36,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/Tests/Local/UTREPReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Rapid Start/ERMRSWizardWorksheet.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ERM-Finance/ReminderLineFeeonReports.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/CompanyFieldReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/Tests/ERM-Finance/ReminderLineFeeonReports.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 27,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Rapid Start/ERMRSWizardWorksheet.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM-Finance/ReminderAutomationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/Local/UTREPPurchaseSales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IN/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IN/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ERMRemindersGracePeriod.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 39,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ERMSuggestReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 88,
+      "deletions": 32,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ReminderAutomationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Finance/ReminderAutomationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Finance/ReminderLineFeeonReports.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 27,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ERM-Finance/ERMFinancialReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NZ/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ERMIssuedReminderAddnlFee.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 22,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 59,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Integration-Internal/MailServiceTest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/SE/Tests/Local/SECustomerReports.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 60,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/LineFeeNoteonReportHist.Table.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 78,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLevel.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLevels.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTerms.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTermsTranslation.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTermsTranslation.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderText.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderText.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderCommunication.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 222,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderEmailText.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderLevelFeeSetup.Page.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderTermsList.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/InterfaceTrialData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryERM.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Application/ERMReminderApplyUnapply.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMFinancialReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMInvoiceandReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 15,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMIssuedReminderAddnlFee.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 22,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMReminderFinChargeMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMReminderForAdditinalFee.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMRemindersGracePeriod.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 35,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMSuggestReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 88,
+      "deletions": 33,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ReminderAddFeeSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 41,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 56,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ReminderAutomationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ReminderLineFeeonReports.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 27,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration-Internal/MailServiceTest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Rapid Start/ERMRSWizardWorksheet.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 158,
+    "additions": 2674,
+    "deletions": 2564,
+    "al": 62
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Sales/1.Setup Data/CreateReminderText.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5268",
+        "type": "codeunit",
+        "id": 5268,
+        "name": "Create Reminder Text",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5268"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoReminder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5694",
+        "type": "codeunit",
+        "id": 5694,
+        "name": "Contoso Reminder",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5694"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14ReminderTextMigrator.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46927",
+        "type": "codeunit",
+        "id": 46927,
+        "name": "BC14 Reminder Text Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46927"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+        "status": "modified",
+        "key": "table/295",
+        "type": "table",
+        "id": 295,
+        "name": "Reminder Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/295"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/117"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+        "status": "modified",
+        "key": "table/296",
+        "type": "table",
+        "id": 296,
+        "name": "Reminder Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/296"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/117"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/117"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+        "status": "modified",
+        "key": "table/296",
+        "type": "table",
+        "id": 296,
+        "name": "Reminder Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/296"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/117"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+        "status": "modified",
+        "key": "table/295",
+        "type": "table",
+        "id": 295,
+        "name": "Reminder Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/295"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+        "status": "modified",
+        "key": "table/296",
+        "type": "table",
+        "id": 296,
+        "name": "Reminder Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/296"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/LineFeeNoteonReportHist.Table.al",
+        "status": "modified",
+        "key": "table/1053",
+        "type": "table",
+        "id": 1053,
+        "name": "Line Fee Note on Report Hist.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1053"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderHeader.Table.al",
+        "status": "modified",
+        "key": "table/295",
+        "type": "table",
+        "id": 295,
+        "name": "Reminder Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/295"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLevel.Table.al",
+        "status": "modified",
+        "key": "table/293",
+        "type": "table",
+        "id": 293,
+        "name": "Reminder Level",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/293"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLevels.Page.al",
+        "status": "modified",
+        "key": "page/432",
+        "type": "page",
+        "id": 432,
+        "name": "Reminder Levels",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/432"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+        "status": "modified",
+        "key": "table/296",
+        "type": "table",
+        "id": 296,
+        "name": "Reminder Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/296"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTerms.Page.al",
+        "status": "modified",
+        "key": "page/431",
+        "type": "page",
+        "id": 431,
+        "name": "Reminder Terms",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/431"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTermsTranslation.Page.al",
+        "status": "modified",
+        "key": "page/1052",
+        "type": "page",
+        "id": 1052,
+        "name": "Reminder Terms Translation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1052"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderTermsTranslation.Table.al",
+        "status": "modified",
+        "key": "table/1052",
+        "type": "table",
+        "id": 1052,
+        "name": "Reminder Terms Translation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1052"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderText.Page.al",
+        "status": "modified",
+        "key": "page/433",
+        "type": "page",
+        "id": 433,
+        "name": "Reminder Text",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/433"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/ReminderText.Table.al",
+        "status": "modified",
+        "key": "table/294",
+        "type": "table",
+        "id": 294,
+        "name": "Reminder Text",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/294"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderCommunication.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1890",
+        "type": "codeunit",
+        "id": 1890,
+        "name": "Reminder Communication",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1890"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderEmailText.Table.al",
+        "status": "modified",
+        "key": "table/503",
+        "type": "table",
+        "id": 503,
+        "name": "Reminder Email Text",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/503"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderLevelFeeSetup.Page.al",
+        "status": "modified",
+        "key": "page/1895",
+        "type": "page",
+        "id": 1895,
+        "name": "Reminder Level Fee Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1895"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderTermsList.Page.al",
+        "status": "modified",
+        "key": "page/837",
+        "type": "page",
+        "id": 837,
+        "name": "Reminder Terms List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/837"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "key": "page/459",
+        "type": "page",
+        "id": 459,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/459"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8616",
+        "type": "codeunit",
+        "id": 8616,
+        "name": "Config. Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8616"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Reminder/ReminderLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales",
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "ContosoCoffeeDemoDataset",
+    "HybridBC14"
+  ]
+}

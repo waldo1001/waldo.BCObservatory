@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10663",
+  "number": 10663,
+  "title": "[Main]-Stock card report shows incorrect received quantity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Stock Card report now correctly shows received quantities and costs when purchase receipts are split into multiple partial invoices, fixing understated balances that cascaded through the report.",
+  "key_points": [
+    "Report used FindFirst() to read Value Entries, retrieving only the earliest entry when multiple partial invoices existed against one Item Ledger Entry",
+    "Replaced FindFirst() with CalcSums() to aggregate all Value Entries for each Item Ledger Entry regardless of partial invoice count",
+    "Added ValueEntry.Reset() to prevent filter leakage between records",
+    "Received quantity, amount, and cost columns now reflect complete partial invoice totals",
+    "Running balance calculations throughout the report are now accurate"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003701,
+    "changes_in_call": 1
+  }
+}

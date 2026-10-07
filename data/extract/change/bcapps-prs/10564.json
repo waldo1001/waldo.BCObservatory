@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10564",
+  "number": 10564,
+  "title": "Bug 641415: [Expense Agent] Incorrect Payment Method Assignment for Card-Based Expenses",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payment method descriptions in the Expense Agent setup are now more descriptive to clarify the distinction between company credit card expenses and employee-paid expenses.",
+  "key_points": [
+    "Payment method descriptions updated for clarity",
+    "Distinguishes between company credit card and employee-paid expense types",
+    "Improves setup guidance for users configuring expense payment methods",
+    "Change in the Expense Agent setup codeunit",
+    "Addresses confusion in payment method assignment"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Added more descriptive descriptions for expense payment methods to avoid confusion about company credit cards vs. employee paid expenses.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003097,
+    "changes_in_call": 1
+  }
+}

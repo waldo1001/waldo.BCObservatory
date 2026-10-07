@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10504",
+  "number": 10504,
+  "title": "[Reminders] Complete the communication texts model uptake",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "development",
+    "finance"
+  ],
+  "summary": "Reminder attachment and email communication model is now the permanent behavior across runtime code, UI, tests, and demo data, removing feature-gated branches and legacy model assumptions.",
+  "key_points": [
+    "Always use reminder attachment and email communication records instead of legacy text model",
+    "Remove feature-key branches and redirect legacy navigation to new pages/reports",
+    "Update tests to use permanent model without feature toggling",
+    "Generate Contoso demo data for reminder communications with safe rerun capability",
+    "Align line-fee report history with level-over-terms, per-language fallback semantics"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": "Always use reminder attachment and email communication records.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011059,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10566,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10566",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T12:58:35Z",
+  "merge_commit_sha": "99b78dced4332c93d5c58105cb3acd11d96a763d",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2",
+  "body_hash": "2e224e9add0866a8125f4e448cc49275d0b389586b2f7165132969ed220d371a",
+  "fixes_issues": [],
+  "work_items": [
+    647661
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRConsolidatedTrialBalance.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalanceBudgetExcel.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalanceExcel.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/TrialBalance.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/TrialBalanceExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 277,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 295,
+    "deletions": 8,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRConsolidatedTrialBalance.Report.al",
+        "status": "modified",
+        "key": "report/4410",
+        "type": "report",
+        "id": 4410,
+        "name": "EXR Consolidated Trial Balance",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4410"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalanceBudgetExcel.Report.al",
+        "status": "modified",
+        "key": "report/4406",
+        "type": "report",
+        "id": 4406,
+        "name": "EXR Trial BalanceBudgetExcel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4406"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalanceExcel.Report.al",
+        "status": "modified",
+        "key": "report/4405",
+        "type": "report",
+        "id": 4405,
+        "name": "EXR Trial Balance Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4405"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/TrialBalance.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4410",
+        "type": "codeunit",
+        "id": 4410,
+        "name": "Trial Balance",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "codeunit/4410"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}

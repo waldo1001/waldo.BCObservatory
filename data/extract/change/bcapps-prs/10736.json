@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10736",
+  "number": 10736,
+  "title": "[Main]- Mismatch between Purchase Invoice Total in Lines and Statistics after VAT adjustment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Purchase invoice line totals now correctly reflect manual VAT adjustments from the statistics page when using mixed VAT groups, fixing a mismatch issue by recalculating grouped VAT amounts.",
+  "key_points": [
+    "VAT totals on purchase invoice subforms now update when manual VAT adjustments are made from the statistics page",
+    "Grouped VAT recalculation is triggered only when VAT differences exist on the invoice lines",
+    "Fixes mismatch between line totals and statistics totals when mixed VAT groups are used",
+    "Changes applied across all localization layers (Base Application, North America, Belgium)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Mismatch between Purchase Invoice Total in Lines and Statistics after VAT adjustment",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0035,
+    "changes_in_call": 1
+  }
+}

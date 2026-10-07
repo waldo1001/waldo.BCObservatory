@@ -1,0 +1,156 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10514,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10514",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T15:40:06Z",
+  "merge_commit_sha": "6734498ab6431fd52641e5237048563ae9502028",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error",
+  "body_hash": "8a75d95a7daf4a44c4f7a7b1a375336d0cf30b7654dd5f215ebafcfa8baef6a9",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-ScriptHandler/src/Script/Table/ScriptEditorLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/Posting/ServicePostingSubscrES.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/TestLibraries/LibraryJournalsES.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/StatutoryReportDataHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Entity/PurchaseDocumentEntity.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Reports/MovementList.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 24,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 12,
+    "deletions": 24,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-ScriptHandler/src/Script/Table/ScriptEditorLine.Table.al",
+        "status": "modified",
+        "key": "table/20201",
+        "type": "table",
+        "id": 20201,
+        "name": "Script Editor Line",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "table/20201"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/Posting/ServicePostingSubscrES.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10789",
+        "type": "codeunit",
+        "id": 10789,
+        "name": "Service Posting Subscr. ES",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10789-es"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/StatutoryReportDataHeader.Table.al",
+        "status": "modified",
+        "key": "table/26563",
+        "type": "table",
+        "id": 26563,
+        "name": "Statutory Report Data Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/26563-ru"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Entity/PurchaseDocumentEntity.Page.al",
+        "status": "modified",
+        "key": "page/6404",
+        "type": "page",
+        "id": 6404,
+        "name": "Purchase Document Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6404"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Reports/MovementList.Report.al",
+        "status": "modified",
+        "key": "report/7301",
+        "type": "report",
+        "id": 7301,
+        "name": "Movement List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7301"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "finance",
+    "integration",
+    "service",
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application",
+    "INTaxEngine"
+  ]
+}

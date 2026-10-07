@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10361,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10361",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T05:29:36Z",
+  "merge_commit_sha": "f29a59a6acb6715f62f77711bcc9939101f6024f",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice",
+  "body_hash": "0380b0b14f29a6f4d273937b9a5c15cd51f3aca6de0a2ee16cbde1fe2e91ee3e",
+  "fixes_issues": [],
+  "work_items": [
+    647197
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/Tests/Job/JobInvoicing.Codeunit.al",
+      "status": "modified",
+      "additions": 264,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Job/JobInvoicing.Codeunit.al",
+      "status": "modified",
+      "additions": 264,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobCreateInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/JobInvoicing.Codeunit.al",
+      "status": "modified",
+      "additions": 265,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 824,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobCreateInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1002",
+        "type": "codeunit",
+        "id": 1002,
+        "name": "Job Create-Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1002"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Update expense VAT specification source",
   "url": "https://github.com/microsoft/BCApps/pull/10312",
   "published_at": "2026-08-31T07:40:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:12.735Z",
+      "change_class": "code",
+      "files": 26,
+      "al": 18,
+      "objects": 18,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:19.993Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010804
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:20.191Z",
+      "objects": 18,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:20.199Z",
+      "path": "content/changes/bcapps/10312.md"
     }
   },
   "input_hash": "f3db89ef9d9398c84d79bb97f22310baad5d47ca:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "update expense vat specification source"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b13752891da0a58c4756d896eb88df4930965680946fa9a74205dfce4cf38795"
 }

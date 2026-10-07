@@ -1,0 +1,427 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10312,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10312",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T07:40:34Z",
+  "merge_commit_sha": "f3db89ef9d9398c84d79bb97f22310baad5d47ca",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Update expense VAT specification source",
+  "body_hash": "7084310aacf274ed91973bf12205e9aea9a81dad610b2c06484b2aa1c3b80fae",
+  "fixes_issues": [],
+  "work_items": [
+    626087
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVATSpecAPI.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpenseVATSpecification.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVATSpecification.Table.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 203,
+      "deletions": 62,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/UpgradeExpReportVATSpec.Codeunit.al",
+      "status": "added",
+      "additions": 263,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportLineVATSpec.Page.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportVATSpec.Page.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportVATSpec.Page.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineVATSpec.Table.al",
+      "status": "modified",
+      "additions": 240,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineVATSpec.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseVATRates.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/InstallExpenseAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseVATSpecAPITest.Codeunit.al",
+      "status": "added",
+      "additions": 92,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseNoRuleTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePostingVATTest.Codeunit.al",
+      "status": "modified",
+      "additions": 876,
+      "deletions": 13,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 75,
+      "deletions": 23,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseRuleTest.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTestII.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 26,
+    "additions": 2192,
+    "deletions": 217,
+    "al": 18
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVATSpecAPI.Page.al",
+        "status": "modified",
+        "key": "page/7085",
+        "type": "page",
+        "id": 7085,
+        "name": "Expense VAT Spec. API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7085"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpenseVATSpecification.Page.al",
+        "status": "modified",
+        "key": "page/7084",
+        "type": "page",
+        "id": 7084,
+        "name": "Expense VAT Specification",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7084"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVATSpecification.Table.al",
+        "status": "modified",
+        "key": "table/6918",
+        "type": "table",
+        "id": 6918,
+        "name": "Expense VAT Specification",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6918"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6983",
+        "type": "codeunit",
+        "id": 6983,
+        "name": "Create Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6983"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/UpgradeExpReportVATSpec.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7105",
+        "type": "codeunit",
+        "id": 7105,
+        "name": "Upgrade Exp. Report VAT Spec",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7105"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportLineVATSpec.Page.al",
+        "status": "modified",
+        "key": "page/7081",
+        "type": "page",
+        "id": 7081,
+        "name": "Expense Report Line VAT Spec.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7081"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportVATSpec.Page.al",
+        "status": "modified",
+        "key": "page/7096",
+        "type": "page",
+        "id": 7096,
+        "name": "Expense Report VAT Spec.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7096"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportVATSpec.Page.al",
+        "status": "modified",
+        "key": "page/7093",
+        "type": "page",
+        "id": 7093,
+        "name": "Posted Expense Report VAT Spec",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7093"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineVATSpec.Table.al",
+        "status": "modified",
+        "key": "table/6922",
+        "type": "table",
+        "id": 6922,
+        "name": "Expense Report Line VAT Spec.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6922"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineVATSpec.Table.al",
+        "status": "modified",
+        "key": "table/6934",
+        "type": "table",
+        "id": 6934,
+        "name": "Posted Exp. Rep. Line VAT Spec",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6934"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseVATRates.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6975",
+        "type": "codeunit",
+        "id": 6975,
+        "name": "Create Expense VAT Rates",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6975"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/InstallExpenseAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6992",
+        "type": "codeunit",
+        "id": 6992,
+        "name": "Install Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6992"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}
