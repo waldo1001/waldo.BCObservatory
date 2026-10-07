@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12428",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Copilot feature trial interface",
+  "url": "https://github.com/microsoft/BCApps/pull/12428",
+  "published_at": "2026-10-07T15:44:54Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T18:11:38.258Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T18:12:12.986Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 6,
+      "objects": 5,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T18:12:18.756Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003809
+    },
+    "linked": {
+      "at": "2026-10-07T18:12:19.017Z",
+      "objects": 5,
+      "unjoined": 1,
+      "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa"
+    },
+    "published": {
+      "at": "2026-10-07T18:12:19.088Z",
+      "path": "content/changes/bcapps/12428.md"
+    }
+  },
+  "input_hash": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12428,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add copilot feature trial interface"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e015bfbd0b03cf36da69a0958e74f16b524b0c5d60cbc7cef72f03cc8f40ef4"
+}

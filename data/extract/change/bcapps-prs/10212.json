@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10212",
+  "number": 10212,
+  "title": "Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "A SetReferenceType method is added to the SignedXml codeunit to allow callers to set the Type property on XMLDSIG Reference elements, enabling creation of XML signatures with typed references such as references to XAdES SignedProperties.",
+  "key_points": [
+    "New SetReferenceType(Type: Text) method added to SignedXml and SignedXmlImpl codeunits",
+    "Exposes the underlying .NET Reference.Type property that was previously inaccessible",
+    "Enables XML signatures requiring typed references like XAdES SignedProperties",
+    "Unit test added to verify the Type attribute is correctly emitted in generated Reference elements",
+    "No breaking changes or compatibility impacts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003887,
+    "changes_in_call": 1
+  }
+}

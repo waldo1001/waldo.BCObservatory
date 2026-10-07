@@ -1,0 +1,154 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10446,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10446",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T15:37:42Z",
+  "merge_commit_sha": "399ca135e6d9b9369501e4899aab934ccc9b6e5b",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][Subscription Billing] \"Subscription Lines - Overdue\" cue counts lines of contracts that already ended",
+  "body_hash": "dfb61a8293bf51573114196492fcc1914946067f06c322d5fd65d4b976ae6fa6",
+  "fixes_issues": [
+    10357
+  ],
+  "work_items": [
+    652996
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContractLineSubp.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContractLines.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Overdue Service Commitments/Tables/OverdueSubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Pages/VendorContractLineSubpage.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/ServiceCommitmentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 84,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 148,
+    "deletions": 39,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContractLineSubp.Page.al",
+        "status": "modified",
+        "key": "page/8068",
+        "type": "page",
+        "id": 8068,
+        "name": "Customer Contract Line Subp.",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8068"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContractLines.Page.al",
+        "status": "modified",
+        "key": "page/8075",
+        "type": "page",
+        "id": 8075,
+        "name": "Customer Contract Lines",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8075"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Overdue Service Commitments/Tables/OverdueSubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8007",
+        "type": "table",
+        "id": 8007,
+        "name": "Overdue Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8007"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Pages/VendorContractLineSubpage.Page.al",
+        "status": "modified",
+        "key": "page/8078",
+        "type": "page",
+        "id": 8078,
+        "name": "Vendor Contract Line Subpage",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8078"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 10357,
+      "title": "[Bug][Subscription Billing] \"Subscription Lines - Overdue\" cue counts lines of contracts that already ended",
+      "state": "closed"
+    }
+  ]
+}

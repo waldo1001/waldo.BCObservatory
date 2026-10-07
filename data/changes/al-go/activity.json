@@ -1,16 +1,29 @@
 {
   "open": [
     {
-      "number": 2397,
-      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
-      "url": "https://github.com/microsoft/AL-Go/pull/2397",
+      "number": 2293,
+      "title": "Add support for protectedSettings to override lower priority settings",
+      "url": "https://github.com/microsoft/AL-Go/pull/2293",
       "base": "main",
       "major": null,
-      "author": "y0m0",
+      "author": "ChrisBlankDe",
       "labels": [],
-      "draft": true,
-      "created_at": "2026-10-07T11:05:23Z",
-      "updated_at": "2026-10-07T11:34:50Z",
+      "draft": false,
+      "created_at": "2026-06-26T13:50:28Z",
+      "updated_at": "2026-10-07T16:06:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2273,
+      "title": "Enhance customALGoFiles feature",
+      "url": "https://github.com/microsoft/AL-Go/pull/2273",
+      "base": "main",
+      "major": null,
+      "author": "OleWunschmann",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-03T15:24:31Z",
+      "updated_at": "2026-10-07T16:05:46Z",
       "community_contribution": false
     },
     {
@@ -23,7 +36,20 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-07-07T16:01:27Z",
-      "updated_at": "2026-10-07T10:46:08Z",
+      "updated_at": "2026-10-07T15:30:34Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2397,
+      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
+      "url": "https://github.com/microsoft/AL-Go/pull/2397",
+      "base": "main",
+      "major": null,
+      "author": "y0m0",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-07T11:05:23Z",
+      "updated_at": "2026-10-07T11:34:50Z",
       "community_contribution": false
     },
     {
@@ -63,32 +89,6 @@
       "draft": false,
       "created_at": "2026-10-06T09:54:38Z",
       "updated_at": "2026-10-07T06:06:16Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2293,
-      "title": "Add support for protectedSettings to override lower priority settings",
-      "url": "https://github.com/microsoft/AL-Go/pull/2293",
-      "base": "main",
-      "major": null,
-      "author": "ChrisBlankDe",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-26T13:50:28Z",
-      "updated_at": "2026-10-06T20:58:48Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2273,
-      "title": "Enhance customALGoFiles feature",
-      "url": "https://github.com/microsoft/AL-Go/pull/2273",
-      "base": "main",
-      "major": null,
-      "author": "OleWunschmann",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-03T15:24:31Z",
-      "updated_at": "2026-10-06T11:28:38Z",
       "community_contribution": false
     },
     {

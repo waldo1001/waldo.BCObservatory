@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/data-query-tools-in-business-central.html",
+  "title": "Data query tools in the Business Central MCP server: a hands-on test guide",
+  "source": "mohana-blog",
+  "published_at": "2026-10-07T16:02:47.000Z",
+  "words": 1066,
+  "summary": "The Data Query Tools feature on the Business Central MCP server enables agents to query tables, read schemas, and run AL queries without requiring pre-published API pages, expanding ad hoc analysis capabilities while maintaining read-only access based on user permissions.",
+  "key_points": [
+    "Agents can discover tables, inspect their fields and relations, write AL queries, compile them, and execute them through four system tools",
+    "Eliminates the need for development requests and deployments for one-off queries by operating within user permissions and AL query constraints",
+    "Read-only access prevents data creation, modification, or deletion through the query interface",
+    "Available as a preview feature in 2026 release wave 2 for Business Central online",
+    "Setup requires creating an MCP server configuration with the Data Query Tools feature enabled and connecting it through VS Code or other MCP clients"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "mcp server",
+    "data query tools",
+    "agents",
+    "al queries",
+    "api alternative",
+    "read-only access",
+    "ad hoc analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Model Context Protocol (MCP) Server Configurations"
+    }
+  ],
+  "features": [
+    "Data Query Tools",
+    "bc_data_find_tables",
+    "bc_data_get_table_schema",
+    "bc_data_get_table_relations",
+    "bc_data_query",
+    "MCP server",
+    "OAuth 2.0 authentication",
+    "VS Code integration"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the data query tools, an agent can answer a question nobody built an object for, which describes most ad hoc analysis.",
+      "why_it_matters": "Highlights the practical value of eliminating the need for pre-built API pages for every possible query scenario"
+    },
+    {
+      "text": "The boundaries become the permissions the signed-in user already has and what an AL query can express.",
+      "why_it_matters": "Clarifies that security and functionality constraints are determined by existing user permissions rather than new limitations"
+    },
+    {
+      "text": "It is read-only, so nothing can be created, changed or deleted through it.",
+      "why_it_matters": "Establishes a fundamental safety characteristic that makes the feature suitable for analysis without data modification risks"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006976,
+    "posts_in_call": 1
+  }
+}

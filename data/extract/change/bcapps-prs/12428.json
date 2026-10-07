@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12428",
+  "number": 12428,
+  "title": "Add Copilot feature trial interface",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Added a public Copilot feature trial interface to System Application, enabling applications to initiate trials, query remaining quota, and consume trial usage with corresponding implementation codeunits and tests.",
+  "key_points": [
+    "Introduces Copilot Feature Trial and implementation codeunits as public interfaces",
+    "Reorganizes Copilot quota objects into Consumption and Billing folder structure",
+    "Adds required DotNet aliases and AI module dependencies",
+    "Includes System Application tests validating trial state and quota behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Add a public Copilot feature trial interface so applications can start trials, query remaining quota, and consume trial usage.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003809,
+    "changes_in_call": 1
+  }
+}

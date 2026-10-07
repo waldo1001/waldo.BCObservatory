@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/duiliotacconi-com/2201",
+  "url": "https://duiliotacconi.com/2026/10/07/debunking-myths-related-to-table-structure-in-dynamics-365-business-central-2026-wave-2/",
+  "title": "Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-10-07T13:14:06.000Z",
+  "words": 1438,
+  "summary": "This post debunks common myths about table structure limits in Dynamics 365 Business Central 2026 Wave 2 (version 29), which now merges table extension fields into base tables. It clarifies field count limits (1018 fields), SQL Server 8KB record size constraints based on data types, key/index limits (no 40-key cap), and the possibility of mixing base and extension fields in indexes.",
+  "key_points": [
+    "In version 29, all third-party app fields are now part of the base table with no separate table extension joins",
+    "Maximum of 1018 regular fields can be defined in a table (1024 SQL columns minus 6 system fields)",
+    "The 8KB SQL Server limit applies only to primitive data types; text and code fields use pointers and can exceed this",
+    "The 40-key limit from CSIDE no longer applies; SQL Server allows up to 999 indexes",
+    "Base table fields and extension fields can be mixed in the same index, with some constraints across different apps"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "table structure",
+    "field limits",
+    "indexes",
+    "table extensions",
+    "database design",
+    "sql server"
+  ],
+  "objects": [],
+  "features": [
+    "table extensions",
+    "field definitions",
+    "index creation",
+    "table record sizing",
+    "field type storage"
+  ],
+  "versions": [
+    "29",
+    "2026 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "All 3rd party app fields are now part of the base table.",
+      "why_it_matters": "This is a fundamental architectural change in version 29 that affects how developers design and extend tables"
+    },
+    {
+      "text": "1024 is the maximum column definition allowed by SQL Server.",
+      "why_it_matters": "Understanding the SQL Server hard limit helps developers plan field counts without hitting deployment errors"
+    },
+    {
+      "text": "Text and Code they don't. They are SQL NVARCHAR, hence their data can be of super large dimension.",
+      "why_it_matters": "Clarifies that the 8KB record limit is conditional on data type, not an absolute constraint for all fields"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007023,
+    "posts_in_call": 1
+  }
+}

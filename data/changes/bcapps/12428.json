@@ -1,0 +1,169 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12428,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12428",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T15:44:54Z",
+  "merge_commit_sha": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add Copilot feature trial interface",
+  "body_hash": "0824b70310e2f191efd25635e74b02caca7c7223ad6fb66339dd12595b41bde8",
+  "fixes_issues": [],
+  "work_items": [
+    653140
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AI/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotFeatureTrial.Codeunit.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotFeatureTrialImpl.Codeunit.al",
+      "status": "added",
+      "additions": 144,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuota.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuota.Codeunit.al"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuotaImpl.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuotaImpl.Codeunit.al"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuotaUsageType.Enum.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuotaUsageType.Enum.al"
+    },
+    {
+      "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/AI/src/CopilotTest.Codeunit.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 345,
+    "deletions": 1,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa",
+    "objects": [
+      {
+        "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotFeatureTrial.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7755",
+        "type": "codeunit",
+        "id": 7755,
+        "name": "Copilot Feature Trial",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7755"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotFeatureTrialImpl.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7754",
+        "type": "codeunit",
+        "id": 7754,
+        "name": "Copilot Feature Trial Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7754"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuota.Codeunit.al",
+        "status": "renamed",
+        "key": "codeunit/7785",
+        "type": "codeunit",
+        "id": 7785,
+        "name": "Copilot Quota",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7785",
+        "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuota.Codeunit.al"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuotaImpl.Codeunit.al",
+        "status": "renamed",
+        "key": "codeunit/7786",
+        "type": "codeunit",
+        "id": 7786,
+        "name": "Copilot Quota Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7786",
+        "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuotaImpl.Codeunit.al"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Copilot/Consumption and Billing/CopilotQuotaUsageType.Enum.al",
+        "status": "renamed",
+        "key": "enum/7785",
+        "type": "enum",
+        "id": 7785,
+        "name": "Copilot Quota Usage Type",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/7785",
+        "previous_filename": "src/System Application/App/AI/src/Copilot/CopilotQuotaUsageType.Enum.al"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

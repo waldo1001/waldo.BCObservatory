@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10446",
+  "number": 10446,
+  "title": "[Bug][Subscription Billing] \"Subscription Lines - Overdue\" cue counts lines of contracts that already ended",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines that have been billed past their term end date, eliminating false positives in the overdue count and improving accuracy by checking billing progress rather than relying on a stale flag.",
+  "key_points": [
+    "Added `IsBilledUntilEndOfTerm()` procedure to determine if a subscription line has been fully billed through its term end date",
+    "Extracted shared filter logic into `FilterOverdueServiceCommitments` to prevent divergence between count and list paths",
+    "Replaced three separate hand-written predicates with the new common procedure on related pages",
+    "Count operation optimized to avoid record-by-record loops for common cases",
+    "Added comprehensive tests covering billed, closed, and future end-date scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "A new `internal procedure IsBilledUntilEndOfTerm()` on table `8059 \"Subscription Line\"` answers the question \"has this line already been billed past its term?\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004861,
+    "changes_in_call": 1
+  }
+}

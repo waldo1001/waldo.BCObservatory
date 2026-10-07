@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/10212",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)",
+  "url": "https://github.com/microsoft/BCApps/pull/10212",
+  "published_at": "2026-10-07T15:37:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T18:11:38.258Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T18:12:13.528Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T18:12:19.125Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003887
+    },
+    "linked": {
+      "at": "2026-10-07T18:12:19.342Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa"
+    },
+    "published": {
+      "at": "2026-10-07T18:12:19.351Z",
+      "path": "content/changes/bcapps/10212.md"
+    }
+  },
+  "input_hash": "313bc4ab2efe4fa351aaa89ce2896d9323bb036e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10212,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "313bc4ab2efe4fa351aaa89ce2896d9323bb036e",
+    "author": "marcus905",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "add setreferencetype method to signedxml and signedxmlimpl 10139"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fcabcde0e17720936eef543511a16ea4cba747b70cac973d05984c31ea36bbec"
+}

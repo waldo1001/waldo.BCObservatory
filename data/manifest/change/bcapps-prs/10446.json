@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/10446",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] \"Subscription Lines - Overdue\" cue counts lines of contracts that already ended",
+  "url": "https://github.com/microsoft/BCApps/pull/10446",
+  "published_at": "2026-10-07T15:37:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T18:11:38.258Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T18:12:21.682Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T18:12:28.938Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004861
+    },
+    "linked": {
+      "at": "2026-10-07T18:12:29.267Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa"
+    },
+    "published": {
+      "at": "2026-10-07T18:12:29.275Z",
+      "path": "content/changes/bcapps/10446.md"
+    }
+  },
+  "input_hash": "399ca135e6d9b9369501e4899aab934ccc9b6e5b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10446,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "399ca135e6d9b9369501e4899aab934ccc9b6e5b",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing subscription lines overdue cue counts lines of contracts that already ended"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee44f3bade0d2a01cc4db5285d0d5ef9c40d82aae57cdf856f93080976a25db2"
+}
