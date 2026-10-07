@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11939",
+  "number": 11939,
+  "title": "Bug 650391: [Subcontracting] Show subcontracting transfer quantities",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Prod. Order Comp. Line List page extension now displays transfer quantity fields (Qty. on Transfer Order, Qty. transf. to Subcontractor, and Qty. in Transit) for subcontracting components.",
+  "key_points": [
+    "Added three FlowFields to show subcontracting transfer status quantities",
+    "Qty. on Transfer Order and Qty. transf. to Subcontractor are visible by default",
+    "Qty. in Transit is available as a hidden personalization control",
+    "Resolves missing fields in the Production Components FactBox workflow"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Add Qty. on Transfer Order (Base) and Qty. transf. to Subcontractor as visible controls.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003545,
+    "changes_in_call": 1
+  }
+}

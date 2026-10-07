@@ -6,10 +6,35 @@
   "title": "Make Reject Order reachable on inbound sales order drafts and confirm…",
   "url": "https://github.com/microsoft/BCApps/pull/11895",
   "published_at": "2026-09-28T12:42:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:58.208Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:03.270Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003597
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:03.489Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:03.496Z",
+      "path": "content/changes/bcapps/11895.md"
     }
   },
   "input_hash": "2261411a85f9ae7062ffba1972a6c7b6e7a03ddc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "make reject order reachable on inbound sales order drafts and confirm"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "93b4b0149510a198e2b6bbfe57dcb5ee832879631d9590a681e5eb4d0d52361d"
 }

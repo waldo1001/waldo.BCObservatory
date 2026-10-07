@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11895,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11895",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T12:42:41Z",
+  "merge_commit_sha": "2261411a85f9ae7062ffba1972a6c7b6e7a03ddc",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Make Reject Order reachable on inbound sales order drafts and confirm…",
+  "body_hash": "421dee3c783ee2f050bf28296e8795cba6b9c86642c7d65c936fa2bf67afc15e",
+  "fixes_issues": [],
+  "work_items": [
+    648719
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Page.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesDraft.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocProcessTest.Codeunit.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 112,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Page.al",
+        "status": "modified",
+        "key": "page/6121",
+        "type": "page",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesDraft.Page.al",
+        "status": "modified",
+        "key": "page/6153",
+        "type": "page",
+        "id": 6153,
+        "name": "E-Document Sales Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6153"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

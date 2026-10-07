@@ -6,10 +6,18 @@
   "title": "[Subcontracting] Bug 648937: Transfer WIP Item is lost when production orders are created from Planning Worksheet",
   "url": "https://github.com/microsoft/BCApps/pull/11644",
   "published_at": "2026-09-28T10:24:58Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:03.989Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "a84685a72ab18bb9397694caa0c1323711e6d93e:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 648937 transfer wip item is lost when production orders are created from planning worksheet"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fca0ed542a29e76ee26c6ff282991269ef3b35da3f089983fd73393012305408"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11896",
+  "number": 11896,
+  "title": "[Master Data Management] Cross-env over-cap blob clears the subsidiary blob",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management now correctly preserves destination blobs when source blobs exceed capacity limits, and improves inline media cache handling to apply the newest media state for records arriving on multiple pages.",
+  "key_points": [
+    "Over-capacity source blobs (>512 KB) are skipped during transfer; a marker prevents clearing the destination blob instead of leaving it empty",
+    "Inline media cache now uses last-write-wins logic per (SystemId, field) to handle records with multiple pages in one batch",
+    "Destination blobs remain unchanged when source is over-capacity rather than being cleared by empty temp values",
+    "Regression tests added to cover both the skip marker behavior and media state application scenarios",
+    "Forward-port of a 29.x fix to 30.x"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Carry a skip marker from materialization to transfer time and keep the destination blob unchanged.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004027,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11824,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11824",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-28T15:09:14Z",
+  "merge_commit_sha": "c7edd022c974c5538af4c628d4e93f25ae8ff9d2",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers",
+  "body_hash": "3b51ca871ab0670cd76416bfcc0c8d8ddb3c1dc76e79577e6b75d459c335a650",
+  "fixes_issues": [],
+  "work_items": [
+    651262
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Tables/SalesSubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/SalesServiceCommitmentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 47,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Tables/SalesSubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8068",
+        "type": "table",
+        "id": 8068,
+        "name": "Sales Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8068"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11950,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11950",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-28T15:12:47Z",
+  "merge_commit_sha": "aa361f9b208c1345ec2811d20972d4610bfe2d06",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Adding an in-product email storage cleanup (backport to releases/29.x)",
+  "body_hash": "2cab135a2af769eef4bb73122a74be26eb9ea3637ba1836ef4f7f3fc53a0c920",
+  "fixes_issues": [],
+  "work_items": [
+    651503
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanup.Codeunit.al",
+      "status": "added",
+      "additions": 239,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupRunner.Codeunit.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupScheduler.Codeunit.al",
+      "status": "added",
+      "additions": 170,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupSetup.Table.al",
+      "status": "added",
+      "additions": 128,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailDuplicateBuffer.Table.al",
+      "status": "added",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailDuplicates.Page.al",
+      "status": "added",
+      "additions": 119,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailInboxRowDelete.Codeunit.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailStorageCleanup.Page.al",
+      "status": "added",
+      "additions": 341,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/PermissionSets/PayablesAgAdm.Permissionset.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 1128,
+    "deletions": 1,
+    "al": 9
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanup.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/3322",
+        "type": "codeunit",
+        "id": 3322,
+        "name": "PA Email Cleanup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3322"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupRunner.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/3323",
+        "type": "codeunit",
+        "id": 3323,
+        "name": "PA Email Cleanup Runner",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3323"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupScheduler.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/3324",
+        "type": "codeunit",
+        "id": 3324,
+        "name": "PA Email Cleanup Scheduler",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3324"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailCleanupSetup.Table.al",
+        "status": "added",
+        "key": "table/3320",
+        "type": "table",
+        "id": 3320,
+        "name": "PA Email Cleanup Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "table/3320"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailDuplicateBuffer.Table.al",
+        "status": "added",
+        "key": "table/3321",
+        "type": "table",
+        "id": 3321,
+        "name": "PA Email Duplicate Buffer",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "table/3321"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailDuplicates.Page.al",
+        "status": "added",
+        "key": "page/3326",
+        "type": "page",
+        "id": 3326,
+        "name": "PA Email Duplicates",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "page/3326"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailInboxRowDelete.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/3328",
+        "type": "codeunit",
+        "id": 3328,
+        "name": "PA Email Inbox Row Delete",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3328"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/EmailStorageCleanup/PAEmailStorageCleanup.Page.al",
+        "status": "added",
+        "key": "page/3325",
+        "type": "page",
+        "id": 3325,
+        "name": "PA Email Storage Cleanup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "page/3325"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/PermissionSets/PayablesAgAdm.Permissionset.al",
+        "status": "modified",
+        "key": "permissionset/3304",
+        "type": "permissionset",
+        "id": 3304,
+        "name": "Payables Ag. - Adm.",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "permissionset/3304"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PayablesAgent"
+  ]
+}

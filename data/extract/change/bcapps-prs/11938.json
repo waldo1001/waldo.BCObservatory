@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11938",
+  "number": 11938,
+  "title": "Bug 650344: [Subcontracting] Prevent cancellation of vendor-supplied component lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting planning no longer proposes cancellation actions for vendor-supplied component purchase lines, preventing unintended line removals during regenerative planning.",
+  "key_points": [
+    "Vendor-supplied component lines are excluded from planning supply calculations",
+    "Regenerative planning no longer generates Cancel requisition lines for these components",
+    "Regression test added to ensure the fix prevents future cancellation proposals",
+    "Change affects only subcontracting planning behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Exclude vendor-supplied subcontracting component purchase lines from planning supply.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003165,
+    "changes_in_call": 1
+  }
+}

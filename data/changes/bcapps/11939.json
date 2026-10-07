@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11939,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11939",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T10:54:08Z",
+  "merge_commit_sha": "9876f333254fad5a0f3be7037abcfc6d3c7be5b5",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 650391: [Subcontracting] Show subcontracting transfer quantities",
+  "body_hash": "9e36f008c2e243da7a8bcdbba0182b85b7d960a7f74a10b9dfba15fb13aff387",
+  "fixes_issues": [],
+  "work_items": [
+    650391
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderCompLine.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 41,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderCompLine.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20513",
+        "type": "pageextension",
+        "id": 20513,
+        "name": "Subc. ProdOrderCompLine",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20513"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11895",
+  "number": 11895,
+  "title": "Make Reject Order reachable on inbound sales order drafts and confirm…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Reject Order action for inbound sales orders is now accessible directly from the Sales Document Draft page where sellers review incoming documents. The action also requires confirmation and displays a confirmation message to prevent accidental rejection.",
+  "key_points": [
+    "Added Reject Order action to the Sales Document Draft page for inbound orders",
+    "Moved existing Reject Order action from Outgoing group to Incoming group on E-Document page",
+    "Added confirmation dialog and success message when rejecting an order",
+    "Action now surfaces the existing rejection logic to users in the workflow where they need it"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The Reject Order action only available on page 6121, which isn't opened for an inbound order",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003597,
+    "changes_in_call": 1
+  }
+}

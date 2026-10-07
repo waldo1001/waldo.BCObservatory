@@ -6,10 +6,35 @@
   "title": "Adding an in-product email storage cleanup (backport to releases/29.x)",
   "url": "https://github.com/microsoft/BCApps/pull/11950",
   "published_at": "2026-09-28T15:12:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:56.724Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:01.463Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00375
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:01.692Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:01.699Z",
+      "path": "content/changes/bcapps/11950.md"
     }
   },
   "input_hash": "aa361f9b208c1345ec2811d20972d4610bfe2d06:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "adding an in product email storage cleanup backport to releases 29 x"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b02a8e2ca43ee4646e07dd224e727f6cea990ffb29f9009090ded15afb08f8ba"
 }

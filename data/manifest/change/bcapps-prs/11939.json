@@ -6,10 +6,35 @@
   "title": "Bug 650391: [Subcontracting] Show subcontracting transfer quantities",
   "url": "https://github.com/microsoft/BCApps/pull/11939",
   "published_at": "2026-09-28T10:54:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:02.578Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:07.640Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003545
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:07.826Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:11.327Z",
+      "path": "content/changes/bcapps/11939.md"
     }
   },
   "input_hash": "9876f333254fad5a0f3be7037abcfc6d3c7be5b5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650391 subcontracting show subcontracting transfer quantities"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db2892ffed953345329fe7826e293d6d914c792f362876ab2026c51d4bebd23a"
 }

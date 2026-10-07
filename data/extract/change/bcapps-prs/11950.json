@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11950",
+  "number": 11950,
+  "title": "Adding an in-product email storage cleanup (backport to releases/29.x)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payables Agent includes new email storage cleanup functionality accessible via URL parameter, allowing admins to identify and remove duplicate emails from inboxes.",
+  "key_points": [
+    "Adds email storage cleanup UI page available through URL parameter",
+    "Includes setup table and duplicate detection buffer table",
+    "Provides email inbox row deletion capability",
+    "Scheduled cleanup runner with admin-controlled scheduling",
+    "Extended Payables Agent admin permission set for access control"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00375,
+    "changes_in_call": 1
+  }
+}

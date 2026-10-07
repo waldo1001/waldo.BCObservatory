@@ -6,10 +6,35 @@
   "title": "[29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers",
   "url": "https://github.com/microsoft/BCApps/pull/11824",
   "published_at": "2026-09-28T15:09:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:55.828Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:00.905Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003545
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:01.185Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:01.190Z",
+      "path": "content/changes/bcapps/11824.md"
     }
   },
   "input_hash": "c7edd022c974c5538af4c628d4e93f25ae8ff9d2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "subscription billing sales explode bom fails for foreign currency customers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "617ec64af820bcc802d9dc853f57b11fb8e662d0decbef9b94744b9e6866bc1f"
 }

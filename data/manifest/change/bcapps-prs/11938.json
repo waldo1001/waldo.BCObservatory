@@ -6,10 +6,35 @@
   "title": "Bug 650344: [Subcontracting] Prevent cancellation of vendor-supplied component lines",
   "url": "https://github.com/microsoft/BCApps/pull/11938",
   "published_at": "2026-09-28T10:54:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:59.675Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:04.198Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003165
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:04.402Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:04.406Z",
+      "path": "content/changes/bcapps/11938.md"
     }
   },
   "input_hash": "243f0176296a6794052ef03e55a4c42376605560:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650344 subcontracting prevent cancellation of vendor supplied component lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "922fe0b1b5bc8a0f518c4f7f62d4cb653e2ecb68a8fd2cd8ff1d224aa5e0ce29"
 }

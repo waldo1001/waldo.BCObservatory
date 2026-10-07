@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11667,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11667",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T10:16:24Z",
+  "merge_commit_sha": "7c5dfb36e6d606fb64e7a458d7fa7537a6c75299",
+  "author": "attilatoury",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix quantity fields on Sales Return Order Archive",
+  "body_hash": "1d71d5c4e2402b9851cd6a6938d481cf1d4ea38dc4538540e6b8fecca79cdfe2",
+  "fixes_issues": [],
+  "work_items": [
+    650778
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/Tests/SCM/SCMArchiveOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Archive/SalesReturnOrderArcSubform.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMArchiveOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 138,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Archive/SalesReturnOrderArcSubform.Page.al",
+        "status": "modified",
+        "key": "page/6628",
+        "type": "page",
+        "id": 6628,
+        "name": "Sales Return Order Arc Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6628"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

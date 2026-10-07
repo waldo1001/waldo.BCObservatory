@@ -6,7 +6,7 @@
   "title": "[29x]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content",
   "url": "https://github.com/microsoft/BCApps/pull/11947",
   "published_at": "2026-09-29T09:33:04Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.00318
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:54.615Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:54.620Z",
+      "path": "content/changes/bcapps/11947.md"
     }
   },
   "input_hash": "47efd53b48290d0e1e0c707ee195a27e179b7134:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d01c606b757898af11f5b41094d4eb9406336fc4d5a6a1181656a59ed3cd57f"
+  "output_hash": "088281578c9f7ef42cf6ce9d9733bad034c0585e9fc007b9455e3e663e68f7c7"
 }

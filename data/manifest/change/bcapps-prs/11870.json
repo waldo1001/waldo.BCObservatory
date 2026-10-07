@@ -6,10 +6,35 @@
   "title": "Reduce allocations in the \"Export to Execl\" scenario",
   "url": "https://github.com/microsoft/BCApps/pull/11870",
   "published_at": "2026-09-28T14:54:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:56.988Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:01.905Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003278
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:02.051Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:02.057Z",
+      "path": "content/changes/bcapps/11870.md"
     }
   },
   "input_hash": "e96e8444657d1fed08bd4d9d6a2091948b564ca5:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "reduce allocations in the export to execl scenario"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7238c369d805be03a48c9ccf56af7757905ffd14ffc026397f96cc5426b5e8b1"
 }

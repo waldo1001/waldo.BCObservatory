@@ -6,10 +6,18 @@
   "title": "Add title to field monitoring feature pages",
   "url": "https://github.com/microsoft/BCApps/pull/11920",
   "published_at": "2026-09-28T10:13:49Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:05.121Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "fbcd82c0e448916a5b54e8327f55ed180bcc342e:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "add title to field monitoring feature pages"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd1e7e79b12180d081ac6473acfcfaa3a79614a0cf2992b968e8bbc45c77fdd0"
 }

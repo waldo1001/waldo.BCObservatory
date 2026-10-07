@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11920,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11920",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T10:13:49Z",
+  "merge_commit_sha": "fbcd82c0e448916a5b54e8327f55ed180bcc342e",
+  "author": "WaelAbuSeada",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add title to field monitoring feature pages",
+  "body_hash": "2266bbbbf0bcf503a11fd546f50fc4031974ad161a2d58475297c42c2b0fb2c7",
+  "fixes_issues": [],
+  "work_items": [
+    651557
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/ChangeLog/FieldMonitoringSetup.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/ChangeLog/MonitoredFieldLogEntries.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/ChangeLog/MonitoredFieldsWorksheet.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 6,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/ChangeLog/FieldMonitoringSetup.page.al",
+        "status": "modified",
+        "key": "page/1366",
+        "type": "page",
+        "id": 1366,
+        "name": "Field Monitoring Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1366"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/ChangeLog/MonitoredFieldLogEntries.page.al",
+        "status": "modified",
+        "key": "page/1367",
+        "type": "page",
+        "id": 1367,
+        "name": "Monitored Field Log Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1367"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/ChangeLog/MonitoredFieldsWorksheet.page.al",
+        "status": "modified",
+        "key": "page/1369",
+        "type": "page",
+        "id": 1369,
+        "name": "Monitored Fields Worksheet",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1369"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

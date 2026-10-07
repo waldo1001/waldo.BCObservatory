@@ -1,0 +1,114 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11896,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11896",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T12:20:21Z",
+  "merge_commit_sha": "60fb19d7c3e6fefb8e9273fddd5c037ce0729f0a",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master Data Management] Cross-env over-cap blob clears the subsidiary blob",
+  "body_hash": "c435bdebdc5dba370f05940c87a9a07b973be3108d43cffdd5470022aa786cf7",
+  "fixes_issues": [],
+  "work_items": [
+    651513
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMInlineMedia.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 128,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/LibraryMasterDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 575,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 833,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMInlineMedia.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7232",
+        "type": "codeunit",
+        "id": 7232,
+        "name": "MDM Inline Media",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7232"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7248",
+        "type": "codeunit",
+        "id": 7248,
+        "name": "MDM Source Response",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7248"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7237",
+        "type": "codeunit",
+        "id": 7237,
+        "name": "Master Data Mgt. Subscribers",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7237"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

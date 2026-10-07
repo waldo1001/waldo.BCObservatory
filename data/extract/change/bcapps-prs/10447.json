@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10447",
+  "number": 10447,
+  "title": "[Bug][Subscription Billing] Price Update Template filters on Subscription Lines are overwritten by the proposal's own default filters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Price Update Template filters on Subscription Lines are now correctly preserved instead of being overwritten by default filters. Two defects in the filter application logic were fixed: mandatory filters now use a separate filter group to intersect with template filters, and the Subscription Line record parameter is passed by reference to carry filters correctly.",
+  "key_points": [
+    "Mandatory default filters moved to FilterGroup(2) so they intersect with template filters instead of replacing them field by field",
+    "Subscription Line record parameter changed from pass-by-value to pass-by-reference to preserve caller's filters",
+    "Removed dead code checking Closed field since it's now a mandatory default filter",
+    "Added comprehensive tests covering filter preservation, filter intersection, and exclusion scenarios",
+    "Fixes issue where filtered-out subscription lines were still included in price update proposals"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004631,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[Bug][SubscriptionBilling] Assign Subscription Lines dialog does not identify the sales line it was opened for",
   "url": "https://github.com/microsoft/BCApps/pull/10156",
   "published_at": "2026-09-28T16:49:07Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:54.629Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004056
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:54.818Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:54.824Z",
+      "path": "content/changes/bcapps/10156.md"
     }
   },
   "input_hash": "bbd83b641b97ecb0fabc7bbd6651fea278176783:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b5ffd83087bd075e6594b74aa975a400c7a5d979bfe692bbc3212886a42167d"
+  "output_hash": "23b7f6fc4328f0f7180bd8c069eb65f62e96f4af845eb4ae636cc5ff817b7d8e"
 }

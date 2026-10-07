@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11890",
+  "number": 11890,
+  "title": "Adding an in-product email storage cleanup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payables Agent app now includes an email storage cleanup solution to help administrators identify and remove duplicate email records, accessible through an in-product interface.",
+  "key_points": [
+    "Adds new codeunits and tables to manage email storage cleanup operations",
+    "Introduces setup configuration and duplicate detection buffer for cleanup tasks",
+    "Provides pages for administrators to view and manage email duplicates and cleanup settings",
+    "Includes a scheduler to run cleanup proactively",
+    "Updates permission sets to grant access to cleanup functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Adding an in-product solution (accesible only via URL parameter), to proactively send to admins steps for remediation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003815,
+    "changes_in_call": 1
+  }
+}
