@@ -1,6 +1,6 @@
 # Source stage: the original source, in the page
 
-Status: phase 1 implemented, 2026-10-07 (section 13 records what was built and where it differs). Phase 2 open. Decision: D60. Owner: waldo.
+Status: implemented, phases 1 and 2, 2026-10-07 (sections 13 and 14 record what was built and where it differs). Decision: D60. Owner: waldo.
 Scope: video pages, community post pages, then the surfaces listed in section 8.
 
 ## 1. Goal
@@ -618,3 +618,32 @@ Built as sections 2 to 7 describe, with these differences:
   nocookie player and takes focus; a chapter link seeks the running player (7 s to 323 s) and keeps focus; a chapter
   link before play loads the player at that second; a post with `embeddable: true` opens in the sandboxed frame;
   without JavaScript every control is a link to the source; the play target stays 64px at 390.
+
+## 14. Outcome of phase 2 (2026-10-07)
+
+Every row of section 8 is built:
+
+- **Video evidence chips** on topic, feature and object pages open `<dialog class="stage-dialog">` with the player at
+  the chip's second (`StageDialog.astro`, mounted by `Page.astro`; delegation on `a[data-kind="video"][data-t]`, the
+  chip untouched). Esc, Close or the backdrop closes it and removes the iframe, so the audio stops. On a video page a
+  chip of that same video seeks the page's own stage instead.
+- **List posters**: `mqdefault.jpg`, lazy, on the video list (a 160px column) and before each video row of a digest
+  (`posterRows`, which skips opted-out videos). Their own line in D60 is (e).
+- **Source identity**: `data/preview/icons.json` (pipeline `writeIcons`) gives a favicon per blog from `hosts.json`
+  (which gained `favicon`) and an avatar per channel from `channels.json`; `Page.astro` takes an `icon` for the
+  identity row (source pages), and the posts list shows it per row. Channel avatars come from
+  `yt-dlp -J --flat-playlist --playlist-items 0` (`avatar_uncropped`, asked at 88px), injected into the nightly as
+  `channelAvatar` so tests and runs without yt-dlp skip it. The first run found all 8 channels and 21 blogs.
+- **Chapter rail** under the player replaces the body's chapter list on the page (the twin keeps it); `infoDelivery`
+  marks the playing chapter. **Mini-player**: the player sits in a `.stage-slot` that keeps its space, so it can move
+  to the corner (`.stage--mini`, 320px) while playing with the stage scrolled away; its close button pauses it.
+  Visibility and player state are both re-checked on every change; an IntersectionObserver alone missed the moment
+  playback starts while the stage is already off screen.
+- **WordPress `/embed/` card**: the probe now checks the card's own headers when the full page refuses framing and
+  keeps `frame_url` only when the card may be framed; the stage then uses `data-frame-mode="card"`. The frame is
+  sandboxed without `allow-same-origin`, so its messages arrive from the opaque origin `"null"`: the frame's window
+  and a 10-character secret in the hash (WordPress's own protocol) identify them, the height is clamped to 200-1000px,
+  and `link` messages for the blog's own origin open a new tab. Verified against a live thinkaboutit.be card (the
+  card grew from 360 to 673px). No registered blog refuses framing today, so the mode is ready rather than used.
+- **oEmbed scalars**: when `og:image` or `og:site_name` is missing, the probe reads `thumbnail_url` and
+  `provider_name` from the discovered oEmbed document; its `html` is never read (a test asserts it).

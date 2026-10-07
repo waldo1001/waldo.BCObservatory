@@ -11,6 +11,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { budget } from "../lib/config.js";
 import { StageHold } from "../orchestrator/execute.js";
+import { avatarOf } from "../extract/preview-probe.js";
 
 const BLOCKED = /confirm you.?re not a bot|sign in to confirm|HTTP Error 429|Too Many Requests/i;
 const UNAVAILABLE = /private video|video unavailable|has been removed|account .* terminated|members-only|join this channel/i;
@@ -66,6 +67,11 @@ export async function flatPlaylist(channelId: string): Promise<FlatEntry[]> {
   return out.split("\n").filter((l) => l.trim().startsWith("{")).map((l) => JSON.parse(l))
     .filter((e) => typeof e.id === "string" && /^[A-Za-z0-9_-]{11}$/.test(e.id))
     .map((e) => ({ id: e.id, title: String(e.title ?? ""), duration_s: typeof e.duration === "number" ? Math.round(e.duration) : null }));
+}
+
+/** A channel's avatar URL (D60 phase 2): the channel JSON without listing its uploads. */
+export async function channelAvatar(channelId: string): Promise<string | null> {
+  return avatarOf(JSON.parse(await ytdlp(["-J", "--flat-playlist", "--playlist-items", "0", `https://www.youtube.com/channel/${channelId}`], 120_000)));
 }
 
 export interface VideoMeta {

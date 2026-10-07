@@ -4,6 +4,7 @@ import Page from "../../../layouts/Page.astro";
 import FlightPath from "../../../components/FlightPath.astro";
 import { siteLinks } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
+import { sourceIcon } from "../../../lib/preview";
 export async function getStaticPaths() {
   const items = [...(await getCollection("posts")).map((e) => ({ e, dir: "posts", src: e.data.source_id })), ...(await getCollection("videos")).map((e) => ({ e, dir: "videos", src: e.data.channel }))];
   return (await getCollection("sources")).map((entry) => ({
@@ -24,7 +25,7 @@ const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `sources/${ent
 ---
 <Page fm={fm} kind={fm.kind === "youtube" ? "channel" : "blog"} path={`sources/${entry.id}`} section="sources" crumbs={[{ label: "Sources", href: `${base}sources/` }]}
   stats={[{ n: fm.item_count, label: fm.kind === "youtube" ? "videos" : "posts" }, ...(fm.first_item ? [{ n: String(fm.first_item).slice(0, 7), label: "first item" }] : [])]}
-  context={{ label: "Visit", href: fm.url }}>
+  context={{ label: "Visit", href: fm.url }} icon={sourceIcon(fm.source_id)}>
   <div class="prose" set:html={html} />
   <FlightPath stops={stops.map((s) => ({ ...s, href: `${base}${s.href}` }))} />
 </Page>

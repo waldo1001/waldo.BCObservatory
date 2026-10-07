@@ -14,11 +14,13 @@ const watch = `https://www.youtube.com/watch?v=${entry.id}`;
 // the stage plays the video in the page (D60); `embed: false` (an opt-out or an override) keeps the page as it was
 const stage = fm.embed !== false;
 const body = trimBody(siteLinks(entry.rendered?.html ?? "", base, `videos/${entry.id}`));
-const html = stage ? tagSeekLinks(trimMeta(body), String(fm.video_id ?? entry.id)) : body;
+// with the stage, the chapter rail under the player replaces the body's chapter list (the markdown twin keeps it)
+const chapters = stage ? ((fm.chapters ?? []) as { t: number; title: string }[]) : [];
+const html = stage ? tagSeekLinks(trimMeta(body).replace(chapters.length ? /<h2 id="chapters">[\s\S]*?(?=<h2|$)/ : /$^/, ""), String(fm.video_id ?? entry.id)) : body;
 ---
 <Page fm={fm} kind="video" path={`videos/${entry.id}`} section="videos" crumbs={[{ label: "Videos", href: `${base}videos/` }]}
   context={stage ? { label: "Watch here", href: watch, opens: "stage" } : { label: "Watch on YouTube", href: watch }}>
   {stage && <SourceStage kind="video" title={String(fm.title)} url={watch} sourceName={String(fm.source_name ?? fm.channel ?? "")}
-    date={fm.published_at} videoId={String(fm.video_id ?? entry.id)} durationS={fm.duration_s} />}
+    date={fm.published_at} videoId={String(fm.video_id ?? entry.id)} durationS={fm.duration_s} chapters={chapters} />}
   <div class="prose" set:html={html} />
 </Page>

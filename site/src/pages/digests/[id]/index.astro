@@ -3,13 +3,16 @@ import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
 import { siteLinks } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
+import { posterRows } from "../../../lib/stage";
 export async function getStaticPaths() {
   return (await getCollection("digests")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const fm = entry.data;
-const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `digests/${entry.id}`)).replace(`href="../../rss.xml"`, `href="${base}rss.xml"`);
+// the week's videos get a lazy poster each (D60 phase 2), except videos whose channel or the operator opted out
+const optedOut = new Set((await getCollection("videos")).filter((v) => v.data.embed === false).map((v) => v.id));
+const html = posterRows(trimBody(siteLinks(entry.rendered?.html ?? "", base, `digests/${entry.id}`)).replace(`href="../../rss.xml"`, `href="${base}rss.xml"`), base, optedOut);
 ---
 <Page fm={fm} kind="weekly digest" path={`digests/${entry.id}`} section="digests" crumbs={[{ label: "Weekly", href: `${base}digests/` }]}
   context={{ label: "Deprecation radar", href: `${base}code/deprecations/` }}>

@@ -156,7 +156,7 @@
       "required": ["probed", "refreshed", "failed", "rerendered", "flipped"],
       "properties": {
         "probed": { "type": "integer" }, "refreshed": { "type": "integer" }, "failed": { "type": "integer" },
-        "rerendered": { "type": "integer" }, "flipped": { "type": "array", "items": { "type": "string" } }
+        "rerendered": { "type": "integer" }, "flipped": { "type": "array", "items": { "type": "string" } }, "channels": { "type": "integer" }
       }
     },
     "items_changed": { "type": "integer" },

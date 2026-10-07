@@ -47,7 +47,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { pendingPreviewPages, renderPostIndex, rerenderPostPages } from "../render/post.js";
-import { refreshPreviews } from "../extract/preview-probe.js";
+import { refreshChannels, refreshPreviews, writeIcons } from "../extract/preview-probe.js";
 import { renderSearchIndex } from "../render/search.js";
 import { renderObjectsIndex } from "../render/objects-index.js";
 import { renderDigests } from "../render/digest.js";
@@ -67,7 +67,7 @@ import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
 import { reviewHubs } from "../review/hub.js";
-import { flatPlaylist } from "../caption/ytdlp.js";
+import { channelAvatar, flatPlaylist } from "../caption/ytdlp.js";
 
 const log = logger("nightly");
 export { PIPELINE_VERSION };
@@ -114,6 +114,8 @@ export interface NightlyDeps {
   flatPlaylist?: IngestContext["flatPlaylist"];
   /** Heap check before each stage; defaults to heapAbove(budget memory_stop_fraction). */
   heapFull?: () => boolean;
+  /** A channel's avatar (D60 phase 2); without it the run asks no channel (tests, runs without yt-dlp). */
+  channelAvatar?: (channelId: string) => Promise<string | null>;
 }
 type GuardReport = Omit<GuardDecision, "decision"> & { decision: GuardDecision["decision"] | "disabled" };
 export interface RunReport {
@@ -143,7 +145,7 @@ export interface RunReport {
   /** validate:content after rendering; reported, never blocks the commit (renderers schema-check as they write). */
   content?: { pages: number; errors: number };
   /** The preview probe (D60): posts probed for framing and card fields; hosts that stopped allowing framing. */
-  previews?: { probed: number; refreshed: number; failed: number; rerendered: number; flipped: string[] };
+  previews?: { probed: number; refreshed: number; failed: number; rerendered: number; flipped: string[]; channels?: number };
   items_changed: number; errors: string[];
 }
 
@@ -312,7 +314,11 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         // tonight's probes, plus pages whose preview is out of date (a vault-less backfill, an opt-out, an override)
         const touched = new Map([...r.touched, ...pendingPreviewPages(manifest.list("blog"), opts.dataDir, contentDirOf(opts), blogs)].map((i) => [i.id, i]));
         const rerendered = await rerenderPostPages([...touched.values()], blogs, { dataDir: opts.dataDir, contentDir: contentDirOf(opts), now: () => now });
-        return { probed: r.probed, refreshed: r.refreshed, failed: r.failed, rerendered, flipped: r.flipped };
+        const channels = linking && deps.channelAvatar
+          ? await refreshChannels(deps.sources.filter((s) => s.kind === "youtube" && s.enabled), opts.dataDir, { avatar: deps.channelAvatar, now, ttlDays: cfg.preview_ttl_days ?? 30 })
+          : { asked: 0, failed: 0 };
+        writeIcons(opts.dataDir, deps.sources);
+        return { probed: r.probed, refreshed: r.refreshed, failed: r.failed + channels.failed, rerendered, flipped: r.flipped, channels: channels.asked };
       } catch (e) {
         errors.push(`preview probe: ${(e as Error).message.slice(0, 200)}`);
         return undefined;
@@ -692,7 +698,7 @@ async function main(): Promise<void> {
   if (opts.dryRun) process.env.LLM_CACHE_ONLY = "1";
   if (opts.dryRun) log.info(`dry run: data dir ${opts.dataDir}`);
   const report = await runNightly(opts, {
-    http: httpGet, sources: loadSources(),
+    http: httpGet, sources: loadSources(), channelAvatar,
     readUsage: () => readPlanUsage({ token: process.env.BCOBS_USAGE_OAUTH_TOKEN, fetch, now: () => new Date() }),
   });
   process.exit(report.status === "aborted" ? 1 : 0);

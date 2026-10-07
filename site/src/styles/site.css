@@ -143,6 +143,36 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
   background-size: 200% 100%; animation: stage-shimmer 1.4s linear infinite;
 }
 @keyframes stage-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+/* phase 2: the slot keeps the player's space while the player itself may float to the corner (mini-player) */
+.stage-slot { position: relative; aspect-ratio: 16 / 9; background: var(--stage-bg); }
+.stage-slot > .stage-frame { position: absolute; inset: 0; aspect-ratio: auto; }
+.stage-frame.stage--mini {
+  position: fixed; inset: auto 16px 16px auto; width: min(320px, 60vw); height: auto; aspect-ratio: 16 / 9; z-index: 40;
+  border-radius: var(--r-card); overflow: hidden; box-shadow: 0 12px 40px rgba(0, 0, 0, .5);
+}
+.stage-mini-close {
+  display: none; position: absolute; top: 6px; right: 6px; z-index: 2; width: 32px; height: 32px; place-items: center; padding: 0;
+  border: 0; border-radius: 50%; background: var(--stage-badge-bg); color: #fff; font-size: 14px; cursor: pointer;
+}
+.stage--mini .stage-mini-close { display: grid; }
+.stage-chapters { list-style: none; margin: 0; padding: 6px; display: grid; gap: 1px; max-height: 232px; overflow-y: auto; border-top: 1px solid var(--line); }
+.stage-chapters a { display: flex; gap: 10px; align-items: baseline; padding: 6px 8px; border-radius: var(--r-card); color: var(--text); text-decoration: none; font-size: 14px; }
+.stage-chapters a:hover { background: var(--surface-raised); }
+.stage-chapters a[aria-current="true"] { background: var(--accent-surface); color: var(--accent); }
+.stage-chapters a[aria-current="true"] .mono-meta { color: var(--accent); }
+.stage-frame--card { aspect-ratio: auto; height: 360px; max-height: 1000px; background: var(--surface-raised); }
+.stage-dialog { width: min(960px, calc(100vw - 32px)); max-width: none; padding: 0; border: 1px solid var(--line-strong); border-radius: var(--r-panel); background: var(--surface); color: var(--text); }
+.stage-dialog::backdrop { background: rgba(5, 7, 11, .7); }
+.stage-dialog-bar { display: flex; align-items: center; gap: 12px; padding: 8px 8px 8px 14px; font-size: 14px; }
+.stage-dialog-title { flex: 1; min-width: 0; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.identity-icon { width: 20px; height: 20px; border-radius: 4px; object-fit: cover; }
+.row-icon { width: 16px; height: 16px; border-radius: 3px; vertical-align: -3px; margin-right: 6px; }
+.row-poster { float: left; width: 120px; height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: 2px 12px 4px 0; border-radius: 6px; background: var(--surface-raised); }
+li.has-poster { display: flow-root; }
+.prose li.has-poster { list-style: none; margin-left: -20px; }
+.list-page ul.list li.has-poster { display: grid; grid-template-columns: 160px minmax(0, 1fr); column-gap: 16px; align-items: start; }
+.list-page .row-poster { float: none; width: 100%; margin: 2px 0 0; display: block; }
+@media (max-width: 480px) { .list-page ul.list li.has-poster { grid-template-columns: 112px minmax(0, 1fr); } }
 table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
 th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: normal; }
 td { overflow-wrap: anywhere; }

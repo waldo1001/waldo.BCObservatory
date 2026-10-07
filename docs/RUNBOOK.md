@@ -42,6 +42,9 @@ a `claude setup-token` token returns `unavailable:scope`.
 - Backfill or re-probe outside the nightly: `npm run probe:previews -- [--limit N] [--source id] [--force]`. It
   writes records only, unless a vault checkout is present: a render without the vault skips the repeat check (D55).
   The next nightly renders every post whose page preview no longer matches its record (`pendingPreviewPages`).
+- Channel avatars (`data/preview/channels.json`) are asked from yt-dlp once per channel every 30 days in the same
+  phase; `data/preview/icons.json` (favicon or avatar per source, opt-outs applied) is rewritten every run and is
+  what the site reads. `npm run probe:previews -- --limit 0` refreshes avatars and icons only; `--no-channels` skips yt-dlp.
 - An author asks not to be framed or previewed: `embed: false` on their entry in `sources.yaml`. A host or a single
   video the operator turns off: `data/overrides/embeds.yaml` (`hosts: { example.com: { frame: false, poster: false,
   reason, at } }`, `videos: [{ id, reason, at }]`). Both are applied when pages render, so no re-probe is needed:

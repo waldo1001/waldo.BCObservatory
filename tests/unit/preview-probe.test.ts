@@ -5,7 +5,8 @@ import { mkdirSync, mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { ManifestItem } from "../../pipeline/lib/manifest.js";
-import { deriveHosts, frameDecision, hostsPath, parseHead, previewFor, previewPath, probePost, refreshPreviews, type PostProbe } from "../../pipeline/extract/preview-probe.js";
+import { readFileSync } from "node:fs";
+import { avatarOf, channelsPath, deriveHosts, frameDecision, hostsPath, iconsPath, parseHead, previewFor, previewPath, probePost, refreshChannels, refreshPreviews, writeIcons, type PostProbe } from "../../pipeline/extract/preview-probe.js";
 
 const ORIGIN = "https://waldo1001.github.io";
 const H = (h: Record<string, string> = {}) => new Headers(h);
@@ -144,4 +145,55 @@ test("pendingPreviewPages: a page whose preview differs from what it would get n
   assert.deepEqual(pendingPreviewPages(its, dataDir, contentDir, sources).map((i) => i.id), [its[0].id, its[2].id]);
   // an opt-out makes the matching page pending too
   assert.ok(pendingPreviewPages([its[1]], dataDir, contentDir, new Map([["kauffmann-nl", { name: "K", embed: false }]])).length === 1);
+});
+
+// --- phase 2 -----------------------------------------------------------------------------------------------------
+
+test("probePost: a refused WordPress page keeps /embed/ only when the card may be framed; oEmbed fills gaps, never html", async () => {
+  const now = new Date("2026-10-07T12:00:00Z");
+  const head = `<head><meta name="generator" content="WordPress 6.6"><link rel="alternate" type="application/json+oembed" href="https://www.kauffmann.nl/wp-json/oembed/1.0/embed?url=x"></head>`;
+  const seen: string[] = [];
+  const http = (embedXfo: string | null) => (async (url: string) => {
+    seen.push(url);
+    const r = url.endsWith("/embed/") ? new Response("", { headers: embedXfo ? { "x-frame-options": embedXfo } : {} })
+      : url.includes("oembed") ? new Response(JSON.stringify({ thumbnail_url: "https://www.kauffmann.nl/t.png", provider_name: "Kauffmann", html: "<script>evil()</script>" }))
+      : new Response(head, { headers: { "x-frame-options": "SAMEORIGIN" } });
+    Object.defineProperty(r, "url", { value: url });
+    return r;
+  }) as any;
+  const ok = await probePost(URL1, { http: http(null), now, origin: ORIGIN });
+  assert.deepEqual([ok.embeddable, ok.frame_url, ok.image, ok.site_name], [false, `${URL1}embed/`, "https://www.kauffmann.nl/t.png", "Kauffmann"]);
+  assert.ok(!JSON.stringify(ok).includes("evil"), "the oEmbed html is never read");
+  const no = await probePost(URL1, { http: http("DENY"), now, origin: ORIGIN });
+  assert.equal(no.frame_url, null, "the card refuses too: no card mode");
+});
+
+test("channels: the avatar from yt-dlp's channel JSON, re-asked after the TTL, a failure keeps the old one", async () => {
+  assert.equal(avatarOf({ thumbnails: [{ id: "banner_uncropped", url: "https://yt3.example/b=s0" }, { id: "avatar_uncropped", url: "https://yt3.example/a=s0" }] }), "https://yt3.example/a=s88-c-k-c0x00ffffff-no-rj");
+  assert.equal(avatarOf({ thumbnails: [] }), null);
+  const dataDir = mkdtempSync(join(tmpdir(), "bcobs-preview-"));
+  const asked: string[] = [];
+  const avatar = async (id: string) => { asked.push(id); if (id === "UCbad") throw new Error("blocked"); return `https://yt3.example/${id}`; };
+  const now = new Date("2026-10-07T12:00:00Z");
+  const chans = [{ id: "yt-a", channel_id: "UCa" }, { id: "yt-off", channel_id: "UCoff", embed: false }, { id: "yt-bad", channel_id: "UCbad" }];
+  assert.deepEqual(await refreshChannels(chans, dataDir, { avatar, now, ttlDays: 30 }), { asked: 2, failed: 1 });
+  assert.deepEqual(asked, ["UCa", "UCbad"], "an opted-out channel is not asked");
+  await refreshChannels(chans, dataDir, { avatar, now, ttlDays: 30 });
+  assert.deepEqual(asked, ["UCa", "UCbad", "UCbad"], "a fresh avatar is not asked again; the failed one is");
+  assert.equal(JSON.parse(readFileSync(channelsPath(dataDir), "utf8"))["yt-a"].avatar, "https://yt3.example/UCa");
+});
+
+test("icons: the blog favicon or the channel avatar per source, opt-outs and poster overrides applied", () => {
+  const dataDir = mkdtempSync(join(tmpdir(), "bcobs-preview-"));
+  mkdirSync(join(hostsPath(dataDir), ".."), { recursive: true });
+  writeFileSync(hostsPath(dataDir), JSON.stringify(deriveHosts([record({ favicon: "https://www.kauffmann.nl/f.ico" }), record({ url: "https://b.example/x", final_url: "https://b.example/x", favicon: "https://b.example/f.ico" })])));
+  writeFileSync(channelsPath(dataDir), JSON.stringify({ "yt-a": { avatar: "https://yt3.example/a", probed_at: "x" } }));
+  mkdirSync(join(dataDir, "overrides"), { recursive: true });
+  writeFileSync(join(dataDir, "overrides", "embeds.yaml"), `hosts:\n  b.example: { poster: false, reason: "test", at: 2026-10-07 }\nvideos: []\n`);
+  const icons = writeIcons(dataDir, [
+    { id: "kauffmann-nl", kind: "blog", url: "https://www.kauffmann.nl" }, { id: "b", kind: "blog", url: "https://b.example" },
+    { id: "yt-a", kind: "youtube", url: "https://youtube.com/@a" }, { id: "optout", kind: "blog", url: "https://www.kauffmann.nl", embed: false },
+  ]);
+  assert.deepEqual(icons, { "kauffmann-nl": "https://www.kauffmann.nl/f.ico", "yt-a": "https://yt3.example/a" });
+  assert.deepEqual(JSON.parse(readFileSync(iconsPath(dataDir), "utf8")), icons);
 });

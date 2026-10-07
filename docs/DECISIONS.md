@@ -437,7 +437,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   dimensions and a flag, and the probe never persists a body. (d) An author sets `embed: false` on their source to
   opt out of both the frame and the poster; the operator can force a host or an item off in
   `data/overrides/embeds.yaml`. The `.md` twins and `llms.txt` are unchanged: agents read the same pages as before,
-  plus the preview URLs.
+  plus the preview URLs. (e) Phase 2 widens the one exception to list pages, on purpose: the video list and the
+  weekly digests show YouTube's 320x180 still per video (`mqdefault.jpg`, about 10 KB, `loading="lazy"`, so a reader
+  scrolling the 617 rows fetches the rows in view, not all of them), and source pages and the posts list show the
+  blog's favicon or the channel's avatar (one URL per source, cached by the browser for every row). Both are
+  hotlinked, never stored, and follow the same opt-out. The rest of phase 2 loads nothing before a click: a video
+  evidence chip opens the player in a dialog at its second, the video stage gains a chapter rail and a mini-player,
+  and a blog that refuses framing but serves WordPress's `/embed/` card shows that card in a frame without
+  `allow-same-origin`. Channel avatars come from yt-dlp's channel metadata (`data/preview/channels.json`).
 - **D61 Merged BCApps pull requests are observed as changes (spec `docs/specs/bcapps-pull-requests.md`, not yet
   implemented).** D28 fixed the code pillar at one snapshot per major, so the observatory knows what differs between
   BC29 and BC30 but not what moved in BCApps this week or which objects a merge touched. A new pillar `change`

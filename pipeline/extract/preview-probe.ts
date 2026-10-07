@@ -6,6 +6,9 @@
  *   data/preview/posts/<source>/<fileKey>.json   the truth per post
  *   data/preview/hosts.json                      derived per host: a brand-new post of a host whose last three
  *                                                probes agreed renders with that decision the night it appears
+ *   data/preview/channels.json                   a YouTube channel's avatar URL (yt-dlp channel metadata)
+ *   data/preview/icons.json                      per source: the blog's favicon or the channel's avatar, opt-outs
+ *                                                and overrides applied; the site reads this one (phase 2)
  *
  * Opt-outs (`embed: false` on the source) and data/overrides/embeds.yaml are applied by the renderer
  * (`previewFor`), never by the probe, so a record stays factual and a policy change needs no re-probe.
@@ -40,7 +43,8 @@ export interface PreviewBlock {
   embeddable: Frameable; frame_url: string | null; image: string | null; image_alt: string | null;
   image_w: number | null; image_h: number | null; site_name: string | null; favicon: string | null; probed_at: string;
 }
-export interface HostEntry { embeddable: Frameable; probed_at: string; agree: number; wp_embed: boolean }
+export interface HostEntry { embeddable: Frameable; probed_at: string; agree: number; wp_embed: boolean; favicon: string | null }
+export interface ChannelEntry { avatar: string | null; probed_at: string }
 export interface EmbedOverrides {
   hosts: Record<string, { frame?: boolean; poster?: boolean; reason?: string; at?: string }>;
   videos: { id: string; reason?: string; at?: string }[];
@@ -52,6 +56,8 @@ export const previewPath = (dataDir: string, item: Pick<ManifestItem, "id" | "so
   resolve(previewDir(dataDir), "posts", item.source, `${fileKey(postKey(item))}.json`);
 export const hostsPath = (dataDir: string) => resolve(previewDir(dataDir), "hosts.json");
 export const embedsPath = (dataDir: string) => resolve(dataDir, "overrides", "embeds.yaml");
+export const channelsPath = (dataDir: string) => resolve(previewDir(dataDir), "channels.json");
+export const iconsPath = (dataDir: string) => resolve(previewDir(dataDir), "icons.json");
 
 const hostOf = (url: string): string | null => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return null; } };
 
@@ -152,12 +158,45 @@ export async function probePost(url: string, o: { http: HttpGet; ua?: keyof type
   if (!res.ok) { await res.body?.cancel().catch(() => undefined); return { ...base, final_url: finalUrl, status: res.status }; }
   const head = parseHead(await readHead(res), finalUrl);
   const embeddable = frameDecision(res.headers, finalUrl, o.origin ?? OUR_ORIGIN);
-  // WordPress serves <post>/embed/ as a framable card (phase 2 uses it when the full page refuses framing)
-  const frame_url = head.wordpress && finalUrl.startsWith("https:") ? `${finalUrl.split(/[?#]/)[0].replace(/\/?$/, "/")}embed/` : null;
+  // WordPress serves <post>/embed/ as a framable card. When the full page refuses framing, the card is checked too and
+  // kept only when it may be framed: the stage then shows it (card mode). When the page allows framing it is unused.
+  let frame_url = head.wordpress && finalUrl.startsWith("https:") ? `${finalUrl.split(/[?#]/)[0].replace(/\/?$/, "/")}embed/` : null;
+  if (frame_url && embeddable === false) frame_url = (await framable(frame_url, o)) ? frame_url : null;
+  // oEmbed scalars when og:* left gaps: thumbnail_url and provider_name only, never the provider's html
+  let { image, site_name } = head;
+  if ((!image || !site_name) && head.oembed) {
+    const oe = await oembedScalars(head.oembed, o);
+    image ??= oe.thumbnail_url;
+    site_name ??= oe.provider_name;
+  }
   return {
     ...base, final_url: finalUrl, status: res.status, embeddable, frame_url,
-    image: head.image, image_alt: head.image_alt, image_w: head.image_w, image_h: head.image_h, site_name: head.site_name, favicon: head.favicon,
+    image, image_alt: head.image_alt, image_w: image === head.image ? head.image_w : null, image_h: image === head.image ? head.image_h : null, site_name, favicon: head.favicon,
   };
+}
+
+/** May the URL be framed by us? One GET, headers only; null-safe (a failure is "no"). */
+async function framable(url: string, o: { http: HttpGet; ua?: keyof typeof USER_AGENTS; origin?: string; timeoutMs?: number }): Promise<boolean> {
+  try {
+    const r = await o.http(url, { ua: o.ua ?? "default", accept: "text/html", timeoutMs: o.timeoutMs ?? 20_000, raw: true });
+    await r.body?.cancel().catch(() => undefined);
+    return r.ok && frameDecision(r.headers, r.url || url, o.origin ?? OUR_ORIGIN) === true;
+  } catch {
+    return false;
+  }
+}
+
+/** The scalar fields of an oEmbed document; anything else in it (notably `html`) is never read. */
+export async function oembedScalars(url: string, o: { http: HttpGet; ua?: keyof typeof USER_AGENTS; timeoutMs?: number }): Promise<{ thumbnail_url: string | null; provider_name: string | null }> {
+  try {
+    const r = await o.http(url, { ua: o.ua ?? "default", accept: "application/json", timeoutMs: o.timeoutMs ?? 20_000, raw: true });
+    if (!r.ok) return { thumbnail_url: null, provider_name: null };
+    const j = JSON.parse((await r.text()).slice(0, HEAD_LIMIT)) as Record<string, unknown>;
+    const str = (v: unknown) => (typeof v === "string" && v.trim() ? v.trim() : null);
+    return { thumbnail_url: https(str(j.thumbnail_url) ?? undefined, url), provider_name: str(j.provider_name) };
+  } catch {
+    return { thumbnail_url: null, provider_name: null };
+  }
 }
 
 export function loadEmbedOverrides(dataDir: string): EmbedOverrides {
@@ -179,7 +218,7 @@ export function deriveHosts(records: PostProbe[]): Record<string, HostEntry> {
     rs.sort((a, b) => b.probed_at.localeCompare(a.probed_at));
     let agree = 0;
     while (agree < rs.length && rs[agree].embeddable === rs[0].embeddable) agree++;
-    out[h] = { embeddable: rs[0].embeddable, probed_at: rs[0].probed_at, agree, wp_embed: rs.some((r) => !!r.frame_url) };
+    out[h] = { embeddable: rs[0].embeddable, probed_at: rs[0].probed_at, agree, wp_embed: rs.some((r) => !!r.frame_url), favicon: rs.find((r) => r.favicon)?.favicon ?? null };
   }
   return out;
 }
@@ -267,4 +306,52 @@ export async function refreshPreviews(manifest: Pick<Manifest, "list">, opts: { 
   writeJson(hostsPath(opts.dataDir), hosts);
   report.flipped = Object.keys(hosts).filter((h) => before[h]?.embeddable === true && hosts[h].embeddable === false);
   return report;
+}
+
+/** A channel's avatar from yt-dlp's channel JSON: `avatar_uncropped`, asked at 88px. */
+export function avatarOf(channelJson: { thumbnails?: { id?: string; url?: string }[] }): string | null {
+  const u = channelJson.thumbnails?.find((t) => t.id === "avatar_uncropped")?.url;
+  if (!u || !u.startsWith("https://")) return null;
+  return u.replace(/=s\d+[^/]*$/, "=s88-c-k-c0x00ffffff-no-rj");
+}
+
+/**
+ * Channel avatars (one yt-dlp call per channel, re-asked after `ttlDays`); `avatar` is injected so tests and runs
+ * without yt-dlp skip it. A failure keeps the avatar the channel had.
+ */
+export async function refreshChannels(channels: { id: string; channel_id?: string; embed?: boolean }[], dataDir: string,
+  o: { avatar: (channelId: string) => Promise<string | null>; now: Date; ttlDays: number }): Promise<{ asked: number; failed: number }> {
+  const known = readJsonOr<Record<string, ChannelEntry>>(channelsPath(dataDir), {});
+  const age = (iso: string) => (o.now.getTime() - Date.parse(iso)) / 86_400_000;
+  let asked = 0, failed = 0;
+  for (const c of channels) {
+    if (!c.channel_id || c.embed === false || (known[c.id] && age(known[c.id].probed_at) < o.ttlDays)) continue;
+    asked++;
+    try {
+      known[c.id] = { avatar: await o.avatar(c.channel_id), probed_at: o.now.toISOString() };
+    } catch {
+      failed++;
+    }
+  }
+  if (asked) writeJson(channelsPath(dataDir), Object.fromEntries(Object.entries(known).sort((a, b) => a[0].localeCompare(b[0]))));
+  return { asked, failed };
+}
+
+/**
+ * Per source, the icon the site shows (source pages, the posts list): the blog's favicon from hosts.json or the
+ * channel's avatar, unless the author opted out (`embed: false`) or embeds.yaml turns the host's poster off.
+ */
+export function writeIcons(dataDir: string, sources: { id: string; kind: string; url: string; embed?: boolean }[]): Record<string, string> {
+  const hosts = readJsonOr<Record<string, HostEntry>>(hostsPath(dataDir), {});
+  const channels = readJsonOr<Record<string, ChannelEntry>>(channelsPath(dataDir), {});
+  const overrides = loadEmbedOverrides(dataDir);
+  const out: Record<string, string> = {};
+  for (const s of [...sources].sort((a, b) => a.id.localeCompare(b.id))) {
+    if (s.embed === false) continue;
+    const host = hostOf(s.url) ?? "";
+    const icon = s.kind === "youtube" ? channels[s.id]?.avatar : s.kind === "blog" && overrides.hosts[host]?.poster !== false ? hosts[host]?.favicon : null;
+    if (icon) out[s.id] = icon;
+  }
+  writeJson(iconsPath(dataDir), out);
+  return out;
 }

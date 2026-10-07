@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
 import Badges from "../../components/Badges.astro";
+import { listPoster } from "../../lib/stage";
 const base = import.meta.env.BASE_URL;
 const videos = (await getCollection("videos")).sort((a, b) => String(b.data.published_at ?? "").localeCompare(String(a.data.published_at ?? "")));
 ---
@@ -11,11 +12,14 @@ const videos = (await getCollection("videos")).sort((a, b) => String(b.data.publ
   <p class="lede">Summaries, chapters, features with verified status quotes and timestamped links. Machine-generated pages carry a badge until Opus reviews them. Agents: <a href={`${base}videos/llms.txt`}>llms.txt</a>.</p>
   <ul class="list">
     {videos.map((v) => (
-      <li>
-        <a href={`${base}videos/${v.id}/`}>{v.data.title}</a>
-        <span class="row-meta"><Badges tier={v.data.tier} review={v.data.review?.state} /></span>
-        <div class="meta">{v.data.source_name} · {String(v.data.published_at ?? "").slice(0, 10)}</div>
-        <div>{v.data.summary}</div>
+      <li class={v.data.embed === false ? undefined : "has-poster"}>
+        {v.data.embed !== false && <a class="row-poster-link" href={`${base}videos/${v.id}/`} tabindex="-1" aria-hidden="true"><img class="row-poster" src={listPoster(String(v.data.video_id ?? v.id))} alt="" width="320" height="180" loading="lazy" decoding="async" /></a>}
+        <div class="row-body">
+          <a href={`${base}videos/${v.id}/`}>{v.data.title}</a>
+          <span class="row-meta"><Badges tier={v.data.tier} review={v.data.review?.state} /></span>
+          <div class="meta">{v.data.source_name} · {String(v.data.published_at ?? "").slice(0, 10)}</div>
+          <div>{v.data.summary}</div>
+        </div>
       </li>
     ))}
   </ul>

@@ -1,0 +1,20 @@
+---
+/**
+ * The video dialog (D60 phase 2): an evidence chip that points at a second of a video (`a[data-kind="video"][data-t]`,
+ * EvidenceChip.astro, D64) opens the player there, on topic, feature and object pages. Esc or Close removes the
+ * player, so the audio stops. Modifier clicks and pages without JavaScript keep the chip's own link.
+ */
+---
+<dialog class="stage-dialog" aria-label="Video">
+  <div class="stage-dialog-bar">
+    <span class="stage-dialog-title"></span>
+    <a class="stage-ext" href="#" rel="noopener" target="_blank">Watch on YouTube</a>
+    <button type="button" class="icon-btn" data-dialog-close aria-label="Close the video">✕</button>
+  </div>
+  <div class="stage-slot"><div class="stage-frame"></div></div>
+</dialog>
+<script>
+  import { mountStageDialog } from "../scripts/source-stage";
+  const d = document.querySelector<HTMLDialogElement>("dialog.stage-dialog");
+  if (d) mountStageDialog(d);
+</script>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { sourceIcon } from "../../lib/preview";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("posts")).sort((a, b) => String(b.data.published_at ?? "").localeCompare(String(a.data.published_at ?? "")));
 ---
@@ -8,5 +9,9 @@ const all = (await getCollection("posts")).sort((a, b) => String(b.data.publishe
   <p class="eyebrow">Community posts</p>
   <h1>{all.length} posts</h1>
   <p class="lede">Summaries, key points and short quotes from Business Central blogs, linking to the original. Agents: <a href={`${base}posts/llms.txt`}>llms.txt</a>.</p>
-  <ul>{all.map((e) => <li><a href={`${base}posts/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.source_name} · {String(e.data.published_at ?? "").slice(0, 10)}</span></li>)}</ul>
+  <ul class="post-rows">{all.map((e) => {
+    // one request per blog host, cached by the browser for every row of that blog (D60 phase 2)
+    const icon = sourceIcon(e.data.source_id);
+    return <li>{icon && <img class="row-icon" src={icon} alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="strict-origin-when-cross-origin" onerror="this.remove()" />}<a href={`${base}posts/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.source_name} · {String(e.data.published_at ?? "").slice(0, 10)}</span></li>;
+  })}</ul>
 </List>

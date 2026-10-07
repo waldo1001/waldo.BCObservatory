@@ -7,6 +7,7 @@ import Base from "./Base.astro";
 import Badges from "../components/Badges.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
 import PageGalaxy from "../components/PageGalaxy.astro";
+import StageDialog from "../components/StageDialog.astro";
 import { openInClaude, pageSystem, systemLabel } from "../lib/page";
 interface Stat { n: number | string; label: string; href?: string }
 interface Props {
@@ -14,8 +15,10 @@ interface Props {
   crumbs?: { label: string; href?: string }[]; stats?: Stat[]; context?: { label: string; href: string; opens?: "stage" }; ns?: string; summary?: string | null;
   /** The side column's connections graph (ego graph); object pages draw their own neighbourhood instead. */
   connections?: boolean;
+  /** A source's own icon in the identity row (D60 phase 2): the blog's favicon or the channel's avatar, hotlinked. */
+  icon?: string | null;
 }
-const { fm, kind, path, section, crumbs = [], stats = [], context, ns, summary = fm.summary, connections = true } = Astro.props;
+const { fm, kind, path, section, crumbs = [], stats = [], context, ns, summary = fm.summary, connections = true, icon } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const site = new URL(base, Astro.site ?? "https://waldo1001.github.io").href;
 const mdUrl = `${base}${path}.md`;
@@ -30,6 +33,7 @@ const g = fm.generated ?? {};
   <main class="wrap page">
     <Breadcrumb crumbs={all} />
     <div class="identity">
+      {icon && <img class="identity-icon" src={icon} alt="" width="20" height="20" loading="lazy" decoding="async" referrerpolicy="strict-origin-when-cross-origin" onerror="this.remove()" />}
       <span class="type-label" style={system ? `color: var(--sys-${system})` : undefined}>{kind}</span>
       <Badges tier={fm.tier} review={fm.review?.state} status={fm.type === "feature" ? fm.status : null} />
       {fm.obsolete?.state && <span class="badge obsolete">obsolete - {String(fm.obsolete.state).toLowerCase()}</span>}
@@ -66,4 +70,5 @@ const g = fm.generated ?? {};
       </aside>
     </div>
   </main>
+  <StageDialog />
 </Base>

@@ -24,8 +24,10 @@ pull request or an issue; removal is honoured in the next nightly run and the hi
 
 ## Embedded sources
 
-Video and post pages can show the original in the page. Nothing loads from the source until you click, except a
-preview image (the YouTube poster or the post's own social image), which is linked, not copied. Videos play from
+Video and post pages can show the original in the page. Nothing loads from the source until you click, except
+preview images, which are linked, not copied: the YouTube poster (also as small thumbnails in the video list and the
+weekly digests), the post's own social image, and the blog's icon or the channel's avatar on source pages and in the
+posts list. Videos play from
 `youtube-nocookie.com`. Posts load in a restricted frame when the blog permits framing; otherwise the page shows a
 card that links to the post. The original stays on its author's site in both cases; this repository stores only
 the link, the image URL and whether framing is allowed. Authors who do not want their site framed or previewed set

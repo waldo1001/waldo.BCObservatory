@@ -14,7 +14,7 @@ const fm = entry.data;
 const html = trimBody(trimMeta(siteLinks(entry.rendered?.html ?? "", base, `posts/${entry.id}`)));
 const original = (fm.evidence ?? []).find((e: any) => e.kind === "blog")?.url ?? fm.url;
 // D60: a blog that allows framing opens in the page; otherwise the stage is a card and the button leaves the site
-const framable = fm.preview?.embeddable === true;
+const framable = fm.preview?.embeddable === true || !!fm.preview?.frame_url;
 const site = fm.preview?.site_name || fm.source_name;
 ---
 <Page fm={fm} kind="community post" path={`posts/${entry.id}`} section="posts"
