@@ -23,7 +23,7 @@ test("reviewOf: no model text is derived; model text follows its stored review, 
   assert.deepEqual(reviewOf(true, { state: "reviewed", by: "opus", at: "2026-10-08" }), { state: "reviewed", by: "opus", at: "2026-10-08", flags: [] });
   assert.deepEqual(reviewOf(true, { state: "flagged", by: "opus", at: "2026-10-08", flags: ["narrative-rejected"] }), { state: "flagged", by: "opus", at: "2026-10-08", flags: ["narrative-rejected"] });
   assert.equal(reviewOf(true, { state: "derived" }).state, "unreviewed", "model text is never derived");
-  assert.deepEqual(["derived", "unreviewed", "reviewed", "flagged"].map((s) => reviewWords(s as any)), ["derived from the source, no model text", "**unreviewed** (machine-generated)", "reviewed by Opus", "**flagged** (a review found a problem)"]);
+  assert.deepEqual(["derived", "unreviewed", "reviewed", "flagged"].map((s) => reviewWords(s as any)), ["derived (from the source, no model text)", "**unreviewed** (model text not yet checked)", "reviewed (checked by Opus)", "**flagged** (a review found a problem)"]);
 });
 
 test("feature and localization pages: derived without model text; a localization narrative follows its review", () => {
@@ -37,11 +37,11 @@ test("feature and localization pages: derived without model text; a localization
   const n = { country: "BE", version: "29", input_hash: "h1", summary: "Belgium narrative.", overview: "o", key_points: ["k"], learn_pages_used: 3, prompt_version: 2, at: "x", llm: { model: "m", cached: false, cost_usd: null } };
   const un = loc(n);
   assert.deepEqual([un.data.review.state, un.data.summary], ["unreviewed", "Belgium narrative."]);
-  assert.match(un.content, /narrative \*\*unreviewed\*\* \(machine-generated\)/);
+  assert.match(un.content, /narrative \*\*unreviewed\*\* \(model text not yet checked\)/);
   const review = { state: "reviewed", by: "opus", at: "2026-10-08T01:00:00Z", verdict: "approve", issues: [], input_hash: "h1", cost_usd: 0.08 };
   const ok = loc({ ...n, review });
   assert.deepEqual([ok.data.review.state, ok.data.review.by], ["reviewed", "opus"]);
-  assert.match(ok.content, /narrative reviewed by Opus/);
+  assert.match(ok.content, /narrative reviewed \(checked by Opus\)/);
   assert.equal(loc({ ...n, review: { ...review, input_hash: "old" } }).data.review.state, "unreviewed", "a review of another input hash does not count");
   const bad = loc({ ...n, review: { ...review, state: "flagged", verdict: "reject" } });
   assert.deepEqual([bad.data.review.state, bad.data.review.flags, bad.data.summary.startsWith("Belgium (BE) localization"), bad.content.includes("## Overview")], ["flagged", ["narrative-rejected"], true, false], "a rejected narrative is withheld");

@@ -17,12 +17,12 @@ export function reviewOf(modelText: boolean, review?: StoredReview | null): Revi
   return { state: "unreviewed", by: null, at: null, flags: [...(review?.flags ?? [])] };
 }
 
-/** The words a page body uses for its state, next to the tier (reviewed text plain, the others bold). */
+/** The words a page body uses for its state, next to the tier: the badge texts (Badges.astro), unreviewed and flagged bold. */
 export function reviewWords(state: ReviewState): string {
   switch (state) {
-    case "reviewed": return "reviewed by Opus";
+    case "reviewed": return "reviewed (checked by Opus)";
     case "flagged": return "**flagged** (a review found a problem)";
-    case "derived": return "derived from the source, no model text";
-    default: return "**unreviewed** (machine-generated)";
+    case "derived": return "derived (from the source, no model text)";
+    default: return "**unreviewed** (model text not yet checked)";
   }
 }

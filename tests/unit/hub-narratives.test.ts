@@ -67,7 +67,7 @@ test("topic page shows the narrative and stays schema-valid", async () => {
   const v = validate("frontmatter.topic", data);
   assert.ok(v.ok, v.errors.join("; "));
   assert.deepEqual([data.narrative, data.summary, data.generated.prompts], ["generated", "Finance - the area.", { "hub-topic": 1 }]);
-  assert.ok(content.includes("## Overview") && content.includes("- k1") && content.includes("machine-generated narrative"));
+  assert.ok(content.includes("## Overview") && content.includes("- k1") && content.includes("narrative **unreviewed** (model text not yet checked)"));
 });
 
 test("Opus hub review: biggest first within quota; fix edits, reject withholds, a new narrative needs a new review", async () => {
@@ -91,7 +91,7 @@ test("Opus hub review: biggest first within quota; fix edits, reject withholds, 
   renderTopics(w.hubs, w.items, w.dataDir, contentDir, new Date(), narratives);
   const fin = matter(readFileSync(join(contentDir, "topics/bc/fin.md"), "utf8"));
   assert.deepEqual([fin.data.review.state, fin.data.review.by, fin.data.narrative], ["reviewed", "opus", "generated"]);
-  assert.ok(fin.content.includes("narrative reviewed by Opus"));
+  assert.ok(fin.content.includes("narrative reviewed (checked by Opus)"));
   const gl = matter(readFileSync(join(contentDir, "topics/bc/fin/gl.md"), "utf8"));
   assert.deepEqual([gl.data.review.state, gl.data.narrative, gl.data.review.flags], ["flagged", "none", ["narrative-rejected"]]);
   assert.ok(validate("frontmatter.topic", gl.data).ok);

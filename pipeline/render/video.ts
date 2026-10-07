@@ -27,7 +27,7 @@ import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.j
 import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
-import { reviewOf } from "../lib/review.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -102,7 +102,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   const lines: string[] = [
     `# ${item.title}`, "",
     `> ${s.summary}`, "",
-    `[Watch on YouTube](${item.url}) · ${source.name} · ${date} · ${hms(x.duration_s)} · tier ${item.tier} · ${reviewState === "reviewed" ? "reviewed" : `**${reviewState}** (machine-generated)`}`, "",
+    `[Watch on YouTube](${item.url}) · ${source.name} · ${date} · ${hms(x.duration_s)} · tier ${item.tier} · ${reviewWords(reviewState)}`, "",
     "## Overview", "", s.overview, "",
     "## Key points", "", ...s.key_points.map((p) => `- ${p}`), "",
   ];

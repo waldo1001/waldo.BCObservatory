@@ -20,7 +20,7 @@ import { loadTopicLinks, loadTopicReview, mediaByTopic } from "../link/topics.js
 import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js";
 import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
-import { reviewOf } from "../lib/review.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const MAX_EVIDENCE = 40;
 export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
@@ -80,7 +80,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   const lines = [
     `# ${hub.title}`, "",
     `> ${summary}`, "",
-    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? (review?.state === "reviewed" ? "narrative reviewed by Opus" : "**unreviewed** (machine-generated narrative)") : review?.state === "flagged" ? "**flagged**: narrative withheld after review" : "no narrative yet"}`, "",
+    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? `narrative ${reviewWords(review?.state === "reviewed" ? "reviewed" : "unreviewed")}` : review?.state === "flagged" ? "**flagged**: narrative withheld after review" : "no narrative yet"}`, "",
   ];
   if (narrative) lines.push("## Overview", "", narrative.overview, "", "## Key points", "", ...narrative.key_points.map((k) => `- ${k}`), "");
   if (hub.children.length) {

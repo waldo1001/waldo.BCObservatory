@@ -19,6 +19,8 @@ const lines = [
   "",
   `Plan: ${r.plan.work} items queued, ${r.plan.executed} executed. LLM calls: ${r.llm.calls}.`,
   ...(r.code?.graph?.runs.length ? ["", `Call graph: ${r.code.graph.runs.map((g) => `BC${g.major} ${g.skipped ?? (g.written ? "written" : "unchanged")}, ${g.edges.toLocaleString("en")} edges, ${g.unresolved.toLocaleString("en")} unresolved, ${(g.ms / 60000).toFixed(1)} min`).join("; ")}`] : []),
+  // D77: the narrative reviews (localization, digest), one line per kind
+  ...Object.entries(r.narrative_reviews ?? {}).map(([k, v]) => `Opus review, ${k} narratives: ${v.reviewed} reviewed (${v.fixed} fixed, ${v.rejected} rejected) of ${v.candidates} due, ${v.calls} calls, $${(v.cost_usd ?? 0).toFixed(2)} (${v.stopped}).`),
   ...(r.errors.length ? ["", "Errors:", ...r.errors.map((e) => `- ${e}`)] : []),
 ];
 console.log(lines.join("\n"));

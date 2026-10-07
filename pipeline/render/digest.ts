@@ -106,7 +106,7 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   lines.push("## Code", "", ...snaps.map((m) => `- BC${m.major}: ${m.branch} at ${m.commit.slice(0, 8)}, ${m.objects} W1 objects`),
     ...vdiffs.map((d) => `- BC${d.from.version} to BC${d.to.version}: ${d.summary.objects} objects differ (${d.summary.fields_added} fields, ${d.summary.events_added} events, ${d.summary.procedures_added} procedures added)`), "");
   lines.push("## Code changes", "");
-  if (story) lines.push(`${story.text}`, "", `(${story.changes} changes summarised by Sonnet from the change pages; ${review.state === "reviewed" ? "reviewed by Opus" : "machine-generated, not yet reviewed"}.)`, "");
+  if (story) lines.push(`${story.text}`, "", `(${story.changes} changes summarised by Sonnet from the change pages; ${review.state === "reviewed" ? "reviewed, checked by Opus" : "unreviewed, model text not yet checked"}.)`, "");
   else if (review.state === "flagged") lines.push("The week's narrative was withheld after an Opus review found a problem.", "");
   if (merged.length) {
     const byBranch = new Map<string, Record<MergedKind, number>>();

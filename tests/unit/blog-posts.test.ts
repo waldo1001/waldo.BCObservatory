@@ -96,7 +96,7 @@ test("published: a valid post page and the index", async () => {
   assert.equal(fm.data.review.state, "unreviewed", "D77: model text, no review yet");
   const rv = matter(renderPostPage(item({ stages: { fetched: { at: "x", output_hash: "h" } }, review: { state: "reviewed", by: "opus", at: "2026-10-08T01:00:00Z" } }), x as any, { name: "Kauffmann" }, new Date()));
   assert.deepEqual([rv.data.review.state, rv.data.review.by], ["reviewed", "opus"], "the post review sets item.review; the page follows it");
-  assert.match(rv.content, /· reviewed by Opus/);
+  assert.match(rv.content, /· reviewed \(checked by Opus\)/);
   mkdirSync(join(root, "content/posts/kauffmann-nl"), { recursive: true });
   writeFileSync(join(root, "content/posts/kauffmann-nl/1234.md"), page);
   assert.equal(renderPostIndex(join(root, "content")), 1);

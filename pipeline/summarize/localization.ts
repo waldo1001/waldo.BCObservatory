@@ -106,6 +106,25 @@ Learn local functionality pages (JSON):
 ${JSON.stringify(learn, null, 1)}`;
 }
 
+/** What a country's narrative is written from: the diff, the Learn page summaries, the prompt and its hash; or why it waits. */
+export type LocalizationInputs = { cc: string; major: string; d: AlDiff; pages: DocExtraction[]; prompt: string; hash: string } | { waiting: string } | null;
+export function localizationInputs(dataDir: string, docs: ManifestItem[], CC: string): LocalizationInputs {
+  const cfg = loadConfig<{ learn_local_functionality: Record<string, string> }>("countries");
+  const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
+  const cc = CC.toLowerCase(), folder = cfg.learn_local_functionality[CC];
+  const major = order.find((m) => exists(resolve(dataDir, "code", "diffs", "country", `${m}-${cc}.json`)));
+  if (!major || !folder) return null;
+  const d = readJson<AlDiff>(resolve(dataDir, "code", "diffs", "country", `${major}-${cc}.json`));
+  // nothing changed against W1 means nothing to narrate, and an empty enum is an invalid schema (D58: DK and IN
+  // read as empty until their extension apps were extracted)
+  if (!areasOf(d).length) return { waiting: `${cc} (no code changes against W1 in BC${major})` };
+  const members = docs.filter((it) => it.url.includes(`/LocalFunctionality/${folder}/`) || it.id.toLowerCase().includes(`/localfunctionality/${folder.toLowerCase()}/`));
+  const pages = members.map((it) => docExtractionPath(dataDir, it)).filter(exists).map((p) => readJson<DocExtraction>(p)).sort((a, b) => a.title.localeCompare(b.title));
+  if (!members.length || pages.length < Math.ceil(members.length * READY_SHARE)) return { waiting: `${cc} (${pages.length}/${members.length} Learn pages extracted)` };
+  const prompt = localizationPrompt(cc, folder, d, pages);
+  return { cc, major, d, pages, prompt, hash: sha256(JSON.stringify({ v: PROMPT_VERSION, prompt })) };
+}
+
 export interface LocalizationRun { ready: number; refreshed: number; failed: number; waiting: string[]; stopped: string; errors: string[] }
 
 /** Narrate the priority countries whose inputs are ready and changed. `docs` = all docs manifest items. */
@@ -117,21 +136,12 @@ export async function refreshLocalizationNarratives(
   // the priority countries first, then every other known country (one Sonnet call each, redone only on change)
   const order0 = [...cfg.narrative_priority, ...cfg.known.filter((c) => !cfg.narrative_priority.includes(c))];
   const run: LocalizationRun = { ready: 0, refreshed: 0, failed: 0, waiting: [], stopped: "done", errors: [] };
-  const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
   for (const CC of o.countries ?? order0) {
-    const cc = CC.toLowerCase(), folder = cfg.learn_local_functionality[CC];
-    const major = order.find((m) => exists(resolve(dataDir, "code", "diffs", "country", `${m}-${cc}.json`)));
-    if (!major || !folder) continue;
-    const d = readJson<AlDiff>(resolve(dataDir, "code", "diffs", "country", `${major}-${cc}.json`));
-    // nothing changed against W1 means nothing to narrate, and an empty enum is an invalid schema (D58: DK and IN
-    // read as empty until their extension apps were extracted)
-    if (!areasOf(d).length) { run.waiting.push(`${cc} (no code changes against W1 in BC${major})`); continue; }
-    const members = docs.filter((it) => it.url.includes(`/LocalFunctionality/${folder}/`) || it.id.toLowerCase().includes(`/localfunctionality/${folder.toLowerCase()}/`));
-    const pages = members.map((it) => docExtractionPath(dataDir, it)).filter(exists).map((p) => readJson<DocExtraction>(p)).sort((a, b) => a.title.localeCompare(b.title));
-    if (!members.length || pages.length < Math.ceil(members.length * READY_SHARE)) { run.waiting.push(`${cc} (${pages.length}/${members.length} Learn pages extracted)`); continue; }
+    const inp = localizationInputs(dataDir, docs, CC);
+    if (!inp) continue;
+    if ("waiting" in inp) { run.waiting.push(inp.waiting); continue; }
+    const { cc, major, d, pages, prompt, hash } = inp;
     run.ready++;
-    const prompt = localizationPrompt(cc, folder, d, pages);
-    const hash = sha256(JSON.stringify({ v: PROMPT_VERSION, prompt }));
     if (loadLocalizationNarrative(dataDir, cc)?.input_hash === hash) continue;
     if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; break; }
     try {

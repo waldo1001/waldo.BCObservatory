@@ -77,7 +77,7 @@ test("page: valid video frontmatter, evidence with t, escaped tables, objects ma
   assert.ok(content.includes("| Batch \\| posting | status not stated |"));
   assert.ok(content.includes("not joined to the object pages (no object index)"), "without data/index/objects.json nothing is joined");
   assert.deepEqual(data.links.objects, []);
-  assert.ok(content.includes("**unreviewed** (machine-generated)"));
+  assert.ok(content.includes("**unreviewed** (model text not yet checked)"));
 
   const again = await publishedHandler(item(), { ...ctx, now: () => new Date("2026-10-08T01:00:00Z") });
   assert.equal(again.output_hash, r.output_hash);
