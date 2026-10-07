@@ -193,6 +193,13 @@ const majorsMeta = Object.fromEntries(majors().map((m) => [m.version, m.vnext ? 
   .g-panel :global(.g-list button:hover), .g-panel :global(.g-list button:focus-visible), .g-panel :global(.g-list a:hover) { background: var(--surface-raised); }
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
   .g-panel :global(.g-list .g-path) { display: block; margin-top: 2px; overflow-wrap: anywhere; }
+  /* media rows (D73): the title over the full width, then [kind] · source · date under it */
+  .g-panel :global(.g-list a.g-media) { grid-template-columns: 10px 1fr; align-items: start; row-gap: 0; }
+  .g-panel :global(.g-media > span:not(.g-shape)) { grid-column: 2; line-height: 20px; overflow-wrap: anywhere; }
+  .g-panel :global(.g-media > .g-shape) { grid-row: 1; margin-top: 6px; }
+  .g-panel :global(.g-media > .g-shape.bar) { margin-top: 8px; }
+  .g-panel :global(.g-list .g-meta-line) { grid-column: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 0 6px; margin-top: 2px; }
+  .g-panel :global(.g-kind) { color: var(--text-2); border: 1px solid var(--line-strong); border-radius: var(--r-badge); padding: 0 6px; }
   .g-panel :global(.g-key) { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; font: 400 11px var(--font-mono); }
   .g-panel :global(.g-key .g-dot), .g-panel :global(.g-key .g-shape) { display: inline-block; margin-left: 4px; }
   .galaxy :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); flex: none; }

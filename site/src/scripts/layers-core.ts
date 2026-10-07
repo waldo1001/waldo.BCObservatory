@@ -9,7 +9,8 @@ export interface LayersFile {
   system: string; label: string; x: number; y: number; r: number;
   objects: [string, number, number, number, number[], number, string, number][];
   hubs: [string, number, number, number][];
-  media: [string, string, number[], string][];
+  /** [media id, v | p, hub indexes, title, source id?] (D73) */
+  media: [string, string, number[], string, string?][];
   countries: Record<string, number>;
 }
 export type PlaneId = "media" | "hubs" | "code" | "countries";

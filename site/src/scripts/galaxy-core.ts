@@ -63,3 +63,8 @@ export function versionMenu(
   }));
   return { remembered: active && vs.includes(active) ? active : vs[0] ?? null, entries };
 }
+
+/** The parts of a media row's second line (D73): kind pill, source name, date; unknown parts left out. */
+export function mediaMeta(kind: string, source: string | null | undefined, date: string | null | undefined): { kind: "video" | "post"; parts: string[] } {
+  return { kind: kind === "v" ? "video" : "post", parts: [source, date].filter((x): x is string => !!x) };
+}

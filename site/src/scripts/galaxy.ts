@@ -27,11 +27,11 @@ type Target = string | [string, string];
 interface Node {
   id: string; type: string; label: string; tier: string; group: string; weight: number; url?: string; lit_at: string | null; x: number; y: number;
   ev?: number; cs?: number; cv?: string[]; ob?: string[]; ec?: number; nn?: number; ns?: string;
-  cross?: [string, number, string, Target[]][]; crossMore?: number; mb?: { n: number; top: [string, string, string | null][] };
+  cross?: [string, number, string, Target[]][]; crossMore?: number; mb?: { n: number; top: [string, string, string | null, string?][] };
 }
 interface Edge { s: string; t: string; type: string }
 interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; sysedges?: [string, string, number][]; touches?: Record<string, string[]>; reach?: Record<string, Record<string, number>> }
-interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?][] }
+interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?, string?][] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
 interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
@@ -51,7 +51,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { landedRingsOn, parseHash, portSpot, sortRows, versionMenu, type MajorMeta, type SortKey } from "./galaxy-core.js";
+import { landedRingsOn, mediaMeta, parseHash, portSpot, sortRows, versionMenu, type MajorMeta, type SortKey } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -861,7 +861,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   // panel: the list of the current scope; hovering or focusing a row marks its star
   /** path: the search lens's path label under the title (D65: "Business functionality › Sales"). */
   const row = (n: Node, extra = "", path?: string) => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}${path ? `<small class="g-path">${esc(path)}</small>` : ""}</span><small>${extra || TYPE[n.type] || n.type}</small></button></li>`;
-  const mediaRow = (id: string, kind: string, date: string | null, extra = "") => `<li><a href="${esc(base + pathOf({ id }))}"><span class="g-shape ${kind === "v" ? "tri" : "bar"}${landedMedia.has(id) ? " new" : ""}" aria-hidden="true"></span><span>${esc(byId.get(id)?.label ?? mediaTitle.get(id) ?? id)}</span><small>${kind === "v" ? "video" : "post"}${date ? ` · ${esc(date)}` : ""}${extra}</small></a></li>`;
+  /**
+   * A video or post row (D73): the title over the full width, then `[kind] · source · date`; the source is the source
+   * node's label, left out when unknown. Each separator leads its part, so a wrapped line starts with "·", never ends with it.
+   */
+  const mediaRow = (id: string, kind: string, date: string | null | undefined, source?: string) => {
+    const m = mediaMeta(kind, source ? byId.get(`source/${source}`)?.label : null, date);
+    return `<li><a class="g-media" href="${esc(base + pathOf({ id }))}"><span class="g-shape ${kind === "v" ? "tri" : "bar"}${landedMedia.has(id) ? " new" : ""}" aria-hidden="true"></span><span>${esc(byId.get(id)?.label ?? mediaTitle.get(id) ?? id)}</span><small class="g-meta-line"><span class="g-kind">${m.kind}</span>${m.parts.map((p) => `<span>· ${esc(p)}</span>`).join("")}</small></a></li>`;
+  };
   /** Media titles: this week's from landed.json, the rest from the ego graph of the open star; the id is the fallback. */
   const mediaTitle = new Map<string, string>(week.items.filter((i) => i[4]).map((i) => [i[0], i[4]!]));
   const targetRow = (t: Target) => {
@@ -870,7 +877,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   };
   const landedRows = (filter: (hubs: string[]) => boolean, cap = 40) => {
     const items = week.items.filter((i) => filter(i[3]));
-    return items.length ? `<ul class="g-list">${items.slice(0, cap).map(([id, k, d, hubs]) => mediaRow(id, k, d, hubs.length ? ` · ${hubs.length} star${hubs.length > 1 ? "s" : ""}` : "")).join("")}</ul>${items.length > cap ? `<p class="g-meta">and ${items.length - cap} more</p>` : ""}` : "";
+    return items.length ? `<ul class="g-list">${items.slice(0, cap).map(([id, k, d, , , src]) => mediaRow(id, k, d, src)).join("")}</ul>${items.length > cap ? `<p class="g-meta">and ${items.length - cap} more</p>` : ""}` : "";
   };
   const weekLabel = () => (week.anchor ? `the ${week.days} days up to ${week.anchor}` : "the last 7 days");
   const exitLink = (href: string, label: string, n: string | number | null, primary = false) => `<a class="g-exit${primary ? " primary" : ""}" href="${esc(href)}">${esc(label)}${n !== null && n !== "" ? ` <span>${esc(String(n))}</span>` : ""}</a>`;
@@ -918,7 +925,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       return `<p class="g-kicker">core sample · ${esc(PLANE_LABEL[th.plane])}</p><h2 tabindex="-1">${esc(thingLabel(th))}</h2>
         <p class="g-badges"><span class="badge ${tier}">${esc(TIER[tier])}</span></p>
         <div class="g-dock">${exits}</div>
-        <h3>Media <span class="g-n">${ss.media.size}</span></h3>${ss.media.size ? `<ul class="g-list">${[...ss.media].slice(0, 8).map((i) => mediaRow(f.media[i][0], f.media[i][1], null)).join("")}</ul>` : `<p class="g-meta">No video or post on these hubs.</p>`}
+        <h3>Media <span class="g-n">${ss.media.size}</span></h3>${ss.media.size ? `<ul class="g-list">${[...ss.media].slice(0, 8).map((i) => mediaRow(f.media[i][0], f.media[i][1], null, f.media[i][4])).join("")}</ul>` : `<p class="g-meta">No video or post on these hubs.</p>`}
         <h3>Topic hubs <span class="g-n">${ss.hubs.size}</span></h3>${ss.hubs.size ? `<ul class="g-list">${[...ss.hubs].slice(0, 12).map((i) => thingBtn({ plane: "hubs", i }, byId.get(f.hubs[i][0])?.label ?? f.hubs[i][0], `${f.hubs[i][3]} media`)).join("")}</ul>` : `<p class="g-meta">No Learn hub of this system names it: the coverage gap.</p>`}
         <h3>Code <span class="g-n">${ss.objects.size}</span></h3>${ss.objects.size ? `<ul class="g-list">${objectRows}</ul>${ss.objects.size > 12 ? `<p class="g-meta">and ${ss.objects.size - 12} more</p>` : ""}` : `<p class="g-meta">No object here.</p>`}
         <h3>Countries <span class="g-n">${ss.countries.size}</span></h3>${ss.countries.size ? `<ul class="g-list">${[...ss.countries].sort().map((c) => `<li><a href="${esc(`${base}localizations/${c}/`)}"><span class="g-dot" style="--dot: var(--sys-localization)"></span><span>${esc(c.toUpperCase())}</span><small>replaces it</small></a></li>`).join("")}</ul>` : `<p class="g-meta">No country replaces it.</p>`}
@@ -1017,8 +1024,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         <p><a class="btn primary" href="${esc(href)}" data-open>Open the page</a></p>
         ${exitDock(n)}
         ${crossSection(n)}
-        ${mine.length ? `<h3>Landed in ${esc(weekLabel())}</h3><ul class="g-list">${mine.map(([id, k, d]) => mediaRow(id, k, d)).join("")}</ul>` : ""}
-        ${n.mb ? `<h3>Videos and posts</h3><ul class="g-list">${n.mb.top.map(([id, k, d]) => mediaRow(id, k, d)).join("")}</ul>${n.mb.n > n.mb.top.length ? `<p class="g-meta">and ${n.mb.n - n.mb.top.length} more on the page</p>` : ""}` : ""}
+        ${mine.length ? `<h3>Landed in ${esc(weekLabel())}</h3><ul class="g-list">${mine.map(([id, k, d, , , src]) => mediaRow(id, k, d, src)).join("")}</ul>` : ""}
+        ${n.mb ? `<h3>Videos and posts</h3><ul class="g-list">${n.mb.top.map(([id, k, d, src]) => mediaRow(id, k, d, src)).join("")}</ul>${n.mb.n > n.mb.top.length ? `<p class="g-meta">and ${n.mb.n - n.mb.top.length} more on the page</p>` : ""}` : ""}
         ${inside.length ? `<h3>In this system</h3><ul class="g-list">${inside.slice(0, 60).map((x) => row(x, KIND[edgeType.get(`${n.id}|${x.id}`) ?? ""] ?? "")).join("")}</ul>` : ""}
         ${outside.length ? `<h3>Linked stars in other systems</h3><ul class="g-list">${outside.slice(0, 40).map((x) => row(x, `${esc(sysById.get(x.group)?.label ?? x.group)}`)).join("")}</ul>` : ""}`;
     }
