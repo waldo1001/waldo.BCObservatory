@@ -46,7 +46,8 @@ import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
-import { renderPostIndex } from "../render/post.js";
+import { pendingPreviewPages, renderPostIndex, rerenderPostPages } from "../render/post.js";
+import { refreshPreviews } from "../extract/preview-probe.js";
 import { renderSearchIndex } from "../render/search.js";
 import { renderObjectsIndex } from "../render/objects-index.js";
 import { renderDigests } from "../render/digest.js";
@@ -141,6 +142,8 @@ export interface RunReport {
   captions_retried?: number;
   /** validate:content after rendering; reported, never blocks the commit (renderers schema-check as they write). */
   content?: { pages: number; errors: number };
+  /** The preview probe (D60): posts probed for framing and card fields; hosts that stopped allowing framing. */
+  previews?: { probed: number; refreshed: number; failed: number; rerendered: number; flipped: string[] };
   items_changed: number; errors: string[];
 }
 
@@ -298,6 +301,23 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     }
     // links also run after a clean memory stop: catch-up runs end that way, and linking should keep pace with ingest
     const linking = execution.stop_reason === "done" || execution.stop_reason === "memory";
+    // deterministic, network only: may tonight's posts be framed, and what do their cards look like (D60)
+    report.previews = await phase("preview-probe", async () => {
+      try {
+        const blogs = new Map(deps.sources.filter((s) => s.kind === "blog").map((s) => [s.id, { name: s.name, author: s.author ?? null, full_text: s.full_text, user_agent: s.fetch?.user_agent, ...(s.embed === false ? { embed: false } : {}) }]));
+        const r = await refreshPreviews(manifest, { dataDir: opts.dataDir }, {
+          quota: linking ? quotas.preview_probes ?? 0 : 0, ttlDays: cfg.preview_ttl_days ?? 30, concurrency: cfg.lanes?.web ?? 3,
+          http: deps.http, now, deadline: new Date(execution.deadline), sources: blogs,
+        });
+        // tonight's probes, plus pages whose preview is out of date (a vault-less backfill, an opt-out, an override)
+        const touched = new Map([...r.touched, ...pendingPreviewPages(manifest.list("blog"), opts.dataDir, contentDirOf(opts), blogs)].map((i) => [i.id, i]));
+        const rerendered = await rerenderPostPages([...touched.values()], blogs, { dataDir: opts.dataDir, contentDir: contentDirOf(opts), now: () => now });
+        return { probed: r.probed, refreshed: r.refreshed, failed: r.failed, rerendered, flipped: r.flipped };
+      } catch (e) {
+        errors.push(`preview probe: ${(e as Error).message.slice(0, 200)}`);
+        return undefined;
+      }
+    });
     report.roadmap_links = await optionalPhase("roadmap-links", () => refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
       quota: linking ? quotas.roadmap_links ?? 0 : 0,
       reviewQuota: linking ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
@@ -333,7 +353,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
-      note: `stopped: ${execution.stop_reason}${skippedPhases.length ? `; phases skipped on memory: ${skippedPhases.join(", ")}` : ""}`,
+      note: `stopped: ${execution.stop_reason}${skippedPhases.length ? `; phases skipped on memory: ${skippedPhases.join(", ")}` : ""}${report.previews?.flipped.length ? `; framing now refused by: ${report.previews.flipped.join(", ")}` : ""}`,
     };
   } else {
     report.plan = { quotas: {}, work: 0, executed: 0, note: "ingest only" };

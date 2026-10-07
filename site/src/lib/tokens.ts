@@ -19,6 +19,8 @@ const v = (t: unknown): string | undefined => {
 /** Stand-ins for what the handoff left undesigned (HANDOFF.md section 2). Each passes AA on its theme background. */
 const FILL = {
   dark: {
+    // D60: the source stage; the video letterbox stays dark in both themes
+    "stage-bg": "#05070B", "stage-scrim": "rgba(9,12,18,.55)", "stage-badge-bg": "rgba(9,12,18,.8)",
     "tier-mixed-border": "#6B5FA8", "tier-mixed-text": "#C4B8FF",
     "ev-video-bg": "#2A1A2A", "ev-video-text": "#F0A6CF", "ev-blog-bg": "#13282A", "ev-blog-text": "#8FD6CC",
     "ev-roadmap-bg": "#2A2413", "ev-roadmap-text": "#FFD27A",
@@ -29,6 +31,7 @@ const FILL = {
     "review-flagged": "#FFD27A",
   },
   light: {
+    "stage-bg": "#0E1118", "stage-scrim": "rgba(9,12,18,.55)", "stage-badge-bg": "rgba(9,12,18,.8)",
     // D66: undrawn in light by the designer; proposals that pass AA on #F4F5F8
     "g-port-bg": "#FFFFFF", "g-port-text": "#131722", "nb-direction": "#566074",
     "surface-raised": "#ECEEF4", "accent-surface": "#FBF1DE",

@@ -1,0 +1,69 @@
+---
+/**
+ * The source stage (D60, docs/specs/source-embed.md): the video or the post, in the page, on one click. Server
+ * renders the poster (video) or the source card (post); scripts/source-stage.ts swaps in the player or the frame.
+ * Everything inside comes from the source's own origin; the repository holds URLs, dimensions and a flag.
+ */
+import { hms, readingMinutes } from "../lib/stage";
+interface Preview {
+  image?: string | null; image_alt?: string | null; image_w?: number | null; image_h?: number | null;
+  site_name?: string | null; favicon?: string | null; embeddable: boolean | null; frame_url?: string | null; probed_at?: string;
+}
+interface Props {
+  kind: "video" | "post";
+  title: string;
+  url: string;
+  sourceName: string;
+  date?: string | null;
+  videoId?: string; durationS?: number;
+  author?: string | null; words?: number;
+  preview?: Preview | null;
+  quote?: string | null;
+}
+const { kind, title, url, sourceName, date, videoId, durationS, author, words, preview, quote } = Astro.props;
+const day = date ? String(date).slice(0, 10) : null;
+const dur = kind === "video" && durationS ? hms(durationS) : null;
+const site = preview?.site_name || sourceName;
+const frame = kind === "post" && preview?.embeddable === true;
+const byline = [author, day, words ? `${words.toLocaleString("en")} words` : null, words ? `about ${readingMinutes(words)} min` : null].filter(Boolean).join(" · ");
+const ratio = preview?.image_w && preview?.image_h ? { width: preview.image_w, height: preview.image_h } : { width: 1200, height: 630 };
+---
+{kind === "video" && videoId && (
+  <figure class="stage" data-stage="video" data-state="poster" data-video={videoId} data-title={title}>
+    <div class="stage-frame">
+      <img class="stage-poster" src={`https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg`} alt="" width="480" height="360" decoding="async" fetchpriority="high" />
+      <a class="stage-play" href={url} data-stage-play aria-label={`Play video: ${title}${dur ? `, ${dur}` : ""}, from YouTube`}>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+      </a>
+      {dur && <span class="stage-badge" aria-hidden="true">{dur}</span>}
+    </div>
+    <figcaption class="stage-caption">
+      <span class="stage-source"><span class="kind video">video</span> {sourceName}{day && ` · ${day}`}</span>
+      <a class="stage-ext" href={url} rel="noopener" target="_blank">Watch on YouTube</a>
+    </figcaption>
+  </figure>
+)}
+{kind === "post" && (
+  <figure class="stage" data-stage={frame ? "frame" : "card"} data-state="poster" data-frame-mode={frame ? "page" : undefined}
+    data-src={frame ? url : undefined} data-site={site} data-title={title}>
+    <div class="stage-card">
+      {preview?.image && <img class="stage-hero" src={preview.image} alt={preview.image_alt ?? ""} width={ratio.width} height={ratio.height} loading="lazy" decoding="async" referrerpolicy="strict-origin-when-cross-origin" />}
+      <div class="stage-card-body">
+        <p class="stage-site">
+          {preview?.favicon && <img class="stage-favicon" src={preview.favicon} alt="" width="16" height="16" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" />}
+          <span class="kind blog">post</span> {site}
+        </p>
+        {byline && <p class="stage-meta mono-meta">{byline}</p>}
+        {quote && <blockquote class="stage-quote">"{quote}"</blockquote>}
+        <div class="stage-actions">
+          {frame && <a class="btn primary" href={url} data-stage-play rel="noopener">Show the post here</a>}
+          <a class={frame ? "btn" : "btn primary"} href={url} rel="noopener" target="_blank">Read on {site}</a>
+        </div>
+      </div>
+    </div>
+  </figure>
+)}
+<script>
+  import { mountStages } from "../scripts/source-stage";
+  mountStages();
+</script>

@@ -150,6 +150,15 @@
         "reviewed": { "type": "integer" }, "review_fixed": { "type": "integer" }, "review_rejected": { "type": "integer" }, "review_backlog": { "type": "integer" }
       }
     },
+    "previews": {
+      "description": "D60: the preview probe; flipped names hosts whose framing went from allowed to refused",
+      "type": "object",
+      "required": ["probed", "refreshed", "failed", "rerendered", "flipped"],
+      "properties": {
+        "probed": { "type": "integer" }, "refreshed": { "type": "integer" }, "failed": { "type": "integer" },
+        "rerendered": { "type": "integer" }, "flipped": { "type": "array", "items": { "type": "string" } }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   }

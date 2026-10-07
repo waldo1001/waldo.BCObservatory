@@ -25,6 +25,7 @@ import type { Manifest } from "../lib/manifest.js";
 import type { RoadmapEntry } from "../ingest/roadmap.js";
 import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.js";
 import { featureStatus, latestRoadmap } from "./feature.js";
+import { loadEmbedOverrides } from "../extract/preview-probe.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -57,7 +58,8 @@ export function roadmapStatusOf(r: VideoRoadmap, i: number, now: Date): { ids: s
 /** CONTENT-NOTICE.md: community pages carry a few short quotes, not a stitched transcript. */
 export const COMMUNITY_QUOTES_MAX = 5;
 
-export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
+/** `source.embed: false` (the channel's opt-out or data/overrides/embeds.yaml, D60) writes `embed: false`: no in-page player. */
+export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string; embed?: boolean }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
   const id = videoIdOf(item);
   const x = item.tier === "official" ? x0 : { ...x0, quotes: x0.quotes.slice(0, COMMUNITY_QUOTES_MAX) };
   const rm = x.features.map((_, i) => roadmapStatusOf(roadmap, i, now));
@@ -84,6 +86,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     })),
     objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`),
     quotes: x.quotes.map((q) => ({ t: Math.floor(q.t), text: q.text, check: q.check })),
+    ...(source.embed === false ? { embed: false } : {}),
   };
   validateOrThrow("frontmatter.video", fm, `video page ${id}`);
 
@@ -124,7 +127,9 @@ export async function publishedHandler(item: ManifestItem, ctx: Pick<StageContex
   if (!exists(sPath)) throw new Error(`summary missing: ${sPath}`);
   const x = readJson<VideoExtraction>(extractionPath(ctx.dataDir, id));
   const s = readJson<VideoSummary>(sPath);
-  const source = ctx.sources.get(item.source) ?? { name: item.source };
+  const src = ctx.sources.get(item.source);
+  const off = src?.embed === false || loadEmbedOverrides(ctx.dataDir).videos.some((v) => v.id === id);
+  const source = { name: src?.name ?? item.source, ...(off ? { embed: false } : {}) };
   const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id, loadReview(ctx.dataDir)), entries: latestRoadmap(ctx.dataDir) };
   const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap);
   const path = videoPagePath(ctx.contentDir, id);

@@ -38,7 +38,23 @@ export function relativeLinks(text: string): string[] {
   return out.filter(Boolean);
 }
 
-export function validateContent(contentDir: string): ContentReport {
+/** A post's `preview` (D60): a "yes, frame it" older than this many days could mislead a reader. */
+export const PREVIEW_YES_MAX_DAYS = 120;
+
+/** The preview block's own checks; the schema already holds the shape. */
+export function previewErrors(preview: any, now: Date): string[] {
+  if (!preview || typeof preview !== "object") return [];
+  const out: string[] = [];
+  for (const k of ["image", "favicon", "frame_url"]) if (preview[k] != null && !String(preview[k]).startsWith("https://")) out.push(`preview.${k} is not https`);
+  if (preview.embeddable === true) {
+    const t = Date.parse(String(preview.probed_at));
+    if (!Number.isFinite(t)) out.push(`preview.probed_at does not parse`);
+    else if ((now.getTime() - t) / 86_400_000 > PREVIEW_YES_MAX_DAYS) out.push(`preview.embeddable is true but was probed ${String(preview.probed_at).slice(0, 10)}, over ${PREVIEW_YES_MAX_DAYS} days ago`);
+  }
+  return out;
+}
+
+export function validateContent(contentDir: string, now = new Date()): ContentReport {
   const errors: string[] = [];
   const rel = (p: string) => relative(contentDir, p).split(sep).join("/");
   const pages = listFiles(contentDir, ".md");
@@ -61,6 +77,7 @@ export function validateContent(contentDir: string): ContentReport {
       if (ids.has(data.id)) errors.push(`${rel(file)}: id ${data.id} also used by ${ids.get(data.id)}`);
       else ids.set(data.id, rel(file));
     }
+    if (type === "post") errors.push(...previewErrors(data.preview, now).map((e) => `${rel(file)}: ${e}`));
     parsed.push({ file, data, body: fm.content });
   }
 

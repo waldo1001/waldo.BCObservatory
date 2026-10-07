@@ -1,0 +1,10 @@
+# Hosts and items that must not be framed or postered, whatever the probe found (D60). Reason and date, always.
+# The renderer applies these (pipeline/extract/preview-probe.ts previewFor, pipeline/render/video.ts); records under
+# data/preview/ stay factual, so changing this file needs no re-probe, only a re-render.
+#
+# hosts:
+#   example.com: { frame: false, poster: false, reason: "author asked in #123", at: 2026-10-07 }
+# videos:
+#   - { id: dQw4w9WgXcQ, reason: "...", at: 2026-10-07 }
+hosts: {}
+videos: []

@@ -26,6 +26,9 @@ export function trimBody(html: string): string {
   return out;
 }
 
+// the source stage helpers (D60) live apart so tests can import them without the taxonomy read above
+export { hms, readingMinutes, trimMeta } from "./stage";
+
 // evidence chips moved to ./evidence (D64); re-exported for the pages that import them from here
 export { evidenceMeta, evidenceTitle, type Evidence } from "./evidence";
 

@@ -1,19 +1,26 @@
 ---
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
+import SourceStage from "../../../components/SourceStage.astro";
 import { siteLinks } from "../../../lib/links";
-import { trimBody } from "../../../lib/page";
+import { trimBody, trimMeta } from "../../../lib/page";
 export async function getStaticPaths() {
   return (await getCollection("posts")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const fm = entry.data;
-const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `posts/${entry.id}`));
+// the meta line goes first, so the summary quote behind it is the body's lead and trimBody drops it (the lead shows it)
+const html = trimBody(trimMeta(siteLinks(entry.rendered?.html ?? "", base, `posts/${entry.id}`)));
 const original = (fm.evidence ?? []).find((e: any) => e.kind === "blog")?.url ?? fm.url;
+// D60: a blog that allows framing opens in the page; otherwise the stage is a card and the button leaves the site
+const framable = fm.preview?.embeddable === true;
+const site = fm.preview?.site_name || fm.source_name;
 ---
 <Page fm={fm} kind="community post" path={`posts/${entry.id}`} section="posts"
   crumbs={[{ label: "Posts", href: `${base}posts/` }, ...(fm.source_id ? [{ label: String(fm.source_name ?? fm.source_id), href: `${base}sources/${fm.source_id}/` }] : [])]}
-  context={original ? { label: `Read the original${fm.source_name ? ` on ${fm.source_name}` : ""}`, href: original } : undefined}>
+  context={original ? (framable ? { label: "Read it here", href: original, opens: "stage" } : { label: `Read the original${site ? ` on ${site}` : ""}`, href: original }) : undefined}>
+  {original && <SourceStage kind="post" title={String(fm.title)} url={original} sourceName={String(fm.source_name ?? fm.source_id ?? "")}
+    date={fm.published_at} author={fm.author} words={fm.words} preview={fm.preview} quote={fm.quotes?.[0]?.text} />}
   <div class="prose" set:html={html} />
 </Page>

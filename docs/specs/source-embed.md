@@ -1,6 +1,6 @@
 # Source stage: the original source, in the page
 
-Status: proposed, 2026-10-07. Decision: D60. Owner: waldo.
+Status: phase 1 implemented, 2026-10-07 (section 13 records what was built and where it differs). Phase 2 open. Decision: D60. Owner: waldo.
 Scope: video pages, community post pages, then the surfaces listed in section 8.
 
 ## 1. Goal
@@ -595,3 +595,26 @@ the link, the image URL and whether framing is allowed. Authors who do not want 
 ### `AGENTS.md` layout table
 
 `docs/` row: add "; `docs/specs/` holds feature specs".
+
+## 13. Outcome of phase 1 (2026-10-07)
+
+Built as sections 2 to 7 describe, with these differences:
+
+- `hms`, `readingMinutes` and `trimMeta` live in `site/src/lib/stage.ts`, re-exported from `page.ts`: `page.ts` reads
+  `config/taxonomy.json` relative to the working directory, which the unit tests cannot import.
+- `trimMeta` runs before `trimBody` on post pages. The post body puts the meta line before the summary quote, so
+  until now `trimBody` never dropped that quote and post pages showed the summary twice (lead and body).
+- Every successful probe re-renders its page, not only a probe that found something new: the page carries
+  `probed_at`, and an unchanged "yes" would otherwise age past the 120-day check. A failed probe of a post that never
+  had a good record is written too (`embeddable: null`), so it waits 3 days instead of being retried every night.
+- The backfill script renders only where a vault is checked out: a render without it skips the repeat check (D55)
+  and could undo a scrub. The nightly re-renders every post whose page `preview` differs from what `previewFor`
+  gives now (`pendingPreviewPages`), which also carries opt-outs and `embeds.yaml` changes to the pages without a
+  re-probe. The first nightly after this therefore re-renders all probed posts once.
+- `preview_ttl_days` is a top-level key of `config/budget.json`, not a quota.
+- Live backfill: 595 posts from 21 hosts in 170 s; all 595 framable, 541 with an `og:image`, 406 on WordPress (a
+  `frame_url` recorded for phase 2); `data/preview/` is 2.3 MB.
+- Verified in Chromium: before a click only `i.ytimg.com` is contacted and no cookie is set; the play button loads the
+  nocookie player and takes focus; a chapter link seeks the running player (7 s to 323 s) and keeps focus; a chapter
+  link before play loads the player at that second; a post with `embeddable: true` opens in the sandboxed frame;
+  without JavaScript every control is a link to the source; the play target stays 64px at 390.

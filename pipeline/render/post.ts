@@ -21,15 +21,18 @@ import type { StageContext } from "../orchestrator/execute.js";
 import { postExtractionPath, PROMPT_VERSION, STAGE, type PostExtraction } from "../extract/post.js";
 import { postKey, postRawPath } from "../fetch/post.js";
 import { repeatChecker, scrubRepeats } from "../validate/leak.js";
+import { loadEmbedOverrides, previewFor, type PreviewBlock } from "../extract/preview-probe.js";
 import { PIPELINE_VERSION } from "../version.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
 
-export interface PostSourceInfo { name: string; author?: { name?: string; mvp?: boolean } | null; full_text?: boolean }
+/** `embed: false` is the author's opt-out of the frame and the poster (D60). */
+export interface PostSourceInfo { name: string; author?: { name?: string; mvp?: boolean } | null; full_text?: boolean; embed?: boolean; user_agent?: "default" | "browser" }
 
-export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date): string {
+/** `preview`: embeddability and the card fields (D60), from previewFor; absent when the post was never probed. */
+export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock): string {
   const pk = postPageKey(item);
   const fm = {
     id: `post/${pk}`, type: "post", title: item.title, summary: x.summary, tier: item.tier, language: x.language || item.language || "en",
@@ -42,6 +45,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
     post_id: postKey(item), source_id: item.source, source_name: src.name, url: item.url, published_at: item.published_at ?? null,
     author: src.author?.name ?? null, full_text: !!src.full_text, words: x.words, quotes: x.quotes,
     code_objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`), systems: x.systems, versions_mentioned: x.versions,
+    ...(preview ? { preview } : {}),
   };
   validateOrThrow("frontmatter.post", fm, `post page ${pk}`);
   const date = item.published_at?.slice(0, 10) ?? "undated";
@@ -63,14 +67,14 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
  * page repeats: the raw text is in the vault, so this runs wherever the vault is (the nightly), and is skipped when
  * it is not or when the source allows full text.
  */
-export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date): string | null {
-  const page = renderPostPage(item, x, src, now);
+export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock): string | null {
+  const page = renderPostPage(item, x, src, now, preview);
   const rawPath = postRawPath(item);
   if (src.full_text || !exists(rawPath)) return page;
   const check = repeatChecker(readText(rawPath));
   if (!check(page)) return page;
   const s = scrubRepeats(x, check);
-  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now);
+  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview);
   return check(again) ? null : again;
 }
 
@@ -78,7 +82,8 @@ export function postPublished(sources: Map<string, PostSourceInfo>) {
   return async (item: ManifestItem, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">) => {
     const p = postExtractionPath(ctx.dataDir, item);
     if (!exists(p)) throw new Error(`post extraction missing: ${p}`);
-    const page = policyCheckedPage(item, readJson<PostExtraction>(p), sources.get(item.source) ?? { name: item.source }, ctx.now());
+    const src = sources.get(item.source) ?? { name: item.source };
+    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src));
     const path = resolve(ctx.contentDir, "posts", `${postPageKey(item)}.md`);
     // like the extract-time guard (D51), the item is skipped, not failed: nothing to retry, the post simply cannot
     // be summarised without repeating itself. Any older page is removed, or check:leak would still find it.
@@ -86,6 +91,34 @@ export function postPublished(sources: Map<string, PostSourceInfo>) {
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
     return { output_hash: sha256(stable(page)), data: { path: `content/posts/${postPageKey(item)}.md` } };
   };
+}
+
+/** After the preview probe: re-render the posts whose record was written, so tonight's preview reaches the page. */
+export async function rerenderPostPages(items: ManifestItem[], sources: Map<string, PostSourceInfo>, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">): Promise<number> {
+  const publish = postPublished(sources);
+  let n = 0;
+  for (const item of items) {
+    if (!item.stages.published || !exists(postExtractionPath(ctx.dataDir, item))) continue;
+    await publish(item, ctx);
+    n++;
+  }
+  return n;
+}
+
+/**
+ * Published posts whose page carries another `preview` than it would get now: a record a backfill wrote without the
+ * vault (it does not render), an author's opt-out, an embeds.yaml override, or a run that stopped. The nightly
+ * renders them, so none of those waits for the post's next probe.
+ */
+export function pendingPreviewPages(items: ManifestItem[], dataDir: string, contentDir: string, sources: Map<string, PostSourceInfo>): ManifestItem[] {
+  const overrides = loadEmbedOverrides(dataDir);
+  const canon = (v: unknown) => JSON.stringify(v ?? null, (_k, x) => (x && typeof x === "object" && !Array.isArray(x) ? Object.fromEntries(Object.entries(x).sort()) : x));
+  return items.filter((item) => {
+    const page = resolve(contentDir, "posts", `${postPageKey(item)}.md`);
+    if (!item.stages.published || !exists(page)) return false;
+    const want = previewFor(item, dataDir, sources.get(item.source) ?? {}, overrides);
+    return canon(want) !== canon((matter(readText(page)).data as { preview?: unknown }).preview);
+  });
 }
 
 /** content/posts/llms.txt: every post page, newest first. */

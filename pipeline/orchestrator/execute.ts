@@ -43,7 +43,7 @@ export interface StageResult {
 }
 export interface StageContext {
   now: () => Date; manifest: Manifest; dataDir: string; contentDir: string; mirrorsDir: string;
-  sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url">>;
+  sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url"> & Partial<Pick<SourceDef, "embed">>>;
 }
 export type StageFn = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
 /** One call for several items of the same stage (e.g. 8 short Learn pages per Haiku call); an Error per failed item. */

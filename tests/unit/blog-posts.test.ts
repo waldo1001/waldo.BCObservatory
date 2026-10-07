@@ -98,6 +98,31 @@ test("published: a valid post page and the index", async () => {
   assert.deepEqual(validateContent(join(root, "content")).errors, []);
 });
 
+test("published: the preview block (D60) is optional, validated, and stale yeses are caught", () => {
+  const x = { item_id: "blog/kauffmann-nl/1234", url: "u", title: "t", source: "kauffmann-nl", published_at: "2026-10-01T08:00:00Z", words: 900, summary: "How to post documents through the new API.", key_points: [], systems: [], topics: [], objects: [], features: [], versions: [], language: "en", quotes: [], trimmed_for_policy: 0, prompt_version: 1, llm: {} } as any;
+  const it = item({ stages: { fetched: { at: "x", output_hash: "h" } } });
+  const now = new Date("2026-10-07T12:00:00Z");
+  const preview = { embeddable: true, frame_url: null, image: "https://www.kauffmann.nl/hero.png", image_alt: null, image_w: 1200, image_h: 630, site_name: "Kauffmann", favicon: "https://www.kauffmann.nl/favicon.ico", probed_at: "2026-10-07T01:00:00.000Z" };
+  const write = (page: string) => {
+    const root = mkdtempSync(join(tmpdir(), "bcobs-posts-"));
+    mkdirSync(join(root, "content/posts/kauffmann-nl"), { recursive: true });
+    writeFileSync(join(root, "content/posts/kauffmann-nl/1234.md"), page);
+    return join(root, "content");
+  };
+  const without = renderPostPage(it, x, { name: "Kauffmann" }, now);
+  assert.equal("preview" in matter(without).data, false, "never probed: no preview key");
+  assert.deepEqual(validateContent(write(without), now).errors, []);
+  const withPreview = renderPostPage(it, x, { name: "Kauffmann" }, now, preview);
+  assert.deepEqual(matter(withPreview).data.preview, preview);
+  assert.deepEqual(validateContent(write(withPreview), now).errors, []);
+  const optedOut = renderPostPage(it, x, { name: "Kauffmann", embed: false }, now, { ...preview, embeddable: false, image: null, favicon: null });
+  assert.deepEqual(validateContent(write(optedOut), now).errors, []);
+  const errs = validateContent(write(withPreview), new Date("2027-03-01T00:00:00Z")).errors;
+  assert.equal(errs.length, 1);
+  assert.match(errs[0], /preview\.embeddable is true but was probed 2026-10-07, over 120 days ago/);
+  assert.throws(() => renderPostPage(it, x, { name: "Kauffmann" }, now, { ...preview, image: "http://insecure.example/i.png" }), /preview/, "the schema rejects http images");
+});
+
 // --- the page is what check:leak scans, so the page is what the guard checks (D55) ---------------------------
 
 /** A run that spans the title/summary seam on the page and no seam in the JSON: what killed the 2026-10-07 run. */

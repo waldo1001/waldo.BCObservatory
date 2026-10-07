@@ -150,6 +150,10 @@
           }
         }
       }
+    },
+    "embed": {
+      "description": "D60: false when the channel opted out or the video is listed in data/overrides/embeds.yaml; absent means the page may play it",
+      "type": "boolean"
     }
   }
 }

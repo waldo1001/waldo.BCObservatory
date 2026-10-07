@@ -48,3 +48,11 @@ test("policy: duplicate ids are rejected", () => {
   const r = validateSourcesDoc(loadSourcesRaw(), [...applied, applied[0]]);
   assert.ok(r.errors.some((e) => e.includes("duplicate id")));
 });
+
+test("schema: a source's embed opt-out (D60) is a boolean", () => {
+  const raw = loadSourcesRaw();
+  const i = raw.sources.findIndex(firstBlog);
+  const withEmbed = (v: unknown) => ({ ...raw, sources: raw.sources.map((s, j) => (j === i ? { ...s, embed: v } : s)) }) as SourcesDoc;
+  assert.deepEqual(validateSourcesDoc(withEmbed(false), loadSources()).errors, []);
+  assert.ok(validateSourcesDoc(withEmbed("no"), loadSources()).errors.length > 0, "embed: \"no\" is rejected");
+});

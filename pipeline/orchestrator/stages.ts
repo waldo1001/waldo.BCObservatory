@@ -31,7 +31,7 @@ import type { StageHandlers } from "./execute.js";
 const codeDeps = { checkout: sparseCheckout, cacheDir: CACHE_DIR };
 const blogSources = loadSources().filter((s) => s.kind === "blog");
 const postFetch = new Map(blogSources.map((s) => [s.id, { rest: s.fetch?.rest, user_agent: s.fetch?.user_agent }]));
-const postInfo = new Map(blogSources.map((s) => [s.id, { name: s.name, author: s.author ?? null, full_text: s.full_text }]));
+const postInfo = new Map(blogSources.map((s) => [s.id, { name: s.name, author: s.author ?? null, full_text: s.full_text, ...(s.embed === false ? { embed: false } : {}) }]));
 const fullText = (id: string) => !!postInfo.get(id)?.full_text;
 
 export const STAGE_HANDLERS: StageHandlers = {

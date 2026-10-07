@@ -48,8 +48,10 @@
     "topic_reviews": 15,
     "coverage_reviews": 20,
     "opus_reviews": 10,
-    "llm_calls_max": 450
+    "llm_calls_max": 450,
+    "preview_probes": 80
   },
+  "preview_ttl_days": 30,
   "retry": {
     "max_attempts": 5,
     "backoff_hours_base": 2

@@ -26,6 +26,8 @@ export interface SourceDef {
   mode?: "links-only" | "metadata-only";
   backfill: { months?: number; all?: boolean };
   enabled: boolean;
+  /** D60: false is the author's opt-out of the in-page frame and the poster image. */
+  embed?: boolean;
   notes?: string;
 }
 export interface SourcesDoc { version: 1; defaults?: Partial<SourceDef>; sources: SourceDef[] }
@@ -70,6 +72,8 @@ export interface Budget {
   memory_stop_fraction?: number;
   spend_caps: { night_usd: number; week_usd: number };
   quotas: Record<string, number>;
+  /** D60: a post's preview record is re-probed after this many days. */
+  preview_ttl_days?: number;
   retry: { max_attempts: number; backoff_hours_base: number };
   yt_dlp: { sleep_seconds_min: number; sleep_seconds_max: number };
 }

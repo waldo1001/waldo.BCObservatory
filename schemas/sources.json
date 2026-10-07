@@ -60,6 +60,7 @@
         "mode": { "enum": ["links-only", "metadata-only"] },
         "backfill": { "$ref": "#/$defs/backfill" },
         "enabled": { "type": "boolean" },
+        "embed": { "type": "boolean", "description": "D60: false is the author's opt-out of the in-page frame and the poster" },
         "notes": { "type": "string" }
       },
       "allOf": [

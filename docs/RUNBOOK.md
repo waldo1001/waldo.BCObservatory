@@ -33,6 +33,20 @@ percentage points left before the nearer limit; `config/budget.json` maps it to 
 Only LLM quotas scale; captions and code jobs do not. The token is `BCOBS_USAGE_OAUTH_TOKEN` (scope `user:profile`);
 a `claude setup-token` token returns `unavailable:scope`.
 
+## Source stage previews (D60)
+
+- The nightly's `preview-probe` phase GETs up to `quotas.preview_probes` (80) published posts with no record or a
+  record older than `preview_ttl_days` (30); a failed probe is retried after 3 days and keeps the record it had.
+  Records live in `data/preview/posts/<source>/<key>.json`, the host summary in `data/preview/hosts.json`. The run
+  report's `previews` field counts them; a host whose framing went from allowed to refused is named in the plan note.
+- Backfill or re-probe outside the nightly: `npm run probe:previews -- [--limit N] [--source id] [--force]`. It
+  writes records only, unless a vault checkout is present: a render without the vault skips the repeat check (D55).
+  The next nightly renders every post whose page preview no longer matches its record (`pendingPreviewPages`).
+- An author asks not to be framed or previewed: `embed: false` on their entry in `sources.yaml`. A host or a single
+  video the operator turns off: `data/overrides/embeds.yaml` (`hosts: { example.com: { frame: false, poster: false,
+  reason, at } }`, `videos: [{ id, reason, at }]`). Both are applied when pages render, so no re-probe is needed:
+  the next nightly re-renders the video pages and every post whose preview no longer matches.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

@@ -11,7 +11,7 @@ import { openInClaude, pageSystem, systemLabel } from "../lib/page";
 interface Stat { n: number | string; label: string; href?: string }
 interface Props {
   fm: Record<string, any>; kind: string; path: string; section: string;
-  crumbs?: { label: string; href?: string }[]; stats?: Stat[]; context?: { label: string; href: string }; ns?: string; summary?: string | null;
+  crumbs?: { label: string; href?: string }[]; stats?: Stat[]; context?: { label: string; href: string; opens?: "stage" }; ns?: string; summary?: string | null;
   /** The side column's connections graph (ego graph); object pages draw their own neighbourhood instead. */
   connections?: boolean;
 }
@@ -43,7 +43,9 @@ const g = fm.generated ?? {};
     <div class="actions">
       <a class="btn primary" href={openInClaude(String(fm.title), new URL(`${path}.md`, site).href)} rel="noopener">Open in Claude</a>
       <a class="btn mono" href={mdUrl} type="text/markdown">{mdName}</a>
-      {context && <a class="btn" href={context.href} rel="noopener">{context.label}</a>}
+      {context && (context.opens === "stage"
+        ? <a class="btn" href={context.href} rel="noopener" data-stage-open aria-expanded="false">{context.label}</a>
+        : <a class="btn" href={context.href} rel="noopener">{context.label}</a>)}
     </div>
     <div class="columns">
       <div class="main"><slot /></div>

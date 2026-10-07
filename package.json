@@ -24,7 +24,8 @@
     "link:roadmap": "tsx scripts/link-roadmap.ts",
     "link:topics": "tsx scripts/link-topics.ts",
     "review:topics": "tsx scripts/review-topics.ts",
-    "narrate:localization": "tsx scripts/narrate-localization.ts"
+    "narrate:localization": "tsx scripts/narrate-localization.ts",
+    "probe:previews": "tsx scripts/probe-previews.ts"
   },
   "license": "MIT",
   "devDependencies": {

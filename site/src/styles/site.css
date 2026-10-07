@@ -105,6 +105,44 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .prose li { margin: 4px 0; }
 .prose blockquote { margin: 0 0 16px; padding-left: 14px; border-left: 3px solid var(--line-strong); color: var(--text-2); }
 .table-scroll, .prose table { display: block; overflow-x: auto; }
+
+/* the source stage (D60): the video or the post, in the page, above the body */
+.stage { margin: 0 0 28px; border: 1px solid var(--line); border-radius: var(--r-panel); overflow: hidden; background: var(--surface); }
+.stage.is-cued { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stage-frame { position: relative; aspect-ratio: 16 / 9; background: var(--stage-bg); }
+.stage-poster, .stage-player { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; display: block; }
+.stage-poster { cursor: pointer; }
+.stage[data-stage="video"][data-state="poster"] .stage-frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, var(--stage-scrim), transparent 45%); pointer-events: none; }
+.stage-play {
+  position: absolute; left: 50%; top: 50%; z-index: 1; width: 64px; height: 64px; margin: -32px 0 0 -32px; display: grid; place-items: center;
+  border: 0; border-radius: 50%; background: var(--primary-bg); color: var(--primary-fg); cursor: pointer; padding: 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .45); transition: transform var(--t-hover);
+}
+.stage-play svg { width: 28px; height: 28px; fill: currentColor; margin-left: 3px; }
+.stage-play:hover { transform: scale(1.04); }
+.stage-play:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; }
+@media (min-width: 1024px) { .stage-play { width: 72px; height: 72px; margin: -36px 0 0 -36px; } }
+.stage-badge { position: absolute; right: 10px; bottom: 10px; z-index: 1; font: 500 12px var(--font-mono); color: #fff; background: var(--stage-badge-bg); padding: 2px 6px; border-radius: var(--r-badge); }
+.stage-caption, .stage-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; justify-content: space-between; padding: 10px 14px; font-size: 13px; color: var(--muted); }
+.stage-toolbar { justify-content: flex-start; border-top: 1px solid var(--line); }
+.stage .kind { font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: var(--r-badge); margin-right: 4px; }
+.stage-card { display: grid; }
+.stage-hero { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; max-height: 280px; object-fit: cover; background: var(--surface-raised); }
+@media (max-width: 600px) { .stage-hero { aspect-ratio: 16 / 9; } }
+.stage-card-body { padding: var(--card-pad); display: grid; gap: 8px; }
+.stage-site { display: flex; align-items: center; gap: 6px; margin: 0; font-weight: 600; color: var(--text); }
+.stage-favicon { width: 16px; height: 16px; border-radius: 3px; }
+.stage-meta { margin: 0; }
+.stage-quote { margin: 4px 0; padding-left: 14px; border-left: 3px solid var(--line-strong); color: var(--text-2); }
+.stage-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.stage-frame--page { aspect-ratio: auto; height: clamp(480px, 70vh, 960px); min-height: 320px; max-height: 95vh; resize: vertical; overflow: hidden; background: var(--surface-raised); }
+.stage-doc { width: 100%; height: 100%; border: 0; background: #fff; display: block; }
+.stage[data-state="loading"] .stage-frame--page::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(100deg, transparent 30%, color-mix(in srgb, var(--text) 6%, transparent) 50%, transparent 70%) var(--surface-raised);
+  background-size: 200% 100%; animation: stage-shimmer 1.4s linear infinite;
+}
+@keyframes stage-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
 table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
 th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: normal; }
 td { overflow-wrap: anywhere; }

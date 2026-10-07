@@ -89,6 +89,23 @@
       "items": {
         "type": "string"
       }
+    },
+    "preview": {
+      "description": "D60: may the post be framed in the page, and its card fields; URLs only, never a body or an image",
+      "type": "object",
+      "required": ["embeddable", "probed_at"],
+      "additionalProperties": false,
+      "properties": {
+        "embeddable": { "type": ["boolean", "null"] },
+        "frame_url": { "type": ["string", "null"], "pattern": "^https://" },
+        "image": { "type": ["string", "null"], "pattern": "^https://" },
+        "image_alt": { "type": ["string", "null"], "maxLength": 160 },
+        "image_w": { "type": ["integer", "null"] },
+        "image_h": { "type": ["integer", "null"] },
+        "site_name": { "type": ["string", "null"] },
+        "favicon": { "type": ["string", "null"], "pattern": "^https://" },
+        "probed_at": { "type": "string" }
+      }
     }
   }
 }

@@ -5,7 +5,8 @@ export const USER_AGENTS = {
   browser: "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
 } as const;
 
-export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number }) => Promise<Response>;
+/** `raw`: return the response whatever its status (the preview probe reads headers of refusals too, D60). */
+export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number; raw?: boolean }) => Promise<Response>;
 
 export const httpGet: HttpGet = async (url, opts = {}) => {
   const res = await fetch(url, {
@@ -13,7 +14,7 @@ export const httpGet: HttpGet = async (url, opts = {}) => {
     signal: AbortSignal.timeout(opts.timeoutMs ?? 45_000),
     redirect: "follow",
   });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  if (!res.ok && !opts.raw) throw new Error(`HTTP ${res.status} for ${url}`);
   return res;
 };
 
