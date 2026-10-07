@@ -1,6 +1,6 @@
 # Media rows: title over the full width, a kind pill, the source
 
-Status: proposed, 2026-10-07. Decision: D73. Owner: waldo.
+Status: implemented, 2026-10-07 (section 12 records what was built and where it differs). Decision: D73 (appended 2026-10-07). Owner: waldo.
 Scope: every video and post row in the galaxy's side panel (`site/src/scripts/galaxy.ts` `mediaRow`, styles in
 `site/src/components/Galaxy.astro`), and the three graph files that feed them (`pipeline/link/graph.ts`:
 `landed.json`, the summary's `mb`, the layers files' `media`). Line numbers are measured at `b09c7b072`
@@ -172,6 +172,27 @@ line 1021 from `mb.top` (`[3]`), line 921 from the layers file (`[4]`).
 
 No install, no new dependency, no LLM, nothing on the Mini changes: the next nightly writes the new graph files as
 part of its normal link step.
+
+## 12. Built, deviations (2026-10-07)
+
+Built as specified in sections 3 to 6: `mediaSources` and an optional last tuple element in `pipeline/link/graph.ts`
+(`landed`, `mediaOf`, `layersFiles`), both schemas, `mediaMeta` in `galaxy-core.ts`, `mediaRow(id, kind, date,
+source?)` at the four call sites, `.g-media` / `.g-meta-line` / `.g-kind` in `Galaxy.astro`. The line numbers of
+section 2 still matched after D71 and D72. Measured on the committed data, regenerated locally: all 76 landed items
+and all 898 `mb.top` entries carry a source, every one resolves to a `sources.yaml` name; `summary.json` +1.26%
+(under the 2% of 9.3). Headless check (Playwright, 1440 and 390 px): `#lens=landed` 40 rows, the galaxy panel
+without a lens 12, a Copilot hub 10, a layered Finance sample 8; every row has a `video`/`post` pill, none mentions
+stars, the title span is 90% of the row (was about 55%), no horizontal scroll at 390 px.
+
+Deviations:
+1. Edges are stored with their ends sorted (`post/...` < `source/...` < `video/...`), so the map reads the authored
+   edge from both ends; the spec assumed `source -> media`. The new test caught it for posts.
+2. Separators: each part is one span that starts with its separator (`<span>· Saurav Dhyani</span>`), not a
+   separate `·` span. With separate spans a wrapped line ended in a dangling `·` at 390 px; now a wrapped line starts
+   with it. Screen readers still read the parts in order.
+3. `layers-core.ts` `LayersFile.media` also gains the optional fifth element (the type the browser reads).
+4. Tests: the second graph test (no source, old tuple length; unlisted source keeps its id) uses its own fixture
+   variant, so the golden positions of the first test stay untouched.
 
 ## Definition of Done
 
