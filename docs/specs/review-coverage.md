@@ -1,6 +1,6 @@
 # Review badges that tell the truth: "derived" for pages without model text, an Opus review for every page with it
 
-Status: proposed, 2026-10-07. Decision: D77 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-08 (sections 12a and 12b record what was built and where it differs). Decision: D77 (appended). Owner: waldo.
 Scope: the `review` frontmatter of every page type, the badge, the search and MCP ranking that read it, and new Opus
 review passes for videos, posts, code changes, localization narratives and digest narratives. Every claim below was
 verified against the tree at `fd3e20ceb7` on 2026-10-07; counts are from the committed `content/` and
@@ -210,7 +210,7 @@ lives there), `pipeline/lib/budget.ts`, `pipeline/validate/content.ts`, `config/
 - The backlog runs are done and section 12 records the counts and the cost per kind.
 - D77 appended, PLAN M15 shipped, HANDOFF moved, AGENTS.md describes the four states.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Edits to other files (applied 2026-10-08)
 
 ### `docs/DECISIONS.md`, append
 

@@ -673,6 +673,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `raw.githubusercontent.com` at the build's commit. Past 900 MB after that, the site moves host (Cloudflare Pages
   paid, or object storage behind a CDN). Rejected: raising the budget toward 1 GB, `scopedStyleStrategy: "class"`,
   moving the twins or the host now. Spec: `docs/specs/site-size.md`.
+- **D77 A page's review state says what kind of text it holds.** `derived` is a fourth `review.state` for pages whose
+  text is all deterministic: object, app, source, feature pages, and hub and localization pages without a narrative. Its
+  badge reads "derived - from the source, no model text". Every page type that holds model text gets an Opus review
+  pass tied to the input hash of the text (D21): all videos (no longer only flagged ones), posts and code changes in
+  batches, localization and digest narratives one by one; hubs, roadmap coverage and topic links keep their reviews.
+  Edits pass the first pass's validators, a rejection withholds the model text and marks the page `flagged`. The backlog
+  is reviewed in unlimited runs; quotas then bound a normal night. Cost measured at $0.079 per Opus call (18 calls,
+  2026-10-06/07); estimated about $120 for the backlog. Built 2026-10-08 in two parts (spec sections 12a and 12b): the `derived` state on 25,853 pages, every video through `reviewed` (quota `video_reviews`), posts and changes in a `content-reviews` phase (`post_reviews`, `change_reviews`), localization and digest narratives on `opus_reviews`; the backlog runs in the first unlimited nightly.
 - **D78 A panel list row always has its three parts, and the grid survives one that does not.** Panel rows are a
   marker, a label and a count; the lens picker (`#lens=pick:localization|source`) gets all three: the localization
   dot or the source's kind (youtube a triangle, blog a bar, else a dot) and the number of stars the lens lights,

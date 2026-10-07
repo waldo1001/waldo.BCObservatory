@@ -7,11 +7,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Open specs, not yet implemented
 
 
-- **Review coverage** (`docs/specs/review-coverage.md`, D77, M15). Status: proposed 2026-10-07, nothing implemented.
-  Start with phase 1 (`pipeline/lib/review.ts`, the schema enum and the ten renderer call sites; no LLM). Until it lands
-  25,800 pages without any model text read "unreviewed - machine-generated", and videos, posts and changes are
-  reviewed only when flagged (3 of 633 videos) or never.
-
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
@@ -23,6 +18,11 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **Review coverage, D77** (`docs/specs/review-coverage.md`, M15): pages without model text say `derived`
+  (25,853 on a local render); every video, post and code change and the localization and digest narratives have an
+  Opus review tied to the input hash (quotas `video_reviews`, `post_reviews`, `change_reviews`, `opus_reviews`). The
+  backlog (about 615 videos, 600 posts, 1,080 changes, ~945 calls, ~$120) runs in the first unlimited nightly; a
+  rejected review withholds the model text and marks the page `flagged`. Spec sections 12a and 12b.
 - **Panel lists, D78** (`docs/specs/panel-lists.md`, M16): "Pick a localization" and "Pick a source" rows have a
   marker (localization dot, source kind) and the count of stars the lens lights; a `.g-list` row without a marker gets
   two columns. `node scripts/ui-sweep.mjs` after a galaxy change (RUNBOOK): 108 squeezed rows before, 0 after.
