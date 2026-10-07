@@ -12,10 +12,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   25,800 pages without any model text read "unreviewed - machine-generated", and videos, posts and changes are
   reviewed only when flagged (3 of 633 videos) or never.
 
-- **Panel lists** (`docs/specs/panel-lists.md`, D78, M16). Status: proposed 2026-10-07, nothing implemented. Start with
-  `pickerRows` in `galaxy-core.ts`, then the `:has()` rule in `Galaxy.astro`. Until it lands "Pick a localization" and
-  "Pick a source" print every label one character per line (22 and 32 rows).
-
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
@@ -27,6 +23,10 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **Panel lists, D78** (`docs/specs/panel-lists.md`, M16): "Pick a localization" and "Pick a source" rows have a
+  marker (localization dot, source kind) and the count of stars the lens lights; a `.g-list` row without a marker gets
+  two columns. `node scripts/ui-sweep.mjs` after a galaxy change (RUNBOOK): 108 squeezed rows before, 0 after.
+  Deviations in the spec's section 12.
 - **Table columns keep their words, D74** (`docs/specs/table-columns.md`, M12): both phases on `dev/extract`. `td`
   wraps with `break-word`, markdown tables sit in `.table-scroll` and fill the width, pills never wrap; on
   `objects/table/32/` at 1280 Name/Type went from 89/76 to 136/99 px. The next nightly rewrites the 429 video pages

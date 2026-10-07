@@ -1,6 +1,6 @@
 # Panel lists keep their words: the lens picker's rows, and a row grid that cannot squeeze a label
 
-Status: proposed, 2026-10-07. Decision: D78 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-08 (section 12 records what was built and where it differs). Decision: D78 (appended 2026-10-08). Owner: waldo.
 Scope: the galaxy side panel's list rows (`site/src/components/Galaxy.astro:188-202`), the lens picker
 (`site/src/scripts/galaxy.ts:1314-1318`), and a headless sweep that guards every panel list. Every claim below was
 verified against the tree at `fa53a8d1ab` on 2026-10-07; the failure was measured on a build of that tree with headless
@@ -147,18 +147,26 @@ Modified: `site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`, `sit
 - Tests green, site build passes.
 - D78 appended, PLAN M16 shipped, HANDOFF moved.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-08)
 
-### `docs/DECISIONS.md`, append
+Built as specified in sections 4 to 6: `pickerRows` in `galaxy-core.ts` (tested), the picker template in `galaxy.ts`,
+the `:has()` rule in `Galaxy.astro`, `scripts/ui-sweep.mjs`, a `docs/RUNBOOK.md` paragraph. Sweep on the build,
+1440 and 390 px: 108 squeezed rows before (22 + 32 per width, both pickers only), 0 after. Fallback proof (section 7):
+with the marker removed from `row` the sweep reports 0; with the `:has()` rule also removed it reports 1,926, so the
+rule carries it. Screenshots of both pickers at both widths in dark and light checked by eye. A picker row now reads
+`<span class="g-dot" style="--dot: var(--sys-localization)" aria-hidden="true"></span><span>Russia (RU)</span><small>87</small>`;
+a row click sets the lens and the hash as before.
 
-The D78 text of section 3.
+Deviations:
+1. The graph summary carries no source kind. `Galaxy.astro` passes `data-source-kinds` (source id to `kind`) from the
+   `sources` content collection; the source lens gains an optional `kind`. The 3 `github-pr` sources get the plain
+   dot (`var(--sys-sources, var(--muted))`).
+2. `pickerRows(lenses, nodes, group)` returns a marker token (`loc`, `tri`, `bar`, `dot`), not markup; `galaxy.ts`
+   maps it to HTML (`PICK_MARK`), so the core stays DOM-free.
+3. The sweep has 15 states per width, 30 in all (section 7 said 60): the 2 pickers, the first lens of each select
+   group (5), the version and this-week lenses, the galaxy panel, 3 systems, the heaviest object star, a Tilt. The
+   states are read from the build. It also opens every `details.ask` menu while measuring. Port 4188
+   (`SWEEP_PORT`), base path `SWEEP_BASE`.
 
-### `docs/PLAN.md` section 5, row before `v0.2+`
-
-| **M16 panel lists** | the lens picker's rows get a marker and a count; panel rows without a marker get a two-column grid; a headless sweep over every panel state (`docs/specs/panel-lists.md`, D78) | half a day | none: deterministic, no LLM |
-
-### `docs/HANDOFF.md`, open specs
-
-- **Panel lists** (`docs/specs/panel-lists.md`, D78, M16). Status: proposed 2026-10-07, nothing implemented. Start with
-  `pickerRows` in `galaxy-core.ts`, then the `:has()` rule in `Galaxy.astro`. Until it lands "Pick a localization" and
-  "Pick a source" print every label one character per line (22 and 32 rows).
+Open: after a picker row click the focus falls to `body`, so Esc only clears the lens once the galaxy has focus
+again. Unchanged from before; not in this spec.

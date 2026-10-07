@@ -673,3 +673,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `raw.githubusercontent.com` at the build's commit. Past 900 MB after that, the site moves host (Cloudflare Pages
   paid, or object storage behind a CDN). Rejected: raising the budget toward 1 GB, `scopedStyleStrategy: "class"`,
   moving the twins or the host now. Spec: `docs/specs/site-size.md`.
+- **D78 A panel list row always has its three parts, and the grid survives one that does not.** Panel rows are a
+  marker, a label and a count; the lens picker (`#lens=pick:localization|source`) gets all three: the localization
+  dot or the source's kind (youtube a triangle, blog a bar, else a dot) and the number of stars the lens lights,
+  highest first. The row grid switches to two columns (`minmax(0, 1fr) auto`) when a row has no `.g-dot`/`.g-shape`
+  (`:has()`), so a label is never placed in the 10 px marker column. `scripts/ui-sweep.mjs` (Playwright, not in CI)
+  sweeps 15 panel states at 1440 and 390 px and fails on a squeezed label: 108 before, 0 after. Rejected: only the
+  markers (leaves the trap), only the CSS fallback (the picker stays the one list without markers or counts),
+  `grid-template-areas` on 23 templates. Spec: `docs/specs/panel-lists.md`.
