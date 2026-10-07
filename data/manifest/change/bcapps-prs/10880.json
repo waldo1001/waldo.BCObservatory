@@ -6,10 +6,35 @@
   "title": "[29.X]-Inconsistent Validation of Non-Deductible VAT % for Purchase Lines Sharing the Same VAT Identifier",
   "url": "https://github.com/microsoft/BCApps/pull/10880",
   "published_at": "2026-09-10T07:35:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:09.541Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:14.097Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003388
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:14.324Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:14.334Z",
+      "path": "content/changes/bcapps/10880.md"
     }
   },
   "input_hash": "05fc390f234946ca8c6f19b76fe49dd13990a3ad:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "inconsistent validation of non deductible vat for purchase lines sharing the same vat identifier"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6d5d8b32ee30304302187ab90e1ccc055c7cf13ab19a34b1c0efc5ed1d2d07c"
 }

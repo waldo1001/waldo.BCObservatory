@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10155",
+  "number": 10155,
+  "title": "Slice 641293: [Expense Agent] Expense Locations and Per-diem rules in configurationAdded more locations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent now includes comprehensive expense locations for all country/regions with corresponding expense rule headers and conditions to support more detailed per-diem and rule configuration.",
+  "key_points": [
+    "Added expense locations covering all country/regions through new codeunit 7124 Create Expense Locations",
+    "Created new codeunits for setting up expense rule conditions (7126) and rule headers (7128) as separate setup operations",
+    "Refactored expense category creation logic for better organization",
+    "Expanded Expense Agent Setup page with additional configuration options",
+    "Updated demo data and setup logic to use the new location-based configuration structure"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": "Adds more locations (basically all country/regions) and corresponding expense rule headers and expense rule conditions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004425,
+    "changes_in_call": 1
+  }
+}

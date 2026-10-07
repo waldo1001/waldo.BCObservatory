@@ -6,10 +6,35 @@
   "title": "Cross-environment Master Data synchronization (same tenant)",
   "url": "https://github.com/microsoft/BCApps/pull/10753",
   "published_at": "2026-09-10T08:54:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:07.410Z",
+      "change_class": "code",
+      "files": 48,
+      "al": 36,
+      "objects": 36,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:12.947Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.012269
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:13.102Z",
+      "objects": 36,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:13.116Z",
+      "path": "content/changes/bcapps/10753.md"
     }
   },
   "input_hash": "527b9cb5146729f437cb0bccbd9cdaf7a9ad5f31:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "cross environment master data synchronization same tenant"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f80b8755c0bd7a8c6c5a801dae6308b0f8724cc66f42d046b9229fec162e08a9"
 }

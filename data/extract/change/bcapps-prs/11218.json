@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11218",
+  "number": 11218,
+  "title": "[master] - Subscription Contract Price Update applies the lowest sales price across all Unit of Measure codes instead of respecting Unit-Specific Price List entries in Subscription Billing.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription Contract Price Update now correctly respects unit-specific price list entries when calculating prices instead of applying the lowest price across all units of measure.",
+  "key_points": [
+    "Fixed price calculation to filter by the subscription's specific unit of measure",
+    "Updated CreateTempSalesLine and CreateTempPurchaseLine procedures to populate Unit of Measure Code",
+    "Ensured temporary sales/purchase lines pass the correct Unit of Measure for accurate price filtering",
+    "Added test coverage to validate unit-specific price list behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003863,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11113,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11113",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T05:45:57Z",
+  "merge_commit_sha": "ba802c238c06a4c944f8267b36f471307e8632af",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master][All-e][FTE][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”.",
+  "body_hash": "af75439f9c51a23da8b4119e7a98c072c410df3c863d76528ec6ebd8a3f3da74",
+  "fixes_issues": [],
+  "work_items": [
+    649253
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/Resource/ResourceEmployee.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/HumanResources/Employee/EmployeeRelative.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/HumanResources/Employee/EmployeeRelatives.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Resource/ResourceEmployee.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Resource/ResourceEmployee.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/HumanResources/Employee/EmployeeRelative.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/HumanResources/Employee/EmployeeRelatives.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Resource/ResourceEmployee.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 143,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/HumanResources/Employee/EmployeeRelative.Table.al",
+        "status": "modified",
+        "key": "table/5205",
+        "type": "table",
+        "id": 5205,
+        "name": "Employee Relative",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/5205"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/HumanResources/Employee/EmployeeRelative.Table.al",
+        "status": "modified",
+        "key": "table/5205",
+        "type": "table",
+        "id": 5205,
+        "name": "Employee Relative",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5205"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/HumanResources/Employee/EmployeeRelatives.Page.al",
+        "status": "modified",
+        "key": "page/5209",
+        "type": "page",
+        "id": 5209,
+        "name": "Employee Relatives",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5209"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/HumanResources/Employee/EmployeeRelatives.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "hr"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

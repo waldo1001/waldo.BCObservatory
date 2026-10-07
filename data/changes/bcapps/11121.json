@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11121,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11121",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T10:26:19Z",
+  "merge_commit_sha": "d9496dbde628e2f5bc90ab7894710673c12b0521",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "SCM",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix generation rule source table validation ",
+  "body_hash": "868b003dc4d7f841749fda97de6ffd26590e24a2b701715d96ffd7563bc87acc",
+  "fixes_issues": [],
+  "work_items": [
+    642736
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRule.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRule.Table.al",
+        "status": "modified",
+        "key": "table/20404",
+        "type": "table",
+        "id": 20404,
+        "name": "Qlty. Inspection Gen. Rule",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20404"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

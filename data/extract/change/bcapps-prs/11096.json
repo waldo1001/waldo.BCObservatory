@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11096",
+  "number": 11096,
+  "title": "PEPPOL FR improvements",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "French PEPPOL exports now correctly handle billing profiles, identifiers, regulatory comments, and delivery information to meet partner feedback and French e-invoicing requirements.",
+  "key_points": [
+    "Corrected French and Extended CTC France customization identifiers and billing profile selection",
+    "Added Extended CTC line order references, shipment identifiers, and delivery dates for multi-order invoices",
+    "Updated supplier and buyer SIREN/SIRET identification with preserved electronic-address schemes",
+    "Added billing references for credit memos and removed zero-value allowance totals from generated XML",
+    "Grouped regulatory comments by type to produce single UBL notes without repetition"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "French PEPPOL exports need to meet partner feedback and French e-invoicing requirements for identifiers, billing profiles, regulatory comments, document references, and participant routing.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003898,
+    "changes_in_call": 1
+  }
+}

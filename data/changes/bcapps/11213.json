@@ -1,0 +1,100 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11213,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11213",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T17:46:07Z",
+  "merge_commit_sha": "c4be4def478559a0a59421779b4e75f5cc0cca0f",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix sample invoice email when the agent setup is not saved yet",
+  "body_hash": "4602f85f1bbaa9f0a2314225fb678717fe9645b3605eb513df6bcb05ea0665e1",
+  "fixes_issues": [],
+  "work_items": [
+    648897
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PADemoGuide.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PADemoGuide.Page.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 68,
+    "deletions": 51,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PADemoGuide.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3309",
+        "type": "codeunit",
+        "id": 3309,
+        "name": "PA Demo Guide",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3309"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PADemoGuide.Page.al",
+        "status": "modified",
+        "key": "page/3307",
+        "type": "page",
+        "id": 3307,
+        "name": "PA Demo Guide",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "page/3307"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/3304",
+        "type": "page",
+        "id": 3304,
+        "name": "Payables Agent Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "page/3304"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PayablesAgent"
+  ]
+}

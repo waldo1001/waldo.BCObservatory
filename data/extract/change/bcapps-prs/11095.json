@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11095",
+  "number": 11095,
+  "title": "[main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Deferral Code field on released purchase line documents now validates that the purchase header status is open, preventing modification of deferrals on non-open purchase records.",
+  "key_points": [
+    "Added missing validation for Deferral Code field on purchase lines",
+    "Validation ensures purchase header status must be 'Open' before allowing deferral code changes",
+    "Applied across all localization layers and base application",
+    "Includes test automation to verify the validation works correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Status must be equal to 'Open' in Purchase Header validation missing for Deferral Code field on Released Purchase documents.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004097,
+    "changes_in_call": 1
+  }
+}

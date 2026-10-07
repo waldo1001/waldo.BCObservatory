@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10348",
+  "number": 10348,
+  "title": "Adding a Power BI workspace to Company Information to be used when deploying reports",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "integration"
+  ],
+  "summary": "Company Information now supports configuring a Power BI Workspace to serve as the target destination for deploying Power BI reports from Business Central.",
+  "key_points": [
+    "Added a Power BI Workspace field to Company Information's Reporting section",
+    "Workspace configuration is used as the deployment target for Deployable reports",
+    "New method surfaces added to Power BI service interfaces to support workspace management",
+    "Workspace lookup page added to allow selecting from available Power BI workspaces",
+    "Changes applied across all localization layers (W1, NA, GB, DE, FR, etc.)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009587,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11214",
+  "number": 11214,
+  "title": "[29.x][All-e][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "hr"
+  ],
+  "summary": "The Last Name field for employee relatives is now visible and editable on the Employee Relatives page after being missing from the page layout.",
+  "key_points": [
+    "Last Name field added to the Employee Relatives page layout",
+    "Field was present in the underlying table but not exposed in the UI",
+    "Automated UI test added to verify the field can be edited and saved",
+    "Fixes an issue where users could not view or edit employee relative last names"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "hr"
+  ],
+  "quote": "Last name of the employee relative is not editable when customized using \"Profile (Role)\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003621,
+    "changes_in_call": 1
+  }
+}

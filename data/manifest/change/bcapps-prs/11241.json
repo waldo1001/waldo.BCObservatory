@@ -6,7 +6,7 @@
   "title": "Make AL test fixtures compatible with ClientService connections",
   "url": "https://github.com/microsoft/BCApps/pull/11241",
   "published_at": "2026-09-10T10:23:40Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "make al test fixtures compatible with clientservice connections"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:03:05.977Z",
+  "retry_after": null
 }

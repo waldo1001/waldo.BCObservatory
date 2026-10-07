@@ -1,0 +1,778 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10753,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10753",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T08:54:01Z",
+  "merge_commit_sha": "527b9cb5146729f437cb0bccbd9cdaf7a9ad5f31",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Cross-environment Master Data synchronization (same tenant)",
+  "body_hash": "2c4310732e41c1e43dadeb99feb15e3a218449859165135f5c469eac29835aca",
+  "fixes_issues": [],
+  "work_items": [
+    647660
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/MDMCrossEnvRead.PermissionSet.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/MasterDataMgtObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/IntegrationMasterDataSynch.Codeunit.al",
+      "status": "modified",
+      "additions": 122,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMContactRelationCache.Codeunit.al",
+      "status": "added",
+      "additions": 153,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvChangeDetector.Codeunit.al",
+      "status": "added",
+      "additions": 285,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvDataSource.Codeunit.al",
+      "status": "added",
+      "additions": 591,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvSourceAPI.Codeunit.al",
+      "status": "added",
+      "additions": 681,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+      "status": "added",
+      "additions": 381,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMInlineMedia.Codeunit.al",
+      "status": "added",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMLocalDataSource.Codeunit.al",
+      "status": "added",
+      "additions": 86,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMPrivacyNotice.Codeunit.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceCapabilities.Codeunit.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceConnection.Codeunit.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+      "status": "added",
+      "additions": 411,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceWatermark.Codeunit.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 75,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtInstall.Codeunit.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSetupDefault.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 266,
+      "deletions": 96,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtTableCouple.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtTblUncouple.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/enums/MDMDataSourceType.Enum.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+      "status": "added",
+      "additions": 315,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataManagementSetup.Page.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataSynchFields.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataSynchTables.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMContact.TableExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMCurrencyExchRate.TableExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMCustomer.TableExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMPostCode.TableExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMVendor.TableExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+      "status": "modified",
+      "additions": 167,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataMgtTableMapping.TableExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/app.json",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/LibraryMasterDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 289,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMInProcessTransport.Codeunit.al",
+      "status": "added",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMTestDetectorProbe.Codeunit.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMTestPagingConfig.Codeunit.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMTestTableA.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/app.json",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "added",
+      "additions": 987,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvDetectorTests.Codeunit.al",
+      "status": "added",
+      "additions": 269,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvSourceTests.Codeunit.al",
+      "status": "added",
+      "additions": 310,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MasterDataMgtSetupTests.Codeunit.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MasterDataMgtSynchTests.Codeunit.al",
+      "status": "modified",
+      "additions": 193,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 48,
+    "additions": 6701,
+    "deletions": 288,
+    "al": 36
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/MDMCrossEnvRead.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/7242",
+        "type": "permissionset",
+        "id": 7242,
+        "name": "MDM Cross-Env Read",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionset/7242"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/MasterDataMgtObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/7230",
+        "type": "permissionset",
+        "id": 7230,
+        "name": "Master Data Mgt. - Objects",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionset/7230"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/IntegrationMasterDataSynch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7231",
+        "type": "codeunit",
+        "id": 7231,
+        "name": "Integration Master Data Synch.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7231"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMContactRelationCache.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7234",
+        "type": "codeunit",
+        "id": 7234,
+        "name": "MDM Contact Relation Cache",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7234"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvChangeDetector.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7245",
+        "type": "codeunit",
+        "id": 7245,
+        "name": "MDM Cross-Env Change Detector",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7245"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvDataSource.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7249",
+        "type": "codeunit",
+        "id": 7249,
+        "name": "MDM Cross-Env Data Source",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7249"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvSourceAPI.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7241",
+        "type": "codeunit",
+        "id": 7241,
+        "name": "MDM Cross-Env Source API",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7241"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7247",
+        "type": "codeunit",
+        "id": 7247,
+        "name": "MDM Http Source Transport",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7247"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMInlineMedia.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7232",
+        "type": "codeunit",
+        "id": 7232,
+        "name": "MDM Inline Media",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7232"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMLocalDataSource.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7240",
+        "type": "codeunit",
+        "id": 7240,
+        "name": "MDM Local Data Source",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7240"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMPrivacyNotice.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7242",
+        "type": "codeunit",
+        "id": 7242,
+        "name": "MDM Privacy Notice",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7242"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceCapabilities.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7246",
+        "type": "codeunit",
+        "id": 7246,
+        "name": "MDM Source Capabilities",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7246"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceConnection.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7244",
+        "type": "codeunit",
+        "id": 7244,
+        "name": "MDM Source Connection",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7244"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7248",
+        "type": "codeunit",
+        "id": 7248,
+        "name": "MDM Source Response",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7248"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceWatermark.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7239",
+        "type": "codeunit",
+        "id": 7239,
+        "name": "MDM Source Watermark",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7239"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7233",
+        "type": "codeunit",
+        "id": 7233,
+        "name": "Master Data Management",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7233"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtInstall.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7243",
+        "type": "codeunit",
+        "id": 7243,
+        "name": "Master Data Mgt. Install",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7243"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSetupDefault.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7230",
+        "type": "codeunit",
+        "id": 7230,
+        "name": "Master Data Mgt. Setup Default",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7230"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7237",
+        "type": "codeunit",
+        "id": 7237,
+        "name": "Master Data Mgt. Subscribers",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7237"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtTableCouple.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7235",
+        "type": "codeunit",
+        "id": 7235,
+        "name": "Master Data Mgt. Table Couple",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7235"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtTblUncouple.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7236",
+        "type": "codeunit",
+        "id": 7236,
+        "name": "Master Data Mgt. Tbl. Uncouple",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7236"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7238",
+        "type": "codeunit",
+        "id": 7238,
+        "name": "Master Data Mgt. Upgrade",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7238"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/enums/MDMDataSourceType.Enum.al",
+        "status": "added",
+        "key": "enum/7239",
+        "type": "enum",
+        "id": 7239,
+        "name": "MDM Data Source Type",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "enum/7239"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al",
+        "status": "added",
+        "key": "interface/imdm data source",
+        "type": "interface",
+        "id": null,
+        "name": "IMDM Data Source",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "interface/imdm-data-source"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al",
+        "status": "added",
+        "key": "interface/imdm source transport",
+        "type": "interface",
+        "id": null,
+        "name": "IMDM Source Transport",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "interface/imdm-source-transport"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+        "status": "added",
+        "key": "page/7232",
+        "type": "page",
+        "id": 7232,
+        "name": "MDM Connection Details",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7232"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataManagementSetup.Page.al",
+        "status": "modified",
+        "key": "page/7230",
+        "type": "page",
+        "id": 7230,
+        "name": "Master Data Management Setup",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7230"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataSynchFields.Page.al",
+        "status": "modified",
+        "key": "page/7236",
+        "type": "page",
+        "id": 7236,
+        "name": "Master Data Synch. Fields",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7236"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataSynchTables.Page.al",
+        "status": "modified",
+        "key": "page/7233",
+        "type": "page",
+        "id": 7233,
+        "name": "Master Data Synch. Tables",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7233"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMContact.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7246",
+        "type": "tableextension",
+        "id": 7246,
+        "name": "MDM Contact",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7246"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMCurrencyExchRate.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7251",
+        "type": "tableextension",
+        "id": 7251,
+        "name": "MDM Currency Exch. Rate",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7251"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMCustomer.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7244",
+        "type": "tableextension",
+        "id": 7244,
+        "name": "MDM Customer",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7244"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMPostCode.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7250",
+        "type": "tableextension",
+        "id": 7250,
+        "name": "MDM Post Code",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7250"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MDMVendor.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7245",
+        "type": "tableextension",
+        "id": 7245,
+        "name": "MDM Vendor",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7245"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+        "status": "modified",
+        "key": "table/7230",
+        "type": "table",
+        "id": 7230,
+        "name": "Master Data Management Setup",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "table/7230"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataMgtTableMapping.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7235",
+        "type": "tableextension",
+        "id": 7235,
+        "name": "MasterDataMgtTableMapping",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "tableextension/7235"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

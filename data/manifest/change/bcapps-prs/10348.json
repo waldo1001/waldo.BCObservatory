@@ -6,10 +6,35 @@
   "title": "Adding a Power BI workspace to Company Information to be used when deploying reports",
   "url": "https://github.com/microsoft/BCApps/pull/10348",
   "published_at": "2026-09-10T12:02:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:05.043Z",
+      "change_class": "code",
+      "files": 51,
+      "al": 48,
+      "objects": 31,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:10.004Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009587
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:10.207Z",
+      "objects": 31,
+      "unjoined": 17,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:10.216Z",
+      "path": "content/changes/bcapps/10348.md"
     }
   },
   "input_hash": "65e0525a46564affe9bb73debfa30bbd6dbe49af:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "adding a power bi workspace to company information to be used when deploying reports"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b897e06defa3522540b6647cb726eaf5668aabb0a4e61000e0b8c00363136d4"
 }

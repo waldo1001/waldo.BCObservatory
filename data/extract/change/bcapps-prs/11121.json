@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11121",
+  "number": 11121,
+  "title": "Fix generation rule source table validation ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed source table validation for quality inspection generation rules to prevent clearing the source table through programmatic modifications while allowing legacy rules without a source table to remain editable.",
+  "key_points": [
+    "OnModify now reads persisted generation rule data instead of relying on xRec",
+    "Prevents accidental clearing of source table on existing rules via programmatic changes",
+    "Legacy rules stored without source table remain editable",
+    "Temporary records keep previous validation behavior",
+    "Addresses issue AB#642736"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007204,
+    "changes_in_call": 1
+  }
+}

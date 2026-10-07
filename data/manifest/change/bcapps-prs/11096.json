@@ -6,10 +6,35 @@
   "title": "PEPPOL FR improvements",
   "url": "https://github.com/microsoft/BCApps/pull/11096",
   "published_at": "2026-09-10T10:26:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:03.887Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:08.558Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003898
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:08.745Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:08.751Z",
+      "path": "content/changes/bcapps/11096.md"
     }
   },
   "input_hash": "a7c6a631b89c977f71bb2e8bb21af2c045c4acab:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "peppol fr improvements"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "28acb8a73c7c9dee8ea5b1b9701331acf6efc136aa38ae9c182d0128073c5453"
 }

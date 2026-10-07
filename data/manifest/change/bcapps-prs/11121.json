@@ -6,10 +6,35 @@
   "title": "Fix generation rule source table validation ",
   "url": "https://github.com/microsoft/BCApps/pull/11121",
   "published_at": "2026-09-10T10:26:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:05.963Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:13.428Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.007204
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:13.580Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:13.585Z",
+      "path": "content/changes/bcapps/11121.md"
     }
   },
   "input_hash": "d9496dbde628e2f5bc90ab7894710673c12b0521:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix generation rule source table validation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b23c18c764f901774ee3140fe93b3c4e3f38f6c25790137092fc5ae2f43f741"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10874",
+  "number": 10874,
+  "title": "[29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Deferral Summary-GL Report now properly supports filtering by global dimensions, allowing users to filter report totals as expected.",
+  "key_points": [
+    "Added filtering capability for global dimensions in the Deferral Summary-GL Report",
+    "Report columns and grouping logic updated to respect dimension filters",
+    "Test cases enhanced across multiple localization layers to verify dimension filtering",
+    "Users can now generate filtered reports based on global dimension values",
+    "Fixes inconsistent behavior where dimension filters were not being applied to report totals"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003508,
+    "changes_in_call": 1
+  }
+}

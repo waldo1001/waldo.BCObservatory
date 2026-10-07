@@ -6,10 +6,35 @@
   "title": "[master] - Subscription Contract Price Update applies the lowest sales price across all Unit of Measure codes instead of respecting Unit-Specific Price List entries in Subscription Billing.",
   "url": "https://github.com/microsoft/BCApps/pull/11218",
   "published_at": "2026-09-10T08:54:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:07.230Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:11.996Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003863
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:12.211Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:12.217Z",
+      "path": "content/changes/bcapps/11218.md"
     }
   },
   "input_hash": "d99d535f7415b8eb5f71a0b694cd6c03f64787d0:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "master subscription contract price update applies the lowest sales price across all unit of measure codes instead of respecting unit specific price list entries in subscription billing"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b399bdd18ce6c44a418eab065f95dbccfc1e3af05f32bbdbabc74b3ef51f11c"
 }

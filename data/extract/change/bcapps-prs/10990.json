@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10990",
+  "number": 10990,
+  "title": "Add-Expense-VAT-settings-to-Contoso-demo-tool",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Contoso demo tool for expense management was updated to include VAT rate settings and reorganize GL account setup, improving the initialization of expense demo data.",
+  "key_points": [
+    "VAT rate creation logic was refactored to be more maintainable",
+    "GL account setup was added to the demo data initialization sequence",
+    "Expense categories and subcategories data structures were updated",
+    "Demo data setup follows a clearer two-phase structure (Setup Data then Master Data)",
+    "Test utilities for Shopify were adjusted to work with updated demo data initialization"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004991,
+    "changes_in_call": 1
+  }
+}

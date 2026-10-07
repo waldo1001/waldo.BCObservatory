@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10753",
+  "number": 10753,
+  "title": "Cross-environment Master Data synchronization (same tenant)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Cross-environment Master Data Management now allows subsidiary environments to synchronize master data from a source environment within the same tenant via an authenticated ODataV4 API, with capability negotiation, resumable streaming, inline media support, and OAuth2 transport.",
+  "key_points": [
+    "New IMDM Data Source interface with Local and Cross-Env implementations for flexible data source routing",
+    "Source-side generic API with GetCapabilities, GetRecords (paged change feed), and LastModifiedAtPerTable for change detection",
+    "OAuth2 client-credentials HTTP transport with in-session token cache and 429 backoff handling",
+    "Media and Blob fields sync inline as base64 with per-field 512 KB cap to avoid SystemModifiedAt conflicts",
+    "Connection Details wizard for setup similar to Intercompany, with security audit logging and mandatory privacy consent"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Extends Master Data Management from same-environment, company-to-company sync to cross-environment sync within the same tenant.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012269,
+    "changes_in_call": 1
+  }
+}

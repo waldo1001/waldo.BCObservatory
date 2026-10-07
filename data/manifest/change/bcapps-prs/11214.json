@@ -6,10 +6,35 @@
   "title": "[29.x][All-e][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”",
   "url": "https://github.com/microsoft/BCApps/pull/11214",
   "published_at": "2026-09-10T07:38:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:09.882Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:14.518Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003621
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:14.779Z",
+      "objects": 3,
+      "unjoined": 1,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:14.784Z",
+      "path": "content/changes/bcapps/11214.md"
     }
   },
   "input_hash": "6e81c32d5496756715bbfb04608c95f656d07aaf:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e saas last name of the employee relative is not editable when customized using profile role"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bee104e7353b8938453611f1a4c622d62f963992a338eb35655c04a20a633756"
 }

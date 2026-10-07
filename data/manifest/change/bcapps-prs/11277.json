@@ -6,7 +6,7 @@
   "title": "Bug 649001: [29x][NAV] Track Translation update (AUTODETECTED)",
   "url": "https://github.com/microsoft/BCApps/pull/11277",
   "published_at": "2026-09-09T21:30:41Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649001 29x nav track translation update autodetected"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:03:16.505Z",
+  "retry_after": null
 }
