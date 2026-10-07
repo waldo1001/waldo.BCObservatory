@@ -6,10 +6,18 @@
   "title": "Add reporting review guidance and evaluation fixtures",
   "url": "https://github.com/microsoft/BCQuality/pull/183",
   "published_at": "2026-09-15T08:38:33Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:04.919Z",
+      "change_class": "code",
+      "files": 31,
+      "al": 29,
+      "objects": 0,
+      "unjoined": 29
     }
   },
   "input_hash": "b545b22fb9173e0a1f17c3b2e02dc77ea6c92dab:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add reporting review guidance and evaluation fixtures"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83381d39fd365cc0ec29a0f242b6b164e647460f1a6edf691f485673f44025ae"
 }

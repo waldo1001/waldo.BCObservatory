@@ -6,10 +6,35 @@
   "title": "[SOA] Fix \"The Order Promising Setup does not exist.\" crash when setting quote quantity",
   "url": "https://github.com/microsoft/BCApps/pull/11383",
   "published_at": "2026-09-15T13:25:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:57.716Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:02.778Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004201
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:02.950Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:02.956Z",
+      "path": "content/changes/bcapps/11383.md"
     }
   },
   "input_hash": "6d37dcf387144f3f005e6a169b9d476f1b98cd64:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa fix the order promising setup does not exist crash when setting quote quantity"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ade92a9c6635cf477182613408d24794fa14f891408c63e3ff9cc56e677d136"
 }

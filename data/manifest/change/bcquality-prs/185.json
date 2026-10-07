@@ -6,7 +6,7 @@
   "title": "Fix reporting skill index expectation",
   "url": "https://github.com/microsoft/BCQuality/pull/185",
   "published_at": "2026-09-15T08:45:36Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix reporting skill index expectation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:02:03.804Z",
+  "retry_after": null
 }

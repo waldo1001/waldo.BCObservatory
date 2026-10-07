@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11014,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11014",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T08:47:06Z",
+  "merge_commit_sha": "fa157163e56185a275be7d04a696a08a76f80337",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Update automation work item link from AB#539394 to AB#640900",
+  "body_hash": "eb5ff3b822c138fff5188c0784b39374cdc19b0629e7c8cff0c72294bbf61ce2",
+  "fixes_issues": [],
+  "work_items": [
+    539394,
+    640900
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 2,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

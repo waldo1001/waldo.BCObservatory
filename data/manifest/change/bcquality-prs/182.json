@@ -6,10 +6,35 @@
   "title": "Add machine-readable review orchestration contract",
   "url": "https://github.com/microsoft/BCQuality/pull/182",
   "published_at": "2026-09-15T08:27:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:05.762Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:11.253Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003552
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:11.255Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:02:11.259Z",
+      "path": "content/changes/bcquality/182.md"
     }
   },
   "input_hash": "b74967bc5b7a454eae19d6a1250199afd869f064:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add machine readable review orchestration contract"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d13c3352ffd614aca1efd78a91863f2522ada15178176eef206bf2483be6dcb"
 }

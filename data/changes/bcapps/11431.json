@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11431,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11431",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T15:30:34Z",
+  "merge_commit_sha": "804f2e623faf4878f55fd41d310527ce26fd2bf4",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - [Expense Management] Move missing Employee Posting Group validation to rule violation",
+  "body_hash": "256a53271bca026ddbfbbac501f4770bb0b8b65ff2fcf5cdba1e5815a959f15b",
+  "fixes_issues": [],
+  "work_items": [
+    645043
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseRuleViolationTest.Codeunit.al",
+      "status": "modified",
+      "additions": 171,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 231,
+    "deletions": 5,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6902",
+        "type": "codeunit",
+        "id": 6902,
+        "name": "Expense Rule Validation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6902"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

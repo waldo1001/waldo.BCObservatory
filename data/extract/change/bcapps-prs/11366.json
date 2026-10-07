@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11366",
+  "number": 11366,
+  "title": "Filter top customer and top vendor Excel reports on the posting group",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "The Top Customer and Top Vendor Excel reports now correctly filter on posting group by joining detailed ledger entries to their parent ledger entries, since posting group fields in detailed entries are often unfilled on existing tenants.",
+  "key_points": [
+    "Fixes filtering on posting group in Top Customer and Top Vendor Excel reports",
+    "Reads posting group from parent ledger entry instead of detailed entry to avoid blank values",
+    "Uses join on mandatory key field to preserve all rows and aggregation results",
+    "No breaking changes to filter element names or Transfer Filters functionality",
+    "Added test coverage for the corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing",
+    "reporting"
+  ],
+  "quote": "The Top Customer and Top Vendor Excel reports returned nothing when you filtered them on a posting group.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003829,
+    "changes_in_call": 1
+  }
+}

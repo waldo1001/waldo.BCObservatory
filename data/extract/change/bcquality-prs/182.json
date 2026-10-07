@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/182",
+  "number": 182,
+  "title": "Add machine-readable review orchestration contract",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality now generates a deterministic, machine-readable skill index from review frontmatter and validates review composition through schemas and CI checks.",
+  "key_points": [
+    "Generates versioned skill index from action-skill frontmatter for stable review orchestration",
+    "Adds JSON schemas for skill index and findings reports to define the review contract",
+    "Validates flat review structure including leaf IDs, paths, ordering, and output contracts in CI",
+    "Includes generator tests and repository validation without modifying review knowledge",
+    "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": "BC-ALAgents needs a stable contract that defines exactly which review leaves exist and their required order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003552,
+    "changes_in_call": 1
+  }
+}

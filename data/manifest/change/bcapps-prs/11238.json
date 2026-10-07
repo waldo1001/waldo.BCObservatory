@@ -6,10 +6,18 @@
   "title": "[29.X]- The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory",
   "url": "https://github.com/microsoft/BCApps/pull/11238",
   "published_at": "2026-09-15T08:26:29Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:07.033Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "c64f7439db95ab377a01df3211a32461b0bf1e40:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "the available to take logic is incorrect or inaccurate in the pick worksheet as it includes ship and receive bin inventory"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fc83efec327148fe02e77a7fb1bc0ea530a9b234de7dc5a42191f91fc9ed7beb"
 }

@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11366,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11366",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T08:39:47Z",
+  "merge_commit_sha": "c3f7c5e53e9cd78850d4ac5dd2dd6557cd0e61fb",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Filter top customer and top vendor Excel reports on the posting group",
+  "body_hash": "7b6754b777c67cbead748e50d48a455de517e7ae8fd62ba829d33636fdbc174a",
+  "fixes_issues": [],
+  "work_items": [
+    649289
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Customer/EXRTopCustomerBalance.Query.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Vendor/EXRTopVendorBalance.Query.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/AgedAccountsExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 183,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 199,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Customer/EXRTopCustomerBalance.Query.al",
+        "status": "modified",
+        "key": "query/4403",
+        "type": "query",
+        "id": 4403,
+        "name": "EXR Top Customer Balance",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "query/4403"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Vendor/EXRTopVendorBalance.Query.al",
+        "status": "modified",
+        "key": "query/4401",
+        "type": "query",
+        "id": 4401,
+        "name": "EXR Top Vendor Balance",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "query/4401"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}

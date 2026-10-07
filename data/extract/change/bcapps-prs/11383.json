@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11383",
+  "number": 11383,
+  "title": "[SOA] Fix \"The Order Promising Setup does not exist.\" crash when setting quote quantity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now handles missing Order Promising Setup gracefully by skipping capable-to-promise calculations and preventing misconfiguration through a setup confirmation dialog on the SOA Setup page.",
+  "key_points": [
+    "Agent no longer crashes with 'Order Promising Setup does not exist' error when setting quote quantities",
+    "Capable-to-promise calculation is skipped when Order Promising Setup is absent",
+    "Enabling 'Include capable to promise' toggle on SOA Setup page now checks for and offers to create the setup",
+    "Graceful degradation shows availability notification instead of error for agents without order promising configuration",
+    "No behavior change when Order Promising Setup already exists"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004201,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 183,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/183",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-15T08:38:33Z",
+  "merge_commit_sha": "b545b22fb9173e0a1f17c3b2e02dc77ea6c92dab",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add reporting review guidance and evaluation fixtures",
+  "body_hash": "18210091a4bcaf832888e93f4b07cf461c771cc1f6055861c7058924b88611e8",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "docs/using-bcquality.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.good.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.bad.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.good.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.bad.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.good.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.bad.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.good.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.bad.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.good.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.bad.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.good.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.bad.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.good.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.bad.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.good.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.bad.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.good.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-reporting-review.md",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 31,
+    "additions": 827,
+    "deletions": 1,
+    "al": 29
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-reporting-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/186",
+  "number": 186,
+  "title": "Add Query filter semantics guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Documentation added explaining how DataItemTableFilter and ColumnFilter behave with runtime filters in queries, with examples and validation through the Query review skill.",
+  "key_points": [
+    "DataItemTableFilter remains active when runtime filters target the same field",
+    "Runtime SetFilter and SetRange calls overwrite ColumnFilter on the same query column",
+    "Added focused bad/good AL code samples for both filter scenarios",
+    "Integrated both checks into the Query review skill",
+    "All Query knowledge articles now covered in review fixtures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003587,
+    "changes_in_call": 1
+  }
+}

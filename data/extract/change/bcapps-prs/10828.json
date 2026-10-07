@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10828",
+  "number": 10828,
+  "title": "Avoid remote attachment checks during FactBox refresh",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Attachment FactBox navigation performance improved by deferring external file existence checks until explicitly requested via export or preview, preventing repeated synchronous SharePoint calls during list browsing.",
+  "key_points": [
+    "External-only attachments now rely on persisted metadata for HasContent() checks instead of making synchronous FileExists calls",
+    "Removed automatic external provider calls from FactBox refreshes and metadata validation scenarios",
+    "Export and preview operations now fail explicitly when external files are missing or account mappings are unconfigured",
+    "Expense Agent content-hash updates made best-effort to avoid blocking writes on transient retrieval failures",
+    "Added comprehensive test coverage for configured/unconfigured external storage, internal attachments, and retrieval failure scenarios"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Treat a coherent external-only attachment state as available content based on persisted metadata, matching the metadata-only behavior used for internally stored attachments.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004307,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11002",
+  "number": 11002,
+  "title": "[Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Excise duty calculation now supports rate-based models (specific-per-unit, ad valorem, hybrid) alongside the legacy item and fixed-asset rates, with a new rate table and calculation type enum to resolve duties before calculating taxable amounts.",
+  "key_points": [
+    "Added Excise Tax Rate table and list page for flexible duty models",
+    "Introduced Excise Calculation Type enum with specific-per-unit, ad valorem, and hybrid options",
+    "Fixed taxable amount calculation timing by resolving final rate and calculation type first for item ledger entries",
+    "Included migration from existing item/fixed-asset rate table to new model",
+    "Updated permissions, pages, journal lines, and transaction logs"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Excise duty calculation supported only the legacy item and fixed-asset rate model.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004763,
+    "changes_in_call": 1
+  }
+}

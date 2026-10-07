@@ -6,7 +6,7 @@
   "title": "Avoid remote attachment checks during FactBox refresh",
   "url": "https://github.com/microsoft/BCApps/pull/10828",
   "published_at": "2026-09-15T17:11:09Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:53.686Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": true,
+      "cost_usd": 0.004307
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:53.831Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:53.836Z",
+      "path": "content/changes/bcapps/10828.md"
     }
   },
   "input_hash": "6c76f74e0344d73d9e3de3a69cdd66120c177e09:c1",
@@ -43,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02f56e187c1fe6a440fb96b4e7ba057d5edcc071285f4d5b5528cc1f9f47dc2f"
+  "output_hash": "e51fe4f5706cec6a54faf593ac7efcf98d94bc3a1003931081e35a8d4a385958"
 }

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10437",
+  "number": 10437,
+  "title": "[FR E-Reporting] Add payment and invoice lifecycle messages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication with message queuing, response handling, VAT allocation, and buyer acceptance or refusal workflows.",
+  "key_points": [
+    "Public E-Document message API with IMessageSender and IMessageResponseHandler contracts for extensible lifecycle messaging",
+    "Payment occurrence tracking with applied and reversed payment messages for approved invoices with retry and deduplication support",
+    "French Collected and Negative Collected messages for payment applications and unapplications with proportional VAT allocation",
+    "Buyer acceptance and refusal workflow for incoming purchase invoices with optional refusal reasons and single-response validation",
+    "Background message delivery and response polling with queuing, external reference correlation, and status normalization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012609,
+    "changes_in_call": 1
+  }
+}

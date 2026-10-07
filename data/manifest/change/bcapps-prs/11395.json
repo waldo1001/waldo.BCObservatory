@@ -6,7 +6,7 @@
   "title": "[Main]- Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (IT + CZ)",
   "url": "https://github.com/microsoft/BCApps/pull/11395",
   "published_at": "2026-09-15T10:18:53Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "reminder automation tests testreminderautomationlogsinteractionwithissuedremindernumber fails it cz"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:02:01.277Z",
+  "retry_after": null
 }

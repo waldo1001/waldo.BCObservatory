@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11186",
+  "number": 11186,
+  "title": "[Master]-]VAT Settlement G/L Entries Do Not Populate Source Currency Amount and Source VAT Currency Amount After Running Calculate and Post VAT Settlement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Calculate and Post VAT Settlement report now correctly populates source currency amount and source VAT currency amount fields in VAT settlement G/L entries, fixing missing values that appeared after the settlement process ran.",
+  "key_points": [
+    "Source currency amount fields were not being set during VAT settlement calculations",
+    "Source VAT currency amount fields were also missing from posted entries",
+    "Report 20 (Calc. and Post VAT Settlement) was updated across multiple localized versions",
+    "Tests were added to verify correct population of currency amount fields",
+    "Fixes issue AB#648539"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003851,
+    "changes_in_call": 1
+  }
+}

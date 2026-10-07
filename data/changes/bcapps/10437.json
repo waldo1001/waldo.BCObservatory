@@ -1,0 +1,793 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10437,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10437",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T10:18:53Z",
+  "merge_commit_sha": "9c3aad52a7e47e033ce5c440e2903499df879a70",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[FR E-Reporting] Add payment and invoice lifecycle messages",
+  "body_hash": "2c3a1105c5d6f114ccf444b7ec5f37698dd36949f213888321b3dfdd3f861d95",
+  "fixes_issues": [],
+  "work_items": [
+    637593
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/Permissions/EReportingFRUser.PermissionSet.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/CIIXMLBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessage.Table.al",
+      "status": "added",
+      "additions": 191,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessageAPI.Codeunit.al",
+      "status": "added",
+      "additions": 194,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessageBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 301,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessageMgt.Codeunit.al",
+      "status": "added",
+      "additions": 539,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessageType.Enum.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessageVAT.Table.al",
+      "status": "added",
+      "additions": 86,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceMessages.Page.al",
+      "status": "added",
+      "additions": 109,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceProfileValidator.Codeunit.al",
+      "status": "added",
+      "additions": 175,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FREInvoiceRefusalDialog.Page.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingEDocService.PageExt.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingEDocService.TableExt.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingEDocuments.PageExt.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FREDocResponseType.EnumExt.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FREDocumentMessageType.EnumExt.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/EReporting/EReportingFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/PEPPOL/PeppolBIS30FRFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/EDocFRStructImportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/ExportEReportingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/FREDocMsgSenderMock.Codeunit.al",
+      "status": "added",
+      "additions": 88,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/FREInvoiceMessageTests.Codeunit.al",
+      "status": "added",
+      "additions": 2043,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/FRServiceIntegration.EnumExt.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/FacturXCIIXMLTests.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/IdentificationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/PEPPOLBIS30XMLTests.Codeunit.al",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Integration/Interfaces/IMessageResponseHandler.Interface.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Integration/Interfaces/IMessageSender.Interface.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Integration/ServiceIntegration.Enum.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocItemChargeMapping.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentBackgroundJobs.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocExternalReference.Table.al",
+      "status": "added",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageContext.Codeunit.al",
+      "status": "added",
+      "additions": 86,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 332,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageRespRunner.Codeunit.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageResponseJob.Codeunit.al",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageSendJob.Codeunit.al",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageSendRunner.Codeunit.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageStatus.Enum.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMsgTransportDefault.Codeunit.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccDispatcher.Codeunit.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccRunner.Codeunit.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccStatus.Enum.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrence.Table.al",
+      "status": "added",
+      "additions": 122,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrenceMgt.Codeunit.al",
+      "status": "added",
+      "additions": 212,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrenceType.Enum.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessage.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessageAPI.Codeunit.al",
+      "status": "added",
+      "additions": 152,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceExport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceJournal.ReportExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Setup/EDocumentUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Logging/EDocLogFileExtensionTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Mock/EDocImplState.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Mock/EDocIntegrationMockV2.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Mock/EDocIntegrationMockV2.EnumExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocMessageMgtTests.Codeunit.al",
+      "status": "added",
+      "additions": 543,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocRemitAdviceTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 61,
+    "additions": 6347,
+    "deletions": 51,
+    "al": 29
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6105",
+        "type": "permissionset",
+        "id": 6105,
+        "name": "E-Doc. Core - User",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6105"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Integration/Interfaces/IMessageResponseHandler.Interface.al",
+        "status": "added",
+        "key": "interface/imessageresponsehandler",
+        "type": "interface",
+        "id": null,
+        "name": "IMessageResponseHandler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/imessageresponsehandler"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Integration/Interfaces/IMessageSender.Interface.al",
+        "status": "added",
+        "key": "interface/imessagesender",
+        "type": "interface",
+        "id": null,
+        "name": "IMessageSender",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/imessagesender"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Integration/ServiceIntegration.Enum.al",
+        "status": "modified",
+        "key": "enum/6151",
+        "type": "enum",
+        "id": 6151,
+        "name": "Service Integration",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6151"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocItemChargeMapping.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6246",
+        "type": "codeunit",
+        "id": 6246,
+        "name": "E-Doc. Item Charge Mapping",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6246"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentBackgroundJobs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6133",
+        "type": "codeunit",
+        "id": 6133,
+        "name": "E-Document Background Jobs",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6133"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocExternalReference.Table.al",
+        "status": "added",
+        "key": "table/6434",
+        "type": "table",
+        "id": 6434,
+        "name": "E-Doc. External Reference",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6434"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageContext.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6533",
+        "type": "codeunit",
+        "id": 6533,
+        "name": "E-Doc. Message Context",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6533"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6433",
+        "type": "codeunit",
+        "id": 6433,
+        "name": "E-Doc. Message Mgt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6433"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageRespRunner.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6538",
+        "type": "codeunit",
+        "id": 6538,
+        "name": "E-Doc. Message Resp. Runner",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6538"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageResponseJob.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6539",
+        "type": "codeunit",
+        "id": 6539,
+        "name": "E-Doc. Message Response Job",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6539"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageSendJob.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6535",
+        "type": "codeunit",
+        "id": 6535,
+        "name": "E-Doc. Message Send Job",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6535"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageSendRunner.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6537",
+        "type": "codeunit",
+        "id": 6537,
+        "name": "E-Doc. Message Send Runner",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6537"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageStatus.Enum.al",
+        "status": "modified",
+        "key": "enum/6429",
+        "type": "enum",
+        "id": 6429,
+        "name": "E-Doc. Message Status",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6429"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMsgTransportDefault.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6534",
+        "type": "codeunit",
+        "id": 6534,
+        "name": "E-Doc. Msg. Transport Default",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6534"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccDispatcher.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6248",
+        "type": "codeunit",
+        "id": 6248,
+        "name": "E-Doc. Payment Occ. Dispatcher",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6248"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccRunner.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6249",
+        "type": "codeunit",
+        "id": 6249,
+        "name": "E-Doc. Payment Occ. Runner",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6249"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccStatus.Enum.al",
+        "status": "added",
+        "key": "enum/6539",
+        "type": "enum",
+        "id": 6539,
+        "name": "E-Doc. Payment Occ. Status",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6539"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrence.Table.al",
+        "status": "added",
+        "key": "table/6433",
+        "type": "table",
+        "id": 6433,
+        "name": "E-Doc. Payment Occurrence",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6433"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrenceMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6536",
+        "type": "codeunit",
+        "id": 6536,
+        "name": "E-Doc. Payment Occurrence Mgt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6536"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPaymentOccurrenceType.Enum.al",
+        "status": "added",
+        "key": "enum/6115",
+        "type": "enum",
+        "id": 6115,
+        "name": "E-Doc. Payment Occurrence Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6115"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessage.Table.al",
+        "status": "modified",
+        "key": "table/6432",
+        "type": "table",
+        "id": 6432,
+        "name": "E-Document Message",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6432"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessageAPI.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6532",
+        "type": "codeunit",
+        "id": 6532,
+        "name": "E-Document Message API",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6532"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+        "status": "modified",
+        "key": "page/6434",
+        "type": "page",
+        "id": 6434,
+        "name": "E-Document Messages FactBox",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6434"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceExport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6531",
+        "type": "codeunit",
+        "id": 6531,
+        "name": "E-Doc. Remit. Advice Export",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6531"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceJournal.ReportExt.al",
+        "status": "modified",
+        "key": "reportextension/6100",
+        "type": "reportextension",
+        "id": 6100,
+        "name": "E-Doc. Remit. Advice Journal",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "reportextension/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Setup/EDocumentUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6168",
+        "type": "codeunit",
+        "id": 6168,
+        "name": "E-Document Upgrade",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6168"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

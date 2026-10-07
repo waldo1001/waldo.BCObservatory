@@ -6,10 +6,35 @@
   "title": "[Master] [Repair Item] Team Member unable to copy sales quotation when lines are associated to assembly",
   "url": "https://github.com/microsoft/BCApps/pull/9644",
   "published_at": "2026-09-15T10:18:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:02.655Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 3,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:07.337Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003285
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:07.535Z",
+      "objects": 3,
+      "unjoined": 3,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:10.972Z",
+      "path": "content/changes/bcapps/9644.md"
     }
   },
   "input_hash": "1bef82cea235f39db7882fe431f70f5fbd2e0f8a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master repair item team member unable to copy sales quotation when lines are associated to assembly"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6acd1d632d989f01f4aaf389240a28703fe7c7a57613c8c1bc63b87c204aac59"
 }

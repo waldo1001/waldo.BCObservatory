@@ -6,7 +6,7 @@
   "title": "[29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level",
   "url": "https://github.com/microsoft/BCApps/pull/10934",
   "published_at": "2026-09-16T05:44:56Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.00352
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:53.513Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:53.518Z",
+      "path": "content/changes/bcapps/10934.md"
     }
   },
   "input_hash": "ba72daf6a8f67dff3ee74bcbd21dac07b29f2fe5:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bd64b00442add2acc619a8e8a60e4970ed8df0ef17b70437d91a45d8d61d7de"
+  "output_hash": "a9bb4c66f124e610ba3b3145ed381df66fd7dae27408781f1d9a4282f1a0e539"
 }

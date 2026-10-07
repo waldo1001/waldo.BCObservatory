@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10825",
+  "number": 10825,
+  "title": "[Master]-Bug 645041: Expense Agent - Rename Enable approval workflow caption and tooltip",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent Setup page renamed the approval workflow toggle to clarify it switches to traditional approval instead of the Expense Agent experience, and adjusted field prominence.",
+  "key_points": [
+    "Caption changed from 'Enable approval workflow' to 'Use traditional approval workflow'",
+    "Tooltip clarifies the toggle switches expense reports away from Expense Agent to traditional approval",
+    "Approval workflow toggle and Default Approver field set to Additional importance for less prominence",
+    "Improves UI clarity about the control's purpose relative to Expense Agent functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00352,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11359",
+  "number": 11359,
+  "title": "[Master] - Bug 648886: [Sustainability][Value Chain] Transfer Order uses average emissions instead of Specific carbon tracking (lot/serial)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Sustainability posting now correctly tracks specific emissions for lots and serial numbers across transfer orders, preventing the use of average emissions on later sales.",
+  "key_points": [
+    "Transfer order emissions tracking now respects specific lot and serial numbers instead of aggregating them",
+    "The transfer shipment application traversal is restricted to entries matching the same lot and serial number",
+    "Fixes cases where multiple tracked items with different emissions were incorrectly averaged during transfer receipts",
+    "Preserves specific tracking emissions through the entire supply chain from transfer to sale"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "finance"
+  ],
+  "quote": "Restrict the recursive transfer-shipment application traversal to entries with the same Lot No. and Serial No.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003274,
+    "changes_in_call": 1
+  }
+}

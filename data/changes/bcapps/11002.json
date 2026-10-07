@@ -1,0 +1,391 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11002,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11002",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T15:28:08Z",
+  "merge_commit_sha": "0129ea794b63dabe6fb5208f999ee3955bcdf0e1",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation",
+  "body_hash": "3d323f000d31c95c3410ce00580d6695db025b11fc35411a6b3c514921fe7aba",
+  "fixes_issues": [],
+  "work_items": [
+    626305
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesEdit.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesObjects.permissionset.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesRead.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxTransSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseCalculationType.Enum.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxItemFARates.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxRates.Page.al",
+      "status": "added",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypeCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypes.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseJournalLineExt.PageExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseTaxTransLogExt.PageExt.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxItemFARate.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxRate.Table.al",
+      "status": "added",
+      "additions": 242,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxType.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseJournalLineExt.TableExt.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseTaxesTransLogExt.TableExt.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/ExciseCalculationTypeTests.Codeunit.al",
+      "status": "added",
+      "additions": 375,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/ExciseTaxCalculationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/LibraryExciseTax.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 49,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 21,
+    "additions": 1142,
+    "deletions": 82,
+    "al": 18
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesEdit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7452",
+        "type": "permissionset",
+        "id": 7452,
+        "name": "ExciseTaxes - Edit",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7452"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7450",
+        "type": "permissionset",
+        "id": 7450,
+        "name": "ExciseTaxes - Objects",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7450"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesRead.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7451",
+        "type": "permissionset",
+        "id": 7451,
+        "name": "ExciseTaxes - Read",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7451"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7412",
+        "type": "codeunit",
+        "id": 7412,
+        "name": "Excise Tax Calculation",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxTransSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7413",
+        "type": "codeunit",
+        "id": 7413,
+        "name": "Excise Tax Trans Subscriber",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7413"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7414",
+        "type": "codeunit",
+        "id": 7414,
+        "name": "Excise Tax Upgrade",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7414"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseCalculationType.Enum.al",
+        "status": "added",
+        "key": "enum/7415",
+        "type": "enum",
+        "id": 7415,
+        "name": "Excise Calculation Type",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "enum/7415"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxItemFARates.Page.al",
+        "status": "modified",
+        "key": "page/7412",
+        "type": "page",
+        "id": 7412,
+        "name": "Excise Tax Item/FA Rates",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxRates.Page.al",
+        "status": "added",
+        "key": "page/7418",
+        "type": "page",
+        "id": 7418,
+        "name": "Excise Tax Rates",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7418"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypeCard.Page.al",
+        "status": "modified",
+        "key": "page/7415",
+        "type": "page",
+        "id": 7415,
+        "name": "Excise Tax Type Card",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7415"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypes.Page.al",
+        "status": "modified",
+        "key": "page/7414",
+        "type": "page",
+        "id": 7414,
+        "name": "Excise Tax Types",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7414"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseJournalLineExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7414",
+        "type": "pageextension",
+        "id": 7414,
+        "name": "Excise Journal Line Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "pageextension/7414"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseTaxTransLogExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7416",
+        "type": "pageextension",
+        "id": 7416,
+        "name": "Excise Tax Trans Log Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "pageextension/7416"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxItemFARate.Table.al",
+        "status": "modified",
+        "key": "table/7413",
+        "type": "table",
+        "id": 7413,
+        "name": "Excise Tax Item/FA Rate",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7413"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxRate.Table.al",
+        "status": "added",
+        "key": "table/7416",
+        "type": "table",
+        "id": 7416,
+        "name": "Excise Tax Rate",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7416"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxType.Table.al",
+        "status": "modified",
+        "key": "table/7412",
+        "type": "table",
+        "id": 7412,
+        "name": "Excise Tax Type",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseJournalLineExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7413",
+        "type": "tableextension",
+        "id": 7413,
+        "name": "Excise Journal Line Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "tableextension/7413"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseTaxesTransLogExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7414",
+        "type": "tableextension",
+        "id": 7414,
+        "name": "Excise Taxes Trans. Log Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "tableextension/7414"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExciseTaxes"
+  ]
+}

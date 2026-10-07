@@ -6,10 +6,35 @@
   "title": "knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company",
   "url": "https://github.com/microsoft/BCQuality/pull/152",
   "published_at": "2026-09-15T10:34:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:59.190Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:04.547Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004439
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:04.549Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:02:04.552Z",
+      "path": "content/changes/bcquality/152.md"
     }
   },
   "input_hash": "b7617fb48a01c9f41116e37edaede3daed424236:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge events changecompany leaves triggers and trigger event subscribers running in the calling company"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b4d40197330a3944fd14509286e31e4199a50298e8f9eaeb22922391c2f44ff"
 }

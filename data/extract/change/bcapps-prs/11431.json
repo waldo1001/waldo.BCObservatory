@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11431",
+  "number": 11431,
+  "title": "[Master] - [Expense Management] Move missing Employee Posting Group validation to rule violation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent now validates Employee Posting Group through rule violations instead of hard errors, allowing users to review and resolve missing posting groups gracefully without getting stuck during submission.",
+  "key_points": [
+    "Moved Employee Posting Group validation from field-level hard errors to rule violation logic in Expense Rule Validation codeunit",
+    "Added automatic line-level rule re-evaluation when Employee Posting Group is updated on Expense Report Header",
+    "Exposed Employee Posting Group field on the Expense Report page",
+    "Added comprehensive test coverage for the rule violation behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 1
+  }
+}

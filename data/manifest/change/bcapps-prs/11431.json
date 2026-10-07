@@ -6,10 +6,35 @@
   "title": "[Master] - [Expense Management] Move missing Employee Posting Group validation to rule violation",
   "url": "https://github.com/microsoft/BCApps/pull/11431",
   "published_at": "2026-09-15T15:30:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:55.431Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:59.876Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003486
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:00.033Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:00.039Z",
+      "path": "content/changes/bcapps/11431.md"
     }
   },
   "input_hash": "804f2e623faf4878f55fd41d310527ce26fd2bf4:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master expense management move missing employee posting group validation to rule violation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b2a220796f3dd1f0747c505aca22c3916362a9c673dc6dca104c301e84f560f"
 }

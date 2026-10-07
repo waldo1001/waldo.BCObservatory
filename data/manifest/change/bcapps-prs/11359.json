@@ -6,7 +6,7 @@
   "title": "[Master] - Bug 648886: [Sustainability][Value Chain] Transfer Order uses average emissions instead of Specific carbon tracking (lot/serial)",
   "url": "https://github.com/microsoft/BCApps/pull/11359",
   "published_at": "2026-09-15T15:30:34Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:57.779Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003274
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:57.925Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:57.930Z",
+      "path": "content/changes/bcapps/11359.md"
     }
   },
   "input_hash": "b6861a2327bddf153088a404df2e78ceec935b5e:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "497fd0e02be55c7ac1eee772636cef6a02ed4c834c4cedba0a8e53f359bdbdb6"
+  "output_hash": "5e2b7350f102afc07ee6f38be3b910f48ea738af83339a6a19a8a607be5c776b"
 }

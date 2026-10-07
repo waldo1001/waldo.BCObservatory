@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/152",
+  "number": 152,
+  "title": "knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A knowledge article documents that ChangeCompany does not move trigger execution context to the target company; triggers and trigger-event subscribers still run in the calling company. StartSession is recommended for cross-company operations that require proper trigger handling.",
+  "key_points": [
+    "ChangeCompany redirects only data access, not trigger execution context",
+    "Triggers, field validation, and database trigger-event subscribers run in the calling company regardless of ChangeCompany",
+    "Setting RunTrigger to false skips trigger code but not trigger events that subscribers receive",
+    "StartSession with company parameter is the recommended approach for cross-company writes requiring proper trigger execution",
+    "Best practice is to keep direct cross-company writes only for trigger-free hand-off tables"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004439,
+    "changes_in_call": 1
+  }
+}

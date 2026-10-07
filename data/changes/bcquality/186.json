@@ -1,0 +1,128 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 186,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/186",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-15T10:51:16Z",
+  "merge_commit_sha": "861f53dd97fcc25cc797e79902884c7bbb612178",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add Query filter semantics guidance",
+  "body_hash": "ced0dca8831aa790c13a8ce045ce8e406abab23d624044c0ea3e33afecca6ca1",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.bad.al",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.good.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.bad.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.good.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-query-review.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 225,
+    "deletions": 3,
+    "al": 7
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-query-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

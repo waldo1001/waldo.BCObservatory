@@ -1,0 +1,103 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 182,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/182",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-15T08:27:40Z",
+  "merge_commit_sha": "b74967bc5b7a454eae19d6a1250199afd869f064",
+  "author": "dayland",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add machine-readable review orchestration contract",
+  "body_hash": "8832e9502459574bd732c6f3379d64a80354631efd7d3587bb67115353ef1339",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/scripts/Test-SkillIndex.ps1",
+      "status": "added",
+      "additions": 240,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": ".github/scripts/validate_frontmatter.py",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 3,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/skill-index.yml",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "schemas/findings-report.schema.json",
+      "status": "added",
+      "additions": 159,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "schemas/skill-index.schema.json",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Build-SkillIndex.ps1",
+      "status": "added",
+      "additions": 247,
+      "deletions": 0,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 803,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

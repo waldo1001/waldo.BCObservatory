@@ -6,7 +6,7 @@
   "title": "Add missing request page handler to the IC purchase invoice test",
   "url": "https://github.com/microsoft/BCApps/pull/11428",
   "published_at": "2026-09-15T08:40:55Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "add missing request page handler to the ic purchase invoice test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:02:03.821Z",
+  "retry_after": null
 }

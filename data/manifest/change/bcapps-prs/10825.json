@@ -6,10 +6,35 @@
   "title": "[Master]-Bug 645041: Expense Agent - Rename Enable approval workflow caption and tooltip",
   "url": "https://github.com/microsoft/BCApps/pull/10825",
   "published_at": "2026-09-15T15:26:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:56.518Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:01.305Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00352
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:01.451Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:01.456Z",
+      "path": "content/changes/bcapps/10825.md"
     }
   },
   "input_hash": "d9573d283eeb1e62a2780ef5017d5518ece0cb6d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 645041 expense agent rename enable approval workflow caption and tooltip"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f2ffa555ed2b973e4148934d4265ba1f60b334b1933c18cd0b3554ceb657db1"
 }
