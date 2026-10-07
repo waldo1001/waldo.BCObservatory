@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12206",
+  "number": 12206,
+  "title": "Track C5 migration usage consistently",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "C5 2012 migration now emits standard cloud migration telemetry events for feature uptake, completion, and abort tracking, plus a one-time upgrade backfill for historical usage.",
+  "key_points": [
+    "Adds feature-uptake and completed-migration telemetry events aligned with QuickBooks migration",
+    "Emits abort migration event for failed migrations",
+    "Includes one-time per-company upgrade backfill for historical completed migrations",
+    "Uses standard telemetry tags and reporting integration",
+    "No changes to existing C5 telemetry behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003609,
+    "changes_in_call": 1
+  }
+}

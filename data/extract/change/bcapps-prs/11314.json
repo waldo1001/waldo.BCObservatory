@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11314",
+  "number": 11314,
+  "title": "[Project Arches] Microsoft Fabric Export Setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "New Microsoft Fabric Export functionality allows Business Central to export data to Microsoft Fabric with setup pages, configuration packages, and platform management capabilities.",
+  "key_points": [
+    "Adds Fabric API pages for exposing configuration and export operations",
+    "Introduces configuration package tables and management for Fabric exports",
+    "Provides platform setup wizard and management pages for Fabric connections",
+    "Includes permission sets for admin, read-only, and activation access",
+    "Supports telemetry and privacy notice handling for Fabric integration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Export to Microsoft Fabric",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011419,
+    "changes_in_call": 1
+  }
+}

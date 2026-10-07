@@ -6,10 +6,35 @@
   "title": "[Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines",
   "url": "https://github.com/microsoft/BCApps/pull/11899",
   "published_at": "2026-10-01T16:17:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:26.003Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 9,
+      "objects": 1,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:31.901Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005485
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:32.080Z",
+      "objects": 1,
+      "unjoined": 8,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:32.085Z",
+      "path": "content/changes/bcapps/11899.md"
     }
   },
   "input_hash": "1e03f388a72b0bb31f95aedb7a58472aff9a1c9b:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify tax matching fixes for country canadian hst and zero rate lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c16082773cfdde707bec0d3ab7694b0488acb5cc4416b545154945358a58e105"
 }

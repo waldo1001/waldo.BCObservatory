@@ -1,0 +1,913 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11314,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11314",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T09:41:35Z",
+  "merge_commit_sha": "770f7023d8ce08fc3830da72caa8168c0fec7f6b",
+  "author": "Bertverbeek4PS",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "From Fork",
+    "Ownership: Manual",
+    "Ownership: Needs Review",
+    "Team: Integrations",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[Project Arches] Microsoft Fabric Export Setup",
+  "body_hash": "345ec87bfb789011d50af382e5dbb17ab20f43c94857fc6cef2d639252646bb2",
+  "fixes_issues": [],
+  "work_items": [
+    649960
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "CODEOWNERS",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 283,
+      "deletions": 281,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 285,
+      "deletions": 283,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps BE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 285,
+      "deletions": 283,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CA/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 301,
+      "deletions": 299,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CH/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 280,
+      "deletions": 278,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 302,
+      "deletions": 300,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 285,
+      "deletions": 283,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 306,
+      "deletions": 304,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps ES/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 286,
+      "deletions": 284,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 283,
+      "deletions": 281,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 296,
+      "deletions": 294,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps GB/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 307,
+      "deletions": 305,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IN/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 287,
+      "deletions": 285,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IS/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 286,
+      "deletions": 284,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps MX/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NL/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 281,
+      "deletions": 279,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NO/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 291,
+      "deletions": 289,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 282,
+      "deletions": 280,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps RU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps SE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 288,
+      "deletions": 286,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 309,
+      "deletions": 307,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps W1/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 278,
+      "deletions": 276,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/app.json",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPICompanies.Page.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIConfigPackages.Page.al",
+      "status": "added",
+      "additions": 86,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIExportDetails.Page.al",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIExportSummary.Page.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPISetup.Page.al",
+      "status": "added",
+      "additions": 120,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPITables.Page.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackage.Table.al",
+      "status": "added",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageCard.Page.al",
+      "status": "added",
+      "additions": 166,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageLine.Table.al",
+      "status": "added",
+      "additions": 76,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageMgt.Codeunit.al",
+      "status": "added",
+      "additions": 330,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageSubform.Page.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackages.Page.al",
+      "status": "added",
+      "additions": 185,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricInstall.Codeunit.al",
+      "status": "added",
+      "additions": 296,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricUpgrade.Codeunit.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpActivate.PermissionSet.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpAdmin.PermissionSet.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpRead.PermissionSet.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricCompaniesFactBox.Page.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformAdminClient.Codeunit.al",
+      "status": "added",
+      "additions": 217,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCompanies.Page.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCredentialMgt.Codeunit.al",
+      "status": "added",
+      "additions": 185,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformExportDetails.Page.al",
+      "status": "added",
+      "additions": 211,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformExportSummary.Page.al",
+      "status": "added",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformHttpClient.Codeunit.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformLookupState.Codeunit.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+      "status": "added",
+      "additions": 475,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformNameLookup.Page.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+      "status": "added",
+      "additions": 485,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetupWizard.Page.al",
+      "status": "added",
+      "additions": 359,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTables.Page.al",
+      "status": "added",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTelemetry.Codeunit.al",
+      "status": "added",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPrivacyNotice.Codeunit.al",
+      "status": "added",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableClaim.Table.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableClaimSource.Enum.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTablesFactBox.Page.al",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/app.json",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/FabricPlatformTestSub.Codeunit.al",
+      "status": "added",
+      "additions": 123,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABConfigPackage.Codeunit.al",
+      "status": "added",
+      "additions": 824,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABPlatform.Codeunit.al",
+      "status": "added",
+      "additions": 1077,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 68,
+    "additions": 12344,
+    "deletions": 5761,
+    "al": 35
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPICompanies.Page.al",
+        "status": "added",
+        "key": "page/48503",
+        "type": "page",
+        "id": 48503,
+        "name": "Fabric API Companies",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48503"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIConfigPackages.Page.al",
+        "status": "added",
+        "key": "page/48504",
+        "type": "page",
+        "id": 48504,
+        "name": "Fabric API Config Packages",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48504"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIExportDetails.Page.al",
+        "status": "added",
+        "key": "page/48506",
+        "type": "page",
+        "id": 48506,
+        "name": "Fabric API Export Details",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48506"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPIExportSummary.Page.al",
+        "status": "added",
+        "key": "page/48505",
+        "type": "page",
+        "id": 48505,
+        "name": "Fabric API Export Summary",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48505"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPISetup.Page.al",
+        "status": "added",
+        "key": "page/48507",
+        "type": "page",
+        "id": 48507,
+        "name": "Fabric API Setup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48507"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPITables.Page.al",
+        "status": "added",
+        "key": "page/48502",
+        "type": "page",
+        "id": 48502,
+        "name": "Fabric API Tables",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48502"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackage.Table.al",
+        "status": "added",
+        "key": "table/48501",
+        "type": "table",
+        "id": 48501,
+        "name": "Fabric Config Package",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "table/48501"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageCard.Page.al",
+        "status": "added",
+        "key": "page/48513",
+        "type": "page",
+        "id": 48513,
+        "name": "Fabric Config Package Card",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48513"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageLine.Table.al",
+        "status": "added",
+        "key": "table/48500",
+        "type": "table",
+        "id": 48500,
+        "name": "Fabric Config Package Line",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "table/48500"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48521",
+        "type": "codeunit",
+        "id": 48521,
+        "name": "Fabric Config Package Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48521"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackageSubform.Page.al",
+        "status": "added",
+        "key": "page/48514",
+        "type": "page",
+        "id": 48514,
+        "name": "Fabric Config Package Subform",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48514"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricConfigPackages.Page.al",
+        "status": "added",
+        "key": "page/48515",
+        "type": "page",
+        "id": 48515,
+        "name": "Fabric Config Packages",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48515"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricInstall.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48522",
+        "type": "codeunit",
+        "id": 48522,
+        "name": "Fabric Install",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48522"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricUpgrade.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48528",
+        "type": "codeunit",
+        "id": 48528,
+        "name": "Fabric Upgrade",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48528"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpActivate.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/48532",
+        "type": "permissionset",
+        "id": 48532,
+        "name": "Fabric Exp Activate",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "permissionset/48532"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpAdmin.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/48530",
+        "type": "permissionset",
+        "id": 48530,
+        "name": "Fabric Exp Admin",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "permissionset/48530"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpRead.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/48531",
+        "type": "permissionset",
+        "id": 48531,
+        "name": "Fabric Exp Read",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "permissionset/48531"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricCompaniesFactBox.Page.al",
+        "status": "added",
+        "key": "page/48517",
+        "type": "page",
+        "id": 48517,
+        "name": "Fabric Companies FactBox",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48517"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformAdminClient.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48526",
+        "type": "codeunit",
+        "id": 48526,
+        "name": "Fabric Platform Admin Client",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48526"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCompanies.Page.al",
+        "status": "added",
+        "key": "page/48508",
+        "type": "page",
+        "id": 48508,
+        "name": "Fabric Platform Companies",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48508"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCredentialMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48524",
+        "type": "codeunit",
+        "id": 48524,
+        "name": "Fabric Platform Credential Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48524"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformExportDetails.Page.al",
+        "status": "added",
+        "key": "page/48509",
+        "type": "page",
+        "id": 48509,
+        "name": "Fabric Platform Export Details",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48509"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformExportSummary.Page.al",
+        "status": "added",
+        "key": "page/48510",
+        "type": "page",
+        "id": 48510,
+        "name": "Fabric Platform Export Summary",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48510"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformHttpClient.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48525",
+        "type": "codeunit",
+        "id": 48525,
+        "name": "Fabric Platform Http Client",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48525"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformLookupState.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48523",
+        "type": "codeunit",
+        "id": 48523,
+        "name": "Fabric Platform Lookup State",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48523"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48520",
+        "type": "codeunit",
+        "id": 48520,
+        "name": "Fabric Platform Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48520"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformNameLookup.Page.al",
+        "status": "added",
+        "key": "page/48516",
+        "type": "page",
+        "id": 48516,
+        "name": "Fabric Platform Name Lookup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48516"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+        "status": "added",
+        "key": "page/48511",
+        "type": "page",
+        "id": 48511,
+        "name": "Fabric Platform Setup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48511"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetupWizard.Page.al",
+        "status": "added",
+        "key": "page/48519",
+        "type": "page",
+        "id": 48519,
+        "name": "Fabric Platform Setup Wizard",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48519"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTables.Page.al",
+        "status": "added",
+        "key": "page/48512",
+        "type": "page",
+        "id": 48512,
+        "name": "Fabric Platform Tables",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48512"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTelemetry.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48527",
+        "type": "codeunit",
+        "id": 48527,
+        "name": "Fabric Platform Telemetry",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48527"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPrivacyNotice.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48529",
+        "type": "codeunit",
+        "id": 48529,
+        "name": "Fabric Privacy Notice",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48529"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableClaim.Table.al",
+        "status": "added",
+        "key": "table/48533",
+        "type": "table",
+        "id": 48533,
+        "name": "Fabric Table Claim",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "table/48533"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableClaimSource.Enum.al",
+        "status": "added",
+        "key": "enum/48534",
+        "type": "enum",
+        "id": 48534,
+        "name": "Fabric Table Claim Source",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "enum/48534"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTablesFactBox.Page.al",
+        "status": "added",
+        "key": "page/48518",
+        "type": "page",
+        "id": 48518,
+        "name": "Fabric Tables FactBox",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48518"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ]
+}

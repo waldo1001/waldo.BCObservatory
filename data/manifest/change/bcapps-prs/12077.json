@@ -6,7 +6,7 @@
   "title": "Simplify CODEOWNERS to mandatory approval gates",
   "url": "https://github.com/microsoft/BCApps/pull/12077",
   "published_at": "2026-10-01T12:57:07Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "simplify codeowners to mandatory approval gates"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:57:27.075Z",
+  "retry_after": null
 }

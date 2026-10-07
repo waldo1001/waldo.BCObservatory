@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12119,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12119",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T09:04:27Z",
+  "merge_commit_sha": "282422d6cd04643685bb58218fe609eba8d931a6",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)",
+  "body_hash": "925242366eb9b425686030bd424927cbcc87d096ca12a7515d269db11045d712",
+  "fixes_issues": [],
+  "work_items": [
+    652063
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Local/ERMGSTAPAC.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 59,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/254"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

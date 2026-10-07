@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 651754: Expense Management - Captions and ToolTips update",
   "url": "https://github.com/microsoft/BCApps/pull/12061",
   "published_at": "2026-10-01T11:50:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:29.277Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:33.864Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003157
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:34.014Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:34.019Z",
+      "path": "content/changes/bcapps/12061.md"
     }
   },
   "input_hash": "0181a49ea817bb008f3d334751b01858814830d2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 651754 expense management captions and tooltips update"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8cb856856d0a254f328670a6c0fc5aaedae7c3737220e9d19fa6d2c0b48c2434"
 }

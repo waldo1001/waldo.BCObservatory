@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11609,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11609",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T06:06:19Z",
+  "merge_commit_sha": "ddffe8888a09e2f70339db87c31c5fb09f866816",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Reduce redundant record restriction checks in item journal line",
+  "body_hash": "506b5c3d4af05eaa2d32916dbd62ce3c112626845d61879e75cddd3088e2d6bd",
+  "fixes_issues": [],
+  "work_items": [
+    630177
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/RecordRestrictionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Workflow/WFWItemJournalBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 116,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 127,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/RecordRestrictionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1550",
+        "type": "codeunit",
+        "id": 1550,
+        "name": "Record Restriction Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1550"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11889",
+  "number": 11889,
+  "title": "[Master] - Bug 651129: Expense Agent - Distance UOM in Configuration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent setup now includes distance unit of measure configuration, enabling users to specify the unit of measure for mileage expense calculations.",
+  "key_points": [
+    "Adds Distance UOM configuration field to Expense Agent setup",
+    "Allows users to define the unit of measure for distance-based mileage expenses",
+    "Modifies the CreateExpenseAgentSetup codeunit to support this configuration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Adds the Distance UOM configuration to Expense Agent, allowing users to define the unit of measure used for distance-based mileage expenses.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003266,
+    "changes_in_call": 1
+  }
+}

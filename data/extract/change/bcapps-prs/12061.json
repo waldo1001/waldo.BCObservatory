@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12061",
+  "number": 12061,
+  "title": "[Master] - Bug 651754: Expense Management - Captions and ToolTips update",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Management pages now display improved captions and tooltips to provide users with clearer and more accurate field descriptions.",
+  "key_points": [
+    "Updated captions on Expense Categories page",
+    "Updated captions on Expense Category Card page",
+    "Improved tooltips on Expense Subcategories page",
+    "Changes affect user-facing labels and help text",
+    "Fixes bug 651754 for better UI clarity"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Updates captions and tooltips across Expense Management to provide clearer and more accurate descriptions for users.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003157,
+    "changes_in_call": 1
+  }
+}

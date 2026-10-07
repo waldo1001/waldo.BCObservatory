@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12157",
+  "number": 12157,
+  "title": "Mark GetAddress.io objects as obsolete",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The GetAddress.io UK postcode lookup app objects are marked obsolete as the service is being retired. Page extensions and test code have been removed, and remaining objects include deprecation notices for developers.",
+  "key_points": [
+    "Page extensions providing address lookup integration have been removed",
+    "Test code for the GetAddress.io functionality has been deleted",
+    "Core objects marked with obsolete attribute and deprecation messages",
+    "Configuration and permission sets updated to reflect obsolescence",
+    "App was already uninstalled from existing tenants as of 28.3"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "Marking GetAddress.io objects as obsolete",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005645,
+    "changes_in_call": 1
+  }
+}

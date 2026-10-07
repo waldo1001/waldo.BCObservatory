@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11866",
+  "number": 11866,
+  "title": "[Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Sync Shipments To Shopify action on the Shopify Orders page is now disabled when no Shopify orders are available, with proper filtering to avoid false disablement when the page is opened from other contexts.",
+  "key_points": [
+    "Action enablement logic added to disable Sync Shipments To Shopify when no applicable orders exist",
+    "Shop Code filter is properly honored when the page is opened from a Shopify Shop Card",
+    "Unrelated filters (customer, company, status, view, user) are ignored to prevent incorrect action disablement",
+    "No data model or permission changes",
+    "Limited change scope to page action visibility"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003539,
+    "changes_in_call": 1
+  }
+}

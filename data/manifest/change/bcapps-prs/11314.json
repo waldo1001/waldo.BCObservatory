@@ -6,10 +6,35 @@
   "title": "[Project Arches] Microsoft Fabric Export Setup",
   "url": "https://github.com/microsoft/BCApps/pull/11314",
   "published_at": "2026-10-01T09:41:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:31.889Z",
+      "change_class": "code",
+      "files": 68,
+      "al": 35,
+      "objects": 35,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:36.860Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.011419
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:37.059Z",
+      "objects": 35,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:37.070Z",
+      "path": "content/changes/bcapps/11314.md"
     }
   },
   "input_hash": "770f7023d8ce08fc3830da72caa8168c0fec7f6b:c1",
@@ -35,5 +60,8 @@
     ],
     "community_contribution": true,
     "title_key": "project arches microsoft fabric export setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a016f220cdcce786dee6046ac9897398bcf25992aa91e624232b9dff3f3a0bf"
 }

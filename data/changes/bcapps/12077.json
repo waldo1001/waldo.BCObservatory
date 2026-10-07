@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12077,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12077",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T12:57:07Z",
+  "merge_commit_sha": "eecf68759607a55b497d464a4f738c7b46ee4f20",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Simplify CODEOWNERS to mandatory approval gates",
+  "body_hash": "9fd7faa916f6ad6367021a6740c354a64556db8b0eb96241638b8cd4122938dc",
+  "fixes_issues": [],
+  "work_items": [
+    647781,
+    652104
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 16,
+    "deletions": 101,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

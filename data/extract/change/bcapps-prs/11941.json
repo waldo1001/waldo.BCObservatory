@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11941",
+  "number": 11941,
+  "title": "Bug 651577 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The FEC audit file export now populates CompAuxNum and CompAuxLib columns for payment discount lines on unapplied entries by using G/L entry source type and number as a fallback when customer/vendor ledger entries are unavailable.",
+  "key_points": [
+    "Unapplication creates G/L entries without corresponding customer/vendor ledger entries, causing missing auxiliary account information",
+    "Added fallback logic using G/L entry source type and source number to identify the party for receivables/payables accounts",
+    "Improved FEC export completeness for unapplied payment scenarios",
+    "Added automated tests for both customer and vendor unapplication cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "CompAuxNum and CompAuxLib were blank on customer/vendor receivables or payables lines created when a payment was unapplied.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003845,
+    "changes_in_call": 1
+  }
+}

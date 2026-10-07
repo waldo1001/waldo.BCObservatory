@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11899",
+  "number": 11899,
+  "title": "[Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Tax Matching Agent now correctly handles North American orders by restricting to US and Canadian orders, scoping Canadian HST/TVH jurisdictions to provinces, matching zero-rate tax lines, and improving the matching algorithm with updated keyword rules and prompt consistency.",
+  "key_points": [
+    "Tax matching restricted to US and Canadian orders only",
+    "Canadian HST/TVH jurisdictions scoped by province (e.g., ONHST, NSHST) to prevent rate conflicts across provinces",
+    "Zero-rate tax lines now matched like other lines instead of remaining unmatched",
+    "Matching prompt updated with consistent keyword rules, French jurisdiction names, and improved geographic scoping",
+    "Tax Match Review experience updated to show 0% rates as 0.00 and preserve full Shopify tax titles when creating jurisdictions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": "Fix Shopify Tax Matching Agent behavior for supported North American orders",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005485,
+    "changes_in_call": 1
+  }
+}

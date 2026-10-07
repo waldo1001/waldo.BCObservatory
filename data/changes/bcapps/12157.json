@@ -1,0 +1,455 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12157,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12157",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T14:37:45Z",
+  "merge_commit_sha": "1189723c6ccd408992335241f6f2b3999d9d93f1",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Mark GetAddress.io objects as obsolete",
+  "body_hash": "e1d2c628d268e3ebc1ecf351e0955693466cc1fde960b32dac9d636e6a9a7f6b",
+  "fixes_issues": [],
+  "work_items": [
+    649616
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/GetAddressioConfig.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/AdministratorMainRoleCenter.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/BankAccountCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 101,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CompanyInformation.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 161,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ContactAltAddressCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ContactCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CustomerBankAccountCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 103,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CustomerCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/EmployeeCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 101,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/LocationCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ResourceCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 95,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ShiptoAddress.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 101,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/VendorCard.PageExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicisvgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365busfullaccessgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365buspremiumgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365fullaccessgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365readgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365teammembergetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocal.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocalread.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/intelligentcloudgetaddressioukpostcodes.permissionsetext.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeBusinessLogicGB.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeConfigurationPageGB.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioConfig.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeNotifMemory.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeSearchGB.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeServiceGetAddressio.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/UKPostcodeInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/ExtensionLogo.png",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/app.json",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 53,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/src/TestUKPostcode.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 275,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/src/TestUKPostcodeConfig.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 162,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/src/TestUKPostcodeGetAddressio.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 325,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/GB/UKPostcodeGetAddressIO/test/src/TestUKPostcodePages.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 1847,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 37,
+    "additions": 90,
+    "deletions": 3877,
+    "al": 31
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/GetAddressioConfig.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/AdministratorMainRoleCenter.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/BankAccountCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CompanyInformation.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ContactAltAddressCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ContactCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CustomerBankAccountCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/CustomerCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/EmployeeCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/LocationCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ResourceCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/ShiptoAddress.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/VendorCard.PageExt.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicisvgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365busfullaccessgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365buspremiumgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365fullaccessgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365readgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365teammembergetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocal.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocalread.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/intelligentcloudgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeBusinessLogicGB.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeConfigurationPageGB.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioConfig.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioUpgrade.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeNotifMemory.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeSearchGB.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeServiceGetAddressio.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/UKPostcodeInstall.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

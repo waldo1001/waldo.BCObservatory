@@ -6,7 +6,7 @@
   "title": "Expense Agent: capture submission policy evaluation history",
   "url": "https://github.com/microsoft/BCApps/pull/11628",
   "published_at": "2026-10-01T16:59:22Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 7,
       "objects": 7,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:24.384Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003944
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:24.524Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:24.530Z",
+      "path": "content/changes/bcapps/11628.md"
     }
   },
   "input_hash": "75913eb80c00d45c0463a4a32f9e746027508b67:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9dce32fd42c9bad7e1f051a5b110b8864adc30208eb2dba5ba2bb156f15fc11c"
+  "output_hash": "0b0379ceba0085e63142504d7e278c677015f5ba6d98e45257817cfe16fe2873"
 }

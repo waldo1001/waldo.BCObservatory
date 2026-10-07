@@ -6,10 +6,35 @@
   "title": "Mark GetAddress.io objects as obsolete",
   "url": "https://github.com/microsoft/BCApps/pull/12157",
   "published_at": "2026-10-01T14:37:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:26.447Z",
+      "change_class": "code",
+      "files": 37,
+      "al": 31,
+      "objects": 0,
+      "unjoined": 31
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:32.636Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.005645
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:32.826Z",
+      "objects": 0,
+      "unjoined": 31,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:32.833Z",
+      "path": "content/changes/bcapps/12157.md"
     }
   },
   "input_hash": "1189723c6ccd408992335241f6f2b3999d9d93f1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "mark getaddress io objects as obsolete"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "85cad3b2a7018d081c8a5c33ab9d6b10a1343ba03c7a0b7cf4366e76acdd2ede"
 }

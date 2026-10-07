@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 651129: Expense Agent - Distance UOM in Configuration",
   "url": "https://github.com/microsoft/BCApps/pull/11889",
   "published_at": "2026-10-01T11:45:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:28.654Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:33.292Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003266
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:33.448Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:33.453Z",
+      "path": "content/changes/bcapps/11889.md"
     }
   },
   "input_hash": "19ed4f16311816fe131ee5c951ce2eec5a26c319:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 651129 expense agent distance uom in configuration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1505450b846132028316b985a37f333550dde96bd24bd56932b9b67c3e571258"
 }

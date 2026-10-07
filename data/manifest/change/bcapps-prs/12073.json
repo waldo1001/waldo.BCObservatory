@@ -6,7 +6,7 @@
   "title": "Add preparation script support to AI test suite imports",
   "url": "https://github.com/microsoft/BCApps/pull/12073",
   "published_at": "2026-10-01T10:37:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "add preparation script support to ai test suite imports"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:57:34.025Z",
+  "retry_after": null
 }

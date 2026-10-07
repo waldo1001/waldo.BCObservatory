@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11654",
+  "number": 11654,
+  "title": "Repair and re-enable Expense Agent permission and posted-history tests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent tests are repaired and re-enabled by fixing permission checks, correcting posted-history fixtures, and removing 14 test exclusions from the disabled-test manifest. Production code remains unchanged.",
+  "key_points": [
+    "Fixed three permission-related tests by organizing permission observations under the correct restricted role before assertions",
+    "Replaced invalid posted-history fixture with a properly posted zero-amount line to preserve genuine history",
+    "Re-enabled Approve/Submit/Reject Travel Request page-action tests after compilation fix",
+    "Classified codeunit 148339 as UnitTest and repaired foreign-currency fixtures in six API tests",
+    "Removed 14 role/history/action test exclusions while preserving HTTP API exclusions requiring separate authentication"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Fix the three Expense Mgmt. Read/Edit/Admin tests by collecting all nine permission observations under the exact restricted role.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00472,
+    "changes_in_call": 1
+  }
+}

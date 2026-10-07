@@ -1,0 +1,200 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12070,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12070",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T15:22:34Z",
+  "merge_commit_sha": "5571f5e884c55fa2a9648539b18c05628f627ecc",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps",
+  "body_hash": "fdbf1bb3074a1bead7213b11e217e911cffe1d770963043e94c52746cb5852a6",
+  "fixes_issues": [],
+  "work_items": [
+    652070
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/EDocDEStructImportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungStructuredTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/EDocumentFormatOIOUBL/test/src/EDocumentStructuredTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentsSetup.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Continia/Test/src/ContiniaRegIntegrTests.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 17,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 59,
+    "deletions": 31,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6101",
+        "type": "permissionset",
+        "id": 6101,
+        "name": "E-Doc. Core - Read",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6101"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6105",
+        "type": "permissionset",
+        "id": 6105,
+        "name": "E-Doc. Core - User",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6105"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentsSetup.Table.al",
+        "status": "modified",
+        "key": "table/6107",
+        "type": "table",
+        "id": 6107,
+        "name": "E-Documents Setup",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6107"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al",
+        "status": "modified",
+        "key": "interface/ipurchaselineaccountprovider",
+        "type": "interface",
+        "id": null,
+        "name": "IPurchaseLineAccountProvider",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/ipurchaselineaccountprovider"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

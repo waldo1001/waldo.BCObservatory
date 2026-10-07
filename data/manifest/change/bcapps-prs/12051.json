@@ -6,10 +6,35 @@
   "title": "[Peppol] Fix Remittance Advice XML line count, Note order and invoice reference",
   "url": "https://github.com/microsoft/BCApps/pull/12051",
   "published_at": "2026-10-01T09:25:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:33.278Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:41.568Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003429
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:41.836Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:41.842Z",
+      "path": "content/changes/bcapps/12051.md"
     }
   },
   "input_hash": "ee19b131a8f51220a050fd3bc03c5583d4dc2a52:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "peppol fix remittance advice xml line count note order and invoice reference"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a31620f8c7152e13cf0da1888a55655d10e55d3a624fdcea76cdfe8e1df44946"
 }

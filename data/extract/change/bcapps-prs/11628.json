@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11628",
+  "number": 11628,
+  "title": "Expense Agent: capture submission policy evaluation history",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent now captures policy evaluation history at the report level, storing outcomes and flagged categories in the activity log during submission and resubmission with deduplication per submission round.",
+  "key_points": [
+    "Report-level policy evaluation summaries added to expense activity history",
+    "Activity logger captures submission/resubmission events and line evaluation confirmations",
+    "Passed/failed counts and distinct flagged category codes are stored in activity entries",
+    "Category overflow handled with a final '...' array entry for display",
+    "Read-only API exposes snapshots and preserves data through posting"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Adds report-level policy evaluation summaries to expense activity history.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003944,
+    "changes_in_call": 1
+  }
+}

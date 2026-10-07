@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11609",
+  "number": 11609,
+  "title": "[Main]-Reduce redundant record restriction checks in item journal line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Record restriction checks in item journal operations are optimized to eliminate redundant calls that were affecting performance.",
+  "key_points": [
+    "Removes unnecessary record restriction checks from item journal line processing",
+    "Improves performance by avoiding duplicate validation calls",
+    "Updates related test codeunit to validate the changes"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "platform"
+  ],
+  "quote": "Reduce redundant record restriction checks in item journal line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002923,
+    "changes_in_call": 1
+  }
+}

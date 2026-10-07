@@ -1,0 +1,236 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11899,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11899",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T16:17:54Z",
+  "merge_commit_sha": "1e03f388a72b0bb31f95aedb7a58472aff9a1c9b",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines",
+  "body_hash": "af242b756751c714ea2f80465ad285b29f198f1c85672b3e0908de21b7fa69a7",
+  "fixes_issues": [],
+  "work_items": [
+    651349,
+    651374,
+    651375,
+    651520,
+    651529,
+    652155
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/.resources/Prompts/ShpfyTaxMatchingAgent-SystemPrompt.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 11,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/Architecture.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 6,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/TestMatrix.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 6,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAActivityLog.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAEvents.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAMatcher.Codeunit.al",
+      "status": "modified",
+      "additions": 111,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMANotify.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Page Extensions/ShpfyTMAOrderTaxLines.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Pages/ShpfyTMAOrderTaxLinesPart.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Pages/ShpfyTMAReview.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderHeader.TableExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-JurisdictionCreate.yaml",
+      "status": "modified",
+      "additions": 145,
+      "deletions": 5,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-JurisdictionMatch.yaml",
+      "status": "modified",
+      "additions": 250,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/.resources/TestScenarios/TMA-TS-TaxDetail.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMARateConflictTest.Codeunit.al",
+      "status": "modified",
+      "additions": 360,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMATestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/ShopifyNA/test/src/Tax Matching Agent/ShpfyTMAVerify.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderTaxLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Shipping/ShpfyShippingChargesTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 982,
+    "deletions": 89,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderTaxLine.Table.al",
+        "status": "modified",
+        "key": "table/30122",
+        "type": "table",
+        "id": 30122,
+        "name": "Shpfy Order Tax Line",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30122"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAActivityLog.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAEvents.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMAMatcher.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Codeunits/ShpfyTMANotify.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Page Extensions/ShpfyTMAOrderTaxLines.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Pages/ShpfyTMAOrderTaxLinesPart.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Pages/ShpfyTMAReview.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/ShopifyNA/app/src/Tax Matching Agent/Table Extensions/ShpfyTMAOrderHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

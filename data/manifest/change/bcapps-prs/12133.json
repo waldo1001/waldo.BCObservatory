@@ -6,10 +6,18 @@
   "title": "Block file scheme in Web Request Helper",
   "url": "https://github.com/microsoft/BCApps/pull/12133",
   "published_at": "2026-09-30T18:31:38Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:36.787Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "df3ab2d79eb97aed4bef8db42748bc7fa3331a65:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "block file scheme in web request helper"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd9eaf7ff73bb4734d5ba054b370eb102b426815e64b23b19c9a9af0af4455db"
 }

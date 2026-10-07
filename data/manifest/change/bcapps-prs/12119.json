@@ -6,10 +6,18 @@
   "title": "Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)",
   "url": "https://github.com/microsoft/BCApps/pull/12119",
   "published_at": "2026-10-01T09:04:27Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:35.091Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "282422d6cd04643685bb58218fe609eba8d931a6:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "fixing an apac specific issue with applying a posted sales credit memo when using unrealized vat gst"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd3a29975771d3a313fe1f31678bdb4a7fa4170ae730f4a09c3e442f39e1d68a"
 }

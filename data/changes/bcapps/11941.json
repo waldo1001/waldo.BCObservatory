@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11941,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11941",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T12:10:32Z",
+  "merge_commit_sha": "7de00b421562ccc6e4e88e73981112c89938b981",
+  "author": "v-praghav",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 651577 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File.",
+  "body_hash": "3f607564353ad7bdaa1a08b914f9cbebc82ade8330d48898c84f730f78dc2c68",
+  "fixes_issues": [],
+  "work_items": [
+    651577
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/GenerateFileFEC.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/test/src/FECAuditFileExportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 130,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 153,
+    "deletions": 23,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/GenerateFileFEC.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

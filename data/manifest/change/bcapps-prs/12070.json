@@ -6,10 +6,18 @@
   "title": "Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps",
   "url": "https://github.com/microsoft/BCApps/pull/12070",
   "published_at": "2026-09-30T15:22:34Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:38.119Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
     }
   },
   "input_hash": "5571f5e884c55fa2a9648539b18c05628f627ecc:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix inconsistent clean27 clean28 tags in e document apps"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "565e31303168ac967cb6f68afbc46fb7180a51ebcab1f12045b5933909e083a0"
 }

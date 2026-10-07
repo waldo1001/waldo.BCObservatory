@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12051",
+  "number": 12051,
+  "title": "[Peppol] Fix Remittance Advice XML line count, Note order and invoice reference",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Peppol remittance advice XML export now correctly reports the actual line count, orders note elements according to XSD requirements, and uses the vendor invoice number for invoice references.",
+  "key_points": [
+    "LineCountNumeric element now reflects the actual number of lines instead of always showing zero",
+    "Line-level Note elements are positioned immediately after ID elements to match XSD schema requirements",
+    "Invoice references now prioritize the vendor's external document number, falling back to the system document number",
+    "InvoicingPartyReference element is no longer emitted from the export",
+    "New test validates all three corrections"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003429,
+    "changes_in_call": 1
+  }
+}
