@@ -67,6 +67,20 @@ a `claude setup-token` token returns `unavailable:scope`.
 - The weekly narrative (`data/changes/narratives/<week>.json`) is one Sonnet call when a week's changes move
   (`quotas.change_narrative`); delete the file to have it written again.
 
+## Re-extraction after an extractor bump
+
+- A new `EXTRACTOR_VERSION` (`pipeline/code/extract.ts`) changes every code item's `input_hash` (`<sha>:x<n>`), so
+  the next ingest marks each one stale. One code item is one major: W1, the first-party apps and every country.
+  `code_jobs: 1` runs one a night, in id order (`code/bcapps/29`, `code/bcapps/30`, `code/sandbox-history/23` ...
+  `28`); items a major does not use (`code/bcapps/28`, `onprem-history`, `sandbox-history/29-30`) never compete.
+  Extractor 4 (D65, page controls) therefore takes about eight nights, with the D62 backfill of BC23-28; a night
+  on which `bcapps/30` (BCApps `main`) or `bcapps/29` moved goes to that item first.
+- Progress: `data/manifest/code/<source>/<major>.json` (`state`, `input_hash` ending in `:x4`), and
+  `data/code/<major>/<cc>/manifest.json` `extractor` (`"4"`) and `parse_errors` (not above the previous manifest).
+  For extractor 4: `grep -c '"controls":\[{' data/code/30/apps/objects-page-1.jsonl` is about 1,400 (BC30 apps, measured on a scratch run).
+- Until a major is re-extracted its records lack the new members; readers must not depend on them. Version and
+  country diffs ignore page controls and actions, so they do not churn while majors are at different extractors.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

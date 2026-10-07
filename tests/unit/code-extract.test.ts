@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { validate } from "../../pipeline/lib/schema.js";
-import { extractSource, loadParser, objectKey, unquote, type AlObject } from "../../pipeline/code/extract.js";
+import { EXTRACTOR_VERSION, extractSource, loadParser, objectKey, runObjectOf, unquote, type AlObject } from "../../pipeline/code/extract.js";
 
 const fx = (f: string) => readFileSync(join(ROOT, "tests/fixtures/al", f), "utf8");
 const ctx = { version: "29", country: "w1", layer: "base" as const, file: "x.al", commit: "abc" };
@@ -73,4 +73,76 @@ test("field ToolTips: both spellings BCApps uses (ToolTip, Tooltip) land in `too
   const src = `table 8057 "Subscription Header"\n{\n    fields\n    {\n        field(1; "No."; Code[20]) { ToolTip = 'Specifies the number.'; }\n        field(2; Description; Text[100]) { Tooltip = 'Specifies a description.'; }\n        field(3; Plain; Integer) { Caption = 'Plain'; }\n    }\n}\n`;
   const [t] = extractSource(p, src, ctx);
   assert.deepEqual(t.fields.map((f) => f.tooltip), ["Specifies the number.", "Specifies a description.", null]);
+});
+
+test("page controls: fields with their binding, ToolTip and Caption, grouped by container, CLEAN marks kept (D65)", async () => {
+  assert.equal(EXTRACTOR_VERSION, "4");
+  const m = await objects("pages.al");
+  assert.deepEqual([...m.keys()], ["page/8060", "page/8059", "pageextension/8061"]);
+  for (const o of m.values()) {
+    assert.equal(o.parse_error, false, objectKey(o));
+    assert.ok(validate("al-object", o).ok, `${objectKey(o)}: ${validate("al-object", o).errors.join("; ")}`);
+  }
+  const card = m.get("page/8060")!;
+  assert.deepEqual(card.controls!.map((c) => [c.kind, c.name, c.source_expr, c.group]), [
+    ["field", "No.", 'Rec."No."', "General"],
+    ["field", "Description", "Description", "General"],
+    ["field", "Item No.", 'Rec."Item No."', "General"],
+    ["field", "TotalAmount", "Rec.Amount + Rec.Fee", "General"],
+    ["label", "HintLabel", null, "Hints"],
+    ["part", "Lines", "Service Commitments", "Content"],
+    ["usercontrol", "Chart", "Business Chart", "FactBoxes"],
+  ], "source order; systemparts left out; the area spelled as documented");
+  const [no, desc, item, total] = card.controls!;
+  assert.deepEqual([no.tooltip, no.caption, no.properties], ["Specifies the number of the subscription.", null, {}], "the trigger is not a property");
+  assert.deepEqual([desc.tooltip, desc.caption], ["Specifies a description of the subscription.", "Subscription Description"], "Tooltip spelling, Caption lifted out");
+  assert.deepEqual([item.obsolete?.tag, item.clean], ["27.0", ["CLEAN27"]]);
+  assert.deepEqual([total.caption, total.tooltip, total.properties], ["Total", null, { Editable: "false" }]);
+  const list = m.get("page/8059")!;
+  assert.deepEqual(list.controls!.map((c) => [c.name, c.source_expr, c.group]), [["No.", 'Rec."No."', "Group"], ["Status", "Format(Rec.Status)", "Group"], ["Open", "OpenCount", "Activities"]]);
+});
+
+test("page actions: RunObject parsed, groups and areas, actionrefs and separators left out, cuegroup actions kept (D65)", async () => {
+  const m = await objects("pages.al");
+  const card = m.get("page/8060")!;
+  assert.deepEqual(card.actions!.map((a) => [a.kind, a.name, a.group, a.run_object]), [
+    ["action", "CreateInvoice", "Processing", { type: "report", name: null, id: 8012 }],
+    ["action", "OpenList", "&Navigate", { type: "page", name: "Service Objects", id: null }],
+    ["action", "OldPost", "&Navigate", { type: "codeunit", name: "Sales-Post", id: null }],
+  ]);
+  const [post, open, old] = card.actions!;
+  assert.deepEqual([post.caption, post.tooltip, post.properties], ["Create Invoice", "Creates the invoice for the subscription.", { Image: "Invoice", RunObject: "Report 8012" }]);
+  assert.equal(open.properties.RunPageLink, '"No." = field("No.")');
+  assert.deepEqual([old.obsolete?.state, old.clean], ["Pending", ["CLEAN28"]]);
+  assert.deepEqual(m.get("page/8059")!.actions!.map((a) => [a.name, a.group, a.run_object?.name]), [["NewSubscription", "Activities", "Service Object"]]);
+  assert.deepEqual([runObjectOf(null), runObjectOf("Page 21"), runObjectOf('Report "Customer - Order Detai...')], [null, { type: "page", name: null, id: 21 }, { type: "report", name: null, id: null }]);
+});
+
+test("page extension: controls and actions under their anchor, modify() recorded as kind modify (D65)", async () => {
+  const ext = (await objects("pages.al")).get("pageextension/8061")!;
+  assert.deepEqual(ext.controls!.map((c) => [c.kind, c.name, c.group, c.tooltip]), [
+    ["field", "Subscription No.", "addafter(Name)", "Specifies the subscription of the customer."],
+    ["field", "Open Subscriptions", "Subscriptions", null],
+    ["modify", "No.", "modify(No.)", "Specifies the customer number, also used on subscriptions."],
+  ]);
+  assert.deepEqual(ext.controls![0].properties, { ApplicationArea: "All" });
+  assert.deepEqual(ext.actions!.map((a) => [a.kind, a.name, a.group, a.properties]), [
+    ["action", "ShowSubscriptions", "addfirst(Processing)", { RunObject: 'Page "Service Objects"' }],
+    ["modify", "Post", "modify(Post)", { Visible: "false" }],
+  ]);
+});
+
+test("controls and actions stay out of the hash and off other object types; fixture parse errors unchanged (D65)", async () => {
+  const p = await loadParser();
+  const src = fx("pages.al");
+  const [card] = extractSource(p, src, ctx);
+  const [relaid] = extractSource(p, src.replace("Specifies the number of the subscription.", "Specifies another number.").replace("RunObject = Report 8012;", ""), ctx);
+  assert.notDeepEqual(relaid.controls, card.controls);
+  assert.equal(relaid.hash, card.hash, "a layout-only change does not change the object hash");
+  assert.notEqual(extractSource(p, src.replace("PageType = Card;", "PageType = Document;"), ctx)[0].hash, card.hash, "page properties still count");
+  const all = [...(await objects("objects.al")).values()];
+  for (const o of all) assert.equal("controls" in o || "actions" in o, o.type === "page" || o.type === "pageextension", objectKey(o));
+  assert.deepEqual(all.find((o) => o.type === "pageextension")!.controls, [], "an empty extension has empty lists, not missing ones");
+  const errors = (f: string) => extractSource(p, fx(f), ctx).filter((o) => o.parse_error).length;
+  assert.deepEqual(["objects.al", "preproc.al", "broken.al", "pages.al"].map(errors), [0, 0, 1, 0]);
 });

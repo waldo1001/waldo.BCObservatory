@@ -583,6 +583,75 @@ Deviations from 6.1-6.2:
    Related list (6.1). The validator needed no code: it has no sections list and `expectedId` covers `apps/`;
    `frontmatter.base.json` gains `app` in `type` and `id`. Search records for apps are tranche 2's.
 
+### 8.4 Tranche 4a built, deviations
+
+Built on `dev/extract` (2026-10-07), not pushed: the bump re-runs code jobs, which share one slot a night with the
+BC23-28 backfill (D62). `EXTRACTOR_VERSION` is `"4"`; pages and page extensions carry `controls` and `actions`
+(always present on those two types, `[]` when empty; absent on every other type and in older records);
+`schemas/al-object.json` describes both, still `al-object@1`. Fixture `tests/fixtures/al/pages.al` (a card with a
+group, a grid label, a `#if not CLEAN27` field, a part, a usercontrol and actions with `RunObject`; a list with a
+repeater and cuegroup actions; a page extension with anchors and `modify`); parse errors on the fixtures unchanged
+(0, 0, 1, and 0 on the new one).
+
+Measured on the BCApps `main` checkout of the runner cache (`47f79360`, BC30), extracting W1 and the first-party apps
+into a scratch directory, extractor 3 against 4:
+
+| Measure | W1 | apps |
+|---|---|---|
+| page records / page extension records | 2,893 / 161 | 1,392 / 743 |
+| controls / actions | 40,706 / 12,421 | 17,016 / 3,090 |
+| field controls with a ToolTip | 12,285 of 39,194 (31%) | 8,599 of 15,916 (54%) |
+| bytes per page record, 3 → 4 | 1,641 → 6,737 | 1,290 → 4,384 |
+| bytes per page extension record, 3 → 4 | 683 → 1,765 | 710 → 1,889 |
+| page shards, 3 → 4 | 4.7 → 19.5 MB | 1.8 → 6.1 MB (pages) + 0.5 → 1.4 MB (extensions) |
+| whole snapshot, 3 → 4 | 43.7 → 58.6 MB (+34%) | 17.0 → 22.2 MB (+31%) |
+| extraction time, 3 and 4 (two to three runs) | 8.6-11.0 s and 8.6-9.5 s | 3.3-4.0 s and 3.3-3.9 s |
+
+About 250 bytes per control and 375 per action, as 7.1 estimated. Both snapshots gzip from 6.6 to 8.6 MB. The country
+overlays add an estimated 7 MB (BC30, 1,306 overlay pages) and 11 MB (BC29, 1,891) at the W1 rate; skeletons
+(BC23-27) do not grow. Extraction time does not move beyond run-to-run noise; peak memory of the scratch run rose from
+535-625 MB to about 680 MB. The BC28 sandbox-history checkout extracts cleanly (3,013 page records, 40,271 controls,
+12,401 actions, every record valid). Every page record re-extracted from the same checkout has the same `hash` as
+under extractor 3 and is byte-identical once `controls` and `actions` are removed.
+
+Deviations from 7.1:
+
+1. **Controls and actions are not in the object hash.** `objectHash` leaves them out, so a page hashes as it did:
+   re-extracting one major at a time does not mark every page changed against the majors not yet re-extracted, the
+   BC23-27 skeletons stay comparable, overlays still drop a country copy identical to W1, and no version or country
+   diff changes (`diff.ts` also drops both arrays on reading; test `page controls and actions (extractor 4) change
+   no version or country diff`). The cost: a layout-only change is not a change in the timelines and diffs, exactly
+   as before. Tranche 4b must add a signature of the controls to the object page's `input_hash`
+   (`pipeline/render/object.ts`), which today takes `o.hash`.
+2. **Shape additions.** Controls gain `kind: "modify"` for a page extension's `modify(X)` (it can set the ToolTip of
+   a base control); actions gain `kind` (`action`, `customaction`, `systemaction`, `fileuploadaction`, `modify`) and
+   `group`; `run_object` is `{ type, name, id }` with exactly one of `name`/`id` set (both null when the value was
+   clipped). ToolTip and Caption sit in their own members and are removed from `properties` (any casing), so they are
+   not stored twice; `RunObject` stays in `properties` as written.
+3. **What is left out:** `systempart` (Links, Notes), containers themselves (their label is the members' `group`),
+   promoted `actionref`s and separators, `move*` statements, views, and report and xmlport request pages.
+4. **`group`** is the nearest container's Caption, else its name, else the area in its documented spelling
+   (`area(factboxes)` → `FactBoxes`); captions are verbatim, `&Navigate` keeps its accelerator. In a page extension
+   the anchor (`addafter(Name)`) is the group only for members directly under it; a group inside the anchor wins.
+   Cuegroup actions (inside the layout) are in `actions` with the cuegroup as group.
+5. **`source_expr`** is the binding as written for fields (`Rec."No."`, `Format(Rec.Status)`), the unquoted
+   object name for a part or usercontrol, null for labels and `modify`; clipped at 300 like properties.
+6. **`relations.ts` is unchanged:** its slim index entry was already `{ key, app, w1 }`, never the object.
+7. **Re-extraction order and length.** One code item is a whole major (W1, apps and every country), so the order of
+   7.1 by snapshot (30/apps, 30/w1, ...) is not something the queue can do, and it is far shorter than 30 nights. The
+   planner sorts the undated code items by id: after the bump `code/bcapps/29` runs first, then `code/bcapps/30`,
+   then `code/sandbox-history/23` to `28`, one a night (`code_jobs: 1`, not scaled by the guard). BC23-27 have never
+   run and BC28 is already stale for extractor 3, so the bump adds exactly one night (bcapps/29) ahead of the D62
+   backfill: eight nights for everything, 30/apps on the second. If the bump lands after BC23-27 ran at
+   extractor 3, those five re-run for nothing (their skeletons do not change), so it is cheaper pushed early.
+   `code/bcapps/30` follows BCApps `main` and goes stale whenever `main` moves, and it sorts before the
+   sandbox-history items; on such nights it takes the slot (open question below, not caused by this tranche).
+   Progress: `docs/RUNBOOK.md`, "Re-extraction after an extractor bump".
+
+Open, for the owner: whether `code/bcapps/30` should yield to the backfill (for example by sorting stale items that
+already have a snapshot after never-extracted ones), since otherwise the BC23-28 history lands only on nights when
+neither BCApps branch moved.
+
 ## 9. Files
 
 | File | Change |

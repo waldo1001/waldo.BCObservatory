@@ -28,6 +28,22 @@
       "clean": { "$ref": "#/$defs/clean" }
     } } },
     "triggers": { "type": "array", "items": { "type": "string" } },
+    "controls": { "type": "array", "description": "pages and page extensions, extractor 4 on (D65): layout controls in source order", "items": { "type": "object", "required": ["name", "kind", "source_expr", "caption", "tooltip", "group"], "properties": {
+      "name": { "type": "string" }, "kind": { "enum": ["field", "part", "usercontrol", "label", "modify"] },
+      "source_expr": { "type": ["string", "null"], "description": "the binding as written: Rec.\"No.\", a variable or an expression; the subpage of a part, the add-in of a usercontrol" },
+      "caption": { "type": ["string", "null"] }, "tooltip": { "type": ["string", "null"] },
+      "group": { "type": ["string", "null"], "description": "nearest container's Caption, else its name, else the area; in a page extension the anchor, e.g. addafter(Name)" },
+      "properties": { "type": "object", "description": "every other property, values clipped at 300 characters" },
+      "obsolete": { "$ref": "#/$defs/obsolete" }, "clean": { "$ref": "#/$defs/clean" }
+    } } },
+    "actions": { "type": "array", "description": "pages and page extensions, extractor 4 on (D65): actions in source order, without promoted actionrefs and separators", "items": { "type": "object", "required": ["name", "kind", "caption", "tooltip", "run_object", "group"], "properties": {
+      "name": { "type": "string" }, "kind": { "enum": ["action", "customaction", "systemaction", "fileuploadaction", "modify"] },
+      "caption": { "type": ["string", "null"] }, "tooltip": { "type": ["string", "null"] },
+      "run_object": { "type": ["object", "null"], "required": ["type", "name", "id"], "properties": { "type": { "type": "string" }, "name": { "type": ["string", "null"] }, "id": { "type": ["integer", "null"] } } },
+      "group": { "type": ["string", "null"] },
+      "properties": { "type": "object" },
+      "obsolete": { "$ref": "#/$defs/obsolete" }, "clean": { "$ref": "#/$defs/clean" }
+    } } },
     "clean": { "$ref": "#/$defs/clean" },
     "parse_error": { "type": "boolean", "description": "tree-sitter reported a syntax error inside the object; its members may be incomplete" },
     "hash": { "type": "string" }

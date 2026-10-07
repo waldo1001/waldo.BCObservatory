@@ -9,7 +9,9 @@
  * Records carry names, ids, types, properties (values clipped), fields, enum values, keys, procedure signatures with
  * attributes, events and subscriptions, triggers and Obsolete* state at object and member level. Never code bodies.
  * Doc comments (/// <summary>) are kept only when the caller says the source's license allows it (BCApps, MIT).
- * Pages, reports, queries and xmlports get properties, procedures and triggers; their layout/dataset is v0.2.
+ * Pages, reports, queries and xmlports get properties, procedures and triggers. Pages and page extensions also get
+ * their layout controls and their actions (D65, version 4), each with its ToolTip and Caption; report and xmlport
+ * datasets and request pages are not extracted.
  *
  * Preprocessor regions are followed the way the shipped build compiles them: no symbols are defined, so
  * `#if not CLEAN27` is taken and its `#else` is not. Whatever sits inside a `#if not CLEAN<n>` /
@@ -20,7 +22,7 @@ import { createRequire } from "node:module";
 import { Language, Parser, type Node } from "web-tree-sitter";
 import { canonicalJson, sha256 } from "../lib/text.js";
 
-export const EXTRACTOR_VERSION = "3"; // 3: country extension apps (D58)
+export const EXTRACTOR_VERSION = "4"; // 4: Tooltip spelling; page controls (D65). 3: country extension apps (D58)
 export const OBJECT_TYPES = [
   "table", "tableextension", "page", "pageextension", "codeunit", "report", "reportextension", "query", "xmlport", "enum",
   "enumextension", "interface", "permissionset", "permissionsetextension", "entitlement", "profile", "controladdin",
@@ -40,12 +42,32 @@ export interface AlProcedure {
   subscribes_to: { object_type: string; object_name: string; event: string; element: string | null } | null;
   obsolete: Obsolete | null; doc: string | null; line: number; clean?: string[];
 }
+/**
+ * A layout control of a page or page extension (D65). `source_expr` is the binding as written (`Rec."No."`, a
+ * variable, an expression; the subpage of a part, the add-in of a usercontrol). `group` is the nearest container's
+ * Caption, else its name, else the area (`Content`, `FactBoxes`); in a page extension the anchor (`addafter(Name)`).
+ * `kind: "modify"` is a page extension's `modify(X)` of a base control. ToolTip and Caption are lifted out of
+ * `properties` into their own members.
+ */
+export interface AlControl {
+  name: string; kind: "field" | "part" | "usercontrol" | "label" | "modify"; source_expr: string | null; caption: string | null;
+  tooltip: string | null; group: string | null; properties: Record<string, string>; obsolete: Obsolete | null; clean?: string[];
+}
+/** A page action (D65): `run_object` from RunObject (`Page "Service Object"`, `Report 8012`), `group` as for controls. */
+export interface AlAction {
+  name: string; kind: "action" | "customaction" | "systemaction" | "fileuploadaction" | "modify"; caption: string | null; tooltip: string | null;
+  run_object: { type: string; name: string | null; id: number | null } | null; group: string | null; properties: Record<string, string>;
+  obsolete: Obsolete | null; clean?: string[];
+}
 export interface AlObject {
   schema: "al-object@1"; version: string; build: string | null; country: string; layer: "base" | "overlay"; app: string | null;
   namespace: string | null; type: ObjectType; id: number | null; name: string; extends: string | null; file: string;
   file_hash: string | null; commit: string | null; properties: Record<string, string>; obsolete: Obsolete | null;
   fields: AlField[]; values: AlValue[]; keys: { name: string; fields: string[]; clustered: boolean }[]; procedures: AlProcedure[];
-  triggers: string[]; parse_error: boolean; clean?: string[]; hash: string;
+  triggers: string[];
+  /** Pages and page extensions only, from extractor 4 on (absent in older records). */
+  controls?: AlControl[]; actions?: AlAction[];
+  parse_error: boolean; clean?: string[]; hash: string;
 }
 export interface FileContext { version: string; build?: string | null; country: string; layer: "base" | "overlay"; app?: string | null; file: string; commit?: string | null; docs?: boolean }
 
@@ -137,9 +159,14 @@ function properties(body: Node | null): Record<string, string> {
 }
 /** AL property names are case-insensitive: BCApps writes `ToolTip` and, 16 times in W1, `Tooltip` (D65). */
 export function toolTipOf(props: Record<string, string>): string | null {
-  const k = Object.keys(props).find((x) => x.toLowerCase() === "tooltip");
-  return k ? props[k] : null;
+  return propOf(props, "tooltip");
 }
+const propOf = (props: Record<string, string>, lower: string): string | null => {
+  const k = Object.keys(props).find((x) => x.toLowerCase() === lower);
+  return k ? props[k] : null;
+};
+/** The properties without ToolTip and Caption, which a control or action carries as members of their own. */
+const restProps = (props: Record<string, string>) => Object.fromEntries(Object.entries(props).filter(([k]) => !/^(tooltip|caption)$/i.test(k)));
 function obsoleteOf(props: Record<string, string>): Obsolete | null {
   const state = props.ObsoleteState;
   if (!state) return null;
@@ -223,6 +250,102 @@ function procedures(body: Node | null, withDocs: boolean): AlProcedure[] {
   return out;
 }
 
+// ---------------------------------------------------------------------------------------------- page layout, actions
+
+const clip = (s: string) => (s.length > PROP_MAX ? `${s.slice(0, PROP_MAX)}...` : s);
+const CONTAINERS = new Set(["area_section", "group_section", "repeater_section", "cuegroup_section", "grid_section", "fixed_section"]);
+const LAYOUT_ANCHORS: Record<string, string> = {
+  addfirst_modification: "addfirst", addlast_modification: "addlast", addafter_modification: "addafter", addbefore_modification: "addbefore",
+};
+const ACTION_ANCHORS: Record<string, string> = {
+  addfirst_action_modification: "addfirst", addlast_action_modification: "addlast", addafter_action_modification: "addafter", addbefore_action_modification: "addbefore",
+};
+const ACTION_KINDS: Record<string, AlAction["kind"]> = {
+  action_declaration: "action", customaction_declaration: "customaction", systemaction_declaration: "systemaction", fileuploadaction_declaration: "fileuploadaction",
+};
+const AREAS = ["Content", "FactBoxes", "RoleCenter", "Processing", "Navigation", "Creation", "Reporting", "Promoted", "Embedding", "Sections", "SystemActions", "Prompting", "PromptGuide"];
+const AREA_BY_LOWER = new Map(AREAS.map((a) => [a.toLowerCase(), a]));
+/** `area(factboxes)` → FactBoxes: the area's type keyword, in the spelling Microsoft documents. */
+const areaName = (n: Node) => { const t = field(n, "type")?.text; return t ? AREA_BY_LOWER.get(t.toLowerCase()) ?? t : null; };
+/** A container's label for its members: Caption, else name, else the area type. */
+function containerLabel(n: Node, body: Node | null): string | null {
+  const caption = propOf(properties(body), "caption");
+  if (caption) return caption;
+  const name = field(n, "name");
+  return name ? text(name) : areaName(n);
+}
+const anchor = (verb: string, n: Node) => `${verb}(${text(field(n, "target"))})`;
+
+/** `Page "Service Object"`, `Report 8012`, `page Microsoft.Sales.Customer."Customer Card"` → type plus name or id. */
+export function runObjectOf(raw: string | null): AlAction["run_object"] {
+  if (!raw) return null;
+  const m = /^\s*([A-Za-z]+)\s+(.+?)\s*$/.exec(raw);
+  if (!m) return null;
+  let ref = m[2].replace(/^(?:[A-Za-z_]\w*\.)+(?="|[A-Za-z_]\w*$)/, "");
+  if (ref.endsWith("...")) return { type: m[1].toLowerCase(), name: null, id: null };
+  if (/^\d+$/.test(ref)) return { type: m[1].toLowerCase(), name: null, id: Number(ref) };
+  ref = unquote(ref);
+  return { type: m[1].toLowerCase(), name: ref || null, id: null };
+}
+
+/** Every control of a `layout` section, in source order, through areas, groups and (in extensions) anchors. */
+function controls(body: Node | null): AlControl[] {
+  const out: AlControl[] = [];
+  const control = (n: Node, kind: AlControl["kind"], source: Node | null, group: string | null, clean: string[], name = text(field(n, "name"))) => {
+    const props = properties(field(n, "body"));
+    // a field's binding stays as written (`Rec."No."`); a part's subpage and a usercontrol's add-in are object names
+    const src = source ? clip(kind === "field" ? ws(source.text) : unquote(source.text)) : null;
+    out.push(withClean({ name, kind, source_expr: src, caption: propOf(props, "caption"), tooltip: toolTipOf(props), group, properties: restProps(props), obsolete: obsoleteOf(props) }, clean));
+  };
+  const walk = (container: Node | null, group: string | null, guard: string[]) => {
+    for (const { node: c, clean: g } of flat(container)) {
+      const clean = [...guard, ...g];
+      if (c.type === "page_field") control(c, "field", field(c, "source"), group, clean);
+      else if (c.type === "part_section") control(c, "part", field(c, "source"), group, clean);
+      else if (c.type === "usercontrol_section") control(c, "usercontrol", field(c, "source"), group, clean);
+      else if (c.type === "label_section") control(c, "label", null, group, clean);
+      else if (c.type === "modify_modification") control(c, "modify", null, `modify(${text(field(c, "target"))})`, clean, text(field(c, "target")));
+      else if (CONTAINERS.has(c.type)) { const b = field(c, "body"); walk(b, containerLabel(c, b), clean); }
+      else if (LAYOUT_ANCHORS[c.type]) walk(field(c, "body"), anchor(LAYOUT_ANCHORS[c.type], c), clean);
+    }
+  };
+  for (const { node: sec, clean } of flat(body)) if (sec.type === "layout_section") walk(field(sec, "body"), null, clean);
+  return out;
+}
+
+/** Every action of the `actions` section (and of cuegroup action lists), in source order. Promoted actionrefs and separators are left out. */
+function actions(body: Node | null): AlAction[] {
+  const out: AlAction[] = [];
+  const action = (n: Node, kind: AlAction["kind"], group: string | null, clean: string[], name = text(field(n, "name"))) => {
+    const props = properties(field(n, "body"));
+    out.push(withClean({ name, kind, caption: propOf(props, "caption"), tooltip: toolTipOf(props), run_object: runObjectOf(propOf(props, "runobject")), group, properties: restProps(props), obsolete: obsoleteOf(props) }, clean));
+  };
+  const walk = (container: Node | null, group: string | null, guard: string[]) => {
+    for (const { node: c, clean: g } of flat(container)) {
+      const clean = [...guard, ...g];
+      if (ACTION_KINDS[c.type]) action(c, ACTION_KINDS[c.type], group, clean);
+      else if (c.type === "modify_action_modification") action(c, "modify", `modify(${text(field(c, "target"))})`, clean, text(field(c, "target")));
+      else if (c.type === "action_area_section") walk(field(c, "body"), areaName(c), clean);
+      else if (c.type === "action_group_section") { const b = field(c, "body"); walk(b, containerLabel(c, b), clean); }
+      else if (ACTION_ANCHORS[c.type]) walk(field(c, "body"), anchor(ACTION_ANCHORS[c.type], c), clean);
+    }
+  };
+  // cuegroups carry their own `actions { }` inside the layout
+  const inLayout = (container: Node | null, group: string | null, guard: string[]) => {
+    for (const { node: c, clean: g } of flat(container)) {
+      const clean = [...guard, ...g];
+      if (c.type === "actions_section") walk(field(c, "body"), group, clean);
+      else if (CONTAINERS.has(c.type)) { const b = field(c, "body"); inLayout(b, containerLabel(c, b), clean); }
+      else if (LAYOUT_ANCHORS[c.type]) inLayout(field(c, "body"), anchor(LAYOUT_ANCHORS[c.type], c), clean);
+    }
+  };
+  for (const { node: sec, clean } of flat(body)) {
+    if (sec.type === "actions_section") walk(field(sec, "body"), null, clean);
+    else if (sec.type === "layout_section") inLayout(field(sec, "body"), null, clean);
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------------------------- objects
 
 /**
@@ -230,9 +353,13 @@ function procedures(body: Node | null, withDocs: boolean): AlProcedure[] {
  * layer, file, commit and build are left out, and so are procedure line numbers (they move when code above them
  * changes) and doc comments (only MIT sources keep them). An unchanged declaration hashes the same in 28 and 29
  * (timelines, version diffs) and a country copy identical to W1 is recognised as such (overlays).
+ * Page controls and actions (D65) are left out too: a page hashes as it did before extractor 4, so re-extracting
+ * one major at a time does not mark every page changed against the majors not yet re-extracted, and the skeletons of
+ * BC23-27 stay comparable. A change to a page's layout alone is therefore not a change in the timelines and diffs,
+ * exactly as before.
  */
 export function objectHash(o: Omit<AlObject, "hash">): string {
-  const { file: _f, file_hash: _h, commit: _c, build: _b, version: _v, country: _cc, layer: _l, ...rest } = o as AlObject;
+  const { file: _f, file_hash: _h, commit: _c, build: _b, version: _v, country: _cc, layer: _l, controls: _ctl, actions: _act, ...rest } = o as AlObject;
   delete (rest as Partial<AlObject>).hash;
   const procedures = rest.procedures.map(({ line: _line, doc: _doc, ...p }) => p);
   return sha256(canonicalJson({ ...rest, procedures }));
@@ -260,6 +387,7 @@ export function extractSource(parser: Parser, src: string, ctx: FileContext): Al
         file: ctx.file, file_hash, commit: ctx.commit ?? null, properties: props, obsolete: obsoleteOf(props),
         fields: fields(body), values: values(body), keys: keys(body), procedures: procedures(body, !!ctx.docs),
         triggers: named(body).filter((c) => c.type === "trigger_declaration").map((t) => text(field(t, "name"))),
+        ...(type === "page" || type === "pageextension" ? { controls: controls(body), actions: actions(body) } : {}),
         parse_error: n.hasError, ...(clean.length ? { clean: [...new Set(clean)] } : {}),
       };
       out.push({ ...o, hash: objectHash(o) });

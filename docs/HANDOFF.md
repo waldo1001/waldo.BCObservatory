@@ -7,16 +7,18 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Open specs, not yet implemented (2026-10-07)
 
 - **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
-  PLAN milestone M7. Status: tranche 1 (sections 4.1-4.5: field explanations, hubs joined to their objects, tables
-  inheriting Learn links through their pages, first-party apps in their system) is built and committed on `dev/next`,
-  not yet merged or run by a nightly; deviations in section 8.1 of the spec. Tranche 2 (sections 5.1-5.5: search
-  ranks hubs first, groups results under tabs, shows path labels in the galaxy panel and the MCP) is on `dev/next`,
-  deviations in section 8.2. Tranche 3 (Related on every page from `data/links/related.json`, one page per
-  first-party app under `content/apps/`) is on `dev/spec`, deviations in section 8.3. Tranche 4 (page controls)
-  has no code yet.
+  PLAN milestone M7. Status: tranches 1, 2, 3 and 4a are on main (2026-10-07 evening), D65 not yet appended. Tranche 1
+  (sections 4.1-4.5: field explanations, hubs joined to their objects, tables inheriting Learn links through their
+  pages, first-party apps in their system), tranche 2 (5.1-5.5: search ranks hubs first, groups results under tabs,
+  path labels in the galaxy panel and the MCP), tranche 3 (Related on every page from `data/links/related.json`, one
+  page per first-party app under `content/apps/`) and tranche 4a (extractor 4 records page controls and actions)
+  each have a deviations section, 8.1 to 8.4. Open: tranche 4b (7.2 projection and 7.3 renderer, after every major
+  is re-extracted at version 4: one `gh workflow run nightly -f pillars=code -f unlimited=true` does all eight code
+  jobs in one run), the open questions listed in 8.1-8.4, and the D65 entry itself. Until the next full nightly the
+  live site still shows the old hubs, no Related block and no app pages.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
-  0 on branch `dev/spec` (not yet merged), spike and later phases open, nothing installed. Stefan Maron's
+  0 on main, spike and later phases open, nothing installed. Stefan Maron's
   bc-code-atlas (hosted MCP: bodies, call graph, semantic code search) becomes the companion the plan promised in D10:
   the plugin connects it, a `bc-grounding` skill fixes who answers what, every object page names the
   `bcatlas_resolve_node` call that opens it, and the nightly reproduces the call graph from our own checkouts with the
