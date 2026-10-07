@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9710,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9710",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T14:19:31Z",
+  "merge_commit_sha": "0db09cdd510e737d1d1518111d110e01b89e1c18",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit",
+  "body_hash": "5ea2e418b2d1677a85d298cfa1cd5e51557866705ba58621e0c77c8e1ae0eaf8",
+  "fixes_issues": [],
+  "work_items": [
+    643980
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/GenerateFileFEC.Codeunit.al",
+      "status": "modified",
+      "additions": 180,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/test/src/FECAuditFileExportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 274,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 454,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/GenerateFileFEC.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

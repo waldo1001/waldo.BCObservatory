@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10206",
+  "number": 10206,
+  "title": "Bug 646576: Preserve manually changed component Flushing Method on subcontracting transfers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production order components in subcontracting transfers no longer lose their manually set Flushing Method when moved to or from the subcontractor location. A new helper function preserves the Flushing Method during automatic location changes while maintaining all validation side effects.",
+  "key_points": [
+    "New helper function ValidateProdOrderCompLocationPreservingFlushingMethod preserves the Flushing Method during automatic subcontracting location moves",
+    "Flushing Method is captured before location validation and restored via plain assignment afterward to avoid triggering OnValidate errors",
+    "All subcontracting location shuttles updated: forward/return transfer reports, direct-transfer posts, and component restore operations",
+    "Plain assignment ensures Bin Code remains unchanged and avoids validation errors on Backward flushing method with consumption entries",
+    "Comprehensive test coverage added with forward transfer and full lifecycle tests demonstrating the fix works with partial consumption"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005013,
+    "changes_in_call": 1
+  }
+}

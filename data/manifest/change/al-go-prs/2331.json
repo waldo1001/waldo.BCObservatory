@@ -6,10 +6,35 @@
   "title": "Support trackALAlertsInGitHub for workspace compilation build path",
   "url": "https://github.com/microsoft/AL-Go/pull/2331",
   "published_at": "2026-08-13T13:20:59Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:01.285Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:06.684Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003711
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:06.686Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:11:06.690Z",
+      "path": "content/changes/al-go/2331.md"
     }
   },
   "input_hash": "ea3c4b753cda4cc6b3aa9d2e39a6e7244c25c3aa:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "support trackalalertsingithub for workspace compilation build path"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "164be8946b2b1a799bf863bed690cc1ccc885ee2a9a29cd20ff2a250c0c58d96"
 }

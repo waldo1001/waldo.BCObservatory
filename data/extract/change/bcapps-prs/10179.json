@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10179",
+  "number": 10179,
+  "title": "[master] Financial Report Recalculate clears Global Dimension filters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Recalculating a financial report no longer clears Global Dimension filters on the Acc. Schedule Overview page. The fix preserves in-page filter values during recalculation.",
+  "key_points": [
+    "Recalculate action now preserves current page filter values instead of reloading defaults",
+    "Global Dimension filters are maintained during financial report recalculation",
+    "Added regression tests across multiple localization layers to verify filter persistence"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Preserve the current page filters during recalculation and add an automated regression test verifying the UI values and underlying FlowFilters remain unchanged.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003584,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "Bug 646576: Preserve manually changed component Flushing Method on subcontracting transfers",
   "url": "https://github.com/microsoft/BCApps/pull/10206",
   "published_at": "2026-08-13T21:39:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 7,
       "objects": 7,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:58.750Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005013
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:58.994Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:59.003Z",
+      "path": "content/changes/bcapps/10206.md"
     }
   },
   "input_hash": "8bc02bb98e0593e328a06230f42d219c98a680c5:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c786822820ab771e00ea2e826597d0368b2f4c97579a96791306d03ebea54fb"
+  "output_hash": "ea9fc9f26b9aff11fd53c2da6a78e5f246b947bf0a591a1798fd3606463fc61e"
 }

@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10036",
+  "number": 10036,
+  "title": "[SOA]: Bugbash for releases 28.x - Contact unable to find due to Qasim map to Megan, different names",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "crm"
+  ],
+  "summary": "Sales Order Agent now correctly maps unknown senders to alternative contacts and routes replies to the mapped contact's email address while preserving thread context and original recipients.",
+  "key_points": [
+    "Contact lookup resolves sender mappings stored in SOA Task Contact Override",
+    "E-Mail 2 field on Contact table stores alternate email addresses for persistent mappings",
+    "Reply routing respects contact mappings and addresses replies to the mapped contact's primary email",
+    "Contact List exposes OnBeforeFindRecord event handled only during SOA sessions",
+    "Agent instructions updated to accept mapped contacts without requiring user confirmation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "crm",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004734,
+    "changes_in_call": 1
+  }
+}

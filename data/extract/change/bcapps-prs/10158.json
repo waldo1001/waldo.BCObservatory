@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10158",
+  "number": 10158,
+  "title": "Add details to project sales tooltip",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Project Sales by Project chart now displays project description and customer name in the tooltip alongside the project number to help users identify projects and customers without reducing visual readability.",
+  "key_points": [
+    "Adds Project Description and Customer Name fields to the Power BI visual tooltip",
+    "Keeps Project No. as the compact chart axis to maintain readability",
+    "Leverages existing fields already present in the Sales semantic model",
+    "Enables users to cross-reference project and customer details within the tooltip",
+    "No changes to chart axis, measures, sorting, or filters"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "sales",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003644,
+    "changes_in_call": 1
+  }
+}

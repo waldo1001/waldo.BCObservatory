@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10220",
+  "number": 10220,
+  "title": "[main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Calculate Inventory report now skips processing iterations when the Warehouse Entry table contains no records, improving performance for environments without warehouse functionality.",
+  "key_points": [
+    "Added early exit condition when Warehouse Entry table is empty",
+    "Prevents unnecessary iterations through the report processing loop",
+    "Reduces processing overhead in standard inventory counting scenarios",
+    "Applied to both base application layers"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": "Stop processing \"Warehouse Entry\" in each iteration when it is completely empty",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002995,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[SOA]: Bugbash for releases 28.x - Contact unable to find due to Qasim map to Megan, different names",
   "url": "https://github.com/microsoft/BCApps/pull/10036",
   "published_at": "2026-08-13T12:52:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:03.762Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 18,
+      "objects": 17,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:10.393Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004734
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:10.640Z",
+      "objects": 17,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:10.664Z",
+      "path": "content/changes/bcapps/10036.md"
     }
   },
   "input_hash": "c7e23ac8fb2ed3e176849e792f25af00b374bebd:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa bugbash for releases 28 x contact unable to find due to qasim map to megan different names"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8d434db1a77d06554e623ffb3f6fcfe5a4d9a1122319e908e9641fee7eb5121"
 }

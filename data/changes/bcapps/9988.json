@@ -1,0 +1,135 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9988,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9988",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T16:08:55Z",
+  "merge_commit_sha": "c75d0c73e63e26f9aaa9d43b2392aa5d0e826dec",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Expense Agent] Fix Employee subscriber permissions",
+  "body_hash": "32db0df8bc1b8be3b3012fed90af496b2ef44cfa9ce4858f9420c485c6233564",
+  "fixes_issues": [],
+  "work_items": [
+    645221
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseEventSubsPermTest.Codeunit.al",
+      "status": "added",
+      "additions": 275,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/Permissions/ExpAutoTest.PermissionSet.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/Permissions/ExpEmpOnlyTest.PermissionSet.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/Permissions/ExpHREditTest.PermissionSet.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 361,
+    "deletions": 4,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al",
+        "status": "added",
+        "key": "entitlement/ea - azure ad application api",
+        "type": "entitlement",
+        "id": null,
+        "name": "EA - Azure AD Application API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "entitlement/ea-azure-ad-application-api"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6908",
+        "type": "codeunit",
+        "id": 6908,
+        "name": "Expense Event Subscriber",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6908"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

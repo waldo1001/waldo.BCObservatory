@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2331",
+  "number": 2331,
+  "title": "Support trackALAlertsInGitHub for workspace compilation build path",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now produces error log files during workspace compilation when GitHub code scanning alerts are enabled, allowing AL compiler diagnostics to surface as code scanning alerts in the workspace build path.",
+  "key_points": [
+    "Error log directory argument passed to altool workspace compile when trackALAlertsInGitHub is enabled",
+    "Each project generates errorLog.json diagnostics file into .buildartifacts/ErrorLogs/ folder",
+    "Gracefully skips --errorlogdirectory if compiler does not support it with a warning",
+    "Matches existing behavior from classic Run-AlPipeline build path",
+    "Tests and release notes added"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "AL-Go passes `--errorlogdirectory` to `altool workspace compile` so each project emits an `*.errorLog.json` diagnostics file",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003711,
+    "changes_in_call": 1
+  }
+}

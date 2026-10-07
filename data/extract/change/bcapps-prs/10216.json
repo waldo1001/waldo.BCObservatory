@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10216",
+  "number": 10216,
+  "title": "Fix Purchase Journal document amount decimal formatting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Purchase Journal page now refreshes its Document Amount field formatting when a vendor is validated, so it immediately reflects the correct decimal-place settings from the vendor's currency instead of retaining the previous format.",
+  "key_points": [
+    "Validating a vendor updates the journal line's currency but the page did not refresh the field format",
+    "Document Amount field uses Currency Code as its auto-format expression",
+    "Page now refreshes without saving after account validation so the field immediately applies the vendor currency's decimal-place settings",
+    "Change applied to W1 and all localized versions",
+    "Existing test verifies three-decimal values are preserved correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00361,
+    "changes_in_call": 1
+  }
+}

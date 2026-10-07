@@ -6,10 +6,35 @@
   "title": "[Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit",
   "url": "https://github.com/microsoft/BCApps/pull/9710",
   "published_at": "2026-08-13T14:19:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:58.066Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:02.762Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003281
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:02.937Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:02.942Z",
+      "path": "content/changes/bcapps/9710.md"
     }
   },
   "input_hash": "0db09cdd510e737d1d1518111d110e01b89e1c18:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e compauxnum and compauxlib columns should be informed for payment discount lines in the french audit file initial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8404e6aa85e8cdc5711f15f89b2daf752826f9572c25f1214066d69dd9461694"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10141",
+  "number": 10141,
+  "title": "[Quality Management] Make transaction blocked error more understandable and actionable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Quality Management transaction blocking errors now display more clearly with actionable information. Error messages become clickable and show context of the source quality inspection, and all affected item tracking lines are processed rather than stopping at the first error.",
+  "key_points": [
+    "Error messages are simplified and clickable with call stack information",
+    "All item tracking lines are processed instead of stopping at first error",
+    "Source context appears in Fact box with navigation to the related quality inspection",
+    "Improved error experience for both collecting and non-collecting error scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Error message is clickable, user can copy call stack etc.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007176,
+    "changes_in_call": 1
+  }
+}

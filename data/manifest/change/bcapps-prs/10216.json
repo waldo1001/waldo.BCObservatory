@@ -6,10 +6,35 @@
   "title": "Fix Purchase Journal document amount decimal formatting",
   "url": "https://github.com/microsoft/BCApps/pull/10216",
   "published_at": "2026-08-13T13:04:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:01.275Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 8,
+      "objects": 1,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:06.429Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00361
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:06.624Z",
+      "objects": 1,
+      "unjoined": 7,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:06.630Z",
+      "path": "content/changes/bcapps/10216.md"
     }
   },
   "input_hash": "530a10648f985569ef20750a5ab68c5292b8ae98:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix purchase journal document amount decimal formatting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e83e52e4f949a7352899a68019302d79e5d40720054ce0dc717e868acee21aff"
 }

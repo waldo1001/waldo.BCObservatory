@@ -6,7 +6,7 @@
   "title": "[main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty",
   "url": "https://github.com/microsoft/BCApps/pull/10220",
   "published_at": "2026-08-14T08:58:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 1,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:53.505Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.002995
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:53.725Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:53.730Z",
+      "path": "content/changes/bcapps/10220.md"
     }
   },
   "input_hash": "b089f9536fface70b82303c6e1ba365e47d1ec14:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ff897dd462bcb9ae7085a314422221f187beb6a92d1691359d0089b62880a0e"
+  "output_hash": "fe5fea0de294d46c0969445b7d423231cdb75978efdeb198a40aada4b925ee65"
 }

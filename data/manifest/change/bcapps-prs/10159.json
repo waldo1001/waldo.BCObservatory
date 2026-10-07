@@ -6,10 +6,35 @@
   "title": "Warn when missing Power BI Account Categories Mappings",
   "url": "https://github.com/microsoft/BCApps/pull/10159",
   "published_at": "2026-08-13T19:21:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:55.359Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:00.112Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003144
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:00.296Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:00.302Z",
+      "path": "content/changes/bcapps/10159.md"
     }
   },
   "input_hash": "f46ddbaf89df0b04a8b5b493a3e023a122964773:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "warn when missing power bi account categories mappings"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7eb933f44bdb91838b6e38fb5fad8e82537d96ce5206efe9a92b902306ee230"
 }

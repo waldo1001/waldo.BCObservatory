@@ -1,0 +1,1899 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9947,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9947",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T22:23:33Z",
+  "merge_commit_sha": "585e5562d87e48854e019dc3a0d8702d4157f688",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Allow long localized sales and purchase line type captions",
+  "body_hash": "42e53f785dd89606a0f6b698976942bcf445d279199b995b63ba82499d1fb639",
+  "fixes_issues": [],
+  "work_items": [
+    645033
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CA/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Utilities/OptionLookupBuffer.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Misc/OptionLookupBufferTest.Codeunit.al",
+      "status": "modified",
+      "additions": 305,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SCM/TestItemLookup.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/US/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/StandardPurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/StandardSalesLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/OptionLookupBuffer.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365PCrTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365PInvTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365POrdTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365PurchCodeTypeLkupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365RetDocTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365SCrTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365SOrdTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365SQuoteTypeLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365SalesCodeTypeLkupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/MandatoryFieldsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/MockPurchLineTypeCustom.EnumExt.al",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/MockSalesLineTypeCustom.EnumExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/OptionLookupBufferTest.Codeunit.al",
+      "status": "modified",
+      "additions": 305,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/TestItemLookup.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/O365PostedDocumentSubtype.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 120,
+    "additions": 1944,
+    "deletions": 329,
+    "al": 94
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/508",
+        "type": "page",
+        "id": 508,
+        "name": "Blanket Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/508"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/StandardPurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/174",
+        "type": "table",
+        "id": 174,
+        "name": "Standard Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/174"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/121",
+        "type": "table",
+        "id": 121,
+        "name": "Purch. Rcpt. Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/508",
+        "type": "page",
+        "id": 508,
+        "name": "Blanket Sales Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/508"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/StandardSalesLine.Table.al",
+        "status": "modified",
+        "key": "table/171",
+        "type": "table",
+        "id": 171,
+        "name": "Standard Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/171"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/SalesInvoiceLine.Table.al",
+        "status": "modified",
+        "key": "table/113",
+        "type": "table",
+        "id": 113,
+        "name": "Sales Invoice Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/113"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/SalesShipmentLine.Table.al",
+        "status": "modified",
+        "key": "table/111",
+        "type": "table",
+        "id": 111,
+        "name": "Sales Shipment Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/111"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/OptionLookupBuffer.Table.al",
+        "status": "modified",
+        "key": "table/1670",
+        "type": "table",
+        "id": 1670,
+        "name": "Option Lookup Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1670"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Utilities/OptionLookupBuffer.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales",
+    "purchasing",
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

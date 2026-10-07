@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9710",
+  "number": 9710,
+  "title": "[Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The French Audit File export now populates CompAuxNum and CompAuxLib columns for payment discount lines, fixing missing data in the generated audit file.",
+  "key_points": [
+    "CompAuxNum and CompAuxLib columns were not being filled for payment discount lines",
+    "Code added to GenerateFileFEC codeunit to insert values for these columns",
+    "Test coverage added to validate the fix",
+    "Affects French audit file compliance and reporting requirements"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003281,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10126",
+  "number": 10126,
+  "title": "[Extensibility Request] issue 30389: allow skipping service item confirmation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "The ServItemManagement codeunit now allows extensions to skip the service item confirmation dialog through a new event parameter while preserving the standard creation logic.",
+  "key_points": [
+    "New SkipConfirm parameter added to the pre-confirmation event",
+    "Extensions can suppress the dialog without bypassing item creation",
+    "Maintains backward compatibility with existing full-bypass behavior",
+    "Enables service item creation with standard logic in automated scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "Extensions need to create service items with the standard application logic without displaying the interactive confirmation dialog",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003118,
+    "changes_in_call": 1
+  }
+}

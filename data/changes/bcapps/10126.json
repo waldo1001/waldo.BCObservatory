@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10126,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10126",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T12:58:15Z",
+  "merge_commit_sha": "5e56aaa0bb6de3e05736d1449db5b3dd2b9b9226",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30389: allow skipping service item confirmation",
+  "body_hash": "bd2e2082ab49d3ad186837eac71ccb9a097defe6d55ff15a1cb2acc45a1eb443",
+  "fixes_issues": [],
+  "work_items": [
+    646064
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Item/ServItemManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Item/ServItemManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5920",
+        "type": "codeunit",
+        "id": 5920,
+        "name": "ServItemManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5920"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

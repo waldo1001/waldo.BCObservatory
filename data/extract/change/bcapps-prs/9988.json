@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9988",
+  "number": 9988,
+  "title": "[Expense Agent] Fix Employee subscriber permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent permissions are restructured to isolate API access, making subscriber permissions mandatory for Employee synchronization and deletion, while narrowing agent-facing APIs to an agent-only permission set.",
+  "key_points": [
+    "New entitlement 'EA - Azure AD Application API' grants Expense Agent application API.ReadWrite.All access mapped to 'Expense Mgmt. Edit'",
+    "Employee event subscribers now have method-scoped inherent permissions for synchronization and deletion logic",
+    "Internal APIs (Expense Capabilities, Expense Projects, and Expense Project Tasks Query) moved to agent-only 'Expense Agent - Objects' permission set",
+    "Existing customer and partner Employee permission sets unaffected by changes",
+    "Comprehensive test suite added covering synchronization, deletion guards, and multiple permission profiles"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "hr"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004601,
+    "changes_in_call": 1
+  }
+}

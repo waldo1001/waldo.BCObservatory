@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10131,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10131",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T11:39:15Z",
+  "merge_commit_sha": "03a71173e9ec31fd9c983c922db19c8243f342d2",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30298: allow production scheduling direction control",
+  "body_hash": "69d46307874779bee18f94fdd8f477ab2930a25279d702a60276cb218e2a19a2",
+  "fixes_issues": [],
+  "work_items": [
+    644773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 20,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+        "status": "modified",
+        "key": "table/5406",
+        "type": "table",
+        "id": 5406,
+        "name": "Prod. Order Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5406"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

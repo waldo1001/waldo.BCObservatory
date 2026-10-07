@@ -6,10 +6,35 @@
   "title": "[master] Financial Report Recalculate clears Global Dimension filters",
   "url": "https://github.com/microsoft/BCApps/pull/10179",
   "published_at": "2026-08-13T16:53:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:56.675Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:01.340Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003584
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:01.528Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:01.534Z",
+      "path": "content/changes/bcapps/10179.md"
     }
   },
   "input_hash": "75b5de95ea86c4bf58032fde97e8ce91c08968b3:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master financial report recalculate clears global dimension filters"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f8faad43c8ac0f2eda0a1d4b12d8e4137f450b60c70705e6d61e67715528eeb0"
 }

@@ -1,0 +1,67 @@
+{
+  "item_id": "change/bcapps-prs/9947",
+  "number": 9947,
+  "title": "Allow long localized sales and purchase line type captions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "purchasing",
+    "platform"
+  ],
+  "summary": "Line type captions in sales and purchase documents can now display up to 30 characters instead of 20, supporting longer localized text like French allocation account names without formatting failures.",
+  "key_points": [
+    "Added FormatTypeAsText() method returning Text[30] to sales, purchase, and standard line tables",
+    "Updated UI and lookup paths to use the new 30-character formatting method",
+    "Preserved existing FormatType(): Text[20] and OnBeforeFormatType() as obsolete compatibility layers",
+    "Introduced new Text[30] events for subscribers needing wider output capacity",
+    "Added regression tests covering long localized captions and legacy event precedence"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "Purchase Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    },
+    {
+      "object": "Sales Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    },
+    {
+      "object": "Purch. Inv. Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    },
+    {
+      "object": "Purch. Cr. Memo Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    },
+    {
+      "object": "Sales Invoice Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    },
+    {
+      "object": "Sales Cr.Memo Line",
+      "member": "FormatType",
+      "replacement": "FormatTypeAsText"
+    }
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013553,
+    "changes_in_call": 1
+  }
+}

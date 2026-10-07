@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10164,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10164",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T12:52:00Z",
+  "merge_commit_sha": "897aabb055832edd271c5fe5949744f286c4efe2",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Correction of where inventory valuation Power BI reports are shown",
+  "body_hash": "388d1c544dd41b6a64a823048eead7e37862676e74c88c1b6f9d76931336286d",
+  "fixes_issues": [],
+  "work_items": [
+    624903
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/RoleCenterExtensions/BusinessManagerRoleCenter.PageExt.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/RoleCenterExtensions/FinanceManagerRoleCenter.PageExt.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 74,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/RoleCenterExtensions/BusinessManagerRoleCenter.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/36953",
+        "type": "pageextension",
+        "id": 36953,
+        "name": "Business Manager Role Center",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "pageextension/36953"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/RoleCenterExtensions/FinanceManagerRoleCenter.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/36959",
+        "type": "pageextension",
+        "id": 36959,
+        "name": "Finance Manager Role Center",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "pageextension/36959"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PowerBIReports"
+  ]
+}

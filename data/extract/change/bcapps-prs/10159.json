@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10159",
+  "number": 10159,
+  "title": "Warn when missing Power BI Account Categories Mappings",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "A warning notification alerts users when Power BI Account Categories Mappings are missing during finance setup, helping them identify a common configuration issue.",
+  "key_points": [
+    "Detects missing Power BI Account Categories Mappings in the Power BI Reports Setup",
+    "Displays a warning notification to users when the mappings are not configured",
+    "Addresses a frequent customer issue with Power BI integration",
+    "Added to Finance Installation Handler to trigger during finance setup"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Surfacing a common gotcha in customer scenarios.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003144,
+    "changes_in_call": 1
+  }
+}
