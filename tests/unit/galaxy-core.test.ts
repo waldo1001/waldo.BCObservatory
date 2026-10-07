@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { landedRingsOn, mediaMeta, parseHash, portSpot, sortRows, versionMenu } from "../../site/src/scripts/galaxy-core.js";
+import { landedRingsOn, mediaMeta, parseHash, pickerRows, portSpot, sortRows, versionMenu } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -61,4 +61,27 @@ test("mediaMeta: kind pill, source, date; unknown parts left out, never a star c
   assert.deepEqual(mediaMeta("v", undefined, undefined), { kind: "video", parts: [] });
   assert.deepEqual(mediaMeta("p", "", ""), { kind: "post", parts: [] });
   for (const m of [mediaMeta("p", "a", "b"), mediaMeta("v", null, "2026-10-05")]) assert.ok(![m.kind, ...m.parts].some((x) => /star/.test(x)));
+});
+
+test("pickerRows: the lens picker's rows, by count then label, with a marker by group and kind (D78)", () => {
+  const nodes = [{ id: "a" }, { id: "b" }, { id: "c" }, { id: "d" }];
+  const has = (...ids: string[]) => (n: { id: string }) => ids.includes(n.id);
+  const lenses = [
+    { id: "loc:z", label: "Zambia (ZM)", group: "Localization", match: has("a", "b") },
+    { id: "loc:a", label: "Austria (AT)", group: "Localization", match: has("c", "d") },
+    { id: "loc:b", label: "Belgium (BE)", group: "Localization", match: has("a", "b", "c") },
+    { id: "src:yt", label: "A channel", group: "Source", kind: "youtube", match: has("a") },
+    { id: "src:blog", label: "B blog", group: "Source", kind: "blog", match: has("a", "b") },
+    { id: "src:pr", label: "C pulls", group: "Source", kind: "github-pr", match: has("a", "b", "c", "d") },
+    { id: "src:none", label: "D unknown", group: "Source", match: () => false },
+    { id: "type:topic", label: "topics", group: "Type", match: () => true },
+  ];
+  const loc = pickerRows(lenses, nodes, "Localization");
+  assert.deepEqual(loc.map((r) => r.id), ["loc:b", "loc:a", "loc:z"], "count descending, then label");
+  assert.deepEqual(loc.map((r) => r.n), [3, 2, 2]);
+  assert.ok(loc.every((r) => r.marker === "loc"));
+  const src = pickerRows(lenses, nodes, "Source");
+  assert.deepEqual(src.map((r) => [r.id, r.n, r.marker]), [["src:pr", 4, "dot"], ["src:blog", 2, "bar"], ["src:yt", 1, "tri"], ["src:none", 0, "dot"]]);
+  for (const r of [...loc, ...src]) assert.equal(r.n, nodes.filter(lenses.find((l) => l.id === r.id)!.match).length, "count = the stars the lens lights");
+  assert.deepEqual(pickerRows(lenses, nodes, "Nope"), []);
 });

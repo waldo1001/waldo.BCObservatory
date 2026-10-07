@@ -68,3 +68,21 @@ export function versionMenu(
 export function mediaMeta(kind: string, source: string | null | undefined, date: string | null | undefined): { kind: "video" | "post"; parts: string[] } {
   return { kind: kind === "v" ? "video" : "post", parts: [source, date].filter((x): x is string => !!x) };
 }
+
+/** A lens picker row (D78): the lens, the number of stars it lights, and its marker. */
+export interface PickerRow { id: string; label: string; n: number; marker: "loc" | "tri" | "bar" | "dot" }
+/**
+ * D78, the lens picker (`#lens=pick:localization|source`): every lens of the group with the count of stars it lights
+ * (the same number the lens chip shows), highest first, then by label. The marker: the localization dot, a source's
+ * kind (youtube a triangle, blog a bar, as the media rows of D73), a plain dot for any other or unknown kind.
+ */
+export function pickerRows<N>(
+  lenses: readonly { id: string; label: string; group: string; kind?: string; match: (n: N) => boolean }[], nodes: readonly N[], group: string,
+): PickerRow[] {
+  return lenses.filter((l) => l.group === group)
+    .map((l): PickerRow => ({
+      id: l.id, label: l.label, n: nodes.filter(l.match).length,
+      marker: group === "Localization" ? "loc" : l.kind === "youtube" ? "tri" : l.kind === "blog" ? "bar" : "dot",
+    }))
+    .sort((a, b) => b.n - a.n || a.label.localeCompare(b.label, "en"));
+}

@@ -34,7 +34,7 @@ interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; sysedges?: [st
 interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?, string?][] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
-interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
+interface Lens { id: string; label: string; group: string; kind?: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
 
 /** What the header's live search needs from a mounted galaxy (live-search.ts). */
 export interface GalaxyApi {
@@ -51,7 +51,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { landedRingsOn, mediaMeta, parseHash, portSpot, sortRows, versionMenu, type MajorMeta, type SortKey } from "./galaxy-core.js";
+import { landedRingsOn, mediaMeta, parseHash, pickerRows, portSpot, sortRows, versionMenu, type MajorMeta, type PickerRow, type SortKey } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -70,6 +70,13 @@ const TYPE: Record<string, string> = { topic: "topic hub", app: "first-party app
 const KIND: Record<string, string> = { table_relation: "table relation", calc_formula: "calc formula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends", documents: "documented by", relates: "related hub", localizes: "localized by", demonstrates: "demonstrated by", mentions: "mentioned by", discusses: "discussed by" };
 /** Tier badge words, as Badges.astro writes them. */
 const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
+/** D78: the lens picker's markers: the localization dot, a source's kind as the media rows draw it (D73), else a dot. */
+const PICK_MARK: Record<PickerRow["marker"], string> = {
+  loc: `<span class="g-dot" style="--dot: var(--sys-localization)" aria-hidden="true"></span>`,
+  tri: `<span class="g-shape tri" aria-hidden="true"></span>`,
+  bar: `<span class="g-shape bar" aria-hidden="true"></span>`,
+  dot: `<span class="g-dot" style="--dot: var(--sys-sources, var(--muted))" aria-hidden="true"></span>`,
+};
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const hit = (a: Rect, b: Rect) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
 /** `Table 18 "Customer"` -> Customer (the events explorer filters by name). */
@@ -152,6 +159,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32);
   const field = Array.from({ length: 900 }, () => ({ x: world.x0 + rnd() * (world.x1 - world.x0), y: world.y0 + rnd() * (world.y1 - world.y0), r: 0.4 + rnd() * 0.9, a: 0.15 + rnd() * 0.45 }));
 
+  // D78: a source's kind from sources.yaml (via the content collection), for the lens picker's marker
+  const sourceKinds: Record<string, string> = (() => { try { return JSON.parse(root.dataset.sourceKinds ?? "{}"); } catch { return {}; } })();
   // lenses: one at a time, built from the data. The bar holds the version and "this week" lenses, the select the rest.
   const barLenses: Lens[] = [
     ...versions.map((v) => ({ id: `version:${v}`, label: `changed in BC${v}`, group: "Version", version: v, match: (n: Node) => !!n.cv?.includes(v) || !!n.ob?.includes(v), exit: { href: `${base}code/versions/`, label: "Member-level changes per version" } })),
@@ -169,7 +178,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     })),
     ...g.nodes.filter((n) => n.type === "source").sort((a, b) => a.label.localeCompare(b.label)).map((s) => {
       const touch = new Set([...(g.touches?.[s.id] ?? []), ...(adj.get(s.id) ?? [])]);
-      return { id: `src:${s.id}`, label: s.label, group: "Source", lines: true, reach: g.reach?.[s.id], match: (n: Node) => n === s || touch.has(n.id) };
+      return { id: `src:${s.id}`, label: s.label, group: "Source", kind: sourceKinds[s.id], lines: true, reach: g.reach?.[s.id], match: (n: Node) => n === s || touch.has(n.id) };
     }),
   ];
   const lensById = new Map(lenses.map((l) => [l.id, l]));
@@ -1315,7 +1324,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     if (pick) {
       const grp = { source: "Source", localization: "Localization" }[pick];
       const first = lenses.find((x) => x.group === grp);
-      if (first) { lensSel.focus(); lensSel.value = ""; panelOpen = true; renderPanel(); panelBody.innerHTML = `<p class="g-kicker">lens</p><h2 tabindex="-1">Pick a ${esc(pick)}</h2><p class="g-meta">Choose one in the lens list above: the galaxy lights up where it touches Business Central.</p><ul class="g-list">${lenses.filter((x) => x.group === grp).map((x) => `<li><button type="button" data-pick="${esc(x.id)}"><span>${esc(x.label)}</span></button></li>`).join("")}</ul>`; for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-pick]")) b.addEventListener("click", () => setLens(b.dataset.pick!)); }
+      if (first) { lensSel.focus(); lensSel.value = ""; panelOpen = true; renderPanel(); panelBody.innerHTML = `<p class="g-kicker">lens</p><h2 tabindex="-1">Pick a ${esc(pick)}</h2><p class="g-meta">Choose one in the lens list above: the galaxy lights up where it touches Business Central.</p><ul class="g-list">${pickerRows(lenses, g.nodes, grp ?? "").map((x) => `<li><button type="button" data-pick="${esc(x.id)}">${PICK_MARK[x.marker]}<span>${esc(x.label)}</span><small>${x.n}</small></button></li>`).join("")}</ul>`; for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-pick]")) b.addEventListener("click", () => setLens(b.dataset.pick!)); }
     }
     if (listView && !star && !sys) { renderTable(); renderChrome(); }
     return true;

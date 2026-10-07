@@ -7,6 +7,7 @@
  * at system level the Tilt control (A): the same system as four planes, from graph/layers/<system>.json.
  * Tools: zoom, panel, full screen. With `questions` (the home page, D70), a "Questions" menu opens the lens bar.
  */
+import { getCollection } from "astro:content";
 import type { Question } from "../lib/questions";
 import { majors } from "../lib/versions";
 interface Props { height?: string; label?: string; questions?: Question[] }
@@ -14,8 +15,10 @@ const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central", q
 const base = import.meta.env.BASE_URL;
 // D72: labels and the vNext flag of every major come from config, never from the graph
 const majorsMeta = Object.fromEntries(majors().map((m) => [m.version, m.vnext ? { label: m.label, vnext: true } : { label: m.label }]));
+// D78: a source's kind (youtube, blog, ...) for the lens picker's marker; the graph summary does not carry it
+const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) => [String((s.data as { id?: string }).id ?? `source/${s.id}`), String((s.data as { kind?: string }).kind ?? "")]));
 ---
-<section class="galaxy" data-base={base} data-majors={JSON.stringify(majorsMeta)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
+<section class="galaxy" data-base={base} data-majors={JSON.stringify(majorsMeta)} data-source-kinds={JSON.stringify(sourceKinds)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
   <canvas aria-hidden="true"></canvas>
   <div class="g-labels"></div>
   <div class="g-ports" role="group" aria-label="Where the focused star crosses into other systems"></div>
@@ -190,6 +193,9 @@ const majorsMeta = Object.fromEntries(majors().map((m) => [m.version, m.vnext ? 
     width: 100%; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; min-height: 36px; text-decoration: none;
     background: none; border: 0; border-radius: var(--r-card); padding: 6px 8px; color: var(--text); font: 400 14px var(--font-ui); cursor: pointer;
   }
+  /* D78: a row without a marker (.g-dot, .g-shape) gives its label the first column, never the 10 px marker column */
+  .g-panel :global(.g-list button:not(:has(> .g-dot, > .g-shape))),
+  .g-panel :global(.g-list a:not(:has(> .g-dot, > .g-shape))) { grid-template-columns: minmax(0, 1fr) auto; }
   .g-panel :global(.g-list button:hover), .g-panel :global(.g-list button:focus-visible), .g-panel :global(.g-list a:hover) { background: var(--surface-raised); }
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
   .g-panel :global(.g-list .g-path) { display: block; margin-top: 2px; overflow-wrap: anywhere; }
