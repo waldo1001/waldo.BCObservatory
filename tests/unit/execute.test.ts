@@ -235,7 +235,14 @@ test("lanes: idle workers stay for parked items, so items leaving the lane reach
   const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
   let llm = 0, llmPeak = 0;
   const yt: StageFn = async () => { await wait(5); return {}; };
-  const slow: StageFn = async () => { llm++; llmPeak = Math.max(llmPeak, llm); await wait(60); llm--; return {}; };
+  // each LLM stage waits until three run at once (or 2 s pass): deterministic on a slow CI runner, where a fixed 60 ms
+  // window was shorter than the youtube lane's gaps (pr-validate 37688563159); executor workers that leave while parked
+  // items wait still cap the peak at 2 and fail the assertion, after the timeout
+  const slow: StageFn = async () => {
+    llm++; llmPeak = Math.max(llmPeak, llm);
+    for (const t0 = Date.now(); llmPeak < 3 && Date.now() - t0 < 2000; ) await wait(5);
+    llm--; return {};
+  };
   const r = await run(m, allVideo({ fetched: { lane: "youtube", run: yt }, captioned: { lane: "youtube", run: yt }, extracted: slow }), { concurrency: 4 });
   assert.equal(r.stop_reason, "done");
   assert.equal(m.list().filter((i) => i.state === "published").length, 6, "every item finished");

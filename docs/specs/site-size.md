@@ -269,3 +269,7 @@ Deviations:
   dialog, `CountryDiff.astro` global under `.cdiff`. Not taken, with numbers: section 8.
 - `pages.yml` also runs on a change to `scripts/site-size.ts`.
 - Task 3's CI number is not in yet: the first Pages run after the push writes it to its summary.
+
+**First CI number** (Pages run 37688563086, commit `54a5e53fa9`, 2026-10-07, after the nightly that first rendered the
+D65/D67/D72 content and every call section): tar 717.7 MB of 900 MB, apparent 659.0 MB, 58,977 files; the local build of
+the same tree measured the same numbers. The old `du -sm` check had reported 843 to 903 MB for a smaller site.
