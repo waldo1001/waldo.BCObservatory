@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0079",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.295Z",
-      "blob": "2325d495f2cf66d401d8d02165ebc9ea54508535",
+      "at": "2026-10-07T18:12:30.341Z",
+      "blob": "6bc71dfd1114f9f418c57311f74536183bcaa111",
       "words": 456,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0079.md",
     "description": "An affix is required for procedures defined in extension objects, because it prevents breaking dependent extensions that reference it in case a procedure with the same signature is introduced by the base object or by another extension.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2325d495f2cf66d401d8d02165ebc9ea54508535"
+  "output_hash": "6bc71dfd1114f9f418c57311f74536183bcaa111"
 }

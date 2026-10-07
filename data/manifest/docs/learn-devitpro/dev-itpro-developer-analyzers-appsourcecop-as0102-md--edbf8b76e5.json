@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0102",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:47.437Z",
-      "blob": "83afda7f77ccb98067c06b62a0bfafe3511ff64a",
+      "at": "2026-10-07T18:12:30.673Z",
+      "blob": "6c155a04c82cce4bb285887778f90f665c2100eb",
       "words": 430,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0102.md",
     "description": "It is not allowed to add a return value to a publicly exposed procedure, because it might break dependent extensions at runtime.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "83afda7f77ccb98067c06b62a0bfafe3511ff64a"
+  "output_hash": "6c155a04c82cce4bb285887778f90f665c2100eb"
 }

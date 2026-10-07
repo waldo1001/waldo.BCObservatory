@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al659",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:44.872Z",
-      "blob": "af87f8df3814a9cb0f6ded2e4279611d674bc91d",
+      "at": "2026-10-07T18:12:44.192Z",
+      "blob": "a5c0dea8ad54b9645c4365233c5988f5b7dedd42",
       "words": 84,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/diagnostics/diagnostic-al659.md",
     "description": "The length of the enum identifier '{0}' should not exceed {1} characters as it may result in runtime issues in cases where there are other enums with the same first {1} characters.",
-    "ms_date": "2024-05-14",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af87f8df3814a9cb0f6ded2e4279611d674bc91d"
+  "output_hash": "a5c0dea8ad54b9645c4365233c5988f5b7dedd42"
 }

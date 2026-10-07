@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0148",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.099Z",
-      "blob": "66c6cd2d3049b43ad415b4306e52be12a1f2aec6",
+      "at": "2026-10-07T18:12:31.350Z",
+      "blob": "cd266702c7cd622af91359ea716cb1a7c1359cca",
       "words": 279,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0148.md",
     "description": "When transitioning an optional (default) interface method to required, the method must first be marked with [RequiredPending] in a prior version.",
-    "ms_date": "2026-08-31",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "66c6cd2d3049b43ad415b4306e52be12a1f2aec6"
+  "output_hash": "cd266702c7cd622af91359ea716cb1a7c1359cca"
 }

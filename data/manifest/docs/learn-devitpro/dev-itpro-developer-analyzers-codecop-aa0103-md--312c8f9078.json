@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0103",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:47.583Z",
-      "blob": "51d3d94cf2768021dca39b23e8c02f78b7f10caf",
+      "at": "2026-10-07T18:12:31.780Z",
+      "blob": "eeb9e3b49d1cc23b2d16aff942ad1faa6c1cdd54",
       "words": 78,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/codecop-aa0103.md",
     "description": "For queries of the type API the value of properties APIPublisher, APIGroup, EntityName, and EntitySetName value should be camel-cased to follow the Microsoft REST API Guidelines.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51d3d94cf2768021dca39b23e8c02f78b7f10caf"
+  "output_hash": "eeb9e3b49d1cc23b2d16aff942ad1faa6c1cdd54"
 }

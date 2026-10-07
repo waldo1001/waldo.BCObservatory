@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0107",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:47.454Z",
-      "blob": "39c33f070c51f71f9ba448c933fc49845f6f8601",
+      "at": "2026-10-07T18:12:30.760Z",
+      "blob": "5c3d8fa2245fbf239255e394fb0987c1e6a4cc4b",
       "words": 92,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0107.md",
     "description": "The access modifier of a variable that belongs to the public API cannot be changed to a value that provides less access, because it will break dependent extensions.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "39c33f070c51f71f9ba448c933fc49845f6f8601"
+  "output_hash": "5c3d8fa2245fbf239255e394fb0987c1e6a4cc4b"
 }

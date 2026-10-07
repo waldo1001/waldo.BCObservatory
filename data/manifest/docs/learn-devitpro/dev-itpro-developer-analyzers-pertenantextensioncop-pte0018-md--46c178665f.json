@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0018",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:47.907Z",
-      "blob": "80ef5437f5408629c89b63f9cc6ff7e76f33c289",
+      "at": "2026-10-07T18:12:33.204Z",
+      "blob": "c9aa1136d60a3b1f89a0d107776dc979deed3947",
       "words": 88,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/pertenantextensioncop-pte0018.md",
     "description": "Permission set extensions should not include permission sets which include permissions for objects defined in another application.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80ef5437f5408629c89b63f9cc6ff7e76f33c289"
+  "output_hash": "c9aa1136d60a3b1f89a0d107776dc979deed3947"
 }

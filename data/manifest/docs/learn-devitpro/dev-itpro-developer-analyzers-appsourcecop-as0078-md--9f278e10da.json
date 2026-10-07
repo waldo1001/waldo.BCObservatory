@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0078",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:45.737Z",
-      "blob": "9ed36088b60f516befb267a73f0579b99c2c0d3b",
+      "at": "2026-10-07T18:12:30.326Z",
+      "blob": "d42981651787e9fc76dab3f6b300adde279e5c5e",
       "words": 209,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0078.md",
     "description": "Adding or removing a var modifier in public procedures is not allowed as it might break the runtime behavior of extensions calling it.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9ed36088b60f516befb267a73f0579b99c2c0d3b"
+  "output_hash": "d42981651787e9fc76dab3f6b300adde279e5c5e"
 }

@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop-as0069",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.315Z",
-      "blob": "6a0cd6c22530a196dde107cba3c607d89d86e19f",
+      "at": "2026-10-07T18:12:30.178Z",
+      "blob": "5c47e2b28f5c3a7617b8a6561d3f195799f6d3a7",
       "words": 243,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/analyzers/appsourcecop-as0069.md",
     "description": "An enum field replacing an option field should have at least the same number of values as the number of options members defined on the field in the previous version of the extension.",
-    "ms_date": "2025-08-08",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a0cd6c22530a196dde107cba3c607d89d86e19f"
+  "output_hash": "5c47e2b28f5c3a7617b8a6561d3f195799f6d3a7"
 }

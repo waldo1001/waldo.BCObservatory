@@ -7,7 +7,7 @@
   "url": "https://aardvarklabs.blog/2026/05/05/celebrating-55-years-of-the-555-timer/",
   "published_at": "2026-05-05T12:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,12 +16,30 @@
       "at": "2026-10-06T21:59:30.793Z",
       "path": "vault:posts/aardvarklabs-blog/3469.md",
       "words": 147
+    },
+    "extracted": {
+      "at": "2026-10-07T18:12:29.544Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.002807
+    },
+    "summarized": {
+      "at": "2026-10-07T18:12:29.573Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T18:12:29.574Z"
+    },
+    "published": {
+      "at": "2026-10-07T18:12:29.577Z",
+      "path": "content/posts/aardvarklabs-blog/3469.md"
     }
   },
   "input_hash": "2026-04-30T19:31:50.000Z",
-  "attempts": 3,
+  "attempts": 0,
   "flags": [],
-  "last_error": "model returned no entry for this post",
-  "retry_after": "2026-10-07T13:17:24.171Z",
-  "output_hash": "f4c084d12d72e120cec386aac91ee0cd3ea6f8aef07cde0ffc08cde7aaf339de"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80a0c1bcda5b704746efc09723d8262d90368d2022c8e13bc88cf272ff22eb0c"
 }
