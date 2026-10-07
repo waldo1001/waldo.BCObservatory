@@ -503,3 +503,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   it now reads "flagged - a review found a problem", amber, solid border: never red, never an icon. Statuses
   `announced` and `unclear` get plain words. New stand-in colours (guideline, other, flagged) pass AA on both themes
   (7.4:1 to 13.6:1, computed).
+- **D69 Code extraction runs one major at a time.** The nightly of 2026-10-07 (run 37586529387) died on the heap
+  seven times in a row. Its heartbeats (D59) show no slow leak: every restart resumed the same three code items
+  (`bcapps/29`, `bcapps/30`, `sandbox-history/28`) in `extracted`, and the heap climbed from 70 MB to 7 GB in about
+  280 s and passed the 8 GB limit. A major holds its whole W1 object map while it overlays every country, about
+  2.3 GB at peak; D62's extra sandbox-history majors put three of them in flight at once under concurrency 6. The
+  `extracted` stage of the code pillar now runs in lane `code` with capacity 1 (`config/budget.json` lanes), the
+  mechanism D41 built for yt-dlp and blog fetches: the other workers keep doing other work, and a restart can no
+  longer resume three majors together. Fetching (git checkouts) stays parallel.

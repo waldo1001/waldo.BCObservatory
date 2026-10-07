@@ -37,6 +37,10 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   only, no atlas servers) are section 4.7. Until it lands, object pages have no Calls / Called by, and an agent
   with the plugin has no sanctioned way to read a procedure body.
 
+- **Nightly memory (D69, 2026-10-07)**: run 37586529387 died seven times on the heap in code extraction, three
+  majors in flight at once. Fixed by a `code` lane of one; the next nightly is the test. If a run dies on memory
+  again, read the heartbeat lines first (`gh run view <id> --log | grep heartbeat:`).
+
 ## Where things stand
 
 **M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
