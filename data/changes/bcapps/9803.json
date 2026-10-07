@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9803,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9803",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T10:40:33Z",
+  "merge_commit_sha": "299f021e225f024f75ef49630bc18b2f2be3e46b",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Variant Code mandatory should not allow to refresh the production order with no variant code",
+  "body_hash": "7af22a7f3d4ad8deb746f8e0b33740e6be4ce36d403c622b98ab752fda70d636",
+  "fixes_issues": [],
+  "work_items": [
+    633092
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 107,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 107,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/RefreshProductionOrder.Report.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 240,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/RefreshProductionOrder.Report.al",
+        "status": "modified",
+        "key": "report/99001025",
+        "type": "report",
+        "id": 99001025,
+        "name": "Refresh Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001025"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

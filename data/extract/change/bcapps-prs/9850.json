@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9850",
+  "number": 9850,
+  "title": "Fix VariantCode lost during Contract Price Update proposal",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed variant code not being passed during subscription contract price updates, which caused the system to propose base item prices instead of variant-specific prices.",
+  "key_points": [
+    "Variant code from subscription header service object is now correctly passed to temporary sales and purchase lines",
+    "Added missing variant code assignment in the purchase line creation method",
+    "Pricing engine can now correctly identify and apply variant-specific prices"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003197,
+    "changes_in_call": 1
+  }
+}

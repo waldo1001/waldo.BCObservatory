@@ -1,0 +1,1110 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9548,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9548",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T16:11:11Z",
+  "merge_commit_sha": "e55f45d74e692da293c08d70afc5516a9bd9b440",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Projects report action tooltips to report objects",
+  "body_hash": "b46d0377d23a184e9d54fd39c935c2abe897a1486d643b9c80e10d2475c4b3f3",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Planning/JobPlanningLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Reports/JobRegister.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceRegister.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceUsage.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobResourceManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/ChangeJobDates.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/UpdateJobItemCost.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobCreateSalesInvoice.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobPlanningLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobSplitPlanningLine.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/ItemsperJob.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobActualToBudget.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobAnalysis.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobPlanningLines.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobRegister.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobSuggestedBilling.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobTransactionDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobWIPToGL.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobsperCustomer.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobsperItem.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobCalculateWIP.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobPostWIPtoGL.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Journal/DateCompressResourceLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Journal/DeleteEmptyResRegisters.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Ledger/ResourceRegisters.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceCostBreakdown.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceRegister.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceUsage.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/AdjustResourceCostsPrices.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobResourceManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManagerActivities.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/CreateTimeSheets.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/MoveTimeSheetstoArchive.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/TimeSheetList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 66,
+    "additions": 34,
+    "deletions": 123,
+    "al": 66
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Reports/JobRegister.Report.al",
+        "status": "modified",
+        "key": "report/10217",
+        "type": "report",
+        "id": 10217,
+        "name": "Job Register",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10217-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceRegister.Report.al",
+        "status": "modified",
+        "key": "report/10198",
+        "type": "report",
+        "id": 10198,
+        "name": "Resource Register",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10198-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceStatistics.Report.al",
+        "status": "modified",
+        "key": "report/10199",
+        "type": "report",
+        "id": 10199,
+        "name": "Resource Statistics",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10199-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Reports/ResourceUsage.Report.al",
+        "status": "modified",
+        "key": "report/10200",
+        "type": "report",
+        "id": 10200,
+        "name": "Resource Usage",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10200-ca"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/ChangeJobDates.Report.al",
+        "status": "modified",
+        "key": "report/1087",
+        "type": "report",
+        "id": 1087,
+        "name": "Change Job Dates",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1087"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "key": "page/88",
+        "type": "page",
+        "id": 88,
+        "name": "Job Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/88"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "key": "page/89",
+        "type": "page",
+        "id": 89,
+        "name": "Job List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/89"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+        "status": "modified",
+        "key": "page/1002",
+        "type": "page",
+        "id": 1002,
+        "name": "Job Task Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1002"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+        "status": "modified",
+        "key": "page/1004",
+        "type": "page",
+        "id": 1004,
+        "name": "Job Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1004"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/UpdateJobItemCost.Report.al",
+        "status": "modified",
+        "key": "report/1095",
+        "type": "report",
+        "id": 1095,
+        "name": "Update Job Item Cost",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1095"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobCreateSalesInvoice.Report.al",
+        "status": "modified",
+        "key": "report/1093",
+        "type": "report",
+        "id": 1093,
+        "name": "Job Create Sales Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1093"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobPlanningLines.Page.al",
+        "status": "modified",
+        "key": "page/1007",
+        "type": "page",
+        "id": 1007,
+        "name": "Job Planning Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1007"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Planning/JobSplitPlanningLine.Report.al",
+        "status": "modified",
+        "key": "report/1088",
+        "type": "report",
+        "id": 1088,
+        "name": "Job Split Planning Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1088"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/ItemsperJob.Report.al",
+        "status": "modified",
+        "key": "report/1013",
+        "type": "report",
+        "id": 1013,
+        "name": "Items per Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1013"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobActualToBudget.Report.al",
+        "status": "modified",
+        "key": "report/1009",
+        "type": "report",
+        "id": 1009,
+        "name": "Job Actual To Budget",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1009"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobAnalysis.Report.al",
+        "status": "modified",
+        "key": "report/1008",
+        "type": "report",
+        "id": 1008,
+        "name": "Job Analysis",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1008"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobPlanningLines.Report.al",
+        "status": "modified",
+        "key": "report/1006",
+        "type": "report",
+        "id": 1006,
+        "name": "Job - Planning Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1006"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobRegister.Report.al",
+        "status": "modified",
+        "key": "report/1015",
+        "type": "report",
+        "id": 1015,
+        "name": "Job Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1015"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobSuggestedBilling.Report.al",
+        "status": "modified",
+        "key": "report/1011",
+        "type": "report",
+        "id": 1011,
+        "name": "Job Suggested Billing",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1011"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobTransactionDetail.Report.al",
+        "status": "modified",
+        "key": "report/1007",
+        "type": "report",
+        "id": 1007,
+        "name": "Job - Transaction Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1007"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobWIPToGL.Report.al",
+        "status": "modified",
+        "key": "report/1010",
+        "type": "report",
+        "id": 1010,
+        "name": "Job WIP To G/L",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1010"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobsperCustomer.Report.al",
+        "status": "modified",
+        "key": "report/1012",
+        "type": "report",
+        "id": 1012,
+        "name": "Jobs per Customer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1012"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Reports/JobsperItem.Report.al",
+        "status": "modified",
+        "key": "report/1014",
+        "type": "report",
+        "id": 1014,
+        "name": "Jobs per Item",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1014"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobCalculateWIP.Report.al",
+        "status": "modified",
+        "key": "report/1086",
+        "type": "report",
+        "id": 1086,
+        "name": "Job Calculate WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1086"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobPostWIPtoGL.Report.al",
+        "status": "modified",
+        "key": "report/1085",
+        "type": "report",
+        "id": 1085,
+        "name": "Job Post WIP to G/L",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1085"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Journal/DateCompressResourceLedger.Report.al",
+        "status": "modified",
+        "key": "report/1198",
+        "type": "report",
+        "id": 1198,
+        "name": "Date Compress Resource Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1198"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Journal/DeleteEmptyResRegisters.Report.al",
+        "status": "modified",
+        "key": "report/1199",
+        "type": "report",
+        "id": 1199,
+        "name": "Delete Empty Res. Registers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1199"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Ledger/ResourceRegisters.Page.al",
+        "status": "modified",
+        "key": "page/274",
+        "type": "page",
+        "id": 274,
+        "name": "Resource Registers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/274"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceCostBreakdown.Report.al",
+        "status": "modified",
+        "key": "report/1107",
+        "type": "report",
+        "id": 1107,
+        "name": "Resource - Cost Breakdown",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceList.Report.al",
+        "status": "modified",
+        "key": "report/1101",
+        "type": "report",
+        "id": 1101,
+        "name": "Resource - List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1101"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+        "status": "modified",
+        "key": "report/1115",
+        "type": "report",
+        "id": 1115,
+        "name": "Resource - Price List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1115"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceRegister.Report.al",
+        "status": "modified",
+        "key": "report/1103",
+        "type": "report",
+        "id": 1103,
+        "name": "Resource Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1103"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceStatistics.Report.al",
+        "status": "modified",
+        "key": "report/1105",
+        "type": "report",
+        "id": 1105,
+        "name": "Resource Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1105"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Reports/ResourceUsage.Report.al",
+        "status": "modified",
+        "key": "report/1106",
+        "type": "report",
+        "id": 1106,
+        "name": "Resource Usage",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1106"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/AdjustResourceCostsPrices.Report.al",
+        "status": "modified",
+        "key": "report/1195",
+        "type": "report",
+        "id": 1195,
+        "name": "Adjust Resource Costs/Prices",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1195"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+        "status": "modified",
+        "key": "page/76",
+        "type": "page",
+        "id": 76,
+        "name": "Resource Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/76"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+        "status": "modified",
+        "key": "page/77",
+        "type": "page",
+        "id": 77,
+        "name": "Resource List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/77"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+        "status": "modified",
+        "key": "page/9015",
+        "type": "page",
+        "id": 9015,
+        "name": "Job Project Manager RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9015"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobResourceManagerRC.Page.al",
+        "status": "modified",
+        "key": "page/9014",
+        "type": "page",
+        "id": 9014,
+        "name": "Job Resource Manager RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9014"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManagerActivities.Page.al",
+        "status": "modified",
+        "key": "page/9068",
+        "type": "page",
+        "id": 9068,
+        "name": "Project Manager Activities",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9068"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/CreateTimeSheets.Report.al",
+        "status": "modified",
+        "key": "report/950",
+        "type": "report",
+        "id": 950,
+        "name": "Create Time Sheets",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/950"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/MoveTimeSheetstoArchive.Report.al",
+        "status": "modified",
+        "key": "report/953",
+        "type": "report",
+        "id": 953,
+        "name": "Move Time Sheets to Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/953"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/TimeSheetList.Page.al",
+        "status": "modified",
+        "key": "page/951",
+        "type": "page",
+        "id": 951,
+        "name": "Time Sheet List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/951"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9018",
+        "type": "page",
+        "id": 9018,
+        "name": "Administrator Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+        "status": "modified",
+        "key": "page/9035",
+        "type": "page",
+        "id": 9035,
+        "name": "Data Administration",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9035"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Planning/JobPlanningLines.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobResourceManagerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Projects/Resources/Reports/ResourcePriceList.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "projects",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

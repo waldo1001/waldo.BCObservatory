@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9797,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9797",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T10:50:27Z",
+  "merge_commit_sha": "50dcc04baf4fbde30b1f160bb0f679f6c14bab1a",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 641388: Fix WIP transfer remainder over-creation when open line quantity is reduced",
+  "body_hash": "0481c277020432dd7d19f262dbb3119f3919c6e97b3aed03f8b205175d042334",
+  "fixes_issues": [],
+  "work_items": [
+    641388
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/DisabledTests/Subcontracting_Test/Subcontracting_Test.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 20,
+    "deletions": 10,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+        "status": "modified",
+        "key": "report/20501",
+        "type": "report",
+        "id": 20501,
+        "name": "Subc. Create Transf. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/8959",
+  "number": 8959,
+  "title": "Deliverable 638799: Spend Requests in Base App",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing",
+    "administration",
+    "platform"
+  ],
+  "summary": "Spend Requests allow users to create requisitions for planned expenses and link them to journal entries and purchase documents for automatic updates during posting.",
+  "key_points": [
+    "New Spend Request table and pages enable tracking of spending requisitions",
+    "Journal and purchase documents can reference spend requests which update on posting",
+    "Modified general journal check and posting logic to process spend request links",
+    "Feature provides foundation for approval workflows and expense management",
+    "Implementation is partial and awaits additional approval and validation features"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.017117,
+    "changes_in_call": 1
+  }
+}

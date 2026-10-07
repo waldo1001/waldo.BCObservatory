@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2334",
+  "number": 2334,
+  "title": "Handle app names with underscores correctly for reference documentation",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now handles underscores in app names consistently with AlDoc by preserving underscores instead of converting them to dashes when generating reference documentation paths.",
+  "key_points": [
+    "Removed underscore-to-dash conversion logic that caused mismatches with AlDoc",
+    "App names like '_Exclude_APIV1_' now preserve underscores in generated file paths",
+    "Added test coverage for underscore handling in app names",
+    "Fixes documentation generation failures due to path mismatch"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "AL-Go replaced underscores like `Replace('_', '-')` meaning app names like `_Exclude_APIV1_` becomes `-Exclude-APIV1-`. AlDoc doesn't do this and allows underscores.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003364,
+    "changes_in_call": 1
+  }
+}

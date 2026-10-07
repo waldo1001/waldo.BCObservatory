@@ -1,0 +1,5806 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8959,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8959",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T08:43:59Z",
+  "merge_commit_sha": "91ab3535113e426fa4539de4b0a086b6cb922865",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Deliverable 638799: Spend Requests in Base App",
+  "body_hash": "0ece72a8edc1754d85e695e01d0826385c7cb5965edee6edc570588e0cded009",
+  "fixes_issues": [],
+  "work_items": [
+    638799
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseOrderArchiveSubform.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuoteSubform.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/StandardPurchaseOrder.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/Currency.Table.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+      "status": "added",
+      "additions": 605,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+      "status": "added",
+      "additions": 293,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+      "status": "added",
+      "additions": 204,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+      "status": "added",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestRequired.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestStatus.Enum.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestSubform.Page.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Page.al",
+      "status": "added",
+      "additions": 81,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestType.Enum.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicedit.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseOrderArchiveSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuoteSubform.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/StandardPurchaseOrder.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvLine.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/SpendRequestTests.Codeunit.al",
+      "status": "added",
+      "additions": 886,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 363,
+    "additions": 8123,
+    "deletions": 86,
+    "al": 361
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13",
+        "type": "codeunit",
+        "id": 13,
+        "name": "Gen. Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/13"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "key": "page/118",
+        "type": "page",
+        "id": 118,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/118"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13",
+        "type": "codeunit",
+        "id": 13,
+        "name": "Gen. Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/13"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13",
+        "type": "codeunit",
+        "id": 13,
+        "name": "Gen. Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/13"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/52",
+        "type": "page",
+        "id": 52,
+        "name": "Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/52"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/StandardPurchaseOrder.Report.al",
+        "status": "modified",
+        "key": "report/1322",
+        "type": "report",
+        "id": 1322,
+        "name": "Standard Purchase - Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/1322"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/230",
+        "type": "codeunit",
+        "id": 230,
+        "name": "GenJnlManagement",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/230"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "key": "page/118",
+        "type": "page",
+        "id": 118,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "nz",
+        "page": "page/118"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13",
+        "type": "codeunit",
+        "id": 13,
+        "name": "Gen. Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/13"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/138",
+        "type": "page",
+        "id": 138,
+        "name": "Posted Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/138"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "key": "table/4",
+        "type": "table",
+        "id": 4,
+        "name": "Currency",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/4"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "key": "page/17",
+        "type": "page",
+        "id": 17,
+        "name": "G/L Account Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/17"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/230",
+        "type": "codeunit",
+        "id": 230,
+        "name": "GenJnlManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/230"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "key": "page/39",
+        "type": "page",
+        "id": 39,
+        "name": "General Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PostedGenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/181",
+        "type": "table",
+        "id": 181,
+        "name": "Posted Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/181"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "key": "page/254",
+        "type": "page",
+        "id": 254,
+        "name": "Purchase Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/254"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/20",
+        "type": "page",
+        "id": 20,
+        "name": "General Ledger Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/20"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13",
+        "type": "codeunit",
+        "id": 13,
+        "name": "Gen. Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/13"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "key": "page/118",
+        "type": "page",
+        "id": 118,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/118"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/55",
+        "type": "table",
+        "id": 55,
+        "name": "Invoice Posting Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/55"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+        "status": "added",
+        "key": "table/6840",
+        "type": "table",
+        "id": 6840,
+        "name": "Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+        "status": "added",
+        "key": "page/6841",
+        "type": "page",
+        "id": 6841,
+        "name": "Spend Request Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+        "status": "added",
+        "key": "table/6841",
+        "type": "table",
+        "id": 6841,
+        "name": "Spend Request Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+        "status": "added",
+        "key": "report/6850",
+        "type": "report",
+        "id": 6850,
+        "name": "Spend Request Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6850"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+        "status": "added",
+        "key": "page/6840",
+        "type": "page",
+        "id": 6840,
+        "name": "Spend Request List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestRequired.Enum.al",
+        "status": "added",
+        "key": "enum/6843",
+        "type": "enum",
+        "id": 6843,
+        "name": "Spend Request Required",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/6843"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestStatus.Enum.al",
+        "status": "added",
+        "key": "enum/6841",
+        "type": "enum",
+        "id": 6841,
+        "name": "Spend Request Status",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestSubform.Page.al",
+        "status": "added",
+        "key": "page/6842",
+        "type": "page",
+        "id": 6842,
+        "name": "Spend Request Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6842"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Page.al",
+        "status": "added",
+        "key": "page/6843",
+        "type": "page",
+        "id": 6843,
+        "name": "Spend Request To G/L Link",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6843"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+        "status": "added",
+        "key": "table/6845",
+        "type": "table",
+        "id": 6845,
+        "name": "Spend Request To G/L Link",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6845"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5117",
+        "type": "permissionset",
+        "id": 5117,
+        "name": "D365 AUTOMATION",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicedit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/208",
+        "type": "permissionset",
+        "id": 208,
+        "name": "D365 Basic - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/208"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/732",
+        "type": "permissionset",
+        "id": 732,
+        "name": "D365 BASIC ISV",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/732"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/209",
+        "type": "permissionset",
+        "id": 209,
+        "name": "D365 Basic - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/209"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/959",
+        "type": "permissionset",
+        "id": 959,
+        "name": "D365 BUS FULL ACCESS",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/959"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1044",
+        "type": "permissionset",
+        "id": 1044,
+        "name": "D365 READ",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7931",
+        "type": "permissionset",
+        "id": 7931,
+        "name": "D365 TEAM MEMBER",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6121",
+        "type": "permissionset",
+        "id": 6121,
+        "name": "INTELLIGENT CLOUD",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseHeaderArchive.Table.al",
+        "status": "modified",
+        "key": "table/5109",
+        "type": "table",
+        "id": 5109,
+        "name": "Purchase Header Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5109"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseLineArchive.Table.al",
+        "status": "modified",
+        "key": "table/5110",
+        "type": "table",
+        "id": 5110,
+        "name": "Purchase Line Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5110"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+        "status": "modified",
+        "key": "page/5167",
+        "type": "page",
+        "id": 5167,
+        "name": "Purchase Order Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5167"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Archive/PurchaseOrderArchiveSubform.Page.al",
+        "status": "modified",
+        "key": "page/5168",
+        "type": "page",
+        "id": 5168,
+        "name": "Purchase Order Archive Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5168"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "key": "page/55",
+        "type": "page",
+        "id": 55,
+        "name": "Purch. Invoice Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/55"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/52",
+        "type": "page",
+        "id": 52,
+        "name": "Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/52"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/54",
+        "type": "page",
+        "id": 54,
+        "name": "Purchase Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/54"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuoteSubform.Page.al",
+        "status": "modified",
+        "key": "page/97",
+        "type": "page",
+        "id": 97,
+        "name": "Purchase Quote Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/97"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/StandardPurchaseOrder.Report.al",
+        "status": "modified",
+        "key": "report/1322",
+        "type": "report",
+        "id": 1322,
+        "name": "Standard Purchase - Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1322"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "key": "page/139",
+        "type": "page",
+        "id": 139,
+        "name": "Posted Purch. Invoice Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/139"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/140",
+        "type": "page",
+        "id": 140,
+        "name": "Posted Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/140"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/138",
+        "type": "page",
+        "id": 138,
+        "name": "Posted Purchase Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/138"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoHdr.Table.al",
+        "status": "modified",
+        "key": "table/124",
+        "type": "table",
+        "id": 124,
+        "name": "Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/124"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvHeader.Table.al",
+        "status": "modified",
+        "key": "table/122",
+        "type": "table",
+        "id": 122,
+        "name": "Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/122"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchInvLine.Table.al",
+        "status": "modified",
+        "key": "table/123",
+        "type": "table",
+        "id": 123,
+        "name": "Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/123"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1751",
+        "type": "codeunit",
+        "id": 1751,
+        "name": "Data Classification Eval. Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1751"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlManagement.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/Currency/Currency.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseOrderArchive.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Archive/PurchaseOrderArchiveSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuoteSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/History/PostedPurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Account/GLAccountCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PurchaseJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Ledger/GeneralLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PostedPurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestType.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "purchasing",
+    "administration",
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

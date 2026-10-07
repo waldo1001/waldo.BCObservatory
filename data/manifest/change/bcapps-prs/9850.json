@@ -6,7 +6,7 @@
   "title": "Fix VariantCode lost during Contract Price Update proposal",
   "url": "https://github.com/microsoft/BCApps/pull/9850",
   "published_at": "2026-07-31T11:07:14Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:06.036Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003197
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:06.254Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:06.259Z",
+      "path": "content/changes/bcapps/9850.md"
     }
   },
   "input_hash": "4c67670f28103ad7d945f91e89d7ca5253f7c0db:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1cc1167af27ac188794c6811d55109ff6b497bf78f7f0802f4d32c7a3e075955"
+  "output_hash": "777a3d0b6edaf626e7cfeb229958af03436448c78ad8d5dfdf2245f95294878b"
 }

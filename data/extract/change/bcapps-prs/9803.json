@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9803",
+  "number": 9803,
+  "title": "[master] Variant Code mandatory should not allow to refresh the production order with no variant code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Refresh Production Order report now validates that when an item requires a variant code, the production order cannot be refreshed without specifying one.",
+  "key_points": [
+    "Added CheckVariantCodeMandatory validation to the report",
+    "Prevents refreshing production orders when variant code is mandatory but not provided",
+    "Introduced OnBeforeCheckVariantCodeMandatory publisher event for extensibility",
+    "Test coverage added for the new validation logic",
+    "Fixes issue where mandatory variant requirement was being bypassed"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Variant Code mandatory should not allow to refresh the production order with no variant code",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003304,
+    "changes_in_call": 1
+  }
+}

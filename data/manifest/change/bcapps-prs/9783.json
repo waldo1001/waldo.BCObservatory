@@ -6,10 +6,35 @@
   "title": "[Master] Purchase Return Order Posting Fails for Manually Reserved Lot-Tracked Items with Exact Cost Reversing Mandatory Enabled: \"Applies-to Entry must not be filled out when reservations exist in Item Ledger Entry Entry No.='XXX'\"",
   "url": "https://github.com/microsoft/BCApps/pull/9783",
   "published_at": "2026-07-31T11:15:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:07.408Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:12.788Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003885
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:12.946Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:12.952Z",
+      "path": "content/changes/bcapps/9783.md"
     }
   },
   "input_hash": "a19df4bbe19b2be8c29a733a8d5bbae3883004f2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master purchase return order posting fails for manually reserved lot tracked items with exact cost reversing mandatory enabled applies to entry must not be filled out when reservations exist in item ledger entry entry no xxx"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c8f0db622d25e9a3246d37f2e2fa9887f3dd513e05c0a11eab047ded022040b"
 }

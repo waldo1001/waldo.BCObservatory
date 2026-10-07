@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9463",
+  "number": 9463,
+  "title": "[Extensibility Request] issue 30336: add OnValidateNoOnBeforeModifyCapNeedEntries event in Prod. Order Routing Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production Order Routing Line table adds an integration event OnValidateNoOnBeforeModifyCapNeedEntries that fires after work/machine center transfer logic but before capacity needs are updated, giving extensions access to both current and previous record state.",
+  "key_points": [
+    "New event raises in field No. OnValidate trigger after WorkCenterTransferFields/MachineCtrTransferFields",
+    "Provides both Rec and xRec to compare routing line changes at a specific execution point",
+    "Allows customizations to run validation logic without duplicating standard behavior",
+    "Event added in both base and IT layer implementations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003553,
+    "changes_in_call": 1
+  }
+}

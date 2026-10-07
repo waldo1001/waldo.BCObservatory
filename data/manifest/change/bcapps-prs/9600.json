@@ -6,10 +6,18 @@
   "title": "Uptake sift disable enable support",
   "url": "https://github.com/microsoft/BCApps/pull/9600",
   "published_at": "2026-07-30T12:52:33Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:20.247Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "f2c7d3f9f9997198f47c05469ca6447fb581d60d:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "uptake sift disable enable support"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40df5849817cc494271c36f089e3ded074a10a5a233669cff1f635981107cb85"
 }

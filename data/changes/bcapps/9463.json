@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9463,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9463",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T19:22:58Z",
+  "merge_commit_sha": "24751c1a0dbcc68ae616379c30096002e81f66cc",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30336: add OnValidateNoOnBeforeModifyCapNeedEntries event in Prod. Order Routing Line",
+  "body_hash": "31cddf1c540484084c7a1c63b0811fcb5f53d58edeed783bb12d9943fb51ca8b",
+  "fixes_issues": [],
+  "work_items": [
+    641735
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 12,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5409"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5409"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

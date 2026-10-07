@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2334,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2334",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-31T08:21:37Z",
+  "merge_commit_sha": "38f971084e949653850a8bba31c7a94ab31a0a7c",
+  "author": "spetersenms",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Handle app names with underscores correctly for reference documentation",
+  "body_hash": "f7597032ee7cfe3e52da39bf1be41d9dc17b87824c4ee52d97f18277ce00504d",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/BuildReferenceDocumentation/BuildReferenceDocumentation.HelperFunctions.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/BuildReferenceDocumentation.Action.Test.ps1",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 30,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/BuildReferenceDocumentation/BuildReferenceDocumentation.HelperFunctions.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

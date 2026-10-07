@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9783,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9783",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T11:15:34Z",
+  "merge_commit_sha": "a19df4bbe19b2be8c29a733a8d5bbae3883004f2",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master] Purchase Return Order Posting Fails for Manually Reserved Lot-Tracked Items with Exact Cost Reversing Mandatory Enabled: \"Applies-to Entry must not be filled out when reservations exist in Item Ledger Entry Entry No.='XXX'\"",
+  "body_hash": "4358abe01ae9d0b3d11cfd3ab776089c58e30abcabf3390102bc6418008355bd",
+  "fixes_issues": [],
+  "work_items": [
+    644262
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMCostingBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMCostingPurchReturnsII.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 121,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000834",
+        "type": "codeunit",
+        "id": 99000834,
+        "name": "Purch. Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000834"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9838,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9838",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T14:42:40Z",
+  "merge_commit_sha": "d66fa8d19504355f1b0d82b6c4178c5c777291e7",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Grant indirect read on Privacy Notice tables in Privacy Notice Impl.",
+  "body_hash": "d0fea92e3db6a83039b83b0cdd6b7f887c84de4a988c6b57e7eacbbfc4f02b5f",
+  "fixes_issues": [],
+  "work_items": [
+    644260
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Privacy Notice/src/PrivacyNoticeImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Privacy Notice/src/PrivacyNoticeImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1565",
+        "type": "codeunit",
+        "id": 1565,
+        "name": "Privacy Notice Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1565"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

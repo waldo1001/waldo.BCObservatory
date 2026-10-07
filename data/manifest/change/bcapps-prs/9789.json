@@ -6,10 +6,35 @@
   "title": "[Main]-Payment discount tolerance is doubled when posting a vendor payment",
   "url": "https://github.com/microsoft/BCApps/pull/9789",
   "published_at": "2026-07-31T05:42:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:13.439Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:18.448Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004253
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:18.568Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:18.573Z",
+      "path": "content/changes/bcapps/9789.md"
     }
   },
   "input_hash": "92a5d0d570c6ea067599f5e22d989c567f98702b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "payment discount tolerance is doubled when posting a vendor payment"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5cd4126ff56e2c330eb69e7ccf9692330a35f0bcc9283bd0b4c66325db78e303"
 }

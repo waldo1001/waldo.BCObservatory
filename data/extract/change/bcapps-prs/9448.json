@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9448",
+  "number": 9448,
+  "title": "[Extensibility Request] issue 30264: add and extend events in CalcBestDirectUnitCost",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Two new integration events and an extended existing event provide customization points in purchase price selection logic, allowing subscribers to override minimum-quantity checks, best-price selection rules, and no-price fallback handling without duplicating internal loops.",
+  "key_points": [
+    "OnCalcBestDirectUnitCostOnAfterIsInMinQty event lets subscribers override per-price minimum-quantity logic",
+    "OnCalcBestDirectUnitCostOnBeforeCaseStatement event allows replacing best-price selection rules with IsHandled skip flag",
+    "OnCalcBestDirectUnitCostOnBeforeNoPriceFound extended with SKU-related parameters for fallback cost interception",
+    "Events expose PurchasePrice record and related state to reduce need for logic re-implementation",
+    "Supports per-price-record customization in codeunit 7010 without modifying core loops"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00407,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9797",
+  "number": 9797,
+  "title": "Bug 641388: Fix WIP transfer remainder over-creation when open line quantity is reduced",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed a bug in the Create Transfer Order to Subcontractor report where reducing an open WIP transfer line quantity caused incorrect duplicate lines to be created instead of properly tracking the remainder.",
+  "key_points": [
+    "Corrected quantity calculation for open WIP transfer lines by using Quantity field instead of the zero-valued Quantity (Base) field",
+    "Implemented proper conversion to base unit of measure using the same factor applied elsewhere in the report",
+    "Re-enabled the previously disabled regression test WIPTransferRemainderCreatedWhenOpenLineQuantityReduced which now passes",
+    "Validated all 19 tests in the Subc. WIP Trans. Create Test suite with no regressions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004071,
+    "changes_in_call": 1
+  }
+}

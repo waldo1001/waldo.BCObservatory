@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9876",
+  "number": 9876,
+  "title": "[Subscription Billing] Rename progress tracker",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Codeunit 8035 was renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker' to avoid name conflicts with objects outside Subscription Billing, with all references updated accordingly.",
+  "key_points": [
+    "Renamed codeunit 8035 to include 'Sub. Billing' prefix for explicit ownership",
+    "Updated all references across five Subscription Billing codeunits",
+    "Aligned source filename with the new object name",
+    "Prevents namespace conflicts with external objects",
+    "No behavioral changes, only naming for clarity"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003555,
+    "changes_in_call": 1
+  }
+}

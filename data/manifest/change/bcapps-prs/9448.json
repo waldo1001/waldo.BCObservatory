@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30264: add and extend events in CalcBestDirectUnitCost",
   "url": "https://github.com/microsoft/BCApps/pull/9448",
   "published_at": "2026-07-30T19:22:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:15.080Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:23.916Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00407
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:24.141Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:24.147Z",
+      "path": "content/changes/bcapps/9448.md"
     }
   },
   "input_hash": "409230ab79d980c6e5bfb2f81b7ccaeb57cd6196:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30264 add and extend events in calcbestdirectunitcost"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e46651bfd8a9e5d7c1ff132b4e26dd7f1e50770a45c6b431a58926c781a7055"
 }

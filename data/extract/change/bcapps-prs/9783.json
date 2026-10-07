@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9783",
+  "number": 9783,
+  "title": "[Master] Purchase Return Order Posting Fails for Manually Reserved Lot-Tracked Items with Exact Cost Reversing Mandatory Enabled: \"Applies-to Entry must not be filled out when reservations exist in Item Ledger Entry Entry No.='XXX'\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Purchase return order posting now correctly handles manually reserved lot-tracked items when exact cost reversing is mandatory by automatically deriving the applies-to entry from the existing reservation during posting.",
+  "key_points": [
+    "Fixes posting failure for lot-tracked purchase returns with manual reservations when exact cost reversing mandatory is enabled",
+    "Automatically restores the exact-cost reversing link from the reserved item ledger entry when applies-to entry is blank",
+    "Eliminates the need for manual intervention to fill the applies-to entry when a return line is fully reserved",
+    "Preserves reservation integrity throughout the posting process",
+    "Added test coverage for this specific scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003885,
+    "changes_in_call": 1
+  }
+}

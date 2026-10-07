@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9600,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9600",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T12:52:33Z",
+  "merge_commit_sha": "f2c7d3f9f9997198f47c05469ca6447fb581d60d",
+  "author": "ehenriksen9",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Uptake sift disable enable support",
+  "body_hash": "5c107a6bdcf319e119b5dc771b8ba8e8478235cd0bde4bcade0d0eaf5cbaeed8",
+  "fixes_issues": [],
+  "work_items": [
+    624514
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Table Information/src/TableInformationCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 73,
+    "deletions": 22,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+        "status": "modified",
+        "key": "page/8704",
+        "type": "page",
+        "id": 8704,
+        "name": "Indexes List Part",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8704"
+      },
+      {
+        "path": "src/System Application/App/Table Information/src/TableInformationCard.Page.al",
+        "status": "modified",
+        "key": "page/8705",
+        "type": "page",
+        "id": 8705,
+        "name": "Table Information Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8705"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

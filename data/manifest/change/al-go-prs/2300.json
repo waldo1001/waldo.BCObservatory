@@ -6,10 +6,35 @@
   "title": "Make failOn: newWarning work with workspace compilation",
   "url": "https://github.com/microsoft/AL-Go/pull/2300",
   "published_at": "2026-07-31T07:30:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:13.965Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:19.060Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004251
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:19.061Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:14:19.065Z",
+      "path": "content/changes/al-go/2300.md"
     }
   },
   "input_hash": "838fe7b9ea8ea5e0a41843d115390ac5da4732ef:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "make failon newwarning work with workspace compilation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "717bb324e390422069746d42da8a55cb42163adac65a4ada48b45dc55cefe915"
 }

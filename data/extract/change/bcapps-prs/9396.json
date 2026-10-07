@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9396",
+  "number": 9396,
+  "title": "[Subcontracting] Fix subcontracting order opening wrong purchase order after creation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed subcontracting order creation to open the newly created purchase order instead of displaying an old received one when production order quantity was increased after a previous subcontracting operation.",
+  "key_points": [
+    "Subcontracting order creation now correctly opens the newly created purchase order when the production order quantity increases",
+    "The fix captures purchase orders created or updated in the current invocation before determining which ones to display",
+    "Filtering logic was aligned with existing PurchLineExists logic to only show open, unreceived lines",
+    "Fallback handling ensures the feature still works when an existing open PO is updated instead of creating a new one",
+    "Two integration tests were added to cover the delta-PO and updated-open-PO scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003776,
+    "changes_in_call": 1
+  }
+}

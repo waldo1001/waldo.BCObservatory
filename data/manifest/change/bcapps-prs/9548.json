@@ -6,10 +6,18 @@
   "title": "636017 Move Projects report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9548",
   "published_at": "2026-07-30T16:11:11Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:16.503Z",
+      "change_class": "code",
+      "files": 66,
+      "al": 66,
+      "objects": 45,
+      "unjoined": 21
     }
   },
   "input_hash": "e55f45d74e692da293c08d70afc5516a9bd9b440:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move projects report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ef4bf11daa204185d81c79c4a53005cab2c54dcdb3fef89033b0ee283d2490f"
 }

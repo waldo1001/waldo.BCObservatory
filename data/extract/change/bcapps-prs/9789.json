@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9789",
+  "number": 9789,
+  "title": "[Main]-Payment discount tolerance is doubled when posting a vendor payment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug where payment discount tolerance was calculated twice for vendor payments with Applies-to ID in foreign currency, causing inflated bank amounts and sign errors in GL entries.",
+  "key_points": [
+    "Removed guard preventing netted amounts from being persisted when Applies-to ID was set",
+    "Added re-entrancy guard to prevent infinite recursion during amount validation",
+    "Payment discount tolerance now calculated correctly for multi-invoice vendor payments",
+    "Fix applied across all localizations (W1, CH, FR, IT, NL)",
+    "Added regression tests for vendor payment tolerance scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004253,
+    "changes_in_call": 1
+  }
+}
