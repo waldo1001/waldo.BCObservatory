@@ -375,6 +375,35 @@ Close:
 
 Go rule (decision 9): W1 + apps under 30 minutes and 6 GB RSS, precision at or above 18 of 20.
 
+### 7.1 Phase 3 built (2026-10-07, `dev/spec`), deviations
+
+Video and post pages join the objects they name. Verified by re-rendering every video page and the posts the new
+check flags from the committed `data/` (outputs discarded, no nightly): 423 video pages and 273 post pages changed;
+592 distinct object links (videos 328 on 156 pages, posts 264 on 125 pages) out of 2,915 mention lines; the graph
+keeps exactly 592 `mentions` edges, all of weight 1, before and after (62,291 edges in all, unchanged). The atlas
+announcement post lists `codeunit "SalesLineReserve"` and `table "SalesLine"` as "Not found in BC28-30": the post
+names them as variables, not as the objects' names. `validate:content` passes; the site resolves the links.
+
+1. **Resolver adopted from D65, extended.** `pipeline/link/mentions.ts` keeps `objectByName` / `mentionedObjects`
+   (graph, Related and app pages, which read the pages anyway) and adds `loadObjectIndex(dataDir)` over
+   `data/index/objects.json` (parsed once per run, kept while the file is unchanged), `resolveMentions` and
+   `mentionSection`. A country row's " (XX)" suffix is stripped, so both maps agree (checked: 0 differences on the
+   committed data); a country page that shares a W1 name makes it ambiguous, as on the pages.
+2. **Three outcomes, not two.** Ambiguous names (8 today) get their own closing line, "More than one object has this
+   name, so none is linked", because "not found" would be false. Names whose type has no object pages (`other`,
+   `api`: 997 of the 2,915) stay as text and are never called "not found": they were never looked up.
+3. **Link label** is the object's header from the index, `table 252 "General Posting Setup"`, not the name as heard;
+   an unresolved line keeps the name as heard. A video keeps one line per mention with its timestamp.
+4. **Graph.** For videos and posts, `links.objects` and the mentioned names are one set: one `mentions` edge per
+   object (`edge()` would otherwise have counted the pair twice). Related is unchanged (it resolves the same names).
+5. **Re-render path.** Video pages already re-render every night (`rerenderVideoPages`). Posts did not, so the
+   preview-probe phase also re-renders `pendingMentionPages`: posts whose `links.objects` or mention section differ
+   from what the current index gives. Both run before the `objects-index` phase, so a new or renamed object page
+   reaches the media pages one night later.
+6. **No index, no join.** Without `data/index/objects.json` (a fresh checkout, tests) the section says "not joined
+   to the object pages (no object index)" and `links.objects` stays empty. Section 2.3 asks for no "Ask your agent"
+   hint on media pages, so there is none.
+
 ## 8. Verification
 
 - Phase 0: `npm test`; `npm run validate:content`; `grep -c 'bcatlas_resolve_node' content/objects/codeunit/80.md`

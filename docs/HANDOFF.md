@@ -14,7 +14,8 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   the next full nightly the live site still shows the old hubs, no Related block and no app pages.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
-  0 on main, spike and later phases open, nothing installed. Stefan Maron's
+  0 on main; phase 3 (video and post pages join the objects they name, section 7.1) on `dev/spec`; the spike,
+  phases 1 (installs) and 2 (call graph) open, nothing installed. Stefan Maron's
   bc-code-atlas (hosted MCP: bodies, call graph, semantic code search) becomes the companion the plan promised in D10:
   the plugin connects it, a `bc-grounding` skill fixes who answers what, every object page names the
   `bcatlas_resolve_node` call that opens it, and the nightly reproduces the call graph from our own checkouts with the

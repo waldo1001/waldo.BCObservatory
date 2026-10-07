@@ -23,6 +23,7 @@ import { postKey, postRawPath } from "../fetch/post.js";
 import { repeatChecker, scrubRepeats } from "../validate/leak.js";
 import { loadEmbedOverrides, previewFor, type PreviewBlock } from "../extract/preview-probe.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
@@ -31,9 +32,16 @@ const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
 /** `embed: false` is the author's opt-out of the frame and the poster (D60). */
 export interface PostSourceInfo { name: string; author?: { name?: string; mvp?: boolean } | null; full_text?: boolean; embed?: boolean; user_agent?: "default" | "browser" }
 
-/** `preview`: embeddability and the card fields (D60), from previewFor; absent when the post was never probed. */
-export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock): string {
+/** The post's "AL objects mentioned" section and the object pages it links (D67): posts sit two levels under content/. */
+export const postMentions = (x: Pick<PostExtraction, "objects">, index: ObjectIndex | null) => mentionSection(x.objects, index, { up: "../../", source: "As named in the post" });
+
+/**
+ * `preview`: embeddability and the card fields (D60), from previewFor; absent when the post was never probed.
+ * `index`: data/index/objects.json (link/mentions.ts), so the objects the post names link to their pages (D67).
+ */
+export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null): string {
   const pk = postPageKey(item);
+  const mentions = postMentions(x, index);
   const fm = {
     id: `post/${pk}`, type: "post", title: item.title, summary: x.summary, tier: item.tier, language: x.language || item.language || "en",
     tags: x.topics, ...(x.systems[0] ? { system: x.systems[0] } : {}),
@@ -41,7 +49,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [STAGE]: PROMPT_VERSION }, input_hash: item.stages.fetched?.output_hash as string ?? item.output_hash ?? null },
     evidence: [{ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null },
       ...x.quotes.map((q) => ({ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: q.text }))],
-    links: { learn: [], objects: [], features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: { learn: [], objects: mentions.pageIds, features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
     post_id: postKey(item), source_id: item.source, source_name: src.name, url: item.url, published_at: item.published_at ?? null,
     author: src.author?.name ?? null, full_text: !!src.full_text, words: x.words, quotes: x.quotes,
     code_objects_mentioned: x.objects.map((o) => `${o.type} ${o.name}`), systems: x.systems, versions_mentioned: x.versions,
@@ -56,7 +64,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
     `> ${x.summary}`, ""];
   if (x.key_points.length) lines.push("## Key points", "", ...x.key_points.map((k) => `- ${k}`), "");
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- "${q.text}" (${q.why_it_matters})`), "");
-  if (x.objects.length) lines.push("## AL objects mentioned", "", "As named in the post; not yet joined to the code pillar.", "", ...x.objects.map((o) => `- ${o.type} "${cell(o.name)}"`), "");
+  lines.push(...mentions.lines);
   if (x.versions.length || x.features.length) lines.push("## Context", "", ...(x.features.length ? [`- Features: ${x.features.join(", ")}`] : []), ...(x.versions.length ? [`- Versions: ${x.versions.join(", ")}`] : []), "");
   lines.push(`Source: ${src.name}, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -67,14 +75,14 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
  * page repeats: the raw text is in the vault, so this runs wherever the vault is (the nightly), and is skipped when
  * it is not or when the source allows full text.
  */
-export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock): string | null {
-  const page = renderPostPage(item, x, src, now, preview);
+export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date, preview?: PreviewBlock, index: ObjectIndex | null = null): string | null {
+  const page = renderPostPage(item, x, src, now, preview, index);
   const rawPath = postRawPath(item);
   if (src.full_text || !exists(rawPath)) return page;
   const check = repeatChecker(readText(rawPath));
   if (!check(page)) return page;
   const s = scrubRepeats(x, check);
-  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview);
+  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now, preview, index);
   return check(again) ? null : again;
 }
 
@@ -83,7 +91,7 @@ export function postPublished(sources: Map<string, PostSourceInfo>) {
     const p = postExtractionPath(ctx.dataDir, item);
     if (!exists(p)) throw new Error(`post extraction missing: ${p}`);
     const src = sources.get(item.source) ?? { name: item.source };
-    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src));
+    const page = policyCheckedPage(item, readJson<PostExtraction>(p), src, ctx.now(), previewFor(item, ctx.dataDir, src), loadObjectIndex(ctx.dataDir));
     const path = resolve(ctx.contentDir, "posts", `${postPageKey(item)}.md`);
     // like the extract-time guard (D51), the item is skipped, not failed: nothing to retry, the post simply cannot
     // be summarised without repeating itself. Any older page is removed, or check:leak would still find it.
@@ -118,6 +126,24 @@ export function pendingPreviewPages(items: ManifestItem[], dataDir: string, cont
     if (!item.stages.published || !exists(page)) return false;
     const want = previewFor(item, dataDir, sources.get(item.source) ?? {}, overrides);
     return canon(want) !== canon((matter(readText(page)).data as { preview?: unknown }).preview);
+  });
+}
+
+/**
+ * Published posts whose page does not carry the object join it would get now (D67): written before the join existed,
+ * or an object page appeared, went or was renamed since. Compared on `links.objects` and the section text, so the
+ * nightly re-renders only those.
+ */
+export function pendingMentionPages(items: ManifestItem[], dataDir: string, contentDir: string): ManifestItem[] {
+  const index = loadObjectIndex(dataDir);
+  if (!index) return [];
+  return items.filter((item) => {
+    const page = resolve(contentDir, "posts", `${postPageKey(item)}.md`), xp = postExtractionPath(dataDir, item);
+    if (!item.stages.published || !exists(page) || !exists(xp)) return false;
+    const want = postMentions(readJson<PostExtraction>(xp), index);
+    const { data, content } = matter(readText(page));
+    return JSON.stringify(want.pageIds) !== JSON.stringify((data as { links?: { objects?: string[] } }).links?.objects ?? [])
+      || !content.includes(want.lines.join("\n").trim());
   });
 }
 

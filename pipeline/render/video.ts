@@ -4,8 +4,8 @@
  * content/videos/<videoId>.md = strict frontmatter (schemas/frontmatter.video.json) + a markdown body built from the
  * extraction and the summary. Microsoft captions are full text (D08) but pages never reproduce transcripts: they
  * carry chapters, features with verified status evidence, quotes (checked, under 25 words) and links with t=.
- * content/videos/llms.txt lists every video page newest first. Objects are "as heard" until the code pillar
- * verifies them (M2), and the page says so.
+ * content/videos/llms.txt lists every video page newest first. Objects are "as heard"; a name that matches one object
+ * page by exact type and name links to it and lands in `links.objects` (D67, link/mentions.ts), the others stay text.
  * A feature that covers Microsoft 365 roadmap features (data/links/roadmap.json) takes its status from the roadmap
  * when those roadmap features agree (D19: launch videos rarely state a status); status_source says which.
  */
@@ -26,6 +26,7 @@ import type { RoadmapEntry } from "../ingest/roadmap.js";
 import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.js";
 import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
+import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -58,9 +59,13 @@ export function roadmapStatusOf(r: VideoRoadmap, i: number, now: Date): { ids: s
 /** CONTENT-NOTICE.md: community pages carry a few short quotes, not a stitched transcript. */
 export const COMMUNITY_QUOTES_MAX = 5;
 
-/** `source.embed: false` (the channel's opt-out or data/overrides/embeds.yaml, D60) writes `embed: false`: no in-page player. */
-export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string; embed?: boolean }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
+/**
+ * `source.embed: false` (the channel's opt-out or data/overrides/embeds.yaml, D60) writes `embed: false`: no in-page player.
+ * `index`: data/index/objects.json (link/mentions.ts), so the objects heard link to their pages (D67).
+ */
+export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string; embed?: boolean }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP, index: ObjectIndex | null = null): string {
   const id = videoIdOf(item);
+  const mentions = mentionSection(x0.objects, index, { up: "../", source: "As heard in the captions", suffix: (o) => ` at [${hms(o.t)}](${at(id, o.t)})` });
   const x = item.tier === "official" ? x0 : { ...x0, quotes: x0.quotes.slice(0, COMMUNITY_QUOTES_MAX) };
   const rm = x.features.map((_, i) => roadmapStatusOf(roadmap, i, now));
   const statusOf = (i: number) => rm[i].status ?? x.features[i].status;
@@ -76,7 +81,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     review: { state: reviewState, by: item.review?.by ?? null, at: item.review?.at ?? null, flags },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [EXTRACT_STAGE]: EXTRACT_V, [SUMMARY_STAGE]: SUMMARY_V }, input_hash: item.stages.captioned?.vtt_sha256 as string ?? null },
     evidence,
-    links: { learn: [], objects: [], features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
+    links: { learn: [], objects: mentions.pageIds, features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
     video_id: id, channel: item.source, source_name: source.name, url: item.url, published_at: item.published_at ?? null,
     duration_s: Math.round(x.duration_s), captions: item.tier === "official" ? "full" : "derived", audience: s.audience,
     chapters: x.chapters.map((c) => ({ t: Math.floor(c.t_start), title: c.title })),
@@ -110,10 +115,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     lines.push("");
     if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.", "");
   }
-  if (x.objects.length) {
-    lines.push("## AL objects mentioned", "", "As heard in the captions; not yet verified against the code pillar.", "",
-      ...x.objects.map((o) => `- ${o.type} "${o.name}" at [${hms(o.t)}](${at(id, o.t)})`), "");
-  }
+  lines.push(...mentions.lines);
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- [${hms(q.t)}](${at(id, q.t)}) "${q.text}"`), "");
   if (x.disclaimers.length) lines.push("## Disclaimers in the video", "", ...x.disclaimers.map((d) => `- [${hms(d.t)}](${at(id, d.t)}) ${d.kind}: ${d.text}`), "");
   if (x.presenters.length) lines.push(`Presenters (as heard): ${x.presenters.map((p) => p.name).join(", ")}.`, "");
@@ -131,7 +133,7 @@ export async function publishedHandler(item: ManifestItem, ctx: Pick<StageContex
   const off = src?.embed === false || loadEmbedOverrides(ctx.dataDir).videos.some((v) => v.id === id);
   const source = { name: src?.name ?? item.source, ...(off ? { embed: false } : {}) };
   const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id, loadReview(ctx.dataDir)), entries: latestRoadmap(ctx.dataDir) };
-  const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap);
+  const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap, loadObjectIndex(ctx.dataDir));
   const path = videoPagePath(ctx.contentDir, id);
   // regenerate only when the body or the facts changed, so a quiet night does not touch every page's generated.at
   const body = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
