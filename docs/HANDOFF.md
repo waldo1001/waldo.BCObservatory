@@ -17,6 +17,10 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   committed BC28/29 graphs render 5,582 Calls and 2,808 Called by sections; today 0 pages show them). Then phase 1:
   `askYourAgent` in `pipeline/render/object.ts` becomes one closing paragraph. Until it lands readers see no call
   sections and an atlas block that says the call graph is not stored here.
+- **Site size** (`docs/specs/site-size.md`, D76, M14). Status: proposed 2026-10-07, nothing implemented. Start with
+  phase 1 (`scripts/site-size.ts` and its tests, then the `pages.yml` step); phase 2 is three component style blocks.
+  Until it lands the Pages check counts disk blocks (12% over the real size) and the next growth fails a deploy with
+  no warning.
 
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
