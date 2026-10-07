@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9451",
+  "number": 9451,
+  "title": "[Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "The OnBeforeCreateWhseActivHeader event in the Create Pick codeunit now includes a temporary Warehouse Activity Line parameter, allowing subscribers to inspect pick lines before a warehouse activity header is created.",
+  "key_points": [
+    "Added temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader event",
+    "Enables subscribers to inspect pick lines before header creation",
+    "Allows decision logic for routing lines to new or existing pick headers",
+    "Parameter is trailing so existing subscribers remain compatible",
+    "Supports complex scenarios with Sales, Transfer, and Purchase Return Orders"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003387,
+    "changes_in_call": 1
+  }
+}

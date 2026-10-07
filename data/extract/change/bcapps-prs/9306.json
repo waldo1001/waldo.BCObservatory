@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9306",
+  "number": 9306,
+  "title": "[Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the \"Applies-to Document No.\" on the line instead of using Apply Entries in the Spanish version.Initial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed unbalanced G/L entries when applying a payment to a purchase invoice with different posting groups using inline application in the Spanish version.",
+  "key_points": [
+    "Application entries now correctly identify whether they belong to the applied document or the payment",
+    "Invoices post to their own posting-group payables account instead of the payment's account",
+    "Special handling in PostDtldVendLedgEntry and PostDtldVendLedgEntryUnapply ensures symmetry between apply and unapply operations",
+    "Issue only occurred with inline Applies-to Document No., not with Apply Entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003869,
+    "changes_in_call": 1
+  }
+}

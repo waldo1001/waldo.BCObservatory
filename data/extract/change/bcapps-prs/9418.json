@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9418",
+  "number": 9418,
+  "title": "[ALAppExtensions #30229][Event Request] table 12113 \"Tmp Withholding Contribution\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Adds an IsHandled event OnCalculateWithholdingTaxOnBeforeAssignWithholdingTaxValues to the Tmp Withholding Contribution table and extracts field assignments into a separate procedure to allow customization of withholding tax calculation logic.",
+  "key_points": [
+    "New IsHandled event lets extensions override withholding tax value assignments",
+    "Standard field assignment logic extracted into AssignWithholdingTaxValues local procedure",
+    "Negative taxable base validation remains outside the handled block to prevent bypass",
+    "Default behavior unchanged for systems not overriding the event",
+    "Low-risk change with backward compatibility maintained"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003704,
+    "changes_in_call": 1
+  }
+}

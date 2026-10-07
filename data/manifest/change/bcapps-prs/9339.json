@@ -6,7 +6,7 @@
   "title": "[master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting",
   "url": "https://github.com/microsoft/BCApps/pull/9339",
   "published_at": "2026-07-15T10:03:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 11,
       "objects": 11,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:50.053Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004051
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:50.203Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:50.210Z",
+      "path": "content/changes/bcapps/9339.md"
     }
   },
   "input_hash": "dbeafdb0c0dad723c2b6b785c158550c6816cd14:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c533df456b332c1f743a5b0ac603bef3e35ab401fda43c962a32e8a38578def5"
+  "output_hash": "74f9a99ce8d069deb68062f0a85bf88968cb94bae00f3b9eb9741eea1c123a7f"
 }

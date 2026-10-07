@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9038,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9038",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T08:13:57Z",
+  "merge_commit_sha": "1ab2acfc39f8926245a51c238329bbe30091e0ce",
+  "author": "AndreasHans",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "[master][Bug]: Page 615 \"IC Inbox Transactions\".RunInboxTransactions",
+  "body_hash": "b014be11eedbb4fe959f3bc436dc9ca847dabc6fa03c383e3c5df14264df5197",
+  "fixes_issues": [],
+  "work_items": [
+    633619
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 6,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 73,
+    "deletions": 25,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransactions.Page.al",
+        "status": "modified",
+        "key": "page/615",
+        "type": "page",
+        "id": 615,
+        "name": "IC Inbox Transactions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/615"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

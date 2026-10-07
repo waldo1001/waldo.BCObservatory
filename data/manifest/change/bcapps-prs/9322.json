@@ -6,10 +6,35 @@
   "title": "[FS Integration] SVCITEM-CUSTASSET mapping ignores \"Convert to Customer Asset\" flag — every Service Item synced to FS unconditionally",
   "url": "https://github.com/microsoft/BCApps/pull/9322",
   "published_at": "2026-07-15T08:42:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:53.094Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:58.745Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004157
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:58.926Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:58.933Z",
+      "path": "content/changes/bcapps/9322.md"
     }
   },
   "input_hash": "2e9cc00596b325150849f3107d1b316f232b09a1:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fs integration svcitem custasset mapping ignores convert to customer asset flag every service item synced to fs unconditionally"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7384be43098ab7828e598c4511508f21f33fe0c9deb297349a2c3e3cfbb2dd25"
 }

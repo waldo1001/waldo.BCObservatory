@@ -6,10 +6,35 @@
   "title": "[ALAppExtensions #30229][Event Request] table 12113 \"Tmp Withholding Contribution\"",
   "url": "https://github.com/microsoft/BCApps/pull/9418",
   "published_at": "2026-07-15T08:42:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:53.866Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:59.092Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003704
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:59.285Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:59.314Z",
+      "path": "content/changes/bcapps/9418.md"
     }
   },
   "input_hash": "950310ae8780604411959a1d13bf799fbea38be3:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30229 event request table 12113 tmp withholding contribution"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "425a7edefe1e627fccd6aac4c165be193648838ccbd9f095ee1f8250814b7c88"
 }

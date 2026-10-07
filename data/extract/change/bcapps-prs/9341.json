@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9341",
+  "number": 9341,
+  "title": "[main][Change Request] Page 8901 - Add empty \"layout\" to the RoleCenter",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "An empty layout section is added to the Finance Manager Role Center page across all localization layers to support future customizations.",
+  "key_points": [
+    "Empty layout element added to page 8901 Finance Manager Role Center",
+    "Change applied consistently across 19 localization layers (W1, NA, APAC, European variants)",
+    "Enables extensibility for role center customizations",
+    "No functional behavior changes in the UI",
+    "Part of the base application framework"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004201,
+    "changes_in_call": 1
+  }
+}

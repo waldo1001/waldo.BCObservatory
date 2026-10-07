@@ -6,10 +6,35 @@
   "title": "[ALAppExtensions #30221][Event Request] table 12137 \"Purch. Withh. Contribution\"",
   "url": "https://github.com/microsoft/BCApps/pull/9417",
   "published_at": "2026-07-15T08:42:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:52.865Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:58.262Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003642
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:58.436Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:58.443Z",
+      "path": "content/changes/bcapps/9417.md"
     }
   },
   "input_hash": "f39b7de6ec42740e73791da16ed0ba83296d3df5:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30221 event request table 12137 purch withh contribution"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f7b4a7cb118e7fb2ea672aeaa4e8b2b108fa8c0bb04c2e7f69e31bc197c8640"
 }

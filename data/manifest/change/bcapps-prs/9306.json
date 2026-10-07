@@ -6,7 +6,7 @@
   "title": "[Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the \"Applies-to Document No.\" on the line instead of using Apply Entries in the Spanish version.Initial commit",
   "url": "https://github.com/microsoft/BCApps/pull/9306",
   "published_at": "2026-07-15T11:46:49Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:50.376Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003869
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:50.521Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:50.527Z",
+      "path": "content/changes/bcapps/9306.md"
     }
   },
   "input_hash": "67bf4c3f68bed43a28ec0483a5fe6f051b069919:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae503941b1a1f5ded061a528eaf476a96e3feb41d7e3541660e5d1e394c409c0"
+  "output_hash": "90022eb84c8a22ae64d2357e9125630b95633277f5560f522abf0a346753c9fb"
 }

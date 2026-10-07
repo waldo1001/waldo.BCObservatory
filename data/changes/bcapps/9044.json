@@ -1,0 +1,1158 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9044,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9044",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T05:42:28Z",
+  "merge_commit_sha": "df4fbbb4417b54f02c84e884a19a6b883dce1c34",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master] Contact email is no validated during creation purchase documents_New",
+  "body_hash": "0e0ffd1ecc0177e15b69d320ecbaf36574f3f1da0a1e9ff5ecc47379dc846bda",
+  "fixes_issues": [],
+  "work_items": [
+    630739
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ERM/ERMPurchaseCreditMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM/ERMPurchaseCreditMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/ERMPurchaseBlanketOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/ERMPurchaseQuote.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ERM/ERMPurchaseCreditMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/ERMPurchaseBlanketOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/ERMPurchaseReturnOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/US/Tests/ERM/ERMPurchaseCreditMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMPurchaseBlanketOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMPurchaseCreditMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMPurchaseQuote.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMPurchaseReturnOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 85,
+    "additions": 949,
+    "deletions": 128,
+    "al": 67
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/509",
+        "type": "page",
+        "id": 509,
+        "name": "Blanket Purchase Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/509"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/52",
+        "type": "page",
+        "id": 52,
+        "name": "Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/52"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "key": "page/6640",
+        "type": "page",
+        "id": 6640,
+        "name": "Purchase Return Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/6640"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/509",
+        "type": "page",
+        "id": 509,
+        "name": "Blanket Purchase Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/509"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/52",
+        "type": "page",
+        "id": 52,
+        "name": "Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/52"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "key": "page/50",
+        "type": "page",
+        "id": 50,
+        "name": "Purchase Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/50"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "key": "page/49",
+        "type": "page",
+        "id": 49,
+        "name": "Purchase Quote",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/49"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "key": "page/6640",
+        "type": "page",
+        "id": 6640,
+        "name": "Purchase Return Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6640"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/BlanketPurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseReturnOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

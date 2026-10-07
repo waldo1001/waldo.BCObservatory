@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/108",
+  "number": 108,
+  "title": "Complete AL review knowledge readiness",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "AL review knowledge expanded with new guidance on telemetry, Query objects, AppSource, breaking changes, and security; content gaps fixed, and validation harness added for consistent small-model evaluation.",
+  "key_points": [
+    "Added comprehensive telemetry and Query object knowledge with paired review skills and code examples",
+    "Fixed content defects in obsolete-field, page-caption, and background-task guidance",
+    "Introduced convention-driven evaluation harness mapping knowledge domains to review leaves with deterministic positive/clean controls",
+    "Strengthened AppSource, security, breaking changes, data modeling, and performance domains with new high-value guidance",
+    "Established reproducible validation with 239 articles, zero errors, and Claude Haiku verification across 16 leaves"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Adds first-class telemetry and Query knowledge and review leaves, and strengthens AppSource, breaking changes, data modeling, performance, security, and testing coverage.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009993,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9024",
+  "number": 9024,
+  "title": "[Master] - Chance of success % does not validate correctly when using the action type \"Update\" in Opportunity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "The Chance of Success percentage field in opportunities now validates correctly when using the Update action type. A validation fix and test cases were added to ensure the field accepts only values between 0 and 100.",
+  "key_points": [
+    "Fixed validation logic for Chance of Success % field in Opportunity Entry table",
+    "Added test coverage for the Update action type scenario",
+    "Validation now properly enforces percentage range constraints"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": "Chance of success % does not validate correctly when using the action type \"Update\" in Opportunity",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003051,
+    "changes_in_call": 1
+  }
+}

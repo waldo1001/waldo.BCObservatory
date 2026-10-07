@@ -6,10 +6,35 @@
   "title": "[main][Change Request] Page 8901 - Add empty \"layout\" to the RoleCenter",
   "url": "https://github.com/microsoft/BCApps/pull/9341",
   "published_at": "2026-07-15T08:13:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:57.574Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 19,
+      "objects": 1,
+      "unjoined": 18
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:03.428Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004201
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:03.607Z",
+      "objects": 1,
+      "unjoined": 18,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:03.614Z",
+      "path": "content/changes/bcapps/9341.md"
     }
   },
   "input_hash": "7904087c6476a80b9a74be9824f2ff8d0707d2c2:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "change request page 8901 add empty layout to the rolecenter"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8753a985ee6c58f432346a4c64527c5723d395117c71bb5f0315bc882c0e75ef"
 }

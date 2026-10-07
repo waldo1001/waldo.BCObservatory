@@ -6,10 +6,35 @@
   "title": "[Master] Exchange Rate Adjustment filter not working",
   "url": "https://github.com/microsoft/BCApps/pull/9254",
   "published_at": "2026-07-15T05:43:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:58.704Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:07.401Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003272
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:07.600Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:07.605Z",
+      "path": "content/changes/bcapps/9254.md"
     }
   },
   "input_hash": "ff3ff5eef2ba049d24184bb289a15ad95c68894e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master exchange rate adjustment filter not working"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84f3fe2b340b33b7038a8b317b54ba0f47dd44d4f9a242041e79998a095ff611"
 }

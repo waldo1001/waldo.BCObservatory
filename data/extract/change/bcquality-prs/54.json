@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/54",
+  "number": 54,
+  "title": "Emit human-readable domain label on review findings",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Review findings now include a human-readable domain label owned by BCQuality, eliminating the need for consumer taxonomy maps and allowing new review domains to render correctly without engine changes.",
+  "key_points": [
+    "Adds optional `findings[].domain` field to review output schema with display labels like 'Breaking Changes', 'Performance', 'Security'",
+    "Each AL review leaf skill sets domain on every finding it emits; cross-cutting findings use 'Agent' as domain",
+    "Domain is display text that consumers must preserve exactly without modification or lossy transformation",
+    "Backward compatible: absent domain field triggers legacy fallback behavior in consumers",
+    "Decouples review domain taxonomy from consumer engine, shifting ownership to BCQuality producers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": "Every active AL review leaf sets `domain` on every finding it emits, including leaf-level agent findings.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004696,
+    "changes_in_call": 1
+  }
+}

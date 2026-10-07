@@ -6,10 +6,18 @@
   "title": "[master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed",
   "url": "https://github.com/microsoft/BCApps/pull/9349",
   "published_at": "2026-07-15T05:21:43Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:00.410Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "4e4275b47fa42213942d4525364e976312ce8589:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "master es cartera bills applying a foreign currency payment to a bill that leads to gain loss entry cannot be reversed"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "93f3e9a53ab7349d4ad6b59bd64a53e36165452d9d0e6fcc5d66fcbe1e46d7ab"
 }

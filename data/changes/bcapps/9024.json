@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9024,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9024",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T17:43:10Z",
+  "merge_commit_sha": "cffc80403381b9375e0f010e7d5842a8583d7447",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master] - Chance of success % does not validate correctly when using the action type \"Update\" in Opportunity",
+  "body_hash": "76c8198b38bf7e125a383a078657e8d39b3af8136add8357e806a434a266afb0",
+  "fixes_issues": [],
+  "work_items": [
+    640926
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Opportunity/OpportunityEntry.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Marketing/MarketingOpportunityMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 71,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Opportunity/OpportunityEntry.Table.al",
+        "status": "modified",
+        "key": "table/5093",
+        "type": "table",
+        "id": 5093,
+        "name": "Opportunity Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5093"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "crm"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9038",
+  "number": 9038,
+  "title": "[master][Bug]: Page 615 \"IC Inbox Transactions\".RunInboxTransactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Page 615 'IC Inbox Transactions' now correctly shows the request page for users with more than basic permissions, fixing a conditional check that was preventing the page from opening properly.",
+  "key_points": [
+    "Changed IsFoundationEnabled check to IsBasicOnlyEnabled for proper permission validation",
+    "Request page now opens for users with permissions beyond basic",
+    "Tests updated to handle the request page by clicking OK",
+    "Fixes intercompany inbox transaction processing for elevated user roles",
+    "Changes affect multiple localization layers (CH, CZ, NL, W1)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Changes the check of IsFoundationEnabled to IsBasicOnlyEnabled, such that the request page opens when the user is more than basic.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003407,
+    "changes_in_call": 1
+  }
+}

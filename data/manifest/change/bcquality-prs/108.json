@@ -6,10 +6,35 @@
   "title": "Complete AL review knowledge readiness",
   "url": "https://github.com/microsoft/BCQuality/pull/108",
   "published_at": "2026-07-15T08:55:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:50.557Z",
+      "change_class": "code",
+      "files": 105,
+      "al": 99,
+      "objects": 0,
+      "unjoined": 99
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:56.290Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.009993
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:56.292Z",
+      "objects": 0,
+      "unjoined": 99,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:18:56.308Z",
+      "path": "content/changes/bcquality/108.md"
     }
   },
   "input_hash": "186d8a131465475c79244d994acb872cd5c0d4bf:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "complete al review knowledge readiness"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ba06a9be93663232199cc1e81b438309c5380a1f6607a5af8b400a793d9bab3"
 }

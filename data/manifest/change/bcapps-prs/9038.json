@@ -6,10 +6,35 @@
   "title": "[master][Bug]: Page 615 \"IC Inbox Transactions\".RunInboxTransactions",
   "url": "https://github.com/microsoft/BCApps/pull/9038",
   "published_at": "2026-07-15T08:13:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:58.251Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:03.618Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003407
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:03.762Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:03.767Z",
+      "path": "content/changes/bcapps/9038.md"
     }
   },
   "input_hash": "1ab2acfc39f8926245a51c238329bbe30091e0ce:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "master bug page 615 ic inbox transactions runinboxtransactions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e225be0d15dbeaa751f18650fc67b1ed4eed76832ec2620fd282516849da240"
 }

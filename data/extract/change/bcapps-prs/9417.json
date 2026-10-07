@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9417",
+  "number": 9417,
+  "title": "[ALAppExtensions #30221][Event Request] table 12137 \"Purch. Withh. Contribution\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Two integration events added to the Purch. Withh. Contribution table enable partners to override the INPS calculation or populate custom fields during record creation without affecting the default behavior.",
+  "key_points": [
+    "OnValorizzaINPSOnBeforeCalcAssoggettato event with IsHandled guard allows partners to replace the Assoggettato calculation",
+    "OnCreateRecordOnBeforeInsertPurchWithhContribution event fires before insert to let subscribers populate custom fields",
+    "IsHandled defaults to false so standard calculation runs unchanged unless explicitly overridden",
+    "No schema or data changes; low risk extension points"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Adds two integration events to table 12137 \"Purch. Withh. Contribution\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003642,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9322",
+  "number": 9322,
+  "title": "[FS Integration] SVCITEM-CUSTASSET mapping ignores \"Convert to Customer Asset\" flag — every Service Item synced to FS unconditionally",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset when syncing Service Items, preventing unconditional synchronization unless the flag is enabled or records are already coupled.",
+  "key_points": [
+    "Service Items are now filtered based on the Convert to Customer Asset flag in the linked Dataverse Product",
+    "Already-coupled Service Item/Customer Asset pairs continue syncing regardless of the flag to avoid disruption",
+    "The fix exposes the msdyn_converttocustomerasset field and adds post-filter logic to OnQueryPostFilterIgnoreRecord",
+    "Service Items without Item numbers or uncoupled Items are not blocked by the new filter",
+    "Automated tests cover filtering behavior for enabled/disabled conversion and edge cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service",
+    "integration"
+  ],
+  "quote": "Service Items were synced to Field Service Customer Assets without honoring the Dataverse Product setting Convert to Customer Asset.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004157,
+    "changes_in_call": 1
+  }
+}

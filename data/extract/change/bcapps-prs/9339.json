@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9339",
+  "number": 9339,
+  "title": "[master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Three new variables (NextEntryNo, NextVATEntryNo, NextTransactionNo) are added as parameters to the OnAfterInitGLRegister event in the Gen. Jnl.-Post Line codeunit, allowing subscribers to access and modify these entry numbers during GL register initialization.",
+  "key_points": [
+    "OnAfterInitGLRegister event now exposes NextEntryNo, NextVATEntryNo, and NextTransactionNo variables",
+    "Subscribers can read and modify entry number variables before GL register completion",
+    "Change applied consistently across all localization layers",
+    "Enables extensions to customize entry numbering behavior",
+    "Fixes issue AB#639006"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004051,
+    "changes_in_call": 1
+  }
+}

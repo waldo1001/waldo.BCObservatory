@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9447",
+  "number": 9447,
+  "title": "[Extensibility Request] issue 30239: add OnBeforeOnRunOnCheckWarehouse event in Mfg. Item Jnl. Check Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new OnBeforeOnRunOnCheckWarehouse integration event enables extensions to conditionally bypass manufacturing warehouse validation for specific item journal transactions without affecting standard behavior.",
+  "key_points": [
+    "New IntegrationEvent publisher added to Mfg. Item Jnl. Check Line codeunit",
+    "Extensions can set IsHandled to skip manufacturing checks for their own transactions",
+    "Allows Consumption/Output transactions to bypass validation when intentionally needed",
+    "Preserves existing validation for all other scenarios",
+    "Event provides access to ItemJournalLine, CalledFromAdjustment, and CalledFromInvtPutawayPick parameters"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003648,
+    "changes_in_call": 1
+  }
+}

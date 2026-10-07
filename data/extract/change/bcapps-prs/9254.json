@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9254",
+  "number": 9254,
+  "title": "[Master] Exchange Rate Adjustment filter not working",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Exchange Rate Adjustment filter logic was corrected to properly apply filters when processing adjustments for customers and vendors across multiple localization layers.",
+  "key_points": [
+    "Fixed filter application in Exchange Rate Adjustment Process codeunit",
+    "Affects both customer and vendor adjustment procedures",
+    "Changes applied across W1, IT, and RU localization layers",
+    "Comprehensive test coverage added for customer and vendor scenarios",
+    "Corrects a bug that prevented filters from working as intended"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Exchange Rate Adjustment filter not working",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003272,
+    "changes_in_call": 1
+  }
+}
