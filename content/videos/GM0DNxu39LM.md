@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:49:26.470Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -202,9 +202,11 @@ It also shows a change in delivery. First-party connectors used to be pre-instal
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "E Document Services" at [3:01](https://www.youtube.com/watch?v=GM0DNxu39LM&t=181s)
+
+Not found in BC28-30: page "E Document Services".
 
 ## Quotes
 

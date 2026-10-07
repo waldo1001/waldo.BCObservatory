@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,7 +90,8 @@ evidence:
     quote: this actually works remarkably well and uh and uh actually cuts out a lot of humans errors
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6910
   features:
     - feature/573255
   topics: []
@@ -662,7 +663,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Opus 4.5" at [18:05](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1085s)
 - other "GitHub Copilot CLI" at [18:23](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1103s)
@@ -673,9 +674,11 @@ As heard in the captions; not yet verified against the code pillar.
 - other "Payable Agent" at [51:06](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3066s)
 - other "Expense Agent" at [51:06](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3066s)
 - other "Graph API" at [52:58](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3178s)
-- page "expense report" at [1:06:02](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3962s)
+- [page 6910 "Expense Report"](../objects/page/6910.md) at [1:06:02](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3962s)
 - page "expense agent setup page" at [1:04:37](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3877s)
 - page "agent consumption page" at [1:04:59](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3899s)
+
+Not found in BC28-30: page "expense agent setup page", page "agent consumption page".
 
 ## Quotes
 

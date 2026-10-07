@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 75eea84761249b2491ff6c277b4524d682827099920a8cc953af23480fa9cf10
+  input_hash: 50cd7c7c0fe364670aea9f243cc583c7d1e3794f4a42e80ba785577b700b64f1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/BasicExperience/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/BasicExperience/app
     title: src/Apps/W1/BasicExperience/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -237,4 +237,4 @@ First-party app · folder `src/Apps/W1/BasicExperience/app` · namespace `System
 | 20604 | [Upgrade Extension BF](../objects/codeunit/20604.md) |  |
 | 20605 | [Assisted Setup BF](../objects/codeunit/20605.md) |  |
 
-Source: [src/Apps/W1/BasicExperience/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/BasicExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/BasicExperience/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/BasicExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

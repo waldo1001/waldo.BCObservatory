@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:27:09.596Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,7 +57,8 @@ evidence:
     quote: So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6221
   features: []
   topics: []
   localizations: []
@@ -191,14 +192,16 @@ The demo covers the sustainability configuration, posting a project journal, and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sustainability Setup" at [2:53](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=173s)
+- [page 6221 "Sustainability Setup"](../objects/page/6221.md) at [2:53](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=173s)
 - page "Items" at [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s)
 - page "Resources" at [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s)
 - page "Project Journals" at [4:27](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=267s)
 - page "Projects" at [5:27](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=327s)
 - page "Project Statistics" at [5:59](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=359s)
+
+Not found in BC28-30: page "Items", page "Resources", page "Project Journals", page "Projects", page "Project Statistics".
 
 ## Quotes
 

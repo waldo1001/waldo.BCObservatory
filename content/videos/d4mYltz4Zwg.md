@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:02:14.038Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,8 @@ evidence:
     quote: in next release we will enable through feature management upgrade process so they can remove from existing model they have right now
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6786
   features: []
   topics: []
   localizations: []
@@ -267,9 +268,9 @@ It walks through the configuration model, which uses withholding tax business an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Withholding Tax Posting Setup" at [3:15](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=195s)
+- [table 6786 "Withholding Tax Posting Setup"](../objects/table/6786.md) at [3:15](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=195s)
 - other "Withholding Tax Business Posting Group" at [3:02](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=182s)
 - other "Withholding Tax Product Posting Group" at [3:02](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=182s)
 - other "General Ledger Setup" at [7:03](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=423s)

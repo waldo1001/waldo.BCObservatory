@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T18:12:29.566Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b74a95c5b90623f38d9b53e0877d200575d0e4f786c40374901bff589d01e2ef
+  input_hash: 476da54d310339d05916760aa9950fc7ad497f8789203d9e848fe186d8bb2e2d
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/
@@ -84,13 +84,13 @@ versions_mentioned:
 preview:
   embeddable: true
   frame_url: null
-  image: null
-  image_alt: null
-  image_w: null
-  image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-10-07T11:50:36.705Z"
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T21:11:56.813Z"
 ---
 
 # October 2026 Cumulative Updates for Dynamics 365 Business Central

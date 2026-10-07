@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:14:01.862Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -275,7 +275,7 @@ From an administration standpoint, agents are treated like users, with permissio
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sales Order Processor profile" at [11:13](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=673s)
 - other "Adatim Corporation" at [12:07](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=727s)

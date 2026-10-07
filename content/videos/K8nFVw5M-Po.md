@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:32:15.170Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,7 +132,8 @@ evidence:
     quote: if if you're just working on creating permission sets this might replace that but i think we as developers are
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -398,14 +399,16 @@ The presenters cover how to give the agent context (file references, symbols, re
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Customer" at [2:24](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=144s)
+- [table 18 "Customer"](../objects/table/18.md) at [2:24](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=144s)
 - other "app JSON" at [3:16](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=196s)
 - table "Customer table" at [14:03](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=843s)
 - other "properties leases" at [15:38](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=938s)
 - page "pages" at [17:28](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1048s)
 - codeunit "code units" at [17:28](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1048s)
+
+Not found in BC28-30: table "Customer table", page "pages", codeunit "code units".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:48.162Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,13 +245,15 @@ The demo changes a field type, shows the code cop validation, and deploys the sa
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "demo table" at [6:58](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=418s)
 - table "vendor table" at [7:43](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=463s)
 - table "customer table" at [10:49](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=649s)
 - codeunit "get next entry function" at [8:58](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=538s)
 - table "entry number" at [14:08](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=848s)
+
+Not found in BC28-30: table "demo table", table "vendor table", table "customer table", codeunit "get next entry function", table "entry number".
 
 ## Quotes
 

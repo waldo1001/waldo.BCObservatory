@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -50,7 +50,8 @@ evidence:
     quote: "hot loops pay heavily for boundary crossings: per-byte InStream.Read / OutStream.Write, repeated codeunit calls"
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/7160
   features: []
   topics: []
   localizations: []
@@ -114,11 +115,13 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Item – ABC Analysis"
-- page "ABC Analysis Setup"
+- [page 7160 "ABC Analysis Setup"](../../objects/page/7160.md)
 - api "Business Central API page"
+
+Not found in BC28-30: report "Item – ABC Analysis".
 
 ## Context
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 38664c6c5b018e9f12750deee7266f7105195cbc2140862f6c7c992178829146
+  input_hash: aee92380d947c5d5983f7d5bf142b67b9dcce795da6db53f93014f6fc9421358
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al
     title: src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -68,13 +68,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 3
 ---
 
 # Interface "IMDM Data Source"
 
 > Interface "IMDM Data Source" in MasterDataManagement (Microsoft.Integration.MDM). 5 public procedures. Introduced in BC29, still in BC30.
 
-MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al) · facts from BC29
+MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -90,6 +94,12 @@ MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 030de
 - `GetByUidFilter(IntegrationTableMapping: Record "Integration Table Mapping"; UidFilter: Text; var SourceRecordRef: RecordRef): Boolean`: Opens the source integration table and returns the set of records whose integration UID field matches UidFilter (a filter expression, e.g. a list of SystemIds). Returns true if any matched.
 - `GetByFilter(IntegrationTableMapping: Record "Integration Table Mapping"; TableFilter: Text; var SourceRecordRef: RecordRef): Boolean`: Opens SourceRecordRef on the source integration table and returns ALL records matching TableFilter (the whole set, not just those modified since the watermark) - used by coupling and uncoupling. Returns true if at least one record matches.
 
+## Implemented by
+
+- [Codeunit 7240 "MDM Local Data Source"](../codeunit/7240.md)
+- [Codeunit 7249 "MDM Cross-Env Data Source"](../codeunit/7249.md)
+- [Enum 7239 "MDM Data Source Type"](../enum/7239.md)
+
 ## Recent changes
 
 - 2026-09-10 [#10753 Cross-environment Master Data synchronization (same tenant)](../../changes/bcapps/10753.md) (main, BC30, feature, added)
@@ -103,7 +113,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

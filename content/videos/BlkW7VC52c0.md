@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:21:56.071Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,8 @@ evidence:
     quote: when you're using a bigger table like customer table uh you will be prompted here to um let's say if we want to choose
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/7230
   features: []
   topics: []
   localizations: []
@@ -192,12 +193,14 @@ The first is Master Data Management Setup, which pulls data from a source compan
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "test" at [2:11](https://www.youtube.com/watch?v=BlkW7VC52c0&t=131s)
 - table "table 5100" at [2:27](https://www.youtube.com/watch?v=BlkW7VC52c0&t=147s)
-- page "master data management setup" at [1:16](https://www.youtube.com/watch?v=BlkW7VC52c0&t=76s)
+- [page 7230 "Master Data Management Setup"](../objects/page/7230.md) at [1:16](https://www.youtube.com/watch?v=BlkW7VC52c0&t=76s)
 - page "configuration worksheet" at [5:59](https://www.youtube.com/watch?v=BlkW7VC52c0&t=359s)
+
+Not found in BC28-30: table "test", table "table 5100", page "configuration worksheet".
 
 ## Quotes
 

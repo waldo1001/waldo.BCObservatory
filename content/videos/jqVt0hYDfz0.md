@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:09.596Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,7 +101,8 @@ evidence:
     quote: I can always go into personalization mode, like we do with other controls, such as views.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9305
   features: []
   topics: []
   localizations: []
@@ -246,9 +247,9 @@ After the extension is deployed, the view appears for users with a lock icon sho
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "sales order list" at [0:48](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=48s)
+- [page 9305 "Sales Order List"](../objects/page/9305.md) at [0:48](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=48s)
 
 ## Quotes
 

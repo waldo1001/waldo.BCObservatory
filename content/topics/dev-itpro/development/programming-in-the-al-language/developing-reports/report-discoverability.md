@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability
 type: topic
 title: Report discoverability
-summary: Report discoverability in AL covers how users find and open reports in Business Central. It answers questions about making pages and reports searchable in Tell me with UsageCategory, and about role center navigation, the Role/Report explorer, page actions, teaching tips and help links.
+summary: "Report discoverability in AL covers how users find reports in Business Central: Tell me search, role center navigation, Role/Report explorer, page-based report actions, teaching tips and help links. It answers questions about the UsageCategory, AdditionalSearchTerms, AccessByPermission and ApplicationArea properties."
 tier: official
 language: en
 system: reporting
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:23:30.097Z"
+  at: "2026-10-07T21:13:11.968Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 34d211b87f14e12cf1c24e6d858b282ec6efa21b3478a440dd33a21ad4fb73f6
+  input_hash: cd92d30c27ce2c6310407a80cac429a6c49a55b916d6ef4bd827bbe42c7cbfca
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
@@ -66,26 +66,27 @@ narrative: generated
 
 # Report discoverability
 
-> Report discoverability in AL covers how users find and open reports in Business Central. It answers questions about making pages and reports searchable in Tell me with UsageCategory, and about role center navigation, the Role/Report explorer, page actions, teaching tips and help links.
+> Report discoverability in AL covers how users find reports in Business Central: Tell me search, role center navigation, Role/Report explorer, page-based report actions, teaching tips and help links. It answers questions about the UsageCategory, AdditionalSearchTerms, AccessByPermission and ApplicationArea properties.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report discoverability · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
-This section is about making reports easy for users to find. It has two pages. One is a general overview of the ways a report can be discovered. The other is a focused guide on adding pages and reports to Tell me search.
+This section explains how to make reports and pages easy for users to find. The main mechanism is the Tell me search feature, which you configure in AL code by setting the UsageCategory property on a page or report. You can also add extra search terms to help users who search with different words.
 
-The overview lists the discovery paths: Tell me searchability, role center navigation, visibility in the Role/Report explorer, report actions on pages (such as promoted actions), teaching tips, and help links. The Tell me page shows the AL side. You set the UsageCategory property, and optionally AdditionalSearchTerms, so the object appears in search.
+The two pages work together. "Report discoverability" gives the broader picture: Tell me searchability, role center navigation, visibility in the Role/Report explorer, report actions on pages (promoted actions), teaching tips, and help links. "Add pages and reports to Tell me" is the how-to for the Tell me part, including the properties involved.
 
-Start with the overview to pick the discovery paths that fit your report. Then use the Tell me page for the property settings. That page also mentions the AccessByPermission and ApplicationArea properties and the role explorer.
+Start with "Add pages and reports to Tell me" if you need a report to show up in search. Read "Report discoverability" if you are planning how users will reach a report from role centers, pages and explorers.
 
 ## Key points
 
-- Tell me makes pages and reports searchable when the UsageCategory property is set in AL code.
-- UsageCategory categories named include Lists, Tasks, ReportsAndAnalysis and Administration.
-- AdditionalSearchTerms adds extra search terms for finding an object.
-- Reports can also be discovered through role center navigation, the Role/Report explorer, and actions on pages such as promoted actions.
-- Teaching tips and help links are part of report discoverability.
-- The Tell me page also covers the AccessByPermission and ApplicationArea properties.
+- Set the UsageCategory property in AL to make a page or report searchable in Tell me.
+- UsageCategory also affects how the object is categorized in the Role Explorer.
+- The AdditionalSearchTerms property adds extra search terms to improve discoverability.
+- AccessByPermission and ApplicationArea properties are part of the Tell me configuration.
+- Reports can also be reached through role center navigation and the Role/Report explorer.
+- Page-based report actions (promoted actions), teaching tips and help links add further discoverability.
+- The Report discoverability page references 2023 release wave 1.
 
 ## Learn pages
 

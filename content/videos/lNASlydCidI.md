@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:50:57.900Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -237,7 +237,8 @@ evidence:
     quote: new developer tools to build co-pilot capabilities in business Central they're available already right now with Insider bills
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/7773
   features: []
   topics: []
   localizations: []
@@ -658,12 +659,12 @@ It then covers the AI module: registering a copilot capability, setting up Azure
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "prompt dialogue" at [10:28](https://www.youtube.com/watch?v=lNASlydCidI&t=628s)
 - other "jobs" at [6:52](https://www.youtube.com/watch?v=lNASlydCidI&t=412s)
 - other "Azure OpenAI Service" at [4:33](https://www.youtube.com/watch?v=lNASlydCidI&t=273s)
-- codeunit "Copilot Capability" at [23:57](https://www.youtube.com/watch?v=lNASlydCidI&t=1437s)
+- [codeunit 7773 "Copilot Capability"](../objects/codeunit/7773.md) at [23:57](https://www.youtube.com/watch?v=lNASlydCidI&t=1437s)
 - enum "Copilot Capability Availability" at [24:22](https://www.youtube.com/watch?v=lNASlydCidI&t=1462s)
 - enum "Copilot Capability" at [24:34](https://www.youtube.com/watch?v=lNASlydCidI&t=1474s)
 - other "Azure OpenAI" at [25:54](https://www.youtube.com/watch?v=lNASlydCidI&t=1554s)
@@ -679,6 +680,8 @@ As heard in the captions; not yet verified against the code pillar.
 - codeunit "Install Code Unit" at [31:13](https://www.youtube.com/watch?v=lNASlydCidI&t=1873s)
 - other "Azure Open AI Set Authorization" at [33:26](https://www.youtube.com/watch?v=lNASlydCidI&t=2006s)
 - page "Copilot and AI Capabilities Page" at [39:23](https://www.youtube.com/watch?v=lNASlydCidI&t=2363s)
+
+Not found in BC28-30: page "prompt dialogue", enum "Copilot Capability Availability", enum "Copilot Capability", enum "AED Open AI Chat Roles", codeunit "Install Code Unit", page "Copilot and AI Capabilities Page".
 
 ## Quotes
 

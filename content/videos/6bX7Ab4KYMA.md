@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:02:18.516Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,13 +215,15 @@ The second addition is a Business Central version 14 re-implementation tool for 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - interface "customer migration provider" at [2:03](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=123s)
 - page "cloud migration management page" at [3:44](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=224s)
 - page "cloud migration setup" at [6:47](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=407s)
 - table "tenant media table" at [7:55](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=475s)
 - table "tenant media set table" at [8:13](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=493s)
+
+Not found in BC28-30: interface "customer migration provider", page "cloud migration management page", page "cloud migration setup", table "tenant media table", table "tenant media set table".
 
 ## Quotes
 

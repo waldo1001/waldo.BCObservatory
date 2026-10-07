@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:26:32.212Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,9 @@ evidence:
     quote: everything what is posted there in a busy center will be copied as effects in an appropriate place uh based on a standard we
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6216
+    - object/page/6221
   features: []
   topics: []
   localizations: []
@@ -251,14 +253,16 @@ Data posted in Business Central is copied as facts into the matching place in th
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sustainability Ledger Entry" at [10:03](https://www.youtube.com/watch?v=qPInVj03wkY&t=603s)
+- [table 6216 "Sustainability Ledger Entry"](../objects/table/6216.md) at [10:03](https://www.youtube.com/watch?v=qPInVj03wkY&t=603s)
 - table "ESG Reporting Name" at [9:12](https://www.youtube.com/watch?v=qPInVj03wkY&t=552s)
 - page "ESG Aggregation Reporting" at [3:35](https://www.youtube.com/watch?v=qPInVj03wkY&t=215s)
-- page "Sustainability Setup" at [4:32](https://www.youtube.com/watch?v=qPInVj03wkY&t=272s)
+- [page 6221 "Sustainability Setup"](../objects/page/6221.md) at [4:32](https://www.youtube.com/watch?v=qPInVj03wkY&t=272s)
 - table "Sustainability Information" at [1:37](https://www.youtube.com/watch?v=qPInVj03wkY&t=97s)
 - report "CSRD Preparation Reports" at [14:43](https://www.youtube.com/watch?v=qPInVj03wkY&t=883s)
+
+Not found in BC28-30: table "ESG Reporting Name", page "ESG Aggregation Reporting", table "Sustainability Information", report "CSRD Preparation Reports".
 
 ## Quotes
 

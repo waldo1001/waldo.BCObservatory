@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,7 +95,8 @@ evidence:
     quote: But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6227
   features:
     - feature/573379
   topics: []
@@ -266,11 +267,13 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sustainability value entry" at [1:54](https://www.youtube.com/watch?v=lqVWc-Yuots&t=114s)
+- [table 6227 "Sustainability Value Entry"](../objects/table/6227.md) at [1:54](https://www.youtube.com/watch?v=lqVWc-Yuots&t=114s)
 - table "Sustainability purchase line" at [2:32](https://www.youtube.com/watch?v=lqVWc-Yuots&t=152s)
 - table "Product classification" at [4:55](https://www.youtube.com/watch?v=lqVWc-Yuots&t=295s)
+
+Not found in BC28-30: table "Sustainability purchase line", table "Product classification".
 
 ## Quotes
 

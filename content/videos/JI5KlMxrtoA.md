@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:07:57.128Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -428,7 +428,7 @@ He then goes through findings on sample code: CWE 732 permissions, read isolatio
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Review Analyzer" at [10:03](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=603s)
 - codeunit "ISO store manager" at [23:02](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1382s)
@@ -439,6 +439,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "delete all" at [52:21](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3141s)
 - other "lock table" at [54:53](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3293s)
 - other "JSON get" at [56:53](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3413s)
+
+Not found in BC28-30: codeunit "ISO store manager".
 
 ## Quotes
 

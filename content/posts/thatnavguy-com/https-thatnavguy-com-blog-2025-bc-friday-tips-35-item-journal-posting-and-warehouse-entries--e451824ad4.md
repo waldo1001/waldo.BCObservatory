@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -47,7 +47,9 @@ evidence:
     quote: Always use Codeunit 23 "Item Jnl.-Post Batch" when warehouse entries are involved. Even if you're only posting one line.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/22
+    - object/codeunit/23
   features: []
   topics: []
   localizations: []
@@ -106,10 +108,10 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "Item Jnl.-Post Line"
-- codeunit "Item Jnl.-Post Batch"
+- [codeunit 22 "Item Jnl.-Post Line"](../../objects/codeunit/22.md)
+- [codeunit 23 "Item Jnl.-Post Batch"](../../objects/codeunit/23.md)
 
 ## Context
 

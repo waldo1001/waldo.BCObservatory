@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 37b54e4a437136fc0dde3e9af8d45395e1a9165b6d3d2c22bf5e1790d60dea2f
+  input_hash: 59e4e7993c4212aa7e988fd7ee3d01db9c9824858cd4e9a30c5df7952a5fb037
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al
     title: src/System Application/App/SFTP Client/src/ISFTPClient.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -70,13 +70,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 1
 ---
 
 # Interface "ISFTP Client"
 
 > Interface "ISFTP Client" in System Application (System.SFTPClient). 16 public procedures. Introduced in BC28, still in BC30, changed in BC29.
 
-System Application · System.SFTPClient · BC28-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al) · facts from BC29
+System Application · System.SFTPClient · BC28-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -103,6 +107,10 @@ System Application · System.SFTPClient · BC28-30 · [source at 030de383](https
 - `CreateDirectory(Path: Text): Boolean`
 - `SetSHA256Fingerprints(FingerPrints: List of [Text])`
 
+## Implemented by
+
+- [Codeunit 9760 "Dotnet SFTP Client"](../codeunit/9760.md)
+
 ## Recent changes
 
 - 2026-08-12 [#9360 Harden SFTP Client module (security review phase 1)](../../changes/bcapps/9360.md) (main, BC30, fix)
@@ -116,7 +124,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC28-30
 - Changed (declaration) in: BC29
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:43:25.578Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,9 @@ evidence:
     quote: if you do not have amount for posting to uh general ledger entries, you cannot post only emissions. If you have only emissions without
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6216
+    - object/page/39
   features: []
   topics: []
   localizations: []
@@ -206,11 +208,13 @@ The presenter explains the requirements and limits, then demonstrates posting in
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sustainability Ledger Entry" at [5:16](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=316s)
-- page "General Journal" at [4:09](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=249s)
+- [table 6216 "Sustainability Ledger Entry"](../objects/table/6216.md) at [5:16](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=316s)
+- [page 39 "General Journal"](../objects/page/39.md) at [4:09](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=249s)
 - page "Posted General Journals" at [4:52](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=292s)
+
+Not found in BC28-30: page "Posted General Journals".
 
 ## Quotes
 

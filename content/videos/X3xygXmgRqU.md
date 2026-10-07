@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:34:16.870Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,11 @@ evidence:
     quote: To avoid selecting the intransit code every time, we can set up transfer routes where the location is already chosen.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5703
+    - object/page/30
+    - object/page/21
+    - object/page/5740
   features: []
   topics: []
   localizations: []
@@ -254,12 +258,12 @@ It then covers buying and selling from specific locations by entering a location
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "location card" at [0:13](https://www.youtube.com/watch?v=X3xygXmgRqU&t=13s)
-- page "item card" at [0:37](https://www.youtube.com/watch?v=X3xygXmgRqU&t=37s)
-- page "customer card" at [1:03](https://www.youtube.com/watch?v=X3xygXmgRqU&t=63s)
-- page "transfer order" at [1:24](https://www.youtube.com/watch?v=X3xygXmgRqU&t=84s)
+- [page 5703 "Location Card"](../objects/page/5703.md) at [0:13](https://www.youtube.com/watch?v=X3xygXmgRqU&t=13s)
+- [page 30 "Item Card"](../objects/page/30.md) at [0:37](https://www.youtube.com/watch?v=X3xygXmgRqU&t=37s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [1:03](https://www.youtube.com/watch?v=X3xygXmgRqU&t=63s)
+- [page 5740 "Transfer Order"](../objects/page/5740.md) at [1:24](https://www.youtube.com/watch?v=X3xygXmgRqU&t=84s)
 
 ## Quotes
 

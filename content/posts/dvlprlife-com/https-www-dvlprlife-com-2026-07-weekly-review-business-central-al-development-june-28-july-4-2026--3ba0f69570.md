@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -42,7 +42,8 @@ evidence:
     quote: The shift from code as the only complete specification to code as one artifact produced from prompts, specs, tests, and feedback loops.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/38
   features: []
   topics: []
   localizations: []
@@ -101,11 +102,13 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "9110"
-- page "Item Ledger Entries"
+- [page 38 "Item Ledger Entries"](../../objects/page/38.md)
 - other "PageBackgroundTask"
+
+Not found in BC28-30: page "9110".
 
 ## Context
 

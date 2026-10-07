@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:54:09.838Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -144,7 +144,10 @@ evidence:
     quote: all documents are related only to sustainability value entry except one first document related with purchase uh docu purchase invoice is related to both
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6227
+    - object/table/6216
+    - object/table/5832
   features: []
   topics: []
   localizations: []
@@ -307,13 +310,15 @@ It demos setup (enabling value chain tracking, running Calculate CO2E on first s
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sustainability Value Entry" at [0:46](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=46s)
+- [table 6227 "Sustainability Value Entry"](../objects/table/6227.md) at [0:46](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=46s)
 - table "Sustainability Journal" at [0:26](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=26s)
 - table "General Journal" at [0:26](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=26s)
-- table "Sustainability Ledger Entry" at [0:26](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=26s)
-- table "Capacity Ledger Entry" at [10:42](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=642s)
+- [table 6216 "Sustainability Ledger Entry"](../objects/table/6216.md) at [0:26](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=26s)
+- [table 5832 "Capacity Ledger Entry"](../objects/table/5832.md) at [10:42](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=642s)
+
+Not found in BC28-30: table "Sustainability Journal", table "General Journal".
 
 ## Quotes
 

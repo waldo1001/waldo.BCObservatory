@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -48,7 +48,9 @@ evidence:
     quote: It intercepts the journal lines, rewrites them, and then posts the updated lines.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/2677
+    - object/codeunit/13
   features: []
   topics: []
   localizations: []
@@ -108,10 +110,10 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "Gen. Journal Alloc. Acc. Mgt."
-- codeunit "Gen. Jnl.-Post Batch"
+- [codeunit 2677 "Gen. Journal Alloc. Acc. Mgt."](../../objects/codeunit/2677.md)
+- [codeunit 13 "Gen. Jnl.-Post Batch"](../../objects/codeunit/13.md)
 
 ## Context
 

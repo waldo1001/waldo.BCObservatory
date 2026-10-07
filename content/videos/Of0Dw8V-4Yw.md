@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:26:30.588Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,12 +185,16 @@ In Business Central it covers the detailed trial balance, the summary trial bala
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Trial Balance" at [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s)
 - report "Detailed Trial Balance" at [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s)
 - report "Summary Trial Balance" at [1:43](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=103s)
 - report "Aging Report" at [3:07](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=187s)
+
+Not found in BC28-30: report "Detailed Trial Balance", report "Summary Trial Balance", report "Aging Report".
+
+More than one object has this name, so none is linked: report "Trial Balance".
 
 ## Quotes
 

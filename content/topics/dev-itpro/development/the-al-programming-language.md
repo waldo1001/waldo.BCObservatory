@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/the-al-programming-language
 type: topic
 title: The AL programming language
-summary: "The AL programming language section covers AL language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, structure, and how-to-write-AL questions."
+summary: "The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, error handling, labels, access modifiers, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, behavior, and how-to-write-AL questions."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:17.575Z"
+  at: "2026-10-07T21:13:11.946Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 34da21cc12496a3eeefcd5fcc3a4bfd90fcd46b15b0264343731e7875bba853e
+  input_hash: 223d3dae95a4fa05c8d3999a6c097f143985bb62c51a8c110a47d899de22d539
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-complextypes
@@ -54,6 +54,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al
+    title: AL Preprocessor Directives Overview
+    date: "2026-10-05"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements
     title: AL simple statements
     date: "2025-01-24"
@@ -77,7 +84,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop
     title: AppSourceCop analyzer
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -98,7 +105,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop
     title: CodeCop analyzer
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -175,21 +182,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop
     title: PerTenantExtensionCop analyzer
-    date: "2025-09-02"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma
-    title: Pragma directive in AL
-    date: "2025-06-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al
-    title: Preprocessor directives in AL
-    date: "2025-11-17"
+    title: Pragma Directives in AL Overview
+    date: "2026-10-05"
     commit: null
     t: null
     quote: null
@@ -223,8 +223,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-region
-    title: Region directive in AL
-    date: "2025-06-02"
+    title: Region Directives for Organizing AL Code
+    date: "2026-10-05"
     commit: null
     t: null
     quote: null
@@ -280,7 +280,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop
     title: UICop analyzer
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -348,26 +348,26 @@ narrative: generated
 
 # The AL programming language
 
-> The AL programming language section covers AL language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, structure, and how-to-write-AL questions.
+> The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, error handling, labels, access modifiers, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, behavior, and how-to-write-AL questions.
 
 Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section is the language reference for AL, the language used to build Business Central extensions. The own pages cover the core building blocks: programming fundamentals, simple and control statements, methods, complex return types, labels, access modifiers, error handling, and XML comments for documentation.
-The subtopics go deeper. Variables, types, and operators covers declarations, type conversion, and operator families. Objects describes each object type, such as tables, pages, codeunits, reports, queries, enums, and permission sets. Preprocessor directives covers conditional compilation, regions, and pragmas. Code analysis has its own set of pages.
-Start with "Programming in AL" for the fundamentals, then move to statements and methods. Use the development environment reference overview to find objects, properties, triggers, and methods. The FAQ for Developing in AL answers general setup, debugger, and Marketplace validation questions.
+This section documents the AL language used to build Business Central extensions. The core pages explain programming basics (variable declarations, triggers, code reuse), the statement types (simple statements and control statements), and how to declare and call methods, including return values and complex return types.
+Further pages cover cross-cutting topics: error handling with error dialogs, try methods, error collection and telemetry; labels for translatable text; access modifiers for controlling visibility; and XML comments for IntelliSense and generated documentation. A reference overview page lists the objects, properties, triggers, attributes, and methods available, and an FAQ covers setup, debugging, and Marketplace validation.
+Start with "Programming in AL" for the fundamentals, then move to the subtopics: variables, types and operators; objects; preprocessor directives; and code analysis.
 
 ## Key points
 
 - Programming in AL covers variable declarations, protected variables, trigger types, code reuse, and security patterns.
 - Control statements include if-then-else, case, for, foreach, while, repeat-until, plus break and continue.
 - Simple statements are assignment, method, and AssertError statements, including compound assignment operators.
-- Access modifiers (internal, local, protected, public) control visibility at compile time, and internalsVisibleTo is available for internal access.
-- Error handling covers error dialogs, try methods, error collection, error telemetry, the ErrorInfo data type, and error message quality.
-- Labels are translatable string constants with Comment, Locked, and MaxLength parameters, used for captions, tooltips, and messages.
-- Procedures can return record types, user-defined types, and built-in types like HttpClient and HttpResponseMessage, with anonymous or named return values.
-- XML comments use triple slashes to give IntelliSense support and autogenerated help through ALDoc.
+- Methods can have local or global scope, parameters, return values, and attributes; complex types let procedures return records or built-ins like HttpClient and HttpResponseMessage.
+- Error handling covers error dialogs, try methods, error collection, telemetry, the ErrorInfo data type, and error message quality.
+- Access modifiers are internal, local, protected, and public, with an internalsVisibleTo setting, applied at compile time.
+- Labels provide translatable string constants with Comment, Locked, and MaxLength parameters for captions, tooltips, and messages.
+- Subtopics cover variables and operators (8 pages), object types (16 pages), preprocessor directives (3 pages), and code analysis (7 pages).
 
 ## Subtopics
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:22:34.885Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -247,7 +247,7 @@ For CBAM, the demo sets up a carbon pricing table, configures an item with carbo
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Carbon pricing table" at [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s)
 - page "Carbon pricing page" at [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s)
@@ -256,6 +256,8 @@ As heard in the captions; not yet verified against the code pillar.
 - page "Excise journal" at [7:30](https://www.youtube.com/watch?v=kD8kX14VVZE&t=450s)
 - page "Excise transaction logs" at [8:51](https://www.youtube.com/watch?v=kD8kX14VVZE&t=531s)
 - page "Sustainability fast tab" at [5:35](https://www.youtube.com/watch?v=kD8kX14VVZE&t=335s)
+
+Not found in BC28-30: table "Carbon pricing table", page "Carbon pricing page", table "EPR materials", page "Item material composition", page "Excise journal", page "Excise transaction logs", page "Sustainability fast tab".
 
 ## Quotes
 

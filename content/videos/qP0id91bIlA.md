@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:42:57.461Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,7 +174,9 @@ evidence:
     quote: right now we only support English language so make sure that English is selected as your language and also this is from what we
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/42
+    - object/page/50
   features: []
   topics: []
   localizations: []
@@ -480,11 +482,13 @@ On the technical side, it introduces the prompt dialogue page type with input, g
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sales Order" at [4:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=283s)
-- page "Purchase Order" at [10:41](https://www.youtube.com/watch?v=qP0id91bIlA&t=641s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [4:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=283s)
+- [page 50 "Purchase Order"](../objects/page/50.md) at [10:41](https://www.youtube.com/watch?v=qP0id91bIlA&t=641s)
 - page "prompt dialog" at [23:55](https://www.youtube.com/watch?v=qP0id91bIlA&t=1435s)
+
+Not found in BC28-30: page "prompt dialog".
 
 ## Quotes
 

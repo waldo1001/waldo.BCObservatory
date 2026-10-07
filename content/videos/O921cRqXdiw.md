@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:52:21.064Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -244,7 +244,11 @@ evidence:
     quote: if you would like to override this decision you need to do workarounds either to delete the content from the table or to use
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/table/405
+    - object/table/9650
+    - object/table/77
   features: []
   topics: []
   localizations: []
@@ -673,17 +677,19 @@ It then demos a new migration UI with failed-table drill-down, an unblock table 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "SQL change tracking" at [4:58](https://www.youtube.com/watch?v=O921cRqXdiw&t=298s)
 - other "AL number sequences" at [7:24](https://www.youtube.com/watch?v=O921cRqXdiw&t=444s)
-- table "customer" at [25:29](https://www.youtube.com/watch?v=O921cRqXdiw&t=1529s)
+- [table 18 "Customer"](../objects/table/18.md) at [25:29](https://www.youtube.com/watch?v=O921cRqXdiw&t=1529s)
 - table "G entry" at [27:46](https://www.youtube.com/watch?v=O921cRqXdiw&t=1666s)
-- table "change log entry" at [21:46](https://www.youtube.com/watch?v=O921cRqXdiw&t=1306s)
-- table "custom report layout" at [20:16](https://www.youtube.com/watch?v=O921cRqXdiw&t=1216s)
-- table "report selections" at [20:16](https://www.youtube.com/watch?v=O921cRqXdiw&t=1216s)
+- [table 405 "Change Log Entry"](../objects/table/405.md) at [21:46](https://www.youtube.com/watch?v=O921cRqXdiw&t=1306s)
+- [table 9650 "Custom Report Layout"](../objects/table/9650.md) at [20:16](https://www.youtube.com/watch?v=O921cRqXdiw&t=1216s)
+- [table 77 "Report Selections"](../objects/table/77.md) at [20:16](https://www.youtube.com/watch?v=O921cRqXdiw&t=1216s)
 - table "upgrade TXS" at [20:57](https://www.youtube.com/watch?v=O921cRqXdiw&t=1257s)
 - codeunit "4001" at [32:36](https://www.youtube.com/watch?v=O921cRqXdiw&t=1956s)
+
+Not found in BC28-30: table "G entry", table "upgrade TXS", codeunit "4001".
 
 ## Quotes
 

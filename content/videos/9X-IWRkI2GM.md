@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:51:47.696Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,7 +88,10 @@ evidence:
     quote: We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI
 links:
   learn: []
-  objects: []
+  objects:
+    - object/report/99000791
+    - object/report/99000780
+    - object/report/99000792
   features: []
   topics: []
   localizations: []
@@ -244,15 +247,17 @@ It demonstrates the updated Production Order VIP report and two new Excel report
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- report "Production Order Statistics" at [4:02](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=242s)
-- report "Capacity Task List" at [4:53](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=293s)
+- [report 99000791 "Production Order Statistics"](../objects/report/99000791.md) at [4:02](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=242s)
+- [report 99000780 "Capacity Task List"](../objects/report/99000780.md) at [4:53](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=293s)
 - report "Subcontractor Dispatch Lists" at [5:10](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=310s)
 - report "Bill of Material Make" at [6:13](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=373s)
 - report "Production Order VIP" at [6:24](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=384s)
 - report "Production Cost Shares" at [9:01](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=541s)
-- report "Work/Machine Center Load" at [10:08](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=608s)
+- [report 99000792 "Work/Machine Center Load"](../objects/report/99000792.md) at [10:08](https://www.youtube.com/watch?v=9X-IWRkI2GM&t=608s)
+
+Not found in BC28-30: report "Subcontractor Dispatch Lists", report "Bill of Material Make", report "Production Order VIP", report "Production Cost Shares".
 
 ## Quotes
 

@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:28:02.126Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,7 +77,11 @@ evidence:
     quote: all of them will be set up as a one because this is default value
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6221
+    - object/page/30
+    - object/page/6219
+    - object/page/6220
   features: []
   topics: []
   localizations: []
@@ -207,13 +211,15 @@ The presenter describes the two models an organization can choose between, enabl
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sustainability Setup" at [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s)
-- page "Item Card" at [2:49](https://www.youtube.com/watch?v=UKVp28M5TtU&t=169s)
-- page "Sustainability Journal" at [1:37](https://www.youtube.com/watch?v=UKVp28M5TtU&t=97s)
+- [page 6221 "Sustainability Setup"](../objects/page/6221.md) at [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s)
+- [page 30 "Item Card"](../objects/page/30.md) at [2:49](https://www.youtube.com/watch?v=UKVp28M5TtU&t=169s)
+- [page 6219 "Sustainability Journal"](../objects/page/6219.md) at [1:37](https://www.youtube.com/watch?v=UKVp28M5TtU&t=97s)
 - page "Purchase Document" at [1:37](https://www.youtube.com/watch?v=UKVp28M5TtU&t=97s)
-- page "Sustainability Ledger Entries" at [2:36](https://www.youtube.com/watch?v=UKVp28M5TtU&t=156s)
+- [page 6220 "Sustainability Ledger Entries"](../objects/page/6220.md) at [2:36](https://www.youtube.com/watch?v=UKVp28M5TtU&t=156s)
+
+Not found in BC28-30: page "Purchase Document".
 
 ## Quotes
 

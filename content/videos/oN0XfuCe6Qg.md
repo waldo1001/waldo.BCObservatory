@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:58:18.397Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,8 @@ evidence:
     quote: we will be looking into uptaking some of these capabilities in business Central in the upcoming waves
 links:
   learn: []
-  objects: []
+  objects:
+    - object/enum/9451
   features: []
   topics: []
   localizations: []
@@ -187,9 +188,9 @@ It walks through setting up a storage account on the File Accounts page, definin
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- enum "file scenario" at [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s)
+- [enum 9451 "File Scenario"](../objects/enum/9451.md) at [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s)
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:00:36.337Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,10 +189,12 @@ It lists the supported formats, shows document attachments using a view action, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Document Attachment Detail Fact" at [6:51](https://www.youtube.com/watch?v=dUpixjiNaGY&t=411s)
 - page "1173" at [7:04](https://www.youtube.com/watch?v=dUpixjiNaGY&t=424s)
+
+Not found in BC28-30: page "Document Attachment Detail Fact", page "1173".
 
 ## Quotes
 

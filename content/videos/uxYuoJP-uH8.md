@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:18:59.738Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,9 @@ evidence:
     quote: I want it uh for those that uh just like me I I used to use application equal wall almost everywhere
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/9178
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -182,11 +184,13 @@ The demo then applies the custom area to fields and groups in a page extension a
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "application area setup" at [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s)
-- table "customer" at [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s)
+- [table 9178 "Application Area Setup"](../objects/table/9178.md) at [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s)
+- [table 18 "Customer"](../objects/table/18.md) at [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s)
 - codeunit "installed" at [2:34](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=154s)
+
+Not found in BC28-30: codeunit "installed".
 
 ## Quotes
 

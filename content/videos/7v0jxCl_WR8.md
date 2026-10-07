@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:33:45.978Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6000
   features: []
   topics: []
   localizations: []
@@ -284,13 +285,15 @@ Two scenarios are demonstrated. The first is an ad hoc repair: a service order f
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Contoso" at [1:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=63s)
-- page "dispatch board" at [8:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=509s)
+- [page 6000 "Dispatch Board"](../objects/page/6000.md) at [8:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=509s)
 - page "service task" at [4:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=243s)
 - page "item worksheet" at [4:16](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=256s)
 - page "order service lines" at [9:50](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=590s)
+
+Not found in BC28-30: page "Contoso", page "service task", page "item worksheet", page "order service lines".
 
 ## Quotes
 

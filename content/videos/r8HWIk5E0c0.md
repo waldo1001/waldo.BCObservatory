@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:29:44.476Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,10 +199,12 @@ In Business Central, the reversal is started from the General ledger entry page.
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Journal transactions" at [0:00](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=0s)
 - page "General ledger entry" at [1:14](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=74s)
+
+Not found in BC28-30: page "Journal transactions", page "General ledger entry".
 
 ## Quotes
 

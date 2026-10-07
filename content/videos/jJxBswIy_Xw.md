@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:12:49.793Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -370,10 +370,12 @@ The second half covers extending a contract with service commitments, reporting,
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Customer Contract Deferrals" at [10:43](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=643s)
 - page "Contract Deferral Release" at [12:37](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=757s)
+
+Not found in BC28-30: table "Customer Contract Deferrals", page "Contract Deferral Release".
 
 ## Quotes
 

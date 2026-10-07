@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -49,7 +49,8 @@ evidence:
     quote: full pipeline runs dropped from 8 - 12 minutes to under 2, and BC reaches healthy in 26 seconds instead of 4:19.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9660
   features: []
   topics: []
   localizations: []
@@ -114,10 +115,12 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Index Management"
-- page "Report Layouts"
+- [page 9660 "Report Layouts"](../../objects/page/9660.md)
+
+Not found in BC28-30: page "Index Management".
 
 ## Context
 

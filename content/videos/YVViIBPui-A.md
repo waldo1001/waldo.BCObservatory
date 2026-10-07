@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:16:40.415Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -214,9 +214,11 @@ It then covers a small default quantity toggle for G/L lines, Power BI apps for 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - query "Fixed Assets Query" at [2:52](https://www.youtube.com/watch?v=YVViIBPui-A&t=172s)
+
+Not found in BC28-30: query "Fixed Assets Query".
 
 ## Quotes
 

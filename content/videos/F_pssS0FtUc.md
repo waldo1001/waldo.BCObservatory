@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:24.994Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -514,13 +514,15 @@ The rest shows how to use the data around go-live: checking which pages, reports
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "job queue errors" at [23:33](https://www.youtube.com/watch?v=F_pssS0FtUc&t=1413s)
 - report "usage report" at [27:49](https://www.youtube.com/watch?v=F_pssS0FtUc&t=1669s)
 - report "connectors report" at [30:58](https://www.youtube.com/watch?v=F_pssS0FtUc&t=1858s)
 - report "fixed assets report" at [32:12](https://www.youtube.com/watch?v=F_pssS0FtUc&t=1932s)
 - other "business Central usage analytics" at [37:03](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2223s)
+
+Not found in BC28-30: codeunit "job queue errors", report "usage report", report "connectors report", report "fixed assets report".
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:24:01.496Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: This functionality will be in a public preview. This is important and it will come in one of next minor. So it will not
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/138
   features: []
   topics: []
   localizations: []
@@ -229,12 +230,14 @@ The demo shows how lines are matched in order: item references, text-to-account 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "draft document" at [4:49](https://www.youtube.com/watch?v=axQegcPweNY&t=289s)
 - page "e documents" at [3:15](https://www.youtube.com/watch?v=axQegcPweNY&t=195s)
 - page "item reference" at [6:13](https://www.youtube.com/watch?v=axQegcPweNY&t=373s)
-- page "posted purchase invoice" at [7:23](https://www.youtube.com/watch?v=axQegcPweNY&t=443s)
+- [page 138 "Posted Purchase Invoice"](../objects/page/138.md) at [7:23](https://www.youtube.com/watch?v=axQegcPweNY&t=443s)
+
+Not found in BC28-30: page "draft document", page "e documents", page "item reference".
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:48:37.612Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,7 +121,10 @@ evidence:
     quote: So currently this is still a public preview because we want to improve in a few more places and please if you know any
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6122
+    - object/page/5736
+    - object/page/50
   features: []
   topics: []
   localizations: []
@@ -268,12 +271,14 @@ Demos cover learning matching rules through item references, auto-matching on la
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "e-documents" at [4:19](https://www.youtube.com/watch?v=D56EVy3JgHA&t=259s)
+- [page 6122 "E-Documents"](../objects/page/6122.md) at [4:19](https://www.youtube.com/watch?v=D56EVy3JgHA&t=259s)
 - page "matching page" at [4:30](https://www.youtube.com/watch?v=D56EVy3JgHA&t=270s)
-- page "item references" at [7:05](https://www.youtube.com/watch?v=D56EVy3JgHA&t=425s)
-- page "purchase order" at [8:56](https://www.youtube.com/watch?v=D56EVy3JgHA&t=536s)
+- [page 5736 "Item References"](../objects/page/5736.md) at [7:05](https://www.youtube.com/watch?v=D56EVy3JgHA&t=425s)
+- [page 50 "Purchase Order"](../objects/page/50.md) at [8:56](https://www.youtube.com/watch?v=D56EVy3JgHA&t=536s)
+
+Not found in BC28-30: page "matching page".
 
 ## Quotes
 

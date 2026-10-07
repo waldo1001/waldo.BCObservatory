@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:45:50.671Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,8 @@ evidence:
     quote: You can find links below on how to uh install this app in the in the cloud sandbox, free to try.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/42
   features: []
   topics: []
   localizations: []
@@ -179,10 +180,12 @@ He shows that calculations and totals update as line items are edited. He sugges
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sales order" at [0:23](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=23s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [0:23](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=23s)
 - page "Sales line" at [1:13](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=73s)
+
+Not found in BC28-30: page "Sales line".
 
 ## Quotes
 

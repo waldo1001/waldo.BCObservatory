@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:43:36.276Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -207,13 +207,15 @@ It then covers a recovery scenario. Balance sheet items need the previous period
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "consolidation company" at [1:33](https://www.youtube.com/watch?v=gHcgL469x_E&t=93s)
 - page "consolidation status" at [2:01](https://www.youtube.com/watch?v=gHcgL469x_E&t=121s)
 - table "business unit card" at [3:03](https://www.youtube.com/watch?v=gHcgL469x_E&t=183s)
 - page "financial report" at [3:58](https://www.youtube.com/watch?v=gHcgL469x_E&t=238s)
 - page "exchange rates" at [3:35](https://www.youtube.com/watch?v=gHcgL469x_E&t=215s)
+
+Not found in BC28-30: table "consolidation company", page "consolidation status", table "business unit card", page "financial report", page "exchange rates".
 
 ## Quotes
 

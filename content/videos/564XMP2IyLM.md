@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:21.330Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,7 +71,8 @@ evidence:
     quote: save your database cost and do a good thing for performance use for policies
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/474
   features: []
   topics: []
   localizations: []
@@ -182,10 +183,12 @@ Using the job queue log entry table as an example, it sets a retention period an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "job CU log entry" at [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s)
-- table "job queue log entry" at [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s)
+- [table 474 "Job Queue Log Entry"](../objects/table/474.md) at [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s)
+
+Not found in BC28-30: table "job CU log entry".
 
 ## Quotes
 

@@ -2,7 +2,7 @@
 id: source/mohana-blog
 type: source
 title: Mohana's Dynamics NAV & BC blog
-summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 25 posts in the knowledge base, 2026-02-11 to 2026-10-05, mostly about administration, development, integration."
+summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 26 posts in the knowledge base, 2026-02-11 to 2026-10-07, mostly about administration, development, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 832a1b80f3eae32ee7febb701cf00e05630cea76cf6e0646fc6c624665296c3b
+  input_hash: 592e8deff00f7ad60e04b7d9fd576a7752f3af4a114d3853ce428a91e15d8f34
 evidence:
   - kind: blog
     url: https://mohana-dynamicsnav.blogspot.com
@@ -58,6 +58,7 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3088305037286723104--7a3af8e6a8
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6
   guidelines: []
 source_id: mohana-blog
 kind: blog
@@ -65,22 +66,24 @@ url: https://mohana-dynamicsnav.blogspot.com
 author: Mohana Yadav
 mvp: false
 full_text: false
-item_count: 25
+item_count: 26
 footprint:
   systems:
     - id: administration
       weight: 19
     - id: development
-      weight: 13
+      weight: 14
     - id: integration
-      weight: 11
+      weight: 13
     - id: inventory
       weight: 9
     - id: platform
-      weight: 8
+      weight: 9
     - id: purchasing
       weight: 7
   topics:
+    - id: mcp server
+      weight: 3
     - id: migration
       weight: 3
     - id: vendor management
@@ -96,8 +99,6 @@ footprint:
     - id: deployment
       weight: 2
     - id: extensions
-      weight: 2
-    - id: mcp server
       weight: 2
     - id: performance
       weight: 2
@@ -128,12 +129,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-02-11"
-last_item: "2026-10-05"
+last_item: "2026-10-07"
 ---
 
 # Mohana's Dynamics NAV & BC blog
 
-> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 25 posts in the knowledge base, 2026-02-11 to 2026-10-05, mostly about administration, development, integration.
+> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 26 posts in the knowledge base, 2026-02-11 to 2026-10-07, mostly about administration, development, integration.
 
 [https://mohana-dynamicsnav.blogspot.com](https://mohana-dynamicsnav.blogspot.com) · blog · tier community
 
@@ -141,15 +142,15 @@ last_item: "2026-10-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| administration (19) | migration (3) | table Customer (2) |
-| development (13) | vendor management (3) | api contacts (1) |
-| integration (11) | al development (2) | api countriesRegions (1) |
-| inventory (9) | automation (2) | api currencies (1) |
-| platform (8) | claude desktop (2) | api customers (1) |
-| purchasing (7) | custom api pages (2) | api employees (1) |
-|  | deployment (2) | api Item API page (1) |
-|  | extensions (2) | api itemCategories (1) |
-|  | mcp server (2) | api paymentMethods (1) |
+| administration (19) | mcp server (3) | table Customer (2) |
+| development (14) | migration (3) | api contacts (1) |
+| integration (13) | vendor management (3) | api countriesRegions (1) |
+| inventory (9) | al development (2) | api currencies (1) |
+| platform (9) | automation (2) | api customers (1) |
+| purchasing (7) | claude desktop (2) | api employees (1) |
+|  | custom api pages (2) | api Item API page (1) |
+|  | deployment (2) | api itemCategories (1) |
+|  | extensions (2) | api paymentMethods (1) |
 |  | performance (2) | api paymentTerms (1) |
 |  |  | api Project API page (1) |
 |  |  | api shipmentMethods (1) |
@@ -160,10 +161,11 @@ Items per quarter, oldest first:
 
 - 2026-Q1: ********* 9
 - 2026-Q3: ************* 13
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
+- [Data query tools in the Business Central MCP server: a hands-on test guide](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6.md) (2026-10-07)
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (2026-10-05)
 - [Record.IsDirty in Business Central 29: a worked example](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (2026-10-02)
 - [Business Central 2026 Release Wave 2 (v29.0) Is Generally Available](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3088305037286723104--7a3af8e6a8.md) (2026-10-01)
@@ -183,6 +185,5 @@ Items per quarter, oldest first:
 - [Approval Workflows for Item Journals and Requisition Worksheets](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (2026-03-18)
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) (2026-03-13)
 - [Who Keeps Moving My Business Central Work Date?](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4842738910605275102--13a8589b03.md) (2026-03-10)
-- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (2026-03-09)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

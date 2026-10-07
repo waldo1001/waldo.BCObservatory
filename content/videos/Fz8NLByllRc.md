@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,7 +56,8 @@ evidence:
     quote: if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6996
   features: []
   topics: []
   localizations: []
@@ -194,9 +195,9 @@ The second half covers the admin side. Administrators set the mileage rate per u
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Expense Agent Setup" at [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s)
+- [page 6996 "Expense Agent Setup"](../objects/page/6996.md) at [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s)
 
 ## Quotes
 

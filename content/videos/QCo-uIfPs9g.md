@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:17:26.547Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,7 +118,8 @@ evidence:
     quote: make sure as we mentioned before multiple times to keep an eye on the public preview for manage resources that's coming later this year
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/89
   features: []
   topics: []
   localizations: []
@@ -352,16 +353,18 @@ The second part builds a "Suggest Project with Copilot" extension on the Project
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - enum "Copilot Capability" at [12:27](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=747s)
 - codeunit "Copilot Capability Code Unit" at [12:47](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=767s)
-- page "Job List" at [13:07](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=787s)
+- [page 89 "Job List"](../objects/page/89.md) at [13:07](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=787s)
 - page "Project List" at [13:07](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=787s)
 - page "Prompt Dialog Page" at [13:40](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=820s)
 - codeunit "Suggested Job Generate Proposal Code Unit" at [14:57](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=897s)
 - codeunit "suggest job generate proposal code unit" at [14:57](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=897s)
 - interface "aoi function interface" at [20:13](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=1213s)
+
+Not found in BC28-30: enum "Copilot Capability", codeunit "Copilot Capability Code Unit", page "Project List", page "Prompt Dialog Page", codeunit "Suggested Job Generate Proposal Code Unit", codeunit "suggest job generate proposal code unit", interface "aoi function interface".
 
 ## Quotes
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T15:41:44.868Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cabc1ebdad2c28f7b5ef90efdc3c8a47b37b5a1a25e07cc25351374635a73e45
@@ -20,21 +20,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-data-type
     title: Report data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-report-properties
     title: Report Property Reference in AL
-    date: "2026-08-21"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-report-property-overview
     title: Report, Report fields, and Report extension properties
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

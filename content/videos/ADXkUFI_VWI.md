@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:17:58.329Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -379,12 +379,14 @@ It then covers the design: Roslyn concepts, a compiler-as-a-service that also dr
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "safe post code unit" at [4:18](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=258s)
 - other "AL Explorer" at [24:12](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1452s)
 - other "AL Home" at [24:48](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1488s)
 - other "Visual Studio Code Marketplace" at [27:15](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1635s)
+
+Not found in BC28-30: codeunit "safe post code unit".
 
 ## Quotes
 

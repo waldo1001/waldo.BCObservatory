@@ -2,7 +2,7 @@
 id: source/duiliotacconi-com
 type: source
 title: Duilio Tacconi
-summary: "Duilio Tacconi (MVP): 20 posts in the knowledge base, 2025-05-30 to 2026-09-07, mostly about platform, development, administration."
+summary: "Duilio Tacconi (MVP): 21 posts in the knowledge base, 2025-05-30 to 2026-10-07, mostly about platform, development, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a8595a2d484d2b288cf54f7ad80fe34dbaa6f682440192d3d1cd10c46adc957d
+  input_hash: 7e01570e44fd892e45360d527a8e097ef16cabdbf58b572683b8f9dfaca19ae6
 evidence:
   - kind: blog
     url: https://duiliotacconi.com
@@ -53,6 +53,7 @@ links:
     - post/duiliotacconi-com/2074
     - post/duiliotacconi-com/2117
     - post/duiliotacconi-com/2149
+    - post/duiliotacconi-com/2201
   guidelines: []
 source_id: duiliotacconi-com
 kind: blog
@@ -60,15 +61,15 @@ url: https://duiliotacconi.com
 author: Duilio Tacconi
 mvp: true
 full_text: false
-item_count: 20
+item_count: 21
 footprint:
   systems:
     - id: platform
-      weight: 27
+      weight: 28
     - id: development
-      weight: 17
+      weight: 19
     - id: administration
-      weight: 11
+      weight: 12
     - id: reporting
       weight: 6
     - id: manufacturing
@@ -84,17 +85,17 @@ footprint:
       weight: 4
     - id: performance optimization
       weight: 4
+    - id: sql server
+      weight: 4
     - id: concurrency
       weight: 3
     - id: database optimization
       weight: 3
-    - id: sql server
-      weight: 3
     - id: debugging
       weight: 2
-    - id: query optimization
+    - id: indexes
       weight: 2
-    - id: tenant administration
+    - id: query optimization
       weight: 2
   objects:
     - id: table Sales Line
@@ -123,12 +124,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-05-30"
-last_item: "2026-09-07"
+last_item: "2026-10-07"
 ---
 
 # Duilio Tacconi
 
-> Duilio Tacconi (MVP): 20 posts in the knowledge base, 2025-05-30 to 2026-09-07, mostly about platform, development, administration.
+> Duilio Tacconi (MVP): 21 posts in the knowledge base, 2025-05-30 to 2026-10-07, mostly about platform, development, administration.
 
 [https://duiliotacconi.com](https://duiliotacconi.com) · blog · tier community
 
@@ -136,16 +137,16 @@ last_item: "2026-09-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (27) | telemetry (6) | table Sales Line (2) |
-| development (17) | al development (4) | codeunit 54001 (1) |
-| administration (11) | performance (4) | codeunit Base64 Convert (1) |
+| platform (28) | telemetry (6) | table Sales Line (2) |
+| development (19) | al development (4) | codeunit 54001 (1) |
+| administration (12) | performance (4) | codeunit Base64 Convert (1) |
 | reporting (6) | performance optimization (4) | codeunit Base64 Convert Impl. (1) |
-| manufacturing (4) | concurrency (3) | codeunit Low-Level Code Calculator (1) |
-| crm (2) | database optimization (3) | codeunit Purchase-Post (1) |
-|  | sql server (3) | codeunit Sales-Post (1) |
+| manufacturing (4) | sql server (4) | codeunit Low-Level Code Calculator (1) |
+| crm (2) | concurrency (3) | codeunit Purchase-Post (1) |
+|  | database optimization (3) | codeunit Sales-Post (1) |
 |  | debugging (2) | codeunit System.Runtime.Base64Convert (1) |
-|  | query optimization (2) | codeunit Version Management (1) |
-|  | tenant administration (2) | enum DT Document Type (1) |
+|  | indexes (2) | codeunit Version Management (1) |
+|  | query optimization (2) | enum DT Document Type (1) |
 |  |  | other Cloud Customer Management System (CCMS) (1) |
 |  |  | other CreateSequentialGuid in AL (1) |
 
@@ -159,9 +160,11 @@ Items per quarter, oldest first:
 - 2026-Q1: *** 3
 - 2026-Q2: ** 2
 - 2026-Q3: *** 3
+- 2026-Q4: * 1
 
 ## Most recent
 
+- [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../posts/duiliotacconi-com/2201.md) (2026-10-07)
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) (2026-09-07)
 - [Optimized Base64 file handling in Dynamics 365 Business Central 2026 Wave 1](../posts/duiliotacconi-com/2117.md) (2026-07-29)
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../posts/duiliotacconi-com/2074.md) (2026-07-22)
@@ -181,6 +184,5 @@ Items per quarter, oldest first:
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../posts/duiliotacconi-com/1537.md) (2025-08-21)
 - [Client Crash? Check Error Dialog signal](../posts/duiliotacconi-com/1501.md) (2025-08-06)
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) (2025-07-03)
-- [Optimized Locking feature vs Dynamics 365 Business Central](../posts/duiliotacconi-com/1425.md) (2025-05-30)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

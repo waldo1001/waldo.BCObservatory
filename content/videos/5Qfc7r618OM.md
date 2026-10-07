@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:54:09.219Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -173,10 +173,12 @@ During synchronization a notification about skipped records appears. Choosing vi
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Shopify skipped records page" at [0:38](https://www.youtube.com/watch?v=5Qfc7r618OM&t=38s)
 - page "customer card page" at [0:54](https://www.youtube.com/watch?v=5Qfc7r618OM&t=54s)
+
+Not found in BC28-30: page "Shopify skipped records page", page "customer card page".
 
 ## Quotes
 

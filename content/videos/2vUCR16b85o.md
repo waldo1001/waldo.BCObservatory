@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:33:14.881Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,8 @@ evidence:
     quote: you can click on set up external file account and you will be taken through a wizard
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/2500
   features: []
   topics: []
   localizations: []
@@ -197,13 +198,15 @@ The presenter installs the extensions from Extension Management, configures an A
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "external file storage" at [0:50](https://www.youtube.com/watch?v=2vUCR16b85o&t=50s)
 - page "External File Accounts" at [6:29](https://www.youtube.com/watch?v=2vUCR16b85o&t=389s)
 - page "Set Up External File Accounts" at [6:41](https://www.youtube.com/watch?v=2vUCR16b85o&t=401s)
-- page "Extension Management" at [2:22](https://www.youtube.com/watch?v=2vUCR16b85o&t=142s)
+- [page 2500 "Extension Management"](../objects/page/2500.md) at [2:22](https://www.youtube.com/watch?v=2vUCR16b85o&t=142s)
 - other "Storage Browser" at [9:45](https://www.youtube.com/watch?v=2vUCR16b85o&t=585s)
+
+Not found in BC28-30: page "External File Accounts", page "Set Up External File Accounts".
 
 ## Quotes
 

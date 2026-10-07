@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:32:28.024Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -496,7 +496,7 @@ It also covers shared link readability, browser tab naming with a company switch
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Tell Me" at [3:22](https://www.youtube.com/watch?v=eg3FRViYFNM&t=202s)
 - other "Role Center" at [7:55](https://www.youtube.com/watch?v=eg3FRViYFNM&t=475s)
@@ -504,6 +504,8 @@ As heard in the captions; not yet verified against the code pillar.
 - page "page inspection pane" at [26:22](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1582s)
 - other "Visual Studio code" at [26:43](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1603s)
 - query "query objects" at [29:14](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1754s)
+
+Not found in BC28-30: page "page inspection pane", query "query objects".
 
 ## Quotes
 

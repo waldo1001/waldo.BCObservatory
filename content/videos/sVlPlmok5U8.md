@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:38:14.858Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -166,9 +166,11 @@ The demo sets up locations with different warehouse requirements, creates a purc
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "project planning lines" at [0:34](https://www.youtube.com/watch?v=sVlPlmok5U8&t=34s)
+
+Not found in BC28-30: page "project planning lines".
 
 ## Quotes
 

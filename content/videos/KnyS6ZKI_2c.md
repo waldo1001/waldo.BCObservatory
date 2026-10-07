@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:25:33.622Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,7 +245,7 @@ It then shows iterating over repeater entries with "for each row", conditional s
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC Replay" at [12:57](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=777s)
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4fb41002ccf15d83cdc81c7c585465f9622fdce6bbab333438a97adced792c5a
+  input_hash: 39cd6b8716fc7309c7b532fa43fd7e48725ceb699979bbd764449afd65c5365e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -71,13 +71,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 3
 ---
 
 # Interface "Power BI Uploadable Report"
 
 > Interface "Power BI Uploadable Report" in Base Application (System.Integration.PowerBI). 8 public procedures. Introduced in BC28, still in BC30, changed in BC29.
 
-Base Application · System.Integration.PowerBI · BC28-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC28-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -89,6 +93,12 @@ Base Application · System.Integration.PowerBI · BC28-30 · [source at 030de383
 - `FinalizeUpload(var UploadTracker: Interface "Power BI Upload Tracker"; Context: Text[50])`: Called after the report reaches DataRefreshed status. Perform any post-upload actions here (e.g. selecting the report for display in a context). The step runner transitions to Completed after this returns.
 - `GetDatasetParameters(): Dictionary of [Text, Text]`: Returns the Power BI dataset parameters (name → value) that this report expects to be updated after import.
 - `GetTargetWorkspaceId(): Guid`: Returns the ID of the Power BI workspace this report should be deployed to. An empty (null) GUID means the report is deployed to the user's "My Workspace".
+
+## Implemented by
+
+- [Codeunit 6323 "Power BI System Table Report"](../codeunit/6323.md)
+- [Codeunit 6326 "Power BI Customer Report"](../codeunit/6326.md)
+- [Codeunit 6350 "PBI Deployable Report Impl."](../codeunit/6350.md)
 
 ## Recent changes
 
@@ -104,7 +114,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC28-30
 - Changed (declaration) in: BC29
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

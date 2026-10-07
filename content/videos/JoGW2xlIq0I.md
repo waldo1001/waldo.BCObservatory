@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:50:05.752Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,7 +225,7 @@ The demo covers the setup (Procurement fast tab), manual emissions entry for ite
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sustainability Value Entry" at [0:58](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=58s)
 - other "Sustainability Ledger Entry" at [0:26](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=26s)

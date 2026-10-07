@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:34:48.911Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,8 @@ evidence:
     quote: When we set up other similar projects, we can save time by copying tasks.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/8904
   features: []
   topics: []
   localizations: []
@@ -252,15 +253,17 @@ It then adds project tasks, and planning lines with resources and items. Cost an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "project manager role center" at [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s)
+- [page 8904 "Project Manager Role Center"](../objects/page/8904.md) at [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s)
 - page "project card" at [0:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=12s)
 - page "project planning lines" at [0:59](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=59s)
 - page "project details pane" at [1:25](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=85s)
 - page "project setup window" at [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s)
 - page "create new project assisted setup guide" at [2:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=120s)
 - page "my projects list" at [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s)
+
+Not found in BC28-30: page "project card", page "project planning lines", page "project details pane", page "project setup window", page "create new project assisted setup guide", page "my projects list".
 
 ## Quotes
 

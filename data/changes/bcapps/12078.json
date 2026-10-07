@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12078,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12078",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-07T19:44:33Z",
+  "merge_commit_sha": "fe31a4253b4aa8fde426364f132f5689d4dfcddf",
+  "author": "PhDuck",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Reduce allocations in the \"Export to Execl\" scenario (#11870)",
+  "body_hash": "1593e2334f0d36aaa33e429d7a05b7bce9ea1c14603aafc5daf2bce7c184c63a",
+  "fixes_issues": [],
+  "work_items": [
+    652103
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/OpenXMLManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 14,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 30,
+    "deletions": 14,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "030de38360c4aa828a650300faf93cd09fa139e1",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/OpenXMLManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6223",
+        "type": "codeunit",
+        "id": 6223,
+        "name": "OpenXML Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6223"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

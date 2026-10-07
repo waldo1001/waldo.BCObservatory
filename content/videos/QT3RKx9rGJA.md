@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:02:19.478Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -666,7 +666,7 @@ The rest is Q&A. Topics include compiler folder builds, using a workflow from an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "app.json" at [3:04](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=184s)
 - other "settings file" at [3:04](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=184s)

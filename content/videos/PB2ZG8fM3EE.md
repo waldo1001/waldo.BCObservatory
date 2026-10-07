@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:44:39.397Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,9 @@ evidence:
     quote: Copilot is actually ready to work also with your custom fields and your custom pages as well. Um and if you're a developer watching
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/table/5600
   features: []
   topics: []
   localizations: []
@@ -245,10 +247,10 @@ It also covers user control and extensibility. Suggestions are visually distinct
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Customer" at [0:36](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=36s)
-- table "Fixed Asset" at [4:57](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=297s)
+- [table 18 "Customer"](../objects/table/18.md) at [0:36](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=36s)
+- [table 5600 "Fixed Asset"](../objects/table/5600.md) at [4:57](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=297s)
 
 ## Quotes
 

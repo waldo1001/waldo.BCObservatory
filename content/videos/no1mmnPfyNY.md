@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:52:27.700Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -302,7 +302,7 @@ The larger part covers the partner business model. It argues for ending hourly b
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "WinMine" at [12:17](https://www.youtube.com/watch?v=no1mmnPfyNY&t=737s)
 - other "Mythos" at [13:36](https://www.youtube.com/watch?v=no1mmnPfyNY&t=816s)

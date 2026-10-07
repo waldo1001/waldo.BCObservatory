@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0ff53b0b901b7251f4406a3f60b1f81316ece0c383dae9e7b1b9dcbbae9e9b99
+  input_hash: 59fd56d00bdc46fa66a122ccecd2c2732b58033b810b6f21bf9ee20563b3fbba
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al
     title: src/System Application/App/Feature Key/src/FeatureDataUpdate.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,13 +72,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 4
 ---
 
 # Interface "Feature Data Update"
 
 > Interface "Feature Data Update" in System Application (System.Environment.Configuration). 5 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Environment.Configuration · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al) · facts from BC29
+System Application · System.Environment.Configuration · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -87,6 +91,13 @@ System Application · System.Environment.Configuration · BC23-30 · [source at 
 - `UpdateData(FeatureDataUpdateStatus: Record "Feature Data Update Status")`: Runs the process that updates data for the feature.
 - `AfterUpdate(FeatureDataUpdateStatus: Record "Feature Data Update Status")`: Method is called after the update is complete, e.g. to complete the setup for the feature.
 - `GetTaskDescription(): Text`: Retruns the detailed description of the data update required for the feature. It is shown of the "Schedule Feature Data Update" page to explain the user what is going to happen.
+
+## Implemented by
+
+- [Codeunit 1080 "Feature - Fin. Report Default"](../codeunit/1080.md)
+- [Codeunit 5409 "Feature - Report Selection"](../codeunit/5409.md)
+- [Codeunit 7049 "Feature - Price Calculation"](../codeunit/7049.md)
+- [Enum 2611 "Feature To Update"](../enum/2611.md)
 
 ## Ask your agent
 
@@ -97,7 +108,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

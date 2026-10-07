@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:39.975Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -585,7 +585,7 @@ The speakers also cover inbound and outbound data flow. Inbound webhooks need a 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC quality" at [5:02](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=302s)
 - table "integration message table" at [17:48](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=1068s)
@@ -599,6 +599,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "warehouse receipt" at [1:17:30](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4650s)
 - other "message table" at [1:24:58](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=5098s)
 - other "job queue categories" at [1:23:23](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=5003s)
+
+Not found in BC28-30: table "integration message table", table "integration error table", interface "message handler interface", enum "directions for enum", table "interesting message".
 
 ## Quotes
 

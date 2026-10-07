@@ -1,0 +1,149 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11629,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11629",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T18:22:58Z",
+  "merge_commit_sha": "41aaca580ccb16a1720e9ce1443a01a4959ee953",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Norwegian SAF-T 1.30 export issues",
+  "body_hash": "0dd7c385226e3872ef073841472cc3926488343a32e6bf30624e51c30a7f648f",
+  "fixes_issues": [],
+  "work_items": [
+    650030
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 37,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTExportMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryByDoc.Query.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTMappingCategory.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Install and Setup/SAFTXMLImport.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTXMLTests13.Codeunit.al",
+      "status": "modified",
+      "additions": 912,
+      "deletions": 17,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 1139,
+    "deletions": 69,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ad9b529a78c818ba25c24aecd093442a6c7a3852",
+    "objects": [
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10692",
+        "type": "codeunit",
+        "id": 10692,
+        "name": "Generate SAF-T 1.3 File",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10692-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTExportMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10675",
+        "type": "codeunit",
+        "id": 10675,
+        "name": "SAF-T Export Mgt.",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10675-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryByDoc.Query.al",
+        "status": "added",
+        "key": "query/10671",
+        "type": "query",
+        "id": 10671,
+        "name": "SAF-T G/L Entry By Doc.",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "query/10671-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTMappingCategory.Table.al",
+        "status": "modified",
+        "key": "table/10671",
+        "type": "table",
+        "id": 10671,
+        "name": "SAF-T Mapping Category",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "table/10671-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Install and Setup/SAFTXMLImport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10671",
+        "type": "codeunit",
+        "id": 10671,
+        "name": "SAF-T XML Import",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10671-no"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "NorwegianSAFT"
+  ]
+}

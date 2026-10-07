@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ce2e69882e80a389ce0628cfb4ce1970f32ec63073ce56e68a67491b93c581c5
+  input_hash: e7b65e7ec9c0eace6ce0cb48820d17a867d3ad20f9b3e1775dd0490ae5b5b71e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/MicrosoftUniversalPrint/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/MicrosoftUniversalPrint/app
     title: src/Apps/W1/MicrosoftUniversalPrint/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -164,4 +164,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 2756 | [D365 TEAM MEMBER - Microsoft Universal Print](../objects/permissionsetextension/2756.md) |  |
 | 2757 | [INTELLIGENT CLOUD - Microsoft Universal Print](../objects/permissionsetextension/2757.md) |  |
 
-Source: [src/Apps/W1/MicrosoftUniversalPrint/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/MicrosoftUniversalPrint/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/MicrosoftUniversalPrint/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/MicrosoftUniversalPrint/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
     quote: developers can define indexes that span fields from a base table and its extension table
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/32
   features:
     - feature/573315
     - feature/573332
@@ -230,10 +231,12 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "item table" at [4:25](https://www.youtube.com/watch?v=qABlX4AL3GM&t=265s)
-- table "item ledger entry" at [16:59](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1019s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [16:59](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1019s)
+
+Not found in BC28-30: table "item table".
 
 ## Quotes
 

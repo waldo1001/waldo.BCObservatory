@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:38:18.297Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,12 @@ evidence:
     quote: if you want to return overp picked item to Warehouse navigate to the movement worksheet page and choose the return overp pick quantity action
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5703
+    - object/page/5510
+    - object/page/5785
+    - object/page/30
+    - object/page/7351
   features: []
   topics: []
   localizations: []
@@ -202,17 +207,19 @@ The second half covers consumption. A new flushing method, pick plus manual, rep
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Location Card" at [0:26](https://www.youtube.com/watch?v=vnaySMIKnp8&t=26s)
-- page "Production Journal" at [0:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=46s)
-- page "Warehouse Activity Lines" at [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s)
+- [page 5703 "Location Card"](../objects/page/5703.md) at [0:26](https://www.youtube.com/watch?v=vnaySMIKnp8&t=26s)
+- [page 5510 "Production Journal"](../objects/page/5510.md) at [0:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=46s)
+- [page 5785 "Warehouse Activity Lines"](../objects/page/5785.md) at [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s)
 - page "Putaway Worksheet" at [1:45](https://www.youtube.com/watch?v=vnaySMIKnp8&t=105s)
 - page "Production Order" at [2:02](https://www.youtube.com/watch?v=vnaySMIKnp8&t=122s)
 - page "Warehouse Putaway" at [2:22](https://www.youtube.com/watch?v=vnaySMIKnp8&t=142s)
 - page "Components Page" at [3:10](https://www.youtube.com/watch?v=vnaySMIKnp8&t=190s)
-- page "Item Card" at [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s)
-- page "Movement Worksheet" at [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s)
+- [page 30 "Item Card"](../objects/page/30.md) at [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s)
+- [page 7351 "Movement Worksheet"](../objects/page/7351.md) at [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s)
+
+Not found in BC28-30: page "Putaway Worksheet", page "Production Order", page "Warehouse Putaway", page "Components Page".
 
 ## Quotes
 

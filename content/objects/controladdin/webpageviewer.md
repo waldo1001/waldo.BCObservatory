@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 279d4b4a13ab944df56b4afe17fb277e5ea22a152a8ca15b2a543cad7103f1a3
+  input_hash: 1958e3b7cd6ed5773a0bbfa143714d92b98ed996ad4ea209266d3cb91abdefaf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -71,13 +71,16 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 2
+  implements: 0
 ---
 
 # Control add-in "WebPageViewer"
 
 > Control add-in "WebPageViewer" in System Application (System.Integration). 11 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Integration · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al) · facts from BC29
+System Application · System.Integration · BC24-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al) · facts from BC29
 
 ## Procedures
 
@@ -93,6 +96,13 @@ System Application · System.Integration · BC24-30 · [source at 030de383](http
 - `SubscribeToEvent(EventName: Text; Origin: Text)`: Function to subscribe to window events and trigger a WebPageViewerEvent with the data provided by the event
 - `SetCallbacksFromSubscribedEventToIgnore(EventName: Text; CallbackResults: JsonArray)`: Function to ignore callbacks occuring due to subscribed events. This will improve performance by telling client not to send messages back to server if not required.
 
+## Called by
+
+From the extracted call graph of BC29 (graphify-al on the snapshot checkout): calls whose target is known from a declared type or an `Object::"Name"` argument. Interface dispatch and calls through events are not counted, so the list is not complete.
+
+- [Page 4010 "Intelligent Cloud"](../page/4010.md) (1 call: `NavigateToUrl → Navigate`)
+- [Page 4353 "Custom Agent Instructions Part"](../page/4353.md) (1 call: `FillAddIn → SetContent`)
+
 ## Ask your agent
 
 Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
@@ -102,7 +112,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

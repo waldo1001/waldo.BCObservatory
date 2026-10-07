@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:23:11.326Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 10aa762209af9940b234513f6e763adff5833934976b54e3dcf04ed47d00ff30
+  input_hash: bb7f089559d30b4c314ca21ca3bc945fe1eefb8b3a0b655c584162ce61c595fb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/DocumentsRetentionPeriod.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/DocumentsRetentionPeriod.Interface.al
     title: src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/DocumentsRetentionPeriod.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -71,13 +71,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 2
 ---
 
 # Interface "Documents - Retention Period"
 
 > Interface "Documents - Retention Period" in Base Application (Microsoft.Finance.GeneralLedger.Setup). 4 public procedures. Introduced in BC24, still in BC30.
 
-Base Application · Microsoft.Finance.GeneralLedger.Setup · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/DocumentsRetentionPeriod.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.GeneralLedger.Setup · BC24-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/DocumentsRetentionPeriod.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -85,6 +89,11 @@ Base Application · Microsoft.Finance.GeneralLedger.Setup · BC24-30 · [source 
 - `GetDeletionBlockedBeforeDate(): Date`: Returns the date - Documents with a Posting Date before this date cannot be deleted.
 - `IsDocumentDeletionAllowedByLaw(PostingDate: Date): Boolean`: Returns whether document deletion is allowed by law condiering the Posting Date.
 - `CheckDocumentDeletionAllowedByLaw(PostingDate: Date)`: Use it to run check on posted documents and block deletion if needed.
+
+## Implemented by
+
+- [Codeunit 800 "Default Retention Period Def."](../codeunit/800.md)
+- [Enum 800 "Docs - Retention Period Def."](../enum/800.md)
 
 ## Ask your agent
 
@@ -95,7 +104,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

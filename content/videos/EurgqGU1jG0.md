@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:07:56.996Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -356,7 +356,7 @@ It then covers testing API logic without external calls, passing records as para
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "navigate BC" at [4:21](https://www.youtube.com/watch?v=EurgqGU1jG0&t=261s)
 - interface "number series single" at [16:48](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1008s)
@@ -369,6 +369,8 @@ As heard in the captions; not yet verified against the code pillar.
 - interface "API interface" at [31:58](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1918s)
 - codeunit "payment request task" at [43:50](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2630s)
 - interface "environment interface" at [58:27](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3507s)
+
+Not found in BC28-30: interface "number series single", enum "system environment", interface "I environment", codeunit "app environment", interface "API request", interface "send function", codeunit "stop production environment code unit", interface "API interface", codeunit "payment request task", interface "environment interface".
 
 ## Quotes
 

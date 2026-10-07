@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,7 +57,9 @@ evidence:
     quote: The gate must be at the input. Encode your rules before the agent writes.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/37
+    - object/table/337
   features: []
   topics: []
   localizations: []
@@ -128,7 +130,7 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "ItemTrackingManagement"
 - codeunit "ReservationEngineMgt"
@@ -137,8 +139,10 @@ As named in the post; not yet joined to the code pillar.
 - codeunit "GenJnlPostLine"
 - codeunit "SalesPost"
 - codeunit "PurchPost"
-- table "Sales Line"
-- table "Reservation Entry"
+- [table 37 "Sales Line"](../../objects/table/37.md)
+- [table 337 "Reservation Entry"](../../objects/table/337.md)
+
+Not found in BC28-30: codeunit "ItemTrackingManagement", codeunit "ReservationEngineMgt", codeunit "NoSeriesMgt", codeunit "WhseManagement", codeunit "GenJnlPostLine", codeunit "SalesPost", codeunit "PurchPost".
 
 ## Context
 

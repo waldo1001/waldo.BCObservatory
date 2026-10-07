@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:27.493Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -371,7 +371,7 @@ It then covers AL-Go for GitHub as the center of Business Central development: t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC Apps" at [9:29](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=569s)
 - other "run AL pipeline" at [27:09](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=1629s)

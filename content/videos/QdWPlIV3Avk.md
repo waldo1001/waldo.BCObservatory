@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,7 +139,14 @@ evidence:
     quote: You can use any receiving method you like, either normal purchase document, warehouse receipt, or inventory put away.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/50
+    - object/page/99000768
+    - object/page/5740
+    - object/table/32
+    - object/page/51
+    - object/page/5768
+    - object/table/5832
   features:
     - feature/573345
     - feature/573355
@@ -452,21 +459,25 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Bill of Material" at [3:44](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=224s)
 - page "Production Order" at [5:57](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=357s)
 - page "Production Routing" at [7:38](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=458s)
-- page "Purchase Order" at [8:41](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=521s)
-- page "Manufacturing Setup" at [10:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=605s)
-- page "Transfer Order" at [14:38](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=878s)
+- [page 50 "Purchase Order"](../objects/page/50.md) at [8:41](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=521s)
+- [page 99000768 "Manufacturing Setup"](../objects/page/99000768.md) at [10:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=605s)
+- [page 5740 "Transfer Order"](../objects/page/5740.md) at [14:38](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=878s)
 - table "Work in Progress Ledger Entry" at [15:23](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=923s)
-- table "Item Ledger Entry" at [17:30](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1050s)
-- page "Purchase Invoice" at [16:51](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1011s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [17:30](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1050s)
+- [page 51 "Purchase Invoice"](../objects/page/51.md) at [16:51](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1011s)
 - page "Subcontracting Order" at [23:23](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1403s)
-- page "Warehouse Receipt" at [23:34](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1414s)
-- table "Capacity Ledger Entry" at [24:40](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1480s)
+- [page 5768 "Warehouse Receipt"](../objects/page/5768.md) at [23:34](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1414s)
+- [table 5832 "Capacity Ledger Entry"](../objects/table/5832.md) at [24:40](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1480s)
 - page "Inventory Put Away" at [25:32](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1532s)
+
+Not found in BC28-30: table "Bill of Material", page "Production Order", page "Production Routing", table "Work in Progress Ledger Entry", page "Inventory Put Away".
+
+More than one object has this name, so none is linked: page "Subcontracting Order".
 
 ## Quotes
 

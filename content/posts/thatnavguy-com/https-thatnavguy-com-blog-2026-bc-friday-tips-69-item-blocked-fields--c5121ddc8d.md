@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -47,7 +47,9 @@ evidence:
     quote: You may allow actions that should be restricted, such as sales on items that are blocked for sales.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/27
+    - object/table/5401
   features: []
   topics: []
   localizations: []
@@ -108,10 +110,10 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Item"
-- table "Item Variant"
+- [table 27 "Item"](../../objects/table/27.md)
+- [table 5401 "Item Variant"](../../objects/table/5401.md)
 
 ## Context
 

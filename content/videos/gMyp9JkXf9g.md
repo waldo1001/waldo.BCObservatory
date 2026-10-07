@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:45:39.965Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -269,7 +269,7 @@ It also explains data limits: the reports use aggregated data, not transaction-l
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Trial balance" at [2:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=138s)
 - report "Age receivables" at [2:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=138s)
@@ -281,6 +281,10 @@ As heard in the captions; not yet verified against the code pillar.
 - report "Balance to date reports" at [10:03](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=603s)
 - report "Asset list" at [10:44](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=644s)
 - page "Report Explorer" at [1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s)
+
+Not found in BC28-30: report "Age receivables", report "Age payables", report "Top list", report "Customer top report", report "Consolidation reports", report "Closing trial balances", report "Balance to date reports", report "Asset list", page "Report Explorer".
+
+More than one object has this name, so none is linked: report "Trial balance".
 
 ## Quotes
 

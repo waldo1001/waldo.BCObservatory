@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:44:04.163Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -239,10 +239,12 @@ The walkthrough goes through Microsoft 365 and Office apps, Power Platform, Dyna
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Connect apps" at [2:22](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=142s)
 - other "HTTP client data type" at [5:49](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=349s)
+
+Not found in BC28-30: page "Connect apps".
 
 ## Quotes
 

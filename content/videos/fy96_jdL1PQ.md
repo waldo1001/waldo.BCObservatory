@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
     quote: it's part of the the project the project plan but usually it comes right before or right after the the go live
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/32
   features:
     - feature/573329
   topics: []
@@ -367,14 +368,16 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "report objects" at [6:56](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=416s)
 - other "RDL layouts" at [6:56](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=416s)
 - report "RDLC reports" at [23:58](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1438s)
 - other "report object" at [23:58](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1438s)
 - other "analysis views on list pages" at [24:35](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1475s)
-- table "item ledger entry" at [33:08](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1988s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [33:08](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1988s)
+
+Not found in BC28-30: report "RDLC reports".
 
 ## Quotes
 

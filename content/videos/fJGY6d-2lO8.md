@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:01:35.803Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
     quote: They are coming in 28.x so not in the April release, so but once once we get a few months out
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9305
   features: []
   topics: []
   localizations: []
@@ -199,11 +200,13 @@ The video also covers smaller changes. Five sales reports shipped in fall 2025 g
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Customer Retention Overview" at [1:10](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=70s)
 - report "ABC Analysis" at [2:11](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=131s)
-- page "Sales Order List" at [4:07](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=247s)
+- [page 9305 "Sales Order List"](../objects/page/9305.md) at [4:07](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=247s)
+
+Not found in BC28-30: report "Customer Retention Overview", report "ABC Analysis".
 
 ## Quotes
 

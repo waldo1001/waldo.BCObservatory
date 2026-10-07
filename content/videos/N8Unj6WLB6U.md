@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:50:15.914Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,14 @@ evidence:
     quote: this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5964
+    - object/page/5988
+    - object/page/5900
+    - object/page/5906
+    - object/page/5905
+    - object/page/5933
+    - object/page/6050
   features: []
   topics: []
   localizations: []
@@ -252,16 +259,18 @@ The demo covers a new blocked field on service items, attachments across service
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Service Quote" at [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s)
+- [page 5964 "Service Quote"](../objects/page/5964.md) at [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s)
 - page "Service Item" at [3:51](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=231s)
-- page "Service Items" at [4:11](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=251s)
-- page "Service Order" at [8:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=497s)
-- page "Service Item Worksheet" at [8:37](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=517s)
-- page "Service Lines" at [8:48](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=528s)
-- page "Service Invoice" at [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s)
-- page "Service Contract" at [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s)
+- [page 5988 "Service Items"](../objects/page/5988.md) at [4:11](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=251s)
+- [page 5900 "Service Order"](../objects/page/5900.md) at [8:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=497s)
+- [page 5906 "Service Item Worksheet"](../objects/page/5906.md) at [8:37](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=517s)
+- [page 5905 "Service Lines"](../objects/page/5905.md) at [8:48](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=528s)
+- [page 5933 "Service Invoice"](../objects/page/5933.md) at [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s)
+- [page 6050 "Service Contract"](../objects/page/6050.md) at [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s)
+
+Not found in BC28-30: page "Service Item".
 
 ## Quotes
 

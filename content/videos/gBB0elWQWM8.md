@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:28:05.204Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,7 +56,8 @@ evidence:
     quote: stock out warning. This is the field that determines whether or not I see that warning when I try to enter and quantity on
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -155,10 +156,12 @@ The demo shows the warning on a sales order, and notes that an unposted sales li
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Sales and Receivables Setup" at [1:48](https://www.youtube.com/watch?v=gBB0elWQWM8&t=108s)
-- page "Sales Orders" at [0:52](https://www.youtube.com/watch?v=gBB0elWQWM8&t=52s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [0:52](https://www.youtube.com/watch?v=gBB0elWQWM8&t=52s)
+
+Not found in BC28-30: page "Sales and Receivables Setup".
 
 ## Quotes
 

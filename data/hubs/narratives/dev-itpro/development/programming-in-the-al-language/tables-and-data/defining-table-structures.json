@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-  "input_hash": "be7250e37ed75f2daf16a3054d139511ca590482945a99aec99be63e21d4ea3d",
-  "summary": "Defining table structures in AL covers table objects, table extensions, system fields, table relationships, field tooltips and optimized text search. It answers questions about how to declare tables, fields, keys and triggers, extend base tables, and set properties such as TableRelation, ToolTip and OptimizeForTextSearch.",
-  "overview": "Tables are the basic database objects in Business Central. They store data and consist of table data and a table description, which holds fields, keys, properties and triggers. The Tables overview page is the place to start, and the Table object page then gives the syntax, limits and extensibility rules.\n\nThe other pages cover specific parts of a table definition. Setting Relationships Between Tables explains the TableRelation property for one-to-many, many-to-many and one-to-one relations. Table System Fields describes the fields every table gets automatically. Table extension object shows how to add fields, keys and trigger code without changing the base table. Two further pages cover field-level settings: tooltips on table fields, and optimized text search through full-text search.",
+  "input_hash": "cd7b7b747fb2d49cff1e52338d2f4a5e0515b4fddef4485ece5868b2b043a5ea",
+  "summary": "Defining table structures in AL covers how to build Business Central tables: the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search. It answers questions about syntax, properties, and extensibility of tables.",
+  "overview": "Tables are the fundamental database objects in Business Central. A table has data and a description made up of fields, keys, properties, and triggers. The pages in this section describe each part of that structure, from general concepts to specific properties.\n\nStart with Tables overview for the concepts, then read Table object for syntax, limitations, and extensibility rules. Setting Relationships Between Tables explains the TableRelation property for one-to-many, many-to-many, and one-to-one relations, including conditional relations and filters. Table extension object shows how to add fields, keys, and trigger code without changing the base table.\n\nSmaller pages cover specific topics: system fields that every table gets automatically, tooltips on table and page fields, and the OptimizeForTextSearch property for full-text search on character fields.",
   "key_points": [
-    "Tables consist of table data and a table description with fields, keys, properties and triggers.",
-    "The TableRelation property defines relationships, using conditional relations and table filters. It supports data validation and lookups.",
-    "Table extensions add fields, keys and trigger code without modifying the base table. The Extensible property controls whether a table can be extended.",
-    "System fields are added to every table automatically: SystemId for unique record identification, the audit fields SystemCreatedAt, SystemCreatedBy, SystemModifiedAt and SystemModifiedBy, and SystemRowVersion as a timestamp for synchronization.",
-    "Tooltips can be defined on table fields starting in 2024 release wave 1. Pages inherit them automatically and can override them. CodeCop warning AA0234 is related.",
-    "The OptimizeForTextSearch property uses full-text search in SQL Server and Azure SQL Database. It gives case-insensitive and accent-insensitive searching on character data.",
-    "The Table object page also covers the InitValue property, the OnValidate trigger and Integer to BigInteger migration."
+    "Tables consist of table data and a table description with fields, keys, properties, and triggers.",
+    "TableRelation defines one-to-many, many-to-many, and one-to-one relationships, with conditions and table filters, for validation and lookups.",
+    "Table extensions add fields, keys, and trigger code without modifying the base table; the Extensible property controls extensibility.",
+    "Every table gets system fields automatically: SystemId for unique record identification, audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy), and SystemRowVersion for synchronization.",
+    "Tooltips set on table fields are inherited by pages starting in 2024 release wave 1, and page fields can override them; CodeCop rule AA0234 applies.",
+    "OptimizeForTextSearch uses full-text search in SQL Server and Azure SQL Database for efficient, case- and accent-insensitive searching on character data.",
+    "The Table object page covers InitValue, OnValidate, and Integer to BigInteger migration, and mentions 2024 release wave 1, 2024 release wave 2, and 2026 release wave 2."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:02:40.178Z",
+  "at": "2026-10-07T21:13:11.638Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.014075
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:34.553Z",
+    "at": "2026-10-07T21:13:11.962Z",
     "verdict": "fix",
     "issues": [
-      "Key point 4 attaches 'runtime 18.0' to SystemRowVersion in particular. The source lists runtime 18.0 only as a version for the whole system fields page and never says which field or feature it belongs to. The version tag has been removed from that field.",
-      "Everything else checks out against the page summaries: the tooltips from 2024 release wave 1, the TableRelation relationship types, the table extension scope, and the OptimizeForTextSearch details."
+      "The system fields key point puts \"runtime 18.0\" next to SystemRowVersion alone. The source lists runtime 18.0 only as a version for the whole page and never says which field it applies to, so tying it to SystemRowVersion is unsupported. I rewrote that key point without the attribution and added the purposes the source does give for the fields.",
+      "Small point: the Table object key point says the page has \"notes\" for 2024 release wave 1, 2024 release wave 2 and 2026 release wave 2. The source only lists these as versions mentioned on the page. That wording is acceptable, but it says nothing about what changed in those releases."
     ],
-    "input_hash": "be7250e37ed75f2daf16a3054d139511ca590482945a99aec99be63e21d4ea3d",
-    "cost_usd": 0.041295200000000004
+    "input_hash": "cd7b7b747fb2d49cff1e52338d2f4a5e0515b4fddef4485ece5868b2b043a5ea",
+    "cost_usd": null
   }
 }

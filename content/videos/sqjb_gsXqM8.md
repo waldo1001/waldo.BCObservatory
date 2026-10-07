@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:43:21.520Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,7 +95,9 @@ evidence:
     quote: each operation can also have a different price tag. So, the same item produced on different vendors or different quantities will have a different
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5813
+    - object/table/5405
   features: []
   topics: []
   localizations: []
@@ -300,13 +302,15 @@ Several features are demoed, including drop shipment purchase creation, purchase
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Production BOM" at [9:45](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=585s)
 - table "Production Order Component" at [10:01](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=601s)
 - table "Planning Order" at [10:01](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=601s)
-- table "Inventory Posting Setup" at [12:13](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=733s)
-- table "Production Order" at [14:34](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=874s)
+- [table 5813 "Inventory Posting Setup"](../objects/table/5813.md) at [12:13](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=733s)
+- [table 5405 "Production Order"](../objects/table/5405.md) at [14:34](https://www.youtube.com/watch?v=sqjb_gsXqM8&t=874s)
+
+Not found in BC28-30: table "Production BOM", table "Production Order Component", table "Planning Order".
 
 ## Quotes
 

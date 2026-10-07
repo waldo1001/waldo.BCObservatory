@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: An accurate bill of material definition improves cost visibility and gives you better control over costs and product changes as your business evolves.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5405
   features: []
   topics: []
   localizations: []
@@ -251,14 +252,16 @@ It then covers organizing BOMs and using the where-used action, managing BOM ver
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Item Card" at [0:27](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=27s)
 - other "Production BOM" at [1:12](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=72s)
 - other "Where Used action" at [1:56](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=116s)
 - other "Production BOM version comparison" at [3:06](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=186s)
-- table "Production Order" at [3:32](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=212s)
+- [table 5405 "Production Order"](../objects/table/5405.md) at [3:32](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=212s)
 - other "Components action" at [4:16](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=256s)
+
+Not found in BC28-30: table "Item Card".
 
 ## Quotes
 

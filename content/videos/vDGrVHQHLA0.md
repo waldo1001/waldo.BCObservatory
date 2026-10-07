@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:36:03.714Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -566,7 +566,7 @@ The team also announced that BC Container Helper versions before 6.1 no longer w
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "create release workflow" at [1:12](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=72s)
 - other "increment version number workflow" at [1:26](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=86s)

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:02:39.311Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
     quote: we can choose this as a default layout for December or January and then when we get to another season we can simply add
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9660
   features: []
   topics: []
   localizations: []
@@ -186,10 +187,12 @@ The presenter then edits the layout in Word. This includes using the new Abts fo
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Report Layouts" at [0:37](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=37s)
+- [page 9660 "Report Layouts"](../objects/page/9660.md) at [0:37](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=37s)
 - report "Sales Quote" at [0:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=58s)
+
+Not found in BC28-30: report "Sales Quote".
 
 ## Quotes
 

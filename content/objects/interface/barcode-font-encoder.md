@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8abf5e12a064cc1c1e3b459ddbccedc5044174c00cd4c15a2866542cd21d2cd5
+  input_hash: be0fa14c0c3ad9f0a0712804662d43c51cdec3eac1ae2be327dc0c82adcb8225
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Barcode/src/Barcode%20Provider/Font/BarcodeFontEncoder.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Barcode/src/Barcode%20Provider/Font/BarcodeFontEncoder.Interface.al
     title: src/System Application/App/Barcode/src/Barcode Provider/Font/BarcodeFontEncoder.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,18 +72,36 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 11
 ---
 
 # Interface "Barcode Font Encoder"
 
 > Interface "Barcode Font Encoder" in System Application (System.Text). 2 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Text · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Barcode/src/Barcode%20Provider/Font/BarcodeFontEncoder.Interface.al) · facts from BC29
+System Application · System.Text · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Barcode/src/Barcode%20Provider/Font/BarcodeFontEncoder.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `EncodeFont(InputText: Text; var BarcodeEncodeSettings: Record "Barcode Encode Settings"): Text`
 - `IsValidInput(InputText: Text; var BarcodeEncodeSettings: Record "Barcode Encode Settings"): Boolean`: Validates whether a text can be encoded. The validation is based on a regular expression according to https://www.neodynamic.com/Products/Help/BarcodeWinControl2.5/working_barcode_symbologies.htm
+
+## Implemented by
+
+- [Codeunit 9204 "IDA 1D Code39 Encoder"](../codeunit/9204.md)
+- [Codeunit 9205 "IDA 1D Code93 Encoder"](../codeunit/9205.md)
+- [Codeunit 9206 "IDA 1D Code128 Encoder"](../codeunit/9206.md)
+- [Codeunit 9207 "IDA 1D EAN8 Encoder"](../codeunit/9207.md)
+- [Codeunit 9208 "IDA 1D EAN13 Encoder"](../codeunit/9208.md)
+- [Codeunit 9209 "IDA 1D I2of5 Encoder"](../codeunit/9209.md)
+- [Codeunit 9210 "IDA 1D MSI Encoder"](../codeunit/9210.md)
+- [Codeunit 9211 "IDA 1D Postnet Encoder"](../codeunit/9211.md)
+- [Codeunit 9212 "IDA 1D UPCA Encoder"](../codeunit/9212.md)
+- [Codeunit 9213 "IDA 1D UPCE Encoder"](../codeunit/9213.md)
+- [Codeunit 9214 "IDA 1D Codabar Encoder"](../codeunit/9214.md)
 
 ## Ask your agent
 
@@ -94,7 +112,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

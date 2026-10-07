@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,7 +90,9 @@ evidence:
     quote: We're going to bring M365 Copilot into BC. And so, rather than talk your ear off about how great it is, I will just
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9305
+    - object/page/31
   features:
     - feature/573362
   topics: []
@@ -439,15 +441,17 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "inventory table" at [8:38](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=518s)
-- page "sales order list" at [20:14](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1214s)
-- page "item list" at [21:20](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1280s)
+- [page 9305 "Sales Order List"](../objects/page/9305.md) at [20:14](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1214s)
+- [page 31 "Item List"](../objects/page/31.md) at [21:20](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1280s)
 - page "customer" at [18:26](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1106s)
 - other "sales orders" at [24:55](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1495s)
 - other "sales lines" at [25:06](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1506s)
 - page "Copilot and agent capabilities page" at [29:45](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1785s)
+
+Not found in BC28-30: page "customer", page "Copilot and agent capabilities page".
 
 ## Quotes
 

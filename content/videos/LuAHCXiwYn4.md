@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:10:33.112Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -279,7 +279,7 @@ The second half covers a telemetry folder that loads Waldo's MCP server, the LSP
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "cloud.markdown" at [2:45](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=165s)
 - other "AL repo summarizer" at [9:51](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=591s)

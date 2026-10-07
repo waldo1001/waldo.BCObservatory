@@ -237,6 +237,17 @@
   ],
   "issues": [
     {
+      "number": 2398,
+      "title": "[Bug]: AL-Go v9.1/v9.2 splits dependency app filenames containing a comma `",
+      "url": "https://github.com/microsoft/AL-Go/issues/2398",
+      "labels": [
+        "bug"
+      ],
+      "author": "OlhaIshyna",
+      "created_at": "2026-10-07T19:50:06Z",
+      "comments": 0
+    },
+    {
       "number": 2394,
       "title": "[Bug]: `latestBuild` dependency resolution intermittently picks an older CI/CD run due to stale GitHub workflow-runs API results",
       "url": "https://github.com/microsoft/AL-Go/issues/2394",

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1b612a1d0613afaeda4bf7c25300ee75b465bc8b80d2f2f9cf0ee3c8045e333c
+  input_hash: 1b7f31a1c16163fc27730dba728c8f7c743cba70fe14d88cbfd14a0b334ef262
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Subcontracting/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Subcontracting/app
     title: src/Apps/W1/Subcontracting/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -506,4 +506,4 @@ Possibly related: these roadmap features have "Subcontracting" in their title. A
 - [Set up and explore subcontracting more easily](../features/573353.md) (ga, GA 2026-10)
 - [Use inventory put-aways and picks for subcontracting](../features/573355.md) (ga, GA 2026-10)
 
-Source: [src/Apps/W1/Subcontracting/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Subcontracting/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Subcontracting/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Subcontracting/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

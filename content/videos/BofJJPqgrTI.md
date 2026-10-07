@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:52:05.614Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -358,12 +358,14 @@ It then covers refreshable reports, where Power Query loads data from Business C
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Aged Accounts Receivables" at [11:32](https://www.youtube.com/watch?v=BofJJPqgrTI&t=692s)
 - report "Customer Aging data" at [15:06](https://www.youtube.com/watch?v=BofJJPqgrTI&t=906s)
 - report "Accounts Payables report" at [17:27](https://www.youtube.com/watch?v=BofJJPqgrTI&t=1047s)
 - report "Vendor Aging data" at [17:27](https://www.youtube.com/watch?v=BofJJPqgrTI&t=1047s)
+
+Not found in BC28-30: report "Aged Accounts Receivables", report "Customer Aging data", report "Accounts Payables report", report "Vendor Aging data".
 
 ## Quotes
 

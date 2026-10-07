@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:43:35.047Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,7 +118,12 @@ evidence:
     quote: using profiles you can design the interaction surface of the agent and expose or hide certain controls from from its view
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/37026
+    - object/page/4315
+    - object/page/9807
+    - object/page/41
+    - object/page/42
   features: []
   topics: []
   localizations: []
@@ -343,14 +348,16 @@ It also covers filtering of irrelevant or harmful emails, the KPI dashboard, and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item availability" at [10:52](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=652s)
-- page "Agent Card" at [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s)
-- page "User Card" at [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s)
-- page "Sales Quote" at [24:15](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1455s)
-- page "Sales Order" at [25:14](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1514s)
+- [page 37026 "Item Availability"](../objects/page/37026.md) at [10:52](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=652s)
+- [page 4315 "Agent Card"](../objects/page/4315.md) at [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s)
+- [page 9807 "User Card"](../objects/page/9807.md) at [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s)
+- [page 41 "Sales Quote"](../objects/page/41.md) at [24:15](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1455s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [25:14](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1514s)
 - page "Roll Center" at [23:55](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1435s)
+
+Not found in BC28-30: page "Roll Center".
 
 ## Quotes
 

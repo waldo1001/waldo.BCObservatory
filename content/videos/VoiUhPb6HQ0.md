@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:20:57.517Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,9 @@ evidence:
     quote: we have code repository branches for code repository for versions from 15 all the way to 27
 links:
   learn: []
-  objects: []
+  objects:
+    - object/report/99000791
+    - object/report/99000753
   features: []
   topics: []
   localizations: []
@@ -251,14 +253,16 @@ The presenter then runs the Where Used report and reviews code changes in it and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Production Order Work in Progress" at [5:33](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=333s)
-- report "Production Order Statistics" at [6:00](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=360s)
+- [report 99000791 "Production Order Statistics"](../objects/report/99000791.md) at [6:00](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=360s)
 - report "Production Order List" at [6:00](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=360s)
 - report "Where Used Top Level" at [10:55](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=655s)
 - report "Where Used" at [13:50](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=830s)
-- report "Quantity Explosion of BOM" at [18:21](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1101s)
+- [report 99000753 "Quantity Explosion of BOM"](../objects/report/99000753.md) at [18:21](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1101s)
+
+Not found in BC28-30: report "Production Order Work in Progress", report "Production Order List", report "Where Used Top Level", report "Where Used".
 
 ## Quotes
 

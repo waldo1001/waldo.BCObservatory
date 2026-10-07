@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:13.360Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,7 +76,12 @@ evidence:
     quote: configuration packages are not working the best because they cannot move large amounts of data, while the re-implementation tool can.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/40063
+    - object/interface/bc14-migrator
+    - object/interface/custom-migration-provider
+    - object/enum/4010
+    - object/table/32
   features: []
   topics: []
   localizations: []
@@ -447,19 +452,19 @@ The second half is for developers. It describes 52 migration entities registered
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Cloud Migration Management" at [6:05](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=365s)
+- [page 40063 "Cloud Migration Management"](../objects/page/40063.md) at [6:05](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=365s)
 - codeunit "BC 14 Company Upgrade Task" at [12:48](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=768s)
-- interface "BC14 Migrator" at [13:38](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=818s)
+- [interface "BC14 Migrator"](../objects/interface/bc14-migrator.md) at [13:38](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=818s)
 - enum "BC 14 Setup Migrator" at [13:13](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=793s)
 - enum "Master Data Migrator" at [13:13](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=793s)
 - enum "Transaction Data Migrator" at [13:27](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=807s)
 - enum "BC14 migrator" at [13:38](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=818s)
 - table "customer table" at [15:09](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=909s)
 - table "buffer table" at [15:33](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=933s)
-- interface "custom migration provider" at [23:44](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1424s)
-- enum "custom migration provider" at [23:57](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1437s)
+- [interface "Custom Migration Provider"](../objects/interface/custom-migration-provider.md) at [23:44](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1424s)
+- [enum 4010 "Custom Migration Provider"](../objects/enum/4010.md) at [23:57](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1437s)
 - table "replication table mappings" at [24:15](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1455s)
 - table "setup table mappings" at [24:30](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1470s)
 - table "company table" at [23:08](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1388s)
@@ -471,7 +476,9 @@ As heard in the captions; not yet verified against the code pillar.
 - table "tenant media set" at [35:22](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2122s)
 - table "intelligent cloud" at [38:21](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2301s)
 - codeunit "AL upgrade" at [40:50](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2450s)
-- table "item ledger entry" at [46:32](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2792s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [46:32](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=2792s)
+
+Not found in BC28-30: codeunit "BC 14 Company Upgrade Task", enum "BC 14 Setup Migrator", enum "Master Data Migrator", enum "Transaction Data Migrator", enum "BC14 migrator", table "customer table", table "buffer table", table "replication table mappings", table "setup table mappings", table "company table", table "record links", page "cloud migration management page", table "record links and notes", table "item table", table "tenant media", table "tenant media set", table "intelligent cloud", codeunit "AL upgrade".
 
 ## Quotes
 

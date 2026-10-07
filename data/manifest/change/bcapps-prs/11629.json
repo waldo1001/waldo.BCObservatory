@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/11629",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Norwegian SAF-T 1.30 export issues",
+  "url": "https://github.com/microsoft/BCApps/pull/11629",
+  "published_at": "2026-10-07T18:22:58Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T20:00:32.874Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T20:01:05.382Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 4,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T20:01:25.601Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004056
+    },
+    "linked": {
+      "at": "2026-10-07T20:01:25.856Z",
+      "objects": 4,
+      "unjoined": 1,
+      "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa"
+    },
+    "published": {
+      "at": "2026-10-07T20:01:25.868Z",
+      "path": "content/changes/bcapps/11629.md"
+    }
+  },
+  "input_hash": "41aaca580ccb16a1720e9ce1443a01a4959ee953:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11629,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "41aaca580ccb16a1720e9ce1443a01a4959ee953",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix norwegian saf t 1 30 export issues"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63208561db94c2fe1b1ffbd8034eb93e238815a95b2efb4d135946b6dfdb8029"
+}

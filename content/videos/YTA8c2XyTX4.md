@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:50:47.582Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,7 +174,11 @@ evidence:
     quote: the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/23
+    - object/table/18
+    - object/table/5050
+    - object/table/27
   features: []
   topics: []
   localizations: []
@@ -442,24 +446,26 @@ A long demo shows Power Pages using virtual tables for anonymous external access
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "account table" at [4:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=274s)
-- table "vendor" at [4:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=274s)
-- table "customer" at [4:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=274s)
+- [table 23 "Vendor"](../objects/table/23.md) at [4:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=274s)
+- [table 18 "Customer"](../objects/table/18.md) at [4:34](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=274s)
 - table "items table" at [12:32](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=752s)
 - table "contact table" at [13:35](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=815s)
 - table "sales order table" at [14:16](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=856s)
 - table "external event subscription" at [8:49](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=529s)
 - table "external event activity loog" at [8:49](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=529s)
-- table "contact" at [13:35](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=815s)
+- [table 5050 "Contact"](../objects/table/5050.md) at [13:35](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=815s)
 - table "sales order" at [14:16](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=856s)
 - table "sales invoice" at [17:19](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1039s)
-- table "item" at [21:11](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1271s)
+- [table 27 "Item"](../objects/table/27.md) at [21:11](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1271s)
 - table "D 365 BC item" at [21:11](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1271s)
 - table "BC customer" at [23:32](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1412s)
 - table "activity lock" at [29:49](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1789s)
 - table "posted sales invoice" at [29:07](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1747s)
+
+Not found in BC28-30: table "account table", table "items table", table "contact table", table "sales order table", table "external event subscription", table "external event activity loog", table "sales order", table "sales invoice", table "D 365 BC item", table "BC customer", table "activity lock", table "posted sales invoice".
 
 ## Quotes
 

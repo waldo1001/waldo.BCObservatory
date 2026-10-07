@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:26:38.410Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -308,11 +308,13 @@ It then covers field and page features (mask type, the document extended data ty
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Flight Data" at [8:33](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=513s)
 - table "Flight Lock Entry" at [8:33](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=513s)
 - page "install code unit" at [10:59](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=659s)
+
+Not found in BC28-30: table "Flight Data", table "Flight Lock Entry", page "install code unit".
 
 ## Quotes
 

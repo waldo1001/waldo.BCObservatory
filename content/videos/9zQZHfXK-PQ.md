@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:06.410Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
     quote: good solutions need good documentation not just at the beginning but throughout all the journey
 links:
   learn: []
-  objects: []
+  objects:
+    - object/enum/18350-in
   features: []
   topics: []
   localizations: []
@@ -525,7 +526,7 @@ The demo walks through a sequential agent framework (business consultant, archit
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "codeunit" at [4:52](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=292s)
 - other "user story generator skill" at [40:57](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2457s)
@@ -533,7 +534,9 @@ As heard in the captions; not yet verified against the code pillar.
 - other "MADM file" at [52:48](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3168s)
 - enum "enum" at [1:00:27](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3627s)
 - table "related table" at [1:00:27](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3627s)
-- enum "status" at [1:10:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4238s)
+- [enum 18350 "Status (IN)"](../objects/enum/18350-in.md) at [1:10:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4238s)
+
+Not found in BC28-30: codeunit "codeunit", enum "enum", table "related table".
 
 ## Quotes
 

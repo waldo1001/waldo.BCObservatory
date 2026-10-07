@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:57:00.754Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
     quote: at the center is a module code unit it implements a standard interface that
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/270
   features: []
   topics: []
   localizations: []
@@ -283,12 +284,12 @@ The speaker then presents an open source Demo Data Generator that runs inside Bu
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - interface "controls demo data module" at [13:20](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=800s)
 - codeunit "Contoso bank helper code unit" at [14:12](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=852s)
 - codeunit "Contoso Bank Helper" at [14:12](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=852s)
-- table "Bank Account" at [13:52](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=832s)
+- [table 270 "Bank Account"](../objects/table/270.md) at [13:52](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=832s)
 - table "Bank Account Posting Groups" at [15:09](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=909s)
 - table "Table 270" at [22:17](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1337s)
 - codeunit "helper code unit" at [26:52](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1612s)
@@ -296,6 +297,8 @@ As heard in the captions; not yet verified against the code pillar.
 - table "bank export input setup" at [26:06](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1566s)
 - table "GL entries" at [32:28](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1948s)
 - other "demo data generator" at [41:13](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2473s)
+
+Not found in BC28-30: interface "controls demo data module", codeunit "Contoso bank helper code unit", codeunit "Contoso Bank Helper", table "Bank Account Posting Groups", table "Table 270", codeunit "helper code unit", table "bank card posting groups", table "bank export input setup", table "GL entries".
 
 ## Quotes
 

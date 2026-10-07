@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-al",
-  "input_hash": "90c8eeacc22289091a4f5ab57dc847d73e8ab6be827f631dc12f0b6c409743e0",
-  "summary": "Troubleshooting in AL covers tools and guidance for finding errors and performance problems in Business Central extensions: the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles, and printing troubleshooting. It answers how-to questions about debugging, profiling and diagnosing slow code or printer errors.",
-  "overview": "This section brings together the tools a developer uses to find and fix problems in AL code. Debugging in AL covers the Visual Studio Code debugger, breakpoints and database inspection. Snapshot debugging records execution on a production cloud server so it can be inspected offline. Page Inspection shows page structure, source tables, extensions and filters in the web client.\n\nFor performance, the AL Profiler records code execution in instrumentation or sampling mode to locate hot spots. The performance articles for AL developers add guidance on page design, web services, reports, coding patterns, data access and testing. A separate page covers printing problems, including payload checks and the Windows Event Log.\n\nStart with Debugging in AL for functional errors, or with AL Profiler overview and the performance articles for slow processes. Use Page Inspection when you need to understand a page without reading code, and Snapshot debugging when the problem only occurs in production.",
+  "input_hash": "8ef1712d1d69eb067d7272af31dbf963bea0510ca60ac6474c675b7a26c7952a",
+  "summary": "Troubleshooting in AL covers tools and guidance for finding and fixing problems in Business Central extensions: the AL debugger, snapshot debugging, the AL Profiler, Page Inspection, performance articles, and printing troubleshooting. It answers questions on debugging, performance hot spots, page structure and printer errors.",
+  "overview": "This section groups the diagnostic tools an AL developer uses when something is wrong or slow. Debugging in AL covers the Visual Studio Code debugger, breakpoints and database inspection. Snapshot debugging records code on a production cloud server so it can be debugged offline. The AL Profiler records execution details to find performance hot spots.\n\nPage Inspection works in the web client and shows page structure, source table, fields, extensions and filters without reading code. Performance Articles for AL Developers gives guidance on pages, web services, reports, AL patterns, data access and testing. Troubleshooting Printing helps with printer and report payload errors.\n\nStart with Debugging in AL for functional errors, the AL Profiler or the performance articles for slowness, Snapshot debugging for issues that only occur in production, and Page Inspection to understand what a page shows and where it comes from.",
   "key_points": [
-    "Debugging in AL uses the Visual Studio Code debugger with conditional breakpoints, break on errors, break on record changes, SQL debugging, database locks inspection and web service debugging.",
-    "Snapshot debugging records a specified user session on a production cloud server. Snappoints log variable state without stopping execution, and you debug the snapshot offline in VS Code. The page mentions versions 17.2 and 18.1.",
-    "AL Profiler offers instrumentation and sampling modes, SQL call tracking, call stack views, CodeLens integration and in-client profiling. The page mentions 2025 release wave 2.",
-    "Page Inspection in the web client shows page structure, source table and fields, extensions and filters without examining code. The page mentions 2023 release wave 2.",
-    "Performance articles cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscription performance.",
-    "Troubleshooting Printing explains how to resolve printer and report payload errors, read the Windows Event Log, and test printers using the Printers system table."
+    "Debugging in AL uses the Visual Studio Code debugger with breakpoints, conditional breakpoints, break on errors, break on record changes, SQL debugging, database locks inspection and web service debugging.",
+    "Snapshot debugging records AL execution for a specified user session on production cloud servers and replays it offline in Visual Studio Code using snappoints, which log variable state without stopping execution.",
+    "Snapshot debugging pages mention versions 17.2 and 18.1, and include built-in codeunit trigger debugging and verbosity control.",
+    "The AL Profiler has instrumentation and sampling modes, configured in launch.json, and shows call stacks (top-down and bottom-up), timings, SQL calls, a Performance Profiler page and CodeLens timings.",
+    "Page Inspection shows page structure, source table and fields, extensions and filters in the web client; its page references 2023 release wave 2.",
+    "Performance articles cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscriptions.",
+    "Troubleshooting Printing covers payload validation, the Windows Event Log, error messages and testing printers through the Printers system table."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:07:29.201Z",
+  "at": "2026-10-07T21:13:11.800Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.014627000000000001
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:23:30.195Z",
+    "at": "2026-10-07T21:13:11.963Z",
     "verdict": "fix",
     "issues": [
-      "Key point on AL Profiler ties '2025 release wave 2' to in-client profiling specifically. The source lists that version for the page, not for that feature. I reworded it so the version refers to the page.",
-      "Key point on Page Inspection implies the feature arrived in 2023 release wave 2. The source only lists that version for the page. I reworded it the same way.",
-      "Minor: the overview advises using snapshot debugging when 'the problem only occurs in production'. That is a reasonable inference from 'production environment debugging', so I left it."
+      "The Page Inspection key point said \"(2023 release wave 2)\". That reads as the release that introduced the feature. The source only lists that version on the page and does not say what it refers to. I reworded the point so it doesn't imply a release date.",
+      "Everything else in the summary, overview and key points matches the page summaries. The overview's advice on which tool to start with is a reasonable inference from what each page covers."
     ],
-    "input_hash": "90c8eeacc22289091a4f5ab57dc847d73e8ab6be827f631dc12f0b6c409743e0",
-    "cost_usd": 0.0434392
+    "input_hash": "8ef1712d1d69eb067d7272af31dbf963bea0510ca60ac6474c675b7a26c7952a",
+    "cost_usd": null
   }
 }

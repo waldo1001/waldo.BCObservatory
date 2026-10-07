@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:10:21.363Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -269,10 +269,12 @@ For wave 2 it covers stabilization work, new default connectors built with partn
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "E documents" at [8:20](https://www.youtube.com/watch?v=hba7KVWrIwY&t=500s)
 - page "E doent services" at [8:20](https://www.youtube.com/watch?v=hba7KVWrIwY&t=500s)
+
+Not found in BC28-30: page "E documents", page "E doent services".
 
 ## Quotes
 

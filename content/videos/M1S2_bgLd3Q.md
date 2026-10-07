@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:27:20.020Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -365,11 +365,13 @@ It also covers database optimizations for flow fields and server-side pivot on d
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "GL account" at [6:13](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=373s)
 - table "GL entry" at [6:13](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=373s)
 - other "Word addin" at [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s)
+
+Not found in BC28-30: table "GL account", table "GL entry".
 
 ## Quotes
 

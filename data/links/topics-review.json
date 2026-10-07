@@ -4060,23 +4060,28 @@
     "topic/dev-itpro/administration/understand-business-central-online": {
       "post/demiliani-com/12734@d09adf50690c69d6": {
         "verdict": "keep",
-        "reason": "Covers where online tenants are hosted (Italy North region) and the latency gain, which is part of understanding how the online service is hosted.",
-        "at": "2026-10-07T02:01:23.741Z"
+        "reason": "Covers which datacenter hosts Business Central online for a region and the latency and data-location effects, which belongs in an overview of the online service.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/demiliani-com/15895@f6513380b5c5f46b": {
         "verdict": "keep",
-        "reason": "Covers data residency and moving environments to the Italy North Azure region, which is about where online environments live.",
-        "at": "2026-10-07T02:01:23.741Z"
+        "reason": "Discusses Business Central online now running in the Italy North datacenter and the data residency benefits, part of understanding where the online service runs.",
+        "at": "2026-10-07T21:12:35.420Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@12cbe9556b3bb782": {
+        "verdict": "drop",
+        "reason": "A list of cumulative update releases is general release news, not something this section documents.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/thinkaboutit-be/8211@e4ebe04a87852367": {
         "verdict": "drop",
-        "reason": "About where roadmap information will be published after Release Plans retire, not something this section documents; release cadence comes up only in passing.",
-        "at": "2026-10-07T02:01:23.741Z"
+        "reason": "About retiring the release plans and moving the roadmap elsewhere, a different subject from understanding the online service or its environment types.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "video/qwEnuR0vgYo@066fa01318a0ca7c": {
-        "verdict": "keep",
-        "reason": "Shows setting up sandbox and production environments, which matches the Environment types subtopic.",
-        "at": "2026-10-07T02:01:23.741Z"
+        "verdict": "drop",
+        "reason": "Mostly shows admin center tasks (creating environments, update windows, notification recipients), which the sibling Admin center section documents.",
+        "at": "2026-10-07T21:12:35.420Z"
       }
     },
     "topic/dev-itpro/administration/understand-business-central-online/environment-types": {
@@ -4125,53 +4130,58 @@
     "topic/dev-itpro/business-central-on-premises/upgrade": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/august-2026-cumulative-updates-for-dynamics-365-business-central/@dfdf7d19995036b0": {
         "verdict": "keep",
-        "reason": "Covers the on-premises cumulative updates for v28, v27 and v26, which are the per-wave update releases this section lists.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists the August 2026 on-premises cumulative updates for v28, v27 and v26, which match the section's version subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/@5530485a39c3e7ff": {
         "verdict": "keep",
-        "reason": "Covers the on-premises cumulative updates for v28, v27 and v26 and upgrade readiness, matching this section's per-wave subtopics.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists the September 2026 on-premises cumulative updates for v28, v27 and v26, which the section documents by version.",
+        "at": "2026-10-07T21:12:35.420Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@12cbe9556b3bb782": {
+        "verdict": "keep",
+        "reason": "Covers the October 2026 on-premises cumulative updates for v28, v27 and v26 and the v29 release, which match the section's version subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/10921@00740dc0047db8c5": {
         "verdict": "keep",
-        "reason": "Lists the cumulative updates for v26 and v25 plus earlier versions, which matches the per-wave and earlier-versions subtopics.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists cumulative updates for v26, v25 and older on-premises versions, which match the section's version and earlier-versions subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/11452@9a7bb3d3bb129c12": {
         "verdict": "keep",
-        "reason": "Lists the cumulative updates for v26, v25 and v24, the on-premises update releases this section documents.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists cumulative updates for v26, v25 and v24, which the Upgrade section documents by release wave.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/11766@054a8a00e19cb936": {
         "verdict": "keep",
-        "reason": "Links the on-premises update pages for v26, v25 and v24, matching this section's per-version content.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists on-premises cumulative updates for v26, v25 and v24, which match the section's version subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/12231@7e56c7af0b2aefd1": {
         "verdict": "keep",
-        "reason": "Lists specific cumulative update numbers for v26, v25 and v24, matching this section's per-wave update content.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Names specific updates (26.5, 25.11, 24.17) under the versions the section organizes.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/12460@c86506220db84973": {
         "verdict": "keep",
-        "reason": "Lists the latest cumulative updates for v26, v25 and v24, matching this section's per-wave subtopics.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Names specific updates (26.6, 25.12, 24.18) for versions covered in the section's subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/12728@343b3c3371043aa9": {
         "verdict": "keep",
-        "reason": "Lists the cumulative updates for v27, v26 and v25, plus older versions, which are covered by this section's subtopics.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Lists cumulative updates for v27, v26 and v25, which match the section's version subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/13195@9310088ce3e23178": {
         "verdict": "keep",
-        "reason": "Lists specific updates for v27, v26 and v25, matching this section's per-wave update content.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Names updates 27.2, 26.8 and 25.14 for versions the section documents.",
+        "at": "2026-10-07T21:12:35.420Z"
       },
       "post/gerardorenteria-blog/13744@fc098079983c408e": {
         "verdict": "keep",
-        "reason": "An index of hotfix links for every version up to v28, matching this section's per-wave and earlier-versions subtopics.",
-        "at": "2026-10-07T01:58:04.475Z"
+        "reason": "Indexes cumulative updates from v14 through v28, covering the section's current-version and earlier-versions subtopics.",
+        "at": "2026-10-07T21:12:35.420Z"
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26": {
@@ -4226,10 +4236,20 @@
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29": {
+      "post/duiliotacconi-com/2201@adaf08b07ad9514b": {
+        "verdict": "drop",
+        "reason": "It covers the limits on table fields and indexes in v29 and how extension fields are merged into tables, not the on-premises upgrade to v29.",
+        "at": "2026-10-07T21:12:45.200Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@12cbe9556b3bb782": {
+        "verdict": "drop",
+        "reason": "It's a roundup of monthly cumulative updates and says nothing about how to upgrade an on-premises installation to v29.",
+        "at": "2026-10-07T21:12:45.200Z"
+      },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5505178199606845450@d5d3a18244c20f20": {
         "verdict": "drop",
-        "reason": "It covers the cloud upgrade cycle and admin center steps, not upgrading on-premises to v29, which is what this section documents.",
-        "at": "2026-10-07T02:02:07.604Z"
+        "reason": "It's about preparing online (cloud) environments for v29, such as setting update windows and notification recipients, not the on-premises upgrade this section documents.",
+        "at": "2026-10-07T21:12:45.200Z"
       }
     },
     "topic/dev-itpro/development": {
@@ -5773,48 +5793,53 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures": {
       "post/aardvarklabs-blog/2827@bd45d1134f50922e": {
         "verdict": "keep",
-        "reason": "Explains the MaskType field property that is set on table field definitions.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It covers the MaskType property, which is set when a field is defined in a table.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "post/demiliani-com/12623@6773a23b91b53805": {
+        "verdict": "drop",
+        "reason": "Its main subject is showing PDF previews in FactBox pages, not how table structures are defined.",
+        "at": "2026-10-07T21:12:46.490Z"
+      },
+      "post/duiliotacconi-com/2201@adaf08b07ad9514b": {
         "verdict": "keep",
-        "reason": "Covers the new Document ExtendedDataType property on Media and MediaSet table fields.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It directly discusses table structure limits: how many fields a table can have, record size and how many keys it can have.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342@f583594e59e64343": {
         "verdict": "keep",
-        "reason": "Explains how table extension fields and keys are stored and defined in BC29, which is part of defining table structures.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It explains how the storage of table extension fields changed, which affects how tables are structured.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/@684c77a4d6f8e706": {
         "verdict": "keep",
-        "reason": "Explains the InitValue table field property and its limits in table extensions.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It explains the InitValue property on table fields, which is part of defining a field.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "post/thinkaboutit-be/7609@cf5fa35fc0a9c8fe": {
         "verdict": "drop",
-        "reason": "Its subject is a VS Code visualization tool, not how to define table structures.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It is about a VS Code tool that draws diagrams of table relations, not about defining tables.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "video/D_Lur52IrIg@e90598720732a410": {
         "verdict": "drop",
-        "reason": "Broad release overview where table-related items are only a few of many topics; too general.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It is a broad what's-new overview, and the table changes are only a few items among many unrelated features.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "video/PZVTTem-nZw@853be4f8ccf87147": {
         "verdict": "keep",
-        "reason": "Shows how BC29 table extensions with cross-app keys are created and stored.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It demonstrates how to create table extensions and how they are stored in BC29.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "video/qABlX4AL3GM@a3c9c8a665686984": {
         "verdict": "keep",
-        "reason": "Video on the BC29 table extension storage model and indexes that span base and extension fields.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It covers the change in how table extensions are stored and what that means for data modeling.",
+        "at": "2026-10-07T21:12:46.490Z"
       },
       "video/TH70oJI4Ae0@860639755309cb83": {
         "verdict": "keep",
-        "reason": "Covers how many fields a table can hold, record size limits and data type sizes when defining tables and extensions.",
-        "at": "2026-10-07T02:00:14.707Z"
+        "reason": "It explains the limits on fields and record size when defining tables.",
+        "at": "2026-10-07T21:12:46.490Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters": {
@@ -5869,53 +5894,58 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance": {
       "post/aardvarklabs-blog/3761@dd2af02b14d5c5fa": {
         "verdict": "keep",
-        "reason": "Focuses on analyzing missing indexes and adding AL index definitions with read/write tradeoff benchmarking.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Covers analysing missing-index data and implementing AL keys, weighing read gains against write costs.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/aardvarklabs-blog/3983@18fce89d7d64a826": {
         "verdict": "drop",
-        "reason": "About how table extension data is stored in SQL; indexing is only mentioned as a side benefit.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "About how table extension fields are stored in SQL, which belongs to table structure; indexing is only mentioned in passing.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Explains how primary key choice affects clustered index fragmentation and page splits, which is an index design concern.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Explains how sequential vs random GUID keys affect clustered index fragmentation and page splits.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/duiliotacconi-com/1425@dfbc698cbf2a244c": {
         "verdict": "drop",
-        "reason": "About transaction isolation and optimized locking, not indexing.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "About locking and transaction isolation levels, not indexing.",
+        "at": "2026-10-07T21:12:53.142Z"
+      },
+      "post/duiliotacconi-com/2201@adaf08b07ad9514b": {
+        "verdict": "keep",
+        "reason": "A large part covers key/index limits and mixing base and extension fields in indexes.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/@02851cc68be9d711": {
         "verdict": "drop",
-        "reason": "Weekly digest where index management is one of five unrelated items.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Weekly roundup of five unrelated topics; index management is only one brief item.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Directly about defining keys/indexes spanning base and extension fields and index tradeoffs.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Directly about defining keys that span base and extension fields, plus index write-cost trade-offs.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480@edb369c1a9deec49": {
-        "verdict": "keep",
-        "reason": "Explains SIFT indexes, their read/write tradeoffs and managing them, which is part of indexing for performance.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "verdict": "drop",
+        "reason": "About admins switching SIFT indexes on or off in Table Information, an admin feature rather than AL index design.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@d39e7ae0d479a19d": {
         "verdict": "keep",
-        "reason": "Core treatment of planning keys, clustered/non-clustered, SIFT and columnstore indexes in BC.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Directly about planning table indexes: clustered, non-clustered, SIFT, columnstore and covering indexes.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "post/waldo-be/318212@6b4843149786b5de": {
         "verdict": "keep",
-        "reason": "About identifying missing indexes and adding/removing keys through AL development.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "reason": "Covers using missing-index data to decide which keys to add through AL development.",
+        "at": "2026-10-07T21:12:53.142Z"
       },
       "video/IAacWsvav1E@c258ac6fe984a811": {
-        "verdict": "keep",
-        "reason": "Demonstrates the index management capabilities for table indexes and their lifecycle.",
-        "at": "2026-10-07T13:36:15.609Z"
+        "verdict": "drop",
+        "reason": "Shows the admin index management page and runtime toggling, not defining indexes in AL.",
+        "at": "2026-10-07T21:12:53.142Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data": {
@@ -6661,158 +6691,108 @@
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
       "post/katson-com/4756@7cffe06961450b39": {
         "verdict": "drop",
-        "reason": "About using AI coding assistants to build extensions, not about coding Business Central agents in AL.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About a method for writing AL extensions with AI coding assistants, not about building Business Central agents in AL.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/kauffmann-nl/8436@8392a5ca603c7470": {
         "verdict": "keep",
-        "reason": "Covers turning a designed agent into AL code with the Agent template, which is what this section documents.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "Covers turning a designed agent into AL code: exporting its XML and building an AL project from the Agent template.",
+        "at": "2026-10-07T21:12:45.779Z"
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@fea6d355c6532c15": {
+        "verdict": "drop",
+        "reason": "About the MCP server's data query tools for outside agents, not about coding Business Central agents in AL.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2130488198731903549@66de06cfa3c6657f": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot modes for AL development, not about coding Business Central agents.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About the modes of GitHub Copilot for AL development, not about building Business Central agents.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@165e93180763b684": {
         "verdict": "drop",
-        "reason": "About vibe coding with Copilot, not about building agents in AL.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About 'vibe coding' (letting the AI write most of the code) with GitHub Copilot, which is AI-assisted coding, not coding Business Central agents.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@c6594c6cfe12a33b": {
         "verdict": "drop",
-        "reason": "About a Claude Code multi-agent workflow for AL development, which is a different capability.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About a Claude Code multi-agent workflow for writing AL, not about building Business Central agents.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/thinkaboutit-be/8170@c510bb733d17ddd8": {
         "verdict": "drop",
-        "reason": "About VS Code Copilot Chat roles and custom chat agents, not about Business Central agents in AL.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About changes to VS Code Copilot Chat agent roles, not about Business Central agents in AL.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About a code analyzer tool and only mentions AI agents in passing.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About the ALCops code analyzer tool; AI integration is only mentioned in passing.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "drop",
-        "reason": "About code analyzers and their MCP integration, not about coding Business Central agents.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About ALCops code analyzers and their MCP server for AI assistants, not about coding Business Central agents.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "post/waldo-be/318423@1b3f3f874b28f082": {
         "verdict": "drop",
-        "reason": "About a telemetry analysis tool, which is unrelated to coding agents in AL.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "About a tool for analyzing telemetry with AI chat features, not about coding agents in AL.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "video/EwN3xb2q7vE@fa320b248e55e095": {
         "verdict": "keep",
-        "reason": "Directly demonstrates coding Business Central agents in AL with agent type, factory interface, setup and tasks APIs.",
-        "at": "2026-10-07T16:30:12.484Z"
+        "reason": "Shows how to code Business Central agents in AL: agent type definition, factory and metadata interfaces, setup, and the tasks API.",
+        "at": "2026-10-07T21:12:45.779Z"
       },
       "video/mBU2Iu0urw8@ef05a2337fd23452": {
         "verdict": "drop",
-        "reason": "About AI-assisted AL development tooling and the ALMCP server, not about building Business Central agents in AL.",
-        "at": "2026-10-07T16:30:12.484Z"
-      },
-      "post/aardvarklabs-blog/3060@68f76e4be5726e40": {
-        "verdict": "drop",
-        "reason": "About using Copilot Chat to speed up development and gather requirements, not about building agents in AL.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/aardvarklabs-blog/3097@8e325a3f81621c91": {
-        "verdict": "keep",
-        "reason": "Walks through building an agent in AL step by step, covering IAgentFactory, IAgentMetadata, AgentTaskBuilder and SetInstructions.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/aardvarklabs-blog/3348@1b6803166ffc1249": {
-        "verdict": "keep",
-        "reason": "Shows AL code that limits what a coded agent can see and do, using profiles, page customizations and permission sets.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/bertverbeek-nl/1219@ed475bb933c46f16": {
-        "verdict": "keep",
-        "reason": "Explains how custom agents are triggered and run, using AgentTaskBuilder, AgentTaskMessageBuilder and the Agent Message codeunit.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/bertverbeek-nl/1237@3f159fc50062acab": {
-        "verdict": "drop",
-        "reason": "About writing prompts and instructions for an agent, not about the AL code that builds it.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/bertverbeek-nl/1272@7b07cd2e0f076177": {
-        "verdict": "keep",
-        "reason": "Directly about creating and registering agents in AL code, covering the interfaces, setup pages and KPI pages.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/demiliani-com/12644@8f82d42475c5da29": {
-        "verdict": "keep",
-        "reason": "Covers debugging agent sessions from the AL Language extension in VS Code, which is part of developing coded agents.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/@b041bc80a4031014": {
-        "verdict": "drop",
-        "reason": "A weekly roundup where \"coding agents\" means AI coding assistants, not Business Central agents built in AL.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@c0acd3725fc2bd0e": {
-        "verdict": "drop",
-        "reason": "A weekly roundup that mentions the model-selection AL APIs for code-defined agents only briefly.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/gerardorenteria-blog/14231@942672c6729c54df": {
-        "verdict": "drop",
-        "reason": "About how VS Code compacts AI chat history, which has nothing to do with Business Central agents built in AL.",
-        "at": "2026-10-07T16:30:16.113Z"
-      },
-      "post/katson-com/4727@fa198c47914c1e6c": {
-        "verdict": "drop",
-        "reason": "An opinion piece about sharing knowledge on AI coding tools; too general and about a different subject.",
-        "at": "2026-10-07T16:30:16.113Z"
+        "reason": "About AI-assisted AL development tooling (Copilot agent modes, ALMCP), not building Business Central agents in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/MNwTt06ZxwY@6a357ea37188254b": {
         "verdict": "keep",
-        "reason": "Demonstrates building agents in AL code: the AL project agent template, the metadata provider enum, the factory and metadata interfaces, and shipping agents through extensions.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "Covers building agents in AL: agent template for AL projects, metadata provider, factory and metadata interfaces, and deployment via extensions.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/nMiLzdfidos@69ae7624f85965bc": {
         "verdict": "drop",
-        "reason": "Covers AL language updates and AI coding assistants for AL, not building Business Central agents in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "AL language release overview; its AI content is about coding assistants, not authoring agents in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/nPF84Ufkn4k@d40729e888462b37": {
         "verdict": "drop",
-        "reason": "About how the agent runtime works internally (prompts, validation, memory), not how to code agents in AL; the Agent SDK only gets a passing mention.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "Explains platform agent runtime internals rather than how to code an agent in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/npkC4wyucyY@cac092552be1d495": {
         "verdict": "drop",
-        "reason": "About benchmarking AI coding assistants on AL tasks, not building agents in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "Benchmarks AI coding assistants on AL tasks, a different meaning of 'coding agents'.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/Q-oazDEucLE@deb511380cb8262d": {
         "verdict": "drop",
-        "reason": "About using AI coding assistants to refactor legacy AL code, which is a different capability.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "About using AI agents to refactor legacy AL code, not building Business Central agents.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/qs1cg-GoDeQ@ba5ef9f08ae65530": {
         "verdict": "drop",
-        "reason": "About the MCP server's data tools, not coding agents in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "About MCP server data tools, a different capability.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/xB9kszf93hE@f32ea6478b38cd4c": {
         "verdict": "drop",
-        "reason": "About why AI evaluations matter for agent testing, a different topic from building agents in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "General introduction to agent evaluations; it doesn't cover coding agents in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/yIYUCSK0Bh4@4f86c8be28805455": {
         "verdict": "drop",
-        "reason": "Here \"coding agents\" means AI tools that solve AL coding tasks in the BC-Bench benchmark, not Business Central agents built in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "BC-Bench evaluates AI coding assistants on AL tasks, not authoring agents in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       },
       "video/zQg48VT0crU@a708302b275cfab8": {
         "verdict": "drop",
-        "reason": "A general discussion of AI-assisted AL development workflows and models, not about building agents in AL.",
-        "at": "2026-10-07T16:30:24.142Z"
+        "reason": "Podcast on AI models and workflows for AL development, not building agents in AL.",
+        "at": "2026-10-07T21:12:50.098Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
@@ -7395,6 +7375,13 @@
         "at": "2026-10-07T02:00:19.971Z"
       }
     },
+    "topic/dev-itpro/integration/integrating-with-infrastructure-services": {
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@fea6d355c6532c15": {
+        "verdict": "drop",
+        "reason": "The post covers the Data Query Tools feature of the Business Central MCP server, which lets agents query data. That is an agent and API-access topic, not one of the infrastructure services this section documents.",
+        "at": "2026-10-07T21:12:51.218Z"
+      }
+    },
     "topic/dev-itpro/integration/integrating-with-microsoft-dataverse": {
       "post/vondervoort-be/67@e457bb7942857e27": {
         "verdict": "drop",
@@ -7721,83 +7708,88 @@
     "topic/dev-itpro/integration/web-services/apis": {
       "post/aardvarklabs-blog/2017@930b8fc974af98a5": {
         "verdict": "keep",
-        "reason": "Shows how to build custom Query APIs that expose Business Central data, which is part of the APIs topic.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "Shows how to build query-type APIs that expose Business Central data to Power BI, which is what this APIs section documents.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/aardvarklabs-blog/2565@33f352544e07b40d": {
-        "verdict": "keep",
-        "reason": "Explains moving integrations from OData pages to API 2.0 or custom APIs, so APIs are its main subject.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "verdict": "drop",
+        "reason": "Mainly about removing OData web service endpoints for Microsoft pages, which the sibling OData/publishing sections cover; APIs only come up as a migration option.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/aardvarklabs-blog/2953@5150f80a511d4ab9": {
         "verdict": "drop",
-        "reason": "About calling outside APIs from AL with HttpClient, a different capability from Business Central's own APIs.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "About calling external, non-Business Central APIs from AL with HttpClient, which is a different capability.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/aardvarklabs-blog/3631@1e1ee4ca062be521": {
         "verdict": "drop",
-        "reason": "About SFTP file handling with Power Automate; the API page is only the means of doing it.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "About an SFTP file-import workflow through Power Automate; the API page is only a means to an end.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/demiliani-com/11962@b1b9858818629f97": {
         "verdict": "keep",
-        "reason": "Covers how clients can use compression to shrink Business Central API responses.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "Covers using Brotli compression to shrink Business Central API responses, which concerns how the APIs are used.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/jpearson-blog/1485@76ccdfe2b18c3fac": {
         "verdict": "drop",
-        "reason": "About signing in with managed identities and federated credentials, which the Web services security section covers.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "About authenticating with managed identities and federated credentials, which the sibling Web services security section covers.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/jpearson-blog/1535@5cb20dadfed9a3a2": {
         "verdict": "drop",
-        "reason": "About granting API permissions to managed identities, which the Web services security section covers.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "About granting a managed identity permissions for authentication, which belongs to the sibling Web services security section.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090@4ddca877bc17fc45": {
         "verdict": "keep",
-        "reason": "Explains how API templates work on standard and custom API pages, which is a Business Central API feature.",
-        "at": "2026-10-07T16:29:29.107Z"
+        "reason": "Explains how API templates behave on standard and custom Business Central API pages, a feature of the APIs.",
+        "at": "2026-10-07T21:12:59.484Z"
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@fea6d355c6532c15": {
+        "verdict": "drop",
+        "reason": "About the data query tools on the MCP server, presented as an alternative to APIs rather than about the APIs.",
+        "at": "2026-10-07T21:12:59.484Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983@f5f4348fb79935f7": {
         "verdict": "drop",
-        "reason": "Mainly about testing an MCP and Claude setup; it mentions APIs only as background plumbing.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "About testing an MCP/Claude setup; custom API pages are only mentioned in passing.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@b8602de8d51a2928": {
         "verdict": "drop",
-        "reason": "A developer performance tip about the DataAccessIntent property; API pages come up only as one place to set it.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Covers a general performance property (DataAccessIntent) for pages and reports, not the APIs documented here.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@42d05b2755ba48f8": {
         "verdict": "keep",
-        "reason": "Troubleshoots the standard Sales Invoices API and its API Data Upgrade process.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Troubleshoots the standard Sales Invoices API and its data upgrade to restore missing results.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@5c0d2b80f79eb54d": {
         "verdict": "keep",
-        "reason": "Explores the standard API v2 objects that Microsoft ships with Business Central.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Explores the standard API v2 objects app as a reference for using and extending the APIs.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "post/thinkaboutit-be/7683@545d0a37b0a2cf9e": {
         "verdict": "keep",
-        "reason": "Explains Business Central's REST API object types (pages versus queries) and how to choose between them for integrations.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Explains API pages versus API queries and design choices that affect systems that call them.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "post/thinkaboutit-be/7813@f30e27015777b791": {
         "verdict": "drop",
-        "reason": "Mostly about what's new in document reporting; the new document APIs are one bullet among many.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Mainly about BC28 document reporting features; new document APIs are one passing bullet.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "video/1ft4o9lQzsU@7d2d8d29cb5f22af": {
         "verdict": "drop",
-        "reason": "About Excel report layouts; API connection and authentication is only a minor supporting topic.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "Subject is Excel report layouts; API connection is only a supporting step.",
+        "at": "2026-10-07T21:13:02.377Z"
       },
       "video/2N2NhNH7dsk@751dcce567fffb1e": {
         "verdict": "keep",
-        "reason": "Covers the new Report Inbox APIs and their API overview page as a main topic.",
-        "at": "2026-10-07T16:29:33.370Z"
+        "reason": "The Report Inbox APIs are a headline topic, shown along with their API overview page.",
+        "at": "2026-10-07T21:13:02.377Z"
       }
     },
     "topic/dev-itpro/integration/web-services/odata": {

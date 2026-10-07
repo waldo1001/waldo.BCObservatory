@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:19:31.368Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,7 +59,8 @@ evidence:
     quote: you can also bring them back just select from external storage and the system will download all those document attachments back to Business Central
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -198,13 +199,15 @@ It then covers upload and delete policies: a job queue that runs at 1:00 a.m. by
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "External File Accounts" at [0:16](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=16s)
 - page "File Scenarios" at [0:32](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=32s)
 - page "Assign Scenarios" at [0:32](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=32s)
-- page "Sales Orders" at [3:07](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=187s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [3:07](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=187s)
 - page "Document Attachments External Storage" at [0:45](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=45s)
+
+Not found in BC28-30: page "External File Accounts", page "File Scenarios", page "Assign Scenarios", page "Document Attachments External Storage".
 
 ## Quotes
 

@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures
 type: topic
 title: Defining table structures
-summary: Defining table structures in AL covers table objects, table extensions, system fields, table relationships, field tooltips and optimized text search. It answers questions about how to declare tables, fields, keys and triggers, extend base tables, and set properties such as TableRelation, ToolTip and OptimizeForTextSearch.
+summary: "Defining table structures in AL covers how to build Business Central tables: the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search. It answers questions about syntax, properties, and extensibility of tables."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:34.553Z"
+  at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: be7250e37ed75f2daf16a3054d139511ca590482945a99aec99be63e21d4ea3d
+  input_hash: cd7b7b747fb2d49cff1e52338d2f4a5e0515b4fddef4485ece5868b2b043a5ea
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    title: Add tooltips to table and page fields
-    date: "2024-03-13"
+    title: Add Tooltips to Table and Page Fields
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -87,7 +87,7 @@ links:
     - video/TH70oJI4Ae0
   posts:
     - post/aardvarklabs-blog/2827
-    - post/demiliani-com/12623
+    - post/duiliotacconi-com/2201
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
   guidelines: []
@@ -124,29 +124,31 @@ narrative: generated
 
 # Defining table structures
 
-> Defining table structures in AL covers table objects, table extensions, system fields, table relationships, field tooltips and optimized text search. It answers questions about how to declare tables, fields, keys and triggers, extend base tables, and set properties such as TableRelation, ToolTip and OptimizeForTextSearch.
+> Defining table structures in AL covers how to build Business Central tables: the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search. It answers questions about syntax, properties, and extensibility of tables.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Defining table structures · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-Tables are the basic database objects in Business Central. They store data and consist of table data and a table description, which holds fields, keys, properties and triggers. The Tables overview page is the place to start, and the Table object page then gives the syntax, limits and extensibility rules.
+Tables are the fundamental database objects in Business Central. A table has data and a description made up of fields, keys, properties, and triggers. The pages in this section describe each part of that structure, from general concepts to specific properties.
 
-The other pages cover specific parts of a table definition. Setting Relationships Between Tables explains the TableRelation property for one-to-many, many-to-many and one-to-one relations. Table System Fields describes the fields every table gets automatically. Table extension object shows how to add fields, keys and trigger code without changing the base table. Two further pages cover field-level settings: tooltips on table fields, and optimized text search through full-text search.
+Start with Tables overview for the concepts, then read Table object for syntax, limitations, and extensibility rules. Setting Relationships Between Tables explains the TableRelation property for one-to-many, many-to-many, and one-to-one relations, including conditional relations and filters. Table extension object shows how to add fields, keys, and trigger code without changing the base table.
+
+Smaller pages cover specific topics: system fields that every table gets automatically, tooltips on table and page fields, and the OptimizeForTextSearch property for full-text search on character fields.
 
 ## Key points
 
-- Tables consist of table data and a table description with fields, keys, properties and triggers.
-- The TableRelation property defines relationships, using conditional relations and table filters. It supports data validation and lookups.
-- Table extensions add fields, keys and trigger code without modifying the base table. The Extensible property controls whether a table can be extended.
-- System fields are added to every table automatically: SystemId for unique record identification, the audit fields SystemCreatedAt, SystemCreatedBy, SystemModifiedAt and SystemModifiedBy, and SystemRowVersion as a timestamp for synchronization.
-- Tooltips can be defined on table fields starting in 2024 release wave 1. Pages inherit them automatically and can override them. CodeCop warning AA0234 is related.
-- The OptimizeForTextSearch property uses full-text search in SQL Server and Azure SQL Database. It gives case-insensitive and accent-insensitive searching on character data.
-- The Table object page also covers the InitValue property, the OnValidate trigger and Integer to BigInteger migration.
+- Tables consist of table data and a table description with fields, keys, properties, and triggers.
+- TableRelation defines one-to-many, many-to-many, and one-to-one relationships, with conditions and table filters, for validation and lookups.
+- Table extensions add fields, keys, and trigger code without modifying the base table; the Extensible property controls extensibility.
+- Every table gets system fields automatically: SystemId for unique record identification, audit fields (SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy), and SystemRowVersion for synchronization.
+- Tooltips set on table fields are inherited by pages starting in 2024 release wave 1, and page fields can override them; CodeCop rule AA0234 applies.
+- OptimizeForTextSearch uses full-text search in SQL Server and Azure SQL Database for efficient, case- and accent-insensitive searching on character data.
+- The Table object page covers InitValue, OnValidate, and Integer to BigInteger migration, and mentions 2024 release wave 1, 2024 release wave 2, and 2026 release wave 2.
 
 ## Learn pages
 
-- [Add tooltips to table and page fields](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips): Description of how you use AL to add tooltips to table and page fields so that they're available when users hover over fields in the client.
+- [Add Tooltips to Table and Page Fields](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips): Description of how you use AL to add tooltips to table and page fields so that they're available when users hover over fields in the client.
 - [Enable optimized text search on table fields](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search): Learn how to allow text search on table fields.
 - [Setting Relationships Between Tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-set-relationships-between-tables): Relationships between tables in relational database design for Business Central.
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
@@ -170,7 +172,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../../changes/bcquality/208.md) (code change): "Table relation fields shorter than their target compile cleanly but fail at runtime"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
-- [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../../posts/demiliani-com/12623.md) (community post): "Allows rendering PDF files and images in FactBox elements"
+- [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "field count limits, SQL Server 8KB record size constraints, key/index limits"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"

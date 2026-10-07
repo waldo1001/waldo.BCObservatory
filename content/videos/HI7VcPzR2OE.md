@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:48:23.781Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,7 +88,9 @@ evidence:
     quote: the GL revaluation or currency code on GL uh is from BC ideas the uh currency code uh with employee ledgers is also from
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/16
+    - object/page/39
   features: []
   topics: []
   localizations: []
@@ -236,13 +238,15 @@ The Excel reports carry a preview tag because changes and small improvements are
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "GL Account Card" at [1:40](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=100s)
 - table "GL Account" at [2:42](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=162s)
-- page "Chart of Accounts" at [3:02](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=182s)
-- page "General Journal" at [8:41](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=521s)
+- [page 16 "Chart of Accounts"](../objects/page/16.md) at [3:02](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=182s)
+- [page 39 "General Journal"](../objects/page/39.md) at [8:41](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=521s)
 - page "Recurring Journals" at [8:53](https://www.youtube.com/watch?v=HI7VcPzR2OE&t=533s)
+
+Not found in BC28-30: table "GL Account Card", table "GL Account", page "Recurring Journals".
 
 ## Quotes
 

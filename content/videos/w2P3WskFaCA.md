@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:08:53.422Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -431,7 +431,7 @@ Second, the presenter describes a workflow where nearly 100 percent of code is A
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "ISO 5055 standard" at [13:06](https://www.youtube.com/watch?v=w2P3WskFaCA&t=786s)
 - other "analyzer" at [12:38](https://www.youtube.com/watch?v=w2P3WskFaCA&t=758s)
@@ -442,6 +442,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "BC container helper PowerShell scripts" at [59:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3570s)
 - other "management API" at [1:00:43](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3643s)
 - other "AL objects" at [1:13:08](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4388s)
+
+Not found in BC28-30: codeunit "code unit".
 
 ## Quotes
 

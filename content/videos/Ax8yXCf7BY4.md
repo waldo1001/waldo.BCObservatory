@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:30:39.956Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,7 +132,8 @@ evidence:
     quote: current report object now has property called format region
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/317
   features: []
   topics: []
   localizations: []
@@ -334,15 +335,17 @@ It then walks through delocalization of Swedish functionality, the EU three-part
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "VAT statement" at [10:15](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=615s)
+- [page 317 "VAT Statement"](../objects/page/317.md) at [10:15](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=615s)
 - page "automatic account groups" at [11:27](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=687s)
 - table "GL entries" at [12:07](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=727s)
 - page "intrastat report setup page" at [15:36](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=936s)
 - table "item ledger entries" at [16:16](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=976s)
 - page "my settings page" at [17:51](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=1071s)
 - report "report object" at [19:18](https://www.youtube.com/watch?v=Ax8yXCf7BY4&t=1158s)
+
+Not found in BC28-30: page "automatic account groups", table "GL entries", page "intrastat report setup page", table "item ledger entries", page "my settings page", report "report object".
 
 ## Quotes
 

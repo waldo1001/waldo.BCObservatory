@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -230,7 +230,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Shopify shop card" at [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s)
 - other "Tax match review window" at [4:31](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=271s)

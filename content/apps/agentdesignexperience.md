@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c0cd9ef9af0816eb8800380d57ff47e6679135bbdc632bb7967f186c9b89f3f4
+  input_hash: 333afff6dc14a82cbe557a2f7977855dcb43a7171ec432f7d37f1830a8a11e3b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AgentDesignExperience/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AgentDesignExperience/app
     title: src/Apps/W1/AgentDesignExperience/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -235,4 +235,4 @@ First-party app · folder `src/Apps/W1/AgentDesignExperience/app` · namespace `
 |---|---|---|
 |  | [Agent Designer](../objects/entitlement/agent-designer.md) |  |
 
-Source: [src/Apps/W1/AgentDesignExperience/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AgentDesignExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AgentDesignExperience/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AgentDesignExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

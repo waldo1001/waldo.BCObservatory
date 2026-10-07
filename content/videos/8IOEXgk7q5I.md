@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:52:34.174Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,10 @@ evidence:
     quote: we introduced the inventory course adjustment tool a year ago and since then we have continued improving its perform performance and features
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/38
+    - object/page/506
+    - object/report/795
   features: []
   topics: []
   localizations: []
@@ -233,12 +236,14 @@ For high-volume items, cost adjustment can run period by period from the Invento
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Inventory Cost Adjustment" at [1:27](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=87s)
-- page "Item Ledger Entries" at [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s)
-- page "Item Application Entries" at [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s)
-- report "Adjust Cost - Item Entries" at [2:17](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=137s)
+- [page 38 "Item Ledger Entries"](../objects/page/38.md) at [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s)
+- [page 506 "Item Application Entries"](../objects/page/506.md) at [2:56](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=176s)
+- [report 795 "Adjust Cost - Item Entries"](../objects/report/795.md) at [2:17](https://www.youtube.com/watch?v=8IOEXgk7q5I&t=137s)
+
+Not found in BC28-30: page "Inventory Cost Adjustment".
 
 ## Quotes
 

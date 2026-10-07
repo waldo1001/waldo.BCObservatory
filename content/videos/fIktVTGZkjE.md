@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:25:55.758Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,10 +159,12 @@ In GP, the Correct button in the general journal window offers two options: back
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "general journal window" at [0:11](https://www.youtube.com/watch?v=fIktVTGZkjE&t=11s)
 - page "general ledger entries window" at [0:58](https://www.youtube.com/watch?v=fIktVTGZkjE&t=58s)
+
+Not found in BC28-30: page "general journal window", page "general ledger entries window".
 
 ## Quotes
 

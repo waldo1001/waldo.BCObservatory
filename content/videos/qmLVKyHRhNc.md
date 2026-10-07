@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:59:19.758Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -454,10 +454,12 @@ It then covers query discoverability in Tell Me and the role and report explorer
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Customer Ledger entries" at [8:33](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=513s)
 - query "analyze your invent inventory" at [14:10](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=850s)
+
+Not found in BC28-30: table "Customer Ledger entries", query "analyze your invent inventory".
 
 ## Quotes
 

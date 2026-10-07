@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:21:07.684Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -214,13 +214,15 @@ It also points to new documentation on financial reporting and analytics. The sp
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - query "analyze fixed assets" at [9:10](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=550s)
 - table "fixed assets Ledger entries" at [6:58](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=418s)
 - table "Ledger entries" at [1:28](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=88s)
 - table "customer Ledger entries" at [4:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=281s)
 - table "general ledger entries" at [4:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=281s)
+
+Not found in BC28-30: query "analyze fixed assets", table "fixed assets Ledger entries", table "Ledger entries", table "customer Ledger entries", table "general ledger entries".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -333,7 +333,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Business Sentinel" at [2:56](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=176s)
 - codeunit "helper code units" at [21:54](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1314s)
@@ -344,6 +344,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "code review agent" at [32:31](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1951s)
 - other "diagnostic fixer" at [33:57](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2037s)
 - other "MCP servers" at [40:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2437s)
+
+Not found in BC28-30: codeunit "helper code units", codeunit "resolver code units".
 
 ## Quotes
 

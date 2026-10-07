@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:19:46.984Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
     quote: You can actually mix and match your data from multiple sources using Power Query. So this is kind of that refreshable Excel reports experience.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/report/708
   features: []
   topics: []
   localizations: []
@@ -338,13 +339,15 @@ The second half covers refreshable Excel reports. These connect to Business Cent
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Physical inventory list" at [13:10](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=790s)
-- report "inventory order details" at [18:01](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1081s)
+- [report 708 "Inventory Order Details"](../objects/report/708.md) at [18:01](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1081s)
 - api "sales order item categories" at [38:05](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2285s)
 - api "sales orders API" at [41:57](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2517s)
 - table "item ledger entries" at [47:20](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2840s)
+
+Not found in BC28-30: report "Physical inventory list", table "item ledger entries".
 
 ## Quotes
 

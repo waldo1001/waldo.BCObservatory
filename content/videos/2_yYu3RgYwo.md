@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:55:13.194Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: These fields are only default values, but we can modify them. So we can change sustainability account to different one and also emissions can
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/99000758
   features: []
   topics: []
   localizations: []
@@ -237,15 +238,17 @@ GL accounts get only a default sustainability account, not emission values. On i
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "sustainability account" at [1:26](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=86s)
 - other "gas emissions" at [1:46](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=106s)
 - table "item card" at [1:46](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=106s)
 - table "resource card" at [1:46](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=106s)
-- table "machine center" at [1:46](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=106s)
+- [table 99000758 "Machine Center"](../objects/table/99000758.md) at [1:46](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=106s)
 - table "GL account" at [4:31](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=271s)
 - other "calculate carbon equivalent" at [3:36](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=216s)
+
+Not found in BC28-30: table "item card", table "resource card", table "GL account".
 
 ## Quotes
 

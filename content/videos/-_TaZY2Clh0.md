@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:24.238Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -492,7 +492,7 @@ The second half compares ways to update and insert under load. Modify in a loop 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "tr_locks" at [26:09](https://www.youtube.com/watch?v=-_TaZY2Clh0&t=1569s)
 - table "abstract table" at [26:57](https://www.youtube.com/watch?v=-_TaZY2Clh0&t=1617s)
@@ -507,6 +507,8 @@ As heard in the captions; not yet verified against the code pillar.
 - codeunit "entry" at [1:05:56](https://www.youtube.com/watch?v=-_TaZY2Clh0&t=3956s)
 - table "cinema allocation" at [1:18:31](https://www.youtube.com/watch?v=-_TaZY2Clh0&t=4711s)
 - table "cinema layout" at [1:18:31](https://www.youtube.com/watch?v=-_TaZY2Clh0&t=4711s)
+
+Not found in BC28-30: table "tr_locks", table "abstract table", table "entry table", codeunit "posting routine", codeunit "entry", table "cinema allocation", table "cinema layout".
 
 ## Quotes
 

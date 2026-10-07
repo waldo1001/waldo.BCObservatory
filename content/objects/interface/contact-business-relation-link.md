@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:23:11.326Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 25cd3be721f6c81dca03cf7d7d047db4de70ad67d76ab2e58c3005a86d2a374e
+  input_hash: 6e6419649e87da94215eb17d74ee5fa02937a15253dfeba4b0ae201b6422fd7f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/CRM/BusinessRelation/ContactBusinessRelationLink.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/CRM/BusinessRelation/ContactBusinessRelationLink.Interface.al
     title: src/Layers/W1/BaseApp/CRM/BusinessRelation/ContactBusinessRelationLink.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,17 +72,30 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 6
 ---
 
 # Interface "Contact Business Relation Link"
 
 > Interface "Contact Business Relation Link" in Base Application (Microsoft.CRM.BusinessRelation). 1 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.CRM.BusinessRelation · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/CRM/BusinessRelation/ContactBusinessRelationLink.Interface.al) · facts from BC29
+Base Application · Microsoft.CRM.BusinessRelation · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/CRM/BusinessRelation/ContactBusinessRelationLink.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `GetTableAndSystemId(No: Code[20]; var TableId: Integer; var SystemId: Guid): Boolean`
+
+## Implemented by
+
+- [Codeunit 5557 "Contact BRL Default"](../codeunit/5557.md)
+- [Codeunit 5558 "Contact BRL Customer"](../codeunit/5558.md)
+- [Codeunit 5559 "Contact BRL Vendor"](../codeunit/5559.md)
+- [Codeunit 5560 "Contact BRL Employee"](../codeunit/5560.md)
+- [Codeunit 5561 "Contact BRL Bank Account"](../codeunit/5561.md)
+- [Enum 5057 "Contact Business Relation Link To Table"](../enum/5057.md)
 
 ## Ask your agent
 
@@ -93,7 +106,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

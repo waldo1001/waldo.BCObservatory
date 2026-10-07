@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 60b27b2b76a4272892e1b9661704934e86a344a4980f914c73497f0484e254db
+  input_hash: 61da6e022da9fe225b256e51028b39a80a8b9c9a2c4cdaf9ed511689c457b3f4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/TransactionStorage/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/TransactionStorage/app
     title: src/Apps/W1/TransactionStorage/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -131,4 +131,4 @@ First-party app · folder `src/Apps/W1/TransactionStorage/app` · namespace `Sys
 |---|---|---|
 | 6203 | [D365 BASIC - Transact. Storage](../objects/permissionsetextension/6203.md) |  |
 
-Source: [src/Apps/W1/TransactionStorage/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/TransactionStorage/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/TransactionStorage/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/TransactionStorage/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

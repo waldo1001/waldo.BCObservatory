@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:13:47.600Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,8 @@ evidence:
     quote: copilot features are only available in our cloud version of business central while on premise on prem versions are unfortunately without
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5720
   features: []
   topics: []
   localizations: []
@@ -223,10 +224,12 @@ A live demo shows the Suggest with Copilot action on the item substitutions page
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item substitutions" at [5:41](https://www.youtube.com/watch?v=bCIcq1zESKk&t=341s)
+- [page 5720 "Item Substitutions"](../objects/page/5720.md) at [5:41](https://www.youtube.com/watch?v=bCIcq1zESKk&t=341s)
 - page "Copilot and AI capabilities" at [4:25](https://www.youtube.com/watch?v=bCIcq1zESKk&t=265s)
+
+Not found in BC28-30: page "Copilot and AI capabilities".
 
 ## Quotes
 

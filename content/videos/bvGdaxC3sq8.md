@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:35:21.573Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,7 +87,8 @@ evidence:
     quote: all of this is open source. It has been open source for like a year now
 links:
   learn: []
-  objects: []
+  objects:
+    - object/enum/5160
   features: []
   topics: []
   localizations: []
@@ -235,10 +236,12 @@ The presenter then shows how to build your own demo data module. This covers imp
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- enum "Contoso demo data module" at [6:57](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=417s)
+- [enum 5160 "Contoso Demo Data Module"](../objects/enum/5160.md) at [6:57](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=417s)
 - codeunit "helper code units" at [8:51](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=531s)
+
+Not found in BC28-30: codeunit "helper code units".
 
 ## Quotes
 

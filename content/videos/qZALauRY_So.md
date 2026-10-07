@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:28:36.300Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
     quote: users who are approving expense reports, even if they are doing that from outside of Business Central, just just as you have seen in
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6951
   features: []
   topics: []
   localizations: []
@@ -211,9 +212,9 @@ The demo shows an approver being notified by email or Copilot chat, then approvi
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Expense Users" at [7:53](https://www.youtube.com/watch?v=qZALauRY_So&t=473s)
+- [page 6951 "Expense Users"](../objects/page/6951.md) at [7:53](https://www.youtube.com/watch?v=qZALauRY_So&t=473s)
 
 ## Quotes
 

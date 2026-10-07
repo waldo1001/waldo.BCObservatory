@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:26:14.543Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -179,7 +179,7 @@ The purchase journal is used to register expenses for items not tracked in inven
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "purchase journal" at [0:52](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=52s)
 - other "purchase invoices" at [1:33](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=93s)

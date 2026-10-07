@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:41:51.691Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -244,7 +244,8 @@ evidence:
     quote: This is a really critical process for so many organizations out there.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/21
   features: []
   topics: []
   localizations: []
@@ -845,14 +846,16 @@ It then goes through application features (Copilot autofill and summarize, susta
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "roll center" at [12:50](https://www.youtube.com/watch?v=_JkZCp64jNw&t=770s)
 - other "allocation account" at [13:56](https://www.youtube.com/watch?v=_JkZCp64jNw&t=836s)
 - other "deferral code" at [14:18](https://www.youtube.com/watch?v=_JkZCp64jNw&t=858s)
 - page "purchase document draft page" at [15:18](https://www.youtube.com/watch?v=_JkZCp64jNw&t=918s)
-- page "customer card" at [16:24](https://www.youtube.com/watch?v=_JkZCp64jNw&t=984s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [16:24](https://www.youtube.com/watch?v=_JkZCp64jNw&t=984s)
 - page "analysis views" at [26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s)
+
+Not found in BC28-30: page "purchase document draft page", page "analysis views".
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,9 @@ evidence:
     quote: In a show billable information, you can find project I assign and project task. So, everything is here.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6996
+    - object/page/5200
   features:
     - feature/573259
   topics: []
@@ -249,12 +251,14 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Expense Agent setup" at [3:09](https://www.youtube.com/watch?v=GwrMf1umTFg&t=189s)
+- [page 6996 "Expense Agent Setup"](../objects/page/6996.md) at [3:09](https://www.youtube.com/watch?v=GwrMf1umTFg&t=189s)
 - page "project card" at [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s)
-- page "employee card" at [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s)
+- [page 5200 "Employee Card"](../objects/page/5200.md) at [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s)
 - table "project ledger entries" at [0:22](https://www.youtube.com/watch?v=GwrMf1umTFg&t=22s)
+
+Not found in BC28-30: page "project card", table "project ledger entries".
 
 ## Quotes
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:38:46.398Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,7 +198,7 @@ The third is deploying artifacts from a pull request directly to an online envir
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "GitHub Alo settings file" at [2:35](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=155s)
 - other "GitHub Alo settings.Json" at [4:07](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=247s)

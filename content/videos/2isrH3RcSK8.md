@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:11:52.945Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -663,7 +663,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Analysis View" at [3:48](https://www.youtube.com/watch?v=2isrH3RcSK8&t=228s)
 - other "Customer page" at [4:08](https://www.youtube.com/watch?v=2isrH3RcSK8&t=248s)
@@ -675,6 +675,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "Number series" at [7:41](https://www.youtube.com/watch?v=2isrH3RcSK8&t=461s)
 - other "query object" at [24:21](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1461s)
 - table "Warehouse Ledger Entry" at [35:21](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2121s)
+
+Not found in BC28-30: table "Warehouse Ledger Entry".
 
 ## Quotes
 

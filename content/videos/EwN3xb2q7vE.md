@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:10:16.976Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -321,7 +321,7 @@ It then covers agent instances, which are also users in Business Central, and ho
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - enum "agent metadata provider enum" at [1:10](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=70s)
 - enum "Copilot capability enum" at [1:23](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=83s)
@@ -335,6 +335,8 @@ As heard in the captions; not yet verified against the code pillar.
 - codeunit "message builder code unit" at [11:59](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=719s)
 - codeunit "agent session code unit" at [14:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=866s)
 - table "setup table" at [11:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=677s)
+
+Not found in BC28-30: enum "agent metadata provider enum", enum "Copilot capability enum", interface "agent factory interface", interface "metadata interface", interface "task execution interface", codeunit "agent setup code unit", codeunit "agent code unit", codeunit "agent task code unit", codeunit "task builder code unit", codeunit "message builder code unit", codeunit "agent session code unit", table "setup table".
 
 ## Quotes
 

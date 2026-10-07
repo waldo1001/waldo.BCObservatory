@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:22:00.569Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,7 +121,10 @@ evidence:
     quote: I hope you go and give financial report scheduling a try when it releases in the near future.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/108
+    - object/page/8360
+    - object/page/680
   features: []
   topics: []
   localizations: []
@@ -259,12 +262,12 @@ Each schedule has a next run date time and a recurrence run date formula. Report
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "financial reports" at [0:26](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=26s)
+- [page 108 "Financial Reports"](../objects/page/108.md) at [0:26](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=26s)
 - other "cash flow report" at [0:26](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=26s)
-- page "financial report schedules" at [0:39](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=39s)
-- page "report inbox" at [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s)
+- [page 8360 "Financial Report Schedules"](../objects/page/8360.md) at [0:39](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=39s)
+- [page 680 "Report Inbox"](../objects/page/680.md) at [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s)
 
 ## Quotes
 

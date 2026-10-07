@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:16:03.777Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -253,13 +253,15 @@ The learning project is a Business Central extension for Nordic Outdoor Adventur
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - enum "maintenance" at [12:25](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=745s)
 - table "table" at [12:25](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=745s)
 - enum "Enum" at [15:13](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=913s)
 - page "Cart Page" at [15:39](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=939s)
 - page "List Page" at [16:02](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=962s)
+
+Not found in BC28-30: enum "maintenance", table "table", enum "Enum", page "Cart Page", page "List Page".
 
 ## Quotes
 

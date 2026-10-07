@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/development/troubleshooting",
-  "input_hash": "413fc7209e80b169c7964a20d5a4dbdee00694c8e9559b96112a16299424924e",
-  "summary": "Troubleshooting in Business Central development covers tools and guides for finding the cause of errors and performance problems. It answers questions about client tools, AL debugging and profiling, telemetry setup and analysis, and ready-made troubleshooting guides for cloud migration, reports and web services.",
-  "overview": "This section collects the resources for gathering information, identifying causes and applying fixes when something goes wrong in Business Central. The overview page introduces the main tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler, and also points to snapshot debugging and telemetry.\n\nThe content is split by where you work. Client troubleshooting covers tools in the Business Central client for inspecting pages, reading error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data and profiling performance. It also covers personalization, role customization, permissions and on-premises mobile app issues. AL troubleshooting covers the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles and printing problems. Telemetry pages explain how to send data to Azure Application Insights, which events exist, how to analyze them with KQL and Power BI, how to set up alerts, and how to use telemetry to diagnose performance. The troubleshooting guides (TSGs) give causes, telemetry to check, and fixes for specific failures.\n\nStart with the overview page to pick a tool. Go to the TSGs when you have a known symptom such as a failed cloud migration, a report error or slow report, or a failing OData, API or SOAP web service call.",
+  "input_hash": "bcd5f8e4d25f74f2f63f8c3a10a1523d9058e44c5c53f18b28ae67ef5b3f253d",
+  "summary": "Troubleshooting for Business Central development covers tools and guides for gathering information, finding causes and fixing problems. It answers questions on client tools, AL debugging and profiling, telemetry setup and analysis, and guides for migration, report and web service errors.",
+  "overview": "This section collects the tools and guides used to diagnose Business Central issues. The overview page lists the main tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler. It also points to snapshot debugging and telemetry.\n\nThe subtopics split by where you work. Troubleshooting in the client covers in-product tools, such as inspecting pages, reading error dialogs, viewing locks, finding missing indexes, discovering events, exporting report data and profiling performance. It also covers personalization, permissions and on-premises mobile app issues. Troubleshooting in AL covers the AL debugger, snapshot debugging, the AL Profiler, performance articles and printing problems.\n\nTroubleshooting with telemetry covers sending telemetry to Azure Application Insights, the available events, analysis with KQL and Power BI, alerting and performance diagnosis. The troubleshooting guides (TSGs) give cause-and-fix steps for cloud migration problems, report errors and slow reports, and web service failures (OData, API, SOAP). Start with the overview, then pick the subtopic that matches your situation.",
   "key_points": [
-    "The overview page lists error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.",
-    "Client troubleshooting (13 pages) also covers viewing table information, finding missing indexes, exporting report data, personalization, role customization, permissions and on-premises mobile app issues.",
-    "AL troubleshooting (6 pages) covers the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles and printer errors.",
-    "Telemetry troubleshooting (7 pages) covers enabling telemetry to Azure Application Insights, the available events, KQL and Power BI analysis, alerting, and diagnosing performance problems.",
-    "Troubleshooting guides (4 pages) cover cloud migration problems, report errors and slow performance, and web service failures in OData, API and SOAP.",
-    "TSGs explain likely causes of errors, which telemetry to check, and fixes."
+    "The overview page lists these tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler. It also points to snapshot debugging and telemetry.",
+    "Client troubleshooting also covers table information, finding missing indexes, exporting report data, personalization, role customization and permissions.",
+    "On-premises mobile app issues are covered under client troubleshooting.",
+    "AL troubleshooting covers the AL debugger, snapshot debugging, the AL Profiler, Page Inspection, performance articles and printer errors.",
+    "Telemetry troubleshooting covers turning on telemetry to Azure Application Insights, the available events, and analysis with KQL and Power BI.",
+    "Telemetry pages also cover alerting and diagnosing performance problems.",
+    "TSGs cover cloud migration problems, report errors and slow performance, and OData, API and SOAP web service failures.",
+    "TSGs explain causes of errors, which telemetry to check and how to fix them."
   ],
   "members_used": 1,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:12:00.001Z",
+  "at": "2026-10-07T21:13:11.900Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.013261
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:16:14.791Z",
+    "at": "2026-10-07T21:13:11.948Z",
     "verdict": "fix",
     "issues": [
-      "Overview says client tools are 'in the web client'. The sources only say 'the Business Central client', so 'web' is an added detail.",
-      "Overview's routing advice says to use telemetry for behavior 'over time or across environments' and AL tools 'when you have access to extension code'. Neither framing is in the sources. Reworded to match the subtopic summaries (telemetry covers setup, analysis, alerting and performance diagnosis).",
-      "Key points 4 and 5 split one telemetry subtopic into two points, and point 5 is very thin. Merged them into one point.",
-      "Key point 1 calls the overview page's features 'client tools', but the overview page only lists them as features. They do appear in the client and AL subtopics, so the claim holds once the wording is adjusted slightly."
+      "Key point 1 calls all the listed features 'client tools', including the AL Profiler. The overview page summary treats client tools, AL profiling, snapshot debugging and telemetry as separate groups, so I removed the 'client' label.",
+      "'Telemetry troubleshooting starts with turning on telemetry' suggests a reading order that the source doesn't state. The source only lists setup first. I reworded it as a plain list.",
+      "Minor: the overview leaves out 'table information', which the client subtopic covers. It isn't wrong, so I left it as is."
     ],
-    "input_hash": "413fc7209e80b169c7964a20d5a4dbdee00694c8e9559b96112a16299424924e",
-    "cost_usd": 0.0504712
+    "input_hash": "bcd5f8e4d25f74f2f63f8c3a10a1523d9058e44c5c53f18b28ae67ef5b3f253d",
+    "cost_usd": null
   }
 }

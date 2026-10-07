@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:28:54.118Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -210,11 +210,13 @@ It then covers installing the addin from the Office add-ins menu and what is com
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "customer order or the summary" at [1:22](https://www.youtube.com/watch?v=vLcb31rfZ48&t=82s)
 - other "saline buffer" at [3:48](https://www.youtube.com/watch?v=vLcb31rfZ48&t=228s)
 - other "Report layouts page" at [1:10](https://www.youtube.com/watch?v=vLcb31rfZ48&t=70s)
+
+Not found in BC28-30: report "customer order or the summary".
 
 ## Quotes
 

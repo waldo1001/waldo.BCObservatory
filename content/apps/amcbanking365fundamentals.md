@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2ff626214e349c7c2b43a0026b09147fbb41b0e506f1677bbc850b82bc9bb8cb
+  input_hash: fa4a7be34af637959fd56a120ce845e7afa9971e1b3c6dc9d7c96adba1aae5c0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AMCBanking365Fundamentals/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AMCBanking365Fundamentals/app
     title: src/Apps/W1/AMCBanking365Fundamentals/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -236,4 +236,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 20107 | [INTELLIGENT CLOUD - AMC](../objects/permissionsetextension/20107.md) |  |
 | 20108 | [D365 BANKING - AMC](../objects/permissionsetextension/20108.md) |  |
 
-Source: [src/Apps/W1/AMCBanking365Fundamentals/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AMCBanking365Fundamentals/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AMCBanking365Fundamentals/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AMCBanking365Fundamentals/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

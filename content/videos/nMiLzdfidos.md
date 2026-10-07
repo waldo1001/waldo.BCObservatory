@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:07:57.621Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -496,7 +496,7 @@ The tooling section covers downloading symbols from global sources, workspace cr
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "select token method" at [0:36](https://www.youtube.com/watch?v=nMiLzdfidos&t=36s)
 - other "add destination table filter method" at [1:03](https://www.youtube.com/watch?v=nMiLzdfidos&t=63s)
@@ -508,6 +508,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "is simple only" at [12:33](https://www.youtube.com/watch?v=nMiLzdfidos&t=753s)
 - table "item table" at [27:19](https://www.youtube.com/watch?v=nMiLzdfidos&t=1639s)
 - codeunit "code unit" at [30:37](https://www.youtube.com/watch?v=nMiLzdfidos&t=1837s)
+
+Not found in BC28-30: table "item table", codeunit "code unit".
 
 ## Quotes
 

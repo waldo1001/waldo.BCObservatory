@@ -1,35 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/the-al-programming-language/preprocessor-directives-in-al",
-  "input_hash": "8a9406176baa167311b5ef1ba07b8282588e6a5b5f24ccaaa72549ecff66521b",
-  "summary": "Preprocessor directives in AL: conditional compilation with #if, #else, #elif and #endif, regions for collapsible code, and pragma directives that give the compiler special instructions. It answers questions about defining symbols, organizing code, and suppressing warnings.",
-  "overview": "Preprocessor directives in AL let you control how the compiler treats code. The overview page covers conditional compilation based on defined symbols, region directives for organizing code, and pragma directives for suppressing warnings or controlling behavior.\n\nTwo pages go deeper. The region directive page explains #region and #endregion for collapsible blocks, including nested regions. The pragma directive page explains the disable, restore and enable actions, used with the pragma Warning and pragma ImplicitWith instructions.\n\nStart with the Preprocessor directives in AL page for the full picture, then move to the region or pragma pages for the specific syntax.",
+  "input_hash": "12e243a5acb437c82799840a0edc49e2860988949ef1e948adcf6f091bffb9d0",
+  "summary": "AL preprocessor directives cover conditional compilation (#if, #else, #elif, #endif, #define, #undef), regions (#region, #endregion) and pragmas (#pragma warning, #pragma implicitwith). It answers questions about compiling code conditionally, suppressing warnings and organizing code in large files.",
+  "overview": "Preprocessor directives in AL give the compiler instructions before code is built. They let you include or exclude code based on defined symbols, control compiler warnings, and group code into collapsible sections.\n\nThe overview page is the best starting point. It introduces conditional directives, symbol definition, logical operators (and, or, not), regions and pragmas, and mentions global symbols in app.json. Two pages go deeper: one on pragma directives (#pragma warning and #pragma implicitwith) and one on region directives for organizing code.",
   "key_points": [
-    "Conditional directives: #if, #else, #elif, #endif select code to compile based on defined symbols.",
-    "Symbols can be defined in app.json and in code.",
-    "Conditions can use the logical operators and, or, not.",
-    "#region and #endregion mark collapsible code blocks and can be nested.",
-    "Pragma directives give the compiler special instructions.",
-    "Pragma supports disable, restore and enable actions.",
-    "Pragma Warning suppresses warnings, and pragma ImplicitWith controls implicit with behavior."
+    "Conditional directives #if, #else, #elif and #endif compile code depending on defined symbols.",
+    "#define and #undef define and undefine symbols; logical operators and, or, not combine them in conditions.",
+    "Global symbols can be set in app.json.",
+    "#region and #endregion mark collapsible blocks of code and can be nested.",
+    "#pragma warning disables or restores compiler warnings.",
+    "#pragma implicitwith controls how implicit with statements are handled.",
+    "Pragma actions include disable, restore and enable."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:41.628Z",
+  "at": "2026-10-07T21:13:11.803Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.008908999999999999
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:14.961Z",
+    "at": "2026-10-07T21:13:11.967Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the last key point says what each pragma instruction does (Warning suppresses warnings, ImplicitWith controls implicit with behavior). The pragma page only lists the two instructions. The overview page's line about suppressing warnings or controlling code behavior supports this reading, but it is slightly more specific than the pages."
+      "The overview says directives instruct the compiler 'before code is built'. The sources only say they are compiler instructions that control compilation. This is a small inference and is not misleading.",
+      "The key point listing the pragma actions disable, restore and enable is supported. The sources do not say which directive each action belongs to, so the narrative is right not to pair them."
     ],
-    "input_hash": "8a9406176baa167311b5ef1ba07b8282588e6a5b5f24ccaaa72549ecff66521b",
-    "cost_usd": 0.0273032
+    "input_hash": "12e243a5acb437c82799840a0edc49e2860988949ef1e948adcf6f091bffb9d0",
+    "cost_usd": null
   }
 }

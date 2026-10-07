@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:32:14.830Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,7 +153,10 @@ evidence:
     quote: adding an existing field from the table to the page originated as a community idea so if you've got more great ideas that can
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/27
+    - object/page/26
+    - object/page/143
   features: []
   topics: []
   localizations: []
@@ -391,13 +394,15 @@ It also covers safety and limits. Added fields are read-only, only available in 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "vendor table" at [5:59](https://www.youtube.com/watch?v=iHgaNJucyvI&t=359s)
-- page "vendor list" at [3:40](https://www.youtube.com/watch?v=iHgaNJucyvI&t=220s)
-- page "vendor card" at [9:59](https://www.youtube.com/watch?v=iHgaNJucyvI&t=599s)
-- page "posted sales invoices" at [13:46](https://www.youtube.com/watch?v=iHgaNJucyvI&t=826s)
+- [page 27 "Vendor List"](../objects/page/27.md) at [3:40](https://www.youtube.com/watch?v=iHgaNJucyvI&t=220s)
+- [page 26 "Vendor Card"](../objects/page/26.md) at [9:59](https://www.youtube.com/watch?v=iHgaNJucyvI&t=599s)
+- [page 143 "Posted Sales Invoices"](../objects/page/143.md) at [13:46](https://www.youtube.com/watch?v=iHgaNJucyvI&t=826s)
 - permissionset "D365 Profile Management" at [18:42](https://www.youtube.com/watch?v=iHgaNJucyvI&t=1122s)
+
+Not found in BC28-30: table "vendor table", permissionset "D365 Profile Management".
 
 ## Quotes
 

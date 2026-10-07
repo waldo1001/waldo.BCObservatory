@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:50:11.074Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,7 +118,9 @@ evidence:
     quote: we plan to migrate all the that net based apis to control Adin and therefore we strongly encourage to update any new barcode scanning
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/40
+    - object/page/6510
   features: []
   topics: []
   localizations: []
@@ -338,10 +340,10 @@ Demos show camera scanning in the item journal with serial and lot tracking, con
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item journal" at [6:23](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=383s)
-- page "item tracking lines" at [8:05](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=485s)
+- [page 40 "Item Journal"](../objects/page/40.md) at [6:23](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=383s)
+- [page 6510 "Item Tracking Lines"](../objects/page/6510.md) at [8:05](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=485s)
 - other "camera Barcode Scanner provider addin" at [5:02](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=302s)
 - other "barcode scanner" at [22:02](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1322s)
 - other "request Barcode Scanner async" at [22:23](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1343s)

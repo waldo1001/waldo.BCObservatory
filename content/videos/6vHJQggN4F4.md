@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:01:15.084Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,9 @@ evidence:
     quote: Now we got the marketing text as well. Because we have a toggle about marketing text, now you can get it from Shopify as
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/31
+    - object/page/7500
   features: []
   topics: []
   localizations: []
@@ -228,13 +230,15 @@ It then shows the "add item as Shopify variant" function, which presents a flat 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item list" at [0:06](https://www.youtube.com/watch?v=6vHJQggN4F4&t=6s)
-- page "item attributes" at [1:39](https://www.youtube.com/watch?v=6vHJQggN4F4&t=99s)
+- [page 31 "Item List"](../objects/page/31.md) at [0:06](https://www.youtube.com/watch?v=6vHJQggN4F4&t=6s)
+- [page 7500 "Item Attributes"](../objects/page/7500.md) at [1:39](https://www.youtube.com/watch?v=6vHJQggN4F4&t=99s)
 - page "Shopify shops" at [2:54](https://www.youtube.com/watch?v=6vHJQggN4F4&t=174s)
 - page "Shopify shop card" at [2:54](https://www.youtube.com/watch?v=6vHJQggN4F4&t=174s)
 - page "list of products" at [4:02](https://www.youtube.com/watch?v=6vHJQggN4F4&t=242s)
+
+Not found in BC28-30: page "Shopify shops", page "Shopify shop card", page "list of products".
 
 ## Quotes
 

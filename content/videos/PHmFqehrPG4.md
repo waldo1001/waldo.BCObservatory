@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:17:59.119Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -216,7 +216,7 @@ The video builds on a shipping cost calculator sample app made of an interface, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - interface "I shipping provider" at [2:26](https://www.youtube.com/watch?v=PHmFqehrPG4&t=146s)
 - enum "shipping vendor" at [3:06](https://www.youtube.com/watch?v=PHmFqehrPG4&t=186s)
@@ -224,6 +224,8 @@ As heard in the captions; not yet verified against the code pillar.
 - codeunit "standard shipping provider" at [4:27](https://www.youtube.com/watch?v=PHmFqehrPG4&t=267s)
 - interface "I express shipping provider" at [7:56](https://www.youtube.com/watch?v=PHmFqehrPG4&t=476s)
 - interface "I unknown interface" at [11:48](https://www.youtube.com/watch?v=PHmFqehrPG4&t=708s)
+
+Not found in BC28-30: interface "I shipping provider", enum "shipping vendor", codeunit "shipping cost orchestrator", codeunit "standard shipping provider", interface "I express shipping provider", interface "I unknown interface".
 
 ## Quotes
 

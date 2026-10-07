@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:28:43.437Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,7 +63,9 @@ evidence:
     quote: I can open these documents in OneDrive by selecting the ellipsis menu, and select open in OneDrive. This will open the document in OneDrive
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
+    - object/page/56
   features: []
   topics: []
   localizations: []
@@ -186,12 +188,14 @@ The demo opens purchases and payables setup, enables post with job queue and pos
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "general ledger setup" at [0:16](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=16s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [0:16](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=16s)
 - page "sales and receivable setup" at [0:16](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=16s)
 - page "purchase and payable setup" at [0:16](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=16s)
-- page "purchase orders" at [0:59](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=59s)
+- [page 56 "Purchase Orders"](../objects/page/56.md) at [0:59](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=59s)
+
+Not found in BC28-30: page "sales and receivable setup", page "purchase and payable setup".
 
 ## Quotes
 

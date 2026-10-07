@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/language-elements/objects
 type: topic
 title: Objects
-summary: "AL object types in Business Central: tables, pages, codeunits, reports, queries, XMLports, control add-ins, permission sets, profiles, entitlements, and their extension objects. It answers questions about object syntax, properties, triggers, keys, how to extend existing objects, and how to write and run tests with test codeunits and test runners."
+summary: "AL object types in Business Central: tables, pages, codeunits, queries, reports, XMLports, control add-ins, profiles, permission sets, entitlements, and their extension objects. It answers questions about what each object is for, its key properties and triggers, and how to extend or test it."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:17:34.764Z"
+  at: "2026-10-07T21:13:11.960Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8f72b3be4453e1dbe7a0ae1aa0dd63b759996016c2b6a325c1ebca16f9748301
+  input_hash: c8882d28d054339b71daa7e2df4b6aefabe18a83d727cfb473206aae827e621a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
     title: AL Properties Overview for Business Central
-    date: "2026-08-21"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -203,28 +203,24 @@ narrative: generated
 
 # Objects
 
-> AL object types in Business Central: tables, pages, codeunits, reports, queries, XMLports, control add-ins, permission sets, profiles, entitlements, and their extension objects. It answers questions about object syntax, properties, triggers, keys, how to extend existing objects, and how to write and run tests with test codeunits and test runners.
+> AL object types in Business Central: tables, pages, codeunits, queries, reports, XMLports, control add-ins, profiles, permission sets, entitlements, and their extension objects. It answers questions about what each object is for, its key properties and triggers, and how to extend or test it.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Objects · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section documents the object types available in the AL language, one page per object. It covers data objects (table, table extension, table keys, query, XMLport), user interface objects (page, page extension, page customization, control add-in, profile, profile extension), logic and output objects (codeunit, report), and security and licensing objects (permission set, permission set extension, entitlement).
-
-Two pages cover testing: test codeunits with test methods, and test runner codeunits that control how tests execute. A general AL Properties Overview explains property syntax and how properties apply to objects and their elements.
-
-Start with the Table, Page, and Codeunit object pages for the core model. Then move to the extension objects when you need to change existing objects without modifying them. Use the Properties Overview as a reference when you need to know what a property controls.
+This section is the reference for AL object types. Most pages cover one object: its purpose, syntax, main properties and triggers. A properties overview and a page on table keys support them. Data objects include table, table extension, query, report and XMLport. UI objects include page, page extension, page customization and control add-in. Logic is held in codeunits, including test codeunits and test runner codeunits. Profiles, permission sets and entitlements define user experiences and access.
 
 ## Key points
 
-- Table object defines fields, keys, triggers and metadata; the Extensible property and field tooltips are covered, as is Integer to BigInteger migration.
-- Table keys cover primary, secondary, unique, and clustered keys, plus included fields (IncludedFields) for query performance.
-- Page extension uses addfirst, addlast, addafter, addbefore, modify, and the move keywords; page customization is more limited (no variables, procedures, or triggers) and applies only to specified profiles.
-- Codeunits hold reusable business logic with an OnRun trigger; test codeunits use test and handler methods, TransactionModel, TestIsolation, and TestHandlers.
-- Test runner codeunits use the TestRunner subtype with OnBeforeTestRun and OnAfterTestRun triggers to run tests unattended and log results.
-- Reports support RDL, Word, and Excel layouts with request pages; XMLports import and export XML data.
-- Permission sets use Assignable, Permissions, IncludedPermissionSets, and ExcludedPermissionSets; permission set extensions add permissions to existing sets when an extension is installed.
-- Entitlements define which objects customers can use based on licenses or Microsoft Entra roles, supporting Marketplace app monetization.
+- AL Properties Overview explains how properties control the behavior of objects and elements such as fields, actions, data items and columns. Start there for general property concepts.
+- Table and table extension objects cover fields, keys, triggers and the Extensible property. Table keys covers primary, secondary, unique and clustered keys, and IncludedFields.
+- Page objects use SourceTable, layout sections, actions and views. Page extensions change pages with the addfirst, addlast, addafter, addbefore, modify, movefirst, movelast, moveafter and movebefore keywords.
+- Page customization changes layout and actions only for specified profiles, with no variables, procedures or triggers. It is more limited than a page extension.
+- Profile and profile extension objects set a role center and optional page customizations for a user experience.
+- Permission set and permission set extension objects define and compose permissions. They use Assignable, IncludedPermissionSets and ExcludedPermissionSets. Extensions can add permissions to existing sets.
+- Entitlement objects define which objects customers can use based on licenses or Microsoft Entra roles. They support Marketplace app transactability.
+- Test codeunits and test runner codeunits cover test methods, handlers, TransactionModel and TestIsolation. Runners add OnBeforeTestRun and OnAfterTestRun for unattended runs.
 
 ## Learn pages
 

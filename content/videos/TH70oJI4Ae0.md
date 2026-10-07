@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -252,13 +252,15 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "SDH max field" at [8:28](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=508s)
 - other "field 470" at [20:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1209s)
 - other "field 469" at [21:05](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1265s)
 - other "field 465" at [25:38](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1538s)
 - other "row version" at [19:22](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1162s)
+
+Not found in BC28-30: table "SDH max field".
 
 ## Quotes
 

@@ -2,7 +2,7 @@
 id: source/dvlprlife-com
 type: source
 title: DvlprLife
-summary: "DvlprLife (Brad Prendergast): 20 posts in the knowledge base, 2026-05-26 to 2026-10-04, mostly about development, platform, administration."
+summary: "DvlprLife (Brad Prendergast): 21 posts in the knowledge base, 2026-05-26 to 2026-10-08, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e6d7aadf99e0a2d148885be48344eb6a144c8963013adbe384c33a369b40f4ab
+  input_hash: 5e9c5f01f71a5d2e830f8e690f799b803507f15be315eab072ea76a89e58e1ef
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com
@@ -53,6 +53,7 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-business-central-trivia-recap-august-24-28-2026--396d6cb6f1
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-business-central-trivia-recap-september-28-october-2-2026--1033176e81
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
   guidelines: []
 source_id: dvlprlife-com
 kind: blog
@@ -60,15 +61,15 @@ url: https://www.dvlprlife.com
 author: Brad Prendergast
 mvp: false
 full_text: false
-item_count: 20
+item_count: 21
 footprint:
   systems:
     - id: development
-      weight: 21
+      weight: 22
     - id: platform
-      weight: 13
+      weight: 15
     - id: administration
-      weight: 8
+      weight: 9
     - id: copilot
       weight: 8
     - id: reporting
@@ -79,7 +80,7 @@ footprint:
     - id: al development
       weight: 6
     - id: cumulative updates
-      weight: 4
+      weight: 5
     - id: community
       weight: 3
     - id: gamification
@@ -88,13 +89,13 @@ footprint:
       weight: 3
     - id: learning
       weight: 3
+    - id: release waves
+      weight: 3
     - id: trivia
       weight: 3
+    - id: version management
+      weight: 3
     - id: ai agents
-      weight: 2
-    - id: automation
-      weight: 2
-    - id: engagement
       weight: 2
   objects:
     - id: api Business Central API page
@@ -123,12 +124,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-05-26"
-last_item: "2026-10-04"
+last_item: "2026-10-08"
 ---
 
 # DvlprLife
 
-> DvlprLife (Brad Prendergast): 20 posts in the knowledge base, 2026-05-26 to 2026-10-04, mostly about development, platform, administration.
+> DvlprLife (Brad Prendergast): 21 posts in the knowledge base, 2026-05-26 to 2026-10-08, mostly about development, platform, administration.
 
 [https://www.dvlprlife.com](https://www.dvlprlife.com) · blog · tier community
 
@@ -136,16 +137,16 @@ last_item: "2026-10-04"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (21) | al development (6) | api Business Central API page (1) |
-| platform (13) | cumulative updates (4) | codeunit Agent (1) |
-| administration (8) | community (3) | other PageBackgroundTask (1) |
+| development (22) | al development (6) | api Business Central API page (1) |
+| platform (15) | cumulative updates (5) | codeunit Agent (1) |
+| administration (9) | community (3) | other PageBackgroundTask (1) |
 | copilot (8) | gamification (3) | other Unit of Measure (1) |
 | reporting (4) | github copilot (3) | page 9110 (1) |
 | integration (3) | learning (3) | page ABC Analysis Setup (1) |
-|  | trivia (3) | page Agents (1) |
-|  | ai agents (2) | page Index Management (1) |
-|  | automation (2) | page Item Ledger Entries (1) |
-|  | engagement (2) | page Report Layouts (1) |
+|  | release waves (3) | page Agents (1) |
+|  | trivia (3) | page Index Management (1) |
+|  | version management (3) | page Item Ledger Entries (1) |
+|  | ai agents (2) | page Report Layouts (1) |
 |  |  | report Item – ABC Analysis (1) |
 |  |  | table General Journal Templates (1) |
 
@@ -155,10 +156,11 @@ Items per quarter, oldest first:
 
 - 2026-Q2: ******* 7
 - 2026-Q3: ************ 12
-- 2026-Q4: * 1
+- 2026-Q4: ** 2
 
 ## Most recent
 
+- [October 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (2026-10-08)
 - [Business Central Trivia Recap: September 28–October 2, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-business-central-trivia-recap-september-28-october-2-2026--1033176e81.md) (2026-10-04)
 - [September 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920.md) (2026-09-08)
 - [Business Central Trivia Recap: August 24–28, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-business-central-trivia-recap-august-24-28-2026--396d6cb6f1.md) (2026-08-29)
@@ -178,6 +180,5 @@ Items per quarter, oldest first:
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (2026-06-09)
 - [June 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (2026-06-08)
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (2026-06-02)
-- [Weekly Review: Business Central AL Development – May 17–23, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-05-weekly-review-business-central-al-development-may-17-23-2026--ded9223776.md) (2026-05-26)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -47,7 +47,9 @@ evidence:
     quote: Business Central resolves the target page from the Card page whose SourceTable matches the failing record's table.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/table/36
   features: []
   topics: []
   localizations: []
@@ -106,10 +108,10 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Customer"
-- table "Sales Header"
+- [table 18 "Customer"](../../objects/table/18.md)
+- [table 36 "Sales Header"](../../objects/table/36.md)
 
 ## Context
 

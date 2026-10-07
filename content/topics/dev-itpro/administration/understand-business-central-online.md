@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,8 +154,7 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
   localizations: []
-  videos:
-    - video/qwEnuR0vgYo
+  videos: []
   posts:
     - post/demiliani-com/12734
     - post/demiliani-com/15895
@@ -170,7 +169,7 @@ children:
 coverage:
   learn: 16
   code: 7
-  video: 1
+  video: 0
   blog: 2
   guideline: 0
 bc_forms:
@@ -233,7 +232,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Business Central tenants for Italian customers will be deployed to the Italy North datacenter"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
-- [Business Central 29.0 Is GA: New Environment](../../../videos/qwEnuR0vgYo.md) (video): "environment creation; version 29.0 ga; sandbox production setup"
 
 ## Business Central pages and reports
 

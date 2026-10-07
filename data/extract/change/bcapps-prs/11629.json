@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11629",
+  "number": 11629,
+  "title": "Fix Norwegian SAF-T 1.30 export issues",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Norwegian SAF-T 1.30 export now correctly reports header versions, handles credit amounts as non-negative, excludes unselected dimensions from the XML, and counts transaction groups consistently across split files.",
+  "key_points": [
+    "Header versions are now set to 1.30 and the current application version instead of hardcoded values",
+    "Credit currency amounts are exported as non-negative values rather than retaining their sign",
+    "Analysis data for dimensions not selected for export is omitted from the XML",
+    "Transaction count uses exported transaction groups across journals and repeats totals in every split file",
+    "SAF-T 1.20 exports remain unchanged; comprehensive XML regression tests added"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Norwegian SAF-T 1.30 exports can contain wrong header versions, negative credit amounts, unwanted dimensions and inconsistent transaction totals.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004056,
+    "changes_in_call": 1
+  }
+}

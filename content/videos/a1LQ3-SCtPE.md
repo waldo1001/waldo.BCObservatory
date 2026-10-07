@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:39:45.223Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -160,7 +160,9 @@ evidence:
     quote: if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/254
+    - object/table/4
   features: []
   topics: []
   localizations: []
@@ -452,10 +454,10 @@ It then covers cloud migration support in version 23, database views for on-prem
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "VAT Entry" at [13:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=787s)
-- table "Currency" at [17:51](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1071s)
+- [table 254 "VAT Entry"](../objects/table/254.md) at [13:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=787s)
+- [table 4 "Currency"](../objects/table/4.md) at [17:51](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1071s)
 
 ## Quotes
 

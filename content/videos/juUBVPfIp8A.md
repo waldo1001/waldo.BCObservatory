@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:07:57.240Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -352,11 +352,13 @@ The video walks through authentication changes for BC AI Resources, content filt
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "Azure Open AI policy parameters" at [7:03](https://www.youtube.com/watch?v=juUBVPfIp8A&t=423s)
 - codeunit "agent test test context code unit" at [16:37](https://www.youtube.com/watch?v=juUBVPfIp8A&t=997s)
 - other "test context" at [16:49](https://www.youtube.com/watch?v=juUBVPfIp8A&t=1009s)
+
+Not found in BC28-30: codeunit "Azure Open AI policy parameters", codeunit "agent test test context code unit".
 
 ## Quotes
 

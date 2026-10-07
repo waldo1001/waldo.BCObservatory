@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -42,7 +42,8 @@ evidence:
     quote: AI is good servant but bad master
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/330
   features: []
   topics: []
   localizations: []
@@ -104,14 +105,16 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "PostSalesOrder"
 - codeunit "50100"
 - codeunit "50200"
 - codeunit "ProcessPurchaseOrder"
 - table "Customer Card"
-- table "Currency Exchange Rate"
+- [table 330 "Currency Exchange Rate"](../../objects/table/330.md)
+
+Not found in BC28-30: codeunit "PostSalesOrder", codeunit "50100", codeunit "50200", codeunit "ProcessPurchaseOrder", table "Customer Card".
 
 ## Context
 

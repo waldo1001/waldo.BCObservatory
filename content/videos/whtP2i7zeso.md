@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:37:54.171Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,7 +200,7 @@ The demo configures mandatory fields (transaction type and transfer method are t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Intrastat report" at [4:07](https://www.youtube.com/watch?v=whtP2i7zeso&t=247s)
 - other "Document check fact box" at [3:02](https://www.youtube.com/watch?v=whtP2i7zeso&t=182s)

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T15:17:48.816Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -432,7 +432,7 @@ The team uses the benchmark to compare models and to decide whether tooling such
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "AL2 MCP Server" at [13:33](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=813s)
 - other "BC Bench" at [14:01](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=841s)

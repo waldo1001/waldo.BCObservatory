@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:53.668Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,7 +90,8 @@ evidence:
     quote: if you want to use Business Central with Copilot the MCP server for Business Central uh in Copilot Studio, you only can use tools
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -417,10 +418,10 @@ The presenter demos adding the Business Central MCP server in Copilot Studio by 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Model Context Protocol configuration" at [23:03](https://www.youtube.com/watch?v=rm-FstU_I80&t=1383s)
-- table "customer" at [34:00](https://www.youtube.com/watch?v=rm-FstU_I80&t=2040s)
+- [table 18 "Customer"](../objects/table/18.md) at [34:00](https://www.youtube.com/watch?v=rm-FstU_I80&t=2040s)
 - other "mcp.json" at [43:27](https://www.youtube.com/watch?v=rm-FstU_I80&t=2607s)
 - api "Business Central admin API" at [52:06](https://www.youtube.com/watch?v=rm-FstU_I80&t=3126s)
 

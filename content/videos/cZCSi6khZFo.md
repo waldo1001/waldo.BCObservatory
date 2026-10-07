@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:45:08.897Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,9 @@ evidence:
     quote: and it only deals with lines of type item so general ledger resources or comment lines
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/37
+    - object/table/27
   features: []
   topics: []
   localizations: []
@@ -238,10 +240,10 @@ The video also explains which fields and tables are searched, data protection an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "sales line" at [14:11](https://www.youtube.com/watch?v=cZCSi6khZFo&t=851s)
-- table "item" at [5:53](https://www.youtube.com/watch?v=cZCSi6khZFo&t=353s)
+- [table 37 "Sales Line"](../objects/table/37.md) at [14:11](https://www.youtube.com/watch?v=cZCSi6khZFo&t=851s)
+- [table 27 "Item"](../objects/table/27.md) at [5:53](https://www.youtube.com/watch?v=cZCSi6khZFo&t=353s)
 
 ## Quotes
 

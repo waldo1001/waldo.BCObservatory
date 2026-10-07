@@ -24,7 +24,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:10:51.358Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,7 +89,14 @@ evidence:
     quote: you can see the new toggle deleted filed contracts which is off so now filed versions of the contract or contract quote will not
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5802
+    - object/table/7312
+    - object/page/5964
+    - object/page/5900
+    - object/page/5906
+    - object/page/6053
+    - object/table/6010
   features: []
   topics: []
   localizations: []
@@ -282,7 +289,7 @@ The service part covers archiving of service quotes and orders, a jump-to-order 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "project list" at [1:39](https://www.youtube.com/watch?v=pEXl-POet_4&t=99s)
 - page "project assembly orders" at [2:40](https://www.youtube.com/watch?v=pEXl-POet_4&t=160s)
@@ -290,17 +297,19 @@ As heard in the captions; not yet verified against the code pillar.
 - page "project planning lines" at [3:55](https://www.youtube.com/watch?v=pEXl-POet_4&t=235s)
 - page "project journal" at [4:16](https://www.youtube.com/watch?v=pEXl-POet_4&t=256s)
 - table "project ledger entry" at [4:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=267s)
-- table "value entry" at [4:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=267s)
-- table "warehouse entry" at [4:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=267s)
-- page "service quote" at [11:46](https://www.youtube.com/watch?v=pEXl-POet_4&t=706s)
-- page "service order" at [13:21](https://www.youtube.com/watch?v=pEXl-POet_4&t=801s)
-- page "service item worksheet" at [14:37](https://www.youtube.com/watch?v=pEXl-POet_4&t=877s)
+- [table 5802 "Value Entry"](../objects/table/5802.md) at [4:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=267s)
+- [table 7312 "Warehouse Entry"](../objects/table/7312.md) at [4:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=267s)
+- [page 5964 "Service Quote"](../objects/page/5964.md) at [11:46](https://www.youtube.com/watch?v=pEXl-POet_4&t=706s)
+- [page 5900 "Service Order"](../objects/page/5900.md) at [13:21](https://www.youtube.com/watch?v=pEXl-POet_4&t=801s)
+- [page 5906 "Service Item Worksheet"](../objects/page/5906.md) at [14:37](https://www.youtube.com/watch?v=pEXl-POet_4&t=877s)
 - page "report selection service" at [14:54](https://www.youtube.com/watch?v=pEXl-POet_4&t=894s)
-- page "service contract quote" at [15:24](https://www.youtube.com/watch?v=pEXl-POet_4&t=924s)
+- [page 6053 "Service Contract Quote"](../objects/page/6053.md) at [15:24](https://www.youtube.com/watch?v=pEXl-POet_4&t=924s)
 - page "filed service contracts" at [16:20](https://www.youtube.com/watch?v=pEXl-POet_4&t=980s)
 - page "service management setup" at [17:00](https://www.youtube.com/watch?v=pEXl-POet_4&t=1020s)
-- table "service header archive" at [18:01](https://www.youtube.com/watch?v=pEXl-POet_4&t=1081s)
+- [table 6010 "Service Header Archive"](../objects/table/6010.md) at [18:01](https://www.youtube.com/watch?v=pEXl-POet_4&t=1081s)
 - table "filed service contract" at [18:01](https://www.youtube.com/watch?v=pEXl-POet_4&t=1081s)
+
+Not found in BC28-30: page "project list", page "project assembly orders", page "warehouse pick lines", page "project planning lines", page "project journal", table "project ledger entry", page "report selection service", page "filed service contracts", page "service management setup", table "filed service contract".
 
 ## Quotes
 

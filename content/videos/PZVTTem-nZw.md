@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -197,7 +197,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "customer table" at [7:28](https://www.youtube.com/watch?v=PZVTTem-nZw&t=448s)
 - table "table 36" at [1:59](https://www.youtube.com/watch?v=PZVTTem-nZw&t=119s)
@@ -205,6 +205,8 @@ As heard in the captions; not yet verified against the code pillar.
 - table "sales head" at [1:59](https://www.youtube.com/watch?v=PZVTTem-nZw&t=119s)
 - table "sales lines" at [1:59](https://www.youtube.com/watch?v=PZVTTem-nZw&t=119s)
 - table "customer ledger entries" at [4:37](https://www.youtube.com/watch?v=PZVTTem-nZw&t=277s)
+
+Not found in BC28-30: table "customer table", table "table 36", table "table 37", table "sales head", table "sales lines", table "customer ledger entries".
 
 ## Quotes
 

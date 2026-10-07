@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/development/get-started",
-  "input_hash": "19ab0454f01948f74a2a77e19360f11eeb576d1e4f014a8e0dd1d81f3e896d40",
-  "summary": "The Get started section covers how to begin AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, and packaging, translating, and instrumenting apps. It also covers ALTool, Ready to Go, and marketplace validation for AppSource.",
-  "overview": "This section is the entry point for AL development. \"Get started with AL\" walks through the sandbox, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json and app.json, and deployment. \"Build your first sample extension\" then shows tables, pages, extension objects, install code, and upgrade code. \"Differences in the development environments\" helps developers coming from C/SIDE.\n\nMany pages describe Visual Studio Code tooling: AL code actions, code navigation, AL Explorer, Formatter, Home, outline view, keyboard shortcuts, syntax and snippets, and productivity tips. Designer is the in-client tool for changing page layouts without writing AL code.\n\nOther pages cover release tasks: context-sensitive help links, XLIFF translation files, telemetry, and runtime packages for on-premises. Three subtopics go further. ALTool covers command-line compile and package steps for CI/CD. Ready to Go covers publishing to the commercial marketplace. Marketplace validation covers AppSource checks.",
+  "input_hash": "cc8ebadead218b7b65e421ddb84885ba4510f6e824f50be400a8ac2fb53f3e30",
+  "summary": "Get started covers setting up AL development for Business Central: installing Visual Studio Code and the AL Language extension, editor tools (code actions, navigation, Explorer, formatter, outline), Designer, telemetry, translations, runtime packages, and the ALTool, Ready to Go and Marketplace validation subtopics. It answers how-to and tooling questions for new AL developers.",
+  "overview": "This section is the entry point for AL development. It starts with setting up a sandbox, installing Visual Studio Code and the AL Language extension, and creating a first project with the AL:Go! command. A walkthrough then builds a sample extension with new objects and extension objects, including install and upgrade code. A page on differences between C/SIDE and AL helps developers coming from Dynamics NAV.\n\nMost other pages describe editor tooling in Visual Studio Code: code actions, Go To Definition navigation, AL Explorer, AL Formatter, AL Home, the Outline View, snippets, keyboard shortcuts, and productivity tips. Designer is the in-client alternative for changing page layouts without AL code in a sandbox. Further pages cover feature topics: telemetry, XLIFF translation files, context-sensitive Help links, and runtime packages for on-premises.\n\nThree subtopics extend this. ALTool covers command-line compiling and packaging for CI/CD. Ready to Go covers publishing apps to the commercial marketplace. Marketplace validation covers AppSource technical validation and presenting an app. Start with Get started with AL, then the first sample extension.",
   "key_points": [
-    "Get started with AL covers sandbox setup, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json, app.json, and Copilot project templates.",
-    "The first sample extension builds table, page, and extension objects with install and upgrade code, and uses Designer.",
-    "Editor tools include code actions (configurable scope: instance, document, project, workspace), Go To Definition navigation, AL Explorer, Formatter, outline view, and AL Home.",
-    "Designer is available in a Business Central sandbox and edits page layouts by drag-and-drop without AL code.",
-    "XLIFF translation uses the TranslationFile feature, GenerateCaptions, and namespace-aware IDs (runtime 18).",
-    "Telemetry pages describe LogMessage, custom events, and Application Insights integration.",
-    "Runtime packages for on-premises protect AL source code and need no developer license on the target server; showMyCode and allowDebugging flags apply.",
-    "Subtopics cover ALTool for CI/CD, Ready to Go for partner registration and Partner Center, and Marketplace validation for AppSource."
+    "Get started with AL: set up a sandbox, install VS Code and the AL Language extension, create a project with AL:Go!, and configure launch.json and app.json.",
+    "AL code actions fix errors and warnings in VS Code with configurable scope (instance, document, project, workspace), for example converting multiple if statements to case or fixing explicit with statements.",
+    "AL Explorer, Go To Definition, and the Outline View help browse objects, events, APIs, enums, and symbols without reading all the code.",
+    "Use Designer in a sandbox to change page layouts by drag and drop without writing AL.",
+    "Runtime packages for on-premises distribute only runtime artifacts, protecting source code without developer licenses on target servers; showMyCode and allowDebugging flags apply.",
+    "XLIFF translation support uses the TranslationFile feature, GenerateCaptions, and namespace-aware translation IDs; the page references runtime 18.",
+    "Telemetry pages explain implementing signals with LogMessage and SendTraceTag and Application Insights integration.",
+    "ALTool, Ready to Go, and Marketplace validation cover CI/CD packaging, partner registration and Partner Center submission, and AppSource technical validation."
   ],
   "members_used": 17,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-07T02:11:51.070Z",
+  "at": "2026-10-07T21:13:11.899Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.022719000000000003
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:16:15.041Z",
-    "verdict": "approve",
+    "at": "2026-10-07T21:13:11.949Z",
+    "verdict": "fix",
     "issues": [
-      "Key point on XLIFF links runtime 18 to namespace-aware IDs; the source only lists runtime 18 as a version for the page, so the tie to that specific feature is a mild inference.",
-      "Keyboard shortcuts, syntax and snippets, and productivity tips are mentioned only in the overview, not in key points; acceptable given the 8-point limit."
+      "Key point on AL code actions says they were 'introduced in 2022 release wave 2'. The page only lists 2022 release wave 2 as a version, not as the release that introduced code actions. Removed.",
+      "Key point on XLIFF ties namespace-aware IDs to runtime 18. The page lists runtime 18 as a version but doesn't say which feature it applies to. Reworded so runtime 18 is noted for the page only.",
+      "Minor: the Explorer/navigation key point groups Go To Definition with 'without reading all the code', but only AL Explorer is described that way. Kept because the meaning stays fair."
     ],
-    "input_hash": "19ab0454f01948f74a2a77e19360f11eeb576d1e4f014a8e0dd1d81f3e896d40",
-    "cost_usd": 0.0487672
+    "input_hash": "cc8ebadead218b7b65e421ddb84885ba4510f6e824f50be400a8ac2fb53f3e30",
+    "cost_usd": null
   }
 }

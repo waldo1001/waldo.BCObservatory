@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:03:51.159Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -270,7 +270,7 @@ The demo walks through the Sustainability Role Center, scorecards and goals, the
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sustainability Chart of Accounts" at [3:26](https://www.youtube.com/watch?v=uan4dV9eVCA&t=206s)
 - other "Sustainability Journal" at [14:09](https://www.youtube.com/watch?v=uan4dV9eVCA&t=849s)

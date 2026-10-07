@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:53:15.087Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,7 +87,9 @@ evidence:
     quote: one will always be slower than I mean one of them will always have to wait for the other for the GL. But the
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/46
+    - object/table/5802
   features: []
   topics: []
   localizations: []
@@ -223,16 +225,18 @@ It also shows the supporting changes: a new item register number field on ledger
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "item ledger" at [0:33](https://www.youtube.com/watch?v=64_cQzp8BP4&t=33s)
 - table "project ledger" at [1:53](https://www.youtube.com/watch?v=64_cQzp8BP4&t=113s)
 - table "job ledger" at [1:53](https://www.youtube.com/watch?v=64_cQzp8BP4&t=113s)
 - table "resource ledgers" at [1:53](https://www.youtube.com/watch?v=64_cQzp8BP4&t=113s)
-- table "item register" at [4:21](https://www.youtube.com/watch?v=64_cQzp8BP4&t=261s)
+- [table 46 "Item Register"](../objects/table/46.md) at [4:21](https://www.youtube.com/watch?v=64_cQzp8BP4&t=261s)
 - table "value entries" at [4:35](https://www.youtube.com/watch?v=64_cQzp8BP4&t=275s)
-- table "value entry" at [8:52](https://www.youtube.com/watch?v=64_cQzp8BP4&t=532s)
+- [table 5802 "Value Entry"](../objects/table/5802.md) at [8:52](https://www.youtube.com/watch?v=64_cQzp8BP4&t=532s)
 - other "inventory setup" at [4:02](https://www.youtube.com/watch?v=64_cQzp8BP4&t=242s)
+
+Not found in BC28-30: table "item ledger", table "project ledger", table "job ledger", table "resource ledgers", table "value entries".
 
 ## Quotes
 

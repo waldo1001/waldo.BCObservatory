@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration
 type: topic
 title: Integration
-summary: Integration in Business Central covers how to connect the system to external systems and Microsoft services. It answers questions on web services (OData, SOAP, API), events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Dynamics 365 Sales and Field Service, Azure, infrastructure services, and Shopify.
+summary: Integration in Business Central covers how to connect the product to external systems and Microsoft services. It answers questions on web services and APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify.
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:20:43.648Z"
+  at: "2026-10-07T21:13:11.930Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 519b2e6efd80f7cbaeced72f8ee687474020eccfbaa690e4d56e1cb836619170
+  input_hash: 1a52a3d304acd5bd400e0f6e1a7c2aa3fcb9a5b6c484a3871de8a363fcdb053e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -50,13 +50,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tab-content
     title: Add and remove recommended content for Business Central tabs
     date: "2023-12-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator
-    title: AL Table Proxy Generator
-    date: "2025-06-16"
     commit: null
     t: null
     quote: null
@@ -298,6 +291,13 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_contact
+    title: contact resource type
+    date: "2026-06-08"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service
@@ -470,28 +470,28 @@ narrative: generated
 
 # Integration
 
-> Integration in Business Central covers how to connect the system to external systems and Microsoft services. It answers questions on web services (OData, SOAP, API), events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Dynamics 365 Sales and Field Service, Azure, infrastructure services, and Shopify.
+> Integration in Business Central covers how to connect the product to external systems and Microsoft services. It answers questions on web services and APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify.
 
 Path: Integration · tier official · system integration · narrative reviewed by Opus
 
 ## Overview
 
-Integration describes the patterns for connecting Business Central with other systems: REST APIs, SOAP and OData web services, event-based notifications, and ready-made connections to Microsoft and third-party products. The overview page lists these approaches, including the HttpClient data type, and is the best starting point for choosing one.
+Integration is the entry point for connecting Business Central to other systems. The overview page describes the architectural patterns: REST APIs, SOAP web services, OData, the HttpClient data type, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services and Copilot extensions. Start there to pick an approach.
 
-The section's own pages cover two Dynamics 365 integrations. Integration with Dynamics 365 Sales runs through Dataverse and covers synchronization, sales order processing, item availability, security roles, unit group mapping and record coupling. Integration with Field Service syncs work orders with project journals and supports resource scheduling and invoicing.
+Two own pages cover Dynamics 365 apps. The Sales page describes integration through Dataverse: connection settings, security roles, unit group mapping, table synchronization, record coupling, sales order processing and item availability. The Field Service page covers syncing work orders with project journals, resource scheduling, item availability and service order status (2021 release wave 2).
 
-Subtopics go deeper. Web services is by far the largest and covers publishing, securing, monitoring and tuning endpoints. Connect apps covers custom API pages, queries and authentication. Other subtopics cover events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure services, infrastructure services and the Shopify Connector.
+The subtopics go deeper. Web services is the largest and covers OData, SOAP and API endpoints, security, telemetry and troubleshooting. Connect apps covers custom API pages and authentication. Other subtopics cover events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services and Shopify.
 
 ## Key points
 
-- Start with the integration overview to pick between REST API, SOAP, OData, HttpClient, Dataverse and other approaches.
-- Web services (about 294 pages) covers OData, SOAP and API endpoints: setup, authentication, telemetry, performance and error diagnosis.
-- Connect apps explains custom API pages and queries, and authentication with Microsoft Entra ID, basic auth or service-to-service OAuth 2.0.
-- Events integration offers business events (preview) through Dataverse and Power Automate, plus webhooks that push notifications when entities change.
-- Dynamics 365 Sales integration runs via Dataverse with bidirectional sync, record coupling, unit group mapping and item availability.
-- Field Service integration (2021 release wave 2) syncs work orders with project journals and supports resource scheduling.
-- Dataverse covers both data synchronization and virtual tables; Power Platform covers Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
-- Azure, infrastructure and Shopify topics cover Key Vault, Azure Functions, Application Insights, Entra ID, Universal Print and the Shopify Connector.
+- The overview page compares integration approaches: REST API, SOAP, OData, HttpClient, Dataverse, Office, Power Platform, Azure, Shopify and Copilot extensions.
+- Web services (294 pages) covers publishing and securing OData, SOAP and API endpoints, plus monitoring, tuning and error diagnosis.
+- Connect apps covers custom API pages and queries, and authentication with Microsoft Entra ID, basic auth or service-to-service OAuth 2.0.
+- Event-based integration offers business events (preview) through Dataverse and Power Automate, and webhooks that push notifications on entity changes.
+- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping and security roles.
+- Field Service integration syncs work orders with project journals and manages resource scheduling and service order status (2021 release wave 2).
+- Dataverse and Power Platform subtopics cover sync, virtual tables, Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
+- Azure, infrastructure and Shopify subtopics cover Key Vault, Application Insights telemetry, Entra ID and Universal Print, and the Shopify Connector.
 
 ## Subtopics
 

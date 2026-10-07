@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:11:56.422Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,9 +215,11 @@ For developers, it shows how to enable modern search by setting the optimized fo
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "data search and table code unit" at [10:21](https://www.youtube.com/watch?v=lH2Z4xfdhmY&t=621s)
+
+Not found in BC28-30: codeunit "data search and table code unit".
 
 ## Quotes
 

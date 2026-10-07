@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:21:38.277Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,12 +225,14 @@ The demo covers opening the Profile Schedules page, creating a schedule, perform
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Performance Profiles" at [8:44](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=524s)
 - page "Profile Schedules" at [5:23](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=323s)
 - page "Profile Schedule" at [6:03](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=363s)
 - other "page extension" at [2:20](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=140s)
+
+Not found in BC28-30: page "Performance Profiles", page "Profile Schedules", page "Profile Schedule".
 
 ## Quotes
 

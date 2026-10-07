@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12078",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]Reduce allocations in the \"Export to Execl\" scenario (#11870)",
+  "url": "https://github.com/microsoft/BCApps/pull/12078",
+  "published_at": "2026-10-07T19:44:33Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T20:00:32.874Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T20:01:03.779Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T20:01:17.371Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003486
+    },
+    "linked": {
+      "at": "2026-10-07T20:01:17.851Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "030de38360c4aa828a650300faf93cd09fa139e1"
+    },
+    "published": {
+      "at": "2026-10-07T20:01:17.943Z",
+      "path": "content/changes/bcapps/12078.md"
+    }
+  },
+  "input_hash": "fe31a4253b4aa8fde426364f132f5689d4dfcddf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12078,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "fe31a4253b4aa8fde426364f132f5689d4dfcddf",
+    "author": "PhDuck",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "reduce allocations in the export to execl scenario 11870"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd68788a5f2dd0423774c22b542b259324c38ef0388452cda4ece666b63ec24e"
+}

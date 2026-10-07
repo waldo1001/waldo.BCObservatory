@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 79 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 81 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5f19f94e538099c848f92a63121b2f36ea432e721d1548d3aa1e5579a469cb97
+  input_hash: 7e816a1461204e1e3094ca0c04239ce883d58cc616a1a46cb22da8c87fecf1c9
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -90,6 +90,8 @@ links:
     - post/aardvarklabs-blog/3388
     - post/aardvarklabs-blog/3315
     - post/aardvarklabs-blog/3255
+    - post/aardvarklabs-blog/3207
+    - post/aardvarklabs-blog/3469
     - post/aardvarklabs-blog/3267
     - post/aardvarklabs-blog/3460
     - post/aardvarklabs-blog/3496
@@ -119,7 +121,7 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 79
+item_count: 81
 footprint:
   systems:
     - id: development
@@ -138,7 +140,7 @@ footprint:
     - id: al development
       weight: 20
     - id: copilot
-      weight: 9
+      weight: 10
     - id: al code
       weight: 8
     - id: api
@@ -187,7 +189,7 @@ last_item: "2026-10-02"
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 79 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 81 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -196,7 +198,7 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (90) | al development (20) | table Customer (7) |
-| integration (47) | copilot (9) | page Customer Card (5) |
+| integration (47) | copilot (10) | page Customer Card (5) |
 | copilot (41) | al code (8) | table Sales Header (4) |
 | platform (28) | api (6) | table Vendor (3) |
 | administration (22) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
@@ -216,7 +218,7 @@ Items per quarter, oldest first:
 - 2025-Q3: **************** 16
 - 2025-Q4: ************* 13
 - 2026-Q1: ************* 13
-- 2026-Q2: ************* 13
+- 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
 - 2026-Q4: * 1
 

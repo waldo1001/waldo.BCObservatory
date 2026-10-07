@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:57:33.084Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,12 @@ evidence:
     quote: Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/50
+    - object/page/42
+    - object/page/5522
+    - object/page/99000852
+    - object/page/51
   features: []
   topics: []
   localizations: []
@@ -229,15 +234,17 @@ It also covers new ways to create drop shipment purchase documents, drop shipmen
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "requisition worksheet" at [3:26](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=206s)
-- page "purchase order" at [3:41](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=221s)
-- page "sales order" at [3:53](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=233s)
-- page "order planning" at [4:21](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=261s)
-- page "planning worksheet" at [4:34](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=274s)
-- page "purchase invoice" at [6:25](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=385s)
+- [page 50 "Purchase Order"](../objects/page/50.md) at [3:41](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=221s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [3:53](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=233s)
+- [page 5522 "Order Planning"](../objects/page/5522.md) at [4:21](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=261s)
+- [page 99000852 "Planning Worksheet"](../objects/page/99000852.md) at [4:34](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=274s)
+- [page 51 "Purchase Invoice"](../objects/page/51.md) at [6:25](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=385s)
 - page "shipment" at [8:39](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=519s)
+
+Not found in BC28-30: page "requisition worksheet", page "shipment".
 
 ## Quotes
 
