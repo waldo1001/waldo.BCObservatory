@@ -7,7 +7,7 @@ import matter from "gray-matter";
 import { appSlug, firstPartyApps } from "../../pipeline/lib/apps.js";
 import { writeText } from "../../pipeline/lib/fsx.js";
 import { validate } from "../../pipeline/lib/schema.js";
-import { renderAppPages } from "../../pipeline/render/app.js";
+import { renderAppPages, versionsLabel } from "../../pipeline/render/app.js";
 import { expectedId } from "../../pipeline/validate/content.js";
 
 const page = (fm: Record<string, unknown>) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n\nbody\n`;
@@ -79,4 +79,10 @@ test("app pages: objects by type, the hubs that document them, media by exact na
 test("validate:content places app pages under content/apps/ by the `${type}s` rule", () => {
   assert.equal(expectedId("/c", "/c/apps/subscription-billing.md", "app"), "app/subscription-billing");
   assert.equal(expectedId("/c", "/c/objects/subscription-billing.md", "app"), null);
+});
+
+test("app pages: the versions label prints collapsed runs, a gap is never bridged (D72)", () => {
+  assert.equal(versionsLabel(["28", "29", "30"]), "BC28-30");
+  assert.equal(versionsLabel(["28", "30"]), "BC28, BC30");
+  assert.equal(versionsLabel([]), "no snapshot");
 });

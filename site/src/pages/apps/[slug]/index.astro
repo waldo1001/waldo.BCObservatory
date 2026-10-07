@@ -5,6 +5,7 @@ import Page from "../../../layouts/Page.astro";
 import EvidenceList from "../../../components/EvidenceList.astro";
 import { siteLinks } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
+import { versionRanges } from "../../../../../pipeline/lib/versions";
 export async function getStaticPaths() {
   return (await getCollection("apps")).map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
@@ -18,7 +19,7 @@ const stats = [
   ...(c.hubs ? [{ n: c.hubs, label: "Learn hubs", href: "#what-learn-documents-it" }] : []),
   ...(c.videos ? [{ n: c.videos, label: "videos", href: "#videos-and-posts" }] : []),
   ...(c.posts ? [{ n: c.posts, label: "posts", href: "#videos-and-posts" }] : []),
-  ...((fm.present_in ?? []).length ? [{ n: `BC${fm.present_in[0]}${fm.present_in.length > 1 ? `-${fm.present_in.at(-1)}` : ""}`, label: "versions" }] : []),
+  ...((fm.present_in ?? []).length ? [{ n: versionRanges(fm.present_in), label: "versions" }] : []),
 ];
 const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
 ---

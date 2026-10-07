@@ -63,6 +63,24 @@ test("object and localization pages: valid frontmatter, cross-links that resolve
   assert.equal(renderCodePages(dataDir, contentDir).removed, 1);
 });
 
+// D72: version lists print as collapsed runs; three consecutive changes read "BC28-30", never "BC28, BC29, BC30"
+test("object pages: changed and present majors print as collapsed runs (D72)", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-objruns-"));
+  const dataDir = join(root, "data"), contentDir = join(root, "content");
+  const p = await loadParser();
+  const src = (n: number) => `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } ${Array.from({ length: n }, (_, i) => `field(${i + 2}; F${i}; Integer) { }`).join(" ")} }\n}\ncodeunit 99 Same { }\n`;
+  for (const [i, m] of ["27", "28", "29", "30"].entries())
+    writeSnapshot(dataDir, extractSource(p, src(i), { version: m, country: "w1", layer: "base", app: "Base Application", file: "src/X.al" }), man(m, "w1", `c${m}`));
+  refreshCodeDerived(dataDir, ["27", "28", "29", "30"]);
+  renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
+  const t = matter(readFileSync(join(contentDir, "objects/table/18.md"), "utf8"));
+  assert.deepEqual([t.data.present_in, t.data.changed_in], [["27", "28", "29", "30"], ["28", "29", "30"]]);
+  assert.match(t.data.summary, /Present since at least BC27, still in BC30, changed in BC28-30\./);
+  assert.match(t.content, /## Across versions\n\n- Present in: BC27-30\n- Changed \(declaration\) in: BC28-30\n/);
+  const same = matter(readFileSync(join(contentDir, "objects/codeunit/99.md"), "utf8"));
+  assert.match(same.content, /- Present in: BC27-30\n- Changed \(declaration\) in: none\n/);
+});
+
 // D65 tranche 1: a Subscription Billing slice: a table with every Explanation/Notes case, two pages on it that Learn
 // names, the enum of one of its fields, an event with a doc comment
 const SB = `table 18 Customer { fields { field(1; "No."; Code[20]) { } } }

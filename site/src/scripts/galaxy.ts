@@ -55,6 +55,7 @@ import { landedRingsOn, parseHash, portSpot, sortRows, type SortKey } from "./ga
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
+import { versionRanges } from "../../../pipeline/lib/versions.js";
 
 const FLY_MS = 1100, DRAW_MS = 600;
 /** cubic-bezier(.65,0,.2,1) (tokens motion.cameraFly): solve x(m) = t by bisection, return y(m). */
@@ -855,7 +856,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       return `<h3>Look closer with an instrument</h3><div class="g-dock">
         ${exitLink(`${base}neighbourhood/?o=${encodeURIComponent(key)}&s=${encodeURIComponent(n.group)}${lens?.version ? `&v=${lens.version}` : ""}`, "Neighbourhood", n.nn ? `${n.nn} objects` : null, true)}
         <div class="g-dock-2">
-          ${latest && prev ? exitLink(`${base}code/versions/${prev}__${latest}/`, "Versions", `changed in ${n.cv!.map((v) => `BC${v}`).join(", ")}`) : exitLink(`${base}code/versions/`, "Versions", "no change in the snapshots")}
+          ${latest && prev ? exitLink(`${base}code/versions/${prev}__${latest}/`, "Versions", `changed in ${versionRanges(n.cv!)}`) : exitLink(`${base}code/versions/`, "Versions", "no change in the snapshots")}
           ${exitLink(`${base}events/?q=${encodeURIComponent(objectName(n.label))}`, "Events", n.ec ?? 0)}
           ${locs.length ? exitLink(`${base}${pathOf({ id: locs[0] })}`, "Country diff", `${locs.length} countries`) : ""}
           ${n.ns ? exitLink(`${base}objects/?ns=${encodeURIComponent(n.ns)}`, "Atlas", n.ns) : ""}
@@ -983,7 +984,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const mine = week.items.filter((i) => i[3].includes(n.id));
       for (const m of ego?.id === n.id ? ego.nodes : []) mediaTitle.set(m.id, m.label);
       html = `<p class="g-kicker" style="color: var(--sys-${esc(n.group)})">${TYPE[n.type] ?? n.type} · ${esc(sysById.get(n.group)?.label ?? n.group)}</p><h2 tabindex="-1">${esc(n.label)}</h2>
-        <p class="g-badges"><span class="badge ${esc(n.tier)}">${esc(TIER[n.tier] ?? n.tier)}</span>${n.cv?.length ? ` <span class="badge status-other">changed in ${n.cv.map((v) => `BC${esc(v)}`).join(", ")}</span>` : ""}${n.ob?.length ? ` <span class="badge obsolete">obsolete in BC${esc(n.ob[0])}</span>` : ""}</p>
+        <p class="g-badges"><span class="badge ${esc(n.tier)}">${esc(TIER[n.tier] ?? n.tier)}</span>${n.cv?.length ? ` <span class="badge status-other">changed in ${esc(versionRanges(n.cv))}</span>` : ""}${n.ob?.length ? ` <span class="badge obsolete">obsolete in BC${esc(n.ob[0])}</span>` : ""}</p>
         <p class="g-meta">${n.ev ? `${n.ev} evidence items${n.cs ? `, ${Math.round(n.cs * 100)}% community` : ""} · ` : "no evidence yet · "}${near.length} connected stars</p>
         <p><a class="btn primary" href="${esc(href)}" data-open>Open the page</a></p>
         ${exitDock(n)}
@@ -1038,7 +1039,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const th = (k: SortKey, label: string) => `<th scope="col" aria-sort="${sortKey === k ? (k === "star" || k === "kind" ? "ascending" : "descending") : "none"}"><button type="button" data-sort="${k}">${label}</button></th>`;
     table.innerHTML = `<p class="g-meta">${scope ? esc(scope.label) : "All systems"}${lens ? `, lens "${esc(lens.label)}"` : ""}: ${nodes.length} stars</p>
       <table><thead><tr>${th("star", "Star")}${th("kind", "Kind")}${scope ? "" : th("system", "System")}${th("connections", "Connections")}${th("evidence", "Evidence")}${th("changed", "Changed in")}</tr></thead>
-      <tbody>${nodes.slice(0, 400).map((n) => `<tr><th scope="row"><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span>${esc(n.label)}</button></th><td>${esc(TYPE[n.type] ?? n.type)}</td>${scope ? "" : `<td>${esc(sysById.get(n.group)?.label ?? n.group)}</td>`}<td class="num">${Math.round(n.weight)}</td><td class="num">${n.ev ?? 0}</td><td>${(n.cv ?? []).map((v) => `BC${esc(v)}`).join(", ")}${n.ob?.length ? ` (obsolete BC${esc(n.ob[0])})` : ""}</td></tr>`).join("")}</tbody></table>
+      <tbody>${nodes.slice(0, 400).map((n) => `<tr><th scope="row"><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span>${esc(n.label)}</button></th><td>${esc(TYPE[n.type] ?? n.type)}</td>${scope ? "" : `<td>${esc(sysById.get(n.group)?.label ?? n.group)}</td>`}<td class="num">${Math.round(n.weight)}</td><td class="num">${n.ev ?? 0}</td><td>${esc(versionRanges(n.cv ?? []))}${n.ob?.length ? ` (obsolete BC${esc(n.ob[0])})` : ""}</td></tr>`).join("")}</tbody></table>
       ${nodes.length > 400 ? `<p class="g-meta">and ${nodes.length - 400} more: narrow with a system or a lens</p>` : ""}`;
     for (const b of table.querySelectorAll<HTMLButtonElement>("[data-sort]")) b.addEventListener("click", () => { sortKey = b.dataset.sort as SortKey; renderTable(); table.querySelector<HTMLButtonElement>(`[data-sort="${sortKey}"]`)?.focus(); });
     for (const b of table.querySelectorAll<HTMLButtonElement>("[data-star]")) b.addEventListener("click", () => { const n = byId.get(b.dataset.star!); if (n) { listView = false; goStar(n); } });

@@ -18,6 +18,7 @@ import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJsonOr, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { objectSystem } from "../lib/systems.js";
+import { versionRanges } from "../lib/versions.js";
 import { sha256 } from "../lib/text.js";
 import { mentionedObjects, objectByName } from "../link/mentions.js";
 import { frontmatterOf } from "../link/related.js";
@@ -36,7 +37,8 @@ const TYPE_NOUN: Record<string, [string, string]> = {
 const noun = (type: string, n: number) => `${n} ${(TYPE_NOUN[type] ?? [type, `${type}s`])[n === 1 ? 0 : 1]}`;
 const TYPE_ORDER = ["table", "tableextension", "page", "pageextension", "report", "reportextension", "codeunit", "query", "xmlport", "enum", "enumextension", "interface", "permissionset", "permissionsetextension", "entitlement", "profile", "controladdin", "pagecustomization", "dotnet"];
 const typeRank = (t: string) => { const i = TYPE_ORDER.indexOf(t); return i < 0 ? 99 : i; };
-const versionsLabel = (ms: string[]) => (ms.length ? `BC${ms[0]}${ms.length > 1 ? `-${ms.at(-1)}` : ""}` : "no snapshot");
+/** "BC28-30", "BC28, BC30" (D72); "no snapshot" when the app is in none. */
+export const versionsLabel = (ms: readonly string[]) => (ms.length ? versionRanges(ms) : "no snapshot");
 
 export interface AppObject { id: string; pk: string; title: string; type: string; oid: number | null; name: string; caption: string | null; namespace: string | null; topics: string[]; present_in: string[] }
 export interface AppHub { id: string; title: string; path: string[] }

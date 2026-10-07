@@ -14,6 +14,7 @@ import { statSync } from "node:fs";
 import { resolve } from "node:path";
 import { loadConfig } from "../lib/config.js";
 import { readJson } from "../lib/fsx.js";
+import { versionRanges } from "../lib/versions.js";
 
 /** Object page frontmatter fields the index needs. */
 export interface ObjectNameRow { id: string; fm: Record<string, any> }
@@ -104,8 +105,7 @@ export function resolveMentions<M extends Mention>(objects: M[], index: ObjectIn
 
 /** "BC28-30": the snapshot majors the object pages cover (config/versions.json). */
 export function coveredMajors(): string {
-  const s = loadConfig<{ snapshot: string[] }>("versions").snapshot.map(Number).sort((a, b) => a - b);
-  return s.length > 1 ? `BC${s[0]}-${s[s.length - 1]}` : `BC${s[0] ?? ""}`;
+  return versionRanges(loadConfig<{ snapshot: string[] }>("versions").snapshot);
 }
 
 const esc = (s: string) => s.replace(/\|/g, "\\|").replace(/([[\]])/g, "\\$1").replace(/\s+/g, " ").trim();

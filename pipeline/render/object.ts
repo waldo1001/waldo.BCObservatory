@@ -29,6 +29,7 @@ import { isSkeleton, iterSnapshot, snapshotDir, type SnapshotManifest } from "..
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import { callsIncoming, callsOutgoing, incoming, outgoing, readCalls, type CallEdge, type Calls, type RelEdge, type Relations } from "../code/relations.js";
 import { areaOf } from "../lib/systems.js";
+import { versionRanges } from "../lib/versions.js";
 import { loadDocsObjects, type DocRef, type DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { changesByObjectPath, type ChangeRef } from "./change.js";
@@ -213,14 +214,14 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const fdUsed = fd ? o.fields.map((f) => fd[f.name] ?? null) : [];
   // a page's layout is not in its object hash (extractor 4, D65): the page re-renders when only its controls change
   const layoutSig = o.controls || o.actions ? sha256(JSON.stringify([o.controls ?? [], o.actions ?? []])) : "";
-  const versions = `BC${life.versions[0]}${life.versions.length > 1 ? `-${life.versions.at(-1)}` : ""}`;
+  const versions = versionRanges(life.versions);
   // our snapshots start at the oldest major: an object already there may be decades old, so "introduced" is unknown
   const sinceOldest = life.versions[0] === w.majors[0];
   const removedAfter = life.versions.at(-1) !== w.majors.at(-1);
   const summary = [
     `${title}${own ? ` in the ${own.cc.toUpperCase()} country layer` : o.app ? ` in ${o.app}` : ""}${o.namespace ? ` (${o.namespace})` : ""}${o.extends ? `, extends "${o.extends}"` : ""}.`,
     `${[o.fields.length ? `${o.fields.length} fields` : "", o.values.length ? `${o.values.length} values` : "", pub.length ? `${pub.length} public procedures` : "", events.length ? `${events.length} events` : "", subs.length ? `${subs.length} event subscribers` : ""].filter(Boolean).join(", ")}.`,
-    `${sinceOldest ? `Present since at least BC${life.versions[0]}` : `Introduced in BC${life.versions[0]}`}${life.versions.at(-1) !== life.versions[0] ? `, still in BC${life.versions.at(-1)}` : ""}${life.changed.length ? `, changed in ${life.changed.map((v) => `BC${v}`).join(", ")}` : ""}${removedAfter ? `, gone after BC${life.versions.at(-1)}` : ""}.`,
+    `${sinceOldest ? `Present since at least BC${life.versions[0]}` : `Introduced in BC${life.versions[0]}`}${life.versions.at(-1) !== life.versions[0] ? `, still in BC${life.versions.at(-1)}` : ""}${life.changed.length ? `, changed in ${versionRanges(life.changed)}` : ""}${removedAfter ? `, gone after BC${life.versions.at(-1)}` : ""}.`,
     o.obsolete && o.obsolete.state !== "No" ? `Obsolete (${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}).` : "",
   ].filter((x) => x && x !== ".").join(" ").replace(/\.\s*\./g, ".");
   const fm = {
@@ -299,7 +300,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   if (C) lines.push(...callSections(callsOut, callsIn, implementsOut, implementedBy, link, major));
   if (changes.length) lines.push("## Recent changes", "", ...changes.map((c) => `- ${c.merged_at} [#${c.number} ${cell(c.title)}](${"../".repeat(pageKey.split("/").length)}changes/${c.page}.md) (${c.base}${c.major ? `, BC${c.major}` : ""}, ${c.kind}${c.status !== "modified" ? `, ${c.status}` : ""})`), "");
   lines.push(...askYourAgent(o, own?.cc ?? null));
-  lines.push("## Across versions", "", `- Present in: ${life.versions.map((v) => `BC${v}`).join(", ")}`, `- Changed (declaration) in: ${life.changed.length ? life.changed.map((v) => `BC${v}`).join(", ") : "none"}`,
+  lines.push("## Across versions", "", `- Present in: ${versionRanges(life.versions)}`, `- Changed (declaration) in: ${life.changed.length ? versionRanges(life.changed) : "none"}`,
     ...(o.obsolete && o.obsolete.state !== "No" ? [`- Obsolete: ${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}${o.obsolete.reason ? `, "${cell(o.obsolete.reason)}"` : ""}`] : []), "");
   if (countries.length) lines.push("## Countries that replace it", "", countries.map((cc) => (hasLocalization(cc) ? `[${cc.toUpperCase()}](../../localizations/${cc}.md)` : cc.toUpperCase())).join(", "), "");
   if (docs.length) lines.push("## Documented on Microsoft Learn", "", ...docs.map((d) => `- [${cell(d.title)}](${d.url})`), "");
