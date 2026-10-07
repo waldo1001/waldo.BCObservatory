@@ -1,0 +1,27 @@
+{
+  "video_id": "Rjnydcb0LDE",
+  "item_id": "video/yt-microsoft/Rjnydcb0LDE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quotes are verbatim and the segment t values are correct.",
+    "The key points said 'both speakers' recommend the career and 'the speakers' describe work-life balance. The captions do not say which speaker says what, so these are now attributed to one speaker.",
+    "Disc golf as a way to unplug was missing, so it was added to the key points.",
+    "The captions say 'mp800'. The page uses MB800, which is most likely a caption error. It was left as is.",
+    "The systems tag 'development' does not fit. The video is about a consultant career, not development.",
+    "Leaving both features as 'unclear' is fine. The transcript does not state a release status for either one."
+  ],
+  "input_hash": "d9c724fde3085cb934c632709fbca055b75c5964a8cab1fbe887544774809962",
+  "by": "opus",
+  "at": "2026-10-07T23:11:50.325Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039432999999999996
+  }
+}

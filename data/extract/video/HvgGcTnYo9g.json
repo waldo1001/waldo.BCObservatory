@@ -131,10 +131,10 @@
     {
       "name": "AI-assisted demand planning",
       "description": "Planned capability to incorporate AI to assist with demand planning as the company moves into more automated planning.",
-      "status": "announced",
-      "status_evidence_t": 122.4,
-      "status_evidence_quote": "as we move into more automated planning and bringing in AI assisted demand planning",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 122.4,
       "t_end": 142.9,
       "is_demoed": false,
@@ -157,6 +157,12 @@
     }
   ],
   "quotes": [
+    {
+      "t": 20.9,
+      "text": "when I arrive our production management system was paper based when you have paper that's moving around the plant",
+      "why_it_matters": "Describes the paper-based starting point that led to the Business Central migration.",
+      "check": "exact"
+    },
     {
       "t": 41.3,
       "text": "prior to Dynamics 365 we really did not know how long it would be to produce a palet of product",

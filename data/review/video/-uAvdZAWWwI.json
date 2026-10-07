@@ -1,0 +1,24 @@
+{
+  "video_id": "-uAvdZAWWwI",
+  "item_id": "video/yt-microsoft/-uAvdZAWWwI",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 5 quotes appear verbatim in the transcript. The quotes at t=17.5 and t=262.4 start mid-sentence and differ only in capitalization, which is acceptable.",
+    "The transcript supports every key point: the 2-week (14-day) scheduling limit, 8-hour acceptance window, internal admins only, paid license and quota, the environment operations page details, cancelling pending transfers, and auditing in both tenants and telemetry.",
+    "All feature statuses are correctly unclear. 'Can now be done through the tenant admin center' implies the feature is available but does not say whether it is preview or GA.",
+    "Optional, not a blocker: the quote at t=248.4 stops before 'within 8 hours'. That fact is still covered by a key point.",
+    "Chapters and summary match the transcript."
+  ],
+  "input_hash": "4d019710d4898006382b9daa1f467f2db29c902875a72018597000cd491ab15c",
+  "by": "opus",
+  "at": "2026-10-07T23:11:57.398Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045701
+  }
+}

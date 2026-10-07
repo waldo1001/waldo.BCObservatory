@@ -2,7 +2,7 @@
 id: video/d1rE49YYapo
 type: video
 title: "BCTalent Stories: Zain from 4PS"
-summary: BCTalent Stories episode in which Zain from 4PS describes why he became a Business Central consultant and how the Talent program helped him move into construction-focused technology work. It is a personal career account, not product training.
+summary: BCTalent Stories testimonial in which Zain explains why he wants to become a Business Central consultant at 4PS. He wants to work with a large firm and Microsoft products to improve construction. He also says the Talent program contacted him and supported him from day one. It is a personal career account, not product training.
 tier: official
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - microsoft products
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:47.354Z"
   flags: []
 generated:
-  at: "2026-10-06T21:19:04.601Z"
+  at: "2026-10-07T23:11:47.389Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,9 +89,9 @@ quotes:
 
 # BCTalent Stories: Zain from 4PS
 
-> BCTalent Stories episode in which Zain from 4PS describes why he became a Business Central consultant and how the Talent program helped him move into construction-focused technology work. It is a personal career account, not product training.
+> BCTalent Stories testimonial in which Zain explains why he wants to become a Business Central consultant at 4PS. He wants to work with a large firm and Microsoft products to improve construction. He also says the Talent program contacted him and supported him from day one. It is a personal career account, not product training.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=d1rE49YYapo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 1:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=d1rE49YYapo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 1:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -101,12 +101,12 @@ Zain says the Talent program contacted him and supported him from day one. He ha
 
 ## Key points
 
-- Zain works as a Business Central consultant at 4PS.
-- His motivation was the idea of working with a large firm such as 4PS.
+- Zain is starting out as a Business Central consultant with 4PS, through the Talent program.
+- He was motivated by the idea of working with a large firm such as 4PS and with Microsoft products to improve construction, a lifelong ambition.
+- He says he could not easily find companies specializing in technology for construction on his own.
 - The Talent program contacted him and supported him from day one.
-- He had earlier used similar platforms and wanted to be on the 4PS side.
-- The video covers the Talent program as a pathway into technology in the construction industry.
-- It also includes his future plans and perspective on the program.
+- He previously used similar platforms as a user and now wants to be on the 4PS side, learning to navigate the platform.
+- He sees only positive things in the Talent program.
 
 ## Chapters
 

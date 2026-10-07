@@ -2,7 +2,7 @@
 id: video/2L975eUy0nI
 type: video
 title: "BCTalent Stories: Rui from Acadon"
-summary: BCTalent Stories episode in which Rui, a consultant at Acadon, describes his path into Business Central consulting, the Microsoft Thailand program membership he received through Acadon, and his support from the team. It is a short career testimonial, not a product feature demo.
+summary: "BCTalent Stories career testimonial: Rui explains why he joined Acadon, a company focused on Microsoft ERP system solutions. He says Acadon gave him a membership of a Microsoft training program (captioned as 'Microsoft Thailand program') with courses for becoming a Business Central consultant, and he praises the supportive team. The video has no product features or how-to content."
 tier: official
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - team culture
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:20.209Z"
   flags: []
 generated:
-  at: "2026-10-06T21:29:17.418Z"
+  at: "2026-10-07T23:12:20.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,22 +94,7 @@ chapters:
     title: Learning and Team Experience at Acadon
   - t: 84
     title: Personal Interests and Future Aspirations
-features:
-  - name: Microsoft Dynamics ERP Systems
-    status: unclear
-    t: 23
-    verified: false
-    status_source: video
-  - name: Microsoft Thailand Program Membership
-    status: unclear
-    t: 44
-    verified: false
-    status_source: video
-  - name: Business Central Consulting Services
-    status: unclear
-    t: 44
-    verified: false
-    status_source: video
+features: []
 objects_mentioned: []
 quotes:
   - t: 23
@@ -134,9 +119,9 @@ quotes:
 
 # BCTalent Stories: Rui from Acadon
 
-> BCTalent Stories episode in which Rui, a consultant at Acadon, describes his path into Business Central consulting, the Microsoft Thailand program membership he received through Acadon, and his support from the team. It is a short career testimonial, not a product feature demo.
+> BCTalent Stories career testimonial: Rui explains why he joined Acadon, a company focused on Microsoft ERP system solutions. He says Acadon gave him a membership of a Microsoft training program (captioned as 'Microsoft Thailand program') with courses for becoming a Business Central consultant, and he praises the supportive team. The video has no product features or how-to content.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2L975eUy0nI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-28 · 1:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2L975eUy0nI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-28 · 1:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -146,26 +131,17 @@ He says he gained experience in the wood industry and is interested in ERP solut
 
 ## Key points
 
-- Acadon focuses on Microsoft ERP system solutions for various industries.
-- Rui gained experience in the wood industry and is interested in ERP solutions for that sector.
-- Acadon gave him a membership of the Microsoft Thailand program, which includes courses for becoming a good Business Central consultant.
-- He describes team members and upper management as helpful and supportive.
-- His stated goal is to use Business Central to help customers deal with their business problems.
-- The video has three chapters: background and career motivation, learning and team experience at Acadon, and personal interests and future aspirations.
+- Acadon focuses on Microsoft ERP system solutions.
+- Rui gained experience in the wood industry in his last job and is interested in ERP solutions for that sector.
+- Through Acadon he got a membership of a Microsoft program (captioned 'Microsoft Thailand program') that offers courses for becoming a good Business Central consultant.
+- He describes his team members and upper management as helpful, and calls Acadon a big family.
+- He wants to use Business Central to help customers deal with their problems, and he hopes to grow with Acadon as a Business Central consultant.
 
 ## Chapters
 
 - [0:00](https://www.youtube.com/watch?v=2L975eUy0nI&t=0s) Background and Career Motivation
 - [0:44](https://www.youtube.com/watch?v=2L975eUy0nI&t=44s) Learning and Team Experience at Acadon
 - [1:24](https://www.youtube.com/watch?v=2L975eUy0nI&t=84s) Personal Interests and Future Aspirations
-
-## Features
-
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Dynamics ERP Systems | status not stated | [0:23](https://www.youtube.com/watch?v=2L975eUy0nI&t=23s) |  |
-| Microsoft Thailand Program Membership | status not stated | [0:44](https://www.youtube.com/watch?v=2L975eUy0nI&t=44s) |  |
-| Business Central Consulting Services | status not stated | [0:44](https://www.youtube.com/watch?v=2L975eUy0nI&t=44s) |  |
 
 ## Quotes
 

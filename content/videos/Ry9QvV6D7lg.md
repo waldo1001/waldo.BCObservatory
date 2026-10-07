@@ -2,7 +2,7 @@
 id: video/Ry9QvV6D7lg
 type: video
 title: Dynamics GP Cloud Migration - Moving to Business Central
-summary: "Dynamics GP to Business Central cloud migration: the new GP configuration page, opened from the Cloud Migration Management page, lets users choose modules, GL years, master data only, and filters for inactive items and bank accounts. It also covers global dimensions and company-level overrides."
+summary: "Dynamics GP to Business Central cloud migration enhancements: recent additions (excluding inactive checkbooks, migrating unreconciled bank transactions, fiscal periods, classes as posting groups, and GL year limits) plus the Wave 2 2022 GP configuration page. That page opens from Cloud Migration Management and lets you choose modules, master data only, and exclusion of inactive or discontinued items. It also covers global dimensions, per-company overrides, and unique GL summary document numbers."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - master data
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:06.414Z"
   flags: []
 generated:
-  at: "2026-10-06T21:18:07.805Z"
+  at: "2026-10-07T23:12:06.468Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -223,9 +223,9 @@ quotes:
 
 # Dynamics GP Cloud Migration - Moving to Business Central
 
-> Dynamics GP to Business Central cloud migration: the new GP configuration page, opened from the Cloud Migration Management page, lets users choose modules, GL years, master data only, and filters for inactive items and bank accounts. It also covers global dimensions and company-level overrides.
+> Dynamics GP to Business Central cloud migration enhancements: recent additions (excluding inactive checkbooks, migrating unreconciled bank transactions, fiscal periods, classes as posting groups, and GL year limits) plus the Wave 2 2022 GP configuration page. That page opens from Cloud Migration Management and lets you choose modules, master data only, and exclusion of inactive or discontinued items. It also covers global dimensions, per-company overrides, and unique GL summary document numbers.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ry9QvV6D7lg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 14:21 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ry9QvV6D7lg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 14:21 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -258,21 +258,21 @@ The demo covers module selection, limiting GL years, master data only per module
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GP Configuration Page | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=78s) |  |
-| Module-Level Selection in Migration | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=218s) |  |
-| Inactive Checkbook and Bank Account Filtering | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=117s) |  |
-| Unreconciled Bank Transaction Migration | status not stated | [2:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=138s) |  |
-| Fiscal Period Information Migration | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=158s) |  |
-| Vendor Bank Account Information Migration | status not stated | [2:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=158s) |  |
-| Classes to Posting Groups Conversion | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=178s) |  |
-| GL Year Limitation for Migration | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=198s) |  |
-| Master Data Only Migration Option | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=238s) |  |
-| Discontinued Items Filtering | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=238s) |  |
-| Unique GL Summary Document Numbering | status not stated | [4:19](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=259s) |  |
-| Global Dimensions Configuration | status not stated, demoed | [8:23](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=503s) |  |
-| Company-Level Migration Tweaks | status not stated, demoed | [7:42](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=462s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GP Configuration Page | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=78s) |
+| Module-Level Selection in Migration | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=218s) |
+| Inactive Checkbook and Bank Account Filtering | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=117s) |
+| Unreconciled Bank Transaction Migration | status not stated | [2:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=138s) |
+| Fiscal Period Information Migration | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=158s) |
+| Vendor Bank Account Information Migration | status not stated | [2:38](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=158s) |
+| Classes to Posting Groups Conversion | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=178s) |
+| GL Year Limitation for Migration | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=198s) |
+| Master Data Only Migration Option | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=238s) |
+| Discontinued Items Filtering | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=238s) |
+| Unique GL Summary Document Numbering | status not stated | [4:19](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=259s) |
+| Global Dimensions Configuration | status not stated, demoed | [8:23](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=503s) |
+| Company-Level Migration Tweaks | status not stated, demoed | [7:42](https://www.youtube.com/watch?v=Ry9QvV6D7lg&t=462s) |
 
 ## Quotes
 

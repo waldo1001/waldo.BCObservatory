@@ -16,12 +16,12 @@ tags:
   - consulting
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:49.584Z"
   flags: []
 generated:
-  at: "2026-10-06T21:19:28.862Z"
+  at: "2026-10-07T23:11:49.627Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,22 +94,7 @@ chapters:
     title: Training approach and career path
   - t: 80
     title: Onboarding experience and work-life balance
-features:
-  - name: Talent program
-    status: unclear
-    t: 20
-    verified: false
-    status_source: video
-  - name: Training modules
-    status: unclear
-    t: 60
-    verified: false
-    status_source: video
-  - name: Clients First onboarding
-    status: unclear
-    t: 80
-    verified: false
-    status_source: video
+features: []
 objects_mentioned: []
 quotes:
   - t: 0
@@ -133,7 +118,7 @@ quotes:
 
 > BCTalent Stories episode with Carcyn and Olivia from Clients First on becoming Business Central consultants. Covers their motivation, the talent program, self-paced training modules, onboarding at their own pace, and improved work-life balance after a career change.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2nXR8XUpx1Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 1:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2nXR8XUpx1Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 1:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -143,12 +128,12 @@ They talk about the talent program, which gives them people and content to learn
 
 ## Key points
 
-- One speaker became interested in the consultant role after seeing ERP implementations firsthand as an end user.
+- One speaker became interested in the consultant role after seeing ERP implementations firsthand as an end user in supply chain.
+- The role's appeal includes working from home and some travel for work.
 - The talent program gives access to individuals and content for self-learning and collaborative learning.
-- Training modules are self-paced, so consultants are not put on projects too early.
-- Onboarding at Clients First lets new hires learn at their own pace with customized learning approaches.
+- Training modules can be done in the consultant's own time, so they are not put on projects too early and learn little by little.
+- Onboarding at Clients First lets new hires learn at their own pace in the way that suits them best.
 - A speaker says their work-life balance improved after changing careers to Business Central consultant.
-- Chapters also cover personal interests and hobbies, and the training approach and career path.
 
 ## Chapters
 
@@ -157,14 +142,6 @@ They talk about the talent program, which gives them people and content to learn
 - [0:40](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=40s) Personal interests and hobbies
 - [1:00](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=60s) Training approach and career path
 - [1:20](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=80s) Onboarding experience and work-life balance
-
-## Features
-
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Talent program | status not stated | [0:20](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=20s) |  |
-| Training modules | status not stated | [1:00](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=60s) |  |
-| Clients First onboarding | status not stated | [1:20](https://www.youtube.com/watch?v=2nXR8XUpx1Y&t=80s) |  |
 
 ## Quotes
 

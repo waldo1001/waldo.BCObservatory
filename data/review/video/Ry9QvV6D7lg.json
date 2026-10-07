@@ -1,0 +1,40 @@
+{
+  "video_id": "Ry9QvV6D7lg",
+  "item_id": "video/yt-microsoft/Ry9QvV6D7lg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes match the transcript word for word.",
+    "Every feature was left as unclear, but the transcript gives status cues. Wave 2 2022 items (configuration page, module selection, master data only, GL summary document numbers) are announced. Discontinued items exclusion is 'very soon', so announced. Items 'added in the last few months' (inactive checkbooks, unreconciled bank transactions, fiscal periods, classes as posting groups, GL year limit) are GA.",
+    "Global dimensions setup and per-company overrides are set to announced because they are part of the Wave 2 2022 configuration page, even though no direct status quote exists for them.",
+    "The summary presented excluding inactive items as available now, but the transcript says it is coming 'very soon'. Rewrote it to separate recent additions from Wave 2 2022 items.",
+    "The quote at 293.3 adds little but is kept."
+  ],
+  "input_hash": "8a8d1a634a10fa323d3bb0ff0f3e39141eb05ba28b057b1e9f203ea2f98d41d1",
+  "by": "opus",
+  "at": "2026-10-07T23:12:06.414Z",
+  "applied": [
+    "Vendor Bank Account Information Migration: status unclear",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status GP Configuration Page -> announced: evidence not verbatim or does not state the status",
+    "status Module-Level Selection in Migration -> announced: evidence not verbatim or does not state the status",
+    "status Master Data Only Migration Option -> announced: evidence not verbatim or does not state the status",
+    "status Discontinued Items Filtering -> announced: evidence not verbatim or does not state the status",
+    "status Unique GL Summary Document Numbering -> announced: evidence not verbatim or does not state the status",
+    "status Inactive Checkbook and Bank Account Filtering -> ga: evidence not verbatim or does not state the status",
+    "status Unreconciled Bank Transaction Migration -> ga: evidence not verbatim or does not state the status",
+    "status Fiscal Period Information Migration -> ga: evidence not verbatim or does not state the status",
+    "status Classes to Posting Groups Conversion -> ga: evidence not verbatim or does not state the status",
+    "status GL Year Limitation for Migration -> ga: evidence not verbatim or does not state the status",
+    "status Global Dimensions Configuration -> announced: evidence not verbatim or does not state the status",
+    "status Company-Level Migration Tweaks -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.16130099999999997
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "video_id": "jdevJbGgB-k",
+  "item_id": "video/yt-microsoft/jdevJbGgB-k",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary and key points match the transcript. The marketing text GA evidence is verbatim.",
+    "Bank reconciliation is described as 'already shipped', so its status changes from unclear to ga.",
+    "The developer toolkit is described as 'shipped' (t=327.9), so its status changes from unclear to ga.",
+    "The in-chat Copilot is described as 'working on', so its status changes to announced.",
+    "'AI toolkit for partners and developers' covers the same thing as 'AI developer toolkit'. I kept both because the second one adds detail about the AL API and UI elements.",
+    "Several features are prompt techniques or architecture concepts, not shippable Business Central features. The transcript supports them, so I kept them.",
+    "Dropped quote 591.4 because the captions are garbled ('fossy', 'platform'). Dropped quote 1118.5 because it says little on its own.",
+    "Added quotes on testing with a validation prompt, on the LLM not executing code in function calling, and on preventing hallucinations."
+  ],
+  "input_hash": "9545b64cf45eb4cba406c109a8b9b0dd15c319c3deac1322edfa5e7c259b8126",
+  "by": "opus",
+  "at": "2026-10-07T23:12:08.911Z",
+  "applied": [
+    "Marketing text generation: status ga",
+    "Chat Copilot for Business Central: status announced",
+    "dropped 2 quote(s)",
+    "quote at 652s",
+    "quote at 1159s",
+    "quote at 1219s"
+  ],
+  "rejected_edits": [
+    "status Bank reconciliation with LLM -> ga: evidence not verbatim or does not state the status",
+    "status AI developer toolkit -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.165993
+  }
+}

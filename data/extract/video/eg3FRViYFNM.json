@@ -531,7 +531,7 @@
       "description": "Analysis tabs provide a new way to derive insights from data without switching apps or requiring development. Introduced in preview last wave, now generally available with improvements including shareability, access control, and support for queries.",
       "status": "ga",
       "status_evidence_t": 1714,
-      "status_evidence_quote": "last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without",
+      "status_evidence_quote": "without the need for development in wave two this is now generally available for all of our customers",
       "status_evidence_verified": true,
       "t_start": 1704,
       "t_end": 1774.2,
@@ -708,21 +708,15 @@
     },
     {
       "t": 1643.6,
-      "text": "we're also introducing the ability to add existing table fields to your pages so you",
-      "why_it_matters": "Announces a new capability tied to update 2.3 with specific versioning, indicating forward roadmap commitment.",
-      "check": "fuzzy"
+      "text": "we're excited to announce that with update 2 three we're also introducing the ability to add existing table fields to your pages",
+      "why_it_matters": "Ties the add-table-fields capability to Update 23.",
+      "check": "exact"
     },
     {
       "t": 1643.6,
-      "text": "we're also introducing the ability to add existing table fields to your pages so you can optimize them",
-      "why_it_matters": "Announces new feature in update 23 for adding table fields to customize pages.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 1643.6,
-      "text": "these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only view",
-      "why_it_matters": "Clarifies the constraint that added table fields are read-only to protect source data.",
-      "check": "snapped"
+      "text": "these fields are not editable so you're really just bringing in Source table fields which are going to be readon",
+      "why_it_matters": "States that added source table fields are read-only.",
+      "check": "exact"
     },
     {
       "t": 1683.8,

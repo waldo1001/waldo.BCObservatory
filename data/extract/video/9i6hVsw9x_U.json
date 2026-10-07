@@ -262,6 +262,12 @@
       "check": "exact"
     },
     {
+      "t": 152.1,
+      "text": "when you're submitting a preview version of your app, you should include all the required dependencies as needed.",
+      "why_it_matters": "A submission requirement for publishers: preview submissions without their dependencies can fail in Partner Center.",
+      "check": "exact"
+    },
+    {
       "t": 169.2,
       "text": "previews can only be installed on sandbox environments. You cannot install them on production environments",
       "why_it_matters": "Critical restriction that protects production environments from preview stability risks.",

@@ -1,0 +1,30 @@
+{
+  "video_id": "eg3FRViYFNM",
+  "item_id": "video/yt-microsoft/eg3FRViYFNM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Analysis Tabs evidence quote only says it was released in preview last wave; replaced with the span stating it is now generally available (t 1714).",
+    "Two near-duplicate quotes at t 1643.6; dropped all quotes at that t and re-added two distinct verbatim spans (Update 23 announcement and read-only nature).",
+    "Key point on page inspection implied Update 23 applies to making fields read-only; transcript ties Update 23 only to adding source table fields. Reworded.",
+    "Collectible Errors description says 'producing interruptions', echoing a caption error (likely 'reduce'); left as is since descriptions cannot be edited here.",
+    "Other quotes verified verbatim; remaining features and summary are supported by the transcript."
+  ],
+  "input_hash": "d5353a28ae2245411cd190af8791141f60d85fe4e4a34b2c343ab49c914af1a4",
+  "by": "opus",
+  "at": "2026-10-07T23:12:39.542Z",
+  "applied": [
+    "Analysis Tabs: status ga",
+    "dropped 3 quote(s)",
+    "quote at 1644s",
+    "quote at 1644s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.18576499999999999
+  }
+}

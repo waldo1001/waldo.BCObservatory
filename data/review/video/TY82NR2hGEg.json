@@ -1,0 +1,41 @@
+{
+  "video_id": "TY82NR2hGEg",
+  "item_id": "video/yt-microsoft/TY82NR2hGEg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Four quote pairs are duplicates at the same t (785.6, 848.5, 3199.4, 3937.4). I dropped each pair and re-added one copy.",
+    "The quote at 1597.9 ('it's fairly fast even on large projects because') is a fragment that says nothing useful. Dropped.",
+    "Namespace adoption guidelines, Namespace naming conventions and Namespace object uniqueness are guidance and rules, not features. The key points already cover them. Dropped.",
+    "Secure Text API Key Protection Demo is a demo of the Secure Text and Secure Request URI features, not a separate feature. Dropped.",
+    "AppSource per user pricing: the transcript says it is in public preview at recording time and goes GA on October 9th. Set to preview with evidence.",
+    "Explore page in Visual Studio Code: the transcript says it is available in the preview and in the launch. Set to ga with evidence.",
+    "The existing preview statuses for Linux support, DevOps syntax highlighting and AppSource CSP are supported by the transcript.",
+    "The CodeSpaces, GitHub source and bulk symbol download items are stated as ideas with no commitment, so unclear is correct.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "740b6dfdebb587895349ed74df95a6fc83405293d4636e240bf40a605943ff20",
+  "by": "opus",
+  "at": "2026-10-07T23:12:44.798Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "AppSource per user pricing with direct sales: status preview",
+    "AL language extension for Linux: status preview",
+    "DevOps syntax highlighting: status preview",
+    "AppSource CSP support: status preview",
+    "dropped 9 quote(s)",
+    "quote at 786s",
+    "quote at 849s",
+    "quote at 3199s",
+    "quote at 3937s"
+  ],
+  "rejected_edits": [
+    "status Explore page in Visual Studio Code -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.335497
+  }
+}

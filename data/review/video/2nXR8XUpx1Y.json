@@ -1,0 +1,27 @@
+{
+  "video_id": "2nXR8XUpx1Y",
+  "item_id": "video/yt-microsoft/2nXR8XUpx1Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The three 'features' (Talent program, Training modules, Clients First onboarding) are employer HR and training programs, not Business Central product features. Dropped them.",
+    "System 'finance' is not supported. The speaker only mentions a supply chain background as an ERP end user. This field cannot be edited here, so it is flagged for follow-up.",
+    "All 5 quotes are verbatim. The last one runs from segment 80.9 into segment 101, which is allowed.",
+    "Replaced the meta key point about chapters with content from the transcript: remote work, travel, and learning a little every day.",
+    "'Customized learning approaches' paraphrases 'learning that was best suited for me' and is acceptable."
+  ],
+  "input_hash": "0faf579c161db26d1ed3753f77672edbd2519272dbd0bbaf6830c26806cdb1a0",
+  "by": "opus",
+  "at": "2026-10-07T23:11:49.584Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037941
+  }
+}

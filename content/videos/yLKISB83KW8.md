@@ -14,12 +14,12 @@ tags:
   - tell me search
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:41.269Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:41.301Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,7 +162,7 @@ quotes:
 
 > Setting the local currency (LCY) in Business Central on the General Ledger Setup page: LCY code, symbol and description, with USD as the example. The currencies table should not list the local currency, and order currency codes should be left empty for local currency.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=yLKISB83KW8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-04 · 1:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=yLKISB83KW8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-04 · 1:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,14 +191,14 @@ In the demo, the LCY code is set to USD, and the local currency symbol and curre
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Local Currency Setup | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=yLKISB83KW8&t=1s) |  |
-| LCY Code Configuration | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=yLKISB83KW8&t=30s) |  |
-| Local Currency Symbol Configuration | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=yLKISB83KW8&t=30s) |  |
-| Currency Description | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=yLKISB83KW8&t=47s) |  |
-| Currency Code in Orders | status not stated | [0:57](https://www.youtube.com/watch?v=yLKISB83KW8&t=57s) |  |
-| Currencies Table Verification | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=yLKISB83KW8&t=70s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Local Currency Setup | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=yLKISB83KW8&t=1s) |
+| LCY Code Configuration | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=yLKISB83KW8&t=30s) |
+| Local Currency Symbol Configuration | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=yLKISB83KW8&t=30s) |
+| Currency Description | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=yLKISB83KW8&t=47s) |
+| Currency Code in Orders | status not stated | [0:57](https://www.youtube.com/watch?v=yLKISB83KW8&t=57s) |
+| Currencies Table Verification | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=yLKISB83KW8&t=70s) |
 
 ## AL objects mentioned
 

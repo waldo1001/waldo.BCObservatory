@@ -14,12 +14,12 @@ tags:
   - technical skills
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:50.325Z"
   flags: []
 generated:
-  at: "2026-10-06T21:20:15.379Z"
+  at: "2026-10-07T23:11:50.377Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,7 +124,7 @@ quotes:
 
 > Personal account from two Vektus consultants (Thor and Oliver) on why they became Business Central consultants. It covers the Microsoft Talent program, which mixes theory and practice and leads to the MB800 final exam, and the work-life balance in the profession.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Rjnydcb0LDE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 2:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Rjnydcb0LDE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-01 · 2:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -134,12 +134,12 @@ They describe the Microsoft Talent program as a mix of theory and practice, with
 
 ## Key points
 
-- One speaker became a Business Central consultant mainly because of the technical side of the work.
+- One speaker became a Business Central consultant because the work mixes the technical side with working with people.
 - The Microsoft Talent program is praised for combining theory and practice.
-- The program has structured knowledge steps, and the MB800 final exam can be taken after them.
-- The speakers describe the work-life balance in the profession as very good, with hours easy to manage.
-- One speaker rides mountain bikes as a physical outlet outside work.
-- Both speakers recommend the consultant career and look forward to the coming years.
+- The program is thoroughly planned, with structured knowledge steps leading to the final exam (captioned as mp800, likely MB800).
+- Work-life balance in the profession is described as very good, with hours easy to place where you want them.
+- Outside work, one speaker rides mountain bikes and another plays disc golf to unplug.
+- A speaker recommends the consultant career, looks forward to perfecting skills, and hopes to still be a consultant 25 years from now.
 
 ## Chapters
 
@@ -150,10 +150,10 @@ They describe the Microsoft Talent program as a mix of theory and practice, with
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Talent Program | status not stated | [0:29](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=29s) |  |
-| MB800 Certification Exam | status not stated | [0:49](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=49s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft Talent Program | status not stated | [0:29](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=29s) |
+| MB800 Certification Exam | status not stated | [0:49](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=49s) |
 
 ## Quotes
 

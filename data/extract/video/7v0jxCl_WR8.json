@@ -193,10 +193,10 @@
     {
       "name": "Service Order Posting - Ship and Invoice",
       "description": "Service managers can post completed service orders with options to ship and invoice in a single action.",
-      "status": "ga",
-      "status_evidence_t": 307.6,
-      "status_evidence_quote": "they see the finished service order, what they can just do, go and post it. Post, ship, and invoice.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 307.6,
       "t_end": 318.1,
       "is_demoed": true,
@@ -442,6 +442,12 @@
       "t": 625.6,
       "text": "this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones.",
       "why_it_matters": "Indicates that partners can customize and extend the demo data tool for their specific scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 625.6,
+      "text": "So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well.",
+      "why_it_matters": "Says the Contoso demo tool is meant to replace configuration packages for both SaaS and on-prem.",
       "check": "exact"
     }
   ],

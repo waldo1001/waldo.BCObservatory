@@ -20,12 +20,12 @@ tags:
   - drop shipment
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:40.997Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:41.033Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -286,7 +286,7 @@ quotes:
 
 > Business Central 2023 release wave 2 legislation and localization updates: 23 new countries announced for the cloud (155 markets from December 2023), Swedish delocalization timeline, EU three-party trade and automatic account codes apps, Audit File Expert, Intrastat drop shipment, and report format region.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ax8yXCf7BY4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 21:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ax8yXCf7BY4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 21:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

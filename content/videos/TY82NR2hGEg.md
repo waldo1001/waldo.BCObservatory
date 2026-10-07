@@ -20,12 +20,12 @@ tags:
   - xml comments
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:44.798Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:44.883Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -47,12 +47,19 @@ evidence:
     t: 271
     quote: Another thing we added as a preview is syntax highlighting for DevOps.
   - kind: video
+    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=3937s
+    title: "AppSource per user pricing with direct sales: preview"
+    date: "2023-12-28T10:01:41.000Z"
+    commit: null
+    t: 3937
+    quote: That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.
+  - kind: video
     url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s
     title: "AppSource CSP support: preview"
     date: "2023-12-28T10:01:41.000Z"
     commit: null
     t: 3947
-    quote: in the in the middle of a private preview with select partners on this but that is
+    quote: in the in the middle of a private preview with select partners on this, but that is
   - kind: video
     url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=87s
     title: "What's New: Business Central Developer Tools (2023 release wave 2)"
@@ -87,14 +94,7 @@ evidence:
     date: "2023-12-28T10:01:41.000Z"
     commit: null
     t: 785
-    quote: you can only have one object of a kind with the same name in the module which means that kind name and
-  - kind: video
-    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=785s
-    title: "What's New: Business Central Developer Tools (2023 release wave 2)"
-    date: "2023-12-28T10:01:41.000Z"
-    commit: null
-    t: 785
-    quote: you can only have one object of a kind with the same name in the module. Which means that kind name and and module
+    quote: you can only have one object of a kind with the same name in the module. Which means that kind name and
   - kind: video
     url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=848s
     title: "What's New: Business Central Developer Tools (2023 release wave 2)"
@@ -102,13 +102,6 @@ evidence:
     commit: null
     t: 848
     quote: You should wait with name spacing your own code until all your dependencies are name spaced.
-  - kind: video
-    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=848s
-    title: "What's New: Business Central Developer Tools (2023 release wave 2)"
-    date: "2023-12-28T10:01:41.000Z"
-    commit: null
-    t: 848
-    quote: You should wait with name spacing your own code until all your dependencies are name spaced
   - kind: video
     url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=888s
     title: "What's New: Business Central Developer Tools (2023 release wave 2)"
@@ -144,13 +137,6 @@ evidence:
     commit: null
     t: 1326
     quote: this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands
-  - kind: video
-    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=1597s
-    title: "What's New: Business Central Developer Tools (2023 release wave 2)"
-    date: "2023-12-28T10:01:41.000Z"
-    commit: null
-    t: 1597
-    quote: it's fairly fast even on large projects because
   - kind: video
     url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=1763s
     title: "What's New: Business Central Developer Tools (2023 release wave 2)"
@@ -242,6 +228,20 @@ evidence:
     commit: null
     t: 3171
     quote: We also have the rich text extended data type that enables you to add rich content capabilities to your fields.
+  - kind: video
+    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=3185s
+    title: "What's New: Business Central Developer Tools (2023 release wave 2)"
+    date: "2023-12-28T10:01:41.000Z"
+    commit: null
+    t: 3185
+    quote: It gives you the capability that you would expect from a rich text editor, like formatting, adding images, links
+  - kind: video
+    url: https://www.youtube.com/watch?v=TY82NR2hGEg&t=3199s
+    title: "What's New: Business Central Developer Tools (2023 release wave 2)"
+    date: "2023-12-28T10:01:41.000Z"
+    commit: null
+    t: 3199
+    quote: it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with
 links:
   learn: []
   objects:
@@ -341,21 +341,6 @@ features:
   - name: Namespace code actions
     status: unclear
     t: 507
-    verified: false
-    status_source: video
-  - name: Namespace object uniqueness
-    status: unclear
-    t: 785
-    verified: false
-    status_source: video
-  - name: Namespace adoption guidelines
-    status: unclear
-    t: 848
-    verified: false
-    status_source: video
-  - name: Namespace naming conventions
-    status: unclear
-    t: 888
     verified: false
     status_source: video
   - name: AL Explorer group by namespace
@@ -463,11 +448,6 @@ features:
     t: 2762
     verified: false
     status_source: video
-  - name: Secure Text API Key Protection Demo
-    status: unclear
-    t: 2803
-    verified: false
-    status_source: video
   - name: Secure Request URI and Headers
     status: unclear
     t: 2908
@@ -554,9 +534,9 @@ features:
     verified: false
     status_source: video
   - name: AppSource per user pricing with direct sales
-    status: unclear
+    status: preview
     t: 3925
-    verified: false
+    verified: true
     status_source: video
   - name: AppSource CSP support
     status: preview
@@ -613,16 +593,10 @@ quotes:
     text: You declare a namespace as the first line in a in a source file or the first non-comment line.
     check: exact
   - t: 785
-    text: you can only have one object of a kind with the same name in the module which means that kind name and
-    check: fuzzy
-  - t: 785
-    text: you can only have one object of a kind with the same name in the module. Which means that kind name and and module
+    text: you can only have one object of a kind with the same name in the module. Which means that kind name and
     check: exact
   - t: 848
     text: You should wait with name spacing your own code until all your dependencies are name spaced.
-    check: exact
-  - t: 848
-    text: You should wait with name spacing your own code until all your dependencies are name spaced
     check: exact
   - t: 888
     text: Choose a unique name for your name spaces. And the good practice is to choose something that start with your company name, product, area,
@@ -639,9 +613,6 @@ quotes:
   - t: 1326
     text: this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands
     check: exact
-  - t: 1597
-    text: it's fairly fast even on large projects because
-    check: fuzzy
   - t: 1763
     text: it's great to see that we finally have namespace support in AL. And AL Doc will really help with getting up-to-date documentation on apps.
     check: exact
@@ -685,9 +656,6 @@ quotes:
     text: It gives you the capability that you would expect from a rich text editor, like formatting, adding images, links
     check: exact
   - t: 3199
-    text: it does have some restrictions, like the fact that it needs to be alone in its own group, so you cannot use it in
-    check: exact
-  - t: 3199
     text: it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with
     check: exact
   - t: 3332
@@ -704,9 +672,6 @@ quotes:
     check: exact
   - t: 3937
     text: That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.
-    check: exact
-  - t: 3937
-    text: on October 9th, that will actually go into GA
     check: exact
   - t: 3947
     text: in the in the middle of a private preview with select partners
@@ -726,7 +691,7 @@ quotes:
 
 > Business Central developer tools in 2023 release wave 2: AL namespaces with using directives and code actions, the AL Doc reference documentation tool, the AL language extension on Linux (in preview), secure text, page inspector explore options, debugger and profiler changes, and IntelliSense updates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=TY82NR2hGEg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-28 · 1:08:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=TY82NR2hGEg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-28 · 1:08:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -778,9 +743,6 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 | Using directives for namespace imports | status not stated, demoed | [8:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=507s) |  |
 | Fully qualified object names | status not stated, demoed | [9:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=567s) |  |
 | Namespace code actions | status not stated, demoed | [8:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=507s) |  |
-| Namespace object uniqueness | status not stated | [13:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=785s) |  |
-| Namespace adoption guidelines | status not stated | [14:08](https://www.youtube.com/watch?v=TY82NR2hGEg&t=848s) |  |
-| Namespace naming conventions | status not stated | [14:48](https://www.youtube.com/watch?v=TY82NR2hGEg&t=888s) |  |
 | AL Explorer group by namespace | status not stated, demoed | [15:44](https://www.youtube.com/watch?v=TY82NR2hGEg&t=944s) |  |
 | AL Doc reference documentation tool | status not stated, demoed | [16:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1016s) |  |
 | XML documentation comments in AL | status not stated, demoed | [19:40](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1180s) |  |
@@ -802,7 +764,6 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 | AL Profiler Sampling Interval Options | status not stated, demoed | [44:24](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2664s) |  |
 | Implicit Variant to Dictionary and List Conversion | status not stated | [45:45](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2745s) |  |
 | Secure Text Data Type | status not stated, demoed | [46:02](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2762s) |  |
-| Secure Text API Key Protection Demo | status not stated, demoed | [46:43](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2803s) |  |
 | Secure Request URI and Headers | status not stated, demoed | [48:28](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2908s) |  |
 | New Field Groups on Base Objects | status not stated | [51:01](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3061s) |  |
 | Allow in customization property | status not stated | [51:41](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3101s) |  |
@@ -820,8 +781,8 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 | AL Go default project folder setting | status not stated | [1:00:41](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3641s) |  |
 | AL compilation output folder | status not stated | [1:01:10](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3670s) |  |
 | GitHub Copilot Chat for AL | status not stated, demoed | [1:01:57](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3717s) |  |
-| AppSource per user pricing with direct sales | status not stated | [1:05:25](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3925s) |  |
-| AppSource CSP support | preview | [1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s) | "in the in the middle of a private preview with select partners on this but that is" ([1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s)) |
+| AppSource per user pricing with direct sales | preview | [1:05:25](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3925s) | "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA." ([1:05:37](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3937s)) |
+| AppSource CSP support | preview | [1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s) | "in the in the middle of a private preview with select partners on this, but that is" ([1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s)) |
 | AppSource entitlements mapping | status not stated | [1:06:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3965s) |  |
 | Entitlements documentation for license mapping | status not stated | [1:06:29](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3989s) |  |
 | Enhanced developer resources and documentation | status not stated | [1:06:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4015s) |  |
@@ -851,16 +812,13 @@ Not found in BC28-30: codeunit "Bing Maps GeoCode", table "GL entry", codeunit "
 - [1:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=116s) "One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux."
 - [4:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=295s) "I'm going to talk to you about one of the major new features in the AL language, namespaces."
 - [7:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=467s) "You declare a namespace as the first line in a in a source file or the first non-comment line."
-- [13:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=785s) "you can only have one object of a kind with the same name in the module which means that kind name and"
-- [13:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=785s) "you can only have one object of a kind with the same name in the module. Which means that kind name and and module"
+- [13:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=785s) "you can only have one object of a kind with the same name in the module. Which means that kind name and"
 - [14:08](https://www.youtube.com/watch?v=TY82NR2hGEg&t=848s) "You should wait with name spacing your own code until all your dependencies are name spaced."
-- [14:08](https://www.youtube.com/watch?v=TY82NR2hGEg&t=848s) "You should wait with name spacing your own code until all your dependencies are name spaced"
 - [14:48](https://www.youtube.com/watch?v=TY82NR2hGEg&t=888s) "Choose a unique name for your name spaces. And the good practice is to choose something that start with your company name, product, area,"
 - [17:10](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1030s) "Reference documentation provides details about programming elements associated with technologies and languages, including class libraries, object model"
 - [19:40](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1180s) "For a couple of a couple of years ago, we added XML documentation comment to the AL language"
 - [21:13](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1273s) "This tool has two purposes. It's one tool called AL Doc, but it allows us to create reference documentation for all our first-party apps"
 - [22:06](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1326s) "this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands"
-- [26:37](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1597s) "it's fairly fast even on large projects because"
 - [29:23](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1763s) "it's great to see that we finally have namespace support in AL. And AL Doc will really help with getting up-to-date documentation on apps."
 - [30:15](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1815s) "you need to open VS Code, uh you need to create the project, figure out the details about the environment, the connection uh string,"
 - [31:42](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1902s) "But we have a new option now called explore page in Visual Studio Code"
@@ -875,14 +833,12 @@ Not found in BC28-30: codeunit "Bing Maps GeoCode", table "GL entry", codeunit "
 - [51:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3087s) "Now, we made it possible for you to add fields to a field group that doesn't exist, thereby enabling the scenario where we want"
 - [52:51](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3171s) "We also have the rich text extended data type that enables you to add rich content capabilities to your fields."
 - [53:05](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3185s) "It gives you the capability that you would expect from a rich text editor, like formatting, adding images, links"
-- [53:19](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3199s) "it does have some restrictions, like the fact that it needs to be alone in its own group, so you cannot use it in"
 - [53:19](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3199s) "it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with"
 - [55:32](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3332s) "in this release, we're adding the ability to get inlay hints for AL parameter names and for return types."
 - [59:48](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3588s) "we have improved that to now also work on trigger and system methods and trigger events. That's a portal on page and table fields,"
 - [1:02:11](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3731s) "let's have a look at the more recent GitHub Copilot Chat, which is an interactive chat experience inside of uh Visual Studio Code."
 - [1:05:25](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3925s) "We have the first wave of functionality with a per user pricing model that support direct sales channel in Microsoft AppSource."
 - [1:05:37](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3937s) "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA."
-- [1:05:37](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3937s) "on October 9th, that will actually go into GA"
 - [1:05:47](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3947s) "in the in the middle of a private preview with select partners"
 - [1:06:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4015s) "collaboration with partners that has led to updating much more detail with examples"
 - [1:07:06](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4026s) "have a big investment in the performance tool kit that you can go and read off"

@@ -1,0 +1,32 @@
+{
+  "video_id": "rmPtE94fby0",
+  "item_id": "video/yt-microsoft/rmPtE94fby0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim; some run on into the next caption segment, which is acceptable.",
+    "The feature 'Copilot and AI skills in Business Central' is not supported. The CEO says AI and Copilot will mean less development work and more need for consulting and business process skills. Nobody says the program trains Copilot or AI skills.",
+    "The key point saying the program emphasizes Copilot and AI skills is unsupported and has been rewritten.",
+    "The summary has been reworded so it no longer says the program focuses on AI skills.",
+    "Added a quote on why the company entered the program: it can't keep hiring from other partners.",
+    "The 'crm' and 'sales' systems tags have no support in the transcript.",
+    "The company name appears in the captions as 'Cs' and 'Clos'; the video title gives it as Ciellos."
+  ],
+  "input_hash": "7d85e861d555eaadd4ba24cfb950ea602133f990c15cca5329ab86e71d6647ba",
+  "by": "opus",
+  "at": "2026-10-07T23:11:34.245Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Rescale Program: status unclear",
+    "quote at 43s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.050341000000000004
+  }
+}

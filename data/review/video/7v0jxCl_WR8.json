@@ -1,0 +1,26 @@
+{
+  "video_id": "7v0jxCl_WR8",
+  "item_id": "video/yt-microsoft/7v0jxCl_WR8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Service Order Posting - Ship and Invoice' was marked ga, but its evidence quote only describes the posting action. Nothing in the transcript states preview or GA status, so it is now unclear.",
+    "The quotes at 104.2 and 625.6 run on into the next segment. They are verbatim, so they are kept.",
+    "Most features are existing service management functions shown with the new demo data, not new capabilities. The descriptions match the transcript, so they are kept.",
+    "Added a quote saying the demo tool is planned for both SaaS and on-prem, which the page was missing."
+  ],
+  "input_hash": "4e6d5707a4b92bd595af555da64b0698fb690c332e4c5ba00f3c174788f8334f",
+  "by": "opus",
+  "at": "2026-10-07T23:12:52.482Z",
+  "applied": [
+    "Service Order Posting - Ship and Invoice: status unclear",
+    "quote at 626s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078401
+  }
+}

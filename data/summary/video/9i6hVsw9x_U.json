@@ -10,7 +10,7 @@
     "Previews install only on sandbox environments, not production. Sandboxes with preview versions cannot be copied or restored to production.",
     "Publishers can run simultaneous previews for different offers with different preview keys, even when the offers contain the same apps.",
     "Breaking changes are allowed between preview versions, but must not be introduced to the latest public version.",
-    "A preview can be updated to a higher preview through a link with the preview key, or to a public version through the link without the key or from the admin center. Installed previews are also promoted automatically to higher public versions according to the app update guidance setting."
+    "A preview submission must include all required dependencies, otherwise the Partner Center submission might fail."
   ],
   "audience": [
     "partner",

@@ -1,0 +1,26 @@
+{
+  "video_id": "iHgaNJucyvI",
+  "item_id": "video/yt-microsoft/iHgaNJucyvI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Evidence for 'Add existing table fields to pages' points to the segment at 754.4, but the quote 'we are launching this capability in preview with update 23' starts in the segment at 774.4. I changed evidence_t to 774.4.",
+    "All 16 quotes match the transcript word for word. Some run on into the next caption segment, which is allowed.",
+    "The summary and key points are supported: role customization only, read-only fields, the permission in D365 Profile Management, the allow customizations property, sandbox export and import, the flow field performance warning, and when extensions are still needed.",
+    "Minor: some features start at slightly early timestamps. Advanced filtering is listed at 180.5 but the demo starts at 359.6. Explore in Visual Studio Code is listed at 1454.3 but is named at 1474.3. I left these alone.",
+    "Analysis views is only mentioned in passing as a related session. I kept it because the transcript does name it."
+  ],
+  "input_hash": "e66ffab9fe9b1f666404954ac27d51159e67d755640237d6c03b33c8e1bcedbe",
+  "by": "opus",
+  "at": "2026-10-07T23:12:37.245Z",
+  "applied": [
+    "Add existing table fields to pages: status preview"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.145093
+  }
+}

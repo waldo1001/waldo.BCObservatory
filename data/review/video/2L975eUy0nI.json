@@ -1,0 +1,30 @@
+{
+  "video_id": "2L975eUy0nI",
+  "item_id": "video/yt-microsoft/2L975eUy0nI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "This is a short career testimonial, not a product demo. The three 'features' are not Business Central product features: a company focus, a training program membership and a consulting goal. All three are dropped.",
+    "The key point saying Acadon serves 'various industries' is not supported. The transcript only says Acadon is in 'this industry' and focuses on Microsoft ERP system solutions.",
+    "Removed the meta key point that listed the chapters, because it adds nothing.",
+    "The 'Microsoft Thailand program' name comes straight from the auto-captions and may be a caption error. The summary says this.",
+    "The transcript starts at 23.5s, so the first part of the video is missing from the captions.",
+    "The systems tag 'development' is not supported. Nothing in the video is about development.",
+    "All six quotes are verbatim. Two of them run on into the next segment, which is allowed."
+  ],
+  "input_hash": "947ff8adeb11e0ebf271a4e633482e1898e4da0262ff7630909464bbf733b151",
+  "by": "opus",
+  "at": "2026-10-07T23:12:20.209Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04424499999999999
+  }
+}

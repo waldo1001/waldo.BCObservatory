@@ -16,12 +16,12 @@ tags:
   - telemetry
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:18.794Z"
   flags: []
 generated:
-  at: "2026-10-06T21:29:05.729Z"
+  at: "2026-10-07T23:12:18.829Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 135
     quote: You will be allowed to perform breaking changes between preview versions of your extensions
+  - kind: video
+    url: https://www.youtube.com/watch?v=9i6hVsw9x_U&t=152s
+    title: AppSource App Previews
+    date: "2024-02-02T12:05:58.000Z"
+    commit: null
+    t: 152
+    quote: when you're submitting a preview version of your app, you should include all the required dependencies as needed.
   - kind: video
     url: https://www.youtube.com/watch?v=9i6hVsw9x_U&t=169s
     title: AppSource App Previews
@@ -165,6 +172,9 @@ quotes:
   - t: 135
     text: You will be allowed to perform breaking changes between preview versions of your extensions
     check: exact
+  - t: 152
+    text: when you're submitting a preview version of your app, you should include all the required dependencies as needed.
+    check: exact
   - t: 169
     text: previews can only be installed on sandbox environments. You cannot install them on production environments
     check: exact
@@ -177,7 +187,7 @@ quotes:
 
 > Installing preview versions of AppSource apps in Business Central: how publishers set a preview key in Partner Center and share an install URL, and how administrators install, update and monitor previews. Covers sandbox-only installation, the highest-version rule, breaking changes between previews, and telemetry.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9i6hVsw9x_U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 4:12 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9i6hVsw9x_U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 4:12 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -193,7 +203,7 @@ It also covers the administrator side. Previews can only be installed on sandbox
 - Previews install only on sandbox environments, not production. Sandboxes with preview versions cannot be copied or restored to production.
 - Publishers can run simultaneous previews for different offers with different preview keys, even when the offers contain the same apps.
 - Breaking changes are allowed between preview versions, but must not be introduced to the latest public version.
-- A preview can be updated to a higher preview through a link with the preview key, or to a public version through the link without the key or from the admin center. Installed previews are also promoted automatically to higher public versions according to the app update guidance setting.
+- A preview submission must include all required dependencies, otherwise the Partner Center submission might fail.
 
 ## Chapters
 
@@ -207,17 +217,17 @@ It also covers the administrator side. Previews can only be installed on sandbox
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Preview Key for AppSource Apps | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=34s) |  |
-| Preview Version Installation URL | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=48s) |  |
-| Automatic Preview Key Generation | status not stated | [1:52](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=112s) |  |
-| Simultaneous Preview Versions | status not stated | [2:02](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=122s) |  |
-| Breaking Changes in Preview Versions | status not stated | [2:15](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=135s) |  |
-| Sandbox-Only Preview Installation | status not stated | [2:49](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=169s) |  |
-| Preview to Public Version Updates | status not stated | [3:05](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=185s) |  |
-| Automatic Public Version Promotion | status not stated | [3:20](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=200s) |  |
-| Preview Version Telemetry Logging | status not stated | [3:30](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=210s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Preview Key for AppSource Apps | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=34s) |
+| Preview Version Installation URL | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=48s) |
+| Automatic Preview Key Generation | status not stated | [1:52](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=112s) |
+| Simultaneous Preview Versions | status not stated | [2:02](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=122s) |
+| Breaking Changes in Preview Versions | status not stated | [2:15](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=135s) |
+| Sandbox-Only Preview Installation | status not stated | [2:49](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=169s) |
+| Preview to Public Version Updates | status not stated | [3:05](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=185s) |
+| Automatic Public Version Promotion | status not stated | [3:20](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=200s) |
+| Preview Version Telemetry Logging | status not stated | [3:30](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=210s) |
 
 ## Quotes
 
@@ -225,5 +235,6 @@ It also covers the administrator side. Previews can only be installed on sandbox
 - [1:30](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=90s) "We are currently only supporting to install preview versions which are the highest version of your extension"
 - [1:41](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=101s) "If you have public version that is higher, even if you're giving a link with a preview key to your customers, this public version"
 - [2:15](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=135s) "You will be allowed to perform breaking changes between preview versions of your extensions"
+- [2:32](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=152s) "when you're submitting a preview version of your app, you should include all the required dependencies as needed."
 - [2:49](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=169s) "previews can only be installed on sandbox environments. You cannot install them on production environments"
 - [3:20](https://www.youtube.com/watch?v=9i6hVsw9x_U&t=200s) "Installed preview versions are automatically updated to higher public version with app update guidance setting"

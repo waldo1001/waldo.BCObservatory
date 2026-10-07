@@ -374,10 +374,10 @@
       "check": "exact"
     },
     {
-      "t": 549.9,
-      "text": "i mean rosslyn already contains the b net c and also f based on the same core libraries but it's they",
-      "why_it_matters": "Clarifies that AL could not directly reuse Roslyn code because AL is not a true .NET language, only its architectural concepts.",
-      "check": "fuzzy"
+      "t": 538.4,
+      "text": "It's not Roslyn, but we have moved a lot of the concepts out of the Roslyn code base because we are not.",
+      "why_it_matters": "Makes clear that the AL compiler borrows Roslyn's architecture and concepts but does not reuse Roslyn itself.",
+      "check": "exact"
     },
     {
       "t": 563.1,

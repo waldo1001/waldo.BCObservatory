@@ -14,12 +14,12 @@ tags:
   - demand forecasting
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:06.022Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:06.069Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,7 +121,7 @@ quotes:
 
 > Stock out warning on Business Central sales lines: a message appears when a quantity entered would cause negative inventory at the chosen location if posted. The 'Stock out warning' field in Sales and Receivables Setup turns it on or off. Demoed on a sales order with and without the warning.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gBB0elWQWM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 2:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gBB0elWQWM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 2:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,10 +149,10 @@ The demo shows the warning on a sales order, and notes that an unposted sales li
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Stock out warning on sales lines | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=gBB0elWQWM8&t=36s) |  |
-| Stock out warning toggle | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=gBB0elWQWM8&t=98s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Stock out warning on sales lines | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=gBB0elWQWM8&t=36s) |
+| Stock out warning toggle | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=gBB0elWQWM8&t=98s) |
 
 ## AL objects mentioned
 

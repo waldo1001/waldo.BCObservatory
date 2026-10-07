@@ -20,12 +20,12 @@ tags:
   - page customizations
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:37.245Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:37.286Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -337,7 +337,7 @@ quotes:
 
 > Adding existing table fields to pages in Business Central, shown in preview with update 23 (2023 release wave 2). Covers role customization, read-only behavior, the permission and developer property that control it, sandbox testing, limits, and when extensions are still needed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=iHgaNJucyvI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 28:57 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=iHgaNJucyvI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 28:57 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

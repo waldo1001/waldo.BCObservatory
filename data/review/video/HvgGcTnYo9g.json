@@ -1,0 +1,30 @@
+{
+  "video_id": "HvgGcTnYo9g",
+  "item_id": "video/yt-microsoft/HvgGcTnYo9g",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes appear verbatim in the transcript.",
+    "AI-assisted demand planning was marked 'announced', but the transcript only has a customer describing its own future plans ('as we move into...'). Microsoft does not announce anything, so the status is changed to unclear.",
+    "The key point calling AI demand planning 'announced' is rewritten as the customer's stated future direction.",
+    "The key point about 'reporting teams' overstated the transcript, which says 'power app transformed our reporting people are getting data'. It now follows the wording more closely.",
+    "The 'Production order management' feature has t_start 41.3, but the production order statement starts at 61.4. This is a minor mismatch.",
+    "This is a customer testimonial with no product release status for any feature."
+  ],
+  "input_hash": "9c945436a1359a31f650c31e47531c6b71f0f2487f7d88902d158456bc4e3b6f",
+  "by": "opus",
+  "at": "2026-10-07T23:11:38.258Z",
+  "applied": [
+    "AI-assisted demand planning: status unclear",
+    "quote at 21s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049116999999999994
+  }
+}

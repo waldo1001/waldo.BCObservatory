@@ -20,12 +20,12 @@ tags:
   - hallucinations
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:08.911Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:08.965Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,14 @@ evidence:
     date: "2024-02-13T15:07:50.000Z"
     commit: null
     t: 213
-    quote: we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords for for
+    quote: we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords
+  - kind: video
+    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=233s
+    title: "Chat Copilot for Business Central: announced"
+    date: "2024-02-13T15:07:50.000Z"
+    commit: null
+    t: 233
+    quote: one of the big features we're working on is to kind of have a chat inside business Central
   - kind: video
     url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=10s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
@@ -75,12 +82,12 @@ evidence:
     t: 490
     quote: prompting is not an exact science right because it's no one let's put it that way no one can really predict exactly what the
   - kind: video
-    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=591s
+    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=652s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
     date: "2024-02-13T15:07:50.000Z"
     commit: null
-    t: 591
-    quote: the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these
+    t: 652
+    quote: because this may not be really predictable right you actually need another prompt to to validate in many cases at least right
   - kind: video
     url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=734s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
@@ -110,12 +117,12 @@ evidence:
     t: 976
     quote: a chat is like it's it's a multi-turn of or turn of questions and answers right and the user may clarify or change subject
   - kind: video
-    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=1118s
+    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=1158s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
     date: "2024-02-13T15:07:50.000Z"
     commit: null
-    t: 1118
-    quote: but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a
+    t: 1158
+    quote: it tells you how to execute it doesn't actually execute the code right that's up to you but it guides you
   - kind: video
     url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=1178s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
@@ -123,6 +130,13 @@ evidence:
     commit: null
     t: 1178
     quote: Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to
+  - kind: video
+    url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=1218s
+    title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
+    date: "2024-02-13T15:07:50.000Z"
+    commit: null
+    t: 1218
+    quote: you always feed the data and you can instruct in the prompt that you really only use this data
   - kind: video
     url: https://www.youtube.com/watch?v=jdevJbGgB-k&t=1259s
     title: "Business Central Under the Hood episode 1: Developing AI in Business Central"
@@ -198,9 +212,9 @@ features:
     verified: true
     status_source: video
   - name: Chat Copilot for Business Central
-    status: unclear
+    status: announced
     t: 233
-    verified: false
+    verified: true
     status_source: video
   - name: Bank reconciliation with LLM
     status: unclear
@@ -283,8 +297,8 @@ quotes:
   - t: 490
     text: prompting is not an exact science right because it's no one let's put it that way no one can really predict exactly what the
     check: exact
-  - t: 591
-    text: the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these
+  - t: 652
+    text: because this may not be really predictable right you actually need another prompt to to validate in many cases at least right
     check: exact
   - t: 734
     text: one of them and kind of a very successful technique is what kind of called few shot learning right and this basically that in
@@ -298,11 +312,14 @@ quotes:
   - t: 976
     text: a chat is like it's it's a multi-turn of or turn of questions and answers right and the user may clarify or change subject
     check: exact
-  - t: 1118
-    text: but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a
+  - t: 1158
+    text: it tells you how to execute it doesn't actually execute the code right that's up to you but it guides you
     check: exact
   - t: 1178
     text: Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to
+    check: exact
+  - t: 1218
+    text: you always feed the data and you can instruct in the prompt that you really only use this data
     check: exact
   - t: 1259
     text: jailbreak the prompt in getting it to do something else then you know the developer or whoever made this prompt was intended it to
@@ -319,7 +336,7 @@ quotes:
 
 > Developing AI features in Business Central: how Microsoft's team designs LLM features, covering prompt techniques (few-shot, Chain of Thought, function calling, meta-prompting), the Copilot chat service architecture, hallucination and jailbreak prevention, and the AI toolkit for partners.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jdevJbGgB-k) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-13 · 26:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jdevJbGgB-k) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-13 · 26:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -357,8 +374,8 @@ The talk then covers practical prompt engineering: few-shot learning, Chain of T
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Marketing text generation | generally available | [3:33](https://www.youtube.com/watch?v=jdevJbGgB-k&t=213s) | "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords for for" ([3:33](https://www.youtube.com/watch?v=jdevJbGgB-k&t=213s)) |
-| Chat Copilot for Business Central | status not stated | [3:53](https://www.youtube.com/watch?v=jdevJbGgB-k&t=233s) |  |
+| Marketing text generation | generally available | [3:33](https://www.youtube.com/watch?v=jdevJbGgB-k&t=213s) | "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords" ([3:33](https://www.youtube.com/watch?v=jdevJbGgB-k&t=213s)) |
+| Chat Copilot for Business Central | announced | [3:53](https://www.youtube.com/watch?v=jdevJbGgB-k&t=233s) | "one of the big features we're working on is to kind of have a chat inside business Central" ([3:53](https://www.youtube.com/watch?v=jdevJbGgB-k&t=233s)) |
 | Bank reconciliation with LLM | status not stated | [4:47](https://www.youtube.com/watch?v=jdevJbGgB-k&t=287s) |  |
 | AI developer toolkit | status not stated | [5:27](https://www.youtube.com/watch?v=jdevJbGgB-k&t=327s) |  |
 | Few-shot learning prompting technique | status not stated, demoed | [11:54](https://www.youtube.com/watch?v=jdevJbGgB-k&t=714s) |  |
@@ -388,13 +405,14 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:53](https://www.youtube.com/watch?v=jdevJbGgB-k&t=233s) "we are starting slowly we're also learning a lot by building these features turns out this is this is probably harder than we thought"
 - [4:47](https://www.youtube.com/watch?v=jdevJbGgB-k&t=287s) "we have already shipped uh bank reconciliation right try to match use llms to match bank records behind the product"
 - [8:10](https://www.youtube.com/watch?v=jdevJbGgB-k&t=490s) "prompting is not an exact science right because it's no one let's put it that way no one can really predict exactly what the"
-- [9:51](https://www.youtube.com/watch?v=jdevJbGgB-k&t=591s) "the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these"
+- [10:52](https://www.youtube.com/watch?v=jdevJbGgB-k&t=652s) "because this may not be really predictable right you actually need another prompt to to validate in many cases at least right"
 - [12:14](https://www.youtube.com/watch?v=jdevJbGgB-k&t=734s) "one of them and kind of a very successful technique is what kind of called few shot learning right and this basically that in"
 - [13:35](https://www.youtube.com/watch?v=jdevJbGgB-k&t=815s) "CH for is really just like what humans does right you kind of break break down the problem you you solve small sub parts"
 - [14:15](https://www.youtube.com/watch?v=jdevJbGgB-k&t=855s) "let's think about it step by step it's really breaking down the you write that in the prompt you simply just put that in"
 - [16:16](https://www.youtube.com/watch?v=jdevJbGgB-k&t=976s) "a chat is like it's it's a multi-turn of or turn of questions and answers right and the user may clarify or change subject"
-- [18:38](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1118s) "but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a"
+- [19:18](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1158s) "it tells you how to execute it doesn't actually execute the code right that's up to you but it guides you"
 - [19:38](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1178s) "Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to"
+- [20:18](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1218s) "you always feed the data and you can instruct in the prompt that you really only use this data"
 - [20:59](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1259s) "jailbreak the prompt in getting it to do something else then you know the developer or whoever made this prompt was intended it to"
 - [23:40](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1420s) "maybe you should not start with the absolutely mind-blowing stuff unless that mind-blowing stuff is really simple I think it's good to develop a"
 - [25:02](https://www.youtube.com/watch?v=jdevJbGgB-k&t=1502s) "on Azure there's also the Azure um open a studio yeah right which is also a it's very useful tool to kind of construct"

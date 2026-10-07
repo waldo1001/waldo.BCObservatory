@@ -15,12 +15,12 @@ tags:
   - 2024 release wave one
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:37.351Z"
   flags: []
 generated:
-  at: "2026-10-06T19:54:34.654Z"
+  at: "2026-10-07T23:11:37.386Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,7 +40,14 @@ evidence:
     date: "2024-03-21T09:16:58.000Z"
     commit: null
     t: 11
-    quote: First, there's a new icon for analysis mode. It's in the same place and still turns analysis mode on and off, but now takes
+    quote: It's in the same place and still turns analysis mode on and off, but now takes up less space.
+  - kind: video
+    url: https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s
+    title: Modern Action Bar
+    date: "2024-03-21T09:16:58.000Z"
+    commit: null
+    t: 11
+    quote: We've also created space by removing the captions for search and analysis mode.
   - kind: video
     url: https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s
     title: Modern Action Bar
@@ -118,7 +125,10 @@ quotes:
     text: Updates to the action bar in 2024 release wave one make it simpler to use and make you more productive.
     check: exact
   - t: 11
-    text: First, there's a new icon for analysis mode. It's in the same place and still turns analysis mode on and off, but now takes
+    text: It's in the same place and still turns analysis mode on and off, but now takes up less space.
+    check: exact
+  - t: 11
+    text: We've also created space by removing the captions for search and analysis mode.
     check: exact
   - t: 30
     text: Copilot's now on the action bar, so it's easier to reach Copilot actions on any list page.
@@ -132,7 +142,7 @@ quotes:
 
 > Action bar changes in Business Central 2024 release wave one: a smaller analysis mode icon, removed search and analysis mode captions, Copilot on the action bar for list pages, the process tab renamed home, and split buttons for popular actions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=3jr6gUuGem4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 1:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=3jr6gUuGem4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 1:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,17 +169,18 @@ The analysis mode icon is new and takes less space, but stays in the same place 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Analysis mode icon redesign | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |  |
-| Removal of search and analysis mode captions | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |  |
-| Copilot on action bar | status not stated | [0:30](https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s) |  |
-| Action bar made standard | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |  |
-| Split buttons for fast access | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Analysis mode icon redesign | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
+| Removal of search and analysis mode captions | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
+| Copilot on action bar | status not stated | [0:30](https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s) |
+| Action bar made standard | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
+| Split buttons for fast access | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
 
 ## Quotes
 
 - [0:00](https://www.youtube.com/watch?v=3jr6gUuGem4&t=0s) "Updates to the action bar in 2024 release wave one make it simpler to use and make you more productive."
-- [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) "First, there's a new icon for analysis mode. It's in the same place and still turns analysis mode on and off, but now takes"
+- [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) "It's in the same place and still turns analysis mode on and off, but now takes up less space."
+- [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) "We've also created space by removing the captions for search and analysis mode."
 - [0:30](https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s) "Copilot's now on the action bar, so it's easier to reach Copilot actions on any list page."
 - [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) "It's now standard and the process tab is now called home. It's where the most popular actions are."

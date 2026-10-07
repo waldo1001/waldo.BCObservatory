@@ -1,0 +1,25 @@
+{
+  "video_id": "_OClSlushOU",
+  "item_id": "video/yt-microsoft/_OClSlushOU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word (some are cut off mid-sentence at the caption boundary, which is fine).",
+    "All features are marked unclear. That is right: this is a scripted demo and never says whether anything is in preview or generally available.",
+    "The Power Automate key point said the flow 'needs setup'. The transcript only says the team built it with Power Automate and that it runs with a single click in Business Central, so I reworded that key point to stick to what the transcript says.",
+    "The summary and chapters are supported by the transcript."
+  ],
+  "input_hash": "e799e18cf8bcac41b54dc50ebc2534d0524465272232acd7c7f518ae634db601",
+  "by": "opus",
+  "at": "2026-10-07T23:12:00.266Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068549
+  }
+}

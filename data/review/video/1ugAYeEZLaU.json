@@ -1,0 +1,26 @@
+{
+  "video_id": "1ugAYeEZLaU",
+  "item_id": "video/yt-microsoft/1ugAYeEZLaU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes match the transcript. Differences are only in case or in where the span starts.",
+    "A key point added advice the transcript doesn't give: 'so agree on it before changing it'. I removed it.",
+    "The key points left out that the default display shows an Amount field and an Amount in local currency field (t=14). I added it.",
+    "The 'development' system tag isn't supported. The video covers finance configuration only, with no development content.",
+    "Feature statuses are 'unclear', which is right. The transcript never says whether anything is preview or GA."
+  ],
+  "input_hash": "6f57ee5a29138447f1113e26abde0eabef8d3ace10017f10ff4c73e67122e7fe",
+  "by": "opus",
+  "at": "2026-10-07T23:12:05.160Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.038005
+  }
+}

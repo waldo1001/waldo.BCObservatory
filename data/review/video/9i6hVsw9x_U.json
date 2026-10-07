@@ -1,0 +1,26 @@
+{
+  "video_id": "9i6hVsw9x_U",
+  "item_id": "video/yt-microsoft/9i6hVsw9x_U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and the features match the transcript.",
+    "All features are marked unclear. The transcript gives no preview or GA status for them, so that is right.",
+    "The page left out the rule that a preview submission must include all required dependencies, or the Partner Center submission might fail. I added a quote and a key point for it.",
+    "The summary mentions telemetry, but no key point covered it. I added a key point on telemetry logging of preview versus public installs."
+  ],
+  "input_hash": "db903106d1c700fb0a15dfd119ae1705d243ac70dbbf6a14171ea1d93977375f",
+  "by": "opus",
+  "at": "2026-10-07T23:12:18.794Z",
+  "applied": [
+    "quote at 152s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058813000000000004
+  }
+}

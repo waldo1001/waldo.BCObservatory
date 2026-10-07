@@ -95,7 +95,7 @@
       "description": "AI feature that generates marketing text based on keywords for items in Business Central.",
       "status": "ga",
       "status_evidence_t": 213.4,
-      "status_evidence_quote": "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords for for",
+      "status_evidence_quote": "we have released at least marketing text where we can kind of generate the marketing text based on kind of keywords",
       "status_evidence_verified": true,
       "t_start": 213.4,
       "t_end": 233.6,
@@ -111,10 +111,10 @@
     {
       "name": "Chat Copilot for Business Central",
       "description": "A chat interface inside Business Central that helps guide users, provides help on navigating the product, and allows asking questions about data and records.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 233.6,
+      "status_evidence_quote": "one of the big features we're working on is to kind of have a chat inside business Central",
+      "status_evidence_verified": true,
       "t_start": 233.6,
       "t_end": 287.6,
       "is_demoed": false,
@@ -433,9 +433,9 @@
       "check": "exact"
     },
     {
-      "t": 591.4,
-      "text": "the input to an llm is your prompt it's a bit fossy it's a bit of an platform and then you can use these",
-      "why_it_matters": "Explains why testing LLM features requires different approaches than traditional testing due to fuzzy inputs and outputs.",
+      "t": 652.4,
+      "text": "because this may not be really predictable right you actually need another prompt to to validate in many cases at least right",
+      "why_it_matters": "Shows how the team tests LLM output: a second prompt checks whether each answer is acceptable, because a plain string compare does not work.",
       "check": "exact"
     },
     {
@@ -463,15 +463,21 @@
       "check": "exact"
     },
     {
-      "t": 1118.5,
-      "text": "but it's not really code it's kind of it's kind of an interface you kind of just an interface you kind of describe a",
-      "why_it_matters": "Clarifies that function calling provides interface descriptions rather than actual executable code, guiding the system on what to invoke.",
+      "t": 1158.6,
+      "text": "it tells you how to execute it doesn't actually execute the code right that's up to you but it guides you",
+      "why_it_matters": "Clarifies that with function calling the LLM does not run any code. The developer makes the call.",
       "check": "exact"
     },
     {
       "t": 1178.7,
       "text": "Hallucination is basically when you don't give it up to-date information right and the way this whole thing is trained it really wants to",
       "why_it_matters": "Defines hallucination as resulting from insufficient data combined with the LLM's eagerness to provide answers, establishing the root cause of the problem.",
+      "check": "exact"
+    },
+    {
+      "t": 1218.7,
+      "text": "you always feed the data and you can instruct in the prompt that you really only use this data",
+      "why_it_matters": "Gives the main way to limit hallucinations: supply current data and tell the LLM to answer only from that data.",
       "check": "exact"
     },
     {

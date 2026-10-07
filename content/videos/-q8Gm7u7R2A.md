@@ -20,18 +20,32 @@ tags:
   - mapping plugins
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:24.337Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:24.399Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 521bc414cc7b25d659351e905a476fa982c6c3590ebaacd17f8dcb31275316f3
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1107s
+    title: "Virtual Tables: generally available"
+    date: "2024-04-04T13:30:00.000Z"
+    commit: null
+    t: 1107
+    quote: we have entered General availability for virtual table in the last release which is uh 23 Wave 2
+  - kind: video
+    url: https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1847s
+    title: "Business Events: preview"
+    date: "2024-04-04T13:30:00.000Z"
+    commit: null
+    t: 1847
+    quote: business event was uh uh released in public preview for about two releases
   - kind: video
     url: https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=57s
     title: "What's New: Business Central Integration with Dataverse (2024 release wave 1)"
@@ -130,6 +144,13 @@ evidence:
     commit: null
     t: 1592
     quote: the mapping plugin and M mapping table that uh we built can actually Target different companies
+  - kind: video
+    url: https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1847s
+    title: "What's New: Business Central Integration with Dataverse (2024 release wave 1)"
+    date: "2024-04-04T13:30:00.000Z"
+    commit: null
+    t: 1847
+    quote: business event was uh uh released in public preview for about two releases
   - kind: video
     url: https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1867s
     title: "What's New: Business Central Integration with Dataverse (2024 release wave 1)"
@@ -256,9 +277,9 @@ features:
     verified: false
     status_source: video
   - name: Virtual Tables
-    status: unclear
+    status: ga
     t: 156
-    verified: false
+    verified: true
     status_source: video
   - name: Data Change Events
     status: unclear
@@ -266,9 +287,9 @@ features:
     verified: false
     status_source: video
   - name: Business Events
-    status: unclear
+    status: preview
     t: 196
-    verified: false
+    verified: true
     status_source: video
   - name: Multi-company Support for Virtual Tables via Global Company Settings
     status: unclear
@@ -365,6 +386,9 @@ quotes:
   - t: 1592
     text: the mapping plugin and M mapping table that uh we built can actually Target different companies
     check: exact
+  - t: 1847
+    text: business event was uh uh released in public preview for about two releases
+    check: exact
   - t: 1867
     text: what's new in this release in 24 Wave 1 is actually a new UI Pages for troubleshooting minist events
     check: exact
@@ -386,7 +410,7 @@ quotes:
 
 > Business Central integration with Dataverse in 2024 release wave 1: data sync changes (linked environments, table and field mappings on existing integration tables, troubleshooting fact box), synthetic relationships, multi-company virtual tables with mapping plugins, and business event monitoring with Application Insights.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-q8Gm7u7R2A) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 40:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=-q8Gm7u7R2A) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 40:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -397,12 +421,12 @@ The second half covers synthetic relationships between synced tables and virtual
 ## Key points
 
 - Admins can link a Business Central environment to only a specific Dataverse environment.
-- New table mappings can be added to existing integration tables, but existing mappings cannot be remapped, duplicated or customized because they are defined in code. Field mappings are inserted as disabled by default.
+- New table mappings can be added to existing integration tables, but existing mappings cannot be remapped or duplicated because they are defined in code. New field mappings are inserted as disabled by default.
 - Field mappings support most simple data types. Lookup fields and custom logic need developer help.
-- Synthetic relationships link synced Dataverse tables to Business Central virtual tables. They require virtual tables to be enabled and a configured virtual table API page.
+- Synthetic relationships link synced Dataverse tables to Business Central virtual tables through an assisted setup guide. The virtual table must be enabled, and its API page supplies the fields to pick.
 - Virtual table company targeting: a global company setting applies to all users and apps, and a user-specific setting overrides it. A mapping plugin and mapping table can set the Dataverse shared BC Company ID variable per user, app and portal.
-- The mapping plugin must be registered with the plugin registration tool. Its example code is to be published after the launch event.
-- New business event UI pages show subscriptions, notifications, activity logs and retries. Events can also be sent to Application Insights, which must be set up in the admin center.
+- The mapping plugin can be registered with the plugin registration tool at the prevalidation stage. Its example code is to be published after the launch event.
+- New business event UI pages show subscriptions, notifications, activity logs and retries. Events are also sent to partner telemetry in Application Insights, set up via the Business Central admin center, with extra custom dimensions.
 
 ## Chapters
 
@@ -432,9 +456,9 @@ The second half covers synthetic relationships between synced tables and virtual
 | Dataverse Connection Setup Page Rename | status not stated | [8:59](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=539s) |  |
 | Synthetic Relationships | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=580s) |  |
 | Data Sync Overview | status not stated | [2:15](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=135s) |  |
-| Virtual Tables | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=156s) |  |
+| Virtual Tables | generally available, demoed | [2:36](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=156s) | "we have entered General availability for virtual table in the last release which is uh 23 Wave 2" ([18:27](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1107s)) |
 | Data Change Events | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=176s) |  |
-| Business Events | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=196s) |  |
+| Business Events | preview, demoed | [3:16](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=196s) | "business event was uh uh released in public preview for about two releases" ([30:47](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1847s)) |
 | Multi-company Support for Virtual Tables via Global Company Settings | status not stated, demoed | [18:48](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1128s) |  |
 | User-specific Company Settings for Virtual Tables | status not stated | [18:48](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1128s) |  |
 | Dataverse Shared BC Company ID Execution Variable | status not stated, demoed | [20:08](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1208s) |  |
@@ -478,6 +502,7 @@ Not found in BC28-30: table "Pay Type", table "Field Service Resource Pay Type",
 - [24:11](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1451s) "in the mapping table you can create an entry that match your um uh user and apps so in this case um in a"
 - [25:11](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1511s) "this will be published after the uh launch event so you can essentially cut and paste it and modify it right"
 - [26:32](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1592s) "the mapping plugin and M mapping table that uh we built can actually Target different companies"
+- [30:47](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1847s) "business event was uh uh released in public preview for about two releases"
 - [31:07](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1867s) "what's new in this release in 24 Wave 1 is actually a new UI Pages for troubleshooting minist events"
 - [31:47](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1907s) "Power automate flows that triggered by data cut uh change update uh create update and delete and also business event"
 - [33:06](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1986s) "you can see there are two synthatic relation that relates a native account in data verse with sales credit memo virtual tables"

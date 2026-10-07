@@ -255,68 +255,6 @@
       "system": "development"
     },
     {
-      "name": "Namespace object uniqueness",
-      "description": "Objects must have unique kind-name pairs within modules and namespaces. Each namespace ensures kind and fully qualified name uniqueness.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 785.6,
-      "t_end": 811.2,
-      "is_demoed": false,
-      "caveats": [
-        "current implementation still has naming restrictions with fixes",
-        "newer namespaced objects may not support names without fixes"
-      ],
-      "tags": [
-        "namespaces",
-        "object naming",
-        "constraints"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Namespace adoption guidelines",
-      "description": "Partners should wait until all dependencies are namespaced before namespacing their own code to avoid breaking references when dependencies are subsequently namespaced.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 848.5,
-      "t_end": 877.8,
-      "is_demoed": false,
-      "caveats": [
-        "breaking changes occur when dependencies are namespaced after dependent code"
-      ],
-      "tags": [
-        "namespaces",
-        "dependencies",
-        "adoption strategy"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Namespace naming conventions",
-      "description": "Namespace roots should be company-specific, stable, and non-version-specific. Best practice is to start with company name, product, area, feature. Avoid system names like Microsoft, utility, or common.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 888.1,
-      "t_end": 931.6,
-      "is_demoed": false,
-      "caveats": [
-        "renaming a namespace is a breaking change",
-        "root namespace should be definitely your own"
-      ],
-      "tags": [
-        "namespaces",
-        "naming conventions",
-        "best practices"
-      ],
-      "system": "development"
-    },
-    {
       "name": "AL Explorer group by namespace",
       "description": "AL Explorer now supports grouping objects by namespace, allowing developers to discover and navigate related objects within different namespaces and dependent apps.",
       "status": "unclear",
@@ -719,26 +657,6 @@
       "system": "development"
     },
     {
-      "name": "Secure Text API Key Protection Demo",
-      "description": "Demonstration of secure text protecting API keys and credentials in HTTP requests, showing hidden values in debugger for header values and request URIs.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2803.9,
-      "t_end": 2908.9,
-      "is_demoed": true,
-      "caveats": [
-        "Objects containing secret data should not be returned publicly"
-      ],
-      "tags": [
-        "secure text",
-        "api keys",
-        "debugging"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Secure Request URI and Headers",
       "description": "Support for setting secret request URIs and headers using secure text type, preventing access to sensitive data including API keys embedded in URLs during debugging.",
       "status": "unclear",
@@ -1074,10 +992,10 @@
     {
       "name": "AppSource per user pricing with direct sales",
       "description": "First wave of AppSource transactability with per user pricing model supporting direct sales channel via credit card.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 3937.4,
+      "status_evidence_quote": "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.",
+      "status_evidence_verified": true,
       "t_start": 3925,
       "t_end": 3947.8,
       "is_demoed": false,
@@ -1095,7 +1013,7 @@
       "description": "Cloud Solution Provider support for AppSource transactability is being developed and is currently in private preview with select partners.",
       "status": "preview",
       "status_evidence_t": 3947.8,
-      "status_evidence_quote": "in the in the middle of a private preview with select partners on this but that is",
+      "status_evidence_quote": "in the in the middle of a private preview with select partners on this, but that is",
       "status_evidence_verified": true,
       "t_start": 3947.8,
       "t_end": 3965.7,
@@ -1322,26 +1240,14 @@
     },
     {
       "t": 785.6,
-      "text": "you can only have one object of a kind with the same name in the module which means that kind name and",
-      "why_it_matters": "Describes the uniqueness constraint that preserves compatibility with existing code.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 785.6,
-      "text": "you can only have one object of a kind with the same name in the module. Which means that kind name and and module",
-      "why_it_matters": "Establishes the fundamental uniqueness constraint for namespaced objects within modules.",
+      "text": "you can only have one object of a kind with the same name in the module. Which means that kind name and",
+      "why_it_matters": "States the first namespace uniqueness rule, which keeps compatibility with existing code.",
       "check": "exact"
     },
     {
       "t": 848.5,
       "text": "You should wait with name spacing your own code until all your dependencies are name spaced.",
-      "why_it_matters": "Provides critical guidance on adoption strategy to avoid breaking changes.",
-      "check": "exact"
-    },
-    {
-      "t": 848.5,
-      "text": "You should wait with name spacing your own code until all your dependencies are name spaced",
-      "why_it_matters": "Critical guidance for preventing breaking changes during gradual namespace adoption across dependent modules.",
+      "why_it_matters": "This is the main adoption guidance for namespaces.",
       "check": "exact"
     },
     {
@@ -1373,12 +1279,6 @@
       "text": "this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands",
       "why_it_matters": "Specifies AL Doc's location and primary commands for documentation generation workflow.",
       "check": "exact"
-    },
-    {
-      "t": 1597.9,
-      "text": "it's fairly fast even on large projects because",
-      "why_it_matters": "Indicates AL Doc build performance characteristics for large codebases.",
-      "check": "fuzzy"
     },
     {
       "t": 1763.2,
@@ -1466,14 +1366,8 @@
     },
     {
       "t": 3199.4,
-      "text": "it does have some restrictions, like the fact that it needs to be alone in its own group, so you cannot use it in",
-      "why_it_matters": "Defines important limitations of the rich text field type that developers must understand",
-      "check": "exact"
-    },
-    {
-      "t": 3199.4,
       "text": "it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with",
-      "why_it_matters": "Specifies important limitation of rich text fields that developers must understand for implementation.",
+      "why_it_matters": "Restriction on where the rich text extended data type can be placed.",
       "check": "exact"
     },
     {
@@ -1503,13 +1397,7 @@
     {
       "t": 3937.4,
       "text": "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.",
-      "why_it_matters": "Specifies exact date when AppSource per user pricing transitions from public preview to general availability.",
-      "check": "exact"
-    },
-    {
-      "t": 3937.4,
-      "text": "on October 9th, that will actually go into GA",
-      "why_it_matters": "Provides specific date for general availability of AppSource transactability, moving from public preview.",
+      "why_it_matters": "Gives the release status and GA date for AppSource transact with per user pricing.",
       "check": "exact"
     },
     {

@@ -1,0 +1,24 @@
+{
+  "video_id": "gBB0elWQWM8",
+  "item_id": "video/yt-microsoft/gBB0elWQWM8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All four quotes appear verbatim in the transcript at the stated segments.",
+    "The summary and key points match the transcript. Default-on behaviour (t=36.5), the Sales and Receivables Setup field (t=120.4) and the demand effect of unposted lines (t=80.2) are all stated directly.",
+    "The key point that the warning is tied to posting is a fair paraphrase of 'This won't mean anything right now... but it will when the order is posted'.",
+    "The topic 'demand forecasting' goes a little beyond the transcript, which only says that entered quantities affect demand. It is minor and I left it in.",
+    "Both features stay 'unclear' because the transcript says nothing about preview or GA status."
+  ],
+  "input_hash": "c5e3023521ee88f044823fa4f7ff2c885835f48ce3cb8f67fc772a17e2274488",
+  "by": "opus",
+  "at": "2026-10-07T23:12:06.022Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034616999999999995
+  }
+}

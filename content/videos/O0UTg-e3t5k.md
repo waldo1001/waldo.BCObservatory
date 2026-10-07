@@ -13,12 +13,12 @@ tags:
   - user interface
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:09.093Z"
   flags: []
 generated:
-  at: "2026-10-06T21:28:15.779Z"
+  at: "2026-10-07T23:12:09.131Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,7 +109,7 @@ quotes:
 
 > Keyboard shortcut for jumping to a master entity in Business Central: holding Control-Alt and pressing the Down arrow on a referenced field, such as an item on a sales order line, opens the related card. The demo uses a sales order and the item card.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=O0UTg-e3t5k) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 1:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=O0UTg-e3t5k) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 1:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -122,7 +122,7 @@ The video says the shortcut works for any referenced field, so the same approach
 - Hold Control and Alt, then press the Down arrow, to jump from a referenced field to its master entity.
 - In the demo, the shortcut on an item selected on a sales order line opens the item card for that product.
 - The video says it works for any referenced field, for example a customer or an item.
-- The shortcut avoids navigating to the master record by other means while working with data.
+- The presenter says the shortcut works anywhere in Business Central.
 - The feature was demonstrated in the video; its release status is not stated.
 
 ## Chapters
@@ -135,9 +135,9 @@ The video says the shortcut works for any referenced field, so the same approach
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Jump to Master Entity with Keyboard Shortcut | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=O0UTg-e3t5k&t=1s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Jump to Master Entity with Keyboard Shortcut | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=O0UTg-e3t5k&t=1s) |
 
 ## Quotes
 

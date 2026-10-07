@@ -1,0 +1,23 @@
+{
+  "video_id": "XN8a2zZe2a8",
+  "item_id": "video/yt-microsoft/XN8a2zZe2a8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes match the transcript word for word.",
+    "The key points and the summary are supported, including the setup pages, the scheduled-for-posting message, the report inbox and the requirement to enable cloud files for OneDrive.",
+    "All features are marked unclear, which fits because the transcript never says whether they are preview or generally available.",
+    "There is no quote for the report inbox step at 97.4. It is a small gap and not worth an edit."
+  ],
+  "input_hash": "c348f022d186f59a11665fb03d64cda78c81bec8e1ece5f3690cab1a478f6cfc",
+  "by": "opus",
+  "at": "2026-10-07T23:12:12.101Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032109
+  }
+}

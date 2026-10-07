@@ -146,8 +146,14 @@
     },
     {
       "t": 11.2,
-      "text": "First, there's a new icon for analysis mode. It's in the same place and still turns analysis mode on and off, but now takes",
-      "why_it_matters": "Describes a specific UI improvement that maintains functionality while reducing visual footprint.",
+      "text": "It's in the same place and still turns analysis mode on and off, but now takes up less space.",
+      "why_it_matters": "This is the complete statement of the analysis mode icon change, including the space saving.",
+      "check": "exact"
+    },
+    {
+      "t": 11.2,
+      "text": "We've also created space by removing the captions for search and analysis mode.",
+      "why_it_matters": "This is the transcript support for the caption removal feature.",
       "check": "exact"
     },
     {

@@ -14,12 +14,12 @@ tags:
   - environment quota
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:57.398Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:57.433Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,7 +145,7 @@ quotes:
 
 > Transferring Business Central environments between Microsoft Entra tenants through the tenant admin center: how to start a transfer in the source tenant, cancel pending ones, accept in the destination tenant, and the requirements (permissions, license, quota, timing limits).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-uAvdZAWWwI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-09 · 4:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=-uAvdZAWWwI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-09 · 4:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,13 +174,13 @@ The demo follows the process from initiating the transfer in the source tenant, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Environment transfers between Entra tenants | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=4s) |  |
-| Transfer scheduling | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=70s) |  |
-| Pending transfer cancellation | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=108s) |  |
-| Environment operations page | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=122s) |  |
-| Transfer audit trail | status not stated | [4:38](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=278s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Environment transfers between Entra tenants | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=4s) |
+| Transfer scheduling | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=70s) |
+| Pending transfer cancellation | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=108s) |
+| Environment operations page | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=122s) |
+| Transfer audit trail | status not stated | [4:38](https://www.youtube.com/watch?v=-uAvdZAWWwI&t=278s) |
 
 ## AL objects mentioned
 

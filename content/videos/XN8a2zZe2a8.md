@@ -14,12 +14,12 @@ tags:
   - report inbox
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:12.101Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:12.135Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,7 +148,7 @@ quotes:
 
 > Background posting in Business Central: posting journals and documents through the job queue so users keep working. The video demos enabling post with job queue and post and print with job queue on the purchase and payables setup, then posting a purchase order and finding it in the report inbox.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XN8a2zZe2a8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 2:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XN8a2zZe2a8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 2:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -179,12 +179,12 @@ The demo opens purchases and payables setup, enables post with job queue and pos
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Background posting with job queue | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=1s) |  |
-| Post and print with job queue | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=44s) |  |
-| Report inbox for posted documents | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=86s) |  |
-| OneDrive integration for posted documents | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=110s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Background posting with job queue | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=1s) |
+| Post and print with job queue | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=44s) |
+| Report inbox for posted documents | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=86s) |
+| OneDrive integration for posted documents | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=110s) |
 
 ## AL objects mentioned
 

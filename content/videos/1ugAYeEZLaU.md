@@ -14,12 +14,12 @@ tags:
   - journals
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:05.160Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:05.201Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,7 +125,7 @@ quotes:
 
 > Working with amount fields in Business Central: by default one amount field takes debit and credit using a sign. The Show Amounts setting on General Ledger Setup switches to separate debit and credit fields. The change applies company-wide.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1ugAYeEZLaU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 1:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1ugAYeEZLaU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-02-02 · 1:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,12 +135,12 @@ It then demonstrates changing the display on the General Ledger Setup page. Sele
 
 ## Key points
 
-- Default behavior: one amount field is used for both debit and credit, and a sign in front of the amount sets which it is.
-- The display is changed with the Show amounts field setting on the General Ledger Setup page.
-- Selecting debit and credit only shows separate debit and credit amount fields plus local currency counterparts.
-- Separate fields give a clearer overview of how entries balance.
-- The setting applies company-wide to all users, not per user, so agree on it before changing it.
-- The General Journal is mentioned as a place where amount fields are used.
+- By default, amounts on journals and documents go into one field for both debit and credit. A sign in front of the amount sets which one it is.
+- By default, an Amount field and an Amount in local currency field are shown.
+- You change the display with the Show amounts field on the General Ledger Setup page. Use Show more on the General FastTab to find it.
+- Choosing 'Debit and credit only' shows separate debit amount and credit amount fields plus their local currency counterparts.
+- In the General Journal, the separate debit and credit fields make it easier to see when entries balance and when they don't.
+- The setting applies company-wide to all users, not just the current user.
 
 ## Chapters
 
@@ -152,11 +152,11 @@ It then demonstrates changing the display on the General Ledger Setup page. Sele
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Show amounts field setting | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=25s) |  |
-| Amount field with sign notation | status not stated | [0:01](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=1s) |  |
-| Separate debit and credit amount fields | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=60s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Show amounts field setting | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=25s) |
+| Amount field with sign notation | status not stated | [0:01](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=1s) |
+| Separate debit and credit amount fields | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=1ugAYeEZLaU&t=60s) |
 
 ## AL objects mentioned
 

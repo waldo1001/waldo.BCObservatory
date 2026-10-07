@@ -16,25 +16,18 @@ tags:
   - maintenance orders
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:52.482Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:52.519Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 179c58f86bc9ff4e8199260e0200c0dd52287ce35890ae80d75077e420dac43e
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=7v0jxCl_WR8&t=307s
-    title: "Service Order Posting - Ship and Invoice: generally available"
-    date: "2023-12-22T14:01:52.000Z"
-    commit: null
-    t: 307
-    quote: they see the finished service order, what they can just do, go and post it. Post, ship, and invoice.
   - kind: video
     url: https://www.youtube.com/watch?v=7v0jxCl_WR8&t=37s
     title: "What's New: Service Management Demo Data (2023 release wave 2)"
@@ -77,6 +70,13 @@ evidence:
     commit: null
     t: 625
     quote: this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones.
+  - kind: video
+    url: https://www.youtube.com/watch?v=7v0jxCl_WR8&t=625s
+    title: "What's New: Service Management Demo Data (2023 release wave 2)"
+    date: "2023-12-22T14:01:52.000Z"
+    commit: null
+    t: 625
+    quote: So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well.
 links:
   learn: []
   objects:
@@ -152,9 +152,9 @@ features:
     verified: false
     status_source: video
   - name: Service Order Posting - Ship and Invoice
-    status: ga
+    status: unclear
     t: 307
-    verified: true
+    verified: false
     status_source: video
   - name: Automatic Service Item Creation from Sales Orders
     status: unclear
@@ -226,13 +226,16 @@ quotes:
   - t: 625
     text: this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones.
     check: exact
+  - t: 625
+    text: So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well.
+    check: exact
 ---
 
 # What's New: Service Management Demo Data (2023 release wave 2)
 
 > Service management demo data in the Contoso Coffee demo tool (2023 release wave 2): the tool gains a service management model and simpler configuration pages. The video walks through an ad hoc service order scenario and a service contract scenario with maintenance orders.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7v0jxCl_WR8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 11:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=7v0jxCl_WR8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 11:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -263,25 +266,25 @@ Two scenarios are demonstrated. The first is an ad hoc repair: a service order f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Service Management Model in Contoso Demo Tool | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=29s) |  |
-| Simplified Configuration Pages in Contoso Demo Tool | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=63s) |  |
-| Demo Data Generation Modes | status not stated | [1:44](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=104s) |  |
-| Ad Hoc Service Order with Item Replacement | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=140s) |  |
-| Troubleshooting and Fault Resolution Code Search | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=176s) |  |
-| Service Technician Task List and Item Worksheet | status not stated, demoed | [4:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=243s) |  |
-| Service Hours Registration | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=272s) |  |
-| Service Order Posting - Ship and Invoice | generally available, demoed | [5:07](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=307s) | "they see the finished service order, what they can just do, go and post it. Post, ship, and invoice." ([5:07](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=307s)) |
-| Automatic Service Item Creation from Sales Orders | status not stated, demoed | [5:31](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=331s) |  |
-| Service Contract Templates | status not stated, demoed | [5:55](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=355s) |  |
-| Service Order Types for Contract Classification | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=379s) |  |
-| Service Contract Signing and Invoicing | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=414s) |  |
-| Create Service Orders from Service Contracts | status not stated, demoed | [7:44](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=464s) |  |
-| Dispatch Board and Resource Allocation | status not stated, demoed | [8:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=509s) |  |
-| Service Task Execution with Hours Registration | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=550s) |  |
-| Service Order Line Quantity to Consume | status not stated, demoed | [9:50](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=590s) |  |
-| Extensibility of Contoso Demo Tool | status not stated | [10:19](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=619s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Service Management Model in Contoso Demo Tool | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=29s) |
+| Simplified Configuration Pages in Contoso Demo Tool | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=63s) |
+| Demo Data Generation Modes | status not stated | [1:44](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=104s) |
+| Ad Hoc Service Order with Item Replacement | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=140s) |
+| Troubleshooting and Fault Resolution Code Search | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=176s) |
+| Service Technician Task List and Item Worksheet | status not stated, demoed | [4:03](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=243s) |
+| Service Hours Registration | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=272s) |
+| Service Order Posting - Ship and Invoice | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=307s) |
+| Automatic Service Item Creation from Sales Orders | status not stated, demoed | [5:31](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=331s) |
+| Service Contract Templates | status not stated, demoed | [5:55](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=355s) |
+| Service Order Types for Contract Classification | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=379s) |
+| Service Contract Signing and Invoicing | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=414s) |
+| Create Service Orders from Service Contracts | status not stated, demoed | [7:44](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=464s) |
+| Dispatch Board and Resource Allocation | status not stated, demoed | [8:29](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=509s) |
+| Service Task Execution with Hours Registration | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=550s) |
+| Service Order Line Quantity to Consume | status not stated, demoed | [9:50](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=590s) |
+| Extensibility of Contoso Demo Tool | status not stated | [10:19](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=619s) |
 
 ## AL objects mentioned
 
@@ -303,5 +306,6 @@ Not found in BC28-30: page "Contoso", page "service task", page "item worksheet"
 - [5:31](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=331s) "We will create service item automatically when we post sales order."
 - [7:54](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=474s) "We will run create service orders from the contract task, which are valid in this month"
 - [10:25](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=625s) "this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones."
+- [10:25](https://www.youtube.com/watch?v=7v0jxCl_WR8&t=625s) "So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well."
 
 Presenters (as heard): Andrei Panko.

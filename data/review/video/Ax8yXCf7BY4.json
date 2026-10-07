@@ -1,0 +1,25 @@
+{
+  "video_id": "Ax8yXCf7BY4",
+  "item_id": "video/yt-microsoft/Ax8yXCf7BY4",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 13 quotes are verbatim spans of the transcript.",
+    "The only non-unclear status (23 new countries, announced) is backed by a verbatim quote at 157.6.",
+    "'Audit File Expert' is the caption wording, probably a mis-transcription of Export; kept as the transcript says it.",
+    "SIE and FEC in the Audit File Expert description are the page's reading of garbled captions ('Swedish s and French Fe').",
+    "The report formatting chapter starts at 1016.9, but that segment is still about Intrastat; the report settings topic begins around 1037. Minor.",
+    "The key points on EU three-party trade (manually) and automatic account codes (setup first) are slight paraphrases but consistent with the walkthrough."
+  ],
+  "input_hash": "eb71e439e3ed59b7578991fe2e8813b9609917afe4efef89fec196501672af3e",
+  "by": "opus",
+  "at": "2026-10-07T23:12:40.997Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.111857
+  }
+}

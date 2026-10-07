@@ -1,0 +1,30 @@
+{
+  "video_id": "3jr6gUuGem4",
+  "item_id": "video/yt-microsoft/3jr6gUuGem4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at t=11.2 stops mid-sentence at 'but now takes' and leaves out the point that the icon now takes up less space. Replaced it with the full sentence.",
+    "No quote covered the removal of the search and analysis mode captions. Added one.",
+    "The 'Action bar made standard' feature has a clear availability statement ('everyone can now enjoy the updates... It's now standard'), so its status is set to ga with that quote as evidence.",
+    "The other features, summary and key points match the transcript. 'Frequently used functions' in the split buttons point is a slight paraphrase but acceptable.",
+    "The 'administration' system tag is weakly supported. This is minor."
+  ],
+  "input_hash": "d452ed64a354efb82d07cdfd58a892f84d94bd15f2e2d07ce6dced218eecf99f",
+  "by": "opus",
+  "at": "2026-10-07T23:11:37.351Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 11s",
+    "quote at 11s"
+  ],
+  "rejected_edits": [
+    "status Action bar made standard -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040481
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - tab naming
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:39.542Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:39.593Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,7 @@ evidence:
     date: "2023-12-22T14:47:41.000Z"
     commit: null
     t: 1714
-    quote: last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without
+    quote: without the need for development in wave two this is now generally available for all of our customers
   - kind: video
     url: https://www.youtube.com/watch?v=eg3FRViYFNM&t=100s
     title: "What's new: Productivity features in the web client (2023 release wave 2)"
@@ -136,21 +136,14 @@ evidence:
     date: "2023-12-22T14:47:41.000Z"
     commit: null
     t: 1643
-    quote: we're also introducing the ability to add existing table fields to your pages so you
+    quote: we're excited to announce that with update 2 three we're also introducing the ability to add existing table fields to your pages
   - kind: video
     url: https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s
     title: "What's new: Productivity features in the web client (2023 release wave 2)"
     date: "2023-12-22T14:47:41.000Z"
     commit: null
     t: 1643
-    quote: we're also introducing the ability to add existing table fields to your pages so you can optimize them
-  - kind: video
-    url: https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s
-    title: "What's new: Productivity features in the web client (2023 release wave 2)"
-    date: "2023-12-22T14:47:41.000Z"
-    commit: null
-    t: 1643
-    quote: these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only view
+    quote: these fields are not editable so you're really just bringing in Source table fields which are going to be readon
   - kind: video
     url: https://www.youtube.com/watch?v=eg3FRViYFNM&t=1683s
     title: "What's new: Productivity features in the web client (2023 release wave 2)"
@@ -403,14 +396,11 @@ quotes:
     text: you can now use this new Link in the page inspection pane to explore this page in Visual Studio code
     check: exact
   - t: 1643
-    text: we're also introducing the ability to add existing table fields to your pages so you
-    check: fuzzy
+    text: we're excited to announce that with update 2 three we're also introducing the ability to add existing table fields to your pages
+    check: exact
   - t: 1643
-    text: we're also introducing the ability to add existing table fields to your pages so you can optimize them
-    check: fuzzy
-  - t: 1643
-    text: these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only view
-    check: snapped
+    text: these fields are not editable so you're really just bringing in Source table fields which are going to be readon
+    check: exact
   - t: 1683
     text: the ability to make Fields readon this means you take any editable field you can now lock it lock its editability becomes read only
     check: exact
@@ -429,7 +419,7 @@ quotes:
 
 > Productivity features in the Business Central web client in 2023 release wave 2: lookup show details and Control Alt Down, company data search in Tell Me (Alt Q), readable shared links, tab naming, actionable errors, page inspection additions, rich content fields, and analysis tabs (generally available).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=eg3FRViYFNM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 30:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=eg3FRViYFNM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 30:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -445,7 +435,7 @@ It also covers shared link readability, browser tab naming with a company switch
 - Automatic saving of field values when leaving a field will be enabled for everyone in Update 24 (approximately April 2024).
 - Actionable errors include dimension posting fixes (dimension must be the same or blank) in the first iteration, plus an interface for AL developers to add fixes for custom errors.
 - Rich content fields can be implemented natively in AL without control add-ins, with a toolbar of over 25 functions.
-- Page inspection can scroll to a field, link to Visual Studio Code, and, with Update 23, add read-only source table fields to a page or make editable fields read-only.
+- Page inspection can scroll to a field and link to Visual Studio Code. With Update 23, UI customization can add read-only source table fields to a page; editable fields can also be made read-only.
 
 ## Chapters
 
@@ -490,7 +480,7 @@ It also covers shared link readability, browser tab naming with a company switch
 | Page Inspector Field Search | status not stated, demoed | [26:02](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1562s) |  |
 | Adding Source Table Fields to Pages | status not stated, demoed | [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) |  |
 | Make Fields Read-Only | status not stated, demoed | [28:03](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1683s) |  |
-| Analysis Tabs | generally available | [28:24](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1704s) | "last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without" ([28:34](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1714s)) |
+| Analysis Tabs | generally available | [28:24](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1704s) | "without the need for development in wave two this is now generally available for all of our customers" ([28:34](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1714s)) |
 | Analysis Tab Sharing with Hyperlinks | status not stated | [28:54](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1734s) |  |
 | Mobile Barcode Scanning | status not stated | [29:54](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1794s) |  |
 
@@ -522,9 +512,8 @@ Not found in BC28-30: page "page inspection pane", query "query objects".
 - [24:22](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1462s) "page inspection is a Swiss army knife of sorts uh it helps you understand the underlying data model uh for your your pages uh"
 - [26:02](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1562s) "page inspector has this handy little feature now to really help you get straight to those fields in no time"
 - [26:22](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1582s) "you can now use this new Link in the page inspection pane to explore this page in Visual Studio code"
-- [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) "we're also introducing the ability to add existing table fields to your pages so you"
-- [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) "we're also introducing the ability to add existing table fields to your pages so you can optimize them"
-- [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) "these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only view"
+- [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) "we're excited to announce that with update 2 three we're also introducing the ability to add existing table fields to your pages"
+- [27:23](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1643s) "these fields are not editable so you're really just bringing in Source table fields which are going to be readon"
 - [28:03](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1683s) "the ability to make Fields readon this means you take any editable field you can now lock it lock its editability becomes read only"
 - [28:34](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1714s) "last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without"
 - [28:54](https://www.youtube.com/watch?v=eg3FRViYFNM&t=1734s) "you can actually share um a link to your newly crafted analysis tab with your co-workers again as I mentioned earlier the name of"

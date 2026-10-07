@@ -1,0 +1,26 @@
+{
+  "video_id": "O0UTg-e3t5k",
+  "item_id": "video/yt-microsoft/O0UTg-e3t5k",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes match the transcript. The quote at 53.7 runs on into the 73.7 segment, which is allowed.",
+    "Key point 4 says the shortcut avoids navigating by other means. The transcript never says this, so I replaced it with the transcript's statement that the shortcut works anywhere in Business Central.",
+    "Feature status 'unclear' is correct because the transcript never states a release status.",
+    "The 'development' system tag is weakly supported because the video is a user-facing UI demo. The tag can't be changed through these edit fields, so it is only noted here.",
+    "The caption 'alq' is probably a garbled 'Alt+Q' for opening Tell Me search. The page does not depend on it."
+  ],
+  "input_hash": "e2800053ba831bc530b458bb6ccc67af9fba8b992ecd077715f2842a8f8ee63f",
+  "by": "opus",
+  "at": "2026-10-07T23:12:09.093Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030953
+  }
+}

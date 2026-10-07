@@ -20,12 +20,12 @@ tags:
   - credit memos
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:24.186Z"
   flags: []
 generated:
-  at: "2026-10-06T19:53:52.619Z"
+  at: "2026-10-07T23:11:24.281Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,12 +96,33 @@ evidence:
     t: 968
     quote: go to uh catalogs this is a new action and now I can use get catalogs uh select a shop and you can see
   - kind: video
+    url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1076s
+    title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
+    date: "2024-04-04T13:30:02.000Z"
+    commit: null
+    t: 1076
+    quote: before I will submit order I can also enter the p number so this is also a special field for B2B checkout
+  - kind: video
     url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1121s
     title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
     date: "2024-04-04T13:30:02.000Z"
     commit: null
     t: 1121
     quote: although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned
+  - kind: video
+    url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1142s
+    title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
+    date: "2024-04-04T13:30:02.000Z"
+    commit: null
+    t: 1142
+    quote: with a new action uh cancel order I can cancel it uh notify the customer
+  - kind: video
+    url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1477s
+    title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
+    date: "2024-04-04T13:30:02.000Z"
+    commit: null
+    t: 1477
+    quote: we uh make sure that we have an actual amount and we can create link the appropriate credit memo
   - kind: video
     url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1568s
     title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
@@ -115,21 +136,7 @@ evidence:
     date: "2024-04-04T13:30:02.000Z"
     commit: null
     t: 1588
-    quote: we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink
-  - kind: video
-    url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1588s
-    title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
-    date: "2024-04-04T13:30:02.000Z"
-    commit: null
-    t: 1588
     quote: one is synchronized order from Shopify and the other one is onlink process documents
-  - kind: video
-    url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s
-    title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
-    date: "2024-04-04T13:30:02.000Z"
-    commit: null
-    t: 1644
-    quote: forget what I had before and I want to reprocess this again and it will be processed as new and it will just have
   - kind: video
     url: https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s
     title: "What's New: Shopify Connector B2B Functionality (2024 release wave 1)"
@@ -321,11 +328,6 @@ features:
     t: 1401
     verified: false
     status_source: video
-  - name: Synchronize Order and Unlink Actions
-    status: unclear
-    t: 1498
-    verified: false
-    status_source: video
   - name: Order Error Detection for Received Edits
     status: unclear
     t: 1568
@@ -390,20 +392,23 @@ quotes:
   - t: 968
     text: go to uh catalogs this is a new action and now I can use get catalogs uh select a shop and you can see
     check: exact
+  - t: 1076
+    text: before I will submit order I can also enter the p number so this is also a special field for B2B checkout
+    check: exact
   - t: 1121
     text: although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned
+    check: exact
+  - t: 1142
+    text: with a new action uh cancel order I can cancel it uh notify the customer
+    check: exact
+  - t: 1477
+    text: we uh make sure that we have an actual amount and we can create link the appropriate credit memo
     check: exact
   - t: 1568
     text: so this will show whenever uh an order has already been processed but now an addition is received on line S on something that
     check: exact
   - t: 1588
-    text: we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink
-    check: exact
-  - t: 1588
     text: one is synchronized order from Shopify and the other one is onlink process documents
-    check: exact
-  - t: 1644
-    text: forget what I had before and I want to reprocess this again and it will be processed as new and it will just have
     check: exact
   - t: 1644
     text: unlink okay so this is basically saying forget what I had before and I want to reprocess this again and it will be processed
@@ -423,7 +428,7 @@ quotes:
 
 > Shopify Connector for Business Central in 2024 release wave 1: B2B company and catalog synchronization, B2B checkout, B2B vs D2C order handling, and order editing with refunds and credit memos. Also covers smaller connector changes such as automatic Shopify URL setup, inventory minus reservation, and shipment confirmation control.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=3tmaVpPTQLw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 30:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=3tmaVpPTQLw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 30:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -459,39 +464,38 @@ The main part is a demo of B2B with Business Central. It covers D2C customer and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Automatic Shopify URL Configuration | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=58s) |  |
-| Inventory Minus Reservation Calculation | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=113s) |  |
-| Dynamic Guidance Notifications | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=154s) |  |
-| Shipment Confirmation Control | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=227s) |  |
-| Default Refunds and Returns Importing | status not stated | [4:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=248s) |  |
-| B2B on Shopify Platform | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=268s) |  |
-| B2B Customizable Buying Experience | status not stated, demoed | [6:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=384s) |  |
-| B2B Business Central Integration | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=442s) |  |
-| D2C Customer Synchronization Control | status not stated, demoed | [8:38](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=518s) |  |
-| B2B Company Synchronization | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |  |
-| Default Contact Permissions Configuration | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |  |
-| Automatic Catalog Creation for Companies | status not stated, demoed | [10:00](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=600s) |  |
-| B2B Catalog Management | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=706s) |  |
-| B2B Modern Authorization | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=838s) |  |
-| Company-Specific Catalogs | status not stated, demoed | [14:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=877s) |  |
-| Get Catalogs Action | status not stated, demoed | [16:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=968s) |  |
-| Catalog Price Synchronization | status not stated, demoed | [16:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=988s) |  |
-| B2B Checkout with Company Assignment | status not stated, demoed | [17:19](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1039s) |  |
-| B2B vs D2C Order Differentiation | status not stated, demoed | [18:18](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1098s) |  |
-| Cancel Order Action | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1142s) |  |
-| Order Status Synchronization | status not stated, demoed | [19:22](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1162s) |  |
-| Order Editing with Refunds | status not stated, demoed | [20:23](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1223s) |  |
-| Intelligent Credit Memo Creation | status not stated, demoed | [23:21](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1401s) |  |
-| Synchronize Order and Unlink Actions | status not stated, demoed | [24:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1498s) |  |
-| Order Error Detection for Received Edits | status not stated, demoed | [26:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1568s) |  |
-| Synchronize Order from Shopify Action | status not stated, demoed | [26:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1588s) |  |
-| Unlink Process Documents Action | status not stated, demoed | [27:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s) |  |
-| Automatic Credit Memo Creation for Refunds | status not stated, demoed | [29:26](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1766s) |  |
-| Edit and Refund Processing for Paid Orders | status not stated, demoed | [29:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1745s) |  |
-| Edit Support for Unpaid Orders | status not stated | [29:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1745s) |  |
-| User Notification for Conflicting Documents | status not stated, demoed | [29:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1786s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Automatic Shopify URL Configuration | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=58s) |
+| Inventory Minus Reservation Calculation | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=113s) |
+| Dynamic Guidance Notifications | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=154s) |
+| Shipment Confirmation Control | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=227s) |
+| Default Refunds and Returns Importing | status not stated | [4:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=248s) |
+| B2B on Shopify Platform | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=268s) |
+| B2B Customizable Buying Experience | status not stated, demoed | [6:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=384s) |
+| B2B Business Central Integration | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=442s) |
+| D2C Customer Synchronization Control | status not stated, demoed | [8:38](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=518s) |
+| B2B Company Synchronization | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |
+| Default Contact Permissions Configuration | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=580s) |
+| Automatic Catalog Creation for Companies | status not stated, demoed | [10:00](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=600s) |
+| B2B Catalog Management | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=706s) |
+| B2B Modern Authorization | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=838s) |
+| Company-Specific Catalogs | status not stated, demoed | [14:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=877s) |
+| Get Catalogs Action | status not stated, demoed | [16:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=968s) |
+| Catalog Price Synchronization | status not stated, demoed | [16:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=988s) |
+| B2B Checkout with Company Assignment | status not stated, demoed | [17:19](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1039s) |
+| B2B vs D2C Order Differentiation | status not stated, demoed | [18:18](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1098s) |
+| Cancel Order Action | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1142s) |
+| Order Status Synchronization | status not stated, demoed | [19:22](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1162s) |
+| Order Editing with Refunds | status not stated, demoed | [20:23](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1223s) |
+| Intelligent Credit Memo Creation | status not stated, demoed | [23:21](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1401s) |
+| Order Error Detection for Received Edits | status not stated, demoed | [26:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1568s) |
+| Synchronize Order from Shopify Action | status not stated, demoed | [26:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1588s) |
+| Unlink Process Documents Action | status not stated, demoed | [27:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s) |
+| Automatic Credit Memo Creation for Refunds | status not stated, demoed | [29:26](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1766s) |
+| Edit and Refund Processing for Paid Orders | status not stated, demoed | [29:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1745s) |
+| Edit Support for Unpaid Orders | status not stated | [29:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1745s) |
+| User Notification for Conflicting Documents | status not stated, demoed | [29:46](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1786s) |
 
 ## Quotes
 
@@ -504,11 +508,12 @@ The main part is a demo of B2B with Business Central. It covers D2C customer and
 - [13:58](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=838s) "for B2B or for modern authorization engines Shopify doesn't require user to know like login and password so user needs to only specify email"
 - [14:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=877s) "this specific user and this specific catalog are not yet attached to the company so let me go to the Shopify admin company and"
 - [16:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=968s) "go to uh catalogs this is a new action and now I can use get catalogs uh select a shop and you can see"
+- [17:56](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1076s) "before I will submit order I can also enter the p number so this is also a special field for B2B checkout"
 - [18:41](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1121s) "although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned"
+- [19:02](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1142s) "with a new action uh cancel order I can cancel it uh notify the customer"
+- [24:37](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1477s) "we uh make sure that we have an actual amount and we can create link the appropriate credit memo"
 - [26:08](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1568s) "so this will show whenever uh an order has already been processed but now an addition is received on line S on something that"
-- [26:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1588s) "we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink"
 - [26:28](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1588s) "one is synchronized order from Shopify and the other one is onlink process documents"
-- [27:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s) "forget what I had before and I want to reprocess this again and it will be processed as new and it will just have"
 - [27:24](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1644s) "unlink okay so this is basically saying forget what I had before and I want to reprocess this again and it will be processed"
 - [28:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1685s) "shopify doesn't have much information about the warehouse handling of the created order so it"
 - [29:05](https://www.youtube.com/watch?v=3tmaVpPTQLw&t=1745s) "for orders which are already paid you can do either Ed it and refund separately or actually refund all together"

@@ -257,10 +257,10 @@
     {
       "name": "Virtual Tables",
       "description": "Virtual table capability that enables inbound interaction from Dataverse into Business Central using a Business Central API but without duplicating data.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 1107.5,
+      "status_evidence_quote": "we have entered General availability for virtual table in the last release which is uh 23 Wave 2",
+      "status_evidence_verified": true,
       "t_start": 156,
       "t_end": 1847.1,
       "is_demoed": true,
@@ -304,10 +304,10 @@
     {
       "name": "Business Events",
       "description": "Outbound notification capability from Business Central to notify that actions are performed, enabling other Dataverse apps to react using Power Automate when an action is performed trigger.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 1847.1,
+      "status_evidence_quote": "business event was uh uh released in public preview for about two releases",
+      "status_evidence_verified": true,
       "t_start": 196.3,
       "t_end": 2439.2,
       "is_demoed": true,
@@ -650,6 +650,12 @@
       "t": 1592.6,
       "text": "the mapping plugin and M mapping table that uh we built can actually Target different companies",
       "why_it_matters": "Demonstrates that virtual tables support multi-company scenarios, a key capability for organizations with multiple business units in Dataverse integration.",
+      "check": "exact"
+    },
+    {
+      "t": 1847.1,
+      "text": "business event was uh uh released in public preview for about two releases",
+      "why_it_matters": "States the preview status of business events, which the page otherwise lacks.",
       "check": "exact"
     },
     {

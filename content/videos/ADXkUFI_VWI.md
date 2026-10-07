@@ -20,12 +20,12 @@ tags:
   - c# code generation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:35.295Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:35.349Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,12 +54,12 @@ evidence:
     t: 490
     quote: the same compiler, the same base part of the compiler that serves the command line compilation is also the one that constantly runs in
   - kind: video
-    url: https://www.youtube.com/watch?v=ADXkUFI_VWI&t=549s
+    url: https://www.youtube.com/watch?v=ADXkUFI_VWI&t=538s
     title: "Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler"
     date: "2024-03-27T12:00:02.000Z"
     commit: null
-    t: 549
-    quote: i mean rosslyn already contains the b net c and also f based on the same core libraries but it's they
+    t: 538
+    quote: It's not Roslyn, but we have moved a lot of the concepts out of the Roslyn code base because we are not.
   - kind: video
     url: https://www.youtube.com/watch?v=ADXkUFI_VWI&t=563s
     title: "Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler"
@@ -276,9 +276,9 @@ quotes:
   - t: 490
     text: the same compiler, the same base part of the compiler that serves the command line compilation is also the one that constantly runs in
     check: exact
-  - t: 549
-    text: i mean rosslyn already contains the b net c and also f based on the same core libraries but it's they
-    check: fuzzy
+  - t: 538
+    text: It's not Roslyn, but we have moved a lot of the concepts out of the Roslyn code base because we are not.
+    check: exact
   - t: 563
     text: we have way more concepts than C# for instance. So in some some sense we are more complicated because we have I mean 7-8
     check: exact
@@ -327,7 +327,7 @@ quotes:
 
 > AL compiler internals and history, from the C/SIDE era to today: Roslyn-based design, partial compilation and LSP for Visual Studio Code, transpiling AL to C#, and the unsupported, undocumented state of the compiler API. Also covers prototype VS Code designers and AL Explorer.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ADXkUFI_VWI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-27 · 29:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ADXkUFI_VWI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-27 · 29:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -342,7 +342,7 @@ It then covers the design: Roslyn concepts, a compiler-as-a-service that also dr
 - The editor and the AL language server communicate through the Language Service Protocol.
 - AL is transpiled to C#, and the generated C# is compiled with the regular C# compiler. Metadata is stored in XML and the database.
 - A sandbox language was one stated reason for AL, because third-party code runs on Microsoft's servers.
-- Moving to text-file source enabled Git and standard source control, but C/SIDE visual designers and the direct database connection were lost.
+- Moving to text-file source enabled Git, search tools and standard source control. It also fit the cloud, where requiring a direct database connection is a bad idea. The C/SIDE visual designers were lost, and VS Code designers are only a prototype.
 - The compiler API is not officially supported or documented, and may change at any time. Partners already use it in unsupported ways.
 
 ## Chapters
@@ -363,19 +363,19 @@ It then covers the design: Roslyn concepts, a compiler-as-a-service that also dr
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AL compiler | status not stated | [0:08](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=8s) |  |
-| Partial compilation and recovery | status not stated | [13:03](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=783s) |  |
-| Language Service Protocol support | status not stated | [12:11](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=731s) |  |
-| Symbol reference information wrapping | status not stated | [3:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=233s) |  |
-| AL transpiler to C# | status not stated | [16:48](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1008s) |  |
-| Text-based source code storage | status not stated | [19:14](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1154s) |  |
-| AL Explorer | status not stated | [22:06](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1326s) |  |
-| AL Home | status not stated | [22:06](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1326s) |  |
-| Visual Studio Code designers | status not stated, demoed | [25:16](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1516s) |  |
-| Compiler API exposure | status not stated | [25:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1553s) |  |
-| AL extensions in Visual Studio Code marketplace | status not stated | [27:15](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1635s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AL compiler | status not stated | [0:08](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=8s) |
+| Partial compilation and recovery | status not stated | [13:03](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=783s) |
+| Language Service Protocol support | status not stated | [12:11](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=731s) |
+| Symbol reference information wrapping | status not stated | [3:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=233s) |
+| AL transpiler to C# | status not stated | [16:48](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1008s) |
+| Text-based source code storage | status not stated | [19:14](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1154s) |
+| AL Explorer | status not stated | [22:06](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1326s) |
+| AL Home | status not stated | [22:06](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1326s) |
+| Visual Studio Code designers | status not stated, demoed | [25:16](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1516s) |
+| Compiler API exposure | status not stated | [25:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1553s) |
+| AL extensions in Visual Studio Code marketplace | status not stated | [27:15](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1635s) |
 
 ## AL objects mentioned
 
@@ -393,7 +393,7 @@ Not found in BC28-30: codeunit "safe post code unit".
 - [6:39](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=399s) "In 2019, in wave two, we shipped the first AL compiler without the preview mark on it, and then at that time we could"
 - [7:46](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=466s) "they realized that they already have a. They have one compiler for a command line and almost a similar compiler that were used inside"
 - [8:10](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=490s) "the same compiler, the same base part of the compiler that serves the command line compilation is also the one that constantly runs in"
-- [9:09](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=549s) "i mean rosslyn already contains the b net c and also f based on the same core libraries but it's they"
+- [8:58](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=538s) "It's not Roslyn, but we have moved a lot of the concepts out of the Roslyn code base because we are not."
 - [9:23](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=563s) "we have way more concepts than C# for instance. So in some some sense we are more complicated because we have I mean 7-8"
 - [11:27](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=687s) "we also realized that we could easily repurpose A compiler to another environment if we had to. But turned out that best decision ever"
 - [13:24](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=804s) "it's textbook to create a compiler that has a perfect source, but but having a source where you are typing something in the middle"

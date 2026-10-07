@@ -2,7 +2,7 @@
 id: video/HvgGcTnYo9g
 type: video
 title: Bartek Ingredients Inc.
-summary: "Bartek Ingredients Inc. customer story: moving from paper-based processes to Business Central for manufacturing, with production orders for visibility, Power Apps for shop-floor data entry, workflow automation, and planned AI-assisted demand planning."
+summary: "Bartek Ingredients Inc. customer story: the company moved from paper-based production management to Business Central. It uses production orders for end-to-end visibility, Power Apps for shop-floor data entry that syncs back to Business Central, and workflows that shortened order cycle time. It names AI-assisted demand planning as a future direction."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - global operations
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:38.258Z"
   flags: []
 generated:
-  at: "2026-10-06T19:54:18.870Z"
+  at: "2026-10-07T23:11:38.294Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -29,12 +29,12 @@ generated:
   input_hash: 5057a0346d86041879b9d3ffbe62b23e45ffbd6b0886bfd5a98dc7315c9b095b
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s
-    title: "AI-assisted demand planning: announced"
+    url: https://www.youtube.com/watch?v=HvgGcTnYo9g&t=20s
+    title: Bartek Ingredients Inc.
     date: "2024-03-21T14:15:02.000Z"
     commit: null
-    t: 122
-    quote: as we move into more automated planning and bringing in AI assisted demand planning
+    t: 20
+    quote: when I arrive our production management system was paper based when you have paper that's moving around the plant
   - kind: video
     url: https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s
     title: Bartek Ingredients Inc.
@@ -134,12 +134,15 @@ features:
     verified: false
     status_source: video
   - name: AI-assisted demand planning
-    status: announced
+    status: unclear
     t: 122
-    verified: true
+    verified: false
     status_source: video
 objects_mentioned: []
 quotes:
+  - t: 20
+    text: when I arrive our production management system was paper based when you have paper that's moving around the plant
+    check: exact
   - t: 41
     text: prior to Dynamics 365 we really did not know how long it would be to produce a palet of product
     check: exact
@@ -162,9 +165,9 @@ quotes:
 
 # Bartek Ingredients Inc.
 
-> Bartek Ingredients Inc. customer story: moving from paper-based processes to Business Central for manufacturing, with production orders for visibility, Power Apps for shop-floor data entry, workflow automation, and planned AI-assisted demand planning.
+> Bartek Ingredients Inc. customer story: the company moved from paper-based production management to Business Central. It uses production orders for end-to-end visibility, Power Apps for shop-floor data entry that syncs back to Business Central, and workflows that shortened order cycle time. It names AI-assisted demand planning as a future direction.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HvgGcTnYo9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 2:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HvgGcTnYo9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-03-21 · 2:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,13 +177,13 @@ Manufacturing staff enter data through Power Apps, which syncs back to Business 
 
 ## Key points
 
-- Production orders let the company see a pallet from the moment it is produced to the time it is shipped.
-- Before Dynamics 365, the company did not know how long it took to produce a pallet of product.
-- Manufacturing staff enter data in Power Apps, which syncs back to Business Central, so they do not do separate data entry.
-- Power Apps integration gave reporting teams data that was not captured before and lets them trace information across the business.
-- Workflow processes reduced the time to take an order from released to finished.
-- AI-assisted demand planning is announced as a future plan and is not yet implemented.
-- The speaker says Business Central and the Power Platform let a small team deliver large outcomes.
+- Before Business Central, production management was paper-based, and the company did not know how long it took to produce a pallet of product.
+- The company migrated into Business Central to connect disparate systems.
+- Production orders let the company see everything from the moment it was produced to the time it was shipped.
+- Manufacturing staff do not need to do data entry because data syncs back to Business Central through Power Apps.
+- Power Apps transformed reporting: people get data that was not captured before and can trace anything through the entire ecosystem.
+- Workflow processes shortened the time to take an order from released to finished.
+- The customer names AI-assisted demand planning as a future direction it is moving toward, not something already in use.
 
 ## Chapters
 
@@ -194,16 +197,17 @@ Manufacturing staff enter data through Power Apps, which syncs back to Business 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Production order management | status not stated | [0:41](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s) |  |
-| Power Apps integration for data entry | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |  |
-| Production reporting and analytics | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |  |
-| Workflow automation for order processing | status not stated | [1:42](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=102s) |  |
-| AI-assisted demand planning | announced | [2:02](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s) | "as we move into more automated planning and bringing in AI assisted demand planning" ([2:02](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s)) |
+| Feature | Status | At |
+|---|---|---|
+| Production order management | status not stated | [0:41](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s) |
+| Power Apps integration for data entry | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
+| Production reporting and analytics | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
+| Workflow automation for order processing | status not stated | [1:42](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=102s) |
+| AI-assisted demand planning | status not stated | [2:02](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s) |
 
 ## Quotes
 
+- [0:20](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=20s) "when I arrive our production management system was paper based when you have paper that's moving around the plant"
 - [0:41](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s) "prior to Dynamics 365 we really did not know how long it would be to produce a palet of product"
 - [1:01](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=61s) "now everything is put into production order we can see everything made from the moment it was produced to the time it was shipped"
 - [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) "the people on the manufacturing side they don't need to worry about data entry because everything sinks back to business Central through power apps"
