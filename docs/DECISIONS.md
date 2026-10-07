@@ -564,6 +564,28 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   unreadable, so it shipped with the handoff's level-of-detail fallback: one tile per namespace plot with its count
   and Learn share, the stars on top, one plot opened at a time. Summary 50 to 97 KB gzipped; a tilted Finance adds
   19 KB, its explorer file 95 KB. Sizes, deviations and the light-theme notes: the spec's section 9.
+- **D67 bc-code-atlas is the observatory's grounding partner: linked everywhere, run nowhere, and its call graph
+  reproduced from our own checkouts (spec `docs/specs/code-atlas.md`, every phase built 2026-10-07; sections 7.1 and 7.2 record the deviations).** Stefan Maron's
+  atlas serves what this repository must never hold (D10): procedure bodies, and a call graph read from them. The
+  owner chose (2026-10-07) three things and declined two. Chosen: (a) the plugin registers the hosted atlas next to
+  `bc-observatory`, and a `bc-grounding` skill fixes the division of labour (observatory for identity, versions,
+  obsolete state, docs and changes; atlas for behaviour and bodies, w1-28 by default) and the etiquette on a
+  one-person server (resolve, don't search; never `request_version` unasked; one or two calls per question; the
+  nightly never calls it); (b) object pages carry an "Ask your agent" block built from type and name, and new
+  "Calls", "Called by" and "Implements" sections from a nightly graphify-al run (the pinned fork, `uv tool`, per
+  user) on the code pillar's own sparse checkouts at the snapshot commit: type-resolved cross-object `calls` (declared variable type or `Object::"Name"` argument) plus `implements`; the spec said "EXTRACTED only", but the pinned fork marks every cross-object call INFERRED and reserves EXTRACTED for intra-object calls, so that rule would have kept nothing: the kept set is `context: al_calls`, interface fan-out and AMBIGUOUS edges are dropped and counted,
+  aggregated per object pair with procedure names and counts, joined by the AL header label and the file path
+  (D29, D45), written compact to `data/code/graph/<major>/calls.json` under a schema with an allowlist and never
+  into `relations.json`; one graph a night in a `cpu` lane with its own quota; (c) video and post pages join their
+  mentioned objects through `data/index/objects.json`, offline. Declined: hosting the atlas's servers on the Mini
+  (3 to 5 GB resident for a graph nobody in the pipeline reads; a go/no-go rule is recorded) and tool-enabled model
+  calls (D68 when a measured need exists). Bulk through the hosted MCP was ruled out on arithmetic: 16k objects at
+  1 to 7 s a call is a night of someone else's CPU for a corpus that is not ours.
+  Still open at the time of appending: the spike numbers of section 7 (the first W1 run of BCApps 29 parsed 9,901 files in
+  about 30 s and built the graph at 1.5 GB RSS; the rows are filled by the owner on the Mini) and the first real run,
+  which also decides `callgraph.apps` in `config/versions.json`. A spike lesson: `launchctl submit` keeps a job alive,
+  so a detached spike run restarted itself and deleted its own output; one-shot runs on the Mini need a plain shell
+  session or a one-shot job.
 - **D69 The item-loop leak: idle workers multiplied their own timers.** The nightlies of 2026-10-06 and 2026-10-07
   died on the heap with nothing between checkpoints to say why; run 37586529387 died seven times in a row. Its
   heartbeats (D59) showed one item in flight (`code/bcapps/29`, extracting) and the heap going from 70 MB to 8 GB in

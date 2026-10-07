@@ -1,6 +1,6 @@
 # BC Code Atlas as a grounding partner: call graph in the pages, the atlas one call away
 
-Status: proposed, 2026-10-07. Decision: D67. Owner: waldo.
+Status: implemented, phases 0 to 3, 2026-10-07 (sections 7.1 and 7.2 record what was built and where it differs); the spike rows of section 7 and the first real run are open. Decision: D67 (appended 2026-10-07). Owner: waldo.
 Scope: the Claude Code plugin and its skills, object pages (markdown and site), the code pillar's post-loop, video
 and post pages, the Mini's tool set and the developer's Mac. Not in scope: hosting any part of bc-code-atlas,
 tool-enabled LLM calls (section 9, D68), storing source text.
@@ -533,7 +533,7 @@ tests in section 5.
 
 To be made in the implementation PR, not before.
 
-### `docs/DECISIONS.md`, append
+### `docs/DECISIONS.md`, appended 2026-10-07 (with the edge-selection change of 7.2)
 
 - **D67 bc-code-atlas is the observatory's grounding partner: linked everywhere, run nowhere, and its call graph
   reproduced from our own checkouts (spec `docs/specs/code-atlas.md`, not yet implemented).** Stefan Maron's
