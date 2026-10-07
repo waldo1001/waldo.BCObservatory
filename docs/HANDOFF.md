@@ -10,8 +10,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   Status: proposed, spec complete, no code written. Video pages play the YouTube video click-to-load with chapter
   seeking; post pages show the blog in a sandboxed frame when a nightly probe says it may be framed, else a source
   card. Start at section 9 (files) and section 6 (the probe, deterministic, tests in 6.7); section 10 is the
-  verification matrix. Phase 2 (section 8) depends on `EvidenceChip.astro` from D64. Until it lands, every video
-  and post page still sends the reader to YouTube or the blog with one button.
+  verification matrix. Phase 2 (section 8) builds on `EvidenceChip.astro` from D64, which is on main: an `<a>` with
+  the real deep link, `data-kind`, and `data-t` for a second of a video. D64 put chips on feature pages only and left
+  the video and post templates to this work: phase 1 can add `<EvidenceList evidence={fm.evidence ?? []} />` there
+  (a video's quotes each become a chip with its second). Until then, every video and post page still sends the
+  reader to YouTube or the blog with one button.
 
 - **Merged BCApps pull requests as observed changes**: `docs/specs/bcapps-pull-requests.md`, decision D61, PLAN
   milestone M6. Status: proposed, spec complete, no code written. Start at the spec's section 6 (tasks, in order)
@@ -158,16 +161,33 @@ Deliberate deviations from PLAN, all small:
   - Ruled out by measurement: every post-loop phase (peak 1444 MB heap / 1749 MB rss, and the heap *falls* after
     roadmap-links), module-level caches in `validate/leak.ts` (there are none), and the id Sets in `execute.ts`
     (`touched`, `ended`, `visited`, `inBatch` hold short strings).
-  - **Where to look next:** what `executePlan` retains per item while it runs — extraction payloads, LLM cache
-    entries, manifest copies. Something holds ~20 MB for every second of item processing. Reproduce with a
-    catch-up-sized plan and `--max-old-space-size` lowered so it fails in minutes, then take a heap snapshot
-    between two checkpoints and diff the retainers.
+  - **Still not found** (2026-10-07, second round). Also ruled out by measurement since: both code job types
+    (Code History 669 MB peak, BCApps with country apps 763 MB), oversized posts (the largest is 13k words) and the
+    repeat scrub (one pass). Every dying process does a burst of cached work, then goes silent for ~6.5 minutes
+    inside stages the heap guard cannot interrupt (the guard only checks between stages). **D59 added the
+    instrumentation that will name it:** the item loop logs `heartbeat: heap …; N in flight: <item> <stage> <s>`
+    every 30 s and whenever the heap crosses a gigabyte. Read the heartbeats of the next failing run before anything
+    else; the climb lists the stage and the items in flight at each gigabyte. It did not recur in the light runs
+    since, which says only that there was too little work to trigger it.
+  - The checkpoint push that lost a race to a concurrent push used to stage files without committing them, so the
+    rebase met a dirty index. Fixed in D58 (push-only does not stage, rebase autostashes), with a real-git test.
 
-  **Separate bug found in the same log:** a checkpoint push that loses the race does `git pull -q --rebase`, which
-  fails with "cannot pull with rebase: You have unstaged changes" because the item loop is still writing content.
-  One such retry burned 3.5 minutes (01:31:44 → 01:35:20). The checkpoint rebase needs to stash, or to rebase only
-  what it has already committed. This was provoked here by pushing to main during a live run, which is worth
-  avoiding on its own.
+## This round (2026-10-07 afternoon, D58-D64)
+
+- **Countries include their extension apps (D58).** DK and IN were empty because their whole localization is apps
+  under `src/Apps/<CC>/`; on BC29, India 0 → 1,262 objects, Denmark 0 → 431, plus every other country's apps (and
+  NA's for US/CA/MX). `EXTRACTOR_VERSION` 3 re-runs the code items, bcapps 29 and 30 first.
+- **Catch-up ended after 2026-10-06** (D58): the backlogs were drained and the day had cost $68.75.
+- **Older majors as diffs, BC23-27 (D62)**, from the sandbox history, kept as a skeleton plus a cached full copy;
+  diffs are now compact (a changed member is a delta). At code_jobs 1 a night the history lands over ~8 nights.
+- **Hybrid search in the MCP package (D63)**, package 0.2.0 on main. **Not published yet:** releasing it to npm is
+  the owner's call (bump is done; dispatch `publish-mcp`).
+- **Evidence chips (D64)** on feature pages; the flagged review badge no longer reads "unreviewed".
+- **2-hop neighbourhood (D59)** on object pages, from per-type shards built at site build time.
+- **yzhums.com** is in `sources.yaml` as `yzhums-com` with `enabled: false`: nothing is ingested and no page exists.
+  It goes on only after Yun Zhu agrees (derived mode: set `enabled: true`; full text: also `full_text: true` and a
+  consent block). The consent request draft is with the owner.
+- **Jarvis budget handshake:** skipped by the owner for now (2026-10-07).
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. Opus reviews them (D54, quota
   `topic_reviews` 15): `npm run review:topics -- --data <dir>` reviews a sample the linker wrote and prints every

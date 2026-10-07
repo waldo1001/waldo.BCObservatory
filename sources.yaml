@@ -298,6 +298,16 @@ sources:
     author: { name: Volodymyr Dvernytskyi }
     fetch: { scrape: https://vld-bc.com/blog }
 
+  # Held back until the author agrees (PLAN "yzhums opt-in if agreed"). enabled: false keeps it out of ingest entirely.
+  # Derived mode (summary, quotes of at most 24 words, a link to each post) needs his yes: then set enabled: true.
+  # Full text needs more: full_text: true plus a consent block pointing at his written opt-in, like waldo-be above.
+  - id: yzhums-com
+    kind: blog
+    name: Dynamics 365 Lab - Yun Zhu
+    url: https://yzhums.com
+    author: { name: Yun Zhu, mvp: true }
+    enabled: false
+    fetch: { feed: https://yzhums.com/feed/, rest: https://yzhums.com/wp-json/wp/v2/posts }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined
     kind: discovery
