@@ -99,6 +99,7 @@ td code { font-size: 12.5px; }
 .badge.mixed { border-color: var(--tier-mixed-border); color: var(--tier-mixed-text); }
 .badge.unreviewed { border-style: dashed; border-color: var(--review-border); color: var(--review-text); }
 .badge.reviewed { border-style: solid; border-color: var(--review-border); color: var(--review-text); }
+.badge.flagged { border-style: solid; border-color: currentColor; color: var(--review-flagged); }
 .badge.status-ga { border-color: currentColor; color: var(--status-ga); }
 .badge.status-preview { border-color: currentColor; color: var(--status-preview); }
 .badge.status-other { border-color: currentColor; color: var(--status-other); }
@@ -121,6 +122,8 @@ td code { font-size: 12.5px; }
 .kind.video { background: var(--ev-video-bg); color: var(--ev-video-text); }
 .kind.blog { background: var(--ev-blog-bg); color: var(--ev-blog-text); }
 .kind.roadmap { background: var(--ev-roadmap-bg); color: var(--ev-roadmap-text); }
+.kind.guideline { background: var(--ev-guideline-bg); color: var(--ev-guideline-text); }
+.kind.other { background: var(--ev-other-bg); color: var(--ev-other-text); }
 .section-title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
 .section-title small { font: 400 13px var(--font-mono); color: var(--muted); letter-spacing: 0; }
 details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; margin-top: 8px; min-height: 32px; }

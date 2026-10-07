@@ -1,0 +1,11 @@
+---
+/**
+ * An evidence chip (design/HANDOFF.md 4, D64): one row, one link to the source. Kind tag, text (mono for a file
+ * path), right-aligned meta. data-kind always, data-t when the evidence is a second of a video: the source stage
+ * (D60) delegates on a[data-kind="video"][data-t] and opens the player there, keeping the href as the fallback.
+ */
+import { chipOf, type Evidence } from "../lib/evidence";
+interface Props { e: Evidence }
+const c = chipOf(Astro.props.e);
+---
+<a class="ev" href={c.href} rel="noopener" data-kind={c.kind} data-t={c.t ?? undefined} title={c.title || undefined}><span class={`kind ${c.cls}`}>{c.label}</span><span class={`t${c.mono ? " path" : ""}`}>{c.text}</span>{c.meta && <span class="m">{c.meta}</span>}</a>

@@ -26,21 +26,11 @@ export function trimBody(html: string): string {
   return out;
 }
 
-export interface Evidence { kind: string; url: string; title: string; date: string | null; commit: string | null; t: number | null; quote: string | null }
+// evidence chips moved to ./evidence (D64); re-exported for the pages that import them from here
+export { evidenceMeta, evidenceTitle, type Evidence } from "./evidence";
 
-const mmss = (t: number) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`;
 
-/** Right-aligned meta of an evidence chip: the date, `branch @ short commit`, or the video second. */
-export function evidenceMeta(e: Evidence): string {
-  if (e.t != null) return `at ${mmss(e.t)}`;
-  if (e.commit) {
-    const branch = /\(([^)]+)\)\s*$/.exec(e.title)?.[1];
-    return `${branch ? `${branch} @ ` : ""}${e.commit.slice(0, 8)}`;
-  }
-  return e.date ? String(e.date).slice(0, 10) : "";
-}
 
-export const evidenceTitle = (e: Evidence) => (e.commit ? e.title.replace(/\s*\([^)]+\)\s*$/, "") : e.title);
 
 /** Claude opens with a prompt that points at the page's markdown twin. */
 export function openInClaude(title: string, markdownUrl: string): string {

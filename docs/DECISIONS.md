@@ -489,3 +489,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   them ("stock counting at the end of the year" → Phys. Inventory, Warehouse counting; "who is allowed to see what"
   → the permission sets) but does not reason: "predict incoming and outgoing money" still misses Cash Flow Forecast.
   Package 0.2.0; publishing it (the `publish-mcp` dispatch) is the owner's step.
+- **D64 Evidence chips everywhere they belong, and the badge states nobody drew.** The design handoff left tier
+  `mixed`, review `reviewed`, roadmap status and the evidence kinds video, post and roadmap undesigned; D42 had filled
+  most colours with stand-ins, so the gaps that remained were behaviour. (a) `EvidenceChip.astro` is the one chip:
+  always an `<a>` to the source itself (a video with a second links to that second), with `data-kind` and, for a
+  second of a video, `data-t` — the hook agreed with the source-stage work (D60), which opens the player on
+  `a[data-kind="video"][data-t]` and keeps the href as the fallback. A quote becomes the chip's text, so several
+  chips on one video read differently; a code chip that points at a pull request reads "pull request #N" instead of
+  a file path (D61's change pages); `blog` is labelled "post" while `data-kind` keeps the schema's word; a kind
+  nobody styled yet gets a neutral tag instead of a broken one. The logic is a pure module with tests. (b) Feature
+  pages list every source as chips: the roadmap entry, each video at its second, each Learn page. Video and post pages
+  are left to D60's phase 1, which owns those templates. (c) A `flagged` page showed "unreviewed - machine-generated";
+  it now reads "flagged - a review found a problem", amber, solid border: never red, never an icon. Statuses
+  `announced` and `unclear` get plain words. New stand-in colours (guideline, other, flagged) pass AA on both themes
+  (7.4:1 to 13.6:1, computed).

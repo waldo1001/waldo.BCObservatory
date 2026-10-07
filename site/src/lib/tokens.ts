@@ -24,6 +24,9 @@ const FILL = {
     "ev-roadmap-bg": "#2A2413", "ev-roadmap-text": "#FFD27A",
     "status-ga": "#9FDDB4", "status-preview": "#FFD27A", "status-other": "#9DB8FF",
     "diff-removed-bg": "#2A1618", "diff-removed-text": "#F2A7AE",
+    // D64: guideline evidence, any kind added later, and the flagged review state (amber: never red)
+    "ev-guideline-bg": "#22202E", "ev-guideline-text": "#C9C1F2", "ev-other-bg": "#1E222C", "ev-other-text": "#B4BCCB",
+    "review-flagged": "#FFD27A",
   },
   light: {
     "surface-raised": "#ECEEF4", "accent-surface": "#FBF1DE",
@@ -36,6 +39,8 @@ const FILL = {
     "status-ga": "#1B6B3F", "status-preview": "#7A4500", "status-other": "#2447B8",
     "diff-added-bg": "#E2F2E8", "diff-added-text": "#1B6B3F", "diff-removed-bg": "#FBE6E8", "diff-removed-text": "#9B1C2C",
     "g-edge": "#B7BFD0", "g-edge-active": "#2447B8", "g-star-active": "#131722",
+    "ev-guideline-bg": "#ECE8FA", "ev-guideline-text": "#4B3290", "ev-other-bg": "#ECEEF4", "ev-other-text": "#3A4356",
+    "review-flagged": "#7A4500",
   },
 } as const;
 
