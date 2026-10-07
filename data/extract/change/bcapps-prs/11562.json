@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11562",
+  "number": 11562,
+  "title": "[Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Line Discount % field now consistently accepts the same number of decimal places whether entered manually or imported via Configuration Package.",
+  "key_points": [
+    "Fixed inconsistency where manual entry limited to 2 decimal places but imports allowed 5 decimal places",
+    "Modified the Sales Line Discount table validation logic",
+    "Added tests to verify consistent decimal handling across entry methods",
+    "Ensures data consistency regardless of input method"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003319,
+    "changes_in_call": 1
+  }
+}

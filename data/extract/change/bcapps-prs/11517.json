@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11517",
+  "number": 11517,
+  "title": "[29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Exporting and importing financial report definitions across companies no longer fails when status values don't exist in the destination company. Status fields in the imported definition are cleared to allow successful import.",
+  "key_points": [
+    "Added a procedure to clear non-existing status values from imported packages before applying them",
+    "Status codes are company-specific and are not included in exports, causing validation failures",
+    "Imported row definitions now accept empty status values that users can set after import",
+    "Fixes import failure when destination company lacks financial report statuses from source company",
+    "Added test cases across multiple localization layers to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004131,
+    "changes_in_call": 1
+  }
+}

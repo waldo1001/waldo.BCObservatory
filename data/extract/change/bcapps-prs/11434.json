@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11434",
+  "number": 11434,
+  "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed incorrect additional currency base and amount calculations in VAT entries for sales invoices with line discounts in the Australian version.",
+  "key_points": [
+    "VAT entries now derive additional currency amounts from their own record's local currency amounts instead of inheriting a single line-level value",
+    "Additional currency fields recalculated per posting record using proper exchange rate conversion with ACY rounding precision",
+    "Discount VAT entries now receive correct sign and amount instead of duplicating the sales VAT entry values",
+    "Amount including VAT (ACY) computed by addition to maintain exact consistency between base and VAT amounts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003957,
+    "changes_in_call": 1
+  }
+}

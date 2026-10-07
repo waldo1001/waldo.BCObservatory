@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11565,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11565",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-21T16:47:05Z",
+  "merge_commit_sha": "3a97e97fe19086a66f4633c90138c551968c1635",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Exclude SCM Inventory Costing IV from RU layer",
+  "body_hash": "61925d2fca98205f96da3389020cbec581f17cb13b937b8e341a3d1129a5fb50",
+  "fixes_issues": [],
+  "work_items": [
+    642681,
+    642682
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

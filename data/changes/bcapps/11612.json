@@ -1,0 +1,163 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11612,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11612",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-21T13:17:50Z",
+  "merge_commit_sha": "f8ac786696c9b115ca86bdb2fde33282979f4560",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Multiple runs of email retrieval on the same emails don't persist again",
+  "body_hash": "b9a921f29029014f5905cfdaf0924fb3a950da42a1a2326672eed3e72172fb4a",
+  "fixes_issues": [],
+  "work_items": [
+    650461
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Email/Email.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Email/EmailImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Email/Inbox/EmailInbox.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Message/EmailMessage.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Message/EmailMessageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Email/src/EmailTest.Codeunit.al",
+      "status": "modified",
+      "additions": 166,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 262,
+    "deletions": 5,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4509",
+        "type": "codeunit",
+        "id": 4509,
+        "name": "Email - Outlook API Helper",
+        "app": "Email - Outlook REST API",
+        "cc": "w1",
+        "page": "codeunit/4509"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Email/Email.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8901",
+        "type": "codeunit",
+        "id": 8901,
+        "name": "Email",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8901"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Email/EmailImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8900",
+        "type": "codeunit",
+        "id": 8900,
+        "name": "Email Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8900"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Email/Inbox/EmailInbox.Table.al",
+        "status": "modified",
+        "key": "table/8886",
+        "type": "table",
+        "id": 8886,
+        "name": "Email Inbox",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8886"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Message/EmailMessage.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8904",
+        "type": "codeunit",
+        "id": 8904,
+        "name": "Email Message",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8904"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Message/EmailMessageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8905",
+        "type": "codeunit",
+        "id": 8905,
+        "name": "Email Message Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8905"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Email - Outlook REST API",
+    "System Application"
+  ]
+}

@@ -6,7 +6,7 @@
   "title": "MSlenejennum/647454/sales internal new body layouts and obsolete current",
   "url": "https://github.com/microsoft/BCApps/pull/10495",
   "published_at": "2026-09-22T13:02:40Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": false,
       "cost_usd": 0.00475
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:25.009Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:25.014Z",
+      "path": "content/changes/bcapps/10495.md"
     }
   },
   "input_hash": "f9bbf5702758a63481ae21076e055298b4988fa8:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "106557d0ed4b0a7b1e1fe705ea13466ef3cc3a0f20e26a856b33034d76e87a5d"
+  "output_hash": "2e8e95336bdeb1f532f8f160e6be81b57190ac05c0f8412c59a7ff2e9b673065"
 }

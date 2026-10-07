@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10064",
+  "number": 10064,
+  "title": "Add support for “External Document No.” in Subscription Contracts Fixes #8818",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription Contracts now support an External Document No. field that is automatically transferred to generated sales documents and posted invoices, improving support for EAN invoicing scenarios.",
+  "key_points": [
+    "Added External Document No. field to Subscription Contracts",
+    "Field value is automatically propagated to sales invoices during billing document creation",
+    "Propagation continues through to posted sales invoices",
+    "New test validates the end-to-end transfer of the field value",
+    "Low-risk change that only extends functionality when the field is populated"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003755,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,25 @@
   "title": "[29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company",
   "url": "https://github.com/microsoft/BCApps/pull/11517",
   "published_at": "2026-09-21T11:47:59Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:35.899Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:42.486Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004131
     }
   },
   "input_hash": "fc76ef6cf367a178bcaedb878d1604d81e930600:c1",
@@ -31,5 +46,8 @@
     ],
     "community_contribution": true,
     "title_key": "export import of a report definition fails if the statuses in the originating company do not exist in the destination company"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "66d7151580d7013b10cd30ca44bde43af862b671b7555851789f2a50a2cd7842"
 }

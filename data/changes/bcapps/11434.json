@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11434,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11434",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-21T14:01:11Z",
+  "merge_commit_sha": "ddbae8d02289a3ff56495ce9fe124be0044007a9",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version.",
+  "body_hash": "7039361127b66233f3b9d330f45df6a66bdf6040f94b2abcf336494894803fd1",
+  "fixes_issues": [],
+  "work_items": [
+    649279
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Local/ERMVATDetails.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/AU/Tests/Local/AUFeatureBugs.Codeunit.al",
+      "status": "modified",
+      "additions": 169,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 203,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/815"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,18 @@
   "title": "Multiple runs of email retrieval on the same emails don't persist again",
   "url": "https://github.com/microsoft/BCApps/pull/11612",
   "published_at": "2026-09-21T13:17:50Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:35.417Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
     }
   },
   "input_hash": "f8ac786696c9b115ca86bdb2fde33282979f4560:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "multiple runs of email retrieval on the same emails don t persist again"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc0c35a435c291e76b31bbb7873f39efaff9bf233c0e46f632b18ed1d3dd110a"
 }

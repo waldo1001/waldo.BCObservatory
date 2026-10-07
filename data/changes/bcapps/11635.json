@@ -1,0 +1,243 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11635,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11635",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-21T13:48:14Z",
+  "merge_commit_sha": "f125305261182b3ade27443890fdd0f36b04ca7c",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged",
+  "body_hash": "a20004f01de5bffc78a428517464110a0e337d6ebb5bad021982748a19d36b87",
+  "fixes_issues": [],
+  "work_items": [
+    649728
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 11,
+    "deletions": 11,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

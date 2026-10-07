@@ -1,0 +1,162 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11517,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11517",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-21T11:47:59Z",
+  "merge_commit_sha": "fc76ef6cf367a178bcaedb878d1604d81e930600",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "SCM",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company",
+  "body_hash": "d77c5e4c6ef2ac1f8341314c47c730692f139e8c678789f53489e3835b9e67f4",
+  "fixes_issues": [],
+  "work_items": [
+    650283
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 808,
+    "deletions": 0,
+    "al": 4
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/84"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

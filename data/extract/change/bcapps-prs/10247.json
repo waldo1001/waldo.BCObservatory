@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10247",
+  "number": 10247,
+  "title": "[SOA] Show Cc recipients on email messages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Sales Order Agent email cards now display Cc recipients in a read-only field, matching Business Central's Email Viewer formatting, with special handling for mapped-contact replies and calculation failures.",
+  "key_points": [
+    "Added Cc field to Email Details showing semicolon-separated recipients",
+    "Incoming messages show original inbox Cc list",
+    "Mapped outgoing replies filter Cc against To recipients and mapped contact",
+    "Blank Cc displayed when source data cannot be resolved instead of using unfiltered list",
+    "Added Email Inbox read permissions to fix license-level errors when opening agent timeline cards"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "Sales Order Agent email cards did not show Cc recipients, so reviewers could not see everyone included in incoming and outgoing correspondence.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004329,
+    "changes_in_call": 1
+  }
+}

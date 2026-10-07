@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10064,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10064",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T01:01:52Z",
+  "merge_commit_sha": "35ff2babc3ce29c657f2d0ad39f74bddb4d59a4d",
+  "author": "dksander",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Add support for “External Document No.” in Subscription Contracts Fixes #8818",
+  "body_hash": "33679815a4fc3dcd27bf959240794b3bfdbe0500fe87218d8f7290363599e1ea",
+  "fixes_issues": [
+    8818
+  ],
+  "work_items": [
+    648226
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContract.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingDocsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 39,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8060",
+        "type": "codeunit",
+        "id": 8060,
+        "name": "Create Billing Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8060"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContract.Page.al",
+        "status": "modified",
+        "key": "page/8052",
+        "type": "page",
+        "id": 8052,
+        "name": "Customer Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8052"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+        "status": "modified",
+        "key": "table/8052",
+        "type": "table",
+        "id": 8052,
+        "name": "Customer Subscription Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8052"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 8818,
+      "title": "[BC Idea]: Add support for “External Document No.” in Subscription Contracts (required for EAN invoicing)",
+      "state": "closed"
+    }
+  ]
+}

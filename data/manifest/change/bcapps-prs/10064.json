@@ -6,10 +6,35 @@
   "title": "Add support for “External Document No.” in Subscription Contracts Fixes #8818",
   "url": "https://github.com/microsoft/BCApps/pull/10064",
   "published_at": "2026-09-22T01:01:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:27.594Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:32.333Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003755
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:32.529Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:32.535Z",
+      "path": "content/changes/bcapps/10064.md"
     }
   },
   "input_hash": "35ff2babc3ce29c657f2d0ad39f74bddb4d59a4d:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "add support for external document no in subscription contracts fixes 8818"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e75f16dba5c774dd88b10d352f2af711cd7b3ee2efa20d3b08270b6a8992944"
 }

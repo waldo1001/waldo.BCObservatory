@@ -1,0 +1,98 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11562,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11562",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-21T13:48:14Z",
+  "merge_commit_sha": "5fff78ab6ef2e3f3cbfb7910bc1c289dd4662c24",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit",
+  "body_hash": "dc6717be4a8df33e95834de0f6c9e499a3485d895f08196394e32b834f1de021",
+  "fixes_issues": [],
+  "work_items": [
+    650372
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/Tests/ERM-Sales/ERMSalesDocumentsIII.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Sales/ERMSalesDocumentsIII.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Sales/ERMSalesDocumentsIII.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ERM-Sales/ERMSalesDocumentsIII.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Pricing/SalesLineDiscount.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Sales/ERMSalesDocumentsIII.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 181,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Pricing/SalesLineDiscount.Table.al",
+        "status": "modified",
+        "key": "table/7004",
+        "type": "table",
+        "id": 7004,
+        "name": "Sales Line Discount",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7004"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

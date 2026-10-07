@@ -1,0 +1,203 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11493,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11493",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-21T17:39:35Z",
+  "merge_commit_sha": "a6e00570ff9b66422709d9c509173a4aee8957d5",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "SCM",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-VAT Settlement G/L Entries Do Not Populate Source Currency Amount and Source VAT Currency Amount After Running Calculate and Post VAT Settlement",
+  "body_hash": "b45a072ca79775a0412fb7ed9ee5d8bf8b9b455de09f43f0ff6c34ee59ded8ba",
+  "fixes_issues": [],
+  "work_items": [
+    650294
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Application/ERMVATSettlementwithApply.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 362,
+    "deletions": 36,
+    "al": 6
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/20"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

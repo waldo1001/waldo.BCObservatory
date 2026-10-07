@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9646",
+  "number": 9646,
+  "title": "[Bug]: [DE] XRechnung/ZUGFeRD — no posting-time error when SELLER CONTACT (BG-6) source data is incomplete, producing non-compliant e-invoices",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "E-Document posting now validates that seller contact information (from salesperson or company data) is complete before generating XRechnung/ZUGFeRD e-invoices, preventing non-compliant XML that would fail validation.",
+  "key_points": [
+    "New mandatory check for seller contact fields (name, phone, email) during e-document posting",
+    "Validation mirrors the export logic by checking salesperson first, then falling back to company information",
+    "Error messages identify which field is missing and from which source it was expected",
+    "Applies to both XRechnung and ZUGFeRD formats with dedicated test coverage for each",
+    "Existing documents with incomplete contact data will now fail to post"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004116,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2376",
+  "number": 2376,
+  "title": "fix: modified files with umlauts",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Incremental build detection now correctly handles project and app paths containing special characters like umlauts and German characters by disabling git escaping and setting UTF-8 encoding.",
+  "key_points": [
+    "Git diff output is no longer escaped when detecting modified files",
+    "UTF-8 encoding is applied before running git commands to handle special characters correctly",
+    "Fixes incremental builds failing when paths contain umlauts or characters like ß",
+    "Added tests to verify the fix works across different character sets",
+    "The core.quotepath=false flag is added to git configuration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003299,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11571",
+  "number": 11571,
+  "title": "MSlenejennum/647477/convert demo data logo to transparent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The Cronus demo company logo is now loaded from a transparent PNG instead of a JPEG with an opaque background, improving appearance across different UI themes.",
+  "key_points": [
+    "Replaces CRONUS.jpg with CRONUS.png for the company information logo",
+    "New PNG has a transparent background instead of opaque white",
+    "Logo displays correctly on non-white backgrounds and in report headers",
+    "Demo data only change with no schema or upgrade impact",
+    "Old JPEG remains untouched for other demo data resources"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003711,
+    "changes_in_call": 1
+  }
+}

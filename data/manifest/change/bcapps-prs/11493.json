@@ -6,10 +6,35 @@
   "title": "[29.X]-VAT Settlement G/L Entries Do Not Populate Source Currency Amount and Source VAT Currency Amount After Running Calculate and Post VAT Settlement",
   "url": "https://github.com/microsoft/BCApps/pull/11493",
   "published_at": "2026-09-21T17:39:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:28.822Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:34.071Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003794
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:34.301Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:34.307Z",
+      "path": "content/changes/bcapps/11493.md"
     }
   },
   "input_hash": "a6e00570ff9b66422709d9c509173a4aee8957d5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "vat settlement g l entries do not populate source currency amount and source vat currency amount after running calculate and post vat settlement"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "609c6bd31131e3682e57c3f7574af9ad4e12fe3cc293dbe464f01e0466dd93e0"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11657",
+  "number": 11657,
+  "title": "Fix VIES integrity check: tolerate country-code prefix on echoed VAT number (uptake fix)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The VIES integrity check for VAT numbers now tolerates country-code prefixes in echoed responses, normalizing both sides before comparison to prevent false rejection of valid VAT numbers during registration.",
+  "key_points": [
+    "Fixed regression where VIES responses echoing VAT numbers with country-code prefix were wrongly rejected as mismatches",
+    "Normalizes both request and response values to prefix-stripped form before integrity check comparison",
+    "Prevents hard block on saving VAT numbers when security checks fail due to cosmetic prefix differences",
+    "Preserves security intent by still rejecting genuinely different numbers or country codes",
+    "Resolves 10 failing mocks in NAV repository uptake tests that require live VIES mock service"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004045,
+    "changes_in_call": 1
+  }
+}

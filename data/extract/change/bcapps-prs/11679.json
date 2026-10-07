@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11679",
+  "number": 11679,
+  "title": "[29.x][Subscription Billing] 1M 'Align to End of Month' line with end date produces a 1-day prorated stub",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed a billing period calculation issue in Subscription Billing where monthly billing with 'Align to End of Month' would create an unintended one-day prorated stub when the subscription line ended within the period.",
+  "key_points": [
+    "CalculateNextToDate now correctly caps the period end date at the Subscription Line End Date",
+    "Prevents one-day prorated billing lines when the end date falls within a monthly period",
+    "Affects vendor contracts using 1M billing rhythm with month-end alignment",
+    "Adds test coverage for the corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Updated CalculateNextToDate to cap the calculated period end date at the Subscription Line End Date when it falls within the current monthly period.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003512,
+    "changes_in_call": 1
+  }
+}

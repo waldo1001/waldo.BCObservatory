@@ -6,10 +6,18 @@
   "title": "Add source-verified Finance knowledge and review domain",
   "url": "https://github.com/microsoft/BCQuality/pull/57",
   "published_at": "2026-09-21T08:20:41Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:37.838Z",
+      "change_class": "code",
+      "files": 93,
+      "al": 84,
+      "objects": 0,
+      "unjoined": 84
     }
   },
   "input_hash": "07e324ddbc42597c479e041e06a7833740e05d0f:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add source verified finance knowledge and review domain"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "064678836ff707813db3f8f50235dc993653b21a4b5c36fbff3f0c9d79ff2c67"
 }

@@ -6,7 +6,7 @@
   "title": "Exclude SCM Inventory Costing IV from RU layer",
   "url": "https://github.com/microsoft/BCApps/pull/11565",
   "published_at": "2026-09-21T16:47:05Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "exclude scm inventory costing iv from ru layer"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:00:31.981Z",
+  "retry_after": null
 }
