@@ -6,10 +6,35 @@
   "title": "Remove CLEAN27 from Warehouse",
   "url": "https://github.com/microsoft/BCApps/pull/12293",
   "published_at": "2026-10-05T09:42:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:48.023Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:52.989Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003873
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:53.152Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:53.159Z",
+      "path": "content/changes/bcapps/12293.md"
     }
   },
   "input_hash": "c58135042e79687ca8ba8dcad8843e6fea711b30:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove clean27 from warehouse"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "14ed4f74c91dc6d253952c095ce237ec7051bf6b7bc79237b66be47c87b2b445"
 }

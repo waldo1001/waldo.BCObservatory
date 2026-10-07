@@ -6,10 +6,35 @@
   "title": "[Bug][Subscription Billing] Wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month",
   "url": "https://github.com/microsoft/BCApps/pull/10347",
   "published_at": "2026-10-03T00:39:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:50.898Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:56.424Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004531
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:56.620Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:56.626Z",
+      "path": "content/changes/bcapps/10347.md"
     }
   },
   "input_hash": "eaddd6b3c518414f372154ea6cedd6c12b287359:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscription billing wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af51d4550e13e4fd1412381f09ce1fe205ba5ab2024b1fa4b118a470c93b1602"
 }

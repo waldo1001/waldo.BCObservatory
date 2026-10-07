@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8429",
+  "number": 8429,
+  "title": "E-Document DE: map Payment Method to PEPPOL payment means codes, add SEPA Direct Debit export support",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment methods can now be mapped to standard PEPPOL payment means codes, enabling SEPA Direct Debit support in German E-Document formats with automatic fallback to SEPA credit transfer for compatibility.",
+  "key_points": [
+    "New PEPPOL Payment Means Code field on Payment Method table lets admins assign EN 16931 codes to each payment method",
+    "ZUGFeRD and XRechnung exports use mapped codes and include payee/payer IBAN, BIC, and mandate details for SEPA direct debit",
+    "Fallback to code 58 (SEPA credit transfer) when no code is assigned preserves existing behavior",
+    "New XML Document Validator codeunit validates XRechnung and ZUGFeRD output against official UBL and CII schemas",
+    "Events allow third-party apps to handle additional payment means requiring custom XML nodes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014443,
+    "changes_in_call": 1
+  }
+}

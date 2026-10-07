@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10210,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10210",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T22:34:03Z",
+  "merge_commit_sha": "2931bac2bb8cf7ad63905238b16d2e7da5184784",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][Subscription Billing] \"Delete Invoiced Sales Orders\" leaves orphaned Sales Subscription Lines behind",
+  "body_hash": "544f3beb8693c5c92a34b3f52eb48f8e4a81a7fd97f0fb4c4582c69711a7cbb9",
+  "fixes_issues": [
+    10175
+  ],
+  "work_items": [
+    651549
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Codeunits/SalesSubscriptionLineMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesHeader.TableExt.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/SalesServiceCommitmentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 185,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 234,
+    "deletions": 13,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Codeunits/SalesSubscriptionLineMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8069",
+        "type": "codeunit",
+        "id": 8069,
+        "name": "Sales Subscription Line Mgmt.",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8069"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8053",
+        "type": "tableextension",
+        "id": 8053,
+        "name": "Sales Header",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8053"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8054",
+        "type": "tableextension",
+        "id": 8054,
+        "name": "Sales Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8054"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 10175,
+      "title": "[Bug][Subscription Billing] \"Delete Invoiced Sales Orders\" leaves orphaned Sales Subscription Lines behind",
+      "state": "closed"
+    }
+  ]
+}

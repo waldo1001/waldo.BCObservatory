@@ -1,0 +1,97 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12196,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12196",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T21:33:33Z",
+  "merge_commit_sha": "88580a8349589b57c38d546f930f05d4856119a9",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues",
+  "body_hash": "e941cd329d177104f3f456b84d3efd7ba0d66030d782bef08a3e6a99361d9e17",
+  "fixes_issues": [],
+  "work_items": [
+    650747,
+    652534
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataManagementSetup.Page.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MasterDataMgtSetupTests.Codeunit.al",
+      "status": "modified",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 107,
+    "deletions": 9,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+        "status": "modified",
+        "key": "page/7232",
+        "type": "page",
+        "id": 7232,
+        "name": "MDM Connection Details",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7232"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MasterDataManagementSetup.Page.al",
+        "status": "modified",
+        "key": "page/7230",
+        "type": "page",
+        "id": 7230,
+        "name": "Master Data Management Setup",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7230"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

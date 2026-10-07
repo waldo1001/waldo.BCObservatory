@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9438",
+  "number": 9438,
+  "title": "SL - Add support for migrating historical project transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "A new migration setting enables historical project transactions to be migrated alongside other historical data during SL migration, making project history a first-class migration option.",
+  "key_points": [
+    "Added 'Migrate Hist. Project Trans.' setting in migration configuration UI and per-company settings",
+    "Wired the historical population flow to run project-specific migration when enabled",
+    "Project history follows same control mechanism as GL, AR, AP, inventory, and purchase history",
+    "Processes PJTran, PJTranEx, PJProj, and related project records",
+    "Maintains consistent behavior for 'enable all historical transactions' option"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004131,
+    "changes_in_call": 1
+  }
+}

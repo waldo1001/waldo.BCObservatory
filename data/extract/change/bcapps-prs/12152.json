@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12152",
+  "number": 12152,
+  "title": "[MCP] Clear environment description after environment copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Environment descriptions are now cleared when an environment is copied, preventing the destination from retaining information about the source environment.",
+  "key_points": [
+    "Subscribes to the database-level environment cleanup event triggered during environment copy",
+    "Clears the environment description BLOB for every environment-copy scenario",
+    "Adds a regression test to verify description is cleared after environment copy",
+    "Operates at database scope, consistent with the environment description's `DataPerCompany = false` setting",
+    "Existing descriptions remain unchanged unless the platform triggers an environment-copy cleanup event"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Clear the database-wide environment description when an environment is copied so the destination does not retain context describing the source environment.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003618,
+    "changes_in_call": 1
+  }
+}

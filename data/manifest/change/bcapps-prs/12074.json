@@ -6,10 +6,35 @@
   "title": "Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment",
   "url": "https://github.com/microsoft/BCApps/pull/12074",
   "published_at": "2026-10-02T20:24:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:55.824Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:03.539Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.006227
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:03.730Z",
+      "objects": 15,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:03.737Z",
+      "path": "content/changes/bcapps/12074.md"
     }
   },
   "input_hash": "b79e2cd4968e71182689c173415ce8cbfa6c9ef4:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent travel request expense location per traveler reports activity log and submitter comment"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "922e0a91a0f2cfe9bdf62b2ec7d61362cf63e19c056005f6f3260b9dac3ebe68"
 }

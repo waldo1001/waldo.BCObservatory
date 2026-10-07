@@ -1,0 +1,869 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8429,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8429",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T22:34:03Z",
+  "merge_commit_sha": "c30a08567c20b0cdd5fdfa331ad900e9012c8708",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "E-Document DE: map Payment Method to PEPPOL payment means codes, add SEPA Direct Debit export support",
+  "body_hash": "474983a0c58fe3f7c91a6ead11eb63b45da4fea94b8723b40a0f518592893014",
+  "fixes_issues": [],
+  "work_items": [
+    642368
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/CCTS_CCT_SchemaModule-2.1.xsd",
+      "status": "added",
+      "additions": 731,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-CommonAggregateComponents-2.1.xsd",
+      "status": "added",
+      "additions": 4156,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-CommonBasicComponents-2.1.xsd",
+      "status": "added",
+      "additions": 5385,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-CommonExtensionComponents-2.1.xsd",
+      "status": "added",
+      "additions": 223,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-CommonSignatureComponents-2.1.xsd",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-CoreComponentParameters-2.1.xsd",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-ExtensionContentDataType-2.1.xsd",
+      "status": "added",
+      "additions": 89,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-QualifiedDataTypes-2.1.xsd",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-SignatureAggregateComponents-2.1.xsd",
+      "status": "added",
+      "additions": 92,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-SignatureBasicComponents-2.1.xsd",
+      "status": "added",
+      "additions": 74,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-UnqualifiedDataTypes-2.1.xsd",
+      "status": "added",
+      "additions": 553,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-XAdESv132-2.1.xsd",
+      "status": "added",
+      "additions": 476,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-XAdESv141-2.1.xsd",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/Common/UBL-xmldsig-core-schema-2.1.xsd",
+      "status": "added",
+      "additions": 330,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/UBL-CreditNote-2.1.xsd",
+      "status": "added",
+      "additions": 143,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/XRechnung/UBL/UBL-Invoice-2.1.xsd",
+      "status": "added",
+      "additions": 146,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B.xsd",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_EDIFICAS-EU_AccountingAccountType_D11A.xsd",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_EDIFICAS-EU_AccountingAmountType_D11A.xsd",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_ISO_ISO3AlphaCurrencyCode_2012-08-31.xsd",
+      "status": "added",
+      "additions": 191,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_ActionCode_D22A.xsd",
+      "status": "added",
+      "additions": 130,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_AddressType_D22A.xsd",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_AdjustmentReasonDescriptionCode_D22A.xsd",
+      "status": "added",
+      "additions": 116,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_AllowanceChargeIdentificationCode_D22A.xsd",
+      "status": "added",
+      "additions": 116,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_AllowanceChargeReasonCode_D22A.xsd",
+      "status": "added",
+      "additions": 116,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_AutomaticDataCaptureMethodCode_D22A.xsd",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_CargoOperationalCategoryCode_D22A.xsd",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_CargoTypeCode_1996Rev2Final.xsd",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_CommodityIdentificationCode_D22A.xsd",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_CommunicationMeansTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_ContactFunctionCode_D22A.xsd",
+      "status": "added",
+      "additions": 114,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DangerousGoodsPackingCode_D22A.xsd",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DangerousGoodsRegulationCode_D22A.xsd",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DateOnlyFormatCode_D21B.xsd",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DeliveryTermsCode_2020.xsd",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DeliveryTermsFunctionCode_D22A.xsd",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DimensionTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DocumentNameCode_Accounting_D22A.xsd",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DocumentNameCode_D22A.xsd",
+      "status": "added",
+      "additions": 819,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DocumentStatusCode_D22A.xsd",
+      "status": "added",
+      "additions": 61,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DutyTaxFeeTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_DutyorTaxorFeeCategoryCode_D22A.xsd",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_EventTimeReferenceCodePaymentTermsEvent_D22A.xsd",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_EventTimeReferenceCode_D22A.xsd",
+      "status": "added",
+      "additions": 76,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_FreightChargeQuantityUnitBasisCode_D22A.xsd",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_FreightChargeTariffCode_D22A.xsd",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_GoodsTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_GoodsTypeExtensionCode_D22A.xsd",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_LocationFunctionCode_D22A.xsd",
+      "status": "added",
+      "additions": 326,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_MeasurementUnitCommonCodeLinear_4.xsd",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_MeasurementUnitCommonCodeVolume_4.xsd",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_MeasurementUnitCommonCodeWeight_4.xsd",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_MessageFunctionCode_D22A.xsd",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PackageTypeCode_2006.xsd",
+      "status": "added",
+      "additions": 416,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PackagingMarkingCode_D22A.xsd",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PartyRoleCode_ChargePaying_D22A.xsd",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PartyRoleCode_D22A.xsd",
+      "status": "added",
+      "additions": 635,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PaymentGuaranteeMeansCode_D22A.xsd",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PaymentMeansChannelCode_D22A.xsd",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PaymentMeansCode_D22A.xsd",
+      "status": "added",
+      "additions": 94,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PaymentTermsTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_PriceTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_ReferenceTypeCode_D22A.xsd",
+      "status": "added",
+      "additions": 828,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_SealConditionCode_D22A.xsd",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_SealingPartyRoleCode_D22A.xsd",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_StatusCode_D22A.xsd",
+      "status": "added",
+      "additions": 527,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_StatusDescriptionCode_AccountingDebitCredit_D22A.xsd",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TimeOnlyFormatCode_D21B.xsd",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TimePointFormatCode_D21B.xsd",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportEquipmentCategoryCode_D22A.xsd",
+      "status": "added",
+      "additions": 107,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportEquipmentFullnessCode_D22A.xsd",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportMeansTypeCode_2007.xsd",
+      "status": "added",
+      "additions": 145,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportModeCode_2.xsd",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportMovementStageCode_D22A.xsd",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_codelist_standard_UNECE_TransportPaymentArrangementCode_D22A.xsd",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_data_standard_QualifiedDataType_100.xsd",
+      "status": "added",
+      "additions": 818,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_data_standard_ReusableAggregateBusinessInformationEntity_100.xsd",
+      "status": "added",
+      "additions": 6176,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_data_standard_UnqualifiedDataType_100.xsd",
+      "status": "added",
+      "additions": 144,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_identifierlist_standard_ISO_ISOTwo-letterCountryCode_SecondEdition2006.xsd",
+      "status": "added",
+      "additions": 260,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_identifierlist_standard_UNECE_FreightCostCode_4.xsd",
+      "status": "added",
+      "additions": 1722,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/.resources/ZUGFeRD/CII/CrossIndustryInvoice_100pD22B_urn_un_unece_uncefact_identifierlist_standard_UNECE_PaymentTermsDescriptionIdentifier_D22A.xsd",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/app.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/DEPaymentMeansHelper.Codeunit.al",
+      "status": "added",
+      "additions": 281,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/DEXMLDocumentValidator.Codeunit.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 111,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 138,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ZUGFeRDFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/EDocDEPaymMeansHandler.Codeunit.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/EDocDEVATRegNoHandler.Codeunit.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/EDocumentDETests.Codeunit.al",
+      "status": "modified",
+      "additions": 538,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/LibraryEDocDE.Codeunit.al",
+      "status": "modified",
+      "additions": 98,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/PEPPOLBISXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 257,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ZUGFeRDXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 254,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 103,
+    "additions": 29673,
+    "deletions": 47,
+    "al": 14
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+        "status": "modified",
+        "key": "table/289",
+        "type": "table",
+        "id": 289,
+        "name": "Payment Method",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/289"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+        "status": "modified",
+        "key": "table/289",
+        "type": "table",
+        "id": 289,
+        "name": "Payment Method",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/289"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+        "status": "modified",
+        "key": "table/289",
+        "type": "table",
+        "id": 289,
+        "name": "Payment Method",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/289"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
+        "status": "modified",
+        "key": "table/289",
+        "type": "table",
+        "id": 289,
+        "name": "Payment Method",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/289"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+        "status": "modified",
+        "key": "page/427",
+        "type": "page",
+        "id": 427,
+        "name": "Payment Methods",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/427"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/DEPaymentMeansHelper.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/DEXMLDocumentValidator.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungFormat.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ZUGFeRDFormat.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

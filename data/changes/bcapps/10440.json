@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10440,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10440",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-04T20:04:04Z",
+  "merge_commit_sha": "c02848209da7f97fc73952248dccb33c1ffa6cd7",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Reenable disabled PayPal tests",
+  "body_hash": "b181616bc46f4bb8bc31345ea2f1ad75b45fc4b3362f43c2499687368e56d821",
+  "fixes_issues": [],
+  "work_items": [
+    646087
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 32,
+    "deletions": 41,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

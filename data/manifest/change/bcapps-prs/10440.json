@@ -6,7 +6,7 @@
   "title": "Reenable disabled PayPal tests",
   "url": "https://github.com/microsoft/BCApps/pull/10440",
   "published_at": "2026-10-04T20:04:04Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "reenable disabled paypal tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:56:49.635Z",
+  "retry_after": null
 }

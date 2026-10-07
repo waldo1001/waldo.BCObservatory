@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12127,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12127",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T09:21:27Z",
+  "merge_commit_sha": "30a3bb8d6a5c96925ca41784e5f30d1be8a94e52",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[AT] VAT Statement report doesn't print the 4.9% VAT rate columns on the U30 Form",
+  "body_hash": "c4441decd3d157b1edc829679f61be9a7f9552eda0b4d561d8442a8b4dcdab09",
+  "fixes_issues": [],
+  "work_items": [
+    652286
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AT/BaseApp/Local/Finance/VAT/VATStatementAT.Report.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/Tests/Local/VATSTAT.Codeunit.al",
+      "status": "modified",
+      "additions": 213,
+      "deletions": 31,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 218,
+    "deletions": 34,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/AT/BaseApp/Local/Finance/VAT/VATStatementAT.Report.al",
+        "status": "modified",
+        "key": "report/11110",
+        "type": "report",
+        "id": 11110,
+        "name": "VAT Statement AT",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "report/11110-at"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

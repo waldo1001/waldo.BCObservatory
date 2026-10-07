@@ -6,7 +6,7 @@
   "title": "[MCP] Clear environment description after environment copy",
   "url": "https://github.com/microsoft/BCApps/pull/12152",
   "published_at": "2026-10-05T10:34:28Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:46.561Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003618
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:46.712Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:46.717Z",
+      "path": "content/changes/bcapps/12152.md"
     }
   },
   "input_hash": "3f135fd55af4959ce460cc90b1f05d4e48a14564:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09db7c04a6f4642e758bc3a29738ecfc13e2e5e2dc02597b35047ac4b16885ab"
+  "output_hash": "eedadf1bf5aa3c4dfefbc9d4e5a54ca01d3d011d97e7b535162e9f7f28b61925"
 }

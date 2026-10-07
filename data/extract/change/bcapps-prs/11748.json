@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11748",
+  "number": 11748,
+  "title": "[Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Excise tax calculation now handles bonded-location scenarios for suspended-duty transfers, with logic that determines when transfers from bonded to non-bonded locations are subject to excise tax.",
+  "key_points": [
+    "Added bonded-location treatment enum with Suspend/Ignore options for excise calculations",
+    "Implemented per-entry-type bonded eligibility rules: inbound to bonded excluded, outbound from bonded included, transfer shipment taxed only when released from bonded to non-bonded",
+    "Improved transfer shipment destination resolution to reliably identify transfer-to location in posted scenarios",
+    "Added comprehensive automated tests using real posted data flows for bonded scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Added bonded-location treatment handling for excise tax calculation with explicit Suspend/Ignore behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004095,
+    "changes_in_call": 1
+  }
+}

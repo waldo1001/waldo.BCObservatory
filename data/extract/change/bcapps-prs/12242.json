@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/12242",
+  "number": 12242,
+  "title": "29.x: Removing the restriction of deploying Power BI reports only to evaluation companies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "integration",
+    "development"
+  ],
+  "summary": "Power BI report deployment is now available to all companies, not just evaluation companies. Workspace selection is added to the deployment wizard, and deployment names are tracked and displayed in the deployments list.",
+  "key_points": [
+    "Evaluation company restriction removed for Power BI deployment",
+    "Workspace selection integrated into the deployment wizard",
+    "Workspace names tracked and displayed in deployment history",
+    "My workspace deployment still limited to evaluation companies",
+    "Enhanced multi-selection and redeployment behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Workspace selection is included in the wizard; Workspace name is tracked at deployment time",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010639,
+    "changes_in_call": 1
+  }
+}

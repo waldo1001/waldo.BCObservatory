@@ -6,10 +6,35 @@
   "title": "E-Document DE: map Payment Method to PEPPOL payment means codes, add SEPA Direct Debit export support",
   "url": "https://github.com/microsoft/BCApps/pull/8429",
   "published_at": "2026-10-02T22:34:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:52.723Z",
+      "change_class": "code",
+      "files": 103,
+      "al": 14,
+      "objects": 5,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:58.240Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.014443
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:58.428Z",
+      "objects": 5,
+      "unjoined": 9,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:58.434Z",
+      "path": "content/changes/bcapps/8429.md"
     }
   },
   "input_hash": "c30a08567c20b0cdd5fdfa331ad900e9012c8708:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "e document de map payment method to peppol payment means codes add sepa direct debit export support"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5a2aee58a9286b60740c8c72180b98b054905b5e2b8e74b3b24bf7fcf6a33e8"
 }

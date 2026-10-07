@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12196",
+  "number": 12196,
+  "title": "[Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management cross-environment setup action is now disabled for on-premises installations and field visibility is corrected to display cross-environment details properly on the setup page.",
+  "key_points": [
+    "Cross-environment setup action disabled for on-premises deployments",
+    "Cross-environment details now display correctly on the setup page instead of showing empty source company",
+    "Feature remains functional only in Business Central Online",
+    "Tests added to validate the new behavior",
+    "Low-risk change for the new master data synchronization feature"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Since the feature works only in Business Central Online, disable the cross-environment setup action OnPrem.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003707,
+    "changes_in_call": 1
+  }
+}

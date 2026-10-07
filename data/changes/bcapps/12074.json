@@ -1,0 +1,345 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12074,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12074",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T20:24:37Z",
+  "merge_commit_sha": "b79e2cd4968e71182689c173415ce8cbfa6c9ef4",
+  "author": "claudiuciumedean",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment",
+  "body_hash": "4d1264db937dda8730b0bac30fa9d149996424c7189500319e29d55e42444dde",
+  "fixes_issues": [],
+  "work_items": [
+    626966
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ActivityLog/ExpenseActivityLogAPI.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestsAPI.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelRequestsAPI.Page.al",
+      "status": "modified",
+      "additions": 108,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Codeunits/ExpenseActivityLogMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 177,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+      "status": "modified",
+      "additions": 88,
+      "deletions": 58,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelRequestApproval.Codeunit.al",
+      "status": "modified",
+      "additions": 134,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Pages/TravelRequestCard.Page.al",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Tables/Traveler.Table.al",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseActivityLogAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/TravelRequestsAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 209,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1045,
+      "deletions": 197,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 2196,
+    "deletions": 365,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ActivityLog/ExpenseActivityLogAPI.Page.al",
+        "status": "modified",
+        "key": "page/7122",
+        "type": "page",
+        "id": 7122,
+        "name": "Expense Activity Log API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7122"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestsAPI.Page.al",
+        "status": "modified",
+        "key": "page/7099",
+        "type": "page",
+        "id": 7099,
+        "name": "Spend Requests API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7099"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelRequestsAPI.Page.al",
+        "status": "modified",
+        "key": "page/7134",
+        "type": "page",
+        "id": 7134,
+        "name": "Travel Requests API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7134"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Codeunits/ExpenseActivityLogMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6926",
+        "type": "codeunit",
+        "id": 6926,
+        "name": "Expense Activity Log Mgt.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6926"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/7100",
+        "type": "table",
+        "id": 7100,
+        "name": "Expense Activity Log Entry",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7100"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6908",
+        "type": "tableextension",
+        "id": 6908,
+        "name": "Expense Spend Request",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6953",
+        "type": "permissionset",
+        "id": 6953,
+        "name": "Expense Agent - Data",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6953"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6952",
+        "type": "permissionset",
+        "id": 6952,
+        "name": "Expense Agent - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6908",
+        "type": "codeunit",
+        "id": 6908,
+        "name": "Expense Event Subscriber",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelRequestApproval.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7133",
+        "type": "codeunit",
+        "id": 7133,
+        "name": "Travel Request Approval",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7133"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Pages/TravelRequestCard.Page.al",
+        "status": "modified",
+        "key": "page/7129",
+        "type": "page",
+        "id": 7129,
+        "name": "Travel Request Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7129"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Tables/Traveler.Table.al",
+        "status": "modified",
+        "key": "table/6938",
+        "type": "table",
+        "id": 6938,
+        "name": "Traveler",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6938"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

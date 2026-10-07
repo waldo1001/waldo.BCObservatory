@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations",
   "url": "https://github.com/microsoft/BCApps/pull/11748",
   "published_at": "2026-10-05T08:46:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:49.084Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:54.020Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004095
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:54.174Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:54.181Z",
+      "path": "content/changes/bcapps/11748.md"
     }
   },
   "input_hash": "5bab601ccd03d07e675a0eb35a656da06d634eb9:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 626292 excise tax vendor bonded locations for excise calculations"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5ed1c10ae2e396b09e365d4fe99139f6e7556108ad27622dada2b5dfaca1af2"
 }

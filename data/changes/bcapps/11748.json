@@ -1,0 +1,222 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11748,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11748",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T08:46:01Z",
+  "merge_commit_sha": "5bab601ccd03d07e675a0eb35a656da06d634eb9",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations",
+  "body_hash": "b7e5bfa57d4c9d838cf5508e2e4ab7f696c34d7137a1a13d8096740bdf8a7b9e",
+  "fixes_issues": [],
+  "work_items": [
+    626292
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 136,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseBondedHandling.Enum.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseBondedLocTreatment.Enum.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseEntryType.Enum.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypeCard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseLocationCardExt.PageExt.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxEntryPermission.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxType.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseLocationExt.TableExt.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/ExciseTaxCalculationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 399,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/LibraryExciseTax.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 669,
+    "deletions": 13,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7412",
+        "type": "codeunit",
+        "id": 7412,
+        "name": "Excise Tax Calculation",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseBondedHandling.Enum.al",
+        "status": "added",
+        "key": "enum/7416",
+        "type": "enum",
+        "id": 7416,
+        "name": "Excise Bonded Handling",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "enum/7416"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseBondedLocTreatment.Enum.al",
+        "status": "added",
+        "key": "enum/7417",
+        "type": "enum",
+        "id": 7417,
+        "name": "Excise Bonded Loc. Treatment",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "enum/7417"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/enum/ExciseEntryType.Enum.al",
+        "status": "modified",
+        "key": "enum/7412",
+        "type": "enum",
+        "id": 7412,
+        "name": "Excise Entry Type",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "enum/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ExciseTaxTypeCard.Page.al",
+        "status": "modified",
+        "key": "page/7415",
+        "type": "page",
+        "id": 7415,
+        "name": "Excise Tax Type Card",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7415"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseLocationCardExt.PageExt.al",
+        "status": "added",
+        "key": "pageextension/7417",
+        "type": "pageextension",
+        "id": 7417,
+        "name": "Excise Location Card Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "pageextension/7417"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxEntryPermission.Table.al",
+        "status": "modified",
+        "key": "table/7414",
+        "type": "table",
+        "id": 7414,
+        "name": "Excise Tax Entry Permission",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7414"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ExciseTaxType.Table.al",
+        "status": "modified",
+        "key": "table/7412",
+        "type": "table",
+        "id": 7412,
+        "name": "Excise Tax Type",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseLocationExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7419",
+        "type": "tableextension",
+        "id": 7419,
+        "name": "Excise Location Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "tableextension/7419"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExciseTaxes"
+  ]
+}

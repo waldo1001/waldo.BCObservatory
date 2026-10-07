@@ -6,10 +6,35 @@
   "title": "SL - Add support for migrating historical project transactions",
   "url": "https://github.com/microsoft/BCApps/pull/9438",
   "published_at": "2026-10-02T20:57:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:54.339Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:59.618Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004131
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:59.796Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:03.515Z",
+      "path": "content/changes/bcapps/9438.md"
     }
   },
   "input_hash": "eaa8a3a07f667a4b0c88dce4dc3664bfa180c3e4:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "sl add support for migrating historical project transactions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9ffff0f574f5f832ddb93920133c3810034dd5285b865e976fc11ac070a0d2c"
 }

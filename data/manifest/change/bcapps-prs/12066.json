@@ -6,10 +6,18 @@
   "title": "Bugs/remove asm inv mfg clean27 tags for wave2 2026",
   "url": "https://github.com/microsoft/BCApps/pull/12066",
   "published_at": "2026-10-02T13:18:00Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:59.608Z",
+      "change_class": "code",
+      "files": 147,
+      "al": 146,
+      "objects": 133,
+      "unjoined": 13
     }
   },
   "input_hash": "82b11d26c073de93df3aab17434069f72feab640:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bugs remove asm inv mfg clean27 tags for wave2 2026"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "55585a8c1d607440812d042071f3b28b1c6c90ae325e8d54573b968e92f1d863"
 }

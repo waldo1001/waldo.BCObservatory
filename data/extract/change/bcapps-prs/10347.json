@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10347",
+  "number": 10347,
+  "title": "[Bug][Subscription Billing] Wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Vendor subscription contract deferrals now calculate the correct number of days when a billing period falls entirely within a single calendar month, fixing day counts that previously extended to the month's end.",
+  "key_points": [
+    "Single-period billing schedules now use the actual billing period date range instead of calendar month days",
+    "Added dedicated logic branch for one-period schedules matching customer deferral handling",
+    "Multi-period schedules remain unaffected with correct partial and full month day counts",
+    "Eight new test cases cover single and multi-period scenarios with various date ranges",
+    "Deferral amounts were already correct; only day count field was wrong"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004531,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[AT] VAT Statement report doesn't print the 4.9% VAT rate columns on the U30 Form",
   "url": "https://github.com/microsoft/BCApps/pull/12127",
   "published_at": "2026-10-05T09:21:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:47.687Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:52.223Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003442
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:52.376Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:52.382Z",
+      "path": "content/changes/bcapps/12127.md"
     }
   },
   "input_hash": "30a3bb8d6a5c96925ca41784e5f30d1be8a94e52:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "at vat statement report doesn t print the 4 9 vat rate columns on the u30 form"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08f123401ae309c0c404d3395ae2699b4ae63fcb14218c52ac331c9693fc2fd2"
 }

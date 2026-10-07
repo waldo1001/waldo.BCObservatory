@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12293",
+  "number": 12293,
+  "title": "Remove CLEAN27 from Warehouse",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Removes CLEAN27 compatibility code from warehouse codeunits, tables, and reports by deleting obsolete logic no longer needed for Business Central 30.",
+  "key_points": [
+    "Removes CLEAN27 compatibility code spanning 711 lines across warehouse modules",
+    "Affects activity creation, posting, registration, and warehouse entry ledger functionality",
+    "No behavioral changes for current users since compatibility code is internal technical debt",
+    "Simplifies warehouse codebase by eliminating legacy migration logic",
+    "All affected objects are internal system components"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003873,
+    "changes_in_call": 1
+  }
+}

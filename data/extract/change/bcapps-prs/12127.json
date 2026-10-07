@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12127",
+  "number": 12127,
+  "title": "[AT] VAT Statement report doesn't print the 4.9% VAT rate columns on the U30 Form",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The VAT Statement report for Austria now correctly includes 4.9% VAT rate columns on the U30 PDF form, fixing a gap in the original implementation.",
+  "key_points": [
+    "Added support for 4.9% VAT rate columns in the Austrian VAT Statement report",
+    "The U30 PDF form now displays the missing VAT rate columns",
+    "Changes affect Austria localization only",
+    "Automated tests added to verify PDF field output"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "VAT Statement report doesn't print the 4.9% VAT rate columns on the U30 PDF.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003442,
+    "changes_in_call": 1
+  }
+}

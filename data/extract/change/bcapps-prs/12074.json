@@ -1,0 +1,64 @@
+{
+  "item_id": "change/bcapps-prs/12074",
+  "number": 12074,
+  "title": "Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent travel request feature now supports expense location selection using per diem rules, creates per-traveler expense reports on approval, logs the full request lifecycle, enables rejection with automatic reopen, and allows submitter comments for resubmissions.",
+  "key_points": [
+    "Expense location field replaces three obsolete country/region fields and enforces location+date validation when per diem is enabled",
+    "Approving a travel request creates separate expense reports for each additional traveler, with employee validation and removal restrictions",
+    "Activity log tracks travel request lifecycle (created, submitted, resubmitted, approved, rejected) with separate entries for generated expense reports",
+    "Reject action reopens the request immediately so submitters can resubmit without a separate call",
+    "New submitTravelRequestWithComment action allows comments during resubmission, stored in read-only field"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Travel Request Card",
+      "member": "International Travel",
+      "replacement": "Expense Location"
+    },
+    {
+      "object": "Travel Request Card",
+      "member": "Origin Country/Region Code",
+      "replacement": "Expense Location"
+    },
+    {
+      "object": "Travel Request Card",
+      "member": "Dest. Country/Region Code",
+      "replacement": "Expense Location"
+    },
+    {
+      "object": "Travel Requests API",
+      "member": "internationalTravel",
+      "replacement": null
+    },
+    {
+      "object": "Travel Requests API",
+      "member": "originCountryRegionCode",
+      "replacement": null
+    },
+    {
+      "object": "Travel Requests API",
+      "member": "destCountryRegionCode",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006227,
+    "changes_in_call": 1
+  }
+}

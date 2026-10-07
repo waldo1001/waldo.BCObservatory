@@ -6,7 +6,7 @@
   "title": "Expense Agent: give the E2E test approver unlimited approval",
   "url": "https://github.com/microsoft/BCApps/pull/12294",
   "published_at": "2026-10-05T08:55:56Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent give the e2e test approver unlimited approval"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:56:48.587Z",
+  "retry_after": null
 }

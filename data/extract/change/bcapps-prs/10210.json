@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10210",
+  "number": 10210,
+  "title": "[Bug][Subscription Billing] \"Delete Invoiced Sales Orders\" leaves orphaned Sales Subscription Lines behind",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed orphaned Sales Subscription Lines left behind by \"Delete Invoiced Sales Orders\" and \"Delete Invd Blnkt Sales Orders\" reports by adding event subscribers and batch deletion procedures on the Sales Header table extension.",
+  "key_points": [
+    "Added two event subscribers in Sales Subscription Line Mgmt. codeunit to handle deletion of subscription lines when sales documents are deleted",
+    "Created public DeleteSalesServiceCommitments() procedure on Sales Header table extension to centralize batch deletion logic",
+    "Reports 299 and 291 now trigger subscription line cleanup through OnAfterDeleteSalesLinesLoop and OnAfterDeleteBlanketOrderLine events",
+    "Public procedures include XML documentation to support external callers who need deletion logic",
+    "Added three tests validating cleanup behavior for invoiced orders, blanket orders, and posting scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00469,
+    "changes_in_call": 1
+  }
+}

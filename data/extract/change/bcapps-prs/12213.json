@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12213",
+  "number": 12213,
+  "title": "[Financial Reports] Add row and column definition preview",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Financial report row and column definitions now include preview capability. Users can set a counterpart definition on each report definition and quickly preview how the row or column layout renders.",
+  "key_points": [
+    "Added per-definition fields to store the preview counterpart (Column Definition on Account Schedule, Row Definition on Column Layout)",
+    "Preview action opens a temporary, view-only financial report using the current definition paired with the preview counterpart",
+    "Error messaging guides users to set the required preview counterpart field when attempting preview without one",
+    "Expanded automated tests verify preview functionality across row and column definitions",
+    "No company-wide defaults added to General Ledger Setup per architectural consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Set the Column Definition (for Preview) field, then choose Preview.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004568,
+    "changes_in_call": 1
+  }
+}

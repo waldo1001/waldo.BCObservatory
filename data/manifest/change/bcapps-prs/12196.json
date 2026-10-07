@@ -6,10 +6,35 @@
   "title": "[Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues",
   "url": "https://github.com/microsoft/BCApps/pull/12196",
   "published_at": "2026-10-02T21:33:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:53.443Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:58.661Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003707
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:58.833Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:58.839Z",
+      "path": "content/changes/bcapps/12196.md"
     }
   },
   "input_hash": "88580a8349589b57c38d546f930f05d4856119a9:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master data management disable cross env setup action onprem and fix field visibility issues"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ec53cbbfabd090949623776601d78e2add5507799add87957a2f317d29af64d"
 }

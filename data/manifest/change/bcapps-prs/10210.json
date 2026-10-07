@@ -6,10 +6,35 @@
   "title": "[Bug][Subscription Billing] \"Delete Invoiced Sales Orders\" leaves orphaned Sales Subscription Lines behind",
   "url": "https://github.com/microsoft/BCApps/pull/10210",
   "published_at": "2026-10-02T22:34:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:51.267Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:57.054Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00469
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:57.228Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:57.234Z",
+      "path": "content/changes/bcapps/10210.md"
     }
   },
   "input_hash": "2931bac2bb8cf7ad63905238b16d2e7da5184784:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscription billing delete invoiced sales orders leaves orphaned sales subscription lines behind"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d9838b19d7297cb84b65ea735849f1bf01d7d7b53ec7b03e3b526b0bf1fd7a4"
 }

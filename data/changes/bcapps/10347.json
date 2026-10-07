@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10347,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10347",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-03T00:39:05Z",
+  "merge_commit_sha": "eaddd6b3c518414f372154ea6cedd6c12b287359",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][Subscription Billing] Wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month",
+  "body_hash": "b8d39fb75dc29304bbcb4d2350d4263b5b117fca978d5d6d951d6be47e352670",
+  "fixes_issues": [
+    10097
+  ],
+  "work_items": [
+    651553
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Deferrals/Codeunits/VendorDeferralsMngmt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Deferrals/VendorDeferralsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 246,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 255,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Deferrals/Codeunits/VendorDeferralsMngmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8068",
+        "type": "codeunit",
+        "id": 8068,
+        "name": "Vendor Deferrals Mngmt.",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8068"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 10097,
+      "title": "[Bug][Subscription Billing] Wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month",
+      "state": "closed"
+    }
+  ]
+}

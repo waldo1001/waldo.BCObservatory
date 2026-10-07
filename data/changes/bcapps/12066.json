@@ -1,0 +1,2613 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12066,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12066",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T13:18:00Z",
+  "merge_commit_sha": "82b11d26c073de93df3aab17434069f72feab640",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bugs/remove asm inv mfg clean27 tags for wave2 2026",
+  "body_hash": "038eb381c1f054e87b3d7af0f58ac4f85809b702e82be3ab296355d90dca195f",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/ItemJnlPostLineHandlerCZA.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/General/SubcItemJnlPostLineExt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcCalcBOMTreeExt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcCarryOutActionExt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcPlanningLineMgmtExt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcLibraryMfgManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Manufacturing/SustManufacturingSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 856,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 898,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 94,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 897,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 856,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferReceiptHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferShipmentHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Inventory/Planning/MfgPlanningLineManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 48,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ManufacturingManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 231,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 61,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 34,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Requisition/CarryOutAction.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 677,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ItemApplicationEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ValueEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Location/ResponsibilityCenter.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 897,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 94,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyHeaderReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLinePlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/History/PostedAssemblyHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/BOM/AsmCalculateBOMTree.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Requisition/AsmCarryOutAction.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Tracking/AsmGetDemandToReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Tracking/AsmReservCheckDateConfl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmCreateInvtPickMovement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmWhseActivityRegister.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Analysis/AnalysisColumn.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/AvailabletoPromise.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/CalcItemAvailability.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/CapabletoPromise.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 36,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyBOMLevel.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/BOM/BOMCostShares.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 44,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/BOM/BOMStructure.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/BOM/Tree/CalculateBOMTree.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 266,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/CalcInventoryAdjmtOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Document/AvailableInvtDocLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/ExportItemData.XmlPort.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Journal/ItemJnlLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemApplicationEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemLedgerEntryReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ValueEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Location/Location.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/CalcItemPlanPlanWksh.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningLineManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 280,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlngComponentReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 856,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryCustomerSales.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 32,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryOrderDetails.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 126,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventorySalesBackOrders.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 114,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAbletoMakeTimeline.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CalculatePlanReqWksh.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 34,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutAction.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 677,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/GetActionMessages.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/GetUnplannedDemand.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 135,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/OrderPlanningMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 80,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 94,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/GetDemandToReserve.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 110,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingDocManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ReservationCheckDateConfl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 131,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransGetDemandToReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Capacity/CapacityConstrainedResources.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ChangeStatusonProdOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CheckProdOrderStatus.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FinishedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/PlannedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderAvailabilityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 81,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderCompReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLinePlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/SimulatedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Foundation/MfgPageManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/BOM/MfgCalculateBOMTree.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 56,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgInventoryAdjmtEntryOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItem.TableExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnit.TableExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Planning/MfgPlanningLineManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 48,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 180,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgCarryOutAction.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 106,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgOrderPlanningMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgGetDemandToReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgInvtProfileOffsetting.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgReservCheckDateConfl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 34,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MfgCreateInventoryPutaway.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Posting/MfgPurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseLine.TableExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CapacityTaskList.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProdOrderShortageList.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 105,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProductionOrderStatistics.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/QuantityExplosionofBOM.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/SubcontractorDispatchList.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/WhereUsedTopLevel.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ManufacturingManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 250,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/PlanningRoutingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 77,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 51,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 105,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgCreateInvtPickMovement.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgCreatePutaway.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 66,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhseActivityPost.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhseActivityRegister.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterGroups.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 34,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 34,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 147,
+    "additions": 133,
+    "deletions": 11345,
+    "al": 146
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/General/SubcItemJnlPostLineExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20515",
+        "type": "codeunit",
+        "id": 20515,
+        "name": "Subc. ItemJnlPostLine Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20515"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcCalcBOMTreeExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20521",
+        "type": "codeunit",
+        "id": 20521,
+        "name": "Subc. Calc BOM Tree Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20521"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcCarryOutActionExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20523",
+        "type": "codeunit",
+        "id": 20523,
+        "name": "Subc. Carry Out Action Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20523"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcPlanningLineMgmtExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20518",
+        "type": "codeunit",
+        "id": 20518,
+        "name": "Subc. Planning Line Mgmt Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20518"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Manufacturing/SustManufacturingSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6254",
+        "type": "codeunit",
+        "id": 6254,
+        "name": "Sust. Manufacturing Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6254"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+        "status": "modified",
+        "key": "table/313",
+        "type": "table",
+        "id": 313,
+        "name": "Inventory Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/313"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "key": "table/5740",
+        "type": "table",
+        "id": 5740,
+        "name": "Transfer Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5740"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferReceiptHeader.Table.al",
+        "status": "modified",
+        "key": "table/5746",
+        "type": "table",
+        "id": 5746,
+        "name": "Transfer Receipt Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5746"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferShipmentHeader.Table.al",
+        "status": "modified",
+        "key": "table/5744",
+        "type": "table",
+        "id": 5744,
+        "name": "Transfer Shipment Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5744"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Inventory/Planning/MfgPlanningLineManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000819",
+        "type": "codeunit",
+        "id": 99000819,
+        "name": "Mfg. Planning Line Management",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/99000819"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/99000765"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5812"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000755",
+        "type": "page",
+        "id": 99000755,
+        "name": "Work Center List",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000755"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5895",
+        "type": "codeunit",
+        "id": 5895,
+        "name": "Inventory Adjustment",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5895"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ItemApplicationEntry.Table.al",
+        "status": "modified",
+        "key": "table/339",
+        "type": "table",
+        "id": 339,
+        "name": "Item Application Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/339"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Ledger/ValueEntry.Table.al",
+        "status": "modified",
+        "key": "table/5802",
+        "type": "table",
+        "id": 5802,
+        "name": "Value Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5802"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Location/ResponsibilityCenter.Table.al",
+        "status": "modified",
+        "key": "table/5714",
+        "type": "table",
+        "id": 5714,
+        "name": "Responsibility Center",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5714"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+        "status": "modified",
+        "key": "table/313",
+        "type": "table",
+        "id": 313,
+        "name": "Inventory Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/313"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyHeader.Table.al",
+        "status": "modified",
+        "key": "table/900",
+        "type": "table",
+        "id": 900,
+        "name": "Assembly Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/900"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyHeaderReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/925",
+        "type": "codeunit",
+        "id": 925,
+        "name": "Assembly Header-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/925"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLinePlanning.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000851",
+        "type": "codeunit",
+        "id": 99000851,
+        "name": "Assembly Line-Planning",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000851"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/926",
+        "type": "codeunit",
+        "id": 926,
+        "name": "Assembly Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/926"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/History/PostedAssemblyHeader.Table.al",
+        "status": "modified",
+        "key": "table/910",
+        "type": "table",
+        "id": 910,
+        "name": "Posted Assembly Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/910"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/BOM/AsmCalculateBOMTree.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/931",
+        "type": "codeunit",
+        "id": 931,
+        "name": "Asm. Calculate BOM Tree",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Requisition/AsmCarryOutAction.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/945",
+        "type": "codeunit",
+        "id": 945,
+        "name": "Asm. Carry Out Action",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/945"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Tracking/AsmGetDemandToReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/929",
+        "type": "codeunit",
+        "id": 929,
+        "name": "Asm. Get Demand To Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/929"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Tracking/AsmReservCheckDateConfl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/937",
+        "type": "codeunit",
+        "id": 937,
+        "name": "Asm. ReservCheckDateConfl",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/937"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmCreateInvtPickMovement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/989",
+        "type": "codeunit",
+        "id": 989,
+        "name": "Asm. Create Invt.Pick/Movement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/989"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmWhseActivityRegister.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/939",
+        "type": "codeunit",
+        "id": 939,
+        "name": "Asm. Whse.-Activity-Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/939"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Analysis/AnalysisColumn.Table.al",
+        "status": "modified",
+        "key": "table/7118",
+        "type": "table",
+        "id": 7118,
+        "name": "Analysis Column",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7118"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/AvailabletoPromise.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5790",
+        "type": "codeunit",
+        "id": 5790,
+        "name": "Available to Promise",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5790"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/CalcItemAvailability.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5530",
+        "type": "codeunit",
+        "id": 5530,
+        "name": "Calc. Item Availability",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5530"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/CapabletoPromise.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000886",
+        "type": "codeunit",
+        "id": 99000886,
+        "name": "Capable to Promise",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000886"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyBOMLevel.Page.al",
+        "status": "modified",
+        "key": "page/5871",
+        "type": "page",
+        "id": 5871,
+        "name": "Item Availability by BOM Level",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5871"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/BOM/BOMCostShares.Page.al",
+        "status": "modified",
+        "key": "page/5872",
+        "type": "page",
+        "id": 5872,
+        "name": "BOM Cost Shares",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5872"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/BOM/BOMStructure.Page.al",
+        "status": "modified",
+        "key": "page/5870",
+        "type": "page",
+        "id": 5870,
+        "name": "BOM Structure",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5870"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/BOM/Tree/CalculateBOMTree.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5870",
+        "type": "codeunit",
+        "id": 5870,
+        "name": "Calculate BOM Tree",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5870"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/CalcInventoryAdjmtOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5896",
+        "type": "codeunit",
+        "id": 5896,
+        "name": "Calc. Inventory Adjmt. - Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5896"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5895",
+        "type": "codeunit",
+        "id": 5895,
+        "name": "Inventory Adjustment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5895"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Document/AvailableInvtDocLines.Page.al",
+        "status": "modified",
+        "key": "page/6873",
+        "type": "page",
+        "id": 6873,
+        "name": "Available - Invt. Doc. Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6873"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/ExportItemData.XmlPort.al",
+        "status": "modified",
+        "key": "xmlport/5801",
+        "type": "xmlport",
+        "id": 5801,
+        "name": "Export Item Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "xmlport/5801"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Journal/ItemJnlLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000835",
+        "type": "codeunit",
+        "id": 99000835,
+        "name": "Item Jnl. Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000835"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemApplicationEntry.Table.al",
+        "status": "modified",
+        "key": "table/339",
+        "type": "table",
+        "id": 339,
+        "name": "Item Application Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/339"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/32",
+        "type": "table",
+        "id": 32,
+        "name": "Item Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/32"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ItemLedgerEntryReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000841",
+        "type": "codeunit",
+        "id": 99000841,
+        "name": "Item Ledger Entry-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Ledger/ValueEntry.Table.al",
+        "status": "modified",
+        "key": "table/5802",
+        "type": "table",
+        "id": 5802,
+        "name": "Value Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5802"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Location/Location.Table.al",
+        "status": "modified",
+        "key": "table/14",
+        "type": "table",
+        "id": 14,
+        "name": "Location",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/14"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/CalcItemPlanPlanWksh.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5431",
+        "type": "codeunit",
+        "id": 5431,
+        "name": "Calc. Item Plan - Plan Wksh.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5431"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningLineManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000809",
+        "type": "codeunit",
+        "id": 99000809,
+        "name": "Planning Line Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000809"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlngComponentReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000840",
+        "type": "codeunit",
+        "id": 99000840,
+        "name": "Plng. Component-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/23",
+        "type": "codeunit",
+        "id": 23,
+        "name": "Item Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/23"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryCustomerSales.Report.al",
+        "status": "modified",
+        "key": "report/713",
+        "type": "report",
+        "id": 713,
+        "name": "Inventory - Customer Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/713"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryOrderDetails.Report.al",
+        "status": "modified",
+        "key": "report/708",
+        "type": "report",
+        "id": 708,
+        "name": "Inventory Order Details",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/708"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventorySalesBackOrders.Report.al",
+        "status": "modified",
+        "key": "report/718",
+        "type": "report",
+        "id": 718,
+        "name": "Inventory - Sales Back Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/718"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAbletoMakeTimeline.Report.al",
+        "status": "modified",
+        "key": "report/5871",
+        "type": "report",
+        "id": 5871,
+        "name": "Item - Able to Make (Timeline)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5871"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CalculatePlanReqWksh.Report.al",
+        "status": "modified",
+        "key": "report/699",
+        "type": "report",
+        "id": 699,
+        "name": "Calculate Plan - Req. Wksh.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/699"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutAction.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000813",
+        "type": "codeunit",
+        "id": 99000813,
+        "name": "Carry Out Action",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000813"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/GetActionMessages.Report.al",
+        "status": "modified",
+        "key": "report/99001023",
+        "type": "report",
+        "id": 99001023,
+        "name": "Get Action Messages",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001023"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/GetUnplannedDemand.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5520",
+        "type": "codeunit",
+        "id": 5520,
+        "name": "Get Unplanned Demand",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5520"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/OrderPlanningMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5522",
+        "type": "codeunit",
+        "id": 5522,
+        "name": "Order Planning Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5522"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000833",
+        "type": "codeunit",
+        "id": 99000833,
+        "name": "Req. Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000833"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Setup/InventorySetup.Table.al",
+        "status": "modified",
+        "key": "table/313",
+        "type": "table",
+        "id": 313,
+        "name": "Inventory Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/313"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/GetDemandToReserve.Report.al",
+        "status": "modified",
+        "key": "report/302",
+        "type": "report",
+        "id": 302,
+        "name": "Get Demand To Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/302"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000854",
+        "type": "codeunit",
+        "id": 99000854,
+        "name": "Inventory Profile Offsetting",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000854"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingDocManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6503",
+        "type": "codeunit",
+        "id": 6503,
+        "name": "Item Tracking Doc. Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6503"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ReservationCheckDateConfl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000815",
+        "type": "codeunit",
+        "id": 99000815,
+        "name": "Reservation-Check Date Confl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000815"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransGetDemandToReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000846",
+        "type": "codeunit",
+        "id": 99000846,
+        "name": "Trans. Get Demand To Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000846"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000836",
+        "type": "codeunit",
+        "id": 99000836,
+        "name": "Transfer Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000836"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Capacity/CapacityConstrainedResources.Page.al",
+        "status": "modified",
+        "key": "page/99000866",
+        "type": "page",
+        "id": 99000866,
+        "name": "Capacity Constrained Resources",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000866"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ChangeStatusonProdOrder.Page.al",
+        "status": "modified",
+        "key": "page/99000882",
+        "type": "page",
+        "id": 99000882,
+        "name": "Change Status on Prod. Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000882"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CheckProdOrderStatus.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000777",
+        "type": "codeunit",
+        "id": 99000777,
+        "name": "Check Prod. Order Status",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000777"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FinishedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000868",
+        "type": "page",
+        "id": 99000868,
+        "name": "Finished Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000868"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/FirmPlannedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000830",
+        "type": "page",
+        "id": 99000830,
+        "name": "Firm Planned Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000830"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/PlannedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000814",
+        "type": "page",
+        "id": 99000814,
+        "name": "Planned Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000814"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderAvailabilityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000875",
+        "type": "codeunit",
+        "id": 99000875,
+        "name": "Prod. Order Availability Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000875"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderCompReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000838",
+        "type": "codeunit",
+        "id": 99000838,
+        "name": "Prod. Order Comp.-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000838"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+        "status": "modified",
+        "key": "table/5406",
+        "type": "table",
+        "id": 5406,
+        "name": "Prod. Order Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5406"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLinePlanning.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000857",
+        "type": "codeunit",
+        "id": 99000857,
+        "name": "Prod. Order Line-Planning",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000857"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000837",
+        "type": "codeunit",
+        "id": 99000837,
+        "name": "Prod. Order Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000837"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000832",
+        "type": "page",
+        "id": 99000832,
+        "name": "Released Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000832"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/SimulatedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000913",
+        "type": "page",
+        "id": 99000913,
+        "name": "Simulated Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000913"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Foundation/MfgPageManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000791",
+        "type": "codeunit",
+        "id": 99000791,
+        "name": "Mfg. Page Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000791"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/BOM/MfgCalculateBOMTree.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000781",
+        "type": "codeunit",
+        "id": 99000781,
+        "name": "Mfg. Calculate BOM Tree",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000781"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgInventoryAdjmtEntryOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000776",
+        "type": "codeunit",
+        "id": 99000776,
+        "name": "Mfg. InventoryAdjmtEntryOrder",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000776"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItem.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000750",
+        "type": "tableextension",
+        "id": 99000750,
+        "name": "Mfg. Item",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/99000750"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000751",
+        "type": "pageextension",
+        "id": 99000751,
+        "name": "Mfg. Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnit.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000759",
+        "type": "tableextension",
+        "id": 99000759,
+        "name": "Mfg. Stockkeeping Unit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/99000759"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Planning/MfgPlanningLineManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000819",
+        "type": "codeunit",
+        "id": 99000819,
+        "name": "Mfg. Planning Line Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000819"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000823",
+        "type": "codeunit",
+        "id": 99000823,
+        "name": "Mfg. Item Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000823"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000822",
+        "type": "codeunit",
+        "id": 99000822,
+        "name": "Mfg. Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000822"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgOrderPlanningMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000867",
+        "type": "codeunit",
+        "id": 99000867,
+        "name": "Mfg. Order Planning Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000867"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgGetDemandToReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000858",
+        "type": "codeunit",
+        "id": 99000858,
+        "name": "Mfg. Get Demand To Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000858"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgInvtProfileOffsetting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000869",
+        "type": "codeunit",
+        "id": 99000869,
+        "name": "Mfg. Invt. Profile Offsetting",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000869"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Tracking/MfgReservCheckDateConfl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000849",
+        "type": "codeunit",
+        "id": 99000849,
+        "name": "Mfg. ReservCheckDateConfl",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000849"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000761",
+        "type": "page",
+        "id": 99000761,
+        "name": "Machine Center List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000761"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MfgCreateInventoryPutaway.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000878",
+        "type": "codeunit",
+        "id": 99000878,
+        "name": "Mfg. Create Inventory Put-Away",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000878"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Posting/MfgPurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000890",
+        "type": "codeunit",
+        "id": 99000890,
+        "name": "Mfg. Purch.-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000890"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMList.Page.al",
+        "status": "modified",
+        "key": "page/99000787",
+        "type": "page",
+        "id": 99000787,
+        "name": "Production BOM List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000787"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000751",
+        "type": "tableextension",
+        "id": 99000751,
+        "name": "Mfg. Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/99000751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CapacityTaskList.Report.al",
+        "status": "modified",
+        "key": "report/99000780",
+        "type": "report",
+        "id": 99000780,
+        "name": "Capacity Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000780"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProdOrderShortageList.Report.al",
+        "status": "modified",
+        "key": "report/99000788",
+        "type": "report",
+        "id": 99000788,
+        "name": "Prod. Order - Shortage List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000788"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/ProductionOrderStatistics.Report.al",
+        "status": "modified",
+        "key": "report/99000791",
+        "type": "report",
+        "id": 99000791,
+        "name": "Production Order Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000791"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/QuantityExplosionofBOM.Report.al",
+        "status": "modified",
+        "key": "report/99000753",
+        "type": "report",
+        "id": 99000753,
+        "name": "Quantity Explosion of BOM",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000753"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/SubcontractorDispatchList.Report.al",
+        "status": "modified",
+        "key": "report/99000789",
+        "type": "report",
+        "id": 99000789,
+        "name": "Subcontractor - Dispatch List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000789"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/WhereUsedTopLevel.Report.al",
+        "status": "modified",
+        "key": "report/99000757",
+        "type": "report",
+        "id": 99000757,
+        "name": "Where-Used (Top Level)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99000757"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ManufacturingManagerRC.Page.al",
+        "status": "modified",
+        "key": "page/8903",
+        "type": "page",
+        "id": 8903,
+        "name": "Manufacturing Manager RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8903"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9010",
+        "type": "page",
+        "id": 9010,
+        "name": "Production Planner Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9010"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+        "status": "modified",
+        "key": "page/9011",
+        "type": "page",
+        "id": 9011,
+        "name": "Shop Supervisor Mfg Foundation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9011"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9012",
+        "type": "page",
+        "id": 9012,
+        "name": "Shop Supervisor Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9012"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/PlanningRoutingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000808",
+        "type": "codeunit",
+        "id": 99000808,
+        "name": "PlanningRoutingManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000808"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+        "status": "modified",
+        "key": "page/99000768",
+        "type": "page",
+        "id": 99000768,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000768"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104062",
+        "type": "codeunit",
+        "id": 104062,
+        "name": "Mfg. Upgrade BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104062"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgCreateInvtPickMovement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000899",
+        "type": "codeunit",
+        "id": 99000899,
+        "name": "Mfg. Create Invt.Pick/Movement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000899"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgCreatePutaway.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000893",
+        "type": "codeunit",
+        "id": 99000893,
+        "name": "Mfg. Create Put-away",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000893"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhseActivityPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000766",
+        "type": "codeunit",
+        "id": 99000766,
+        "name": "Mfg. Whse. Activity Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000766"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhseActivityRegister.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000765",
+        "type": "codeunit",
+        "id": 99000765,
+        "name": "Mfg. Whse. Activity Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterGroups.Page.al",
+        "status": "modified",
+        "key": "page/99000758",
+        "type": "page",
+        "id": 99000758,
+        "name": "Work Center Groups",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000758"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000755",
+        "type": "page",
+        "id": 99000755,
+        "name": "Work Center List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000755"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/ItemJnlPostLineHandlerCZA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ManufacturingManagerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ProductionPlannerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorMfgFoundation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/RoleCenters/ShopSupervisorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Requisition/CarryOutAction.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgCarryOutAction.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "warehouse",
+    "assembly",
+    "purchasing",
+    "platform",
+    "development",
+    "sustainability"
+  ],
+  "apps": [
+    "Base Application",
+    "Subcontracting",
+    "Sustainability"
+  ]
+}
