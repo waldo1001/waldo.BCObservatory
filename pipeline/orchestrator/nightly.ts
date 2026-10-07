@@ -237,6 +237,19 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
       ...(ck ? { onProgress: ck.progress } : {}),
       heapFull: deps.heapFull ?? heapAbove(cfg.memory_stop_fraction ?? 0.6),
+      // The OOMs of 2026-10-07 grew inside stages, between checkpoints, with nothing logged (D59). Sample every 5 s;
+      // print every 30 s, and at once whenever the heap crosses a new gigabyte, so a climb is logged step by step
+      // together with the items in flight at each step.
+      heartbeatMs: 5_000,
+      onHeartbeat: (() => {
+        let lastAt = 0, lastGb = -1;
+        return (f: { id: string; stage: string; for_s: number }[]) => {
+          const m = process.memoryUsage(), mb = (b: number) => Math.round(b / 2 ** 20), gb = Math.floor(m.heapUsed / 2 ** 30);
+          if (Date.now() - lastAt < 30_000 && gb <= lastGb) return;
+          lastAt = Date.now(); lastGb = gb;
+          log.info(`heartbeat: heap ${mb(m.heapUsed)} MB, rss ${mb(m.rss)} MB, external ${mb(m.external)} MB; ${f.length} in flight${f.length ? `: ${f.slice(0, 8).map((x) => `${x.id} ${x.stage} ${x.for_s}s`).join("; ")}` : ""}`);
+        };
+      })(),
       laneTimeoutMs: Object.fromEntries(Object.entries(cfg.lane_timeout_seconds ?? {}).map(([k, v]) => [k, v * 1000])),
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }

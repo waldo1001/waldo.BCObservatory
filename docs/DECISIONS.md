@@ -408,3 +408,18 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   2026-10-07. A push-only call no longer stages, and the rebase autostashes the tree the item loop is still writing.
   A real-git test reproduces the production error on the old code. Also: catch-up ends after 2026-10-06 — the
   backlogs it existed for are drained (hub narratives 0, topic reviews 12), and the day had cost $68.75.
+- **D59 Two hops on demand; scripts stay out of the pages; the item loop reports what is in flight.** (a) The 2-hop
+  neighbourhood (deferred in D45 because it would ship the 6.9 MB relations file) now comes from per-type shards
+  built at site build time, `code/neighbours/<major>/<type>.json`: each object's heaviest 12 neighbours as
+  [key, ring, weight]. "Show 2 hops" fetches only the shards of the types already on screen — 600 KB per major in
+  all, the largest 39 KB gzipped — and the objects index for names, then draws up to 60 objects on an outer ring,
+  each under the first-hop object it is most strongly tied to (an object reachable several ways is drawn once, its
+  weights added). Nothing loads until the reader asks. The selection and layout are a pure module with tests.
+  (b) Astro inlines a bundled script below vite's `assetsInlineLimit`; the page-galaxy locator (3.3 KB, which D53
+  missed) and the new toggle (3.5 KB) were inlined into every one of 20k+ object pages. `assetsInlineLimit: 0`
+  makes both shared files: an object page 41.4 → 34.9 KB. (c) The OOM hunt (D55-D57) ruled out, by measurement,
+  every post-loop phase, both code job types (Code History 669 MB, BCApps with country apps 763 MB), the model
+  stream, oversized posts (the largest is 13k words) and the repeat scrub. Every dying process did a burst of
+  cached work, then went silent for about 6.5 minutes inside stages the heap guard cannot interrupt. So the item
+  loop now samples every 5 s and logs, every 30 s and whenever the heap crosses a gigabyte, the heap and each item
+  in flight with its stage and how long it has been in it: the climb itself will name the stage.

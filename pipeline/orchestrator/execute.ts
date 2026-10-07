@@ -119,6 +119,12 @@ export interface ExecuteOptions {
    */
   heapFull?: () => boolean;
   /**
+   * Every this many ms, report what is in flight (each active item with its stage and how long it has been in it),
+   * so the last report before an OOM names the stage that grew (D59). Off when absent.
+   */
+  heartbeatMs?: number;
+  onHeartbeat?: (inFlight: { id: string; stage: string; for_s: number }[]) => void;
+  /**
    * Longest a lane stage may run (ms per lane). A stage that hangs past it fails the item (it retries on a later run)
    * and frees the lane; otherwise one stuck fetch held the only "web" slot and parked every blog item all night.
    */
@@ -237,6 +243,8 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const inBatch = new Set<string>();
   /** Items a worker is running right now. */
   const active = new Set<string>();
+  /** id → stage it is running and since when (heartbeat, D59). */
+  const inStage = new Map<string, { stage: string; since: number }>();
   /** Items already handed to a worker or claimed by a batch: the cursor never hands them out again. */
   const visited = new Set<string>();
   /** Lanes in use, and items parked until their lane is free (they come back first through `requeue`). */
@@ -290,6 +298,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
         }
         const s = await runStop();
         if (s) { stop ??= s; break; }
+        inStage.set(item.id, { stage, since: Date.now() });
         const q = quotaFor(item.pillar, stage);
         if (!charge(q, chargedOf(item.id))) break;
         touched.add(item.id);
@@ -314,8 +323,10 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
           visited.add(pid);
           group.push(peer);
         }
+        for (const g of group) inStage.set(g.id, { stage: `${stage} (batch of ${group.length})`, since: Date.now() });
         let results: Map<string, StageResult | Error>;
         try { results = await h.batch!.run(group, ctx); } catch (e) { results = new Map(group.map((g) => [g.id, asError(e)])); }
+        for (const g of group) if (g.id !== item.id) inStage.delete(g.id);
         let mine: ManifestItem | null = null;
         for (const g of group) {
           const after = stop ? null : settle(g, stage, results.get(g.id) ?? new Error("batch returned no result for this item"));
@@ -327,6 +338,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     } finally {
       release();
       active.delete(id);
+      inStage.delete(id);
     }
   };
 
@@ -340,6 +352,12 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   wakeWorker = nudge;
   const idle = () => new Promise<void>((r) => { const prev = wake; wake = () => { prev?.(); r(); }; setTimeout(nudge, 1000); });
   const parkedCount = () => [...parked.values()].reduce((n, l) => n + l.length, 0);
+  const beat = o.heartbeatMs && o.onHeartbeat ? setInterval(() => {
+    const now = Date.now();
+    o.onHeartbeat!([...inStage].map(([id, v]) => ({ id, stage: v.stage, for_s: Math.round((now - v.since) / 1000) })).sort((a, b) => b.for_s - a.for_s));
+  }, o.heartbeatMs) : null;
+  beat?.unref();
+  try {
   await Promise.all(Array.from({ length: workers }, async () => {
     while (!stop) {
       const id = nextId();
@@ -348,6 +366,9 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
       await idle();
     }
   }));
+  } finally {
+    if (beat) clearInterval(beat);
+  }
   if (stop) r.stop_reason = stop;
   r.items_touched = touched.size;
   r.parked_left = parkedCount();

@@ -31,25 +31,63 @@ export interface Lookup { pk: string; title: string; system: string | null; type
 const PAGE_KINDS = new Set(["source_table", "lookup_page", "drilldown_page", "card_page"]);
 const CAP = 40;
 
-/** One-hop neighbours of `key`, grouped and capped (each non-empty ring keeps at least two). */
-export function neighbourhood(key: string, major: string, lookup: (k: string) => Lookup | null, learn: { url: string; title: string }[]): { nodes: Neighbour[]; totals: Record<Ring, number> } {
+/** The relation neighbours of `key` by ring, with a weight per edge: shared by the diagram and the 2-hop shards. */
+export function rawNeighbours(key: string, major: string): { key: string; ring: Exclude<Ring, "learn">; weight: number }[] {
   const v = relationsFor(major);
-  const acc = new Map<string, Neighbour>();
-  const add = (k: string, ring: Ring, kind: string, w = 1) => {
+  const acc = new Map<string, { key: string; ring: Exclude<Ring, "learn">; weight: number }>();
+  const add = (k: string, ring: Exclude<Ring, "learn">) => {
+    if (k === key) return;
     const id = `${ring}|${k}`;
     const cur = acc.get(id);
-    if (cur) { cur.weight += w; return; }
-    const l = lookup(k);
-    acc.set(id, { key: k, ring, weight: w, label: l?.title ?? k, href: l ? `objects/${l.pk}/` : null, system: l?.system ?? null, kind: l?.type ?? k.split("/")[0] });
+    if (cur) cur.weight++; else acc.set(id, { key: k, ring, weight: 1 });
   };
   if (v) {
-    for (const e of v.out.get(key) ?? []) add(e.t, PAGE_KINDS.has(e.k) && e.k !== "source_table" ? "pages" : "relates", e.k);
+    for (const e of v.out.get(key) ?? []) add(e.t, PAGE_KINDS.has(e.k) && e.k !== "source_table" ? "pages" : "relates");
     for (const e of v.in.get(key) ?? []) {
-      if (e.k === "extends") add(e.s, "extensions", e.k);
-      else if (PAGE_KINDS.has(e.k) || e.k === "runs_on") add(e.s, "pages", e.k);
-      else add(e.s, "referenced", e.k);
+      if (e.k === "extends") add(e.s, "extensions");
+      else if (PAGE_KINDS.has(e.k) || e.k === "runs_on") add(e.s, "pages");
+      else add(e.s, "referenced");
     }
-    for (const ev of Object.values(v.rel.events[key] ?? {})) for (const s of ev.subs) add(s.s, "subscribers", "subscribes");
+    for (const ev of Object.values(v.rel.events[key] ?? {})) for (const s of ev.subs) add(s.s, "subscribers");
+  }
+  return [...acc.values()];
+}
+
+/** Rings in the order the 2-hop shards encode them (an index per neighbour keeps the shards small). */
+export const SHARD_RINGS: Exclude<Ring, "learn">[] = ["relates", "referenced", "pages", "extensions", "subscribers"];
+export const SHARD_CAP = 12;
+/**
+ * Every object of one type in a major's relations, with its heaviest SHARD_CAP neighbours as [key, ring index,
+ * weight] (D59). The object page's "2 hops" toggle fetches only the shards of the types already on screen, instead of
+ * the whole relations file.
+ */
+export function neighbourShard(major: string, type: string): Record<string, [string, number, number][]> {
+  const v = relationsFor(major);
+  if (!v) return {};
+  const keys = new Set<string>();
+  for (const k of [...v.out.keys(), ...v.in.keys(), ...Object.keys(v.rel.events)]) if (k.startsWith(`${type}/`)) keys.add(k);
+  const out: Record<string, [string, number, number][]> = {};
+  for (const k of [...keys].sort()) {
+    const ns = rawNeighbours(k, major).sort((a, b) => b.weight - a.weight || a.key.localeCompare(b.key)).slice(0, SHARD_CAP);
+    if (ns.length) out[k] = ns.map((n) => [n.key, SHARD_RINGS.indexOf(n.ring), n.weight]);
+  }
+  return out;
+}
+/** The object types that have any relation in a major (one shard each). */
+export function shardTypes(major: string): string[] {
+  const v = relationsFor(major);
+  if (!v) return [];
+  const t = new Set<string>();
+  for (const k of [...v.out.keys(), ...v.in.keys(), ...Object.keys(v.rel.events)]) t.add(k.split("/")[0]);
+  return [...t].sort();
+}
+
+/** One-hop neighbours of `key`, grouped and capped (each non-empty ring keeps at least two). */
+export function neighbourhood(key: string, major: string, lookup: (k: string) => Lookup | null, learn: { url: string; title: string }[]): { nodes: Neighbour[]; totals: Record<Ring, number> } {
+  const acc = new Map<string, Neighbour>();
+  for (const n of rawNeighbours(key, major)) {
+    const l = lookup(n.key);
+    acc.set(`${n.ring}|${n.key}`, { key: n.key, ring: n.ring, weight: n.weight, label: l?.title ?? n.key, href: l ? `objects/${l.pk}/` : null, system: l?.system ?? null, kind: l?.type ?? n.key.split("/")[0] });
   }
   learn.forEach((l, i) => acc.set(`learn|${l.url}`, { key: `learn/${i}`, ring: "learn", weight: 1, label: l.title, href: l.url, system: null, kind: "learn" }));
   const all = [...acc.values()];

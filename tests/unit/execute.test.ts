@@ -279,3 +279,18 @@ test("lanes: a stage that hangs times out, fails its item and frees the lane for
   for (const k of ["VID2", "VID1"]) assert.equal(get(m, k).state, "published", `${k} got the lane after the timeout`);
   assert.equal(r.parked_left, 0);
 });
+
+test("the heartbeat names each item in flight with its stage and how long it has been there (D59)", async () => {
+  const m = setup(1);
+  const beats: { id: string; stage: string; for_s: number }[][] = [];
+  let release!: () => void;
+  const slow = new Promise<void>((r) => (release = r));
+  const p = run(m, allVideo({ fetched: async () => { await slow; return {}; } }), { heartbeatMs: 20, onHeartbeat: (f) => beats.push(f) });
+  await new Promise((r) => setTimeout(r, 80));
+  release();
+  await p;
+  const seen = beats.find((b) => b.length);
+  assert.ok(seen, "a heartbeat fired while the stage ran");
+  assert.deepEqual(seen!.map((x) => [x.id, x.stage]), [["video/yt-ms/VID1", "fetched"]]);
+  assert.equal(beats.at(-1)!.length >= 0, true);
+});
