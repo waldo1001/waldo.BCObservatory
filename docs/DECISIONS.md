@@ -519,6 +519,25 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   it now reads "flagged - a review found a problem", amber, solid border: never red, never an icon. Statuses
   `announced` and `unclear` get plain words. New stand-in colours (guideline, other, flagged) pass AA on both themes
   (7.4:1 to 13.6:1, computed).
+- **D65 Discovery: render the extracted explanations, join hubs to their objects, rank hubs by size, derive Related
+  from structure, place first-party apps by the Learn branch that documents them.** The walkthrough "new to
+  Subscription Billing, search 'subscription'" failed on four counts that were all joins or rendering: the field
+  ToolTips the extractor stores (12,946 in W1 BC30) were never printed; the `ms.search.form` join in
+  `docs-objects.json` was used by object pages but not by hubs, so hubs said "not yet joined"; tables, which Learn
+  never names directly, inherited nothing from the pages on them; search scored a 47-page reviewed hub like a 5-page
+  API index and below any codeunit whose summary held the word. Fixes, all deterministic (`docs/specs/discovery.md`, built in four tranches on 2026-10-07, sections 8.1 to 8.5 record the deviations):
+  (a) Fields tables show Explanation (ToolTip, else a page control's ToolTip with the page named, else Caption) and
+  structural Notes; the `Tooltip` spelling counts; `EXTRACTOR_VERSION` 4. (b) Hubs fill `links.objects` and
+  `coverage.code` from `by_doc` and list their pages, reports and the tables behind them; tables take `links.learn`
+  and `links.topics` from their pages; topic → object edges are `documents`. (c) Search records carry a path label,
+  TOC words as tags, the object caption, member count and narrative state; the score adds `log2(members+1)` and a
+  review bonus for hubs, demotes objects on generic queries, and the results page groups Start here / Roadmap /
+  Videos / Posts / AL objects by app. (d) `data/links/related.json`, derived from the TOC, the object join, shared
+  media and same-title-other-section, with a closed set of reasons, rendered as a Related block and `relates` edges;
+  one page per first-party app. (e) `NS_SYSTEM` gains the first-party apps; `development` is for developer tooling
+  only. (f) Page layout and actions are extracted (`controls`, `actions`), and a projection gives table fields the
+  ToolTip of the control bound to them, Card before List, with the page as provenance: Subscription Billing
+  fields explained 5% → 85%, W1 42% → 51% (first-party apps 6% → 22%; measured in spec section 8.5, 2026-10-07). No LLM call was added; the nightly's `llm_calls` is unchanged.
 - **D66 The galaxy is one place with three views, and its layout says something.** The design pass of 2026-10-07
   (`design/HANDOFF.views.md`) makes D (galaxy, honest) the place, C (neighbourhood explorer) the object view and A
   (layered, Tilt) a later view of one system; spec `docs/specs/galaxy-views.md`, built in five phases. Phase 1

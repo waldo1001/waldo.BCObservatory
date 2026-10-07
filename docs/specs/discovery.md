@@ -1,6 +1,6 @@
 # Discovery: find the right hub, explain every field, point onward
 
-Status: proposed, 2026-10-07. Decision: D65 (D60 is the source stage, `docs/specs/source-embed.md`). Owner: waldo.
+Status: implemented, all four tranches, 2026-10-07 (sections 8.1 to 8.5 record what was built and where it differs). Decision: D65 (appended 2026-10-07). Owner: waldo.
 Scope: four tranches, phased (section 8). All deterministic, no LLM call added. Written for a session that has not
 seen the conversation behind it; every claim below was verified against the tree at `83fa4e764` on 2026-10-07.
 
@@ -791,7 +791,7 @@ very large pages; joining `modify(X)` ToolTips through the base page's control; 
    `content/topics/llms.txt` should say that hubs now link objects and that `Related` lives in
    `data/links/related.json`.
 
-## 12. D65, draft for `docs/DECISIONS.md` at ship time
+## 12. D65, as appended to `docs/DECISIONS.md` (2026-10-07)
 
 - **D65 Discovery: render the extracted explanations, join hubs to their objects, rank hubs by size, derive Related
   from structure, place first-party apps by the Learn branch that documents them.** The walkthrough "new to
