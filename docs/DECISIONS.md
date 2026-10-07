@@ -524,3 +524,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `extracted` stage of the code pillar now runs in lane `code` with capacity 1 (`config/budget.json` lanes), the
   mechanism D41 built for yt-dlp and blog fetches: the other workers keep doing other work, and a restart can no
   longer resume three majors together. Fetching (git checkouts) stays parallel.
+  reader's clock. The namespace treemap moved from the atlas into `pipeline/lib/treemap.ts`, and the move fixed a
+  bug: rows after the first were sized against the shrinking rectangle, so the atlas never filled its own frame.
+  Phase 2 draws it: tree guides and plots behind the stars, a focused star's in-system edges solid and its crossings
+  as dashed edges to up to 6 port buttons (the panel lists the same), a lens bar (changed in BC29 and BC30, this week,
+  then the rest), an exit dock of real links, a sortable list view, and a static locator above the panel below 480 px.
+  Phase 3 is C, the neighbourhood explorer at `/neighbourhood/?o=&s=&mode=&v=`, fed by one file per system and major
+  (`/code/neighbours/<major>/<system>.json`, every edge touching the system's objects plus a names table); those files
+  replace the D59 per-type shards and the "2 hops" toggle, and object pages get a build-time one-hop diagram that
+  links in. One query-string page, not a page per object: 20,744 more pages would add 300 to 400 MB to a 480 MB site
+  (the GitHub Pages limit is 1 GB) for facts the object page and its markdown twin already carry. Phase 4 puts eight
+  question entries above the galaxy as deep links (`#lens=landed`, `#lens=version:30`, `#system=..&tilt=1`, ...).
+  Phase 5 is A as a Tilt of one system: four planes on D's x/y from `graph/layers/<system>.json`, a core sample per
+  click, a country and a coverage lens per plane, a list per plane. At Finance's 2,021 objects the code plane was
+  unreadable, so it shipped with the handoff's level-of-detail fallback: one tile per namespace plot with its count
+  and Learn share, the stars on top, one plot opened at a time. Summary 50 to 97 KB gzipped; a tilted Finance adds
+  19 KB, its explorer file 95 KB. Sizes, deviations and the light-theme notes: the spec's section 9.

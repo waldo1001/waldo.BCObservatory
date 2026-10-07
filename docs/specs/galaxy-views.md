@@ -1,6 +1,6 @@
 # Galaxy views: one place, three views (D66, M8)
 
-Status: proposed, not implemented. Design: `design/HANDOFF.views.md`, `HANDOFF.D-galaxy-honest.md`,
+Status: implemented on `dev/next` (all five phases, 2026-10-07), not pushed. Section 9 records what was built and where it differs from sections 1 to 8. Design: `design/HANDOFF.views.md`, `HANDOFF.D-galaxy-honest.md`,
 `HANDOFF.C-neighbourhood.md`, `HANDOFF.A-layered.md`, the three `tokens.<view>.json` and `design/canvas/*.dc.html`.
 This spec says what the pipeline and the site will do per phase, what they will not do, and where the handoffs and
 the code disagree. Numbers below are measured on the data at `c18ab4a8c` (BC30 relations, 2026-10-07) unless marked
@@ -275,3 +275,42 @@ Before any renderer code, as you asked:
 Each phase: `npm run typecheck`, `npm test`, `npm run validate:content`, `npm run site:build`, exit codes checked;
 graph and code stages only, no nightly, no LLM calls; generated `data/` and `content/` not committed; small commits
 (`pipeline:`, `feat:`, `docs:`), not pushed; a phase report with JSON sizes before and after, raw and gzipped.
+
+## 9. Outcome (2026-10-07)
+
+Sizes measured on the built site with the regenerated graph (gzip -9):
+
+| File | Raw | Gzipped | Loaded |
+|---|---|---|---|
+| `graph/summary.json` | 899 KB (was 580) | 97 KB (was 50) | home page, every page's locator |
+| `graph/landed.json` | 14 KB | 4 KB | with the galaxy |
+| `graph/layers/finance.json` | 98 KB | 19 KB | on Tilt only |
+| `graph/layers/development.json` (largest) | 220 KB | 41 KB | on Tilt only; all systems 164 KB gz |
+| `code/neighbours/30/finance.json` | 781 KB | 95 KB | explorer, one system at a time |
+| `code/neighbours/30/development.json` (largest) | 902 KB | 109 KB | explorer; all systems 661 KB gz, `index.json` 27 KB gz |
+| galaxy script | 61 KB | 21 KB | home page |
+
+Differences against sections 1 to 8:
+
+- Phase 1: country-layer objects are placed in plots too (one can be a star); `landed.json` items carry the title;
+  stars also carry `ns` (atlas path) and `nn` (distinct code neighbours, the exit dock's Neighbourhood number). The
+  atlas treemap had a sizing bug (rows after the first got too little area); fixed in the shared module.
+- Phase 2: edges from a focused star into another system are not drawn as lines across the galaxy: the ports and the
+  panel carry them. Object stars are capped at their plot cell so they never overlap. Version lenses come from
+  `changed_in` only. The evidence chip of kind video was not recoloured (conflict 12): the accent proposal is open.
+- Phase 3: per-system files are 95 to 109 KB gz for the largest systems, over the 45 KB estimate: the names table and
+  the full rings are what the explorer needs, and one view loads one file. Events without subscribers are a count
+  (`quiet`), media rows carry a title, empty rings are left out. Events mode puts events left and the selected event's
+  subscribers right (the drawn fan clipped). The explorer page is 1520 px wide. No markdown twin of its own (conflict
+  9). Not built: the evidence chip to the source file (the files carry no paths), the 900 ms re-centre slide (a cut).
+- Phase 4: the eight entries are a row above the galaxy; country and coverage land in D with the lens (A's panel
+  carries both too once tilted).
+- Phase 5: at Finance's real density (2,021 objects) the code plane was a smear, so the level-of-detail fallback of
+  HANDOFF A section 8 is what shipped: the code plane is one tile per namespace plot (fill = share named by a Learn
+  page, coverage lens = share not named), the stars on top, one plot opened at a time (click, or the panel's plot
+  list). Planes are normalised to the system's extent, not its radius. Tilt is offered only when the graph carries
+  plots (an older graph has no layers files). Finance replaces 173 objects in 20 countries, not the artboard's 586.
+
+Light theme, never drawn by the designer, checked in screenshots: workable. Borderline or open: the 4.5:1 accent
+values (`#A85F00`) for the version frame, new media and the core sample; the explorer's selected node fills the same
+`#131722` as its centre; `--nb-direction` and the port colours have no light token (stand-ins in `tokens.ts`).
