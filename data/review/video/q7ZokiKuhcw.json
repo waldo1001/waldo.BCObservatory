@@ -1,0 +1,23 @@
+{
+  "video_id": "q7ZokiKuhcw",
+  "item_id": "video/yt-microsoft/q7ZokiKuhcw",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes match the transcript word for word. The 38.3 quote runs on into the 52 segment, which is fine.",
+    "The 52 quote keeps the caption error 'produ C' (for 'production'), but it is verbatim as captioned.",
+    "The summary and key points are supported: badge shape (round for production, square for sandbox), six-character text limit, and the Company Information page reached from the settings wheel.",
+    "Both features are left as unclear, which is correct because the video never says whether the feature is in preview or generally available."
+  ],
+  "input_hash": "5d1a4330aa1bfc67d955450b4696d131a850c79ac499befafe77b4fdadac98ac",
+  "by": "opus",
+  "at": "2026-10-07T23:08:19.821Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029789
+  }
+}

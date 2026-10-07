@@ -1,0 +1,27 @@
+{
+  "video_id": "88s0QjsaCUQ",
+  "item_id": "video/yt-microsoft/88s0QjsaCUQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript. Some run on into the next segment, which is fine.",
+    "The transcript says the country code must match the \"customer's a\" (garbled caption). Calling it the Azure AD tenant is an inference, so I softened the key point. The country code feature description has the same wording and I left it, because descriptions cannot be edited here.",
+    "The transcript never says a country code mismatch blocks provisioning. It only says the codes must match. The EULA consequence is stated explicitly.",
+    "Leaving every feature as unclear is correct. The speaker calls it a new feature in a 2023 release wave 1 clip but gives no preview or GA status.",
+    "Added a quote placing the clip in 2023 release wave 1."
+  ],
+  "input_hash": "ee56f1cc0aa5ab500e58258099136236fed93b8ed28c4252d7b2b5aa6a9948a0",
+  "by": "opus",
+  "at": "2026-10-07T23:08:11.860Z",
+  "applied": [
+    "quote at 0s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.066805
+  }
+}

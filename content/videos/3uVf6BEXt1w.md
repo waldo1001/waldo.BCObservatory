@@ -18,12 +18,12 @@ tags:
   - channel growth
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:23.699Z"
   flags: []
 generated:
-  at: "2026-10-06T19:37:53.701Z"
+  at: "2026-10-07T23:08:23.739Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,7 +169,7 @@ quotes:
 
 > Business Central onboarding strategy for partners: why self-service, templating and packaged partner knowledge matter for scaling. It is a clip from a 2023 release wave 2 launch event video, and the speaker says it is equally relevant today. Feature status is not stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=3uVf6BEXt1w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=3uVf6BEXt1w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -199,13 +199,13 @@ It suggests partners rethink their role: match prospects with the right partner 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer self-service onboarding | status not stated | [1:00](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=60s) |  |
-| Template-based setup approach | status not stated | [2:12](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=132s) |  |
-| Partner-knowledge apps for AppSource | status not stated | [2:32](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=152s) |  |
-| In-product learning and intuitive guidance | status not stated | [3:13](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=193s) |  |
-| Partner and solution matching | status not stated | [1:52](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=112s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer self-service onboarding | status not stated | [1:00](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=60s) |
+| Template-based setup approach | status not stated | [2:12](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=132s) |
+| Partner-knowledge apps for AppSource | status not stated | [2:32](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=152s) |
+| In-product learning and intuitive guidance | status not stated | [3:13](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=193s) |
+| Partner and solution matching | status not stated | [1:52](https://www.youtube.com/watch?v=3uVf6BEXt1w&t=112s) |
 
 ## Quotes
 

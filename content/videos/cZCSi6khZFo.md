@@ -17,18 +17,25 @@ tags:
   - catalog search
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:20.734Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:20.778Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: a4217793d3587714aa92271be7b3f15785d99ebe82af0eec15c4dd6a80d718f6
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=cZCSi6khZFo&t=731s
+    title: "Sales Line Suggestion with Copilot: preview"
+    date: "2024-04-04T13:30:26.000Z"
+    commit: null
+    t: 731
+    quote: sales line suggestion capability in the preview section together with the other features which are available
   - kind: video
     url: https://www.youtube.com/watch?v=cZCSi6khZFo&t=36s
     title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
@@ -64,6 +71,13 @@ evidence:
     commit: null
     t: 719
     quote: is at no additional cost if you have a business center license you can use co pilot capabilities in the product
+  - kind: video
+    url: https://www.youtube.com/watch?v=cZCSi6khZFo&t=751s
+    title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
+    date: "2024-04-04T13:30:26.000Z"
+    commit: null
+    t: 751
+    quote: in this case your administrator needs to activate the cross region data transfer then your business Central can
   - kind: video
     url: https://www.youtube.com/watch?v=cZCSi6khZFo&t=770s
     title: "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)"
@@ -124,9 +138,9 @@ chapters:
     title: Conclusion
 features:
   - name: Sales Line Suggestion with Copilot
-    status: unclear
+    status: preview
     t: 97
-    verified: false
+    verified: true
     status_source: video
   - name: Prompt Guides for Sales Line Suggestion
     status: unclear
@@ -182,6 +196,9 @@ quotes:
   - t: 719
     text: is at no additional cost if you have a business center license you can use co pilot capabilities in the product
     check: fuzzy
+  - t: 751
+    text: in this case your administrator needs to activate the cross region data transfer then your business Central can
+    check: exact
   - t: 770
     text: it is in English and it means that we test it and we know that it works in the English best other languages it
     check: exact
@@ -194,7 +211,7 @@ quotes:
 
 > Sales line suggestions with Copilot in Business Central (2024 release wave 1): an action on sales quotes, orders and invoices that turns natural language prompts, document references or pasted emails into item lines. Covers demos, searched fields, language and region limits, and constraints.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cZCSi6khZFo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cZCSi6khZFo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -204,13 +221,13 @@ The video also explains which fields and tables are searched, data protection an
 
 ## Key points
 
-- The Sales Line Suggestion action is on sales order, sales quote and sales invoice documents and opens a prompt dialog for natural language requests.
+- The Suggest sales line action is on sales order, sales quote and sales invoice documents and opens a prompt dialog for natural language requests.
 - Two input styles: list items with quantities, or refer to an existing document (partial number or external reference) to copy lines from. Document search covers sales quotes, orders, posted shipments and posted invoices.
 - Item search looks across descriptions, names, categories, attributes, translations, variants and extended text. Marketing text and attachments are not searched.
 - Suggestions come with confidence information, and users can pick permissive, balance or precise matching.
 - Pasted email content is parsed to separate items being praised from items to purchase.
 - Limits: only item-type lines, only item number and quantity are filled, product and document search cannot be combined in one prompt, and relative criteria such as best selling are not supported.
-- English variants only (Australian, New Zealand, British English tested); not available in Canada; other languages may work but are not guaranteed. Result quality depends on product data quality.
+- Preview in English variants only (Australian, New Zealand, British English); not available in Canada; other languages may work but are not guaranteed. Result quality depends on product data quality.
 
 ## Chapters
 
@@ -229,7 +246,7 @@ The video also explains which fields and tables are searched, data protection an
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Sales Line Suggestion with Copilot | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=cZCSi6khZFo&t=97s) |  |
+| Sales Line Suggestion with Copilot | preview, demoed | [1:37](https://www.youtube.com/watch?v=cZCSi6khZFo&t=97s) | "sales line suggestion capability in the preview section together with the other features which are available" ([12:11](https://www.youtube.com/watch?v=cZCSi6khZFo&t=731s)) |
 | Prompt Guides for Sales Line Suggestion | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=cZCSi6khZFo&t=175s) |  |
 | Document Search via Partial Reference | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=cZCSi6khZFo&t=252s) |  |
 | Item Search via Attributes and Catalog | status not stated, demoed | [5:13](https://www.youtube.com/watch?v=cZCSi6khZFo&t=313s) |  |
@@ -252,6 +269,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [11:07](https://www.youtube.com/watch?v=cZCSi6khZFo&t=667s) "it will be available in the business Central online also known as a software as a service so the cloud version it will be"
 - [11:28](https://www.youtube.com/watch?v=cZCSi6khZFo&t=688s) "in almost all regions except canada and i will explain why because the this capability first available in the preview"
 - [11:59](https://www.youtube.com/watch?v=cZCSi6khZFo&t=719s) "is at no additional cost if you have a business center license you can use co pilot capabilities in the product"
+- [12:31](https://www.youtube.com/watch?v=cZCSi6khZFo&t=751s) "in this case your administrator needs to activate the cross region data transfer then your business Central can"
 - [12:50](https://www.youtube.com/watch?v=cZCSi6khZFo&t=770s) "it is in English and it means that we test it and we know that it works in the English best other languages it"
 - [14:30](https://www.youtube.com/watch?v=cZCSi6khZFo&t=870s) "and it only deals with lines of type item so general ledger resources or comment lines"
 

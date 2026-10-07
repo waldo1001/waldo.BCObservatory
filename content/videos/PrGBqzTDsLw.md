@@ -18,12 +18,12 @@ tags:
   - role centers
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:21.271Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:21.318Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,6 +79,20 @@ evidence:
     commit: null
     t: 797
     quote: Branch off checklists to do more elaborate setups. You saw me uh opening the assisted setup list filtered to your custom category, and you
+  - kind: video
+    url: https://www.youtube.com/watch?v=PrGBqzTDsLw&t=797s
+    title: Profiling Your Customers
+    date: "2024-04-18T14:00:03.000Z"
+    commit: null
+    t: 797
+    quote: filtered to your custom category, and you do that by calling the open assisted setup function in the guide experience item.
+  - kind: video
+    url: https://www.youtube.com/watch?v=PrGBqzTDsLw&t=879s
+    title: Profiling Your Customers
+    date: "2024-04-18T14:00:03.000Z"
+    commit: null
+    t: 879
+    quote: with other teaching tips, you can use the about title and about text properties to do that in AL.
   - kind: video
     url: https://www.youtube.com/watch?v=PrGBqzTDsLw&t=929s
     title: Profiling Your Customers
@@ -224,6 +238,12 @@ quotes:
   - t: 797
     text: Branch off checklists to do more elaborate setups. You saw me uh opening the assisted setup list filtered to your custom category, and you
     check: exact
+  - t: 797
+    text: filtered to your custom category, and you do that by calling the open assisted setup function in the guide experience item.
+    check: exact
+  - t: 879
+    text: with other teaching tips, you can use the about title and about text properties to do that in AL.
+    check: exact
   - t: 929
     text: To learn more, visit aka.ms/bconboarding.
     check: exact
@@ -233,7 +253,7 @@ quotes:
 
 > Profiling customers for Business Central trial onboarding: a website questionnaire stores answers in a system table, and those answers drive AppSource apps, role center, welcome banner, checklist, assisted setup, teaching tips and Excel layouts. A sample onboarding app on GitHub is shown as a template.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=PrGBqzTDsLw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 15:42 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=PrGBqzTDsLw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 15:42 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -243,10 +263,10 @@ The video shows how a partner can tailor a Business Central trial to each prospe
 
 - Questionnaire answers are stored in a system table in Business Central, and can be used before the user signs in.
 - Different AppSource apps and solutions can be loaded during trial setup based on the combination of answers.
-- A customer role center can be loaded, attached to a role and set for the current user before sign-in, and the welcome banner text can be changed.
+- A customer role center can be loaded, attached to a role and set for the current user before sign-in, and the welcome banner text can be changed, by subscribing to the relevant events shown in the sample app.
 - Checklist tasks lead the first experience with videos, setup steps and calls to action. The presenter says the sample checklist is an example for inspiration, not a template to copy as is.
-- The assisted setup list can be filtered to a custom category so customers see only setup steps relevant to the solution.
-- Teaching tips support markdown (bold, italics) and links. They can be added to report request pages and to query objects opened in analysis mode.
+- The assisted setup list can be filtered to a custom category by calling the open assisted setup function in the guide experience item, so customers see only setup steps relevant to the solution.
+- Teaching tips support markdown (bold, italics) and links, are set with the about title and about text properties in AL, and can be added to report request pages and to query objects opened in analysis mode.
 - Reports can ship with Excel layouts that refresh data and graphs on print. A sample onboarding app on GitHub can be forked, and more is at aka.ms/bconboarding.
 
 ## Chapters
@@ -264,22 +284,22 @@ The video shows how a partner can tailor a Business Central trial to each prospe
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer questionnaire on website | status not stated, demoed | [0:14](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=14s) |  |
-| System table storage of questionnaire answers | status not stated | [0:42](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=42s) |  |
-| Dynamic AppSource app loading based on customer profile | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=134s) |  |
-| Customer role center assignment before sign-in | status not stated, demoed | [11:55](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=715s) |  |
-| Welcome banner personalization | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=740s) |  |
-| Onboarding checklist tasks | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=252s) |  |
-| Assisted setup with custom categories | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=303s) |  |
-| Teaching tips with markdown support | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=572s) |  |
-| Report request page teaching tips | status not stated, demoed | [7:55](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=475s) |  |
-| Excel layouts for reports | status not stated, demoed | [8:08](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=488s) |  |
-| Spotlight tour for Excel and Teams integration | status not stated, demoed | [7:18](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=438s) |  |
-| Teaching tips on query objects in analysis mode | status not stated, demoed | [9:43](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=583s) |  |
-| Analysis duplication and link sharing | status not stated, demoed | [10:19](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=619s) |  |
-| Onboarding sample app on GitHub | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=688s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer questionnaire on website | status not stated, demoed | [0:14](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=14s) |
+| System table storage of questionnaire answers | status not stated | [0:42](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=42s) |
+| Dynamic AppSource app loading based on customer profile | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=134s) |
+| Customer role center assignment before sign-in | status not stated, demoed | [11:55](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=715s) |
+| Welcome banner personalization | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=740s) |
+| Onboarding checklist tasks | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=252s) |
+| Assisted setup with custom categories | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=303s) |
+| Teaching tips with markdown support | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=572s) |
+| Report request page teaching tips | status not stated, demoed | [7:55](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=475s) |
+| Excel layouts for reports | status not stated, demoed | [8:08](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=488s) |
+| Spotlight tour for Excel and Teams integration | status not stated, demoed | [7:18](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=438s) |
+| Teaching tips on query objects in analysis mode | status not stated, demoed | [9:43](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=583s) |
+| Analysis duplication and link sharing | status not stated, demoed | [10:19](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=619s) |
+| Onboarding sample app on GitHub | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=688s) |
 
 ## AL objects mentioned
 
@@ -300,6 +320,8 @@ Not found in BC28-30: page "assisted setup list page", page "guide experience it
 - [11:28](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=688s) "Now, the great thing about what you just saw here is that this app that I loaded here is available on GitHub. It's the"
 - [11:55](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=715s) "Well, first of all, we loaded a customer role center. There's a few things that's important for doing that. So, we loaded a customer"
 - [13:17](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=797s) "Branch off checklists to do more elaborate setups. You saw me uh opening the assisted setup list filtered to your custom category, and you"
+- [13:17](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=797s) "filtered to your custom category, and you do that by calling the open assisted setup function in the guide experience item."
+- [14:39](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=879s) "with other teaching tips, you can use the about title and about text properties to do that in AL."
 - [15:29](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=929s) "To learn more, visit aka.ms/bconboarding."
 
 ## Disclaimers in the video

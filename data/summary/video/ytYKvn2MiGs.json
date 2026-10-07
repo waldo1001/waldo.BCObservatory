@@ -1,16 +1,16 @@
 {
   "video_id": "ytYKvn2MiGs",
   "item_id": "video/yt-microsoft/ytYKvn2MiGs",
-  "summary": "Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, copilot actions on lists, token counting, function calling with tool choice, model versioning, and the planned managed AI resources and AI credit governance.",
+  "summary": "Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, Copilot actions on lists, token counting in the AOI Token codeunit, and function calling with tool choice. Also covers how Microsoft keeps models current with latest/preview versions and the announced managed, shared AI resources with AI credit governance (private preview in 24.x, public preview in 25.x, GA TBD). Ends with partner Q&A on data privacy, using your own data via prompts, and choosing GPT-3.5 Turbo where it fits.",
   "overview": "The session covers new AL capabilities for building Copilot features. It starts with prompt dialog changes (instructional text, prompt guides) and copilot actions on lists, list parts, worksheets and dialogs. It then covers counting input tokens before calling Azure OpenAI, and function calling, including the tool choice modes and the validation each one needs.\n\nThe second half covers keeping up with model versions using version-agnostic strings and the latest and preview model versions. It also covers managed and shared AI resources, the AI credit, limits and quotas, and the roadmap, which depends on preview feedback. It ends with data privacy answers, a model recommendation and the open source AL toolkit on GitHub. The demo code is not production ready.",
   "key_points": [
     "Set the instructional text property on prompt area fields to show general instructions in the prompt dialog. It is not meant for example prompts.",
-    "Prompt guides are prompt templates opened from a book icon on the prompt dialog. They are added as a new area in actions on a prompt dialog page and can be grouped.",
-    "Token counting covers input tokens only, not output. Methods in the AOI Token codeunit cover GPT 3.5, GPT 4 and other models, and they do not yet include the system meta prompt.",
+    "Prompt guides are prompt templates opened from a book icon on the prompt dialog. They are added as a new prompt guide area in actions on a prompt dialog page and can be grouped.",
+    "Copilot actions on lists, list parts, worksheets and standard dialogs go in a new prompting area in actions.",
+    "Token counting covers input tokens only, not output. Methods in the AOI Token codeunit cover GPT 3.5, GPT 4 and other models, take SecretText input, and do not yet include the system meta prompt.",
     "Function calling: describe functions to the model and it returns which to call with arguments. Do not hardcode function descriptions in text. Keep them in isolated storage or Azure Key Vault because they are IP.",
     "Tool choice auto can return either a function call or a normal chat reply, so handle the error case. Setting a specific function guarantees it is called, but you must validate the arguments.",
-    "Two versions of each model are kept, latest and preview. Use version-agnostic strings such as turbo-latest and test your feature, since versions may perform differently.",
-    "Managed and shared AI resources are in preview. Private preview is expected in April or May 2024 and public preview around 2025. The AI credit, limits and quotas are not finalized, and GA timing is to be determined."
+    "Two versions of each model are kept, latest and preview. Use version-agnostic strings such as turbo-latest and test your feature, since versions may perform differently."
   ],
   "audience": [
     "developer",

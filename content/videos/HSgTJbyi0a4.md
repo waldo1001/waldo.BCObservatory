@@ -2,7 +2,7 @@
 id: video/HSgTJbyi0a4
 type: video
 title: The Human Aspect of Onboarding
-summary: "Business Central onboarding philosophy: a 2-minute video (April 2024) on designing first-time user guidance for both self-exploring users and users who need handholding, and on how partners can scale onboarding to more customers."
+summary: "Business Central onboarding philosophy: a roughly 2.5-minute clip from the 2023 release wave 2 launch video on the human side of onboarding. It covers designing first-time user guidance for both users who explore on their own and users who need handholding, without blocking anyone. It also covers how partners can scale onboarding to more customers with content that fits each customer's business needs."
 tier: official
 language: en
 tags:
@@ -14,18 +14,25 @@ tags:
   - partner enablement
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:12.075Z"
   flags: []
 generated:
-  at: "2026-10-06T19:37:24.625Z"
+  at: "2026-10-07T23:08:12.117Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 0eaf89d3e4ea7155d3395b9f59642519fb639024b281bc4d3bdb61d0f389ef5c
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=HSgTJbyi0a4&t=0s
+    title: The Human Aspect of Onboarding
+    date: "2024-04-18T13:49:44.000Z"
+    commit: null
+    t: 0
+    quote: it's a clip from a launch made video for 2023 release Wave 2 but it's equally relevant today
   - kind: video
     url: https://www.youtube.com/watch?v=HSgTJbyi0a4&t=38s
     title: The Human Aspect of Onboarding
@@ -95,11 +102,6 @@ features:
     t: 78
     verified: false
     status_source: video
-  - name: Personalized onboarding experience
-    status: unclear
-    t: 58
-    verified: false
-    status_source: video
   - name: Scalable partner onboarding
     status: unclear
     t: 98
@@ -107,6 +109,9 @@ features:
     status_source: video
 objects_mentioned: []
 quotes:
+  - t: 0
+    text: it's a clip from a launch made video for 2023 release Wave 2 but it's equally relevant today
+    check: exact
   - t: 38
     text: he's a little uncertain if he's at the right place but hopefully he will get a warm and personal welcome and he will feel
     check: exact
@@ -123,9 +128,9 @@ quotes:
 
 # The Human Aspect of Onboarding
 
-> Business Central onboarding philosophy: a 2-minute video (April 2024) on designing first-time user guidance for both self-exploring users and users who need handholding, and on how partners can scale onboarding to more customers.
+> Business Central onboarding philosophy: a roughly 2.5-minute clip from the 2023 release wave 2 launch video on the human side of onboarding. It covers designing first-time user guidance for both users who explore on their own and users who need handholding, without blocking anyone. It also covers how partners can scale onboarding to more customers with content that fits each customer's business needs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HSgTJbyi0a4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 2:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HSgTJbyi0a4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 2:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,14 +159,14 @@ It describes the design goal of serving two kinds of users. Some want to explore
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Onboarding framework | status not stated | [1:18](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=78s) |  |
-| Personalized onboarding experience | status not stated | [0:58](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=58s) |  |
-| Scalable partner onboarding | status not stated | [1:38](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=98s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Onboarding framework | status not stated | [1:18](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=78s) |
+| Scalable partner onboarding | status not stated | [1:38](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=98s) |
 
 ## Quotes
 
+- [0:00](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=0s) "it's a clip from a launch made video for 2023 release Wave 2 but it's equally relevant today"
 - [0:38](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=38s) "he's a little uncertain if he's at the right place but hopefully he will get a warm and personal welcome and he will feel"
 - [0:58](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=58s) "trying out a new product for the first time can be a bit similar you can be a little uncertain if you're at the"
 - [1:18](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=78s) "some users like to go and explore on their own right away others might need a little more handholding along the way"

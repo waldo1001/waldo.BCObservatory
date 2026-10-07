@@ -1,0 +1,25 @@
+{
+  "video_id": "XNfgf7tCeaw",
+  "item_id": "video/yt-microsoft/XNfgf7tCeaw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim. The quotes at 121.7 and 221.3 run on into the next segment, which is allowed.",
+    "Feature statuses are correctly left as unclear. The video only calls the approach 'relatively new' and gives no preview or GA status.",
+    "One key point said prospects are redirected to a 'personalized trial'. The transcript says they are redirected to the signup at dynamics.com, where the standard trial is spun up with the AppSource app the partner chose. I reworded that key point.",
+    "The summary is supported by the transcript. The clip comes from a 2023 release wave 2 launch event."
+  ],
+  "input_hash": "e191debbd78315e1eb9509f25bd88d24a5e59906820dfc39f4d7d7b8d0999f34",
+  "by": "opus",
+  "at": "2026-10-07T23:08:13.934Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054645
+  }
+}

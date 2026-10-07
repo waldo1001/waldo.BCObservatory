@@ -230,6 +230,12 @@
       "check": "exact"
     },
     {
+      "t": 398.4,
+      "text": "it will by default, if you notice, not select this because it detects that you have already consolidated these companies.",
+      "why_it_matters": "Shows how the validation actually behaves when you rerun a period that was already consolidated.",
+      "check": "exact"
+    },
+    {
       "t": 428.6,
       "text": "you can select from previous consolidations the currency exchange rates that you have used.",
       "why_it_matters": "This quote highlights the recovery feature that allows users to reuse exact exchange rates from previous runs when redoing consolidations, simplifying mistake recovery.",

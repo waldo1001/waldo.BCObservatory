@@ -6,11 +6,11 @@
   "key_points": [
     "A consolidation status list shows the history of consolidation runs, including which periods and companies were consolidated and any errors.",
     "Exchange rates can be looked up and modified while a consolidation is being run.",
-    "Validation stops users from starting a consolidation for a period that has already been consolidated.",
+    "A new last consolidation ending date field shows when each company was last consolidated.",
+    "Validation helps prevent accidentally consolidating a period again. Companies already consolidated for the period are not selected by default and a warning is shown, but you can still choose to rerun.",
     "Balance sheet consolidation requires revaluing the balance from the previous period; the last closing rate can be looked up from earlier runs to support this.",
-    "When recovering from mistakes, users can select exchange rates from a previous consolidation run and reuse all or some of them. Only rates actually used in that period are shown, and you need to know which run to pick.",
-    "Closing currency factor applies to balance sheet items and average currency factor to income statement items. The last closing factor is set automatically by the last run.",
-    "The presenter says more improvements will come over the next one or two releases."
+    "When recovering from mistakes, users can select exchange rates from a previous consolidation run and reuse all or some of them. Only rates actually used in that period are shown.",
+    "Closing currency factor applies to balance sheet items and average currency factor to income statement items. The last closing factor is set automatically by the last run."
   ],
   "audience": [
     "functional consultant",

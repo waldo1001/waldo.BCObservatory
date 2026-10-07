@@ -1,0 +1,28 @@
+{
+  "video_id": "cZCSi6khZFo",
+  "item_id": "video/yt-microsoft/cZCSi6khZFo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript says the main feature is in preview, but it was marked unclear. Set to preview using the evidence at 731.7.",
+    "The transcript names the action 'Suggest sales line', not 'Sales Line Suggestion action'. Key point corrected.",
+    "The Conclusion chapter starts at 962.8, but limitations continue until about 1000.7. Chapter boundaries cannot be edited here.",
+    "Added a quote about the cross region data transfer requirement, which the page did not cover.",
+    "All other quotes and key points match the transcript."
+  ],
+  "input_hash": "5ba81805a08a78d69e6a23e485fca9ef82f0d5393306d1df8c3c819ed36ced65",
+  "by": "opus",
+  "at": "2026-10-07T23:09:20.734Z",
+  "applied": [
+    "Sales Line Suggestion with Copilot: status preview",
+    "quote at 752s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.089665
+  }
+}

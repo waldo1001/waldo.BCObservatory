@@ -1,16 +1,16 @@
 {
   "video_id": "KbXzMR4n4h8",
   "item_id": "video/yt-microsoft/KbXzMR4n4h8",
-  "summary": "Commerce capabilities for Business Central apps on AppSource: ISVs selling add-ons through Partner Center plans, checkout, license assignment, entitlements, and CSP resale with private offers. Covers the 3 percent transaction fee and the side-by-side setup needed for existing customers.",
+  "summary": "Business Central 2024 release wave 1 session on monetizing apps through the Microsoft commercial marketplace. It covers AppSource transact for add-ons: Partner Center plans, checkout, license assignment in the admin center, entitlements and side-by-side licensing for existing customers. It also covers the new April 2024 CSP resale through private offers with margins. Only per-user pricing is available today, with a 3 percent flat transaction fee. Other pricing models are on the roadmap with no set dates.",
   "overview": "The session explains how ISVs can sell Business Central add-on apps directly through AppSource and through the CSP reseller channel. It walks through Partner Center setup: opting into Sell Through Microsoft, creating plans (country-specific, waterfall pricing, monthly or yearly billing, trials, private plans) and automatic currency conversion.\n\nIt then follows the customer side: the Buy Now button, the Plans and Pricing tab, checkout, license assignment and app installation in the Admin Center, and a combined invoice. The developer part covers entitlements (per-user offer plan, group-based, unlicensed, administrator) and why admins must still grant permissions. The closing sections cover CSP direct and indirect models, private offers, roadmap items and advice on testing before moving existing customers.",
   "key_points": [
     "Transact on AppSource applies to add-ons only, not connect apps. Each app must opt in to Sell Through Microsoft in Partner Center.",
-    "Microsoft charges a 3 percent flat transaction fee per transaction. It covers platform maintenance, Azure hosting, money collection and deposit to the ISV bank account.",
+    "Microsoft charges a 3 percent flat transaction fee per transaction. It covers platform maintenance, hosting on the Business Central platform, money collection and deposit to the ISV bank account.",
     "Country setup moves from the offer to the plan when opting into transactability. Plans support waterfall pricing, monthly or yearly billing, private plans for specific tenants, and automatic or manual currency pricing.",
     "Trials are limited to one month, need a credit card, and convert to paid unless canceled.",
     "Entitlements are required for AppSource transactability. The entitlement ID matches the plan ID and sets maximum permissions. A BC admin must still grant permissions to each user.",
     "Licenses are purchased and assigned in the Admin Center, and the app is installed separately. Customers get one combined invoice with first-party licenses.",
-    "For existing customers, set up side-by-side first and use unlicensed entitlements to avoid lockout. Practice on a test app before moving real apps."
+    "For existing customers, set up side-by-side first and use unlicensed entitlements to avoid lockout. Group and admin-role entitlements give access to developers and admins without licenses. Practice on a test app first."
   ],
   "audience": [
     "partner",

@@ -20,12 +20,12 @@ tags:
   - text similarity
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:40.242Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:40.295Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -53,6 +53,13 @@ evidence:
     commit: null
     t: 58
     quote: this is available only in the B Center online so no on Prem Solutions it is available in 2024 release way one uh roll
+  - kind: video
+    url: https://www.youtube.com/watch?v=z1H6nQCEIeY&t=88s
+    title: "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
+    date: "2024-04-04T13:30:34.000Z"
+    commit: null
+    t: 88
+    quote: it will be available in all regions globally except Canada because of some regulatory um issues
   - kind: video
     url: https://www.youtube.com/watch?v=z1H6nQCEIeY&t=109s
     title: "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
@@ -88,6 +95,13 @@ evidence:
     commit: null
     t: 558
     quote: price by default must be 100% the same there is no differences but if if you want as a user you can make a
+  - kind: video
+    url: https://www.youtube.com/watch?v=z1H6nQCEIeY&t=717s
+    title: "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
+    date: "2024-04-04T13:30:34.000Z"
+    commit: null
+    t: 717
+    quote: we actually created a demo data module in Koso demo tool and if you're using the Kronos company that comes out of the box
   - kind: video
     url: https://www.youtube.com/watch?v=z1H6nQCEIeY&t=819s
     title: "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
@@ -296,6 +310,9 @@ quotes:
   - t: 58
     text: this is available only in the B Center online so no on Prem Solutions it is available in 2024 release way one uh roll
     check: snapped
+  - t: 88
+    text: it will be available in all regions globally except Canada because of some regulatory um issues
+    check: exact
   - t: 109
     text: currently this is available uh with standard B Central license both essential premium without any additional cost
     check: exact
@@ -310,6 +327,9 @@ quotes:
     check: exact
   - t: 558
     text: price by default must be 100% the same there is no differences but if if you want as a user you can make a
+    check: exact
+  - t: 717
+    text: we actually created a demo data module in Koso demo tool and if you're using the Kronos company that comes out of the box
     check: exact
   - t: 819
     text: if that similarity is around 80% or more then we will automatically match it otherwise we will send it to co-pilot
@@ -341,7 +361,7 @@ quotes:
 
 > E-Invoice Matching with Copilot in Business Central, in public preview in the 2024 release wave 1 (rolling out from update 24.0). It covers how Copilot matches e-invoice lines to purchase order lines, the manual mapping page, cost tolerance setup, and enablement steps. Online only, English officially, not available in Canada.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=z1H6nQCEIeY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=z1H6nQCEIeY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -414,11 +434,13 @@ Not found in BC28-30: page "E-Document Manual Matching", page "role center", pag
 
 - [0:58](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=58s) "e invoice matching with co-pilot is in public preview that me this is still not General available"
 - [0:58](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=58s) "this is available only in the B Center online so no on Prem Solutions it is available in 2024 release way one uh roll"
+- [1:28](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=88s) "it will be available in all regions globally except Canada because of some regulatory um issues"
 - [1:49](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=109s) "currently this is available uh with standard B Central license both essential premium without any additional cost"
 - [2:21](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=141s) "your data are is your data uh as a customer you will control your data we will not take your data we will not"
 - [7:37](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=457s) "doing manually comparing with co-pilot it was more than 50 times slower slower than you are doing manually"
 - [8:37](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=517s) "every time if system can find similarity 80 or more per similarity description system will not ask GPT at all"
 - [9:18](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=558s) "price by default must be 100% the same there is no differences but if if you want as a user you can make a"
+- [11:57](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=717s) "we actually created a demo data module in Koso demo tool and if you're using the Kronos company that comes out of the box"
 - [13:39](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=819s) "if that similarity is around 80% or more then we will automatically match it otherwise we will send it to co-pilot"
 - [13:59](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=839s) "we also take into account the cost of each items um we also take into account the available quantity uh that need to be"
 - [14:40](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=880s) "we already picked the vendor in Voice number and we also updated the document date"

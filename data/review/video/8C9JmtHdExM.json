@@ -1,0 +1,27 @@
+{
+  "video_id": "8C9JmtHdExM",
+  "item_id": "video/yt-microsoft/8C9JmtHdExM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary, key points and features all match the transcript: two codes (10% and 20%), set on item and vendor cards (the vendor field is on the receiving FastTab), the most restrictive setting wins, and a default 10% code applies.",
+    "The quote at t=143.9 is a fragment that stops at 'if you' and leaves out the substance of the default behaviour. It is replaced with a complete span from the same segment.",
+    "The default feature description says the code is 'pre-selected for all items and vendors'. In the transcript, the default selection is made on the over receipt codes list and applies when nothing is set up on products or vendors. This is a minor wording difference.",
+    "Chapter boundaries are slightly off: the item card demo starts at 60.8 and the vendor card at 85.4 to 90.1. They cannot be edited here.",
+    "All feature statuses are 'unclear', which is correct because the transcript never says whether the feature is in preview or generally available."
+  ],
+  "input_hash": "251986027e9552361844b2fcbc164afb178a4e0ef437eeee8aa0a7a8051af46a",
+  "by": "opus",
+  "at": "2026-10-07T23:08:26.640Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 144s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047865
+  }
+}

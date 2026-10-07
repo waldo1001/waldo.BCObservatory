@@ -20,12 +20,12 @@ tags:
   - al
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:58.669Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:58.705Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -271,11 +271,6 @@ features:
     t: 1070
     verified: false
     status_source: video
-  - name: AL development as Microsoft vision for Business Central
-    status: unclear
-    t: 1090
-    verified: false
-    status_source: video
   - name: Equal contribution requirements for internal and external developers
     status: unclear
     t: 1131
@@ -341,7 +336,7 @@ quotes:
 
 > The BC apps GitHub repository for Microsoft-developed Business Central apps, and how community members contribute to it: issue templates, approval, pull request checks, AL-Go builds and tests. It covers the 240 release, where 21 of 27 community pull requests were merged.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tjHDcjwsOIE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 20:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tjHDcjwsOIE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 20:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -376,30 +371,29 @@ The video then walks through the contribution flow: creating an issue from a tem
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC apps GitHub repository | status not stated | [1:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=99s) |  |
-| Community contribution to BC 240 | status not stated | [1:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=99s) |  |
-| AL-Go for GitHub automation | status not stated | [2:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=159s) |  |
-| BC artifact version automation | status not stated | [4:21](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=261s) |  |
-| App baselines version automation | status not stated | [4:56](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=296s) |  |
-| Translation package version automation | status not stated | [4:56](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=296s) |  |
-| GitHub issue templates for contributions | status not stated, demoed | [6:17](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=377s) |  |
-| Pull request approval workflow | status not stated, demoed | [6:57](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=417s) |  |
-| Docker-based development environment setup | status not stated | [7:18](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=438s) |  |
-| Linked work items check for pull requests | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=612s) |  |
-| Microsoft internal work items tracking | status not stated, demoed | [10:49](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=649s) |  |
-| Pull request build with three compilation modes | status not stated, demoed | [11:10](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=670s) |  |
-| Preprocessor directives for clean builds | status not stated, demoed | [12:11](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=731s) |  |
-| Pull request testing phase | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=751s) |  |
-| GitHub PR debugging with file changes view | status not stated, demoed | [13:51](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=831s) |  |
-| GitHub test failure summary and stack trace | status not stated, demoed | [15:21](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=921s) |  |
-| BC apps repository contribution process | status not stated | [16:35](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=995s) |  |
-| GitHub contribution help and support | status not stated | [17:16](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1036s) |  |
-| Bug reporting in the contribution process | status not stated | [17:50](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1070s) |  |
-| AL development as Microsoft vision for Business Central | status not stated | [18:10](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1090s) |  |
-| Equal contribution requirements for internal and external developers | status not stated | [18:51](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1131s) |  |
-| Business Foundation application on GitHub | status not stated | [19:31](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1171s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC apps GitHub repository | status not stated | [1:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=99s) |
+| Community contribution to BC 240 | status not stated | [1:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=99s) |
+| AL-Go for GitHub automation | status not stated | [2:39](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=159s) |
+| BC artifact version automation | status not stated | [4:21](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=261s) |
+| App baselines version automation | status not stated | [4:56](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=296s) |
+| Translation package version automation | status not stated | [4:56](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=296s) |
+| GitHub issue templates for contributions | status not stated, demoed | [6:17](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=377s) |
+| Pull request approval workflow | status not stated, demoed | [6:57](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=417s) |
+| Docker-based development environment setup | status not stated | [7:18](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=438s) |
+| Linked work items check for pull requests | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=612s) |
+| Microsoft internal work items tracking | status not stated, demoed | [10:49](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=649s) |
+| Pull request build with three compilation modes | status not stated, demoed | [11:10](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=670s) |
+| Preprocessor directives for clean builds | status not stated, demoed | [12:11](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=731s) |
+| Pull request testing phase | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=751s) |
+| GitHub PR debugging with file changes view | status not stated, demoed | [13:51](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=831s) |
+| GitHub test failure summary and stack trace | status not stated, demoed | [15:21](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=921s) |
+| BC apps repository contribution process | status not stated | [16:35](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=995s) |
+| GitHub contribution help and support | status not stated | [17:16](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1036s) |
+| Bug reporting in the contribution process | status not stated | [17:50](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1070s) |
+| Equal contribution requirements for internal and external developers | status not stated | [18:51](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1131s) |
+| Business Foundation application on GitHub | status not stated | [19:31](https://www.youtube.com/watch?v=tjHDcjwsOIE&t=1171s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,31 @@
+{
+  "video_id": "mHrY_OI0qNo",
+  "item_id": "video/yt-microsoft/mHrY_OI0qNo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Copilot availability and deployment' was marked GA, but the transcript says it is 'available in preview in English language only'. Its quoted evidence only names the release and the version number, so it does not support GA. Changed to preview.",
+    "Five sub-features (Analyze List Action, Draft Tab Management, Semantic Understanding for Filters, Prompt Guide, Grouping and Pivoting) used the 6-word fragment 'the public preview of analysis assist' as evidence. That is under 8 words, and the evidence_t did not match where the fragment starts. Replaced it with the 901.4 quote about preview.",
+    "The Analysis Assist evidence crosses the boundary from segment 139.1 into 159.5, which is acceptable.",
+    "All quotes are verbatim and the summary and key points are supported."
+  ],
+  "input_hash": "752332dab7e1856f3c9919f8c1785868991b646e98c537934f0d5e3db0e6e949",
+  "by": "opus",
+  "at": "2026-10-07T23:08:44.703Z",
+  "applied": [
+    "Analysis Assist: status preview",
+    "Analyze List Action: status preview",
+    "Draft Tab Management: status preview",
+    "Semantic Understanding for Filters: status preview",
+    "Prompt Guide: status preview",
+    "Grouping and Pivoting: status preview",
+    "Copilot availability and deployment: status preview"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.129685
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "video_id": "tzeO0mc8RJo",
+  "item_id": "video/yt-microsoft/tzeO0mc8RJo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two quotes shared t 1626.3, and one was a substring of the other. Dropped both and re-added the 'we changed the validation...' span once.",
+    "Page scripting evidence starts in segment 2051.4, not 2031.2. Set evidence_t to 2051.4.",
+    "Object extensions can be marked GA: the transcript says the feature is enabled by default on runtime 13, the current release, and that 'all of that is shipping now'.",
+    "The debugger key point said 'secret text' but the speaker says 'secure text' in the debugging context. Corrected.",
+    "The AL tool GA evidence is a verbatim span of segment 483.8 and is kept.",
+    "The other facts and the summary are supported by the transcript."
+  ],
+  "input_hash": "c91fe644755c5e0b375bfa031297df63e17cc1aef747020008fb78d61b07cfcf",
+  "by": "opus",
+  "at": "2026-10-07T23:08:47.126Z",
+  "applied": [
+    "Page scripting tool: status preview",
+    "AL tool: status ga",
+    "dropped 2 quote(s)",
+    "quote at 1626s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Object extensions in same application -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.178681
+  }
+}

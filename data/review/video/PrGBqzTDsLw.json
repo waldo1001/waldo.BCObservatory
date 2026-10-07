@@ -1,0 +1,28 @@
+{
+  "video_id": "PrGBqzTDsLw",
+  "item_id": "video/yt-microsoft/PrGBqzTDsLw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim; the ones at 688.8 and 715 run into the next caption segment, which is acceptable.",
+    "Every feature status is unclear. The video is a 2023 release wave 2 clip that says 'in this release' but never states preview or GA, so unclear is correct.",
+    "The page was missing implementation details the transcript gives: the open assisted setup function in the guide experience item, and the AboutTitle/AboutText properties for teaching tips in AL. Added quotes and key point text for both.",
+    "Minor: 'Report request page teaching tips' t_start is 475.6, but the teaching tip appears at 498.7. The sample app description says 'Microsoft provides', which the transcript does not state explicitly.",
+    "Systems tags (crm, sales, development) are a loose fit but harmless."
+  ],
+  "input_hash": "271d478800b8fb156d6844a0b0a9a4f718b3e6175b4172a6bbeed3159784e5c5",
+  "by": "opus",
+  "at": "2026-10-07T23:08:21.271Z",
+  "applied": [
+    "quote at 798s",
+    "quote at 880s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12345700000000001
+  }
+}

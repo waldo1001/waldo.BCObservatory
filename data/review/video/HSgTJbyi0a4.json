@@ -1,0 +1,30 @@
+{
+  "video_id": "HSgTJbyi0a4",
+  "item_id": "video/yt-microsoft/HSgTJbyi0a4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says 'April 2024', which the transcript does not support. The transcript says this is a clip from a 2023 release wave 2 launch video.",
+    "'Personalized onboarding experience' is not a named feature in the transcript. It repeats the onboarding framework design goals, so I dropped it.",
+    "All four quotes are verbatim and start in the right segments.",
+    "Feature statuses stay unclear because no release status is given for any feature.",
+    "Added a quote giving where the clip comes from (2023 release wave 2)."
+  ],
+  "input_hash": "615bd6c5b05a20efc59c28cb23b1e8c42e6833beabaf52101d55ba0d3cebad89",
+  "by": "opus",
+  "at": "2026-10-07T23:08:12.075Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Onboarding framework: status unclear",
+    "Scalable partner onboarding: status unclear",
+    "quote at 1s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041329000000000005
+  }
+}

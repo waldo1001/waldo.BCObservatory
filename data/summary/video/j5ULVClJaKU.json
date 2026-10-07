@@ -9,7 +9,7 @@
     "Record finding works by looking up the relevant page and building a filter. Naming the record type explicitly gives better results. Follow-up questions refine earlier results.",
     "Documentation search is limited to Business Central docs. If the answer is not there, Copilot says so instead of making one up. It cannot answer about custom fields or company-specific processes.",
     "Chat cannot be extended, modified or overridden in preview. It can still find records in custom objects, tables and list pages without extra partner work.",
-    "Chat respects user permission sets, and customer data is not used to train foundation models. Some regions need admin consent for Azure OpenAI in another geography, and the Copilot capabilities page in the admin center shows whether chat is active.",
+    "Chat respects user permission sets, and customer data is not used to train foundation models. Some environments need admin consent for Azure OpenAI in another region. The Copilot capabilities page for admins shows whether chat is available and active.",
     "Chat and Copilot come with Business Central licenses at no additional cost and with no minimum seats. For demos, partners can spin up a tenant with CDX (aka.ms/CDX)."
   ],
   "audience": [

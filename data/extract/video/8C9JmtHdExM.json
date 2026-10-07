@@ -184,9 +184,9 @@
     },
     {
       "t": 143.9,
-      "text": "notice the default selection of the over receipt 10 code this means that if you",
-      "why_it_matters": "Reveals the default behavior out of the box, important for understanding the baseline tolerance without configuration.",
-      "check": "fuzzy"
+      "text": "you haven't set anything up on products or vendors, you will always be able to over receive 10%.",
+      "why_it_matters": "States the default behaviour: with no codes configured, a 10% over receipt is still allowed.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

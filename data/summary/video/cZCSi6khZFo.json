@@ -4,13 +4,13 @@
   "summary": "Sales line suggestions with Copilot in Business Central (2024 release wave 1): an action on sales quotes, orders and invoices that turns natural language prompts, document references or pasted emails into item lines. Covers demos, searched fields, language and region limits, and constraints.",
   "overview": "The video introduces a Copilot action on sales orders, sales quotes and sales invoices. Users type a request in natural language, either listing items with quantities or pointing to an existing document to copy lines from. Prompt guides help with wording. Demos cover copying from an existing document, finding a document by partial reference, searching items by description with confidence information and matching criteria, and pasting an email so Copilot extracts the items to buy.\n\nThe video also explains which fields and tables are searched, data protection and responsible AI, and availability. It is offered in Business Central online at no additional cost beyond the license. It is in English only, is not available in Canada because of the bilingual release requirement, and has several functional limits.",
   "key_points": [
-    "The Sales Line Suggestion action is on sales order, sales quote and sales invoice documents and opens a prompt dialog for natural language requests.",
+    "The Suggest sales line action is on sales order, sales quote and sales invoice documents and opens a prompt dialog for natural language requests.",
     "Two input styles: list items with quantities, or refer to an existing document (partial number or external reference) to copy lines from. Document search covers sales quotes, orders, posted shipments and posted invoices.",
     "Item search looks across descriptions, names, categories, attributes, translations, variants and extended text. Marketing text and attachments are not searched.",
     "Suggestions come with confidence information, and users can pick permissive, balance or precise matching.",
     "Pasted email content is parsed to separate items being praised from items to purchase.",
     "Limits: only item-type lines, only item number and quantity are filled, product and document search cannot be combined in one prompt, and relative criteria such as best selling are not supported.",
-    "English variants only (Australian, New Zealand, British English tested); not available in Canada; other languages may work but are not guaranteed. Result quality depends on product data quality."
+    "Preview in English variants only (Australian, New Zealand, British English); not available in Canada; other languages may work but are not guaranteed. Result quality depends on product data quality."
   ],
   "audience": [
     "functional consultant",

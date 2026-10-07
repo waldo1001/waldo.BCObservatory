@@ -1,0 +1,26 @@
+{
+  "video_id": "KQRT25igPTk",
+  "item_id": "video/yt-microsoft/KQRT25igPTk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six kept quotes match the transcript. Some run on into the next segment (t=41.3, 112.6, 133), which is acceptable.",
+    "The summary and key points are supported by the transcript.",
+    "All features are correctly marked unclear: the transcript gives guidelines and never states a release status.",
+    "Chapter and feature timing is slightly off. Go-live content starts at t=185.4, not 173; the 173 segment is about using a good mix of content.",
+    "Added a quote on making the go-live checklist role oriented, since no current quote covers go-live."
+  ],
+  "input_hash": "2d15e718534307c58612d0afae378e1ba9043f7b668b6e74db59efbcf61a4a52",
+  "by": "opus",
+  "at": "2026-10-07T23:08:08.436Z",
+  "applied": [
+    "quote at 204s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045716999999999994
+  }
+}

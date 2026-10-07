@@ -1,0 +1,27 @@
+{
+  "video_id": "qP0id91bIlA",
+  "item_id": "video/yt-microsoft/qP0id91bIlA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 20 quotes check out as verbatim spans. Some cross segment boundaries, which is acceptable.",
+    "The feature 'AI line matching and generation' conflates the two demos: the e-document demo matches purchase order lines, not sales lines. It also duplicates other features, so it is dropped.",
+    "The last key point lumped the lack of chat partner extensibility in with the Copilot and AI capabilities page. It is split into separate points.",
+    "All feature statuses stay unclear. Version 24 (2024 wave 1) is mentioned only in general terms, not as a status for any specific feature.",
+    "The summary is accurate and is kept."
+  ],
+  "input_hash": "78308d813e0a9f5222ff8b0f1dd9508f671de19c02516d862d57f42e9d4d3d2a",
+  "by": "opus",
+  "at": "2026-10-07T23:09:05.651Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.163753
+  }
+}

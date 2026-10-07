@@ -17,12 +17,12 @@ tags:
   - customization guidelines
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:08.436Z"
   flags: []
 generated:
-  at: "2026-10-06T19:36:22.575Z"
+  at: "2026-10-07T23:08:08.474Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     commit: null
     t: 133
     quote: start with a smaller task first that gives them an understanding of business Central as well as a feeling of success and progression in
+  - kind: video
+    url: https://www.youtube.com/watch?v=KQRT25igPTk&t=204s
+    title: Guidelines for Using the Welcome Banner
+    date: "2024-04-18T14:10:58.000Z"
+    commit: null
+    t: 204
+    quote: it's really important that you consider the user's role and make the che checklist role oriented
   - kind: video
     url: https://www.youtube.com/watch?v=KQRT25igPTk&t=239s
     title: Guidelines for Using the Welcome Banner
@@ -149,6 +156,9 @@ quotes:
   - t: 133
     text: start with a smaller task first that gives them an understanding of business Central as well as a feeling of success and progression in
     check: exact
+  - t: 204
+    text: it's really important that you consider the user's role and make the che checklist role oriented
+    check: exact
   - t: 239
     text: the checklist is designed for five six maybe seven and if you have more than that you can wrap those up in an assisted
     check: snapped
@@ -158,7 +168,7 @@ quotes:
 
 > Guidelines for designing the Business Central welcome banner and its user checklists: banner wording, checklist structure, differences between evaluation and go-live checklists, and when to move extra items to assisted setup. Useful for partners customizing onboarding.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KQRT25igPTk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KQRT25igPTk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,13 +198,13 @@ It then covers how to shape checklists for two situations. Evaluation and trial 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Welcome banner | status not stated | [0:20](https://www.youtube.com/watch?v=KQRT25igPTk&t=20s) |  |
-| User checklist | status not stated | [0:52](https://www.youtube.com/watch?v=KQRT25igPTk&t=52s) |  |
-| Evaluation and trial checklist | status not stated | [1:32](https://www.youtube.com/watch?v=KQRT25igPTk&t=92s) |  |
-| Go-live checklist | status not stated | [2:53](https://www.youtube.com/watch?v=KQRT25igPTk&t=173s) |  |
-| Assisted setup | status not stated | [3:39](https://www.youtube.com/watch?v=KQRT25igPTk&t=219s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Welcome banner | status not stated | [0:20](https://www.youtube.com/watch?v=KQRT25igPTk&t=20s) |
+| User checklist | status not stated | [0:52](https://www.youtube.com/watch?v=KQRT25igPTk&t=52s) |
+| Evaluation and trial checklist | status not stated | [1:32](https://www.youtube.com/watch?v=KQRT25igPTk&t=92s) |
+| Go-live checklist | status not stated | [2:53](https://www.youtube.com/watch?v=KQRT25igPTk&t=173s) |
+| Assisted setup | status not stated | [3:39](https://www.youtube.com/watch?v=KQRT25igPTk&t=219s) |
 
 ## Quotes
 
@@ -203,6 +213,7 @@ It then covers how to shape checklists for two situations. Evaluation and trial 
 - [1:12](https://www.youtube.com/watch?v=KQRT25igPTk&t=72s) "the checklist is really the main onboarding piece that allows you to surface the different onboarding components and orchestrate what the customer goes through"
 - [1:52](https://www.youtube.com/watch?v=KQRT25igPTk&t=112s) "the customer's patience and maybe even time is really short that's why we also have the little minute indicator on every task"
 - [2:13](https://www.youtube.com/watch?v=KQRT25igPTk&t=133s) "start with a smaller task first that gives them an understanding of business Central as well as a feeling of success and progression in"
+- [3:24](https://www.youtube.com/watch?v=KQRT25igPTk&t=204s) "it's really important that you consider the user's role and make the che checklist role oriented"
 - [3:59](https://www.youtube.com/watch?v=KQRT25igPTk&t=239s) "the checklist is designed for five six maybe seven and if you have more than that you can wrap those up in an assisted"
 
 Presenters (as heard): Sarah.

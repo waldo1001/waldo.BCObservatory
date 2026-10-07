@@ -6,10 +6,10 @@
   "key_points": [
     "Questionnaire answers are stored in a system table in Business Central, and can be used before the user signs in.",
     "Different AppSource apps and solutions can be loaded during trial setup based on the combination of answers.",
-    "A customer role center can be loaded, attached to a role and set for the current user before sign-in, and the welcome banner text can be changed.",
+    "A customer role center can be loaded, attached to a role and set for the current user before sign-in, and the welcome banner text can be changed, by subscribing to the relevant events shown in the sample app.",
     "Checklist tasks lead the first experience with videos, setup steps and calls to action. The presenter says the sample checklist is an example for inspiration, not a template to copy as is.",
-    "The assisted setup list can be filtered to a custom category so customers see only setup steps relevant to the solution.",
-    "Teaching tips support markdown (bold, italics) and links. They can be added to report request pages and to query objects opened in analysis mode.",
+    "The assisted setup list can be filtered to a custom category by calling the open assisted setup function in the guide experience item, so customers see only setup steps relevant to the solution.",
+    "Teaching tips support markdown (bold, italics) and links, are set with the about title and about text properties in AL, and can be added to report request pages and to query objects opened in analysis mode.",
     "Reports can ship with Excel layouts that refresh data and graphs on print. A sample onboarding app on GitHub can be forked, and more is at aka.ms/bconboarding."
   ],
   "audience": [

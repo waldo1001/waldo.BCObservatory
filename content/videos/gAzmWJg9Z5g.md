@@ -18,12 +18,12 @@ tags:
   - al development
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:08.180Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:08.214Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,7 +194,7 @@ quotes:
 
 > Walkthrough of the new Business Central integration documentation and its landing page (aka.ms/bc-integration). It covers Microsoft 365 apps, Power Platform, Dynamics products and Dataverse, Azure services, Microsoft Entra, infrastructure services and web services, with REST APIs as the recommended web service method.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gAzmWJg9Z5g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 11:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gAzmWJg9Z5g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 11:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -225,17 +225,17 @@ The walkthrough goes through Microsoft 365 and Office apps, Power Platform, Dyna
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Integration Overview Documentation | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=31s) |  |
-| New Integration Landing Page (aka.ms/bc-integration) | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=183s) |  |
-| Microsoft 365 and Office Apps Integration Documentation | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=242s) |  |
-| Power Platform Integration Documentation | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=277s) |  |
-| Dynamics Products and Dataverse Integration Documentation | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=310s) |  |
-| Azure Services Integration Support | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=349s) |  |
-| Microsoft Entra and Infrastructure Services Documentation | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=390s) |  |
-| Network Access Restriction with Security Service Tags | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=424s) |  |
-| Web Services Documentation Update | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=445s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Integration Overview Documentation | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=31s) |
+| New Integration Landing Page (aka.ms/bc-integration) | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=183s) |
+| Microsoft 365 and Office Apps Integration Documentation | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=242s) |
+| Power Platform Integration Documentation | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=277s) |
+| Dynamics Products and Dataverse Integration Documentation | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=310s) |
+| Azure Services Integration Support | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=349s) |
+| Microsoft Entra and Infrastructure Services Documentation | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=390s) |
+| Network Access Restriction with Security Service Tags | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=424s) |
+| Web Services Documentation Update | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=445s) |
 
 ## AL objects mentioned
 

@@ -73,42 +73,6 @@
         "consulting"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Business Central latest versions training",
-      "description": "Participants in the Reskilling Program are trained on the latest versions of Business Central and can share tips and tricks with colleagues.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 112.2,
-      "t_end": 132.3,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "knowledge transfer",
-        "version updates"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Fast bilability in 12 weeks",
-      "description": "Reskilled consultants and developers become billable after 12 weeks of training in the program.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 112.2,
-      "t_end": 132.3,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "productivity",
-        "time-to-value",
-        "training duration"
-      ],
-      "system": "administration"
     }
   ],
   "objects": [],
@@ -141,6 +105,12 @@
       "t": 92.1,
       "text": "we have hired uh 10 people in less than 3 months seven consultants and three developers",
       "why_it_matters": "Quantifies the rapid hiring success Navitrans achieved through the Reskilling Program.",
+      "check": "exact"
+    },
+    {
+      "t": 92.1,
+      "text": "the benefit of uh the res skill program is that we have only one single point of contact for all the countries",
+      "why_it_matters": "This is the operational benefit of hiring in several countries through one program contact.",
       "check": "exact"
     },
     {

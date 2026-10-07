@@ -19,12 +19,12 @@ tags:
   - word layouts
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:23.298Z"
   flags: []
 generated:
-  at: "2026-10-06T19:42:50.185Z"
+  at: "2026-10-07T23:09:23.341Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,6 +80,13 @@ evidence:
     commit: null
     t: 481
     quote: security is not only for the admin it's also for you as developer you need to think security into your app
+  - kind: video
+    url: https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=591s
+    title: "What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)"
+    date: "2024-04-04T13:30:30.000Z"
+    commit: null
+    t: 591
+    quote: the way to get started is simply to search in in docs for contribute
 links:
   learn: []
   objects: []
@@ -198,13 +205,16 @@ quotes:
   - t: 481
     text: security is not only for the admin it's also for you as developer you need to think security into your app
     check: exact
+  - t: 591
+    text: the way to get started is simply to search in in docs for contribute
+    check: exact
 ---
 
 # What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)
 
 > Business Central developer documentation updates for 2024 release wave 1, reached through aka.ms/BC developer. New or reworked sections cover data analytics, reporting and word layouts, error handling, troubleshooting, background processing, telemetry, security, extensibility, and contributing to docs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mnxOSl1Y9PI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mnxOSl1Y9PI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -214,13 +224,13 @@ Reporting and word layouts were reworked, including guidance on designing datase
 
 ## Key points
 
-- aka.ms/BC developer is the entry link to the central developer documentation, with getting started and AL programming sections.
-- A new data analytics section explains the analytics artifacts available to developers: queries, data analysis on lists, Power BI reports, and Excel layouts.
-- Reporting documentation was rewritten, and word layouts have new documentation covering dataset design, layout design, and the move from RDL for document reports.
-- A new error handling section covers failure modeling, robust coding, error dialogs and stack traces, actionable errors, and meaningful error messages.
-- A troubleshooting overview lists the available tools and links to troubleshooting guides (TSGs) in many areas.
-- Background processing overview covers session pages, background tasks, task scheduler, and job queue to improve perceived performance.
-- Telemetry docs add content on telemetry scope and visibility, and on the feature telemetry module in the system application.
+- aka.ms/BC developer is the entry link to the central developer documentation, with getting started, programming in AL, and AL programming language sections.
+- A new data analytics section explains the analytics artifacts available to developers (queries, data analysis on lists or queries, Power BI reports, Excel layout reports) and when to use each.
+- Reporting documentation got a major rewrite, and a new word layouts article covers dataset design, layout design, and moving from RDL to Word layouts for document reports.
+- A new error handling section covers reasoning about errors, failure modeling, robust coding, error dialogs and stack traces, actionable errors, and meaningful error messages.
+- A troubleshooting overview lists the available troubleshooting tools and new troubleshooting guides (TSGs) in many areas.
+- A new overview on running things in the background covers new sessions, page background tasks, task scheduler, and job queue, and how they differ, to improve perceived performance.
+- Telemetry docs for AL developers add content on telemetry scope and on the feature telemetry module in the system application.
 
 ## Chapters
 
@@ -236,19 +246,19 @@ Reporting and word layouts were reworked, including guidance on designing datase
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| New Developer Documentation Overview | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=16s) |  |
-| Data Analytics for Developers | status not stated | [2:27](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=147s) |  |
-| Reporting Documentation Overhaul | status not stated | [3:21](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=201s) |  |
-| Word Layouts Documentation | status not stated | [4:04](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=244s) |  |
-| Error Handling Documentation | status not stated | [4:58](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=298s) |  |
-| Troubleshooting Guides and Tools | status not stated | [5:55](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=355s) |  |
-| Background Processing Documentation | status not stated | [6:37](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=397s) |  |
-| Telemetry for AL Developers | status not stated | [7:20](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=440s) |  |
-| Security for Developers | status not stated | [8:01](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=481s) |  |
-| Extensibility Overview Documentation | status not stated | [8:34](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=514s) |  |
-| Documentation Contribution Process | status not stated | [9:31](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=571s) |  |
+| Feature | Status | At |
+|---|---|---|
+| New Developer Documentation Overview | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=16s) |
+| Data Analytics for Developers | status not stated | [2:27](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=147s) |
+| Reporting Documentation Overhaul | status not stated | [3:21](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=201s) |
+| Word Layouts Documentation | status not stated | [4:04](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=244s) |
+| Error Handling Documentation | status not stated | [4:58](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=298s) |
+| Troubleshooting Guides and Tools | status not stated | [5:55](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=355s) |
+| Background Processing Documentation | status not stated | [6:37](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=397s) |
+| Telemetry for AL Developers | status not stated | [7:20](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=440s) |
+| Security for Developers | status not stated | [8:01](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=481s) |
+| Extensibility Overview Documentation | status not stated | [8:34](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=514s) |
+| Documentation Contribution Process | status not stated | [9:31](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=571s) |
 
 ## Quotes
 
@@ -259,3 +269,4 @@ Reporting and word layouts were reworked, including guidance on designing datase
 - [4:58](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=298s) "for stability is error handling and uh for error handling we also added a new section"
 - [7:20](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=440s) "Telemetry is not only for people in the basement is also a tool for you as a developer"
 - [8:01](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=481s) "security is not only for the admin it's also for you as developer you need to think security into your app"
+- [9:51](https://www.youtube.com/watch?v=mnxOSl1Y9PI&t=591s) "the way to get started is simply to search in in docs for contribute"

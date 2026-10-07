@@ -794,15 +794,9 @@
     },
     {
       "t": 1626.3,
-      "text": "we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version",
-      "why_it_matters": "Explains validation change for hot fixes with compliance benefits.",
-      "check": "exact"
-    },
-    {
-      "t": 1626.3,
       "text": "we changed the validation so that we now do validate against the latest appsource app version",
-      "why_it_matters": "Demonstrates a key improvement to hot fix validation that benefits partners by allowing validation against the latest version rather than just the first version of the next release.",
-      "check": "fuzzy"
+      "why_it_matters": "States the hotfix validation change for AppSource apps.",
+      "check": "exact"
     },
     {
       "t": 1647.1,

@@ -1,0 +1,29 @@
+{
+  "video_id": "n4qog_IpKqw",
+  "item_id": "video/yt-microsoft/n4qog_IpKqw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript never says 'Microsoft'. It only calls it the reskilling (or 'rescale'/'res skill') program, so I removed 'Microsoft' from the summary and key points. The feature name still includes it.",
+    "'Business Central latest versions training' and 'Fast bilability in 12 weeks' are benefits of the program, not Business Central features, so I dropped both.",
+    "The tags (integration, administration, development) fit this customer story poorly, but they are not editable here.",
+    "The page left out the single point of contact across four countries (Belgium, the Netherlands, Denmark, Lithuania), so I added it as a key point and a quote.",
+    "All 6 existing quotes match the transcript word for word."
+  ],
+  "input_hash": "dfdc3efb2c23a82a4d0e3f1e7bf390a0e33479d9ee7831922390c5c081d8c9af",
+  "by": "opus",
+  "at": "2026-10-07T23:08:44.413Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "quote at 92s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054985000000000006
+  }
+}

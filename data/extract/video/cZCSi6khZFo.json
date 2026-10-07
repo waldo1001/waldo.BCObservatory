@@ -75,10 +75,10 @@
     {
       "name": "Sales Line Suggestion with Copilot",
       "description": "An AI-powered feature that helps users create sales documents by suggesting sales lines based on natural language input. Users can either list items with quantities or refer to existing documents to copy lines from.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 731.7,
+      "status_evidence_quote": "sales line suggestion capability in the preview section together with the other features which are available",
+      "status_evidence_verified": true,
       "t_start": 97.6,
       "t_end": 535.1,
       "is_demoed": true,
@@ -283,6 +283,12 @@
       "text": "is at no additional cost if you have a business center license you can use co pilot capabilities in the product",
       "why_it_matters": "Clarifies pricing model - no additional cost beyond standard license for this copilot feature",
       "check": "fuzzy"
+    },
+    {
+      "t": 751.8,
+      "text": "in this case your administrator needs to activate the cross region data transfer then your business Central can",
+      "why_it_matters": "Gives the setup step needed when Business Central and Azure OpenAI are in different regions.",
+      "check": "exact"
     },
     {
       "t": 770.9,

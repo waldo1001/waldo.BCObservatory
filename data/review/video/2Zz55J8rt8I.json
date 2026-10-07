@@ -1,0 +1,25 @@
+{
+  "video_id": "2Zz55J8rt8I",
+  "item_id": "video/yt-microsoft/2Zz55J8rt8I",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five kept quotes are verbatim; the 'be brief' quote crosses from segment 20.8 into 41.2, which is acceptable.",
+    "Summary and key points are supported by the transcript.",
+    "Feature statuses correctly left unclear; the transcript never says preview or GA, only that the clip is from the 2023 release wave 2 launch video.",
+    "Added a quote backing the 'three most important things' guidance, which the summary and key points mention but no quote covered."
+  ],
+  "input_hash": "c7fede46e7f260ee5f8f47185be6b4128bba0dfa3dbd0e028b3f5428a1f6dfa7",
+  "by": "opus",
+  "at": "2026-10-07T23:08:00.307Z",
+  "applied": [
+    "quote at 115s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039777
+  }
+}

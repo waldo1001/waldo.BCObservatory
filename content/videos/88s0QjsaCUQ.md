@@ -17,18 +17,25 @@ tags:
   - country code validation
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:11.860Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:11.893Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 6ab718c4bc171d1cee272441a5cb778462e4b065b361a1c535ecccd8eb9e34ac
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=88s0QjsaCUQ&t=0s
+    title: Understanding the Sign Up Context and Using it for Profiling Customers
+    date: "2024-04-18T14:07:14.000Z"
+    commit: null
+    t: 0
+    quote: it's a clip from a launch M video for 2023 release Wave 1 but it's equally relevant today
   - kind: video
     url: https://www.youtube.com/watch?v=88s0QjsaCUQ&t=20s
     title: Understanding the Sign Up Context and Using it for Profiling Customers
@@ -157,6 +164,9 @@ features:
 objects_mentioned:
   - table system table
 quotes:
+  - t: 0
+    text: it's a clip from a launch M video for 2023 release Wave 1 but it's equally relevant today
+    check: exact
   - t: 20
     text: this is just a regular form you would build you have full control over your website you can do questions of of different sorts
     check: exact
@@ -184,7 +194,7 @@ quotes:
 
 > Business Central sign up context: a URI-encoded parameter in the sign up redirect URL that carries the sign up origin and custom JSON key-value pairs from a website profiler. It covers app ID, country code and EULA requirements for app provisioning, and how apps read the stored context.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=88s0QjsaCUQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 7:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=88s0QjsaCUQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 7:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -194,13 +204,13 @@ The context is stored in a system table in Business Central. Apps can read it on
 
 ## Key points
 
-- The sign up context is a parameter in the redirect URL and must be URI encoded.
-- It currently supports two scenarios: Microsoft website (viral) and Shopify.
-- You define the JSON key-value pairs yourself, based on what your website profiler form collects.
-- The context is stored in a system table; the app must implement logic to read it at install and copy data to base application tables.
+- The sign up context is a parameter in the redirect URL. It is URI encoded, so it ends up double encoded inside the redirect URL.
+- Microsoft uses it today for only two scenarios: sign ups from the Microsoft website (viral) and from Shopify.
+- You define the JSON key-value pairs yourself, based on what your website profiler form collects. An app-based onboarding needs certain required keys.
+- The context is stored in a system table. Your app must read it at install and transfer the data to a base application table.
 - To provision an app, include its app ID (public, from the store listing) in the context.
-- The country code must match the customer's Azure AD tenant and be among the app's supported countries, or the app is not provisioned.
-- The context must include the EULA acceptance flag set to true, or the API will not load the app.
+- When an app ID is used, the country code must match the customer's tenant country and one of the app's supported countries.
+- The context must include the EULA acceptance flag set to true. Otherwise the platform APIs will not load the app.
 
 ## Chapters
 
@@ -214,16 +224,16 @@ The context is stored in a system table in Business Central. Apps can read it on
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sign Up Context Parameter | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=137s) |  |
-| Profiler Form on Website | status not stated | [0:20](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=20s) |  |
-| Sign Up Context JSON Key-Value Pairs | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=213s) |  |
-| Sign Up Context Storage in System Table | status not stated | [4:45](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=285s) |  |
-| App ID in Sign Up Context | status not stated, demoed | [5:05](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=305s) |  |
-| Country Code Validation in Sign Up Context | status not stated | [5:25](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=325s) |  |
-| End User License Agreement Acceptance Flag | status not stated | [5:45](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=345s) |  |
-| Checklist Customization Based on Sign Up Context | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=385s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sign Up Context Parameter | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=137s) |
+| Profiler Form on Website | status not stated | [0:20](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=20s) |
+| Sign Up Context JSON Key-Value Pairs | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=213s) |
+| Sign Up Context Storage in System Table | status not stated | [4:45](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=285s) |
+| App ID in Sign Up Context | status not stated, demoed | [5:05](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=305s) |
+| Country Code Validation in Sign Up Context | status not stated | [5:25](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=325s) |
+| End User License Agreement Acceptance Flag | status not stated | [5:45](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=345s) |
+| Checklist Customization Based on Sign Up Context | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=385s) |
 
 ## AL objects mentioned
 
@@ -235,6 +245,7 @@ Not found in BC28-30: table "system table".
 
 ## Quotes
 
+- [0:00](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=0s) "it's a clip from a launch M video for 2023 release Wave 1 but it's equally relevant today"
 - [0:20](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=20s) "this is just a regular form you would build you have full control over your website you can do questions of of different sorts"
 - [2:17](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=137s) "that's a new parameter that we're actually using today uh to determine whether or not a sign up happened from the Microsoft website in"
 - [3:33](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=213s) "it's a text string in form of a Json key value pair what's key here is that you can determine those key value pairs"

@@ -13,12 +13,12 @@ tags:
   - data integrity
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:22.985Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:23.028Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -39,6 +39,13 @@ evidence:
     commit: null
     t: 30
     quote: if I want guidance in real time there's another option I can use that's a journal check
+  - kind: video
+    url: https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s
+    title: Ensure Consistency in Journals With Journal Check
+    date: "2024-04-17T12:40:07.000Z"
+    commit: null
+    t: 30
+    quote: use the normal preview posting or the test report actions to see if the data consistency of my journal is okay
   - kind: video
     url: https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s
     title: Ensure Consistency in Journals With Journal Check
@@ -110,6 +117,9 @@ quotes:
   - t: 30
     text: if I want guidance in real time there's another option I can use that's a journal check
     check: exact
+  - t: 30
+    text: use the normal preview posting or the test report actions to see if the data consistency of my journal is okay
+    check: exact
   - t: 62
     text: a new fact box is now visible on the right side of the page called Journal check here it shows that there's an issue
     check: exact
@@ -122,7 +132,7 @@ quotes:
 
 > Journal Check in Business Central finance: a setting in General Ledger Setup that adds a Journal Check fact box to journal pages, showing consistency issues in real time, in total and for the selected line. Demoed on the General Journals page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kuKwjRyNcoE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 1:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kuKwjRyNcoE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 1:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,9 +145,8 @@ Once enabled, a Journal Check fact box appears on the right side of journal page
 - Enable the feature with the Enable Data Check setting in General Ledger Setup.
 - After enabling, a Journal Check fact box appears on the right side of journal pages such as General Journals.
 - The fact box shows the total number of issues in the journal.
-- Selecting a line shows issues specific to that line.
-- Validation runs in real time as you type, as an option alongside other ways of checking a journal.
-- The video is about 2 minutes long and was published 2024-04-17.
+- Selecting a line shows issues specific to that line, for example a missing amount.
+- Journal Check gives real-time guidance as you type, as an alternative to the preview posting or test report actions.
 
 ## Chapters
 
@@ -148,11 +157,11 @@ Once enabled, a Journal Check fact box appears on the right side of journal page
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Journal Check | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) |  |
-| Enable Data Check Setting | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=52s) |  |
-| Journal Check Fact Box | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Journal Check | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) |
+| Enable Data Check Setting | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=52s) |
+| Journal Check Fact Box | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) |
 
 ## AL objects mentioned
 
@@ -168,5 +177,6 @@ Not found in BC28-30: page "General Journals", table "General Journal Line".
 
 - [0:00](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=0s) "ensure consistency in journals with realtime Journal check in business Central"
 - [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) "if I want guidance in real time there's another option I can use that's a journal check"
+- [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) "use the normal preview posting or the test report actions to see if the data consistency of my journal is okay"
 - [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) "a new fact box is now visible on the right side of the page called Journal check here it shows that there's an issue"
 - [1:17](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=77s) "it also shows Once you have focused on a specific line if there is any issue with that line"

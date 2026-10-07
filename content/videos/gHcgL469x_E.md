@@ -15,12 +15,12 @@ tags:
   - currency factors
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:02.505Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:02.548Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 323
     quote: when you're doing consolidation on balance sheet items, you need to revalue the balance from the previous period.
+  - kind: video
+    url: https://www.youtube.com/watch?v=gHcgL469x_E&t=398s
+    title: "What's New: Financial Management - Consolidation Improvements (2024 release wave 1)"
+    date: "2024-04-04T13:30:30.000Z"
+    commit: null
+    t: 398
+    quote: it will by default, if you notice, not select this because it detects that you have already consolidated these companies.
   - kind: video
     url: https://www.youtube.com/watch?v=gHcgL469x_E&t=428s
     title: "What's New: Financial Management - Consolidation Improvements (2024 release wave 1)"
@@ -154,6 +161,9 @@ quotes:
   - t: 323
     text: when you're doing consolidation on balance sheet items, you need to revalue the balance from the previous period.
     check: exact
+  - t: 398
+    text: it will by default, if you notice, not select this because it detects that you have already consolidated these companies.
+    check: exact
   - t: 428
     text: you can select from previous consolidations the currency exchange rates that you have used.
     check: exact
@@ -166,7 +176,7 @@ quotes:
 
 > Consolidation improvements in Business Central 2024 release wave 1: a consolidation status list, exchange rate lookup and editing during a run, validation against re-consolidating a period, and reuse of rates from earlier runs to recover from mistakes and revalue balance sheet items.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gHcgL469x_E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 9:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gHcgL469x_E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 9:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,11 +188,11 @@ It then covers a recovery scenario. Balance sheet items need the previous period
 
 - A consolidation status list shows the history of consolidation runs, including which periods and companies were consolidated and any errors.
 - Exchange rates can be looked up and modified while a consolidation is being run.
-- Validation stops users from starting a consolidation for a period that has already been consolidated.
+- A new last consolidation ending date field shows when each company was last consolidated.
+- Validation helps prevent accidentally consolidating a period again. Companies already consolidated for the period are not selected by default and a warning is shown, but you can still choose to rerun.
 - Balance sheet consolidation requires revaluing the balance from the previous period; the last closing rate can be looked up from earlier runs to support this.
-- When recovering from mistakes, users can select exchange rates from a previous consolidation run and reuse all or some of them. Only rates actually used in that period are shown, and you need to know which run to pick.
+- When recovering from mistakes, users can select exchange rates from a previous consolidation run and reuse all or some of them. Only rates actually used in that period are shown.
 - Closing currency factor applies to balance sheet items and average currency factor to income statement items. The last closing factor is set automatically by the last run.
-- The presenter says more improvements will come over the next one or two releases.
 
 ## Chapters
 
@@ -196,14 +206,14 @@ It then covers a recovery scenario. Balance sheet items need the previous period
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Consolidation status list | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |  |
-| Exchange rate lookup and modification during consolidation | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |  |
-| Last closing rate lookup | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=gHcgL469x_E&t=67s) |  |
-| Consolidation validation | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=gHcgL469x_E&t=80s) |  |
-| Previous consolidation exchange rate selection | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=gHcgL469x_E&t=412s) |  |
-| Closing and average currency factors configuration | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=gHcgL469x_E&t=171s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Consolidation status list | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
+| Exchange rate lookup and modification during consolidation | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
+| Last closing rate lookup | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=gHcgL469x_E&t=67s) |
+| Consolidation validation | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=gHcgL469x_E&t=80s) |
+| Previous consolidation exchange rate selection | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=gHcgL469x_E&t=412s) |
+| Closing and average currency factors configuration | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=gHcgL469x_E&t=171s) |
 
 ## AL objects mentioned
 
@@ -223,6 +233,7 @@ Not found in BC28-30: table "consolidation company", page "consolidation status"
 - [2:01](https://www.youtube.com/watch?v=gHcgL469x_E&t=121s) "we have now this consolidation runs status and we have we can see now that we have run this twice before."
 - [4:40](https://www.youtube.com/watch?v=gHcgL469x_E&t=280s) "we put in some validation, so you don't accidentally uh start running a consolidation for something you have already done consolidation for."
 - [5:23](https://www.youtube.com/watch?v=gHcgL469x_E&t=323s) "when you're doing consolidation on balance sheet items, you need to revalue the balance from the previous period."
+- [6:38](https://www.youtube.com/watch?v=gHcgL469x_E&t=398s) "it will by default, if you notice, not select this because it detects that you have already consolidated these companies."
 - [7:08](https://www.youtube.com/watch?v=gHcgL469x_E&t=428s) "you can select from previous consolidations the currency exchange rates that you have used."
 - [8:54](https://www.youtube.com/watch?v=gHcgL469x_E&t=534s) "We will make a few more improvements over the next one or two releases to make it an even smoother process, giving you more"
 

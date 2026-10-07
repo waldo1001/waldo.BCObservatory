@@ -20,12 +20,12 @@ tags:
   - preview and undo
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:05.651Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:05.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -285,11 +285,6 @@ features:
     t: 1475
     verified: false
     status_source: video
-  - name: AI line matching and generation
-    status: unclear
-    t: 901
-    verified: false
-    status_source: video
   - name: Generate system action
     status: unclear
     t: 1561
@@ -416,7 +411,7 @@ quotes:
 
 > Design guidance for generative AI experiences in Business Central (2024 release wave 1): the three-stage prompt dialogue page type, undo and preview safeguards, human-in-the-loop design, and the Copilot menu. Demos cover suggesting sales lines and mapping e-document lines to purchase order lines.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qP0id91bIlA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qP0id91bIlA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -432,7 +427,7 @@ On the technical side, it introduces the prompt dialogue page type with input, g
 - Developers supply AL code for the generate system action and must make the cancel action clear all traces of the output.
 - Prompt options must be option fields and should never be required. Only the prompt itself can be required.
 - The Copilot menu appears on all list pages and the floating overlay shows the topmost action, which users can hide. Cards and documents do not have the menu yet, but prompt actions can be placed on subpages and in dialogues.
-- Copilot and AI capabilities page: currently supports English only, so English must be selected as the language. It is available from version 24 (2024 Wave 1). There is no partner extensibility for chat.
+- To find Copilot features, check the Copilot and AI capabilities page. Only English is currently supported, so English must be selected as the language. The features come from version 24 (2024 release wave 1).
 
 ## Chapters
 
@@ -453,32 +448,31 @@ On the technical side, it introduces the prompt dialogue page type with input, g
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Suggest sales lines with Copilot | status not stated, demoed | [4:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=283s) |  |
-| Prompt dialogue interface | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=qP0id91bIlA&t=407s) |  |
-| Output mode regeneration and iteration | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=qP0id91bIlA&t=571s) |  |
-| Map e-document lines to purchase order | status not stated, demoed | [10:41](https://www.youtube.com/watch?v=qP0id91bIlA&t=641s) |  |
-| Marketing text generation with Copilot | status not stated | [7:48](https://www.youtube.com/watch?v=qP0id91bIlA&t=468s) |  |
-| AI human-in-the-loop interaction model | status not stated | [2:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=121s) |  |
-| Building user trust in AI features | status not stated | [13:19](https://www.youtube.com/watch?v=qP0id91bIlA&t=799s) |  |
-| Prompt dialogue page type | status not stated, demoed | [20:56](https://www.youtube.com/watch?v=qP0id91bIlA&t=1256s) |  |
-| AI-generated content preview and discard | status not stated, demoed | [19:04](https://www.youtube.com/watch?v=qP0id91bIlA&t=1144s) |  |
-| AI confidence level marking | status not stated | [19:24](https://www.youtube.com/watch?v=qP0id91bIlA&t=1164s) |  |
-| Placeholder text and instruction hints | status not stated, demoed | [27:33](https://www.youtube.com/watch?v=qP0id91bIlA&t=1653s) |  |
-| Prompt options for output customization | status not stated | [24:35](https://www.youtube.com/watch?v=qP0id91bIlA&t=1475s) |  |
-| AI line matching and generation | status not stated, demoed | [15:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=901s) |  |
-| Generate system action | status not stated | [26:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=1561s) |  |
-| Cancel system action | status not stated | [26:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=1561s) |  |
-| Undo principle for prompt dialogues | status not stated | [26:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=1603s) |  |
-| Prompt guide | status not stated, demoed | [28:07](https://www.youtube.com/watch?v=qP0id91bIlA&t=1687s) |  |
-| Copilot menu on list pages | status not stated, demoed | [29:28](https://www.youtube.com/watch?v=qP0id91bIlA&t=1768s) |  |
-| Floating copilot menu overlay | status not stated, demoed | [29:46](https://www.youtube.com/watch?v=qP0id91bIlA&t=1786s) |  |
-| Analysis assist | status not stated, demoed | [30:33](https://www.youtube.com/watch?v=qP0id91bIlA&t=1833s) |  |
-| Dialogue prompt actions | status not stated, demoed | [31:45](https://www.youtube.com/watch?v=qP0id91bIlA&t=1905s) |  |
-| Subpage prompt actions | status not stated, demoed | [32:16](https://www.youtube.com/watch?v=qP0id91bIlA&t=1936s) |  |
-| Sparkle action icon | status not stated | [32:50](https://www.youtube.com/watch?v=qP0id91bIlA&t=1970s) |  |
-| Copilot and AI capabilities page | status not stated | [34:28](https://www.youtube.com/watch?v=qP0id91bIlA&t=2068s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Suggest sales lines with Copilot | status not stated, demoed | [4:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=283s) |
+| Prompt dialogue interface | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=qP0id91bIlA&t=407s) |
+| Output mode regeneration and iteration | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=qP0id91bIlA&t=571s) |
+| Map e-document lines to purchase order | status not stated, demoed | [10:41](https://www.youtube.com/watch?v=qP0id91bIlA&t=641s) |
+| Marketing text generation with Copilot | status not stated | [7:48](https://www.youtube.com/watch?v=qP0id91bIlA&t=468s) |
+| AI human-in-the-loop interaction model | status not stated | [2:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=121s) |
+| Building user trust in AI features | status not stated | [13:19](https://www.youtube.com/watch?v=qP0id91bIlA&t=799s) |
+| Prompt dialogue page type | status not stated, demoed | [20:56](https://www.youtube.com/watch?v=qP0id91bIlA&t=1256s) |
+| AI-generated content preview and discard | status not stated, demoed | [19:04](https://www.youtube.com/watch?v=qP0id91bIlA&t=1144s) |
+| AI confidence level marking | status not stated | [19:24](https://www.youtube.com/watch?v=qP0id91bIlA&t=1164s) |
+| Placeholder text and instruction hints | status not stated, demoed | [27:33](https://www.youtube.com/watch?v=qP0id91bIlA&t=1653s) |
+| Prompt options for output customization | status not stated | [24:35](https://www.youtube.com/watch?v=qP0id91bIlA&t=1475s) |
+| Generate system action | status not stated | [26:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=1561s) |
+| Cancel system action | status not stated | [26:01](https://www.youtube.com/watch?v=qP0id91bIlA&t=1561s) |
+| Undo principle for prompt dialogues | status not stated | [26:43](https://www.youtube.com/watch?v=qP0id91bIlA&t=1603s) |
+| Prompt guide | status not stated, demoed | [28:07](https://www.youtube.com/watch?v=qP0id91bIlA&t=1687s) |
+| Copilot menu on list pages | status not stated, demoed | [29:28](https://www.youtube.com/watch?v=qP0id91bIlA&t=1768s) |
+| Floating copilot menu overlay | status not stated, demoed | [29:46](https://www.youtube.com/watch?v=qP0id91bIlA&t=1786s) |
+| Analysis assist | status not stated, demoed | [30:33](https://www.youtube.com/watch?v=qP0id91bIlA&t=1833s) |
+| Dialogue prompt actions | status not stated, demoed | [31:45](https://www.youtube.com/watch?v=qP0id91bIlA&t=1905s) |
+| Subpage prompt actions | status not stated, demoed | [32:16](https://www.youtube.com/watch?v=qP0id91bIlA&t=1936s) |
+| Sparkle action icon | status not stated | [32:50](https://www.youtube.com/watch?v=qP0id91bIlA&t=1970s) |
+| Copilot and AI capabilities page | status not stated | [34:28](https://www.youtube.com/watch?v=qP0id91bIlA&t=2068s) |
 
 ## AL objects mentioned
 

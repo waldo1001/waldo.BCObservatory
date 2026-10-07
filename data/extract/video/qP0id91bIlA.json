@@ -345,27 +345,6 @@
       "system": "development"
     },
     {
-      "name": "AI line matching and generation",
-      "description": "AI can match and generate sales lines from e-documents and purchase orders based on context, without requiring user prompt input when context is already present in Business Central.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 901.5,
-      "t_end": 941,
-      "is_demoed": true,
-      "caveats": [
-        "Matching follows well-defined rules",
-        "Benefit increases with more lines to fill"
-      ],
-      "tags": [
-        "sales order",
-        "line matching",
-        "automation"
-      ],
-      "system": "sales"
-    },
-    {
       "name": "Generate system action",
       "description": "The system action that runs when the user hits generate in the prompt dialogue to produce the AI-generated output.",
       "status": "unclear",

@@ -421,7 +421,7 @@
     {
       "name": "Capacity-based resource governance and pricing",
       "description": "Modeling and finalizing capacity-based resource governance and pricing through simulated limit and quota enforcement for managed and shared AI resources.",
-      "status": "preview",
+      "status": "announced",
       "status_evidence_t": 1573.5,
       "status_evidence_quote": "capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview",
       "status_evidence_verified": true,
@@ -768,6 +768,12 @@
       "t": 1655,
       "text": "General availability is when the proper limits and qu will be both published and enforced the ETA still to be determined or TBD depending",
       "why_it_matters": "Establishes that GA timeline for managed AI resources is contingent on preview outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 1655,
+      "text": "so the ETF for public preview will be the next release around 25th uh 25x version",
+      "why_it_matters": "Gives the public preview timing for managed AI resources as the 25.x release, not a calendar year.",
       "check": "exact"
     },
     {

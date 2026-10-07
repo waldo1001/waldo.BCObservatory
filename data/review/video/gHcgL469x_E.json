@@ -1,0 +1,27 @@
+{
+  "video_id": "gHcgL469x_E",
+  "item_id": "video/yt-microsoft/gHcgL469x_E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and the 534.2 quote correctly runs on into the next segment.",
+    "Key point 5 says 'you need to know which run to pick', which the transcript does not say. The feature is presented as removing the need to remember the rate used.",
+    "Key point 3 says validation 'stops' users, which is too strong. In the demo, already consolidated companies are not selected by default and a warning appears, but the user can still rerun.",
+    "Added the new last consolidation ending date field and the default deselection behavior, which the demo shows.",
+    "Feature statuses stay unclear. The transcript says 'in this release' but never states availability explicitly."
+  ],
+  "input_hash": "c94694cbc1f6c986cc0263b3bfca0ca84e3b75de4c7d3c21d02ed359cb73b32a",
+  "by": "opus",
+  "at": "2026-10-07T23:09:02.505Z",
+  "applied": [
+    "quote at 398s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.073401
+  }
+}

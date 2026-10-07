@@ -20,18 +20,25 @@ tags:
   - field-level help
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:22.498Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:22.552Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: b02e2114a86a5b177144e480129e21f0270c54c25c7dae25d632379d53a35247
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=37s
+    title: "Chat with Copilot: preview"
+    date: "2024-04-04T13:30:30.000Z"
+    commit: null
+    t: 37
+    quote: the ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024 release Wave 1
   - kind: video
     url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=37s
     title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
@@ -82,12 +89,26 @@ evidence:
     t: 793
     quote: um that means you'll find it with major update 24.0 or later uh roll out starts with our us customers uh and then throughout
   - kind: video
+    url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=793s
+    title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+    date: "2024-04-04T13:30:30.000Z"
+    commit: null
+    t: 793
+    quote: with the exception of Canada where chat will not be available to Canadian customers uh due to compliance reasons
+  - kind: video
     url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=814s
     title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
     date: "2024-04-04T13:30:30.000Z"
     commit: null
     t: 814
     quote: chat and in fact co-pilot in business Central in general is available with business Central licenses at no additional cost
+  - kind: video
+    url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=814s
+    title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
+    date: "2024-04-04T13:30:30.000Z"
+    commit: null
+    t: 814
+    quote: finally chat is available in English only while in preview
   - kind: video
     url: https://www.youtube.com/watch?v=j5ULVClJaKU&t=834s
     title: "Introducing: Chat with Copilot ( 2024 release wave 1)"
@@ -182,9 +203,9 @@ chapters:
     title: Extensibility Options and Closing Remarks
 features:
   - name: Chat with Copilot
-    status: unclear
+    status: preview
     t: 17
-    verified: false
+    verified: true
     status_source: video
   - name: Record finding capability
     status: unclear
@@ -283,8 +304,14 @@ quotes:
   - t: 793
     text: um that means you'll find it with major update 24.0 or later uh roll out starts with our us customers uh and then throughout
     check: exact
+  - t: 793
+    text: with the exception of Canada where chat will not be available to Canadian customers uh due to compliance reasons
+    check: exact
   - t: 814
     text: chat and in fact co-pilot in business Central in general is available with business Central licenses at no additional cost
+    check: exact
+  - t: 814
+    text: finally chat is available in English only while in preview
     check: exact
   - t: 834
     text: you cannot extend modify override or add new capabilities to chat um we certainly aspire to unlock this in the future but for now
@@ -310,7 +337,7 @@ quotes:
 
 > Chat with Copilot in Business Central (2024 release wave 1): finding records with natural language, searching Business Central documentation, and field-level help. Covers the preview limits, rollout and regional availability, licensing, permissions and data protection, and demo setup with CDX.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=j5ULVClJaKU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 25:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=j5ULVClJaKU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 25:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -325,7 +352,7 @@ It also covers the limits that matter for planning. Chat is for Business Central
 - Record finding works by looking up the relevant page and building a filter. Naming the record type explicitly gives better results. Follow-up questions refine earlier results.
 - Documentation search is limited to Business Central docs. If the answer is not there, Copilot says so instead of making one up. It cannot answer about custom fields or company-specific processes.
 - Chat cannot be extended, modified or overridden in preview. It can still find records in custom objects, tables and list pages without extra partner work.
-- Chat respects user permission sets, and customer data is not used to train foundation models. Some regions need admin consent for Azure OpenAI in another geography, and the Copilot capabilities page in the admin center shows whether chat is active.
+- Chat respects user permission sets, and customer data is not used to train foundation models. Some environments need admin consent for Azure OpenAI in another region. The Copilot capabilities page for admins shows whether chat is available and active.
 - Chat and Copilot come with Business Central licenses at no additional cost and with no minimum seats. For demos, partners can spin up a tenant with CDX (aka.ms/CDX).
 
 ## Chapters
@@ -348,7 +375,7 @@ It also covers the limits that matter for planning. Chat is for Business Central
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Chat with Copilot | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=j5ULVClJaKU&t=17s) |  |
+| Chat with Copilot | preview, demoed | [0:17](https://www.youtube.com/watch?v=j5ULVClJaKU&t=17s) | "the ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024 release Wave 1" ([0:37](https://www.youtube.com/watch?v=j5ULVClJaKU&t=37s)) |
 | Record finding capability | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=j5ULVClJaKU&t=149s) |  |
 | Conversational query refinement | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=j5ULVClJaKU&t=458s) |  |
 | Documentation search | status not stated, demoed | [10:25](https://www.youtube.com/watch?v=j5ULVClJaKU&t=625s) |  |
@@ -384,7 +411,9 @@ Not found in BC28-30: page "posted sales invoices list", page "vehicles list pag
 - [12:53](https://www.youtube.com/watch?v=j5ULVClJaKU&t=773s) "co-pilot in business Central in general is available exclusively for business Central online which means you won't find it on business Central deployed to"
 - [13:13](https://www.youtube.com/watch?v=j5ULVClJaKU&t=793s) "roll out starts with our us customers uh and then throughout the release wave over a number of weeks and months we'll make that"
 - [13:13](https://www.youtube.com/watch?v=j5ULVClJaKU&t=793s) "um that means you'll find it with major update 24.0 or later uh roll out starts with our us customers uh and then throughout"
+- [13:13](https://www.youtube.com/watch?v=j5ULVClJaKU&t=793s) "with the exception of Canada where chat will not be available to Canadian customers uh due to compliance reasons"
 - [13:34](https://www.youtube.com/watch?v=j5ULVClJaKU&t=814s) "chat and in fact co-pilot in business Central in general is available with business Central licenses at no additional cost"
+- [13:34](https://www.youtube.com/watch?v=j5ULVClJaKU&t=814s) "finally chat is available in English only while in preview"
 - [13:54](https://www.youtube.com/watch?v=j5ULVClJaKU&t=834s) "you cannot extend modify override or add new capabilities to chat um we certainly aspire to unlock this in the future but for now"
 - [14:35](https://www.youtube.com/watch?v=j5ULVClJaKU&t=875s) "chat can find records in your custom objects your tables and your list Pages uh so if you for example have added the the"
 - [16:17](https://www.youtube.com/watch?v=j5ULVClJaKU&t=977s) "your data is not used to train the foundation AI models and your data is protected by the most comprehensive Enterprise compliance and security"

@@ -2,7 +2,7 @@
 id: video/ytYKvn2MiGs
 type: video
 title: "What's New: Extending Copilot Using AL Code (2024 Release Wave 1)"
-summary: "Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, copilot actions on lists, token counting, function calling with tool choice, model versioning, and the planned managed AI resources and AI credit governance."
+summary: "Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, Copilot actions on lists, token counting in the AOI Token codeunit, and function calling with tool choice. Also covers how Microsoft keeps models current with latest/preview versions and the announced managed, shared AI resources with AI credit governance (private preview in 24.x, public preview in 25.x, GA TBD). Ends with partner Q&A on data privacy, using your own data via prompts, and choosing GPT-3.5 Turbo where it fits."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - tool choice
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:05.749Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:05.803Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -41,7 +41,7 @@ evidence:
     quote: private preview will happen pretty soon after the business centrer launch event
   - kind: video
     url: https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s
-    title: "Capacity-based resource governance and pricing: preview"
+    title: "Capacity-based resource governance and pricing: announced"
     date: "2024-04-04T13:30:33.000Z"
     commit: null
     t: 1573
@@ -172,6 +172,13 @@ evidence:
     commit: null
     t: 1655
     quote: General availability is when the proper limits and qu will be both published and enforced the ETA still to be determined or TBD depending
+  - kind: video
+    url: https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1655s
+    title: "What's New: Extending Copilot Using AL Code (2024 Release Wave 1)"
+    date: "2024-04-04T13:30:33.000Z"
+    commit: null
+    t: 1655
+    quote: so the ETF for public preview will be the next release around 25th uh 25x version
   - kind: video
     url: https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1797s
     title: "What's New: Extending Copilot Using AL Code (2024 Release Wave 1)"
@@ -339,7 +346,7 @@ features:
     verified: false
     status_source: video
   - name: Capacity-based resource governance and pricing
-    status: preview
+    status: announced
     t: 1573
     verified: true
     status_source: video
@@ -444,6 +451,9 @@ quotes:
   - t: 1655
     text: General availability is when the proper limits and qu will be both published and enforced the ETA still to be determined or TBD depending
     check: exact
+  - t: 1655
+    text: so the ETF for public preview will be the next release around 25th uh 25x version
+    check: exact
   - t: 1797
     text: which business Central data does Asia open AI have access to the answer is none our commitment is that your data is your data
     check: exact
@@ -463,9 +473,9 @@ quotes:
 
 # What's New: Extending Copilot Using AL Code (2024 Release Wave 1)
 
-> Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, copilot actions on lists, token counting, function calling with tool choice, model versioning, and the planned managed AI resources and AI credit governance.
+> Extending Copilot in Business Central with AL code, 2024 release wave 1: prompt dialog instructional text and prompt guides, Copilot actions on lists, token counting in the AOI Token codeunit, and function calling with tool choice. Also covers how Microsoft keeps models current with latest/preview versions and the announced managed, shared AI resources with AI credit governance (private preview in 24.x, public preview in 25.x, GA TBD). Ends with partner Q&A on data privacy, using your own data via prompts, and choosing GPT-3.5 Turbo where it fits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ytYKvn2MiGs) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ytYKvn2MiGs) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -476,12 +486,12 @@ The second half covers keeping up with model versions using version-agnostic str
 ## Key points
 
 - Set the instructional text property on prompt area fields to show general instructions in the prompt dialog. It is not meant for example prompts.
-- Prompt guides are prompt templates opened from a book icon on the prompt dialog. They are added as a new area in actions on a prompt dialog page and can be grouped.
-- Token counting covers input tokens only, not output. Methods in the AOI Token codeunit cover GPT 3.5, GPT 4 and other models, and they do not yet include the system meta prompt.
+- Prompt guides are prompt templates opened from a book icon on the prompt dialog. They are added as a new prompt guide area in actions on a prompt dialog page and can be grouped.
+- Copilot actions on lists, list parts, worksheets and standard dialogs go in a new prompting area in actions.
+- Token counting covers input tokens only, not output. Methods in the AOI Token codeunit cover GPT 3.5, GPT 4 and other models, take SecretText input, and do not yet include the system meta prompt.
 - Function calling: describe functions to the model and it returns which to call with arguments. Do not hardcode function descriptions in text. Keep them in isolated storage or Azure Key Vault because they are IP.
 - Tool choice auto can return either a function call or a normal chat reply, so handle the error case. Setting a specific function guarantees it is called, but you must validate the arguments.
 - Two versions of each model are kept, latest and preview. Use version-agnostic strings such as turbo-latest and test your feature, since versions may perform differently.
-- Managed and shared AI resources are in preview. Private preview is expected in April or May 2024 and public preview around 2025. The AI credit, limits and quotas are not finalized, and GA timing is to be determined.
 
 ## Chapters
 
@@ -520,7 +530,7 @@ The second half covers keeping up with model versions using version-agnostic str
 | AI Credit Resource Governance | status not stated | [24:11](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1451s) |  |
 | Operational Limits for Fair Use | status not stated | [24:51](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1491s) |  |
 | AI Quota Entitlements | status not stated | [25:12](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1512s) |  |
-| Capacity-based resource governance and pricing | preview | [26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s) | "capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
+| Capacity-based resource governance and pricing | announced | [26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s) | "capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
 | Responsible AI process for non-OpenAI accounts | status not stated | [27:14](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1634s) |  |
 | Limit and quota publishing and enforcement | announced | [27:14](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1634s) | "in public preview we will also make sure that the proper limit will be published and enforced while the proper quota might also be" ([27:14](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1634s)) |
 | Developer toolkit for Copilot in Business Central | status not stated | [28:16](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1696s) |  |
@@ -564,6 +574,7 @@ Not found in BC28-30: codeunit "AOI Token", codeunit "get weather co-pilot funct
 - [26:53](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1613s) "this 24x release so either 24.0 in April or 24.1 in May right next public preview we will introduce a new process to satisfy"
 - [26:53](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1613s) "the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May"
 - [27:35](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1655s) "General availability is when the proper limits and qu will be both published and enforced the ETA still to be determined or TBD depending"
+- [27:35](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1655s) "so the ETF for public preview will be the next release around 25th uh 25x version"
 - [29:57](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1797s) "which business Central data does Asia open AI have access to the answer is none our commitment is that your data is your data"
 - [30:29](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1829s) "what if I need to give my data to the model how can I use my data with aure open Ai and the answer"
 - [31:30](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1890s) "our recommendation is to use GPT 3.5 turbo whenever it fits your needs because it's faster first of all it's also cheaper for you"

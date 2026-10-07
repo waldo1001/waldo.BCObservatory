@@ -14,12 +14,12 @@ tags:
   - company information
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:19.821Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:19.844Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,7 +138,7 @@ quotes:
 
 > Company badges in Business Central give each company a visual identifier, which helps when working across several companies and environments. The video shows how to set badge style, color and text (up to six characters) in Company Information, and that badge shape shows environment type: round for production, square for sandbox.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=q7ZokiKuhcw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 1:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=q7ZokiKuhcw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 1:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -164,10 +164,10 @@ It then goes to the Company Information page and shows how to set the badge styl
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Company Badges | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=0s) |  |
-| Environment Type Badge Shape | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=52s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Company Badges | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=0s) |
+| Environment Type Badge Shape | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=52s) |
 
 ## AL objects mentioned
 

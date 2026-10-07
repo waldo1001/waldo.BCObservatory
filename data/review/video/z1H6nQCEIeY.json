@@ -1,0 +1,28 @@
+{
+  "video_id": "z1H6nQCEIeY",
+  "item_id": "video/yt-microsoft/z1H6nQCEIeY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 15 quotes match the transcript verbatim, allowing for segment boundaries and punctuation (for example '100 match' vs '100% match').",
+    "The preview status for E-Invoice Matching with Copilot has a correct verbatim quote at 58.9. Leaving the other features as unclear is the safe choice.",
+    "The summary and key points are supported: preview, online only, rollout from 24.0, English officially, not available in Canada, the 80% auto-match, cost tolerance, the color indicators, and enablement checks.",
+    "The Price Validation Control description goes slightly beyond the transcript ('for each item or scenario') and overlaps with Cost Tolerance Configuration. That is minor, so I kept it.",
+    "No quote backed the Canada and region limit or the Contoso demo data module, so I added quotes for both."
+  ],
+  "input_hash": "265429a798c88e6130025e7820ee4d123b391bf1f551a888c26ed7dd530b14bb",
+  "by": "opus",
+  "at": "2026-10-07T23:08:40.242Z",
+  "applied": [
+    "E-Invoice Matching with Copilot: status preview",
+    "quote at 89s",
+    "quote at 717s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.126193
+  }
+}

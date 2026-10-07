@@ -2,7 +2,7 @@
 id: video/n4qog_IpKqw
 type: video
 title: "BCTalent Stories: Navitrans"
-summary: Navitrans customer story on using the Microsoft Reskilling Program to hire and train Business Central consultants and developers. Navitrans hired 10 people in under 3 months (7 consultants, 3 developers), and they became billable after 12 weeks.
+summary: "Navitrans customer story: CEO Bart and reskilled hires describe using a reskilling program to hire and train Business Central consultants and developers. Navitrans hired 10 people in under 3 months (7 consultants, 3 developers) across four countries through a single point of contact, and the hires became billable after 12 weeks."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - professional certification
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:44.413Z"
   flags: []
 generated:
-  at: "2026-10-06T19:39:07.614Z"
+  at: "2026-10-07T23:08:44.450Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 92
     quote: we have hired uh 10 people in less than 3 months seven consultants and three developers
+  - kind: video
+    url: https://www.youtube.com/watch?v=n4qog_IpKqw&t=92s
+    title: "BCTalent Stories: Navitrans"
+    date: "2024-04-09T15:29:45.000Z"
+    commit: null
+    t: 92
+    quote: the benefit of uh the res skill program is that we have only one single point of contact for all the countries
   - kind: video
     url: https://www.youtube.com/watch?v=n4qog_IpKqw&t=112s
     title: "BCTalent Stories: Navitrans"
@@ -109,16 +116,6 @@ features:
     t: 20
     verified: false
     status_source: video
-  - name: Business Central latest versions training
-    status: unclear
-    t: 112
-    verified: false
-    status_source: video
-  - name: Fast bilability in 12 weeks
-    status: unclear
-    t: 112
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 0
@@ -133,6 +130,9 @@ quotes:
   - t: 92
     text: we have hired uh 10 people in less than 3 months seven consultants and three developers
     check: exact
+  - t: 92
+    text: the benefit of uh the res skill program is that we have only one single point of contact for all the countries
+    check: exact
   - t: 112
     text: after 12 weeks they started being billable which is a very big Advantage for us as a company
     check: exact
@@ -143,9 +143,9 @@ quotes:
 
 # BCTalent Stories: Navitrans
 
-> Navitrans customer story on using the Microsoft Reskilling Program to hire and train Business Central consultants and developers. Navitrans hired 10 people in under 3 months (7 consultants, 3 developers), and they became billable after 12 weeks.
+> Navitrans customer story: CEO Bart and reskilled hires describe using a reskilling program to hire and train Business Central consultants and developers. Navitrans hired 10 people in under 3 months (7 consultants, 3 developers) across four countries through a single point of contact, and the hires became billable after 12 weeks.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=n4qog_IpKqw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-09 · 2:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=n4qog_IpKqw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-09 · 2:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -155,13 +155,13 @@ Speakers cover the career transition into Business Central, the training approac
 
 ## Key points
 
-- Navitrans found it hard to hire employees with the right background, training and certification for Business Central.
-- The Microsoft Reskilling Program trains and certifies new consultants and developers, with functional skills, soft skills training, and support from coaches and trainers across several countries.
-- Participants are trained on the latest Business Central versions and can share tips and tricks with colleagues.
-- Navitrans hired 10 people in less than 3 months: seven consultants and three developers.
-- Reskilled hires became billable after 12 weeks, which Navitrans calls a big advantage.
+- Navitrans, a software company serving the logistics and transport sector, found it hard to hire employees with the right background, training and certification.
+- The reskilling program teaches functional skills and soft skills (consultant mindset, client communication, presentation skills) in a safe environment.
+- Navitrans hired 10 people in less than 3 months, seven consultants and three developers, recruited in four different countries.
+- Each hire has a contact person, coach and trainer, and Navitrans deals with one point of contact for Belgium, the Netherlands, Denmark and Lithuania.
+- Participants are trained on the latest Business Central versions and can pass tips and tricks on to colleagues.
+- The reskilled hires became billable after 12 weeks, which Navitrans calls a big advantage.
 - A participant says the structured plan and frequent communication removed their fear of changing careers.
-- Navitrans describes the hiring process through the program as fast and as delivering certified, experienced people.
 
 ## Chapters
 
@@ -175,11 +175,9 @@ Speakers cover the career transition into Business Central, the training approac
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Reskilling Program | status not stated | [0:20](https://www.youtube.com/watch?v=n4qog_IpKqw&t=20s) |  |
-| Business Central latest versions training | status not stated | [1:52](https://www.youtube.com/watch?v=n4qog_IpKqw&t=112s) |  |
-| Fast bilability in 12 weeks | status not stated | [1:52](https://www.youtube.com/watch?v=n4qog_IpKqw&t=112s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft Reskilling Program | status not stated | [0:20](https://www.youtube.com/watch?v=n4qog_IpKqw&t=20s) |
 
 ## Quotes
 
@@ -187,6 +185,7 @@ Speakers cover the career transition into Business Central, the training approac
 - [0:20](https://www.youtube.com/watch?v=n4qog_IpKqw&t=20s) "the power of the reskilling program is actually to boost your confidence and to make sure that you just achieve your professional goals"
 - [1:21](https://www.youtube.com/watch?v=n4qog_IpKqw&t=81s) "the res program took away my fear for change because this was well structured plan there is a lot of communication and a lot"
 - [1:32](https://www.youtube.com/watch?v=n4qog_IpKqw&t=92s) "we have hired uh 10 people in less than 3 months seven consultants and three developers"
+- [1:32](https://www.youtube.com/watch?v=n4qog_IpKqw&t=92s) "the benefit of uh the res skill program is that we have only one single point of contact for all the countries"
 - [1:52](https://www.youtube.com/watch?v=n4qog_IpKqw&t=112s) "after 12 weeks they started being billable which is a very big Advantage for us as a company"
 - [2:12](https://www.youtube.com/watch?v=n4qog_IpKqw&t=132s) "the hiring process with the res skill program is a very fast process which give us also the certified and experienced people"
 

@@ -1,0 +1,26 @@
+{
+  "video_id": "kuKwjRyNcoE",
+  "item_id": "video/yt-microsoft/kuKwjRyNcoE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point giving the publication date (2024-04-17) and length is not supported by the transcript, so I removed it.",
+    "The captions say 'General at your setup'. Reading this as General Ledger Setup is reasonable, so I kept it.",
+    "Feature statuses stay unclear because the transcript never says whether the feature is in preview or generally available.",
+    "I added a quote about the alternatives (preview posting and the test report), which the key points mention without a supporting quote."
+  ],
+  "input_hash": "935884497a07ada2f575fb12eb7e23587c0f9bdd54f6e2426d24bbb2ceddd3b9",
+  "by": "opus",
+  "at": "2026-10-07T23:08:22.985Z",
+  "applied": [
+    "quote at 31s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037621
+  }
+}

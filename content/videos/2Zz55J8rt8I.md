@@ -15,12 +15,12 @@ tags:
   - user guidance
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:00.307Z"
   flags: []
 generated:
-  at: "2026-10-06T19:35:47.796Z"
+  at: "2026-10-07T23:08:00.339Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,13 @@ evidence:
     commit: null
     t: 98
     quote: shorter and fewer tips is usually better if you try to communicate too much
+  - kind: video
+    url: https://www.youtube.com/watch?v=2Zz55J8rt8I&t=114s
+    title: Use Teaching Tips to Educate and Guide Users
+    date: "2024-04-18T14:21:12.000Z"
+    commit: null
+    t: 114
+    quote: narrow it down and think about the three most important things us just really need to discover and understand
 links:
   learn: []
   objects: []
@@ -125,13 +132,16 @@ quotes:
   - t: 98
     text: shorter and fewer tips is usually better if you try to communicate too much
     check: fuzzy
+  - t: 114
+    text: narrow it down and think about the three most important things us just really need to discover and understand
+    check: exact
 ---
 
 # Use Teaching Tips to Educate and Guide Users
 
 > Teaching tips in Business Central: how to write them for users on a page, and how they relate to documentation and tours. Guidance covers keeping tips brief, limiting them to the three most important things, and that page order sets their sequence.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2Zz55J8rt8I) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 2:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2Zz55J8rt8I) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 2:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -161,10 +171,10 @@ It also covers how teaching tips differ from documentation, how tours with teach
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Teaching Tips | status not stated | [0:20](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=20s) |  |
-| Tours with Teaching Tips | status not stated | [0:56](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=56s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Teaching Tips | status not stated | [0:20](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=20s) |
+| Tours with Teaching Tips | status not stated | [0:56](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=56s) |
 
 ## Quotes
 
@@ -173,5 +183,6 @@ It also covers how teaching tips differ from documentation, how tours with teach
 - [0:56](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=56s) "you can't use teaching tips to prescribe a certain business process"
 - [1:17](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=77s) "the sequence of the teaching tips is controlled by the order they appear on the page top to bottom"
 - [1:38](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=98s) "shorter and fewer tips is usually better if you try to communicate too much"
+- [1:54](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=114s) "narrow it down and think about the three most important things us just really need to discover and understand"
 
 Presenters (as heard): Sarah.

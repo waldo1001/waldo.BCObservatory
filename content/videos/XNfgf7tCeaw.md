@@ -18,12 +18,12 @@ tags:
   - chart of accounts
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:13.934Z"
   flags: []
 generated:
-  at: "2026-10-06T19:37:13.579Z"
+  at: "2026-10-07T23:08:13.970Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,7 +169,7 @@ quotes:
 
 > Partner-led customer onboarding journey for Business Central: profiling prospects on a partner website, passing the profile into a personalized trial, loading an AppSource app, and using embedded buying to handle the CSP relationship and go-live. The video describes this as relatively new.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XNfgf7tCeaw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XNfgf7tCeaw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 4:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,12 +180,12 @@ In the partner-led approach, the partner profiles the prospect on its own websit
 ## Key points
 
 - The standard trial started on dynamics.com is described as not giving content as relevant as it could be.
-- Buying normally requires first establishing the CSP relationship, which is paperwork that adds friction.
-- Partners can profile prospects on their website for industry, business type and current systems, then redirect them to a personalized trial.
-- The profile outcome from the partner website is carried through the journey and is available in Business Central.
-- Partners can select and load a relevant AppSource app into the trial based on the profile.
-- An embedded buying experience handles the CSP relationship part and takes the prospect through onboarding into their own company.
-- Data such as chart of accounts and posting groups can be loaded dynamically when the new company is set up.
+- When a prospect comes through a partner, the partner first has to establish the CSP relationship, load Business Central, apps and configuration, then hand it over. This adds friction.
+- Partners can profile prospects on their website (industry, type of business, current system such as Excel or a competing product), then redirect them to the signup at dynamics.com.
+- The standard trial is spun up and an AppSource app chosen by the partner as most relevant is loaded.
+- The profile outcome from the partner website is carried through the journey and is available in Business Central, so the experience can pivot on customer preferences.
+- An embedded buying experience can handle the CSP part and take the prospect through onboarding into their own company.
+- Data such as chart of accounts and posting groups can be loaded dynamically for the new company before go-live.
 
 ## Chapters
 
@@ -199,13 +199,13 @@ In the partner-led approach, the partner profiles the prospect on its own websit
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Prospect profiling on partner website | status not stated | [2:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=121s) |  |
-| Dynamic AppSource app loading | status not stated | [2:42](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=162s) |  |
-| Profile data carried through onboarding journey | status not stated | [3:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=181s) |  |
-| Embedded buying experience | status not stated | [3:41](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=221s) |  |
-| Dynamic data loading for new company | status not stated | [4:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=241s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Prospect profiling on partner website | status not stated | [2:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=121s) |
+| Dynamic AppSource app loading | status not stated | [2:42](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=162s) |
+| Profile data carried through onboarding journey | status not stated | [3:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=181s) |
+| Embedded buying experience | status not stated | [3:41](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=221s) |
+| Dynamic data loading for new company | status not stated | [4:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=241s) |
 
 ## Quotes
 

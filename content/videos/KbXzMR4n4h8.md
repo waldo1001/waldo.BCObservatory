@@ -2,7 +2,7 @@
 id: video/KbXzMR4n4h8
 type: video
 title: "What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)"
-summary: "Commerce capabilities for Business Central apps on AppSource: ISVs selling add-ons through Partner Center plans, checkout, license assignment, entitlements, and CSP resale with private offers. Covers the 3 percent transaction fee and the side-by-side setup needed for existing customers."
+summary: "Business Central 2024 release wave 1 session on monetizing apps through the Microsoft commercial marketplace. It covers AppSource transact for add-ons: Partner Center plans, checkout, license assignment in the admin center, entitlements and side-by-side licensing for existing customers. It also covers the new April 2024 CSP resale through private offers with margins. Only per-user pricing is available today, with a 3 percent flat transaction fee. Other pricing models are on the roadmap with no set dates."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - billing models
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:57.030Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:57.097Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -291,11 +291,6 @@ features:
     t: 611
     verified: false
     status_source: video
-  - name: Flexible pricing models support
-    status: unclear
-    t: 469
-    verified: false
-    status_source: video
   - name: One catalog with multi-channel distribution
     status: unclear
     t: 271
@@ -553,9 +548,9 @@ quotes:
 
 # What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)
 
-> Commerce capabilities for Business Central apps on AppSource: ISVs selling add-ons through Partner Center plans, checkout, license assignment, entitlements, and CSP resale with private offers. Covers the 3 percent transaction fee and the side-by-side setup needed for existing customers.
+> Business Central 2024 release wave 1 session on monetizing apps through the Microsoft commercial marketplace. It covers AppSource transact for add-ons: Partner Center plans, checkout, license assignment in the admin center, entitlements and side-by-side licensing for existing customers. It also covers the new April 2024 CSP resale through private offers with margins. Only per-user pricing is available today, with a 3 percent flat transaction fee. Other pricing models are on the roadmap with no set dates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KbXzMR4n4h8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-10 · 49:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KbXzMR4n4h8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-10 · 49:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -566,12 +561,12 @@ It then follows the customer side: the Buy Now button, the Plans and Pricing tab
 ## Key points
 
 - Transact on AppSource applies to add-ons only, not connect apps. Each app must opt in to Sell Through Microsoft in Partner Center.
-- Microsoft charges a 3 percent flat transaction fee per transaction. It covers platform maintenance, Azure hosting, money collection and deposit to the ISV bank account.
+- Microsoft charges a 3 percent flat transaction fee per transaction. It covers platform maintenance, hosting on the Business Central platform, money collection and deposit to the ISV bank account.
 - Country setup moves from the offer to the plan when opting into transactability. Plans support waterfall pricing, monthly or yearly billing, private plans for specific tenants, and automatic or manual currency pricing.
 - Trials are limited to one month, need a credit card, and convert to paid unless canceled.
 - Entitlements are required for AppSource transactability. The entitlement ID matches the plan ID and sets maximum permissions. A BC admin must still grant permissions to each user.
 - Licenses are purchased and assigned in the Admin Center, and the app is installed separately. Customers get one combined invoice with first-party licenses.
-- For existing customers, set up side-by-side first and use unlicensed entitlements to avoid lockout. Practice on a test app before moving real apps.
+- For existing customers, set up side-by-side first and use unlicensed entitlements to avoid lockout. Group and admin-role entitlements give access to developers and admins without licenses. Practice on a test app first.
 
 ## Chapters
 
@@ -597,44 +592,43 @@ It then follows the customer side: the Buy Now button, the Plans and Pricing tab
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Direct transact capability on appsource | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=550s) |  |
-| Three percent flat transaction fee | status not stated | [10:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=611s) |  |
-| Flexible pricing models support | status not stated | [7:49](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=469s) |  |
-| One catalog with multi-channel distribution | status not stated, demoed | [4:31](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=271s) |  |
-| CSP channel enablement for ISV solutions | status not stated | [8:50](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=530s) |  |
-| Plan variations in offers | status not stated, demoed | [13:59](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=839s) |  |
-| In-product purchase experience | status not stated | [5:53](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=353s) |  |
-| Sell Through Microsoft for AppSource Apps | status not stated, demoed | [13:19](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=799s) |  |
-| Country-Specific Plans | status not stated, demoed | [15:00](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=900s) |  |
-| Waterfall Pricing Model | status not stated, demoed | [14:39](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=879s) |  |
-| Billing Frequency Options | status not stated, demoed | [16:19](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=979s) |  |
-| Trial Subscription Support | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=994s) |  |
-| Private Plans | status not stated, demoed | [16:54](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1014s) |  |
-| Automatic Currency Conversion for Plans | status not stated, demoed | [17:46](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1066s) |  |
-| Buy Now Button for Apps | status not stated, demoed | [19:00](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1140s) |  |
-| Plan and Pricing Tab in AppSource | status not stated, demoed | [19:21](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1161s) |  |
-| Checkout Process for AppSource Apps | status not stated, demoed | [19:41](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1181s) |  |
-| License Assignment in Admin Center | status not stated, demoed | [20:32](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1232s) |  |
-| App Installation via Admin Center | status not stated, demoed | [21:24](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1284s) |  |
-| Combined Billing for Business Central Solutions | status not stated, demoed | [23:03](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1383s) |  |
-| Publisher Insights in Partner Center | status not stated, demoed | [23:24](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1404s) |  |
-| Entitlements for AppSource Apps | status not stated, demoed | [24:15](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1455s) |  |
-| Entitlement Per-User Offer Plans | status not stated, demoed | [26:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1571s) |  |
-| Admin Permission Grant Requirement | status not stated, demoed | [27:12](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1632s) |  |
-| Entitlements mapping | status not stated, demoed | [26:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1571s) |  |
-| Group-based entitlements | status not stated, demoed | [28:53](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1733s) |  |
-| Unlicensed user entitlements | status not stated, demoed | [30:29](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1829s) |  |
-| Administrator entitlements | status not stated, demoed | [32:16](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1936s) |  |
-| License-conditional functionality | status not stated, demoed | [34:15](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2055s) |  |
-| CSP direct and indirect models | status not stated | [36:46](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2206s) |  |
-| Resale through CSP | status not stated, demoed | [38:44](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2324s) |  |
-| CSP private offers | status not stated, demoed | [39:22](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2362s) |  |
-| CSP API support for indirect providers | status not stated | [37:40](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2260s) |  |
-| CSP direct bill partner self-service | status not stated, demoed | [41:25](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2485s) |  |
-| Per-site and custom pricing models | status not stated | [44:57](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2697s) |  |
-| Appsource transact for Business Central apps | status not stated, demoed | [44:17](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2657s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Direct transact capability on appsource | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=550s) |
+| Three percent flat transaction fee | status not stated | [10:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=611s) |
+| One catalog with multi-channel distribution | status not stated, demoed | [4:31](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=271s) |
+| CSP channel enablement for ISV solutions | status not stated | [8:50](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=530s) |
+| Plan variations in offers | status not stated, demoed | [13:59](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=839s) |
+| In-product purchase experience | status not stated | [5:53](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=353s) |
+| Sell Through Microsoft for AppSource Apps | status not stated, demoed | [13:19](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=799s) |
+| Country-Specific Plans | status not stated, demoed | [15:00](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=900s) |
+| Waterfall Pricing Model | status not stated, demoed | [14:39](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=879s) |
+| Billing Frequency Options | status not stated, demoed | [16:19](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=979s) |
+| Trial Subscription Support | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=994s) |
+| Private Plans | status not stated, demoed | [16:54](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1014s) |
+| Automatic Currency Conversion for Plans | status not stated, demoed | [17:46](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1066s) |
+| Buy Now Button for Apps | status not stated, demoed | [19:00](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1140s) |
+| Plan and Pricing Tab in AppSource | status not stated, demoed | [19:21](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1161s) |
+| Checkout Process for AppSource Apps | status not stated, demoed | [19:41](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1181s) |
+| License Assignment in Admin Center | status not stated, demoed | [20:32](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1232s) |
+| App Installation via Admin Center | status not stated, demoed | [21:24](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1284s) |
+| Combined Billing for Business Central Solutions | status not stated, demoed | [23:03](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1383s) |
+| Publisher Insights in Partner Center | status not stated, demoed | [23:24](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1404s) |
+| Entitlements for AppSource Apps | status not stated, demoed | [24:15](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1455s) |
+| Entitlement Per-User Offer Plans | status not stated, demoed | [26:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1571s) |
+| Admin Permission Grant Requirement | status not stated, demoed | [27:12](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1632s) |
+| Entitlements mapping | status not stated, demoed | [26:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1571s) |
+| Group-based entitlements | status not stated, demoed | [28:53](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1733s) |
+| Unlicensed user entitlements | status not stated, demoed | [30:29](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1829s) |
+| Administrator entitlements | status not stated, demoed | [32:16](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1936s) |
+| License-conditional functionality | status not stated, demoed | [34:15](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2055s) |
+| CSP direct and indirect models | status not stated | [36:46](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2206s) |
+| Resale through CSP | status not stated, demoed | [38:44](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2324s) |
+| CSP private offers | status not stated, demoed | [39:22](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2362s) |
+| CSP API support for indirect providers | status not stated | [37:40](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2260s) |
+| CSP direct bill partner self-service | status not stated, demoed | [41:25](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2485s) |
+| Per-site and custom pricing models | status not stated | [44:57](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2697s) |
+| Appsource transact for Business Central apps | status not stated, demoed | [44:17](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=2657s) |
 
 ## AL objects mentioned
 

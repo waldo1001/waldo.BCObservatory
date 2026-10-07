@@ -20,12 +20,12 @@ tags:
   - cookies
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:47.126Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:47.176Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -137,13 +137,6 @@ evidence:
     commit: null
     t: 1239
     quote: it's not possible to install a version of an app that is lower uh than the latest publicly uh available version of that app
-  - kind: video
-    url: https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1626s
-    title: "What's New: Developer Tools (2024 release wave 1)"
-    date: "2024-04-04T13:30:33.000Z"
-    commit: null
-    t: 1626
-    quote: we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version
   - kind: video
     url: https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1626s
     title: "What's New: Developer Tools (2024 release wave 1)"
@@ -425,11 +418,8 @@ quotes:
     text: it's not possible to install a version of an app that is lower uh than the latest publicly uh available version of that app
     check: snapped
   - t: 1626
-    text: we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version
-    check: exact
-  - t: 1626
     text: we changed the validation so that we now do validate against the latest appsource app version
-    check: fuzzy
+    check: exact
   - t: 1647
     text: Partners can Now backport features and include them in the hotfix version if there are no breaking changes to the latest version
     check: exact
@@ -451,7 +441,7 @@ quotes:
 
 > Business Central 2024 release wave 1 developer tools: object extensions in the same app, the AL tool, AL language additions, HTTP client cookies, debugger changes, the AppSource preview state, hotfix validation and the new Microsoft AppSource apps list page. Page scripting is named as a preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tzeO0mc8RJo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 35:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tzeO0mc8RJo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 35:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -464,7 +454,7 @@ The AppSource part describes the preview state, preview keys and audience, insta
 - Extension objects (tables, pages, reports, enums, permission sets) can live in the same app as the base objects; enabled by default when targeting runtime 13, and AppSource cop checking is needed to prevent breaking changes.
 - The AL tool ships with the compiler and has three methods, including extracting app manifests, creating symbol packages and getting the latest supported AL runtime versions. .NET 4.8 was removed from the binaries to ease pipeline use.
 - New obsolete states (pending move, moved) with moved from / moved to properties simplify refactoring between extensions. They are limited to a select set of applications for now and are used for the number series module moved to business foundation.
-- The upgraded AL debugger cannot debug services running older Business Central versions; install an older AL extension version for those. System application breakpoints now work, but non-debuggable and secret text areas stay protected.
+- The upgraded AL debugger cannot debug services running older Business Central versions; install an older AL extension version for those. System application breakpoints now work, but non-debuggable and secure text areas stay protected.
 - AppSource preview state: validated apps go to preview, installed in sandboxes only via a link with tenant ID, app ID and preview key. The preview version must be higher than the latest public version, and breaking changes between previews are allowed.
 - Hotfixes are now validated against the latest AppSource app version, so partners can backport features if there are no breaking changes. Preview support and this change were backported to 2023 release wave 2.
 - The embedded AppSource experience is deprecated; the Microsoft AppSource apps list page adds search, filter, analysis mode and Copilot queries. Only free or transact-plan apps install directly.
@@ -548,7 +538,6 @@ Not found in BC28-30: table "number series line", table "number serious line obs
 - [15:41](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=941s) "note though that we are still respecting the non debuggable and the secure text uh that will limit debugging in protected areas of the"
 - [17:03](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1023s) "we now support the appsource preview State uh which all submitted apps automatically go to when passing validation"
 - [20:39](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1239s) "it's not possible to install a version of an app that is lower uh than the latest publicly uh available version of that app"
-- [27:06](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1626s) "we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version"
 - [27:06](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1626s) "we changed the validation so that we now do validate against the latest appsource app version"
 - [27:27](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1647s) "Partners can Now backport features and include them in the hotfix version if there are no breaking changes to the latest version"
 - [29:05](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1745s) "we have uh decided to replace the old embed experience with a new experience that we call uh Microsoft appsource apps and this is"

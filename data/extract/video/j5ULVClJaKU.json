@@ -93,10 +93,10 @@
     {
       "name": "Chat with Copilot",
       "description": "An AI-powered chat assistant integrated into Business Central that allows users to find records through natural language queries, get answers to business process questions by searching official documentation, and receive field-level help. Launched with major update 24.0 and rolling out gradually across regions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 37.2,
+      "status_evidence_quote": "the ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024 release Wave 1",
+      "status_evidence_verified": true,
       "t_start": 17.1,
       "t_end": 1333.5,
       "is_demoed": true,
@@ -473,9 +473,21 @@
       "check": "exact"
     },
     {
+      "t": 793.9,
+      "text": "with the exception of Canada where chat will not be available to Canadian customers uh due to compliance reasons",
+      "why_it_matters": "States the regional exclusion for Canada during rollout.",
+      "check": "exact"
+    },
+    {
       "t": 814.7,
       "text": "chat and in fact co-pilot in business Central in general is available with business Central licenses at no additional cost",
       "why_it_matters": "Establishes pricing - no additional cost for chat beyond standard Business Central licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 814.7,
+      "text": "finally chat is available in English only while in preview",
+      "why_it_matters": "States the language limit that applies during preview.",
       "check": "exact"
     },
     {

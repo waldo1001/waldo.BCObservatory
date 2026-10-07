@@ -15,12 +15,12 @@ tags:
   - item setup
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:26.640Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:26.678Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,7 +54,7 @@ evidence:
     date: "2024-04-17T12:34:22.000Z"
     commit: null
     t: 143
-    quote: notice the default selection of the over receipt 10 code this means that if you
+    quote: you haven't set anything up on products or vendors, you will always be able to over receive 10%.
 links:
   learn: []
   objects:
@@ -131,15 +131,15 @@ quotes:
     text: I can now set a general over receipt code for any product from a specific vendor because I know that a specific vendor is
     check: exact
   - t: 143
-    text: notice the default selection of the over receipt 10 code this means that if you
-    check: fuzzy
+    text: you haven't set anything up on products or vendors, you will always be able to over receive 10%.
+    check: exact
 ---
 
 # Allow Over Receipts of Products
 
 > Over receipt codes in Business Central let you receive more than ordered from vendors. Codes carry tolerance percentages, can be set on item cards and vendor cards, and the most restrictive setting wins. A default 10% code applies if nothing else is set.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8C9JmtHdExM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 2:46 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8C9JmtHdExM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-17 · 2:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -167,13 +167,13 @@ It demonstrates setting these codes on the item card and on the vendor card (rec
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Over receipt codes | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=0s) |  |
-| Over receipt code tolerance percentages | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=8C9JmtHdExM&t=21s) |  |
-| Item-level over receipt codes | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s) |  |
-| Vendor-level over receipt codes | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=8C9JmtHdExM&t=85s) |  |
-| Default over receipt code selection | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=8C9JmtHdExM&t=124s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Over receipt codes | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=0s) |
+| Over receipt code tolerance percentages | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=8C9JmtHdExM&t=21s) |
+| Item-level over receipt codes | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s) |
+| Vendor-level over receipt codes | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=8C9JmtHdExM&t=85s) |
+| Default over receipt code selection | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=8C9JmtHdExM&t=124s) |
 
 ## AL objects mentioned
 
@@ -190,4 +190,4 @@ Not found in BC28-30: page "over receipt codes".
 - [0:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=0s) "In Business Central, you can receive more products than you've ordered from your vendor or suppliers."
 - [0:47](https://www.youtube.com/watch?v=8C9JmtHdExM&t=47s) "The most restrictive setting wins. So, if you have a setting that allows for 10% on the item and 20% over receipt on the"
 - [1:12](https://www.youtube.com/watch?v=8C9JmtHdExM&t=72s) "I can now set a general over receipt code for any product from a specific vendor because I know that a specific vendor is"
-- [2:23](https://www.youtube.com/watch?v=8C9JmtHdExM&t=143s) "notice the default selection of the over receipt 10 code this means that if you"
+- [2:23](https://www.youtube.com/watch?v=8C9JmtHdExM&t=143s) "you haven't set anything up on products or vendors, you will always be able to over receive 10%."

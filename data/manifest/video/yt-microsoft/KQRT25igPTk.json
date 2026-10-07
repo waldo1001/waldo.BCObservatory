@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KQRT25igPTk",
   "published_at": "2024-04-18T14:10:58.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -55,8 +55,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T19:36:22.579Z",
+      "at": "2026-10-07T23:08:08.478Z",
       "path": "content/videos/KQRT25igPTk.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:08:08.440Z",
+      "path": "data/review/video/KQRT25igPTk.json",
+      "verdict": "fix",
+      "applied": 1,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.045716999999999994
     }
   },
   "input_hash": null,
@@ -74,5 +83,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "caadbeacfe03112e494a5726b2d6efd953c45f37735b882fd3ffee4f1dd78794"
+  "output_hash": "fbfff21da5ea153b87a965ef1f068b6024853aa49468f138843ad582f38ef240",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:08:08.436Z"
+  }
 }

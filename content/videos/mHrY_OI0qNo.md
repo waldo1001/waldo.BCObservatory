@@ -20,12 +20,12 @@ tags:
   - preview capability
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:08:44.703Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:08:44.761Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,47 +40,47 @@ evidence:
     t: 139
     quote: that's why we're excited to announce the public preview of analysis assist
   - kind: video
-    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
+    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s
     title: "Analyze List Action: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
-    t: 139
-    quote: the public preview of analysis assist
+    t: 901
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
   - kind: video
-    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
+    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s
     title: "Draft Tab Management: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
-    t: 139
-    quote: the public preview of analysis assist
+    t: 901
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
   - kind: video
-    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
+    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s
     title: "Semantic Understanding for Filters: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
-    t: 139
-    quote: the public preview of analysis assist
+    t: 901
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
   - kind: video
-    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
+    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s
     title: "Prompt Guide: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
-    t: 139
-    quote: the public preview of analysis assist
+    t: 901
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
   - kind: video
-    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
+    url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s
     title: "Grouping and Pivoting: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
-    t: 139
-    quote: the public preview of analysis assist
+    t: 901
+    quote: co-pilot at this stage in preview will only work with fields that are shown on the page
   - kind: video
     url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=982s
-    title: "Copilot availability and deployment: generally available"
+    title: "Copilot availability and deployment: preview"
     date: "2024-04-04T13:30:31.000Z"
     commit: null
     t: 982
-    quote: this has been released with 2024 release Wave 1 so you'll need to upgrade to version 24.0 or later
+    quote: it's also available in preview in English language only so you'll need to make sure
   - kind: video
     url: https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s
     title: "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)"
@@ -267,7 +267,7 @@ features:
     verified: false
     status_source: video
   - name: Copilot availability and deployment
-    status: ga
+    status: preview
     t: 961
     verified: true
     status_source: video
@@ -353,7 +353,7 @@ quotes:
 
 > Analysis Assist with Copilot in Business Central, in public preview with 2024 release wave 1 (version 24.0 or later). Users describe an analysis in natural language and Copilot builds columns, filters, sorting and grouping on list pages. Covers limits, availability, data privacy and admin requirements.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mHrY_OI0qNo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mHrY_OI0qNo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -393,13 +393,13 @@ It also covers availability and safety. Copilot is for Business Central Online, 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Analysis Assist | preview, demoed | [2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s) | "that's why we're excited to announce the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
-| Analyze List Action | preview, demoed | [3:59](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=239s) | "the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
-| Draft Tab Management | preview, demoed | [5:20](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=320s) | "the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
-| Semantic Understanding for Filters | preview, demoed | [6:58](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=418s) | "the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
-| Prompt Guide | preview, demoed | [8:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=502s) | "the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
-| Grouping and Pivoting | preview, demoed | [8:42](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=522s) | "the public preview of analysis assist" ([2:19](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=139s)) |
+| Analyze List Action | preview, demoed | [3:59](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=239s) | "co-pilot at this stage in preview will only work with fields that are shown on the page" ([15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s)) |
+| Draft Tab Management | preview, demoed | [5:20](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=320s) | "co-pilot at this stage in preview will only work with fields that are shown on the page" ([15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s)) |
+| Semantic Understanding for Filters | preview, demoed | [6:58](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=418s) | "co-pilot at this stage in preview will only work with fields that are shown on the page" ([15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s)) |
+| Prompt Guide | preview, demoed | [8:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=502s) | "co-pilot at this stage in preview will only work with fields that are shown on the page" ([15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s)) |
+| Grouping and Pivoting | preview, demoed | [8:42](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=522s) | "co-pilot at this stage in preview will only work with fields that are shown on the page" ([15:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=901s)) |
 | Data Privacy in Analysis Assist | status not stated | [10:52](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=652s) |  |
-| Copilot availability and deployment | generally available | [16:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=961s) | "this has been released with 2024 release Wave 1 so you'll need to upgrade to version 24.0 or later" ([16:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=982s)) |
+| Copilot availability and deployment | preview | [16:01](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=961s) | "it's also available in preview in English language only so you'll need to make sure" ([16:22](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=982s)) |
 | Responsible AI and data safety | status not stated | [17:00](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=1020s) |  |
 | Copilot feature enablement and troubleshooting | status not stated | [18:21](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=1101s) |  |
 | Copilot for sales document entry | status not stated | [20:49](https://www.youtube.com/watch?v=mHrY_OI0qNo&t=1249s) |  |

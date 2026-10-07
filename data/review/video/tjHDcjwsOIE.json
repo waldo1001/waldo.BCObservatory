@@ -1,0 +1,25 @@
+{
+  "video_id": "tjHDcjwsOIE",
+  "item_id": "video/yt-microsoft/tjHDcjwsOIE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'AL development as Microsoft vision for Business Central' rests on a garbled caption ('c development is Microsoft visions'); AL is not stated, so the feature is dropped.",
+    "BC apps GitHub repository description says launched November 2023 while the transcript caption says 'November 2033' (likely a caption error); noted only, since feature descriptions can't be edited here.",
+    "All quotes verified as verbatim spans (some cross segment boundaries, which is acceptable).",
+    "Summary, key points and chapters are consistent with the transcript; all feature statuses unclear, which fits since no preview/GA status is stated."
+  ],
+  "input_hash": "1b34f4382e52fe1df372e18644424e779999b21321bda76d86d8cc75a2ca03a1",
+  "by": "opus",
+  "at": "2026-10-07T23:08:58.669Z",
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.118085
+  }
+}
