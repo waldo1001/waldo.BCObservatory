@@ -7,15 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/allow-posting-fromto-dateformula-no.html",
   "published_at": "2026-03-13T06:11:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:12.516Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md",
+      "words": 668
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:12.529Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:12.531Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:12.533Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:12.551Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md"
     }
   },
   "input_hash": "2026-03-13T06:11:57.076Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T01:42:23.936Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c00d3e77e626a48660f13acb723a68ba493d6f4bdd8555a46aad3211b58d4093"
 }

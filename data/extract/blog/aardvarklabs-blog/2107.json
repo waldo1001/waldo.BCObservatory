@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2107",
+  "url": "https://aardvarklabs.blog/2025/08/01/step-by-step-guide-to-word-reports-in-business-central/",
+  "title": "Step-by-Step Guide to Word Reports in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-08-01T12:00:00.000Z",
+  "words": 975,
+  "summary": "Word reports in Business Central allow developers to create report objects while power users design the layout in Microsoft Word, enabling document-style reports like invoices or activity summaries. This approach separates data definition from presentation design using Word's XML mapping features.",
+  "key_points": [
+    "Word reports use DefaultLayout = Word and WordLayout property to reference a DOCX file for formatting",
+    "Developers create the report object with dataset and columns; Word users export and edit the layout through Report Layouts page",
+    "XML Mapping in Word's Developer pane connects report data elements to the document structure",
+    "Repeating controls in Word tables display multiple rows from nested dataitems",
+    "Custom layouts can be created, edited, and marked as default to override the report's built-in layout"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word reports",
+    "report layout",
+    "xml mapping",
+    "repeating controls",
+    "report designer",
+    "document-style reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "ARD_VendorActivity"
+    }
+  ],
+  "features": [
+    "Word Report layouts",
+    "XML Mapping Pane",
+    "Report Layout export",
+    "Custom layout upload",
+    "Repeating controls",
+    "Default layout assignment"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

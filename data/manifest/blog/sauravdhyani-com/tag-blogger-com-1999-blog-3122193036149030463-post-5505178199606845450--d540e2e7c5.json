@@ -7,15 +7,21 @@
   "url": "https://www.sauravdhyani.com/2026/10/business-central-290-is-generally.html",
   "published_at": "2026-10-01T17:11:26.437Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:11.824Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5505178199606845450--d540e2e7c5.md",
+      "words": 2235
     }
   },
   "input_hash": "2026-10-01T17:11:26.437Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "web lane: fetched took longer than 180 s",
-  "retry_after": "2026-10-07T01:44:47.442Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67bcd3b2f3ee5ae17ee67ea7eceddfad012b6009e154794c23200f25e6d4c09e"
 }

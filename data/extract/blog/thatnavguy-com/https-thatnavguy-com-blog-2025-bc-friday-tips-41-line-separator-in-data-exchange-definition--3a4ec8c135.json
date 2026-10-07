@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/",
+  "title": "BC Friday Tips #41 Line Separator in Data Exchange Definition",
+  "source": "thatnavguy-com",
+  "published_at": "2025-08-01T00:00:00.000Z",
+  "words": 95,
+  "summary": "A hidden Line Separator field in Data Exchange Definition allows importing files with different line break formats (LF or CR) without custom development. The field is not visible through normal personalization but can be accessed via Configuration Package or code modifications.",
+  "key_points": [
+    "Data Exchange Definition has a hidden Line Separator field for handling different line break types",
+    "Supports LF (Line Feed) and CR (Carriage Return) line breaks without requiring development",
+    "Field cannot be shown through the Personalize feature",
+    "Can be accessed through Configuration Package or AL development modifications"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data exchange",
+    "line separators",
+    "file import",
+    "configuration",
+    "hidden fields"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Data Exchange Definition"
+    }
+  ],
+  "features": [
+    "Data Exchange Definition",
+    "Line Separator field",
+    "Configuration Package",
+    "File import",
+    "Line break handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This field is hidden and cannot be enabled through Personalize.",
+      "why_it_matters": "Alerts users that standard personalization methods won't work to access this functionality."
+    },
+    {
+      "text": "This is useful when you need to import files that use LF (Line Feed) or CR (Carriage Return) line breaks.",
+      "why_it_matters": "Explains the practical business value of the Line Separator feature for handling diverse file formats."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4842738910605275102",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/who-keeps-moving-my-business-central.html",
+  "title": "Who Keeps Moving My Business Central Work Date?",
+  "source": "mohana-blog",
+  "published_at": "2026-03-10T06:14:00.000Z",
+  "words": 503,
+  "summary": "The Work Date setting in demo companies like Cronus automatically resets to the posting date of the last G/L Entry on every login or session refresh, rather than preserving the user's configured value. Use an event subscriber on the OnAfterLogin event to override this behavior and set the Work Date to today's date instead.",
+  "key_points": [
+    "Codeunit 40 (LogInManagement) calls GetDefaultWorkDate() which retrieves the posting date from the most recent G/L Entry for demo companies",
+    "The Work Date resets every login, session timeout, or browser refresh to whatever that G/L Entry date is, overriding user settings",
+    "This affects consultants, partners, and businesses running on demo or evaluation environments that still have the IsDemoCompany flag set to true",
+    "Subscribe to the OnAfterLogin event from Codeunit 150 (System Initialization) and call WorkDate(Today) to force the Work Date to today before users see any pages"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "work date",
+    "login behavior",
+    "demo company",
+    "event subscription",
+    "codeunit configuration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "LogInManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "System Initialization"
+    }
+  ],
+  "features": [
+    "Work Date management",
+    "Login event handling",
+    "Demo company default behavior",
+    "G/L Entry posting date tracking",
+    "Event subscriber pattern",
+    "Session initialization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

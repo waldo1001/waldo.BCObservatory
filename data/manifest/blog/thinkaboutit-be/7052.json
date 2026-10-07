@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/07/quick-tip-whats-coming-in-business-central-2025-release-wave-2/",
   "published_at": "2025-07-31T09:59:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:17.652Z",
+      "path": "vault:posts/thinkaboutit-be/7052.md",
+      "words": 195
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:17.658Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:17.659Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:17.660Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:17.687Z",
+      "path": "content/posts/thinkaboutit-be/7052.md"
     }
   },
   "input_hash": "2026-03-19T15:08:03.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08e30937dc6cab30254467722e852a5c0a5f6963e9777c5e21cf8c0c02ef1d45"
 }

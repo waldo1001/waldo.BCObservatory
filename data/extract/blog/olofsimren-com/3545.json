@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/olofsimren-com/3545",
+  "url": "https://www.olofsimren.com/reopen-finished-production-orders/",
+  "title": "Reopen Finished Production Orders",
+  "source": "olofsimren-com",
+  "published_at": "2025-07-29T12:38:35.000Z",
+  "words": 529,
+  "summary": "Business Central now allows users to reopen finished production orders, converting them back to released status so adjustments can be made. The feature also includes reverse production entry functions on both item and capacity ledger entries, plus an option to finish orders without posted output.",
+  "key_points": [
+    "Reopen Finished Production Orders function changes finished orders back to released status with the same production order number",
+    "Reverse Production Entry feature reverses selected item ledger and capacity ledger entries, allowing bulk reversals",
+    "Orders can be finished without output posted when activated in Manufacturing Setup, writing off WIP costs to the Inventory Adjustment Account",
+    "Reopening a finished production order a second time generates an error, and orders without posted output cannot be reopened"
+  ],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "production orders",
+    "ledger entries",
+    "reversals",
+    "work in progress",
+    "inventory adjustment"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "other",
+      "name": "Finished Production Orders"
+    },
+    {
+      "type": "other",
+      "name": "Released Production Order"
+    },
+    {
+      "type": "other",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "Capacity Ledger Entries"
+    }
+  ],
+  "features": [
+    "Reopen Finished Production Orders",
+    "Reverse Production Entry on Item Ledger Entries",
+    "Reverse Production Entry on Capacity Ledger Entries",
+    "Finish production order without output",
+    "Reverse Production Output and Consumption"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It is now possible to Reopen Finished Production Orders in Business Central, something that people have been waiting on for years.",
+      "why_it_matters": "Addresses a long-standing user need to adjust finished production orders without complex workarounds"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11649",
+  "url": "https://gerardorenteria.blog/2025/08/02/%f0%9f%91%80a-visual-personal-tags-system-%f0%9f%93%a2/",
+  "title": "👀A Visual Personal Tags System 📢",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-08-02T15:39:50.000Z",
+  "words": 1384,
+  "summary": "This post describes a custom personal tagging system for Business Central that uses colors and emojis to visually categorize and identify records across different entity types. The system enables user-scoped tags that help users organize and quickly recognize records without affecting other users.",
+  "key_points": [
+    "Tags work universally across any Business Central table including customers, vendors, orders, and items",
+    "Visual design uses emoji and color combinations for immediate recognition and priority identification",
+    "User-scoped implementation stores tags in two linked tables without impacting other users",
+    "Integration occurs through FactBox UI elements added to entity card pages for easy tag management",
+    "Eight codeunit functions handle core operations: creating, assigning, removing, searching, and retrieving tags"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "tagging system",
+    "visual organization",
+    "user interface",
+    "custom development",
+    "data categorization",
+    "color coding"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRG Personal Tag Master"
+    },
+    {
+      "type": "table",
+      "name": "GDRG Personal Tag Assignment"
+    },
+    {
+      "type": "enum",
+      "name": "GDRG Color"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Personal Tags FactBox"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Tag Search"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Personal Tag Assignments"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Personal Tag Master"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Tag Selection"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG Personal Tag Manager"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG Demo Data Setup"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRG Personal Tags"
+    }
+  ],
+  "features": [
+    "Personal tag assignment",
+    "Color-coded visual categorization",
+    "Emoji representation system",
+    "FactBox integration",
+    "Tag search and navigation",
+    "User-scoped tag management",
+    "Cross-entity tagging",
+    "Priority identification"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A tagging between entities that works universally across different types of records.",
+      "why_it_matters": "Demonstrates the core capability of the system to work with any BC table, making it adaptable across the platform"
+    },
+    {
+      "text": "User scoped tags without affecting others.",
+      "why_it_matters": "Highlights the isolation mechanism ensuring tags remain personal and do not impact other users' data"
+    },
+    {
+      "text": "Emoji or color combinations for instant recognition.",
+      "why_it_matters": "Explains the visual design philosophy that reduces reliance on Excel and improves user experience through quick visual cues"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

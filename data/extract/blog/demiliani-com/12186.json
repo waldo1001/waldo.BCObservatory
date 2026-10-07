@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/demiliani-com/12186",
+  "url": "https://demiliani.com/2025/07/29/using-azure-ai-foundry-model-router-in-your-ai-projects/",
+  "title": "Using Azure AI Foundry Model Router in your AI projects.",
+  "source": "demiliani-com",
+  "published_at": "2025-07-29T07:45:34.000Z",
+  "words": 1219,
+  "summary": "Azure AI Foundry Model Router intelligently routes LLM requests to the most suitable model based on query complexity, cost, and performance requirements. It achieves up to 60% cost savings by automatically selecting smaller models for simple tasks and larger models for complex reasoning, packaged as a single deployment that simplifies integration with standard APIs.",
+  "key_points": [
+    "Model Router acts as a meta-orchestrator that evaluates prompts in real-time and routes them to appropriate underlying models like gpt-4.1-nano, gpt-4.1-mini, gpt-4.1, or o4-mini",
+    "Achieves significant cost reductions by routing simpler queries to smaller, cheaper models while maintaining accuracy",
+    "Integrates via standard Chat Completions API with a single endpoint, decoupling application logic from specific AI models",
+    "Context window is limited by the smallest underlying model, which may cause failures if prompts exceed that model's capacity",
+    "AL Copilot SDK currently does not support Model Router endpoints, requiring alternative approaches like custom AI layers for Business Central integrations"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "azure ai",
+    "model router",
+    "llm routing",
+    "cost optimization",
+    "ai orchestration",
+    "api integration",
+    "business central",
+    "copilot"
+  ],
+  "objects": [],
+  "features": [
+    "Model Router deployment",
+    "Intelligent request routing",
+    "Cost optimization",
+    "Real-time model selection",
+    "Chat Completions API integration",
+    "Performance monitoring",
+    "Underlying model set management"
+  ],
+  "versions": [
+    "2025-05-19"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It seems that the AL Copilot SDK is not able to use the Model Router endpoint.",
+      "why_it_matters": "Important limitation for Business Central developers considering Model Router integration within AL code"
+    },
+    {
+      "text": "The router also supports seamless scalability, adapting to varying workloads in real-time.",
+      "why_it_matters": "Highlights the dynamic adaptation capability that makes Model Router suitable for production workloads with variable demand"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

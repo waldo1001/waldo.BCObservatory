@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/",
   "published_at": "2025-08-01T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:13.266Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-41-line-separator-in-data-exchange-definition--3a4ec8c135.md",
+      "words": 95
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:13.274Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:13.275Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:13.276Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:13.287Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-41-line-separator-in-data-exchange-definition--3a4ec8c135.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1962020389f631ef5f4f3b17cf8590aa319c16d6dbbfe22d7415698a3b60581e"
 }

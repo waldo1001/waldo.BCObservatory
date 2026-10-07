@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/12267",
+  "url": "https://demiliani.com/2025/08/04/dynamics-365-business-central-finally-well-have-truncate-table-in-saas/",
+  "title": "Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.",
+  "source": "demiliani-com",
+  "published_at": "2025-08-04T07:01:15.000Z",
+  "words": 328,
+  "summary": "Business Central version 27 introduces the Rec.Truncate AL method to enable efficient bulk deletion of table rows in SaaS environments. This method supports filters and AutoIncrement field management but has limitations including no support for OnDelete triggers, media fields, or use within try functions.",
+  "key_points": [
+    "New Rec.Truncate method in version 27 allows efficient bulk deletion matching filters with fewer operations than DeleteAll",
+    "Method requires delete permission and no security filters on the table to execute",
+    "When used with filters, the platform copies data to temporary table for overhead; recommended only for significant row deletions",
+    "Does not support tables with OnDelete triggers, media/mediaset fields, try functions, or filters on FlowFields",
+    "AutoIncrement fields can be reset to 0 or set to their pre-truncation value through method parameters"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data deletion",
+    "bulk operations",
+    "saas",
+    "performance",
+    "truncate method",
+    "record api",
+    "retention"
+  ],
+  "objects": [],
+  "features": [
+    "Truncate method",
+    "bulk deletion",
+    "filter support",
+    "AutoIncrement management",
+    "efficient data removal"
+  ],
+  "versions": [
+    "27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This method lets developers delete table rows, matching filters in the most efficient way.",
+      "why_it_matters": "Describes the core capability of Truncate for efficient bulk operations that are significantly faster than DeleteAll"
+    },
+    {
+      "text": "Only use filters when you're deleting significant numbers of rows (using filters for smaller deletions creates unnecessary overhead).",
+      "why_it_matters": "Important performance guidance for developers to avoid overhead when using the feature"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

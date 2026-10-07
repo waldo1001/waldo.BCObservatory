@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/08/04/dynamics-365-business-central-finally-well-have-truncate-table-in-saas/",
   "published_at": "2025-08-04T07:01:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:12.558Z",
+      "path": "vault:posts/demiliani-com/12267.md",
+      "words": 328
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:12.566Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:12.567Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:12.568Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:12.578Z",
+      "path": "content/posts/demiliani-com/12267.md"
     }
   },
   "input_hash": "2025-08-04T07:01:15.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9bc9d68855f7150e5aadfe8ea77057b4ba017a3ff3c6de22d2ed4b4a62730867"
 }

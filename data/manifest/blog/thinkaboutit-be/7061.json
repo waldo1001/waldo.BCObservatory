@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/08/quick-tip-say-goodbye-to-odata-on-microsoft-pages-in-business-central-2027-wave-1-version-30-0/",
   "published_at": "2025-08-04T08:52:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:13.294Z",
+      "path": "vault:posts/thinkaboutit-be/7061.md",
+      "words": 253
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:13.304Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:13.306Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:13.307Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:13.316Z",
+      "path": "content/posts/thinkaboutit-be/7061.md"
     }
   },
   "input_hash": "2025-08-04T08:52:19.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ee998b0c16010173c3ca6296c12a400af5100ff07fcb8eb15a35c2b746b5219"
 }

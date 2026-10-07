@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/allow-posting-fromto-dateformula-no.html",
+  "title": "Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28",
+  "source": "mohana-blog",
+  "published_at": "2026-03-13T06:11:00.000Z",
+  "words": 668,
+  "summary": "Business Central 28 adds DateFormula fields to automatically calculate allowed posting ranges, eliminating manual monthly updates to posting period dates. Set the formula once and the posting window moves forward automatically based on the work date.",
+  "key_points": [
+    "New DateFormula fields (Allow Posting From DateFormula and Allow Posting To DateFormula) on General Ledger Setup and User Setup tables calculate posting windows dynamically",
+    "DateFormula and static Date fields are mutually exclusive; setting one automatically clears the other to prevent conflicts",
+    "Use standard DateFormula syntax like <-CM> for month start and <CM> for month end, same as payment terms",
+    "Posting window recalculates automatically each period without manual intervention required",
+    "Error messages for out-of-range posting dates work the same whether dates come from static fields or formulas"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "posting periods",
+    "date formulas",
+    "general ledger setup",
+    "user setup",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Allow Posting From DateFormula",
+    "Allow Posting To DateFormula",
+    "DateFormula data type",
+    "Automatic posting window calculation",
+    "Mutual exclusivity validation"
+  ],
+  "versions": [
+    "BC28",
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "No more monthly manual updates. Set the formula once, and the posting window moves forward on its own.",
+      "why_it_matters": "This summarizes the core benefit of eliminating repetitive administrative tasks that were easy to forget."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

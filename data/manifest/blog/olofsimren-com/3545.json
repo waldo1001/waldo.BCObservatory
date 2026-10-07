@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/reopen-finished-production-orders/",
   "published_at": "2025-07-29T12:38:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:14.029Z",
+      "path": "vault:posts/olofsimren-com/3545.md",
+      "words": 529
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:14.038Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:14.039Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:14.042Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:17.622Z",
+      "path": "content/posts/olofsimren-com/3545.md"
     }
   },
   "input_hash": "2025-07-29T12:38:47.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ead683f67ec392c41ee8e7f0a16221eebfdba4ff1b62234cf3344763f1e92f2"
 }

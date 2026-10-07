@@ -7,15 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/who-keeps-moving-my-business-central.html",
   "published_at": "2026-03-10T06:14:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:12.066Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4842738910605275102--13a8589b03.md",
+      "words": 503
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:12.078Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:12.079Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:12.081Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:12.127Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4842738910605275102--13a8589b03.md"
     }
   },
   "input_hash": "2026-03-10T06:14:49.393Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T01:43:15.805Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "333fd792bb62ff8e37b9b9b0febc60ea3f431354e5e6a27c6c097233613c236c"
 }

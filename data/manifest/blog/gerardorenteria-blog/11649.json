@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/08/02/%f0%9f%91%80a-visual-personal-tags-system-%f0%9f%93%a2/",
   "published_at": "2025-08-02T15:39:50.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:12.991Z",
+      "path": "vault:posts/gerardorenteria-blog/11649.md",
+      "words": 1384
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:13.009Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:13.010Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:13.011Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:13.023Z",
+      "path": "content/posts/gerardorenteria-blog/11649.md"
     }
   },
   "input_hash": "2025-08-02T15:39:50.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "203e14557e59b02eb95aa52bc94bd70cd7ef0ec963d1311204179cae41310af5"
 }
