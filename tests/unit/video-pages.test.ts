@@ -11,6 +11,7 @@ import { validate } from "../../pipeline/lib/schema.js";
 import type { Llm, VideoExtraction } from "../../pipeline/extract/video.js";
 import { clip, summarizedHandler, tidy } from "../../pipeline/summarize/video.js";
 import { hms, publishedHandler, renderVideoIndex } from "../../pipeline/render/video.js";
+import { objectIndexReads } from "../../pipeline/link/mentions.js";
 
 const ID = "-vdhfNMNZQk"; // a real seed id: leading dash, mixed case
 const item = (over: Partial<ManifestItem> = {}): ManifestItem => ({
@@ -74,7 +75,8 @@ test("page: valid video frontmatter, evidence with t, escaped tables, objects ma
   assert.equal(data.review.state, "unreviewed");
   assert.deepEqual(data.evidence[0], { kind: "video", url: `https://www.youtube.com/watch?v=${ID}&t=61s`, title: "Posting preview: generally available", date: "2026-10-01T13:04:04.000Z", commit: null, t: 61, quote: "it is generally available today" });
   assert.ok(content.includes("| Batch \\| posting | status not stated |"));
-  assert.ok(content.includes("not yet verified against the code pillar"));
+  assert.ok(content.includes("not joined to the object pages (no object index)"), "without data/index/objects.json nothing is joined");
+  assert.deepEqual(data.links.objects, []);
   assert.ok(content.includes("**unreviewed** (machine-generated)"));
 
   const again = await publishedHandler(item(), { ...ctx, now: () => new Date("2026-10-08T01:00:00Z") });
@@ -96,4 +98,27 @@ test("flagged items render with a flagged badge; a missing summary fails the sta
   await publishedHandler(item({ flags: ["quote-check"] }), { dataDir, contentDir, sources: new Map(), now: () => new Date() });
   const { data } = matter(readFileSync(join(contentDir, `videos/${ID}.md`), "utf8"));
   assert.deepEqual([data.review.state, data.review.flags, data.source_name], ["flagged", ["quote-check"], "yt-microsoft"]);
+});
+
+test("page: objects heard join their object pages by exact type and name (D67); the rest stay text; the index is read once", async () => {
+  const { dataDir, contentDir } = dirs();
+  const x = { ...extraction, objects: [{ type: "table", name: "Gen. Posting Setup", t: 130 }, { type: "table", name: "general posting setup ", t: 140 }, { type: "codeunit", name: "Search", t: 150 }, { type: "table", name: "SalesLine", t: 160 }, { type: "other", name: "find set", t: 170 }] };
+  writeJson(join(dataDir, `extract/video/${ID}.json`), x);
+  writeJson(join(dataDir, "index/objects.json"), { schema: "bcobs-objects@1", count: 3, rows: [
+    ["table/252", "table", 252, "General Posting Setup", "Base Application", "Microsoft.Finance.GeneralLedger.Setup", null, "25", "", 0, 0],
+    ["codeunit/7282", "codeunit", 7282, "Search", "App A", null, null, "28", "", 0, 0], ["codeunit/7333", "codeunit", 7333, "Search", "App B", null, null, "28", "", 0, 0]] });
+  await summarizedHandler(item({ state: "extracted" }), { dataDir }, fakeSummary(SUMMARY).llm);
+  const ctx = { dataDir, contentDir, sources: new Map(), now: () => new Date("2026-10-07T01:00:00Z") };
+  const before = objectIndexReads();
+  await publishedHandler(item(), ctx);
+  await publishedHandler(item(), ctx);
+  assert.equal(objectIndexReads() - before, 1, "one parse for the run, not one per page");
+  const { data, content } = matter(readFileSync(join(contentDir, `videos/${ID}.md`), "utf8"));
+  assert.ok(validate("frontmatter.video", data).ok);
+  assert.deepEqual(data.links.objects, ["object/table/252"]);
+  assert.ok(content.includes(`- [table 252 "General Posting Setup"](../objects/table/252.md) at [2:20](https://www.youtube.com/watch?v=${ID}&t=140s)`));
+  assert.ok(content.includes(`- table "Gen. Posting Setup" at [2:10]`), "an inexact name stays as heard");
+  assert.ok(content.includes('Not found in BC28-30: table "Gen. Posting Setup", table "SalesLine".'));
+  assert.ok(content.includes('More than one object has this name, so none is linked: codeunit "Search".'));
+  assert.ok(content.includes('- other "find set" at') && !/Not found[^\n]*find set/.test(content), "a name of no object type is listed but never called not found");
 });

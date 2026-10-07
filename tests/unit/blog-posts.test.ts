@@ -10,7 +10,9 @@ import type { StageFn } from "../../pipeline/orchestrator/execute.js";
 import type { Llm } from "../../pipeline/extract/video.js";
 import { htmlToText, mainContent, postFetched, postRawPath } from "../../pipeline/fetch/post.js";
 import { extractPosts, verbatimQuote } from "../../pipeline/extract/post.js";
-import { policyCheckedPage, renderPostIndex, renderPostPage } from "../../pipeline/render/post.js";
+import { pendingMentionPages, policyCheckedPage, renderPostIndex, renderPostPage } from "../../pipeline/render/post.js";
+import { objectIndexFromRows } from "../../pipeline/link/mentions.js";
+import { writeJson } from "../../pipeline/lib/fsx.js";
 import { repeatChecker } from "../../pipeline/validate/leak.js";
 import { validateContent } from "../../pipeline/validate/content.js";
 
@@ -157,4 +159,29 @@ test("a page that repeats the post across the title seam is scrubbed, and skippe
   } finally {
     if (prev === undefined) delete process.env.BCOBS_VAULT_DIR; else process.env.BCOBS_VAULT_DIR = prev;
   }
+});
+
+test("published: objects the post names link to their pages and fill links.objects (D67); unresolved and ambiguous stay text", () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-posts-"));
+  const objects = [{ type: "codeunit", name: "Sales Line-Reserve" }, { type: "table", name: "SalesLine" }, { type: "page", name: "Customer Card" }, { type: "codeunit", name: "Search" }, { type: "table", name: "SalesLine" }];
+  const x = { item_id: "blog/kauffmann-nl/1234", url: "u", title: "t", source: "kauffmann-nl", published_at: "2026-10-01T08:00:00Z", words: 900, summary: "How to reserve.", key_points: [], systems: [], topics: [], objects, features: [], versions: [], language: "en", quotes: [], trimmed_for_policy: 0, prompt_version: 1, llm: {} } as any;
+  const rows: any[] = [["codeunit/99000845", "codeunit", 99000845, "Sales Line-Reserve", "Base Application", null, null, "25", "", 0, 0],
+    ["table/37", "table", 37, "Sales Line", "Base Application", null, null, "25", "", 0, 0], ["page/21", "page", 21, "Customer Card", "Base Application", null, null, "25", "", 0, 0], ["page/21-be", "page", 21, "Customer Card (BE)", "BE layer", null, null, "29", "", 0, 0],
+    ["codeunit/7282", "codeunit", 7282, "Search", "App A", null, null, "28", "", 0, 0], ["codeunit/7333", "codeunit", 7333, "Search", "App B", null, null, "28", "", 0, 0]];
+  const it = item({ stages: { fetched: { at: "x", output_hash: "h" }, published: { at: "x" } } });
+  const page = renderPostPage(it, x, { name: "Kauffmann" }, new Date(), undefined, objectIndexFromRows(rows));
+  const { data, content } = matter(page);
+  assert.deepEqual(data.links.objects, ["object/codeunit/99000845"]);
+  assert.ok(content.includes('- [codeunit 99000845 "Sales Line-Reserve"](../../objects/codeunit/99000845.md)'));
+  assert.ok(content.includes('- table "SalesLine"'));
+  assert.ok(content.includes('Not found in BC28-30: table "SalesLine".'), "named once, however often the post names it");
+  assert.ok(content.includes('More than one object has this name, so none is linked: page "Customer Card", codeunit "Search".'), "a country layer's page shares the W1 name, as on the object pages");
+  // the nightly re-renders a post whose page lacks the join it would get now, and only that one
+  writeJson(join(root, "data/extract/blog/kauffmann-nl/1234.json"), x);
+  writeJson(join(root, "data/index/objects.json"), { schema: "bcobs-objects@1", count: rows.length, rows });
+  mkdirSync(join(root, "content/posts/kauffmann-nl"), { recursive: true });
+  writeFileSync(join(root, "content/posts/kauffmann-nl/1234.md"), renderPostPage(it, x, { name: "Kauffmann" }, new Date()));
+  assert.deepEqual(pendingMentionPages([it], join(root, "data"), join(root, "content")).map((i) => i.id), [it.id]);
+  writeFileSync(join(root, "content/posts/kauffmann-nl/1234.md"), page);
+  assert.deepEqual(pendingMentionPages([it], join(root, "data"), join(root, "content")), []);
 });

@@ -16,7 +16,7 @@ function content(): string {
   writeText(join(dir, "topics/fin/gl.md"), page({ id: "topic/fin/gl", type: "topic", title: "General ledger", tier: "official", system: "finance", links: L({ topics: ["topic/fin"], learn: ["https://learn.microsoft.com/a", "https://learn.microsoft.com/b", "https://learn.microsoft.com/c"], posts: ["post/kauffmann-nl/1"], objects: ["object/table/17"] }) }));
   writeText(join(dir, "objects/table/17.md"), page({ id: "object/table/17", type: "object", title: 'Table 17 "G/L Entry"', tier: "official", object_type: "table", name: "G/L Entry", namespace: "Microsoft.Finance.GeneralLedger.Ledger", changed_in: ["29"], links: L({ topics: ["topic/fin/gl"], localizations: ["localization/be"] }) }));
   writeText(join(dir, "localizations/be.md"), page({ id: "localization/be", type: "localization", title: "Belgium (BE)", tier: "official", links: L({ objects: ["object/table/17"] }) }));
-  writeText(join(dir, "posts/kauffmann-nl/1.md"), page({ id: "post/kauffmann-nl/1", type: "post", title: "A post", tier: "community", source_id: "kauffmann-nl", system: "finance", published_at: "2026-10-01", objects_mentioned: ["table G/L Entry", "table G/L Entries"], links: L({ topics: ["topic/fin/gl"] }) }));
+  writeText(join(dir, "posts/kauffmann-nl/1.md"), page({ id: "post/kauffmann-nl/1", type: "post", title: "A post", tier: "community", source_id: "kauffmann-nl", system: "finance", published_at: "2026-10-01", objects_mentioned: ["table G/L Entry", "table G/L Entries"], links: L({ topics: ["topic/fin/gl"], objects: ["object/table/17"] }) }));
   // a source page (blogs and channels have one) belongs to the Sources system, whichever page is read first
   writeText(join(dir, "sources/yt-x.md"), page({ id: "source/yt-x", type: "source", title: "A channel", tier: "community", links: L() }));
   return dir;
@@ -43,6 +43,9 @@ test("graph: typed edges from frontmatter links, deduplicated; a valid summary; 
   assert.equal(s.nodes.find((n: any) => n.id === "source/yt-x").group, "sources");
   const full = readFileSync(join(dataDir, "graph/full.jsonl"), "utf8");
   assert.match(full, /"s":"post\/kauffmann-nl\/1","t":"source\/kauffmann-nl","type":"authored"/);
+  const mentions = full.split("\n").filter((l) => l.includes('"type":"mentions"'));
+  assert.equal(mentions.length, 1, "links.objects and the mentioned names give one mentions edge (D67)");
+  assert.match(mentions[0], /"w":1\b/);
   assert.ok(r.ego >= 5);
   const gl = s.nodes.find((n: any) => n.id === "topic/fin/gl");
   assert.deepEqual([gl.ev, gl.cs], [4, 0.25], "3 Learn pages + 1 community post");

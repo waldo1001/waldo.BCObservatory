@@ -46,7 +46,7 @@ import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
-import { pendingPreviewPages, renderPostIndex, rerenderPostPages } from "../render/post.js";
+import { pendingMentionPages, pendingPreviewPages, renderPostIndex, rerenderPostPages } from "../render/post.js";
 import { refreshChannels, refreshPreviews, writeIcons } from "../extract/preview-probe.js";
 import { relinkChanges, renderChangeIndex, renderChangesByObject, rerenderChangePages } from "../render/change.js";
 import { narrateChangeWeeks } from "../summarize/changes-week.js";
@@ -338,8 +338,10 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
           quota: linking ? quotas.preview_probes ?? 0 : 0, ttlDays: cfg.preview_ttl_days ?? 30, concurrency: cfg.lanes?.web ?? 3,
           http: deps.http, now, deadline: new Date(execution.deadline), sources: blogs,
         });
-        // tonight's probes, plus pages whose preview is out of date (a vault-less backfill, an opt-out, an override)
-        const touched = new Map([...r.touched, ...pendingPreviewPages(manifest.list("blog"), opts.dataDir, contentDirOf(opts), blogs)].map((i) => [i.id, i]));
+        // tonight's probes, plus pages whose preview is out of date (a vault-less backfill, an opt-out, an override),
+        // plus pages whose object join is (D67: written before it, or an object page came, went or was renamed)
+        const touched = new Map([...r.touched, ...pendingPreviewPages(manifest.list("blog"), opts.dataDir, contentDirOf(opts), blogs),
+          ...pendingMentionPages(manifest.list("blog"), opts.dataDir, contentDirOf(opts))].map((i) => [i.id, i]));
         const rerendered = await rerenderPostPages([...touched.values()], blogs, { dataDir: opts.dataDir, contentDir: contentDirOf(opts), now: () => now });
         const channels = linking && deps.channelAvatar
           ? await refreshChannels(deps.sources.filter((s) => s.kind === "youtube" && s.enabled), opts.dataDir, { avatar: deps.channelAvatar, now, ttlDays: cfg.preview_ttl_days ?? 30 })
