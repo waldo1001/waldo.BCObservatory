@@ -226,3 +226,43 @@ The D77 text of section 3, with the measured backlog cost.
   Start with phase 1 (`pipeline/lib/review.ts`, the schema enum and the ten renderer call sites; no LLM). Until it lands
   25,800 pages without any model text read "unreviewed - machine-generated", and videos, posts and changes are
   reviewed only when flagged (3 of 633 videos) or never.
+
+## 12b. Built, part B (review passes for videos, posts and changes)
+
+Built 2026-10-08 on `dev/spec` (videos in one commit, posts, changes and the nightly wiring in the next). No LLM call,
+no nightly run yet; everything below is tested with a fake LLM.
+
+- **Videos.** The flagged-only gate lived in `pipeline/lib/manifest.ts` `nextStage` (not in `stages.ts` or
+  `execute.ts`); it now applies to the other pillars only. `quotaFor("video", "reviewed")` is `video_reviews`, so the
+  hub reviewer's `opus_reviews` remainder is no longer eaten by video reviews. Prompt version 2: the system prompt
+  no longer says "It was flagged". The record gains `input_hash` (extraction plus summary), `by`, `at`.
+- **Video backlog (not in the spec).** Published videos never pass `reviewed` again on their own, so the nightly
+  rewinds up to `video_reviews` due ones (no record, or a record whose `input_hash` differs; pre-D77 records count
+  when the item says `reviewed`) to `linked`, newest first, before planning; ones the run does not reach are put back
+  to `published` unchanged after the item loop (`restoreVideoBacklog`), so a cut-short run drops no video from the
+  digests. A rejected backlog video loses its page and its summary file (the re-render reads the summary), and is
+  skipped `review-rejected` as today.
+- **Posts and changes** are one phase, `content-reviews`, after `topic-reviews` (`pipeline/review/coverage-run.ts`,
+  shared runner `pipeline/review/batch.ts`). Records are `data/review/post/<source>/<fileKey>.json` and
+  `data/review/change/<repo-slug>/<number>.json` (the item id has slashes). The input hash covers the source (post
+  excerpt hash; merge SHA, title and body hash) and the extraction; after a fix the record holds the hash of the edited
+  extraction, so a fixed page is not reviewed again. When an extraction changes, its `review` goes back to
+  `unreviewed` at once (also with quota 0) and the page is re-rendered; the review follows within quota.
+- **Rejections.** Post: summary becomes a fixed "Summary withheld ..." sentence (the frontmatter requires a summary),
+  key points empty; quotes (verbatim, validated), objects, features, systems stay. Change: summary empty (the
+  renderer already falls back to the title line), key points empty; kind, flags and obsoletions stay. State `flagged`.
+- **25-word guard.** Every post edit (summary, each key point) is checked against the post text and refused, not
+  trimmed, when it repeats 25+ words; the edited extraction as a whole is checked again. Issues that repeat the post
+  are dropped from the public record. The guard runs for full-text sources too (stricter than the extractor).
+- **Change body.** `changeBody` (tonight's cache, else one GitHub call); never written to the record.
+- **Report.** `report.reviews.{video,post,change}`: reviewed (every verdict), fixed, rejected, calls, cost_usd, plus
+  candidates, failed, reset, rerendered, stopped for posts and changes. Video numbers are read back from tonight's
+  `reviewed` stage records and rejected items' records. `scripts/run-summary.ts` prints one line per kind.
+- **Not done here:** renderers still print the literal "**unreviewed** (machine-generated)" in the post and change
+  body lines; that is part A's `reviewOf` work.
+
+Backlog the first unlimited run would review (committed `data/manifest/` at `815742eb8e`): videos 521 due in this
+checkout (617 published, 2 reviewed; the rest of the community videos need their caption segments from the vault,
+so about 615 on the Mini), 615 calls; posts 600 published with an extraction, all due where the vault text is
+present, at least 150 calls; changes 1,080 due, 180 calls. About 945 Opus calls, roughly $92 + $15 + $14 at the
+section 9 rates.
