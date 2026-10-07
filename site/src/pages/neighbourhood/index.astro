@@ -1,0 +1,207 @@
+---
+/**
+ * The neighbourhood explorer (D66 phase 3, view C): one object in the middle, what touches it on two rings, one
+ * neighbour expanded at a time, re-centring walks on. Everything is drawn in the browser from
+ * code/neighbours/<major>/<system>.json; the list is the first view and the picture a second one on it.
+ */
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Badges from "../../components/Badges.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import { systems } from "../../lib/page";
+import { relationMajors } from "../../lib/relations";
+import { TYPE_LABEL } from "../../scripts/explorer-core";
+const base = import.meta.env.BASE_URL;
+const majors = relationMajors();
+// tier and review per object: the common pair once, the exceptions by key (today every object page is official, unreviewed)
+const pairs = new Map<string, number>(), byKey: Record<string, string> = {};
+for (const e of await getCollection("objects")) {
+  if (e.data.country) continue;
+  const pair = `${e.data.tier ?? "official"}|${e.data.review?.state ?? "unreviewed"}`;
+  pairs.set(pair, (pairs.get(pair) ?? 0) + 1);
+  byKey[`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`] = pair;
+}
+const common = [...pairs].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "official|unreviewed";
+const exceptions = Object.fromEntries(Object.entries(byKey).filter(([, p]) => p !== common));
+const labels = Object.fromEntries(systems().map((s) => [s.id, s.label]));
+const types = ["table", "page", "codeunit", "report", "query", "xmlport", "enum", "interface", "tableextension", "pageextension", "enumextension", "reportextension"];
+// an 860 px picture as drawn (rings 160 / 260 around 450, 420); the empty band above and below the rings is cut
+const W = 860, Y0 = 80, H = 650;
+---
+<Base title="Neighbourhood explorer · BC Observatory" description="What touches one AL object: its code relations on two rings, its event subscribers, the Learn pages and videos naming it." section="objects">
+  <main class="wrap page xp" data-base={base} data-majors={majors.join(" ")} data-common={common} data-exceptions={JSON.stringify(exceptions)} data-labels={JSON.stringify(labels)}>
+    <Breadcrumb crumbs={[{ label: "Galaxy", href: base }, { label: "AL objects", href: `${base}objects/` }, { label: "Neighbourhood" }]} />
+    <h1 class="long xp-h1">Neighbourhood <span class="xp-h1-of"></span></h1>
+    <p class="xp-status meta" aria-live="polite"></p>
+    <form class="xp-start" hidden>
+      <p class="lead">Pick an AL object to see what touches it: the objects it relates to, what references it, its pages, extensions and event subscribers.</p>
+      <div class="xp-start-row">
+        <label>Type <select name="type">{types.map((t) => <option value={t}>{TYPE_LABEL[t]}</option>)}</select></label>
+        <label>Id or name <input name="q" type="text" autocomplete="off" spellcheck="false" placeholder="18 or Customer" required /></label>
+        <label>Version <select name="v">{[...majors].reverse().map((m) => <option value={m}>BC{m}</option>)}</select></label>
+        <button class="btn primary" type="submit">Show its neighbourhood</button>
+      </div>
+      <p class="meta">Or press <kbd>Ctrl</kbd>+<kbd>K</kbd> to find an object by name, or use the <a href={`${base}search/`}>search page</a>; every object page links here.</p>
+    </form>
+    <div class="xp-grid" hidden>
+      <aside class="xp-rail" aria-label="Explorer controls">
+        <div class="xp-mode" role="group" aria-label="Mode">
+          <button type="button" data-mode="relations" aria-pressed="true">Relations</button>
+          <button type="button" data-mode="events" aria-pressed="false">Events</button>
+        </div>
+        <fieldset class="xp-filters">
+          <legend>Rings: what touches it</legend>
+          <div class="xp-filter-list"></div>
+          <p class="xp-quiet meta" hidden></p>
+        </fieldset>
+        <div class="xp-legend" aria-label="Relation kind by line style">
+          <p class="xp-rail-h">Relation kind: line style</p>
+          <ul>
+            {[["solid", "table_relation"], ["dashed", "source_table, pages, runs_on"], ["dotted", "calc_formula, Learn"], ["double", "extends"], ["dashdot", "event subscription"]].map(([s, l]) => (
+              <li><svg viewBox="0 0 36 10" width="36" height="10" aria-hidden="true"><line x1="1" y1="5" x2="35" y2="5" class={`xe ${s}`} />{s === "double" && <line x1="1" y1="5" x2="35" y2="5" class="xe-in" />}</svg><span class="mono">{l}</span></li>
+            ))}
+          </ul>
+        </div>
+        <label class="xp-ver">Version <select class="xp-v">{[...majors].reverse().map((m) => <option value={m}>BC{m}</option>)}</select></label>
+        <button type="button" class="btn xp-aslist" aria-pressed="false">Show as list</button>
+      </aside>
+      <section class="xp-list vh" aria-label="Neighbours as a list"></section>
+      <div class="xp-pic">
+        <svg viewBox={`0 ${Y0} ${W} ${H}`} class="xp-svg" role="group" aria-label="Neighbourhood picture"></svg>
+        <div class="xp-empty" hidden></div>
+      </div>
+      <aside class="xp-panel" aria-label="Selected object and link"></aside>
+    </div>
+    {[...new Set([common, ...Object.values(exceptions)])].map((p) => <template data-badges={p}><Badges tier={p.split("|")[0]} review={p.split("|")[1]} /></template>)}
+  </main>
+</Base>
+<script>
+  import { mountExplorer } from "../../scripts/explorer";
+  const el = document.querySelector<HTMLElement>("main.xp");
+  if (el) mountExplorer(el);
+</script>
+<!-- all selectors sit under .xp, so these stay global (D53: a scoped style tags every element) -->
+<style is:global>
+  .xp.wrap { max-width: 1520px; }
+  .xp .xp-h1 { margin-bottom: 8px; }
+  .xp .xp-h1-of { color: var(--text-2); }
+  .xp .xp-status { min-height: 1.5em; margin: 0 0 12px; }
+  .xp .xp-start-row { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; margin-bottom: 12px; }
+  .xp label { font-size: 13px; color: var(--muted); }
+  .xp .xp-start-row label, .xp .xp-ver { display: grid; gap: 4px; }
+  .xp select, .xp input[type="text"] { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 44px; }
+  .xp kbd { font: 500 12px var(--font-mono); border: 1px solid var(--line-strong); border-radius: 4px; padding: 0 4px; }
+  .xp-grid { display: grid; grid-template-columns: 220px minmax(0, 1fr) 360px; grid-template-areas: "rail pic panel"; gap: 20px; align-items: start; }
+  .xp-grid[hidden] { display: none; }
+  .xp-rail { grid-area: rail; display: grid; gap: 16px; }
+  .xp-pic, .xp-list:not(.vh) { grid-area: pic; }
+  .xp-panel { grid-area: panel; display: grid; gap: 12px; min-width: 0; }
+  .xp-mode { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line-strong); border-radius: var(--r-card); overflow: hidden; }
+  .xp-mode button { min-height: 44px; background: transparent; color: var(--text-2); border: 0; font: 600 14px var(--font-ui); cursor: pointer; }
+  .xp-mode button + button { border-left: 1px solid var(--line-strong); }
+  .xp-mode button[aria-pressed="true"] { background: var(--nb-pill-open-bg); color: var(--nb-pill-open-text); }
+  .xp-filters { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .xp-filters legend, .xp-rail-h { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; padding: 0; margin: 0 0 4px; }
+  .xp-filter { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: 14px; color: var(--text); border-bottom: 1px solid var(--line); cursor: pointer; }
+  .xp-filter input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent-dot); }
+  .xp-filter b { margin-left: auto; font: 500 12px var(--font-mono); color: var(--text-2); }
+  .xp-filter.off { color: var(--muted); }
+  .xp-quiet { margin: 8px 0 0; }
+  .xp-legend ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; font-size: 12px; color: var(--text-2); }
+  .xp-legend li { display: flex; align-items: center; gap: 8px; }
+  .xp .xe { stroke: var(--nb-edge); stroke-width: 1; fill: none; }
+  .xp .xe.dashed { stroke-dasharray: 6 4; }
+  .xp .xe.dotted { stroke-dasharray: 1 5; stroke-linecap: round; stroke-width: 1.5; }
+  .xp .xe.double { stroke-width: 3; }
+  .xp .xe.dashdot { stroke-dasharray: 8 3 2 3; }
+  .xp .xe-in { stroke: var(--g-bg); stroke-width: 1; }
+  .xp-legend .xe-in { stroke: var(--bg); }
+  .xp-pic { position: relative; min-width: 0; }
+  .xp-svg { display: block; width: 100%; height: auto; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
+  .xp-svg .guide { fill: none; stroke: var(--nb-ring); }
+  .xp-svg .guide.r2, .xp-svg .divider { stroke-dasharray: 2 6; }
+  .xp-svg .divider { stroke: var(--nb-ring); }
+  .xp-svg .empty-ring { fill: none; stroke: var(--nb-edge); stroke-dasharray: 4 6; }
+  .xp-svg .dir { font: 400 11px var(--font-mono); fill: var(--nb-direction); }
+  .xp-svg .grp { font: 400 11px var(--font-mono); fill: var(--nb-pill-text); }
+  .xp-svg .lb { font: 600 13px var(--font-ui); fill: var(--text); paint-order: stroke; stroke: var(--g-bg); stroke-width: 3px; stroke-linejoin: round; }
+  .xp-svg .sl { font: 400 11px var(--font-mono); fill: var(--nb-direction); paint-order: stroke; stroke: var(--g-bg); stroke-width: 3px; }
+  .xp-svg .xn .sl { opacity: 0; }
+  .xp-svg .xn:hover .sl, .xp-svg .xn:focus .sl, .xp-svg .xn.kf .sl, .xp-svg .xn.sel .sl { opacity: 1; }
+  .xp-svg .end { text-anchor: end; }
+  .xp-svg .mid { text-anchor: middle; }
+  .xp-svg .centre { fill: var(--nb-centre); }
+  .xp-svg .xn { cursor: pointer; outline: none; }
+  .xp-svg .hit { fill: transparent; }
+  .xp-svg .xn:hover .xe, .xp-svg .xn.sel .xe, .xp-svg .xn:focus .xe { stroke: var(--nb-edge-active); stroke-width: 2; }
+  .xp-svg .xn:hover .xe.double, .xp-svg .xn.sel .xe.double { stroke-width: 3.5; }
+  .xp-svg .ring { fill: none; stroke: none; stroke-width: 2; }
+  .xp-svg .xn:focus-visible .ring, .xp-svg .xn.kf .ring { stroke: var(--focus); }
+  .xp-svg .xn.sel .ring { stroke: var(--nb-selected-ring); }
+  .xp-svg .xn.sel .shape { fill: var(--nb-centre) !important; }
+  .xp-svg .xn.sel .lb { fill: var(--nb-selected-ring); }
+  .xp-svg .learn { fill: var(--link); }
+  .xp-svg .video { fill: var(--ev-video-text); }
+  .xp-svg .post { fill: var(--ev-blog-text); }
+  .xp-svg .event { fill: var(--nb-event-rest); }
+  .xp-svg .xn.sel .event, .xp-svg .xn:hover .event { fill: var(--nb-event); }
+  .xp-svg .pill rect { fill: var(--nb-pill-bg); stroke: var(--nb-pill-border); }
+  .xp-svg .pill.open rect { fill: var(--nb-pill-open-bg); stroke: var(--nb-pill-open-border); }
+  .xp-svg .pill.open .grp { fill: var(--nb-pill-open-text); }
+  .xp-svg .pill:hover rect { stroke: var(--nb-edge-active); }
+  .xp-svg .hop2 .shape { opacity: .85; }
+  .xp-svg .fade { animation: xp-in 300ms both; }
+  @keyframes xp-in { from { opacity: 0; } to { opacity: 1; } }
+  .xp-empty { position: absolute; left: 0; right: 0; top: 62%; text-align: center; display: grid; gap: 10px; justify-items: center; padding: 0 16px; }
+  .xp-empty[hidden] { display: none; }
+  .xp-empty p { margin: 0; color: var(--text-2); }
+  .xp-empty div { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .xp-list.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .xp-list { display: grid; gap: 8px; align-content: start; }
+  .xp-list details { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
+  .xp-list summary { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 14px; cursor: pointer; font-weight: 600; }
+  .xp-list summary b { margin-left: auto; font: 500 12px var(--font-mono); color: var(--text-2); }
+  .xp-list ul { list-style: none; margin: 0; padding: 0; }
+  .xp-row { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; width: 100%; min-height: 44px; padding: 6px 14px 6px 24px; background: transparent; border: 0; border-top: 1px solid var(--line); color: var(--text); font: 400 14px var(--font-ui); text-align: left; text-decoration: none; cursor: pointer; }
+  .xp-row:hover { background: var(--bg); color: var(--text); }
+  .xp-row.kf, .xp-row:focus-visible { outline: 2px solid var(--focus); outline-offset: -4px; }
+  .xp-row.sel { background: var(--nb-pill-open-bg); }
+  .xp-row .t { flex: 1 1 200px; min-width: 0; }
+  .xp-row .k { font: 400 12px var(--font-mono); color: var(--text-2); }
+  .xp-row .sq { flex: none; width: 10px; height: 10px; border-radius: 2px; background: var(--dot, var(--muted)); }
+  .xp-row .sq.c { border-radius: 50%; }
+  .xp-row .sys { font: 400 12px var(--font-mono); color: var(--muted); }
+  .xp-panel h2 { font-size: 20px; font-weight: 700; margin: 0; line-height: 1.2; }
+  .xp-panel h3 { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 8px 0 4px; }
+  .xp-panel p { margin: 0; }
+  .xp-id { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .xp-sentence { font-size: 15px; color: var(--text); }
+  .xp-cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+  .xp-cards li { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); padding: 8px 12px; display: grid; gap: 2px; }
+  .xp-cards .kind { font: 500 11px var(--font-mono); color: var(--nb-direction); }
+  .xp-cards code { font-size: 13px; color: var(--text); overflow-wrap: anywhere; }
+  .xp-acts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .xp-acts .btn { min-height: 44px; }
+  .xp-trail ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 4px; font-size: 14px; }
+  .xp-trail li + li::before { content: "→ "; color: var(--muted); }
+  .xp-group { display: grid; gap: 8px; max-height: 70vh; overflow-y: auto; padding-right: 4px; }
+  .xp-svg .small .lb { font-size: 11px; }
+  .xp-kinds { display: flex; flex-wrap: wrap; gap: 4px 12px; font: 400 12px var(--font-mono); }
+  .xp-kinds label { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; color: var(--text-2); }
+  .xp-sys-h { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; align-items: center; margin-top: 6px; font-size: 14px; font-weight: 600; }
+  .xp-sys-h b { font: 500 12px var(--font-mono); color: var(--text-2); }
+  .xp-bar { grid-column: 1 / -1; height: 4px; border-radius: 2px; background: var(--dot, var(--muted)); }
+  .xp-group ul { list-style: none; padding: 0; margin: 0; }
+  .xp-group .xp-row { padding-left: 8px; }
+  @media (max-width: 1180px) {
+    .xp-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "rail" "pic" "panel"; }
+    .xp-rail { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); align-items: start; }
+  }
+  @media (max-width: 600px) {
+    .xp-pic, .xp-legend, .xp-aslist { display: none; }
+    .xp-list.vh { position: static; width: auto; height: auto; overflow: visible; clip-path: none; white-space: normal; }
+    .xp-grid { grid-template-areas: "rail" "list" "panel"; }
+    .xp-list, .xp-list.vh { grid-area: list; }
+    .xp-filters { display: none; }
+  }
+</style>
