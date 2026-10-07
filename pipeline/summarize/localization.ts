@@ -20,6 +20,7 @@ import type { Llm } from "../extract/video.js";
 import type { AlDiff, ObjectDiff } from "../code/diff.js";
 import { clip, tidy } from "./video.js";
 import { areaOf } from "../lib/systems.js";
+import type { HubReview } from "../review/hub.js";
 
 export const PROMPT_VERSION = 2;
 export const STAGE = "hub-localization";
@@ -47,6 +48,8 @@ export interface LocalizationNarrative {
   /** Per area (D50): what changes, why (from Learn, or null), the objects that carry it. */
   areas?: NarrativeArea[];
   learn_pages_used: number; prompt_version: number; at: string; llm: { model: string; cached: boolean; cost_usd: number | null };
+  /** Opus review of this narrative (D77, review/narrative.ts); valid only while its input_hash is the narrative's. */
+  review?: HubReview;
 }
 export const narrativePath = (dataDir: string, cc: string) => resolve(dataDir, "hubs", "localizations", `${cc}.json`);
 export const loadLocalizationNarrative = (dataDir: string, cc: string): LocalizationNarrative | null => {

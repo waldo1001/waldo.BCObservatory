@@ -20,7 +20,8 @@ import { latestRoadmap } from "./feature.js";
 import { postPageKey } from "./post.js";
 import { loadSources } from "../lib/config.js";
 import { activityPath, mergedLogPath, type Activity, type MergedKind } from "../ingest/github-prs.js";
-import { loadNarrative } from "../summarize/changes-week.js";
+import { loadNarrative, PROMPT_VERSION as NARR_V, STAGE as NARR_STAGE, type WeekNarrative } from "../summarize/changes-week.js";
+import { reviewOf, type Review } from "../lib/review.js";
 import { PIPELINE_VERSION } from "../version.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -85,10 +86,12 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   const counts = { roadmap_added: rAdded.length, roadmap_changed: rChanged.length, videos: videos.length, posts: posts.length, docs: docs.length, deprecations: dep?.count ?? 0, cleanup_due: overdue.length,
     changes: merged.length, changes_behavior: behavior.length, changes_obsoletions: obsoleting.length };
   const summary = `Business Central, week ${w.id} (${w.start} to ${w.end}): ${counts.videos} videos, ${counts.posts} community posts, ${counts.docs} Learn pages changed, ${counts.roadmap_added} roadmap features added and ${counts.roadmap_changed} changed, ${counts.changes} pull requests merged into the code (${counts.changes_behavior} changing behaviour); ${counts.deprecations} obsolete elements in BC${inp.currentMajor}, ${counts.cleanup_due} with their cleanup due.`;
+  // the week's narrative is the only model text of a digest (D77); one Opus rejected is withheld (D21)
+  const { story, review } = digestReview(loadNarrative(dataDir, w.id));
   const fm = {
     id: `digest/${w.id}`, type: "digest", title: `BC Observatory weekly: ${w.id}`, summary, tier: "mixed", language: "en", tags: ["digest"],
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify([counts, videos.map((i) => i.id), posts.map((i) => i.id), rAdded, rChanged, changePages.map((c) => c.rel), loadNarrative(dataDir, w.id)?.input_hash ?? null])) },
+    review,
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: story ? { [NARR_STAGE]: NARR_V } : {}, input_hash: sha256(JSON.stringify([counts, videos.map((i) => i.id), posts.map((i) => i.id), rAdded, rChanged, changePages.map((c) => c.rel), loadNarrative(dataDir, w.id)?.input_hash ?? null])) },
     evidence: [], links: { learn: docs.slice(0, 50).map((i) => i.url), objects: [], features: [...rAdded, ...rChanged].map((id) => `feature/${id}`), topics: [], localizations: [], videos: videos.filter((i) => exists(resolve(contentDir, "videos", `${i.id.slice(i.id.lastIndexOf("/") + 1)}.md`))).map((i) => `video/${i.id.slice(i.id.lastIndexOf("/") + 1)}`), posts: posts.filter((i) => exists(resolve(contentDir, "posts", `${postPageKey(i)}.md`))).map((i) => `post/${postPageKey(i)}`), guidelines: [], changes: changePages.slice(0, 50).map((c) => `change/${c.rel}`) },
     week: w.id, range: { start: w.start, end: w.end }, sections: counts,
   };
@@ -103,8 +106,8 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   lines.push("## Code", "", ...snaps.map((m) => `- BC${m.major}: ${m.branch} at ${m.commit.slice(0, 8)}, ${m.objects} W1 objects`),
     ...vdiffs.map((d) => `- BC${d.from.version} to BC${d.to.version}: ${d.summary.objects} objects differ (${d.summary.fields_added} fields, ${d.summary.events_added} events, ${d.summary.procedures_added} procedures added)`), "");
   lines.push("## Code changes", "");
-  const story = loadNarrative(dataDir, w.id);
-  if (story) lines.push(`${story.text}`, "", `(${story.changes} changes summarised by Sonnet from the change pages; machine-generated.)`, "");
+  if (story) lines.push(`${story.text}`, "", `(${story.changes} changes summarised by Sonnet from the change pages; ${review.state === "reviewed" ? "reviewed by Opus" : "machine-generated, not yet reviewed"}.)`, "");
+  else if (review.state === "flagged") lines.push("The week's narrative was withheld after an Opus review found a problem.", "");
   if (merged.length) {
     const byBranch = new Map<string, Record<MergedKind, number>>();
     for (const m of merged) { const b = byBranch.get(`${m.repo} ${m.base}`) ?? { item: 0, bot: 0, backport: 0 }; b[m.kind]++; byBranch.set(`${m.repo} ${m.base}`, b); }
@@ -132,21 +135,44 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   return { page: `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`, counts };
 }
 
+/** The narrative a digest shows and the page's review block: derived without one, its review's state with one. */
+export function digestReview(n: WeekNarrative | null): { story: WeekNarrative | null; review: Review } {
+  const rv = n?.review && n.review.input_hash === n.input_hash ? n.review : null;
+  if (rv?.state === "flagged") return { story: null, review: { state: "flagged", by: rv.by, at: rv.at, flags: ["narrative-rejected"] } };
+  return { story: n, review: reviewOf(!!n, rv) };
+}
+
+/** An older week's page keeps its content ("older weeks stay"); only its review block follows the narrative (D77). */
+export function syncDigestReview(path: string, review: Review): boolean {
+  const text = readText(path);
+  const block = `review:\n  state: ${review.state}\n  by: ${review.by ?? "null"}\n  at: ${review.at ? JSON.stringify(review.at) : "null"}\n  flags: ${review.flags.length ? `\n${review.flags.map((f) => `    - ${f}`).join("\n")}` : "[]"}\n`;
+  const next = text.replace(/^review:\n(?: {2}.*\n| {4}- .*\n)*/m, block);
+  if (next === text) return false;
+  writeText(path, next);
+  return true;
+}
+
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
 function matterData(f: string): Record<string, any> { try { return matter(readText(f)).data; } catch { return {}; } }
 
 /** Render the current week and `back` weeks before it; write only on change; refresh the index. */
 export function renderDigests(inp: DigestInput, now: Date, back = 1): string[] {
-  const written: string[] = [];
+  const written: string[] = [], rendered = new Set<string>();
   for (let i = back; i >= 0; i--) {
     const d = new Date(now); d.setUTCDate(d.getUTCDate() - 7 * i);
     const w = isoWeek(d);
+    rendered.add(w.id);
     const { page } = renderDigest(w, inp, now);
     const path = resolve(inp.contentDir, "digests", `${w.id}.md`);
     if (!exists(path) || stable(readText(path)) !== stable(page)) { writeText(path, page); written.push(w.id); }
   }
   const dir = resolve(inp.contentDir, "digests");
   const files = listFiles(dir, ".md").map((f) => relative(dir, f)).sort().reverse();
+  // older weeks are not re-rendered; their review block still says whether the page holds model text (D77)
+  for (const f of files) {
+    const id = f.replace(/\.md$/, "");
+    if (/^\d{4}-W\d{2}$/.test(id) && !rendered.has(id)) syncDigestReview(resolve(dir, f), digestReview(loadNarrative(inp.dataDir, id)).review);
+  }
   const idx = resolve(dir, "llms.txt");
   if (!files.length) { removeIfExists(idx); return written; }
   const text = ["# BC Observatory: weekly digests", "", "> What changed in Business Central each ISO week: roadmap, videos, community posts, Learn commits, code snapshots,", "> deprecation radar. Frontmatter: schemas/frontmatter.digest.json. RSS: ../rss.xml.", "",

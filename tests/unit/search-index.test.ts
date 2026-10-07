@@ -19,6 +19,8 @@ test("a hub's record says where it sits, how big it is and whether its narrative
   assert.equal(bare.narrative, "none");
   assert.equal(bare.stats, "5 Learn pages · no narrative");
   assert.equal(pageRecord("topics/y", { type: "topic", title: "Y", learn_toc_path: ["A", "Y"], narrative: "generated", review: { state: "unreviewed" }, coverage: { learn: 1 } }).narrative, "unreviewed");
+  // D77: a derived hub has no narrative and ranks as none
+  assert.equal(pageRecord("topics/z", { type: "topic", title: "Z", learn_toc_path: ["A", "Z"], narrative: "none", review: { state: "derived" }, coverage: { learn: 1 } }).narrative, "none");
 });
 
 test("long TOC paths keep their last two parts (D65 5.1, 11.4)", () => {

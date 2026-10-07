@@ -173,7 +173,7 @@ export function fuse(lists: string[][], k = 60): string[] {
 export function startFactor(r: Pick<PageRecord, "type" | "members" | "narrative">): number {
   if (r.type !== "topic" && r.type !== "app") return 1;
   const size = 1 + Math.log2((r.members ?? 0) + 1) / 10;
-  return size * (r.type === "topic" ? ({ reviewed: 1.1, unreviewed: 1, none: 0.9 } as Record<string, number>)[r.narrative ?? "unreviewed"] ?? 1 : 1);
+  return size * (r.type === "topic" ? ({ reviewed: 1.1, unreviewed: 1, none: 0.9, derived: 0.9 } as Record<string, number>)[r.narrative ?? "unreviewed"] ?? 1 : 1);
 }
 /** A ranked list (top 50 by score, keyword or meaning) re-sorted by score x startFactor, before the lists are fused. */
 export function resort(scored: [string, number][], byPath: Map<string, PageRecord>): string[] {

@@ -49,6 +49,7 @@ test("app pages: objects by type, the hubs that document them, media by exact na
   const fm = sb.data;
   assert.ok(validate("frontmatter.app", fm).ok, JSON.stringify(validate("frontmatter.app", fm).errors));
   assert.equal(fm.id, "app/subscription-billing");
+  assert.deepEqual(fm.review, { state: "derived", by: null, at: null, flags: [] }, "D77: an app page holds no model text");
   assert.equal(fm.system, "sales");
   assert.equal(fm.namespace_root, "Microsoft.SubscriptionBilling");
   assert.deepEqual(fm.present_in, ["29", "30"]);

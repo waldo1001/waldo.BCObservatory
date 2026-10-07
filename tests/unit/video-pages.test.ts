@@ -98,6 +98,10 @@ test("flagged items render with a flagged badge; a missing summary fails the sta
   await publishedHandler(item({ flags: ["quote-check"] }), { dataDir, contentDir, sources: new Map(), now: () => new Date() });
   const { data } = matter(readFileSync(join(contentDir, `videos/${ID}.md`), "utf8"));
   assert.deepEqual([data.review.state, data.review.flags, data.source_name], ["flagged", ["quote-check"], "yt-microsoft"]);
+  // D77: the video review's item.review wins over the first-pass flag, through reviewOf
+  await publishedHandler(item({ flags: ["quote-check"], review: { state: "reviewed", by: "opus", at: "2026-10-08T01:00:00Z" } }), { dataDir, contentDir, sources: new Map(), now: () => new Date() });
+  const rv = matter(readFileSync(join(contentDir, `videos/${ID}.md`), "utf8")).data;
+  assert.deepEqual([rv.review.state, rv.review.by, rv.review.flags], ["reviewed", "opus", ["quote-check"]]);
 });
 
 test("page: objects heard join their object pages by exact type and name (D67); the rest stay text; the index is read once", async () => {

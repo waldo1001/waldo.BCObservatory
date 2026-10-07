@@ -15,7 +15,8 @@ const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&l
 const words = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}\s.-]/gu, " ").split(/\s+/).filter((w) => w.length > 1 || /\d/.test(w));
 /** Words that say the reader is after an AL object: no demotion then. */
 const OBJECT_WORDS = new Set(["table", "page", "codeunit", "report", "enum", "query", "xmlport", "interface", "permissionset", "field", "event"]);
-const NARRATIVE: Record<string, number> = { reviewed: 2, unreviewed: 0, none: -2 };
+// D77: derived means no narrative, so it ranks as none; no other ranking reads the review state
+const NARRATIVE: Record<string, number> = { reviewed: 2, unreviewed: 0, none: -2, derived: -2 };
 
 /** An object's name, the part of its title in quotes: 'Page 8059 "Service Objects"' -> "service objects". */
 const nameOf = (title: string) => /"(.*)"$/.exec(title)?.[1] ?? title;

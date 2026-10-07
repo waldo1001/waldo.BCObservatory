@@ -5,6 +5,7 @@
  * - its id is `<type>/<path under content/<type>s/ without .md>` and unique
  * - every id in frontmatter `links` (videos, features, topics, ...) names an existing page
  * - every relative markdown link in a page body or an llms.txt resolves to an existing file
+ * - a page whose review state is `derived` carries no model text (D77; MODEL_TEXT below)
  * Renderers validate frontmatter as they write; this catches what no single renderer sees (stale pages, dangling
  * cross-references, hand edits). No network, no LLM; runs in PR CI and after the nightly renders.
  */
@@ -36,6 +37,29 @@ export function relativeLinks(text: string): string[] {
     out.push(decodeURIComponent(href.split(/[#?]/)[0]));
   }
   return out.filter(Boolean);
+}
+
+/**
+ * Model text per page type (D77): what makes a page hold text a model wrote. Video, post and change pages always do
+ * (summary, key points, chapters). A topic does when `narrative` is not "none"; a localization or a digest when it
+ * names the prompt of its narrative in `generated.prompts`. Object, app, source and feature pages never do (their
+ * `generated.prompts` is empty). A `derived` page must match none of these.
+ */
+export const MODEL_TEXT: Record<string, (fm: any) => string | null> = {
+  video: () => "a video page always holds model text (summary, chapters)",
+  post: () => "a post page always holds model text (summary, key points)",
+  change: () => "a change page always holds model text (summary, key points)",
+  topic: (fm) => (fm.narrative && fm.narrative !== "none" ? "narrative" : null),
+};
+export function derivedErrors(fm: any): string[] {
+  if (fm?.review?.state !== "derived") return [];
+  const out: string[] = [];
+  const why = MODEL_TEXT[String(fm.type)]?.(fm);
+  if (why) out.push(`review.state derived but ${why}`);
+  const prompts = Object.keys(fm.generated?.prompts ?? {});
+  if (prompts.length) out.push(`review.state derived but generated.prompts names ${prompts.join(", ")}`);
+  if (fm.review.by != null || fm.review.at != null) out.push("review.state derived with review.by or review.at set");
+  return out;
 }
 
 /** A post's `preview` (D60): a "yes, frame it" older than this many days could mislead a reader. */
@@ -77,6 +101,7 @@ export function validateContent(contentDir: string, now = new Date()): ContentRe
       if (ids.has(data.id)) errors.push(`${rel(file)}: id ${data.id} also used by ${ids.get(data.id)}`);
       else ids.set(data.id, rel(file));
     }
+    errors.push(...derivedErrors(data).map((e) => `${rel(file)}: ${e}`));
     if (type === "post") errors.push(...previewErrors(data.preview, now).map((e) => `${rel(file)}: ${e}`));
     parsed.push({ file, data, body: fm.content });
   }

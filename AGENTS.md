@@ -8,8 +8,10 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 1. Start at `llms.txt` (root) or the section index `content/<section>/llms.txt`. Every page under `content/` is
    markdown with strict frontmatter (`schemas/frontmatter.*.json`): `id`, `type`, `tier`, `summary`, `evidence`, `links`.
 2. Trust tiers: `official` = Microsoft (Learn, BCApps, BCQuality, Microsoft's channel); `community` = everyone else;
-   `mixed` = hub pages that merge both. Say which tier a claim comes from. `review.state` tells you whether Opus
-   reviewed the page; `unreviewed` content is machine-generated and unchecked.
+   `mixed` = hub pages that merge both. Say which tier a claim comes from. `review.state` says what kind of text the
+   page holds (D77): `derived` pages hold no model text: facts from the source (code, Learn, roadmap, sources.yaml)
+   placed by deterministic code. `unreviewed` marks model text (summaries, narratives) Opus has not checked yet;
+   `reviewed` text passed an Opus review against its source; `flagged` text failed one and is withheld or marked.
 3. Cite evidence, never memory: each page's `evidence` array carries the source URL, date, commit SHA or video
    second. Quote at most what the page quotes. Never invent object IDs, field numbers or version numbers; the code
    pillar under `data/code/` is the ground truth for those.

@@ -16,7 +16,7 @@
     "versions": { "type": "object", "properties": { "introduced": { "type": ["string", "null"] }, "last_changed": { "type": ["string", "null"] }, "deprecated": { "type": ["string", "null"] } } },
     "review": {
       "type": "object", "required": ["state"],
-      "properties": { "state": { "enum": ["unreviewed", "reviewed", "flagged"] }, "by": { "type": ["string", "null"] }, "at": { "type": ["string", "null"] }, "flags": { "type": "array", "items": { "type": "string" } } }
+      "properties": { "state": { "enum": ["derived", "unreviewed", "reviewed", "flagged"], "description": "D77: derived = no model text on the page (by and at null); unreviewed = model text Opus has not checked; reviewed = passed an Opus review; flagged = failed one" }, "by": { "type": ["string", "null"] }, "at": { "type": ["string", "null"] }, "flags": { "type": "array", "items": { "type": "string" } } }
     },
     "generated": {
       "type": "object", "required": ["at", "pipeline"],

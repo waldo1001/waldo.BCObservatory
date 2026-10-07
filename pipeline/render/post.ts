@@ -24,6 +24,7 @@ import { repeatChecker, scrubRepeats } from "../validate/leak.js";
 import { loadEmbedOverrides, previewFor, type PreviewBlock } from "../extract/preview-probe.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
@@ -45,7 +46,8 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   const fm = {
     id: `post/${pk}`, type: "post", title: item.title, summary: x.summary, tier: item.tier, language: x.language || item.language || "en",
     tags: x.topics, ...(x.systems[0] ? { system: x.systems[0] } : {}),
-    review: { state: item.review?.state ?? "unreviewed", by: item.review?.by ?? null, at: item.review?.at ?? null, flags: item.flags ?? [] },
+    // D77: always model text; the review passes set item.review (reviewed or flagged), the first pass sets item.flags
+    review: { ...reviewOf(true, item.review), flags: item.flags ?? [] },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [STAGE]: PROMPT_VERSION }, input_hash: item.stages.fetched?.output_hash as string ?? item.output_hash ?? null },
     evidence: [{ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null },
       ...x.quotes.map((q) => ({ kind: "blog", url: item.url, title: item.title, date: item.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: q.text }))],
@@ -60,7 +62,7 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   // the byline sits between the title and the summary so the post's own title is never word-adjacent to our
   // summary: that seam was a 25-word run of the post that no single field contained (D55)
   const lines = [`# ${item.title}`, "",
-    `[Read the post](${item.url}) · ${src.name}${src.author?.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : ""} · ${date} · ${x.words} words · tier ${item.tier} · **unreviewed** (machine-generated)`, "",
+    `[Read the post](${item.url}) · ${src.name}${src.author?.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : ""} · ${date} · ${x.words} words · tier ${item.tier} · ${reviewWords(reviewOf(true, item.review).state)}`, "",
     `> ${x.summary}`, ""];
   if (x.key_points.length) lines.push("## Key points", "", ...x.key_points.map((k) => `- ${k}`), "");
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- "${q.text}" (${q.why_it_matters})`), "");

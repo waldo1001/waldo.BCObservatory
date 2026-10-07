@@ -30,6 +30,7 @@ test("a digest counts the week's items, skips the first roadmap snapshot, and pa
   assert.deepEqual([counts.videos, counts.docs, counts.roadmap_added, counts.roadmap_changed], [1, 1, 1, 1]);
   const fm = matter(page);
   assert.ok(validate("frontmatter.digest", fm.data).ok);
+  assert.deepEqual([fm.data.review.state, fm.data.generated.prompts], ["derived", {}], "D77: a week without a narrative holds no model text");
   assert.deepEqual(fm.data.links.videos, ["video/AAAAAAAAAA1"]);
   assert.match(fm.content, /Added:[\s\S]*\[F2\]\(\.\.\/features\/2\.md\)[\s\S]*Changed:[\s\S]*F1/);
 });

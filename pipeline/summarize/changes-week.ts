@@ -14,13 +14,18 @@ import { complete, LlmBudgetExhausted, LlmInfraError } from "../lib/llm.js";
 import { sha256 } from "../lib/text.js";
 import type { Llm } from "../extract/video.js";
 import { isoWeek } from "../render/digest.js";
+import type { HubReview } from "../review/hub.js";
 
 export const STAGE = "narrate-changes";
 export const PROMPT_VERSION = 1;
 export const MIN_CHANGES = 3;
 const MAX_INPUT = 80;
 
-export interface WeekNarrative { week: string; input_hash: string; text: string; changes: number; model: string; cost_usd: number | null; at: string }
+export interface WeekNarrative {
+  week: string; input_hash: string; text: string; changes: number; model: string; cost_usd: number | null; at: string;
+  /** Opus review of this text (D77, review/narrative.ts); valid only while its input_hash is the narrative's. */
+  review?: HubReview;
+}
 export const narrativePath = (dataDir: string, week: string) => resolve(dataDir, "changes", "narratives", `${week}.json`);
 export const loadNarrative = (dataDir: string, week: string): WeekNarrative | null => { const p = narrativePath(dataDir, week); return exists(p) ? readJson<WeekNarrative>(p) : null; };
 
