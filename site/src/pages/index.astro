@@ -16,6 +16,18 @@ const digest = [...digests].sort((a, b) => b.id.localeCompare(a.id))[0];
 const dated = [...videos.map((e) => ({ e, dir: "videos" })), ...posts.map((e) => ({ e, dir: "posts" }))]
   .filter(({ e }) => e.data.published_at).sort((a, b) => String(b.e.data.published_at).localeCompare(String(a.e.data.published_at))).slice(0, 6);
 const n = (x: number) => x.toLocaleString("en");
+// question entries (design/HANDOFF.views.md, D66): deep links into the galaxy (D) or the neighbourhood explorer (C) with a
+// lens preset. The country and coverage questions belong to the layered view (A) and land in the galaxy with the lens on.
+const questions = [
+  { ask: "What is new this week?", href: "#lens=landed", where: "galaxy · this week" },
+  { ask: "Where does this blog or channel touch Business Central?", href: "#lens=pick:source", where: "galaxy · source lens" },
+  { ask: "What changed in BC29?", href: "#lens=version:29", where: "galaxy · version lens" },
+  { ask: "What changes in BC30?", href: "#lens=version:30", where: "galaxy · version lens" },
+  { ask: "What touches an object?", href: `${base}neighbourhood/?mode=relations`, where: "neighbourhood · relations" },
+  { ask: "Who subscribes to an event?", href: `${base}neighbourhood/?mode=events`, where: "neighbourhood · events" },
+  { ask: "What does a country change?", href: "#lens=pick:localization", where: "galaxy · country lens" },
+  { ask: "What has no Learn page, video or post?", href: "#lens=coverage", where: "galaxy · coverage" },
+];
 const sections = [
   { id: "topics", label: "Topic hubs", count: topics.length, text: "Seeded from the Microsoft Learn tables of contents. What Learn documents per topic, linked to Learn." },
   { id: "objects", label: "AL objects", count: objects.length, text: "Every W1 and first-party app object of BC28 to BC30, from the code: fields, events, procedures, versions, countries." },
@@ -51,8 +63,14 @@ const sections = [
       </div>
     </section>
 
+    <nav class="wrap questions" aria-labelledby="questions">
+      <h2 class="type-label" id="questions">Start with a question</h2>
+      <ul>
+        {questions.map((q) => <li><a href={q.href}><b>{q.ask}</b><span class="mono-meta">{q.where}</span></a></li>)}
+      </ul>
+    </nav>
     <div id="galaxy"><Galaxy /></div>
-    <p class="wrap meta g-help">Systems are domains, stars are hubs (topics, roadmap features, the most connected AL objects, localizations, sources). Click a system to fly in, a star for its connections. Type in the search box to light up matching stars; Enter opens the full results. Esc goes back out; the arrow keys step through systems.</p>
+    <p class="wrap meta g-help">Systems are domains, placed next to the ones they share the most links with. Stars are hubs on their Learn table of contents and the most connected AL objects in their namespace plots, plus roadmap features, localizations and sources. Click a system to fly in, a star for its connections and where they cross into other systems. Type in the search box to light up matching stars; Enter opens the full results. Esc goes back out; the arrow keys step through systems, or from star to star. "list view" shows the same as a table. Every page's side column shows where it sits here.</p>
 
     <section class="wrap block" aria-labelledby="lit">
       <h2 class="section-title" id="lit">Newly lit {digest && <small><a href={`${base}digests/${digest.id}/`}>{digest.id}</a></small>}</h2>
@@ -99,6 +117,12 @@ claude plugin marketplace add waldo1001/waldo.BCObservatory</code></pre>
   .hero { padding-top: 48px; padding-bottom: 32px; }
   .display { font-size: clamp(44px, 8vw, 88px); line-height: .95; letter-spacing: -0.035em; margin: 12px 0 20px; }
   .g-help { margin-top: 10px; }
+  .questions { margin: 0 auto 16px; }
+  .questions h2 { margin: 0 0 8px; }
+  .questions ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+  .questions a { display: grid; gap: 2px; min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); color: var(--text); text-decoration: none; }
+  .questions a:hover, .questions a:focus-visible { border-color: var(--accent); }
+  .questions b { font-size: 15px; font-weight: 600; }
   .block { margin-top: var(--section-gap-home); }
   .cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .cards a { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; height: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); color: var(--text); text-decoration: none; }
