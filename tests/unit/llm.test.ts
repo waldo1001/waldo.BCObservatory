@@ -24,7 +24,8 @@ process.stdin.on("data", (d) => (stdin += d));
 process.stdin.on("end", () => {
   appendFileSync(logPath, JSON.stringify({ args: process.argv.slice(2), env: Object.keys(process.env), cwd: process.cwd(), stdin }) + "\\n");
   const r = scenario[Math.min(n, scenario.length - 1)];
-  if (r.flood) { const chunk = "x".repeat(64 * 1024); for (let i = 0; i < r.flood; i++) process.stdout.write(chunk); process.exit(0); }
+  // write with backpressure and exit only when drained: process.exit() right after writes drops what a pipe still buffers
+  if (r.flood) { const chunk = "x".repeat(64 * 1024); let i = 0; const w = () => { while (i < r.flood) { i++; if (!process.stdout.write(chunk)) { process.stdout.once("drain", w); return; } } process.stdout.end(); }; w(); return; }
   if (r.stderr) process.stderr.write(r.stderr);
   if (r.init !== null) process.stdout.write(JSON.stringify({ type: "system", subtype: "init", apiKeySource: "none", model: "claude-haiku-4-5", ...(r.init ?? {}) }) + "\\n");
   process.stdout.write(JSON.stringify({ type: "assistant", message: { content: [] } }) + "\\n");

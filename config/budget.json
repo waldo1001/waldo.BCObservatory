@@ -59,7 +59,7 @@
     "sleep_seconds_max": 10
   },
   "concurrency": 6,
-  "catch_up": { "until": "2026-10-10" },
+  "catch_up": { "until": "2026-10-06" },
   "lanes": { "web": 3, "youtube": 1 },
   "lane_timeout_seconds": { "web": 180, "youtube": 1200 },
   "checkpoint_items": 50,

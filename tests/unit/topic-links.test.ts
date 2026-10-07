@@ -7,8 +7,9 @@ import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import type { LlmRequest } from "../../pipeline/lib/llm.js";
 import type { Llm, VideoExtraction } from "../../pipeline/extract/video.js";
 import type { PostExtraction } from "../../pipeline/extract/post.js";
-import { linkTopics, loadTopicLinks, loadTopicReview, mediaByTopic, topicCandidates } from "../../pipeline/link/topics.js";
-import { BATCH_HUBS, callRefs, hubContext, planReviewCalls, reviewTopicLinks } from "../../pipeline/review/topics.js";
+import { linkTopics, loadTopicLinks, loadTopicReview, mediaByTopic, topicCandidates, unitPageId } from "../../pipeline/link/topics.js";
+import { fileKey } from "../../pipeline/lib/manifest.js";
+import { BATCH_HUBS, callRefs, hubContext, MAX_REFS, planReviewCalls, reviewTopicLinks } from "../../pipeline/review/topics.js";
 
 const NOW = new Date("2026-10-07T01:00:00Z");
 const topic = (id: string, title: string, system: string, path: string[]) =>
@@ -194,4 +195,40 @@ test("a hub with links to weigh gets its own call; the single-link hubs share on
     [["a"], ["b"], ["s0", "s1", "s2", "s3", "s4", "s5"], ["s6"]], `${BATCH_HUBS} single-link hubs per call`);
   assert.deepEqual(callRefs(calls[0]), ["l1", "l2", "l3"]);
   assert.deepEqual(callRefs(calls[2]), ["l6", "l7", "l8", "l9", "l10", "l11"], "refs are unique across the whole plan");
+});
+
+test("a feed post links to its page, not its raw feed key (D58)", () => {
+  // feed posts are keyed by URL or blogger tag; their pages are file-safe
+  assert.equal(unitPageId("post", "post/waldo-be/42"), "post/waldo-be/42", "a numeric key is already a file name");
+  const url = unitPageId("post", "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38/");
+  assert.match(url, /^post\/thatnavguy-com\/[A-Za-z0-9][A-Za-z0-9._-]*$/);
+  assert.equal(url, `post/thatnavguy-com/${fileKey("https://thatnavguy.com/blog/2025/bc-friday-tips-38/")}`, "the same key render/post.ts writes the page under");
+  assert.equal(unitPageId("video", "video/V1"), "video/V1");
+  const links = { prompt_version: 2, units: { "post/thatnavguy-com/https://x.com/a/": { kind: "post" as const, key: "post/thatnavguy-com/https://x.com/a/", hash: "h", title: "t", source: "thatnavguy-com", at: "", matches: [{ topic: "topic/fin", quote: "q" }] } } };
+  assert.deepEqual(mediaByTopic(links).get("topic/fin")!.map((m) => m.key), [unitPageId("post", "post/thatnavguy-com/https://x.com/a/")]);
+});
+
+test("a hub with more links than one call can carry is split evenly, and its verdicts merge (D58)", async () => {
+  const hub = { id: "big", alias: "big", title: "big", path: "big", system: "s" };
+  const link = (k: string) => ({ ref: "", key: k, hash: "h", kind: "post" as const, title: k, source: null, text: "t", quote: "q" });
+  const calls = planReviewCalls([{ id: "big", hub, links: Array.from({ length: 30 }, (_, i) => link(`p${i}`)) }]);
+  assert.deepEqual(calls.map((c) => callRefs(c).length), [15, 15], `at most ${MAX_REFS} refs, evenly`);
+  assert.ok(calls.every((c) => c.sections[0].id === "big"));
+});
+
+test("a chunked hub keeps every chunk's verdicts, not just the last one's", async () => {
+  const { contentDir, dataDir } = fixture();
+  // 20 posts all proposed for "Set up VAT": two calls of 10
+  const units: Record<string, any> = {};
+  for (let i = 0; i < 20; i++) {
+    const p = post({ item_id: `blog/waldo-be/${100 + i}`, title: `VAT post ${i}`, summary: `VAT return number ${i}.`, systems: ["finance"] });
+    writeJson(join(dataDir, `extract/blog/waldo-be/${100 + i}.json`), p);
+    units[`post/waldo-be/${100 + i}`] = { kind: "post", key: `post/waldo-be/${100 + i}`, hash: `h${i}`, title: p.title, source: "waldo-be", at: "", matches: [{ topic: "topic/fin/vat", quote: "VAT" }] };
+  }
+  writeJson(join(dataDir, "links/topics.json"), { prompt_version: 2, units });
+  const { llm, reqs } = fakeReview((_r, refs) => refs.map((x) => ({ ref: x.ref, verdict: "keep", reason: "r" })));
+  const run = await reviewTopicLinks(dataDir, contentDir, opts(llm));
+  assert.equal(reqs.length, 2);
+  assert.equal(Object.keys(loadTopicReview(dataDir).verdicts["topic/fin/vat"]).length, 20, "both chunks' verdicts are kept");
+  assert.deepEqual([run.reviewed, run.kept], [2, 20]);
 });

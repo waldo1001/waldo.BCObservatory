@@ -1,28 +1,97 @@
 {
-  "$comment": "Which BC versions the code pillar snapshots in full. Older versions are kept as diffs only (v0.2+). Base App exists in microsoft/BCApps only from 29.0; 28.x Base App comes from StefanMaron's history repos.",
-  "snapshot": ["28", "29", "30"],
-  "narrative_order": ["29", "28", "30"],
-  "majors": {
-    "28": { "label": "2026 release wave 1 (BC28)", "bcapps_branch": "releases/28.x", "bcapps_has_baseapp": false, "sandbox_branch": "w1-28", "onprem_branch": "w1-28", "snapshot_source": "sandbox-history" },
-    "29": { "label": "2026 release wave 2 (BC29)", "bcapps_branch": "releases/29.x", "bcapps_has_baseapp": true,  "sandbox_branch": "w1-29", "onprem_branch": "w1-29", "snapshot_source": "bcapps" },
-    "30": { "label": "2027 release wave 1 (BC30, vNext)", "bcapps_branch": "main", "bcapps_has_baseapp": true, "sandbox_branch": "w1-30-vNext", "onprem_branch": null, "vnext": true, "snapshot_source": "bcapps" }
+ "$comment": "Which BC versions the code pillar snapshots in full. Older versions are kept as diffs only (v0.2+). Base App exists in microsoft/BCApps only from 29.0; 28.x Base App comes from StefanMaron's history repos.",
+ "snapshot": [
+  "28",
+  "29",
+  "30"
+ ],
+ "narrative_order": [
+  "29",
+  "28",
+  "30"
+ ],
+ "majors": {
+  "28": {
+   "label": "2026 release wave 1 (BC28)",
+   "bcapps_branch": "releases/28.x",
+   "bcapps_has_baseapp": false,
+   "sandbox_branch": "w1-28",
+   "onprem_branch": "w1-28",
+   "snapshot_source": "sandbox-history"
   },
-  "code": {
-    "$comment": "What the code job extracts per snapshot source (PLAN 4.6, D27). W1 apps in full; countries as overlays (objects new or changed against W1). BCApps carries every layer in one checkout and stacks them (layers_config.json: AT on DACH on W1, each layer may exclude inherited files); regional layers (APAC, DACH, NA) are bases, not countries. `apps` = Microsoft's first-party apps (Shopify, Power BI Reports, ...), their own snapshot data/code/<major>/apps (no tests, no demo data), kept out of W1 so version diffs compare like with like. Code History has one complete branch per country, so its list is explicit.",
-    "bcapps": {
-      "w1": [ { "app": "Base Application", "path": "src/Layers/W1/BaseApp" }, { "app": "System Application", "path": "src/System Application/App" }, { "app": "Business Foundation", "path": "src/Business Foundation/App" } ],
-      "apps": "src/Apps/W1/*/app",
-      "layers_root": "src/Layers", "layer_app": "BaseApp", "layers_config": "src/Layers/.config/layers_config.json",
-      "country_app": "Base Application", "countries": "all", "docs": true
-    },
-    "sandbox-history": {
-      "w1": [ { "app": "Base Application", "path": "Base Application" }, { "app": "System Application", "path": "System Application" }, { "app": "Business Foundation", "path": "Business Foundation" } ],
-      "country_branch": "<cc>-<major>", "country_path": "Base Application", "country_app": "Base Application", "countries": ["be", "nl"], "docs": false
-    }
+  "29": {
+   "label": "2026 release wave 2 (BC29)",
+   "bcapps_branch": "releases/29.x",
+   "bcapps_has_baseapp": true,
+   "sandbox_branch": "w1-29",
+   "onprem_branch": "w1-29",
+   "snapshot_source": "bcapps"
   },
-  "repos": {
-    "bcapps": "https://github.com/microsoft/BCApps",
-    "sandbox_history": "https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History",
-    "onprem_history": "https://github.com/StefanMaron/MSDyn365BC.Code.History"
+  "30": {
+   "label": "2027 release wave 1 (BC30, vNext)",
+   "bcapps_branch": "main",
+   "bcapps_has_baseapp": true,
+   "sandbox_branch": "w1-30-vNext",
+   "onprem_branch": null,
+   "vnext": true,
+   "snapshot_source": "bcapps"
   }
+ },
+ "code": {
+  "$comment": "What the code job extracts per snapshot source (PLAN 4.6, D27). W1 apps in full; countries as overlays (objects new or changed against W1). BCApps carries every layer in one checkout and stacks them (layers_config.json: AT on DACH on W1, each layer may exclude inherited files); regional layers (APAC, DACH, NA) are bases, not countries. `apps` = Microsoft's first-party apps (Shopify, Power BI Reports, ...), their own snapshot data/code/<major>/apps (no tests, no demo data), kept out of W1 so version diffs compare like with like. Code History has one complete branch per country, so its list is explicit. `country_apps` = a country's own extension apps (src/Apps/<layer>/*/app), expanded for every layer of its chain after W1, so US gets NA's apps and its own, like its base-app view; DK and IN ship their whole localization this way (D58). `country_apps_exclude` drops the demo-data apps from a country view: Contoso sample data is not localization, and it would inflate every narrative and the heatmap.",
+  "bcapps": {
+   "w1": [
+    {
+     "app": "Base Application",
+     "path": "src/Layers/W1/BaseApp"
+    },
+    {
+     "app": "System Application",
+     "path": "src/System Application/App"
+    },
+    {
+     "app": "Business Foundation",
+     "path": "src/Business Foundation/App"
+    }
+   ],
+   "apps": "src/Apps/W1/*/app",
+   "country_apps": "src/Apps/<layer>/*/app",
+   "country_apps_exclude": "DemoDataset|DemoTool",
+   "layers_root": "src/Layers",
+   "layer_app": "BaseApp",
+   "layers_config": "src/Layers/.config/layers_config.json",
+   "country_app": "Base Application",
+   "countries": "all",
+   "docs": true
+  },
+  "sandbox-history": {
+   "w1": [
+    {
+     "app": "Base Application",
+     "path": "Base Application"
+    },
+    {
+     "app": "System Application",
+     "path": "System Application"
+    },
+    {
+     "app": "Business Foundation",
+     "path": "Business Foundation"
+    }
+   ],
+   "country_branch": "<cc>-<major>",
+   "country_path": "Base Application",
+   "country_app": "Base Application",
+   "countries": [
+    "be",
+    "nl"
+   ],
+   "docs": false
+  }
+ },
+ "repos": {
+  "bcapps": "https://github.com/microsoft/BCApps",
+  "sandbox_history": "https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History",
+  "onprem_history": "https://github.com/StefanMaron/MSDyn365BC.Code.History"
+ }
 }

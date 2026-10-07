@@ -120,6 +120,9 @@ export async function refreshLocalizationNarratives(
     const major = order.find((m) => exists(resolve(dataDir, "code", "diffs", "country", `${m}-${cc}.json`)));
     if (!major || !folder) continue;
     const d = readJson<AlDiff>(resolve(dataDir, "code", "diffs", "country", `${major}-${cc}.json`));
+    // nothing changed against W1 means nothing to narrate, and an empty enum is an invalid schema (D58: DK and IN
+    // read as empty until their extension apps were extracted)
+    if (!areasOf(d).length) { run.waiting.push(`${cc} (no code changes against W1 in BC${major})`); continue; }
     const members = docs.filter((it) => it.url.includes(`/LocalFunctionality/${folder}/`) || it.id.toLowerCase().includes(`/localfunctionality/${folder.toLowerCase()}/`));
     const pages = members.map((it) => docExtractionPath(dataDir, it)).filter(exists).map((p) => readJson<DocExtraction>(p)).sort((a, b) => a.title.localeCompare(b.title));
     if (!members.length || pages.length < Math.ceil(members.length * READY_SHARE)) { run.waiting.push(`${cc} (${pages.length}/${members.length} Learn pages extracted)`); continue; }

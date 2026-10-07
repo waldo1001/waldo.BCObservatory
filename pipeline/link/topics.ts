@@ -18,6 +18,7 @@
 import { resolve } from "node:path";
 import matter from "gray-matter";
 import { listFiles, readJson, readJsonOr, readText, writeJson } from "../lib/fsx.js";
+import { fileKey } from "../lib/manifest.js";
 import { complete, LlmBudgetExhausted, LlmInfraError } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
 import { sha256 } from "../lib/text.js";
@@ -208,12 +209,23 @@ export async function linkTopics(
   return { links, run };
 }
 
+/**
+ * The page a unit links to. A unit is keyed by its item (`post/<source>/<key>`), and a feed post's key is its URL or
+ * a blogger tag id, which is not a file name: its page lives at `post/<source>/<fileKey(key)>` (render/post.ts). The
+ * unit key stays the identity for hashes and verdicts; only the views translate (D58).
+ */
+export function unitPageId(kind: "video" | "post", key: string): string {
+  if (kind !== "post") return key;
+  const [, source, ...rest] = key.split("/");
+  return `post/${source}/${fileKey(rest.join("/"))}`;
+}
+
 /** Per topic id: the videos and posts linked to it, minus links Opus dropped (the topic pages and the graph read this). */
 export function mediaByTopic(links: TopicLinks, review: TopicReview = NO_REVIEW): Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]> {
   const m = new Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]>();
   for (const u of Object.values(links.units)) for (const x of u.matches) {
     if (topicVerdictOf(review, x.topic, u.key, u.hash)?.verdict === "drop") continue;
-    m.set(x.topic, [...(m.get(x.topic) ?? []), { key: u.key, kind: u.kind, title: u.title, quote: x.quote }]);
+    m.set(x.topic, [...(m.get(x.topic) ?? []), { key: unitPageId(u.kind, u.key), kind: u.kind, title: u.title, quote: x.quote }]);
   }
   for (const l of m.values()) l.sort((a, b) => a.key.localeCompare(b.key));
   return m;

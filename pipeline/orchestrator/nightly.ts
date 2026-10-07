@@ -524,22 +524,31 @@ async function commitAndPush(repoDir: string, message: string, push: boolean, re
   if (push) log.info(`pushed (${report.status})`);
 }
 
-/** Stage content/ and data/, commit when something changed, push (rebase once on a rejected push). */
-async function commitTracked(repoDir: string, message: string, push: boolean): Promise<boolean> {
-  const dirs = TRACKED.filter((d) => existsSync(join(repoDir, d)));
-  // never a half-written temp file, even in a checkout without the repo's .gitignore
-  await git(["add", "-A", "--", ...dirs, ":(exclude,glob)**/*.tmp"], repoDir);
-  const changed = !!(await git(["diff", "--cached", "--name-only"], repoDir)).trim();
-  if (changed && message) {
-    await git(["commit", "-q", "-m", message], repoDir);
-    log.info(`committed: ${message}`);
+/**
+ * Stage content/ and data/, commit when something changed, push (rebase once on a rejected push). An empty message
+ * pushes only: it must not stage, or the files the item loop wrote since the last commit sit in the index and the
+ * rebase refuses to run (D58: "cannot pull with rebase: your index contains uncommitted changes").
+ */
+export async function commitTracked(repoDir: string, message: string, push: boolean): Promise<boolean> {
+  let changed = false;
+  if (message) {
+    const dirs = TRACKED.filter((d) => existsSync(join(repoDir, d)));
+    // never a half-written temp file, even in a checkout without the repo's .gitignore
+    await git(["add", "-A", "--", ...dirs, ":(exclude,glob)**/*.tmp"], repoDir);
+    changed = !!(await git(["diff", "--cached", "--name-only"], repoDir)).trim();
+    if (changed) {
+      await git(["commit", "-q", "-m", message], repoDir);
+      log.info(`committed: ${message}`);
+    }
   }
   if (!push) return changed;
   try {
     await git(["push", "-q", "origin", "HEAD:main"], repoDir);
   } catch {
     log.warn("push rejected; rebasing on origin/main and retrying once");
-    await git(["pull", "-q", "--rebase", "origin", "main"], repoDir);
+    // during a run the item loop is still writing content/ and data/: autostash sets that aside for the rebase and
+    // puts it back, and the remote side of a race is code, which never touches those folders (one nightly at a time)
+    await git(["pull", "-q", "--rebase", "--autostash", "origin", "main"], repoDir);
     await git(["push", "-q", "origin", "HEAD:main"], repoDir);
   }
   return changed;

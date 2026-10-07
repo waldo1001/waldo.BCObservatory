@@ -20,7 +20,7 @@ import { createRequire } from "node:module";
 import { Language, Parser, type Node } from "web-tree-sitter";
 import { canonicalJson, sha256 } from "../lib/text.js";
 
-export const EXTRACTOR_VERSION = "2";
+export const EXTRACTOR_VERSION = "3"; // 3: country extension apps (D58)
 export const OBJECT_TYPES = [
   "table", "tableextension", "page", "pageextension", "codeunit", "report", "reportextension", "query", "xmlport", "enum",
   "enumextension", "interface", "permissionset", "permissionsetextension", "entitlement", "profile", "controladdin",

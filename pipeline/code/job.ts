@@ -5,6 +5,7 @@
  *            BCApps, every layer with its .layer metadata); Code History countries are checked out per country branch.
  * extracted: extract W1 apps in full and each country as an overlay (objects new in, or changed by, that country),
  *            BCApps countries assembled through their layer chain (W1 → DACH → DE, with each layer's excluded files),
+ *            plus the country's own extension apps of every layer in that chain (src/Apps/DACH/*, src/Apps/DE/*: D58),
  *            write data/code/<major>/<cc>/objects-<type>-<n>.jsonl (sorted by object key, shards of at most
  *            SHARD_BYTES) plus manifest.json (source, branch, commit, build, counts, extractor and grammar versions).
  * Per-object `commit`/`build` stay null in the shards and live in the manifest, so a new commit rewrites only the
@@ -31,6 +32,10 @@ export interface SourceCodeConfig {
   layers_root?: string; layer_app?: string; layers_config?: string; country_branch?: string; country_path?: string;
   /** Glob of first-party app folders, one `*` segment = the app (e.g. src/Apps/W1/*\/app) → data/code/<major>/apps. */
   apps?: string;
+  /** A country's own extension apps, `<layer>` = each layer of its chain after W1 (src/Apps/<layer>/*\/app, D58). */
+  country_apps?: string;
+  /** Regex of app folder names left out of a country view (demo data is not localization). */
+  country_apps_exclude?: string;
 }
 interface Versions { majors: Record<string, Record<string, unknown>>; repos: Record<string, string>; code: Record<string, SourceCodeConfig> }
 const REPO_KEY: Record<string, string> = { bcapps: "bcapps", "sandbox-history": "sandbox_history", "onprem-history": "onprem_history" };
@@ -233,7 +238,7 @@ export function codeFetched(deps: CodeDeps): StageHandler {
     run: async (item) => {
       const job = jobFor(item)!;
       const layers = job.cfg.layers_root ? [`${job.cfg.layers_root}/*/${job.cfg.layer_app}`, `${job.cfg.layers_root}/*/.layer`, job.cfg.layers_config!.slice(0, job.cfg.layers_config!.lastIndexOf("/"))] : [];
-      const paths = [...job.cfg.w1.map((a) => a.path), ...layers, ...(job.cfg.apps ? [job.cfg.apps] : [])];
+      const paths = [...job.cfg.w1.map((a) => a.path), ...layers, ...(job.cfg.apps ? [job.cfg.apps] : []), ...(job.cfg.country_apps ? [job.cfg.country_apps.replace("<layer>", "*")] : [])];
       const sha = await deps.checkout(job.repo, job.branch, paths, codeCheckoutDir(deps.cacheDir, job));
       return { data: { commit: sha, branch: job.branch } };
     },
@@ -279,9 +284,18 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
               country.set(appKey(o), o);
             }
           }
+          // the country's own extension apps, from every layer of its chain after W1 (NA's apps belong to US, CA and MX).
+          // Each keeps its folder name as app, like the W1 apps, so nothing in it pairs with a W1 object: all added.
+          const skip = job.cfg.country_apps_exclude ? new RegExp(job.cfg.country_apps_exclude) : null;
+          const ownApps = job.cfg.country_apps ? chain.slice(1).flatMap((layer) => expandApps(root, job.cfg.country_apps!.replace("<layer>", layer))).filter((a) => !skip?.test(a.app)) : [];
+          if (ownApps.length) {
+            const a = await extractApps(root, ownApps, { version: job.major, country: cc, layer: "overlay", docs: job.cfg.docs });
+            for (const [k, o] of a.objects) country.set(k, o);
+            files += a.files; errors += a.errors;
+          }
           const ov = overlay(w1.objects, country);
           const absent = [...view.excluded].flatMap((rel) => w1ByFile.get(rel) ?? []).filter((k) => !country.has(k)).map((k) => objectKey(w1.objects.get(k)!)).sort();
-          writeSnapshot(ctx.dataDir, ov.objects, { ...base, major: job.major, country: cc, layer: "overlay", branch: job.branch, commit, build: w1.build, apps: [job.cfg.country_app], files, parse_errors: errors, added: ov.added, replaced: ov.replaced, absent, chain: chain.map((l) => l.toLowerCase()) });
+          writeSnapshot(ctx.dataDir, ov.objects, { ...base, major: job.major, country: cc, layer: "overlay", branch: job.branch, commit, build: w1.build, apps: [job.cfg.country_app, ...ownApps.map((x) => x.app)], files, parse_errors: errors, added: ov.added, replaced: ov.replaced, absent, chain: chain.map((l) => l.toLowerCase()) });
           countries[cc] = { added: ov.added, replaced: ov.replaced, absent: absent.length };
         }
       } else if (job.cfg.country_branch && Array.isArray(job.cfg.countries)) {

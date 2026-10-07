@@ -44,3 +44,15 @@ test("narratives wait for 80% of the Learn pages, then write once per input; the
   assert.deepEqual((reqs[0].schema as any).properties.areas.items.properties.area.enum, ["(no namespace)"]);
   assert.match(page.content, /narrative \*\*unreviewed\*\*/);
 });
+
+test("a country with no code changes against W1 waits with a reason and costs no call (D58)", async () => {
+  const dataDir = join(mkdtempSync(join(tmpdir(), "bcobs-locnarr-")), "data");
+  // DK and IN read like this before their extension apps were extracted: an invalid empty enum used to be the result
+  writeJson(join(dataDir, "code/diffs/country/29-be.json"), { ...diff, summary: { objects: 0 }, objects: [] });
+  const docs = ["coda", "vat", "intrastat", "reports", "setup"].map(doc);
+  for (const k of ["coda", "vat", "intrastat", "reports", "setup"]) writeJson(docExtractionPath(dataDir, doc(k)), { item_id: doc(k).id, url: doc(k).url, title: k, blob: "b", summary: "s", systems: [], topics: [], objects: [], features: [], versions: [], parts: 1, prompt_version: 1, llm: [] });
+  const reqs: LlmRequest[] = [];
+  const llm: Llm = async <T>(r: LlmRequest) => { reqs.push(r); return { output: {} as T, cached: false, meta: {} as any }; };
+  const r = await refreshLocalizationNarratives(dataDir, docs, { deadline: new Date("2099-01-01"), clock: () => new Date(), llm, countries: ["BE"] });
+  assert.deepEqual([reqs.length, r.failed, r.waiting], [0, 0, ["be (no code changes against W1 in BC29)"]]);
+});

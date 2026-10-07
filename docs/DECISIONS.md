@@ -390,3 +390,21 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   and they are what the final commit needs. Catch-up picks up the shed work on the next run, which is what the
   quotas already assume. This does not stop a phase that blows the heap on its own; it stops the *next* phase from
   inheriting a heap that is already gone.
+- **D58 Countries include their extension apps; four smaller fixes.** (a) The code job extracted a country as its
+  base-app layer chain only (`src/Layers/<chain>/BaseApp`), and BCApps also ships every country's own extension apps
+  under `src/Apps/<layer>/*/app`: 2 to 14 per country, plus 7 under NA that US, CA and MX share. Denmark and India
+  have no BaseApp layer at all — their whole localization is apps — so both read as empty, which is what crashed
+  their narratives. `country_apps` (`src/Apps/<layer>/*/app`) is expanded for every layer of a country's chain after
+  W1, exactly like the base-app view, and `country_apps_exclude` drops the Contoso demo-data apps, which are sample
+  data rather than localization and would inflate every narrative and the heatmap. On BC29: India 0 → 1,262 objects,
+  Denmark 0 → 431, Belgium +22, NA +115, under a second per country. `EXTRACTOR_VERSION` 3 re-runs the code items.
+  (b) A diff with no changes against W1 now waits with a reason instead of sending an empty enum, which is an
+  invalid schema. (c) Topic links named a feed post by its raw key (a URL or a blogger tag id), while its page lives
+  under `fileKey` of that key: 10 topic pages linked pages that do not exist. `unitPageId` translates in
+  `mediaByTopic`, so link identities and Opus verdicts are untouched. (d) A topic-review call carries at most 15
+  refs: a hub with 30 links came back with 29 verdicts. Big hubs split into even chunks whose verdicts merge.
+  (e) The checkpoint push staged files without committing them (`commitTracked` with an empty message still ran
+  `git add`), so a push that lost a race met a dirty index and `git pull --rebase` refused; it cost 3.5 minutes on
+  2026-10-07. A push-only call no longer stages, and the rebase autostashes the tree the item loop is still writing.
+  A real-git test reproduces the production error on the old code. Also: catch-up ends after 2026-10-06 — the
+  backlogs it existed for are drained (hub narratives 0, topic reviews 12), and the day had cost $68.75.

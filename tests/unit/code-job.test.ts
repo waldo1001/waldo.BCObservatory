@@ -39,6 +39,13 @@ function bcappsRepo(moved = false): string {
   writeText(L("DE/BaseApp/Vendor.Table.al"), al("table", 23, "Vendor")); // identical to W1: not an overlay
   writeJson(L("DE/.layer/excluded_view_files.json"), [".layer\\excluded_view_files.json", "BaseApp\\Intrastat.Page.al", "AlCosting\\X.al"]);
   writeText(L("BE/BaseApp/BeOnly.Report.al"), al("report", 11300, "BE Only"));
+  // country extension apps (D58): DACH's is shared by DE through the chain; a test folder is never extracted
+  const A = (p: string) => join(dir, "src/Apps", p);
+  writeText(A("DACH/DachTax/app/DachTax.Codeunit.al"), al("codeunit", 5000100, "DACH Tax"));
+  writeText(A("DE/DeReports/app/DeVat.Report.al"), al("report", 5000200, "DE VAT"));
+  writeText(A("DE/DeReports/test/DeVat.Test.Codeunit.al"), al("codeunit", 5000299, "DE VAT Test"));
+  writeText(A("BE/BeCoda/app/Coda.Table.al"), al("table", 11350, "CODA Statement"));
+  writeText(A("BE/ContosoCoffeeDemoDatasetBE/app/Demo.Codeunit.al"), al("codeunit", 11399, "Create BE Demo Data"));
   if (moved) {
     const copy = (extra = "") => al("table", 242, "Source Code Setup", `ObsoleteState = Moved;\nfields { field(1; "Primary Key"; Code[10]) { } field(2; Sales; Code[10]) { } ${extra} }`);
     writeText(join(dir, "src/System Application/App/SourceCodeSetup.Table.al"), al("table", 242, "Source Code Setup", "fields { field(1; \"Primary Key\"; Code[10]) { } }"));
@@ -83,7 +90,7 @@ test("BCApps job: W1 in full, countries as overlays through their layer chain, s
   execFileSync("mkdir", ["-p", join(cacheDir, "code")]);
   const it = item("bcapps", "29"); // the handlers read config/versions.json, where bcapps/29 has this fixture's shape
   await run(codeFetched(deps))(it, { dataDir } as any);
-  assert.deepEqual(checkouts[0].slice(-4), ["src/Layers/*/BaseApp", "src/Layers/*/.layer", "src/Layers/.config", "src/Apps/W1/*/app"]);
+  assert.deepEqual(checkouts[0].slice(-5), ["src/Layers/*/BaseApp", "src/Layers/*/.layer", "src/Layers/.config", "src/Apps/W1/*/app", "src/Apps/*/*/app"]);
   const r = await run(codeExtracted(deps))(it, { dataDir } as any);
   const w1 = readSnapshot(dataDir, "29", "w1");
   assert.deepEqual(w1.map((o) => `${o.type}/${o.id}`).sort(), ["codeunit/1", "page/742", "table/18", "table/23"]);
@@ -91,10 +98,14 @@ test("BCApps job: W1 in full, countries as overlays through their layer chain, s
   const w1m = readJson<any>(join(snapshotDir(dataDir, "29", "w1"), "manifest.json"));
   assert.deepEqual([w1m.build, w1m.objects, w1m.layer], ["29.1.0.0", 4, "base"]);
   const de = readSnapshot(dataDir, "29", "de");
-  assert.deepEqual(de.map((o) => `${o.type}/${o.id}:${o.layer}`).sort(), ["codeunit/5000001:overlay", "table/18:overlay"], "DACH's Customer + DE's own; the identical Vendor is not an overlay");
+  assert.deepEqual(de.map((o) => `${o.type}/${o.id}:${o.layer}`).sort(),
+    ["codeunit/5000001:overlay", "codeunit/5000100:overlay", "report/5000200:overlay", "table/18:overlay"],
+    "DACH's Customer + DE's own + DACH's and DE's apps; the identical Vendor is not an overlay, the test app is not extracted");
+  assert.equal(de.find((o) => o.id === 5000100)!.app, "DachTax", "an app keeps its folder name, like the W1 apps");
   const dem = readJson<any>(join(snapshotDir(dataDir, "29", "de"), "manifest.json"));
-  assert.deepEqual([dem.chain, dem.added, dem.replaced, dem.absent], [["w1", "dach", "de"], 1, 1, ["page/742"]]);
-  assert.deepEqual(readSnapshot(dataDir, "29", "be").map((o) => `${o.type}/${o.id}`), ["report/11300"]);
+  assert.deepEqual([dem.chain, dem.added, dem.replaced, dem.absent], [["w1", "dach", "de"], 3, 1, ["page/742"]]);
+  assert.deepEqual(dem.apps, ["Base Application", "DachTax", "DeReports"]);
+  assert.deepEqual(readSnapshot(dataDir, "29", "be").map((o) => `${o.type}/${o.id}`).sort(), ["report/11300", "table/11350"]);
   assert.deepEqual(Object.keys((r as any).data.countries), ["be", "de"]);
 });
 
@@ -112,5 +123,5 @@ test("BCApps job: an object shipped by two apps keeps both copies; a country cop
   const be = readSnapshot(dataDir, "29", "be").find((o) => o.id === 242)!;
   const bem = readJson<any>(join(snapshotDir(dataDir, "29", "be"), "manifest.json"));
   assert.equal(be.app, "Base Application");
-  assert.deepEqual([bem.added, bem.replaced], [1, 1], "report 11300 is new; table 242 replaces the Base Application copy");
+  assert.deepEqual([bem.added, bem.replaced], [2, 1], "report 11300 and BE's CODA app table are new; table 242 replaces the Base Application copy");
 });

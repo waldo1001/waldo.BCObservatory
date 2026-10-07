@@ -9,7 +9,8 @@
  *
  * A hub with two or more links gets its own call, because that comparison is the point. A hub with a single link
  * has nothing to compare, so BATCH_HUBS of those share one call: on a 2026-10-07 sample of 38 links, 30 hubs had
- * exactly one, and paying a full Opus call for each cost $0.072 a verdict.
+ * exactly one, and paying a full Opus call for each cost $0.072 a verdict. A hub with more than MAX_REFS links is
+ * split into chunks of at most MAX_REFS, each still weighed together; their verdicts merge into the hub's.
  *
  * Verdicts are stored per link and unit hash (data/links/topics-review.json); mediaByTopic leaves dropped links out,
  * so the topic pages lose them and the graph, which reads those pages, loses the edge and the source touch with
@@ -32,6 +33,8 @@ import type { PostExtraction } from "../extract/post.js";
 export const PROMPT_VERSION = 1;
 export const STAGE = "review-topics";
 export const BATCH_HUBS = 6;
+/** Refs one call may carry: a hub with 30 links came back with 29 verdicts (2026-10-07), so big hubs are chunked. */
+export const MAX_REFS = 15;
 const log = logger("topic-review");
 
 export const SYSTEM = `You review links between a section of the Microsoft Learn documentation for Microsoft Dynamics 365 Business Central and the videos and blog posts that are said to be about it, before the links are published.
@@ -104,7 +107,11 @@ export interface ReviewCall { sections: ReviewSection[] }
  * to weigh, share one. Refs are unique across the whole call, so one schema enum covers it.
  */
 export function planReviewCalls(todo: { id: string; hub: TopicCandidate; links: TopicReviewLink[] }[]): ReviewCall[] {
-  const calls: ReviewCall[] = todo.filter((t) => t.links.length > 1).map((t) => ({ sections: [t] }));
+  const calls: ReviewCall[] = [];
+  for (const t of todo.filter((x) => x.links.length > 1)) {
+    const n = Math.ceil(t.links.length / MAX_REFS), size = Math.ceil(t.links.length / n); // even chunks: 30 → 15 + 15
+    for (let i = 0; i < t.links.length; i += size) calls.push({ sections: [{ ...t, links: t.links.slice(i, i + size) }] });
+  }
   const solo = todo.filter((t) => t.links.length === 1);
   for (let i = 0; i < solo.length; i += BATCH_HUBS) calls.push({ sections: solo.slice(i, i + BATCH_HUBS) });
   let n = 0;
@@ -141,6 +148,7 @@ export async function reviewTopicLinks(
   const calls = planReviewCalls(todo);
   const run: TopicReviewRun = { candidates: todo.length, calls: 0, reviewed: 0, kept: 0, dropped: 0, failed: 0, cost_usd: 0, stopped: "done", errors: [] };
   let started = 0;
+  const written = new Set<string>();
   await pool(calls, o.concurrency ?? 1, async (c) => {
     if (run.stopped !== "done") return;
     if (started >= o.quota) { run.stopped = "quota"; return; }
@@ -167,7 +175,10 @@ export async function reviewTopicLinks(
           kept[topicVerdictKey(l.key, l.hash)] = { verdict: v.verdict, reason: tidy(v.reason).slice(0, 300), at };
           if (v.verdict === "keep") run.kept++; else run.dropped++;
         }
-        review.verdicts[s.id] = kept; // only this hub's current links: verdicts of links that are gone fall away
+        // only this hub's current links: verdicts of links that are gone fall away. A chunked hub's later chunks merge
+        // into what its first chunk wrote this run instead of replacing it.
+        review.verdicts[s.id] = { ...(written.has(s.id) ? review.verdicts[s.id] : {}), ...kept };
+        written.add(s.id);
         run.reviewed++;
       }
     } catch (e) {
