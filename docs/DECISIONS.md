@@ -633,6 +633,16 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   bridged. Rejected: a segmented control (still seven targets), two pills plus the select (hides four majors),
   "since" ranges or unions (changes the one-lens model; later), `localStorage` (a different home page per reader).
   Spec: `docs/specs/version-lens.md`.
+- **D73 Media rows: the title over the full width, then a kind pill, the source and the date.** Every video and post
+  row in the galaxy panel (the "Landed in" lists, a star's "Videos and posts", the layered view's media) put a mono
+  column on the right (`post · date · N stars`) that took a third of the row and squeezed long titles to six lines,
+  and it never said who wrote the item. A row is now two lines: the title beside the shape icon over the full width,
+  then `[video|post] · source · date` in the same mono 11px; unknown parts are left out with their separator
+  (`mediaMeta` in `galaxy-core.ts`). The star count is gone: it counted hubs the reader could not act on. The source
+  is plain text (the row is already one link) and its name is the source node's label, never the raw id. The bare
+  source id travels as an optional last tuple element in `graph/landed.json`, the summary's `mb.top` and the layers
+  files' `media`, from one map built on the "authored" edges (`mediaSources` in `graph.ts`); it is omitted, never
+  null, when unknown, so older files still render. The summary grows about 1.3%. Spec: `docs/specs/media-rows.md`.
 - **D74 Table columns keep their words.** Table cells wrap with `overflow-wrap: break-word`, never `anywhere`:
   `anywhere` lowers a column's min-content width to one character and lets the auto layout crush short columns.
   Markdown tables on the site are wrapped in `div.table-scroll` (the scroll container, `wrapTables` in

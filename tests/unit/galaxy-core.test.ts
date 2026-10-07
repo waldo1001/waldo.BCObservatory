@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { landedRingsOn, parseHash, portSpot, sortRows, versionMenu } from "../../site/src/scripts/galaxy-core.js";
+import { landedRingsOn, mediaMeta, parseHash, portSpot, sortRows, versionMenu } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -51,4 +51,14 @@ test("versionMenu: newest first, remembered = active ?? newest, vNext from confi
 
 test("versionMenu: an older graph without cv has no version lens (D72)", () => {
   assert.deepEqual(versionMenu([], new Map(), { "30": { label: "x", vnext: true } }, null), { remembered: null, entries: [] });
+});
+
+test("mediaMeta: kind pill, source, date; unknown parts left out, never a star count (D73)", () => {
+  assert.deepEqual(mediaMeta("p", "Waldo's blog", "2026-10-05"), { kind: "post", parts: ["Waldo's blog", "2026-10-05"] });
+  assert.deepEqual(mediaMeta("v", "Erik Hougaard", "2026-10-05"), { kind: "video", parts: ["Erik Hougaard", "2026-10-05"] });
+  assert.deepEqual(mediaMeta("p", null, "2026-10-05"), { kind: "post", parts: ["2026-10-05"] });
+  assert.deepEqual(mediaMeta("v", "Erik Hougaard", null), { kind: "video", parts: ["Erik Hougaard"] });
+  assert.deepEqual(mediaMeta("v", undefined, undefined), { kind: "video", parts: [] });
+  assert.deepEqual(mediaMeta("p", "", ""), { kind: "post", parts: [] });
+  for (const m of [mediaMeta("p", "a", "b"), mediaMeta("v", null, "2026-10-05")]) assert.ok(![m.kind, ...m.parts].some((x) => /star/.test(x)));
 });

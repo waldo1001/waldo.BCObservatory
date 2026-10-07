@@ -31,6 +31,10 @@ questions in its section 12).
   routes object-level callers to the observatory (plugin 0.2.1). The next nightly rewrites every object page once
   (text only, no LLM). Recount `git grep -l '^## Calls' origin/main -- content/objects` after it: expected 5,582
   (2,808 Called by); spec section 12.
+- **Media rows, D73** (`docs/specs/media-rows.md`, M11): every video and post row in the galaxy panel is the title over
+  the full width, then `[video|post] · source · date`, no star count. The source id rides in `landed.json`, `mb.top`
+  and the layers `media`; the panel shows sources once the next nightly rewrites `data/graph/*`. Section 12 of the
+  spec records the deviations.
 - **One version pill in the galaxy lens bar, D72** (`docs/specs/version-lens.md`, M10): both phases on `dev/next`.
   The seven "changed in BC<v>" pills are one pill for the remembered major plus a version menu with counts, labels
   from `config/versions.json`; the Objects atlas takes its majors from config; every printed version list goes
