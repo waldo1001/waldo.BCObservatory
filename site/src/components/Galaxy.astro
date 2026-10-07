@@ -1,7 +1,9 @@
 ---
 /**
- * The galaxy (HANDOFF 5, PLAN 4.7). The canvas and panel are driven by scripts/galaxy.ts from graph/summary.json.
- * Toolbar: lens (type, tier, version, localization, source), zoom, list panel, full screen.
+ * The galaxy (HANDOFF 5, PLAN 4.7, D66 "galaxy, honest"). The canvas, ports and panel are driven by
+ * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
+ * Lens bar: changed in a version, this week, more lenses (type, tier, coverage, localization, source), list view.
+ * Tools: zoom, panel, full screen.
  */
 interface Props { height?: string; label?: string }
 const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central" } = Astro.props;
@@ -10,13 +12,19 @@ const base = import.meta.env.BASE_URL;
 <section class="galaxy" data-base={base} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
   <canvas aria-hidden="true"></canvas>
   <div class="g-labels"></div>
+  <div class="g-ports" role="group" aria-label="Where the focused star crosses into other systems"></div>
+  <div class="g-table" hidden></div>
   <nav class="g-crumbs" aria-label="Galaxy position"></nav>
+  <div class="g-lensbar" role="toolbar" aria-label="Lenses">
+    <label class="skip" for="g-lens">More lenses</label>
+    <select id="g-lens" data-g-lens><option value="">more lenses</option></select>
+    <button type="button" class="g-lens" data-g-view aria-pressed="false">list view</button>
+  </div>
+  <p class="g-legend" hidden><span class="lg-hub" aria-hidden="true"></span>hub <span class="lg-obj" aria-hidden="true"></span>object <span class="lg-tri" aria-hidden="true"></span>video <span class="lg-bar" aria-hidden="true"></span>post <span class="lg-cross" aria-hidden="true"></span>crosses out <span class="lg-com" aria-hidden="true"></span>community</p>
   <div class="g-tools">
-    <label class="skip" for="g-lens">Lens: light up where something touches the galaxy</label>
-    <select id="g-lens" data-g-lens><option value="">Lens: none</option></select>
     <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
     <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
-    <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show list</button>
+    <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show panel</button>
     <button type="button" class="g-btn" data-g-full title="Full screen (F)">Full screen</button>
   </div>
   <div class="g-nav">
@@ -24,7 +32,7 @@ const base = import.meta.env.BASE_URL;
     <button type="button" class="icon-btn" data-g-next hidden aria-label="Next system">→</button>
   </div>
   <p class="g-level mono-meta" aria-live="polite"></p>
-  <aside class="g-panel" id="g-panel" hidden aria-label="Galaxy list"><div class="g-panel-body"></div></aside>
+  <aside class="g-panel" id="g-panel" hidden aria-label="Galaxy panel"><div class="g-panel-body"></div></aside>
   <div class="g-fade" hidden></div>
   <noscript><p class="g-noscript">The galaxy needs JavaScript. Browse by section instead: <a href={`${base}topics/`}>topics</a>, <a href={`${base}objects/`}>AL objects</a>, <a href={`${base}features/`}>roadmap</a>.</p></noscript>
 </section>
@@ -44,30 +52,68 @@ const base = import.meta.env.BASE_URL;
   .galaxy:fullscreen, .galaxy.g-full { height: 100vh; border: 0; }
   .galaxy.g-full { position: fixed; inset: 0; z-index: 50; }
   .galaxy canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
-  .g-labels { position: absolute; inset: 0; pointer-events: none; }
+  .g-labels, .g-ports { position: absolute; inset: 0; pointer-events: none; }
   .galaxy :global(.g-sys) {
     position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap; min-height: 26px; padding: 3px 6px;
     font: 600 14px var(--font-ui); color: var(--dot); background: none; border: 1px solid transparent; border-radius: var(--r-badge); transition: opacity 600ms;
   }
   .galaxy :global(.g-sys:hover), .galaxy :global(.g-sys:focus-visible) { border-color: var(--line-strong); background: color-mix(in srgb, var(--g-bg) 70%, transparent); }
   .galaxy :global(.g-sys.dim) { opacity: .35; }
+  /* ports: a surface plate with a border in the target system's colour (tokens galaxy.port) */
+  .galaxy :global(.g-port) {
+    position: absolute; left: 0; top: 0; pointer-events: auto; display: grid; gap: 1px; text-align: left; max-width: 220px; min-height: 44px; padding: 5px 10px;
+    background: var(--g-port-bg); color: var(--g-port-text); border: 1px solid var(--dot); border-radius: var(--r-card); cursor: pointer;
+  }
+  .galaxy :global(.g-port b) { font: 600 13px var(--font-ui); }
+  .galaxy :global(.g-port small) { font: 400 11px var(--font-mono); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .galaxy :global(.g-port:hover), .galaxy :global(.g-port:focus-visible) { background: var(--surface-raised); }
   .g-crumbs { position: absolute; left: 16px; top: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); max-width: calc(100% - 32px); pointer-events: none; }
   .g-crumbs :global(*) { pointer-events: auto; }
   .g-crumbs :global(button) { background: none; border: 0; padding: 4px 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .g-crumbs :global([aria-current]) { color: var(--text); }
+  /* the lens bar (HANDOFF D section 4): mono 12px toggles, 32px high (44px on touch); the active one in the accent */
+  .g-lensbar { position: absolute; left: 16px; top: 46px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; max-width: calc(100% - 330px); z-index: 2; }
+  .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 720px); }
+  .g-lensbar :global(.g-lens), .g-lensbar select {
+    min-height: 32px; padding: 0 12px; font: 400 12px var(--font-mono); color: var(--text-2); cursor: pointer;
+    background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: var(--r-badge);
+  }
+  .g-lensbar select { max-width: 200px; }
+  .g-lensbar :global(.g-lens[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
+  @media (pointer: coarse) { .g-lensbar :global(.g-lens), .g-lensbar select { min-height: 44px; } }
+  .g-legend { position: absolute; left: 120px; bottom: 22px; margin: 0; font: 400 11px var(--font-mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; pointer-events: none; }
+  .g-legend span { display: inline-block; width: 8px; height: 8px; margin-left: 6px; background: var(--muted); }
+  .g-legend .lg-hub { border-radius: 50%; }
+  .g-legend .lg-obj { border-radius: 2px; }
+  .g-legend .lg-tri { background: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--g-media); }
+  .g-legend .lg-bar { height: 3px; background: var(--g-media); }
+  .g-legend .lg-cross { width: 14px; height: 0; background: none; border-top: 1px dashed var(--g-edge-cross); }
+  .g-legend .lg-com { background: none; border: 1px dashed var(--g-community); border-radius: 50%; }
   .g-tools { position: absolute; right: 16px; top: 10px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: calc(100% - 32px); z-index: 2; }
   .galaxy:global(.g-panel-open) .g-tools { right: 396px; }
-  .g-tools select, .g-btn, .g-tools .icon-btn {
+  .g-btn, .g-tools .icon-btn {
     min-height: 36px; background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--text); border: 1px solid var(--line-strong);
     border-radius: var(--r-card); font: 500 13px var(--font-ui); padding: 0 10px; cursor: pointer;
   }
-  .g-tools select { max-width: 240px; }
   .g-btn:hover, .g-tools .icon-btn:hover { border-color: var(--text-2); }
   .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
   .g-nav .icon-btn { background: var(--surface); }
   .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; pointer-events: none; }
+  /* list view: the system as a sortable table in place of the canvas */
+  .g-table { position: absolute; inset: 128px 16px 56px 16px; overflow: auto; background: var(--g-bg); z-index: 1; }
+  .galaxy:global(.g-panel-open) .g-table { right: 396px; }
+  .g-table :global(table) { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .g-table :global(th), .g-table :global(td) { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  .g-table :global(thead th) { position: sticky; top: 0; background: var(--g-bg); }
+  .g-table :global(thead button) { background: none; border: 0; padding: 4px 0; font: 500 12px var(--font-mono); color: var(--text-2); cursor: pointer; text-transform: uppercase; letter-spacing: .04em; }
+  .g-table :global([aria-sort="ascending"] button), .g-table :global([aria-sort="descending"] button) { color: var(--accent); }
+  .g-table :global(tbody th button) { display: inline-flex; gap: 8px; align-items: center; background: none; border: 0; padding: 4px 0; color: var(--link); font: 500 14px var(--font-ui); text-align: left; cursor: pointer; }
+  .g-table :global(.num) { font-family: var(--font-mono); text-align: right; }
+  .g-table :global(.g-meta) { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  .galaxy:global(.g-listview) canvas, .galaxy:global(.g-listview) .g-labels, .galaxy:global(.g-listview) .g-legend { visibility: hidden; }
   .g-panel {
-    position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; overflow-y: auto; padding: 20px;
+    position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; overflow-y: auto; overflow-x: hidden; padding: 20px;
     background: color-mix(in srgb, var(--surface) 95%, transparent); border-left: 1px solid var(--line);
     animation: g-slide var(--t-panel) var(--ease-fly);
   }
@@ -76,6 +122,7 @@ const base = import.meta.env.BASE_URL;
   .g-panel :global(h3) { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 20px 0 8px; }
   .g-panel :global(.g-kicker) { font: 500 12px var(--font-mono); margin: 0; }
   .g-panel :global(.g-meta) { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .g-panel :global(.g-badges) { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
   .g-panel :global(.g-list) { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
   .g-panel :global(.g-list button), .g-panel :global(.g-list a) {
     width: 100%; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; min-height: 36px; text-decoration: none;
@@ -83,15 +130,53 @@ const base = import.meta.env.BASE_URL;
   }
   .g-panel :global(.g-list button:hover), .g-panel :global(.g-list button:focus-visible), .g-panel :global(.g-list a:hover) { background: var(--surface-raised); }
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
-  .g-panel :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
+  .galaxy :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); flex: none; }
+  .galaxy :global(.g-dot.sq) { border-radius: 2px; }
+  .g-panel :global(.g-shape) { width: 8px; height: 8px; background: var(--g-media); }
+  .g-panel :global(.g-shape.tri) { background: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--g-media); }
+  .g-panel :global(.g-shape.bar) { height: 3px; }
+  .g-panel :global(.g-shape.new.tri) { border-bottom-color: var(--g-media-new); }
+  .g-panel :global(.g-shape.new.bar) { background: var(--g-media-new); }
+  /* exit dock (HANDOFF D section 4): the primary instrument, then two columns; real links, 44px */
+  .g-panel :global(.g-dock) { display: grid; gap: 6px; }
+  .g-panel :global(.g-dock-2) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px; }
+  .g-panel :global(.g-exit) {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px; min-width: 0; min-height: 44px; padding: 0 12px; border: 1px solid var(--line-strong);
+    border-radius: var(--r-card); text-decoration: none; font: 600 14px var(--font-ui); color: var(--text); background: var(--surface-raised);
+  }
+  .g-panel :global(.g-exit span) { font: 400 11px var(--font-mono); color: var(--muted); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .g-panel :global(.g-exit.primary) { border-color: var(--accent); }
+  .g-panel :global(.g-exit:hover) { border-color: var(--text-2); }
+  .g-panel :global(.g-cross) { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .g-panel :global(.g-cross > li > p) { margin: 0 0 2px; display: flex; gap: 8px; align-items: baseline; }
+  .g-panel :global(.g-cross-sys) { background: none; border: 0; padding: 4px 0; font: 600 13px var(--font-mono); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .g-panel :global(.g-cross small) { color: var(--muted); font: 400 11px var(--font-mono); }
+  .g-panel :global(.g-arrival) { border-left: 2px solid var(--g-edge-cross); padding-left: 10px; margin: 0 0 12px; font-size: 14px; }
+  .g-panel :global(.g-arrival button) { background: none; border: 0; padding: 0; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; }
   .g-fade { position: absolute; inset: 0; background: var(--bg); opacity: 0; transition: opacity 700ms ease-in 300ms; pointer-events: none; }
   .g-fade:global(.on) { opacity: 1; }
   .g-noscript { position: absolute; inset: auto 16px 16px; }
+  .galaxy :global(button:focus-visible), .galaxy :global(a:focus-visible), .galaxy select:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
   @media (max-width: 720px) {
     .g-panel { top: auto; height: 55%; width: 100%; border-left: 0; border-top: 1px solid var(--line); }
     .galaxy:global(.g-panel-open) .g-tools { right: 16px; }
+    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 32px); top: 90px; flex-wrap: nowrap; overflow-x: auto; }
     .g-tools { top: 44px; }
-    .g-tools select { max-width: 150px; }
+    .g-legend { display: none; }
+    .g-table, .galaxy:global(.g-panel-open) .g-table { inset: 136px 0 56px 0; right: 0; }
+  }
+  /* 390 (HANDOFF D responsive): no interactive galaxy; a static 150px locator strip, then the panel as the page */
+  @media (max-width: 480px) {
+    .galaxy { height: auto; touch-action: auto; overflow: visible; }
+    .galaxy canvas { position: relative; height: 150px; pointer-events: none; }
+    .g-crumbs { position: static; padding: 12px 16px 0; max-width: none; }
+    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { position: static; padding: 8px 16px; max-width: none; }
+    .g-tools, .g-nav, .g-level, .g-ports, .g-labels { display: none; }
+    .g-panel, .galaxy:global(.g-panel-open) .g-panel { position: static; height: auto; width: 100%; border: 0; animation: none; padding: 16px; }
+    .g-panel :global(.g-dock), .g-panel :global(.g-dock-2) { display: flex; overflow-x: auto; gap: 6px; }
+    .g-panel :global(.g-exit) { flex: none; }
+    .g-table, .galaxy:global(.g-panel-open) .g-table { position: static; inset: auto; max-height: none; }
+    .galaxy:global(.g-listview) canvas { display: none; }
   }
   @media (prefers-reduced-motion: reduce) { .g-panel { animation: none; } .g-fade { transition: none; } }
 </style>

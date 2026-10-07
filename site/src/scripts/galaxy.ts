@@ -1,24 +1,37 @@
 /**
- * The galaxy (design/HANDOFF.md section 5, D42, PLAN 4.7): canvas for stars, edges and star labels; DOM for system
- * labels, toolbar, lens and panel.
+ * The galaxy (design/HANDOFF.md section 5, D42, PLAN 4.7; "galaxy, honest" D66): canvas for stars, edges and star
+ * labels; DOM for system labels, lens bar, ports, panel and the list view.
  *
  * - Levels: galaxy -> system -> star -> page (level 4 flies into the star and opens its page). Wheel, pinch and drag
  *   zoom and pan freely at any level; labels appear as there is room for them and never overlap.
- * - Encodings: hue = system; brightness = evidence on the star (Learn pages, videos, posts); a ring in the community
- *   colour when most of that evidence is community; size = connections. Newly lit stars pulse.
- * - Lenses: type, tier, version, a localization (constellation lines between the objects it changes) or a source
- *   (where a blog or channel touches the galaxy). Matching stars light up, the rest dims; the panel lists them.
- * - Panel: the list of the current scope (systems, a system's stars, a star's connections and evidence, a lens's
- *   matches); hovering a row marks its star. It collapses and reopens; the galaxy can go full screen.
+ * - Layout (pipeline, D66): hubs on their Learn table-of-contents tree, objects in namespace plots; the tree guides and
+ *   plots are drawn behind the stars of the system in view.
+ * - Encodings: hue = system; brightness = evidence on the star (Learn pages, videos, posts); size = connections;
+ *   circle hub, rounded square object, triangle video, bar post; dashed teal ring = community evidence; accent ring
+ *   and pulse = landed this week; accent frame = changed in the lens version; hollow dashed square = obsolete.
+ * - A focused star draws its edges: solid inside its system, dashed to a port per target system (max 6). Ports are
+ *   buttons; the panel lists the same crossings, so the ports are never the only way.
+ * - Lenses, one at a time: changed in a version, this week, then type, tier, localization, source, no evidence, and
+ *   search. Matching stars keep their brightness and get the lens mark, the rest dims to 0.3.
+ * - Panel: the current scope as lists; the star panel carries the exit dock (real links to the instruments).
+ * - List view: the system in view as a sortable table instead of the canvas. Below 480 px the galaxy is a static
+ *   locator strip above the panel.
  * Camera: translate(vx - tx*s, vy - ty*s) scale(s), flown with the handoff's easing; a cut under reduced motion.
  */
-interface Sys { id: string; label: string; x: number; y: number; r: number }
-interface Node { id: string; type: string; label: string; tier: string; group: string; weight: number; url?: string; lit_at: string | null; x: number; y: number; ev?: number; cs?: number; cv?: string[] }
+type Plot = [string, number, number, number, number, number];
+interface Sys { id: string; label: string; x: number; y: number; r: number; ord?: number; tree?: [string, string][]; plots?: Plot[] }
+type Target = string | [string, string];
+interface Node {
+  id: string; type: string; label: string; tier: string; group: string; weight: number; url?: string; lit_at: string | null; x: number; y: number;
+  ev?: number; cs?: number; cv?: string[]; ob?: string[]; ec?: number; nn?: number; ns?: string;
+  cross?: [string, number, string, Target[]][]; crossMore?: number; mb?: { n: number; top: [string, string, string | null][] };
+}
 interface Edge { s: string; t: string; type: string }
-interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; touches?: Record<string, string[]>; reach?: Record<string, Record<string, number>> }
+interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; sysedges?: [string, string, number][]; touches?: Record<string, string[]>; reach?: Record<string, Record<string, number>> }
+interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?][] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
-interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; pages?: Row[]; total?: number }
+interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
 
 /** What the header's live search needs from a mounted galaxy (live-search.ts). */
 export interface GalaxyApi {
@@ -33,10 +46,11 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
+import { parseHash, portSpot, sortRows, type SortKey } from "./galaxy-core.js";
 import type { Row } from "./search.js";
 import type { SearchHits } from "./live-search.js";
 
-const FLY_MS = 1100;
+const FLY_MS = 1100, DRAW_MS = 600;
 /** cubic-bezier(.65,0,.2,1) (tokens motion.cameraFly): solve x(m) = t by bisection, return y(m). */
 const ease = (t: number) => {
   const bez = (m: number, p1: number, p2: number) => 3 * m * (1 - m) ** 2 * p1 + 3 * m * m * (1 - m) * p2 + m ** 3;
@@ -44,22 +58,32 @@ const ease = (t: number) => {
   for (let i = 0; i < 24; i++) { const m = (lo + hi) / 2; if (bez(m, 0.65, 0.2) < t) lo = m; else hi = m; }
   return bez((lo + hi) / 2, 0, 1);
 };
-const pathOf = (n: Node) => n.url ?? `${n.id.slice(0, n.id.indexOf("/"))}s/${n.id.slice(n.id.indexOf("/") + 1)}/`;
+const pathOf = (n: { id: string; url?: string }) => n.url ?? `${n.id.slice(0, n.id.indexOf("/"))}s/${n.id.slice(n.id.indexOf("/") + 1)}/`;
 const TYPE: Record<string, string> = { topic: "topic hub", feature: "roadmap feature", object: "AL object", localization: "localization", source: "source", video: "video", post: "community post" };
+const KIND: Record<string, string> = { table_relation: "table relation", calc_formula: "calc formula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends", documents: "documented by", relates: "related hub", localizes: "localized by", demonstrates: "demonstrated by", mentions: "mentioned by", discusses: "discussed by" };
+/** Tier badge words, as Badges.astro writes them. */
+const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const hit = (a: Rect, b: Rect) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+/** `Table 18 "Customer"` -> Customer (the events explorer filters by name). */
+const objectName = (label: string) => /"(.+)"$/.exec(label)?.[1] ?? label;
 
 export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> {
   const base = root.dataset.base ?? "/";
   const canvas = root.querySelector("canvas")!;
   const labels = root.querySelector<HTMLElement>(".g-labels")!;
+  const ports = root.querySelector<HTMLElement>(".g-ports")!;
   const panel = root.querySelector<HTMLElement>(".g-panel")!;
   const panelBody = root.querySelector<HTMLElement>(".g-panel-body")!;
   const crumbs = root.querySelector<HTMLElement>(".g-crumbs")!;
   const levelEl = root.querySelector<HTMLElement>(".g-level")!;
+  const legend = root.querySelector<HTMLElement>(".g-legend")!;
+  const lensBar = root.querySelector<HTMLElement>(".g-lensbar")!;
+  const table = root.querySelector<HTMLElement>(".g-table")!;
   const prevBtn = root.querySelector<HTMLButtonElement>("[data-g-prev]")!;
   const nextBtn = root.querySelector<HTMLButtonElement>("[data-g-next]")!;
   const listBtn = root.querySelector<HTMLButtonElement>("[data-g-list]")!;
+  const viewBtn = root.querySelector<HTMLButtonElement>("[data-g-view]")!;
   const fullBtn = root.querySelector<HTMLButtonElement>("[data-g-full]")!;
   const lensSel = root.querySelector<HTMLSelectElement>("[data-g-lens]")!;
   const fade = root.querySelector<HTMLElement>(".g-fade")!;
@@ -67,6 +91,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   let g: Summary;
   try { g = await (await fetch(`${base}graph/summary.json`)).json(); } catch { root.classList.add("g-empty"); return null; }
   if (!g.nodes?.length) { root.classList.add("g-empty"); return null; }
+  const week: Landed = await fetch(`${base}graph/landed.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null) ?? { anchor: null, days: 7, items: [] };
   // older graphs filed source pages under a system: sources always live in their own
   for (const n of g.nodes) if (n.type === "source") n.group = "sources";
 
@@ -80,21 +105,34 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     srcSys.r = Math.max(40, ...srcStars.map((n) => Math.hypot(n.x - srcSys.x, n.y - srcSys.y)));
   }
   const adj = new Map<string, string[]>();
+  const edgeType = new Map<string, string>();
   for (const e of g.edges) {
     if (!byId.has(e.s) || !byId.has(e.t)) continue;
     adj.set(e.s, [...(adj.get(e.s) ?? []), e.t]);
     adj.set(e.t, [...(adj.get(e.t) ?? []), e.s]);
+    edgeType.set(`${e.s}|${e.t}`, e.type); edgeType.set(`${e.t}|${e.s}`, e.type);
   }
   const maxW = Math.max(...g.nodes.map((n) => n.weight), 1);
   const maxEv = Math.max(...g.nodes.map((n) => n.ev ?? 0), 1);
   const radius = (n: Node) => Math.max(2, Math.sqrt(n.weight) * 1.1);
   /** Brightness: evidence when the graph carries it, else connections. */
-  const bright = (n: Node) => (n.ev !== undefined ? 0.35 + 0.65 * Math.sqrt(n.ev / maxEv) : 0.5 + 0.5 * n.weight / maxW);
-  const today = new Date();
-  const weekAgo = new Date(today.getTime() - 7 * 864e5).toISOString().slice(0, 10), now = today.toISOString().slice(0, 10);
-  const lit = new Set(g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id));
+  const bright = (n: Node) => (n.ev !== undefined ? 0.35 + 0.65 * Math.sqrt(n.ev / maxEv) : n.type === "object" && g.nodes.some((x) => x.ev !== undefined) ? 0.35 : 0.5 + 0.5 * n.weight / maxW);
+  // landed this week: from the pipeline's week (the run date), never the reader's clock; older graphs fall back to lit_at
+  const landedMedia = new Set(week.items.map((i) => i[0]));
+  const lit = new Set<string>(week.anchor ? week.items.flatMap((i) => i[3]).filter((id) => byId.has(id)) : (() => {
+    const today = new Date(), weekAgo = new Date(today.getTime() - 7 * 864e5).toISOString().slice(0, 10), now = today.toISOString().slice(0, 10);
+    return g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id);
+  })());
   // caption order inside each system never changes between frames (D44)
   const rank = ranksByGroup(g.nodes);
+  const versions = [...new Set(g.nodes.flatMap((n) => n.cv ?? []))].sort();
+  // an object star never outgrows its cell in the namespace plot (the plots hold every object of the system)
+  const cell = new Map<string, number>();
+  for (const s of g.systems) for (const [, x, y, w, h, count] of s.plots ?? []) {
+    const c = Math.sqrt((w * h) / Math.max(1, count));
+    for (const n of g.nodes) if (n.type === "object" && n.group === s.id && n.x >= x - 1 && n.x <= x + w + 1 && n.y >= y - 1 && n.y <= y + h + 1) cell.set(n.id, Math.min(cell.get(n.id) ?? Infinity, c));
+  }
+  const sysedgeMax = Math.max(1, ...(g.sysedges ?? []).map((e) => e[2]));
 
   // world bounds, field stars (seeded noise, not data: HANDOFF 7)
   const xs = g.systems.map((s) => s.x), ys = g.systems.map((s) => s.y);
@@ -103,14 +141,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32);
   const field = Array.from({ length: 900 }, () => ({ x: world.x0 + rnd() * (world.x1 - world.x0), y: world.y0 + rnd() * (world.y1 - world.y0), r: 0.4 + rnd() * 0.9, a: 0.15 + rnd() * 0.45 }));
 
-  // lenses: one at a time, built from the data
+  // lenses: one at a time, built from the data. The bar holds the version and "this week" lenses, the select the rest.
+  const barLenses: Lens[] = [
+    ...versions.map((v) => ({ id: `version:${v}`, label: `changed in BC${v}`, group: "Version", version: v, match: (n: Node) => !!n.cv?.includes(v) || !!n.ob?.includes(v), exit: { href: `${base}code/versions/`, label: "Member-level changes per version" } })),
+    { id: "landed", label: "this week", group: "Time", match: (n: Node) => lit.has(n.id) },
+  ];
   const lenses: Lens[] = [
+    ...barLenses,
     ...["topic", "feature", "object", "localization", "source"].map((t) => ({ id: `type:${t}`, label: `${TYPE[t]}s`, group: "Type", match: (n: Node) => n.type === t })),
     { id: "tier:community", label: "mostly community evidence", group: "Tier", match: (n: Node) => (n.cs ?? 0) >= 0.5 || n.tier === "community" },
     { id: "tier:official", label: "official only", group: "Tier", match: (n: Node) => n.tier === "official" && !(n.cs ?? 0) },
-    ...[...new Set(g.nodes.flatMap((n) => n.cv ?? []))].sort().map((v) => ({ id: `version:${v}`, label: `objects changed in BC${v}`, group: "Version", match: (n: Node) => !!n.cv?.includes(v) })),
+    { id: "coverage", label: "no Learn page, video or post", group: "Coverage", match: (n: Node) => !n.ev && n.type !== "source", exit: { href: `${base}coverage/`, label: "The coverage heatmap" } },
     ...g.nodes.filter((n) => n.type === "localization").sort((a, b) => a.label.localeCompare(b.label)).map((l) => ({
-      id: `loc:${l.id}`, label: l.label, group: "Localization", lines: true,
+      id: `loc:${l.id}`, label: l.label, group: "Localization", lines: true, exit: { href: `${base}${pathOf(l)}`, label: `What ${l.label} changes, down to the field` },
       match: (n: Node) => n === l || (adj.get(l.id) ?? []).includes(n.id),
     })),
     ...g.nodes.filter((n) => n.type === "source").sort((a, b) => a.label.localeCompare(b.label)).map((s) => {
@@ -119,18 +162,31 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }),
   ];
   const lensById = new Map(lenses.map((l) => [l.id, l]));
-  for (const grp of [...new Set(lenses.map((l) => l.group))]) {
+  for (const grp of [...new Set(lenses.filter((l) => !barLenses.includes(l)).map((l) => l.group))]) {
     const og = document.createElement("optgroup"); og.label = grp;
-    for (const l of lenses.filter((x) => x.group === grp)) { const o = document.createElement("option"); o.value = l.id; o.textContent = l.label; og.append(o); }
+    for (const l of lenses.filter((x) => x.group === grp && !barLenses.includes(x))) { const o = document.createElement("option"); o.value = l.id; o.textContent = l.label; og.append(o); }
     lensSel.append(og);
   }
+  const lensButtons = barLenses.map((l) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "g-lens"; b.dataset.lens = l.id; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = `<span>${esc(l.label)}</span> <span class="g-lens-n"></span>`;
+    b.addEventListener("click", () => setLens(lens?.id === l.id ? "" : l.id, true));
+    return b;
+  });
+  lensBar.prepend(...lensButtons);
 
   const reduce = matchMedia("(prefers-reduced-motion: reduce)");
   let colors: Record<string, string> = {};
   const readColors = () => {
     const cs = getComputedStyle(document.documentElement);
     const v = (k: string) => cs.getPropertyValue(`--${k}`).trim();
-    colors = { bg: v("g-bg"), core: v("g-core"), field: v("g-field"), edge: v("g-edge"), edgeActive: v("g-edge-active"), starActive: v("g-star-active"), accent: v("accent-dot"), text: v("text"), plate: v("g-bg"), community: v("tier-community-border"), video: v("ev-video-text"), blog: v("ev-blog-text"), learn: v("ev-learn-text") };
+    colors = {
+      bg: v("g-bg"), core: v("g-core"), field: v("g-field"), edge: v("g-edge"), edgeActive: v("g-edge-active"), starActive: v("g-star-active"), accent: v("accent-dot"), text: v("text"), plate: v("g-bg"),
+      community: v("g-community") || v("tier-community-border"), video: v("ev-video-text"), blog: v("ev-blog-text"), learn: v("ev-learn-text"),
+      cross: v("g-edge-cross") || v("g-edge-active"), tree: v("g-tree") || v("g-edge"), plot: v("g-plot-border") || v("line"), plotLabel: v("g-plot-label") || v("muted"),
+      media: v("g-media") || v("text-2"), mediaNew: v("g-media-new") || v("accent-dot"), version: v("g-version") || v("accent-dot"), obsolete: v("g-obsolete") || v("muted"),
+    };
     for (const s of g.systems) colors[s.id] = v(`sys-${s.id}`) || v("muted");
   };
   readColors();
@@ -141,11 +197,18 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   let level: Level = 1, focusSys: Sys | null = null, focusStar: Node | null = null, hover: Node | null = null, mark: Node | null = null;
   let lens: Lens | null = null, lensSet = new Set<string>(), lensLines: [Node, Node][] = [];
   let panelOpen = false, userPanel: boolean | null = null; // the reader's own choice wins once made
+  let listView = false, sortKey: SortKey = "connections";
   let ego: Ego | null = null;
+  /** When the camera arrived at the focused star (its edges draw outward from then on). */
+  let focusAt = 0;
+  /** A port that led to a system where the far end is not a star: the panel names the objects it points at. */
+  let arrival: { from: Node; sys: string; targets: Target[]; count: number; kind: string } | null = null;
+  const mobile = () => W <= 480;
   const narrow = () => W <= 720;
   const fitScale = () => Math.min(W / (world.x1 - world.x0), H / (world.y1 - world.y0));
   const sysScale = (s: Sys) => Math.min(W, H) * 0.36 / Math.max(s.r, 40);
-  const viewCentre = () => panelOpen ? (narrow() ? { vx: W / 2, vy: H * 0.225 } : { vx: (W - 380) / 2, vy: H / 2 }) : { vx: W / 2, vy: H / 2 };
+  const panelW = () => (panelOpen && !narrow() ? 380 : 0);
+  const viewCentre = () => panelOpen && !mobile() ? (narrow() ? { vx: W / 2, vy: H * 0.225 } : { vx: (W - 380) / 2, vy: H / 2 }) : { vx: W / 2, vy: H / 2 };
   const toScreen = (x: number, y: number) => ({ x: cam.vx + (x - cam.tx) * cam.s, y: cam.vy + (y - cam.ty) * cam.s });
   const toWorld = (x: number, y: number) => ({ x: cam.tx + (x - cam.vx) / cam.s, y: cam.ty + (y - cam.vy) / cam.s });
 
@@ -153,14 +216,15 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   let anim: { from: typeof cam; to: typeof cam; t0: number; done?: () => void } | null = null;
   const target = (): typeof cam => {
     const { vx, vy } = viewCentre();
-    if (level === 1) return { s: fitScale() * (panelOpen && !narrow() ? (W - 380) / W : 1), tx: (world.x0 + world.x1) / 2, ty: (world.y0 + world.y1) / 2, vx, vy };
+    if (level === 1) return { s: fitScale() * (panelW() ? (W - 380) / W : 1), tx: (world.x0 + world.x1) / 2, ty: (world.y0 + world.y1) / 2, vx, vy };
     const s = sysScale(focusSys!);
     if (level === 2) return { s, tx: focusSys!.x, ty: focusSys!.y, vx, vy };
     return { s: s * 1.8, tx: focusStar!.x, ty: focusStar!.y, vx, vy };
   };
   let raf = 0;
   let labelsFading = false;
-  const animating = () => !!anim || labelsFading || (!reduce.matches && (lit.size > 0 || (level === 3 && ego?.id === focusStar?.id)));
+  const drawing = () => level === 3 && !reduce.matches && Number.isFinite(focusAt) && performance.now() - focusAt < DRAW_MS;
+  const animating = () => !!anim || labelsFading || drawing() || (!reduce.matches && lit.size > 0);
   const loop = () => {
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame((t) => {
@@ -179,13 +243,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     anim = { from: { ...cam }, to, t0: performance.now(), done };
     loop();
   };
-  const fly = (instant = false) => flyTo(target(), instant);
+  const fly = (instant = false) => flyTo(target(), instant, () => { if (level === 3) { focusAt = performance.now(); loop(); } });
 
   const resize = () => {
-    const r = root.getBoundingClientRect();
+    const r = canvas.getBoundingClientRect();
     if (!r.width || !r.height) return;
     W = r.width; H = r.height; dpr = window.devicePixelRatio || 1;
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+    root.classList.toggle("g-mobile", mobile());
     fly(true);
   };
 
@@ -193,19 +258,26 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const ctx = canvas.getContext("2d")!;
   /** The system the reader zoomed into by hand at galaxy level (D44): edges and captions behave as at system level. */
   let eff: Sys | null = null;
-  const visibleRect = () => ({ x0: 0, y0: 0, x1: W - (panelOpen && !narrow() ? 380 : 0), y1: H - (panelOpen && narrow() ? H * 0.55 : 0) });
+  const visibleRect = () => ({ x0: 0, y0: 0, x1: W - panelW(), y1: H - (panelOpen && narrow() && !mobile() ? H * 0.55 : 0) });
   const scopeSys = () => focusSys ?? eff;
   const inScope = (n: Node) => (level === 1 && !eff) || n.group === scopeSys()?.id || (level === 3 && !!focusStar && (n === focusStar || !!adj.get(focusStar.id)?.includes(n.id)));
   const alpha = (n: Node) => {
-    if (lens) return lensSet.has(n.id) ? 1 : 0.1;
+    if (lens) return lensSet.has(n.id) ? Math.max(0.6, bright(n)) : 0.3 * bright(n);
     if (level === 1) return bright(n);
     if (n.group !== focusSys?.id) return level === 3 && focusStar && adj.get(focusStar.id)?.includes(n.id) ? 0.7 : 0.16;
-    if (level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id)) return 0.3;
+    if (level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id)) return 0.4;
     return bright(n);
   };
   // zoomed out: the handoff's dots, max(1.6, sqrt(weight) * 0.42) design px (5.5 world units per design unit);
   // zoomed in: proportional to connections
-  const diameter = (n: Node) => Math.min(Math.max(1.6, Math.sqrt(n.weight) * 0.42 * cam.s * 5.5, radius(n) * 2 * cam.s / 3), 26);
+  const diameter = (n: Node) => {
+    const d = Math.min(Math.max(1.6, Math.sqrt(n.weight) * 0.42 * cam.s * 5.5, radius(n) * 2 * cam.s / 3), 26);
+    const c = cell.get(n.id);
+    return c ? Math.max(1.6, Math.min(d, c * cam.s * 0.9)) : d;
+  };
+  const line = (a: { x: number; y: number }, b: { x: number; y: number }) => { ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke(); };
+  /** Screen spots of the focused star's ports, recomputed every frame and mirrored by the DOM buttons. */
+  let portSpots: { sys: string; x: number; y: number }[] = [];
 
   function draw(t = performance.now()) {
     if (!W) return;
@@ -224,14 +296,45 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       halo.addColorStop(0, colors[s.id]); halo.addColorStop(1, "transparent");
       // a source lens lights the systems it writes about, in proportion
       const reach = lens?.reach ? (lens.reach[s.id] ?? 0) / Math.max(...Object.values(lens.reach), 1) : 0;
-      ctx.globalAlpha = lens ? 0.05 + 0.4 * reach : level === 1 ? 0.2 : s === focusSys ? 0.16 : 0.06;
+      ctx.globalAlpha = lens?.reach ? 0.05 + 0.4 * reach : lens ? 0.08 : level === 1 ? 0.2 : s === focusSys ? 0.16 : 0.06;
       ctx.fillStyle = halo; ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, Math.PI * 2); ctx.fill();
+    }
+    // galaxy level: the heaviest system pairs, width by weight (tokens galaxy.systemEdge)
+    if (level === 1 && !lens && g.sysedges?.length) {
+      ctx.strokeStyle = colors.edge;
+      const k = 1 - smoothstep(0.6, 1, eff ? cam.s / sysScale(eff) : 0);
+      for (const [a, b, w] of g.sysedges) {
+        const A = sysById.get(a), B = sysById.get(b);
+        if (!A || !B) continue;
+        ctx.globalAlpha = 0.55 * k; ctx.lineWidth = 1 + (3 * w) / sysedgeMax;
+        line(toScreen(A.x, A.y), toScreen(B.x, B.y));
+      }
+      ctx.lineWidth = 1;
+    }
+    // the system in view: Learn tree guides and namespace plots (decorative: the panel and the list carry the facts)
+    const scope = scopeSys();
+    if (scope) {
+      const k = level >= 2 ? 1 : smoothstep(0.8, 1, cam.s / sysScale(scope));
+      ctx.strokeStyle = colors.tree; ctx.lineWidth = 1; ctx.globalAlpha = 0.7 * k;
+      for (const [p, q] of scope.tree ?? []) { const a = byId.get(p), b = byId.get(q); if (a && b) line(toScreen(a.x, a.y), toScreen(b.x, b.y)); }
+      ctx.font = "400 10px var(--font-mono), ui-monospace, monospace"; ctx.textBaseline = "top";
+      for (const [path, x, y, w, h, count] of scope.plots ?? []) {
+        const p = toScreen(x, y), sw = w * cam.s, sh = h * cam.s;
+        if (sw < 3 || sh < 3 || p.x > W || p.y > H || p.x + sw < 0 || p.y + sh < 0) continue;
+        ctx.globalAlpha = 0.9 * k; ctx.strokeStyle = colors.plot; ctx.beginPath(); ctx.roundRect(p.x, p.y, sw, sh, Math.min(4, sw / 4)); ctx.stroke();
+        if (sw > 70 && sh > 16) {
+          const name = path.split(".").pop()!;
+          ctx.fillStyle = colors.plotLabel; ctx.globalAlpha = 0.85 * k;
+          ctx.fillText(`${name.length > 22 ? `${name.slice(0, 21)}…` : name} ${count}`, p.x + 4, p.y + 3, sw - 8);
+        }
+      }
     }
     // edges: inside the focused system and the star's own; a lens draws its constellation instead
     ctx.lineWidth = 1;
+    portSpots = [];
     if (lens?.lines) {
       ctx.strokeStyle = colors.accent; ctx.globalAlpha = 0.55; ctx.setLineDash([4, 4]);
-      for (const [a, b] of lensLines) { const p = toScreen(a.x, a.y), q = toScreen(b.x, b.y); ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
+      for (const [a, b] of lensLines) line(toScreen(a.x, a.y), toScreen(b.x, b.y));
       ctx.setLineDash([]);
     } else if (eff) {
       // zoomed into a system by hand: its edges come up as the camera reaches the system's own zoom
@@ -239,65 +342,139 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       for (const e of g.edges) {
         const a = byId.get(e.s), b = byId.get(e.t);
         if (!a || !b || a.group !== eff.id || b.group !== eff.id) continue;
-        const p = toScreen(a.x, a.y), q = toScreen(b.x, b.y);
-        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+        line(toScreen(a.x, a.y), toScreen(b.x, b.y));
       }
     } else if (level >= 2) {
+      // focused star: in-system edges solid, outward-drawn over 600 ms; edges that leave the system dashed
+      const k = reduce.matches ? 1 : Math.min(1, (t - focusAt) / DRAW_MS);
+      const kIn = Math.min(1, k * 1.6), kOut = Math.max(0, k * 1.6 - 0.6);
       for (const e of g.edges) {
         const a = byId.get(e.s), b = byId.get(e.t);
         if (!a || !b) continue;
         const own = level === 3 && focusStar && (a === focusStar || b === focusStar);
         if (!own && (a.group !== focusSys!.id || b.group !== focusSys!.id)) continue;
-        const p = toScreen(a.x, a.y), q = toScreen(b.x, b.y);
-        ctx.globalAlpha = own ? 0.9 : level === 3 ? 0.1 : 0.3;
-        ctx.strokeStyle = own ? colors.edgeActive : colors.edge;
-        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+        if (!own) { ctx.globalAlpha = level === 3 ? 0.1 : 0.3; ctx.strokeStyle = colors.edge; line(toScreen(a.x, a.y), toScreen(b.x, b.y)); continue; }
+        const other = a === focusStar ? b : a, p = toScreen(focusStar!.x, focusStar!.y), q = toScreen(other.x, other.y);
+        // an edge that leaves the system is a port (below) and a row in the panel, not a line across the galaxy
+        if (other.group !== focusStar!.group || kIn <= 0) continue;
+        ctx.globalAlpha = 0.9; ctx.strokeStyle = colors.edgeActive;
+        line(p, { x: p.x + (q.x - p.x) * kIn, y: p.y + (q.y - p.y) * kIn });
+      }
+      ctx.setLineDash([]);
+      // ports: one dashed edge per target system, ending at the canvas edge in that system's direction
+      if (level === 3 && focusStar?.cross?.length && !listView) {
+        const p = toScreen(focusStar.x, focusStar.y), v = visibleRect();
+        for (const [sys] of focusStar.cross) {
+          const S = sysById.get(sys);
+          if (S) portSpots.push({ sys, ...portSpot(p, toScreen(S.x, S.y), { x0: v.x0 + 24, y0: v.y0 + 110, x1: v.x1 - 24, y1: v.y1 - 56 }) });
+        }
+        placePorts();
+        if (kOut > 0 && !mobile()) for (const spot of portSpots) {
+          ctx.globalAlpha = 0.9; ctx.strokeStyle = colors.cross; ctx.setLineDash([6, 4]);
+          line(p, { x: p.x + (spot.x - p.x) * kOut, y: p.y + (spot.y - p.y) * kOut });
+          ctx.setLineDash([]);
+        }
       }
     }
+    if (!portSpots.length) placePorts();
     // stars
     const shown: { n: Node; p: { x: number; y: number }; d: number }[] = [];
+    const lensV = lens?.version;
     for (const n of g.nodes) {
       const p = toScreen(n.x, n.y), d = diameter(n);
       if (p.x < -d || p.y < -d || p.x > W + d || p.y > H + d) continue;
       const active = n === focusStar || n === hover || n === mark;
       const a = active ? 1 : alpha(n);
+      const obsolete = !!lensV && !!n.ob?.includes(lensV);
       ctx.globalAlpha = a;
       ctx.fillStyle = active ? colors.starActive : colors[n.group] ?? colors.field;
       ctx.shadowColor = active ? colors.starActive : colors[n.group] ?? "transparent";
-      ctx.shadowBlur = a > 0.2 ? d * (active ? 3 : 1.6) : 0;
+      ctx.shadowBlur = a > 0.2 && !obsolete ? d * (active ? 3 : 1.6) : 0;
       ctx.beginPath();
       if (n.type === "object") ctx.roundRect(p.x - d / 2, p.y - d / 2, d, d, d * 0.12); else ctx.arc(p.x, p.y, d / 2, 0, Math.PI * 2);
-      ctx.fill();
+      if (obsolete && !active) { ctx.strokeStyle = colors.obsolete; ctx.lineWidth = 1; ctx.setLineDash([2, 2]); ctx.stroke(); ctx.setLineDash([]); } else ctx.fill();
       ctx.shadowBlur = 0;
-      if ((n.cs ?? 0) >= 0.5 && a > 0.2 && d > 3) { ctx.strokeStyle = colors.community; ctx.lineWidth = 1.2; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 2.5, 0, Math.PI * 2); ctx.stroke(); }
-      if (lens && lensSet.has(n.id)) { ctx.strokeStyle = colors.accent; ctx.lineWidth = 1.2; ctx.globalAlpha = 0.9; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 4, 0, Math.PI * 2); ctx.stroke(); }
+      // community evidence: dashed teal ring (any share)
+      if ((n.cs ?? 0) > 0 && a > 0.2 && d > 3) { ctx.strokeStyle = colors.community; ctx.lineWidth = 1; ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 2.5, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]); }
+      if (lens && lensSet.has(n.id)) {
+        ctx.lineWidth = 1.2; ctx.globalAlpha = 0.9;
+        if (lensV && n.cv?.includes(lensV)) { ctx.strokeStyle = colors.version; ctx.strokeRect(p.x - d / 2 - 4, p.y - d / 2 - 4, d + 8, d + 8); }
+        else if (!lensV) { ctx.strokeStyle = colors.accent; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 4, 0, Math.PI * 2); ctx.stroke(); }
+      }
       if (n === mark) { ctx.strokeStyle = colors.accent; ctx.lineWidth = 2; ctx.globalAlpha = 1; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 8, 0, Math.PI * 2); ctx.stroke(); }
       if (a > 0.25 || active) shown.push({ n, p, d });
     }
-    // orbiting evidence around the focused star: its videos and posts (ego graph); Learn pages as a faint ring
-    if (level === 3 && focusStar && ego?.id === focusStar.id) {
-      const p = toScreen(focusStar.x, focusStar.y), r0 = diameter(focusStar) / 2 + 18;
-      const bodies = ego.nodes.filter((n) => n.type === "video" || n.type === "post");
-      const spin = reduce.matches ? 0 : (t / 40000) * Math.PI * 2;
-      bodies.forEach((b, i) => {
-        const ring = r0 + (i % 3) * 10, a = spin * (1 + (i % 3) * 0.3) + (i / Math.max(1, bodies.length)) * Math.PI * 2;
-        ctx.globalAlpha = 0.9; ctx.fillStyle = b.type === "video" ? colors.video : colors.blog;
-        ctx.beginPath(); ctx.arc(p.x + Math.cos(a) * ring, p.y + Math.sin(a) * ring * 0.85, 2.6, 0, Math.PI * 2); ctx.fill();
-      });
-      if ((focusStar.ev ?? 0) > bodies.length) { ctx.globalAlpha = 0.3; ctx.strokeStyle = colors.learn; ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.arc(p.x, p.y, r0 + 34, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]); }
+    // media bodies beside the hubs of the system in view: triangle video, bar post, accent when landed this week
+    if (level >= 2 && focusSys) {
+      for (const n of g.nodes) {
+        if (n.group !== focusSys.id || !n.mb) continue;
+        const p = toScreen(n.x, n.y), d = diameter(n);
+        if (d < 4 || p.x < -30 || p.y < -30 || p.x > W + 30 || p.y > H + 30) continue;
+        const r0 = d / 2 + 10;
+        ctx.globalAlpha = level === 3 && focusStar && n !== focusStar && !adj.get(focusStar.id)?.includes(n.id) ? 0.3 : 0.95;
+        n.mb.top.forEach(([id, kind], i) => {
+          const ang = -Math.PI / 2 + (i * Math.PI) / 6, x = p.x + Math.cos(ang) * r0, y = p.y + Math.sin(ang) * r0;
+          ctx.fillStyle = landedMedia.has(id) ? colors.mediaNew : colors.media;
+          ctx.beginPath();
+          if (kind === "v") { ctx.moveTo(x, y - 4); ctx.lineTo(x + 4, y + 3); ctx.lineTo(x - 4, y + 3); ctx.closePath(); } else ctx.rect(x - 4, y - 1.5, 8, 3);
+          ctx.fill();
+        });
+      }
     }
-    // newly lit: pulse ring (scale .7 to 1.25, opacity .9 to 0, 2400 ms); static under reduced motion
+    // landed this week: pulse ring (scale .7 to 1.25, opacity .9 to 0, 2400 ms); a static double ring under reduced motion
     if (lit.size) {
-      const k = reduce.matches ? 0.5 : (t % 2400) / 2400;
+      const k = (t % 2400) / 2400;
       ctx.strokeStyle = colors.accent; ctx.lineWidth = 1.5;
       for (const id of lit) {
-        const n = byId.get(id)!, p = toScreen(n.x, n.y), r = (8 + diameter(n) / 2) * (0.7 + 0.55 * k);
-        ctx.globalAlpha = reduce.matches ? 0.8 : 0.9 * (1 - k);
-        ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, Math.PI * 2); ctx.stroke();
+        const n = byId.get(id)!, p = toScreen(n.x, n.y), r = 8 + diameter(n) / 2;
+        if (p.x < -40 || p.y < -40 || p.x > W + 40 || p.y > H + 40) continue;
+        if (reduce.matches) {
+          for (const [rr, a] of [[r, 1], [r * 1.5, 0.35]]) { ctx.globalAlpha = a; ctx.beginPath(); ctx.arc(p.x, p.y, rr, 0, Math.PI * 2); ctx.stroke(); }
+        } else { ctx.globalAlpha = 0.9 * (1 - k); ctx.beginPath(); ctx.arc(p.x, p.y, r * (0.7 + 0.55 * k), 0, Math.PI * 2); ctx.stroke(); }
       }
     }
     ctx.globalAlpha = 1;
     drawStarLabels(shown, placeSystemLabels(), t);
+  }
+
+  // ports: real buttons pinned where the focused star's dashed edges leave the canvas
+  function placePorts() {
+    const want = level === 3 && focusStar?.cross?.length && !listView && !mobile() ? focusStar.cross : [];
+    if (ports.dataset.star !== (want.length ? focusStar!.id : "")) {
+      ports.dataset.star = want.length ? focusStar!.id : "";
+      ports.innerHTML = want.map(([sys, count, kind, named]) => `<button type="button" class="g-port" data-port="${esc(sys)}" style="--dot: var(--sys-${esc(sys)})"><b>${esc(sysById.get(sys)?.label ?? sys)} →</b><small>${count} ${esc(KIND[kind] ?? kind)} · ${esc(named.map((x) => short(targetLabel(x), 22)).join(", "))}</small></button>`).join("");
+      for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
+    }
+    // each port at its edge spot, then pushed along the edge until it overlaps no earlier port
+    const placed: Rect[] = [];
+    for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) {
+      const s = portSpots.find((x) => x.sys === b.dataset.port);
+      b.hidden = !s;
+      if (!s) continue;
+      const w = b.offsetWidth || 160, h = b.offsetHeight || 40, x1 = W - panelW() - w - 8, y1 = H - h - 8;
+      const r = { x: Math.min(Math.max(8, s.x - w / 2), x1), y: Math.min(Math.max(96, s.y - h / 2), y1), w, h };
+      const vertical = r.x <= 8 || r.x >= x1;
+      for (let i = 0; i < 12 && placed.some((o) => hit(r, { x: o.x - 4, y: o.y - 4, w: o.w + 8, h: o.h + 8 })); i++) {
+        if (vertical) r.y = r.y + h + 8 > y1 ? 96 + ((r.y + h + 8) % Math.max(1, y1 - 96)) : r.y + h + 8;
+        else r.x = r.x + w + 8 > x1 ? 8 + ((r.x + w + 8) % Math.max(1, x1 - 8)) : r.x + w + 8;
+      }
+      placed.push(r);
+      s.x = r.x + w / 2; s.y = r.y + h / 2;
+      b.style.transform = `translate(${Math.round(r.x)}px, ${Math.round(r.y)}px)`;
+    }
+  }
+  const short = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
+  const targetLabel = (t: Target) => (typeof t === "string" ? byId.get(t)?.label ?? t : t[1]);
+  const targetId = (t: Target) => (typeof t === "string" ? t : t[0]);
+  /** Follow a port: fly to the star at the far end when it is one, else to its system with the objects named. */
+  function takePort(sys: string) {
+    const row = focusStar?.cross?.find((r) => r[0] === sys);
+    const S = sysById.get(sys);
+    if (!row || !S || !focusStar) return;
+    const star = row[3].map(targetId).map((id) => byId.get(id)).find(Boolean);
+    if (star) { goStar(star); return; }
+    arrival = { from: focusStar, sys, targets: row[3], count: row[1], kind: row[2] };
+    goSystem(S, true);
   }
 
   // system labels: DOM buttons under (or above) their cluster; a label that would overlap a bigger system's waits
@@ -310,16 +487,16 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     labels.append(b); sysButtons.set(s.id, b);
   }
   const sysOrder = [...g.systems].sort((a, b) => b.r - a.r);
-  /** Screen areas the toolbar, breadcrumb and level indicator occupy: no label goes under them. */
-  const chromeRects = (): Rect[] => [crumbs, root.querySelector<HTMLElement>(".g-tools")!, levelEl, prevBtn.parentElement!, ...(panelOpen ? [panel] : [])].map((el) => {
-    const r = el.getBoundingClientRect(), o = root.getBoundingClientRect();
+  /** Screen areas the toolbar, breadcrumb, lens bar, legend and level indicator occupy: no label goes under them. */
+  const chromeRects = (): Rect[] => [crumbs, root.querySelector<HTMLElement>(".g-tools")!, lensBar, legend, levelEl, prevBtn.parentElement!, ...ports.querySelectorAll<HTMLElement>(".g-port:not([hidden])"), ...(panelOpen ? [panel] : [])].map((el) => {
+    const r = el.getBoundingClientRect(), o = canvas.getBoundingClientRect();
     return { x: r.left - o.left - 4, y: r.top - o.top - 4, w: r.width + 8, h: r.height + 8 };
-  }).filter((r) => r.w > 8);
+  }).filter((r) => r.w > 8 && r.h > 8);
   function placeSystemLabels(): Rect[] {
     const taken: Rect[] = chromeRects();
     for (const s of sysOrder) {
       const b = sysButtons.get(s.id)!;
-      if (!(level === 1 || (level === 2 && !narrow()))) { b.hidden = true; continue; }
+      if (mobile() || !(level === 1 || (level === 2 && !narrow()))) { b.hidden = true; continue; }
       b.hidden = false;
       const w = b.offsetWidth || s.label.length * 8 + 16;
       const below = toScreen(s.x, s.y + s.r + 6), above = toScreen(s.x, s.y - s.r - 6);
@@ -357,7 +534,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const pri = (n: Node) => (forced(n) ? 1e9 : 0) + (lens && lensSet.has(n.id) ? 1e6 : 0) + (inScope(n) ? 1e3 : 0) + (prevPlaced.has(n.id) ? 500 : 0) + n.weight;
     const cands = shown.map((x) => ({ ...x, a: target(x.n) })).filter((x) => x.a >= 0.03)
       .sort((a, b) => pri(b.n) - pri(a.n));
-    const lensCap = lens ? 30 : Infinity, max = narrow() ? 30 : 60;
+    const lensCap = lens ? 30 : Infinity, max = mobile() ? 0 : narrow() ? 30 : 60;
     const v = visibleRect();
     const placed = new Set<string>();
     labelsFading = false;
@@ -393,7 +570,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   /** A #q= in the URL before the live search registered (it mounts after the galaxy): delivered on registration. */
   let pendingQuery: string | null = null;
   const leaveSearch = () => { if (lens?.search) for (const cb of clearedCbs) cb(); };
-  function setLens(id: string) {
+  /** Choose a lens; `keepScope` keeps the system or star in view (the version and "this week" lenses work at every level). */
+  function setLens(id: string, keepScope = false) {
     leaveSearch();
     lens = lensById.get(id) ?? null;
     lensSet = new Set(lens ? g.nodes.filter(lens.match).map((n) => n.id) : []);
@@ -408,8 +586,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         lensLines.push(best); inTree.add(best[1]);
       }
     }
-    lensSel.value = lens?.id ?? "";
-    if (lens) { level = 1; focusSys = null; focusStar = null; }
+    lensSel.value = lens && !barLenses.includes(lens) ? lens.id : "";
+    if (lens && !keepScope) { level = 1; focusSys = null; focusStar = null; }
+    if (lens && level === 3 && focusStar && !lensSet.has(focusStar.id)) { level = 2; focusStar = null; }
     update();
   }
   const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; lensSel.value = ""; };
@@ -427,11 +606,51 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
 
   // panel: the list of the current scope; hovering or focusing a row marks its star
-  const row = (n: Node) => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}</span><small>${TYPE[n.type] ?? n.type}</small></button></li>`;
+  const row = (n: Node, extra = "") => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}</span><small>${extra || TYPE[n.type] || n.type}</small></button></li>`;
+  const mediaRow = (id: string, kind: string, date: string | null, extra = "") => `<li><a href="${esc(base + pathOf({ id }))}"><span class="g-shape ${kind === "v" ? "tri" : "bar"}${landedMedia.has(id) ? " new" : ""}" aria-hidden="true"></span><span>${esc(byId.get(id)?.label ?? mediaTitle.get(id) ?? id)}</span><small>${kind === "v" ? "video" : "post"}${date ? ` · ${esc(date)}` : ""}${extra}</small></a></li>`;
+  /** Media titles: this week's from landed.json, the rest from the ego graph of the open star; the id is the fallback. */
+  const mediaTitle = new Map<string, string>(week.items.filter((i) => i[4]).map((i) => [i[0], i[4]!]));
+  const targetRow = (t: Target) => {
+    const id = targetId(t), star = byId.get(id);
+    return star ? row(star) : `<li><a href="${esc(base + pathOf({ id }))}"><span class="g-dot sq" style="--dot: var(--muted)"></span><span>${esc(targetLabel(t))}</span><small>page</small></a></li>`;
+  };
+  const landedRows = (filter: (hubs: string[]) => boolean, cap = 40) => {
+    const items = week.items.filter((i) => filter(i[3]));
+    return items.length ? `<ul class="g-list">${items.slice(0, cap).map(([id, k, d, hubs]) => mediaRow(id, k, d, hubs.length ? ` · ${hubs.length} star${hubs.length > 1 ? "s" : ""}` : "")).join("")}</ul>${items.length > cap ? `<p class="g-meta">and ${items.length - cap} more</p>` : ""}` : "";
+  };
+  const weekLabel = () => (week.anchor ? `the ${week.days} days up to ${week.anchor}` : "the last 7 days");
+  const exitLink = (href: string, label: string, n: string | number | null, primary = false) => `<a class="g-exit${primary ? " primary" : ""}" href="${esc(href)}">${esc(label)}${n !== null && n !== "" ? ` <span>${esc(String(n))}</span>` : ""}</a>`;
+  /** The exit dock: real links to the instruments that answer what the picture cannot. */
+  function exitDock(n: Node): string {
+    if (n.type === "object") {
+      const key = n.id.slice("object/".length);
+      const latest = n.cv?.length ? n.cv[n.cv.length - 1] : null;
+      const prev = latest ? String(Number(latest) - 1) : null;
+      const locs = (adj.get(n.id) ?? []).filter((id) => id.startsWith("localization/"));
+      return `<h3>Look closer with an instrument</h3><div class="g-dock">
+        ${exitLink(`${base}neighbourhood/?o=${encodeURIComponent(key)}&s=${encodeURIComponent(n.group)}${lens?.version ? `&v=${lens.version}` : ""}`, "Neighbourhood", n.nn ? `${n.nn} objects` : null, true)}
+        <div class="g-dock-2">
+          ${latest && prev ? exitLink(`${base}code/versions/${prev}__${latest}/`, "Versions", `changed in ${n.cv!.map((v) => `BC${v}`).join(", ")}`) : exitLink(`${base}code/versions/`, "Versions", "no change in the snapshots")}
+          ${exitLink(`${base}events/?q=${encodeURIComponent(objectName(n.label))}`, "Events", n.ec ?? 0)}
+          ${locs.length ? exitLink(`${base}${pathOf({ id: locs[0] })}`, "Country diff", `${locs.length} countries`) : ""}
+          ${n.ns ? exitLink(`${base}objects/?ns=${encodeURIComponent(n.ns)}`, "Atlas", n.ns) : ""}
+        </div></div>`;
+    }
+    if (n.type === "source") return "";
+    return `<h3>Look closer with an instrument</h3><div class="g-dock"><div class="g-dock-2">
+      ${exitLink(`${base}coverage/`, "Coverage", n.ev ? `${n.ev} evidence items` : "no evidence yet")}
+      ${exitLink(`${base}search/?q=${encodeURIComponent(n.label)}`, "Search", null)}
+    </div></div>`;
+  }
+  function crossSection(n: Node): string {
+    if (!n.cross?.length) return "";
+    return `<h3>Crosses into other systems</h3><ul class="g-cross">${n.cross.map(([sys, count, kind, named]) => `<li><p><button type="button" class="g-cross-sys" data-port="${esc(sys)}" style="color: var(--sys-${esc(sys)})">${esc(sysById.get(sys)?.label ?? sys)} →</button> <small>${count} ${count === 1 ? "object" : "objects"} · ${esc(KIND[kind] ?? kind)}</small></p><ul class="g-list">${named.map(targetRow).join("")}</ul>${count > named.length ? `<p class="g-meta">and ${count - named.length} more in the neighbourhood</p>` : ""}</li>`).join("")}</ul>
+      ${n.crossMore ? `<p class="g-meta">+ ${n.crossMore} more systems: the neighbourhood lists them all.</p>` : ""}`;
+  }
   function renderPanel() {
     root.classList.toggle("g-panel-open", panelOpen);
     listBtn.setAttribute("aria-expanded", String(panelOpen));
-    listBtn.textContent = panelOpen ? "Hide list" : "Show list";
+    listBtn.textContent = panelOpen ? "Hide panel" : "Show panel";
     panel.hidden = !panelOpen;
     let html = "";
     if (lens?.search) {
@@ -440,33 +659,55 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const without = (lens.total ?? hits.length) - hits.length;
       html = `<p class="g-kicker">search</p><h2 tabindex="-1">${esc(lens.label)}</h2><p class="g-meta">${hits.length} stars light up, ${without} pages without a star.</p>
         <p><a class="btn" href="${base}search/?q=${encodeURIComponent(lens.search)}">All results</a> <button type="button" class="btn" data-clear-lens>Clear</button></p>
-        ${hits.length ? `<h3>Stars</h3><ul class="g-list">${hits.slice(0, 80).map(row).join("")}</ul>` : ""}
+        ${hits.length ? `<h3>Stars</h3><ul class="g-list">${hits.slice(0, 80).map((n) => row(n)).join("")}</ul>` : ""}
         ${reach.length ? `<h3>Systems with matching pages</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} pages</small></button></li>`).join("")}</ul>` : ""}
         ${lens.pages?.length ? `<h3>Pages without a star</h3><ul class="g-list">${lens.pages.slice(0, 30).map((r) => `<li><a href="${esc(`${base}${r.path}/`)}"><span class="g-dot" style="--dot: var(--sys-${esc(r.system ?? "platform")}, var(--muted))"></span><span>${esc(r.title)}</span><small>${esc(r.type)}</small></a></li>`).join("")}</ul>` : ""}`;
     } else if (lens) {
-      const hits = g.nodes.filter((n) => lensSet.has(n.id)).sort((a, b) => b.weight - a.weight);
+      const scope = level >= 2 && focusSys ? focusSys : null;
+      const hits = g.nodes.filter((n) => lensSet.has(n.id) && (!scope || n.group === scope.id)).sort((a, b) => b.weight - a.weight);
       const reach = Object.entries(lens.reach ?? {}).sort((a, b) => b[1] - a[1]);
-      html = `<p class="g-kicker">lens · ${esc(lens.group.toLowerCase())}</p><h2 tabindex="-1">${esc(lens.label)}</h2><p class="g-meta">${hits.length} stars light up${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}.</p><p><button type="button" class="btn" data-clear-lens>Clear the lens</button></p>
-        ${reach.length ? `<h3>Systems it writes about</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} items</small></button></li>`).join("")}</ul><h3>Stars</h3>` : ""}
-        <ul class="g-list">${hits.slice(0, 150).map(row).join("")}</ul>`;
+      const per = new Map<string, number>();
+      for (const n of g.nodes) if (lensSet.has(n.id)) per.set(n.group, (per.get(n.group) ?? 0) + 1);
+      const extra = (n: Node) => (lens!.version ? [n.cv?.includes(lens!.version) ? `changed in BC${lens!.version}` : "", n.ob?.includes(lens!.version) ? "obsolete" : ""].filter(Boolean).join(", ") : "");
+      html = `<p class="g-kicker">lens · ${esc(lens.group.toLowerCase())}${scope ? ` · ${esc(scope.label)}` : ""}</p><h2 tabindex="-1">${esc(lens.label)}</h2>
+        <p class="g-meta">${hits.length} stars light up${scope ? ` in ${esc(scope.label)}` : ""}${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}${lens.id === "landed" ? `: ${week.items.length} videos and posts landed in ${esc(weekLabel())}` : ""}.</p>
+        <p>${lens.exit ? `<a class="btn" href="${esc(lens.exit.href)}">${esc(lens.exit.label)}</a> ` : ""}<button type="button" class="btn" data-clear-lens>Clear the lens</button></p>
+        ${lens.id === "landed" ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows((hubs) => !scope || hubs.some((h) => byId.get(h)?.group === scope.id))}` : ""}
+        ${!scope && !reach.length && per.size > 1 ? `<h3>Per system</h3><ul class="g-list">${[...per].sort((a, b) => b[1] - a[1]).map(([id, c]) => `<li><button type="button" data-sys="${esc(id)}" data-keep-lens><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${c}</small></button></li>`).join("")}</ul>` : ""}
+        ${reach.length ? `<h3>Systems it writes about</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} items</small></button></li>`).join("")}</ul>` : ""}
+        <h3>Stars</h3><ul class="g-list">${hits.slice(0, 150).map((n) => row(n, extra(n))).join("")}</ul>`;
     } else if (level === 1) {
-      html = `<p class="g-kicker">galaxy</p><h2 tabindex="-1">${g.systems.length} systems</h2><p class="g-meta">${g.nodes.length} stars. Pick a system, or a lens to see where something touches the galaxy.</p><ul class="g-list">${g.systems.map((s) => `<li><button type="button" data-sys="${esc(s.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(s.id)})"></span><span>${esc(s.label)}</span><small>${g.nodes.filter((n) => n.group === s.id).length}</small></button></li>`).join("")}</ul>`;
+      html = `<p class="g-kicker">galaxy</p><h2 tabindex="-1">${g.systems.length} systems</h2><p class="g-meta">${g.nodes.length} stars. Systems sit next to the ones they share the most links with. Pick a system, or a lens to see where something touches the galaxy.</p><ul class="g-list">${g.systems.map((s) => `<li><button type="button" data-sys="${esc(s.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(s.id)})"></span><span>${esc(s.label)}</span><small>${g.nodes.filter((n) => n.group === s.id).length}</small></button></li>`).join("")}</ul>
+        ${week.items.length ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows(() => true, 12)}` : ""}`;
     } else if (level === 2 && focusSys) {
       const stars = g.nodes.filter((n) => n.group === focusSys!.id).sort((a, b) => b.weight - a.weight);
-      html = `<p class="g-kicker">system</p><h2 tabindex="-1">${esc(focusSys.label)}</h2><p class="g-meta">${stars.length} stars, brightest first</p><ul class="g-list">${stars.slice(0, 150).map(row).join("")}</ul>${stars.length > 150 ? `<p class="g-meta">and ${stars.length - 150} more</p>` : ""}`;
+      const plots = focusSys.plots ?? [];
+      const came = arrival?.sys === focusSys.id ? arrival : null;
+      html = `<p class="g-kicker">system</p><h2 tabindex="-1">${esc(focusSys.label)}</h2><p class="g-meta">${stars.length} stars, brightest first${plots.length ? `; ${plots.reduce((s, p) => s + p[5], 0)} AL objects in ${plots.length} namespace plots` : ""}.</p>
+        ${came ? `<div class="g-arrival"><p>From <button type="button" data-star="${esc(came.from.id)}">${esc(came.from.label)}</button>: ${came.count} ${came.count === 1 ? "object" : "objects"} here by ${esc(KIND[came.kind] ?? came.kind)}, none of them a star.</p><ul class="g-list">${came.targets.map(targetRow).join("")}</ul></div>` : ""}
+        <ul class="g-list">${stars.slice(0, 150).map((n) => row(n)).join("")}</ul>${stars.length > 150 ? `<p class="g-meta">and ${stars.length - 150} more</p>` : ""}
+        ${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12) ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12)}` : ""}`;
     } else if (level === 3 && focusStar) {
       const n = focusStar, near = (adj.get(n.id) ?? []).map((id) => byId.get(id)!).filter(Boolean).sort((a, b) => b.weight - a.weight);
-      const bodies = ego?.id === n.id ? ego.nodes.filter((x) => x.type === "video" || x.type === "post") : [];
+      const inside = near.filter((x) => x.group === n.group), outside = near.filter((x) => x.group !== n.group);
       const href = n.type === "source" && n.url?.startsWith("http") ? n.url : `${base}${pathOf(n)}`;
+      const mine = week.items.filter((i) => i[3].includes(n.id));
+      for (const m of ego?.id === n.id ? ego.nodes : []) mediaTitle.set(m.id, m.label);
       html = `<p class="g-kicker" style="color: var(--sys-${esc(n.group)})">${TYPE[n.type] ?? n.type} · ${esc(sysById.get(n.group)?.label ?? n.group)}</p><h2 tabindex="-1">${esc(n.label)}</h2>
-        <p class="g-meta">tier ${esc(n.tier)}${n.ev ? ` · ${n.ev} evidence items${n.cs ? `, ${Math.round(n.cs * 100)}% community` : ""}` : ""} · ${near.length} connected</p>
-        <p><a class="btn primary" href="${esc(href)}" data-open>Open page</a></p>
-        ${bodies.length ? `<h3>Orbiting evidence</h3><ul class="g-list">${bodies.slice(0, 30).map((b) => `<li><a href="${esc(base + pathOf(b))}"><span class="g-dot" style="--dot: ${b.type === "video" ? "var(--ev-video-text)" : "var(--ev-blog-text)"}"></span><span>${esc(b.label)}</span><small>${TYPE[b.type]}</small></a></li>`).join("")}</ul>` : ""}
-        ${near.length ? `<h3>Connected stars</h3><ul class="g-list">${near.slice(0, 60).map(row).join("")}</ul>` : ""}`;
+        <p class="g-badges"><span class="badge ${esc(n.tier)}">${esc(TIER[n.tier] ?? n.tier)}</span>${n.cv?.length ? ` <span class="badge status-other">changed in ${n.cv.map((v) => `BC${esc(v)}`).join(", ")}</span>` : ""}${n.ob?.length ? ` <span class="badge obsolete">obsolete in BC${esc(n.ob[0])}</span>` : ""}</p>
+        <p class="g-meta">${n.ev ? `${n.ev} evidence items${n.cs ? `, ${Math.round(n.cs * 100)}% community` : ""} · ` : "no evidence yet · "}${near.length} connected stars</p>
+        <p><a class="btn primary" href="${esc(href)}" data-open>Open the page</a></p>
+        ${exitDock(n)}
+        ${crossSection(n)}
+        ${mine.length ? `<h3>Landed in ${esc(weekLabel())}</h3><ul class="g-list">${mine.map(([id, k, d]) => mediaRow(id, k, d)).join("")}</ul>` : ""}
+        ${n.mb ? `<h3>Videos and posts</h3><ul class="g-list">${n.mb.top.map(([id, k, d]) => mediaRow(id, k, d)).join("")}</ul>${n.mb.n > n.mb.top.length ? `<p class="g-meta">and ${n.mb.n - n.mb.top.length} more on the page</p>` : ""}` : ""}
+        ${inside.length ? `<h3>In this system</h3><ul class="g-list">${inside.slice(0, 60).map((x) => row(x, KIND[edgeType.get(`${n.id}|${x.id}`) ?? ""] ?? "")).join("")}</ul>` : ""}
+        ${outside.length ? `<h3>Linked stars in other systems</h3><ul class="g-list">${outside.slice(0, 40).map((x) => row(x, `${esc(sysById.get(x.group)?.label ?? x.group)}`)).join("")}</ul>` : ""}`;
     }
     panelBody.innerHTML = html;
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-star]")) {
-      const n = byId.get(b.dataset.star!)!;
+      const n = byId.get(b.dataset.star!);
+      if (!n) continue;
       b.addEventListener("click", () => goStar(n));
       const on = () => { mark = n; redraw(); }, off = () => { if (mark === n) { mark = null; redraw(); } };
       b.addEventListener("mouseenter", on); b.addEventListener("focus", on);
@@ -474,40 +715,74 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-sys]")) {
       const s = sysById.get(b.dataset.sys!)!;
-      b.addEventListener("click", () => goSystem(s));
+      b.addEventListener("click", () => goSystem(s, false, b.hasAttribute("data-keep-lens")));
     }
-    panelBody.querySelector("[data-clear-lens]")?.addEventListener("click", () => setLens(""));
+    for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
+    panelBody.querySelector("[data-clear-lens]")?.addEventListener("click", () => setLens("", true));
     panelBody.querySelector<HTMLAnchorElement>("[data-open]")?.addEventListener("click", (e) => { if (focusStar) { e.preventDefault(); openPage(focusStar, (e.currentTarget as HTMLAnchorElement).href); } });
+  }
+  // list view: the system in view (or every system) as a sortable table in place of the canvas
+  function renderTable() {
+    root.classList.toggle("g-listview", listView);
+    viewBtn.setAttribute("aria-pressed", String(listView));
+    table.hidden = !listView;
+    if (!listView) { table.innerHTML = ""; return; }
+    const scope = focusSys;
+    const nodes = sortRows(g.nodes.filter((n) => (!scope || n.group === scope.id) && (!lens || lensSet.has(n.id))), sortKey);
+    const th = (k: SortKey, label: string) => `<th scope="col" aria-sort="${sortKey === k ? (k === "star" || k === "kind" ? "ascending" : "descending") : "none"}"><button type="button" data-sort="${k}">${label}</button></th>`;
+    table.innerHTML = `<p class="g-meta">${scope ? esc(scope.label) : "All systems"}${lens ? `, lens "${esc(lens.label)}"` : ""}: ${nodes.length} stars</p>
+      <table><thead><tr>${th("star", "Star")}${th("kind", "Kind")}${scope ? "" : th("system", "System")}${th("connections", "Connections")}${th("evidence", "Evidence")}${th("changed", "Changed in")}</tr></thead>
+      <tbody>${nodes.slice(0, 400).map((n) => `<tr><th scope="row"><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span>${esc(n.label)}</button></th><td>${esc(TYPE[n.type] ?? n.type)}</td>${scope ? "" : `<td>${esc(sysById.get(n.group)?.label ?? n.group)}</td>`}<td class="num">${Math.round(n.weight)}</td><td class="num">${n.ev ?? 0}</td><td>${(n.cv ?? []).map((v) => `BC${esc(v)}`).join(", ")}${n.ob?.length ? ` (obsolete BC${esc(n.ob[0])})` : ""}</td></tr>`).join("")}</tbody></table>
+      ${nodes.length > 400 ? `<p class="g-meta">and ${nodes.length - 400} more: narrow with a system or a lens</p>` : ""}`;
+    for (const b of table.querySelectorAll<HTMLButtonElement>("[data-sort]")) b.addEventListener("click", () => { sortKey = b.dataset.sort as SortKey; renderTable(); table.querySelector<HTMLButtonElement>(`[data-sort="${sortKey}"]`)?.focus(); });
+    for (const b of table.querySelectorAll<HTMLButtonElement>("[data-star]")) b.addEventListener("click", () => { const n = byId.get(b.dataset.star!); if (n) { listView = false; goStar(n); } });
   }
   function renderChrome() {
     const parts = [level === 1 && !lens ? `<span aria-current="page">Galaxy</span>` : `<button type="button" data-crumb="1">Galaxy</button>`];
-    if (lens) parts.push(`<span aria-current="page">${esc(lens.label)}</span>`);
+    if (lens) parts.push(`<span${level === 1 ? ` aria-current="page"` : ""}>${esc(lens.label)}</span>`);
     if (level >= 2 && focusSys) parts.push(level === 2 ? `<span aria-current="page">${esc(focusSys.label)}</span>` : `<button type="button" data-crumb="2">${esc(focusSys.label)}</button>`);
     if (level === 3 && focusStar) parts.push(`<span aria-current="page">${esc(focusStar.label)}</span>`);
     crumbs.innerHTML = parts.join('<span aria-hidden="true">/</span>');
-    crumbs.querySelector('[data-crumb="1"]')?.addEventListener("click", () => { if (lens) setLens(""); else goGalaxy(); });
-    crumbs.querySelector('[data-crumb="2"]')?.addEventListener("click", () => goSystem(focusSys!));
+    crumbs.querySelector('[data-crumb="1"]')?.addEventListener("click", () => { if (lens && level === 1) setLens(""); else goGalaxy(); });
+    crumbs.querySelector('[data-crumb="2"]')?.addEventListener("click", () => goSystem(focusSys!, false, true));
     levelEl.textContent = ["", "galaxy", "system", "star"][level];
     prevBtn.hidden = nextBtn.hidden = level !== 2;
     root.dataset.level = String(level);
+    for (const b of lensButtons) {
+      const on = lens?.id === b.dataset.lens;
+      b.setAttribute("aria-pressed", String(on)); b.classList.toggle("on", on);
+      b.querySelector(".g-lens-n")!.textContent = on ? String(lensSet.size) : "";
+    }
+    legend.hidden = level < 2 || mobile();
   }
   const setHash = () => {
-    const h = lens?.search ? `#q=${encodeURIComponent(lens.search)}` : lens ? `#lens=${encodeURIComponent(lens.id)}` : level === 1 ? "" : level === 2 ? `#system=${focusSys!.id}` : `#star=${encodeURIComponent(focusStar!.id)}`;
-    history.replaceState(null, "", h || location.pathname + location.search);
+    const parts: string[] = [];
+    if (lens?.search) parts.push(`q=${encodeURIComponent(lens.search)}`);
+    else if (lens) parts.push(`lens=${encodeURIComponent(lens.id)}`);
+    if (level === 2 && focusSys) parts.push(`system=${focusSys.id}`);
+    if (level === 3 && focusStar) parts.push(`star=${encodeURIComponent(focusStar.id)}`);
+    if (listView) parts.push("view=list");
+    history.replaceState(null, "", parts.length ? `#${parts.join("&")}` : location.pathname + location.search);
   };
   function update(instant = false) {
-    panelOpen = userPanel ?? ((level >= 2 || !!lens) && !narrow());
-    renderPanel(); renderChrome(); setHash(); fly(instant);
+    panelOpen = mobile() || (userPanel ?? ((level >= 2 || !!lens) && !narrow()));
+    renderPanel(); renderChrome(); renderTable(); setHash(); fly(instant);
   }
-  function goGalaxy() { level = 1; focusSys = null; focusStar = null; update(); }
-  function goSystem(s: Sys) { if (!lens?.search) clearLens(); level = 2; focusSys = s; focusStar = null; update(); }
+  function goGalaxy() { level = 1; focusSys = null; focusStar = null; arrival = null; if (lens && !lens.search && !barLenses.includes(lens)) clearLens(); update(); }
+  function goSystem(s: Sys, fromPort = false, keepLens = false) {
+    if (!lens?.search && !keepLens && !(lens && barLenses.includes(lens))) clearLens();
+    if (!fromPort) arrival = null;
+    level = 2; focusSys = s; focusStar = null; update();
+    if (fromPort) panelBody.querySelector<HTMLElement>("h2")?.focus({ preventScroll: true });
+  }
   async function goStar(n: Node) {
-    level = 3; focusSys = sysById.get(n.group) ?? focusSys; focusStar = n; mark = null;
+    level = 3; focusSys = sysById.get(n.group) ?? focusSys; focusStar = n; mark = null; arrival = null;
+    focusAt = reduce.matches ? 0 : Number.POSITIVE_INFINITY;
     if (lens && !lensSet.has(n.id)) clearLens();
     update();
     panelBody.querySelector<HTMLElement>("h2")?.focus({ preventScroll: true });
     if (ego?.id !== n.id) {
-      try { const e: Ego = await (await fetch(`${base}graph/ego/${n.id}.json`)).json(); if (focusStar === n) { ego = e; renderPanel(); loop(); } } catch { /* no ego graph for this star */ }
+      try { const e: Ego = await (await fetch(`${base}graph/ego/${n.id}.json`)).json(); if (focusStar === n) { ego = e; renderPanel(); } } catch { /* no ego graph for this star */ }
     }
   }
   /** Level 4: fly into the star, fade, open its page. */
@@ -517,10 +792,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     requestAnimationFrame(() => fade.classList.add("on"));
     flyTo({ ...cam, s: cam.s * 6, tx: n.x, ty: n.y }, false, () => { location.href = href; });
   }
-  const step = (d: number) => { const i = g.systems.indexOf(focusSys!); goSystem(g.systems[(i + d + g.systems.length) % g.systems.length]); };
+  const step = (d: number) => { const i = g.systems.indexOf(focusSys!); goSystem(g.systems[(i + d + g.systems.length) % g.systems.length], false, true); };
   prevBtn.addEventListener("click", () => step(-1));
   nextBtn.addEventListener("click", () => step(1));
   listBtn.addEventListener("click", () => { userPanel = !panelOpen; update(); });
+  viewBtn.addEventListener("click", () => { listView = !listView; renderTable(); renderChrome(); setHash(); if (listView) table.querySelector<HTMLElement>("button")?.focus(); else redraw(); });
   lensSel.addEventListener("change", () => setLens(lensSel.value));
   const zoomBy = (k: number, sx = W / 2, sy = H / 2) => {
     anim = null;
@@ -544,7 +820,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const nodeAt = (mx: number, my: number) => {
     let best: Node | null = null, bd = 13 ** 2;
     for (const n of g.nodes) {
-      if (alpha(n) < 0.2 && n !== focusStar) continue;
+      if (alpha(n) < 0.2 && n !== focusStar && !(lens && lensSet.has(n.id))) continue;
       const p = toScreen(n.x, n.y), d = (p.x - mx) ** 2 + (p.y - my) ** 2;
       if (d < bd) { bd = d; best = n; }
     }
@@ -596,12 +872,36 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       if (best) goSystem(best);
       return;
     }
-    if (level === 3) goSystem(focusSys!); else if (level === 2) goGalaxy();
+    if (level === 3) goSystem(focusSys!, false, true); else if (level === 2) goGalaxy();
   });
   canvas.addEventListener("wheel", (e) => { e.preventDefault(); const p = pos(e); zoomBy(Math.exp(-e.deltaY * 0.0015), p.x, p.y); }, { passive: false });
+  /** Arrow keys at star level: the nearest star of the system in that direction (HANDOFF D section 6). */
+  const nearestIn = (dx: number, dy: number): Node | null => {
+    if (!focusStar) return null;
+    let best: Node | null = null, bs = Infinity;
+    for (const n of g.nodes) {
+      if (n === focusStar || n.group !== focusStar.group) continue;
+      const vx = n.x - focusStar.x, vy = n.y - focusStar.y, d = Math.hypot(vx, vy), cos = (vx * dx + vy * dy) / (d || 1);
+      if (cos < 0.5) continue;
+      const score = d / cos;
+      if (score < bs) { bs = score; best = n; }
+    }
+    return best;
+  };
   root.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && (level > 1 || lens)) { e.preventDefault(); if (lens) setLens(""); else if (level === 3) goSystem(focusSys!); else goGalaxy(); return; }
-    if ((e.target as HTMLElement).closest("select, input")) return;
+    if (e.key === "Escape" && (level > 1 || lens || listView)) {
+      e.preventDefault();
+      if (listView) { listView = false; renderTable(); renderChrome(); setHash(); redraw(); return; }
+      if (lens && level === 1) setLens(""); else if (level === 3) goSystem(focusSys!, false, true); else goGalaxy();
+      return;
+    }
+    if ((e.target as HTMLElement).closest("select, input, .g-table")) return;
+    const dir: Record<string, [number, number]> = { ArrowRight: [1, 0], ArrowLeft: [-1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] };
+    if (level === 3 && dir[e.key] && !(e.target as HTMLElement).closest(".g-panel")) {
+      const n = nearestIn(...dir[e.key]);
+      if (n) { e.preventDefault(); goStar(n); }
+      return;
+    }
     if (level === 2 && (e.key === "ArrowRight" || e.key === "ArrowLeft") && !(e.target as HTMLElement).closest(".g-panel")) { e.preventDefault(); step(e.key === "ArrowRight" ? 1 : -1); }
     if (e.key === "+" || e.key === "=") zoomBy(1.5);
     if (e.key === "-") zoomBy(1 / 1.5);
@@ -611,16 +911,34 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   addEventListener("bcobs-theme", () => { readColors(); redraw(); });
   matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => { readColors(); redraw(); });
 
-  // deep links: #system=<id>, #star=<id>, #lens=<id>, #q=<query>
+  // deep links: #system=<id>, #star=<id>, #lens=<id>, #q=<query>, #view=list, combined with & (#system=finance&lens=version:30).
+  // A star that is not in the summary (the explorer links every object) opens its system instead: #star=<id>&system=<id>.
   const fromHash = (): boolean => {
-    const m = /^#(system|star|lens|q)=(.+)$/.exec(location.hash);
-    if (!m) return false;
-    const id = decodeURIComponent(m[2]);
-    if (m[1] === "q") { if (hashQueryCbs.length) for (const cb of hashQueryCbs) cb(id); else pendingQuery = id; return true; }
-    if (m[1] === "system" && sysById.has(id)) { goSystem(sysById.get(id)!); return true; }
-    if (m[1] === "star" && byId.has(id)) { goStar(byId.get(id)!); return true; }
-    if (m[1] === "lens" && lensById.has(id)) { setLens(id); return true; }
-    return false;
+    const h = parseHash(location.hash);
+    if (!h.size) return false;
+    const q = h.get("q");
+    if (q) { if (hashQueryCbs.length) for (const cb of hashQueryCbs) cb(q); else pendingQuery = q; return true; }
+    listView = h.get("view") === "list";
+    const star = byId.get(h.get("star") ?? ""), sys = sysById.get(h.get("system") ?? "") ?? (star ? sysById.get(star.group) : undefined);
+    const l = h.get("lens");
+    const pick = l?.startsWith("pick:") ? l.slice(5) : null;
+    if (l && !pick && lensById.has(l)) {
+      lens = null;
+      if (star) { level = 3; focusSys = sysById.get(star.group) ?? null; focusStar = star; }
+      else if (sys) { level = 2; focusSys = sys; focusStar = null; }
+      setLens(l, !!(star || sys));
+      if (star) goStar(star);
+      return true;
+    }
+    if (star) goStar(star); else if (sys) goSystem(sys); else if (!pick && !listView) return false;
+    // #lens=pick:source or pick:localization: open the lens picker on that group (the home page's question entries)
+    if (pick) {
+      const grp = { source: "Source", localization: "Localization" }[pick];
+      const first = lenses.find((x) => x.group === grp);
+      if (first) { lensSel.focus(); lensSel.value = ""; panelOpen = true; renderPanel(); panelBody.innerHTML = `<p class="g-kicker">lens</p><h2 tabindex="-1">Pick a ${esc(pick)}</h2><p class="g-meta">Choose one in the lens list above: the galaxy lights up where it touches Business Central.</p><ul class="g-list">${lenses.filter((x) => x.group === grp).map((x) => `<li><button type="button" data-pick="${esc(x.id)}"><span>${esc(x.label)}</span></button></li>`).join("")}</ul>`; for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-pick]")) b.addEventListener("click", () => setLens(b.dataset.pick!)); }
+    }
+    if (listView && !star && !sys) { renderTable(); renderChrome(); }
+    return true;
   };
   addEventListener("hashchange", fromHash);
   resize();
