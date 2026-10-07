@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9708,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9708",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T08:40:12Z",
+  "merge_commit_sha": "296d6f6c2bf254197311bb596e2ed4f28925bda7",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Enable manual task creation for Sales Order Agent",
+  "body_hash": "e47de5ae262a442ee82be1592b769426907872995d43c9b6f3599d4aa9de6aa4",
+  "fixes_issues": [],
+  "work_items": [
+    642289
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOAMetadataProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOAMetadataProvider.EnumExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 29,
+    "deletions": 6,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4415",
+        "type": "codeunit",
+        "id": 4415,
+        "name": "SOA Create Task Impl",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4415"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOAMetadataProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4401",
+        "type": "codeunit",
+        "id": 4401,
+        "name": "SOA Metadata Provider",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4401"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOAMetadataProvider.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/4400",
+        "type": "enumextension",
+        "id": 4400,
+        "name": "SOA Metadata Provider",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "enumextension/4400"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+        "status": "modified",
+        "key": "page/4400",
+        "type": "page",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

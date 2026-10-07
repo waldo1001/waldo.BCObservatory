@@ -1,0 +1,124 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9702,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9702",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T20:39:08Z",
+  "merge_commit_sha": "acaac80c3040d87a36ab1504944d03a94f17f3d5",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Default new E-Document services to import v2 and let users select the draft format",
+  "body_hash": "daed7a4565aff332cc201b127a88c77b6f4c8c618ed95782d6256cc18b535786",
+  "fixes_issues": [],
+  "work_items": [
+    580191
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/CLAUDE.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/docs/business-logic.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EdocumentService.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/docs/CLAUDE.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/LibraryEDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocProcessTest.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/ForNAV/App/src/Setup/ForNAVPeppolSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 68,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+        "status": "modified",
+        "key": "table/6103",
+        "type": "table",
+        "id": 6103,
+        "name": "E-Document Service",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EdocumentService.Page.al",
+        "status": "modified",
+        "key": "page/6133",
+        "type": "page",
+        "id": 6133,
+        "name": "E-Document Service",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6133"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

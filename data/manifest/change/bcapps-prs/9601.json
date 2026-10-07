@@ -6,10 +6,35 @@
   "title": "Reset workflow templates no longer removes steps from active workflows",
   "url": "https://github.com/microsoft/BCApps/pull/9601",
   "published_at": "2026-07-27T22:47:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:42.885Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:48.330Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004213
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:48.495Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:48.501Z",
+      "path": "content/changes/bcapps/9601.md"
     }
   },
   "input_hash": "dd0ad0dd74776b3e7f439eb7240725be447837c8:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "reset workflow templates no longer removes steps from active workflows"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "de2887a1ccbe4c90a871e18890c3502268267c445b96ebcfdd4854f4a8f3833c"
 }

@@ -6,10 +6,35 @@
   "title": "[Event Request] codeunit 367 \"CheckManagement\": add OnFinancialVoidCh…",
   "url": "https://github.com/microsoft/BCApps/pull/9421",
   "published_at": "2026-07-27T11:47:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:44.398Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:49.592Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003893
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:49.741Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:49.746Z",
+      "path": "content/changes/bcapps/9421.md"
     }
   },
   "input_hash": "1971f3f5d0823ca46e82e6018e7d8ceb675e46ca:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "event request codeunit 367 checkmanagement add onfinancialvoidch"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61928d480a243f14816d64e7824115490e4b0fcaef602f756319e36d3a693009"
 }

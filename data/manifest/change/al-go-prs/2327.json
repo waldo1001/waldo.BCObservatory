@@ -6,10 +6,35 @@
   "title": "Add doNotPerformUpgrade setting and enhance upgrade warning messages",
   "url": "https://github.com/microsoft/AL-Go/pull/2327",
   "published_at": "2026-07-27T11:31:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:44.907Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:49.913Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003648
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:49.914Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:15:49.918Z",
+      "path": "content/changes/al-go/2327.md"
     }
   },
   "input_hash": "3017d1d62fe1ec5e38dd3db027d0eff6c0e030f2:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add donotperformupgrade setting and enhance upgrade warning messages"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "680a0a8c73f7c0503d67105e556f9bbf65ccc46b5452a2bb2904ff8bb3a0c4d2"
 }

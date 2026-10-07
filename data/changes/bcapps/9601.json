@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9601,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9601",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T22:47:32Z",
+  "merge_commit_sha": "dd0ad0dd74776b3e7f439eb7240725be447837c8",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Reset workflow templates no longer removes steps from active workflows",
+  "body_hash": "0b6cc7114bacbb4dee5946e14af857bb7878b8a9ac429a06cd3b48027d38349d",
+  "fixes_issues": [],
+  "work_items": [
+    640937
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowTemplates.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/CopyWorkflowTests.Codeunit.al",
+      "status": "modified",
+      "additions": 106,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 124,
+    "deletions": 10,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1502",
+        "type": "codeunit",
+        "id": 1502,
+        "name": "Workflow Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1502"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowTemplates.Page.al",
+        "status": "modified",
+        "key": "page/1505",
+        "type": "page",
+        "id": 1505,
+        "name": "Workflow Templates",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1505"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

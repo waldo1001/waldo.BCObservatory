@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9601",
+  "number": 9601,
+  "title": "Reset workflow templates no longer removes steps from active workflows",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Reset workflow templates no longer removes steps from active workflows. The fix prevents data loss by scoping step deletion to template workflows only, not derived workflows sharing the same code prefix, and adds confirmation dialog for safety.",
+  "key_points": [
+    "Prevents accidental deletion of steps in active workflows created from templates when resetting templates",
+    "Root cause was overly broad filter that matched derived workflows by code prefix instead of exact template code",
+    "Fix iterates template workflows and deletes steps only for exact template codes",
+    "Adds confirmation dialog to Reset Microsoft Templates action for user safety",
+    "Two regression tests added to prevent recurrence"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Running Reset Microsoft Templates on the Workflow Templates page could wipe the steps out of active workflows, not just the templates.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004213,
+    "changes_in_call": 1
+  }
+}

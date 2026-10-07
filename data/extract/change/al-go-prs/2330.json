@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2330",
+  "number": 2330,
+  "title": "Emit valid SARIF URIs for AL code analysis paths containing spaces",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "ProcessALCodeAnalysisLogs now properly URI-encodes file paths with spaces in SARIF output to comply with URI standards and prevent upload warnings.",
+  "key_points": [
+    "Added ConvertTo-SarifArtifactUri function to encode path segments while preserving forward slashes",
+    "Spaces in file paths are converted to %20 in SARIF artifact URIs",
+    "De-duplication logic still uses raw path names, ensuring semantics are unchanged",
+    "Eliminates thousands of 'not a valid URI' warnings from SARIF uploads"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003712,
+    "changes_in_call": 1
+  }
+}

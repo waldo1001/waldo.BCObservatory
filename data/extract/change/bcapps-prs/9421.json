@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9421",
+  "number": 9421,
+  "title": "[Event Request] codeunit 367 \"CheckManagement\": add OnFinancialVoidCh…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Adds an `IsHandled` event to CheckManagement codeunit that allows partners to replace the balance-account posting logic in financial void check operations.",
+  "key_points": [
+    "New event `OnFinancialVoidCheckOnBeforePostBalanceAccount` enables extension of void check financial posting",
+    "Balance-account posting logic extracted into a new local procedure for cleaner code structure",
+    "Default behavior preserved when event is unsubscribed",
+    "Supports partners implementing custom void check scenarios",
+    "Affects all localization layers (W1, APAC, NA, RU)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003893,
+    "changes_in_call": 1
+  }
+}

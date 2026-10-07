@@ -6,7 +6,7 @@
   "title": "[MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)",
   "url": "https://github.com/microsoft/BCApps/pull/8085",
   "published_at": "2026-07-27T20:24:47Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 23,
       "objects": 23,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:43.329Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009907
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:43.557Z",
+      "objects": 23,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:43.568Z",
+      "path": "content/changes/bcapps/8085.md"
     }
   },
   "input_hash": "2b16b1c9596fdb4e63daa1d6272a15f476c0603a:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9836d4d6da1faf1c5c0f03a9748702fc71b990c3b8f4ef0c5841368fcc0bb1c"
+  "output_hash": "f80143ddc2b68e504e27983bb3d421182d6c7748ad24945ca20182964ac523c2"
 }

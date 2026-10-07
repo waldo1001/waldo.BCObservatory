@@ -6,10 +6,25 @@
   "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling",
   "url": "https://github.com/microsoft/BCApps/pull/8698",
   "published_at": "2026-07-27T08:22:55Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:52.135Z",
+      "change_class": "code",
+      "files": 35,
+      "al": 28,
+      "objects": 28,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:59.998Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005185
     }
   },
   "input_hash": "279f5b906d6952a14e710bc5f3f9bc5f4350f183:c1",
@@ -32,5 +47,8 @@
     ],
     "community_contribution": true,
     "title_key": "e documents core peppol enabling edi capabilities with e documents peppol order response message handling"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "02c1f5d89fc13a4483638d594747dc90f75bb252f8170dd2de3e8d9feea09bd2"
 }

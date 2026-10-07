@@ -6,10 +6,18 @@
   "title": "Default new E-Document services to import v2 and let users select the draft format",
   "url": "https://github.com/microsoft/BCApps/pull/9702",
   "published_at": "2026-07-24T20:39:08Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:54.520Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "acaac80c3040d87a36ab1504944d03a94f17f3d5:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "default new e document services to import v2 and let users select the draft format"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9303cdd4e851916649f44a83dc95ca9ab38b2145927eca728881347559f73360"
 }

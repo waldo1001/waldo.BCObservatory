@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8698",
+  "number": 8698,
+  "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "development"
+  ],
+  "summary": "E-documents now track order responses and acknowledgements as lifecycle events with a message model, enabling outgoing response generation and inbound order rejection with UI visibility.",
+  "key_points": [
+    "New message model for e-documents to track order responses and acknowledgements as lifecycle events",
+    "Automatic generation of outgoing acknowledgements and accept/reject responses for supported formats",
+    "Manual reject action added for inbound orders",
+    "Message visibility in UI with payload viewing and related message data cleanup",
+    "New integration tests for message response handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Adds a message model for e-documents so order responses are tracked as lifecycle events instead of creating extra documents.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005185,
+    "changes_in_call": 1
+  }
+}

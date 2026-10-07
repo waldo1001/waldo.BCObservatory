@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot",
   "url": "https://github.com/microsoft/BCApps/pull/9651",
   "published_at": "2026-07-27T09:45:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:46.508Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:51.388Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003917
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:51.653Z",
+      "objects": 2,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:51.659Z",
+      "path": "content/changes/bcapps/9651.md"
     }
   },
   "input_hash": "5dbc86e9c16742841da446f871361f7fc62705a2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30352 add skipnewexpirationdatecheck to oncheckexpirationdateonaftercalcsumlot"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6c14802b5cec1e4fd23d6cc431156a942b321ffaee8cd4fe35578f03c9b2fc51"
 }

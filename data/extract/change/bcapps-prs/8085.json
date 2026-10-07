@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8085",
+  "number": 8085,
+  "title": "[MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Adds a Server Features surface to MCP configuration allowing admins to enable Data Query Tools, Dynamic Tool Mode, and API Tools through interface-based, extensible handlers. Each feature controls its own activation, settings, and system tools without requiring page modifications.",
+  "key_points": [
+    "New interface-based feature system where enum values bind to handler codeunits for activation, settings, and system tool loading",
+    "Dynamic Tool Mode now requires API Tools to be enabled first and is displayed indented as a sub-feature",
+    "Available APIs list allows curated selection of both API pages and queries through a unified lookup",
+    "System Tools list-part dynamically populates by iterating active features and calling their handlers",
+    "Configuration list gains Set as Default / Clear Default actions and shows read-only API Tools / Data Query Tools status columns"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Adds a Server Features surface to the MCP configuration card so admins can opt configurations into the Data Query Tools (Preview) MCP runtime",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009907,
+    "changes_in_call": 1
+  }
+}

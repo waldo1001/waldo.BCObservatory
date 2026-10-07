@@ -1,0 +1,87 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2327,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2327",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-27T11:31:00Z",
+  "merge_commit_sha": "3017d1d62fe1ec5e38dd3db027d0eff6c0e030f2",
+  "author": "ChrisBlankDe",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add doNotPerformUpgrade setting and enhance upgrade warning messages",
+  "body_hash": "4d7ee7aa7c5b720905a11c7dd3c9e45bf206cf5da9fc28f3d802c08172088a56",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/.Modules/ReadSettings.psm1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunPipeline/RunPipeline.ps1",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 13,
+    "deletions": 2,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/ReadSettings.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunPipeline/RunPipeline.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

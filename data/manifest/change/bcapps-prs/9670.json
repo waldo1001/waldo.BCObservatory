@@ -6,10 +6,35 @@
   "title": "[Main] - Posting from Released production order affects Firm planned production order with same ID.",
   "url": "https://github.com/microsoft/BCApps/pull/9670",
   "published_at": "2026-07-27T15:53:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:43.305Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:48.847Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00389
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:49.009Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:49.014Z",
+      "path": "content/changes/bcapps/9670.md"
     }
   },
   "input_hash": "92bfda9f5caa0e8565aafdf0294874d71ac841c0:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "posting from released production order affects firm planned production order with same id"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5315647d49acd2a5e106b0e5a502b1460042496cfc8c97ae7d30f58190c2034a"
 }

@@ -6,10 +6,35 @@
   "title": "[master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.",
   "url": "https://github.com/microsoft/BCApps/pull/9712",
   "published_at": "2026-07-27T06:00:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:52.884Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:59.721Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003422
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:59.990Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:59.995Z",
+      "path": "content/changes/bcapps/9712.md"
     }
   },
   "input_hash": "26bd664501e217753ded5a7dd7dde6f43371a0ee:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "master changing the contact of a customer subscription contract doesn t update the email of the contract"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07184a655e9b0c091fcdb21eec6532dbdedd396e2f8a908ded7e59dadef61afa"
 }

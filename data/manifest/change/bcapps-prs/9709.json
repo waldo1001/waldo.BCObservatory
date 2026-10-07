@@ -6,7 +6,7 @@
   "title": "[Shopify] Fix test isolation in Shpfy Product Price Calc. Test (AB#642673)",
   "url": "https://github.com/microsoft/BCApps/pull/9709",
   "published_at": "2026-07-27T15:44:02Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix test isolation in shpfy product price calc test ab 642673"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:15:44.058Z",
+  "retry_after": null
 }

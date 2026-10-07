@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2327",
+  "number": 2327,
+  "title": "Add doNotPerformUpgrade setting and enhance upgrade warning messages",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go pipeline now supports skipping the upgrade phase with a new doNotPerformUpgrade setting while continuing to publish and test apps. Warning messages about upgrade testing have also been improved.",
+  "key_points": [
+    "New doNotPerformUpgrade boolean setting allows users to bypass the upgrade phase during pipeline execution",
+    "Setting is integrated into configuration schema and pipeline parameter list",
+    "Feature is documented in release notes and settings documentation",
+    "Warning messages clarified to indicate when missing previous release apps disables AppSourceCop breaking change checks",
+    "Supports use cases where upgrade testing is not needed"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "allowing users to bypass the upgrade phase during pipeline execution",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003648,
+    "changes_in_call": 1
+  }
+}

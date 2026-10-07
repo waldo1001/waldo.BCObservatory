@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8757",
+  "number": 8757,
+  "title": "[Subcontracting] Bug 640115: Fix Subc. Order FlowField so subcontracting orders are visible in Purchase Order List",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed the Subc. Order FlowField to correctly identify subcontracting purchase orders so they display in the Purchase Order List view.",
+  "key_points": [
+    "FlowField was incorrectly checking base table fields not set by the subcontracting flow",
+    "Changed CalcFormula to use the extension field Subc. Purchase Line Type instead",
+    "Subcontracting orders now visible in the Subcontracting Orders view",
+    "Aligns logic with existing SubcManufacturingCue table extension",
+    "Includes test to verify FlowField evaluates correctly after order creation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003501,
+    "changes_in_call": 1
+  }
+}

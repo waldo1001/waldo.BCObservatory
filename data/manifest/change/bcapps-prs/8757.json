@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Bug 640115: Fix Subc. Order FlowField so subcontracting orders are visible in Purchase Order List",
   "url": "https://github.com/microsoft/BCApps/pull/8757",
   "published_at": "2026-07-27T09:50:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:50.185Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:54.897Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003501
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:55.107Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:55.113Z",
+      "path": "content/changes/bcapps/8757.md"
     }
   },
   "input_hash": "dc71c44d68dfbf0536afec4c7cb45bd597595a48:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 640115 fix subc order flowfield so subcontracting orders are visible in purchase order list"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e3003e44b29ff4d00ae9015b4c4f34d3bf3824fb8dc9fcc6b743f2a676fefba1"
 }

@@ -6,10 +6,18 @@
   "title": "[E-Document Formats][OIOUBL] Migrate NAV PR 247162 into BCApps",
   "url": "https://github.com/microsoft/BCApps/pull/9682",
   "published_at": "2026-07-27T08:36:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:51.295Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
     }
   },
   "input_hash": "79700e73d8b97e72038ee8f8b70ea133acc7c5db:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document formats oioubl migrate nav pr 247162 into bcapps"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "638fd7b43f1b063a11d86fe3d92e11bf0d5937da13d22bb4466df02e32ef1d6a"
 }

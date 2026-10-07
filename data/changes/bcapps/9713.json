@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9713,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9713",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T08:46:51Z",
+  "merge_commit_sha": "e654d6e7081807a6458bbd1100aef05fe7d92c66",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Miapp: derive base branch from origin/HEAD instead of $env:RepoBranchName",
+  "body_hash": "1d51fdf75e80f2e6e98039bab055959220571971ed7a860abcc2d577e9cfe51a",
+  "fixes_issues": [],
+  "work_items": [
+    643986
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 5,
+    "additions": 47,
+    "deletions": 29,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

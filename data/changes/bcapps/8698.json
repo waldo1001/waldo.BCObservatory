@@ -1,0 +1,604 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8698,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8698",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T08:22:55Z",
+  "merge_commit_sha": "279f5b906d6952a14e710bc5f3f9bc5f4350f183",
+  "author": "jzaksauskas",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "Approved",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling",
+  "body_hash": "2592b69e3ba3903e40e9d59d66eee6091b29db8b24dafeeaae8fa275c31ef0ac",
+  "fixes_issues": [],
+  "work_items": [
+    477516
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/app.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/docs/extensibility.md",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentFormat.Enum.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocuments.Page.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/EDocEmptyDraft.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/EDocUnspecifiedImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/ImportEDocumentProcess.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentMLLMHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocMessageBuilder.Interface.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseProvider.Interface.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IStructuredFormatReader.Interface.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageStatus.Enum.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPeppolMsgBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocResponseType.Enum.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessage.Table.al",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessageType.Enum.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+      "status": "added",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocMessageResponseTests.Codeunit.al",
+      "status": "added",
+      "additions": 126,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EnforcedDigitalVouchers/test/src/DigitalVouchersTests.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Response/PEPPOLOrderRespBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ServiceDeclaration/test/src/ServDeclSuggestLines.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ServiceDeclaration/test/src/ServiceDeclarationPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 35,
+    "additions": 979,
+    "deletions": 11,
+    "al": 28
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6101",
+        "type": "permissionset",
+        "id": 6101,
+        "name": "E-Doc. Core - Read",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6101"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreUser.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6105",
+        "type": "permissionset",
+        "id": 6105,
+        "name": "E-Doc. Core - User",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6105"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Page.al",
+        "status": "modified",
+        "key": "page/6121",
+        "type": "page",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentFormat.Enum.al",
+        "status": "modified",
+        "key": "enum/6101",
+        "type": "enum",
+        "id": 6101,
+        "name": "E-Document Format",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6101"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+        "status": "modified",
+        "key": "enum/6121",
+        "type": "enum",
+        "id": 6121,
+        "name": "E-Document Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocuments.Page.al",
+        "status": "modified",
+        "key": "page/6122",
+        "type": "page",
+        "id": 6122,
+        "name": "E-Documents",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6122"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+        "status": "modified",
+        "key": "page/6105",
+        "type": "page",
+        "id": 6105,
+        "name": "Inbound E-Documents",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6105"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6108",
+        "type": "codeunit",
+        "id": 6108,
+        "name": "E-Document Processing",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6108"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/EDocEmptyDraft.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6193",
+        "type": "codeunit",
+        "id": 6193,
+        "name": "E-Doc. Empty Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6193"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/EDocUnspecifiedImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6116",
+        "type": "codeunit",
+        "id": 6116,
+        "name": "E-Doc. Unspecified Impl.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6116"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/ImportEDocumentProcess.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6104",
+        "type": "codeunit",
+        "id": 6104,
+        "name": "Import E-Document Process",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6104"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6174",
+        "type": "codeunit",
+        "id": 6174,
+        "name": "E-Document ADI Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6174"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentMLLMHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6231",
+        "type": "codeunit",
+        "id": 6231,
+        "name": "E-Document MLLM Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6231"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6173",
+        "type": "codeunit",
+        "id": 6173,
+        "name": "E-Document PEPPOL Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6173"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocMessageBuilder.Interface.al",
+        "status": "added",
+        "key": "interface/iedocmessagebuilder",
+        "type": "interface",
+        "id": null,
+        "name": "IEDocMessageBuilder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/iedocmessagebuilder"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseProvider.Interface.al",
+        "status": "added",
+        "key": "interface/iedocresponseprovider",
+        "type": "interface",
+        "id": null,
+        "name": "IEDocResponseProvider",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/iedocresponseprovider"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IStructuredFormatReader.Interface.al",
+        "status": "modified",
+        "key": "interface/istructuredformatreader",
+        "type": "interface",
+        "id": null,
+        "name": "IStructuredFormatReader",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/istructuredformatreader"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6433",
+        "type": "codeunit",
+        "id": 6433,
+        "name": "E-Doc. Message Mgt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6433"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageStatus.Enum.al",
+        "status": "added",
+        "key": "enum/6429",
+        "type": "enum",
+        "id": 6429,
+        "name": "E-Doc. Message Status",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6429"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPeppolMsgBuilder.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6434",
+        "type": "codeunit",
+        "id": 6434,
+        "name": "E-Doc. PEPPOL Msg. Builder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6434"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocResponseType.Enum.al",
+        "status": "added",
+        "key": "enum/6427",
+        "type": "enum",
+        "id": 6427,
+        "name": "E-Doc. Response Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6427"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessage.Table.al",
+        "status": "added",
+        "key": "table/6432",
+        "type": "table",
+        "id": 6432,
+        "name": "E-Document Message",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6432"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessageType.Enum.al",
+        "status": "added",
+        "key": "enum/6436",
+        "type": "enum",
+        "id": 6436,
+        "name": "E-Document Message Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6436"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+        "status": "added",
+        "key": "page/6434",
+        "type": "page",
+        "id": 6434,
+        "name": "E-Document Messages FactBox",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6434"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Response/PEPPOLOrderRespBuilder.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/37209",
+        "type": "codeunit",
+        "id": 37209,
+        "name": "PEPPOL Order Resp. Builder",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37209"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "apps": [
+    "EDocument",
+    "PEPPOL"
+  ]
+}

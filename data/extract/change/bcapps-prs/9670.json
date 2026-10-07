@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9670",
+  "number": 9670,
+  "title": "[Main] - Posting from Released production order affects Firm planned production order with same ID.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A status check was added to prevent Firm Planned production orders from incorrectly reading capacity ledger entries of same-numbered Released orders, which was causing their allocated capacity to be miscalculated.",
+  "key_points": [
+    "Added status guard in CalcActuallyPostedCapacityTime that returns 0 for non-Released/Finished statuses",
+    "Prevents Firm Planned, Planned, and Simulated orders from reading capacity ledger entries",
+    "Ensures allocated capacity for Firm Planned orders is calculated correctly as full needed time",
+    "Fixes data corruption where allocated time was wrongly reduced by another order's posted capacity",
+    "Test coverage added for the capacity requirements scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Added a status guard at the top of CalcActuallyPostedCapacityTime that returns 0 when the routing line's Status is not Released or Finished.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 1
+  }
+}

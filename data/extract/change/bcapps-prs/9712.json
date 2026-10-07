@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9712",
+  "number": 9712,
+  "title": "[master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Updating the contact on a Customer Subscription Contract now correctly refreshes the contract email to match the new contact's email address.",
+  "key_points": [
+    "Fixed missing email and phone number update when 'Sell-to Contact No.' is validated",
+    "Added logic to copy contact email and phone details to contract fields",
+    "Aligns subscription contract behavior with standard Sales Header pattern"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003422,
+    "changes_in_call": 1
+  }
+}

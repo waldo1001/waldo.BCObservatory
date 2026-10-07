@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9708",
+  "number": 9708,
+  "title": "Enable manual task creation for Sales Order Agent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now allows users to manually create tasks directly from the Agent Tasks pane using the New action, which opens the existing SOA Create Task page.",
+  "key_points": [
+    "Enable default manual task creation capability for Sales Order Agent",
+    "Open SOA Create Task page via New action in Agent Tasks pane",
+    "Reuse task-page launch helper from SOA setup page",
+    "Manual task creation from uploaded files remains disabled",
+    "Updates to metadata provider and setup page configuration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Enable default manual task creation for the Sales Order Agent.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003433,
+    "changes_in_call": 1
+  }
+}

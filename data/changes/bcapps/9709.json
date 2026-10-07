@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9709,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9709",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T15:44:02Z",
+  "merge_commit_sha": "c6ffa105623cbd6d768eaafc71e17fdee9e17ec4",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix test isolation in Shpfy Product Price Calc. Test (AB#642673)",
+  "body_hash": "90dfdf5128b3cee2eae3303b4b21c0415d4e477f6793321dcb6b4ee71d56e751",
+  "fixes_issues": [],
+  "work_items": [
+    642193,
+    642673
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

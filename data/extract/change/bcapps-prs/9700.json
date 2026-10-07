@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9700",
+  "number": 9700,
+  "title": "Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "A variable name in custom migration mapping is restored from TempCustomMigrationTableBuffer to CustomMigrationTableBuffer to prevent misleading naming and rule violations.",
+  "key_points": [
+    "Variable renamed in AddCustomMigrationMapping page to reflect its actual usage as a handle, not a data buffer",
+    "Change eliminates false positives with the AA0237 rule that flags non-temporary variables with Temp prefix",
+    "Naming is now consistent with earlier versions and NAV 28.x backport",
+    "Purely cosmetic change with no behavioral impact"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003335,
+    "changes_in_call": 1
+  }
+}
