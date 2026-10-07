@@ -1,12 +1,13 @@
 ---
 /**
  * The information page skeleton (HANDOFF 3): breadcrumb, identity row, title, summary, stat tiles, actions, then main and
- * side columns. The side column ends with the locator and the provenance list.
+ * side columns. The side column ends with the locator, Related (D65: data/links/related.json) and the provenance list.
  */
 import Base from "./Base.astro";
 import Badges from "../components/Badges.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
 import PageGalaxy from "../components/PageGalaxy.astro";
+import Related from "../components/Related.astro";
 import StageDialog from "../components/StageDialog.astro";
 import { openInClaude, pageSystem, systemLabel } from "../lib/page";
 interface Stat { n: number | string; label: string; href?: string }
@@ -56,6 +57,7 @@ const g = fm.generated ?? {};
       <aside class="side" aria-label="About this page">
         <slot name="side" />
         <PageGalaxy id={String(fm.id)} system={system} connections={connections}><slot name="locator" /></PageGalaxy>
+        <Related id={String(fm.id)} />
         <section>
           <h2>Provenance</h2>
           <dl class="prov">

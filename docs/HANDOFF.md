@@ -11,7 +11,9 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   inheriting Learn links through their pages, first-party apps in their system) is built and committed on `dev/next`,
   not yet merged or run by a nightly; deviations in section 8.1 of the spec. Tranches 2-4 (search ranking and
   grouping, Related and app pages, page controls) have no code yet. Until tranche 2 lands, search ranks a 47-page hub
-  below any codeunit that mentions the word.
+  below any codeunit that mentions the word. Tranche 3 (Related on every page from `data/links/related.json`, one
+  page per first-party app under `content/apps/`) is built and committed on `dev/spec`, not merged or run by a
+  nightly; deviations in section 8.3.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
   0 on branch `dev/spec` (not yet merged), spike and later phases open, nothing installed. Stefan Maron's

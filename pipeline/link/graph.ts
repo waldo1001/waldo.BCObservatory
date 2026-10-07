@@ -1,10 +1,13 @@
 /**
  * The galaxy graph (PLAN 4.2 graph, 4.7 galaxy map, D37), deterministic, from the content pages' frontmatter:
  *
- * - nodes: topics, features, localizations, sources (blogs and channels with pages), the TOP_OBJECTS most connected
- *   objects, and the videos and posts (in full.jsonl and ego graphs; the summary counts them on their hubs)
+ * - nodes: topics, features, localizations, sources (blogs and channels with pages), first-party apps (D65), the
+ *   TOP_OBJECTS most connected objects, and the videos and posts (in full.jsonl and ego graphs; the summary counts them
+ *   on their hubs)
  * - edges: topic-subtopic (relates), feature-video (demonstrates), object-topic (documents), object-localization
- *   (localizes), extension-base object (extends), video/post-source (authored), page-system (via group)
+ *   (localizes), extension-base object (extends), video/post-source (authored), app-topic (documents), app-object
+ *   (implements), Related rows (relates, w 0.5, data/links/related.json, D65: in full.jsonl and the ego graphs only, not in
+ *   the summary, the weights or the cross-system fields), page-system (via group)
  * - group = galaxy system: the page's `system`, for objects their namespace (Microsoft.Sales.* -> sales)
  * - layout (D66, galaxy-layout.ts): system order from cross-system edge weight on the two-arm spiral, hubs on the
  *   Learn table-of-contents tree, objects in namespace plots; no forces, so the same input gives the same picture
@@ -25,10 +28,17 @@ import { objectSystem } from "../lib/systems.js";
 import type { TimelineEntry } from "../code/diff.js";
 import { nsSegments } from "../lib/treemap.js";
 import { LAYOUT, layoutGalaxy, type Plot } from "./galaxy-layout.js";
+import { mentionedObjects, objectByName } from "./mentions.js";
+import { loadRelated } from "./related.js";
 
 export { objectSystem, LAYOUT };
 
 export const TOP_OBJECTS = 300;
+/** Weight of a Related edge (D65); page links weigh 1 or more, so the weight marks the edge. */
+export const RELATED_W = 0.5;
+export const isRelated = (e: { type: string; w?: number }) => e.type === "relates" && e.w === RELATED_W;
+/** Edges that do not weigh: Related rows, and an app's membership edges to its objects (an object is no brighter for being in an app). */
+const weightless = (e: { type: string; w?: number }) => isRelated(e) || e.type === "implements";
 /** Ports per focused star (tokens.D-galaxy-honest.json galaxy.crossEdgeLimit); the rest is a count. */
 export const CROSS_SYSTEMS = 6;
 const CROSS_NAMED = 3;
@@ -79,8 +89,11 @@ export interface Graph {
   };
 }
 
-/** Read every content page and build nodes and edges (no layout yet). */
-export function buildGraph(contentDir: string, _siteBase = ""): Graph {
+/**
+ * Read every content page and build nodes and edges (no layout yet). `related` (data/links/related.json, D65) adds a
+ * `relates` edge of weight 0.5 per Related row, unless the pair already has one.
+ */
+export function buildGraph(contentDir: string, _siteBase = "", related: Record<string, { id: string }[]> = {}): Graph {
   const nodes = new Map<string, GNode>();
   const edges = new Map<string, GEdge>();
   const systemIds = new Set(taxonomy().systems.map((s) => s.id));
@@ -102,16 +115,9 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
   }
   pages.sort((a, b) => a.id.localeCompare(b.id));
   const sources = new Map(loadSources().map((s) => [s.id, s]));
-  // AL objects by exact type and name ("table Customer"): videos and posts name them that way. Exact only, and a name
-  // two objects of one type share (an object moved between apps) is left out rather than guessed.
-  const objectByName = new Map<string, string | null>();
-  for (const { id, fm } of pages) {
-    if (fm.type !== "object" || !fm.object_type || !fm.name) continue;
-    const k = `${fm.object_type} ${String(fm.name)}`.toLowerCase();
-    objectByName.set(k, objectByName.has(k) && objectByName.get(k) !== id ? null : id);
-  }
-  const mentioned = (fm: Record<string, any>) => [...new Set([...(fm.objects_mentioned ?? []), ...(fm.code_objects_mentioned ?? [])]
-    .map((m: unknown) => objectByName.get(String(m).toLowerCase().trim())).filter((x): x is string => !!x))];
+  // AL objects by exact type and name ("table Customer"), as videos and posts name them (link/mentions.ts)
+  const byName = objectByName(pages);
+  const mentioned = (fm: Record<string, any>) => mentionedObjects(fm, byName);
   const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map(), obj: new Map() };
   const addMedia = (hub: string, m: string) => (aux.media.get(hub) ?? aux.media.set(hub, new Set()).get(hub)!).add(m);
   for (const { id, fm, path } of pages) {
@@ -126,18 +132,19 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
     }
     if (fm.type === "topic") aux.parent.set(id, typeof fm.parent === "string" ? fm.parent : null);
     const L = fm.links ?? {};
-    for (const t of L.topics ?? []) edge(id, t, fm.type === "object" ? "documents" : "relates");
+    // D65: an app's hubs are the hubs its objects are documented in
+    for (const t of L.topics ?? []) edge(id, t, fm.type === "object" || fm.type === "app" ? "documents" : "relates");
     for (const v of L.videos ?? []) edge(id, v, "demonstrates");
     for (const f of L.features ?? []) edge(id, f, "demonstrates");
     for (const l of L.localizations ?? []) edge(id, l, "localizes");
     // a localization's objects are the same pairs as the objects' localizations: one edge type for both directions
     // D65: a hub's objects are the same pairs as the objects' hubs: `documents` both ways
-    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : fm.type === "change" ? "changes" : fm.type === "topic" ? "documents" : "mentions");
+    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : fm.type === "change" ? "changes" : fm.type === "topic" ? "documents" : fm.type === "app" ? "implements" : "mentions");
     for (const p of L.posts ?? []) edge(id, p, "discusses");
     // D61: an object's changes are the same pairs as the changes' objects; a hub's are what it documents changing
     for (const c of L.changes ?? []) edge(id, c, fm.type === "object" ? "changes" : "relates");
     if (fm.type === "video" || fm.type === "post") for (const o of mentioned(fm)) { edge(id, o, "mentions"); addMedia(o, id); }
-    if (["topic", "feature", "object", "localization"].includes(fm.type)) for (const m of [...(L.videos ?? []), ...(L.posts ?? [])]) addMedia(id, m);
+    if (["topic", "feature", "object", "localization", "app"].includes(fm.type)) for (const m of [...(L.videos ?? []), ...(L.posts ?? [])]) addMedia(id, m);
     const src = fm.type === "post" || fm.type === "change" ? fm.source_id : fm.type === "video" ? fm.channel : null;
     if (src) {
       const s = sources.get(src);
@@ -145,9 +152,19 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
       edge(`source/${src}`, id, "authored");
     }
   }
+  // Related (D65): one light edge per pair, never a second edge where the pages already link
+  const linked = new Set([...edges.values()].map((e) => `${e.s}|${e.t}`));
+  for (const [from, rows] of Object.entries(related)) for (const { id: to } of rows) {
+    if (from === to) continue;
+    const [a, b] = from < to ? [from, to] : [to, from];
+    if (linked.has(`${a}|${b}`)) continue;
+    linked.add(`${a}|${b}`);
+    edges.set(`${a}|${b}|relates`, { s: a, t: b, type: "relates", w: RELATED_W });
+  }
   // edges only between known nodes; weight = degree + evidence (Learn pages count on the hub)
   const live = [...edges.values()].filter((e) => nodes.has(e.s) && nodes.has(e.t));
-  for (const e of live) { nodes.get(e.s)!.weight += e.w ?? 1; nodes.get(e.t)!.weight += e.w ?? 1; }
+  // Related edges restate links the weights already count, and app membership is not evidence (D65)
+  for (const e of live) if (!weightless(e)) { nodes.get(e.s)!.weight += e.w ?? 1; nodes.get(e.t)!.weight += e.w ?? 1; }
   for (const { id, fm } of pages) { const n = nodes.get(id); if (n) n.weight += (fm.links?.learn?.length ?? 0) * 0.5; }
   for (const [hub, set] of aux.media) for (const m of [...set]) if (!nodes.has(m)) set.delete(m);
   // evidence per star (Learn pages + videos and posts linked to it or naming it) and its community share; object versions
@@ -158,6 +175,8 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
     const n = nodes.get(id);
     if (!n) continue;
     const L = fm.links ?? {};
+    // an app's evidence: the hubs that document it and its videos and posts (D65)
+    if (fm.type === "app") { const media = [...(aux.media.get(id) ?? [])].map((x) => nodes.get(x)!); const ev = (L.topics?.length ?? 0) + media.length; if (ev) { n.ev = ev; n.cs = Math.round((media.filter((m) => m.tier === "community").length / ev) * 100) / 100; } }
     if (["topic", "feature", "object", "localization"].includes(fm.type)) {
       const media = [...(aux.media.get(id) ?? [])].map((x) => nodes.get(x)!);
       const ev = (L.learn?.length ?? 0) + media.length;
@@ -183,9 +202,9 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
   };
 }
 
-/** The summary: hubs and sources in full, the TOP_OBJECTS most connected objects; videos and posts stay out. */
+/** The summary: hubs, first-party apps (D65) and sources in full, the TOP_OBJECTS most connected objects; videos and posts stay out. */
 export function summaryNodes(g: Graph): Set<string> {
-  const keep = new Set(g.nodes.filter((n) => ["topic", "feature", "localization", "source"].includes(n.type)).map((n) => n.id));
+  const keep = new Set(g.nodes.filter((n) => ["topic", "feature", "localization", "source", "app"].includes(n.type)).map((n) => n.id));
   for (const n of g.nodes.filter((x) => x.type === "object").sort((a, b) => b.weight - a.weight || a.id.localeCompare(b.id)).slice(0, TOP_OBJECTS)) keep.add(n.id);
   return keep;
 }
@@ -222,7 +241,7 @@ export function systemWeights(g: Graph, keep: Set<string>, code: CodeInput): Map
   const w = new Map<string, number>();
   const bump = (a: string | undefined, b: string | undefined, by = 1) => { if (a && b && a !== b) w.set(pairKey(a, b), (w.get(pairKey(a, b)) ?? 0) + by); };
   for (const e of code.edges) bump(group.get(`object/${e.s}`), group.get(`object/${e.t}`));
-  for (const e of g.edges) if (keep.has(e.s) && keep.has(e.t)) bump(group.get(e.s), group.get(e.t), e.w ?? 1);
+  for (const e of g.edges) if (keep.has(e.s) && keep.has(e.t) && !weightless(e)) bump(group.get(e.s), group.get(e.t), e.w ?? 1);
   return w;
 }
 
@@ -253,7 +272,7 @@ export function layout(g: Graph, keep: Set<string>, code: CodeInput, tocOrder: M
     if (keep.has(id)) codeAdj.set(id, [...(codeAdj.get(id) ?? []), { other: `object/${b}`, k: e.k }]);
   }
   const pageAdj = new Map<string, { other: string; k: string }[]>();
-  for (const e of g.edges) for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) if (keep.has(a) && keep.has(b) && byId.get(a)?.type !== "object") pageAdj.set(a, [...(pageAdj.get(a) ?? []), { other: b, k: e.type }]);
+  for (const e of g.edges) if (!isRelated(e)) for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) if (keep.has(a) && keep.has(b) && byId.get(a)?.type !== "object") pageAdj.set(a, [...(pageAdj.get(a) ?? []), { other: b, k: e.type }]);
   const crossOf = (n: GNode): Pick<GNode, "cross" | "crossMore"> => {
     const adj = (n.type === "object" ? codeAdj : pageAdj).get(n.id) ?? [];
     const by = new Map<string, Map<string, { n: number; kinds: Map<string, number> }>>();
@@ -317,7 +336,7 @@ export function heaviestPairs(weights: Map<string, number>, ids: string[], perSy
 export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: [string, string, string, string[], string][] } {
   const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
   const hubs = new Map<string, Set<string>>();
-  for (const e of g.edges) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
+  for (const e of g.edges) if (!isRelated(e)) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
   const items = g.nodes.filter((n) => (n.type === "video" || n.type === "post") && n.lit_at && n.lit_at >= from && n.lit_at <= today)
     .sort((a, b) => b.lit_at!.localeCompare(a.lit_at!) || a.id.localeCompare(b.id))
     .map((n) => [n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort(), n.label] as [string, string, string, string[], string]);
@@ -395,14 +414,15 @@ export interface GraphRun { nodes: number; edges: number; summary_nodes: number;
 export interface GraphOptions { /** Run date (YYYY-MM-DD): the end of the "landed" week. */ today?: string; /** Relations major; default the first narrative major that has them. */ major?: string }
 
 export function renderGraph(contentDir: string, dataDir: string, siteBase = "", opts: GraphOptions = {}): GraphRun {
-  const g0 = buildGraph(contentDir, siteBase);
+  const g0 = buildGraph(contentDir, siteBase, loadRelated(dataDir).pages);
   const keep = summaryNodes(g0);
   const code = loadCode(dataDir, opts.major);
   const g = layout(g0, keep, code, tocOrder(dataDir));
   const dir = resolve(dataDir, "graph");
   let written = 0;
   const summaryNodesList = g.nodes.filter((n) => keep.has(n.id)).map(strip).map(slim);
-  const summaryEdges = g.edges.filter((e) => keep.has(e.s) && keep.has(e.t)).map(({ w, ...e }) => (w && w > 1 ? { ...e, w } : e));
+  // Related edges stay out of the summary (it doubled the home page's download); full.jsonl and the ego files carry them
+  const summaryEdges = g.edges.filter((e) => keep.has(e.s) && keep.has(e.t) && !isRelated(e)).map(({ w, ...e }) => (w !== undefined && w !== 1 ? { ...e, w } : e));
   // where each source touches the galaxy, limited to stars the summary draws
   const touches = Object.fromEntries(Object.entries(g.touches).map(([k, v]) => [k, v.filter((h) => keep.has(h))]).filter(([, v]) => v.length));
   const systems = g.systems.filter((s) => s.r > 0 && summaryNodesList.some((n) => n.group === s.id));

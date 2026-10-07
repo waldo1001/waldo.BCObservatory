@@ -542,7 +542,8 @@ function renderCodeIndexes(contentDir: string, w: ObjectWorld, pageKeys: Map<str
   const types = [...byType.keys()].sort();
   const top = ["# BC Observatory: AL objects", "",
     "> Every W1 and first-party app object of Business Central (BC" + w.majors.join(", BC") + "), extracted from the code: fields, keys, procedures, events,",
-    "> subscriptions, obsolete state, versions, countries that replace it, Learn pages naming it. Frontmatter: schemas/frontmatter.object.json.", "",
+    "> subscriptions, obsolete state, versions, countries that replace it, Learn pages naming it. Frontmatter: schemas/frontmatter.object.json.",
+    "> Related objects (both documented in one hub) and the object's first-party app page (content/apps/): data/links/related.json.", "",
     `${pageKeys.size} objects. Per type:`, "", ...types.map((t) => `- [${TYPE_LABEL[t] ?? t}](${t}/llms.txt): ${byType.get(t)!.length}`), ""];
   writeIfChangedText(resolve(contentDir, "objects", "llms.txt"), top.join("\n"));
   for (const t of types) {

@@ -1,0 +1,37 @@
+---
+/**
+ * Related (D65, discovery spec 3.7): pages a reader may have meant instead, each with its reason from a closed set
+ * (pipeline/link/related.ts). Up to 8 rows, 5 shown and the rest behind "Show N more", like EvidenceList. Nothing in
+ * the block is machine-written.
+ */
+import { relatedFor, type RelatedRow } from "../lib/related";
+interface Props { id: string; shown?: number }
+const { id, shown = 5 } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const rows = relatedFor(id);
+const first = rows.slice(0, shown), rest = rows.slice(shown);
+const dot = (r: RelatedRow) => (r.system ? `--dot: var(--sys-${r.system})` : "--dot: var(--muted)");
+---
+{rows.length > 0 && (
+  <section class="related" aria-labelledby="related">
+    <h2 id="related">Related</h2>
+    <ul class="rel-list">
+      {first.map((r) => <li><a href={`${base}${r.href}`}><span class="g-dot" style={dot(r)} aria-hidden="true"></span><span class="rel-title">{r.title}</span> <small class="mono-meta">{r.kind}</small></a><span class="rel-why meta">{r.why}</span></li>)}
+    </ul>
+    {rest.length > 0 && (
+      <details class="more">
+        <summary>Show {rest.length} more</summary>
+        <ul class="rel-list">
+          {rest.map((r) => <li><a href={`${base}${r.href}`}><span class="g-dot" style={dot(r)} aria-hidden="true"></span><span class="rel-title">{r.title}</span> <small class="mono-meta">{r.kind}</small></a><span class="rel-why meta">{r.why}</span></li>)}
+        </ul>
+      </details>
+    )}
+  </section>
+)}
+<style>
+  .rel-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 8px; font-size: 14px; }
+  .rel-list li { display: grid; gap: 2px; min-width: 0; }
+  .rel-list a { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; overflow-wrap: anywhere; }
+  .rel-list .g-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); align-self: center; }
+  .rel-why { padding-left: 16px; font-size: 13px; }
+</style>
