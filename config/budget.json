@@ -1,5 +1,5 @@
 {
-  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs. Quotas raised 2026-10-06 (owner) after measuring real costs (video ~$0.075, Learn page ~$0.008, hub ~$0.045) so the spend caps, not item counts, bound a night. concurrency = items (and hub calls) in flight at once, raised to 6 on 2026-10-06 (owner); yt-dlp stays one at a time. checkpoint_items / checkpoint_minutes = commit and push work done so far during stage execution, every 50 advanced item stages or every 20 minutes, whichever comes first: small commits, visible progress, a killed run loses at most one batch (D26). catch_up.until (D41) = until that run date every nightly (also the 06/12/18 UTC runs) has no quotas and no spend caps; afterwards the extra runs skip themselves outside the night window. lanes = items a lane may run at once; yt-dlp stays at 1 (D15); code extraction stays at 1, one major in memory at a time as headroom (D69). lane_timeout_seconds = longest one lane stage may take before the item fails and the lane frees up (a hung blog fetch held the only web slot for two hours on 2026-10-06). roadmap_links = Haiku calls per run for roadmap coverage (one video or 8 Learn pages per call, ~$0.021; 2026-10-06 sample). coverage_reviews = Opus calls per run reviewing those links, one roadmap feature per call. topic_links = Haiku calls per run linking videos and posts to topic hubs (6 items per call, ~$0.058 per call; 2026-10-07 sample of 48 items). topic_reviews = Opus calls per run reviewing those links (D54): a hub with two or more links per call, six single-link hubs per call, ~$0.10 per call and ~4 hubs per call (2026-10-07 sample of 38 links over 34 hubs: 9 calls, $0.91). Both link passes also run after a clean memory stop.",
+  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs. Quotas raised 2026-10-06 (owner) after measuring real costs (video ~$0.075, Learn page ~$0.008, hub ~$0.045) so the spend caps, not item counts, bound a night. concurrency = items (and hub calls) in flight at once, raised to 6 on 2026-10-06 (owner); yt-dlp stays one at a time. checkpoint_items / checkpoint_minutes = commit and push work done so far during stage execution, every 50 advanced item stages or every 20 minutes, whichever comes first: small commits, visible progress, a killed run loses at most one batch (D26). catch_up.until (D41) = until that run date every nightly (also the 06/12/18 UTC runs) has no quotas and no spend caps; afterwards the extra runs skip themselves outside the night window. lanes = items a lane may run at once; yt-dlp stays at 1 (D15); code extraction stays at 1, one major in memory at a time as headroom (D69). lane_timeout_seconds = longest one lane stage may take before the item fails and the lane frees up (a hung blog fetch held the only web slot for two hours on 2026-10-06). roadmap_links = Haiku calls per run for roadmap coverage (one video or 8 Learn pages per call, ~$0.021; 2026-10-06 sample). coverage_reviews = Opus calls per run reviewing those links, one roadmap feature per call. topic_links = Haiku calls per run linking videos and posts to topic hubs (6 items per call, ~$0.058 per call; 2026-10-07 sample of 48 items). topic_reviews = Opus calls per run reviewing those links (D54): a hub with two or more links per call, six single-link hubs per call, ~$0.10 per call and ~4 hubs per call (2026-10-07 sample of 38 links over 34 hubs: 9 calls, $0.91). Both link passes also run after a clean memory stop. graph_jobs (D67) = call graphs per run, the code pillar's `linked` stage (graphify-al on one snapshot checkout, minutes of CPU; deterministic, never scaled); lane cpu runs one at a time; its lane timeout (65 min) sits above the job's own 60-minute kill.",
   "window": {
     "start_local": "01:00",
     "hard_stop_local": "06:35",
@@ -52,7 +52,8 @@
     "preview_probes": 80,
     "change_fetch": 60,
     "changes": 40,
-    "change_narrative": 1
+    "change_narrative": 1,
+    "graph_jobs": 1
   },
   "preview_ttl_days": 30,
   "retry": {
@@ -65,8 +66,8 @@
   },
   "concurrency": 6,
   "catch_up": { "until": "2026-10-06" },
-  "lanes": { "web": 3, "youtube": 1, "code": 1, "github": 2 },
-  "lane_timeout_seconds": { "web": 180, "youtube": 1200, "github": 120 },
+  "lanes": { "web": 3, "youtube": 1, "code": 1, "github": 2, "cpu": 1 },
+  "lane_timeout_seconds": { "web": 180, "youtube": 1200, "github": 120, "cpu": 3900 },
   "checkpoint_items": 50,
   "checkpoint_minutes": 20
 }

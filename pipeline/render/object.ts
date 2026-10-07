@@ -27,7 +27,7 @@ import { objectKey, toolTipOf, type AlAction, type AlControl, type AlField, type
 import { boundField, loadFieldDocs, type FieldDoc, type FieldDocs } from "../code/field-docs.js";
 import { isSkeleton, iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
-import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
+import { callsIncoming, callsOutgoing, incoming, outgoing, readCalls, type CallEdge, type Calls, type RelEdge, type Relations } from "../code/relations.js";
 import { areaOf } from "../lib/systems.js";
 import { loadDocsObjects, type DocRef, type DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -56,6 +56,8 @@ interface Versions { majors: Record<string, unknown>; narrative_order: string[] 
 
 interface Life { versions: string[]; changed: string[] }
 export interface RelationsView { rel: Relations; in: Map<string, RelEdge[]>; out: Map<string, RelEdge[]> }
+/** The call graph of a major (data/code/graph/<major>/calls.json, D67) with both directions indexed. */
+export interface CallsView { calls: Calls; in: Map<string, CallEdge[]>; out: Map<string, CallEdge[]> }
 /** An object only a country layer has: the record of its preferred major, and the majors that country ships it in. */
 export interface OwnObject { obj: AlObject; cc: string; major: string; manifest: SnapshotManifest; versions: string[] }
 /** Page key of a country's own object: the id alone would collide between countries. */
@@ -65,6 +67,8 @@ export interface ObjectWorld {
   replacedIn: Map<string, string[]>; docs: DocsObjects | null; topicsByUrl: Map<string, string[]>;
   /** Relations per major (data/code/relations/<major>.json, D45), where the file exists. */
   relations: Map<string, RelationsView>;
+  /** Call graph per major, where data/code/graph/<major>/calls.json exists (D67). */
+  calls?: Map<string, CallsView>;
   /** A country's own objects (not in W1 or the first-party apps), keyed "<cc>|<object key>" (D52). */
   countryOnly: Map<string, OwnObject>;
   /** Page key of an extension's base object, once page keys are known. */
@@ -145,14 +149,18 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     const p = resolve(dataDir, "code", "relations", `${m}.json`);
     if (exists(p)) { const rel = readJson<Relations>(p); relations.set(m, { rel, in: incoming(rel), out: outgoing(rel) }); }
   }
+  const calls = new Map<string, CallsView>();
+  for (const m of majors) { const c = readCalls(dataDir, m); if (c) calls.set(m, { calls: c, in: callsIncoming(c), out: callsOutgoing(c) }); }
   const cbo = changesByObjectPath(dataDir);
   const changes = new Map<string, ChangeRef[]>(exists(cbo) ? Object.entries(readJson<Record<string, unknown>>(cbo)).filter(([k]) => k !== "schema") as [string, ChangeRef[]][] : []);
   const fieldDocs = new Map<string, FieldDocs>();
   for (const m of majors) { const fd = loadFieldDocs(dataDir, m); if (fd) fieldDocs.set(m, fd); }
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, countryOnly, changes, fieldDocs };
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, calls, countryOnly, changes, fieldDocs };
 }
 
 const REL_CAP = 50;
+/** Procedure pairs shown per called or calling object (calls.json keeps up to five, D67). */
+const VIA_SHOWN = 3;
 const KIND_LABEL: Record<string, string> = { table_relation: "TableRelation", calc_formula: "CalcFormula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends" };
 function countriesOf(dataDir: string): string[] {
   const set = new Set<string>();
@@ -185,6 +193,12 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const pagesOn = relIn.filter((e) => e.k === "source_table" || e.k === "lookup_page" || e.k === "drilldown_page" || e.k === "card_page");
   const extendedBy = relIn.filter((e) => e.k === "extends"), runOn = relIn.filter((e) => e.k === "runs_on");
   const myEvents = R?.rel.events[key] ?? {};
+  // call graph (D67): cross-object calls and implements from graphify-al on the snapshot checkout, heaviest first
+  const C = own ? undefined : w.calls?.get(major);
+  const byWeight = (a: CallEdge, b: CallEdge) => b.n - a.n || a.s.localeCompare(b.s) || a.t.localeCompare(b.t);
+  const callsOut = (C?.out.get(key) ?? []).filter((e) => e.k === "calls").sort(byWeight), callsIn = (C?.in.get(key) ?? []).filter((e) => e.k === "calls").sort(byWeight);
+  const implementsOut = (C?.out.get(key) ?? []).filter((e) => e.k === "implements"), implementedBy = (C?.in.get(key) ?? []).filter((e) => e.k === "implements");
+  const callSig = callsOut.length || callsIn.length || implementsOut.length || implementedBy.length ? sha256(JSON.stringify([callsOut, callsIn, implementsOut, implementedBy])) : "";
   const subCount = Object.values(myEvents).reduce((n, e) => n + e.subs.length, 0);
   // a table inherits the Learn pages and hubs of the pages on it (D65): Learn never names a table directly
   const inherited = o.type === "table" && !own ? inheritedDocs(key, relIn, docs, ownTopics, w) : null;
@@ -214,7 +228,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}${callSig ? `|calls:${callSig}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
       learn: learnUrls, objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
@@ -225,7 +239,10 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
     obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id), ...(own ? { country: own.cc.toUpperCase() } : {}),
     counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length, ...(o.controls ? { controls: o.controls.length } : {}), ...(o.actions ? { actions: o.actions.length } : {}) },
-    relations: { out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount },
+    relations: {
+      out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount,
+      ...(C ? { calls: callsOut.length, called_by: callsIn.length, implements: implementsOut.length, ...(o.type === "interface" ? { implemented_by: implementedBy.length } : {}) } : {}),
+    },
   };
   validateOrThrow("frontmatter.object", fm, `object page ${key}`);
 
@@ -279,6 +296,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     lines.push("");
   }
   if (extendedBy.length) lines.push("## Extended by", "", ...extendedBy.slice(0, REL_CAP).map((e) => `- ${link(e.s)}`), ...(extendedBy.length > REL_CAP ? [`- and ${extendedBy.length - REL_CAP} more`] : []), "");
+  if (C) lines.push(...callSections(callsOut, callsIn, implementsOut, implementedBy, link, major));
   if (changes.length) lines.push("## Recent changes", "", ...changes.map((c) => `- ${c.merged_at} [#${c.number} ${cell(c.title)}](${"../".repeat(pageKey.split("/").length)}changes/${c.page}.md) (${c.base}${c.major ? `, BC${c.major}` : ""}, ${c.kind}${c.status !== "modified" ? `, ${c.status}` : ""})`), "");
   lines.push(...askYourAgent(o, own?.cc ?? null));
   lines.push("## Across versions", "", `- Present in: ${life.versions.map((v) => `BC${v}`).join(", ")}`, `- Changed (declaration) in: ${life.changed.length ? life.changed.map((v) => `BC${v}`).join(", ") : "none"}`,
@@ -473,6 +491,19 @@ const INHERITED_CAP = 20;
 function inheritedLine(pages: Inherited["pages"], link: (k: string) => string): string {
   const shown = pages.slice(0, INHERITED_CAP).map((p, i) => `${link(p.key)} (${p.docs}${i === 0 ? ` Learn page${p.docs === 1 ? "" : "s"}` : ""})`);
   return `Learn documents this table through its pages: ${shown.join(", ")}${pages.length > INHERITED_CAP ? `, and ${pages.length - INHERITED_CAP} more pages` : ""}.`;
+}
+
+/** "Calls", "Called by", "Implements", "Implemented by" (D67): one line per object, heaviest first, capped at REL_CAP. */
+export function callSections(out: CallEdge[], inc: CallEdge[], impl: CallEdge[], implBy: CallEdge[], link: (k: string) => string, major: string): string[] {
+  const lines: string[] = [];
+  const more = (n: number) => (n > REL_CAP ? [`- and ${n - REL_CAP} more: data/code/graph/${major}/calls.json`] : []);
+  const pairs = (e: CallEdge) => `${e.n} ${e.n === 1 ? "call" : "calls"}: ${e.via.slice(0, VIA_SHOWN).map((v) => `\`${cell(v)}\``).join(", ")}${e.n > Math.min(VIA_SHOWN, e.via.length) ? ", …" : ""}`;
+  const note = `From the extracted call graph of BC${major} (graphify-al on the snapshot checkout): calls whose target is known from a declared type or an \`Object::"Name"\` argument. Interface dispatch and calls through events are not counted, so the list is not complete.`;
+  if (out.length) lines.push("## Calls", "", note, "", ...out.slice(0, REL_CAP).map((e) => `- ${link(e.t)} (${pairs(e)})`), ...more(out.length), "");
+  if (inc.length) lines.push("## Called by", "", ...(out.length ? [] : [note, ""]), ...inc.slice(0, REL_CAP).map((e) => `- ${link(e.s)} (${pairs(e)})`), ...more(inc.length), "");
+  if (impl.length) lines.push("## Implements", "", ...impl.slice(0, REL_CAP).map((e) => `- ${link(e.t)}`), ...more(impl.length), "");
+  if (implBy.length) lines.push("## Implemented by", "", ...implBy.slice(0, REL_CAP).map((e) => `- ${link(e.s)}`), ...more(implBy.length), "");
+  return lines;
 }
 
 /**

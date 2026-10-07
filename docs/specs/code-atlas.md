@@ -404,6 +404,53 @@ names them as variables, not as the objects' names. `validate:content` passes; t
    to the object pages (no object index)" and `links.objects` stays empty. Section 2.3 asks for no "Ask your agent"
    hint on media pages, so there is none.
 
+### 7.2 Phases 1 and 2 built (2026-10-07, on dev/spec), deviations
+
+Phase 1: `config/tooling.json` `graphify_al` pins the fork at `8ee3d6ba8dd0` (package `graphifyy`, extra `al`,
+Python 3.12; `spec` is the exact `uv tool install` argument, `"graphifyy[al] @ git+https://github.com/StefanMaron/graphify-al@<sha>"`,
+which works as written; `graphify --version` prints `graphify 0.9.46.post1`, so the pin is checked through
+`uv tool list --show-version-specifiers`, which shows the rev). Installed on the developer Mac. `35-tools.sh` and
+`selfcheck.sh` install and check it on the Mini (not yet run there). Phase 2: `pipeline/code/callgraph.ts`, the
+`linked` handler (lane `cpu`, quota `graph_jobs`), readers, object-page sections, the `calls` ring, run report. Checked
+end to end with the real graphify on `tests/fixtures/graphify/tree` (nice + `/usr/bin/time -l`), by rendering the 25,644
+object pages from the committed `data/` with a fixture-derived `calls.json` (discarded), by `nightly --dry-run
+--pillars code` (ingest put 29, 30 and 28 back at `linked`; the plan took 29 first; no checkout on the Mac, so held)
+and by the site build (the `calls` ring on `/objects/codeunit/80/`). Not yet run on BCApps: the spike and task 9 are
+the caller's.
+
+1. **Decision 3 cannot hold as written: the fork marks every cross-object call INFERRED.** `_resolve_al_facts` tags
+   typed-variable calls, `Codeunit.Run(Codeunit::"X")` / `Page.Run` / `Report.Run` and usercontrol calls `INFERRED`
+   with `context: al_calls`; only calls inside one file are `EXTRACTED` (verified in the source at the pin and on the
+   fixture). "EXTRACTED only" would keep no call between objects. The job keeps `INFERRED` + `al_calls` (exact by
+   declaration, `KEPT_INFERRED` in `callgraph.ts`) and drops interface fan-out (`al_iface_calls`: a possible call, not
+   an observed one; counted `dropped_iface_fanout`), every other INFERRED and every AMBIGUOUS edge. The spike's
+   precision sample is the check on this; the object pages say the list is not complete.
+2. **Directed graph.** graphify stores an undirected graph by default; two procedures calling each other across
+   objects collapse into one edge and lose a direction. `graphify update` inherits the flag of an existing graph.json,
+   so the job seeds a directed empty one (`seedDirected`) before the first run (fixture tree: 64 edges directed, 63
+   undirected).
+3. **Scope switch** is `config/versions.json` `callgraph.apps` (default true, W1 + `src/Apps/W1/*/app`); the
+   `.graphifyignore` is generated (ignore all, re-include the W1 folders and the apps glob directory by directory,
+   anchored, because graphify enforces gitignore's parent rule) plus the static `config/graphify.ignore` (the atlas
+   template's documents and media, plus the non-AL code BCApps ships: JSON, JS, PowerShell, C#, ...). Country layers
+   stay out. Verified with the real graphify: the DE layer and the README leave the graph.
+4. **Rerunning `linked`.** Code items reach `linked` only after a re-extraction. Ingest compares a graph key
+   (`CALLGRAPH_VERSION`, pin, scope, ignore template) with the one recorded on the stage and puts a published snapshot
+   item back at `extracted` (`rewind` in `manifest.ts`) when it differs: the first rollout and every pin bump rerun the
+   graph without re-extracting. A run whose inputs (snapshot and apps commits, pin, scope, template) are recorded in
+   `calls.json` does not start graphify. Diff-only and other code items pass `linked` at once but still take the
+   night's `graph_jobs` slot when they reach it; code items are planned in `narrative_order`.
+5. **Unresolved reasons** gain `external` (graphify's stub nodes for objects outside the corpus); unresolved rows keep
+   only the end that resolved (our key), never a graphify label. A procedure joins its object through the `method` /
+   `contains` edge, else the only object of its file. A call that lands on the object itself (`Codeunit.Run`) is named
+   `(object)` in `via`. Pages show three pairs per object, `calls.json` five.
+6. **Timeout and holds.** The 60-minute kill takes graphify's whole process group; the `cpu` lane timeout is 65
+   minutes. No checkout or no `graphify` on PATH holds the item (no attempt counted); a checkout not at the snapshot
+   commit advances with `skipped: commit_mismatch` and no graph key, so the next ingest brings it back.
+7. **Fixture** `tests/fixtures/graphify/graph.json` is a real directed run on `tests/fixtures/graphify/tree` (53 nodes,
+   64 links) with two hand edits (one AMBIGUOUS call, one call from the README's document node); the test file says
+   how to regenerate it on a pin bump.
+
 ## 8. Verification
 
 - Phase 0: `npm test`; `npm run validate:content`; `grep -c 'bcatlas_resolve_node' content/objects/codeunit/80.md`

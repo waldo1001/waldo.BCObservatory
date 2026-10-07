@@ -325,12 +325,14 @@ writes headroom to `$GITHUB_OUTPUT`; utilization recorded in the run report.
 - **Docs↔objects:** parse `ms.search.form` (`118_Primary` → page 118, `Report_6627_Primary` → report 6627), then
   name/caption match for codeunits/tables with confidence `exact-id|name|caption`. Drift report = objects referenced
   by docs that no longer exist, obsoleted objects documented without notice, new objects with no doc.
-- **graphify-al** (optional input `graphify: true`): `uv tool run` on W1 of the newest version only, 60-min
-  timeout, edges sharded into `data/code/graph/<version>/edges-<n>.jsonl` → `calls|subscribes|relates` graph edges.
-  Embeddings skipped.
+- **Call graph** (`docs/specs/code-atlas.md`, D67): the code pillar's `linked` stage runs the pinned graphify-al fork
+  on the snapshot checkout, keeps cross-object `calls` resolved by declared type (no interface fan-out, nothing
+  guessed) and `implements` edges, and writes `data/code/graph/<major>/calls.json`; object pages render Calls /
+  Called by / Implements.
 - **Size:** full snapshots only for versions in `versions.json.snapshot` (28, 29, 30); older versions (v0.2+) keep
   diff + hash skeleton only. Estimated 40 MB per W1 snapshot.
-- **Companion:** object pages link to the bc-code-atlas hosted MCP as "ask your agent".
+- **Companion:** every object page names the `bcatlas_resolve_node` call that opens it in bc-code-atlas; the plugin
+  connects both servers.
 
 ### 4.7 Site, galaxy map, search, MCP, plugin
 

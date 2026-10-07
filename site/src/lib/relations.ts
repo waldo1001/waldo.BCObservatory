@@ -1,5 +1,6 @@
 /**
- * Build-time view of data/code/relations/<major>.json (D45) for the object pages: the one-hop neighbourhood of an
+ * Build-time view of data/code/relations/<major>.json (D45), and of the call graph data/code/graph/<major>/calls.json
+ * where it exists (D67), for the object pages: the one-hop neighbourhood of an
  * object, grouped into rings and capped, laid out radially for an inline SVG. The file is read once per major per
  * build; nothing here runs in the browser.
  */
@@ -25,8 +26,24 @@ export function relationsFor(major: string): View | null {
   return v;
 }
 
-export type Ring = "relates" | "referenced" | "pages" | "extensions" | "subscribers" | "learn";
-export const RING_LABEL: Record<Ring, string> = { relates: "relates to", referenced: "referenced by", pages: "pages and codeunits on it", extensions: "extended by", subscribers: "event subscribers", learn: "Learn pages" };
+interface CallEdge { s: string; t: string; k: "calls" | "implements"; n: number }
+const callsCache = new Map<string, Map<string, CallEdge[]> | null>();
+/** Call edges of a major by object, both directions (calls.json, D67); null when the major has no call graph yet. */
+export function callsFor(major: string): Map<string, CallEdge[]> | null {
+  if (callsCache.has(major)) return callsCache.get(major)!;
+  const p = resolve(process.cwd(), "..", "data", "code", "graph", major, "calls.json");
+  if (!existsSync(p)) { callsCache.set(major, null); return null; }
+  const by = new Map<string, CallEdge[]>();
+  for (const e of (JSON.parse(readFileSync(p, "utf8")) as { edges: CallEdge[] }).edges) {
+    if (e.k !== "calls") continue;
+    for (const k of [e.s, e.t]) { const l = by.get(k); if (l) l.push(e); else by.set(k, [e]); }
+  }
+  callsCache.set(major, by);
+  return by;
+}
+
+export type Ring = "relates" | "referenced" | "pages" | "extensions" | "subscribers" | "calls" | "learn";
+export const RING_LABEL: Record<Ring, string> = { relates: "relates to", referenced: "referenced by", pages: "pages and codeunits on it", extensions: "extended by", subscribers: "event subscribers", calls: "calls", learn: "Learn pages" };
 export interface Neighbour { key: string; ring: Ring; weight: number; label: string; href: string | null; system: string | null; kind: string }
 export interface Lookup { pk: string; title: string; system: string | null; type: string }
 
@@ -37,11 +54,11 @@ const CAP = 40;
 export function rawNeighbours(key: string, major: string): { key: string; ring: Exclude<Ring, "learn">; weight: number }[] {
   const v = relationsFor(major);
   const acc = new Map<string, { key: string; ring: Exclude<Ring, "learn">; weight: number }>();
-  const add = (k: string, ring: Exclude<Ring, "learn">) => {
+  const add = (k: string, ring: Exclude<Ring, "learn">, w = 1) => {
     if (k === key) return;
     const id = `${ring}|${k}`;
     const cur = acc.get(id);
-    if (cur) cur.weight++; else acc.set(id, { key: k, ring, weight: 1 });
+    if (cur) cur.weight += w; else acc.set(id, { key: k, ring, weight: w });
   };
   if (v) {
     for (const e of v.out.get(key) ?? []) add(e.t, PAGE_KINDS.has(e.k) && e.k !== "source_table" ? "pages" : "relates");
@@ -52,6 +69,8 @@ export function rawNeighbours(key: string, major: string): { key: string; ring: 
     }
     for (const ev of Object.values(v.rel.events[key] ?? {})) for (const s of ev.subs) add(s.s, "subscribers");
   }
+  // calls, both directions, weighted by the number of procedure pairs (D67)
+  for (const e of callsFor(major)?.get(key) ?? []) add(e.s === key ? e.t : e.s, "calls", e.n);
   return [...acc.values()];
 }
 
@@ -224,7 +243,7 @@ export function neighbourhood(key: string, major: string, lookup: (k: string) =>
 export interface Placed extends Neighbour { x: number; y: number; r: number }
 /** Radial layout: rings get a sector proportional to their node count (at least 36 degrees), nodes along the arc. */
 export function layoutRadial(nodes: Neighbour[], W = 760, H = 420): Placed[] {
-  const order: Ring[] = ["relates", "pages", "extensions", "subscribers", "referenced", "learn"];
+  const order: Ring[] = ["relates", "pages", "extensions", "subscribers", "calls", "referenced", "learn"];
   const groups = order.map((r) => nodes.filter((n) => n.ring === r)).filter((g) => g.length);
   const minA = (36 * Math.PI) / 180, total = nodes.length || 1;
   const sectors = groups.map((g) => Math.max(minA, (g.length / total) * 2 * Math.PI));

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/al-graph.json",
+  "title": "Call graph of one BC major (al-calls@1, D67)",
+  "description": "data/code/graph/<major>/calls.json, written by the code pillar's `linked` stage (pipeline/code/callgraph.ts) from a graphify-al run on the snapshot checkout. Cross-object `calls` and `implements` edges between our object keys, aggregated per (source, target, kind). The allowlist is the content-policy guard (D10, CONTENT-NOTICE): object keys, kinds, counts and procedure names only; never a body, a line of text, a source location or a graphify label.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "major", "commit", "scope", "graphify", "edges", "unresolved", "stats"],
+  "properties": {
+    "inputs": { "description": "what the file was derived from (writeIfInputsChanged): projection version, snapshot and apps commits, graphify ref, scope, ignore template hash" },
+    "schema": { "const": "al-calls@1" },
+    "major": { "type": "string", "pattern": "^\\d+$" },
+    "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "the W1 snapshot commit the graph was built at (data/code/<major>/w1/manifest.json)" },
+    "scope": {
+      "type": "object", "additionalProperties": false, "required": ["apps"],
+      "properties": { "apps": { "type": "boolean", "description": "true: W1 app folders plus the first-party apps (src/Apps/W1/*/app); false: W1 only" } }
+    },
+    "graphify": {
+      "type": "object", "additionalProperties": false, "required": ["ref", "version"],
+      "properties": {
+        "ref": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "config/tooling.json graphify_al.ref" },
+        "version": { "type": ["string", "null"] }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["s", "t", "k", "n", "via"],
+        "properties": {
+          "s": { "type": "string", "pattern": "^[a-z]+/.+$", "description": "source object key (type/id, or type/<lower-cased name>)" },
+          "t": { "type": "string", "pattern": "^[a-z]+/.+$", "description": "target object key" },
+          "k": { "enum": ["calls", "implements"] },
+          "n": { "type": "integer", "minimum": 1, "description": "distinct (caller procedure, callee procedure) pairs; 1 for implements" },
+          "via": {
+            "type": "array", "maxItems": 5,
+            "items": { "type": "string", "maxLength": 200, "description": "\"<caller procedure> → <callee procedure>\"; (object) when the call lands on the object itself (Codeunit.Run, Page.Run)" }
+          }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array", "maxItems": 3000,
+      "description": "edges whose source or target could not be joined to an object key; the end that did resolve is kept",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["k", "reason"],
+        "properties": {
+          "s": { "type": "string" },
+          "t": { "type": "string" },
+          "k": { "enum": ["calls", "implements"] },
+          "reason": { "enum": ["no_label", "no_object", "file_mismatch", "ambiguous", "external"] }
+        }
+      }
+    },
+    "stats": { "type": "object", "additionalProperties": { "type": "integer" } }
+  }
+}

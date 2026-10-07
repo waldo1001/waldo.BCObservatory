@@ -152,6 +152,21 @@
         }
       }
     },
+    "relations": {
+      "type": "object",
+      "description": "counts of the relation sections (D45) and, where the major has a call graph (data/code/graph/<major>/calls.json, D67), of the call sections",
+      "properties": {
+        "out": { "type": "integer" },
+        "referenced_by": { "type": "integer" },
+        "pages": { "type": "integer" },
+        "extended_by": { "type": "integer" },
+        "event_subscribers": { "type": "integer" },
+        "calls": { "type": "integer", "description": "objects this object calls (Calls)" },
+        "called_by": { "type": "integer", "description": "objects that call this object (Called by)" },
+        "implements": { "type": "integer", "description": "interfaces this object implements" },
+        "implemented_by": { "type": "integer", "description": "on an interface: objects that implement it" }
+      }
+    },
     "country": {
       "type": "string",
       "description": "a country's own object (D52): the country layer it belongs to, uppercase; absent for W1 and first-party app objects"

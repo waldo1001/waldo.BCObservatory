@@ -1,0 +1,55 @@
+# Static part of the .graphifyignore the call graph job (pipeline/code/callgraph.ts, D67) writes into the snapshot
+# checkout before every run. The job puts the scope in front of it: ignore everything, then re-include the W1 app
+# folders of config/versions.json `code.<source>.w1` and, when `callgraph.apps` is true, the `apps` glob
+# (src/Apps/W1/*/app). Country layers and country apps stay out: their objects share W1's ids.
+# gitignore syntax, last match wins; graphify merges it after the checkout's own .gitignore.
+#
+# Below: files graphify would extract that are not AL. The documents, media and office files are the bc-code-atlas
+# template (build/build/graphify.ignore.template); the code extensions are the ones BCApps ships next to its AL
+# (app.json and permission JSON, control add-in scripts, build scripts). Changing this file changes the graph key:
+# every snapshot major runs `linked` again.
+*.md
+*.mdx
+*.qmd
+*.txt
+*.rst
+*.html
+*.yaml
+*.yml
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.docx
+*.xlsx
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.m4v
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.json
+*.js
+*.mjs
+*.cjs
+*.ts
+*.tsx
+*.jsx
+*.css
+*.ps1
+*.psm1
+*.psd1
+*.cs
+*.csproj
+*.sln
+*.sql
+*.sh
+*.py
+*.xaml

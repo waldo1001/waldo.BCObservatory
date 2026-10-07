@@ -201,6 +201,36 @@ test("code: one job per configured branch, head commit as input hash", async () 
   assert.notEqual(ctx2.manifest.get("code/bcapps/29")!.input_hash, hash, "a changed code config changes the input hash");
 });
 
+test("code: a published snapshot item goes back to linked when only the call graph's inputs changed (D67)", async () => {
+  const repo = gitRepo();
+  commit(repo, { "a.al": "x" }, "one", "2026-01-01T10:00:00Z");
+  execFileSync("git", ["branch", "releases/29.x"], { cwd: repo });
+  const versions = {
+    repos: { bcapps: "https://github.com/microsoft/BCApps" }, snapshot: ["29", "30"],
+    majors: { "29": { bcapps_branch: "releases/29.x", snapshot_source: "bcapps" }, "30": { bcapps_branch: "main", snapshot_source: "sandbox-history" } },
+  };
+  const ctx = context(fakeHttp({}), { repoUrl: () => repo, versions });
+  const source = src({ id: "bcapps", kind: "code-git", tier: "official", repo: "microsoft/BCApps", mode: "metadata-only" });
+  await ingestCode(source, ctx);
+  const publish = (id: string, linked: Record<string, unknown>) => {
+    const it = ctx.manifest.get(id)!;
+    const at = { at: now.toISOString() };
+    ctx.manifest.save({ ...it, state: "published", stages: { ...it.stages, fetched: at, extracted: at, linked: { ...at, ...linked }, published: at } });
+  };
+  publish("code/bcapps/29", {});
+  publish("code/bcapps/30", {});
+  const r = await ingestCode(source, ctx);
+  assert.equal(ctx.manifest.get("code/bcapps/29")!.state, "extracted", "no graph key yet: the call graph runs");
+  assert.equal(ctx.manifest.get("code/bcapps/30")!.state, "published", "not this source's snapshot major: untouched");
+  assert.match(r.note!, /1 back to linked/);
+  const { graphKey, graphifyPin, ignoreTemplate } = await import("../../pipeline/code/callgraph.js");
+  publish("code/bcapps/29", { graph_key: graphKey(graphifyPin(), { apps: true }, ignoreTemplate()) });
+  await ingestCode(source, ctx);
+  assert.equal(ctx.manifest.get("code/bcapps/29")!.state, "published", "same key: nothing to do");
+  await ingestCode(source, { ...ctx, versions: { ...versions, callgraph: { apps: false } } });
+  assert.equal(ctx.manifest.get("code/bcapps/29")!.state, "extracted", "the scope switch reruns the graph");
+});
+
 test("runIngest isolates a failing source", async () => {
   const ctx = context(fakeHttp({ "https://www.youtube.com/feeds/videos.xml?channel_id=UCok": YT }));
   const results = await runIngest([

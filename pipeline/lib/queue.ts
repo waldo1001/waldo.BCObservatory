@@ -5,7 +5,8 @@
  * then newest first (published_at desc, undated last), skipping items whose
  * retry_after is in the future. Items older than their source's backfill horizon are returned as skips.
  * Quotas (already scaled by the guard) cap items per quota key; deterministic tail stages (linked,
- * published) never consume quota. Pillars interleave round-robin so a hard clock stop starves none.
+ * published) never consume quota, except the code pillar's `linked` (the call graph, D67: minutes of CPU, graph_jobs).
+ * Code items go in `narrative_order` (29, 28, 30): one graph a night, and a moving vNext must not starve BC29. Pillars interleave round-robin so a hard clock stop starves none.
  */
 import type { SourceDef } from "./config.js";
 import { nextStage, type ManifestItem, type Pillar, type Stage } from "./manifest.js";
@@ -24,6 +25,7 @@ const PILLAR_QUOTA: Record<Pillar, string | null> = {
 
 /** Which quota an item's next unit of work consumes; null = always runs (deterministic and cheap). */
 export function quotaFor(pillar: Pillar, stage: Stage): string | null {
+  if (pillar === "code" && stage === "linked") return "graph_jobs";
   if (stage === "linked" || stage === "published") return null;
   // reading a page from a local git mirror is deterministic and cheap
   if (stage === "fetched" && (pillar === "docs" || pillar === "guidelines")) return null;
@@ -48,6 +50,8 @@ export function planQueue(
   quotas: Record<string, number>,
   sources: Map<string, Pick<SourceDef, "backfill"> & Partial<Pick<SourceDef, "full_text">>>,
   now = new Date(),
+  /** config/versions.json narrative_order: code items of these majors first, in this order (D67). */
+  codeOrder: string[] = [],
 ): Plan {
   const skips: Plan["skips"] = [];
   const quota_use: Plan["quota_use"] = {};
@@ -67,8 +71,10 @@ export function planQueue(
   }
 
   const first = (c: { item: ManifestItem }) => (sources.get(c.item.source)?.full_text ? 0 : 1);
+  const codeRank = (c: { item: ManifestItem }) => { if (c.item.pillar !== "code") return 0; const i = codeOrder.indexOf(String(c.item.meta?.major ?? "")); return i < 0 ? codeOrder.length : i; };
   candidates.sort((a, b) => {
     if (first(a) !== first(b)) return first(a) - first(b);
+    if (codeRank(a) !== codeRank(b)) return codeRank(a) - codeRank(b);
     const ta = a.item.published_at ? Date.parse(a.item.published_at) : -Infinity;
     const tb = b.item.published_at ? Date.parse(b.item.published_at) : -Infinity;
     // undated items from a channel reconcile keep the channel's newest-first order

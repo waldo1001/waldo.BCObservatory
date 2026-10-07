@@ -12,17 +12,19 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   the next full nightly the live site still shows the old hubs, no Related block and no app pages.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
-  0 and phase 3 (video and post pages join the objects they name, section 7.1) on main; the spike,
-  phases 1 (installs) and 2 (call graph) open, nothing installed. Stefan Maron's
+  0 and phase 3 (video and post pages join the objects they name, section 7.1) on main; phases 1 (graphify-al pin,
+  `35-tools.sh`, selfcheck) and 2 (the call graph job, Calls / Called by / Implements, the `calls` ring) on `dev/spec`
+  (section 7.2), pending the spike numbers (section 7, which decide `callgraph.apps`), the Mini install and the first
+  real run (task 9). Installed on the developer Mac only. Stefan Maron's
   bc-code-atlas (hosted MCP: bodies, call graph, semantic code search) becomes the companion the plan promised in D10:
   the plugin connects it, a `bc-grounding` skill fixes who answers what, every object page names the
   `bcatlas_resolve_node` call that opens it, and the nightly reproduces the call graph from our own checkouts with the
-  pinned graphify-al fork (edges only, EXTRACTED only, `data/code/graph/<major>/calls.json`). Phase 0 (section 6,
+  pinned graphify-al fork (edges only, cross-object calls resolved by declared type, `data/code/graph/<major>/calls.json`). Phase 0 (section 6,
   tasks 1-3) needs no infrastructure and is on main: the plugin (0.2.0) connects bc-code-atlas, the
   `bc-grounding` skill, and the "Ask your agent" block in `pipeline/render/object.ts`. Still owed for phase 0: tell
   Stefan (decision 12) before it ships, and one commit that re-renders the object pages outside a live nightly. The
   spike (task 4) must fill section 7 before phase 2; installs (Mini and Mac, graphify-al CLI only, no atlas servers)
-  are section 4.7. Until phase 2 lands, object pages have no Calls / Called by.
+  are section 4.7. Until the first real run, object pages have no Calls / Called by.
 
 ## Where things stand
 

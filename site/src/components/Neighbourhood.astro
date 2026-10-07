@@ -1,8 +1,8 @@
 ---
 /**
  * The neighbourhood of an AL object (D45): a radial diagram, built at build time as inline SVG, of the objects it
- * relates to, the objects and pages that reference it, its extensions, its event subscribers and the Learn pages
- * naming it. Every node is a link; the markdown sections below carry the full lists.
+ * relates to, the objects and pages that reference it, its extensions, its event subscribers, the objects it calls or
+ * is called by (D67, where the major has a call graph) and the Learn pages naming it. Every node is a link; the markdown sections below carry the full lists.
  */
 import { layoutRadial, neighbourhood, RING_LABEL, systemOfKey, type Lookup, type Ring } from "../lib/relations";
 interface Props { objectKey: string; major: string; title: string; system: string | null; lookup: (k: string) => Lookup | null; learn: { url: string; title: string }[] }
@@ -23,7 +23,7 @@ for (const n of [...placed].sort((a, b) => b.weight - a.weight)) {
 }
 const colour = (n: { system: string | null; kind: string }) => (n.kind === "learn" ? "var(--ev-learn-text)" : n.system ? `var(--sys-${n.system})` : "var(--muted)");
 const href = (n: { href: string | null; kind: string }) => (n.href ? (n.kind === "learn" ? n.href : `${base}${n.href}`) : null);
-const SECTION: Record<Ring, string> = { relates: "#relations", referenced: "#referenced-by", pages: "#pages-and-codeunits-on-this-table", extensions: "#extended-by", subscribers: "#events-published", learn: "#documented-on-microsoft-learn" };
+const SECTION: Record<Ring, string> = { relates: "#relations", referenced: "#referenced-by", pages: "#pages-and-codeunits-on-this-table", extensions: "#extended-by", subscribers: "#events-published", calls: "#calls", learn: "#documented-on-microsoft-learn" };
 const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
 const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replace(/%2F/g, "/")}&s=${systemOfKey(objectKey)}&v=${major}`;
 ---
@@ -46,7 +46,7 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
       {rings.map((r) => <li><span class={`sw ${r}`}></span><a href={SECTION[r]}>{RING_LABEL[r]}</a> <span class="mono-meta">{totals[r]}</span></li>)}
     </ul>
     <p class="nb-actions"><a class="btn" href={explorer}>Open in the neighbourhood explorer</a></p>
-    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions). The sections below list everything; the diagram shows up to 40. The explorer walks on from here, one neighbour at a time.</p>
+    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions) and the extracted call graph. The sections below list everything; the diagram shows up to 40. The explorer walks on from here, one neighbour at a time.</p>
   </section>
 )}
 <!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
@@ -54,6 +54,7 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
   .nb svg { width: 100%; height: auto; display: block; max-width: 760px; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
   .nb .e { stroke: var(--g-edge); stroke-width: 1; }
   .nb .e.subscribers { stroke-dasharray: 3 3; }
+  .nb .e.calls { stroke-dasharray: 1 2; }
   .nb .e.learn { stroke: var(--ev-learn-text); opacity: .5; }
   .nb .me { stroke: var(--g-star-active); stroke-width: 2; fill: var(--muted); }
   .nb text { font: 600 11px var(--font-ui); fill: var(--text); paint-order: stroke; stroke: var(--g-bg); stroke-width: 3px; stroke-linejoin: round; }
@@ -63,6 +64,7 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
   .nb-legend li { display: flex; align-items: center; gap: 6px; }
   .nb-legend .sw { width: 14px; height: 0; border-top: 2px solid var(--g-edge); }
   .nb-legend .sw.subscribers { border-top-style: dashed; }
+  .nb-legend .sw.calls { border-top-style: dotted; }
   .nb-legend .sw.learn { border-top-color: var(--ev-learn-text); }
   .nb-actions { display: flex; align-items: center; gap: 12px; margin: 8px 0 0; }
 </style>

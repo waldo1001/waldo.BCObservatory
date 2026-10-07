@@ -8,6 +8,11 @@ export interface VersionsConfig {
   repos: Record<string, string>;
   /** config/versions.json `code`: what each snapshot source extracts; hashed into the code items' input hash. */
   code?: Record<string, unknown>;
+  /** Majors snapshotted in full, and the order the code pillar works them (29, 28, 30). */
+  snapshot?: string[];
+  narrative_order?: string[];
+  /** D67 call graph scope: `apps` false = W1 only. */
+  callgraph?: { apps?: boolean };
 }
 export interface IngestContext {
   manifest: Manifest;

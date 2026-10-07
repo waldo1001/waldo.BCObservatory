@@ -40,6 +40,9 @@ const stats = [
   ...(fm.countries?.length ? [{ n: fm.countries.length, label: "countries replace it", href: "#countries-that-replace-it" }] : []),
   ...(fm.relations?.referenced_by ? [{ n: fm.relations.referenced_by, label: "fields reference it", href: "#referenced-by" }] : []),
   ...(fm.relations?.event_subscribers ? [{ n: fm.relations.event_subscribers, label: "event subscribers", href: "#events-published" }] : []),
+  // call graph (D67): objects it calls and objects calling it, where the major has one
+  ...(fm.relations?.calls ? [{ n: fm.relations.calls, label: "objects it calls", href: "#calls" }] : []),
+  ...(fm.relations?.called_by ? [{ n: fm.relations.called_by, label: "objects call it", href: "#called-by" }] : []),
 ];
 const objectKey = `${fm.object_type}/${fm.object_id ?? String(fm.name).toLowerCase()}`;
 const learn = ((fm.links?.learn ?? []) as string[]).map((url) => ({ url: String(url), title: learnTitles.get(String(url)) ?? String(url) }));

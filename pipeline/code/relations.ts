@@ -16,7 +16,12 @@
  * Memory: the snapshots are streamed twice (an index pass, then an edge pass) and only a slim index entry per object
  * is kept, so a major costs megabytes, not the gigabyte its objects would take held together (D51).
  */
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import type { CallEdge, Calls } from "./callgraph.js";
 import { objectKey, type AlObject, type AlProcedure } from "./extract.js";
+
+export type { CallEdge, Calls };
 
 export type EdgeKind = "table_relation" | "calc_formula" | "source_table" | "runs_on" | "lookup_page" | "drilldown_page" | "card_page" | "extends";
 export interface RelEdge { s: string; t: string; k: EdgeKind; via?: string; cond?: true }
@@ -220,5 +225,25 @@ export function incoming(rel: Relations): Map<string, RelEdge[]> {
 export function outgoing(rel: Relations): Map<string, RelEdge[]> {
   const m = new Map<string, RelEdge[]>();
   for (const e of rel.edges) m.set(e.s, [...(m.get(e.s) ?? []), e]);
+  return m;
+}
+
+// ---------------------------------------------------------------------------------------------- call graph (D67)
+
+/** data/code/graph/<major>/calls.json (`al-calls@1`, pipeline/code/callgraph.ts), or null when no graph was built. */
+export function readCalls(dataDir: string, major: string): Calls | null {
+  const p = resolve(dataDir, "code", "graph", major, "calls.json");
+  return existsSync(p) ? (JSON.parse(readFileSync(p, "utf8")) as Calls) : null;
+}
+/** Call edges per target (called by, implemented by), mirroring `incoming`. */
+export function callsIncoming(calls: Calls): Map<string, CallEdge[]> {
+  const m = new Map<string, CallEdge[]>();
+  for (const e of calls.edges) { const l = m.get(e.t); if (l) l.push(e); else m.set(e.t, [e]); }
+  return m;
+}
+/** Call edges per source (calls, implements), mirroring `outgoing`. */
+export function callsOutgoing(calls: Calls): Map<string, CallEdge[]> {
+  const m = new Map<string, CallEdge[]>();
+  for (const e of calls.edges) { const l = m.get(e.s); if (l) l.push(e); else m.set(e.s, [e]); }
   return m;
 }

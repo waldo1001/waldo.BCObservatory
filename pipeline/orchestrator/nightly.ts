@@ -41,6 +41,7 @@ import { mirrorFor, prefetchBlobs } from "../fetch/git-page.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
+import type { CallGraphRun } from "../code/callgraph.js";
 import { executePlan, handlerFor, heapAbove, type ExecutionReport, type StageHandlers } from "./execute.js";
 import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -139,7 +140,7 @@ export interface RunReport {
   topic_reviews?: Omit<TopicReviewRun, "errors">;
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
-  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors"> };
+  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors">; graph?: { runs: Omit<CallGraphRun, "key">[] } };
   /** Run date up to which catch-up mode (no quotas, no caps) is on, when this run used it (D41). */
   catch_up?: string;
   /** Checkpoint commits made during stage execution (D26). */
@@ -236,7 +237,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     const handlers = deps.handlers ?? STAGE_HANDLERS;
     // only items whose next stage can run tonight compete for quota; the rest would only crowd them out
     const runnable = manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source)) && handlerFor(handlers, i));
-    const plan = planQueue(runnable, quotas, new Map(deps.sources.map((s) => [s.id, s])), now);
+    const plan = planQueue(runnable, quotas, new Map(deps.sources.map((s) => [s.id, s])), now, loadConfig<VersionsConfig>("versions").narrative_order ?? []);
     for (const s of plan.skips) {
       const item = manifest.get(s.id);
       if (item) manifest.save(skip(item, s.reason));
@@ -299,6 +300,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       // older majors are skeletons with their full copy in the cache (D62); the docs join reads full majors only
       const full = majors.filter((m) => !isSkeleton(opts.dataDir, m));
       report.code = await phase("code-derived", () => ({ ...refreshCodeDerived(opts.dataDir, majors, { cacheDir: opts.cacheDir }), docs_objects: refreshDocsObjects(opts.dataDir, full, manifest.list("docs")) }));
+      // the call graphs the `linked` stage ran tonight (D67), from the stage records
+      const graphs = manifest.list("code").map((i) => i.stages.linked).filter((l) => l && String(l.at) >= report.started_at && l.graph).map((l) => l!.graph as CallGraphRun);
+      if (graphs.length) report.code.graph = { runs: graphs.map(({ key: _k, ...g }) => g) };
       // narratives also run after a clean memory stop (catch-up runs end that way)
       if (execution.stop_reason === "done" || execution.stop_reason === "memory") {
         const { errors: nErr, ...nRun } = await optionalPhase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) })) ?? { errors: [] as string[], ready: 0, refreshed: 0, failed: 0, waiting: [], stopped: "skipped" };

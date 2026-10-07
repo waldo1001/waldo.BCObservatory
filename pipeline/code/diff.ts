@@ -221,23 +221,29 @@ const manifestOf = (dataDir: string, major: string, cc: string): SnapshotManifes
   return exists(p) ? readJson<SnapshotManifest>(p) : null;
 };
 const ref = (major: string, cc: string, m: SnapshotManifest): Ref => ({ version: major, country: cc, commit: m.commit });
-/** Write `doc` unless the file already records the same inputs. */
-function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unknown, layout: "pretty" | "by-object" = "pretty"): boolean {
-  const inputs = [DERIVED_VERSION, inputs0];
-  if (exists(path) && same(readJson<{ inputs?: unknown }>(path).inputs, inputs)) return false;
-  const value = { inputs, ...(build() as object) };
-  if (layout === "by-object") writeText(path, byObject(value)); else writeJson(path, value);
+/** True when `path` already records these inputs (writeIfInputsChanged would write nothing). */
+export function inputsRecorded(path: string, inputs0: unknown): boolean {
+  return exists(path) && same(readJson<{ inputs?: unknown }>(path).inputs, [DERIVED_VERSION, inputs0]);
+}
+/**
+ * Write `doc` unless the file already records the same inputs. `by-object` writes the array `arrayKey` one element
+ * per line (the diffs' `objects`, the call graph's `edges`, D67).
+ */
+export function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unknown, layout: "pretty" | "by-object" = "pretty", arrayKey = "objects"): boolean {
+  if (inputsRecorded(path, inputs0)) return false;
+  const value = { inputs: [DERIVED_VERSION, inputs0], ...(build() as object) };
+  if (layout === "by-object") writeText(path, byObject(value, arrayKey)); else writeJson(path, value);
   return true;
 }
 /**
  * A diff as compact JSON with one object per line (D62): still one valid JSON document, half the size of indented
  * JSON (27→28 is 11 MB indented, 6 MB this way), and a git diff of it still reads object by object.
  */
-export function byObject(value: Record<string, unknown>): string {
-  const { objects, ...head } = value;
+export function byObject(value: Record<string, unknown>, arrayKey = "objects"): string {
+  const { [arrayKey]: objects, ...head } = value;
   if (!Array.isArray(objects)) return `${JSON.stringify(value)}\n`;
   const h = JSON.stringify(head);
-  return `${h.slice(0, -1)}${h.length > 2 ? "," : ""}"objects":[\n${objects.map((o) => JSON.stringify(o)).join(",\n")}\n]}\n`;
+  return `${h.slice(0, -1)}${h.length > 2 ? "," : ""}${JSON.stringify(arrayKey)}:[\n${objects.map((o) => JSON.stringify(o)).join(",\n")}\n]}\n`;
 }
 
 export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; field_docs?: number; matrix?: boolean; written: number }

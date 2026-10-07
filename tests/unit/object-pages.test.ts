@@ -205,3 +205,49 @@ test("tables explain fields through bound page controls with the page named; pag
   assert.notEqual(pg2.data.generated.input_hash, hash0);
   assert.match(pg2.content, /\| General \| No\. \| \[No\.\]\(\.\.\/table\/8057\.md#fields\) \| Specifies another number\. \|/);
 });
+
+test("call graph sections (D67): Calls, Called by, Implements, Implemented by with counts, capped; none without calls.json", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-objcalls-"));
+  const dataDir = join(root, "data"), contentDir = join(root, "content");
+  const p = await loadParser();
+  const src29 = `codeunit 80 "Sales-Post" { }\ncodeunit 12 "Gen. Jnl.-Post Line" { }\ninterface "Price Calculation" { procedure CalcPrice() }\ncodeunit 7002 "Price Calculation - V16" implements "Price Calculation" { procedure CalcPrice() begin end; }\n`;
+  const ex = (src: string, version: string) => extractSource(p, src, { version, country: "w1", layer: "base", app: "Base Application", file: "src/X.al" });
+  writeSnapshot(dataDir, ex(`codeunit 80 "Sales-Post" { }\n`, "28"), man("28", "w1", "c28"));
+  writeSnapshot(dataDir, ex(src29, "29"), man("29", "w1", "c29"));
+  refreshCodeDerived(dataDir, ["28", "29"]);
+  const callers = Array.from({ length: 52 }, (_, i) => ({ s: `codeunit/${9000 + i}`, t: "codeunit/80", k: "calls", n: 1, via: ["Run → PostSalesDoc"] }));
+  const doc = {
+    schema: "al-calls@1", major: "29", commit: "a".repeat(40), scope: { apps: true }, graphify: { ref: "b".repeat(40), version: "0.9.46.post1" },
+    edges: [
+      { s: "codeunit/7002", t: "interface/price calculation", k: "implements", n: 1, via: [] },
+      { s: "codeunit/80", t: "codeunit/12", k: "calls", n: 7, via: ["PostLines → PostA", "PostLines → PostB", "PostLines → PostC", "PostLines → PostD", "PostLines → PostE"] },
+      ...callers,
+    ],
+    unresolved: [], stats: { edges: 54 },
+  };
+  assert.deepEqual(validate("al-graph", doc).errors, []);
+  writeJson(join(dataDir, "code/graph/29/calls.json"), doc);
+  renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
+  const cu = readFileSync(join(contentDir, "objects/codeunit/80.md"), "utf8");
+  const { data: fm, content } = matter(cu);
+  assert.deepEqual([fm.relations.calls, fm.relations.called_by, fm.relations.implements], [1, 52, 0]);
+  assert.match(content, /## Calls\n\nFrom the extracted call graph of BC29 [^\n]+\n\n- \[Codeunit 12 "Gen\. Jnl\.-Post Line"\]\(\.\.\/codeunit\/12\.md\) \(7 calls: `PostLines → PostA`, `PostLines → PostB`, `PostLines → PostC`, …\)\n/);
+  assert.match(content, /## Called by\n\n(- codeunit\/9\d{3} \(1 call: `Run → PostSalesDoc`\)\n){50}- and 2 more: data\/code\/graph\/29\/calls\.json\n/);
+  assert.ok(content.indexOf("## Called by") < content.indexOf("## Ask your agent"), "the sections come before the atlas block");
+  assert.ok(content.includes('`bcatlas_resolve_node(object_type: "codeunit", object_name: "Sales-Post")`'));
+  const v16 = matter(readFileSync(join(contentDir, "objects/codeunit/7002.md"), "utf8"));
+  assert.match(v16.content, /## Implements\n\n- \[Interface "Price Calculation"\]\(\.\.\/interface\/price-calculation\.md\)\n/);
+  const iface = matter(readFileSync(join(contentDir, "objects/interface/price-calculation.md"), "utf8"));
+  assert.equal(iface.data.relations.implemented_by, 1);
+  assert.match(iface.content, /## Implemented by\n\n- \[Codeunit 7002 "Price Calculation - V16"\]/);
+  assert.deepEqual(validateContent(contentDir).errors, []);
+  // no call graph for the page's major: the atlas block, no sections, no counts
+  const { rmSync } = await import("node:fs");
+  rmSync(join(dataDir, "code/graph"), { recursive: true });
+  const bare = join(root, "content-bare");
+  renderCodePages(dataDir, bare, new Date("2026-10-07T00:00:00Z"));
+  const plain = matter(readFileSync(join(bare, "objects/codeunit/80.md"), "utf8"));
+  assert.doesNotMatch(plain.content, /## Calls|## Called by|## Implements/);
+  assert.match(plain.content, /## Ask your agent/);
+  assert.equal(plain.data.relations.calls, undefined);
+});

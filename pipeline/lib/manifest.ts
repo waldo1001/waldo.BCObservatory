@@ -125,6 +125,15 @@ export function reviveFromLeak(item: ManifestItem): ManifestItem {
   return { ...item, state: last, skip: null, skipped_at: null, attempts: 0, last_error: null, retry_after: null, meta: { ...(item.meta ?? {}), leak_retries: Number(item.meta?.leak_retries ?? 0) + 1 } };
 }
 
+/**
+ * Back to a completed stage without touching its inputs: the next run continues with the stage after it. The call
+ * graph (D67) uses it to rerun a published code item's `linked` stage when only the graph's inputs changed.
+ */
+export function rewind(item: ManifestItem, to: Stage): ManifestItem {
+  if (!item.stages[to]) throw new Error(`${item.id}: cannot rewind to ${to}, never reached`);
+  return { ...item, state: to, attempts: 0, last_error: null, retry_after: null };
+}
+
 /** Back to `discovered`: the next run re-reads the video's metadata (which caption tracks exist) and tries again. */
 export function reviveForCaptions(item: ManifestItem): ManifestItem {
   return { ...item, state: "discovered", skip: null, skipped_at: null, attempts: 0, last_error: null, retry_after: null, meta: { ...(item.meta ?? {}), caption_retries: Number(item.meta?.caption_retries ?? 0) + 1 } };

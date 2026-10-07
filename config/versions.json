@@ -5,6 +5,10 @@
   "29",
   "30"
  ],
+ "callgraph": {
+  "$comment": "D67 call graph (pipeline/code/callgraph.ts, code pillar `linked`): `apps` true = graphify-al runs on the W1 app folders plus the first-party apps (`code.<source>.apps`, src/Apps/W1/*/app), false = W1 only. Decided by the spike (docs/specs/code-atlas.md section 7: W1 + apps must finish under 30 minutes and 6 GB RSS). Changing it puts every snapshot major back at `linked` on the next ingest.",
+  "apps": true
+ },
  "narrative_order": [
   "29",
   "28",

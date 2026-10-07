@@ -10,12 +10,14 @@
  * Blog (D34): `fetched` stores the post text in the vault (community raw text, D08), `extracted` is one Haiku pass,
  * `published` writes content/posts/<source>/<key>.md; summarized/linked only move the item along.
  * Code (D27): `fetched` checks out the snapshot source of a BC major, `extracted` writes data/code/<major>/<cc>/;
- * only each major's `snapshot_source` is accepted, quota code_jobs.
+ * only each major's `snapshot_source` is accepted, quota code_jobs. `linked` (D67) runs graphify-al on a snapshot
+ * major's checkout and writes data/code/graph/<major>/calls.json (lane cpu, quota graph_jobs); other code items pass.
  * Change (D61): `fetched` reads a merged pull request and its files from GitHub (lane github, quota change_fetch) and
  * joins them to objects; `extracted` is one Haiku pass per 6; `linked` re-joins; `published` writes the page.
  */
 import { captionedHandler, fetchedHandler } from "../caption/fetch.js";
 import { codeExtracted, codeFetched, sparseCheckout } from "../code/job.js";
+import { callGraphHandler } from "../code/callgraph.js";
 import { CACHE_DIR } from "../lib/paths.js";
 import { loadSources } from "../lib/config.js";
 import { postFetched } from "../fetch/post.js";
@@ -50,7 +52,7 @@ export const STAGE_HANDLERS: StageHandlers = {
     fetched: changeFetched({ cacheDir: CACHE_DIR, roots: (source) => prSources.get(source) ?? codeRoots({}) }),
     extracted: changeExtractedHandler({ cacheDir: CACHE_DIR }), linked: changeLinked(), published: changePublished(),
   },
-  code: { fetched: codeFetched(codeDeps), extracted: codeExtracted(codeDeps), linked: passThrough({}), published: passThrough({}) },
+  code: { fetched: codeFetched(codeDeps), extracted: codeExtracted(codeDeps), linked: callGraphHandler({ cacheDir: CACHE_DIR }), published: passThrough({}) },
   roadmap: { fetched: passThrough({ from: "snapshot" }), linked: passThrough({}), published: featurePublished() },
   docs: {
     fetched: gitPageFetched(),

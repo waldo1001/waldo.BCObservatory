@@ -18,6 +18,7 @@ const lines = [
   ...(r.ingest.sources as any[]).map((s) => `| ${s.id} | ${s.ok ? (s.deferred ? "deferred" : "yes") : "**no**"} | ${s.counts.new} | ${s.counts.changed} | ${s.counts.removed} | ${String(s.note ?? s.error ?? "").replace(/\|/g, "/").slice(0, 90)} |`),
   "",
   `Plan: ${r.plan.work} items queued, ${r.plan.executed} executed. LLM calls: ${r.llm.calls}.`,
+  ...(r.code?.graph?.runs.length ? ["", `Call graph: ${r.code.graph.runs.map((g) => `BC${g.major} ${g.skipped ?? (g.written ? "written" : "unchanged")}, ${g.edges.toLocaleString("en")} edges, ${g.unresolved.toLocaleString("en")} unresolved, ${(g.ms / 60000).toFixed(1)} min`).join("; ")}`] : []),
   ...(r.errors.length ? ["", "Errors:", ...r.errors.map((e) => `- ${e}`)] : []),
 ];
 console.log(lines.join("\n"));

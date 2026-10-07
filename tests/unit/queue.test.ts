@@ -25,6 +25,25 @@ test("quota keys follow the stage", () => {
   assert.equal(quotaFor("docs", "reviewed"), "opus_reviews");
   assert.equal(quotaFor("docs", "linked"), null);
   assert.equal(quotaFor("roadmap", "fetched"), null);
+  // D67: the code pillar's linked stage is the call graph, minutes of CPU, with a quota of its own
+  assert.equal(quotaFor("code", "linked"), "graph_jobs");
+  assert.equal(quotaFor("code", "extracted"), "code_jobs");
+  assert.equal(quotaFor("code", "published"), null);
+});
+
+test("code items follow narrative_order (29, 28, 30); one graph a night; budget.json has the quota and the cpu lane", async () => {
+  const x = { state: "extracted" as const }; // next stage = linked
+  const code = ["30", "28", "29", "27"].map((m) => item("code", null, { ...x, source: "bcapps", meta: { major: m } }));
+  const p = planQueue(code, { graph_jobs: 1 }, noSources, now, ["29", "28", "30"]);
+  assert.deepEqual(p.work.map((w) => [w.id, w.quota]), [[code[2].id, "graph_jobs"]]);
+  assert.equal(p.quota_use.graph_jobs.available, 4);
+  const all = planQueue(code, { graph_jobs: 9 }, noSources, now, ["29", "28", "30"]);
+  assert.deepEqual(all.work.map((w) => w.id), [code[2].id, code[1].id, code[0].id, code[3].id]);
+  const { readFileSync } = await import("node:fs");
+  const budget = JSON.parse(readFileSync(new URL("../../config/budget.json", import.meta.url), "utf8"));
+  assert.equal(budget.quotas.graph_jobs, 1);
+  assert.equal(budget.lanes.cpu, 1);
+  assert.ok(budget.lane_timeout_seconds.cpu > 3600, "the lane timeout sits above the job's own 60-minute kill");
 });
 
 test("newest first within a pillar, quota caps, round-robin across pillars", () => {

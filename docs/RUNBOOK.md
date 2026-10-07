@@ -81,6 +81,19 @@ a `claude setup-token` token returns `unavailable:scope`.
 - Until a major is re-extracted its records lack the new members; readers must not depend on them. Version and
   country diffs ignore page controls and actions, so they do not churn while majors are at different extractors.
 
+## Call graph (D67, graphify-al)
+
+- The code pillar's `linked` stage runs `graphify update` (the fork pinned in `config/tooling.json` `graphify_al`) on
+  the snapshot checkout in the cache and writes `data/code/graph/<major>/calls.json` + `manifest.json`. One graph a
+  night (`quotas.graph_jobs`, lane `cpu`), 29 before 28 before 30; `graphify-out/` stays in the cache.
+- Scope: `config/versions.json` `callgraph.apps` (true = W1 app folders + `src/Apps/W1/*/app`, false = W1 only) and
+  the static rules in `config/graphify.ignore`. Changing either, bumping the pin or `CALLGRAPH_VERSION` puts every
+  published snapshot item back at `linked` on the next ingest (no re-extraction). A run with unchanged inputs does
+  not start graphify. Numbers per run: `data/code/graph/<major>/manifest.json` (wall, max RSS, graph.json bytes) and
+  the run summary line "Call graph: ...". Without graphify on PATH the item is held, not failed.
+- Move the pin: update `graphify_al.ref` and `.spec`, regenerate `tests/fixtures/graphify/graph.json`, then on the
+  Mini `infra/mini/35-tools.sh --yes` and the `mini-selfcheck` workflow (`ok graphify-al: graphify <v> @ <sha>`).
+
 ## Local development (developer Mac)
 
 ```bash

@@ -10,6 +10,7 @@ summaries, cross-references and visualizations. It is unofficial and not affilia
 | Official: Microsoft Learn (CC BY 4.0) | yes, with attribution | derived hub pages that quote, summarize and link; the git mirrors live outside the repo |
 | Official: Microsoft's YouTube channel | captions yes | caption VTTs under `data/captions/microsoft/`, derived video pages with timestamped links |
 | Official: source code (microsoft/BCApps, MIT; StefanMaron code history, no license) | metadata only | per-object JSON (names, IDs, signatures, properties, obsolete state), structured diffs; never source text |
+| Official: call graph (same checkouts) | edges only | object-to-object `calls` and `implements` edges with procedure names and counts, from a graphify-al run on the same checkouts (`data/code/graph/<major>/calls.json`, D67); never bodies, never line text. BC28 edges derive from MSDyn365BC.Sandbox.Code.History (no license): metadata only, like its snapshot |
 | Official: microsoft/BCQuality (MIT) | yes | linked and summarized |
 | Official: merged pull requests of microsoft/BCApps, microsoft/AL-Go, microsoft/BCQuality (MIT) | **no**: the description is read for extraction and never stored | number, title, labels, merge data, changed file paths and counts, a summary in our words, at most one quote under 25 words (D61); open pull requests, issues and releases as title lists |
 | Community blogs and channels | **no**, unless opted in | summary, quotes under 25 words, timestamps, deep links, trust tier "community" |
