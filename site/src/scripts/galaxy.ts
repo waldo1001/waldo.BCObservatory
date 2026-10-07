@@ -1050,8 +1050,10 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       b.querySelector(".g-lens-n")!.textContent = on ? String(lensSet.size) : "";
     }
     legend.hidden = level < 2 || mobile() || tilt > 0;
-    tiltWrap.hidden = level !== 2 || mobile();
-    planesBtn.hidden = level !== 2 || !mobile();
+    // an older graph has no plots and no layers files: no Tilt to offer until the nightly writes them
+    const canTilt = level === 2 && !!focusSys?.plots?.length;
+    tiltWrap.hidden = !canTilt || mobile();
+    planesBtn.hidden = !canTilt || !mobile();
     planesBtn.setAttribute("aria-pressed", String(tilt > 0));
     if (level !== 2) tiltInput.value = "0";
   }
