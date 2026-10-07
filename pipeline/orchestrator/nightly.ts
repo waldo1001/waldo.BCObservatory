@@ -75,6 +75,9 @@ import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
 import { reviewHubs } from "../review/hub.js";
 import { channelAvatar, flatPlaylist } from "../caption/ytdlp.js";
+// D77 review coverage (part B): video backlog, post and change reviews
+import { restoreVideoBacklog, rewindVideoBacklog } from "../review/video.js";
+import { runContentReviews, videoReviewCounts, type ReviewsReport } from "../review/coverage-run.js";
 
 const log = logger("nightly");
 export { PIPELINE_VERSION };
@@ -156,6 +159,8 @@ export interface RunReport {
   /** The change pillar (D61): pull requests fetched, skipped as non-code, planned but not reached, pages, relinked, GitHub calls. */
   changes?: { fetched: number; skipped_non_code: number; held: number; pages: number; relinked: number; rerendered: number; api_calls: number; narrated?: number };
   items_changed: number; errors: string[];
+  /** D77 review coverage: Opus reviews of videos (the `reviewed` stage), posts and changes (phases after linking). */
+  reviews?: ReviewsReport;
 }
 
 /** Calendar date of the run in the budget window's timezone (the nightly starts after local midnight). */
@@ -235,6 +240,10 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     report.captions_retried = revived;
     const quotas = capQuotas(scaleQuotas(opts.unlimited ? unlimitedQuotas(cfg.quotas) : cfg.quotas, guard), opts.quota);
     const handlers = deps.handlers ?? STAGE_HANDLERS;
+    // D77 review coverage: published videos without a review of their current text go back to `linked`, newest
+    // first and within video_reviews, so the plan runs their `reviewed` stage; unreached ones are restored below
+    const rewound = !opts.pillars || opts.pillars.includes("video") ? rewindVideoBacklog(manifest, opts.dataDir, quotas.video_reviews ?? 0) : [];
+    if (rewound.length) log.info(`video reviews: ${rewound.length} published videos rewound for review`);
     // only items whose next stage can run tonight compete for quota; the rest would only crowd them out
     const runnable = manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source)) && handlerFor(handlers, i));
     const plan = planQueue(runnable, quotas, new Map(deps.sources.map((s) => [s.id, s])), now, loadConfig<VersionsConfig>("versions").narrative_order ?? []);
@@ -269,6 +278,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
+    // D77: backlog videos the run did not reach are published again, unchanged (the next night picks them up)
+    const restored = restoreVideoBacklog(manifest, rewound);
+    if (restored) log.info(`video reviews: ${restored} rewound videos not reached, restored to published`);
     // The item loop logs heap at every checkpoint; after it the run was blind, and that is exactly where the
     // 2026-10-06 and 2026-10-07 OOMs both happened (heap 133 MB at the last checkpoint, 8 GB six minutes later,
     // with no line in between to say where). Each post-loop phase now reports what it cost (D55).
@@ -371,6 +383,21 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
+    // D77 review coverage (part B): Opus reviews of posts and changes after linking; videos are reviewed in their stage
+    const content = await optionalPhase("content-reviews", async () => {
+      try {
+        return await runContentReviews(manifest, {
+          dataDir: opts.dataDir, contentDir: contentDirOf(opts), cacheDir: opts.cacheDir, sources: deps.sources,
+          postQuota: linking ? quotas.post_reviews ?? 0 : 0, changeQuota: linking ? quotas.change_reviews ?? 0 : 0,
+          deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1, now,
+        });
+      } catch (e) {
+        errors.push(`content reviews: ${(e as Error).message.slice(0, 300)}`);
+        return undefined;
+      }
+    });
+    if (content) errors.push(...content.errors);
+    report.reviews = { video: videoReviewCounts(manifest.list("video"), opts.dataDir, report.started_at), ...(content ? { post: content.post, change: content.change } : {}) };
     // the week in Microsoft's code, one Sonnet paragraph for the digest (D61 section 9); shed like every LLM phase
     const narrated = await optionalPhase("change-narrative", () => narrateChangeWeeks(contentDirOf(opts), opts.dataDir, now, { quota: linking ? quotas.change_narrative ?? 0 : 0 }));
     if (report.changes && narrated) Object.assign(report.changes, { narrated: narrated.written });

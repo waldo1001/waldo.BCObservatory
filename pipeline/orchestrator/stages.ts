@@ -6,7 +6,7 @@
  * D24: the leak scanner requires the vault as soon as community raw text exists).
  * Docs: `fetched` reads page metadata from the git mirror (no quota); `extracted` summarizes non-reference pages in
  * Haiku batches; the rest only move the item along (no per-page pages, D01; hubs read the summaries, D12).
- * `reviewed` runs only for flagged videos (Opus, D07); unflagged ones go from `linked` straight to `published`.
+ * `reviewed` runs for every video (Opus, D07, D77: no longer only flagged ones), quota video_reviews.
  * Blog (D34): `fetched` stores the post text in the vault (community raw text, D08), `extracted` is one Haiku pass,
  * `published` writes content/posts/<source>/<key>.md; summarized/linked only move the item along.
  * Code (D27): `fetched` checks out the snapshot source of a BC major, `extracted` writes data/code/<major>/<cc>/;

@@ -36,11 +36,14 @@ test("discovery creates once, rewrites nothing when unchanged", () => {
   assert.equal(m.list("video").length, 1);
 });
 
-test("video flow walks every stage; unflagged items skip review", () => {
+test("video flow walks every stage; every video is reviewed (D77), other pillars only when flagged", () => {
   let it = fresh().discover(video(), t0).item;
   for (const s of ["fetched", "captioned", "extracted", "summarized", "linked"] as const) it = advance(it, s, {}, t0);
-  assert.equal(nextStage(it), "published");
+  assert.equal(nextStage(it), "reviewed", "an unflagged video reaches review");
   assert.equal(nextStage({ ...it, flags: ["quote-check"] }), "reviewed");
+  assert.equal(nextStage({ ...it, pillar: "blog" }), "published", "an unflagged post skips the stage");
+  assert.equal(nextStage({ ...it, pillar: "blog", flags: ["x"] }), "reviewed");
+  it = advance(it, "reviewed", {}, t0);
   it = advance(it, "published", {}, t0);
   assert.equal(nextStage(it), null);
   assert.throws(() => advance(it, "linked"), /cannot advance/);

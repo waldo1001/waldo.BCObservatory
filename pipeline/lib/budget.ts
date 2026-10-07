@@ -106,14 +106,19 @@ export function decideGuard(usage: PlanUsage | PlanUsageUnavailable, cfg: Pick<B
 }
 
 /** Quotas that cost LLM calls scale with the guard; deterministic work (captions, code jobs) does not. */
-export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "changes", "guidelines", "hub_refresh", "roadmap_links", "topic_links", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max", "change_narrative"]);
+export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "changes", "guidelines", "hub_refresh", "roadmap_links", "topic_links", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max", "change_narrative",
+  // D77 review coverage: Opus reviews of every video, post batch and change batch
+  "video_reviews", "post_reviews", "change_reviews"]);
+
+/** D77: the review-coverage quotas, shed under facts_only like every other Opus review. */
+export const REVIEW_COVERAGE_QUOTAS = new Set(["video_reviews", "post_reviews", "change_reviews"]);
 
 export function scaleQuotas(quotas: Record<string, number>, g: Pick<GuardDecision, "factor" | "facts_only">): Record<string, number> {
   const out: Record<string, number> = {};
   for (const [k, v] of Object.entries(quotas)) {
     if (!LLM_QUOTAS.has(k)) { out[k] = v; continue; }
     // facts_only sheds the prose and the reviews; the Haiku matchers stay, scaled, because they are facts
-    if (g.facts_only && (k === "hub_refresh" || k === "opus_reviews" || k === "coverage_reviews" || k === "topic_reviews")) { out[k] = 0; continue; }
+    if (g.facts_only && (k === "hub_refresh" || k === "opus_reviews" || k === "coverage_reviews" || k === "topic_reviews" || REVIEW_COVERAGE_QUOTAS.has(k))) { out[k] = 0; continue; }
     out[k] = g.factor > 0 ? Math.max(1, Math.floor(v * g.factor)) : 0;
   }
   return out;

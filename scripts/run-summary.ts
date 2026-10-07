@@ -19,6 +19,8 @@ const lines = [
   "",
   `Plan: ${r.plan.work} items queued, ${r.plan.executed} executed. LLM calls: ${r.llm.calls}.`,
   ...(r.code?.graph?.runs.length ? ["", `Call graph: ${r.code.graph.runs.map((g) => `BC${g.major} ${g.skipped ?? (g.written ? "written" : "unchanged")}, ${g.edges.toLocaleString("en")} edges, ${g.unresolved.toLocaleString("en")} unresolved, ${(g.ms / 60000).toFixed(1)} min`).join("; ")}`] : []),
+  // D77 review coverage: one line per kind
+  ...(r.reviews ? ["", ...(["video", "post", "change"] as const).filter((k) => r.reviews?.[k]).map((k) => { const c = r.reviews![k]!; return `Reviews (${k}): ${c.reviewed} reviewed, ${c.fixed} fixed, ${c.rejected} rejected, ${c.calls} calls, $${c.cost_usd.toFixed(2)}${c.candidates !== undefined ? `; ${Math.max(0, c.candidates - c.reviewed)} still due` : ""}${c.stopped && c.stopped !== "done" ? ` (${c.stopped})` : ""}`; })] : []),
   ...(r.errors.length ? ["", "Errors:", ...r.errors.map((e) => `- ${e}`)] : []),
 ];
 console.log(lines.join("\n"));

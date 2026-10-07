@@ -11,7 +11,7 @@ import { planQueue } from "../../pipeline/lib/queue.js";
 import { deadlineFor, executePlan, StageHold, type ExecuteOptions, type StageFn, type StageHandler, type StageHandlers } from "../../pipeline/orchestrator/execute.js";
 
 const started = new Date("2026-10-07T00:00:00Z"); // 02:00 Brussels, inside the window
-const quotas = { captions: 10, video_extract: 10, opus_reviews: 10, llm_calls_max: 450 };
+const quotas = { captions: 10, video_extract: 10, opus_reviews: 10, video_reviews: 10, llm_calls_max: 450 };
 
 function setup(n = 2) {
   const manifest = new Manifest(mkdtempSync(join(tmpdir(), "bcobs-exec-")));
@@ -46,8 +46,8 @@ test("items run through every stage that has a handler, newest first, quotas cha
   assert.equal(get(m, "VID1").state, "published");
   assert.equal(get(m, "VID1").stages.fetched?.ok, undefined);
   assert.equal(get(m, "VID2").stages.captioned?.ok, true);
-  assert.deepEqual([r.stop_reason, r.items_touched, r.advanced], ["done", 2, 12]);
-  assert.deepEqual(r.quota_charged, { captions: 2, video_extract: 2 });
+  assert.deepEqual([r.stop_reason, r.items_touched, r.advanced], ["done", 2, 14]);
+  assert.deepEqual(r.quota_charged, { captions: 2, video_extract: 2, video_reviews: 2 }, "every video is reviewed (D77)");
 });
 
 test("a missing handler leaves the item where it is; a later quota with no room stops that item only", async () => {
@@ -59,7 +59,7 @@ test("a missing handler leaves the item where it is; a later quota with no room 
   assert.deepEqual([r2.no_handler, r2.advanced], [2, 0]);
 });
 
-test("flags route an item through review; a skip result ends it", async () => {
+test("every video goes through review on video_reviews (D77); a skip result ends it", async () => {
   const m = setup();
   const r = await run(m, allVideo({
     extracted: async (it) => (it.id.endsWith("VID2") ? { flags: ["quote-mismatch"] } : {}),
@@ -68,7 +68,8 @@ test("flags route an item through review; a skip result ends it", async () => {
   assert.equal(get(m, "VID2").state, "published");
   assert.ok(get(m, "VID2").stages.reviewed);
   assert.deepEqual([get(m, "VID1").state, get(m, "VID1").skip], ["skipped", "no-captions"]);
-  assert.equal(r.quota_charged.opus_reviews, 1);
+  assert.equal(r.quota_charged.video_reviews, 1, "VID1 was skipped before review; VID2 reviewed, flagged or not");
+  assert.equal(r.quota_charged.opus_reviews, undefined, "video reviews leave the hub reviews' quota alone");
 });
 
 test("item errors back off and the run goes on; the fifth failure is final", async () => {
@@ -216,7 +217,7 @@ test("lanes: one item in the youtube lane at a time while LLM stages keep the ot
   for (const k of ["VID3", "VID2", "VID1"]) m.save({ ...get(m, k), state: "captioned", stages: { ...get(m, k).stages, fetched: { at: "2026-10-06T00:00:00Z" }, captioned: { at: "2026-10-06T00:00:00Z" } } });
   const h: StageHandlers = { video: {
     fetched: { lane: "youtube", run: yt }, captioned: { lane: "youtube", run: yt },
-    extracted: think, summarized: think, linked: ok, published: ok,
+    extracted: think, summarized: think, linked: ok, reviewed: ok, published: ok,
   } };
   const r = await run(m, h, { concurrency: 3 });
   assert.equal(lanePeak, 1, "never two items in the youtube lane");

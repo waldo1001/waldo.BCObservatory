@@ -168,7 +168,24 @@
         "relinked": { "type": "integer" }, "rerendered": { "type": "integer" }, "api_calls": { "type": "integer" }, "narrated": { "type": "integer" }
       }
     },
+    "reviews": {
+      "description": "D77 review coverage: Opus reviews per kind tonight (videos in their reviewed stage, posts and changes in batches after linking); reviewed counts every verdict, fixed and rejected are part of it",
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "video": { "$ref": "#/$defs/reviewCounts" }, "post": { "$ref": "#/$defs/reviewCounts" }, "change": { "$ref": "#/$defs/reviewCounts" }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "reviewCounts": {
+      "type": "object", "required": ["reviewed", "fixed", "rejected", "calls", "cost_usd"],
+      "properties": {
+        "reviewed": { "type": "integer" }, "fixed": { "type": "integer" }, "rejected": { "type": "integer" }, "calls": { "type": "integer" },
+        "cost_usd": { "type": "number" }, "candidates": { "type": "integer" }, "failed": { "type": "integer" }, "reset": { "type": "integer" },
+        "rerendered": { "type": "integer" }, "stopped": { "type": "string" }
+      }
+    }
   }
 }

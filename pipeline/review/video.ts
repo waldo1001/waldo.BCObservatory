@@ -1,25 +1,31 @@
 /**
- * Opus review of flagged videos (PLAN 4.3 stage 7, D07, role `review`): only items with flags reach `reviewed`.
+ * Opus review of every video (PLAN 4.3 stage 7, D07, D77, role `review`): every video reaches `reviewed`, flagged or
+ * not (an unflagged one gets the same prompt with `flags: []`). Published videos from before D77 are rewound to
+ * `linked` by the nightly (videoReviewDue) within the video_reviews quota, so the backlog drains newest first.
  *
  * Opus sees the transcript segments, the validated extraction, the summary and the flags, and returns a verdict
  * with structured edits. Edits are applied deterministically and pass the same validators as the first pass:
  * a status change needs a verbatim evidence quote that states the status, added quotes must be verbatim, prose is
  * tidied and clipped. Whatever fails validation is dropped and listed in the review record. `reject` ends the item
- * as skipped (`review-rejected`): no page is better than a wrong page.
+ * as skipped (`review-rejected`): no page is better than a wrong page. A video that already had a page (the backlog)
+ * loses it and its summary, so the nightly's re-render does not bring it back.
  *
- * Writes data/review/video/<id>.json and rewrites the extraction and summary files the `published` stage reads.
+ * Writes data/review/video/<id>.json (with the input hash it reviewed, D21) and rewrites the extraction and summary
+ * files the `published` stage reads.
  */
+import { rmSync } from "node:fs";
 import { resolve } from "node:path";
 import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { complete } from "../lib/llm.js";
-import type { ManifestItem } from "../lib/manifest.js";
+import { rewind, type Manifest, type ManifestItem } from "../lib/manifest.js";
 import { checkQuote, type Seg } from "../lib/quotes.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
 import { captionSegmentsPath, communityLeak, guardCommunity, extractionPath, statusSupported, type Llm, type VideoExtraction } from "../extract/video.js";
 import { STATUSES } from "../extract/video-schema.js";
 import { clip, summaryPath, tidy, type VideoSummary } from "../summarize/video.js";
 
-export const PROMPT_VERSION = 1;
+/** 2 (D77): unflagged videos are reviewed too; the system prompt no longer says every video was flagged. */
+export const PROMPT_VERSION = 2;
 export const STAGE = "review-video";
 
 export const reviewSchema = {
@@ -54,12 +60,14 @@ type ReviewOut = {
 
 export interface VideoReview {
   video_id: string; item_id: string; flags: string[]; verdict: ReviewOut["verdict"]; issues: string[];
+  /** Hash of the extraction and summary Opus reviewed (D21, D77); absent in records written before D77. */
+  input_hash?: string; by?: string; at?: string;
   applied: string[]; rejected_edits: string[]; prompt_version: number;
   llm: { model: string; cached: boolean; cost_usd: number | null };
 }
 
 export const SYSTEM = `You review a machine-generated knowledge page about a Microsoft Dynamics 365 Business Central video before it is published.
-The page was built from the video's captions by a smaller model, then validated. It was flagged; the flags say why.
+The page was built from the video's captions by a smaller model, then validated. Every page is reviewed; when the first pass flagged it, the flags say why (an empty list means nothing was flagged, not that the page is right).
 You get the transcript segments (the only ground truth), the extracted facts, the summary and the flags.
 
 Decide:
@@ -135,8 +143,51 @@ export function applyReview(x: VideoExtraction, s: VideoSummary, out: ReviewOut,
 
 export const reviewPath = (dataDir: string, videoId: string) => resolve(dataDir, "review", "video", `${videoId}.json`);
 
-/** Executor handler for the video `reviewed` stage (reached only by flagged items). */
-export async function reviewedHandler(item: ManifestItem, ctx: { dataDir: string; now: () => Date }, llm: Llm = complete) {
+/** The hash a review is tied to: the extraction and the summary as Opus saw them (D21). */
+export const videoInputHash = (x: VideoExtraction, s: VideoSummary) => sha256(canonicalJson({ x: { ...x, llm: [] }, s: { ...s, llm: null } }));
+
+/**
+ * D77 backlog: a published video whose current extraction and summary carry no review yet. Videos reviewed before
+ * D77 (flagged ones, no input_hash in the record) count as reviewed when the item says so.
+ */
+export function videoReviewDue(item: ManifestItem, dataDir: string): boolean {
+  if (item.pillar !== "video" || item.state !== "published") return false;
+  const id = item.id.slice(item.id.lastIndexOf("/") + 1);
+  const xPath = extractionPath(dataDir, id), sPath = summaryPath(dataDir, id);
+  if (!exists(xPath) || !exists(sPath) || !exists(captionSegmentsPath(item, dataDir))) return false;
+  const rp = reviewPath(dataDir, id);
+  if (!exists(rp)) return true;
+  const rec = readJson<VideoReview>(rp);
+  if (!rec.input_hash) return item.review?.state !== "reviewed";
+  return rec.input_hash !== videoInputHash(readJson<VideoExtraction>(xPath), readJson<VideoSummary>(sPath));
+}
+
+/**
+ * D77 backlog: rewind up to `limit` due published videos, newest first, to `linked`, so tonight's plan runs their
+ * `reviewed` stage (quota video_reviews) and then re-publishes them. Their pages stay on disk meanwhile and the
+ * re-render keeps them current (it reads stages.published, not the state). Returns the ids rewound; the nightly hands
+ * the ones the run did not reach to restoreVideoBacklog, so a cut-short run leaves no video out of the digests.
+ */
+export function rewindVideoBacklog(manifest: Pick<Manifest, "list" | "save">, dataDir: string, limit: number): string[] {
+  if (limit <= 0) return [];
+  const due = manifest.list("video").filter((i) => i.stages.linked && videoReviewDue(i, dataDir))
+    .sort((a, b) => (b.published_at ?? "").localeCompare(a.published_at ?? "") || a.id.localeCompare(b.id)).slice(0, limit);
+  for (const it of due) manifest.save(rewind(it, "linked"));
+  return due.map((i) => i.id);
+}
+
+/** Rewound backlog videos still at `linked` after the run go back to `published` unchanged; returns how many. */
+export function restoreVideoBacklog(manifest: Pick<Manifest, "get" | "save">, ids: string[]): number {
+  let n = 0;
+  for (const id of ids) {
+    const it = manifest.get(id);
+    if (it?.state === "linked" && it.stages.published) { manifest.save({ ...it, state: "published", attempts: 0, last_error: null, retry_after: null }); n++; }
+  }
+  return n;
+}
+
+/** Executor handler for the video `reviewed` stage: every video (D77), flagged or not. */
+export async function reviewedHandler(item: ManifestItem, ctx: { dataDir: string; now: () => Date; contentDir?: string }, llm: Llm = complete) {
   const id = item.id.slice(item.id.lastIndexOf("/") + 1);
   const xPath = extractionPath(ctx.dataDir, id), sPath = summaryPath(ctx.dataDir, id), segPath = captionSegmentsPath(item, ctx.dataDir);
   for (const p of [xPath, sPath, segPath]) if (!exists(p)) throw new Error(`review input missing: ${p}`);
@@ -150,12 +201,18 @@ export async function reviewedHandler(item: ManifestItem, ctx: { dataDir: string
   });
   const out = res.output;
   const record: VideoReview = {
-    video_id: id, item_id: item.id, flags, verdict: out.verdict, issues: out.issues.map(tidy), applied: [], rejected_edits: [],
-    prompt_version: PROMPT_VERSION, llm: { model: res.meta.model, cached: res.cached, cost_usd: res.cached ? null : res.meta.cost_usd ?? null },
+    video_id: id, item_id: item.id, flags, verdict: out.verdict, issues: out.issues.map(tidy), input_hash: videoInputHash(x, s), by: "opus", at: ctx.now().toISOString(),
+    applied: [], rejected_edits: [], prompt_version: PROMPT_VERSION, llm: { model: res.meta.model, cached: res.cached, cost_usd: res.cached ? null : res.meta.cost_usd ?? null },
   };
   const at = ctx.now().toISOString();
   if (out.verdict === "reject") {
+    if (communityLeak(item, ctx.dataDir, record.issues)) record.issues = [];
     writeJson(reviewPath(ctx.dataDir, id), record);
+    // a backlog video already has a page: remove it and the rejected summary (the re-render reads the summary)
+    if (item.stages.published) {
+      rmSync(sPath, { force: true });
+      if (ctx.contentDir) rmSync(resolve(ctx.contentDir, "videos", `${id}.md`), { force: true });
+    }
     return { skip: "review-rejected", data: { path: `data/review/video/${id}.json`, verdict: "reject", issues: record.issues.length } };
   }
   if (out.verdict === "fix") {
@@ -166,6 +223,8 @@ export async function reviewedHandler(item: ManifestItem, ctx: { dataDir: string
     const g = guardCommunity(item, ctx.dataDir, { x: r.x, s: r.s, issues: record.issues });
     if (!g) return { skip: "leak", data: { stage: "reviewed" } };
     record.issues = g.value.issues;
+    // the record is tied to what the page now shows, so the next night does not review the fixed text again
+    record.input_hash = videoInputHash(g.value.x, g.value.s);
     writeJson(xPath, g.value.x);
     writeJson(sPath, g.value.s);
   } else if (communityLeak(item, ctx.dataDir, record.issues)) {

@@ -53,8 +53,12 @@
     "change_fetch": 60,
     "changes": 40,
     "change_narrative": 1,
-    "graph_jobs": 1
+    "graph_jobs": 1,
+    "video_reviews": 20,
+    "post_reviews": 15,
+    "change_reviews": 15
   },
+  "$comment_reviews": "D77 review coverage: video_reviews = Opus reviews of videos per run, one video per call (the reviewed stage, every video, no longer only flagged ones; also drains the published-but-unreviewed backlog); post_reviews = Opus calls per run reviewing posts, 4 per call; change_reviews = Opus calls per run reviewing merged pull requests, 6 per call. All three are LLM quotas: they scale with the guard and are 0 under facts_only.",
   "preview_ttl_days": 30,
   "retry": {
     "max_attempts": 5,

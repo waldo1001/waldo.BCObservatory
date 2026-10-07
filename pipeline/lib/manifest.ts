@@ -40,7 +40,7 @@ export interface ManifestItem {
 }
 
 /**
- * Stage order per pillar. `reviewed` runs only for flagged items (Opus reviews hubs + flagged items, D07).
+ * Stage order per pillar. `reviewed` runs for every video (D77) and only for flagged items of the other pillars (D07).
  * Roadmap and code are deterministic in v0.1; their flows grow when an LLM stage is added for them.
  */
 export const FLOWS: Record<Pillar, Stage[]> = {
@@ -77,7 +77,8 @@ export function nextStage(item: ManifestItem): Stage | null {
   if (TERMINAL.has(item.state)) return null;
   const flow = FLOWS[item.pillar];
   const next = flow[flow.indexOf(item.state as Stage) + 1];
-  if (next === "reviewed" && !(item.flags?.length)) return "published";
+  // D77: every video gets its Opus review; the other pillars keep the flagged-only gate (D07)
+  if (next === "reviewed" && item.pillar !== "video" && !(item.flags?.length)) return "published";
   return next ?? null;
 }
 
