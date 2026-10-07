@@ -6,10 +6,18 @@
   "title": "[Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters",
   "url": "https://github.com/microsoft/BCApps/pull/9225",
   "published_at": "2026-09-17T19:41:35Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:13.459Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "9e7a09bc608a28d2903641367414551c3a1cbaf0:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "extensibility subscriptionbilling make usage data billing filtering extensible in setusagedatabillingfilters"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "670ee817bf684eaafc388b53da79f38c1c2fc9964bd8c6bf2f681071c7f3b720"
 }

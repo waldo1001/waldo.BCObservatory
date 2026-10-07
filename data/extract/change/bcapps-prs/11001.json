@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11001",
+  "number": 11001,
+  "title": "Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Subcontracting migration now checks bin-mandatory locations for incompatible warehouse settings before processing, blocking the migration if unsupported configurations are found and reporting all violations.",
+  "key_points": [
+    "Adds validation to prevent migration when legacy or purchase-header locations use unsupported warehouse settings",
+    "Reports every incompatible location with each enabled setting listed",
+    "Migration data remains untouched if precheck fails",
+    "Uses explicit error handling instead of relying on platform dialog concatenation",
+    "Includes test coverage for multiple locations and all unsupported warehouse configurations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "quote": "Block IT subcontracting migration when legacy vendor or purchase-header locations use unsupported warehouse settings.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003374,
+    "changes_in_call": 1
+  }
+}

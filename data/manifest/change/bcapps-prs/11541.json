@@ -6,10 +6,31 @@
   "title": "Clarify Expense Agent and expense management setup",
   "url": "https://github.com/microsoft/BCApps/pull/11541",
   "published_at": "2026-09-17T22:59:43Z",
-  "state": "discovered",
+  "state": "linked",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:11.595Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:17.217Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004337
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:17.350Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
     }
   },
   "input_hash": "9f382f608fab7e117cfeb1e33fa9f70259386bfa:c1",
@@ -31,5 +52,8 @@
     ],
     "community_contribution": false,
     "title_key": "clarify expense agent and expense management setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c3823a31557109e171931b1ee7f0cabea916553dc78d1691a3c8279b62ec2c84"
 }

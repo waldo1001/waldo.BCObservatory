@@ -6,10 +6,35 @@
   "title": "[Shopify] Keep exchange shipments eligible for synchronization",
   "url": "https://github.com/microsoft/BCApps/pull/11407",
   "published_at": "2026-09-18T11:43:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:03.118Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:08.248Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003702
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:08.447Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:08.452Z",
+      "path": "content/changes/bcapps/11407.md"
     }
   },
   "input_hash": "f437764682e4dd9da75d704337b2b954a39d427d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify keep exchange shipments eligible for synchronization"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7a0879d8fb1601c4906be7489028ae775bb72657e04e77be561ffddf5879322"
 }

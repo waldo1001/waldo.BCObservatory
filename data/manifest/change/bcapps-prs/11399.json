@@ -6,7 +6,7 @@
   "title": "[master][Subscription Billing] 1M 'Align to End of Month' line with end date produces a 1-day prorated stub",
   "url": "https://github.com/microsoft/BCApps/pull/11399",
   "published_at": "2026-09-18T14:40:28Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.00374
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:00.001Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:00.005Z",
+      "path": "content/changes/bcapps/11399.md"
     }
   },
   "input_hash": "b6ff7f07fa1fcfbdb43ca0c37227aab0c918b658:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c059e7461eed0cf62bd80c5eaa7891784fcd5e142ce9e17ad8aac0873f4fb20"
+  "output_hash": "832223985ce1454affed4ef0c7be1bbab8d4a9e019c642d824db646e542935ba"
 }

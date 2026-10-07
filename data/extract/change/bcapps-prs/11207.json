@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11207",
+  "number": 11207,
+  "title": "[Master]-Bug 648672: [Expense Agent][Translation] Agent name is not localized across setup wizard, avatar, and Agent Card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent name is now localized across the setup wizard, avatar, and Agent Card by removing the locked caption restriction in the Agent Metadata Provider.",
+  "key_points": [
+    "Removed Locked=true from Expense Agent metadata-provider caption",
+    "Allows translation resources to localize the agent name",
+    "Agent name now displays correctly in setup wizard, avatar, and Agent Card in different languages"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "changes_in_call": 1
+  }
+}

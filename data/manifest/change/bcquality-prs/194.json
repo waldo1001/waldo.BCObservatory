@@ -6,7 +6,7 @@
   "title": "Remove BCQuality logo branding",
   "url": "https://github.com/microsoft/BCQuality/pull/194",
   "published_at": "2026-09-18T07:05:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "remove bcquality logo branding"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:01:10.394Z",
+  "retry_after": null
 }

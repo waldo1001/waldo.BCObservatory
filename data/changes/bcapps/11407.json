@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11407,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11407",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T11:43:03Z",
+  "merge_commit_sha": "f437764682e4dd9da75d704337b2b954a39d427d",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Keep exchange shipments eligible for synchronization",
+  "body_hash": "78f94781e7915b15b55afd20912c393778ec9c8f4a44371fab799e665ef87043",
+  "fixes_issues": [],
+  "work_items": [
+    650014
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyProcessOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyProcessOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30166",
+        "type": "codeunit",
+        "id": 30166,
+        "name": "Shpfy Process Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30166"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11407",
+  "number": 11407,
+  "title": "[Shopify] Keep exchange shipments eligible for synchronization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Exchange-refund Shopify orders now sync their shipments correctly. A bug where the refund ID was incorrectly copied to the fulfillment ID field during shipment posting has been fixed.",
+  "key_points": [
+    "Refund ID was unintentionally copied to the fulfillment ID during shipment posting via TransferFields",
+    "This caused shipments to be treated as already synchronized, preventing proper sync to Shopify",
+    "The fix clears the fulfillment value when it matches a transferred refund ID",
+    "Exchange-refund orders can now synchronize their shipments with Shopify",
+    "Low risk change with no schema modifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Clear the fulfillment value when it was transferred from the source refund ID, while preserving the Shopify order identifiers.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003702,
+    "changes_in_call": 1
+  }
+}

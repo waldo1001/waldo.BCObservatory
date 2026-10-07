@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10676,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10676",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T05:38:37Z",
+  "merge_commit_sha": "0ff2d78de09b01ecbeed1fb1df0bfd4a6db04c4f",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix decimal tax rates for Polish region",
+  "body_hash": "1175e90463dea80c14c97d1b2b9c9d441e59b9ab3e7ebea54469e0d4d3b43322",
+  "fixes_issues": [],
+  "work_items": [
+    647127
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/rate/codeunit/TaxSetupMatrixMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/rate/codeunit/TaxSetupMatrixMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20233",
+        "type": "codeunit",
+        "id": 20233,
+        "name": "Tax Setup Matrix Mgmt.",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "codeunit/20233"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INTaxEngine"
+  ]
+}

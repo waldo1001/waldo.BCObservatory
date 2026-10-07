@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30431: expose report sender and globals",
   "url": "https://github.com/microsoft/BCApps/pull/10900",
   "published_at": "2026-09-18T09:13:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:09.536Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:16.979Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003216
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:17.197Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:17.202Z",
+      "path": "content/changes/bcapps/10900.md"
     }
   },
   "input_hash": "dc49cd54e1e2568f097d6aa89835e781057d6569:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30431 expose report sender and globals"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "de63a62d33621002f8ac7d2cdfe7bf4ddaff1063727d82ce5e5390be18aa51aa"
 }

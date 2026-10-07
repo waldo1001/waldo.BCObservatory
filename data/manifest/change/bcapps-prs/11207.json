@@ -6,10 +6,35 @@
   "title": "[Master]-Bug 648672: [Expense Agent][Translation] Agent name is not localized across setup wizard, avatar, and Agent Card",
   "url": "https://github.com/microsoft/BCApps/pull/11207",
   "published_at": "2026-09-18T09:52:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:04.729Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:09.086Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003081
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:09.238Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:09.242Z",
+      "path": "content/changes/bcapps/11207.md"
     }
   },
   "input_hash": "df3a15873a23265be3872cf46d56f65d444fd6de:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 648672 expense agent translation agent name is not localized across setup wizard avatar and agent card"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb9afeae1acf2e62fa6d5c3bfbbe6d60e8030815f9e904d4e2099e59c0fac303"
 }

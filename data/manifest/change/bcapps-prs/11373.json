@@ -6,10 +6,35 @@
   "title": "[Shopify] Improve shop navigation and background sync guidance",
   "url": "https://github.com/microsoft/BCApps/pull/11373",
   "published_at": "2026-09-18T11:45:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:01.130Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:05.733Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003413
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:05.931Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:05.946Z",
+      "path": "content/changes/bcapps/11373.md"
     }
   },
   "input_hash": "014bbde028f06796a5fd62d9987e4f3f66ac5d46:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify improve shop navigation and background sync guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4b22fff02f0e8095f8b6c3b4a109d685f2dbf62dca0d4dc25b46a940abd1455"
 }

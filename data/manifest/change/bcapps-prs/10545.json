@@ -6,10 +6,18 @@
   "title": "[Master] - Bug 647253: [WHT] Inconsistency with the Payments",
   "url": "https://github.com/microsoft/BCApps/pull/10545",
   "published_at": "2026-09-17T18:24:31Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:12.858Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "b943a95a564b587937033d63e8a33e09eaf6ee00:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "master bug 647253 wht inconsistency with the payments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd51374e5d4949888a422920f09ef75d56dbf023783134c1eb870e352e8f7514"
 }

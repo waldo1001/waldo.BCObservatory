@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10900",
+  "number": 10900,
+  "title": "[Extensibility Request] issue 30431: expose report sender and globals",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Report 952's time sheet processing events now expose the report sender and global variables to subscribers, enabling report customization through event handlers.",
+  "key_points": [
+    "OnBeforeInsertTempTimeSheetLine event enabled sender parameter",
+    "OnAfterTransferTimeSheetDetailToJobJnlLine event enabled sender parameter",
+    "Extensions can now access report instance and globals when subscribing to time sheet events",
+    "Supports time sheet report customization scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "development"
+  ],
+  "quote": "Extensions need access to report 952 and its protected global variables when subscribing to the two time sheet processing events.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003216,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2355",
+  "number": 2355,
+  "title": "Move CreateRelease update check to separate job",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The AL-Go CreateRelease workflow now runs update checks in a separate, parallel job instead of blocking release creation, allowing faster releases while keeping the check non-blocking.",
+  "key_points": [
+    "Update check moved from CreateRelease job to dedicated CheckForUpdates job",
+    "Both AppSource App and Per Tenant Extension templates updated",
+    "CheckForUpdates runs in parallel with CreateRelease, no longer blocking release creation",
+    "Check remains reporting-only with updates still applied via Update AL-Go System Files workflow",
+    "Added test coverage for ModifyRunsOnAndShell logic with multiple job scenarios"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003677,
+    "changes_in_call": 1
+  }
+}

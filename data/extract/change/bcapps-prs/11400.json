@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11400",
+  "number": 11400,
+  "title": "[Shopify] Handle missing variant mapping in product action",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify product action now validates that a linked Shopify Variant still exists before allowing users to sync products, and shows clear error messages when the mapping has been deleted.",
+  "key_points": [
+    "Action enabled only when item has a valid Shopify Variant linked through an enabled shop",
+    "Clear error guidance provided if variant mapping disappears between page rendering and action invocation",
+    "Same validation behavior applied to both Item Card and Item List pages",
+    "No schema or data changes; existing valid mappings unaffected",
+    "Regression tests added for the new validation logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The action only when the item has a Shopify Variant linked through an enabled shop.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003615,
+    "changes_in_call": 1
+  }
+}

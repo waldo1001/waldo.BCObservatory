@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11290",
+  "number": 11290,
+  "title": "[Bug 640454] Scope Expense Agent Entra permissions by company",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent now manages Microsoft Entra permissions scoped to individual companies, adding company-specific grants on activation and removing them on deactivation while preserving other permissions and disabling the shared application only when no active companies remain.",
+  "key_points": [
+    "Entra permissions are now company-scoped rather than global, with exactly one grant per active company",
+    "Existing global grants are preserved when adding company-specific grants during activation",
+    "Company grants are cleanly removed during deactivation without affecting global or other-company permissions",
+    "The shared Entra application is disabled only when no non-empty company grants exist",
+    "Non-SUPER users need Agent - Admin, Expense Mgmt. Admin, SECURITY, and Expense Agent permission sets to manage registrations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "always add exactly one current-company Expense Agent permission during activation",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004199,
+    "changes_in_call": 1
+  }
+}

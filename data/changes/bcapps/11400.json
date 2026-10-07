@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11400,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11400",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T11:45:30Z",
+  "merge_commit_sha": "02395250f92cafb5a16f732b09412536e50f04d9",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Handle missing variant mapping in product action",
+  "body_hash": "17686c37a6d39b33b7fa85418878c2eff8a60cce71bff713e3740243d5803603",
+  "fixes_issues": [],
+  "work_items": [
+    649996
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfySyncProducts.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Page Extensions/ShpfyItemCard.PageExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Page Extensions/ShpfyItemList.PageExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Products/ShpfyProductMappingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 86,
+    "deletions": 40,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfySyncProducts.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30185",
+        "type": "codeunit",
+        "id": 30185,
+        "name": "Shpfy Sync Products",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30185"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Page Extensions/ShpfyItemCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/30119",
+        "type": "pageextension",
+        "id": 30119,
+        "name": "Shpfy Item Card",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "pageextension/30119"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Page Extensions/ShpfyItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/30120",
+        "type": "pageextension",
+        "id": 30120,
+        "name": "Shpfy Item List",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "pageextension/30120"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

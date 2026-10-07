@@ -1,0 +1,140 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11290,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11290",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T10:51:02Z",
+  "merge_commit_sha": "38c6e939f9314d2acbbf2c31ef79b3946635820c",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 640454] Scope Expense Agent Entra permissions by company",
+  "body_hash": "be4aa26c9fb4bf489e862f3c854c0c436cfb81d3ac8434621b077cf138e16282",
+  "fixes_issues": [],
+  "work_items": [
+    640454
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/ExpenseAgentAPIValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Integration/EAHttpClient.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentEntraAppMgt.Codeunit.al",
+      "status": "added",
+      "additions": 305,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 57,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/app.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseAgentConfigTest.Codeunit.al",
+      "status": "added",
+      "additions": 370,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 202,
+      "deletions": 18,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 897,
+    "deletions": 94,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/ExpenseAgentAPIValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6993",
+        "type": "codeunit",
+        "id": 6993,
+        "name": "Expense Agent API Validation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6993"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Integration/EAHttpClient.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6941",
+        "type": "codeunit",
+        "id": 6941,
+        "name": "EA Http Client",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6941"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentEntraAppMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6922",
+        "type": "codeunit",
+        "id": 6922,
+        "name": "Expense Agent Entra App Mgt.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6922"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

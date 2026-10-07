@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11373",
+  "number": 11373,
+  "title": "[Shopify] Improve shop navigation and background sync guidance",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify integration adds shop-filtered payment actions to the Shop Card's Related menu and improves background synchronization guidance by directing users to Job Queue entries with clearer job descriptions.",
+  "key_points": [
+    "Payment Transactions and Payouts actions added to Shop Card Related menu",
+    "Shop-filtered navigation for both payment actions",
+    "Users directed to Job Queue Log Entries for background sync status",
+    "Job descriptions clarified to distinguish product, price, and inventory synchronization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Add shop-filtered Payment Transactions and Payouts actions at the end of the Shopify Shop Card's Related menu.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003413,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11582,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11582",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-17T20:00:28Z",
+  "merge_commit_sha": "2a69c11ec1801249d067b4e5b0d1fcd2e609de48",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix tests disabled after BCApps v30 uptake: MDM Cross-Env Consumer Tests",
+  "body_hash": "601be90ac491f701600544e1f535cfd725a5d5d187d7a08686e70d26a8639e11",
+  "fixes_issues": [],
+  "work_items": [
+    650250
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

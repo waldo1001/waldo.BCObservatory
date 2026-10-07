@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9225,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9225",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-17T19:41:35Z",
+  "merge_commit_sha": "9e7a09bc608a28d2903641367414551c3a1cbaf0",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters",
+  "body_hash": "9204076cf8cb7bb2ff283517ab3d37e7c8582b6abcc509d9ebb6a991417e5abd",
+  "fixes_issues": [
+    9223
+  ],
+  "work_items": [
+    647367
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedPricingTestExt.EnumExt.al",
+      "status": "added",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 61,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 9223,
+      "title": "[Extensibility Request][Subscription Billing] Make usage data billing filtering extensible for custom \"Usage Based Pricing\" enum values",
+      "state": "closed"
+    }
+  ]
+}

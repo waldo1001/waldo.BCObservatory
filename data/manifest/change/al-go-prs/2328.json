@@ -6,10 +6,18 @@
   "title": "Use cacheImageName for local development environments",
   "url": "https://github.com/microsoft/AL-Go/pull/2328",
   "published_at": "2026-09-18T07:21:00Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:09.546Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
     }
   },
   "input_hash": "fd82dacda260fb05958d4ab5a8d1aa0802e534bc:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "use cacheimagename for local development environments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4406afa2d93c2cb3b27a8bff8f56f39a75d3710b95a0bfc1da80d7cc959b8bc"
 }

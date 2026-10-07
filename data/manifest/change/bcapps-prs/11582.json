@@ -6,7 +6,7 @@
   "title": "Fix tests disabled after BCApps v30 uptake: MDM Cross-Env Consumer Tests",
   "url": "https://github.com/microsoft/BCApps/pull/11582",
   "published_at": "2026-09-17T20:00:28Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix tests disabled after bcapps v30 uptake mdm cross env consumer tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:01:11.661Z",
+  "retry_after": null
 }

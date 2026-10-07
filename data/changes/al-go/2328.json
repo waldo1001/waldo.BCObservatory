@@ -1,0 +1,75 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2328,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2328",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-18T07:21:00Z",
+  "merge_commit_sha": "fd82dacda260fb05958d4ab5a8d1aa0802e534bc",
+  "author": "frottke",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Use cacheImageName for local development environments",
+  "body_hash": "6d6661b2748860970f026ed20b21c5fb0dae9d7f03fb303a3d80844c340af6e8",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/AL-Go-Helper.ps1",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 14,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/AL-Go-Helper.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

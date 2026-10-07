@@ -6,10 +6,35 @@
   "title": "[Shopify] Handle missing variant mapping in product action",
   "url": "https://github.com/microsoft/BCApps/pull/11400",
   "published_at": "2026-09-18T11:45:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:02.319Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:07.210Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003615
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:07.410Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:07.417Z",
+      "path": "content/changes/bcapps/11400.md"
     }
   },
   "input_hash": "02395250f92cafb5a16f732b09412536e50f04d9:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify handle missing variant mapping in product action"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cdaa17884fd0ab2638fada375c97082a9e86ee8843f66f81919c434219378ea9"
 }

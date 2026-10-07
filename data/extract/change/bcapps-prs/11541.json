@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11541",
+  "number": 11541,
+  "title": "Clarify Expense Agent and expense management setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent setup UI is reorganized to separate agent configuration from general expense management, with controls for communication status, reminders, and mileage settings consolidated into their relevant groups and the wizard enhanced with better defaults and validation handling.",
+  "key_points": [
+    "Expense Management Setup page hides redundant agent/communication controls marked as pending cleanup in version 30.0",
+    "Setup wizard gains reminder configuration with weekly/monthly/custom frequency options and improved date-formula guidance",
+    "Agent configuration fields and mileage settings consolidated into logical groups on both setup surfaces",
+    "Expense Agent Status page renamed to Expense Agent Communication Status with improved navigation",
+    "Staging of account repair tasks in wizard with explicit update/cancel handling without live validation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": "Separate agent configuration from general expense/accounting setup without changing object identities or consolidating access permissions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004337,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9525",
+  "number": 9525,
+  "title": "[Shopify] Automatic Transaction Posting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify payment transactions can now be automatically posted as general journal lines when related invoices or credit memos are posted in Business Central, with configurable journal templates and safety checks to prevent unintended posting.",
+  "key_points": [
+    "Adds automatic posting setup fields to payment-method mappings with validation for journal template, batch, and balancing account requirements",
+    "Automatically posts successful Capture, Sale, and Refund transactions after related sales invoices or credit memos are posted",
+    "Posts through dedicated single-use journal batches to isolate transactions and prevent unrelated journal lines from being posted",
+    "Includes safety features such as user permission checks, preview skipping, and isolated cleanup operations with telemetry",
+    "Comprehensive test coverage for setup validation, various transaction types, partial invoices/refunds, and failure handling scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "sales",
+    "finance"
+  ],
+  "quote": "Automatically posts successful, unused Capture, Sale, and Refund transactions after the related sales invoice or credit memo is posted.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004763,
+    "changes_in_call": 1
+  }
+}

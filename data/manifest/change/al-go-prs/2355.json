@@ -6,10 +6,35 @@
   "title": "Move CreateRelease update check to separate job",
   "url": "https://github.com/microsoft/AL-Go/pull/2355",
   "published_at": "2026-09-18T09:01:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:06.938Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:11.703Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003677
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:11.706Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:01:11.711Z",
+      "path": "content/changes/al-go/2355.md"
     }
   },
   "input_hash": "91b96c2b294be6f823277dafe6f03350abfb9d23:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "move createrelease update check to separate job"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36784ebe568838caae5a0fdba650b162cfbcc78be7f7b4d855e2e9f8d32a9031"
 }
