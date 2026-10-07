@@ -202,6 +202,12 @@
       "text": "enable the ability to finish production orders without output in the manufacturing setup page",
       "why_it_matters": "Indicates this feature requires explicit setup configuration",
       "check": "exact"
+    },
+    {
+      "t": 240.7,
+      "text": "the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account",
+      "why_it_matters": "Shows where work in progress is written off when an order is finished without output.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

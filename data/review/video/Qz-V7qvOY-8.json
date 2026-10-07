@@ -1,0 +1,30 @@
+{
+  "video_id": "Qz-V7qvOY-8",
+  "item_id": "video/yt-microsoft/Qz-V7qvOY-8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts are generally supported by the transcript. Azure Document Intelligence preview evidence at t=350.5 checks out verbatim.",
+    "'Duplicate document automatic removal' repeats 'Delete incorrect E-documents' (same t, same claim), so it is dropped.",
+    "Key points left out the configuration details shown in the demo: the new Automatic Processing field on the E-Document Services page (set to No for two-step processing) and the 'Embed document PDF to export' parameter on the service's Exporting tab. Both are added, with quotes.",
+    "'Export reminders and Finance chart' comes from garbled captions ('export reminders Finance charart the PayPal files'), so the exact meaning is uncertain. It is kept as listed.",
+    "The other features stay 'unclear'. The presenters only say some features arrive in April and others in May or June, without saying which."
+  ],
+  "input_hash": "75546561830a827db6f11033bcac14fcc153eff9991049900d2d86b451723f50",
+  "by": "opus",
+  "at": "2026-10-07T22:59:01.818Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Azure Document Intelligence for PDF processing: status preview",
+    "quote at 445s",
+    "quote at 686s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.095321
+  }
+}

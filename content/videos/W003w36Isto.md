@@ -18,12 +18,12 @@ tags:
   - layout properties
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:52.633Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:52.674Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 609
     quote: You don't have to use that anymore. Uh you can just use them in a standard fashion.
+  - kind: video
+    url: https://www.youtube.com/watch?v=W003w36Isto&t=733s
+    title: "What's New: Reporting (For Developers) (2025 release wave 1)"
+    date: "2025-04-01T15:00:45.000Z"
+    commit: null
+    t: 733
+    quote: You could just put in the obsolete um properties but how do you communicate the change to a user?
 links:
   learn: []
   objects: []
@@ -160,13 +167,16 @@ quotes:
   - t: 609
     text: You don't have to use that anymore. Uh you can just use them in a standard fashion.
     check: exact
+  - t: 733
+    text: You could just put in the obsolete um properties but how do you communicate the change to a user?
+    check: exact
 ---
 
 # What's New: Reporting (For Developers) (2025 release wave 1)
 
 > Report layout changes for developers in Business Central 2025 release wave 1: AL overrides for Excel layout properties, obsoleting layouts in AL, a Validate action (RDL only in 26.0), a Show layout info action, and BC report information in Word layouts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=W003w36Isto) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=W003w36Isto) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -179,10 +189,10 @@ It then moves to the report layouts page, where the Excel property can be set, a
 - Developers can override the Excel layout multiple data sheets property at the individual layout level in AL, without affecting existing customer layouts.
 - Report layouts can be marked obsolete in AL with the obsolete tag, including obsolete state and reason.
 - The Validate action currently checks RDL layouts only in 26.0. Word and Excel validation is announced for a next minor release.
-- Show layout info displays system ID, type, creator, modifier, obsolete status and last modified details. The system ID matches the telemetry custom dimension.
+- Show layout info displays system ID, type, creator, modifier, obsolete status and last modified details. The system ID matches the telemetry custom dimension called layout ID.
 - Creator and modifier are filled in only for user-imported or user-created layouts, not extension or app-provided ones.
-- Word layouts get a BC report information section in the XML mapping (report name, title, help text, environment, company, user, language, date/time). It must be mapped manually in Word XML.
-- The date/time hierarchy (year, month, day, hour, minute) lets Word layouts format dates and times without hard-coding.
+- Word layouts get a BC report information section in the XML mapping pane (report name, title, help text, environment, company, user, language, date/time), so this no longer needs to be coded in AL.
+- The date/time hierarchy (year, month, day, hour, minute) lets Word layouts format dates and times in any format.
 
 ## Chapters
 
@@ -196,16 +206,16 @@ It then moves to the report layouts page, where the Excel property can be set, a
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Override Excel multiple data sheets property at layout level | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=W003w36Isto&t=31s) |  |
-| Obsolete report layouts using AL | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=W003w36Isto&t=47s) |  |
-| Set Excel layout properties in report layouts page | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=W003w36Isto&t=174s) |  |
-| Validate report layouts | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |  |
-| Show layout info action | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |  |
-| Standard BC report information in Word layouts | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=W003w36Isto&t=373s) |  |
-| Word layout date/time hierarchy | status not stated, demoed | [9:01](https://www.youtube.com/watch?v=W003w36Isto&t=541s) |  |
-| Obsoleting reports developer documentation | status not stated | [11:12](https://www.youtube.com/watch?v=W003w36Isto&t=672s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Override Excel multiple data sheets property at layout level | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=W003w36Isto&t=31s) |
+| Obsolete report layouts using AL | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=W003w36Isto&t=47s) |
+| Set Excel layout properties in report layouts page | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=W003w36Isto&t=174s) |
+| Validate report layouts | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |
+| Show layout info action | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |
+| Standard BC report information in Word layouts | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=W003w36Isto&t=373s) |
+| Word layout date/time hierarchy | status not stated, demoed | [9:01](https://www.youtube.com/watch?v=W003w36Isto&t=541s) |
+| Obsoleting reports developer documentation | status not stated | [11:12](https://www.youtube.com/watch?v=W003w36Isto&t=672s) |
 
 ## AL objects mentioned
 
@@ -221,6 +231,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [5:57](https://www.youtube.com/watch?v=W003w36Isto&t=357s) "the first major release is only rdl layout that will be validated in a next minor"
 - [8:21](https://www.youtube.com/watch?v=W003w36Isto&t=501s) "We're not going to dive into that. Instead you see a new kit on the block here. BC report information."
 - [10:09](https://www.youtube.com/watch?v=W003w36Isto&t=609s) "You don't have to use that anymore. Uh you can just use them in a standard fashion."
+- [12:13](https://www.youtube.com/watch?v=W003w36Isto&t=733s) "You could just put in the obsolete um properties but how do you communicate the change to a user?"
 
 ## Disclaimers in the video
 

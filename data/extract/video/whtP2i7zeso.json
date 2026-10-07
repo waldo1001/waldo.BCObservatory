@@ -110,28 +110,6 @@
       "system": "localization"
     },
     {
-      "name": "Document option for VAT number selection",
-      "description": "New document-level option to pick VAT registration number directly from the posted document for Intrastat reporting, replacing previous sell-to or bill-to customer options.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 120.1,
-      "t_end": 140.2,
-      "is_demoed": true,
-      "caveats": [
-        "Requires configuration in Intrastat setup",
-        "Works with ship-to address VAT numbers"
-      ],
-      "tags": [
-        "intrastat",
-        "vat",
-        "document posting",
-        "configuration"
-      ],
-      "system": "localization"
-    },
-    {
       "name": "Document check fact box for Intrastat validation",
       "description": "Visual fact box that displays missing mandatory field values before posting, allowing users to identify and correct errors immediately on the sales order.",
       "status": "unclear",

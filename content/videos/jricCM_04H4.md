@@ -2,7 +2,7 @@
 id: video/jricCM_04H4
 type: video
 title: "What's New: Excel Reporting (2025 release wave 1)"
-summary: "Business Central 2025 release wave 1 Excel reporting: Excel reports for finance, fixed assets and sustainability are generally available, with new Customer and Vendor Top 10 reports. Sales and purchase order performance analysis queries are announced for version 26.1. Legacy Excel reports move to a Legacy group."
+summary: "Business Central 2025 release wave 1 Excel reporting: the finance and fixed assets Excel reports are now generally available, there are new Customer Top 10 and Vendor Top 10 reports, and the three sustainability reports have updated layouts. Sales and purchase order performance analysis queries are coming in version 26.1. A fixed asset ad hoc analysis query is already available from version 25.3. Legacy Excel reports move to a Legacy group before being removed."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - sustainability reporting
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:10.793Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:10.842Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,12 +38,12 @@ evidence:
     t: 30
     quote: made the Excel reports that were in preview generally available
   - kind: video
-    url: https://www.youtube.com/watch?v=jricCM_04H4&t=30s
+    url: https://www.youtube.com/watch?v=jricCM_04H4&t=373s
     title: "Aged Accounts Receivables Excel Report: generally available"
     date: "2025-04-01T15:01:04.000Z"
     commit: null
-    t: 30
-    quote: made the Excel reports that were in preview generally available
+    t: 373
+    quote: this is just one of of the finance reports that is now generally available in version 20 25 release Wave 1
   - kind: video
     url: https://www.youtube.com/watch?v=jricCM_04H4&t=394s
     title: "Customer Top 10 Excel Report: generally available"
@@ -64,14 +64,14 @@ evidence:
     date: "2025-04-01T15:01:04.000Z"
     commit: null
     t: 515
-    quote: it will come in version 26
+    quote: in sales and purchasing we also gave you a little bonus it will come in version 26.
   - kind: video
     url: https://www.youtube.com/watch?v=jricCM_04H4&t=515s
     title: "Purchase Order Performance Analysis Query: announced"
     date: "2025-04-01T15:01:04.000Z"
     commit: null
     t: 515
-    quote: it will come in version 26
+    quote: in sales and purchasing we also gave you a little bonus it will come in version 26.
   - kind: video
     url: https://www.youtube.com/watch?v=jricCM_04H4&t=618s
     title: "Fixed Assets Excel Reports (Generally Available): generally available"
@@ -115,12 +115,26 @@ evidence:
     t: 618
     quote: we made three of the Excel reports or the three preview report reports in Excel generally available fixed assets analysis fixed asset details and
   - kind: video
+    url: https://www.youtube.com/watch?v=jricCM_04H4&t=638s
+    title: "What's New: Excel Reporting (2025 release wave 1)"
+    date: "2025-04-01T15:01:04.000Z"
+    commit: null
+    t: 638
+    quote: as a bonus that you already have in your environment today if you're on a version 25.3 or later
+  - kind: video
     url: https://www.youtube.com/watch?v=jricCM_04H4&t=760s
     title: "What's New: Excel Reporting (2025 release wave 1)"
     date: "2025-04-01T15:01:04.000Z"
     commit: null
     t: 760
     quote: in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a
+  - kind: video
+    url: https://www.youtube.com/watch?v=jricCM_04H4&t=780s
+    title: "What's New: Excel Reporting (2025 release wave 1)"
+    date: "2025-04-01T15:01:04.000Z"
+    commit: null
+    t: 780
+    quote: later release wave this group will be removed and you can you should only be able to find these in the RO Explorer
 links:
   learn: []
   objects: []
@@ -227,16 +241,22 @@ quotes:
   - t: 618
     text: we made three of the Excel reports or the three preview report reports in Excel generally available fixed assets analysis fixed asset details and
     check: exact
+  - t: 638
+    text: as a bonus that you already have in your environment today if you're on a version 25.3 or later
+    check: exact
   - t: 760
     text: in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a
+    check: exact
+  - t: 780
+    text: later release wave this group will be removed and you can you should only be able to find these in the RO Explorer
     check: exact
 ---
 
 # What's New: Excel Reporting (2025 release wave 1)
 
-> Business Central 2025 release wave 1 Excel reporting: Excel reports for finance, fixed assets and sustainability are generally available, with new Customer and Vendor Top 10 reports. Sales and purchase order performance analysis queries are announced for version 26.1. Legacy Excel reports move to a Legacy group.
+> Business Central 2025 release wave 1 Excel reporting: the finance and fixed assets Excel reports are now generally available, there are new Customer Top 10 and Vendor Top 10 reports, and the three sustainability reports have updated layouts. Sales and purchase order performance analysis queries are coming in version 26.1. A fixed asset ad hoc analysis query is already available from version 25.3. Legacy Excel reports move to a Legacy group before being removed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jricCM_04H4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jricCM_04H4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -246,13 +266,13 @@ It also covers query-based analysis for sales and purchasing, announced for vers
 
 ## Key points
 
-- Seven finance Excel reports are generally available: trial balance, consolidated trial balance, accounts receivable, accounts payable, collectibles, receivables and payables, with modernized designs.
-- The Aged Accounts Receivables report has a printable version and three analysis worksheets (local currency period, foreign currency, currency codes) with pivot tables and slicers.
-- Opening the Aged Accounts Receivables report in Excel requires enabling Power Query content for security reasons.
+- Seven finance Excel reports are generally available, ranging from trial balance and consolidated trial balance to collectibles, receivables and payables, with modernized designs and layouts.
+- The Aged Accounts Receivables report has a printable version and three analysis worksheets (local currency by period, foreign currency, by currencies) with pivot tables and slicers.
+- Opening the Aged Accounts Receivables report in Excel requires enabling content because it uses Power Query (Excel security settings).
 - Customer Top 10 and Vendor Top 10 Excel reports are new, each with a printable version and an analysis worksheet with slicers.
-- Sales Order Performance Analysis and Purchase Order Performance Analysis queries are announced for version 26.1 and join header data to line data.
-- Fixed Assets Analysis, Fixed Asset Details and Fixed Asset Projected Value Excel reports are generally available; three sustainability reports got updated layouts.
-- Legacy Excel reports now sit in a Legacy group under the Excel Reports menu and will be removed in a later release wave.
+- Sales Order Performance Analysis and Purchase Order Performance Analysis queries come in version 26.1 and join header data to line data.
+- Fixed Assets Analysis, Fixed Asset Details and Fixed Asset Projected Value Excel reports are generally available; a fixed asset ad hoc analysis query is available from version 25.3.
+- Three sustainability Excel reports, already generally available, got updated layouts in this release wave.
 
 ## Chapters
 
@@ -271,11 +291,11 @@ It also covers query-based analysis for sales and purchasing, announced for vers
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Excel Reports for Finance (Generally Available) | generally available, demoed | [0:19](https://www.youtube.com/watch?v=jricCM_04H4&t=19s) | "made the Excel reports that were in preview generally available" ([0:30](https://www.youtube.com/watch?v=jricCM_04H4&t=30s)) |
-| Aged Accounts Receivables Excel Report | generally available, demoed | [1:30](https://www.youtube.com/watch?v=jricCM_04H4&t=90s) | "made the Excel reports that were in preview generally available" ([0:30](https://www.youtube.com/watch?v=jricCM_04H4&t=30s)) |
+| Aged Accounts Receivables Excel Report | generally available, demoed | [1:30](https://www.youtube.com/watch?v=jricCM_04H4&t=90s) | "this is just one of of the finance reports that is now generally available in version 20 25 release Wave 1" ([6:13](https://www.youtube.com/watch?v=jricCM_04H4&t=373s)) |
 | Customer Top 10 Excel Report | generally available | [6:34](https://www.youtube.com/watch?v=jricCM_04H4&t=394s) | "we also made gen generally available two new Excel reports or maybe four" ([6:34](https://www.youtube.com/watch?v=jricCM_04H4&t=394s)) |
 | Vendor Top 10 Excel Report | generally available, demoed | [7:15](https://www.youtube.com/watch?v=jricCM_04H4&t=435s) | "we also made gen generally available two new Excel reports or maybe four" ([6:34](https://www.youtube.com/watch?v=jricCM_04H4&t=394s)) |
-| Sales Order Performance Analysis Query | announced, demoed | [8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s) | "it will come in version 26" ([8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s)) |
-| Purchase Order Performance Analysis Query | announced | [8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s) | "it will come in version 26" ([8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s)) |
+| Sales Order Performance Analysis Query | announced, demoed | [8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s) | "in sales and purchasing we also gave you a little bonus it will come in version 26." ([8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s)) |
+| Purchase Order Performance Analysis Query | announced | [8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s) | "in sales and purchasing we also gave you a little bonus it will come in version 26." ([8:35](https://www.youtube.com/watch?v=jricCM_04H4&t=515s)) |
 | Fixed Assets Excel Reports (Generally Available) | generally available | [10:18](https://www.youtube.com/watch?v=jricCM_04H4&t=618s) | "we made three of the Excel reports or the three preview report reports in Excel generally available" ([10:18](https://www.youtube.com/watch?v=jricCM_04H4&t=618s)) |
 | Fixed Asset Ad Hoc Analysis Query | status not stated | [10:38](https://www.youtube.com/watch?v=jricCM_04H4&t=638s) |  |
 | Sustainability Excel Reports with Updated Layouts | generally available | [11:19](https://www.youtube.com/watch?v=jricCM_04H4&t=679s) | "we added in the last release wave through three Excel reports so they have already generally available but in this release wave we also" ([11:19](https://www.youtube.com/watch?v=jricCM_04H4&t=679s)) |
@@ -296,7 +316,9 @@ Not found in BC28-30: query "Sales Order Performance Analysis", query "Fixed Ass
 - [2:32](https://www.youtube.com/watch?v=jricCM_04H4&t=152s) "since this is an Excel report you just get the download you don't get a print option here so let's download uh and run"
 - [3:53](https://www.youtube.com/watch?v=jricCM_04H4&t=233s) "these Excel reports are the the main reason we use Excel is to have interactivity with pivot tables and slices and so on"
 - [10:18](https://www.youtube.com/watch?v=jricCM_04H4&t=618s) "we made three of the Excel reports or the three preview report reports in Excel generally available fixed assets analysis fixed asset details and"
+- [10:38](https://www.youtube.com/watch?v=jricCM_04H4&t=638s) "as a bonus that you already have in your environment today if you're on a version 25.3 or later"
 - [12:40](https://www.youtube.com/watch?v=jricCM_04H4&t=760s) "in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a"
+- [13:00](https://www.youtube.com/watch?v=jricCM_04H4&t=780s) "later release wave this group will be removed and you can you should only be able to find these in the RO Explorer"
 
 ## Disclaimers in the video
 

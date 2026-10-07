@@ -1,0 +1,29 @@
+{
+  "video_id": "hS8yWS3bxWE",
+  "item_id": "video/yt-microsoft/hS8yWS3bxWE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes verified verbatim in the transcript.",
+    "Summary, key points, chapters and feature descriptions are supported by the transcript.",
+    "Feature statuses were all unclear although the speaker says these telemetry types were added in this release wave (version 26 / 2025 wave 1); set to ga with evidence. The video never says 'generally available', only that the features were added in the release.",
+    "Docs link 'aka.ms slbc Telemetry' interpreted as aka.ms/bctelemetry in key points; reasonable reading of captions."
+  ],
+  "input_hash": "d731d13ca8328c90bcc70aeca8d8a0eb253bed3c4194e59bdbcb4590a4ad4152",
+  "by": "opus",
+  "at": "2026-10-07T22:58:35.182Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Financial Reporting Usage Telemetry -> ga: evidence not verbatim or does not state the status",
+    "status Financial Reporting Definition Changes Telemetry -> ga: evidence not verbatim or does not state the status",
+    "status Client Add-ins Exception Telemetry -> ga: evidence not verbatim or does not state the status",
+    "status Server-side Certificate Validation Telemetry -> ga: evidence not verbatim or does not state the status",
+    "status Deprecated SOAP Protocol Detection -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.073569
+  }
+}

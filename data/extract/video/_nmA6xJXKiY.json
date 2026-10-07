@@ -200,6 +200,12 @@
       "check": "exact"
     },
     {
+      "t": 65.7,
+      "text": "For apps that don't have any dependencies, you simply choose whether you want to keep the application data or not.",
+      "why_it_matters": "Shows the keep or delete application data choice when uninstalling an app.",
+      "check": "exact"
+    },
+    {
       "t": 76.9,
       "text": "if I'm uninstalling an app that has dependencies, I can now see those dependencies right in the admin center",
       "why_it_matters": "Key new capability for administrators - they can now see dependency chains before uninstalling, preventing accidental cascade uninstalls.",
@@ -215,6 +221,12 @@
       "t": 129.8,
       "text": "we're introducing a new uninstall requirements endpoint. This is an endpoint that you can use to see which apps would be uninstalled if you",
       "why_it_matters": "Documents the new API endpoint that enables automation of dependency checking for app management workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 143,
+      "text": "there's new properties on the app's endpoint. For example, to see um the app type of the app that is returned by this endpoint",
+      "why_it_matters": "This is the source for the App Type Property feature in the admin center API.",
       "check": "exact"
     }
   ],

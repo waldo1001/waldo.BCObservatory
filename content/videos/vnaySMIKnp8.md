@@ -16,12 +16,12 @@ tags:
   - warehouse activities
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:41.510Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:41.544Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,7 +170,7 @@ quotes:
 
 > Business Central 2025 release wave 1 manufacturing-to-warehouse changes: warehouse putaway for production output, new pick plus manual flushing method, and an item-level allow warehouse over-pick setting with a return action in the movement worksheet. Includes demos of both areas.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vnaySMIKnp8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vnaySMIKnp8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,14 +196,14 @@ The second half covers consumption. A new flushing method, pick plus manual, rep
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Warehouse Putaway for Production Output | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=6s) |  |
-| Automatic Putaway Document Generation | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s) |  |
-| Putaway Creation from Worksheet and Finished Orders | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=vnaySMIKnp8&t=105s) |  |
-| Pick Plus Manual Flushing Method | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=vnaySMIKnp8&t=190s) |  |
-| Allow Warehouse Over-Pick | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s) |  |
-| Return Over-picked Items to Warehouse | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Warehouse Putaway for Production Output | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=6s) |
+| Automatic Putaway Document Generation | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s) |
+| Putaway Creation from Worksheet and Finished Orders | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=vnaySMIKnp8&t=105s) |
+| Pick Plus Manual Flushing Method | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=vnaySMIKnp8&t=190s) |
+| Allow Warehouse Over-Pick | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s) |
+| Return Over-picked Items to Warehouse | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s) |
 
 ## AL objects mentioned
 

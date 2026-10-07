@@ -1,0 +1,28 @@
+{
+  "video_id": "b-ixzwDS41c",
+  "item_id": "video/yt-microsoft/b-ixzwDS41c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim in the transcript.",
+    "No release status (preview/GA) is stated in the transcript; all features correctly remain unclear.",
+    "System 'finance' is not supported by the transcript (administration/platform only), but systems cannot be edited here.",
+    "Key points omitted the Key Vault region requirement, the role assignments (Reader on the Enterprise Policy, Key Vault Crypto Service Encryption User for the policy's managed identity), and the BC linking conditions; added.",
+    "Key point wording 'Key ID must match the Key Vault resource ID' corrected to the key resource ID per transcript."
+  ],
+  "input_hash": "e0aa57c21352971865d7f21e661af1f12cf414181951255a2c57112c1b1dd977",
+  "by": "opus",
+  "at": "2026-10-07T22:58:32.371Z",
+  "applied": [
+    "quote at 413s",
+    "quote at 277s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086773
+  }
+}

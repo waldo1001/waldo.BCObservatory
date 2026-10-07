@@ -2,7 +2,7 @@
 id: video/cuez5kIanKo
 type: video
 title: "What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)"
-summary: "Shopify connector in Business Central (2025 release wave 1): activating specific sales channels so products are published to chosen channels. Shows the Shopify sales channels page, exporting products, and checking channels in Shopify. Unconfigured products default to the online store."
+summary: "Shopify connector in Business Central (2025 release wave 1): activate specific sales channels to control which products are sold through which channel. The demo activates channels on the Shopify sales channels page, exports products to Shopify, then checks each created product's channels in Shopify. If the Shopify sales channels page is not configured, products default to the online store."
 tier: official
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - shopify integration
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:08.591Z"
   flags: []
 generated:
-  at: "2026-10-06T18:39:48.922Z"
+  at: "2026-10-07T22:58:08.634Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,9 +112,9 @@ quotes:
 
 # What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)
 
-> Shopify connector in Business Central (2025 release wave 1): activating specific sales channels so products are published to chosen channels. Shows the Shopify sales channels page, exporting products, and checking channels in Shopify. Unconfigured products default to the online store.
+> Shopify connector in Business Central (2025 release wave 1): activate specific sales channels to control which products are sold through which channel. The demo activates channels on the Shopify sales channels page, exports products to Shopify, then checks each created product's channels in Shopify. If the Shopify sales channels page is not configured, products default to the online store.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cuez5kIanKo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 1:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cuez5kIanKo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 1:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -140,12 +140,12 @@ The video then exports products from the products list as Shopify products. Afte
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Activate Specific Sales Channels | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=cuez5kIanKo&t=5s) |  |
-| Multiple Sales Channels Setup | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=cuez5kIanKo&t=25s) |  |
-| Product Export to Shopify | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=cuez5kIanKo&t=39s) |  |
-| Sales Channel Verification | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=cuez5kIanKo&t=50s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Activate Specific Sales Channels | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=cuez5kIanKo&t=5s) |
+| Multiple Sales Channels Setup | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=cuez5kIanKo&t=25s) |
+| Product Export to Shopify | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=cuez5kIanKo&t=39s) |
+| Sales Channel Verification | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=cuez5kIanKo&t=50s) |
 
 ## Quotes
 

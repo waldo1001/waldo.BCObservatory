@@ -2,7 +2,7 @@
 id: video/XhO4oFmoh1M
 type: video
 title: "Introducing: Sales Order Agent (2025 release wave 1)"
-summary: "Sales Order Agent in Business Central (2025 release wave 1): setup with a shared mailbox, processing customer emails into sales quotes, item search and availability checks, safety filtering, KPIs, and admin control through permission sets and profiles."
+summary: "Sales Order Agent in Business Central (2025 release wave 1): activation with a Microsoft 365 shared mailbox, turning customer emails into availability replies and sales quotes, and converting quotes to orders, with a human reviewing each step. Also covers item search, relevance and safety filtering, KPIs, and admin control through permission sets and profiles."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - kpi metrics
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:57.126Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:57.179Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,6 +82,13 @@ evidence:
     t: 843
     quote: instead of creating this document manually the agent helped prepopulate and pre-create that quote
   - kind: video
+    url: https://www.youtube.com/watch?v=XhO4oFmoh1M&t=893s
+    title: "Introducing: Sales Order Agent (2025 release wave 1)"
+    date: "2025-04-01T15:00:42.000Z"
+    commit: null
+    t: 893
+    quote: iterating on the sales quote if Helen comes back and wants to change one or two lines
+  - kind: video
     url: https://www.youtube.com/watch?v=XhO4oFmoh1M&t=933s
     title: "Introducing: Sales Order Agent (2025 release wave 1)"
     date: "2025-04-01T15:00:42.000Z"
@@ -109,6 +116,13 @@ evidence:
     commit: null
     t: 1309
     quote: agents are designed based on the same Principle as the users
+  - kind: video
+    url: https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1369s
+    title: "Introducing: Sales Order Agent (2025 release wave 1)"
+    date: "2025-04-01T15:00:42.000Z"
+    commit: null
+    t: 1369
+    quote: I need to disable this agent to be able to to modify these permissions
   - kind: video
     url: https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1475s
     title: "Introducing: Sales Order Agent (2025 release wave 1)"
@@ -271,6 +285,9 @@ quotes:
   - t: 843
     text: instead of creating this document manually the agent helped prepopulate and pre-create that quote
     check: exact
+  - t: 893
+    text: iterating on the sales quote if Helen comes back and wants to change one or two lines
+    check: exact
   - t: 933
     text: conversing very naturally in natural language with Yen asking some questions hello uh do you have such and such items
     check: exact
@@ -283,6 +300,9 @@ quotes:
   - t: 1309
     text: agents are designed based on the same Principle as the users
     check: snapped
+  - t: 1369
+    text: I need to disable this agent to be able to to modify these permissions
+    check: exact
   - t: 1475
     text: using profiles you can design the interaction surface of the agent and expose or hide certain controls from from its view
     check: exact
@@ -290,9 +310,9 @@ quotes:
 
 # Introducing: Sales Order Agent (2025 release wave 1)
 
-> Sales Order Agent in Business Central (2025 release wave 1): setup with a shared mailbox, processing customer emails into sales quotes, item search and availability checks, safety filtering, KPIs, and admin control through permission sets and profiles.
+> Sales Order Agent in Business Central (2025 release wave 1): activation with a Microsoft 365 shared mailbox, turning customer emails into availability replies and sales quotes, and converting quotes to orders, with a human reviewing each step. Also covers item search, relevance and safety filtering, KPIs, and admin control through permission sets and profiles.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XhO4oFmoh1M) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 26:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XhO4oFmoh1M) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 26:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -302,13 +322,13 @@ It also covers filtering of irrelevant or harmful emails, the KPI dashboard, and
 
 ## Key points
 
-- The agent only works with registered contacts and customers in Business Central. For an unknown sender, it prompts the user to create and register the contact before continuing.
-- Activation needs a Microsoft 365 shared mailbox for the agent to monitor. Configuration options are currently minimal, and users must be added to the agent to interact with it.
-- Item search covers the item table, extended texts, translations, item attributes and item categories. It is limited to items and attributes already configured.
-- The agent uses the Item Availability page with filters for item, date, customer, location and quantity. It pre-creates a sales quote, and a human reviews and confirms it before it goes to the customer.
-- Promotional emails get a relevance warning that the user can override. Harmful messages are blocked and not shown for processing.
-- Permission sets come pre-built by Microsoft and can be tightened or loosened. The agent must be disabled before permissions can be changed.
-- Profiles set which controls, fields and actions the agent sees. Custom fields and actions must be added to the agent profile for the agent to use them.
+- The agent only works with registered contacts and customers in Business Central. For an unknown sender, it notifies the user and lets them create and register the contact on the spot before continuing.
+- Activation needs a Microsoft 365 shared mailbox for the agent to monitor. Configuration options are currently minimal, and users must be added to the agent before they can review its tasks, reconfigure it or delegate tasks to it.
+- Item search goes beyond the item title and covers the item table, extended texts, translations, item attributes and item categories.
+- The agent uses the Item Availability page with filters for item, date, customer, location and quantity. It pre-creates a sales quote, and a human reviews and confirms the outgoing email before it goes to the customer.
+- If the customer asks for changes, the agent finds the existing quote and updates its lines. When the customer confirms, the quote is converted into a sales order.
+- Promotional emails get a relevance warning that the user can override. Harmful messages are blocked and will not be processed.
+- Microsoft provides the permission sets pre-built, and admins can make them stricter or looser. The agent must be disabled before its permissions can be changed.
 
 ## Chapters
 
@@ -329,22 +349,22 @@ It also covers filtering of irrelevant or harmful emails, the KPI dashboard, and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=6s) |  |
-| Sales Order Agent Configuration | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=148s) |  |
-| Agent Task Pane | status not stated, demoed | [5:26](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=326s) |  |
-| Item Availability Page | status not stated, demoed | [10:52](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=652s) |  |
-| Item Search Across Multiple Tables | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=550s) |  |
-| Automatic Sales Quote Creation | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=751s) |  |
-| Agent KPIs Dashboard | status not stated, demoed | [5:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=306s) |  |
-| Contact Registration During Processing | status not stated, demoed | [7:48](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=468s) |  |
-| Sales Order Agent Email Processing | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=791s) |  |
-| Sales Order Agent Natural Language Conversation | status not stated, demoed | [15:13](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=913s) |  |
-| Agent Email Safety and Relevance Filtering | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=994s) |  |
-| Agent Permission Sets | status not stated, demoed | [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s) |  |
-| Agent Profile Configuration | status not stated, demoed | [23:09](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1389s) |  |
-| Agent UI Access Model | status not stated | [20:17](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1217s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=6s) |
+| Sales Order Agent Configuration | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=148s) |
+| Agent Task Pane | status not stated, demoed | [5:26](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=326s) |
+| Item Availability Page | status not stated, demoed | [10:52](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=652s) |
+| Item Search Across Multiple Tables | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=550s) |
+| Automatic Sales Quote Creation | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=751s) |
+| Agent KPIs Dashboard | status not stated, demoed | [5:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=306s) |
+| Contact Registration During Processing | status not stated, demoed | [7:48](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=468s) |
+| Sales Order Agent Email Processing | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=791s) |
+| Sales Order Agent Natural Language Conversation | status not stated, demoed | [15:13](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=913s) |
+| Agent Email Safety and Relevance Filtering | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=994s) |
+| Agent Permission Sets | status not stated, demoed | [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s) |
+| Agent Profile Configuration | status not stated, demoed | [23:09](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1389s) |
+| Agent UI Access Model | status not stated | [20:17](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1217s) |
 
 ## AL objects mentioned
 
@@ -368,10 +388,12 @@ Not found in BC28-30: page "Roll Center".
 - [9:30](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=570s) "it uses search uh to not only read through the data on the item table or card itself it also goes into to the"
 - [13:32](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=812s) "the agent has already read this email and it did create a sales quote automatically and it updated that quote with uh details requested"
 - [14:03](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=843s) "instead of creating this document manually the agent helped prepopulate and pre-create that quote"
+- [14:53](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=893s) "iterating on the sales quote if Helen comes back and wants to change one or two lines"
 - [15:33](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=933s) "conversing very naturally in natural language with Yen asking some questions hello uh do you have such and such items"
 - [16:34](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=994s) "the agent tagged this inbound email with a warning text so it actually says that hey this incoming message appears not to be relevant"
 - [20:37](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1237s) "it is not analyzing pixels and dots on the screen it actually can connect to the actions controls uh data displayed on the UI"
 - [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s) "agents are designed based on the same Principle as the users"
+- [22:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1369s) "I need to disable this agent to be able to to modify these permissions"
 - [24:35](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1475s) "using profiles you can design the interaction surface of the agent and expose or hide certain controls from from its view"
 
 ## Disclaimers in the video

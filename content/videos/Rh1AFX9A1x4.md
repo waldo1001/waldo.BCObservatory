@@ -16,18 +16,25 @@ tags:
   - queries
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:01.473Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:01.524Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 286a984ec96f0bad227602e218ce6f1ea630e4a0d5be14a9a0effc47c9b3d418
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=101s
+    title: "Add columns from related tables in analysis mode: announced"
+    date: "2025-04-01T15:00:38.000Z"
+    commit: null
+    t: 101
+    quote: this is coming this release but it's also coming in a minor so you will have to wait a bit more
   - kind: video
     url: https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=25s
     title: "What's New: Data Analysis (2025 release wave 1)"
@@ -56,6 +63,13 @@ evidence:
     commit: null
     t: 480
     quote: the only limitations that we have with this redit h fields are that copilot assist is not just supported on them
+  - kind: video
+    url: https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=552s
+    title: "What's New: Data Analysis (2025 release wave 1)"
+    date: "2025-04-01T15:00:38.000Z"
+    commit: null
+    t: 552
+    quote: which is supported from 2024 release Wave 2 as a basically a back port in version 25.3
   - kind: video
     url: https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=653s
     title: "What's New: Data Analysis (2025 release wave 1)"
@@ -110,9 +124,9 @@ chapters:
     title: Conclusion and next steps
 features:
   - name: Add columns from related tables in analysis mode
-    status: unclear
+    status: announced
     t: 81
-    verified: false
+    verified: true
     status_source: video
   - name: Open analysis mode data in Excel
     status: unclear
@@ -147,6 +161,9 @@ quotes:
   - t: 480
     text: the only limitations that we have with this redit h fields are that copilot assist is not just supported on them
     check: fuzzy
+  - t: 552
+    text: which is supported from 2024 release Wave 2 as a basically a back port in version 25.3
+    check: exact
   - t: 653
     text: we're now adding that the AL get URL method um has a parameter that you can specify that you want for instance the analysis
     check: exact
@@ -159,7 +176,7 @@ quotes:
 
 > Analysis mode in Business Central, 2025 release wave 1: adding fields from related tables on list pages without developer-written queries, opening analysis data in Excel, and an AL get URL parameter for analysis layout. The speaker says the related-tables feature comes after general availability, likely in a minor update, estimated at 26.2 or earlier.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Rh1AFX9A1x4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Rh1AFX9A1x4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,7 +190,7 @@ The video also shows opening an analysis mode view in Excel, including related c
 - Related tables are joined through existing table relationships using a left outer join.
 - Copilot analysis assist is not supported on related fields, and calculated fields are not supported and are ignored.
 - A short disclaimer appears the first time fields are added, covering removed calculated fields and Excel row limits.
-- Analysis mode data, including related columns, can be opened in Excel from the data area context menu or the analysis tab context menu; the number of rows is limited.
+- Analysis mode data, including related columns, can be opened in Excel from the data area context menu (works in all versions) or the analysis tab context menu (supported from 2024 release wave 2, backported in 25.3); the number of rows is limited.
 - The AL get URL method has a new parameter to open a page in analysis mode layout, so code can link directly to analysis views.
 - The speaker says the related-tables feature is planned after general availability of the release, likely in a minor update, estimated at 26.2 or earlier.
 
@@ -191,7 +208,7 @@ The video also shows opening an analysis mode view in Excel, including related c
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Add columns from related tables in analysis mode | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=81s) |  |
+| Add columns from related tables in analysis mode | announced, demoed | [1:21](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=81s) | "this is coming this release but it's also coming in a minor so you will have to wait a bit more" ([1:41](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=101s)) |
 | Open analysis mode data in Excel | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=531s) |  |
 | AL get URL method parameter for analysis layout | status not stated, demoed | [10:33](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=633s) |  |
 | Copilot analysis assist | status not stated | [0:45](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=45s) |  |
@@ -213,6 +230,7 @@ Not found in BC28-30: page "Sales line", table "Sales head".
 - [1:01](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=61s) "a challenge has been analyzing more complex cross entity data relationships which still has required developers creating queries"
 - [1:41](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=101s) "this is coming this release but it's also coming in a minor so you will have to wait a bit more so it's estimated"
 - [8:00](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=480s) "the only limitations that we have with this redit h fields are that copilot assist is not just supported on them"
+- [9:12](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=552s) "which is supported from 2024 release Wave 2 as a basically a back port in version 25.3"
 - [10:53](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=653s) "we're now adding that the AL get URL method um has a parameter that you can specify that you want for instance the analysis"
 - [12:13](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=733s) "do note that this feature is planned to be available after General availability of the release so right now we are looking at likely"
 

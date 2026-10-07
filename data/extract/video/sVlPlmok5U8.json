@@ -154,6 +154,12 @@
       "text": "When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately.",
       "why_it_matters": "Important caveat showing that project-linked purchases skip putaway because items are consumed directly by the project.",
       "check": "exact"
+    },
+    {
+      "t": 115.4,
+      "text": "we are returning to project planning lines where you can see that quantity and cost is already registered.",
+      "why_it_matters": "Shows the end result: receipts against project-linked purchase orders update quantity and cost on the project planning lines.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

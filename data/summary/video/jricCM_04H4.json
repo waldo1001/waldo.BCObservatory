@@ -1,16 +1,16 @@
 {
   "video_id": "jricCM_04H4",
   "item_id": "video/yt-microsoft/jricCM_04H4",
-  "summary": "Business Central 2025 release wave 1 Excel reporting: Excel reports for finance, fixed assets and sustainability are generally available, with new Customer and Vendor Top 10 reports. Sales and purchase order performance analysis queries are announced for version 26.1. Legacy Excel reports move to a Legacy group.",
+  "summary": "Business Central 2025 release wave 1 Excel reporting: the finance and fixed assets Excel reports are now generally available, there are new Customer Top 10 and Vendor Top 10 reports, and the three sustainability reports have updated layouts. Sales and purchase order performance analysis queries are coming in version 26.1. A fixed asset ad hoc analysis query is already available from version 25.3. Legacy Excel reports move to a Legacy group before being removed.",
   "overview": "The video covers what changed in Excel reporting in 2025 release wave 1. Reports that were in preview are now generally available with modernized layouts, including seven finance reports, three fixed asset reports and three sustainability reports. The presenter demos the Aged Accounts Receivables report, which has a printable version and analysis worksheets built on pivot tables and slicers, and the Vendor Top 10 report.\n\nIt also covers query-based analysis for sales and purchasing, announced for version 26.1, and a fixed asset ad hoc analysis query. The last part explains that legacy Excel reports are moved to a Legacy group in the Excel Reports menu and will be removed in a later release wave.",
   "key_points": [
-    "Seven finance Excel reports are generally available: trial balance, consolidated trial balance, accounts receivable, accounts payable, collectibles, receivables and payables, with modernized designs.",
-    "The Aged Accounts Receivables report has a printable version and three analysis worksheets (local currency period, foreign currency, currency codes) with pivot tables and slicers.",
-    "Opening the Aged Accounts Receivables report in Excel requires enabling Power Query content for security reasons.",
+    "Seven finance Excel reports are generally available, ranging from trial balance and consolidated trial balance to collectibles, receivables and payables, with modernized designs and layouts.",
+    "The Aged Accounts Receivables report has a printable version and three analysis worksheets (local currency by period, foreign currency, by currencies) with pivot tables and slicers.",
+    "Opening the Aged Accounts Receivables report in Excel requires enabling content because it uses Power Query (Excel security settings).",
     "Customer Top 10 and Vendor Top 10 Excel reports are new, each with a printable version and an analysis worksheet with slicers.",
-    "Sales Order Performance Analysis and Purchase Order Performance Analysis queries are announced for version 26.1 and join header data to line data.",
-    "Fixed Assets Analysis, Fixed Asset Details and Fixed Asset Projected Value Excel reports are generally available; three sustainability reports got updated layouts.",
-    "Legacy Excel reports now sit in a Legacy group under the Excel Reports menu and will be removed in a later release wave."
+    "Sales Order Performance Analysis and Purchase Order Performance Analysis queries come in version 26.1 and join header data to line data.",
+    "Fixed Assets Analysis, Fixed Asset Details and Fixed Asset Projected Value Excel reports are generally available; a fixed asset ad hoc analysis query is available from version 25.3.",
+    "Three sustainability Excel reports, already generally available, got updated layouts in this release wave."
   ],
   "audience": [
     "functional consultant",

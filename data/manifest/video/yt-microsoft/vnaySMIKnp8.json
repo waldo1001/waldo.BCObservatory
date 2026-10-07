@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=vnaySMIKnp8",
   "published_at": "2025-04-01T15:01:19.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 9
     },
     "published": {
-      "at": "2026-10-06T18:38:18.300Z",
+      "at": "2026-10-07T22:57:41.549Z",
       "path": "content/videos/vnaySMIKnp8.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:57:41.511Z",
+      "path": "data/review/video/vnaySMIKnp8.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.055789000000000005
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c4d247b07ab62f5488fdc8f75361d23870f4c56984858114a9cf10202812235"
+  "output_hash": "52feff1bcc3a3cfd928e555717176fb1cd7d2f9bc6f411e3521a5c2b20cff575",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:57:41.510Z"
+  }
 }

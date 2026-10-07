@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=jricCM_04H4",
   "published_at": "2025-04-01T15:01:04.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T18:39:03.395Z",
+      "at": "2026-10-07T22:58:10.856Z",
       "path": "content/videos/jricCM_04H4.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:58:10.805Z",
+      "path": "data/review/video/jricCM_04H4.json",
+      "verdict": "fix",
+      "applied": 10,
+      "rejected_edits": 1,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.11510100000000001
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d23a2b308f178693ae9eba6d02912468ad13f4271c584171385a366da73a96cc"
+  "output_hash": "f67e8f4e7c71409134623c0cb128add6cd261e0a943c7f05785e79738a571046",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:58:10.793Z"
+  }
 }

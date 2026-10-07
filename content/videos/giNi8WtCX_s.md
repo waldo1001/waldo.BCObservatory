@@ -15,12 +15,12 @@ tags:
   - version certification
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:18.895Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:18.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -180,7 +180,7 @@ quotes:
 
 > Production BOM usability changes in Business Central 2025 release wave 1: document attachments, active version access with a comparison matrix, subassembly display levels, version list with date and status, bulk item selection, Edit in Excel, certification prompt on close, and BOM navigation from the item card.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=giNi8WtCX_s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=giNi8WtCX_s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,12 +191,12 @@ The demo covers attaching documents to a BOM, opening the active version through
 ## Key points
 
 - Production BOMs can have document attachments, for example drawings, specifications or materials needed.
-- The assist edit button opens the active version of a production BOM, with a comparison matrix showing the main BOM and available versions.
+- The assist edit button opens the active version of a production BOM. A new version comparison matrix shows the main BOM and the available versions.
 - Option levels control whether subassemblies show as whole subassemblies or as their individual components.
 - The version list page shows the starting date and status of each BOM version.
-- When editing a version, the Select items action picks multiple items at once and lets you update quantities for all selected items.
+- When editing a version, you can edit as usual or use the Select items action to pick multiple items at once, then make sure quantities are updated.
 - For large BOMs, the video suggests using Edit in Excel.
-- Closing a version page whose status is not certified shows a confirmation dialog.
+- Starting from this release, closing a version page whose status is not certified shows a confirmation dialog.
 
 ## Chapters
 
@@ -209,16 +209,16 @@ The demo covers attaching documents to a BOM, opening the active version through
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Production BOM document attachment | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=giNi8WtCX_s&t=5s) |  |
-| Production BOM active version | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=giNi8WtCX_s&t=25s) |  |
-| Subassembly display options in BOM | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=giNi8WtCX_s&t=45s) |  |
-| BOM version list view with date and status | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=giNi8WtCX_s&t=56s) |  |
-| Select items action for bulk BOM editing | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=giNi8WtCX_s&t=66s) |  |
-| Edit in Excel functionality for BOM | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=giNi8WtCX_s&t=77s) |  |
-| BOM version certification confirmation dialog | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=giNi8WtCX_s&t=82s) |  |
-| BOM navigation from item card | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=giNi8WtCX_s&t=108s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Production BOM document attachment | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=giNi8WtCX_s&t=5s) |
+| Production BOM active version | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=giNi8WtCX_s&t=25s) |
+| Subassembly display options in BOM | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=giNi8WtCX_s&t=45s) |
+| BOM version list view with date and status | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=giNi8WtCX_s&t=56s) |
+| Select items action for bulk BOM editing | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=giNi8WtCX_s&t=66s) |
+| Edit in Excel functionality for BOM | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=giNi8WtCX_s&t=77s) |
+| BOM version certification confirmation dialog | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=giNi8WtCX_s&t=82s) |
+| BOM navigation from item card | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=giNi8WtCX_s&t=108s) |
 
 ## AL objects mentioned
 

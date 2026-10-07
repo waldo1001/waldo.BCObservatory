@@ -1,0 +1,23 @@
+{
+  "video_id": "px1MOyXfmnQ",
+  "item_id": "video/yt-microsoft/px1MOyXfmnQ",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes match the transcript word for word. The quotes at 103.4 and 466.6 run on into the next segment, which is allowed.",
+    "The transcript supports every key point, including the default one-day expiry for pull request artifacts and incremental builds pulling the remaining apps from the last known good build.",
+    "All feature statuses are unclear. The video presents the features as new but never says preview or generally available, so that is acceptable.",
+    "Minor gap, not worth an edit: with a custom deployment script, test apps are passed to the script and the user handles dependency installation (t=305.2). The key points don't mention this."
+  ],
+  "input_hash": "0326a2f03436a733ab9a244bb6de2e99abdea9a9347de298acb1d230480442d3",
+  "by": "opus",
+  "at": "2026-10-07T22:57:58.829Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054077
+  }
+}

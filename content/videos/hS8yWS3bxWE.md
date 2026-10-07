@@ -16,12 +16,12 @@ tags:
   - application insights
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:35.182Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:35.226Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,7 +159,7 @@ quotes:
 
 > Business Central 2025 release wave 1 telemetry: five new telemetry types covering financial reporting usage, financial reporting definition changes, client add-in exceptions, server-side certificate validation, and detection of deprecated SOAP calls to UI pages (event RT0053).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hS8yWS3bxWE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hS8yWS3bxWE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -189,13 +189,13 @@ The SOAP telemetry is meant to help find integrations that must stop using SOAP 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Financial Reporting Usage Telemetry | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=68s) |  |
-| Financial Reporting Definition Changes Telemetry | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=169s) |  |
-| Client Add-ins Exception Telemetry | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=287s) |  |
-| Server-side Certificate Validation Telemetry | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=389s) |  |
-| Deprecated SOAP Protocol Detection | status not stated, demoed | [7:31](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=451s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Financial Reporting Usage Telemetry | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=68s) |
+| Financial Reporting Definition Changes Telemetry | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=169s) |
+| Client Add-ins Exception Telemetry | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=287s) |
+| Server-side Certificate Validation Telemetry | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=389s) |
+| Deprecated SOAP Protocol Detection | status not stated, demoed | [7:31](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=451s) |
 
 ## AL objects mentioned
 

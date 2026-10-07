@@ -249,9 +249,21 @@
       "check": "fuzzy"
     },
     {
+      "t": 277.2,
+      "text": "I look for the key crypto service encryption user role select that role and then select the managed identity member to assign it to",
+      "why_it_matters": "Identifies the role the Enterprise Policy's managed identity needs on the Key Vault.",
+      "check": "exact"
+    },
+    {
       "t": 337.8,
       "text": "cmk only works on managed environments",
       "why_it_matters": "States the fundamental platform requirement that CMK is only available for managed Power Platform environments.",
+      "check": "exact"
+    },
+    {
+      "t": 413,
+      "text": "business Central environments inherit the cmk setting from their linked by platform environment",
+      "why_it_matters": "Explains why linking the BC environment to a Power Platform environment is what applies CMK.",
       "check": "exact"
     },
     {

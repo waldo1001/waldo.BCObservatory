@@ -17,12 +17,12 @@ tags:
   - invoice approval
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:57.204Z"
   flags: []
 generated:
-  at: "2026-10-06T18:42:21.611Z"
+  at: "2026-10-07T22:58:57.243Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -32,20 +32,6 @@ evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s
     title: "Payables Agent: preview"
-    date: "2025-04-01T15:00:44.000Z"
-    commit: null
-    t: 276
-    quote: we aim for this agent to be available for public preview somewhere in the second half of 2025
-  - kind: video
-    url: https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s
-    title: "E-document connector for Microsoft 365: preview"
-    date: "2025-04-01T15:00:44.000Z"
-    commit: null
-    t: 276
-    quote: we aim for this agent to be available for public preview somewhere in the second half of 2025
-  - kind: video
-    url: https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s
-    title: "Inbound e-document list page: preview"
     date: "2025-04-01T15:00:44.000Z"
     commit: null
     t: 276
@@ -142,14 +128,14 @@ features:
     verified: true
     status_source: video
   - name: E-document connector for Microsoft 365
-    status: preview
+    status: unclear
     t: 157
-    verified: true
+    verified: false
     status_source: video
   - name: Inbound e-document list page
-    status: preview
+    status: unclear
     t: 192
-    verified: true
+    verified: false
     status_source: video
   - name: Purchase document draft page
     status: unclear
@@ -197,7 +183,7 @@ quotes:
 
 > Payables Agent in Business Central (2025 release wave 1) is an AI agent for accounts payable, from receiving invoices through posting, with human oversight. The video covers the Microsoft 365 e-document connector, the inbound e-document list, the purchase document draft page, and roadmap items. Public preview is aimed for the second half of 2025.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YsmwHqxL1Zc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YsmwHqxL1Zc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,7 +193,7 @@ It walks through the building blocks: an e-document connector for Microsoft 365 
 
 ## Key points
 
-- The Payables Agent is in preview. The stated aim is public preview in the second half of 2025.
+- The Payables Agent is still in development. The stated aim is public preview in the second half of 2025.
 - It is designed for human oversight, and users can configure where humans enter the workflow.
 - The e-document connector for Microsoft 365 is enabled through an e-document service. It imports PDF attachments from a Microsoft 365 mailbox, SharePoint, or OneDrive.
 - The inbound e-document list page is the place for every received e-document, from SharePoint, Outlook, or e-invoicing channels.
@@ -229,8 +215,8 @@ It walks through the building blocks: an e-document connector for Microsoft 365 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Payables Agent | preview | [1:06](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=66s) | "we aim for this agent to be available for public preview somewhere in the second half of 2025" ([4:36](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s)) |
-| E-document connector for Microsoft 365 | preview | [2:37](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=157s) | "we aim for this agent to be available for public preview somewhere in the second half of 2025" ([4:36](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s)) |
-| Inbound e-document list page | preview | [3:12](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=192s) | "we aim for this agent to be available for public preview somewhere in the second half of 2025" ([4:36](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s)) |
+| E-document connector for Microsoft 365 | status not stated | [2:37](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=157s) |  |
+| Inbound e-document list page | status not stated | [3:12](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=192s) |  |
 | Purchase document draft page | status not stated | [3:43](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=223s) |  |
 | Intelligent accounting for invoice processing | preview | [4:36](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s) | "we aim for this agent to be available for public preview somewhere in the second half of 2025" ([4:36](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=276s)) |
 | Three-way matching and purchase order mapping | status not stated | [4:56](https://www.youtube.com/watch?v=YsmwHqxL1Zc&t=296s) |  |

@@ -8,7 +8,7 @@
     "Related tables are joined through existing table relationships using a left outer join.",
     "Copilot analysis assist is not supported on related fields, and calculated fields are not supported and are ignored.",
     "A short disclaimer appears the first time fields are added, covering removed calculated fields and Excel row limits.",
-    "Analysis mode data, including related columns, can be opened in Excel from the data area context menu or the analysis tab context menu; the number of rows is limited.",
+    "Analysis mode data, including related columns, can be opened in Excel from the data area context menu (works in all versions) or the analysis tab context menu (supported from 2024 release wave 2, backported in 25.3); the number of rows is limited.",
     "The AL get URL method has a new parameter to open a page in analysis mode layout, so code can link directly to analysis views.",
     "The speaker says the related-tables feature is planned after general availability of the release, likely in a minor update, estimated at 26.2 or earlier."
   ],

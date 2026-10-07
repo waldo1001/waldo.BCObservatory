@@ -1,0 +1,25 @@
+{
+  "video_id": "tzX0qB9tiBs",
+  "item_id": "video/yt-microsoft/tzX0qB9tiBs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim; some run on into the next caption segment, which is acceptable.",
+    "Key points and summary are supported by the transcript. The release wave label comes from the title.",
+    "Feature statuses stay unclear: 'in this release we are adding capability' does not say whether the feature is preview or GA.",
+    "Added a quote showing that written-off work in progress amounts go to the inventory adjustment account, which the page did not cover."
+  ],
+  "input_hash": "602f262fe6e96c611b3d88e87c98a6e0ba17320f23e51196bffe623eda5c3a6a",
+  "by": "opus",
+  "at": "2026-10-07T22:57:49.760Z",
+  "applied": [
+    "quote at 241s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052345
+  }
+}

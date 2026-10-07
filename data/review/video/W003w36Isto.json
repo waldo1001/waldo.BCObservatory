@@ -1,0 +1,26 @@
+{
+  "video_id": "W003w36Isto",
+  "item_id": "video/yt-microsoft/W003w36Isto",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claiming BC report information 'must be mapped manually in Word XML' is not stated; transcript shows it is available in Word's XML mapping pane and removes the need to code it in AL. Reworded.",
+    "All feature statuses left unclear: no quote clearly states preview or GA; the 26.0 validation remark is ambiguous.",
+    "Existing quotes are verbatim (some span segment boundaries) and kept.",
+    "Added a quote about communicating report obsoletion to users, the core of the documentation section."
+  ],
+  "input_hash": "dcf64e1df9a7b1cab7cd1bd71a00d22a6d0ba9f67ef08eae542fb801d6cad2db",
+  "by": "opus",
+  "at": "2026-10-07T22:58:52.633Z",
+  "applied": [
+    "quote at 734s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09029300000000001
+  }
+}

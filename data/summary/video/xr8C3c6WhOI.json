@@ -1,16 +1,16 @@
 {
   "video_id": "xr8C3c6WhOI",
   "item_id": "video/yt-microsoft/xr8C3c6WhOI",
-  "summary": "AL-Go for GitHub added page scripting test support in workflows (using the BC replay npm module from 2024 Wave 2), a result visualizer, deployment of test apps to sandbox environments, and exclusion of apps by ID during deployment. Demoed in a 2025 release wave 1 What's New video.",
+  "summary": "AL-Go for GitHub (2025 release wave 1) can now run page scripting tests in workflows. It uses the BC replay npm module shipped in 2024 Wave 2, configured by a project setting that points to recording folders or files, and adds a page scripting test result visualizer. It can also deploy test apps to sandbox environments and exclude apps by ID. Test apps whose dependencies are not in AppSource are skipped automatically. Automatically running tests after deployment is planned but not yet implemented.",
   "overview": "The video covers AL-Go for GitHub changes focused on quality and testability in 2025 release wave 1. The first part shows how page scripting tests run in the AL-Go workflow with the BC replay npm module, how recordings are configured in project settings, and how results appear in a visualizer with downloadable artifacts.\n\nThe second part covers deploying test apps alongside production apps to sandbox environments, excluding apps by ID, and how test apps are handled in custom deployment scripts. The presenter notes that automatically running tests is covered only in a first version for this presentation.",
   "key_points": [
     "Page scripting tests run in the AL-Go workflow through the BC replay npm module, which shipped in 2024 Wave 2.",
-    "Page scripting recordings must be generated in Business Central first. Project settings point to the recording folders, with support for multiple folders, pattern matching and yml files.",
-    "The test result visualizer shows pass/fail status and downloadable artifacts. Video of a failed test needs extended logs.",
-    "Deploying test apps to an environment applies to sandbox environments only and needs the online environment prepared.",
-    "A new setting excludes apps by ID during deployment, given as an array of app IDs.",
-    "AL-Go automatically excludes test apps that depend on libraries not available in AppSource. It checks AppSource availability only.",
-    "With the include test apps setting on, test apps are passed to custom deployment scripts. The script author must install the dependencies."
+    "Recordings are generated in Business Central. A page scripting test project setting points to them. It is an array (several folders), picks up .yml files, and supports pattern matching or a single specific file.",
+    "The new page scripting test result visualizer shows whether each test passed. For failures, the downloadable result artifact's extended logs include a video of the test.",
+    "Test apps can be deployed alongside apps when deploying to a sandbox environment. You enable include test apps in sandbox environment in the deploy to structure of the AL-Go settings.",
+    "The new exclude app IDs array in the deploy to structure leaves specific apps out of deployment.",
+    "Test apps that depend on something not available in the AppSource gallery are automatically detected and excluded during deployment.",
+    "With the setting enabled, test apps are passed to custom deployment scripts, and the script must handle dependency installation."
   ],
   "audience": [
     "developer",

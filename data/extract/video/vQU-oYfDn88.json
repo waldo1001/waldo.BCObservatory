@@ -487,6 +487,12 @@
       "check": "exact"
     },
     {
+      "t": 77.9,
+      "text": "Uh that was used in but also only allowed for the base application in uh 2024 release wave uh 1.",
+      "why_it_matters": "Gives the history: the capability was limited to the base application before it opened to AppSource publishers.",
+      "check": "exact"
+    },
+    {
       "t": 102.2,
       "text": "you can use it for app source extensions uh targeting the runtime from uh version 150 and higher uh you can also use",
       "why_it_matters": "Specifies the exact version requirements for AppSource (runtime 150+) and on-premise (v26.0+), establishing scope and availability.",
@@ -506,14 +512,8 @@
     },
     {
       "t": 796,
-      "text": "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As",
-      "why_it_matters": "Explains the practical behavior when obsolation is applied - tables become unavailable after sync until destination takes over.",
-      "check": "exact"
-    },
-    {
-      "t": 796,
       "text": "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved.",
-      "why_it_matters": "Explains the core mechanism for marking tables and fields during the move process.",
+      "why_it_matters": "Shows the source app version that releases the tables, using the obsoletion properties.",
       "check": "exact"
     },
     {
@@ -524,14 +524,8 @@
     },
     {
       "t": 851.6,
-      "text": "takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that",
-      "why_it_matters": "Describes important validation to prevent incorrect takeovers and ensure integrity of moves.",
-      "check": "exact"
-    },
-    {
-      "t": 851.6,
       "text": "takeover from a destination extension is blocked if the source extension is moving to a different destination",
-      "why_it_matters": "Critical validation rule preventing invalid takeover attempts.",
+      "why_it_matters": "States the rule that only the declared destination can take over a moved table or field.",
       "check": "exact"
     },
     {
@@ -544,6 +538,12 @@
       "t": 1168.1,
       "text": "Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them",
       "why_it_matters": "Clarifies submission order requirement with exception for library extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1178.7,
+      "text": "Finally, consider first submitting the source and destination in preview. This way customers can upgrade both of them when both are available",
+      "why_it_matters": "Submission advice so customers don't get the source version that makes tables unavailable before the destination is ready.",
       "check": "exact"
     },
     {

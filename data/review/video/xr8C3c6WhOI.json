@@ -1,0 +1,36 @@
+{
+  "video_id": "xr8C3c6WhOI",
+  "item_id": "video/yt-microsoft/xr8C3c6WhOI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All three quotes are verbatim (t=226.7 runs on into the next segment, which is fine).",
+    "Key point 'It checks AppSource availability only' goes beyond the transcript. The video only says test apps that depend on something not in the AppSource gallery are excluded.",
+    "Key point 'Video of a failed test needs extended logs' is reworded. The transcript says the downloadable result artifact's extended logs include a video of the test.",
+    "The page leaves out that automatically running tests during deployment is a second goal that is not implemented yet. Only the first part, deploying test apps, ships now.",
+    "All features were marked unclear. The transcript supports shipped status for each one, and evidence quotes are now added."
+  ],
+  "input_hash": "2d2df5f51631c96632e906ad4ec531e2f81e55864b82076dadcb90156c8d02a4",
+  "by": "opus",
+  "at": "2026-10-07T22:57:42.118Z",
+  "applied": [
+    "quote at 196s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Page Scripting Tests in AL-Go Workflow -> ga: evidence not verbatim or does not state the status",
+    "status Page Scripting Test Result Visualizer -> ga: evidence not verbatim or does not state the status",
+    "status Deploy Test Apps to Sandbox -> ga: evidence not verbatim or does not state the status",
+    "status Exclude Apps by ID During Deployment -> ga: evidence not verbatim or does not state the status",
+    "status Automatic Test App Dependency Resolution -> ga: evidence not verbatim or does not state the status",
+    "status Page Scripting Test Settings Configuration -> ga: evidence not verbatim or does not state the status",
+    "status Custom Deployment Script Test App Support -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.087497
+  }
+}

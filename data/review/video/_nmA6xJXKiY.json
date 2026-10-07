@@ -1,0 +1,28 @@
+{
+  "video_id": "_nmA6xJXKiY",
+  "item_id": "video/yt-microsoft/_nmA6xJXKiY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts and summary are supported by the transcript; the existing quotes are verbatim.",
+    "The App Type Property feature has t_start 129.8, but the app endpoint properties are mentioned at t=143. Added a quote at 143 to cover this.",
+    "Key point 3 said only global apps can be uninstalled. The transcript says PTEs can also be uninstalled from the PTE view (t=44.7). Updated the key point.",
+    "Added a quote about the keep application data choice (t=65.7), which was missing.",
+    "Feature statuses stay unclear. The 'starting this release wave' wording does not clearly state preview or GA."
+  ],
+  "input_hash": "de35031bddcc73808097c7e4769979dd27cd2d4b3072c1f4765a250f9ca0e588",
+  "by": "opus",
+  "at": "2026-10-07T22:58:35.966Z",
+  "applied": [
+    "quote at 143s",
+    "quote at 66s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063125
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - warehouse settings
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:44.904Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:44.942Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 102
     quote: When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately.
+  - kind: video
+    url: https://www.youtube.com/watch?v=sVlPlmok5U8&t=115s
+    title: "What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)"
+    date: "2025-04-01T15:01:15.000Z"
+    commit: null
+    t: 115
+    quote: we are returning to project planning lines where you can see that quantity and cost is already registered.
 links:
   learn: []
   objects: []
@@ -123,13 +130,16 @@ quotes:
   - t: 102
     text: When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately.
     check: exact
+  - t: 115
+    text: we are returning to project planning lines where you can see that quantity and cost is already registered.
+    check: exact
 ---
 
 # What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)
 
 > Receiving project purchase items in Business Central through warehouse receipts or put-aways, from the 2025 release wave 1 What's New series. A demo shows purchase orders for project items at locations with different warehouse settings, including directed put-away and pick.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sVlPlmok5U8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sVlPlmok5U8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -141,11 +151,11 @@ The demo sets up locations with different warehouse requirements, creates a purc
 
 - Purchase orders for project items can be created for locations with directed put-away and pick, warehouse receipt, or put-away requirements.
 - A location with directed put-away and pick enabled (the white location in the demo) requires both receipt and put-away steps.
-- Locations that require put-away get an inventory put-away document; the demo uses the silver location for this.
+- Locations that require put-away get an inventory put-away document; the demo uses the silver location and posts it to receive the item.
 - Locations that require receipt get a warehouse receipt, and separate receipts are created for locations with different warehouse settings.
 - At the main location, items can be received directly from the purchase order without warehouse handling of inbound transactions.
 - When the purchase order is linked to a project, the put-away step is skipped because items are consumed immediately.
-- The demo ends by posting and registering project consumption; the project planning lines page is mentioned.
+- After the invoice is posted, the project planning lines show quantity and cost already registered.
 
 ## Chapters
 
@@ -157,12 +167,12 @@ The demo sets up locations with different warehouse requirements, creates a purc
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Warehouse processes for project purchases | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=sVlPlmok5U8&t=4s) |  |
-| Inventory put-away generation | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=sVlPlmok5U8&t=77s) |  |
-| Warehouse receipt for project items | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=sVlPlmok5U8&t=88s) |  |
-| Direct purchase order receipt without warehouse processing | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=sVlPlmok5U8&t=102s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Warehouse processes for project purchases | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=sVlPlmok5U8&t=4s) |
+| Inventory put-away generation | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=sVlPlmok5U8&t=77s) |
+| Warehouse receipt for project items | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=sVlPlmok5U8&t=88s) |
+| Direct purchase order receipt without warehouse processing | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=sVlPlmok5U8&t=102s) |
 
 ## AL objects mentioned
 
@@ -178,3 +188,4 @@ Not found in BC28-30: page "project planning lines".
 - [0:18](https://www.youtube.com/watch?v=sVlPlmok5U8&t=18s) "It allows you to create purchase orders for locations where directed putaway and pick is enabled."
 - [0:46](https://www.youtube.com/watch?v=sVlPlmok5U8&t=46s) "The white location has the directed putaway and pick setting enabled means this location requires both receipt and putaway steps."
 - [1:42](https://www.youtube.com/watch?v=sVlPlmok5U8&t=102s) "When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately."
+- [1:55](https://www.youtube.com/watch?v=sVlPlmok5U8&t=115s) "we are returning to project planning lines where you can see that quantity and cost is already registered."

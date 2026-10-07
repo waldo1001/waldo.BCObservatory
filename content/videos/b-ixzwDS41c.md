@@ -18,12 +18,12 @@ tags:
   - encryption keys
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:32.371Z"
   flags: []
 generated:
-  at: "2026-10-06T18:41:00.178Z"
+  at: "2026-10-07T22:58:32.422Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -52,12 +52,26 @@ evidence:
     t: 167
     quote: the loc must match the location of your power platform and your business central environment
   - kind: video
+    url: https://www.youtube.com/watch?v=b-ixzwDS41c&t=277s
+    title: "What's New: Customer-Managed Encryption Key (2025 release wave 1)"
+    date: "2025-04-01T15:00:54.000Z"
+    commit: null
+    t: 277
+    quote: I look for the key crypto service encryption user role select that role and then select the managed identity member to assign it to
+  - kind: video
     url: https://www.youtube.com/watch?v=b-ixzwDS41c&t=337s
     title: "What's New: Customer-Managed Encryption Key (2025 release wave 1)"
     date: "2025-04-01T15:00:54.000Z"
     commit: null
     t: 337
     quote: cmk only works on managed environments
+  - kind: video
+    url: https://www.youtube.com/watch?v=b-ixzwDS41c&t=413s
+    title: "What's New: Customer-Managed Encryption Key (2025 release wave 1)"
+    date: "2025-04-01T15:00:54.000Z"
+    commit: null
+    t: 413
+    quote: business Central environments inherit the cmk setting from their linked by platform environment
   - kind: video
     url: https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s
     title: "What's New: Customer-Managed Encryption Key (2025 release wave 1)"
@@ -177,8 +191,14 @@ quotes:
   - t: 167
     text: the loc must match the location of your power platform and your business central environment
     check: fuzzy
+  - t: 277
+    text: I look for the key crypto service encryption user role select that role and then select the managed identity member to assign it to
+    check: exact
   - t: 337
     text: cmk only works on managed environments
+    check: exact
+  - t: 413
+    text: business Central environments inherit the cmk setting from their linked by platform environment
     check: exact
   - t: 467
     text: if you unlink your environment after applying cmk your business and for environment will automatically revert to a Microsoft manage encryption key
@@ -198,7 +218,7 @@ quotes:
 
 > Customer-managed encryption key (CMK) for Business Central environment databases, using a key in the customer's own Azure Key Vault. The video demos the setup from Key Vault through Enterprise Policy to Power Platform admin center and lists the constraints: managed environment, purge protection, matching region, and copy/restore behavior.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=b-ixzwDS41c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=b-ixzwDS41c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -209,12 +229,12 @@ It walks through the setup: create a Key Vault and key in the Azure portal, enab
 ## Key points
 
 - CMK works only on managed Power Platform environments linked to the Business Central environment. Managed environments need Microsoft 365 and Power Platform licensing beyond the Business Central license.
-- Purge protection must be enabled on any Key Vault that holds a key used to encrypt a Business Central environment database.
-- The microsoft.powerplatform resource provider is not enabled by default on an Azure subscription. Enable it before creating the Enterprise Policy resource.
-- The Enterprise Policy location must match the region of the Power Platform and Business Central environments. The Key ID must match the Key Vault resource ID.
-- Applying CMK starts encrypting the database right away, which may take time. Do it when the environment can be down.
-- Unlinking the environment reverts it to a Microsoft-managed key. A copy or restore creates a new environment that is not encrypted with CMK by default, so it needs a new link and CMK applied again.
-- An exported backup in the storage account is encrypted with Microsoft-managed keys by default. It can be re-encrypted with a customer-managed key. Separate the key administrator role from the Dynamics 365/Power Platform administrator role.
+- The Key Vault region must match the Business Central environment region, and purge protection must be enabled on any Key Vault holding a key used to encrypt an environment database. Other optional Key Vault and key settings are not required.
+- The microsoft.powerplatform resource provider is not enabled by default on an Azure subscription. Register it before deploying the Enterprise Policy resource from the custom template sample in the Power Platform documentation.
+- The Enterprise Policy location must match the region of the Power Platform and Business Central environments, and the key ID must match the ID of the key resource containing the encryption key.
+- Grant the Power Platform admin user the Reader role on the Enterprise Policy, and assign the Key Vault Crypto Service Encryption User role on the Key Vault to the Enterprise Policy's managed identity (Power Platform type).
+- In Power Platform admin center, go to Security > Data and privacy > Customer managed encryption key, edit the policy and add the environment. Encryption starts right away and may take time, so apply it when the environment can be down.
+- Business Central environments inherit CMK from their linked Power Platform environment. Linking requires the BC environment to be unlinked elsewhere, in the same region, and of the same type (e.g. both production).
 
 ## Chapters
 
@@ -230,23 +250,25 @@ It walks through the setup: create a Key Vault and key in the Azure portal, enab
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer-Managed Encryption Key (CMK) | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=b-ixzwDS41c&t=5s) |  |
-| Purge Protection on Key Vaults | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=b-ixzwDS41c&t=46s) |  |
-| Managed Environments Requirement | status not stated, demoed | [8:28](https://www.youtube.com/watch?v=b-ixzwDS41c&t=508s) |  |
-| Enterprise Policy Resource | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=b-ixzwDS41c&t=147s) |  |
-| Power Platform Resource Provider Registration | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=b-ixzwDS41c&t=106s) |  |
-| CMK Environment Unlinking Behavior | status not stated | [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) |  |
-| CMK with Environment Copy and Restore | status not stated | [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) |  |
-| CMK Export and Storage Account Encryption | status not stated | [8:08](https://www.youtube.com/watch?v=b-ixzwDS41c&t=488s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer-Managed Encryption Key (CMK) | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=b-ixzwDS41c&t=5s) |
+| Purge Protection on Key Vaults | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=b-ixzwDS41c&t=46s) |
+| Managed Environments Requirement | status not stated, demoed | [8:28](https://www.youtube.com/watch?v=b-ixzwDS41c&t=508s) |
+| Enterprise Policy Resource | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=b-ixzwDS41c&t=147s) |
+| Power Platform Resource Provider Registration | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=b-ixzwDS41c&t=106s) |
+| CMK Environment Unlinking Behavior | status not stated | [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) |
+| CMK with Environment Copy and Restore | status not stated | [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) |
+| CMK Export and Storage Account Encryption | status not stated | [8:08](https://www.youtube.com/watch?v=b-ixzwDS41c&t=488s) |
 
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=b-ixzwDS41c&t=5s) "this is a new functionality that uh delivers on a need that we frequently hear from customers with very Advanced uh data governance uh"
 - [0:46](https://www.youtube.com/watch?v=b-ixzwDS41c&t=46s) "the perge protection this must be enabled on key vaults that contain a key um that will be used to encrypt your environment database"
 - [2:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=167s) "the loc must match the location of your power platform and your business central environment"
+- [4:37](https://www.youtube.com/watch?v=b-ixzwDS41c&t=277s) "I look for the key crypto service encryption user role select that role and then select the managed identity member to assign it to"
 - [5:37](https://www.youtube.com/watch?v=b-ixzwDS41c&t=337s) "cmk only works on managed environments"
+- [6:53](https://www.youtube.com/watch?v=b-ixzwDS41c&t=413s) "business Central environments inherit the cmk setting from their linked by platform environment"
 - [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) "if you unlink your environment after applying cmk your business and for environment will automatically revert to a Microsoft manage encryption key"
 - [7:47](https://www.youtube.com/watch?v=b-ixzwDS41c&t=467s) "if you copy or restore your environment um while it is encrypted with cmk you create a new environment that will not by default"
 - [8:28](https://www.youtube.com/watch?v=b-ixzwDS41c&t=508s) "and that is required for ck to work to use a managed environment this comes with"

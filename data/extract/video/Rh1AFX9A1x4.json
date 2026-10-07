@@ -59,10 +59,10 @@
     {
       "name": "Add columns from related tables in analysis mode",
       "description": "Users can now add fields from related tables and pages directly in analysis mode on list pages without requiring developers to create queries. Users can join tables through existing table relationships and perform complex analysis on the combined data.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 101.2,
+      "status_evidence_quote": "this is coming this release but it's also coming in a minor so you will have to wait a bit more",
+      "status_evidence_verified": true,
       "t_start": 81.1,
       "t_end": 511,
       "is_demoed": true,
@@ -195,6 +195,12 @@
       "text": "the only limitations that we have with this redit h fields are that copilot assist is not just supported on them",
       "why_it_matters": "States the key limitations of the new related fields feature",
       "check": "fuzzy"
+    },
+    {
+      "t": 552,
+      "text": "which is supported from 2024 release Wave 2 as a basically a back port in version 25.3",
+      "why_it_matters": "Gives the version where opening Excel from the analysis tab context menu is available.",
+      "check": "exact"
     },
     {
       "t": 653.5,

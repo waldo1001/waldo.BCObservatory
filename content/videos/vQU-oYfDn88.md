@@ -20,12 +20,12 @@ tags:
   - breaking changes
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:00.382Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:00.423Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -46,6 +46,13 @@ evidence:
     commit: null
     t: 77
     quote: now we also extend that capability to publishers uh to make it much more efficient for them to refactor their apps source extensions
+  - kind: video
+    url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=77s
+    title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
+    date: "2025-04-01T15:01:13.000Z"
+    commit: null
+    t: 77
+    quote: Uh that was used in but also only allowed for the base application in uh 2024 release wave uh 1.
   - kind: video
     url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=102s
     title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
@@ -73,13 +80,6 @@ evidence:
     date: "2025-04-01T15:01:13.000Z"
     commit: null
     t: 796
-    quote: In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As
-  - kind: video
-    url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=796s
-    title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
-    date: "2025-04-01T15:01:13.000Z"
-    commit: null
-    t: 796
     quote: In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved.
   - kind: video
     url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=840s
@@ -88,13 +88,6 @@ evidence:
     commit: null
     t: 840
     quote: you don't need to make new extensions to move tables and fields to them. You can use existing extensions as uh destinations as long
-  - kind: video
-    url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s
-    title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
-    date: "2025-04-01T15:01:13.000Z"
-    commit: null
-    t: 851
-    quote: takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that
   - kind: video
     url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s
     title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
@@ -116,6 +109,13 @@ evidence:
     commit: null
     t: 1168
     quote: Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them
+  - kind: video
+    url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=1178s
+    title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
+    date: "2025-04-01T15:01:13.000Z"
+    commit: null
+    t: 1178
+    quote: Finally, consider first submitting the source and destination in preview. This way customers can upgrade both of them when both are available
   - kind: video
     url: https://www.youtube.com/watch?v=vQU-oYfDn88&t=1265s
     title: "What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)"
@@ -285,6 +285,9 @@ quotes:
   - t: 77
     text: now we also extend that capability to publishers uh to make it much more efficient for them to refactor their apps source extensions
     check: exact
+  - t: 77
+    text: Uh that was used in but also only allowed for the base application in uh 2024 release wave uh 1.
+    check: exact
   - t: 102
     text: you can use it for app source extensions uh targeting the runtime from uh version 150 and higher uh you can also use
     check: fuzzy
@@ -295,16 +298,10 @@ quotes:
     text: The rule of thumb to ensure success when you are doing a move is that the source extension in a move must be deployed
     check: exact
   - t: 796
-    text: In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As
-    check: exact
-  - t: 796
     text: In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved.
     check: exact
   - t: 840
     text: you don't need to make new extensions to move tables and fields to them. You can use existing extensions as uh destinations as long
-    check: exact
-  - t: 851
-    text: takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that
     check: exact
   - t: 851
     text: takeover from a destination extension is blocked if the source extension is moving to a different destination
@@ -314,6 +311,9 @@ quotes:
     check: exact
   - t: 1168
     text: Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them
+    check: exact
+  - t: 1178
+    text: Finally, consider first submitting the source and destination in preview. This way customers can upgrade both of them when both are available
     check: exact
   - t: 1265
     text: If we are moving a field from a table extension to a table extension, then there is no data transfer happening. It is just
@@ -330,7 +330,7 @@ quotes:
 
 > Moving tables and fields between AppSource extensions in AL without writing upgrade code, in the 2025 release wave 1. It covers the ObsoleteState pending move with MoveTo/MoveFrom properties, the move down, move up and lateral scenarios, propagate dependencies, deployment order, and AppSource validation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vQU-oYfDn88) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 22:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vQU-oYfDn88) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 22:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -367,25 +367,25 @@ It walks through how a move works: the source extension marks objects with the p
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Move Tables and Fields Between Extensions | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=vQU-oYfDn88&t=5s) |  |
-| Obsolation Property with Pending Move State | status not stated, demoed | [7:27](https://www.youtube.com/watch?v=vQU-oYfDn88&t=447s) |  |
-| MoveTo and MoveFrom Properties | status not stated, demoed | [7:37](https://www.youtube.com/watch?v=vQU-oYfDn88&t=457s) |  |
-| Move Down Scenario | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=vQU-oYfDn88&t=219s) |  |
-| Move Up Scenario | status not stated, demoed | [4:36](https://www.youtube.com/watch?v=vQU-oYfDn88&t=276s) |  |
-| Lateral Move Scenario | status not stated, demoed | [5:06](https://www.youtube.com/watch?v=vQU-oYfDn88&t=306s) |  |
-| Field Movement Constraints | status not stated | [5:43](https://www.youtube.com/watch?v=vQU-oYfDn88&t=343s) |  |
-| Propagate Dependencies Property | status not stated, demoed | [10:53](https://www.youtube.com/watch?v=vQU-oYfDn88&t=653s) |  |
-| Movement Happens During Sync Stage | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=vQU-oYfDn88&t=706s) |  |
-| VS Code Deployment for Development Testing | status not stated | [12:19](https://www.youtube.com/watch?v=vQU-oYfDn88&t=739s) |  |
-| Reusing Existing Extensions as Move Destinations | status not stated | [14:00](https://www.youtube.com/watch?v=vQU-oYfDn88&t=840s) |  |
-| Takeover Validation - Single Destination Only | status not stated | [14:11](https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s) |  |
-| Fallback to New Table Creation if Source Not Published | status not stated | [14:33](https://www.youtube.com/watch?v=vQU-oYfDn88&t=873s) |  |
-| Moving Dependent Objects and Dependencies | status not stated, demoed | [14:53](https://www.youtube.com/watch?v=vQU-oYfDn88&t=893s) |  |
-| AppSource move validation | status not stated, demoed | [16:28](https://www.youtube.com/watch?v=vQU-oYfDn88&t=988s) |  |
-| Local move validation through AppSource scope analyzer | status not stated, demoed | [18:46](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1126s) |  |
-| Table and field move performance optimization | status not stated, demoed | [20:25](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1225s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Move Tables and Fields Between Extensions | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=vQU-oYfDn88&t=5s) |
+| Obsolation Property with Pending Move State | status not stated, demoed | [7:27](https://www.youtube.com/watch?v=vQU-oYfDn88&t=447s) |
+| MoveTo and MoveFrom Properties | status not stated, demoed | [7:37](https://www.youtube.com/watch?v=vQU-oYfDn88&t=457s) |
+| Move Down Scenario | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=vQU-oYfDn88&t=219s) |
+| Move Up Scenario | status not stated, demoed | [4:36](https://www.youtube.com/watch?v=vQU-oYfDn88&t=276s) |
+| Lateral Move Scenario | status not stated, demoed | [5:06](https://www.youtube.com/watch?v=vQU-oYfDn88&t=306s) |
+| Field Movement Constraints | status not stated | [5:43](https://www.youtube.com/watch?v=vQU-oYfDn88&t=343s) |
+| Propagate Dependencies Property | status not stated, demoed | [10:53](https://www.youtube.com/watch?v=vQU-oYfDn88&t=653s) |
+| Movement Happens During Sync Stage | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=vQU-oYfDn88&t=706s) |
+| VS Code Deployment for Development Testing | status not stated | [12:19](https://www.youtube.com/watch?v=vQU-oYfDn88&t=739s) |
+| Reusing Existing Extensions as Move Destinations | status not stated | [14:00](https://www.youtube.com/watch?v=vQU-oYfDn88&t=840s) |
+| Takeover Validation - Single Destination Only | status not stated | [14:11](https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s) |
+| Fallback to New Table Creation if Source Not Published | status not stated | [14:33](https://www.youtube.com/watch?v=vQU-oYfDn88&t=873s) |
+| Moving Dependent Objects and Dependencies | status not stated, demoed | [14:53](https://www.youtube.com/watch?v=vQU-oYfDn88&t=893s) |
+| AppSource move validation | status not stated, demoed | [16:28](https://www.youtube.com/watch?v=vQU-oYfDn88&t=988s) |
+| Local move validation through AppSource scope analyzer | status not stated, demoed | [18:46](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1126s) |
+| Table and field move performance optimization | status not stated, demoed | [20:25](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1225s) |
 
 ## AL objects mentioned
 
@@ -403,16 +403,16 @@ Not found in BC28-30: table "Sales", table "Inventory", table "food items", page
 
 - [1:06](https://www.youtube.com/watch?v=vQU-oYfDn88&t=66s) "in uh the previous release uh we added the ability in the platform uh for AL developers to move tables and fields between extensions"
 - [1:17](https://www.youtube.com/watch?v=vQU-oYfDn88&t=77s) "now we also extend that capability to publishers uh to make it much more efficient for them to refactor their apps source extensions"
+- [1:17](https://www.youtube.com/watch?v=vQU-oYfDn88&t=77s) "Uh that was used in but also only allowed for the base application in uh 2024 release wave uh 1."
 - [1:42](https://www.youtube.com/watch?v=vQU-oYfDn88&t=102s) "you can use it for app source extensions uh targeting the runtime from uh version 150 and higher uh you can also use"
 - [1:59](https://www.youtube.com/watch?v=vQU-oYfDn88&t=119s) "Uh per tenant extensions are not uh supported for this. Uh in in cloud you can use the for sync uh and upgrade code"
 - [12:05](https://www.youtube.com/watch?v=vQU-oYfDn88&t=725s) "The rule of thumb to ensure success when you are doing a move is that the source extension in a move must be deployed"
-- [13:16](https://www.youtube.com/watch?v=vQU-oYfDn88&t=796s) "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved. As"
 - [13:16](https://www.youtube.com/watch?v=vQU-oYfDn88&t=796s) "In version two of our monolith app where we are moving them out, we use the obsolution properties to set them as moved."
 - [14:00](https://www.youtube.com/watch?v=vQU-oYfDn88&t=840s) "you don't need to make new extensions to move tables and fields to them. You can use existing extensions as uh destinations as long"
-- [14:11](https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s) "takeover from a destination extension is blocked if the source extension is moving to a different destination. That means that there is validation that"
 - [14:11](https://www.youtube.com/watch?v=vQU-oYfDn88&t=851s) "takeover from a destination extension is blocked if the source extension is moving to a different destination"
 - [17:20](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1040s) "The process is quite straightforward for submitting to appsource because it handles most of the validation automatically."
 - [19:28](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1168s) "Submit the source extension first and then the destination. If you are moving down to a library extension, you can put both of them"
+- [19:38](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1178s) "Finally, consider first submitting the source and destination in preview. This way customers can upgrade both of them when both are available"
 - [21:05](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1265s) "If we are moving a field from a table extension to a table extension, then there is no data transfer happening. It is just"
 - [21:58](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1318s) "moving tables and fields is a feature that empowers the L developer to refactor their extensions to modular, more maintainable parts"
 - [22:23](https://www.youtube.com/watch?v=vQU-oYfDn88&t=1343s) "such changes u can still have some downstream impact on uh any uh partner that are building on top of your solution"

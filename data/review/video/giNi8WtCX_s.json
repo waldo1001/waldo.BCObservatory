@@ -1,0 +1,27 @@
+{
+  "video_id": "giNi8WtCX_s",
+  "item_id": "video/yt-microsoft/giNi8WtCX_s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim in the transcript. The one at t=82 that runs into the next segment is fine.",
+    "The key point and the Select items feature description both say you can update quantities for all selected items. The transcript only says 'ensure quantities are updated', so I reworded the key point to match.",
+    "The certification feature description says certification is 'required' before closing. The transcript only says a confirmation dialog appears if the status is not certified, and then you certify and close again. This is a small overstatement and was left in place.",
+    "'Edit and Excel' in the captions is a transcription error for Edit in Excel. The feature name is fine.",
+    "The key points were missing BOM navigation from the item, so I added it.",
+    "No feature status is stated as preview or GA. 'Starting from this release' points to the release wave, not a status, so all features stay unclear."
+  ],
+  "input_hash": "6c1e115abaa525e279c5f4f4b9c84f133ddb0ddc2360b4c362df29c15b9f7e63",
+  "by": "opus",
+  "at": "2026-10-07T22:58:18.895Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048137
+  }
+}

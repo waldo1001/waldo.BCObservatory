@@ -1,0 +1,30 @@
+{
+  "video_id": "vQU-oYfDn88",
+  "item_id": "video/yt-microsoft/vQU-oYfDn88",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Duplicate quotes: two at t=796 and two at t=851.6, where one copy of each is a shortened version of the other. Dropped both entries at each time and added one full quote back for each.",
+    "All other quotes are verbatim, including the ones that run into the next segment.",
+    "The summary and key points match the transcript: pending move with MoveTo and MoveFrom, the move down, move up and lateral scenarios, propagate dependencies, sync-stage deployment order, AppSource validation and performance.",
+    "The transcript does not state a preview or GA status for any feature, so every feature status stays unclear.",
+    "Added a quote saying the capability was previously limited to the base application in 2024 release wave 1. Added another with the advice to submit the source and destination in preview."
+  ],
+  "input_hash": "b9dcbc32e59b98a89ff7d90a7272ff966bb592b4cb9509bca4b782e29cc1f340",
+  "by": "opus",
+  "at": "2026-10-07T22:58:00.382Z",
+  "applied": [
+    "dropped 4 quote(s)",
+    "quote at 796s",
+    "quote at 852s",
+    "quote at 78s",
+    "quote at 1179s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.133909
+  }
+}

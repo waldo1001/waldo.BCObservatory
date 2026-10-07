@@ -1,0 +1,28 @@
+{
+  "video_id": "zCmzehADz2s",
+  "item_id": "video/yt-microsoft/zCmzehADz2s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary, key points and feature statuses are supported by the transcript: the speaker says it will not be released in April but in 26.1, coming in May, and that there are 14 new reports.",
+    "The quote at 97.3 is filler that stops mid-sentence. Dropped it and replaced it with a quote about drill-through to details.",
+    "Added a quote about the AI or statistical model explaining the key contributors to churn, to support the AI analysis key point.",
+    "Minor: the 'Revenue by customer report' t_start of 359.8 is a little early; the report is first described at 372.4. Left as is.",
+    "The revenue forecast description says the report is 'based on' sales and cost forecasts. The transcript only says it shows a sales forecast and a cost forecast. This is a small inference, left as is."
+  ],
+  "input_hash": "c564db2e8df564affff95a196342e9dd812fc60ed159f71e0e85d38d92b3bf13",
+  "by": "opus",
+  "at": "2026-10-07T22:57:35.671Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 78s",
+    "quote at 293s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.071941
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=cuez5kIanKo",
   "published_at": "2025-04-01T15:01:00.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T18:39:48.925Z",
+      "at": "2026-10-07T22:58:08.641Z",
       "path": "content/videos/cuez5kIanKo.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:58:08.595Z",
+      "path": "data/review/video/cuez5kIanKo.json",
+      "verdict": "fix",
+      "applied": 1,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.034633
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c25f4c2906028da1fe02c8fd7763fe644f918db26f6b2897d2365f8dfbc7d71"
+  "output_hash": "077a40f30c9f00724beadb9928681158a094c146696f829da21fd485a0ec011c",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:58:08.591Z"
+  }
 }

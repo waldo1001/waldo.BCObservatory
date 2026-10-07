@@ -18,12 +18,12 @@ tags:
   - production orders
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:14.287Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:14.329Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,7 +36,7 @@ evidence:
     date: "2025-04-01T15:01:00.000Z"
     commit: null
     t: 274
-    quote: this is in public preview.
+    quote: When you enable this value chain tracking field, you will get warning message. Why warning message? Because again this is in public preview.
   - kind: video
     url: https://www.youtube.com/watch?v=bnqxycPzbeI&t=81s
     title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
@@ -57,7 +57,7 @@ evidence:
     date: "2025-04-01T15:01:00.000Z"
     commit: null
     t: 143
-    quote: So this is something what you will get. Okay let's see how it works with transfer orders first what I want to emphasize it
+    quote: Okay let's see how it works with transfer orders first what I want to emphasize it works with carbon equivalent only.
   - kind: video
     url: https://www.youtube.com/watch?v=bnqxycPzbeI&t=156s
     title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
@@ -93,6 +93,13 @@ evidence:
     commit: null
     t: 382
     quote: when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here
+  - kind: video
+    url: https://www.youtube.com/watch?v=bnqxycPzbeI&t=553s
+    title: "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)"
+    date: "2025-04-01T15:01:00.000Z"
+    commit: null
+    t: 553
+    quote: there is no sustainability ledger entry because sustainability ledger entry is related only with incoming emissions not internal.
 links:
   learn: []
   objects:
@@ -188,7 +195,7 @@ quotes:
     text: So this is the completed functionality value chain is in this moment public review.
     check: exact
   - t: 143
-    text: So this is something what you will get. Okay let's see how it works with transfer orders first what I want to emphasize it
+    text: Okay let's see how it works with transfer orders first what I want to emphasize it works with carbon equivalent only.
     check: exact
   - t: 156
     text: So system will calculate whatever you enter all three gas emissions system will automatically calculate to carbon equivalent and all these future tracking with
@@ -205,13 +212,16 @@ quotes:
   - t: 382
     text: when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here
     check: exact
+  - t: 553
+    text: there is no sustainability ledger entry because sustainability ledger entry is related only with incoming emissions not internal.
+    check: exact
 ---
 
 # What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)
 
 > Sustainability value chain tracking in Business Central 2025 release wave 1, shown with transfer orders for internal transport emissions. Covers sustainability value entries, the Value Chain Tracking setup field (public preview), item card emissions and purchase invoice posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bnqxycPzbeI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=bnqxycPzbeI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -221,13 +231,13 @@ The demo shows enabling value chain tracking in Sustainability Setup, entering e
 
 ## Key points
 
-- Value Chain Tracking is a new field in Sustainability Setup under the Procurement fast tab. It is in public preview, and enabling it shows a warning.
-- With tracking enabled, posting creates both a sustainability ledger entry and a sustainability value entry. Without it, only the ledger entry is posted.
-- The item card shows CO2, methane and nitrous oxide fields. The system calculates CO2 equivalent, and values need manual entry if there is no purchase history.
-- Posting a purchase invoice creates sustainability value entries and updates item emissions with actual values, only if value chain tracking is enabled.
-- Transfer orders track internal transport emissions with carbon equivalent only, entered at line level. Emissions per unit are calculated when the transfer shipment is posted.
-- Emissions appear in the posted transfer shipment but not in the posted transfer receipt.
-- Current limits: average costing method only, no item charges yet, and no print output for the sales invoice in this release.
+- Value Chain Tracking is a new field in Sustainability Setup under the Procurement fast tab. It is in public preview, and enabling it shows a warning recommending testing in a sandbox first.
+- With tracking enabled, posting a purchase document creates both a sustainability ledger entry and a sustainability value entry. Without it, only the ledger entry is posted.
+- The item card shows CO2, methane and nitrous oxide fields. With no purchase history you can enter values manually and run Calculate CO2E. Posting a purchase invoice then fills these values and CO2e per unit automatically.
+- Transfer orders track internal transport emissions in carbon equivalent only. The new field is visible only when tracking is enabled, and emissions are entered on each line (no header option).
+- Posting a transfer shipment creates sustainability value entries with CO2e per unit but no sustainability ledger entry, because ledger entries cover only incoming emissions.
+- Emissions appear in the posted transfer shipment but not in the posted transfer receipt. The item's CO2e per unit increases afterwards (for example from 111 to 121).
+- Current limits: average method only, item charges not supported until next wave, and no print output for sales invoice emissions in this release.
 
 ## Chapters
 
@@ -250,7 +260,7 @@ The demo shows enabling value chain tracking in Sustainability Setup, entering e
 | Value Chain Tracking in Transfer Orders | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=bnqxycPzbeI&t=143s) |  |
 | Emissions from Production and Assembly Orders | status not stated | [1:50](https://www.youtube.com/watch?v=bnqxycPzbeI&t=110s) |  |
 | Sales Invoice Emissions Display | status not stated | [1:50](https://www.youtube.com/watch?v=bnqxycPzbeI&t=110s) |  |
-| Value Chain Tracking Setup | preview, demoed | [4:22](https://www.youtube.com/watch?v=bnqxycPzbeI&t=262s) | "this is in public preview." ([4:34](https://www.youtube.com/watch?v=bnqxycPzbeI&t=274s)) |
+| Value Chain Tracking Setup | preview, demoed | [4:22](https://www.youtube.com/watch?v=bnqxycPzbeI&t=262s) | "When you enable this value chain tracking field, you will get warning message. Why warning message? Because again this is in public preview." ([4:34](https://www.youtube.com/watch?v=bnqxycPzbeI&t=274s)) |
 | Item Card Emissions Fields | status not stated, demoed | [5:13](https://www.youtube.com/watch?v=bnqxycPzbeI&t=313s) |  |
 | Automatic Emission Updates from Purchase Documents | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=bnqxycPzbeI&t=360s) |  |
 | Sustainability Ledger Entry vs Value Entry Posting | status not stated, demoed | [6:22](https://www.youtube.com/watch?v=bnqxycPzbeI&t=382s) |  |
@@ -266,12 +276,13 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [1:21](https://www.youtube.com/watch?v=bnqxycPzbeI&t=81s) "Now we have sustainability value entry. What we have there? We have inbound emissions in this moment only from items."
 - [1:33](https://www.youtube.com/watch?v=bnqxycPzbeI&t=93s) "So this is the completed functionality value chain is in this moment public review."
-- [2:23](https://www.youtube.com/watch?v=bnqxycPzbeI&t=143s) "So this is something what you will get. Okay let's see how it works with transfer orders first what I want to emphasize it"
+- [2:23](https://www.youtube.com/watch?v=bnqxycPzbeI&t=143s) "Okay let's see how it works with transfer orders first what I want to emphasize it works with carbon equivalent only."
 - [2:36](https://www.youtube.com/watch?v=bnqxycPzbeI&t=156s) "So system will calculate whatever you enter all three gas emissions system will automatically calculate to carbon equivalent and all these future tracking with"
 - [3:37](https://www.youtube.com/watch?v=bnqxycPzbeI&t=217s) "What is important when you post you will not get uh emissions information in both of posted documents in posted transfer uh shipment receipt."
 - [3:47](https://www.youtube.com/watch?v=bnqxycPzbeI&t=227s) "in this moment in this way we are limited only on average method in the future we will see on your"
 - [4:34](https://www.youtube.com/watch?v=bnqxycPzbeI&t=274s) "When you enable this value chain tracking field, you will get warning message. Why warning message? Because again this is in public preview."
 - [6:22](https://www.youtube.com/watch?v=bnqxycPzbeI&t=382s) "when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here"
+- [9:13](https://www.youtube.com/watch?v=bnqxycPzbeI&t=553s) "there is no sustainability ledger entry because sustainability ledger entry is related only with incoming emissions not internal."
 
 ## Disclaimers in the video
 

@@ -91,8 +91,8 @@
       "name": "Aged Accounts Receivables Excel Report",
       "description": "An Excel report with printable version and three analytical worksheets allowing analysis by local currency period, foreign currency, and currency codes with pivot tables and slicers.",
       "status": "ga",
-      "status_evidence_t": 30.1,
-      "status_evidence_quote": "made the Excel reports that were in preview generally available",
+      "status_evidence_t": 373.9,
+      "status_evidence_quote": "this is just one of of the finance reports that is now generally available in version 20 25 release Wave 1",
       "status_evidence_verified": true,
       "t_start": 90.8,
       "t_end": 333.4,
@@ -152,7 +152,7 @@
       "description": "New query allowing flexible analysis of sales orders by joining sales header to sales line data, enabling grouping and analysis by customer and other dimensions.",
       "status": "announced",
       "status_evidence_t": 515.4,
-      "status_evidence_quote": "it will come in version 26",
+      "status_evidence_quote": "in sales and purchasing we also gave you a little bonus it will come in version 26.",
       "status_evidence_verified": true,
       "t_start": 515.4,
       "t_end": 598.7,
@@ -173,7 +173,7 @@
       "description": "New query for flexible analysis of purchase orders by joining purchase header to purchase line data, similar to sales order performance analysis.",
       "status": "announced",
       "status_evidence_t": 515.4,
-      "status_evidence_quote": "it will come in version 26",
+      "status_evidence_quote": "in sales and purchasing we also gave you a little bonus it will come in version 26.",
       "status_evidence_verified": true,
       "t_start": 515.4,
       "t_end": 598.7,
@@ -307,9 +307,21 @@
       "check": "exact"
     },
     {
+      "t": 638.9,
+      "text": "as a bonus that you already have in your environment today if you're on a version 25.3 or later",
+      "why_it_matters": "States that the fixed asset ad hoc analysis query is already available from version 25.3.",
+      "check": "exact"
+    },
+    {
       "t": 760.4,
       "text": "in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a",
       "why_it_matters": "Explains where legacy reports can be found and the organizational change made to separate them from modern reports.",
+      "check": "exact"
+    },
+    {
+      "t": 780.6,
+      "text": "later release wave this group will be removed and you can you should only be able to find these in the RO Explorer",
+      "why_it_matters": "Explains how the legacy Excel reports will be phased out.",
       "check": "exact"
     }
   ],

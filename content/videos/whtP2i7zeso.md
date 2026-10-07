@@ -15,12 +15,12 @@ tags:
   - intercompany reporting
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:46.346Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:46.382Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,11 +119,6 @@ features:
     t: 87
     verified: false
     status_source: video
-  - name: Document option for VAT number selection
-    status: unclear
-    t: 120
-    verified: false
-    status_source: video
   - name: Document check fact box for Intrastat validation
     status: unclear
     t: 182
@@ -159,7 +154,7 @@ quotes:
 
 > Intrastat enhancements in Business Central 2025 release wave 1: mandatory fields for sales, service and purchase Intrastat documents, a document option for picking the VAT number (ship-to based), and a Document check fact box on the sales order. A demo shows setup, validation and posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=whtP2i7zeso) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 5:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=whtP2i7zeso) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 5:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -169,12 +164,12 @@ The demo configures mandatory fields (transaction type and transfer method are t
 
 ## Key points
 
-- Mandatory fields can be set for sales, service and purchase Intrastat documents, so posting is blocked until the required information is entered. Configuration is needed per document type.
+- Mandatory fields can be chosen for sales, service and purchase Intrastat documents, so users must enter the required information at or before posting.
 - The demo uses transaction type and transfer method as the mandatory field examples.
-- A new document option in Intrastat setup picks the VAT registration number directly from the posted document, based on the ship-to address. It complements the existing sell-to and bill-to customer options.
-- Using this requires VAT numbers to be configured per address, and it ties into the new multiple VAT numbers functionality for customers.
-- The Document check fact box must be enabled. It then lists the missing mandatory field values on the sales order before posting.
-- Further technical improvements to Intrastat are announced with no UI changes, possibly in version 26.12. Details are to be published in documentation.
+- Alongside the existing sell-to and bill-to customer options, a new document option picks the VAT registration number directly from the posted document. In the demo, it is taken from the alternative ship-to address.
+- The change is driven by the new multiple VAT numbers functionality for customers.
+- An optional Document check fact box can be enabled on the sales order. It lists missing mandatory field values right away, before posting.
+- Further technical improvements to Intrastat, mostly not visible in the UI, are announced, probably for 26.12. Details are to be published in documentation.
 
 ## Chapters
 
@@ -194,7 +189,6 @@ The demo configures mandatory fields (transaction type and transfer method are t
 |---|---|---|---|
 | Mandatory fields for Intrastat documents | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=whtP2i7zeso&t=46s) |  |
 | Multiple VAT numbers support for Intrastat | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=whtP2i7zeso&t=87s) |  |
-| Document option for VAT number selection | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=whtP2i7zeso&t=120s) |  |
 | Document check fact box for Intrastat validation | status not stated, demoed | [3:02](https://www.youtube.com/watch?v=whtP2i7zeso&t=182s) |  |
 | Technical improvements to Intrastat (future) | announced | [4:47](https://www.youtube.com/watch?v=whtP2i7zeso&t=287s) | "some other technical improvements will come related to interstat uh probably 26.12" ([4:47](https://www.youtube.com/watch?v=whtP2i7zeso&t=287s)) |
 

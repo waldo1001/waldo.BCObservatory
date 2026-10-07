@@ -1,0 +1,33 @@
+{
+  "video_id": "Rh1AFX9A1x4",
+  "item_id": "video/yt-microsoft/Rh1AFX9A1x4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All feature statuses were left unclear, but the transcript gives a status for two of them.",
+    "Related tables: the speaker says it ships in a minor update after GA, estimated at 26.2 or earlier, so the status is announced.",
+    "Open in Excel: the data area context menu works in all versions, and the analysis tab context menu is supported from 2024 release wave 2, backported in 25.3. Status set to ga.",
+    "AL get URL parameter: kept as unclear. The closing remark about availability after GA most likely refers to the related-tables feature.",
+    "Copilot analysis assist: kept as unclear. It is an earlier feature, mentioned only for context.",
+    "Quotes check out against the transcript. One Excel key point now includes the version details."
+  ],
+  "input_hash": "7e966efbb561dc8b3c56f76a7a35c6718f442f810328397e78df5956b5b6dcb2",
+  "by": "opus",
+  "at": "2026-10-07T22:59:01.473Z",
+  "applied": [
+    "Add columns from related tables in analysis mode: status announced",
+    "AL get URL method parameter for analysis layout: status unclear",
+    "Copilot analysis assist: status unclear",
+    "quote at 552s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Open analysis mode data in Excel -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08686100000000001
+  }
+}

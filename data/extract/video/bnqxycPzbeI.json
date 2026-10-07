@@ -167,7 +167,7 @@
       "description": "New setup field in Sustainability Setup under Procurement fast tab to enable value chain tracking. When enabled, causes system to post both sustainability ledger entries and sustainability value entries.",
       "status": "preview",
       "status_evidence_t": 274.6,
-      "status_evidence_quote": "this is in public preview.",
+      "status_evidence_quote": "When you enable this value chain tracking field, you will get warning message. Why warning message? Because again this is in public preview.",
       "status_evidence_verified": true,
       "t_start": 262.2,
       "t_end": 313.1,
@@ -276,8 +276,8 @@
     },
     {
       "t": 143.1,
-      "text": "So this is something what you will get. Okay let's see how it works with transfer orders first what I want to emphasize it",
-      "why_it_matters": "Key design decision that the feature converts all three greenhouse gas emissions to carbon equivalent for tracking purposes.",
+      "text": "Okay let's see how it works with transfer orders first what I want to emphasize it works with carbon equivalent only.",
+      "why_it_matters": "States that transfer order emissions tracking uses carbon equivalent only.",
       "check": "exact"
     },
     {
@@ -308,6 +308,12 @@
       "t": 382.6,
       "text": "when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here",
       "why_it_matters": "Explains conditional posting behavior based on whether value chain tracking is enabled in setup.",
+      "check": "exact"
+    },
+    {
+      "t": 553.2,
+      "text": "there is no sustainability ledger entry because sustainability ledger entry is related only with incoming emissions not internal.",
+      "why_it_matters": "Explains why transfer shipments create only sustainability value entries.",
       "check": "exact"
     }
   ],

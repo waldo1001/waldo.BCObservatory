@@ -1,0 +1,28 @@
+{
+  "video_id": "whtP2i7zeso",
+  "item_id": "video/yt-microsoft/whtP2i7zeso",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Document option for VAT number selection' says the option replaces the sell-to/bill-to options. The transcript says it was added alongside them ('we also addit a document option'). It also duplicates 'Multiple VAT numbers support for Intrastat', so I dropped it.",
+    "Key point claims VAT numbers must be configured per address. The transcript does not say this; the demo only shows a VAT number being picked for the ship-to address.",
+    "Key point says configuration is needed per document type. The transcript only says you can choose mandatory fields for sales, service and purchase documents.",
+    "Topic 'intercompany reporting' is not supported by the transcript (no edit field available).",
+    "All five quotes are verbatim; some run across segment boundaries, which is allowed.",
+    "The 'announced' status for the technical improvements is supported at t=287.4. The other features are described as new in this wave, but the transcript gives no explicit preview or GA status, so they stay unclear."
+  ],
+  "input_hash": "96a259affc0dd44171efdd3e0d5c386bab25b32b1deb871e704a74b08f4a1f55",
+  "by": "opus",
+  "at": "2026-10-07T22:57:46.346Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.067825
+  }
+}

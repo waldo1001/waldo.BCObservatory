@@ -273,10 +273,10 @@
     {
       "name": "Sales Order Agent PDF Preview",
       "description": "Ability to preview PDFs within Business Central, with benefits to both the sales order agent and end users.",
-      "status": "preview",
-      "status_evidence_t": 652.6,
-      "status_evidence_quote": "Ability to review the the PDF. By the way, spoiler alert, you can preview PDFs now and agent benefits from that",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 652.6,
       "t_end": 664.6,
       "is_demoed": false,
@@ -602,10 +602,10 @@
     {
       "name": "Subscription Billing Improvements",
       "description": "Improvements to subscription billing feature including terminology updates, UI enhancements, improved onboarding, and new PowerBI reports including churn analysis.",
-      "status": "ga",
-      "status_evidence_t": 1482.5,
-      "status_evidence_quote": "subscription billing um was just released. So we got some feedback, a little bit of the terminology. We don't call it service anymore",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1469.4,
       "t_end": 1514.4,
       "is_demoed": false,
@@ -642,7 +642,7 @@
       "description": "Capability to add fields from related pages or anything related via a table to analysis views, allowing users to pick these fields to build rich analysis views.",
       "status": "announced",
       "status_evidence_t": 1565.5,
-      "status_evidence_quote": "coming in one of the minor releases is the capability of actually adding fields from related pages",
+      "status_evidence_quote": "It's coming in one of the minor releases is the capability of actually adding fields from related pages",
       "status_evidence_verified": true,
       "t_start": 1565.5,
       "t_end": 1580.1,
@@ -1235,42 +1235,6 @@
         "devops"
       ],
       "system": "development"
-    },
-    {
-      "name": "2025 Release Wave 1 Highlights",
-      "description": "High-level overview of capabilities introduced in the 2025 release wave 1, with detailed descriptions, screenshots, and videos available on the aka.msbc release plan.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3124.3,
-      "t_end": 3139.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "release",
-        "wave 1",
-        "2025"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Security Investments in Business Central",
-      "description": "The product team invests 50 percent of its efforts into security, representing the largest investment focus area alongside other product improvements.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3165.1,
-      "t_end": 3177.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "security",
-        "investment",
-        "priority"
-      ],
-      "system": "administration"
     }
   ],
   "objects": [
@@ -1453,9 +1417,9 @@
       "check": "exact"
     },
     {
-      "t": 2017.5,
-      "text": "with all of this flexibility, there will be no opportunity and possibility and tooling. We wiped away that piece of functionality in our service.",
-      "why_it_matters": "Critical limitation: customers cannot postpone updates beyond the extended grace period despite flexible scheduling options.",
+      "t": 2032.1,
+      "text": "So please use that extended window to get ready to upgrade because there will be no option to postpone updates beyond that grace period.",
+      "why_it_matters": "States the limit of flexible update management: updates cannot be postponed past the grace period.",
       "check": "exact"
     },
     {
@@ -1534,12 +1498,6 @@
       "t": 3165.1,
       "text": "I mean I know that 50% of our investments go into security.",
       "why_it_matters": "Quantifies the product team's strategic priority allocation, showing security as the dominant investment focus.",
-      "check": "exact"
-    },
-    {
-      "t": 3177.6,
-      "text": "What we haven't covered now is of course what we spend our time on. That was writing and producing the business central song.",
-      "why_it_matters": "Introduces the entertainment segment as a concluding element of the launch event.",
       "check": "exact"
     }
   ],

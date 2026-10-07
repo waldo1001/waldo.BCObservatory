@@ -18,12 +18,12 @@ tags:
   - net zero
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:01.371Z"
   flags: []
 generated:
-  at: "2026-10-06T18:39:33.974Z"
+  at: "2026-10-07T22:58:01.433Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,7 +36,7 @@ evidence:
     date: "2025-04-01T15:01:02.000Z"
     commit: null
     t: 17
-    quote: sustainability app is coming with 26.1
+    quote: in this session I will show you reports but sustainability app is coming with 26.1
   - kind: video
     url: https://www.youtube.com/watch?v=hX2zkeUvvdY&t=17s
     title: "What's New: Power BI Reports for Sustainability (2025 release wave 1)"
@@ -198,7 +198,7 @@ quotes:
 
 > Power BI reports for Business Central Sustainability in 2025 release wave 1: demos of emissions vs target and baseline, water and waste, carbon equivalent, emissions to revenue, carbon credit, overview and social analysis reports. A sustainability app is announced for version 26.1.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hX2zkeUvvdY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hX2zkeUvvdY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -210,7 +210,7 @@ It then shows carbon equivalent analysis, an emissions to revenue comparison, ca
 
 - Greenhouse gas reports compare realized emissions to targets and to baselines for carbon equivalent, methane and nitrous oxide, with scope and category views.
 - Water and Waste Analysis report covers water intensity by country and facility, waste tracking and year-over-year change.
-- The water and waste report requires the responsibility center to be set up as a facility operation.
+- Because the responsibility center is set up as a facility operation, water intensity can be tracked against facility capacities.
 - Carbon equivalent report converts all emissions to CO2 equivalent and analyzes by category and month.
 - Other reports: emissions to revenue ratio, carbon credit purchases by month, and a sustainability overview with KPIs for all three gases, water and waste.
 - Social Analysis report covers employee demographics, absence hours, gender, age, qualifications and union membership, but employee data is currently limited and expansion is planned.
@@ -239,7 +239,7 @@ It then shows carbon equivalent analysis, an emissions to revenue comparison, ca
 | Carbon Credit Tracking Report | status not stated, demoed | [4:35](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=275s) |  |
 | Sustainability Overview Report | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=81s) |  |
 | Social Analysis Report | status not stated, demoed | [5:15](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=315s) |  |
-| Sustainability App | announced | [0:17](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=17s) | "sustainability app is coming with 26.1" ([0:17](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=17s)) |
+| Sustainability App | announced | [0:17](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=17s) | "in this session I will show you reports but sustainability app is coming with 26.1" ([0:17](https://www.youtube.com/watch?v=hX2zkeUvvdY&t=17s)) |
 
 ## Quotes
 

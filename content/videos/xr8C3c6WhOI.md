@@ -2,7 +2,7 @@
 id: video/xr8C3c6WhOI
 type: video
 title: "What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)"
-summary: AL-Go for GitHub added page scripting test support in workflows (using the BC replay npm module from 2024 Wave 2), a result visualizer, deployment of test apps to sandbox environments, and exclusion of apps by ID during deployment. Demoed in a 2025 release wave 1 What's New video.
+summary: AL-Go for GitHub (2025 release wave 1) can now run page scripting tests in workflows. It uses the BC replay npm module shipped in 2024 Wave 2, configured by a project setting that points to recording folders or files, and adds a page scripting test result visualizer. It can also deploy test apps to sandbox environments and exclude apps by ID. Test apps whose dependencies are not in AppSource are skipped automatically. Automatically running tests after deployment is planned but not yet implemented.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - testability
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:42.118Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:42.160Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -41,6 +41,13 @@ evidence:
     commit: null
     t: 46
     quote: half a year ago in version 2024 Wave 2 we shipped the BC replay npm module with that module it's possible to to run
+  - kind: video
+    url: https://www.youtube.com/watch?v=xr8C3c6WhOI&t=195s
+    title: "What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)"
+    date: "2025-04-01T15:01:26.000Z"
+    commit: null
+    t: 195
+    quote: we have two features we want to support number one is deploying test apps uh and number two is automatically running tests
   - kind: video
     url: https://www.youtube.com/watch?v=xr8C3c6WhOI&t=226s
     title: "What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)"
@@ -131,6 +138,9 @@ quotes:
   - t: 46
     text: half a year ago in version 2024 Wave 2 we shipped the BC replay npm module with that module it's possible to to run
     check: exact
+  - t: 195
+    text: we have two features we want to support number one is deploying test apps uh and number two is automatically running tests
+    check: exact
   - t: 226
     text: we now also have the option to exclude apps by ID when you deploy
     check: exact
@@ -138,9 +148,9 @@ quotes:
 
 # What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)
 
-> AL-Go for GitHub added page scripting test support in workflows (using the BC replay npm module from 2024 Wave 2), a result visualizer, deployment of test apps to sandbox environments, and exclusion of apps by ID during deployment. Demoed in a 2025 release wave 1 What's New video.
+> AL-Go for GitHub (2025 release wave 1) can now run page scripting tests in workflows. It uses the BC replay npm module shipped in 2024 Wave 2, configured by a project setting that points to recording folders or files, and adds a page scripting test result visualizer. It can also deploy test apps to sandbox environments and exclude apps by ID. Test apps whose dependencies are not in AppSource are skipped automatically. Automatically running tests after deployment is planned but not yet implemented.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xr8C3c6WhOI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xr8C3c6WhOI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -151,12 +161,12 @@ The second part covers deploying test apps alongside production apps to sandbox 
 ## Key points
 
 - Page scripting tests run in the AL-Go workflow through the BC replay npm module, which shipped in 2024 Wave 2.
-- Page scripting recordings must be generated in Business Central first. Project settings point to the recording folders, with support for multiple folders, pattern matching and yml files.
-- The test result visualizer shows pass/fail status and downloadable artifacts. Video of a failed test needs extended logs.
-- Deploying test apps to an environment applies to sandbox environments only and needs the online environment prepared.
-- A new setting excludes apps by ID during deployment, given as an array of app IDs.
-- AL-Go automatically excludes test apps that depend on libraries not available in AppSource. It checks AppSource availability only.
-- With the include test apps setting on, test apps are passed to custom deployment scripts. The script author must install the dependencies.
+- Recordings are generated in Business Central. A page scripting test project setting points to them. It is an array (several folders), picks up .yml files, and supports pattern matching or a single specific file.
+- The new page scripting test result visualizer shows whether each test passed. For failures, the downloadable result artifact's extended logs include a video of the test.
+- Test apps can be deployed alongside apps when deploying to a sandbox environment. You enable include test apps in sandbox environment in the deploy to structure of the AL-Go settings.
+- The new exclude app IDs array in the deploy to structure leaves specific apps out of deployment.
+- Test apps that depend on something not available in the AppSource gallery are automatically detected and excluded during deployment.
+- With the setting enabled, test apps are passed to custom deployment scripts, and the script must handle dependency installation.
 
 ## Chapters
 
@@ -170,15 +180,15 @@ The second part covers deploying test apps alongside production apps to sandbox 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Page Scripting Tests in AL-Go Workflow | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=25s) |  |
-| Page Scripting Test Result Visualizer | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=154s) |  |
-| Deploy Test Apps to Sandbox | status not stated, demoed | [3:15](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=195s) |  |
-| Exclude Apps by ID During Deployment | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=226s) |  |
-| Automatic Test App Dependency Resolution | status not stated, demoed | [5:15](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=315s) |  |
-| Page Scripting Test Settings Configuration | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=113s) |  |
-| Custom Deployment Script Test App Support | status not stated | [5:35](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=335s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Page Scripting Tests in AL-Go Workflow | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=25s) |
+| Page Scripting Test Result Visualizer | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=154s) |
+| Deploy Test Apps to Sandbox | status not stated, demoed | [3:15](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=195s) |
+| Exclude Apps by ID During Deployment | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=226s) |
+| Automatic Test App Dependency Resolution | status not stated, demoed | [5:15](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=315s) |
+| Page Scripting Test Settings Configuration | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=113s) |
+| Custom Deployment Script Test App Support | status not stated | [5:35](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=335s) |
 
 ## AL objects mentioned
 
@@ -193,6 +203,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:25](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=25s) "we actually added support for page scripting tests"
 - [0:46](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=46s) "half a year ago in version 2024 Wave 2 we shipped the BC replay npm module with that module it's possible to to run"
+- [3:15](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=195s) "we have two features we want to support number one is deploying test apps uh and number two is automatically running tests"
 - [3:46](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=226s) "we now also have the option to exclude apps by ID when you deploy"
 
 ## Disclaimers in the video

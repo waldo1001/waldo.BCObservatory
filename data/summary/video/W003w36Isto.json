@@ -7,10 +7,10 @@
     "Developers can override the Excel layout multiple data sheets property at the individual layout level in AL, without affecting existing customer layouts.",
     "Report layouts can be marked obsolete in AL with the obsolete tag, including obsolete state and reason.",
     "The Validate action currently checks RDL layouts only in 26.0. Word and Excel validation is announced for a next minor release.",
-    "Show layout info displays system ID, type, creator, modifier, obsolete status and last modified details. The system ID matches the telemetry custom dimension.",
+    "Show layout info displays system ID, type, creator, modifier, obsolete status and last modified details. The system ID matches the telemetry custom dimension called layout ID.",
     "Creator and modifier are filled in only for user-imported or user-created layouts, not extension or app-provided ones.",
-    "Word layouts get a BC report information section in the XML mapping (report name, title, help text, environment, company, user, language, date/time). It must be mapped manually in Word XML.",
-    "The date/time hierarchy (year, month, day, hour, minute) lets Word layouts format dates and times without hard-coding."
+    "Word layouts get a BC report information section in the XML mapping pane (report name, title, help text, environment, company, user, language, date/time), so this no longer needs to be coded in AL.",
+    "The date/time hierarchy (year, month, day, hour, minute) lets Word layouts format dates and times in any format."
   ],
   "audience": [
     "developer",

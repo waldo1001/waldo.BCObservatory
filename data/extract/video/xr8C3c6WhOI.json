@@ -249,6 +249,12 @@
       "check": "exact"
     },
     {
+      "t": 195.6,
+      "text": "we have two features we want to support number one is deploying test apps uh and number two is automatically running tests",
+      "why_it_matters": "Shows that automatically running tests after deployment is planned, while only deploying test apps is implemented in this version.",
+      "check": "exact"
+    },
+    {
       "t": 226.7,
       "text": "we now also have the option to exclude apps by ID when you deploy",
       "why_it_matters": "Introduces new deployment configuration capability for filtering which apps to deploy",

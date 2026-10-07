@@ -6,11 +6,11 @@
   "key_points": [
     "Purchase orders for project items can be created for locations with directed put-away and pick, warehouse receipt, or put-away requirements.",
     "A location with directed put-away and pick enabled (the white location in the demo) requires both receipt and put-away steps.",
-    "Locations that require put-away get an inventory put-away document; the demo uses the silver location for this.",
+    "Locations that require put-away get an inventory put-away document; the demo uses the silver location and posts it to receive the item.",
     "Locations that require receipt get a warehouse receipt, and separate receipts are created for locations with different warehouse settings.",
     "At the main location, items can be received directly from the purchase order without warehouse handling of inbound transactions.",
     "When the purchase order is linked to a project, the put-away step is skipped because items are consumed immediately.",
-    "The demo ends by posting and registering project consumption; the project planning lines page is mentioned."
+    "After the invoice is posted, the project planning lines show quantity and cost already registered."
   ],
   "audience": [
     "functional consultant",

@@ -1,0 +1,29 @@
+{
+  "video_id": "XhO4oFmoh1M",
+  "item_id": "video/yt-microsoft/XhO4oFmoh1M",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 12 quotes are verbatim. Several run across caption segment boundaries, which is acceptable.",
+    "Key point claims item search is 'limited to items and attributes already configured'. The transcript never says this, so it was removed.",
+    "Key points left out the agent updating existing quotes and converting a confirmed quote to a sales order. Both were added.",
+    "All feature statuses are unclear. The video is a 2025 release wave 1 launch segment but never states preview or GA, so unclear is correct.",
+    "The KPI feature description mentions 'conversion rates'. The transcript only says some quotes were converted into orders. This is a minor stretch and was left as is."
+  ],
+  "input_hash": "4c908f953237ca1288e6d253cffbf63788bbb333ff0778d92471689ea326ede6",
+  "by": "opus",
+  "at": "2026-10-07T22:58:57.125Z",
+  "applied": [
+    "quote at 894s",
+    "quote at 1370s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.137681
+  }
+}

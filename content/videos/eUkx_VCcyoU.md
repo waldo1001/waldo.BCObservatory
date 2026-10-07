@@ -18,12 +18,12 @@ tags:
   - call stack
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:25.360Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:25.396Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -280,7 +280,7 @@ quotes:
 
 > AL language changes in Business Central 2025 release wave 1: moving fields and tables between apps, resources in apps with size limits, a user control host page type, report enhancements, new string, text and JSON methods, YAML read and write, and test handling of HTTP calls.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=eUkx_VCcyoU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 14:46 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=eUkx_VCcyoU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 14:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -312,31 +312,31 @@ It also covers JSON and text improvements, YAML read and write, role explorer in
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Move To and Move From Properties | status not stated | [0:05](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=5s) |  |
-| Resources in Apps | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=46s) |  |
-| List Resources Function | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=97s) |  |
-| Get Resource as Text and Get Resource as Json | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=118s) |  |
-| Override Card Page ID | status not stated | [3:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=224s) |  |
-| User Control Host Page Type | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=244s) |  |
-| Report Tooltips | generally available (roadmap [573313](../features/573313.md)) | [5:01](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=301s) |  |
-| Excel Layout Multiple Data Sheets | status not stated, demoed | [5:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=321s) |  |
-| Obsolete Report Layouts | status not stated, demoed | [6:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=381s) |  |
-| Report Pre-rendering and Post Report Triggers | status not stated | [6:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=401s) |  |
-| Access Target Format in Reports | status not stated | [6:56](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=416s) |  |
-| View from Stream | status not stated | [7:16](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=436s) |  |
-| Negative Numbers in Increment String | status not stated | [7:47](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=467s) |  |
-| Call Stack Function | status not stated | [8:08](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=488s) |  |
-| Continue Keyword | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=499s) |  |
-| Multi-line Strings | status not stated, demoed | [8:49](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=529s) |  |
-| To Text on Simple Types | status not stated, demoed | [9:19](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=559s) |  |
-| JSON Object Get Text Method | status not stated, demoed | [9:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=581s) |  |
-| JSON Object Type-specific Get Methods | status not stated, demoed | [10:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=641s) |  |
-| Read and Write YAML | status not stated | [11:09](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=669s) |  |
-| About Title and About Text Inheritance | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=704s) |  |
-| HTTP Client Handler for Testing | status not stated | [13:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=801s) |  |
-| Server Certificate Validation Override | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=824s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Move To and Move From Properties | status not stated | [0:05](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=5s) |
+| Resources in Apps | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=46s) |
+| List Resources Function | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=97s) |
+| Get Resource as Text and Get Resource as Json | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=118s) |
+| Override Card Page ID | status not stated | [3:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=224s) |
+| User Control Host Page Type | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=244s) |
+| Report Tooltips | generally available (roadmap [573313](../features/573313.md)) | [5:01](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=301s) |
+| Excel Layout Multiple Data Sheets | status not stated, demoed | [5:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=321s) |
+| Obsolete Report Layouts | status not stated, demoed | [6:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=381s) |
+| Report Pre-rendering and Post Report Triggers | status not stated | [6:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=401s) |
+| Access Target Format in Reports | status not stated | [6:56](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=416s) |
+| View from Stream | status not stated | [7:16](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=436s) |
+| Negative Numbers in Increment String | status not stated | [7:47](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=467s) |
+| Call Stack Function | status not stated | [8:08](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=488s) |
+| Continue Keyword | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=499s) |
+| Multi-line Strings | status not stated, demoed | [8:49](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=529s) |
+| To Text on Simple Types | status not stated, demoed | [9:19](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=559s) |
+| JSON Object Get Text Method | status not stated, demoed | [9:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=581s) |
+| JSON Object Type-specific Get Methods | status not stated, demoed | [10:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=641s) |
+| Read and Write YAML | status not stated | [11:09](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=669s) |
+| About Title and About Text Inheritance | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=704s) |
+| HTTP Client Handler for Testing | status not stated | [13:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=801s) |
+| Server Certificate Validation Override | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=824s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

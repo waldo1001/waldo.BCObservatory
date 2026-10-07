@@ -1,0 +1,23 @@
+{
+  "video_id": "vnaySMIKnp8",
+  "item_id": "video/yt-microsoft/vnaySMIKnp8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim spans of the transcript and start at the right segment t.",
+    "The features, summary and key points match the transcript, including the directed putaway and pick options, the location card worksheet toggle, the feature management activation and the behaviour of over-pick when it is off.",
+    "All feature statuses are left as unclear. The transcript says 'starting with this release' but never states preview or general availability, so that is acceptable.",
+    "Minor gap that does not block publishing: the page does not cover the demo of the pick plus backward component (the switch). It is handled by adding a consumption journal line with a bin code or a manual flushing component line."
+  ],
+  "input_hash": "3b6d3873ce7aee3a3c840040e093e1eed8c0b8acd73293c0eef99d2057b65768",
+  "by": "opus",
+  "at": "2026-10-07T22:57:41.510Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055789000000000005
+  }
+}

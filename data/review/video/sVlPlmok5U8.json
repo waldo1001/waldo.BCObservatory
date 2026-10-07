@@ -1,0 +1,26 @@
+{
+  "video_id": "sVlPlmok5U8",
+  "item_id": "video/yt-microsoft/sVlPlmok5U8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim and the features match the transcript.",
+    "Statuses stay 'unclear'. The transcript says 'this update enables' but never states preview or GA.",
+    "Key point 7 said 'registering project consumption', which goes beyond the transcript. The transcript says the invoice is posted and the project planning lines show quantity and cost already registered. Reworded to match.",
+    "Added a quote showing the result on the project planning lines."
+  ],
+  "input_hash": "a726fb931c4db5ef59956a5fad1d190b3a049305f2c1031dda531bc4de118f3c",
+  "by": "opus",
+  "at": "2026-10-07T22:57:44.904Z",
+  "applied": [
+    "quote at 115s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043529
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - customer analytics
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:35.671Z"
   flags: []
 generated:
-  at: "2026-10-06T18:37:49.243Z"
+  at: "2026-10-07T22:57:35.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -99,12 +99,12 @@ evidence:
     t: 19
     quote: Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this.
   - kind: video
-    url: https://www.youtube.com/watch?v=zCmzehADz2s&t=97s
+    url: https://www.youtube.com/watch?v=zCmzehADz2s&t=77s
     title: "What's New: Power BI (for Subscription Billing) (2025 release wave 1)"
     date: "2025-04-01T15:01:22.000Z"
     commit: null
-    t: 97
-    quote: This is something that is all over this app. And um I think when you look at a subscription billing there there basically two
+    t: 77
+    quote: many of these reports have drill through to details. So the top five customer by monthly recurring revenue you can drill through to the
   - kind: video
     url: https://www.youtube.com/watch?v=zCmzehADz2s&t=113s
     title: "What's New: Power BI (for Subscription Billing) (2025 release wave 1)"
@@ -119,6 +119,13 @@ evidence:
     commit: null
     t: 259
     quote: You also have your churn rate KPI here, which in this case is your monthly uh churn rate, which is 34%.
+  - kind: video
+    url: https://www.youtube.com/watch?v=zCmzehADz2s&t=293s
+    title: "What's New: Power BI (for Subscription Billing) (2025 release wave 1)"
+    date: "2025-04-01T15:01:22.000Z"
+    commit: null
+    t: 293
+    quote: I can have an AI explain um or a statistical model explain the key contributors to my churn or my downgrades.
   - kind: video
     url: https://www.youtube.com/watch?v=zCmzehADz2s&t=445s
     title: "What's New: Power BI (for Subscription Billing) (2025 release wave 1)"
@@ -219,14 +226,17 @@ quotes:
   - t: 19
     text: Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this.
     check: exact
-  - t: 97
-    text: This is something that is all over this app. And um I think when you look at a subscription billing there there basically two
+  - t: 77
+    text: many of these reports have drill through to details. So the top five customer by monthly recurring revenue you can drill through to the
     check: exact
   - t: 113
     text: The first one is of course that you need to have recurring revenue. But the second thing also very important for subscription businesses is
     check: exact
   - t: 259
     text: You also have your churn rate KPI here, which in this case is your monthly uh churn rate, which is 34%.
+    check: exact
+  - t: 293
+    text: I can have an AI explain um or a statistical model explain the key contributors to my churn or my downgrades.
     check: exact
   - t: 445
     text: Note that this report does not take churn percentages into account. So just so you're aware of that.
@@ -240,7 +250,7 @@ quotes:
 
 > Power BI app for Business Central Subscription Billing, announced for 26.1 in May and not April 2025. Demoed reports cover a KPI overview, churn analysis, revenue development, revenue by sales staff and a revenue forecast. The video mentions 14 new reports in total.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zCmzehADz2s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zCmzehADz2s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -285,9 +295,10 @@ The demo walks through the overview page with recurring revenue, active customer
 ## Quotes
 
 - [0:19](https://www.youtube.com/watch?v=zCmzehADz2s&t=19s) "Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this."
-- [1:37](https://www.youtube.com/watch?v=zCmzehADz2s&t=97s) "This is something that is all over this app. And um I think when you look at a subscription billing there there basically two"
+- [1:17](https://www.youtube.com/watch?v=zCmzehADz2s&t=77s) "many of these reports have drill through to details. So the top five customer by monthly recurring revenue you can drill through to the"
 - [1:53](https://www.youtube.com/watch?v=zCmzehADz2s&t=113s) "The first one is of course that you need to have recurring revenue. But the second thing also very important for subscription businesses is"
 - [4:19](https://www.youtube.com/watch?v=zCmzehADz2s&t=259s) "You also have your churn rate KPI here, which in this case is your monthly uh churn rate, which is 34%."
+- [4:53](https://www.youtube.com/watch?v=zCmzehADz2s&t=293s) "I can have an AI explain um or a statistical model explain the key contributors to my churn or my downgrades."
 - [7:25](https://www.youtube.com/watch?v=zCmzehADz2s&t=445s) "Note that this report does not take churn percentages into account. So just so you're aware of that."
 - [7:50](https://www.youtube.com/watch?v=zCmzehADz2s&t=470s) "Remember that it's coming in May in 26.1. um you get a total of let's see 14 new reports."
 

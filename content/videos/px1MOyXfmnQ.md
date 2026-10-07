@@ -18,12 +18,12 @@ tags:
   - sandbox
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:58.829Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:58.867Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,7 +159,7 @@ quotes:
 
 > AL-Go for GitHub delivery and deployment changes in 2025 release wave 1: a dependency install mode setting, deployment of test apps to sandboxes, and deployment of pull request artifacts to an online environment. Covers the settings, the limits (manual trigger, one-day artifact expiry) and demos of each.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=px1MOyXfmnQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=px1MOyXfmnQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,13 +188,13 @@ The third is deploying artifacts from a pull request directly to an online envir
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Dependency Install Mode | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=25s) |  |
-| Test Apps Deployment | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=155s) |  |
-| Pull Request Artifact Deployment | status not stated, demoed | [5:05](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=305s) |  |
-| Incremental Builds with PR Artifacts | status not stated, demoed | [7:06](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=426s) |  |
-| Automatic Test App Exclusion by Dependencies | status not stated, demoed | [4:45](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=285s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Dependency Install Mode | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=25s) |
+| Test Apps Deployment | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=155s) |
+| Pull Request Artifact Deployment | status not stated, demoed | [5:05](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=305s) |
+| Incremental Builds with PR Artifacts | status not stated, demoed | [7:06](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=426s) |
+| Automatic Test App Exclusion by Dependencies | status not stated, demoed | [4:45](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=285s) |
 
 ## AL objects mentioned
 

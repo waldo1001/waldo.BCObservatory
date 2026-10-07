@@ -1,0 +1,25 @@
+{
+  "video_id": "cuez5kIanKo",
+  "item_id": "video/yt-microsoft/cuez5kIanKo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary said 'Unconfigured products default to the online store'. The transcript ties the default to the Shopify sales channels page not being configured, not to individual products. I rewrote the summary to match.",
+    "All three quotes check out against the transcript. Quote 2 runs on into the next segment, which is allowed. Quote 3 matches the second 'if' in the caption's 'if if'.",
+    "The transcript says nothing about preview or general availability; it only points to the release notes. All feature statuses stay unclear.",
+    "'Sales Channel Verification' and 'Product Export to Shopify' are steps in the demo rather than new features. The transcript supports both, so I kept them."
+  ],
+  "input_hash": "f81d02defdd0100776ef75bbce68172a4b7e91cd31a8fbe349e11062a9d509a7",
+  "by": "opus",
+  "at": "2026-10-07T22:58:08.591Z",
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034633
+  }
+}

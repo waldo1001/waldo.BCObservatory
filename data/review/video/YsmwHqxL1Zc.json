@@ -1,0 +1,35 @@
+{
+  "video_id": "YsmwHqxL1Zc",
+  "item_id": "video/yt-microsoft/YsmwHqxL1Zc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Payables Agent was marked preview, but the transcript says it is still in development and only aimed for public preview in H2 2025; changed to announced.",
+    "Connector and inbound e-document list reused the agent's preview quote as evidence; the transcript gives no separate status for these building blocks, so they are now unclear.",
+    "Intelligent accounting changed from preview to announced: it is part of the planned preview scope, which is still in development.",
+    "Purchase order matching and invoice approval are stated as planned capabilities, so they are now announced with verbatim evidence.",
+    "Key point 1 wrongly said the agent is in preview; corrected.",
+    "Summary and quotes are supported by the transcript."
+  ],
+  "input_hash": "39aec62d73ff2cdf3e03ea5096052734b40618e8947564d71391437d8dfcf168",
+  "by": "opus",
+  "at": "2026-10-07T22:58:57.204Z",
+  "applied": [
+    "E-document connector for Microsoft 365: status unclear",
+    "Inbound e-document list page: status unclear",
+    "Purchase document draft page: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Payables Agent -> announced: evidence not verbatim or does not state the status",
+    "status Intelligent accounting for invoice processing -> announced: evidence not verbatim or does not state the status",
+    "status Three-way matching and purchase order mapping -> announced: evidence not verbatim or does not state the status",
+    "status Invoice approval workflow -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.085193
+  }
+}

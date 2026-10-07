@@ -1,0 +1,23 @@
+{
+  "video_id": "eUkx_VCcyoU",
+  "item_id": "video/yt-microsoft/eUkx_VCcyoU",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 8 quotes verified verbatim; several span segment boundaries, which is acceptable.",
+    "Key point '256 resources per app' is a reasonable reading of the caption '250 six resources'.",
+    "All feature statuses left unclear; transcript only says 'in this release we added', with no explicit preview or GA wording.",
+    "Minor omission: including the layout in URLs from the get URL function is not listed as a feature, but this is not material."
+  ],
+  "input_hash": "a6490052fec09daea1e9b2f85eb8a7ad3abdc28d245405511637e9589ca5d672",
+  "by": "opus",
+  "at": "2026-10-07T22:58:25.360Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.093361
+  }
+}

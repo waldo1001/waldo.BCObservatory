@@ -4,13 +4,13 @@
   "summary": "Sustainability value chain tracking in Business Central 2025 release wave 1, shown with transfer orders for internal transport emissions. Covers sustainability value entries, the Value Chain Tracking setup field (public preview), item card emissions and purchase invoice posting.",
   "overview": "The video demonstrates how Business Central tracks emissions like costs, using sustainability value entries. Inbound emissions currently come from items only, and item charges are planned for the next wave. The value chain extension also covers emissions from production and assembly orders, which is part of the public preview and is not fully demonstrated.\n\nThe demo shows enabling value chain tracking in Sustainability Setup, entering emissions on the item card, posting a purchase invoice that updates item emissions, and entering carbon equivalent on transfer order lines. It then shows the resulting sustainability value entries. The presenter suggests testing in a sandbox first.",
   "key_points": [
-    "Value Chain Tracking is a new field in Sustainability Setup under the Procurement fast tab. It is in public preview, and enabling it shows a warning.",
-    "With tracking enabled, posting creates both a sustainability ledger entry and a sustainability value entry. Without it, only the ledger entry is posted.",
-    "The item card shows CO2, methane and nitrous oxide fields. The system calculates CO2 equivalent, and values need manual entry if there is no purchase history.",
-    "Posting a purchase invoice creates sustainability value entries and updates item emissions with actual values, only if value chain tracking is enabled.",
-    "Transfer orders track internal transport emissions with carbon equivalent only, entered at line level. Emissions per unit are calculated when the transfer shipment is posted.",
-    "Emissions appear in the posted transfer shipment but not in the posted transfer receipt.",
-    "Current limits: average costing method only, no item charges yet, and no print output for the sales invoice in this release."
+    "Value Chain Tracking is a new field in Sustainability Setup under the Procurement fast tab. It is in public preview, and enabling it shows a warning recommending testing in a sandbox first.",
+    "With tracking enabled, posting a purchase document creates both a sustainability ledger entry and a sustainability value entry. Without it, only the ledger entry is posted.",
+    "The item card shows CO2, methane and nitrous oxide fields. With no purchase history you can enter values manually and run Calculate CO2E. Posting a purchase invoice then fills these values and CO2e per unit automatically.",
+    "Transfer orders track internal transport emissions in carbon equivalent only. The new field is visible only when tracking is enabled, and emissions are entered on each line (no header option).",
+    "Posting a transfer shipment creates sustainability value entries with CO2e per unit but no sustainability ledger entry, because ledger entries cover only incoming emissions.",
+    "Emissions appear in the posted transfer shipment but not in the posted transfer receipt. The item's CO2e per unit increases afterwards (for example from 111 to 121).",
+    "Current limits: average method only, item charges not supported until next wave, and no print output for sales invoice emissions in this release."
   ],
   "audience": [
     "functional consultant",

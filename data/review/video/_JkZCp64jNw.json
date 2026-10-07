@@ -1,0 +1,39 @@
+{
+  "video_id": "_JkZCp64jNw",
+  "item_id": "video/yt-microsoft/_JkZCp64jNw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a publish date (2025-04-11) that the transcript does not contain. Removed it.",
+    "Sales Order Agent evidence quote starts at t=505, not at the feature t_start of 443.9. Set evidence_t to 505.",
+    "Sales Order Agent PDF Preview was marked preview because the speaker says 'you can preview PDFs'. That uses preview as a verb, not as a release status. Set to unclear.",
+    "Subscription Billing Improvements was marked ga using 'was just released'. That phrase refers to the original feature from the last release, not to these improvements. Set to unclear.",
+    "Payables Agent evidence quote starts at t=898.2. The 'private preview' wording is somewhat ambiguous between the agent and its components.",
+    "The quote at t=2017.5 was a joke ('I'm almost kidding') and misleads out of context. Replaced it with the plain statement that updates cannot be postponed beyond the grace period.",
+    "The song quote at t=3177.6 is not useful. Dropped it.",
+    "Dropped '2025 Release Wave 1 Highlights' and 'Security Investments in Business Central'. They are not features, and the 50% security line is the setup for a joke about the song.",
+    "The key point saying updates 'occur automatically after the extended window' overstated the transcript. Reworded it."
+  ],
+  "input_hash": "1216161e3b9c404ebdc7fb8002ad24a15e54db6e8b576edc48113518cc1acbf0",
+  "by": "opus",
+  "at": "2026-10-07T22:57:33.406Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "Sales Order Agent: status preview",
+    "Sales Order Agent PDF Preview: status unclear",
+    "Subscription Billing Improvements: status unclear",
+    "Payables Agent: status preview",
+    "Analysis Fields from Related Pages: status announced",
+    "dropped 2 quote(s)",
+    "quote at 2032s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.30010499999999996
+  }
+}

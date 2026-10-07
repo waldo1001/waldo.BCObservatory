@@ -2,7 +2,7 @@
 id: video/h5PQI4I4b7c
 type: video
 title: "What's New in Shopify Connector: Metafields (2025 release wave 1)"
-summary: "Shopify Connector metafields in Business Central (2025 release wave 1): synchronizing Shopify metafields for resources such as customers and companies, mapping them through the extensibility model, and importing metafield definitions into the Shopify company card."
+summary: "Shopify Connector metafields in Business Central (2025 release wave 1): Shopify metafields for resources such as customers and companies can be synchronized and viewed in Business Central, mapped to Business Central fields through an extensibility model, and edited on the Shopify company card after importing metafield definitions created in Shopify, with entered data sent back to Shopify."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - b2b
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:18.144Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:58:18.180Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,6 +34,13 @@ evidence:
     commit: null
     t: 6
     quote: Meta fields are a flexible way to add and store additional information about Shopify resources such as a customer or company.
+  - kind: video
+    url: https://www.youtube.com/watch?v=h5PQI4I4b7c&t=6s
+    title: "What's New in Shopify Connector: Metafields (2025 release wave 1)"
+    date: "2025-04-01T15:00:57.000Z"
+    commit: null
+    t: 6
+    quote: You can synchronize and then manage meta fields in the business central either via UI or via extensibility model
   - kind: video
     url: https://www.youtube.com/watch?v=h5PQI4I4b7c&t=56s
     title: "What's New in Shopify Connector: Metafields (2025 release wave 1)"
@@ -115,6 +122,9 @@ quotes:
   - t: 6
     text: Meta fields are a flexible way to add and store additional information about Shopify resources such as a customer or company.
     check: exact
+  - t: 6
+    text: You can synchronize and then manage meta fields in the business central either via UI or via extensibility model
+    check: exact
   - t: 56
     text: Developers can map standard or custom fields and related entries in Business Central to Shopify meta fields using an extensibility model.
     check: exact
@@ -131,9 +141,9 @@ quotes:
 
 # What's New in Shopify Connector: Metafields (2025 release wave 1)
 
-> Shopify Connector metafields in Business Central (2025 release wave 1): synchronizing Shopify metafields for resources such as customers and companies, mapping them through the extensibility model, and importing metafield definitions into the Shopify company card.
+> Shopify Connector metafields in Business Central (2025 release wave 1): Shopify metafields for resources such as customers and companies can be synchronized and viewed in Business Central, mapped to Business Central fields through an extensibility model, and edited on the Shopify company card after importing metafield definitions created in Shopify, with entered data sent back to Shopify.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=h5PQI4I4b7c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=h5PQI4I4b7c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 2:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -143,12 +153,13 @@ Metafields can be synchronized and managed through the UI or the extensibility m
 
 ## Key points
 
-- Metafields store additional information about Shopify resources such as customers or companies and can be synchronized into Business Central.
-- Synchronized metafields are non-editable in Business Central because synchronization comes from Shopify.
-- For B2B companies, metafield synchronization does not apply to all companies and requires the 'Can update Shopify companies' toggle to be on.
+- Metafields store additional information about Shopify resources such as customers or companies and can be synchronized and managed in Business Central via the UI or an extensibility model.
+- After importing a customer from Shopify, metafields can be reviewed from the list or the card; all types are shown, including customer reference.
 - Developers can map standard or custom fields and related entries in Business Central to Shopify metafields through an extensibility model; code samples are in the documentation.
-- Administrators can import metafield definitions, which then show in the Shopify company card page for data entry.
-- Only the necessary data needs to be entered when importing metafield definitions.
+- Metafields synchronized from Shopify are non-editable in Business Central because synchronization comes from Shopify.
+- In the B2B company demo, synchronization is not set for all companies and the 'Can update Shopify companies' toggle is on, so metafield data can be entered there.
+- Metafield definitions created by administrators in Shopify can be imported and are shown on the Shopify company card, so only the necessary data needs to be entered.
+- Data entered in Business Central becomes available in Shopify.
 
 ## Chapters
 
@@ -160,11 +171,11 @@ Metafields can be synchronized and managed through the UI or the extensibility m
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Metafields synchronization from Shopify | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=6s) |  |
-| Metafield mapping via extensibility model | status not stated | [0:56](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=56s) |  |
-| Metafield definitions display in Shopify company card | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=95s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Metafields synchronization from Shopify | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=6s) |
+| Metafield mapping via extensibility model | status not stated | [0:56](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=56s) |
+| Metafield definitions display in Shopify company card | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=95s) |
 
 ## AL objects mentioned
 
@@ -177,6 +188,7 @@ Not found in BC28-30: page "Shopify company card".
 ## Quotes
 
 - [0:06](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=6s) "Meta fields are a flexible way to add and store additional information about Shopify resources such as a customer or company."
+- [0:06](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=6s) "You can synchronize and then manage meta fields in the business central either via UI or via extensibility model"
 - [0:56](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=56s) "Developers can map standard or custom fields and related entries in Business Central to Shopify meta fields using an extensibility model."
 - [1:12](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=72s) "These fields are non-editable because synchronization is from Shopify."
 - [1:12](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=72s) "For B2B companies, synchronization is not for all companies and the can update Shopify companies toggle is on."

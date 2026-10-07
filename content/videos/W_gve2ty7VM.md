@@ -2,7 +2,7 @@
 id: video/W_gve2ty7VM
 type: video
 title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
-summary: "AL-Go for GitHub security changes in 2025 release wave 1: Azure Trusted Signing, GitHub App authentication, secrets for install apps, and multi-branch updates of AL-Go system files (version 6.4). Also covers a deprecations website. Evidence for setup steps and limits."
+summary: "AL-Go for GitHub security changes in 2025 release wave 1: a deprecations website (some features stop working after October 1st), Azure Trusted Signing to remove manual certificate rotation, GitHub App authentication with short-lived scoped tokens, secrets for install app URLs and SAS tokens, and multi-branch updates of AL-Go system files in version 6.4. Includes setup steps, the GitHub Packages limitation and the workflow schedule setting."
 tier: official
 language: en
 tags:
@@ -17,18 +17,25 @@ tags:
   - deprecations
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:58:44.477Z"
   flags: []
 generated:
-  at: "2026-10-06T18:41:41.399Z"
+  at: "2026-10-07T22:58:44.530Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 76e89841120b3fdd60ca5ce4b5421da9fc22c8693d5909921d430ef58d73bcec
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=44s
+    title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
+    date: "2025-04-01T15:00:45.000Z"
+    commit: null
+    t: 44
+    quote: So there are some changes in effect that will like stop working after October 1st this year and you'll find those here.
   - kind: video
     url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=125s
     title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
@@ -37,19 +44,19 @@ evidence:
     t: 125
     quote: the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually
   - kind: video
-    url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=299s
-    title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
-    date: "2025-04-01T15:00:45.000Z"
-    commit: null
-    t: 299
-    quote: Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not
-  - kind: video
     url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=309s
     title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
     date: "2025-04-01T15:00:45.000Z"
     commit: null
     t: 309
     quote: the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour
+  - kind: video
+    url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=309s
+    title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
+    date: "2025-04-01T15:00:45.000Z"
+    commit: null
+    t: 309
+    quote: In your secret, you have an app ID and a private key. And that combination is used to create a short-lived access token.
   - kind: video
     url: https://www.youtube.com/watch?v=W_gve2ty7VM&t=363s
     title: "What's New: AL-Go for GitHub on Security (2025 release wave 1)"
@@ -136,14 +143,17 @@ features:
     status_source: video
 objects_mentioned: []
 quotes:
+  - t: 44
+    text: So there are some changes in effect that will like stop working after October 1st this year and you'll find those here.
+    check: exact
   - t: 125
     text: the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually
     check: exact
-  - t: 299
-    text: Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not
-    check: exact
   - t: 309
     text: the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour
+    check: exact
+  - t: 309
+    text: In your secret, you have an app ID and a private key. And that combination is used to create a short-lived access token.
     check: exact
   - t: 363
     text: There's one scenario that doesn't work. That's GitHub packages
@@ -161,9 +171,9 @@ quotes:
 
 # What's New: AL-Go for GitHub on Security (2025 release wave 1)
 
-> AL-Go for GitHub security changes in 2025 release wave 1: Azure Trusted Signing, GitHub App authentication, secrets for install apps, and multi-branch updates of AL-Go system files (version 6.4). Also covers a deprecations website. Evidence for setup steps and limits.
+> AL-Go for GitHub security changes in 2025 release wave 1: a deprecations website (some features stop working after October 1st), Azure Trusted Signing to remove manual certificate rotation, GitHub App authentication with short-lived scoped tokens, secrets for install app URLs and SAS tokens, and multi-branch updates of AL-Go system files in version 6.4. Includes setup steps, the GitHub Packages limitation and the workflow schedule setting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=W_gve2ty7VM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=W_gve2ty7VM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,19 +201,20 @@ It then covers Azure Trusted Signing, which removes manual certificate rotation 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Deprecations Website | status not stated | [0:26](https://www.youtube.com/watch?v=W_gve2ty7VM&t=26s) |  |
-| Azure Trusted Signing Integration | status not stated | [1:51](https://www.youtube.com/watch?v=W_gve2ty7VM&t=111s) |  |
-| GitHub App Authentication | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=W_gve2ty7VM&t=236s) |  |
-| Embed Secrets in Install Apps | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=W_gve2ty7VM&t=496s) |  |
-| Multiple Branches Workflow Support | status not stated, demoed | [10:06](https://www.youtube.com/watch?v=W_gve2ty7VM&t=606s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Deprecations Website | status not stated | [0:26](https://www.youtube.com/watch?v=W_gve2ty7VM&t=26s) |
+| Azure Trusted Signing Integration | status not stated | [1:51](https://www.youtube.com/watch?v=W_gve2ty7VM&t=111s) |
+| GitHub App Authentication | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=W_gve2ty7VM&t=236s) |
+| Embed Secrets in Install Apps | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=W_gve2ty7VM&t=496s) |
+| Multiple Branches Workflow Support | status not stated, demoed | [10:06](https://www.youtube.com/watch?v=W_gve2ty7VM&t=606s) |
 
 ## Quotes
 
+- [0:44](https://www.youtube.com/watch?v=W_gve2ty7VM&t=44s) "So there are some changes in effect that will like stop working after October 1st this year and you'll find those here."
 - [2:05](https://www.youtube.com/watch?v=W_gve2ty7VM&t=125s) "the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually"
-- [4:59](https://www.youtube.com/watch?v=W_gve2ty7VM&t=299s) "Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not"
 - [5:09](https://www.youtube.com/watch?v=W_gve2ty7VM&t=309s) "the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour"
+- [5:09](https://www.youtube.com/watch?v=W_gve2ty7VM&t=309s) "In your secret, you have an app ID and a private key. And that combination is used to create a short-lived access token."
 - [6:03](https://www.youtube.com/watch?v=W_gve2ty7VM&t=363s) "There's one scenario that doesn't work. That's GitHub packages"
 - [8:53](https://www.youtube.com/watch?v=W_gve2ty7VM&t=533s) "we should not have secrets in clear text. So what we did was we added a feature that enables you to instead of having"
 - [10:38](https://www.youtube.com/watch?v=W_gve2ty7VM&t=638s) "And with the latest version 6.4, 4 we actually added the capability to do that to update Ago system files on multiple branches at"

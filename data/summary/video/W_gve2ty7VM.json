@@ -1,7 +1,7 @@
 {
   "video_id": "W_gve2ty7VM",
   "item_id": "video/yt-microsoft/W_gve2ty7VM",
-  "summary": "AL-Go for GitHub security changes in 2025 release wave 1: Azure Trusted Signing, GitHub App authentication, secrets for install apps, and multi-branch updates of AL-Go system files (version 6.4). Also covers a deprecations website. Evidence for setup steps and limits.",
+  "summary": "AL-Go for GitHub security changes in 2025 release wave 1: a deprecations website (some features stop working after October 1st), Azure Trusted Signing to remove manual certificate rotation, GitHub App authentication with short-lived scoped tokens, secrets for install app URLs and SAS tokens, and multi-branch updates of AL-Go system files in version 6.4. Includes setup steps, the GitHub Packages limitation and the workflow schedule setting.",
   "overview": "The video walks through security-related changes in AL-Go for GitHub. It starts with a website that lists upcoming deprecations, including changes that stop working after October 1st and build warnings for deprecated features.\n\nIt then covers Azure Trusted Signing, which removes manual certificate rotation and secret storage for code signing. It also covers GitHub App authentication, which uses short-lived tokens in place of personal access tokens, and storing install app URLs and SAS tokens in GitHub secrets. It ends with a demo of updating AL-Go system files on multiple branches, added in version 6.4.",
   "key_points": [
     "Azure Trusted Signing removes manual certificate rotation and secret storage for signing. Setup needs an Azure account, identity validation, a certificate profile, a managed identity, federated credentials and trusted signing settings in the GitHub repository.",

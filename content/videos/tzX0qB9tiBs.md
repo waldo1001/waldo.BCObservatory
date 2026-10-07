@@ -17,12 +17,12 @@ tags:
   - inventory cost adjustment
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:49.760Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:49.794Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,13 @@ evidence:
     commit: null
     t: 213
     quote: enable the ability to finish production orders without output in the manufacturing setup page
+  - kind: video
+    url: https://www.youtube.com/watch?v=tzX0qB9tiBs&t=240s
+    title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
+    date: "2025-04-01T15:01:14.000Z"
+    commit: null
+    t: 240
+    quote: the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account
 links:
   learn: []
   objects:
@@ -156,13 +163,16 @@ quotes:
   - t: 213
     text: enable the ability to finish production orders without output in the manufacturing setup page
     check: exact
+  - t: 240
+    text: the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account
+    check: exact
 ---
 
 # What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)
 
 > Reversing production order transactions in Business Central manufacturing (2025 release wave 1): reversing output and consumption, reopening finished orders, undoing subcontracting receipts, and finishing orders without output. Demonstrated in a 4-minute walkthrough.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tzX0qB9tiBs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 4:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tzX0qB9tiBs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 4:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,13 +200,13 @@ The demo shows the reverse production order transaction action, which creates a 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Revert output or consumption transactions | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=6s) |  |
-| Reopen finished production orders | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=23s) |  |
-| Reverse production order transaction action | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=73s) |  |
-| Undo receipt for subcontracting orders | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) |  |
-| Finish production orders without output | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=193s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Revert output or consumption transactions | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=6s) |
+| Reopen finished production orders | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=23s) |
+| Reverse production order transaction action | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=73s) |
+| Undo receipt for subcontracting orders | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) |
+| Finish production orders without output | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=193s) |
 
 ## AL objects mentioned
 
@@ -214,3 +224,4 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:39](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=99s) "we cancel consumption and we got raw materials back on the stock and there is an application between these two so cost is properly"
 - [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) "navigate to the purchase order and open the receipt select both lines linked to the production order and choose undo"
 - [3:33](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=213s) "enable the ability to finish production orders without output in the manufacturing setup page"
+- [4:00](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=240s) "the accumulated amounts from the work in progress account have been transferred to the inventory adjustment account"

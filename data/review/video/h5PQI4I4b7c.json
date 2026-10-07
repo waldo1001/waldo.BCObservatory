@@ -1,0 +1,28 @@
+{
+  "video_id": "h5PQI4I4b7c",
+  "item_id": "video/yt-microsoft/h5PQI4I4b7c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim in the transcript, including the 105.7 span, which starts after the word 'entry.'.",
+    "Key point on B2B overstates the transcript. The video describes the demo state (synchronization not set for all companies, toggle on, so data entry is possible). It does not say the toggle is a requirement.",
+    "Key point says administrators import definitions. The transcript says administrators create the definitions in Shopify and 'we can import' them. The third feature's description repeats this misattribution.",
+    "The page leaves out that data entered in Business Central becomes available in Shopify (t 120.9).",
+    "No feature status is stated beyond 'In this release', so all features stay unclear."
+  ],
+  "input_hash": "6fb2c31b7d6a591d199fcbba5e7035b78dd23e6daae218d88bdcf08eb5347f27",
+  "by": "opus",
+  "at": "2026-10-07T22:58:18.144Z",
+  "applied": [
+    "quote at 6s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05532100000000001
+  }
+}

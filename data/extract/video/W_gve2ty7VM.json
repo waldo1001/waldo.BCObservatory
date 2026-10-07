@@ -164,21 +164,27 @@
   ],
   "quotes": [
     {
+      "t": 44.1,
+      "text": "So there are some changes in effect that will like stop working after October 1st this year and you'll find those here.",
+      "why_it_matters": "States the deprecation deadline listed on the deprecations website.",
+      "check": "exact"
+    },
+    {
       "t": 125.7,
       "text": "the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually",
       "why_it_matters": "Explains the core benefit and design goal of Azure Trusted Signing integration - removing manual certificate management and secret storage",
       "check": "exact"
     },
     {
-      "t": 299.3,
-      "text": "Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not",
-      "why_it_matters": "Describes the fundamental difference between GitHub app authentication and personal access tokens in terms of what credentials are stored",
+      "t": 309.5,
+      "text": "the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour",
+      "why_it_matters": "Specifies the security advantage of GitHub app authentication - short-lived tokens minimize exposure window",
       "check": "exact"
     },
     {
       "t": 309.5,
-      "text": "the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour",
-      "why_it_matters": "Specifies the security advantage of GitHub app authentication - short-lived tokens minimize exposure window",
+      "text": "In your secret, you have an app ID and a private key. And that combination is used to create a short-lived access token.",
+      "why_it_matters": "Explains what GitHub App authentication stores in the secret instead of a personal access token.",
       "check": "exact"
     },
     {

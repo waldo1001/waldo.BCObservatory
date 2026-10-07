@@ -1,0 +1,32 @@
+{
+  "video_id": "hL4PUhjyhNY",
+  "item_id": "video/yt-microsoft/hL4PUhjyhNY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature name 'Germany E-Documents Localization (Factura and UBL)' is inaccurate: transcript ties Factura to Spain; Germany formats are Peppol B3 and a UBL format captioned as 'Excnong UBL'/'extra long'. Kept because the localization itself is supported, but the name should not be relied on.",
+    "Spain version 'A3-2.2' comes from garbled caption 'fura a322'; exact version is uncertain.",
+    "'Pint/Zed' naming derives from captions 'Pint and Zed'; may be garbled.",
+    "Several features were left unclear despite transcript stating delivery in this wave; set to GA with verbatim evidence.",
+    "All 8 quotes verified verbatim; summary and key points supported."
+  ],
+  "input_hash": "0b86142d1afe24c170ccacaac77b43fa4abb46550b12d0bb36d8c97f3fb9a8b3",
+  "by": "opus",
+  "at": "2026-10-07T22:58:39.091Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Peppol B3 Format (Global) -> ga: evidence not verbatim or does not state the status",
+    "status Germany E-Documents Localization (Factura and UBL) -> ga: evidence not verbatim or does not state the status",
+    "status Germany Reference Configuration on Customer Card -> ga: evidence not verbatim or does not state the status",
+    "status Spain Factura Format (A3-2.2 Version) -> ga: evidence not verbatim or does not state the status",
+    "status Australia and New Zealand E-Documents (Peppol and Pint/Zed) -> ga: evidence not verbatim or does not state the status",
+    "status PDF/A Format Support -> ga: evidence not verbatim or does not state the status",
+    "status E-Document Service Connectors -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.110645
+  }
+}

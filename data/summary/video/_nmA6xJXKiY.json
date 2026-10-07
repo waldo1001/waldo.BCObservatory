@@ -6,11 +6,11 @@
   "key_points": [
     "The admin center now shows PTEs and dev extensions, not only global apps.",
     "A new dropdown filter shows global apps, PTEs and dev extensions separately.",
-    "Global apps can be uninstalled from the admin center, with the option to keep or remove application data.",
-    "Almost all apps can be uninstalled; the base app cannot.",
-    "When uninstalling an app with dependencies, the admin center lists the apps that depend on it, so you can see what else will be uninstalled.",
-    "Admin center API version 2.25 adds the same capabilities: querying installed extensions, reading app type on the app endpoint, and a new uninstall requirements endpoint.",
-    "The uninstall requirements endpoint returns which apps would be uninstalled as a result of uninstalling a given app."
+    "Apps, including PTEs and global apps, can be uninstalled from the admin center, with the option to keep or delete application data.",
+    "Almost all apps can be uninstalled; the base app is an exception.",
+    "When uninstalling an app with dependencies, the admin center lists the apps that depend on it and asks you to confirm uninstalling them as well.",
+    "Admin center API version 2.25 offers everything shown in the demo, including new properties on the apps endpoint such as app type and a new uninstall requirements endpoint.",
+    "The uninstall requirements endpoint returns which apps would be uninstalled if you uninstall an app that has downstream dependencies."
   ],
   "audience": [
     "administrator",

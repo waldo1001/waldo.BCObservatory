@@ -2,7 +2,7 @@
 id: video/_JkZCp64jNw
 type: video
 title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
-summary: "Business Central 2025 release wave 1 launch event recording (published 2025-04-11): covers the sales order agent in public preview, agent billing by messages, a payables agent demo in private preview, Copilot autofill and summarize, sustainability, e-documents, manufacturing, Power BI, admin, developer and performance changes."
+summary: "Business Central 2025 release wave 1 launch event opening: the sales order agent is in public preview in more countries, agent billing is by consumption messages (private preview), and the payables agent is shown in private preview with a public preview planned later this year. Also covers Copilot autofill and summarize, sustainability, e-documents, manufacturing, Power BI and Excel reports, admin features (flexible update management, unified extensions view, tenant discovery endpoint, customer-managed keys), developer tooling and posting performance improvements."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - shopify integration
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:33.406Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:33.459Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -39,13 +39,6 @@ evidence:
     commit: null
     t: 505
     quote: all of this is now available for you to try in the priv in the public preview and we have expanded this p public
-  - kind: video
-    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s
-    title: "Sales Order Agent PDF Preview: preview"
-    date: "2025-04-11T23:00:35.000Z"
-    commit: null
-    t: 652
-    quote: Ability to review the the PDF. By the way, spoiler alert, you can preview PDFs now and agent benefits from that
   - kind: video
     url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s
     title: "Agent Billing Capability: preview"
@@ -75,19 +68,12 @@ evidence:
     t: 1406
     quote: One of the things we released uh recently uh as you can see here, one of them is um the capability for example to
   - kind: video
-    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=1482s
-    title: "Subscription Billing Improvements: generally available"
-    date: "2025-04-11T23:00:35.000Z"
-    commit: null
-    t: 1482
-    quote: subscription billing um was just released. So we got some feedback, a little bit of the terminology. We don't call it service anymore
-  - kind: video
     url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s
     title: "Analysis Fields from Related Pages: announced"
     date: "2025-04-11T23:00:35.000Z"
     commit: null
     t: 1565
-    quote: coming in one of the minor releases is the capability of actually adding fields from related pages
+    quote: It's coming in one of the minor releases is the capability of actually adding fields from related pages
   - kind: video
     url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=74s
     title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
@@ -215,12 +201,12 @@ evidence:
     t: 1971
     quote: you can schedule environments to any available version of business central u that is a minor update and next major update but also to
   - kind: video
-    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=2017s
+    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=2032s
     title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
     date: "2025-04-11T23:00:35.000Z"
     commit: null
-    t: 2017
-    quote: with all of this flexibility, there will be no opportunity and possibility and tooling. We wiped away that piece of functionality in our service.
+    t: 2032
+    quote: So please use that extended window to get ready to upgrade because there will be no option to postpone updates beyond that grace period.
   - kind: video
     url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=2073s
     title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
@@ -242,6 +228,20 @@ evidence:
     commit: null
     t: 2367
     quote: This is a really critical process for so many organizations out there.
+  - kind: video
+    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=2397s
+    title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+    date: "2025-04-11T23:00:35.000Z"
+    commit: null
+    t: 2397
+    quote: you can adjust your inventory period by period or even item by item. So the granularity is spectacular with this tool.
+  - kind: video
+    url: https://www.youtube.com/watch?v=_JkZCp64jNw&t=2397s
+    title: Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
+    date: "2025-04-11T23:00:35.000Z"
+    commit: null
+    t: 2397
+    quote: with this release, additional capabilities were included with Business Central which allows you for example to do iterative adjustments
 links:
   learn: []
   objects:
@@ -352,9 +352,9 @@ features:
     verified: false
     status_source: video
   - name: Sales Order Agent PDF Preview
-    status: preview
+    status: unclear
     t: 652
-    verified: true
+    verified: false
     status_source: video
   - name: Agent Billing Capability
     status: preview
@@ -437,9 +437,9 @@ features:
     verified: false
     status_source: video
   - name: Subscription Billing Improvements
-    status: ga
+    status: unclear
     t: 1469
-    verified: true
+    verified: false
     status_source: video
   - name: Financial Reports Filtering and Layouts
     status: unclear
@@ -606,16 +606,6 @@ features:
     t: 3070
     verified: false
     status_source: video
-  - name: 2025 Release Wave 1 Highlights
-    status: unclear
-    t: 3124
-    verified: false
-    status_source: video
-  - name: Security Investments in Business Central
-    status: unclear
-    t: 3165
-    verified: false
-    status_source: video
 objects_mentioned:
   - other roll center
   - other allocation account
@@ -678,8 +668,8 @@ quotes:
   - t: 1971
     text: you can schedule environments to any available version of business central u that is a minor update and next major update but also to
     check: exact
-  - t: 2017
-    text: with all of this flexibility, there will be no opportunity and possibility and tooling. We wiped away that piece of functionality in our service.
+  - t: 2032
+    text: So please use that extended window to get ready to upgrade because there will be no option to postpone updates beyond that grace period.
     check: exact
   - t: 2073
     text: on this screenshot you see three worlds joining together the global extensions the per tenant extensions and dev extensions in the same view
@@ -720,16 +710,13 @@ quotes:
   - t: 3165
     text: I mean I know that 50% of our investments go into security.
     check: exact
-  - t: 3177
-    text: What we haven't covered now is of course what we spend our time on. That was writing and producing the business central song.
-    check: exact
 ---
 
 # Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening
 
-> Business Central 2025 release wave 1 launch event recording (published 2025-04-11): covers the sales order agent in public preview, agent billing by messages, a payables agent demo in private preview, Copilot autofill and summarize, sustainability, e-documents, manufacturing, Power BI, admin, developer and performance changes.
+> Business Central 2025 release wave 1 launch event opening: the sales order agent is in public preview in more countries, agent billing is by consumption messages (private preview), and the payables agent is shown in private preview with a public preview planned later this year. Also covers Copilot autofill and summarize, sustainability, e-documents, manufacturing, Power BI and Excel reports, admin features (flexible update management, unified extensions view, tenant discovery endpoint, customer-managed keys), developer tooling and posting performance improvements.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_JkZCp64jNw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-11 · 55:12 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_JkZCp64jNw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-11 · 55:12 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -739,10 +726,10 @@ It then goes through application features (Copilot autofill and summarize, susta
 
 ## Key points
 
-- Sales order agent is in public preview and has expanded to more countries, including Canada, United States, Australia and Great Britain. It is not worldwide yet.
-- Agents are billed by consumption in units called messages, available as prepaid capacity packs or pay-as-you-go. The billing capability is in preview.
+- Sales order agent is in public preview and has expanded to more countries, including Canada, United States, Australia, Great Britain and New Zealand. More regions are to follow.
+- Agents are billed by consumption in units called messages, available as prepaid capacity packs or pay-as-you-go. The billing capability is in private preview.
 - Payables agent was demoed in private preview. It reads PDF invoices, allocates charges to accounts and handles deferral codes. A public preview is announced for later this year.
-- Flexible update management lets customers reschedule environment updates to available versions, and partners can create new environments from any available version. Updates still occur automatically after the extended window.
+- Flexible update management lets customers reschedule environment updates to available versions, and partners can create new environments from any available version. Updates cannot be postponed beyond the grace period.
 - Admin center shows global, per-tenant and dev extensions in one view. A tenant discovery endpoint lets partners find all tenants and environments that granted access to their app.
 - Posting tables were refactored for concurrency. Five parallel batches of 1,000 invoices reached 4.7 invoices per second, against about 1 per second for a single batch. Results vary by database.
 - Developer changes include moving fields and tables between extensions, packaging resources with app code, API call mocking, a Power BI immersive page type, and AL-Go for GitHub no longer rebuilding unchanged apps.
@@ -790,7 +777,7 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Sales Order Agent Item Availability Feature | status not stated | [9:15](https://www.youtube.com/watch?v=_JkZCp64jNw&t=555s) |  |
 | Sales Order Agent Email Insights | status not stated | [9:59](https://www.youtube.com/watch?v=_JkZCp64jNw&t=599s) |  |
 | Sales Order Agent Auto-Create Customer | status not stated | [10:36](https://www.youtube.com/watch?v=_JkZCp64jNw&t=636s) |  |
-| Sales Order Agent PDF Preview | preview | [10:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s) | "Ability to review the the PDF. By the way, spoiler alert, you can preview PDFs now and agent benefits from that" ([10:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s)) |
+| Sales Order Agent PDF Preview | status not stated | [10:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s) |  |
 | Agent Billing Capability | preview | [11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s) | "this is something new which is entering into the world of business central is a is a agent billing capability while in private preview" ([11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s)) |
 | Payables Agent | preview, demoed | [12:25](https://www.youtube.com/watch?v=_JkZCp64jNw&t=745s) | "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview" ([14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s)) |
 | E-Document Connector | status not stated | [14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s) |  |
@@ -807,9 +794,9 @@ It then goes through application features (Copilot autofill and summarize, susta
 | PowerBI Reports Expansion | status not stated | [22:14](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1334s) |  |
 | Shopify Sales Channel Selection | generally available | [23:26](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1406s) | "One of the things we released uh recently uh as you can see here, one of them is um the capability for example to" ([23:26](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1406s)) |
 | Shopify Metafields for Customers | status not stated | [23:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1432s) |  |
-| Subscription Billing Improvements | generally available | [24:29](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1469s) | "subscription billing um was just released. So we got some feedback, a little bit of the terminology. We don't call it service anymore" ([24:42](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1482s)) |
+| Subscription Billing Improvements | status not stated | [24:29](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1469s) |  |
 | Financial Reports Filtering and Layouts | status not stated | [25:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1534s) |  |
-| Analysis Fields from Related Pages | announced | [26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s) | "coming in one of the minor releases is the capability of actually adding fields from related pages" ([26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s)) |
+| Analysis Fields from Related Pages | announced | [26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s) | "It's coming in one of the minor releases is the capability of actually adding fields from related pages" ([26:05](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1565s)) |
 | Field Service Work Order Integration | status not stated | [26:38](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1598s) |  |
 | PDF Viewing of Attachments | status not stated, demoed | [27:57](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1677s) |  |
 | Resizing of Fact Boxes | status not stated, demoed | [27:57](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1677s) |  |
@@ -841,8 +828,6 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Service Startup and Scaling Improvements | status not stated | [49:27](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2967s) |  |
 | AL-Go for GitHub Build Optimization | status not stated | [50:46](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3046s) |  |
 | Page Scripting Tests in AL-Go | status not stated | [51:10](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3070s) |  |
-| 2025 Release Wave 1 Highlights | status not stated | [52:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3124s) |  |
-| Security Investments in Business Central | status not stated | [52:45](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3165s) |  |
 
 ## AL objects mentioned
 
@@ -877,7 +862,7 @@ Not found in BC28-30: page "purchase document draft page", page "analysis views"
 - [26:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1618s) "it's very important of course to have a great integration to field service because field service uh frontline workers um as it says material"
 - [29:42](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1782s) "It's basically expanded by 100% uh with this release meaning that we are now describing every feature area of Business Central."
 - [32:51](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1971s) "you can schedule environments to any available version of business central u that is a minor update and next major update but also to"
-- [33:37](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2017s) "with all of this flexibility, there will be no opportunity and possibility and tooling. We wiped away that piece of functionality in our service."
+- [33:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2032s) "So please use that extended window to get ready to upgrade because there will be no option to postpone updates beyond that grace period."
 - [34:33](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2073s) "on this screenshot you see three worlds joining together the global extensions the per tenant extensions and dev extensions in the same view"
 - [37:31](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2251s) "partners spending a lot of time building reports to our you know in our studies up to 25% of implementation time can be spent"
 - [39:27](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2367s) "This is a really critical process for so many organizations out there."
@@ -891,7 +876,6 @@ Not found in BC28-30: page "purchase document draft page", page "analysis views"
 - [52:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3124s) "This was the highlevel overview of the capabilities which 2025 release wave 1 brings to us."
 - [52:45](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3165s) "I know that 50% of our investments go into security. Yes. Then there is a quarter of investments into all everything else"
 - [52:45](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3165s) "I mean I know that 50% of our investments go into security."
-- [52:57](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3177s) "What we haven't covered now is of course what we spend our time on. That was writing and producing the business central song."
 
 ## Disclaimers in the video
 
