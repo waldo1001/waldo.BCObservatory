@@ -49,7 +49,8 @@ only if something else imports it; otherwise it goes.
    (`business-central/TOC.md`, `dev-itpro/TOC.md`): business-central first, then dev-itpro. Radial tree on the left
    200 degrees: depth = ring (4 rings, `HUB_MAX_DEPTH` is 4), leaf order = TOC order, each subtree gets an angle span
    in proportion to its leaf count.
-4. **Objects.** Every object of the system (not only the 300 stars), country layers excluded, grouped by namespace
+4. **Objects.** Every object page of the system (not only the 300 stars; country-layer objects included, since one can
+   be a star), grouped by namespace
    with the atlas's `segments()`. A squarified treemap of the namespace tree fills a sector on the right 160 degrees;
    inside a plot, objects sit on a grid ordered by code-relation degree, most connected nearest the system centre.
    The function returns positions for all objects; phase 1 writes only the stars' positions to the summary, and
@@ -86,8 +87,8 @@ posts.
 
 | File | Before | After |
 |---|---|---|
-| `summary.json` | 580 KB raw, 50 KB gz | about 700 KB raw, about 75 KB gz (`cross` 90 KB raw / 11 KB gz measured for the 180 stars that have cross edges; `mb` about 45 KB raw / 10 KB gz; trees and plots about 3 KB gz) |
-| `landed.json` | none | about 8 KB raw, 3 KB gz |
+| `summary.json` | 580 KB raw, 50 KB gz | measured after phase 1: 868 KB raw, 92 KB gz. `cross` on 567 stars (hubs too) 157 KB raw / 17 KB gz; `mb` 42 KB / 8 KB; plots 9 KB gz, trees 5 KB gz. The estimate of 75 KB had counted object stars only |
+| `landed.json` | none | measured: 9 KB raw, 2 KB gz (75 items on 2026-10-07) |
 | `ego/` | unchanged | unchanged |
 
 ### 1.4 Tests

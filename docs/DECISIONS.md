@@ -503,6 +503,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   it now reads "flagged - a review found a problem", amber, solid border: never red, never an icon. Statuses
   `announced` and `unclear` get plain words. New stand-in colours (guideline, other, flagged) pass AA on both themes
   (7.4:1 to 13.6:1, computed).
+- **D66 The galaxy is one place with three views, and its layout says something.** The design pass of 2026-10-07
+  (`design/HANDOFF.views.md`) makes D (galaxy, honest) the place, C (neighbourhood explorer) the object view and A
+  (layered, Tilt) a later view of one system; spec `docs/specs/galaxy-views.md`, built in five phases. Phase 1
+  replaces the hashed start positions and d3-force with a deterministic layout (`learn-tree+ns-treemap@1`): system
+  order along the spiral from cross-system edge weight (code relations plus page links; a chain grown from the
+  heaviest pair, Finance and Sales, one arm per end, Localizations and Sources at the arm ends because they touch
+  every system), hubs on their Learn table-of-contents tree, every object in a namespace plot of its system with the
+  most connected nearest the centre. Stars gain `cross` (up to 6 target systems with up to 3 named objects), `mb`
+  (media bodies), `ob` (obsolete in), `ec` (published events); `ev` now also counts videos and posts that name an
+  object; `data/graph/landed.json` holds the week up to the run date, so "this week" no longer depends on the
+  reader's clock. Summary 50 to 92 KB gzipped. The namespace treemap moved from the atlas into
+  `pipeline/lib/treemap.ts`, and the move fixed a bug: rows after the first were sized against the shrinking
+  rectangle, so the atlas never filled its own frame.
 - **D69 Code extraction runs one major at a time.** The nightly of 2026-10-07 (run 37586529387) died on the heap
   seven times in a row. Its heartbeats (D59) show no slow leak: every restart resumed the same three code items
   (`bcapps/29`, `bcapps/30`, `sandbox-history/28`) in `extracted`, and the heap climbed from 70 MB to 7 GB in about

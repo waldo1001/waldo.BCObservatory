@@ -40,6 +40,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 - **Nightly memory (D69, 2026-10-07)**: run 37586529387 died seven times on the heap in code extraction, three
   majors in flight at once. Fixed by a `code` lane of one; the next nightly is the test. If a run dies on memory
   again, read the heartbeat lines first (`gh run view <id> --log | grep heartbeat:`).
+- **Galaxy views: one place, three views**: `docs/specs/galaxy-views.md`, decision D66, PLAN milestone M8. Design in
+  `design/HANDOFF.views.md` and the D, C and A addenda. Five phases, each stopped for review. Phase 1 (pipeline
+  for D: Learn-tree and namespace-treemap layout, `cross`, `mb`, `ob`, `ec`, `landed.json`) is committed on
+  `dev/next`, not pushed; phases 2 to 5 (D renderer, C explorer, home entries, A tilt) are not started. The current
+  galaxy draws the new positions unchanged until phase 2.
 
 ## Where things stand
 
