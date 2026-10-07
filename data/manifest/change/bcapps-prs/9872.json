@@ -6,10 +6,35 @@
   "title": "Add missing telemetry event IDs to E-Document Session.LogMessage calls",
   "url": "https://github.com/microsoft/BCApps/pull/9872",
   "published_at": "2026-08-03T10:36:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:52.020Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:57.755Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004359
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:57.973Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:57.979Z",
+      "path": "content/changes/bcapps/9872.md"
     }
   },
   "input_hash": "cad73c86faa3fe16436a67eb4bcebc403ad9af51:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "add missing telemetry event ids to e document session logmessage calls"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f485184c5736ad7812b8df0e6f4faa4317330f99f02c8e9ea847a4898c12cf2"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9898",
+  "number": 9898,
+  "title": "[Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "sales"
+  ],
+  "summary": "Reverted changes that prevented Reservation Entries from being created when generating a Purchase Order from a Sales Order, fixing an error about missing reservation entries.",
+  "key_points": [
+    "Reverts a prior change that had broken reservation entry creation when creating purchase orders from sales orders",
+    "Restores functionality in Item Tracking Management and Sales Line Planning codeunits",
+    "Removes test code that was added with the problematic change"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory",
+    "sales"
+  ],
+  "quote": "Revert back the changes of Pull Request 242051",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003321,
+    "changes_in_call": 1
+  }
+}

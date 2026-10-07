@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8754",
+  "number": 8754,
+  "title": "[Bug Fix] #638815: Subcontracting: actionable error for blank Subc. Location Code on WIP transfers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The subcontracting transfer order report now raises a clear validation error when the subcontractor has no Subc. Location Code configured for WIP transfers, instead of showing a generic unhelpful message.",
+  "key_points": [
+    "Replaces silent failure with actionable TestField error on blank Subc. Location Code",
+    "WIP transfer path now validates the location code consistently with the components path",
+    "Users get immediate feedback about the misconfigured vendor rather than a generic error at the end of the workflow",
+    "Regression test added to prevent recurrence of the generic error scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004135,
+    "changes_in_call": 1
+  }
+}

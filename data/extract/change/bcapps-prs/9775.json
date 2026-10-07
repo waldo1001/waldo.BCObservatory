@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9775",
+  "number": 9775,
+  "title": "[Main]-Issued Reminders are printed without any header or footer in the United Kingdom version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The Reminder report in the United Kingdom version now displays header and footer content when printed, restoring missing layout elements.",
+  "key_points": [
+    "Fixed missing header and footer display in UK Reminder report",
+    "Modified report layout definition (RDLC) to include header and footer sections",
+    "Affects Report 117 in the GB localization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": "Issued Reminders (Report 117) are printed without any header or footer in the United Kingdom version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003115,
+    "changes_in_call": 1
+  }
+}

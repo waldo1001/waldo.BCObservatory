@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9772",
+  "number": 9772,
+  "title": "[PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document importer now preserves zero quantities instead of forcing them to 1, derives quantity from total and price only when valid, never fabricates discounts, and carries unresolved unit codes through to the unit of measure field.",
+  "key_points": [
+    "Zero quantity lines are preserved instead of being forced to 1",
+    "Quantity is only derived from total divided by price when mathematically sensible",
+    "Phantom discounts are no longer invented when line total matches price times quantity",
+    "Unresolved unit codes like HUR now appear in the BC unit of measure field instead of blank",
+    "Fixes incorrect line extraction for scanned invoices with missing or zero quantities"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Now we keep a genuine zero quantity, only derive quantity from total over price when it makes sense, and never fabricate a discount.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003969,
+    "changes_in_call": 1
+  }
+}

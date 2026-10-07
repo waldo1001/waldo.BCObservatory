@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9872",
+  "number": 9872,
+  "title": "Add missing telemetry event IDs to E-Document Session.LogMessage calls",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document and Avalara connector apps to enable proper aggregation and monitoring in the telemetry pipeline.",
+  "key_points": [
+    "Allocated 21 unique telemetry event IDs (0000UVW - 0000UWG) to untagged Session.LogMessage calls",
+    "Avalara connector was previously invisible in telemetry queries by event ID despite 20 logging calls",
+    "Core E-Document PEPPOL handler had one additional missing event tag",
+    "Tags were centrally reserved to prevent collision risk",
+    "Enables standard telemetry pipeline filtering and alerting by event ID"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004359,
+    "changes_in_call": 1
+  }
+}

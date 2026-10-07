@@ -6,7 +6,7 @@
   "title": "Improve Sales Order Agent delivery date filtering",
   "url": "https://github.com/microsoft/BCApps/pull/9874",
   "published_at": "2026-07-31T23:12:51Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "improve sales order agent delivery date filtering"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:13:57.208Z",
+  "retry_after": null
 }

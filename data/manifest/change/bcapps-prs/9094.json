@@ -6,10 +6,35 @@
   "title": "Add shared CompanyMetadata data source for report layouts",
   "url": "https://github.com/microsoft/BCApps/pull/9094",
   "published_at": "2026-08-03T18:55:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:49.521Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:54.883Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00401
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:55.030Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:55.035Z",
+      "path": "content/changes/bcapps/9094.md"
     }
   },
   "input_hash": "487e2b548afd06560d05c8e6df2a066ea9100050:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "add shared companymetadata data source for report layouts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a47bb42771ea5dc1b26363a227d1839b6cd63cfce3ee3cc0a138b9f18e20cc19"
 }

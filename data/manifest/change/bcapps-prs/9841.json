@@ -6,10 +6,25 @@
   "title": "Indent the case block under the IsHandled guard",
   "url": "https://github.com/microsoft/BCApps/pull/9841",
   "published_at": "2026-07-31T13:34:09Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:58.435Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:05.699Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003664
     }
   },
   "input_hash": "4d9c1359d986638b184fc2e19c5dd411ba0aafdb:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "indent the case block under the ishandled guard"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57b8f1d2d805b54c891157e83315a421577451d268eb1e6cfba472885d42aa77"
 }

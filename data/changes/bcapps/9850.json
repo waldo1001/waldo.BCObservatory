@@ -1,0 +1,66 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9850,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9850",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T11:07:14Z",
+  "merge_commit_sha": "4c67670f28103ad7d945f91e89d7ca5253f7c0db",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix VariantCode lost during Contract Price Update proposal",
+  "body_hash": "acf8e6d0de2ecca301f7424071628e4d02b647e82e8edd6252375db8c1242604",
+  "fixes_issues": [],
+  "work_items": [
+    644750
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Codeunits/SubContractsItemManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 13,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 13,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Codeunits/SubContractsItemManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8055",
+        "type": "codeunit",
+        "id": 8055,
+        "name": "Sub. Contracts Item Management",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8055"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

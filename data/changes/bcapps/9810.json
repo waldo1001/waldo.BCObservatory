@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9810,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9810",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-31T13:25:01Z",
+  "merge_commit_sha": "c2fe0b1f80f24884e2c020ba6fb5769f21b8bf85",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[master]-Edit in Excel fails with false duplicate error when creating new Item Variants",
+  "body_hash": "8f261e1e81e69bea0492c628a012363b42d9c98e7112aa2a640b92d6001b006a",
+  "fixes_issues": [],
+  "work_items": [
+    644606
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemVariants.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemVariants.Page.al",
+        "status": "modified",
+        "key": "page/5401",
+        "type": "page",
+        "id": 5401,
+        "name": "Item Variants",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5401"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

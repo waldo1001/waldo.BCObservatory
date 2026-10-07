@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9810",
+  "number": 9810,
+  "title": "[master]-Edit in Excel fails with false duplicate error when creating new Item Variants",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item Variants page no longer fails with a false duplicate key error when creating new variants through Edit in Excel by limiting the forced record update to interactive clients only.",
+  "key_points": [
+    "Removed forced immediate record persistence that triggered during Edit in Excel operations",
+    "Scoped the OnValidate trigger's CurrPage.Update(true) call to interactive sessions only",
+    "OData and web service sessions now bypass the early update, preventing duplicate key conflicts",
+    "Allows Edit in Excel to handle variant creation through its normal OData insert flow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Scope the forced update so it runs only for interactive clients and is skipped for OData/web-service sessions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003382,
+    "changes_in_call": 1
+  }
+}

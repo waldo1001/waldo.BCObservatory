@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9841",
+  "number": 9841,
+  "title": "Indent the case block under the IsHandled guard",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Code indentation in CheckManagement codeunit to align the case block under its IsHandled guard across all regional layers.",
+  "key_points": [
+    "Reindented case block one level deeper to be nested under the IsHandled condition check",
+    "Applied consistently across all four regional layers (APAC, NA, RU, W1)",
+    "Pure whitespace change with no logic modifications",
+    "Improves code readability and formatting consistency",
+    "Follow-up to a prior refactoring in the FinancialVoidCheck method"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003664,
+    "changes_in_call": 1
+  }
+}

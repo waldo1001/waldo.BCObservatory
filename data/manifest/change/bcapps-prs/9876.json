@@ -6,10 +6,18 @@
   "title": "[Subscription Billing] Rename progress tracker",
   "url": "https://github.com/microsoft/BCApps/pull/9876",
   "published_at": "2026-07-31T22:23:43Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:57.743Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
     }
   },
   "input_hash": "42ff2ce7545a3e33d90156162fdcd21ced373e7d:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "subscription billing rename progress tracker"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "520b825d5def93555ad3779bc299601e3e19175ccd023e31161c125b1cdcce77"
 }

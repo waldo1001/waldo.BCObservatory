@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9872,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9872",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-03T10:36:50Z",
+  "merge_commit_sha": "cad73c86faa3fe16436a67eb4bcebc403ad9af51",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add missing telemetry event IDs to E-Document Session.LogMessage calls",
+  "body_hash": "2e7bfc28d6a60709c3d38fbc0519fa719018f1fcb32b43f0f90300bd4936d2eb",
+  "fixes_issues": [],
+  "work_items": [
+    644900
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Activation/Activation.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Connection/HttpExecutor.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Documents/AvalaraDocumentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Integration/Processing.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Maintenance/Maintenance.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Shared/AvalaraFunctions.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 21,
+    "deletions": 21,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6173",
+        "type": "codeunit",
+        "id": 6173,
+        "name": "E-Document PEPPOL Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6173"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

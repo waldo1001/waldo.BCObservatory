@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9094",
+  "number": 9094,
+  "title": "Add shared CompanyMetadata data source for report layouts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "A shared CompanyMetadata data source is now available for report layouts to bind company information, eliminating the need for each report to manually code Company Information fields.",
+  "key_points": [
+    "ReportManagement subscribes to the GetCompanyMetadata business event and populates a shared company block with name, address, contact details, bank information, and identifiers",
+    "New Company Metadata Builder codeunit provides typed setters to centralize wire keys and avoid hand-written key strings",
+    "Company display name uses CompanyProperty.DisplayName() to align with how ReportRequest is built",
+    "Empty Company Information fields produce present-but-empty values in the data source",
+    "Tests-Report coverage validates values, captions, display-name logic, empty-safe behavior, and address repeater functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": "Adds a shared CompanyMetadata data source so report layouts can bind one shared company block instead of each report hand-coding Company Information fields.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00401,
+    "changes_in_call": 1
+  }
+}

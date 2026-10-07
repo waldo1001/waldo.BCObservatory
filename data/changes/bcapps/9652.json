@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9652,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9652",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-03T10:52:22Z",
+  "merge_commit_sha": "69c31df3c9bea1d4b0c27d2ef8bc4201953d5a95",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30358: add OnBeforeOnPreReport event to Redraw Receivable Bills report",
+  "body_hash": "dc9399318186ee7c0db633fedeabdc986df81848dbad1c607948975ce25b9382",
+  "fixes_issues": [],
+  "work_items": [
+    618758
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Sales/Receivables/RedrawReceivableBills.Report.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 15,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Sales/Receivables/RedrawReceivableBills.Report.al",
+        "status": "modified",
+        "key": "report/7000096",
+        "type": "report",
+        "id": 7000096,
+        "name": "Redraw Receivable Bills",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/7000096-es"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

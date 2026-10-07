@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9772,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9772",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-03T21:05:51Z",
+  "merge_commit_sha": "b8b74184bba49dec7b0346b693331e32dd31508f",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)",
+  "body_hash": "740472fdfadee5d299c632dbfdc79591bd0c45a5087d226615b32b3c2c5c1798",
+  "fixes_issues": [],
+  "work_items": [
+    642334
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Helpers/EDocumentJsonHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocMLLMSchemaHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocMLLMTests.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 60,
+    "deletions": 20,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Helpers/EDocumentJsonHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6121",
+        "type": "codeunit",
+        "id": 6121,
+        "name": "EDocument Json Helper",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocMLLMSchemaHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6232",
+        "type": "codeunit",
+        "id": 6232,
+        "name": "E-Doc. MLLM Schema Helper",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6232"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6174",
+        "type": "codeunit",
+        "id": 6174,
+        "name": "E-Document ADI Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6174"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

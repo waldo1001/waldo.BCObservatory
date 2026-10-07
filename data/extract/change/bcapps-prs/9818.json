@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9818",
+  "number": 9818,
+  "title": "[Subcontracting] Added assisted setup guide for initial app configuration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting app now includes a three-step assisted setup wizard that guides users through initial configuration independently, without requiring Manufacturing Setup during installation.",
+  "key_points": [
+    "New assisted setup wizard page for Subcontracting with three configuration steps",
+    "Users can review company defaults and navigate configuration pages during app installation",
+    "Manufacturing Setup remains available through Manual Setup for later maintenance",
+    "Setup wizard integrated with app installation process",
+    "Test coverage added for the new setup wizard functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "The guide lets users review company defaults and navigate to the remaining configuration pages without relying on Manufacturing Setup during the installation session.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003533,
+    "changes_in_call": 1
+  }
+}

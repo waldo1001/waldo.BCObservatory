@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9818,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9818",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-03T08:40:49Z",
+  "merge_commit_sha": "28ff6645963aaf7831bda4aa0a0d21374047ee06",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Added assisted setup guide for initial app configuration",
+  "body_hash": "2add37b9594400ca8cb16c50f7062a7fa44a1ab827d2f363871c46e4a787565c",
+  "fixes_issues": [],
+  "work_items": [
+    642233
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Install/SubcBusinessSetupExt.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Permissions/SubcontractObjs.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcManufacturingSetup.PageExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcontractingSetupWizard.Page.al",
+      "status": "added",
+      "additions": 347,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 168,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 550,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Install/SubcBusinessSetupExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20502",
+        "type": "codeunit",
+        "id": 20502,
+        "name": "Subc. Business Setup Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20502"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Permissions/SubcontractObjs.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/20501",
+        "type": "permissionset",
+        "id": 20501,
+        "name": "Subcontract. - Objs",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "permissionset/20501"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcManufacturingSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20542",
+        "type": "pageextension",
+        "id": 20542,
+        "name": "Subc. Manufacturing Setup",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20542"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcontractingSetupWizard.Page.al",
+        "status": "added",
+        "key": "page/20505",
+        "type": "page",
+        "id": 20505,
+        "name": "Subcontracting Setup Wizard",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "page/20505"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

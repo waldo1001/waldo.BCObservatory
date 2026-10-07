@@ -6,7 +6,7 @@
   "title": "Migrate customer, vendor and item transactions for BC14 cloud migration",
   "url": "https://github.com/microsoft/BCApps/pull/9663",
   "published_at": "2026-08-04T09:31:43Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.012236
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:48.855Z",
+      "objects": 29,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:48.864Z",
+      "path": "content/changes/bcapps/9663.md"
     }
   },
   "input_hash": "72d9d6dd801f26fa953fa5258e42774808857b03:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53b80a770d2c58692e52fffc0916688883aee0efa004f456c215b513643308d3"
+  "output_hash": "276be62b2495d69561ea5ed0c2fa91b50786939cea429e986361340d843409b8"
 }

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9887,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9887",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-03T09:04:09Z",
+  "merge_commit_sha": "ac4d9616a91d019cdfb686130d873126c5d24faf",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Exclude spend request G/L link from replication",
+  "body_hash": "86f4b44c5211266efcb97174fc1c30c79af92b67125d77589c8d79ec22b9e8a7",
+  "fixes_issues": [],
+  "work_items": [
+    644864
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+        "status": "modified",
+        "key": "table/6845",
+        "type": "table",
+        "id": 6845,
+        "name": "Spend Request To G/L Link",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6845"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

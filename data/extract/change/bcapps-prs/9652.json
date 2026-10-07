@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9652",
+  "number": 9652,
+  "title": "[Extensibility Request] issue 30358: add OnBeforeOnPreReport event to Redraw Receivable Bills report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A new integration event OnBeforeOnPreReport is added to the Redraw Receivable Bills report to allow extensions to set request page variables and bypass validations for automated processing in job queues.",
+  "key_points": [
+    "New OnBeforeOnPreReport integration event fires at the start of OnPreReport trigger",
+    "Event exposes request page variables and IsHandled flag by reference",
+    "Allows extensions to bypass NewDueDate and journal batch validations for automation",
+    "Enables unattended report execution via job queue or buttons without GUI",
+    "IsHandled flag initialized to false, controlled by subscribers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003489,
+    "changes_in_call": 1
+  }
+}

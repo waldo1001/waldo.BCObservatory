@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9887",
+  "number": 9887,
+  "title": "Exclude spend request G/L link from replication",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Table 6845 'Spend Request To G/L Link' is configured to exclude data replication, aligning with its parent Spend Request tables that already have this setting.",
+  "key_points": [
+    "Adds ReplicateData = false property to the Spend Request To G/L Link table",
+    "Ensures consistency with parent Spend Request tables which already exclude replication",
+    "Resolves a cloud migration guard failure for an unreviewed table",
+    "Low-risk metadata correction with no behavioral changes",
+    "No new tests needed as this is a property alignment only"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00373,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9863",
+  "number": 9863,
+  "title": "[Extensibility Request] issue 29074: expose PurchLineQty in OnSumPurchLines2OnBeforeDivideAmount",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The OnSumPurchLines2OnBeforeDivideAmount event now exposes the PurchLineQty parameter by reference, allowing subscribers to adjust the purchase line quantity before amount division calculations run.",
+  "key_points": [
+    "Added var PurchLineQty parameter to OnSumPurchLines2OnBeforeDivideAmount event signature",
+    "Enables extensions to modify quantity before DivideAmount logic executes",
+    "Change propagated across all country-specific layers (APAC, BE, CH, ES, FI, GB, IT, NA, RU, W1)",
+    "Supports specialized purchasing modes like amount-only processing",
+    "Event fires at the right point in SumPurchLines2 function"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004142,
+    "changes_in_call": 1
+  }
+}

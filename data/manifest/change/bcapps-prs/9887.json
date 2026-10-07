@@ -6,10 +6,35 @@
   "title": "Exclude spend request G/L link from replication",
   "url": "https://github.com/microsoft/BCApps/pull/9887",
   "published_at": "2026-08-03T09:04:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:52.366Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:57.983Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00373
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:58.142Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:58.148Z",
+      "path": "content/changes/bcapps/9887.md"
     }
   },
   "input_hash": "ac4d9616a91d019cdfb686130d873126c5d24faf:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "exclude spend request g l link from replication"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c584a6c7c77d7300afa7d9052a844cfdeead4c54495f0443a862340093af8a08"
 }
