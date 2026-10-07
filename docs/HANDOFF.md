@@ -7,10 +7,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Open specs, not yet implemented (2026-10-07)
 
 - **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
-  PLAN milestone M7. Status: proposed, spec complete, no code written. Four zero-LLM tranches with exit criteria in
-  section 8; start with tranche 1 (render the extracted field ToolTips, join hubs to their objects through
-  `docs-objects.json`, place first-party apps in their system). Until it lands, a table page shows no field
-  explanations and search ranks a 47-page hub below any codeunit that mentions the word.
+  PLAN milestone M7. Status: tranche 1 (sections 4.1-4.5: field explanations, hubs joined to their objects, tables
+  inheriting Learn links through their pages, first-party apps in their system) is built and committed on `dev/next`,
+  not yet merged or run by a nightly; deviations in section 8.1 of the spec. Tranches 2-4 (search ranking and
+  grouping, Related and app pages, page controls) have no code yet. Until tranche 2 lands, search ranks a 47-page hub
+  below any codeunit that mentions the word.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status:
   proposed, spec complete, no code written, nothing installed. Stefan Maron's bc-code-atlas (hosted MCP: bodies,

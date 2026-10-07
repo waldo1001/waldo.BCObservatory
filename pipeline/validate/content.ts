@@ -16,8 +16,8 @@ import { validate } from "../lib/schema.js";
 
 export interface ContentReport { pages: number; indexes: number; errors: string[] }
 
-/** Link kinds in frontmatter `links` that name pages by id (learn holds URLs, objects wait for the code pillar). */
-const ID_LINKS = ["features", "topics", "videos", "posts", "localizations", "guidelines", "changes"] as const;
+/** Link kinds in frontmatter `links` that name pages by id (learn holds URLs). */
+const ID_LINKS = ["features", "topics", "videos", "posts", "localizations", "guidelines", "changes", "objects"] as const;
 const LINK_RE = /\[[^\]]*\]\(([^)\s]+)\)/g;
 
 /** `<type>/<path>` for content/<type>s/<path>.md; null outside a section folder. */

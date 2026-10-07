@@ -9,6 +9,19 @@ export const NS_SYSTEM: Record<string, string> = {
   edocument: "integration", eservices: "integration", agents: "copilot", copilot: "copilot", "ai": "copilot",
   utilities: "platform", foundation: "platform", system: "platform", upgrade: "platform", environment: "administration",
   security: "administration", "systemadmin": "administration", reporting: "reporting", powerbi: "reporting",
+  // First-party apps (D65). Rule: the Learn TOC branch that documents the app decides; `development` is for AL and
+  // developer tooling only (AIDevelopmentToolkit, AgentDesignExperience, ...).
+  subscriptionbilling: "sales", // Business functionality > Sales > Subscription billing
+  powerbireports: "reporting", excelreports: "reporting", // Reporting > Power BI apps; Excel reports
+  expenseagent: "copilot", agent: "copilot", // Copilot and agent capabilities
+  datamigration: "administration", dataadministration: "administration", // Administration > Cloud migration; data archive, retention
+  intercompany: "finance", // Finance > Multi-site and international organizations > Manage intercompany transactions
+  withholdingtax: "finance", excisetaxes: "finance", // local finance features
+  qualitymanagement: "inventory", // Learn: Business functionality > Quality management (inspections of inventory and production)
+  peppol: "integration", // e-documents
+  externalfilestorage: "platform", externalstorage: "platform", email: "platform", device: "platform", privacy: "platform",
+  visualization: "platform", shared: "platform", utility: "platform", // system features
+  demodata: "platform", demotool: "platform", // Contoso demo tooling (D58 excludes the country demo apps; W1's stay)
 };
 
 export function objectSystem(namespace: string | null | undefined): string {

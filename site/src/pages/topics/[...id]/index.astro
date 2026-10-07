@@ -21,7 +21,7 @@ const stats = [
   ...(fm.children?.length ? [{ n: fm.children.length, label: "subtopics", href: "#subtopics" }] : []),
   ...(L.videos?.length ? [{ n: L.videos.length, label: "videos" }] : []),
   ...(L.features?.length ? [{ n: L.features.length, label: "roadmap features" }] : []),
-  ...(L.objects?.length ? [{ n: L.objects.length, label: "AL objects" }] : []),
+  ...(L.objects?.length ? [{ n: L.objects.length, label: "AL objects", href: "#business-central-pages-and-reports" }] : []),
 ];
 ---
 <Page fm={fm} kind="topic hub" path={`topics/${entry.id}`} section="topics" crumbs={crumbs} stats={stats}>

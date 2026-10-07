@@ -135,6 +135,11 @@ function properties(body: Node | null): Record<string, string> {
   }
   return out;
 }
+/** AL property names are case-insensitive: BCApps writes `ToolTip` and, 16 times in W1, `Tooltip` (D65). */
+export function toolTipOf(props: Record<string, string>): string | null {
+  const k = Object.keys(props).find((x) => x.toLowerCase() === "tooltip");
+  return k ? props[k] : null;
+}
 function obsoleteOf(props: Record<string, string>): Obsolete | null {
   const state = props.ObsoleteState;
   if (!state) return null;
@@ -149,7 +154,7 @@ function fields(body: Node | null): AlField[] {
   for (const sec of flat(body).filter((c) => c.node.type === "fields_section")) {
     for (const { node: f, clean } of flat(field(sec.node, "body")).filter((c) => c.node.type === "field_declaration")) {
       const props = properties(field(f, "body"));
-      out.push(withClean({ id: Number(field(f, "id")?.text), name: text(field(f, "name")), type: ws(field(f, "type")?.text ?? ""), properties: props, tooltip: props.ToolTip ?? null, obsolete: obsoleteOf(props) }, [...sec.clean, ...clean]));
+      out.push(withClean({ id: Number(field(f, "id")?.text), name: text(field(f, "name")), type: ws(field(f, "type")?.text ?? ""), properties: props, tooltip: toolTipOf(props), obsolete: obsoleteOf(props) }, [...sec.clean, ...clean]));
     }
   }
   return out;

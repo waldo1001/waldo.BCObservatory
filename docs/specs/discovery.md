@@ -473,6 +473,41 @@ and the stop list ("Setup" never pairs).
 Phases 1 and 2 can ship the same week. 3a does not depend on 2. 3b depends on 4.2 (hub → objects). 4b depends on 4a
 and on 4.1's helper.
 
+### 8.1 Tranche 1 built (2026-10-07, `dev/next`), deviations
+
+Verified locally by rendering the object and topic pages and the graph from the committed `data/` (outputs
+discarded, no nightly): `Table 18` (BC29 facts) explains 109 of 165 fields, 105 by ToolTip and 4 by Caption (the 104
+of the spec is the BC30 count); `Salesperson Code` shows its TableRelation, `Balance` its FlowField. `Table 8057` has
+12 `links.learn` and 3 `links.topics`, its header line names Page 8059 (12) and Page 8060 (1). The `Subscription
+billing` hub has 27 `links.objects` and `coverage.code` 27 and lists `Page 8059 "Service Objects" · captioned
+"Subscriptions" · on Table 8057 "Subscription Header" · via Contracts`; 272 of 605 hubs get objects. In
+`data/graph/summary.json` Page 8059 is in `sales` and `development` drops from 158 to 113 nodes; Table 8057 is not a
+summary node (its page's namespace places it in `sales`). `validate:content` accepts the `object/...` ids.
+
+Deviations from 4.1-4.5:
+
+1. **No `EXTRACTOR_VERSION` bump.** The extractor reads `ToolTip` case-insensitively (`toolTipOf`), and the renderer
+   falls back to the same lookup over `field.properties`, which already holds every property: records extracted
+   before the fix explain their `Tooltip` fields today. Bumping to 4 now would re-extract every snapshot (about 30
+   nights of `code_jobs: 1`) for 16 fields, and tranche 4 would need a second full cycle for `controls`; tranche 4
+   bumps to 4 and picks the fix up.
+2. **Explanation provenance.** A Caption fallback carries `<small>caption</small>`; the field's own ToolTip carries
+   none. A one-line legend above the Fields table says so.
+3. **TableRelation notes** link the targets the relations pass resolved for that field (`table_relation` edges with
+   `via` = the field, up to 3) instead of parsing the first identifier again; a relation with a filter or a field
+   keeps its source text in parentheses. Unresolved relations show the source text.
+4. **Hub objects** come from the object pages under `content/objects/` (rendered before the hubs in the nightly) and
+   the relations file of each object's `source_major`, not one preferred major, so a page only in BC30 still gets
+   its table. Objects Learn names that have no object page are counted in one line, not linked. `via` names the
+   direct subtopic. The section keeps the raw form ids only when nothing joins.
+5. **Site:** the object page's Neighbourhood takes `links.learn` (titles from any object page's Learn evidence), not
+   the evidence list, so inherited Learn pages show; object pages gain a "Learn pages" stat and the hub's "AL objects"
+   stat links the new section.
+6. **`NS_SYSTEM` extras** beyond the table in 4.4, by the same rule: `excelreports` (reporting), `dataadministration`
+   (administration), `peppol` (integration), `utility` (platform). `demodata` → `platform` moves Contoso objects that
+   `Microsoft.DemoData.Finance`-style namespaces used to place in business systems. Quality management hubs had no
+   system: `config/taxonomy.json` gains the alias `quality management` on `inventory`, matching the app.
+
 ## 9. Files
 
 | File | Change |

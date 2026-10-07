@@ -13,7 +13,7 @@ const L = (o: Record<string, string[]> = {}) => ({ learn: [], objects: [], featu
 function content(): string {
   const dir = join(mkdtempSync(join(tmpdir(), "bcobs-graph-")), "content");
   writeText(join(dir, "topics/fin.md"), page({ id: "topic/fin", type: "topic", title: "Finance", tier: "official", system: "finance", links: L({ topics: ["topic/fin/gl"] }) }));
-  writeText(join(dir, "topics/fin/gl.md"), page({ id: "topic/fin/gl", type: "topic", title: "General ledger", tier: "official", system: "finance", links: L({ topics: ["topic/fin"], learn: ["https://learn.microsoft.com/a", "https://learn.microsoft.com/b", "https://learn.microsoft.com/c"], posts: ["post/kauffmann-nl/1"] }) }));
+  writeText(join(dir, "topics/fin/gl.md"), page({ id: "topic/fin/gl", type: "topic", title: "General ledger", tier: "official", system: "finance", links: L({ topics: ["topic/fin"], learn: ["https://learn.microsoft.com/a", "https://learn.microsoft.com/b", "https://learn.microsoft.com/c"], posts: ["post/kauffmann-nl/1"], objects: ["object/table/17"] }) }));
   writeText(join(dir, "objects/table/17.md"), page({ id: "object/table/17", type: "object", title: 'Table 17 "G/L Entry"', tier: "official", object_type: "table", name: "G/L Entry", namespace: "Microsoft.Finance.GeneralLedger.Ledger", changed_in: ["29"], links: L({ topics: ["topic/fin/gl"], localizations: ["localization/be"] }) }));
   writeText(join(dir, "localizations/be.md"), page({ id: "localization/be", type: "localization", title: "Belgium (BE)", tier: "official", links: L({ objects: ["object/table/17"] }) }));
   writeText(join(dir, "posts/kauffmann-nl/1.md"), page({ id: "post/kauffmann-nl/1", type: "post", title: "A post", tier: "community", source_id: "kauffmann-nl", system: "finance", published_at: "2026-10-01", objects_mentioned: ["table G/L Entry", "table G/L Entries"], links: L({ topics: ["topic/fin/gl"] }) }));
@@ -23,6 +23,9 @@ function content(): string {
 }
 
 test("namespaces map to galaxy systems", () => {
+  // D65: a first-party app sits in the system of the Learn branch that documents it; development keeps developer tooling
+  assert.deepEqual(["Microsoft.SubscriptionBilling", "Microsoft.PowerBIReports", "Microsoft.ExpenseAgent", "Microsoft.Agent.SalesOrderAgent", "Microsoft.DataMigration.GP", "Microsoft.QualityManagement.Integration", "System.Email", "System.TestTools.AITestToolkit"].map(objectSystem),
+    ["sales", "reporting", "copilot", "copilot", "administration", "inventory", "platform", "development"]);
   assert.deepEqual([objectSystem("Microsoft.Sales.Customer"), objectSystem("Microsoft.Purchases.Vendor"), objectSystem("Microsoft.Foundation.NoSeries"), objectSystem(null)], ["sales", "purchasing", "platform", "development"]);
 });
 
@@ -33,6 +36,7 @@ test("graph: typed edges from frontmatter links, deduplicated; a valid summary; 
   const s = JSON.parse(readFileSync(join(dataDir, "graph/summary.json"), "utf8"));
   assert.ok(validate("graph", s).ok, JSON.stringify(validate("graph", s).errors));
   assert.deepEqual(s.edges.map((e: any) => `${e.s}|${e.t}|${e.type}`).sort(), ["localization/be|object/table/17|localizes", "object/table/17|topic/fin/gl|documents", "topic/fin/gl|topic/fin|relates"].sort().map((x) => { const [a, b, t] = x.split("|"); return a < b ? `${a}|${b}|${t}` : `${b}|${a}|${t}`; }).sort());
+  assert.equal(s.edges.find((e: any) => e.type === "documents").w, 2, "the hub's links.objects and the object's links.topics are one documents edge (D65), not a second mentions edge");
   assert.deepEqual(s.nodes.find((n: any) => n.id === "object/table/17").group, "finance");
   assert.equal(s.nodes.some((n: any) => n.type === "post"), false, "posts stay out of the summary");
   assert.ok(s.nodes.some((n: any) => n.id === "source/kauffmann-nl"));

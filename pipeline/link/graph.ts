@@ -131,7 +131,8 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
     for (const f of L.features ?? []) edge(id, f, "demonstrates");
     for (const l of L.localizations ?? []) edge(id, l, "localizes");
     // a localization's objects are the same pairs as the objects' localizations: one edge type for both directions
-    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : fm.type === "change" ? "changes" : "mentions");
+    // D65: a hub's objects are the same pairs as the objects' hubs: `documents` both ways
+    for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : fm.type === "change" ? "changes" : fm.type === "topic" ? "documents" : "mentions");
     for (const p of L.posts ?? []) edge(id, p, "discusses");
     // D61: an object's changes are the same pairs as the changes' objects; a hub's are what it documents changing
     for (const c of L.changes ?? []) edge(id, c, fm.type === "object" ? "changes" : "relates");

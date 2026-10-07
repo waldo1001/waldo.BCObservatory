@@ -67,3 +67,10 @@ test("a syntax error marks the object; the hash ignores where the object came fr
   assert.equal(shifted.hash, a.hash, "moved lines and doc comments are not declaration changes");
   assert.deepEqual([unquote('"No."'), unquote("'it''s'"), unquote(" Name ")], ["No.", "it's", "Name"]);
 });
+
+test("field ToolTips: both spellings BCApps uses (ToolTip, Tooltip) land in `tooltip` (D65)", async () => {
+  const p = await loadParser();
+  const src = `table 8057 "Subscription Header"\n{\n    fields\n    {\n        field(1; "No."; Code[20]) { ToolTip = 'Specifies the number.'; }\n        field(2; Description; Text[100]) { Tooltip = 'Specifies a description.'; }\n        field(3; Plain; Integer) { Caption = 'Plain'; }\n    }\n}\n`;
+  const [t] = extractSource(p, src, ctx);
+  assert.deepEqual(t.fields.map((f) => f.tooltip), ["Specifies the number.", "Specifies a description.", null]);
+});

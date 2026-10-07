@@ -138,6 +138,12 @@ export function drift(refs: Map<string, DocRef[]>, known: Map<string, Known>, ma
   return { majors, missing, obsolete_documented, new_undocumented };
 }
 
+/** The join as the renderers read it (object pages, topic hubs); null before the first code-derived run. */
+export function loadDocsObjects(dataDir: string): DocsObjects | null {
+  const p = resolve(dataDir, "index", "docs-objects.json");
+  return exists(p) ? readJson<DocsObjects>(p) : null;
+}
+
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
 
 /** Recompute the index and the drift report when the docs' forms or the snapshots changed. Returns files written. */

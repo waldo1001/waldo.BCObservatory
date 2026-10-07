@@ -36,6 +36,10 @@
     "name": {
       "type": "string"
     },
+    "caption": {
+      "type": "string",
+      "description": "The object's Caption property when it differs from its name (D65), e.g. Page 8059 \"Service Objects\" captioned \"Subscriptions\"."
+    },
     "namespace": {
       "type": [
         "string",

@@ -5,7 +5,8 @@
  *   preferred major (versions.json `narrative_order`: 29, then 28, then 30) with its members, its life across the
  *   majors, the countries that replace it, the Learn pages naming it (ms.search.form), the topic hubs of those pages,
  *   its relations (D45: tables it relates to and that reference it, pages on it, extensions, event subscribers) and
- *   its deprecations. Facts from the code pillar; nothing machine-written. Country-only objects get no object
+ *   its deprecations. Fields carry an Explanation (their ToolTip, else their Caption) and structural Notes; a table
+ *   inherits the Learn pages and hubs of the pages on it (D65). Facts from the code pillar; nothing machine-written. Country-only objects get no object
  *   page (their ids collide across countries); they are listed on their localization page.
  * - content/localizations/<cc>.md: what a country layer brings in the newest major it has (added, replaced and
  *   dropped objects with member summaries) plus the Learn LocalFunctionality topic hub.
@@ -21,12 +22,12 @@ import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
-import { objectKey, type AlObject, type AlProcedure } from "../code/extract.js";
+import { objectKey, toolTipOf, type AlField, type AlObject, type AlProcedure } from "../code/extract.js";
 import { isSkeleton, iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
 import { areaOf } from "../lib/systems.js";
-import type { DocsObjects } from "../code/docs-objects.js";
+import { loadDocsObjects, type DocRef, type DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { changesByObjectPath, type ChangeRef } from "./change.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
@@ -68,6 +69,8 @@ export interface ObjectWorld {
   basePage?: (o: AlObject) => string | null;
   /** Page key and title of any object key, once page keys are known (relations link through it). */
   pageOf?: (key: string) => { pk: string; title: string } | null;
+  /** Object key of a W1 or first-party app object by type and exact name (AL references objects by name), D65. */
+  keyByName?: (type: string, name: string) => string | null;
   /** Merged pull requests with a page that touched the object, per page key, newest first (D61). */
   changes?: Map<string, ChangeRef[]>;
 }
@@ -110,7 +113,6 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     if (!m) continue;
     for (const o of iterSnapshot(dataDir, m, cc)) { const k = objectKey(o); if (life.has(k)) replacedIn.set(k, [...(replacedIn.get(k) ?? []), cc]); }
   }
-  const docsPath = resolve(dataDir, "index", "docs-objects.json");
   const topicsByUrl = new Map<string, string[]>();
   for (const f of listFiles(resolve(contentDir, "topics"), ".md")) {
     const fm = matter(readText(f)).data as { id?: string; links?: { learn?: string[] } };
@@ -141,7 +143,7 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
   }
   const cbo = changesByObjectPath(dataDir);
   const changes = new Map<string, ChangeRef[]>(exists(cbo) ? Object.entries(readJson<Record<string, unknown>>(cbo)).filter(([k]) => k !== "schema") as [string, ChangeRef[]][] : []);
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: exists(docsPath) ? readJson<DocsObjects>(docsPath) : null, topicsByUrl, relations, countryOnly, changes };
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, countryOnly, changes };
 }
 
 const REL_CAP = 50;
@@ -159,7 +161,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   // a country's own object lives in one country layer: its life is that country's majors, and no country replaces it
   const life = own ? { versions: own.versions, changed: [] as string[] } : w.life.get(key) ?? { versions: [major], changed: [] };
   const docs = own ? [] : w.docs?.by_object[key] ?? [];
-  const topics = [...new Set(docs.flatMap((d) => w.topicsByUrl.get(d.url) ?? []))].sort();
+  const ownTopics = [...new Set(docs.flatMap((d) => w.topicsByUrl.get(d.url) ?? []))].sort();
   const countries = own ? [] : (w.replacedIn.get(key) ?? []).sort();
   const pageKey = own ? ownPageKey(o, own.cc) : objectPageKey(o);
   const changes = w.changes?.get(pageKey) ?? [];
@@ -178,6 +180,11 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const extendedBy = relIn.filter((e) => e.k === "extends"), runOn = relIn.filter((e) => e.k === "runs_on");
   const myEvents = R?.rel.events[key] ?? {};
   const subCount = Object.values(myEvents).reduce((n, e) => n + e.subs.length, 0);
+  // a table inherits the Learn pages and hubs of the pages on it (D65): Learn never names a table directly
+  const inherited = o.type === "table" && !own ? inheritedDocs(key, relIn, docs, ownTopics, w) : null;
+  const learnUrls = [...new Set([...docs.map((d) => d.url), ...(inherited?.learn ?? [])])];
+  const topics = [...ownTopics, ...(inherited?.topics ?? [])];
+  const caption = captionOf(o);
   const relSig = `${relOut.map((e) => `${e.k}>${e.t}:${e.via ?? ""}`).join(",")}|${relIn.map((e) => `${e.k}<${e.s}:${e.via ?? ""}`).join(",")}|${Object.entries(myEvents).map(([n, e]) => `${n}:${e.subs.map((x) => x.s).join("+")}`).join(",")}`;
   const link = (k: string) => { const p = w.pageOf?.(k); return p ? `[${cell(p.title)}](../${p.pk}.md)` : k; };
   const versions = `BC${life.versions[0]}${life.versions.length > 1 ? `-${life.versions.at(-1)}` : ""}`;
@@ -195,14 +202,14 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${docs.map((d) => d.url)}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
-      learn: docs.map((d) => d.url), objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
+      learn: learnUrls, objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
       localizations: own ? (hasLocalization(own.cc) ? [`localization/${own.cc}`] : []) : countries.filter(hasLocalization).map((cc) => `localization/${cc}`),
       videos: [], posts: [], guidelines: [], ...(changes.length ? { changes: changes.map((c) => `change/${c.page}`) } : {}),
     },
-    object_type: o.type, object_id: o.id, name: o.name, namespace: o.namespace, app: o.app, extends: o.extends,
+    object_type: o.type, object_id: o.id, name: o.name, ...(caption ? { caption } : {}), namespace: o.namespace, app: o.app, extends: o.extends,
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
     obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id), ...(own ? { country: own.cc.toUpperCase() } : {}),
     counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length },
@@ -213,20 +220,17 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const lines: string[] = [`# ${title}`, "", `> ${summary}`, "",
     `${own ? `${own.cc.toUpperCase()} country layer` : o.app ?? "unknown app"}${o.namespace ? ` · ${o.namespace}` : ""} · ${versions} · [source at ${manifest.commit.slice(0, 8)}](${src}) · facts from BC${major}`, "",
     ...(own && hasLocalization(own.cc) ? [`An object of the [${own.cc.toUpperCase()} localization](../../localizations/${own.cc}.md), not part of W1.`, ""] : []),
-    ...(!own && w.basePage?.(o) ? [`Extends [${cell(o.extends!)}](../${w.basePage(o)}.md).`, ""] : [])];
+    ...(!own && w.basePage?.(o) ? [`Extends [${cell(o.extends!)}](../${w.basePage(o)}.md).`, ""] : []),
+    ...(inherited?.pages.length ? [inheritedLine(inherited.pages, link), ""] : [])];
   const props = KEY_PROPS.filter((p) => o.properties[p] !== undefined);
   if (props.length) lines.push("## Properties", "", "| Property | Value |", "|---|---|", ...props.map((p) => `| ${p} | ${cell(o.properties[p])} |`), "");
-  if (o.fields.length) {
-    lines.push("## Fields", "", "| No. | Name | Type | Notes |", "|---|---|---|---|");
-    for (const f of o.fields) lines.push(`| ${f.id} | ${cell(f.name)} | ${cell(f.type)} | ${[f.obsolete ? `obsolete ${f.obsolete.state}${f.obsolete.tag ? ` ${f.obsolete.tag}` : ""}` : "", f.clean?.length ? `#if not ${f.clean.join(", ")}` : ""].filter(Boolean).join("; ")} |`);
-    lines.push("");
-  }
+  if (o.fields.length) lines.push(...fieldsSection(o, { link, relOut, keyByName: w.keyByName }), "");
   if (o.keys.length) lines.push("## Keys", "", ...o.keys.map((k) => `- ${cell(k.name)}: ${k.fields.map(cell).join(", ")}${k.clustered ? " (clustered)" : ""}`), "");
-  if (o.values.length) lines.push("## Values", "", "| Ordinal | Name | Notes |", "|---|---|---|", ...o.values.map((v) => `| ${v.id} | ${cell(v.name) || "(blank)"} | ${v.obsolete ? `obsolete ${v.obsolete.state}${v.obsolete.tag ? ` ${v.obsolete.tag}` : ""}` : ""} |`), "");
+  if (o.values.length) lines.push("## Values", "", "| Ordinal | Name | Caption | Notes |", "|---|---|---|---|", ...o.values.map((v) => `| ${v.id} | ${cell(v.name) || "(blank)"} | ${cell(propOf(v.properties, "Caption") ?? "")} | ${v.obsolete ? `obsolete ${v.obsolete.state}${v.obsolete.tag ? ` ${v.obsolete.tag}` : ""}` : ""} |`), "");
   if (events.length) {
     lines.push("## Events published", "");
     for (const p of events) {
-      lines.push(`- \`${cell(sig(p))}\` (${p.event}${p.obsolete ? `, obsolete ${p.obsolete.tag ?? ""}` : ""})`);
+      lines.push(`- \`${cell(sig(p))}\` (${p.event}${p.obsolete ? `, obsolete ${p.obsolete.tag ?? ""}` : ""})${p.doc ? `: ${cell(p.doc)}` : ""}`);
       const ss = myEvents[p.name]?.subs ?? [];
       if (ss.length) lines.push(`  - subscribers: ${ss.slice(0, 20).map((x) => `${link(x.s)} ${cell(x.proc)}`).join(", ")}${ss.length > 20 ? `, and ${ss.length - 20} more` : ""}`);
     }
@@ -269,6 +273,104 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   if (deps.length) lines.push("## Deprecations", "", ...deps.map((d) => `- ${d.kind}${d.member ? ` ${cell(d.member)}` : ""}: ${d.state ?? "guarded"}${d.tag ? ` ${d.tag}` : ""}${d.clean.length ? ` (#if not ${d.clean.join(", ")})` : ""}${d.reason ? `, "${cell(d.reason)}"` : ""}`), "");
   lines.push("Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).", "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
+}
+
+// ---------------------------------------------------------------------------------------------- explanations (D65)
+// Field explanations, captions and the Learn pages a table inherits through its pages. Facts from the code and the
+// docs-objects join only; nothing machine-written.
+
+/** A property by name, case-insensitively (AL property names are). */
+export function propOf(props: Record<string, string>, name: string): string | null {
+  const n = name.toLowerCase();
+  const k = Object.keys(props).find((x) => x.toLowerCase() === n);
+  return k === undefined ? null : props[k];
+}
+const isTrue = (v: string | null) => v?.toLowerCase() === "true";
+const isFalse = (v: string | null) => v?.toLowerCase() === "false";
+
+/** The object's Caption when it says something its name does not ("Service Objects" captioned "Subscriptions"). */
+export function captionOf(o: Pick<AlObject, "name" | "properties">): string | null {
+  const c = propOf(o.properties, "Caption")?.trim();
+  return c && c !== o.name.trim() ? c : null;
+}
+
+export interface FieldRowCtx {
+  /** Markdown link for an object key (falls back to the key). */
+  link: (key: string) => string;
+  /** This object's outgoing relation edges (TableRelation targets resolved by the relations pass, D45). */
+  relOut: RelEdge[];
+  keyByName?: (type: string, name: string) => string | null;
+}
+/** One Fields row's Explanation and Notes. `provenance` is null for the field's own ToolTip. */
+export interface FieldRow { explanation: string; provenance: string | null; notes: string[] }
+
+/**
+ * Explanation: the field's ToolTip (either spelling, so records extracted before D65 count too); else its Caption when
+ * that differs from the name; else an em-dash. Tranche 4 slots the ToolTip of a bound page control in between.
+ * Notes: obsolete state and CLEAN guards, then TableRelation, FlowField/FlowFilter, enum type, OptionCaption, not
+ * editable, NotBlank, AutoIncrement, and a DataClassification that differs from the object's.
+ */
+export function fieldRow(f: AlField, o: Pick<AlObject, "properties">, ctx: FieldRowCtx): FieldRow {
+  const P = (n: string) => propOf(f.properties, n);
+  const tip = f.tooltip ?? toolTipOf(f.properties);
+  const caption = P("Caption")?.trim();
+  const explanation = tip ?? (caption && caption !== f.name.trim() ? caption : "—");
+  const provenance = tip ? null : explanation !== "—" ? "caption" : null;
+  const notes: string[] = [];
+  if (f.obsolete) notes.push(`obsolete ${f.obsolete.state}${f.obsolete.tag ? ` ${f.obsolete.tag}` : ""}`);
+  if (f.clean?.length) notes.push(`#if not ${f.clean.join(", ")}`);
+  const tr = P("TableRelation");
+  if (tr) {
+    const targets = [...new Set(ctx.relOut.filter((e) => e.k === "table_relation" && e.via === f.name).map((e) => e.t))].slice(0, 3);
+    const bare = /^("[^"]+"|[A-Za-z_][A-Za-z0-9_]*)$/.test(tr.trim());
+    notes.push(targets.length ? `TableRelation ${targets.map(ctx.link).join(", ")}${bare ? "" : ` (${cell(tr)})`}` : `TableRelation ${cell(tr)}`);
+  }
+  const fc = P("FieldClass")?.toLowerCase();
+  if (fc === "flowfield") notes.push(`FlowField: ${cell(P("CalcFormula") ?? "")}`.trim());
+  if (fc === "flowfilter") notes.push("FlowFilter");
+  const en = f.type.match(/^Enum\s+(.+)$/i);
+  if (en) {
+    const name = en[1].trim().replace(/^"(.*)"$/, "$1");
+    const k = ctx.keyByName?.("enum", name) ?? null;
+    notes.push(`enum ${k ? ctx.link(k) : cell(name)}`);
+  }
+  const oc = P("OptionCaption");
+  if (oc) notes.push(`OptionCaption: ${cell(oc)}`);
+  if (isFalse(P("Editable"))) notes.push("not editable");
+  if (isTrue(P("NotBlank"))) notes.push("NotBlank");
+  if (isTrue(P("AutoIncrement"))) notes.push("AutoIncrement");
+  const dc = P("DataClassification");
+  if (dc && dc !== propOf(o.properties, "DataClassification")) notes.push(`DataClassification ${cell(dc)}`);
+  return { explanation, provenance, notes };
+}
+
+/** The Fields section: a one-line legend, then No. | Name | Type | Explanation | Notes. */
+function fieldsSection(o: AlObject, ctx: FieldRowCtx): string[] {
+  const out = ["## Fields", "", "Explanation: the field's ToolTip in the code; without one, its Caption (marked caption) when that differs from the name.", "",
+    "| No. | Name | Type | Explanation | Notes |", "|---|---|---|---|---|"];
+  for (const f of o.fields) {
+    const r = fieldRow(f, o, ctx);
+    out.push(`| ${f.id} | ${cell(f.name)} | ${cell(f.type)} | ${r.explanation === "—" ? "—" : cell(r.explanation)}${r.provenance ? ` <small>${r.provenance}</small>` : ""} | ${r.notes.join("; ")} |`);
+  }
+  return out;
+}
+
+/** What a table inherits from the pages whose SourceTable it is: their Learn pages and the hubs of those pages. */
+export interface Inherited { pages: { key: string; docs: number }[]; learn: string[]; topics: string[] }
+function inheritedDocs(key: string, relIn: RelEdge[], ownDocs: DocRef[], ownTopics: string[], w: ObjectWorld): Inherited {
+  const pages = [...new Set(relIn.filter((e) => e.k === "source_table" && e.t === key).map((e) => e.s))]
+    .map((k) => ({ key: k, refs: w.docs?.by_object[k] ?? [] })).filter((p) => p.refs.length)
+    .sort((a, b) => b.refs.length - a.refs.length || a.key.localeCompare(b.key, "en", { numeric: true }));
+  const own = new Set(ownDocs.map((d) => d.url));
+  const learn = [...new Set(pages.flatMap((p) => p.refs.map((d) => d.url)))].filter((u) => !own.has(u));
+  const seen = new Set(ownTopics);
+  const topics = [...new Set(learn.flatMap((u) => w.topicsByUrl.get(u) ?? []))].filter((t) => !seen.has(t)).sort();
+  return { pages: pages.map((p) => ({ key: p.key, docs: p.refs.length })), learn, topics };
+}
+const INHERITED_CAP = 20;
+function inheritedLine(pages: Inherited["pages"], link: (k: string) => string): string {
+  const shown = pages.slice(0, INHERITED_CAP).map((p, i) => `${link(p.key)} (${p.docs}${i === 0 ? ` Learn page${p.docs === 1 ? "" : "s"}` : ""})`);
+  return `Learn documents this table through its pages: ${shown.join(", ")}${pages.length > INHERITED_CAP ? `, and ${pages.length - INHERITED_CAP} more pages` : ""}.`;
 }
 
 // ---------------------------------------------------------------------------------------------- localizations
@@ -370,6 +472,9 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
   const byName = new Map<string, string>();
   for (const [k, pk] of pageKeys) { const o = w.preferred.get(k)!.obj; byName.set(`${o.type}/${o.name.toLowerCase()}`, pk); }
   w.basePage = (o) => (o.extends ? byName.get(`${o.type.replace(/extension$/, "")}/${o.extends.toLowerCase()}`) ?? null : null);
+  const keyByName = new Map<string, string>();
+  for (const k of pageKeys.keys()) { const o = w.preferred.get(k)!.obj; keyByName.set(`${o.type}/${o.name.toLowerCase()}`, k); }
+  w.keyByName = (type, name) => keyByName.get(`${type}/${name.toLowerCase()}`) ?? null;
   w.pageOf = (k) => { const pk = pageKeys.get(k); const e = w.preferred.get(k); return pk && e ? { pk, title: titleOf(e.obj) } : null; };
   const wanted = new Set<string>();
   for (const [k, { obj, major, manifest }] of w.preferred) {

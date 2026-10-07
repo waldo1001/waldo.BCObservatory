@@ -16,9 +16,13 @@ export async function getStaticPaths() {
   // only W1 and first-party app pages: a country's own object shares its id with other countries (D52)
   for (const e of all) if (!e.data.country) byKey.set(`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`, { pk: e.id, title: String(e.data.title), system: objectSystem(e.data.namespace), type: String(e.data.object_type) });
   const lookup = (k: string) => byKey.get(k) ?? null;
-  return all.map((entry) => ({ params: { id: entry.id }, props: { entry, lookup } }));
+  // Learn titles by URL from every object's evidence: a table's links.learn holds the Learn pages of the pages on it
+  // (D65), whose titles live in those pages' evidence
+  const learnTitles = new Map<string, string>();
+  for (const e of all) for (const ev of (e.data.evidence ?? []) as any[]) if (ev.kind === "learn" && !learnTitles.has(String(ev.url))) learnTitles.set(String(ev.url), String(ev.title));
+  return all.map((entry) => ({ params: { id: entry.id }, props: { entry, lookup, learnTitles } }));
 }
-const { entry, lookup } = Astro.props;
+const { entry, lookup, learnTitles } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const fm = entry.data;
 const history = objectHistory(entry.id);
@@ -30,12 +34,13 @@ const stats = [
   ...(c.fields ? [{ n: c.fields, label: "fields", href: "#fields" }] : []),
   ...(c.procedures ? [{ n: c.procedures, label: "procedures", href: "#procedures" }] : []),
   ...(c.events ? [{ n: c.events, label: "events", href: "#events-published" }] : []),
+  ...(fm.links?.learn?.length ? [{ n: fm.links.learn.length, label: "Learn pages", href: (fm.evidence ?? []).some((e: any) => e.kind === "learn") ? "#documented-on-microsoft-learn" : "#pages-and-codeunits-on-this-table" }] : []),
   ...(fm.countries?.length ? [{ n: fm.countries.length, label: "countries replace it", href: "#countries-that-replace-it" }] : []),
   ...(fm.relations?.referenced_by ? [{ n: fm.relations.referenced_by, label: "fields reference it", href: "#referenced-by" }] : []),
   ...(fm.relations?.event_subscribers ? [{ n: fm.relations.event_subscribers, label: "event subscribers", href: "#events-published" }] : []),
 ];
 const objectKey = `${fm.object_type}/${fm.object_id ?? String(fm.name).toLowerCase()}`;
-const learn = (fm.evidence ?? []).filter((e: any) => e.kind === "learn").map((e: any) => ({ url: String(e.url), title: String(e.title) }));
+const learn = ((fm.links?.learn ?? []) as string[]).map((url) => ({ url: String(url), title: learnTitles.get(String(url)) ?? String(url) }));
 const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
 ---
 <Page fm={fm} kind={String(fm.object_type)} path={`objects/${entry.id}`} section="objects"
