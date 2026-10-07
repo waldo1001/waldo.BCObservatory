@@ -23,7 +23,9 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
-   exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
+   exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. Procedure
+   bodies and the full call graph are not here by policy; the plugin also connects bc-code-atlas (Stefan Maron) for
+   those, and every object page says how to ask it.
 
 ## If you are an agent (or human) changing this repository
 

@@ -15,8 +15,11 @@ roadmap features, videos, community posts). Machine-generated pages are badged u
 
 ```bash
 claude mcp add bc-observatory -- npx -y bc-observatory@latest      # MCP server (packages/mcp)
-claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bc-lookup, bc-whats-new, bc-localization
+claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bc-lookup, bc-whats-new, bc-localization, bc-grounding
 ```
+
+Source bodies and the call graph: [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (MIT),
+connected by the plugin.
 
 To run the server from a checkout instead:
 `claude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`.
