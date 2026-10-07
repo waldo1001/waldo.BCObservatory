@@ -2,7 +2,7 @@
 id: video/LW2JNV01sJo
 type: video
 title: Meet the OptimAL Performance Initiative
-summary: The OptimAL Performance Initiative is a Microsoft program that helps Business Central partners build skills, tools and engineering discipline to manage performance proactively. The video gives partner-reported gains (20%, over 40%, 2.5 times faster at the 95th percentile, 93% overall) and frames performance as a continuous journey.
+summary: "The OptimAL Performance Initiative is a Microsoft program that helps Business Central partners build the skills, tools and engineering discipline, including agent capabilities, to manage performance proactively rather than reactively. Speakers in the video give these results: 20%, more than 40%, '2.5 times faster than 95%' and 93% overall. The video presents performance as a continuous journey and a shared responsibility."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - scalability
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:49.710Z"
   flags: []
 generated:
-  at: "2026-10-06T15:15:38.293Z"
+  at: "2026-10-07T22:47:49.747Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,11 +111,6 @@ features:
     t: 65
     verified: false
     status_source: video
-  - name: Performance improvements through OptimAL
-    status: unclear
-    t: 88
-    verified: false
-    status_source: video
   - name: Agent capabilities for performance management
     status: unclear
     t: 65
@@ -145,9 +140,9 @@ quotes:
 
 # Meet the OptimAL Performance Initiative
 
-> The OptimAL Performance Initiative is a Microsoft program that helps Business Central partners build skills, tools and engineering discipline to manage performance proactively. The video gives partner-reported gains (20%, over 40%, 2.5 times faster at the 95th percentile, 93% overall) and frames performance as a continuous journey.
+> The OptimAL Performance Initiative is a Microsoft program that helps Business Central partners build the skills, tools and engineering discipline, including agent capabilities, to manage performance proactively rather than reactively. Speakers in the video give these results: 20%, more than 40%, '2.5 times faster than 95%' and 93% overall. The video presents performance as a continuous journey and a shared responsibility.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LW2JNV01sJo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-26 · 2:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LW2JNV01sJo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-26 · 2:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,9 +154,9 @@ The video presents performance as a continuous journey, not a destination. Optim
 
 - OptimAL Performance Initiative is aimed at partners and covers skills, tools and engineering discipline for managing performance proactively instead of reactively.
 - Agent capabilities are part of the OptimAL toolkit for performance management.
-- Partner-reported results quoted: 20% improvement, more than 40%, 2.5 times faster at the 95th percentile, and 93% overall improvement.
+- Results quoted by speakers: 20% improvement, more than 40%, '2.5 times faster than 95%', and 93% overall improvement.
 - The video states that unhandled performance bottlenecks can ripple across the system and affect the overall experience.
-- Performance is described as a continuous journey, not a one-time fix.
+- Performance is described as a continuous journey, not a one-time fix, and as a shared responsibility.
 - Claimed benefits: faster, more predictable systems that scale, happier customers and lower support costs.
 - The video is a 2-minute introduction. The facts do not give a feature status, objects or setup steps.
 
@@ -177,11 +172,10 @@ The video presents performance as a continuous journey, not a destination. Optim
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| OptimAL Performance Initiative | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |  |
-| Performance improvements through OptimAL | status not stated | [1:28](https://www.youtube.com/watch?v=LW2JNV01sJo&t=88s) |  |
-| Agent capabilities for performance management | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |  |
+| Feature | Status | At |
+|---|---|---|
+| OptimAL Performance Initiative | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
+| Agent capabilities for performance management | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
 
 ## Quotes
 

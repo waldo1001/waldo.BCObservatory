@@ -1,0 +1,28 @@
+{
+  "video_id": "LW2JNV01sJo",
+  "item_id": "video/yt-microsoft/LW2JNV01sJo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary, a key point and a feature description said the 2.5x gain was 'at the 95th percentile'. The transcript only says '2.5 times faster than 95%', so the percentile reading is an inference. The summary and key point now use the transcript's wording.",
+    "The feature 'Performance improvements through OptimAL' only lists results quoted in testimonials. It is not a product feature, so it is dropped.",
+    "The quote at t=88.3 joins lines from several speakers across segments and leaves out the '>>' speaker markers. The words are verbatim, so it is kept.",
+    "The other quotes match the transcript word for word. Every feature status stays 'unclear' because the transcript never states a preview or GA status.",
+    "The 'performance bottlenecks' chapter starts at 12.8, where the video shows a generic 'something stops working' scene. Bottlenecks are first named at 37.3. This is minor and left unchanged."
+  ],
+  "input_hash": "a45e5e86d53a625dfab9b57e0703d71b77863542875ab9f64a958c53ec5d1151",
+  "by": "opus",
+  "at": "2026-10-07T22:47:49.710Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056153
+  }
+}

@@ -4,13 +4,13 @@
   "summary": "Approvals for the Expense Agent in Business Central (2026 release wave 1): approvers get email or Copilot chat notifications and can approve, reject or request changes. Covers setup on the Expense Users page, team-based approval, and the licensing requirement for approvers.",
   "overview": "The video introduces an approval workflow for expense reports submitted through the expense agent. Submitters often work outside Business Central, on mobile devices, and do not need a Business Central license. The design follows a model-first, AI-first approach, where AI suggests whether a receipt follows company policy before the report is submitted for approval.\n\nThe demo shows an approver being notified by email or Copilot chat, then approving or rejecting a report. A rejected report goes back to the submitter, who can revise and resubmit. Once approved, the decision is registered in Business Central, including financial consequences such as posting to GL reports. Setup is done on a new Expense Users page. The presenter says the UI is not final and may be tweaked.",
   "key_points": [
-    "Approvers receive notifications about pending expense reports by email or Copilot chat, and can approve, reject, or request changes.",
-    "Rejected or sent-back reports can be revised and resubmitted by the submitter.",
-    "Admins define expense users on the new Expense Users page and mark approvers with a can approve flag.",
-    "Team-based setup is supported: a team manager can approve expenses for their team members.",
-    "Users who submit expense reports do not need a Business Central license; approvers must have one.",
-    "An approval is registered in Business Central, and financial consequences such as GL posting are handled there.",
-    "The presenter says the UI is not final and may change before release."
+    "Approvers receive notifications about pending expense reports by email or Copilot chat, and can approve, reject, or send reports back with a comment.",
+    "Rejected or sent-back reports return to the submitter, who can review the comment and revise the report.",
+    "Before submission, the AI model makes decisions or suggestions on whether receipts follow policy.",
+    "Admins define expense users on the new Expense Users page and mark approvers with a can approve flag, then choose who each approver can approve for.",
+    "Team-based setup is supported: a team manager can approve expenses for the team they manage.",
+    "Users who submit expense reports do not need a Business Central license and are billed through the standard agent billing system; approvers must have a Business Central license.",
+    "The approval is registered in Business Central, and financial consequences such as posting to the GL are handled there."
   ],
   "audience": [
     "administrator",

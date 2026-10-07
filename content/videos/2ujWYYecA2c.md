@@ -18,12 +18,12 @@ tags:
   - human review
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:18.883Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:47:18.919Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,7 +194,7 @@ quotes:
 
 > Sales Order Agent setup in Business Central using the new "Try it out" experience, which creates test tasks without connecting a real inbox. Also covers connecting a personal or shared Outlook inbox, review settings, and how the agent handles a customer email with attachments and a sales quote.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2ujWYYecA2c) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-10 · 6:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2ujWYYecA2c) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-10 · 6:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -204,13 +204,13 @@ The second half covers connecting a real Outlook inbox, either personal or share
 
 ## Key points
 
-- "Try it out" lets you create a test task without connecting to a real inbox, using a predefined template or manually entered text. Templates can include attachments.
-- The agent identifies the customer from the email, matches it to existing contacts, and finds items and prices.
+- "Try it out" lets you create a test task without connecting to a real inbox. You enter the customer or pick an existing contact, then type text manually or use a predefined template, with or without attachments.
+- The agent identifies the customer from the email and finds items and prices.
 - Non-relevant attachments, such as terms and conditions or privacy policies, are filtered out automatically.
-- The agent prepares a sales quote and attaches it to a draft reply. It can be configured to send orders directly, which skips quote generation, and it can also prepare a sales order confirmation.
-- You can connect a personal or shared Outlook inbox; shared inbox access depends on user permissions. When experimenting with real customer emails, use a dedicated folder instead of the main inbox.
-- A configuration option skips review of incoming messages from known customers. Emails from unknown customers can still require review if configured that way.
-- Nothing leaves Business Central without human review of the outgoing email, and the agent cannot send email if no inbox is connected.
+- The agent prepares a sales quote and attaches it to a draft reply. It can be configured to skip the quote part and send orders directly, and in the real-inbox example it prepared a sales order confirmation.
+- You can connect a personal or shared inbox. While still experimenting, use a dedicated folder with preselected real customer emails instead of the main inbox.
+- A configuration option turns off review of incoming messages from known customers. Availability handling, including capable to promise, can also be configured.
+- Nothing leaves Business Central without human review of the outgoing email. In Try it out, the email cannot be sent because no inbox is connected.
 
 ## Chapters
 
@@ -225,17 +225,17 @@ The second half covers connecting a real Outlook inbox, either personal or share
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=2ujWYYecA2c&t=0s) |  |
-| Try It Out Experience | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=2ujWYYecA2c&t=26s) |  |
-| Email Attachment Detection | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2ujWYYecA2c&t=50s) |  |
-| Customer Identification | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=2ujWYYecA2c&t=107s) |  |
-| Sales Quote Generation | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=2ujWYYecA2c&t=107s) |  |
-| Inbox Connection Configuration | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=2ujWYYecA2c&t=170s) |  |
-| No Review Configuration Option | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=2ujWYYecA2c&t=219s) |  |
-| Availability and Capable to Promise Options | status not stated | [3:39](https://www.youtube.com/watch?v=2ujWYYecA2c&t=219s) |  |
-| Sales Order Confirmation Generation | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=2ujWYYecA2c&t=318s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=2ujWYYecA2c&t=0s) |
+| Try It Out Experience | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=2ujWYYecA2c&t=26s) |
+| Email Attachment Detection | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2ujWYYecA2c&t=50s) |
+| Customer Identification | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=2ujWYYecA2c&t=107s) |
+| Sales Quote Generation | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=2ujWYYecA2c&t=107s) |
+| Inbox Connection Configuration | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=2ujWYYecA2c&t=170s) |
+| No Review Configuration Option | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=2ujWYYecA2c&t=219s) |
+| Availability and Capable to Promise Options | status not stated | [3:39](https://www.youtube.com/watch?v=2ujWYYecA2c&t=219s) |
+| Sales Order Confirmation Generation | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=2ujWYYecA2c&t=318s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,32 @@
+{
+  "video_id": "xB9kszf93hE",
+  "item_id": "video/yt-microsoft/xB9kszf93hE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes check out as verbatim. Two of them run on into the next segment, which is allowed.",
+    "A key point said benchmarking observes latency. The captions actually say 'agency', so the page now uses only cost and error rates, which the transcript supports. The 'Agent benchmarking and observability' feature description still says latency; it was left alone because descriptions can't be edited here.",
+    "A key point read 'the second part' as the second video in a series. In the transcript it means the second type of evaluation, the programmatic one, and the speaker says today's office hour mostly covers building your own evaluations. The key point has been corrected.",
+    "The 'Using LLMs to judge outputs' chapter starts at 227.8, but the LLM discussion doesn't begin until about 249. This is minor and was left unchanged.",
+    "All four features stay 'unclear' because the transcript doesn't say whether any of them is in preview or generally available."
+  ],
+  "input_hash": "c22b9d96b46f5dc4d9845ae492099ac04c65bc926b2c557a92c48163d7a02636",
+  "by": "opus",
+  "at": "2026-10-07T22:47:38.435Z",
+  "applied": [
+    "AI evaluations framework: status unclear",
+    "Programmatic evaluation with data-driven testing via YAML: status unclear",
+    "LLM-based output evaluation: status unclear",
+    "Agent benchmarking and observability: status unclear",
+    "quote at 238s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.074365
+  }
+}

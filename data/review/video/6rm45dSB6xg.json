@@ -1,0 +1,26 @@
+{
+  "video_id": "6rm45dSB6xg",
+  "item_id": "video/yt-microsoft/6rm45dSB6xg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim. The quote at 13.5 runs on into segment 24.6, which is allowed.",
+    "The key point saying users 'manually hide personal information before sending' goes further than the transcript, which only says 'we make it very easy to hide that from us'. The summary's 'manual redaction' has the same problem. Both are reworded.",
+    "Key points left out that support information can be copied from the help pane to share with partners. Added.",
+    "The transcript does not state a preview or GA status for any feature, so all features stay unclear."
+  ],
+  "input_hash": "b425ecd5a7306b19629537ece0456c214cdb6e11374d0ff272fcbe7292d947bc",
+  "by": "opus",
+  "at": "2026-10-07T22:47:04.328Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044013
+  }
+}

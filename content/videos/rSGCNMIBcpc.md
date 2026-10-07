@@ -16,12 +16,12 @@ tags:
   - policies
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:08.664Z"
   flags: []
 generated:
-  at: "2026-10-06T15:20:09.619Z"
+  at: "2026-10-07T22:47:08.702Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,7 +48,7 @@ evidence:
     date: "2026-08-07T13:00:07.000Z"
     commit: null
     t: 16
-    quote: when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you
+    quote: this is going to be the person that is able to approve the expenses for everyone in your company by default
   - kind: video
     url: https://www.youtube.com/watch?v=rSGCNMIBcpc&t=28s
     title: "Expense Agent: Approvals (2026 release wave 1)"
@@ -84,6 +84,13 @@ evidence:
     commit: null
     t: 328
     quote: There might be something coming soon about policies, so stay tuned for new Expense Agent changes
+  - kind: video
+    url: https://www.youtube.com/watch?v=rSGCNMIBcpc&t=361s
+    title: "Expense Agent: Approvals (2026 release wave 1)"
+    date: "2026-08-07T13:00:07.000Z"
+    commit: null
+    t: 361
+    quote: you can choose a frequency to remind users to submit their reports
   - kind: video
     url: https://www.youtube.com/watch?v=rSGCNMIBcpc&t=407s
     title: "Expense Agent: Approvals (2026 release wave 1)"
@@ -197,7 +204,7 @@ features:
 objects_mentioned: []
 quotes:
   - t: 16
-    text: when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you
+    text: this is going to be the person that is able to approve the expenses for everyone in your company by default
     check: exact
   - t: 28
     text: this is also not mandatory. So, in case your company doesn't really have a default approver, you don't need to set that up
@@ -214,6 +221,9 @@ quotes:
   - t: 328
     text: There might be something coming soon about policies, so stay tuned for new Expense Agent changes
     check: exact
+  - t: 361
+    text: you can choose a frequency to remind users to submit their reports
+    check: exact
   - t: 407
     text: we have some more improvements coming for the approvals in uh expense agent. So, stay tuned and um for the next wave of improvements
     check: exact
@@ -223,7 +233,7 @@ quotes:
 
 > Expense Agent approvals in Business Central (2026 release wave 1): default and per-user approvers, the Can Approve flag, email notification on submission, send back with comments, resubmission, approver licensing, and reminders for unsubmitted reports. Policies and enhanced approvals are announced only.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rSGCNMIBcpc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 7:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=rSGCNMIBcpc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 7:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -274,12 +284,13 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## Quotes
 
-- [0:16](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=16s) "when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you"
+- [0:16](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=16s) "this is going to be the person that is able to approve the expenses for everyone in your company by default"
 - [0:28](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=28s) "this is also not mandatory. So, in case your company doesn't really have a default approver, you don't need to set that up"
 - [1:05](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=65s) "Notice that there is a flag here called Can Approve. That's what controls which users can be approvals for others."
 - [1:50](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=110s) "it will send my approver an email if I have configured an email address inside Business Central"
 - [4:23](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=263s) "the approver needs to have a Business Central license and be a user in Business Central. Notice that this is not a requirement for"
 - [5:28](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=328s) "There might be something coming soon about policies, so stay tuned for new Expense Agent changes"
+- [6:01](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=361s) "you can choose a frequency to remind users to submit their reports"
 - [6:47](https://www.youtube.com/watch?v=rSGCNMIBcpc&t=407s) "we have some more improvements coming for the approvals in uh expense agent. So, stay tuned and um for the next wave of improvements"
 
 ## Disclaimers in the video

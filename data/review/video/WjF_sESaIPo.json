@@ -1,0 +1,29 @@
+{
+  "video_id": "WjF_sESaIPo",
+  "item_id": "video/yt-microsoft/WjF_sESaIPo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claiming the 5-minute job queue 'may not suit extremely time-sensitive work' is not in the transcript; it says manifests are processed 'quickly and consistently'.",
+    "'For compliance and troubleshooting' is not in the transcript, which only says 'Each step is logged, every action is traceable.' The same phrase appears in the job queue feature description.",
+    "The summary did not say that the Manifest Agent is an Aptean (partner) product, which the transcript states twice.",
+    "Feature statuses stay unclear because the transcript gives no preview or GA wording; it is a partner customer story.",
+    "The 'copilot' system tag is weakly supported: the video calls it agentic automation but never mentions Copilot.",
+    "The transcript spells the customer 'Interfruit', but the video title says Interfrucht GmbH."
+  ],
+  "input_hash": "f0a77ba909ca4c059ad38965aea1393658e4db0871ff1d6622af822de2fb4df6",
+  "by": "opus",
+  "at": "2026-10-07T22:47:45.279Z",
+  "applied": [
+    "quote at 77s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047013
+  }
+}

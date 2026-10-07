@@ -2,7 +2,7 @@
 id: video/kwGEoxN46hk
 type: video
 title: "Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)"
-summary: "Running several Sales Order Agents in parallel in Business Central (2026 release wave 1): each agent monitors its own email folder, has its own settings, and unknown senders can be handled with contact matching options. Demo covers setup of a second agent and switching between agents."
+summary: "Shows how to run several Sales Order Agents in parallel in Business Central (2026 release wave 1). It sets up a second agent that monitors the current user's inbox and has its own settings: a dedicated folder, review options, quotes or orders, and a custom signature. The demo also shows new options for emails from unknown senders: use a different existing contact or update an existing customer's email address."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - multiple instances
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:09.144Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:09.186Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 141
     quote: With this version, we have options. We can actually decide to use a different existing contact, maybe once, which can be useful if we
+  - kind: video
+    url: https://www.youtube.com/watch?v=kwGEoxN46hk&t=161s
+    title: "Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)"
+    date: "2026-07-10T14:00:30.000Z"
+    commit: null
+    t: 161
+    quote: Or if we know that customer got a new email address, but this customer already exist in Business Central, we can actually update the
   - kind: video
     url: https://www.youtube.com/watch?v=kwGEoxN46hk&t=196s
     title: "Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)"
@@ -130,6 +137,9 @@ quotes:
   - t: 141
     text: With this version, we have options. We can actually decide to use a different existing contact, maybe once, which can be useful if we
     check: exact
+  - t: 161
+    text: Or if we know that customer got a new email address, but this customer already exist in Business Central, we can actually update the
+    check: exact
   - t: 196
     text: So now I can actually add even more sales order agents if I have multiple shared inbox or maybe I need to monitor something
     check: exact
@@ -137,9 +147,9 @@ quotes:
 
 # Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)
 
-> Running several Sales Order Agents in parallel in Business Central (2026 release wave 1): each agent monitors its own email folder, has its own settings, and unknown senders can be handled with contact matching options. Demo covers setup of a second agent and switching between agents.
+> Shows how to run several Sales Order Agents in parallel in Business Central (2026 release wave 1). It sets up a second agent that monitors the current user's inbox and has its own settings: a dedicated folder, review options, quotes or orders, and a custom signature. The demo also shows new options for emails from unknown senders: use a different existing contact or update an existing customer's email address.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kwGEoxN46hk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-10 · 3:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kwGEoxN46hk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-10 · 3:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,13 +159,13 @@ It walks through activating a second agent, giving it a dedicated email folder, 
 
 ## Key points
 
-- Several Sales Order Agents can run in parallel, each monitoring a different inbox or folder.
-- Select a dedicated folder for each agent so it does not pick up all received emails or process duplicates.
-- Each agent has its own configuration: whether incoming messages are reviewed before processing, whether it creates quotes or orders, and a custom reply signature.
-- For emails from unknown senders you can create a new contact on the fly, use an existing contact, or update an existing customer's email address.
-- The contact options are useful for emails from shared inboxes or no-reply portals.
-- Statistics are shown per agent, and you can switch between agents to monitor their activity.
-- More agents can be added for each additional shared inbox or mailbox you need to monitor.
+- Several Sales Order Agents can run in parallel, for example one monitoring a shared inbox and another monitoring the current user's inbox.
+- When activating another agent, a display name is proposed (Sales Order Agent 2) and can be changed.
+- Selecting a dedicated folder is recommended so the agent does not pick up every email that lands in your inbox.
+- Each agent can be customized: whether to review incoming messages, whether to send quotes or orders, whether to review created documents before the agent drafts a reply, and a custom signature.
+- Previously, emails from unknown senders led to creating a contact on the fly. Now you can also use a different existing contact (useful for portal, no-reply or shared-inbox emails) or update an existing customer's email address.
+- The demo shows both agents running in parallel with different statistics, and you can navigate and switch between them.
+- More agents can be added for multiple shared inboxes or to monitor colleagues' mail while they are on vacation.
 
 ## Chapters
 
@@ -168,18 +178,19 @@ It walks through activating a second agent, giving it a dedicated email folder, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Multiple Sales Order Agents in Parallel | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |  |
-| Dedicated Folder Configuration for Agents | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |  |
-| Agent Message Review Settings | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |  |
-| Custom Agent Signature | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |  |
-| Contact Matching Options for Unknown Senders | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |  |
-| Agent Statistics and Navigation | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Multiple Sales Order Agents in Parallel | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
+| Dedicated Folder Configuration for Agents | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
+| Agent Message Review Settings | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
+| Custom Agent Signature | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
+| Contact Matching Options for Unknown Senders | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
+| Agent Statistics and Navigation | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
 
 ## Quotes
 
 - [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) "With this release, you can actually have several sales order agents running in parallel and you have access to both of them."
 - [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) "reminder that is very good idea to select a dedicated folder uh to make sure that uh sales order the agent is not picking"
 - [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) "With this version, we have options. We can actually decide to use a different existing contact, maybe once, which can be useful if we"
+- [2:41](https://www.youtube.com/watch?v=kwGEoxN46hk&t=161s) "Or if we know that customer got a new email address, but this customer already exist in Business Central, we can actually update the"
 - [3:16](https://www.youtube.com/watch?v=kwGEoxN46hk&t=196s) "So now I can actually add even more sales order agents if I have multiple shared inbox or maybe I need to monitor something"

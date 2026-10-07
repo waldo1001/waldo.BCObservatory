@@ -1,0 +1,25 @@
+{
+  "video_id": "P1cS4g-Lj2M",
+  "item_id": "video/yt-microsoft/P1cS4g-Lj2M",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript; some are cut off mid-sentence but are still meaningful.",
+    "The captions say 'Becina's' instead of Abakion, which looks like a caption error; the video title confirms Abakion, so the summary is fine.",
+    "The numbers (14 onboarded directly from education, 150 qualified candidates) match the transcript.",
+    "All three features are correctly left as 'unclear' because the video says nothing about preview or general availability.",
+    "Two chapters start one segment early: 'Community support across geographies' begins at 56.5, but the community talk starts at 72.4, and 'Measurable impact' begins at 72.4, but the numbers come at 83.8 and 99.4. Chapters are not an editable field, so this is left as is.",
+    "Two small points are not covered: outside trainers bring new perspectives, and the partner plans to run the program again. Neither is needed."
+  ],
+  "input_hash": "c123b62ecf9375ee298b417fd1b3c12ab684284cb698c9d4fa397bd7668e2108",
+  "by": "opus",
+  "at": "2026-10-07T22:47:33.244Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049981
+  }
+}

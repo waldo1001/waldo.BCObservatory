@@ -2,7 +2,7 @@
 id: video/WjF_sESaIPo
 type: video
 title: Interfrucht GmbH
-summary: "Interfrucht GmbH customer story: a Manifest Agent for Business Central monitors a shared mailbox, reads manifest PDFs, extracts and validates data, and creates purchase orders. It runs through a job queue every 5 minutes and logs each step. Manual handling took about 20 minutes per manifest, up to 10 times a day."
+summary: "Partner customer story: Aptean's Manifest Agent for Business Central, used at Interfrucht, monitors a shared mailbox, reads vendor manifest PDFs, extracts and validates the data, and creates purchase orders with the right vendor, items, quantities and locations. It runs through a job queue every 5 minutes and logs each step. It replaced manual handling that took about 20 minutes per manifest, up to 10 times a day."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - audit trail
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:45.279Z"
   flags: []
 generated:
-  at: "2026-10-06T15:15:39.445Z"
+  at: "2026-10-07T22:47:45.311Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 77
     quote: creates the purchase orders in Business Central. The right vendor, the right items, the right quantities, and locations.
+  - kind: video
+    url: https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s
+    title: Interfrucht GmbH
+    date: "2026-05-27T13:14:24.000Z"
+    commit: null
+    t: 77
+    quote: No manual work required, except a simple initial email confirmation.
   - kind: video
     url: https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s
     title: Interfrucht GmbH
@@ -136,6 +143,9 @@ quotes:
   - t: 77
     text: creates the purchase orders in Business Central. The right vendor, the right items, the right quantities, and locations.
     check: exact
+  - t: 77
+    text: No manual work required, except a simple initial email confirmation.
+    check: exact
   - t: 92
     text: The agent runs securely through a job queue every 5 minutes, ensuring manifests are processed quickly and consistently.
     check: exact
@@ -146,9 +156,9 @@ quotes:
 
 # Interfrucht GmbH
 
-> Interfrucht GmbH customer story: a Manifest Agent for Business Central monitors a shared mailbox, reads manifest PDFs, extracts and validates data, and creates purchase orders. It runs through a job queue every 5 minutes and logs each step. Manual handling took about 20 minutes per manifest, up to 10 times a day.
+> Partner customer story: Aptean's Manifest Agent for Business Central, used at Interfrucht, monitors a shared mailbox, reads vendor manifest PDFs, extracts and validates the data, and creates purchase orders with the right vendor, items, quantities and locations. It runs through a job queue every 5 minutes and logs each step. It replaced manual handling that took about 20 minutes per manifest, up to 10 times a day.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WjF_sESaIPo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-27 · 2:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WjF_sESaIPo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-27 · 2:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -158,13 +168,13 @@ The video shows a Manifest Agent that replaces this work. It watches a shared ma
 
 ## Key points
 
+- Aptean, a partner, built the Manifest Agent for Business Central; the video presents it as agentic automation.
 - Before the agent: manual handling of each manifest took about 20 minutes, up to 10 times a day.
-- The agent monitors a shared mailbox and detects incoming manifest PDFs.
+- The agent monitors a shared mailbox and detects incoming manifest PDFs sent by vendors.
 - It extracts data from the manifest and validates it before creating purchase orders.
 - Purchase orders are created in Business Central with vendor, items, quantities and locations from the manifest.
-- Execution runs through a job queue every 5 minutes, which may not suit extremely time-sensitive work.
-- Each step is logged, so every action is traceable for compliance and troubleshooting.
-- A simple initial email confirmation is required.
+- Execution runs through a job queue every 5 minutes.
+- Each step is logged and every action is traceable.
 
 ## Chapters
 
@@ -176,12 +186,12 @@ The video shows a Manifest Agent that replaces this work. It watches a shared ma
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Manifest Agent for Business Central | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |  |
-| Automated purchase order creation from manifests | status not stated | [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) |  |
-| Mailbox monitoring and document processing | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |  |
-| Job queue execution with audit logging | status not stated | [1:32](https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Manifest Agent for Business Central | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
+| Automated purchase order creation from manifests | status not stated | [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) |
+| Mailbox monitoring and document processing | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
+| Job queue execution with audit logging | status not stated | [1:32](https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s) |
 
 ## Quotes
 
@@ -189,6 +199,7 @@ The video shows a Manifest Agent that replaces this work. It watches a shared ma
 - [0:53](https://www.youtube.com/watch?v=WjF_sESaIPo&t=53s) "Each manifest took 20 minutes to process, and this happened up to 10 times a day."
 - [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) "The agent continuously monitors a shared mailbox. When a manifest arrives, it automatically reads the document, extracts the data"
 - [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) "creates the purchase orders in Business Central. The right vendor, the right items, the right quantities, and locations."
+- [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) "No manual work required, except a simple initial email confirmation."
 - [1:32](https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s) "The agent runs securely through a job queue every 5 minutes, ensuring manifests are processed quickly and consistently."
 - [1:43](https://www.youtube.com/watch?v=WjF_sESaIPo&t=103s) "What once took up to 20 minutes now happens in minutes, accurately, reliably, and automatically."
 

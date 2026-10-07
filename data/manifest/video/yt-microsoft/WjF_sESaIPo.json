@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=WjF_sESaIPo",
   "published_at": "2026-05-27T13:14:24.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T15:15:39.447Z",
+      "at": "2026-10-07T22:47:45.315Z",
       "path": "content/videos/WjF_sESaIPo.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:47:45.282Z",
+      "path": "data/review/video/WjF_sESaIPo.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.047013
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9a4c1311ae4611841a2c95d05b3867fdd8efb61cbb9a2a6f05ca43344145f51"
+  "output_hash": "b4fa087c65da44257c02373e720630dbe71b13f69bc4fde5dcd7bb2b2790a808",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:47:45.279Z"
+  }
 }

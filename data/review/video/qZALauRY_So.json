@@ -1,0 +1,27 @@
+{
+  "video_id": "qZALauRY_So",
+  "item_id": "video/yt-microsoft/qZALauRY_So",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports the summary, features and quotes.",
+    "Every feature is marked unclear. That is acceptable because no segment states a preview or GA status; the release wave appears only in the video title.",
+    "The key point about the UI said 'before release', which the transcript does not say. It now follows the speaker's wording ('might tweak a few things around').",
+    "The page left out that submitters are billed through the standard agent billing system (t=580.5). I added a key point and a quote for it.",
+    "The 'purchasing' system tag is a weak fit, but it is left as is."
+  ],
+  "input_hash": "7915b8d3242f119f3869cc89071e60bef7e0a6b7673b32c013b225f73db83763",
+  "by": "opus",
+  "at": "2026-10-07T22:48:01.997Z",
+  "applied": [
+    "quote at 581s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.070905
+  }
+}

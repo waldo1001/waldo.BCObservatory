@@ -1,0 +1,29 @@
+{
+  "video_id": "aNRzlbxVPWE",
+  "item_id": "video/yt-microsoft/aNRzlbxVPWE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Evil test framework' takes its name from a caption error ('evils' for evals). The rest of the page already covers it, so it is dropped.",
+    "The quote at 252.8 contains the caption error 'animal data sets' (YAML data sets). It is replaced with the clearer span at 270.",
+    "The two quotes at 840.9 and 853.8 overlap but are both verbatim. They are kept.",
+    "Summary and key points are supported by the transcript.",
+    "No feature states a preview, GA or announced status. The fact box is described as 'added recently', which is not a release status, so every feature stays unclear."
+  ],
+  "input_hash": "eadc403688e9b340b6cf0b7a3071b303ac425797931ba6f6ed2527c5c24c14fa",
+  "by": "opus",
+  "at": "2026-10-07T22:47:27.388Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 270s",
+    "quote at 1346s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.135141
+  }
+}

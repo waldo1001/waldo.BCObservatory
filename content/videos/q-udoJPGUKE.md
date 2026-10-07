@@ -17,12 +17,12 @@ tags:
   - non-business-central-users
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:57.439Z"
   flags: []
 generated:
-  at: "2026-10-06T15:16:20.746Z"
+  at: "2026-10-07T22:47:57.473Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,6 +43,13 @@ evidence:
     commit: null
     t: 44
     quote: You are not Business Central user but still need to submit expenses. This is very often a scenario
+  - kind: video
+    url: https://www.youtube.com/watch?v=q-udoJPGUKE&t=195s
+    title: "Introducing: Web App for Expense Agent (2026 release wave 1)"
+    date: "2026-04-27T14:39:26.000Z"
+    commit: null
+    t: 195
+    quote: this user was registered as an employee in Business Central and furthermore this has been allowed to use the as an expense user
   - kind: video
     url: https://www.youtube.com/watch?v=q-udoJPGUKE&t=238s
     title: "Introducing: Web App for Expense Agent (2026 release wave 1)"
@@ -174,6 +181,9 @@ quotes:
   - t: 44
     text: You are not Business Central user but still need to submit expenses. This is very often a scenario
     check: exact
+  - t: 195
+    text: this user was registered as an employee in Business Central and furthermore this has been allowed to use the as an expense user
+    check: exact
   - t: 238
     text: if it passes all the initial kind of test for actual getting into business central we will also create
     check: fuzzy
@@ -195,7 +205,7 @@ quotes:
 
 > Web App for Expense Agent (2026 release wave 1): a dedicated web app where employees who are not Business Central users upload receipts, review AI-extracted expenses and submit expense reports. Approvers use the same app. The video demos extraction, currency conversion and manual grouping.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=q-udoJPGUKE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 10:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=q-udoJPGUKE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 10:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -206,12 +216,12 @@ The demo covers signing in, uploading receipts, AI extraction and categorization
 ## Key points
 
 - The web app is exclusive to the expense agent and lets employees who are not Business Central users create, review and submit expenses and expense reports.
-- AI extracts numbers, dates and itemizations from uploaded receipts and categorizes them. A handwritten taxi receipt was demoed, with the presenter contrasting it with traditional OCR.
+- To sign in, a user must be registered as an employee in Business Central and allowed to use the expense agent. The demo used a Microsoft Entra account.
+- AI extracts numbers, dates and itemizations from uploaded receipts (PDF or image, single files or whole folders) and categorizes them. A handwritten taxi receipt was demoed, with the presenter contrasting it with traditional OCR.
 - An expense that passes the initial validation tests is added automatically to a default expense report.
-- Receipt currencies are detected and amounts are shown in the user's local currency. The demo showed amounts in UK currency for mostly foreign receipts.
-- When extraction finds issues or missing details, the app shows a summary. Users can correct it, add notes such as marking a meeting as a customer meeting, and reprocess.
-- Users can drag and drop receipts between expense reports. The presenter says the automatic grouping is still in progress and somewhat simple.
-- Submitting a completed report notifies approvers. Finance and approvers review full details in the same web app and either approve or request corrections.
+- Receipts in foreign currencies were shown in UK currency in the demo. The presenter describes automatic currency management and conversion.
+- When extraction finds issues or missing details, the app shows a summary. Users can correct it, add notes such as marking a meeting as a customer meeting, and save and continue, which reruns the workflow.
+- Users can add or drag and drop a receipt onto a specific expense report. The presenter says automatic grouping is still in progress and somewhat simple.
 
 ## Chapters
 
@@ -228,22 +238,23 @@ The demo covers signing in, uploading receipts, AI extraction and categorization
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Web App for Expense Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=q-udoJPGUKE&t=6s) |  |
-| AI Receipt Extraction | status not stated, demoed | [3:42](https://www.youtube.com/watch?v=q-udoJPGUKE&t=222s) |  |
-| Automatic Expense Report Creation | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=q-udoJPGUKE&t=238s) |  |
-| Manual Expense Correction | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=q-udoJPGUKE&t=302s) |  |
-| Automatic Currency Conversion | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=q-udoJPGUKE&t=441s) |  |
-| Exception Handling and Details Display | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=q-udoJPGUKE&t=401s) |  |
-| Manual Expense Grouping | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=q-udoJPGUKE&t=472s) |  |
-| Expense Submission for Approval | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=q-udoJPGUKE&t=499s) |  |
-| Approver Portal | status not stated | [1:43](https://www.youtube.com/watch?v=q-udoJPGUKE&t=103s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Web App for Expense Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=q-udoJPGUKE&t=6s) |
+| AI Receipt Extraction | status not stated, demoed | [3:42](https://www.youtube.com/watch?v=q-udoJPGUKE&t=222s) |
+| Automatic Expense Report Creation | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=q-udoJPGUKE&t=238s) |
+| Manual Expense Correction | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=q-udoJPGUKE&t=302s) |
+| Automatic Currency Conversion | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=q-udoJPGUKE&t=441s) |
+| Exception Handling and Details Display | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=q-udoJPGUKE&t=401s) |
+| Manual Expense Grouping | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=q-udoJPGUKE&t=472s) |
+| Expense Submission for Approval | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=q-udoJPGUKE&t=499s) |
+| Approver Portal | status not stated | [1:43](https://www.youtube.com/watch?v=q-udoJPGUKE&t=103s) |
 
 ## Quotes
 
 - [0:32](https://www.youtube.com/watch?v=q-udoJPGUKE&t=32s) "now we have a web app exclusively for expense agents"
 - [0:44](https://www.youtube.com/watch?v=q-udoJPGUKE&t=44s) "You are not Business Central user but still need to submit expenses. This is very often a scenario"
+- [3:15](https://www.youtube.com/watch?v=q-udoJPGUKE&t=195s) "this user was registered as an employee in Business Central and furthermore this has been allowed to use the as an expense user"
 - [3:58](https://www.youtube.com/watch?v=q-udoJPGUKE&t=238s) "if it passes all the initial kind of test for actual getting into business central we will also create"
 - [6:13](https://www.youtube.com/watch?v=q-udoJPGUKE&t=373s) "It's a handwritten taxi receipt. Um which you know maybe traditional OCR technology would have a problem with but since this is all AI"
 - [7:21](https://www.youtube.com/watch?v=q-udoJPGUKE&t=441s) "all the numbers we are showing is in the uk currency even though most of these receipts are foreign"

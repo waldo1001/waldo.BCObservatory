@@ -16,12 +16,12 @@ tags:
   - travel policy setup
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:02.767Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:02.800Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 275
     quote: we have this tab now in the expense agent wizard called perdm expenses and you can actually set up this calculation
+  - kind: video
+    url: https://www.youtube.com/watch?v=vyQnSxRGJDA&t=306s
+    title: "Expense Agent: Per Diem Allowances (2026 release wave 1)"
+    date: "2026-08-07T13:00:14.000Z"
+    commit: null
+    t: 306
+    quote: whatever you set here the percentage then it's going to be deducted for the from the total perdm allowance per uh per trip
   - kind: video
     url: https://www.youtube.com/watch?v=vyQnSxRGJDA&t=329s
     title: "Expense Agent: Per Diem Allowances (2026 release wave 1)"
@@ -174,6 +181,9 @@ quotes:
   - t: 275
     text: we have this tab now in the expense agent wizard called perdm expenses and you can actually set up this calculation
     check: exact
+  - t: 306
+    text: whatever you set here the percentage then it's going to be deducted for the from the total perdm allowance per uh per trip
+    check: exact
   - t: 329
     text: we completely simplify a really complicated area PDM. So you can really easy as submitter you can really easy just upload your itinary system
     check: exact
@@ -183,7 +193,7 @@ quotes:
 
 > Expense Agent per diem allowances in Business Central (2026 release wave 1): the agent detects itineraries, classifies them as per diem, detects location and trip period, applies meal reductions, and calculates the allowance. Setup is done in a wizard and a per diem tab in the expense agent setup.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vyQnSxRGJDA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 6:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vyQnSxRGJDA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 6:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -198,8 +208,8 @@ A demo in the expense agent web app shows a submitter uploading an itinerary. Th
 - The agent treats an expense provided as an itinerary as a per diem trip and records trip start and end times, including outbound and return journeys.
 - Location is detected from the itinerary and mapped to a configured Business Central location, based on where the employee spent most days (UK other in the demo).
 - Users mark meals received during the trip; configured meal reduction percentages are then applied. In the demo, 232 pounds became 187.92.
-- Admins set calculation method, flat rates and meal reduction percentages in the per diem tab of the expense agent wizard, and can adjust details in the expense agent setup for full country compliance.
-- Meal reductions follow company policy, and location detection depends on the itinerary data provided.
+- Admins set calculation method, flat rates and meal reduction percentages in the per diem tab of the expense agent wizard (15% meal reduction in the demo, deducted from the total per diem allowance per trip), and can adjust details in the expense agent setup for full country compliance.
+- Meal reductions follow company policy, and the detected location matches the locations set up in Business Central.
 
 ## Chapters
 
@@ -213,16 +223,16 @@ A demo in the expense agent web app shows a submitter uploading an itinerary. Th
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Per Diem Allowance Calculation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=12s) |  |
-| Expense Agent Wizard Configuration | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=27s) |  |
-| Itinerary Detection and Classification | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |  |
-| Automatic Location Detection | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=157s) |  |
-| Meal Reduction Configuration and Application | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=76s) |  |
-| Per Diem Trip Period Detection | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=121s) |  |
-| Per Diem Expense Web Application | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |  |
-| Per Diem Admin Settings Tab | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=262s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Per Diem Allowance Calculation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=12s) |
+| Expense Agent Wizard Configuration | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=27s) |
+| Itinerary Detection and Classification | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
+| Automatic Location Detection | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=157s) |
+| Meal Reduction Configuration and Application | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=76s) |
+| Per Diem Trip Period Detection | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=121s) |
+| Per Diem Expense Web Application | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
+| Per Diem Admin Settings Tab | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=262s) |
 
 ## Quotes
 
@@ -232,6 +242,7 @@ A demo in the expense agent web app shows a submitter uploading an itinerary. Th
 - [2:58](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=178s) "the agent seamlessly detected the location of this expense in this case it's UK other because this is what I set up in business"
 - [3:57](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=237s) "the total amount of the expense which was initially 232 uh pounds was actually decreased to 187 and 0.92 because of the meals reduction"
 - [4:35](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=275s) "we have this tab now in the expense agent wizard called perdm expenses and you can actually set up this calculation"
+- [5:06](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=306s) "whatever you set here the percentage then it's going to be deducted for the from the total perdm allowance per uh per trip"
 - [5:29](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=329s) "we completely simplify a really complicated area PDM. So you can really easy as submitter you can really easy just upload your itinary system"
 
 Presenters (as heard): Claudio, Alexander Totovich.

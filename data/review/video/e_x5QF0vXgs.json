@@ -1,0 +1,37 @@
+{
+  "video_id": "e_x5QF0vXgs",
+  "item_id": "video/yt-microsoft/e_x5QF0vXgs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 10 features were marked preview, but the transcript only says the app is coming: 'you can expect this new preview mode very soon' and 'we are planning to release it to you very soon'. The preview has been announced but has not started, so every status is now announced.",
+    "Each feature used the same evidence quote, which starts at t 336.6, but each listed a different evidence_t (0.3, 153.5, and so on). All evidence_t values are now 336.6.",
+    "The summary and the first key point said the app 'is in preview'. Both now say it is an upcoming preview.",
+    "The feature descriptions, chapters and quotes match the transcript."
+  ],
+  "input_hash": "300b35e5fd5a08679947ccd88a0bcc0164c75c3a91a47b3fa264b903d41b8bfc",
+  "by": "opus",
+  "at": "2026-10-07T22:46:54.021Z",
+  "applied": [
+    "iOS and Android support: status announced",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Expense Agent mobile app -> announced: evidence not verbatim or does not state the status",
+    "status Receipt capture with native OS detection -> announced: evidence not verbatim or does not state the status",
+    "status Social feed view for expenses -> announced: evidence not verbatim or does not state the status",
+    "status AI extraction of expense details -> announced: evidence not verbatim or does not state the status",
+    "status Inline expense modification -> announced: evidence not verbatim or does not state the status",
+    "status Itemization tab for line items -> announced: evidence not verbatim or does not state the status",
+    "status Receipt sharing from OS photo library -> announced: evidence not verbatim or does not state the status",
+    "status Offline expense capture -> announced: evidence not verbatim or does not state the status",
+    "status No Business Central license required -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.083693
+  }
+}

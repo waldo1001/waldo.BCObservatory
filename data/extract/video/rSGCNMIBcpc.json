@@ -306,8 +306,8 @@
   "quotes": [
     {
       "t": 16,
-      "text": "when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you",
-      "why_it_matters": "Establishes that default approver setup is a key first step in configuring the Expense Agent approval process.",
+      "text": "this is going to be the person that is able to approve the expenses for everyone in your company by default",
+      "why_it_matters": "Explains what the default approver setting does.",
       "check": "exact"
     },
     {
@@ -338,6 +338,12 @@
       "t": 328.5,
       "text": "There might be something coming soon about policies, so stay tuned for new Expense Agent changes",
       "why_it_matters": "Announces upcoming policy-enforcement capability as a future enhancement to the Expense Agent.",
+      "check": "exact"
+    },
+    {
+      "t": 361.6,
+      "text": "you can choose a frequency to remind users to submit their reports",
+      "why_it_matters": "Confirms that the reminder frequency for unsubmitted reports can be configured.",
       "check": "exact"
     },
     {

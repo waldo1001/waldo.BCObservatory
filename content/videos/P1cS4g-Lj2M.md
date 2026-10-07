@@ -16,12 +16,12 @@ tags:
   - partner hiring
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:33.244Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:33.286Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -156,7 +156,7 @@ quotes:
 
 > Abakion, a Business Central partner, describes how the BC Talent program and its Upskill program helped it recruit and onboard graduates. It reports 14 hires directly from education and a pool of 150 qualified candidates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=P1cS4g-Lj2M) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-17 · 1:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=P1cS4g-Lj2M) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-17 · 1:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -185,11 +185,11 @@ Abakion says the Upskill program let it move a large part of onboarding out of i
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Talent program | status not stated | [0:01](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=1s) |  |
-| Upskill program | status not stated | [0:16](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=16s) |  |
-| BC Talent community | status not stated | [1:12](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=72s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Talent program | status not stated | [0:01](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=1s) |
+| Upskill program | status not stated | [0:16](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=16s) |
+| BC Talent community | status not stated | [1:12](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=72s) |
 
 ## Quotes
 

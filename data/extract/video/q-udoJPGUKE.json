@@ -267,6 +267,12 @@
       "check": "exact"
     },
     {
+      "t": 195.8,
+      "text": "this user was registered as an employee in Business Central and furthermore this has been allowed to use the as an expense user",
+      "why_it_matters": "States the setup needed in Business Central before an employee can sign in to the web app.",
+      "check": "exact"
+    },
+    {
       "t": 238.8,
       "text": "if it passes all the initial kind of test for actual getting into business central we will also create",
       "why_it_matters": "Explains the automation boundary - expenses pass validation tests before automatic report creation.",

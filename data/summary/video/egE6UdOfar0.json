@@ -7,8 +7,8 @@
     "Receipts can be submitted by email, a shared mailbox, a web app built for non-Business Central users, or Microsoft 365 Copilot Chat.",
     "The agent extracts merchant, amount and date, assigns categories, and itemizes some receipt types such as hotels.",
     "Compliance rules cover amounts, daily limits and required justifications. They are simple and must be 100% accurate.",
-    "Policy-based approval (business class, hotel star rating, alcohol) is still being implemented and is expected near the end, before GA.",
-    "Expense report creation is currently limited, with more automation planned.",
+    "Rules are already implemented; policy-based approval (business class, hotel star rating, alcohol) is still in the process of implementation and will come later.",
+    "Expense report creation currently groups expenses by a specific period, with further automation planned.",
     "Setup in Business Central covers email configuration, categories, posting groups and user access. Reports appear on the Expense Reports page.",
     "Licensing: non-Business Central users are charged by Copilot credits, only when using the agent. Business Central users who approve need a Team Member license, even when approving in the web app. Posting expense reports and payments needs Essential or Premium."
   ],

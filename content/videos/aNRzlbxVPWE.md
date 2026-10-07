@@ -20,12 +20,12 @@ tags:
   - logging and validation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:27.388Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:47:27.436Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,12 +54,12 @@ evidence:
     t: 223
     quote: in our testing we discovered that it wasn't searching for the customer 10 000 it knew that
   - kind: video
-    url: https://www.youtube.com/watch?v=aNRzlbxVPWE&t=252s
+    url: https://www.youtube.com/watch?v=aNRzlbxVPWE&t=270s
     title: "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)"
     date: "2026-06-29T13:46:29.000Z"
     commit: null
-    t: 252
-    quote: our main component is actually going to be animal data sets, because the test that we are going to write are going to be
+    t: 270
+    quote: are going to be actual data-driven tests specified in YAML. The next component is library agent, which is going to help you to automate
   - kind: video
     url: https://www.youtube.com/watch?v=aNRzlbxVPWE&t=648s
     title: "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)"
@@ -102,6 +102,13 @@ evidence:
     commit: null
     t: 1108
     quote: we are going to default the other fields like posting groups units of measure automatically by using test libraries
+  - kind: video
+    url: https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1346s
+    title: "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)"
+    date: "2026-06-29T13:46:29.000Z"
+    commit: null
+    t: 1346
+    quote: you're not using the asserts to check the data. We are actually using the text field, which is called error reason.
   - kind: video
     url: https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1524s
     title: "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)"
@@ -166,11 +173,6 @@ features:
   - name: Agent task flow mapping
     status: unclear
     t: 15
-    verified: false
-    status_source: video
-  - name: Evil test framework
-    status: unclear
-    t: 136
     verified: false
     status_source: video
   - name: Suite setup strategy
@@ -286,8 +288,8 @@ quotes:
   - t: 223
     text: in our testing we discovered that it wasn't searching for the customer 10 000 it knew that
     check: fuzzy
-  - t: 252
-    text: our main component is actually going to be animal data sets, because the test that we are going to write are going to be
+  - t: 270
+    text: are going to be actual data-driven tests specified in YAML. The next component is library agent, which is going to help you to automate
     check: exact
   - t: 648
     text: Unfortunately, currently it's not possible to check on the message if the message of the intervention request as as you expecting it. But we
@@ -307,6 +309,9 @@ quotes:
   - t: 1108
     text: we are going to default the other fields like posting groups units of measure automatically by using test libraries
     check: exact
+  - t: 1346
+    text: you're not using the asserts to check the data. We are actually using the text field, which is called error reason.
+    check: exact
   - t: 1524
     text: we have added the library agent. It has 27 public methods which will allow you to automate every single interaction that you can do
     check: exact
@@ -319,7 +324,7 @@ quotes:
 
 > Writing agent evals in AL for Business Central agents: YAML-driven, data-driven tests that follow the agent task flow (message arrival, agent run, output verification, multi-turn), using the agent test library and its built-in keywords. Covers suite setup, placeholders, logging and the library agent's public methods.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=aNRzlbxVPWE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 26:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=aNRzlbxVPWE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 26:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -355,29 +360,28 @@ The video then walks through the YAML test definition (suite setup, test name, d
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent task flow mapping | status not stated, demoed | [0:15](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=15s) |  |
-| Evil test framework | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=136s) |  |
-| Suite setup strategy | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=196s) |  |
-| Data sets and YAML-driven tests | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=252s) |  |
-| Extensible framework with atomic functions | status not stated | [5:09](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=309s) |  |
-| YAML test definition syntax | status not stated, demoed | [5:47](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=347s) |  |
-| Turn setup section | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=467s) |  |
-| Message arrival with attachments | status not stated, demoed | [8:49](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=529s) |  |
-| Expected data verification | status not stated, demoed | [10:25](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=625s) |  |
-| Multi-turn conversation testing | status not stated, demoed | [11:09](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=669s) |  |
-| Date and datetime placeholders in data-driven tests | status not stated | [13:24](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=804s) |  |
-| Agent picker in test execution | status not stated, demoed | [16:06](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=966s) |  |
-| Get eval suit setup data input keyword | status not stated | [17:23](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1043s) |  |
-| Test library data creation and field defaulting | status not stated | [18:15](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1095s) |  |
-| Suite setup completion caching | status not stated | [19:32](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1172s) |  |
-| Run turn and wait keyword | status not stated | [20:54](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1254s) |  |
-| Get expected data keyword for validation | status not stated | [22:03](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1323s) |  |
-| Error reason field for test failure logging | status not stated | [22:26](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1346s) |  |
-| Finalize turn keyword with history logging | status not stated | [22:59](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1379s) |  |
-| Log download with serialized task output | status not stated | [24:14](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1454s) |  |
-| Library agent public methods for customization | status not stated | [25:10](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1510s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent task flow mapping | status not stated, demoed | [0:15](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=15s) |
+| Suite setup strategy | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=196s) |
+| Data sets and YAML-driven tests | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=252s) |
+| Extensible framework with atomic functions | status not stated | [5:09](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=309s) |
+| YAML test definition syntax | status not stated, demoed | [5:47](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=347s) |
+| Turn setup section | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=467s) |
+| Message arrival with attachments | status not stated, demoed | [8:49](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=529s) |
+| Expected data verification | status not stated, demoed | [10:25](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=625s) |
+| Multi-turn conversation testing | status not stated, demoed | [11:09](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=669s) |
+| Date and datetime placeholders in data-driven tests | status not stated | [13:24](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=804s) |
+| Agent picker in test execution | status not stated, demoed | [16:06](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=966s) |
+| Get eval suit setup data input keyword | status not stated | [17:23](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1043s) |
+| Test library data creation and field defaulting | status not stated | [18:15](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1095s) |
+| Suite setup completion caching | status not stated | [19:32](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1172s) |
+| Run turn and wait keyword | status not stated | [20:54](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1254s) |
+| Get expected data keyword for validation | status not stated | [22:03](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1323s) |
+| Error reason field for test failure logging | status not stated | [22:26](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1346s) |
+| Finalize turn keyword with history logging | status not stated | [22:59](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1379s) |
+| Log download with serialized task output | status not stated | [24:14](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1454s) |
+| Library agent public methods for customization | status not stated | [25:10](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1510s) |
 
 ## AL objects mentioned
 
@@ -396,13 +400,14 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:41](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=41s) "going to end up with one of the following it is either going to create a message for you to review it"
 - [1:37](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=97s) "ERP is quite busy and there is a lot of users and code that is changing the data, data might be changed between the"
 - [3:43](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=223s) "in our testing we discovered that it wasn't searching for the customer 10 000 it knew that"
-- [4:12](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=252s) "our main component is actually going to be animal data sets, because the test that we are going to write are going to be"
+- [4:30](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=270s) "are going to be actual data-driven tests specified in YAML. The next component is library agent, which is going to help you to automate"
 - [10:48](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=648s) "Unfortunately, currently it's not possible to check on the message if the message of the intervention request as as you expecting it. But we"
 - [14:00](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=840s) "now you can replace the dates with placeholders like this. And this is going to calculate dynamically the work date based on the current"
 - [14:00](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=840s) "the problem is that in the tests, I would need to change this one quite often. And the solution that we did is that"
 - [14:13](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=853s) "this is going to calculate dynamically the work date based on the current work date and the formula that you provide here"
 - [16:25](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=985s) "you can test You can run the same tests on different agents, change their instructions, maybe change the model, and see how that the"
 - [18:28](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1108s) "we are going to default the other fields like posting groups units of measure automatically by using test libraries"
+- [22:26](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1346s) "you're not using the asserts to check the data. We are actually using the text field, which is called error reason."
 - [25:24](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1524s) "we have added the library agent. It has 27 public methods which will allow you to automate every single interaction that you can do"
 - [26:02](https://www.youtube.com/watch?v=aNRzlbxVPWE&t=1562s) "this one is quite good if you are going to invoke the agent through the action or AL code. So, you would like to"
 

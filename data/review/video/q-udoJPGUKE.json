@@ -1,0 +1,27 @@
+{
+  "video_id": "q-udoJPGUKE",
+  "item_id": "video/yt-microsoft/q-udoJPGUKE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes check out as verbatim (case differences only).",
+    "Key point on approvers said they 'request corrections'. The transcript says finance and approvers can make corrections and approve, so the wording was changed.",
+    "Key point on currency claimed conversion to the user's local currency. The transcript only says amounts are shown in UK currency with automatic currency management and conversion, so it was softened.",
+    "Added the prerequisite from the demo: the user must be registered as an employee in Business Central and allowed to use the expense agent.",
+    "All features are 'unclear'. That is appropriate: no GA or preview status is stated, and the presenter calls it 'the current web app we are building'."
+  ],
+  "input_hash": "6e2005f29b9a959a756b22861f6d74a607ee116e527c7e8ae34ef358a152dd36",
+  "by": "opus",
+  "at": "2026-10-07T22:47:57.439Z",
+  "applied": [
+    "quote at 196s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08479700000000001
+  }
+}

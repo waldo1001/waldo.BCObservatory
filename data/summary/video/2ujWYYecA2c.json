@@ -4,13 +4,13 @@
   "summary": "Sales Order Agent setup in Business Central using the new \"Try it out\" experience, which creates test tasks without connecting a real inbox. Also covers connecting a personal or shared Outlook inbox, review settings, and how the agent handles a customer email with attachments and a sales quote.",
   "overview": "The video walks through getting started with the Sales Order Agent, which monitors sales orders and sales inquiries and helps process them from customer emails. It starts with the \"Try it out\" section, where you create a test task from a predefined template or by typing text, with no real inbox connected. The agent processes the task, identifies the customer, filters attachments, and prepares a sales quote with items and prices for human review.\n\nThe second half covers connecting a real Outlook inbox, either personal or shared, and the configuration options. It then shows the agent picking up a real customer email placed in a dedicated folder and preparing a reply for review before sending.",
   "key_points": [
-    "\"Try it out\" lets you create a test task without connecting to a real inbox, using a predefined template or manually entered text. Templates can include attachments.",
-    "The agent identifies the customer from the email, matches it to existing contacts, and finds items and prices.",
+    "\"Try it out\" lets you create a test task without connecting to a real inbox. You enter the customer or pick an existing contact, then type text manually or use a predefined template, with or without attachments.",
+    "The agent identifies the customer from the email and finds items and prices.",
     "Non-relevant attachments, such as terms and conditions or privacy policies, are filtered out automatically.",
-    "The agent prepares a sales quote and attaches it to a draft reply. It can be configured to send orders directly, which skips quote generation, and it can also prepare a sales order confirmation.",
-    "You can connect a personal or shared Outlook inbox; shared inbox access depends on user permissions. When experimenting with real customer emails, use a dedicated folder instead of the main inbox.",
-    "A configuration option skips review of incoming messages from known customers. Emails from unknown customers can still require review if configured that way.",
-    "Nothing leaves Business Central without human review of the outgoing email, and the agent cannot send email if no inbox is connected."
+    "The agent prepares a sales quote and attaches it to a draft reply. It can be configured to skip the quote part and send orders directly, and in the real-inbox example it prepared a sales order confirmation.",
+    "You can connect a personal or shared inbox. While still experimenting, use a dedicated folder with preselected real customer emails instead of the main inbox.",
+    "A configuration option turns off review of incoming messages from known customers. Availability handling, including capable to promise, can also be configured.",
+    "Nothing leaves Business Central without human review of the outgoing email. In Try it out, the email cannot be sent because no inbox is connected."
   ],
   "audience": [
     "functional consultant",

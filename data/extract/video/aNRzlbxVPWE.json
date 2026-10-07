@@ -112,27 +112,6 @@
       "system": "copilot"
     },
     {
-      "name": "Evil test framework",
-      "description": "A comprehensive testing approach that follows the agent flow exactly, with additional steps for output verification and data validation.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 136.3,
-      "t_end": 196.2,
-      "is_demoed": true,
-      "caveats": [
-        "Must include output verification",
-        "Requires programmatic data validation"
-      ],
-      "tags": [
-        "evil",
-        "testing framework",
-        "validation"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Suite setup strategy",
       "description": "Creating custom test data rather than relying on demo data because agents may have knowledge of public demo data from model training, requiring custom master records to validate agent behavior.",
       "status": "unclear",
@@ -575,9 +554,9 @@
       "check": "fuzzy"
     },
     {
-      "t": 252.8,
-      "text": "our main component is actually going to be animal data sets, because the test that we are going to write are going to be",
-      "why_it_matters": "Identifies the core testing mechanism using YAML-based data-driven test specifications.",
+      "t": 270,
+      "text": "are going to be actual data-driven tests specified in YAML. The next component is library agent, which is going to help you to automate",
+      "why_it_matters": "States the two core components of the framework (YAML data-driven tests and the library agent) without the 'animal data sets' caption error.",
       "check": "exact"
     },
     {
@@ -614,6 +593,12 @@
       "t": 1108.2,
       "text": "we are going to default the other fields like posting groups units of measure automatically by using test libraries",
       "why_it_matters": "Shows how test libraries shield tests from product field changes by auto-defaulting non-essential fields.",
+      "check": "exact"
+    },
+    {
+      "t": 1346.4,
+      "text": "you're not using the asserts to check the data. We are actually using the text field, which is called error reason.",
+      "why_it_matters": "Shows the main validation pattern that differs from standard AL tests: an error reason field instead of asserts.",
       "check": "exact"
     },
     {

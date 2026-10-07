@@ -1,0 +1,31 @@
+{
+  "video_id": "rSGCNMIBcpc",
+  "item_id": "video/yt-microsoft/rSGCNMIBcpc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Expense Agent policies': the evidence quote starts at segment 328.5, not 313.8. Corrected evidence_t.",
+    "Feature 'Enhanced approval workflows': the evidence quote starts at segment 407, not 388.3. Corrected evidence_t.",
+    "The description of 'Enhanced approval workflows' mentions 'more sophisticated approval routing', which goes beyond the transcript. The transcript only says more approval improvements are coming. The description of 'Expense Agent policies' ties the partner-name example to the policies teaser, which is a loose reading of the transcript.",
+    "The quote at 16 is a truncated fragment that never mentions the default approver. Replaced it with a span that does. Added a quote about the reminder frequency.",
+    "Minor chapter boundary issue: the approve action at 246.8 and the start of the teaser at 388.3 fall into neighbouring chapters. Left as is.",
+    "Summary and key points are supported by the transcript."
+  ],
+  "input_hash": "edc3ed0b934e4dc68d7e554c100e7ec85da444b7d4df297bbecce7438c1fb1ae",
+  "by": "opus",
+  "at": "2026-10-07T22:47:08.664Z",
+  "applied": [
+    "Expense Agent policies: status announced",
+    "Enhanced approval workflows: status announced",
+    "dropped 1 quote(s)",
+    "quote at 16s",
+    "quote at 362s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07563700000000001
+  }
+}

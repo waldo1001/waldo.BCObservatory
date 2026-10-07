@@ -1,0 +1,33 @@
+{
+  "video_id": "pjML7lXSsd0",
+  "item_id": "video/yt-microsoft/pjML7lXSsd0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Credit card provider integration should be status announced: speaker says it is not in public preview yet but will come (t=221.3).",
+    "Summary claimed feature status is not stated; the credit card integration status is stated.",
+    "Several duplicate features: Per diem calculation modes, Per diem calculation, Expense categories, Payment method configuration, Get expense lines, Multi-currency expense entry duplicate other entries.",
+    "'Expense management rules' appears twice with the identical name; it could not be dropped by name without removing both. Delete one entry by hand.",
+    "'Expense agent integration' description wrongly says expense management requires the agent; the transcript says only the expenses table needs the agent, and expense reports work without it.",
+    "Quote at 1677.6 is a truncated fragment with little value.",
+    "Key points are supported by the transcript."
+  ],
+  "input_hash": "e3ae189aacc82d6b85e2b86549b44b87d97afa9317442941d717c7e431a3aafe",
+  "by": "opus",
+  "at": "2026-10-07T22:48:09.176Z",
+  "applied": [
+    "dropped 7 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 125s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status Credit card provider integration -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.19281700000000002
+  }
+}

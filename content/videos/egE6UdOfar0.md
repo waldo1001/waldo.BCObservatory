@@ -16,18 +16,46 @@ tags:
   - public preview
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:13.593Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:13.641Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 93b2b9ff78de10875daa68b09775723cc7a502a05ed3d0b5258f575cc0c2a0ce
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=191s
+    title: "Receipt scanning and attachment: preview"
+    date: "2026-04-27T14:39:20.000Z"
+    commit: null
+    t: 191
+    quote: everything what is marked really clear color, this is something what we will have in our public preview
+  - kind: video
+    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=219s
+    title: "Automatic data extraction from receipts: preview"
+    date: "2026-04-27T14:39:20.000Z"
+    commit: null
+    t: 219
+    quote: So, all of these things are already planned for public preview.
+  - kind: video
+    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=219s
+    title: "Automatic expense categorization: preview"
+    date: "2026-04-27T14:39:20.000Z"
+    commit: null
+    t: 219
+    quote: So, all of these things are already planned for public preview.
+  - kind: video
+    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=219s
+    title: "Per diem calculation: preview"
+    date: "2026-04-27T14:39:20.000Z"
+    commit: null
+    t: 219
+    quote: system will automatically calculate per diem and based on your location. So, all of these things are already planned for public preview.
   - kind: video
     url: https://www.youtube.com/watch?v=egE6UdOfar0&t=31s
     title: "Introducing: Expense Agent in Business Central (2026 release wave 1)"
@@ -42,13 +70,6 @@ evidence:
     commit: null
     t: 70
     quote: basic concept is to automate receipts to get extraction, categorization, itemization, and approvals automatically
-  - kind: video
-    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=177s
-    title: "Introducing: Expense Agent in Business Central (2026 release wave 1)"
-    date: "2026-04-27T14:39:20.000Z"
-    commit: null
-    t: 177
-    quote: we made some even maybe too optimistic ideas to build so much in public preview because this is just in few months, we created
   - kind: video
     url: https://www.youtube.com/watch?v=egE6UdOfar0&t=253s
     title: "Introducing: Expense Agent in Business Central (2026 release wave 1)"
@@ -70,6 +91,13 @@ evidence:
     commit: null
     t: 691
     quote: It's required absolutely accuracy, so we cannot say this is enough to have 99% accuracy. They are strict rules and must be 100% accurate
+  - kind: video
+    url: https://www.youtube.com/watch?v=egE6UdOfar0&t=767s
+    title: "Introducing: Expense Agent in Business Central (2026 release wave 1)"
+    date: "2026-04-27T14:39:20.000Z"
+    commit: null
+    t: 767
+    quote: So, in this moment, we have these two options, rules already implemented, policy in a process of implementation.
   - kind: video
     url: https://www.youtube.com/watch?v=egE6UdOfar0&t=814s
     title: "Introducing: Expense Agent in Business Central (2026 release wave 1)"
@@ -130,19 +158,19 @@ chapters:
     title: Summary and additional resources
 features:
   - name: Receipt scanning and attachment
-    status: unclear
+    status: preview
     t: 191
-    verified: false
+    verified: true
     status_source: video
   - name: Automatic data extraction from receipts
-    status: unclear
+    status: preview
     t: 500
-    verified: false
+    verified: true
     status_source: video
   - name: Automatic expense categorization
-    status: unclear
+    status: preview
     t: 206
-    verified: false
+    verified: true
     status_source: video
   - name: Expense report creation
     status: unclear
@@ -150,9 +178,9 @@ features:
     verified: false
     status_source: video
   - name: Per diem calculation
-    status: unclear
+    status: preview
     t: 219
-    verified: false
+    verified: true
     status_source: video
   - name: Itemization
     status: unclear
@@ -228,9 +256,6 @@ quotes:
   - t: 70
     text: basic concept is to automate receipts to get extraction, categorization, itemization, and approvals automatically
     check: exact
-  - t: 177
-    text: we made some even maybe too optimistic ideas to build so much in public preview because this is just in few months, we created
-    check: exact
   - t: 253
     text: As I said, some of these features are in our agent, some of these features are in the Business Central.
     check: exact
@@ -239,6 +264,9 @@ quotes:
     check: exact
   - t: 691
     text: It's required absolutely accuracy, so we cannot say this is enough to have 99% accuracy. They are strict rules and must be 100% accurate
+    check: exact
+  - t: 767
+    text: So, in this moment, we have these two options, rules already implemented, policy in a process of implementation.
     check: exact
   - t: 814
     text: if you are using agent, but this is only if you are using expense agent, you are not required to have Business Central license.
@@ -252,7 +280,7 @@ quotes:
 
 > Expense Agent in Business Central (2026 release wave 1): AI agent that extracts, categorizes and itemizes receipts, checks compliance rules, and logs expenses into Business Central via APIs. Covers the public preview scope, the rules vs. policies split, and licensing (Copilot credits for non-BC users, Team Member and Essential or Premium for BC users).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=egE6UdOfar0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 16:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=egE6UdOfar0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 16:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -265,8 +293,8 @@ The presenter separates compliance rules from policies. Rules are simple checks 
 - Receipts can be submitted by email, a shared mailbox, a web app built for non-Business Central users, or Microsoft 365 Copilot Chat.
 - The agent extracts merchant, amount and date, assigns categories, and itemizes some receipt types such as hotels.
 - Compliance rules cover amounts, daily limits and required justifications. They are simple and must be 100% accurate.
-- Policy-based approval (business class, hotel star rating, alcohol) is still being implemented and is expected near the end, before GA.
-- Expense report creation is currently limited, with more automation planned.
+- Rules are already implemented; policy-based approval (business class, hotel star rating, alcohol) is still in the process of implementation and will come later.
+- Expense report creation currently groups expenses by a specific period, with further automation planned.
 - Setup in Business Central covers email configuration, categories, posting groups and user access. Reports appear on the Expense Reports page.
 - Licensing: non-Business Central users are charged by Copilot credits, only when using the agent. Business Central users who approve need a Team Member license, even when approving in the web app. Posting expense reports and payments needs Essential or Premium.
 
@@ -287,11 +315,11 @@ The presenter separates compliance rules from policies. Rules are simple checks 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Receipt scanning and attachment | status not stated, demoed | [3:11](https://www.youtube.com/watch?v=egE6UdOfar0&t=191s) |  |
-| Automatic data extraction from receipts | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=egE6UdOfar0&t=500s) |  |
-| Automatic expense categorization | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=egE6UdOfar0&t=206s) |  |
+| Receipt scanning and attachment | preview, demoed | [3:11](https://www.youtube.com/watch?v=egE6UdOfar0&t=191s) | "everything what is marked really clear color, this is something what we will have in our public preview" ([3:11](https://www.youtube.com/watch?v=egE6UdOfar0&t=191s)) |
+| Automatic data extraction from receipts | preview, demoed | [8:20](https://www.youtube.com/watch?v=egE6UdOfar0&t=500s) | "So, all of these things are already planned for public preview." ([3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s)) |
+| Automatic expense categorization | preview, demoed | [3:26](https://www.youtube.com/watch?v=egE6UdOfar0&t=206s) | "So, all of these things are already planned for public preview." ([3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s)) |
 | Expense report creation | status not stated, demoed | [3:50](https://www.youtube.com/watch?v=egE6UdOfar0&t=230s) |  |
-| Per diem calculation | status not stated | [3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s) |  |
+| Per diem calculation | preview | [3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s) | "system will automatically calculate per diem and based on your location. So, all of these things are already planned for public preview." ([3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s)) |
 | Itemization | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=egE6UdOfar0&t=206s) |  |
 | Compliance rule checking | status not stated, demoed | [11:05](https://www.youtube.com/watch?v=egE6UdOfar0&t=665s) |  |
 | Policy-based approval process | preview (roadmap [573255](../features/573255.md)) | [11:58](https://www.youtube.com/watch?v=egE6UdOfar0&t=718s) |  |
@@ -320,10 +348,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:31](https://www.youtube.com/watch?v=egE6UdOfar0&t=31s) "Our first goal is to fill a long-standing product gap with AI-powered solution."
 - [1:10](https://www.youtube.com/watch?v=egE6UdOfar0&t=70s) "basic concept is to automate receipts to get extraction, categorization, itemization, and approvals automatically"
-- [2:57](https://www.youtube.com/watch?v=egE6UdOfar0&t=177s) "we made some even maybe too optimistic ideas to build so much in public preview because this is just in few months, we created"
 - [4:13](https://www.youtube.com/watch?v=egE6UdOfar0&t=253s) "As I said, some of these features are in our agent, some of these features are in the Business Central."
 - [5:11](https://www.youtube.com/watch?v=egE6UdOfar0&t=311s) "expense users that will be interested in filing expenses do not have to be Business Central licensed users and they should not be disrupted"
 - [11:31](https://www.youtube.com/watch?v=egE6UdOfar0&t=691s) "It's required absolutely accuracy, so we cannot say this is enough to have 99% accuracy. They are strict rules and must be 100% accurate"
+- [12:47](https://www.youtube.com/watch?v=egE6UdOfar0&t=767s) "So, in this moment, we have these two options, rules already implemented, policy in a process of implementation."
 - [13:34](https://www.youtube.com/watch?v=egE6UdOfar0&t=814s) "if you are using agent, but this is only if you are using expense agent, you are not required to have Business Central license."
 - [15:05](https://www.youtube.com/watch?v=egE6UdOfar0&t=905s) "This is a big, really big investment, and we do not want to cover everything in one session, no way."
 

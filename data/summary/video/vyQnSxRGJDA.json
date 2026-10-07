@@ -9,8 +9,8 @@
     "The agent treats an expense provided as an itinerary as a per diem trip and records trip start and end times, including outbound and return journeys.",
     "Location is detected from the itinerary and mapped to a configured Business Central location, based on where the employee spent most days (UK other in the demo).",
     "Users mark meals received during the trip; configured meal reduction percentages are then applied. In the demo, 232 pounds became 187.92.",
-    "Admins set calculation method, flat rates and meal reduction percentages in the per diem tab of the expense agent wizard, and can adjust details in the expense agent setup for full country compliance.",
-    "Meal reductions follow company policy, and location detection depends on the itinerary data provided."
+    "Admins set calculation method, flat rates and meal reduction percentages in the per diem tab of the expense agent wizard (15% meal reduction in the demo, deducted from the total per diem allowance per trip), and can adjust details in the expense agent setup for full country compliance.",
+    "Meal reductions follow company policy, and the detected location matches the locations set up in Business Central."
   ],
   "audience": [
     "functional consultant",

@@ -5,12 +5,12 @@
   "overview": "The video introduces a web app used only for the expense agent. It addresses the case where an employee is not a Business Central user but still has to submit expenses. Employees, finance and approvers all work in this app, and the video walks through the process flow for each role.\n\nThe demo covers signing in, uploading receipts, AI extraction and categorization, and exception handling when details are missing. It also covers currency conversion to the user's local currency, manual correction and grouping of expenses, and submission for approval. The presenter notes that automatic grouping is still in progress and fairly simple, and the video points to related sessions on the expense agent.",
   "key_points": [
     "The web app is exclusive to the expense agent and lets employees who are not Business Central users create, review and submit expenses and expense reports.",
-    "AI extracts numbers, dates and itemizations from uploaded receipts and categorizes them. A handwritten taxi receipt was demoed, with the presenter contrasting it with traditional OCR.",
+    "To sign in, a user must be registered as an employee in Business Central and allowed to use the expense agent. The demo used a Microsoft Entra account.",
+    "AI extracts numbers, dates and itemizations from uploaded receipts (PDF or image, single files or whole folders) and categorizes them. A handwritten taxi receipt was demoed, with the presenter contrasting it with traditional OCR.",
     "An expense that passes the initial validation tests is added automatically to a default expense report.",
-    "Receipt currencies are detected and amounts are shown in the user's local currency. The demo showed amounts in UK currency for mostly foreign receipts.",
-    "When extraction finds issues or missing details, the app shows a summary. Users can correct it, add notes such as marking a meeting as a customer meeting, and reprocess.",
-    "Users can drag and drop receipts between expense reports. The presenter says the automatic grouping is still in progress and somewhat simple.",
-    "Submitting a completed report notifies approvers. Finance and approvers review full details in the same web app and either approve or request corrections."
+    "Receipts in foreign currencies were shown in UK currency in the demo. The presenter describes automatic currency management and conversion.",
+    "When extraction finds issues or missing details, the app shows a summary. Users can correct it, add notes such as marking a meeting as a customer meeting, and save and continue, which reruns the workflow.",
+    "Users can add or drag and drop a receipt onto a specific expense report. The presenter says automatic grouping is still in progress and somewhat simple."
   ],
   "audience": [
     "functional consultant",

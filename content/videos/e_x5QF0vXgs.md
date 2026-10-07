@@ -2,7 +2,7 @@
 id: video/e_x5QF0vXgs
 type: video
 title: "Expense Agent: Mobile Experience (2026 release wave 1)"
-summary: "Expense Agent mobile app for iOS and Android, in preview: employees capture receipts on a phone without a Business Central license, AI extracts the expense details, and an offline mode queues receipts until the phone reconnects. The demo ran on Android."
+summary: Expense Agent mobile app for iOS and Android, announced as a preview coming very soon. Employees can capture receipts on a phone without a Business Central license, and AI extracts the expense details. In offline mode, receipts are queued until the phone reconnects to Business Central. The demo ran on Android.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - employee workflow
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:54.021Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:54.061Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,12 +92,12 @@ evidence:
     t: 336
     quote: you can expect this new preview mode very soon as Claudio explained
   - kind: video
-    url: https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s
-    title: "iOS and Android support: preview"
+    url: https://www.youtube.com/watch?v=e_x5QF0vXgs&t=325s
+    title: "iOS and Android support: announced"
     date: "2026-08-07T13:00:28.000Z"
     commit: null
-    t: 336
-    quote: you can expect this new preview mode very soon as Claudio explained
+    t: 325
+    quote: but of course, we also do support iOS and we are planning to release it to you very soon
   - kind: video
     url: https://www.youtube.com/watch?v=e_x5QF0vXgs&t=11s
     title: "Expense Agent: Mobile Experience (2026 release wave 1)"
@@ -243,7 +243,7 @@ features:
     verified: true
     status_source: video
   - name: iOS and Android support
-    status: preview
+    status: announced
     t: 52
     verified: true
     status_source: video
@@ -277,9 +277,9 @@ quotes:
 
 # Expense Agent: Mobile Experience (2026 release wave 1)
 
-> Expense Agent mobile app for iOS and Android, in preview: employees capture receipts on a phone without a Business Central license, AI extracts the expense details, and an offline mode queues receipts until the phone reconnects. The demo ran on Android.
+> Expense Agent mobile app for iOS and Android, announced as a preview coming very soon. Employees can capture receipts on a phone without a Business Central license, and AI extracts the expense details. In offline mode, receipts are queued until the phone reconnects to Business Central. The demo ran on Android.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=e_x5QF0vXgs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=e_x5QF0vXgs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -289,7 +289,7 @@ The mobile app lists expenses in a social-media-style feed, one expense per entr
 
 ## Key points
 
-- The Expense Agent mobile app is in preview and runs on iOS and Android. The demo used Android.
+- The Expense Agent mobile app is announced as a preview coming very soon. It supports iOS and Android, and the demo used Android.
 - Mobile users do not need a Business Central license, the same as for the web app. The app integrates with Business Central automatically.
 - The mobile app shows expenses as a feed with each expense listed individually. The web app groups them into reports.
 - The agent extracts total amount, date, description, payment means, category and itemized line items from the receipt image. All of it can be edited in the app before submitting.
@@ -323,7 +323,7 @@ The mobile app lists expenses in a social-media-style feed, one expense per entr
 | Receipt sharing from OS photo library | preview, demoed | [3:21](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=201s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
 | Offline expense capture | preview, demoed | [3:56](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=236s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
 | No Business Central license required | preview | [0:25](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=25s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| iOS and Android support | preview, demoed | [0:52](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=52s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| iOS and Android support | announced, demoed | [0:52](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=52s) | "but of course, we also do support iOS and we are planning to release it to you very soon" ([5:25](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=325s)) |
 
 ## Quotes
 

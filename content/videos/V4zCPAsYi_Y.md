@@ -16,12 +16,12 @@ tags:
   - al development
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:32.774Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:47:32.815Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 258
     quote: Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem for the algo images
+  - kind: video
+    url: https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=301s
+    title: "Getting Started With Agent Testing: Test Setup and Structuring (part 3)"
+    date: "2026-06-29T13:51:31.000Z"
+    commit: null
+    t: 301
+    quote: So you can find a sample test which is called the sales validation agent test at the BCT.
   - kind: video
     url: https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=313s
     title: "Getting Started With Agent Testing: Test Setup and Structuring (part 3)"
@@ -202,6 +209,9 @@ quotes:
   - t: 258
     text: Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem for the algo images
     check: exact
+  - t: 301
+    text: So you can find a sample test which is called the sales validation agent test at the BCT.
+    check: exact
   - t: 313
     text: this one is not on BCT. If you need it, reach out to us and we can provide the codes to you
     check: exact
@@ -214,7 +224,7 @@ quotes:
 
 > Structuring and setting up data-driven tests for Business Central agents: YAML data sets, XML suite configuration, reusable AL codeunits, P0/P1/load/variation categories, and a PowerShell runner for CI/CD against sandboxes. Part 3 of an agent testing series, using a sales return agent as the example.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V4zCPAsYi_Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 6:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=V4zCPAsYi_Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 6:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -230,7 +240,7 @@ It then covers categorizing tests (P0, P1, load, variation), shows a sales retur
 - One codeunit can be reused across multiple data sets, so adding a new test case mostly means adding data.
 - Categorize tests: P0 for happy-path tests that should usually pass and run fast and often, P1 for specific scenarios and edge cases, plus load tests (slower, run less often) and variation tests.
 - The PowerShell test runner supports CI/CD with token-based authentication, but only against sandboxes. It does not run on-prem or on AL-Go images.
-- The sales return agent sample is not on BCT yet and is available on request. LLM as judge is announced, and running tests from Visual Studio Code is planned.
+- The sales validation agent test sample is on BCT. The sales return agent sample is not on BCT yet and is available on request. The PowerShell runner ships in the image under Applications, test framework, test runner. LLM as judge, running tests from Visual Studio Code, and agent-assisted agent implementation are planned.
 
 ## Chapters
 
@@ -280,6 +290,7 @@ Not found in BC28-30: codeunit "AI Test Suite Management".
 - [1:50](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=110s) "we're actually reusing one code unit with multiple data sets, which so which highlights also how easy it is now to to create new"
 - [2:35](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=155s) "we usually define a set of P 0 tests. Those are the ones that you should expect to to pass pretty often. Uh, they"
 - [4:18](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=258s) "Currently it's only possible to run these tests in the sandboxes. Unfortunately, it's not possible to run them on prem for the algo images"
+- [5:01](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=301s) "So you can find a sample test which is called the sales validation agent test at the BCT."
 - [5:13](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=313s) "this one is not on BCT. If you need it, reach out to us and we can provide the codes to you"
 - [5:29](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=329s) "we are planning to introduce LLM as a judge and this one is to verify the user intervention if it is containing the text"
 

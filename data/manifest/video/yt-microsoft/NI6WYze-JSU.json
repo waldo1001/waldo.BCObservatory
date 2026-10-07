@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=NI6WYze-JSU",
   "published_at": "2026-08-07T13:00:28.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 1
     },
     "published": {
-      "at": "2026-10-06T14:02:12.751Z",
+      "at": "2026-10-07T22:46:54.121Z",
       "path": "content/videos/NI6WYze-JSU.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:46:54.081Z",
+      "path": "data/review/video/NI6WYze-JSU.json",
+      "verdict": "fix",
+      "applied": 1,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.051237000000000005
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f14219a29d059cae5f071c2e25f0d0f825d81cd40d5ede54fb1741a841d02b3a"
+  "output_hash": "ec7b465e02b38e5ee963bc17c3a1b154f792c8b12891d2171382db4a2f136666",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:46:54.077Z"
+  }
 }

@@ -10,7 +10,7 @@
     "One codeunit can be reused across multiple data sets, so adding a new test case mostly means adding data.",
     "Categorize tests: P0 for happy-path tests that should usually pass and run fast and often, P1 for specific scenarios and edge cases, plus load tests (slower, run less often) and variation tests.",
     "The PowerShell test runner supports CI/CD with token-based authentication, but only against sandboxes. It does not run on-prem or on AL-Go images.",
-    "The sales return agent sample is not on BCT yet and is available on request. LLM as judge is announced, and running tests from Visual Studio Code is planned."
+    "The sales validation agent test sample is on BCT. The sales return agent sample is not on BCT yet and is available on request. The PowerShell runner ships in the image under Applications, test framework, test runner. LLM as judge, running tests from Visual Studio Code, and agent-assisted agent implementation are planned."
   ],
   "audience": [
     "developer",

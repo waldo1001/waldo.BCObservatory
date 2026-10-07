@@ -17,12 +17,12 @@ tags:
   - expense reports
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:01.997Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:02.043Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,13 @@ evidence:
     commit: null
     t: 568
     quote: we don't require users of the expense agent, users who are submitting expenses, submitting reports to actually have a Business Central license
+  - kind: video
+    url: https://www.youtube.com/watch?v=qZALauRY_So&t=580s
+    title: "Introducing: Approvals for the Expense Agent (2026 release wave 1)"
+    date: "2026-04-27T14:39:08.000Z"
+    commit: null
+    t: 580
+    quote: You can just do it outside of Business Central and everything will be billed using our standard agent billing system.
   - kind: video
     url: https://www.youtube.com/watch?v=qZALauRY_So&t=596s
     title: "Introducing: Approvals for the Expense Agent (2026 release wave 1)"
@@ -158,6 +165,9 @@ quotes:
   - t: 568
     text: we don't require users of the expense agent, users who are submitting expenses, submitting reports to actually have a Business Central license
     check: exact
+  - t: 580
+    text: You can just do it outside of Business Central and everything will be billed using our standard agent billing system.
+    check: exact
   - t: 596
     text: when you are approving the report, there is some there are some financial consequences in Business Central data, and that includes also posting data
     check: exact
@@ -170,7 +180,7 @@ quotes:
 
 > Approvals for the Expense Agent in Business Central (2026 release wave 1): approvers get email or Copilot chat notifications and can approve, reject or request changes. Covers setup on the Expense Users page, team-based approval, and the licensing requirement for approvers.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qZALauRY_So) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 11:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qZALauRY_So) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 11:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,13 +190,13 @@ The demo shows an approver being notified by email or Copilot chat, then approvi
 
 ## Key points
 
-- Approvers receive notifications about pending expense reports by email or Copilot chat, and can approve, reject, or request changes.
-- Rejected or sent-back reports can be revised and resubmitted by the submitter.
-- Admins define expense users on the new Expense Users page and mark approvers with a can approve flag.
-- Team-based setup is supported: a team manager can approve expenses for their team members.
-- Users who submit expense reports do not need a Business Central license; approvers must have one.
-- An approval is registered in Business Central, and financial consequences such as GL posting are handled there.
-- The presenter says the UI is not final and may change before release.
+- Approvers receive notifications about pending expense reports by email or Copilot chat, and can approve, reject, or send reports back with a comment.
+- Rejected or sent-back reports return to the submitter, who can review the comment and revise the report.
+- Before submission, the AI model makes decisions or suggestions on whether receipts follow policy.
+- Admins define expense users on the new Expense Users page and mark approvers with a can approve flag, then choose who each approver can approve for.
+- Team-based setup is supported: a team manager can approve expenses for the team they manage.
+- Users who submit expense reports do not need a Business Central license and are billed through the standard agent billing system; approvers must have a Business Central license.
+- The approval is registered in Business Central, and financial consequences such as posting to the GL are handled there.
 
 ## Chapters
 
@@ -200,15 +210,15 @@ The demo shows an approver being notified by email or Copilot chat, then approvi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Approvals for the Expense Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=qZALauRY_So&t=6s) |  |
-| Pre-approval AI Suggestions | status not stated | [2:29](https://www.youtube.com/watch?v=qZALauRY_So&t=149s) |  |
-| Expense User Configuration | status not stated, demoed | [7:53](https://www.youtube.com/watch?v=qZALauRY_So&t=473s) |  |
-| Team-based Approval Setup | status not stated | [8:47](https://www.youtube.com/watch?v=qZALauRY_So&t=527s) |  |
-| Approval Notifications via Email and Copilot Chat | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=qZALauRY_So&t=192s) |  |
-| Expense Report Rejection and Revision | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=qZALauRY_So&t=202s) |  |
-| Approval Registration in Business Central | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=qZALauRY_So&t=228s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Approvals for the Expense Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=qZALauRY_So&t=6s) |
+| Pre-approval AI Suggestions | status not stated | [2:29](https://www.youtube.com/watch?v=qZALauRY_So&t=149s) |
+| Expense User Configuration | status not stated, demoed | [7:53](https://www.youtube.com/watch?v=qZALauRY_So&t=473s) |
+| Team-based Approval Setup | status not stated | [8:47](https://www.youtube.com/watch?v=qZALauRY_So&t=527s) |
+| Approval Notifications via Email and Copilot Chat | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=qZALauRY_So&t=192s) |
+| Expense Report Rejection and Revision | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=qZALauRY_So&t=202s) |
+| Approval Registration in Business Central | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=qZALauRY_So&t=228s) |
 
 ## AL objects mentioned
 
@@ -222,6 +232,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:22](https://www.youtube.com/watch?v=qZALauRY_So&t=82s) "the whole project has been done in model model first or AI first approach where AI is helping us guide the user and and"
 - [8:23](https://www.youtube.com/watch?v=qZALauRY_So&t=503s) "The UI is not fully final so we might tweak a few things around"
 - [9:28](https://www.youtube.com/watch?v=qZALauRY_So&t=568s) "we don't require users of the expense agent, users who are submitting expenses, submitting reports to actually have a Business Central license"
+- [9:40](https://www.youtube.com/watch?v=qZALauRY_So&t=580s) "You can just do it outside of Business Central and everything will be billed using our standard agent billing system."
 - [9:56](https://www.youtube.com/watch?v=qZALauRY_So&t=596s) "when you are approving the report, there is some there are some financial consequences in Business Central data, and that includes also posting data"
 - [10:12](https://www.youtube.com/watch?v=qZALauRY_So&t=612s) "users who are approving expense reports, even if they are doing that from outside of Business Central, just just as you have seen in"
 

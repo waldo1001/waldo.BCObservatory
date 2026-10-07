@@ -2,7 +2,7 @@
 id: video/4HE3BBCcV84
 type: video
 title: MCP Server and API Queries (2026 release wave 1)
-summary: API queries in the Business Central MCP server, demoed in the 2026 release wave 1 video. Analytics API queries, the foundation of the Power BI apps, can be selected as object type "query" in the MCP server configuration so external agents can use aggregations and analytics. Marked generally available; APIs need version 22.28.2 or later.
+summary: The Business Central MCP server now supports API queries, as shown in the 2026 release wave 1 video. The analytics API queries behind the Power BI apps can be picked by choosing object type "query" in the MCP server configuration, so external agents can use aggregations and analytics. The video says support came in version 28.2 (captioned "22 28.2") and points to the analytics API reference at aka.ms/bcintegration for agent knowledge.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - agent development
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:24.099Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:47:24.131Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -47,6 +47,13 @@ evidence:
     commit: null
     t: 36
     quote: We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh
+  - kind: video
+    url: https://www.youtube.com/watch?v=4HE3BBCcV84&t=47s
+    title: MCP Server and API Queries (2026 release wave 1)
+    date: "2026-07-07T14:00:18.000Z"
+    commit: null
+    t: 47
+    quote: Those API queries are now also available for your external agents. So, if you want to include things like aggregations or analytics,
   - kind: video
     url: https://www.youtube.com/watch?v=4HE3BBCcV84&t=69s
     title: MCP Server and API Queries (2026 release wave 1)
@@ -126,11 +133,6 @@ features:
     t: 97
     verified: false
     status_source: video
-  - name: Power BI apps foundation with API queries
-    status: unclear
-    t: 21
-    verified: false
-    status_source: video
 objects_mentioned:
   - query GL account category
 quotes:
@@ -139,6 +141,9 @@ quotes:
     check: exact
   - t: 36
     text: We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh
+    check: exact
+  - t: 47
+    text: Those API queries are now also available for your external agents. So, if you want to include things like aggregations or analytics,
     check: exact
   - t: 69
     text: In the release wave one for Business Central here in 2026, uh highlighted in italic, you can see what we already shipped in April,
@@ -156,9 +161,9 @@ quotes:
 
 # MCP Server and API Queries (2026 release wave 1)
 
-> API queries in the Business Central MCP server, demoed in the 2026 release wave 1 video. Analytics API queries, the foundation of the Power BI apps, can be selected as object type "query" in the MCP server configuration so external agents can use aggregations and analytics. Marked generally available; APIs need version 22.28.2 or later.
+> The Business Central MCP server now supports API queries, as shown in the 2026 release wave 1 video. The analytics API queries behind the Power BI apps can be picked by choosing object type "query" in the MCP server configuration, so external agents can use aggregations and analytics. The video says support came in version 28.2 (captioned "22 28.2") and points to the analytics API reference at aka.ms/bcintegration for agent knowledge.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4HE3BBCcV84) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-07 · 5:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4HE3BBCcV84) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-07 · 5:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -169,12 +174,12 @@ The demo shows an MCP server configuration where the object type is set to query
 ## Key points
 
 - API queries are supported in the MCP server and are the data foundation of the Power BI apps for most functional areas.
-- The APIs are available in version 22.28.2 and later.
-- In the MCP server configuration, choose query as object type to see all analytics API queries, grouped under the API group analytics.
-- Versions 0.5 and 1 are both listed; version 0.5 is shown for backwards compatibility. Select only the highest numbered version.
-- The analytics API reference documents how the APIs are used in the Power BI apps, with semantic models, calculations and use cases for manufacturing, sales and finance.
+- The video says API query support arrived in version 28.2 (captioned as '22 28.2'), together with support for all APIs, which is covered in a separate video.
+- In the MCP server configuration, choose query as object type and open the object ID lookup to see the analytics API queries, grouped under the API group analytics.
+- Versions 0.5 and 1 both appear, and the presenter mentions backwards compatibility; choose the highest numbered version of the API.
+- The analytics API reference (aka.ms/bcintegration) documents how the APIs are used in the Power BI apps, with semantic models, calculations and use cases for manufacturing, sales and finance.
 - The reference can be used as instructions or knowledge for agents, for example by pointing Copilot Studio to it.
-- The video places this in 2026 release wave 1, part of which already shipped in April.
+- General MCP server documentation is at aka.ms/bcmcp, and there is a 'getting started with MCP server' video playlist.
 
 ## Chapters
 
@@ -193,7 +198,6 @@ The demo shows an MCP server configuration where the object type is set to query
 | API queries in MCP server | generally available, demoed | [0:05](https://www.youtube.com/watch?v=4HE3BBCcV84&t=5s) | "API queries are the foundation for our Power BI apps, and this is now available in Business Central uh MCP server" ([1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s)) |
 | Analytics API reference documentation | status not stated | [2:52](https://www.youtube.com/watch?v=4HE3BBCcV84&t=172s) |  |
 | MCP server configuration for object type query | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s) |  |
-| Power BI apps foundation with API queries | status not stated | [0:21](https://www.youtube.com/watch?v=4HE3BBCcV84&t=21s) |  |
 
 ## AL objects mentioned
 
@@ -207,6 +211,7 @@ Not found in BC28-30: query "GL account category".
 
 - [0:05](https://www.youtube.com/watch?v=4HE3BBCcV84&t=5s) "We have two new things. One is support for API queries, that's this video, and then we have opened up for all Microsoft's APIs"
 - [0:36](https://www.youtube.com/watch?v=4HE3BBCcV84&t=36s) "We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh"
+- [0:47](https://www.youtube.com/watch?v=4HE3BBCcV84&t=47s) "Those API queries are now also available for your external agents. So, if you want to include things like aggregations or analytics,"
 - [1:09](https://www.youtube.com/watch?v=4HE3BBCcV84&t=69s) "In the release wave one for Business Central here in 2026, uh highlighted in italic, you can see what we already shipped in April,"
 - [1:50](https://www.youtube.com/watch?v=4HE3BBCcV84&t=110s) "I have um here a MCP server configuration, and if I go down here under object type and choose query, when I then choose"
 - [2:19](https://www.youtube.com/watch?v=4HE3BBCcV84&t=139s) "These are all grouped under the API group analytics. And even though they show version 0.5 and version 1 is just for backwards compatibility,"

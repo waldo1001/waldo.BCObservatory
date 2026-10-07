@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=rSGCNMIBcpc",
   "published_at": "2026-08-07T13:00:07.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T14:03:23.835Z",
+      "at": "2026-10-07T22:47:08.706Z",
       "path": "content/videos/rSGCNMIBcpc.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:47:08.669Z",
+      "path": "data/review/video/rSGCNMIBcpc.json",
+      "verdict": "fix",
+      "applied": 5,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.07563700000000001
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f074c21ced8e2d6c5536a35fa1f3ae988822d9efd54143643b205c1a4881c6a0"
+  "output_hash": "fad588441c187e6080a8e52a081b79236840cf2d12d74c819d08e2a0d027ee68",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:47:08.664Z"
+  }
 }

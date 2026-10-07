@@ -1,0 +1,29 @@
+{
+  "video_id": "AMVAiPTfSrU",
+  "item_id": "video/yt-microsoft/AMVAiPTfSrU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and the Copilot Chat feature description say 'behavior-driven development', but the transcript says 'back-driven development'. Reworded the key point to use the transcript's wording.",
+    "The MCP server segment is garbled ('MCB server', 'the solution is now in one hotel'). The transcript does not say the server connects agents to Business Central, so I softened the key point to say partners want a reusable solution.",
+    "The feature descriptions for Business Central MCP server and Copilot Chat integration still carry wording the transcript does not support (connecting agents to data and operations, behavior-driven). Feature descriptions cannot be edited here.",
+    "The page was missing the closing point that preconfigured agents for specific industry needs are the best future opportunity, so I added a quote for it.",
+    "The quote at 150.1 runs across a speaker marker (>>). The words are verbatim, so I kept it.",
+    "All features are correctly left as unclear because the transcript states no release status."
+  ],
+  "input_hash": "1584c873aaf1294432cadcdb053a8291e6ddb2e5ce352374c394e9e0098958e2",
+  "by": "opus",
+  "at": "2026-10-07T22:47:41.158Z",
+  "applied": [
+    "quote at 161s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06198500000000001
+  }
+}

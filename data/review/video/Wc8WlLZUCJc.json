@@ -1,0 +1,33 @@
+{
+  "video_id": "Wc8WlLZUCJc",
+  "item_id": "video/yt-microsoft/Wc8WlLZUCJc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The facts and summary match the transcript. This is a short customer story with no product feature demo.",
+    "Key points left out the stated outcome: 40% growth over the last year with the same headcount as 2 years ago. I added it.",
+    "Advice 3 (take your people on the journey) had no supporting quote, and neither did the growth figure. I added quotes for both.",
+    "The quotes at t=0.9 and t=107.8 skip a '>> [music] >>' caption marker. Otherwise they are verbatim, so I kept them.",
+    "'anonymization' in the t=43.3 quote is probably a caption error, but it is verbatim.",
+    "The 'copilot' system tag is not supported: Copilot is never named in the transcript. The systems field cannot be edited here.",
+    "All three features stay 'unclear' because no release status is stated. They are organizational initiatives, not Business Central product features."
+  ],
+  "input_hash": "761e88936b6160d2f176cb74c3144d0a9d2fcdcb04b52128d53e7bcf73e433bf",
+  "by": "opus",
+  "at": "2026-10-07T22:47:44.271Z",
+  "applied": [
+    "Supplier invoicing automation: status unclear",
+    "Data consolidation for AI: status unclear",
+    "Customer zero journey: status unclear",
+    "quote at 43s",
+    "quote at 120s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057765000000000004
+  }
+}

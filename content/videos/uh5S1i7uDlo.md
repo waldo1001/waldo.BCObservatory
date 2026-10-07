@@ -16,12 +16,12 @@ tags:
   - invoice extraction
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:19.491Z"
   flags: []
 generated:
-  at: "2026-10-06T16:47:44.908Z"
+  at: "2026-10-07T22:48:19.529Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -131,7 +131,7 @@ quotes:
 
 > Payables agent in Business Central: a short demo of how it drafts purchase invoices from PDF invoices, suggests vendor, line types, dimensions and deferral templates using AI and historical data, and leaves review, confirmation and posting to the user.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uh5S1i7uDlo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-14 · 1:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uh5S1i7uDlo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-14 · 1:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -142,10 +142,10 @@ The demo then shows the review step. The agent uses AI and historical data to su
 
 - The payables agent automatically drafts a purchase invoice from a PDF vendor invoice and presents the extracted data in a structured format.
 - It uses AI and historical data to suggest vendor, invoice line types, dimensions and deferral templates.
-- It does not post invoices automatically; every invoice needs manual review and confirmation.
-- Users can accept or adjust each suggestion before confirming the draft as a purchase invoice.
+- It does not post anything automatically; the user reviews and confirms the draft.
+- Users can accept or adjust each suggestion before confirming the draft as a purchase invoice, at which point the agent's role is complete.
 - After confirmation, the agent supervisor can send the invoice for approval or post it directly, depending on setup.
-- The video describes the end-to-end automation as coming soon, and does not state a release status.
+- Release status is not stated: the video says manual processing is 'soon a thing of the past' and also invites viewers to start 'today', and refers to the Microsoft website for availability.
 
 ## Chapters
 
@@ -158,12 +158,12 @@ The demo then shows the review step. The agent uses AI and historical data to su
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Payables agent | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=11s) |  |
-| Invoice data extraction | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |  |
-| AI-powered invoice suggestions | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |  |
-| Manual invoice review and confirmation | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=43s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Payables agent | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=11s) |
+| Invoice data extraction | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
+| AI-powered invoice suggestions | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
+| Manual invoice review and confirmation | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=43s) |
 
 ## Quotes
 

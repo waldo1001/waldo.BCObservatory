@@ -1,0 +1,30 @@
+{
+  "video_id": "4HE3BBCcV84",
+  "item_id": "video/yt-microsoft/4HE3BBCcV84",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'API queries in MCP server' has evidence_t 5.5, but its evidence quote starts at segment 97.1.",
+    "The summary and key points say 'version 22.28.2 or later'. The captions read 'version 22 28.2', which looks like a stutter, and the transcript never says 'or later'.",
+    "The key point 'Select only the highest numbered version' overstates the transcript, which says 'we will choose the highest number of the API'.",
+    "Feature 'Power BI apps foundation with API queries' repeats 'API queries in MCP server' and is not a separate capability.",
+    "The quote about availability for external agents (t 47.9) was missing, so it is added."
+  ],
+  "input_hash": "df7534e9b1abe1e9a02165b807287f52aa50c2de780643536f2904bfe283fa68",
+  "by": "opus",
+  "at": "2026-10-07T22:47:24.099Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "API queries in MCP server: status ga",
+    "quote at 48s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.072537
+  }
+}

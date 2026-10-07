@@ -165,6 +165,12 @@
       "check": "exact"
     },
     {
+      "t": 77.4,
+      "text": "No manual work required, except a simple initial email confirmation.",
+      "why_it_matters": "This is the one manual step that remains, so it limits the claim of full automation.",
+      "check": "exact"
+    },
+    {
       "t": 92.1,
       "text": "The agent runs securely through a job queue every 5 minutes, ensuring manifests are processed quickly and consistently.",
       "why_it_matters": "Defines the technical execution model and the 5-minute processing interval.",

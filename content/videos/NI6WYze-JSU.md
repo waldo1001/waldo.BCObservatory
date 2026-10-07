@@ -16,12 +16,12 @@ tags:
   - licensing
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:54.077Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:46:54.117Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -161,7 +161,7 @@ quotes:
 
 > Expense Agent project tracking in Business Central: how an administrator enables project and task visibility in the web app, how submitters assign expenses to projects and tasks, and how expense users are linked to employees and resources. Also covers the controller's manual fallback.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NI6WYze-JSU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 2:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NI6WYze-JSU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 2:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,12 +171,12 @@ A submitter then picks the project and project task in the categorization tab of
 
 ## Key points
 
-- Projects and tasks are not visible in the Expense Agent web app by default. An administrator has to enable them.
+- Projects and tasks are not visible in the Expense Agent web app by default. An administrator has to enable them and decide what level to expose to submitters.
 - In the Expense Agent configuration wizard, under project tracking, the administrator activates project tracking and sets visibility to all projects or assigned projects only.
-- Submitters assign the project and project task in the categorization tab of the expense report in the web app.
-- Submitters cannot post the expense or create a project ledger entry. Posting needs a controller or accountant with the Easy Central license.
-- The expense user is linked to an employee, and the employee is linked to a resource. The link is set in the Expense User Card page.
-- If the submitter does not know the project, the controller can add the project assignment manually in Business Central when reviewing and posting.
+- Submitters assign the project and project task in the categorization tab of the expense report in the web app, and the change shows up on the expense report line in Business Central.
+- Submitters can assign expenses to projects but cannot post the expense report or create a project ledger entry. Posting requires a Business Central license and the controller or accountant role.
+- The expense user is linked to an employee, and the employee is linked to a resource. The Expense User Card shows this link.
+- If the submitter does not know the project, the controller can still add it manually in Business Central.
 
 ## Chapters
 
@@ -189,13 +189,13 @@ A submitter then picks the project and project task in the categorization tab of
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Project and task visibility in Expense Agent web app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |  |
-| Submitter project assignment capability | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=NI6WYze-JSU&t=81s) |  |
-| Project tracking configuration in Expense Agent setup | preview (roadmap [573259](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |  |
-| Expense user to resource linkage | preview (roadmap [573259](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |  |
-| Manual project assignment fallback in Business Central | status not stated | [2:23](https://www.youtube.com/watch?v=NI6WYze-JSU&t=143s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Project and task visibility in Expense Agent web app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |
+| Submitter project assignment capability | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=NI6WYze-JSU&t=81s) |
+| Project tracking configuration in Expense Agent setup | preview (roadmap [573259](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |
+| Expense user to resource linkage | preview (roadmap [573259](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |
+| Manual project assignment fallback in Business Central | status not stated | [2:23](https://www.youtube.com/watch?v=NI6WYze-JSU&t=143s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

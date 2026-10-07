@@ -16,12 +16,12 @@ tags:
   - data flow
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:04.796Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:47:04.836Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,7 +169,7 @@ quotes:
 
 > Expense Agent walkthrough in Business Central: how an employee's expense flows through dimensions, expense report, posting (project and employee ledger entries), employee payment via the payment journal, and project billable costs. Status of the feature is not stated in the facts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=54uIhzZq3Os) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=54uIhzZq3Os) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,12 +180,12 @@ Default dimensions on the employee record, such as department and sales person, 
 ## Key points
 
 - Default dimensions on the employee record (for example department and sales person) flow automatically into expenses the employee submits.
-- Employees cannot specify dimensions manually; only an accountant can add or move dimensions after submission (in the demo the accountant added a business group).
-- Billable information on an expense lets the employee assign a customer, a G/L account, and project and project task numbers; these sources combine into a new set of dimensions.
+- The employee cannot specify dimensions herself; the accountant can add or move dimensions afterwards (in the demo the accountant added a business group).
+- Billable information on an expense lets the employee assign a customer, the account in the system it should go to, and a project and project task number; these sources combine into a new set of dimensions.
 - Posting an expense report creates the posted expense report, project ledger entries and employee ledger entries, the last tracking the money owed to the employee.
-- The employee card has a Pay employee function that shows outstanding employee expenses and creates a payment in the payment journal.
+- From the employee card, a Pay employee function shows outstanding employee expenses and creates a payment in the normal payment journal.
 - The payment journal now has an 'employee' account type; previously only vendor was available.
-- Expenses assigned to a project show up in the project's billable cost section, categorized by expense type such as other travel expenses.
+- Expenses assigned to a project show up under the project's billable cost, posted as an expense type such as other travel expenses.
 
 ## Chapters
 
@@ -198,15 +198,15 @@ Default dimensions on the employee record, such as department and sales person, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=54uIhzZq3Os&t=0s) |  |
-| Default dimensions on employee records | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=54uIhzZq3Os&t=52s) |  |
-| Billable information on expenses | status not stated, demoed | [1:54](https://www.youtube.com/watch?v=54uIhzZq3Os&t=114s) |  |
-| Posted expense report ledger entries | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=54uIhzZq3Os&t=162s) |  |
-| Pay employee function | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=54uIhzZq3Os&t=211s) |  |
-| Employee account type in payment journal | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=54uIhzZq3Os&t=236s) |  |
-| Project billable cost tracking for expenses | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=54uIhzZq3Os&t=260s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=54uIhzZq3Os&t=0s) |
+| Default dimensions on employee records | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=54uIhzZq3Os&t=52s) |
+| Billable information on expenses | status not stated, demoed | [1:54](https://www.youtube.com/watch?v=54uIhzZq3Os&t=114s) |
+| Posted expense report ledger entries | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=54uIhzZq3Os&t=162s) |
+| Pay employee function | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=54uIhzZq3Os&t=211s) |
+| Employee account type in payment journal | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=54uIhzZq3Os&t=236s) |
+| Project billable cost tracking for expenses | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=54uIhzZq3Os&t=260s) |
 
 ## AL objects mentioned
 

@@ -74,10 +74,10 @@
     {
       "name": "Receipt scanning and attachment",
       "description": "Users can scan and attach receipt images to email or web app. The expense agent processes these receipts automatically.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 191.7,
+      "status_evidence_quote": "everything what is marked really clear color, this is something what we will have in our public preview",
+      "status_evidence_verified": true,
       "t_start": 191.7,
       "t_end": 206.1,
       "is_demoed": true,
@@ -92,10 +92,10 @@
     {
       "name": "Automatic data extraction from receipts",
       "description": "AI extracts merchant name, amount, date, and other details automatically from receipt images without manual entry.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 219.4,
+      "status_evidence_quote": "So, all of these things are already planned for public preview.",
+      "status_evidence_verified": true,
       "t_start": 500.2,
       "t_end": 513.3,
       "is_demoed": true,
@@ -110,10 +110,10 @@
     {
       "name": "Automatic expense categorization",
       "description": "The expense agent automatically assigns expense categories based on the receipt content and context.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 219.4,
+      "status_evidence_quote": "So, all of these things are already planned for public preview.",
+      "status_evidence_verified": true,
       "t_start": 206.1,
       "t_end": 219.4,
       "is_demoed": true,
@@ -146,10 +146,10 @@
     {
       "name": "Per diem calculation",
       "description": "The system automatically calculates per diem amounts based on user location and trip details.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 219.4,
+      "status_evidence_quote": "system will automatically calculate per diem and based on your location. So, all of these things are already planned for public preview.",
+      "status_evidence_verified": true,
       "t_start": 219.4,
       "t_end": 230.1,
       "is_demoed": false,
@@ -425,12 +425,6 @@
       "check": "exact"
     },
     {
-      "t": 177.1,
-      "text": "we made some even maybe too optimistic ideas to build so much in public preview because this is just in few months, we created",
-      "why_it_matters": "Indicates the rapid timeline and ambitious scope of features delivered in public preview.",
-      "check": "exact"
-    },
-    {
       "t": 253.6,
       "text": "As I said, some of these features are in our agent, some of these features are in the Business Central.",
       "why_it_matters": "Clarifies that the expense agent spans both external interfaces and Business Central itself.",
@@ -446,6 +440,12 @@
       "t": 691.8,
       "text": "It's required absolutely accuracy, so we cannot say this is enough to have 99% accuracy. They are strict rules and must be 100% accurate",
       "why_it_matters": "Defines the strict compliance requirement for amount-based rules, setting expectations for accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 767.8,
+      "text": "So, in this moment, we have these two options, rules already implemented, policy in a process of implementation.",
+      "why_it_matters": "States the current status split between rules (implemented) and policies (in progress).",
       "check": "exact"
     },
     {

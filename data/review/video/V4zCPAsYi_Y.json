@@ -1,0 +1,31 @@
+{
+  "video_id": "V4zCPAsYi_Y",
+  "item_id": "video/yt-microsoft/V4zCPAsYi_Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim; the t=155.2 quote crosses into the next segment, which is acceptable.",
+    "Visual Studio Code test execution is described as 'we are looking into', so it is announced, not unclear.",
+    "Agent-assisted agent implementation is described as 'one of the items that we are looking into', so it is announced, not unclear.",
+    "The page did not mention that the shipped sales validation agent test sample is available on BCT. Added a quote and updated the last key point.",
+    "The PowerShell runner is described as 'supported' and shipped on the image, but this is called the first version, so its status is left unclear."
+  ],
+  "input_hash": "55cad51bd2ec178d1249766acdea4069ff30b264398be740c81e8db6584265e5",
+  "by": "opus",
+  "at": "2026-10-07T22:47:32.774Z",
+  "applied": [
+    "LLM as judge for test validation: status announced",
+    "quote at 302s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Visual Studio Code test execution -> announced: evidence not verbatim or does not state the status",
+    "status Agent-assisted agent implementation -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.101189
+  }
+}

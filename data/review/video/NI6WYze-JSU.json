@@ -1,0 +1,27 @@
+{
+  "video_id": "NI6WYze-JSU",
+  "item_id": "video/yt-microsoft/NI6WYze-JSU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point repeated the caption error 'Easy Central license'. The speaker means a Business Central license, so the key point now says that. Verbatim quotes keep the caption wording.",
+    "Key point said the employee/resource link is set in the Expense User Card. The transcript only shows the link on that card, so the wording is softened.",
+    "Key point on the manual fallback added 'when reviewing and posting', which the transcript does not tie to this step. Softened.",
+    "Feature t_start values for 'Expense user to resource linkage' (119.2) and 'Manual project assignment fallback' (143.3) are a little early. The content starts at 130.3 and 154.4. No edit field exists for this, so it is noted only.",
+    "All feature statuses stay unclear. The release wave appears only in the title; the transcript never states preview or GA.",
+    "Quotes match the transcript. Summary is accurate."
+  ],
+  "input_hash": "cb664a70e94fcb2ed0fc061a3b9c1d463f23e5bb7a7567de62ea567066362ab1",
+  "by": "opus",
+  "at": "2026-10-07T22:46:54.077Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.051237000000000005
+  }
+}

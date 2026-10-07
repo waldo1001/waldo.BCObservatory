@@ -2,7 +2,7 @@
 id: video/AMVAiPTfSrU
 type: video
 title: How 3 Partners are Building Powerful Agents for Business Central
-summary: Partner experiences building agents for Business Central with Copilot Studio and the Business Central MCP server. Examples are a payroll agent, a purchase order creation agent and a sales claim agent, plus a push for reusable agents built in Business Central rather than as black boxes.
+summary: Three partners describe building agents for Business Central with Copilot Studio and the Business Central MCP server (captioned as 'MCB server'). Examples are a payroll agent, a manifest purchase order creation agent and a sales claim agent. The partners stress reusable agents built in Business Central rather than black boxes, and advise starting small with preconfigured industry-specific agents.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - vertical solutions
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:41.158Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:41.200Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 150
     quote: Make a small step forward. Don't try to solve all the problems. Try to solve one problem, one issue.
+  - kind: video
+    url: https://www.youtube.com/watch?v=AMVAiPTfSrU&t=160s
+    title: How 3 Partners are Building Powerful Agents for Business Central
+    date: "2026-05-27T14:16:04.000Z"
+    commit: null
+    t: 160
+    quote: Bringing preconfigured agent with specific industry needs, that's what brings us the best opportunities for the future.
 links:
   learn: []
   objects: []
@@ -162,13 +169,16 @@ quotes:
   - t: 150
     text: Make a small step forward. Don't try to solve all the problems. Try to solve one problem, one issue.
     check: exact
+  - t: 160
+    text: Bringing preconfigured agent with specific industry needs, that's what brings us the best opportunities for the future.
+    check: exact
 ---
 
 # How 3 Partners are Building Powerful Agents for Business Central
 
-> Partner experiences building agents for Business Central with Copilot Studio and the Business Central MCP server. Examples are a payroll agent, a purchase order creation agent and a sales claim agent, plus a push for reusable agents built in Business Central rather than as black boxes.
+> Three partners describe building agents for Business Central with Copilot Studio and the Business Central MCP server (captioned as 'MCB server'). Examples are a payroll agent, a manifest purchase order creation agent and a sales claim agent. The partners stress reusable agents built in Business Central rather than black boxes, and advise starting small with preconfigured industry-specific agents.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=AMVAiPTfSrU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-27 · 2:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=AMVAiPTfSrU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-27 · 2:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,13 +188,13 @@ Examples include a payroll agent that reduces manual data entry and lets smaller
 
 ## Key points
 
-- Copilot Studio is the starting point for creating a first agent; partners report building more complex agents over time.
-- The Business Central MCP server (called the MCB server in the transcript) connects agents to Business Central and supports reusable solutions.
-- The payroll agent automates tasks that rely on manual data entry and helps smaller companies bring payroll in-house instead of outsourcing it.
-- Industry-specific agents shown as business value: purchase order creation and sales claims.
-- One partner says its agents are reusable for every customer and partner and are not a black box, because they are based in Business Central.
-- Copilot Chat integration is described as changing development towards behavior-driven development.
-- Advice to developers: take a small step and solve one problem rather than all of them.
+- Copilot Studio is the starting point because it is easy to create a first agent; partners say they build more complex agents each day.
+- One partner mentions the Business Central MCP server (captioned 'MCB server') and says they want to create a reusable solution; this segment of the captions is partly garbled.
+- The payroll agent automates tasks that rely on manual data entry and helps smaller companies bring payroll back in-house instead of outsourcing it.
+- Industry-specific agents shown as business value: a manifest purchase order creation agent and a sales claim agent.
+- One partner says its agents are completely reusable for every customer and partner, are not a black box, and are mostly developed in Business Central.
+- The partner also uses Copilot Chat, which it says is changing how it develops, towards 'back-driven development' (as captioned).
+- Advice to partners: start as soon as possible, take a small step and solve one problem rather than all of them.
 
 ## Chapters
 
@@ -198,15 +208,15 @@ Examples include a payroll agent that reduces manual data entry and lets smaller
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Studio agent creation | status not stated | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |  |
-| Business Central MCP server | status not stated | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |  |
-| Payroll agent | status not stated | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |  |
-| Manifest purchase order creation agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |  |
-| Sales claim agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |  |
-| Reusable agent development in Business Central | status not stated | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |  |
-| Copilot Chat integration | status not stated | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Studio agent creation | status not stated | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |
+| Business Central MCP server | status not stated | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |
+| Payroll agent | status not stated | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |
+| Manifest purchase order creation agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Sales claim agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Reusable agent development in Business Central | status not stated | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |
+| Copilot Chat integration | status not stated | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |
 
 ## Quotes
 
@@ -216,5 +226,6 @@ Examples include a payroll agent that reduces manual data entry and lets smaller
 - [1:30](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=90s) "Business Central is our main driver because we can build on top of this with our vertical industry solutions."
 - [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) "Our agents are completely reusable. It's for every customer, for every partner. It's not a black box. We are based normally in Business Central."
 - [2:30](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=150s) "Make a small step forward. Don't try to solve all the problems. Try to solve one problem, one issue."
+- [2:40](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=160s) "Bringing preconfigured agent with specific industry needs, that's what brings us the best opportunities for the future."
 
 Presenters (as heard): First partner speaker, Second partner speaker, Third partner speaker (Aptn).

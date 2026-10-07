@@ -2,7 +2,7 @@
 id: video/xB9kszf93hE
 type: video
 title: "Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)"
-summary: Part 1 of an agent testing series on why AI evaluations matter in Business Central. It covers how AI testing differs from deterministic testing, and introduces programmatic data-driven tests defined in YAML, LLM-as-judge evaluation, and agent benchmarking.
+summary: "Part 1 of an agent testing session on why evaluations matter for AI features in Business Central. It explains how non-deterministic AI behavior differs from traditional pass-fail testing, then outlines evaluation types: human evaluation, programmatic data-driven tests in AL using YAML (the main focus of the session), LLM-as-judge scoring, and a brief mention of agent benchmarking."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - ai safety
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:38.435Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:38.471Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,13 @@ evidence:
     commit: null
     t: 215
     quote: building it in AI AIL and using um data-driven via YAML gives you a framework for basically testing in a deterministic way
+  - kind: video
+    url: https://www.youtube.com/watch?v=xB9kszf93hE&t=237s
+    title: "Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)"
+    date: "2026-06-29T12:57:17.000Z"
+    commit: null
+    t: 237
+    quote: that is what we're going to focus most of today's office hour how you can build your own evaluations for your AI features here
   - kind: video
     url: https://www.youtube.com/watch?v=xB9kszf93hE&t=273s
     title: "Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)"
@@ -142,6 +149,9 @@ quotes:
   - t: 215
     text: building it in AI AIL and using um data-driven via YAML gives you a framework for basically testing in a deterministic way
     check: exact
+  - t: 237
+    text: that is what we're going to focus most of today's office hour how you can build your own evaluations for your AI features here
+    check: exact
   - t: 273
     text: you can use LLMs to try to judge, okay, I asked for this, does the answer reflect what I asked for?
     check: exact
@@ -149,9 +159,9 @@ quotes:
 
 # Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)
 
-> Part 1 of an agent testing series on why AI evaluations matter in Business Central. It covers how AI testing differs from deterministic testing, and introduces programmatic data-driven tests defined in YAML, LLM-as-judge evaluation, and agent benchmarking.
+> Part 1 of an agent testing session on why evaluations matter for AI features in Business Central. It explains how non-deterministic AI behavior differs from traditional pass-fail testing, then outlines evaluation types: human evaluation, programmatic data-driven tests in AL using YAML (the main focus of the session), LLM-as-judge scoring, and a brief mention of agent benchmarking.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xB9kszf93hE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 5:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xB9kszf93hE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-06-29 · 5:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,12 +172,12 @@ The video then outlines the types of evaluations. Programmatic evaluation builds
 ## Key points
 
 - The speaker's central claim: the important part is not how good the prompt or instructions are, but how good the evaluations are.
-- AI differs from traditional testing because behavior is non-deterministic, inputs vary, results are not repeatable, and quality is subjective.
-- For AI features, metrics matter more than a simple pass-fail result.
-- Programmatic evaluation: write the tests in a deterministic way, with variation in input, using data-driven test cases defined in YAML.
-- LLM-based evaluation: use a language model to check whether the answer reflects what was asked, for example for generated emails, product descriptions or project descriptions.
-- Benchmarking multiple agents and observing latency, cost and error rates is introduced only briefly and is left for later content.
-- This is part 1 of a series; the speaker says the main focus is on the second part.
+- Traditional testing checks deterministic behavior with exact assertions that are repeatable and either pass or fail.
+- AI is different: behavior is non-deterministic, inputs and outputs vary, results are not repeatable, and quality is subjective, so metrics matter more than pass-fail.
+- Evaluations should also measure quality and safety, for example how the feature behaves when someone tries to fool it.
+- Human evaluation is possible but hard to scale.
+- Programmatic evaluation: write the tests in a deterministic way in AL, with varied inputs and biases, using data-driven test cases defined in YAML. This is the main focus of the session.
+- LLM-based evaluation: use a language model (for example Foundry functionality) to score whether generated text such as emails, product descriptions or project descriptions reflects what was asked.
 
 ## Chapters
 
@@ -181,12 +191,12 @@ The video then outlines the types of evaluations. Programmatic evaluation builds
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI evaluations framework | status not stated | [0:04](https://www.youtube.com/watch?v=xB9kszf93hE&t=4s) |  |
-| Programmatic evaluation with data-driven testing via YAML | status not stated | [3:20](https://www.youtube.com/watch?v=xB9kszf93hE&t=200s) |  |
-| LLM-based output evaluation | status not stated | [4:09](https://www.youtube.com/watch?v=xB9kszf93hE&t=249s) |  |
-| Agent benchmarking and observability | status not stated | [4:49](https://www.youtube.com/watch?v=xB9kszf93hE&t=289s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI evaluations framework | status not stated | [0:04](https://www.youtube.com/watch?v=xB9kszf93hE&t=4s) |
+| Programmatic evaluation with data-driven testing via YAML | status not stated | [3:20](https://www.youtube.com/watch?v=xB9kszf93hE&t=200s) |
+| LLM-based output evaluation | status not stated | [4:09](https://www.youtube.com/watch?v=xB9kszf93hE&t=249s) |
+| Agent benchmarking and observability | status not stated | [4:49](https://www.youtube.com/watch?v=xB9kszf93hE&t=289s) |
 
 ## Quotes
 
@@ -195,6 +205,7 @@ The video then outlines the types of evaluations. Programmatic evaluation builds
 - [2:37](https://www.youtube.com/watch?v=xB9kszf93hE&t=157s) "the behavior isn't repeatable, and the quality is subjective, and the metrics actually matter more than just a pass-fail"
 - [3:20](https://www.youtube.com/watch?v=xB9kszf93hE&t=200s) "you need to program the tests in a deterministic way. You can have variation in the input."
 - [3:35](https://www.youtube.com/watch?v=xB9kszf93hE&t=215s) "building it in AI AIL and using um data-driven via YAML gives you a framework for basically testing in a deterministic way"
+- [3:57](https://www.youtube.com/watch?v=xB9kszf93hE&t=237s) "that is what we're going to focus most of today's office hour how you can build your own evaluations for your AI features here"
 - [4:33](https://www.youtube.com/watch?v=xB9kszf93hE&t=273s) "you can use LLMs to try to judge, okay, I asked for this, does the answer reflect what I asked for?"
 
 ## Disclaimers in the video

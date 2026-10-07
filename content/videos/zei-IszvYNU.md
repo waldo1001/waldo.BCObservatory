@@ -16,12 +16,12 @@ tags:
   - agent development
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:18.235Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:18.270Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 151
     quote: the standard documentation for this in our developer documentation is has this landing page aka.ms/bcintegration
+  - kind: video
+    url: https://www.youtube.com/watch?v=zei-IszvYNU&t=237s
+    title: MCP Server and All Microsoft API's (2026 release wave 1)
+    date: "2026-07-07T14:00:31.000Z"
+    commit: null
+    t: 237
+    quote: there is also a landing page for that for Microsoft Learn. It is aka.ms/bcmcp.
   - kind: video
     url: https://www.youtube.com/watch?v=zei-IszvYNU&t=250s
     title: MCP Server and All Microsoft API's (2026 release wave 1)
@@ -148,6 +155,9 @@ quotes:
   - t: 151
     text: the standard documentation for this in our developer documentation is has this landing page aka.ms/bcintegration
     check: exact
+  - t: 237
+    text: there is also a landing page for that for Microsoft Learn. It is aka.ms/bcmcp.
+    check: exact
   - t: 250
     text: hopefully that together with the new APIs will enable you to identify much more of the ERP workloads for your environment or for your
     check: exact
@@ -157,7 +167,7 @@ quotes:
 
 > Business Central MCP server now exposes all Microsoft-published APIs, including subscription billing, e-invoicing and automation APIs. The video shows adding APIs to an MCP configuration one by one or in bulk with the add tools by API group action. It ties this to the 2026 wave 1 release and version 28.2.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zei-IszvYNU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-07 · 4:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zei-IszvYNU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-07-07 · 4:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,10 +180,10 @@ It demonstrates configuring the MCP server: APIs can be added individually, or i
 - All Microsoft published APIs are available in the MCP server, not only the core V2 APIs. This includes subscription billing, e-invoicing and automation APIs.
 - In the MCP server configuration, add APIs one by one or use the add tools by API group action to add every API in a group.
 - API groups exist for analytics, automation APIs, e-document, intercompany and other functional areas.
-- Permissions can be set to read-only or other levels, where the API supports them.
-- The MCP server enhancements shipped in the April 2026 release. More APIs and query support come with version 28.2.
+- Added APIs can be set to something other than read-only, if they support it and are not read-only by default.
+- The April 2026 (2026 wave 1) release shipped earlier MCP server enhancements. All Microsoft APIs and API queries come with version 28.2.
 - API queries in MCP server are covered in a separate video. Watch it before building agents.
-- Developer documentation landing page: aka.ms/bcintegration.
+- Developer documentation landing page for APIs: aka.ms/bcintegration. MCP server landing page on Microsoft Learn: aka.ms/bcmcp.
 
 ## Chapters
 
@@ -200,6 +210,7 @@ It demonstrates configuring the MCP server: APIs can be added individually, or i
 - [1:22](https://www.youtube.com/watch?v=zei-IszvYNU&t=82s) "all Microsoft published APIs are available in MCP server"
 - [1:36](https://www.youtube.com/watch?v=zei-IszvYNU&t=96s) "multiple ways to add APIs to an MCP server configuration. You can either go and add them one by one or just use the"
 - [2:31](https://www.youtube.com/watch?v=zei-IszvYNU&t=151s) "the standard documentation for this in our developer documentation is has this landing page aka.ms/bcintegration"
+- [3:57](https://www.youtube.com/watch?v=zei-IszvYNU&t=237s) "there is also a landing page for that for Microsoft Learn. It is aka.ms/bcmcp."
 - [4:10](https://www.youtube.com/watch?v=zei-IszvYNU&t=250s) "hopefully that together with the new APIs will enable you to identify much more of the ERP workloads for your environment or for your"
 
 ## Disclaimers in the video

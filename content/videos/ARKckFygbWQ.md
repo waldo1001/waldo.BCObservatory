@@ -17,12 +17,12 @@ tags:
   - ai processing
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:52.777Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:52.871Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,7 +184,7 @@ quotes:
 
 > Expense agent web app in Business Central (2026 release wave 1): employees use app.expenses.dynamics.com with only an Enter ID and no Business Central license. The demo shows receipt capture, automatic data extraction, categorization, itemization and compliance checking based on administrator settings.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ARKckFygbWQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 4:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ARKckFygbWQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 4:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -214,16 +214,16 @@ The demo captures receipts and submits them to the agent, which works on the emp
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Web app experience for expense agent | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=ARKckFygbWQ&t=40s) |  |
-| No-license access model | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=ARKckFygbWQ&t=13s) |  |
-| Receipt capture and submission | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=ARKckFygbWQ&t=82s) |  |
-| Automatic receipt data extraction | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=ARKckFygbWQ&t=125s) |  |
-| Automatic expense categorization | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=ARKckFygbWQ&t=125s) |  |
-| Automatic itemization of receipts | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=ARKckFygbWQ&t=167s) |  |
-| Expense compliance checking | status not stated, demoed | [3:29](https://www.youtube.com/watch?v=ARKckFygbWQ&t=209s) |  |
-| Multi-category expense support | status not stated | [4:11](https://www.youtube.com/watch?v=ARKckFygbWQ&t=251s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Web app experience for expense agent | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=ARKckFygbWQ&t=40s) |
+| No-license access model | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=ARKckFygbWQ&t=13s) |
+| Receipt capture and submission | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=ARKckFygbWQ&t=82s) |
+| Automatic receipt data extraction | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=ARKckFygbWQ&t=125s) |
+| Automatic expense categorization | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=ARKckFygbWQ&t=125s) |
+| Automatic itemization of receipts | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=ARKckFygbWQ&t=167s) |
+| Expense compliance checking | status not stated, demoed | [3:29](https://www.youtube.com/watch?v=ARKckFygbWQ&t=209s) |
+| Multi-category expense support | status not stated | [4:11](https://www.youtube.com/watch?v=ARKckFygbWQ&t=251s) |
 
 ## Quotes
 

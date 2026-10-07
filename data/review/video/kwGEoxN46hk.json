@@ -1,0 +1,28 @@
+{
+  "video_id": "kwGEoxN46hk",
+  "item_id": "video/yt-microsoft/kwGEoxN46hk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on dedicated folders added 'or process duplicates', which the transcript does not say; removed.",
+    "The key point on contact options presented creating a contact on the fly as a new option. The transcript says that was the previous behavior, and the new options are to use a different existing contact or to update an existing customer's email. Reworded. The feature description has the same imprecision and can't be edited here.",
+    "The key point on statistics said they were 'per agent'. The transcript only says 'different statistics' with both agents running, so this was reworded.",
+    "All four quotes match the transcript word for word and are kept.",
+    "All statuses stay unclear: 'With this release' doesn't say whether the feature is in preview or generally available."
+  ],
+  "input_hash": "114f145e849ae48fc61c59328412c30af839b19d5de957d4170b25f02d6628a9",
+  "by": "opus",
+  "at": "2026-10-07T22:47:09.144Z",
+  "applied": [
+    "quote at 162s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05645700000000001
+  }
+}

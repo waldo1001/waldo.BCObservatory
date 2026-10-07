@@ -1,16 +1,16 @@
 {
   "video_id": "xB9kszf93hE",
   "item_id": "video/yt-microsoft/xB9kszf93hE",
-  "summary": "Part 1 of an agent testing series on why AI evaluations matter in Business Central. It covers how AI testing differs from deterministic testing, and introduces programmatic data-driven tests defined in YAML, LLM-as-judge evaluation, and agent benchmarking.",
+  "summary": "Part 1 of an agent testing session on why evaluations matter for AI features in Business Central. It explains how non-deterministic AI behavior differs from traditional pass-fail testing, then outlines evaluation types: human evaluation, programmatic data-driven tests in AL using YAML (the main focus of the session), LLM-as-judge scoring, and a brief mention of agent benchmarking.",
   "overview": "This five-minute introduction explains why evaluations matter when building AI features and agents. The speaker argues that the quality of the evaluations matters more than the quality of the prompt or instructions. Traditional tests assume deterministic behavior, while AI has non-deterministic behavior, varying inputs, and subjective quality, so metrics matter more than a simple pass or fail.\n\nThe video then outlines the types of evaluations. Programmatic evaluation builds tests in a deterministic way, with variation in the input, using data-driven test cases defined in YAML. LLM-based evaluation has a language model judge whether an output, such as an email or a product description, reflects what was asked. Benchmarking agents across setups, with metrics like latency, cost and error rates, is mentioned only briefly and is left for later content.",
   "key_points": [
     "The speaker's central claim: the important part is not how good the prompt or instructions are, but how good the evaluations are.",
-    "AI differs from traditional testing because behavior is non-deterministic, inputs vary, results are not repeatable, and quality is subjective.",
-    "For AI features, metrics matter more than a simple pass-fail result.",
-    "Programmatic evaluation: write the tests in a deterministic way, with variation in input, using data-driven test cases defined in YAML.",
-    "LLM-based evaluation: use a language model to check whether the answer reflects what was asked, for example for generated emails, product descriptions or project descriptions.",
-    "Benchmarking multiple agents and observing latency, cost and error rates is introduced only briefly and is left for later content.",
-    "This is part 1 of a series; the speaker says the main focus is on the second part."
+    "Traditional testing checks deterministic behavior with exact assertions that are repeatable and either pass or fail.",
+    "AI is different: behavior is non-deterministic, inputs and outputs vary, results are not repeatable, and quality is subjective, so metrics matter more than pass-fail.",
+    "Evaluations should also measure quality and safety, for example how the feature behaves when someone tries to fool it.",
+    "Human evaluation is possible but hard to scale.",
+    "Programmatic evaluation: write the tests in a deterministic way in AL, with varied inputs and biases, using data-driven test cases defined in YAML. This is the main focus of the session.",
+    "LLM-based evaluation: use a language model (for example Foundry functionality) to score whether generated text such as emails, product descriptions or project descriptions reflects what was asked."
   ],
   "audience": [
     "developer",

@@ -2,7 +2,7 @@
 id: video/pjML7lXSsd0
 type: video
 title: "Introducing: Expense Management (2026 release wave 1)"
-summary: "Expense Management in Business Central (2026 release wave 1): expense reports, per diem, mileage, rules, payment methods, posting groups and refundable vs reimbursable logic, with and without the expense agent. Shows setup and a demo of creating expenses, building a report and posting. Feature status is not stated."
+summary: "Expense Management in Business Central (2026 release wave 1): expense reports, per diem, mileage, rules, payment methods, posting groups and refundable vs reimbursable logic, with and without the expense agent. Shows setup and a demo of creating expenses, building a report and posting. Credit card provider integration is announced but not yet in public preview; no other release status is stated."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - payment methods
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:09.176Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:09.221Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -53,6 +53,13 @@ evidence:
     commit: null
     t: 57
     quote: Our recommendation, use expense management as a expense agent. So, use with the agent. And every agent will provide much much more functionalities and
+  - kind: video
+    url: https://www.youtube.com/watch?v=pjML7lXSsd0&t=125s
+    title: "Introducing: Expense Management (2026 release wave 1)"
+    date: "2026-04-27T14:39:13.000Z"
+    commit: null
+    t: 125
+    quote: So, in a case of expense management without agent, you will not have expenses. You can start to collect expenses directly creating expense report.
   - kind: video
     url: https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s
     title: "Introducing: Expense Management (2026 release wave 1)"
@@ -123,13 +130,6 @@ evidence:
     commit: null
     t: 1610
     quote: this is something you can work only if you are using agent and you want to open expenses from Business Central
-  - kind: video
-    url: https://www.youtube.com/watch?v=pjML7lXSsd0&t=1677s
-    title: "Introducing: Expense Management (2026 release wave 1)"
-    date: "2026-04-27T14:39:13.000Z"
-    commit: null
-    t: 1677
-    quote: you will be reimbursed only for amount you didn't
   - kind: video
     url: https://www.youtube.com/watch?v=pjML7lXSsd0&t=1694s
     title: "Introducing: Expense Management (2026 release wave 1)"
@@ -256,11 +256,6 @@ features:
     t: 776
     verified: false
     status_source: video
-  - name: Per diem calculation modes
-    status: unclear
-    t: 804
-    verified: false
-    status_source: video
   - name: Minimum hours for per diem
     status: unclear
     t: 865
@@ -281,11 +276,6 @@ features:
     t: 953
     verified: false
     status_source: video
-  - name: Expense categories
-    status: unclear
-    t: 977
-    verified: false
-    status_source: video
   - name: Expense participants
     status: unclear
     t: 1013
@@ -294,11 +284,6 @@ features:
   - name: Attachment enforcement
     status: unclear
     t: 1042
-    verified: false
-    status_source: video
-  - name: Payment method configuration
-    status: unclear
-    t: 1054
     verified: false
     status_source: video
   - name: Expense groups
@@ -319,11 +304,6 @@ features:
   - name: Expense management rules
     status: unclear
     t: 1227
-    verified: false
-    status_source: video
-  - name: Expense agent integration
-    status: unclear
-    t: 1278
     verified: false
     status_source: video
   - name: Expense refundability toggle
@@ -356,19 +336,9 @@ features:
     t: 1558
     verified: false
     status_source: video
-  - name: Per diem calculation
-    status: unclear
-    t: 1570
-    verified: false
-    status_source: video
   - name: Expense category-based requirements
     status: unclear
     t: 1570
-    verified: false
-    status_source: video
-  - name: Get expense lines
-    status: unclear
-    t: 1639
     verified: false
     status_source: video
   - name: Expense report generation
@@ -389,11 +359,6 @@ features:
   - name: Expense ledger entries
     status: unclear
     t: 1718
-    verified: false
-    status_source: video
-  - name: Multi-currency expense entry
-    status: unclear
-    t: 1764
     verified: false
     status_source: video
   - name: Itemization requirement validation
@@ -422,6 +387,9 @@ quotes:
     check: exact
   - t: 57
     text: Our recommendation, use expense management as a expense agent. So, use with the agent. And every agent will provide much much more functionalities and
+    check: exact
+  - t: 125
+    text: So, in a case of expense management without agent, you will not have expenses. You can start to collect expenses directly creating expense report.
     check: exact
   - t: 221
     text: Currently, this is not in public preview but we will have connection with the credit card provider. So, you can collect information from from
@@ -453,9 +421,6 @@ quotes:
   - t: 1610
     text: this is something you can work only if you are using agent and you want to open expenses from Business Central
     check: exact
-  - t: 1677
-    text: you will be reimbursed only for amount you didn't
-    check: fuzzy
   - t: 1694
     text: you have this rule violations. So, you cannot post because of rule violations
     check: exact
@@ -469,9 +434,9 @@ quotes:
 
 # Introducing: Expense Management (2026 release wave 1)
 
-> Expense Management in Business Central (2026 release wave 1): expense reports, per diem, mileage, rules, payment methods, posting groups and refundable vs reimbursable logic, with and without the expense agent. Shows setup and a demo of creating expenses, building a report and posting. Feature status is not stated.
+> Expense Management in Business Central (2026 release wave 1): expense reports, per diem, mileage, rules, payment methods, posting groups and refundable vs reimbursable logic, with and without the expense agent. Shows setup and a demo of creating expenses, building a report and posting. Credit card provider integration is announced but not yet in public preview; no other release status is stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=pjML7lXSsd0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 33:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=pjML7lXSsd0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-27 · 33:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -506,50 +471,43 @@ The demo covers the non-agent path: setup of expense users, categories, subcateg
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Expense agent with AI-driven categorization | status not stated | [0:44](https://www.youtube.com/watch?v=pjML7lXSsd0&t=44s) |  |
-| Expense collection and itemization | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=98s) |  |
-| Expense approval workflow | preview (roadmap [573255](../features/573255.md)), demoed | [3:54](https://www.youtube.com/watch?v=pjML7lXSsd0&t=234s) |  |
-| Credit card provider integration | status not stated | [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) |  |
-| Expense management rules | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=pjML7lXSsd0&t=304s) |  |
-| Per diem configuration by location | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=341s) |  |
-| Expense payment methods | status not stated, demoed | [7:59](https://www.youtube.com/watch?v=pjML7lXSsd0&t=479s) |  |
-| Expense categories with itemization controls | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=pjML7lXSsd0&t=510s) |  |
-| Expense posting groups | status not stated, demoed | [8:58](https://www.youtube.com/watch?v=pjML7lXSsd0&t=538s) |  |
-| Refundable vs reimbursable expense distinction | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=pjML7lXSsd0&t=568s) |  |
-| Mileage reimbursement with standard rate | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=pjML7lXSsd0&t=776s) |  |
-| Per diem calculation modes | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=pjML7lXSsd0&t=804s) |  |
-| Minimum hours for per diem | status not stated, demoed | [14:25](https://www.youtube.com/watch?v=pjML7lXSsd0&t=865s) |  |
-| Partial per diem rules | status not stated, demoed | [14:14](https://www.youtube.com/watch?v=pjML7lXSsd0&t=854s) |  |
-| Per diem reductions | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=pjML7lXSsd0&t=925s) |  |
-| Expense users setup | status not stated | [15:53](https://www.youtube.com/watch?v=pjML7lXSsd0&t=953s) |  |
-| Expense categories | status not stated, demoed | [16:17](https://www.youtube.com/watch?v=pjML7lXSsd0&t=977s) |  |
-| Expense participants | status not stated, demoed | [16:53](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1013s) |  |
-| Attachment enforcement | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1042s) |  |
-| Payment method configuration | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1054s) |  |
-| Expense groups | status not stated | [17:59](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1079s) |  |
-| Expense subcategories | status not stated, demoed | [18:21](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1101s) |  |
-| Expense locations | status not stated, demoed | [19:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1190s) |  |
-| Expense management rules | status not stated, demoed | [20:27](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1227s) |  |
-| Expense agent integration | status not stated | [21:18](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1278s) |  |
-| Expense refundability toggle | status not stated, demoed | [22:45](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1365s) |  |
-| Project expense linking | status not stated, demoed | [23:21](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1401s) |  |
-| Customer billing of expenses | status not stated, demoed | [23:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1421s) |  |
-| Automatic mileage calculation | status not stated, demoed | [24:18](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1458s) |  |
-| Multi-currency expense conversion | status not stated, demoed | [25:34](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1534s) |  |
-| Per diem interactive details | status not stated, demoed | [25:58](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1558s) |  |
-| Per diem calculation | status not stated, demoed | [26:10](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1570s) |  |
-| Expense category-based requirements | status not stated, demoed | [26:10](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1570s) |  |
-| Get expense lines | status not stated, demoed | [27:19](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1639s) |  |
-| Expense report generation | status not stated, demoed | [26:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1610s) |  |
-| Credit card payment tracking | status not stated, demoed | [27:45](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1665s) |  |
-| Rule violations detection | status not stated, demoed | [28:14](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1694s) |  |
-| Expense ledger entries | status not stated, demoed | [28:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1718s) |  |
-| Multi-currency expense entry | status not stated, demoed | [29:24](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1764s) |  |
-| Itemization requirement validation | status not stated, demoed | [30:06](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1806s) |  |
-| Dynamic participant field generation | status not stated, demoed | [31:03](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1863s) |  |
-| Manual vs agent expense report workflows | status not stated, demoed | [31:37](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1897s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Expense agent with AI-driven categorization | status not stated | [0:44](https://www.youtube.com/watch?v=pjML7lXSsd0&t=44s) |
+| Expense collection and itemization | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=98s) |
+| Expense approval workflow | preview (roadmap [573255](../features/573255.md)), demoed | [3:54](https://www.youtube.com/watch?v=pjML7lXSsd0&t=234s) |
+| Credit card provider integration | status not stated | [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) |
+| Expense management rules | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=pjML7lXSsd0&t=304s) |
+| Per diem configuration by location | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=341s) |
+| Expense payment methods | status not stated, demoed | [7:59](https://www.youtube.com/watch?v=pjML7lXSsd0&t=479s) |
+| Expense categories with itemization controls | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=pjML7lXSsd0&t=510s) |
+| Expense posting groups | status not stated, demoed | [8:58](https://www.youtube.com/watch?v=pjML7lXSsd0&t=538s) |
+| Refundable vs reimbursable expense distinction | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=pjML7lXSsd0&t=568s) |
+| Mileage reimbursement with standard rate | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=pjML7lXSsd0&t=776s) |
+| Minimum hours for per diem | status not stated, demoed | [14:25](https://www.youtube.com/watch?v=pjML7lXSsd0&t=865s) |
+| Partial per diem rules | status not stated, demoed | [14:14](https://www.youtube.com/watch?v=pjML7lXSsd0&t=854s) |
+| Per diem reductions | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=pjML7lXSsd0&t=925s) |
+| Expense users setup | status not stated | [15:53](https://www.youtube.com/watch?v=pjML7lXSsd0&t=953s) |
+| Expense participants | status not stated, demoed | [16:53](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1013s) |
+| Attachment enforcement | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1042s) |
+| Expense groups | status not stated | [17:59](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1079s) |
+| Expense subcategories | status not stated, demoed | [18:21](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1101s) |
+| Expense locations | status not stated, demoed | [19:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1190s) |
+| Expense management rules | status not stated, demoed | [20:27](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1227s) |
+| Expense refundability toggle | status not stated, demoed | [22:45](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1365s) |
+| Project expense linking | status not stated, demoed | [23:21](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1401s) |
+| Customer billing of expenses | status not stated, demoed | [23:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1421s) |
+| Automatic mileage calculation | status not stated, demoed | [24:18](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1458s) |
+| Multi-currency expense conversion | status not stated, demoed | [25:34](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1534s) |
+| Per diem interactive details | status not stated, demoed | [25:58](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1558s) |
+| Expense category-based requirements | status not stated, demoed | [26:10](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1570s) |
+| Expense report generation | status not stated, demoed | [26:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1610s) |
+| Credit card payment tracking | status not stated, demoed | [27:45](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1665s) |
+| Rule violations detection | status not stated, demoed | [28:14](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1694s) |
+| Expense ledger entries | status not stated, demoed | [28:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1718s) |
+| Itemization requirement validation | status not stated, demoed | [30:06](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1806s) |
+| Dynamic participant field generation | status not stated, demoed | [31:03](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1863s) |
+| Manual vs agent expense report workflows | status not stated, demoed | [31:37](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1897s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -564,6 +522,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:19](https://www.youtube.com/watch?v=pjML7lXSsd0&t=19s) "expense management and why did we start with expense management? This is long time functional gap in a Business Central."
 - [0:44](https://www.youtube.com/watch?v=pjML7lXSsd0&t=44s) "We decided to build new functionality but created as a AI-driven. So, we didn't just wanted to create new new feature. We wanted to"
 - [0:57](https://www.youtube.com/watch?v=pjML7lXSsd0&t=57s) "Our recommendation, use expense management as a expense agent. So, use with the agent. And every agent will provide much much more functionalities and"
+- [2:05](https://www.youtube.com/watch?v=pjML7lXSsd0&t=125s) "So, in a case of expense management without agent, you will not have expenses. You can start to collect expenses directly creating expense report."
 - [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) "Currently, this is not in public preview but we will have connection with the credit card provider. So, you can collect information from from"
 - [13:11](https://www.youtube.com/watch?v=pjML7lXSsd0&t=791s) "you have standard rate of mileage this is if when you are using your private"
 - [13:24](https://www.youtube.com/watch?v=pjML7lXSsd0&t=804s) "per diem calculations so you have none because in some countries you do not calculate per diem"
@@ -574,7 +533,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [26:10](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1570s) "if this is for example hotel, it will require itemization. If this is entertainment event, it will require participant"
 - [26:22](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1582s) "So, now you can see based on this starting date and time system calculated for each of day full per diem"
 - [26:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1610s) "this is something you can work only if you are using agent and you want to open expenses from Business Central"
-- [27:57](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1677s) "you will be reimbursed only for amount you didn't"
 - [28:14](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1694s) "you have this rule violations. So, you cannot post because of rule violations"
 - [30:17](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1817s) "itemization must uh total zero must be equal to to uh completely expense amount"
 - [31:50](https://www.youtube.com/watch?v=pjML7lXSsd0&t=1910s) "but when you start with expense report and add uh lines there directly this is only one"

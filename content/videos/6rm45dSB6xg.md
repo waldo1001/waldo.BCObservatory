@@ -2,7 +2,7 @@
 id: video/6rm45dSB6xg
 type: video
 title: "Expense Agent: Feedback (2026 release wave 1)"
-summary: "Expense Agent feedback options in Business Central (2026 release wave 1): in-product positive feedback, suggestions and issue reports, contextual feedback on individual expenses, screenshots with manual redaction, support information, and optional contact details."
+summary: "Expense Agent feedback options in Business Central (2026 release wave 1): in-product positive feedback, suggestions and issue reports, contextual feedback on specific expenses, screenshots where personal information can be hidden and key details highlighted, support information from the help pane, and optional contact details."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - issue reporting
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:47:04.328Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:47:04.364Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,9 +145,9 @@ quotes:
 
 # Expense Agent: Feedback (2026 release wave 1)
 
-> Expense Agent feedback options in Business Central (2026 release wave 1): in-product positive feedback, suggestions and issue reports, contextual feedback on individual expenses, screenshots with manual redaction, support information, and optional contact details.
+> Expense Agent feedback options in Business Central (2026 release wave 1): in-product positive feedback, suggestions and issue reports, contextual feedback on specific expenses, screenshots where personal information can be hidden and key details highlighted, support information from the help pane, and optional contact details.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6rm45dSB6xg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 2:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6rm45dSB6xg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 2:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -158,10 +158,11 @@ The video shows contextual feedback on an expense the user ran into, saying what
 ## Key points
 
 - Feedback on the Expense Agent can be positive, a suggestion, or an issue report, and is given directly in the product.
-- Feedback can be given from several places, such as the header and from within expenses; support information is provided with feedback from any of these channels.
+- Users who report issues to partners can get the support information they need from the help pane to share with them.
+- Feedback can be given from several places, such as the header and from within expenses; the same support information is provided to Microsoft with feedback from any of these places so it can follow up.
 - Contextual feedback lets a user say what worked well or did not work for a specific expense they ran into.
-- Screenshots can be captured and annotated to highlight important details; users manually hide personal information before sending.
-- Contact information is optional; feedback is tracked whether or not the user provides it.
+- Screenshots can be captured and saved with the feedback; personal information in them can be hidden and important information highlighted, and users can type extra comments.
+- Contact information is optional; Microsoft still follows up on all feedback whether or not the user asks to be contacted.
 - Users decide how much information to include with their feedback.
 
 ## Chapters
@@ -176,13 +177,13 @@ The video shows contextual feedback on an expense the user ran into, saying what
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| In-product feedback mechanism | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=6rm45dSB6xg&t=13s) |  |
-| Contextual expense feedback | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=6rm45dSB6xg&t=53s) |  |
-| Screenshot capture with redaction | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6rm45dSB6xg&t=78s) |  |
-| Support information collection | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=6rm45dSB6xg&t=34s) |  |
-| Optional contact information | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=6rm45dSB6xg&t=109s) |  |
+| Feature | Status | At |
+|---|---|---|
+| In-product feedback mechanism | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=6rm45dSB6xg&t=13s) |
+| Contextual expense feedback | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=6rm45dSB6xg&t=53s) |
+| Screenshot capture with redaction | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6rm45dSB6xg&t=78s) |
+| Support information collection | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=6rm45dSB6xg&t=34s) |
+| Optional contact information | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=6rm45dSB6xg&t=109s) |
 
 ## Quotes
 

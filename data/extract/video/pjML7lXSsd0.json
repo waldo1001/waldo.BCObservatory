@@ -315,26 +315,6 @@
       "system": "finance"
     },
     {
-      "name": "Per diem calculation modes",
-      "description": "Multiple per diem calculation options including none, full calendar day, overnight stay, and 24-hour rolling period to handle different country and authority rules.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 804.9,
-      "t_end": 854.6,
-      "is_demoed": true,
-      "caveats": [
-        "Rules vary by country and authority"
-      ],
-      "tags": [
-        "per-diem",
-        "calculation",
-        "configuration"
-      ],
-      "system": "finance"
-    },
-    {
       "name": "Minimum hours for per diem",
       "description": "Configurable minimum hours threshold for full per diem eligibility; employees spending less than the minimum are not reimbursed.",
       "status": "unclear",
@@ -415,26 +395,6 @@
       "system": "hr"
     },
     {
-      "name": "Expense categories",
-      "description": "Predefined expense categories such as airline tickets, cars, courier, entertainment, hotels with configurable properties including itemization requirements.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 977.8,
-      "t_end": 1002.4,
-      "is_demoed": true,
-      "caveats": [
-        "Some categories require itemization"
-      ],
-      "tags": [
-        "categories",
-        "setup",
-        "itemization"
-      ],
-      "system": "finance"
-    },
-    {
       "name": "Expense participants",
       "description": "For business meals and entertainment, employees must provide a list of participant names; participants can be internal employees or external attendees.",
       "status": "unclear",
@@ -467,23 +427,6 @@
         "attachments",
         "enforcement",
         "compliance"
-      ],
-      "system": "finance"
-    },
-    {
-      "name": "Payment method configuration",
-      "description": "Default payment methods for expenses can be set to company reimbursement, credit card, or employee payment.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1054.7,
-      "t_end": 1079.6,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "payment-methods",
-        "configuration"
       ],
       "system": "finance"
     },
@@ -564,27 +507,6 @@
         "limits"
       ],
       "system": "finance"
-    },
-    {
-      "name": "Expense agent integration",
-      "description": "Expense management requires the expense agent; expenses cannot be used outside the agent, but can be modified in Business Central with Team Member license.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1278.6,
-      "t_end": 1306.5,
-      "is_demoed": false,
-      "caveats": [
-        "Requires Team Member license to modify in BC",
-        "Agent must be activated"
-      ],
-      "tags": [
-        "agent",
-        "integration",
-        "licensing"
-      ],
-      "system": "copilot"
     },
     {
       "name": "Expense refundability toggle",
@@ -695,24 +617,6 @@
       "system": "finance"
     },
     {
-      "name": "Per diem calculation",
-      "description": "System automatically calculates full per diem based on starting date and time, with ability to reduce amounts when employee adds meals or other expenses for specific days.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1570.7,
-      "t_end": 1610.1,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "per diem",
-        "expense calculation",
-        "dates"
-      ],
-      "system": "finance"
-    },
-    {
       "name": "Expense category-based requirements",
       "description": "Expense categories can be configured to require specific information such as itemization for hotels, participant details for entertainment events, and additional per diem information.",
       "status": "unclear",
@@ -727,24 +631,6 @@
         "expense categories",
         "setup",
         "validation"
-      ],
-      "system": "finance"
-    },
-    {
-      "name": "Get expense lines",
-      "description": "Similar to get receipt lines in purchase process, users can mark multiple expenses and transfer them into expense report with automatic recalculation.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1639.4,
-      "t_end": 1651.5,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "expense lines",
-        "bulk import",
-        "process"
       ],
       "system": "finance"
     },
@@ -821,24 +707,6 @@
         "ledger",
         "entries",
         "accounting"
-      ],
-      "system": "finance"
-    },
-    {
-      "name": "Multi-currency expense entry",
-      "description": "Users can enter expenses in different currencies, with system automatically converting to local currency using exchange rates.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1764.1,
-      "t_end": 1806.1,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "currency",
-        "conversion",
-        "exchange rates"
       ],
       "system": "finance"
     },
@@ -932,6 +800,12 @@
       "check": "exact"
     },
     {
+      "t": 125.2,
+      "text": "So, in a case of expense management without agent, you will not have expenses. You can start to collect expenses directly creating expense report.",
+      "why_it_matters": "States the core functional difference between the agent and non-agent scenarios.",
+      "check": "exact"
+    },
+    {
       "t": 221.3,
       "text": "Currently, this is not in public preview but we will have connection with the credit card provider. So, you can collect information from from",
       "why_it_matters": "Future capability: credit card integration is planned but not yet available, indicating product roadmap direction.",
@@ -990,12 +864,6 @@
       "text": "this is something you can work only if you are using agent and you want to open expenses from Business Central",
       "why_it_matters": "Clarifies that automatic expense-to-report conversion is agent-dependent, not available in standard workflows.",
       "check": "exact"
-    },
-    {
-      "t": 1677.6,
-      "text": "you will be reimbursed only for amount you didn't",
-      "why_it_matters": "Explains the reimbursement calculation logic: amounts paid by company card are subtracted from what employee receives.",
-      "check": "fuzzy"
     },
     {
       "t": 1694.5,

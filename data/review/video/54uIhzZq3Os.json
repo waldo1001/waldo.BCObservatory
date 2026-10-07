@@ -1,0 +1,25 @@
+{
+  "video_id": "54uIhzZq3Os",
+  "item_id": "video/yt-microsoft/54uIhzZq3Os",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim; some run across segment boundaries, which is acceptable.",
+    "No release status is stated in the transcript, so leaving every feature as 'unclear' is correct. The '2026 release wave 1' label comes only from the title.",
+    "One key point said 'only an accountant' can add or move dimensions. The transcript says Lena cannot specify dimensions herself and that the accountant can add or move them, so I removed 'only'.",
+    "The key points said 'G/L account', but the transcript only says 'which account in our system'. I reworded this to match."
+  ],
+  "input_hash": "0cdbe7e993800eeb51a71934de623e373c02aa769375fad8ea37df2412432196",
+  "by": "opus",
+  "at": "2026-10-07T22:47:04.796Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.050357
+  }
+}

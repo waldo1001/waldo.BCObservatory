@@ -1,0 +1,25 @@
+{
+  "video_id": "uh5S1i7uDlo",
+  "item_id": "video/yt-microsoft/uh5S1i7uDlo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim and the summary is supported.",
+    "Feature statuses are correctly left as unclear: the transcript says both 'soon a thing of the past' and 'Start transforming ... today', and points to the Microsoft website for availability.",
+    "The last key point mentioned only the 'soon' wording. It now also covers the 'today' call to action and the availability pointer.",
+    "The key point saying every invoice needs manual review now follows the transcript's wording more closely."
+  ],
+  "input_hash": "2316c8a1d18738205fc5d553f607d1901f87b9fb3244497d42d0be2b5d3d366c",
+  "by": "opus",
+  "at": "2026-10-07T22:48:19.491Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039809
+  }
+}

@@ -117,24 +117,6 @@
         "query object type"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Power BI apps foundation with API queries",
-      "description": "Power BI apps for most functional areas in Business Central are built on API queries. These APIs are now available for external agents to enable aggregations and analytics in agent development.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 21.8,
-      "t_end": 59.7,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "power bi",
-        "analytics",
-        "api queries"
-      ],
-      "system": "reporting"
     }
   ],
   "objects": [
@@ -156,6 +138,12 @@
       "t": 36.7,
       "text": "We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh",
       "why_it_matters": "Explains the strategic foundation of Power BI apps and positions API queries as core infrastructure now available to developers.",
+      "check": "exact"
+    },
+    {
+      "t": 47.9,
+      "text": "Those API queries are now also available for your external agents. So, if you want to include things like aggregations or analytics,",
+      "why_it_matters": "States the main benefit: external agents can now use the analytics API queries.",
       "check": "exact"
     },
     {

@@ -1,0 +1,27 @@
+{
+  "video_id": "vyQnSxRGJDA",
+  "item_id": "video/yt-microsoft/vyQnSxRGJDA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes check out as verbatim (the 237.1 quote runs on into the 251.9 segment, which is allowed).",
+    "The last key point says location detection depends on the itinerary data provided. The transcript doesn't say this; it says the location (UK other) comes from what was set up in Business Central. Rewrote that key point.",
+    "Added the demo meal reduction setting (15%, deducted from the total per diem allowance per trip) to the admin key point.",
+    "The transcript never says preview or GA. The only release reference is the video title, so all feature statuses stay unclear.",
+    "The features and chapters are otherwise supported by the transcript."
+  ],
+  "input_hash": "7451651b7c4172d22d620d11a50d4df6467502ef64ff7fe2b13c6a4a6b79c1a5",
+  "by": "opus",
+  "at": "2026-10-07T22:47:02.766Z",
+  "applied": [
+    "quote at 306s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.072609
+  }
+}
