@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/03/07/%f0%9f%a7%a0-agent-skills-mcps-check-your-bc-extension-health-in-vs-code-%f0%9f%94%8d/",
   "published_at": "2026-03-07T19:06:06.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:26:42.963Z",
+      "path": "vault:posts/gerardorenteria-blog/13993.md",
+      "words": 1410
+    },
+    "extracted": {
+      "at": "2026-10-07T00:26:42.980Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:26:42.981Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:26:42.982Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:26:42.986Z",
+      "path": "content/posts/gerardorenteria-blog/13993.md"
     }
   },
   "input_hash": "2026-03-07T19:06:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f8c5cedc7555b2ac5753d5943309e7dfd41d5137204d57c9bc609fdbe9b3d6e"
 }

@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/define-item-attributes-for-item-variants.html",
+  "title": "Define Item Attributes for Item Variants",
+  "source": "mohana-blog",
+  "published_at": "2026-03-08T06:13:00.000Z",
+  "words": 584,
+  "summary": "Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level, allowing each variant to have distinct attribute values instead of inheriting the same values from the parent item. This solves the problem of keeping variant data accurate without creating separate items for each variation.",
+  "key_points": [
+    "Variants can now have their own attribute values while inheriting from the parent item",
+    "Inherited attribute values can be adjusted or removed per variant from the new Item Variant Attribute Values page",
+    "The Update Variant Attributes action on the Item Card syncs attributes from the item to all its variants",
+    "If the parent item has no attributes defined, variants inherit nothing"
+  ],
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item variants",
+    "item attributes",
+    "attribute inheritance",
+    "product management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Variant Attribute Values"
+    },
+    {
+      "type": "page",
+      "name": "Item Variants List"
+    },
+    {
+      "type": "page",
+      "name": "Item Variant Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Assign attribute values to item variants",
+    "Attribute inheritance from parent item",
+    "Adjust inherited attribute values",
+    "Remove inherited attribute values",
+    "Update Variant Attributes action",
+    "Sync attributes from item to variants"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now define item attributes at the item variant level.",
+      "why_it_matters": "This is the core new capability that solves the problem of inaccurate variant attribute data in Business Central."
+    },
+    {
+      "text": "Variants still inherit attributes from the parent item, but you can now adjust or remove those inherited values when a variant needs different information.",
+      "why_it_matters": "This explains how the feature maintains efficiency while providing the flexibility needed for real-world variant scenarios."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

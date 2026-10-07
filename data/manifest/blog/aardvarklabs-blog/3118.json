@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/03/06/leveraging-recordref-and-fieldref-for-dynamic-coding/",
   "published_at": "2026-03-06T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:26:43.817Z",
+      "path": "vault:posts/aardvarklabs-blog/3118.md",
+      "words": 1499
+    },
+    "extracted": {
+      "at": "2026-10-07T00:26:43.827Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:26:43.828Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:26:43.829Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:26:43.833Z",
+      "path": "content/posts/aardvarklabs-blog/3118.md"
     }
   },
   "input_hash": "2026-04-07T00:47:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "add1331c1b2ad1da923d6407c40758f244b6c1474c95b686dd6b29c2cc6e6467"
 }

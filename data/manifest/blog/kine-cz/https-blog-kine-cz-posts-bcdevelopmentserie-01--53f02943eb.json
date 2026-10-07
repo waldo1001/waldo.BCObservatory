@@ -7,13 +7,39 @@
   "url": "https://blog.kine.cz/posts/bcdevelopmentserie-01/",
   "published_at": "2026-03-03T23:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:26:44.059Z",
+      "path": "vault:posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-01--53f02943eb.md",
+      "words": 951
+    },
+    "extracted": {
+      "at": "2026-10-07T00:26:44.067Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:26:44.068Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:26:44.069Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:26:44.075Z",
+      "path": "content/posts/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-01--53f02943eb.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c47d9667287a3f7243498bee39ff95560e53fd826d9fa0dec4a10b4ab4ec24fc"
 }

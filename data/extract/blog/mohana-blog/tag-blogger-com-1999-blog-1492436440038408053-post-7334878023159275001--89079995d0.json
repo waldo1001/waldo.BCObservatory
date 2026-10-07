@@ -1,0 +1,85 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/create-purchase-orders-from-drop.html",
+  "title": "Create Purchase Orders from Drop Shipments",
+  "source": "mohana-blog",
+  "published_at": "2026-03-09T06:30:00.000Z",
+  "words": 443,
+  "summary": "Business Central 2026 Release Wave 1 (BC28) streamlines drop shipment workflows by adding a Create Purchase Orders action on sales orders, including drop shipment lines in order planning calculations, and introducing dedicated drop shipment actions in the Planning Worksheet page.",
+  "key_points": [
+    "Create Purchase Orders action on sales orders eliminates the need to manually navigate to purchase orders and use Get Sales Orders",
+    "Drop shipment lines are now visible and included in order planning calculations, providing a complete demand picture",
+    "Planning Worksheet gains a dedicated Drop Shipment action group with Get Sales Orders and Sales Orders actions for consistency",
+    "Vendor determination uses Item Card or Stockkeeping Unit Card configuration, with ability to override before confirming"
+  ],
+  "systems": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "drop shipments",
+    "purchase orders",
+    "sales orders",
+    "order planning",
+    "planning worksheet",
+    "vendor management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "table",
+      "name": "Item Card"
+    },
+    {
+      "type": "table",
+      "name": "Stockkeeping Unit Card"
+    }
+  ],
+  "features": [
+    "Create Purchase Orders action",
+    "Drop Shipment order planning",
+    "Drop Shipment action group",
+    "Vendor determination",
+    "Get Sales Orders",
+    "Calculate Plan"
+  ],
+  "versions": [
+    "BC28",
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now create purchase orders directly from the sales order itself using the Create Purchase Orders action.",
+      "why_it_matters": "This is the core improvement that eliminates manual workflow steps and makes drop shipment processing more direct."
+    },
+    {
+      "text": "Drop shipment lines are now included in the Order Planning page when you calculate plans.",
+      "why_it_matters": "Previously invisible to planning, drop shipments now contribute to accurate demand forecasting and planning visibility."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

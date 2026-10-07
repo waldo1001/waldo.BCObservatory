@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13993",
+  "url": "https://gerardorenteria.blog/2026/03/07/%f0%9f%a7%a0-agent-skills-mcps-check-your-bc-extension-health-in-vs-code-%f0%9f%94%8d/",
+  "title": "🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-03-07T19:06:06.000Z",
+  "words": 1410,
+  "summary": "Agent Skills are reusable instruction packages in VS Code that orchestrate external tools like YAMPI and BC Telemetry Buddy to analyze Business Central extension health across environments. A three-level loading model activates only relevant skills without penalizing context, enabling developers to check extension status, versions, deployments, and lifecycle events in production through a single chat message.",
+  "key_points": [
+    "Agent Skills are folders in .github/skills/ containing SKILL.md instructions and tool references that Copilot conditionally loads based on context relevance",
+    "The SKILL.md frontmatter description is critical for skill activation at Level 1, requiring clear use case documentation to ensure Copilot recognizes when the skill applies",
+    "Skills orchestrate external MCPs without executing their own code: YAMPI provides environment and installed app data while BC Telemetry Buddy analyzes 6 extension lifecycle events (installations, updates, failures) via KQL queries",
+    "A unified health report consolidates environment versions, available updates, and telemetry events from multiple parallel tool calls into two Markdown tables for extension diagnostics across all tenants"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "agent skills",
+    "mcps",
+    "extension health",
+    "vs code",
+    "copilot",
+    "telemetry",
+    "orchestration"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Skills",
+    "Model Control Protocol (MCP) orchestration",
+    "Extension lifecycle event analysis",
+    "Telemetry query integration",
+    "Multi-environment extension status",
+    "YAMPI integration",
+    "BC Telemetry Buddy integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The description is critical because it's what Copilot reads at Level 1 to decide if the skill is relevant.",
+      "why_it_matters": "Explains why proper skill documentation is essential for activation and why poorly described use cases will prevent skill loading"
+    },
+    {
+      "text": "You can have many skills installed without penalizing the context, so Copilot only loads what is relevant for each requirement.",
+      "why_it_matters": "Highlights the efficiency advantage of the three-level loading model for managing multiple skills in development environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

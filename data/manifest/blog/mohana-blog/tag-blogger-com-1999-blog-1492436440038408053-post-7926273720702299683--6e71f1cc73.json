@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/define-item-attributes-for-item-variants.html",
   "published_at": "2026-03-08T06:13:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:26:43.540Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md",
+      "words": 584
+    },
+    "extracted": {
+      "at": "2026-10-07T00:26:43.549Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:26:43.550Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:26:43.551Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:26:43.555Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md"
     }
   },
   "input_hash": "2026-03-08T06:13:24.901Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aab25381e7e31ee106d68153dd426ae17461ccb10fc766802fc34bbd69981f2a"
 }

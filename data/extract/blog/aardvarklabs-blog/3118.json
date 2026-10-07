@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3118",
+  "url": "https://aardvarklabs.blog/2026/03/06/leveraging-recordref-and-fieldref-for-dynamic-coding/",
+  "title": "Leveraging RecordRef and FieldRef for Dynamic Coding",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-03-06T13:00:00.000Z",
+  "words": 1499,
+  "summary": "This post explains how to use weakly typed RecordRef and FieldRef objects in Business Central AL for dynamic, flexible code when you don't know the record type at compile time. It contrasts weakly typed objects with strongly typed ones and demonstrates practical use cases like summing amounts across different table types and exporting any record set to Excel.",
+  "key_points": [
+    "Strongly typed objects provide compile-time validation, IntelliSense, safer refactoring, and better performance, while weakly typed objects offer flexibility for dynamic access to tables and fields",
+    "RecordRef and FieldRef are reference objects that provide the minimal common properties and procedures found in all strongly typed objects",
+    "RecordRef can be populated from a strongly typed record using GetTable(), and individual fields are accessed via FieldRef using either field ID or field index",
+    "Common use cases include logging, auditing, import frameworks, and generic code that works across multiple table structures without knowing the specific type"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "recordref",
+    "fieldref",
+    "weakly typed",
+    "dynamic coding",
+    "al language",
+    "generic code"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Excel Buffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_ToExcelByRef"
+    }
+  ],
+  "features": [
+    "RecordRef and FieldRef objects",
+    "Dynamic field access by ID and index",
+    "Record-to-reference conversion",
+    "Generic export to Excel",
+    "Late binding and runtime resolution",
+    "Weakly typed programming patterns"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With all these advancements, why would we want to use a Weakly Typed object? Fantastic question hypothetical reader! In a word, flexibility.",
+      "why_it_matters": "Identifies the core motivation for using weakly typed objects despite the strong benefits of strongly typed programming"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/create-purchase-quotes-for-contacts-in.html",
   "published_at": "2026-03-07T14:07:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:26:43.483Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md",
+      "words": 325
+    },
+    "extracted": {
+      "at": "2026-10-07T00:26:43.489Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:26:43.490Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:26:43.491Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:26:43.498Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md"
     }
   },
   "input_hash": "2026-03-07T14:07:13.578Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1dd984572ad3fc55bd2b741d672d66b7c243bc77629d02eaa4384fd0c8f25412"
 }

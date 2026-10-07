@@ -1,0 +1,108 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14079",
+  "url": "https://gerardorenteria.blog/2026/03/08/al-language-extension-for-microsoft-dynamics-365-business-central-versions/",
+  "title": "AL Language extension for Microsoft Dynamics 365 Business Central – versions",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-03-08T15:41:25.000Z",
+  "words": 4868,
+  "summary": "AL Language extension changelog documenting features added across versions 15.0 through 18.0, including implicit type conversions, HTTP mocking in tests, multiline strings, JSON accessors, AppSourceCop rules, namespace documentation, and improved IDE capabilities in Visual Studio Code.",
+  "key_points": [
+    "Support for implicit conversion between Record and RecordRef types simplifies type handling",
+    "HTTP client mocking via HttpClientHandler allows testing external service integrations without actual requests",
+    "Namespace support with documentation and ALDoc improvements enables better code organization and documentation",
+    "New JSON methods (GetBoolean, GetText, etc.) provide direct access to JSON properties without JsonToken intermediaries",
+    "Extended AppSourceCop and PerTenantExtensionCop rules validate field classification, breaking changes, and namespace uniqueness"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al language",
+    "vs code extension",
+    "compiler features",
+    "json handling",
+    "testing",
+    "code analysis",
+    "documentation",
+    "type system"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "RecordRef"
+    },
+    {
+      "type": "other",
+      "name": "Record"
+    },
+    {
+      "type": "other",
+      "name": "JsonObject"
+    },
+    {
+      "type": "other",
+      "name": "JsonArray"
+    },
+    {
+      "type": "other",
+      "name": "HttpClientHandler"
+    },
+    {
+      "type": "other",
+      "name": "TestHttpRequestMessage"
+    },
+    {
+      "type": "other",
+      "name": "TestHttpResponseMessage"
+    },
+    {
+      "type": "codeunit",
+      "name": "HttpClient"
+    }
+  ],
+  "features": [
+    "Implicit Record/RecordRef conversion",
+    "HTTP request mocking in tests",
+    "Multiline string literals",
+    "Continue statement in loops",
+    "JSON property accessors",
+    "Namespace documentation with ALDoc",
+    "Summary system part control",
+    "Go To Symbol in Workspace"
+  ],
+  "versions": [
+    "18.0",
+    "17.0",
+    "16.4",
+    "16.3",
+    "16.2",
+    "16.1",
+    "16.0",
+    "15.3"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We have introduced support for implicit conversion between Record and RecordRef instances, allowing direct assignment between these types.",
+      "why_it_matters": "Simplifies code by eliminating boilerplate conversion calls, improving developer productivity and code readability"
+    },
+    {
+      "text": "This feature allows for more controlled and easier testing of modules that interact with external services.",
+      "why_it_matters": "HTTP mocking enables isolated unit testing without dependency on external APIs, critical for reliable CI/CD pipelines"
+    },
+    {
+      "text": "AL now has support for multiline string literals. A multiline string must be prefixed with @.",
+      "why_it_matters": "Multiline strings enable developers to include formatted text and JSON payloads directly in code without escape sequences"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

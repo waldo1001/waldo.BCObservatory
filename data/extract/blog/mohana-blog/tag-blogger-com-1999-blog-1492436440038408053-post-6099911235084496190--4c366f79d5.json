@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/03/create-purchase-quotes-for-contacts-in.html",
+  "title": "Create Purchase Quotes for Contacts in Business Central",
+  "source": "mohana-blog",
+  "published_at": "2026-03-07T14:07:00.000Z",
+  "words": 325,
+  "summary": "Creating purchase quotes in Business Central now allows selecting contacts that aren't yet linked to vendors, eliminating the need to set up full vendor records upfront. The vendor record is automatically created only when the quote is released or converted to an order, reducing friction in the purchasing workflow.",
+  "key_points": [
+    "Purchase quotes can be created with contacts not yet associated to vendors, removing upfront vendor setup requirements",
+    "A vendor template is automatically selected based on territory, country/region, and contact type",
+    "Quote details and lines are entered normally without a vendor number",
+    "Vendor records are created automatically only when the quote is released or converted to an order"
+  ],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "purchase quotes",
+    "contacts",
+    "vendor management",
+    "purchasing workflow",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Purchase Quote"
+    },
+    {
+      "type": "other",
+      "name": "Contact"
+    },
+    {
+      "type": "other",
+      "name": "Vendor"
+    },
+    {
+      "type": "other",
+      "name": "Vendor Template"
+    }
+  ],
+  "features": [
+    "Create purchase quotes for contacts",
+    "Vendor-independent quote creation",
+    "Automatic vendor template selection",
+    "Automatic vendor record creation",
+    "Contact to vendor conversion"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now create a purchase quote and assign it to a contact that isn't linked to any vendor.",
+      "why_it_matters": "This is the core capability that addresses the main friction point in purchasing workflows by eliminating upfront vendor record requirements."
+    },
+    {
+      "text": "The vendor is created only when you actually need it.",
+      "why_it_matters": "This deferred vendor creation approach reduces wasted effort when exploring potential purchases that may not materialize."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/",
+  "title": "BC Friday Tips #66 API v2 app",
+  "source": "thatnavguy-com",
+  "published_at": "2026-03-06T00:00:00.000Z",
+  "words": 101,
+  "summary": "The Exclude_APIV2 app is a hidden Microsoft extension in Business Central that contains standard API V2 objects. Developers can explore this app via symbol files in VS Code to understand Microsoft's API design patterns and reference it when building or extending their own APIs.",
+  "key_points": [
+    "Business Central includes hidden Microsoft extensions like the Exclude_APIV2 app",
+    "The app contains standard API V2 objects that Microsoft uses internally",
+    "Developers can download symbol files to explore and study these API objects in VS Code",
+    "The app serves as a reference for designing and extending custom APIs"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "extensions",
+    "v2 objects",
+    "symbol files",
+    "vs code"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Exclude_APIV2"
+    }
+  ],
+  "features": [
+    "API V2 objects",
+    "Standard APIs",
+    "API design patterns",
+    "VS Code exploration",
+    "Symbol files"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This app contains the standard API V2 objects used by Business Central.",
+      "why_it_matters": "Identifies the purpose of the hidden extension and what developers can access through it"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
