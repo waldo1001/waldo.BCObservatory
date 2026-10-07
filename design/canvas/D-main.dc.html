@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D - Galaxy, honest: system level with a focused star</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#9DB8FF}a:hover{color:#C6D6FF}
+.mono{font-family:'JetBrains Mono',monospace}
+.lens{font-family:'JetBrains Mono',monospace;font-size:12px;color:#C9CFDB;background:#0D111A;border:1px solid #2A3550;border-radius:3px;padding:0 12px;height:32px;cursor:pointer}
+.lens.on{color:#FFD27A;border-color:#FFD27A;background:#2A2413}
+.exit{display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:0 12px;border:1px solid #2A3550;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600;color:#E6E9F0;background:#161C2A}
+.exit span{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:400;color:#8F98AB}
+.row{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid #1B2130;font-size:14px;text-decoration:none;color:#E6E9F0}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+.ns{font-family:'JetBrains Mono',monospace;font-size:10px;fill:#8F98AB}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="height: 56px; flex: none; display: flex; align-items: center; gap: 20px; padding: 0 24px; border-bottom: 1px solid #1B2130">
+<div style="font-size: 18px; font-weight: 700">BC Observatory</div>
+<div class="mono" style="font-size: 11px; color: #8F98AB">unofficial, made by waldo</div>
+<nav style="font-size: 14px; color: #8F98AB; display: flex; gap: 8px; margin-left: 12px"><a href="#">Galaxy</a><span>/</span><a href="#">Sales &amp; Receivables</a><span>/</span><span style="color: #E6E9F0">Table 18 "Customer"</span></nav>
+<label style="margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: #8F98AB">Search<input type="search" placeholder="Light up stars ..  Ctrl+K" style="width: 260px; height: 36px; box-sizing: border-box; background: #0D111A; border: 1px solid #2A3550; border-radius: 6px; color: #E6E9F0; padding: 0 12px; font: inherit"></label>
+</div>
+
+<div style="height: 48px; flex: none; display: flex; align-items: center; gap: 8px; padding: 0 24px; border-bottom: 1px solid #1B2130">
+<span class="mono" style="font-size: 11px; color: #8F98AB; margin-right: 4px">lenses</span>
+<button class="lens">type</button><button class="lens">tier</button><button class="lens on">changed in BC29 - 899</button><button class="lens">changed in BC30 - 253</button><button class="lens">country</button><button class="lens">source</button><button class="lens">this week</button>
+<button class="lens" style="margin-left: auto">list view</button>
+</div>
+
+<div style="flex: 1 1 0; display: flex; min-height: 0">
+<div style="flex: 1 1 0; position: relative; min-width: 0">
+<svg viewBox="0 0 1060 796" style="display: block; width: 1060px; height: 796px">
+<circle cx="420" cy="400" r="330" fill="rgba(150,170,255,0.05)"></circle>
+
+<path d="M420 400 L300 300 M300 300 L190 250 M300 300 L250 190 M420 400 L220 430 M220 430 L110 400 M220 430 L130 500 M420 400 L270 560 M270 560 L160 620 M270 560 L300 680 M420 400 L420 610 M420 610 L460 720" fill="none" stroke="#2A3550"></path>
+<text x="60" y="130" class="ns">position, left: the Learn table of contents (4 levels)</text>
+<text x="560" y="130" class="ns">position, right: the namespace tree</text>
+
+<rect x="560" y="160" width="250" height="190" rx="14" fill="none" stroke="#1B2130"></rect><text x="572" y="178" class="ns">Microsoft.Sales.Customer</text>
+<rect x="590" y="390" width="240" height="170" rx="14" fill="none" stroke="#1B2130"></rect><text x="602" y="408" class="ns">Microsoft.Sales.Document</text>
+<rect x="540" y="600" width="210" height="140" rx="14" fill="none" stroke="#1B2130"></rect><text x="552" y="618" class="ns">Microsoft.Sales.Posting</text>
+<rect x="790" y="590" width="220" height="150" rx="14" fill="none" stroke="#1B2130"></rect><text x="802" y="608" class="ns">Microsoft.Sales.Receivables</text>
+<rect x="850" y="400" width="170" height="140" rx="14" fill="none" stroke="#1B2130"></rect><text x="862" y="418" class="ns">Microsoft.Sales.Pricing</text>
+
+<path d="M660 262 L300 300 M660 262 L716 222 M660 262 L612 316 M660 262 L690 474 M660 262 L900 664 M660 262 L632 676" fill="none" stroke="#C6D6FF"></path>
+<path d="M660 262 L1056 70 M660 262 L1056 230 M660 262 L1056 330 M660 262 L740 792" fill="none" stroke="#C6D6FF" style="stroke-dasharray: 6 4"></path>
+
+<circle cx="420" cy="400" r="11" fill="oklch(0.80 0.12 267)"></circle><text x="438" y="396" class="lb">Sales &amp; Receivables</text><text x="438" y="412" class="sl">system hub</text>
+<circle cx="300" cy="300" r="9" fill="#FFFFFF"></circle><text x="246" y="284" class="lb">Customers</text>
+<circle cx="190" cy="250" r="5" fill="oklch(0.80 0.12 267)" style="opacity: 0.8"></circle><text x="92" y="244" class="sl">Register customers</text>
+<circle cx="250" cy="190" r="4" fill="oklch(0.80 0.12 267)" style="opacity: 0.6"></circle><text x="262" y="186" class="sl">Credit limits</text>
+<circle cx="220" cy="430" r="8" fill="oklch(0.80 0.12 267)"></circle><text x="236" y="452" class="lb">Sales orders</text>
+<circle cx="110" cy="400" r="4" fill="oklch(0.80 0.12 267)" style="opacity: 0.6"></circle><circle cx="130" cy="500" r="5" fill="oklch(0.80 0.12 267)" style="opacity: 0.75"></circle>
+<circle cx="270" cy="560" r="8" fill="oklch(0.80 0.12 267)"></circle><text x="288" y="556" class="lb">Sales invoices</text>
+<circle cx="270" cy="560" r="17" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle><circle cx="270" cy="560" r="25" fill="none" stroke="#FFD27A" style="opacity: 0.35"></circle>
+<text x="288" y="572" class="sl" style="fill: #FFD27A">video landed this week</text>
+<circle cx="160" cy="620" r="5" fill="oklch(0.80 0.12 267)" style="opacity: 0.7"></circle><circle cx="300" cy="680" r="4" fill="oklch(0.80 0.12 267)" style="opacity: 0.55"></circle>
+<circle cx="420" cy="610" r="7" fill="oklch(0.80 0.12 267)" style="opacity: 0.9"></circle><text x="436" y="606" class="lb">Payments</text>
+<circle cx="420" cy="610" r="13" fill="none" stroke="#8FD6CC" style="stroke-dasharray: 2 3"></circle>
+<circle cx="460" cy="720" r="4" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></circle>
+
+<polygon points="318,286 326,290 318,294" fill="#C9CFDB"></polygon><polygon points="322,312 330,316 322,320" fill="#C9CFDB"></polygon><rect x="278" y="318" width="8" height="3" fill="#C9CFDB"></rect>
+<polygon points="236,414 244,418 236,422" fill="#8F98AB"></polygon><polygon points="252,540 260,544 252,548" fill="#FFD27A"></polygon><rect x="290" y="540" width="8" height="3" fill="#8F98AB"></rect><rect x="436" y="622" width="8" height="3" fill="#8FD6CC"></rect>
+
+<circle cx="660" cy="262" r="20" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle>
+<rect x="648" y="250" width="24" height="24" rx="4" fill="#FFFFFF"></rect><text x="686" y="258" class="lb" style="font-size: 15px">Table 18 "Customer"</text><text x="686" y="274" class="sl">focused - 170 referenced by</text>
+<rect x="709" y="215" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><text x="730" y="216" class="sl">Page 21 Customer Card</text>
+<rect x="606" y="310" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.85"></rect><text x="624" y="334" class="sl">Page 22 Customer List</text>
+<rect x="760" y="300" width="8" height="8" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></rect><rect x="590" y="210" width="7" height="7" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.45"></rect>
+<rect x="681" y="465" width="18" height="18" rx="3" fill="oklch(0.80 0.12 267)"></rect><rect x="677" y="461" width="26" height="26" rx="5" fill="none" stroke="#FFD27A"></rect><text x="710" y="472" class="sl">Table 36 Sales Header</text><text x="710" y="486" class="sl" style="fill: #FFD27A">changed in BC29</text>
+<rect x="640" y="520" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.9"></rect><rect x="636" y="516" width="22" height="22" rx="4" fill="none" stroke="#FFD27A"></rect><text x="664" y="532" class="sl">Table 37 Sales Line</text>
+<rect x="770" y="440" width="8" height="8" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></rect>
+<rect x="624" y="668" width="16" height="16" rx="3" fill="oklch(0.80 0.12 267)" style="opacity: 0.95"></rect><text x="560" y="706" class="sl">Codeunit 80 "Sales-Post"</text>
+<rect x="700" y="640" width="8" height="8" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></rect>
+<rect x="893" y="657" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.9"></rect><text x="812" y="696" class="sl">Table 21 Cust. Ledger Entry</text>
+<rect x="960" y="630" width="8" height="8" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></rect><rect x="910" y="470" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.6"></rect><rect x="960" y="500" width="7" height="7" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.4"></rect>
+
+<rect x="908" y="52" width="148" height="36" rx="6" fill="#0D111A" stroke="oklch(0.80 0.12 250)"></rect><text x="920" y="68" class="lb" style="font-size: 12px">Finance →</text><text x="920" y="82" class="sl">Table 92, 3, 4</text>
+<rect x="880" y="212" width="176" height="36" rx="6" fill="#0D111A" stroke="oklch(0.80 0.12 61)"></rect><text x="892" y="228" class="lb" style="font-size: 12px">Relationship Mgmt →</text><text x="892" y="242" class="sl">Table 5050 Contact</text>
+<rect x="908" y="312" width="148" height="36" rx="6" fill="#0D111A" stroke="oklch(0.80 0.12 301)"></rect><text x="920" y="328" class="lb" style="font-size: 12px">Inventory →</text><text x="920" y="342" class="sl">Table 14 Location</text>
+<rect x="660" y="752" width="190" height="36" rx="6" fill="#0D111A" stroke="oklch(0.80 0.12 181)"></rect><text x="672" y="768" class="lb" style="font-size: 12px">Localizations ↓</text><text x="672" y="782" class="sl">country copies of 18</text>
+</svg>
+
+<div style="position: absolute; left: 24px; bottom: 20px; display: flex; gap: 8px">
+<button class="lens" style="height: 44px" aria-label="Previous system: Finance">← Finance</button><button class="lens" style="height: 44px" aria-label="Next system: Purchasing and Payables">Purchasing →</button>
+</div>
+<div class="mono" style="position: absolute; left: 24px; top: 16px; font-size: 11px; color: #8F98AB; display: flex; gap: 16px; align-items: center">
+<span style="display: flex; gap: 6px; align-items: center"><span style="width: 9px; height: 9px; border-radius: 50%; background: #C9CFDB; display: inline-block"></span>hub</span>
+<span style="display: flex; gap: 6px; align-items: center"><span style="width: 9px; height: 9px; border-radius: 2px; background: #C9CFDB; display: inline-block"></span>object</span>
+<span>▸ video</span><span>▬ post</span><span>brighter = more evidence</span>
+<span style="display: flex; gap: 6px; align-items: center"><span style="width: 10px; height: 10px; border-radius: 50%; border: 1px dashed #8FD6CC; display: inline-block"></span>community evidence</span>
+<span style="color: #C6D6FF">- - cross-system edge</span>
+</div>
+</div>
+
+<aside style="width: 380px; flex: none; box-sizing: border-box; background: #0D111A; border-left: 1px solid #1B2130; padding: 20px 22px; display: flex; flex-direction: column; gap: 14px; overflow: hidden">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+<span class="mono" style="font-size: 12px; color: oklch(0.80 0.12 267)">AL object - Sales</span>
+<span class="mono" style="font-size: 12px; color: #9DB8FF; border: 1px solid #3A5BA8; border-radius: 3px; padding: 2px 8px">official - Microsoft</span>
+<span class="mono" style="font-size: 12px; color: #B4BCCB; border: 1px dashed #4A5266; border-radius: 3px; padding: 2px 8px">unreviewed - machine-generated</span>
+</div>
+<div>
+<h1 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.02em">Table 18 "Customer"</h1>
+<div class="mono" style="font-size: 12px; color: #8F98AB; margin-top: 4px">Microsoft.Sales.Customer - Base Application</div>
+</div>
+<div class="mono" style="font-size: 12px; color: #C9CFDB; line-height: 1.7">41 relates to · 170 referenced by · 32 pages and codeunits · 4 extensions · 11 subscribers</div>
+
+<div>
+<div style="font-size: 14px; font-weight: 700; margin-bottom: 2px">Crosses into other systems</div>
+<a class="row" href="#"><span class="mono" style="font-size: 11px; color: oklch(0.80 0.12 250); width: 96px; flex: none">Finance</span><span>Table 92 "Customer Posting Group", Table 3 "Payment Terms", Table 4 "Currency"</span></a>
+<a class="row" href="#"><span class="mono" style="font-size: 11px; color: oklch(0.80 0.12 61); width: 96px; flex: none">Relationship</span><span>Table 5050 "Contact"</span></a>
+<a class="row" href="#"><span class="mono" style="font-size: 11px; color: oklch(0.80 0.12 301); width: 96px; flex: none">Inventory</span><span>Table 14 "Location"</span></a>
+<a class="row" href="#"><span class="mono" style="font-size: 11px; color: oklch(0.80 0.12 181); width: 96px; flex: none">Localizations</span><span>[n] countries ship their own copy</span></a>
+</div>
+
+<div>
+<div style="font-size: 14px; font-weight: 700; margin-bottom: 6px">Evidence in orbit</div>
+<a href="#" style="display: flex; gap: 8px; align-items: center; padding: 6px 0; font-size: 13px; text-decoration: none; color: #E6E9F0"><span class="mono" style="font-size: 11px; background: #1A2440; color: #9DB8FF; padding: 2px 6px; border-radius: 3px">learn</span><span style="flex: 1 1 0">Register new customers</span><span class="mono" style="font-size: 11px; color: #8F98AB">[date]</span></a>
+<a href="#" style="display: flex; gap: 8px; align-items: center; padding: 6px 0; font-size: 13px; text-decoration: none; color: #E6E9F0"><span class="mono" style="font-size: 11px; background: #1D2A22; color: #9FDDB4; padding: 2px 6px; border-radius: 3px">code</span><span class="mono" style="flex: 1 1 0; font-size: 12px">Customer.Table.al</span><span class="mono" style="font-size: 11px; color: #8F98AB">main @ [commit]</span></a>
+<a href="#" style="display: flex; gap: 8px; align-items: center; padding: 6px 0; font-size: 13px; text-decoration: none; color: #E6E9F0"><span class="mono" style="font-size: 11px; background: #2A2413; color: #FFD27A; padding: 2px 6px; border-radius: 3px">video</span><span style="flex: 1 1 0">[video title, quote at timestamp]</span><span class="mono" style="font-size: 11px; color: #8F98AB">[date]</span></a>
+</div>
+
+<div style="margin-top: auto">
+<div class="mono" style="font-size: 11px; color: #8F98AB; margin-bottom: 8px">look closer with an instrument</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<a class="exit" href="C-main.dc.html" style="grid-column: span 2; background: #E6E9F0; color: #090C12; border-color: #E6E9F0">Neighbourhood<span style="color: #090C12">all 258 →</span></a>
+<a class="exit" href="#">Versions<span>28→30</span></a>
+<a class="exit" href="#">Events<span>11 subs</span></a>
+<a class="exit" href="#">Country diff<span>22</span></a>
+<a class="exit" href="#">Atlas<span>namespace</span></a>
+</div>
+<a href="#" style="display: block; margin-top: 12px; font-size: 14px">Open the page: Table 18 "Customer" →</a>
+</div>
+</aside>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

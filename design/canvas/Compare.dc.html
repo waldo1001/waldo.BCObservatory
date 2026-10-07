@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Compare - questions, cost, recommendation</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+table{border-collapse:collapse;width:100%;table-layout:fixed}
+th,td{border:1px solid #1B2130;padding:8px 10px;text-align:left;vertical-align:top;font-size:14px;line-height:1.35;color:#C9CFDB}
+thead th{font-size:15px;font-weight:700;color:#E6E9F0;background:#161C2A}
+tbody th{font-weight:600;color:#E6E9F0;background:#0D111A;width:300px}
+td b{display:block;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;margin-bottom:2px}
+.y{background:#2A2413}.y b{color:#FFD27A}
+.p b{color:#9DB8FF}
+.n{color:#8F98AB}.n b{color:#8F98AB}
+.top{outline:2px solid #FFD27A;outline-offset:-2px}
+h2{margin:0;font-size:22px;font-weight:700;letter-spacing:-0.01em;color:#E6E9F0}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1480px; box-sizing: border-box; padding: 36px 40px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: baseline; gap: 16px"><h2>1. Can the reader answer it in ten seconds, without leaving the view?</h2><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #8F98AB">yes = in the picture or its panel - partly = one click, or half the answer - no = not here</span></div>
+<table>
+<thead><tr><th style="width: 300px">Audience question</th><th>A. Layered</th><th>B. Code city</th><th class="top">C. Neighbourhood</th><th class="top">D. Galaxy, honest</th><th>E. Instruments</th><th>F. 3D field</th></tr></thead>
+<tbody>
+<tr><th>1. What touches Table 18 "Customer", and from where?</th><td class="y"><b>yes</b>core sample through every plane</td><td class="p"><b>partly</b>relation arcs, code only</td><td class="y"><b>yes</b>rings per relation kind, counted</td><td class="p"><b>partly</b>cross-system edges plus panel list</td><td class="p"><b>partly</b>Ctrl+K jumps to its page</td><td class="p"><b>partly</b>hover a node, code only</td></tr>
+<tr><th>2. What does the BE layer change in Finance, and why?</th><td class="y"><b>yes</b>BE plane lights replaced objects</td><td class="p"><b>partly</b>"replaced by countries" colour lens</td><td class="n"><b>no</b>one object at a time</td><td class="p"><b>partly</b>BE constellation, exit to diff</td><td class="p"><b>partly</b>heatmap cell, then diff page</td><td class="n"><b>no</b>countries are not in it</td></tr>
+<tr><th>3. What changed in Sales BC28 to BC29? Obsolete by BC31?</th><td class="p"><b>partly</b>version lens on code plane</td><td class="y"><b>yes</b>stepper: appear, grow, vanish</td><td class="n"><b>no</b>badge on one object only</td><td class="p"><b>partly</b>version lens lights changed stars</td><td class="p"><b>partly</b>version and deprecation tiles lead in</td><td class="n"><b>no</b>no time axis at all</td></tr>
+<tr><th>4. Finance objects with no Learn page? Hubs with no video?</th><td class="y"><b>yes</b>objects with no line upward</td><td class="p"><b>partly</b>"documented" lens, objects only</td><td class="n"><b>no</b>absence is not a neighbour</td><td class="p"><b>partly</b>dim stars are thin on evidence</td><td class="p"><b>partly</b>coverage heatmap, one click away</td><td class="n"><b>no</b>docs and media absent</td></tr>
+<tr><th>5. What is new this week?</th><td class="p"><b>partly</b>newly lit on media plane</td><td class="n"><b>no</b>versions only, no weeks</td><td class="n"><b>no</b>no time in the rings</td><td class="y"><b>yes</b>hubs pulse, digest in panel</td><td class="y"><b>yes</b>digest tile on top</td><td class="n"><b>no</b>static structure only</td></tr>
+<tr><th>6. Where does a blog or channel touch Business Central?</th><td class="p"><b>partly</b>source lens on media plane</td><td class="n"><b>no</b>media has no building</td><td class="n"><b>no</b>sources are not neighbours yet</td><td class="y"><b>yes</b>source lens draws its footprint</td><td class="p"><b>partly</b>11 flight paths listed</td><td class="n"><b>no</b>sources absent</td></tr>
+<tr><th>7. Who subscribes to a given published event?</th><td class="n"><b>no</b>events would drown the planes</td><td class="n"><b>no</b>arcs show relations only</td><td class="y"><b>yes</b>events mode, subscriber ring</td><td class="n"><b>no</b>exit to C or explorer</td><td class="p"><b>partly</b>event explorer one click away</td><td class="n"><b>no</b>events not in graph</td></tr>
+<tr><th>8. Where am I, and how do I get to the neighbours?</th><td class="p"><b>partly</b>great on home, heavy per page</td><td class="p"><b>partly</b>district locator, code pages only</td><td class="y"><b>yes</b>one-hop diagram on every page</td><td class="y"><b>yes</b>locator whose neighbours are real</td><td class="p"><b>partly</b>keeps galaxy as locator only</td><td class="n"><b>no</b>positions change every build</td></tr>
+<tr><th>Score (yes / partly / no)</th><td>3 / 4 / 1</td><td>1 / 4 / 3</td><td class="top">3 / 0 / 5</td><td class="top">3 / 4 / 1</td><td>1 / 7 / 0</td><td>0 / 1 / 7</td></tr>
+</tbody>
+</table>
+
+<h2 style="margin-top: 8px">2. Cost and risk</h2>
+<table>
+<thead><tr><th style="width: 300px">Row</th><th>A. Layered</th><th>B. Code city</th><th class="top">C. Neighbourhood</th><th class="top">D. Galaxy, honest</th><th>E. Instruments</th><th>F. 3D field</th></tr></thead>
+<tbody>
+<tr><th>New pipeline JSON</th><td>One layers file per system: object x/y from treemap, links between planes. Finance alone is 2,021 + 728 + 2,014 + 586 records</td><td>City layout for 16,425 objects, heights per version (3 sets)</td><td>One small neighbourhood file per object, events included. Mostly exists for the object page</td><td>New layout (tree positions), cross-system edges per star, weekly "landed" list, version ids per lens</td><td>One summary file of counts. Nothing else</td><td>Precomputed 3D positions for 16k nodes plus 20k edges. Largest file of all</td></tr>
+<tr><th>Rendering technology</th><td>Canvas 2D with a fixed affine tilt. No library</td><td>WebGL, instanced boxes. Breaks the zero-library rule in practice</td><td>SVG plus DOM. No library</td><td>Canvas 2D plus DOM, as today</td><td>DOM, a little SVG</td><td>WebGL plus a force or graph library</td></tr>
+<tr><th>Bundle and payload</th><td>Medium: layers file can pass the budget for big systems, needs level of detail</td><td>High: geometry, shaders, picking</td><td>Low: well under budget per object</td><td>Low: a delta on the existing galaxy</td><td>Lowest</td><td>Highest: over budget</td></tr>
+<tr><th>Accessibility</th><td>Panel "per plane" list is the fallback. Picture itself is mouse-first</td><td>Weak: falls back to the 2D treemap list</td><td>Strong: each ring is a list with a count; Tab order is ring order</td><td>Good: existing list fallback, plus exits as real links</td><td>Strongest: it is all links</td><td>None worth the name</td></tr>
+<tr><th>Mobile (390)</th><td>No tilt. Becomes the per-plane list</td><td>2D treemap only</td><td>Grouped list, expands in place. Loses nothing</td><td>Locator strip plus list. Already the plan</td><td>Stacks naturally</td><td>Unusable</td></tr>
+<tr><th>Deep field reuse</th><td>High: galaxy, panel, lenses, tokens. New: planes, tilt</td><td>Low: lens colours and tokens only</td><td>Medium: shapes, chips, badges, panel, tokens. New: ring layout</td><td>Highest: everything, with a new layout step</td><td>Medium: page anatomy and tiles; the galaxy is demoted</td><td>None</td></tr>
+<tr><th>What it gives up</th><td>Simplicity. Event data. A calm picture at 2,000 objects</td><td>Docs, media, events, countries as more than a colour</td><td>The overview, time, "what is new", coverage gaps</td><td>The 15,400 objects that are not stars; relations beyond the focused star</td><td>A shared space. The reason to stay</td><td>Everything except "it is a graph"</td></tr>
+</tbody>
+</table>
+
+<div style="display: flex; gap: 24px; margin-top: 8px">
+<div style="flex: 2 1 0; background: #0D111A; border: 1px solid #1B2130; border-radius: 8px; padding: 18px 22px; display: flex; flex-direction: column; gap: 8px">
+<h2>3. Recommendation: D is the floor, C is the instrument, A is the encore</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.5; color: #C9CFDB">Build D first: it repairs exactly what was measured (position, missing cross-references, no time, leads nowhere) with the code and tokens that exist, and it is the only direction that owns "what is new" and "where does this source touch". Build C second as the room every object star opens into: it owns the two questions D cannot (what touches Table 18, who subscribes) and its one-hop version is cheap enough to sit on all 17,000 pages. Their "yes" cells barely overlap: together five of eight questions are a yes, and the other three (BE in Finance, version change, coverage gaps) are a "partly" with a lens in D and an exit to the instrument that owns them. A then rides on both: its code plane is D's namespace positions, its lines are C's link data, so Tilt becomes a system-level view later without new pipeline work. E is not a home but it is the exit dock inside D. B is a beautiful answer to one question, at the price of WebGL. F is the baseline and loses on every row.</p>
+</div>
+<div style="flex: 1 1 0; background: #0D111A; border: 1px solid #1B2130; border-radius: 8px; padding: 18px 22px; display: flex; flex-direction: column; gap: 8px">
+<h2>Taken to medium fidelity</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.5; color: #C9CFDB">D. Galaxy, honest and C. Neighbourhood explorer: the rows below. Scores tie A with D on paper; D wins on cost, reuse and mobile, and A needs D's layout and C's data anyway.</p>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1480}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

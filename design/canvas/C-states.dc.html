@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>C - Neighbourhood explorer: modes and states</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+.tile{background:#0D111A;border:1px solid #1B2130;border-radius:8px;display:flex;flex-direction:column;overflow:hidden}
+.tile svg{display:block;width:100%;height:auto;background:#090C12}
+.cap{padding:12px 16px;display:flex;flex-direction:column;gap:4px}
+.cap b{font-size:16px;color:#E6E9F0}
+.cap span{font-size:14px;line-height:1.45;color:#C9CFDB}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; box-sizing: border-box; padding: 24px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="150" cy="150" r="70" fill="none" stroke="#1B2130"></circle>
+<path d="M150 150 L220 150 M150 150 L199 101 M150 150 L199 199" fill="none" stroke="#6F82B3"></path>
+<path d="M220 150 L330 90 M220 150 L340 150 M220 150 L330 210" fill="none" stroke="#C6D6FF"></path>
+<rect x="136" y="136" width="28" height="28" rx="5" fill="#FFFFFF"></rect><text x="150" y="182" class="sl" style="text-anchor: middle">Table 18</text>
+<polygon points="220,140 230,150 220,160 210,150" fill="#FFD27A"></polygon><polygon points="199,93 207,101 199,109 191,101" fill="#8F98AB"></polygon><polygon points="199,191 207,199 199,207 191,199" fill="#8F98AB"></polygon>
+<text x="150" y="128" class="sl" style="fill: #FFD27A; text-anchor: middle">[event name]</text>
+<rect x="324" y="84" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="342" y="94" class="sl">[subscriber]</text>
+<rect x="334" y="144" width="12" height="12" rx="2" fill="oklch(0.80 0.12 61)"></rect><text x="352" y="154" class="sl">[subscriber]</text>
+<rect x="324" y="204" width="12" height="12" rx="2" fill="oklch(0.80 0.12 181)"></rect><text x="342" y="214" class="sl">[subscriber]</text>
+<text x="14" y="24" class="sl">events mode - 11 subscribers on Table 18</text><text x="14" y="288" class="sl">◆ published event - ■ subscribing codeunit</text>
+</svg>
+<div class="cap"><b>Events mode: who subscribes</b><span>Ring 1 becomes the object's published events (diamonds, sized by subscriber count); picking one fans out its subscribers, coloured by their system. Events with no subscribers stay as a count, not as ink.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="130" cy="150" r="90" fill="none" stroke="#1B2130"></circle>
+<path d="M130 150 L208 105 M130 150 L208 195" fill="none" stroke="#6F82B3"></path><path d="M130 150 L220 150" fill="none" stroke="#C6D6FF" style="stroke-width: 2"></path>
+<rect x="116" y="136" width="28" height="28" rx="5" fill="#FFFFFF"></rect>
+<rect x="202" y="99" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="213" y="143" width="14" height="14" rx="2" fill="#FFFFFF"></rect><rect x="202" y="189" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect>
+<rect x="236" y="120" width="200" height="60" rx="4" fill="#161C2A" stroke="#2A3550"></rect>
+<text x="246" y="138" class="lb" style="font-size: 12px">Table 3 "Payment Terms"</text><text x="246" y="154" class="sl">table_relation</text><text x="246" y="170" class="sl" style="fill: #C9CFDB">"Payment Terms Code"</text>
+<text x="14" y="24" class="sl">hover a neighbour</text>
+</svg>
+<div class="cap"><b>Hover</b><span>The edge goes active (#C6D6FF, 2px) and the tooltip names the relation kind and the field that carries it. Everything else holds still: no reflow, no dimming on hover.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="130" cy="150" r="90" fill="none" stroke="#1B2130"></circle>
+<path d="M130 150 L208 105 M130 150 L220 150 M130 150 L208 195" fill="none" stroke="#6F82B3"></path>
+<rect x="116" y="136" width="28" height="28" rx="5" fill="#FFFFFF"></rect>
+<rect x="202" y="99" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="213" y="143" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="202" y="189" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect>
+<rect x="208" y="138" width="24" height="24" rx="4" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect>
+<rect x="262" y="60" width="174" height="190" rx="6" fill="#0D111A" stroke="#2A3550"></rect>
+<text x="272" y="80" class="sl">relates to - 41</text>
+<text x="272" y="106" class="lb" style="font-size: 12px; font-weight: 400">Table 92</text>
+<rect x="266" y="116" width="166" height="26" rx="3" fill="#161C2A" stroke="#FFD27A"></rect><text x="272" y="133" class="lb" style="font-size: 12px">Table 3 "Payment Terms"</text>
+<text x="272" y="162" class="lb" style="font-size: 12px; font-weight: 400">Table 4 "Currency"</text><text x="272" y="188" class="lb" style="font-size: 12px; font-weight: 400">Table 14 "Location"</text><text x="272" y="214" class="lb" style="font-size: 12px; font-weight: 400">Table 5050 "Contact"</text><text x="272" y="238" class="sl">+ 36 more</text>
+<text x="14" y="24" class="sl">keyboard focus - picture and list in sync</text>
+</svg>
+<div class="cap"><b>Keyboard focus</b><span>The picture is a view on a list. Tab enters a ring, arrows walk it, Enter selects, E expands, Esc steps back along the trail. The focus ring (accent, 2px, offset 2px) shows on the node and on its list row together.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="110" cy="150" r="80" fill="none" stroke="#1B2130"></circle>
+<path d="M110 150 L40 110 M110 150 L30 150 M110 150 L40 190" fill="none" stroke="#6F82B3"></path>
+<rect x="96" y="136" width="28" height="28" rx="5" fill="#FFFFFF"></rect>
+<rect x="34" y="104" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="24" y="144" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="34" y="184" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect>
+<rect x="50" y="224" width="104" height="28" rx="14" fill="#2A2413" stroke="#FFD27A"></rect><text x="102" y="242" class="sl" style="fill: #FFD27A; text-anchor: middle">+ 163 more</text>
+<rect x="220" y="40" width="216" height="230" rx="6" fill="#0D111A" stroke="#2A3550"></rect>
+<text x="230" y="60" class="sl">referenced by - 170 - by system</text>
+<text x="230" y="88" class="lb" style="font-size: 12px">Sales &amp; Receivables</text><rect x="230" y="96" width="150" height="6" rx="3" fill="oklch(0.80 0.12 267)"></rect><text x="390" y="103" class="sl">[n]</text>
+<text x="230" y="128" class="lb" style="font-size: 12px">Finance</text><rect x="230" y="136" width="90" height="6" rx="3" fill="oklch(0.80 0.12 250)"></rect><text x="330" y="143" class="sl">[n]</text>
+<text x="230" y="168" class="lb" style="font-size: 12px">Service Management</text><rect x="230" y="176" width="60" height="6" rx="3" fill="oklch(0.80 0.12 10)"></rect><text x="300" y="183" class="sl">[n]</text>
+<text x="230" y="208" class="lb" style="font-size: 12px">Projects</text><rect x="230" y="216" width="36" height="6" rx="3" fill="oklch(0.80 0.12 353)"></rect><text x="276" y="223" class="sl">[n]</text>
+<text x="230" y="254" class="sl">filter: table_relation - calc_formula</text>
+<text x="14" y="24" class="sl">a big ring opens as a list</text>
+</svg>
+<div class="cap"><b>"+ 163 more": big rings stay lists</b><span>The picture never draws more than 7 per ring (the most connected). The rest open in the panel, grouped by system with counts, filterable by relation kind. This is what keeps 170 from becoming a hairball.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="30" y="50" width="250" height="200" rx="8" fill="#0D111A" stroke="#1B2130"></rect>
+<rect x="46" y="70" width="140" height="10" rx="3" fill="#2A3550"></rect><rect x="46" y="92" width="218" height="6" rx="3" fill="#1B2130"></rect><rect x="46" y="106" width="200" height="6" rx="3" fill="#1B2130"></rect><rect x="46" y="120" width="210" height="6" rx="3" fill="#1B2130"></rect>
+<rect x="300" y="50" width="130" height="130" rx="8" fill="#0D111A" stroke="#2A3550"></rect>
+<path d="M365 115 L365 78 M365 115 L400 100 M365 115 L398 138 M365 115 L340 145 M365 115 L328 100" fill="none" stroke="#6F82B3"></path>
+<rect x="357" y="107" width="16" height="16" rx="3" fill="#FFFFFF"></rect>
+<circle cx="365" cy="78" r="5" fill="#9DB8FF"></circle><rect x="395" y="95" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="393" y="133" width="10" height="10" rx="2" fill="oklch(0.80 0.12 301)"></rect><rect x="335" y="140" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="323" y="95" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)"></rect>
+<text x="310" y="170" class="sl">258 links →</text>
+<text x="300" y="204" class="sl">side column of the</text><text x="300" y="220" class="sl">object page, inline SVG</text>
+<text x="14" y="24" class="sl">one-hop diagram on every object page</text>
+</svg>
+<div class="cap"><b>Per page: the one-hop diagram</b><span>A 130px inline SVG in the side column: the object, its top neighbour per ring, the total. Rendered at build time, no script, a few hundred bytes. It links into this explorer already centred; the galaxy locator sits above it.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="225" cy="140" r="80" fill="none" stroke="#1B2130" style="stroke-dasharray: 2 6"></circle>
+<rect x="211" y="126" width="28" height="28" rx="5" fill="#FFFFFF"></rect>
+<text x="225" y="176" class="lb" style="text-anchor: middle">[object with no relations]</text>
+<text x="225" y="250" class="lb" style="text-anchor: middle; font-weight: 400; fill: #C9CFDB">Nothing points here, and it points nowhere. In BC29.</text>
+<text x="225" y="270" class="sl" style="text-anchor: middle; fill: #9DB8FF">Try events mode, or another version</text>
+<text x="14" y="24" class="sl">empty - loading shows the rings first, nodes fade in per ring</text>
+</svg>
+<div class="cap"><b>Empty and loading</b><span>Empty says so in a sentence and offers the two next moves. Loading draws the centre and the empty rings at once (they need no data), then fills ring by ring; with reduced motion the nodes simply appear.</span></div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "$meta": {
+    "project": "BC Observatory",
+    "direction": "Deep field - addition D: Galaxy, honest",
+    "generated": "2026-10-07",
+    "note": "Additions only, same shape as design/tokens.json. Merge key by key. Contrast ratios are WCAG 2 ratios against the theme background (#090C12 dark, #F4F5F8 light), computed, not eyeballed. Light values are proposals: no light artboard was drawn for D."
+  },
+  "color": {
+    "dark": {
+      "galaxy": {
+        "edgeCross": { "value": "#C6D6FF", "contrast": 13.5, "style": "dashed 6 4, 1px", "use": "focused star's edge that leaves the system; same colour as edgeActive, the dash is the signal" },
+        "treeGuide": { "value": "#2A3550", "contrast": 1.6, "use": "Learn tree branches under the hubs. Decorative: carries no information the list does not" },
+        "namespacePlot": { "border": "#1B2130", "label": { "value": "#8F98AB", "contrast": 6.8 }, "use": "rounded outline around one namespace's objects, mono 10px label" },
+        "mediaBody": { "value": "#C9CFDB", "contrast": 12.5, "use": "video (triangle) and post (bar) bodies next to the hub they mention" },
+        "mediaBodyNew": { "value": "#FFD27A", "contrast": 13.7, "use": "a body that landed in the last 7 days" },
+        "communityRing": { "value": "#8FD6CC", "contrast": 11.8, "style": "dashed 2 3, 1px", "use": "ring around a star that has community evidence; reuses tier.community text colour" },
+        "versionFrame": { "value": "#FFD27A", "contrast": 13.7, "use": "1px frame, offset 4px, around an object changed in the lens version" },
+        "obsolete": { "value": "#8F98AB", "contrast": 6.8, "style": "hollow, dashed 2 2", "use": "obsolete object under the version lens" },
+        "lensDim": "opacity 0.3 for everything the active lens does not match",
+        "port": { "background": "#0D111A", "border": "system colour of the target", "text": { "value": "#E6E9F0", "contrastOnSurface": 15.5 }, "use": "label on the canvas edge where a cross-system edge exits" }
+      }
+    },
+    "light": {
+      "galaxy": {
+        "edge": { "value": "#8A93A6", "contrast": 2.8, "note": "fills the TODO in the base file as a proposal. Decorative weight only" },
+        "edgeCross": { "value": "#2447B8", "contrast": 7.2, "style": "dashed 6 4" },
+        "treeGuide": "#D9DDE6",
+        "namespacePlot": { "border": "#D9DDE6", "label": { "value": "#566074", "contrast": 5.8 } },
+        "mediaBody": { "value": "#3A4356", "contrast": 9.1 },
+        "mediaBodyNew": { "value": "#A85F00", "contrast": 4.5, "note": "borderline, same caveat as light accent: shape and the 'landed' label carry it" },
+        "communityRing": { "value": "#14625A", "contrast": 6.6 },
+        "versionFrame": { "value": "#A85F00", "contrast": 4.5 },
+        "obsolete": { "value": "#566074", "contrast": 5.8 },
+        "lensDim": "opacity 0.35"
+      }
+    },
+    "evidenceKind": {
+      "video": { "dark": { "background": "#2A2413", "text": "#FFD27A", "contrast": 10.8 }, "light": { "background": "#F6E7C8", "text": "#7A4500", "contrast": 6.4 }, "note": "fills the TODO in the base file. Proposal: video shares the accent family because 'landed this week' is mostly video" },
+      "post": "TODO: still not designed. Suggested: tier.community colours"
+    }
+  },
+  "motion": {
+    "edgeDraw": { "duration": "600ms", "easing": "cubic-bezier(.65,0,.2,1)", "use": "focused star's edges draw outward from the star, in-system first, cross-system after" },
+    "portFly": { "duration": "1100ms", "easing": "cubic-bezier(.65,0,.2,1)", "use": "same as cameraFly: clicking a port flies along the edge into the target system" },
+    "landedPulse": "reuses newlyLitPulse (2400ms)",
+    "reducedMotion": "camera fly becomes a cut; edges appear without drawing; pulse becomes a static double ring (r and r * 1.5, opacity 1 and 0.35)"
+  },
+  "galaxy": {
+    "systemLayout": "two-arm spiral kept, but index order comes from the pipeline: greedy ordering that puts the pair with the highest cross-system edge weight next to each other along an arm. The formula in the base file is unchanged",
+    "systemEdge": "width = 1 + 3 * weight / maxWeight screen px, only for the top 2 edges per system at galaxy level",
+    "hubPosition": "radial tree of the Learn table of contents: depth = distance from the system centre (4 levels), sibling order = TOC order, on the left 200 degrees of the system",
+    "objectPosition": "squarified treemap of the namespace tree inside the right 160 degrees; each namespace is a plot, objects sit inside their plot, most connected nearest the system centre",
+    "mediaPosition": "at 14 world px from the hub they mention most, fanned in 30 degree steps, max 6 per hub then a count",
+    "starOpacity": "0.35 + 0.65 * evidence / maxEvidence, where evidence = Learn pages + videos + posts naming the star (replaces weight in the base formula)",
+    "starSize": "unchanged: connections",
+    "crossEdgeLimit": "max 6 ports per focused star, grouped by target system, the rest as '+ n systems' in the panel",
+    "mediaShape": { "video": "triangle, 8 px", "post": "bar, 8 x 3 px" },
+    "zoom": "unchanged: galaxy 1, system 4.4, star 8"
+  }
+}

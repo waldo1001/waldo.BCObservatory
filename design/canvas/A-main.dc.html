@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A - Layered Observatory: Finance tilted, core sample</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#9DB8FF}a:hover{color:#C6D6FF}
+.mono{font-family:'JetBrains Mono',monospace}
+.lens{font-family:'JetBrains Mono',monospace;font-size:12px;color:#C9CFDB;background:#0D111A;border:1px solid #2A3550;border-radius:3px;padding:0 12px;height:32px;cursor:pointer}
+.lens.on{color:#FFD27A;border-color:#FFD27A;background:#2A2413}
+.pl{display:flex;flex-direction:column;gap:2px;padding:10px 0;border-bottom:1px solid #1B2130}
+.pl b{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;color:#8F98AB}
+.pl a{font-size:14px;color:#E6E9F0;text-decoration:none;min-height:24px}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+.pn{font-family:'JetBrains Mono',monospace;font-size:12px;fill:#C9CFDB}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="height: 56px; flex: none; display: flex; align-items: center; gap: 20px; padding: 0 24px; border-bottom: 1px solid #1B2130">
+<div style="font-size: 18px; font-weight: 700">BC Observatory</div>
+<div class="mono" style="font-size: 11px; color: #8F98AB">unofficial, made by waldo</div>
+<nav style="font-size: 14px; color: #8F98AB; display: flex; gap: 8px; margin-left: 12px"><a href="D-main.dc.html">Galaxy</a><span>/</span><a href="#">Finance</a><span>/</span><span style="color: #E6E9F0">Table 15 "G/L Account"</span></nav>
+<label style="margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: #8F98AB">Search<input type="search" placeholder="Light up stars ..  Ctrl+K" style="width: 260px; height: 36px; box-sizing: border-box; background: #0D111A; border: 1px solid #2A3550; border-radius: 6px; color: #E6E9F0; padding: 0 12px; font: inherit"></label>
+</div>
+
+<div style="height: 48px; flex: none; display: flex; align-items: center; gap: 8px; padding: 0 24px; border-bottom: 1px solid #1B2130">
+<label style="display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: #FFD27A; margin-right: 12px">Tilt<input type="range" min="0" max="100" value="100" style="width: 120px; accent-color: #FFD27A" aria-label="Tilt: 0 is the flat galaxy, 100 is fully layered"></label>
+<span class="mono" style="font-size: 11px; color: #8F98AB; margin-right: 4px">lenses, per plane</span>
+<button class="lens">changed in BC29</button><button class="lens">changed in BC30</button><button class="lens">country</button><button class="lens">source</button><button class="lens">coverage</button>
+<button class="lens" style="margin-left: auto">list per plane</button>
+</div>
+
+<div style="flex: 1 1 0; display: flex; min-height: 0">
+<div style="flex: 1 1 0; position: relative; min-width: 0">
+<svg viewBox="0 0 1060 796" style="display: block; width: 1060px; height: 796px">
+<polygon points="220,40 980,40 860,170 100,170" fill="#0D111A" stroke="#2A3550" style="fill-opacity: 0.7"></polygon>
+<polygon points="220,220 980,220 860,350 100,350" fill="#0D111A" stroke="#2A3550" style="fill-opacity: 0.7"></polygon>
+<polygon points="220,400 980,400 860,530 100,530" fill="#0D111A" stroke="#2A3550" style="fill-opacity: 0.7"></polygon>
+<polygon points="220,580 980,580 860,710 100,710" fill="#0D111A" stroke="#2A3550" style="fill-opacity: 0.7"></polygon>
+<text x="20" y="100" class="pn">MEDIA</text><text x="20" y="116" class="sl">videos, posts,</text><text x="20" y="130" class="sl">features</text>
+<text x="20" y="280" class="pn">TOPIC HUBS</text><text x="20" y="296" class="sl">Learn tree</text>
+<text x="20" y="460" class="pn">CODE</text><text x="20" y="476" class="sl">2,021 objects</text><text x="20" y="490" class="sl">by namespace</text>
+<text x="20" y="640" class="pn">COUNTRIES</text><text x="20" y="656" class="sl">22 layers, 586</text><text x="20" y="670" class="sl">W1 replaced</text>
+
+<path d="M430 408 L328 522 M700 408 L598 522 M163 462 L923 462" fill="none" stroke="#1B2130"></path>
+<text x="232" y="416" class="sl" style="font-size: 10px">Finance.GeneralLedger</text><text x="440" y="416" class="sl" style="font-size: 10px">Finance.VAT</text><text x="710" y="416" class="sl" style="font-size: 10px">Finance.Dimension</text>
+
+<path d="M336 79 L336 259 M652 66 L742 272 M770 144 L742 272" fill="none" stroke="#6F82B3" style="stroke-dasharray: 1 5"></path>
+<path d="M336 259 L336 439 M742 272 L742 452 M396 318 L430 492 M396 318 L290 500" fill="none" stroke="#6F82B3"></path>
+<path d="M742 452 L742 632 M430 492 L396 678 M610 500 L600 660" fill="none" stroke="#6F82B3" style="stroke-dasharray: 6 4"></path>
+<path d="M540 465 L336 439 M540 465 L742 452" fill="none" stroke="#C6D6FF"></path>
+<line x1="540" y1="105" x2="540" y2="645" stroke="#FFD27A" style="stroke-width: 2"></line>
+
+<polygon points="330,72 344,79 330,86" fill="#C9CFDB"></polygon><polygon points="646,59 660,66 646,73" fill="#C9CFDB"></polygon><rect x="764" y="142" width="12" height="4" fill="#C9CFDB"></rect>
+<polygon points="533,97 549,105 533,113" fill="#FFD27A"></polygon><text x="556" y="102" class="lb">[video title]</text><text x="556" y="118" class="sl">mentions G/L Account at [mm:ss]</text>
+
+<circle cx="336" cy="259" r="7" fill="oklch(0.80 0.12 250)"></circle><text x="350" y="256" class="sl">[hub]</text>
+<circle cx="742" cy="272" r="8" fill="oklch(0.80 0.12 250)"></circle><text x="756" y="270" class="sl">[hub]</text>
+<circle cx="396" cy="318" r="6" fill="oklch(0.80 0.12 250)" style="opacity: 0.8"></circle>
+<circle cx="540" cy="285" r="10" fill="#FFFFFF"></circle><text x="558" y="282" class="lb">General ledger</text><text x="558" y="298" class="sl">hub - [n] Learn pages name Table 15</text>
+
+<rect x="329" y="432" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="250" y="456" class="sl">Table 81</text>
+<rect x="735" y="445" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="756" y="448" class="sl">Table 17 "G/L Entry"</text>
+<rect x="424" y="486" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.85"></rect><rect x="284" y="494" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.85"></rect><rect x="604" y="494" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.85"></rect>
+<rect x="260" y="430" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="380" y="446" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="470" y="428" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="500" y="500" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="660" y="470" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="800" y="430" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="840" y="480" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="700" y="505" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="220" y="490" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="880" y="440" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="350" y="508" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect><rect x="780" y="508" width="7" height="7" rx="1" fill="none" stroke="#8F98AB"></rect>
+<rect x="529" y="454" width="22" height="22" rx="4" fill="#FFFFFF"></rect><circle cx="540" cy="465" r="19" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle>
+<text x="566" y="478" class="lb" style="font-size: 15px">Table 15 "G/L Account"</text><text x="566" y="494" class="sl">focused - the core sample runs through it</text>
+
+<rect x="736" y="626" width="12" height="12" rx="2" fill="oklch(0.80 0.12 181)"></rect><rect x="390" y="672" width="12" height="12" rx="2" fill="oklch(0.80 0.12 181)"></rect><rect x="594" y="654" width="12" height="12" rx="2" fill="oklch(0.80 0.12 181)"></rect>
+<rect x="533" y="638" width="14" height="14" rx="2" fill="#FFD27A"></rect><text x="556" y="642" class="lb">replaced in [n] of 22 countries</text><text x="556" y="658" class="sl">[country codes]</text>
+
+<text x="100" y="750" class="sl">· · · mentions</text><text x="250" y="750" class="sl">─── Learn page names object (728 in Finance)</text><text x="590" y="750" class="sl">- - - country replaces W1 object</text><text x="820" y="750" class="sl">□ no line up: no Learn page</text>
+<text x="100" y="770" class="sl">planes share x/y: straight up from an object is its documentation, straight down its country copies - relations (2,014) stay inside the code plane</text>
+</svg>
+</div>
+
+<aside style="width: 380px; flex: none; box-sizing: border-box; background: #0D111A; border-left: 1px solid #1B2130; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; overflow: hidden">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+<span class="mono" style="font-size: 12px; color: oklch(0.80 0.12 250)">core sample - Finance</span>
+<span class="mono" style="font-size: 12px; color: #B4BCCB; border: 1px solid #4A5266; border-radius: 3px; padding: 2px 8px">mixed - official and community</span>
+</div>
+<div>
+<h1 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.02em">Table 15 "G/L Account"</h1>
+<div class="mono" style="font-size: 12px; color: #8F98AB; margin-top: 4px">Microsoft.Finance.GeneralLedger.Account</div>
+</div>
+<div class="mono" style="font-size: 12px; color: #C9CFDB; line-height: 1.7">Finance: 2,021 objects · 728 Learn links · 2,014 relations · 586 W1 objects replaced</div>
+<div>
+<div class="pl"><b>MEDIA - [n]</b><a href="#">[video title] - [date]</a><a href="#">[post title] - [date]</a></div>
+<div class="pl"><b>TOPIC HUBS - [n] Learn pages</b><a href="#">General ledger</a><a href="#">[Learn page naming Table 15]</a></div>
+<div class="pl"><b>CODE - [n] relations in Finance</b><a href="#">Table 17 "G/L Entry"</a><a href="#">Table 81 "Gen. Journal Line"</a></div>
+<div class="pl"><b>COUNTRIES - replaced in [n] of 22</b><a href="#">[country] - [fields added]</a></div>
+</div>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px">
+<a href="C-main.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; background: #E6E9F0; color: #090C12; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600">Neighbourhood of Table 15 →</a>
+<a href="D-main.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; border: 1px solid #2A3550; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; color: #E6E9F0">Flatten (Tilt 0): back to the galaxy</a>
+</div>
+</aside>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

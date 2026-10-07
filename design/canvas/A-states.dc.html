@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A - Layered Observatory: tilt, lenses and states</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+.tile{background:#0D111A;border:1px solid #1B2130;border-radius:8px;display:flex;flex-direction:column;overflow:hidden}
+.tile svg{display:block;width:100%;height:auto;background:#090C12}
+.cap{padding:12px 16px;display:flex;flex-direction:column;gap:4px}
+.cap b{font-size:16px;color:#E6E9F0}
+.cap span{font-size:14px;line-height:1.45;color:#C9CFDB}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; box-sizing: border-box; padding: 24px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="90" y="50" width="270" height="200" rx="8" fill="#0D111A" stroke="#2A3550"></rect>
+<path d="M225 150 L150 110 M225 150 L160 200" fill="none" stroke="#2A3550"></path>
+<circle cx="225" cy="150" r="8" fill="oklch(0.80 0.12 250)"></circle><circle cx="150" cy="110" r="6" fill="oklch(0.80 0.12 250)"></circle><circle cx="160" cy="200" r="5" fill="oklch(0.80 0.12 250)" style="opacity: 0.8"></circle>
+<rect x="280" y="100" width="12" height="12" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="300" y="180" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.7"></rect><rect x="250" y="210" width="8" height="8" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.5"></rect>
+<polygon points="162,98 170,102 162,106" fill="#C9CFDB"></polygon>
+<line x1="30" y1="276" x2="150" y2="276" stroke="#2A3550" style="stroke-width: 4"></line><circle cx="30" cy="276" r="7" fill="#FFD27A"></circle><text x="162" y="280" class="sl">Tilt 0 = D, exactly</text>
+<text x="14" y="24" class="sl">tilt 0 - the flat galaxy</text>
+</svg>
+<div class="cap"><b>Tilt 0: this is D</b><span>A is not a separate page. At Tilt 0 the system is the flat galaxy with every kind of thing on one plane. Nothing new is loaded until the slider moves.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<polygon points="120,60 380,60 340,104 80,104" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,104 380,104 340,148 80,148" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,148 380,148 340,192 80,192" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,192 380,192 340,236 80,236" fill="#0D111A" stroke="#2A3550"></polygon>
+<polygon points="176,76 184,80 176,84" fill="#C9CFDB"></polygon><circle cx="230" cy="126" r="6" fill="oklch(0.80 0.12 250)"></circle><circle cx="180" cy="130" r="5" fill="oklch(0.80 0.12 250)"></circle><rect x="270" y="164" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="200" y="172" width="8" height="8" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.6"></rect><rect x="268" y="208" width="10" height="10" rx="2" fill="oklch(0.80 0.12 181)"></rect>
+<line x1="30" y1="276" x2="150" y2="276" stroke="#2A3550" style="stroke-width: 4"></line><circle cx="85" cy="276" r="7" fill="#FFD27A"></circle><text x="162" y="280" class="sl">halfway: planes separate, lines not yet</text>
+<text x="14" y="24" class="sl">tilting - 600 ms, or drag the slider</text>
+</svg>
+<div class="cap"><b>Tilting</b><span>The plane tips (fixed angle, no free orbit) and splits into four, each thing sliding to its own plane without changing x/y. Lines between planes fade in only at full tilt. Reduced motion: a cut.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<polygon points="120,30 380,30 340,80 80,80" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,96 380,96 340,146 80,146" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,162 380,162 340,212 80,212" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,228 380,228 340,278 80,278" fill="#0D111A" stroke="#2A3550"></polygon>
+<line x1="230" y1="55" x2="230" y2="253" stroke="#FFD27A" style="stroke-width: 2"></line>
+<polygon points="224,49 236,55 224,61" fill="#FFD27A"></polygon><circle cx="230" cy="121" r="7" fill="#FFFFFF"></circle><rect x="222" y="179" width="16" height="16" rx="3" fill="#FFFFFF"></rect><rect x="224" y="247" width="12" height="12" rx="2" fill="#FFD27A"></rect>
+<circle cx="160" cy="118" r="4" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></circle><rect x="300" y="184" width="8" height="8" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect><rect x="150" y="190" width="8" height="8" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect>
+<text x="14" y="20" class="sl">core sample</text>
+</svg>
+<div class="cap"><b>Core sample</b><span>Focusing any star lights what sits straight above and below it and dims the rest to 0.3. The panel lists the same sample per plane. Focus a hub and the sample goes down into the objects its Learn pages name.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<polygon points="120,60 380,60 340,130 80,130" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,170 380,170 340,240 80,240" fill="#0D111A" stroke="#FFD27A"></polygon>
+<path d="M180 92 L180 202 M260 100 L260 210 M320 84 L320 194" fill="none" stroke="#FFD27A" style="stroke-dasharray: 6 4"></path>
+<rect x="175" y="87" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="255" y="95" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)"></rect><rect x="315" y="79" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)"></rect>
+<rect x="140" y="110" width="7" height="7" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect><rect x="220" y="74" width="7" height="7" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect><rect x="290" y="112" width="7" height="7" rx="1" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect>
+<rect x="175" y="197" width="10" height="10" rx="2" fill="#FFD27A"></rect><rect x="255" y="205" width="10" height="10" rx="2" fill="#FFD27A"></rect><rect x="315" y="189" width="10" height="10" rx="2" fill="#FFD27A"></rect>
+<text x="14" y="76" class="sl">code</text><text x="14" y="200" class="sl" style="fill: #FFD27A">BE</text>
+<text x="14" y="24" class="sl">lens: country = BE - only code and BE planes shown</text><text x="14" y="288" class="sl">BE replaces [n] W1 objects in Finance</text>
+</svg>
+<div class="cap"><b>Country lens: what does BE change in Finance?</b><span>The country plane becomes one country. Every W1 object it replaces gets a dashed line down to its BE copy; untouched objects dim. Planes the lens does not use fold away. The panel lists the replaced objects and exits to the country diff for the why.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<polygon points="120,60 380,60 340,130 80,130" fill="#0D111A" stroke="#2A3550"></polygon><polygon points="120,170 380,170 340,240 80,240" fill="#0D111A" stroke="#2A3550"></polygon>
+<path d="M180 92 L180 202 M300 100 L300 210" fill="none" stroke="#6F82B3"></path>
+<circle cx="180" cy="92" r="6" fill="oklch(0.80 0.12 250)"></circle><circle cx="300" cy="100" r="6" fill="oklch(0.80 0.12 250)"></circle>
+<rect x="175" y="197" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect><rect x="295" y="205" width="10" height="10" rx="2" fill="oklch(0.80 0.12 250)" style="opacity: 0.3"></rect>
+<rect x="140" y="214" width="10" height="10" rx="2" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect><rect x="220" y="190" width="10" height="10" rx="2" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect><rect x="250" y="218" width="10" height="10" rx="2" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect><rect x="330" y="186" width="10" height="10" rx="2" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect>
+<text x="14" y="76" class="sl">hubs</text><text x="14" y="200" class="sl">code</text>
+<text x="14" y="24" class="sl">lens: coverage - what has no line up</text><text x="14" y="288" class="sl">[n] of 2,021 Finance objects have no Learn page</text>
+</svg>
+<div class="cap"><b>Coverage lens: what is missing</b><span>The inverse view: documented objects dim, objects with no Learn page above them get an accent outline, and the count is in the panel as a list. The same lens on the hub plane marks hubs with no video above.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="30" y="40" width="390" height="230" rx="8" fill="#0D111A" stroke="#2A3550"></rect>
+<rect x="44" y="54" width="70" height="26" rx="3" fill="#161C2A" stroke="#2A3550"></rect><text x="58" y="71" class="sl">media</text>
+<rect x="120" y="54" width="70" height="26" rx="3" fill="#161C2A" stroke="#2A3550"></rect><text x="138" y="71" class="sl">hubs</text>
+<rect x="196" y="54" width="70" height="26" rx="3" fill="#E6E9F0"></rect><text x="214" y="71" class="sl" style="fill: #090C12">code</text>
+<rect x="272" y="54" width="90" height="26" rx="3" fill="#161C2A" stroke="#2A3550"></rect><text x="284" y="71" class="sl">countries</text>
+<text x="44" y="104" class="sl">object</text><text x="250" y="104" class="sl">learn</text><text x="300" y="104" class="sl">videos</text><text x="360" y="104" class="sl">countries</text>
+<rect x="40" y="112" width="370" height="26" rx="3" fill="#161C2A" stroke="#FFD27A"></rect>
+<text x="48" y="129" class="lb" style="font-size: 12px">Table 15 "G/L Account"</text><text x="256" y="129" class="sl">[n]</text><text x="310" y="129" class="sl">[n]</text><text x="374" y="129" class="sl">[n]</text>
+<text x="48" y="159" class="lb" style="font-size: 12px; font-weight: 400">Table 17 "G/L Entry"</text><text x="256" y="159" class="sl">[n]</text><text x="310" y="159" class="sl">[n]</text><text x="374" y="159" class="sl">[n]</text>
+<text x="48" y="189" class="lb" style="font-size: 12px; font-weight: 400">Table 81 "Gen. Journal Line"</text><text x="256" y="189" class="sl">[n]</text><text x="310" y="189" class="sl">0</text><text x="374" y="189" class="sl">[n]</text>
+<text x="48" y="219" class="lb" style="font-size: 12px; font-weight: 400">[object]</text><text x="256" y="219" class="sl" style="fill: #FFD27A">0</text><text x="310" y="219" class="sl">0</text><text x="374" y="219" class="sl">0</text>
+<text x="48" y="252" class="sl">sortable - 0 in the learn column is the coverage gap</text>
+<text x="14" y="24" class="sl">list per plane - keyboard and screen reader view</text>
+</svg>
+<div class="cap"><b>List per plane</b><span>The fallback and, for counting, the better view: one tab per plane, one row per thing, one column per other plane with the number of lines to it. Sort by a column to get the gaps. Tab, arrows, Enter focus a row and its core sample.</span></div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

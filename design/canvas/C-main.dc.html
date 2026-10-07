@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>C - Neighbourhood explorer: Table 18 Customer</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#9DB8FF}a:hover{color:#C6D6FF}
+.mono{font-family:'JetBrains Mono',monospace}
+.f{display:flex;align-items:center;gap:10px;min-height:44px;font-size:14px;color:#E6E9F0;border-bottom:1px solid #1B2130}
+.f input{width:18px;height:18px;accent-color:#FFD27A}
+.f b{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;color:#C9CFDB}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+.e{text-anchor:end}
+.grp{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#C9CFDB}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: flex; flex-direction: column; overflow: hidden">
+
+<div style="height: 56px; flex: none; display: flex; align-items: center; gap: 20px; padding: 0 24px; border-bottom: 1px solid #1B2130">
+<div style="font-size: 18px; font-weight: 700">BC Observatory</div>
+<div class="mono" style="font-size: 11px; color: #8F98AB">unofficial, made by waldo</div>
+<nav style="font-size: 14px; color: #8F98AB; display: flex; gap: 8px; margin-left: 12px"><a href="D-main.dc.html">Galaxy</a><span>/</span><a href="D-main.dc.html">Sales &amp; Receivables</a><span>/</span><a href="#">Table 18 "Customer"</a><span>/</span><span style="color: #E6E9F0">Neighbourhood</span></nav>
+<label style="margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: #8F98AB">Start from<input type="search" placeholder="any object ..  Ctrl+K" style="width: 240px; height: 36px; box-sizing: border-box; background: #0D111A; border: 1px solid #2A3550; border-radius: 6px; color: #E6E9F0; padding: 0 12px; font: inherit"></label>
+</div>
+
+<div style="flex: 1 1 0; display: flex; min-height: 0">
+<aside style="width: 220px; flex: none; box-sizing: border-box; border-right: 1px solid #1B2130; padding: 18px 18px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; border: 1px solid #2A3550; border-radius: 6px; overflow: hidden">
+<button style="flex: 1 1 0; height: 44px; background: #E6E9F0; color: #090C12; border: 0; font: inherit; font-size: 14px; font-weight: 600" aria-pressed="true">Relations</button>
+<button style="flex: 1 1 0; height: 44px; background: #0D111A; color: #E6E9F0; border: 0; font: inherit; font-size: 14px; font-weight: 600" aria-pressed="false">Events</button>
+</div>
+<div>
+<div class="mono" style="font-size: 11px; color: #8F98AB; margin-bottom: 4px">rings - what touches it</div>
+<label class="f"><input type="checkbox" checked>Relates to<b>41</b></label>
+<label class="f"><input type="checkbox" checked>Referenced by<b>170</b></label>
+<label class="f"><input type="checkbox" checked>Pages, codeunits<b>32</b></label>
+<label class="f"><input type="checkbox" checked>Extensions<b>4</b></label>
+<label class="f"><input type="checkbox" checked>Subscribers<b>11</b></label>
+<label class="f"><input type="checkbox" checked>Learn pages<b>[n]</b></label>
+<label class="f"><input type="checkbox">Videos, posts<b>[n]</b></label>
+</div>
+<div>
+<div class="mono" style="font-size: 11px; color: #8F98AB; margin-bottom: 4px">relation kind - line style</div>
+<div class="mono" style="font-size: 12px; color: #C9CFDB; line-height: 2">
+<div>─── table_relation</div><div>- - - source_table, pages</div><div>· · · calc_formula</div><div>═══ extends</div>
+</div>
+</div>
+<label style="margin-top: auto; display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #8F98AB">Version
+<select style="height: 44px; background: #0D111A; color: #E6E9F0; border: 1px solid #2A3550; border-radius: 6px; padding: 0 10px; font: inherit"><option>BC29</option><option>BC30</option><option>BC28</option></select></label>
+<button style="height: 44px; background: #0D111A; color: #E6E9F0; border: 1px solid #2A3550; border-radius: 6px; font: inherit; font-size: 14px">Show as list</button>
+</aside>
+
+<div style="flex: 1 1 0; min-width: 0; position: relative">
+<svg viewBox="0 0 860 844" style="display: block; width: 860px; height: 844px">
+<circle cx="450" cy="420" r="160" fill="none" stroke="#1B2130"></circle><circle cx="450" cy="420" r="260" fill="none" stroke="#1B2130" style="stroke-dasharray: 2 6"></circle>
+<line x1="450" y1="130" x2="450" y2="720" stroke="#1B2130" style="stroke-dasharray: 2 6"></line>
+<text x="462" y="286" class="sl">→ Customer points to</text><text x="438" y="286" class="sl e">points to Customer →</text>
+
+<path d="M450 420 L530 281 M450 420 L573 317 M450 420 L600 365 M450 420 L610 420 M450 420 L600 475 M450 420 L573 523 M450 420 L530 559" fill="none" stroke="#6F82B3"></path>
+<path d="M450 420 L370 559 M450 420 L327 523 M450 420 L300 475 M450 420 L300 365 M450 420 L327 317 M450 420 L370 281" fill="none" stroke="#6F82B3"></path>
+<path d="M450 420 L290 420" fill="none" stroke="#C6D6FF" style="stroke-width: 2"></path>
+<path d="M290 420 L200 413 M290 420 L190 437 M290 420 L200 461" fill="none" stroke="#6F82B3"></path>
+<path d="M450 420 L539 664 M450 420 L361 664" fill="none" stroke="#6F82B3" style="stroke-dasharray: 6 4"></path><path d="M450 420 L450 680" fill="none" stroke="#6F82B3" style="stroke-width: 3"></path><path d="M450 420 L450 680" fill="none" stroke="#090C12"></path>
+<path d="M450 420 L364 185 M450 420 L450 170 M450 420 L536 185" fill="none" stroke="#6F82B3" style="stroke-dasharray: 1 5"></path>
+
+<rect x="430" y="400" width="40" height="40" rx="6" fill="#FFFFFF"></rect><text x="450" y="462" class="lb" style="text-anchor: middle; font-size: 15px">Table 18 "Customer"</text><text x="450" y="478" class="sl" style="text-anchor: middle">Microsoft.Sales.Customer</text>
+
+<text x="640" y="250" class="grp">RELATES TO - 41</text>
+<rect x="523" y="274" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="546" y="286" class="lb">Table 92 "Customer Posting Group"</text>
+<rect x="566" y="310" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="589" y="322" class="lb">Table 3 "Payment Terms"</text>
+<rect x="593" y="358" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="616" y="370" class="lb">Table 4 "Currency"</text>
+<rect x="603" y="413" width="14" height="14" rx="2" fill="oklch(0.80 0.12 301)"></rect><text x="626" y="425" class="lb">Table 14 "Location"</text>
+<rect x="593" y="468" width="14" height="14" rx="2" fill="oklch(0.80 0.12 61)"></rect><text x="616" y="480" class="lb">Table 5050 "Contact"</text>
+<rect x="566" y="516" width="14" height="14" rx="2" fill="oklch(0.80 0.12 61)"></rect><text x="589" y="528" class="lb">Table 13 "Salesperson/Purchaser"</text>
+<rect x="523" y="552" width="14" height="14" rx="2" fill="oklch(0.80 0.12 164)"></rect><text x="546" y="564" class="lb">Table 9 "Country/Region"</text>
+<rect x="560" y="582" width="96" height="28" rx="14" fill="#0D111A" stroke="#2A3550"></rect><text x="608" y="600" class="grp" style="text-anchor: middle">+ 34 more</text>
+
+<text x="260" y="250" class="grp e">REFERENCED BY - 170</text>
+<rect x="363" y="274" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><text x="354" y="286" class="lb e">Table 110 "Sales Shipment Header"</text>
+<rect x="320" y="310" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><text x="311" y="322" class="lb e">Table 112 "Sales Invoice Header"</text>
+<rect x="293" y="358" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><text x="284" y="370" class="lb e">Table 21 "Cust. Ledger Entry"</text>
+<rect x="281" y="411" width="18" height="18" rx="3" fill="#FFFFFF"></rect><rect x="275" y="405" width="30" height="30" rx="6" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect>
+<text x="268" y="394" class="lb e" style="fill: #FFD27A">Table 36 "Sales Header" - expanded</text>
+<rect x="195" y="408" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.8"></rect><text x="186" y="417" class="sl e">Table 37 "Sales Line"</text>
+<rect x="185" y="432" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.8"></rect><text x="176" y="441" class="sl e">Page 42 "Sales Order"</text>
+<rect x="195" y="456" width="10" height="10" rx="2" fill="none" stroke="#8F98AB"></rect><text x="186" y="465" class="sl e">+ [n] more of its own</text>
+<rect x="293" y="468" width="14" height="14" rx="2" fill="oklch(0.80 0.12 250)"></rect><text x="284" y="480" class="lb e">Table 81 "Gen. Journal Line"</text>
+<rect x="320" y="516" width="14" height="14" rx="2" fill="oklch(0.80 0.12 10)"></rect><text x="311" y="528" class="lb e">Table 5900 "Service Header"</text>
+<rect x="363" y="552" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><text x="354" y="564" class="lb e">Table 114 "Sales Cr.Memo Header"</text>
+<rect x="244" y="582" width="104" height="28" rx="14" fill="#0D111A" stroke="#2A3550"></rect><text x="296" y="600" class="grp" style="text-anchor: middle">+ 163 more</text>
+
+<rect x="494" y="650" width="150" height="30" rx="6" fill="#0D111A" stroke="#2A3550"></rect><text x="569" y="669" class="grp" style="text-anchor: middle">pages, codeunits - 32</text>
+<rect x="385" y="682" width="130" height="30" rx="6" fill="#0D111A" stroke="#2A3550"></rect><text x="450" y="701" class="grp" style="text-anchor: middle">extensions - 4</text>
+<rect x="256" y="650" width="150" height="30" rx="6" fill="#0D111A" stroke="#2A3550"></rect><text x="331" y="669" class="grp" style="text-anchor: middle">subscribers - 11</text>
+
+<circle cx="364" cy="185" r="7" fill="#9DB8FF"></circle><text x="352" y="180" class="lb e">Register new customers</text><text x="352" y="196" class="sl e">learn</text>
+<rect x="390" y="140" width="120" height="30" rx="6" fill="#0D111A" stroke="#2A3550"></rect><text x="450" y="159" class="grp" style="text-anchor: middle">Learn pages - [n]</text>
+<polygon points="530,178 544,185 530,192" fill="#C9CFDB"></polygon><text x="552" y="180" class="lb">[video title]</text><text x="552" y="196" class="sl">video - [date]</text>
+<text x="24" y="820" class="sl">ring 1: direct relations, split by direction - ring 2: grouped kinds, open on click - outer arc: docs and media - never the whole second hop</text>
+</svg>
+</div>
+
+<aside style="width: 360px; flex: none; box-sizing: border-box; background: #0D111A; border-left: 1px solid #1B2130; padding: 20px 22px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span class="mono" style="font-size: 12px; color: #9DB8FF; border: 1px solid #3A5BA8; border-radius: 3px; padding: 2px 8px">official - Microsoft</span>
+<span class="mono" style="font-size: 12px; color: #B4BCCB; border: 1px dashed #4A5266; border-radius: 3px; padding: 2px 8px">unreviewed - machine-generated</span>
+</div>
+<div>
+<div class="mono" style="font-size: 12px; color: #8F98AB">selected link</div>
+<h1 style="margin: 4px 0 0; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.25">Table 36 "Sales Header" points to Table 18 "Customer"</h1>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="border: 1px solid #1B2130; border-radius: 6px; padding: 12px 14px; background: #161C2A">
+<div class="mono" style="font-size: 11px; color: #8F98AB">table_relation</div>
+<div class="mono" style="font-size: 13px; margin-top: 4px">"Sell-to Customer No." → Customer."No."</div>
+</div>
+<div style="border: 1px solid #1B2130; border-radius: 6px; padding: 12px 14px; background: #161C2A">
+<div class="mono" style="font-size: 11px; color: #8F98AB">table_relation</div>
+<div class="mono" style="font-size: 13px; margin-top: 4px">"Bill-to Customer No." → Customer."No."</div>
+</div>
+</div>
+<a href="#" style="display: flex; gap: 8px; align-items: center; font-size: 13px; text-decoration: none; color: #E6E9F0"><span class="mono" style="font-size: 11px; background: #1D2A22; color: #9FDDB4; padding: 2px 6px; border-radius: 3px">code</span><span class="mono" style="flex: 1 1 0; font-size: 12px">SalesHeader.Table.al</span><span class="mono" style="font-size: 11px; color: #8F98AB">main @ [commit]</span></a>
+<div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px">
+<a href="#" style="display: flex; align-items: center; justify-content: center; height: 44px; background: #E6E9F0; color: #090C12; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600">Re-centre on Table 36 "Sales Header"</a>
+<a href="#" style="display: flex; align-items: center; justify-content: center; height: 44px; border: 1px solid #2A3550; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; color: #E6E9F0">Open its page</a>
+</div>
+<div style="margin-top: auto; border-top: 1px solid #1B2130; padding-top: 12px">
+<div class="mono" style="font-size: 11px; color: #8F98AB; margin-bottom: 6px">trail</div>
+<div style="font-size: 13px; color: #C9CFDB; line-height: 1.6"><a href="#">Table 18 "Customer"</a> → Table 36 "Sales Header"</div>
+<a href="D-main.dc.html" style="display: block; margin-top: 10px; font-size: 14px">← Back to the galaxy, at this star</a>
+<a class="mono" href="#" style="display: block; margin-top: 6px; font-size: 12px">table-18-customer.neighbourhood.md</a>
+</div>
+</aside>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

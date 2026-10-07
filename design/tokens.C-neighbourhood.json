@@ -1,0 +1,60 @@
+{
+  "$meta": {
+    "project": "BC Observatory",
+    "direction": "Deep field - addition C: Neighbourhood explorer",
+    "generated": "2026-10-07",
+    "note": "Additions only, same shape as design/tokens.json. Contrast ratios are WCAG 2 ratios against the theme background (#090C12 dark, #F4F5F8 light), computed. Light values are proposals: no light artboard was drawn for C."
+  },
+  "color": {
+    "dark": {
+      "neighbourhood": {
+        "ringGuide": { "value": "#1B2130", "contrast": 1.2, "use": "ring circles and the direction divider. Decorative" },
+        "edge": { "value": "#6F82B3", "contrast": 5.1, "use": "resting edge. Brighter than galaxy.edge (1.9) on purpose: here the edges are the content, so they must pass 3:1" },
+        "edgeActive": { "value": "#C6D6FF", "contrast": 13.5, "width": "2px", "use": "hovered or selected edge" },
+        "centre": "#FFFFFF",
+        "nodeSelected": { "fill": "#FFFFFF", "ring": "#FFD27A" },
+        "eventNode": { "value": "#FFD27A", "contrast": 13.7, "use": "selected published event (diamond)" },
+        "eventNodeRest": { "value": "#8F98AB", "contrast": 6.8 },
+        "groupPill": { "background": "#0D111A", "border": "#2A3550", "text": { "value": "#C9CFDB", "contrastOnSurface": 12.1 } },
+        "groupPillOpen": { "background": "#2A2413", "border": "#FFD27A", "text": { "value": "#FFD27A", "contrast": 10.8 } },
+        "directionLabel": { "value": "#8F98AB", "contrast": 6.8 }
+      }
+    },
+    "light": {
+      "neighbourhood": {
+        "ringGuide": "#D9DDE6",
+        "edge": { "value": "#566074", "contrast": 5.8 },
+        "edgeActive": { "value": "#2447B8", "contrast": 7.2, "width": "2px" },
+        "centre": "#131722",
+        "nodeSelected": { "fill": "#131722", "ring": "#A85F00" },
+        "eventNode": { "value": "#A85F00", "contrast": 4.5, "note": "borderline: the diamond shape carries it" },
+        "eventNodeRest": { "value": "#566074", "contrast": 5.8 },
+        "groupPill": { "background": "#FFFFFF", "border": "#8A93A6", "text": "#3A4356" },
+        "groupPillOpen": { "background": "#F6E7C8", "border": "#A85F00", "text": { "value": "#7A4500", "contrast": 6.4 } }
+      }
+    }
+  },
+  "neighbourhood": {
+    "ring": { "r1": "160px: direct code relations", "r2": "260px: grouped kinds (pages and codeunits, extensions, subscribers) as pills", "arc": "top 60 degrees at r2: Learn pages, videos, posts" },
+    "direction": "right half = the centre points to it (relates to); left half = it points to the centre (referenced by). Never mixed",
+    "maxPerRing": 7,
+    "overflow": "one '+ n more' pill per ring side; opens the full list in the panel, grouped by system",
+    "nodeSize": { "centre": "40px", "ring1": "14px", "selected": "18px", "secondHop": "10px" },
+    "nodeShape": { "object": "rounded square", "hub": "circle", "learnPage": "circle 7px, link colour", "video": "triangle", "event": "diamond" },
+    "nodeColour": "system colour of the neighbour (color.system), always with its label",
+    "edgeStyle": {
+      "table_relation": "solid 1px",
+      "source_table, lookup_page, drilldown_page, card_page, runs_on": "dashed 6 4",
+      "calc_formula": "dotted 1 5",
+      "extends": "double line (3px stroke with 1px background stroke inside)",
+      "learn link": "dotted 1 5 to the outer arc"
+    },
+    "expand": "one neighbour at a time; its own top 2 neighbours plus a count fan out 90px beyond the ring; expanding another collapses the first",
+    "perPageDiagram": { "size": "130 x 130px", "content": "centre + top neighbour per ring (max 5) + total link count", "render": "inline SVG written at build time, no script" }
+  },
+  "motion": {
+    "ringFill": { "duration": "300ms per ring", "use": "loading: rings draw at once, nodes fade in ring by ring" },
+    "recentre": { "duration": "900ms", "easing": "cubic-bezier(.65,0,.2,1)", "use": "selected neighbour slides to the centre, old centre slides to its ring position. Same curve as panelSlide" },
+    "reducedMotion": "re-centre is a cut; nodes appear without fading"
+  }
+}

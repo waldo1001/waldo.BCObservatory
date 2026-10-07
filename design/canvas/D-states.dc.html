@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D - Galaxy, honest: levels and states</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+.tile{background:#0D111A;border:1px solid #1B2130;border-radius:8px;display:flex;flex-direction:column;overflow:hidden}
+.tile svg{display:block;width:100%;height:auto;background:#090C12}
+.cap{padding:12px 16px;display:flex;flex-direction:column;gap:4px}
+.cap b{font-size:16px;color:#E6E9F0}
+.cap span{font-size:14px;line-height:1.45;color:#C9CFDB}
+.sl{font-family:'JetBrains Mono',monospace;font-size:11px;fill:#8F98AB}
+.lb{font-size:13px;font-weight:600;fill:#E6E9F0}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; box-sizing: border-box; padding: 24px; background: #090C12; color: #E6E9F0; font-family: 'Bricolage Grotesque', sans-serif; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<circle cx="225" cy="150" r="60" fill="rgba(150,170,255,0.16)"></circle>
+<path d="M225 150 L290 110 L340 150 L360 210 M225 150 L160 190 L110 150 L90 90 M290 110 L160 190 M340 150 L250 230 M110 150 L200 70 M225 150 L250 230 M225 150 L200 70" fill="none" stroke="#34415F"></path>
+<circle cx="225" cy="150" r="12" fill="oklch(0.80 0.12 250)"></circle><text x="242" y="146" class="lb">Finance</text>
+<circle cx="290" cy="110" r="10" fill="oklch(0.80 0.12 267)"></circle><text x="304" y="106" class="lb">Sales</text>
+<circle cx="160" cy="190" r="10" fill="oklch(0.80 0.12 284)"></circle><text x="92" y="212" class="lb">Purchasing</text>
+<circle cx="340" cy="150" r="9" fill="oklch(0.80 0.12 301)"></circle><text x="354" y="154" class="lb">Inventory</text>
+<circle cx="110" cy="150" r="8" fill="oklch(0.80 0.12 319)"></circle><circle cx="360" cy="210" r="8" fill="oklch(0.80 0.12 336)"></circle><circle cx="90" cy="90" r="7" fill="oklch(0.80 0.12 353)"></circle><circle cx="250" cy="230" r="7" fill="oklch(0.80 0.12 147)"></circle><circle cx="200" cy="70" r="7" fill="oklch(0.80 0.12 181)"></circle>
+<circle cx="290" cy="110" r="18" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle>
+<text x="14" y="24" class="sl">level 1 - galaxy</text><text x="14" y="288" class="sl">neighbours share the most cross-system edges</text>
+</svg>
+<div class="cap"><b>Level 1: galaxy</b><span>Systems keep the two-arm spiral, but the order along the arms comes from cross-system edge weight, so neighbours are related. Edge thickness is that weight. Newly lit ring as today.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<path d="M225 150 L140 100 M140 100 L80 70 M225 150 L120 200 M225 150 L200 250" fill="none" stroke="#2A3550"></path>
+<rect x="270" y="50" width="150" height="90" rx="10" fill="none" stroke="#1B2130"></rect><rect x="280" y="170" width="140" height="90" rx="10" fill="none" stroke="#1B2130"></rect>
+<circle cx="225" cy="150" r="9" fill="oklch(0.80 0.12 267)"></circle><circle cx="140" cy="100" r="7" fill="oklch(0.80 0.12 267)"></circle><circle cx="80" cy="70" r="4" fill="oklch(0.80 0.12 267)" style="opacity: 0.6"></circle><circle cx="120" cy="200" r="6" fill="oklch(0.80 0.12 267)" style="opacity: 0.85"></circle><circle cx="200" cy="250" r="5" fill="oklch(0.80 0.12 267)" style="opacity: 0.7"></circle>
+<rect x="300" y="80" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="350" y="100" width="9" height="9" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.6"></rect><rect x="390" y="70" width="7" height="7" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.45"></rect><rect x="310" y="200" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.9"></rect><rect x="370" y="220" width="8" height="8" rx="1" fill="oklch(0.80 0.12 267)" style="opacity: 0.5"></rect>
+<polygon points="152,86 160,90 152,94" fill="#C9CFDB"></polygon><rect x="128" y="186" width="8" height="3" fill="#C9CFDB"></rect>
+<rect x="318" y="94" width="150" height="24" rx="4" fill="#161C2A" stroke="#2A3550"></rect><text x="326" y="110" class="lb" style="font-size: 12px">Table 18 "Customer"</text>
+<text x="14" y="24" class="sl">level 2 - system, hover</text>
+</svg>
+<div class="cap"><b>Level 2: system, hover</b><span>Hubs on the Learn tree, objects in their namespace plot, media as bodies next to the hub they mention. Hover shows the star tooltip (existing component), nothing else moves.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="270" y="50" width="150" height="90" rx="10" fill="none" stroke="#1B2130"></rect>
+<path d="M307 87 L140 100 M307 87 L330 210 M307 87 L360 104" fill="none" stroke="#C6D6FF"></path><path d="M307 87 L446 30 M307 87 L446 160" fill="none" stroke="#C6D6FF" style="stroke-dasharray: 6 4"></path>
+<circle cx="140" cy="100" r="7" fill="#FFFFFF"></circle><circle cx="120" cy="200" r="6" fill="oklch(0.80 0.12 267)" style="opacity: 0.3"></circle><circle cx="225" cy="150" r="9" fill="oklch(0.80 0.12 267)" style="opacity: 0.3"></circle>
+<rect x="298" y="78" width="18" height="18" rx="3" fill="#FFFFFF"></rect><circle cx="307" cy="87" r="16" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle>
+<rect x="355" y="99" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="324" y="204" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect>
+<rect x="376" y="18" width="70" height="22" rx="4" fill="#0D111A" stroke="oklch(0.80 0.12 250)"></rect><text x="383" y="33" class="sl" style="fill: #E6E9F0">Finance →</text>
+<rect x="366" y="150" width="80" height="22" rx="4" fill="#0D111A" stroke="oklch(0.80 0.12 301)"></rect><text x="373" y="165" class="sl" style="fill: #E6E9F0">Inventory →</text>
+<text x="14" y="24" class="sl">level 3 - star focused</text><text x="14" y="288" class="sl">solid: inside the system - dashed: crosses out</text>
+</svg>
+<div class="cap"><b>Level 3: star focused</b><span>Only the focused star's edges are drawn. Solid stays in the system; dashed runs to a port on the canvas edge, labelled with the target system. Clicking a port flies there along the edge.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="270" y="50" width="150" height="90" rx="10" fill="none" stroke="#1B2130"></rect>
+<circle cx="140" cy="100" r="7" fill="oklch(0.80 0.12 267)"></circle><circle cx="225" cy="150" r="9" fill="oklch(0.80 0.12 267)"></circle>
+<rect x="298" y="78" width="18" height="18" rx="3" fill="oklch(0.80 0.12 267)"></rect>
+<rect x="292" y="72" width="30" height="30" rx="4" fill="none" stroke="#FFD27A" style="stroke-width: 2"></rect>
+<rect x="30" y="170" width="390" height="100" rx="8" fill="#0D111A" stroke="#2A3550"></rect>
+<text x="44" y="192" class="sl">list view - Sales &amp; Receivables - 3 of [n] stars</text>
+<rect x="40" y="200" width="370" height="22" rx="3" fill="#161C2A" stroke="#FFD27A"></rect><text x="50" y="215" class="lb" style="font-size: 12px">Table 18 "Customer"</text><text x="300" y="215" class="sl">170 referenced by</text>
+<text x="50" y="240" class="lb" style="font-size: 12px; font-weight: 400">Table 36 "Sales Header"</text><text x="50" y="260" class="lb" style="font-size: 12px; font-weight: 400">Customers (hub)</text>
+<text x="14" y="24" class="sl">keyboard focus + list fallback</text>
+</svg>
+<div class="cap"><b>Keyboard focus and list view</b><span>Focus ring: accent, 2px, offset 2px, square for objects. Tab walks stars in list order; arrows move to the nearest star; Esc goes up a level. "list view" swaps the picture for the same stars as a sortable list.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<path d="M225 150 L140 100 M225 150 L120 200 M225 150 L300 220" fill="none" stroke="#2A3550"></path>
+<circle cx="225" cy="150" r="9" fill="oklch(0.80 0.12 267)"></circle><circle cx="140" cy="100" r="7" fill="oklch(0.80 0.12 267)"></circle><circle cx="120" cy="200" r="6" fill="oklch(0.80 0.12 267)"></circle><circle cx="300" cy="220" r="6" fill="oklch(0.80 0.12 267)" style="opacity: 0.8"></circle>
+<circle cx="140" cy="100" r="15" fill="none" stroke="#FFD27A" style="stroke-width: 2"></circle><circle cx="140" cy="100" r="24" fill="none" stroke="#FFD27A" style="opacity: 0.4"></circle><circle cx="140" cy="100" r="33" fill="none" stroke="#FFD27A" style="opacity: 0.15"></circle>
+<polygon points="156,84 166,89 156,94" fill="#FFD27A"></polygon>
+<rect x="170" y="70" width="230" height="44" rx="4" fill="#161C2A" stroke="#2A3550"></rect><text x="180" y="88" class="sl" style="fill: #FFD27A">video - landed [date]</text><text x="180" y="104" class="lb" style="font-size: 12px">[video title]</text>
+<text x="14" y="24" class="sl">lens: this week</text><text x="14" y="288" class="sl">reduced motion: static double ring, no pulse</text>
+</svg>
+<div class="cap"><b>Newly lit: something landed</b><span>A hub pulses (existing 2400 ms pulse) when a video or post from the last 7 days mentions it; the new body is accent coloured. The "this week" lens dims everything else and lists the landings in the panel.</span></div>
+</div>
+
+<div class="tile">
+<svg viewBox="0 0 450 300">
+<rect x="40" y="50" width="170" height="200" rx="10" fill="none" stroke="#1B2130"></rect><rect x="240" y="50" width="170" height="200" rx="10" fill="none" stroke="#1B2130"></rect>
+<rect x="70" y="90" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.3"></rect><rect x="130" y="120" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="126" y="116" width="20" height="20" rx="4" fill="none" stroke="#FFD27A"></rect>
+<rect x="90" y="180" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.3"></rect><rect x="160" y="200" width="12" height="12" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="156" y="196" width="20" height="20" rx="4" fill="none" stroke="#FFD27A"></rect>
+<rect x="280" y="100" width="14" height="14" rx="2" fill="oklch(0.80 0.12 267)"></rect><rect x="276" y="96" width="22" height="22" rx="4" fill="none" stroke="#FFD27A"></rect><rect x="350" y="150" width="10" height="10" rx="2" fill="oklch(0.80 0.12 267)" style="opacity: 0.3"></rect>
+<rect x="300" y="200" width="12" height="12" rx="2" fill="none" stroke="#8F98AB" style="stroke-dasharray: 2 2"></rect><text x="318" y="210" class="sl">obsolete</text>
+<text x="14" y="24" class="sl">lens: changed in BC29 - 899 objects</text><text x="14" y="288" class="sl">accent frame = changed - dashed outline = obsolete</text>
+</svg>
+<div class="cap"><b>Version lens</b><span>Changed objects get an accent frame and keep their brightness; the rest drop to 0.3. Obsolete is a dashed hollow square. The panel counts per namespace and exits to the version timeline for the member-level diff.</span></div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

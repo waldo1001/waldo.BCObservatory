@@ -1,0 +1,56 @@
+{
+  "$meta": {
+    "project": "BC Observatory",
+    "direction": "Deep field - addition A: Layered Observatory (Tilt)",
+    "generated": "2026-10-07",
+    "note": "Additions only, same shape as design/tokens.json. Builds on tokens.D-galaxy-honest.json (positions, media bodies, lens marks) and reuses neighbourhood.edge from tokens.C-neighbourhood.json. Contrast ratios are WCAG 2 ratios against the theme background (#090C12 dark, #F4F5F8 light), computed. Light values are proposals: no light artboard was drawn for A."
+  },
+  "color": {
+    "dark": {
+      "layers": {
+        "plane": { "fill": "#0D111A", "fillOpacity": 0.7, "border": { "value": "#2A3550", "contrast": 1.6 }, "use": "one parallelogram per plane. Decorative: the plane label carries the meaning" },
+        "planeActive": { "border": { "value": "#FFD27A", "contrast": 13.7 }, "use": "the plane a lens is acting on (country = BE)" },
+        "planeLabel": { "value": "#C9CFDB", "contrast": 12.5, "style": "mono 12px, upper case" },
+        "namespaceDivider": "#1B2130",
+        "line": { "value": "#6F82B3", "contrast": 5.1, "use": "resting line between planes. Same value as neighbourhood.edge: a line here is a fact" },
+        "coreSample": { "value": "#FFD27A", "contrast": 13.7, "width": "2px", "use": "vertical line through the focused star on every plane" },
+        "relationInPlane": { "value": "#C6D6FF", "contrast": 13.5, "use": "object relations of the focused star, inside the code plane only" },
+        "noLineUp": { "value": "#8F98AB", "contrast": 6.8, "style": "hollow square, 1px", "use": "object with no Learn page" },
+        "noLineUpLens": { "value": "#FFD27A", "contrast": 13.7, "style": "hollow square, 2px", "use": "the same, under the coverage lens" },
+        "countryMark": "system colour of Localizations (hue 181); accent when it is in the core sample",
+        "lensDim": "opacity 0.3"
+      }
+    },
+    "light": {
+      "layers": {
+        "plane": { "fill": "#FFFFFF", "fillOpacity": 0.8, "border": "#D9DDE6" },
+        "planeActive": { "border": { "value": "#A85F00", "contrast": 4.5 } },
+        "planeLabel": { "value": "#3A4356", "contrast": 9.1 },
+        "namespaceDivider": "#D9DDE6",
+        "line": { "value": "#566074", "contrast": 5.8 },
+        "coreSample": { "value": "#A85F00", "contrast": 4.5, "width": "2px", "note": "borderline: the 2px width and the vertical direction carry it" },
+        "relationInPlane": { "value": "#2447B8", "contrast": 7.2 },
+        "noLineUp": { "value": "#566074", "contrast": 5.8 },
+        "noLineUpLens": { "value": "#A85F00", "contrast": 4.5 },
+        "lensDim": "opacity 0.35"
+      }
+    },
+    "tier": {
+      "mixed": { "label": "mixed - official and community", "dark": { "border": "#4A5266", "text": "#B4BCCB", "contrast": 10.2 }, "note": "fills the TODO in the base file as a proposal: a core sample usually crosses both tiers. Solid border, same greys as the review badge" }
+    }
+  },
+  "layers": {
+    "planes": ["media", "hubs", "code", "countries"],
+    "tilt": "one fixed affine transform, no free orbit: x' = x - 0.92 * v * planeDepth, y' = planeTop + v * planeDepth, with v the normalised y of the flat system. As drawn: plane 760 wide, 130 deep, sheared 120 left, planes 180 apart",
+    "sharedXY": "every plane uses the flat system's x/y from the D layout. An object's Learn hub sits where the D layout put it, so lines are slanted, not vertical; only the core sample of the focused star is drawn as one vertical line, by snapping its sample to the star's x",
+    "lineStyle": { "mentions (media to hub)": "dotted 1 5", "Learn page names object (hub to code)": "solid 1px", "country replaces W1 object (code to country)": "dashed 6 4" },
+    "levelOfDetail": "code plane draws the D stars at full size plus every other object of the system as a 7px hollow or filled square; lines between planes are drawn for the D stars and the focused star only, the rest on demand through a lens",
+    "maxLines": "about 150 lines on screen at rest; a lens may raise it for the plane it acts on",
+    "foldAway": "a lens that uses two planes folds the other two to 24px strips with their label"
+  },
+  "motion": {
+    "tilt": { "duration": "600ms", "easing": "cubic-bezier(.65,0,.2,1)", "use": "flat to layered and back; lines fade in over the last 200ms" },
+    "coreSample": { "duration": "300ms", "use": "the vertical line draws from the focused star outward, up and down" },
+    "reducedMotion": "tilt is a cut; the core sample appears without drawing"
+  }
+}
