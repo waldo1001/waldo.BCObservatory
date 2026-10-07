@@ -69,33 +69,9 @@ const week = landed();
     )}
     <script>
       import { mountPalette } from "../scripts/palette";
+      import { mountChrome } from "../scripts/chrome";
+      mountChrome();
       mountPalette(document.body.dataset.base ?? "/");
-    </script>
-    <script is:inline>
-      // the header's height as --hdr-h, so a page can fill the rest of the viewport (the home galaxy, D70)
-      const hdr = document.querySelector(".site-header");
-      if (hdr) {
-        const set = () => document.documentElement.style.setProperty("--hdr-h", `${hdr.offsetHeight}px`);
-        set();
-        if (window.ResizeObserver) new ResizeObserver(set).observe(hdr);
-      }
-      // a questions menu (the home galaxy, D70) closes on Esc, on a click outside it and on a pick (a same-page hash link would leave it open)
-      for (const d of document.querySelectorAll("details.ask")) {
-        document.addEventListener("click", (e) => { if (d.open && (!d.contains(e.target) || e.target.closest("a"))) d.open = false; });
-        d.addEventListener("keydown", (e) => {
-          if (!d.open) return;
-          if (e.key.startsWith("Arrow")) e.stopPropagation();
-          if (e.key === "Escape") { e.stopPropagation(); d.open = false; d.querySelector("summary").focus(); }
-        });
-      }
-      for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {
-        const root = document.documentElement;
-        const now = root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
-        const next = now === "light" ? "dark" : "light";
-        root.dataset.theme = next;
-        try { localStorage.setItem("bcobs-theme", next); } catch {}
-        dispatchEvent(new Event("bcobs-theme"));
-      });
     </script>
   </body>
 </html>
