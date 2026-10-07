@@ -347,10 +347,15 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   // work back through `requeue`, and every worker should be there to take it. It leaves when nothing is running,
   // parked or requeued. (Workers used to leave as soon as the cursor reached the end, so late in a run one worker
   // served every parked caption item and its LLM stages alone.)
+  // One fallback timer for all idle workers, never one per idle() call: every call used to add its own, a firing one
+  // woke every worker, each went idle again with a fresh timer while the old ones were still pending, and the timer
+  // count grew about fivefold per second while one long stage (a code extraction) held the only busy worker. That
+  // was the item-loop leak behind the OOMs of 2026-10-06 and 2026-10-07: 70 MB to 8 GB in four minutes (D69).
   let wake: (() => void) | null = null;
-  const nudge = () => { const w = wake; wake = null; w?.(); };
+  let fallback: ReturnType<typeof setTimeout> | null = null;
+  const nudge = () => { if (fallback) { clearTimeout(fallback); fallback = null; } const w = wake; wake = null; w?.(); };
   wakeWorker = nudge;
-  const idle = () => new Promise<void>((r) => { const prev = wake; wake = () => { prev?.(); r(); }; setTimeout(nudge, 1000); });
+  const idle = () => new Promise<void>((r) => { const prev = wake; wake = () => { prev?.(); r(); }; fallback ??= setTimeout(nudge, 1000); });
   const parkedCount = () => [...parked.values()].reduce((n, l) => n + l.length, 0);
   const beat = o.heartbeatMs && o.onHeartbeat ? setInterval(() => {
     const now = Date.now();

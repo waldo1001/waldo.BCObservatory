@@ -37,17 +37,17 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   only, no atlas servers) are section 4.7. Until it lands, object pages have no Calls / Called by, and an agent
   with the plugin has no sanctioned way to read a procedure body.
 
-- **Nightly memory (D69, 2026-10-07)**: run 37586529387 died seven times on the heap in code extraction, three
-  majors in flight at once. Fixed by a `code` lane of one; the next nightly is the test. If a run dies on memory
-  again, read the heartbeat lines first (`gh run view <id> --log | grep heartbeat:`).
-- **Galaxy views: one place, three views**: `docs/specs/galaxy-views.md`, decision D66, PLAN milestone M8. Design in
-  `design/HANDOFF.views.md` and the D, C and A addenda (untracked in the dev worktree: the owner commits them).
-  All five phases are built and committed on `dev/next`, not pushed: the pipeline layout and star fields, the D
-  renderer, the C explorer, the home question entries, the A Tilt with namespace tiles as level of detail. What ships
-  only appears after a nightly runs the new graph stage (summary, `landed.json`, `layers/`); until then the new
-  renderer reads the old summary and hides Tilt. Section 9 of the spec lists sizes and every deviation.
-
 ## Where things stand
+
+**Shipped 2026-10-07, live after the next good nightly:**
+- **Galaxy views, D66** (`docs/specs/galaxy-views.md`, M8): all five phases on main. The galaxy on the Learn tree
+  and namespace plots with ports and a lens bar (D), the neighbourhood explorer at `/neighbourhood/` (C), question
+  entries on the home page, Tilt with namespace tiles as level of detail (A). The new summary, `landed.json` and
+  `graph/layers/` appear with the first nightly that reaches the graph stage; until then the renderer reads the old
+  summary and hides Tilt. Section 9 of the spec lists sizes and every deviation.
+- **Nightly memory, D69**: the item-loop leak was the executor's idle workers multiplying one-second fallback timers
+  while one long stage ran (70 MB to 8 GB in four minutes). Fixed with one shared timer and a test that counts them.
+  If a run dies on memory again, read the heartbeat lines first (`gh run view <id> --log | grep heartbeat:`).
 
 **M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
 (labels `self-hosted,macOS,ARM64,bcobs`, system LaunchDaemon). First nightly: 40 sources, 9,522 items discovered,

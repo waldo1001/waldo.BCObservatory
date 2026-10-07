@@ -294,3 +294,19 @@ test("the heartbeat names each item in flight with its stage and how long it has
   assert.deepEqual(seen!.map((x) => [x.id, x.stage]), [["video/yt-ms/VID1", "fetched"]]);
   assert.equal(beats.at(-1)!.length >= 0, true);
 });
+
+test("idle workers share one fallback timer while a long stage runs (D69: one timer per idle() grew fivefold a second)", async () => {
+  const m = setup(1);
+  // a long stage that yields often, like a code extraction: the five idle workers wait the whole time
+  const long: StageFn = async () => {
+    const until = Date.now() + 2_500;
+    while (Date.now() < until) await new Promise((r) => setImmediate(r));
+    return {};
+  };
+  const real = globalThis.setTimeout;
+  let fallbacks = 0;
+  globalThis.setTimeout = ((fn: (...a: unknown[]) => void, ms?: number, ...a: unknown[]) => { if (ms === 1000) fallbacks++; return real(fn, ms, ...a); }) as typeof setTimeout;
+  try { await run(m, allVideo({ fetched: long }), { concurrency: 6 }); } finally { globalThis.setTimeout = real; }
+  assert.equal(get(m, "VID1").state, "published");
+  assert.ok(fallbacks <= 6, `idle workers set ${fallbacks} fallback timers in 2.5 s (one at a time expected)`);
+});

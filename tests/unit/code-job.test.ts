@@ -154,7 +154,7 @@ test("an older major (config diff_only) leaves a skeleton in data and its full c
   for (const cc of ["be", "nl"]) assert.equal(existsSync(snapshotDir(dataDir, "23", cc)), false);
 });
 
-test("code extraction runs in its own lane, one major at a time (D69: three in parallel passed the 8 GB heap)", () => {
+test("code extraction runs in its own lane, one major in memory at a time (D69)", () => {
   const h = codeExtracted({} as any) as { lane?: string };
   assert.equal(h.lane, "code");
   const lanes = JSON.parse(readFileSync(new URL("../../config/budget.json", import.meta.url), "utf8")).lanes;

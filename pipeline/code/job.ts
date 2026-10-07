@@ -258,9 +258,8 @@ export function codeFetched(deps: CodeDeps): StageHandler {
 
 /**
  * `extracted`: W1 in full, every configured country as an overlay; writes data/code/<major>/<cc>/.
- * Lane "code" (D69): one major at a time. A major holds its whole W1 object map while it overlays every country, about
- * 2.3 GB at peak; three side by side passed the 8 GB heap and the nightly of 2026-10-07 died seven times in a row,
- * resuming the same three items each time.
+ * Lane "code" (D69): one major in memory at a time (about 1.2 GB at peak for BC29), as headroom; the OOMs that led to
+ * it were the executor's idle timers, not the majors.
  */
 export function codeExtracted(deps: CodeDeps): StageHandler {
   return {

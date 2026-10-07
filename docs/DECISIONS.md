@@ -513,17 +513,6 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   most connected nearest the centre. Stars gain `cross` (up to 6 target systems with up to 3 named objects), `mb`
   (media bodies), `ob` (obsolete in), `ec` (published events); `ev` now also counts videos and posts that name an
   object; `data/graph/landed.json` holds the week up to the run date, so "this week" no longer depends on the
-  reader's clock. Summary 50 to 92 KB gzipped. The namespace treemap moved from the atlas into
-  `pipeline/lib/treemap.ts`, and the move fixed a bug: rows after the first were sized against the shrinking
-  rectangle, so the atlas never filled its own frame.
-- **D69 Code extraction runs one major at a time.** The nightly of 2026-10-07 (run 37586529387) died on the heap
-  seven times in a row. Its heartbeats (D59) show no slow leak: every restart resumed the same three code items
-  (`bcapps/29`, `bcapps/30`, `sandbox-history/28`) in `extracted`, and the heap climbed from 70 MB to 7 GB in about
-  280 s and passed the 8 GB limit. A major holds its whole W1 object map while it overlays every country, about
-  2.3 GB at peak; D62's extra sandbox-history majors put three of them in flight at once under concurrency 6. The
-  `extracted` stage of the code pillar now runs in lane `code` with capacity 1 (`config/budget.json` lanes), the
-  mechanism D41 built for yt-dlp and blog fetches: the other workers keep doing other work, and a restart can no
-  longer resume three majors together. Fetching (git checkouts) stays parallel.
   reader's clock. The namespace treemap moved from the atlas into `pipeline/lib/treemap.ts`, and the move fixed a
   bug: rows after the first were sized against the shrinking rectangle, so the atlas never filled its own frame.
   Phase 2 draws it: tree guides and plots behind the stars, a focused star's in-system edges solid and its crossings
@@ -540,3 +529,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   unreadable, so it shipped with the handoff's level-of-detail fallback: one tile per namespace plot with its count
   and Learn share, the stars on top, one plot opened at a time. Summary 50 to 97 KB gzipped; a tilted Finance adds
   19 KB, its explorer file 95 KB. Sizes, deviations and the light-theme notes: the spec's section 9.
+- **D69 The item-loop leak: idle workers multiplied their own timers.** The nightlies of 2026-10-06 and 2026-10-07
+  died on the heap with nothing between checkpoints to say why; run 37586529387 died seven times in a row. Its
+  heartbeats (D59) showed one item in flight (`code/bcapps/29`, extracting) and the heap going from 70 MB to 8 GB in
+  four minutes. Extraction itself peaks at 1.2 GB: run alone it finishes fine. The cause was in the executor: every
+  idle worker's `idle()` set its own one-second fallback timer, a firing timer woke all idle workers, and each went
+  idle again with a new timer while the older ones were still pending. With concurrency 6 and one long stage holding
+  the only busy worker, the timer count grew about fivefold a second (a test counts 155 in 2.5 s on the old code).
+  Introduced with the waiting workers of 2026-10-06 (13538840f). Now all idle workers share one fallback timer and
+  a wake clears it; the same local nightly that died in 45 s finishes with a peak heap of 371 MB. Code extraction
+  also runs in its own lane of one (`config/budget.json` lanes), kept as headroom: an earlier reading of the same
+  heartbeats blamed three majors in parallel, which was wrong.
