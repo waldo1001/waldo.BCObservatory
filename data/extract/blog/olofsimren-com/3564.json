@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/olofsimren-com/3564",
+  "url": "https://www.olofsimren.com/record-deletion-tool-for-business-central-in-appsource/",
+  "title": "Record Deletion Tool for Business Central in AppSource",
+  "source": "olofsimren-com",
+  "published_at": "2025-08-19T12:50:31.000Z",
+  "words": 515,
+  "summary": "A Record Deletion Tool for Business Central is now available on AppSource as a free extension to clean up test data. The tool includes extensibility features allowing developers to add custom tables and handle protected tables through subscriber functions and codeunits with appropriate permissions.",
+  "key_points": [
+    "Free AppSource extension ported from the original Dynamics NAV Record Deletion tool",
+    "Allows cleanup of test transactions in a company",
+    "Extensible via event subscribers to add custom tables to deletion suggestions",
+    "Developers can handle protected tables using separate codeunits with delete permissions"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "record deletion",
+    "test data cleanup",
+    "appsource extension",
+    "extensibility",
+    "codeunit permissions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "70666591"
+    },
+    {
+      "type": "codeunit",
+      "name": "50100"
+    },
+    {
+      "type": "table",
+      "name": "NMM RDT Record Deletion Table"
+    },
+    {
+      "type": "table",
+      "name": "NMM Mobile Entry"
+    },
+    {
+      "type": "table",
+      "name": "NMM Mobile Mfg. Time Entry"
+    }
+  ],
+  "features": [
+    "record deletion",
+    "test data management",
+    "extensibility",
+    "protected table handling",
+    "delete permissions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In addition, it is now also extendable, you can add code to make your own tables defaults in the suggestion of what to delete.",
+      "why_it_matters": "Highlights the key new capability that allows customization for organization-specific tables"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

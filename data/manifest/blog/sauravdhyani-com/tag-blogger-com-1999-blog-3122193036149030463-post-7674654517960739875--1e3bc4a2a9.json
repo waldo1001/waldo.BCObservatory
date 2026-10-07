@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2025/09/exploring-vibe-coding-with-github.html",
   "published_at": "2025-09-04T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:22.846Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9.md",
+      "words": 845
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:22.858Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:22.860Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:22.861Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:22.869Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9.md"
     }
   },
   "input_hash": "2025-09-04T05:30:00.151Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4fafa5d3f6a5696e960fff7f21cc03f07d4c52fd2eb9a6319bc25483202a03e9"
 }

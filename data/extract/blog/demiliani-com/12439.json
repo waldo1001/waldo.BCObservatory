@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/demiliani-com/12439",
+  "url": "https://demiliani.com/2025/09/03/dynamics-365-business-central-controlling-the-summary-system-part/",
+  "title": "Dynamics 365 Business Central: controlling the Summary system part.",
+  "source": "demiliani-com",
+  "published_at": "2025-09-03T12:58:33.000Z",
+  "words": 267,
+  "summary": "Business Central version 27 introduces a controllable Summary system part for Copilot that developers can show, hide, or configure on card and document pages. The Summary FactBox uses AI to generate role-tailored record summaries and identify urgent information across the current page and related data.",
+  "key_points": [
+    "Version 26 added the Summary FactBox but it couldn't be controlled; version 27 makes it configurable",
+    "The Summary part uses Copilot to generate role-tailored summaries and identify urgent and important information",
+    "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages",
+    "Only one Summary system part is allowed per page, and it cannot be added to List pages"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "summary factbox",
+    "copilot",
+    "page customization",
+    "system parts",
+    "card pages",
+    "document pages"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "other",
+      "name": "page"
+    },
+    {
+      "type": "other",
+      "name": "pageextension"
+    }
+  ],
+  "features": [
+    "Summarize capability for Copilot",
+    "Summary FactBox",
+    "AI-generated record summary",
+    "DefaultSummaryPart identifier",
+    "Summary system part control"
+  ],
+  "versions": [
+    "26",
+    "27",
+    "2025 Wave 1",
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can only have one Summary system part per page.",
+      "why_it_matters": "Important constraint developers must know when designing pages with the Summary part"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

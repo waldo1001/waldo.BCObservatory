@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/08/15/azure-logic-apps-built-in-vs-managed-azure-blob-storage-connector/",
   "published_at": "2025-08-15T08:51:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:25.180Z",
+      "path": "vault:posts/demiliani-com/12292.md",
+      "words": 460
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:28.843Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:28.844Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:28.845Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:28.849Z",
+      "path": "content/posts/demiliani-com/12292.md"
     }
   },
   "input_hash": "2025-08-15T08:51:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b70c6503da6742420d560555280a5a5d0664d111f3318c84c73e83628a3ea3dd"
 }

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/08/29/enhancing-business-central-with-address-validation-ai/",
   "published_at": "2025-08-29T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:23.336Z",
+      "path": "vault:posts/aardvarklabs-blog/2467.md",
+      "words": 1214
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:23.345Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:23.346Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:23.347Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:23.353Z",
+      "path": "content/posts/aardvarklabs-blog/2467.md"
     }
   },
   "input_hash": "2025-08-26T23:28:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87086bf7b8e655f77d7df6e15f1402e30898b6c39623413f1c274ed563b02647"
 }

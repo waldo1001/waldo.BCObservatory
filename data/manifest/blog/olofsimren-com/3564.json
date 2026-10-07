@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/record-deletion-tool-for-business-central-in-appsource/",
   "published_at": "2025-08-19T12:50:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:24.838Z",
+      "path": "vault:posts/olofsimren-com/3564.md",
+      "words": 515
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:24.845Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:24.845Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:24.846Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:24.852Z",
+      "path": "content/posts/olofsimren-com/3564.md"
     }
   },
   "input_hash": "2025-08-19T12:50:37.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9465bc820fb62c906c2e786586ba3d550ac07736be4f649b294a68b25db23adb"
 }

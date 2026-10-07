@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2204",
+  "url": "https://aardvarklabs.blog/2025/08/15/best-practices-for-handling-delimited-data-imports-into-business-central/",
+  "title": "Best Practices for Handling Delimited Data Imports into Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-08-15T12:00:00.000Z",
+  "words": 1729,
+  "summary": "This post explains how to import comma-separated values (CSV) customer data into Business Central by parsing delimited files into a temporary staging table and then creating customer records. It demonstrates best practices for handling unstructured, flat file formats through code examples and provides a complete workflow from file upload to database insertion.",
+  "key_points": [
+    "CSV is an unstructured flat file format where data is separated by delimiters; columns must be static and consistent across file loads",
+    "Use a temporary staging table as an intermediary to import data first, enabling validation, correction, and retry before creating actual records",
+    "Parse CSV files using UploadIntoStream to read the file, split text by line breaks, then split each line by the delimiter character",
+    "Map parsed values to staging table fields using CopyStr to enforce field length limits, and use Evaluate for type conversion like decimals",
+    "Convert validated staging records to actual Business Central records in a separate procedure after successful import"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data import",
+    "csv parsing",
+    "delimited files",
+    "staging table",
+    "customer import",
+    "al code",
+    "file handling"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_CustomerStaging"
+    },
+    {
+      "type": "page",
+      "name": "ARDCustomerImport"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "File upload dialog",
+    "CSV parsing",
+    "Temporary staging tables",
+    "Text splitting and string manipulation",
+    "Data validation and error handling",
+    "Automatic record numbering",
+    "Field length enforcement"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

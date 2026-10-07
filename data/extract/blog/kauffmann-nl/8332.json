@@ -1,0 +1,80 @@
+{
+  "item_id": "blog/kauffmann-nl/8332",
+  "url": "https://www.kauffmann.nl/2025/09/02/oauth-library-for-the-rest-client/",
+  "title": "OAuth library for the Rest Client",
+  "source": "kauffmann-nl",
+  "published_at": "2025-09-02T20:19:37.000Z",
+  "words": 684,
+  "summary": "An OAuth library for Business Central's Rest Client module has been released on GitHub, supporting both Authorization Code Grant and Client Credentials flows with AL code, certificates, and Azure Entra ID integration. Use this when you need flexible OAuth authentication without .NET dependencies or complex function overloading.",
+  "key_points": [
+    "Pure AL implementation with no .NET components, making the code more transparent and maintainable",
+    "Supports two OAuth flows: Authorization Code Grant (with automatic token refresh) and Client Credentials (service-to-service)",
+    "Features certificate-based authentication with easy certificate generation and download via a dedicated page",
+    "Includes security measures like PKCE and state parameters to prevent CSRF attacks",
+    "Available on GitHub under MIT license with extensibility for other authorities beyond Azure Entra ID"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "oauth",
+    "authentication",
+    "rest client",
+    "certificates",
+    "azure entra id",
+    "system app",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Rest Client module"
+    },
+    {
+      "type": "other",
+      "name": "OAuth2 module"
+    },
+    {
+      "type": "other",
+      "name": "Endpoint/OAuth management module"
+    },
+    {
+      "type": "codeunit",
+      "name": "Http Endpoint configuration"
+    }
+  ],
+  "features": [
+    "OAuth Authorization Code Grant flow",
+    "OAuth Client Credentials flow",
+    "Certificate-based authentication",
+    "Token automatic refresh",
+    "PKCE and state parameters",
+    "Self-hosted OAuth landing page",
+    "Azure Entra ID support",
+    "Endpoint management"
+  ],
+  "versions": [
+    "v28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The OAuth library I'm introducing now uses no .NET components. It's entirely written in AL code.",
+      "why_it_matters": "This transparency and AL-only approach makes the code more maintainable and easier to understand compared to the existing OAuth2 module which relies on complex .NET calls."
+    },
+    {
+      "text": "Support for both Authorization Code Grant flow and Client Credentials flow.",
+      "why_it_matters": "This dual support covers both interactive user authentication scenarios and automated service-to-service integration patterns."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

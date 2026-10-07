@@ -1,0 +1,87 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2202",
+  "url": "https://aardvarklabs.blog/2025/08/22/step-by-step-guide-to-importing-excel-data-into-business-central/",
+  "title": "Step by Step Guide to Importing Excel Data into Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-08-22T14:03:59.000Z",
+  "words": 1146,
+  "summary": "This post demonstrates how to import Excel data into Business Central by creating a staging table, using the Excel Buffer record to read spreadsheet contents, validating the data, and then creating actual business records. It covers practical steps for handling external Excel files with custom logic and error checking.",
+  "key_points": [
+    "Use a temporary staging table to import and validate Excel data before creating actual records",
+    "Leverage the Excel Buffer record and File Management codeunit to read Excel files and parse cell values",
+    "Implement validation procedures to check data integrity, such as verifying unit of measures and item types",
+    "Parse Excel cell values as text first, then convert to appropriate data types using Evaluate",
+    "Display validation messages to users so they can correct errors before generating final records"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data import",
+    "excel integration",
+    "staging table",
+    "validation",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_ItemStaging"
+    },
+    {
+      "type": "table",
+      "name": "Excel Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Unit of Measure"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "ARDExcelImport"
+    },
+    {
+      "type": "codeunit",
+      "name": "File Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "No. Series"
+    }
+  ],
+  "features": [
+    "Excel file import",
+    "temporary tables",
+    "data validation",
+    "cell value parsing",
+    "record generation",
+    "file management",
+    "error messaging"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We are going to start by defining a staging table that we can import the data into.",
+      "why_it_matters": "Staging tables provide a safe intermediate step to validate and process external data before committing to actual records."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

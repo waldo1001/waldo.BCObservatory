@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/9995",
+  "url": "https://thedynamicsexplorer.com/2025/08/22/dynamics-gp-to-business-central-the-arrival-of-smartlist-features-via-add-fields-from-related-tables-in-analysis-mode/",
+  "title": "Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-08-22T09:00:00.000Z",
+  "words": 800,
+  "summary": "Business Central introduced 'Add fields from related tables in Analysis mode', a feature that mirrors Dynamics GP's Smartlist tool, enabling users to create custom reports by combining columns from related tables directly within list pages and analysis views without third-party tools.",
+  "key_points": [
+    "The feature allows adding columns from related tables to list pages in Analysis mode after activating it via Feature Management",
+    "Users can save custom report views as Favourites to avoid recreating them repeatedly",
+    "The real power lies in joining data from multiple related tables, similar to Smartlist Designer in Dynamics GP",
+    "Users can manually link to tables that Business Central doesn't automatically suggest, expanding reporting possibilities"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "analysis mode",
+    "reporting",
+    "list pages",
+    "smartlist",
+    "data joining",
+    "custom columns"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Lines"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
+  "features": [
+    "Add fields from related tables in Analysis mode",
+    "Analyse button on list pages",
+    "Add columns from related tables",
+    "Save Favourites",
+    "Custom table linking via Other source option",
+    "Data filtering and export"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The real power of this functionality comes when you want to include data from other related tables.",
+      "why_it_matters": "Identifies the key differentiator and primary value proposition of the feature beyond basic personalization"
+    },
+    {
+      "text": "Lots more reporting requirements can be fulfilled without the need for third party reporting tools.",
+      "why_it_matters": "Demonstrates the practical business impact of reducing dependency on external solutions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

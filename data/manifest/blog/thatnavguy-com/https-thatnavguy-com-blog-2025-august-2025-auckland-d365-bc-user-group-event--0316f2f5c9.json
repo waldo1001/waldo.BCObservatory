@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/august-2025-auckland-d365-bc-user-group-event/",
   "published_at": "2025-08-25T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:23.413Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-august-2025-auckland-d365-bc-user-group-event--0316f2f5c9.md",
+      "words": 109
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:23.418Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:23.419Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:23.420Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:23.424Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-august-2025-auckland-d365-bc-user-group-event--0316f2f5c9.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6ec7971cb406ef2337fdf7dafe42e2fe81cee421a6c3647cd79c7caa5992089"
 }

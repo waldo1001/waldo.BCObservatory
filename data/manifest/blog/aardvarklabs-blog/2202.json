@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/08/22/step-by-step-guide-to-importing-excel-data-into-business-central/",
   "published_at": "2025-08-22T14:03:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:23.678Z",
+      "path": "vault:posts/aardvarklabs-blog/2202.md",
+      "words": 1146
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:23.689Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:23.690Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:23.691Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:23.699Z",
+      "path": "content/posts/aardvarklabs-blog/2202.md"
     }
   },
   "input_hash": "2026-02-18T03:03:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd614b2c5dd4d022ecbbd7e2ee9b3795756476ea0009591ac5ff7ae657c68159"
 }

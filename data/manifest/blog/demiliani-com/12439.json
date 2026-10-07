@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/09/03/dynamics-365-business-central-controlling-the-summary-system-part/",
   "published_at": "2025-09-03T12:58:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:23.016Z",
+      "path": "vault:posts/demiliani-com/12439.md",
+      "words": 267
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:23.024Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:23.025Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:23.026Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:23.031Z",
+      "path": "content/posts/demiliani-com/12439.md"
     }
   },
   "input_hash": "2025-09-03T12:58:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "507fea22b674ec45f50294e604804b57f43bbdce3a0393d74ad63c4c30f749a1"
 }

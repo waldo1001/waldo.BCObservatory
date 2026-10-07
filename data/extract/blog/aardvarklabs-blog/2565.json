@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2565",
+  "url": "https://aardvarklabs.blog/2025/09/02/business-central-2027-release-wave-1-preparing-for-odata-endpoint-removal/",
+  "title": "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-09-02T12:00:00.000Z",
+  "words": 858,
+  "summary": "Business Central version 30 will remove pages managed by Microsoft extensions from OData Web Service endpoints. Organizations using these endpoints must migrate to Business Central API 2.0, create custom 2.0 APIs, or copy pages to custom objects to maintain system integrations like Excel and Power BI.",
+  "key_points": [
+    "Pages exposed as OData web services will no longer be available from Microsoft-managed pages in version 30, breaking existing integrations",
+    "Three migration paths exist: switch to API 2.0 endpoints, create custom Page or Query APIs, or copy Microsoft pages to custom objects",
+    "Custom page copies can be exposed as OData endpoints by changing the object ID in Web Services configuration, avoiding dependency on Microsoft page updates",
+    "Building custom APIs using Page API or Query API methods provides the most modern and feature-complete solution for long-term sustainability"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "odata",
+    "api",
+    "web services",
+    "migration",
+    "api 2.0",
+    "pages",
+    "deprecation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "ARDCustomerCardAPI"
+    }
+  ],
+  "features": [
+    "OData web service endpoints",
+    "Page exposure as web services",
+    "Business Central API 2.0",
+    "Custom page APIs",
+    "Query APIs",
+    "Web Services configuration"
+  ],
+  "versions": [
+    "version 30",
+    "2027 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft does not want their Pages beholden to an API, User Interface updates should not be a breaking change to an API.",
+      "why_it_matters": "Explains the core reason for removing page-based OData endpoints and the architectural shift Microsoft is making"
+    },
+    {
+      "text": "With the release of Business Central version 30, the pages managed by Microsoft extensions will not be available as Web Service endpoints.",
+      "why_it_matters": "States the specific breaking change that organizations must prepare for within 18 months"
+    },
+    {
+      "text": "Microsoft is only removing access to pages they create; we simply need to create our own replacement page.",
+      "why_it_matters": "Introduces the backup migration strategy of copying pages to custom objects to maintain current API functionality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

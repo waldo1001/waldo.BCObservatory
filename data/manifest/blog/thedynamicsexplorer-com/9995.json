@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/08/22/dynamics-gp-to-business-central-the-arrival-of-smartlist-features-via-add-fields-from-related-tables-in-analysis-mode/",
   "published_at": "2025-08-22T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:23.753Z",
+      "path": "vault:posts/thedynamicsexplorer-com/9995.md",
+      "words": 800
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:23.762Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:23.763Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:23.764Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:23.772Z",
+      "path": "content/posts/thedynamicsexplorer-com/9995.md"
     }
   },
   "input_hash": "2026-04-30T19:21:55.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b746cd106bf8766272e04c5010aa63376839ede48a943e170b975ba7a7170fbe"
 }

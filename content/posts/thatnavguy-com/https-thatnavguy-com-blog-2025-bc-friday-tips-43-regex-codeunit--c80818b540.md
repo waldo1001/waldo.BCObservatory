@@ -1,0 +1,104 @@
+---
+id: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-43-regex-codeunit--c80818b540
+type: post
+title: "BC Friday Tips #43 Regex Codeunit"
+summary: Business Central includes a Regex codeunit that enables pattern matching in text. It provides functions like IsMatch, Match, and Replace for validating, cleaning, and transforming text without building custom search logic.
+tier: community
+language: en
+tags:
+  - regex
+  - text processing
+  - pattern matching
+  - codeunit
+  - validation
+system: development
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-07T01:39:25.065Z"
+  pipeline: 0.2.0
+  prompts:
+    extract-post: 1
+  input_hash: 237225c8783563d7e3a74ee367d2ff0005625b76f1069c3c46a0b349db3ada98
+evidence:
+  - kind: blog
+    url: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
+    title: "BC Friday Tips #43 Regex Codeunit"
+    date: "2025-08-15"
+    commit: null
+    t: null
+    quote: null
+  - kind: blog
+    url: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
+    title: "BC Friday Tips #43 Regex Codeunit"
+    date: "2025-08-15"
+    commit: null
+    t: null
+    quote: Regex (Regular Expression) lets you search for patterns in text.
+  - kind: blog
+    url: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
+    title: "BC Friday Tips #43 Regex Codeunit"
+    date: "2025-08-15"
+    commit: null
+    t: null
+    quote: Useful to validate, clean, or transform text. No need to build custom search functions.
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+post_id: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
+source_id: thatnavguy-com
+source_name: That NAV Guy
+url: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
+published_at: "2025-08-15T00:00:00.000Z"
+author: Teddy Herryanto
+full_text: false
+words: 63
+quotes:
+  - text: Regex (Regular Expression) lets you search for patterns in text.
+    why_it_matters: Defines the core capability of the Regex codeunit for developers to understand its purpose
+  - text: Useful to validate, clean, or transform text. No need to build custom search functions.
+    why_it_matters: Highlights the practical benefit of using the built-in codeunit instead of writing custom solutions
+code_objects_mentioned:
+  - codeunit Regex
+systems:
+  - development
+versions_mentioned: []
+---
+
+# BC Friday Tips #43 Regex Codeunit
+
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-15 · 63 words · tier community · **unreviewed** (machine-generated)
+
+> Business Central includes a Regex codeunit that enables pattern matching in text. It provides functions like IsMatch, Match, and Replace for validating, cleaning, and transforming text without building custom search logic.
+
+## Key points
+
+- Regex codeunit supports pattern searching in text using IsMatch, Match, and Replace functions
+- Eliminates need to write custom text search and validation functions
+- Useful for text validation, cleaning, and transformation tasks
+
+## Quotes
+
+- "Regex (Regular Expression) lets you search for patterns in text." (Defines the core capability of the Regex codeunit for developers to understand its purpose)
+- "Useful to validate, clean, or transform text. No need to build custom search functions." (Highlights the practical benefit of using the built-in codeunit instead of writing custom solutions)
+
+## AL objects mentioned
+
+As named in the post; not yet joined to the code pillar.
+
+- codeunit "Regex"
+
+## Context
+
+- Features: IsMatch function, Match function, Replace function, Regular expression pattern matching
+
+Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

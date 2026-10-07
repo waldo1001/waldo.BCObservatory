@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/",
+  "title": "BC Friday Tips #44 Changing Production Order Status",
+  "source": "thatnavguy-com",
+  "published_at": "2025-08-22T00:00:00.000Z",
+  "words": 94,
+  "summary": "When a Production Order status changes in Business Central, the system inserts a new record and deletes the old one rather than modifying it. Understanding this behavior helps avoid errors when subscribing to Insert, Modify, or Delete triggers on Production Orders.",
+  "key_points": [
+    "Changing Production Order status creates a new record and removes the old one instead of updating the existing record",
+    "This behavior occurs in the TransProdOrder procedure in codeunit 5407",
+    "Subscriptions to Insert, Modify, or Delete triggers on Production Orders may encounter unexpected results without awareness of this mechanism",
+    "Extra trigger logic can cause errors if not accounting for this record replacement pattern"
+  ],
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production orders",
+    "status management",
+    "al development",
+    "codeunit behavior",
+    "trigger logic"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Prod. Order Status Management"
+    }
+  ],
+  "features": [
+    "Production Order status changes",
+    "record insertion and deletion"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can see this in the TransProdOrder procedure inside codeunit 5407 \"Prod. Order Status Management\".",
+      "why_it_matters": "Points developers to the exact location in the codebase where this behavior is implemented"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/08/15/best-practices-for-handling-delimited-data-imports-into-business-central/",
   "published_at": "2025-08-15T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:24.865Z",
+      "path": "vault:posts/aardvarklabs-blog/2204.md",
+      "words": 1729
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:24.876Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:24.877Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:24.878Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:24.905Z",
+      "path": "content/posts/aardvarklabs-blog/2204.md"
     }
   },
   "input_hash": "2026-06-10T01:30:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b30825f237500c3dc35b5d54a045a9e6a60156a1b3097dc5413f3758cdbf30e6"
 }

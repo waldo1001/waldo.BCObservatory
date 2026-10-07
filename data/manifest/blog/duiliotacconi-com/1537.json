@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/08/21/how-to-choose-the-best-update-window-in-dynamics-365-business-central-online/",
   "published_at": "2025-08-21T14:54:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:24.107Z",
+      "path": "vault:posts/duiliotacconi-com/1537.md",
+      "words": 1205
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:24.118Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:24.120Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:24.121Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:24.133Z",
+      "path": "content/posts/duiliotacconi-com/1537.md"
     }
   },
   "input_hash": "2025-08-21T14:54:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0bd0a6e603ee0f2300773cc60101f9b5cc388782844b5bdd349c402896e0be44"
 }
