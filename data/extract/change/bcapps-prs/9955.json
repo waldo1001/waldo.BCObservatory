@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9955",
+  "number": 9955,
+  "title": "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed invalid XML generation in XRechnung when invoice discount percentage has more than 2 decimal places by reverting a previous regression.",
+  "key_points": [
+    "Corrects XML output for XRechnung e-invoices with discount percentages exceeding 2 decimals",
+    "Reverts a prior regression that caused invalid XML formatting",
+    "Includes updated test coverage for the corrected behavior",
+    "Affects German e-document integration module"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003387,
+    "changes_in_call": 1
+  }
+}

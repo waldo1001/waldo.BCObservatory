@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9906,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9906",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T12:40:10Z",
+  "merge_commit_sha": "44c89d817a5d303be0f42a07242e3c76fa7c0191",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction",
+  "body_hash": "aafb1031813d708d0e69bafecd2b6a76b9c8eefa9a944ae0f15e2ffb63fe180a",
+  "fixes_issues": [],
+  "work_items": [
+    641100
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/ERM/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 271,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+        "status": "modified",
+        "key": "report/29",
+        "type": "report",
+        "id": 29,
+        "name": "Export Acc. Sched. to Excel",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/29"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+        "status": "modified",
+        "key": "report/29",
+        "type": "report",
+        "id": 29,
+        "name": "Export Acc. Sched. to Excel",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/29"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

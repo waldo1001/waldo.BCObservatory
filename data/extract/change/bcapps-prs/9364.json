@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9364",
+  "number": 9364,
+  "title": "Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now fully supports item variants, including variant selection, availability checks, and pricing. Variants are resolved through intelligent selection, validated against candidates, and retained only when safe substitutions, with empty variants left unchanged and unsafe alternatives discarded.",
+  "key_points": [
+    "Item Selector now runs consistently for all search result types and includes variant code in its output with safety classifications",
+    "Variant alternatives are retained only when explicitly classified as safe, preserving form, fit, function, and safety",
+    "Availability checks, pricing, shipment dates, and quote creation now use the resolved variant code",
+    "Valid empty variant selections are treated as authoritative with no fallback to original candidates",
+    "Telemetry emits stable failure categories and aggregate counts without exposing customer content or raw errors"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "The agent can now resolve a customer request to a specific item and variant, use that variant when checking availability and calculating prices.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00479,
+    "changes_in_call": 1
+  }
+}

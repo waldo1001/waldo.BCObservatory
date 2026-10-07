@@ -6,10 +6,35 @@
   "title": "[Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction",
   "url": "https://github.com/microsoft/BCApps/pull/9906",
   "published_at": "2026-08-05T12:40:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:16.003Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:20.937Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004115
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:21.101Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:21.106Z",
+      "path": "content/changes/bcapps/9906.md"
     }
   },
   "input_hash": "44c89d817a5d303be0f42a07242e3c76fa7c0191:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 641100 export acc sched to excel log report usage in onpostreport to avoid modal page in write transaction"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62a2fd75539287faa0175a4d1d337174c813da95e72a45a6b76ad9907286e88a"
 }

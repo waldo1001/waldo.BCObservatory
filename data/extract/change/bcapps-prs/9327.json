@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9327",
+  "number": 9327,
+  "title": "[Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation. The connector transparently migrates legacy non-expiring tokens to expiring tokens during API calls and refreshes tokens before expiry, with a user notification when the refresh token expires.",
+  "key_points": [
+    "New token fields and expiry tracking added to the Shopify Registered Store table",
+    "Automatic token migration from non-expiring to expiring tokens during first API call",
+    "Refresh token orchestrator integrated into every API call via the Communication Manager",
+    "Reactive 401 error handling with single retry on token refresh failure",
+    "User notification on Shop Card when refresh token expires"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "As of December 2025, Shopify supports expiring offline access tokens with refresh-token rotation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00454,
+    "changes_in_call": 1
+  }
+}

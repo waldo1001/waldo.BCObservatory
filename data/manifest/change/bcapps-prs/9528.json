@@ -6,10 +6,18 @@
   "title": "636017 Move CashFlow report action tooltips to report objects (W1)",
   "url": "https://github.com/microsoft/BCApps/pull/9528",
   "published_at": "2026-08-04T21:22:16Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:23.590Z",
+      "change_class": "code",
+      "files": 46,
+      "al": 46,
+      "objects": 6,
+      "unjoined": 40
     }
   },
   "input_hash": "c9544ddeab41630b21e6e3d1bc79337c1a0f49d0:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move cashflow report action tooltips to report objects w1"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24e25ef80086789f475a859f44dae01e8ed88174c134cbfa7b086f80ee5f2419"
 }

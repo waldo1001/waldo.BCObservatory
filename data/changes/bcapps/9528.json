@@ -1,0 +1,635 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9528,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9528",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T21:22:16Z",
+  "merge_commit_sha": "c9544ddeab41630b21e6e3d1bc79337c1a0f49d0",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move CashFlow report action tooltips to report objects (W1)",
+  "body_hash": "fc81b5fe71a39a72ea3feb697b77bdfc4ffacca9e798732d05ccfc9a5feed413",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/CashFlow/Reports/CashFlowDimensionsDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CashFlow/Reports/CashFlowDateList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CashFlow/Reports/CashFlowDimensionsDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 46,
+    "additions": 4,
+    "deletions": 62,
+    "al": 46
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/GB/BaseApp/CashFlow/Reports/CashFlowDimensionsDetail.Report.al",
+        "status": "modified",
+        "key": "report/852",
+        "type": "report",
+        "id": 852,
+        "name": "Cash Flow Dimensions - Detail",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/852"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CashFlow/Reports/CashFlowDateList.Report.al",
+        "status": "modified",
+        "key": "report/846",
+        "type": "report",
+        "id": 846,
+        "name": "Cash Flow Date List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/846"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CashFlow/Reports/CashFlowDimensionsDetail.Report.al",
+        "status": "modified",
+        "key": "report/852",
+        "type": "report",
+        "id": 852,
+        "name": "Cash Flow Dimensions - Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/852"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9027",
+        "type": "page",
+        "id": 9027,
+        "name": "Accountant Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9027"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9001",
+        "type": "page",
+        "id": 9001,
+        "name": "Accounting Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9001"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

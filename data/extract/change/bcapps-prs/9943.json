@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9943",
+  "number": 9943,
+  "title": "[Master]-Purchase invoice in USD with deferral shows 0 \"Amount LCY\" in Deferral Schedule View\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Purchase invoices in foreign currency now correctly display the Amount LCY field in the Deferral Schedule view instead of showing zero values.",
+  "key_points": [
+    "Fixed incorrect Amount LCY calculation for deferrals on purchase invoices using foreign currency",
+    "Updated Deferral Utilities codeunit to handle currency conversion properly",
+    "Added test cases across multiple localizations to verify the fix",
+    "Ensures deferral schedules accurately reflect local currency amounts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003402,
+    "changes_in_call": 1
+  }
+}

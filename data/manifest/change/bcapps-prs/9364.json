@@ -6,10 +6,35 @@
   "title": "Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices",
   "url": "https://github.com/microsoft/BCApps/pull/9364",
   "published_at": "2026-08-05T09:25:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:17.876Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:23.642Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00479
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:23.810Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:23.817Z",
+      "path": "content/changes/bcapps/9364.md"
     }
   },
   "input_hash": "55faf6691aad5b14d28e7baa7fce264e79d72815:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "slice 622414 soa pioneer enhancing sales order agent with item variant availability and prices"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6b735838ad03f5665ee77a4024ac927e6b76dc42ec2c9c29abf1c4dec8594f0"
 }

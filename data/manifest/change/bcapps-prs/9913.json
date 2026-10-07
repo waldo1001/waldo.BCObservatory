@@ -6,7 +6,7 @@
   "title": "[Shopify] Fix and re-enable UnitTestCalcPriceUsesCurrentWorkDate price-calc test",
   "url": "https://github.com/microsoft/BCApps/pull/9913",
   "published_at": "2026-08-05T12:44:07Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix and re enable unittestcalcpriceusescurrentworkdate price calc test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:13:15.737Z",
+  "retry_after": null
 }

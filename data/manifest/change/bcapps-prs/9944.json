@@ -6,7 +6,7 @@
   "title": "Remove Engineering Systems as owner of app.json in CODEOWNERS",
   "url": "https://github.com/microsoft/BCApps/pull/9944",
   "published_at": "2026-08-05T12:50:49Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove engineering systems as owner of app json in codeowners"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:13:14.602Z",
+  "retry_after": null
 }

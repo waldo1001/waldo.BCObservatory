@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9776",
+  "number": 9776,
+  "title": "[main] bug 639499 - fix: Remove Status = Released condition from Send action buttons on Cash Document page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The 'Release and Send' and 'Post and Send' actions on the Cash Document page are now enabled for all Receipt documents, not just those with Released status.",
+  "key_points": [
+    "Removed Status = Released condition from action button enable logic",
+    "Actions now available for Receipt documents regardless of status",
+    "Affects Czech cash document handling",
+    "Enables earlier sending in document workflow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Both actions are now enabled whenever the document type is Receipt, regardless of its status.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00304,
+    "changes_in_call": 1
+  }
+}

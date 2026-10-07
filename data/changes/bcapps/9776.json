@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9776,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9776",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T07:05:37Z",
+  "merge_commit_sha": "7c5429dabefbf5712777c1260a9377fa13493309",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 639499 - fix: Remove Status = Released condition from Send action buttons on Cash Document page",
+  "body_hash": "8e7bc68fe428f17f185e4befbdb2cb7fb093fb1bdc1cca1e3bf5abb3ec7ef44d",
+  "fixes_issues": [],
+  "work_items": [
+    639499
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDocumentCZP.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDocumentCZP.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9697",
+  "number": 9697,
+  "title": "Features/494919 master mx cfdi rounding e invoice docs",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Mexican CFDI e-invoice generation now correctly calculates SubTotal and tax amounts by rounding line values individually before summing them, and validates rounding models locally before PAC submission to prevent validation errors.",
+  "key_points": [
+    "SubTotal is recalculated as the sum of individually rounded line amounts to comply with CFDI40108 requirements",
+    "Total is recomputed after SubTotal adjustment to maintain consistency with CFDI40119 standards",
+    "A new local rounding model pre-validation process identifies the correct rounding approach before sending documents to the PAC",
+    "Fallback mechanism now intelligently selects alternative rounding models only when PAC rejects with rounding-specific errors",
+    "Retention lines are properly excluded from SubTotal calculations and comprehensive tests prevent future regressions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": "The generated CFDI XML produced rounding mismatches in SubTotal and per-line tax amounts, causing PAC validation errors.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004614,
+    "changes_in_call": 1
+  }
+}

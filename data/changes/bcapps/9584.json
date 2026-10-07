@@ -1,0 +1,261 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9584,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9584",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T23:31:28Z",
+  "merge_commit_sha": "4e96a43bc9e860df1a48472c386f076536f854ec",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move report action tooltips to report objects (small areas)",
+  "body_hash": "d608fbb725918b668a6b30854e723ed4afd4f870ae9fefc6d6126c401c3171c8",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Period/CreateFiscalYear.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Item/AsmItemList.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Reports/AssembletoOrderSales.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Period/CreateFiscalYear.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/HumanResources/Reports/EmployeeAbsencesbyCauses.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/HumanResources/Reports/EmployeeStaffAbsences.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/Foundation/UserTask/UserTaskList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/Foundation/UserTask/UserTaskUtility.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 6,
+    "deletions": 9,
+    "al": 13
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Item/AsmItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/905",
+        "type": "pageextension",
+        "id": 905,
+        "name": "Asm. Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/905"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Reports/AssembletoOrderSales.Report.al",
+        "status": "modified",
+        "key": "report/915",
+        "type": "report",
+        "id": 915,
+        "name": "Assemble to Order - Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/915"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+        "status": "modified",
+        "key": "page/100",
+        "type": "page",
+        "id": 100,
+        "name": "Accounting Periods",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/100"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Period/CreateFiscalYear.Report.al",
+        "status": "modified",
+        "key": "report/93",
+        "type": "report",
+        "id": 93,
+        "name": "Create Fiscal Year",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/93"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/HumanResources/Reports/EmployeeAbsencesbyCauses.Report.al",
+        "status": "modified",
+        "key": "report/5205",
+        "type": "report",
+        "id": 5205,
+        "name": "Employee - Absences by Causes",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5205"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/HumanResources/Reports/EmployeeStaffAbsences.Report.al",
+        "status": "modified",
+        "key": "report/5204",
+        "type": "report",
+        "id": 5204,
+        "name": "Employee - Staff Absences",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5204"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/Foundation/UserTask/UserTaskList.Page.al",
+        "status": "modified",
+        "key": "page/1170",
+        "type": "page",
+        "id": 1170,
+        "name": "User Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1170"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/Foundation/UserTask/UserTaskUtility.Report.al",
+        "status": "modified",
+        "key": "report/1170",
+        "type": "report",
+        "id": 1170,
+        "name": "User Task Utility",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1170"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+        "status": "modified",
+        "key": "page/9015",
+        "type": "page",
+        "id": 9015,
+        "name": "Job Project Manager RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9015"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Period/CreateFiscalYear.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/RoleCenters/JobProjectManagerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Period/AccountingPeriods.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "hr",
+    "assembly",
+    "inventory",
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

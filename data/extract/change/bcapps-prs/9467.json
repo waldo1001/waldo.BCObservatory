@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9467",
+  "number": 9467,
+  "title": "[Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The InsertPostValueEntryToGL procedure in codeunit 22 Item Jnl.-Post Line is now public, allowing extensions to reuse the standard General Ledger posting logic for inventory variances.",
+  "key_points": [
+    "InsertPostValueEntryToGL changed from local to public procedure",
+    "Extensions can now call standard value-entry-to-G/L posting logic",
+    "Change applied consistently across W1 and localized layers (APAC, CH, ES, IT, RU)",
+    "Enables extension authors to post additional variances using standard flows",
+    "Addresses extensibility request from external developers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003631,
+    "changes_in_call": 1
+  }
+}

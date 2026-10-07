@@ -1,0 +1,1104 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9545,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9545",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T23:44:20Z",
+  "merge_commit_sha": "5087ad83721ccc75437ffcf4fed50cfca8e53546",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Cost Accounting report action tooltips to report objects",
+  "body_hash": "dcf98cbf78911f75be47522172bf67a35eaf3a6c417ee73cc6add009f1647f21",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostCenters.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostObjects.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostTypes.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Account/CostTypeCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Account/CostTypeList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocationSources.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyCostAcctgBudgettoGL.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyCostBudget.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyGLBudgettoCostAcctg.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetNames.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetRegisters.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetperPeriod.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetperPeriodMatrix.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/DeleteCostBudgetEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/TransferBudgettoActual.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/CostRegisters.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteCostEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteOldCostEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgAnalysis.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgBalanceBudget.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgJournal.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStatement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStatementBudget.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStmtperPeriod.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAllocations.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostTypesDetails.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 72,
+    "additions": 16,
+    "deletions": 279,
+    "al": 72
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostCenters.Page.al",
+        "status": "modified",
+        "key": "page/1122",
+        "type": "page",
+        "id": 1122,
+        "name": "Chart of Cost Centers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1122"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostObjects.Page.al",
+        "status": "modified",
+        "key": "page/1123",
+        "type": "page",
+        "id": 1123,
+        "name": "Chart of Cost Objects",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1123"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Account/ChartofCostTypes.Page.al",
+        "status": "modified",
+        "key": "page/1100",
+        "type": "page",
+        "id": 1100,
+        "name": "Chart of Cost Types",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1100"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Account/CostTypeCard.Page.al",
+        "status": "modified",
+        "key": "page/1101",
+        "type": "page",
+        "id": 1101,
+        "name": "Cost Type Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1101"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Account/CostTypeList.Page.al",
+        "status": "modified",
+        "key": "page/1124",
+        "type": "page",
+        "id": 1124,
+        "name": "Cost Type List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1124"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Page.al",
+        "status": "modified",
+        "key": "page/1105",
+        "type": "page",
+        "id": 1105,
+        "name": "Cost Allocation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1105"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Report.al",
+        "status": "modified",
+        "key": "report/1131",
+        "type": "report",
+        "id": 1131,
+        "name": "Cost Allocation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1131"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocationSources.Page.al",
+        "status": "modified",
+        "key": "page/1102",
+        "type": "page",
+        "id": 1102,
+        "name": "Cost Allocation Sources",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1102"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyCostAcctgBudgettoGL.Report.al",
+        "status": "modified",
+        "key": "report/1136",
+        "type": "report",
+        "id": 1136,
+        "name": "Copy Cost Acctg. Budget to G/L",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1136"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyCostBudget.Report.al",
+        "status": "modified",
+        "key": "report/1134",
+        "type": "report",
+        "id": 1134,
+        "name": "Copy Cost Budget",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1134"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CopyGLBudgettoCostAcctg.Report.al",
+        "status": "modified",
+        "key": "report/1135",
+        "type": "report",
+        "id": 1135,
+        "name": "Copy G/L Budget to Cost Acctg.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1135"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetNames.Page.al",
+        "status": "modified",
+        "key": "page/1116",
+        "type": "page",
+        "id": 1116,
+        "name": "Cost Budget Names",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1116"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetRegisters.Page.al",
+        "status": "modified",
+        "key": "page/1121",
+        "type": "page",
+        "id": 1121,
+        "name": "Cost Budget Registers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetperPeriod.Page.al",
+        "status": "modified",
+        "key": "page/1117",
+        "type": "page",
+        "id": 1117,
+        "name": "Cost Budget per Period",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/CostBudgetperPeriodMatrix.Page.al",
+        "status": "modified",
+        "key": "page/1131",
+        "type": "page",
+        "id": 1131,
+        "name": "Cost Budget per Period Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1131"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/DeleteCostBudgetEntries.Report.al",
+        "status": "modified",
+        "key": "report/1139",
+        "type": "report",
+        "id": 1139,
+        "name": "Delete Cost Budget Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1139"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/TransferBudgettoActual.Report.al",
+        "status": "modified",
+        "key": "report/1137",
+        "type": "report",
+        "id": 1137,
+        "name": "Transfer Budget to Actual",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1137"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/CostRegisters.Page.al",
+        "status": "modified",
+        "key": "page/1104",
+        "type": "page",
+        "id": 1104,
+        "name": "Cost Registers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1104"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteCostEntries.Report.al",
+        "status": "modified",
+        "key": "report/1130",
+        "type": "report",
+        "id": 1130,
+        "name": "Delete Cost Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1130"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteOldCostEntries.Report.al",
+        "status": "modified",
+        "key": "report/1141",
+        "type": "report",
+        "id": 1141,
+        "name": "Delete Old Cost Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1141"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgAnalysis.Report.al",
+        "status": "modified",
+        "key": "report/1127",
+        "type": "report",
+        "id": 1127,
+        "name": "Cost Acctg. Analysis",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1127"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgBalanceBudget.Report.al",
+        "status": "modified",
+        "key": "report/1138",
+        "type": "report",
+        "id": 1138,
+        "name": "Cost Acctg. Balance/Budget",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1138"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgJournal.Report.al",
+        "status": "modified",
+        "key": "report/1128",
+        "type": "report",
+        "id": 1128,
+        "name": "Cost Acctg. Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1128"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStatement.Report.al",
+        "status": "modified",
+        "key": "report/1126",
+        "type": "report",
+        "id": 1126,
+        "name": "Cost Acctg. Statement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1126"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStatementBudget.Report.al",
+        "status": "modified",
+        "key": "report/1133",
+        "type": "report",
+        "id": 1133,
+        "name": "Cost Acctg. Statement/Budget",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1133"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAcctgStmtperPeriod.Report.al",
+        "status": "modified",
+        "key": "report/1123",
+        "type": "report",
+        "id": 1123,
+        "name": "Cost Acctg. Stmt. per Period",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1123"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostAllocations.Report.al",
+        "status": "modified",
+        "key": "report/1129",
+        "type": "report",
+        "id": 1129,
+        "name": "Cost Allocations",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1129"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Reports/CostTypesDetails.Report.al",
+        "status": "modified",
+        "key": "report/1125",
+        "type": "report",
+        "id": 1125,
+        "name": "Cost Types Details",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1125"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9027",
+        "type": "page",
+        "id": 9027,
+        "name": "Accountant Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9027"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9001",
+        "type": "page",
+        "id": 9001,
+        "name": "Accounting Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9001"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+        "status": "modified",
+        "key": "page/9035",
+        "type": "page",
+        "id": 9035,
+        "name": "Data Administration",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9035"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Finance/RoleCenters/AccountantRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/AccountingManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

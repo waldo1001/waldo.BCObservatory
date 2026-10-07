@@ -6,10 +6,25 @@
   "title": "[Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line",
   "url": "https://github.com/microsoft/BCApps/pull/9467",
   "published_at": "2026-08-04T20:16:17Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:24.820Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:30.909Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003631
     }
   },
   "input_hash": "e52a8fc4bb05f0e108043688000bd3362440a977:c1",
@@ -29,5 +44,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30346 make insertpostvalueentrytogl public in item jnl post line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "520802e7660673f542c7bf1630d06088c2bbe42c6da3577f2e93100928d99b9d"
 }

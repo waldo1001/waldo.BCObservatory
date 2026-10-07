@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9959",
+  "number": 9959,
+  "title": "[Shopify] Add catalog filters to Sync Catalog Prices report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Sync Catalog Prices report now supports filtering by individual catalogs, allowing merchants to split large sync operations across multiple Job Queue entries to work within Business Central's 12-hour session limit.",
+  "key_points": [
+    "Report 30116 restructured with nested Shpfy Catalog dataitem to expose Id and Name filters alongside Shop Code filter",
+    "Enables splitting catalog price syncs across multiple concurrent Job Queue entries for faster completion",
+    "Codeunit 30295 refactored with new SetShop and SyncCatalog methods while retaining catalog deduplication and SetCatalogType",
+    "Addresses timeout issues for merchants with 150+ large catalogs that couldn't complete within 12-hour background session limits",
+    "Request page now displays Shop and Catalog filters for scoped sync operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004273,
+    "changes_in_call": 1
+  }
+}

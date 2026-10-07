@@ -1,0 +1,196 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9122,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9122",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T10:11:31Z",
+  "merge_commit_sha": "f4b0790dd14100ace93c3891d509dbb3ab241dc7",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 641488: Add \"Calendar Entries Available Until\" FlowField to Work/Machine Center",
+  "body_hash": "6cf7bbf5c3c3f0344daaa15f9bc8aa4c9d869ecda2473ba35ef38607a4e59a80",
+  "fixes_issues": [],
+  "work_items": [
+    641488
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenter.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCard.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterList.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenter.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMCapacityRequirements.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 173,
+    "deletions": 0,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000754"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000755",
+        "type": "page",
+        "id": 99000755,
+        "name": "Work Center List",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000755"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenter.Table.al",
+        "status": "modified",
+        "key": "table/99000758",
+        "type": "table",
+        "id": 99000758,
+        "name": "Machine Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000758"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000760",
+        "type": "page",
+        "id": 99000760,
+        "name": "Machine Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000760"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000761",
+        "type": "page",
+        "id": 99000761,
+        "name": "Machine Center List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000761"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenter.Table.al",
+        "status": "modified",
+        "key": "table/99000754",
+        "type": "table",
+        "id": 99000754,
+        "name": "Work Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterList.Page.al",
+        "status": "modified",
+        "key": "page/99000755",
+        "type": "page",
+        "id": 99000755,
+        "name": "Work Center List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000755"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

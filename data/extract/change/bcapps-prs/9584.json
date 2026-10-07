@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/9584",
+  "number": 9584,
+  "title": "636017 Move report action tooltips to report objects (small areas)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "hr",
+    "assembly",
+    "inventory",
+    "projects"
+  ],
+  "summary": "Report action tooltips are moved from page actions to report objects themselves, with duplicate tooltips removed from pages. This uses the new 2025 wave 1 feature where actions inherit UI descriptors from target objects.",
+  "key_points": [
+    "Tooltips for 5 reports (Employee Absences, Create Fiscal Year, Assemble to Order, User Task Utility) moved to report object level",
+    "Duplicate tooltip properties removed from 4 page actions",
+    "Leverages new feature where running objects in actions defaults to UI descriptors on target objects",
+    "Changes affect small areas: HumanResources, Foundation, Assembly, and Modules",
+    "Metadata-only change with no functional behavior impact"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "assembly",
+    "hr",
+    "projects"
+  ],
+  "quote": "The tooltip is now defined once on the report and applies wherever the report is invoked",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004231,
+    "changes_in_call": 1
+  }
+}

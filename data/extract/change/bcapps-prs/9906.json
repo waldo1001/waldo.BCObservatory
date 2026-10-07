@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9906",
+  "number": 9906,
+  "title": "[Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Report 29 now logs financial report usage after processing instead of before, preventing a write transaction that blocked modal pages when exporting account schedules with multiple worksheets.",
+  "key_points": [
+    "Moved LogReportUsage call from OnPreReport to OnPostReport to avoid open write transactions",
+    "Fixes PAGE.RunModal error when users updated Excel files with multiple sheets",
+    "OnPreReport still resolves CompanyDisplayName for report execution",
+    "Affected both W1 and NA layers which had identical defects",
+    "Added regression test to verify audit logs don't block modal pages"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004115,
+    "changes_in_call": 1
+  }
+}

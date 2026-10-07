@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9904",
+  "number": 9904,
+  "title": "Let the agent see and set vendor posting groups and CIF or NIF",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The payables agent can now see and set vendor posting groups and tax identification numbers because the invoicing tab is visible in the agent profile, and the agent has permission to write VAT registration log entries.",
+  "key_points": [
+    "Unhides the invoicing tab on the vendor card in the payables agent profile",
+    "Grants the agent write permission for VAT registration log entries",
+    "Allows the agent to complete vendor creation without permission errors when setting tax IDs and posting groups",
+    "Resolves stalled vendor creation workflow in the payables agent"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "copilot"
+  ],
+  "quote": "The agent created vendor V00070, set the CIF or NIF and the posting groups, and the vendor completed with no permission error.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00378,
+    "changes_in_call": 1
+  }
+}

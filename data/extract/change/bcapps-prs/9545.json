@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9545",
+  "number": 9545,
+  "title": "636017 Move Cost Accounting report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Report action tooltips for Cost Accounting reports are moved from page actions to report objects themselves, eliminating duplication and ensuring consistent tooltips across all invocations of these reports.",
+  "key_points": [
+    "Tooltips for 16 Cost Accounting reports moved to report objects",
+    "Duplicate tooltips removed from page actions in W1 and country layers",
+    "Changes propagated across 18 country layer forks",
+    "Metadata-only change with no runtime behavior impact",
+    "Cleanup continuation following same pattern used for other modules"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Moves the report action ToolTips for the Cost Accounting reports off the page actions that run them and onto the report objects themselves",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012451,
+    "changes_in_call": 1
+  }
+}

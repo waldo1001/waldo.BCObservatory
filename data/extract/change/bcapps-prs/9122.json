@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9122",
+  "number": 9122,
+  "title": "Bug 641488: Add \"Calendar Entries Available Until\" FlowField to Work/Machine Center",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A new FlowField called Calendar Entries Available Until has been added to Work Center and Machine Center tables to show the latest date for which calendar entries have been generated, helping users avoid stale calendar errors during scheduling.",
+  "key_points": [
+    "New FlowField (field 7304) calculates the maximum date from Calendar Entry records for each center",
+    "The field is displayed on Work Center and Machine Center cards and lists",
+    "Visual styling marks the field as Unfavorable when the date is in the past",
+    "IT layer Work Center pages are updated to propagate the new field",
+    "Tests added to verify FlowField calculations for both Work Center and Machine Center"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003952,
+    "changes_in_call": 1
+  }
+}

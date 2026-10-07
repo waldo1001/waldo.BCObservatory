@@ -1,0 +1,160 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9327,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9327",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T12:44:07Z",
+  "merge_commit_sha": "9c9227176addd1926fc80f7824d86feb2601d6be",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens",
+  "body_hash": "59b9d8ec95d0d7b8eafd0801a529be61b7c5ef368480675b7710a76162ae22a9",
+  "fixes_issues": [],
+  "work_items": [
+    637954
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/CLAUDE.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/docs/business-logic.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/docs/data-model.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyShopCard.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/docs/CLAUDE.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Integration/Codeunits/ShpfyAuthenticationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 390,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Integration/Tables/ShpfyRegisteredStoreNew.Table.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Base/ShpfyInitializeTest.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Integration/ShpfyTokenRefreshTest.Codeunit.al",
+      "status": "added",
+      "additions": 119,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 638,
+    "deletions": 21,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30103",
+        "type": "codeunit",
+        "id": 30103,
+        "name": "Shpfy Communication Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30103"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyShopCard.Page.al",
+        "status": "modified",
+        "key": "page/30101",
+        "type": "page",
+        "id": 30101,
+        "name": "Shpfy Shop Card",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30101"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Integration/Codeunits/ShpfyAuthenticationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30199",
+        "type": "codeunit",
+        "id": 30199,
+        "name": "Shpfy Authentication Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30199"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Integration/Tables/ShpfyRegisteredStoreNew.Table.al",
+        "status": "modified",
+        "key": "table/30138",
+        "type": "table",
+        "id": 30138,
+        "name": "Shpfy Registered Store New",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30138"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens",
   "url": "https://github.com/microsoft/BCApps/pull/9327",
   "published_at": "2026-08-05T12:44:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:14.849Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:20.143Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00454
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:20.346Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:20.352Z",
+      "path": "content/changes/bcapps/9327.md"
     }
   },
   "input_hash": "9c9227176addd1926fc80f7824d86feb2601d6be:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify migrate shopify connector to expiring offline access tokens"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "871ae1785bff73595ccb93622d50190566412c62b98c06c29d66121c92957d41"
 }

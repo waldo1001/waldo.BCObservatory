@@ -6,10 +6,35 @@
   "title": "Let the agent see and set vendor posting groups and CIF or NIF",
   "url": "https://github.com/microsoft/BCApps/pull/9904",
   "published_at": "2026-08-05T11:38:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:16.745Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:21.746Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00378
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:21.904Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:21.908Z",
+      "path": "content/changes/bcapps/9904.md"
     }
   },
   "input_hash": "5c72b952c8af961ff585c8605caa9806573436c9:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "let the agent see and set vendor posting groups and cif or nif"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b18ac6f23e7ec19fd835417d59311782719d52218fa4b1e71ab5f6416b568c93"
 }

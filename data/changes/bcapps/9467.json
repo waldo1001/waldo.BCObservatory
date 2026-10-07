@@ -1,0 +1,131 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9467,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9467",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T20:16:17Z",
+  "merge_commit_sha": "e52a8fc4bb05f0e108043688000bd3362440a977",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "request-for-external"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line",
+  "body_hash": "f1df10353a15deb391f2a721e1162ebea11c2fe8c08b6a350ad1a0eb746773a9",
+  "fixes_issues": [],
+  "work_items": [
+    642120
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 6,
+    "deletions": 6,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/22"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

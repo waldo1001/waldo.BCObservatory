@@ -6,10 +6,18 @@
   "title": "[Master] - Move Expense Agent (Preview) app into BCApps",
   "url": "https://github.com/microsoft/BCApps/pull/9859",
   "published_at": "2026-08-04T22:52:40Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:26.666Z",
+      "change_class": "code",
+      "files": 564,
+      "al": 337,
+      "objects": 327,
+      "unjoined": 10
     }
   },
   "input_hash": "32c3034764c08fd393fcfd6b8cd030b99d64eaf9:c1",
@@ -34,5 +42,8 @@
     ],
     "community_contribution": true,
     "title_key": "master move expense agent preview app into bcapps"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c58f0a2962259caf78aae7bdb5b2f102174cdb070d5b27f0ff8b9b8cdb02ddd0"
 }
