@@ -620,16 +620,30 @@ export async function commitTracked(repoDir: string, message: string, push: bool
     }
   }
   if (!push) return changed;
-  try {
-    await git(["push", "-q", "origin", "HEAD:main"], repoDir);
-  } catch {
-    log.warn("push rejected; rebasing on origin/main and retrying once");
-    // during a run the item loop is still writing content/ and data/: autostash sets that aside for the rebase and
-    // puts it back, and the remote side of a race is code, which never touches those folders (one nightly at a time)
-    await git(["pull", "-q", "--rebase", "--autostash", "origin", "main"], repoDir);
-    await git(["push", "-q", "origin", "HEAD:main"], repoDir);
-  }
+  await pushWithRetry(repoDir);
   return changed;
+}
+
+/**
+ * Push HEAD to main; on a rejection rebase on origin/main and try again, up to `attempts` pushes. During a run the item
+ * loop is still writing content/ and data/: autostash sets that aside for the rebase and puts it back, and the remote
+ * side of a race is code or docs, which never touch those folders (one nightly at a time). One retry was not enough:
+ * the final commit of 2026-10-07 (3,687 items, about 25,000 pages) took four minutes to rebase, two docs pushes landed
+ * inside that window, and the run aborted with all its pages unpushed (run 37664505302). A failed rebase is not
+ * retried: it is a real conflict and throws.
+ */
+export async function pushWithRetry(repoDir: string, attempts = 6, run: (args: string[], cwd: string) => Promise<string> = git, pause: (ms: number) => Promise<void> = (ms) => new Promise((r) => setTimeout(r, ms))): Promise<number> {
+  for (let i = 1; ; i++) {
+    try {
+      await run(["push", "-q", "origin", "HEAD:main"], repoDir);
+      return i;
+    } catch (e) {
+      if (i >= attempts) throw e;
+      log.warn(`push rejected (attempt ${i} of ${attempts}); rebasing on origin/main and retrying`);
+      await run(["pull", "-q", "--rebase", "--autostash", "origin", "main"], repoDir);
+      if (i > 1) await pause(Math.min(30_000, 2_000 * 2 ** (i - 2)));
+    }
+  }
 }
 
 /** Commit and push the vault checkout when it has changes (community raw text, LLM cache); never fails the run. */

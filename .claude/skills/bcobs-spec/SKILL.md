@@ -109,7 +109,10 @@ git commit -m "docs: spec for <title> (Dnn, Mnn)"
 if git pull --rebase origin main; then git push origin HEAD:main; else echo "rebase conflict: resolve, do not push"; fi
 ```
 
-A live nightly on the Mini rebases its checkpoints over a docs push (D58), so pushing during a run is safe. If the
+A live nightly on the Mini rebases its checkpoints over a docs push and retries until its push lands (D58, and
+`pushWithRetry` since run 37664505302 aborted on two docs pushes racing a four-minute rebase), so pushing during a run
+is safe. Still prefer not to push in the last minutes of a run (`gh run list --workflow nightly --limit 1`): the final
+commit carries every rewritten page. If the
 rebase conflicts in `docs/HANDOFF.md` or `docs/PLAN.md`, keep both sides' entries; renumber yours if another session
 took the same Dnn or Mnn, and say so in the commit.
 
