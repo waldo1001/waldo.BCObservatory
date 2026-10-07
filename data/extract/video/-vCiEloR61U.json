@@ -237,7 +237,7 @@
     {
       "t": 83.2,
       "text": "in version 29 with runtime 18.0 and later we have a much cleaner way to retrieve some of this meta ...",
-      "why_it_matters": "Establishes the version and runtime requirements for these new features and indicates they provide improved functionality over prior versions.",
+      "why_it_matters": "States the version and runtime requirement (Runtime 18.0 and later) for the new ModuleInfo metadata access.",
       "check": "exact"
     },
     {
@@ -259,9 +259,9 @@
       "check": "exact"
     },
     {
-      "t": 354.1,
-      "text": "Because dependency is an array in your app.json. If for some reason you want to see the dependencies of this ...",
-      "why_it_matters": "Introduces ModuleDependencyInfo as a supporting type for working with extension dependencies programmatically.",
+      "t": 368.1,
+      "text": "you want to see the dependencies of this particular app then you have to create a new data type which is module dependency info",
+      "why_it_matters": "Explains that dependency details come from a separate ModuleDependencyInfo data type.",
       "check": "exact"
     },
     {

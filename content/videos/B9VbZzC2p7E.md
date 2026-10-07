@@ -15,12 +15,12 @@ tags:
   - copilot assistance
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:17.573Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:17.611Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,7 +130,7 @@ quotes:
 
 > Advanced Spreadsheets and Reporting app for Business Central: a demo of an AI agent that writes SQL regions in a spreadsheet, joining posted sales invoices with customer and ledger entries. Also shows manual SQL region creation. The app is stated to be free in the cloud sandbox.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=B9VbZzC2p7E) · Erik Hougaard · 2026-09-21 · 2:19 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=B9VbZzC2p7E) · Erik Hougaard · 2026-09-21 · 2:19 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -140,12 +140,12 @@ The video then shows how to create a SQL region manually, for example selecting 
 
 ## Key points
 
-- The agent is reached only through the facts box area on the right side of the spreadsheet.
-- The agent has tools to manipulate spreadsheet content and to look up tables and fields.
-- Demo: the agent joins sales invoice header, customer and ledger entries and returns the data in the spreadsheet.
-- Manual alternative: create a SQL region yourself, for example selecting name from the customer table.
-- Manual SQL needs basic SQL knowledge; yellow validation warnings may appear while typing.
-- Knowing the table and field structure helps the agent work effectively.
+- The agent is opened through the facts box area on the right side of the spreadsheet.
+- Prompt used in the demo: create a SQL region that joins sales invoice header with customer and ledger entries.
+- The agent has tools to manipulate everything in the spreadsheet and to look at fields and tables.
+- The generated SQL region pulls data from customer, customer ledger entries and sales invoice header into the spreadsheet.
+- Manual alternative: add a new region, set it as a SQL area and write a query such as select name from customer.
+- A yellow indicator may show up sometimes while typing; the presenter says to ignore it.
 - The app is stated to be free to use in the cloud sandbox.
 
 ## Chapters
@@ -159,11 +159,11 @@ The video then shows how to create a SQL region manually, for example selecting 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI Agent SQL Query Generation | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |  |
-| Advanced Spreadsheets with Agent Integration | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |  |
-| SQL Region Creation in Spreadsheets | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=101s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI Agent SQL Query Generation | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
+| Advanced Spreadsheets with Agent Integration | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
+| SQL Region Creation in Spreadsheets | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=101s) |
 
 ## AL objects mentioned
 

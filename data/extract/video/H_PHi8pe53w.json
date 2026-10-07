@@ -75,10 +75,10 @@
     {
       "name": "Default implementation for AL interfaces",
       "description": "AL interfaces can now have method bodies with default implementations, allowing existing implementations to continue working when new methods are added to an interface without requiring immediate changes to all implementations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 943.3,
+      "status_evidence_quote": "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior",
+      "status_evidence_verified": true,
       "t_start": 254.7,
       "t_end": 429.7,
       "is_demoed": true,
@@ -98,10 +98,10 @@
     {
       "name": "Required pending attribute for AL interface methods",
       "description": "A new attribute that can be added to interface methods to signal that implementations should eventually provide their own implementation, with a specified deadline and reason. Provides a migration period instead of forcing immediate changes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 943.3,
+      "status_evidence_quote": "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior",
+      "status_evidence_verified": true,
       "t_start": 532.2,
       "t_end": 759.1,
       "is_demoed": true,
@@ -115,28 +115,6 @@
         "interface evolution",
         "migration path",
         "analyzer rule"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Staged interface evolution mechanism",
-      "description": "A new approach to interface evolution that moves from immediate breaking changes to a staged process: introduce method with default implementation, provide default behavior, then signal future requirement with required pending.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 564.2,
-      "t_end": 927.8,
-      "is_demoed": true,
-      "caveats": [
-        "Requires coordination between extension providers and dependent extensions",
-        "Requires developers to understand the three-stage process"
-      ],
-      "tags": [
-        "interface evolution",
-        "breaking changes",
-        "migration",
-        "staged approach"
       ],
       "system": "development"
     }
@@ -171,6 +149,12 @@
       "t": 564.2,
       "text": "The idea is to introduce a method is completely way first while signaling that implementation are expected to eventually provide the method themsel",
       "why_it_matters": "Describes the purpose of required pending - a mechanism to eventually enforce implementation without breaking existing code immediately.",
+      "check": "exact"
+    },
+    {
+      "t": 721.7,
+      "text": "saying calculate discount will become will become required. This method will be required to be implemented before version 32.0",
+      "why_it_matters": "Shows the warning that implementations get when a method is marked required pending.",
       "check": "exact"
     },
     {

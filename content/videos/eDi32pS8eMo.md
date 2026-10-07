@@ -15,12 +15,12 @@ tags:
   - executive summary
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:26.239Z"
   flags: []
 generated:
-  at: "2026-10-06T16:47:11.274Z"
+  at: "2026-10-07T23:18:26.281Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -49,19 +49,19 @@ evidence:
     t: 47
     quote: the app comes built with I think there's 15 different generic skills, uh executive summaries, a GL exception dashboard, driver bi uh ratio dashboard,
   - kind: video
+    url: https://www.youtube.com/watch?v=eDi32pS8eMo&t=75s
+    title: Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)
+    date: "2026-09-21T19:14:15.000Z"
+    commit: null
+    t: 75
+    quote: You can build your own skill. You can go in and you can edit uh the bundle skills here to to fit what you
+  - kind: video
     url: https://www.youtube.com/watch?v=eDi32pS8eMo&t=161s
     title: Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)
     date: "2026-09-21T19:14:15.000Z"
     commit: null
     t: 161
     quote: the agent is is working with the spreadsheet just as you would
-  - kind: video
-    url: https://www.youtube.com/watch?v=eDi32pS8eMo&t=275s
-    title: Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)
-    date: "2026-09-21T19:14:15.000Z"
-    commit: null
-    t: 275
-    quote: In order to use the agent, you have to we we use the concept of bring your own key. So, you will have to
 links:
   learn: []
   objects: []
@@ -133,11 +133,11 @@ quotes:
   - t: 47
     text: the app comes built with I think there's 15 different generic skills, uh executive summaries, a GL exception dashboard, driver bi uh ratio dashboard,
     check: exact
+  - t: 75
+    text: You can build your own skill. You can go in and you can edit uh the bundle skills here to to fit what you
+    check: exact
   - t: 161
     text: the agent is is working with the spreadsheet just as you would
-    check: exact
-  - t: 275
-    text: In order to use the agent, you have to we we use the concept of bring your own key. So, you will have to
     check: exact
 ---
 
@@ -145,7 +145,7 @@ quotes:
 
 > Advanced Spreadsheets and Reporting app for Business Central: AI reporting skills let an agent build dashboards in spreadsheets connected to BC data. The app includes 15 generic skills, is free in a sandbox, and needs your own API key (ChatGPT, Claude or others) for the agent.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=eDi32pS8eMo) · Erik Hougaard · 2026-09-21 · 5:02 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=eDi32pS8eMo) · Erik Hougaard · 2026-09-21 · 5:02 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -157,11 +157,11 @@ The demo creates a new spreadsheet with the agent and shows it building a dashbo
 
 - The app builds spreadsheets connected with Business Central data.
 - It ships with about 15 generic skills, including executive summaries, GL exception dashboard, ratio dashboard, budget versus actual and benchmarking dashboards.
-- A skill is a set of instructions for the AI to build a report or dashboard; it replaces manually saved templates.
+- A skill is a set of instructions for the AI to build a report or dashboard; you no longer necessarily have to save a template, though templates are still supported.
+- You can build your own skills or edit the bundled skills to fit your needs.
 - You can give the agent specific instructions or let it use the skill defaults.
-- The demo shows the agent building a dashboard with KPI boxes, financial charts and analysis sections.
+- The demo shows the agent building an executive summary dashboard with KPI boxes, revenue actual versus budget, a profit bridge, financial position and an analysis section.
 - The app is free to use in a sandbox.
-- Using the agent requires your own API key, for example from ChatGPT or Claude (bring your own key).
 
 ## Chapters
 
@@ -174,21 +174,21 @@ The demo creates a new spreadsheet with the agent and shows it building a dashbo
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Advanced Spreadsheets and Reporting App | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=eDi32pS8eMo&t=13s) |  |
-| AI-powered Reporting Skills | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=eDi32pS8eMo&t=37s) |  |
-| Built-in Skill Templates | status not stated | [0:47](https://www.youtube.com/watch?v=eDi32pS8eMo&t=47s) |  |
-| Agent-driven Spreadsheet Building | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=eDi32pS8eMo&t=112s) |  |
-| Bring Your Own Key Support | status not stated | [4:35](https://www.youtube.com/watch?v=eDi32pS8eMo&t=275s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Advanced Spreadsheets and Reporting App | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=eDi32pS8eMo&t=13s) |
+| AI-powered Reporting Skills | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=eDi32pS8eMo&t=37s) |
+| Built-in Skill Templates | status not stated | [0:47](https://www.youtube.com/watch?v=eDi32pS8eMo&t=47s) |
+| Agent-driven Spreadsheet Building | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=eDi32pS8eMo&t=112s) |
+| Bring Your Own Key Support | status not stated | [4:35](https://www.youtube.com/watch?v=eDi32pS8eMo&t=275s) |
 
 ## Quotes
 
 - [0:13](https://www.youtube.com/watch?v=eDi32pS8eMo&t=13s) "here is the advanced spreadsheets and reporting app for Business Central, which is an app where you build spreadsheets that are connected with Business"
 - [0:37](https://www.youtube.com/watch?v=eDi32pS8eMo&t=37s) "now with ai what we actually use is something called a skill and the skill is let me show you is a"
 - [0:47](https://www.youtube.com/watch?v=eDi32pS8eMo&t=47s) "the app comes built with I think there's 15 different generic skills, uh executive summaries, a GL exception dashboard, driver bi uh ratio dashboard,"
+- [1:15](https://www.youtube.com/watch?v=eDi32pS8eMo&t=75s) "You can build your own skill. You can go in and you can edit uh the bundle skills here to to fit what you"
 - [2:41](https://www.youtube.com/watch?v=eDi32pS8eMo&t=161s) "the agent is is working with the spreadsheet just as you would"
-- [4:35](https://www.youtube.com/watch?v=eDi32pS8eMo&t=275s) "In order to use the agent, you have to we we use the concept of bring your own key. So, you will have to"
 
 ## Disclaimers in the video
 

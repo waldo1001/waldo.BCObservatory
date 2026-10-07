@@ -76,10 +76,10 @@
     {
       "name": "Unified Copilot Chat Experience",
       "description": "A new modern chat interface for Business Central that combines business data, web search results, and general AI knowledge in a single conversational experience, consistent across web, mobile, and desktop platforms.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 854.2,
+      "status_evidence_quote": "The feature is being introduced as a public preview right now with version 29.",
+      "status_evidence_verified": true,
       "t_start": 1.8,
       "t_end": 167.2,
       "is_demoed": true,
@@ -99,10 +99,10 @@
     {
       "name": "Business Central Data Integration in Chat",
       "description": "The chat experience can access and reason across Business Central business data, allowing users to ask questions about their data without navigating to specific pages or reports.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 854.2,
+      "status_evidence_quote": "The feature is being introduced as a public preview right now with version 29.",
+      "status_evidence_verified": true,
       "t_start": 211.4,
       "t_end": 262.9,
       "is_demoed": true,
@@ -121,10 +121,10 @@
     {
       "name": "Web Search Integration in Copilot Chat",
       "description": "The unified chat experience can retrieve and incorporate web search results into conversations, combining external information with business context.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 854.2,
+      "status_evidence_quote": "The feature is being introduced as a public preview right now with version 29.",
+      "status_evidence_verified": true,
       "t_start": 211.4,
       "t_end": 262.9,
       "is_demoed": false,
@@ -312,6 +312,12 @@
       "check": "exact"
     },
     {
+      "t": 321.9,
+      "text": "But if you have a co-pilot license, you get additional benefit. Those benefit include access to work IQ.",
+      "why_it_matters": "Names the only concrete Copilot license benefit given.",
+      "check": "exact"
+    },
+    {
       "t": 365,
       "text": "Microsoft says that this feature becomes available over the coming days or months as GA is announced.",
       "why_it_matters": "Indicates the gradual rollout plan from preview to general availability.",
@@ -333,6 +339,12 @@
       "t": 578.3,
       "text": "This is about making business center experience more consistent with the broader Microsoft copilot ecosystem and that has a bigger implication.",
       "why_it_matters": "Explains the strategic direction and broader implications of integrating Business Central with the Microsoft Copilot ecosystem.",
+      "check": "exact"
+    },
+    {
+      "t": 854.2,
+      "text": "The feature is being introduced as a public preview right now with version 29.",
+      "why_it_matters": "States release status and version explicitly.",
       "check": "exact"
     }
   ],

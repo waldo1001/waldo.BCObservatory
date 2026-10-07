@@ -6,11 +6,11 @@
   "key_points": [
     "Disabled indexes take effect immediately; enabling is done overnight in SaaS (local time) but immediately in Docker and on-premises.",
     "Primary keys, system ID, SIFT and unique indexes cannot be disabled. Non-AL-defined indexes that are disabled are deleted and cannot be re-enabled, though SQL Server-generated ones can be recreated.",
-    "Usage statistics (seek, scan, lookup, update, last used) reset on database restart, so they are more meaningful after long uptime. They only cover existing indexes; the missing indexes advisor shows suggestions.",
-    "Per-company enabling applies to company tables only. Use cases are just-in-time enabling for yearly closing and disabling indexes on backup companies to cut storage and write cost.",
-    "DAMS rebuilds large indexes with fragmentation above about 25% nightly at low priority, updates statistics, and runs the Database Tuning Advisor. Backup companies can slow the nightly fragmentation checks.",
-    "Version 29 early access preview merges extension fields into base tables, allowing keys on extension fields and cutting inserts from two SQL inserts to one. Upgrade may take longer and no shipping date is promised.",
-    "A version 28 change will warn when a database is close to the SQL Server record max length limit."
+    "SIFT indexes cannot be managed in the first version; full SIFT management is planned later. Include columns on a well-defined index can often replace a SIFT index.",
+    "Usage statistics (seek, scan, lookup, update, last used) reset on database restart, so they are more meaningful after long uptime; exporting to Excel on a schedule is the suggested way to keep history. They only cover existing indexes; the missing indexes page shows suggestions.",
+    "Indexes can be defined with enabled false in AL and enabled per company at runtime for company tables. Use cases are just-in-time enabling for yearly closing and disabling indexes on backup companies to cut storage and write cost. The method to enable from code is currently scoped OnPrem only, with plans to open it up.",
+    "DAMS rebuilds large indexes with fragmentation above about 25% nightly at low priority, updates statistics, and runs the Database Tuning Advisor, creating _DTA-prefixed indexes. Backup companies can slow the nightly fragmentation checks.",
+    "Version 29 early access preview merges extension fields into base tables, allowing keys on extension fields and cutting inserts from two SQL inserts to one. Upgrade may take longer and no shipping date is promised."
   ],
   "audience": [
     "administrator",

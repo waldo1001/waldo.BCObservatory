@@ -6,8 +6,8 @@
   "key_points": [
     "An existing sandbox can be scheduled to update to a preview version, rather than creating a new clean preview environment.",
     "Testing this way uses the customer's own extensions, data and configuration, which gives a rough estimate of impact, not a guaranteed result.",
-    "Updates are scheduled in the admin center, where you check environments and application versions and pick a date and time.",
-    "Date selection may be restricted by update window settings; an option allows running outside the update window.",
+    "Updates are scheduled in the admin center, where you check environments and application versions and pick a target version, date and time.",
+    "The scheduled date and time are based on the environment's region; an option allows the update to run outside the configured update window.",
     "Check that the sandbox is not in use for active testing before upgrading it.",
     "Preview environments are deleted automatically 30 days after the version becomes generally available, without prior notice.",
     "A preview environment cannot be updated to a different version, and it should not be treated as a permanent sandbox. Tell customers it is temporary."

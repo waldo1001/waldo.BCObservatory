@@ -20,12 +20,12 @@ tags:
   - open source
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:49.369Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:49.444Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,11 +163,6 @@ features:
     t: 1025
     verified: false
     status_source: video
-  - name: Kontoso Framework
-    status: unclear
-    t: 978
-    verified: false
-    status_source: video
   - name: AI prompts for code readability
     status: unclear
     t: 1908
@@ -186,11 +181,6 @@ features:
   - name: Configuration package import
     status: unclear
     t: 2315
-    verified: false
-    status_source: video
-  - name: Open source demo data generator
-    status: unclear
-    t: 2434
     verified: false
     status_source: video
 objects_mentioned:
@@ -227,7 +217,7 @@ quotes:
 
 > Building Business Central demo data with Microsoft's Contoso Coffee framework and an open source Demo Data Generator that creates AL modules from existing data. Evidence for the module codeunit pattern, what the generator automates (about 80 percent) and what stays manual.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ug_uM59DRRE) · Areopa webinars · 2026-09-21 · 47:42 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ug_uM59DRRE) · Areopa webinars · 2026-09-21 · 47:42 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -264,23 +254,21 @@ The speaker then presents an open source Demo Data Generator that runs inside Bu
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Contoso Coffee demo data framework | status not stated, demoed | [10:25](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=625s) |  |
-| Demo data module codeunit pattern | status not stated, demoed | [11:39](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=699s) |  |
-| Helper codeunit pattern for safe data insertion | status not stated, demoed | [12:13](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=733s) |  |
-| Data codeunit pattern with literal values | status not stated | [12:23](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=743s) |  |
-| Enum extension for module registration | status not stated | [12:37](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=757s) |  |
-| Contoso Coffee manufacturing module | status not stated | [10:44](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=644s) |  |
-| Contoso Coffee 2024 wave 2 expansion | status not stated | [10:56](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=656s) |  |
-| Rapid start configuration packages | status not stated | [9:15](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=555s) |  |
-| Demo Data Generator Tool | status not stated, demoed | [17:05](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1025s) |  |
-| Kontoso Framework | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=978s) |  |
-| AI prompts for code readability | status not stated, demoed | [31:48](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1908s) |  |
-| Transactional data placeholder generation | status not stated, demoed | [32:28](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1948s) |  |
-| Manual edit preservation across regeneration | status not stated, demoed | [34:53](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2093s) |  |
-| Configuration package import | status not stated, demoed | [38:35](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2315s) |  |
-| Open source demo data generator | status not stated | [40:34](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2434s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Contoso Coffee demo data framework | status not stated, demoed | [10:25](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=625s) |
+| Demo data module codeunit pattern | status not stated, demoed | [11:39](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=699s) |
+| Helper codeunit pattern for safe data insertion | status not stated, demoed | [12:13](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=733s) |
+| Data codeunit pattern with literal values | status not stated | [12:23](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=743s) |
+| Enum extension for module registration | status not stated | [12:37](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=757s) |
+| Contoso Coffee manufacturing module | status not stated | [10:44](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=644s) |
+| Contoso Coffee 2024 wave 2 expansion | status not stated | [10:56](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=656s) |
+| Rapid start configuration packages | status not stated | [9:15](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=555s) |
+| Demo Data Generator Tool | status not stated, demoed | [17:05](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1025s) |
+| AI prompts for code readability | status not stated, demoed | [31:48](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1908s) |
+| Transactional data placeholder generation | status not stated, demoed | [32:28](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=1948s) |
+| Manual edit preservation across regeneration | status not stated, demoed | [34:53](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2093s) |
+| Configuration package import | status not stated, demoed | [38:35](https://www.youtube.com/watch?v=Ug_uM59DRRE&t=2315s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,33 @@
+{
+  "video_id": "zQg48VT0crU",
+  "item_id": "video/yt-dynamicscorner/zQg48VT0crU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Future AI-native development, Local open source AI models and Fable AI were marked announced or ga using quotes that are guesses or predictions, not product status statements. I set all three to unclear.",
+    "Fable AI repeats the Fable safeguard feature, and Fable's availability was limited by a cutoff that was later extended to July 12th, so it is not GA. Dropped.",
+    "Multi-model AI orchestration workflow repeats Multi-model workflow orchestration. Dropped.",
+    "The description for AI-assisted driver development is wrong. It says GitHub (the transcript says 'gitra') and 8 hours (the 8 hours belongs to the MTC converter; the driver ran from the night before). The feature is also not about Business Central. Dropped.",
+    "The description for Open-source model evaluation names Llama, but the transcript names GLM and Kim(i). Dropped; the local model features cover the topic.",
+    "The key point about the 13-stage pipeline mixed it up with the separate Claude Code spec flow, where Fable reviews the spec. The pipeline segment names only Opus for planning. Rewrote the key point.",
+    "There are duplicate quotes at t 818.6 and 1657.8. They were left in place because removing by t would remove both copies.",
+    "Dropped the quote at 3230.1 because it is a fragment with no information value."
+  ],
+  "input_hash": "25d711453db75897e2d8d4d5344e61f61f77ad04e39a52de189703c4c5440434",
+  "by": "opus",
+  "at": "2026-10-07T23:19:38.338Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "Future AI-native development without language visibility: status unclear",
+    "Local open source AI models: status unclear",
+    "dropped 1 quote(s)",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.267793
+  }
+}

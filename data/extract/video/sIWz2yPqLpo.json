@@ -102,49 +102,6 @@
         "symbols"
       ],
       "system": "development"
-    },
-    {
-      "name": "Minor Version Boundary Control",
-      "description": "Setting that allows projects to maintain minor version boundaries for symbol resolution while still benefiting from newer patches within the same minor version.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 580.4,
-      "t_end": 830,
-      "is_demoed": true,
-      "caveats": [
-        "Requires manual configuration in settings",
-        "Requires understanding of major and minor version semantics"
-      ],
-      "tags": [
-        "version boundary",
-        "patch management",
-        "development",
-        "control"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "AL Extension Settings Configuration",
-      "description": "Method to configure symbol download behavior through settings.json or user settings with al.enforce.minor.version parameter for version control.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 656.8,
-      "t_end": 726.6,
-      "is_demoed": true,
-      "caveats": [
-        "Can be set at user, workspace, or user settings level",
-        "Workspace settings recommended for team environments"
-      ],
-      "tags": [
-        "configuration",
-        "settings",
-        "development"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -200,6 +157,12 @@
       "t": 592.4,
       "text": "When this option is enabled, global symbol download are constrained to the major and minor version specified on your app.json",
       "why_it_matters": "Explains the behavior when the new BC29 feature is enabled",
+      "check": "exact"
+    },
+    {
+      "t": 682.1,
+      "text": "When disabled, default, the latest version available version within the same major version is downloaded regardless of the minor version.",
+      "why_it_matters": "States the default behavior when the enforce minor version setting is disabled.",
       "check": "exact"
     },
     {

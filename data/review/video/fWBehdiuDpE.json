@@ -1,0 +1,29 @@
+{
+  "video_id": "fWBehdiuDpE",
+  "item_id": "video/yt-hougaard/fWBehdiuDpE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter 'Erik Hougaard', but the transcript only says 'Eric'. The surname comes from outside the transcript, so it was removed.",
+    "The key point 'A Claude API key is required, and AL Build must be set up first' is not in the transcript. It was replaced with points the transcript supports: the Claude Opus 5 and Sonnet model choice, and that AL Build is open source.",
+    "All 5 quotes are verbatim or differ only in case or punctuation. Several run on into the next segment, which is allowed.",
+    "All features are supported by the transcript. No release status is stated, so 'unclear' is correct for every feature.",
+    "Added quotes on model choice and the open-source tool. Neither was covered on the page."
+  ],
+  "input_hash": "c2581a4137b34d888c594f5a9faa4d5f03f27326d9d84e1925da996d95e12634",
+  "by": "opus",
+  "at": "2026-10-07T23:18:39.635Z",
+  "applied": [
+    "quote at 323s",
+    "quote at 751s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09131700000000001
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "H7R_m8Ue38g",
+  "item_id": "video/yt-saurav/H7R_m8Ue38g",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'Analysis mode must be enabled to use the fields there' is not stated in the transcript; removed.",
+    "Feature statuses were all unclear, but the transcript says the features are usable after upgrading to version 29 (t=816.8), so they are now set to ga.",
+    "Added a quote showing the fields are not yet available in client personalization, which the summary relies on.",
+    "Analysis mode chapter and feature start at 676.2, but that topic actually begins at 684.4. Minor, left as is."
+  ],
+  "input_hash": "5f523b4ac98b8dfbad9eb744c374df08810d1f55df985e23cdb3e51f621f171c",
+  "by": "opus",
+  "at": "2026-10-07T23:19:10.183Z",
+  "applied": [
+    "quote at 403s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status System audit fields as flow fields -> ga: evidence not verbatim or does not state the status",
+    "status Audit fields in profile customization -> ga: evidence not verbatim or does not state the status",
+    "status Audit fields in analysis mode -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08416900000000001
+  }
+}

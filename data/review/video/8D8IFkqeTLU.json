@@ -1,0 +1,28 @@
+{
+  "video_id": "8D8IFkqeTLU",
+  "item_id": "video/yt-hougaard/8D8IFkqeTLU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claimed the 12 FlowFields each ran over a different date range; transcript at 73.2 says they initially all calculated the same total, and only differed after linking the date range via cell references.",
+    "Quote at 202.2 is a weak fragment with filler and adds little; dropped.",
+    "Added quotes for slicer definition and absolute (dollar) referencing of the slicer.",
+    "Feature statuses remain unclear; transcript does not state preview or GA."
+  ],
+  "input_hash": "04f7af884df454ac638a702ba2e3db065a107643620cb8ab046f6d54c7a89833",
+  "by": "opus",
+  "at": "2026-10-07T23:18:19.022Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 249s",
+    "quote at 289s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06807300000000001
+  }
+}

@@ -1,7 +1,7 @@
 {
   "video_id": "Z0K38pXvjWk",
   "item_id": "video/yt-saurav/Z0K38pXvjWk",
-  "summary": "The ToolTip and ToolTipML properties can now be set on the AL page object. Navigation actions that define no tooltip of their own inherit the page tooltip. The video covers less repeated code, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.",
+  "summary": "The ToolTip and ToolTipML properties can now be set on the AL page object; using both causes an error. Navigation actions that define no tooltip of their own inherit the page tooltip, as the version 29 client demo shows, while version 28 shows the action's own tooltip. The video covers less repeated code, table-field tooltips, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.",
   "overview": "The video shows that ToolTip and ToolTipML are now available at page object level in Business Central AL development. Before this, tooltips were defined repeatedly on individual actions. A tooltip set once on the page can now be reused wherever an action navigates to that page.\n\nIt also covers defining tooltips on table fields so pages inherit them, which reduces page code size. The presenter stresses that AI agents and MCP servers rely on tooltips, so the text should be meaningful and not just generated static text. A client-side demo shows the inheritance.",
   "key_points": [
     "ToolTip and ToolTipML can be defined directly on a page object.",

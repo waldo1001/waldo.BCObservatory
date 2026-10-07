@@ -180,6 +180,12 @@
       "check": "exact"
     },
     {
+      "t": 403.3,
+      "text": "but if I try to search for system created at fields, they'll not be searchable because they are not yet available for personalization.",
+      "why_it_matters": "Shows that client personalization cannot add the audit fields yet, so profile customization or analysis mode is needed.",
+      "check": "exact"
+    },
+    {
       "t": 676.2,
       "text": "The only condition as of today is that you should be using profile customization at that moment.",
       "why_it_matters": "States a key limitation - audit fields are only available through profile customization, not client personalization.",

@@ -2,7 +2,7 @@
 id: video/KkOr-hX0frQ
 type: video
 title: How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
-summary: Changing a Business Central table field from integer to BigInteger in version 29 (preview) is not treated as a destructive change when the extension targets runtime 18.0 or later. The video demos the same change failing in version 28 and deploying in version 29, with compiler warnings for narrowing.
+summary: Business Central version 29 (preview) lets you change an existing table field from integer to BigInteger without it being treated as a destructive change, provided the extension targets runtime 18.0 or later. The demo shows the change failing as destructive on version 28 and deploying on version 29 with the data and related records kept. In the preview, the expected narrowing and table relation warnings did not appear yet.
 tier: community
 language: en
 tags:
@@ -20,25 +20,18 @@ tags:
   - narrowing conversion
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:03.314Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:03.367Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 2920ab876bf3d73bfe3c8f0dfd5ffb7ba0eb8c08c7033358db05479c32dff33f
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1120s
-    title: "Compiler Narrowing Conversion Detection: generally available"
-    date: "2026-09-15T05:53:01.000Z"
-    commit: null
-    t: 1120
-    quote: As the GA will announce, I'm hoping the compiler warnings will be there. Address each compiler warning
   - kind: video
     url: https://www.youtube.com/watch?v=KkOr-hX0frQ&t=110s
     title: How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
@@ -61,19 +54,19 @@ evidence:
     t: 204
     quote: They have a custom transaction log table with an entry number field defined as integer. At some point the entry number gets uncomfortably close
   - kind: video
+    url: https://www.youtube.com/watch?v=KkOr-hX0frQ&t=614s
+    title: How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
+    date: "2026-09-15T05:53:01.000Z"
+    commit: null
+    t: 614
+    quote: But it doesn't give me warning of changing this integer to a big integer which I was expecting that it should give me.
+  - kind: video
     url: https://www.youtube.com/watch?v=KkOr-hX0frQ&t=827s
     title: How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
     date: "2026-09-15T05:53:01.000Z"
     commit: null
     t: 827
     quote: Whereas in version 29 based on the new changes of shifting from integer to big integer it'll easily update it
-  - kind: video
-    url: https://www.youtube.com/watch?v=KkOr-hX0frQ&t=848s
-    title: How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
-    date: "2026-09-15T05:53:01.000Z"
-    commit: null
-    t: 848
-    quote: The field entry number has changed the length of data type from 4 to 8 means integer to begin integer. Changing length of data
 links:
   learn: []
   objects: []
@@ -142,15 +135,10 @@ features:
     t: 370
     verified: false
     status_source: video
-  - name: Schema Sync Mode Changes in Version 29
-    status: unclear
-    t: 787
-    verified: false
-    status_source: video
   - name: Compiler Narrowing Conversion Detection
-    status: ga
+    status: unclear
     t: 1120
-    verified: true
+    verified: false
     status_source: video
   - name: No Upgrade Codeunit Required for Integer to BigInteger Migration
     status: unclear
@@ -183,19 +171,19 @@ quotes:
   - t: 204
     text: They have a custom transaction log table with an entry number field defined as integer. At some point the entry number gets uncomfortably close
     check: exact
+  - t: 614
+    text: But it doesn't give me warning of changing this integer to a big integer which I was expecting that it should give me.
+    check: exact
   - t: 827
     text: Whereas in version 29 based on the new changes of shifting from integer to big integer it'll easily update it
-    check: exact
-  - t: 848
-    text: The field entry number has changed the length of data type from 4 to 8 means integer to begin integer. Changing length of data
     check: exact
 ---
 
 # How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview
 
-> Changing a Business Central table field from integer to BigInteger in version 29 (preview) is not treated as a destructive change when the extension targets runtime 18.0 or later. The video demos the same change failing in version 28 and deploying in version 29, with compiler warnings for narrowing.
+> Business Central version 29 (preview) lets you change an existing table field from integer to BigInteger without it being treated as a destructive change, provided the extension targets runtime 18.0 or later. The demo shows the change failing as destructive on version 28 and deploying on version 29 with the data and related records kept. In the preview, the expected narrowing and table relation warnings did not appear yet.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KkOr-hX0frQ) · Saurav Dhyani · 2026-09-15 · 23:33 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KkOr-hX0frQ) · Saurav Dhyani · 2026-09-15 · 23:33 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,8 +196,8 @@ The demo changes a field type, shows the code cop validation, and deploys the sa
 - The integer to BigInteger change requires the extension to target runtime 18.0 or later; extensions on a lower runtime must update it first.
 - No upgrade codeunit is needed: the platform converts the SQL column and handles the data and related records.
 - In the demo, version 28 rejects the change as destructive, while version 29 deploys it as is and keeps the data.
-- The compiler warns when a BigInteger value may be narrowed or overflow, for example when assigned to an integer field.
-- In the preview, warnings for table relations, related fields and calc formulas were missing, and the presenter hopes they arrive by GA. Table relations pointing to integer fields need manual updating.
+- Per the presenter, the compiler and AppSource cops (rule AS0141) are meant to warn when a BigInteger value may be narrowed or overflow; assigning a value above the integer range to an integer causes a runtime overflow.
+- In the preview, no warnings appeared for the field change, table relations, related fields or calc formulas, and the presenter hopes they arrive by GA. Table relations pointing to integer fields need manual updating.
 - Going back from BigInteger to integer is destructive: move data to another table, empty the table, then move the data back.
 - Migrate only fields that need 64-bit capacity, and start listing high-volume tables that may need it for your roadmap.
 
@@ -231,17 +219,16 @@ The demo changes a field type, shows the code cop validation, and deploys the sa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Big Integer Field Migration | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=110s) |  |
-| AL Compiler Validation for Integer to BigInteger Conversion | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=149s) |  |
-| App Source Cop Warnings for BigInteger Dependencies | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=163s) |  |
-| Runtime Schema Synchronization for BigInteger | status not stated, demoed | [6:10](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=370s) |  |
-| Schema Sync Mode Changes in Version 29 | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=787s) |  |
-| Compiler Narrowing Conversion Detection | generally available | [18:40](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1120s) | "As the GA will announce, I'm hoping the compiler warnings will be there. Address each compiler warning" ([18:40](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1120s)) |
-| No Upgrade Codeunit Required for Integer to BigInteger Migration | status not stated | [21:24](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1284s) |  |
-| Runtime Version 18.0 Requirement for BigInteger Support | status not stated, demoed | [18:00](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1080s) |  |
-| Irreversibility of BigInteger to Integer Conversion | status not stated | [21:39](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1299s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Big Integer Field Migration | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=110s) |
+| AL Compiler Validation for Integer to BigInteger Conversion | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=149s) |
+| App Source Cop Warnings for BigInteger Dependencies | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=163s) |
+| Runtime Schema Synchronization for BigInteger | status not stated, demoed | [6:10](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=370s) |
+| Compiler Narrowing Conversion Detection | status not stated | [18:40](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1120s) |
+| No Upgrade Codeunit Required for Integer to BigInteger Migration | status not stated | [21:24](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1284s) |
+| Runtime Version 18.0 Requirement for BigInteger Support | status not stated, demoed | [18:00](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1080s) |
+| Irreversibility of BigInteger to Integer Conversion | status not stated | [21:39](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=1299s) |
 
 ## AL objects mentioned
 
@@ -260,8 +247,8 @@ Not found in BC28-30: table "demo table", table "vendor table", table "customer 
 - [1:50](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=110s) "Big integral feed migration is a new compiler and a runtime feature in Business Central version 29"
 - [2:04](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=124s) "the platform updates the SQL column for you without considering it as a destructive change"
 - [3:24](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=204s) "They have a custom transaction log table with an entry number field defined as integer. At some point the entry number gets uncomfortably close"
+- [10:14](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=614s) "But it doesn't give me warning of changing this integer to a big integer which I was expecting that it should give me."
 - [13:47](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=827s) "Whereas in version 29 based on the new changes of shifting from integer to big integer it'll easily update it"
-- [14:08](https://www.youtube.com/watch?v=KkOr-hX0frQ&t=848s) "The field entry number has changed the length of data type from 4 to 8 means integer to begin integer. Changing length of data"
 
 ## Disclaimers in the video
 

@@ -369,26 +369,6 @@
       "system": "platform"
     },
     {
-      "name": "AI-assisted driver development",
-      "description": "Developer used Claude with access to GitHub and Wireshark to create a Linux kernel driver for fingerprint sensor by recording Windows traffic and analyzing encryption patterns, completed in approximately 8 hours.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1815.1,
-      "t_end": 1863.1,
-      "is_demoed": true,
-      "caveats": [
-        "Demonstrates capability but outside Business Central scope"
-      ],
-      "tags": [
-        "linux driver",
-        "ai assistance",
-        "problem solving"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Test-first code verification approach",
       "description": "Developer reports spending more time reviewing tests than code, focusing on scenario validation rather than code inspection. As long as tests pass and no performance regression, code quality is acceptable.",
       "status": "unclear",
@@ -412,10 +392,10 @@
     {
       "name": "Future AI-native development without language visibility",
       "description": "Speculation that future development will operate at higher abstraction where developers work only with questions and answers, letting AI create executable code without human visibility into the language used.",
-      "status": "announced",
-      "status_evidence_t": 2345.9,
-      "status_evidence_quote": "I can't see why not. It's still going to be for the next foreseeable future. We will still look at the inner workings of",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 2345.9,
       "t_end": 2426.6,
       "is_demoed": false,
@@ -451,51 +431,6 @@
         "finance"
       ],
       "system": "finance"
-    },
-    {
-      "name": "Multi-model AI orchestration workflow",
-      "description": "Strategy to use different AI models for different tasks - using larger models for spec creation and review, while offloading coding tasks to cheaper open-source or local models to minimize token costs.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3052.9,
-      "t_end": 3085.5,
-      "is_demoed": false,
-      "caveats": [
-        "hypothetical workflow",
-        "requires manual implementation",
-        "depends on model availability"
-      ],
-      "tags": [
-        "orchestration",
-        "cost-optimization",
-        "model-selection"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Open-source model evaluation for AL coding",
-      "description": "Testing of open-source models like GLM and Llama for AL code generation as potential replacements for commercial models. Plans to add local models and open-router options to a website for performance and cost comparison.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2853,
-      "t_end": 2941.3,
-      "is_demoed": false,
-      "caveats": [
-        "not yet tested in real AL programming",
-        "only small tests conducted",
-        "reasoning tasks still require different models"
-      ],
-      "tags": [
-        "open-source",
-        "local-models",
-        "cost-reduction",
-        "al-coding"
-      ],
-      "system": "development"
     },
     {
       "name": "Local model hosting for reduced token costs",
@@ -566,10 +501,10 @@
     {
       "name": "Local open source AI models",
       "description": "Discussion of local open source models getting more attention for specific tasks, with potential cost savings through local hardware versus paid cloud subscriptions.",
-      "status": "announced",
-      "status_evidence_t": 3151.6,
-      "status_evidence_quote": "my prediction for 2027 will be you'll see a lot of these local models getting or these open source local models getting a little",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 3151.6,
       "t_end": 3202.9,
       "is_demoed": false,
@@ -581,28 +516,6 @@
         "local models",
         "cost optimization",
         "prediction"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Fable AI",
-      "description": "A new AI tool that was rapidly benchmarked after release. Had usage limits and rate resets, with updates to availability extended to July 12th.",
-      "status": "ga",
-      "status_evidence_t": 3317.4,
-      "status_evidence_quote": "I think I had the benchmark ready like an hour after Fable was released",
-      "status_evidence_verified": true,
-      "t_start": 3307,
-      "t_end": 3341.4,
-      "is_demoed": true,
-      "caveats": [
-        "Has usage limits per account",
-        "Resets on schedule",
-        "Availability extended through July 12th"
-      ],
-      "tags": [
-        "fable",
-        "benchmarking",
-        "ai tool"
       ],
       "system": "copilot"
     }
@@ -831,12 +744,6 @@
       "text": "The models are the same across every harness. It's how they work with it and how they feed it and how they um process",
       "why_it_matters": "This explains the key differentiator between AI implementations is not the models themselves but the harness architecture that manages them.",
       "check": "exact"
-    },
-    {
-      "t": 3230.1,
-      "text": "that you don't need to pay for in essence again you're going to pay for it with",
-      "why_it_matters": "Identifies the cost trade-off calculation between cloud subscription services and local hardware investment for AI workloads.",
-      "check": "fuzzy"
     },
     {
       "t": 3265.7,

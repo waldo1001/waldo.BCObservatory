@@ -1,16 +1,16 @@
 {
   "video_id": "TH70oJI4Ae0",
   "item_id": "video/yt-saurav/TH70oJI4Ae0",
-  "summary": "Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts around 293 to 300 fields, the SQL Server limits of 500 columns and 8060 bytes per record, and the change that stores extension fields in the same SQL table as the base table.",
+  "summary": "Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts after 293 fields (300 including platform fields), the SQL Server limits of 500 fields and 8060 bytes per record, and the version 29 change that stores extension fields in the same SQL table as the base table. A demo with decimal fields fails at publish time with a database command cancelled error at 470 and again at 469 fields.",
   "overview": "The video looks at how many fields a table can have in Business Central 29. In version 28 and earlier, a table extension created a separate companion table in SQL Server. From version 29, base table and extension fields are stored in the same SQL table, so the limits apply to the combined set of fields.\n\nThe presenter tests the new compiler warning for tables approaching the SQL column limit, then compares it with Microsoft documentation. He finds that the warning is a threshold, not the real limit. The real limits are 500 fields per record and 8060 bytes per record, and the data types you choose decide which one you hit first.",
   "key_points": [
-    "From version 29, table extension fields are stored in the same SQL Server table as the base table fields. Before that, a companion table was created, so field limits now apply to the combined fields.",
-    "The compiler warning appears at about 293 fields, which with the 6 to 7 platform fields is around 300. The presenter says 300 is a warning threshold, not a documented maximum, and the build still compiles.",
-    "In the demo the warning stopped showing at around 499 fields.",
+    "From version 29, table extension fields are stored in the same SQL Server table as the base table fields. Up to version 28 a companion table was created, so field limits now apply to the combined fields.",
+    "The compiler warning appears once a table has more than 293 fields, which with the 6 platform fields reports 300. The presenter says 300 is a warning threshold, not a documented maximum, and the build still compiles.",
+    "In the demo the warning stopped showing at around 499 fields, and the build did not fail.",
     "SQL Server allows at most 500 fields per record and 8060 bytes per record. Record size can stop you before you reach 500 fields.",
-    "A decimal takes 17 bytes and an integer takes 4. The presenter calculates a maximum of about 474 decimal fields in one table. Variable-length text fields count 26 bytes each in the record.",
-    "Business Central adds 6 platform fields to every table: system ID, created at, created by, modified at, modified by and row version. They count toward the limits.",
-    "The presenter says that when the limit is exceeded, the error appears at publish time, not at compile time. Choose data types with this in mind."
+    "A decimal takes 17 bytes and an integer takes 4. Variable-length text fields count 26 bytes each in the record.",
+    "The presenter first estimated about 474 decimal fields, then recalculated 470 including platform fields and the primary key. Publishing failed with a database command cancelled error at 470 and again at 469, and he then tried 465 without showing the result.",
+    "Business Central adds 6 platform fields to every table: system ID, created at, created by, modified at, modified by and row version. They count toward the limits."
   ],
   "audience": [
     "developer",

@@ -1,0 +1,29 @@
+{
+  "video_id": "H_PHi8pe53w",
+  "item_id": "video/yt-saurav/H_PHi8pe53w",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point said required pending needs a version deadline, a tag and a reason. The transcript describes two parameters, a reason and a tag; the version deadline is written inside the reason text.",
+    "Both real features were marked unclear, but the transcript says Business Central 29 is currently in public preview. Set both to preview with that line as evidence.",
+    "'Staged interface evolution mechanism' is the combined use of the two features, not a separate feature. Dropped it; a key point still covers it.",
+    "All six quotes are verbatim. The quote at t=564.2 runs into the next caption, which is acceptable."
+  ],
+  "input_hash": "05b9577db5e6a949c8827be25c846449f32a7c51433b593ae5686c31404fa464",
+  "by": "opus",
+  "at": "2026-10-07T23:18:38.540Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Default implementation for AL interfaces: status preview",
+    "Required pending attribute for AL interface methods: status preview",
+    "quote at 722s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086193
+  }
+}

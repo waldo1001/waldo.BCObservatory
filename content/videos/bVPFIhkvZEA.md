@@ -19,18 +19,32 @@ tags:
   - maintenance cycles
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:03.382Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:03.433Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 5321c791fbdcddad3c1aac984000c7e5ae908a90ca8aa10622f9153481da9f73
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s
+    title: "Turn SIFT indexes on or off from Business Central client: preview"
+    date: "2026-09-11T11:43:30.000Z"
+    commit: null
+    t: 500
+    quote: So get into your preview environment if you have and search for table information.
+  - kind: video
+    url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s
+    title: "Index Management page: preview"
+    date: "2026-09-11T11:43:30.000Z"
+    commit: null
+    t: 500
+    quote: So get into your preview environment if you have and search for table information.
   - kind: video
     url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=85s
     title: "Business Central: Turn SIFT Indexes on or Off"
@@ -39,12 +53,12 @@ evidence:
     t: 85
     quote: Shift stand for sum index field technology. The purpose of shift is simple. Make certain aggregate calculations faster.
   - kind: video
-    url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=175s
+    url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=185s
     title: "Business Central: Turn SIFT Indexes on or Off"
     date: "2026-09-11T11:43:30.000Z"
     commit: null
-    t: 175
-    quote: Shift isn't free as in it doesn't mean that for every table you start introducing shift and we'll see how that happens. But it
+    t: 185
+    quote: it comes up with its tradeoff when records are inserted, modified or deleted. Any table which have enabled shift structures need to be maintained.
   - kind: video
     url: https://www.youtube.com/watch?v=bVPFIhkvZEA&t=238s
     title: "Business Central: Turn SIFT Indexes on or Off"
@@ -119,14 +133,14 @@ features:
   - name: Turn SIFT indexes on or off from Business Central client
     status: ga
     t: 11
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573316"
   - name: Index Management page
-    status: unclear
+    status: preview
     t: 487
-    verified: false
+    verified: true
     status_source: video
   - name: Index type classification
     status: unclear
@@ -156,8 +170,8 @@ quotes:
   - t: 85
     text: Shift stand for sum index field technology. The purpose of shift is simple. Make certain aggregate calculations faster.
     check: exact
-  - t: 175
-    text: Shift isn't free as in it doesn't mean that for every table you start introducing shift and we'll see how that happens. But it
+  - t: 185
+    text: it comes up with its tradeoff when records are inserted, modified or deleted. Any table which have enabled shift structures need to be maintained.
     check: exact
   - t: 238
     text: The correct question isn't are shift indexes good or bad. The better question is are these shift indexes valuable enough for the particular workload.
@@ -174,7 +188,7 @@ quotes:
 
 > SIFT index management in Business Central: administrators can turn SIFT indexes on or off from the client, extending the index management introduced in 2026 release wave 1. Covers the Index Management page, company-level control, enable/disable timing, and guidance on when to disable.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bVPFIhkvZEA) · Saurav Dhyani · 2026-09-11 · 20:55 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=bVPFIhkvZEA) · Saurav Dhyani · 2026-09-11 · 20:55 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -212,8 +226,8 @@ It demos the Index Management page, which shows index type, whether an index is 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Turn SIFT indexes on or off from Business Central client | generally available (roadmap [573316](../features/573316.md)), demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) |  |
-| Index Management page | status not stated, demoed | [8:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=487s) |  |
+| Turn SIFT indexes on or off from Business Central client | generally available (roadmap [573316](../features/573316.md)), demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
+| Index Management page | preview, demoed | [8:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=487s) | "So get into your preview environment if you have and search for table information." ([8:20](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=500s)) |
 | Index type classification | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=639s) |  |
 | Company-level index control | status not stated, demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
 | Database index management at application level | status not stated | [5:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=348s) |  |
@@ -234,7 +248,7 @@ Not found in BC28-30: table "GL Entry", page "index management page".
 ## Quotes
 
 - [1:25](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=85s) "Shift stand for sum index field technology. The purpose of shift is simple. Make certain aggregate calculations faster."
-- [2:55](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=175s) "Shift isn't free as in it doesn't mean that for every table you start introducing shift and we'll see how that happens. But it"
+- [3:05](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=185s) "it comes up with its tradeoff when records are inserted, modified or deleted. Any table which have enabled shift structures need to be maintained."
 - [3:58](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=238s) "The correct question isn't are shift indexes good or bad. The better question is are these shift indexes valuable enough for the particular workload."
 - [5:59](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=359s) "In 2026 release one, Microsoft introduced application level management of database index through table information experience."
 - [7:13](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=433s) "In business 2026 release wave 2, Microsoft have added that administrator can turn shift indexes on or off whenever they need it"

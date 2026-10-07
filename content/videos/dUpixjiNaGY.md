@@ -2,7 +2,7 @@
 id: video/dUpixjiNaGY
 type: video
 title: Preview Images Directly in Business Central Web Client
-summary: "Image preview in the Business Central web client: supported image attachments open in a dedicated viewer without downloading, compared with version 28 behavior. Covers supported formats, the FileViewFromStream method for developers, and a known gap for incoming documents."
+summary: From Business Central version 29, supported image attachments open in a dedicated web client viewer without downloading them first, much like the existing PDF preview. Before that, up to version 28, users had to download the file. The video covers the supported formats and limits, where the preview works (document attachments, agents, emails, extensions), the gap for incoming documents, and how developers use File.ViewFromStream in custom extensions.
 tier: community
 language: en
 tags:
@@ -15,18 +15,25 @@ tags:
   - supported formats
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:33.145Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:33.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: a48753a9242f42de1b51fdff549b76ae04c9708ab24151b55ca9396f515f5425
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=dUpixjiNaGY&t=300s
+    title: "Image Preview in Web Client: generally available"
+    date: "2026-09-12T14:26:20.000Z"
+    commit: null
+    t: 300
+    quote: So a true preview experience for images is now available with version 29 and later.
   - kind: video
     url: https://www.youtube.com/watch?v=dUpixjiNaGY&t=1s
     title: Preview Images Directly in Business Central Web Client
@@ -56,12 +63,12 @@ evidence:
     t: 129
     quote: The image preview experience support a broad range of format from JPEG, JPG, PNG, BMP, SVG, WBP, ICO, GIF and AVIF
   - kind: video
-    url: https://www.youtube.com/watch?v=dUpixjiNaGY&t=386s
+    url: https://www.youtube.com/watch?v=dUpixjiNaGY&t=300s
     title: Preview Images Directly in Business Central Web Client
     date: "2026-09-12T14:26:20.000Z"
     commit: null
-    t: 386
-    quote: For Business Central online, there is a new addition for file view from stream and for onremise there is a file dot view
+    t: 300
+    quote: So a true preview experience for images is now available with version 29 and later.
 links:
   learn: []
   objects: []
@@ -100,9 +107,9 @@ chapters:
     title: Summary and Recommendations
 features:
   - name: Image Preview in Web Client
-    status: unclear
+    status: ga
     t: 1
-    verified: false
+    verified: true
     status_source: video
   - name: Supported Image Formats
     status: unclear
@@ -140,16 +147,16 @@ quotes:
   - t: 129
     text: The image preview experience support a broad range of format from JPEG, JPG, PNG, BMP, SVG, WBP, ICO, GIF and AVIF
     check: exact
-  - t: 386
-    text: For Business Central online, there is a new addition for file view from stream and for onremise there is a file dot view
+  - t: 300
+    text: So a true preview experience for images is now available with version 29 and later.
     check: exact
 ---
 
 # Preview Images Directly in Business Central Web Client
 
-> Image preview in the Business Central web client: supported image attachments open in a dedicated viewer without downloading, compared with version 28 behavior. Covers supported formats, the FileViewFromStream method for developers, and a known gap for incoming documents.
+> From Business Central version 29, supported image attachments open in a dedicated web client viewer without downloading them first, much like the existing PDF preview. Before that, up to version 28, users had to download the file. The video covers the supported formats and limits, where the preview works (document attachments, agents, emails, extensions), the gap for incoming documents, and how developers use File.ViewFromStream in custom extensions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=dUpixjiNaGY) · Saurav Dhyani · 2026-09-12 · 10:11 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=dUpixjiNaGY) · Saurav Dhyani · 2026-09-12 · 10:11 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,13 +166,13 @@ It lists the supported formats, shows document attachments using a view action, 
 
 ## Key points
 
+- Up to version 28, image attachments had to be downloaded to view; from version 29, images preview directly in the web client viewer.
+- The viewer still lets users download, print and resize images if needed.
 - Supported formats: JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF and AVIF; GIF and AVIF include animated versions.
 - Animated GIF support is limited to 48 frames.
 - TIFF is supported only in Safari browsers.
 - Document attachments get a view action that shows the image in the client without downloading it.
-- For Business Central online, developers use the new FileViewFromStream method instead of the older FileDownload approach; it is UCI compliant.
-- OnPrem developers should use FileViewFromStream instead of the older FileView method to avoid UCI compliance issues.
-- Incoming documents do not have image preview yet; the presenter expects it to be added later.
+- Developers load the file into a stream and call File.ViewFromStream (with file name and extension) to show the preview from a custom extension; page 1173 Document Attachment Details FactBox shows Microsoft's usage.
 
 ## Chapters
 
@@ -181,7 +188,7 @@ It lists the supported formats, shows document attachments using a view action, 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Image Preview in Web Client | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=dUpixjiNaGY&t=1s) |  |
+| Image Preview in Web Client | generally available, demoed | [0:01](https://www.youtube.com/watch?v=dUpixjiNaGY&t=1s) | "So a true preview experience for images is now available with version 29 and later." ([5:00](https://www.youtube.com/watch?v=dUpixjiNaGY&t=300s)) |
 | Supported Image Formats | status not stated | [1:55](https://www.youtube.com/watch?v=dUpixjiNaGY&t=115s) |  |
 | File View From Stream Method | status not stated, demoed | [6:14](https://www.youtube.com/watch?v=dUpixjiNaGY&t=374s) |  |
 | Document Attachment Preview | status not stated, demoed | [5:19](https://www.youtube.com/watch?v=dUpixjiNaGY&t=319s) |  |
@@ -202,7 +209,7 @@ Not found in BC28-30: page "Document Attachment Detail Fact", page "1173".
 - [0:52](https://www.youtube.com/watch?v=dUpixjiNaGY&t=52s) "previously when you encountered an image attachment in Business Central till version 28, you often had to download the file before you can view"
 - [1:16](https://www.youtube.com/watch?v=dUpixjiNaGY&t=76s) "now images can also be opened directly in Business Central web client. The image is displayed in the dedicated viewer"
 - [2:09](https://www.youtube.com/watch?v=dUpixjiNaGY&t=129s) "The image preview experience support a broad range of format from JPEG, JPG, PNG, BMP, SVG, WBP, ICO, GIF and AVIF"
-- [6:26](https://www.youtube.com/watch?v=dUpixjiNaGY&t=386s) "For Business Central online, there is a new addition for file view from stream and for onremise there is a file dot view"
+- [5:00](https://www.youtube.com/watch?v=dUpixjiNaGY&t=300s) "So a true preview experience for images is now available with version 29 and later."
 
 ## Disclaimers in the video
 

@@ -468,10 +468,10 @@
     {
       "name": "Extension fields merging to base tables in version 29",
       "description": "In version 29, extension fields will be merged back into the base table in SQL schema instead of being stored in separate companion tables. This allows creating keys on extension fields and improves runtime operations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 1802.8,
+      "status_evidence_quote": "we actually have it out in the early access preview now. We're merging back the extension fields into the base table.",
+      "status_evidence_verified": true,
       "t_start": 1779.4,
       "t_end": 1838.9,
       "is_demoed": true,
@@ -593,10 +593,10 @@
     {
       "name": "Index virtual provider API expansion to cloud",
       "description": "Index virtual provider and related APIs currently scope on-premises only. Plan to enable these features moving forward for cloud, with filtering by table to avoid expensive operations across all indexes and tables.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 2415.8,
+      "status_evidence_quote": "So, yes, it is something that we're looking at and planning to add in the future.",
+      "status_evidence_verified": true,
       "t_start": 2346.6,
       "t_end": 2428.4,
       "is_demoed": false,
@@ -712,9 +712,9 @@
       "check": "exact"
     },
     {
-      "t": 712.3,
-      "text": "We have uh 1.8 GB for 7 million um in the actual data. And then we have what is that? ...",
-      "why_it_matters": "Demonstrates with real-world data why index storage management is critical for customers with large datasets.",
+      "t": 724.9,
+      "text": "And then we have what is that? Three times as much just for the indices, right?",
+      "why_it_matters": "Real-world example that index storage on item ledger entry can be about three times the data size.",
       "check": "exact"
     },
     {
@@ -742,6 +742,12 @@
       "check": "exact"
     },
     {
+      "t": 1218.6,
+      "text": "Right now, unfortunately, the method is on prem only, scope on prem. But that is something we are thinking very much about changing.",
+      "why_it_matters": "Programmatic per-company index enabling is not yet available to cloud extensions.",
+      "check": "exact"
+    },
+    {
       "t": 1447.4,
       "text": "We call it DAMS, the data administration and management service, which behind the scenes takes care of some of the maintenance, monitoring, and tuning",
       "why_it_matters": "Introduces the comprehensive automatic maintenance system that handles index management without explicit customer intervention.",
@@ -756,13 +762,7 @@
     {
       "t": 1616.8,
       "text": "We have about 40,000 databases where Dams have created indexes. So, most likely all of your customers have automatically created indexes",
-      "why_it_matters": "Demonstrates scale and prevalence of automatic index creation across the Business Central customer base.",
-      "check": "exact"
-    },
-    {
-      "t": 1616.8,
-      "text": "We have about 40,000 databases where Dams have created indexes. So, most likely all of your customers have automatically created indexes.",
-      "why_it_matters": "Demonstrates the scale and widespread adoption of automatic index generation across Business Central customers.",
+      "why_it_matters": "Shows auto-created DAMS indexes are widespread and worth reviewing.",
       "check": "exact"
     },
     {

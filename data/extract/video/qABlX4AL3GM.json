@@ -97,10 +97,10 @@
     {
       "name": "Unified table storage for extensions",
       "description": "Business Central 29 introduces a major change where fields from table extensions are stored in the same database table as the base table, replacing the previous extension companion table model.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 151.1,
+      "status_evidence_quote": "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.",
+      "status_evidence_verified": true,
       "t_start": 103.9,
       "t_end": 1840.6,
       "is_demoed": false,
@@ -121,10 +121,10 @@
     {
       "name": "Cross-field indexes spanning base and extension tables",
       "description": "Developers can now define indexes that span fields from both a base table and its extension tables, which was not possible under the previous companion table model due to SQL storage constraints.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 151.1,
+      "status_evidence_quote": "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.",
+      "status_evidence_verified": true,
       "t_start": 751.9,
       "t_end": 1862.7,
       "is_demoed": false,
@@ -189,34 +189,12 @@
       "system": "development"
     },
     {
-      "name": "Avoid direct SQL operations",
-      "description": "Microsoft has made clear that there should be no direct SQL inserts, reads, writes or deletes directly from SQL. Developers should use AL code, Business Central APIs, or queries instead.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1291.1,
-      "t_end": 1474.3,
-      "is_demoed": false,
-      "caveats": [
-        "Direct SQL may initially appear faster but maintenance costs are higher",
-        "Model changes require query updates"
-      ],
-      "tags": [
-        "sql",
-        "best practices",
-        "api",
-        "maintenance"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Compiler warnings for table column limit",
       "description": "Business Central 29 introduces compiler warnings when tables or table extensions with many normal fields approach SQL column limits. Helps developers identify data models reaching SQL extension limits.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 151.1,
+      "status_evidence_quote": "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.",
+      "status_evidence_verified": true,
       "t_start": 1474.3,
       "t_end": 1685.1,
       "is_demoed": false,
@@ -272,6 +250,12 @@
       "check": "exact"
     },
     {
+      "t": 568.2,
+      "text": "business center 29 onrem version is not available and on business center cloud I don't have access to the SQL server",
+      "why_it_matters": "Shows that the speaker's description of the v29 SQL layout is an assumption, not something he checked.",
+      "check": "exact"
+    },
+    {
       "t": 603.8,
       "text": "one business central table, AL table is equivalent to one SQL table. No companion table, no table per extension.",
       "why_it_matters": "Provides a clear conceptual summary of the new unified model versus the previous multi-table approach.",
@@ -285,26 +269,14 @@
     },
     {
       "t": 780.4,
-      "text": "finds will work faster because it is it doesn't have to create a join on multiple or one companion table",
-      "why_it_matters": "Explains how the unified model improves query performance by eliminating joins across companion tables.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 780.4,
       "text": "now all the data relies on one single table. So your finds, your gets not gets for sure but finds will work faster",
-      "why_it_matters": "Explains the core benefit of version 29's unified table model - faster find operations due to eliminated joins.",
+      "why_it_matters": "States the performance benefit of the unified table: no join to companion tables for finds.",
       "check": "exact"
     },
     {
       "t": 834.9,
       "text": "because all the data is relied and all the fields are in the same table, you'll be able to create these indexes or keys",
-      "why_it_matters": "Demonstrates how the unified storage removes previous limitations on index and key creation across base and extension fields.",
-      "check": "exact"
-    },
-    {
-      "t": 834.9,
-      "text": "now because all the data is relied and all the fields are in the same table, you'll be able to create these indexes or",
-      "why_it_matters": "Documents removal of a previous limitation on composite keys mixing base and extension fields.",
+      "why_it_matters": "Explains why indexes mixing base and extension fields become possible in v29.",
       "check": "exact"
     },
     {

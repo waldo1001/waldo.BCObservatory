@@ -16,12 +16,12 @@ tags:
   - transaction processing
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:10.533Z"
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T23:19:10.578Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     commit: null
     t: 217
     quote: Going forward in version 29, when a user opens the tell me, user will be able to see searches that he have recently performed.
+  - kind: video
+    url: https://www.youtube.com/watch?v=wS1wVBhNafk&t=278s
+    title: "Business Central 2026 Wave 2 (v29): 2 Productivity Features You’ll Use Daily"
+    date: "2026-09-08T17:10:17.000Z"
+    commit: null
+    t: 278
+    quote: Now, the same will be available in the advanced search, which is an AI-powered search based on the context that you type.
   - kind: video
     url: https://www.youtube.com/watch?v=wS1wVBhNafk&t=461s
     title: "Business Central 2026 Wave 2 (v29): 2 Productivity Features You’ll Use Daily"
@@ -116,6 +123,9 @@ quotes:
   - t: 217
     text: Going forward in version 29, when a user opens the tell me, user will be able to see searches that he have recently performed.
     check: exact
+  - t: 278
+    text: Now, the same will be available in the advanced search, which is an AI-powered search based on the context that you type.
+    check: exact
   - t: 461
     text: The platform analyzes users signal that are already being collected by Business Central and surfaces the most relevant record first.
     check: exact
@@ -128,7 +138,7 @@ quotes:
 
 > Business Central version 29 (2026 wave 2) adds two productivity features: recent searches shown in Tell Me, and recently used records shown first in lookup fields. Both are demoed. The video is evidence for how they behave, their caveats and the personalization involved.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=wS1wVBhNafk) · Saurav Dhyani · 2026-09-08 · 14:49 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=wS1wVBhNafk) · Saurav Dhyani · 2026-09-08 · 14:49 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -138,11 +148,11 @@ Both features are demoed. The presenter explains that the lookup feature is plat
 
 ## Key points
 
-- In version 29, opening Tell Me shows the user's recent searches automatically, before any typing.
-- Recent searches in Tell Me are limited to pages and reports the user has permission to access.
+- In version 29, opening Tell Me (Alt+Q) shows the user's recent searches automatically, before any typing.
+- Recent searches are also available in the AI-powered advanced search.
 - The recent searches list grows as the user explores more pages and reports.
 - Lookup fields show recently used records first, for customers, vendors, items, GL accounts and other master records.
-- The lookup feature works across all lookup types, including custom entities, and no code is needed to enable it.
+- The lookup feature works across all lookups, including custom entities, because it is platform level; no code is written to enable it.
 - Recent records are personalized per user from signals Business Central already collects; the recent section is blank on first use.
 - In a lookup, users can still switch to the search menu or pick from the full list.
 
@@ -158,10 +168,10 @@ Both features are demoed. The presenter explains that the lookup feature is plat
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Recently Searched in Tell Me | generally available (roadmap [573371](../features/573371.md)), demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |  |
-| Recently Used Records in Lookups | generally available (roadmap [573368](../features/573368.md)), demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Recently Searched in Tell Me | generally available (roadmap [573371](../features/573371.md)), demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |
+| Recently Used Records in Lookups | generally available (roadmap [573368](../features/573368.md)), demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -169,5 +179,6 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 - [0:58](https://www.youtube.com/watch?v=wS1wVBhNafk&t=58s) "This feature focus on helping users to find information faster and reducing repetitive actions during daily work."
 - [3:37](https://www.youtube.com/watch?v=wS1wVBhNafk&t=217s) "Going forward in version 29, when a user opens the tell me, user will be able to see searches that he have recently performed."
+- [4:38](https://www.youtube.com/watch?v=wS1wVBhNafk&t=278s) "Now, the same will be available in the advanced search, which is an AI-powered search based on the context that you type."
 - [7:41](https://www.youtube.com/watch?v=wS1wVBhNafk&t=461s) "The platform analyzes users signal that are already being collected by Business Central and surfaces the most relevant record first."
 - [11:03](https://www.youtube.com/watch?v=wS1wVBhNafk&t=663s) "It work across all your look ups because it's a platform level feature. There's no code written behind the scene to enable the recent"

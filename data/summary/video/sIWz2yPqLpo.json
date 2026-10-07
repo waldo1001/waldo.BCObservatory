@@ -4,13 +4,13 @@
   "summary": "Global symbol download in AL development and the BC 29 \"global source enforce minor version\" setting, which limits downloaded symbols to the major and minor version in app.json. Covers how BC 28 resolved only the major version, and how to configure the setting.",
   "overview": "The video explains what AL symbols are and reviews the traditional ways to download them. It then covers global symbol download, introduced in BC 28, which lets AL developers get symbols from a global source without a Docker environment or a Business Central client instance.\nIt then describes the version resolution problem in BC 28, where only the major version is respected. The BC 29 setting, global source enforce minor version, constrains downloads to the major and minor version in app.json while still taking the newest patch in that minor version. The video demos the setting and walks through use cases.",
   "key_points": [
-    "Global symbol download was introduced in BC 28. It downloads symbols from a global source without a Docker environment or a Business Central client instance.",
+    "Global symbol download was introduced in BC 28 (2026 release wave one). It downloads symbols from a global source (NuGet feeds) without a Docker environment or a Business Central client instance.",
     "Symbols from the global source are read-only versions without code.",
-    "In version 28 only the major version from app.json is respected when symbols are resolved.",
-    "In BC 29 the global source enforce minor version option constrains downloads to the major and minor version in app.json. The newest patch within that minor version is still downloaded.",
-    "The option must be enabled in settings or workspace configuration. It was disabled by default in BC 28.",
-    "It is configured through the al.enforce.minor.version parameter, at user or workspace level. Workspace settings are recommended for teams.",
-    "Symbol download looks for the minimum version of the dependent extension that your app can use, as set in app.json."
+    "In BC 28, global symbol download resolves only the major version from app.json and picks the latest available version, for example 28.5 even when app.json specifies 28.1.",
+    "In BC 29, the global source enforce minor version option limits downloads to the major and minor version in app.json. The newest hotfix within that minor version is still selected.",
+    "When the setting is disabled (the default), the latest version within the same major version is downloaded, regardless of the minor version.",
+    "The setting is under the AL extension. You can enable it in user settings or set it to true in the workspace settings.json. Workspace settings are recommended for teams that use source control.",
+    "Traditional symbol download through launch.json looks for the minimum dependency version in app.json and downloads a higher version if an exact match is not available."
   ],
   "audience": [
     "developer",

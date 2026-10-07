@@ -1,0 +1,29 @@
+{
+  "video_id": "-vCiEloR61U",
+  "item_id": "video/yt-saurav/-vCiEloR61U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quotes at t=83.2 and t=354.1 end with an added '...' and are not verbatim; dropped. The 83.2 quote is re-added in full because it is the only quote showing the Runtime 18.0 requirement.",
+    "Added a quote at t=368.1 to support the ModuleDependencyInfo key point.",
+    "Feature statuses stay unclear: the video says Microsoft 'added' the properties in version 29 but never says whether they are preview or generally available.",
+    "The speaker calls ModuleDependencyInfo 'another new data type' during the version 28 demo, not as a version 29 addition. The page does not claim it is new in 29, so it is kept.",
+    "At 405.8 the speaker hedges that privacy statement 'was there I think so', but the version 29 demo and the summary at 570.4 list it as one of the four new properties.",
+    "Summary, key points and features are otherwise supported by the transcript."
+  ],
+  "input_hash": "8ebba5711a043059cda580b3d38aba963bcc08260c369a17c525cc803324fd98",
+  "by": "opus",
+  "at": "2026-10-07T23:18:55.507Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 83s",
+    "quote at 368s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.099777
+  }
+}

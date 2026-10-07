@@ -278,28 +278,6 @@
       "system": "development"
     },
     {
-      "name": "Kontoso Framework",
-      "description": "Microsoft's framework for demo data that provides clean, extensible patterns with consistent structure for module code units, helper code units, and data code units. Covers standard product functionality but does not include manufacturing, service management, or ISV verticals.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 978.2,
-      "t_end": 1002,
-      "is_demoed": true,
-      "caveats": [
-        "Only covers standard product",
-        "Does not cover manufacturing, service management, or ISV vertical modules"
-      ],
-      "tags": [
-        "framework",
-        "microsoft",
-        "kontoso",
-        "standard product"
-      ],
-      "system": "development"
-    },
-    {
       "name": "AI prompts for code readability",
       "description": "Two prompts included with the generator package to make procedure names and labels human-readable, allowing the AI agent to improve generated code legibility.",
       "status": "unclear",
@@ -374,24 +352,6 @@
         "configuration packages",
         "rapid start",
         "import"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Open source demo data generator",
-      "description": "The demo data generator is open source, allowing partners and ISVs to extend it and contribute improvements back to the community, particularly for transactional data generation approaches.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2434.8,
-      "t_end": 2448.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "open source",
-        "community",
-        "extension"
       ],
       "system": "platform"
     }
@@ -555,6 +515,18 @@
       "text": "it start with both people in the same room the functional expert like presets consultant the trainer or whoever knows",
       "why_it_matters": "Prescribes the recommended collaboration model between functional and technical teams for optimal demo data creation.",
       "check": "fuzzy"
+    },
+    {
+      "t": 2216.4,
+      "text": "We will keep the manual edits and if necessary, you can force regenerate everything.",
+      "why_it_matters": "Confirms regeneration preserves manual code edits, with a force-regenerate option.",
+      "check": "exact"
+    },
+    {
+      "t": 2327.6,
+      "text": "just select a configuration package um from your environment and then it will not only enter all the tables but also look at the",
+      "why_it_matters": "Describes importing existing Rapid Start configuration packages into a generator module definition.",
+      "check": "exact"
     },
     {
       "t": 2373.6,

@@ -1,0 +1,31 @@
+{
+  "video_id": "B9VbZzC2p7E",
+  "item_id": "video/yt-hougaard/B9VbZzC2p7E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'reached only through the facts box' overstates the transcript; it says only that you open the agent via the facts box area on the right.",
+    "Key point 'Manual SQL needs basic SQL knowledge' is not in the transcript.",
+    "Key point 'Knowing the table and field structure helps the agent work effectively' is not in the transcript.",
+    "Calling the yellow indicator a 'validation warning' is an interpretation; the speaker just says to ignore the yellow thing that comes up sometimes.",
+    "All 4 quotes are verbatim. The second t=53.1 quote runs on into segment 65.2, which is fine.",
+    "Feature statuses are correctly left as unclear. 'Free to use in the cloud sandbox' is not a release status.",
+    "The last chapter starts at 113.6, but that segment still covers the manual SQL example; availability starts at 128.9. Chapters cannot be edited here."
+  ],
+  "input_hash": "916dd988d356b2641c7be0af10b81f6c1853fbfe6c55bb636e5da1f6d46f2ae2",
+  "by": "opus",
+  "at": "2026-10-07T23:18:17.573Z",
+  "applied": [
+    "AI Agent SQL Query Generation: status unclear",
+    "Advanced Spreadsheets with Agent Integration: status unclear",
+    "SQL Region Creation in Spreadsheets: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045061000000000004
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "video_id": "dUpixjiNaGY",
+  "item_id": "video/yt-saurav/dUpixjiNaGY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript ties the feature to version 29 and later ('now available with version 29 and later'). Image Preview in Web Client can be set to GA with evidence from t=300.3.",
+    "The claims that FileViewFromStream replaces an older FileDownload approach and is 'UCI compliant' for online go beyond the transcript. The presenter only says 'like we had the file.d download' and warns that File.View on-prem causes UCI compliance issues.",
+    "Summary does not mention version 29. Updated it.",
+    "Added quotes on the version 29 availability and the incoming documents gap.",
+    "WBP in the captions reads as WEBP. Keeping WEBP in the key points is reasonable."
+  ],
+  "input_hash": "b8536f3d37552ef645f9df60dabe51632963155ddcbb8f268159eb14182b4354",
+  "by": "opus",
+  "at": "2026-10-07T23:19:33.145Z",
+  "applied": [
+    "Image Preview in Web Client: status ga",
+    "Supported Image Formats: status unclear",
+    "File View From Stream Method: status unclear",
+    "Document Attachment Preview: status unclear",
+    "Image Preview Across Business Central Areas: status unclear",
+    "quote at 300s",
+    "quote at 332s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07691300000000001
+  }
+}

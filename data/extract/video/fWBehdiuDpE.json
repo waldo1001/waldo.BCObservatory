@@ -224,6 +224,12 @@
       "check": "exact"
     },
     {
+      "t": 322.9,
+      "text": "it's using Claude Opus 5 right now. You can also use Sonnet and some of the cheaper ones.",
+      "why_it_matters": "Shows which LLM models the translation task can use.",
+      "check": "exact"
+    },
+    {
       "t": 359.3,
       "text": "and stored them in my database so if if if we have customer number that's a microsoft label",
       "why_it_matters": "Shows caching strategy to avoid re-translating known terms and ensure Microsoft terminology consistency.",
@@ -233,6 +239,12 @@
       "t": 657,
       "text": "the time you spend translating is not insignificant. Um so, I was working on a version that would just translate 10 uh 15 uh",
       "why_it_matters": "Indicates performance considerations and that parallel translation is a future enhancement not yet implemented.",
+      "check": "exact"
+    },
+    {
+      "t": 750.8,
+      "text": "It's open source, so if you don't like the way it runs, change it.",
+      "why_it_matters": "States that the AL Build tool is open source and can be modified.",
       "check": "exact"
     }
   ],

@@ -1,0 +1,32 @@
+{
+  "video_id": "nbGw2g3KMXI",
+  "item_id": "video/yt-areopa/nbGw2g3KMXI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Custom agent creation evidence: the quote was attributed to t 359.8 but starts at 478.1. The caption also reads 'currently possible inside production', which contradicts the sandbox-only statements, so I replaced it with the clearer preview statement at 2723.6.",
+    "Quote at 374.2 ends with an added ellipsis and is not verbatim. I re-added it without the ellipsis.",
+    "Quote at 478.1 is dropped because its garbled caption ('currently possible inside production') is misleading.",
+    "Quote at 2563 is dropped because it is garbled and adds little.",
+    "Expense agent is marked ga based on 'released recently', which is a weak but acceptable reading.",
+    "Some feature names come from captioning errors ('Agent Beta Data' is likely metadata, and billing type 'build' is likely billed), but they match the transcript wording.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "fb8069fadab4776761683fc33465b27e4fc7e0d8951b85eb0857c5bf9fde26af",
+  "by": "opus",
+  "at": "2026-10-07T23:19:30.893Z",
+  "applied": [
+    "Custom agent creation: status preview",
+    "Expense agent: status ga",
+    "Copilot-AL Agent Interaction: status announced",
+    "dropped 3 quote(s)",
+    "quote at 374s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.212601
+  }
+}

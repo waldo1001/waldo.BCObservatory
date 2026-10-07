@@ -15,12 +15,12 @@ tags:
   - advanced spreadsheets and reporting
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:30.020Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:30.061Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,7 +149,7 @@ quotes:
 
 > Editing Business Central G/L budgets in a spreadsheet using the Advanced Spreadsheets and Reporting app: budget regions, formulas that update budget ledger entries, comparison periods, dimension details and access control. Demoed in a sandbox; the app is on AppSource and free to try in sandbox.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WYd8Qn3wVQQ) · Erik Hougaard · 2026-09-21 · 9:13 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WYd8Qn3wVQQ) · Erik Hougaard · 2026-09-21 · 9:13 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,13 +159,13 @@ He then works with multiple regions and a comparison column that shows actuals f
 
 ## Key points
 
-- A budget region is an area of the spreadsheet linked into Business Central, and it is used to edit G/L budget data.
-- Formulas typed into budget cells stay in the spreadsheet, while the calculated result is written to the budget (table Budget Ledger Entries).
-- A comparison column can show actuals from a previous period, such as the same period one year before; the date formulas must be configured manually.
-- Several regions can be used in one spreadsheet, each with its own compare period settings.
-- Budget regions can show details for specific dimensions, which adds budget lines per dimension; changing dimension settings requires a manual recalculation.
-- Access to a spreadsheet can be defined per user, so budget entry can be delegated to departments or individuals.
-- The app is available in AppSource and is free to try in a sandbox.
+- A budget region is an area of the spreadsheet linked into Business Central. When you create one, you choose the G/L budget, company, period (e.g. month), date range, accounts, an optional compare column and sign reversal.
+- Typing a value in a budget region cell updates the budget. Ctrl-clicking a region cell opens the data source, the budget ledger entries.
+- Formulas typed into budget cells stay in the spreadsheet, while the calculated result is written to the budget.
+- A compare column can show actuals from a compare period. By default it shows the same period 1 year before, and a custom compare date formula (e.g. -2Y) can be set.
+- The comparison column can be given its own color (e.g. gray) to tell it apart from budget values.
+- Budget regions can add details for a specific dimension, which adds budget lines per dimension. After changing settings, a recalculation is needed.
+- Access to a specific spreadsheet can be granted to users, e.g. so someone in sales can fill in the budget.
 
 ## Chapters
 
@@ -180,13 +180,13 @@ He then works with multiple regions and a comparison column that shows actuals f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Budget regions in spreadsheets | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=48s) |  |
-| Budget formulas in spreadsheets | status not stated, demoed | [3:15](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=195s) |  |
-| Comparison periods for budgets | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=308s) |  |
-| Dimension support in budget regions | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=424s) |  |
-| Access control for spreadsheets | status not stated | [8:35](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=515s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Budget regions in spreadsheets | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=48s) |
+| Budget formulas in spreadsheets | status not stated, demoed | [3:15](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=195s) |
+| Comparison periods for budgets | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=308s) |
+| Dimension support in budget regions | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=424s) |
+| Access control for spreadsheets | status not stated | [8:35](https://www.youtube.com/watch?v=WYd8Qn3wVQQ&t=515s) |
 
 ## AL objects mentioned
 

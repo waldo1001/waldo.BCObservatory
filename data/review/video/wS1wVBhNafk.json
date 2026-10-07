@@ -1,0 +1,28 @@
+{
+  "video_id": "wS1wVBhNafk",
+  "item_id": "video/yt-saurav/wS1wVBhNafk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claiming recent Tell Me searches are limited to permitted pages/reports is not stated; the transcript only says Tell Me in general is permission-based (154). Dropped from key points.",
+    "Added the missing point that recent searches also appear in the AI-powered advanced search (278.3), plus a quote for it.",
+    "Feature status left unclear: the video says the features are 'coming in' version 29 and demos them, but never says preview or GA.",
+    "Existing quotes are verbatim, some crossing segment boundaries, which is fine."
+  ],
+  "input_hash": "a33b1e7413c4b2578dea0b3e68945ca996c8fb9eba96f8003ece610984f412ca",
+  "by": "opus",
+  "at": "2026-10-07T23:19:10.533Z",
+  "applied": [
+    "Recently Searched in Tell Me: status unclear",
+    "Recently Used Records in Lookups: status unclear",
+    "quote at 278s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08049700000000001
+  }
+}

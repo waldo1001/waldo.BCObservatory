@@ -178,9 +178,15 @@
       "check": "exact"
     },
     {
-      "t": 202.2,
-      "text": "it will take the D5 cell. Um but because this is just D5, it will actually, if we go back, now we can see",
-      "why_it_matters": "Illustrates that relative references in spreadsheet regions behave like normal spreadsheet formulas, updating as they move down.",
+      "t": 249.1,
+      "text": "are defined by question mark first. We can have a date, we can have a dimension, we can have a just a field",
+      "why_it_matters": "Explains slicer syntax and the available slicer types.",
+      "check": "exact"
+    },
+    {
+      "t": 288.5,
+      "text": "But, this is a relative so this will work down so we have to use you know classic spreadsheet dollar dollar",
+      "why_it_matters": "Shows the slicer cell must be referenced absolutely so all rows of the FlowField region use it.",
       "check": "exact"
     },
     {

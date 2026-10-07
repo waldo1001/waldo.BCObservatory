@@ -15,12 +15,12 @@ tags:
   - development workflow
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:45.190Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:45.234Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -114,20 +114,6 @@ features:
     status_source: roadmap
     roadmap_ids:
       - "573357"
-  - name: Minor Version Boundary Control
-    status: ga
-    t: 580
-    verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573357"
-  - name: AL Extension Settings Configuration
-    status: ga
-    t: 656
-    verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573357"
 objects_mentioned:
   - table Customer
   - page Customer Card
@@ -153,7 +139,7 @@ quotes:
 
 > Global symbol download in AL development and the BC 29 "global source enforce minor version" setting, which limits downloaded symbols to the major and minor version in app.json. Covers how BC 28 resolved only the major version, and how to configure the setting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sIWz2yPqLpo) · Saurav Dhyani · 2026-09-19 · 15:54 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sIWz2yPqLpo) · Saurav Dhyani · 2026-09-19 · 15:54 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,13 +148,13 @@ It then describes the version resolution problem in BC 28, where only the major 
 
 ## Key points
 
-- Global symbol download was introduced in BC 28. It downloads symbols from a global source without a Docker environment or a Business Central client instance.
+- Global symbol download was introduced in BC 28 (2026 release wave one). It downloads symbols from a global source (NuGet feeds) without a Docker environment or a Business Central client instance.
 - Symbols from the global source are read-only versions without code.
-- In version 28 only the major version from app.json is respected when symbols are resolved.
-- In BC 29 the global source enforce minor version option constrains downloads to the major and minor version in app.json. The newest patch within that minor version is still downloaded.
-- The option must be enabled in settings or workspace configuration. It was disabled by default in BC 28.
-- It is configured through the al.enforce.minor.version parameter, at user or workspace level. Workspace settings are recommended for teams.
-- Symbol download looks for the minimum version of the dependent extension that your app can use, as set in app.json.
+- In BC 28, global symbol download resolves only the major version from app.json and picks the latest available version, for example 28.5 even when app.json specifies 28.1.
+- In BC 29, the global source enforce minor version option limits downloads to the major and minor version in app.json. The newest hotfix within that minor version is still selected.
+- When the setting is disabled (the default), the latest version within the same major version is downloaded, regardless of the minor version.
+- The setting is under the AL extension. You can enable it in user settings or set it to true in the workspace settings.json. Workspace settings are recommended for teams that use source control.
+- Traditional symbol download through launch.json looks for the minimum dependency version in app.json and downloads a higher version if an exact match is not available.
 
 ## Chapters
 
@@ -183,12 +169,10 @@ It then describes the version resolution problem in BC 28, where only the major 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Global Symbol Download | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=290s) |  |
-| Global Source Enforce Minor Version | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
-| Minor Version Boundary Control | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
-| AL Extension Settings Configuration | generally available (roadmap [573357](../features/573357.md)), demoed | [10:56](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=656s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Global Symbol Download | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=290s) |
+| Global Source Enforce Minor Version | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

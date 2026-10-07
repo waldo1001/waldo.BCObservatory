@@ -92,10 +92,10 @@
     {
       "name": "Turn SIFT indexes on or off from Business Central client",
       "description": "Administrators can now manage SIFT indexes directly from the Business Central application, turning them on or off based on performance analysis and storage requirements. This capability extends the index management experience introduced in 2026 Release Wave 1.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 500.3,
+      "status_evidence_quote": "So get into your preview environment if you have and search for table information.",
+      "status_evidence_verified": true,
       "t_start": 11.8,
       "t_end": 433.3,
       "is_demoed": true,
@@ -115,10 +115,10 @@
     {
       "name": "Index Management page",
       "description": "A dedicated page where administrators can view all indexes for tables, including statistics such as fragmentation, size, seeks, scans, lookups, and last update times. Provides information on whether indexes are AL-defined or platform-defined, and whether they are enabled in the database.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 500.3,
+      "status_evidence_quote": "So get into your preview environment if you have and search for table information.",
+      "status_evidence_verified": true,
       "t_start": 487.2,
       "t_end": 639.8,
       "is_demoed": true,
@@ -242,9 +242,9 @@
       "check": "exact"
     },
     {
-      "t": 175.2,
-      "text": "Shift isn't free as in it doesn't mean that for every table you start introducing shift and we'll see how that happens. But it",
-      "why_it_matters": "Establishes the performance trade-off concept that is central to the decision to enable or disable SIFT indexes.",
+      "t": 185.9,
+      "text": "it comes up with its tradeoff when records are inserted, modified or deleted. Any table which have enabled shift structures need to be maintained.",
+      "why_it_matters": "States the write-overhead cost of SIFT, which is the core reason an administrator would disable one.",
       "check": "exact"
     },
     {

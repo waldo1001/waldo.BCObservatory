@@ -16,12 +16,12 @@ tags:
   - user tracking
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:10.183Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:10.232Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,7 +148,7 @@ quotes:
 
 > Business Central v29 exposes system audit fields (created by, modified by, created at, modified at) as flow fields. They can be added through profile customization and used in analysis mode, showing usernames instead of GUIDs. Client personalization does not support them yet.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=H7R_m8Ue38g) · Saurav Dhyani · 2026-09-09 · 15:25 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=H7R_m8Ue38g) · Saurav Dhyani · 2026-09-09 · 15:25 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -161,7 +161,7 @@ The video explains why system audit fields matter for tracking who created or ch
 - Administrators can add the fields through profile customization (page profiles); they then apply to all users assigned to that profile, with no page extension or manual flow field needed.
 - In analysis mode, the fields can be used to slice data by created by, modified by, creation date and modified date, without adding them to a page.
 - Client personalization does not support these fields yet; access is only through profile customization or analysis mode.
-- Analysis mode must be enabled to use the fields there.
+- Historical data already holds the values, and no code or data changes are needed after upgrading to v29.
 - The demo used the customer card and customer list pages.
 
 ## Chapters
@@ -177,11 +177,11 @@ The video explains why system audit fields matter for tracking who created or ch
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |  |
-| Audit fields in profile customization | generally available (roadmap [573322](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |  |
-| Audit fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |  |
+| Feature | Status | At |
+|---|---|---|
+| System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
+| Audit fields in profile customization | generally available (roadmap [573322](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |
+| Audit fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

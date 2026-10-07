@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=dUpixjiNaGY",
   "published_at": "2026-09-12T14:26:20.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T17:00:36.346Z",
+      "at": "2026-10-07T23:19:33.196Z",
       "path": "content/videos/dUpixjiNaGY.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:19:33.157Z",
+      "path": "data/review/video/dUpixjiNaGY.json",
+      "verdict": "fix",
+      "applied": 9,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.07691300000000001
     }
   },
   "input_hash": null,
@@ -73,5 +82,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff089a9bb432148290abb0239350dd4057168dcb51924b0290b5cf2163454d93"
+  "output_hash": "41aa1b12be9517c6725b350dc50af6d79388b10325139663c4749c6174105cbe",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:19:33.145Z"
+  }
 }

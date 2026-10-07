@@ -2,7 +2,7 @@
 id: video/fWBehdiuDpE
 type: video
 title: Translate your app with an LLM in Business Central
-summary: Erik Hougaard shows how to translate a Business Central app's labels with Claude through the AL Build tool, using XLIFF files, system prompts, a local Microsoft translation database and developer comments. The demo covers Danish and German. Feature status is not stated.
+summary: Eric shows how to translate a Business Central app's labels with Claude through his open-source AL Build tool. The workflow uses XLIFF translation files, a context system prompt, a local database of cached and Microsoft translations, and developer comments on labels. The demo covers Danish and German. Feature status is not stated.
 tier: community
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - context-aware translation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:39.635Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:39.706Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -50,19 +50,19 @@ evidence:
     t: 295
     quote: this is an app for Business Central. It's adding extended functionality to common finance areas. The target user is finance controller that speaks fluent
   - kind: video
+    url: https://www.youtube.com/watch?v=fWBehdiuDpE&t=322s
+    title: Translate your app with an LLM in Business Central
+    date: "2026-09-21T11:00:37.000Z"
+    commit: null
+    t: 322
+    quote: it's using Claude Opus 5 right now. You can also use Sonnet and some of the cheaper ones.
+  - kind: video
     url: https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s
     title: Translate your app with an LLM in Business Central
     date: "2026-09-21T11:00:37.000Z"
     commit: null
     t: 359
     quote: and stored them in my database so if if if we have customer number that's a microsoft label
-  - kind: video
-    url: https://www.youtube.com/watch?v=fWBehdiuDpE&t=657s
-    title: Translate your app with an LLM in Business Central
-    date: "2026-09-21T11:00:37.000Z"
-    commit: null
-    t: 657
-    quote: the time you spend translating is not insignificant. Um so, I was working on a version that would just translate 10 uh 15 uh
 links:
   learn: []
   objects: []
@@ -142,19 +142,19 @@ quotes:
   - t: 295
     text: this is an app for Business Central. It's adding extended functionality to common finance areas. The target user is finance controller that speaks fluent
     check: exact
+  - t: 322
+    text: it's using Claude Opus 5 right now. You can also use Sonnet and some of the cheaper ones.
+    check: exact
   - t: 359
     text: and stored them in my database so if if if we have customer number that's a microsoft label
     check: fuzzy
-  - t: 657
-    text: the time you spend translating is not insignificant. Um so, I was working on a version that would just translate 10 uh 15 uh
-    check: exact
 ---
 
 # Translate your app with an LLM in Business Central
 
-> Erik Hougaard shows how to translate a Business Central app's labels with Claude through the AL Build tool, using XLIFF files, system prompts, a local Microsoft translation database and developer comments. The demo covers Danish and German. Feature status is not stated.
+> Eric shows how to translate a Business Central app's labels with Claude through his open-source AL Build tool. The workflow uses XLIFF translation files, a context system prompt, a local database of cached and Microsoft translations, and developer comments on labels. The demo covers Danish and German. Feature status is not stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fWBehdiuDpE) · Erik Hougaard · 2026-09-21 · 12:53 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fWBehdiuDpE) · Erik Hougaard · 2026-09-21 · 12:53 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -164,8 +164,8 @@ Erik Hougaard explains why he used an LLM to translate Business Central apps and
 
 - Only text defined as labels, not plain strings, gets translated.
 - Turn on the 'translate file' feature in app.json to generate XLIFF files with source text and target placeholders.
-- The Python-based AL Build tool runs a translation task that updates the app version, compiles and calls the LLM with a system prompt.
-- A Claude API key is required, and AL Build must be set up first.
+- The Python-based AL Build tool runs a task list that updates the app version, compiles the app, translates the .g.xliff file with a system prompt, then compiles again.
+- The demo uses Claude Opus 5; Sonnet and cheaper models can also be used.
 - The system prompt describes the app, its purpose and target users (for example a finance controller) to guide translation quality.
 - A local database stores Microsoft translations for recognized labels, such as customer number, and translations the tool has already produced, which avoids repeated LLM calls.
 - Comments on labels are now passed to the LLM as extra context or instructions, such as tone or domain guidance.
@@ -182,14 +182,14 @@ Erik Hougaard explains why he used an LLM to translate Business Central apps and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| LLM-based app translation using Claude | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=fWBehdiuDpE&t=81s) |  |
-| Translation file (XLIFF) support in app.json | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s) |  |
-| AL Build with translation task | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=fWBehdiuDpE&t=214s) |  |
-| Context injection through system prompts | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=fWBehdiuDpE&t=295s) |  |
-| Microsoft translation database integration | status not stated, demoed | [5:59](https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s) |  |
-| Developer comments for translation guidance | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=fWBehdiuDpE&t=570s) |  |
+| Feature | Status | At |
+|---|---|---|
+| LLM-based app translation using Claude | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=fWBehdiuDpE&t=81s) |
+| Translation file (XLIFF) support in app.json | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s) |
+| AL Build with translation task | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=fWBehdiuDpE&t=214s) |
+| Context injection through system prompts | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=fWBehdiuDpE&t=295s) |
+| Microsoft translation database integration | status not stated, demoed | [5:59](https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s) |
+| Developer comments for translation guidance | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=fWBehdiuDpE&t=570s) |
 
 ## AL objects mentioned
 
@@ -204,8 +204,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:21](https://www.youtube.com/watch?v=fWBehdiuDpE&t=81s) "maybe I can I can get an LLM. Maybe I can get Claude or ChatGPT. Because they're pretty good at translations."
 - [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s) "for stuff to actually get translated we need to turn on a feature in the app json called translate file"
 - [4:55](https://www.youtube.com/watch?v=fWBehdiuDpE&t=295s) "this is an app for Business Central. It's adding extended functionality to common finance areas. The target user is finance controller that speaks fluent"
+- [5:22](https://www.youtube.com/watch?v=fWBehdiuDpE&t=322s) "it's using Claude Opus 5 right now. You can also use Sonnet and some of the cheaper ones."
 - [5:59](https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s) "and stored them in my database so if if if we have customer number that's a microsoft label"
-- [10:57](https://www.youtube.com/watch?v=fWBehdiuDpE&t=657s) "the time you spend translating is not insignificant. Um so, I was working on a version that would just translate 10 uh 15 uh"
 
 ## Disclaimers in the video
 

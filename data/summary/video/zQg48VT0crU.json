@@ -8,9 +8,9 @@
     "Fable safeguards were triggered by simple AL tests and could fall back to Opus or other models, which makes measuring Fable's own ability harder.",
     "GPT models are reported to have trouble with AL interfaces. Models trained on older AL syntax miss newer features.",
     "Guideline markdown files added to prompts can raise all models to the same AL baseline. Benchmark results split by concept (interfaces, tables, records) show where context is needed.",
-    "One demonstrated ISV pipeline has 13 stages and uses Opus for planning, Fable for review and Sonnet for coding. It may not suit partners or VS Code users.",
-    "With an AL MCP server, Claude can compile, publish to a sandbox, run tests, fix failures and re-test. The speaker calls this the point where the benefit becomes clear.",
-    "The speaker spends more time reviewing tests than code. This applies mainly to automated and simpler tasks, not new features."
+    "In Claude Code the guest uses Opus to write a spec, Fable as advisor to review it, the PAL MCP to get consensus from GPT and Gemini, and Sonnet for coding to keep costs down.",
+    "His own ISV pipeline has 13 stages, each with a hand-picked model (Opus for planning). Junior-level DevOps tasks are tagged and come back as pull requests about 8 hours later. This may not suit partners or VS Code users.",
+    "With an AL MCP server, Claude can compile, publish to a sandbox, run tests, fix failures and re-test. The speaker calls this the point where the benefit becomes clear."
   ],
   "audience": [
     "developer",

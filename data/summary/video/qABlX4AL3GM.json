@@ -1,16 +1,16 @@
 {
   "video_id": "qABlX4AL3GM",
   "item_id": "video/yt-saurav/qABlX4AL3GM",
-  "summary": "Business Central 29 table extension storage change: extension fields are stored in the same SQL table as the base table instead of companion tables. Covers cross-field indexes, performance effects, continued use of partial loading (SetLoadFields), avoiding direct SQL, and a compiler warning near the column limit. Version 29 is described as in public preview.",
+  "summary": "Business Central 29 (public preview) changes table extension storage: extension fields go into the same SQL table as the base table instead of companion tables. This enables indexes that mix base and extension fields and can speed up data loading. The speaker still recommends SetLoadFields (partial loading), advises against direct SQL in favor of AL, APIs and queries, and covers new compiler warnings for tables nearing the SQL column limit. His picture of the v29 SQL layout is his own assumption.",
   "overview": "The video walks through how table extension data has been stored in SQL across three stages: separate SQL storage for extension data, extension companion tables, and the Business Central 29 model where one AL table maps to one SQL table. It explains why Microsoft made the change and what it means for developers.\n\nThe presenter covers the main effects: indexes can span base and extension fields, and gets and finds can load from one table instead of joining companion tables. He argues that partial loading with set load field is still needed, demonstrates SQL queries with and without partial load, and says direct SQL should be avoided in favor of AL, APIs or queries. The presenter notes that Business Central 29 is in public preview, that he had no access to the SQL server in the cloud, and that the exact threshold for the new column-limit compiler warning is not known to him.",
   "key_points": [
-    "In Business Central 29, fields from table extensions are stored in the same database table as the base table, replacing the companion table model.",
-    "Indexes (keys) can now span fields from a base table and its table extensions, which the earlier two storage models did not allow.",
-    "Finds and other reads can be faster because extension fields are in one table and no join to companion tables is needed; gains depend on query complexity.",
-    "Keep using set load field (partial loading) in version 29 so only the needed fields are fetched.",
-    "Do not read or write SQL directly; use AL, Business Central APIs or queries, and treat the physical SQL schema as an implementation detail that may change.",
-    "Compiler warnings are introduced for tables or table extensions with many normal fields approaching the SQL column limit; the exact threshold is not documented.",
-    "Business Central 29 is in public preview, so documented behavior may change before general availability."
+    "In Business Central 29, fields from table extensions are stored in the same database table as the base table, replacing the extension companion table model.",
+    "Storage has gone through three stages: a separate SQL table per extension, a shared $ext companion table, and now a single unified table.",
+    "Keys/indexes can now combine fields from a base table and its table extensions, which the earlier two storage models did not allow.",
+    "Finds and other reads can be faster because extension fields are in one table and no join to companion tables is needed.",
+    "Keep using set load field (partial loading) in version 29 so only the needed fields are fetched and queries stay smaller.",
+    "Do not read or write SQL directly; use AL, Business Central APIs or queries, and treat the physical SQL schema as an implementation detail that may change again.",
+    "BC29 adds compiler warnings when tables or table extensions with many normal fields approach the SQL column limit; the speaker does not know the exact threshold or behavior and proposes testing it."
   ],
   "audience": [
     "developer",

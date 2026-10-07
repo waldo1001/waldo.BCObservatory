@@ -14,12 +14,12 @@ tags:
   - live data
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:24.906Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:24.948Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -128,7 +128,7 @@ quotes:
 
 > Adding a live chart to a spreadsheet in Business Central with the Advanced Spreadsheets and Reporting app. A table region on the Customer table feeds a column chart of customer sales, and the chart updates when the data changes. The app is free to try in a sandbox cloud environment.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=iqyfWujhfnE) · Erik Hougaard · 2026-09-21 · 2:50 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=iqyfWujhfnE) · Erik Hougaard · 2026-09-21 · 2:50 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -138,12 +138,12 @@ He then adds a chart region, chooses a column chart, and maps the data and categ
 
 ## Key points
 
-- A table region grabs data from a Business Central table; the demo uses the Customer table with number, name and sales columns.
-- A chart region is added to the spreadsheet and configured with data and categories.
+- A table region grabs (displays) data from a Business Central table; the demo uses the Customer table with number, name and sales columns.
+- A chart region is added to the spreadsheet as a new region, named, and configured with a data range and a categories range.
 - The demo uses a column chart to show customer sales.
-- The chart is live: it updates when the underlying Business Central data changes.
-- The Advanced Spreadsheets and Reporting app is free to try only in a sandbox cloud environment.
-- Steps shown: spreadsheet setup, table region, chart region, mapping data and categories, preview.
+- The data is live: if anything changes in Business Central, it is updated.
+- The region needs a name before it can be saved and previewed.
+- The Advanced Spreadsheets and Reporting app is free to try and use in a cloud sandbox.
 
 ## Chapters
 
@@ -155,12 +155,12 @@ He then adds a chart region, chooses a column chart, and maps the data and categ
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Live charts in spreadsheets | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=iqyfWujhfnE&t=75s) |  |
-| Table regions for data display | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=26s) |  |
-| Advanced Spreadsheets and Reporting app | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=iqyfWujhfnE&t=0s) |  |
-| Column charts | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=86s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Live charts in spreadsheets | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=iqyfWujhfnE&t=75s) |
+| Table regions for data display | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=26s) |
+| Advanced Spreadsheets and Reporting app | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=iqyfWujhfnE&t=0s) |
+| Column charts | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=86s) |
 
 ## AL objects mentioned
 

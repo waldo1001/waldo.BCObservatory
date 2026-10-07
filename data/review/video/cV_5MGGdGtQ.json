@@ -1,0 +1,23 @@
+{
+  "video_id": "cV_5MGGdGtQ",
+  "item_id": "video/yt-hougaard/cV_5MGGdGtQ",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim spans of the transcript. The quotes at 96.9 and 295.8 run into the next segment, which is allowed.",
+    "The key points and the summary are supported, including the 1,200 target with 83% reached, the bar or donut option, the warning and critical levels, and the changeable direction.",
+    "Every feature status is unclear, which is correct because the transcript never says whether anything is preview or generally available.",
+    "The 'development' system tag is weakly supported, since the video is a spreadsheet reporting demo with no development content. The tag cannot be edited through these fields."
+  ],
+  "input_hash": "1ac67585f577e4e4066b941fa1443d98f00d37e89f1f58b5550989be3f3eb0fc",
+  "by": "opus",
+  "at": "2026-10-07T23:18:22.799Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05024100000000001
+  }
+}

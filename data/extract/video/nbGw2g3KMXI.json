@@ -153,8 +153,8 @@
       "name": "Custom agent creation",
       "description": "Capability to build custom agents inside Business Central for specific business scenarios, requiring sandbox environment and minimum version 27.4.",
       "status": "preview",
-      "status_evidence_t": 478.1,
-      "status_evidence_quote": "but please be aware it's uh currently possible inside production because it's still in preview",
+      "status_evidence_t": 2723.6,
+      "status_evidence_quote": "it is still on on on preview. They are really testing right now from what is happening.",
       "status_evidence_verified": true,
       "t_start": 359.8,
       "t_end": 496.3,
@@ -1112,20 +1112,14 @@
     },
     {
       "t": 374.2,
-      "text": "it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it ...",
-      "why_it_matters": "Establishes key technical requirements for custom agent development - sandbox-only and version constraint.",
+      "text": "it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it",
+      "why_it_matters": "States the sandbox-only restriction and the minimum version 27.4 for custom agents.",
       "check": "exact"
     },
     {
       "t": 389.4,
       "text": "You need to have an agent admin and an agent diagnostic. And it's quite important that you have to have set up your billing",
       "why_it_matters": "Specifies required permissions and critical billing setup requirement to enable agent functionality.",
-      "check": "exact"
-    },
-    {
-      "t": 478.1,
-      "text": "but please be aware it's uh currently possible inside production because it's still in preview",
-      "why_it_matters": "Clarifies that custom agents are preview-only and not yet production-ready.",
       "check": "exact"
     },
     {
@@ -1234,12 +1228,6 @@
       "t": 2415,
       "text": "you need to also register uh capability um hey there u copility then that that is your your agent capabilities you can set it",
       "why_it_matters": "Defines the agent capability registration process and available modes.",
-      "check": "exact"
-    },
-    {
-      "t": 2563,
-      "text": "with copite studio can write a nice chat experience in in this central you can only have your your pain but it's really of",
-      "why_it_matters": "Clarifies the architectural difference between Copilot Studio and AL agents regarding scope and context.",
       "check": "exact"
     },
     {

@@ -57,10 +57,10 @@
     {
       "name": "Image Preview in Web Client",
       "description": "Users can now preview supported image attachments directly in the Business Central web client without downloading the file first. Images are displayed in a dedicated viewer similar to existing PDF preview experience.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 300.3,
+      "status_evidence_quote": "So a true preview experience for images is now available with version 29 and later.",
+      "status_evidence_verified": true,
       "t_start": 1.1,
       "t_end": 97,
       "is_demoed": true,
@@ -194,6 +194,18 @@
       "t": 129,
       "text": "The image preview experience support a broad range of format from JPEG, JPG, PNG, BMP, SVG, WBP, ICO, GIF and AVIF",
       "why_it_matters": "Documents the comprehensive list of supported image formats for developers and users.",
+      "check": "exact"
+    },
+    {
+      "t": 300.3,
+      "text": "So a true preview experience for images is now available with version 29 and later.",
+      "why_it_matters": "Gives the version where image preview becomes available.",
+      "check": "exact"
+    },
+    {
+      "t": 332.2,
+      "text": "based on my understanding, it's not yet added on the incoming documents, but I'm pretty sure sooner than later",
+      "why_it_matters": "Records the current gap: no image preview for incoming documents yet.",
       "check": "exact"
     },
     {

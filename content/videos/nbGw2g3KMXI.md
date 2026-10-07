@@ -20,12 +20,12 @@ tags:
   - task messages
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:30.893Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:30.978Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,12 +40,12 @@ evidence:
     t: 289
     quote: now also we have the expense agent that is released recently
   - kind: video
-    url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=478s
+    url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s
     title: "Custom agent creation: preview"
     date: "2026-08-04T11:38:21.000Z"
     commit: null
-    t: 478
-    quote: but please be aware it's uh currently possible inside production because it's still in preview
+    t: 2723
+    quote: it is still on on on preview. They are really testing right now from what is happening.
   - kind: video
     url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2611s
     title: "Copilot-AL Agent Interaction: announced"
@@ -73,7 +73,7 @@ evidence:
     date: "2026-08-04T11:38:21.000Z"
     commit: null
     t: 374
-    quote: it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it ...
+    quote: it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it
   - kind: video
     url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=389s
     title: 20260713 - From Zero to Agent Building agents in Business Central
@@ -82,12 +82,12 @@ evidence:
     t: 389
     quote: You need to have an agent admin and an agent diagnostic. And it's quite important that you have to have set up your billing
   - kind: video
-    url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=478s
+    url: https://www.youtube.com/watch?v=nbGw2g3KMXI&t=562s
     title: 20260713 - From Zero to Agent Building agents in Business Central
     date: "2026-08-04T11:38:21.000Z"
     commit: null
-    t: 478
-    quote: but please be aware it's uh currently possible inside production because it's still in preview
+    t: 562
+    quote: You have to set up instructions. So in that case that tells the agent what he needs to do inside this central what kind
 links:
   learn: []
   objects:
@@ -396,13 +396,13 @@ quotes:
     text: The sales order agents that was the first agents for it. The purchase agent and now we have a merchant or purchase agent it's
     check: exact
   - t: 374
-    text: it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it ...
+    text: it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it
     check: exact
   - t: 389
     text: You need to have an agent admin and an agent diagnostic. And it's quite important that you have to have set up your billing
     check: exact
-  - t: 478
-    text: but please be aware it's uh currently possible inside production because it's still in preview
+  - t: 562
+    text: You have to set up instructions. So in that case that tells the agent what he needs to do inside this central what kind
     check: exact
 ---
 
@@ -410,7 +410,7 @@ quotes:
 
 > Building custom agents in Business Central, shown with an inventory check agent demo. Covers setup, instructions, permissions, task architecture, billing and AL-based agent creation. Custom agent creation is in preview, sandbox only, minimum version 27.4.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nbGw2g3KMXI) · Areopa webinars · 2026-08-04 · 49:48 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=nbGw2g3KMXI) · Areopa webinars · 2026-08-04 · 49:48 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -452,7 +452,7 @@ The second half is aimed at developers. It covers the task, task builder and tas
 | Sales order agent | status not stated | [4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s) |  |
 | Payables agent | status not stated | [5:36](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=336s) |  |
 | Expense agent | generally available | [4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s) | "now also we have the expense agent that is released recently" ([4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s)) |
-| Custom agent creation | preview, demoed | [5:59](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=359s) | "but please be aware it's uh currently possible inside production because it's still in preview" ([7:58](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=478s)) |
+| Custom agent creation | preview, demoed | [5:59](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=359s) | "it is still on on on preview. They are really testing right now from what is happening." ([45:23](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2723s)) |
 | Agent permissions | status not stated | [9:07](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=547s) |  |
 | Agent instructions and prompting | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=562s) |  |
 | Agent model selection | status not stated, demoed | [9:39](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=579s) |  |
@@ -521,9 +521,9 @@ Not found in BC28-30: interface "Agent Beta Data", page "Configuration Dialogue"
 
 - [3:50](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=230s) "an agent is more like an a piece of software that can perform task on behalf of your self it it will listen to"
 - [4:49](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=289s) "The sales order agents that was the first agents for it. The purchase agent and now we have a merchant or purchase agent it's"
-- [6:14](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=374s) "it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it ..."
+- [6:14](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=374s) "it cannot be implemented inside the production uh the minimum version is 27.4 for it will automatically uh install it"
 - [6:29](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=389s) "You need to have an agent admin and an agent diagnostic. And it's quite important that you have to have set up your billing"
-- [7:58](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=478s) "but please be aware it's uh currently possible inside production because it's still in preview"
+- [9:22](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=562s) "You have to set up instructions. So in that case that tells the agent what he needs to do inside this central what kind"
 
 ## Disclaimers in the video
 

@@ -18,12 +18,12 @@ tags:
   - runtime 18.0
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:55.507Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:55.556Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,7 +174,7 @@ quotes:
 
 > ModuleInfo in Business Central 29 (Runtime 18.0 or later) gets four new properties: help, ULA, privacy statement and context sensitive help URL. They expose app manifest metadata to AL code. The video demos reading them with NavApp.GetCurrentModuleInfo and NavApp.GetModuleInfo, and compares this with version 28.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-vCiEloR61U) · Saurav Dhyani · 2026-09-16 · 10:42 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=-vCiEloR61U) · Saurav Dhyani · 2026-09-16 · 10:42 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -203,16 +203,16 @@ The presenter shows how to get a ModuleInfo for the current app with NavApp.GetC
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ModuleInfo help property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |  |
-| ModuleInfo ULA property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |  |
-| ModuleInfo privacy statement property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |  |
-| ModuleInfo context sensitive help URL property | generally available (roadmap [573354](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |  |
-| ModuleInfo type enhancements | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |  |
-| ModuleDependencyInfo type | status not stated, demoed | [6:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=368s) |  |
-| NavApp.GetCurrentModuleInfo function | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=308s) |  |
-| NavApp.GetModuleInfo function | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=-vCiEloR61U&t=294s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ModuleInfo help property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |
+| ModuleInfo ULA property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |
+| ModuleInfo privacy statement property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |
+| ModuleInfo context sensitive help URL property | generally available (roadmap [573354](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |
+| ModuleInfo type enhancements | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |
+| ModuleDependencyInfo type | status not stated, demoed | [6:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=368s) |
+| NavApp.GetCurrentModuleInfo function | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=308s) |
+| NavApp.GetModuleInfo function | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=-vCiEloR61U&t=294s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

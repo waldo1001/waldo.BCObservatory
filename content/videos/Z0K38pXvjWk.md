@@ -2,7 +2,7 @@
 id: video/Z0K38pXvjWk
 type: video
 title: "Business Central: ToolTip Property Now Available on Pages"
-summary: The ToolTip and ToolTipML properties can now be set on the AL page object. Navigation actions that define no tooltip of their own inherit the page tooltip. The video covers less repeated code, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.
+summary: The ToolTip and ToolTipML properties can now be set on the AL page object; using both causes an error. Navigation actions that define no tooltip of their own inherit the page tooltip, as the version 29 client demo shows, while version 28 shows the action's own tooltip. The video covers less repeated code, table-field tooltips, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.
 tier: community
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - developer guidelines
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:55.004Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:55.052Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,9 +159,9 @@ quotes:
 
 # Business Central: ToolTip Property Now Available on Pages
 
-> The ToolTip and ToolTipML properties can now be set on the AL page object. Navigation actions that define no tooltip of their own inherit the page tooltip. The video covers less repeated code, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.
+> The ToolTip and ToolTipML properties can now be set on the AL page object; using both causes an error. Navigation actions that define no tooltip of their own inherit the page tooltip, as the version 29 client demo shows, while version 28 shows the action's own tooltip. The video covers less repeated code, table-field tooltips, consistent tooltips across the app, and why AI agents and MCP servers need meaningful tooltip text.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Z0K38pXvjWk) · Saurav Dhyani · 2026-09-14 · 10:00 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Z0K38pXvjWk) · Saurav Dhyani · 2026-09-14 · 10:00 · tier community · reviewed (checked by Opus)
 
 ## Overview
 

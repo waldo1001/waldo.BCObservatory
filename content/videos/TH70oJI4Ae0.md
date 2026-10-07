@@ -2,7 +2,7 @@
 id: video/TH70oJI4Ae0
 type: video
 title: "Business Central 29: How Many Fields Can a Table Really Have?"
-summary: Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts around 293 to 300 fields, the SQL Server limits of 500 columns and 8060 bytes per record, and the change that stores extension fields in the same SQL table as the base table.
+summary: Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts after 293 fields (300 including platform fields), the SQL Server limits of 500 fields and 8060 bytes per record, and the version 29 change that stores extension fields in the same SQL table as the base table. A demo with decimal fields fails at publish time with a database command cancelled error at 470 and again at 469 fields.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - sql server limits
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:16.058Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:16.125Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,8 +70,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573332
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -129,11 +128,6 @@ features:
     t: 496
     verified: false
     status_source: video
-  - name: SQL Server column and record size limits
-    status: unclear
-    t: 377
-    verified: false
-    status_source: video
   - name: Platform system fields
     status: unclear
     t: 582
@@ -149,28 +143,6 @@ features:
     t: 948
     verified: false
     status_source: video
-  - name: Decimal field maximum calculation
-    status: unclear
-    t: 1031
-    verified: false
-    status_source: video
-  - name: Version 29 table extension storage change
-    status: unclear
-    t: 1466
-    verified: false
-    status_source: video
-  - name: Field count warning at 293 fields
-    status: unclear
-    t: 1746
-    verified: false
-    status_source: video
-  - name: Base table and extension table storage consolidation
-    status: ga
-    t: 1974
-    verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573332"
 objects_mentioned:
   - table SDH max field
   - other field 470
@@ -197,9 +169,9 @@ quotes:
 
 # Business Central 29: How Many Fields Can a Table Really Have?
 
-> Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts around 293 to 300 fields, the SQL Server limits of 500 columns and 8060 bytes per record, and the change that stores extension fields in the same SQL table as the base table.
+> Field limits for Business Central 29 tables and table extensions, tested in AL. Covers the compiler warning that starts after 293 fields (300 including platform fields), the SQL Server limits of 500 fields and 8060 bytes per record, and the version 29 change that stores extension fields in the same SQL table as the base table. A demo with decimal fields fails at publish time with a database command cancelled error at 470 and again at 469 fields.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=TH70oJI4Ae0) · Saurav Dhyani · 2026-09-22 · 33:44 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=TH70oJI4Ae0) · Saurav Dhyani · 2026-09-22 · 33:44 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -209,13 +181,13 @@ The presenter tests the new compiler warning for tables approaching the SQL colu
 
 ## Key points
 
-- From version 29, table extension fields are stored in the same SQL Server table as the base table fields. Before that, a companion table was created, so field limits now apply to the combined fields.
-- The compiler warning appears at about 293 fields, which with the 6 to 7 platform fields is around 300. The presenter says 300 is a warning threshold, not a documented maximum, and the build still compiles.
-- In the demo the warning stopped showing at around 499 fields.
+- From version 29, table extension fields are stored in the same SQL Server table as the base table fields. Up to version 28 a companion table was created, so field limits now apply to the combined fields.
+- The compiler warning appears once a table has more than 293 fields, which with the 6 platform fields reports 300. The presenter says 300 is a warning threshold, not a documented maximum, and the build still compiles.
+- In the demo the warning stopped showing at around 499 fields, and the build did not fail.
 - SQL Server allows at most 500 fields per record and 8060 bytes per record. Record size can stop you before you reach 500 fields.
-- A decimal takes 17 bytes and an integer takes 4. The presenter calculates a maximum of about 474 decimal fields in one table. Variable-length text fields count 26 bytes each in the record.
+- A decimal takes 17 bytes and an integer takes 4. Variable-length text fields count 26 bytes each in the record.
+- The presenter first estimated about 474 decimal fields, then recalculated 470 including platform fields and the primary key. Publishing failed with a database command cancelled error at 470 and again at 469, and he then tried 465 without showing the result.
 - Business Central adds 6 platform fields to every table: system ID, created at, created by, modified at, modified by and row version. They count toward the limits.
-- The presenter says that when the limit is exceeded, the error appears at publish time, not at compile time. Choose data types with this in mind.
 
 ## Chapters
 
@@ -234,21 +206,14 @@ The presenter tests the new compiler warning for tables approaching the SQL colu
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Detect table approaching SQL column limit warning | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=78s) |  |
-| New table extension data model | status not stated | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |  |
-| 300 field warning threshold | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=496s) |  |
-| SQL Server column and record size limits | status not stated, demoed | [6:17](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=377s) |  |
-| Platform system fields | status not stated, demoed | [9:42](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=582s) |  |
-| Record size byte limit | status not stated, demoed | [15:12](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=912s) |  |
-| Data type byte consumption | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=948s) |  |
-| Decimal field maximum calculation | status not stated, demoed | [17:11](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1031s) |  |
-| Version 29 table extension storage change | status not stated, demoed | [24:26](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1466s) |  |
-| Field count warning at 293 fields | status not stated, demoed | [29:06](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1746s) |  |
-| Base table and extension table storage consolidation | generally available (roadmap [573332](../features/573332.md)) | [32:54](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1974s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | Status | At |
+|---|---|---|
+| Detect table approaching SQL column limit warning | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=78s) |
+| New table extension data model | status not stated | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |
+| 300 field warning threshold | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=496s) |
+| Platform system fields | status not stated, demoed | [9:42](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=582s) |
+| Record size byte limit | status not stated, demoed | [15:12](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=912s) |
+| Data type byte consumption | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=948s) |
 
 ## AL objects mentioned
 

@@ -18,18 +18,32 @@ tags:
   - reusable extensions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:38.540Z"
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T23:18:38.596Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 59edf3b6bb24e35e67d1833faa80847311b8b3e3133a7c765fd57b6bc4dceab9
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s
+    title: "Default implementation for AL interfaces: preview"
+    date: "2026-09-21T10:00:25.000Z"
+    commit: null
+    t: 943
+    quote: Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior
+  - kind: video
+    url: https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s
+    title: "Required pending attribute for AL interface methods: preview"
+    date: "2026-09-21T10:00:25.000Z"
+    commit: null
+    t: 943
+    quote: Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior
   - kind: video
     url: https://www.youtube.com/watch?v=H_PHi8pe53w&t=12s
     title: Business Central 29 0 Default Implementations in AL Interfaces
@@ -59,12 +73,12 @@ evidence:
     t: 564
     quote: The idea is to introduce a method is completely way first while signaling that implementation are expected to eventually provide the method themsel
   - kind: video
-    url: https://www.youtube.com/watch?v=H_PHi8pe53w&t=912s
+    url: https://www.youtube.com/watch?v=H_PHi8pe53w&t=721s
     title: Business Central 29 0 Default Implementations in AL Interfaces
     date: "2026-09-21T10:00:25.000Z"
     commit: null
-    t: 912
-    quote: required pending provides a path for introducing method that should eventually become required
+    t: 721
+    quote: saying calculate discount will become will become required. This method will be required to be implemented before version 32.0
 links:
   learn: []
   objects: []
@@ -111,21 +125,14 @@ features:
   - name: Default implementation for AL interfaces
     status: ga
     t: 254
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573352"
   - name: Required pending attribute for AL interface methods
     status: ga
     t: 532
-    verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573352"
-  - name: Staged interface evolution mechanism
-    status: ga
-    t: 564
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573352"
@@ -143,8 +150,8 @@ quotes:
   - t: 564
     text: The idea is to introduce a method is completely way first while signaling that implementation are expected to eventually provide the method themsel
     check: exact
-  - t: 912
-    text: required pending provides a path for introducing method that should eventually become required
+  - t: 721
+    text: saying calculate discount will become will become required. This method will be required to be implemented before version 32.0
     check: exact
 ---
 
@@ -152,7 +159,7 @@ quotes:
 
 > Default implementations for AL interfaces in Business Central 29, covered while 29 was in public preview. Shows method bodies in interfaces, the required pending attribute, and a staged way to add interface methods without breaking existing implementations.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=H_PHi8pe53w) · Saurav Dhyani · 2026-09-21 · 16:32 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=H_PHi8pe53w) · Saurav Dhyani · 2026-09-21 · 16:32 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,7 +172,7 @@ It also demonstrates the required pending attribute, which signals that implemen
 - Adding a method to an AL interface changes its contract and breaks existing implementations, including those in dependent extensions.
 - In Business Central 29, interface methods can have default method bodies, so existing implementations continue to work unchanged.
 - Implementations can supply their own version of the method, otherwise the default behavior is used.
-- The required pending attribute marks a method that implementations should eventually implement. It needs a version deadline, a tag and a reason.
+- The required pending attribute marks a method that implementations should eventually implement. It takes a reason (in the demo stating the method must be implemented before version 32) and a tag (29.0), and implementations that lack the method get a compiler warning.
 - Staged evolution: introduce the method with a default implementation, provide default behavior, then signal the future requirement with required pending.
 - Use a default only when a sensible fallback exists, not to hide a requirement. Treat it as a migration mechanism, not a permanent solution.
 - Business Central 29 was in public preview when the video was made, so validate the final behavior at GA.
@@ -187,9 +194,8 @@ It also demonstrates the required pending attribute, which signals that implemen
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Default implementation for AL interfaces | generally available (roadmap [573352](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) |  |
-| Required pending attribute for AL interface methods | generally available (roadmap [573352](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) |  |
-| Staged interface evolution mechanism | generally available (roadmap [573352](../features/573352.md)), demoed | [9:24](https://www.youtube.com/watch?v=H_PHi8pe53w&t=564s) |  |
+| Default implementation for AL interfaces | generally available (roadmap [573352](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
+| Required pending attribute for AL interface methods | generally available (roadmap [573352](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -199,7 +205,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [3:33](https://www.youtube.com/watch?v=H_PHi8pe53w&t=213s) "The problem is that the new method changes the contract of the interface and every existing implementation either in your extension or any dependent"
 - [4:26](https://www.youtube.com/watch?v=H_PHi8pe53w&t=266s) "allowing developer to add default method bodies to interface so that existing implementation can continue working as is"
 - [9:24](https://www.youtube.com/watch?v=H_PHi8pe53w&t=564s) "The idea is to introduce a method is completely way first while signaling that implementation are expected to eventually provide the method themsel"
-- [15:12](https://www.youtube.com/watch?v=H_PHi8pe53w&t=912s) "required pending provides a path for introducing method that should eventually become required"
+- [12:01](https://www.youtube.com/watch?v=H_PHi8pe53w&t=721s) "saying calculate discount will become will become required. This method will be required to be implemented before version 32.0"
 
 ## Disclaimers in the video
 

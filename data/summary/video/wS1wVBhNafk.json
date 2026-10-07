@@ -4,11 +4,11 @@
   "summary": "Business Central version 29 (2026 wave 2) adds two productivity features: recent searches shown in Tell Me, and recently used records shown first in lookup fields. Both are demoed. The video is evidence for how they behave, their caveats and the personalization involved.",
   "overview": "The video covers two version 29 (2026 wave 2) features aimed at helping users find information faster and repeat fewer actions in daily work. The first shows a user's recent searches when Tell Me is opened, without typing anything. The second puts recently used records at the top of lookup fields for customers, vendors, items, GL accounts and other master records.\n\nBoth features are demoed. The presenter explains that the lookup feature is platform level, works with custom entities, and needs no code to enable. It uses user signals that Business Central already collects, so results are personalized per user.",
   "key_points": [
-    "In version 29, opening Tell Me shows the user's recent searches automatically, before any typing.",
-    "Recent searches in Tell Me are limited to pages and reports the user has permission to access.",
+    "In version 29, opening Tell Me (Alt+Q) shows the user's recent searches automatically, before any typing.",
+    "Recent searches are also available in the AI-powered advanced search.",
     "The recent searches list grows as the user explores more pages and reports.",
     "Lookup fields show recently used records first, for customers, vendors, items, GL accounts and other master records.",
-    "The lookup feature works across all lookup types, including custom entities, and no code is needed to enable it.",
+    "The lookup feature works across all lookups, including custom entities, because it is platform level; no code is written to enable it.",
     "Recent records are personalized per user from signals Business Central already collects; the recent section is blank on first use.",
     "In a lookup, users can still switch to the search menu or pick from the full list."
   ],

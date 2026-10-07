@@ -15,12 +15,12 @@ tags:
   - customer configurations
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:24.469Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:24.508Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,7 +142,7 @@ quotes:
 
 > Editing sales order lines in a spreadsheet inside Business Central with the Advanced Spreadsheets and Reporting app. The demo uses the "Open lines in spreadsheet" action, where a green spreadsheet region stays connected to the sales order and edits update it directly.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=crDXSPsoIQ8) · Erik Hougaard · 2026-09-21 · 3:15 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=crDXSPsoIQ8) · Erik Hougaard · 2026-09-21 · 3:15 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -153,12 +153,12 @@ He shows that calculations and totals update as line items are edited. He sugges
 ## Key points
 
 - Open a sales order, go to Actions and choose "Open lines in spreadsheet".
-- The feature requires the Advanced Spreadsheets and Reporting app.
+- The demo uses the Advanced Spreadsheets and Reporting app for Business Central.
 - The green region in the spreadsheet is connected directly to the sales order.
-- Edits made in the spreadsheet are updated directly on the sales order behind the scene.
-- Calculations and totals update as line items are edited.
-- Suggested uses: working with configurations and other complicated sales order scenarios.
-- The app can be installed in a cloud sandbox to try for free, with links in the video description.
+- Edits made in the spreadsheet are updated directly on the sales order behind the scene, which can be checked with Show document.
+- Quantities can be linked with formulas (for example two lamps per desk), and calculations such as a sum update as line items are edited.
+- Suggested uses: working with configurations, price calculations and other complicated sales order scenarios.
+- The app can be installed in a cloud sandbox to try for free, with links below the video.
 
 ## Chapters
 
@@ -171,12 +171,12 @@ He shows that calculations and totals update as line items are edited. He sugges
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Open lines in spreadsheet | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=38s) |  |
-| Spreadsheet region connected to sales order | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=49s) |  |
-| Real-time data synchronization | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=102s) |  |
-| Edit sales order configurations in spreadsheet | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=141s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Open lines in spreadsheet | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=38s) |
+| Spreadsheet region connected to sales order | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=49s) |
+| Real-time data synchronization | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=102s) |
+| Edit sales order configurations in spreadsheet | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=141s) |
 
 ## AL objects mentioned
 

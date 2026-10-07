@@ -18,18 +18,39 @@ tags:
   - preview features
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:19.527Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:19.580Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 6d306bb0aa52bf5871aebb673cc4cb2de287e48e4dc4ab5807d9c458e49b0da4
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s
+    title: "Unified Copilot Chat Experience: preview"
+    date: "2026-09-10T12:54:53.000Z"
+    commit: null
+    t: 854
+    quote: The feature is being introduced as a public preview right now with version 29.
+  - kind: video
+    url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s
+    title: "Business Central Data Integration in Chat: preview"
+    date: "2026-09-10T12:54:53.000Z"
+    commit: null
+    t: 854
+    quote: The feature is being introduced as a public preview right now with version 29.
+  - kind: video
+    url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s
+    title: "Web Search Integration in Copilot Chat: preview"
+    date: "2026-09-10T12:54:53.000Z"
+    commit: null
+    t: 854
+    quote: The feature is being introduced as a public preview right now with version 29.
   - kind: video
     url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=38s
     title: Business Central Gets a New Microsoft Copilot Chat Experience
@@ -59,12 +80,12 @@ evidence:
     t: 306
     quote: However, Microsoft also says that user with a Microsoft copilot license receives additional benefit.
   - kind: video
-    url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s
+    url: https://www.youtube.com/watch?v=mhfjycxWTyY&t=321s
     title: Business Central Gets a New Microsoft Copilot Chat Experience
     date: "2026-09-10T12:54:53.000Z"
     commit: null
-    t: 365
-    quote: Microsoft says that this feature becomes available over the coming days or months as GA is announced.
+    t: 321
+    quote: But if you have a co-pilot license, you get additional benefit. Those benefit include access to work IQ.
 links:
   learn: []
   objects: []
@@ -112,21 +133,21 @@ features:
   - name: Unified Copilot Chat Experience
     status: ga
     t: 1
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573362"
   - name: Business Central Data Integration in Chat
     status: ga
     t: 211
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573362"
   - name: Web Search Integration in Copilot Chat
-    status: unclear
+    status: preview
     t: 211
-    verified: false
+    verified: true
     status_source: video
   - name: Copilot and Agent Capabilities Settings Page
     status: ga
@@ -181,8 +202,8 @@ quotes:
   - t: 306
     text: However, Microsoft also says that user with a Microsoft copilot license receives additional benefit.
     check: exact
-  - t: 365
-    text: Microsoft says that this feature becomes available over the coming days or months as GA is announced.
+  - t: 321
+    text: But if you have a co-pilot license, you get additional benefit. Those benefit include access to work IQ.
     check: exact
 ---
 
@@ -190,7 +211,7 @@ quotes:
 
 > The unified Copilot chat experience in Dynamics 365 Business Central, part of 2026 release wave 2 and in public preview. It combines business data, web search and general AI knowledge in one chat. The video covers licensing, admin enablement on the Copilot and Agent Capabilities page, and a demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mhfjycxWTyY) · Saurav Dhyani · 2026-09-10 · 15:16 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mhfjycxWTyY) · Saurav Dhyani · 2026-09-10 · 15:16 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,12 +221,12 @@ The presenter covers access and licensing, how administrators enable the feature
 
 ## Key points
 
-- The new unified Copilot chat is part of 2026 release wave 2 and is in public preview. Microsoft says documentation and feature detail are subject to change.
+- The new unified Copilot chat is part of 2026 release wave 2 (version 29) and is in public preview. Microsoft says documentation and feature detail are subject to change.
 - The chat combines three sources: Business Central business data, web search results and general AI knowledge.
-- Per Microsoft documentation, the feature is available to users with a Business Central license. Users with a Microsoft Copilot license get additional benefits, including work IQ and more agent capabilities.
-- Administrators enable or disable chat per company on the Copilot and Agent Capabilities page. Chat appears there as a production ready preview, and availability varies by region and environment.
-- The demo showed multi-step reasoning across Business Central data (most recent invoice for a customer), model selection and agent store access inside Business Central.
-- The presenter says the interaction model shifts toward natural language questions instead of navigating pages and reports. He says this means rethinking UI and UX design.
+- Per Microsoft documentation, the feature is available to users with a Business Central license. Users with a Microsoft Copilot license get additional benefits, including access to work IQ; eligible Microsoft 365 business customers are also named.
+- Administrators enable or disable chat on the Copilot and Agent Capabilities page, which already existed. Chat appears there under production ready previews, and availability depends on region and environment.
+- The demo showed the chat reasoning in two steps to find the most recent posted sales invoice for customer 10000, plus model selection and agent store access inside Business Central.
+- The presenter says Business Central gains a conversational interaction model, with users asking questions in natural language instead of navigating pages and reports; consultants should include AI-assisted interactions when discussing user experience and business processes.
 - Microsoft says the feature becomes available over the coming days or months as GA is announced.
 
 ## Chapters
@@ -225,9 +246,9 @@ The presenter covers access and licensing, how administrators enable the feature
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified Copilot Chat Experience | generally available (roadmap [573362](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) |  |
-| Business Central Data Integration in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) |  |
-| Web Search Integration in Copilot Chat | status not stated | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) |  |
+| Unified Copilot Chat Experience | generally available (roadmap [573362](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Business Central Data Integration in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Web Search Integration in Copilot Chat | preview | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
 | Copilot and Agent Capabilities Settings Page | generally available (roadmap [573362](../features/573362.md)), demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
 | Microsoft Copilot License Additional Benefits | status not stated | [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) |  |
 | Conversational Interaction Model | generally available (roadmap [573362](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
@@ -251,7 +272,7 @@ Not found in BC28-30: page "Copilot and Agent Capabilities".
 - [1:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=65s) "The interesting part is that it isn't simply about asking questions on your Business Central. The experience combines three important sources of information."
 - [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) "According to published Microsoft documentation, the feature is available to a user with business central license."
 - [5:06](https://www.youtube.com/watch?v=mhfjycxWTyY&t=306s) "However, Microsoft also says that user with a Microsoft copilot license receives additional benefit."
-- [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) "Microsoft says that this feature becomes available over the coming days or months as GA is announced."
+- [5:21](https://www.youtube.com/watch?v=mhfjycxWTyY&t=321s) "But if you have a co-pilot license, you get additional benefit. Those benefit include access to work IQ."
 
 ## Disclaimers in the video
 

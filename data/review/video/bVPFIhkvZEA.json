@@ -1,0 +1,34 @@
+{
+  "video_id": "bVPFIhkvZEA",
+  "item_id": "video/yt-saurav/bVPFIhkvZEA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 12 quotes are verbatim, allowing for case differences and spans that run across segments. The captions consistently write 'shift' for SIFT.",
+    "Quote at 175.2 is a fragment that ends mid-sentence ('But it') and adds little. Replaced it with the trade-off statement at 185.9.",
+    "All features were marked unclear. The video demos the 2026 release wave 2 capability in a preview environment, so the SIFT toggle and the standalone Index Management page are set to preview. Wave 1 index management is described as already introduced, so it is set to ga.",
+    "Company-level control is said to have existed earlier as well, and the deferred-enable timing has no stated status, so both stay unclear.",
+    "Summary and key points are supported by the transcript."
+  ],
+  "input_hash": "a66d564b3baab76d3c53856d3b8d61e7e115290e81ba7978dd53d05b9a1f8088",
+  "by": "opus",
+  "at": "2026-10-07T23:19:03.382Z",
+  "applied": [
+    "Turn SIFT indexes on or off from Business Central client: status preview",
+    "Index Management page: status preview",
+    "Index type classification: status unclear",
+    "Company-level index control: status unclear",
+    "Immediate index disable with deferred enable: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 186s"
+  ],
+  "rejected_edits": [
+    "status Database index management at application level -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10768100000000001
+  }
+}

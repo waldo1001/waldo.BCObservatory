@@ -4,12 +4,12 @@
   "summary": "Advanced Spreadsheets and Reporting app for Business Central: a demo of an AI agent that writes SQL regions in a spreadsheet, joining posted sales invoices with customer and ledger entries. Also shows manual SQL region creation. The app is stated to be free in the cloud sandbox.",
   "overview": "Erik Hougaard shows how an agent inside the Advanced Spreadsheets and Reporting app for Business Central can query data with SQL. The agent is opened from the facts box area on the right. In the demo it builds a join of posted sales invoices (sales invoice header) with customer and ledger entries and puts the result into the spreadsheet.\n\nThe video then shows how to create a SQL region manually, for example selecting name from the customer table. It notes that the agent has tools to manipulate the spreadsheet and to look at fields and tables, and that the app is free to use in the cloud sandbox.",
   "key_points": [
-    "The agent is reached only through the facts box area on the right side of the spreadsheet.",
-    "The agent has tools to manipulate spreadsheet content and to look up tables and fields.",
-    "Demo: the agent joins sales invoice header, customer and ledger entries and returns the data in the spreadsheet.",
-    "Manual alternative: create a SQL region yourself, for example selecting name from the customer table.",
-    "Manual SQL needs basic SQL knowledge; yellow validation warnings may appear while typing.",
-    "Knowing the table and field structure helps the agent work effectively.",
+    "The agent is opened through the facts box area on the right side of the spreadsheet.",
+    "Prompt used in the demo: create a SQL region that joins sales invoice header with customer and ledger entries.",
+    "The agent has tools to manipulate everything in the spreadsheet and to look at fields and tables.",
+    "The generated SQL region pulls data from customer, customer ledger entries and sales invoice header into the spreadsheet.",
+    "Manual alternative: add a new region, set it as a SQL area and write a query such as select name from customer.",
+    "A yellow indicator may show up sometimes while typing; the presenter says to ignore it.",
     "The app is stated to be free to use in the cloud sandbox."
   ],
   "audience": [

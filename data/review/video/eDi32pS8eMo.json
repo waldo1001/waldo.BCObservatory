@@ -1,0 +1,26 @@
+{
+  "video_id": "eDi32pS8eMo",
+  "item_id": "video/yt-hougaard/eDi32pS8eMo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim; the ones at 47.8 and 275.2 run on into the next segment, which is allowed.",
+    "Key point saying skills 'replace' manually saved templates goes too far. The transcript says you do not necessarily have to save a template, but you still can. Reworded it.",
+    "Added a key point from the transcript (75.9): you can build your own skills or edit the bundled ones.",
+    "Feature statuses are all unclear, which is correct. 'Free to use in a sandbox' does not state preview or GA status."
+  ],
+  "input_hash": "5aac806329a18d2a0b49d0673cf123bc29056084a8da5c02e345462adb70bf7d",
+  "by": "opus",
+  "at": "2026-10-07T23:18:26.239Z",
+  "applied": [
+    "quote at 76s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054401000000000005
+  }
+}

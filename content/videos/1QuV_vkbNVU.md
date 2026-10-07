@@ -2,7 +2,7 @@
 id: video/1QuV_vkbNVU
 type: video
 title: Introducing Spreadsheets for Business Central
-summary: Spreadsheets for Business Central, a spreadsheet app running inside Business Central, is demoed with regions that connect BC data (tables, charts, queries, pages), virtual fields, permissions for sharing and editing, and an AI agent that generates SQL queries and regions.
+summary: Demo of spreadsheets in the advanced spreadsheet and reporting app for Business Central (expanded from the advanced financial reporting app). It covers Excel-like cells with BC functions (TODAY, WORKDATE, CALCDATE) and regions that connect BC data (tables with write-back, charts, queries, budgets, pages for preview and print). It also covers virtual fields, read-only or edit sharing permissions, and a bring-your-own-key AI agent that builds SQL query regions.
 tier: community
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - preview mode
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:12.449Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:12.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,6 +37,13 @@ evidence:
     commit: null
     t: 13
     quote: a spreadsheet that is running inside Business Central and it's a spreadsheet that have Business Central in it
+  - kind: video
+    url: https://www.youtube.com/watch?v=1QuV_vkbNVU&t=23s
+    title: Introducing Spreadsheets for Business Central
+    date: "2026-09-21T19:14:15.000Z"
+    commit: null
+    t: 23
+    quote: we have expanded our financial advanced financial reporting app to also include the spreadsheet.
   - kind: video
     url: https://www.youtube.com/watch?v=1QuV_vkbNVU&t=90s
     title: Introducing Spreadsheets for Business Central
@@ -58,13 +65,6 @@ evidence:
     commit: null
     t: 462
     quote: Very important. So, you can configure whether a user have permissions to to use the right back functionality or not
-  - kind: video
-    url: https://www.youtube.com/watch?v=1QuV_vkbNVU&t=838s
-    title: Introducing Spreadsheets for Business Central
-    date: "2026-09-21T19:14:15.000Z"
-    commit: null
-    t: 838
-    quote: the bring your own key concept, so you can choose where where you want to get your AI from
 links:
   learn: []
   objects:
@@ -169,6 +169,9 @@ quotes:
   - t: 13
     text: a spreadsheet that is running inside Business Central and it's a spreadsheet that have Business Central in it
     check: exact
+  - t: 23
+    text: we have expanded our financial advanced financial reporting app to also include the spreadsheet.
+    check: exact
   - t: 90
     text: I operate this exactly like you I would type this exactly the same way as I would do it in Excel
     check: exact
@@ -178,16 +181,13 @@ quotes:
   - t: 462
     text: Very important. So, you can configure whether a user have permissions to to use the right back functionality or not
     check: exact
-  - t: 838
-    text: the bring your own key concept, so you can choose where where you want to get your AI from
-    check: exact
 ---
 
 # Introducing Spreadsheets for Business Central
 
-> Spreadsheets for Business Central, a spreadsheet app running inside Business Central, is demoed with regions that connect BC data (tables, charts, queries, pages), virtual fields, permissions for sharing and editing, and an AI agent that generates SQL queries and regions.
+> Demo of spreadsheets in the advanced spreadsheet and reporting app for Business Central (expanded from the advanced financial reporting app). It covers Excel-like cells with BC functions (TODAY, WORKDATE, CALCDATE) and regions that connect BC data (tables with write-back, charts, queries, budgets, pages for preview and print). It also covers virtual fields, read-only or edit sharing permissions, and a bring-your-own-key AI agent that builds SQL query regions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1QuV_vkbNVU) · Erik Hougaard · 2026-09-21 · 16:46 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1QuV_vkbNVU) · Erik Hougaard · 2026-09-21 · 16:46 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -220,18 +220,18 @@ The demo covers Business Central date functions in cells (TODAY, WORKDATE, CALCD
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Spreadsheets for Business Central | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=0s) |  |
-| Regions | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=211s) |  |
-| Virtual Fields | status not stated, demoed | [8:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=511s) |  |
-| Page Regions | status not stated, demoed | [11:40](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=700s) |  |
-| Permissions and Sharing | status not stated, demoed | [13:12](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=792s) |  |
-| AI Agent | status not stated, demoed | [13:47](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=827s) |  |
-| Chart Regions | status not stated, demoed | [10:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=631s) |  |
-| Business Central Functions | status not stated, demoed | [2:06](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=126s) |  |
-| Scenarios | status not stated | [16:01](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=961s) |  |
-| Conditional Formatting | status not stated | [16:13](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=973s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Spreadsheets for Business Central | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=0s) |
+| Regions | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=211s) |
+| Virtual Fields | status not stated, demoed | [8:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=511s) |
+| Page Regions | status not stated, demoed | [11:40](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=700s) |
+| Permissions and Sharing | status not stated, demoed | [13:12](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=792s) |
+| AI Agent | status not stated, demoed | [13:47](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=827s) |
+| Chart Regions | status not stated, demoed | [10:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=631s) |
+| Business Central Functions | status not stated, demoed | [2:06](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=126s) |
+| Scenarios | status not stated | [16:01](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=961s) |
+| Conditional Formatting | status not stated | [16:13](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=973s) |
 
 ## AL objects mentioned
 
@@ -247,9 +247,9 @@ Not found in BC28-30: table "Posted Sales Headers", table "Ledger Entries".
 ## Quotes
 
 - [0:13](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=13s) "a spreadsheet that is running inside Business Central and it's a spreadsheet that have Business Central in it"
+- [0:23](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=23s) "we have expanded our financial advanced financial reporting app to also include the spreadsheet."
 - [1:30](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=90s) "I operate this exactly like you I would type this exactly the same way as I would do it in Excel"
 - [3:31](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=211s) "A region is where we connect Business Central directly into the into the spreadsheet"
 - [7:42](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=462s) "Very important. So, you can configure whether a user have permissions to to use the right back functionality or not"
-- [13:58](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=838s) "the bring your own key concept, so you can choose where where you want to get your AI from"
 
 Presenters (as heard): Eric.

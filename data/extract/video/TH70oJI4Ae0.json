@@ -157,32 +157,6 @@
       "system": "development"
     },
     {
-      "name": "SQL Server column and record size limits",
-      "description": "SQL Server has a maximum of 500 fields in a record with various constraints including 16 GB maximum record size, 2 GB maximum blob size, and 2048 character maximum for text/code fields. Variable length text fields consume 26 bytes per record.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 377.8,
-      "t_end": 923.9,
-      "is_demoed": true,
-      "caveats": [
-        "Limit is not just about column count but also record size",
-        "Different data types consume different byte amounts",
-        "Record size constraints are as important as column count",
-        "Does not include flow fields or flow filters",
-        "Runtime error occurs at publish time, not compile time"
-      ],
-      "tags": [
-        "sql server limits",
-        "field limits",
-        "record size",
-        "constraints",
-        "hard limit"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Platform system fields",
       "description": "Business Central automatically adds 6 system fields to every table: system ID, system created at, system created by, system modified at, system modified by, and row version, which count toward the field limit.",
       "status": "unclear",
@@ -248,93 +222,6 @@
         "field design"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Decimal field maximum calculation",
-      "description": "A single table can contain a maximum of approximately 474 decimal fields before exceeding the 8060 byte record size limit.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1031.8,
-      "t_end": 1087.9,
-      "is_demoed": true,
-      "caveats": [
-        "Assumes only decimal fields plus primary key",
-        "Actual limit depends on system-generated fields"
-      ],
-      "tags": [
-        "decimal",
-        "field calculation",
-        "limits"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Version 29 table extension storage change",
-      "description": "Starting in version 29, table extensions no longer create separate companion tables in SQL server; instead they are stored in the same physical table with base table fields, subject to combined record size limits.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1466.1,
-      "t_end": 1511.4,
-      "is_demoed": true,
-      "caveats": [
-        "Changes how field limits are calculated for extensions",
-        "No longer provides separate space allocation"
-      ],
-      "tags": [
-        "version 29",
-        "table extensions",
-        "storage model"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Field count warning at 293 fields",
-      "description": "Business Central 29 shows a warning message when a table reaches 293 fields, regardless of data type. This warning appears before the hard SQL limit is reached.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1746.6,
-      "t_end": 1798.6,
-      "is_demoed": true,
-      "caveats": [
-        "Warning disappears after 499 fields",
-        "Does not prevent build compilation",
-        "Early indicator before hard limit"
-      ],
-      "tags": [
-        "warnings",
-        "field limits",
-        "schema",
-        "development"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Base table and extension table storage consolidation",
-      "description": "Base tables and extension tables are now stored in the same table in SQL Server, meaning field limits apply to the combined set of fields.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1974.7,
-      "t_end": 1984.8,
-      "is_demoed": false,
-      "caveats": [
-        "Requires careful schema design when extending tables",
-        "Field limits apply to combined fields from base and extension"
-      ],
-      "tags": [
-        "extensions",
-        "schema",
-        "tables",
-        "development"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -444,6 +331,12 @@
       "check": "exact"
     },
     {
+      "t": 1235,
+      "text": "So at 470 it failed and it said something odd. Okay. An expected error happened after database command was cancelled.",
+      "why_it_matters": "Shows that the record size limit stops publishing below the 474 decimal fields the presenter first calculated, and that the error appears at publish time.",
+      "check": "exact"
+    },
+    {
       "t": 1466.1,
       "text": "till version 28 it was not a problem as soon as you add a table extension it goes and creates a companion table in",
       "why_it_matters": "Highlights a major architectural change in version 29 that affects how field limits apply to table extensions.",
@@ -459,12 +352,6 @@
       "t": 1589.8,
       "text": "as soon as I'm here now, oh now it shows me that I have 471 field",
       "why_it_matters": "Demonstrates exceeding the 500 field limit in testing to understand warning and error behavior",
-      "check": "exact"
-    },
-    {
-      "t": 1667.4,
-      "text": "as soon as you hit the SQL limit of 500 fields and then if you have 51 field which is 495",
-      "why_it_matters": "Identifies the exact SQL Server hard limit that affects table design",
       "check": "exact"
     },
     {

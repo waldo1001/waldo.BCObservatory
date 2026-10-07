@@ -2,7 +2,7 @@
 id: video/qABlX4AL3GM
 type: video
 title: "Business Central 29.0: Major Change to Table Extensions & SQL."
-summary: "Business Central 29 table extension storage change: extension fields are stored in the same SQL table as the base table instead of companion tables. Covers cross-field indexes, performance effects, continued use of partial loading (SetLoadFields), avoiding direct SQL, and a compiler warning near the column limit. Version 29 is described as in public preview."
+summary: "Business Central 29 (public preview) changes table extension storage: extension fields go into the same SQL table as the base table instead of companion tables. This enables indexes that mix base and extension fields and can speed up data loading. The speaker still recommends SetLoadFields (partial loading), advises against direct SQL in favor of AL, APIs and queries, and covers new compiler warnings for tables nearing the SQL column limit. His picture of the v29 SQL layout is his own assumption."
 tier: community
 language: en
 tags:
@@ -20,18 +20,39 @@ tags:
   - apis
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:34.291Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:34.365Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 08825e9548e88df9f68c0e704a3fb042bc9096545989e720df4f2af57fde8d12
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s
+    title: "Unified table storage for extensions: preview"
+    date: "2026-09-07T06:00:31.000Z"
+    commit: null
+    t: 151
+    quote: business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.
+  - kind: video
+    url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s
+    title: "Cross-field indexes spanning base and extension tables: preview"
+    date: "2026-09-07T06:00:31.000Z"
+    commit: null
+    t: 151
+    quote: business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.
+  - kind: video
+    url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s
+    title: "Compiler warnings for table column limit: preview"
+    date: "2026-09-07T06:00:31.000Z"
+    commit: null
+    t: 151
+    quote: business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.
   - kind: video
     url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s
     title: "Business Central 29.0: Major Change to Table Extensions & SQL."
@@ -54,19 +75,19 @@ evidence:
     t: 151
     quote: business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.
   - kind: video
+    url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=568s
+    title: "Business Central 29.0: Major Change to Table Extensions & SQL."
+    date: "2026-09-07T06:00:31.000Z"
+    commit: null
+    t: 568
+    quote: business center 29 onrem version is not available and on business center cloud I don't have access to the SQL server
+  - kind: video
     url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=603s
     title: "Business Central 29.0: Major Change to Table Extensions & SQL."
     date: "2026-09-07T06:00:31.000Z"
     commit: null
     t: 603
     quote: one business central table, AL table is equivalent to one SQL table. No companion table, no table per extension.
-  - kind: video
-    url: https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s
-    title: "Business Central 29.0: Major Change to Table Extensions & SQL."
-    date: "2026-09-07T06:00:31.000Z"
-    commit: null
-    t: 751
-    quote: developers can define indexes that span fields from a base table and its extension table
 links:
   learn: []
   objects:
@@ -123,14 +144,14 @@ features:
   - name: Unified table storage for extensions
     status: ga
     t: 103
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573332"
   - name: Cross-field indexes spanning base and extension tables
     status: ga
     t: 751
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573315"
@@ -146,15 +167,10 @@ features:
     t: 932
     verified: false
     status_source: video
-  - name: Avoid direct SQL operations
-    status: unclear
-    t: 1291
-    verified: false
-    status_source: video
   - name: Compiler warnings for table column limit
-    status: unclear
+    status: preview
     t: 1474
-    verified: false
+    verified: true
     status_source: video
 objects_mentioned:
   - table item table
@@ -169,19 +185,19 @@ quotes:
   - t: 151
     text: business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability.
     check: exact
+  - t: 568
+    text: business center 29 onrem version is not available and on business center cloud I don't have access to the SQL server
+    check: exact
   - t: 603
     text: one business central table, AL table is equivalent to one SQL table. No companion table, no table per extension.
-    check: exact
-  - t: 751
-    text: developers can define indexes that span fields from a base table and its extension table
     check: exact
 ---
 
 # Business Central 29.0: Major Change to Table Extensions & SQL.
 
-> Business Central 29 table extension storage change: extension fields are stored in the same SQL table as the base table instead of companion tables. Covers cross-field indexes, performance effects, continued use of partial loading (SetLoadFields), avoiding direct SQL, and a compiler warning near the column limit. Version 29 is described as in public preview.
+> Business Central 29 (public preview) changes table extension storage: extension fields go into the same SQL table as the base table instead of companion tables. This enables indexes that mix base and extension fields and can speed up data loading. The speaker still recommends SetLoadFields (partial loading), advises against direct SQL in favor of AL, APIs and queries, and covers new compiler warnings for tables nearing the SQL column limit. His picture of the v29 SQL layout is his own assumption.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qABlX4AL3GM) · Saurav Dhyani · 2026-09-07 · 35:04 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qABlX4AL3GM) · Saurav Dhyani · 2026-09-07 · 35:04 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,13 +207,13 @@ The presenter covers the main effects: indexes can span base and extension field
 
 ## Key points
 
-- In Business Central 29, fields from table extensions are stored in the same database table as the base table, replacing the companion table model.
-- Indexes (keys) can now span fields from a base table and its table extensions, which the earlier two storage models did not allow.
-- Finds and other reads can be faster because extension fields are in one table and no join to companion tables is needed; gains depend on query complexity.
-- Keep using set load field (partial loading) in version 29 so only the needed fields are fetched.
-- Do not read or write SQL directly; use AL, Business Central APIs or queries, and treat the physical SQL schema as an implementation detail that may change.
-- Compiler warnings are introduced for tables or table extensions with many normal fields approaching the SQL column limit; the exact threshold is not documented.
-- Business Central 29 is in public preview, so documented behavior may change before general availability.
+- In Business Central 29, fields from table extensions are stored in the same database table as the base table, replacing the extension companion table model.
+- Storage has gone through three stages: a separate SQL table per extension, a shared $ext companion table, and now a single unified table.
+- Keys/indexes can now combine fields from a base table and its table extensions, which the earlier two storage models did not allow.
+- Finds and other reads can be faster because extension fields are in one table and no join to companion tables is needed.
+- Keep using set load field (partial loading) in version 29 so only the needed fields are fetched and queries stay smaller.
+- Do not read or write SQL directly; use AL, Business Central APIs or queries, and treat the physical SQL schema as an implementation detail that may change again.
+- BC29 adds compiler warnings when tables or table extensions with many normal fields approach the SQL column limit; the speaker does not know the exact threshold or behavior and proposes testing it.
 
 ## Chapters
 
@@ -220,12 +236,11 @@ The presenter covers the main effects: indexes can span base and extension field
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified table storage for extensions | generally available (roadmap [573332](../features/573332.md)) | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) |  |
-| Cross-field indexes spanning base and extension tables | generally available (roadmap [573315](../features/573315.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
+| Unified table storage for extensions | generally available (roadmap [573332](../features/573332.md)) | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
+| Cross-field indexes spanning base and extension tables | generally available (roadmap [573315](../features/573315.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
 | Improved database operation performance for extensions | generally available (roadmap [573332](../features/573332.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
 | Partial record loading with set load field | status not stated, demoed | [15:32](https://www.youtube.com/watch?v=qABlX4AL3GM&t=932s) |  |
-| Avoid direct SQL operations | status not stated | [21:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1291s) |  |
-| Compiler warnings for table column limit | status not stated | [24:34](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1474s) |  |
+| Compiler warnings for table column limit | preview | [24:34](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1474s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -243,8 +258,8 @@ Not found in BC28-30: table "item table".
 - [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) "business 29 introduces a major change to the data model used for table extensions"
 - [1:54](https://www.youtube.com/watch?v=qABlX4AL3GM&t=114s) "fields from table extensions are stored in the same database table as the base table instead of being stored"
 - [2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s) "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability."
+- [9:28](https://www.youtube.com/watch?v=qABlX4AL3GM&t=568s) "business center 29 onrem version is not available and on business center cloud I don't have access to the SQL server"
 - [10:03](https://www.youtube.com/watch?v=qABlX4AL3GM&t=603s) "one business central table, AL table is equivalent to one SQL table. No companion table, no table per extension."
-- [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) "developers can define indexes that span fields from a base table and its extension table"
 
 ## Disclaimers in the video
 

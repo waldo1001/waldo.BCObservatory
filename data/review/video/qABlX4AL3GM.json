@@ -1,0 +1,36 @@
+{
+  "video_id": "qABlX4AL3GM",
+  "item_id": "video/yt-saurav/qABlX4AL3GM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two quotes share t=780.4 and two share t=834.9 and repeat the same content; dropping both pairs by t and adding one copy of each back.",
+    "The key point saying performance gains depend on query complexity is not in the transcript; the speaker says performance can improve drastically.",
+    "'Avoid direct SQL operations' is advice, not a product feature; dropped from features (still covered in key points).",
+    "The transcript says BC29 is in public preview (t=151.1), so unified storage, cross-field indexes and the column-limit compiler warnings are set to preview.",
+    "The speaker says his picture of the BC29 SQL layout is an assumption because he cannot access the SQL server for v29; added this to the summary and a quote.",
+    "The chapter 'Detecting table approaching SQL column limit warning' starts at 1474.3, but the column-limit discussion actually starts around 1527.4 (minor, chapters not edited)."
+  ],
+  "input_hash": "5dc1644640cf8a5a3b40488e795d23f5af79225459bbd34f4ff249418b7ad3e1",
+  "by": "opus",
+  "at": "2026-10-07T23:19:34.291Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Unified table storage for extensions: status preview",
+    "Cross-field indexes spanning base and extension tables: status preview",
+    "Compiler warnings for table column limit: status preview",
+    "dropped 4 quote(s)",
+    "quote at 780s",
+    "quote at 835s",
+    "quote at 568s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.176713
+  }
+}

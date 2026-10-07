@@ -16,12 +16,12 @@ tags:
   - warning levels
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:22.799Z"
   flags: []
 generated:
-  at: "2026-10-06T17:51:34.423Z"
+  at: "2026-10-07T23:18:22.832Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,7 +152,7 @@ quotes:
 
 > KPI cards in the Advanced Spreadsheets and Reporting app for Business Central: a demo of a basic card, auto card type, compare value, target bar or donut, trend display and status with warning and critical levels. Useful for building KPI dashboards in spreadsheets.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cV_5MGGdGtQ) · Erik Hougaard · 2026-09-21 · 6:26 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cV_5MGGdGtQ) · Erik Hougaard · 2026-09-21 · 6:26 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,14 +182,14 @@ He then adds a compare value to show whether the main value is above or below an
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| KPI card | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=42s) |  |
-| KPI card auto type | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=96s) |  |
-| KPI compare value | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=116s) |  |
-| KPI target bar visualization | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=188s) |  |
-| KPI trend display | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=214s) |  |
-| KPI status with warning levels | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=284s) |  |
+| Feature | Status | At |
+|---|---|---|
+| KPI card | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=42s) |
+| KPI card auto type | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=96s) |
+| KPI compare value | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=116s) |
+| KPI target bar visualization | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=188s) |
+| KPI trend display | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=214s) |
+| KPI status with warning levels | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=284s) |
 
 ## Quotes
 

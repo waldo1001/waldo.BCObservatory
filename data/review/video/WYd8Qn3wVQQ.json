@@ -1,0 +1,25 @@
+{
+  "video_id": "WYd8Qn3wVQQ",
+  "item_id": "video/yt-hougaard/WYd8Qn3wVQQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point said compare date formulas must be configured manually. The transcript (t=344.4) says the default is the same period one year before when nothing is set, and a custom formula such as -2Y is optional.",
+    "Key point called Budget Ledger Entries a 'table'. The transcript only says Ctrl-click opens the data source, the budget ledger entries. Reworded.",
+    "Key point on several regions was softened. Each new region has its own compare settings, but the transcript does not clearly say they share one spreadsheet.",
+    "All quotes are verbatim and useful. Feature statuses stay unclear because the only availability statement is about the app as a whole."
+  ],
+  "input_hash": "1d5af549b55ab1729d22de269b2df9aac759cfd17c5634f6084f7c467325fd55",
+  "by": "opus",
+  "at": "2026-10-07T23:18:30.020Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063865
+  }
+}

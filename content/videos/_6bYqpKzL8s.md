@@ -16,25 +16,18 @@ tags:
   - preview limitations
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:40.749Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:40.807Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 71bcb503082d95477fa5f5e2925c1d6cff68d55c48258a5122137c1180f59a65
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=_6bYqpKzL8s&t=495s
-    title: "Preview environment deletion after GA: generally available"
-    date: "2026-09-18T05:30:03.000Z"
-    commit: null
-    t: 495
-    quote: Microsoft deletes those environment 30 days after the version becomes generally available.
   - kind: video
     url: https://www.youtube.com/watch?v=_6bYqpKzL8s&t=54s
     title: Upgrade Business Central Sandbox to Preview Version
@@ -117,9 +110,9 @@ features:
     verified: false
     status_source: video
   - name: Preview environment deletion after GA
-    status: ga
+    status: unclear
     t: 482
-    verified: true
+    verified: false
     status_source: video
   - name: Schedule preview version update from admin center
     status: unclear
@@ -150,7 +143,7 @@ quotes:
 
 > Updating an existing Business Central sandbox to a preview version from the admin center, so upcoming functionality can be tested with real customer data, configurations and extensions. Covers scheduling the update, post-upgrade testing and preview limitations, including deletion 30 days after GA.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_6bYqpKzL8s) · Saurav Dhyani · 2026-09-18 · 13:09 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_6bYqpKzL8s) · Saurav Dhyani · 2026-09-18 · 13:09 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,8 +155,8 @@ It walks through the admin center: viewing environments, checking application ve
 
 - An existing sandbox can be scheduled to update to a preview version, rather than creating a new clean preview environment.
 - Testing this way uses the customer's own extensions, data and configuration, which gives a rough estimate of impact, not a guaranteed result.
-- Updates are scheduled in the admin center, where you check environments and application versions and pick a date and time.
-- Date selection may be restricted by update window settings; an option allows running outside the update window.
+- Updates are scheduled in the admin center, where you check environments and application versions and pick a target version, date and time.
+- The scheduled date and time are based on the environment's region; an option allows the update to run outside the configured update window.
 - Check that the sandbox is not in use for active testing before upgrading it.
 - Preview environments are deleted automatically 30 days after the version becomes generally available, without prior notice.
 - A preview environment cannot be updated to a different version, and it should not be treated as a permanent sandbox. Tell customers it is temporary.
@@ -182,11 +175,11 @@ It walks through the admin center: viewing environments, checking application ve
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Update existing sandbox to preview version | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=1s) |  |
-| Preview environment deletion after GA | generally available | [8:02](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=482s) | "Microsoft deletes those environment 30 days after the version becomes generally available." ([8:15](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=495s)) |
-| Schedule preview version update from admin center | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=211s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Update existing sandbox to preview version | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=1s) |
+| Preview environment deletion after GA | status not stated | [8:02](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=482s) |
+| Schedule preview version update from admin center | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=211s) |
 
 ## AL objects mentioned
 

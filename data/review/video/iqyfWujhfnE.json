@@ -1,0 +1,25 @@
+{
+  "video_id": "iqyfWujhfnE",
+  "item_id": "video/yt-hougaard/iqyfWujhfnE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point says the app is free to try 'only' in a sandbox; the transcript says 'free to try uh and use in a sandbox cloud sandbox' and does not say 'only'. Reworded.",
+    "Quotes are verbatim and the summary is supported.",
+    "All features are 'unclear'. That fits, because the transcript gives no preview or GA status.",
+    "'Column charts' rests on the caption 'I'll join columns', which is probably a mis-caption of 'choose columns'. The later line 'We're on columns' supports it."
+  ],
+  "input_hash": "a3da1382b2f40ec61e87b0c1c5d865299f1561bfe812f5db999700b950f9737b",
+  "by": "opus",
+  "at": "2026-10-07T23:18:24.906Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037797
+  }
+}

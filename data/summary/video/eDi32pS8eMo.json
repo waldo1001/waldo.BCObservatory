@@ -6,11 +6,11 @@
   "key_points": [
     "The app builds spreadsheets connected with Business Central data.",
     "It ships with about 15 generic skills, including executive summaries, GL exception dashboard, ratio dashboard, budget versus actual and benchmarking dashboards.",
-    "A skill is a set of instructions for the AI to build a report or dashboard; it replaces manually saved templates.",
+    "A skill is a set of instructions for the AI to build a report or dashboard; you no longer necessarily have to save a template, though templates are still supported.",
+    "You can build your own skills or edit the bundled skills to fit your needs.",
     "You can give the agent specific instructions or let it use the skill defaults.",
-    "The demo shows the agent building a dashboard with KPI boxes, financial charts and analysis sections.",
-    "The app is free to use in a sandbox.",
-    "Using the agent requires your own API key, for example from ChatGPT or Claude (bring your own key)."
+    "The demo shows the agent building an executive summary dashboard with KPI boxes, revenue actual versus budget, a profit bridge, financial position and an analysis section.",
+    "The app is free to use in a sandbox."
   ],
   "audience": [
     "functional consultant",

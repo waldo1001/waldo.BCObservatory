@@ -181,32 +181,12 @@
       "system": "platform"
     },
     {
-      "name": "Schema Sync Mode Changes in Version 29",
-      "description": "Version 29 introduces new schema sync mode behavior that allows adding and migrating field types, in contrast to Version 28 where such changes are destructive.",
+      "name": "Compiler Narrowing Conversion Detection",
+      "description": "The compiler in Version 29 detects and warns about narrowing conversions when biginteger values are assigned to integer fields, preventing runtime overflow errors.",
       "status": "unclear",
       "status_evidence_t": null,
       "status_evidence_quote": null,
       "status_evidence_verified": false,
-      "t_start": 787.8,
-      "t_end": 862,
-      "is_demoed": true,
-      "caveats": [
-        "Version 28 treats this as destructive change and fails deployment"
-      ],
-      "tags": [
-        "schema sync",
-        "deployment",
-        "version comparison"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Compiler Narrowing Conversion Detection",
-      "description": "The compiler in Version 29 detects and warns about narrowing conversions when biginteger values are assigned to integer fields, preventing runtime overflow errors.",
-      "status": "ga",
-      "status_evidence_t": 1120.2,
-      "status_evidence_quote": "As the GA will announce, I'm hoping the compiler warnings will be there. Address each compiler warning",
-      "status_evidence_verified": true,
       "t_start": 1120.2,
       "t_end": 1132.2,
       "is_demoed": false,
@@ -330,6 +310,12 @@
       "t": 204.7,
       "text": "They have a custom transaction log table with an entry number field defined as integer. At some point the entry number gets uncomfortably close",
       "why_it_matters": "Illustrates real-world business scenario where feature is needed",
+      "check": "exact"
+    },
+    {
+      "t": 614.8,
+      "text": "But it doesn't give me warning of changing this integer to a big integer which I was expecting that it should give me.",
+      "why_it_matters": "Shows that the expected compiler warning was missing in the version 29 preview.",
       "check": "exact"
     },
     {

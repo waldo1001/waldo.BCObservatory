@@ -7,7 +7,7 @@
     "Adding a method to an AL interface changes its contract and breaks existing implementations, including those in dependent extensions.",
     "In Business Central 29, interface methods can have default method bodies, so existing implementations continue to work unchanged.",
     "Implementations can supply their own version of the method, otherwise the default behavior is used.",
-    "The required pending attribute marks a method that implementations should eventually implement. It needs a version deadline, a tag and a reason.",
+    "The required pending attribute marks a method that implementations should eventually implement. It takes a reason (in the demo stating the method must be implemented before version 32) and a tag (29.0), and implementations that lack the method get a compiler warning.",
     "Staged evolution: introduce the method with a default implementation, provide default behavior, then signal the future requirement with required pending.",
     "Use a default only when a sensible fallback exists, not to hide a requirement. Treat it as a migration mechanism, not a permanent solution.",
     "Business Central 29 was in public preview when the video was made, so validate the final behavior at GA."

@@ -1,0 +1,36 @@
+{
+  "video_id": "TH70oJI4Ae0",
+  "item_id": "video/yt-saurav/TH70oJI4Ae0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'SQL Server column and record size limits' claims a 16 GB maximum record size; the transcript's 16 refers to maximum distinct fields per key. Dropped.",
+    "Feature 'Decimal field maximum calculation' and the key point state about 474 decimal fields. That was only the first estimate. The presenter later recalculated 470 including platform fields, and publishing failed at both 470 and 469. Dropped the feature and rewrote the key point.",
+    "Three features repeat the storage model change (New table extension data model, Version 29 table extension storage change, Base table and extension table storage consolidation). Kept the first only.",
+    "'Field count warning at 293 fields' repeats '300 field warning threshold'. Dropped.",
+    "Quote at 1667.4 is garbled and adds nothing. Dropped.",
+    "Added a quote showing the publish failure at 470 decimal fields.",
+    "Feature status set to ga for the column limit warning and the new storage model, since the presenter says version 29 introduced them.",
+    "The 30% performance figure is the presenter recalling a Microsoft LinkedIn post, not documentation."
+  ],
+  "input_hash": "c038ea9729ddcd0c6d5208558325b7da171c17c355c26c5479148eead50d0102",
+  "by": "opus",
+  "at": "2026-10-07T23:18:16.058Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 1235s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Detect table approaching SQL column limit warning -> ga: evidence not verbatim or does not state the status",
+    "status New table extension data model -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.191073
+  }
+}

@@ -1,16 +1,16 @@
 {
   "video_id": "dUpixjiNaGY",
   "item_id": "video/yt-saurav/dUpixjiNaGY",
-  "summary": "Image preview in the Business Central web client: supported image attachments open in a dedicated viewer without downloading, compared with version 28 behavior. Covers supported formats, the FileViewFromStream method for developers, and a known gap for incoming documents.",
+  "summary": "From Business Central version 29, supported image attachments open in a dedicated web client viewer without downloading them first, much like the existing PDF preview. Before that, up to version 28, users had to download the file. The video covers the supported formats and limits, where the preview works (document attachments, agents, emails, extensions), the gap for incoming documents, and how developers use File.ViewFromStream in custom extensions.",
   "overview": "Until version 28, an image attachment in Business Central usually had to be downloaded before it could be viewed. The video demos the change in version 29, where supported images open directly in the web client in a viewer similar to the existing PDF preview.\n\nIt lists the supported formats, shows document attachments using a view action, and explains how developers should load files into a stream for preview. It also notes that the feature is not yet available on incoming documents.",
   "key_points": [
+    "Up to version 28, image attachments had to be downloaded to view; from version 29, images preview directly in the web client viewer.",
+    "The viewer still lets users download, print and resize images if needed.",
     "Supported formats: JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF and AVIF; GIF and AVIF include animated versions.",
     "Animated GIF support is limited to 48 frames.",
     "TIFF is supported only in Safari browsers.",
     "Document attachments get a view action that shows the image in the client without downloading it.",
-    "For Business Central online, developers use the new FileViewFromStream method instead of the older FileDownload approach; it is UCI compliant.",
-    "OnPrem developers should use FileViewFromStream instead of the older FileView method to avoid UCI compliance issues.",
-    "Incoming documents do not have image preview yet; the presenter expects it to be added later."
+    "Developers load the file into a stream and call File.ViewFromStream (with file name and extension) to show the preview from a custom extension; page 1173 Document Attachment Details FactBox shows Microsoft's usage."
   ],
   "audience": [
     "developer",
