@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9690",
+  "number": 9690,
+  "title": "Add XRechnung structured format reader for inbound e-documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Adds a structured format reader for German XRechnung e-documents that parses inbound XML directly into E-Document Purchase draft tables without requiring Data Exchange field mappings.",
+  "key_points": [
+    "Implements IStructuredFormatReader interface for XRechnung format",
+    "Reads UBL Invoice and CreditNote documents into E-Document Purchase header and lines",
+    "Includes comprehensive tests and sample XRechnung XML test resource",
+    "Binds handler to E-Doc. Read into Draft enum for automatic routing",
+    "Supports German localization for e-document processing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003783,
+    "changes_in_call": 1
+  }
+}

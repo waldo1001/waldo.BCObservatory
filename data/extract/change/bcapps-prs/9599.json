@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9599",
+  "number": 9599,
+  "title": "Add event subscriber for OpenPermissionSetPage",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "A new event subscriber codeunit enables programmatic opening of the permission set details card based on client signals.",
+  "key_points": [
+    "Adds event subscriber in System Application to handle permission set card opening",
+    "Allows client signals to trigger display of permission set details card",
+    "Updates permission set objects to support the new subscriber",
+    "Provides extensibility point for permission set workflows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "Add event subscriber that will open permission set details card page for provided values.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003236,
+    "changes_in_call": 1
+  }
+}

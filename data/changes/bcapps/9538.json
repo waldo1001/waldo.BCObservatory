@@ -1,0 +1,83 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9538,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9538",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T06:59:34Z",
+  "merge_commit_sha": "2099f20dc46190bbe97d01f59556cc3fb711cc69",
+  "author": "v-ankitgoyal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch",
+  "body_hash": "e420733ea17a1d6239b23a5c13d742ed8d032800d8463e5c8031d11c98bcb5f4",
+  "fixes_issues": [],
+  "work_items": [
+    642418
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/WFWRequisitionWorksheet.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 85,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+        "status": "modified",
+        "key": "page/291",
+        "type": "page",
+        "id": 291,
+        "name": "Req. Worksheet",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/291"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

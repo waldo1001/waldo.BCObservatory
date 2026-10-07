@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9737",
+  "number": 9737,
+  "title": "[E-Document] Move Data Exchange definitions from labels to app resource files",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs from translatable AL labels into app resource files, eliminating unnecessary translation pipeline overhead and fixing partner translation issues.",
+  "key_points": [
+    "Relocated ~470 KB of XML payloads from embedded AL labels to .resources/DataExchange files",
+    "Removed eight labels (DataExchangeInvXML1Txt, DataExchangeCrMXML1Txt, and six others) that were mistakenly included in translations",
+    "Renamed resource files to match naming convention (e.g., 'e-Doc PEPPOL Invoice Import.xml' to 'eDocPEPPOLInvoiceImport.xml')",
+    "Consolidated import logic into a single ImportDataExchDefinition procedure used by both V1 and V2 definitions",
+    "Regenerated eDocPEPPOLInvoiceImport.xml to include missing DataExchColumnDef entry and updated attachment column names"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006828,
+    "changes_in_call": 1
+  }
+}

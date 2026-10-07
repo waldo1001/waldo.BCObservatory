@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9441",
+  "number": 9441,
+  "title": "[Extensibility Request] issue 30337: add OnCreateProdOrderLineOnBeforeCreateProdOrderLineFromItem event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A new integration event OnCreateProdOrderLineOnBeforeCreateProdOrderLineFromItem allows extensions to completely replace the standard item source type processing when creating production order lines, with control over the error outcome.",
+  "key_points": [
+    "New IsHandled-based integration event lets extensions take full ownership of item-line creation",
+    "Extensions can bypass standard flow and set the ErrorOccured flag",
+    "Existing events and standard behavior preserved when the extension doesn't handle the operation",
+    "Event exposes Production Order record and variant code for custom processing",
+    "Extracted item creation logic into separate local procedure"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00356,
+    "changes_in_call": 1
+  }
+}

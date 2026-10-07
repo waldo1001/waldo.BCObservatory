@@ -1,0 +1,481 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8085,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8085",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-27T20:24:47Z",
+  "merge_commit_sha": "2b16b1c9596fdb4e63daa1d6272a15f476c0603a",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)",
+  "body_hash": "216d63c7147b2be88223de0656f430c0318a842c79945757bb8bc0269e6577f3",
+  "fixes_issues": [],
+  "work_items": [
+    631012
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/Permissions/MCPObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPApiToolsFeature.Codeunit.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 41,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPDataQueryToolsFeature.Codeunit.al",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPDynToolModeFeature.Codeunit.al",
+      "status": "added",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPServerFeature.Enum.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIConfigToolLookup.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIObjectLookup.Page.al",
+      "status": "added",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIPublisherLookup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 58,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigList.Page.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigToolList.Page.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 94,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPQueryConfigToolLookup.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureList.Page.al",
+      "status": "added",
+      "additions": 180,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureSettings.Page.al",
+      "status": "added",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPSystemToolList.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPToolsByAPIGroup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPAPIObjectBuffer.Table.al",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPServerFeature.Table.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPSystemTool.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/MCP/src/MCPConfigTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 203,
+      "deletions": 47,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 26,
+    "additions": 1274,
+    "deletions": 276,
+    "al": 23
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/Permissions/MCPObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8350",
+        "type": "permissionset",
+        "id": 8350,
+        "name": "MCP - Objects",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPApiToolsFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8369",
+        "type": "codeunit",
+        "id": 8369,
+        "name": "MCP API Tools Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8369"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8350",
+        "type": "codeunit",
+        "id": 8350,
+        "name": "MCP Config",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8351",
+        "type": "codeunit",
+        "id": 8351,
+        "name": "MCP Config Implementation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPDataQueryToolsFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8368",
+        "type": "codeunit",
+        "id": 8368,
+        "name": "MCP Data Query Tools Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8368"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPDynToolModeFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8370",
+        "type": "codeunit",
+        "id": 8370,
+        "name": "MCP Dyn. Tool Mode Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8370"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8356",
+        "type": "codeunit",
+        "id": 8356,
+        "name": "MCP Upgrade",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8356"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPServerFeature.Enum.al",
+        "status": "added",
+        "key": "enum/8351",
+        "type": "enum",
+        "id": 8351,
+        "name": "MCP Server Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al",
+        "status": "added",
+        "key": "interface/mcp server features",
+        "type": "interface",
+        "id": null,
+        "name": "MCP Server Features",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "interface/mcp-server-features"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIConfigToolLookup.Page.al",
+        "status": "modified",
+        "key": "page/8353",
+        "type": "page",
+        "id": 8353,
+        "name": "MCP API Config Tool Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8353"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIObjectLookup.Page.al",
+        "status": "added",
+        "key": "page/8376",
+        "type": "page",
+        "id": 8376,
+        "name": "MCP API Object Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8376"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIPublisherLookup.Page.al",
+        "status": "modified",
+        "key": "page/8356",
+        "type": "page",
+        "id": 8356,
+        "name": "MCP API Publisher Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8356"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+        "status": "modified",
+        "key": "page/8351",
+        "type": "page",
+        "id": 8351,
+        "name": "MCP Config Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigList.Page.al",
+        "status": "modified",
+        "key": "page/8350",
+        "type": "page",
+        "id": 8350,
+        "name": "MCP Config List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigToolList.Page.al",
+        "status": "modified",
+        "key": "page/8352",
+        "type": "page",
+        "id": 8352,
+        "name": "MCP Config Tool List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8352"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPQueryConfigToolLookup.Page.al",
+        "status": "modified",
+        "key": "page/8367",
+        "type": "page",
+        "id": 8367,
+        "name": "MCP Query Config Tool Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8367"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureList.Page.al",
+        "status": "added",
+        "key": "page/8368",
+        "type": "page",
+        "id": 8368,
+        "name": "MCP Server Feature List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8368"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureSettings.Page.al",
+        "status": "added",
+        "key": "page/8369",
+        "type": "page",
+        "id": 8369,
+        "name": "MCP Server Feature Settings",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8369"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPSystemToolList.Page.al",
+        "status": "modified",
+        "key": "page/8365",
+        "type": "page",
+        "id": 8365,
+        "name": "MCP System Tool List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8365"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPToolsByAPIGroup.Page.al",
+        "status": "modified",
+        "key": "page/8354",
+        "type": "page",
+        "id": 8354,
+        "name": "MCP Tools By API Group",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8354"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPAPIObjectBuffer.Table.al",
+        "status": "added",
+        "key": "table/8357",
+        "type": "table",
+        "id": 8357,
+        "name": "MCP API Object Buffer",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8357"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPServerFeature.Table.al",
+        "status": "added",
+        "key": "table/8355",
+        "type": "table",
+        "id": 8355,
+        "name": "MCP Server Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8355"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPSystemTool.Table.al",
+        "status": "modified",
+        "key": "table/8353",
+        "type": "table",
+        "id": 8353,
+        "name": "MCP System Tool",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8353"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount",
   "url": "https://github.com/microsoft/BCApps/pull/9648",
   "published_at": "2026-07-28T02:01:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:33.253Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:41.549Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003342
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:41.825Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:41.830Z",
+      "path": "content/changes/bcapps/9648.md"
     }
   },
   "input_hash": "6414b3047027c20025fa3c7efe2593c62cb86c05:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master be peppol there is a problem between the totals on the invoice printout and the xml peppol with payment discount"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04d3b8eeb24db3c080c2467f149d2f2b32991aa8231786021de972d10357e7e9"
 }

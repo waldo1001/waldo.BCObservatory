@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9693,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9693",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T01:46:42Z",
+  "merge_commit_sha": "33e0983d220e0a05873b601a5f5d2ed938e3977a",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Rename email review option 'Only untrusted senders' to 'Manage per sender'",
+  "body_hash": "fb6bb947ad233cbc726c1eca85b7772e360e0aaf2dcd3b0136d55f10014921be",
+  "fixes_issues": [],
+  "work_items": [
+    625413
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PAEmailReviewPolicy.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PAEmailReviewPolicy.Enum.al",
+        "status": "modified",
+        "key": "enum/3305",
+        "type": "enum",
+        "id": 3305,
+        "name": "PA Email Review Policy",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "enum/3305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PayablesAgent"
+  ]
+}

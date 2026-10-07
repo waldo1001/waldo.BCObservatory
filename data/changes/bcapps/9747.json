@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9747,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9747",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T10:07:25Z",
+  "merge_commit_sha": "7adc1b3638a7cf4c1e82e522f70534600fe77b9a",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 641607: Fix misleading error message when disabling Legacy Subcontracting with open WIP purchase orders",
+  "body_hash": "e0b416ce117a100a2c8200c220b9cab71f2df439fd737983a38d485dd0b3da84",
+  "fixes_issues": [],
+  "work_items": [
+    641607
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/SCMLegacySubcontracting.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 51,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99008501",
+        "type": "codeunit",
+        "id": 99008501,
+        "name": "Legacy Subc. Feature Handler",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/99008501-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

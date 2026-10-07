@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8967",
+  "number": 8967,
+  "title": "Ability to archive agents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Agents can now be archived by admins from the Agent List and Card, which disables them and hides them from views while preserving their data and tasks in the database for auditing purposes.",
+  "key_points": [
+    "Adds soft-delete archiving capability for agents via new Archive and IsArchived methods",
+    "Archived agents are disabled, hidden from role center and agent views, but remain in the database as read-only",
+    "Requires confirmation dialog where admin types the agent's display name",
+    "Archiving is one-way with no restore functionality in this iteration",
+    "Adds telemetry logging for archive usage events"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "platform"
+  ],
+  "quote": "Adds admin archiving of agents (soft delete) from the Agent List and Agent Card.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004247,
+    "changes_in_call": 1
+  }
+}

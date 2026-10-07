@@ -6,10 +6,35 @@
   "title": "Add event subscriber for OpenPermissionSetPage",
   "url": "https://github.com/microsoft/BCApps/pull/9599",
   "published_at": "2026-07-28T09:58:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:26.185Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:30.647Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003236
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:30.810Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:30.817Z",
+      "path": "content/changes/bcapps/9599.md"
     }
   },
   "input_hash": "60127ede979389f4ecd0fd7fd603a27d92c496c3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "add event subscriber for openpermissionsetpage"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "520b2327516606365d421b08b87c98e8841a754619f900f01c1420711223d659"
 }

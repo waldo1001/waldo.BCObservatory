@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9734,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9734",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T07:28:43Z",
+  "merge_commit_sha": "a58ff71cf77707eb77fd9924c2239e0afb10d65c",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy",
+  "body_hash": "6d61c2c67112475e09e5a52fe973ba5f480d0c0103e0980144328095ec257892",
+  "fixes_issues": [],
+  "work_items": [
+    644116
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 8,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/254"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/254"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

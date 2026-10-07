@@ -6,10 +6,35 @@
   "title": "Add XRechnung structured format reader for inbound e-documents",
   "url": "https://github.com/microsoft/BCApps/pull/9690",
   "published_at": "2026-07-28T08:46:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:27.512Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:32.757Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003783
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:32.992Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:32.998Z",
+      "path": "content/changes/bcapps/9690.md"
     }
   },
   "input_hash": "4ed1dba354d6c9847f05a7a4d3f4391adb678845:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "add xrechnung structured format reader for inbound e documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf942269906f8edecbdfa165fdfc4e5c594e5ea17d1c55ac4baebed2919caf93"
 }

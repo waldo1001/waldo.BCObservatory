@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8902",
+  "number": 8902,
+  "title": "Bug 639568: Scope Subc. PO component location check to current prod order line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed a false warning when creating subcontracting purchase orders from routing lines on production orders with multiple lines sharing the same routing link code by scoping the component location check to the current line.",
+  "key_points": [
+    "The warning about component locations appeared incorrectly when processing multiple routing lines with the same routing link code",
+    "Root cause was that the component filter checked the production order and routing link code but not the specific production order line number",
+    "Added line number filter to scope the check to only the current production order line being processed",
+    "Test case added to verify the fix handles phantom components from earlier lines correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "added `SetRange(\"Prod. Order Line No.\", ProdOrderRoutingLine.\"Routing Reference No.\")` to scope the check to the line being processed",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00378,
+    "changes_in_call": 1
+  }
+}

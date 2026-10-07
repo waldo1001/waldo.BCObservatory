@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9690,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9690",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T08:46:05Z",
+  "merge_commit_sha": "4ed1dba354d6c9847f05a7a4d3f4391adb678845",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add XRechnung structured format reader for inbound e-documents",
+  "body_hash": "1c0fd014b06464d24904b5093f17f5593a043eecc6f5ee720b18f9036dfb5c5c",
+  "fixes_issues": [],
+  "work_items": [
+    580191
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/EDocumentXRechnungHandler.Codeunit.al",
+      "status": "added",
+      "additions": 343,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungEDocReadIntoDraft.EnumExt.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/.resources/xrechnung/xrechnung-invoice-0.xml",
+      "status": "added",
+      "additions": 166,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/app.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungStructValidations.Codeunit.al",
+      "status": "added",
+      "additions": 111,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungStructuredTests.Codeunit.al",
+      "status": "added",
+      "additions": 288,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 939,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/EDocumentXRechnungHandler.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungEDocReadIntoDraft.EnumExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

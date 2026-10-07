@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9538",
+  "number": 9538,
+  "title": "[main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Req. Worksheet page now correctly displays the intended requisition batch when opened from an approval record, preventing stale batch filters from interfering with the record view.",
+  "key_points": [
+    "Added GetCurrentJnlBatchName() helper to detect when page opens on a specific batch record",
+    "Overrides SaveValues-restored batch value with the record's actual batch when appropriate",
+    "Applies template filter to scope page to the correct worksheet template",
+    "Fixes case where approval record with both batch name and template name would fall through to wrong path",
+    "Prevents stale batch data from affecting the OpenJnl filter"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Open Record shows wrong Requisition Worksheet batch after viewing a different batch",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003912,
+    "changes_in_call": 1
+  }
+}

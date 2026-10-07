@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9599,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9599",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T09:58:52Z",
+  "merge_commit_sha": "60127ede979389f4ecd0fd7fd603a27d92c496c3",
+  "author": "mbaranovych",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add event subscriber for OpenPermissionSetPage",
+  "body_hash": "8bf533ac67f450f4f49162c89ff2102cd6c95931fb42035b64072241ef9ed031",
+  "fixes_issues": [],
+  "work_items": [
+    639731
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Permission Sets/src/PermissionSetCardSubscriber.Codeunit.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Permission Sets/src/permissions/PermissionSetsObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 39,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Permission Sets/src/PermissionSetCardSubscriber.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/9850",
+        "type": "codeunit",
+        "id": 9850,
+        "name": "Permission Set Card Subscriber",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9850"
+      },
+      {
+        "path": "src/System Application/App/Permission Sets/src/permissions/PermissionSetsObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/9862",
+        "type": "permissionset",
+        "id": 9862,
+        "name": "Permission Sets - Objects",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/9862"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

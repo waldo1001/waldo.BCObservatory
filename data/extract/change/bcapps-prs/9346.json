@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9346",
+  "number": 9346,
+  "title": "[master]-Cannot delete Project Planning Line due to incorrect reservation entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Inventory Profile Offsetting codeunit now correctly handles reservation entries when deleting project planning lines, resolving an issue that prevented deletion of planning lines with reservation data.",
+  "key_points": [
+    "Corrects reservation entry handling in the Inventory Profile Offsetting logic",
+    "Allows project planning lines to be deleted without obstruction",
+    "Bug fix in the base application's inventory tracking system",
+    "Includes comprehensive test coverage for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "inventory"
+  ],
+  "quote": "Cannot delete Project Planning Line due to incorrect reservation entries",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003097,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8967,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8967",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T11:32:34Z",
+  "merge_commit_sha": "83c6aace9224605cb5095b020f1bc5b89e24ffcf",
+  "author": "krupybalu",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ability to archive agents",
+  "body_hash": "cbaf09fdd43b1460d9d44dedf58130db9f4ac2d213516f5c61373189807b8fd8",
+  "fixes_issues": [],
+  "work_items": [
+    620767
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AccessControls/ViewAgentPermissions.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/Agent.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentArchiveConfirmation.Page.al",
+      "status": "added",
+      "additions": 76,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentCard.Page.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentList.Page.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentUserSettings.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/Agent/app.json",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/Agent/src/SDK/AgentTaskManagementTest.Codeunit.al",
+      "status": "modified",
+      "additions": 198,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/Agent/src/SDK/AgentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 719,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 12,
+    "additions": 1285,
+    "deletions": 1,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+        "status": "modified",
+        "key": "page/4300",
+        "type": "page",
+        "id": 4300,
+        "name": "Agent Task List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AccessControls/ViewAgentPermissions.Page.al",
+        "status": "modified",
+        "key": "page/4334",
+        "type": "page",
+        "id": 4334,
+        "name": "View Agent Permissions",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4334"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/Agent.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4321",
+        "type": "codeunit",
+        "id": 4321,
+        "name": "Agent",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4321"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentArchiveConfirmation.Page.al",
+        "status": "added",
+        "key": "page/4337",
+        "type": "page",
+        "id": 4337,
+        "name": "Agent Archive Confirmation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4337"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentCard.Page.al",
+        "status": "modified",
+        "key": "page/4315",
+        "type": "page",
+        "id": 4315,
+        "name": "Agent Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4315"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4301",
+        "type": "codeunit",
+        "id": 4301,
+        "name": "Agent Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4301"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentList.Page.al",
+        "status": "modified",
+        "key": "page/4316",
+        "type": "page",
+        "id": 4316,
+        "name": "Agent List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4316"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentUserSettings.Page.al",
+        "status": "modified",
+        "key": "page/4317",
+        "type": "page",
+        "id": 4317,
+        "name": "Agent User Settings",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4317"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

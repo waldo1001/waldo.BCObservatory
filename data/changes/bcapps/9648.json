@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9648,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9648",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T02:01:09Z",
+  "merge_commit_sha": "6414b3047027c20025fa3c7efe2593c62cb86c05",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount",
+  "body_hash": "3c0cbf191b03ff17421afa27c10caf5aab9249486939427f258e3d78833748f8",
+  "fixes_issues": [],
+  "work_items": [
+    643204
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BETaxInfo.Codeunit.al",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30FormatBE.EnumExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/Test/src/PEPPOL30BEPmtDiscountTests.Codeunit.al",
+      "status": "added",
+      "additions": 240,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 334,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BETaxInfo.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30FormatBE.EnumExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

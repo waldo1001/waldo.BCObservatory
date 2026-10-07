@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9734",
+  "number": 9734,
+  "title": "[Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A performance issue with VAT advance return and VAT statement calculations in German environments is addressed by adding keys to the VAT Entry table.",
+  "key_points": [
+    "Keys added to VAT Entry table in both CH (Swiss) and DACH (German) layers",
+    "Improves query performance for VAT statement calculations",
+    "Targets German localization environments",
+    "No behavior changes for users or extensions"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002942,
+    "changes_in_call": 1
+  }
+}

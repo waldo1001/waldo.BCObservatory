@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9693",
+  "number": 9693,
+  "title": "Rename email review option 'Only untrusted senders' to 'Manage per sender'",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent email review policy option 'Only untrusted senders' is renamed to 'Manage per sender' to better reflect its functionality.",
+  "key_points": [
+    "Enum option caption changed from 'Only untrusted senders (recommended)' to 'Manage per sender (recommended)'",
+    "Affects the PA Email Review Policy enum in Payables Agent",
+    "Improves clarity of email review policy naming"
+  ],
+  "change_kind": "other",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003417,
+    "changes_in_call": 1
+  }
+}

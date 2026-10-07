@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Bug 641607: Fix misleading error message when disabling Legacy Subcontracting with open WIP purchase orders",
   "url": "https://github.com/microsoft/BCApps/pull/9747",
   "published_at": "2026-07-28T10:07:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:26.692Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:31.606Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003915
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:31.782Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:31.788Z",
+      "path": "content/changes/bcapps/9747.md"
     }
   },
   "input_hash": "7adc1b3638a7cf4c1e82e522f70534600fe77b9a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 641607 fix misleading error message when disabling legacy subcontracting with open wip purchase orders"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "733535fff5f736e103e5f67173df8268511b6d713017a7e469cb30113305c1b3"
 }

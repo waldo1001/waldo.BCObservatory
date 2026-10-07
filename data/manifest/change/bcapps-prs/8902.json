@@ -6,10 +6,35 @@
   "title": "Bug 639568: Scope Subc. PO component location check to current prod order line",
   "url": "https://github.com/microsoft/BCApps/pull/8902",
   "published_at": "2026-07-28T11:32:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:25.038Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:30.182Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00378
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:30.367Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:30.372Z",
+      "path": "content/changes/bcapps/8902.md"
     }
   },
   "input_hash": "7b29c0b65f7b9cf7d113119e949e34c42cbadf3a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 639568 scope subc po component location check to current prod order line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ec3e38d544a2779a796da08085c7c9cfeaea2bce06d716d7edf18b3095d127d"
 }

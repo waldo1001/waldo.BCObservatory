@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9719",
+  "number": 9719,
+  "title": "[main] bug 643971 - Implement checks for blocked customers and vendors in advance letters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Advance letter headers now validate that customers and vendors are not blocked or privacy-blocked, preventing creation and posting of advance letters for blocked parties.",
+  "key_points": [
+    "Added validation checks when setting vendor/customer on advance letter headers",
+    "Blocks posting of advance letter payments if the vendor or customer is blocked or privacy-blocked",
+    "Covers both purchase and sales advance letters with matching block types (Payment for vendors; Ship/Invoice for customers)",
+    "Includes 14 tests covering all blocking scenarios for both purchase and sales advance letters",
+    "Existing advance letters with blocked parties will fail on subsequent posting operations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004544,
+    "changes_in_call": 1
+  }
+}

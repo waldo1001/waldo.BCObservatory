@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9747",
+  "number": 9747,
+  "title": "[Subcontracting] Bug 641607: Fix misleading error message when disabling Legacy Subcontracting with open WIP purchase orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed the error message when disabling Legacy Subcontracting to correctly state that only purchase orders with WIP Items block the operation, not all subcontracting purchase orders.",
+  "key_points": [
+    "Error message now accurately reflects the actual filter condition that checks only WIP Items",
+    "Wording aligned with the sibling transfer order error message for consistency",
+    "Added test scenario to verify the corrected error message wording",
+    "No changes to the underlying business logic or filtering condition",
+    "Ensures users see accurate messaging about what prevents disabling Legacy Subcontracting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003915,
+    "changes_in_call": 1
+  }
+}

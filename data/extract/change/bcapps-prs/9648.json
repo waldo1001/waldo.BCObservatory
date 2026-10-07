@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9648",
+  "number": 9648,
+  "title": "[master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed discrepancy between invoice printout and PEPPOL XML totals in Belgium when payment discounts are applied by correcting how taxable amounts are calculated.",
+  "key_points": [
+    "Added PEPPOL tax calculation logic for Belgian payment discount handling",
+    "Created test codeunit to verify payment discount calculations",
+    "Extended PEPPOL format enumeration for new calculation type",
+    "Ensures taxable amount is correctly computed as total minus discount percentage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003342,
+    "changes_in_call": 1
+  }
+}

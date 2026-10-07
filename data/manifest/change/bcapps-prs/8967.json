@@ -6,10 +6,35 @@
   "title": "Ability to archive agents",
   "url": "https://github.com/microsoft/BCApps/pull/8967",
   "published_at": "2026-07-28T11:32:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:24.451Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:29.681Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004247
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:29.837Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:29.844Z",
+      "path": "content/changes/bcapps/8967.md"
     }
   },
   "input_hash": "83c6aace9224605cb5095b020f1bc5b89e24ffcf:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ability to archive agents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "29afcf9b007fe3b511d30931e8001baa806ccb645b972994bc05297985df58fe"
 }

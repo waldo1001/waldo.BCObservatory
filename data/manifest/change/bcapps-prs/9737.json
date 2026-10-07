@@ -6,10 +6,35 @@
   "title": "[E-Document] Move Data Exchange definitions from labels to app resource files",
   "url": "https://github.com/microsoft/BCApps/pull/9737",
   "published_at": "2026-07-28T08:43:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:27.946Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:35.456Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.006828
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:35.647Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:35.653Z",
+      "path": "content/changes/bcapps/9737.md"
     }
   },
   "input_hash": "12672d75e6b6d39525afbb04cc12d315c7c9ac20:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document move data exchange definitions from labels to app resource files"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ddc92520b500cfbbad1209fa7e9d566a9155d600e10390632a894995cd507589"
 }
