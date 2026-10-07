@@ -6,10 +6,35 @@
   "title": "[main] bug 646167 - Enhance VIES Declaration pages: update option captions for declaration types",
   "url": "https://github.com/microsoft/BCApps/pull/10047",
   "published_at": "2026-08-10T10:07:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:24.815Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:29.943Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003913
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:30.138Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:30.144Z",
+      "path": "content/changes/bcapps/10047.md"
     }
   },
   "input_hash": "8cf155b62746e2f4fe68003830986b493ee4bac2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 646167 enhance vies declaration pages update option captions for declaration types"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d031aa156c86ee2ec40a919ce0d968987ecb5138e78d4f1ccf5bcd177dc7315"
 }

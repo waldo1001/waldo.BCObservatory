@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10007",
+  "number": 10007,
+  "title": "[SOA] Ignore item availability when disabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now ignores item availability signals when availability checking is disabled in settings, while still requesting assistance when no item is found.",
+  "key_points": [
+    "Adds prompt instruction to skip availability checks when feature is disabled",
+    "Excludes availability and capable-to-promise instructions from generated prompts when disabled",
+    "Hides and neutralizes availability values on the item search page for agent sessions when setting is off",
+    "Failed item searches still escalate to request assistance regardless of availability setting"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "add a disabled-state prompt instruction that tells the agent to ignore item availability signals",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003276,
+    "changes_in_call": 1
+  }
+}

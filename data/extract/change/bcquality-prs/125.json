@@ -1,0 +1,28 @@
+{
+  "item_id": "change/bcquality-prs/125",
+  "number": 125,
+  "title": "knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Three data-modeling knowledge articles with executable tests clarify cascading delete behavior, TableRelation validation effects on rename propagation, and xRec before-image availability across different triggers.",
+  "key_points": [
+    "Owning tables must delete dependent records manually since AL lacks cascading delete, and delete permissions are required on dependent tables",
+    "Setting ValidateTableRelation to false suppresses rename propagation, not just input validation",
+    "xRec is a true before-image only in OnRename and OnDelete, or in OnInsert/OnModify when triggered from a page, but reflects current Rec when those triggers fire from code"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004087,
+    "changes_in_call": 1
+  }
+}

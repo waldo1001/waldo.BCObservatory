@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10047,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10047",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T10:07:12Z",
+  "merge_commit_sha": "8cf155b62746e2f4fe68003830986b493ee4bac2",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 646167 - Enhance VIES Declaration pages: update option captions for declaration types",
+  "body_hash": "63632c84fd2389d0896fc72cdc2713aae76dc8b240a2da27a9c9374f8381a448",
+  "fixes_issues": [],
+  "work_items": [
+    646167
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/VIESDeclarationHeaderCZL.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/VIESDeclarationHeaderCZL.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

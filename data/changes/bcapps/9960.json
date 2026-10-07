@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9960,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9960",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T21:06:04Z",
+  "merge_commit_sha": "c500a533b7fce2dd8278f088aae6446a94bd8a4a",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "request-for-external"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30396: expose sales document lookup",
+  "body_hash": "58a2a5cb5fb350bd2a0293b05b74a41b42b0a97f692ba33bbd25f825aa931a55",
+  "fixes_issues": [],
+  "work_items": [
+    645112
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/CopySalesDocument.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/CopySalesDocument.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 2,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/CopySalesDocument.Report.al",
+        "status": "modified",
+        "key": "report/292",
+        "type": "report",
+        "id": 292,
+        "name": "Copy Sales Document",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/292"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/CopySalesDocument.Report.al",
+        "status": "modified",
+        "key": "report/292",
+        "type": "report",
+        "id": 292,
+        "name": "Copy Sales Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/292"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

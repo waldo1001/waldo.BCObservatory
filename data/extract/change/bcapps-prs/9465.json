@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9465",
+  "number": 9465,
+  "title": "[Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking and optionally modify the Item Tracking Code before standard validation runs.",
+  "key_points": [
+    "New integration event published at the start of TestFirstApplyItemLedgerEntryTracking procedure",
+    "Allows extensions to raise clearer, document-specific tracking validation errors",
+    "Item Tracking Code parameter is passed by var so subscribers can adjust it",
+    "Enables conditional skipping of lot checking in specific scenarios",
+    "Added across all localization layers: W1, CH, ES, IT, RU, and APAC"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

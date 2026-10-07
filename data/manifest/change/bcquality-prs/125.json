@@ -6,10 +6,35 @@
   "title": "knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract",
   "url": "https://github.com/microsoft/BCQuality/pull/125",
   "published_at": "2026-08-10T11:11:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:24.208Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 0,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:29.816Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004087
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:29.818Z",
+      "objects": 0,
+      "unjoined": 9,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:12:29.822Z",
+      "path": "content/changes/bcquality/125.md"
     }
   },
   "input_hash": "a58b23d0f905740a1464ef908bc36921c26f1fad:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge data modeling tablerelation delete rename asymmetry and the xrec before image contract"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "97a069be7974e6aade2ebfc73318e8adad5fa88f9a95cfc01b28e7e2e682ff0c"
 }

@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9912,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9912",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T19:45:03Z",
+  "merge_commit_sha": "a094f1efc5d03a335a679ad25225dbcb623e495e",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep",
+  "body_hash": "c7e22f3958d31b5396463212ce62395190f5e460c76709d2e34df58bb9cbc51e",
+  "fixes_issues": [],
+  "work_items": [
+    638735
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/US/IRSForms/app/src/Setup/IRSFormsInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/IRSForms/test/src/IRSFormsAssistedSetupTests.Codeunit.al",
+      "status": "added",
+      "additions": 172,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 198,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/US/IRSForms/app/src/Setup/IRSFormsInstall.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

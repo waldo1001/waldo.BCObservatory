@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10032",
+  "number": 10032,
+  "title": "Fix Agent List and Agent Task List filter and refresh issues (AB#646062)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Fixed filter visibility and refresh issues on Agent List and Agent Task List pages by moving system-managed filters from the user-owned filter group to the server-owned filter group, and updated the Archive action guard to re-read the agent state from the database instead of relying on cached page data.",
+  "key_points": [
+    "Moved Agent List toggle filters (Show all agents, Show agents for all companies) from filter group 0 to group 2 so they properly control the result set",
+    "Fixed Archive action guard on Agent List to call Agent.IsActive instead of reading cached Rec.State, ensuring it reflects the current database value",
+    "Modified Agent Task List to skip the archived agent substate filter when opened for a specific agent, preventing empty lists when viewing tasks for an archived agent",
+    "Moved Agent Task List toggle filter (Show tasks from all agents) to filter group 2 for proper effect",
+    "System-managed filters are now invisible and non-removable in the filter pane, with toggles as the only control method"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005076,
+    "changes_in_call": 1
+  }
+}

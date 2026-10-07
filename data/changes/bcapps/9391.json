@@ -1,0 +1,871 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9391,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9391",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T11:14:23Z",
+  "merge_commit_sha": "6873ccd9e13550adee6d0c17c283d5fc306b5046",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸",
+  "body_hash": "da1dd63dd7403cdebb27b72afe0cbc3260b4cb4ccb93e0197c5efd89a0f0654c",
+  "fixes_issues": [],
+  "work_items": [
+    616928
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpReportLinesAPI.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpenseReportsAPI.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestDetailsAPI.Page.al",
+      "status": "added",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestsAPI.Page.al",
+      "status": "added",
+      "additions": 169,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelersAPI.Page.al",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+      "status": "added",
+      "additions": 215,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequestCard.PageExt.al",
+      "status": "added",
+      "additions": 127,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequestList.PageExt.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Spend Request/Pages/Travelers.Page.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Spend Request/Tables/Traveler.Table.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "added",
+      "additions": 959,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/ReleaseSpendRequest.Codeunit.al",
+      "status": "added",
+      "additions": 183,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendReqToGLLinkPreview.Page.al",
+      "status": "added",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+      "status": "modified",
+      "additions": 127,
+      "deletions": 103,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+      "status": "modified",
+      "additions": 84,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestType.Enum.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/SpendRequestTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 61,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 50,
+    "additions": 2872,
+    "deletions": 219,
+    "al": 46
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6929",
+        "type": "page",
+        "id": 6929,
+        "name": "Expense Report Lines API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6929"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+        "status": "modified",
+        "key": "page/6928",
+        "type": "page",
+        "id": 6928,
+        "name": "Expense Reports API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6928"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpReportLinesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6913",
+        "type": "page",
+        "id": 6913,
+        "name": "Posted Exp. Report Lines API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6913"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpenseReportsAPI.Page.al",
+        "status": "modified",
+        "key": "page/6957",
+        "type": "page",
+        "id": 6957,
+        "name": "Posted Expense Reports API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6957"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestDetailsAPI.Page.al",
+        "status": "added",
+        "key": "page/7102",
+        "type": "page",
+        "id": 7102,
+        "name": "Spend Request Details API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7102"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/SpendRequestsAPI.Page.al",
+        "status": "added",
+        "key": "page/7099",
+        "type": "page",
+        "id": 7099,
+        "name": "Spend Requests API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7099"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelersAPI.Page.al",
+        "status": "added",
+        "key": "page/7103",
+        "type": "page",
+        "id": 7103,
+        "name": "Travelers API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7103"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6908",
+        "type": "tableextension",
+        "id": 6908,
+        "name": "Expense Spend Request",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequestCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6902",
+        "type": "pageextension",
+        "id": 6902,
+        "name": "Expense Spend Request Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "pageextension/6902"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequestList.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6903",
+        "type": "pageextension",
+        "id": 6903,
+        "name": "Expense Spend Request List",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "pageextension/6903"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+        "status": "modified",
+        "key": "page/6999",
+        "type": "page",
+        "id": 6999,
+        "name": "Expense Report SubPage",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6999"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6998",
+        "type": "page",
+        "id": 6998,
+        "name": "Posted Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6998"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+        "status": "modified",
+        "key": "page/6993",
+        "type": "page",
+        "id": 6993,
+        "name": "Posted Expense Report SubP.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6993"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6915",
+        "type": "table",
+        "id": 6915,
+        "name": "Posted Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6915"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6952",
+        "type": "permissionset",
+        "id": 6952,
+        "name": "Expense Agent - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6906",
+        "type": "permissionset",
+        "id": 6906,
+        "name": "Expense Mgmt. Edit",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6907",
+        "type": "permissionset",
+        "id": 6907,
+        "name": "Expense Mgmt. Read",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6950",
+        "type": "codeunit",
+        "id": 6950,
+        "name": "Expense Agent Privacy Subs.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6950"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6908",
+        "type": "codeunit",
+        "id": 6908,
+        "name": "Expense Event Subscriber",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6908"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20",
+        "type": "codeunit",
+        "id": 20,
+        "name": "Posting Preview Event Handler",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/20"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20",
+        "type": "codeunit",
+        "id": 20,
+        "name": "Posting Preview Event Handler",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/20"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20",
+        "type": "codeunit",
+        "id": 20,
+        "name": "Posting Preview Event Handler",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/20"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/ReleaseSpendRequest.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6840",
+        "type": "codeunit",
+        "id": 6840,
+        "name": "Release Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendReqToGLLinkPreview.Page.al",
+        "status": "added",
+        "key": "page/6844",
+        "type": "page",
+        "id": 6844,
+        "name": "Spend Req. To G/L Link Preview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6844"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+        "status": "modified",
+        "key": "table/6840",
+        "type": "table",
+        "id": 6840,
+        "name": "Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+        "status": "modified",
+        "key": "page/6841",
+        "type": "page",
+        "id": 6841,
+        "name": "Spend Request Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+        "status": "modified",
+        "key": "table/6841",
+        "type": "table",
+        "id": 6841,
+        "name": "Spend Request Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+        "status": "modified",
+        "key": "report/6850",
+        "type": "report",
+        "id": 6850,
+        "name": "Spend Request Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6850"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+        "status": "modified",
+        "key": "page/6840",
+        "type": "page",
+        "id": 6840,
+        "name": "Spend Request List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6840"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Spend Request/Pages/Travelers.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Spend Request/Tables/Traveler.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestType.Enum.al",
+        "status": "removed",
+        "reason": "removed"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "ExpenseAgent"
+  ]
+}

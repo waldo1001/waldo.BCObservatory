@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9960",
+  "number": 9960,
+  "title": "[Extensibility Request] issue 30396: expose sales document lookup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The lookup procedure in the Copy Sales Document report is now public, allowing report extensions to reuse the standard sales document selection logic without duplication.",
+  "key_points": [
+    "LookupSalesDoc procedure made public in Copy Sales Document report",
+    "Extensions can now invoke standard sales document lookup directly",
+    "Preserves all existing lookup behavior and filters",
+    "Change applied to both W1 and APAC layers",
+    "Eliminates need for extensions to duplicate lookup logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "quote": "Extensions with custom source document types need to reuse the standard sales document lookup instead of duplicating its filters and selection behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003189,
+    "changes_in_call": 1
+  }
+}

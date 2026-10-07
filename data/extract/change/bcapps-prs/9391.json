@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9391",
+  "number": 9391,
+  "title": "[Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Expense Management app adds travel requisition support through new API pages for spend requests and travelers, extends spend request card and list with expense-related fields, and refactors spend request functionality with new posting and preview capabilities.",
+  "key_points": [
+    "New API pages expose Spend Requests, Spend Request Details, and Travelers data for agent integration",
+    "Spend Request table and pages extended with Expense Management fields and functionality",
+    "Release Spend Request codeunit created to manage spend request posting workflow",
+    "Spend request preview page added for G/L link validation before posting",
+    "Removed SpendRequestType enum and migrated related logic to new structures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010515,
+    "changes_in_call": 1
+  }
+}

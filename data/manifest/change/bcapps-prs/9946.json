@@ -6,10 +6,35 @@
   "title": "Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)",
   "url": "https://github.com/microsoft/BCApps/pull/9946",
   "published_at": "2026-08-10T10:04:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:28.488Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:33.730Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004029
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:33.880Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:33.886Z",
+      "path": "content/changes/bcapps/9946.md"
     }
   },
   "input_hash": "66f259e9e63c916ea89f3a554efaa08e8fb5e110:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix retrieve users overwriting existing users custom role center ab 641534"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1815b230aac7683a28dedf0a6a7253f1430b5647d1c09d4499e3d5dd9e7fc79c"
 }

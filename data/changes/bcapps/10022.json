@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10022,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10022",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-08T07:06:19Z",
+  "merge_commit_sha": "7b81f11d7ccea27bf118fc05e679bd180221979a",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Known senders table should only be inserted to when the task is coming from an email",
+  "body_hash": "849b068e9091924c8d8ac35a8d7beefaf601209eb7b4f93971c5d91e6be286f9",
+  "fixes_issues": [],
+  "work_items": [
+    646072
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Integration/PAKnownSender.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Integration/PAKnownSender.Table.al",
+        "status": "modified",
+        "key": "table/3308",
+        "type": "table",
+        "id": 3308,
+        "name": "PA Known Sender",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "table/3308"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PayablesAgent"
+  ]
+}

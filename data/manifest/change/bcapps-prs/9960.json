@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30396: expose sales document lookup",
   "url": "https://github.com/microsoft/BCApps/pull/9960",
   "published_at": "2026-08-10T21:06:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:22.450Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:27.125Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003189
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:27.270Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:27.275Z",
+      "path": "content/changes/bcapps/9960.md"
     }
   },
   "input_hash": "c500a533b7fce2dd8278f088aae6446a94bd8a4a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30396 expose sales document lookup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1be79e8cdad189352196b5877d9f3818678042b672c510e52afacdd577fbb37d"
 }

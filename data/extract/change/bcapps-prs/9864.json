@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9864",
+  "number": 9864,
+  "title": "[Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "An OnBeforeTestTransferLine integration event was added to the TestTransferLine procedure on the Transfer Header table, enabling extensions to observe or extend transfer line testing logic.",
+  "key_points": [
+    "New OnBeforeTestTransferLine event fires at the start of TestTransferLine procedure",
+    "Allows add-on developers to hook into transfer line validation logic",
+    "Event added to W1 and all regional layers (RU, NA, IT)",
+    "Follows standard naming convention for before-events",
+    "Enables custom scenarios for transfer line item tracking checks"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003389,
+    "changes_in_call": 1
+  }
+}

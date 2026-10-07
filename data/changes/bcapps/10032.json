@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10032,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10032",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-08T00:14:43Z",
+  "merge_commit_sha": "169a3a477091eb7b20259bb299539485d25144af",
+  "author": "krupybalu",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Agent List and Agent Task List filter and refresh issues (AB#646062)",
+  "body_hash": "f96ffeef6cce1b29a09e5312fcad5b36acb063c2dc99f8269e91b1438f4bda34",
+  "fixes_issues": [],
+  "work_items": [
+    646062
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentList.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 8,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+        "status": "modified",
+        "key": "page/4300",
+        "type": "page",
+        "id": 4300,
+        "name": "Agent Task List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentList.Page.al",
+        "status": "modified",
+        "key": "page/4316",
+        "type": "page",
+        "id": 4316,
+        "name": "Agent List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4316"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

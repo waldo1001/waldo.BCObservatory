@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10086",
+  "number": 10086,
+  "title": "Make AA0194 an error in the base ruleset",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "AA0194 code analysis rule is now enforced as an error instead of a warning in the base application ruleset, requiring all actions to have either an OnAction trigger or RunObject property.",
+  "key_points": [
+    "AA0194 rule severity raised from warning to error in base ruleset",
+    "Requires all actions to specify OnAction trigger or RunObject property",
+    "Several pages were updated to comply with the stricter rule",
+    "Removes override configuration from ruleset file",
+    "Affects Finance VAT reporting pages and other modules"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003701,
+    "changes_in_call": 1
+  }
+}

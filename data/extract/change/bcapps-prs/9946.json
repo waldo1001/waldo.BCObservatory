@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9946",
+  "number": 9946,
+  "title": "Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Fixed a regression where Retrieve Users silently overwrote all existing users' custom Role Centers to Business Manager. The fix preserves existing users' Role Center customizations while still assigning the plan default to newly created users.",
+  "key_points": [
+    "Removed the overwrite logic that reset existing users' Profile ID when the plan's Role Center was Business Manager",
+    "New users still receive the default Role Center from their assigned plan",
+    "Removed the dead `IsFiltered` plumbing that was gating the overwrite behavior",
+    "Added regression test to ensure custom Role Centers are preserved during user access updates",
+    "Behavior-narrowing fix with low risk that restores user customization preservation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004029,
+    "changes_in_call": 1
+  }
+}

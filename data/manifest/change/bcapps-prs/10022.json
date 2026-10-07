@@ -6,10 +6,18 @@
   "title": "Known senders table should only be inserted to when the task is coming from an email",
   "url": "https://github.com/microsoft/BCApps/pull/10022",
   "published_at": "2026-08-08T07:06:19Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:31.175Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "7b81f11d7ccea27bf118fc05e679bd180221979a:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "known senders table should only be inserted to when the task is coming from an email"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b81efcecee2246b52576467b55584781352a314279eb19c9cdb40be3f03c8267"
 }

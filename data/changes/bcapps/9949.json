@@ -1,0 +1,143 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9949,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9949",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T09:49:26Z",
+  "merge_commit_sha": "1841a18dd7c39bc8b9c58ebad4e7938ce3df9145",
+  "author": "v-mortenr",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 645022] UI improvements for report themes and header/footers (composite layout)",
+  "body_hash": "167780cce53a7a3b41c95564fd13fb46bc2754f5c3818420fb1084e7b3407305",
+  "fixes_issues": [],
+  "work_items": [
+    645022
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/NewReportThemeHeaderFooter.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportThemeandHeaderFooter.Page.al",
+      "status": "modified",
+      "additions": 127,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/TenantReportLayoutCfg.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/CompositeLayoutTests.Codeunit.al",
+      "status": "modified",
+      "additions": 130,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 311,
+    "deletions": 6,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/NewReportThemeHeaderFooter.Page.al",
+        "status": "modified",
+        "key": "page/9668",
+        "type": "page",
+        "id": 9668,
+        "name": "New Report Theme Header/Footer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9668"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+        "status": "modified",
+        "key": "page/9660",
+        "type": "page",
+        "id": 9660,
+        "name": "Report Layouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9660"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9660",
+        "type": "codeunit",
+        "id": 9660,
+        "name": "Report Layouts Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9660"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportThemeandHeaderFooter.Page.al",
+        "status": "modified",
+        "key": "page/9666",
+        "type": "page",
+        "id": 9666,
+        "name": "Report Theme and Header/Footer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9666"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/TenantReportLayoutCfg.Page.al",
+        "status": "modified",
+        "key": "page/9663",
+        "type": "page",
+        "id": 9663,
+        "name": "Tenant Report Layout Cfg",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9663"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

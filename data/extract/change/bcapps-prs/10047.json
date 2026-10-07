@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10047",
+  "number": 10047,
+  "title": "[main] bug 646167 - Enhance VIES Declaration pages: update option captions for declaration types",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "VIES Declaration validation for declaration types is extracted into a dedicated procedure with an integration event, allowing localization partners to customize the handling of Corrective-Supplementary declarations through event subscription.",
+  "key_points": [
+    "Validation logic moved from OnValidate trigger to CheckDeclarationType() procedure",
+    "OnBeforeCheckDeclarationType integration event introduced with IsHandled pattern for extensibility",
+    "SK localization can now override Corrective-Supplementary blocking without base app modifications",
+    "Consistent validation applied to both field and Export() action",
+    "CZ behavior unchanged; non-breaking refactor that enables customization"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "By extracting the validation into a procedure with an integration event, SK localization can subscribe to OnBeforeCheckDeclarationType and set IsHandled := true",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003913,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 125,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/125",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-10T11:11:38Z",
+  "merge_commit_sha": "a58b23d0f905740a1464ef908bc36921c26f1fad",
+  "author": "StefanMaron",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract",
+  "body_hash": "c64a3e66091b69e161734cd4934f5fc8593dd5302527f93de9062f4863e55a8c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.bad.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.good.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.bad.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.good.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.bad.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.good.al",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 412,
+    "deletions": 0,
+    "al": 9
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

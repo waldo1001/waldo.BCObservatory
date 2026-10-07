@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸",
   "url": "https://github.com/microsoft/BCApps/pull/9391",
   "published_at": "2026-08-10T11:14:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:23.690Z",
+      "change_class": "code",
+      "files": 50,
+      "al": 46,
+      "objects": 40,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:30.150Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010515
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:30.374Z",
+      "objects": 40,
+      "unjoined": 6,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:30.386Z",
+      "path": "content/changes/bcapps/9391.md"
     }
   },
   "input_hash": "6873ccd9e13550adee6d0c17c283d5fc306b5046:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 616928 expense management app part expense managements travel requisitions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90a7e7a6bda379b1c7dbc87977b1ad953ac02f6ad727cb740dac807a8e898281"
 }

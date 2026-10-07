@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9946,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9946",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T10:04:22Z",
+  "merge_commit_sha": "66f259e9e63c916ea89f3a554efaa08e8fb5e110",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)",
+  "body_hash": "a67f52f120eba743da31ec1124f9f40221fa121733ed8c363a1025b78e7727cc",
+  "fixes_issues": [],
+  "work_items": [
+    641534
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PermissionSets/PermissionManager.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/UserAccessinSaaSTests.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 67,
+    "deletions": 27,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PermissionSets/PermissionManager.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9002",
+        "type": "codeunit",
+        "id": 9002,
+        "name": "Permission Manager",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9002"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

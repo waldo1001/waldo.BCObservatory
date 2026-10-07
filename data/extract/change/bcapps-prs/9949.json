@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9949",
+  "number": 9949,
+  "title": "[Bug 645022] UI improvements for report themes and header/footers (composite layout)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "development"
+  ],
+  "summary": "Report layout administration pages now decode composite layout references, add description fields, and provide actions to replace layout files, edit descriptions, and view usage information. Changes are display-only with no schema or data impact.",
+  "key_points": [
+    "Tenant Report Layout Configuration page decodes composite layout names from raw platform format to plain names",
+    "Report Theme and Header/Footer page gains Description column, Replace, Edit description, and Show info line-level actions",
+    "New Report Theme Header/Footer page includes a Description field when creating parts",
+    "Report Layouts page restricts composite layout actions to Word layouts only",
+    "All changes use existing underlying methods with no breaking modifications"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": "UI improvements for the composite-layout (Document Report Experience) theme and header/footer administration, plus fixes for the automated review feedback.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004449,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep",
   "url": "https://github.com/microsoft/BCApps/pull/9912",
   "published_at": "2026-08-07T19:45:03Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:32.046Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "a094f1efc5d03a335a679ad25225dbcb623e495e:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "restore the irs forms assisted setup registration removed by the clean25 sweep"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee864c11362c0a2351a8743bba21eb6f44dc8e141a7b5a0ffcf9cefa22b6d2c4"
 }
