@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/",
   "published_at": "2026-03-04T16:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:17.346Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-claude-code-standalone-docker-sandbox--cc7ff659fa.md",
+      "words": 1742
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:17.368Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:17.369Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:17.370Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:17.376Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-claude-code-standalone-docker-sandbox--cc7ff659fa.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a008c736e137eb0d987090241a5748ce2a02cb56246eeed9cf94f900d3587b60"
 }

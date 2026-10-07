@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
+  "url": "https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
+  "title": "Optimizing BC Code History Downloads with HTTP Range Requests",
+  "source": "stefanmaron-com",
+  "published_at": "2026-02-27T06:00:00.000Z",
+  "words": 1948,
+  "summary": "Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures in PowerShell scripts and implementing HTTP Range requests to reduce bandwidth usage from 800MB-2GB+ per country artifact to roughly 120MB, cutting cumulative compute time by 86% across 50 parallel countries.",
+  "key_points": [
+    "Silent error suppression ($ErrorActionPreference = \"SilentlyContinue\") masked multiple bugs including expression parsing, null array indexing, and incorrect git commit patterns that were causing re-processing and duplicates.",
+    "ZIP files store a central directory at the end, enabling selective downloads via HTTP Range requests: download only the 64KB header to find the Applications folder location, then download just that byte range instead of the entire 800MB-2GB file.",
+    "Range request approach reduced download time from 18 seconds to 1 second per country (88% bandwidth savings) and total cumulative compute time from nearly 12 days to 38 hours daily across two workflows running 50 countries in parallel.",
+    "Implementation uses Python standard library only (struct, zlib, tempfile) for ZIP parsing and selective extraction in-memory, with PowerShell orchestration and curl for HTTP, with automatic fallback to full download if range approach fails.",
+    "Additional optimizations included targeted git fetch (only needed branches instead of --all) and cleanup of 196 obsolete vNext branches, enabling daily processing of hotfix-heavy sandbox artifacts across roughly 50 countries."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "github actions",
+    "code history",
+    "performance optimization",
+    "powershell scripting",
+    "http range requests",
+    "zip file parsing",
+    "ci/cd pipeline"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "MSDyn365BC.Sandbox.Code.History"
+    },
+    {
+      "type": "other",
+      "name": "MSDyn365BC.Code.History"
+    },
+    {
+      "type": "other",
+      "name": "Auto_load_versions.ps1"
+    },
+    {
+      "type": "other",
+      "name": "Auto_load_versions_vNext.ps1"
+    },
+    {
+      "type": "other",
+      "name": "download_range_helper.py"
+    },
+    {
+      "type": "other",
+      "name": "Download-ApplicationsRange.ps1"
+    }
+  ],
+  "features": [
+    "HTTP Range request optimization",
+    "ZIP central directory parsing",
+    "GitHub Actions matrix parallelization",
+    "PowerShell error handling",
+    "Git workflow automation",
+    "Bandwidth reduction",
+    "In-memory decompression",
+    "Selective artifact extraction"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The error suppression had been papering over null references, parsing bugs, missing folder handling, and incorrect commit patterns - all at once.",
+      "why_it_matters": "Demonstrates how silent error handling can hide systemic problems in automation scripts, requiring explicit error checking to reveal cascading issues."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

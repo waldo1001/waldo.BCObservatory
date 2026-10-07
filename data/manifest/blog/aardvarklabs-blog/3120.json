@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/02/27/understanding-dimension-set-id-in-al-for-business-central/",
   "published_at": "2026-02-27T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:18.152Z",
+      "path": "vault:posts/aardvarklabs-blog/3120.md",
+      "words": 688
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:18.165Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:18.166Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:18.169Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:18.174Z",
+      "path": "content/posts/aardvarklabs-blog/3120.md"
     }
   },
   "input_hash": "2026-02-25T00:17:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "99ebff4340dafeca44797b3483e423396d13c492ba0e93686a24118f5dd6a28b"
 }

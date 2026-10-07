@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/introducing-alcops/",
   "published_at": "2026-02-27T17:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:18.121Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md",
+      "words": 1542
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:18.133Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:18.135Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:18.136Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:18.142Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95b811ecdaf8c5151ed1d4318d8c9f637bd8d3858c753858e2a7d5561297cc3f"
 }

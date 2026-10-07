@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/03/introducing-al-table-visualizer-an-interactive-er-diagram-for-your-business-central-tables/",
   "published_at": "2026-03-02T09:30:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:17.606Z",
+      "path": "vault:posts/thinkaboutit-be/7609.md",
+      "words": 843
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:17.617Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:17.618Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:17.619Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:17.626Z",
+      "path": "content/posts/thinkaboutit-be/7609.md"
     }
   },
   "input_hash": "2026-03-02T09:12:29.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "85a18812932de70c252d49426d6123e6897007a6fa26b85be8812c3602ae1899"
 }

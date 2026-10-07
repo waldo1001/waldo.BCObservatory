@@ -1,0 +1,96 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/",
+  "url": "https://stefanmaron.com/posts/introducing-alcops/",
+  "title": "Introducing ALCops — LinterCop's Next Chapter",
+  "source": "stefanmaron-com",
+  "published_at": "2026-02-27T17:00:00.000Z",
+  "words": 1542,
+  "summary": "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers (ApplicationCop, DocumentationCop, FormattingCop, LinterCop, PlatformCop, TestAutomationCop) to address structural limitations including GitHub rate limits, overgrown feature scope, and rule severity constraints. It improves code quality through better rule severity defaults, 30 code fixes, correctness fixes, and distributes via NuGet with MCP server support for AI tooling integration.",
+  "key_points": [
+    "ALCops replaces LinterCop with six domain-specific analyzers instead of one monolithic tool, allowing teams to opt into only the analysis domains they need",
+    "Distributed via NuGet using reflection to support multiple AL versions with minimal DLL duplication (net8.0 for AL 16+ and netstandard2.1 for older versions)",
+    "Includes 30 code fixes (versus LinterCop's 5-6), improved rule descriptions for AI understanding, and correctness fixes that surface previously hidden issues",
+    "Ships an MCP server exposing analyzers to Claude Code and other MCP-compatible clients, with deterministic code fix application rather than LLM interpretation",
+    "LinterCop is deprecated and maintained only through end of 2026 with no new rules or implementation changes planned"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "alcops",
+    "lintercop",
+    "code analysis",
+    "al development",
+    "mcp server",
+    "nuget",
+    "code quality",
+    "ai tooling"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ApplicationCop"
+    },
+    {
+      "type": "other",
+      "name": "DocumentationCop"
+    },
+    {
+      "type": "other",
+      "name": "FormattingCop"
+    },
+    {
+      "type": "other",
+      "name": "LinterCop"
+    },
+    {
+      "type": "other",
+      "name": "PlatformCop"
+    },
+    {
+      "type": "other",
+      "name": "TestAutomationCop"
+    },
+    {
+      "type": "other",
+      "name": "TransferFieldsCollector"
+    },
+    {
+      "type": "other",
+      "name": "ALCops.Mcp"
+    }
+  ],
+  "features": [
+    "domain-specific analyzers",
+    "code fixes",
+    "NuGet distribution",
+    "MCP server integration",
+    "VS Code extension",
+    "rule severity configuration",
+    "AI-friendly rule descriptions",
+    "TransferFields coupling check"
+  ],
+  "versions": [
+    "AL 16",
+    "AL 17",
+    "v0.5",
+    "v0.1 alpha"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "LinterCop is deprecated. The README now says so explicitly. Arthur's plan: keep it working as long as practical - probably through the end of 2026.",
+      "why_it_matters": "Critical information for existing LinterCop users about the migration timeline and support window"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

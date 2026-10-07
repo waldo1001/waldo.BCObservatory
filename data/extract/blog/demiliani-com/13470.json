@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/demiliani-com/13470",
+  "url": "https://demiliani.com/2026/03/03/creating-mcp-servers-for-dynamics-365-business-central-with-azure-logic-apps/",
+  "title": "Creating MCP servers for Dynamics 365 Business Central with Azure Logic Apps.",
+  "source": "demiliani-com",
+  "published_at": "2026-03-03T10:47:13.000Z",
+  "words": 726,
+  "summary": "Azure Logic Apps Standard now supports Model Context Protocol (MCP) servers, allowing organizations to create AI-powered agent tools for Dynamics 365 Business Central and other enterprise applications through low-code workflows. This integration enables seamless AI agent execution within integration platforms without complex orchestration layers.",
+  "key_points": [
+    "MCP servers standardize how AI agents interact with external systems, and Azure Logic Apps Standard provides built-in connectors to create them for Business Central",
+    "Existing workflows can be converted into discoverable MCP tools that agents can call securely through low-code configuration",
+    "Authentication options include OAuth and key-based methods, with API keys generated for MCP server access",
+    "MCP servers can be used from AI client tools like GitHub Copilot to interact with Business Central data at scale",
+    "Multiple MCP tools can be shared across workflows and applications, reducing integration complexity"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp servers",
+    "azure logic apps",
+    "ai agents",
+    "low-code workflows",
+    "api integration",
+    "authentication",
+    "github copilot"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Model Context Protocol (MCP)"
+    },
+    {
+      "type": "api",
+      "name": "Dynamics 365 Business Central connector"
+    }
+  ],
+  "features": [
+    "MCP server creation",
+    "Azure Logic Apps Standard agents",
+    "Business Central connector integration",
+    "Workflow-to-MCP tool conversion",
+    "Key-based authentication",
+    "OAuth authentication",
+    "MCP server URL generation",
+    "AI agent execution"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "MCP servers maintain conversation history and contextual information across workflow executions, critical for stateful AI interactions.",
+      "why_it_matters": "Highlights how MCP enables sophisticated AI interactions that remember context across multiple workflow runs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/03/business-central-analytics-the-technology-is-not-the-hard-part/",
   "published_at": "2026-03-06T13:37:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:17.098Z",
+      "path": "vault:posts/thinkaboutit-be/7635.md",
+      "words": 442
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:17.224Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:17.226Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:17.227Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:17.270Z",
+      "path": "content/posts/thinkaboutit-be/7635.md"
     }
   },
   "input_hash": "2026-03-06T13:42:11.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd993e458c21175e7b874fa18d6dcd006cad8ede257a531975ed1868ebc980a4"
 }

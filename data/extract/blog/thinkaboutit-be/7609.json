@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/thinkaboutit-be/7609",
+  "url": "https://thinkaboutit.be/2026/03/introducing-al-table-visualizer-an-interactive-er-diagram-for-your-business-central-tables/",
+  "title": "Introducing AL Table Visualizer: An Interactive ER Diagram for Your Business Central Tables",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-03-02T09:30:06.000Z",
+  "words": 843,
+  "summary": "AL Table Visualizer is a Visual Studio Code extension that generates interactive ER diagrams from Business Central table definitions and compiled symbol packages, helping developers understand data model relationships through visualization rather than manual code tracing.",
+  "key_points": [
+    "Reads local .al files and compiled .app symbol packages to extract TableRelation definitions and render them as interactive crow's foot notation diagrams",
+    "Includes interactive exploration features like double-click focus, depth slider control (up to 10 levels), namespace filtering, and relation direction toggling",
+    "Provides a Related Tables panel showing reachable tables with hop distance and relation count, sortable and filterable by table or relation view",
+    "Offers export options for PNG, SVG, Mermaid format, and CSV to support documentation and sharing",
+    "Currently visualizes only formally declared TableRelation properties, not implicit business logic relations in code"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "table relations",
+    "data model",
+    "visualization",
+    "er diagram",
+    "developer tools",
+    "vs code extension"
+  ],
+  "objects": [],
+  "features": [
+    "Interactive ER diagram",
+    "TableRelation extraction",
+    "Symbol package support",
+    "Crow's foot notation",
+    "Depth slider control",
+    "Namespace filtering",
+    "Direction toggle",
+    "Export to PNG/SVG/Mermaid/CSV"
+  ],
+  "versions": [
+    "Visual Studio Code 1.85 or higher"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The diagram is built entirely on TableRelation properties. That is the formal way Business Central defines table relations, and the extension reads them accurately.",
+      "why_it_matters": "Clarifies the technical foundation and scope of what the extension can visualize, setting expectations about its capabilities and limitations."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

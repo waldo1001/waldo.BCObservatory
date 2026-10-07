@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/turning-streams-into-blog-posts/",
+  "url": "https://stefanmaron.com/posts/turning-streams-into-blog-posts/",
+  "title": "Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)",
+  "source": "stefanmaron-com",
+  "published_at": "2026-02-24T15:00:00.000Z",
+  "words": 723,
+  "summary": "A developer built a Claude Code skill to automatically convert YouTube live streams into blog posts by downloading captions and frames, then having Claude write structured articles. The pipeline also enriches posts with documentation links, improving discoverability for both readers and AI tools like CentralQ.",
+  "key_points": [
+    "Automated video-to-blog conversion pipeline using Claude Code that processes YouTube captions, extracts frames, and generates structured posts",
+    "Includes documentation enrichment that adds callout blocks with links to official docs for topics mentioned in the stream",
+    "Improves content accessibility for readers who prefer text over video and benefits AI tools like CentralQ that index blog posts",
+    "Processes large backlogs efficiently with sub-agents running sequentially, converting 26 streams in under 3 hours"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "content creation",
+    "ai automation",
+    "claude code",
+    "workflow optimization",
+    "community tools",
+    "documentation",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "Claude Code skill for video processing",
+    "YouTube caption downloading",
+    "Frame extraction and timestamping",
+    "Automated blog post generation",
+    "Documentation enrichment with callouts",
+    "Batch processing with sub-agents"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Claude reads the transcript, reviews all the frames, picks the most useful screenshots, and writes a structured blog post in my writing style.",
+      "why_it_matters": "Describes the core capability of the pipeline - intelligent content synthesis that maintains voice and context"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

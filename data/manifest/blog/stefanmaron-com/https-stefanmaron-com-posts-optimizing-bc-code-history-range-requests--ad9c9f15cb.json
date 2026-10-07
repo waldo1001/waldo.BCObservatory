@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
   "published_at": "2026-02-27T06:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:18.457Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb.md",
+      "words": 1948
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:18.468Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:18.469Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:18.470Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:18.475Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bad2fd7a5bbe3d22819980589ecffa00026b54c22ef35778a2d7259ac97d66f2"
 }

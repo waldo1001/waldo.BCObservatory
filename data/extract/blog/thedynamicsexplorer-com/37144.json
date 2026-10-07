@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37144",
+  "url": "https://thedynamicsexplorer.com/2026/03/02/dynamics-365-business-central-handling-the-message-only-the-posting-no-series-can-be-filled-in-on-recurring-journals-in-recurring-journals/",
+  "title": "Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2026-03-02T10:00:00.000Z",
+  "words": 878,
+  "summary": "Recurring General Journals in Business Central prevent using standard No. Series due to line persistence after posting. The post explains why this restriction exists and demonstrates two techniques: using Posting No. Series on the batch header, or employing placeholders in the Document No. field to automatically generate unique document numbers based on posting dates without manual updates.",
+  "key_points": [
+    "Recurring journals retain lines after posting with updated posting dates, preventing direct No. Series usage to avoid number reuse",
+    "Posting No. Series on the batch header generates unique document numbers for posted entries while keeping descriptive numbers on journal lines",
+    "Placeholders like %1 (day), %3 (month), %4 (month name), and %6 (year) dynamically replace in document numbers using the posting date",
+    "Placeholders eliminate manual document number updates for recurring journal postings while creating meaningful, date-based references"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "recurring journals",
+    "document numbering",
+    "general journal",
+    "posting process",
+    "number series",
+    "placeholders"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Recurring General Journal"
+    },
+    {
+      "type": "other",
+      "name": "General Journal"
+    },
+    {
+      "type": "other",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Recurring General Journals",
+    "Posting No. Series",
+    "Document Number placeholders",
+    "Journal batch processing",
+    "Automatic date substitution",
+    "Recurring frequency updates"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "After posting a Recurring General Journal the journal lines remain and the posting date is updated based on the recurring frequency.",
+      "why_it_matters": "Explains the core design of recurring journals that creates the document numbering challenge"
+    },
+    {
+      "text": "When I post this for May, there's no need to update the document number. The system automatically replaces the placeholders using the posting date.",
+      "why_it_matters": "Demonstrates the key benefit of using placeholders for automating unique document number generation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

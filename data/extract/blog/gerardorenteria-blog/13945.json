@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13945",
+  "url": "https://gerardorenteria.blog/2026/03/02/%e2%9a%99%ef%b8%8f-github-copilot-workspace-level-control-over-ai-context-%f0%9f%94%84/",
+  "title": "⚙️ GitHub Copilot: Workspace-Level Control Over AI Context 🔄",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-03-02T17:18:22.000Z",
+  "words": 718,
+  "summary": "GitHub Copilot allows developers to organize and control AI context at the workspace level by enabling or disabling instructions, prompts, agents, and skills per project or client through settings.json configuration. This prevents style guidelines and rules from one client or project from interfering with work on another.",
+  "key_points": [
+    "Organize AI context (instructions, prompts, agents, skills) into separate folders by client, project, or purpose",
+    "Toggle context on or off per workspace using true/false switches in settings.json",
+    "Use diagnostics in the Chat Configure menu to verify which context Copilot is actually using",
+    "Prevents mixing of personal preferences, client rules, and company guidelines that could create conflicts",
+    "Example folder structure separates AL development, TypeScript, security reviews, and client-specific instructions"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "ai context",
+    "workspace settings",
+    "configuration",
+    "al development",
+    "instructions",
+    "agents",
+    "skills"
+  ],
+  "objects": [],
+  "features": [
+    "workspace-level AI context control",
+    "instructions organization",
+    "prompts management",
+    "agents configuration",
+    "skills management",
+    "diagnostics"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "I think that giving Copilot the wrong context is almost worse than giving it none at all.",
+      "why_it_matters": "Highlights the importance of proper context isolation to avoid confusion and incorrect suggestions when working across multiple clients or projects"
+    },
+    {
+      "text": "Then, activate or deactivate each folder from the workspace's settings.json file using true or false.",
+      "why_it_matters": "Provides the practical mechanism for controlling which AI context Copilot accesses without removing or reorganizing files"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

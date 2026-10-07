@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/",
+  "title": "BC Friday Tips #65 Freeze Column Property",
+  "source": "thatnavguy-com",
+  "published_at": "2026-02-27T00:00:00.000Z",
+  "words": 68,
+  "summary": "The FreezeColumn property keeps selected columns visible when users scroll horizontally through list pages with many fields, reducing the need for horizontal scrolling and keeping important data in view.",
+  "key_points": [
+    "FreezeColumn property prevents selected columns from scrolling out of view horizontally",
+    "Particularly useful for list pages that display many fields",
+    "Improves user experience by keeping important columns visible at all times",
+    "Can be added to list page definitions"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "ui design",
+    "list pages",
+    "user experience",
+    "property",
+    "horizontal scrolling"
+  ],
+  "objects": [],
+  "features": [
+    "FreezeColumn property"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "FreezeColumn keeps selected columns visible while users scroll horizontally.",
+      "why_it_matters": "This is the core functionality that explains what the feature does and its primary benefit"
+    },
+    {
+      "text": "It works great for lists with many fields.",
+      "why_it_matters": "Identifies the specific use case where this feature is most valuable"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

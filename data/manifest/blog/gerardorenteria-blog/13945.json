@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/03/02/%e2%9a%99%ef%b8%8f-github-copilot-workspace-level-control-over-ai-context-%f0%9f%94%84/",
   "published_at": "2026-03-02T17:18:22.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:36:17.767Z",
+      "path": "vault:posts/gerardorenteria-blog/13945.md",
+      "words": 718
+    },
+    "extracted": {
+      "at": "2026-10-07T00:36:17.776Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:36:17.777Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:36:17.778Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:36:17.782Z",
+      "path": "content/posts/gerardorenteria-blog/13945.md"
     }
   },
   "input_hash": "2026-03-02T17:18:47.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "96baee78bf49a8389482b05da1b991b92e45a1f194b40f8dbaa1553b4ade51c7"
 }

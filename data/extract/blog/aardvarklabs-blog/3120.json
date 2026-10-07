@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3120",
+  "url": "https://aardvarklabs.blog/2026/02/27/understanding-dimension-set-id-in-al-for-business-central/",
+  "title": "Understanding Dimension Set Id in AL for Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-02-27T13:00:00.000Z",
+  "words": 688,
+  "summary": "Dimension Set ID is a Business Central concept that deduplicates dimension combinations to reduce data storage. The post explains why dimensions are superior to segment-based accounting and provides AL code to retrieve or create a Dimension Set ID by building temporary dimension entries and passing them to the DimensionManagement codeunit.",
+  "key_points": [
+    "Business Central uses dimensions (metadata-driven) instead of segment-based accounting (hard-coded GL account segments) for flexible account classification",
+    "Dimension Set ID deduplicates dimension combinations; matching combinations return the same ID rather than creating duplicates",
+    "AL code must create temporary Dimension Set Entry records, populate them with dimension codes and values, then pass them to DimensionManagement.GetDimensionSetID()",
+    "Two global dimensions available everywhere; unlimited additional dimensions can be added without modifying the chart of accounts"
+  ],
+  "systems": [
+    "finance",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "dimensions",
+    "dimension set",
+    "al code",
+    "accounting",
+    "data storage",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    },
+    {
+      "type": "codeunit",
+      "name": "DimensionManagement"
+    }
+  ],
+  "features": [
+    "Dimension Set deduplication",
+    "Global Dimensions",
+    "Dimension Value codes",
+    "Temporary records in AL",
+    "GetDimensionSetID method"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every time you assign a series of dimensions to a record the Dimension Set table is checked to see if that unique combination exists.",
+      "why_it_matters": "Explains the core mechanism of how Dimension Set ID prevents data duplication by finding or creating matching dimension combinations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
