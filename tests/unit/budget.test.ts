@@ -96,6 +96,15 @@ test("quota scaling: LLM quotas scale, deterministic ones do not, facts-only dro
   assert.equal(scaleQuotas(q, { factor: 0, facts_only: false }).docs, 0);
 });
 
+test("D77: the review-coverage quotas exist, scale with the guard and are 0 under facts_only", () => {
+  const q = budget().quotas;
+  assert.deepEqual([q.video_reviews, q.post_reviews, q.change_reviews], [20, 15, 15]);
+  const half = scaleQuotas(q, { factor: 0.5, facts_only: false });
+  assert.deepEqual([half.video_reviews, half.post_reviews, half.change_reviews], [10, 7, 7]);
+  const facts = scaleQuotas(q, { factor: 0.25, facts_only: true });
+  assert.deepEqual([facts.video_reviews, facts.post_reviews, facts.change_reviews], [0, 0, 0]);
+});
+
 test("spend history: today and the six dates before it; day_cost_usd wins over cost_usd; junk counts 0", () => {
   const dir = mkdtempSync(join(tmpdir(), "bcobs-runs-"));
   const put = (d: string, llm: unknown) => writeFileSync(join(dir, `${d}.json`), JSON.stringify({ date: d, llm }));

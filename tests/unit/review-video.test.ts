@@ -81,3 +81,58 @@ test("handler: approve changes nothing; reject skips the item and publishes no p
   assert.equal(rj.skip, "review-rejected");
   assert.ok(existsSync(join(dataDir, `review/video/${ID}.json`)));
 });
+
+// D77: every video is reviewed, not only flagged ones; the published backlog drains through the same stage
+import { mkdirSync, writeFileSync } from "node:fs";
+import { Manifest, nextStage } from "../../pipeline/lib/manifest.js";
+import { quotaFor } from "../../pipeline/lib/queue.js";
+import { restoreVideoBacklog, rewindVideoBacklog, videoInputHash, videoReviewDue } from "../../pipeline/review/video.js";
+
+test("an unflagged video reaches `reviewed`: same prompt with flags [], record tied to its input hash", async () => {
+  const dataDir = setup();
+  const plain: ManifestItem = { ...item, flags: [] };
+  assert.equal(nextStage(plain), "reviewed");
+  assert.equal(quotaFor("video", "reviewed"), "video_reviews");
+  assert.equal(quotaFor("blog", "reviewed"), "opus_reviews");
+  const { llm, reqs } = fake(out({ verdict: "approve" }));
+  const r: any = await reviewedHandler(plain, ctx(dataDir), llm);
+  assert.match(reqs[0].prompt, /"flags": \[\]/);
+  assert.equal(r.patch.review.state, "reviewed");
+  const rec = JSON.parse(readFileSync(join(dataDir, `review/video/${ID}.json`), "utf8"));
+  assert.deepEqual([rec.input_hash, rec.by, rec.flags], [videoInputHash(x, s), "opus", []]);
+});
+
+test("backlog: published videos without a review of their text are rewound newest first and restored when not reached", async () => {
+  const dataDir = setup();
+  const m = new Manifest(join(dataDir, "manifest"));
+  const pub = (id: string, at: string, over: Partial<ManifestItem> = {}): ManifestItem => ({ ...item, id: `video/yt-microsoft/${id}`, flags: [], published_at: at, state: "published", stages: { linked: { at }, published: { at } }, ...over });
+  // only ID has inputs on disk; the others are never due
+  m.save(pub(ID, "2026-10-01T00:00:00Z"));
+  m.save(pub("BBBBBBBBBB2", "2026-10-02T00:00:00Z"));
+  assert.equal(videoReviewDue(m.get(`video/yt-microsoft/${ID}`)!, dataDir), true);
+  assert.deepEqual(rewindVideoBacklog(m, dataDir, 0), []);
+  const ids = rewindVideoBacklog(m, dataDir, 20);
+  assert.deepEqual(ids, [`video/yt-microsoft/${ID}`]);
+  assert.equal(m.get(ids[0])!.state, "linked");
+  assert.equal(nextStage(m.get(ids[0])!), "reviewed");
+  assert.equal(restoreVideoBacklog(m, ids), 1);
+  assert.equal(m.get(ids[0])!.state, "published");
+  // reviewed: no longer due, until the text changes
+  await reviewedHandler(m.get(ids[0])!, ctx(dataDir), fake(out({ verdict: "approve" })).llm);
+  assert.equal(videoReviewDue(m.get(ids[0])!, dataDir), false);
+  writeJson(join(dataDir, `summary/video/${ID}.json`), { ...s, summary: "Changed." });
+  assert.equal(videoReviewDue(m.get(ids[0])!, dataDir), true);
+});
+
+test("a rejected backlog video loses its page and summary so the re-render cannot bring it back", async () => {
+  const dataDir = setup();
+  const contentDir = join(dataDir, "..", `content-${ID}-${Date.now()}`);
+  mkdirSync(join(contentDir, "videos"), { recursive: true });
+  writeFileSync(join(contentDir, "videos", `${ID}.md`), "page");
+  const published: ManifestItem = { ...item, flags: [], stages: { published: { at: "2026-10-01T00:00:00Z" } } };
+  const r: any = await reviewedHandler(published, { ...ctx(dataDir), contentDir }, fake(out({ verdict: "reject", issues: ["music only"] })).llm);
+  assert.equal(r.skip, "review-rejected");
+  assert.equal(existsSync(join(contentDir, "videos", `${ID}.md`)), false);
+  assert.equal(existsSync(join(dataDir, `summary/video/${ID}.json`)), false);
+  assert.equal(existsSync(join(dataDir, `extract/video/${ID}.json`)), true, "the facts stay");
+});

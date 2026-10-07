@@ -29,7 +29,8 @@ export function quotaFor(pillar: Pillar, stage: Stage): string | null {
   if (stage === "linked" || stage === "published") return null;
   // reading a page from a local git mirror is deterministic and cheap
   if (stage === "fetched" && (pillar === "docs" || pillar === "guidelines")) return null;
-  if (stage === "reviewed") return "opus_reviews";
+  // D77: every video is reviewed, on its own quota so hub reviews keep theirs
+  if (stage === "reviewed") return pillar === "video" ? "video_reviews" : "opus_reviews";
   if (pillar === "video" && (stage === "fetched" || stage === "captioned")) return "captions";
   // a pull request's record and file list: GitHub calls, deterministic (D61)
   if (pillar === "change" && stage === "fetched") return "change_fetch";
