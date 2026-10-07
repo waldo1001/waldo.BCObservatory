@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/",
+  "title": "BC Friday Tips #33 Month Enum",
+  "source": "thatnavguy-com",
+  "published_at": "2025-06-05T00:00:00.000Z",
+  "words": 70,
+  "summary": "Business Central includes built-in enums for month and day-of-week recurrence patterns. Developers can reuse these existing enums rather than creating custom ones, saving development time.",
+  "key_points": [
+    "Enum 4691 provides month recurrence values",
+    "Enum 4690 offers day-of-week recurrence values",
+    "Both enums include additional values beyond basic usage",
+    "ValuesAllowed property can filter unwanted enum values"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "enums",
+    "al development",
+    "code reuse",
+    "recurrence patterns"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Recurrence - Month"
+    },
+    {
+      "type": "enum",
+      "name": "Recurrence - Day of Week"
+    }
+  ],
+  "features": [
+    "Enum 4691",
+    "Enum 4690",
+    "ValuesAllowed property"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

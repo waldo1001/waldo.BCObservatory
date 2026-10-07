@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2196",
+  "url": "https://aardvarklabs.blog/2025/07/25/easy-steps-to-edit-word-reports-in-business-central/",
+  "title": "Easy Steps to Edit Word Reports in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-07-25T12:00:00.000Z",
+  "words": 915,
+  "summary": "This post explains how to edit Word report layouts in Business Central by exporting an existing report, modifying it in Microsoft Word using Developer tools, and understanding the XML mapping structure that connects report fields to data. It covers the process from exporting a layout to uploading the modified version back to Business Central.",
+  "key_points": [
+    "Export an existing report layout from Business Central using the Report Layouts page, then open it in Microsoft Word to modify.",
+    "Enable Word's Developer tab and use Design Mode to view and edit the report structure with access to XML mapping panes.",
+    "Understand the XML mapping hierarchy where each data item in the AL code becomes an XML node, and each column becomes an XML value in the mapping pane.",
+    "Use tables and grids in Word to manage repeating elements and maintain alignment; add fields by right-clicking in the XML Mapping pane and selecting Insert Content Control.",
+    "Upload the modified Word document as a new report layout in Business Central; create multiple versions to avoid overwriting working reports."
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word reports",
+    "report layouts",
+    "report design",
+    "xml mapping",
+    "report editing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales Quote"
+    },
+    {
+      "type": "report",
+      "name": "1304"
+    }
+  ],
+  "features": [
+    "Word Report Layouts",
+    "Export Layout",
+    "XML Mapping Pane",
+    "Design Mode",
+    "Developer Ribbon",
+    "Content Control",
+    "Report Layout Upload"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Each data item in the report is an XML Node in the XML Mapping pane. Each column in the AL is an XML Value.",
+      "why_it_matters": "This explains the fundamental mapping between AL report structure and Word document fields, essential for understanding how to connect data to layout elements."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

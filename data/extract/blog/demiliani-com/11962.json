@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/11962",
+  "url": "https://demiliani.com/2025/06/23/dynamics-365-business-central-compressing-api-responses-at-max/",
+  "title": "Dynamics 365 Business Central: compressing API responses at max.",
+  "source": "demiliani-com",
+  "published_at": "2025-06-23T13:15:54.000Z",
+  "words": 761,
+  "summary": "This post explains how to use Brotli compression instead of gzip to reduce the size of OData API responses from Business Central. Brotli significantly decreases bandwidth usage and transfer times for high-volume API calls by achieving better compression ratios than the default gzip algorithm.",
+  "key_points": [
+    "Business Central APIs use HTTP compression by default, primarily gzip, which can be negotiated through Accept-Encoding headers",
+    "Brotli is a more efficient compression algorithm that reduces response sizes dramatically compared to gzip, often by 95% or more for large datasets",
+    "Clients enable Brotli by sending the Accept-Encoding: br header with their API requests",
+    "In C#, HttpClient can automatically decompress Brotli-compressed responses when configured with AutomaticDecompression and the appropriate header"
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "api optimization",
+    "bandwidth reduction",
+    "compression",
+    "odata",
+    "performance",
+    "high-throughput"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "OData API compression",
+    "Brotli compression",
+    "gzip compression",
+    "HTTP compression",
+    "API response optimization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Brotli is a high-efficiency, lossless compression algorithm developed by Google that achieves higher compression ratios compared to traditional algorithms such as gzip.",
+      "why_it_matters": "Explains why Brotli is superior to the default compression method for reducing data transmission size"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

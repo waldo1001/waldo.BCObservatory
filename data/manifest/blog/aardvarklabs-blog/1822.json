@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/06/27/business-central-queries-simplifying-complex-data/",
   "published_at": "2025-06-27T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:20.514Z",
+      "path": "vault:posts/aardvarklabs-blog/1822.md",
+      "words": 1231
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:20.521Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:20.522Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:20.522Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:20.530Z",
+      "path": "content/posts/aardvarklabs-blog/1822.md"
     }
   },
   "input_hash": "2025-06-25T02:12:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c5580e42d470767b2888f75e135ed7598f308efc4a26f81c514cedeea973480d"
 }

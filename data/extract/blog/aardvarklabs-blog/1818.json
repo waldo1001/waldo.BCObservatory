@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1818",
+  "url": "https://aardvarklabs.blog/2025/06/20/creating-low-code-ai-agents-with-copilot-studio-and-business-central/",
+  "title": "Creating Low-Code AI Agents with Copilot Studio and Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-06-20T12:00:00.000Z",
+  "words": 1009,
+  "summary": "Copilot Studio enables low-code creation of AI agents that connect to Business Central and other platforms without requiring extensions. The post walks through building an accounts receivable assistant by configuring the Business Central Find Records tool, adding PDF knowledge sources, and publishing to Teams.",
+  "key_points": [
+    "Copilot Studio is a cross-platform tool that works with Business Central, Teams, D365 Sales and Marketing, and other platforms",
+    "Use the Find Records (V3) Business Central tool to enable agents to query tables and access data",
+    "Add knowledge sources like PDFs or Dataverse to supplement the agent's capabilities beyond Business Central data",
+    "Agents must be published through channels; Teams and SharePoint are available options when using Microsoft Authentication",
+    "Data access is limited to what each authenticated user has permission to see in Business Central"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "ai agents",
+    "copilot studio",
+    "low-code",
+    "knowledge sources",
+    "teams integration",
+    "business central apis"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Find Records (V3)"
+    }
+  ],
+  "features": [
+    "Copilot Studio Agent creation",
+    "Business Central tool integration",
+    "Knowledge source management",
+    "PDF upload for agent knowledge",
+    "Teams and Microsoft 365 Copilot publishing",
+    "Multi-platform agent deployment"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The system will also be limited to data that their user has permission to access.",
+      "why_it_matters": "Important for security - agents respect Business Central's existing permission model per user"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

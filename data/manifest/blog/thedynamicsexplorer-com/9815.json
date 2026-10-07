@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/07/21/dynamics-365-business-central-how-to-change-the-vat-amount-on-a-purchase-invoice-or-purchase-order/",
   "published_at": "2025-07-21T11:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.357Z",
+      "path": "vault:posts/thedynamicsexplorer-com/9815.md",
+      "words": 416
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.366Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.367Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.368Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.375Z",
+      "path": "content/posts/thedynamicsexplorer-com/9815.md"
     }
   },
   "input_hash": "2026-04-30T16:18:32.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f13112850ec9b4252fffcd33fccb48e9fb43f1363ce48b3bc1b21fb1df46836e"
 }

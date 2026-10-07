@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/how-to-write-a-good-success-message/",
   "published_at": "2025-07-15T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.664Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-a-good-success-message--3e3244cc89.md",
+      "words": 684
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.670Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.671Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.672Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.679Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-a-good-success-message--3e3244cc89.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a80dd47e170d00e51c1be9724af6c2735b1d9f31f2710be19ba6fd17c64476a"
 }

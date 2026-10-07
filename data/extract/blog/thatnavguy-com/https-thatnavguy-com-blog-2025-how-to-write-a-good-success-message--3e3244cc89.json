@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-a-good-success-message/",
+  "url": "https://thatnavguy.com/blog/2025/how-to-write-a-good-success-message/",
+  "title": "How to Write a Good Success Message",
+  "source": "thatnavguy-com",
+  "published_at": "2025-07-15T00:00:00.000Z",
+  "words": 684,
+  "summary": "Success messages confirm user actions in Business Central by reassuring users that tasks like posting invoices or importing orders were completed. Well-designed success messages build trust, boost confidence, and create a professional experience while preventing users from doubting their actions.",
+  "key_points": [
+    "Success messages reassure users their actions completed successfully and prevent doubt when confirmation is absent",
+    "Effective messages should be concise, specific (include record numbers or quantities), use past tense, and guide users to next steps",
+    "Messages should be consistent across the system with a professional tone, avoiding technical jargon and generic phrases",
+    "Use GuiAllowed to prevent messages from showing in background tasks or non-UI scenarios"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "user experience",
+    "success messages",
+    "confirmation feedback",
+    "best practices",
+    "ux design"
+  ],
+  "objects": [],
+  "features": [
+    "success messaging",
+    "user confirmation",
+    "feedback design",
+    "GuiAllowed property",
+    "message consistency",
+    "progress dialogs"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Without positive feedback, users often assume the worst. That is human nature.",
+      "why_it_matters": "Explains the psychological basis for why success messages are essential even when systems function correctly"
+    },
+    {
+      "text": "Success messages are more than just a formality. They are a key part of building user trust and creating a seamless experience.",
+      "why_it_matters": "Emphasizes that success messages deserve the same attention as error handling in UX design"
+    },
+    {
+      "text": "Use the GuiAllowed property to check whether the user interface is available before displaying any messages.",
+      "why_it_matters": "Provides technical guidance for preventing errors when messages are triggered in non-interactive contexts"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

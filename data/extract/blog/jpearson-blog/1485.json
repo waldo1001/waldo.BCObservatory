@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/jpearson-blog/1485",
+  "url": "https://jpearson.blog/2025/07/04/calling-business-central-apis-without-a-client-secret/",
+  "title": "Calling Business Central APIs Without a Client Secret",
+  "source": "jpearson-blog",
+  "published_at": "2025-07-04T11:44:19.000Z",
+  "words": 1252,
+  "summary": "Calling Business Central APIs from Azure resources without client secrets is possible using managed identities and federated credentials for token exchange. This approach eliminates the need to store and rotate secret credentials, reducing security risks when integrating Static Web Apps or Azure Functions with Business Central.",
+  "key_points": [
+    "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets",
+    "Federated credentials enable token exchange between the managed identity token and an app registration token",
+    "An Entra Application must still be created in Business Central with appropriate permission sets",
+    "Token exchange uses JWT bearer assertion to swap a managed identity token for an app registration token",
+    "Establishes trust between managed identity issuer and app registration to authorize the token exchange"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "authentication",
+    "apis",
+    "azure integration",
+    "managed identities",
+    "oauth",
+    "security",
+    "token exchange",
+    "service-to-service"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "API page"
+    }
+  ],
+  "features": [
+    "Managed Identity Authentication",
+    "Federated Credentials",
+    "Service-to-Service Authentication",
+    "Token Exchange",
+    "OAuth Token Management",
+    "Entra Application Integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We need to exchange the token we've already got for a token issued for the app registration.",
+      "why_it_matters": "This explains the core mechanism: the managed identity token alone is insufficient; it must be exchanged for an app registration token that has Business Central permissions."
+    },
+    {
+      "text": "It would be better if we had a solution that didn't rely on client secrets.",
+      "why_it_matters": "States the motivation: avoiding secrets eliminates expiration management, key vault dependencies, and credential compromise risks."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1824",
+  "url": "https://aardvarklabs.blog/2025/07/18/step-by-step-guide-to-excel-reporting-in-business-central/",
+  "title": "Step-by-Step Guide to Excel Reporting in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-07-18T12:00:00.000Z",
+  "words": 1066,
+  "summary": "Excel reporting in Business Central allows developers to create data-driven reports that users can easily customize with pivot tables and charts. The post demonstrates building a customer activity report and uploading the customized layout back to Business Central so updates appear automatically in future runs.",
+  "key_points": [
+    "Excel reports use a dataset with nested dataitems and dataitemlink to structure data hierarchically",
+    "RequestFilterFields at the dataitem level prompt users for filter parameters at runtime",
+    "Excel layouts can be customized with pivot tables and charts, then uploaded back to Business Central as the default layout",
+    "Business Central updates the data tabs while preserving custom tabs created by users"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "excel reporting",
+    "report design",
+    "data visualization",
+    "al development",
+    "custom layouts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "ARD_CustomerActivity"
+    }
+  ],
+  "features": [
+    "Excel reports",
+    "Report layouts",
+    "RequestFilterFields",
+    "DataItemTableView",
+    "Pivot tables",
+    "Report customization",
+    "Custom worksheets",
+    "Automatic data updates"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft Excel Reports are the easiest for end users to modify, and one of the easiest data sets to create.",
+      "why_it_matters": "Explains why Excel is a good choice for accessible, user-friendly reporting in Business Central"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

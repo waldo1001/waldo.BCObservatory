@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/",
   "published_at": "2025-07-18T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.623Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba.md",
+      "words": 99
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.629Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.630Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.631Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.637Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee59deafe1b781d5ec66847fbb1b10fd77e63980f6f09790bdfd8713598b66bd"
 }

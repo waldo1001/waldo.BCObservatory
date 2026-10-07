@@ -7,13 +7,21 @@
   "url": "https://aardvarklabs.blog/2025/07/04/enhance-your-windows-experience-with-powertoys/",
   "published_at": "2025-07-04T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:19.809Z",
+      "path": "vault:posts/aardvarklabs-blog/2044.md",
+      "words": 435
     }
   },
   "input_hash": "2025-07-02T01:43:25.000Z",
-  "attempts": 0,
-  "flags": []
+  "attempts": 1,
+  "flags": [],
+  "last_error": "model returned no entry for this post",
+  "retry_after": "2026-10-07T03:47:19.813Z",
+  "output_hash": "56163c162bab0217422df3a72ec04b2beb0ebc7012a4fb35051ea78eb4dcfcf9"
 }

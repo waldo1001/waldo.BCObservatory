@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/demiliani-com/12123",
+  "url": "https://demiliani.com/2025/07/14/dynamics-365-business-central-on-prem-be-careful-when-referencing-net-assemblies-across-versions/",
+  "title": "Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.",
+  "source": "demiliani-com",
+  "published_at": "2025-07-14T13:40:05.000Z",
+  "words": 464,
+  "summary": "When upgrading Business Central on-premises and using custom extensions with .NET assemblies, ensure assemblies are compiled for .NET Standard if targeting version 21 or later, even if the AL compiler allows .NET Framework versions locally. The runtime requires .NET Standard compliance to publish successfully.",
+  "key_points": [
+    "Business Central version 21 and later only support .NET Standard compiled add-ins at runtime, not .NET Framework versions",
+    "The AL compiler accepts both .NET Standard and .NET Framework assemblies during local compilation, masking compatibility issues",
+    "Extensions must be compiled with .NET Standard assemblies when published to service tiers running version 21 or later",
+    "Reload Visual Studio Code after updating assemblies in probing paths to avoid caching old assembly versions"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "on-premises",
+    ".net assemblies",
+    "extension publishing",
+    "version upgrade",
+    "net standard",
+    "add-ins"
+  ],
+  "objects": [],
+  "features": [
+    ".NET add-in support",
+    ".NET Standard runtime",
+    "assembly probing paths",
+    "extension publication"
+  ],
+  "versions": [
+    "14",
+    "21",
+    "25"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

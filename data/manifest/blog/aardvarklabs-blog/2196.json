@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/07/25/easy-steps-to-edit-word-reports-in-business-central/",
   "published_at": "2025-07-25T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.136Z",
+      "path": "vault:posts/aardvarklabs-blog/2196.md",
+      "words": 915
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.145Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.146Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.147Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.155Z",
+      "path": "content/posts/aardvarklabs-blog/2196.md"
     }
   },
   "input_hash": "2026-02-18T03:44:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d3303ae8ac0834e6cd0db6c30a6c112aa05127a82088d98934d8221200ba787"
 }

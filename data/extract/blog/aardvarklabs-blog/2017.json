@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2017",
+  "url": "https://aardvarklabs.blog/2025/07/11/step-by-step-guide-to-business-central-api-queries/",
+  "title": "Step-by-Step Guide to Business Central API Queries",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-07-11T12:00:00.000Z",
+  "words": 674,
+  "summary": "This post explains how to create Query objects configured as APIs in Business Central to expose data for external systems like Power BI and Power Automate. It demonstrates building a Vendor Ledger API and connecting it to Power BI for reporting, highlighting advantages like handling related records and enforcing read-only access.",
+  "key_points": [
+    "Query objects configured with API settings (APIGroup, APIPublisher, APIVersion, QueryType = API) automatically expose data to external systems",
+    "Query-based APIs handle related records easily and can nest several layers deep without requiring separate list parts",
+    "Query APIs are read-only by nature, preventing accidental write operations and protecting data integrity when shared with reporting teams",
+    "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector to build reports"
+  ],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "api",
+    "query",
+    "power bi",
+    "vendor ledger",
+    "data exposure",
+    "read-only"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "ARD_VendorLedgerAPI"
+    }
+  ],
+  "features": [
+    "API Query objects",
+    "API data exposure",
+    "related data handling",
+    "read-only APIs",
+    "Power BI integration",
+    "vendor ledger reporting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

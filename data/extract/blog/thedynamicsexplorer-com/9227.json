@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/9227",
+  "url": "https://thedynamicsexplorer.com/2025/06/16/dynamics-gp-to-business-central-how-to-control-your-general-ledger-code-and-dimension-combinations-using-allowed-values-filter/",
+  "title": "Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-06-16T10:00:00.000Z",
+  "words": 525,
+  "summary": "When migrating from Dynamics GP to Business Central, General Ledger segments become dimensions that are available to any account by default. The post explains how to control which dimension values can be used with specific GL accounts using the Allowed Values Filter feature to replicate Dynamics GP's segment-code restrictions.",
+  "key_points": [
+    "Dynamics GP combines GL codes with segment codes, while Business Central separates GL accounts from dimensions",
+    "Business Central's consolidated chart of accounts is more efficient than creating separate GL codes for each cost centre combination",
+    "Allowed Values Filter on the GL Account card restricts which dimension values can be posted to that account",
+    "This feature requires Code Mandatory posting to work effectively"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "general ledger",
+    "dimensions",
+    "migration",
+    "dynamics gp",
+    "chart of accounts",
+    "data validation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "General Ledger Account Card"
+    },
+    {
+      "type": "other",
+      "name": "Allowed Values Filter"
+    }
+  ],
+  "features": [
+    "Allowed Values Filter",
+    "Dimension restrictions",
+    "GL account dimensions",
+    "Code Mandatory posting",
+    "Chart of accounts consolidation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The solution to this issue is the Allowed Values Filter to limit the Dimension Values allowed on your General Ledger Account Card.",
+      "why_it_matters": "Provides the direct answer to achieving Dynamics GP-like control in Business Central"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

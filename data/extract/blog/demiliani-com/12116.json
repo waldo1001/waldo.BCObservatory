@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/demiliani-com/12116",
+  "url": "https://demiliani.com/2025/07/10/dynamics-365-business-central-automatic-pte-unpublishing-after-update/",
+  "title": "Dynamics 365 Business Central: automatic PTE unpublishing after update.",
+  "source": "demiliani-com",
+  "published_at": "2025-07-10T08:27:35.000Z",
+  "words": 130,
+  "summary": "Starting with SaaS environments, Business Central now automatically unpublishes older versions of private extensions (PTEs) after a new version is installed, keeping only the immediately preceding version to simplify tenant management and prevent clutter.",
+  "key_points": [
+    "Old PTE versions are now automatically unpublished in SaaS when a new version is installed",
+    "The version immediately before the current installed version is retained for safety",
+    "This prevents accumulation of obsolete extension versions in tenants",
+    "Applies to SaaS environments, simplifying extension lifecycle management"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "pte",
+    "extensions",
+    "saas",
+    "auto unpublishing",
+    "deployment",
+    "lifecycle management"
+  ],
+  "objects": [],
+  "features": [
+    "automatic PTE unpublishing",
+    "extension version management",
+    "SaaS tenant cleanup"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft will automatically unpublish every uninstalled version of the PTE except the version immediately preceding the current installed version.",
+      "why_it_matters": "Clarifies the safety mechanism that preserves one previous version for potential rollback needs"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

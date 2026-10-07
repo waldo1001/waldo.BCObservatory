@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/",
+  "url": "https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/",
+  "title": "How to Set Up a New Business Central Development Project – The 100% Correct Way",
+  "source": "stefanmaron-com",
+  "published_at": "2025-06-05T05:32:18.000Z",
+  "words": 2419,
+  "summary": "This guide covers the essential setup steps for creating a new Business Central AL development project, from project creation and app.json configuration to code analysis and DevOps. It emphasizes starting with proper templates, modern naming conventions, and AL-Go for GitHub to ensure maintainability, CI/CD readiness, and AppSource compatibility.",
+  "key_points": [
+    "Start projects from structured templates like AL-Go rather than the default AL: Go! command to ensure proper project structure and CI/CD readiness",
+    "Configure app.json correctly with appropriate ID ranges, version numbers independent of BC versions, namespaces, and mandatory dependencies",
+    "Use consistent object naming with PascalCase, registered affixes as suffixes, and project codes to avoid conflicts and improve discoverability",
+    "Enable multiple code analyzers (CodeCop, AppSourceCop, PerTenantExtensionCop, UICop, LinterCop) with custom rulesets to catch issues early, even for PTE projects",
+    "Set up AL-Go for GitHub from the start to automate build, test, sign, and publish workflows while maintaining consistency with Microsoft's practices"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "project setup",
+    "al development",
+    "app.json configuration",
+    "naming conventions",
+    "code analysis",
+    "al-go",
+    "appsource",
+    "ci/cd"
+  ],
+  "objects": [],
+  "features": [
+    "AL-Go for GitHub",
+    "CodeCop",
+    "AppSourceCop",
+    "PerTenantExtensionCop",
+    "UICop",
+    "LinterCop",
+    "external rulesets",
+    "namespaces"
+  ],
+  "versions": [
+    "June 2025"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

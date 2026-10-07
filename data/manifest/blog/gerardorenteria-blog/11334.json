@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/06/16/git-version-2-50-new-version/",
   "published_at": "2025-06-16T20:51:21.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.163Z",
+      "path": "vault:posts/gerardorenteria-blog/11334.md",
+      "words": 56
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.168Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.169Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.170Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.173Z",
+      "path": "content/posts/gerardorenteria-blog/11334.md"
     }
   },
   "input_hash": "2025-06-17T20:52:53.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f8f5cb8be01ae36d01da89b78d95ba87dea084255e3ab0c0449fa2bd4f8d51e"
 }

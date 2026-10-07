@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/07/03/dynamics-365-business-central-2025-wave-1-26-x-real-values-to-upgrade/",
   "published_at": "2025-07-03T15:30:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:20.268Z",
+      "path": "vault:posts/duiliotacconi-com/1457.md",
+      "words": 1319
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:20.278Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:20.279Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:20.280Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:20.288Z",
+      "path": "content/posts/duiliotacconi-com/1457.md"
     }
   },
   "input_hash": "2025-07-03T15:30:41.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c393be7469316bcf85469706a3383e3e8341f0ca910d8d88668814ac39283195"
 }

@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/",
+  "title": "BC Friday Tips #39 Troubleshoot Connectivity",
+  "source": "thatnavguy-com",
+  "published_at": "2025-07-18T00:00:00.000Z",
+  "words": 99,
+  "summary": "The Troubleshooting Connectivity page helps diagnose connection issues between users' computers and Business Central by checking internet connectivity, Azure CDN resources, user authentication, and service health. Access it by appending '/connectivity' to your Business Central URL.",
+  "key_points": [
+    "A built-in troubleshooting page accessible via '/connectivity' endpoint identifies connection problems",
+    "Checks internet connectivity, Azure CDN resources, authentication, and service health status",
+    "Helps pinpoint the root cause of Business Central connection failures",
+    "Available directly from your Business Central environment without additional tools"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "connectivity",
+    "troubleshooting",
+    "diagnostics",
+    "azure cdn",
+    "authentication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Troubleshooting Connectivity"
+    }
+  ],
+  "features": [
+    "Troubleshooting Connectivity",
+    "Azure CDN resource checking",
+    "authentication verification",
+    "service health status"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Troubleshooting Connectivity page can help you pinpoint what's causing the issue between your computer and Business Central.",
+      "why_it_matters": "Explains the core purpose of the diagnostic tool for resolving connectivity problems"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "item_id": "blog/duiliotacconi-com/1457",
+  "url": "https://duiliotacconi.com/2025/07/03/dynamics-365-business-central-2025-wave-1-26-x-real-values-to-upgrade/",
+  "title": "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-07-03T15:30:41.000Z",
+  "words": 1319,
+  "summary": "Dynamics 365 Business Central 26.x introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages. A production environment with 2,000+ background sessions per hour saw nearly all Item Ledger Entry deadlocks disappear after upgrading and enabling these features, though subsequent third-party application deadlocks required targeted optimization.",
+  "key_points": [
+    "The new inventory posting engine using Number Sequence objects reduces locking on Item Ledger Entry by changing transaction order, though it initially revealed deadlocks in third-party applications",
+    "Skipping FlowField calculations for hidden page columns significantly reduces query duration, sometimes by over 50 percent on list pages",
+    "When upgrading, enable both features carefully: test concurrency thoroughly with Business Central Performance Toolkit and verify no visible columns depend on hidden FlowFields",
+    "Optimization strategies include using appropriate isolation levels instead of locktable, applying SIFT Bucket No. distributed by session ID, and preferring Number Sequence over Autoincrement for bulk insert performance"
+  ],
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "platform"
+  ],
+  "topics": [
+    "performance optimization",
+    "inventory posting",
+    "deadlock reduction",
+    "flowfield calculations",
+    "locking strategy",
+    "wave 1 26.x",
+    "concurrency",
+    "number sequence"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Resource Ledger Entry"
+    },
+    {
+      "type": "other",
+      "name": "Number Sequence"
+    }
+  ],
+  "features": [
+    "Less-locking inventory posting engine",
+    "Visible FlowField calculation optimization",
+    "Number Sequence object for inventory posting",
+    "SIFT optimization with bucket distribution",
+    "ReadIsolation isolation level",
+    "Autoincrement deprecation for Number Sequence"
+  ],
+  "versions": [
+    "26.x",
+    "26.1",
+    "25.x"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Item Ledger Entry deadlocks and lock timeouts… puff. Gone with the wind.",
+      "why_it_matters": "Demonstrates the tangible impact of the new inventory posting engine on reducing contention in complex manufacturing environments"
+    },
+    {
+      "text": "The difference, sometimes, is HUGE. (overall when you have invisible FlowFields that does not have a supporting index)",
+      "why_it_matters": "Shows why skipping FlowField calculations for hidden columns can dramatically improve page performance"
+    },
+    {
+      "text": "When you upgrade and enable the new inventory posting engine, you must test the concurrency A LOT.",
+      "why_it_matters": "Emphasizes that the feature requires comprehensive testing to surface new deadlock patterns that may emerge"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

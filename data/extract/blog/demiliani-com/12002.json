@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/demiliani-com/12002",
+  "url": "https://demiliani.com/2025/06/25/azure-logic-apps-are-you-handling-large-blobs-keep-memory-usage-under-control/",
+  "title": "Azure Logic Apps: are you handling large blobs? Keep memory usage under control.",
+  "source": "demiliani-com",
+  "published_at": "2025-06-25T14:19:13.000Z",
+  "words": 779,
+  "summary": "Handling large blob files in Azure Logic Apps for Dynamics 365 Business Central integration can cause excessive memory usage because built-in connectors load all data into memory. To prevent out-of-memory exceptions, monitor workflow concurrency, ensure 64-bit platform settings, and delegate large file processing to Azure Functions or inline code.",
+  "key_points": [
+    "Built-in Azure Logic Apps connectors load entire files into memory, causing high memory consumption with large blobs",
+    "Logic Apps Standard in WS1 plan (3.5 GB total) can run out of memory when processing multiple large files or concurrent executions",
+    "Solutions include monitoring workflow concurrency, verifying 64-bit platform configuration, and delegating file processing to Azure Functions",
+    "Using Azure Functions or inline code functions significantly improves performance and memory efficiency for large file handling"
+  ],
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "azure logic apps",
+    "blob storage",
+    "memory optimization",
+    "large files",
+    "serverless",
+    "connectors",
+    "performance",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "Blob Storage connector",
+    "built-in connectors",
+    "managed connectors",
+    "Azure Functions integration",
+    "workflow concurrency monitoring",
+    "inline code functions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The built-in connectors load all the informations into memory by design.",
+      "why_it_matters": "Explains the root cause of memory issues when processing large blobs in Logic Apps workflows"
+    },
+    {
+      "text": "Usually the built-in version of a connector provides better performance than the managed counterpart, so it's why they are proposed as default.",
+      "why_it_matters": "Shows the trade-off between performance and memory usage when choosing connector types"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

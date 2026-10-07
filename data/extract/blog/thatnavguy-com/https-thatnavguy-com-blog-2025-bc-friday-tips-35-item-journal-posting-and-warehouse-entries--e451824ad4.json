@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries/",
+  "title": "BC Friday Tips #35 Item Journal Posting and Warehouse Entries",
+  "source": "thatnavguy-com",
+  "published_at": "2025-06-13T00:00:00.000Z",
+  "words": 115,
+  "summary": "Item journal posting in AL has two codeunits: Codeunit 22 posts individual lines while Codeunit 23 posts entire batches. When warehouse entries are needed, use Codeunit 23 even for single lines, as Codeunit 22 silently fails to create warehouse entries without throwing an error.",
+  "key_points": [
+    "Codeunit 22 posts one journal line at a time",
+    "Codeunit 23 posts all lines in a batch",
+    "Codeunit 22 does not create warehouse entries and won't error",
+    "Always use Codeunit 23 when warehouse entries are involved"
+  ],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "item journal",
+    "posting",
+    "warehouse entries",
+    "codeunit",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Batch"
+    }
+  ],
+  "features": [
+    "Item Journal Posting",
+    "Warehouse Entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Posting with Codeunit 22 doesn't create warehouse entries. It won't even throw an error.",
+      "why_it_matters": "Developers need to know that Codeunit 22 silently fails to create warehouse entries, which can lead to missed data without any error indication."
+    },
+    {
+      "text": "Always use Codeunit 23 \"Item Jnl.-Post Batch\" when warehouse entries are involved. Even if you're only posting one line.",
+      "why_it_matters": "This is the critical best practice that prevents data integrity issues when posting to warehouses."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/9815",
+  "url": "https://thedynamicsexplorer.com/2025/07/21/dynamics-365-business-central-how-to-change-the-vat-amount-on-a-purchase-invoice-or-purchase-order/",
+  "title": "Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-07-21T11:00:00.000Z",
+  "words": 416,
+  "summary": "Adjusting VAT amounts on purchase invoices and orders when Business Central's calculations differ from supplier invoices requires configuring the maximum allowed VAT difference and enabling the allow VAT difference option in setup pages, then editing VAT via the statistics view.",
+  "key_points": [
+    "Set Max. VAT Difference Allowed in General Ledger Setup to permit changes within a specified threshold",
+    "Enable Allow VAT Difference in Purchase & Payables Setup to unlock VAT editing functionality",
+    "Edit VAT amounts on Purchase Invoice page through Invoice > Statistics menu",
+    "Edit VAT amounts on Purchase Order page by drilling into No. of VAT Lines in the Invoicing FastTab",
+    "Adjust VAT to match the supplier's invoice amounts for accurate record keeping"
+  ],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vat adjustment",
+    "purchase invoices",
+    "purchase orders",
+    "configuration",
+    "vat difference"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Purchase & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    }
+  ],
+  "features": [
+    "VAT amount adjustment",
+    "VAT difference allowance",
+    "maximum VAT difference configuration",
+    "purchase document editing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We first do this by setting the Max. VAT Difference Allowed in the General Ledger Setup.",
+      "why_it_matters": "Identifies the first required configuration step to enable VAT adjustments"
+    },
+    {
+      "text": "Next I need to switch the Allow VAT Difference option ON in the Purchase & Payables Setup page.",
+      "why_it_matters": "Describes the second configuration step needed to allow VAT editing on purchase transactions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

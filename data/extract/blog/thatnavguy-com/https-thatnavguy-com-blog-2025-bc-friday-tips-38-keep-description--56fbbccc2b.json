@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/",
+  "title": "BC Friday Tips #38 Keep Description",
+  "source": "thatnavguy-com",
+  "published_at": "2025-07-11T00:00:00.000Z",
+  "words": 92,
+  "summary": "The Keep Description field in General Journals prevents the Description from being cleared when users change the Account Type, which is useful for preserving descriptions in imported or auto-generated journals.",
+  "key_points": [
+    "By default, BC clears the Description field when Account Type is changed on a journal line",
+    "The Keep Description field preserves the description text when switching between account types",
+    "Particularly beneficial for journals that are imported or generated automatically",
+    "Allows users to maintain description integrity without manual re-entry"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general journals",
+    "account management",
+    "data preservation",
+    "field behavior"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    }
+  ],
+  "features": [
+    "Keep Description field",
+    "General Journals",
+    "Account Type switching"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When you change the Account Type, BC clears the Description field by default.",
+      "why_it_matters": "Explains the core problem that the Keep Description field solves"
+    },
+    {
+      "text": "The Keep Description field can be used to preserve your text when switching accounts.",
+      "why_it_matters": "Describes the key capability and its primary use case"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

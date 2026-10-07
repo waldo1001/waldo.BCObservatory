@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/07/10/dynamics-365-business-central-how-to-use-the-recurring-requisition-worksheet-for-recurring-purchase-orders/",
   "published_at": "2025-07-10T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:19.082Z",
+      "path": "vault:posts/thedynamicsexplorer-com/7097.md",
+      "words": 573
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:19.089Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:19.090Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:19.091Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:19.100Z",
+      "path": "content/posts/thedynamicsexplorer-com/7097.md"
     }
   },
   "input_hash": "2026-04-30T19:20:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "32e61fa2e74350d3b3ce6991324522e07cefe62de7f4d7bb232290580e4eda14"
 }

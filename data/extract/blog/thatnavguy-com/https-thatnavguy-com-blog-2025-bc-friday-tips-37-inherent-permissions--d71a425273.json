@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/",
+  "title": "BC Friday Tips #37 Inherent Permissions",
+  "source": "thatnavguy-com",
+  "published_at": "2025-07-04T00:00:00.000Z",
+  "words": 77,
+  "summary": "Inherent Permissions in AL allow developers to grant temporary access during code execution without assigning permissions to individual users. This reduces permission management overhead and improves security by controlling access through code rather than user assignments.",
+  "key_points": [
+    "Inherent Permissions enable code to access objects without users needing explicit object permissions",
+    "Reduces the number of permissions to manage in the system",
+    "Improves security by granting access to code rather than to individual users",
+    "Developers can temporarily elevate permissions during specific code execution"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "security",
+    "al development",
+    "inherent permissions"
+  ],
+  "objects": [],
+  "features": [
+    "Inherent Permissions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Inherent Permissions allow developers to temporarily grant permissions during code execution.",
+      "why_it_matters": "This is the core capability - it explains what inherent permissions do and their primary benefit for developers."
+    },
+    {
+      "text": "Tighter security. You grant access to the code, not the user.",
+      "why_it_matters": "This highlights the security advantage over traditional permission models by shifting access control from users to code."
+    },
+    {
+      "text": "Fewer permissions to manage.",
+      "why_it_matters": "This demonstrates the operational efficiency benefit of reducing permission complexity in the system."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/11887",
+  "url": "https://demiliani.com/2025/06/03/dynamics-365-business-central-using-a-static-ip-address-to-access-apis/",
+  "title": "Dynamics 365 Business Central: using a static IP address to access APIs.",
+  "source": "demiliani-com",
+  "published_at": "2025-06-03T10:33:07.000Z",
+  "words": 777,
+  "summary": "When third-party systems require a static IP address for API calls to Business Central, a common solution uses an Azure Function with a virtual network NAT gateway to route traffic through a fixed outbound IP. This approach bypasses the limitation that SaaS environments have dynamic IP addresses.",
+  "key_points": [
+    "SaaS Business Central uses dynamic IP addresses, which conflicts with third-party systems requiring static IPs for firewall allowlisting",
+    "Azure Service Tags are the recommended solution, but not all third-party systems support them",
+    "An Azure Function in Premium or Flex Plan acts as a middleware to route requests and can be assigned a static IP via a NAT gateway",
+    "Configure virtual network integration in the Function app and set WEBSITE_VNET_ROUTE_ALL environment variable to 1 to route all outbound traffic through the VNET",
+    "A NAT gateway with a public IP address ensures all API responses to third-party systems originate from a single static IP"
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "api integration",
+    "static ip",
+    "azure function",
+    "network security",
+    "firewall",
+    "saas",
+    "third-party integration"
+  ],
+  "objects": [],
+  "features": [
+    "API access",
+    "virtual network integration",
+    "NAT gateway",
+    "Azure Functions",
+    "outbound IP control",
+    "environment variables"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "this scenario is not possible on a SaaS environment because the IP addresses of a Dynamics 365 Business Central tenant are not fixed",
+      "why_it_matters": "Explains the core problem that triggers the need for this solution"
+    },
+    {
+      "text": "A possible solution is to use an Azure Function as a middle layer between the third-party system and Dynamics 365 Business Central.",
+      "why_it_matters": "Introduces the recommended workaround for the static IP requirement"
+    },
+    {
+      "text": "The Azure Function must be deployed in the Premium Plan or in the new Flex plan to be able to support this scenario.",
+      "why_it_matters": "Specifies the critical requirement for using NAT gateway with Azure Functions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

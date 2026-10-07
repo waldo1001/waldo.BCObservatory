@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1826",
+  "url": "https://aardvarklabs.blog/2025/06/06/how-to-work-with-json-in-business-centrals-al-code/",
+  "title": "How to Work with JSON in Business Central’s AL Code",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-06-06T12:00:00.000Z",
+  "words": 1754,
+  "summary": "Working with JSON in Business Central AL involves understanding JSON structures (values, objects, arrays) and using JsonObject, JsonArray, and JsonToken types to parse incoming JSON data and export records as JSON. This is essential for API integrations, AI systems, and computer-to-computer data exchanges.",
+  "key_points": [
+    "JSON has three main building blocks: values (name-value pairs), objects (containers grouping values and arrays), and arrays (lists of objects or values)",
+    "Use JsonObject.ReadFrom() to parse JSON text into objects, then extract values with GetText() and GetInteger() methods",
+    "Loop through JSON arrays using foreach statements with JsonToken to process each element",
+    "Export record data as JSON by building JsonObject and JsonArray structures, then call WriteTo() to convert to text for download",
+    "JSON is preferred over XML/SOAP for REST APIs due to being simpler, human-readable, and having less overhead"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "json",
+    "al code",
+    "api integration",
+    "data exchange",
+    "file handling",
+    "import export"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "JsonObject"
+    },
+    {
+      "type": "other",
+      "name": "JsonArray"
+    },
+    {
+      "type": "other",
+      "name": "JsonToken"
+    },
+    {
+      "type": "other",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "other",
+      "name": "TextBuilder"
+    }
+  ],
+  "features": [
+    "JSON parsing",
+    "JSON export",
+    "File upload and download",
+    "REST API integration",
+    "Record serialization",
+    "Array iteration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "REST APIs use JSON and are generally simpler, human readable, and leaner.",
+      "why_it_matters": "Explains why JSON is the standard for modern API communication in Business Central"
+    },
+    {
+      "text": "Working with JSON data is critically important as we progress into more complex AI and data integration systems.",
+      "why_it_matters": "Highlights the strategic importance of JSON skills for developers building AI and integration solutions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

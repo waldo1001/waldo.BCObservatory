@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/07/08/2025-jul-cumulative-updates-for-business-central/",
   "published_at": "2025-07-08T16:41:13.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:19.568Z",
+      "path": "vault:posts/gerardorenteria-blog/11452.md",
+      "words": 273
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:19.573Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:19.574Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:19.575Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:19.580Z",
+      "path": "content/posts/gerardorenteria-blog/11452.md"
     }
   },
   "input_hash": "2025-07-08T16:41:13.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a300ea4c87ec9a4cc1292200f546e287c3c95c138a7dc26108eb30651f87d988"
 }

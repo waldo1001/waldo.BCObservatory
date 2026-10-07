@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/07/28/simplifying-cyber-security-insights-from-code-squirrel-blog/",
   "published_at": "2025-07-28T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:17.715Z",
+      "path": "vault:posts/aardvarklabs-blog/2253.md",
+      "words": 129
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:17.721Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:17.723Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:17.723Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:17.728Z",
+      "path": "content/posts/aardvarklabs-blog/2253.md"
     }
   },
   "input_hash": "2025-07-25T17:46:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e53d553175ec3f6f44dd87f446a1c193f4df952d089ccc5aae795a4a8603306e"
 }

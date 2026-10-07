@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/7097",
+  "url": "https://thedynamicsexplorer.com/2025/07/10/dynamics-365-business-central-how-to-use-the-recurring-requisition-worksheet-for-recurring-purchase-orders/",
+  "title": "Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-07-10T09:00:00.000Z",
+  "words": 573,
+  "summary": "The Recurring Requisition Worksheet automates repeated purchases of the same items by preserving worksheet lines after creating purchase orders and automatically updating order dates. This feature saves time for businesses that place regular orders for specific items or services.",
+  "key_points": [
+    "Unlike the standard Requisition Worksheet, the Recurring Requisition Worksheet retains lines after generating purchase orders for reuse",
+    "Order dates automatically advance by the configured recurring frequency each time purchase orders are created",
+    "The recurring method can be set to 'Fixed' to maintain the same quantity or 'Variable' to reset quantity to zero after ordering",
+    "Only the 'Purchase' replenishment system is supported in the Recurring Requisition Worksheet, unlike the standard worksheet which allows transfers or assembly options",
+    "Setup requires creating a Recurring template in the Requisition Worksheet Template page and then using named worksheets within it"
+  ],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "recurring orders",
+    "purchase requisition",
+    "automation",
+    "planning",
+    "inventory management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Recurring Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet Template"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet Names"
+    }
+  ],
+  "features": [
+    "Recurring Requisition Worksheet",
+    "Calculate Plan function",
+    "Carry Out Action Message",
+    "Recurring Method setting",
+    "Recurring Frequency setting",
+    "Automatic order date calculation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This can prove a real time saver if you make regular purchases for certain items or services each month",
+      "why_it_matters": "Directly demonstrates the business value of reduced manual work and improved ordering efficiency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

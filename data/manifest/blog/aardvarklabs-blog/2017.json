@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/07/11/step-by-step-guide-to-business-central-api-queries/",
   "published_at": "2025-07-11T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.944Z",
+      "path": "vault:posts/aardvarklabs-blog/2017.md",
+      "words": 674
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.948Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.949Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.950Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.958Z",
+      "path": "content/posts/aardvarklabs-blog/2017.md"
     }
   },
   "input_hash": "2025-08-13T13:10:40.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bc17a4edfc764a65e10657ae0a913d87abea9c4e3b5b3c0d1ca00e2e7c01dcc9"
 }

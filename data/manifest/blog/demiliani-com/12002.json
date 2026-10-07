@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/06/25/azure-logic-apps-are-you-handling-large-blobs-keep-memory-usage-under-control/",
   "published_at": "2025-06-25T14:19:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:20.716Z",
+      "path": "vault:posts/demiliani-com/12002.md",
+      "words": 779
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:20.722Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:20.722Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:20.723Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:20.730Z",
+      "path": "content/posts/demiliani-com/12002.md"
     }
   },
   "input_hash": "2025-06-25T14:19:13.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37770fe1baf760f38da1a0732cacc1ac4d1b37c051f6fed66551d17c4ecf5f56"
 }

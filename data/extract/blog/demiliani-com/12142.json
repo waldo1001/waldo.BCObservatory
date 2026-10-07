@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/12142",
+  "url": "https://demiliani.com/2025/07/22/dynamics-365-business-central-checking-for-breaking-changes-on-obsoleted-internal-and-onprem-objects/",
+  "title": "Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.",
+  "source": "demiliani-com",
+  "published_at": "2025-07-22T09:39:17.000Z",
+  "words": 695,
+  "summary": "AL extensions for Business Central can have obsoleted, internal, or OnPrem-scoped objects where breaking changes are not detected by default during AppSource validation. Microsoft added AppSourceCop configuration settings (validateObsoleteSymbols, validateInternalSymbols, validateOnPremSymbols) to enable breaking change validation on these previously excluded symbols.",
+  "key_points": [
+    "AppSourceCop does not validate breaking changes on obsoleted objects, internal symbols, or OnPrem-scoped methods by default",
+    "Breaking changes to internal symbols with internalsVisibleTo can silently break dependent extensions without being caught",
+    "Three new AppSourceCop.json configuration parameters enable validation of these excluded symbol types",
+    "validateInternalSymbols is particularly important for extensions using internalsVisibleTo that other apps depend on"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "appsourcecop",
+    "breaking changes",
+    "al extensions",
+    "code validation",
+    "internals",
+    "obsoleted objects",
+    "onprem scope"
+  ],
+  "objects": [],
+  "features": [
+    "AppSourceCop analyzer",
+    "AppSourceCop.json configuration",
+    "validateObsoleteSymbols setting",
+    "validateInternalSymbols setting",
+    "validateOnPremSymbols setting",
+    "internalsVisibleTo property",
+    "breaking change detection"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "By default, all these objects are not validated by AppSourceCop nor by the AppSource technical validation process.",
+      "why_it_matters": "Explains the core problem that unvalidated obsolete, internal, and OnPrem symbols can have breaking changes slip through"
+    },
+    {
+      "text": "AppSource validation is not checking for those problems…",
+      "why_it_matters": "Emphasizes why developers must manually configure these new settings to catch such breaking changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

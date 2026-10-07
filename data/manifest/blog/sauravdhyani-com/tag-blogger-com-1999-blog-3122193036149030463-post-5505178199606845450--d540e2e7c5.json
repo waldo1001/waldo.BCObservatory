@@ -7,7 +7,7 @@
   "url": "https://www.sauravdhyani.com/2026/10/business-central-290-is-generally.html",
   "published_at": "2026-10-01T17:11:26.437Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-07T01:47:11.824Z",
       "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5505178199606845450--d540e2e7c5.md",
       "words": 2235
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.293Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.013122
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.295Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.296Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.304Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5505178199606845450--d540e2e7c5.md"
     }
   },
   "input_hash": "2026-10-01T17:11:26.437Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67bcd3b2f3ee5ae17ee67ea7eceddfad012b6009e154794c23200f25e6d4c09e"
+  "output_hash": "d30ffc7f6f1ff1e69bfade3bae18ac1263f508ccf00fb0a0f9f2724d9e87603b"
 }

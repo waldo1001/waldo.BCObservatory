@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/06/16/high-performance-workflows-with-azure-logic-apps-using-azure-sql-as-storage-provider/",
   "published_at": "2025-06-16T15:39:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.389Z",
+      "path": "vault:posts/demiliani-com/11932.md",
+      "words": 476
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.396Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.397Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.398Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.404Z",
+      "path": "content/posts/demiliani-com/11932.md"
     }
   },
   "input_hash": "2025-06-16T15:39:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e95680c7e8aa750e05f83a8dd788c0645781374932bfb6fb32e12dcb28f04ae"
 }

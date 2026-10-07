@@ -7,13 +7,39 @@
   "url": "https://jpearson.blog/2025/07/18/calling-business-central-directly-from-a-managed-identity/",
   "published_at": "2025-07-18T11:54:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.551Z",
+      "path": "vault:posts/jpearson-blog/1535.md",
+      "words": 636
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.559Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.560Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.561Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.567Z",
+      "path": "content/posts/jpearson-blog/1535.md"
     }
   },
   "input_hash": "2025-07-18T10:59:50.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b38582115016b0da9884cc71144a510b65f99b144aac32aee11fa828a3b8c6a0"
 }

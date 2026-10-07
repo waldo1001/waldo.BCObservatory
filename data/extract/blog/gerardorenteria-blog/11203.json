@@ -1,0 +1,105 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11203",
+  "url": "https://gerardorenteria.blog/2025/06/02/new-application-ideas-of-dynamics-365-business-central-2025-may/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2025 MAY)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-06-02T21:40:17.000Z",
+  "words": 1107,
+  "summary": "The post presents a comprehensive list of feature improvement ideas submitted to Dynamics 365 Business Central for May 2025, organized by functional areas including finance, sales, inventory, manufacturing, and more. It serves as a resource for developers, consultants, and users seeking proposed enhancements across all Business Central modules.",
+  "key_points": [
+    "Over 80 improvement suggestions span multiple areas: data migration, development tools, financial management, inventory, manufacturing, sales, purchasing, service management, and administration.",
+    "Development-focused ideas include enhancements to CSVBuffer, Variant functions, Bank Account Reconciliation, Edit in Excel, and AppSource delivery options.",
+    "Finance suggestions address VAT reporting, Intrastat improvements, bank reconciliation features, and currency handling in journal posting.",
+    "Cross-module ideas cover Copilot integration for business rules assessment, support for vision-enabled OpenAI models, and improved lock timeout tracking.",
+    "Regional and localization improvements include EU VAT validation, E-Documents enhancements, and country-specific reporting like OSS for Austria."
+  ],
+  "systems": [
+    "development",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "feature requests",
+    "application ideas",
+    "copilot",
+    "e-documents",
+    "subscription billing",
+    "shopify connector",
+    "power automate",
+    "intrastat",
+    "vat reporting",
+    "edit in excel"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "CSVBuffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "Transfer Extended Text"
+    },
+    {
+      "type": "table",
+      "name": "Document Attachment"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Invoice Discount"
+    },
+    {
+      "type": "table",
+      "name": "VAT entries"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Security Groups"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Projected Value"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Edit in Excel for Sales and Purchase Prices",
+    "Copilot for business rules assessment",
+    "Vision-enabled OpenAI models support",
+    "Subscription Billing enhancements",
+    "Shopify Connector improvements",
+    "E-Documents support for other line types",
+    "Intrastat statistical value with item charges",
+    "Bank Account Reconciliation improvements",
+    "Power Automate PDF attachment retrieval",
+    "Mandatory Fields for non-developers"
+  ],
+  "versions": [
+    "2025 May"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Sets the purpose of the post as a curated collection of community-sourced feature suggestions for Business Central improvement."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

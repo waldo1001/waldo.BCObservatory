@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/06/23/dynamics-365-business-central-compressing-api-responses-at-max/",
   "published_at": "2025-06-23T13:15:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.067Z",
+      "path": "vault:posts/demiliani-com/11962.md",
+      "words": 761
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.074Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.075Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.076Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.081Z",
+      "path": "content/posts/demiliani-com/11962.md"
     }
   },
   "input_hash": "2025-06-23T13:22:49.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a2e09575ebb674c12b75e626bb0b211f6d447ced0def29ef482ece34f35592a"
 }

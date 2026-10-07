@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1891",
+  "url": "https://aardvarklabs.blog/2025/06/13/implementing-a-multi-step-process-for-ai-recommendations-in-business-central/",
+  "title": "Implementing a Multi-Step Process for AI Recommendations in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-06-13T12:00:00.000Z",
+  "words": 1587,
+  "summary": "This post demonstrates how to build a multi-step AI-assisted process in Business Central that generates product recommendations from sales order line descriptions. The process uses AI to identify keywords from sales line data, then searches the item catalog to recommend relevant products for users to add to their orders.",
+  "key_points": [
+    "AI can play a supporting role in a multi-step process rather than providing complete answers",
+    "The implementation collects sales line descriptions and passes them to an AI agent to extract keywords",
+    "Keywords are used with Full Text Search (release 25.2) to find matching items in the catalog",
+    "Users can select recommended items which are then automatically added as new sales lines",
+    "Tracking token count by character length helps manage AI costs and improves result quality"
+  ],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "ai recommendations",
+    "multi-step process",
+    "sales orders",
+    "full text search",
+    "json",
+    "item discovery"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_CopilotItemRecommendations"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ItemRecomendations"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CopilotItemRecommendations"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ItemRecommendationPrompt"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "AI-powered item recommendations",
+    "Full Text Search",
+    "JSON processing",
+    "Sales order line analysis",
+    "Temporary table management",
+    "Multi-step process design",
+    "Keyword extraction",
+    "Item selection and insertion"
+  ],
+  "versions": [
+    "25.2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The AI Agent doesn't have to provide the entire answer. In this case it digested data that we could use in our process.",
+      "why_it_matters": "This insight explains that AI should be designed as part of a workflow, not as a standalone solution, enabling better integration with existing business processes."
+    },
+    {
+      "text": "On line 18 we use the Full Text Search functions of Business Central that were introduced in release 25.2.",
+      "why_it_matters": "Highlights the use of Business Central's native Full Text Search capability to find items matching AI-generated keywords, avoiding the need to share entire catalogs with third parties."
+    },
+    {
+      "text": "Because these are going into the user prompt, and ever 4-ish characters is a token and tokens cost money.",
+      "why_it_matters": "Demonstrates practical cost optimization by limiting description input to 10,000 characters, showing awareness of AI token economics in production implementations."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

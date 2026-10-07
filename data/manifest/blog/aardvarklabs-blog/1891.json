@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/06/13/implementing-a-multi-step-process-for-ai-recommendations-in-business-central/",
   "published_at": "2025-06-13T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.556Z",
+      "path": "vault:posts/aardvarklabs-blog/1891.md",
+      "words": 1587
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.569Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.570Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.571Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.586Z",
+      "path": "content/posts/aardvarklabs-blog/1891.md"
     }
   },
   "input_hash": "2025-06-11T02:03:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42ba017ce2bc03f5c77db0beb330ea238cc601e447194330b2f722b8e813661f"
 }

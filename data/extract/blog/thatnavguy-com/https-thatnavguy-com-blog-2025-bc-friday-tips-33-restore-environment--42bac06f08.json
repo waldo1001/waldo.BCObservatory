@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/",
+  "title": "BC Friday Tips #34 Restore Environment",
+  "source": "thatnavguy-com",
+  "published_at": "2025-06-06T00:00:00.000Z",
+  "words": 137,
+  "summary": "Business Central allows administrators to restore an environment from a previous point in time using the Admin Center, enabling recovery of accidentally deleted data from backups within the past 28 days. This feature helps protect against data loss incidents by allowing point-in-time recovery.",
+  "key_points": [
+    "Restore environments to any point within the last 28 days through the Admin Center",
+    "Navigate to environment settings, select Restore, choose a previous date and time, then name the restored environment",
+    "Copy recovered data back to production after successful restoration",
+    "Provides protection against accidental data deletion in production environments"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "backup and restore",
+    "data recovery",
+    "admin center",
+    "disaster recovery",
+    "tenant administration"
+  ],
+  "objects": [],
+  "features": [
+    "Environment Restore",
+    "Point-in-time Recovery",
+    "Backup Management",
+    "Admin Center"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can restore to any point in the past 28 days.",
+      "why_it_matters": "Clarifies the time window available for recovery, a critical constraint administrators need to understand"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

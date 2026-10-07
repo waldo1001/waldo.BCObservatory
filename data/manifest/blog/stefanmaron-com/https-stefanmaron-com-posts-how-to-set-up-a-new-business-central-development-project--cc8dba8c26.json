@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/",
   "published_at": "2025-06-05T05:32:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:22.201Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md",
+      "words": 2419
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:25.885Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:25.887Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:25.888Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:25.898Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7751a4db5599b7ee70a1eab4dfc4ec698bcf432e17610edd10a0016b2c91045"
 }

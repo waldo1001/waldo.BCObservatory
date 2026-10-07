@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/demiliani-com/12036",
+  "url": "https://demiliani.com/2025/07/08/why-not-start-improving-business-central-apis-definitions-for-supporting-ai/",
+  "title": "Why not start improving Business Central APIs definitions for supporting AI?",
+  "source": "demiliani-com",
+  "published_at": "2025-07-08T07:08:17.000Z",
+  "words": 1779,
+  "summary": "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions. The post explains how exposing API descriptions, field types, and OpenAPI specifications would help AI agents automatically discover and use the right endpoints without explicit function calling.",
+  "key_points": [
+    "Current Business Central APIs were not designed for AI and lack descriptions that LLMs need to understand field meanings and relationships",
+    "API page Description properties should be exposed in Page Metadata table to pass dynamic API context to language models",
+    "OpenAPI specification support should be offered out of the box for all APIs (standard, custom, third-party) to enable automatic schema discovery",
+    "AI agents require structured metadata including endpoints, parameters, request/response formats, and field explanations to function effectively without hallucinating"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "api definitions",
+    "function calling",
+    "semantic kernel",
+    "openapi specification",
+    "ai metadata",
+    "llm integration",
+    "odata filters"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SD Sales Invoice API"
+    },
+    {
+      "type": "table",
+      "name": "Page Metadata"
+    },
+    {
+      "type": "table",
+      "name": "Page Table Field"
+    },
+    {
+      "type": "table",
+      "name": "Page Info and Fields"
+    }
+  ],
+  "features": [
+    "API metadata exposure",
+    "OpenAPI specification support",
+    "Description property for AI",
+    "Dynamic API discovery",
+    "Schema validation",
+    "Field type documentation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "An LLM-ready API is an interface designed for intelligent agents to use reliably and programmatically without the need for human translation.",
+      "why_it_matters": "Defines the goal: APIs must be naturally understandable to language models without requiring human explanation or workarounds"
+    },
+    {
+      "text": "AI agents require access to comprehensive API schema definitions, including endpoints, parameters, and capabilities, to function effectively.",
+      "why_it_matters": "Core requirement for AI solutions in Business Central that prevents hallucinated behaviors and incorrect API calls"
+    },
+    {
+      "text": "It's time to make APIs the cornerstone of your AI strategy also in Business Central.",
+      "why_it_matters": "Captures the central thesis that API design should prioritize AI consumption as a fundamental business strategy"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

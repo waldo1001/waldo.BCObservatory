@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/06/20/creating-low-code-ai-agents-with-copilot-studio-and-business-central/",
   "published_at": "2025-06-20T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.206Z",
+      "path": "vault:posts/aardvarklabs-blog/1818.md",
+      "words": 1009
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.215Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.216Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.217Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.224Z",
+      "path": "content/posts/aardvarklabs-blog/1818.md"
     }
   },
   "input_hash": "2025-06-18T01:27:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6d4c4dc54625b4a1f64ae2b2caff2ab0b9d834a989ba49ab0a0a3b690d46b6a"
 }

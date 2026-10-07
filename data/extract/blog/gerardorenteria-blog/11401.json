@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11401",
+  "url": "https://gerardorenteria.blog/2025/07/01/%f0%9f%a4%96-manage-your-projects-repositories-and-more-with-azure-devops-mcp-server-%e2%9c%85/",
+  "title": "🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-06-30T22:08:26.000Z",
+  "words": 687,
+  "summary": "The Azure DevOps MCP Server is an open source project that implements the Model Context Protocol to allow LLM agents to interact with Azure DevOps services securely. Agents can query projects, repositories, builds, work items, and backlogs using natural language, reducing manual navigation time.",
+  "key_points": [
+    "MCP server enables LLM agents to access Azure DevOps projects, repositories, builds, and work items through natural language queries",
+    "Requires Node.js 20+, Azure CLI, and configuration of mcp.json file with organization name",
+    "Agents can create and update work items, browse backlogs, and query repositories without manual web interface navigation",
+    "Increases productivity by providing direct structured access to DevOps information through an open source protocol"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "azure devops",
+    "mcp server",
+    "model context protocol",
+    "llm agents",
+    "devops",
+    "automation",
+    "natural language"
+  ],
+  "objects": [],
+  "features": [
+    "project management",
+    "repository access",
+    "build information",
+    "work item creation",
+    "backlog browsing",
+    "natural language queries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The MCP server for Azure DevOps allows access to your projects, repositories, builds, work items, and more, all from an LLM agent.",
+      "why_it_matters": "Demonstrates the core capability of the MCP server to provide comprehensive Azure DevOps access through agents"
+    },
+    {
+      "text": "We increase productivity by reducing manual browsing and searching time.",
+      "why_it_matters": "Explains the business value of using agents with MCP for DevOps tasks"
+    },
+    {
+      "text": "All of this using natural language.",
+      "why_it_matters": "Highlights the user-friendly approach agents take to interact with DevOps resources"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

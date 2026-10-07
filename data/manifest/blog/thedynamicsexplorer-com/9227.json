@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/06/16/dynamics-gp-to-business-central-how-to-control-your-general-ledger-code-and-dimension-combinations-using-allowed-values-filter/",
   "published_at": "2025-06-16T10:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:21.592Z",
+      "path": "vault:posts/thedynamicsexplorer-com/9227.md",
+      "words": 525
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:21.599Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:21.600Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:21.602Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:21.607Z",
+      "path": "content/posts/thedynamicsexplorer-com/9227.md"
     }
   },
   "input_hash": "2026-04-30T19:17:22.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ade4140b2b845da923b765b522b6419d1178ab1405eea03aad55a3a5d5091d3"
 }

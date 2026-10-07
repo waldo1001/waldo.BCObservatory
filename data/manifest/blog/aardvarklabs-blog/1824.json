@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/07/18/step-by-step-guide-to-excel-reporting-in-business-central/",
   "published_at": "2025-07-18T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.458Z",
+      "path": "vault:posts/aardvarklabs-blog/1824.md",
+      "words": 1066
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.469Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.470Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.471Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.480Z",
+      "path": "content/posts/aardvarklabs-blog/1824.md"
     }
   },
   "input_hash": "2026-02-18T03:44:25.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7adf273d40ebfd152626187d802ebfbc85f3b0f13523312839d4e2986f52eea"
 }

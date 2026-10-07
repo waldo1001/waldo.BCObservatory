@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/jpearson-blog/1535",
+  "url": "https://jpearson.blog/2025/07/18/calling-business-central-directly-from-a-managed-identity/",
+  "title": "Calling Business Central Directly from a Managed Identity",
+  "source": "jpearson-blog",
+  "published_at": "2025-07-18T11:54:00.000Z",
+  "words": 636,
+  "summary": "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials or app registrations. This enables Azure resources to call Business Central APIs securely without creating or storing client secrets.",
+  "key_points": [
+    "Assign API permissions directly to managed identities using Microsoft Graph PowerShell module",
+    "Bypass the need for separate app registrations and federated credentials",
+    "Create an Entra Application record in Business Central using the managed identity's client ID",
+    "View assigned permissions through Azure Portal's Enterprise applications section or PowerShell",
+    "Eliminates the need to create, store, and rotate client secrets for API access"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "managed identity",
+    "api permissions",
+    "authentication",
+    "powershell",
+    "azure",
+    "entra",
+    "client secret",
+    "federated credentials"
+  ],
+  "objects": [],
+  "features": [
+    "API authentication",
+    "managed identity integration",
+    "Entra Application records",
+    "role assignment",
+    "app role permissions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can assign Business Central (and other) API permissions to managed identities.",
+      "why_it_matters": "Establishes the core capability that managed identities can directly receive BC API permissions without intermediate app registrations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

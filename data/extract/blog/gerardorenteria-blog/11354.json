@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11354",
+  "url": "https://gerardorenteria.blog/2025/06/24/%f0%9f%9a%80-boost-your-copilot-real-time-access-to-official-microsoft-learn-%f0%9f%9a%80/",
+  "title": "🚀 Boost your Copilot: Real-Time Access to Official Microsoft Learn 🚀",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-06-24T09:11:39.000Z",
+  "words": 553,
+  "summary": "The Microsoft Learn Docs MCP server enables developers to access real-time official Microsoft documentation within GitHub Copilot and IDEs in agent mode. It provides accurate, up-to-date information during Business Central development by connecting AI tools directly to Microsoft Learn.",
+  "key_points": [
+    "MCP server connects AI assistants to official Microsoft Learn documentation via https://learn.microsoft.com/api/mcp endpoint",
+    "Activate Copilot in agent mode to access the microsoft_docs_search tool in VS Code, Visual Studio, and other IDEs",
+    "Configure by updating mcp.json with the Microsoft Docs MCP server URL",
+    "Delivers precise answers based on current documentation rather than relying on training cutoff dates"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp server",
+    "github copilot",
+    "ai assistants",
+    "documentation",
+    "agent mode",
+    "development environment",
+    "business central",
+    "business events"
+  ],
+  "objects": [],
+  "features": [
+    "Model Context Protocol integration",
+    "real-time documentation access",
+    "Copilot agent mode",
+    "VS Code configuration",
+    "microsoft_docs_search tool"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We'll have answers and suggestions based on the most up-to-date Microsoft documentation, right in our development environment.",
+      "why_it_matters": "Highlights the key benefit of eliminating training data cutoff limitations during development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

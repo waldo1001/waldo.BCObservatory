@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/07/14/dynamics-365-business-central-on-prem-be-careful-when-referencing-net-assemblies-across-versions/",
   "published_at": "2025-07-14T13:40:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:18.864Z",
+      "path": "vault:posts/demiliani-com/12123.md",
+      "words": 464
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:18.870Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:18.871Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:18.872Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:18.876Z",
+      "path": "content/posts/demiliani-com/12123.md"
     }
   },
   "input_hash": "2025-07-14T13:40:05.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3e863fdd73255a9a2d93003b4fa5f9d9195c6c5ad945165f3f33e2071133e20"
 }

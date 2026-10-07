@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5505178199606845450",
+  "url": "https://www.sauravdhyani.com/2026/10/business-central-290-is-generally.html",
+  "title": "Business Central 29.0 Is Generally Available: What Cloud Customers and Partners Need to Do.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-01T17:11:26.437Z",
+  "words": 2235,
+  "summary": "Business Central version 29.0 (2026 release wave 2) is now generally available, marking the start of the next upgrade cycle for cloud customers. New customers will be provisioned with version 29.0, and existing Business Central 28 customers should prepare for upgrades through testing, notification configuration, extension validation, and scheduled maintenance planning.",
+  "key_points": [
+    "New Business Central cloud environments now start with version 29.0; version 28 will eventually be removed from creation options",
+    "Administrators must configure notification recipients to receive Microsoft upgrade and compatibility alerts",
+    "Production upgrades should be scheduled after sandbox testing completes, with update windows aligned to customer time zones and maintenance periods",
+    "Per-Tenant Extensions must be validated against version 29.0 before production upgrades",
+    "Customers planning version 28 go-live should create required environments immediately while that version remains available"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "version 29.0",
+    "cloud environments",
+    "production planning",
+    "extensions",
+    "maintenance"
+  ],
+  "objects": [],
+  "features": [
+    "Environment creation",
+    "Version selection",
+    "Sandbox environments",
+    "Production environments",
+    "Update scheduling",
+    "Notification recipients",
+    "Environment copy capabilities",
+    "Localization selection"
+  ],
+  "versions": [
+    "29.0",
+    "2026 release wave 2",
+    "28",
+    "28.x"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "New Business Central cloud environments will start with Business Central 29.0.",
+      "why_it_matters": "Clarifies that all new customer provisioning immediately shifts to the latest version upon GA"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013122,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-36-emoji-in-bc/",
   "published_at": "2025-06-27T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:20.366Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-36-emoji-in-bc--f35132e57c.md",
+      "words": 93
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:20.372Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:20.373Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:20.374Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:20.378Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-36-emoji-in-bc--f35132e57c.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9eceea3d1d8eb14c0ba4d35a3ad23a4b09d56fd660ccb1326fe9e4dbcce6508a"
 }

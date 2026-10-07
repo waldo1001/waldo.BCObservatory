@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/12076",
+  "url": "https://demiliani.com/2025/07/10/dynamics-365-business-central-introducing-the-payables-agent/",
+  "title": "Dynamics 365 Business Central: introducing the Payables Agent.",
+  "source": "demiliani-com",
+  "published_at": "2025-07-10T07:22:49.000Z",
+  "words": 491,
+  "summary": "Microsoft introduces the Payables Agent in Business Central version 26.3, an AI agent that automates accounts payable tasks by sourcing vendor invoices from email and SharePoint, then creating and populating purchase invoice documents for review. Available in public preview for US and UK localizations, it uses purchase history and company policies to suggest invoice details while requiring human confirmation before finalizing documents.",
+  "key_points": [
+    "The Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint, then creating purchase invoice drafts",
+    "Setup requires activating the agent and configuring a shared email account to monitor for incoming vendor invoices",
+    "The agent suggests invoice details based on past purchase data and company accounting policies, with options to auto-fill additional fields",
+    "Human-in-the-loop confirmation is required before the agent finalizes purchase invoices",
+    "Currently in public preview for US and UK only; agents will transition from free preview to pay-as-you-go or message pack pricing models"
+  ],
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "accounts payable",
+    "automation",
+    "ai agent",
+    "invoice processing",
+    "vendor invoices",
+    "email integration"
+  ],
+  "objects": [],
+  "features": [
+    "Payables Agent",
+    "vendor invoice automation",
+    "email monitoring",
+    "SharePoint integration",
+    "purchase invoice creation",
+    "human-in-the-loop review",
+    "invoice field auto-fill",
+    "agent messaging billing"
+  ],
+  "versions": [
+    "26.3"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Payables Agent can use your past invoice data to suggest details for new documents",
+      "why_it_matters": "Shows how the agent learns from historical data to improve efficiency and reduce manual data entry"
+    },
+    {
+      "text": "Remember that after the preview phase the agents will not be free but they will have a cost per message consumed",
+      "why_it_matters": "Critical for planning: users need to understand the future billing model for agent usage after public preview ends"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
