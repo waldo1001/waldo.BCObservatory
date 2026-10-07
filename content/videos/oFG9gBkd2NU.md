@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:22:14.460Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -220,7 +220,7 @@ The video demos enabling Bing search, getting answers about an extension, using 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "fabric project management" at [1:02](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=62s)
 - other "copilot and agent capabilities page" at [1:30](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=90s)

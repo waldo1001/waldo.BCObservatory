@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7b9ccb52c450ada69d2c054856b667a3f1777033b07678b537aaa6d598c6b69
@@ -20,14 +20,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-logmessage-string-string-verbosity-dataclassification-telemetryscope-dictionary[text,text]-method
     title: Session.LogMessage(Text, Text, Verbosity, DataClassification, TelemetryScope, Dictionary of [Text, Text]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-logmessage-string-string-verbosity-dataclassification-telemetryscope-string-string-string-string-method
     title: Session.LogMessage(Text, Text, Verbosity, DataClassification, TelemetryScope, Text, Text [, Text] [, Text]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

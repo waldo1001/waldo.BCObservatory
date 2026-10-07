@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:48:47.498Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -420,7 +420,7 @@ The demos cover the updated Number Series page, actionable error messages, and t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "System Application" at [5:39](https://www.youtube.com/watch?v=kbRTIWH-nio&t=339s)
 - other "Business Foundation" at [12:26](https://www.youtube.com/watch?v=kbRTIWH-nio&t=746s)
@@ -434,6 +434,8 @@ As heard in the captions; not yet verified against the code pillar.
 - interface "Number Series Implementation" at [25:12](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1512s)
 - codeunit "Number Series Management" at [19:32](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1172s)
 - interface "Number Series Batch" at [28:29](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1709s)
+
+Not found in BC28-30: table "tables (general reference)", table "Number Series", page "Number Series", codeunit "Number Series", codeunit "Number Series Batch", enum "Number Series Implementation", interface "Number Series Implementation", codeunit "Number Series Management", interface "Number Series Batch".
 
 ## Quotes
 

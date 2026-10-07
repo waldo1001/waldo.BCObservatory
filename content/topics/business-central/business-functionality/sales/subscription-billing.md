@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -347,6 +347,8 @@ links:
     - video/ywyaIenKix8
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10446
 learn_toc_path:
   - Business functionality
   - Sales
@@ -437,10 +439,11 @@ Start with the welcome page, then Contracts, then Recurring billing. Move to Bil
 - [Recurring billing](https://learn.microsoft.com/dynamics365/business-central/SRB/recurring-billing): You can use recurring billing in subscription billing.
 - [Welcome to subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/welcome): Get an overview of the features available for subscription billing.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../../../../changes/bcapps/10446.md) (code change): "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"
 

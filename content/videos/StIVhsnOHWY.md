@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:29:24.516Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -412,11 +412,13 @@ It then covers order import and sales document creation, including archived orde
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Shopify orders to import" at [14:09](https://www.youtube.com/watch?v=StIVhsnOHWY&t=849s)
 - page "archived sales documents" at [16:41](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1001s)
 - page "Shopify activities line" at [22:32](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1352s)
+
+Not found in BC28-30: table "Shopify orders to import", page "archived sales documents", page "Shopify activities line".
 
 ## Quotes
 

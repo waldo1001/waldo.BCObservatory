@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:12:39.966Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,11 @@ evidence:
     quote: we have now a new section analysis views in the page. Uh just like we had before layout or modify
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/31
+    - object/page/38
+    - object/table/32
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -291,15 +295,17 @@ The presenter also exports item ledger data to Excel and uses Copilot to suggest
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item list" at [4:36](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=276s)
-- page "item ledger entries" at [6:03](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=363s)
+- [page 31 "Item List"](../objects/page/31.md) at [4:36](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=276s)
+- [page 38 "Item Ledger Entries"](../objects/page/38.md) at [6:03](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=363s)
 - page "my sales analysis page" at [3:16](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=196s)
-- table "Item Ledger Entry" at [17:45](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1065s)
-- table "Customer" at [24:01](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1441s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [17:45](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1065s)
+- [table 18 "Customer"](../objects/table/18.md) at [24:01](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1441s)
 - query "Fixed Assets Query" at [26:49](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1609s)
 - query "Projects Query" at [27:15](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1635s)
+
+Not found in BC28-30: page "my sales analysis page", query "Fixed Assets Query", query "Projects Query".
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:51:56.194Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,8 @@ evidence:
     quote: you can also include non-inventory cost into the produ C cost calculation
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5510
   features: []
   topics: []
   localizations: []
@@ -197,14 +198,16 @@ Second, non-inventory costs can be included in the production cost calculation. 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "stock keeping unit card" at [0:46](https://www.youtube.com/watch?v=DHODFt_jVO4&t=46s)
 - page "manufacturing setup Page" at [2:29](https://www.youtube.com/watch?v=DHODFt_jVO4&t=149s)
 - page "cost shares page" at [2:29](https://www.youtube.com/watch?v=DHODFt_jVO4&t=149s)
 - page "statistics page" at [2:49](https://www.youtube.com/watch?v=DHODFt_jVO4&t=169s)
-- page "production Journal" at [1:26](https://www.youtube.com/watch?v=DHODFt_jVO4&t=86s)
+- [page 5510 "Production Journal"](../objects/page/5510.md) at [1:26](https://www.youtube.com/watch?v=DHODFt_jVO4&t=86s)
 - page "item Ledger entries page" at [1:48](https://www.youtube.com/watch?v=DHODFt_jVO4&t=108s)
+
+Not found in BC28-30: page "stock keeping unit card", page "manufacturing setup Page", page "cost shares page", page "statistics page", page "item Ledger entries page".
 
 ## Quotes
 

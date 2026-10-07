@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:53:49.178Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -541,7 +541,7 @@ The demos cover the building blocks of the experience: a custom role center, a w
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "system table" at [10:51](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=651s)
 - page "assisted setup list" at [15:52](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=952s)
@@ -549,6 +549,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "guide experience item" at [23:41](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1421s)
 - other "role center" at [22:16](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1336s)
 - other "onboarding sample app" at [34:51](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2091s)
+
+Not found in BC28-30: table "system table", page "assisted setup list".
 
 ## Quotes
 

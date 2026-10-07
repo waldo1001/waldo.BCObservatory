@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:45:19.898Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: when you start using this new feature with GL revaluation you need to think about does that meet your reporting requirement if you need
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/16
   features: []
   topics: []
   localizations: []
@@ -228,11 +229,13 @@ The demos turn on the feature in feature management, set up a revaluation accoun
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Source currencies" at [6:08](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=368s)
-- page "chart of accounts" at [1:32](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=92s)
+- [page 16 "Chart of Accounts"](../objects/page/16.md) at [1:32](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=92s)
 - other "GL entry" at [0:44](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=44s)
+
+Not found in BC28-30: table "Source currencies".
 
 ## Quotes
 

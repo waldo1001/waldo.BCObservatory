@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:04:50.941Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,7 +225,7 @@ The video also covers the inbound e-documents list, which shows more information
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "inbound e-documents list" at [0:46](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=46s)
 - page "agent configuration page" at [1:50](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=110s)
@@ -233,6 +233,8 @@ As heard in the captions; not yet verified against the code pillar.
 - page "purchase invoice list" at [1:50](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=110s)
 - page "posted purchase invoice lines page" at [1:40](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=100s)
 - page "purchase document draft page" at [2:42](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=162s)
+
+Not found in BC28-30: page "inbound e-documents list", page "agent configuration page", page "purchase invoice page", page "purchase invoice list", page "posted purchase invoice lines page", page "purchase document draft page".
 
 ## Quotes
 

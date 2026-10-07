@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:01:58.228Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,7 +71,11 @@ evidence:
     quote: These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5607
+    - object/page/5600
+    - object/report/5692
+    - object/page/5619
   features: []
   topics: []
   localizations: []
@@ -194,12 +198,12 @@ The demo walks through the Fixed Asset Setup page, asset eligibility, running de
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Fixed Asset Setup" at [4:00](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=240s)
-- page "Fixed Asset card" at [5:07](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=307s)
-- report "Calculate Depreciation" at [6:01](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=361s)
-- page "FA Depreciation Books" at [8:33](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=513s)
+- [page 5607 "Fixed Asset Setup"](../objects/page/5607.md) at [4:00](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=240s)
+- [page 5600 "Fixed Asset Card"](../objects/page/5600.md) at [5:07](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=307s)
+- [report 5692 "Calculate Depreciation"](../objects/report/5692.md) at [6:01](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=361s)
+- [page 5619 "FA Depreciation Books"](../objects/page/5619.md) at [8:33](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=513s)
 
 ## Quotes
 

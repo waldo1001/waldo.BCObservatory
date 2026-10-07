@@ -2,22 +2,29 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages
 type: topic
 title: Pages
-summary: "AL page development in Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), field layout and formatting, FactBoxes, tiles, Tell me discoverability, teaching tips, Power BI embedding, and Copilot prompt dialogs. Answers how to design and build pages in AL."
+summary: "Pages in AL for Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), layout controls, FactBoxes, tooltips, discoverability, tiles, Power BI embedding and onboarding tips. Answers how to design, lay out and extend pages."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:02.405Z"
+  at: "2026-10-07T21:13:11.947Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c2027d984cf9999e4cf9dd51358fe3d60147c733494f8344f360c1df1a99fdeb
+  input_hash: 39af5c0fd5d4458079d96df7a35af8cc8c41a7f83d15ab149487f7c54856cb67
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
+    title: Add FactBoxes to Business Central Pages
+    date: "2026-10-06"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
     title: Add pages and reports to Tell me
@@ -27,22 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    title: Add tooltips to table and page fields
-    date: "2024-03-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
-    title: Adding a FactBox to a page
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
-    title: Adding Custom Filter Tokens
-    date: "2021-04-01"
+    title: Add Tooltips to Table and Page Fields
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -71,6 +64,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline
     title: Create a Role Center headline
     date: "2024-09-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
+    title: Create Custom Filter Tokens in Business Central
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -251,14 +251,14 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-indented-hierarchy-lists
@@ -324,39 +324,39 @@ narrative: generated
 
 # Pages
 
-> AL page development in Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), field layout and formatting, FactBoxes, tiles, Tell me discoverability, teaching tips, Power BI embedding, and Copilot prompt dialogs. Answers how to design and build pages in AL.
+> Pages in AL for Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), layout controls, FactBoxes, tooltips, discoverability, tiles, Power BI embedding and onboarding tips. Answers how to design, lay out and extend pages.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Pages · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section covers how to build the user interface of Business Central in AL. It starts with the basics: the Pages overview, the Page object, Page types and layouts, and the Page extension object. Simple card and list examples show working code for Customer pages.
+This section covers how to build the user interface of Business Central in AL. It starts with the basics: the Pages overview, Page object, Page types and layouts, and Page extension object. These explain page types, the SourceTable property, layout areas, actions and how to extend existing pages with keywords such as addlast and modify.
 
-Design pages then go deeper by page type: card and document pages, list pages, tiles and field groups, indented hierarchy lists, repeater controls, and parts (ListPart, CardPart, HeadlinePart, Power BI parts, FactBoxes). Layout pages explain FastTabs, the grid control, the fixed control, field formatting, tooltips, and rich text. Further pages cover assisted setup guides, custom filter tokens, and the AI-oriented dialogs: PromptDialog, prompt guides, error handling in prompt dialogs, and the ConfigurationDialog preview.
+Design pages then cover specific types and layout controls. Card, document and list pages, the simple card and list examples, repeater controls, indented hierarchy lists and tiles (Brick field groups) handle records. FastTabs, the grid control and the fixed control handle field arrangement. Page parts (CardPart, ListPart, HeadlinePart, Power BI report parts) and FactBoxes embed related data. Further pages cover field formatting, tooltips, custom filter tokens, rich text and assisted setup guides.
 
-Help users find and learn pages with Tell me (UsageCategory), page discoverability, teaching tips and in-app tours. A good start is Pages overview, then Page types and layouts, then the specific page type you need.
+A third group covers helping users find and learn the UI: Tell me, page discoverability, teaching tips and tours. Newer page types for Copilot and agents (PromptDialog, prompt guides, error handling in prompt dialogs, ConfigurationDialog) are also here. Start with Pages overview and Page types and layouts, then go to the page type or control you need.
 
 ## Key points
 
-- Page types include Card, List, Document, Worksheet, RoleCenter, NavigatePage, PromptDialog and ConfigurationDialog (preview); Page types and layouts explains which suits which task.
-- Page parts (ListPart, CardPart, HeadlinePart, Power BI report parts) embed data from other tables and can be used in Role Centers, FactBoxes and document pages, often linked with SubPageLink.
-- Layout options: FastTabs with the Importance property, grid control (GridLayout), fixed control for matrix layouts, repeater properties like Width and FreezeColumn, and indentation properties for hierarchy lists.
-- Tiles are customized with a Brick field group; DropDown and Brick field groups are defined on tables and table extensions.
-- Tooltips can be defined on table fields (from 2024 release wave 1) and are inherited by pages, with overrides allowed; CodeCop warning AA0234 applies.
-- Set UsageCategory (and AdditionalSearchTerms) to make pages and reports searchable in Tell me and visible in the role explorer.
-- Teaching tips use AboutTitle and AboutText; assisted setup guides use NavigatePage; custom filter tokens use the OnResolveTextFilterToken event.
-- PromptDialog pages (runtime 12.1) provide Copilot experiences with prompt, content, options, system actions and prompt guide areas; errors can display inline (2024 release wave 2).
+- Core objects: Page object and Page extension object (addfirst, addlast, addafter, addbefore, modify, move keywords); page types include Card, List, Document, RoleCenter, Worksheet and dialogs.
+- Layout controls: FastTabs with the Importance property, the grid control (GridLayout), the fixed control for matrix-like statistics, and repeater controls (Width, FreezeColumn, IndentationColumn).
+- Page parts: CardPart, ListPart, HeadlinePart and Power BI report parts embed data from other tables; FactBoxes use SubPageLink and SubPageView to pass context.
+- Lists can show indented hierarchies (indentationcolumn, showastree, treeinitialstate) and tiles defined by a Brick field group; DropDown field groups control dropdown content.
+- Tooltips defined on table fields are inherited by pages from 2024 release wave 1 and can be overridden on page fields (CodeCop rule AA0234).
+- Discoverability: set UsageCategory and AdditionalSearchTerms for Tell me; use teaching tips (AboutTitle, AboutText) and tours for onboarding.
+- Copilot and agent pages: PromptDialog (runtime 12.1) with prompt guides and inline error display (2024 release wave 2), and the preview ConfigurationDialog with AgentSetupPart.
+- Other topics: field formatting with AutoFormatType and DecimalPlaces, custom filter tokens via OnResolveTextFilterToken, Rich Text editor, assisted setup guides with NavigatePage, and embedding Power BI reports.
 
 ## Learn pages
 
+- [Add FactBoxes to Business Central Pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page): Learn how to add FactBoxes to Business Central pages, connect related records, configure system parts, and improve page-loading performance.
 - [Add pages and reports to Tell me](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality): Description of how you use AL to add pages and reports so that they're discoverable through search in the client.
-- [Add tooltips to table and page fields](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips): Description of how you use AL to add tooltips to table and page fields so that they're available when users hover over fields in the client.
-- [Adding a FactBox to a page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page): A FactBox is located on the right-most side of a page. This area is used to display related facts about the current record including charts, data from related tables, Notes, and Links.
-- [Adding Custom Filter Tokens](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens): Learn how to use filter tokens to save time when you filter data in lists.
+- [Add Tooltips to Table and Page Fields](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips): Description of how you use AL to add tooltips to table and page fields so that they're available when users hover over fields in the client.
 - [Arrange Fields Using Grid Control](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control): Fields in a FastTab are arranged automatically. Use Grid control to manually set up rows, columns, span fields across, and show or hide captions.
 - [Arranging Fields in Rows and Columns Using a fixed Control](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control): A fixed control is used to arrange page fields in rows and columns, similar to a matrix-like format, which is typically used to display statistical data.
 - [CardPart Pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts): Learn how to design a CardPart page in Business Central, add it to a Role Center or FactBox, and display data with fields, cue tiles, and control add-ins.
 - [Create a Role Center headline](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline): You can provide information and insights as headlines on Role Centers.
+- [Create Custom Filter Tokens in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens): Learn how to create custom filter tokens in AL so users can enter shortcuts that resolve to reusable filter values in Business Central lists.
 - [Designing Assisted Setup Guides](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages): Learn how to create wizards using the NavigatePage page type in Business Central"
 - [Designing card pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages): Provides and overview of card page design.
 - [Designing Indented Hierarchy Lists](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-indented-hierarchy-lists): This article explains how to indent rows in a repeater control to design hierarchical lists. You can nest records that users can navigate, expand, and collapse.

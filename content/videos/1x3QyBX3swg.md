@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:26.675Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,7 +76,11 @@ evidence:
     quote: We have uh 1.8 GB for 7 million um in the actual data. And then we have what is that? ...
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/32
+    - object/page/8700
+    - object/table/405
+    - object/table/5802
   features: []
   topics: []
   localizations: []
@@ -348,17 +352,19 @@ The talk also covers usage statistics (seek, scan, lookup, update counts since t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Item Ledger Entry" at [1:07](https://www.youtube.com/watch?v=1x3QyBX3swg&t=67s)
-- page "Table Information" at [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [1:07](https://www.youtube.com/watch?v=1x3QyBX3swg&t=67s)
+- [page 8700 "Table Information"](../objects/page/8700.md) at [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s)
 - table "GL Entry" at [7:47](https://www.youtube.com/watch?v=1x3QyBX3swg&t=467s)
 - table "Change Log" at [11:19](https://www.youtube.com/watch?v=1x3QyBX3swg&t=679s)
 - table "DAMS re-index stats" at [25:34](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1534s)
-- table "change log entry" at [28:03](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1683s)
-- table "value entry" at [28:03](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1683s)
+- [table 405 "Change Log Entry"](../objects/table/405.md) at [28:03](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1683s)
+- [table 5802 "Value Entry"](../objects/table/5802.md) at [28:03](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1683s)
 - table "Dams re-index stats table" at [27:09](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1629s)
 - page "indexes list part page" at [33:41](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2021s)
+
+Not found in BC28-30: table "GL Entry", table "Change Log", table "DAMS re-index stats", table "Dams re-index stats table", page "indexes list part page".
 
 ## Quotes
 

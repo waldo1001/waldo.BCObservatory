@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:50:11.377Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,7 +174,19 @@ evidence:
     quote: we are exporting only minimal set of fields required by the law actually required by
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/50
+    - object/page/16
+    - object/page/472
+    - object/page/5266
+    - object/page/5579
+    - object/table/25
+    - object/table/112
+    - object/table/113
+    - object/table/18
+    - object/table/23
+    - object/table/270
+    - object/table/5600
   features: []
   topics: []
   localizations: []
@@ -530,22 +542,22 @@ The demos show the SAF-T setup guide, mapping the company chart of accounts to t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "SAF-T Setup Guide" at [10:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=652s)
-- table "Accounting Period" at [11:12](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=672s)
-- page "Chart of Accounts" at [11:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=712s)
-- page "VAT Posting Setup" at [13:44](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=824s)
-- page "Audit File Export Documents" at [14:48](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=888s)
+- [table 50 "Accounting Period"](../objects/table/50.md) at [11:12](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=672s)
+- [page 16 "Chart of Accounts"](../objects/page/16.md) at [11:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=712s)
+- [page 472 "VAT Posting Setup"](../objects/page/472.md) at [13:44](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=824s)
+- [page 5266 "Audit File Export Documents"](../objects/page/5266.md) at [14:48](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=888s)
 - page "Audit File Expert documents" at [14:48](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=888s)
-- page "digital voucher entry setup" at [24:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1471s)
+- [page 5579 "Digital Voucher Entry Setup"](../objects/page/5579.md) at [24:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1471s)
 - table "general ledger entry" at [27:29](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1649s)
 - page "incoming document files" at [26:50](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1610s)
 - table "GL Entry" at [27:09](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1629s)
 - table "Customer Ledger Entry" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
-- table "Vendor Ledger Entry" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
-- table "Sales Invoice Header" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
-- table "Sales Invoice Line" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
+- [table 25 "Vendor Ledger Entry"](../objects/table/25.md) at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
+- [table 112 "Sales Invoice Header"](../objects/table/112.md) at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
+- [table 113 "Sales Invoice Line"](../objects/table/113.md) at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
 - table "Credit Memo Header" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
 - table "Purchase Invoice" at [33:20](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2000s)
 - table "Purchase Credit Memo Header" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
@@ -553,11 +565,13 @@ As heard in the captions; not yet verified against the code pillar.
 - table "General Journal Lines" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
 - table "Currency Exchange Rates" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
 - table "General Ledger Account" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
-- table "Customer" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
-- table "Vendor" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
-- table "Bank Account" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
-- table "Fixed Asset" at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
+- [table 18 "Customer"](../objects/table/18.md) at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
+- [table 23 "Vendor"](../objects/table/23.md) at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
+- [table 270 "Bank Account"](../objects/table/270.md) at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
+- [table 5600 "Fixed Asset"](../objects/table/5600.md) at [33:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2021s)
 - table "Fixed Asset Depreciation Book" at [34:01](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2041s)
+
+Not found in BC28-30: page "SAF-T Setup Guide", page "Audit File Expert documents", table "general ledger entry", page "incoming document files", table "GL Entry", table "Customer Ledger Entry", table "Credit Memo Header", table "Purchase Invoice", table "Purchase Credit Memo Header", table "Reminders", table "General Journal Lines", table "Currency Exchange Rates", table "General Ledger Account", table "Fixed Asset Depreciation Book".
 
 ## Quotes
 

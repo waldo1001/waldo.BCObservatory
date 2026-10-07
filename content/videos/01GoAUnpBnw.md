@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:22:57.175Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -195,9 +195,11 @@ Replication puts the record links and notes into a buffer table so existing reco
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "cloud migration management page" at [0:53](https://www.youtube.com/watch?v=01GoAUnpBnw&t=53s)
+
+Not found in BC28-30: page "cloud migration management page".
 
 ## Quotes
 

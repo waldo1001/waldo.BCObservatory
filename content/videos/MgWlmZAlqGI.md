@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:48:13.365Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -237,10 +237,12 @@ It also covers copying values with keyboard shortcuts and copying lines from ope
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "manager time sheets by projects" at [7:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=477s)
 - page "time sheet line details" at [3:16](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=196s)
+
+Not found in BC28-30: page "manager time sheets by projects", page "time sheet line details".
 
 ## Quotes
 

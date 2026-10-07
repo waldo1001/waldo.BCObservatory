@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:53.901Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,7 +55,8 @@ evidence:
     quote: lock a posting or a period down for a for the entire company while opening up for a few select people who are in
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics: []
   localizations: []
@@ -151,10 +152,12 @@ When November is being closed, the company-wide range can be changed so most peo
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "general ledger setup" at [0:15](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=15s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [0:15](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=15s)
 - page "user setup page" at [0:51](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=51s)
+
+Not found in BC28-30: page "user setup page".
 
 ## Quotes
 

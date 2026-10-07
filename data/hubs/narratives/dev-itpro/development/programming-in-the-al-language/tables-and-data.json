@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
-  "input_hash": "0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92",
-  "summary": "Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.",
-  "overview": "This section groups what an AL developer needs to define, store, read, change and move data in Business Central. The subtopics follow a usual workflow: defining table structures, reading data, modifying data, querying with Query objects, calculating values with FlowFields and FlowFilters, and tuning performance with indexes. Other subtopics cover streaming data and importing or exporting data through XMLports and Excel.\n\nThe section's own pages cover two tools. Number sequences use SQL Server sequences to generate numeric identifiers. They allow gaps and do not block, so they suit non-continuous numbering better than number series. DataTransfer is an AL data type for bulk copying data between SQL-based tables during upgrade and install, and it is much faster than row-by-row record operations.\n\nStart with Defining table structures if you are building new objects. Go to Reading data and Indexing data for performance when tuning speed. Use the DataTransfer page when writing upgrade code that moves large volumes of data.",
+  "input_hash": "85a14c8be6ab10dcd427003a46989f74a71a7257891bb7859bac91699e53a874",
+  "summary": "Tables and data in AL covers how to define Business Central tables, read and modify records, use queries, FlowFields, indexing (SIFT and NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer for bulk moves. It answers syntax, performance, and how-to questions.",
+  "overview": "This section is the AL reference for working with data in Business Central. It starts with table structure (objects, fields, keys, triggers, extensions, relationships) and moves through reading and modifying records, Query objects, and FlowFields and FlowFilters for calculated values that are not stored.\n\nPerformance topics sit in their own subtopics. Reading data covers Get, Find, FindSet, partial records, isolation levels, and read scale-out. Indexing covers SIFT and NCCI, including tuning, tracing, and migrating from SIFT to NCCI. Importing and exporting covers XMLport objects and Excel Buffer exports. A Streaming data subtopic is also listed.\n\nThe section's own two pages cover number sequences and DataTransfer. Number sequences use SQL Server sequences and allow gaps without blocking, unlike number series. DataTransfer does bulk copying between tables during upgrade and install. To begin, read Defining table structures, then Reading data and Modifying data. Go to the indexing and DataTransfer pages when performance matters.",
   "key_points": [
-    "Defining table structures covers table objects, table extensions, system fields, TableRelation, ToolTip and OptimizeForTextSearch.",
-    "Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records and Dataverse table properties.",
-    "Reading data covers Get, Find, FindSet and Next, partial records, isolation levels, SQL performance and read scale-out.",
-    "Query objects define dataitems and columns, joins, filters, aggregation and date parts, as an alternative to record variables.",
-    "FlowFields and FlowFilters calculate values dynamically without storing data, using CalcFormula.",
-    "SIFT and NCCI give fast sums over numeric columns, with guidance on tuning, tracing and migrating from SIFT to NCCI.",
-    "Number sequences use the NumberSequence type (Insert, Delete, Next, Current, Exists) and allow gaps without blocking.",
-    "DataTransfer (CopyRows, CopyFields, SetTables, AddFieldValue, AddConstantValue, AddJoin) does bulk table-to-table transfers in upgrade and install; the page lists 2022 release wave 2."
+    "Defining table structures covers the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search.",
+    "Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records, filter pages, Dataverse table properties, and keeping test data between publishes.",
+    "Reading data covers Get, Find, FindSet and Next, partial records, record isolation levels, SQL performance of database methods, and read scale-out.",
+    "Query objects define dataitems and columns, joins, filters, aggregates, and date parts, and their results can be read in code.",
+    "FlowFields and FlowFilters are virtual fields that calculate values at runtime using CalcFormula, with no data stored.",
+    "SIFT and NCCI speed up sums over numeric columns, with trade-offs in performance and maintenance, and a migration path from SIFT to NCCI.",
+    "Number sequences use SQL Server sequences (NumberSequence type with Insert, Delete, Next, Current, Exists). They allow gaps and are non-blocking, unlike number series.",
+    "DataTransfer bulk-copies data between SQL-based tables during upgrade and install (CopyRows, CopyFields, AddJoin, and others), and is faster than row-by-row record operations. It is listed under 2022 release wave 2."
   ],
   "members_used": 2,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-07T02:07:28.749Z",
+  "at": "2026-10-07T21:13:11.796Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.0393562
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:14:51.727Z",
+    "at": "2026-10-07T21:13:11.932Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview says the subtopics 'follow a usual workflow'. That is the writer's own framing, not something the sources state, but it does no harm.",
-      "Minor: 'Streaming data' has no summary in the inputs. The narrative only names it and makes no claims about it, which is correct.",
-      "Minor: the 'Modifying data' key point leaves out filter pages and keeping test data between publishes. Leaving them out is fine; nothing in the point is wrong."
+      "Minor: the Query objects key point leaves out interactive analysis of query data, which the subtopic summary mentions.",
+      "Minor: Streaming data has no summary in the inputs, so the narrative only names it. That is correct, but it gives an agent little to go on.",
+      "Minor: the DataTransfer version is worded 'listed under 2022 release wave 2', which is appropriately careful. It is not stated as an availability claim."
     ],
-    "input_hash": "0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92",
-    "cost_usd": 0.0363712
+    "input_hash": "85a14c8be6ab10dcd427003a46989f74a71a7257891bb7859bac91699e53a874",
+    "cost_usd": null
   }
 }

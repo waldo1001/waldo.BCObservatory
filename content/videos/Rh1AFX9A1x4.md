@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:43:00.928Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,9 @@ evidence:
     quote: do note that this feature is planned to be available after General availability of the release so right now we are looking at likely
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/page/9305
   features: []
   topics: []
   localizations: []
@@ -196,12 +198,14 @@ The video also shows opening an analysis mode view in Excel, including related c
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Sales line" at [2:17](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=137s)
-- table "Customer" at [2:57](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=177s)
+- [table 18 "Customer"](../objects/table/18.md) at [2:57](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=177s)
 - table "Sales head" at [3:17](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=197s)
-- page "Sales order list" at [3:37](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=217s)
+- [page 9305 "Sales Order List"](../objects/page/9305.md) at [3:37](https://www.youtube.com/watch?v=Rh1AFX9A1x4&t=217s)
+
+Not found in BC28-30: page "Sales line", table "Sales head".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:36:11.376Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -638,13 +638,15 @@ It then follows the customer side: the Buy Now button, the Plans and Pricing tab
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "convert temperature sample app" at [12:59](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=779s)
 - other "Coffee App" at [24:55](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1495s)
 - other "Hello World 4 Sample App" at [22:00](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1320s)
 - other "Convert Temperature App" at [18:40](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1120s)
 - permissionset "coffee app full permission" at [27:11](https://www.youtube.com/watch?v=KbXzMR4n4h8&t=1631s)
+
+Not found in BC28-30: permissionset "coffee app full permission".
 
 ## Quotes
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:51:26.277Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: we have six different sessions related to e documents. So please watch another session to understand what is improved in this area.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/51
   features: []
   topics: []
   localizations: []
@@ -227,11 +228,13 @@ The demo walks through the e-document card with new fact boxes, a lines subform,
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "e documents" at [2:49](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=169s)
 - page "e document card page" at [3:18](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=198s)
-- page "purchase invoice" at [3:33](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=213s)
+- [page 51 "Purchase Invoice"](../objects/page/51.md) at [3:33](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=213s)
+
+Not found in BC28-30: page "e documents", page "e document card page".
 
 ## Quotes
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -272,10 +272,12 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - interface "ITestHandler" at [7:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=425s)
 - interface "ITestContext" at [3:01](https://www.youtube.com/watch?v=hNom9ZZuca0&t=181s)
+
+Not found in BC28-30: interface "ITestHandler", interface "ITestContext".
 
 ## Quotes
 

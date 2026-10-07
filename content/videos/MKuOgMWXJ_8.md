@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:13:29.145Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: you can see how many credits we have spent doing these checks on all of the opening sales orders
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -227,9 +228,9 @@ The demo covers opening the agent setup, reviewing its dedicated profile, reduce
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sales Orders" at [3:14](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=194s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [3:14](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=194s)
 
 ## Quotes
 

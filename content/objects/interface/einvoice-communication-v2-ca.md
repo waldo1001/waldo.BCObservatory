@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c1dc274dd03d7042f4e569e9a9e79775f1b78c2395e9353a6da2d2c39cb5052e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/NA/BaseApp/Local/eServices/EDocument/EInvoiceCommunicationV2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/NA/BaseApp/Local/eServices/EDocument/EInvoiceCommunicationV2.Interface.al
     title: src/Layers/NA/BaseApp/Local/eServices/EDocument/EInvoiceCommunicationV2.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "EInvoice Communication V2" (CA) in the CA country layer (Microsoft.eServices.EDocument). 3 public procedures. Introduced in BC29, still in BC30.
 
-CA country layer · Microsoft.eServices.EDocument · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/NA/BaseApp/Local/eServices/EDocument/EInvoiceCommunicationV2.Interface.al) · facts from BC29
+CA country layer · Microsoft.eServices.EDocument · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/NA/BaseApp/Local/eServices/EDocument/EInvoiceCommunicationV2.Interface.al) · facts from BC29
 
 An object of the [CA localization](../../localizations/ca.md), not part of W1.
 
@@ -95,7 +95,7 @@ A CA country object, not part of W1: the default corpus does not have it; `bcatl
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:08:24.525Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -334,7 +334,7 @@ The demo uses Argo CD with Crossplane to create, change, revert and delete Azure
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "storage account" at [16:41](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1001s)
 - other "container" at [17:05](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1025s)

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:25:22.486Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -191,11 +191,13 @@ The PowerBI app now shows every capacity-related measure in a universal unit of 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Where Used Top Level" at [4:03](https://www.youtube.com/watch?v=JT4ownMbotw&t=243s)
 - report "Quantity Explosion of Bill of Material" at [6:41](https://www.youtube.com/watch?v=JT4ownMbotw&t=401s)
 - report "Production Order List" at [7:01](https://www.youtube.com/watch?v=JT4ownMbotw&t=421s)
+
+Not found in BC28-30: report "Where Used Top Level", report "Quantity Explosion of Bill of Material", report "Production Order List".
 
 ## Quotes
 

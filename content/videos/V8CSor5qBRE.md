@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:15:45.343Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -298,12 +298,14 @@ It then shows Word sections working in layouts that use the merge data item prop
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "report layouts page" at [3:13](https://www.youtube.com/watch?v=V8CSor5qBRE&t=193s)
 - report "report 1303" at [3:47](https://www.youtube.com/watch?v=V8CSor5qBRE&t=227s)
 - report "invoice report" at [14:32](https://www.youtube.com/watch?v=V8CSor5qBRE&t=872s)
 - page "report layout page" at [19:37](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1177s)
+
+Not found in BC28-30: page "report layouts page", report "report 1303", report "invoice report", page "report layout page".
 
 ## Quotes
 

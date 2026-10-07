@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language
 type: topic
 title: Programming in the AL language
-summary: "Programming in the AL language covers the fundamentals of writing AL code for Business Central: variables, triggers, code reuse, and the subtopics for data, pages, reports, events, security, APIs, telemetry and more. It helps an agent find where to look for AL how-to and syntax questions."
+summary: "Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:13:57.248Z"
+  at: "2026-10-07T21:13:11.931Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 769c684f8fd308b8b8d72e6f53134beba5685ad5a07524026615f855db59eb04
+  input_hash: 10afee71912b6b8b8085f3afaccde5832fac8d959c9e8fd62d840c89a777f6fe
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -96,6 +96,20 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
+    title: Add FactBoxes to Business Central Pages
+    date: "2026-10-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
+    title: Add Menus to Role Center Navigation
+    date: "2026-10-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
     title: Add pages and reports to Tell me
     date: "2025-05-15"
@@ -104,15 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    title: Add tooltips to table and page fields
-    date: "2024-03-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
-    title: Adding a FactBox to a page
-    date: "2025-10-03"
+    title: Add Tooltips to Table and Page Fields
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -127,20 +134,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes
     title: Adding barcodes to reports
     date: "2021-04-06"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
-    title: Adding Custom Filter Tokens
-    date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
-    title: Adding Menus to the Navigation Area
-    date: "2022-08-08"
     commit: null
     t: null
     quote: null
@@ -203,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
     title: AL Properties Overview for Business Central
-    date: "2026-08-21"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods/devenv-array-methods
     title: Array Data Type and Methods in AL
     date: "2026-10-05"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
+    title: Assign document layouts to customers or vendors
+    date: "2024-11-28"
     commit: null
     t: null
     quote: null
@@ -439,28 +439,28 @@ narrative: generated
 
 # Programming in the AL language
 
-> Programming in the AL language covers the fundamentals of writing AL code for Business Central: variables, triggers, code reuse, and the subtopics for data, pages, reports, events, security, APIs, telemetry and more. It helps an agent find where to look for AL how-to and syntax questions.
+> Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions.
 
 Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section is the entry point for AL development in Business Central. Its own page, "Programming in AL", describes the language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.
+This section starts with the "Programming in AL" page, which describes the language basics: manipulating data, controlling application objects, creating business rules, and writing code in triggers on tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.
 
-The subtopics split the work by area. Core language pages cover program building blocks (operators, statements, access modifiers, XML comments), language elements, error handling and formatting values. Object-focused areas cover tables and data, pages and the user interface, reports, and events for extending behavior without changing original code.
+The subtopics go deeper. Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments. Language elements is the largest subtopic at 78 pages. Object-specific areas are tables and data, pages and the user interface, and reports. Cross-cutting areas are events, error handling, formatting values, security, telemetry, background processing, APIs and calling external services.
 
-Further subtopics cover cross-cutting concerns and integration: security, background processing, APIs, calling external services, telemetry, device capabilities, printer extensions and on-premises .NET. Start with the "Programming in AL" page for the basics, then go to the subtopic that matches the object or task at hand.
+Start with the Programming in AL page and Program building blocks for syntax. Then go to the subtopic that matches your object or task. Device access, printer extensions and .NET interoperability (on-premises only) are narrower topics for specific scenarios.
 
 ## Key points
 
-- The own page covers variable declarations, protected variables, trigger types, code reuse and security patterns.
+- The Programming in AL page covers variable declarations, protected variables, trigger types, code reuse and security patterns.
 - Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.
 - Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
-- Tables and data covers tables, queries, FlowFields, SIFT and NCCI indexing, DataTransfer, number sequences, and XMLport or Excel import and export.
-- Events covers publishing, raising and subscribing, isolated events, and discovery with Event Recorder.
-- Background work uses the job queue, page background tasks or the task scheduler, each with documented session limits.
-- APIs are built as REST/OData v4 services using API pages (read-write) and API queries (read-only).
-- Security covers permission sets, entitlements, Azure Key Vault, Isolated Storage and the SecretText type.
+- Tables and data covers records, queries, FlowFields, SIFT and NCCI indexing, XMLport and Excel import/export, number sequences and DataTransfer.
+- Events covers publishing, raising and subscribing, isolated events, and discovering events with Event Recorder, so you can extend behavior without changing the original code.
+- Developing APIs covers REST/OData v4 services built with API pages (read-write) and API queries (read-only).
+- Background processing covers the job queue, page background tasks and the task scheduler, with limits for background and child sessions.
+- Security covers permission sets, entitlements, Azure Key Vault, Isolated Storage and the SecretText data type.
 
 ## Subtopics
 

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,9 @@ evidence:
     quote: in version 29, Microsoft enforce minor version by introducing global source enforce minor version
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/page/21
   features:
     - feature/573357
   topics: []
@@ -192,10 +194,10 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Customer" at [1:49](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=109s)
-- page "Customer Card" at [1:49](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=109s)
+- [table 18 "Customer"](../objects/table/18.md) at [1:49](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=109s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [1:49](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=109s)
 
 ## Quotes
 

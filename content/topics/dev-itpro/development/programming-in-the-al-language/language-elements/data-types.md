@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -34,91 +34,91 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/biginteger/biginteger-data-type
     title: BigInteger data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/bigtext/bigtext-data-type
     title: BigText data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/blob/blob-data-type
     title: Blob data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/boolean/boolean-data-type
     title: Boolean data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/byte/byte-data-type
     title: Byte data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/char/char-data-type
     title: Char data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/code/code-data-type
     title: Code data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/library
     title: Data types and methods in AL
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/date/date-data-type
     title: Date data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/datetime/datetime-data-type
     title: DateTime data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/decimal/decimal-data-type
     title: Decimal data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dictionary/dictionary-data-type
     title: Dictionary data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/duration/duration-data-type
     title: Duration data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -132,14 +132,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/guid/guid-data-type
     title: Guid data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/integer/integer-data-type
     title: Integer data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -153,147 +153,147 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonarray/jsonarray-data-type
     title: JsonArray data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonobject/jsonobject-data-type
     title: JsonObject data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsontoken/jsontoken-data-type
     title: JsonToken data type
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/jsonvalue/jsonvalue-data-type
     title: JsonValue data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/list/list-data-type
     title: List data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/media/media-data-type
     title: Media data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/mediaset/mediaset-data-type
     title: MediaSet data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/option/option-data-type
     title: Option data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-data-type
     title: Record data type
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-data-type
     title: System data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-data-type
     title: Text data type
-    date: "2026-05-27"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textbuilder/textbuilder-data-type
     title: TextBuilder data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/textconst/textconst-data-type
     title: TextConst data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/time/time-data-type
     title: Time data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlattribute/xmlattribute-data-type
     title: XmlAttribute data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlattributecollection/xmlattributecollection-data-type
     title: XmlAttributeCollection data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlcdata/xmlcdata-data-type
     title: XmlCData data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlcomment/xmlcomment-data-type
     title: XmlComment data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmldeclaration/xmldeclaration-data-type
     title: XmlDeclaration data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmldocument/xmldocument-data-type
     title: XmlDocument data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmldocumenttype/xmldocumenttype-data-type
     title: XmlDocumentType data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

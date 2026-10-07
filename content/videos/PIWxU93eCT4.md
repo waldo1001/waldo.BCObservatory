@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:01:23.582Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,9 +174,11 @@ The demo edits prices in Excel and shows the changes syncing between Business Ce
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "sales press list" at [1:18](https://www.youtube.com/watch?v=PIWxU93eCT4&t=78s)
+
+Not found in BC28-30: table "sales press list".
 
 ## Quotes
 

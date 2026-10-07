@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-in-al
 type: topic
 title: Troubleshooting in AL
-summary: "Troubleshooting in AL covers tools and guidance for finding errors and performance problems in Business Central extensions: the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles, and printing troubleshooting. It answers how-to questions about debugging, profiling and diagnosing slow code or printer errors."
+summary: "Troubleshooting in AL covers tools and guidance for finding and fixing problems in Business Central extensions: the AL debugger, snapshot debugging, the AL Profiler, Page Inspection, performance articles, and printing troubleshooting. It answers questions on debugging, performance hot spots, page structure and printer errors."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:23:30.195Z"
+  at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 90c8eeacc22289091a4f5ab57dc847d73e8ab6be827f631dc12f0b6c409743e0
+  input_hash: 8ef1712d1d69eb067d7272af31dbf963bea0510ca60ac6474c675b7a26c7952a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
-    title: AL Profiler overview
-    date: "2025-09-03"
+    title: Analyze AL Performance with the AL Profiler
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
@@ -96,30 +96,31 @@ narrative: generated
 
 # Troubleshooting in AL
 
-> Troubleshooting in AL covers tools and guidance for finding errors and performance problems in Business Central extensions: the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles, and printing troubleshooting. It answers how-to questions about debugging, profiling and diagnosing slow code or printer errors.
+> Troubleshooting in AL covers tools and guidance for finding and fixing problems in Business Central extensions: the AL debugger, snapshot debugging, the AL Profiler, Page Inspection, performance articles, and printing troubleshooting. It answers questions on debugging, performance hot spots, page structure and printer errors.
 
 Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in AL · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section brings together the tools a developer uses to find and fix problems in AL code. Debugging in AL covers the Visual Studio Code debugger, breakpoints and database inspection. Snapshot debugging records execution on a production cloud server so it can be inspected offline. Page Inspection shows page structure, source tables, extensions and filters in the web client.
+This section groups the diagnostic tools an AL developer uses when something is wrong or slow. Debugging in AL covers the Visual Studio Code debugger, breakpoints and database inspection. Snapshot debugging records code on a production cloud server so it can be debugged offline. The AL Profiler records execution details to find performance hot spots.
 
-For performance, the AL Profiler records code execution in instrumentation or sampling mode to locate hot spots. The performance articles for AL developers add guidance on page design, web services, reports, coding patterns, data access and testing. A separate page covers printing problems, including payload checks and the Windows Event Log.
+Page Inspection works in the web client and shows page structure, source table, fields, extensions and filters without reading code. Performance Articles for AL Developers gives guidance on pages, web services, reports, AL patterns, data access and testing. Troubleshooting Printing helps with printer and report payload errors.
 
-Start with Debugging in AL for functional errors, or with AL Profiler overview and the performance articles for slow processes. Use Page Inspection when you need to understand a page without reading code, and Snapshot debugging when the problem only occurs in production.
+Start with Debugging in AL for functional errors, the AL Profiler or the performance articles for slowness, Snapshot debugging for issues that only occur in production, and Page Inspection to understand what a page shows and where it comes from.
 
 ## Key points
 
-- Debugging in AL uses the Visual Studio Code debugger with conditional breakpoints, break on errors, break on record changes, SQL debugging, database locks inspection and web service debugging.
-- Snapshot debugging records a specified user session on a production cloud server. Snappoints log variable state without stopping execution, and you debug the snapshot offline in VS Code. The page mentions versions 17.2 and 18.1.
-- AL Profiler offers instrumentation and sampling modes, SQL call tracking, call stack views, CodeLens integration and in-client profiling. The page mentions 2025 release wave 2.
-- Page Inspection in the web client shows page structure, source table and fields, extensions and filters without examining code. The page mentions 2023 release wave 2.
-- Performance articles cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscription performance.
-- Troubleshooting Printing explains how to resolve printer and report payload errors, read the Windows Event Log, and test printers using the Printers system table.
+- Debugging in AL uses the Visual Studio Code debugger with breakpoints, conditional breakpoints, break on errors, break on record changes, SQL debugging, database locks inspection and web service debugging.
+- Snapshot debugging records AL execution for a specified user session on production cloud servers and replays it offline in Visual Studio Code using snappoints, which log variable state without stopping execution.
+- Snapshot debugging pages mention versions 17.2 and 18.1, and include built-in codeunit trigger debugging and verbosity control.
+- The AL Profiler has instrumentation and sampling modes, configured in launch.json, and shows call stacks (top-down and bottom-up), timings, SQL calls, a Performance Profiler page and CodeLens timings.
+- Page Inspection shows page structure, source table and fields, extensions and filters in the web client; its page references 2023 release wave 2.
+- Performance articles cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscriptions.
+- Troubleshooting Printing covers payload validation, the Windows Event Log, error messages and testing printers through the Printers system table.
 
 ## Learn pages
 
-- [AL Profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview): Description of how to use the AL profiler and the Performance Profiler to analyze performance in code written for Business Central.
+- [Analyze AL Performance with the AL Profiler](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview): Use instrumentation or sampling with the AL Profiler to analyze AL execution, SQL activity, call stacks, and performance hot spots.
 - [Debugging in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging): Debugging in AL with Visual Studio Code and the AL Language extension.
 - [Inspecting pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages): Learn about the structure of a page and its' underlying data.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.

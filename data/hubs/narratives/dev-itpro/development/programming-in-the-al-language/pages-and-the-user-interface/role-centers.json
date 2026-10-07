@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers",
-  "input_hash": "c9fd27854df44fd36b65f13e5c78c931171412bb6aa02a21cd8bed13b35a2a8c",
-  "summary": "Role centers in AL: how to design role-tailored home pages with navigation menus, cues, action tiles, and headlines, plus a simple code example and a user onboarding checklist. It answers questions about building and customizing Role Center pages and their parts.",
-  "overview": "A Role Center is the home page tailored to a user profile. It combines a navigation area, an action bar, and a content area with parts such as cues and headlines. The pages here cover each of those pieces and how to build them in AL.\n\nStart with \"Designing Role Centers\" for the overall structure, performance optimization with page background tasks, and mobile considerations. \"Simple Role Center Code Example in AL\" then shows a working page with sections, embedding, and processing, creation, and reporting action areas.\n\nThe other pages go into specific parts. \"Adding Menus to the Navigation Area\" covers the navigation menu, navigation bar, and actions on Role Centers and page extensions. \"Creating and Customizing Cues\" covers Cue tables, CardPart pages, and action tiles. \"Create a Role Center headline\" covers HeadlinePart pages. \"Get Users Started with the Checklist\" covers onboarding with guided experience items, assisted setup, and tours.",
+  "input_hash": "9abae9238523853ef7310dcfe9471429aaf96ef888e165c49febafbfb52e5ea5",
+  "summary": "Role centers in AL: how to design role-tailored home pages, add navigation menus, build cues and headlines, and set up a user onboarding checklist. It answers questions about structuring a Role Center page and its parts, with a simple code example.",
+  "overview": "A Role Center is the role-tailored home page in Business Central. It combines navigation, an action bar, and a content area holding parts such as cues and headlines. The section starts with a design overview that also covers performance (page background tasks) and mobile considerations.\n\nThe other pages each cover one building block. One page shows how to use area() controls to define navigation menus, navigation bar links, and the Creation, Processing and Reporting action areas. Another covers Cues and Action tiles, built from a Cue table and a CardPart page with a cuegroup control. A third covers headlines, built on HeadlinePart pages with the Expression property. A further page covers the onboarding checklist, with guided experience items, assisted setup, and tours.\n\nStart with Designing Role Centers for the concepts, then read the simple AL code example to see a full Role Center page with sections, embedding, and action areas. Use the menu, cue, headline and checklist pages as needed to extend it.",
   "key_points": [
-    "Navigation menus, the navigation bar, and actions are defined with area() and action() controls in AL, on Role Centers and page extensions, with support for submenus.",
-    "Cues are based on a Cue table with FlowField or normal fields, shown through CardPart pages using cuegroup controls, with an optional wide layout.",
-    "Action tiles can be added to cue groups to start operations from the Role Center.",
-    "Headlines use the HeadlinePart page type, with fields whose Expression property uses tags for title, payload, and emphasis to show rotating text.",
-    "Headlines support drill-down, interactive behavior, and dynamic visibility.",
-    "Designing Role Centers covers the content area, performance (page background tasks), and mobile considerations (2021 release wave 1).",
-    "The checklist onboards users with guided experience items, assisted setup, manual setup, tours, and spotlight tours (2021 release wave 1).",
-    "A simple AL example shows a custom Role Center with a posted invoices section, embedded sales and services actions, and processing, creation, and reporting action areas."
+    "Designing Role Centers covers navigation menus, action bar, content area, cues, headlines, and page background tasks, plus performance and mobile considerations (2021 release wave 1).",
+    "Navigation is defined with area() controls: navigation menu sections, navigation bar links, and action areas for Creation, Processing and Reporting.",
+    "Menus can group pages, reports and codeunits, using page groups and submenus.",
+    "Cues are designed on a Cue table with FlowField or Normal fields, shown through a CardPart page with a cuegroup control; wide layout and Action tiles are supported.",
+    "Headlines use HeadlinePart pages with fields that rotate text via the Expression property, using tags for title, payload and emphasis; they support drill-down and dynamic visibility.",
+    "The checklist helps onboard users with guided experience items: assisted setup, manual setup, tours and spotlight tours (2021 release wave 1).",
+    "A simple AL example shows a custom Role Center with a posted invoices section, embedded sales and service actions, and processing, creation and reporting actions."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:20.449Z",
+  "at": "2026-10-07T21:13:11.639Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.013739
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:23:18.489Z",
+    "at": "2026-10-07T21:13:11.963Z",
     "verdict": "approve",
     "issues": [
-      "The key point on Designing Role Centers ends with '(2021 release wave 1)'. That can read as if only the mobile considerations belong to that release, when the source only links the version to the page as a whole. The same tag on the checklist point is fine.",
-      "The link between performance and page background tasks is a small inference: the source lists page background tasks as a feature and mentions performance optimization separately. Readers would reasonably connect the two, so this is acceptable."
+      "The headlines key point says the text rotates 'via the Expression property'. The source says headlines show rotating text and use Expression property syntax with tags, but it does not say the rotation comes from Expression. Better wording: 'fields that show rotating headlines, formatted with the Expression property using tags for title, payload and emphasis'.",
+      "The '(2021 release wave 1)' labels match the page version metadata. A reader could take them as the release that introduced these features, which the summaries do not state. This is minor."
     ],
-    "input_hash": "c9fd27854df44fd36b65f13e5c78c931171412bb6aa02a21cd8bed13b35a2a8c",
-    "cost_usd": 0.0332712
+    "input_hash": "9abae9238523853ef7310dcfe9471429aaf96ef888e165c49febafbfb52e5ea5",
+    "cost_usd": null
   }
 }

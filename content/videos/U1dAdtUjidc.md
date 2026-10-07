@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:00:42.716Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -236,7 +236,7 @@ It also shows analyzing a failed update, where the failure message pointed to AL
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Admin Center MCP Server" at [0:16](https://www.youtube.com/watch?v=U1dAdtUjidc&t=16s)
 - other "Admin API" at [0:47](https://www.youtube.com/watch?v=U1dAdtUjidc&t=47s)

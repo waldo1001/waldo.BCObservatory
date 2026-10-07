@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 374f886ec08a01554d36ca761f75c7d2c477027f5e1bb27bb2c8a9a324b1f1d3
+  input_hash: d39719154c3fc0cb76e368a28a3d4fa0a1620e8466b7aa17ec5fbefaf3390184
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AutomaticAccountCodes/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AutomaticAccountCodes/app
     title: src/Apps/W1/AutomaticAccountCodes/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -199,4 +199,4 @@ First-party app · folder `src/Apps/W1/AutomaticAccountCodes/app` · namespace `
 | 4856 | [D365 TEAM MEMBER - AAC](../objects/permissionsetextension/4856.md) |  |
 | 4857 | [INTELLIGENT CLOUD - AAC](../objects/permissionsetextension/4857.md) |  |
 
-Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

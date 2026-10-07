@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:46:49.264Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -195,7 +195,10 @@ evidence:
     quote: The second item that we are going to be looking into is giving you the ability to test your agents which we will be
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/4316
+    - object/page/9301
+    - object/page/42
   features: []
   topics: []
   localizations: []
@@ -551,13 +554,15 @@ The video spends time on profiles, which limit the agent's UI and set the starti
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "agent list" at [1:14](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=74s)
+- [page 4316 "Agent List"](../objects/page/4316.md) at [1:14](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=74s)
 - page "role center" at [1:14](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=74s)
-- page "sales invoice list" at [8:36](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=516s)
+- [page 9301 "Sales Invoice List"](../objects/page/9301.md) at [8:36](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=516s)
 - page "items page" at [16:47](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1007s)
-- page "sales order" at [16:47](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1007s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [16:47](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1007s)
+
+Not found in BC28-30: page "role center", page "items page".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:33:18.010Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -517,7 +517,7 @@ It also describes secure admin workstations, auditing and security logs sent to 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Cosmos database" at [41:13](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2473s)
 

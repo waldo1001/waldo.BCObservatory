@@ -1616,6 +1616,20 @@
         }
       ]
     },
+    "change/bcapps/10212": {
+      "kind": "change",
+      "key": "change/bcapps/10212",
+      "hash": "f9f63d77fd8f3eba77f5a88685b052f27cdc119ebc9b5a86e38e81d309092251",
+      "title": "#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:26.811Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment",
+          "quote": "SetReferenceType method is added to the SignedXml codeunit to allow callers"
+        }
+      ]
+    },
     "change/bcapps/10213": {
       "kind": "change",
       "key": "change/bcapps/10213",
@@ -2797,6 +2811,20 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "Expense Report FactBox pages now display user-facing captions instead of inherited names"
+        }
+      ]
+    },
+    "change/bcapps/10446": {
+      "kind": "change",
+      "key": "change/bcapps/10446",
+      "hash": "7f30d2fa6cd0bf695bcbe458a7d8c2d3fc87b428b9b149e6e4ec246218ed6c8f",
+      "title": "#10446 [Bug][Subscription Billing] \"Subscription Lines - Overdue\" cue counts lines of contracts that already ended",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:26.811Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
         }
       ]
     },
@@ -5964,6 +5992,20 @@
         }
       ]
     },
+    "change/bcapps/11436": {
+      "kind": "change",
+      "key": "change/bcapps/11436",
+      "hash": "f53684e458b01fd96803597da7794dab702fceff98f58f3cb30d0384f6423dbd",
+      "title": "#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug  632380",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:26.811Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Purchase invoice lines of G/L Account type now correctly recalculate VAT-related amounts"
+        }
+      ]
+    },
     "change/bcapps/11441": {
       "kind": "change",
       "key": "change/bcapps/11441",
@@ -6338,6 +6380,20 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "Expense Agent now captures policy evaluation history at the report level"
+        }
+      ]
+    },
+    "change/bcapps/11629": {
+      "kind": "change",
+      "key": "change/bcapps/11629",
+      "hash": "5c0be8aa3ec1c87832e6d1cc43c579199405462b877113182c8a783d1cbc08fe",
+      "title": "#11629 Fix Norwegian SAF-T 1.30 export issues",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:33.669Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/norway/vat",
+          "quote": "Norwegian SAF-T 1.30 export now correctly reports header versions"
         }
       ]
     },
@@ -7492,6 +7548,20 @@
         }
       ]
     },
+    "change/bcapps/12078": {
+      "kind": "change",
+      "key": "change/bcapps/12078",
+      "hash": "41748ce25ef75b8be0050becacbf575fe661be0a0951767a115f131c6279d5a7",
+      "title": "#12078 [29.x]Reduce allocations in the \"Export to Execl\" scenario (#11870)",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:34.437Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "Reuses the default CellDecorator instead of creating new instances for each column-row combination"
+        }
+      ]
+    },
     "change/bcapps/12080": {
       "kind": "change",
       "key": "change/bcapps/12080",
@@ -8079,6 +8149,20 @@
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
           "quote": "Manufacturing Setup fields marked as removed in version 30.0"
+        }
+      ]
+    },
+    "change/bcapps/12428": {
+      "kind": "change",
+      "key": "change/bcapps/12428",
+      "hash": "5fde2e6280d50b303526a1682039466db45aac8e3a749ceab353366bae7ff019",
+      "title": "#12428 Add Copilot feature trial interface",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T21:12:26.826Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Copilot feature trial interface to System Application, enabling applications"
         }
       ]
     },
@@ -17752,6 +17836,28 @@
         }
       ]
     },
+    "post/duiliotacconi-com/2201": {
+      "kind": "post",
+      "key": "post/duiliotacconi-com/2201",
+      "hash": "adaf08b07ad9514baeff2d316b87c4975e0d063a8a6de00da5991c651c7a2331",
+      "title": "Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2",
+      "source": "duiliotacconi-com",
+      "at": "2026-10-07T21:12:34.437Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
+          "quote": "table structure limits in Dynamics 365 Business Central 2026 Wave 2 (version 29)"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "quote": "field count limits, SQL Server 8KB record size constraints, key/index limits"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+          "quote": "Base table fields and extension fields can be mixed in the same index"
+        }
+      ]
+    },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/",
@@ -18014,6 +18120,28 @@
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
           "quote": "September 2026 cumulative updates are available for Dynamics 365 Business Central"
+        }
+      ]
+    },
+    "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/": {
+      "kind": "post",
+      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/",
+      "hash": "12cbe9556b3bb7828c277a2d2bb5fcf283900a76aa06453e2d33c2407faba799",
+      "title": "October 2026 Cumulative Updates for Dynamics 365 Business Central",
+      "source": "dvlprlife-com",
+      "at": "2026-10-07T21:12:26.810Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
+          "quote": "Business Central 2026 Wave 2 now available for new customers"
+        },
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "Organizations should verify implementation readiness and compatibility with customizations before upgrading"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/understand-business-central-online",
+          "quote": "Online customers auto-upgrading to version 29.0 with email notification"
         }
       ]
     },
@@ -19766,6 +19894,28 @@
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
           "quote": "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
+        }
+      ]
+    },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184",
+      "hash": "fea6d355c6532c15c7b60bfb7042dee0c115244047d4164e55ac85b20276df12",
+      "title": "Data query tools in the Business Central MCP server: a hands-on test guide",
+      "source": "mohana-blog",
+      "at": "2026-10-07T21:12:26.811Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Agents can discover tables, inspect their fields and relations, write AL queries, compile them, and execute them"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-infrastructure-services",
+          "quote": "Data Query Tools feature on the Business Central MCP server enables agents to query tables"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "api alternative; read-only access; ad hoc analysis"
         }
       ]
     },

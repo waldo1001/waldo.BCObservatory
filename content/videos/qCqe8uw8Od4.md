@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:44:15.592Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: for item ledger entries in version 28.x we will add these four new um pre-built analysis views so that when you open that in
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/7160
   features: []
   topics: []
   localizations: []
@@ -233,10 +234,12 @@ It also covers modernizing inventory reports. Eight reports get Excel and Word l
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "ABC Analysis Setup" at [3:59](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=239s)
+- [page 7160 "ABC Analysis Setup"](../objects/page/7160.md) at [3:59](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=239s)
 - table "Item Ledger Entries" at [7:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=459s)
+
+Not found in BC28-30: table "Item Ledger Entries".
 
 ## Quotes
 

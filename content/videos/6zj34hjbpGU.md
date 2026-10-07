@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:35:01.273Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,9 @@ evidence:
     quote: When Excel opens, the Excel addin pane displays. Here we can refresh, filter, and publish our data
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/22
+    - object/page/21
   features: []
   topics: []
   localizations: []
@@ -206,11 +208,13 @@ The demo builds a pivot table of quarterly sales by customer and adds a pivot ch
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Customer Ledger Entries" at [0:16](https://www.youtube.com/watch?v=6zj34hjbpGU&t=16s)
-- page "Customer List" at [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s)
-- page "Customer Card" at [2:26](https://www.youtube.com/watch?v=6zj34hjbpGU&t=146s)
+- [page 22 "Customer List"](../objects/page/22.md) at [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [2:26](https://www.youtube.com/watch?v=6zj34hjbpGU&t=146s)
+
+Not found in BC28-30: table "Customer Ledger Entries".
 
 ## Quotes
 

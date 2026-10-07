@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:41:25.987Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -400,13 +400,15 @@ The demo shows accepting or discarding a Copilot proposal, drilling into match d
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "E-Document Manual Matching" at [6:24](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=384s)
 - page "role center" at [9:36](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=576s)
 - page "auto match lines" at [13:19](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=799s)
 - other "Purchase and Payables setup" at [16:20](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=980s)
 - page "copilot capability" at [19:00](https://www.youtube.com/watch?v=z1H6nQCEIeY&t=1140s)
+
+Not found in BC28-30: page "E-Document Manual Matching", page "role center", page "auto match lines", page "copilot capability".
 
 ## Quotes
 

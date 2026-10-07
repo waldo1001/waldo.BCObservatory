@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:35:55.375Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -424,7 +424,7 @@ It shows that in version 23 BCPT works out of the box in AL Go, with a BCPT work
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Business Central Performance Toolkit (BCPT)" at [4:03](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=243s)
 - other "AL Go" at [8:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=497s)

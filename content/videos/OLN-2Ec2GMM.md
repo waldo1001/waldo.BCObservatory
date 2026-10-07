@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:50:03.316Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: with doet 8 we're moving to Powers shell 7
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/98
   features: []
   topics: []
   localizations: []
@@ -262,12 +263,12 @@ It also covers field tooltips defined once on the table, new system tables for t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "number sequence" at [0:37](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=37s)
 - other "change log entry" at [2:25](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=145s)
 - other "test field" at [8:44](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=524s)
-- table "general ledger setup" at [9:45](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=585s)
+- [table 98 "General Ledger Setup"](../objects/table/98.md) at [9:45](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=585s)
 - other "currency card" at [10:18](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=618s)
 
 ## Quotes

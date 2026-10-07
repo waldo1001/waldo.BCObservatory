@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,6 +215,8 @@ links:
     - post/olofsimren-com/3630
     - post/thinkaboutit-be/8204
   guidelines: []
+  changes:
+    - change/bcapps/12428
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -274,10 +276,11 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 - [What are the developer tools for Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview): Get an overview of the toolkit from Business Central for extending Copilot in your extensions.
 - [What is considered an extension to Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview): Learn whether your AI idea or feature is a match for Copilot in Business Central
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Copilot feature trial interface to System Application, enabling applications"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central that automates customer address extraction"
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central address records"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "compares two authentication methods for Azure OpenAI in Business Central: unmanaged and managed"

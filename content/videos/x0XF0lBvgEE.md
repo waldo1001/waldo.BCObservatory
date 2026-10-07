@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -230,7 +230,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "AI at Work Roadmap" at [2:08](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=128s)
 - other "Microsoft Learn article" at [1:02](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=62s)

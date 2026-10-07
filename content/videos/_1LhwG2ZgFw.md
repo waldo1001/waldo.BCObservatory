@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:14:06.857Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -231,7 +231,7 @@ It then covers searching from blanket orders as a source document, narrowing sea
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sales line suggestion feature" at [1:03](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=63s)
 - other "Fine product capability" at [8:33](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=513s)

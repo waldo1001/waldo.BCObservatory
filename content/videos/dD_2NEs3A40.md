@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:45:19.426Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -386,7 +386,7 @@ It then demos archiving projects and assembly-to-order in projects, including qu
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Project Manager rolet Center" at [1:23](https://www.youtube.com/watch?v=dD_2NEs3A40&t=83s)
 - page "Project list" at [2:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=151s)
@@ -394,6 +394,8 @@ As heard in the captions; not yet verified against the code pillar.
 - page "Project setup" at [14:48](https://www.youtube.com/watch?v=dD_2NEs3A40&t=888s)
 - page "Project Task Card" at [17:27](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1047s)
 - other "Get Project planning Lines" at [20:36](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1236s)
+
+Not found in BC28-30: page "Project Manager rolet Center", page "Project list", page "Project Card", page "Project setup", page "Project Task Card".
 
 ## Quotes
 

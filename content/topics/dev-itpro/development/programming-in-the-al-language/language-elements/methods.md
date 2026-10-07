@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -34,7 +34,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-method-attributes
     title: Method Attributes in AL for Business Central
-    date: "2026-08-19"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:57:06.465Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -244,7 +244,10 @@ evidence:
     quote: you can do it only once per environment so you should do it as the last step
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/40063
+    - object/table/9999
+    - object/table/405
   features: []
   topics: []
   localizations: []
@@ -818,21 +821,23 @@ It also covers preparation (aligning SQL definitions, data cleanup), table mappi
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Cloud Migration Management" at [4:51](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=291s)
+- [page 40063 "Cloud Migration Management"](../objects/page/40063.md) at [4:51](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=291s)
 - page "Data Administration page" at [21:02](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1262s)
 - codeunit "401 hybrid cloud management" at [35:05](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2105s)
 - page "add table mappings" at [32:08](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1928s)
 - page "managed custom tables" at [31:48](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1908s)
 - page "delegated admin consent for cloud migration" at [37:46](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2266s)
 - table "tenant media table" at [44:37](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2677s)
-- table "upgrade tags" at [44:57](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2697s)
+- [table 9999 "Upgrade Tags"](../objects/table/9999.md) at [44:57](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2697s)
 - table "change log" at [45:18](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2718s)
-- table "change log entry" at [45:18](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2718s)
+- [table 405 "Change Log Entry"](../objects/table/405.md) at [45:18](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2718s)
 - page "cloud migration page" at [53:20](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3200s)
 - page "defined user mappings page" at [53:20](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3200s)
 - page "users list" at [53:00](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3180s)
+
+Not found in BC28-30: page "Data Administration page", codeunit "401 hybrid cloud management", page "add table mappings", page "managed custom tables", page "delegated admin consent for cloud migration", table "tenant media table", table "change log", page "cloud migration page", page "defined user mappings page", page "users list".
 
 ## Quotes
 

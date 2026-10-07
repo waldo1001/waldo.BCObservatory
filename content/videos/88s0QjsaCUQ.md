@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:36:48.263Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -227,9 +227,11 @@ The context is stored in a system table in Business Central. Apps can read it on
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "system table" at [4:45](https://www.youtube.com/watch?v=88s0QjsaCUQ&t=285s)
+
+Not found in BC28-30: table "system table".
 
 ## Quotes
 

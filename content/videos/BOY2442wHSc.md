@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:45:09.301Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -192,7 +192,7 @@ After the Business Central Telemetry Power BI app is installed, it shows sample 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "API Access menu" at [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s)
 - other "Configure menu" at [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s)

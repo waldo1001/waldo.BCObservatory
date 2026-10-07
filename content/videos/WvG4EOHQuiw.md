@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:15:29.579Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,7 +111,8 @@ evidence:
     quote: this feature is going to get going to become available with update one of 2024 release wave
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9318
   features: []
   topics: []
   localizations: []
@@ -311,7 +312,7 @@ It then shows inventory availability by location, the alignment of service order
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Field Service Integration Setup" at [3:41](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=221s)
 - table "Integration Table Mappings" at [4:02](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=242s)
@@ -321,7 +322,9 @@ As heard in the captions; not yet verified against the code pillar.
 - other "Service Item Line Integration Table Mapping" at [4:22](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=262s)
 - other "Service Order Type Integration Table Mapping" at [4:22](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=262s)
 - page "Service Management Setup" at [4:59](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=299s)
-- page "Service Orders" at [9:31](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=571s)
+- [page 9318 "Service Orders"](../objects/page/9318.md) at [9:31](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=571s)
+
+Not found in BC28-30: page "Field Service Integration Setup", table "Integration Table Mappings", page "Service Management Setup".
 
 ## Quotes
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,12 @@ evidence:
     quote: Business Central uses calendar entries for scheduling your production against your capacities.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/99000754
+    - object/table/99000758
+    - object/table/99000750
+    - object/table/99000751
+    - object/table/5405
   features: []
   topics: []
   localizations: []
@@ -249,13 +254,13 @@ It then calculates the work center calendar to produce a capacity matrix in minu
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Work Center" at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
-- table "Machine Center" at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
-- table "Work Shift" at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
-- table "Shop Calendar" at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
-- table "Production Order" at [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s)
+- [table 99000754 "Work Center"](../objects/table/99000754.md) at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
+- [table 99000758 "Machine Center"](../objects/table/99000758.md) at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
+- [table 99000750 "Work Shift"](../objects/table/99000750.md) at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
+- [table 99000751 "Shop Calendar"](../objects/table/99000751.md) at [0:12](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=12s)
+- [table 5405 "Production Order"](../objects/table/5405.md) at [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s)
 
 ## Quotes
 

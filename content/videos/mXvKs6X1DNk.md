@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,11 @@ evidence:
     quote: if I refresh, I can see it got the new value that was changed in the source. So, the rescheduling of synchronization jobs and
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
+    - object/table/23
+    - object/table/5053
+    - object/table/348
   features: []
   topics: []
   localizations: []
@@ -246,12 +250,12 @@ It walks through the architecture, security and data flow, and the setup. The de
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Customer" at [7:59](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=479s)
-- table "Vendor" at [7:59](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=479s)
-- table "Business Relation" at [7:26](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=446s)
-- table "Dimension" at [7:26](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=446s)
+- [table 18 "Customer"](../objects/table/18.md) at [7:59](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=479s)
+- [table 23 "Vendor"](../objects/table/23.md) at [7:59](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=479s)
+- [table 5053 "Business Relation"](../objects/table/5053.md) at [7:26](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=446s)
+- [table 348 "Dimension"](../objects/table/348.md) at [7:26](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=446s)
 
 ## Quotes
 

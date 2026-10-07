@@ -1279,25 +1279,30 @@
       }
     },
     "573313": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-adding-tooltips.md@99c32bc34280e1e6": {
+        "verdict": "drop",
+        "reason": "Covers inheritance of table field tooltips into page fields, which is an older and different capability from actions inheriting page or report tooltips.",
+        "at": "2026-10-07T21:12:03.729Z"
+      },
       "video/D_Lur52IrIg#10@17ac39ecf1067291": {
         "verdict": "keep",
-        "reason": "It describes actions inheriting their tooltip from the page's ToolTip property, which is the core of this feature.",
-        "at": "2026-10-07T00:17:17.734Z"
+        "reason": "Explicitly shows actions inheriting their tooltip from the page's ToolTip property.",
+        "at": "2026-10-07T21:12:03.729Z"
       },
       "video/eUkx_VCcyoU#6@8ae9aae5c059becc": {
         "verdict": "keep",
-        "reason": "It covers the report half of the feature: tooltips on reports that page actions can inherit.",
-        "at": "2026-10-07T00:17:17.734Z"
+        "reason": "Describes report tooltips that page actions can inherit, which is part of this feature.",
+        "at": "2026-10-07T21:12:03.729Z"
       },
       "video/tzeO0mc8RJo#2@8cfa3c0b751d98f0": {
         "verdict": "drop",
-        "reason": "Table tooltips reused on pages are a different capability from actions inheriting tooltips from page or report objects.",
-        "at": "2026-10-07T00:17:17.734Z"
+        "reason": "Covers table tooltips reused across pages, not actions inheriting page or report tooltips.",
+        "at": "2026-10-07T21:12:03.729Z"
       },
       "video/Z0K38pXvjWk#1@07df47b9a366fdb7": {
         "verdict": "keep",
-        "reason": "It explains that navigation actions inherit the page object's tooltip when they don't define their own.",
-        "at": "2026-10-07T00:17:17.734Z"
+        "reason": "Describes navigation actions inheriting the page object's tooltip when they don't define their own.",
+        "at": "2026-10-07T21:12:03.729Z"
       }
     },
     "573314": {

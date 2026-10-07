@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:47:01.509Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,8 @@ evidence:
     quote: actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/37059
   features: []
   topics: []
   localizations: []
@@ -178,10 +179,12 @@ The second area is the new User Control Host page type in AL, built for hosting 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Finance Report" at [1:38](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=98s)
+- [page 37059 "Finance Report"](../objects/page/37059.md) at [1:38](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=98s)
 - page "User Control Host Demo" at [7:09](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=429s)
+
+Not found in BC28-30: page "User Control Host Demo".
 
 ## Quotes
 

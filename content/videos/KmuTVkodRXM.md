@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:21:06.868Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,7 +64,9 @@ evidence:
     quote: now that it will display the type the al name space of that record id in which a al name space that
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9174
+    - object/page/22
   features: []
   topics: []
   localizations: []
@@ -182,15 +184,17 @@ The second half covers Record ID. A Record ID can be formatted with format type 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "All Objects with Captions" at [0:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=24s)
 - page "All Objects with Captions" at [0:59](https://www.youtube.com/watch?v=KmuTVkodRXM&t=59s)
-- page "All Objects with Caption" at [1:27](https://www.youtube.com/watch?v=KmuTVkodRXM&t=87s)
+- [page 9174 "All Objects with Caption"](../objects/page/9174.md) at [1:27](https://www.youtube.com/watch?v=KmuTVkodRXM&t=87s)
 - page "All Objects with Caption (page 9174)" at [2:49](https://www.youtube.com/watch?v=KmuTVkodRXM&t=169s)
 - table "Sample" at [6:06](https://www.youtube.com/watch?v=KmuTVkodRXM&t=366s)
 - report "Data Also Sample" at [6:06](https://www.youtube.com/watch?v=KmuTVkodRXM&t=366s)
-- page "Customer List" at [7:10](https://www.youtube.com/watch?v=KmuTVkodRXM&t=430s)
+- [page 22 "Customer List"](../objects/page/22.md) at [7:10](https://www.youtube.com/watch?v=KmuTVkodRXM&t=430s)
+
+Not found in BC28-30: table "All Objects with Captions", page "All Objects with Captions", page "All Objects with Caption (page 9174)", table "Sample", report "Data Also Sample".
 
 ## Quotes
 

@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:26.573Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,7 +56,9 @@ evidence:
     quote: Carlos is actually able to post deferrals into the future all the way through June in 2024. So this is a great way where
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/98
+    - object/page/119
   features: []
   topics: []
   localizations: []
@@ -158,10 +160,10 @@ It then shows two fields in general ledger setup that define the window in which
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "General Ledger Setup" at [0:53](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=53s)
-- page "User Setup" at [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s)
+- [table 98 "General Ledger Setup"](../objects/table/98.md) at [0:53](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=53s)
+- [page 119 "User Setup"](../objects/page/119.md) at [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s)
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:01:30.841Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -419,7 +419,7 @@ Most of the discussion is about working practice. It covers AI-generated tests a
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "unified interfaces code units for AI" at [4:26](https://www.youtube.com/watch?v=xWOddQt1GUM&t=266s)
 - codeunit "library code unit" at [22:21](https://www.youtube.com/watch?v=xWOddQt1GUM&t=1341s)
@@ -431,6 +431,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "MCP" at [47:02](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2822s)
 - other "AL-Go" at [42:40](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2560s)
 - other "Business Central MCP" at [51:19](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3079s)
+
+Not found in BC28-30: codeunit "unified interfaces code units for AI", codeunit "library code unit".
 
 ## Quotes
 

@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers
 type: topic
 title: Role centers
-summary: "Role centers in AL: how to design role-tailored home pages with navigation menus, cues, action tiles, and headlines, plus a simple code example and a user onboarding checklist. It answers questions about building and customizing Role Center pages and their parts."
+summary: "Role centers in AL: how to design role-tailored home pages, add navigation menus, build cues and headlines, and set up a user onboarding checklist. It answers questions about structuring a Role Center page and its parts, with a simple code example."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:23:18.489Z"
+  at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c9fd27854df44fd36b65f13e5c78c931171412bb6aa02a21cd8bed13b35a2a8c
+  input_hash: 9abae9238523853ef7310dcfe9471429aaf96ef888e165c49febafbfb52e5ea5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
-    title: Adding Menus to the Navigation Area
-    date: "2022-08-08"
+    title: Add Menus to Role Center Navigation
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -99,32 +99,31 @@ narrative: generated
 
 # Role centers
 
-> Role centers in AL: how to design role-tailored home pages with navigation menus, cues, action tiles, and headlines, plus a simple code example and a user onboarding checklist. It answers questions about building and customizing Role Center pages and their parts.
+> Role centers in AL: how to design role-tailored home pages, add navigation menus, build cues and headlines, and set up a user onboarding checklist. It answers questions about structuring a Role Center page and its parts, with a simple code example.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Role centers · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-A Role Center is the home page tailored to a user profile. It combines a navigation area, an action bar, and a content area with parts such as cues and headlines. The pages here cover each of those pieces and how to build them in AL.
+A Role Center is the role-tailored home page in Business Central. It combines navigation, an action bar, and a content area holding parts such as cues and headlines. The section starts with a design overview that also covers performance (page background tasks) and mobile considerations.
 
-Start with "Designing Role Centers" for the overall structure, performance optimization with page background tasks, and mobile considerations. "Simple Role Center Code Example in AL" then shows a working page with sections, embedding, and processing, creation, and reporting action areas.
+The other pages each cover one building block. One page shows how to use area() controls to define navigation menus, navigation bar links, and the Creation, Processing and Reporting action areas. Another covers Cues and Action tiles, built from a Cue table and a CardPart page with a cuegroup control. A third covers headlines, built on HeadlinePart pages with the Expression property. A further page covers the onboarding checklist, with guided experience items, assisted setup, and tours.
 
-The other pages go into specific parts. "Adding Menus to the Navigation Area" covers the navigation menu, navigation bar, and actions on Role Centers and page extensions. "Creating and Customizing Cues" covers Cue tables, CardPart pages, and action tiles. "Create a Role Center headline" covers HeadlinePart pages. "Get Users Started with the Checklist" covers onboarding with guided experience items, assisted setup, and tours.
+Start with Designing Role Centers for the concepts, then read the simple AL code example to see a full Role Center page with sections, embedding, and action areas. Use the menu, cue, headline and checklist pages as needed to extend it.
 
 ## Key points
 
-- Navigation menus, the navigation bar, and actions are defined with area() and action() controls in AL, on Role Centers and page extensions, with support for submenus.
-- Cues are based on a Cue table with FlowField or normal fields, shown through CardPart pages using cuegroup controls, with an optional wide layout.
-- Action tiles can be added to cue groups to start operations from the Role Center.
-- Headlines use the HeadlinePart page type, with fields whose Expression property uses tags for title, payload, and emphasis to show rotating text.
-- Headlines support drill-down, interactive behavior, and dynamic visibility.
-- Designing Role Centers covers the content area, performance (page background tasks), and mobile considerations (2021 release wave 1).
-- The checklist onboards users with guided experience items, assisted setup, manual setup, tours, and spotlight tours (2021 release wave 1).
-- A simple AL example shows a custom Role Center with a posted invoices section, embedded sales and services actions, and processing, creation, and reporting action areas.
+- Designing Role Centers covers navigation menus, action bar, content area, cues, headlines, and page background tasks, plus performance and mobile considerations (2021 release wave 1).
+- Navigation is defined with area() controls: navigation menu sections, navigation bar links, and action areas for Creation, Processing and Reporting.
+- Menus can group pages, reports and codeunits, using page groups and submenus.
+- Cues are designed on a Cue table with FlowField or Normal fields, shown through a CardPart page with a cuegroup control; wide layout and Action tiles are supported.
+- Headlines use HeadlinePart pages with fields that rotate text via the Expression property, using tags for title, payload and emphasis; they support drill-down and dynamic visibility.
+- The checklist helps onboard users with guided experience items: assisted setup, manual setup, tours and spotlight tours (2021 release wave 1).
+- A simple AL example shows a custom Role Center with a posted invoices section, embedded sales and service actions, and processing, creation and reporting actions.
 
 ## Learn pages
 
-- [Adding Menus to the Navigation Area](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane): Enable users to quickly navigate and perform actions by adding the menu items to the navigation area.
+- [Add Menus to Role Center Navigation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane): Learn how to add pages, reports, and actions to Role Center navigation menus, navigation bars, and action areas in Business Central.
 - [Create a Role Center headline](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline): You can provide information and insights as headlines on Role Centers.
 - [Creating and Customizing Cues](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles): Get an overview of cues and action tiles and the tasks involved in customizing them on Role Centers.
 - [Designing Role Centers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers): Learn how to create user-focused home pages called role centers that boost productivity and streamline navigation.

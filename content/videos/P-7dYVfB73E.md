@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:06:51.351Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -536,7 +536,7 @@ The second half covers the response. Newer and refactored areas use interfaces a
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "Sales Posting" at [11:44](https://www.youtube.com/watch?v=P-7dYVfB73E&t=704s)
 - codeunit "Purchase Posting" at [11:44](https://www.youtube.com/watch?v=P-7dYVfB73E&t=704s)
@@ -544,6 +544,8 @@ As heard in the captions; not yet verified against the code pillar.
 - table "Dimensions" at [28:50](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1730s)
 - other "Number Series" at [28:29](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1709s)
 - other "Audit Codes" at [28:50](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1730s)
+
+Not found in BC28-30: codeunit "Sales Posting", codeunit "Purchase Posting", table "Dimensions".
 
 ## Quotes
 

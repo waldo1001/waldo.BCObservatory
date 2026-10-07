@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:39:45.378Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,7 +95,9 @@ evidence:
     quote: when you have enabled system will post both sustainability entry and sustainability value entry. If you didn't enable and you still have emissions here
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/6227
+    - object/table/6216
   features: []
   topics: []
   localizations: []
@@ -255,10 +257,10 @@ The demo shows enabling value chain tracking in Sustainability Setup, entering e
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sustainability Value Entry" at [1:09](https://www.youtube.com/watch?v=bnqxycPzbeI&t=69s)
-- table "Sustainability Ledger Entry" at [6:54](https://www.youtube.com/watch?v=bnqxycPzbeI&t=414s)
+- [table 6227 "Sustainability Value Entry"](../objects/table/6227.md) at [1:09](https://www.youtube.com/watch?v=bnqxycPzbeI&t=69s)
+- [table 6216 "Sustainability Ledger Entry"](../objects/table/6216.md) at [6:54](https://www.youtube.com/watch?v=bnqxycPzbeI&t=414s)
 
 ## Quotes
 

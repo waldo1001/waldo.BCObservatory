@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:30:03.059Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,9 +198,11 @@ The presenter sends a test email requesting a quote. The agent reads the email, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "email accounts page" at [3:07](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=187s)
+
+Not found in BC28-30: page "email accounts page".
 
 ## Quotes
 

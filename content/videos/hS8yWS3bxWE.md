@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:40:32.130Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,7 +199,7 @@ The SOAP telemetry is meant to help find integrations that must stop using SOAP 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "exceptions table" at [4:47](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=287s)
 - other "RT0053 event" at [8:22](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=502s)

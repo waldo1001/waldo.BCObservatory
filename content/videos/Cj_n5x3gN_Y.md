@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:02:14.334Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,7 +74,8 @@ evidence:
     quote: Currently, we do not have any specific report for um showing, so you can export in Excel, but plan is to continue invest invest
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/7414
   features: []
   topics: []
   localizations: []
@@ -243,13 +244,15 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "excise journal" at [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s)
 - table "excise transaction logs" at [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s)
-- page "excise tax types" at [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s)
+- [page 7414 "Excise Tax Types"](../objects/page/7414.md) at [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s)
 - page "excise duty rates" at [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s)
 - other "item card" at [7:32](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=452s)
+
+Not found in BC28-30: page "excise journal", table "excise transaction logs", page "excise duty rates".
 
 ## Quotes
 

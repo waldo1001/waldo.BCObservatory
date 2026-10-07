@@ -24,7 +24,7 @@ review:
   flags:
     - quote-check
 generated:
-  at: "2026-10-06T19:13:20.112Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -238,13 +238,15 @@ The demos show a notification when a ship-to address with a different country is
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "alternative customer VAT registration" at [1:47](https://www.youtube.com/watch?v=fdzTWZyT6mI&t=107s)
 - page "alternative customer VAT registration" at [6:29](https://www.youtube.com/watch?v=fdzTWZyT6mI&t=389s)
 - interface "ship to alternate customer VAT registration" at [15:06](https://www.youtube.com/watch?v=fdzTWZyT6mI&t=906s)
 - interface "alternative customer VAT registration consist" at [15:37](https://www.youtube.com/watch?v=fdzTWZyT6mI&t=937s)
 - interface "alternative customer VAT registration Doc" at [16:18](https://www.youtube.com/watch?v=fdzTWZyT6mI&t=978s)
+
+Not found in BC28-30: table "alternative customer VAT registration", page "alternative customer VAT registration", interface "ship to alternate customer VAT registration", interface "alternative customer VAT registration consist", interface "alternative customer VAT registration Doc".
 
 ## Quotes
 

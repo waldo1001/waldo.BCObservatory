@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:52:05.049Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,7 +90,12 @@ evidence:
     quote: but please be aware it's uh currently possible inside production because it's still in preview
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/4303
+    - object/codeunit/4315
+    - object/codeunit/4316
+    - object/page/31
+    - object/page/9307
   features: []
   topics: []
   localizations: []
@@ -493,15 +498,15 @@ The second half is aimed at developers. It covers the task, task builder and tas
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sales validation agent template" at [8:35](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=515s)
 - other "Inventory check agent" at [10:20](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=620s)
-- codeunit "agent task" at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
-- codeunit "agent task builder" at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
-- codeunit "agent task message builder" at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
-- page "item list" at [24:46](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1486s)
-- page "purchase order list" at [25:12](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1512s)
+- [codeunit 4303 "Agent Task"](../objects/codeunit/4303.md) at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
+- [codeunit 4315 "Agent Task Builder"](../objects/codeunit/4315.md) at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
+- [codeunit 4316 "Agent Task Message Builder"](../objects/codeunit/4316.md) at [19:05](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1145s)
+- [page 31 "Item List"](../objects/page/31.md) at [24:46](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1486s)
+- [page 9307 "Purchase Order List"](../objects/page/9307.md) at [25:12](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=1512s)
 - other "Agent Factory" at [38:18](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2298s)
 - interface "Agent Beta Data" at [38:18](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2298s)
 - page "Configuration Dialogue" at [39:21](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2361s)
@@ -509,6 +514,8 @@ As heard in the captions; not yet verified against the code pillar.
 - page "setup page" at [39:09](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2349s)
 - page "KPI page" at [41:15](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2475s)
 - codeunit "create activate" at [40:33](https://www.youtube.com/watch?v=nbGw2g3KMXI&t=2433s)
+
+Not found in BC28-30: interface "Agent Beta Data", page "Configuration Dialogue", codeunit "Agent Creation Codeunit", page "setup page", page "KPI page", codeunit "create activate".
 
 ## Quotes
 

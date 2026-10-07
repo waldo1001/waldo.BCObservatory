@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:18:35.644Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
     quote: only the currencies in which I also trade are listed
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics: []
   localizations: []
@@ -201,10 +202,12 @@ In the demo, the LCY code is set to USD, and the local currency symbol and curre
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "General Ledger Setup" at [0:13](https://www.youtube.com/watch?v=yLKISB83KW8&t=13s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [0:13](https://www.youtube.com/watch?v=yLKISB83KW8&t=13s)
 - table "Currencies" at [1:10](https://www.youtube.com/watch?v=yLKISB83KW8&t=70s)
+
+Not found in BC28-30: table "Currencies".
 
 ## Quotes
 

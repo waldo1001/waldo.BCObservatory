@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:55:55.189Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,7 +125,8 @@ evidence:
     quote: If it's too much maybe you can use the summarize feature in Microsoft Learn and simply get a summary of each
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics: []
   localizations: []
@@ -318,9 +319,9 @@ It then shows dimension perspectives for running a report across dimension value
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "General Ledger Setup" at [6:22](https://www.youtube.com/watch?v=uxQRfChp96c&t=382s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [6:22](https://www.youtube.com/watch?v=uxQRfChp96c&t=382s)
 
 ## Quotes
 

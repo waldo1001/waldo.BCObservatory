@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:35:05.812Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -244,7 +244,11 @@ evidence:
     quote: We also have the rich text extended data type that enables you to add rich content capabilities to your fields.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/457
+    - object/table/18
+    - object/page/21
+    - object/page/22
   features: []
   topics: []
   localizations: []
@@ -826,18 +830,20 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "environment information" at [7:24](https://www.youtube.com/watch?v=TY82NR2hGEg&t=444s)
-- table "customer" at [6:04](https://www.youtube.com/watch?v=TY82NR2hGEg&t=364s)
+- [codeunit 457 "Environment Information"](../objects/codeunit/457.md) at [7:24](https://www.youtube.com/watch?v=TY82NR2hGEg&t=444s)
+- [table 18 "Customer"](../objects/table/18.md) at [6:04](https://www.youtube.com/watch?v=TY82NR2hGEg&t=364s)
 - codeunit "Bing Maps GeoCode" at [26:01](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1561s)
-- page "customer card" at [32:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1976s)
-- page "customer list" at [34:42](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2082s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [32:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=1976s)
+- [page 22 "Customer List"](../objects/page/22.md) at [34:42](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2082s)
 - table "GL entry" at [51:15](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3075s)
 - other "variant" at [45:45](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2745s)
 - other "secure text" at [46:02](https://www.youtube.com/watch?v=TY82NR2hGEg&t=2762s)
 - other "set current keys" at [59:07](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3547s)
 - codeunit "code unit" at [1:03:51](https://www.youtube.com/watch?v=TY82NR2hGEg&t=3831s)
+
+Not found in BC28-30: codeunit "Bing Maps GeoCode", table "GL entry", codeunit "code unit".
 
 ## Quotes
 

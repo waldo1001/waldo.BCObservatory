@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -119,7 +119,7 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "test codeunits"
 - table "fixture tables"
@@ -129,6 +129,8 @@ As named in the post; not yet joined to the code pillar.
 - report "fixture report"
 - query "fixture query"
 - xmlport "fixture XMLports"
+
+Not found in BC28-30: codeunit "test codeunits", table "fixture tables", enum "fixture enums", interface "fixture interface", page "fixture pages", report "fixture report", query "fixture query", xmlport "fixture XMLports".
 
 ## Context
 

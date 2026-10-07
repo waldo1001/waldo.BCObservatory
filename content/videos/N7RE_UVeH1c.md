@@ -17,7 +17,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:59:03.447Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,7 +54,8 @@ evidence:
     quote: you also get the file name of your Excel workbook uh with a name not not with the name export but with a name
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/25
   features: []
   topics: []
   localizations: []
@@ -149,10 +150,12 @@ It also shows that the exported Excel workbook now gets a file name built from t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "data analysis" at [0:05](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=5s)
-- page "customer ledger entries" at [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s)
+- [page 25 "Customer Ledger Entries"](../objects/page/25.md) at [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s)
+
+Not found in BC28-30: page "data analysis".
 
 ## Quotes
 

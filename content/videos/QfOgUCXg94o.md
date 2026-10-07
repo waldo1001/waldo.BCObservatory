@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:18:03.874Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,10 @@ evidence:
     quote: there is a feature key that we have enabled by default but you can turn it off and in the code there is a
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/7313
+    - object/table/7312
+    - object/table/5769
   features: []
   topics: []
   localizations: []
@@ -213,11 +216,11 @@ It then covers the changes developers need to know about. A new insert record fu
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Warehouse Register" at [0:28](https://www.youtube.com/watch?v=QfOgUCXg94o&t=28s)
-- table "Warehouse Entry" at [0:48](https://www.youtube.com/watch?v=QfOgUCXg94o&t=48s)
-- table "Warehouse Setup" at [4:59](https://www.youtube.com/watch?v=QfOgUCXg94o&t=299s)
+- [table 7313 "Warehouse Register"](../objects/table/7313.md) at [0:28](https://www.youtube.com/watch?v=QfOgUCXg94o&t=28s)
+- [table 7312 "Warehouse Entry"](../objects/table/7312.md) at [0:48](https://www.youtube.com/watch?v=QfOgUCXg94o&t=48s)
+- [table 5769 "Warehouse Setup"](../objects/table/5769.md) at [4:59](https://www.youtube.com/watch?v=QfOgUCXg94o&t=299s)
 
 ## Quotes
 

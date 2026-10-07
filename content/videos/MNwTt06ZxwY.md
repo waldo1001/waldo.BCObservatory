@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,9 @@ evidence:
     quote: 27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ...
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/4321
+    - object/page/4316
   features:
     - feature/573352
   topics: []
@@ -448,7 +450,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "agent" at [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s)
 - other "agent models list" at [6:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=382s)
@@ -462,8 +464,10 @@ As heard in the captions; not yet verified against the code pillar.
 - page "AI evals suite pages" at [28:07](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1687s)
 - codeunit "agent test context" at [40:42](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2442s)
 - codeunit "AI test context" at [41:23](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2483s)
-- codeunit "agent" at [43:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2602s)
-- page "agent list" at [45:25](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2725s)
+- [codeunit 4321 "Agent"](../objects/codeunit/4321.md) at [43:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2602s)
+- [page 4316 "Agent List"](../objects/page/4316.md) at [45:25](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2725s)
+
+Not found in BC28-30: enum "agent metadata provider", interface "factory", interface "agent metadata", interface "take agent task execution", page "AI evals suite pages", codeunit "agent test context", codeunit "AI test context".
 
 ## Quotes
 

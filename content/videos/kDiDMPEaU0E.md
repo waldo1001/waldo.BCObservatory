@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:55:55.220Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -242,7 +242,7 @@ Demos cover a Get order lines action, a matched order line user interface that s
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "matched order line user interface" at [2:46](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=166s)
 - other "get order lines" at [2:15](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=135s)

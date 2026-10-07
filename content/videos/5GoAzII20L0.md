@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:20:23.249Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,7 +194,7 @@ The release adds a standalone page script replayer, distributed as an NPM packag
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC Replayer" at [2:12](https://www.youtube.com/watch?v=5GoAzII20L0&t=132s)
 - other "AL-Go for GitHub" at [4:16](https://www.youtube.com/watch?v=5GoAzII20L0&t=256s)

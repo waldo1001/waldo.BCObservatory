@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 957 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 963 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:30:42.268Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 21c99c31857d8ddfeb58a61b87f5dbc911c05d2577e71b1d0b5712fbbb861b55
+  input_hash: c1da4967284c897f2dd78073cd1e85cb7427cb06202853ce713af081b7da5ea8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -773,6 +773,7 @@ links:
     - change/bcapps/10969
     - change/bcapps/11476
     - change/bcapps/11260
+    - change/bcapps/11436
     - change/bcapps/11280
     - change/bcapps/11114
     - change/bcapps/11441
@@ -992,19 +993,24 @@ links:
     - change/bcapps/12207
     - change/bcapps/11560
     - change/bcapps/12463
+    - change/bcapps/10212
+    - change/bcapps/10446
+    - change/bcapps/12428
+    - change/bcapps/11629
+    - change/bcapps/12078
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 957
+item_count: 963
 footprint:
   systems:
     - id: development
-      weight: 573
+      weight: 575
     - id: finance
-      weight: 370
+      weight: 372
     - id: integration
       weight: 319
     - id: inventory
@@ -1012,38 +1018,38 @@ footprint:
     - id: manufacturing
       weight: 159
     - id: sales
-      weight: 139
+      weight: 141
   topics:
     - id: bc30
-      weight: 905
+      weight: 909
     - id: main
-      weight: 905
+      weight: 909
     - id: fix
-      weight: 547
+      weight: 550
     - id: feature
-      weight: 320
+      weight: 322
     - id: bc29
-      weight: 52
+      weight: 54
     - id: releases/29.x
-      weight: 52
+      weight: 54
     - id: refactor
       weight: 42
     - id: performance
-      weight: 28
+      weight: 29
     - id: codeunit gen. jnl.-post line
       weight: 20
-    - id: codeunit item jnl.-post line
-      weight: 10
+    - id: table purchase line
+      weight: 11
   objects:
     - id: codeunit Gen. Jnl.-Post Line
       weight: 23
     - id: table Expense Report Header
       weight: 16
+    - id: table Purchase Line
+      weight: 14
     - id: codeunit Item Jnl.-Post Line
       weight: 13
     - id: page Expense Agent Setup Wizard
-      weight: 13
-    - id: table Purchase Line
       weight: 13
     - id: codeunit Expense Report Approval Mgmt
       weight: 11
@@ -1055,9 +1061,9 @@ footprint:
       weight: 11
     - id: permissionset Expense Management - Objects
       weight: 11
+    - id: table Subscription Line
+      weight: 11
     - id: page Expense Reports API
-      weight: 10
-    - id: table Expense Report Line
       weight: 10
   features: []
 first_item: "2026-07-07"
@@ -1066,7 +1072,7 @@ last_item: "2026-10-07"
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 957 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 963 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1074,28 +1080,33 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (573) | bc30 (905) | codeunit Gen. Jnl.-Post Line (23) |
-| finance (370) | main (905) | table Expense Report Header (16) |
-| integration (319) | fix (547) | codeunit Item Jnl.-Post Line (13) |
-| inventory (162) | feature (320) | page Expense Agent Setup Wizard (13) |
-| manufacturing (159) | bc29 (52) | table Purchase Line (13) |
-| sales (139) | releases/29.x (52) | codeunit Expense Report Approval Mgmt (11) |
+| development (575) | bc30 (909) | codeunit Gen. Jnl.-Post Line (23) |
+| finance (372) | main (909) | table Expense Report Header (16) |
+| integration (319) | fix (550) | table Purchase Line (14) |
+| inventory (162) | feature (322) | codeunit Item Jnl.-Post Line (13) |
+| manufacturing (159) | bc29 (54) | page Expense Agent Setup Wizard (13) |
+| sales (141) | releases/29.x (54) | codeunit Expense Report Approval Mgmt (11) |
 |  | refactor (42) | page Expense Agent Setup (11) |
-|  | performance (28) | page Expense Report (11) |
+|  | performance (29) | page Expense Report (11) |
 |  | codeunit gen. jnl.-post line (20) | permissionset Expense Agent - Objects (11) |
-|  | codeunit item jnl.-post line (10) | permissionset Expense Management - Objects (11) |
+|  | table purchase line (11) | permissionset Expense Management - Objects (11) |
+|  |  | table Subscription Line (11) |
 |  |  | page Expense Reports API (10) |
-|  |  | table Expense Report Line (10) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q3: **************************************** 881
-- 2026-Q4: **************************************** 76
+- 2026-Q3: **************************************** 882
+- 2026-Q4: **************************************** 81
 
 ## Most recent
 
+- [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](../changes/bcapps/12078.md) (2026-10-07)
+- [#11629 Fix Norwegian SAF-T 1.30 export issues](../changes/bcapps/11629.md) (2026-10-07)
+- [#12428 Add Copilot feature trial interface](../changes/bcapps/12428.md) (2026-10-07)
+- [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../changes/bcapps/10446.md) (2026-10-07)
+- [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../changes/bcapps/10212.md) (2026-10-07)
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../changes/bcapps/12463.md) (2026-10-07)
 - [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../changes/bcapps/11560.md) (2026-10-07)
 - [#12207 [MCP] Prepare Data Query Tools for billing](../changes/bcapps/12207.md) (2026-10-07)
@@ -1111,10 +1122,5 @@ Items per quarter, oldest first:
 - [#9347 Fix IssueDate in E-Documents for Germany](../changes/bcapps/9347.md) (2026-10-06)
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../changes/bcapps/12309.md) (2026-10-06)
 - [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../changes/bcapps/12188.md) (2026-10-06)
-- [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../changes/bcapps/12370.md) (2026-10-06)
-- [#12139 [Shopify] Disable Create Sales Documents for empty order views](../changes/bcapps/12139.md) (2026-10-06)
-- [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../changes/bcapps/12320.md) (2026-10-06)
-- [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../changes/bcapps/12304.md) (2026-10-06)
-- [#12260 [Shopify] Fix shop card transaction navigation](../changes/bcapps/12260.md) (2026-10-06)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

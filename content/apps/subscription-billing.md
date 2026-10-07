@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4ef03af403b7d11096384440c96202847bc71c47d2d3f59a06c38fe29cd05d65
+  input_hash: 8bedbd1d6ade933dfef87674960a3e2f264c2aa1db375d983a8ea6d388ac5020
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Subscription%20Billing/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Subscription%20Billing/app
     title: src/Apps/W1/Subscription Billing/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -730,4 +730,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Subscription Billing](../objects/profile/subscription-billing.md) |  |
 
-Source: [src/Apps/W1/Subscription Billing/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Subscription%20Billing/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Subscription Billing/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Subscription%20Billing/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

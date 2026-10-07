@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:24:59.475Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,9 @@ evidence:
     quote: many countries require this model. This is something what really important for uh starting using e documents as a framework globally.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/43
+    - object/page/132
   features: []
   topics: []
   localizations: []
@@ -240,12 +242,14 @@ The demo covers setting up two e-document services (one for clearance, one for s
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "e document service page" at [4:57](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=297s)
 - page "e document page" at [6:52](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=412s)
-- page "sales invoice" at [6:34](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=394s)
-- page "posted sales invoice" at [7:47](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=467s)
+- [page 43 "Sales Invoice"](../objects/page/43.md) at [6:34](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=394s)
+- [page 132 "Posted Sales Invoice"](../objects/page/132.md) at [7:47](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=467s)
+
+Not found in BC28-30: page "e document service page", page "e document page".
 
 ## Quotes
 

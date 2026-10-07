@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:37:19.942Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -283,11 +283,13 @@ The video shows how a partner can tailor a Business Central trial to each prospe
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "assisted setup list page" at [5:31](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=331s)
 - page "guide experience item" at [13:17](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=797s)
 - query "query objects" at [15:16](https://www.youtube.com/watch?v=PrGBqzTDsLw&t=916s)
+
+Not found in BC28-30: page "assisted setup list page", page "guide experience item", query "query objects".
 
 ## Quotes
 

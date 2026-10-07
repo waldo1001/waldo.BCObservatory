@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:47:06.101Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -271,7 +271,7 @@ It then covers AppSource preview apps in sandboxes, linking Business Central env
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "environment Telemetry" at [5:11](https://www.youtube.com/watch?v=kAwI0EGSyls&t=311s)
 - other "operations log" at [5:11](https://www.youtube.com/watch?v=kAwI0EGSyls&t=311s)

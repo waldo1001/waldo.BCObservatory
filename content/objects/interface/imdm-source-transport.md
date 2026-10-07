@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 726905b1fdce35f92a002618f13049e049364784b8eaadeaf7527ff74aed1f26
+  input_hash: d363cbf171ac9480c4391a0bca76932cf67fa88ade5938404e5e357d1aa4d50d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al
     title: src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -68,13 +68,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 1
 ---
 
 # Interface "IMDM Source Transport"
 
 > Interface "IMDM Source Transport" in MasterDataManagement (Microsoft.Integration.MDM). 3 public procedures. Introduced in BC29, still in BC30.
 
-MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al) · facts from BC29
+MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -87,6 +91,10 @@ MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 030de
 - `GetRecords(TableId: Integer; FieldIds: Text; Selector: Text; PageSize: Integer; Filter: Text): Text`
 - `LastModifiedAtPerTable(TableIds: Text): Text`
 - `GetCapabilities(): Text`
+
+## Implemented by
+
+- [Codeunit 7247 "MDM Http Source Transport"](../codeunit/7247.md)
 
 ## Recent changes
 
@@ -101,7 +109,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

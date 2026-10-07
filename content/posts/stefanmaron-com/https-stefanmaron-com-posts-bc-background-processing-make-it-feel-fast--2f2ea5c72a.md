@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -56,7 +56,8 @@ evidence:
     quote: If you push heavy work into TaskScheduler or Job Queue entries, that work can be distributed across whichever NST in the cluster has capacity.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/474
   features: []
   topics: []
   localizations: []
@@ -120,10 +121,12 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Job Queue Log Entry"
+- [table 474 "Job Queue Log Entry"](../../objects/table/474.md)
 - codeunit "Codeunit.Run"
+
+Not found in BC28-30: codeunit "Codeunit.Run".
 
 ## Context
 

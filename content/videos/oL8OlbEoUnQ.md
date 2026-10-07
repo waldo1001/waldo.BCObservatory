@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:55:55.239Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,7 +95,9 @@ evidence:
     quote: the amount corresponds to the total on the invoice. So, let me actually just show you that
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/37202
+    - object/enum/37200
   features: []
   topics: []
   localizations: []
@@ -272,12 +274,14 @@ It also shows linking an inbound e-document to a purchase invoice that already e
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "PEPPOL 3.0 setup" at [7:17](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=437s)
+- [page 37202 "PEPPOL 3.0 Setup"](../objects/page/37202.md) at [7:17](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=437s)
 - page "inbound e-document" at [9:08](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=548s)
-- enum "PEPPOL 3.0 format" at [5:02](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=302s)
+- [enum 37200 "PEPPOL 3.0 Format"](../objects/enum/37200.md) at [5:02](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=302s)
 - interface "PEPPOL validation interface" at [6:18](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=378s)
+
+Not found in BC28-30: page "inbound e-document", interface "PEPPOL validation interface".
 
 ## Quotes
 

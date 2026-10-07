@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:36:37.153Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: that's how how the exploration and discoverability of reports come hand in hand both in the business Central role Explorer in the request page
 links:
   learn: []
-  objects: []
+  objects:
+    - object/report/5603
   features: []
   topics: []
   localizations: []
@@ -225,12 +226,14 @@ The second is Microsoft Learn, where aka.ms links lead to a report overview tabl
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Fixed Asset Posting Group Net Change" at [3:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=231s)
-- report "Fixed Asset Register" at [3:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=231s)
+- [report 5603 "Fixed Asset Register"](../objects/report/5603.md) at [3:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=231s)
 - report "Customer Top 10 List Excel" at [6:21](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=381s)
 - report "Fixed Asset Book Value" at [6:41](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=401s)
+
+Not found in BC28-30: report "Fixed Asset Posting Group Net Change", report "Customer Top 10 List Excel", report "Fixed Asset Book Value".
 
 ## Quotes
 

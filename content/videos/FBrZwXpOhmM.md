@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:30:41.913Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -160,7 +160,7 @@ The demo opens a purchase document draft containing agent suggestions. A small I
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "chart of accounts" at [0:46](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=46s)
 

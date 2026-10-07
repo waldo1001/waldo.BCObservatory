@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:42:22.258Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -532,7 +532,7 @@ The second half covers keeping up with model versions using version-agnostic str
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "AOI Token" at [7:56](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=476s)
 - codeunit "get weather co-pilot function" at [13:33](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=813s)
@@ -542,6 +542,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "GPT 3.5 turbo model" at [31:30](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1890s)
 - other "GPT 4 model" at [31:51](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1911s)
 - other "GPT 4 Turbo model" at [31:51](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1911s)
+
+Not found in BC28-30: codeunit "AOI Token", codeunit "get weather co-pilot function".
 
 ## Quotes
 

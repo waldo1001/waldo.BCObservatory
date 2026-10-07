@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:42:36.952Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,7 +116,9 @@ evidence:
     quote: we will not delete your data in your database this is not something Microsoft will do it and uh only what we are talking
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/5260
+    - object/page/1
   features: []
   topics: []
   localizations: []
@@ -270,12 +272,14 @@ The presenter says the features belong to 2023 release wave 2 but will not all b
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "G/L Account Mapping" at [9:03](https://www.youtube.com/watch?v=205F8ljmInU&t=543s)
+- [page 5260 "G/L Account Mapping"](../objects/page/5260.md) at [9:03](https://www.youtube.com/watch?v=205F8ljmInU&t=543s)
 - page "VAT Posting Setup for SAF-T" at [9:37](https://www.youtube.com/watch?v=205F8ljmInU&t=577s)
 - page "Audit Document" at [10:25](https://www.youtube.com/watch?v=205F8ljmInU&t=625s)
-- page "Company Information" at [12:02](https://www.youtube.com/watch?v=205F8ljmInU&t=722s)
+- [page 1 "Company Information"](../objects/page/1.md) at [12:02](https://www.youtube.com/watch?v=205F8ljmInU&t=722s)
+
+Not found in BC28-30: page "VAT Posting Setup for SAF-T", page "Audit Document".
 
 ## Quotes
 

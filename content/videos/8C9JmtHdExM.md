@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:38:59.556Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,7 +57,9 @@ evidence:
     quote: notice the default selection of the over receipt 10 code this means that if you
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/26
   features: []
   topics: []
   localizations: []
@@ -175,11 +177,13 @@ It demonstrates setting these codes on the item card and on the vendor card (rec
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "over receipt codes" at [0:21](https://www.youtube.com/watch?v=8C9JmtHdExM&t=21s)
-- page "item card" at [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s)
-- page "vendor card" at [1:30](https://www.youtube.com/watch?v=8C9JmtHdExM&t=90s)
+- [page 30 "Item Card"](../objects/page/30.md) at [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s)
+- [page 26 "Vendor Card"](../objects/page/26.md) at [1:30](https://www.youtube.com/watch?v=8C9JmtHdExM&t=90s)
+
+Not found in BC28-30: page "over receipt codes".
 
 ## Quotes
 

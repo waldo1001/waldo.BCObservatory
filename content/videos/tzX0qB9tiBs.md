@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:38:26.565Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,10 @@ evidence:
     quote: enable the ability to finish production orders without output in the manufacturing setup page
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5832
+    - object/table/32
+    - object/page/99000768
   features: []
   topics: []
   localizations: []
@@ -197,11 +200,11 @@ The demo shows the reverse production order transaction action, which creates a 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Capacity Ledger Entry" at [0:43](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=43s)
-- table "Item Ledger Entry" at [1:39](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=99s)
-- page "Manufacturing Setup" at [3:33](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=213s)
+- [table 5832 "Capacity Ledger Entry"](../objects/table/5832.md) at [0:43](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=43s)
+- [table 32 "Item Ledger Entry"](../objects/table/32.md) at [1:39](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=99s)
+- [page 99000768 "Manufacturing Setup"](../objects/page/99000768.md) at [3:33](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=213s)
 
 ## Quotes
 

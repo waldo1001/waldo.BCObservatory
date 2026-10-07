@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
     quote: the landing page is as always aka.ms/bc-analytics, and then scroll down to ad hoc data analysis, and here you find everything for analysis mode,
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/18
   features:
     - feature/573319
     - feature/573322
@@ -224,11 +225,13 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Sales Orders" at [1:20](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=80s)
-- table "Customer" at [1:35](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=95s)
+- [table 18 "Customer"](../objects/table/18.md) at [1:35](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=95s)
 - page "Sales Order Card" at [4:01](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=241s)
+
+Not found in BC28-30: table "Sales Orders", page "Sales Order Card".
 
 ## Quotes
 

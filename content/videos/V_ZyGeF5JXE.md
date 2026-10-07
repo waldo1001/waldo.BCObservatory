@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:49:12.293Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -301,10 +301,12 @@ The second half covers connector changes (Find One Record, API route defaulting,
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "approval user setup table" at [5:08](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=308s)
 - page "sales order card page" at [3:31](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=211s)
+
+Not found in BC28-30: table "approval user setup table", page "sales order card page".
 
 ## Quotes
 

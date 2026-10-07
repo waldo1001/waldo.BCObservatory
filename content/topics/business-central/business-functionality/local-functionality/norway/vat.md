@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:10.804Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11629
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -176,6 +178,12 @@ Start with the VAT codes page if you are setting up VAT or using single-code jou
 - [Proportional VAT [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat): Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.
 - [Setup and generate SAF-T files](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no): Use the SAF-T extension to set up and generate SAF-T files for the Norwegian authorities in Business Central.
 - [Use One VAT Code in Journals [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals): Learn how to use one VAT code in journals within the Norwegian version of Business Central to simplify VAT posting.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11629 Fix Norwegian SAF-T 1.30 export issues](../../../../../changes/bcapps/11629.md) (code change): "Norwegian SAF-T 1.30 export now correctly reports header versions"
 
 ## Business Central pages and reports
 

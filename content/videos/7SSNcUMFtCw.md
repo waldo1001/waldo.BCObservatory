@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:34:58.712Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,8 @@ evidence:
     quote: customers will be able to track usage search, set limits, and get a single detail invoice across all of the ISVS that are using
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/457
   features: []
   topics: []
   localizations: []
@@ -370,10 +371,12 @@ It then covers how developers use them. The set managed resource authorization f
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "Azure AOI deployments" at [9:18](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=558s)
-- codeunit "environment information" at [10:44](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=644s)
+- [codeunit 457 "Environment Information"](../objects/codeunit/457.md) at [10:44](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=644s)
+
+Not found in BC28-30: codeunit "Azure AOI deployments".
 
 ## Quotes
 

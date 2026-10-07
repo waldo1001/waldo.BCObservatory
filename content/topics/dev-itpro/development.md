@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development
 type: topic
 title: Development
-summary: "Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, troubleshooting and AL-Go DevOps. It helps an agent route questions about writing, extending, deploying and debugging AL code."
+summary: "Development for Business Central covers building AL extensions: tooling setup in Visual Studio Code, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, AL-Go for GitHub, and troubleshooting. It answers how-to, syntax, build, deploy and debug questions for extension developers."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:20:36.159Z"
+  at: "2026-10-07T21:13:11.929Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8697f7d6137aeb633ef5eda9c16d24b0222e0a50d40f7f6314f112a8a0031265
+  input_hash: 9bb2b47ce7bb0e3d128c09d45d2c185f40cb261b3de2e20f7838331577ed4f8d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -96,6 +96,20 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
+    title: Add FactBoxes to Business Central Pages
+    date: "2026-10-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
+    title: Add Menus to Role Center Navigation
+    date: "2026-10-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
     title: Add pages and reports to Tell me
     date: "2025-05-15"
@@ -104,15 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    title: Add tooltips to table and page fields
-    date: "2024-03-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
-    title: Adding a FactBox to a page
-    date: "2025-10-03"
+    title: Add Tooltips to Table and Page Fields
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -138,30 +145,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens
-    title: Adding Custom Filter Tokens
-    date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension
     title: Adding data for Extensions
     date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports
-    title: Adding help links from pages, reports, and XMLports
-    date: "2022-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
-    title: Adding Menus to the Navigation Area
-    date: "2022-08-08"
     commit: null
     t: null
     quote: null
@@ -231,7 +217,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostics-overview
     title: AL diagnostics
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -285,16 +271,30 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-outline-view
-    title: AL outline view
-    date: "2025-06-13"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al
+    title: AL Preprocessor Directives Overview
+    date: "2026-10-05"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
-    title: AL Profiler overview
-    date: "2025-09-03"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
+    title: AL Properties Overview for Business Central
+    date: "2026-10-01"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements
+    title: AL simple statements
+    date: "2025-01-24"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-type-conversion-expressions
+    title: AL type conversion in expressions
+    date: "2025-02-07"
     commit: null
     t: null
     quote: null
@@ -521,28 +521,28 @@ narrative: generated
 
 # Development
 
-> Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, troubleshooting and AL-Go DevOps. It helps an agent route questions about writing, extending, deploying and debugging AL code.
+> Development for Business Central covers building AL extensions: tooling setup in Visual Studio Code, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, AL-Go for GitHub, and troubleshooting. It answers how-to, syntax, build, deploy and debug questions for extension developers.
 
 Path: Development · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-Development is the entry point for AL extension work in Business Central. Extensions are built with AL code and Visual Studio Code, and can create or extend objects such as tables, pages, codeunits and reports. The section's own pages give an AL Language reference overview (data types, methods, properties, triggers, diagnostics, code analyzers), an introduction to developing extensions, and an overview of AL-Go for GitHub.
+Development is the entry point for creating Business Central extensions in AL using Visual Studio Code. Its own pages introduce developing extensions in AL (the extension model, table and page extensions, code snippets, compiler validation, the designer), the AL Language reference (data types, methods, properties, triggers, diagnostics, code analyzers, method attributes), and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
 
-The subtopics split the work by stage. Get started and Development environment cover tooling, a first extension, compile, publish, debug and test. Programming in the AL language and The AL programming language cover syntax and the object-specific how-tos. Extensibility, Rules, guidelines, and best practices, and Extension lifecycle cover how to change behavior without touching base code, how to obsolete objects, and how apps move from development to deprecation. Troubleshooting covers debugging, profiling and telemetry.
+The subtopics follow a typical path. Start with Get started and Development environment for installing the AL Language extension, configuring projects, and compiling, publishing, debugging and testing. Then use Programming in the AL language and The AL programming language for syntax and object types, and Extensibility for extending base code without changing it.
 
-New developers should begin with Get started, then Development environment. Experienced developers can go straight to the AL language pages or to Extensibility. Teams setting up CI/CD for per-tenant extensions or Marketplace apps should read the AL-Go overview.
+Later topics cover quality and delivery: Rules, guidelines, and best practices (obsoleting objects, conventions, performance, security), Extension lifecycle (extension types, scopes, deployment, updating, deprecation), and Troubleshooting. Data analytics and reporting and System and application reference documentation cover analysis options and the modular application layers.
 
 ## Key points
 
-- Extensions are written in AL with Visual Studio Code and the AL Language extension; the compiler validates code and a designer supports drag and drop.
-- AL Language reference covers data types, methods, properties, triggers, method attributes, AL and AVS diagnostics, and code analyzers.
-- Extensibility lets you extend code flow, tables, pages, reports, enums and permission sets using events, without changing base code.
-- AL-Go for GitHub provides templates and actions for CI/CD, automated testing, version control and repository maintenance.
-- Rules and guidelines cover obsoleting AL objects, methods and symbols, and deprecating external business events.
-- Extension lifecycle covers global apps, per-tenant extensions, DEV extensions, scopes, deployment, updating and deprecation.
-- Troubleshooting covers AL debugging and profiling, telemetry setup and analysis, and guides for cloud migration, reports and web services.
-- System and application reference explains the System Application and Business Foundation layers and how to contribute modules.
+- Developing extensions in AL uses Visual Studio Code and covers tables, pages, codeunits and reports, with table and page extensions, code snippets and a drag-and-drop designer.
+- The AL Language reference covers data types, methods, properties, triggers, AL and AVS diagnostics, code analyzers and method attributes.
+- AL-Go for GitHub offers GitHub templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
+- Get started covers installing Visual Studio Code and the AL Language extension, editor tools, Designer, telemetry, translations and runtime packages.
+- Extensibility covers extending code flow, tables, pages, reports, enums and permission sets via events, without changing base code.
+- Best practices cover obsoleting AL objects and methods, deprecating external business events, testing, performance, security and Marketplace preparation.
+- Extension lifecycle explains global apps, per-tenant extensions and DEV extensions, and moving apps between scopes.
+- Troubleshooting covers AL debugging and profiling, telemetry setup and analysis, and guides for migration, report and web service errors.
 
 ## Subtopics
 

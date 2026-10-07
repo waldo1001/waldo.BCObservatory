@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:11.336Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -268,7 +268,7 @@ The demos cover three ways to keep repositories consistent: custom jobs added to
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Code Cop" at [6:26](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=386s)
 - other "copilot instructions" at [11:25](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=685s)

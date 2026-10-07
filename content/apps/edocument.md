@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 68d8e15db6ae0dc58694c986fcb5337b2f948285e425e25cb39d7490dba17d98
+  input_hash: 2280300dd99d0ffaabefa790ff124389834e6b3cedbfea513782cfb5796ef404
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/EDocument/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/EDocument/app
     title: src/Apps/W1/EDocument/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -760,4 +760,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../videos/D56EVy3JgHA.md) (video, 2025-04-01): names Page 6122 "E-Documents"
 
-Source: [src/Apps/W1/EDocument/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/EDocument/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/EDocument/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/EDocument/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

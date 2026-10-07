@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:24:19.604Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,10 +171,12 @@ In Business Central, the presenter records a payment in Cash Receipt Journals by
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Cash Receipt Journals" at [0:50](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=50s)
 - page "Customer Register Payments" at [1:33](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=93s)
+
+Not found in BC28-30: page "Cash Receipt Journals", page "Customer Register Payments".
 
 ## Quotes
 

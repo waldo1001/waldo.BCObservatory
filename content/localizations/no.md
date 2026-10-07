@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: b6a8aaa8fb750443a06d62c058a419c067eeabb8a94db61f594a7e6e1660b44e
+  input_hash: 8f0e730917be810c5ec024824f1ed95d6ae14759a13ced87559bbda66863b3c3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-no
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -644,6 +644,6 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 
 ## Other versions
 
-- BC30: 353 objects differ from W1 (240 fields, 5 events added)
+- BC30: 354 objects differ from W1 (240 fields, 5 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

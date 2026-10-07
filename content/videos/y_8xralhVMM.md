@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:57:46.337Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,8 @@ evidence:
     quote: this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/243
   features: []
   topics: []
   localizations: []
@@ -242,11 +243,13 @@ The demo covers the new consolidate action with its wizard, setting up business 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "business units" at [4:51](https://www.youtube.com/watch?v=y_8xralhVMM&t=291s)
-- page "consolidation setup" at [7:20](https://www.youtube.com/watch?v=y_8xralhVMM&t=440s)
+- [page 243 "Consolidation Setup"](../objects/page/243.md) at [7:20](https://www.youtube.com/watch?v=y_8xralhVMM&t=440s)
 - report "consolidation per business unit" at [3:27](https://www.youtube.com/watch?v=y_8xralhVMM&t=207s)
+
+Not found in BC28-30: page "business units", report "consolidation per business unit".
 
 ## Quotes
 

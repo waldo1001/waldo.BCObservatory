@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:52:34.397Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -216,7 +216,10 @@ evidence:
     quote: what is important you will have this time you will have enough time to watch all this videos so you will collect what is
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/10031-us
+    - object/page/1801
+    - object/page/26
   features: []
   topics: []
   localizations: []
@@ -660,23 +663,25 @@ The demo covers enabling the feature and transferring legacy data, copying setup
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "1089 Setup" at [3:09](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=189s)
 - table "IRS Setup" at [8:07](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=487s)
 - page "1089 Layout Setup" at [11:46](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=706s)
 - table "Vendor Ledger Entries" at [4:49](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=289s)
-- page "IRS reporting periods" at [22:38](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1358s)
-- page "assisted setup" at [21:04](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1264s)
+- [page 10031 "IRS Reporting Periods (US)"](../objects/page/10031-us.md) at [22:38](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1358s)
+- [page 1801 "Assisted Setup"](../objects/page/1801.md) at [21:04](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1264s)
 - page "IRS forms feature" at [21:17](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1277s)
 - other "vendor form box setup" at [26:43](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1603s)
 - other "vendor form box" at [27:20](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1640s)
-- page "vendor card" at [28:40](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1720s)
+- [page 26 "Vendor Card"](../objects/page/26.md) at [28:40](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1720s)
 - other "IRS forms app" at [29:01](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1741s)
 - other "form documents" at [31:15](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1875s)
 - other "1099 form document" at [32:34](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1954s)
 - page "IRS form setup" at [37:50](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2270s)
 - other "IRS 1099 form setup" at [39:12](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2352s)
+
+Not found in BC28-30: table "1089 Setup", table "IRS Setup", page "1089 Layout Setup", table "Vendor Ledger Entries", page "IRS forms feature", page "IRS form setup".
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:30:32.837Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,7 +199,7 @@ It then shows customer templates in Business Central. A template is given a name
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "customer class" at [0:13](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=13s)
 - other "customer templates" at [1:31](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=91s)

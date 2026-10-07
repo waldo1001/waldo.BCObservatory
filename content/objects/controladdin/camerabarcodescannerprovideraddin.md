@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9e52b78730c60adcc05babf86e45c3072a5fcc0bcaea11ac2eb5c63c7176bf4d
+  input_hash: 3db2f3cbd9e358ee5f6b2aa2ef664d28a9ff01600fd80bee32d81fd389df8778
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al
     title: src/System Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,19 +72,28 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 1
+  implements: 0
 ---
 
 # Control add-in "CameraBarcodeScannerProviderAddIn"
 
 > Control add-in "CameraBarcodeScannerProviderAddIn" in System Application (System.Device). 3 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-System Application · System.Device · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al) · facts from BC29
+System Application · System.Device · BC24-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al) · facts from BC29
 
 ## Procedures
 
 - `RequestBarcodeAsync()`: This method is used to request the camera barcode scanner.
 - `RequestBarcodeAsync(ShowFlipCameraButton: Boolean; ShowTorchButton: Boolean; ResultDisplayDuration: Integer)`: This method is used to request the camera barcode scanner.
 - `RequestBarcodeAsync(BarcodeFormats: Text; ShowFlipCameraButton: Boolean; ShowTorchButton: Boolean; ResultDisplayDuration: Integer)`: This method is used to request the camera barcode scanner.
+
+## Called by
+
+From the extracted call graph of BC29 (graphify-al on the snapshot checkout): calls whose target is known from a declared type or an `Object::"Name"` argument. Interface dispatch and calls through events are not counted, so the list is not complete.
+
+- [Page 6510 "Item Tracking Lines"](../page/6510.md) (1 call: `ScanMultipleOnMobileDevice → RequestBarcodeAsync`)
 
 ## Ask your agent
 
@@ -95,7 +104,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24-30
 - Changed (declaration) in: BC26
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

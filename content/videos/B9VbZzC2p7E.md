@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:45:14.449Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,7 +57,9 @@ evidence:
     quote: You can try this yourself. Um the app is free to use in the cloud sandbox.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/112
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -165,12 +167,14 @@ The video then shows how to create a SQL region manually, for example selecting 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "sales invoice header" at [0:43](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=43s)
-- table "customer" at [0:43](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=43s)
+- [table 112 "Sales Invoice Header"](../objects/table/112.md) at [0:43](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=43s)
+- [table 18 "Customer"](../objects/table/18.md) at [0:43](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=43s)
 - table "ledger entries" at [0:43](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=43s)
 - table "customer ledger entries" at [1:27](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=87s)
+
+Not found in BC28-30: table "ledger entries", table "customer ledger entries".
 
 ## Quotes
 

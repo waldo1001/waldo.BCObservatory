@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0edb289f365ee053adf7e61ae7bb00496fedaa01ed2e5e2ab28a77ccced8e864
+  input_hash: f7818641b5dde2f260e87d684a7c4a9da602674d8ec31fd2f89103f5b58ba685
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/QuickbooksPayrollFileImport/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/QuickbooksPayrollFileImport/app
     title: src/Apps/W1/QuickbooksPayrollFileImport/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -67,4 +67,4 @@ First-party app · folder `src/Apps/W1/QuickbooksPayrollFileImport/app` · names
 |---|---|---|
 | 1676 | [MS - Quickbooks Payroll Import](../objects/codeunit/1676.md) |  |
 
-Source: [src/Apps/W1/QuickbooksPayrollFileImport/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/QuickbooksPayrollFileImport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/QuickbooksPayrollFileImport/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/QuickbooksPayrollFileImport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

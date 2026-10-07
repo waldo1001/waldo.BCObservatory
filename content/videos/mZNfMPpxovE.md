@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:06:35.281Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,9 @@ evidence:
     quote: if the transaction came from a subledger you can drill back on that journal entry number to see that subledger transactions
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/16
+    - object/page/22
   features: []
   topics: []
   localizations: []
@@ -237,15 +239,17 @@ After the cloud migration completes, the snapshot runs automatically and its pro
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "GP Company Migration Configuration page" at [0:20](https://www.youtube.com/watch?v=mZNfMPpxovE&t=20s)
 - page "Cloud Migration Management page" at [1:17](https://www.youtube.com/watch?v=mZNfMPpxovE&t=77s)
-- page "Chart of Accounts" at [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s)
+- [page 16 "Chart of Accounts"](../objects/page/16.md) at [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s)
 - page "GP Detail Snapshot" at [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s)
-- page "Customer list" at [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s)
+- [page 22 "Customer List"](../objects/page/22.md) at [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s)
 - table "GP 20,000 table" at [2:16](https://www.youtube.com/watch?v=mZNfMPpxovE&t=136s)
 - table "GP 30,000 table" at [2:16](https://www.youtube.com/watch?v=mZNfMPpxovE&t=136s)
+
+Not found in BC28-30: page "GP Company Migration Configuration page", page "Cloud Migration Management page", page "GP Detail Snapshot", table "GP 20,000 table", table "GP 30,000 table".
 
 ## Quotes
 

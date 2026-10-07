@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:07:49.025Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -459,10 +459,12 @@ The second half covers indexing, why page search can cause full table scans, and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "database locks page" at [25:33](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1533s)
 - page "missing indexes page" at [25:33](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1533s)
+
+Not found in BC28-30: page "database locks page", page "missing indexes page".
 
 ## Quotes
 

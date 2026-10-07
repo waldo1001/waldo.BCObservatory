@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:47:45.356Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,7 +139,12 @@ evidence:
     quote: you all can expect very soon APIs, so you can easily connect with this solution from any outside solution
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6221
+    - object/page/6219
+    - object/report/6212
+    - object/report/6211
+    - object/report/6210
   features: []
   topics: []
   localizations: []
@@ -347,18 +352,20 @@ It then walks through the first-wave foundation: the sustainability setup page, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "sustainability journal" at [11:14](https://www.youtube.com/watch?v=_ynMUzh956w&t=674s)
 - other "chart of sustainability account" at [11:39](https://www.youtube.com/watch?v=_ynMUzh956w&t=699s)
 - other "sustainability ledger entries" at [12:19](https://www.youtube.com/watch?v=_ynMUzh956w&t=739s)
-- page "Sustainability setup" at [15:07](https://www.youtube.com/watch?v=_ynMUzh956w&t=907s)
+- [page 6221 "Sustainability Setup"](../objects/page/6221.md) at [15:07](https://www.youtube.com/watch?v=_ynMUzh956w&t=907s)
 - table "Chart of sustainability accounts" at [16:12](https://www.youtube.com/watch?v=_ynMUzh956w&t=972s)
-- page "Sustainability journal" at [17:10](https://www.youtube.com/watch?v=_ynMUzh956w&t=1030s)
+- [page 6219 "Sustainability Journal"](../objects/page/6219.md) at [17:10](https://www.youtube.com/watch?v=_ynMUzh956w&t=1030s)
 - table "Sustainability ledger entries" at [23:15](https://www.youtube.com/watch?v=_ynMUzh956w&t=1395s)
-- report "Total emissions" at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
-- report "Emission per facility" at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
-- report "Emission by category" at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
+- [report 6212 "Total Emissions"](../objects/report/6212.md) at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
+- [report 6211 "Emission Per Facility"](../objects/report/6211.md) at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
+- [report 6210 "Emission By Category"](../objects/report/6210.md) at [18:01](https://www.youtube.com/watch?v=_ynMUzh956w&t=1081s)
+
+Not found in BC28-30: table "Chart of sustainability accounts", table "Sustainability ledger entries".
 
 ## Quotes
 

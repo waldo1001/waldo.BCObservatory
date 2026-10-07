@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:13:18.588Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -418,7 +418,7 @@ The session then covers practical habits: strong tests and performance tests, do
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC Code Intel MCP" at [25:41](https://www.youtube.com/watch?v=gd2TycVywv4&t=1541s)
 - other "BC Code Intel" at [40:41](https://www.youtube.com/watch?v=gd2TycVywv4&t=2441s)

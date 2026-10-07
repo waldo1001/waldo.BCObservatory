@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -47,7 +47,8 @@ evidence:
     quote: No need to reinvent the wheel.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/5700
   features: []
   topics: []
   localizations: []
@@ -105,9 +106,9 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "User Setup Management"
+- [codeunit 5700 "User Setup Management"](../../objects/codeunit/5700.md)
 
 ## Context
 

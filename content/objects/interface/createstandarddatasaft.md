@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4f910de5107ac0eadfaf4ec5ca22e45d4708868dd558d13f05eeaf96549f1ead
+  input_hash: 99743bd892f8f341ab7671a129404beff4327258e13318c52db4e891183e72f1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al
     title: src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,19 +66,28 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 2
 ---
 
 # Interface "CreateStandardDataSAFT"
 
 > Interface "CreateStandardDataSAFT" in SAF-T (Microsoft.Finance.AuditFileExport). 3 public procedures. Introduced in BC29, still in BC30.
 
-SAF-T · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al) · facts from BC29
+SAF-T · Microsoft.Finance.AuditFileExport · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `LoadStandardAccounts(StandardAccountType: Enum "Standard Account Type"): Boolean`
 - `LoadStandardTaxCodes(): Boolean`: Loads list of standard tax codes to VAT Reporting Code table.
 - `InitAuditExportDataTypeSetup()`: Removes the existing records and create new default records in the Audit Export Data Type Setup table.
+
+## Implemented by
+
+- [Codeunit 5283 "Create Standard Data SAF-T"](../codeunit/5283.md)
+- [Enum 5280 "SAF-T Modification"](../enum/5280.md)
 
 ## Ask your agent
 
@@ -89,7 +98,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

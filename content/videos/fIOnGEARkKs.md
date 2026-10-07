@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:51:39.028Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,7 +88,14 @@ evidence:
     quote: in the demo you saw uh how integration Works in multic company and multi- environment setting conversion of Base uh transaction currency making virtual
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5050
+    - object/table/4
+    - object/table/3
+    - object/table/18
+    - object/table/23
+    - object/page/118
+    - object/table/111
   features: []
   topics: []
   localizations: []
@@ -265,20 +272,22 @@ The session then covers multi-currency synchronization, additional field mapping
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "account" at [1:39](https://www.youtube.com/watch?v=fIOnGEARkKs&t=99s)
-- table "contact" at [1:39](https://www.youtube.com/watch?v=fIOnGEARkKs&t=99s)
+- [table 5050 "Contact"](../objects/table/5050.md) at [1:39](https://www.youtube.com/watch?v=fIOnGEARkKs&t=99s)
 - table "sales quotes" at [1:39](https://www.youtube.com/watch?v=fIOnGEARkKs&t=99s)
-- table "currency" at [2:19](https://www.youtube.com/watch?v=fIOnGEARkKs&t=139s)
-- table "payment terms" at [10:26](https://www.youtube.com/watch?v=fIOnGEARkKs&t=626s)
-- table "customer" at [10:46](https://www.youtube.com/watch?v=fIOnGEARkKs&t=646s)
-- table "vendor" at [10:46](https://www.youtube.com/watch?v=fIOnGEARkKs&t=646s)
+- [table 4 "Currency"](../objects/table/4.md) at [2:19](https://www.youtube.com/watch?v=fIOnGEARkKs&t=139s)
+- [table 3 "Payment Terms"](../objects/table/3.md) at [10:26](https://www.youtube.com/watch?v=fIOnGEARkKs&t=626s)
+- [table 18 "Customer"](../objects/table/18.md) at [10:46](https://www.youtube.com/watch?v=fIOnGEARkKs&t=646s)
+- [table 23 "Vendor"](../objects/table/23.md) at [10:46](https://www.youtube.com/watch?v=fIOnGEARkKs&t=646s)
 - page "integration field mapping" at [6:52](https://www.youtube.com/watch?v=fIOnGEARkKs&t=412s)
 - page "integration table mappings" at [14:03](https://www.youtube.com/watch?v=fIOnGEARkKs&t=843s)
-- page "general ledger setup" at [13:51](https://www.youtube.com/watch?v=fIOnGEARkKs&t=831s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [13:51](https://www.youtube.com/watch?v=fIOnGEARkKs&t=831s)
 - table "sales shipment" at [12:58](https://www.youtube.com/watch?v=fIOnGEARkKs&t=778s)
-- table "sales shipment line" at [12:58](https://www.youtube.com/watch?v=fIOnGEARkKs&t=778s)
+- [table 111 "Sales Shipment Line"](../objects/table/111.md) at [12:58](https://www.youtube.com/watch?v=fIOnGEARkKs&t=778s)
+
+Not found in BC28-30: table "account", table "sales quotes", page "integration field mapping", page "integration table mappings", table "sales shipment".
 
 ## Quotes
 

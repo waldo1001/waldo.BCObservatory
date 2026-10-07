@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:46:04.647Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: I would not see any error message and the document is posted successfully but where is my digital voucher and the digital voucher is
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/253
   features: []
   topics: []
   localizations: []
@@ -228,12 +229,14 @@ It then covers the guided setup wizard and the configuration options per entry t
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "Sales invoice document" at [6:13](https://www.youtube.com/watch?v=pE19K17wpgI&t=373s)
 - page "incoming document files" at [8:57](https://www.youtube.com/watch?v=pE19K17wpgI&t=537s)
 - table "General ledger entry" at [9:28](https://www.youtube.com/watch?v=pE19K17wpgI&t=568s)
-- page "Sales Journal" at [10:48](https://www.youtube.com/watch?v=pE19K17wpgI&t=648s)
+- [page 253 "Sales Journal"](../objects/page/253.md) at [10:48](https://www.youtube.com/watch?v=pE19K17wpgI&t=648s)
+
+Not found in BC28-30: report "Sales invoice document", page "incoming document files", table "General ledger entry".
 
 ## Quotes
 

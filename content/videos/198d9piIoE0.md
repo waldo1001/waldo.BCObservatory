@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:57:22.923Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,10 @@ evidence:
     quote: you can configure your system to run some task into background in the Via job queue and push documents to the next stage for
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/305
+    - object/page/88
+    - object/page/99000846
   features: []
   topics: []
   localizations: []
@@ -254,11 +257,11 @@ The video walks through reservation and fulfillment changes in 2023 release wave
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Reservation Worksheet" at [5:02](https://www.youtube.com/watch?v=198d9piIoE0&t=302s)
-- page "Job Card" at [13:34](https://www.youtube.com/watch?v=198d9piIoE0&t=814s)
-- page "Consumption Journal" at [14:03](https://www.youtube.com/watch?v=198d9piIoE0&t=843s)
+- [page 305 "Reservation Worksheet"](../objects/page/305.md) at [5:02](https://www.youtube.com/watch?v=198d9piIoE0&t=302s)
+- [page 88 "Job Card"](../objects/page/88.md) at [13:34](https://www.youtube.com/watch?v=198d9piIoE0&t=814s)
+- [page 99000846 "Consumption Journal"](../objects/page/99000846.md) at [14:03](https://www.youtube.com/watch?v=198d9piIoE0&t=843s)
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:52:23.921Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -348,12 +348,14 @@ The second theme is running a team of about 50 developers while AI features arri
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "GitHub Copilot" at [3:31](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=211s)
 - other "Visual Studio Code" at [3:31](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=211s)
 - codeunit "event subscribers codeunit" at [28:43](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1723s)
 - other "Business Central Performance Toolkit" at [32:27](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1947s)
+
+Not found in BC28-30: codeunit "event subscribers codeunit".
 
 ## Quotes
 

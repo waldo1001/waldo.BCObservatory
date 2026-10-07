@@ -24,7 +24,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,8 @@ evidence:
     quote: In business 2026 release wave 2, Microsoft have added that administrator can turn shift indexes on or off whenever they need it
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/8700
   features:
     - feature/573316
   topics: []
@@ -222,11 +223,13 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "GL Entry" at [4:14](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=254s)
-- page "table information" at [19:29](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1169s)
+- [page 8700 "Table Information"](../objects/page/8700.md) at [19:29](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1169s)
 - page "index management page" at [19:41](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1181s)
+
+Not found in BC28-30: table "GL Entry", page "index management page".
 
 ## Quotes
 

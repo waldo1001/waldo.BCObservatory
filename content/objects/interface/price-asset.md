@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:23:11.326Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5ac793d18e51df56a226b09641c2e906554b5869a8541fd7b805ad1dbcf9fa9d
+  input_hash: 4f2890be23b6b27ba3b630fdebfe1fbfeb8a451fc468fad8efac66c876ca34a8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,13 +72,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 8
 ---
 
 # Interface "Price Asset"
 
 > Interface "Price Asset" in Base Application (Microsoft.Pricing.Asset). 11 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.Asset · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.Asset · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -94,6 +98,17 @@ Base Application · Microsoft.Pricing.Asset · BC23-30 · [source at 030de383](h
 - `PutRelatedAssetsToList(PriceAsset: Record "Price Asset"; var PriceAssetList: Codeunit "Price Asset List")`: The method should add assets related to the current one to build the multi-level PriceAssetList. E.g., a resource asset can add up to two levels: "Resource Group" and "All resources" to setup the hierarchical search, while an item asset adds "Item Discount Group" at the same level as "Item" is, so b...
 - `FillFromBuffer(var PriceAsset: Record "Price Asset"; PriceCalculationBuffer: Record "Price Calculation Buffer")`: The method should fill the PriceAsset with asset related data from the PriceCalculationBuffer. Used in Add() method of the "Price Asset List" codeunit.
 
+## Implemented by
+
+- [Codeunit 7040 "Price Asset - All"](../codeunit/7040.md)
+- [Codeunit 7041 "Price Asset - Item"](../codeunit/7041.md)
+- [Codeunit 7042 "Price Asset - Item Disc. Group"](../codeunit/7042.md)
+- [Codeunit 7043 "Price Asset - Resource"](../codeunit/7043.md)
+- [Codeunit 7044 "Price Asset - Resource Group"](../codeunit/7044.md)
+- [Codeunit 7045 "Price Asset - Service Cost"](../codeunit/7045.md)
+- [Codeunit 7046 "Price Asset - G/L Account"](../codeunit/7046.md)
+- [Enum 7004 "Price Asset Type"](../enum/7004.md)
+
 ## Ask your agent
 
 Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
@@ -103,7 +118,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

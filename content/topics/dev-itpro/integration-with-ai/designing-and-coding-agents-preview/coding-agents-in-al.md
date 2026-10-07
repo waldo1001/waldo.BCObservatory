@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,11 +93,17 @@ links:
     - video/EwN3xb2q7vE
     - video/MNwTt06ZxwY
   posts:
+    - post/aardvarklabs-blog/3060
     - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
+    - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
+    - post/gerardorenteria-blog/14231
+    - post/katson-com/4727
     - post/kauffmann-nl/8436
   guidelines: []
   changes:
@@ -198,7 +204,7 @@ coverage:
   learn: 8
   code: 0
   video: 2
-  blog: 6
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -331,11 +337,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [#179 Add bounded knowledge retrieval](../../../../changes/bcquality/179.md) (code change): "bounded knowledge retrieval for review skills that caps context at 16,000 UTF-8 bytes"
 - [#182 Add machine-readable review orchestration contract](../../../../changes/bcquality/182.md) (code change): "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
+- [Getting Started with AI for Rapid Software Development for Business Central](../../../../posts/aardvarklabs-blog/3060.md) (community post): "using Copilot Chat and other AI tools to accelerate Business Central software development"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../posts/aardvarklabs-blog/3348.md) (community post): "step-by-step AL code examples to limit what agents can see and do"
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents require enabling the feature, assigning AGENT-ADMIN permissions"
+- [Agents in Business Central – part 2 – the prompt](../../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "how to create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "Coding agents work best within bounded domains with clear permissions"
+- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "BC 28.1 introduces a model switcher on the Agents page with Auto as default, plus AL APIs"
+- [⚡ “Compacting conversation…” small message, big impact on your session 🔄](../../../../posts/gerardorenteria-blog/14231.md) (community post): "VSCode automatically compacts agent conversation history when the context window"
+- [Spread the Fire. Don’t Keep It to Yourself.](../../../../posts/katson-com/4727.md) (community post): "agentic coding techniques, and development tools ultimately builds reputation"
 - [Designing Agents for Business Central](../../../../posts/kauffmann-nl/8436.md) (community post): "Coding agents in AL code, reducing manual conversion time to minutes"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"

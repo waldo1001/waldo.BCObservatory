@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:25:32.173Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -231,11 +231,13 @@ The demo covers setting up and creating 1099 form documents, combining released 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "iris transmissions" at [4:01](https://www.youtube.com/watch?v=k0pugXY4CEw&t=241s)
 - page "transmission history" at [4:49](https://www.youtube.com/watch?v=k0pugXY4CEw&t=289s)
 - page "1099 form document card" at [3:41](https://www.youtube.com/watch?v=k0pugXY4CEw&t=221s)
+
+Not found in BC28-30: page "iris transmissions", page "transmission history", page "1099 form document card".
 
 ## Quotes
 

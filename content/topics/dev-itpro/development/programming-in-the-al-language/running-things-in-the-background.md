@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,14 +42,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-startsession-integer-integer-string-table-method
     title: Session.StartSession(var Integer, Integer [, Text] [, var Record]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-stopsession-method
     title: Session.StopSession(Integer [, Text]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -63,7 +63,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/taskscheduler/taskscheduler-data-type
     title: TaskScheduler data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

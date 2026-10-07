@@ -1,36 +1,37 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
-  "input_hash": "f17fe23bd8b365efd6e38b8f09abb66a582cf549218a09e7ed1f5f8f39d6a9d8",
-  "summary": "Data synchronization between Business Central and Microsoft Dataverse: setting up bidirectional sync, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how-to questions about extending and tailoring the sync. A Dataverse API subtopic (11 pages) is also included.",
-  "overview": "This section covers how Business Central synchronizes data with Microsoft Dataverse, so it can share data with other Dynamics 365 applications such as Customer Engagement. The entry page describes the bidirectional data sync, entity mapping, the Base Integration Solution, currency synchronization, and copying companies with integration enabled.\n\nThe remaining pages are about customization. One covers creating integration tables, pages, table and field mappings, coupling and uncoupling records, and deep linking. Another covers option mappings, where Business Central records are coupled to Dataverse option sets, using AL extensions and temporary tables. The AL Table Proxy Generator page describes a tool that creates proxy tables in Business Central to represent Dataverse tables.\n\nStart with the data sync integration page to understand the basic setup. Then move to the customization pages if you need to sync additional tables or options. The Dataverse API subtopic has 11 pages for working with Dataverse through its API.",
+  "input_hash": "8abf801553c5599e42d8d243789d348a79995034f15101da7071817b3cfe9780",
+  "summary": "Data synchronization between Business Central and Microsoft Dataverse: setting up bidirectional sync, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how-to questions about extending or customizing the sync. It also has a Dataverse API subtopic.",
+  "overview": "This section covers how Business Central exchanges data with Microsoft Dataverse and other Dynamics 365 applications such as Customer Engagement. The entry page explains bidirectional sync, entity mapping, the Base Integration Solution, currency synchronization, and company copying with integration.\n\nThe other pages cover customization. One page describes creating integration tables, pages, and mappings, and coupling and uncoupling records. A second page covers option mappings, which couple Business Central records with Dataverse option sets without bidirectional support. A third page describes the AL Table Proxy Generator, which creates proxy tables that represent Dataverse tables in Business Central.\n\nStart with the \"Integrate with Microsoft Dataverse via data sync\" page for the basics. Then use the proxy table generator and the customization pages when you need to sync additional tables or fields. The Dataverse API subtopic (11 pages) holds further material on the API.",
   "key_points": [
-    "Data sync supports bidirectional synchronization between Business Central and Dataverse, including with Customer Engagement apps.",
-    "The entry page covers entity mapping, the Base Integration Solution, currency synchronization, and company copying with integration.",
-    "Customizing an integration involves creating integration tables and pages, table and field mappings, and coupling or uncoupling records.",
-    "Deep linking is covered as part of customizing the integration.",
-    "Option mappings couple Business Central records with Dataverse option sets, use AL extensions and temporary tables, and do not support bidirectional sync.",
-    "The AL Table Proxy Generator creates proxy (integration) tables in Business Central that represent Dataverse tables.",
+    "Business Central can synchronize data bidirectionally with Dataverse and other Dynamics 365 apps such as Customer Engagement.",
+    "The basic integration uses entity mapping and the Base Integration Solution, and includes currency synchronization and company copying with integration.",
+    "Customizing an integration means creating integration tables, pages, and table and field mappings.",
+    "Records can be coupled and uncoupled, and the customization page also mentions deep linking.",
+    "Option mappings couple Business Central records with Dataverse option sets, but without bidirectional support.",
+    "Option mapping customization uses integration tables, pages, AL extensions, and temporary tables.",
+    "The AL Table Proxy Generator creates integration or proxy tables for Dataverse tables, with field mapping, lookup relationships, and table type selection.",
     "A Dataverse API subtopic with 11 pages sits under this section."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:08:16.284Z",
+  "at": "2026-10-07T21:13:11.801Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.012003
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:18:30.757Z",
+    "at": "2026-10-07T21:13:11.961Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview describes the Dataverse API subtopic as 'for working with Dataverse through its API'. That comes only from the subtopic title, since no page summaries were given for it. It is a harmless inference.",
-      "Minor: the advice to start with the data sync page and then move to the customization pages is editorial guidance, not something the sources state. It is reasonable and consistent with the page scopes."
+      "Minor: the overview's reading order (entry page first, then the proxy generator and customization pages for syncing more tables or fields) is a reasonable inference from the page summaries, but no page states it directly.",
+      "Minor: the summary says the hub answers questions about 'extending' the sync. That is a slight generalization of 'customizing', but it is consistent with the AL extensions and proxy table material."
     ],
-    "input_hash": "f17fe23bd8b365efd6e38b8f09abb66a582cf549218a09e7ed1f5f8f39d6a9d8",
-    "cost_usd": 0.0333752
+    "input_hash": "8abf801553c5599e42d8d243789d348a79995034f15101da7071817b3cfe9780",
+    "cost_usd": null
   }
 }

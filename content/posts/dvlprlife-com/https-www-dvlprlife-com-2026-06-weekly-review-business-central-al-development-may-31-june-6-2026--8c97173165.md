@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -57,7 +57,10 @@ evidence:
     quote: Cache-read tokens are cheapest, output tokens are most expensive.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/codeunit/4321
+    - object/table/98
+    - object/table/91
   features: []
   topics: []
   localizations: []
@@ -125,13 +128,15 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "Agent"
+- [codeunit 4321 "Agent"](../../objects/codeunit/4321.md)
 - page "Agents"
-- table "General Ledger Setup"
-- table "User Setup"
+- [table 98 "General Ledger Setup"](../../objects/table/98.md)
+- [table 91 "User Setup"](../../objects/table/91.md)
 - table "General Journal Templates"
+
+Not found in BC28-30: page "Agents", table "General Journal Templates".
 
 ## Context
 

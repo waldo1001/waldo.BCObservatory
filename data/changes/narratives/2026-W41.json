@@ -1,9 +1,9 @@
 {
   "week": "2026-W41",
-  "input_hash": "f098073ee0f1a34a8fdfc8d3f22259443e74bda07d0274db4d8cc6afa2310bb2",
-  "text": "The biggest behaviour changes this week are in MCP and connectors. #12207 marks Data Query Tools for MCP as billable, so users must acknowledge pricing before activation, and headless imports default to disabled. #12242 opens Power BI report deployment to all companies, not only evaluation ones, and adds workspace selection. #12064 lets the SharePoint connector handle hash and percent characters in paths through a new path format setting. #11560 adds a Peppol BIS 3.0 send path for self-billed purchase invoices and credit memos, and #11748 adds bonded-location handling to excise tax. In Shopify, #11604 captures the fulfillment delivery timestamp, while #12215, #12214, #12260 and #12139 fix document linking, currency mode storage, navigation and an action that should be disabled. Manufacturing and costing fixes include #11959, #12188, #12059, #11994 and #12124. Finance fixes cover #12141, #11848, #12127, #12135, #10182 and #11637. Other fixes address #12309, #12304, #12261, #12255, #12118, #12055 and #12145. The remaining work is cleanup: CLEAN27 removals in #12290 and #12293, guards in #12370, a set-based upgrade in #12307, and several BCQuality knowledge articles, such as #208 and #218.",
-  "changes": 57,
+  "input_hash": "c00a6b8baa2b1f2c3b840fa1cfb737c7e0937f05fbccccbb91065de3d152a7b4",
+  "text": "The largest behaviour changes this week touch billing and platform features. #12207 marks MCP Data Query Tools as billable and requires a pricing acknowledgement before activation, with headless imports defaulting to disabled. #12428 adds a public Copilot feature trial interface to System Application. #12242 opens Power BI report deployment to all companies, not only evaluation ones, and #12064 lets the SharePoint connector handle hash and percent characters in paths. #9953 renames AppSource text to Marketplace. Finance and localization fixes include #11629 for Norwegian SAF-T 1.30 export, #11848 for foreign currency opening balances in report 11564, #12127 for the Austrian U30 form, #9347 for German IssueDate, #12141 for non-deductible VAT on foreign-currency projects and #12135 for the Reverse Charge VAT upgrade. E-documents gain Peppol export of self-billed purchase documents in #11560, while #12055 now shows an error for unmatched Order Responses. Manufacturing fixes cover #11959, #12188, #12059 and #11994. Subscription Billing fixes are #10446, #10182 and #11637. Shopify received #11604, #12215, #12214, #12260 and #12139. Cleanup includes CLEAN27 removal in #12290 and #12293, and performance work in #12078 and #12307. BCQuality added knowledge articles, among them #214, #208 and #177.",
+  "changes": 62,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.058314,
-  "at": "2026-10-07T15:30:42.268Z"
+  "cost_usd": 0.06392,
+  "at": "2026-10-07T20:00:32.874Z"
 }

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:38:12.205Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -406,13 +406,15 @@ It then covers log retention, product error handling, Business Central fulfillme
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Shopify Log Entries" at [1:37](https://www.youtube.com/watch?v=lClKXB8xXIE&t=97s)
 - table "Shopify orders to import" at [13:32](https://www.youtube.com/watch?v=lClKXB8xXIE&t=812s)
 - table "Shopify shop" at [4:29](https://www.youtube.com/watch?v=lClKXB8xXIE&t=269s)
 - other "Role Center" at [20:15](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1215s)
 - other "Shopify activities" at [20:15](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1215s)
+
+Not found in BC28-30: table "Shopify Log Entries", table "Shopify orders to import", table "Shopify shop".
 
 ## Quotes
 

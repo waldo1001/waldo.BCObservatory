@@ -17,7 +17,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -32,7 +32,9 @@ evidence:
     quote: null
 links:
   learn: []
-  objects: []
+  objects:
+    - object/enum/4691
+    - object/enum/4690
   features: []
   topics: []
   localizations: []
@@ -81,10 +83,10 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- enum "Recurrence - Month"
-- enum "Recurrence - Day of Week"
+- [enum 4691 "Recurrence - Month"](../../objects/enum/4691.md)
+- [enum 4690 "Recurrence - Day of Week"](../../objects/enum/4690.md)
 
 ## Context
 

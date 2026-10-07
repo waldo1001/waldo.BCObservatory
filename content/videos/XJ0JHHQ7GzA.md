@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:28:55.111Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -201,7 +201,7 @@ It walks through business posting groups (who you buy from and sell to), product
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "AP setup" at [0:17](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=17s)
 - other "AR setup" at [0:17](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=17s)

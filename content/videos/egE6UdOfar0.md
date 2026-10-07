@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T15:20:09.619Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -86,7 +86,8 @@ evidence:
     quote: This is a big, really big investment, and we do not want to cover everything in one session, no way.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6997
   features:
     - feature/573255
   topics: []
@@ -308,11 +309,11 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Expense Agent" at [1:50](https://www.youtube.com/watch?v=egE6UdOfar0&t=110s)
 - other "Expense Agent Service" at [5:56](https://www.youtube.com/watch?v=egE6UdOfar0&t=356s)
-- page "Expense Reports" at [9:10](https://www.youtube.com/watch?v=egE6UdOfar0&t=550s)
+- [page 6997 "Expense Reports"](../objects/page/6997.md) at [9:10](https://www.youtube.com/watch?v=egE6UdOfar0&t=550s)
 - other "Expense Module" at [6:08](https://www.youtube.com/watch?v=egE6UdOfar0&t=368s)
 
 ## Quotes

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5a807fdf77181c9c3df5c0aa851d689c0fcd736e71f66b5aa72a5dccd7b958b6
+  input_hash: 99aaa855371a95d385c5526ca2489eeb16bcce2fdbfc3f14625cd3bcad4f1b24
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Email%20-%20SMTP%20API/app/src/ISMTPClient.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/Email%20-%20SMTP%20API/app/src/ISMTPClient.Interface.al
     title: src/Apps/W1/Email - SMTP API/app/src/ISMTPClient.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,13 +66,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 1
 ---
 
 # Interface "iSMTP Client"
 
 > Interface "iSMTP Client" in Email - SMTP API (System.Email). 4 public procedures. Introduced in BC29, still in BC30.
 
-Email - SMTP API · System.Email · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Email%20-%20SMTP%20API/app/src/ISMTPClient.Interface.al) · facts from BC29
+Email - SMTP API · System.Email · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/Email%20-%20SMTP%20API/app/src/ISMTPClient.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -80,6 +84,10 @@ Email - SMTP API · System.Email · BC29-30 · [source at 030de383](https://gith
 - `Authenticate(Authentication: Enum "SMTP Authentication Types"; var SMTPAuthentication: Codeunit "SMTP Authentication"): Boolean`
 - `Send(SMTPMessage: Codeunit "SMTP Message"): Boolean`
 - `Disconnect()`
+
+## Implemented by
+
+- [Codeunit 4615 "MailKit Client"](../codeunit/4615.md)
 
 ## Ask your agent
 
@@ -90,7 +98,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

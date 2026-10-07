@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:44:15.443Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,7 +132,8 @@ evidence:
     quote: we've made it really easy with a single click to be able to get more information from co-pilot when the Tool tip just doesn't
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -365,12 +366,14 @@ It also covers the limits that matter for planning. Chat is for Business Central
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "posted sales invoices list" at [6:57](https://www.youtube.com/watch?v=j5ULVClJaKU&t=417s)
-- page "sales orders" at [8:50](https://www.youtube.com/watch?v=j5ULVClJaKU&t=530s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [8:50](https://www.youtube.com/watch?v=j5ULVClJaKU&t=530s)
 - page "vehicles list page" at [14:35](https://www.youtube.com/watch?v=j5ULVClJaKU&t=875s)
 - page "general ledger" at [20:19](https://www.youtube.com/watch?v=j5ULVClJaKU&t=1219s)
+
+Not found in BC28-30: page "posted sales invoices list", page "vehicles list page", page "general ledger".
 
 ## Quotes
 

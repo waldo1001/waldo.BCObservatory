@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
 type: topic
 title: Tables and data
-summary: Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.
+summary: Tables and data in AL covers how to define Business Central tables, read and modify records, use queries, FlowFields, indexing (SIFT and NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer for bulk moves. It answers syntax, performance, and how-to questions.
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:51.727Z"
+  at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92
+  input_hash: 85a14c8be6ab10dcd427003a46989f74a71a7257891bb7859bac91699e53a874
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-accessing-columns
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips
-    title: Add tooltips to table and page fields
-    date: "2024-03-13"
+    title: Add Tooltips to Table and Page Fields
+    date: "2026-10-06"
     commit: null
     t: null
     quote: null
@@ -154,7 +154,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/instream/instream-data-type
     title: InStream data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -210,7 +210,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/outstream/outstream-data-type
     title: OutStream data type
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -280,7 +280,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-copystream-method
     title: System.CopyStream(OutStream, InStream [, Integer]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -405,28 +405,28 @@ narrative: generated
 
 # Tables and data
 
-> Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.
+> Tables and data in AL covers how to define Business Central tables, read and modify records, use queries, FlowFields, indexing (SIFT and NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer for bulk moves. It answers syntax, performance, and how-to questions.
 
 Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Tables and data · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-This section groups what an AL developer needs to define, store, read, change and move data in Business Central. The subtopics follow a usual workflow: defining table structures, reading data, modifying data, querying with Query objects, calculating values with FlowFields and FlowFilters, and tuning performance with indexes. Other subtopics cover streaming data and importing or exporting data through XMLports and Excel.
+This section is the AL reference for working with data in Business Central. It starts with table structure (objects, fields, keys, triggers, extensions, relationships) and moves through reading and modifying records, Query objects, and FlowFields and FlowFilters for calculated values that are not stored.
 
-The section's own pages cover two tools. Number sequences use SQL Server sequences to generate numeric identifiers. They allow gaps and do not block, so they suit non-continuous numbering better than number series. DataTransfer is an AL data type for bulk copying data between SQL-based tables during upgrade and install, and it is much faster than row-by-row record operations.
+Performance topics sit in their own subtopics. Reading data covers Get, Find, FindSet, partial records, isolation levels, and read scale-out. Indexing covers SIFT and NCCI, including tuning, tracing, and migrating from SIFT to NCCI. Importing and exporting covers XMLport objects and Excel Buffer exports. A Streaming data subtopic is also listed.
 
-Start with Defining table structures if you are building new objects. Go to Reading data and Indexing data for performance when tuning speed. Use the DataTransfer page when writing upgrade code that moves large volumes of data.
+The section's own two pages cover number sequences and DataTransfer. Number sequences use SQL Server sequences and allow gaps without blocking, unlike number series. DataTransfer does bulk copying between tables during upgrade and install. To begin, read Defining table structures, then Reading data and Modifying data. Go to the indexing and DataTransfer pages when performance matters.
 
 ## Key points
 
-- Defining table structures covers table objects, table extensions, system fields, TableRelation, ToolTip and OptimizeForTextSearch.
-- Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records and Dataverse table properties.
-- Reading data covers Get, Find, FindSet and Next, partial records, isolation levels, SQL performance and read scale-out.
-- Query objects define dataitems and columns, joins, filters, aggregation and date parts, as an alternative to record variables.
-- FlowFields and FlowFilters calculate values dynamically without storing data, using CalcFormula.
-- SIFT and NCCI give fast sums over numeric columns, with guidance on tuning, tracing and migrating from SIFT to NCCI.
-- Number sequences use the NumberSequence type (Insert, Delete, Next, Current, Exists) and allow gaps without blocking.
-- DataTransfer (CopyRows, CopyFields, SetTables, AddFieldValue, AddConstantValue, AddJoin) does bulk table-to-table transfers in upgrade and install; the page lists 2022 release wave 2.
+- Defining table structures covers the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search.
+- Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records, filter pages, Dataverse table properties, and keeping test data between publishes.
+- Reading data covers Get, Find, FindSet and Next, partial records, record isolation levels, SQL performance of database methods, and read scale-out.
+- Query objects define dataitems and columns, joins, filters, aggregates, and date parts, and their results can be read in code.
+- FlowFields and FlowFilters are virtual fields that calculate values at runtime using CalcFormula, with no data stored.
+- SIFT and NCCI speed up sums over numeric columns, with trade-offs in performance and maintenance, and a migration path from SIFT to NCCI.
+- Number sequences use SQL Server sequences (NumberSequence type with Insert, Delete, Next, Current, Exists). They allow gaps and are non-blocking, unlike number series.
+- DataTransfer bulk-copies data between SQL-based tables during upgrade and install (CopyRows, CopyFields, AddJoin, and others), and is faster than row-by-row record operations. It is listed under 2022 release wave 2.
 
 ## Subtopics
 

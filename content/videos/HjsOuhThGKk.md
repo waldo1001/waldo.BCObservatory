@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:46:15.314Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -60,7 +60,9 @@ evidence:
     quote: now you can't directly extend or create your own summaries yes if you're a developer
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/132
   features: []
   topics: []
   localizations: []
@@ -204,11 +206,13 @@ It also shows the summary on a posted sales invoice, the refresh button that reg
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "customer card" at [0:45](https://www.youtube.com/watch?v=HjsOuhThGKk&t=45s)
-- page "posted sales invoice" at [3:01](https://www.youtube.com/watch?v=HjsOuhThGKk&t=181s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [0:45](https://www.youtube.com/watch?v=HjsOuhThGKk&t=45s)
+- [page 132 "Posted Sales Invoice"](../objects/page/132.md) at [3:01](https://www.youtube.com/watch?v=HjsOuhThGKk&t=181s)
 - page "statistics" at [2:20](https://www.youtube.com/watch?v=HjsOuhThGKk&t=140s)
+
+Not found in BC28-30: page "statistics".
 
 ## Quotes
 

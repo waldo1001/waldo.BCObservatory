@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d338dc08e566e195d2d8b2efbbd6ed10d785beb2e3998627e23baf627c53dc4a
+  input_hash: 0810475285c320f0f7eec46a7b9270533992083fbe1daa60b5839634c02e9e1f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -71,13 +71,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 2
 ---
 
 # Interface "Power BI Upload Tracker"
 
 > Interface "Power BI Upload Tracker" in Base Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC28, still in BC30, changed in BC29.
 
-Base Application · System.Integration.PowerBI · BC28-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC28-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -100,6 +104,11 @@ Base Application · System.Integration.PowerBI · BC28-30 · [source at 030de383
 - `Fail(ErrorMessage: Text; ErrorCallStack: Text)`: Records that the upload has failed with the given error message and callstack. Implementations may persist the error details and emit telemetry.
 - `Save()`: Persists any pending changes to the underlying table(s).
 
+## Implemented by
+
+- [Codeunit 6322 "Power BI System Upload Tracker"](../codeunit/6322.md)
+- [Codeunit 6349 "PBI Deploy. Upload Tracker"](../codeunit/6349.md)
+
 ## Recent changes
 
 - 2026-10-05 [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../changes/bcapps/12242.md) (releases/29.x, BC29, feature)
@@ -114,7 +123,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC28-30
 - Changed (declaration) in: BC29
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

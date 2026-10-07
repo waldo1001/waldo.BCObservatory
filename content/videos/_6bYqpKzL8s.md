@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:54:35.505Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,7 +190,7 @@ It walks through the admin center: viewing environments, checking application ve
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC28 US environment" at [3:31](https://www.youtube.com/watch?v=_6bYqpKzL8s&t=211s)
 

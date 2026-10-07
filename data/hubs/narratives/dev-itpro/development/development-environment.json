@@ -1,38 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment",
-  "input_hash": "897efbda730bcd8eb716396a42d1b1e2c438ee72c8b2129acd73c80894684c52",
-  "summary": "Development environment for Business Central AL: setup in VS Code, projects and workspaces, code analysis, compile/publish/debug, testing, sandboxes, app configuration and extra tools. It answers setup, configuration, debugging, testing and packaging questions for extension developers.",
-  "overview": "This section covers everything needed to set up and work in an AL development environment for Business Central. It starts with configuring the environment (VS Code AL Language extension, performance, runtime targeting in app.json, Docker containers, GitHub Codespaces) and continues with projects and multi-root workspaces.\n\nDay-to-day development is covered by pages on code analysis, compiling, publishing and debugging (including profiling and app signing), and testing with AL tests, HttpClient mocking, performance tests and page scripting. Sandbox pages explain online versus container sandboxes. Working with apps covers the app manifest and dependencies, and Other tools covers Page Inspection, Txt2Al and the table data viewer.\n\nStart with Configure the development environment, then Configure projects and workspaces. Move to Compile, publish, and debug and Testing once the setup works.",
+  "input_hash": "6f173692c9718c210b7fc748b0ebb1946a3d1b676d49891c41b204bb598a62f6",
+  "summary": "Development environment for Business Central covers setting up and using AL tooling in Visual Studio Code: configuration, projects and workspaces, code analysis, compile/publish/debug, testing, sandboxes, app manifests and extra tools. It answers setup, build, debug and test questions for extension developers.",
+  "overview": "This section is for developers who build Business Central extensions in AL. It starts with configuring the environment (VS Code AL Language extension, performance settings, Docker containers, GitHub Codespaces) and then moves into how projects and multi-root workspaces are organized.\n\nThe subtopics follow the development cycle: code analysis, then compile, publish and debug (including app signing and the AL Profiler), then testing with AL tests, HttpClient mocking and page scripting. Sandboxes explains online versus container-based environments, and Working with apps covers the app.json manifest, runtime version, dependencies and install-time data.\n\nStart with Configure the development environment to get a working setup, then Configure projects and workspaces if you manage several apps. Other tools (Page Inspection, Txt2Al, table data viewer) are useful helpers when debugging pages or converting older C/AL code.",
   "key_points": [
-    "Configure the development environment covers VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces.",
-    "Multi-root workspaces group several AL project folders, with per-folder settings and project references and dependencies.",
-    "Compile, publish, and debug covers breakpoints, attach and snapshot debugging, RAD publishing, compilation scope and target levels, AL Profiler, app signing and Entra authentication for on-premises debugging.",
-    "Testing covers test codeunits, methods, test pages, handlers and test runners, running tests in VS Code, mocking HttpClient calls, performance testing and UI acceptance testing with page scripting.",
-    "Sandbox pages compare online and container sandboxes, show how to run containers with Docker and BCContainerHelper, and explain testing under different user plans and entitlements.",
-    "Working with apps covers app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps.",
-    "Other tools include Page Inspection, the Txt2Al tool for converting C/AL objects to AL (NAV 14 code), and the table data viewer for tenant tables.",
-    "A Code analysis subtopic with 9 pages is also part of this section."
+    "Configure the development environment: AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces.",
+    "Projects and workspaces: group several AL project folders in a multi-root workspace, set per-folder settings and manage project references and dependencies.",
+    "Code analysis: a nine-page subtopic that comes between project setup and compile, publish and debug in the development cycle.",
+    "Compile, publish and debug: breakpoints, snapshot and attach debugging, the AL Profiler, compilation scope, RAD publishing, app signing and Entra authentication for on-premises.",
+    "Testing: test codeunits, methods, test pages, handlers and test runners, running tests in VS Code, mocking HttpClient calls, performance testing and UI acceptance testing with page scripting.",
+    "Sandboxes: online and container sandboxes differ; container environments run with Docker and BCContainerHelper; extensions can be tested under different user plans and entitlements.",
+    "Working with apps: app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps.",
+    "Other tools: Page Inspection for page structure and data sources, Txt2Al for converting C/AL objects to AL (NAV 14 code), and the table data viewer for tenant tables."
   ],
   "members_used": 0,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-07T02:11:50.886Z",
+  "at": "2026-10-07T21:13:11.896Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.013999000000000001
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:15:00.085Z",
-    "verdict": "approve",
+    "at": "2026-10-07T21:13:11.933Z",
+    "verdict": "fix",
     "issues": [
-      "Key point 8 only says that a Code analysis subtopic exists with 9 pages. There is no summary for that subtopic, so this is accurate, but it tells an agent nothing about what the subtopic covers.",
-      "The overview's suggested reading order (setup first, then projects, then compile/debug and testing) is the writer's own advice. The summaries don't state it, but it is a reasonable reading of the structure and doesn't claim any facts.",
-      "Minor: the 'Configure the development environment' subtopic also has its own subtopic on the JSON files, and the narrative doesn't mention it."
+      "The last key point ('no summary was available for it') is a note about how the narrative was made and gives agents nothing they can use. I replaced it with a neutral description that doesn't guess at what the code analysis pages contain."
     ],
-    "input_hash": "897efbda730bcd8eb716396a42d1b1e2c438ee72c8b2129acd73c80894684c52",
-    "cost_usd": 0.0307392
+    "input_hash": "6f173692c9718c210b7fc748b0ebb1946a3d1b676d49891c41b204bb598a62f6",
+    "cost_usd": null
   }
 }

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:23:32.661Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,7 +200,7 @@ For projects, the Project Power BI app is now open source and can be customized.
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Inventory Forecasting" at [1:34](https://www.youtube.com/watch?v=6lUli23t3fU&t=94s)
 - other "Project Invoice Sales by Type" at [6:37](https://www.youtube.com/watch?v=6lUli23t3fU&t=397s)

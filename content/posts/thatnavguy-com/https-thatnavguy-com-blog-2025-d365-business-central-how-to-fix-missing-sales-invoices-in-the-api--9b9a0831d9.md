@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T20:00:32.874Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -54,7 +54,11 @@ evidence:
     quote: "Go to the API Data Upgrade List page in Business Central. Find the relevant record: SALES INVOICES, and click Schedule Upgrades."
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/5475
+    - object/table/36
+    - object/table/112
+    - object/page/9994
   features: []
   topics: []
   localizations: []
@@ -119,12 +123,12 @@ preview:
 
 ## AL objects mentioned
 
-As named in the post; not yet joined to the code pillar.
+As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Sales Invoice Entity Aggregate"
-- table "Sales Header"
-- table "Sales Invoice Header"
-- page "API Data Upgrade List"
+- [table 5475 "Sales Invoice Entity Aggregate"](../../objects/table/5475.md)
+- [table 36 "Sales Header"](../../objects/table/36.md)
+- [table 112 "Sales Invoice Header"](../../objects/table/112.md)
+- [page 9994 "API Data Upgrade List"](../../objects/page/9994.md)
 
 ## Context
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:18.276Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,7 +102,11 @@ evidence:
     quote: we allow you to do this from the vat entries where you can go to a record and specify a new vat date but
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
+    - object/page/187
+    - object/page/315
+    - object/report/12
   features: []
   topics: []
   localizations: []
@@ -278,14 +282,16 @@ The presenter walks through the General Ledger Setup options (VAT Date Usage, De
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "General Ledger Setup" at [3:54](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=234s)
-- page "VAT Setup" at [13:09](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=789s)
-- page "VAT entries" at [14:47](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=887s)
-- report "VAT statement" at [8:29](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=509s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [3:54](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=234s)
+- [page 187 "VAT Setup"](../objects/page/187.md) at [13:09](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=789s)
+- [page 315 "VAT Entries"](../objects/page/315.md) at [14:47](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=887s)
+- [report 12 "VAT Statement"](../objects/report/12.md) at [8:29](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=509s)
 - report "Calculate and Post VAT Settlement" at [8:29](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=509s)
 - report "VAT Declaration" at [8:29](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=509s)
+
+Not found in BC28-30: report "Calculate and Post VAT Settlement", report "VAT Declaration".
 
 ## Quotes
 

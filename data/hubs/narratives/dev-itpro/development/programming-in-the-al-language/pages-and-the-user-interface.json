@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-  "input_hash": "c05ce1eaa449de58ee38a5121c7ea0897eb30d49732c1492baa77c5387cf92ce",
-  "summary": "Pages and the user interface in AL for Business Central: page types, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, build, customize and debug the client UI.",
-  "overview": "This section covers how to build the Business Central user interface in AL. The core material is in the subtopics: Pages (page objects, extensions and page types), Role centers, Actions, Views and Profiles. Together they define what users see, which actions they can take and how the experience is tailored to a role.\n\nFurther subtopics cover deep links, which open specific content in the web client or mobile app, and development for the mobile app on tablet and phone. The section's own pages give the overview and supporting tools. \"Designing the User Interface\" introduces page types, role centers, actions, views, queries and profiles. \"Customize the user interface for user roles\" explains the layered approach from role centers to personalization. \"Inspecting pages\" describes the Page Inspection pane for debugging. The \"Control Add-in Style Guide\" gives CSS colors and typography for add-ins.\n\nStart with \"Designing the User Interface\" for orientation. Then go to Pages for building, and to Role centers and Profiles to tailor the experience for roles.",
+  "input_hash": "eeaeb9c6d784351de6ca48d87217cde5159e1cf954a2141fc0aa91a59408804d",
+  "summary": "Pages and the user interface in Business Central AL development: page types, role centers, actions, views, profiles, deep links, and mobile app development. It also covers the control add-in style guide, role-based UI customization, and page inspection. Use it for questions on designing, extending, and debugging the UI.",
+  "overview": "This section covers how to build and shape the Business Central user interface with AL. The core subtopics are Pages (page objects, extensions, page types, layout controls, FactBoxes), Actions (action areas, promotion, the modern action bar), Role centers (role-tailored home pages, cues, headlines, onboarding checklists), Views on list pages, and Profiles that decide which pages and reports a user role sees.",
   "key_points": [
-    "Pages subtopic (33 pages) covers page objects and extensions, Card, List, Document, part, PromptDialog, ConfigurationDialog and NavigatePage types, FactBoxes, tiles, teaching tips, Power BI embedding and Copilot prompt dialogs.",
-    "Role centers are role-tailored home pages built with navigation menus, cues, action tiles and headlines.",
-    "Actions pages cover actionref syntax, action areas, promoted groups, the modern action bar with split buttons and prompt actions that launch Copilot.",
-    "UI customization is layered: Role Centers, page extensions, profiles, page customizations and personalization.",
-    "Views define alternative filtered, sorted list layouts. They can be migrated from legacy Role Center views and packaged in extensions.",
-    "Profiles define user roles that control which pages and reports a user sees, using profile objects, profile extensions and page customization objects.",
-    "Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.",
-    "Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code. It is listed under 2023 release wave 2."
+    "Page types include Card, List, Document, parts, PromptDialog, ConfigurationDialog and NavigatePage; pages can be extended with page extensions.",
+    "Actions can be added, organized and promoted, with a modern action bar that has split buttons and prompt actions that launch Copilot.",
+    "Role centers provide role-tailored home pages with navigation menus, cues, headlines and a user onboarding checklist.",
+    "Views define alternative filtered, sorted and laid-out list views; legacy Role Center views can be migrated to modern list views.",
+    "Profiles, profile extensions and page customization objects control the UI per user role; profiles can also be created or moved through the client.",
+    "Customizing the UI for roles is layered: Role Centers, page extensions, profiles, page customizations, then personalization.",
+    "Page Inspection in the web client shows page structure, data sources, extensions, filters and source table fields (2023 release wave 2).",
+    "Deep links use URL parameters (company, page, report, table, mode, profile, filter, bookmark) and the ms-businesscentral URI scheme for the mobile app."
   ],
   "members_used": 4,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:57.697Z",
+  "at": "2026-10-07T21:13:11.799Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": false,
-    "cost_usd": 0.016903
+    "cached": true,
+    "cost_usd": null
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:14:25.570Z",
+    "at": "2026-10-07T21:13:11.932Z",
     "verdict": "approve",
     "issues": [
-      "Views key point says views can be 'packaged in extensions'; the source specifically mentions exporting and packaging analysis views in extensions. This is a slight generalization.",
-      "The mobile app subtopic (8 pages: screen size design, page limitations, barcode scanning, browser-based testing) has no key point of its own. It is covered only in the summary and overview.",
-      "The Page Inspection version is phrased as 'listed under 2023 release wave 2', which correctly avoids claiming the feature was introduced then."
+      "Page Inspection key point appends '(2023 release wave 2)', which is a version tag on the source page; the inputs do not state the feature was introduced in that release, so the phrasing could be read as an unsupported release claim.",
+      "The mobile app subtopic (8 pages: strategy, screen sizes, page limitations, barcode scanning, browser-based testing) is mentioned only in the summary and has no key point.",
+      "The Views key point omits exporting and packaging analysis views in extensions; the overview lists only five subtopics and skips deep links and mobile. Both are incomplete, not wrong."
     ],
-    "input_hash": "c05ce1eaa449de58ee38a5121c7ea0897eb30d49732c1492baa77c5387cf92ce",
-    "cost_usd": 0.0373152
+    "input_hash": "eeaeb9c6d784351de6ca48d87217cde5159e1cf954a2141fc0aa91a59408804d",
+    "cost_usd": null
   }
 }

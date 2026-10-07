@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 483bb55eeaa36dd71fa60826bc1eb6710e95768f92c1a0b180b6ce46ce592d4d
+  input_hash: 235527274f2f7d5c6a3a60813ff511ef5f65d69980d7a945977f03f21c4183bf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al
     title: src/System Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -69,18 +69,28 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 3
 ---
 
 # Interface "AI Service Name"
 
 > Interface "AI Service Name" in System Application (System.AI). 2 public procedures. Introduced in BC26, still in BC30.
 
-System Application · System.AI · BC26-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al) · facts from BC29
+System Application · System.AI · BC26-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `GetServiceName(): Text[250]`
 - `GetServiceId(): Code[50]`: Get the id of the service. Will often be the service name in Code form.
+
+## Implemented by
+
+- [Codeunit 7772 "Azure OpenAI Impl"](../codeunit/7772.md)
+- [Codeunit 7779 "Azure DI Impl."](../codeunit/7779.md)
+- [Enum 7778 "Azure AI Service Type"](../enum/7778.md)
 
 ## Ask your agent
 
@@ -91,7 +101,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC26, BC27, BC28, BC29, BC30
+- Present in: BC26-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

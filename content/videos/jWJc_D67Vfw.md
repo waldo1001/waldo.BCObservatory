@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:53:34.071Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -278,7 +278,7 @@ He presents a framework: pick one tool and go deep for 90 days, treat AI as a co
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "code review agent" at [28:09](https://www.youtube.com/watch?v=jWJc_D67Vfw&t=1689s)
 - other "Open Claw" at [43:04](https://www.youtube.com/watch?v=jWJc_D67Vfw&t=2584s)

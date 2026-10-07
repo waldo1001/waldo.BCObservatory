@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -20,21 +20,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop
     title: AppSourceCop analyzer
-    date: "2026-08-31"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop
     title: CodeCop analyzer
-    date: "2026-03-11"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop
     title: PerTenantExtensionCop analyzer
-    date: "2025-09-02"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
@@ -48,7 +48,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop
     title: UICop analyzer
-    date: "2025-08-08"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

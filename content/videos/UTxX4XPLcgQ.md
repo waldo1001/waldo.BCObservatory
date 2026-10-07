@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:45:53.191Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ evidence:
     quote: once you have your setup and you decided how it should look like um and be set up in terms of calculations you can
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/292
   features: []
   topics: []
   localizations: []
@@ -238,10 +239,12 @@ It then shows reminder automation. Reminders are created, issued and sent throug
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Account Receivables Administrator Role Center" at [0:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=47s)
-- table "Reminder Terms" at [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s)
+- [table 292 "Reminder Terms"](../objects/table/292.md) at [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s)
+
+Not found in BC28-30: page "Account Receivables Administrator Role Center".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:47.091Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -278,7 +278,7 @@ He applies this to a solution hub PTE with an EROC connector bridge app and a pr
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "EROC" at [6:47](https://www.youtube.com/watch?v=reUoIdQZaNM&t=407s)
 - other "solution component" at [16:52](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1012s)
@@ -289,6 +289,8 @@ As heard in the captions; not yet verified against the code pillar.
 - interface "integration interface" at [33:16](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1996s)
 - other "C4 model" at [41:48](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2508s)
 - other "Structurizer" at [41:48](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2508s)
+
+Not found in BC28-30: enum "integration provider", interface "integration interface".
 
 ## Quotes
 

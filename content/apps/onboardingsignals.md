@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c6ac4b778113487fe8964f40e3139db4a55d1e3b9ef6bc18ecda49e40459940a
+  input_hash: 2d0c76f048462555abc18465087ea11f8491c581cb7ef1c137cd8505d14e3308
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/OnboardingSignals/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/OnboardingSignals/app
     title: src/Apps/W1/OnboardingSignals/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -83,4 +83,4 @@ First-party app · folder `src/Apps/W1/OnboardingSignals/app` · BC29-30 · syst
 |---|---|---|
 | 20370 | [First Party Signals](../objects/enumextension/20370.md) |  |
 
-Source: [src/Apps/W1/OnboardingSignals/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/OnboardingSignals/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/OnboardingSignals/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/OnboardingSignals/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

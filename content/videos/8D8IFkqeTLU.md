@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:44:37.237Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
     quote: it will take the D5 cell. Um but because this is just D5, it will actually, if we go back, now we can see
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/27
   features: []
   topics: []
   localizations: []
@@ -183,10 +184,12 @@ He then connects the date filters to spreadsheet cells with cell references, exp
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "item" at [0:45](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=45s)
+- [table 27 "Item"](../objects/table/27.md) at [0:45](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=45s)
 - table "item table" at [4:09](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=249s)
+
+Not found in BC28-30: table "item table".
 
 ## Quotes
 

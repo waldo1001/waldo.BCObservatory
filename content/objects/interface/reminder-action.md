@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:23:11.326Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6bdd7105e89b7434ca1eb09da0d5c629628d4b364d74b28ddf59eef9a4378e26
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al
     title: src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -71,13 +71,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 0
 ---
 
 # Interface "Reminder Action"
 
 > Interface "Reminder Action" in Base Application (Microsoft.Sales.Reminder). 10 public procedures. Introduced in BC24, still in BC30.
 
-Base Application · Microsoft.Sales.Reminder · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al) · facts from BC29
+Base Application · Microsoft.Sales.Reminder · BC24-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -101,7 +105,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

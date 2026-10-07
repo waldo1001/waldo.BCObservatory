@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:35:52.323Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -253,10 +253,12 @@ It then walks through setup: the intercompany partner wizard run on both compani
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - permissionset "Cross environment API cross environment intercompany" at [11:20](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=680s)
 - permissionset "Create and modified interc company Partners" at [12:01](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=721s)
+
+Not found in BC28-30: permissionset "Cross environment API cross environment intercompany", permissionset "Create and modified interc company Partners".
 
 ## Quotes
 

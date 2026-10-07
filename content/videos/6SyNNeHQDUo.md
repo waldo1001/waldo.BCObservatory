@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:19:58.063Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
     quote: hasn't been easy you know having to respect microsoft's responsible ai principles
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -212,7 +213,7 @@ Five contributions are demoed: a reorganized Manual Setup page, a notification f
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Manual Setup Page" at [5:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=320s)
 - page "Sales Invoices" at [6:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=380s)
@@ -220,7 +221,9 @@ As heard in the captions; not yet verified against the code pillar.
 - table "GL Account" at [7:33](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=453s)
 - page "Purchase and Payable Setup" at [8:08](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=488s)
 - table "Number Series" at [8:28](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=508s)
-- page "Sales Orders" at [10:05](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=605s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [10:05](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=605s)
+
+Not found in BC28-30: page "Manual Setup Page", page "Sales Invoices", page "Sales Setup", table "GL Account", page "Purchase and Payable Setup", table "Number Series".
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:26:02.042Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,9 @@ evidence:
     quote: it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/16
   features: []
   topics: []
   localizations: []
@@ -211,10 +213,10 @@ It also covers showing more insights and continuing the conversation with Copilo
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "customer card" at [1:03](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=63s)
-- page "chart of accounts" at [3:24](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=204s)
+- [page 21 "Customer Card"](../objects/page/21.md) at [1:03](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=63s)
+- [page 16 "Chart of Accounts"](../objects/page/16.md) at [3:24](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=204s)
 
 ## Quotes
 

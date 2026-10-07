@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:46:32.176Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -254,13 +254,15 @@ Two demos follow. The first shows a successful run in the tool. The second shows
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Inventory Cost Adjustment Tool" at [5:21](https://www.youtube.com/watch?v=w0okH0v0VvY&t=321s)
 - page "Log Per Item" at [7:19](https://www.youtube.com/watch?v=w0okH0v0VvY&t=439s)
 - page "Log Per Run" at [8:30](https://www.youtube.com/watch?v=w0okH0v0VvY&t=510s)
 - page "Item Batches" at [10:05](https://www.youtube.com/watch?v=w0okH0v0VvY&t=605s)
 - report "Costing Issues Detection Report" at [12:41](https://www.youtube.com/watch?v=w0okH0v0VvY&t=761s)
+
+Not found in BC28-30: page "Inventory Cost Adjustment Tool", page "Log Per Item", page "Log Per Run", page "Item Batches", report "Costing Issues Detection Report".
 
 ## Quotes
 

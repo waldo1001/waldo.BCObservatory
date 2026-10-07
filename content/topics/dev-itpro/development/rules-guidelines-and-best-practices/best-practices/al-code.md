@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,6 +64,7 @@ links:
     - change/bcapps/10869
     - change/bcapps/11036
     - change/bcapps/11682
+    - change/bcapps/12078
     - change/bcapps/9700
     - change/bcquality/136
     - change/bcquality/156
@@ -126,6 +127,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../../../../changes/bcapps/10869.md) (code change): "Withholding tax test for payment posting was reformatted to fix indentation"
 - [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../../changes/bcapps/11036.md) (code change): "Rule enforcement becomes stricter going forward, requiring contributors to avoid these patterns"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../../changes/bcapps/11682.md) (code change): "Replaced broad AA0073 suppression with compliant temporary-record variable names"
+- [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](../../../../../changes/bcapps/12078.md) (code change): "Reuses the default CellDecorator instead of creating new instances for each column-row combination"
 - [#9700 Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer](../../../../../changes/bcapps/9700.md) (code change): "Change eliminates false positives with the AA0237 rule that flags non-temporary variables"
 - [#136 Add community knowledge: AL boolean operators do not short-circuit](../../../../../changes/bcquality/136.md) (code change): "AL boolean operators (and, or, xor) do not guarantee short-circuit evaluation"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../../changes/bcquality/156.md) (code change): "Each pattern includes bad and good code examples with frontmatter metadata and description"

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 656d63bdb91af8c78f2ef3ee31bfec40583385b51b6f8f467383714f9a7c6eaf
+  input_hash: 600fc4987a6805a9a9a284f1ac01d5cae436a3f0ce484d86d6f8b5c3ac3f1e82
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/SalesOrderAgent/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/SalesOrderAgent/app
     title: src/Apps/W1/SalesOrderAgent/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -352,4 +352,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |  | [SOA Sales Quotes](../objects/pagecustomization/soa-sales-quotes.md) |  |
 |  | [SOA Ship-to Address List](../objects/pagecustomization/soa-ship-to-address-list.md) |  |
 
-Source: [src/Apps/W1/SalesOrderAgent/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/SalesOrderAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SalesOrderAgent/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/SalesOrderAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

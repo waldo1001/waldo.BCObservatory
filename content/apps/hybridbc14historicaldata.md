@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:25:37.512Z"
+  at: "2026-10-07T21:10:59.019Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a5326ce83abc6a3d0e687932aedbb2780f05e54f92cea166b9fa840ad82d390e
+  input_hash: 8693a7eaf83e5cd3c8fcbb22012244795eb28f566e04541d49274749bd77247e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/HybridBC14HistoricalData/app
+    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/HybridBC14HistoricalData/app
     title: src/Apps/W1/HybridBC14HistoricalData/app (main)
     date: null
-    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
+    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
     t: null
     quote: null
 links:
@@ -105,4 +105,4 @@ First-party app · folder `src/Apps/W1/HybridBC14HistoricalData/app` · namespac
 |---|---|---|
 | 46882 | [BC14 Historical Data](../objects/permissionset/46882.md) |  |
 
-Source: [src/Apps/W1/HybridBC14HistoricalData/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/HybridBC14HistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridBC14HistoricalData/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/HybridBC14HistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:37:07.972Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -436,7 +436,7 @@ The team announced that BC Container Helper versions before 6.1 will have major 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "newb container" at [4:45](https://www.youtube.com/watch?v=LDRziYUdlAg&t=285s)
 - other "local dev" at [3:55](https://www.youtube.com/watch?v=LDRziYUdlAg&t=235s)

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:39:53.804Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,9 +168,11 @@ Metafields can be synchronized and managed through the UI or the extensibility m
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Shopify company card" at [1:35](https://www.youtube.com/watch?v=h5PQI4I4b7c&t=95s)
+
+Not found in BC28-30: page "Shopify company card".
 
 ## Quotes
 

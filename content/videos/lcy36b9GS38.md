@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:25:46.573Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
     quote: You just need to enable in a sustainability setup or procurement tab. You need to enable uh item charge and you need to enable
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/51
   features: []
   topics: []
   localizations: []
@@ -181,11 +182,13 @@ The demo creates a purchase invoice with item charges and shows the Item Charge 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Item Charge" at [3:40](https://www.youtube.com/watch?v=lcy36b9GS38&t=220s)
-- page "Purchase Invoice" at [4:01](https://www.youtube.com/watch?v=lcy36b9GS38&t=241s)
+- [page 51 "Purchase Invoice"](../objects/page/51.md) at [4:01](https://www.youtube.com/watch?v=lcy36b9GS38&t=241s)
 - page "Item Charge Assignment" at [4:47](https://www.youtube.com/watch?v=lcy36b9GS38&t=287s)
+
+Not found in BC28-30: page "Item Charge", page "Item Charge Assignment".
 
 ## Quotes
 

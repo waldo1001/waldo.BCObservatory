@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:24:01.682Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,9 @@ evidence:
     quote: instead of the total emission here the final result that is uh required for sustainability journal below we can see the calculation explanation and
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6328
+    - object/page/6219
   features: []
   topics: []
   localizations: []
@@ -209,10 +211,10 @@ Demos show the Emission Source Setup page, where Excel files are uploaded per co
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Emission Source Setup" at [2:22](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=142s)
-- page "Sustainability Journal" at [4:21](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=261s)
+- [page 6328 "Emission Source Setup"](../objects/page/6328.md) at [2:22](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=142s)
+- [page 6219 "Sustainability Journal"](../objects/page/6219.md) at [4:21](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=261s)
 
 ## Quotes
 

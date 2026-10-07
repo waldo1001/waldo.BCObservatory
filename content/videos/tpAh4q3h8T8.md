@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:42:41.231Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,7 +118,9 @@ evidence:
     quote: it will do all the processes all the automation that I need to do to ensure the high quality of the code is it
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/42
   features: []
   topics: []
   localizations: []
@@ -301,12 +303,14 @@ The second half covers embedding a Power BI visual in a page with a fact box and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item card" at [6:47](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=407s)
+- [page 30 "Item Card"](../objects/page/30.md) at [6:47](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=407s)
 - page "page inspector" at [9:08](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=548s)
-- page "Sales Order" at [17:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1041s)
+- [page 42 "Sales Order"](../objects/page/42.md) at [17:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1041s)
 - page "Profiles" at [18:22](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1102s)
+
+Not found in BC28-30: page "page inspector", page "Profiles".
 
 ## Quotes
 

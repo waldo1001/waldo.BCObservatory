@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:30:14.519Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
     quote: So snapshot debugging very useful for production environments. start um a snapshot um you run your process
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/22
   features: []
   topics: []
   localizations: []
@@ -192,10 +193,12 @@ The AL profiler targets performance rather than errors. It records function call
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Customer List" at [3:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=236s)
+- [page 22 "Customer List"](../objects/page/22.md) at [3:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=236s)
 - page "page extension" at [3:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=236s)
+
+Not found in BC28-30: page "page extension".
 
 ## Quotes
 

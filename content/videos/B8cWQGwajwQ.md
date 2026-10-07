@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:52:21.533Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,7 +188,8 @@ evidence:
     quote: this is not an HTML automation tool right so we cannot automate uh control edings like charts or any embedded uh content like powerbi
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -456,13 +457,15 @@ It then covers conditional step branches, optional pages, collapsing nested stru
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "Page Inspector" at [2:53](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=173s)
-- page "Sales Orders" at [8:14](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=494s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [8:14](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=494s)
 - page "Customer" at [4:10](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=250s)
 - page "Page Scripting pane" at [18:18](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1098s)
 - other "properties pane" at [19:30](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1170s)
+
+Not found in BC28-30: page "Page Inspector", page "Customer", page "Page Scripting pane".
 
 ## Quotes
 

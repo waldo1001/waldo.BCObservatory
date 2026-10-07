@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:42:54.019Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -524,12 +524,14 @@ The AppSource part describes the preview state, preview keys and audience, insta
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "number series line" at [7:30](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=450s)
 - table "number serious line obsolete" at [7:30](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=450s)
 - other "number series module" at [14:00](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=840s)
 - page "Microsoft appsource apps" at [31:24](https://www.youtube.com/watch?v=tzeO0mc8RJo&t=1884s)
+
+Not found in BC28-30: table "number series line", table "number serious line obsolete", page "Microsoft appsource apps".
 
 ## Quotes
 

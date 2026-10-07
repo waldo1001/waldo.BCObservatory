@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:37:38.025Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,7 +182,7 @@ The second part covers deploying test apps alongside production apps to sandbox 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "BC replay npm module" at [0:46](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=46s)
 - other "page scripting test settings" at [1:53](https://www.youtube.com/watch?v=xr8C3c6WhOI&t=113s)

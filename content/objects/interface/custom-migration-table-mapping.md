@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6722386f8aa3c6d24e5ee473c5bc1885a1e105e3e5e92705799436dfbc589e2f
+  input_hash: ae00124416757ee94d5088d99056e94f201aa69d859ff273d2fbcf713e6006f2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al
     title: src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,13 +66,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 3
 ---
 
 # Interface "Custom Migration Table Mapping"
 
 > Interface "Custom Migration Table Mapping" in HybridBaseDeployment (Microsoft.DataMigration). 4 public procedures. Introduced in BC29, still in BC30.
 
-HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al) · facts from BC29
+HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -80,6 +84,12 @@ HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at 030de38
 - `GetMigrationSetupTableMappingName(): Text`: Gets table name of the migration setup table mapping that is used to map the tables from source to destination during cloud migration setup phase. Table name must match the name of the table in SQL database exactly and must have an exact structure as expected by the migration framework, see official...
 - `GetCompaniesTableName(): Text`: Returns the table name of the companies table. This table is used to get the list of the companies for the cloud migration. Companies table exists only in the source database. It can have any name, but it must have 2 fields : [Name] [nvarchar] 30, [Display Name] [nvarchar] 250. [Name] must be primar...
 - `ShowConfigureMigrationTablesMappingStep(): Boolean`: Indicates whether to show the "Configure Migration Tables Mapping" step in the cloud migration wizard. Default value should be to return false, unless there is a need to allow users to change the values provided by the interfaces above.
+
+## Implemented by
+
+- [Codeunit 40034 "Custom Migration Provider"](../codeunit/40034.md)
+- [Codeunit 46850 "BC14 Migration Provider"](../codeunit/46850.md)
+- [Enum 4010 "Custom Migration Provider"](../enum/4010.md)
 
 ## Ask your agent
 
@@ -90,7 +100,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

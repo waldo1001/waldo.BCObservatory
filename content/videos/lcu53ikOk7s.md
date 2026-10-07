@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:36:46.733Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
     quote: If I want to outright block the deletion of the account, I'll have to use the third setting called block deletion of GL account.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics: []
   localizations: []
@@ -180,9 +181,9 @@ It walks through three settings. Check G/L Account Usage blocks deletion of acco
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "general ledger setup" at [0:29](https://www.youtube.com/watch?v=lcu53ikOk7s&t=29s)
+- [page 118 "General Ledger Setup"](../objects/page/118.md) at [0:29](https://www.youtube.com/watch?v=lcu53ikOk7s&t=29s)
 
 ## Quotes
 

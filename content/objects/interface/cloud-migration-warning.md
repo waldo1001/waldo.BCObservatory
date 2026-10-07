@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 59da9332f74c9d5ff38ef999539a10c8ce5724f936d4d002b511995a8960870d
+  input_hash: 6471cce70aab46fe91594ae5e94e19c3a6d3dd1b9b153875464d9dc1fec159a1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al
     title: src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,13 +66,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 5
 ---
 
 # Interface "Cloud Migration Warning"
 
 > Interface "Cloud Migration Warning" in HybridBaseDeployment (Microsoft.DataMigration). 5 public procedures. Introduced in BC29, still in BC30.
 
-HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al) · facts from BC29
+HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -81,6 +85,14 @@ HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at 030de38
 - `ShowWarning(var CloudMigrationWarning: Record "Cloud Migration Warning"): Text`
 - `GetWarningMessage(): Text[1024]`
 - `GetWarningCount(): Integer`
+
+## Implemented by
+
+- [Codeunit 40023 "Record Link Migration Warning"](../codeunit/40023.md)
+- [Codeunit 40024 "Tenant Media Warning"](../codeunit/40024.md)
+- [Codeunit 40031 "Migration Validator Warning"](../codeunit/40031.md)
+- [Codeunit 46857 "BC14 Balance Warning"](../codeunit/46857.md)
+- [Enum 40010 "Cloud Migration Warning Type"](../enum/40010.md)
 
 ## Ask your agent
 
@@ -91,7 +103,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

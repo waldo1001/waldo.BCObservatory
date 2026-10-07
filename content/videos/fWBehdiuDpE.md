@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:38.037Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,7 +193,7 @@ Erik Hougaard explains why he used an LLM to translate Business Central apps and
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "app.json" at [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s)
 - other "XLIFF file" at [4:40](https://www.youtube.com/watch?v=fWBehdiuDpE&t=280s)

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:01:40.784Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -204,9 +204,11 @@ The video walks through setup and then demos it: the vendor card, a purchase inv
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "self-billing invoice" at [4:12](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=252s)
+
+Not found in BC28-30: report "self-billing invoice".
 
 ## Quotes
 

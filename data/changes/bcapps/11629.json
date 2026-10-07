@@ -80,7 +80,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa",
+    "commit": "ad9b529a78c818ba25c24aecd093442a6c7a3852",
     "objects": [
       {
         "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
@@ -105,6 +105,17 @@
         "page": "codeunit/10675-no"
       },
       {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryByDoc.Query.al",
+        "status": "added",
+        "key": "query/10671",
+        "type": "query",
+        "id": 10671,
+        "name": "SAF-T G/L Entry By Doc.",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "query/10671-no"
+      },
+      {
         "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTMappingCategory.Table.al",
         "status": "modified",
         "key": "table/10671",
@@ -127,13 +138,7 @@
         "page": "codeunit/10671-no"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryByDoc.Query.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "finance"

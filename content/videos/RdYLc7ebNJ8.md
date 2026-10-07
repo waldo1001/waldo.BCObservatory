@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:44:00.327Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,9 +200,11 @@ The changes covered are a more compact title area, a separate internal descripti
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - report "income statement" at [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s)
+
+More than one object has this name, so none is linked: report "income statement".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:07:49.867Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -296,12 +296,14 @@ The session covers the toolkit interface, test suites, the data set format, the 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - codeunit "AAT test context" at [13:25](https://www.youtube.com/watch?v=eA7CENx7se0&t=805s)
 - codeunit "AI test context" at [13:25](https://www.youtube.com/watch?v=eA7CENx7se0&t=805s)
 - codeunit "AI test" at [15:51](https://www.youtube.com/watch?v=eA7CENx7se0&t=951s)
 - page "AI test suites" at [17:48](https://www.youtube.com/watch?v=eA7CENx7se0&t=1068s)
+
+Not found in BC28-30: codeunit "AAT test context", codeunit "AI test context", codeunit "AI test", page "AI test suites".
 
 ## Quotes
 

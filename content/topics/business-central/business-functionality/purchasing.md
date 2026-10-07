@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -431,6 +431,7 @@ links:
     - change/bcapps/11274
     - change/bcapps/11339
     - change/bcapps/11367
+    - change/bcapps/11436
     - change/bcapps/11560
     - change/bcapps/9044
     - change/bcapps/9084
@@ -619,6 +620,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11274 [Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11274.md) (code change): "Fixed an issue where undoing shipments failed with blank Bin Code"
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Fixed an issue where undoing a shipment would fail when a bin code was blank"
+- [#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../changes/bcapps/11436.md) (code change): "Purchase invoice lines of G/L Account type now correctly recalculate VAT-related amounts"
 - [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"

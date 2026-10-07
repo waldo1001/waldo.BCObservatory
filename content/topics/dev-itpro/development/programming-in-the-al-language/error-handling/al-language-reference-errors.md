@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T21:13:11.969Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 79f3eb288cfa219f48ce10bd775c8d20822449767fd9fb9508c269563d9ae196
@@ -27,28 +27,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-error-errorinfo-method
     title: Dialog.Error(ErrorInfo) Method
-    date: "2025-02-18"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-error-string-joker-method
     title: Dialog.Error(Text [, Any,...]) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-loginternalerror-string-dataclassification-verbosity-method
     title: Dialog.LogInternalError(Text, DataClassification, Verbosity) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-loginternalerror-string-string-dataclassification-verbosity-method
     title: Dialog.LogInternalError(Text, Text, DataClassification, Verbosity) Method
-    date: "2024-08-26"
+    date: "2026-10-01"
     commit: null
     t: null
     quote: null

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 54f878a537d7f16629203857870d4d0a8301bf9c1ab8510e95f6df288b3f0917
+  input_hash: e9da9cbbe1dbf8e9de92669b434c24e907b9498f83e8abfade67c260e8afb450
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al
     title: src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -67,17 +67,66 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 42
 ---
 
 # Interface "IPdfDocumentHandler"
 
 > Interface "IPdfDocumentHandler" in Base Application (Microsoft.EServices.EDocument). 1 public procedures. Introduced in BC28, still in BC30.
 
-Base Application · Microsoft.EServices.EDocument · BC28-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al) · facts from BC29
+Base Application · Microsoft.EServices.EDocument · BC28-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `GeneratePdfBlobWithDocumentType(DocumentId: Guid; DocumentType: Enum "Attachment Entity Buffer Document Type"; var TempAttachmentEntityBuffer: Record "Attachment Entity Buffer" temporary): Boolean`
+
+## Implemented by
+
+- [Codeunit 4999 "Return Shpt. PDF Doc.Handler"](../codeunit/4999.md)
+- [Codeunit 5001 "Bl. S. Order PDF Doc.Handler"](../codeunit/5001.md)
+- [Codeunit 5002 "Bl. P. Order PDF Doc.Handler"](../codeunit/5002.md)
+- [Codeunit 5003 "S. Ret. Order PDF Doc.Handler"](../codeunit/5003.md)
+- [Codeunit 5004 "Sales Shipment PDF Doc.Handler"](../codeunit/5004.md)
+- [Codeunit 5006 "Purch. Quote PDF Doc.Handler"](../codeunit/5006.md)
+- [Codeunit 5007 "Purch. Rcpt. PDF Doc.Handler"](../codeunit/5007.md)
+- [Codeunit 5008 "Return Receipt PDF Doc.Handler"](../codeunit/5008.md)
+- [Codeunit 5009 "P. Ret. Order PDF Doc.Handler"](../codeunit/5009.md)
+- [Codeunit 5017 "Trans. Order PDF Doc.Handler"](../codeunit/5017.md)
+- [Codeunit 5018 "Trans. Shpt. PDF Doc.Handler"](../codeunit/5018.md)
+- [Codeunit 5019 "Trans. Rcpt. PDF Doc.Handler"](../codeunit/5019.md)
+- [Codeunit 5020 "S.Arch.Quote PDF Doc.Handler"](../codeunit/5020.md)
+- [Codeunit 5021 "S.Arch.Order PDF Doc.Handler"](../codeunit/5021.md)
+- [Codeunit 5022 "P.Arch.Quote PDF Doc.Handler"](../codeunit/5022.md)
+- [Codeunit 5023 "P.Arch.Order PDF Doc.Handler"](../codeunit/5023.md)
+- [Codeunit 5024 "S.Arch.Return PDF Doc.Handler"](../codeunit/5024.md)
+- [Codeunit 5025 "P.Arch.Return PDF Doc.Handler"](../codeunit/5025.md)
+- [Codeunit 5026 "Asm. Order PDF Doc.Handler"](../codeunit/5026.md)
+- [Codeunit 5027 "P.Asm. Order PDF Doc.Handler"](../codeunit/5027.md)
+- [Codeunit 5028 "S.Arch.Bl.Ord PDF Doc.Handler"](../codeunit/5028.md)
+- [Codeunit 5029 "P.Arch.Bl.Ord PDF Doc.Handler"](../codeunit/5029.md)
+- [Codeunit 5030 "Phys.Inv.Ord. PDF Doc.Handler"](../codeunit/5030.md)
+- [Codeunit 5031 "P.Phys.InvOrd PDF Doc.Handler"](../codeunit/5031.md)
+- [Codeunit 5032 "Phys.Inv.Rec. PDF Doc.Handler"](../codeunit/5032.md)
+- [Codeunit 5033 "P.Phys.InvRec PDF Doc.Handler"](../codeunit/5033.md)
+- [Codeunit 5034 "Inv. Shpt. PDF Doc.Handler"](../codeunit/5034.md)
+- [Codeunit 5035 "Inv. Rcpt. PDF Doc.Handler"](../codeunit/5035.md)
+- [Codeunit 5036 "P.Inv. Shpt. PDF Doc.Handler"](../codeunit/5036.md)
+- [Codeunit 5037 "P.Inv. Rcpt. PDF Doc.Handler"](../codeunit/5037.md)
+- [Codeunit 5038 "P.Direct Trans PDF Doc.Handler"](../codeunit/5038.md)
+- [Codeunit 5440 "Default PDF Doc.Handler"](../codeunit/5440.md)
+- [Codeunit 5441 "Sales Order PDF Doc.Handler"](../codeunit/5441.md)
+- [Codeunit 5444 "Sales Cr.Memo PDF Doc.Handler"](../codeunit/5444.md)
+- [Codeunit 5445 "Cust. St. PDF Doc.Handler"](../codeunit/5445.md)
+- [Codeunit 5446 "Purch. Invoice PDF Doc.Handler"](../codeunit/5446.md)
+- [Codeunit 5447 "Purch. Cr.Memo PDF Doc.Handler"](../codeunit/5447.md)
+- [Codeunit 5449 "Sales Quote PDF Doc.Handler"](../codeunit/5449.md)
+- [Codeunit 5450 "Sales Invoice PDF Doc.Handler"](../codeunit/5450.md)
+- [Codeunit 5453 "Purch. Order PDF Doc.Handler"](../codeunit/5453.md)
+- [Codeunit 5454 "Project PDF Doc.Handler"](../codeunit/5454.md)
+- [Enum 135 "Attachment Entity Buffer Document Type"](../enum/135.md)
 
 ## Ask your agent
 
@@ -88,7 +137,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC28-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

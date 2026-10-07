@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:24:56.798Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,9 @@ evidence:
     quote: post energy consump consumption even when emission do not have a value in general without enabling
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6219
+    - object/page/6220
   features: []
   topics: []
   localizations: []
@@ -195,13 +197,15 @@ It walks through setting up energy sources and the mandatory-entry rules, the po
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Sustainability Account Subcategory" at [1:49](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=109s)
 - page "Sustainability Hub" at [4:36](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=276s)
 - page "Chart of Sustainability Accounts" at [4:36](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=276s)
-- page "Sustainability Journal" at [5:29](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=329s)
-- page "Sustainability Ledger Entries" at [6:03](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=363s)
+- [page 6219 "Sustainability Journal"](../objects/page/6219.md) at [5:29](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=329s)
+- [page 6220 "Sustainability Ledger Entries"](../objects/page/6220.md) at [6:03](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=363s)
+
+Not found in BC28-30: table "Sustainability Account Subcategory", page "Sustainability Hub", page "Chart of Sustainability Accounts".
 
 ## Quotes
 

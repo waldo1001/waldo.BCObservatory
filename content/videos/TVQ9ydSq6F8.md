@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:00:48.952Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,11 +184,13 @@ It also covers the limits. Resources are only accessible from the app that owns 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Recipe data storage table" at [1:38](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=98s)
 - page "Recipe display page" at [1:38](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=98s)
 - other "recipe index Json" at [2:19](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=139s)
+
+Not found in BC28-30: table "Recipe data storage table", page "Recipe display page".
 
 ## Quotes
 

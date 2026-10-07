@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:20:20.092Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,7 +132,9 @@ evidence:
     quote: all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/9308
+    - object/page/56
   features: []
   topics: []
   localizations: []
@@ -372,7 +374,7 @@ The presenters say most features come with major version 25. The updated demo da
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Sustainability Accounts Chart" at [2:21](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=141s)
 - table "Sustainability Scorecards" at [7:46](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=466s)
@@ -380,10 +382,12 @@ As heard in the captions; not yet verified against the code pillar.
 - table "Emission Fees" at [10:05](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=605s)
 - table "Sustainability Ledger Entries" at [2:42](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=162s)
 - other "Sustainability Journals" at [2:42](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=162s)
-- page "Purchase Invoices" at [12:35](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=755s)
-- page "Purchase Orders" at [4:10](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=250s)
+- [page 9308 "Purchase Invoices"](../objects/page/9308.md) at [12:35](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=755s)
+- [page 56 "Purchase Orders"](../objects/page/56.md) at [4:10](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=250s)
 - table "sustainability accounts" at [17:08](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1028s)
 - table "statistic accounts" at [17:48](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1068s)
+
+Not found in BC28-30: table "Sustainability Scorecards", table "Sustainability Goals", table "Emission Fees", table "Sustainability Ledger Entries", table "sustainability accounts", table "statistic accounts".
 
 ## Quotes
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:28:29.152Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,7 +199,7 @@ It then introduces custom templates: a custom template is itself an AL-Go reposi
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "CI/CD workflow" at [1:47](https://www.youtube.com/watch?v=vm3sTuXdUho&t=107s)
 - other "settings file" at [3:54](https://www.youtube.com/watch?v=vm3sTuXdUho&t=234s)

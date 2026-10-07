@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 55ce1f8f3b488f4fb59ca9131b01d4a4508d75ef737592c5117e5992f8424f79
+  input_hash: 9b8024775fc0ce525f16a58799c1844030bf917d9e8f5ecdd064e6953e5bab50
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al
     title: src/Apps/W1/Email - SMTP API/app/src/Authentication/SMTPAuth.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,13 +66,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 5
 ---
 
 # Interface "SMTP Auth"
 
 > Interface "SMTP Auth" in Email - SMTP API (System.Email). 1 public procedures. Introduced in BC29, still in BC30.
 
-Email - SMTP API · System.Email · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al) · facts from BC29
+Email - SMTP API · System.Email · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -84,6 +88,14 @@ Email - SMTP API · System.Email · BC29-30 · [source at 030de383](https://gith
 
 - `Authenticate(SmtpClient: DotNet SmtpClient; var SMTPAuthentication: Codeunit "SMTP Authentication")`: Authenticate the SMTP client with the SMTP account.
 
+## Implemented by
+
+- [Codeunit 4616 "OAuth2 SMTP Auth"](../codeunit/4616.md)
+- [Codeunit 4617 "Basic SMTP Auth"](../codeunit/4617.md)
+- [Codeunit 4618 "Anonymous SMTP Auth"](../codeunit/4618.md)
+- [Codeunit 4619 "NTLM SMTP Auth"](../codeunit/4619.md)
+- [Enum 4611 "SMTP Authentication Types"](../enum/4611.md)
+
 ## Ask your agent
 
 Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
@@ -93,7 +105,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

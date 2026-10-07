@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:46:55.157Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,7 +139,11 @@ evidence:
     quote: this is only supported in the latest version of the mobile app that is version 4.0 and also is only supported in the new
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6530
+    - object/page/6531
+    - object/page/6510
+    - object/page/902
   features: []
   topics: []
   localizations: []
@@ -379,13 +383,13 @@ Most of the session is about barcode scanning. It explains the approaches (camer
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "item inquiry" at [13:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=822s)
-- page "item bin content inquiry" at [13:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=822s)
-- page "item tracking lines" at [11:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=702s)
+- [page 6530 "Item Inquiry"](../objects/page/6530.md) at [13:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=822s)
+- [page 6531 "Item Bin Content Inquiry"](../objects/page/6531.md) at [13:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=822s)
+- [page 6510 "Item Tracking Lines"](../objects/page/6510.md) at [11:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=702s)
 - page "serial number information card" at [12:02](https://www.youtube.com/watch?v=KYsrBoHVA70&t=722s)
-- page "assembly orders" at [11:35](https://www.youtube.com/watch?v=KYsrBoHVA70&t=695s)
+- [page 902 "Assembly Orders"](../objects/page/902.md) at [11:35](https://www.youtube.com/watch?v=KYsrBoHVA70&t=695s)
 - page "warehouse worker role center" at [13:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=822s)
 - other "extended data type property equals barcode" at [7:57](https://www.youtube.com/watch?v=KYsrBoHVA70&t=477s)
 - other "barcode scanning provider" at [16:53](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1013s)
@@ -393,6 +397,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "barcode failure function" at [17:33](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1053s)
 - other "barcode scanner provider" at [20:09](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1209s)
 - other "barcode received trigger" at [20:30](https://www.youtube.com/watch?v=KYsrBoHVA70&t=1230s)
+
+Not found in BC28-30: page "serial number information card", page "warehouse worker role center".
 
 ## Quotes
 

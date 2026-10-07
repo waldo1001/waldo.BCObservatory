@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:29:21.273Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,8 @@ evidence:
     quote: With agent permissions and profiles, Business Central administrators stay in full control of the agents access.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/4315
   features: []
   topics: []
   localizations: []
@@ -199,9 +200,9 @@ It walks through the pre-built agent profile and permission set, how to customiz
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "agent card" at [0:47](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=47s)
+- [page 4315 "Agent Card"](../objects/page/4315.md) at [0:47](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=47s)
 - other "agent log entries" at [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s)
 
 ## Quotes

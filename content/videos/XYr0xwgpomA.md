@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:28:38.617Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,7 +51,11 @@ evidence:
     quote: user can choose to send approval request or to cancel approval request
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/6219
+    - object/page/832
+    - object/page/1500
+    - object/page/663
   features: []
   topics: []
   localizations: []
@@ -158,12 +162,12 @@ It then goes through the setup and shows a live demonstration. Users send or can
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "Sustainability journal" at [2:36](https://www.youtube.com/watch?v=XYr0xwgpomA&t=156s)
-- page "Approvals" at [2:54](https://www.youtube.com/watch?v=XYr0xwgpomA&t=174s)
-- page "Workflows" at [2:04](https://www.youtube.com/watch?v=XYr0xwgpomA&t=124s)
-- page "Approval user setup" at [2:17](https://www.youtube.com/watch?v=XYr0xwgpomA&t=137s)
+- [page 6219 "Sustainability Journal"](../objects/page/6219.md) at [2:36](https://www.youtube.com/watch?v=XYr0xwgpomA&t=156s)
+- [page 832 "Approvals"](../objects/page/832.md) at [2:54](https://www.youtube.com/watch?v=XYr0xwgpomA&t=174s)
+- [page 1500 "Workflows"](../objects/page/1500.md) at [2:04](https://www.youtube.com/watch?v=XYr0xwgpomA&t=124s)
+- [page 663 "Approval User Setup"](../objects/page/663.md) at [2:17](https://www.youtube.com/watch?v=XYr0xwgpomA&t=137s)
 
 ## Quotes
 

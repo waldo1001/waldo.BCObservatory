@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T16:23:11.326Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b7bce92547d3f3d69650e8f42ba2475fcc2d2ef68ed63dc27b6023ec30923851
+  input_hash: 905fcc91f0d4bf2c87c8fd4d01a7bd4ea9ee5b83a461fc812fef80e88f774b6b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,13 +72,17 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 10
 ---
 
 # Interface "Line With Price"
 
 > Interface "Line With Price" in Base Application (Microsoft.Pricing.PriceList). 16 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.PriceList · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.PriceList · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -99,6 +103,19 @@ Base Application · Microsoft.Pricing.PriceList · BC23-30 · [source at 030de38
 - `SetPrice(AmountType: enum "Price Amount Type"; PriceListLine: Record "Price List Line")`: After calculation is done, and the right price list line is found this method copies required fields to the internal record line. The amount type defines what amount will be copied.
 - `ValidatePrice(AmountType: enum "Price Amount Type")`: The method SetPrice() copies amounts to the internal record line. This method calls the validation triggers on the amount defined by AmountType parameter.
 
+## Implemented by
+
+- [Codeunit 7020 "Sales Line - Price"](../codeunit/7020.md)
+- [Codeunit 7021 "Purchase Line - Price"](../codeunit/7021.md)
+- [Codeunit 7022 "Item Journal Line - Price"](../codeunit/7022.md)
+- [Codeunit 7023 "Job Journal Line - Price"](../codeunit/7023.md)
+- [Codeunit 7024 "Job Planning Line - Price"](../codeunit/7024.md)
+- [Codeunit 7025 "Requisition Line - Price"](../codeunit/7025.md)
+- [Codeunit 7026 "Service Line - Price"](../codeunit/7026.md)
+- [Codeunit 7027 "Std. Item Jnl. Line - Price"](../codeunit/7027.md)
+- [Codeunit 7028 "Res. Journal Line - Price"](../codeunit/7028.md)
+- [Codeunit 7029 "Price List Line - Price"](../codeunit/7029.md)
+
 ## Ask your agent
 
 Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
@@ -108,7 +125,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

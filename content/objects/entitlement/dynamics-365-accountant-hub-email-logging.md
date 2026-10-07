@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1af1859cb92d2f72323418930a931c59cb1843df3a6c2dc4a561c865548304f8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AccountantHubEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AccountantHubEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AccountantHubEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -66,13 +66,16 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
 ---
 
 # Entitlement "Dynamics 365 - Accountant Hub Email Logging"
 
 > Entitlement "Dynamics 365 - Accountant Hub Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AccountantHubEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AccountantHubEmailLogging.Entitlement.al) · facts from BC29
 
 ## Ask your agent
 
@@ -83,7 +86,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC29, BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

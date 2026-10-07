@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:24.493Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -483,7 +483,7 @@ The second half covers the ALMCP server and AL CLI tool (.NET tools installable 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "page (shown in demo for JSON parsing)" at [7:12](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=432s)
 - codeunit "process from JSON method" at [7:23](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=443s)
@@ -498,6 +498,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "BC fix implement" at [30:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1857s)
 - other "BC fix supplement" at [31:27](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1887s)
 - other "BC test implement" at [30:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1857s)
+
+Not found in BC28-30: page "page (shown in demo for JSON parsing)", codeunit "process from JSON method", table "customer table".
 
 ## Quotes
 

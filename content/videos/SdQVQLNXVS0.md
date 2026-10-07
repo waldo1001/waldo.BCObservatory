@@ -24,7 +24,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:47:31.298Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,9 @@ evidence:
     quote: Consumption and output journals now feature tracking and lines like the item journal.
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/99000852
+    - object/page/99000768
   features: []
   topics: []
   localizations: []
@@ -239,13 +241,15 @@ Most items are demoed. Production orders can be moved between statuses in bulk, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "planning worksheet" at [0:16](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=16s)
-- page "manufacturing setup" at [1:09](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=69s)
+- [page 99000852 "Planning Worksheet"](../objects/page/99000852.md) at [0:16](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=16s)
+- [page 99000768 "Manufacturing Setup"](../objects/page/99000768.md) at [1:09](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=69s)
 - page "manufacturing setup page" at [1:31](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=91s)
 - table "item card" at [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s)
 - other "item journal" at [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s)
+
+Not found in BC28-30: page "manufacturing setup page", table "item card".
 
 ## Quotes
 

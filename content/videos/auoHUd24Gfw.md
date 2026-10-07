@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T19:52:56.027Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -248,7 +248,7 @@ It then explains the multi-company feature. A custom Dataverse mapping plugin an
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - table "Sales Invoice virtual table" at [6:06](https://www.youtube.com/watch?v=auoHUd24Gfw&t=366s)
 - table "Contacts table" at [11:11](https://www.youtube.com/watch?v=auoHUd24Gfw&t=671s)
@@ -257,6 +257,8 @@ As heard in the captions; not yet verified against the code pillar.
 - other "Business Central configuration app" at [12:13](https://www.youtube.com/watch?v=auoHUd24Gfw&t=733s)
 - table "Mapping table" at [13:14](https://www.youtube.com/watch?v=auoHUd24Gfw&t=794s)
 - table "User table" at [12:33](https://www.youtube.com/watch?v=auoHUd24Gfw&t=753s)
+
+Not found in BC28-30: table "Sales Invoice virtual table", table "Contacts table", table "Item table", table "Sales Order virtual table", table "Mapping table", table "User table".
 
 ## Quotes
 

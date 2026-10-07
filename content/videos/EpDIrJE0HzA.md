@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:18:49.466Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,9 +185,11 @@ The demo sets up data, configures MCP in Business Central, publishes the agent, 
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - page "MCP Configurations" at [2:52](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=172s)
+
+Not found in BC28-30: page "MCP Configurations".
 
 ## Quotes
 

@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:04:52.869Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,11 @@ evidence:
     quote: These are coming in 28.x. So, for sales we aim to have analysis views on sales orders on for security related pages on the
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/25
+    - object/page/595
+    - object/page/38
+    - object/page/48
   features: []
   topics: []
   localizations: []
@@ -215,15 +219,17 @@ The demo then shows the result in a deployed environment. Shipped views appear r
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- page "customer ledger entries" at [2:11](https://www.youtube.com/watch?v=Afv-r-eDt90&t=131s)
-- page "change log entries" at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
+- [page 25 "Customer Ledger Entries"](../objects/page/25.md) at [2:11](https://www.youtube.com/watch?v=Afv-r-eDt90&t=131s)
+- [page 595 "Change Log Entries"](../objects/page/595.md) at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
 - page "user lists" at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
 - page "GL register" at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
 - page "fixed asset ledgers" at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
-- page "item ledger entries" at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
-- page "sales orders" at [7:50](https://www.youtube.com/watch?v=Afv-r-eDt90&t=470s)
+- [page 38 "Item Ledger Entries"](../objects/page/38.md) at [8:06](https://www.youtube.com/watch?v=Afv-r-eDt90&t=486s)
+- [page 48 "Sales Orders"](../objects/page/48.md) at [7:50](https://www.youtube.com/watch?v=Afv-r-eDt90&t=470s)
+
+Not found in BC28-30: page "user lists", page "GL register", page "fixed asset ledgers".
 
 ## Quotes
 

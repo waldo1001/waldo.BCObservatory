@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:41:54.647Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -67,7 +67,9 @@ evidence:
     quote: the bring your own key concept, so you can choose where where you want to get your AI from
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/3
+    - object/table/18
   features: []
   topics: []
   localizations: []
@@ -233,12 +235,14 @@ The demo covers Business Central date functions in cells (TODAY, WORKDATE, CALCD
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Payment Terms" at [3:44](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=224s)
+- [table 3 "Payment Terms"](../objects/table/3.md) at [3:44](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=224s)
 - table "Posted Sales Headers" at [14:52](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=892s)
-- table "Customer" at [15:06](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=906s)
+- [table 18 "Customer"](../objects/table/18.md) at [15:06](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=906s)
 - table "Ledger Entries" at [15:06](https://www.youtube.com/watch?v=1QuV_vkbNVU&t=906s)
+
+Not found in BC28-30: table "Posted Sales Headers", table "Ledger Entries".
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:51:21.508Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -680,13 +680,15 @@ The presenters also cover common errors and fixes. Topics include connection str
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - other "Invoke-NavSanitizeField" at [10:22](https://www.youtube.com/watch?v=lCXrKdxneKo&t=622s)
 - page "data archive page" at [11:14](https://www.youtube.com/watch?v=lCXrKdxneKo&t=674s)
 - table "cloud migration management" at [29:00](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1740s)
 - table "tenant media" at [30:41](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1841s)
 - other "is full copy" at [31:22](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1882s)
+
+Not found in BC28-30: page "data archive page", table "cloud migration management", table "tenant media".
 
 ## Quotes
 

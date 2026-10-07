@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:17:55.042Z"
+  at: "2026-10-07T21:12:03.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,7 +167,8 @@ evidence:
     quote: those events are also pushed into partner tary in app Insight uh we have I have set up uh my app insight in this
 links:
   learn: []
-  objects: []
+  objects:
+    - object/table/200
   features: []
   topics: []
   localizations: []
@@ -445,9 +446,9 @@ The second half covers synthetic relationships between synced tables and virtual
 
 ## AL objects mentioned
 
-As heard in the captions; not yet verified against the code pillar.
+As heard in the captions. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- table "Work Type" at [11:21](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=681s)
+- [table 200 "Work Type"](../objects/table/200.md) at [11:21](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=681s)
 - table "Pay Type" at [11:21](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=681s)
 - table "Field Service Resource Pay Type" at [11:48](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=708s)
 - table "sales shipment virtual table" at [15:29](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=929s)
@@ -458,6 +459,8 @@ As heard in the captions; not yet verified against the code pillar.
 - table "app name company mappings" at [29:14](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1754s)
 - table "user table" at [28:19](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1699s)
 - page "business event subscription" at [38:21](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=2301s)
+
+Not found in BC28-30: table "Pay Type", table "Field Service Resource Pay Type", table "sales shipment virtual table", table "sales invoice virtual table", table "mapping table", table "app name company mappings", table "user table", page "business event subscription".
 
 ## Quotes
 

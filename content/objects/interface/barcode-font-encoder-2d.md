@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 74411524f3c46303514db4319f32c4bf6591f90ac042554f691cd4ad87e799d1
+  input_hash: f44df8df2e5a7e782841d87f922fa7ce3242d05eee716d033a1b284b0d7b9d17
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al
     title: src/System Application/App/Barcode/src/Barcode Provider 2D/Font/BarcodeFontEncoder2D.Interface.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -72,17 +72,29 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 0
+  implements: 0
+  implemented_by: 5
 ---
 
 # Interface "Barcode Font Encoder 2D"
 
 > Interface "Barcode Font Encoder 2D" in System Application (System.Text). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Text · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al) · facts from BC29
+System Application · System.Text · BC23-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `EncodeFont(InputText: Text): Text`
+
+## Implemented by
+
+- [Codeunit 9216 "IDA 2D Aztec Encoder"](../codeunit/9216.md)
+- [Codeunit 9217 "IDA 2D Data Matrix Encoder"](../codeunit/9217.md)
+- [Codeunit 9218 "IDA 2D Maxi Code Encoder"](../codeunit/9218.md)
+- [Codeunit 9219 "IDA 2D PDF417 Encoder"](../codeunit/9219.md)
+- [Codeunit 9220 "IDA 2D QR-Code Encoder"](../codeunit/9220.md)
 
 ## Ask your agent
 
@@ -93,7 +105,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

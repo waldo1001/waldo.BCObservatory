@@ -2,7 +2,7 @@
 id: object/controladdin/powerbimanagement
 type: object
 title: Control add-in "PowerBIManagement"
-summary: Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25, BC26, BC28.
+summary: Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25-26, BC28.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T21:07:03.029Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4f2bd322eab491ecda9e35073d2670aada7dcd425a1fd024abfe2c53e226eabf
+  input_hash: 733253ac0344dc0a403283ea65c637233c7ba14533ba0b51db940a0c86e9a4f3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al (releases/29.x)
     date: null
-    commit: 030de38360c4aa828a650300faf93cd09fa139e1
+    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
     t: null
     quote: null
 links:
@@ -74,13 +74,16 @@ relations:
   pages: 0
   extended_by: 0
   event_subscribers: 0
+  calls: 0
+  called_by: 2
+  implements: 0
 ---
 
 # Control add-in "PowerBIManagement"
 
-> Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25, BC26, BC28.
+> Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25-26, BC28.
 
-System Application · System.Integration.PowerBI · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
+System Application · System.Integration.PowerBI · BC24-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
 
 ## Procedures
 
@@ -103,6 +106,13 @@ System Application · System.Integration.PowerBI · BC24-30 · [source at 030de3
 - `AddBottomPadding(AddPadding: Boolean)`: Controls whether the addin includes a bottom padding that makes it look nicer in some embedded scenarios. Defaults to false.
 - `SetSettings(ShowBookmarkSelection: Boolean; ShowFilters: Boolean; ShowPageSelection: Boolean; ShowZoomBar: Boolean; ForceTransparentBackground: Boolean; ForceFitToPage: Boolean; AddBottomPadding: Boolean)` (obsolete 26.0: Use SetBookmarksVisible, SetFiltersVisible, AddBottomPadding, SetTransparentBackground, and SetPageSelectionVisible instead. The other options are no longer supported.): Sets the properties for the embed experience
 
+## Called by
+
+From the extracted call graph of BC29 (graphify-al on the snapshot checkout): calls whose target is known from a declared type or an `Object::"Name"` argument. Interface dispatch and calls through events are not counted, so the list is not complete.
+
+- [Page 6324 "Power BI Element Addin Host"](../page/6324.md) (9 calls: `InitializeAddIn → AddBottomPadding`, `InitializeAddIn → EmbedPowerBIDashboard`, `InitializeAddIn → EmbedPowerBIDashboardTile`, …)
+- [Page 6325 "Power BI Embedded Report Part"](../page/6325.md) (9 calls: `PushFiltersToAddin → UpdateReportFilters`, `SetReport → EmbedPowerBIDashboard`, `SetReport → EmbedPowerBIDashboardTile`, …)
+
 ## Ask your agent
 
 Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
@@ -112,8 +122,8 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
-- Changed (declaration) in: BC25, BC26, BC28
+- Present in: BC24-30
+- Changed (declaration) in: BC25-26, BC28
 
 ## Deprecations
 
