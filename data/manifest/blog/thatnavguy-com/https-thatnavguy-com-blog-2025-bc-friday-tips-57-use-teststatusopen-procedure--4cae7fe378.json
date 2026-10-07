@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/",
   "published_at": "2025-11-21T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:23:05.910Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-57-use-teststatusopen-procedure--4cae7fe378.md",
+      "words": 101
+    },
+    "extracted": {
+      "at": "2026-10-07T01:23:05.915Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:23:05.916Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:23:05.917Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:23:05.921Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-57-use-teststatusopen-procedure--4cae7fe378.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13777d64701c042190cd98caecb38e303ba93c04ad3c5ad0118632c637839f4f"
 }

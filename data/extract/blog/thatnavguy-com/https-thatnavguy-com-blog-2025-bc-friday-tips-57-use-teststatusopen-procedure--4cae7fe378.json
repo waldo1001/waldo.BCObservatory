@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/",
+  "title": "BC Friday Tips #57 Use TestStatusOpen Procedure",
+  "source": "thatnavguy-com",
+  "published_at": "2025-11-21T00:00:00.000Z",
+  "words": 101,
+  "summary": "When adding new fields to Sales or Purchase documents in Business Central, use the TestStatusOpen procedure during validation to ensure fields cannot be edited after the document is released. This prevents accidental changes to important order data and maintains workflow consistency.",
+  "key_points": [
+    "TestStatusOpen procedure provides a standard check to validate document status before allowing field edits",
+    "Released Sales Orders lock documents and prevent editing of important fields like Shipment Method Code",
+    "Using TestStatusOpen when validating new fields prevents inconsistent field behavior across documents",
+    "Protects workflow accuracy by enforcing edit restrictions on released documents"
+  ],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "document management",
+    "field validation",
+    "order release",
+    "data protection",
+    "sales orders",
+    "purchase orders"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TestStatusOpen"
+    }
+  ],
+  "features": [
+    "TestStatusOpen procedure",
+    "field validation",
+    "document status checking",
+    "order locking"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use the TestStatusOpen procedure when you validate your new fields. It gives you a standard check on document status.",
+      "why_it_matters": "It provides the recommended method for validating field editability based on document release status"
+    },
+    {
+      "text": "A released Sales Order locks the document for processing.",
+      "why_it_matters": "Understanding document locking behavior is essential when adding custom fields that should respect this constraint"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

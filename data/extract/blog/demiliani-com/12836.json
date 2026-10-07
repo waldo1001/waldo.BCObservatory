@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/12836",
+  "url": "https://demiliani.com/2025/11/21/dynamics-365-business-central-use-sequential-guids-when-possible/",
+  "title": "Dynamics 365 Business Central: use sequential GUIDs when possible.",
+  "source": "demiliani-com",
+  "published_at": "2025-11-21T08:47:55.000Z",
+  "words": 892,
+  "summary": "Sequential GUIDs provide significant performance advantages over random GUIDs in Dynamics 365 Business Central by reducing index fragmentation and page splits. Starting with version 27, developers can use the CreateSequentialGuid method to optimize database performance when GUIDs are used as primary keys.",
+  "key_points": [
+    "Random GUIDs cause index fragmentation and expensive page splits when used as primary keys, with write costs 10x higher than integer keys on large tables",
+    "Sequential GUIDs insert data in order, keeping related records clustered and enabling the database to append to the index without reorganizing existing pages",
+    "Performance benchmarks showed 42% improvement on inserts and 31% on updates when switching from random to sequential GUIDs with 10 million records",
+    "Sequential GUIDs reduce storage overhead and improve cache locality, though they are more predictable than random GUIDs"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "guid",
+    "performance",
+    "indexing",
+    "database",
+    "al language",
+    "sql optimization"
+  ],
+  "objects": [],
+  "features": [
+    "CreateSequentialGuid method",
+    "GUID generation",
+    "Index fragmentation reduction",
+    "Primary key optimization",
+    "Page split reduction",
+    "Cache locality improvement"
+  ],
+  "versions": [
+    "27",
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The cost of writing GUID primary keys in a database containing 1,000,000 records is 10x the cost of writing INT primary keys.",
+      "why_it_matters": "Illustrates why random GUIDs should be avoided for primary keys in large tables"
+    },
+    {
+      "text": "Sequential GUIDs in this case was around 42% better on insert and around 31% better on updating records compared to using random GUIDs.",
+      "why_it_matters": "Provides real-world benchmark data demonstrating concrete performance improvements at scale"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
