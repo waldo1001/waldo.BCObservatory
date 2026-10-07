@@ -26,7 +26,7 @@ import { areaOf } from "../lib/systems.js";
 
 const log = logger("code-diff");
 /** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
-export const DERIVED_VERSION = 6; // 6: changed members as a delta (D62)
+export const DERIVED_VERSION = 7; // 7: object counts in every input (a re-extraction at the same commit re-derives); 6: changed members as a delta (D62)
 
 /**
  * A member that differs between two versions. Added: `to`. Removed: `from`. Changed: `to` is its new shape without its
@@ -293,7 +293,8 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
     run.version_diffs++;
     const out = resolve(root, "diffs", "version", `${a}__${b}.json`);
     // an older major's full copy is only in the runner's cache: without it the committed diff stays as it is
-    const inputs = [ma.commit, mb.commit, ma.extractor, mb.extractor];
+    // commit and extractor alone missed a re-extraction that found more files at the same commit (BC23/24, 2026-10-07)
+    const inputs = [ma.commit, mb.commit, ma.extractor, mb.extractor, ma.objects, mb.objects];
     if (!exists(out) || !same(readJson<{ inputs?: unknown }>(out).inputs, [DERIVED_VERSION, inputs])) {
       const [fa, fb] = [fullW1(a), fullW1(b)];
       if (!fa || !fb) { log.warn(`version diff ${a}__${b}: the full snapshot of ${fa ? b : a} is not in the cache; kept as committed`); continue; }
@@ -305,10 +306,10 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
     for (const cc of countriesOf(dataDir, m)) {
       const mc = manifestOf(dataDir, m, cc)!;
       run.country_diffs++;
-      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), lean(readSnapshot(dataDir, m, cc)), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)), "by-object")) run.written++;
+      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? [], mw.objects, mc.objects], () => countryDiff(w1(m), lean(readSnapshot(dataDir, m, cc)), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)), "by-object")) run.written++;
     }
     run.deprecations++;
-    if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor], () => {
+    if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor, mw.objects], () => {
       const list = deprecations(w1(m));
       const byTag: Record<string, number> = {};
       for (const d of list) byTag[d.tag ?? "untagged"] = (byTag[d.tag ?? "untagged"] ?? 0) + 1;
@@ -317,7 +318,7 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
     // relations between the objects of W1 + first-party apps (D45)
     const ma = manifestOf(dataDir, m, APPS);
     run.relations = (run.relations ?? 0) + 1;
-    if (writeIfInputsChanged(resolve(root, "relations", `${m}.json`), [mw.commit, mw.extractor, ma?.commit ?? null, ma?.extractor ?? null], () => {
+    if (writeIfInputsChanged(resolve(root, "relations", `${m}.json`), [mw.commit, mw.extractor, mw.objects, ma?.commit ?? null, ma?.extractor ?? null, ma?.objects ?? null], () => {
       // streamed, never held: the two snapshots of a major are a gigabyte of objects in memory (D51)
       cache.clear();
       const parts = [{ w1: true, objects: () => iterSnapshot(dataDir, m, "w1") }];
@@ -342,7 +343,7 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
       countryMatrix([...newest].sort(([a], [b]) => a.localeCompare(b)).map(([cc, { m }]) => ({ cc, diff: readJson<AlDiff>(resolve(root, "diffs", "country", `${m}-${cc}.json`)) }))));
     if (run.matrix) run.written++;
   }
-  const inputs = [DERIVED_VERSION, ...all.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit])];
+  const inputs = [DERIVED_VERSION, ...all.map((m) => { const mw = manifestOf(dataDir, m, "w1")!; return [m, mw.commit, mw.objects]; })];
   const tlDir = resolve(root, "timelines");
   const stamp = resolve(tlDir, "_inputs.json");
   if (!exists(stamp) || !same(readJson(stamp), inputs)) {
