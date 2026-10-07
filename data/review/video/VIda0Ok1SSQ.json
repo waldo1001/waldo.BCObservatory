@@ -1,0 +1,25 @@
+{
+  "video_id": "VIda0Ok1SSQ",
+  "item_id": "video/yt-microsoft/VIda0Ok1SSQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'The override applies only to users configured for it' goes beyond the transcript, which only says one user can be enabled through user setup. I replaced it with the demo detail that the company-wide window covers 2023.",
+    "All four quotes appear verbatim in the transcript. Some run on into the next segment, which is acceptable.",
+    "Leaving all features as 'unclear' is correct because the transcript never says whether anything is in preview or generally available.",
+    "The summary is supported by the transcript."
+  ],
+  "input_hash": "d45c3e624e4956c7a4c78056497036b147765cd9730909857cf10495dc1ed207",
+  "by": "opus",
+  "at": "2026-10-07T23:14:16.493Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033681
+  }
+}

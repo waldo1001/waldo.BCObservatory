@@ -2,7 +2,7 @@
 id: video/BZF4MrVfvfY
 type: video
 title: "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)"
-summary: "G/L allocation accounts in Business Central (2023 release wave 2): fixed, variable (based on statistical accounts) and inherit-from-parent allocation types. Covers setup, use in general journals, deferrals and purchase invoices, manual adjustment, and extensibility events."
+summary: G/L allocation accounts in Business Central 2023 release wave 2 come in three types. Fixed uses predefined percentages, variable uses G/L account balances or statistical accounts with global dimension filters, and inherit from parent reuses an existing G/L account with an allocation key. They work in general and recurring journals, with deferrals and in sales and purchase documents. Proposed splits can be adjusted before posting, and developers can extend them through integration events.
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - dimensions
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:18.969Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:19.006Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,14 +66,7 @@ evidence:
     date: "2023-12-20T08:08:44.000Z"
     commit: null
     t: 823
-    quote: you can change this one by defining share and this is a UI pattern that we are using in the business Central which which
-  - kind: video
-    url: https://www.youtube.com/watch?v=BZF4MrVfvfY&t=823s
-    title: "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)"
-    date: "2023-12-20T08:08:44.000Z"
-    commit: null
-    t: 823
-    quote: this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy
+    quote: helps you to change the percentages in an easy way and ensure that they are always adding up to 100
   - kind: video
     url: https://www.youtube.com/watch?v=BZF4MrVfvfY&t=906s
     title: "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)"
@@ -268,10 +261,7 @@ quotes:
     text: allocation is done uh because you want better uh data for uh a later analysis of of your your business
     check: exact
   - t: 823
-    text: you can change this one by defining share and this is a UI pattern that we are using in the business Central which which
-    check: exact
-  - t: 823
-    text: this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy
+    text: helps you to change the percentages in an easy way and ensure that they are always adding up to 100
     check: exact
   - t: 906
     text: in the background we are calculating it up to five decimals so these calculations are going to be very accurate and we are also
@@ -292,9 +282,9 @@ quotes:
 
 # What's New: Fixed and Variable G/L Allocations (2023 release wave 2)
 
-> G/L allocation accounts in Business Central (2023 release wave 2): fixed, variable (based on statistical accounts) and inherit-from-parent allocation types. Covers setup, use in general journals, deferrals and purchase invoices, manual adjustment, and extensibility events.
+> G/L allocation accounts in Business Central 2023 release wave 2 come in three types. Fixed uses predefined percentages, variable uses G/L account balances or statistical accounts with global dimension filters, and inherit from parent reuses an existing G/L account with an allocation key. They work in general and recurring journals, with deferrals and in sales and purchase documents. Proposed splits can be adjusted before posting, and developers can extend them through integration events.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BZF4MrVfvfY) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 23:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BZF4MrVfvfY) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 23:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -306,11 +296,11 @@ Demos show allocations in general journals, combined with deferrals, and on purc
 
 - Three allocation types: fixed (predefined percentages), variable (based on statistical accounts or G/L balances), and inherit from parent (existing G/L account plus an allocation key).
 - Inherit from parent requires the destination account number to be blank.
-- Variable allocations need a calculation method: balance at date, fiscal year, week, quarter, or previous year.
-- Allocation accounts work in general journals, with deferrals (allocate and spread over periods in one transaction), and in purchase invoices.
+- Variable allocations let you choose how the balance is calculated: balance at date, fiscal year, week, quarter, previous year and other options taken from cost allocations.
+- Allocation accounts work in general and recurring journals, with deferrals (allocate and spread over periods in one transaction), and in sales and purchase documents.
 - Proposed splits can be adjusted before posting: amounts, G/L accounts and dimensions can be changed, and lines deleted.
 - The share UI keeps percentages summing to 100%. Calculations use up to five decimals internally while the UI shows whole percents; amount rounding applies on the G/L lines.
-- Defined dimensions on allocation lines override dimensions on the line. Filtering is by global dimensions only.
+- Dimensions defined on allocation lines override dimensions on the line. Variable allocation lines can be filtered on global dimensions.
 
 ## Chapters
 
@@ -331,26 +321,26 @@ Demos show allocations in general journals, combined with deferrals, and on purc
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GL Allocations | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=178s) |  |
-| Fixed Allocation Type | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=198s) |  |
-| Variable Allocation Type | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=218s) |  |
-| Inherit from Parent Allocation Type | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=238s) |  |
-| Allocation Accounts with General Journals | status not stated, demoed | [4:14](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=254s) |  |
-| Allocation Accounts with Deferrals | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=550s) |  |
-| Allocation Accounts with Purchase Documents | status not stated, demoed | [10:06](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=606s) |  |
-| Manual Adjustment of Allocations | status not stated, demoed | [10:59](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=659s) |  |
-| Allocation Account Setup UI | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=791s) |  |
-| Statistical Accounts | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=62s) |  |
-| Decimal Precision in Allocation Calculations | status not stated, demoed | [15:06](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=906s) |  |
-| Dimension Assignment in Allocations | status not stated, demoed | [15:38](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=938s) |  |
-| Allocation Testing Tool | status not stated, demoed | [16:10](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=970s) |  |
-| Variable Allocation Accounts | status not stated, demoed | [16:46](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1006s) |  |
-| Global Dimension Filtering for Allocations | status not stated, demoed | [18:03](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1083s) |  |
-| General Journal Account Management Integration | status not stated | [21:00](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1260s) |  |
-| Sales and Purchase Allocation Account Management | status not stated | [21:20](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1280s) |  |
-| Allocation Account Integration Events | status not stated | [22:22](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1342s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GL Allocations | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=178s) |
+| Fixed Allocation Type | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=198s) |
+| Variable Allocation Type | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=218s) |
+| Inherit from Parent Allocation Type | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=238s) |
+| Allocation Accounts with General Journals | status not stated, demoed | [4:14](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=254s) |
+| Allocation Accounts with Deferrals | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=550s) |
+| Allocation Accounts with Purchase Documents | status not stated, demoed | [10:06](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=606s) |
+| Manual Adjustment of Allocations | status not stated, demoed | [10:59](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=659s) |
+| Allocation Account Setup UI | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=791s) |
+| Statistical Accounts | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=62s) |
+| Decimal Precision in Allocation Calculations | status not stated, demoed | [15:06](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=906s) |
+| Dimension Assignment in Allocations | status not stated, demoed | [15:38](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=938s) |
+| Allocation Testing Tool | status not stated, demoed | [16:10](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=970s) |
+| Variable Allocation Accounts | status not stated, demoed | [16:46](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1006s) |
+| Global Dimension Filtering for Allocations | status not stated, demoed | [18:03](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1083s) |
+| General Journal Account Management Integration | status not stated | [21:00](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1260s) |
+| Sales and Purchase Allocation Account Management | status not stated | [21:20](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1280s) |
+| Allocation Account Integration Events | status not stated | [22:22](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1342s) |
 
 ## AL objects mentioned
 
@@ -369,8 +359,7 @@ Not found in BC28-30: table "statistical accounts", codeunit "General Journal Ac
 - [2:58](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=178s) "a new feature that you can also use statistical accounts for the new feature is called allocation accounts"
 - [5:37](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=337s) "when I post it it will get split into three individual lines and of course there's a debit and credit so we end up"
 - [7:09](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=429s) "allocation is done uh because you want better uh data for uh a later analysis of of your your business"
-- [13:43](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=823s) "you can change this one by defining share and this is a UI pattern that we are using in the business Central which which"
-- [13:43](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=823s) "this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy"
+- [13:43](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=823s) "helps you to change the percentages in an easy way and ensure that they are always adding up to 100"
 - [15:06](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=906s) "in the background we are calculating it up to five decimals so these calculations are going to be very accurate and we are also"
 - [17:42](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1062s) "you can specify how you are calculating the balance it can either be a balance set date fiscal year week quarter previous year"
 - [19:59](https://www.youtube.com/watch?v=BZF4MrVfvfY&t=1199s) "if you would like to use inherit from parent then we cannot Define the destination account number so these needs to be blank"

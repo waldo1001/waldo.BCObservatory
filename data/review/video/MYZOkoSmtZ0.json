@@ -1,0 +1,25 @@
+{
+  "video_id": "MYZOkoSmtZ0",
+  "item_id": "video/yt-microsoft/MYZOkoSmtZ0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point saying classic mode is 'marked subject to change in the video' is not supported. The transcript only says 'the classic is a deprecated mode'. I rewrote that key point.",
+    "All four quotes are verbatim spans of the transcript and start at the correct t.",
+    "Both features stay 'unclear' because the transcript gives no preview or GA status.",
+    "The summary is supported by the transcript."
+  ],
+  "input_hash": "57cd30e77dbda792c72e5e399bb85c6272dfbfd6d1869443a0c72736a91193c3",
+  "by": "opus",
+  "at": "2026-10-07T23:14:24.929Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031265
+  }
+}

@@ -18,12 +18,12 @@ tags:
   - permissions
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:24.075Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:24.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,6 +79,13 @@ evidence:
     commit: null
     t: 802
     quote: for those of you that don't need to work across tenants uh this uh registration app can be used for all environments within one
+  - kind: video
+    url: https://www.youtube.com/watch?v=QGG0dW6HqSg&t=842s
+    title: "What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)"
+    date: "2023-12-21T13:56:23.000Z"
+    commit: null
+    t: 842
+    quote: once you do the setup for Microsoft entra that will be enabled for all the companies on that environment
 links:
   learn: []
   objects: []
@@ -199,13 +206,16 @@ quotes:
   - t: 802
     text: for those of you that don't need to work across tenants uh this uh registration app can be used for all environments within one
     check: exact
+  - t: 842
+    text: once you do the setup for Microsoft entra that will be enabled for all the companies on that environment
+    check: exact
 ---
 
 # What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)
 
 > Cross environment intercompany posting in Business Central: IC partners can sit in different environments, in one tenant or across tenants. The video demos the partner setup wizard and covers Microsoft Entra app registration, the new permission set, currency, and chart of accounts and dimensions mapping.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QGG0dW6HqSg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 14:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QGG0dW6HqSg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 14:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -216,12 +226,12 @@ It then walks through setup: the intercompany partner wizard run on both compani
 ## Key points
 
 - IC partners can now be in different environments, in one tenant or across tenants, with no manual file downloads.
-- A new action starts a wizard to set up the IC partner connection; it must be run on both partner companies in parallel, with a test connection step.
-- The wizard requires accepting data transfer and privacy conditions, and company names must be unique.
-- Authentication needs a Microsoft Entra app registration with a client ID, created in the Azure portal without developer knowledge.
-- One registration app can serve all environments in one tenant; separate registration apps are needed for different tenants.
-- Permission set 'Cross environment API cross environment intercompany' is needed to send and receive; by default only admins have it. Creating new IC partners also needs admin permissions by default, controlled by the 'Create and modified interc company Partners' permission set.
-- If partners use different currencies, both companies need those currencies enabled locally. Chart of accounts and dimensions can be mapped side by side.
+- A new action on the IC partner starts a wizard to set up the connection. The setup is done in both partner companies, can be done in parallel, and includes a test connection step.
+- The wizard requires accepting conditions because data may move across geos, and the new IC partner needs a unique name. Company information is copied from one partner and pasted into the other.
+- Authentication needs a Microsoft Entra app registration with a client ID, created in the Azure portal. No developer knowledge is needed.
+- One registration app can serve all environments in one tenant; partners in different tenants need separate registration apps. The Entra setup is done once per environment, not per company.
+- The permission set 'Cross environment API cross environment intercompany' is needed to send and receive. Creating new IC partners is limited to admins by default and is controlled by the 'Create and modified interc company Partners' permission set.
+- If partners use different currencies, both companies need those currencies enabled locally. Cross environment communication is handled by jobs, and sends run in the name of the user who started the transaction.
 
 ## Chapters
 
@@ -237,19 +247,19 @@ It then walks through setup: the intercompany partner wizard run on both compani
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cross environment intercompany posting | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=298s) |  |
-| Intercompany partner setup wizard | status not stated, demoed | [8:00](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=480s) |  |
-| Microsoft Entra authentication for cross environment intercompany | status not stated | [11:00](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=660s) |  |
-| Permission set for cross environment intercompany | status not stated | [11:20](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=680s) |  |
-| Intercompany setup with chart of accounts mapping | status not stated | [3:57](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=237s) |  |
-| Intercompany dimensions mapping | status not stated | [4:38](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=278s) |  |
-| Intercompany multicurrency support | status not stated | [1:46](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=106s) |  |
-| Intercompany bank-to-bank transactions | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |  |
-| Intercompany partner customer and vendor matching | status not stated | [3:37](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=217s) |  |
-| Intercompany journal comments | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |  |
-| Intercompany transaction rejection after acceptance | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cross environment intercompany posting | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=298s) |
+| Intercompany partner setup wizard | status not stated, demoed | [8:00](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=480s) |
+| Microsoft Entra authentication for cross environment intercompany | status not stated | [11:00](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=660s) |
+| Permission set for cross environment intercompany | status not stated | [11:20](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=680s) |
+| Intercompany setup with chart of accounts mapping | status not stated | [3:57](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=237s) |
+| Intercompany dimensions mapping | status not stated | [4:38](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=278s) |
+| Intercompany multicurrency support | status not stated | [1:46](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=106s) |
+| Intercompany bank-to-bank transactions | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |
+| Intercompany partner customer and vendor matching | status not stated | [3:37](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=217s) |
+| Intercompany journal comments | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |
+| Intercompany transaction rejection after acceptance | status not stated | [2:47](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=167s) |
 
 ## AL objects mentioned
 
@@ -269,5 +279,6 @@ Not found in BC28-30: permissionset "Cross environment API cross environment int
 - [11:00](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=660s) "you will need to create a new Microsoft entra application where you will introduce the client ID"
 - [13:02](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=782s) "you don't need to be a developable for for that it's basically just a record in the aure portal and a few clicks following"
 - [13:22](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=802s) "for those of you that don't need to work across tenants uh this uh registration app can be used for all environments within one"
+- [14:02](https://www.youtube.com/watch?v=QGG0dW6HqSg&t=842s) "once you do the setup for Microsoft entra that will be enabled for all the companies on that environment"
 
 Presenters (as heard): Brian nilson, Jos Antonio Garcia.

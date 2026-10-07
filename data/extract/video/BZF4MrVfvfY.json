@@ -502,14 +502,8 @@
     },
     {
       "t": 823,
-      "text": "you can change this one by defining share and this is a UI pattern that we are using in the business Central which which",
-      "why_it_matters": "Describes the specific UI mechanism for allocation setup that maintains percentages summing to 100%.",
-      "check": "exact"
-    },
-    {
-      "t": 823,
-      "text": "this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy",
-      "why_it_matters": "Explains the core design decision of the share UI pattern that makes percentage allocation user-friendly and prevents mathematical errors.",
+      "text": "helps you to change the percentages in an easy way and ensure that they are always adding up to 100",
+      "why_it_matters": "Describes the share UI pattern that keeps allocation percentages summing to 100%.",
       "check": "exact"
     },
     {

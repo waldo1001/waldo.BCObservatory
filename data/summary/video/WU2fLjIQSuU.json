@@ -1,16 +1,16 @@
 {
   "video_id": "WU2fLjIQSuU",
   "item_id": "video/yt-microsoft/WU2fLjIQSuU",
-  "summary": "AL Go for GitHub (version 3.2, 2023 release wave 2): new settings types, deploy-to-environment settings, custom deployment for on-premises, HSM code signing, pull request status check, compiler folder with Linux runners, GH token workflow, BCPT result viewer, and template-based customization.",
+  "summary": "AL Go for GitHub 3.2 (2023 release wave 2): HSM code signing via Azure Key Vault, revamped deployment with DeployTo environment settings and custom deployment scripts (e.g. on-premises), a pull request status check job for branch protection, compiler folder builds on Linux runners without containers, and the use GH token workflow option. Settings locations and upgrading via Update AL Go system files are recapped (unchanged). A BCPT test result viewer and indirect template customization are only open PRs with no promises or dates.",
   "overview": "The session walks through what changed in AL Go for GitHub, the DevOps solution for Business Central development on GitHub. It covers settings levels, version tracking and upgrades, code signing with HSM-stored keys, and deployment changes such as a deploy to environment name setting and custom deployment scripts for non-SaaS targets.\n\nIt then covers build speed and cost: the compiler folder feature, building on Ubuntu runners without containers, and caching of Business Central artifacts. It ends with the GH token workflow option, a BCPT test result viewer that is still a draft pull request, and ways to customize AL Go through indirect template repositories. The presenters say they have not decided between templates and forks.",
   "key_points": [
-    "Three settings levels: repository-wide (template URL, schedules, runners, environments), project-wide (.algo folders), and workflow-specific settings for tests.",
-    "Upgrade with the Update AL Go system files workflow. It needs a secret named GH token workflow with personal access token permissions. Existing values in the repository settings file are not overwritten.",
-    "Deployment: a deploy to environment name setting (for example deploy to QA) replaces secret-based environment naming. Continuous deployment can be set true or false for any environment type, including production.",
-    "Custom deployment lets you set a custom environment type and supply your own PowerShell script, including for on-premises. Microsoft does not provide the scripts. A custom GitHub runner inside a firewall is optional.",
-    "Linux build without containers needs the do not publish apps and use compiler folder settings plus an Ubuntu runner. Do not publish apps disables running tests. Artifact caching cut a build from about 12 minutes longer to 4 min 42 s, then 3 min 38 s on a later build.",
-    "A pull request status check job can serve as the required status check in GitHub branch protection, so you do not have to reference CI/CD matrix jobs.",
-    "BCPT result viewer and some customization features are not final. The BCPT viewer is a draft pull request, and the presenters say there are no promises or dates."
+    "Three settings levels: repository-wide (template URL, schedules, runners, environments), project-wide (.AL-Go folder per project), and workflow-specific settings such as for test next minor/major. These are recapped, not changed.",
+    "Upgrade with the Update AL Go system files workflow. It needs a secret named GH token workflow with a personal access token that can modify workflows. The version (e.g. 3.2) is shown in the initialize workflow output.",
+    "Code signing: AL Go supports private keys in HSM key storage in Azure Key Vault, needed because certificate providers must deliver keys in hardware modules from July 1st.",
+    "Deployment: a DeployTo<environment> setting (for example deploy to QA) replaces secret-based environment naming and covers environment type, branches, projects, sync mode, runs on and continuous deployment. Continuous deployment can be set true or false for any environment, including production.",
+    "Custom deployment: setting a non-SaaS environment type runs your own .github/DeployTo<type>.ps1 script with passed parameters. Microsoft does not provide these scripts. A custom GitHub runner inside a firewall is optional.",
+    "Linux build without containers needs do not publish apps and use compiler folder set to true, plus runs on and GitHub runner set to Ubuntu latest. Do not publish apps disables running tests. A build went from about 14.5 minutes to 4 min 42 s, then 3 min 38 s on a rebuild thanks to cached artifacts.",
+    "A pull request status check job can serve as the required status check in GitHub branch protection, so you do not have to reference matrix jobs."
   ],
   "audience": [
     "developer",

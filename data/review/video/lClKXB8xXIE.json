@@ -1,0 +1,31 @@
+{
+  "video_id": "lClKXB8xXIE",
+  "item_id": "video/yt-microsoft/lClKXB8xXIE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at 688.4 is verbatim but the speaker misspoke (says foreground where he means background), so it contradicts the page; replaced with the 704.4 foreground quote.",
+    "Quotes at 812.3 are near-duplicates; left in place because a drop by t would remove both.",
+    "Business Central fulfillment service is stated as enabled in an earlier minor update, so status set to ga with evidence.",
+    "Multi-Shop Import Routing description overstates: the transcript shows manual selection of the target shop, with tags given only as a reason for multiple shops. It is also described as existing functionality.",
+    "Shopify API Versioning Management says 'automatically'; the transcript only says the connector is updated when you upgrade Business Central regularly.",
+    "Retrieve Shopify data inspection is noted in the transcript as possible before this release.",
+    "All other quotes verified verbatim; summary and key points are supported."
+  ],
+  "input_hash": "d38dc8a7f4d34bff8b4793f809d7cb6b7571e952591b25f1fc834ec794c5d325",
+  "by": "opus",
+  "at": "2026-10-07T23:13:39.079Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 704s"
+  ],
+  "rejected_edits": [
+    "status Business Central Fulfillment Service Support -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.162673
+  }
+}

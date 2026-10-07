@@ -1,0 +1,27 @@
+{
+  "video_id": "sk5CaXnvvng",
+  "item_id": "video/yt-microsoft/sk5CaXnvvng",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports all facts, quotes and the summary. The quotes at 118.1, 199.1 and 727.2 run on into the next segment, which is acceptable.",
+    "Every feature status was unclear, but the transcript gives status for four of them: the 503 retry change and socket reuse are backported and available (ga), and the custom API schema default change and delta link removal are upcoming (announced). Updated those four.",
+    "The caption says 'version 2.x' for the socket backport. It is likely a transcription error, but it is kept as stated."
+  ],
+  "input_hash": "51649305e284e4a2cc8d4e7c3efd3fbcfe4048788dbcf4706ceaff6eb73f1a1b",
+  "by": "opus",
+  "at": "2026-10-07T23:13:43.986Z",
+  "applied": [],
+  "rejected_edits": [
+    "status HTTP 503 Return Code for Request Queue Timeout -> ga: evidence not verbatim or does not state the status",
+    "status Socket Reuse Optimization for HTTP Client -> ga: evidence not verbatim or does not state the status",
+    "status Custom API Schema Version Default Change -> announced: evidence not verbatim or does not state the status",
+    "status Delta Links Support Removal -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.088121
+  }
+}

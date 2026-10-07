@@ -15,12 +15,12 @@ tags:
   - data collection
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:23.533Z"
   flags: []
 generated:
-  at: "2026-10-06T21:44:20.387Z"
+  at: "2026-10-07T23:14:23.565Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,7 +123,7 @@ quotes:
 
 > Enabling telemetry for a Business Central online environment by setting an Application Insights connection string in the tenant admin center. It shows where to find the setting, how to copy the string from the Azure portal, and warns that saving restarts the environment.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=j5XkX9mv6H8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=j5XkX9mv6H8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -152,10 +152,10 @@ The presenter opens the configuration menu, then gets the connection string from
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Application Insights telemetry integration | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=0s) |  |
-| Connection string configuration UI | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=13s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Application Insights telemetry integration | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=0s) |
+| Connection string configuration UI | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=13s) |
 
 ## Quotes
 

@@ -1,0 +1,32 @@
+{
+  "video_id": "EVntnDFE1R4",
+  "item_id": "video/yt-microsoft/EVntnDFE1R4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point says using environment variables across environments needs AL-Go support. The transcript only says the ALM story for AL-Go for GitHub also supports environment variables.",
+    "Key point says Dataverse virtual tables were in preview. The transcript only says they will be generally available later this year and never mentions a current preview.",
+    "V2 deprecation evidence quote starts at t=1007.1, not 986.9.",
+    "Dataverse virtual tables evidence quote starts at t=1165.5, not 1104.6.",
+    "Business-event templates were marked preview using a quote about the business events concept at t=715.9. The transcript gives no status for the templates themselves, so the status is now unclear.",
+    "Summary and quotes are otherwise supported by the transcript."
+  ],
+  "input_hash": "8e48d457288faa9f5d1ad777bb0a25565907c3ea5999a5faaf3d91a51ef2d1d4",
+  "by": "opus",
+  "at": "2026-10-07T23:12:58.282Z",
+  "applied": [
+    "Automated Flow Templates Based on Business Events: status unclear",
+    "Business Events Trigger: status preview",
+    "Connector V2 actions deprecation: status announced",
+    "Dataverse virtual tables for Business Central: status announced",
+    "Power Pages integration with Business Central: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.135685
+  }
+}

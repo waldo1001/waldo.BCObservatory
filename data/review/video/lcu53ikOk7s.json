@@ -1,0 +1,33 @@
+{
+  "video_id": "lcu53ikOk7s",
+  "item_id": "video/yt-microsoft/lcu53ikOk7s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 2 misstated the default deletion condition. The transcript says deletion is possible if the account has no balance and its transactions do not belong to an open income year. It does not mention 'no setup usage'.",
+    "Quote at 0.4 is cut off mid-condition ('as long as it has no'). Replaced it with the full condition span.",
+    "The page left out that deleting an account with transactions inside the retention window only asks for confirmation unless Block Deletion is enabled. Added a quote and a key point for this.",
+    "The page left out the advice to move the date one year ahead each time an income year closes. Added a key point.",
+    "All three features are correctly left as unclear because the transcript says nothing about release status."
+  ],
+  "input_hash": "b8d56d913ab7f5c7ba9454098bcbb21b86445febcfd505509b85fc746627b34f",
+  "by": "opus",
+  "at": "2026-10-07T23:13:27.741Z",
+  "applied": [
+    "Check GL account usage setting: status unclear",
+    "Check GL account deletion after field: status unclear",
+    "Block deletion of GL account setting: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 0s",
+    "quote at 114s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057273000000000004
+  }
+}

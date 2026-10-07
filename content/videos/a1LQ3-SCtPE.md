@@ -20,18 +20,25 @@ tags:
   - extension data management
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:56.435Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:56.495Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 6e11629d2a54053f712dd51cf467c95a74895cc0a09bce85b717de4ab6825a82
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1543s
+    title: "Removal of Force Order and Loop Joints Server Settings: announced"
+    date: "2023-12-18T08:59:18.000Z"
+    commit: null
+    t: 1543
+    quote: upcoming in 2024 release way one the server settings for Force order and loop joints will be removed
   - kind: video
     url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=58s
     title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
@@ -89,13 +96,6 @@ evidence:
     t: 847
     quote: the main thing here is there is no really no action on you right we we just made things faster for all code
   - kind: video
-    url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=867s
-    title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
-    date: "2023-12-18T08:59:18.000Z"
-    commit: null
-    t: 867
-    quote: there is no really no action on you right we we just made things faster for all code maybe the only action is to
-  - kind: video
     url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=906s
     title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
     date: "2023-12-18T08:59:18.000Z"
@@ -124,19 +124,19 @@ evidence:
     t: 1442
     quote: for new tenants this is automatically enabled but you can flip this back and forth at at will um so that but it is
   - kind: video
+    url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1483s
+    title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
+    date: "2023-12-18T08:59:18.000Z"
+    commit: null
+    t: 1483
+    quote: from the next version we will enable this by default but you can still disable it and then from version 25
+  - kind: video
     url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1564s
     title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
     date: "2023-12-18T08:59:18.000Z"
     commit: null
     t: 1564
     quote: for on premises you might run with the ability to write to the app database we will remove that um possibility from the next
-  - kind: video
-    url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1577s
-    title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
-    date: "2023-12-18T08:59:18.000Z"
-    commit: null
-    t: 1577
-    quote: the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging
   - kind: video
     url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1577s
     title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
@@ -151,13 +151,6 @@ evidence:
     commit: null
     t: 1598
     quote: if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid
-  - kind: video
-    url: https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1618s
-    title: "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)"
-    date: "2023-12-18T08:59:18.000Z"
-    commit: null
-    t: 1618
-    quote: if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely
 links:
   learn: []
   objects:
@@ -260,16 +253,6 @@ features:
     t: 747
     verified: false
     status_source: video
-  - name: Set-Based Load Fields
-    status: unclear
-    t: 787
-    verified: false
-    status_source: video
-  - name: Extension Schema Performance
-    status: unclear
-    t: 847
-    verified: false
-    status_source: video
   - name: Orphaned Extension Data Cleanup
     status: unclear
     t: 906
@@ -296,33 +279,13 @@ features:
     verified: false
     status_source: video
   - name: Removal of Force Order and Loop Joints Server Settings
-    status: unclear
+    status: announced
     t: 1543
-    verified: false
+    verified: true
     status_source: video
   - name: Removal of App Database Write Capability
     status: unclear
     t: 1564
-    verified: false
-    status_source: video
-  - name: New locking scheme
-    status: unclear
-    t: 1577
-    verified: false
-    status_source: video
-  - name: Data cleanup and storage optimization
-    status: unclear
-    t: 1598
-    verified: false
-    status_source: video
-  - name: AL language and developer tools updates
-    status: unclear
-    t: 1618
-    verified: false
-    status_source: video
-  - name: Reporting improvements with indexing
-    status: unclear
-    t: 1639
     verified: false
     status_source: video
 objects_mentioned:
@@ -353,9 +316,6 @@ quotes:
   - t: 847
     text: the main thing here is there is no really no action on you right we we just made things faster for all code
     check: snapped
-  - t: 867
-    text: there is no really no action on you right we we just made things faster for all code maybe the only action is to
-    check: exact
   - t: 906
     text: if you leave data behind then it now has a performance impact because before as I mentioned it would just sit in a separate
     check: exact
@@ -368,11 +328,11 @@ quotes:
   - t: 1442
     text: for new tenants this is automatically enabled but you can flip this back and forth at at will um so that but it is
     check: exact
+  - t: 1483
+    text: from the next version we will enable this by default but you can still disable it and then from version 25
+    check: exact
   - t: 1564
     text: for on premises you might run with the ability to write to the app database we will remove that um possibility from the next
-    check: exact
-  - t: 1577
-    text: the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging
     check: exact
   - t: 1577
     text: test the new locking scheme try to run some bcpt tests and check for errors has check for logging or Deadlocks
@@ -380,16 +340,13 @@ quotes:
   - t: 1598
     text: if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid
     check: exact
-  - t: 1618
-    text: if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely
-    check: exact
 ---
 
 # What's New: Server and Database - A Faster Data Stack (2023 release wave 2)
 
 > Business Central 2023 release wave 2 server and database changes: table extensions move to a single companion table, cutting n-way joins to one and speeding reads, inserts, modifies and deletes. Also covers SetLoadFields guidance, the new read committed locking model, and upcoming removals.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=a1LQ3-SCtPE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 28:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=a1LQ3-SCtPE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 28:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -404,7 +361,7 @@ It then covers cloud migration support in version 23, database views for on-prem
 - Version 23 includes cloud migration support from earlier versions to the new schema. On-premises upgrades write more data and may take longer.
 - On-premises ETL or BI tools with direct database access can keep working through database views that mimic the new schema. Direct database access is not officially supported, and code samples are on GitHub.
 - SetLoadFields is still useful for limiting loaded fields and hitting covering indexes. A new method lets base table owners set all base fields at once, shown on the VAT Entry table.
-- The new locking model uses read committed instead of update lock for new record instances. It is on by default for new tenants. Existing tenants opt in via feature management and restart the environment. Test it with BCPT for errors, logging issues and deadlocks.
+- The new locking model uses read committed instead of update lock for new record instances. It is on by default for new tenants. Upgraded tenants opt in via feature management and must restart the environment. It will be enabled by default in the next version and becomes the only locking model from version 25. Test it with BCPT for errors, locking issues and deadlocks.
 - Orphaned extension data left after uninstall now affects performance and capacity, and can be deleted in installed extensions. Force Order and Loop Joins server settings are removed in 2024 release wave one. On-premises writes to the app database stop in the next release.
 
 ## Chapters
@@ -438,19 +395,13 @@ It then covers cloud migration support in version 23, database views for on-prem
 | Database views for on-premises ETL tools | status not stated | [9:56](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=596s) |  |
 | SetLoadFields continuing value with new schema | status not stated | [11:14](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=674s) |  |
 | Set-based load fields method for base table owners | status not stated, demoed | [12:27](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=747s) |  |
-| Set-Based Load Fields | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=787s) |  |
-| Extension Schema Performance | status not stated | [14:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=847s) |  |
 | Orphaned Extension Data Cleanup | status not stated | [15:06](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=906s) |  |
 | New Locking Model | status not stated, demoed | [16:58](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1018s) |  |
 | Read Isolation Property | status not stated | [20:45](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1245s) |  |
 | AutoIncrement Field Performance Optimization | status not stated | [25:01](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1501s) |  |
 | Set Range SQL Query Optimization | status not stated | [25:21](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1521s) |  |
-| Removal of Force Order and Loop Joints Server Settings | status not stated | [25:43](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1543s) |  |
+| Removal of Force Order and Loop Joints Server Settings | announced | [25:43](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1543s) | "upcoming in 2024 release way one the server settings for Force order and loop joints will be removed" ([25:43](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1543s)) |
 | Removal of App Database Write Capability | status not stated | [26:04](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1564s) |  |
-| New locking scheme | status not stated | [26:17](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1577s) |  |
-| Data cleanup and storage optimization | status not stated | [26:38](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1598s) |  |
-| AL language and developer tools updates | status not stated | [26:58](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1618s) |  |
-| Reporting improvements with indexing | status not stated | [27:19](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1639s) |  |
 
 ## AL objects mentioned
 
@@ -469,16 +420,14 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [9:16](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=556s) "all good uh version 23 exposed the mapping from previous versions We updated the tool so these as a a data Factory clows now"
 - [13:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=787s) "maybe this uh new method will be for you as well to lower your maintenance cost on your on your code and still make"
 - [14:07](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=847s) "the main thing here is there is no really no action on you right we we just made things faster for all code"
-- [14:27](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=867s) "there is no really no action on you right we we just made things faster for all code maybe the only action is to"
 - [15:06](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=906s) "if you leave data behind then it now has a performance impact because before as I mentioned it would just sit in a separate"
 - [17:31](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1051s) "before and this may not be obvious to everyone we had the um approach that the moment we entered into a right transaction then"
 - [19:14](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1154s) "further reads on other um record instances pointing to the same table will now be done with a read committed"
 - [24:02](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1442s) "for new tenants this is automatically enabled but you can flip this back and forth at at will um so that but it is"
+- [24:43](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1483s) "from the next version we will enable this by default but you can still disable it and then from version 25"
 - [26:04](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1564s) "for on premises you might run with the ability to write to the app database we will remove that um possibility from the next"
-- [26:17](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1577s) "the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging"
 - [26:17](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1577s) "test the new locking scheme try to run some bcpt tests and check for errors has check for logging or Deadlocks"
 - [26:38](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1598s) "if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid"
-- [26:58](https://www.youtube.com/watch?v=a1LQ3-SCtPE&t=1618s) "if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely"
 
 ## Disclaimers in the video
 

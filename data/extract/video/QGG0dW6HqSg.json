@@ -350,6 +350,12 @@
       "text": "for those of you that don't need to work across tenants uh this uh registration app can be used for all environments within one",
       "why_it_matters": "Provides important guidance that one registration app works for all environments in a single tenant, reducing setup complexity.",
       "check": "exact"
+    },
+    {
+      "t": 842.8,
+      "text": "once you do the setup for Microsoft entra that will be enabled for all the companies on that environment",
+      "why_it_matters": "Shows the Entra app setup is done once per environment, not once per company.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

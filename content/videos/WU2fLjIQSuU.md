@@ -2,7 +2,7 @@
 id: video/WU2fLjIQSuU
 type: video
 title: "What's New: AL Go for GitHub (2023 release wave 2)"
-summary: "AL Go for GitHub (version 3.2, 2023 release wave 2): new settings types, deploy-to-environment settings, custom deployment for on-premises, HSM code signing, pull request status check, compiler folder with Linux runners, GH token workflow, BCPT result viewer, and template-based customization."
+summary: "AL Go for GitHub 3.2 (2023 release wave 2): HSM code signing via Azure Key Vault, revamped deployment with DeployTo environment settings and custom deployment scripts (e.g. on-premises), a pull request status check job for branch protection, compiler folder builds on Linux runners without containers, and the use GH token workflow option. Settings locations and upgrading via Update AL Go system files are recapped (unchanged). A BCPT test result viewer and indirect template customization are only open PRs with no promises or dates."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - on-premises
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:45.300Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:45.361Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,19 +68,12 @@ evidence:
     t: 514
     quote: Every time you have a CI CD or build running, there'll be a job called check for updates
   - kind: video
-    url: https://www.youtube.com/watch?v=WU2fLjIQSuU&t=610s
+    url: https://www.youtube.com/watch?v=WU2fLjIQSuU&t=635s
     title: "What's New: AL Go for GitHub (2023 release wave 2)"
     date: "2023-12-20T08:03:42.000Z"
     commit: null
-    t: 610
-    quote: that are issued by code signing by the providers of code signing certificates will have to
-  - kind: video
-    url: https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s
-    title: "What's New: AL Go for GitHub (2023 release wave 2)"
-    date: "2023-12-20T08:03:42.000Z"
-    commit: null
-    t: 805
-    quote: of doing this going forward is to create a new setting called deploy to an environment name
+    t: 635
+    quote: what we did in AL Go for GitHub was to add support for HSM key storage in Azure Key Vault
   - kind: video
     url: https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s
     title: "What's New: AL Go for GitHub (2023 release wave 2)"
@@ -388,12 +381,9 @@ quotes:
   - t: 514
     text: Every time you have a CI CD or build running, there'll be a job called check for updates
     check: exact
-  - t: 610
-    text: that are issued by code signing by the providers of code signing certificates will have to
-    check: fuzzy
-  - t: 805
-    text: of doing this going forward is to create a new setting called deploy to an environment name
-    check: fuzzy
+  - t: 635
+    text: what we did in AL Go for GitHub was to add support for HSM key storage in Azure Key Vault
+    check: exact
   - t: 805
     text: the real way of of doing this going forward is to create a new setting called deploy to an environment name, meaning deploy to
     check: exact
@@ -452,9 +442,9 @@ quotes:
 
 # What's New: AL Go for GitHub (2023 release wave 2)
 
-> AL Go for GitHub (version 3.2, 2023 release wave 2): new settings types, deploy-to-environment settings, custom deployment for on-premises, HSM code signing, pull request status check, compiler folder with Linux runners, GH token workflow, BCPT result viewer, and template-based customization.
+> AL Go for GitHub 3.2 (2023 release wave 2): HSM code signing via Azure Key Vault, revamped deployment with DeployTo environment settings and custom deployment scripts (e.g. on-premises), a pull request status check job for branch protection, compiler folder builds on Linux runners without containers, and the use GH token workflow option. Settings locations and upgrading via Update AL Go system files are recapped (unchanged). A BCPT test result viewer and indirect template customization are only open PRs with no promises or dates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WU2fLjIQSuU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 44:42 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WU2fLjIQSuU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 44:42 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -464,13 +454,13 @@ It then covers build speed and cost: the compiler folder feature, building on Ub
 
 ## Key points
 
-- Three settings levels: repository-wide (template URL, schedules, runners, environments), project-wide (.algo folders), and workflow-specific settings for tests.
-- Upgrade with the Update AL Go system files workflow. It needs a secret named GH token workflow with personal access token permissions. Existing values in the repository settings file are not overwritten.
-- Deployment: a deploy to environment name setting (for example deploy to QA) replaces secret-based environment naming. Continuous deployment can be set true or false for any environment type, including production.
-- Custom deployment lets you set a custom environment type and supply your own PowerShell script, including for on-premises. Microsoft does not provide the scripts. A custom GitHub runner inside a firewall is optional.
-- Linux build without containers needs the do not publish apps and use compiler folder settings plus an Ubuntu runner. Do not publish apps disables running tests. Artifact caching cut a build from about 12 minutes longer to 4 min 42 s, then 3 min 38 s on a later build.
-- A pull request status check job can serve as the required status check in GitHub branch protection, so you do not have to reference CI/CD matrix jobs.
-- BCPT result viewer and some customization features are not final. The BCPT viewer is a draft pull request, and the presenters say there are no promises or dates.
+- Three settings levels: repository-wide (template URL, schedules, runners, environments), project-wide (.AL-Go folder per project), and workflow-specific settings such as for test next minor/major. These are recapped, not changed.
+- Upgrade with the Update AL Go system files workflow. It needs a secret named GH token workflow with a personal access token that can modify workflows. The version (e.g. 3.2) is shown in the initialize workflow output.
+- Code signing: AL Go supports private keys in HSM key storage in Azure Key Vault, needed because certificate providers must deliver keys in hardware modules from July 1st.
+- Deployment: a DeployTo<environment> setting (for example deploy to QA) replaces secret-based environment naming and covers environment type, branches, projects, sync mode, runs on and continuous deployment. Continuous deployment can be set true or false for any environment, including production.
+- Custom deployment: setting a non-SaaS environment type runs your own .github/DeployTo<type>.ps1 script with passed parameters. Microsoft does not provide these scripts. A custom GitHub runner inside a firewall is optional.
+- Linux build without containers needs do not publish apps and use compiler folder set to true, plus runs on and GitHub runner set to Ubuntu latest. Do not publish apps disables running tests. A build went from about 14.5 minutes to 4 min 42 s, then 3 min 38 s on a rebuild thanks to cached artifacts.
+- A pull request status check job can serve as the required status check in GitHub branch protection, so you do not have to reference matrix jobs.
 
 ## Chapters
 
@@ -491,29 +481,29 @@ It then covers build speed and cost: the compiler folder feature, building on Ub
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AL Go for GitHub DevOps solution | status not stated | [0:19](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=19s) |  |
-| Settings configuration types | status not stated, demoed | [3:23](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=203s) |  |
-| Version tracking in AL Go | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=428s) |  |
-| Update AL Go system files workflow | status not stated | [8:21](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=501s) |  |
-| HSM key storage for code signing | status not stated | [9:37](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=577s) |  |
-| GitHub environments deployment | status not stated | [11:28](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=688s) |  |
-| Deploy to environment configuration | status not stated, demoed | [13:25](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s) |  |
-| Continuous deployment to production environments | status not stated | [14:40](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=880s) |  |
-| Custom deployment mechanism | status not stated, demoed | [15:50](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=950s) |  |
-| Custom GitHub runner support | status not stated | [17:29](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1049s) |  |
-| Pull request status check job | status not stated, demoed | [19:30](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1170s) |  |
-| Compiler folder feature | status not stated, demoed | [22:18](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1338s) |  |
-| Linux runner build optimization | status not stated, demoed | [24:45](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1485s) |  |
-| Business Central artifact caching | status not stated, demoed | [28:09](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1689s) |  |
-| Use GH token workflow feature | status not stated, demoed | [30:40](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1840s) |  |
-| BCPT test result viewer | status not stated, demoed | [34:13](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2053s) |  |
-| Customize AL Go for GitHub | status not stated, demoed | [36:30](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2190s) |  |
-| BC container partial script customization | status not stated, demoed | [39:49](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2389s) |  |
-| Indirect template repository for AL Go | status not stated, demoed | [40:52](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2452s) |  |
-| Custom job and step execution order | status not stated, demoed | [42:34](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2554s) |  |
-| Fork alternative for AL Go customization | status not stated | [44:08](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2648s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AL Go for GitHub DevOps solution | status not stated | [0:19](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=19s) |
+| Settings configuration types | status not stated, demoed | [3:23](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=203s) |
+| Version tracking in AL Go | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=428s) |
+| Update AL Go system files workflow | status not stated | [8:21](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=501s) |
+| HSM key storage for code signing | status not stated | [9:37](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=577s) |
+| GitHub environments deployment | status not stated | [11:28](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=688s) |
+| Deploy to environment configuration | status not stated, demoed | [13:25](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s) |
+| Continuous deployment to production environments | status not stated | [14:40](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=880s) |
+| Custom deployment mechanism | status not stated, demoed | [15:50](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=950s) |
+| Custom GitHub runner support | status not stated | [17:29](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1049s) |
+| Pull request status check job | status not stated, demoed | [19:30](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1170s) |
+| Compiler folder feature | status not stated, demoed | [22:18](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1338s) |
+| Linux runner build optimization | status not stated, demoed | [24:45](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1485s) |
+| Business Central artifact caching | status not stated, demoed | [28:09](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1689s) |
+| Use GH token workflow feature | status not stated, demoed | [30:40](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=1840s) |
+| BCPT test result viewer | status not stated, demoed | [34:13](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2053s) |
+| Customize AL Go for GitHub | status not stated, demoed | [36:30](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2190s) |
+| BC container partial script customization | status not stated, demoed | [39:49](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2389s) |
+| Indirect template repository for AL Go | status not stated, demoed | [40:52](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2452s) |
+| Custom job and step execution order | status not stated, demoed | [42:34](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2554s) |
+| Fork alternative for AL Go customization | status not stated | [44:08](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=2648s) |
 
 ## AL objects mentioned
 
@@ -536,8 +526,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:01](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=241s) "There are three types of settings in AL Go for GitHub really. There's repository wide settings"
 - [7:45](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=465s) "AL Go for GitHub version 3.2"
 - [8:34](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=514s) "Every time you have a CI CD or build running, there'll be a job called check for updates"
-- [10:10](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=610s) "that are issued by code signing by the providers of code signing certificates will have to"
-- [13:25](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s) "of doing this going forward is to create a new setting called deploy to an environment name"
+- [10:35](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=635s) "what we did in AL Go for GitHub was to add support for HSM key storage in Azure Key Vault"
 - [13:25](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=805s) "the real way of of doing this going forward is to create a new setting called deploy to an environment name, meaning deploy to"
 - [15:11](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=911s) "you can set it to true or false, no matter whether it's a it's a production environment or a um or a sandbox environment"
 - [15:50](https://www.youtube.com/watch?v=WU2fLjIQSuU&t=950s) "the reason for that is really another newcomer in in this version, which is custom deployment"

@@ -5,10 +5,10 @@
   "overview": "The session covers warehouse changes in the 2023 release wave 2. It shows location card configuration, where purchase, sales, service and transfer operations have limited toggles while production, assembly and jobs have full drop-down options. It then shows how basic warehouse setups can use put-away templates, bin capacity policy, warehouse class, special equipment and bin ranking without directed pick and put-away.\n\nThe second half covers troubleshooting the \"nothing to handle\" error in directed pick and put-away mode. A short summary shows pickable quantity, blocked and dedicated bins, outstanding items in receive bins, and item tracking details such as blocked serial numbers. The session also explains how reservations reduce the quantity available for picking non-reserved orders, and how to resolve that.",
   "key_points": [
     "Location card: purchase, sales, service and transfer operations have limited toggles; production, assembly and jobs have full drop-down configuration.",
-    "Special equipment, bin capacity policy, warehouse class, put-away templates and bin ranking can be used without directed pick and put-away.",
+    "Put-away templates and bin ranking can now be used without directed pick and put-away; special equipment, bin capacity policy and warehouse class already became available to basic warehouse in the previous release.",
     "Inventory put-away now supports over-receipt, alongside the existing warehouse receipt option.",
-    "Inventory picks can pick by bin ranking, ordering lines from the highest-ranked bin first regardless of bin code.",
-    "Inventory picks created from jobs can be filtered by job task line, and by date.",
+    "Picks can follow bin ranking, taking first from the highest-ranked bin regardless of bin code; this works in both warehouse picks and inventory picks.",
+    "Filtering inventory pick creation from jobs by job task line or date was added in the previous release and was shown here only for context.",
     "The nothing-to-handle summary and troubleshooting window work only in directed put-away and pick mode; they show pickable quantity, blocked or dedicated bins and blocked serial numbers.",
     "Shipable quantity excludes shipment bins and dedicated bins; the delta after subtracting reservations is what non-reserved orders can pick. To release more, reserve the sales order or cancel reservations, then rerun pick creation."
   ],

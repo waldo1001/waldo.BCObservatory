@@ -300,48 +300,6 @@
       "system": "development"
     },
     {
-      "name": "Set-Based Load Fields",
-      "description": "A method to optimize data reading by loading only necessary fields automatically, reducing maintenance cost and improving performance by removing joins when code inside loops changes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 787.4,
-      "t_end": 847.8,
-      "is_demoed": true,
-      "caveats": [
-        "If performance critical, manual set load fields can minimize cached data",
-        "Requires understanding of code flow if changing fields accessed in loops"
-      ],
-      "tags": [
-        "data reading",
-        "optimization",
-        "base app"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Extension Schema Performance",
-      "description": "New extension schema makes things faster for all code without requiring action, particularly benefiting read operations and logging when multiple table extensions are used.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 847.8,
-      "t_end": 888,
-      "is_demoed": false,
-      "caveats": [
-        "Single table extension may not show noticeable difference",
-        "Benefits mainly visible with two or more extensions"
-      ],
-      "tags": [
-        "extension",
-        "performance",
-        "schema"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Orphaned Extension Data Cleanup",
       "description": "Added ability to delete orphaned extension data left behind after uninstalling extensions, now impacting performance as data is part of extension table rows. Tool placed in installed extensions section.",
       "status": "unclear",
@@ -447,10 +405,10 @@
     {
       "name": "Removal of Force Order and Loop Joints Server Settings",
       "description": "Server settings for Force Order and Loop Joints will be removed in 2024 release wave one to standardize query execution approach.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 1543.6,
+      "status_evidence_quote": "upcoming in 2024 release way one the server settings for Force order and loop joints will be removed",
+      "status_evidence_verified": true,
       "t_start": 1543.6,
       "t_end": 1564,
       "is_demoed": false,
@@ -481,82 +439,6 @@
         "on-premises"
       ],
       "system": "platform"
-    },
-    {
-      "name": "New locking scheme",
-      "description": "A new locking scheme is being introduced that users should test using BCPT tests to check for errors, logging issues, or deadlocks.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1577.9,
-      "t_end": 1598.4,
-      "is_demoed": false,
-      "caveats": [
-        "requires user testing",
-        "potential for deadlocks"
-      ],
-      "tags": [
-        "locking",
-        "performance",
-        "testing"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Data cleanup and storage optimization",
-      "description": "Users can delete deleted data to save on storage and improve performance. This is part of moving away from the AppDB as a concept.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1598.4,
-      "t_end": 1618.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "data cleanup",
-        "storage",
-        "performance"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "AL language and developer tools updates",
-      "description": "New updates to AL language and developer tools are available, with a dedicated session recommended for watching.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1618.6,
-      "t_end": 1639,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "al",
-        "developer tools"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Reporting improvements with indexing",
-      "description": "New reporting features with indexing (cies) are being introduced with details to be covered in the fourth session of the server and database series.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1639,
-      "t_end": 1679.4,
-      "is_demoed": false,
-      "caveats": [
-        "details deferred to another session"
-      ],
-      "tags": [
-        "reporting",
-        "indexing",
-        "performance"
-      ],
-      "system": "reporting"
     }
   ],
   "objects": [
@@ -631,12 +513,6 @@
       "check": "snapped"
     },
     {
-      "t": 867.9,
-      "text": "there is no really no action on you right we we just made things faster for all code maybe the only action is to",
-      "why_it_matters": "Clarifies that the new extension schema requires no migration effort while delivering automatic performance benefits",
-      "check": "exact"
-    },
-    {
       "t": 906.3,
       "text": "if you leave data behind then it now has a performance impact because before as I mentioned it would just sit in a separate",
       "why_it_matters": "Explains why orphaned extension data cleanup is now important - changed from neutral to performance-impacting",
@@ -661,6 +537,12 @@
       "check": "exact"
     },
     {
+      "t": 1483,
+      "text": "from the next version we will enable this by default but you can still disable it and then from version 25",
+      "why_it_matters": "Gives the rollout timeline for the new locking model.",
+      "check": "exact"
+    },
+    {
       "t": 1564,
       "text": "for on premises you might run with the ability to write to the app database we will remove that um possibility from the next",
       "why_it_matters": "This announces a breaking change for on-premises deployments regarding AppDB write access that will be removed in the next release.",
@@ -668,26 +550,14 @@
     },
     {
       "t": 1577.9,
-      "text": "the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging",
-      "why_it_matters": "Provides key action items for customers to validate compatibility with new locking behavior",
-      "check": "exact"
-    },
-    {
-      "t": 1577.9,
       "text": "test the new locking scheme try to run some bcpt tests and check for errors has check for logging or Deadlocks",
-      "why_it_matters": "Provides specific guidance for validating the new locking scheme implementation before deployment.",
+      "why_it_matters": "The main recommended action: test the new locking model for errors and deadlocks with BCPT.",
       "check": "exact"
     },
     {
       "t": 1598.4,
       "text": "if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid",
       "why_it_matters": "Clear timeline for deprecation of on-premises app database write capability",
-      "check": "exact"
-    },
-    {
-      "t": 1618.6,
-      "text": "if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely",
-      "why_it_matters": "Recommends a dedicated session on AL language and developer tools updates as a next learning step.",
       "check": "exact"
     }
   ],

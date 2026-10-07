@@ -309,10 +309,10 @@
     {
       "name": "Scheduled task concurrency limit increase",
       "description": "Upgrading the concurrency limit for scheduled tasks from 3 concurrently running tasks per environment to 5 concurrently running tasks per user.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 1224,
+      "status_evidence_quote": "so the preview that's coming this next quarter is first um in the early um uh early quarter",
+      "status_evidence_verified": true,
       "t_start": 1224,
       "t_end": 1244,
       "is_demoed": false,
@@ -352,7 +352,7 @@
       "description": "Introducing a new limit to control how long workloads can process in the system, based on server cores and elapsed time sliding windows, with environment limits underneath.",
       "status": "announced",
       "status_evidence_t": 1346,
-      "status_evidence_quote": "in the future you can expect the introduction of the execution time limit that I mentioned before for example uh if you if we",
+      "status_evidence_quote": "in the future you can expect the introduction of the execution time limit that I mentioned before",
       "status_evidence_verified": true,
       "t_start": 1366.2,
       "t_end": 1386,
@@ -469,15 +469,21 @@
       "check": "exact"
     },
     {
+      "t": 1325.8,
+      "text": "parallel web survey request 10 100 the same number 100 concurrently handle five uh process and 95 cute but per user",
+      "why_it_matters": "Clarifies the web service concurrency limit is 100 (5 processed, 95 queued), now per user.",
+      "check": "exact"
+    },
+    {
       "t": 1406.6,
       "text": "throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide",
       "why_it_matters": "Communicates that limits are still in preview and will change frequently, setting expectations for variability.",
       "check": "exact"
     },
     {
-      "t": 1427.1,
-      "text": "you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and",
-      "why_it_matters": "Clarifies that increases will be incremental rather than disruptive, managing customer expectations.",
+      "t": 1447.1,
+      "text": "we will do a gradual uh throughput increase let me just give you an illustration",
+      "why_it_matters": "States that preview throughput increases are rolled out gradually rather than all at once.",
       "check": "exact"
     }
   ],

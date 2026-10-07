@@ -2,7 +2,7 @@
 id: video/lcu53ikOk7s
 type: video
 title: Safeguard G/L Accounts From Deletion
-summary: "Safeguarding G/L accounts from deletion in Business Central through settings on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers retention-driven restrictions on deleting accounts that have transactions."
+summary: "How to safeguard G/L accounts from deletion in Business Central using three fields on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers how a date set for data retention leads to a confirmation prompt, and how Block Deletion turns that prompt into an outright block."
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - deletion safeguards
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:27.741Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:27.784Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -32,7 +32,7 @@ evidence:
     date: "2023-12-18T13:27:05.000Z"
     commit: null
     t: 0
-    quote: it's possible to delete an account from the general ledger even if there has been transactions on it, as long as it has no
+    quote: as long as it has no balance and the transactions do not belong to an income year that is still open.
   - kind: video
     url: https://www.youtube.com/watch?v=lcu53ikOk7s&t=18s
     title: Safeguard G/L Accounts From Deletion
@@ -61,6 +61,13 @@ evidence:
     commit: null
     t: 100
     quote: I set the check GL account deletion after to December 31st, 2017. This means I can only delete the account if transactions has happened
+  - kind: video
+    url: https://www.youtube.com/watch?v=lcu53ikOk7s&t=113s
+    title: Safeguard G/L Accounts From Deletion
+    date: "2023-12-18T13:27:05.000Z"
+    commit: null
+    t: 113
+    quote: the system will ask me if I really want to delete the account. I can still do so if I want to.
   - kind: video
     url: https://www.youtube.com/watch?v=lcu53ikOk7s&t=124s
     title: Safeguard G/L Accounts From Deletion
@@ -121,7 +128,7 @@ objects_mentioned:
   - page general ledger setup
 quotes:
   - t: 0
-    text: it's possible to delete an account from the general ledger even if there has been transactions on it, as long as it has no
+    text: as long as it has no balance and the transactions do not belong to an income year that is still open.
     check: exact
   - t: 18
     text: We recommend that you change some settings to restrict when these deletions can occur. This is done on the general ledger setup page.
@@ -135,6 +142,9 @@ quotes:
   - t: 100
     text: I set the check GL account deletion after to December 31st, 2017. This means I can only delete the account if transactions has happened
     check: exact
+  - t: 113
+    text: the system will ask me if I really want to delete the account. I can still do so if I want to.
+    check: exact
   - t: 124
     text: If I want to outright block the deletion of the account, I'll have to use the third setting called block deletion of GL account.
     check: exact
@@ -142,9 +152,9 @@ quotes:
 
 # Safeguard G/L Accounts From Deletion
 
-> Safeguarding G/L accounts from deletion in Business Central through settings on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers retention-driven restrictions on deleting accounts that have transactions.
+> How to safeguard G/L accounts from deletion in Business Central using three fields on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers how a date set for data retention leads to a confirmation prompt, and how Block Deletion turns that prompt into an outright block.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lcu53ikOk7s) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 2:43 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lcu53ikOk7s) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 2:43 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,13 +164,13 @@ It walks through three settings. Check G/L Account Usage blocks deletion of acco
 
 ## Key points
 
-- Settings are configured on the General Ledger Setup page.
-- Without restrictions, an account can be deleted even if it has had transactions on it, as long as it has no setup usage as described in the video.
+- Settings are configured on the General Ledger Setup page (reachable via Alt+Q search).
+- By default, an account can be deleted even if it has had transactions, as long as it has no balance and the transactions do not belong to an income year that is still open.
 - Check G/L Account Usage blocks any attempt to delete an account that is used in setup tables, such as posting setup.
-- Check G/L Account Deletion After takes a date after which deleting accounts with transactions is not allowed, to support regulatory data retention.
-- Example: for a 5-year retention requirement with a fiscal year matching the calendar year, specify the date after which deletions should not occur.
-- In the demo the date was set to December 31st, 2017, so deletion is only allowed if the transactions happened before that date.
-- Block Deletion of G/L Account must be combined with Check G/L Account Deletion After to block deletion outright.
+- Check G/L Account Deletion After takes a date after which you do not want deletions to occur, to support regulatory data retention requirements.
+- Example: with fiscal year 2023 open and a 5-year retention (2018 through 2022), the date is set to December 31st, 2017, so deletion is only allowed if transactions happened before that date.
+- Trying to delete an account with transactions after that date only triggers a confirmation prompt; the user can still delete.
+- Block Deletion of G/L Account works in combination with the Check G/L Account Deletion After date to block deletion outright.
 
 ## Chapters
 
@@ -173,11 +183,11 @@ It walks through three settings. Check G/L Account Usage blocks deletion of acco
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Check GL account usage setting | status not stated | [0:39](https://www.youtube.com/watch?v=lcu53ikOk7s&t=39s) |  |
-| Check GL account deletion after field | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=lcu53ikOk7s&t=57s) |  |
-| Block deletion of GL account setting | status not stated | [2:04](https://www.youtube.com/watch?v=lcu53ikOk7s&t=124s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Check GL account usage setting | status not stated | [0:39](https://www.youtube.com/watch?v=lcu53ikOk7s&t=39s) |
+| Check GL account deletion after field | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=lcu53ikOk7s&t=57s) |
+| Block deletion of GL account setting | status not stated | [2:04](https://www.youtube.com/watch?v=lcu53ikOk7s&t=124s) |
 
 ## AL objects mentioned
 
@@ -187,9 +197,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 ## Quotes
 
-- [0:00](https://www.youtube.com/watch?v=lcu53ikOk7s&t=0s) "it's possible to delete an account from the general ledger even if there has been transactions on it, as long as it has no"
+- [0:00](https://www.youtube.com/watch?v=lcu53ikOk7s&t=0s) "as long as it has no balance and the transactions do not belong to an income year that is still open."
 - [0:18](https://www.youtube.com/watch?v=lcu53ikOk7s&t=18s) "We recommend that you change some settings to restrict when these deletions can occur. This is done on the general ledger setup page."
 - [0:39](https://www.youtube.com/watch?v=lcu53ikOk7s&t=39s) "With the check GL account usage setting we can block any attempt to delete a GL account if the account is used in any"
 - [1:07](https://www.youtube.com/watch?v=lcu53ikOk7s&t=67s) "if you must store data for 5 years and your fiscal year follows the calendar year specify the date after which you don't want"
 - [1:40](https://www.youtube.com/watch?v=lcu53ikOk7s&t=100s) "I set the check GL account deletion after to December 31st, 2017. This means I can only delete the account if transactions has happened"
+- [1:53](https://www.youtube.com/watch?v=lcu53ikOk7s&t=113s) "the system will ask me if I really want to delete the account. I can still do so if I want to."
 - [2:04](https://www.youtube.com/watch?v=lcu53ikOk7s&t=124s) "If I want to outright block the deletion of the account, I'll have to use the third setting called block deletion of GL account."

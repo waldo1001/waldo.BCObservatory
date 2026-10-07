@@ -1,0 +1,26 @@
+{
+  "video_id": "564XMP2IyLM",
+  "item_id": "video/yt-microsoft/564XMP2IyLM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'configured manually' is an inference; the transcript says only that the presenter defines a policy for each subset. Reworded it.",
+    "Key points left out the 2-day retention for successful entries and the step of deselecting the 'apply to all records' setting. Added both.",
+    "Quotes match the transcript word for word. 'use for policies' and 'job key' are caption errors but they are verbatim.",
+    "Leaving all feature statuses as unclear is correct, since the transcript never says preview or GA."
+  ],
+  "input_hash": "3f6053e078e40afeb51e9c913e705ddd48fb7036bad769386b3cf7e70751f7a0",
+  "by": "opus",
+  "at": "2026-10-07T23:13:53.105Z",
+  "applied": [
+    "quote at 43s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041189
+  }
+}

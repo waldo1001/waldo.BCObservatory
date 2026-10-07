@@ -577,9 +577,9 @@
       "check": "exact"
     },
     {
-      "t": 688.4,
-      "text": "If synchronization is running in the foreground, then you don't actually see any feedback when you execute synchronization.",
-      "why_it_matters": "Explains a troubleshooting technique for debugging synchronization issues in real-time rather than through job queue logs.",
+      "t": 704.4,
+      "text": "But if you experience some problems, sometimes it's easier to explore it in the foreground.",
+      "why_it_matters": "States the advice to run sync in the foreground when troubleshooting, replacing a misspoken quote.",
       "check": "exact"
     },
     {

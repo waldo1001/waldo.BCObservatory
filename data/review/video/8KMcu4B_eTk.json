@@ -1,0 +1,27 @@
+{
+  "video_id": "8KMcu4B_eTk",
+  "item_id": "video/yt-microsoft/8KMcu4B_eTk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Warehouse Configuration Toggles and Drop-Downs' was marked ga, but its evidence quote only describes the location card change and says nothing about release status. Set it to unclear.",
+    "'Job Task Filtering for Inventory Picks': the transcript says these filtering capabilities were added in the previous release (t=495.5 to 505.6). It is not new in this wave, so the feature is dropped and the key point is corrected.",
+    "Special equipment, bin capacity policy and warehouse class were added in the previous release; only put-away templates and bin ranking are new here. The key point now says so.",
+    "All quotes are verbatim and useful. The summary is supported by the transcript."
+  ],
+  "input_hash": "6f0dfcc878340889eee8fce2e02a114487ecc3696196e300314cffad560e2f7c",
+  "by": "opus",
+  "at": "2026-10-07T23:13:02.073Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Warehouse Configuration Toggles and Drop-Downs: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.130457
+  }
+}

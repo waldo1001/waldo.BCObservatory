@@ -4,12 +4,12 @@
   "summary": "Restricting general ledger posting dates in Business Central: company-wide Allow Posting From and Allow Posting To fields in General Ledger Setup, with per-user overrides on the User Setup page so selected people, such as accountants, can still post in a closed period.",
   "overview": "The video shows how to control which dates people can post to the general ledger. In General Ledger Setup, the Allow Posting From and Allow Posting To fields define the company-wide posting range. The example sets the range to November through December.\n\nWhen November is being closed, the company-wide range can be changed so most people can no longer post in November. The same restriction can then be overridden for specific users on the User Setup page, so a few people, such as accountants, can keep posting in that period.",
   "key_points": [
-    "General Ledger Setup has Allow Posting From and Allow Posting To fields that set the permitted posting date range for the whole company.",
-    "The demo sets the allowed range to specific months, such as November through December.",
-    "To stop posting in a month being closed, change the company-wide range so that month is excluded.",
-    "The company-wide range can be overridden per user on the User Setup page.",
-    "Use case: lock a period for the whole company while leaving it open for a few selected users, such as accountants.",
-    "Both the General Ledger Setup fields and the User Setup override were demonstrated."
+    "General Ledger Setup has Allow Posting From and Allow Posting To fields that set the posting date range allowed for the whole company.",
+    "In the demo, posting was first allowed from November through December.",
+    "To close November, the Allow Posting From date was moved forward to December 1st, so by default everyone can only post in December.",
+    "The company-wide range can be overridden per user with the Allow Posting From and Allow Posting To fields on the User Setup page.",
+    "In the demo, user Carlos can still post in November through his User Setup settings.",
+    "Use case: lock a period for the whole company while leaving it open for a few selected users, such as the accountants closing the month."
   ],
   "audience": [
     "functional consultant",

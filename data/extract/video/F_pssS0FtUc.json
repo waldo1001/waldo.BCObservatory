@@ -766,6 +766,12 @@
       "check": "exact"
     },
     {
+      "t": 2114.7,
+      "text": "Telemetry works both for online and on premises environments so what whatever how you're hosted doesn't matter",
+      "why_it_matters": "Confirms that telemetry is available whether Business Central is hosted online or on premises.",
+      "check": "exact"
+    },
+    {
       "t": 2183.4,
       "text": "very important that you don't do this during working hours because this will do a glitch for a few minutes it will",
       "why_it_matters": "Critical operational constraint: configuring telemetry requires environment downtime and must be scheduled outside business hours.",

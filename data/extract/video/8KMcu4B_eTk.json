@@ -93,10 +93,10 @@
     {
       "name": "Warehouse Configuration Toggles and Drop-Downs",
       "description": "Location cards now have limited toggles for purchase, sales, service, and transfer operations, while internal operations like production, assembly, and jobs have full drop-down configuration options with various combinations.",
-      "status": "ga",
-      "status_evidence_t": 83.4,
-      "status_evidence_quote": "The biggest changes we can notice in the warehouse tab, you can still see the required receipt ship put away and pick toggles are",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 83.4,
       "t_end": 131.1,
       "is_demoed": true,
@@ -190,27 +190,6 @@
         "inventory picks"
       ],
       "system": "warehouse"
-    },
-    {
-      "name": "Job Task Filtering for Inventory Picks",
-      "description": "When creating inventory picks from jobs, users can now filter by job task line to limit scope to specific tasks or milestones.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 472.1,
-      "t_end": 505.6,
-      "is_demoed": true,
-      "caveats": [
-        "Date filtering also available",
-        "Capability added in previous release"
-      ],
-      "tags": [
-        "job tasks",
-        "filtering",
-        "inventory picks"
-      ],
-      "system": "projects"
     },
     {
       "name": "Show Details in Basic Warehouse",

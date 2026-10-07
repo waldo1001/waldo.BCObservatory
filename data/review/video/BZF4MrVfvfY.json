@@ -1,0 +1,28 @@
+{
+  "video_id": "BZF4MrVfvfY",
+  "item_id": "video/yt-microsoft/BZF4MrVfvfY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two quotes share t=823 and are near-duplicates. Both are dropped and replaced with one non-overlapping quote from the same segment.",
+    "Key point said filtering is 'by global dimensions only'. The transcript only says 'we offer filtering on the global Dimensions', so 'only' was removed.",
+    "The summary limited variable allocations to statistical accounts. The transcript also mentions G/L account balances, sales documents and recurring journals, so the summary was broadened.",
+    "All other quotes are verbatim. Feature statuses stay unclear because the transcript says the feature was introduced in this release but never says whether it is preview or GA."
+  ],
+  "input_hash": "6839f777dbe9054ddb386a224d641d4df4ac56b8dc8929a5cbd087fb37977ede",
+  "by": "opus",
+  "at": "2026-10-07T23:13:18.969Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 823s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.131477
+  }
+}

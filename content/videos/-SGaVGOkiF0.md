@@ -17,12 +17,12 @@ tags:
   - due dates
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:05.943Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:05.983Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -50,6 +50,13 @@ evidence:
     commit: null
     t: 102
     quote: we decided to create this app as a global feature for this kind of reporting as it can be useful in other countries
+  - kind: video
+    url: https://www.youtube.com/watch?v=-SGaVGOkiF0&t=113s
+    title: Introducing Payment Times Analysis in Business Central (2023 release wave 2)
+    date: "2023-12-11T16:15:28.000Z"
+    commit: null
+    t: 113
+    quote: as we had a similar feature earlier in United Kingdom Bas app we decided to obsolute this code
   - kind: video
     url: https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s
     title: Introducing Payment Times Analysis in Business Central (2023 release wave 2)
@@ -162,6 +169,9 @@ quotes:
   - t: 102
     text: we decided to create this app as a global feature for this kind of reporting as it can be useful in other countries
     check: exact
+  - t: 113
+    text: as we had a similar feature earlier in United Kingdom Bas app we decided to obsolute this code
+    check: exact
   - t: 153
     text: per company size is required in Sweden but in other countries he mentioned it is required to provide analyzis per period
     check: exact
@@ -180,7 +190,7 @@ quotes:
 
 > Payment Times Analysis in Business Central (2023 release wave 2) analyzes whether vendor and customer payments happen on or after due dates. It can aggregate by company size or by custom period, and the video demos both, including drill-down, history and printing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-SGaVGOkiF0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 8:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=-SGaVGOkiF0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 8:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,8 +201,8 @@ The demo covers two aggregation options: by company size, as required in Sweden,
 ## Key points
 
 - Authorities currently require the analysis for vendors only, but the feature lets you choose vendors, customers or both.
-- Aggregation by company size is the Swedish requirement; company size must be specified on vendor cards or the vendors are not included in the report.
-- Aggregation by period uses periods defined in the Payment Periods table, which must be configured before generating the report.
+- Aggregation by company size is the Swedish requirement; company sizes are specified on vendor cards, and only vendors with a specified size are included in the report.
+- Aggregation by period uses periods set up in the special Payment Periods table, where you can specify any periods you want to see in the report.
 - Statistics include average agreed payment period, average actual payment period and percentage paid on time; amount-based analysis can replace invoice count where a country prefers it.
 - Click generate on the Payment Practices page to collect the data; lines can be drilled into to see invoice and payment entries, dates and amounts.
 - Results are stored for historical viewing and can be printed with the layout selected automatically.
@@ -210,15 +220,15 @@ The demo covers two aggregation options: by company size, as required in Sweden,
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Payment Times Analysis | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |  |
-| Aggregation by Company Size | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |  |
-| Aggregation by Period | status not stated, demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |  |
-| Payment Analysis Statistics | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |  |
-| Payment Analysis Drill-Down | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |  |
-| Historical Payment Data Storage | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |  |
-| Payment Analysis Print Reports | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Payment Times Analysis | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
+| Aggregation by Company Size | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
+| Aggregation by Period | status not stated, demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
+| Payment Analysis Statistics | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
+| Payment Analysis Drill-Down | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
+| Historical Payment Data Storage | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |
+| Payment Analysis Print Reports | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |
 
 ## AL objects mentioned
 
@@ -234,6 +244,7 @@ Not found in BC28-30: page "Payment Practices", table "Payment Periods".
 - [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) "we simply want to analyze how you behave against your vent when it comes to the payments on or after due dates"
 - [1:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=68s) "Swedish companies with 250 and more employees must report Swedish companies registration office that payment times they have for purchase is from a company"
 - [1:42](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=102s) "we decided to create this app as a global feature for this kind of reporting as it can be useful in other countries"
+- [1:53](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=113s) "as we had a similar feature earlier in United Kingdom Bas app we decided to obsolute this code"
 - [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) "per company size is required in Sweden but in other countries he mentioned it is required to provide analyzis per period"
 - [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) "now you can choose between vendors customers or both of them"
 - [3:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=228s) "you just need to click generate and the line will be generated so the data will be collected"

@@ -229,26 +229,6 @@
       "system": "platform"
     },
     {
-      "name": "Performance Toolkit Test Scenario Expansion",
-      "description": "Encouragement for partners to contribute additional test scenarios to increase coverage from 22 scenarios to potentially 222 or 2,200, reducing friction in the testing process.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 787.8,
-      "t_end": 812.8,
-      "is_demoed": false,
-      "caveats": [
-        "Depends on community contribution"
-      ],
-      "tags": [
-        "scenario coverage",
-        "community-driven",
-        "testing"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "KQL-based Test Results Analysis",
       "description": "The ability to analyze test results using Kusto Query Language (KQL) for flexible performance data querying.",
       "status": "unclear",
@@ -341,26 +321,6 @@
       "system": "platform"
     },
     {
-      "name": "Five Pillars of BCPT Success Strategy",
-      "description": "Strategic vision for the toolkit with five key pillars: Remove friction, Change the culture, Collaborate with the community, Enroll ambassadors, and Have better readiness material.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 972.3,
-      "t_end": 1008.6,
-      "is_demoed": false,
-      "caveats": [
-        "Not a prioritized list"
-      ],
-      "tags": [
-        "strategy",
-        "roadmap",
-        "culture"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "BCPT Open Source Capabilities",
       "description": "Business Central Performance Toolkit is available as open source, reducing friction for adoption and enabling partner contributions and automation integration.",
       "status": "unclear",
@@ -375,62 +335,6 @@
         "open source",
         "community",
         "automation"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Performance Testing Automation in Go-Live",
-      "description": "Vision for performance testing to become an automated, routine part of the go-live process, where setting up test runs and getting results becomes a normal practice rather than a special effort.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1031.6,
-      "t_end": 1054.6,
-      "is_demoed": false,
-      "caveats": [
-        "Depends on implementing proper automation"
-      ],
-      "tags": [
-        "go-live",
-        "automation",
-        "future vision"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Performance Testing Culture Change Initiative",
-      "description": "Effort to change organizational culture so performance testing is seen as a natural business practice for all roles, not just technical teams, including pre-sales customer load validation.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1054.6,
-      "t_end": 1092.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "culture",
-        "business practice",
-        "strategy"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "BCPT Ambassador Program",
-      "description": "Program to enroll ambassadors globally, including MVPs and community members, to evangelize performance testing and drive adoption across partner organizations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1113.6,
-      "t_end": 1128.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ambassadors",
-        "community",
-        "evangelization"
       ],
       "system": "platform"
     },
@@ -537,9 +441,21 @@
       "check": "exact"
     },
     {
+      "t": 580.9,
+      "text": "actually in version 22, it was possible to run BCP TS part of AL Go.",
+      "why_it_matters": "Shows that AL Go integration already existed in version 22, before it became out of the box in version 23.",
+      "check": "exact"
+    },
+    {
       "t": 591.4,
       "text": "But um but right now in version 23, it's just out of the box. You can run test uh at a test app of",
       "why_it_matters": "Highlights version 23 improvements making BCPT integration simpler and baseline comparison available.",
+      "check": "exact"
+    },
+    {
+      "t": 645.4,
+      "text": "But the num- the number of SQL statements is is something that you definitely can trust if it goes up.",
+      "why_it_matters": "In baseline comparisons, an increase in SQL statement count is a reliable sign of regression, while duration can vary with the environment.",
       "check": "exact"
     },
     {
@@ -562,26 +478,14 @@
     },
     {
       "t": 834.5,
-      "text": "But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on",
-      "why_it_matters": "Recommends the primary analysis method for BCPT results and emphasizes telemetry pre-requisite.",
-      "check": "exact"
-    },
-    {
-      "t": 834.5,
-      "text": "use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things.",
-      "why_it_matters": "Defines the primary recommended method for analyzing performance test results and establishes a prerequisite for telemetry.",
+      "text": "So if you have enabled telemetry before the test run, you have data on a lot of things.",
+      "why_it_matters": "Telemetry must be enabled before the test run so the Power BI reports have data to analyze.",
       "check": "exact"
     },
     {
       "t": 851,
-      "text": "especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent scenarios running. This is where",
-      "why_it_matters": "Identifies the primary strength of BCPT - finding concurrency-related issues through multi-user testing.",
-      "check": "exact"
-    },
-    {
-      "t": 851,
-      "text": "concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues",
-      "why_it_matters": "Explains the core value proposition of BCPT for detecting critical concurrency issues that would impact production.",
+      "text": "where it really shines is concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks",
+      "why_it_matters": "Says BCPT is strongest at concurrency testing, which brings out deadlocks.",
       "check": "exact"
     },
     {

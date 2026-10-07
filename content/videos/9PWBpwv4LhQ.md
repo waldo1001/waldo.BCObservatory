@@ -20,12 +20,12 @@ tags:
   - web service throttling
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:58.524Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:58.575Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,12 +40,19 @@ evidence:
     t: 172
     quote: we are planning to introduce this concept of quotas in the next uh uh few seme from now
   - kind: video
+    url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1224s
+    title: "Scheduled task concurrency limit increase: preview"
+    date: "2023-12-22T14:10:33.000Z"
+    commit: null
+    t: 1224
+    quote: so the preview that's coming this next quarter is first um in the early um uh early quarter
+  - kind: video
     url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1346s
     title: "Execution time limit for workloads: announced"
     date: "2023-12-22T14:10:33.000Z"
     commit: null
     t: 1346
-    quote: in the future you can expect the introduction of the execution time limit that I mentioned before for example uh if you if we
+    quote: in the future you can expect the introduction of the execution time limit that I mentioned before
   - kind: video
     url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=111s
     title: "What's New: Resource Governance for Business Central Online (2023 release wave 2)"
@@ -117,6 +124,13 @@ evidence:
     t: 1264
     quote: changing the speed limit from the old for web service request from the old 600 um uh requests per environment per minute into actually
   - kind: video
+    url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1325s
+    title: "What's New: Resource Governance for Business Central Online (2023 release wave 2)"
+    date: "2023-12-22T14:10:33.000Z"
+    commit: null
+    t: 1325
+    quote: parallel web survey request 10 100 the same number 100 concurrently handle five uh process and 95 cute but per user
+  - kind: video
     url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1406s
     title: "What's New: Resource Governance for Business Central Online (2023 release wave 2)"
     date: "2023-12-22T14:10:33.000Z"
@@ -124,12 +138,12 @@ evidence:
     t: 1406
     quote: throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide
   - kind: video
-    url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1427s
+    url: https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1447s
     title: "What's New: Resource Governance for Business Central Online (2023 release wave 2)"
     date: "2023-12-22T14:10:33.000Z"
     commit: null
-    t: 1427
-    quote: you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and
+    t: 1447
+    quote: we will do a gradual uh throughput increase let me just give you an illustration
 links:
   learn: []
   objects: []
@@ -232,9 +246,9 @@ features:
     verified: false
     status_source: video
   - name: Scheduled task concurrency limit increase
-    status: unclear
+    status: preview
     t: 1224
-    verified: false
+    verified: true
     status_source: video
   - name: Web service request concurrency limit per user
     status: unclear
@@ -285,11 +299,14 @@ quotes:
   - t: 1264
     text: changing the speed limit from the old for web service request from the old 600 um uh requests per environment per minute into actually
     check: exact
+  - t: 1325
+    text: parallel web survey request 10 100 the same number 100 concurrently handle five uh process and 95 cute but per user
+    check: exact
   - t: 1406
     text: throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide
     check: exact
-  - t: 1427
-    text: you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and
+  - t: 1447
+    text: we will do a gradual uh throughput increase let me just give you an illustration
     check: exact
 ---
 
@@ -297,7 +314,7 @@ quotes:
 
 > Resource governance in Business Central Online (2023 release wave 2): how consumption tracking, user-based operational limits and planned entitlement quotas work. It covers the planned changes to speed, concurrency and execution time limits for scheduled tasks and web service requests.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9PWBpwv4LhQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 26:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9PWBpwv4LhQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 26:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -307,13 +324,13 @@ It then walks through planned limit changes. Limits move from per environment to
 
 ## Key points
 
-- Quotas are entitlements or rights based on licenses. Limits are rules that apply equally to everyone. Entitlement quotas are announced and in the planning stage, estimated for the next two or three quarters.
-- Entitlement quotas are planned to be tiered by license type, cumulative per environment and non-transferable between users. The aim is for 99% of customers to stay within quota.
+- Quotas are entitlements or rights based on licenses. Limits are rules that apply equally to everyone. Entitlement quotas are announced and in the planning stage, estimated for the next two or three semesters.
+- Entitlement quotas are planned to be tiered by license type, cumulative per environment and non-transferable between users. The aim is for 99% of customers to stay within quota, with add-on capacity or pay-as-you-go for excess consumption.
 - Consumption is tracked by a local consumption tracker per user and environment in each cluster. A global consumption tracker aggregates across the tenant and applies customer-wide quotas.
-- Scheduled task concurrency is planned to rise from 3 concurrent tasks per environment to 5 concurrent tasks per user, with an early-quarter rollout.
-- The web service speed limit is planned to change from 600 requests per environment per minute to 6,000 requests per user in a 5-minute sliding window. The speaker places this around November-December and says it is subject to change.
-- Web service concurrency is planned to stay at 10 concurrent requests but apply per user instead of per environment, keeping the 5 processed and 95 queued ratio. The rollout is planned for the end of the quarter.
-- An execution time limit for workloads is announced for a future release. Dynamic resource-based limits are applied internally and are not published.
+- Scheduled task concurrency is planned to rise from 3 concurrent tasks per environment to 5 concurrent tasks per user, previewed early in the quarter.
+- The web service speed limit is planned to change from 600 requests per environment per minute to 6,000 requests per user in a 5-minute sliding window, around November-December. Preview limits are subject to change.
+- Web service concurrency keeps the same number, 100 concurrently handled requests (5 processed, 95 queued), but applies per user instead of per environment. The rollout is planned for the end of the quarter.
+- An execution time limit for workloads is announced for a future release. Dynamic resource-based limits are applied internally and are not published. Throughput increases during the preview are gradual, not big bang.
 
 ## Chapters
 
@@ -346,9 +363,9 @@ It then walks through planned limit changes. Limits move from per environment to
 | Intelligent workload balancing | status not stated | [14:03](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=843s) |  |
 | Entitlement quotas and flexible access consumption | status not stated | [15:04](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=904s) |  |
 | Speed limit for web service requests | status not stated | [21:04](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1264s) |  |
-| Scheduled task concurrency limit increase | status not stated | [20:24](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1224s) |  |
+| Scheduled task concurrency limit increase | preview | [20:24](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1224s) | "so the preview that's coming this next quarter is first um in the early um uh early quarter" ([20:24](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1224s)) |
 | Web service request concurrency limit per user | status not stated | [21:45](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1305s) |  |
-| Execution time limit for workloads | announced | [22:46](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1366s) | "in the future you can expect the introduction of the execution time limit that I mentioned before for example uh if you if we" ([22:26](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1346s)) |
+| Execution time limit for workloads | announced | [22:46](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1366s) | "in the future you can expect the introduction of the execution time limit that I mentioned before" ([22:26](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1346s)) |
 | Gradual throughput increase during preview | status not stated | [23:26](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1406s) |  |
 
 ## AL objects mentioned
@@ -370,8 +387,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [15:20](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=920s) "estimated happening in the next two or three semester from now uh the aim is like uh 99% of our customer will be able"
 - [20:24](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1224s) "we will actually uh upgrade the old concurrency limit for scheduled tasks from three concurrently running tasks per environment into five concurrently running tasks"
 - [21:04](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1264s) "changing the speed limit from the old for web service request from the old 600 um uh requests per environment per minute into actually"
+- [22:05](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1325s) "parallel web survey request 10 100 the same number 100 concurrently handle five uh process and 95 cute but per user"
 - [23:26](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1406s) "throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide"
-- [23:47](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1427s) "you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and"
+- [24:07](https://www.youtube.com/watch?v=9PWBpwv4LhQ&t=1447s) "we will do a gradual uh throughput increase let me just give you an illustration"
 
 ## Disclaimers in the video
 

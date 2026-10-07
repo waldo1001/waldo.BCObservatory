@@ -1,16 +1,16 @@
 {
   "video_id": "lcu53ikOk7s",
   "item_id": "video/yt-microsoft/lcu53ikOk7s",
-  "summary": "Safeguarding G/L accounts from deletion in Business Central through settings on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers retention-driven restrictions on deleting accounts that have transactions.",
+  "summary": "How to safeguard G/L accounts from deletion in Business Central using three fields on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers how a date set for data retention leads to a confirmation prompt, and how Block Deletion turns that prompt into an outright block.",
   "overview": "A G/L account can be deleted even if it has had transactions, as long as certain conditions hold. The video recommends changing settings on the General Ledger Setup page to restrict when deletions can occur.\n\nIt walks through three settings. Check G/L Account Usage blocks deletion of accounts used in setup tables such as posting setup. Check G/L Account Deletion After sets a date, which supports data retention requirements, and the demo sets it to December 31st, 2017. Block Deletion of G/L Account, used together with that date field, blocks deletion outright to enforce a mandatory retention period.",
   "key_points": [
-    "Settings are configured on the General Ledger Setup page.",
-    "Without restrictions, an account can be deleted even if it has had transactions on it, as long as it has no setup usage as described in the video.",
+    "Settings are configured on the General Ledger Setup page (reachable via Alt+Q search).",
+    "By default, an account can be deleted even if it has had transactions, as long as it has no balance and the transactions do not belong to an income year that is still open.",
     "Check G/L Account Usage blocks any attempt to delete an account that is used in setup tables, such as posting setup.",
-    "Check G/L Account Deletion After takes a date after which deleting accounts with transactions is not allowed, to support regulatory data retention.",
-    "Example: for a 5-year retention requirement with a fiscal year matching the calendar year, specify the date after which deletions should not occur.",
-    "In the demo the date was set to December 31st, 2017, so deletion is only allowed if the transactions happened before that date.",
-    "Block Deletion of G/L Account must be combined with Check G/L Account Deletion After to block deletion outright."
+    "Check G/L Account Deletion After takes a date after which you do not want deletions to occur, to support regulatory data retention requirements.",
+    "Example: with fiscal year 2023 open and a 5-year retention (2018 through 2022), the date is set to December 31st, 2017, so deletion is only allowed if transactions happened before that date.",
+    "Trying to delete an account with transactions after that date only triggers a confirmation prompt; the user can still delete.",
+    "Block Deletion of G/L Account works in combination with the Check G/L Account Deletion After date to block deletion outright."
   ],
   "audience": [
     "administrator",

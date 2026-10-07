@@ -1,0 +1,25 @@
+{
+  "video_id": "e5Dr3jzCLM8",
+  "item_id": "video/yt-microsoft/e5Dr3jzCLM8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'December 2023', but the transcript gives no month; only the title says 2023.",
+    "Key point 3 and the inventory feature description say product information is synced automatically. The transcript only says inventory levels are kept up to date, and that you can manage product details in Business Central and decide what to sell.",
+    "All 5 quotes are verbatim. Leaving every feature status as unclear is right because the transcript states no release status."
+  ],
+  "input_hash": "1681a653eb2eade0d72c706ffb6397afa11bce5addee03c56a1db860d781271e",
+  "by": "opus",
+  "at": "2026-10-07T23:13:28.482Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040416999999999995
+  }
+}

@@ -17,18 +17,25 @@ tags:
   - open source
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:09.280Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:09.317Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: fcd612b489e3f1e6f57267e6b15e892a48f2cbfd3cf48197d6434747bd755b71
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=bvGdaxC3sq8&t=185s
+    title: "Contoso Coffee Demo Data: generally available"
+    date: "2023-12-21T13:57:40.000Z"
+    commit: null
+    t: 185
+    quote: We actually have released it like two uh releases ago, uh and we already have some available modules
   - kind: video
     url: https://www.youtube.com/watch?v=bvGdaxC3sq8&t=406s
     title: "Contoso Demo Tool: announced"
@@ -127,9 +134,9 @@ chapters:
     title: Open Source and Feedback
 features:
   - name: Contoso Coffee Demo Data
-    status: unclear
+    status: ga
     t: 161
-    verified: false
+    verified: true
     status_source: video
   - name: Contoso Demo Tool
     status: announced
@@ -192,7 +199,7 @@ quotes:
 
 > Contoso Demo Tool is a tool announced for 2023 release wave 2 (available from version 23.0) that orchestrates modular demo data for Business Central. The video covers the limits of rapid start packages, the Contoso Coffee modules, and how developers build their own demo data modules with dependencies and helper code units.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bvGdaxC3sq8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 12:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=bvGdaxC3sq8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 12:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -226,7 +233,7 @@ The presenter then shows how to build your own demo data module. This covers imp
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Contoso Coffee Demo Data | status not stated | [2:41](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=161s) |  |
+| Contoso Coffee Demo Data | generally available | [2:41](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=161s) | "We actually have released it like two uh releases ago, uh and we already have some available modules" ([3:05](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=185s)) |
 | Contoso Demo Tool | announced, demoed | [5:25](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=325s) | "the new Contoso demo tool will be available from 23.0" ([6:46](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=406s)) |
 | Demo Data Module Interface | status not stated, demoed | [6:28](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=388s) |  |
 | Helper Code Units for Demo Data | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=bvGdaxC3sq8&t=531s) |  |

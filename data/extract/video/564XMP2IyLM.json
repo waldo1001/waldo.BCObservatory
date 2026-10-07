@@ -145,6 +145,12 @@
       "check": "exact"
     },
     {
+      "t": 43,
+      "text": "so I I deselect the apply to all records setting let me Define the policies for the subsets of this table",
+      "why_it_matters": "Shows the setting you turn off to apply different retention periods to subsets of a table.",
+      "check": "exact"
+    },
+    {
       "t": 63.1,
       "text": "I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can",
       "why_it_matters": "Shows a practical retention decision balancing data value with cleanup - failed entries kept longer to allow analysis.",

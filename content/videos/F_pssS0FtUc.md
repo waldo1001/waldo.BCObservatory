@@ -20,12 +20,12 @@ tags:
   - metrics
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:11.893Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:11.936Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -172,6 +172,13 @@ evidence:
     commit: null
     t: 2114
     quote: we introduced this in version 15 which is a few releases ago we are releasing version 22 here in April 2023 so the the
+  - kind: video
+    url: https://www.youtube.com/watch?v=F_pssS0FtUc&t=2114s
+    title: Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data
+    date: "2023-12-14T13:34:41.000Z"
+    commit: null
+    t: 2114
+    quote: Telemetry works both for online and on premises environments so what whatever how you're hosted doesn't matter
   - kind: video
     url: https://www.youtube.com/watch?v=F_pssS0FtUc&t=2183s
     title: Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data
@@ -433,6 +440,9 @@ quotes:
   - t: 2114
     text: we introduced this in version 15 which is a few releases ago we are releasing version 22 here in April 2023 so the the
     check: exact
+  - t: 2114
+    text: Telemetry works both for online and on premises environments so what whatever how you're hosted doesn't matter
+    check: exact
   - t: 2183
     text: very important that you don't do this during working hours because this will do a glitch for a few minutes it will
     check: fuzzy
@@ -445,7 +455,7 @@ quotes:
 
 > Using Business Central telemetry, the Power BI usage app and Application Insights to support go-lives: tracking usage, user acceptance testing coverage, errors and changes. Covers setup through the tenant admin center, privacy and GDPR design, and partner use of the data.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=F_pssS0FtUc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-14 · 39:52 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=F_pssS0FtUc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-14 · 39:52 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -461,7 +471,7 @@ The rest shows how to use the data around go-live: checking which pages, reports
 - During user acceptance testing, the usage report, page views, application highlights, reports usage, feature telemetry and the integrations page show which areas were actually tested. Missing data may mean an area was not tested or is out of scope.
 - The error dashboard covers user, integration and system errors. KPIs such as 'since yesterday' and 'last seven days' help track progress, but they require checking several pages manually.
 - Power BI metrics and scorecards can track KPIs automatically and notify Teams. They need Power BI Pro, quoted at $10 USD per month.
-- Sensitive field monitoring logs who changed a field, when, and in which table. It does not log the data values. Telemetry is supported from version 15, and newer versions provide more data types.
+- Sensitive field monitoring logs who changed a field, when, and in which table. It does not log the data values.
 
 ## Chapters
 
@@ -545,6 +555,7 @@ Not found in BC28-30: codeunit "job queue errors", report "usage report", report
 - [29:57](https://www.youtube.com/watch?v=F_pssS0FtUc&t=1797s) "you don't see any excel here that actually means that you as a customer or if you are a partner this particular customer"
 - [34:14](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2054s) "you need to create what's called an application insights resource in Asher this is where we lock this data to it's an Asher resource"
 - [35:14](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2114s) "we introduced this in version 15 which is a few releases ago we are releasing version 22 here in April 2023 so the the"
+- [35:14](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2114s) "Telemetry works both for online and on premises environments so what whatever how you're hosted doesn't matter"
 - [36:23](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2183s) "very important that you don't do this during working hours because this will do a glitch for a few minutes it will"
 - [39:05](https://www.youtube.com/watch?v=F_pssS0FtUc&t=2345s) "the most important thing is that you as a customer and you as a partner taking care of your customers should use data to"
 

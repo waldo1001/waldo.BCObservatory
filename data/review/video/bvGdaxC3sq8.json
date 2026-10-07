@@ -1,0 +1,25 @@
+{
+  "video_id": "bvGdaxC3sq8",
+  "item_id": "video/yt-microsoft/bvGdaxC3sq8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Contoso Demo Tool evidence quote is verbatim, but it starts at segment t=406, not 325.6. Corrected evidence_t.",
+    "Contoso Coffee Demo Data was marked unclear, but the transcript says it was released two releases ago and already has modules available. Set to ga with evidence.",
+    "The other features and all quotes are supported by the transcript. The summary and key points are accurate."
+  ],
+  "input_hash": "e638cbf1d66d052a20582cadd700bcc64e30f0588554fcf0d5aa6cb304f4b3ee",
+  "by": "opus",
+  "at": "2026-10-07T23:13:09.280Z",
+  "applied": [
+    "Contoso Demo Tool: status announced",
+    "Contoso Coffee Demo Data: status ga"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.076321
+  }
+}

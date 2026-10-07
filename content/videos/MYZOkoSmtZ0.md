@@ -14,12 +14,12 @@ tags:
   - workspace configuration
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:24.929Z"
   flags: []
 generated:
-  at: "2026-10-06T21:44:30.450Z"
+  at: "2026-10-07T23:14:24.967Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,7 +116,7 @@ quotes:
 
 > Creating an Azure Application Insights resource to store Business Central telemetry: subscription, resource group, name, region, and the choice between classic and workspace-based mode. The video says to use workspace-based mode because classic is deprecated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MYZOkoSmtZ0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MYZOkoSmtZ0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -126,12 +126,12 @@ The resource can be created in classic or workspace-based mode. The presenter sa
 
 ## Key points
 
-- Business Central telemetry is stored in Azure Application Insights, which must be provisioned in the Azure portal.
-- The resource is configured with subscription, resource group, name, and region.
-- Two resource modes exist: classic and workspace-based. Use workspace-based.
-- Classic mode is deprecated (marked subject to change in the video).
+- Business Central telemetry is stored in Azure Application Insights, which is provisioned in the Azure portal via Create resource.
+- The resource is configured with subscription, resource group, name, and region (North Europe in the demo).
+- Two resource modes exist: classic and workspace-based. The video says to always use workspace-based.
+- The video describes classic mode as deprecated.
 - In workspace-based mode, the workspace is where the data is actually stored.
-- Deployment takes a few minutes, after which the resource can be added to Business Central.
+- After review and create, deployment takes a few minutes, after which the resource can be added to Business Central.
 
 ## Chapters
 
@@ -143,10 +143,10 @@ The resource can be created in classic or workspace-based mode. The presenter sa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Application Insights for Business Central Telemetry | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=0s) |  |
-| Workspace-based Application Insights Mode | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=82s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Application Insights for Business Central Telemetry | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=0s) |
+| Workspace-based Application Insights Mode | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=82s) |
 
 ## Quotes
 

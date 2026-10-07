@@ -5,12 +5,12 @@
   "overview": "The video covers what changed in the Business Central integration with Power Platform in 2023 release wave 2. Most of it is Power Automate: a new action on approval-enabled pages to create approval workflows, improved approval templates, 17 new automated templates based on business events, new instant templates, and flows that work across companies and environments.\n\nIt also covers connector changes, including the V2 action deprecation and a higher webhook row limit. It then goes through Power Apps canvas apps, Dataverse virtual tables and their setup, Power Pages integration, and Power BI embed improvements with scorecard support.",
   "key_points": [
     "Approval workflow templates can be created from a new action on pages that support approvals. Templates now support real requester details, adaptive cards in Teams and cancel scenarios.",
-    "The approval feature must be enabled in feature management on upgraded environments. It is on by default only for new 2023 wave 2 environments.",
-    "17 new automated flow templates trigger on external business events, for example customer blocking or purchase order release. Business events are still in preview.",
-    "A new List Companies action in the connector returns all companies in an environment. Flows no longer need a company specified to list API categories or tables. Using environment variables across environments needs AL-Go support.",
+    "The Power Automate integration and templates must be turned on in feature management for upgraded environments. They are on by default for new environments, including sandboxes on the 2023 wave 2 preview.",
+    "17 new automated flow templates trigger on external business events, for example customer blocking or purchase order release. The business events concept is still in preview.",
+    "A new List Companies action in the connector returns all companies in an environment. Flows no longer need a company specified to list API categories or tables. Dataverse environment variables are supported, and AL-Go for GitHub also supports environment variables.",
     "Webhook notifications to Power Automate rise from 100 rows to 1,000 rows.",
     "V2 connector actions will be hidden from December. Existing production flows keep working, but editing them requires updating to V3 actions.",
-    "Dataverse virtual tables for Business Central were in preview, with general availability announced for later that year. Assisted setup lets you enable tables one by one or in bulk."
+    "Dataverse virtual tables for Business Central are going to be generally available later this year. Assisted setup lets you enable tables one by one or in bulk."
   ],
   "audience": [
     "functional consultant",

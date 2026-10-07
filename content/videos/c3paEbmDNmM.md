@@ -18,12 +18,12 @@ tags:
   - kpis
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:41.161Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:41.200Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -32,11 +32,11 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=c3paEbmDNmM&t=672s
-    title: "Data Analysis Feature on Lists and Queries: generally available"
+    title: "Data Analysis on Queries: generally available"
     date: "2023-12-18T08:57:57.000Z"
     commit: null
     t: 672
-    quote: this feature that is now generally available on lists and queries
+    quote: this data analysis this feature that is now generally available on lists and queries
   - kind: video
     url: https://www.youtube.com/watch?v=c3paEbmDNmM&t=18s
     title: "What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)"
@@ -123,9 +123,9 @@ chapters:
     title: Relevant Sessions and Closing
 features:
   - name: Data Analysis on Queries
-    status: unclear
+    status: ga
     t: 18
-    verified: false
+    verified: true
     status_source: video
   - name: Server-Side Analysis Views on Queries
     status: unclear
@@ -151,11 +151,6 @@ features:
     status: unclear
     t: 346
     verified: false
-    status_source: video
-  - name: Data Analysis Feature on Lists and Queries
-    status: ga
-    t: 652
-    verified: true
     status_source: video
 objects_mentioned:
   - query item hero query
@@ -188,7 +183,7 @@ quotes:
 
 > New reporting capabilities in Business Central 2023 release wave 2: data analysis on query objects, Excel layouts with multiple data sheets for parent-child data, Power Query and Power Pivot in Excel layouts, and teaching tips and help links for reports and queries. Data analysis on lists and queries is stated as generally available.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=c3paEbmDNmM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 12:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=c3paEbmDNmM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 12:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -220,13 +215,12 @@ For Excel layouts, parent-child (overview-detail) data can be generated as multi
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Data Analysis on Queries | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=c3paEbmDNmM&t=18s) |  |
+| Data Analysis on Queries | generally available, demoed | [0:18](https://www.youtube.com/watch?v=c3paEbmDNmM&t=18s) | "this data analysis this feature that is now generally available on lists and queries" ([11:12](https://www.youtube.com/watch?v=c3paEbmDNmM&t=672s)) |
 | Server-Side Analysis Views on Queries | status not stated | [1:39](https://www.youtube.com/watch?v=c3paEbmDNmM&t=99s) |  |
 | Excel Layout Multiple Data Sheets | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=c3paEbmDNmM&t=159s) |  |
 | Excel Power Query and Power Pivot Support | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=c3paEbmDNmM&t=232s) |  |
 | Teaching Tips on Reports and Queries | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=c3paEbmDNmM&t=346s) |  |
 | Help Links for Reports and Queries | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=c3paEbmDNmM&t=346s) |  |
-| Data Analysis Feature on Lists and Queries | generally available | [10:52](https://www.youtube.com/watch?v=c3paEbmDNmM&t=652s) | "this feature that is now generally available on lists and queries" ([11:12](https://www.youtube.com/watch?v=c3paEbmDNmM&t=672s)) |
 
 ## AL objects mentioned
 

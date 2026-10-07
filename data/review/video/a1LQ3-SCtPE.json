@@ -1,0 +1,39 @@
+{
+  "video_id": "a1LQ3-SCtPE",
+  "item_id": "video/yt-microsoft/a1LQ3-SCtPE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Duplicate features: 'Set-Based Load Fields' repeats 'Set-based load fields method for base table owners', 'New locking scheme' repeats 'New Locking Model', 'Extension Schema Performance' repeats the companion table feature, and 'Data cleanup and storage optimization' repeats 'Orphaned Extension Data Cleanup' (its 'delete deleted data' wording is also garbled).",
+    "'AL language and developer tools updates' and 'Reporting improvements with indexing' are pointers to other sessions, not features covered in this video. Dropped them.",
+    "All statuses were unclear. Set ga or announced where the transcript states it, with verbatim evidence.",
+    "The quote at 867.9 repeats the 847.8 quote. The developer tools quote at 1618.6 adds nothing. The two quotes at 1577.9 duplicate each other, so I dropped both and re-added one.",
+    "The locking key point left out the rollout plan: on by default in the next version and mandatory from version 25. Added it."
+  ],
+  "input_hash": "6a99f4fbdb543b02f5f9a087163d0c0bb2f2b0736e8f2ae033a65ae68e037a24",
+  "by": "opus",
+  "at": "2026-10-07T23:13:56.435Z",
+  "applied": [
+    "dropped 6 feature(s)",
+    "Removal of Force Order and Loop Joints Server Settings: status announced",
+    "dropped 4 quote(s)",
+    "quote at 1578s",
+    "quote at 1483s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status New companion table schema for table extensions -> ga: evidence not verbatim or does not state the status",
+    "status Cloud migration support for new schema -> ga: evidence not verbatim or does not state the status",
+    "status Set-based load fields method for base table owners -> ga: evidence not verbatim or does not state the status",
+    "status Orphaned Extension Data Cleanup -> ga: evidence not verbatim or does not state the status",
+    "status New Locking Model -> ga: evidence not verbatim or does not state the status",
+    "status AutoIncrement Field Performance Optimization -> ga: evidence not verbatim or does not state the status",
+    "status Removal of App Database Write Capability -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.17754899999999998
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - performance culture
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:11.239Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:11.284Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,12 +54,26 @@ evidence:
     t: 360
     quote: Testing performance before go live should be as simple as 1 2 3.
   - kind: video
+    url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=580s
+    title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
+    date: "2023-12-21T14:02:25.000Z"
+    commit: null
+    t: 580
+    quote: actually in version 22, it was possible to run BCP TS part of AL Go.
+  - kind: video
     url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=591s
     title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
     date: "2023-12-21T14:02:25.000Z"
     commit: null
     t: 591
     quote: But um but right now in version 23, it's just out of the box. You can run test uh at a test app of
+  - kind: video
+    url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=645s
+    title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
+    date: "2023-12-21T14:02:25.000Z"
+    commit: null
+    t: 645
+    quote: But the num- the number of SQL statements is is something that you definitely can trust if it goes up.
   - kind: video
     url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=677s
     title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
@@ -87,28 +101,14 @@ evidence:
     date: "2023-12-21T14:02:25.000Z"
     commit: null
     t: 834
-    quote: But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on
-  - kind: video
-    url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s
-    title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
-    date: "2023-12-21T14:02:25.000Z"
-    commit: null
-    t: 834
-    quote: use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things.
+    quote: So if you have enabled telemetry before the test run, you have data on a lot of things.
   - kind: video
     url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s
     title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
     date: "2023-12-21T14:02:25.000Z"
     commit: null
     t: 851
-    quote: especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent scenarios running. This is where
-  - kind: video
-    url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s
-    title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
-    date: "2023-12-21T14:02:25.000Z"
-    commit: null
-    t: 851
-    quote: concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues
+    quote: where it really shines is concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks
   - kind: video
     url: https://www.youtube.com/watch?v=XcQFvNnKpxk&t=915s
     title: "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)"
@@ -230,11 +230,6 @@ features:
     t: 623
     verified: false
     status_source: video
-  - name: Performance Toolkit Test Scenario Expansion
-    status: unclear
-    t: 787
-    verified: false
-    status_source: video
   - name: KQL-based Test Results Analysis
     status: unclear
     t: 823
@@ -260,29 +255,9 @@ features:
     t: 949
     verified: false
     status_source: video
-  - name: Five Pillars of BCPT Success Strategy
-    status: unclear
-    t: 972
-    verified: false
-    status_source: video
   - name: BCPT Open Source Capabilities
     status: unclear
     t: 1008
-    verified: false
-    status_source: video
-  - name: Performance Testing Automation in Go-Live
-    status: unclear
-    t: 1031
-    verified: false
-    status_source: video
-  - name: Performance Testing Culture Change Initiative
-    status: unclear
-    t: 1054
-    verified: false
-    status_source: video
-  - name: BCPT Ambassador Program
-    status: unclear
-    t: 1113
     verified: false
     status_source: video
   - name: BCPT Documentation and Personas
@@ -316,8 +291,14 @@ quotes:
   - t: 360
     text: Testing performance before go live should be as simple as 1 2 3.
     check: exact
+  - t: 580
+    text: actually in version 22, it was possible to run BCP TS part of AL Go.
+    check: exact
   - t: 591
     text: But um but right now in version 23, it's just out of the box. You can run test uh at a test app of
+    check: exact
+  - t: 645
+    text: But the num- the number of SQL statements is is something that you definitely can trust if it goes up.
     check: exact
   - t: 677
     text: Well, in version 23, the toolkit itself can source the test codes from GitHub. So, no need necessarily to bake it in.
@@ -329,16 +310,10 @@ quotes:
     text: with good coverage instead of 22, maybe 222 or 2,200 like the different scenarios that that really cover the application
     check: exact
   - t: 834
-    text: But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on
-    check: exact
-  - t: 834
-    text: use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things.
+    text: So if you have enabled telemetry before the test run, you have data on a lot of things.
     check: exact
   - t: 851
-    text: especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent scenarios running. This is where
-    check: exact
-  - t: 851
-    text: concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues
+    text: where it really shines is concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks
     check: exact
   - t: 915
     text: all be background because the Business Central uh performance toolkit uh runs everything with background sessions.
@@ -361,7 +336,7 @@ quotes:
 
 > Business Central Performance Toolkit (BCPT) is a multi-user benchmarking tool for testing performance before go-live. The video covers a plan, run, analyze approach, version 23 AL Go support with baseline comparison, test scenarios sourced from GitHub, and analysis with Power BI telemetry reports.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XcQFvNnKpxk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 24:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XcQFvNnKpxk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-21 · 24:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -398,29 +373,24 @@ It shows that in version 23 BCPT works out of the box in AL Go, with a BCPT work
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Business Central Performance Toolkit (BCPT) | status not stated | [4:03](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=243s) |  |
-| BCPT DevOps Pipeline Integration | status not stated | [8:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=497s) |  |
-| Version 23 BCPT Out-of-Box DevOps Support | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=591s) |  |
-| GitHub-Based Test Scenario Sourcing | status not stated, demoed | [11:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=677s) |  |
-| Power BI Telemetry Reports for Performance Analysis | status not stated | [13:54](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s) |  |
-| Concurrency Testing and Deadlock Detection | status not stated | [14:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s) |  |
-| SQL Statement Regression Detection | status not stated | [10:23](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=623s) |  |
-| Performance Toolkit Test Scenario Expansion | status not stated | [13:07](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=787s) |  |
-| KQL-based Test Results Analysis | status not stated | [13:43](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=823s) |  |
-| DevOps Integration with Performance Reports | status not stated | [13:43](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=823s) |  |
-| Database Lock Timeout Diagnostics | status not stated | [14:56](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=896s) |  |
-| AL Stack Trace Analysis | status not stated | [15:27](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=927s) |  |
-| SQL Query Analysis for Performance | status not stated | [15:49](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=949s) |  |
-| Five Pillars of BCPT Success Strategy | status not stated | [16:12](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=972s) |  |
-| BCPT Open Source Capabilities | status not stated | [16:48](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1008s) |  |
-| Performance Testing Automation in Go-Live | status not stated | [17:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1031s) |  |
-| Performance Testing Culture Change Initiative | status not stated | [17:34](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1054s) |  |
-| BCPT Ambassador Program | status not stated | [18:33](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1113s) |  |
-| BCPT Documentation and Personas | status not stated | [18:48](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1128s) |  |
-| BCPT Pre-Sales Load Testing Guidance | status not stated | [19:13](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1153s) |  |
-| BCPT FAQ Documentation | status not stated | [19:58](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1198s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Business Central Performance Toolkit (BCPT) | status not stated | [4:03](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=243s) |
+| BCPT DevOps Pipeline Integration | status not stated | [8:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=497s) |
+| Version 23 BCPT Out-of-Box DevOps Support | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=591s) |
+| GitHub-Based Test Scenario Sourcing | status not stated, demoed | [11:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=677s) |
+| Power BI Telemetry Reports for Performance Analysis | status not stated | [13:54](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s) |
+| Concurrency Testing and Deadlock Detection | status not stated | [14:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s) |
+| SQL Statement Regression Detection | status not stated | [10:23](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=623s) |
+| KQL-based Test Results Analysis | status not stated | [13:43](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=823s) |
+| DevOps Integration with Performance Reports | status not stated | [13:43](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=823s) |
+| Database Lock Timeout Diagnostics | status not stated | [14:56](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=896s) |
+| AL Stack Trace Analysis | status not stated | [15:27](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=927s) |
+| SQL Query Analysis for Performance | status not stated | [15:49](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=949s) |
+| BCPT Open Source Capabilities | status not stated | [16:48](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1008s) |
+| BCPT Documentation and Personas | status not stated | [18:48](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1128s) |
+| BCPT Pre-Sales Load Testing Guidance | status not stated | [19:13](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1153s) |
+| BCPT FAQ Documentation | status not stated | [19:58](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1198s) |
 
 ## AL objects mentioned
 
@@ -437,14 +407,14 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:03](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=243s) "It's called Business Central Performance Toolkit, or BCPT. With Microsoft, we abbreviate everything. It's a multi-user benchmarking tool."
 - [4:14](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=254s) "You can simulate multiple users running simultaneously. You can measure performance, detect locking issues, and test usage on a system under load."
 - [6:00](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=360s) "Testing performance before go live should be as simple as 1 2 3."
+- [9:40](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=580s) "actually in version 22, it was possible to run BCP TS part of AL Go."
 - [9:51](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=591s) "But um but right now in version 23, it's just out of the box. You can run test uh at a test app of"
+- [10:45](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=645s) "But the num- the number of SQL statements is is something that you definitely can trust if it goes up."
 - [11:17](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=677s) "Well, in version 23, the toolkit itself can source the test codes from GitHub. So, no need necessarily to bake it in."
 - [12:52](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=772s) "So, right now we have 22 scenarios available scenarios available on GitHub and hopefully many more to come."
 - [13:22](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=802s) "with good coverage instead of 22, maybe 222 or 2,200 like the different scenarios that that really cover the application"
-- [13:54](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s) "But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on"
-- [13:54](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s) "use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things."
-- [14:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s) "especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent scenarios running. This is where"
-- [14:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s) "concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues"
+- [13:54](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=834s) "So if you have enabled telemetry before the test run, you have data on a lot of things."
+- [14:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=851s) "where it really shines is concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks"
 - [15:15](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=915s) "all be background because the Business Central uh performance toolkit uh runs everything with background sessions."
 - [16:23](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=983s) "We we thought of different ingredients of success. It's not a prioritized list, but things we wanted to have to happen to this tool"
 - [17:11](https://www.youtube.com/watch?v=XcQFvNnKpxk&t=1031s) "over time think of this as just part of your normal go live or your normal practice."

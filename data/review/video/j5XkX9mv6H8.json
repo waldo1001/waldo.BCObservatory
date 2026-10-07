@@ -1,0 +1,23 @@
+{
+  "video_id": "j5XkX9mv6H8",
+  "item_id": "video/yt-microsoft/j5XkX9mv6H8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All four quotes are verbatim spans of the transcript. Some differ only in case or a leading 'And'.",
+    "Both features are correctly marked unclear because the transcript never says whether the feature is in preview or generally available.",
+    "The summary and key points are supported by the transcript, including the restart warning, the advice to avoid working hours, the Azure portal Essentials connection string and data arriving within minutes.",
+    "The quote at t=41.3 stops at 'during' instead of 'during working hours'. This is acceptable because the key points cover it."
+  ],
+  "input_hash": "c31fb89972d2c6a93beda87e7d132e0a5d0db69cddc2f6d31c91a454f4c2e38b",
+  "by": "opus",
+  "at": "2026-10-07T23:14:23.533Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029869
+  }
+}

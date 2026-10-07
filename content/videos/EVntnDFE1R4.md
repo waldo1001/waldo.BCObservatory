@@ -20,25 +20,18 @@ tags:
   - power bi
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:12:58.282Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:12:58.328Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 24b48c89c1c1ff4c9737271ec67050c088698bce488403fb4d09ba9c2bb6f947
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=EVntnDFE1R4&t=715s
-    title: "Automated Flow Templates Based on Business Events: preview"
-    date: "2023-12-22T14:08:42.000Z"
-    commit: null
-    t: 715
-    quote: the concept of business events is is new in business Central and it's still in preview
   - kind: video
     url: https://www.youtube.com/watch?v=EVntnDFE1R4&t=715s
     title: "Business Events Trigger: preview"
@@ -219,9 +212,9 @@ features:
     verified: false
     status_source: video
   - name: Automated Flow Templates Based on Business Events
-    status: preview
+    status: unclear
     t: 322
-    verified: true
+    verified: false
     status_source: video
   - name: Instant Flow Templates
     status: unclear
@@ -350,7 +343,7 @@ quotes:
 
 > Business Central 2023 release wave 2 integration with Power Platform: Power Automate approval and business-event templates, multi-company flow support, connector V2 deprecation, canvas apps, Dataverse virtual tables, Power Pages (preview) and Power BI embed and scorecards.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=EVntnDFE1R4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 23:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=EVntnDFE1R4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 23:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -361,12 +354,12 @@ It also covers connector changes, including the V2 action deprecation and a high
 ## Key points
 
 - Approval workflow templates can be created from a new action on pages that support approvals. Templates now support real requester details, adaptive cards in Teams and cancel scenarios.
-- The approval feature must be enabled in feature management on upgraded environments. It is on by default only for new 2023 wave 2 environments.
-- 17 new automated flow templates trigger on external business events, for example customer blocking or purchase order release. Business events are still in preview.
-- A new List Companies action in the connector returns all companies in an environment. Flows no longer need a company specified to list API categories or tables. Using environment variables across environments needs AL-Go support.
+- The Power Automate integration and templates must be turned on in feature management for upgraded environments. They are on by default for new environments, including sandboxes on the 2023 wave 2 preview.
+- 17 new automated flow templates trigger on external business events, for example customer blocking or purchase order release. The business events concept is still in preview.
+- A new List Companies action in the connector returns all companies in an environment. Flows no longer need a company specified to list API categories or tables. Dataverse environment variables are supported, and AL-Go for GitHub also supports environment variables.
 - Webhook notifications to Power Automate rise from 100 rows to 1,000 rows.
 - V2 connector actions will be hidden from December. Existing production flows keep working, but editing them requires updating to V3 actions.
-- Dataverse virtual tables for Business Central were in preview, with general availability announced for later that year. Assisted setup lets you enable tables one by one or in bulk.
+- Dataverse virtual tables for Business Central are going to be generally available later this year. Assisted setup lets you enable tables one by one or in bulk.
 
 ## Chapters
 
@@ -389,7 +382,7 @@ It also covers connector changes, including the V2 action deprecation and a high
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Approval Workflow Templates in Power Automate | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=EVntnDFE1R4&t=180s) |  |
-| Automated Flow Templates Based on Business Events | preview, demoed | [5:22](https://www.youtube.com/watch?v=EVntnDFE1R4&t=322s) | "the concept of business events is is new in business Central and it's still in preview" ([11:55](https://www.youtube.com/watch?v=EVntnDFE1R4&t=715s)) |
+| Automated Flow Templates Based on Business Events | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=EVntnDFE1R4&t=322s) |  |
 | Instant Flow Templates | status not stated | [5:42](https://www.youtube.com/watch?v=EVntnDFE1R4&t=342s) |  |
 | Dynamic Company and Environment Support in Power Automate | status not stated, demoed | [8:23](https://www.youtube.com/watch?v=EVntnDFE1R4&t=503s) |  |
 | List Companies Action in Connector | status not stated, demoed | [9:24](https://www.youtube.com/watch?v=EVntnDFE1R4&t=564s) |  |

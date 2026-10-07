@@ -15,12 +15,12 @@ tags:
   - data governance
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:53.105Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 43
     quote: I don't want to store all data in this table for one month it depends depends on if the job queue has failed or
+  - kind: video
+    url: https://www.youtube.com/watch?v=564XMP2IyLM&t=43s
+    title: Use Retention Policies to Avoid Unnecessary Database Growth
+    date: "2023-12-13T13:07:38.000Z"
+    commit: null
+    t: 43
+    quote: so I I deselect the apply to all records setting let me Define the policies for the subsets of this table
   - kind: video
     url: https://www.youtube.com/watch?v=564XMP2IyLM&t=63s
     title: Use Retention Policies to Avoid Unnecessary Database Growth
@@ -131,6 +138,9 @@ quotes:
   - t: 43
     text: I don't want to store all data in this table for one month it depends depends on if the job queue has failed or
     check: exact
+  - t: 43
+    text: so I I deselect the apply to all records setting let me Define the policies for the subsets of this table
+    check: exact
   - t: 63
     text: I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can
     check: exact
@@ -146,7 +156,7 @@ quotes:
 
 > Retention policies in Business Central let administrators trim activity logging and archiving tables to avoid unnecessary database growth. The video demos enabling a default policy on the job queue log entry table and using filters to set different retention periods for failed and successful entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=564XMP2IyLM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-13 · 2:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=564XMP2IyLM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-13 · 2:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -158,10 +168,9 @@ Using the job queue log entry table as an example, it sets a retention period an
 
 - Business Central ships default retention policies, but none are enforced until you enable the ones you want.
 - Retention policies are meant for activity logging and archiving tables, such as the job queue log entries table.
-- Filters let you apply different retention periods to different subsets of records, for example failed versus successful job queue entries.
-- The demo keeps failed job queue log entries for 5 days so people have time to react to failures.
-- Each subset needs its own filter criteria and retention period, configured manually.
-- After a policy is enabled, it continuously deletes data older than the retention period.
+- To apply different retention periods to subsets of records, deselect the 'apply to all records' setting and define a policy for each subset.
+- The demo keeps failed job queue log entries for 5 days so people have time to analyze errors, and successful entries for only 2 days.
+- After a policy is enabled, it continuously deletes data once each retention period has passed.
 - Stated benefits are lower database cost and better performance.
 
 ## Chapters
@@ -175,11 +184,11 @@ Using the job queue log entry table as an example, it sets a retention period an
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Retention Policies | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=564XMP2IyLM&t=0s) |  |
-| Default Retention Policies | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=23s) |  |
-| Filtered Retention Policies | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Retention Policies | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=564XMP2IyLM&t=0s) |
+| Default Retention Policies | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=23s) |
+| Filtered Retention Policies | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) |
 
 ## AL objects mentioned
 
@@ -195,6 +204,7 @@ Not found in BC28-30: table "job CU log entry".
 - [0:00](https://www.youtube.com/watch?v=564XMP2IyLM&t=0s) "some tables in business Central are intended for activity logging And archiving it's a good idea to keep these tables trimmed so you don't"
 - [0:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=23s) "here you see the default retention policies provided with business Central it's up to you to enable the policies you want enforced"
 - [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) "I don't want to store all data in this table for one month it depends depends on if the job queue has failed or"
+- [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) "so I I deselect the apply to all records setting let me Define the policies for the subsets of this table"
 - [1:03](https://www.youtube.com/watch?v=564XMP2IyLM&t=63s) "I want to keep failed job queue log entries for 5 days I want to allow people some reaction time so that they can"
 - [1:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=83s) "I can enable this retention policy and this will now continuously make sure that data in the job key log entry is deleted after"
 - [1:44](https://www.youtube.com/watch?v=564XMP2IyLM&t=104s) "save your database cost and do a good thing for performance use for policies"

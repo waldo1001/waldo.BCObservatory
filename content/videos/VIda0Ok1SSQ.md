@@ -14,12 +14,12 @@ tags:
   - expense deferrals
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:16.493Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:16.533Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,7 +124,7 @@ quotes:
 
 > Control of deferral posting in Business Central finance: how general ledger setup defines a company-wide window for posting deferrals, and how user setup lets specific users post outside it. Includes a deferral template example spreading income over six periods.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VIda0Ok1SSQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-06 · 1:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VIda0Ok1SSQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-06 · 1:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -134,13 +134,12 @@ It then shows two fields in general ledger setup that define the window in which
 
 ## Key points
 
-- Deferral templates define how income or expenses are spread over future accounting periods; the example uses a straight line over six periods.
-- Posting an invoice that uses a deferral template creates future general ledger postings.
-- General ledger setup has two fields that define the window in which deferral posting to the general ledger is allowed.
-- The general ledger setup window applies company-wide.
-- User setup can give an individual user permission to post deferrals outside the company-wide window.
+- Deferral templates define how income or expenses are spread over future accounting periods; the example uses a straight line over six periods (six months).
+- Posting an invoice that uses a deferral template creates future general ledger postings, so you may not want everyone to be able to do it.
+- General ledger setup has two fields that define the window in which deferral posting to the general ledger is allowed, and these rules apply to the entire company.
+- In the demo, the company-wide window is set to cover the year 2023.
+- User setup can enable an individual user to post deferrals outside the company-wide window.
 - In the demo, user Carlos can post deferrals into the future through June 2024.
-- The override applies only to users configured for it.
 
 ## Chapters
 
@@ -152,11 +151,11 @@ It then shows two fields in general ledger setup that define the window in which
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Deferral Posting Controls | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=0s) |  |
-| User-Level Deferral Posting Overrides | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s) |  |
-| Deferral Templates | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=16s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Deferral Posting Controls | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=0s) |
+| User-Level Deferral Posting Overrides | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s) |
+| Deferral Templates | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=16s) |
 
 ## AL objects mentioned
 

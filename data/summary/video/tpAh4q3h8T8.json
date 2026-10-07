@@ -6,7 +6,7 @@
   "key_points": [
     "The debugger can be attached to a session directly from the client, without configuration files, and runs the current project scope.",
     "Actionable errors let developers add context and suggested actions to error messages.",
-    "The page inspector shows the page name, items and fields from the client and leads to the relevant code. Symbols must be downloaded beforehand.",
+    "The page inspector shows the page name, items and fields from the client and can jump to the relevant code (the presenter had already downloaded the symbols).",
     "GitHub Copilot can generate error messages in the context of the developer's work. The speaker recommends checking the generated code before using it.",
     "Embedding a Power BI visual needs a fact box, a trigger, and the report ID and visual ID. The BC samples documentation has examples.",
     "Power users can add fields in customization mode without code, but an admin must give them permission to invoke the customization action.",

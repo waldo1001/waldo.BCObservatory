@@ -61,10 +61,10 @@
     {
       "name": "Data Analysis on Queries",
       "description": "The query object now has an analysis view attached and can be opened directly in the UI with Run object support, allowing users to add it as an action on pages to show query results with grouping and pivoting capabilities.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 672.4,
+      "status_evidence_quote": "this data analysis this feature that is now generally available on lists and queries",
+      "status_evidence_verified": true,
       "t_start": 18.2,
       "t_end": 79,
       "is_demoed": true,
@@ -176,25 +176,6 @@
         "help-links",
         "documentation",
         "user-support"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Data Analysis Feature on Lists and Queries",
-      "description": "A data analysis feature is now generally available on both lists and queries, enabling users to perform dynamic query capabilities and filtering for business intelligence purposes.",
-      "status": "ga",
-      "status_evidence_t": 672.4,
-      "status_evidence_quote": "this feature that is now generally available on lists and queries",
-      "status_evidence_verified": true,
-      "t_start": 652.1,
-      "t_end": 700,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "analysis",
-        "lists",
-        "queries",
-        "bi"
       ],
       "system": "reporting"
     }

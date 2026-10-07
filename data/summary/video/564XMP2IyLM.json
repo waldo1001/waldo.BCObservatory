@@ -6,10 +6,9 @@
   "key_points": [
     "Business Central ships default retention policies, but none are enforced until you enable the ones you want.",
     "Retention policies are meant for activity logging and archiving tables, such as the job queue log entries table.",
-    "Filters let you apply different retention periods to different subsets of records, for example failed versus successful job queue entries.",
-    "The demo keeps failed job queue log entries for 5 days so people have time to react to failures.",
-    "Each subset needs its own filter criteria and retention period, configured manually.",
-    "After a policy is enabled, it continuously deletes data older than the retention period.",
+    "To apply different retention periods to subsets of records, deselect the 'apply to all records' setting and define a policy for each subset.",
+    "The demo keeps failed job queue log entries for 5 days so people have time to analyze errors, and successful entries for only 2 days.",
+    "After a policy is enabled, it continuously deletes data once each retention period has passed.",
     "Stated benefits are lower database cost and better performance."
   ],
   "audience": [

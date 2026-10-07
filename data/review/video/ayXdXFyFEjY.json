@@ -1,0 +1,25 @@
+{
+  "video_id": "ayXdXFyFEjY",
+  "item_id": "video/yt-microsoft/ayXdXFyFEjY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript; no quotes dropped.",
+    "The last key point says the video presents this as part of 2024 release wave 1 and demos every feature listed. The transcript never mentions a release wave (only the title does), and 'demos every feature listed' is filler, so I replaced that point.",
+    "All feature statuses stay unclear because the transcript never says whether anything is preview or generally available.",
+    "The summary is supported; its mention of 2024 release wave 1 comes from the video title, which is acceptable."
+  ],
+  "input_hash": "b0a570a822622da2b065f1ab18d9c02505983540b0b3aa00a2301b2456320a85",
+  "by": "opus",
+  "at": "2026-10-07T23:14:15.634Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042329
+  }
+}

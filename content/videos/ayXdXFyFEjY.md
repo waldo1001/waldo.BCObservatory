@@ -16,12 +16,12 @@ tags:
   - e-commerce
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:15.634Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:15.667Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,7 +168,7 @@ quotes:
 
 > Copilot product description generation in Business Central (2024 release wave 1), shown in a 2-minute demo: image-based category suggestion, attribute and tone customization, and publishing the product to Shopify through the first-party connector.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ayXdXFyFEjY) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-08 · 2:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ayXdXFyFEjY) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-08 · 2:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -183,7 +183,7 @@ The user can pick which product attributes matter, choose formatting options, an
 - Users select which product attributes are most relevant to the description and choose formatting options for consistency across product lines.
 - Tone of voice can be customized to match brand identity and target audience.
 - Products can be published to Shopify through Business Central's first-party Shopify connector.
-- The video presents this as part of the 2024 release wave 1 and demos every feature listed.
+- The user reviews and edits the generated text before publishing.
 
 ## Chapters
 
@@ -197,13 +197,13 @@ The user can pick which product attributes matter, choose formatting options, an
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot product description generation | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=21s) |  |
-| Image-based product category suggestion | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=41s) |  |
-| Attribute-based description customization | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=62s) |  |
-| Tone of voice customization | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=82s) |  |
-| Shopify connector | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=102s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot product description generation | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=21s) |
+| Image-based product category suggestion | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=41s) |
+| Attribute-based description customization | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=62s) |
+| Tone of voice customization | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=82s) |
+| Shopify connector | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=102s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,36 @@
+{
+  "video_id": "205F8ljmInU",
+  "item_id": "video/yt-microsoft/205F8ljmInU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Mandatory Digital Vouchers, SAF-T Module and NemHandle Registration Notification all used the wave-two quote, which starts at t 353.8, but their evidence_t values were 385.2, 463.1 and 681.5. Corrected to 353.8.",
+    "E-invoicing evidence quote is about the VAT API app and starts at 893.2, not 825.6. Replaced it with a statement about e-invoicing at 839.",
+    "Digital Voucher Storage evidence quote starts at 1027, not 910.6. Corrected.",
+    "Audit Trail and Bank Reconciliation are described as already in Business Central, so they are now marked ga with evidence.",
+    "The format names 'OioPh and PEP3' do not appear in the transcript. The garbled captions read 'obl and P B3'. Removed them from the key point; the feature description still contains them.",
+    "The summary listed the audit trail as a new feature, but the transcript presents it as existing functionality. Summary rewritten."
+  ],
+  "input_hash": "99cc81252c0c78886d4ba79f79a061abab93f01a8bea3575231144ca99994190",
+  "by": "opus",
+  "at": "2026-10-07T23:14:11.197Z",
+  "applied": [
+    "Mandatory Digital Vouchers: status announced",
+    "SAF-T Module: status announced",
+    "NemHandle Registration Notification: status announced",
+    "E-invoicing for Denmark: status announced",
+    "Digital Voucher Storage for Five Years: status announced",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Audit Trail for Transactions -> ga: evidence not verbatim or does not state the status",
+    "status Bank Reconciliation -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.125689
+  }
+}

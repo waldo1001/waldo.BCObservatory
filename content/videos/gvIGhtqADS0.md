@@ -14,12 +14,12 @@ tags:
   - employee training
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:19.256Z"
   flags: []
 generated:
-  at: "2026-10-06T21:43:35.182Z"
+  at: "2026-10-07T23:14:19.290Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,7 +138,7 @@ quotes:
 
 > Copilot conversational chat in Dynamics 365 Business Central (2024 release wave 1): users ask questions in natural language to find data and answers instead of navigating menus. The video covers follow-up questions, Copilot as a virtual assistant, and use for onboarding and learning.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gvIGhtqADS0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-06 · 1:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gvIGhtqADS0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-06 · 1:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,12 +166,12 @@ The video describes refining a search with follow-up questions when the first re
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Conversational Chat | status not stated | [0:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=2s) |  |
-| Follow-up Questions and Clarification | status not stated | [0:38](https://www.youtube.com/watch?v=gvIGhtqADS0&t=38s) |  |
-| Virtual Assistant for Complex Queries | status not stated | [0:51](https://www.youtube.com/watch?v=gvIGhtqADS0&t=51s) |  |
-| Learning and Onboarding Support | status not stated | [1:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=62s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Conversational Chat | status not stated | [0:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=2s) |
+| Follow-up Questions and Clarification | status not stated | [0:38](https://www.youtube.com/watch?v=gvIGhtqADS0&t=38s) |
+| Virtual Assistant for Complex Queries | status not stated | [0:51](https://www.youtube.com/watch?v=gvIGhtqADS0&t=51s) |
+| Learning and Onboarding Support | status not stated | [1:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=62s) |
 
 ## Quotes
 

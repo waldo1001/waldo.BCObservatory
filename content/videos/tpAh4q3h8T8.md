@@ -20,25 +20,18 @@ tags:
   - personalization
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:07.737Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:07.786Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 6f6c8df5cac0a1dd434a641108597e220164668f4a9203572d3ca92e3142348a
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=tpAh4q3h8T8&t=60s
-    title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
-    date: "2023-12-13T12:24:03.000Z"
-    commit: null
-    t: 60
-    quote: the last three months the service was super performant highly available resilient loved it today look at this
   - kind: video
     url: https://www.youtube.com/watch?v=tpAh4q3h8T8&t=141s
     title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
@@ -67,13 +60,6 @@ evidence:
     commit: null
     t: 548
     quote: summon the page inspector we are summoning many many nice great Technologies today
-  - kind: video
-    url: https://www.youtube.com/watch?v=tpAh4q3h8T8&t=681s
-    title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
-    date: "2023-12-13T12:24:03.000Z"
-    commit: null
-    t: 681
-    quote: you see AI is the only thinking as well it's not only me and you
   - kind: video
     url: https://www.youtube.com/watch?v=tpAh4q3h8T8&t=817s
     title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
@@ -213,9 +199,6 @@ objects_mentioned:
   - page Sales Order
   - page Profiles
 quotes:
-  - t: 60
-    text: the last three months the service was super performant highly available resilient loved it today look at this
-    check: exact
   - t: 141
     text: release of business central you can actually directly attach the debugger to this session from the client
     check: fuzzy
@@ -227,9 +210,6 @@ quotes:
     check: exact
   - t: 548
     text: summon the page inspector we are summoning many many nice great Technologies today
-    check: exact
-  - t: 681
-    text: you see AI is the only thinking as well it's not only me and you
     check: exact
   - t: 817
     text: with this release of Business Center you can go to a report select the visual that you love and directly put it in the
@@ -255,7 +235,7 @@ quotes:
 
 > Directions EMEA 2023 keynote demoing Business Central tools for developers, consultants and power users: attached debugger from the client, actionable errors, GitHub Copilot, page inspector, Copilot Chat, embedded Power BI visuals, page customization by power users, and AL-GO deployment to production.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tpAh4q3h8T8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-13 · 23:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tpAh4q3h8T8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-13 · 23:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -267,7 +247,7 @@ The second half covers embedding a Power BI visual in a page with a fact box and
 
 - The debugger can be attached to a session directly from the client, without configuration files, and runs the current project scope.
 - Actionable errors let developers add context and suggested actions to error messages.
-- The page inspector shows the page name, items and fields from the client and leads to the relevant code. Symbols must be downloaded beforehand.
+- The page inspector shows the page name, items and fields from the client and can jump to the relevant code (the presenter had already downloaded the symbols).
 - GitHub Copilot can generate error messages in the context of the developer's work. The speaker recommends checking the generated code before using it.
 - Embedding a Power BI visual needs a fact box, a trigger, and the report ID and visual ID. The BC samples documentation has examples.
 - Power users can add fields in customization mode without code, but an admin must give them permission to invoke the customization action.
@@ -289,17 +269,17 @@ The second half covers embedding a Power BI visual in a page with a fact box and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Attached debugger from client | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=141s) |  |
-| Actionable errors | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=213s) |  |
-| GitHub Copilot integration | status not stated, demoed | [4:33](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=273s) |  |
-| Page inspector | status not stated, demoed | [9:08](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=548s) |  |
-| Copilot Chat for code explanation | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=639s) |  |
-| Telemetry capture for errors | status not stated | [1:40](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=100s) |  |
-| Embedding Power BI visuals in pages | status not stated, demoed | [12:57](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=777s) |  |
-| Power user page customization without development tools | status not stated, demoed | [17:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1041s) |  |
-| AL-GO integration for deploying customizations to production | status not stated, demoed | [20:45](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1245s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Attached debugger from client | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=141s) |
+| Actionable errors | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=213s) |
+| GitHub Copilot integration | status not stated, demoed | [4:33](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=273s) |
+| Page inspector | status not stated, demoed | [9:08](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=548s) |
+| Copilot Chat for code explanation | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=639s) |
+| Telemetry capture for errors | status not stated | [1:40](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=100s) |
+| Embedding Power BI visuals in pages | status not stated, demoed | [12:57](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=777s) |
+| Power user page customization without development tools | status not stated, demoed | [17:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1041s) |
+| AL-GO integration for deploying customizations to production | status not stated, demoed | [20:45](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1245s) |
 
 ## AL objects mentioned
 
@@ -314,12 +294,10 @@ Not found in BC28-30: page "page inspector", page "Profiles".
 
 ## Quotes
 
-- [1:00](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=60s) "the last three months the service was super performant highly available resilient loved it today look at this"
 - [2:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=141s) "release of business central you can actually directly attach the debugger to this session from the client"
 - [3:53](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=233s) "with this release of business Central I am able to go and make this error actionable"
 - [5:28](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=328s) "this is exactly directly in the context of what I'm trying to do which is the item and it's already done for me"
 - [9:08](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=548s) "summon the page inspector we are summoning many many nice great Technologies today"
-- [11:21](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=681s) "you see AI is the only thinking as well it's not only me and you"
 - [13:37](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=817s) "with this release of Business Center you can go to a report select the visual that you love and directly put it in the"
 - [14:37](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=877s) "I need to add a fact box and a trigger to initiate it just like that so but to initiate that trigger what should"
 - [18:02](https://www.youtube.com/watch?v=tpAh4q3h8T8&t=1082s) "you as the customer can go ahead yourself absolutely you can go and at the field I can guide you through for the first"

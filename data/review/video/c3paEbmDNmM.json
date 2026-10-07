@@ -1,0 +1,26 @@
+{
+  "video_id": "c3paEbmDNmM",
+  "item_id": "video/yt-microsoft/c3paEbmDNmM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The GA evidence quote for the data analysis feature starts in segment 672.4, not 652.1, so evidence_t is corrected.",
+    "'Data Analysis Feature on Lists and Queries' duplicates 'Data Analysis on Queries', and its description ('dynamic query capabilities and filtering for business intelligence purposes') is not supported. Dropped it and moved the GA status onto 'Data Analysis on Queries'.",
+    "For report request pages, the transcript says the teaching tips and help links already existed but were undocumented. The teaching tips description is slightly overstated, which is minor.",
+    "The quotes are verbatim, including spans that cross segment boundaries. The summary and key points are supported."
+  ],
+  "input_hash": "50a4f41ebb4e5bd81975d2ff107f044abd771714c8d21024e504eee63d07becd",
+  "by": "opus",
+  "at": "2026-10-07T23:13:41.161Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Data Analysis on Queries: status ga"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.071705
+  }
+}

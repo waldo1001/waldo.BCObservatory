@@ -9,7 +9,7 @@
     "Version 23 includes cloud migration support from earlier versions to the new schema. On-premises upgrades write more data and may take longer.",
     "On-premises ETL or BI tools with direct database access can keep working through database views that mimic the new schema. Direct database access is not officially supported, and code samples are on GitHub.",
     "SetLoadFields is still useful for limiting loaded fields and hitting covering indexes. A new method lets base table owners set all base fields at once, shown on the VAT Entry table.",
-    "The new locking model uses read committed instead of update lock for new record instances. It is on by default for new tenants. Existing tenants opt in via feature management and restart the environment. Test it with BCPT for errors, logging issues and deadlocks.",
+    "The new locking model uses read committed instead of update lock for new record instances. It is on by default for new tenants. Upgraded tenants opt in via feature management and must restart the environment. It will be enabled by default in the next version and becomes the only locking model from version 25. Test it with BCPT for errors, locking issues and deadlocks.",
     "Orphaned extension data left after uninstall now affects performance and capacity, and can be deleted in installed extensions. Force Order and Loop Joins server settings are removed in 2024 release wave one. On-premises writes to the app database stop in the next release."
   ],
   "audience": [

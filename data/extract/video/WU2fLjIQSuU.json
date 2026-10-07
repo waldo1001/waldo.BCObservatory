@@ -617,21 +617,15 @@
       "check": "exact"
     },
     {
-      "t": 610.6,
-      "text": "that are issued by code signing by the providers of code signing certificates will have to",
-      "why_it_matters": "Establishes the regulatory requirement that drove HSM support in AL Go.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 805.1,
-      "text": "of doing this going forward is to create a new setting called deploy to an environment name",
-      "why_it_matters": "Announces a breaking change from secret-based to setting-based environment configuration.",
-      "check": "fuzzy"
+      "t": 635.8,
+      "text": "what we did in AL Go for GitHub was to add support for HSM key storage in Azure Key Vault",
+      "why_it_matters": "States the HSM code signing support added in this release.",
+      "check": "exact"
     },
     {
       "t": 805.1,
       "text": "the real way of of doing this going forward is to create a new setting called deploy to an environment name, meaning deploy to",
-      "why_it_matters": "Establishes the new configuration approach for handling environment-specific deployments without using GitHub secrets",
+      "why_it_matters": "Introduces the DeployTo setting that replaces secret-based environment names.",
       "check": "exact"
     },
     {

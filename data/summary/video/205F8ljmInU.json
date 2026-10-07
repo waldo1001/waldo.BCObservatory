@@ -1,16 +1,16 @@
 {
   "video_id": "205F8ljmInU",
   "item_id": "video/yt-microsoft/205F8ljmInU",
-  "summary": "Danish Bookkeeping Act support in Business Central (2023 release wave 2): mandatory digital vouchers, SAF-T module with chart of accounts mapping, NemHandle notification, e-invoicing, five-year voucher storage and audit trail. Most features are announced, with some still work in progress at publication.",
+  "summary": "Business Central support for the Danish Bookkeeping Act. Existing features already cover transaction fields, the audit trail and bank reconciliation. New 2023 release wave 2 features are mandatory digital vouchers, a SAF-T module with chart of accounts mapping (demoed), a NemHandle registration notification, Danish e-invoicing on the e-documents core, VAT API submission and five-year voucher retention. Some of these were still work in progress and are due by the start of the next calendar year.",
   "overview": "The video walks through how Business Central addresses the Danish Bookkeeping Act. It covers existing compliance features such as the audit trail and bank reconciliation, then the new features: mandatory digital vouchers, the SAF-T module, NemHandle registration, e-invoicing and data retention. It includes a demo of SAF-T export setup.\n\nThe presenter says the features belong to 2023 release wave 2 but will not all be available in October. They are expected to be finished for the beginning of the next calendar year, in time for the certification process. E-invoicing, VAT API submission and the retention setup are described as still in development.",
   "key_points": [
     "Digital vouchers: in Denmark, purchase documents must be attached before posting; sales documents are created and attached automatically by the system.",
     "SAF-T module sits on the audit file export app, with a Danish public standard chart of account and a standard VAT chart of account. Existing accounts are mapped to them and exported in SAF-T and CSV formats.",
     "Mapping to the public standard chart of account is mandatory for compliance. The demo showed the G/L Account Mapping and VAT Posting Setup for SAF-T pages.",
     "A notification appears if the company is not registered with NemHandle. If the CVR number is registered, Business Central verifies it and the notification disappears. Registration is required to use invoicing.",
-    "E-invoicing for Denmark is based on the e-documents core module, with OioPh and PEP3 formats and third-party access point connectors. VAT submission through the Danish tax agency API is still in development.",
-    "Digital vouchers must be stored for five years and cannot be changed by users or administrators. Production companies cannot be deleted once registered. Microsoft keeps data five years after fiscal year end, then deletes it per GDPR.",
-    "The audit trail records registration date, transaction ID, user ID and system changes. Entries cannot be deleted, backdated or changed, so corrections need new entries."
+    "E-invoicing for Denmark is based on the e-documents core module, with local formats and third-party access point connectors for NemHandle exchange. VAT submission through the Danish tax agency API is still work in progress.",
+    "Digital vouchers must be stored for five years and cannot be changed by users or administrators. Production companies cannot be deleted once registered. Microsoft keeps data five years after the last fiscal year, then deletes it per GDPR.",
+    "Existing functionality: the audit trail records registration date, transaction ID, user ID and system changes. Entries cannot be deleted, backdated or changed, so corrections need new entries."
   ],
   "audience": [
     "functional consultant",

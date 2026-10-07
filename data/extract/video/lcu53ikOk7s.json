@@ -119,8 +119,8 @@
   "quotes": [
     {
       "t": 0.4,
-      "text": "it's possible to delete an account from the general ledger even if there has been transactions on it, as long as it has no",
-      "why_it_matters": "Explains the baseline capability and risk that GL accounts can be deleted even with transaction history, establishing the need for safeguards.",
+      "text": "as long as it has no balance and the transactions do not belong to an income year that is still open.",
+      "why_it_matters": "States the default conditions under which a G/L account with transactions can be deleted.",
       "check": "exact"
     },
     {
@@ -145,6 +145,12 @@
       "t": 100,
       "text": "I set the check GL account deletion after to December 31st, 2017. This means I can only delete the account if transactions has happened",
       "why_it_matters": "Provides a concrete example of configuring the deletion date field based on retention requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 113.7,
+      "text": "the system will ask me if I really want to delete the account. I can still do so if I want to.",
+      "why_it_matters": "Shows that the deletion-after date alone only prompts for confirmation and does not block deletion.",
       "check": "exact"
     },
     {

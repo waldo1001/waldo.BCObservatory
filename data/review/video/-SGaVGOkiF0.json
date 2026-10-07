@@ -1,0 +1,26 @@
+{
+  "video_id": "-SGaVGOkiF0",
+  "item_id": "video/yt-microsoft/-SGaVGOkiF0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim. The t=68 quote runs on into segment 88.4, which is allowed.",
+    "Leaving every feature status as unclear is correct: the transcript never states preview or GA. The release wave comes only from the video title.",
+    "One key point went beyond the transcript. It said payment periods 'must be configured before generating the report', but the transcript only says periods are set up in the payment periods table. I reworded that key point.",
+    "I added a quote covering the UK base app feature being made obsolete, since one key point relies on it."
+  ],
+  "input_hash": "93c1cf3548a157b966b59934ab94087ae5c3d02f3436b37e73e63499cd490304",
+  "by": "opus",
+  "at": "2026-10-07T23:14:05.943Z",
+  "applied": [
+    "quote at 113s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.062981
+  }
+}

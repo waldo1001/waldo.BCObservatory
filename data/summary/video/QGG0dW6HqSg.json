@@ -5,12 +5,12 @@
   "overview": "The 2023 What's New session shows how intercompany partners can now reside in different environments, within one tenant or across tenants. Transactions between the companies are handled by the system without manual file downloads. The session starts with intercompany basics and earlier improvements, then demos a cross environment transaction.\n\nIt then walks through setup: the intercompany partner wizard run on both companies in parallel, currency, customer, vendor and bank account configuration, and authentication with a Microsoft Entra app registration. It closes with tips and technical details, including the permission sets involved.",
   "key_points": [
     "IC partners can now be in different environments, in one tenant or across tenants, with no manual file downloads.",
-    "A new action starts a wizard to set up the IC partner connection; it must be run on both partner companies in parallel, with a test connection step.",
-    "The wizard requires accepting data transfer and privacy conditions, and company names must be unique.",
-    "Authentication needs a Microsoft Entra app registration with a client ID, created in the Azure portal without developer knowledge.",
-    "One registration app can serve all environments in one tenant; separate registration apps are needed for different tenants.",
-    "Permission set 'Cross environment API cross environment intercompany' is needed to send and receive; by default only admins have it. Creating new IC partners also needs admin permissions by default, controlled by the 'Create and modified interc company Partners' permission set.",
-    "If partners use different currencies, both companies need those currencies enabled locally. Chart of accounts and dimensions can be mapped side by side."
+    "A new action on the IC partner starts a wizard to set up the connection. The setup is done in both partner companies, can be done in parallel, and includes a test connection step.",
+    "The wizard requires accepting conditions because data may move across geos, and the new IC partner needs a unique name. Company information is copied from one partner and pasted into the other.",
+    "Authentication needs a Microsoft Entra app registration with a client ID, created in the Azure portal. No developer knowledge is needed.",
+    "One registration app can serve all environments in one tenant; partners in different tenants need separate registration apps. The Entra setup is done once per environment, not per company.",
+    "The permission set 'Cross environment API cross environment intercompany' is needed to send and receive. Creating new IC partners is limited to admins by default and is controlled by the 'Create and modified interc company Partners' permission set.",
+    "If partners use different currencies, both companies need those currencies enabled locally. Cross environment communication is handled by jobs, and sends run in the name of the user who started the transaction."
   ],
   "audience": [
     "administrator",

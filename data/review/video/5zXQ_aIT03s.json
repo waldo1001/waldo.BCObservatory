@@ -1,0 +1,28 @@
+{
+  "video_id": "5zXQ_aIT03s",
+  "item_id": "video/yt-microsoft/5zXQ_aIT03s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The facts, summary and quotes are supported by the transcript, and all four quotes are verbatim.",
+    "Key points were vague about what the demo actually did. It moved Allow Posting From to December 1st and showed user Carlos still allowed to post in November on User Setup. Key points now include these details.",
+    "Added a quote for the Carlos user-level override example at 65.1, which the page lacked.",
+    "Feature status stays unclear for both features because the transcript says nothing about preview or GA."
+  ],
+  "input_hash": "9936a9e7454522374ac7c580950b789243b1abafa020b3fcc37723368e2d3897",
+  "by": "opus",
+  "at": "2026-10-07T23:14:25.465Z",
+  "applied": [
+    "Allow posting from and allow posting to fields: status unclear",
+    "User-level posting period override: status unclear",
+    "quote at 65s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044013
+  }
+}

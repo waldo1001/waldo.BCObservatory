@@ -1,0 +1,23 @@
+{
+  "video_id": "gvIGhtqADS0",
+  "item_id": "video/yt-microsoft/gvIGhtqADS0",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes appear verbatim in the transcript at the stated segments.",
+    "All features are marked unclear. That is correct because the transcript never states preview or GA status.",
+    "The 2024 release wave 1 comes from the video title, not the transcript. That is acceptable as context.",
+    "Minor: 'complex searches' is said at 62.4, not in the 51.9 chapter. The chapter title is still reasonable."
+  ],
+  "input_hash": "62c7ff2a3438dfbdbf1a05b6eb15b54429aea5ba0b9be89bb7587f79961c3e93",
+  "by": "opus",
+  "at": "2026-10-07T23:14:19.256Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033221
+  }
+}

@@ -2,7 +2,7 @@
 id: video/e5Dr3jzCLM8
 type: video
 title: "Introducing: Shopify and Dynamics 365 Business Central (2023)"
-summary: Shopify and Dynamics 365 Business Central integration, in a 2-minute introduction from December 2023. It covers inventory sync, order flow into Business Central, multi-location warehousing, financial reporting and Microsoft Office tools (Teams, Outlook, OneDrive).
+summary: A 2-minute introduction (2023) to using Business Central as the backend for Shopify stores. It covers easy store connection, keeping inventory levels up to date, automatic order fulfillment with orders flowing into Business Central, multi-location warehousing, automatic revenue reflection in the financials, and Microsoft Office integration (Teams, Outlook, OneDrive).
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - microsoft office integration
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:28.482Z"
   flags: []
 generated:
-  at: "2026-10-06T21:37:21.122Z"
+  at: "2026-10-07T23:13:28.527Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,9 +146,9 @@ quotes:
 
 # Introducing: Shopify and Dynamics 365 Business Central (2023)
 
-> Shopify and Dynamics 365 Business Central integration, in a 2-minute introduction from December 2023. It covers inventory sync, order flow into Business Central, multi-location warehousing, financial reporting and Microsoft Office tools (Teams, Outlook, OneDrive).
+> A 2-minute introduction (2023) to using Business Central as the backend for Shopify stores. It covers easy store connection, keeping inventory levels up to date, automatic order fulfillment with orders flowing into Business Central, multi-location warehousing, automatic revenue reflection in the financials, and Microsoft Office integration (Teams, Outlook, OneDrive).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=e5Dr3jzCLM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 1:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=e5Dr3jzCLM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-18 · 1:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,10 +159,10 @@ The video says orders from Shopify flow into Business Central for fulfillment, i
 ## Key points
 
 - Business Central connects to a Shopify store; the video says setup takes just a few steps.
-- Orders from the Shopify shop flow directly into Business Central for fulfillment.
-- Inventory levels and product information are kept in sync with the Shopify store automatically.
-- Multiple warehouse locations are supported, to reduce delivery times and handle needs such as returns.
-- Shopify revenue is reflected automatically in Business Central, giving a view of financials, expenses, profits and tax reporting tools.
+- Orders from the Shopify shop flow directly into Business Central, and Business Central can fulfill orders automatically.
+- Business Central keeps inventory levels in the Shopify store up to date; product details are managed in Business Central, where you decide what to sell.
+- Multiple warehouse locations are supported, to reduce delivery times and handle needs such as using a specific warehouse for returns.
+- Shopify revenue is reflected automatically in Business Central, giving a 360-degree view of financials, expenses, profits and tools for reporting taxes.
 - Office integration: Teams for order collaboration, Outlook for customer communication, OneDrive for document storage and sharing.
 
 ## Chapters
@@ -176,14 +176,14 @@ The video says orders from Shopify flow into Business Central for fulfillment, i
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify integration with Business Central | status not stated | [0:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=0s) |  |
-| Automatic inventory synchronization | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |  |
-| Automatic order fulfillment | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |  |
-| Multi-location warehouse management | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |  |
-| Financial visibility and reporting | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |  |
-| Microsoft Office integration | status not stated | [1:21](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=81s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify integration with Business Central | status not stated | [0:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=0s) |
+| Automatic inventory synchronization | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
+| Automatic order fulfillment | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
+| Multi-location warehouse management | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
+| Financial visibility and reporting | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
+| Microsoft Office integration | status not stated | [1:21](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=81s) |
 
 ## Quotes
 

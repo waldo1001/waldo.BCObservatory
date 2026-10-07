@@ -20,25 +20,18 @@ tags:
   - bin blocking
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:02.073Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:02.109Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 652fa7661a7f25534f7a6c7240abe317af8aa35fed923cf7589be4d9fc433e3e
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=8KMcu4B_eTk&t=83s
-    title: "Warehouse Configuration Toggles and Drop-Downs: generally available"
-    date: "2023-12-22T14:03:44.000Z"
-    commit: null
-    t: 83
-    quote: The biggest changes we can notice in the warehouse tab, you can still see the required receipt ship put away and pick toggles are
   - kind: video
     url: https://www.youtube.com/watch?v=8KMcu4B_eTk&t=83s
     title: "What's New: Warehouse Management (2023 release wave 2)"
@@ -199,9 +192,9 @@ chapters:
     title: Related sessions and resources
 features:
   - name: Warehouse Configuration Toggles and Drop-Downs
-    status: ga
+    status: unclear
     t: 83
-    verified: true
+    verified: false
     status_source: video
   - name: Put-Away Templates for Bin Assignment
     status: unclear
@@ -221,11 +214,6 @@ features:
   - name: Picking by Ranking in Inventory Picks
     status: unclear
     t: 409
-    verified: false
-    status_source: video
-  - name: Job Task Filtering for Inventory Picks
-    status: unclear
-    t: 472
     verified: false
     status_source: video
   - name: Show Details in Basic Warehouse
@@ -347,7 +335,7 @@ quotes:
 
 > Warehouse Management changes in Business Central 2023 release wave 2: bin policy features and put-away templates for basic warehouse, picking by ranking in inventory picks, over-receipt in inventory put-away, and a nothing-to-handle troubleshooting window for directed pick and put-away.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8KMcu4B_eTk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 23:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8KMcu4B_eTk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-22 · 23:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -358,10 +346,10 @@ The second half covers troubleshooting the "nothing to handle" error in directed
 ## Key points
 
 - Location card: purchase, sales, service and transfer operations have limited toggles; production, assembly and jobs have full drop-down configuration.
-- Special equipment, bin capacity policy, warehouse class, put-away templates and bin ranking can be used without directed pick and put-away.
+- Put-away templates and bin ranking can now be used without directed pick and put-away; special equipment, bin capacity policy and warehouse class already became available to basic warehouse in the previous release.
 - Inventory put-away now supports over-receipt, alongside the existing warehouse receipt option.
-- Inventory picks can pick by bin ranking, ordering lines from the highest-ranked bin first regardless of bin code.
-- Inventory picks created from jobs can be filtered by job task line, and by date.
+- Picks can follow bin ranking, taking first from the highest-ranked bin regardless of bin code; this works in both warehouse picks and inventory picks.
+- Filtering inventory pick creation from jobs by job task line or date was added in the previous release and was shown here only for context.
 - The nothing-to-handle summary and troubleshooting window work only in directed put-away and pick mode; they show pickable quantity, blocked or dedicated bins and blocked serial numbers.
 - Shipable quantity excludes shipment bins and dedicated bins; the delta after subtracting reservations is what non-reserved orders can pick. To release more, reserve the sales order or cancel reservations, then rerun pick creation.
 
@@ -383,26 +371,25 @@ The second half covers troubleshooting the "nothing to handle" error in directed
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Warehouse Configuration Toggles and Drop-Downs | generally available, demoed | [1:23](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=83s) | "The biggest changes we can notice in the warehouse tab, you can still see the required receipt ship put away and pick toggles are" ([1:23](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=83s)) |
-| Put-Away Templates for Bin Assignment | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=165s) |  |
-| Bin Policy Features for Basic Warehouse | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=155s) |  |
-| Over Received Quantity in Inventory Put-Away | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=330s) |  |
-| Picking by Ranking in Inventory Picks | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=409s) |  |
-| Job Task Filtering for Inventory Picks | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=472s) |  |
-| Show Details in Basic Warehouse | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=568s) |  |
-| Nothing to Handle Error Summary Report | status not stated, demoed | [10:58](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=658s) |  |
-| Pickable Quantity Analysis | status not stated, demoed | [12:22](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=742s) |  |
-| Bin availability status troubleshooting | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=787s) |  |
-| Item tracking integration in pick details | status not stated, demoed | [14:05](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=845s) |  |
-| Reservation impact on pick quantity adjustment | status not stated, demoed | [15:18](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=918s) |  |
-| Shipable quantity calculation logic | status not stated, demoed | [17:07](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1027s) |  |
-| Reservation override options | status not stated, demoed | [18:48](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1128s) |  |
-| Flexible warehouse configuration without directed pick | status not stated, demoed | [19:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1189s) |  |
-| Advanced warehouse capabilities with basic pick | status not stated, demoed | [19:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1189s) |  |
-| Overreceive support in basic and directed warehouses | status not stated | [20:55](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1255s) |  |
-| Nothing-to-handle troubleshooting window | status not stated, demoed | [21:06](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1266s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Warehouse Configuration Toggles and Drop-Downs | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=83s) |
+| Put-Away Templates for Bin Assignment | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=165s) |
+| Bin Policy Features for Basic Warehouse | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=155s) |
+| Over Received Quantity in Inventory Put-Away | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=330s) |
+| Picking by Ranking in Inventory Picks | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=409s) |
+| Show Details in Basic Warehouse | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=568s) |
+| Nothing to Handle Error Summary Report | status not stated, demoed | [10:58](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=658s) |
+| Pickable Quantity Analysis | status not stated, demoed | [12:22](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=742s) |
+| Bin availability status troubleshooting | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=787s) |
+| Item tracking integration in pick details | status not stated, demoed | [14:05](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=845s) |
+| Reservation impact on pick quantity adjustment | status not stated, demoed | [15:18](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=918s) |
+| Shipable quantity calculation logic | status not stated, demoed | [17:07](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1027s) |
+| Reservation override options | status not stated, demoed | [18:48](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1128s) |
+| Flexible warehouse configuration without directed pick | status not stated, demoed | [19:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1189s) |
+| Advanced warehouse capabilities with basic pick | status not stated, demoed | [19:49](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1189s) |
+| Overreceive support in basic and directed warehouses | status not stated | [20:55](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1255s) |
+| Nothing-to-handle troubleshooting window | status not stated, demoed | [21:06](https://www.youtube.com/watch?v=8KMcu4B_eTk&t=1266s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,30 @@
+{
+  "video_id": "tpAh4q3h8T8",
+  "item_id": "video/yt-microsoft/tpAh4q3h8T8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on page inspector says symbols must be downloaded beforehand; transcript only says the presenter had already downloaded the symbols. Reworded.",
+    "Quotes at 60.8 and 681.3 are banter with no feature information; dropped.",
+    "Debugger attach, actionable errors and Power BI visual embedding are described as available 'with this release'; set to ga with evidence.",
+    "All other quotes verified verbatim (some span segment boundaries). Summary is supported."
+  ],
+  "input_hash": "8f9541b40731748a98a306f7bb795b95c5231b348c7231103898be334bc5f43d",
+  "by": "opus",
+  "at": "2026-10-07T23:14:07.737Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Attached debugger from client -> ga: evidence not verbatim or does not state the status",
+    "status Actionable errors -> ga: evidence not verbatim or does not state the status",
+    "status Embedding Power BI visuals in pages -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.130665
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - fulfillment synchronization
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:13:39.079Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:13:39.118Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,12 +68,12 @@ evidence:
     t: 585
     quote: Every quarter they release a new version of the API. So, four times per year, there is a new version. And each version is
   - kind: video
-    url: https://www.youtube.com/watch?v=lClKXB8xXIE&t=688s
+    url: https://www.youtube.com/watch?v=lClKXB8xXIE&t=704s
     title: "What's New: Troubleshooting Shopify Integration (2023 release wave 2)"
     date: "2023-12-20T08:00:35.000Z"
     commit: null
-    t: 688
-    quote: If synchronization is running in the foreground, then you don't actually see any feedback when you execute synchronization.
+    t: 704
+    quote: But if you experience some problems, sometimes it's easier to explore it in the foreground.
   - kind: video
     url: https://www.youtube.com/watch?v=lClKXB8xXIE&t=812s
     title: "What's New: Troubleshooting Shopify Integration (2023 release wave 2)"
@@ -310,8 +310,8 @@ quotes:
   - t: 585
     text: Every quarter they release a new version of the API. So, four times per year, there is a new version. And each version is
     check: exact
-  - t: 688
-    text: If synchronization is running in the foreground, then you don't actually see any feedback when you execute synchronization.
+  - t: 704
+    text: But if you experience some problems, sometimes it's easier to explore it in the foreground.
     check: exact
   - t: 812
     text: Shopify orders to import. It's not just a filtering opportunity. It is in reality the buffer table.
@@ -343,7 +343,7 @@ quotes:
 
 > Troubleshooting the Business Central Shopify connector in 2023 release wave 2: log entries with request IDs and user errors, logging modes, retention, API versioning and end-of-support date, foreground sync, the orders-to-import buffer, data inspection, and fulfillment sync errors.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lClKXB8xXIE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 23:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lClKXB8xXIE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-20 · 23:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -379,30 +379,30 @@ It then covers log retention, product error handling, Business Central fulfillme
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Enhanced Shopify Log Entries View | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=lClKXB8xXIE&t=109s) |  |
-| Request ID for Shopify Support | status not stated | [3:00](https://www.youtube.com/watch?v=lClKXB8xXIE&t=180s) |  |
-| User Error Section in Log Responses | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=lClKXB8xXIE&t=211s) |  |
-| Logging Mode Option Field | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=lClKXB8xXIE&t=269s) |  |
-| Log Retention Policies | status not stated | [5:44](https://www.youtube.com/watch?v=lClKXB8xXIE&t=344s) |  |
-| Shopify Data Capture Retention Policy | status not stated | [6:00](https://www.youtube.com/watch?v=lClKXB8xXIE&t=360s) |  |
-| User Error Support in Product Queries | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=lClKXB8xXIE&t=390s) |  |
-| Business Central Fulfillment Service Support | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=lClKXB8xXIE&t=471s) |  |
-| SKU Requirement for Fulfillment Service | status not stated, demoed | [8:54](https://www.youtube.com/watch?v=lClKXB8xXIE&t=534s) |  |
-| End of Support Indicator | status not stated | [9:32](https://www.youtube.com/watch?v=lClKXB8xXIE&t=572s) |  |
-| Shopify API Quarterly Versioning | status not stated | [9:45](https://www.youtube.com/watch?v=lClKXB8xXIE&t=585s) |  |
-| Foreground Synchronization Debugging | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=lClKXB8xXIE&t=688s) |  |
-| Shopify Orders to Import Buffer Table | status not stated, demoed | [13:22](https://www.youtube.com/watch?v=lClKXB8xXIE&t=802s) |  |
-| Get Orders to Import Action | status not stated, demoed | [14:09](https://www.youtube.com/watch?v=lClKXB8xXIE&t=849s) |  |
-| Has Error Field in Order Import | status not stated, demoed | [15:16](https://www.youtube.com/watch?v=lClKXB8xXIE&t=916s) |  |
-| Retrieve Shopify Data Inspection | status not stated, demoed | [16:02](https://www.youtube.com/watch?v=lClKXB8xXIE&t=962s) |  |
-| Shopify JSON URL Inspection Technique | status not stated, demoed | [17:23](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1043s) |  |
-| Role Center Shopify Activities Status Fields | status not stated, demoed | [20:03](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1203s) |  |
-| Shopify Fulfillment ID Field in Document | status not stated, demoed | [21:08](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1268s) |  |
-| Improved Logging with Configurable Detail Levels | status not stated, demoed | [21:51](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1311s) |  |
-| Shopify API Versioning Management | status not stated | [22:03](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1323s) |  |
-| Multi-Shop Import Routing | status not stated, demoed | [14:38](https://www.youtube.com/watch?v=lClKXB8xXIE&t=878s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Enhanced Shopify Log Entries View | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=lClKXB8xXIE&t=109s) |
+| Request ID for Shopify Support | status not stated | [3:00](https://www.youtube.com/watch?v=lClKXB8xXIE&t=180s) |
+| User Error Section in Log Responses | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=lClKXB8xXIE&t=211s) |
+| Logging Mode Option Field | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=lClKXB8xXIE&t=269s) |
+| Log Retention Policies | status not stated | [5:44](https://www.youtube.com/watch?v=lClKXB8xXIE&t=344s) |
+| Shopify Data Capture Retention Policy | status not stated | [6:00](https://www.youtube.com/watch?v=lClKXB8xXIE&t=360s) |
+| User Error Support in Product Queries | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=lClKXB8xXIE&t=390s) |
+| Business Central Fulfillment Service Support | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=lClKXB8xXIE&t=471s) |
+| SKU Requirement for Fulfillment Service | status not stated, demoed | [8:54](https://www.youtube.com/watch?v=lClKXB8xXIE&t=534s) |
+| End of Support Indicator | status not stated | [9:32](https://www.youtube.com/watch?v=lClKXB8xXIE&t=572s) |
+| Shopify API Quarterly Versioning | status not stated | [9:45](https://www.youtube.com/watch?v=lClKXB8xXIE&t=585s) |
+| Foreground Synchronization Debugging | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=lClKXB8xXIE&t=688s) |
+| Shopify Orders to Import Buffer Table | status not stated, demoed | [13:22](https://www.youtube.com/watch?v=lClKXB8xXIE&t=802s) |
+| Get Orders to Import Action | status not stated, demoed | [14:09](https://www.youtube.com/watch?v=lClKXB8xXIE&t=849s) |
+| Has Error Field in Order Import | status not stated, demoed | [15:16](https://www.youtube.com/watch?v=lClKXB8xXIE&t=916s) |
+| Retrieve Shopify Data Inspection | status not stated, demoed | [16:02](https://www.youtube.com/watch?v=lClKXB8xXIE&t=962s) |
+| Shopify JSON URL Inspection Technique | status not stated, demoed | [17:23](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1043s) |
+| Role Center Shopify Activities Status Fields | status not stated, demoed | [20:03](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1203s) |
+| Shopify Fulfillment ID Field in Document | status not stated, demoed | [21:08](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1268s) |
+| Improved Logging with Configurable Detail Levels | status not stated, demoed | [21:51](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1311s) |
+| Shopify API Versioning Management | status not stated | [22:03](https://www.youtube.com/watch?v=lClKXB8xXIE&t=1323s) |
+| Multi-Shop Import Routing | status not stated, demoed | [14:38](https://www.youtube.com/watch?v=lClKXB8xXIE&t=878s) |
 
 ## AL objects mentioned
 
@@ -423,7 +423,7 @@ Not found in BC28-30: table "Shopify Log Entries", table "Shopify orders to impo
 - [4:29](https://www.youtube.com/watch?v=lClKXB8xXIE&t=269s) "Now logging mode transformed from the boolean on and off into the option field."
 - [7:51](https://www.youtube.com/watch?v=lClKXB8xXIE&t=471s) "Be aware that already before this release in one of the minor updates, we enabled full support for business central fulfillment service."
 - [9:45](https://www.youtube.com/watch?v=lClKXB8xXIE&t=585s) "Every quarter they release a new version of the API. So, four times per year, there is a new version. And each version is"
-- [11:28](https://www.youtube.com/watch?v=lClKXB8xXIE&t=688s) "If synchronization is running in the foreground, then you don't actually see any feedback when you execute synchronization."
+- [11:44](https://www.youtube.com/watch?v=lClKXB8xXIE&t=704s) "But if you experience some problems, sometimes it's easier to explore it in the foreground."
 - [13:32](https://www.youtube.com/watch?v=lClKXB8xXIE&t=812s) "Shopify orders to import. It's not just a filtering opportunity. It is in reality the buffer table."
 - [13:32](https://www.youtube.com/watch?v=lClKXB8xXIE&t=812s) "It's not just a filtering opportunity. It is in reality the buffer table."
 - [14:09](https://www.youtube.com/watch?v=lClKXB8xXIE&t=849s) "If I will press it, I will get orders which were modified after some specific date."

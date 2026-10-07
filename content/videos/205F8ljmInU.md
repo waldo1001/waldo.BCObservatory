@@ -2,7 +2,7 @@
 id: video/205F8ljmInU
 type: video
 title: "What's New: The Danish Bookkeeping Act (2023 release wave 2)"
-summary: "Danish Bookkeeping Act support in Business Central (2023 release wave 2): mandatory digital vouchers, SAF-T module with chart of accounts mapping, NemHandle notification, e-invoicing, five-year voucher storage and audit trail. Most features are announced, with some still work in progress at publication."
+summary: Business Central support for the Danish Bookkeeping Act. Existing features already cover transaction fields, the audit trail and bank reconciliation. New 2023 release wave 2 features are mandatory digital vouchers, a SAF-T module with chart of accounts mapping (demoed), a NemHandle registration notification, Danish e-invoicing on the e-documents core, VAT API submission and five-year voucher retention. Some of these were still work in progress and are due by the start of the next calendar year.
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - compliance
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:11.197Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:11.242Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -52,12 +52,12 @@ evidence:
     t: 353
     quote: all new plan features are part of 2023 release wave two but they will not all of them will be available in October they
   - kind: video
-    url: https://www.youtube.com/watch?v=205F8ljmInU&t=893s
+    url: https://www.youtube.com/watch?v=205F8ljmInU&t=839s
     title: "E-invoicing for Denmark: announced"
     date: "2023-12-11T16:20:26.000Z"
     commit: null
-    t: 893
-    quote: this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of
+    t: 839
+    quote: invoicing in Denmark will be based on eents core module for our Global Market
   - kind: video
     url: https://www.youtube.com/watch?v=205F8ljmInU&t=1027s
     title: "Digital Voucher Storage for Five Years: announced"
@@ -225,9 +225,9 @@ quotes:
 
 # What's New: The Danish Bookkeeping Act (2023 release wave 2)
 
-> Danish Bookkeeping Act support in Business Central (2023 release wave 2): mandatory digital vouchers, SAF-T module with chart of accounts mapping, NemHandle notification, e-invoicing, five-year voucher storage and audit trail. Most features are announced, with some still work in progress at publication.
+> Business Central support for the Danish Bookkeeping Act. Existing features already cover transaction fields, the audit trail and bank reconciliation. New 2023 release wave 2 features are mandatory digital vouchers, a SAF-T module with chart of accounts mapping (demoed), a NemHandle registration notification, Danish e-invoicing on the e-documents core, VAT API submission and five-year voucher retention. Some of these were still work in progress and are due by the start of the next calendar year.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=205F8ljmInU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 19:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=205F8ljmInU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 19:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -241,9 +241,9 @@ The presenter says the features belong to 2023 release wave 2 but will not all b
 - SAF-T module sits on the audit file export app, with a Danish public standard chart of account and a standard VAT chart of account. Existing accounts are mapped to them and exported in SAF-T and CSV formats.
 - Mapping to the public standard chart of account is mandatory for compliance. The demo showed the G/L Account Mapping and VAT Posting Setup for SAF-T pages.
 - A notification appears if the company is not registered with NemHandle. If the CVR number is registered, Business Central verifies it and the notification disappears. Registration is required to use invoicing.
-- E-invoicing for Denmark is based on the e-documents core module, with OioPh and PEP3 formats and third-party access point connectors. VAT submission through the Danish tax agency API is still in development.
-- Digital vouchers must be stored for five years and cannot be changed by users or administrators. Production companies cannot be deleted once registered. Microsoft keeps data five years after fiscal year end, then deletes it per GDPR.
-- The audit trail records registration date, transaction ID, user ID and system changes. Entries cannot be deleted, backdated or changed, so corrections need new entries.
+- E-invoicing for Denmark is based on the e-documents core module, with local formats and third-party access point connectors for NemHandle exchange. VAT submission through the Danish tax agency API is still work in progress.
+- Digital vouchers must be stored for five years and cannot be changed by users or administrators. Production companies cannot be deleted once registered. Microsoft keeps data five years after the last fiscal year, then deletes it per GDPR.
+- Existing functionality: the audit trail records registration date, transaction ID, user ID and system changes. Entries cannot be deleted, backdated or changed, so corrections need new entries.
 
 ## Chapters
 
@@ -265,7 +265,7 @@ The presenter says the features belong to 2023 release wave 2 but will not all b
 | Mandatory Digital Vouchers | announced | [6:25](https://www.youtube.com/watch?v=205F8ljmInU&t=385s) | "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they" ([5:53](https://www.youtube.com/watch?v=205F8ljmInU&t=353s)) |
 | SAF-T Module | announced, demoed | [7:43](https://www.youtube.com/watch?v=205F8ljmInU&t=463s) | "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they" ([5:53](https://www.youtube.com/watch?v=205F8ljmInU&t=353s)) |
 | NemHandle Registration Notification | announced, demoed | [11:21](https://www.youtube.com/watch?v=205F8ljmInU&t=681s) | "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they" ([5:53](https://www.youtube.com/watch?v=205F8ljmInU&t=353s)) |
-| E-invoicing for Denmark | announced | [13:45](https://www.youtube.com/watch?v=205F8ljmInU&t=825s) | "this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of" ([14:53](https://www.youtube.com/watch?v=205F8ljmInU&t=893s)) |
+| E-invoicing for Denmark | announced | [13:45](https://www.youtube.com/watch?v=205F8ljmInU&t=825s) | "invoicing in Denmark will be based on eents core module for our Global Market" ([13:59](https://www.youtube.com/watch?v=205F8ljmInU&t=839s)) |
 | Digital Voucher Storage for Five Years | announced | [15:10](https://www.youtube.com/watch?v=205F8ljmInU&t=910s) | "this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but" ([17:07](https://www.youtube.com/watch?v=205F8ljmInU&t=1027s)) |
 | Audit Trail for Transactions | status not stated | [3:34](https://www.youtube.com/watch?v=205F8ljmInU&t=214s) |  |
 | Bank Reconciliation | status not stated | [4:52](https://www.youtube.com/watch?v=205F8ljmInU&t=292s) |  |
