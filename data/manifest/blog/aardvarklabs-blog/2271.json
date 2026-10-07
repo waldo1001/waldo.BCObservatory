@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/08/08/understanding-rdlc-reports-in-business-central/",
   "published_at": "2025-08-08T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:29.349Z",
+      "path": "vault:posts/aardvarklabs-blog/2271.md",
+      "words": 1189
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:29.357Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:29.359Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:29.360Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:29.366Z",
+      "path": "content/posts/aardvarklabs-blog/2271.md"
     }
   },
   "input_hash": "2026-02-18T03:45:22.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "184790c4c52b4e4a9894f3eb9a3362366c6276d6203226b66fd54d1781f8e80d"
 }

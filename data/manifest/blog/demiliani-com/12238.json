@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/08/07/json-prompting-in-ai-why/",
   "published_at": "2025-08-07T06:58:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:29.697Z",
+      "path": "vault:posts/demiliani-com/12238.md",
+      "words": 894
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:29.705Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:29.706Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:29.707Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:29.714Z",
+      "path": "content/posts/demiliani-com/12238.md"
     }
   },
   "input_hash": "2025-08-07T06:58:22.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e777bec841d11bc7df0fc587a96a56e0cb840d6ae91080e4598b8c15f601be96"
 }

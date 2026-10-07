@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2403",
+  "url": "https://aardvarklabs.blog/2025/08/13/enhance-your-video-calls-with-obs-studio/",
+  "title": "Enhance Your Video Calls with OBS Studio",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-08-13T12:00:00.000Z",
+  "words": 840,
+  "summary": "This post explains how to use OBS Studio, an open-source video software, to enhance your appearance and add personalization to video calls in Microsoft Teams or Zoom. It covers installation, configuring video and audio sources, adding visual elements like images and text, using chroma key filtering with a green screen, and switching between multiple scene configurations.",
+  "key_points": [
+    "OBS Studio is a free, open-source program originally designed for streamers that works well for improving video call appearance",
+    "Set up video and audio capture devices as sources, then resize and position them in your scene",
+    "Add visual elements like images and text to personalize your video feed and stand out in meetings",
+    "Use chroma key filtering with a green screen for accurate background removal instead of built-in Teams or Zoom background tools",
+    "Create multiple scenes to switch between different configurations, such as showing your camera or sharing a screen with your camera in the corner"
+  ],
+  "systems": [],
+  "topics": [
+    "video calls",
+    "obs studio",
+    "remote work",
+    "virtual camera",
+    "background customization",
+    "chroma key"
+  ],
+  "objects": [],
+  "features": [
+    "virtual camera",
+    "video capture",
+    "audio input capture",
+    "chroma key filtering",
+    "green screen support",
+    "scene management",
+    "image overlays",
+    "text overlays"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "OBS is a favorite application for streamers, but it has great application in the video meeting space.",
+      "why_it_matters": "Establishes that OBS Studio, though designed for streaming, is well-suited for improving personal appearance in business video calls"
+    },
+    {
+      "text": "The quality of the background masking is so much better.",
+      "why_it_matters": "Demonstrates that using a physical green screen with chroma key filtering produces superior results compared to software-based background removal tools"
+    },
+    {
+      "text": "You can create many different Scenes as listed on the Left, and switch between them as needed.",
+      "why_it_matters": "Shows the flexibility of OBS to maintain different configurations for different types of meetings or presentations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

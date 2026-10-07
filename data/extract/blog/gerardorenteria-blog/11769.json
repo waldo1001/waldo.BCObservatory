@@ -1,0 +1,142 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11769",
+  "url": "https://gerardorenteria.blog/2025/08/06/%f0%9f%8f%86%f0%9f%8e%af-accelerate-your-bc-go-live-with-gamification/",
+  "title": "🏆🎯 Accelerate your BC Go-Live with Gamification",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-08-06T21:54:58.000Z",
+  "words": 2023,
+  "summary": "A gamification system for Dynamics 365 Business Central accelerates user adoption during go-live by letting teams compete in mastering key processes like sales and customer creation. The solution uses three tables and multiple pages to track achievements, points, and leaderboards across user roles.",
+  "key_points": [
+    "Gamification addresses resistance to change and low user motivation common in ERP go-lives by fostering healthy competition among teams",
+    "Solution uses three core tables (Achievement Definition, User Achievement Profile, User Achievement Log) with separate pages for users and administrators",
+    "Achievements trigger automatically via events when users perform actions like creating customers, posting sales documents, or creating items",
+    "Users progress through 11 levels from Novice to Mythical, earning points per achievement and viewing individual progress on a gaming dashboard",
+    "Leaderboard page shows cross-user rankings by points and department, making competition transparent and motivating adoption"
+  ],
+  "systems": [
+    "sales",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "gamification",
+    "user adoption",
+    "go-live",
+    "change management",
+    "leaderboard",
+    "achievement system",
+    "onboarding"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRG Achievement Definition"
+    },
+    {
+      "type": "table",
+      "name": "GDRG User Achievement Profile"
+    },
+    {
+      "type": "table",
+      "name": "GDRG User Achievement Log"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG Achievement Processor"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG UI Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG Achievement Events"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG Demo Data"
+    },
+    {
+      "type": "enum",
+      "name": "GDRG Achievement Trigger Type"
+    },
+    {
+      "type": "enum",
+      "name": "GDRG Department Filter"
+    },
+    {
+      "type": "enum",
+      "name": "GDRG Difficulty Level"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Gaming Dashboard"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Achievement Definitions"
+    },
+    {
+      "type": "page",
+      "name": "GDRG User Profile List"
+    },
+    {
+      "type": "page",
+      "name": "GDRG My Profile"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Achievement Leaderboard"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Achievement Log"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Achievement Guide"
+    },
+    {
+      "type": "page",
+      "name": "GDRG My Achievement Log"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRG Gaming"
+    },
+    {
+      "type": "interface",
+      "name": "GDRG Gaming User"
+    }
+  ],
+  "features": [
+    "achievement definitions and configuration",
+    "user achievement profiles with statistics",
+    "achievement event triggers (customer create, sales post, vendor create, item create, quote create, purchase post)",
+    "achievement leaderboard with competitive ranking",
+    "user progress dashboard",
+    "achievement guide and history log",
+    "role-based access (user and administrator)",
+    "achievement difficulty levels and point system"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Experience has taught us that Go-Live start-ups of any ERP usually face a common challenge: resistance to change.",
+      "why_it_matters": "Establishes the core problem that gamification solves: adoption friction during go-live"
+    },
+    {
+      "text": "The leaderboard where we see the progress of all users in different areas, demonstrating the skills gained as well as the points and badges.",
+      "why_it_matters": "Describes the central motivational feature that makes competition transparent and reinforces achievement"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

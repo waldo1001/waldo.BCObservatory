@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/12238",
+  "url": "https://demiliani.com/2025/08/07/json-prompting-in-ai-why/",
+  "title": "JSON prompting in AI: why?",
+  "source": "demiliani-com",
+  "published_at": "2025-08-07T06:58:22.000Z",
+  "words": 894,
+  "summary": "JSON prompting structures AI prompts using formatted data to achieve more consistent and reliable responses. The technique minimizes hallucinations, improves parsing, and works well for data processing, APIs, and complex multi-step tasks, but is less suitable for natural conversations or creative work.",
+  "key_points": [
+    "JSON format provides explicit constraints and output formats that help AI models understand exactly what is expected with no ambiguity",
+    "LLMs are trained on code, documents, APIs and structured data, so JSON resembles their training material and requires less guessing",
+    "JSON prompting works best for data processing, integrations, and complex reasoning; natural language works better for creative or conversational tasks"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "json prompting",
+    "ai",
+    "prompt engineering",
+    "llm",
+    "structured output",
+    "al code generation"
+  ],
+  "objects": [],
+  "features": [
+    "JSON prompting",
+    "structured prompts",
+    "AI response control",
+    "hallucination reduction",
+    "output format specification",
+    "multi-step reasoning"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Simply because LLMs are trained on code, documents, APIs and structured data and JSON looks like the stuff they were fed.",
+      "why_it_matters": "Clarifies the fundamental reason JSON prompting is effective: it aligns with LLM training data patterns"
+    },
+    {
+      "text": "JSON prompting = Structure, reliability, integration. Natural language = Flexibility, creativity, human-like interaction.",
+      "why_it_matters": "Provides decision criteria for when to use each approach based on task requirements"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

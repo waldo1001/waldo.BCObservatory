@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/jpearson-blog/1563",
+  "url": "https://jpearson.blog/2025/08/13/using-azure-devops-wiki-as-a-wysiwyg-editor-for-your-static-site/",
+  "title": "Using Azure DevOps Wiki as a WYSIWYG Editor for Your Static Site",
+  "source": "jpearson-blog",
+  "published_at": "2025-08-13T19:13:50.000Z",
+  "words": 998,
+  "summary": "Azure DevOps Wiki provides a WYSIWYG editor for maintaining static site documentation while keeping content in Git, allowing non-technical contributors to write and edit docs without learning Git workflows or Markdown syntax.",
+  "key_points": [
+    "Azure DevOps Wiki combines a user-friendly WYSIWYG editor with automatic Git commits behind the scenes",
+    "Consultants can write content without learning Git, branches, or Markdown syntax details",
+    "The wiki supports drag-and-drop page reordering, image pasting, and Mermaid diagrams",
+    "A build pipeline can automatically convert wiki content to static site format using docfx, triggered by commits",
+    "Use batch commits in the pipeline to avoid triggering builds for every small edit"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "documentation",
+    "azure devops",
+    "static site",
+    "git workflow",
+    "wysiwyg editor",
+    "content management",
+    "pipeline automation"
+  ],
+  "objects": [],
+  "features": [
+    "WYSIWYG editor",
+    "Mermaid diagram support",
+    "image upload and paste",
+    "drag-and-drop page reordering",
+    "automatic Git commits",
+    "pipeline automation",
+    "table of contents generation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

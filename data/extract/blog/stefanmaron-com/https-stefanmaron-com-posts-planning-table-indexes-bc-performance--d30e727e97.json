@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/",
+  "url": "https://stefanmaron.com/posts/planning-table-indexes-bc-performance/",
+  "title": "Planning Table Indexes for the Best Performance",
+  "source": "stefanmaron-com",
+  "published_at": "2025-08-07T07:00:00.000Z",
+  "words": 2072,
+  "summary": "Table indexes in Business Central speed up reads but slow down writes by 10-20% per index added, creating a tradeoff that requires careful planning. The post explains clustered and non-clustered indexes, SIFT views, columnstore indexes, and practical strategies for choosing which indexes to create based on actual query patterns and access needs.",
+  "key_points": [
+    "Every added index increases insert or update time by 10-20% and can raise deadlock risk in multi-user environments; justify each index by confirming it's actually needed and used",
+    "Clustered indexes define physical row ordering and are used by Get() and range queries; non-clustered indexes speed lookups on non-primary-key fields but BC limits you to 40 per table",
+    "SIFT views pre-calculate aggregations for fast reads but acquire range locks that cause deadlocks under concurrent writes; limit to 1-2 SIFT views on write-heavy tables",
+    "Columnstore indexes compress data and skip million-row segments but don't support seeks or ordering in BC, making them suited only for large infrequent GROUP BY queries, not loop-based CalcSums",
+    "Use Query objects instead of FindSet for covering indexes because Query's predictable SELECT clause makes truly covering indexes achievable, whereas FindSet adds unpredictable system and subscriber fields"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "performance",
+    "indexes",
+    "sql server",
+    "deadlocks",
+    "table design",
+    "query optimization"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "SIFT"
+    },
+    {
+      "type": "other",
+      "name": "NCCI"
+    },
+    {
+      "type": "query",
+      "name": "Query objects"
+    }
+  ],
+  "features": [
+    "Clustered Indexes",
+    "Non-Clustered Indexes",
+    "Covering Indexes",
+    "IncludedFields",
+    "SIFT Views",
+    "Columnstore Indexes",
+    "Query Objects"
+  ],
+  "versions": [
+    "v26.0",
+    "2025 release wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every index you add slows down writes. Insert, update, delete - all of them have to maintain every index on the table.",
+      "why_it_matters": "This core tradeoff explains why indexes must be carefully justified; they solve read performance at the cost of write performance across all DML operations."
+    },
+    {
+      "text": "Reducing each to 1 SIFT view resolved the problem completely.",
+      "why_it_matters": "Demonstrates that multiple SIFT views cause real-world deadlock problems in production; shows the direct impact of configuration choices on system stability."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/08/13/enhance-your-video-calls-with-obs-studio/",
   "published_at": "2025-08-13T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:29.324Z",
+      "path": "vault:posts/aardvarklabs-blog/2403.md",
+      "words": 840
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:29.332Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:29.333Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:29.334Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:29.339Z",
+      "path": "content/posts/aardvarklabs-blog/2403.md"
     }
   },
   "input_hash": "2025-08-13T02:54:08.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d52116eae28689cea6393648ca634ec814186ffec6077e227998e4f0fa5f287"
 }

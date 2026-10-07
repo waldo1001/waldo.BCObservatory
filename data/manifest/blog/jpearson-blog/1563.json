@@ -7,13 +7,39 @@
   "url": "https://jpearson.blog/2025/08/13/using-azure-devops-wiki-as-a-wysiwyg-editor-for-your-static-site/",
   "published_at": "2025-08-13T19:13:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:29.298Z",
+      "path": "vault:posts/jpearson-blog/1563.md",
+      "words": 998
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:29.311Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:29.312Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:29.312Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:29.315Z",
+      "path": "content/posts/jpearson-blog/1563.md"
     }
   },
   "input_hash": "2025-08-14T08:38:26.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ccde0f6dc975be8f08329b20b64f6cbce6a3964fca9fdb0d9d96e910b497532"
 }

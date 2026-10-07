@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-42-user-setup-management/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-42-user-setup-management/",
+  "title": "BC Friday Tips #42 User Setup Management",
+  "source": "thatnavguy-com",
+  "published_at": "2025-08-08T00:00:00.000Z",
+  "words": 69,
+  "summary": "The User Setup Management codeunit provides built-in functions for checking posting dates and retrieving sales/purchase filters, helping developers avoid reinventing common logic and maintain consistency across applications.",
+  "key_points": [
+    "User Setup Management codeunit includes functions like CheckAllowedPostingDate, CheckAllowedPostingDatesRange, and TestAllowedPostingDate for date validation",
+    "The codeunit provides GetSalesInvoicePostingPolicy and GetPurchaseInvoicePostingPolicy functions for posting policy management",
+    "GetSalesFilter and GetPurchasesFilter functions are available for retrieving user-specific filters",
+    "Using this codeunit saves development time and maintains consistent logic across the application"
+  ],
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "user setup",
+    "codeunit",
+    "posting dates",
+    "development tips",
+    "code reuse"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "User Setup Management"
+    }
+  ],
+  "features": [
+    "CheckAllowedPostingDate",
+    "CheckAllowedPostingDatesRange",
+    "TestAllowedPostingDate",
+    "GetSalesInvoicePostingPolicy",
+    "GetPurchaseInvoicePostingPolicy",
+    "GetSalesFilter",
+    "GetPurchasesFilter"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Save development time. Keeps the logic consistent.",
+      "why_it_matters": "Explains the primary benefits of using this codeunit instead of writing custom logic"
+    },
+    {
+      "text": "No need to reinvent the wheel.",
+      "why_it_matters": "Emphasizes that developers should leverage existing functionality rather than duplicating effort"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

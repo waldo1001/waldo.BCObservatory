@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/08/06/%f0%9f%8f%86%f0%9f%8e%af-accelerate-your-bc-go-live-with-gamification/",
   "published_at": "2025-08-06T21:54:58.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:34.364Z",
+      "path": "vault:posts/gerardorenteria-blog/11769.md",
+      "words": 2023
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:34.379Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:34.380Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:34.380Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:34.387Z",
+      "path": "content/posts/gerardorenteria-blog/11769.md"
     }
   },
   "input_hash": "2025-08-06T21:54:58.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60496b16f1a0dc733ac8f943a07329a57a2d1edf1657d0cc8faea0821967a1e9"
 }

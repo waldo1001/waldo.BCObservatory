@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/08/06/client-crash-check-error-dialog-signal/",
   "published_at": "2025-08-06T14:25:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:41:35.785Z",
+      "path": "vault:posts/duiliotacconi-com/1501.md",
+      "words": 1219
+    },
+    "extracted": {
+      "at": "2026-10-07T01:41:35.795Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:41:35.796Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:41:35.796Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:41:35.812Z",
+      "path": "content/posts/duiliotacconi-com/1501.md"
     }
   },
   "input_hash": "2025-08-08T08:34:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f290491dc3f830312a7505554a0d8a4942a85106116ecf19864a4c68970b7f20"
 }
