@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/62",
+  "number": 62,
+  "title": "Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Six new testing knowledge articles added to BCQuality covering UI handlers, table relations, fixture setup and assertion error validation with code examples.",
+  "key_points": [
+    "Addresses LLM knowledge gaps in BC-specific test mechanics like UI handlers, table relations and assertions",
+    "Each article includes good and bad AL code examples plus detailed guidance",
+    "Covers critical runtime errors that look like test failures but require platform-specific fixes",
+    "Articles follow existing BCQuality format with frontmatter, markdown and code files",
+    "Increases BCQuality knowledge base from 192 to 198 articles"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00433,
+    "changes_in_call": 1
+  }
+}

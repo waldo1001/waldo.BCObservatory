@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9191,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9191",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-08T10:20:50Z",
+  "merge_commit_sha": "2e5de8a822c5c8cd946d4e7a22a8fe50e14e0d32",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 641232: [Subcontracting] Offer to install missing apps instead of hard error when disabling Legacy Subcontracting",
+  "body_hash": "28bda265af0c6617fc0be317bbd94957d9e968eb5c9e7060275a9a3ee7aa661d",
+  "fixes_issues": [],
+  "work_items": [
+    641232
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 6,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 23,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99008501",
+        "type": "codeunit",
+        "id": 99008501,
+        "name": "Legacy Subc. Feature Handler",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/99008501-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

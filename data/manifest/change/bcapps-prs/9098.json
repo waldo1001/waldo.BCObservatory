@@ -6,10 +6,35 @@
   "title": "Align the Vend. Entry-Edit post-modify event with its Cust. Entry-Edit counterpart",
   "url": "https://github.com/microsoft/BCApps/pull/9098",
   "published_at": "2026-07-09T09:28:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:54.094Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 8,
+      "objects": 2,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:00.138Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004858
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:00.308Z",
+      "objects": 2,
+      "unjoined": 6,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:00.314Z",
+      "path": "content/changes/bcapps/9098.md"
     }
   },
   "input_hash": "316af650281346404b08d7609bc3073d93a4a2fb:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "align the vend entry edit post modify event with its cust entry edit counterpart"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c80325613ed106d85304b25ced7d8d6de383ca963de27265490b78cb67ff6f45"
 }

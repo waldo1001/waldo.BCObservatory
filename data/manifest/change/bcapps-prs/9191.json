@@ -6,10 +6,35 @@
   "title": "Bug 641232: [Subcontracting] Offer to install missing apps instead of hard error when disabling Legacy Subcontracting",
   "url": "https://github.com/microsoft/BCApps/pull/9191",
   "published_at": "2026-07-08T10:20:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:02.400Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:07.317Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003745
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:07.484Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:07.490Z",
+      "path": "content/changes/bcapps/9191.md"
     }
   },
   "input_hash": "2e5de8a822c5c8cd946d4e7a22a8fe50e14e0d32:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 641232 subcontracting offer to install missing apps instead of hard error when disabling legacy subcontracting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5318bfeea3a55e855e984651cbb8b708e1febaa3dca1f507decaf89298fb2b7"
 }

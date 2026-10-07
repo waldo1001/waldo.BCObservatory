@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8875",
+  "number": 8875,
+  "title": "[master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed an error when selecting an existing contact in the Sales Order Agent by adding a commit before opening the contact selection dialog, preventing a write transaction conflict.",
+  "key_points": [
+    "The 'Use another contact always' option failed with a form.RunModal write transaction error",
+    "Root cause was an active write transaction when ContactList.RunModal() was called",
+    "Solution adds Commit() before ContactList.RunModal() in SelectContactAndUpdateEmail, matching the pattern used in CreateContact",
+    "The commit is safe because there are no pending writes at this point",
+    "Resolves the conflict between the modal dialog and the Contact table's locking chain"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Package BCQuality as an installable plugin (experiment)",
   "url": "https://github.com/microsoft/BCQuality/pull/84",
   "published_at": "2026-07-09T07:41:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:54.981Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:59.940Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003928
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:59.941Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:20:59.944Z",
+      "path": "content/changes/bcquality/84.md"
     }
   },
   "input_hash": "47babc5ef0bb54ab2ee9b3289b906bc1cde8b829:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "package bcquality as an installable plugin experiment"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c9f38ab8d107065f7863aa13529f0d903eeada0b500b03a355abb87391d60669"
 }

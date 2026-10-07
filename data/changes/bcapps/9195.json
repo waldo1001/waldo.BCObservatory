@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9195,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9195",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T09:29:45Z",
+  "merge_commit_sha": "83c12f371e02cc5525811fa9947cbc9ca102ed73",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix Aged Accounts Receivable (Report 120) performance on large ledger history",
+  "body_hash": "75d5c50189c5e300d3d9f8a3243f92684ce920f3d23c8a6ea05076ae16601f52",
+  "fixes_issues": [],
+  "work_items": [
+    640854
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 3,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+        "status": "modified",
+        "key": "report/120",
+        "type": "report",
+        "id": 120,
+        "name": "Aged Accounts Receivable",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/120"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+        "status": "modified",
+        "key": "report/120",
+        "type": "report",
+        "id": 120,
+        "name": "Aged Accounts Receivable",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/120"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Reports/AgedAccountsReceivable.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

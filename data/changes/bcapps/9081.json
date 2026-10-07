@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9081,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9081",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-08T10:20:50Z",
+  "merge_commit_sha": "b74b49c3f46bbc6cbae70aa6249954909638896d",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 637846: Item Age Composition '...before' quantity reflected only last entry",
+  "body_hash": "8a4d40d283ceb225ccb2c5551d3240e2b1b9378bb4f6509ab681a312f374909b",
+  "fixes_issues": [],
+  "work_items": [
+    637846
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryReportsIV.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 58,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+        "status": "modified",
+        "key": "report/5808",
+        "type": "report",
+        "id": 5808,
+        "name": "Item Age Composition - Value",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5808"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

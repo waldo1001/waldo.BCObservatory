@@ -6,10 +6,35 @@
   "title": "[master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always",
   "url": "https://github.com/microsoft/BCApps/pull/8875",
   "published_at": "2026-07-08T11:43:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:01.330Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:07.497Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:11.149Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:11.153Z",
+      "path": "content/changes/bcapps/8875.md"
     }
   },
   "input_hash": "b49991190ee442e5925b80d26042a5ccb7cef554:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master soa bugbash for releases 28 x select an existing contact or create a new one use another contact always"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b639326cf9c0a26505b561c843bf5fb0b1c5165224d536f42a5ccc11f0e66b9"
 }

@@ -6,10 +6,35 @@
   "title": "Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)",
   "url": "https://github.com/microsoft/BCQuality/pull/62",
   "published_at": "2026-07-09T08:24:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:54.940Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 0,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:00.317Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00433
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:00.318Z",
+      "objects": 0,
+      "unjoined": 9,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:21:00.326Z",
+      "path": "content/changes/bcquality/62.md"
     }
   },
   "input_hash": "3aa3581f9563b64e6fa370cc722dbca23775f225:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add testing knowledge ui handlers table relations asserterror fixtures p1 p2"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be5c751be5d0c3a73abef841e11febfad5eb888b92a2981775eb3948369eff58"
 }

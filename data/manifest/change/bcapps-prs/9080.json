@@ -6,10 +6,35 @@
   "title": "Bug 635072: Subcontracting order uses Prod. Order Line location, not Work Center",
   "url": "https://github.com/microsoft/BCApps/pull/9080",
   "published_at": "2026-07-08T10:20:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:56.996Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:01.519Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003193
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:01.717Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:01.722Z",
+      "path": "content/changes/bcapps/9080.md"
     }
   },
   "input_hash": "87507fd1404295e44fe815d0fa4dae16beae5a0c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 635072 subcontracting order uses prod order line location not work center"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d56c5569afe56310072f3f378ce7919e73f0f094f7035b19167d98ab3967afa1"
 }

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 84,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/84",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-09T07:41:41Z",
+  "merge_commit_sha": "47babc5ef0bb54ab2ee9b3289b906bc1cde8b829",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Package BCQuality as an installable plugin (experiment)",
+  "body_hash": "2e9ee04f4f731a29392d6cc7a4428a21737e783e45c60a70763ea5c762327960",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "status": "added",
+      "additions": 9,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "skills/bcquality-al-review/SKILL.md",
+      "status": "added",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 115,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "skills/bcquality-al-review/SKILL.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

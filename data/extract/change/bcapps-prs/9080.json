@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9080",
+  "number": 9080,
+  "title": "Bug 635072: Subcontracting order uses Prod. Order Line location, not Work Center",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The subcontracting order creation process now consistently uses the production order line location instead of the work center location when creating purchase orders, aligning with the worksheet calculation path.",
+  "key_points": [
+    "The InsertReqWkshLine function previously overrode requisition line locations with work center locations",
+    "Both Create Subcontracting Order and CalculateSubcontracts paths now use production order line location consistently",
+    "Test coverage added to verify location handling in subcontracting workflows"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Standardize on the Prod. Order Line location to match the two existing correct implementations.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003193,
+    "changes_in_call": 1
+  }
+}

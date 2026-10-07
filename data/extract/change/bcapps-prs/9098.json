@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9098",
+  "number": 9098,
+  "title": "Align the Vend. Entry-Edit post-modify event with its Cust. Entry-Edit counterpart",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The vendor entry-edit codeunit now raises an improved post-modify event that mirrors its customer counterpart, passing both the original and modified entry records for better context to event subscribers.",
+  "key_points": [
+    "New event OnRunOnAfterVendLedgEntryModify added with the same signature as OnRunOnAfterCustLedgEntryModify from the customer counterpart",
+    "Old misspelled event OnRunOnAfterVendLedgEntryMofidy obsoleted and guarded with CLEAN29 pattern to maintain backward compatibility",
+    "Both event parameters passed by reference to provide full context to subscribers",
+    "Change applied uniformly across W1 and all localization layers (APAC, CH, IT, NA, NL, NO, RU)",
+    "No behavior changes to end users; change is event-focused for extension developers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "The event name is misspelled, and it only exposes the modified entry.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004858,
+    "changes_in_call": 1
+  }
+}

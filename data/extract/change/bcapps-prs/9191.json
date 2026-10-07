@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9191",
+  "number": 9191,
+  "title": "Bug 641232: [Subcontracting] Offer to install missing apps instead of hard error when disabling Legacy Subcontracting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "When disabling Legacy Subcontracting in Manufacturing Setup, the system now offers to install missing required apps inline instead of showing a hard error with no resolution path.",
+  "key_points": [
+    "Replaced hard error with inline app installation offer for missing Subcontracting or IT Subcontracting Migration apps",
+    "Uses ExtensionManagement.InstallMarketplaceExtension pattern, triggering session reload to re-run the disable process",
+    "Pre-Check action also provides install option instead of dead-ending",
+    "Method signature unchanged to maintain compatibility with existing cross-app calls",
+    "Removed unused error labels for app-not-installed scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003745,
+    "changes_in_call": 1
+  }
+}

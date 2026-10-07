@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9127",
+  "number": 9127,
+  "title": "Add Dataverse Cloud endpoints override for sovereign clouds",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments without forking BaseApp. The setup table stores the cloud selection and endpoints are routed through the interface at all call sites.",
+  "key_points": [
+    "New extensible enum and interface allow partners to provide sovereign cloud endpoints like GCC High, US-DoD, and China",
+    "Setup table gains a field to store the selected Dataverse cloud, defaulting to Commercial with no UI changes",
+    "All hardcoded OAuth and Discovery URLs now route through the interface implementation",
+    "Existing commercial tenants are unaffected; no upgrade code needed",
+    "Partners can extend the enum and implement their own endpoint codeunit"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "crm"
+  ],
+  "quote": "Add a structured, partner-extensible hook and route every sovereign-sensitive URL through it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004567,
+    "changes_in_call": 1
+  }
+}

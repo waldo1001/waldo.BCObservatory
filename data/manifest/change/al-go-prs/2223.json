@@ -6,7 +6,7 @@
   "title": "Clarify buildModes in conditional settings in documentation",
   "url": "https://github.com/microsoft/AL-Go/pull/2223",
   "published_at": "2026-07-08T12:27:13Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "clarify buildmodes in conditional settings in documentation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:55.983Z",
+  "retry_after": null
 }

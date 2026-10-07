@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9195",
+  "number": 9195,
+  "title": "Fix Aged Accounts Receivable (Report 120) performance on large ledger history",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Aged Accounts Receivable report (Report 120) now loads only necessary columns from Detailed Customer Ledger Entry records, significantly reducing query time on large ledger histories.",
+  "key_points": [
+    "SetLoadFields applied to the Detailed Cust. Ledg. Entry loop to fetch only four required columns (Entry Type, Posting Date, Amount, Amount (LCY))",
+    "Change eliminates N+1 query pattern that scaled with full historical ledger size rather than open receivables",
+    "Update synchronized across W1, ES, and NA localization layers"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003619,
+    "changes_in_call": 1
+  }
+}

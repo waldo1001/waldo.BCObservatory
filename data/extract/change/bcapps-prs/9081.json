@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9081",
+  "number": 9081,
+  "title": "Bug 637846: Item Age Composition '...before' quantity reflected only last entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 5808 now correctly displays item age composition quantities across all ledger entries instead of only the last one, while preserving column bindings by maintaining unchanged column names.",
+  "key_points": [
+    "Quantity buckets now accumulate values from all item ledger entries using a new InvtQtyTotal array",
+    "Output totals are calculated after processing all entries instead of just showing the last entry's values",
+    "Value columns continue working correctly as before",
+    "Column names unchanged to preserve existing layout bindings",
+    "Test coverage extended"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "quantities reflected only the last ILE",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003169,
+    "changes_in_call": 1
+  }
+}

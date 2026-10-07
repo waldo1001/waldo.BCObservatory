@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/8556",
+  "number": 8556,
+  "title": "[Quality Management] Enforce rules and restrictions with indirect and implicit permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "summary": "Quality Management now uses InherentPermissions to enforce rules when inspections are automatically created, requiring users to hold the new QltyMgmt - I. Create permission set if generation rules are triggered, preventing silent failures.",
+  "key_points": [
+    "InherentPermissions added to Quality Inspection Setup and Generation Rule tables to control access",
+    "New QltyMgmt - I. Create permission set grants indirect permissions for inspection creation",
+    "Users without QM permissions get standard permission errors instead of silent skips when generation rules trigger",
+    "Automatic inspection creation checks setup and rules before requiring permissions",
+    "Create Quality Inspection actions use AccessByPermission to hide views from users with only creation permissions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "assembly",
+    "warehouse"
+  ],
+  "quote": "Implement InherentPermissions so users without QM permissions would not silently skip mandatory Quality Inspection creation or transaction restrictions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005438,
+    "changes_in_call": 1
+  }
+}

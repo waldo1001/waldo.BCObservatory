@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/84",
+  "number": 84,
+  "title": "Package BCQuality as an installable plugin (experiment)",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality is packaged as an installable Claude plugin via marketplace and plugin manifests, with a bridge skill enabling code-review functionality in plugin hosts without modifying the existing knowledge or routing logic.",
+  "key_points": [
+    "Added `.claude-plugin/marketplace.json` to declare a single-plugin marketplace",
+    "Added `.claude-plugin/plugin.json` plugin manifest with name, description, and version",
+    "Created `skills/bcquality-al-review/SKILL.md` bridge skill to bootstrap the existing entry protocol for plugin hosts",
+    "No changes to BCQuality's knowledge base or routing logic",
+    "Enables installation via cross-CLI plugin mechanism for BC-Bench's code-review category"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": "Three files, **no changes to knowledge or routing logic**",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003928,
+    "changes_in_call": 1
+  }
+}

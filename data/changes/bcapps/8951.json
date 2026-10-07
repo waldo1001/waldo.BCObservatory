@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8951,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8951",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-07T23:23:16Z",
+  "merge_commit_sha": "97d4749a52cdec1a90ed27827d826872b3c053c9",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[Master]-Time zone issue to the G/L report in Business Central",
+  "body_hash": "7ac33c720953f3d0e90032331a724666eb5316716322f663c2c80454804d827c",
+  "fixes_issues": [],
+  "work_items": [
+    641014
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10",
+        "type": "codeunit",
+        "id": 10,
+        "name": "Type Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/10"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

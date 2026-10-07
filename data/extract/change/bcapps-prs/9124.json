@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9124",
+  "number": 9124,
+  "title": "[E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Document purchase draft lines subform now includes a read-only Name column showing the matched entity (Item, G/L Account, or Resource), hidden by default but available for personalization to help reviewers verify line matching.",
+  "key_points": [
+    "Added read-only Name column to E-Doc. Purchase Draft Subform page displaying matched entity names",
+    "Column is hidden by default and users can personalize it into view",
+    "Shows the matched record name rather than extracted invoice description",
+    "Value computed dynamically in OnAfterGetRecord with no table schema changes",
+    "New OnAfterGetMatchedEntityName integration event for connector apps"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "shows the name of the matched entity such as Item, G/L Account, or Resource",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003813,
+    "changes_in_call": 1
+  }
+}

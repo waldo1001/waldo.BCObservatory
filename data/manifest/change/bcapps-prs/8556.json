@@ -6,10 +6,35 @@
   "title": "[Quality Management] Enforce rules and restrictions with indirect and implicit permissions",
   "url": "https://github.com/microsoft/BCApps/pull/8556",
   "published_at": "2026-07-08T14:27:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:55.973Z",
+      "change_class": "code",
+      "files": 31,
+      "al": 29,
+      "objects": 29,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:01.339Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005438
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:01.504Z",
+      "objects": 29,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:01.515Z",
+      "path": "content/changes/bcapps/8556.md"
     }
   },
   "input_hash": "87b08f460017869fca8edb8f96c84494cc7d7f3a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management enforce rules and restrictions with indirect and implicit permissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f8bd876b329c3508ce007c580c78c4b64b555dc6808b43b260682df6b6318065"
 }

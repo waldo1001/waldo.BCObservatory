@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9120",
+  "number": 9120,
+  "title": "[Subcontracting] Bug 641399: Move Subcontracting Transfer Orders action out of Entries sub-group",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting Transfer Orders action moved from the Entries sub-group to the Order group level on production order pages, correcting its placement since transfer orders are documents rather than ledger entries.",
+  "key_points": [
+    "Relocated Subcontracting Transfer Orders action in four page extensions",
+    "Changed placement from Entries sub-group to Order group level",
+    "Action now appears alongside Subcontracting Order Lines instead of ledger entry actions",
+    "Affects both card and list versions of Released and Finished production order pages",
+    "Ledger entry actions remain in the Entries group"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Move it up to the Order group level next to Subcontracting Order Lines on all four production-order pages",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003564,
+    "changes_in_call": 1
+  }
+}

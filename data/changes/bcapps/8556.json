@@ -1,0 +1,584 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8556,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8556",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-08T14:27:47Z",
+  "merge_commit_sha": "87b08f460017869fca8edb8f96c84494cc7d7f3a",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Enforce rules and restrictions with indirect and implicit permissions",
+  "body_hash": "3b551bab92d8ae2b0a2eddf68f457cfc6e2738ec3340a012cbe86665560013ea",
+  "fixes_issues": [],
+  "work_items": [
+    626330
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspecGenRuleMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRule.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRules.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyIResultConditConf.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResult.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResultList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyResultConditionMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyResultEvaluation.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyTraversal.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/QltyInspectionTemplateHdr.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/QltyInspectionTemplateList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/Test/QltyTestLookupValues.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/Test/QltyTests.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionCreate.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLines.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Assembly/QltyAssemblyIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/QltyItemTrackingMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Tracking/QltyTrackingIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Transfer/History/QltyTransferShipmentHeader.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Manufacturing/QltyManufacturIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Receiving/QltyReceivingIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 96,
+      "deletions": 44,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Warehouse/QltyWarehouseIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Permissions/QltyMgmtICreate.PermissionSet.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Setup/SetupGuide/QltyGuidedExperience.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Utilities/QltyMiscHelpers.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Utilities/QltyNotificationMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 31,
+    "additions": 373,
+    "deletions": 103,
+    "al": 29
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspecGenRuleMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20405",
+        "type": "codeunit",
+        "id": 20405,
+        "name": "Qlty. Inspec. Gen. Rule Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20405"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRule.Table.al",
+        "status": "modified",
+        "key": "table/20404",
+        "type": "table",
+        "id": 20404,
+        "name": "Qlty. Inspection Gen. Rule",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20404"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/GenerationRule/QltyInspectionGenRules.Page.al",
+        "status": "modified",
+        "key": "page/20405",
+        "type": "page",
+        "id": 20405,
+        "name": "Qlty. Inspection Gen. Rules",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20405"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyIResultConditConf.Table.al",
+        "status": "modified",
+        "key": "table/20412",
+        "type": "table",
+        "id": 20412,
+        "name": "Qlty. I. Result Condit. Conf.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20412"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResult.Table.al",
+        "status": "modified",
+        "key": "table/20411",
+        "type": "table",
+        "id": 20411,
+        "name": "Qlty. Inspection Result",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20411"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResultList.Page.al",
+        "status": "modified",
+        "key": "page/20416",
+        "type": "page",
+        "id": 20416,
+        "name": "Qlty. Inspection Result List",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20416"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyResultConditionMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20409",
+        "type": "codeunit",
+        "id": 20409,
+        "name": "Qlty. Result Condition Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20409"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyResultEvaluation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20410",
+        "type": "codeunit",
+        "id": 20410,
+        "name": "Qlty. Result Evaluation",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20410"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyTraversal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20408",
+        "type": "codeunit",
+        "id": 20408,
+        "name": "Qlty. Traversal",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20408"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/QltyInspectionTemplateHdr.Table.al",
+        "status": "modified",
+        "key": "table/20402",
+        "type": "table",
+        "id": 20402,
+        "name": "Qlty. Inspection Template Hdr.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20402"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Template/QltyInspectionTemplateList.Page.al",
+        "status": "modified",
+        "key": "page/20404",
+        "type": "page",
+        "id": 20404,
+        "name": "Qlty. Inspection Template List",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20404"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionCreate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20404",
+        "type": "codeunit",
+        "id": 20404,
+        "name": "Qlty. Inspection - Create",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20404"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLine.Table.al",
+        "status": "modified",
+        "key": "table/20406",
+        "type": "table",
+        "id": 20406,
+        "name": "Qlty. Inspection Line",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20406"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLines.Page.al",
+        "status": "modified",
+        "key": "page/20413",
+        "type": "page",
+        "id": 20413,
+        "name": "Qlty. Inspection Lines",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20413"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionList.Page.al",
+        "status": "modified",
+        "key": "page/20408",
+        "type": "page",
+        "id": 20408,
+        "name": "Qlty. Inspection List",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20408"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Assembly/QltyAssemblyIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20412",
+        "type": "codeunit",
+        "id": 20412,
+        "name": "Qlty. Assembly Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20412"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/QltyItemTrackingMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20439",
+        "type": "codeunit",
+        "id": 20439,
+        "name": "Qlty. Item Tracking Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20439"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Tracking/QltyTrackingIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20415",
+        "type": "codeunit",
+        "id": 20415,
+        "name": "Qlty. Tracking Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20415"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Transfer/History/QltyTransferShipmentHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/20411",
+        "type": "tableextension",
+        "id": 20411,
+        "name": "Qlty. Transfer Shipment Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "tableextension/20411"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Manufacturing/QltyManufacturIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20407",
+        "type": "codeunit",
+        "id": 20407,
+        "name": "Qlty. Manufactur. Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20407"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Receiving/QltyReceivingIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20411",
+        "type": "codeunit",
+        "id": 20411,
+        "name": "Qlty. Receiving Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20411"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Warehouse/QltyWarehouseIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20438",
+        "type": "codeunit",
+        "id": 20438,
+        "name": "Qlty. Warehouse Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20438"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Permissions/QltyMgmtICreate.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/20407",
+        "type": "permissionset",
+        "id": 20407,
+        "name": "QltyMgmt - I. Create",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "permissionset/20407"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Page.al",
+        "status": "modified",
+        "key": "page/20400",
+        "type": "page",
+        "id": 20400,
+        "name": "Qlty. Management Setup",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20400"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Table.al",
+        "status": "modified",
+        "key": "table/20400",
+        "type": "table",
+        "id": 20400,
+        "name": "Qlty. Management Setup",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20400"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Setup/SetupGuide/QltyGuidedExperience.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20419",
+        "type": "codeunit",
+        "id": 20419,
+        "name": "Qlty. Guided Experience",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20419"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Utilities/QltyMiscHelpers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20599",
+        "type": "codeunit",
+        "id": 20599,
+        "name": "Qlty. Misc Helpers",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20599"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Utilities/QltyNotificationMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20437",
+        "type": "codeunit",
+        "id": 20437,
+        "name": "Qlty. Notification Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20437"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

@@ -6,10 +6,18 @@
   "title": "[Master]-Time zone issue to the G/L report in Business Central",
   "url": "https://github.com/microsoft/BCApps/pull/8951",
   "published_at": "2026-07-07T23:23:16Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:03.715Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "97d4749a52cdec1a90ed27827d826872b3c053c9:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "master time zone issue to the g l report in business central"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9317fdd762100a5498e8452ab34ea715ae62429e7887bf33a1fd5dc9ae9e539e"
 }

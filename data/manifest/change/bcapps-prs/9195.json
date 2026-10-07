@@ -6,10 +6,35 @@
   "title": "Fix Aged Accounts Receivable (Report 120) performance on large ledger history",
   "url": "https://github.com/microsoft/BCApps/pull/9195",
   "published_at": "2026-07-09T09:29:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:54.030Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:59.947Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003619
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:00.128Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:00.134Z",
+      "path": "content/changes/bcapps/9195.md"
     }
   },
   "input_hash": "83c12f371e02cc5525811fa9947cbc9ca102ed73:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix aged accounts receivable report 120 performance on large ledger history"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42d12bfb701f75f160c6d1b1e176227016c8fa7f75829d8e20282de3f0587627"
 }
