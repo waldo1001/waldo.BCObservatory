@@ -1,0 +1,29 @@
+{
+  "video_id": "PIWxU93eCT4",
+  "item_id": "video/yt-microsoft/PIWxU93eCT4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Edit sales price list in Excel' was marked ga, but the transcript says it 'will ship' with 2025 Wave 1 as an upcoming release addition. Changed it to announced.",
+    "The summary says 'from January 2025', which the transcript does not support. Removed it.",
+    "The key point says the demo creates a price list rule, but the demo edits the existing default sales price list and adds a quantity-based price line. Corrected it.",
+    "The 'reporting' system tag is weakly supported. Excel editing is the topic, not reporting.",
+    "The chapter title 'Creating and testing a sales price list rule' is slightly inaccurate because the existing default list is edited. The chapter could not be edited with these fields."
+  ],
+  "input_hash": "86bf9079c7fc1851516baf93dd22915f7dd07c464628b0f38c05f17b144c6975",
+  "by": "opus",
+  "at": "2026-10-07T23:02:32.194Z",
+  "applied": [
+    "Edit sales price list in Excel: status announced",
+    "New sales price experience: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049761
+  }
+}

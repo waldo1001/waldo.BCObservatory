@@ -14,12 +14,12 @@ tags:
   - data pre-population
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:29.636Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:29.664Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,7 +145,7 @@ quotes:
 
 > Adding resources (test data, sample data, configuration files, images) to Business Central AL extensions, using NAV App resource functions and a resourceFolders property in app.json. Covers size limits and access scope. Demo uses a recipe app and Business Central 25.2 or later.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=TVQ9ydSq6F8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-21 · 6:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=TVQ9ydSq6F8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-21 · 6:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -157,11 +157,11 @@ It also covers the limits. Resources are only accessible from the app that owns 
 
 - The speaker introduces the feature for Business Central 25.2 or later.
 - app.json has a new resource folders property that takes an array, so several folders can hold resources.
-- NAV App.Get Resource As Json reads a resource file as JSON; related functions are get Resource, get Resource as text, and list resources.
-- NAV App List Resources filters by pattern or folder, such as *.jpg, and returns all resources if no pattern is given.
+- NAV App.Get Resource As Json reads a resource file as JSON; related functions are get Resource (for arbitrary content, e.g. read into an InStream), get Resource as text, and list resources.
+- NAV App List Resources filters resources by a wildcard pattern or a folder such as images, and returns every resource available to the app if nothing is passed.
 - Resources can only be accessed within the app that owns them, so a dependent app cannot read them.
-- Limits: 16 MB per resource file, 256 MB total per extension, and at most 256 files. The presenter says these may change.
-- Resources are treated as code: with allow downloading enabled they are downloaded with source code, and with it disabled they are not included.
+- Limits: a single resource file can be up to 16 megabytes, total resource size must be under 256 per extension (unit not stated in the video), and at most 256 files. The presenter says these may change.
+- Resources are treated as code: with allow downloading source enabled in resource exposure policies they are downloaded with the source code, and with it set to false they are not included.
 
 ## Chapters
 
@@ -174,13 +174,13 @@ It also covers the limits. Resources are only accessible from the app that owns 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Resources in AL Extensions | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=5s) |  |
-| NAV App Get Resource As Json | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=98s) |  |
-| Resource Folders Configuration | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=159s) |  |
-| NAV App List Resources | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=200s) |  |
-| Resource Source Code Exposure Policies | status not stated | [4:48](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=288s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Resources in AL Extensions | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=5s) |
+| NAV App Get Resource As Json | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=98s) |
+| Resource Folders Configuration | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=159s) |
+| NAV App List Resources | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=200s) |
+| Resource Source Code Exposure Policies | status not stated | [4:48](https://www.youtube.com/watch?v=TVQ9ydSq6F8&t=288s) |
 
 ## AL objects mentioned
 

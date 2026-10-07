@@ -1,0 +1,27 @@
+{
+  "video_id": "OszitKuf8t0",
+  "item_id": "video/yt-microsoft/OszitKuf8t0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature status was left unclear, but the transcript says the capability 'now ships with 2025 wave 1'. Set it to ga with that quote as evidence.",
+    "All four quotes are verbatim. The t=71.1 quote starts with 'this', the last word of segment 71.1, and runs on into 91.2, so its t is correct.",
+    "Key points leave out the notification that tells users the language list is filtered. Added it.",
+    "The chapter boundary at 20.1 is slightly off because segment 20.1 still describes the problem. Too minor to change."
+  ],
+  "input_hash": "9aeefa60e9fd5bf99455b01e137c5e23665b76ff6ce243eb09780939b2d9a9fe",
+  "by": "opus",
+  "at": "2026-10-07T23:02:15.306Z",
+  "applied": [
+    "Allowed languages administration: status ga",
+    "quote at 50s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040261
+  }
+}

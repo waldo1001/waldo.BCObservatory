@@ -200,7 +200,7 @@
       "description": "Ability to define conditional settings in AL Go for GitHub based on build mode (e.g., default vs next major). Settings can be overridden based on which build mode is active.",
       "status": "ga",
       "status_evidence_t": 109,
-      "status_evidence_quote": "in the latest month we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like",
+      "status_evidence_quote": "we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like that the conditional settings",
       "status_evidence_verified": true,
       "t_start": 109,
       "t_end": 204.4,
@@ -586,27 +586,6 @@
       "system": "platform"
     },
     {
-      "name": "Resources in Test Apps",
-      "description": "For AL 4.2, resources can be included in the app itself. For test apps, resources could be used in the initialization step to load configuration data.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2474.9,
-      "t_end": 2494.1,
-      "is_demoed": false,
-      "caveats": [
-        "Different loading means for test vs regular apps"
-      ],
-      "tags": [
-        "resources",
-        "test apps",
-        "al42",
-        "configuration"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Configuration Packages Deprecation",
       "description": "Configuration packages are being phased out. Extended demo data will no longer be shipped as configuration packages but as demo data apps. The functionality is maintained but the artifact format is changing.",
       "status": "unclear",
@@ -762,27 +741,6 @@
         "federated identities"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Federated Identities for Keyword Authentication",
-      "description": "Authentication method for connecting to keyword using federated credentials or AAD app credentials instead of user credentials, providing more secure access control.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3181.4,
-      "t_end": 3249.7,
-      "is_demoed": false,
-      "caveats": [
-        "Documentation for federated credentials is needed in the workshop"
-      ],
-      "tags": [
-        "authentication",
-        "security",
-        "federated identities",
-        "keyword"
-      ],
-      "system": "platform"
     },
     {
       "name": "Multi-Project Repository Support",
@@ -1005,14 +963,8 @@
     {
       "t": 1650.1,
       "text": "if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um",
-      "why_it_matters": "Explains how to capture dependencies for builds, relevant to alternative local development approaches being considered.",
+      "why_it_matters": "Names the setting that produces a dependencies artifact for builds.",
       "check": "exact"
-    },
-    {
-      "t": 1650.1,
-      "text": "then in the buildt artifacts there will be a a an artifact called um project",
-      "why_it_matters": "Explains a specific setting for accessing build dependencies, relevant for teams managing complex dependency chains.",
-      "check": "fuzzy"
     },
     {
       "t": 1753,

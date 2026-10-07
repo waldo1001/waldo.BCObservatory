@@ -14,18 +14,25 @@ tags:
   - business central 2025
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:15.306Z"
   flags: []
 generated:
-  at: "2026-10-06T18:59:03.754Z"
+  at: "2026-10-07T23:02:15.342Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 3e4e46a44a919af27620f68eac8833cb27988f424cf3b9c055da6d05995ced6b
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=OszitKuf8t0&t=91s
+    title: "Allowed languages administration: generally available"
+    date: "2025-01-24T12:58:57.000Z"
+    commit: null
+    t: 91
+    quote: pull request that enables his capability which then now ships with 2025 wave 1
   - kind: video
     url: https://www.youtube.com/watch?v=OszitKuf8t0&t=5s
     title: "What's Cooking in Business Central: Limiting the Available Product Languages"
@@ -47,6 +54,13 @@ evidence:
     commit: null
     t: 50
     quote: if you go into my settings the user will only be able to choose from the languages which are allowed
+  - kind: video
+    url: https://www.youtube.com/watch?v=OszitKuf8t0&t=50s
+    title: "What's Cooking in Business Central: Limiting the Available Product Languages"
+    date: "2025-01-24T12:58:57.000Z"
+    commit: null
+    t: 50
+    quote: there's a little uh notification showing here that this is now a filtered view
   - kind: video
     url: https://www.youtube.com/watch?v=OszitKuf8t0&t=71s
     title: "What's Cooking in Business Central: Limiting the Available Product Languages"
@@ -87,9 +101,9 @@ chapters:
     title: Partner contribution and delivery
 features:
   - name: Allowed languages administration
-    status: unclear
+    status: ga
     t: 20
-    verified: false
+    verified: true
     status_source: video
 objects_mentioned: []
 quotes:
@@ -102,6 +116,9 @@ quotes:
   - t: 50
     text: if you go into my settings the user will only be able to choose from the languages which are allowed
     check: exact
+  - t: 50
+    text: there's a little uh notification showing here that this is now a filtered view
+    check: exact
   - t: 71
     text: this pull request that enables his capability which then now ships with 2025 wave 1
     check: exact
@@ -111,7 +128,7 @@ quotes:
 
 > Allowed languages administration in Business Central 2025 wave 1: administrators limit which product languages users can pick in their personal settings. The video demos the admin setup and the filtered language list, and says a community member contributed it through a pull request.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=OszitKuf8t0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-24 · 1:43 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=OszitKuf8t0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-24 · 1:43 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -123,10 +140,11 @@ The demo shows the administrator selecting languages, then the user's My Setting
 
 - Administrators can specify allowed languages, which limits the product languages users can choose from.
 - Users see only the allowed languages when they open My Settings.
+- A notification tells the user that the language list is a filtered view.
 - The change reduces confusion from the full list of available languages.
 - The capability ships with Business Central 2025 wave 1.
 - It was developed by a community member and delivered through a pull request.
-- The video demos selecting allowed languages and the resulting user view.
+- The video demos selecting allowed languages (Danish and English) and the resulting user view.
 
 ## Chapters
 
@@ -140,13 +158,14 @@ The demo shows the administrator selecting languages, then the user's My Setting
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Allowed languages administration | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=OszitKuf8t0&t=20s) |  |
+| Allowed languages administration | generally available, demoed | [0:20](https://www.youtube.com/watch?v=OszitKuf8t0&t=20s) | "pull request that enables his capability which then now ships with 2025 wave 1" ([1:31](https://www.youtube.com/watch?v=OszitKuf8t0&t=91s)) |
 
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=OszitKuf8t0&t=5s) "we'll show you another Nifty little addition to Business Center 2025 wave 1 developed by one of our community members"
 - [0:20](https://www.youtube.com/watch?v=OszitKuf8t0&t=20s) "administrators have the ability to go into allowed languages we can specify Which languages you would like the user to be able to choose"
 - [0:50](https://www.youtube.com/watch?v=OszitKuf8t0&t=50s) "if you go into my settings the user will only be able to choose from the languages which are allowed"
+- [0:50](https://www.youtube.com/watch?v=OszitKuf8t0&t=50s) "there's a little uh notification showing here that this is now a filtered view"
 - [1:11](https://www.youtube.com/watch?v=OszitKuf8t0&t=71s) "this pull request that enables his capability which then now ships with 2025 wave 1"
 
 Presenters (as heard): Casper.

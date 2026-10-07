@@ -45,10 +45,10 @@
     {
       "name": "Allowed languages administration",
       "description": "Administrators can limit the product languages available to users by specifying which languages users can choose from in their personal settings, reducing confusion from the full list of available languages.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 91.2,
+      "status_evidence_quote": "pull request that enables his capability which then now ships with 2025 wave 1",
+      "status_evidence_verified": true,
       "t_start": 20.1,
       "t_end": 71.1,
       "is_demoed": true,
@@ -86,6 +86,12 @@
       "t": 50.3,
       "text": "if you go into my settings the user will only be able to choose from the languages which are allowed",
       "why_it_matters": "Shows the user-facing impact of the administrator's language restrictions.",
+      "check": "exact"
+    },
+    {
+      "t": 50.3,
+      "text": "there's a little uh notification showing here that this is now a filtered view",
+      "why_it_matters": "Shows that users are told their language list is filtered.",
       "check": "exact"
     },
     {

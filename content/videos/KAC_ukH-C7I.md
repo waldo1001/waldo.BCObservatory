@@ -17,12 +17,12 @@ tags:
   - return on investment
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:29.384Z"
   flags: []
 generated:
-  at: "2026-10-06T19:00:16.822Z"
+  at: "2026-10-07T23:02:29.432Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     t: 677
     quote: the program currently has 168 partner contracts uh into the program
   - kind: video
+    url: https://www.youtube.com/watch?v=KAC_ukH-C7I&t=697s
+    title: The ReSKILL program - Explained
+    date: "2025-01-21T19:54:59.000Z"
+    commit: null
+    t: 697
+    quote: basically doing them in batches of three to five individuals is basically a best practice
+  - kind: video
     url: https://www.youtube.com/watch?v=KAC_ukH-C7I&t=737s
     title: The ReSKILL program - Explained
     date: "2025-01-21T19:54:59.000Z"
@@ -92,6 +99,20 @@ evidence:
     commit: null
     t: 770
     quote: from all of our new highs that we've recruited that 39% of females uh of new Highs are females
+  - kind: video
+    url: https://www.youtube.com/watch?v=KAC_ukH-C7I&t=811s
+    title: The ReSKILL program - Explained
+    date: "2025-01-21T19:54:59.000Z"
+    commit: null
+    t: 811
+    quote: the program saved 80% of the time of the seniors in the first three months that the new hire was there
+  - kind: video
+    url: https://www.youtube.com/watch?v=KAC_ukH-C7I&t=831s
+    title: The ReSKILL program - Explained
+    date: "2025-01-21T19:54:59.000Z"
+    commit: null
+    t: 831
+    quote: is that the new hirs were already buildable after 6 weeks
 links:
   learn: []
   objects: []
@@ -191,6 +212,9 @@ quotes:
   - t: 677
     text: the program currently has 168 partner contracts uh into the program
     check: exact
+  - t: 697
+    text: basically doing them in batches of three to five individuals is basically a best practice
+    check: exact
   - t: 737
     text: people uh that going through the program are bable within approximately 10 to uh 12 weeks
     check: exact
@@ -200,13 +224,19 @@ quotes:
   - t: 770
     text: from all of our new highs that we've recruited that 39% of females uh of new Highs are females
     check: exact
+  - t: 811
+    text: the program saved 80% of the time of the seniors in the first three months that the new hire was there
+    check: exact
+  - t: 831
+    text: is that the new hirs were already buildable after 6 weeks
+    check: exact
 ---
 
 # The ReSKILL program - Explained
 
 > The ReSKILL program is a Business Central talent program that recruits people from outside the partner ecosystem and trains them as Business Central professionals. The video covers its recruitment, product training, professional skills workshop, coaching and community parts, plus results such as 168 partner contracts and retention above 95%.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KAC_ukH-C7I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-21 · 15:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KAC_ukH-C7I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-21 · 15:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -222,7 +252,7 @@ It walks through product training options (a case-based learning platform and vi
 - The professional skills workshop runs 10 days in half-day virtual sessions and covers requirement gathering, communication, pre-sale skills and project methodology. Partners call it the key differentiator.
 - Individual coaching starts before the first working day and includes individual plans with milestones, weekly follow-up and retention management.
 - Reported results: 168 partner contracts, people billable in about 10 to 12 weeks, retention above 95%, and 39% of new hires female.
-- Cross-Skill retrains experienced business application sellers and implementers. Upskill, for new graduates, is still being developed.
+- Partners typically enrol in batches of three to five new hires, which the program recommends as a best practice; almost one in three partners has already re-engaged.
 
 ## Chapters
 
@@ -257,9 +287,12 @@ It walks through product training options (a case-based learning platform and vi
 - [2:35](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=155s) "and that's the one which is in market for uh one year at this moment in time"
 - [4:37](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=277s) "it is actually completely risk-free it means it's a no q and no pay program if we can't find the people then basically you"
 - [11:17](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=677s) "the program currently has 168 partner contracts uh into the program"
+- [11:37](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=697s) "basically doing them in batches of three to five individuals is basically a best practice"
 - [12:17](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=737s) "people uh that going through the program are bable within approximately 10 to uh 12 weeks"
 - [12:30](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=750s) "our attention rate is above 95% something that was super happy about and which is above the industry average"
 - [12:50](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=770s) "from all of our new highs that we've recruited that 39% of females uh of new Highs are females"
+- [13:31](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=811s) "the program saved 80% of the time of the seniors in the first three months that the new hire was there"
+- [13:51](https://www.youtube.com/watch?v=KAC_ukH-C7I&t=831s) "is that the new hirs were already buildable after 6 weeks"
 
 ## Disclaimers in the video
 

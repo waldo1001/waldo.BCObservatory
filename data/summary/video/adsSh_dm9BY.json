@@ -4,13 +4,13 @@
   "summary": "Financial reporting enhancements announced for the Business Central 2025 release: an internal description field for report definitions, editable introductory and closing paragraphs, and a negative amount format option (parentheses). All three are demoed in a 5-minute part 1 video.",
   "overview": "This short \"What's Cooking\" video from January 2025 previews three financial reporting changes coming in the 2025 release. The presenter demos each one on a balance sheet report.\n\nReport authors get an internal description field that is separate from the regular description column, which shows as a heading. Users can add text above and below a report through a new menu action, and that text appears in PDF and Excel exports. A negative amount format option shows negative numbers in parentheses instead of with minus signs. The presenter says more features will come in another video.",
   "key_points": [
-    "The internal description field is announced for report authors to describe what a financial report is for.",
-    "Do not put heading content in the internal description. The regular description column is what appears as a heading in the report.",
-    "The Edit introductory and closing paragraphs menu action adds text above and below a report. The text shows in PDF and Excel exports.",
-    "Suggested uses for the introductory and closing text are noting report status or approvals.",
+    "The internal description field is announced for report authors to describe what a financial report is for. It is set via Definitions > Edit report definition.",
+    "Keep internal notes out of the regular description column. That column appears as a heading in the report, so use the internal description instead.",
+    "The Edit introductory and closing paragraphs action adds text above and below a report. The text shows when you export to PDF or Excel.",
+    "The demo uses the introductory and closing text to mark a report as a preliminary version and to note that it was checked by an internal auditor.",
     "The negative amount format option lets you show negative numbers in parentheses instead of minus signs.",
-    "The negative amount format applies to the screen view and PDF exports. It is selected on the request page for each export.",
-    "All three features are announced for the 2025 release, and the presenter says further enhancements will be covered in another video."
+    "The negative amount format can be chosen in Options when viewing the report on screen, and in the request page options when exporting to PDF.",
+    "All three features are announced for the 2025 release, and the presenter says further enhancements will be covered in another video or at the Business Central launch event."
   ],
   "audience": [
     "functional consultant",

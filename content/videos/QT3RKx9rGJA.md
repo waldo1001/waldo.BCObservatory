@@ -2,7 +2,7 @@
 id: video/QT3RKx9rGJA
 type: video
 title: AL Go for GitHub January Office Hour
-summary: 'AL Go for GitHub January 2025 office hour: covers conditional settings on build mode, preprocessor symbols, removal of "this build" artifacts, versioning strategy 3, and incremental builds (in preview). Also covers NuGet dependencies, self-hosted runners, code signing with net sign, and local dev containers.'
+summary: AL-Go for GitHub January 2025 office hour. Version 6.3 added conditional settings on build mode, preprocessor symbols, removal of temporary "this build" artifacts and versioning strategy 3. Incremental builds were an open PR expected in preview within weeks. The Q&A covered NuGet and GitHub Packages dependencies, scheduled publishing, self-hosted runners, dotnet sign code signing, configuration packages and local dev environments.
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - dependencies
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:23.430Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:23.494Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,7 @@ evidence:
     date: "2025-02-03T09:27:10.000Z"
     commit: null
     t: 109
-    quote: in the latest month we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like
+    quote: we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like that the conditional settings
   - kind: video
     url: https://www.youtube.com/watch?v=QT3RKx9rGJA&t=926s
     title: "Incremental Builds: preview"
@@ -109,13 +109,6 @@ evidence:
     commit: null
     t: 1650
     quote: if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um
-  - kind: video
-    url: https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1650s
-    title: AL Go for GitHub January Office Hour
-    date: "2025-02-03T09:27:10.000Z"
-    commit: null
-    t: 1650
-    quote: then in the buildt artifacts there will be a a an artifact called um project
   - kind: video
     url: https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1753s
     title: AL Go for GitHub January Office Hour
@@ -415,11 +408,6 @@ features:
     t: 2364
     verified: false
     status_source: video
-  - name: Resources in Test Apps
-    status: unclear
-    t: 2474
-    verified: false
-    status_source: video
   - name: Configuration Packages Deprecation
     status: unclear
     t: 2494
@@ -451,11 +439,6 @@ features:
     verified: false
     status_source: video
   - name: Key Vault Credential Configuration
-    status: unclear
-    t: 3181
-    verified: false
-    status_source: video
-  - name: Federated Identities for Keyword Authentication
     status: unclear
     t: 3181
     verified: false
@@ -514,9 +497,6 @@ quotes:
   - t: 1650
     text: if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um
     check: exact
-  - t: 1650
-    text: then in the buildt artifacts there will be a a an artifact called um project
-    check: fuzzy
   - t: 1753
     text: these office hours calls we're going to do them monthly uh this year except for July and December
     check: exact
@@ -572,9 +552,9 @@ quotes:
 
 # AL Go for GitHub January Office Hour
 
-> AL Go for GitHub January 2025 office hour: covers conditional settings on build mode, preprocessor symbols, removal of "this build" artifacts, versioning strategy 3, and incremental builds (in preview). Also covers NuGet dependencies, self-hosted runners, code signing with net sign, and local dev containers.
+> AL-Go for GitHub January 2025 office hour. Version 6.3 added conditional settings on build mode, preprocessor symbols, removal of temporary "this build" artifacts and versioning strategy 3. Incremental builds were an open PR expected in preview within weeks. The Q&A covered NuGet and GitHub Packages dependencies, scheduled publishing, self-hosted runners, dotnet sign code signing, configuration packages and local dev environments.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QT3RKx9rGJA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-03 · 1:02:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QT3RKx9rGJA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-02-03 · 1:02:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -633,7 +613,7 @@ The rest is Q&A. Topics include compiler folder builds, using a workflow from an
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Conditional Settings on Build Mode | generally available, demoed | [1:49](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=109s) | "in the latest month we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like" ([1:49](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=109s)) |
+| Conditional Settings on Build Mode | generally available, demoed | [1:49](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=109s) | "we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like that the conditional settings" ([1:49](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=109s)) |
 | Preprocessor Symbols | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=127s) |  |
 | Removal of This Build Artifacts | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=241s) |  |
 | Versioning Strategy 3 | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=360s) |  |
@@ -651,7 +631,6 @@ The rest is Q&A. Topics include compiler folder builds, using a workflow from an
 | Configuration Packages for Test Data | status not stated | [38:01](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2281s) |  |
 | Import Test Data NPC Container Override | status not stated | [38:49](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2329s) |  |
 | Dotnet Sign Integration for Code Signing | status not stated | [39:24](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2364s) |  |
-| Resources in Test Apps | status not stated | [41:14](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2474s) |  |
 | Configuration Packages Deprecation | status not stated | [41:34](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2494s) |  |
 | AL-Go Telemetry Module | status not stated | [42:52](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2572s) |  |
 | Commitment to Net Sign | status not stated | [44:12](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2652s) |  |
@@ -659,7 +638,6 @@ The rest is Q&A. Topics include compiler folder builds, using a workflow from an
 | AL-Go Workshop | status not stated | [48:05](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=2885s) |  |
 | Single Sign-On Enforcement | status not stated | [50:35](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3035s) |  |
 | Key Vault Credential Configuration | status not stated | [53:01](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3181s) |  |
-| Federated Identities for Keyword Authentication | status not stated | [53:01](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3181s) |  |
 | Multi-Project Repository Support | status not stated | [54:09](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3249s) |  |
 | GitHub Packages for Dependency Resolution | status not stated | [56:40](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3400s) |  |
 | Local Development Environment in AL-Go | status not stated | [58:44](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=3524s) |  |
@@ -690,7 +668,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [19:40](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1180s) "we're also working on figuring out if we can run the P scripting tasks as part of deployment so when you're deploying to a"
 - [21:31](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1291s) "Al go for GitHub does support nuget both like as a as a provider and as a consumer of nou packages"
 - [27:30](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1650s) "if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um"
-- [27:30](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1650s) "then in the buildt artifacts there will be a a an artifact called um project"
 - [29:13](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1753s) "these office hours calls we're going to do them monthly uh this year except for July and December"
 - [31:47](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1907s) "there are two settings that determines uh which Runners you use there's the GitHub Runner which determines what uh what Runners are being used"
 - [32:28](https://www.youtube.com/watch?v=QT3RKx9rGJA&t=1948s) "the update ELO system files will always use the GitHub hosted Runner and the reason for that is that if your self-hosted Runner is"

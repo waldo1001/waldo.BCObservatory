@@ -2,7 +2,7 @@
 id: video/PIWxU93eCT4
 type: video
 title: "What's Cooking in Business Central: Edit Sales Price Lists in Excel"
-summary: Editing sales price lists in Excel in Business Central, shown in a 3-minute "What's Cooking" episode from January 2025. It covers enabling the new sales price experience in feature management, the new Edit in Excel button, and syncing changes back. The feature is stated to ship with 2025 Wave 1.
+summary: This 3-minute 'What's Cooking in Business Central' episode demos editing sales price lists in Excel, which is stated to ship with 2025 Wave 1. The presenter checks that the 'new sales price experience' feature is enabled in Feature Management, edits a price list, and uses the new Edit in Excel button. A price changed in Excel is then published back to Business Central. The feature had 151 votes on the ideas site and was contributed as open source code by a community developer.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - community contribution
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:32.194Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:32.232Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -28,11 +28,11 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s
-    title: "Edit sales price list in Excel: generally available"
+    title: "Edit sales price list in Excel: announced"
     date: "2025-01-15T18:14:02.000Z"
     commit: null
     t: 56
-    quote: which will ship with businessle 2025 Wave 1
+    quote: the edit sales price list in Excel capability which will ship with businessle 2025 Wave 1
   - kind: video
     url: https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s
     title: "What's Cooking in Business Central: Edit Sales Price Lists in Excel"
@@ -105,7 +105,7 @@ chapters:
     title: Feature origin and open source contribution
 features:
   - name: Edit sales price list in Excel
-    status: ga
+    status: announced
     t: 56
     verified: true
     status_source: video
@@ -136,9 +136,9 @@ quotes:
 
 # What's Cooking in Business Central: Edit Sales Price Lists in Excel
 
-> Editing sales price lists in Excel in Business Central, shown in a 3-minute "What's Cooking" episode from January 2025. It covers enabling the new sales price experience in feature management, the new Edit in Excel button, and syncing changes back. The feature is stated to ship with 2025 Wave 1.
+> This 3-minute 'What's Cooking in Business Central' episode demos editing sales price lists in Excel, which is stated to ship with 2025 Wave 1. The presenter checks that the 'new sales price experience' feature is enabled in Feature Management, edits a price list, and uses the new Edit in Excel button. A price changed in Excel is then published back to Business Central. The feature had 151 votes on the ideas site and was contributed as open source code by a community developer.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=PIWxU93eCT4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-15 · 3:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=PIWxU93eCT4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-15 · 3:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,11 +149,11 @@ The demo edits prices in Excel and shows the changes syncing between Business Ce
 ## Key points
 
 - The capability is described as shipping with Business Central 2025 Wave 1.
-- The new sales price experience must be enabled in feature management before the editing capability is available.
-- After enabling it, the sales price list page has a new Edit in Excel button that was not there before.
-- Changes made to prices in Excel sync with data in Business Central.
-- The demo creates and tests a sales price list rule before showing the Excel editing.
-- The feature was a highly requested idea with 151 votes and was built by a community contributor.
+- For the demo, the presenter makes sure the 'new sales price experience' feature is enabled in Feature Management.
+- The sales price list page now shows a new Edit in Excel button that was not there before.
+- Prices changed in Excel can be published back, and after a refresh Business Central shows the updated price (800 changed to 700 in the demo).
+- The demo edits the existing default sales price list to add a quantity discount (10 or more desks at 800 instead of 1,000) and checks it on a sales invoice.
+- The feature was highly requested (151 votes) and was written as an open source contribution on GitHub by community developer Stefan Sage.
 
 ## Chapters
 
@@ -169,7 +169,7 @@ The demo edits prices in Excel and shows the changes syncing between Business Ce
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Edit sales price list in Excel | generally available, demoed | [0:56](https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s) | "which will ship with businessle 2025 Wave 1" ([0:56](https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s)) |
+| Edit sales price list in Excel | announced, demoed | [0:56](https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s) | "the edit sales price list in Excel capability which will ship with businessle 2025 Wave 1" ([0:56](https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s)) |
 | New sales price experience | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=PIWxU93eCT4&t=56s) |  |
 
 ## AL objects mentioned

@@ -1,0 +1,27 @@
+{
+  "video_id": "TVQ9ydSq6F8",
+  "item_id": "video/yt-microsoft/TVQ9ydSq6F8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point says the total limit is 256 MB, but the transcript only says 'under 256' and gives no unit. Reworded.",
+    "The '*.jpg' example in the key point and in the List Resources feature description is not in the transcript. The caption is garbled ('images uh Ward J'), so the key point now just says a wildcard pattern such as one under the images folder. The feature description still says '*.jpg' and could not be edited here.",
+    "Resources in AL Extensions is set to ga. The speaker says the feature is 'cooked' (done) for Business Central 25.2 or later.",
+    "Quotes, chapters and summary are supported by the transcript."
+  ],
+  "input_hash": "7ed5e0bcfa46aa668f3ef3a4d9b793da56ccfc301d2c330cc91989df2ae54002",
+  "by": "opus",
+  "at": "2026-10-07T23:02:29.636Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Resources in AL Extensions -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058577000000000004
+  }
+}

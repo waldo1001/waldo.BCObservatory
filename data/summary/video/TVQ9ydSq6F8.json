@@ -6,11 +6,11 @@
   "key_points": [
     "The speaker introduces the feature for Business Central 25.2 or later.",
     "app.json has a new resource folders property that takes an array, so several folders can hold resources.",
-    "NAV App.Get Resource As Json reads a resource file as JSON; related functions are get Resource, get Resource as text, and list resources.",
-    "NAV App List Resources filters by pattern or folder, such as *.jpg, and returns all resources if no pattern is given.",
+    "NAV App.Get Resource As Json reads a resource file as JSON; related functions are get Resource (for arbitrary content, e.g. read into an InStream), get Resource as text, and list resources.",
+    "NAV App List Resources filters resources by a wildcard pattern or a folder such as images, and returns every resource available to the app if nothing is passed.",
     "Resources can only be accessed within the app that owns them, so a dependent app cannot read them.",
-    "Limits: 16 MB per resource file, 256 MB total per extension, and at most 256 files. The presenter says these may change.",
-    "Resources are treated as code: with allow downloading enabled they are downloaded with source code, and with it disabled they are not included."
+    "Limits: a single resource file can be up to 16 megabytes, total resource size must be under 256 per extension (unit not stated in the video), and at most 256 files. The presenter says these may change.",
+    "Resources are treated as code: with allow downloading source enabled in resource exposure policies they are downloaded with the source code, and with it set to false they are not included."
   ],
   "audience": [
     "developer",

@@ -17,12 +17,12 @@ tags:
   - balance sheet
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:31.409Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:31.451Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,21 +35,21 @@ evidence:
     date: "2025-01-16T13:30:59.000Z"
     commit: null
     t: 7
-    quote: we have a few things coming up in the 2025 release
+    quote: if you work with financial reporting in business Central we have a few things coming up in the 2025 release
   - kind: video
     url: https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s
     title: "Edit introductory and closing paragraphs: announced"
     date: "2025-01-16T13:30:59.000Z"
     commit: null
     t: 7
-    quote: we have a few things coming up in the 2025 release
+    quote: if you work with financial reporting in business Central we have a few things coming up in the 2025 release
   - kind: video
     url: https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s
     title: "Negative amount format option: announced"
     date: "2025-01-16T13:30:59.000Z"
     commit: null
     t: 7
-    quote: we have a few things coming up in the 2025 release
+    quote: if you work with financial reporting in business Central we have a few things coming up in the 2025 release
   - kind: video
     url: https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s
     title: "What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)"
@@ -156,7 +156,7 @@ quotes:
 
 > Financial reporting enhancements announced for the Business Central 2025 release: an internal description field for report definitions, editable introductory and closing paragraphs, and a negative amount format option (parentheses). All three are demoed in a 5-minute part 1 video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=adsSh_dm9BY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-16 · 4:52 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=adsSh_dm9BY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-16 · 4:52 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,13 +166,13 @@ Report authors get an internal description field that is separate from the regul
 
 ## Key points
 
-- The internal description field is announced for report authors to describe what a financial report is for.
-- Do not put heading content in the internal description. The regular description column is what appears as a heading in the report.
-- The Edit introductory and closing paragraphs menu action adds text above and below a report. The text shows in PDF and Excel exports.
-- Suggested uses for the introductory and closing text are noting report status or approvals.
+- The internal description field is announced for report authors to describe what a financial report is for. It is set via Definitions > Edit report definition.
+- Keep internal notes out of the regular description column. That column appears as a heading in the report, so use the internal description instead.
+- The Edit introductory and closing paragraphs action adds text above and below a report. The text shows when you export to PDF or Excel.
+- The demo uses the introductory and closing text to mark a report as a preliminary version and to note that it was checked by an internal auditor.
 - The negative amount format option lets you show negative numbers in parentheses instead of minus signs.
-- The negative amount format applies to the screen view and PDF exports. It is selected on the request page for each export.
-- All three features are announced for the 2025 release, and the presenter says further enhancements will be covered in another video.
+- The negative amount format can be chosen in Options when viewing the report on screen, and in the request page options when exporting to PDF.
+- All three features are announced for the 2025 release, and the presenter says further enhancements will be covered in another video or at the Business Central launch event.
 
 ## Chapters
 
@@ -186,9 +186,9 @@ Report authors get an internal description field that is separate from the regul
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Internal description field | announced, demoed | [0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s) | "we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
-| Edit introductory and closing paragraphs | announced, demoed | [1:08](https://www.youtube.com/watch?v=adsSh_dm9BY&t=68s) | "we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
-| Negative amount format option | announced, demoed | [2:33](https://www.youtube.com/watch?v=adsSh_dm9BY&t=153s) | "we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+| Internal description field | announced, demoed | [0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+| Edit introductory and closing paragraphs | announced, demoed | [1:08](https://www.youtube.com/watch?v=adsSh_dm9BY&t=68s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+| Negative amount format option | announced, demoed | [2:33](https://www.youtube.com/watch?v=adsSh_dm9BY&t=153s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
 
 ## AL objects mentioned
 

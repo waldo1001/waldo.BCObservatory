@@ -1,0 +1,32 @@
+{
+  "video_id": "KAC_ukH-C7I",
+  "item_id": "video/yt-microsoft/KAC_ukH-C7I",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes appear verbatim in the transcript, and the summary is supported.",
+    "ReSKILL Program can be marked ga: the transcript says it has been in market for one year.",
+    "The Upskill 'announced' evidence is verbatim at t=195.6 and stays as is.",
+    "The page left out the Triangle case study figures (80% of senior time saved, billable after 6 weeks, met the job description in 9 months instead of 2 years). It also left out two partner details: batches of three to five are the recommended practice, and about one in three partners came back to sign up again.",
+    "The caption says 'attention rate', which is a mis-transcription of retention. The page's use of 'retention' is reasonable because the coaching section talks about managing retention."
+  ],
+  "input_hash": "10f1952042339c2c49cde00e8c193a2e1439f3ae7375377f9041c00522f4c524",
+  "by": "opus",
+  "at": "2026-10-07T23:02:29.384Z",
+  "applied": [
+    "Upskill Program: status announced",
+    "quote at 811s",
+    "quote at 831s",
+    "quote at 698s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status ReSKILL Program -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.110517
+  }
+}
