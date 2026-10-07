@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
 import EvidenceList from "../../../components/EvidenceList.astro";
-import { siteLinks } from "../../../lib/links";
+import { siteLinks, wrapTables } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
 export async function getStaticPaths() {
   const all = await getCollection("topics");
@@ -25,6 +25,6 @@ const stats = [
 ];
 ---
 <Page fm={fm} kind="topic hub" path={`topics/${entry.id}`} section="topics" crumbs={crumbs} stats={stats}>
-  <div class="prose" set:html={html} />
+  <div class="prose" set:html={wrapTables(html)} />
   <EvidenceList evidence={learn} title="What Learn documents here" noun="Learn pages" total={fm.coverage?.learn} />
 </Page>

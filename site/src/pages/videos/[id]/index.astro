@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
 import SourceStage from "../../../components/SourceStage.astro";
-import { siteLinks, tagSeekLinks } from "../../../lib/links";
+import { siteLinks, tagSeekLinks, wrapTables } from "../../../lib/links";
 import { trimBody, trimMeta } from "../../../lib/page";
 export async function getStaticPaths() {
   return (await getCollection("videos")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
@@ -22,5 +22,5 @@ const html = stage ? tagSeekLinks(trimMeta(body).replace(chapters.length ? /<h2 
   context={stage ? { label: "Watch here", href: watch, opens: "stage" } : { label: "Watch on YouTube", href: watch }}>
   {stage && <SourceStage kind="video" title={String(fm.title)} url={watch} sourceName={String(fm.source_name ?? fm.channel ?? "")}
     date={fm.published_at} videoId={String(fm.video_id ?? entry.id)} durationS={fm.duration_s} chapters={chapters} />}
-  <div class="prose" set:html={html} />
+  <div class="prose" set:html={wrapTables(html)} />
 </Page>

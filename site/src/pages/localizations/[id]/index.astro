@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
 import CountryDiff from "../../../components/CountryDiff.astro";
-import { siteLinks } from "../../../lib/links";
+import { siteLinks, wrapTables } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
 export async function getStaticPaths() {
   return (await getCollection("localizations")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
@@ -17,5 +17,5 @@ const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `localizations
 <Page fm={fm} kind={`localization · BC${fm.version}`} path={`localizations/${entry.id}`} section="localizations"
   stats={[{ n: fm.added_objects ?? 0, label: "objects of its own", href: "#objects-of-its-own" }, { n: fm.replaced_objects ?? 0, label: "W1 objects changed", href: "#country-diff" }]} crumbs={[{ label: "Localizations", href: `${base}localizations/` }]}>
   <CountryDiff country={String(fm.country)} version={String(fm.version)} base={base} />
-  <div class="prose" set:html={html} />
+  <div class="prose" set:html={wrapTables(html)} />
 </Page>

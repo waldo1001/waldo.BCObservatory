@@ -18,3 +18,13 @@ export function tagSeekLinks(html: string, videoId: string): string {
   const re = new RegExp(`<a href="(https://www\\.youtube\\.com/watch\\?v=${id}(?:&amp;|&#x26;|&#38;|&)t=(\\d+)s)"`, "g");
   return html.replace(re, (_m, href: string, t: string) => `<a href="${href}" data-seek="${t}"`);
 }
+
+/**
+ * Every top-level `<table>` of rendered markdown goes into `div.table-scroll` (D74): the wrapper scrolls sideways on a
+ * phone, the table stays a real table and fills the width. Idempotent: a table already directly inside the wrapper is
+ * left alone. Rendered markdown has no nested tables.
+ */
+export function wrapTables(html: string): string {
+  return html.replace(/(<div class="table-scroll">\s*)?(<table[\s>][\s\S]*?<\/table>)/g, (m: string, wrapped: string | undefined, table: string) =>
+    wrapped ? m : `<div class="table-scroll">${table}</div>`);
+}

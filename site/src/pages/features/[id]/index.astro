@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
-import { siteLinks } from "../../../lib/links";
+import { siteLinks, wrapTables } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
 import EvidenceList from "../../../components/EvidenceList.astro";
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ const stats = [
 ---
 <Page fm={fm} kind="roadmap feature" path={`features/${entry.id}`} section="features" crumbs={[{ label: "Roadmap", href: `${base}features/` }]} stats={stats}
   context={roadmap ? { label: "Microsoft 365 roadmap", href: roadmap.url } : undefined}>
-  <div class="prose" set:html={html} />
+  <div class="prose" set:html={wrapTables(html)} />
   <!-- every source behind the feature as a chip (D64): the roadmap entry, each video at its second, each Learn page -->
   <EvidenceList evidence={fm.evidence ?? []} noun="sources" />
 </Page>

@@ -5,7 +5,7 @@ import EvidenceList from "../../../components/EvidenceList.astro";
 import VersionTimeline from "../../../components/VersionTimeline.astro";
 import Neighbourhood from "../../../components/Neighbourhood.astro";
 import OneHop from "../../../components/OneHop.astro";
-import { siteLinks } from "../../../lib/links";
+import { siteLinks, wrapTables } from "../../../lib/links";
 import { objectSystem, trimBody } from "../../../lib/page";
 import { markMembers, objectHistory } from "../../../lib/versions";
 import type { Lookup } from "../../../lib/relations";
@@ -54,7 +54,7 @@ const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
   context={src ? { label: "Source on GitHub", href: src.url } : undefined} connections={false}>
   <VersionTimeline presentIn={fm.present_in ?? []} changedIn={fm.changed_in ?? []} history={history} obsolete={fm.obsolete} />
   <Neighbourhood objectKey={objectKey} major={String(fm.source_major)} title={String(fm.title)} system={objectSystem(fm.namespace)} lookup={lookup} learn={learn} />
-  <div class="prose" set:html={html} />
+  <div class="prose" set:html={wrapTables(html)} />
   <EvidenceList evidence={fm.evidence ?? []} noun="sources" />
   <OneHop slot="locator" objectKey={objectKey} major={String(fm.source_major)} />
 </Page>

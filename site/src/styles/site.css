@@ -104,7 +104,8 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .prose ul, .prose ol { padding-left: 20px; }
 .prose li { margin: 4px 0; }
 .prose blockquote { margin: 0 0 16px; padding-left: 14px; border-left: 3px solid var(--line-strong); color: var(--text-2); }
-.table-scroll, .prose table { display: block; overflow-x: auto; }
+/* D74: the wrapper scrolls, the table stays a table and fills the width */
+.table-scroll { display: block; overflow-x: auto; }
 
 /* the source stage (D60): the video or the post, in the page, above the body */
 .stage { margin: 0 0 28px; border: 1px solid var(--line); border-radius: var(--r-panel); overflow: hidden; background: var(--surface); }
@@ -175,7 +176,7 @@ li.has-poster { display: flow-root; }
 @media (max-width: 480px) { .list-page ul.list li.has-poster { grid-template-columns: 112px minmax(0, 1fr); } }
 table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
 th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: normal; }
-td { overflow-wrap: anywhere; }
+td { overflow-wrap: break-word; } /* D74: never `anywhere`, it lets the auto layout crush a column to one character */
 th { white-space: nowrap; }
 th { color: var(--muted); font-weight: 600; font-size: 13px; }
 td code { font-size: 12.5px; }
@@ -194,13 +195,14 @@ td code { font-size: 12.5px; }
 .badge.status-preview { border-color: currentColor; color: var(--status-preview); }
 .badge.status-other { border-color: currentColor; color: var(--status-other); }
 .badge.obsolete { border-color: currentColor; color: var(--accent); }
-.pill { display: inline-block; font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: 999px; background: var(--accent-surface); color: var(--accent); }
+.pill { display: inline-block; font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: 999px; background: var(--accent-surface); color: var(--accent); white-space: nowrap; }
 .chip-sys { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); }
 .chip-sys::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--muted)); }
 .tag { display: inline-block; font: 400 11px var(--font-mono); color: var(--muted); border: 1px solid var(--line); border-radius: var(--r-badge); padding: 1px 6px; }
 
 /* evidence (HANDOFF 4) */
 .evidence { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.evidence > li { min-width: 0; } /* D74: a long source path wraps instead of widening the page on a phone */
 .ev { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); text-decoration: none; color: var(--text); font-size: 14px; }
 .ev:hover { border-color: var(--line-strong); color: var(--text); }
 .ev .kind { font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: var(--r-badge); }
