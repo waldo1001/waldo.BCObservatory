@@ -1,0 +1,28 @@
+{
+  "video_id": "Sh3ySQSTw-o",
+  "item_id": "video/yt-microsoft/Sh3ySQSTw-o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point puts read under the 30 percent figure, but the transcript only says reads are faster. The up to 30% applies to delete, update, insert and modify.",
+    "Key point says modified by/at can be added to profiles. The profile demo only shows modified by. Modified at belongs to the analysis mode sales order example.",
+    "Key point says 'reorganized index management page', which the transcript does not support. The transcript shows an index management list reached from Tell me, a manage indexes button, and SIFT indexes now listed separately.",
+    "Feature descriptions repeat the caption garble 'set.logic logic' and the unsupported 'reorganized page' wording. These are minor and cannot be edited here.",
+    "All features are left unclear. The transcript states no preview or GA status.",
+    "Added a quote for system fields in analysis mode and profiles. All existing quotes are verbatim."
+  ],
+  "input_hash": "7ca4a18bf7dfffda3eb5daf704a6133dcddfe8740d9943a666f41ba70031d119",
+  "by": "opus",
+  "at": "2026-10-07T22:43:41.717Z",
+  "applied": [
+    "quote at 447s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.095889
+  }
+}

@@ -2,7 +2,7 @@
 id: video/N_J1HB_fUCM
 type: video
 title: "What's new in Finance: Overview (2026 release wave 2)"
-summary: "Overview of Finance changes in Business Central 2026 release wave 2: multiple excise taxes per item, bonded locations, ad valorem and hybrid excise calculation, self-billing with PEPPOL, cross environment master data, employee withholding tax, and localization updates. Spain Verifactu-style e-invoicing and France invoicing are stated as generally available."
+summary: "Overview of Finance changes in Business Central 2026 release wave 2: multiple excise taxes per item, bonded locations, ad valorem and hybrid excise calculation (coming in November), self-billing number series per vendor and PEPPOL, cross environment master data management, employee withholding tax, and localization updates. 'Very fact two' enablement in Spain and invoicing for France are stated as GA. Germany EU BP audit file export and SFT for Austria and Iceland are planned for November or December."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - e-invoicing
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:53.469Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:53.507Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -30,26 +30,26 @@ generated:
   input_hash: 5ea839ed490ed004f79bea476002431775809da5ac136f54e8204245691fe869
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s
+    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=150s
     title: "Bonded location support for excise taxes: announced"
     date: "2026-10-01T13:03:34.000Z"
     commit: null
-    t: 104
-    quote: This is something what is coming in November minor, two new features.
+    t: 150
+    quote: Uh again, it will it will be delivered in November, but this is completely new functionality.
   - kind: video
-    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=214s
+    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s
     title: "Ad valorem excise tax calculation: announced"
     date: "2026-10-01T13:03:34.000Z"
     commit: null
-    t: 214
-    quote: So now you will have new model ad valorem, where you have formula here with excise will be calculated using percent on a taxable
+    t: 258
+    quote: So, this is what is coming in November. What else we have?
   - kind: video
-    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=475s
-    title: "Verwaltungs-BPjecto (Very FAct 2) in Spain GA: generally available"
+    url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s
+    title: "Hybrid excise tax calculation model: announced"
     date: "2026-10-01T13:03:34.000Z"
     commit: null
-    t: 475
-    quote: Very fact two enablement in Spain is now in GA
+    t: 258
+    quote: So, this is what is coming in November. What else we have?
   - kind: video
     url: https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s
     title: "Invoicing for France GA: generally available"
@@ -185,9 +185,9 @@ features:
     verified: true
     status_source: video
   - name: Hybrid excise tax calculation model
-    status: unclear
+    status: announced
     t: 229
-    verified: false
+    verified: true
     status_source: video
   - name: Self-billing vendor-specific number series
     status: preview
@@ -213,11 +213,6 @@ features:
     status_source: roadmap
     roadmap_ids:
       - "573308"
-  - name: Verwaltungs-BPjecto (Very FAct 2) in Spain GA
-    status: ga
-    t: 462
-    verified: true
-    status_source: video
   - name: Invoicing for France GA
     status: ga
     t: 497
@@ -278,9 +273,9 @@ quotes:
 
 # What's new in Finance: Overview (2026 release wave 2)
 
-> Overview of Finance changes in Business Central 2026 release wave 2: multiple excise taxes per item, bonded locations, ad valorem and hybrid excise calculation, self-billing with PEPPOL, cross environment master data, employee withholding tax, and localization updates. Spain Verifactu-style e-invoicing and France invoicing are stated as generally available.
+> Overview of Finance changes in Business Central 2026 release wave 2: multiple excise taxes per item, bonded locations, ad valorem and hybrid excise calculation (coming in November), self-billing number series per vendor and PEPPOL, cross environment master data management, employee withholding tax, and localization updates. 'Very fact two' enablement in Spain and invoicing for France are stated as GA. Germany EU BP audit file export and SFT for Austria and Iceland are planned for November or December.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=N_J1HB_fUCM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=N_J1HB_fUCM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -291,12 +286,12 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 ## Key points
 
 - Multiple excise taxes per item: a new excise taxes page opens from the item card's Related menu. Earlier versions allowed only one excise per item.
-- Existing excise tax configuration from the previous wave is upgraded automatically to the new table.
+- Existing excise tax configuration from the previous wave is upgraded automatically to the new table and page.
 - Coming in November: bonded locations (excise is calculated on release from the location, not on inbound receipt), a Transfer entry type in excise permissions, ad valorem calculation (percent of taxable amount) and a hybrid model combining specific and ad valorem parts.
-- Self-billing: a number series can be selected per vendor, with fallback to the payables setup if none is selected. Self-billing invoices support PEPPOL format and the e-documents framework.
+- Self-billing: a number series can be selected per vendor, with fallback to the purchases and payables setup if none is selected. Self-billing gets PEPPOL format and becomes part of the e-documents framework.
 - Withholding tax for employees: choose employees as business posting group to get gross or net calculation, with thresholds per period and category. It can be used in the expense agent or the general journal.
-- Cross environment master data management needs setup in each environment. It is useful for companies with several localizations, each in its own environment.
-- Localization: Spain e-invoicing (mandatory from the beginning of next year) and France invoicing are generally available. Germany gets structured Intrastat and an EU audit file export (November or December). SFT is enabled for Austria and Iceland in December.
+- Cross environment master data management uses the same user experience as single-environment master data management, plus additional setup. It is useful for companies with several localizations, each in its own environment.
+- Localization: 'very fact two' enablement in Spain (documented on Learn and also available on AppSource) and invoicing for France are GA. Payment terms rules are expanded for Australia and Great Britain. Germany gets new Intrastat reporting and Switzerland gets fully structured addresses for QR invoicing. Germany's EU BP audit file export comes in November or December, and SFT is enabled for Austria and Iceland in December.
 
 ## Chapters
 
@@ -314,15 +309,14 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Multiple excise taxes per item | preview (roadmap [573306](../features/573306.md)) | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
-| Bonded location support for excise taxes | announced | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "This is something what is coming in November minor, two new features." ([1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s)) |
+| Bonded location support for excise taxes | announced | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "Uh again, it will it will be delivered in November, but this is completely new functionality." ([2:30](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=150s)) |
 | Transfer entry type for excise permissions | status not stated | [2:46](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=166s) |  |
-| Ad valorem excise tax calculation | announced | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So now you will have new model ad valorem, where you have formula here with excise will be calculated using percent on a taxable" ([3:34](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=214s)) |
-| Hybrid excise tax calculation model | status not stated | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) |  |
+| Ad valorem excise tax calculation | announced | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
+| Hybrid excise tax calculation model | announced | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
 | Self-billing vendor-specific number series | preview (roadmap [573307](../features/573307.md)) | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
 | Self-billing PEPPOL format support | status not stated | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
 | Cross environment master data management | status not stated | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
 | Withholding tax for employees | preview (roadmap [573308](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
-| Verwaltungs-BPjecto (Very FAct 2) in Spain GA | generally available | [7:42](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=462s) | "Very fact two enablement in Spain is now in GA" ([7:55](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=475s)) |
 | Invoicing for France GA | generally available | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
 | Payment terms expansion for Australia and Great Britain | status not stated | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) |  |
 | Intrastat reporting for Germany | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |

@@ -1,0 +1,27 @@
+{
+  "video_id": "qs1cg-GoDeQ",
+  "item_id": "video/yt-microsoft/qs1cg-GoDeQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "I checked all six quotes against the transcript. They are verbatim, apart from case, filler words and the '>>' speaker markers at segment breaks, so I kept them all.",
+    "One key point said find tables only returns tables the user has access to. The transcript does not say this. It says the data query tools depend on the user's permissions and the tables they can access. I reworded that point.",
+    "One key point said the security toggle was not demoed. The transcript does not support this, so I removed that claim.",
+    "I added two supported points from the demo: the Microsoft Docs MCP helps with writing AL queries, and compiler messages let the agent correct its own queries.",
+    "The transcript never states preview or GA status, so all features stay unclear. The summary is accurate."
+  ],
+  "input_hash": "bcd0cbb4f2bbc50777514d1e2564df23fb624f7ece09c07eccc1e3550618f42c",
+  "by": "opus",
+  "at": "2026-10-07T22:42:52.132Z",
+  "applied": [
+    "quote at 278s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08212
+  }
+}

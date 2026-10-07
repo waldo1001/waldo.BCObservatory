@@ -93,10 +93,10 @@
     {
       "name": "Subcontracting extension",
       "description": "A new extension for Business Central that manages subcontracting operations including logistics of raw materials, work in progress items, and integration with warehouse handling processes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 8.2,
+      "status_evidence_quote": "we are silently released it in minor update three, but in this time we did not pre-install it on new environments",
+      "status_evidence_verified": true,
       "t_start": 8.2,
       "t_end": 126.5,
       "is_demoed": true,
@@ -429,26 +429,6 @@
       "system": "purchasing"
     },
     {
-      "name": "Standard task codes for subcontracting",
-      "description": "Standard task codes are now included in Dynamics 365 to allow vendors to easily demonstrate different pricing based on task type.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1210.1,
-      "t_end": 1234.6,
-      "is_demoed": false,
-      "caveats": [
-        "Not used in the current demo"
-      ],
-      "tags": [
-        "pricing",
-        "subcontracting",
-        "task codes"
-      ],
-      "system": "manufacturing"
-    },
-    {
       "name": "Closest-match pricing for subcontracting",
       "description": "Subcontracting pricing uses closest quantity match rather than selecting the smallest price; system matches the order quantity to the nearest defined price bracket.",
       "status": "unclear",
@@ -648,6 +628,12 @@
       "t": 102.3,
       "text": "subcontracting operations can benefit from the same warehouse uh processes. So, no need to handle them differently.",
       "why_it_matters": "Core value proposition - subcontracting now integrates with standard warehouse handling instead of requiring separate processes",
+      "check": "exact"
+    },
+    {
+      "t": 126.5,
+      "text": "As I mentioned, for new environments in the latest version, you will get up pre-installed.",
+      "why_it_matters": "Shows that the app is now pre-installed on new environments, unlike in the earlier silent release.",
       "check": "exact"
     },
     {

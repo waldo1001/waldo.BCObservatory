@@ -1,0 +1,34 @@
+{
+  "video_id": "Aqi8Uq2bQyI",
+  "item_id": "video/yt-microsoft/Aqi8Uq2bQyI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Page scripting tool evidence_t was 20.4, but the evidence quote starts at segment 60.4.",
+    "Localization can be marked GA: the transcript says it is part of finishing the tool for general availability and is 'ready for broad production use across all languages'.",
+    "The key point saying multiple selection in grids was demoed is not supported. Only the error message validation is shown on screen (t=133.5).",
+    "The agent key point overstated the claim. The transcript says agents can 'try to generate' scripts and that this has been possible since launch.",
+    "The accessibility, usability and look-and-feel pass was missing from the key points.",
+    "All 7 quotes are verbatim and kept."
+  ],
+  "input_hash": "884a82e03d5a005a654a5e0217bfa84c120b90e52b37d90d7fee0ce0165fac73",
+  "by": "opus",
+  "at": "2026-10-07T22:43:09.127Z",
+  "applied": [
+    "Page scripting tool: status ga",
+    "Multiple selection in grids: status unclear",
+    "Message and error dialogue validation: status unclear",
+    "Agent-generated page scripts: status unclear",
+    "quote at 85s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Page scripting localization -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05840100000000001
+  }
+}

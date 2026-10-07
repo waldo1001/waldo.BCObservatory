@@ -1,0 +1,26 @@
+{
+  "video_id": "5OZ0g5IgC8Q",
+  "item_id": "video/yt-microsoft/5OZ0g5IgC8Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 says the feature is described as a preview. The transcript never says that; only the video title does. Removed that claim.",
+    "Key point 3 says review defaults to Always and names an option 'Low Confidence Only'. The transcript only says the setting showed Always in the demo, and it describes the middle option as reviewing only when confidence is low. Reworded.",
+    "All features stay unclear: the transcript has no preview or GA statement. 'New setting in this release' does not say which status it has.",
+    "Quotes are verbatim. Added a quote showing that review is forced on a rate mismatch even when review is set to Never."
+  ],
+  "input_hash": "8c4a0818de576fe622a99ee5dc2815df43864b2178ef592728ac7e7134dc74aa",
+  "by": "opus",
+  "at": "2026-10-07T22:43:57.899Z",
+  "applied": [
+    "quote at 762s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.090189
+  }
+}

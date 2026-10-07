@@ -1,0 +1,38 @@
+{
+  "video_id": "D_Lur52IrIg",
+  "item_id": "video/yt-microsoft/D_Lur52IrIg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature name 'AL MCP (AL Management Control Platform)' has an expansion the transcript never states. Note only; renaming is not possible here.",
+    "'Table extension key improvements' repeats 'Mixed extension and base field SQL indexes' and adds 'at compile time', which the transcript does not say. Dropped.",
+    "The 'Action tooltip inheritance from page' description mentions ToolTipML, which is not in the transcript. The transcript says the tooltip comes from the page when RunObject is used.",
+    "The big integer description says the migration needs 'explicit conversion handling'. The transcript says the change works without copying data and that the compiler warns about implicit conversions.",
+    "The isolated storage read isolation feature has t_start 1072.1, but it is actually stated at 1111.4.",
+    "Two pairs of quotes share a t (833.4 and 1573.1). Both 833.4 quotes say the same thing; they were kept because dropping by t would remove both.",
+    "Quote 1587 repeats the 1573.1 quote and was dropped. Quotes 1889.1 and 2049.6 are filler with little value and were dropped.",
+    "Key point on translations claimed the XLF files must be regenerated, which the transcript does not say. Corrected to the app.json translation-with-namespaces setting and fully qualified IDs.",
+    "No preview or GA language anywhere, so every feature status stays unclear."
+  ],
+  "input_hash": "72f9ab57016fd70d4b7eef5e712204761a1eddec6e92406234cef0a2d7f6695d",
+  "by": "opus",
+  "at": "2026-10-07T22:43:35.087Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 3 quote(s)",
+    "quote at 1203s",
+    "quote at 1174s",
+    "quote at 1111s",
+    "quote at 1133s",
+    "quote at 694s",
+    "quote at 303s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.22090099999999996
+  }
+}

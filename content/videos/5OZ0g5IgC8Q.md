@@ -16,12 +16,12 @@ tags:
   - tax rate reconciliation
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:57.899Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:43:57.934Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 466
     quote: system will only offer me review if there is a low confidence. I will not be able to skip review if there is a
+  - kind: video
+    url: https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=762s
+    title: "What's new: Shopify Tax Matching (preview) (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 762
+    quote: Remember that we decided that we don't want to review, but this is a important situation, so we have to.
   - kind: video
     url: https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=772s
     title: "What's new: Shopify Tax Matching (preview) (2026 release wave 2)"
@@ -174,6 +181,9 @@ quotes:
   - t: 466
     text: system will only offer me review if there is a low confidence. I will not be able to skip review if there is a
     check: exact
+  - t: 762
+    text: Remember that we decided that we don't want to review, but this is a important situation, so we have to.
+    check: exact
   - t: 772
     text: Why serious? Because the rate in Shopify is different at the rate in Business Central. So, if we create order and use configuration which
     check: exact
@@ -183,7 +193,7 @@ quotes:
 
 > Shopify Tax Matching in the Business Central Shopify connector, an AI capability for US sales tax that matches or creates tax jurisdictions, tax areas and tax details from Shopify orders. The video is a 2026 release wave 2 preview session with a demo of review, settings, refunds and rate mismatch handling.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5OZ0g5IgC8Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5OZ0g5IgC8Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -193,13 +203,13 @@ The demo covers importing an order and seeing the AI-assigned tax area, the tax 
 
 ## Key points
 
-- Tax matching is only available in the US. It ships as a small Shopify extension that is not published on the marketplace, and it is described as a preview.
-- TaxMatch is installed automatically for new installations. On upgrades it detects US localization and prompts for installation. It must still be activated in the Shopify shop card settings.
-- Settings cover activation, permission to create tax jurisdictions and tax areas, an optional prefix for auto-created items, and review frequency (Always, Never or Low Confidence Only). Review defaults to Always.
-- Creating missing items can be turned off, so tax setup is done manually or imported from another source. A prefix is optional but recommended to tell auto-created items apart.
-- Review can be skipped for high-confidence orders. It is always required when a jurisdiction is missing or a rate mismatch is detected, whatever the settings are.
-- If a tax rate differs between Shopify and Business Central, no document is created until the user approves the Business Central rate or overrides it with the Shopify rate. An override applies by document date, so it affects all orders on that date.
-- A new setting uses the Shopify order number as the sales order number in Business Central. A Shopify refund creates a sales return document with the same tax parameters as the original sales order.
+- Tax matching is only available in the US. It ships as a small Shopify extension that is not published on the marketplace.
+- TaxMatch is installed automatically for new installations. On upgrades it detects US localization and prompts for installation. It must still be activated in the TaxMatch fact box on the Shopify shop card.
+- Settings cover activation, permission to create tax jurisdictions and tax areas, an optional prefix for auto-created tax areas, and how often to review. Review options include always, never, or only when confidence is low. The demo started with Always.
+- Creating missing items can be turned off, so tax setup is done manually or imported from another source. A prefix is optional but helps tell auto-created tax areas apart.
+- Review can be skipped for high-confidence orders. It is still required when a matching jurisdiction is not found or a rate mismatch is detected, even if review is set to Never.
+- If a tax rate differs between Shopify and Business Central, no document is created until the user approves the Business Central rate or overrides it with the Shopify rate. An override applies by document date, so it affects other documents created on that date or later.
+- A new setting uses the Shopify order number as the sales order number in Business Central. Another new setting creates a sales return document from a Shopify refund, using the same tax parameters as the original sales order.
 
 ## Chapters
 
@@ -215,16 +225,16 @@ The demo covers importing an order and seeing the AI-assigned tax area, the tax 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify Tax Matching AI Capability | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=40s) |  |
-| Tax Area Code Auto-Population | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=197s) |  |
-| Tax Match Review and Approval Window | status not stated, demoed | [4:31](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=271s) |  |
-| TaxMatch Automatic Installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=379s) |  |
-| TaxMatch Configuration Settings | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s) |  |
-| Tax Rate Mismatch Detection and Resolution | status not stated, demoed | [10:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=644s) |  |
-| Shopify Order Number as Sales Document Number | generally available (roadmap [573340](../features/573340.md)), demoed | [9:33](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=573s) |  |
-| Automatic Refund Document Creation | status not stated, demoed | [9:57](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=597s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify Tax Matching AI Capability | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=40s) |
+| Tax Area Code Auto-Population | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=197s) |
+| Tax Match Review and Approval Window | status not stated, demoed | [4:31](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=271s) |
+| TaxMatch Automatic Installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=379s) |
+| TaxMatch Configuration Settings | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=404s) |
+| Tax Rate Mismatch Detection and Resolution | status not stated, demoed | [10:44](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=644s) |
+| Shopify Order Number as Sales Document Number | generally available (roadmap [573340](../features/573340.md)), demoed | [9:33](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=573s) |
+| Automatic Refund Document Creation | status not stated, demoed | [9:57](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=597s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -244,6 +254,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:01](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=121s) "we can see that it consists of a multiple levels called tax jurisdictions. Each jurisdiction can have a different tax and then all together"
 - [6:19](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=379s) "It's only available in US, and it's a shipped as small Shopify extension, which is only available in the US, and it's not published"
 - [7:46](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=466s) "system will only offer me review if there is a low confidence. I will not be able to skip review if there is a"
+- [12:42](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=762s) "Remember that we decided that we don't want to review, but this is a important situation, so we have to."
 - [12:52](https://www.youtube.com/watch?v=5OZ0g5IgC8Q&t=772s) "Why serious? Because the rate in Shopify is different at the rate in Business Central. So, if we create order and use configuration which"
 
 ## Disclaimers in the video

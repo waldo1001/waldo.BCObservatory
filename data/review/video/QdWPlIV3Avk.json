@@ -1,0 +1,32 @@
+{
+  "video_id": "QdWPlIV3Avk",
+  "item_id": "video/yt-microsoft/QdWPlIV3Avk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 is misleading. The transcript says the app was not pre-installed in minor update three, but it is now pre-installed on new environments in the latest version. Upgraded environments install it from Marketplace, AppSource or the Subcontracting worksheet notification.",
+    "Key point 3 limits the vendor card location to consignment at vendor. The transcript says both the consignment at vendor and vendor supplied components point to the location on the vendor card.",
+    "Key point 7 does not say that warehouse receipt handling already shipped in minor release 28.3. Inventory put-away for basic locations is the very new part.",
+    "Dropped the 'Standard task codes for subcontracting' feature. The presenter only mentions in passing that standard task codes are now included, apparently in demo data, and the description wrongly says they are for vendors.",
+    "Set the Subcontracting extension and warehouse receipt features to ga, citing the statements about the minor update three and 28.3 releases.",
+    "All 15 quotes are verbatim and kept. Added the quote saying the app is now pre-installed."
+  ],
+  "input_hash": "94d19ccc5d8fce447abc07757e798bd3f47b6e4a1979ac2729487ec593403a2e",
+  "by": "opus",
+  "at": "2026-10-07T22:43:48.340Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Subcontracting extension: status ga",
+    "quote at 127s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Warehouse receipt for subcontracting operations -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.161929
+  }
+}

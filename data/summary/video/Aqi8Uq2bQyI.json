@@ -6,10 +6,11 @@
   "key_points": [
     "Page scripting moves from preview to generally available in 2026 release wave 2.",
     "The tool records and replays user actions in the web client, aimed at customers and consultants for testing and user acceptance testing.",
-    "All user-facing strings are now translated, including steps, error messages and tooltips.",
-    "Multiple selection in grids can be recorded, so you can select several rows in a list and run bulk actions (demoed).",
-    "You can validate the text of a message or error dialogue during a recording, so the recording acts as a real assertion and not only a sequence of clicks (demoed).",
-    "Agents can be used to generate page scripts and run them automatically; this was mentioned as a generative, agent-based approach."
+    "All user-facing strings are now translated, including steps, error messages and tooltips; hard-coded strings were updated, and the tool is described as ready for broad production use across all languages.",
+    "A pass was made on accessibility, usability and look and feel.",
+    "Multiple selection in grids can be recorded, so you can select several rows in a list, run bulk actions and replay them.",
+    "You can validate the text of a message or error dialogue during a recording, so the recording acts as a real assertion and not only a sequence of clicks (an error message validation is shown).",
+    "Since launch, it has also become possible to use agents to try to generate page scripts and run them."
   ],
   "audience": [
     "functional consultant",

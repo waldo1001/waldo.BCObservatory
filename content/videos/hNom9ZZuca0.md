@@ -18,12 +18,12 @@ tags:
   - test skipping
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:14.554Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:14.587Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     commit: null
     t: 446
     quote: a lot of these have well all of these have default implementations. This means that you know if you if you're writing a test
+  - kind: video
+    url: https://www.youtube.com/watch?v=hNom9ZZuca0&t=507s
+    title: "What's new: Testability Enhancements (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 507
+    quote: these um test handlers are separate from the test toolkit events that are driven by AL test runners
   - kind: video
     url: https://www.youtube.com/watch?v=hNom9ZZuca0&t=545s
     title: "What's new: Testability Enhancements (2026 release wave 2)"
@@ -213,6 +220,9 @@ quotes:
   - t: 446
     text: a lot of these have well all of these have default implementations. This means that you know if you if you're writing a test
     check: exact
+  - t: 507
+    text: these um test handlers are separate from the test toolkit events that are driven by AL test runners
+    check: exact
   - t: 545
     text: one common use case nowadays for us internally is we use it for managing token consumption. So you might want to say hey u
     check: exact
@@ -222,7 +232,7 @@ quotes:
 
 > AL testability enhancements from the 2026 release wave 2 video: data-driven testing (one test method run against multiple data sets through a test data source interface and test context) and test handlers (ITestHandler) for setup, teardown and skipping at codeunit, procedure and test-case level.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hNom9ZZuca0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hNom9ZZuca0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -233,12 +243,12 @@ Test handlers provide setup and teardown at several levels. They come in two kin
 ## Key points
 
 - Data-driven testing runs one test method against multiple data sets, so you add data points instead of copying test methods.
-- A custom test data source implements an interface and returns a strongly-typed test context. It can read from resource files, AL tables or web services.
-- Data-driven tests work with the VS Code test explorer, including selective test case execution and debugging. They can also run through the AL tool and the AL MCP connection.
+- A custom test data source implements an interface with two functions: one lists the test cases and one builds the test context. It can return a strongly-typed test context and read from resource files, AL tables or web services.
+- Data-driven tests work with the VS Code test explorer, including selective test case execution and debugging, after the test has run once. They can also run through the AL tool and the AL MCP connection.
 - The AI test toolkit does not use the new capabilities yet, so its tests cannot be run from VS Code. Migration is planned.
+- Test handlers bring back setup and teardown hooks that were lost when moving from AL test runners to platform test runners.
 - ITestHandler has hooks before and after the test codeunit, the test procedure and each data-driven test case. All methods have default implementations, so you override only the ones you need.
-- Opt-in handlers are registered on a test codeunit with the test handlers property, as a comma-separated list. A test codeunit can implement ITestHandler itself.
-- Default test handlers run on every test without being declared. Named uses are telemetry, verifying Microsoft features and common test setup.
+- Handlers are registered through enum extensions: extending the test handler enum gives opt-in handlers, and extending the default test handler enum gives global handlers that run on every test, including tests in other apps.
 
 ## Chapters
 
@@ -255,18 +265,18 @@ Test handlers provide setup and teardown at several levels. They come in two kin
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Data-driven Testing in AL | generally available (roadmap [573333](../features/573333.md)), demoed | [0:32](https://www.youtube.com/watch?v=hNom9ZZuca0&t=32s) |  |
-| Test Data Source Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [2:35](https://www.youtube.com/watch?v=hNom9ZZuca0&t=155s) |  |
-| Data-driven Testing in Visual Studio Code | generally available (roadmap [573333](../features/573333.md)), demoed | [1:29](https://www.youtube.com/watch?v=hNom9ZZuca0&t=89s) |  |
-| Data-driven Testing in AL Tooling and MCP | generally available (roadmap [573334](../features/573334.md)) | [3:42](https://www.youtube.com/watch?v=hNom9ZZuca0&t=222s) |  |
-| Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [4:21](https://www.youtube.com/watch?v=hNom9ZZuca0&t=261s) |  |
-| Opt-in Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |  |
-| Default Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |  |
-| ITestHandler Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [7:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=425s) |  |
-| Test Handlers Property | generally available (roadmap [573333](../features/573333.md)), demoed | [7:43](https://www.youtube.com/watch?v=hNom9ZZuca0&t=463s) |  |
-| Test Case Skipping via Test Handlers | generally available (roadmap [573333](../features/573333.md)) | [8:46](https://www.youtube.com/watch?v=hNom9ZZuca0&t=526s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Data-driven Testing in AL | generally available (roadmap [573333](../features/573333.md)), demoed | [0:32](https://www.youtube.com/watch?v=hNom9ZZuca0&t=32s) |
+| Test Data Source Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [2:35](https://www.youtube.com/watch?v=hNom9ZZuca0&t=155s) |
+| Data-driven Testing in Visual Studio Code | generally available (roadmap [573333](../features/573333.md)), demoed | [1:29](https://www.youtube.com/watch?v=hNom9ZZuca0&t=89s) |
+| Data-driven Testing in AL Tooling and MCP | generally available (roadmap [573334](../features/573334.md)) | [3:42](https://www.youtube.com/watch?v=hNom9ZZuca0&t=222s) |
+| Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [4:21](https://www.youtube.com/watch?v=hNom9ZZuca0&t=261s) |
+| Opt-in Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
+| Default Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
+| ITestHandler Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [7:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=425s) |
+| Test Handlers Property | generally available (roadmap [573333](../features/573333.md)), demoed | [7:43](https://www.youtube.com/watch?v=hNom9ZZuca0&t=463s) |
+| Test Case Skipping via Test Handlers | generally available (roadmap [573333](../features/573333.md)) | [8:46](https://www.youtube.com/watch?v=hNom9ZZuca0&t=526s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -287,6 +297,7 @@ Not found in BC28-30: interface "ITestHandler", interface "ITestContext".
 - [4:21](https://www.youtube.com/watch?v=hNom9ZZuca0&t=261s) "test handlers are a way for us to provide test setup and tear down functionality in ALE"
 - [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) "we also have these default test handlers uh or I like to think of them as global test handlers because they run on every"
 - [7:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=446s) "a lot of these have well all of these have default implementations. This means that you know if you if you're writing a test"
+- [8:27](https://www.youtube.com/watch?v=hNom9ZZuca0&t=507s) "these um test handlers are separate from the test toolkit events that are driven by AL test runners"
 - [9:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=545s) "one common use case nowadays for us internally is we use it for managing token consumption. So you might want to say hey u"
 
 ## Disclaimers in the video

@@ -1,0 +1,58 @@
+{
+  "id": "change/al-go-prs/2392",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "AL-Go Telemetry Enhancements: repository fork and hosting information",
+  "url": "https://github.com/microsoft/AL-Go/pull/2392",
+  "published_at": "2026-10-07T20:16:44Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T22:42:12.892Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T22:42:34.598Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T22:42:44.136Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00371
+    },
+    "linked": {
+      "at": "2026-10-07T22:42:44.138Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T22:42:44.191Z",
+      "path": "content/changes/al-go/2392.md"
+    }
+  },
+  "input_hash": "5e099940c98618e328a40191a4983f61167187c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2392,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "5e099940c98618e328a40191a4983f61167187c4",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "al go telemetry enhancements repository fork and hosting information"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00c4b806e31296c2c2af7004d0199e0bda030b18ac12591c8b766aa4f5eefe5b"
+}

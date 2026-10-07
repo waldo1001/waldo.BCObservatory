@@ -1,0 +1,28 @@
+{
+  "video_id": "TSLXzbeyE7Y",
+  "item_id": "video/yt-microsoft/TSLXzbeyE7Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 2 adds 'This needs internet connectivity', which the transcript does not say.",
+    "Key point 5 adds 'requires calendar access permissions', which the transcript does not say.",
+    "Key point 2 left out the Oregon detail that is actually stated: the setup is different because the sales tax rate is zero.",
+    "All feature statuses are correctly left as unclear. The video only says 'new Copilot chat' and 'new version of Business Central', and never says preview or GA.",
+    "The quotes check out. The quote at 130.8 runs on into the next segment, which is allowed.",
+    "Added a quote about the recommendations, which the page was missing."
+  ],
+  "input_hash": "a9ab19f8f42bbf443f7d86471ef85bb102826dccc5aad0125d53d577a9316c79",
+  "by": "opus",
+  "at": "2026-10-07T22:43:41.222Z",
+  "applied": [
+    "quote at 166s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057425
+  }
+}

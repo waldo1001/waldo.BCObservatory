@@ -1,0 +1,27 @@
+{
+  "video_id": "2N2NhNH7dsk",
+  "item_id": "video/yt-microsoft/2N2NhNH7dsk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point about the developer comment override said 'This was not demoed'. The transcript says nothing either way, so I removed that claim.",
+    "Changed the API overview page evidence quote to include 'version 29', the part that states the shipping status.",
+    "The transcript says 'MTP server', which is likely a caption error for MCP. The page's use of MCP is reasonable.",
+    "'Layout status control' and 'Layout lifecycle states' overlap, but both are supported by the transcript.",
+    "The remaining features stay 'unclear' because the transcript never says preview or GA for them."
+  ],
+  "input_hash": "f80a96b28b31ecfcfdd858bcf334e7c37bdea5ed87e034a7b09edb2b85bcc4fb",
+  "by": "opus",
+  "at": "2026-10-07T22:42:53.157Z",
+  "applied": [
+    "API overview page for report inbox: status ga",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07566800000000001
+  }
+}

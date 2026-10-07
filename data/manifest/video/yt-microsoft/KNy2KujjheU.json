@@ -55,8 +55,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T12:57:31.722Z",
+      "at": "2026-10-07T22:43:23.189Z",
       "path": "content/videos/KNy2KujjheU.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:43:23.149Z",
+      "path": "data/review/video/KNy2KujjheU.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.045433
     }
   },
   "input_hash": null,
@@ -68,5 +77,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0061ed6007a311d69357bf796043fdd0f2bb84e128f7e0fac6943b4c00a66c3d"
+  "output_hash": "9dbda22c12630db6a91ef4ce0d64598dac98e7f9239e5929f93369faa59e0c32",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:43:23.148Z"
+  }
 }

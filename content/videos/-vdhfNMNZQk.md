@@ -2,7 +2,7 @@
 id: video/-vdhfNMNZQk
 type: video
 title: "Introducing: Composite Document Layouts (2026 release wave 2)"
-summary: "Composite document layouts in Business Central (2026 release wave 2): report layouts split into a body layout, themes and header-footer layouts that are applied at runtime. Covers layered defaults, custom themes, shipped themes in 20.9, and rollout through feature management and layout status."
+summary: Composite document layouts in Business Central (2026 release wave 2) split a report layout into a body layout (structure), a theme (colors, fonts, branding) and a header-footer layout, and apply the theme and header-footer at runtime. Covers layered defaults (global, company, report, layout), custom themes from the UI or AL, the themes and header-footer layouts Microsoft plans to ship, and rollout through feature management and layout status.
 tier: official
 language: en
 tags:
@@ -18,53 +18,18 @@ tags:
   - body layouts
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:21.395Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:21.425Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: eb7d638ad07809851c29b2e0bab2e98f874d6e522b954ebc5b2cc271788407df
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s
-    title: "Composite layouts for documents: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 377
-    quote: the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately
-  - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s
-    title: "Theme application: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 377
-    quote: we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes
-  - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s
-    title: "Header-footer layout application: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 377
-    quote: we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts
-  - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s
-    title: "Shipped themes: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 377
-    quote: we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes
-  - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=658s
-    title: "Layout status control: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 658
-    quote: we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.
   - kind: video
     url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=34s
     title: "Introducing: Composite Document Layouts (2026 release wave 2)"
@@ -87,12 +52,12 @@ evidence:
     t: 100
     quote: applying here means it happens at runtime. So, you can actually have the same report um you can run it in different ways.
   - kind: video
-    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s
+    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=391s
     title: "Introducing: Composite Document Layouts (2026 release wave 2)"
     date: "2026-10-01T00:00:00Z"
     commit: null
-    t: 377
-    quote: the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately
+    t: 391
+    quote: um three themes, approximately eight um header footer layouts, and give or take 50 different body layouts across different functional areas.
   - kind: video
     url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s
     title: "Introducing: Composite Document Layouts (2026 release wave 2)"
@@ -114,6 +79,13 @@ evidence:
     commit: null
     t: 658
     quote: we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.
+  - kind: video
+    url: https://www.youtube.com/watch?v=-vdhfNMNZQk&t=682s
+    title: "Introducing: Composite Document Layouts (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 682
+    quote: no user will be able to use this layout when they run reports. This layout will not show up on the request page.
 links:
   learn: []
   objects: []
@@ -160,7 +132,7 @@ features:
   - name: Composite layouts for documents
     status: ga
     t: 6
-    verified: true
+    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573326"
@@ -173,14 +145,14 @@ features:
   - name: Theme application
     status: ga
     t: 87
-    verified: true
+    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573327"
   - name: Header-footer layout application
     status: ga
     t: 87
-    verified: true
+    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573326"
@@ -205,9 +177,9 @@ features:
     verified: false
     status_source: video
   - name: Shipped themes
-    status: ga
+    status: unclear
     t: 415
-    verified: true
+    verified: false
     status_source: video
   - name: Feature management for composite layouts
     status: unclear
@@ -217,7 +189,7 @@ features:
   - name: Layout status control
     status: ga
     t: 647
-    verified: true
+    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573320"
@@ -233,9 +205,9 @@ quotes:
   - t: 100
     text: applying here means it happens at runtime. So, you can actually have the same report um you can run it in different ways.
     check: exact
-  - t: 377
-    text: the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately
-    check: fuzzy
+  - t: 391
+    text: um three themes, approximately eight um header footer layouts, and give or take 50 different body layouts across different functional areas.
+    check: exact
   - t: 575
     text: we are not changing any default states or states for for any of the layouts we ship in in in in here in version
     check: exact
@@ -245,13 +217,16 @@ quotes:
   - t: 658
     text: we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.
     check: exact
+  - t: 682
+    text: no user will be able to use this layout when they run reports. This layout will not show up on the request page.
+    check: exact
 ---
 
 # Introducing: Composite Document Layouts (2026 release wave 2)
 
-> Composite document layouts in Business Central (2026 release wave 2): report layouts split into a body layout, themes and header-footer layouts that are applied at runtime. Covers layered defaults, custom themes, shipped themes in 20.9, and rollout through feature management and layout status.
+> Composite document layouts in Business Central (2026 release wave 2) split a report layout into a body layout (structure), a theme (colors, fonts, branding) and a header-footer layout, and apply the theme and header-footer at runtime. Covers layered defaults (global, company, report, layout), custom themes from the UI or AL, the themes and header-footer layouts Microsoft plans to ship, and rollout through feature management and layout status.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=-vdhfNMNZQk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 12:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=-vdhfNMNZQk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 12:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -264,10 +239,10 @@ It shows defaults set at global, company, report and specific layout level, and 
 - A composite layout has three parts: body layout (structure), theme (colors, fonts, branding) and header-footer layout (external and internal variants).
 - Themes and header-footer layouts are applied at runtime, so one report can be run with different themes and headers.
 - Defaults are layered: global for all reports, company overrides global, report overrides company, and a specific layout overrides report.
-- Custom themes and header-footer layouts can be created on the managed theme and header and footer layouts page (blank or uploaded), or from AL with rendering type word and subtype theme or header footer.
-- Version 20.9 ships four themes in the demo: calm, default, playful and standard. The documentation mentions three.
+- Custom themes and header-footer layouts can be created on the managed theme and header and footer layouts page (blank or uploaded), or from AL with rendering type word and subtype theme or header footer. Body layouts use subtype body.
+- The product group aims to ship about three themes, approximately eight header-footer layouts and around 50 body layouts. The demo shows calm, default, playful and standard themes.
 - Rollout: the new document experience can be turned on or off in feature management. Default states of shipped layouts are not changed in version 2026.
-- Setting a layout to retired or draft hides it from request pages, including layouts shipped by Microsoft. Developer guidance is at AKA.ms/BCdeveloper.
+- Changing a layout's status (for example to retired, draft or pending approval) hides it from request pages, even for layouts shipped by Microsoft. Developer guidance is at AKA.ms/BCdeveloper.
 
 ## Chapters
 
@@ -283,18 +258,18 @@ It shows defaults set at global, company, report and specific layout level, and 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Composite layouts for documents | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)), demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) | "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Body layout | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) |  |
-| Theme application | generally available (roadmap [573327](../features/573327.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Header-footer layout application | generally available (roadmap [573326](../features/573326.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Layered layout defaults | generally available (roadmap [573326](../features/573326.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |  |
-| Custom theme and header-footer layouts | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)) | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |  |
-| Managed theme and header-footer layouts page | status not stated | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |  |
-| Shipped themes | generally available, demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Feature management for composite layouts | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) |  |
-| Layout status control | generally available (roadmap [573320](../features/573320.md)), demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) | "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft." ([10:58](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=658s)) |
+| Feature | Status | At |
+|---|---|---|
+| Composite layouts for documents | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)), demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) |
+| Body layout | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) |
+| Theme application | generally available (roadmap [573327](../features/573327.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
+| Header-footer layout application | generally available (roadmap [573326](../features/573326.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
+| Layered layout defaults | generally available (roadmap [573326](../features/573326.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |
+| Custom theme and header-footer layouts | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)) | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |
+| Managed theme and header-footer layouts page | status not stated | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |
+| Shipped themes | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) |
+| Feature management for composite layouts | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) |
+| Layout status control | generally available (roadmap [573320](../features/573320.md)), demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -311,10 +286,11 @@ Not found in BC28-30: page "managed theme and header and footer layouts page".
 - [0:34](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=34s) "we allow you now to reuse branding like report themes, colors, fonts and so on across your document reports"
 - [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) "the idea with composite layouts is that that we split kind of the old layout would be everything all in once in one file."
 - [1:40](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=100s) "applying here means it happens at runtime. So, you can actually have the same report um you can run it in different ways."
-- [6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s) "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately"
+- [6:31](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=391s) "um three themes, approximately eight um header footer layouts, and give or take 50 different body layouts across different functional areas."
 - [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) "we are not changing any default states or states for for any of the layouts we ship in in in in here in version"
 - [10:19](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=619s) "can use feature management as the first link and on feature management there's a way to enable or turn off this new what"
 - [10:58](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=658s) "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft."
+- [11:22](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=682s) "no user will be able to use this layout when they run reports. This layout will not show up on the request page."
 
 ## Disclaimers in the video
 

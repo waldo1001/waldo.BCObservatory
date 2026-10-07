@@ -1,0 +1,29 @@
+{
+  "video_id": "HixajKEd-A4",
+  "item_id": "video/yt-microsoft/HixajKEd-A4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary said 'generally available', but the transcript only says the feature is 'shipping in 2026 release wave two'. I reworded the summary to stick to the transcript.",
+    "The 'ga' status for Match Production Configuration is a reasonable reading of 'shipping in 2026 release wave two', so I kept it with that evidence.",
+    "All five quotes are verbatim. The second quote at 103.8 runs into segment 119.3, which is allowed.",
+    "The chapter boundaries are slightly off. The first segment starts at 7.1, not 0. The licensing content starts at 133.7, but the 'Conclusion' chapter is also set to start there, when the conclusion actually begins at 144.1. These fields can't be edited here.",
+    "'performance tool get' in the transcript looks like a caption error. I left it as is because the quote must stay verbatim.",
+    "The key points are supported by the transcript."
+  ],
+  "input_hash": "1ef9d33643a27f7cf3a7a36cdefa82a407fe876181da8cc7aad1f149943644c8",
+  "by": "opus",
+  "at": "2026-10-07T22:43:23.094Z",
+  "applied": [
+    "Match Production Configuration: status ga",
+    "quote at 57s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049745
+  }
+}

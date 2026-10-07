@@ -281,9 +281,9 @@
       "check": "exact"
     },
     {
-      "t": 496.7,
-      "text": "when you're installing new PTE, so PTEs that are new for the environment that you're installing it on, um it's important to know that",
-      "why_it_matters": "Important constraint: new PTEs have limited scheduling options unlike updates to existing PTEs",
+      "t": 509.6,
+      "text": "So for new PTE, it is not possible to target the next minor or next major update.",
+      "why_it_matters": "This limits the deployment schedule for PTEs that are new to the environment: only immediate or update window install is possible.",
       "check": "exact"
     },
     {
@@ -296,6 +296,12 @@
       "t": 555.8,
       "text": "PTE versions that are scheduled to be installed through either experience are only visible in the experience uh through which they have been scheduled",
       "why_it_matters": "Explains why simultaneous use of old and new experiences causes problems",
+      "check": "exact"
+    },
+    {
+      "t": 601.1,
+      "text": "So these S2S apps do not require in environment registration and permission sets uh to upload and install PTEES on a customer environment.",
+      "why_it_matters": "It shows that partners who automate PTE install through the admin center API with S2S apps need less permission setup.",
       "check": "exact"
     },
     {

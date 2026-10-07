@@ -1,7 +1,7 @@
 {
   "video_id": "HixajKEd-A4",
   "item_id": "video/yt-microsoft/HixajKEd-A4",
-  "summary": "Match Production Configuration in the Business Central admin center (2026 release wave 2, generally available). It temporarily makes a sandbox database match a typical production configuration for 72 hours, up to three times per tenant per calendar month, on paid license tenants only.",
+  "summary": "Match Production Configuration is a new admin center button for sandbox environments, shipping in Business Central 2026 release wave 2. It temporarily matches a sandbox database to a typical production database configuration for 72 hours. It restarts the environment, can be used up to three times per tenant per calendar month, is supported in the admin center APIs, and is only available on paid license tenants, including the partner sandbox license.",
   "overview": "The video covers a sandbox feature that lets administrators temporarily match the configuration of a sandbox database to that of a typical production database. Developers and administrators can use it to see how processes run in a production-like setup, for example when developing apps, using the performance tool, or running cloud migration projects.\n\nIt shows the new \"match production configuration\" button in the admin center for sandbox environments and explains the flyout and how the operation is tracked. It also covers the limits: activating it restarts the environment and disconnects users, it lasts 72 hours, and it reverts automatically. It is supported through admin center APIs and requires a paid license type.",
   "key_points": [
     "The button is labeled match production configuration and appears in the admin center for sandbox environments only.",

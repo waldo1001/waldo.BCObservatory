@@ -255,26 +255,6 @@
       "system": "development"
     },
     {
-      "name": "Table extension key improvements",
-      "description": "Table extensions can now be merged into base tables at compile time, allowing keys to span both base and extension fields in a single key.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 606.8,
-      "t_end": 636.2,
-      "is_demoed": false,
-      "caveats": [
-        "Fundamental change in how table extensions compile"
-      ],
-      "tags": [
-        "table-extensions",
-        "keys",
-        "data-structure"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Namespace support in translation IDs",
       "description": "Translation files now support fully qualified namespace-based keys instead of hash-based keys derived from object names, eliminating collision risks when multiple objects share the same name in different namespaces.",
       "status": "unclear",
@@ -608,6 +588,12 @@
       "check": "exact"
     },
     {
+      "t": 302.7,
+      "text": "we now have a new tool in our MCP called get next object ID. This will look at your current project the appjson",
+      "why_it_matters": "Introduces the get next object ID MCP tool and its use of app.json.",
+      "check": "exact"
+    },
+    {
       "t": 469,
       "text": "Um, we also now have something new in this release which is the default implementation of this interface.",
       "why_it_matters": "Key design feature enabling backward-compatible interface evolution without breaking downstream consumers.",
@@ -623,6 +609,12 @@
       "t": 665.6,
       "text": "But now we have the ability to specify the public resource folders. This means that resources in these folders are available to anyone outside",
       "why_it_matters": "Public resources enable content sharing across app boundaries, reducing code duplication in partner ecosystems.",
+      "check": "exact"
+    },
+    {
+      "t": 694.4,
+      "text": "The public resources are actually consumable without a dependency.",
+      "why_it_matters": "Main point of public resource folders: no app dependency needed.",
       "check": "exact"
     },
     {
@@ -656,6 +648,30 @@
       "check": "exact"
     },
     {
+      "t": 1111.4,
+      "text": "read isolation is now an explicit option when reading from isolated storage so that you can state read committed with an update lock",
+      "why_it_matters": "Only evidence for the isolated storage read isolation feature.",
+      "check": "exact"
+    },
+    {
+      "t": 1132.9,
+      "text": "we no longer need to specify the tool tip if we use the run object",
+      "why_it_matters": "Shows the condition under which an action inherits the page tooltip.",
+      "check": "exact"
+    },
+    {
+      "t": 1173.9,
+      "text": "These are not fields that I have created. They're part of the system fields on the record now.",
+      "why_it_matters": "Confirms Created By and Modified By name fields are now system fields.",
+      "check": "exact"
+    },
+    {
+      "t": 1202.7,
+      "text": "a method called is dirty on a record and a record ref that allows you to test whether a record has changed",
+      "why_it_matters": "Main evidence for the new IsDirty method on Record and RecordRef.",
+      "check": "exact"
+    },
+    {
       "t": 1256,
       "text": "we're actually adding datadriven tests so that one test method can run many scenarios",
       "why_it_matters": "Defines the data-driven testing pattern that eliminates test duplication and enables command-line execution with structured exit codes.",
@@ -680,12 +696,6 @@
       "check": "exact"
     },
     {
-      "t": 1587,
-      "text": "Our tool will build a graph across the extension and its dependencies. And then you or your coding agent can query this.",
-      "why_it_matters": "States that both humans and agents can use the graph tool, emphasizing agentic capability as a design goal.",
-      "check": "exact"
-    },
-    {
       "t": 1654.6,
       "text": "Counter to the LSP which is actually looking at the project as it is now. This is a static thing that we can do",
       "why_it_matters": "Explains the key difference between static call graph analysis and language service protocol - offline vs. real-time.",
@@ -704,21 +714,9 @@
       "check": "fuzzy"
     },
     {
-      "t": 1889.1,
-      "text": "Our focus has been on the agentic experience, right? Having agents do this work for us and come up with suggestions on how to",
-      "why_it_matters": "Restates the release's strategic focus on making agents more capable at development and debugging tasks.",
-      "check": "exact"
-    },
-    {
       "t": 2007.1,
       "text": "why are these called proxies this is because the actual work all happens on the server there's no snapshot or",
       "why_it_matters": "Clarifies the architecture - proxies are client interfaces to server-side operations, not local profiling.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 2049.6,
-      "text": "we started with an app we wanted to extend another list of tools we found",
-      "why_it_matters": "Summarizes the full development lifecycle covered in the session - extension, tools, context, migration, testing, and support.",
       "check": "fuzzy"
     }
   ],

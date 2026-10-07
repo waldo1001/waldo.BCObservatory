@@ -70,10 +70,10 @@
     {
       "name": "Composite layouts for documents",
       "description": "Split report layouts into reusable components - body layout for structure, themes for branding colors and fonts, and header-footer layouts for document headers and footers. Themes and headers-footers can be applied at runtime across different reports.",
-      "status": "ga",
-      "status_evidence_t": 377.5,
-      "status_evidence_quote": "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 6.7,
       "t_end": 100.4,
       "is_demoed": true,
@@ -110,10 +110,10 @@
     {
       "name": "Theme application",
       "description": "Apply themes to body layouts at runtime to add colors, fonts, and visual styling. Multiple themes can be applied to the same body layout to show different branding.",
-      "status": "ga",
-      "status_evidence_t": 377.5,
-      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 87.4,
       "t_end": 137.4,
       "is_demoed": true,
@@ -129,10 +129,10 @@
     {
       "name": "Header-footer layout application",
       "description": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report, or specific layout level. Header-footer layouts are divided into external and internal variants.",
-      "status": "ga",
-      "status_evidence_t": 377.5,
-      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 87.4,
       "t_end": 270,
       "is_demoed": true,
@@ -204,10 +204,10 @@
     {
       "name": "Shipped themes",
       "description": "Four themes ship with version 20.9: calm (green, relaxing), default, playful (colors and pink gradient), and standard theme.",
-      "status": "ga",
-      "status_evidence_t": 377.5,
-      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 415.4,
       "t_end": 427.8,
       "is_demoed": true,
@@ -242,10 +242,10 @@
     {
       "name": "Layout status control",
       "description": "Set layout status to retired or draft to hide layouts from users. Even Microsoft-shipped layouts can have their status changed so they do not appear on request pages.",
-      "status": "ga",
-      "status_evidence_t": 658.6,
-      "status_evidence_quote": "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 647.4,
       "t_end": 692.9,
       "is_demoed": true,
@@ -287,10 +287,10 @@
       "check": "exact"
     },
     {
-      "t": 377.5,
-      "text": "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately",
-      "why_it_matters": "Specifies the quantity of shipped components and version numbers for initial release.",
-      "check": "fuzzy"
+      "t": 391.9,
+      "text": "um three themes, approximately eight um header footer layouts, and give or take 50 different body layouts across different functional areas.",
+      "why_it_matters": "States how many themes, header-footer layouts and body layouts Microsoft plans to ship.",
+      "check": "exact"
     },
     {
       "t": 575.7,
@@ -308,6 +308,12 @@
       "t": 658.6,
       "text": "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.",
       "why_it_matters": "Shows fine-grained control over layout visibility even for Microsoft-shipped layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 682.4,
+      "text": "no user will be able to use this layout when they run reports. This layout will not show up on the request page.",
+      "why_it_matters": "Shows how changing a layout's status keeps it away from users.",
       "check": "exact"
     }
   ],

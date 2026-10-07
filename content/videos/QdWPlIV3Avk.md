@@ -20,18 +20,25 @@ tags:
   - pricing rules
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:43:48.381Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: b8a975641a9eb3b5a7974c42b3f9f51a08cb39e136c1374c3a29b4d30e346763
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s
+    title: "Subcontracting extension: generally available"
+    date: "2026-10-01T13:03:30.000Z"
+    commit: null
+    t: 8
+    quote: we are silently released it in minor update three, but in this time we did not pre-install it on new environments
   - kind: video
     url: https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s
     title: "What's new in SCM: Subcontracting (2026 release wave 2)"
@@ -53,6 +60,13 @@ evidence:
     commit: null
     t: 102
     quote: subcontracting operations can benefit from the same warehouse uh processes. So, no need to handle them differently.
+  - kind: video
+    url: https://www.youtube.com/watch?v=QdWPlIV3Avk&t=126s
+    title: "What's new in SCM: Subcontracting (2026 release wave 2)"
+    date: "2026-10-01T13:03:30.000Z"
+    commit: null
+    t: 126
+    quote: As I mentioned, for new environments in the latest version, you will get up pre-installed.
   - kind: video
     url: https://www.youtube.com/watch?v=QdWPlIV3Avk&t=237s
     title: "What's new in SCM: Subcontracting (2026 release wave 2)"
@@ -195,9 +209,9 @@ chapters:
     title: Basic warehouse location with put-away and serial number handling
 features:
   - name: Subcontracting extension
-    status: unclear
+    status: ga
     t: 8
-    verified: false
+    verified: true
     status_source: video
   - name: Component supply method
     status: unclear
@@ -287,11 +301,6 @@ features:
     t: 1038
     verified: false
     status_source: video
-  - name: Standard task codes for subcontracting
-    status: unclear
-    t: 1210
-    verified: false
-    status_source: video
   - name: Closest-match pricing for subcontracting
     status: unclear
     t: 1210
@@ -308,24 +317,22 @@ features:
     verified: false
     status_source: video
   - name: Inventory put-away for basic warehouse locations
-    status: ga
+    status: unclear
     t: 1493
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573355"
+    status_source: video
   - name: Serial number assignment across multiple levels
-    status: unclear
+    status: ga
     t: 1547
     verified: false
-    status_source: video
-  - name: Multiple receiving methods for subcontracting
-    status: ga
-    t: 1569
-    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573355"
+  - name: Multiple receiving methods for subcontracting
+    status: unclear
+    t: 1569
+    verified: false
+    status_source: video
 objects_mentioned:
   - table Bill of Material
   - page Production Order
@@ -349,6 +356,9 @@ quotes:
     check: exact
   - t: 102
     text: subcontracting operations can benefit from the same warehouse uh processes. So, no need to handle them differently.
+    check: exact
+  - t: 126
+    text: As I mentioned, for new environments in the latest version, you will get up pre-installed.
     check: exact
   - t: 237
     text: Component supply method. So, what I'm trying to do here, I decided to use these three components in my subcontracting operation
@@ -392,7 +402,7 @@ quotes:
 
 > Business Central's reworked Subcontracting extension (2026 release wave 2): component supply method on BOM lines, subcontracting purchase orders created from routing lines, WIP items with transfer orders, item charge allocation, closest-match and minimum-amount pricing, and warehouse receipt or inventory put-away handling.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QdWPlIV3Avk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 27:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QdWPlIV3Avk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 27:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -402,13 +412,13 @@ The demo follows one process: set the component supply method on the bill of mat
 
 ## Key points
 
-- The Subcontracting extension is installed separately. The presenter says it was released silently in minor update three and not pre-installed on new or upgraded environments. It is available on the App Store but not forced.
+- The Subcontracting extension was released silently in minor update three without being pre-installed. New environments on the latest version now get it pre-installed. Upgraded environments can install it from Microsoft Marketplace, from AppSource inside Business Central, or from the notification on the legacy Subcontracting worksheet.
 - Component supply method on BOM lines has three options: transfer from warehouse, consignment at vendor, or vendor supplied. Set it before the production order is created.
-- The vendor card has a new field that tracks components held at the vendor location. It applies to consignment at vendor, and the company still owns those components.
+- The vendor card has a new field for the location that tracks components held at the vendor. Production order components set to consignment at vendor or vendor supplied point to this location. The company still owns those components.
 - A subcontracting purchase order can be created from the production order routing line without the legacy subcontracting worksheet. The worksheet is still available for bulk operations. The order holds component, operation, description and instruction comment lines.
-- A routing operation can name a work-in-progress item, which is transferred to the subcontractor instead of raw materials. Posting the transfer registers the WIP item in a new WIP ledger entry type, which is used to calculate return quantities.
+- A routing operation can name a work-in-progress item, which is transferred to the subcontractor instead of raw materials. Posting the transfer registers the WIP item in a new WIP ledger entry type, which is used to work out how much to transfer back.
 - Subcontracting pricing uses the closest quantity match, not the smallest price. If the order amount is below the vendor's minimum amount per line, the unit price is minimum amount divided by quantity.
-- With warehouse handling enabled, a warehouse receipt is created instead of a direct purchase receipt. Basic warehouse locations use inventory put-away. Serial numbers can be set on the production order or in the purchase document. A put-away is generated only for the last operation.
+- With directed put-away locations, a warehouse receipt is created instead of a direct purchase receipt (already available since 28.3). Serial numbers can be assigned and a put-away created only for the last operation. Inventory put-away for basic locations is new. Serial numbers can be set on the production order or in the purchase document.
 
 ## Chapters
 
@@ -430,7 +440,7 @@ The demo follows one process: set the component supply method on the bill of mat
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Subcontracting extension | status not stated, demoed | [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) |  |
+| Subcontracting extension | generally available, demoed | [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) | "we are silently released it in minor update three, but in this time we did not pre-install it on new environments" ([0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s)) |
 | Component supply method | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=224s) |  |
 | Vendor location tracking | status not stated, demoed | [6:51](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=411s) |  |
 | Warehouse integration for subcontracting | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=90s) |  |
@@ -447,13 +457,12 @@ The demo follows one process: set the component supply method on the bill of mat
 | Transfer order to subcontractor | status not stated, demoed | [14:13](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=853s) |  |
 | Work-in-progress ledger entries | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=905s) |  |
 | Item charge assignment to purchase receipts | status not stated, demoed | [17:18](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1038s) |  |
-| Standard task codes for subcontracting | status not stated | [20:10](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1210s) |  |
 | Closest-match pricing for subcontracting | status not stated, demoed | [20:10](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1210s) |  |
 | Minimum amount rule for subcontracting | status not stated, demoed | [21:45](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1305s) |  |
 | Warehouse receipt for subcontracting operations | status not stated, demoed | [23:23](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1403s) |  |
-| Inventory put-away for basic warehouse locations | generally available (roadmap [573355](../features/573355.md)), demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
-| Serial number assignment across multiple levels | status not stated, demoed | [25:47](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1547s) |  |
-| Multiple receiving methods for subcontracting | generally available (roadmap [573355](../features/573355.md)), demoed | [26:09](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1569s) |  |
+| Inventory put-away for basic warehouse locations | status not stated, demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
+| Serial number assignment across multiple levels | generally available (roadmap [573355](../features/573355.md)), demoed | [25:47](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1547s) |  |
+| Multiple receiving methods for subcontracting | status not stated, demoed | [26:09](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1569s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -484,6 +493,7 @@ More than one object has this name, so none is linked: page "Subcontracting Orde
 - [0:08](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=8s) "we are silently released it in minor update three, but in this time we did not pre-install it on new environments"
 - [0:37](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=37s) "original subcontracting which was present in Business Central for many years was maybe a little bit limited"
 - [1:42](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=102s) "subcontracting operations can benefit from the same warehouse uh processes. So, no need to handle them differently."
+- [2:06](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=126s) "As I mentioned, for new environments in the latest version, you will get up pre-installed."
 - [3:57](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=237s) "Component supply method. So, what I'm trying to do here, I decided to use these three components in my subcontracting operation"
 - [7:27](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=447s) "on vendor card, we have a new field where we will track components which are on vendor location. They still ours"
 - [8:41](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=521s) "Purchase order subcontracting purchase order is created and I can actually open it and check it"

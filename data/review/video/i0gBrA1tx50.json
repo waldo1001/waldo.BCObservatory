@@ -1,0 +1,23 @@
+{
+  "video_id": "i0gBrA1tx50",
+  "item_id": "video/yt-microsoft/i0gBrA1tx50",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim; 70.1 crosses into the next segment and 98.5 differs only in punctuation, both acceptable.",
+    "Feature statuses left unclear: transcript only says AL Graph was built 'in the last release' and is part of the AL tools package, with no explicit preview or GA statement.",
+    "Minor: HTTP client caller auditing t_start 184.3 is slightly early (query begins at 206.4); boundary audit t_start 253.4 is slightly early (begins at 264.5).",
+    "Summary and key points are supported by the transcript; the release wave label comes from the video title."
+  ],
+  "input_hash": "60c084318e81755320b1ddde71a94038383339b43a9c73d2676aea2c3bc5cc09",
+  "by": "opus",
+  "at": "2026-10-07T22:44:21.493Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.072841
+  }
+}

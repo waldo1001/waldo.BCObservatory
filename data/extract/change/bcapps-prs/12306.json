@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12306",
+  "number": 12306,
+  "title": "Warn before releasing a purchase order that was already sent electronically",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "A warning now appears when releasing a purchase order that was already electronically sent, preventing silent re-export of the same e-document with the same identifier that would later cause conflicts.",
+  "key_points": [
+    "Adds a confirmation prompt when releasing a purchase order that has a previously sent e-document",
+    "First release and failed export retries remain unaffected",
+    "Prevents accidental re-export with same cbc:ID that causes duplicate order errors on receiving side",
+    "Supports Peppol integration by warning before unsupported OrderChange scenario",
+    "Internal changes only with no breaking changes to public APIs"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Releasing an order that already has a sent e-document now asks first, so they can back out.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003673,
+    "changes_in_call": 1
+  }
+}

@@ -149,6 +149,12 @@
       "check": "exact"
     },
     {
+      "t": 56.8,
+      "text": "warns you that enabling this action will restart the environment meaning that any users that are connected to the environment at the time you",
+      "why_it_matters": "Turning the feature on restarts the environment, which disconnects every connected user. Admins need to plan for that.",
+      "check": "exact"
+    },
+    {
       "t": 103.8,
       "text": "this operation is limited to three occurrences per tenant per calendar month for 72 hours at a time",
       "why_it_matters": "Defines critical usage limits and quotas for the feature.",

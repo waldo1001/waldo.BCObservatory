@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2392",
+  "number": 2392,
+  "title": "AL-Go Telemetry Enhancements: repository fork and hosting information",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go telemetry now captures whether a repository is a fork and its GitHub hosting type (GitHub.com, GHEC, or GHES), helping distinguish workflows across different environments without sending server details to telemetry.",
+  "key_points": [
+    "New `Get-RepositoryIsFork` function determines fork status from workflow event metadata",
+    "New `Get-GitHubHostingType` function classifies GitHub hosting as GitHub.com, GHEC, or GHES",
+    "Telemetry dimensions include repository and hosting context for Microsoft and partner systems",
+    "Invalid or missing metadata produces warnings and returns 'Unknown' without blocking telemetry",
+    "Added 27 unit tests covering both PowerShell 7 and Windows PowerShell 5 compatibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Add repository and hosting context to AL-Go telemetry so consumers can distinguish workflows running in forks and across GitHub hosting environments.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00371,
+    "changes_in_call": 1
+  }
+}

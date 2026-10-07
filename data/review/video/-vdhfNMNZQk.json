@@ -1,0 +1,35 @@
+{
+  "video_id": "-vdhfNMNZQk",
+  "item_id": "video/yt-microsoft/-vdhfNMNZQk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Five features were marked ga, but the evidence does not say they are generally available. Four cite 'we aim to ship in version...', which is a shipping plan. Layout status control cites a capability statement. Set all five to unclear.",
+    "Version numbers in the captions are garbled ('20.9 and 20.1 and send 20.9.1'). Removed version claims from the summary and key points, and dropped the quote at 377.5, which is built on that line.",
+    "Speaker plans about three themes, about eight header-footer layouts and about 50 body layouts. The demo shows four themes (calm, default, playful, standard). The key point blamed 'the documentation' for the figure of three, but it was the speaker. Corrected.",
+    "The 'Shipped themes' description says four themes ship with 20.9. The planned count is three and the version is garbled. The description can't be edited here.",
+    "The speaker says layouts can be set to retired or draft, but the demo sets 'pending approval'. Added a quote showing the layout no longer appears on the request page."
+  ],
+  "input_hash": "e79b1dd16e448a229024b299edaa8cdb82ac855274efa7f2a531fdcf0ffef3d4",
+  "by": "opus",
+  "at": "2026-10-07T22:44:21.395Z",
+  "applied": [
+    "Composite layouts for documents: status unclear",
+    "Theme application: status unclear",
+    "Header-footer layout application: status unclear",
+    "Shipped themes: status unclear",
+    "Layout status control: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 392s",
+    "quote at 682s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.128429
+  }
+}

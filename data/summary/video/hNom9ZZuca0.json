@@ -5,12 +5,12 @@
   "overview": "The video covers two additions to the AL testing framework. Data-driven testing lets a single test method run with several data sets, so coverage grows by adding data points instead of duplicating test methods. A custom data source implements an interface and returns a strongly-typed test context. The source can read from resource files, AL tables or web services. The feature is demoed in the VS Code test explorer, where individual test cases can be run and debugged.\n\nTest handlers provide setup and teardown at several levels. They come in two kinds: opt-in handlers, declared on a test codeunit through a test handlers property, and default (global) handlers that run on every test. The video also describes using handlers to skip test cases, for example to manage token consumption and AI credits.",
   "key_points": [
     "Data-driven testing runs one test method against multiple data sets, so you add data points instead of copying test methods.",
-    "A custom test data source implements an interface and returns a strongly-typed test context. It can read from resource files, AL tables or web services.",
-    "Data-driven tests work with the VS Code test explorer, including selective test case execution and debugging. They can also run through the AL tool and the AL MCP connection.",
+    "A custom test data source implements an interface with two functions: one lists the test cases and one builds the test context. It can return a strongly-typed test context and read from resource files, AL tables or web services.",
+    "Data-driven tests work with the VS Code test explorer, including selective test case execution and debugging, after the test has run once. They can also run through the AL tool and the AL MCP connection.",
     "The AI test toolkit does not use the new capabilities yet, so its tests cannot be run from VS Code. Migration is planned.",
+    "Test handlers bring back setup and teardown hooks that were lost when moving from AL test runners to platform test runners.",
     "ITestHandler has hooks before and after the test codeunit, the test procedure and each data-driven test case. All methods have default implementations, so you override only the ones you need.",
-    "Opt-in handlers are registered on a test codeunit with the test handlers property, as a comma-separated list. A test codeunit can implement ITestHandler itself.",
-    "Default test handlers run on every test without being declared. Named uses are telemetry, verifying Microsoft features and common test setup."
+    "Handlers are registered through enum extensions: extending the test handler enum gives opt-in handlers, and extending the default test handler enum gives global handlers that run on every test, including tests in other apps."
   ],
   "audience": [
     "developer"

@@ -7,10 +7,10 @@
     "The NST runs on .NET 10, so the AL runtime gets the improvements of that platform.",
     "Opening Excel files uses a streaming implementation, which lowers memory usage and avoids out-of-memory errors on large files.",
     "A recent records virtual table is exposed to AL. It lets you query and delete the recent records shown in the UI when pages open, and is otherwise read-only.",
-    "Table extension fields are stored back on the base table, which removes all joins between base and extension fields. Read, delete, update, insert and modify are up to 30 percent faster in the shown benchmark.",
-    "Indexes can be defined with enabled equal false and switched on or off at runtime, for example based on feature usage. Indexes can also span base table and extension fields.",
-    "Index management is easier to find: Tell me search (including semantic search), a manage indexes button, and a reorganized index management page.",
-    "System fields (created by/on, last modified by/on, system ID) show in analysis mode pickers, and modified by/at can be added to profiles. Telemetry tag RT 0056 records who opens data in Excel, and the permissions overview can be reached from permission sets and table information pages."
+    "Table extension fields are stored back on the base table, which removes all joins between base and extension fields. Reads are faster, and delete, update, insert and modify are up to 30 percent faster in the shown benchmark.",
+    "Indexes can be defined with enabled equal false and enabled or disabled at runtime in code, for example based on feature usage. Indexes can also span base table and extension fields.",
+    "Index management is easier to find: Tell me search (including semantic search) opens an index management list where you pick a table, and the table information page has a new manage indexes button. SIFT indexes are now listed so they can be disabled too.",
+    "System fields (created by/on, last modified by/on, system ID) show in analysis mode column pickers, and system fields such as modified by can be added to profiles in the page designer. Telemetry tag RT 0056 records who opens data in Excel, and the permissions overview can be reached from permission sets and table information pages."
   ],
   "audience": [
     "developer",

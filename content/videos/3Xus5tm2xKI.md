@@ -18,12 +18,12 @@ tags:
   - automation api
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:05.138Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,12 +38,12 @@ evidence:
     t: 23
     quote: with this release wave, we're adding the upload, install, and update operations to PTE management in the admin center, which effectively brings full life
   - kind: video
-    url: https://www.youtube.com/watch?v=3Xus5tm2xKI&t=496s
+    url: https://www.youtube.com/watch?v=3Xus5tm2xKI&t=509s
     title: "What's new: Manage PTEs in the Admin Center (2026 release wave 2)"
     date: "2026-10-01T13:04:21.000Z"
     commit: null
-    t: 496
-    quote: when you're installing new PTE, so PTEs that are new for the environment that you're installing it on, um it's important to know that
+    t: 509
+    quote: So for new PTE, it is not possible to target the next minor or next major update.
   - kind: video
     url: https://www.youtube.com/watch?v=3Xus5tm2xKI&t=522s
     title: "What's new: Manage PTEs in the Admin Center (2026 release wave 2)"
@@ -58,6 +58,13 @@ evidence:
     commit: null
     t: 555
     quote: PTE versions that are scheduled to be installed through either experience are only visible in the experience uh through which they have been scheduled
+  - kind: video
+    url: https://www.youtube.com/watch?v=3Xus5tm2xKI&t=601s
+    title: "What's new: Manage PTEs in the Admin Center (2026 release wave 2)"
+    date: "2026-10-01T13:04:21.000Z"
+    commit: null
+    t: 601
+    quote: So these S2S apps do not require in environment registration and permission sets uh to upload and install PTEES on a customer environment.
   - kind: video
     url: https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s
     title: "What's new: Manage PTEs in the Admin Center (2026 release wave 2)"
@@ -174,14 +181,17 @@ quotes:
   - t: 23
     text: with this release wave, we're adding the upload, install, and update operations to PTE management in the admin center, which effectively brings full life
     check: exact
-  - t: 496
-    text: when you're installing new PTE, so PTEs that are new for the environment that you're installing it on, um it's important to know that
+  - t: 509
+    text: So for new PTE, it is not possible to target the next minor or next major update.
     check: exact
   - t: 522
     text: PTE management in the extension management pages in an environment and in the automation API uh will be deprecated as of version 30.0 which
     check: exact
   - t: 555
     text: PTE versions that are scheduled to be installed through either experience are only visible in the experience uh through which they have been scheduled
+    check: exact
+  - t: 601
+    text: So these S2S apps do not require in environment registration and permission sets uh to upload and install PTEES on a customer environment.
     check: exact
   - t: 612
     text: we have introduced the ability for customers to install hot fixes to Microsoft apps installed on their environments early
@@ -198,7 +208,7 @@ quotes:
 
 > Managing per-tenant extensions (PTEs) in the Business Central admin center in 2026 release wave 2: upload, install, update, scheduling, cancel, audit page, early hotfix install for Microsoft apps, and dev extension persistence on sandboxes. Covers deprecation of the old extension management pages and automation API as of version 30.0 (April 2027).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=3Xus5tm2xKI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=3Xus5tm2xKI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -230,25 +240,26 @@ It then covers considerations: the old extension management pages and automation
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| PTE upload, install, and update in admin center | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |  |
-| Flexible deployment schedule for PTE installation | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |  |
-| App filtering by type in admin center | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |  |
-| Multiple concurrent PTE schedules | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |  |
-| Cancel scheduled PTE installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |  |
-| Environment operations audit page | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |  |
-| S2S app permissions for PTE management | status not stated | [9:40](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=580s) |  |
-| Early hotfix installation for Microsoft apps | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s) |  |
-| Known issues tracking for hotfixes | status not stated | [11:39](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=699s) |  |
-| Dev extensions persistence on sandbox | status not stated | [13:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=808s) |  |
+| Feature | Status | At |
+|---|---|---|
+| PTE upload, install, and update in admin center | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |
+| Flexible deployment schedule for PTE installation | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
+| App filtering by type in admin center | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
+| Multiple concurrent PTE schedules | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
+| Cancel scheduled PTE installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |
+| Environment operations audit page | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |
+| S2S app permissions for PTE management | status not stated | [9:40](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=580s) |
+| Early hotfix installation for Microsoft apps | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s) |
+| Known issues tracking for hotfixes | status not stated | [11:39](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=699s) |
+| Dev extensions persistence on sandbox | status not stated | [13:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=808s) |
 
 ## Quotes
 
 - [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) "with this release wave, we're adding the upload, install, and update operations to PTE management in the admin center, which effectively brings full life"
-- [8:16](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=496s) "when you're installing new PTE, so PTEs that are new for the environment that you're installing it on, um it's important to know that"
+- [8:29](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=509s) "So for new PTE, it is not possible to target the next minor or next major update."
 - [8:42](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=522s) "PTE management in the extension management pages in an environment and in the automation API uh will be deprecated as of version 30.0 which"
 - [9:15](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=555s) "PTE versions that are scheduled to be installed through either experience are only visible in the experience uh through which they have been scheduled"
+- [10:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=601s) "So these S2S apps do not require in environment registration and permission sets uh to upload and install PTEES on a customer environment."
 - [10:12](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s) "we have introduced the ability for customers to install hot fixes to Microsoft apps installed on their environments early"
 - [12:36](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=756s) "this is a very powerful functionality for customers that are affected by a particular fix. But it also uh bypasses our safe deployment, which"
 - [13:45](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=825s) "dev extensions by design would get uninstalled during environment life cycle operations, which in some cases led to these extensions being removed from an"

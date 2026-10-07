@@ -16,12 +16,12 @@ tags:
   - employee resources
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:18.606Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:43:18.646Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,13 @@ evidence:
     t: 63
     quote: it can happen that you have hundreds of projects and it will not be easy to find the right one you want to use
   - kind: video
+    url: https://www.youtube.com/watch?v=GwrMf1umTFg&t=93s
+    title: "What's new in Expense Agent: Project Handling (2026 release wave 2)"
+    date: "2026-10-01T13:04:01.000Z"
+    commit: null
+    t: 93
+    quote: If you do not enable, you will not see project option in your web app at all.
+  - kind: video
     url: https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s
     title: "What's new in Expense Agent: Project Handling (2026 release wave 2)"
     date: "2026-10-01T13:04:01.000Z"
@@ -84,6 +91,13 @@ evidence:
     commit: null
     t: 316
     quote: In a show billable information, you can find project I assign and project task. So, everything is here.
+  - kind: video
+    url: https://www.youtube.com/watch?v=GwrMf1umTFg&t=353s
+    title: "What's new in Expense Agent: Project Handling (2026 release wave 2)"
+    date: "2026-10-01T13:04:01.000Z"
+    commit: null
+    t: 353
+    quote: So this is now empty, but that means you you are not selected only for one because system will inherit your setup from project
 links:
   learn: []
   objects:
@@ -187,6 +201,9 @@ quotes:
   - t: 63
     text: it can happen that you have hundreds of projects and it will not be easy to find the right one you want to use
     check: exact
+  - t: 93
+    text: If you do not enable, you will not see project option in your web app at all.
+    check: exact
   - t: 106
     text: you will find assigned resources. In assigned resources, you can select resources you want to uh assign to these projects
     check: exact
@@ -199,13 +216,16 @@ quotes:
   - t: 316
     text: In a show billable information, you can find project I assign and project task. So, everything is here.
     check: exact
+  - t: 353
+    text: So this is now empty, but that means you you are not selected only for one because system will inherit your setup from project
+    check: exact
 ---
 
 # What's new in Expense Agent: Project Handling (2026 release wave 2)
 
 > Expense Agent project handling in the 2026 release wave 2: how to enable project tracking in Expense Agent setup, choose all or assigned project visibility, assign resources on the project card or task lines, and get project ledger entries when an expense report is posted.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GwrMf1umTFg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GwrMf1umTFg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -215,13 +235,13 @@ The demo goes through the setup in Business Central: enabling project tracking i
 
 ## Key points
 
-- Enable project tracking in Expense Agent setup to use projects in the web app.
-- Two visibility options: all projects (everything visible to all users) or assigned projects (limits visibility, useful with hundreds of projects or confidential projects).
-- Assigned projects needs prerequisites: create a resource for each employee, then select the resource number on the employee card.
-- The project card has a new Assigned resources section where you choose which resources can use that project.
-- Resources can also be assigned at project task line level, so an employee sees only their own tasks instead of all tasks in the project.
-- The web app shows only active projects and only tasks enabled for posting; beginning and end of period tasks are filtered out.
-- Posting an expense report with project and task assigned creates project ledger entries in Business Central.
+- Enable project tracking in Expense Agent setup to use projects in the web app; if it is not enabled, the project option does not appear in the web app at all.
+- Two visibility options: all projects (all users see all projects) or assigned projects (limits visibility, useful with hundreds of projects or confidential projects).
+- Assigned projects requires prerequisites: create a resource for each employee, then select the resource number on the employee card.
+- The project card has a new Assigned resources section where you choose which resources see that project in the web app.
+- Resources can also be assigned on project task lines so an employee sees only their assigned tasks; if task lines have no resources, the setup is inherited from the project card.
+- The web app shows only active projects and only project tasks for posting; begin-total and end-total tasks are excluded.
+- Posting an expense report with project and task assigned creates project ledger entries in Business Central, visible in the posting preview.
 
 ## Chapters
 
@@ -237,15 +257,15 @@ The demo goes through the setup in Business Central: enabling project tracking i
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Project tracking in Expense Agent web app | preview (roadmap [573259](../features/573259.md)), demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |  |
-| Project visibility options - all projects vs assigned projects | preview (roadmap [573259](../features/573259.md)), demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |  |
-| Project resource assignment on project card | preview (roadmap [573259](../features/573259.md)), demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |  |
-| Project task level resource assignment | preview (roadmap [573259](../features/573259.md)), demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |  |
-| Resource creation and employee linking prerequisites | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s) |  |
-| Active projects and posting tasks filter | status not stated, demoed | [4:25](https://www.youtube.com/watch?v=GwrMf1umTFg&t=265s) |  |
-| Project ledger entry creation on expense posting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=GwrMf1umTFg&t=22s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Project tracking in Expense Agent web app | preview (roadmap [573259](../features/573259.md)), demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |
+| Project visibility options - all projects vs assigned projects | preview (roadmap [573259](../features/573259.md)), demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |
+| Project resource assignment on project card | preview (roadmap [573259](../features/573259.md)), demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |
+| Project task level resource assignment | preview (roadmap [573259](../features/573259.md)), demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |
+| Resource creation and employee linking prerequisites | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s) |
+| Active projects and posting tasks filter | status not stated, demoed | [4:25](https://www.youtube.com/watch?v=GwrMf1umTFg&t=265s) |
+| Project ledger entry creation on expense posting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=GwrMf1umTFg&t=22s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -266,7 +286,9 @@ Not found in BC28-30: page "project card", table "project ledger entries".
 - [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) "you wanted to use projects in a web app. So, we enabled this option."
 - [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) "when you enable project tracking, you have two options. You can choose all projects or assigned projects."
 - [1:03](https://www.youtube.com/watch?v=GwrMf1umTFg&t=63s) "it can happen that you have hundreds of projects and it will not be easy to find the right one you want to use"
+- [1:33](https://www.youtube.com/watch?v=GwrMf1umTFg&t=93s) "If you do not enable, you will not see project option in your web app at all."
 - [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) "you will find assigned resources. In assigned resources, you can select resources you want to uh assign to these projects"
 - [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s) "First, you need to create a resource for your uh employees. They need to have created resource."
 - [4:12](https://www.youtube.com/watch?v=GwrMf1umTFg&t=252s) "I'm assigned only to one project. So, I can choose this one"
 - [5:16](https://www.youtube.com/watch?v=GwrMf1umTFg&t=316s) "In a show billable information, you can find project I assign and project task. So, everything is here."
+- [5:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=353s) "So this is now empty, but that means you you are not selected only for one because system will inherit your setup from project"

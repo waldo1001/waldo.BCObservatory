@@ -20,12 +20,12 @@ tags:
   - dirty state
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:35.087Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:43:35.142Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     t: 276
     quote: It's called source. And here you can now choose environment.
   - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 302
+    quote: we now have a new tool in our MCP called get next object ID. This will look at your current project the appjson
+  - kind: video
     url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=469s
     title: What's new in AL and Tools (2026 release wave 2)
     date: "2026-10-01T13:04:04.000Z"
@@ -74,6 +81,13 @@ evidence:
     commit: null
     t: 665
     quote: But now we have the ability to specify the public resource folders. This means that resources in these folders are available to anyone outside
+  - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=694s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 694
+    quote: The public resources are actually consumable without a dependency.
   - kind: video
     url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=833s
     title: What's new in AL and Tools (2026 release wave 2)
@@ -110,6 +124,34 @@ evidence:
     t: 1025
     quote: Now we've also added namespaces to our translations
   - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1111s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 1111
+    quote: read isolation is now an explicit option when reading from isolated storage so that you can state read committed with an update lock
+  - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1132s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 1132
+    quote: we no longer need to specify the tool tip if we use the run object
+  - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1173s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 1173
+    quote: These are not fields that I have created. They're part of the system fields on the record now.
+  - kind: video
+    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s
+    title: What's new in AL and Tools (2026 release wave 2)
+    date: "2026-10-01T13:04:04.000Z"
+    commit: null
+    t: 1202
+    quote: a method called is dirty on a record and a record ref that allows you to test whether a record has changed
+  - kind: video
     url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1256s
     title: What's new in AL and Tools (2026 release wave 2)
     date: "2026-10-01T13:04:04.000Z"
@@ -138,13 +180,6 @@ evidence:
     t: 1573
     quote: If we change this internal fee calculation, who can call it and which public entry points should we review?
   - kind: video
-    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1587s
-    title: What's new in AL and Tools (2026 release wave 2)
-    date: "2026-10-01T13:04:04.000Z"
-    commit: null
-    t: 1587
-    quote: Our tool will build a graph across the extension and its dependencies. And then you or your coding agent can query this.
-  - kind: video
     url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1654s
     title: What's new in AL and Tools (2026 release wave 2)
     date: "2026-10-01T13:04:04.000Z"
@@ -166,26 +201,12 @@ evidence:
     t: 1848
     quote: coding agents can now capture the performance profiles and the snapshot recordings themselves through dedicated mcp
   - kind: video
-    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=1889s
-    title: What's new in AL and Tools (2026 release wave 2)
-    date: "2026-10-01T13:04:04.000Z"
-    commit: null
-    t: 1889
-    quote: Our focus has been on the agentic experience, right? Having agents do this work for us and come up with suggestions on how to
-  - kind: video
     url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=2007s
     title: What's new in AL and Tools (2026 release wave 2)
     date: "2026-10-01T13:04:04.000Z"
     commit: null
     t: 2007
     quote: why are these called proxies this is because the actual work all happens on the server there's no snapshot or
-  - kind: video
-    url: https://www.youtube.com/watch?v=D_Lur52IrIg&t=2049s
-    title: What's new in AL and Tools (2026 release wave 2)
-    date: "2026-10-01T13:04:04.000Z"
-    commit: null
-    t: 2049
-    quote: we started with an app we wanted to extend another list of tools we found
 links:
   learn: []
   objects: []
@@ -293,49 +314,42 @@ features:
     t: 820
     verified: false
     status_source: video
-  - name: Table extension key improvements
+  - name: Namespace support in translation IDs
     status: unclear
-    t: 606
+    t: 636
     verified: false
     status_source: video
-  - name: Namespace support in translation IDs
+  - name: Mixed extension and base field SQL indexes
     status: ga
-    t: 636
+    t: 939
     verified: false
     status_source: roadmap
     roadmap_ids:
       - "573359"
-  - name: Mixed extension and base field SQL indexes
+  - name: Action tooltip inheritance from page
     status: unclear
-    t: 939
+    t: 1072
     verified: false
     status_source: video
-  - name: Action tooltip inheritance from page
+  - name: Audit name fields as system fields
     status: ga
-    t: 1072
+    t: 1150
     verified: false
     status_source: roadmap
     roadmap_ids:
       - "573313"
-  - name: Audit name fields as system fields
-    status: unclear
-    t: 1150
-    verified: false
-    status_source: video
   - name: Record.IsDirty() method
-    status: ga
+    status: unclear
     t: 1202
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573360"
+    status_source: video
   - name: Data-driven testing framework
     status: ga
     t: 1232
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573333"
+      - "573360"
   - name: Test handler interface for lifecycle hooks
     status: ga
     t: 1409
@@ -349,14 +363,14 @@ features:
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573336"
+      - "573333"
   - name: Agent-assisted production investigation
     status: ga
     t: 1827
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573335"
+      - "573336"
   - name: Launch profiling MCP proxy
     status: ga
     t: 1875
@@ -365,10 +379,12 @@ features:
     roadmap_ids:
       - "573335"
   - name: Launch snapshot MCP proxy
-    status: unclear
+    status: ga
     t: 1964
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Isolated storage explicit read isolation level
     status: unclear
     t: 1072
@@ -393,6 +409,9 @@ quotes:
   - t: 276
     text: It's called source. And here you can now choose environment.
     check: exact
+  - t: 302
+    text: we now have a new tool in our MCP called get next object ID. This will look at your current project the appjson
+    check: exact
   - t: 469
     text: Um, we also now have something new in this release which is the default implementation of this interface.
     check: exact
@@ -401,6 +420,9 @@ quotes:
     check: exact
   - t: 665
     text: But now we have the ability to specify the public resource folders. This means that resources in these folders are available to anyone outside
+    check: exact
+  - t: 694
+    text: The public resources are actually consumable without a dependency.
     check: exact
   - t: 833
     text: So we made it possible for you to switch to big integer by changing the type.
@@ -417,6 +439,18 @@ quotes:
   - t: 1025
     text: Now we've also added namespaces to our translations
     check: exact
+  - t: 1111
+    text: read isolation is now an explicit option when reading from isolated storage so that you can state read committed with an update lock
+    check: exact
+  - t: 1132
+    text: we no longer need to specify the tool tip if we use the run object
+    check: exact
+  - t: 1173
+    text: These are not fields that I have created. They're part of the system fields on the record now.
+    check: exact
+  - t: 1202
+    text: a method called is dirty on a record and a record ref that allows you to test whether a record has changed
+    check: exact
   - t: 1256
     text: we're actually adding datadriven tests so that one test method can run many scenarios
     check: exact
@@ -429,9 +463,6 @@ quotes:
   - t: 1573
     text: If we change this internal fee calculation, who can call it and which public entry points should we review?
     check: exact
-  - t: 1587
-    text: Our tool will build a graph across the extension and its dependencies. And then you or your coding agent can query this.
-    check: exact
   - t: 1654
     text: Counter to the LSP which is actually looking at the project as it is now. This is a static thing that we can do
     check: exact
@@ -441,14 +472,8 @@ quotes:
   - t: 1848
     text: coding agents can now capture the performance profiles and the snapshot recordings themselves through dedicated mcp
     check: fuzzy
-  - t: 1889
-    text: Our focus has been on the agentic experience, right? Having agents do this work for us and come up with suggestions on how to
-    check: exact
   - t: 2007
     text: why are these called proxies this is because the actual work all happens on the server there's no snapshot or
-    check: fuzzy
-  - t: 2049
-    text: we started with an app we wanted to extend another list of tools we found
     check: fuzzy
 ---
 
@@ -456,7 +481,7 @@ quotes:
 
 > What's new in AL and Tools for 2026 release wave 2: AL MCP environment symbol search and next object ID tool, project-aware AL language server over LSP, interface default implementations, public resource folders, big integer migration, namespaced translations, IsDirty, data-driven tests, test handlers, static call graph analysis, and MCP proxies for profiling and snapshots.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=D_Lur52IrIg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 34:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=D_Lur52IrIg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 34:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -466,13 +491,13 @@ It then covers language and compiler changes: default implementations on interfa
 
 ## Key points
 
-- AL symbol search has a new 'source' parameter. Set it to 'environment' to search the connected server without downloading symbols or adding dependencies. It returns the owning app for each object.
-- The new get-next-object-ID MCP tool reads the ID ranges in app.json and suggests the next free ID, so it depends on a correct app.json.
-- Interfaces can have default method implementations, so existing implementers keep compiling. New methods get a RequiredPending attribute that signals a breaking change in a future major version.
-- Public resource folders make resources available to other apps without a dependency. Access to private resources by app ID returns an error, and consumers must handle missing resources.
-- Changing a field from integer to big integer causes implicit conversion warnings. AppSource COP flags the change against the previous version, and dependent apps can overflow at runtime if they keep integer types.
-- Translations now support namespace-based keys. Namespacing existing objects requires regenerating the XLF files.
-- Static call graph analysis needs an offline extraction step first. It lists callers of a method and the public entry points to review, and it complements the live-project LSP.
+- AL symbol search has a new 'source' parameter. Set it to 'environment' to search the connected server without downloading symbols or adding dependencies. It returns the owning app and version for each object.
+- The new get next object ID MCP tool reads the ID ranges defined in the project's app.json and suggests free IDs.
+- Interfaces can have default method implementations, so existing implementers keep compiling. New methods get a RequiredPending attribute that tells consumers the method will become mandatory, for example in a future major version.
+- Public resource folders make resources available to other apps without a dependency. Requesting a private or missing resource by provider app ID returns an error, so be careful about hard dependencies on other apps' public resources.
+- Changing a field from integer to big integer keeps existing rows, but causes implicit conversion warnings. AppSource COP flags the change against the previous version, and dependent apps can overflow at runtime if they keep integer types.
+- With the translation with namespaces option in app.json, generated XLF files use fully qualified names as IDs instead of name-based hash keys, which avoids collisions between same-named objects in different namespaces.
+- Static call graph analysis (graph command in the AL tool) needs an offline extraction step first. It lists callers of a method and the public entry points to review, and it complements the live-project LSP.
 
 ## Chapters
 
@@ -494,28 +519,27 @@ It then covers language and compiler changes: default implementations on interfa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AL MCP (AL Management Control Platform) | generally available (roadmap [573339](../features/573339.md), [573346](../features/573346.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |  |
-| AL language server with project awareness | generally available (roadmap [573338](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |  |
-| Symbol search with environment source parameter | generally available (roadmap [573339](../features/573339.md)), demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |  |
-| Get next object ID tool in AL MCP | generally available (roadmap [573346](../features/573346.md)), demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |  |
-| Interface default implementations | generally available (roadmap [573352](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |  |
-| Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |  |
-| Big integer field type migration | status not stated, demoed | [13:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=820s) |  |
-| Table extension key improvements | status not stated | [10:06](https://www.youtube.com/watch?v=D_Lur52IrIg&t=606s) |  |
-| Namespace support in translation IDs | generally available (roadmap [573359](../features/573359.md)), demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |  |
-| Mixed extension and base field SQL indexes | status not stated, demoed | [15:39](https://www.youtube.com/watch?v=D_Lur52IrIg&t=939s) |  |
-| Action tooltip inheritance from page | generally available (roadmap [573313](../features/573313.md)), demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |  |
-| Audit name fields as system fields | status not stated, demoed | [19:10](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1150s) |  |
-| Record.IsDirty() method | generally available (roadmap [573360](../features/573360.md)), demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |  |
-| Data-driven testing framework | generally available (roadmap [573333](../features/573333.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |  |
-| Test handler interface for lifecycle hooks | generally available (roadmap [573333](../features/573333.md)), demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |  |
-| Static call graph analysis | generally available (roadmap [573336](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |  |
-| Agent-assisted production investigation | generally available (roadmap [573335](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |  |
-| Launch profiling MCP proxy | generally available (roadmap [573335](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |  |
-| Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |  |
-| Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AL MCP (AL Management Control Platform) | generally available (roadmap [573339](../features/573339.md), [573346](../features/573346.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
+| AL language server with project awareness | generally available (roadmap [573338](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |
+| Symbol search with environment source parameter | generally available (roadmap [573339](../features/573339.md)), demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
+| Get next object ID tool in AL MCP | generally available (roadmap [573346](../features/573346.md)), demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |
+| Interface default implementations | generally available (roadmap [573352](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |
+| Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |
+| Big integer field type migration | status not stated, demoed | [13:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=820s) |
+| Namespace support in translation IDs | status not stated, demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |
+| Mixed extension and base field SQL indexes | generally available (roadmap [573359](../features/573359.md)), demoed | [15:39](https://www.youtube.com/watch?v=D_Lur52IrIg&t=939s) |
+| Action tooltip inheritance from page | status not stated, demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
+| Audit name fields as system fields | generally available (roadmap [573313](../features/573313.md)), demoed | [19:10](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1150s) |
+| Record.IsDirty() method | status not stated, demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |
+| Data-driven testing framework | generally available (roadmap [573360](../features/573360.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |
+| Test handler interface for lifecycle hooks | generally available (roadmap [573333](../features/573333.md)), demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |
+| Static call graph analysis | generally available (roadmap [573333](../features/573333.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
+| Agent-assisted production investigation | generally available (roadmap [573336](../features/573336.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
+| Launch profiling MCP proxy | generally available (roadmap [573335](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
+| Launch snapshot MCP proxy | generally available (roadmap [573335](../features/573335.md)), demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
+| Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -539,25 +563,28 @@ Not found in BC28-30: interface "Calculate Fee", table "Customer Ledger Entry", 
 - [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) "We have the ALMCP that we launched uh in the last release and that gives AI agents real tools to work with your AL"
 - [2:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=122s) "In this wave, an agent can search the connected environment and get back not just the object but the app that owns it uh"
 - [4:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=276s) "It's called source. And here you can now choose environment."
+- [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) "we now have a new tool in our MCP called get next object ID. This will look at your current project the appjson"
 - [7:49](https://www.youtube.com/watch?v=D_Lur52IrIg&t=469s) "Um, we also now have something new in this release which is the default implementation of this interface."
 - [7:59](https://www.youtube.com/watch?v=D_Lur52IrIg&t=479s) "So now you don't have to implement a method in an interface if there is a default implementation. This is critical for allowing you"
 - [11:05](https://www.youtube.com/watch?v=D_Lur52IrIg&t=665s) "But now we have the ability to specify the public resource folders. This means that resources in these folders are available to anyone outside"
+- [11:34](https://www.youtube.com/watch?v=D_Lur52IrIg&t=694s) "The public resources are actually consumable without a dependency."
 - [13:53](https://www.youtube.com/watch?v=D_Lur52IrIg&t=833s) "So we made it possible for you to switch to big integer by changing the type."
 - [13:53](https://www.youtube.com/watch?v=D_Lur52IrIg&t=833s) "we made it possible for you to switch to big integer by changing the type"
 - [15:01](https://www.youtube.com/watch?v=D_Lur52IrIg&t=901s) "to a big integer and we have to be mindful that this will or can cause overflow at runtime"
 - [15:50](https://www.youtube.com/watch?v=D_Lur52IrIg&t=950s) "we can now mix our base uh field with our extension field and get a nice index that is uh very useful"
 - [17:05](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1025s) "Now we've also added namespaces to our translations"
+- [18:31](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1111s) "read isolation is now an explicit option when reading from isolated storage so that you can state read committed with an update lock"
+- [18:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1132s) "we no longer need to specify the tool tip if we use the run object"
+- [19:33](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1173s) "These are not fields that I have created. They're part of the system fields on the record now."
+- [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) "a method called is dirty on a record and a record ref that allows you to test whether a record has changed"
 - [20:56](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1256s) "we're actually adding datadriven tests so that one test method can run many scenarios"
 - [24:21](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1461s) "There are several things that you can do in the test handler. If we go and look at the interface, we can see on"
 - [26:13](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1573s) "we have added a static call graph analysis. And that means that our tool will build a graph across the extension and its dependencies"
 - [26:13](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1573s) "If we change this internal fee calculation, who can call it and which public entry points should we review?"
-- [26:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1587s) "Our tool will build a graph across the extension and its dependencies. And then you or your coding agent can query this."
 - [27:34](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1654s) "Counter to the LSP which is actually looking at the project as it is now. This is a static thing that we can do"
 - [29:12](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1752s) "This is important because we have methods in our code that we want to protect that we want to somehow understand what the call"
 - [30:48](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1848s) "coding agents can now capture the performance profiles and the snapshot recordings themselves through dedicated mcp"
-- [31:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1889s) "Our focus has been on the agentic experience, right? Having agents do this work for us and come up with suggestions on how to"
 - [33:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=2007s) "why are these called proxies this is because the actual work all happens on the server there's no snapshot or"
-- [34:09](https://www.youtube.com/watch?v=D_Lur52IrIg&t=2049s) "we started with an app we wanted to extend another list of tools we found"
 
 ## Disclaimers in the video
 

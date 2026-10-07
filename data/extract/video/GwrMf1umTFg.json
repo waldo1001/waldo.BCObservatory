@@ -260,6 +260,12 @@
       "check": "exact"
     },
     {
+      "t": 93.1,
+      "text": "If you do not enable, you will not see project option in your web app at all.",
+      "why_it_matters": "Shows that project tracking must be enabled in setup before projects appear in the web app.",
+      "check": "exact"
+    },
+    {
       "t": 106.5,
       "text": "you will find assigned resources. In assigned resources, you can select resources you want to uh assign to these projects",
       "why_it_matters": "Describes the new assigned resources section on the project card that enables administrator control over who can see which projects.",
@@ -281,6 +287,12 @@
       "t": 316.1,
       "text": "In a show billable information, you can find project I assign and project task. So, everything is here.",
       "why_it_matters": "Shows that project and project task details are visible in the billable information section of the expense posting preview.",
+      "check": "exact"
+    },
+    {
+      "t": 353.5,
+      "text": "So this is now empty, but that means you you are not selected only for one because system will inherit your setup from project",
+      "why_it_matters": "Explains that task lines with no assigned resources inherit their assignment from the project card.",
       "check": "exact"
     }
   ],

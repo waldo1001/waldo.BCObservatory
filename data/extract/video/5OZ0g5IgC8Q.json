@@ -295,6 +295,12 @@
       "check": "exact"
     },
     {
+      "t": 762,
+      "text": "Remember that we decided that we don't want to review, but this is a important situation, so we have to.",
+      "why_it_matters": "Shows that review is forced on a tax rate mismatch even when the review setting is Never.",
+      "check": "exact"
+    },
+    {
       "t": 772.4,
       "text": "Why serious? Because the rate in Shopify is different at the rate in Business Central. So, if we create order and use configuration which",
       "why_it_matters": "Illustrates the core validation problem: rate mismatches cause document totals to diverge between systems.",

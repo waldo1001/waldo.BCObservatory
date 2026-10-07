@@ -16,12 +16,12 @@ tags:
   - approval workflow
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:42:53.157Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:42:53.196Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,7 +34,7 @@ evidence:
     date: "2026-10-01T15:00:15.000Z"
     commit: null
     t: 219
-    quote: The new APIs are easiest to find them is to go to the new API overview page that we are also shipping here in
+    quote: go to the new API overview page that we are also shipping here in version 29
   - kind: video
     url: https://www.youtube.com/watch?v=2N2NhNH7dsk&t=31s
     title: "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)"
@@ -191,7 +191,7 @@ quotes:
 
 > Business Central 2026 release wave 2 reporting: administrators can set layout status (draft, pending approval, approved, retired) on report layouts, including app-supplied and Microsoft layouts, and new report inbox APIs let agents and automation work with scheduled reports and report packs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2N2NhNH7dsk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2N2NhNH7dsk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -202,11 +202,11 @@ The second change is a set of report inbox APIs. The report inbox holds schedule
 ## Key points
 
 - Layout status values are draft, pending approval, approved and retired, set from the Layout Status menu on the report layout page.
-- Layout status now covers app-supplied layouts (AppSource ISV apps, Microsoft layouts), not only user-defined layouts. This was added to user-defined layouts in 2026 release wave 1.
-- Users only see approved layouts in the report layout control on the request page. Administrators can still run any layout from the report layout page.
-- Administrators can override a developer-supplied layout description with their own comment, shown on the report layout page and to users. This was not demoed.
+- Layout status now covers app-supplied layouts (AppSource ISV apps, Microsoft layouts), not only user-defined layouts. Status for user-defined layouts was added in 2026 release wave 1.
+- Users only see approved layouts in the report layout control on the request page. Administrators can still run any layout, including retired ones, from the report layout page.
+- Administrators can override a developer-supplied layout summary or description with their own comment, shown on the report layout page and to users.
 - Report inbox APIs let agents and automation work with scheduled reports and report packs, via Power Platform, MCP servers, Copilot Studio or any tool that calls APIs.
-- The new API overview page in version 29 lists the report inbox API names and URLs.
+- The new API overview page shipping in version 29 lists the report inbox API names and URLs (search for report inbox).
 
 ## Chapters
 
@@ -228,7 +228,7 @@ The second change is a set of report inbox APIs. The report inbox holds schedule
 | Layout administrator control of user visibility | generally available (roadmap [573320](../features/573320.md)), demoed | [1:40](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=100s) |  |
 | Developer comment override for layouts | status not stated | [2:28](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=148s) |  |
 | Report inbox APIs | generally available (roadmap [573318](../features/573318.md)) | [3:03](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=183s) |  |
-| API overview page for report inbox | generally available | [3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s) | "The new APIs are easiest to find them is to go to the new API overview page that we are also shipping here in" ([3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s)) |
+| API overview page for report inbox | generally available | [3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s) | "go to the new API overview page that we are also shipping here in version 29" ([3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

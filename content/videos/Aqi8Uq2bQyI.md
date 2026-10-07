@@ -16,12 +16,12 @@ tags:
   - automation agents
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:09.127Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:09.166Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 73
     quote: it's now fully localized. Every user-facing string is translated, all steps, error messages, tooltips
+  - kind: video
+    url: https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=85s
+    title: What's new in Page Scripting  (2026 release wave 2)
+    date: "2026-10-01T13:04:08.000Z"
+    commit: null
+    t: 85
+    quote: we made a pass on accessibility and usability, as well as some feedback on look and feel.
   - kind: video
     url: https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s
     title: What's new in Page Scripting  (2026 release wave 2)
@@ -164,6 +171,9 @@ quotes:
   - t: 73
     text: it's now fully localized. Every user-facing string is translated, all steps, error messages, tooltips
     check: exact
+  - t: 85
+    text: we made a pass on accessibility and usability, as well as some feedback on look and feel.
+    check: exact
   - t: 111
     text: we have support for multiple selection in grids, so that you can record selecting several rows in a list and run bulk actions
     check: exact
@@ -179,7 +189,7 @@ quotes:
 
 > Page scripting in Business Central (2026 release wave 2): the tool for recording and replaying user actions in the web client moves from preview to generally available. The video covers full localization, multi-row selection in grids, validation of message and error text, and agent-generated scripts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Aqi8Uq2bQyI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 2:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Aqi8Uq2bQyI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 2:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,10 +201,11 @@ The release adds full localization (steps, error messages and tooltips), recordi
 
 - Page scripting moves from preview to generally available in 2026 release wave 2.
 - The tool records and replays user actions in the web client, aimed at customers and consultants for testing and user acceptance testing.
-- All user-facing strings are now translated, including steps, error messages and tooltips.
-- Multiple selection in grids can be recorded, so you can select several rows in a list and run bulk actions (demoed).
-- You can validate the text of a message or error dialogue during a recording, so the recording acts as a real assertion and not only a sequence of clicks (demoed).
-- Agents can be used to generate page scripts and run them automatically; this was mentioned as a generative, agent-based approach.
+- All user-facing strings are now translated, including steps, error messages and tooltips; hard-coded strings were updated, and the tool is described as ready for broad production use across all languages.
+- A pass was made on accessibility, usability and look and feel.
+- Multiple selection in grids can be recorded, so you can select several rows in a list, run bulk actions and replay them.
+- You can validate the text of a message or error dialogue during a recording, so the recording acts as a real assertion and not only a sequence of clicks (an error message validation is shown).
+- Since launch, it has also become possible to use agents to try to generate page scripts and run them.
 
 ## Chapters
 
@@ -223,6 +234,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [0:31](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=31s) "empowering customers and consultants to create tests in a more agile, quicker, and cost-effective way"
 - [1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s) "in this release, we are now moving the page scripting from preview into making it generally available"
 - [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) "it's now fully localized. Every user-facing string is translated, all steps, error messages, tooltips"
+- [1:25](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=85s) "we made a pass on accessibility and usability, as well as some feedback on look and feel."
 - [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) "we have support for multiple selection in grids, so that you can record selecting several rows in a list and run bulk actions"
 - [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) "you can now validate the text shown in a message or in an error dialogue to actually assess when that happens"
 - [2:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=133s) "that turns the recording into actually a real assertion, not just a sequence of clicks"

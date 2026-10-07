@@ -1,0 +1,23 @@
+{
+  "video_id": "KNy2KujjheU",
+  "item_id": "video/yt-microsoft/KNy2KujjheU",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim. The t=195.5 quote runs on into segment 208.8, which is allowed.",
+    "The captions write 'export' as 'expert' in several places. These are verbatim ASR errors, so the quotes stay as they are.",
+    "Feature statuses are left as unclear. The speaker says 'delivered in this release' but does not clearly state preview or GA for each feature.",
+    "The summary and key points match the transcript: under 1% failure rate, exports listed on the operations page, the history page retiring, and the endpoint deprecated after API 2.29 with migration to the environment operations API."
+  ],
+  "input_hash": "06c8a1f30d2e9a80bc12f0f6403804a6ce16036f392f457f5370332cf3949e82",
+  "by": "opus",
+  "at": "2026-10-07T22:43:23.148Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045433
+  }
+}

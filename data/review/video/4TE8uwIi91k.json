@@ -1,0 +1,37 @@
+{
+  "video_id": "4TE8uwIi91k",
+  "item_id": "video/yt-microsoft/4TE8uwIi91k",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All feature evidence quotes were the 4-word span 'it's still in preview', which is below the 8-word minimum. Each was also pinned to a segment that does not contain it. The phrase only appears at t 359.9. I replaced them with a longer verbatim span at 359.9.",
+    "The preview statement covers the whole mobile app, so marking each demoed feature as preview is reasonable.",
+    "The speaker corrected 'per diem' to 'rate' at t 193.2, so the mileage calculation is a mileage rate, not a per diem rate. I fixed the key point. The mileage feature description still says per diem.",
+    "The transcript says 'Expensify agent' in places. That is a caption mishearing of Expense Agent. The quotes keep it because they must stay verbatim.",
+    "Added availability details: iOS and Android downloads, and the need for a Business Central environment that supports the Expense Agent."
+  ],
+  "input_hash": "9df178ff695ceca883770da2ee181c54ab6c9bd159ea23cbdc61272fd23bf238",
+  "by": "opus",
+  "at": "2026-10-07T22:43:07.495Z",
+  "applied": [
+    "Receipt scanning with auto capture: status preview",
+    "Bulk receipt upload: status preview",
+    "Gallery share functionality for receipts: status preview",
+    "Mileage expense creation on mobile: status preview",
+    "Offline mode for receipt handling: status preview",
+    "Expense submission on mobile: status preview",
+    "Expense approval on mobile: status preview",
+    "Expense categorization and agent processing: status preview",
+    "quote at 316s",
+    "quote at 381s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.083113
+  }
+}

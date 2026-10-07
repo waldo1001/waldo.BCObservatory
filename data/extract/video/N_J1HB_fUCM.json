@@ -86,8 +86,8 @@
       "name": "Bonded location support for excise taxes",
       "description": "New feature allowing locations to be marked as bonded locations where excise duties are not calculated on inbound receipt but only when goods are released from the bonded location.",
       "status": "announced",
-      "status_evidence_t": 104.2,
-      "status_evidence_quote": "This is something what is coming in November minor, two new features.",
+      "status_evidence_t": 150.8,
+      "status_evidence_quote": "Uh again, it will it will be delivered in November, but this is completely new functionality.",
       "status_evidence_verified": true,
       "t_start": 104.2,
       "t_end": 139.9,
@@ -127,8 +127,8 @@
       "name": "Ad valorem excise tax calculation",
       "description": "New ad valorem calculation model for excise taxes where duties are calculated as a percentage of taxable amount rather than per volume, quantity, or weight.",
       "status": "announced",
-      "status_evidence_t": 214.8,
-      "status_evidence_quote": "So now you will have new model ad valorem, where you have formula here with excise will be calculated using percent on a taxable",
+      "status_evidence_t": 258.4,
+      "status_evidence_quote": "So, this is what is coming in November. What else we have?",
       "status_evidence_verified": true,
       "t_start": 189.1,
       "t_end": 242.6,
@@ -147,10 +147,10 @@
     {
       "name": "Hybrid excise tax calculation model",
       "description": "Combined calculation model for excise taxes that applies both specific and ad valorem components, allowing fees based on weight plus a percentage of taxable amount.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 258.4,
+      "status_evidence_quote": "So, this is what is coming in November. What else we have?",
+      "status_evidence_verified": true,
       "t_start": 229.3,
       "t_end": 258.4,
       "is_demoed": false,
@@ -243,26 +243,6 @@
         "compliance"
       ],
       "system": "finance"
-    },
-    {
-      "name": "Verwaltungs-BPjecto (Very FAct 2) in Spain GA",
-      "description": "Spanish e-invoicing requirement now generally available, with documentation available and standalone installation via AppSource for those who uninstall the feature.",
-      "status": "ga",
-      "status_evidence_t": 475.9,
-      "status_evidence_quote": "Very fact two enablement in Spain is now in GA",
-      "status_evidence_verified": true,
-      "t_start": 462.2,
-      "t_end": 486.2,
-      "is_demoed": false,
-      "caveats": [
-        "Mandatory from beginning of next year"
-      ],
-      "tags": [
-        "localization",
-        "spain",
-        "e-invoicing"
-      ],
-      "system": "localization"
     },
     {
       "name": "Invoicing for France GA",

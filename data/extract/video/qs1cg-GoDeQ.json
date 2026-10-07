@@ -251,6 +251,12 @@
       "check": "exact"
     },
     {
+      "t": 278,
+      "text": "if it compiles a query and it fails, the compilation messages you get is directly from our compiler, right?",
+      "why_it_matters": "Shows how the agent fixes its own failed queries using messages from the AL compiler.",
+      "check": "exact"
+    },
+    {
       "t": 305.8,
       "text": "since this data is based on queries that also means that this tool can basically has the power of queries and the limitations of",
       "why_it_matters": "States a fundamental constraint - data tools inherit both capabilities and limitations of AL queries.",

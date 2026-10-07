@@ -17,12 +17,12 @@ tags:
   - permissions
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:21.436Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:44:21.479Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -230,7 +230,7 @@ quotes:
 
 > Business Central Fabric mirroring, shown as coming in public preview in version 29.x (likely 29.1): live sync of BC tables to OneLake as Delta Parquet, queried via a SQL endpoint. Covers the three-step setup, Power BI apps on Fabric, sync logs, six APIs and permission sets.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kOCiyVql0go) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kOCiyVql0go) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

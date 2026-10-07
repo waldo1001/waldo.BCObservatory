@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/12306",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Warn before releasing a purchase order that was already sent electronically",
+  "url": "https://github.com/microsoft/BCApps/pull/12306",
+  "published_at": "2026-10-07T21:58:39Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T22:42:12.892Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T22:42:35.309Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T22:42:45.212Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003673
+    },
+    "linked": {
+      "at": "2026-10-07T22:42:45.444Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ad9b529a78c818ba25c24aecd093442a6c7a3852"
+    },
+    "published": {
+      "at": "2026-10-07T22:42:45.449Z",
+      "path": "content/changes/bcapps/12306.md"
+    }
+  },
+  "input_hash": "f18567dc08e2bd162bf192e1da4d714b57eb099f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12306,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "warn before releasing a purchase order that was already sent electronically"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "474a07f10399e33fb4397313ee0567117f12dffacd6fa23f790b182a297592fb"
+}

@@ -1,0 +1,35 @@
+{
+  "video_id": "N_J1HB_fUCM",
+  "item_id": "video/yt-microsoft/N_J1HB_fUCM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The feature name 'Verwaltungs-BPjecto (Very FAct 2) in Spain GA' is garbled and not in the transcript, which says 'very fact two'. Fields cannot rename a feature, so it is dropped. Spain GA is still covered in the summary, key points and quote 475.9.",
+    "Spain feature evidence_t was 462.2, but the GA quote starts at 475.9.",
+    "Ad valorem evidence was given t 189.1, but that quote starts at 214.8 and does not state a status. Replaced with the 'coming in November' statement at 258.4.",
+    "Summary called it 'Verifactu-style', which is outside knowledge. The transcript only says 'very fact two'.",
+    "Hybrid model and bonded location statuses are supported as announced (November) by segments 258.4 and 150.8.",
+    "Minor: PEPPOL for self-billing is said at 315.1, not 292.3. Cross environment master data starts at 331.1, and the chapter boundaries are shifted by one segment. Left as is.",
+    "Payment terms, Intrastat and Swiss QR are described as 'already inside', which does not state preview or GA, so their status stays unclear."
+  ],
+  "input_hash": "4eb89c347642d860377d7feb55a474926bfd6d158e9760da612ad8fa90cd315b",
+  "by": "opus",
+  "at": "2026-10-07T22:43:53.469Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Ad valorem excise tax calculation: status announced",
+    "Hybrid excise tax calculation model: status announced",
+    "Bonded location support for excise taxes: status announced",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status EU BP audit file export for Germany -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12411699999999999
+  }
+}

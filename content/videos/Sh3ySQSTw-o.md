@@ -20,12 +20,12 @@ tags:
   - telemetry
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:41.717Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:43:41.759Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,6 +74,13 @@ evidence:
     commit: null
     t: 413
     quote: we can now add an index that spans both the base table and your extension fields
+  - kind: video
+    url: https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s
+    title: "What's new: Server and Database (2026 release wave 2)"
+    date: "2026-10-01T13:03:24.000Z"
+    commit: null
+    t: 447
+    quote: you can now use system fields uh in analysis mode and also in profiles.
   - kind: video
     url: https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=725s
     title: "What's new: Server and Database (2026 release wave 2)"
@@ -224,6 +231,9 @@ quotes:
   - t: 413
     text: we can now add an index that spans both the base table and your extension fields
     check: exact
+  - t: 447
+    text: you can now use system fields uh in analysis mode and also in profiles.
+    check: exact
   - t: 725
     text: we have had an ask for adding telemetry on who did open in Excel. the like the the best fraud example I can come
     check: exact
@@ -233,7 +243,7 @@ quotes:
 
 > Server and database changes in the 2026 release wave 2: AL runtime on .NET 10, streaming Excel import, a recent records virtual table, zero-join table extensions (up to 30 percent faster), index management changes, system fields in analysis mode and profiles, permissions overview navigation, and telemetry RT 0056 for Excel exports.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Sh3ySQSTw-o) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 13:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Sh3ySQSTw-o) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 13:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -246,10 +256,10 @@ The main part covers the table extension data model. Extension fields are stored
 - The NST runs on .NET 10, so the AL runtime gets the improvements of that platform.
 - Opening Excel files uses a streaming implementation, which lowers memory usage and avoids out-of-memory errors on large files.
 - A recent records virtual table is exposed to AL. It lets you query and delete the recent records shown in the UI when pages open, and is otherwise read-only.
-- Table extension fields are stored back on the base table, which removes all joins between base and extension fields. Read, delete, update, insert and modify are up to 30 percent faster in the shown benchmark.
-- Indexes can be defined with enabled equal false and switched on or off at runtime, for example based on feature usage. Indexes can also span base table and extension fields.
-- Index management is easier to find: Tell me search (including semantic search), a manage indexes button, and a reorganized index management page.
-- System fields (created by/on, last modified by/on, system ID) show in analysis mode pickers, and modified by/at can be added to profiles. Telemetry tag RT 0056 records who opens data in Excel, and the permissions overview can be reached from permission sets and table information pages.
+- Table extension fields are stored back on the base table, which removes all joins between base and extension fields. Reads are faster, and delete, update, insert and modify are up to 30 percent faster in the shown benchmark.
+- Indexes can be defined with enabled equal false and enabled or disabled at runtime in code, for example based on feature usage. Indexes can also span base table and extension fields.
+- Index management is easier to find: Tell me search (including semantic search) opens an index management list where you pick a table, and the table information page has a new manage indexes button. SIFT indexes are now listed so they can be disabled too.
+- System fields (created by/on, last modified by/on, system ID) show in analysis mode column pickers, and system fields such as modified by can be added to profiles in the page designer. Telemetry tag RT 0056 records who opens data in Excel, and the permissions overview can be reached from permission sets and table information pages.
 
 ## Chapters
 
@@ -266,20 +276,20 @@ The main part covers the table extension data model. Extension fields are stored
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| .NET 10 runtime | status not stated | [0:33](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=33s) |  |
-| Streaming-based Excel import | status not stated | [0:46](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=46s) |  |
-| Recent records virtual table | status not stated | [1:10](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=70s) |  |
-| Optimized table extensions data model - zero-join | generally available (roadmap [573332](../features/573332.md)), demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |  |
-| Table extension performance gains | generally available (roadmap [573332](../features/573332.md)), demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |  |
-| Index management improvements | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=227s) |  |
-| Runtime-controlled index enablement | generally available (roadmap [573314](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |  |
-| Cross-table indexes | generally available (roadmap [573315](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |  |
-| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |  |
-| System fields in profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |  |
-| Permissions overview navigation | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=605s) |  |
-| Telemetry for Excel export audit | generally available (roadmap [573317](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |  |
+| Feature | Status | At |
+|---|---|---|
+| .NET 10 runtime | status not stated | [0:33](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=33s) |
+| Streaming-based Excel import | status not stated | [0:46](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=46s) |
+| Recent records virtual table | status not stated | [1:10](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=70s) |
+| Optimized table extensions data model - zero-join | generally available (roadmap [573332](../features/573332.md)), demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |
+| Table extension performance gains | generally available (roadmap [573332](../features/573332.md)), demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |
+| Index management improvements | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=227s) |
+| Runtime-controlled index enablement | generally available (roadmap [573314](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |
+| Cross-table indexes | generally available (roadmap [573315](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |
+| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |
+| System fields in profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |
+| Permissions overview navigation | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=605s) |
+| Telemetry for Excel export audit | generally available (roadmap [573317](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -300,6 +310,7 @@ Not found in BC28-30: table "GL Entry".
 - [3:15](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=195s) "will be up to uh 30% faster. You can see uh the different um numbers here from our benchmark"
 - [4:42](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=282s) "you can both find in normal tellme by searching indexes or you can use the advanced one via semantic search and you will now"
 - [6:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=413s) "we can now add an index that spans both the base table and your extension fields"
+- [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) "you can now use system fields uh in analysis mode and also in profiles."
 - [12:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=725s) "we have had an ask for adding telemetry on who did open in Excel. the like the the best fraud example I can come"
 
 Presenters (as heard): Kenny Pabidan, Mascot.

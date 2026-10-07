@@ -16,12 +16,12 @@ tags:
   - recommendations engine
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:41.222Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:41.258Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 130
     quote: Copilot provided me the answers true to my question. Specifically, probably the Rome guest chair uh and maybe Sydney swivel chair.
+  - kind: video
+    url: https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=165s
+    title: "What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)"
+    date: "2026-10-01T13:03:20.000Z"
+    commit: null
+    t: 165
+    quote: Copilot gives me some recommendations to bundle those items together, maybe promote some underperforming uh color variants,
   - kind: video
     url: https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=205s
     title: "What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)"
@@ -161,6 +168,9 @@ quotes:
   - t: 130
     text: Copilot provided me the answers true to my question. Specifically, probably the Rome guest chair uh and maybe Sydney swivel chair.
     check: exact
+  - t: 165
+    text: Copilot gives me some recommendations to bundle those items together, maybe promote some underperforming uh color variants,
+    check: exact
   - t: 205
     text: Copilot is now accessing my uh calendar and finding a meeting with my customer.
     check: exact
@@ -173,7 +183,7 @@ quotes:
 
 > Microsoft Copilot Chat built into Business Central (2026 release wave 2), shown in a 5-minute demo: sales tax setup, finding underperforming items, sales improvement suggestions, calendar-based meeting prep with a sales brief, and general directions help.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=TSLXzbeyE7Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 5:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=TSLXzbeyE7Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 5:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -184,12 +194,12 @@ The demo covers setting up sales tax for a state such as Oregon using data pulle
 ## Key points
 
 - Copilot Chat is built directly into Business Central and handles several business scenarios in one chat.
-- Sales tax setup: Copilot pulls data from the internet to guide state-specific setup, for example Oregon. This needs internet connectivity.
-- Sales analysis: Copilot finds items that sold the least in the last 3 months. Reasoning over data can take longer to process.
-- Improvement suggestions for weak items include bundling items, promoting color variants, and cross-selling.
-- Meeting prep: Copilot accesses the user's calendar to find a customer meeting, which requires calendar access permissions.
-- The generated sales brief includes sales figures, sales momentum, account risk assessment, and recommended talking points.
-- Copilot also answers general knowledge questions such as directions and travel, outside Business Central scope.
+- Sales tax setup: Copilot pulls data from the internet and other sources to guide state-specific setup. For Oregon the setup differs because the sales tax rate is zero.
+- Copilot suggests follow-up questions, such as working out the correct ZIP codes for California.
+- Sales analysis: Copilot reasons over Business Central data to find the items that sold the least in the last 3 months. This can take a little longer.
+- Suggestions for weak items include bundling them, promoting underperforming color variants, and cross-selling during existing sales.
+- Meeting prep: Copilot accesses the user's calendar to find a customer meeting, then pulls Business Central data related to that customer.
+- The generated sales brief includes sales figures, sales momentum, account risk, and recommended talking points.
 
 ## Chapters
 
@@ -204,15 +214,15 @@ The demo covers setting up sales tax for a state such as Oregon using data pulle
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |  |
-| Sales tax configuration assistance | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=42s) |  |
-| Sales data analysis with Copilot | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=117s) |  |
-| Copilot recommendations for sales improvement | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=154s) |  |
-| Calendar integration for meeting preparation | status not stated, demoed | [3:25](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=205s) |  |
-| Sales brief generation | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=228s) |  |
-| General knowledge and directions assistance | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=267s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |
+| Sales tax configuration assistance | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=42s) |
+| Sales data analysis with Copilot | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=117s) |
+| Copilot recommendations for sales improvement | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=154s) |
+| Calendar integration for meeting preparation | status not stated, demoed | [3:25](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=205s) |
+| Sales brief generation | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=228s) |
+| General knowledge and directions assistance | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=267s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -222,6 +232,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [0:56](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=56s) "Copilot pulls data from the internet and from various other sources and provides all the answers I need."
 - [1:57](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=117s) "We are looking for items that sold uh the least in the last 3 months."
 - [2:10](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=130s) "Copilot provided me the answers true to my question. Specifically, probably the Rome guest chair uh and maybe Sydney swivel chair."
+- [2:45](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=165s) "Copilot gives me some recommendations to bundle those items together, maybe promote some underperforming uh color variants,"
 - [3:25](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=205s) "Copilot is now accessing my uh calendar and finding a meeting with my customer."
 - [3:59](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=239s) "Copilot prepared a sales brief with some additional sales figures and information I need for the meeting."
 

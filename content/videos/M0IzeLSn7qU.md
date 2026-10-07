@@ -14,18 +14,25 @@ tags:
   - delegated approvers
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:27.853Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:27.894Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 9976876a0aeaf664f69a05ce01140b513466500d61a3faaeb80e4b48bc9ef559
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s
+    title: "Better approval messaging: announced"
+    date: "2026-10-01T13:03:39.000Z"
+    commit: null
+    t: 468
+    quote: some other approvals again uh coming from uh November 29.1. Better messaging during approval process.
   - kind: video
     url: https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s
     title: "Approval limits: announced"
@@ -146,9 +153,9 @@ features:
     verified: false
     status_source: video
   - name: Better approval messaging
-    status: unclear
+    status: announced
     t: 468
-    verified: false
+    verified: true
     status_source: video
   - name: Approval limits
     status: announced
@@ -199,7 +206,7 @@ quotes:
 
 > Expense Agent approval improvements in the 2026 release wave 2: AI-driven approval policies, approval history and audit trail, manual employee compliance checks, and approval features listed for the November 29.1 release (interim approvers, approval limits, alternate and delegated approvers). Includes caveats on AI token use and approval-limit levels.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=M0IzeLSn7qU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=M0IzeLSn7qU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 10:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -237,7 +244,7 @@ The second half covers features described as coming in the November release (29.
 | Enhanced approval history and audit trail | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=204s) |  |
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
 | Interim approvers | status not stated | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
-| Better approval messaging | status not stated | [7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s) |  |
+| Better approval messaging | announced | [7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s) | "some other approvals again uh coming from uh November 29.1. Better messaging during approval process." ([7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s)) |
 | Approval limits | announced | [8:12](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=492s) | "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000" ([8:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s)) |
 | Ad hoc alternate approvers | status not stated | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |
 | Planned alternate approvers | status not stated | [9:46](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=586s) |  |

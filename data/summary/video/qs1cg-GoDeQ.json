@@ -4,13 +4,13 @@
   "summary": "Business Central MCP server data tools in the 2026 release wave 2: four system tools (find tables, table relations, table schema, data query) let an agent build and run AL queries on BC data within the user's permissions. Also covers the new server features configuration UI and a global security toggle. Feature status is not stated.",
   "overview": "The video shows how the Business Central MCP server can support generic data analysis. The MCP host (Copilot Studio, VS Code or another) has an LLM construct queries, and Business Central compiles and runs them. Four system tools support this: find tables, table relations, table schema and a data query tool. The agent can search tables, see how they connect, read their fields and then run an AL query without needing an API.\n\nThe demo has an agent work through customer data in about 30 steps and 2 minutes, as an example of a long-running agent. The presenter notes that access depends on the user's permissions and that the tools carry the limits of AL queries, including limits on returned data and query runtime. The video also shows a new configuration UI that separates server features (data tool, APIs) and a toggle on the Copilot and Agent capabilities page to turn the MCP server feature on or off.",
   "key_points": [
-    "Four new system tools support data analysis: find tables, table relations, table schema and data query.",
-    "The data query tool lets an agent construct and run AL queries directly, without needing APIs.",
-    "Access follows the user's existing permissions; find tables only returns tables the user has access to.",
-    "The MCP host (Copilot Studio, VS Code or other) has the LLM construct the queries, and Business Central compiles and runs them.",
-    "Limits: only supported AL query expressions work, and queries have limits on how much data returns and how long they run.",
-    "The new server features UI in MCP configurations shows which tools each feature, such as the data tool or APIs, enables.",
-    "A toggle on the Copilot and Agent capabilities page activates or deactivates the MCP server feature globally; this was not demoed."
+    "Four new system tools support data analysis: find tables, table relations, table schema and data query. Enabling the data tool server feature gives you these tools.",
+    "The MCP host (Copilot Studio, VS Code or other) has the LLM construct the queries, and Business Central compiles and runs them, so APIs are not needed.",
+    "What data the agent can reach depends on the user's existing permissions, the tables the user can access, and how well the agent writes AL queries.",
+    "In the demo, the agent searches for tables, reads their schemas and table relations, and can use the Microsoft Docs MCP to learn how to write AL queries.",
+    "When a query fails to compile, the agent gets the messages straight from the AL compiler and can often fix the query itself.",
+    "Limits: the tool can do only what AL queries can do, and queries have limits on how much data comes back and how long they run.",
+    "The new server features box in MCP configurations shows which system tools each enabled feature, such as the data tool, opens up."
   ],
   "audience": [
     "administrator",

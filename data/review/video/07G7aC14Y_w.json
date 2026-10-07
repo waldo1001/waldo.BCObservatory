@@ -1,0 +1,24 @@
+{
+  "video_id": "07G7aC14Y_w",
+  "item_id": "video/yt-microsoft/07G7aC14Y_w",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim; the quotes at t=143.4 and t=588.2 run on into the next segment, which is allowed.",
+    "Every feature is supported by the transcript. Statuses are correctly left as unclear: the video says EDI is being added in 2026 release wave 2 but never says preview or generally available.",
+    "The 'PPPLE' format name and the 'ppple format' topic copy garbled captions ('people', 'ple', 'purple'). The page notes this rather than guessing the real name, so I left it.",
+    "The identifier description says 'JIN'; the captions say 'JN or VT registration number'. This is a small caption-level difference, so I left it.",
+    "The demo was done manually ('we will do it manually'). The page does not claim automatic transport between the companies, so nothing needs changing."
+  ],
+  "input_hash": "2e125cb6d5fdf7797f032408a68db683bc339989d670d7cb49f157c92d888f23",
+  "by": "opus",
+  "at": "2026-10-07T22:42:51.926Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.089888
+  }
+}

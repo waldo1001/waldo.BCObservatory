@@ -127,26 +127,6 @@
         "rate"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Backward compatibility with standard rate model",
-      "description": "If a standard mileage rate is set in Expense Agent setup, the system will not use the new date-range and vehicle-type configuration, maintaining backward compatibility with simpler setups.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 124,
-      "t_end": 134.1,
-      "is_demoed": true,
-      "caveats": [
-        "Choice between simple model and complex model is mutually exclusive; standard rate takes precedence"
-      ],
-      "tags": [
-        "backward compatible",
-        "setup",
-        "simplicity"
-      ],
-      "system": "copilot"
     }
   ],
   "objects": [
@@ -174,12 +154,6 @@
   "presenters": [],
   "quotes": [
     {
-      "t": 6.2,
-      "text": "Welcome to BC Central launch edition 2026 wave two and welcome to new video in expense agent series.",
-      "why_it_matters": "Establishes the release wave and context for the feature announcement.",
-      "check": "exact"
-    },
-    {
       "t": 18.6,
       "text": "Earlier you could simple set up mileage only one amount for all different types of mileages and we didn't have date range.",
       "why_it_matters": "Describes the limitation in the previous version that the new feature addresses.",
@@ -204,15 +178,21 @@
       "check": "exact"
     },
     {
-      "t": 124,
-      "text": "If you put standard rate of mileage, system will not look into do this new complicated and more complex mileage setup.",
-      "why_it_matters": "Clarifies mutual exclusivity: standard rate disables date-range and vehicle-type features.",
-      "check": "exact"
-    },
-    {
       "t": 148.5,
       "text": "I have in my example here for 2026 rate for cars and for next year different. So, it was 1.25, now 1.30 from next",
       "why_it_matters": "Concrete demo example showing year-to-year rate changes for multiple vehicle types.",
+      "check": "exact"
+    },
+    {
+      "t": 211.9,
+      "text": "I didn't get calculated amount even if I have 1.2 dollars there in configuration because now I have mileage setup.",
+      "why_it_matters": "Shows that a configured mileage rate setup overrides the standard rate in Expense Agent setup.",
+      "check": "exact"
+    },
+    {
+      "t": 211.9,
+      "text": "If I didn't have, system will not offer these vehicle types, but as I have vehicle types, I need to select which one",
+      "why_it_matters": "Explains when vehicle type selection is required during expense entry.",
       "check": "exact"
     }
   ],

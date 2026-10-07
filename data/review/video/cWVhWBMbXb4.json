@@ -1,0 +1,34 @@
+{
+  "video_id": "cWVhWBMbXb4",
+  "item_id": "video/yt-microsoft/cWVhWBMbXb4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary, key point 4 and the 'Backward compatibility' feature say a standard rate in Expense Agent setup bypasses the new setup. The rest of the transcript says the opposite. At 134.1 the speaker says the mileage rate setup applies 'even you have setup here', and in the demo (211.9-224.7) the 1.2 dollar standard rate is not used because a mileage setup exists. The remark at 124 is ambiguous and conflicts with the demo.",
+    "Dropped the 'Backward compatibility with standard rate model' feature because its description states that wrong precedence.",
+    "Dropped the welcome quote at 6.2 because it adds no information. Dropped the quote at 124 because it is misleading without context.",
+    "The demo says '2016' twice. That is probably a caption error for 2026, so the page does not repeat it.",
+    "The transcript states no preview or GA status, so all features stay unclear."
+  ],
+  "input_hash": "3b87a1abaca217a87b6809e868fcabeb6d008e75a4873d1aebb93dfcb55dc2b7",
+  "by": "opus",
+  "at": "2026-10-07T22:44:14.603Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Date-range mileage allowances: status unclear",
+    "Vehicle-type-specific mileage rates: status unclear",
+    "Mileage rate setup table: status unclear",
+    "dropped 2 quote(s)",
+    "quote at 212s",
+    "quote at 212s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.076257
+  }
+}

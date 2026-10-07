@@ -16,12 +16,12 @@ tags:
   - data analysis
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:42:52.132Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:42:52.173Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 257
     quote: it also looked at table relations essentially understanding how is one table connected to other tables in business central because that's how you write
+  - kind: video
+    url: https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=278s
+    title: "What's new: MCP Server (2026 release wave 2)"
+    date: "2026-10-01T13:04:29.000Z"
+    commit: null
+    t: 278
+    quote: if it compiles a query and it fails, the compilation messages you get is directly from our compiler, right?
   - kind: video
     url: https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=305s
     title: "What's new: MCP Server (2026 release wave 2)"
@@ -168,6 +175,9 @@ quotes:
   - t: 257
     text: it also looked at table relations essentially understanding how is one table connected to other tables in business central because that's how you write
     check: exact
+  - t: 278
+    text: if it compiles a query and it fails, the compilation messages you get is directly from our compiler, right?
+    check: exact
   - t: 305
     text: since this data is based on queries that also means that this tool can basically has the power of queries and the limitations of
     check: exact
@@ -180,7 +190,7 @@ quotes:
 
 > Business Central MCP server data tools in the 2026 release wave 2: four system tools (find tables, table relations, table schema, data query) let an agent build and run AL queries on BC data within the user's permissions. Also covers the new server features configuration UI and a global security toggle. Feature status is not stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qs1cg-GoDeQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 8:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qs1cg-GoDeQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 8:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,13 +200,13 @@ The demo has an agent work through customer data in about 30 steps and 2 minutes
 
 ## Key points
 
-- Four new system tools support data analysis: find tables, table relations, table schema and data query.
-- The data query tool lets an agent construct and run AL queries directly, without needing APIs.
-- Access follows the user's existing permissions; find tables only returns tables the user has access to.
-- The MCP host (Copilot Studio, VS Code or other) has the LLM construct the queries, and Business Central compiles and runs them.
-- Limits: only supported AL query expressions work, and queries have limits on how much data returns and how long they run.
-- The new server features UI in MCP configurations shows which tools each feature, such as the data tool or APIs, enables.
-- A toggle on the Copilot and Agent capabilities page activates or deactivates the MCP server feature globally; this was not demoed.
+- Four new system tools support data analysis: find tables, table relations, table schema and data query. Enabling the data tool server feature gives you these tools.
+- The MCP host (Copilot Studio, VS Code or other) has the LLM construct the queries, and Business Central compiles and runs them, so APIs are not needed.
+- What data the agent can reach depends on the user's existing permissions, the tables the user can access, and how well the agent writes AL queries.
+- In the demo, the agent searches for tables, reads their schemas and table relations, and can use the Microsoft Docs MCP to learn how to write AL queries.
+- When a query fails to compile, the agent gets the messages straight from the AL compiler and can often fix the query itself.
+- Limits: the tool can do only what AL queries can do, and queries have limits on how much data comes back and how long they run.
+- The new server features box in MCP configurations shows which system tools each enabled feature, such as the data tool, opens up.
 
 ## Chapters
 
@@ -211,15 +221,15 @@ The demo has an agent work through customer data in about 30 steps and 2 minutes
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Find tables tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Table relations tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Table schema tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Data query tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Generic data analysis for agents | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |  |
-| Server features configuration UI | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=364s) |  |
-| MCP server security toggle | status not stated | [7:14](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=434s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Find tables tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Table relations tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Table schema tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Data query tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Generic data analysis for agents | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |
+| Server features configuration UI | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=364s) |
+| MCP server security toggle | status not stated | [7:14](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=434s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -237,6 +247,7 @@ Not found in BC28-30: query "AL query".
 - [2:01](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=121s) "with the data query tools uh it completely depends on the permissions that you already have the tables that you have access to in"
 - [2:46](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=166s) "It takes 30 steps. It takes 2 minutes. It's a good example of a longunning agent and it comes up with a very good"
 - [4:17](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=257s) "it also looked at table relations essentially understanding how is one table connected to other tables in business central because that's how you write"
+- [4:38](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=278s) "if it compiles a query and it fails, the compilation messages you get is directly from our compiler, right?"
 - [5:05](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=305s) "since this data is based on queries that also means that this tool can basically has the power of queries and the limitations of"
 - [5:48](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=348s) "there are also limitations in queries in business central on how much data can be returned and for how long the query can run"
 

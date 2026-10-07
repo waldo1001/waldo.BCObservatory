@@ -2,7 +2,7 @@
 id: video/4TE8uwIi91k
 type: video
 title: "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)"
-summary: "Expense Agent mobile app, in preview (2026 release wave 2): receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submission and approval on a phone. The demo shows the mobile app offering the same agent workflow as the web app."
+summary: The Expense Agent mobile app is in preview (beta) for 2026 release wave 2. It offers receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submitting and approving expenses on a phone. The demo shows the mobile app giving the same agent experience as the Business Central web app. It is available on iOS and Android for environments that support the Expense Agent.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - bulk upload
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:07.495Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:07.545Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,56 +34,56 @@ evidence:
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Bulk receipt upload: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Gallery share functionality for receipts: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Mileage expense creation on mobile: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Offline mode for receipt handling: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Expense submission on mobile: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Expense approval on mobile: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s
     title: "Expense categorization and agent processing: preview"
     date: "2026-10-01T13:04:13.000Z"
     commit: null
     t: 359
-    quote: it's still in preview
+    quote: you can try it out right now. But be mindful because it's still in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=6s
     title: "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)"
@@ -120,6 +120,13 @@ evidence:
     t: 247
     quote: Notice we don't process them immediately, we process them the moment your connection comes back.
   - kind: video
+    url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=315s
+    title: "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)"
+    date: "2026-10-01T13:04:13.000Z"
+    commit: null
+    t: 315
+    quote: you actually have also the full approver experience in the mobile app, where you can review the single expenses
+  - kind: video
     url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=329s
     title: "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)"
     date: "2026-10-01T13:04:13.000Z"
@@ -140,6 +147,13 @@ evidence:
     commit: null
     t: 381
     quote: Please remember that the app is still in beta, which means you will get to accept some beta conditions and beta program before you
+  - kind: video
+    url: https://www.youtube.com/watch?v=4TE8uwIi91k&t=381s
+    title: "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)"
+    date: "2026-10-01T13:04:13.000Z"
+    commit: null
+    t: 381
+    quote: you can do it just today as long as you have an environment in Business Central that supports the expense agent.
 links:
   learn: []
   objects: []
@@ -239,6 +253,9 @@ quotes:
   - t: 247
     text: Notice we don't process them immediately, we process them the moment your connection comes back.
     check: exact
+  - t: 315
+    text: you actually have also the full approver experience in the mobile app, where you can review the single expenses
+    check: exact
   - t: 329
     text: from the mobile app, you have the same powerful um agent experience and the same powerful options that you have from the web application
     check: exact
@@ -248,13 +265,16 @@ quotes:
   - t: 381
     text: Please remember that the app is still in beta, which means you will get to accept some beta conditions and beta program before you
     check: exact
+  - t: 381
+    text: you can do it just today as long as you have an environment in Business Central that supports the expense agent.
+    check: exact
 ---
 
 # What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)
 
-> Expense Agent mobile app, in preview (2026 release wave 2): receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submission and approval on a phone. The demo shows the mobile app offering the same agent workflow as the web app.
+> The Expense Agent mobile app is in preview (beta) for 2026 release wave 2. It offers receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submitting and approving expenses on a phone. The demo shows the mobile app giving the same agent experience as the Business Central web app. It is available on iOS and Android for environments that support the Expense Agent.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4TE8uwIi91k) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4TE8uwIi91k) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -264,12 +284,13 @@ It then shows offline mode, where receipts and expenses are added without a conn
 
 ## Key points
 
-- All demoed mobile features are in preview, and the app is in beta. Users must accept beta conditions and join the beta program before using it.
-- Receipt scanning uses the operating system's native auto capture. It handles one or several receipts, and bulk upload is supported.
+- All demoed mobile features are in preview, and the app is in beta. Users must accept beta conditions and join the beta program before they can download it.
+- The app is available for iOS and Android. It can be used today with a Business Central environment that supports the Expense Agent.
+- Receipt scanning uses the operating system's native auto capture. It handles one or several receipts, so a batch can be uploaded at once.
 - Photos already in the gallery can be sent to the Expense Agent through the operating system share function, where the agent appears in the share list.
-- Mileage expenses can be created on the phone with route selection, vehicle type, distance calculation and automatic per diem rate calculation.
+- Mileage expenses can be created on the phone. The user picks a route and vehicle type, and the app calculates the distance and the amount from the rate.
 - Offline mode lets users add receipts and expenses without a connection. Nothing is processed locally; items are queued and processed once the connection returns.
-- Expenses can be submitted and approved on mobile. Approvers can check compliance issues and override flags, using the same workflow as the web app.
+- Expenses can be submitted and approved on mobile. Approvers can review compliance issues and override flags, the same way as in the web app.
 
 ## Chapters
 
@@ -286,14 +307,14 @@ It then shows offline mode, where receipts and expenses are added without a conn
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Mileage expense creation on mobile | preview (roadmap [573254](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Mileage expense creation on mobile | preview (roadmap [573254](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -304,9 +325,11 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [2:00](https://www.youtube.com/watch?v=4TE8uwIi91k&t=120s) "you can see that Expensify agent is now going to pop up here in the list. And you can just choose Expensify agent"
 - [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) "we have a feature which is also offline mode. So, let's say that all of these that I'm doing um I'm actually doing it,"
 - [4:07](https://www.youtube.com/watch?v=4TE8uwIi91k&t=247s) "Notice we don't process them immediately, we process them the moment your connection comes back."
+- [5:15](https://www.youtube.com/watch?v=4TE8uwIi91k&t=315s) "you actually have also the full approver experience in the mobile app, where you can review the single expenses"
 - [5:29](https://www.youtube.com/watch?v=4TE8uwIi91k&t=329s) "from the mobile app, you have the same powerful um agent experience and the same powerful options that you have from the web application"
 - [5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s) "you can try it out right now. But be mindful because it's still in preview."
 - [6:21](https://www.youtube.com/watch?v=4TE8uwIi91k&t=381s) "Please remember that the app is still in beta, which means you will get to accept some beta conditions and beta program before you"
+- [6:21](https://www.youtube.com/watch?v=4TE8uwIi91k&t=381s) "you can do it just today as long as you have an environment in Business Central that supports the expense agent."
 
 ## Disclaimers in the video
 

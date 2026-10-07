@@ -1,15 +1,16 @@
 {
   "video_id": "4TE8uwIi91k",
   "item_id": "video/yt-microsoft/4TE8uwIi91k",
-  "summary": "Expense Agent mobile app, in preview (2026 release wave 2): receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submission and approval on a phone. The demo shows the mobile app offering the same agent workflow as the web app.",
+  "summary": "The Expense Agent mobile app is in preview (beta) for 2026 release wave 2. It offers receipt scanning with auto capture, bulk upload, gallery share, mileage expenses, offline queuing, and submitting and approving expenses on a phone. The demo shows the mobile app giving the same agent experience as the Business Central web app. It is available on iOS and Android for environments that support the Expense Agent.",
   "overview": "The video walks through the Expense Agent mobile app, which is in preview. It covers capturing one or several receipts with the operating system's auto capture, sending photos from the phone gallery through the share function, and creating mileage expenses with route, vehicle type and distance.\n\nIt then shows offline mode, where receipts and expenses are added without a connection and processed after reconnecting. It ends with submitting and approving expense reports on the phone, and notes that the app is in beta and requires accepting beta conditions.",
   "key_points": [
-    "All demoed mobile features are in preview, and the app is in beta. Users must accept beta conditions and join the beta program before using it.",
-    "Receipt scanning uses the operating system's native auto capture. It handles one or several receipts, and bulk upload is supported.",
+    "All demoed mobile features are in preview, and the app is in beta. Users must accept beta conditions and join the beta program before they can download it.",
+    "The app is available for iOS and Android. It can be used today with a Business Central environment that supports the Expense Agent.",
+    "Receipt scanning uses the operating system's native auto capture. It handles one or several receipts, so a batch can be uploaded at once.",
     "Photos already in the gallery can be sent to the Expense Agent through the operating system share function, where the agent appears in the share list.",
-    "Mileage expenses can be created on the phone with route selection, vehicle type, distance calculation and automatic per diem rate calculation.",
+    "Mileage expenses can be created on the phone. The user picks a route and vehicle type, and the app calculates the distance and the amount from the rate.",
     "Offline mode lets users add receipts and expenses without a connection. Nothing is processed locally; items are queued and processed once the connection returns.",
-    "Expenses can be submitted and approved on mobile. Approvers can check compliance issues and override flags, using the same workflow as the web app."
+    "Expenses can be submitted and approved on mobile. Approvers can review compliance issues and override flags, the same way as in the web app."
   ],
   "audience": [
     "functional consultant",

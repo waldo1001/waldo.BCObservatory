@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2392,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2392",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-07T20:16:44Z",
+  "merge_commit_sha": "5e099940c98618e328a40191a4983f61167187c4",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "AL-Go Telemetry Enhancements: repository fork and hosting information",
+  "body_hash": "f922e3adca6f4426f631401257334cafcbbaf014c2794134a58097ae48c310bc",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/Invoke-AlGoAction.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/TelemetryHelper.psm1",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/EnablingTelemetry.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/TelemetryHelper.Test.ps1",
+      "status": "added",
+      "additions": 242,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 316,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/Invoke-AlGoAction.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/TelemetryHelper.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

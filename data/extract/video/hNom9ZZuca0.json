@@ -327,6 +327,12 @@
       "check": "exact"
     },
     {
+      "t": 507.8,
+      "text": "these um test handlers are separate from the test toolkit events that are driven by AL test runners",
+      "why_it_matters": "Shows that existing test toolkit event subscribers must migrate to test handlers to get the new functionality.",
+      "check": "exact"
+    },
+    {
       "t": 545,
       "text": "one common use case nowadays for us internally is we use it for managing token consumption. So you might want to say hey u",
       "why_it_matters": "Provides a concrete use case for test handler skipping in the era of AI-driven features with resource constraints.",

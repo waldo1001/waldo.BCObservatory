@@ -1,0 +1,30 @@
+{
+  "video_id": "kOCiyVql0go",
+  "item_id": "video/yt-microsoft/kOCiyVql0go",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature evidence quotes are verbatim, but their t values were the feature's location and not where the quote starts. The preview quote starts at 19.8 and the Power BI apps quote starts at 333.3. Corrected the evidence_t values.",
+    "Quotes, summary and key points are supported by the transcript. Quotes that cross segment boundaries are verbatim.",
+    "The sub-features are marked preview based on the overall statement that the feature is coming in public preview in 29.x. The Power BI apps are marked announced because they will be available soon as code samples or on AppSource."
+  ],
+  "input_hash": "f2bcb85a13af8d24aac0b98d288d99bc47c9ddb50922b9d26214d21904cba8bc",
+  "by": "opus",
+  "at": "2026-10-07T22:44:21.436Z",
+  "applied": [
+    "Business Central Fabric mirroring: status preview",
+    "Microsoft Fabric integration app: status preview",
+    "Mirror database in OneLake: status preview",
+    "Multi-company Power BI apps: status announced",
+    "Synchronization overview and details logs: status preview",
+    "Fabric integration APIs: status preview",
+    "Fabric integration permission sets: status preview"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.073889
+  }
+}

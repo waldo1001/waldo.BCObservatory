@@ -2,7 +2,7 @@
 id: video/cWVhWBMbXb4
 type: video
 title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
-summary: "Expense Agent mileage handling in the 2026 release wave 2: mileage rates can be set by date range and by vehicle type through a new mileage rate setup table. A standard rate in Expense Agent setup takes precedence and bypasses the new setup."
+summary: Expense Agent in the 2026 release wave 2 improves mileage handling. Mileage rates can now have date ranges and can differ by vehicle type. When a mileage rate setup is configured, it is used instead of the single standard rate in Expense Agent setup. The simple standard-rate model is still available for companies without complex needs.
 tier: official
 language: en
 tags:
@@ -14,25 +14,18 @@ tags:
   - setup configuration
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:14.603Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:14.640Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 62b6f5cca9214d0558f6e5900127a44de8f84060790d8a6cea93b20afdeb6c19
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=6s
-    title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 6
-    quote: Welcome to BC Central launch edition 2026 wave two and welcome to new video in expense agent series.
   - kind: video
     url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=18s
     title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
@@ -62,19 +55,26 @@ evidence:
     t: 81
     quote: You can also expand the setup different vehicle types, so you can set up different mileage for period and for different vehicle types, so
   - kind: video
-    url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=124s
-    title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 124
-    quote: If you put standard rate of mileage, system will not look into do this new complicated and more complex mileage setup.
-  - kind: video
     url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=148s
     title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
     date: "2026-10-01T00:00:00Z"
     commit: null
     t: 148
     quote: I have in my example here for 2026 rate for cars and for next year different. So, it was 1.25, now 1.30 from next
+  - kind: video
+    url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=211s
+    title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 211
+    quote: I didn't get calculated amount even if I have 1.2 dollars there in configuration because now I have mileage setup.
+  - kind: video
+    url: https://www.youtube.com/watch?v=cWVhWBMbXb4&t=211s
+    title: "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 211
+    quote: If I didn't have, system will not offer these vehicle types, but as I have vehicle types, I need to select which one
 links:
   learn: []
   objects: []
@@ -137,20 +137,12 @@ features:
     status_source: roadmap
     roadmap_ids:
       - "573254"
-  - name: Backward compatibility with standard rate model
-    status: unclear
-    t: 124
-    verified: false
-    status_source: video
 objects_mentioned:
   - other Expense Agent
   - other Expense Agent setup
   - other Mileage rate setup
   - other Vehicle type table
 quotes:
-  - t: 6
-    text: Welcome to BC Central launch edition 2026 wave two and welcome to new video in expense agent series.
-    check: exact
   - t: 18
     text: Earlier you could simple set up mileage only one amount for all different types of mileages and we didn't have date range.
     check: exact
@@ -163,19 +155,22 @@ quotes:
   - t: 81
     text: You can also expand the setup different vehicle types, so you can set up different mileage for period and for different vehicle types, so
     check: exact
-  - t: 124
-    text: If you put standard rate of mileage, system will not look into do this new complicated and more complex mileage setup.
-    check: exact
   - t: 148
     text: I have in my example here for 2026 rate for cars and for next year different. So, it was 1.25, now 1.30 from next
+    check: exact
+  - t: 211
+    text: I didn't get calculated amount even if I have 1.2 dollars there in configuration because now I have mileage setup.
+    check: exact
+  - t: 211
+    text: If I didn't have, system will not offer these vehicle types, but as I have vehicle types, I need to select which one
     check: exact
 ---
 
 # What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)
 
-> Expense Agent mileage handling in the 2026 release wave 2: mileage rates can be set by date range and by vehicle type through a new mileage rate setup table. A standard rate in Expense Agent setup takes precedence and bypasses the new setup.
+> Expense Agent in the 2026 release wave 2 improves mileage handling. Mileage rates can now have date ranges and can differ by vehicle type. When a mileage rate setup is configured, it is used instead of the single standard rate in Expense Agent setup. The simple standard-rate model is still available for companies without complex needs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cWVhWBMbXb4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:43 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cWVhWBMbXb4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:43 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -185,12 +180,12 @@ The setup is shown in Expense Agent setup, a mileage rate setup table and a vehi
 
 ## Key points
 
-- Mileage allowances can have start and end dates. On the last day of the previous period the old amount applies, and in the next period the new amount applies.
-- Rates can be set per vehicle type (car, truck, SUV, motorcycle) in the mileage rate setup, and the matching rate is applied when a vehicle type is selected.
-- The user must select the vehicle type during expense entry. The system does not detect it, and if no vehicle types are configured none are offered.
-- If a standard mileage rate is set in Expense Agent setup, the system ignores the date-range and vehicle-type setup. The two models are mutually exclusive.
-- The mileage rate table has an optional currency code. Local currency is typical for mileage.
-- The demo example uses a car rate of 1.25 in 2026 and 1.30 in the following year.
+- Mileage allowances can have start and end dates. On the last day of the previous period the old amount applies, and in the next period the new amount applies, so there is no manual change when rates change.
+- Rates can be set per vehicle type (car, truck, SUV, motorcycle) in the mileage rate setup, using a new vehicle type table. The matching rate is applied when a vehicle type is selected.
+- The user must select the vehicle type when creating a mileage expense. If no vehicle types are configured, none are offered and the date-based amount is filled in automatically.
+- The standard mileage rate in Expense Agent setup is still available as a simple model. In the demo, once a mileage rate setup existed, the configured 1.2 standard rate was not used.
+- The mileage rate setup has an optional currency code. Local currency is typical for mileage, so it usually does not need to be filled in.
+- In the demo, the car rate is 1.25 in 2026 and 1.30 the following year. The truck rate is calculated at 2.5 per mile.
 
 ## Chapters
 
@@ -206,12 +201,11 @@ The setup is shown in Expense Agent setup, a mileage rate setup table and a vehi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Date-range mileage allowances | preview (roadmap [573254](../features/573254.md)), demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |  |
-| Vehicle-type-specific mileage rates | preview (roadmap [573254](../features/573254.md)), demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |  |
-| Mileage rate setup table | preview (roadmap [573254](../features/573254.md)), demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |  |
-| Backward compatibility with standard rate model | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=124s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Date-range mileage allowances | preview (roadmap [573254](../features/573254.md)), demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |
+| Vehicle-type-specific mileage rates | preview (roadmap [573254](../features/573254.md)), demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |
+| Mileage rate setup table | preview (roadmap [573254](../features/573254.md)), demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -226,10 +220,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 ## Quotes
 
-- [0:06](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=6s) "Welcome to BC Central launch edition 2026 wave two and welcome to new video in expense agent series."
 - [0:18](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=18s) "Earlier you could simple set up mileage only one amount for all different types of mileages and we didn't have date range."
 - [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) "Now, if you have specific mileage changes from year to year or from month to month, whatever situations, so you can set set up"
 - [0:53](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=53s) "System will automatically behave the last day of previous period, system will use previous allowance amount, in next period system will use new allowance"
 - [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) "You can also expand the setup different vehicle types, so you can set up different mileage for period and for different vehicle types, so"
-- [2:04](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=124s) "If you put standard rate of mileage, system will not look into do this new complicated and more complex mileage setup."
 - [2:28](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=148s) "I have in my example here for 2026 rate for cars and for next year different. So, it was 1.25, now 1.30 from next"
+- [3:31](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=211s) "I didn't get calculated amount even if I have 1.2 dollars there in configuration because now I have mileage setup."
+- [3:31](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=211s) "If I didn't have, system will not offer these vehicle types, but as I have vehicle types, I need to select which one"

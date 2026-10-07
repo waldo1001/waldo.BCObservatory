@@ -17,12 +17,12 @@ tags:
   - dependencies
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:21.493Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:26.778Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,7 +184,7 @@ quotes:
 
 > AL Graph, a tool in the AL tools package that builds call graphs of AL code, is shown in a 2026 release wave 2 video. It covers querying callers, exporting to DGML and SARIF, and auditing the non-debuggable to debuggable boundary for security.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=i0gBrA1tx50) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=i0gBrA1tx50) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 6:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -213,15 +213,15 @@ The demo builds a meta model of an app once, stores it as JSON and queries it re
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AL Graph | generally available (roadmap [573336](../features/573336.md)), demoed | [0:05](https://www.youtube.com/watch?v=i0gBrA1tx50&t=5s) |  |
-| AL Graph query language | generally available (roadmap [573336](../features/573336.md)), demoed | [1:38](https://www.youtube.com/watch?v=i0gBrA1tx50&t=98s) |  |
-| AL Graph DGML export | generally available (roadmap [573336](../features/573336.md)), demoed | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |  |
-| AL Graph SARIF export | generally available (roadmap [573336](../features/573336.md)) | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |  |
-| AL Graph meta model extraction | generally available (roadmap [573336](../features/573336.md)), demoed | [2:19](https://www.youtube.com/watch?v=i0gBrA1tx50&t=139s) |  |
-| HTTP client caller auditing | generally available (roadmap [573336](../features/573336.md)), demoed | [3:04](https://www.youtube.com/watch?v=i0gBrA1tx50&t=184s) |  |
-| Non-debuggable to debuggable boundary audit | generally available (roadmap [573336](../features/573336.md)), demoed | [4:13](https://www.youtube.com/watch?v=i0gBrA1tx50&t=253s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AL Graph | generally available (roadmap [573336](../features/573336.md)), demoed | [0:05](https://www.youtube.com/watch?v=i0gBrA1tx50&t=5s) |
+| AL Graph query language | generally available (roadmap [573336](../features/573336.md)), demoed | [1:38](https://www.youtube.com/watch?v=i0gBrA1tx50&t=98s) |
+| AL Graph DGML export | generally available (roadmap [573336](../features/573336.md)), demoed | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
+| AL Graph SARIF export | generally available (roadmap [573336](../features/573336.md)) | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
+| AL Graph meta model extraction | generally available (roadmap [573336](../features/573336.md)), demoed | [2:19](https://www.youtube.com/watch?v=i0gBrA1tx50&t=139s) |
+| HTTP client caller auditing | generally available (roadmap [573336](../features/573336.md)), demoed | [3:04](https://www.youtube.com/watch?v=i0gBrA1tx50&t=184s) |
+| Non-debuggable to debuggable boundary audit | generally available (roadmap [573336](../features/573336.md)), demoed | [4:13](https://www.youtube.com/watch?v=i0gBrA1tx50&t=253s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

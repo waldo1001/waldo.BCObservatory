@@ -2,7 +2,7 @@
 id: video/HixajKEd-A4
 type: video
 title: "What's new: Match Production Database Configuration (2026 release wave 2)"
-summary: Match Production Configuration in the Business Central admin center (2026 release wave 2, generally available). It temporarily makes a sandbox database match a typical production configuration for 72 hours, up to three times per tenant per calendar month, on paid license tenants only.
+summary: Match Production Configuration is a new admin center button for sandbox environments, shipping in Business Central 2026 release wave 2. It temporarily matches a sandbox database to a typical production database configuration for 72 hours. It restarts the environment, can be used up to three times per tenant per calendar month, is supported in the admin center APIs, and is only available on paid license tenants, including the partner sandbox license.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - cloud migration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:23.094Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:23.131Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 23
     quote: developers and administrators using the performance tool get developing apps or running cloud migration projects can mimic the configuration of a production database in
+  - kind: video
+    url: https://www.youtube.com/watch?v=HixajKEd-A4&t=56s
+    title: "What's new: Match Production Database Configuration (2026 release wave 2)"
+    date: "2026-10-01T13:03:49.000Z"
+    commit: null
+    t: 56
+    quote: warns you that enabling this action will restart the environment meaning that any users that are connected to the environment at the time you
   - kind: video
     url: https://www.youtube.com/watch?v=HixajKEd-A4&t=103s
     title: "What's new: Match Production Database Configuration (2026 release wave 2)"
@@ -131,6 +138,9 @@ quotes:
   - t: 23
     text: developers and administrators using the performance tool get developing apps or running cloud migration projects can mimic the configuration of a production database in
     check: exact
+  - t: 56
+    text: warns you that enabling this action will restart the environment meaning that any users that are connected to the environment at the time you
+    check: exact
   - t: 103
     text: this operation is limited to three occurrences per tenant per calendar month for 72 hours at a time
     check: exact
@@ -144,9 +154,9 @@ quotes:
 
 # What's new: Match Production Database Configuration (2026 release wave 2)
 
-> Match Production Configuration in the Business Central admin center (2026 release wave 2, generally available). It temporarily makes a sandbox database match a typical production configuration for 72 hours, up to three times per tenant per calendar month, on paid license tenants only.
+> Match Production Configuration is a new admin center button for sandbox environments, shipping in Business Central 2026 release wave 2. It temporarily matches a sandbox database to a typical production database configuration for 72 hours. It restarts the environment, can be used up to three times per tenant per calendar month, is supported in the admin center APIs, and is only available on paid license tenants, including the partner sandbox license.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HixajKEd-A4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 2:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HixajKEd-A4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 2:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -186,6 +196,7 @@ It shows the new "match production configuration" button in the admin center for
 
 - [0:07](https://www.youtube.com/watch?v=HixajKEd-A4&t=7s) "A new feature we're shipping in 2026 release wave two. With this feature administrators will be able to temporarily match the configuration of a"
 - [0:23](https://www.youtube.com/watch?v=HixajKEd-A4&t=23s) "developers and administrators using the performance tool get developing apps or running cloud migration projects can mimic the configuration of a production database in"
+- [0:56](https://www.youtube.com/watch?v=HixajKEd-A4&t=56s) "warns you that enabling this action will restart the environment meaning that any users that are connected to the environment at the time you"
 - [1:43](https://www.youtube.com/watch?v=HixajKEd-A4&t=103s) "this operation is limited to three occurrences per tenant per calendar month for 72 hours at a time"
 - [1:43](https://www.youtube.com/watch?v=HixajKEd-A4&t=103s) "Once those 72 hours end your sandbox environment automatically moves back to a typical sandbox configuration during the first environment update window"
 - [2:13](https://www.youtube.com/watch?v=HixajKEd-A4&t=133s) "this is only available on tenants that have a paid license type, including partners that are using the partner sandbox license"

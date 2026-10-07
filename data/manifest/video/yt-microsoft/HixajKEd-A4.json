@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T12:57:07.048Z",
+      "at": "2026-10-07T22:43:23.139Z",
       "path": "content/videos/HixajKEd-A4.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:43:23.098Z",
+      "path": "data/review/video/HixajKEd-A4.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.049745
     }
   },
   "input_hash": null,
@@ -70,5 +79,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f94620e7168409f0b6f5579718988795945bda225ad6087ec82c5100f3cb375"
+  "output_hash": "81aa6c6b37cf22034fb8f8a3703a71fe12aaf76be7f85419a433f8ca72b560ee",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:43:23.094Z"
+  }
 }

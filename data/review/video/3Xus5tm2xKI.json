@@ -1,0 +1,28 @@
+{
+  "video_id": "3Xus5tm2xKI",
+  "item_id": "video/yt-microsoft/3Xus5tm2xKI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript.",
+    "Quote at 496.7 ends at 'it's important to know that' and drops the actual point. Replaced it with the statement at 509.6 that new PTEs cannot target the next minor or major update.",
+    "Added a quote for the simpler S2S permissions, which the page described but did not quote.",
+    "Features, chapters, summary and key points are supported by the transcript.",
+    "All feature statuses stay unclear. The transcript says 'with this release wave' and 'we have introduced' but never says preview or generally available."
+  ],
+  "input_hash": "0d5a7efdc67ad3a4340691f69ed8517d1c85394575daf2d4de5236f4146e10c9",
+  "by": "opus",
+  "at": "2026-10-07T22:43:05.096Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 510s",
+    "quote at 601s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09704100000000002
+  }
+}

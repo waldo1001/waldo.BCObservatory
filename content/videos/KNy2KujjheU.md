@@ -15,12 +15,12 @@ tags:
   - api deprecation
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:43:23.148Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:43:23.183Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,7 +151,7 @@ quotes:
 
 > Database export enhancements in the 2026 release wave 2: export failure rate is under 1%, exports now appear on the admin center operations page as environment operations, the export history page is retiring, and the admin center API export history endpoint is deprecated (works on API 2.29 and earlier).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KNy2KujjheU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 3:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KNy2KujjheU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 3:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,12 +181,12 @@ Exports are now environment operations. They show on the admin center operations
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Database export reliability improvements | status not stated | [0:57](https://www.youtube.com/watch?v=KNy2KujjheU&t=57s) |  |
-| Exports on operations page | status not stated, demoed | [1:34](https://www.youtube.com/watch?v=KNy2KujjheU&t=94s) |  |
-| Database export history page retirement | status not stated | [3:03](https://www.youtube.com/watch?v=KNy2KujjheU&t=183s) |  |
-| Admin center API export history endpoint deprecation | status not stated | [3:15](https://www.youtube.com/watch?v=KNy2KujjheU&t=195s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Database export reliability improvements | status not stated | [0:57](https://www.youtube.com/watch?v=KNy2KujjheU&t=57s) |
+| Exports on operations page | status not stated, demoed | [1:34](https://www.youtube.com/watch?v=KNy2KujjheU&t=94s) |
+| Database export history page retirement | status not stated | [3:03](https://www.youtube.com/watch?v=KNy2KujjheU&t=183s) |
+| Admin center API export history endpoint deprecation | status not stated | [3:15](https://www.youtube.com/watch?v=KNy2KujjheU&t=195s) |
 
 ## Quotes
 
