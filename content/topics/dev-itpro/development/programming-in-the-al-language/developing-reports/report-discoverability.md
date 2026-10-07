@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:30.097Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > Report discoverability in AL covers how users find and open reports in Business Central. It answers questions about making pages and reports searchable in Tell me with UsageCategory, and about role center navigation, the Role/Report explorer, page actions, teaching tips and help links.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report discoverability · tier official · system reporting · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report discoverability · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
@@ -76,7 +76,7 @@ This section is about making reports easy for users to find. It has two pages. O
 
 The overview lists the discovery paths: Tell me searchability, role center navigation, visibility in the Role/Report explorer, report actions on pages (such as promoted actions), teaching tips, and help links. The Tell me page shows the AL side. You set the UsageCategory property, and optionally AdditionalSearchTerms, so the object appears in search.
 
-Start with the overview to pick the discovery paths that fit your report. Then use the Tell me page for the property settings. Check AccessByPermission and ApplicationArea too, because they relate to who sees the object.
+Start with the overview to pick the discovery paths that fit your report. Then use the Tell me page for the property settings. That page also mentions the AccessByPermission and ApplicationArea properties and the role explorer.
 
 ## Key points
 
@@ -85,8 +85,7 @@ Start with the overview to pick the discovery paths that fit your report. Then u
 - AdditionalSearchTerms adds extra search terms for finding an object.
 - Reports can also be discovered through role center navigation, the Role/Report explorer, and actions on pages such as promoted actions.
 - Teaching tips and help links are part of report discoverability.
-- AccessByPermission and ApplicationArea are related to Tell me visibility.
-- The overview page lists 2023 release wave 1.
+- The Tell me page also covers the AccessByPermission and ApplicationArea properties.
 
 ## Learn pages
 

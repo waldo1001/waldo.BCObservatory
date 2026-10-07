@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:32.124Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,7 +72,7 @@ narrative: generated
 
 > Master data synchronization across companies in Business Central: how to set up a source and subsidiary companies to pull customer, vendor, item, and employee data, and how to manage and troubleshoot the synchronization afterward. It answers setup, coupling, scheduling, and maintenance questions.
 
-Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · **unreviewed** (machine-generated narrative)
+Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 

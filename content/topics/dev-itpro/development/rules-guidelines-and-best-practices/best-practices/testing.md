@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Testing best practices for Business Central extensions: a Customer Rewards sample extension built and then tested with the Application Test Toolkit, plus the testing steps required before Marketplace validation. It answers questions about writing test codeunits and about pre-submission checks.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

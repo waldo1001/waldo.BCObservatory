@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009251
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:17.236Z",
+    "verdict": "approve",
+    "issues": [
+      "Microsoft Lifecycle Services and side-by-side upgrades only appear as items on the ForceSync page, so the key point that mentions them cannot say more than that. It does not claim more, so it is fine.",
+      "The narrative leaves out that the hub sits under Develop > Embed apps in the Learn table of contents. Mentioning that ISVs who build embedded apps are the audience would help orientation. Optional."
+    ],
+    "input_hash": "3276fc7188d1a09f85e9dcbecbb1abd09c3b0b189fa5f7d4402a031c236ecbb1",
+    "cost_usd": 0.033151200000000006
   }
 }

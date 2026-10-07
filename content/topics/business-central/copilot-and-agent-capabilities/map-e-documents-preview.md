@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,15 +66,15 @@ narrative: generated
 
 > Map E-Documents (preview) covers the deprecated Copilot feature E-documents Matching Assistance, which matches incoming e-invoice lines to purchase order lines. It answers what the feature did, how matching works, and that the Payables Agent replaces it.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
 This section describes E-documents Matching Assistance, a preview Copilot feature that links lines of incoming electronic invoices to purchase order lines. Copilot analyzes descriptions, units of measure, quantities, and amounts to propose matches. The section is marked deprecated in favor of the Payables Agent.
 
-There are two pages. One is the how-to page on mapping e-documents to purchase order lines with Copilot, covering line mapping, automatic matching, price analysis, and quantity checking. The other is an FAQ about mapping e-documents with purchase orders, which explains how the AI-powered matching works and how it relates to manual line matching.
+There are two pages. One is the how-to page on mapping e-documents to purchase order lines with Copilot, covering line mapping, automatic matching, price analysis, and quantity checking. The other is an FAQ about mapping e-documents with purchase orders. It explains how the AI-powered matching works and also mentions manual purchase order line matching.
 
-Start with the how-to page to understand the workflow, then read the FAQ for the matching criteria. Because both pages state the feature is deprecated, check the Payables Agent for new work on vendor invoice matching and purchase order updates.
+Start with the how-to page to understand the workflow, then read the FAQ for the matching criteria. Both pages say the feature is deprecated, so look at the Payables Agent for new work on vendor invoice matching and purchase order updates.
 
 ## Key points
 
@@ -84,7 +84,7 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 - The Payables Agent replaces it for automating vendor invoice matching and purchase order updates.
 - Related capabilities named in the pages: Map E-Document Lines with Copilot and Match Purchase Order with Copilot.
 - The how-to page covers automatic matching, price analysis, and quantity checking.
-- Manual purchase order line matching remains an alternative to the AI-powered matching.
+- The FAQ also mentions manual purchase order line matching alongside the AI-powered matching.
 
 ## Learn pages
 

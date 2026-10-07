@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008139
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:40.461Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'You select which fields from the entities to make available as merge fields' goes a little beyond the source. The page features only list 'field selection' and 'merge fields' separately. The reading is plausible but not stated.",
+      "The last key point ('The template page mentions uploading templates and email integration') describes the page rather than saying what the feature does. It is supported, but an agent gets little from it. Something like 'Templates can be uploaded, and the feature ties in with email' would be more useful."
+    ],
+    "input_hash": "3177afe7a14155277b968979c201bc302f8c824f26030400f9219dded43290ae",
+    "cost_usd": 0.0213312
   }
 }

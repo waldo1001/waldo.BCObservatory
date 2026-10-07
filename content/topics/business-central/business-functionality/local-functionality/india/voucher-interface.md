@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:53.939Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Voucher interface for India in Business Central covers recording day-to-day transactions with journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers. It answers questions about voucher types, journal templates and batches, mandatory fields, and GL entry examples.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Voucher interface · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Voucher interface · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

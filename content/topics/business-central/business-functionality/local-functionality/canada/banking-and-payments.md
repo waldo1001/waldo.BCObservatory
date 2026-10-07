@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:44.459Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
 
 ## Overview
 

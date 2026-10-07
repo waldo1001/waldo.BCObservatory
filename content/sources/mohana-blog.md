@@ -2,7 +2,7 @@
 id: source/mohana-blog
 type: source
 title: Mohana's Dynamics NAV & BC blog
-summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 21 posts in the knowledge base, 2026-02-28 to 2026-10-05, mostly about administration, development, integration."
+summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 25 posts in the knowledge base, 2026-02-11 to 2026-10-05, mostly about administration, development, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T05:17:08.437Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: dcfee94db2654a5e5f956f5a766471da23f1899f47d6351be19ef5f9ebde2c1d
+  input_hash: 832a1b80f3eae32ee7febb701cf00e05630cea76cf6e0646fc6c624665296c3b
 evidence:
   - kind: blog
     url: https://mohana-dynamicsnav.blogspot.com
@@ -33,6 +33,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
@@ -53,6 +55,8 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3088305037286723104--7a3af8e6a8
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
   guidelines: []
 source_id: mohana-blog
@@ -61,43 +65,45 @@ url: https://mohana-dynamicsnav.blogspot.com
 author: Mohana Yadav
 mvp: false
 full_text: false
-item_count: 21
+item_count: 25
 footprint:
   systems:
     - id: administration
-      weight: 16
+      weight: 19
     - id: development
-      weight: 10
+      weight: 13
     - id: integration
-      weight: 8
+      weight: 11
     - id: inventory
+      weight: 9
+    - id: platform
       weight: 8
     - id: purchasing
       weight: 7
-    - id: sales
-      weight: 7
   topics:
+    - id: migration
+      weight: 3
     - id: vendor management
       weight: 3
+    - id: al development
+      weight: 2
     - id: automation
+      weight: 2
+    - id: claude desktop
+      weight: 2
+    - id: custom api pages
+      weight: 2
+    - id: deployment
       weight: 2
     - id: extensions
       weight: 2
-    - id: migration
+    - id: mcp server
       weight: 2
     - id: performance
       weight: 2
-    - id: sales orders
-      weight: 2
-    - id: user experience
-      weight: 2
-    - id: admin center
-      weight: 1
-    - id: admin center api
-      weight: 1
-    - id: al development
-      weight: 1
   objects:
+    - id: table Customer
+      weight: 2
     - id: api contacts
       weight: 1
     - id: api countriesRegions
@@ -108,28 +114,26 @@ footprint:
       weight: 1
     - id: api employees
       weight: 1
+    - id: api Item API page
+      weight: 1
     - id: api itemCategories
       weight: 1
     - id: api paymentMethods
       weight: 1
     - id: api paymentTerms
       weight: 1
+    - id: api Project API page
+      weight: 1
     - id: api shipmentMethods
       weight: 1
-    - id: api unitsOfMeasure
-      weight: 1
-    - id: api vendors
-      weight: 1
-    - id: codeunit buffer building codeunit
-      weight: 1
   features: []
-first_item: "2026-02-28"
+first_item: "2026-02-11"
 last_item: "2026-10-05"
 ---
 
 # Mohana's Dynamics NAV & BC blog
 
-> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 21 posts in the knowledge base, 2026-02-28 to 2026-10-05, mostly about administration, development, integration.
+> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 25 posts in the knowledge base, 2026-02-11 to 2026-10-05, mostly about administration, development, integration.
 
 [https://mohana-dynamicsnav.blogspot.com](https://mohana-dynamicsnav.blogspot.com) · blog · tier community
 
@@ -137,30 +141,32 @@ last_item: "2026-10-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| administration (16) | vendor management (3) | api contacts (1) |
-| development (10) | automation (2) | api countriesRegions (1) |
-| integration (8) | extensions (2) | api currencies (1) |
-| inventory (8) | migration (2) | api customers (1) |
-| purchasing (7) | performance (2) | api employees (1) |
-| sales (7) | sales orders (2) | api itemCategories (1) |
-|  | user experience (2) | api paymentMethods (1) |
-|  | admin center (1) | api paymentTerms (1) |
-|  | admin center api (1) | api shipmentMethods (1) |
-|  | al development (1) | api unitsOfMeasure (1) |
-|  |  | api vendors (1) |
-|  |  | codeunit buffer building codeunit (1) |
+| administration (19) | migration (3) | table Customer (2) |
+| development (13) | vendor management (3) | api contacts (1) |
+| integration (11) | al development (2) | api countriesRegions (1) |
+| inventory (9) | automation (2) | api currencies (1) |
+| platform (8) | claude desktop (2) | api customers (1) |
+| purchasing (7) | custom api pages (2) | api employees (1) |
+|  | deployment (2) | api Item API page (1) |
+|  | extensions (2) | api itemCategories (1) |
+|  | mcp server (2) | api paymentMethods (1) |
+|  | performance (2) | api paymentTerms (1) |
+|  |  | api Project API page (1) |
+|  |  | api shipmentMethods (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ******* 7
+- 2026-Q1: ********* 9
 - 2026-Q3: ************* 13
-- 2026-Q4: * 1
+- 2026-Q4: *** 3
 
 ## Most recent
 
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (2026-10-05)
+- [Record.IsDirty in Business Central 29: a worked example](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (2026-10-02)
+- [Business Central 2026 Release Wave 2 (v29.0) Is Generally Available](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3088305037286723104--7a3af8e6a8.md) (2026-10-01)
 - [NAV to Business Central: What Actually Moves, and What Needs to Change?](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md) (2026-09-16)
 - [How I Recreated the Extension Upload Experience in Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (2026-09-14)
 - [Pinned Comment Lines for Microsoft Dynamics 365 Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e.md) (2026-09-12)
@@ -178,7 +184,5 @@ Items per quarter, oldest first:
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) (2026-03-13)
 - [Who Keeps Moving My Business Central Work Date?](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4842738910605275102--13a8589b03.md) (2026-03-10)
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (2026-03-09)
-- [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (2026-03-08)
-- [Create Purchase Quotes for Contacts in Business Central](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (2026-03-07)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

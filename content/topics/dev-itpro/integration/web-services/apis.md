@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -327,7 +327,8 @@ links:
     - topic/dev-itpro/integration/web-services/apis/analytics-api-reference
     - topic/dev-itpro/integration/web-services/apis/finance-reports-api
   localizations: []
-  videos: []
+  videos:
+    - video/2N2NhNH7dsk
   posts:
     - post/aardvarklabs-blog/2017
     - post/demiliani-com/11962
@@ -348,7 +349,7 @@ children:
 coverage:
   learn: 261
   code: 0
-  video: 0
+  video: 1
   blog: 6
   guideline: 0
 bc_forms:
@@ -402,6 +403,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/.md) (community post): "Sales Invoices API in Business Central aggregates posted and unposted invoices"
 - [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/.md) (community post): "The Exclude_APIV2 app contains standard API V2 objects that Microsoft uses internally"
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types"
+- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 
 ## Business Central pages and reports
 

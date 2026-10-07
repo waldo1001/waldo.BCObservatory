@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/business-central-2026-release-wave-2.html",
+  "title": "Business Central 2026 Release Wave 2 (v29.0) Is Generally Available",
+  "source": "mohana-blog",
+  "published_at": "2026-10-01T15:47:44.000Z",
+  "words": 205,
+  "summary": "Version 29.0 of Business Central is now generally available for new online environments. Preview sandboxes created before GA will be automatically deleted in early November 2026, so users with test data or custom extensions need to export and migrate to the GA build immediately.",
+  "key_points": [
+    "Version 29.0 is the default option for new online environments created today",
+    "Preview sandboxes from September have about 30 days before automatic deletion",
+    "Preview environments cannot be updated to a different version, requiring export and recreation",
+    "Users must migrate test data and custom extensions to the GA build before the early November cutoff"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "release wave 2",
+    "version 29.0",
+    "general availability",
+    "sandbox environments",
+    "migration",
+    "preview sandbox"
+  ],
+  "objects": [],
+  "features": [
+    "online environment provisioning",
+    "admin center environment management",
+    "version selection",
+    "preview sandbox management"
+  ],
+  "versions": [
+    "29.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Version 29.0 of Business Central is now generally available.",
+      "why_it_matters": "Announces the official GA release date and status for the latest version"
+    },
+    {
+      "text": "Microsoft deletes them automatically about 30 days after GA, which puts the cutoff somewhere in early November 2026.",
+      "why_it_matters": "Clarifies the deadline for migrating away from preview sandboxes"
+    },
+    {
+      "text": "You also cannot update a preview environment to a different version, so there is no path from a preview sandbox to a supported one.",
+      "why_it_matters": "Explains why export and recreation is the only migration path available"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004696,
+    "posts_in_call": 1
+  }
+}

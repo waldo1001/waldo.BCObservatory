@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,13 +70,13 @@ narrative: generated
 
 > User settings and profile management in Business Central for administrators. It answers questions about setting company, role, language, region, time zone and teaching tips for users, and about creating, assigning and customizing profiles and role-based page layouts.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · **unreviewed** (machine-generated narrative)
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 
 This section covers how administrators control the working environment of Business Central users. It has two pages: one on user settings and preferences, and one on users and roles through profiles.
 
-The user settings page explains how an administrator configures personal preferences such as company, role, language, region, time zone and teaching tips. The users and roles page explains profiles: how to create them, assign them to users, customize the pages they show, and move them between environments with export and import. It also covers managing personalization.
+The user settings page explains how an administrator configures personal preferences such as company, role, language, region, time zone and teaching tips. The users and roles page explains profiles: how to create them, assign them to users, customize the pages they show, and export and import them. It also covers managing personalization.
 
 Start with the user settings page for per-user preferences. Move to the users and roles page when you need to shape what a whole group of users sees through role centers and page layouts.
 

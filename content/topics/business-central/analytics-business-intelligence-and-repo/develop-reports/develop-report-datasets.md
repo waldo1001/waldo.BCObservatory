@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Report dataset development in Business Central: an overview of building reports with datasets, layouts (Excel, Word, RDL) and request pages, plus performance guidance for AL developers. It answers questions about report structure, layout choices, and tuning AL code, pages, and web services.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · **unreviewed** (machine-generated narrative)
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
@@ -79,8 +79,8 @@ Then read Performance Articles for AL Developers. It covers efficient page desig
 ## Key points
 
 - Reports can be used for printing, displaying, and processing data.
-- A report is built from a dataset, one or more layouts, and a request page.
-- Supported layout types are Excel, Word, and RDL, with visual layout design.
+- Reports are built using datasets, layouts, and request pages.
+- Layout options include Excel, Word, and RDL, with visual layout design.
 - Report extensions and discoverability are covered in the overview.
 - Performance guidance covers pages, web services, reports, AL coding patterns, data access, and testing.
 - Specific performance topics include page background tasks, Edit-in-Excel, query objects, partial records, table extension impact, and event subscriptions.

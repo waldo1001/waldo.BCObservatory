@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade
 type: topic
 title: Upgrade
-summary: "Upgrade documentation for Business Central on-premises: supported upgrade paths from v14 to v29, per-version upgrade guides, known issues, and related conversion and migration articles. It answers which route reaches a target version, which steps apply to a source version, and what to check first."
+summary: "Upgrade documentation for Business Central on-premises: supported upgrade paths, per-release upgrade guides from v14 through v29, known issues, and related conversion and table migration articles. It answers which route reaches a target version, what to check first, and which steps apply."
 tier: official
 language: en
 system: platform
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:15.485Z"
+  at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 27ecbd38654347640ca362f4ab3c8b8133ef123ccf99cc87b1bd23803978c580
+  input_hash: f33d3cb6f0f38cf01e2f56a7571d1bd783c1354ff9bbbe50516fc8cb2ae9744c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -355,27 +355,28 @@ narrative: generated
 
 # Upgrade
 
-> Upgrade documentation for Business Central on-premises: supported upgrade paths from v14 to v29, per-version upgrade guides, known issues, and related conversion and migration articles. It answers which route reaches a target version, which steps apply to a source version, and what to check first.
+> Upgrade documentation for Business Central on-premises: supported upgrade paths, per-release upgrade guides from v14 through v29, known issues, and related conversion and table migration articles. It answers which route reaches a target version, what to check first, and which steps apply.
 
 Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed by Opus
 
 ## Overview
 
-This section covers upgrading Business Central on-premises. The top-level pages give an overview of upgrading to Dynamics 365 Business Central (online or on-premises, including help migration and multitenancy migration), a matrix of supported upgrade paths, and a list of known issues for installation, upgrade and operations.
+This section covers moving an on-premises Business Central deployment to a newer release. Three pages sit at the top level: an overview of upgrading to Business Central (online or on-premises, including help migration and multitenancy migration), a matrix of supported upgrade paths, and a list of known issues for installation, upgrade and operations.
 
-Each recent release has its own subtopic: v29 (2026 wave 2), v28 (2026 wave 1), v27 (2025 wave 2), v26 (2025 wave 1) and v25 (2024 wave 2). These explain upgrade paths, pre-upgrade considerations, installing a minor update, and upgrading the System and Base Application from earlier versions. Older releases from v14 (spring 2019) through v24 are in Earlier versions. Related articles cover Txt2Al conversion of v14 C/AL code and moving tables and fields between extensions with migration.json.
+Detailed procedures are split by release. The v26 to v29 subtopics cover upgrade paths, pre-upgrade considerations for v26 and later, the upgrade steps from earlier versions, and installing an update of that version. The v25 subtopic covers upgrade paths, installing a v25 update, report and permission changes, and application and data upgrade steps. Earlier versions (v14 through v24) are grouped in one subtopic. A Related articles subtopic covers Txt2Al conversion of version 14 C/AL code to AL and migrating tables and fields between extensions with migration.json.
 
-Start with the supported upgrade paths page to find your route, then open the guide for your target version. Check the known issues page before you begin.
+Start with the supported upgrade paths page to see whether your source version can reach the target directly or needs intermediate versions. Then open the subtopic for the target release, read any pre-upgrade considerations, and follow the upgrade steps.
 
 ## Key points
 
-- The supported upgrade paths page shows direct and indirect routes to each release from v14 (Spring 2019) through v29 (2026 wave 2).
-- Direct upgrade from v14 to the latest version is not supported from v26 onwards; v14 must go through v25.
-- Version guides for v26 to v29 include pre-upgrade considerations for v26 and later, plus steps for updates and for upgrading from earlier versions (for example v25 to v28 for the v29 guide).
-- The v25 subtopic also covers report and permission changes and application and data upgrade steps.
-- Earlier versions (v14 to v24, 92 pages) cover technical upgrade, C/AL to AL conversion, and moving tables between extensions.
-- Related articles cover Txt2Al for v14 C/AL code, migration.json for table ownership moves, and the India Data Migration Toolkit.
-- Known issues list problems such as PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets, for versions 23 to 28.
+- The supported paths page shows direct and indirect routes from v14 (Spring 2019) to v29 (2026 wave 2).
+- Direct upgrade from v14 to the latest is not supported from v26 onwards; v14 must route through v25.
+- The v29 guide covers upgrading from versions 25, 26, 27 or 28 and installing a v29 update.
+- The v28 guide covers upgrading from versions 25, 26 or 27 and installing a v28 update.
+- The v27 and v26 guides cover upgrade paths, pre-upgrade considerations, installing updates and upgrading the System and Base Application.
+- The v25 guide covers upgrade paths, installing a v25 update, report and permission changes, and application and data upgrade steps.
+- Known issues cover PowerShell module failures, evaluation company creation, web server installation, extension sync errors and NavUserPassword authentication.
+- Related articles cover Txt2Al conversion of version 14 C/AL code to AL, migration.json table moves between extensions, and the India Data Migration Toolkit.
 
 ## Subtopics
 

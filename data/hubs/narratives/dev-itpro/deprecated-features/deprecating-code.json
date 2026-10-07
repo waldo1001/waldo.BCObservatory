@@ -7,7 +7,7 @@
     "Deprecation in AL uses preprocessor directives together with the ObsoleteState, ObsoleteTag and ObsoleteReason properties.",
     "CLEAN version symbols (CLEAN15, CLEAN16, CLEAN17, CLEAN18) are used in the Base App to control obsoleted code.",
     "Microsoft's own Base App obsoletion pattern is the model developers are advised to follow.",
-    "Explicit and implicit 'with' statements are deprecated, as described for 2022 release wave 2.",
+    "Explicit and implicit 'with' statements are deprecated in AL; the page on this refers to 2022 release wave 2.",
     "The AL0604 and AL0606 warnings relate to the 'with' statement deprecation.",
     "Fixes for 'with' statements include pragma directives, adding qualifications, and the NoImplicitWith flag."
   ],
@@ -19,5 +19,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009569
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:13.858Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 ties the 'with' statement deprecation to 2022 release wave 2 ('as described for 2022 release wave 2'). The source only lists that release as a version on the page and doesn't say what happened in it. I reworded the point so it doesn't imply a deprecation date.",
+      "Minor: the sources call them 'obsolete attributes' and list ObsoleteState, ObsoleteTag and ObsoleteReason as properties. The narrative uses both terms, which is consistent with the sources."
+    ],
+    "input_hash": "f64ebdfbd9eaafa3b1ff797b3b8549ddbeb00894c7a85f2cc4babe8f7deecb50",
+    "cost_usd": 0.03993920000000001
   }
 }

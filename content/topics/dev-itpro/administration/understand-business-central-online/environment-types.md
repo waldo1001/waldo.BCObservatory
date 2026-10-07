@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,8 +78,7 @@ links:
     - topic/dev-itpro/administration/understand-business-central-online
     - topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments
   localizations: []
-  videos:
-    - video/qYW5wo0fKgA
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -93,7 +92,7 @@ children:
 coverage:
   learn: 7
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -138,12 +137,6 @@ The Demo environments subtopic goes further on demos. It compares an MDX demo en
 - [Prepare for Major Updates with Preview Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments): Learn how to use preview sandboxes to help prepare for the next major update of Business Central online.
 - [Preparing test environments of Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/test-environment): Get an overview of your options for deploying test environments for Dynamics 365 Business Central for performance testing.
 - [Production and Sandbox Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types): Learn about the differences between production and sandbox environments for Dynamics 365 Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's Cooking in Business Central: Early Access Preview](../../../../videos/qYW5wo0fKgA.md) (video): "Early Access Preview Sandbox Environments; EAP Environment Notification Bar"
 
 ## Business Central pages and reports
 

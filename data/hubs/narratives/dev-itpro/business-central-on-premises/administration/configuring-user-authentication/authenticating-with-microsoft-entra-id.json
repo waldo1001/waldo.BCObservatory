@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011455
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:08.949Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 (OpenID Connect page covers versions 20 to 22 and 2022 release wave 1) repeats the page's version tags as given, but it adds little. 2022 release wave 1 is probably the same release as version 20. Consider dropping it or making it clearer.",
+      "The overview says the overview page 'compares' the protocols and notes the 'effect' on Excel add-in, Power BI, Outlook add-in and service-to-service scenarios. The source only lists these as features, so 'covers' would be more exact. This is a small point.",
+      "Last key point says 'Excel'. The source says 'Excel add-in'."
+    ],
+    "input_hash": "b196cf64bce03955116ed020b90d3076c6eb52b6a20572c53a7f113dfe3d4e4c",
+    "cost_usd": 0.0311712
   }
 }

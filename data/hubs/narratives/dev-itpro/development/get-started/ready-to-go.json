@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009222999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:15.604Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point linking API integration and consultancy services to go-to-market scenarios goes slightly beyond the sources: both are listed as features of the opportunity page, but the summaries do not say they are go-to-market scenarios (API integration could equally describe Connect apps). It is a reasonable reading.",
+      "'Submissions go through technical validation' and 'a unique object range is assigned to each publisher' add a little detail to the bare features 'technical validation' and 'unique object range assignment'. Both are reasonable readings."
+    ],
+    "input_hash": "ad0df8a871d16602542c0029978211d0baf2e35a12d6bf52ad423483af0e0431",
+    "cost_usd": 0.03180720000000001
   }
 }

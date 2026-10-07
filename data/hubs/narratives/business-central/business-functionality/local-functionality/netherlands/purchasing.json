@@ -20,5 +20,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008070999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:00.460Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the source only lists 'recurring purchase lines' as a feature of the editing page and gives no details. 'Also covers recurring purchase lines' is acceptable, but 'mentions' (as the overview says) is the safer wording."
+    ],
+    "input_hash": "dfefd5bf6b87943d257dc7a63b452e1700cdf9ec84ff1c8cc2c6e0bab9a9ba57",
+    "cost_usd": 0.0185192
   }
 }

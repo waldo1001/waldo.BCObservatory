@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ narrative: generated
 
 > Working with currencies in Business Central covers setting up currency codes, exchange rates and multi-currency settings, and keeping exchange rates up to date. It answers questions about foreign exchange operations, manual and automatic rate updates, and gains and losses on posted transactions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with currencies · tier official · system finance · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with currencies · tier official · system finance · narrative reviewed by Opus
 
 ## Overview
 

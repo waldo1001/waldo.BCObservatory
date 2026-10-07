@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.037963
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:43.491Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'Access is controlled per API object' combines two separate source features: API object discovery and Read/Create/Modify/Delete/Action permissions. The sources don't say the permissions are set per object. This is likely correct, but it is an inference.",
+      "Key point tying dynamic tool discovery to MCP server use is an inference. The Copilot Studio page lists both features but does not say how they relate."
+    ],
+    "input_hash": "3a66d2fc181760b2e570f4ad8eafd0f0997a32526d57106635b85b812dc65ac2",
+    "cost_usd": 0.026011199999999998
   }
 }

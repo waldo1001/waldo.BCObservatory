@@ -7,12 +7,12 @@ tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:01.586Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Inventory functionality specific to the Swiss version of Business Central. It covers printing inventory picking lists from sales orders and Swiss inventory management behavior such as default location codes, multiple shipments per invoice, and inventory reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Inventory · tier official · system inventory · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Inventory · tier official · system inventory · narrative reviewed by Opus
 
 ## Overview
 

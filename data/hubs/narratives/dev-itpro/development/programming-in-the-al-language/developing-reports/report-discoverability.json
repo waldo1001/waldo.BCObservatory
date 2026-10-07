@@ -2,15 +2,14 @@
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability",
   "input_hash": "34d211b87f14e12cf1c24e6d858b282ec6efa21b3478a440dd33a21ad4fb73f6",
   "summary": "Report discoverability in AL covers how users find and open reports in Business Central. It answers questions about making pages and reports searchable in Tell me with UsageCategory, and about role center navigation, the Role/Report explorer, page actions, teaching tips and help links.",
-  "overview": "This section is about making reports easy for users to find. It has two pages. One is a general overview of the ways a report can be discovered. The other is a focused guide on adding pages and reports to Tell me search.\n\nThe overview lists the discovery paths: Tell me searchability, role center navigation, visibility in the Role/Report explorer, report actions on pages (such as promoted actions), teaching tips, and help links. The Tell me page shows the AL side. You set the UsageCategory property, and optionally AdditionalSearchTerms, so the object appears in search.\n\nStart with the overview to pick the discovery paths that fit your report. Then use the Tell me page for the property settings. Check AccessByPermission and ApplicationArea too, because they relate to who sees the object.",
+  "overview": "This section is about making reports easy for users to find. It has two pages. One is a general overview of the ways a report can be discovered. The other is a focused guide on adding pages and reports to Tell me search.\n\nThe overview lists the discovery paths: Tell me searchability, role center navigation, visibility in the Role/Report explorer, report actions on pages (such as promoted actions), teaching tips, and help links. The Tell me page shows the AL side. You set the UsageCategory property, and optionally AdditionalSearchTerms, so the object appears in search.\n\nStart with the overview to pick the discovery paths that fit your report. Then use the Tell me page for the property settings. That page also mentions the AccessByPermission and ApplicationArea properties and the role explorer.",
   "key_points": [
     "Tell me makes pages and reports searchable when the UsageCategory property is set in AL code.",
     "UsageCategory categories named include Lists, Tasks, ReportsAndAnalysis and Administration.",
     "AdditionalSearchTerms adds extra search terms for finding an object.",
     "Reports can also be discovered through role center navigation, the Role/Report explorer, and actions on pages such as promoted actions.",
     "Teaching tips and help links are part of report discoverability.",
-    "AccessByPermission and ApplicationArea are related to Tell me visibility.",
-    "The overview page lists 2023 release wave 1."
+    "The Tell me page also covers the AccessByPermission and ApplicationArea properties."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -20,5 +19,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009295000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:30.097Z",
+    "verdict": "fix",
+    "issues": [
+      "The sources only list AccessByPermission and ApplicationArea as features of the Tell me page. They don't say these properties control who sees the object or Tell me visibility, so I softened both mentions.",
+      "The key point about 2023 release wave 1 adds nothing an agent can use and doesn't explain what the version tag means, so I removed it.",
+      "'AdditionalSearchTerms adds extra search terms' comes from the property name rather than the summaries. It's a reasonable reading, so I kept it."
+    ],
+    "input_hash": "34d211b87f14e12cf1c24e6d858b282ec6efa21b3478a440dd33a21ad4fb73f6",
+    "cost_usd": 0.0423032
   }
 }

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:04.556Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Embedding Power BI covers how Business Central integrates with Power BI and how developers embed Power BI reports, scorecards, and dashboards in Business Central pages. It answers questions about the integration overview and about the embed framework, its pages, and context handling.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Embedding Power BI · tier official · system reporting · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Embedding Power BI · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 

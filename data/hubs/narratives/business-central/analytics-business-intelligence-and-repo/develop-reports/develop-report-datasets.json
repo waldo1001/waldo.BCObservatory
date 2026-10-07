@@ -5,8 +5,8 @@
   "overview": "This section is for AL developers who build reports and need their datasets to perform well. It has two pages: a reports overview and a collection of performance articles for AL developers.\n\nStart with Reports overview. It explains how reports print, display, and process data, and how the dataset, the layout, and the request page work together. It also covers report extensions and discoverability. Layout options are Excel, Word, and RDL, and you can design them visually.\n\nThen read Performance Articles for AL Developers. It covers efficient page design, web services, reports, AL coding patterns, data access optimization, and testing. Use it to tune the datasets and code behind your reports and the rest of the application.",
   "key_points": [
     "Reports can be used for printing, displaying, and processing data.",
-    "A report is built from a dataset, one or more layouts, and a request page.",
-    "Supported layout types are Excel, Word, and RDL, with visual layout design.",
+    "Reports are built using datasets, layouts, and request pages.",
+    "Layout options include Excel, Word, and RDL, with visual layout design.",
     "Report extensions and discoverability are covered in the overview.",
     "Performance guidance covers pages, web services, reports, AL coding patterns, data access, and testing.",
     "Specific performance topics include page background tasks, Edit-in-Excel, query objects, partial records, table extension impact, and event subscriptions.",
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009137
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:28.466Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 2 says a report has \"one or more layouts\". The source only says reports use datasets, layouts, and request pages, so the count is not supported. Changed it to say only what the source supports.",
+      "The overview says the page explains how the dataset, layout, and request page \"work together\". This is a slightly stronger framing than the source gives, but it stays close and is acceptable.",
+      "The key point listing the release waves is supported, but it does not help an agent much. It is kept because it is accurate."
+    ],
+    "input_hash": "06a4da56f5e28a0f3da6586f5abbc1ca15696cf616374c888462262a51586d60",
+    "cost_usd": 0.0296912
   }
 }

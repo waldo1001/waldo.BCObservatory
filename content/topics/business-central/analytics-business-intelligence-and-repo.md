@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo
 type: topic
 title: Analytics, business intelligence, and reporting
-summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and external BI tools. It answers questions about choosing, running, building, and analyzing reports and data."
+summary: "Analytics, business intelligence, and reporting in Business Central: financial reports, KPIs, Power BI, ad-hoc analysis, built-in reports, report development in AL, and BI tool options. It answers which tool fits a data need, how to use reports day to day, and how to build or extend them."
 tier: official
 language: en
 system: reporting
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:31.722Z"
+  at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 998962c9d1a5d8767a8efe909adbeab6875b1868a6659c79ce10e75421a31ad9
+  input_hash: d5d3623b03460e903a6a1614a861a22b285e24fa9dd6168304091bb084cdd1a4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -643,27 +643,28 @@ narrative: generated
 
 # Analytics, business intelligence, and reporting
 
-> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and external BI tools. It answers questions about choosing, running, building, and analyzing reports and data.
+> Analytics, business intelligence, and reporting in Business Central: financial reports, KPIs, Power BI, ad-hoc analysis, built-in reports, report development in AL, and BI tool options. It answers which tool fits a data need, how to use reports day to day, and how to build or extend them.
 
 Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
-This section brings together everything about getting insight out of Business Central. The overview page describes how different roles consume data, and covers financial reports, KPIs, Power BI apps, ad-hoc analysis, built-in reports and dimensions. A separate page covers analytics content for specific functional areas.
+This area covers how Business Central data is turned into information for different roles. The overview page introduces financial reports, KPIs, Power BI apps, ad-hoc analysis, built-in reports and dimensions, and explains how roles consume data based on organizational needs. A separate page lists analytics content by functional area.
 
-The subtopics split by audience and task. End users can look at KPIs, dashboards and financial reports, analyze lists directly with filters, saved views and data analysis mode, and run, schedule, print and share standard reports. A catalog of built-in reports lists what exists per area, such as finance, sales, purchasing, manufacturing and service.
+The subtopics split by task. End users can start with using reports in daily work, ad-hoc data analysis on lists and pages, and the built-in reports catalog reached through the Report Explorer. Finance and management readers can go to KPIs, dashboards, and financial reports, which includes Power BI integration. Developers use the Develop reports pages for layouts and datasets in AL, and the business intelligence tools pages for Fabric, OneLake, Power BI, data warehouse extraction and the v2.0 REST API.
 
-Developers and BI teams have their own subtopics: building report layouts (Word, Excel, RDLC, external, composite) and datasets in AL, and analyzing data in external tools such as Microsoft Fabric, OneLake, Power BI, data warehouse extraction and the v2.0 REST API. Start with the overview page, then go to the subtopic that matches your role.
+Start with the overview page to pick the approach, then move to the subtopic that matches your role.
 
 ## Key points
 
-- The overview covers financial reports, KPIs, Power BI apps, ad-hoc analysis, built-in reports and dimensions, organized by how roles consume data.
-- KPIs, dashboards and financial reports: define and monitor KPIs, build financial reports from G/L data and account categories, and use Power BI apps.
-- Ad-hoc analysis: sorting, searching, filtering, saved list views, data analysis mode with pivot, opening and editing in Excel, and exporting datasets to Excel or XML.
-- Daily report use: run, preview, print, schedule and share reports, with saved settings, layouts, default printers and bookmarks.
-- Built-in reports are listed per area (finance, sales, purchasing, fixed assets, project, assembly, manufacturing, service) and reached via the Report Explorer.
-- Report development: create, edit, import, export and assign layouts of types Word, Excel, RDLC, external and composite, and tune report AL code.
-- External BI: Microsoft Fabric and OneLake, Power BI, data warehouse extraction and the v2.0 REST API, with AL performance guidance and on-premises limits on cloud insights.
+- Financial reports are built from account categories, and KPIs can be chosen and monitored alongside Power BI apps and dashboards.
+- Ad-hoc analysis works directly on pages and lists: sorting, searching, filtering, saved list views, data analysis mode with pivot, and Open in Excel/Edit in Excel.
+- Daily report use covers running, previewing, printing, scheduling and sharing reports, saved settings, layouts, default printers, bookmarks, and raw data export to Excel or XML.
+- Built-in reports exist for finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service management, found via the Report Explorer.
+- Report development supports Word, Excel, RDLC, external and composite layouts, with datasets and request pages defined in AL.
+- BI tool options include Microsoft Fabric and OneLake, Power BI, data warehouse extraction, and the v2.0 REST API for connect apps.
+- On-premises installations lack some cloud insights unless cloud migration is used.
+- Performance guidance for AL developers and report generation telemetry are covered.
 
 ## Subtopics
 

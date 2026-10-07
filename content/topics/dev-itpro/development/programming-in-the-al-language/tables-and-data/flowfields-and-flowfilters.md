@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:22.410Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > FlowFields and FlowFilters in AL are virtual fields that calculate and display values dynamically without storing data. The section answers questions about how to create them, which FlowField types exist, how CalcFormula works, and how FlowFilters limit calculations at runtime.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
@@ -92,7 +92,7 @@ Start with the creation page if you need to define a field, then read the two ov
 - FlowFields and FlowFilters are virtual fields: they calculate and display results dynamically and do not store data physically.
 - A FlowField gets its value from the CalcFormula property, and the FieldClass property marks the field as a FlowField or FlowFilter.
 - Seven FlowField types are available: Sum, Average, Exist, Count, Min, Max, and Lookup.
-- FlowFields show results immediately and help performance; SIFT optimization and calculating only visible FlowFields are covered in the overview (version 26.0).
+- FlowFields show results immediately and help performance; the FlowFields overview covers SIFT optimization and calculating only visible FlowFields.
 - FlowFilters let users set ranges and filters at runtime to limit FlowField calculations, such as summing customer entries for a specific month.
 - FlowFilter values are not stored in the database.
 

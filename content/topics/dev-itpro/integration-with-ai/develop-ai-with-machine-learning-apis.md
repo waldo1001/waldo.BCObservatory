@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:16.249Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Machine learning APIs in Business Central for partners building AI features: the Forecasting (Time Series) API, the Prediction API, and a transparency note on capabilities, limits and responsible AI. It answers which API fits a task, which methods or algorithms it uses, and how to apply it responsibly.
 
-Path: [Integration with AI](../integration-with-ai.md) > Develop AI with machine learning APIs · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Integration with AI](../integration-with-ai.md) > Develop AI with machine learning APIs · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 

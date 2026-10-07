@@ -2,17 +2,17 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/prepare
 type: topic
 title: Prepare
-summary: Preparation for migrating from Dynamics GP on-premises to Business Central online. It covers prerequisites for the destination and source systems, plus planning guidance on strategy, assessment, data scope, and migration approach. It answers what is needed before starting and how to plan.
+summary: Preparation for migrating from Dynamics GP on-premises to Business Central online. Covers prerequisites for the destination environment, the source system and the self-hosted integration runtime infrastructure. Also covers planning recommendations on migration strategy, the migration assessment tool, data scope, and a migration approach that includes backup, replication and upgrade steps. Use it to check what is needed before starting and how to plan.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:51.387Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,25 +65,23 @@ narrative: generated
 
 # Prepare
 
-> Preparation for migrating from Dynamics GP on-premises to Business Central online. It covers prerequisites for the destination and source systems, plus planning guidance on strategy, assessment, data scope, and migration approach. It answers what is needed before starting and how to plan.
+> Preparation for migrating from Dynamics GP on-premises to Business Central online. Covers prerequisites for the destination environment, the source system and the self-hosted integration runtime infrastructure. Also covers planning recommendations on migration strategy, the migration assessment tool, data scope, and a migration approach that includes backup, replication and upgrade steps. Use it to check what is needed before starting and how to plan.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Prepare · tier official · system administration · **unreviewed** (machine-generated narrative)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Prepare · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 
-This section is the first step of the Dynamics GP to Business Central online migration path. It has two pages: one on prerequisites and one on preparing and planning the migration.
-
-Start with the planning page to define the migration strategy, run the migration assessment tool, and decide which data to move. Then use the prerequisites page to check the destination environment, the source system requirements, and the infrastructure needed for a self-hosted integration runtime.
+This section sits under Migrate from Dynamics GP in the Business Central online migration documentation. It has two pages: one on prerequisites and one on preparing and planning the migration.\n\nThe planning page gives recommendations for defining a migration strategy, using the migration assessment tool, determining data scope, and planning the migration approach, including backup, replication and upgrade steps. The prerequisites page covers setup of the destination environment, source system requirements, and infrastructure needs for a self-hosted integration runtime.
 
 ## Key points
 
 - Prerequisites cover the destination Business Central environment, the source GP system, and infrastructure for the self-hosted integration runtime.
-- The Intelligent Cloud Base app and the Dynamics GP Intelligent Cloud app are part of the setup requirements.
-- SQL Server authentication is among the source system requirements.
-- The planning page recommends using the migration assessment tool to help define strategy.
-- Data scope is determined with company-based data migration in mind.
-- Planning covers the migration approach, including backup, replication, and data upgrade steps.
-- Azure Data Lake backup and data backup migration are covered as part of planning and prerequisites.
+- The Intelligent Cloud Base app and the Dynamics GP Intelligent Cloud app appear on the prerequisites page.
+- SQL Server authentication and data backup migration are also covered on the prerequisites page.
+- The planning page gives recommendations on defining a migration strategy and on using the migration assessment tool.
+- Planning includes determining data scope. Company-based data migration is one of the topics on the planning page.
+- The planned migration approach includes backup, replication and data upgrade steps.
+- Azure Data Lake backup is covered on the planning page.
 
 ## Learn pages
 

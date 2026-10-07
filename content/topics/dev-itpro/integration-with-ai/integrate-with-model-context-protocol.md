@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:35.934Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,7 @@ links:
     - video/4HE3BBCcV84
     - video/C5cmG3sNjUg
     - video/GeT5E_f9A9Q
+    - video/GK6hM-nBYZk
     - video/rm-FstU_I80
     - video/zei-IszvYNU
   posts:
@@ -88,6 +89,7 @@ links:
     - post/demiliani-com/13391
     - post/gerardorenteria-blog/12682
     - post/katson-com/4678
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -98,8 +100,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 6
-  blog: 7
+  video: 7
+  blog: 8
   guideline: 0
 bc_forms:
   - 8350
@@ -152,10 +154,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: BCMCPProxy vNext](../../../posts/demiliani-com/13391.md) (community post): "bridges Model Context Protocol clients with Business Central's API"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages in Business Central 27.1, allows APIs to describe themselves to AI assistants"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "Connect external AI agents to Business Central using the Model Context Protocol"
+- [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234.md) (community post): "connecting it to Claude Desktop via Azure App Registration for delegated authentication to Business Central"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server; MCP Configuration Validations; Support for Multiple MCP Hosts"
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "mcp server; api queries; power bi apps; external agents"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central; Default Configuration Mode; Named Configurations; Dynamic Tools System"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "mcp server; configurations; agent permissions; api pages; dynamic tool mode"
+- [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../videos/GK6hM-nBYZk.md) (video): "copilot studio; agent building; mcp server; power automate; business central connector"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "Model Context Protocol; mcp server; Business Central MCP Server; MCP Server Configuration"
 - [MCP Server and All Microsoft API's (2026 release wave 1)](../../../videos/zei-IszvYNU.md) (video): "MCP Server and All Microsoft API's. Topics: mcp server; microsoft apis; agents"
 

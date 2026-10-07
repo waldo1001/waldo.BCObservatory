@@ -7,12 +7,12 @@ tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Warehouse management design details in Business Central: how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered. It answers questions about warehouse quantity mechanics and entry creation.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · narrative reviewed by Opus
 
 ## Overview
 
@@ -78,13 +78,12 @@ There are no subtopics. Start with the availability page if you are investigatin
 
 ## Key points
 
-- Available-to-pick and available-to-reserve quantities are calculated separately and are affected by allocations and reservations.
-- Bin content is the basis for tracking item quantities per bin.
-- Pick allocation and bin level allocation reduce what can still be picked or reserved.
-- Warehouse reservations and outbound flows are considered in availability calculations.
-- Warehouse entries are created by warehouse transactions and linked to warehouse registers.
+- Available-to-pick and available-to-reserve quantities are calculated with warehouse activities and outbound flows taken into account.
+- Item allocations and warehouse reservations affect how much can be picked or reserved.
+- Bin content tracking, pick allocation and bin level allocation are explained as part of warehouse availability.
+- Warehouse entries track item movements within a warehouse, are created by warehouse transactions and are linked to warehouse registers.
 - The ConcurrentWarehousingPosting feature key controls whether entry numbers are sequential or concurrent.
-- Entry numbering relies on sequence numbers when concurrent posting is used.
+- Sequence numbers are covered as part of how warehouse entries are numbered.
 
 ## Learn pages
 

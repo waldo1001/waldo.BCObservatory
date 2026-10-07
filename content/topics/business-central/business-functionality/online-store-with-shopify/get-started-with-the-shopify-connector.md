@@ -7,12 +7,12 @@ tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,7 +72,7 @@ narrative: generated
 
 > The Shopify connector getting-started section explains how to connect a Shopify store to Business Central and synchronize items, prices, inventory, customers, companies and orders. It also covers creating a Shopify test account. It answers first-setup and test-environment questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Online store with Shopify](../online-store-with-shopify.md) > Get started with the Shopify connector · tier official · system integration · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Online store with Shopify](../online-store-with-shopify.md) > Get started with the Shopify connector · tier official · system integration · narrative reviewed by Opus
 
 ## Overview
 

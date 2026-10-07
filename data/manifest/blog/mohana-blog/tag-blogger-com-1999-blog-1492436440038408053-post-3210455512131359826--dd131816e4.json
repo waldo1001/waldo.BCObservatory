@@ -7,7 +7,7 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/recordisdirty-in-business-central-29.html",
   "published_at": "2026-10-02T06:07:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-07T05:17:25.697Z",
       "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md",
       "words": 371
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:43.067Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005474
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:43.068Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:43.069Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:43.077Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md"
     }
   },
   "input_hash": "2026-10-02T06:07:43.109Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b8c8cdba391850fb9cd160ff47d75e541d70d44bf3b0d1469c6a2e7953c457a"
+  "output_hash": "a86c99c52b37f01af2f5e108ef422e460c18301fa3d3ce089e7eadf094dac60f"
 }

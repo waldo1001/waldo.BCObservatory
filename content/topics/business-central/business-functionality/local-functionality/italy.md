@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy
 type: topic
 title: Italy
-summary: Italy local functionality in Business Central covers Italian VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
+summary: "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets, and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:24.772Z"
+  at: "2026-10-07T05:21:03.562Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 75e4debde7eaf07fda3f6053994880c1a39822cef19730727ad4c36ffe0fe913
+  input_hash: 88452f1c82a4d7f06f982b74c7cd69e76d25f7c97182b21740f7015b66ce15f8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
@@ -319,25 +319,31 @@ narrative: generated
 
 # Italy
 
-> Italy local functionality in Business Central covers Italian VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
+> Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets, and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed by Opus
 
 ## Overview
 
-The Italy section describes features specific to the Italian version of Business Central. An entry page lists the areas: VAT, withholding tax, banking payments, core finance, inventory, fixed assets and electronic invoicing. It mentions 2027 release wave 1 and wave 2.
+The Italy section collects the features that adapt Business Central to Italian accounting and tax rules. The landing page "Italy local functionality" briefly summarizes the areas: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets, and electronic invoicing. It names Italian VAT, VAT statements, VAT transactions reports, payment terms and automatic payments as features.
 
-Seven subtopics hold the detail. VAT is the largest, with 8 pages on VAT codes, transaction reports, statements, registers and Intrastat. Fixed assets (5 pages) and banking and payments (4 pages) come next. Core finance and General have 3 pages each. Withholding tax and Inventory have 2 pages each.
+Subtopics cover each area in detail. VAT is the largest, with VAT codes and rates, transaction reports, statement submission, G/L book and VAT register printing, and Intrastat. Each of these areas has its own pages:
+- Withholding tax.
+- Banking and payments: bills, SEPA Credit Transfer and Direct Debit, and installments.
+- Core finance: fiscal year closing, debit and credit definitions, and journal reversal limits.
+- Inventory: fiscal valuation and initial costs.
+- Fixed assets: alternate and compressed depreciation, and Depreciation Book reports.
 
-Start with the entry page to find the area you need. Then go to the matching subtopic. For a first-time Italian setup, check General (company information, Intrastat templates and batches) and then VAT.
+The General subtopic holds company information setup, Intrastat journal templates, and the deprecated Italian Subcontracting feature. For other tasks, go to the subtopic for that area.
 
 ## Key points
 
-- VAT: VAT codes and rates, VAT transaction reports (create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports.
-- Withholding tax: setup for vendor purchases and third-party services, plus printing Withholding Taxes reports for amounts payable to the Italian government.
+- VAT: set up VAT codes and rates, then prepare, create, export and correct VAT transaction reports and submit VAT statements.
+- VAT also covers printing the G/L book and VAT registers, plus Intrastat reports for Italy.
+- Withholding tax: set it up for vendor purchases and third-party services, and print Withholding Taxes reports for amounts payable to the Italian government.
 - Banking and payments: automatic payments and bills, vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments.
 - Core finance: fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and restrictions on reversing journal entries.
-- Inventory: fiscal inventory valuation (valuation methods, components valuation, estimated WIP consumption, valuation type per item) and initial item costs for average year cost.
+- Inventory: fiscal inventory valuation (components valuation, estimated WIP consumption, valuation type per item) and initial item costs for average year cost.
 - Fixed assets: anticipated, accelerated and reduced depreciation, compressed depreciation, multiple fixed asset cards from purchase invoices, and Depreciation Book reports.
 - General: company information setup, Intrastat journal templates and batches, and the deprecated Italian Subcontracting feature with its migration.
 

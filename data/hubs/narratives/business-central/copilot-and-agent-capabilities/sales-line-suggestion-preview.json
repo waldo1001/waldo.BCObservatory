@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.037249
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:17.006Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview leaves out the find-products-from-attachments capability from the FAQ page. Only a key point mentions it.",
+      "Small inferences: 'for use in the sales document' (find by reference) and 'how suggestions are rated' (confidence scoring) go a little beyond the bare feature names. They are still reasonable readings."
+    ],
+    "input_hash": "62b41ce2a7e6aeedb9223bc107ec39e79f7fe805fa3349310b324e1db501a625",
+    "cost_usd": 0.025495200000000003
   }
 }

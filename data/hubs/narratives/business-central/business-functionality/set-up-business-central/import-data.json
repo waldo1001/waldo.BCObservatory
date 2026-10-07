@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008231
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:09.914Z",
+    "verdict": "approve",
+    "issues": [
+      "The claim that QuickBooks migration is started from assisted setup comes only from the feature tag 'assisted setup', not from the page summary. The link is reasonable but inferred.",
+      "The 'Start with the QuickBooks page / Excel page' advice is editorial guidance, not sourced. It is reasonable because the pages split by source system."
+    ],
+    "input_hash": "cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe",
+    "cost_usd": 0.0248752
   }
 }

@@ -1,17 +1,17 @@
 {
   "hub_id": "topic/business-central/integrate-with-other-applications/dynamics-365-field-service",
   "input_hash": "e84fac25230b1a4119ecda9bb903d806c142afb6780c24be5c5b1594ca38334d",
-  "summary": "Dynamics 365 Field Service integration with Business Central: how to set it up and use it to sync work orders, post project journal consumption, manage inventory and locations, and create sales invoices. It answers questions about integration types and what data flows between the two systems.",
-  "overview": "This section covers the integration between Business Central and Dynamics 365 Field Service, aimed at service organizations that want to streamline service operations. Work orders in Field Service are synchronized with Business Central project journals or service orders, and invoicing and fulfillment can be automated. The integration is described as bi-directional.\n\nThere are two pages. The first introduces the integration, including resource scheduling, item availability tracking and service order status management, and mentions 2021 release wave 2. The second explains day-to-day use: tracking work order consumption, managing locations and inventory availability, aligning resource bookings, and creating sales invoices.\n\nStart with the introductory page to understand what the integration does and which setup you need. Then read the usage page to choose between the two integration types, Project-only and Project and Service, and to see how work orders map to project tasks or service orders.",
+  "summary": "Dynamics 365 Field Service integration with Business Central: syncing work orders with project journals, project tasks or service orders, posting work order consumption, managing locations and inventory availability, aligning resource bookings, and creating sales invoices. Use it for questions about the Project-only and Project and Service integration types and what the integration covers.",
+  "overview": "This section covers the integration between Business Central and Dynamics 365 Field Service. It is aimed at service organizations that want to streamline service operations. Field Service work orders are synchronized with Business Central project journals, project tasks or service orders, and invoicing and fulfillment can be automated. The sources describe the synchronization as bi-directional.\n\nThere are two pages. The first introduces the integration and lists work order sync, project journal posting, resource scheduling, item availability tracking and service order status management. Its listed version is 2021 release wave 2. The second covers day-to-day use: tracking work order consumption, managing locations and inventory availability, aligning resource bookings and creating sales invoices.\n\nRead the introductory page first to see what the integration does. Then read the usage page to learn about the two integration types, Project-only and Project and Service, and how work orders are synchronized with project tasks or service orders.",
   "key_points": [
-    "Integrates Business Central with Dynamics 365 Field Service to streamline service operations.",
-    "Work orders sync with project journals, with consumption posted through project journals.",
-    "Two integration types exist: Project-only and Project and Service.",
-    "Work orders can be synchronized with project tasks or with service orders, depending on the type.",
+    "Integrates Business Central with Dynamics 365 Field Service to streamline service operations for service organizations.",
+    "Work orders sync with project journals, and work order consumption is posted through project journals.",
+    "There are two integration types: Project-only and Project and Service.",
+    "Depending on the integration type, work orders are synchronized with project tasks or with service orders.",
     "Supports location management and inventory availability tracking.",
-    "Sales invoices can be created from work order activity, automating invoicing and fulfillment.",
-    "Resource scheduling and booking alignment are part of the integration.",
-    "The introductory page references 2021 release wave 2."
+    "Sales invoices can be created, and invoicing and fulfillment can be automated.",
+    "Resource scheduling and resource booking alignment are part of the integration.",
+    "The introductory page lists 2021 release wave 2 as its version."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -21,5 +21,19 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009575
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:40.869Z",
+    "verdict": "fix",
+    "issues": [
+      "Summary says the hub explains 'how to set it up', and the overview says the intro page explains 'which setup you need'. Neither page summary mentions setup steps, so both claims were removed.",
+      "Key point 6 says sales invoices are created 'from work order activity'. That link is inferred. The source only says sales invoices can be created and that invoicing and fulfillment can be automated, so the point was reworded.",
+      "Key point 8 only says that a version is referenced. It was reworded to state plainly what the sources give: the intro page lists 2021 release wave 2 as its version.",
+      "All other claims are supported: bi-directional sync, the two integration types, mapping to project tasks or service orders, location and inventory management, and resource scheduling and booking alignment."
+    ],
+    "input_hash": "e84fac25230b1a4119ecda9bb903d806c142afb6780c24be5c5b1594ca38334d",
+    "cost_usd": 0.0388352
   }
 }

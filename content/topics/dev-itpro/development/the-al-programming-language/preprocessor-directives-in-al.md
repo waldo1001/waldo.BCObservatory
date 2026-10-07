@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:14.961Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > Preprocessor directives in AL: conditional compilation with #if, #else, #elif and #endif, regions for collapsible code, and pragma directives that give the compiler special instructions. It answers questions about defining symbols, organizing code, and suppressing warnings.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Preprocessor directives in AL · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Preprocessor directives in AL · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

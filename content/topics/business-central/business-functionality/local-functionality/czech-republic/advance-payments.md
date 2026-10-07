@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:45.684Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Advance payments in the Czech version of Business Central: the localization extension for sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, foreign currency, and the setup of templates and VAT posting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · narrative reviewed by Opus
 
 ## Overview
 

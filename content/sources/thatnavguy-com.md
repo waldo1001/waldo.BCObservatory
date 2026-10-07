@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 68 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 70 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T05:17:08.437Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a3695612661a3ac802b7a9ca3551efee61e5d2392daa4b4c4b9119bd0d144a2f
+  input_hash: 19268ae7b32a887852618f15b7dc5d3a38161231e52f47c5c37e218955b1bdfd
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -76,6 +76,8 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-60-devtoys--387b1c4ee3
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-63-sharing-full-screenshot--d97c0a6ee1
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-64-filter-tokens-codeunit--83ed307789
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-65-freeze-column-property--96541514c3
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62
@@ -108,13 +110,13 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 68
+item_count: 70
 footprint:
   systems:
     - id: development
-      weight: 66
+      weight: 68
     - id: administration
-      weight: 28
+      weight: 30
     - id: platform
       weight: 26
     - id: integration
@@ -129,20 +131,20 @@ footprint:
     - id: user experience
       weight: 9
     - id: best practices
-      weight: 5
-    - id: developer tools
-      weight: 5
+      weight: 6
     - id: extensions
+      weight: 6
+    - id: developer tools
       weight: 5
     - id: performance
       weight: 5
     - id: codeunit
       weight: 4
+    - id: troubleshooting
+      weight: 4
     - id: vs code
       weight: 4
     - id: ai
-      weight: 3
-    - id: automation
       weight: 3
   objects:
     - id: table Sales Header
@@ -159,6 +161,8 @@ footprint:
       weight: 1
     - id: codeunit Dimension CaptionClass Mgmt
       weight: 1
+    - id: codeunit Filter Tokens
+      weight: 1
     - id: codeunit Gen. Jnl.-Post Batch
       weight: 1
     - id: codeunit Gen. Journal Alloc. Acc. Mgt.
@@ -167,8 +171,6 @@ footprint:
       weight: 1
     - id: codeunit Item Jnl.-Post Line
       weight: 1
-    - id: codeunit Math
-      weight: 1
   features: []
 first_item: "2025-04-11"
 last_item: "2026-10-02"
@@ -176,7 +178,7 @@ last_item: "2026-10-02"
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 68 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform.
+> That NAV Guy (Teddy Herryanto, MVP): 70 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -184,18 +186,18 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (66) | al development (21) | table Sales Header (4) |
-| administration (28) | user experience (9) | table Sales Invoice Header (3) |
-| platform (26) | best practices (5) | api api (1) |
-| integration (13) | developer tools (5) | api Exclude_APIV2 (1) |
-| reporting (11) | extensions (5) | codeunit codeunit (1) |
+| development (68) | al development (21) | table Sales Header (4) |
+| administration (30) | user experience (9) | table Sales Invoice Header (3) |
+| platform (26) | best practices (6) | api api (1) |
+| integration (13) | extensions (6) | api Exclude_APIV2 (1) |
+| reporting (11) | developer tools (5) | codeunit codeunit (1) |
 | finance (10) | performance (5) | codeunit Config. Package Management (1) |
 |  | codeunit (4) | codeunit Dimension CaptionClass Mgmt (1) |
+|  | troubleshooting (4) | codeunit Filter Tokens (1) |
 |  | vs code (4) | codeunit Gen. Jnl.-Post Batch (1) |
 |  | ai (3) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
-|  | automation (3) | codeunit Item Jnl.-Post Batch (1) |
+|  |  | codeunit Item Jnl.-Post Batch (1) |
 |  |  | codeunit Item Jnl.-Post Line (1) |
-|  |  | codeunit Math (1) |
 
 ## Flight path
 
@@ -204,7 +206,7 @@ Items per quarter, oldest first:
 - 2025-Q2: ************* 13
 - 2025-Q3: ************** 14
 - 2025-Q4: ************** 14
-- 2026-Q1: ***** 5
+- 2026-Q1: ******* 7
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
 - 2026-Q4: * 1

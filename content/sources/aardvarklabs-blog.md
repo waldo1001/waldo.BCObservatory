@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 77 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 79 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T05:17:08.437Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3c879e9fea688dbab02f1a01f35994b154f9416d7d2965b685b5839067bfa184
+  input_hash: 5f19f94e538099c848f92a63121b2f36ea432e721d1548d3aa1e5579a469cb97
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -43,6 +43,7 @@ links:
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/1818
     - post/aardvarklabs-blog/1822
+    - post/aardvarklabs-blog/2044
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/1824
     - post/aardvarklabs-blog/2196
@@ -76,6 +77,7 @@ links:
     - post/aardvarklabs-blog/2965
     - post/aardvarklabs-blog/2953
     - post/aardvarklabs-blog/3032
+    - post/aardvarklabs-blog/3099
     - post/aardvarklabs-blog/2936
     - post/aardvarklabs-blog/3081
     - post/aardvarklabs-blog/3120
@@ -117,17 +119,17 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 77
+item_count: 79
 footprint:
   systems:
     - id: development
-      weight: 89
+      weight: 90
     - id: integration
       weight: 47
     - id: copilot
-      weight: 39
+      weight: 41
     - id: platform
-      weight: 27
+      weight: 28
     - id: administration
       weight: 22
     - id: reporting
@@ -185,7 +187,7 @@ last_item: "2026-10-02"
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 77 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 79 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -193,10 +195,10 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (89) | al development (20) | table Customer (7) |
+| development (90) | al development (20) | table Customer (7) |
 | integration (47) | copilot (9) | page Customer Card (5) |
-| copilot (39) | al code (8) | table Sales Header (4) |
-| platform (27) | api (6) | table Vendor (3) |
+| copilot (41) | al code (8) | table Sales Header (4) |
+| platform (28) | api (6) | table Vendor (3) |
 | administration (22) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
 | reporting (17) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
@@ -211,9 +213,9 @@ last_item: "2026-10-02"
 Items per quarter, oldest first:
 
 - 2025-Q2: ********** 10
-- 2025-Q3: *************** 15
+- 2025-Q3: **************** 16
 - 2025-Q4: ************* 13
-- 2026-Q1: ************ 12
+- 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ************* 13
 - 2026-Q4: * 1

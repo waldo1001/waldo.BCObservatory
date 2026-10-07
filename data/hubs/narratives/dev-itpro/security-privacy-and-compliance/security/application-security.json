@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.010029
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:24.931Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says the whole section applies to both online and on-premises. Only the layered security and user creation pages say this; the Permissions on Objects summary does not mention deployment type. This is a minor generalization.",
+      "The layered security page also mentions secure development practices, which the narrative leaves out. This is an omission, not an error.",
+      "Key point 7 ('Permission sets are defined in AL') is thin and partly repeats key point 5. It could be merged."
+    ],
+    "input_hash": "f19b4f5cbea97eef34ab524f71fd2cdd147b75cc8ec2838cdded4ffea3c2434e",
+    "cost_usd": 0.0307872
   }
 }

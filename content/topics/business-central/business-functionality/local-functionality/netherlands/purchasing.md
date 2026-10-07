@@ -7,12 +7,12 @@ tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:00.460Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Purchasing for the Netherlands local version of Business Central. It covers checking document amounts on purchase invoices and credit memos and editing the document amount including VAT and the VAT amount. Use it for questions about amount validation before posting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Purchasing · tier official · system purchasing · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
 
 ## Overview
 

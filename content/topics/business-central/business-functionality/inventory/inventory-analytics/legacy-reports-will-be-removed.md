@@ -7,12 +7,12 @@ tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:35.768Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,15 +69,15 @@ narrative: generated
 
 > Legacy inventory reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers questions about what each report shows, how it is filtered, and what it is used for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · narrative reviewed by Opus
 
 ## Overview
 
-This section lists inventory analytics reports that Microsoft Learn labels as legacy and will be removed. It has two pages and no subtopics, one for each report.
+This section lists inventory analytics reports that Microsoft Learn labels as legacy and will be removed. It has no subtopics and two pages, one for each report.
 
-The Inventory Availability Plan report shows accumulated values such as gross requirements, scheduled receipts, and planned receipts by item and SKU. The page notes that an Excel replacement is available. The Item Age Composition - Quantity report shows on-hand inventory aged by receipt date in three equal-length periods, so you can find unused or slow-moving stock.
+The Inventory Availability Plan report shows accumulated values such as gross requirements, scheduled receipts, and planned receipts by item and SKU. The page notes that an Excel replacement is available. The Item Age Composition - Quantity report shows on-hand inventory aged by receipt date in three equal-length periods, so you can find unused or slow-moving stock. You can filter it by warehouse and by item.
 
-Start here if you still use either report and need to know what it does. Because both are slated for removal, check for the replacement before building new processes on them.
+Start here if you still use either report and need to know what it does. Both reports are slated for removal, so avoid building new processes on them. For Inventory Availability Plan, use the Excel replacement instead. The sources do not name a replacement for Item Age Composition - Quantity.
 
 ## Key points
 

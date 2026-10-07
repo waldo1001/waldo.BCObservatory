@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:27.085Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Suggest number series with Copilot (preview) covers using AI to create and modify number series for entities and feature areas from natural language or structured input. It answers questions about how to generate and review suggestions, what the feature can do, and its limits and responsible use.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
@@ -80,12 +80,12 @@ Start with the how-to page to learn the workflow, then read the FAQ to understan
 
 - Creates new number series and modifies existing ones using natural language input.
 - Can prepare number series for a fiscal year.
-- Supports structured input as well as free text, with a Prompt Guide to help write requests.
-- Supports multiple entities and feature areas in one request.
-- Generated suggestions are shown in the No. Series Generations view.
-- The Keep it action accepts a suggestion and applies it.
-- Setup pages are updated with the accepted number series.
-- The feature is in preview; the FAQ describes limitations and responsible use.
+- Accepts structured input as well as natural language; the how-to page covers the Prompt Guide.
+- Provides multi-entity support for number series across entities and feature areas.
+- The how-to page covers the No. Series Generations view and the Keep it action.
+- The how-to page explains how setup pages get updated with number series.
+- Aims to reduce setup time and errors when configuring number series.
+- The feature is in preview; the FAQ describes capabilities, limitations and responsible use.
 
 ## Learn pages
 

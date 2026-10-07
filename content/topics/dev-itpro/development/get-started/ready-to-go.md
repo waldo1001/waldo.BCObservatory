@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:15.604Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Ready to Go covers how to start building and publishing Business Central apps for the Microsoft commercial marketplace, and the business case for doing so. It answers questions about partner registration, object ranges, and Partner Center submission, and about app types and go-to-market options.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > Ready to Go · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Get started](../get-started.md) > Ready to Go · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

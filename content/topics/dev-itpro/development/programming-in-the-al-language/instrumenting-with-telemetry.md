@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,8 +89,10 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry
   localizations: []
   videos:
-    - video/mnxOSl1Y9PI
+    - video/7rIHz0zrgWU
+    - video/b54ehH4AlFA
   posts:
+    - post/demiliani-com/13369
     - post/waldo-be/317845
   guidelines: []
 learn_toc_path:
@@ -104,8 +106,8 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 1
-  blog: 1
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
@@ -150,7 +152,9 @@ This section covers how an app or extension publisher gets monitoring data from 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../../posts/demiliani-com/13369.md) (community post): "hardware and network telemetry parameters in page views"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
-- [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../../../videos/mnxOSl1Y9PI.md) (video): "Telemetry for AL Developers; Security for Developers; Extensibility Overview"
+- [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "Long running AL telemetry - total and exclusive time; Long running AL SQL statistics"
+- [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

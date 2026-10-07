@@ -6,12 +6,12 @@ summary: Help and Support in Business Central covers where users find help (Chat
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:33.250Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ narrative: generated
 
 > Help and Support in Business Central covers where users find help (Chat with Copilot, the Help pane, the Help & Support page) and how administrators manage technical support. It answers questions about troubleshooting resources, telemetry, and contacting support.
 
-Path: [Get started](../get-started.md) > Help and Support · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Get started](../get-started.md) > Help and Support · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 

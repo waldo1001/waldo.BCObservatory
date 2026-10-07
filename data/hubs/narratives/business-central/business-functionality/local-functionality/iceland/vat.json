@@ -19,5 +19,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008163
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:56.338Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'VAT is hidden' follows the source wording; the default behavior likely hides the VAT summary section, but this matches the page summary.",
+      "Minor: the last key point is drawn from feature tags and adds little beyond the other points."
+    ],
+    "input_hash": "878611df273fb0335161fccec5f9053ac3580d359f43058d0c030a98ab47933b",
+    "cost_usd": 0.0204352
   }
 }

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:13.287Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Accessing device capabilities in AL covers how AL code reaches device features in Business Central: GPS location and the camera. It answers questions about which codeunit or DotNet type to use online versus on-premises, and which methods and triggers to call.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Accessing device capabilities · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Accessing device capabilities · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

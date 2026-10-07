@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:49.261Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · **unreviewed** (machine-generated narrative)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 

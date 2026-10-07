@@ -9,8 +9,8 @@
     "The VAT statement supports temporary 5% VAT rates.",
     "Statement creation includes period filtering and reporting type selection.",
     "A VAT statement can be exported as an FDF file or as XML.",
-    "The Update VAT Statement function is part of the creation process.",
-    "VIES reporting supports EU compliance, with XML export for submission through the Finanz Online Portal."
+    "The Update VAT Statement function is available when creating a statement.",
+    "VIES reporting supports EU compliance, and VAT reporting integrates with the Finanz Online Portal for submission to tax authorities."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008493
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:45.545Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 7 says VIES XML export is submitted through the Finanz Online Portal. The source lists VIES reporting, XML export and Finanz Online Portal integration as separate features of the reporting page and doesn't link them that way. I reworded the point so each claim stands on its own.",
+      "Key point 6 is vague ('part of the creation process'), but the source does list Update VAT Statement as a feature of the creation page, so I kept it.",
+      "The summary and overview are supported by the page summaries."
+    ],
+    "input_hash": "0e787538b682a13d90df3b3198135fea6e33b8ea0ec1c260a84b322c0d9d4c82",
+    "cost_usd": 0.0284912
   }
 }

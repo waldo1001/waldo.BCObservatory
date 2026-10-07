@@ -7,12 +7,12 @@ tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,19 +65,19 @@ narrative: generated
 
 > Event-based integration of Business Central with external systems: business events (preview) that notify or trigger external systems via Dataverse and Power Automate, and webhooks that push notifications when entities change. It answers questions on subscribing to events, registering webhooks, and handling notifications.
 
-Path: [Integration](../integration.md) > Integrating with external systems using events · tier official · system integration · **unreviewed** (machine-generated narrative)
+Path: [Integration](../integration.md) > Integrating with external systems using events · tier official · system integration · narrative reviewed by Opus
 
 ## Overview
 
-This area covers two ways for external systems to react to what happens in Business Central instead of polling for changes. Business events (preview, 2023 release wave 1) let partners and customers notify and trigger external systems when actions occur, and they integrate with Dataverse and Power Automate. Webhooks push notifications when entities change, and are managed through the REST API.
+This area covers two ways for external systems to react to what happens in Business Central. Business events (preview) let partners and customers notify and trigger external systems when actions occur, and they integrate with Dataverse and Power Automate. The page is associated with 2023 release wave 1. Webhooks push notifications when entities change, and are managed through the REST API.
 
-The two pages are independent but complementary. The business events page describes subscriptions, custom business events, external webhooks and an event catalog. The webhooks page goes into the mechanics of registering, validating, renewing and managing subscriptions on entities, including custom APIs.
+The business events page describes business event subscriptions, custom business events, external webhooks and an event catalog. The webhooks page covers registering, renewing and managing subscriptions on entities. It also covers handshake validation, client state, change types, notification retries and use with custom APIs.
 
-Start with the business events page if you want to trigger flows or Dataverse scenarios from business actions. Start with the webhooks page if you need entity-level change notifications through the REST API.
+Start with the business events page if you want to trigger Power Automate flows or Dataverse scenarios from business actions. Start with the webhooks page if you need entity-level change notifications through the REST API.
 
 ## Key points
 
-- Business events are in preview and were introduced in 2023 release wave 1.
+- Business events are in preview, and the page is associated with 2023 release wave 1.
 - Business events notify or trigger external systems when actions occur in Business Central.
 - Business events integrate with Dataverse and Power Automate flows, and support custom business events, external webhooks and an event catalog.
 - Webhooks push notifications when entities change; the webhooks page references version 19.

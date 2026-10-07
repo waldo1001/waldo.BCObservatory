@@ -7,12 +7,12 @@ tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:35.347Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Service overview covers how Business Central online is built and run: Azure-based multitenant architecture, availability and backup, service operations and incident handling, and scalability. It answers questions about reliability, recovery, updates, and capacity.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · **unreviewed** (machine-generated narrative)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · narrative reviewed by Opus
 
 ## Overview
 

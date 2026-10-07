@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/recordisdirty-in-business-central-29.html",
+  "title": "Record.IsDirty in Business Central 29: a worked example",
+  "source": "mohana-blog",
+  "published_at": "2026-10-02T06:07:43.000Z",
+  "words": 371,
+  "summary": "Record.IsDirty() is a new API in Business Central 29 that lets AL code check whether a record instance has changed since it was loaded, eliminating the need to manually track change state. It returns true when in-memory values differ from the database and false when they match.",
+  "key_points": [
+    "Record.IsDirty() returns true when in-memory values differ from what came back from the database, false when they still match",
+    "This capability existed for RecordRef since runtime 5.0 but is now available directly on the Record data type in version 29",
+    "Developers can use it to decide whether a record needs validating, saving, or user prompts without manual state tracking",
+    "Requires runtime 18.0 or later; compiling against runtime 17.0 produces diagnostic AL0666"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al development",
+    "record api",
+    "business central 29",
+    "change detection",
+    "runtime requirements"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "Record.IsDirty()",
+    "change state detection",
+    "record validation",
+    "runtime 18.0 support"
+  ],
+  "versions": [
+    "29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Record.IsDirty() tells you whether a record instance has changed since it was loaded.",
+      "why_it_matters": "This is the core capability that solves the problem of detecting changes without manual state tracking"
+    },
+    {
+      "text": "Set runtime to 18.0 or later in app.json before you build it.",
+      "why_it_matters": "Critical technical requirement; failure to follow this prevents the feature from working"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005474,
+    "posts_in_call": 1
+  }
+}

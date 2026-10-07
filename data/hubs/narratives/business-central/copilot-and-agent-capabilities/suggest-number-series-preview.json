@@ -6,12 +6,12 @@
   "key_points": [
     "Creates new number series and modifies existing ones using natural language input.",
     "Can prepare number series for a fiscal year.",
-    "Supports structured input as well as free text, with a Prompt Guide to help write requests.",
-    "Supports multiple entities and feature areas in one request.",
-    "Generated suggestions are shown in the No. Series Generations view.",
-    "The Keep it action accepts a suggestion and applies it.",
-    "Setup pages are updated with the accepted number series.",
-    "The feature is in preview; the FAQ describes limitations and responsible use."
+    "Accepts structured input as well as natural language; the how-to page covers the Prompt Guide.",
+    "Provides multi-entity support for number series across entities and feature areas.",
+    "The how-to page covers the No. Series Generations view and the Keep it action.",
+    "The how-to page explains how setup pages get updated with number series.",
+    "Aims to reduce setup time and errors when configuring number series.",
+    "The feature is in preview; the FAQ describes capabilities, limitations and responsible use."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -21,5 +21,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.036372999999999996
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:27.085Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'Supports multiple entities and feature areas in one request' overreaches: sources only list 'Multi-entity support', with no mention of a single request covering feature areas.",
+      "Key point 'The Keep it action accepts a suggestion and applies it' describes behavior not stated in the sources, which only name the Keep it action.",
+      "Key point 'Setup pages are updated with the accepted number series' links setup page updates to accepted suggestions; sources only list 'Setup page updates'.",
+      "Key point on the No. Series Generations view states what it shows; sources only name the view.",
+      "Prompt Guide purpose ('to help write requests') is inferred, not stated. Softened to stay within the summaries."
+    ],
+    "input_hash": "24d6a18b467339b09203b4f143b01345e8020ad52981061734339f0561a7b93c",
+    "cost_usd": 0.043487200000000004
   }
 }

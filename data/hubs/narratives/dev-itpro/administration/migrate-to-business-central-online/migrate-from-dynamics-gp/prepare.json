@@ -1,16 +1,16 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/prepare",
   "input_hash": "d7150ef39f5aa8ee2e71fdd67f99ffca83735d54f86129482b4d6bd481a9f20c",
-  "summary": "Preparation for migrating from Dynamics GP on-premises to Business Central online. It covers prerequisites for the destination and source systems, plus planning guidance on strategy, assessment, data scope, and migration approach. It answers what is needed before starting and how to plan.",
-  "overview": "This section is the first step of the Dynamics GP to Business Central online migration path. It has two pages: one on prerequisites and one on preparing and planning the migration.\n\nStart with the planning page to define the migration strategy, run the migration assessment tool, and decide which data to move. Then use the prerequisites page to check the destination environment, the source system requirements, and the infrastructure needed for a self-hosted integration runtime.",
+  "summary": "Preparation for migrating from Dynamics GP on-premises to Business Central online. Covers prerequisites for the destination environment, the source system and the self-hosted integration runtime infrastructure. Also covers planning recommendations on migration strategy, the migration assessment tool, data scope, and a migration approach that includes backup, replication and upgrade steps. Use it to check what is needed before starting and how to plan.",
+  "overview": "This section sits under Migrate from Dynamics GP in the Business Central online migration documentation. It has two pages: one on prerequisites and one on preparing and planning the migration.\\n\\nThe planning page gives recommendations for defining a migration strategy, using the migration assessment tool, determining data scope, and planning the migration approach, including backup, replication and upgrade steps. The prerequisites page covers setup of the destination environment, source system requirements, and infrastructure needs for a self-hosted integration runtime.",
   "key_points": [
     "Prerequisites cover the destination Business Central environment, the source GP system, and infrastructure for the self-hosted integration runtime.",
-    "The Intelligent Cloud Base app and the Dynamics GP Intelligent Cloud app are part of the setup requirements.",
-    "SQL Server authentication is among the source system requirements.",
-    "The planning page recommends using the migration assessment tool to help define strategy.",
-    "Data scope is determined with company-based data migration in mind.",
-    "Planning covers the migration approach, including backup, replication, and data upgrade steps.",
-    "Azure Data Lake backup and data backup migration are covered as part of planning and prerequisites."
+    "The Intelligent Cloud Base app and the Dynamics GP Intelligent Cloud app appear on the prerequisites page.",
+    "SQL Server authentication and data backup migration are also covered on the prerequisites page.",
+    "The planning page gives recommendations on defining a migration strategy and on using the migration assessment tool.",
+    "Planning includes determining data scope. Company-based data migration is one of the topics on the planning page.",
+    "The planned migration approach includes backup, replication and data upgrade steps.",
+    "Azure Data Lake backup is covered on the planning page."
   ],
   "members_used": 2,
   "subtopics_used": 0,
@@ -20,5 +20,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008471
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:51.387Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview calls this section 'the first step' of the GP migration path. The sources only give its table of contents location, not the order of steps.",
+      "The overview tells readers to start with the planning page and then use the prerequisites page. The sources give no such order.",
+      "'Data scope is determined with company-based data migration in mind' links two items that the sources only list side by side.",
+      "'Recommends using the migration assessment tool to help define strategy' joins strategy and the tool. The source lists them as separate recommendations.",
+      "The backup key point merges features from two different pages. Data backup migration is a prerequisites feature and Azure Data Lake backup is a planning feature."
+    ],
+    "input_hash": "d7150ef39f5aa8ee2e71fdd67f99ffca83735d54f86129482b4d6bd481a9f20c",
+    "cost_usd": 0.0442112
   }
 }

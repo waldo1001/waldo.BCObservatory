@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:50.333Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Report creator covers building Power BI reports on Business Central data. It answers questions about creating reports in Power BI Desktop with the connector, APIs and OData web services, and about preparing reports to show in Power BI FactBoxes on list pages.
 
-Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · **unreviewed** (machine-generated narrative)
+Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
@@ -79,14 +79,14 @@ The second page focuses on reports shown in the Power BI FactBox on list pages. 
 
 ## Key points
 
-- Power BI Desktop connects to Business Central through its connector, APIs, or OData web services.
+- Power BI Desktop connects to Business Central data through its connector, using APIs or OData web services.
 - Advanced query options and custom Power Query functions are available when building reports.
-- Cross-company reporting and a read-only replica are covered as data access options.
+- Cross-company reporting and a read-only replica are covered for Power BI Desktop reports.
 - Reports are published from Power BI Desktop so they can be shared across the organization.
-- Reports for Business Central list pages show in Power BI FactBox controls.
+- Custom reports for Business Central list pages are shown in Power BI FactBox controls.
 - FactBox reports need proper naming conventions and sizing.
-- Filtering by primary key lets a FactBox report show data for the selected record.
-- Publishing the report is required before it can be displayed in Business Central.
+- Report filtering for FactBox display includes filtering by primary key.
+- Report publishing is part of preparing a custom report for display in Business Central.
 
 ## Learn pages
 

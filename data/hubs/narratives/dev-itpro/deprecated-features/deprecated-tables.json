@@ -19,5 +19,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.008657
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:23:05.439Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'Deprecation is tracked with ObsoleteState values' slightly generalizes the page feature list (ObsoleteState:Pending, ObsoleteState:Removed), but is a reasonable reading.",
+      "Minor: the general page's coverage of 2021 release wave 2 is inferred from its version metadata only."
+    ],
+    "input_hash": "fda01e4053609688fb6b999b04532384c8e2269be60b6263453173cbb5f876b7",
+    "cost_usd": 0.0272872
   }
 }

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,7 +79,7 @@ narrative: generated
 
 > Performance best practices for Business Central development: how to troubleshoot a performance problem (measure, locate the bottleneck, eliminate it) and which diagnostic tools to use, plus performance guidance for AL developers on pages, web services, reports, AL code, data access and testing.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Performance · tier official · system platform · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Performance · tier official · system platform · narrative reviewed by Opus
 
 ## Overview
 

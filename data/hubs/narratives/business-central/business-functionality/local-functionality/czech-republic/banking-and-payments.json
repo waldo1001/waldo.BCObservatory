@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/banking-and-payments",
   "input_hash": "0946658ef0a676f7e6e27e6055790c444bce33221d2580620f3322b437380647",
   "summary": "Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use.",
-  "overview": "This section describes the Czech localization of banking and payment functionality in Business Central. It has no subtopics and consists of two pages, each describing one extension.\n\nThe Banking Documents Localization extension handles payment orders and bank statements. It supports creating and exporting payment orders, importing bank statements, importing and exporting bank files, and managing bank accounts. The Cash Desk Localization extension handles physical cash. It covers cash desk setup, receipt and withdrawal documents, user authorization, and applying payments to customer and vendor entries.\n\nStart with the page that matches your process: banking documents for bank-based payments and statements, cash desk for cash operations. The two are independent, so you can read them separately.",
+  "overview": "This section describes the Czech localization of banking and payment functionality in Business Central. It has no subtopics and consists of two pages, each describing one extension.\n\nThe Banking Documents Localization extension handles payment orders and bank statements. It supports creating and exporting payment orders, importing and creating bank statements, rolling statements over to journals, pairing payment entries, importing and exporting bank files, and managing bank accounts, including the Keep Description field for keeping descriptions across currencies. The Cash Desk Localization extension handles physical cash. It covers cash desk setup, number series, receipt and withdrawal documents, user authorization, cash desk cases (events), inventory management, and applying payments to customer and vendor entries.\n\nStart with the page that matches your process: banking documents for bank-based payments and statements, cash desk for cash operations.",
   "key_points": [
     "Banking documents extension supports payment order creation and export.",
     "Bank statements can be imported and created, and rolled over to journals.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009189
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:46.199Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says the two extensions are independent and can be read separately. The page summaries don't say how the two extensions relate, so I removed that claim.",
+      "Minor: the key point and overview text tying the Keep Description field to keeping bank account descriptions across currencies combines two items from the page summary. That is a reasonable reading, so I kept it."
+    ],
+    "input_hash": "0946658ef0a676f7e6e27e6055790c444bce33221d2580620f3322b437380647",
+    "cost_usd": 0.030431200000000002
   }
 }

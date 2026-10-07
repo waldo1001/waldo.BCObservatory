@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:58.998Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Developing client add-ins covers guidance for building control add-ins in Business Central. It answers questions about performance practices, such as AL trigger invocation, callbacks and payload size, and about visual styling, such as colors, typography and CSS.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Developing client add-ins · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Developing client add-ins · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

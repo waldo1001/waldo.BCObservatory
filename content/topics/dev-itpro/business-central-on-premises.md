@@ -2,20 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises
 type: topic
 title: Business Central on-premises
-summary: Business Central on-premises covers deploying, administering and upgrading self-hosted environments, plus migrating legacy help content. It answers how to plan and install, configure and operate servers, and which upgrade path reaches a target version from v14 to v29.
+summary: Business Central on-premises covers deploying, administering and upgrading on-premises installations. It answers questions on planning and installing, securing and configuring servers, tools and integrations, choosing upgrade paths from v14 through v29, and migrating legacy help content to the Business Central format.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:04.579Z"
+  at: "2026-10-07T05:20:34.902Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6f2ef5b506cd6a45f0c911d45eca9480fe3f7a51591ffd80d330570281d18a39
+  input_hash: e8acd6cde1d4feecc83adfbce7ec8eb49e0c142169ecc3d5904ec29996156d38
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview
@@ -335,27 +335,27 @@ narrative: generated
 
 # Business Central on-premises
 
-> Business Central on-premises covers deploying, administering and upgrading self-hosted environments, plus migrating legacy help content. It answers how to plan and install, configure and operate servers, and which upgrade path reaches a target version from v14 to v29.
+> Business Central on-premises covers deploying, administering and upgrading on-premises installations. It answers questions on planning and installing, securing and configuring servers, tools and integrations, choosing upgrade paths from v14 through v29, and migrating legacy help content to the Business Central format.
 
 Path: Business Central on-premises · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-This section is for practitioners who run Business Central on their own infrastructure. It is split into three areas that follow the life of an installation: Deployment, Administration and Upgrade. One standalone page also explains how to migrate legacy help to the Business Central format.
+This section groups the documentation for running Business Central on your own infrastructure. It is split into three subtopics: Deployment, Administration and Upgrade. Deployment covers planning, component topology, installing with Setup, service accounts, certificates and multitenant databases. Administration covers the tools and configuration needed to operate an environment. Upgrade covers the routes and steps for moving to a newer version.
 
-Start with Deployment to plan the component topology, install with Setup, provision service accounts, set up multitenant databases and certificates, and review the lifecycle policy. Move to Administration for day-to-day running: the Administration Shell and Administration Center, server, web server and database configuration, authentication, encryption and monitoring, and integrations with Entra ID, Excel, Outlook, Key Vault and Dynamics 365 Sales.
+One page sits directly in the hub: a guide to migrating legacy help to the Business Central format. It describes reusing existing web content, converting PDFs or documents to Markdown, and deploying to websites that work with Business Central help configuration. It also mentions tooltip support.
 
-Use Upgrade when moving to a newer version. It holds the supported paths from v14 to v29, per-version guides, known issues and related conversion and migration articles. Check the source version first, then follow the guide for that route.
+For a new environment, start with Deployment to plan and install, then move to Administration for configuration and monitoring. If you already run an earlier version, start with Upgrade to find the supported path to your target version and what to check first.
 
 ## Key points
 
-- Deployment (63 pages) covers planning, component topology, installation with Setup, service account provisioning, multitenant databases, certificates and lifecycle policy.
-- Deployment has subtopics for web server, database, mobile app, topologies and updates.
-- Administration (38 pages) covers the Administration Shell and Administration Center, plus server, web server and database configuration.
-- Administration also covers authentication, encryption, monitoring and integrations with Entra ID, Excel, Outlook, Key Vault and Dynamics 365 Sales.
-- Upgrade (113 pages) documents supported upgrade paths from v14 to v29, with per-version guides and known issues.
-- Upgrade pages help you pick the route to a target version and decide what to check first for a given source version.
-- The legacy help migration page covers reusing existing web content, converting PDFs or documents to Markdown, and deploying to websites that integrate with Business Central help configuration. It also mentions tooltip support.
+- Deployment (63 pages): planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases and support lifecycle.
+- Deployment subtopics also cover web server, database, mobile app, topologies and updates.
+- Administration (38 pages): Administration Shell and Administration Center, server, web server and database configuration, authentication, encryption and monitoring.
+- Administration integrations include Entra ID, Excel, Outlook, Key Vault and Dynamics 365 Sales.
+- Upgrade (113 pages): supported upgrade paths, per-release guides from v14 through v29, known issues, and conversion and table migration articles.
+- Upgrade pages help decide which route reaches a target version and what to check first.
+- The hub's own page explains migrating legacy help: reuse web content, convert PDFs or documents to Markdown, and deploy to a website that integrates with help configuration.
 
 ## Subtopics
 

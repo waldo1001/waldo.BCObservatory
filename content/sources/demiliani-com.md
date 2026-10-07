@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 86 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 88 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T05:17:08.437Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2415f2664a0bb852fbbdbf8a9ee3b81fb92388a24d9c4f536e86da7e6660094c
+  input_hash: f2d4af0e9739e677a1751886d44308b7294888550d9055ea4a58c3312ef5e454
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -77,11 +77,13 @@ links:
     - post/demiliani-com/12975
     - post/demiliani-com/12992
     - post/demiliani-com/13096
+    - post/demiliani-com/13155
     - post/demiliani-com/13197
     - post/demiliani-com/13215
     - post/demiliani-com/13254
     - post/demiliani-com/13290
     - post/demiliani-com/13324
+    - post/demiliani-com/13369
     - post/demiliani-com/13391
     - post/demiliani-com/13442
     - post/demiliani-com/13470
@@ -126,24 +128,24 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 86
+item_count: 88
 footprint:
   systems:
     - id: development
       weight: 74
     - id: platform
-      weight: 66
+      weight: 68
     - id: integration
-      weight: 64
+      weight: 66
+    - id: administration
+      weight: 46
     - id: copilot
       weight: 46
-    - id: administration
-      weight: 45
     - id: reporting
-      weight: 5
+      weight: 6
   topics:
     - id: performance
-      weight: 12
+      weight: 13
     - id: al development
       weight: 10
     - id: security
@@ -156,11 +158,11 @@ footprint:
       weight: 6
     - id: agents
       weight: 5
+    - id: azure functions
+      weight: 5
     - id: azure openai
       weight: 5
     - id: compliance
-      weight: 5
-    - id: copilot
       weight: 5
   objects:
     - id: api Dynamics 365 Business Central connector
@@ -194,7 +196,7 @@ last_item: "2026-10-05"
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 86 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 88 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -202,16 +204,16 @@ last_item: "2026-10-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (74) | performance (12) | api Dynamics 365 Business Central connector (1) |
-| platform (66) | al development (10) | api Model Context Protocol (MCP) (1) |
-| integration (64) | security (9) | codeunit Agent (1) |
-| copilot (46) | automation (6) | codeunit AOAI Chat Completion Params (1) |
-| administration (45) | azure logic apps (6) | codeunit AOAI Chat Messages (1) |
-| reporting (5) | on-premises (6) | codeunit AOAI Operation Response (1) |
+| development (74) | performance (13) | api Dynamics 365 Business Central connector (1) |
+| platform (68) | al development (10) | api Model Context Protocol (MCP) (1) |
+| integration (66) | security (9) | codeunit Agent (1) |
+| administration (46) | automation (6) | codeunit AOAI Chat Completion Params (1) |
+| copilot (46) | azure logic apps (6) | codeunit AOAI Chat Messages (1) |
+| reporting (6) | on-premises (6) | codeunit AOAI Operation Response (1) |
 |  | agents (5) | codeunit AzureOpenAI (1) |
-|  | azure openai (5) | codeunit File Management (1) |
-|  | compliance (5) | codeunit Memory Mapped File (1) |
-|  | copilot (5) | codeunit Parallel Session Management (1) |
+|  | azure functions (5) | codeunit File Management (1) |
+|  | azure openai (5) | codeunit Memory Mapped File (1) |
+|  | compliance (5) | codeunit Parallel Session Management (1) |
 |  |  | codeunit PDF Document (1) |
 |  |  | codeunit Queued Export Worker Bad (1) |
 
@@ -222,7 +224,7 @@ Items per quarter, oldest first:
 - 2025-Q2: ********** 10
 - 2025-Q3: ******************* 19
 - 2025-Q4: *************** 15
-- 2026-Q1: *********** 11
+- 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
 - 2026-Q4: * 1

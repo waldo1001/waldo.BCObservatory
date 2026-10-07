@@ -6,12 +6,12 @@ summary: "Import data covers two ways to bring business data from other systems 
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:09.914Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 

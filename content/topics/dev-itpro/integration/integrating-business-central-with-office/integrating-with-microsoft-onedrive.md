@@ -7,12 +7,12 @@ tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:45.644Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Business Central integration with OneDrive for Business: opening, sharing, and saving documents such as reports and Excel workbooks in OneDrive, plus how developers extend the Document Sharing module. It answers setup, user-level usage, and extensibility questions.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Onedrive · tier official · system integration · **unreviewed** (machine-generated narrative)
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Onedrive · tier official · system integration · narrative reviewed by Opus
 
 ## Overview
 

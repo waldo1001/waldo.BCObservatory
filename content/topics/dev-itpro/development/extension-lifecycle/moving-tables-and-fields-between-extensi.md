@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:05.983Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Moving tables and fields between Business Central extensions on-premises, using the MovedTo and MovedFrom properties and staged moves. It answers questions about how ownership transfers, in what order to publish extensions, and how obsolete states and dependencies are handled.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Moving tables and fields between extensions (on-premises) · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Moving tables and fields between extensions (on-premises) · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

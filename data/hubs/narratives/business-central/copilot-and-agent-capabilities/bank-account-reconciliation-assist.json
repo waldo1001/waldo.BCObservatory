@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.036987
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:16.844Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 8 ('The FAQ page gives an overview of what the feature does') adds little and could be dropped or merged with key point 5.",
+      "The narrative names 'post if fully applied' but doesn't explain it. That's acceptable, because the page summaries don't explain it either.",
+      "The overview says the FAQ explains bank statement import 'at a higher level'. The FAQ summary only lists bank statement import as a feature, so this is slightly stronger than the summary says, though still a reasonable reading."
+    ],
+    "input_hash": "a08678870a2ee886104f25e2e270044de083280b4854c267ddf9c4ee05c9889b",
+    "cost_usd": 0.023943199999999998
   }
 }

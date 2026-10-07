@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Company consolidation in Business Central: combining general ledger data from subsidiaries or business units into a consolidated company. It answers questions about what consolidation supports (different charts of accounts, currencies, fiscal years, environments) and how to set it up, simply or in advanced mode.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · narrative reviewed by Opus
 
 ## Overview
 
@@ -84,7 +84,7 @@ Company consolidation lets you bring financial data from several subsidiaries or
 
 The section has two pages. The first, "Consolidate data from multiple companies", explains the concept and what the process supports. The second, "Set up company consolidation", covers configuration, with either a simple assisted setup or an advanced manual setup that includes business units, account mapping, exchange rates, currency translation and dimension consolidation.
 
-Start with the overview page to understand the scenario and its capabilities. Then use the setup page to choose between assisted and advanced configuration based on how different your companies are.
+Start with the overview page to understand the scenario and its capabilities. Then use the setup page to configure consolidation through either the assisted setup or the advanced manual setup.
 
 ## Key points
 
@@ -94,7 +94,7 @@ Start with the overview page to understand the scenario and its capabilities. Th
 - Advanced setup covers business unit setup, G/L account mapping, exchange rates and currency translation.
 - Dimension consolidation is part of the setup.
 - Eliminations are part of the consolidation process.
-- File-based transfer is available for moving data between companies.
+- File-based transfer is one of the supported consolidation options.
 
 ## Learn pages
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:40.461Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Integrating Business Central with Microsoft Word covers two tasks: mapping report data fields into Word layouts with the XML Mapping pane, and using Word templates to merge entity data into bulk communications for customers, vendors, and contacts. It answers how-to questions on custom report layouts and template-based documents.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Word · tier official · system integration · **unreviewed** (machine-generated narrative)
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Word · tier official · system integration · narrative reviewed by Opus
 
 ## Overview
 

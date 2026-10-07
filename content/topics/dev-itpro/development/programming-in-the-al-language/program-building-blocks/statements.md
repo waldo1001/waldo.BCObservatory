@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:25.345Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > AL statements cover the building blocks of AL code: simple statements (assignment, method calls, AssertError) and control statements (if-then-else, case, for, foreach, while, repeat-until, break, continue). They answer questions about syntax, flow control and compound assignment operators.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Program building blocks](../program-building-blocks.md) > Statements · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Program building blocks](../program-building-blocks.md) > Statements · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 

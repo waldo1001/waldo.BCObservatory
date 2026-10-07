@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:48.203Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Administrator guidance for Power BI integration with Business Central. It covers how to enable the integration (licensing, API pages, OData web services, online and on-premises setup) and how the integration components and architecture fit together.
 
-Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Administrator · tier official · system reporting · **unreviewed** (machine-generated narrative)
+Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Administrator · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 

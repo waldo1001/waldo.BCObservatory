@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/local-functionality/austria/general",
   "input_hash": "0178294ae036c68e57b5fde214ce7fb8e26a7108a140617b516398aebd118e4a",
   "summary": "General Austria localization pages cover audit data export and a setup report. They answer questions about exporting GL and VAT entries for auditors with the Audit Files Export extension, and about printing the G/L Setup Information report in the Austrian version to check setup.",
-  "overview": "This section holds two pages for the Austrian version of Business Central, both aimed at audit readiness and setup verification. There are no subtopics.\n\n\"Export data for auditing\" describes the Audit Files Export extension. It exports GL and VAT entries in formats such as SIE, FEC, and SAF-T, and it uses GL account mapping to prepare the data. The page also mentions data quality checks, parallel processing, and zip export.\n\n\"Print general ledger setup information [AT]\" describes the G/L Setup Information report. Use it before daily operations to review master data, posting groups, VAT setup, and number series. It is tied to the German-language principles for data access and auditability of digital records (Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen). A sensible order is to run the setup report first, then prepare the audit export.",
+  "overview": "This section holds two pages for the Austrian version of Business Central, both aimed at audit readiness and setup verification. There are no subtopics.\\n\\n\\\"Export data for auditing\\\" describes the Audit Files Export extension. It exports GL and VAT entries in formats such as SIE, FEC, and SAF-T, and it uses GL account mapping to prepare audit-ready data. The page also mentions data quality checks, parallel processing, and zip export.\\n\\n\\\"Print general ledger setup information [AT]\\\" describes the G/L Setup Information report in the Austrian version. Use it before daily operations to review and verify master data, posting groups, VAT setup, and number series. The page lists compliance with the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen as one of its features.",
   "key_points": [
     "The Audit Files Export extension exports GL and VAT entries.",
     "Supported export formats named include SIE, FEC, and SAF-T.",
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009463
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:38.153Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview's closing advice ('A sensible order is to run the setup report first, then prepare the audit export') does not come from either page summary. It is an invented workflow, so I removed it.",
+      "The overview calls the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen 'German-language principles' and says the report is 'tied to' them. The source only lists compliance with these principles as a feature. I reworded this to match the source.",
+      "Minor: the source feature list says 'Audit File Export extension', while the page summary says 'Audit Files Export extension'. The narrative uses the page summary's name, which is fine."
+    ],
+    "input_hash": "0178294ae036c68e57b5fde214ce7fb8e26a7108a140617b516398aebd118e4a",
+    "cost_usd": 0.028719200000000004
   }
 }

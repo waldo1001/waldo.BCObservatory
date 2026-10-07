@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/denmark
 type: topic
 title: Denmark
-summary: "Denmark local functionality in Business Central covers Danish compliance and reporting: auditing exports (Regnskab Basis, SAF-T), VAT reports, Danish bank and payment formats (FIK, giro), OIOUBL electronic invoicing, and payroll import. It answers setup and usage questions for Danish legal requirements."
+summary: "Denmark local functionality in Business Central covers Danish legal and regulatory needs: auditing and SAF-T, VAT reporting, banking and FIK payments, OIOUBL electronic invoicing, and payroll import from Danish providers. It answers setup and compliance questions for Danish companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:18:10.688Z"
+  at: "2026-10-07T05:21:01.809Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 83b2d56aacfa35bac0569982e33824e79f3a1e12c79d7adcbe41a27dcc600869
+  input_hash: a40ae12607f89e16b7249a8250ec68e64e15afee3d1d579b1b87cbac15cc6a43
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl
@@ -174,27 +174,28 @@ narrative: generated
 
 # Denmark
 
-> Denmark local functionality in Business Central covers Danish compliance and reporting: auditing exports (Regnskab Basis, SAF-T), VAT reports, Danish bank and payment formats (FIK, giro), OIOUBL electronic invoicing, and payroll import. It answers setup and usage questions for Danish legal requirements.
+> Denmark local functionality in Business Central covers Danish legal and regulatory needs: auditing and SAF-T, VAT reporting, banking and FIK payments, OIOUBL electronic invoicing, and payroll import from Danish providers. It answers setup and compliance questions for Danish companies.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative reviewed by Opus
 
 ## Overview
 
-The Denmark section describes features that adapt Business Central to Danish legal and regulatory requirements. The landing page lists the main areas: bookkeeping act compliance, 5-year data retention, digital vouchers, SAF-T audit file export, the standard chart of accounts and VAT reconciliation reports. It references the 2026 release wave 1.
+The Denmark section collects the features Business Central provides for Danish bookkeeping law, tax authority requirements and local business practice. The landing page gives an overview of compliance topics such as the bookkeeping act, 5-year data retention, digital vouchers, SAF-T export, the standard chart of accounts and VAT reconciliation reports.
 
-Four subtopics go into detail: Auditing, VAT, Banking and payments, and Electronic invoicing. A separate page covers the Payroll Data Definitions [DK] extension, which imports payroll transactions from Danish providers such as Danløn and Dataløn.
+Four subtopics go into detail: Auditing (CSV export to Regnskab Basis, SAF-T files, chart of accounts mapping), VAT (VAT Reconciliation report, Intrastat VAT numbers, VAT-VIES and EC Sales List), Banking & payments (Payments and Reconciliations (DK) extension, FIK codes), and Electronic invoicing (OIOUBL extension for public sector customers). A separate page covers the Payroll Data Definitions [DK] extension.
 
-Start with the landing page for an overview. Then open the subtopic that matches your task, for example Electronic invoicing for OIOUBL setup or Auditing for exports to the authorities.
+Start with the landing page for the overall picture, then open the subtopic that matches your task. For payroll, use the Payroll Data Definitions page to map transaction types to GL accounts and import provider files through the general journal.
 
 ## Key points
 
-- Auditing: export accounting data to Regnskab Basis and in SAF-T format, both using the standard chart of accounts mapping.
-- VAT: print the VAT Reconciliation report, show VAT registration numbers with country codes in Intrastat, and run VAT-VIES reporting with the EC Sales List.
-- Banking: the Payments and Reconciliations (DK) extension supports Danish payment file formats, and FIK transaction text codes appear in the payment reconciliation journal.
-- Electronic invoicing: the OIOUBL extension creates XML documents in UBL 2.0 format for Danish public sector customers.
-- OIOUBL covers invoices, credit memos, reminders and finance charge memos, and needs customer fields such as GLN, account code and profile code.
-- Payroll Data Definitions [DK]: map payroll transaction types to general ledger accounts and import provider files through the general journal.
-- The landing page lists bookkeeping act compliance, 5-year data retention and digital vouchers as compliance areas.
+- Auditing: export accounting data as CSV to Regnskab Basis, export and import SAF-T audit files, and map GL accounts to the Danish standard chart of accounts.
+- VAT: print the VAT Reconciliation report, show VAT registration numbers with country codes in Intrastat, and report VAT-VIES with the EC Sales List.
+- Banking: the Payments and Reconciliations (DK) extension supports Danish payment file formats, FIK and giro payments.
+- FIK transaction text codes in the payment reconciliation journal help interpret automatic payment application results.
+- Electronic invoicing uses the OIOUBL extension to create UBL 2.0 XML documents for Danish public sector customers.
+- OIOUBL covers invoices, credit memos, reminders and finance charge memos, with customer fields for GLN, account code and profile code.
+- Payroll Data Definitions [DK] imports transactions from providers like Danløn and Dataløn via data exchange definitions and the general journal.
+- The landing page lists compliance topics including 5-year data retention and digital vouchers, and references 2026 release wave 1.
 
 ## Subtopics
 

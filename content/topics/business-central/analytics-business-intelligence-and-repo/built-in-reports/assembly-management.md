@@ -7,12 +7,12 @@ tier: official
 language: en
 system: assembly
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:25.920Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Assembly management in Business Central covers built-in assembly reports and analytics, and how to work with assembly BOMs. It answers questions about viewing current and past assembly activity, and about defining, editing and costing parent items built from components and resources.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Assembly management · tier official · system assembly · **unreviewed** (machine-generated narrative)
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Assembly management · tier official · system assembly · narrative reviewed by Opus
 
 ## Overview
 

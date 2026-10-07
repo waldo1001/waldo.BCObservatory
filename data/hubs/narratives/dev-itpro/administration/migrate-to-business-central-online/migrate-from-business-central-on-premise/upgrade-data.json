@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009391
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:41.499Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary says 'earlier Business Central on-premises versions'; the page summary says only 'earlier Business Central versions'. The hub's TOC path (Migrate from Business Central on-premises) makes this reasonable, but it is a small inference.",
+      "The overview puts point-in-time restore under monitoring ('how to monitor the upgrade, including telemetry and point-in-time restore'). The source only lists it as a feature of the Run data upgrade page and does not say what role it plays. Key point 3 says this more carefully."
+    ],
+    "input_hash": "0a342646d08f02686c41a0c4520ca4bb26f53500572af345474e6175153c6161",
+    "cost_usd": 0.0284832
   }
 }

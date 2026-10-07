@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:47.056Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Data replication from Business Central on-premises to Business Central online: how the replication process works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor, pause, or troubleshoot it in Cloud Migration Management.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Replicate data · tier official · system administration · **unreviewed** (machine-generated narrative)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Replicate data · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 

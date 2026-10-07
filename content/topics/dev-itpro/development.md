@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development
 type: topic
 title: Development
-summary: "Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, analytics, troubleshooting, and AL-Go DevOps. It answers how-to, setup, syntax, and deployment questions for extension developers."
+summary: "Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, troubleshooting and AL-Go DevOps. It helps an agent route questions about writing, extending, deploying and debugging AL code."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:13:56.417Z"
+  at: "2026-10-07T05:20:36.159Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6ef8280eeeaf5ca9b75c6ad7acb45b82ffc4d508506a05b2c008282e846e2951
+  input_hash: 8697f7d6137aeb633ef5eda9c16d24b0222e0a50d40f7f6314f112a8a0031265
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -437,28 +437,28 @@ narrative: generated
 
 # Development
 
-> Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, analytics, troubleshooting, and AL-Go DevOps. It answers how-to, setup, syntax, and deployment questions for extension developers.
+> Development for Business Central covers building extensions in AL with Visual Studio Code: getting started, environment setup, the AL language, extensibility, lifecycle, best practices, troubleshooting and AL-Go DevOps. It helps an agent route questions about writing, extending, deploying and debugging AL code.
 
 Path: Development · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-Development is the entry point for anyone building Business Central extensions in AL. Its own pages introduce the extension model (table extensions, page extensions, codeunits, reports), the AL Language reference (data types, methods, properties, attributes, diagnostics, code analyzers), and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing, and version control.
+Development is the entry point for AL extension work in Business Central. Extensions are built with AL code and Visual Studio Code, and can create or extend objects such as tables, pages, codeunits and reports. The section's own pages give an AL Language reference overview (data types, methods, properties, triggers, diagnostics, code analyzers), an introduction to developing extensions, and an overview of AL-Go for GitHub.
 
-The subtopics split the work by stage. Get started and Development environment cover VS Code, the AL Language extension, a first extension, compiling, publishing, debugging, testing, and sandboxes. The AL language sections hold syntax and object-type detail, and Extensibility explains how to extend base code through events and extension objects without changing it.
+The subtopics split the work by stage. Get started and Development environment cover tooling, a first extension, compile, publish, debug and test. Programming in the AL language and The AL programming language cover syntax and the object-specific how-tos. Extensibility, Rules, guidelines, and best practices, and Extension lifecycle cover how to change behavior without touching base code, how to obsolete objects, and how apps move from development to deprecation. Troubleshooting covers debugging, profiling and telemetry.
 
-Later stages are covered by Extension lifecycle (scopes, deployment, updating, deprecation), Rules, guidelines, and best practices (obsoleting, conventions, performance, security), and Troubleshooting (debugging, profiling, telemetry). Data analytics and reporting, and System and application reference documentation, cover reports, Power BI, and the modular application layers. New developers should start with Get started, then Development environment.
+New developers should begin with Get started, then Development environment. Experienced developers can go straight to the AL language pages or to Extensibility. Teams setting up CI/CD for per-tenant extensions or Marketplace apps should read the AL-Go overview.
 
 ## Key points
 
-- Get started covers VS Code with the AL Language extension, a first extension, packaging, translating, instrumenting, ALTool, Ready to Go, and AppSource marketplace validation.
-- Development environment covers projects and workspaces, code analysis, compile/publish/debug, testing, sandboxes, and app configuration.
-- The AL Language reference lists data types, methods, properties, triggers, method attributes, AL and AVS diagnostics, and code analyzers.
-- Extensibility explains extending code flow, tables, pages, reports, enums, and permission sets through events and extension objects, without changing base code.
-- AL-Go for GitHub offers templates and actions for CI/CD, automated testing, version control, and repository maintenance for per-tenant extensions or Marketplace apps.
-- Extension lifecycle covers global apps, per-tenant extensions, DEV extensions, moving between scopes, migration, deployment, updating, and deprecation.
-- Rules and best practices explain obsoleting AL objects, methods, and symbols, and deprecating external business events.
-- Troubleshooting covers client tools, AL debugging and profiling, telemetry, and guides for migration, reports, and web services.
+- Extensions are written in AL with Visual Studio Code and the AL Language extension; the compiler validates code and a designer supports drag and drop.
+- AL Language reference covers data types, methods, properties, triggers, method attributes, AL and AVS diagnostics, and code analyzers.
+- Extensibility lets you extend code flow, tables, pages, reports, enums and permission sets using events, without changing base code.
+- AL-Go for GitHub provides templates and actions for CI/CD, automated testing, version control and repository maintenance.
+- Rules and guidelines cover obsoleting AL objects, methods and symbols, and deprecating external business events.
+- Extension lifecycle covers global apps, per-tenant extensions, DEV extensions, scopes, deployment, updating and deprecation.
+- Troubleshooting covers AL debugging and profiling, telemetry setup and analysis, and guides for cloud migration, reports and web services.
+- System and application reference explains the System Application and Business Foundation layers and how to contribute modules.
 
 ## Subtopics
 

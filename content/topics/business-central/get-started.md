@@ -2,20 +2,20 @@
 id: topic/business-central/get-started
 type: topic
 title: Get started
-summary: The Get started section of Business Central covers how to try, set up, learn and use the product. It answers questions about trials, first setup, quick starts, everyday navigation and data entry, troubleshooting, FAQs, and finding help or support.
+summary: The Get started section of Business Central covers trials, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about what the product supports, how to try or buy it, how to learn it, and how end users work in it day to day.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:15.962Z"
+  at: "2026-10-07T05:20:44.207Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c65445ae18c0e9b9b1e2f25f27d1ec995ab0d4a1ff43a4cdd79d6733448bfce6
+  input_hash: c4aaab54ff5ad78c6eba41d939e46732159cbf52488f51b5891ddf642473768a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -412,28 +412,28 @@ narrative: generated
 
 # Get started
 
-> The Get started section of Business Central covers how to try, set up, learn and use the product. It answers questions about trials, first setup, quick starts, everyday navigation and data entry, troubleshooting, FAQs, and finding help or support.
+> The Get started section of Business Central covers trials, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about what the product supports, how to try or buy it, how to learn it, and how end users work in it day to day.
 
 Path: Get started · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-Get started is the entry point for new Business Central users and administrators. Its own page gives an overview of the business functionality supported: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+Get started is the entry point for new Business Central users. Its own page gives an overview of supported business functionality: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
 
-The subtopics follow a natural path. Try and Buy cover signing up for a trial, extending it, initial setup, and converting to a subscription. Quick starts are short beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence. Learn offers hands-on practice with the CRONUS and Contoso Coffee demo data, user resources and videos.
+The subtopics follow a path. Try and Buy cover signing up for a trial, extending it, first setup tasks, assisted setup, company information, users, permissions and converting to a subscription. Quick starts give beginner guides for first-time setup and basic tasks. Learn offers demo-company walkthroughs (CRONUS, Contoso Coffee) and a video library for practice.
 
-Once the system is running, Get productive in Business Central is the largest subtopic and covers daily use: finding pages, entering data, filtering, personalizing, reports and sharing. Troubleshooting and FAQs and Help and Support cover Tell Me, Copilot, system requirements, Teams, help resources and contacting support. Start with the functionality overview, then Try or Quick starts.
+Once the system is running, Get productive in Business Central is the largest group, with how-to pages for end users on navigation, filtering, personalization, reports and Copilot. Troubleshooting and FAQs and Help and Support cover common questions and where to get help. Start with the functionality overview, then Try or Quick starts.
 
 ## Key points
 
-- The functionality overview lists the supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
-- Try covers trial sign-up, extending the trial, first setup tasks, converting to a subscription, and fixing self-service sign-up errors.
-- Buy covers trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
-- Quick starts are 7 beginner guides covering company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.
-- Learn offers process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resources and a video library.
-- Get productive (55 pages) covers Tell Me, Role Explorer, sorting and filtering, personalization, notifications, document layouts, Microsoft 365 apps and accessibility.
+- The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+- Try covers trial sign-up, extending a trial, first setup tasks, converting to a subscription and fixing sign-up errors.
+- Buy covers the free trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
+- Quick starts (7 pages) cover company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.
+- Learn (34 pages) offers CRONUS demo company walkthroughs, Contoso Coffee scenarios, user resources and a video library.
+- Get productive (55 pages) covers Tell Me, Role Explorer, filtering, notifications, user settings, document layouts, Microsoft 365 apps, accessibility, performance and Copilot.
 - Troubleshooting and FAQs covers Tell Me search, the Copilot experience, minimum system requirements and the Teams app.
-- Help and Support covers Chat with Copilot, the Help pane, the Help & Support page, telemetry and how administrators manage technical support.
+- Help and Support covers Chat with Copilot, the Help pane, the Help & Support page, telemetry and contacting support.
 
 ## Subtopics
 

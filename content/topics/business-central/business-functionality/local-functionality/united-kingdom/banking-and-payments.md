@@ -7,12 +7,12 @@ tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:22:09.235Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > Banking and payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > Banking and payments · tier official · system localization · narrative reviewed by Opus
 
 ## Overview
 

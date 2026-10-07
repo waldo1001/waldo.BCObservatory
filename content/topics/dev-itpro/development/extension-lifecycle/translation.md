@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,26 +67,21 @@ narrative: generated
 
 > Translation of Business Central extensions using XLIFF files. It covers how layered translation sources override each other by language priority and app dependencies, and how to generate and edit XLIFF files with namespace-aware IDs.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-Translation in Business Central is based on XLIFF files. The overview page explains the layered system: several translation sources can apply at once, and one overrides another according to language priority and app dependencies. It also covers caption translation, primary language fallback, and the global and local language concepts (version 18.3).
-
-The second page is the hands-on guide. It shows how to generate translation files, add translations, and use namespace-aware IDs to translate UI elements and labels. It refers to the TranslationFile feature, GenerateCaptions, GenerateLockedTranslations and TranslationsWithNamespaces, and to label syntax (runtime 18).
-
-Start with the overview to understand how languages are layered and which translation wins. Then use the XLIFF guide to set up file generation in your extension.
+Translation in Business Central is based on XLIFF files. The overview page explains the layered system: several translation sources can apply at once, and one overrides another according to language priority and app dependencies. It also covers caption translation, primary language fallback, and the global and local language concepts. The page references version 18.3.\n\nThe second page is the hands-on guide. It shows how to generate translation files, add translations, and use namespace-aware IDs to translate UI elements and labels. It refers to the TranslationFile feature, GenerateCaptions, GenerateLockedTranslations, TranslationsWithNamespaces and label syntax. The page references runtime 18.\n\nStart with the overview to understand how languages are layered and which translation wins. Then use the XLIFF guide to set up file generation in your extension.
 
 ## Key points
 
 - Translations use the XLIFF format.
 - Translation sources are layered and can override each other based on language priority and app dependencies.
-- Primary language fallback, global language and local language are part of the layering model.
-- The TranslationFile feature enables generating translation files for an extension.
-- GenerateCaptions and GenerateLockedTranslations control what goes into the generated files.
-- TranslationsWithNamespaces enables namespace-aware translation IDs (runtime 18).
-- Label syntax is used to make text translatable.
-- The overview page is marked for version 18.3.
+- Caption translation, primary language fallback, global language and local language are part of the translation model.
+- The TranslationFile feature is used to generate translation files for an extension.
+- GenerateCaptions, GenerateLockedTranslations and TranslationsWithNamespaces are features related to generating translation files.
+- Namespace-aware translation IDs are used to translate UI elements and labels.
+- The overview page references version 18.3 and the XLIFF page references runtime 18.
 
 ## Learn pages
 

@@ -6,12 +6,12 @@ summary: Deprecating code in Business Central AL covers how code is marked obsol
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:13.858Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ narrative: generated
 
 > Deprecating code in Business Central AL covers how code is marked obsolete and how to handle deprecated language constructs. It answers questions about preprocessor symbols and obsolete attributes, and about the deprecation of explicit and implicit 'with' statements.
 
-Path: [Deprecated features](../deprecated-features.md) > Deprecating code · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Deprecated features](../deprecated-features.md) > Deprecating code · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
@@ -79,7 +79,7 @@ Start with the best practices page if you are obsoleting your own objects or mem
 - Deprecation in AL uses preprocessor directives together with the ObsoleteState, ObsoleteTag and ObsoleteReason properties.
 - CLEAN version symbols (CLEAN15, CLEAN16, CLEAN17, CLEAN18) are used in the Base App to control obsoleted code.
 - Microsoft's own Base App obsoletion pattern is the model developers are advised to follow.
-- Explicit and implicit 'with' statements are deprecated, as described for 2022 release wave 2.
+- Explicit and implicit 'with' statements are deprecated in AL; the page on this refers to 2022 release wave 2.
 - The AL0604 and AL0606 warnings relate to the 'with' statement deprecation.
 - Fixes for 'with' statements include pragma directives, adding qualifications, and the NoImplicitWith flag.
 

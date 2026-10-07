@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and cancellations. It answers how-to questions on posting, matching, correcting, and approving purchase documents, handling electronic invoices, blanket orders, date calculation, and the payment practices report. A subtopic covers purchasing analytics.
+summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals and electronic documents. It answers how-to questions on posting, matching, correcting and cancelling purchase documents, and points to a subtopic on purchasing analytics.
 tier: official
 language: en
 system: purchasing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:46.677Z"
+  at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9def9d5fe895da9d15dacdf55ca2e39d95fb1f125dd7982c20fe63ece395c4b1
+  input_hash: 14b03b3f21a31501aa0f5ea3310a49ed5561b0bf144e46054fba8b8783fa705d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -434,28 +434,28 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and cancellations. It answers how-to questions on posting, matching, correcting, and approving purchase documents, handling electronic invoices, blanket orders, date calculation, and the payment practices report. A subtopic covers purchasing analytics.
+> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals and electronic documents. It answers how-to questions on posting, matching, correcting and cancelling purchase documents, and points to a subtopic on purchasing analytics.
 
 Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
 
 ## Overview
 
-This section describes how to manage company purchases in Business Central. It starts with an overview of purchasing tasks, then covers the document flow: purchase quotes converted to orders, purchase invoices and orders posted to update inventory and accounts payable, and returns or cancellations through credit memos or return orders.
+The Purchasing section describes how a company buys goods and services in Business Central. It starts with an overview page listing the document types: purchase quotes, orders, invoices, returns, blanket orders and OCR invoices. Task pages then cover each step: requesting an offer with a quote, recording purchases with orders and invoices, combining receipts or order lines on one invoice, and handling returns, cancellations and corrections.
 
-Other pages cover supporting tasks: combining receipts or order lines on one invoice, matching invoice drafts to orders, receiving PEPPOL and OCR electronic documents, recurring purchase lines, external document numbers, blanket orders, approval workflows, and date calculation from lead times. Some pages deal with shared records, such as merging duplicate vendors and saving contacts to Outlook. Reporting is covered by the Payment practices report and the Purchasing analytics subtopic.
+Other pages cover supporting setup and controls. These include lead time and date calculation, external document numbers, standard recurring purchase lines, purchase approval workflows, and checking invoice amounts before posting. Electronic documents (PEPPOL and OCR) and matching invoice drafts to purchase orders cover incoming invoices. A few pages are about contacts and master data, such as merging duplicate vendors and syncing contacts to Outlook.
 
-Start with the overview page, then go to "Record purchases with purchase invoices" for the core posting flow. Use the analytics subtopic when the question is about choosing a report or tool for spend, vendor, or payables analysis.
+Start with the overview page, then go to "Record purchases with purchase invoices" for the core flow. The Purchasing analytics subtopic covers reports, the Power BI Purchases app and ad-hoc data analysis for spend and vendor questions.
 
 ## Key points
 
-- Unpaid posted purchase invoices can be corrected or cancelled by creating a corrective credit memo, which keeps the audit trail.
-- Purchase quotes convert to purchase orders; blanket orders cover long-term agreements with deliveries over time.
-- Get Receipt Lines and Get Order Lines combine multiple receipts or order lines on one vendor invoice.
-- Incoming purchase invoice drafts can be matched to purchase orders and receipts, with order-match warnings and quantity and unit of measure checks.
-- PEPPOL and OCR electronic invoices and credit memos can be converted to purchase documents using text-to-account mapping.
-- Returns are processed with purchase credit memos or return orders, with exact cost reversing options.
-- Purchase approval workflows use approvers, amount limits, and notifications.
-- Merging duplicate vendor or customer records requires the MERGE DUPLICATES permission set.
+- Purchase quotes can be converted to purchase orders. Vendor templates and automatic vendor creation are supported.
+- Unpaid posted purchase invoices can be corrected or cancelled with a corrective credit memo. This keeps the audit trail and reverses financial and inventory entries.
+- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice. Receipt-on-invoice creates the receipt automatically when you invoice.
+- Incoming purchase invoice drafts can be matched to purchase orders and receipts. The matching shows order-match warnings and checks unit of measure and quantity.
+- PEPPOL and OCR electronic invoices and credit memos can be received and converted into purchase documents using text-to-account mapping.
+- Purchase returns and cancellations use credit memos or return orders, with options for exact cost reversing and item charge assignment.
+- Purchase approval workflows use approvers, amount limits and notifications such as internal notes.
+- The payment practices report shows agreed versus actual payment periods and the percentage of on-time payments.
 
 ## Subtopics
 

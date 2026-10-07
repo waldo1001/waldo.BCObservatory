@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 76 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot."
+summary: "Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot."
 tier: community
 language: es
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T05:17:08.437Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 436eaf2d17484108e05dcdc88b7cc455d90babc45e2061bdb60972e70eda9beb
+  input_hash: 7a8b271b32b5079fc6b0dc6d254034d5fa354efa9fd75d0e6c745fa711dd503b
 evidence:
   - kind: blog
     url: https://gerardorenteria.blog
@@ -50,6 +50,7 @@ links:
     - post/gerardorenteria-blog/11766
     - post/gerardorenteria-blog/11769
     - post/gerardorenteria-blog/11853
+    - post/gerardorenteria-blog/12235
     - post/gerardorenteria-blog/11968
     - post/gerardorenteria-blog/12030
     - post/gerardorenteria-blog/12231
@@ -99,6 +100,7 @@ links:
     - post/gerardorenteria-blog/14730
     - post/gerardorenteria-blog/14816
     - post/gerardorenteria-blog/14894
+    - post/gerardorenteria-blog/14469
     - post/gerardorenteria-blog/14979
     - post/gerardorenteria-blog/14993
     - post/gerardorenteria-blog/15051
@@ -116,7 +118,7 @@ url: https://gerardorenteria.blog
 author: Gerardo Renteria
 mvp: false
 full_text: false
-item_count: 76
+item_count: 78
 footprint:
   systems:
     - id: development
@@ -184,7 +186,7 @@ last_item: "2026-09-23"
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 76 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot.
+> Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -210,10 +212,10 @@ last_item: "2026-09-23"
 Items per quarter, oldest first:
 
 - 2025-Q2: ********** 10
-- 2025-Q3: ************ 12
+- 2025-Q3: ************* 13
 - 2025-Q4: ****************** 18
 - 2026-Q1: ************** 14
-- 2026-Q2: ************ 12
+- 2026-Q2: ************* 13
 - 2026-Q3: ********** 10
 
 ## Most recent
@@ -228,6 +230,7 @@ Items per quarter, oldest first:
 - [🔎 Change Log Blame View: View change history in a different way](../posts/gerardorenteria-blog/15051.md) (2026-07-17)
 - [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../posts/gerardorenteria-blog/14993.md) (2026-07-10)
 - [New Application Ideas of Dynamics 365 Business Central (2026 JUN)](../posts/gerardorenteria-blog/14979.md) (2026-07-07)
+- [GIT](../posts/gerardorenteria-blog/14469.md) (2026-06-29)
 - [💸The answer is the expensive part: controlling output tokens](../posts/gerardorenteria-blog/14894.md) (2026-06-21)
 - [World Cup in Business Central: predictions and results ⚽🥅](../posts/gerardorenteria-blog/14816.md) (2026-06-11)
 - [🪶 How to slim down the prompt and spend fewer credits in Github Copilot](../posts/gerardorenteria-blog/14730.md) (2026-06-04)
@@ -237,6 +240,5 @@ Items per quarter, oldest first:
 - [🔍 Visualize your AL objects in a tree view, filter and navigate directly in VS Code](../posts/gerardorenteria-blog/14610.md) (2026-05-16)
 - [🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message](../posts/gerardorenteria-blog/14522.md) (2026-05-03)
 - [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../posts/gerardorenteria-blog/14595.md) (2026-05-01)
-- [🔍 Field Magnifier for BC: Enhanced Accessibility 👓](../posts/gerardorenteria-blog/14351.md) (2026-04-23)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -7,7 +7,7 @@
     "FlowFields and FlowFilters are virtual fields: they calculate and display results dynamically and do not store data physically.",
     "A FlowField gets its value from the CalcFormula property, and the FieldClass property marks the field as a FlowField or FlowFilter.",
     "Seven FlowField types are available: Sum, Average, Exist, Count, Min, Max, and Lookup.",
-    "FlowFields show results immediately and help performance; SIFT optimization and calculating only visible FlowFields are covered in the overview (version 26.0).",
+    "FlowFields show results immediately and help performance; the FlowFields overview covers SIFT optimization and calculating only visible FlowFields.",
     "FlowFilters let users set ranges and filters at runtime to limit FlowField calculations, such as summing customer entries for a specific month.",
     "FlowFilter values are not stored in the database."
   ],
@@ -19,5 +19,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.010509000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:21:22.410Z",
+    "verdict": "fix",
+    "issues": [
+      "The key point about SIFT optimization and calculating only visible FlowFields adds \"(version 26.0)\". The summaries list 26.0 only as a version for the FlowFields overview page, not for these features, so the label is removed.",
+      "Minor: the claim that the FieldClass property marks a field as a FlowField or FlowFilter is inferred from the feature list. It is reasonable, so it stays."
+    ],
+    "input_hash": "e91dde415ac14a2df3b6274345d3906803ebd54adc7762309d7c99bc2f8fc077",
+    "cost_usd": 0.0377392
   }
 }

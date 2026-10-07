@@ -20,5 +20,19 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009255
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T05:22:33.250Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point linking telemetry analysis to Application Insights is a small inference. Both appear in the Managing technical support features, but the summaries don't connect them.",
+      "'Page Inspection helps with troubleshooting' goes slightly beyond the sources, which only list Page Inspection as a feature.",
+      "Calling the resources page 'aimed at end users' is a mild interpretation. Its summary describes general help resources.",
+      "The key point 'The resources page lists 2020 release wave 2' is supported but adds little value for agents. Without context it could also suggest the features date from that wave."
+    ],
+    "input_hash": "b6662393d5f38ed308ae7f4c143d56098af17f1dea3cb920f661553a8d50ab8b",
+    "cost_usd": 0.0321032
   }
 }

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:35.052Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,15 +71,15 @@ narrative: generated
 
 > The Performance Profiler section covers recording and analyzing business process performance in the Business Central client, and scheduling profiling for specific users and activity types. It answers questions about finding bottlenecks, reading call trees and time spent, and sharing or downloading profiles.
 
-Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · **unreviewed** (machine-generated narrative)
+Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · narrative reviewed by Opus
 
 ## Overview
 
 The Performance Profiler helps find why a business process is slow. It records snapshots of all apps and objects involved and shows time spent and call trees, so you can see where the bottleneck is. Profiles can be shared and downloaded.
 
-The scheduled profiler extends this for administrators. Instead of recording by hand, an administrator creates a profiling schedule for specific users and activity types, so slow processes are captured and diagnosed when they happen. Results can be viewed as analysis or downloaded as profiles.
+The scheduled profiler extends this for administrators. Instead of recording by hand, an administrator creates a profiling schedule for specific users and activity types to monitor and diagnose slow processes. Schedules include settings such as sampling frequency and an activity duration threshold. Results can be viewed as analysis with performance metrics or downloaded as profiles.
 
-Start with the Performance Profiler overview to learn the basic recording and analysis flow. Then read the scheduled profiler overview if you need to monitor users over time. The scheduled profiler is marked as prerelease (runtime 18, version 29).
+Start with the Performance Profiler overview to learn the basic recording and analysis flow. Then read the scheduled profiler overview if you need to monitor specific users. The scheduled profiler page references runtime 18 and version 29, both marked as prerelease.
 
 ## Key points
 
@@ -89,7 +89,7 @@ Start with the Performance Profiler overview to learn the basic recording and an
 - Administrators can create profiler schedules for specific users and activity types.
 - Schedules support settings for sampling frequency and an activity duration threshold.
 - Scheduled profiles can be viewed as analysis with performance metrics or downloaded.
-- The scheduled profiler is prerelease, tied to runtime 18 and version 29.
+- The scheduled profiler page references runtime 18 and version 29, both marked as prerelease.
 
 ## Learn pages
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:21:21.306Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Responsible AI in Business Central is a set of transparency notes for three AI areas: developer tools for Copilot, Machine Learning APIs, and Semantic Metadata Search. It answers questions about how each capability works, what it can and cannot do, intended uses, and responsible AI practices for partners.
 
-Path: Responsible AI · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: Responsible AI · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 

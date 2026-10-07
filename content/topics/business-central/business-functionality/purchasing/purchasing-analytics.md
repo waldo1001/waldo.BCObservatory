@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics
 type: topic
 title: Purchasing analytics
-summary: "Purchasing analytics in Business Central covers the ways to analyze purchasing data: the Power BI Purchases app, built-in reports, ad-hoc Data Analysis, and legacy reports slated for removal. It answers which tool or report fits a spend, vendor, payables or trend question."
+summary: Purchasing analytics in Business Central covers the Power BI Purchases app, built-in purchasing and payables reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about which report or tool fits a purchasing, vendor, or spend question and what each one shows.
 tier: official
 language: en
 system: purchasing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:22.939Z"
+  at: "2026-10-07T05:20:55.174Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6695b50735ae300ec6922e61edf1db076d084f2f45abf2e50fabcee8b83f980c
+  input_hash: 72ae8c0f550b80ee5141c97fab2f04a68fbbeefe6d5c1fbfff8c3e173f4a02b0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -384,26 +384,26 @@ narrative: generated
 
 # Purchasing analytics
 
-> Purchasing analytics in Business Central covers the ways to analyze purchasing data: the Power BI Purchases app, built-in reports, ad-hoc Data Analysis, and legacy reports slated for removal. It answers which tool or report fits a spend, vendor, payables or trend question.
+> Purchasing analytics in Business Central covers the Power BI Purchases app, built-in purchasing and payables reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about which report or tool fits a purchasing, vendor, or spend question and what each one shows.
 
 Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · narrative reviewed by Opus
 
 ## Overview
 
-Purchasing analytics groups the options for monitoring purchasing KPIs, vendor performance and purchasing trends. Two own pages introduce the area: one gives an overview of analytics features (Power BI, ad-hoc analysis, financial reporting, Excel integration, dimension analysis), and one explains ad-hoc analysis with the Data Analysis feature on purchase orders, invoices and vendor ledger entries.
+Purchasing analytics groups the ways to monitor purchasing KPIs, vendor performance, and purchasing trends. The two own pages give the entry points: an overview of analytics options (Power BI reports, ad-hoc analysis, financial reporting, data analysis, Excel integration, dimension analysis) and a page on ad-hoc analysis using the Data Analysis feature, which lets you analyze purchase orders, invoices, and vendor ledger entries without running a report.
 
-Three subtopics go deeper. The Power BI purchasing app section documents the app, its semantic model, KPIs and measures, and each report. The built-in reports section covers vendor payables, vendor balances, purchase orders, purchase history, catalogs and document layouts. The legacy reports section lists four reports marked for removal.
+The subtopics go deeper. The Power BI purchasing app section documents the app, its semantic model, the KPI and measure reference, and each report. The built-in reports section describes what each standard report shows and who uses it, such as aged payables, vendor balances, open purchase orders, and purchase document layouts. The legacy section lists four reports that will be removed.
 
-Start with "Analytics in purchasing" to pick an approach. Use ad-hoc analysis for quick questions without running a report, built-in reports for standard payables and order questions, and the Power BI app for spend, vendor, budget, return and trend analysis. Avoid building on the legacy reports.
+Start with "Analytics in purchasing" to choose an approach. Use Data Analysis for quick questions on live data, built-in reports for standard payables and purchasing output, and the Power BI app for spend, vendor, budget, return, and trend analysis. Avoid the legacy reports in new work.
 
 ## Key points
 
-- Analytics in purchasing gives an overview of Power BI reports, ad-hoc analysis, financial reporting, Excel integration and dimension analysis.
-- Ad-hoc analysis uses the Data Analysis feature (with Pivot Mode and Analysis Filters) on purchase orders, invoices and vendor ledger entries, with no report run needed.
-- Ad-hoc analysis topics include a GRNI overview and payment analysis.
-- The Power BI purchasing app section (20 pages) covers the app, semantic model, KPI and measure reference, and each report.
-- Built-in purchasing reports (17 pages) cover vendor payables, vendor balances, purchase orders, purchase history, item/vendor catalogs and document layouts.
-- Legacy reports to be removed: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List.
+- Analytics in purchasing is the starting page, covering Power BI, ad-hoc analysis, financial reporting, data analysis, Excel integration, and dimension analysis.
+- Ad-hoc analysis uses the Data Analysis feature on purchase orders, invoices, and vendor ledger entries, with Pivot Mode and Analysis Filters, and includes a GRNI overview and payment analysis.
+- The Power BI purchasing app has 20 pages covering the app, its semantic model, KPI and measure reference, and each report.
+- Built-in reports (17 pages) include aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, and item/vendor catalogs.
+- Built-in reports also cover purchase reservation availability and document layouts such as purchase orders and e-document invoice previews.
+- Legacy reports marked for removal: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List.
 
 ## Subtopics
 

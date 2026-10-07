@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T05:23:12.842Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T05:23:51.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,15 +66,15 @@ narrative: generated
 
 > ALTool is the cross-platform command-line tool for compiling and packaging AL extensions for Business Central. This section answers questions about what the AL Development Tools package contains, how ALTool fits into CI/CD pipelines, and which commands it offers.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · **unreviewed** (machine-generated narrative)
+Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · narrative reviewed by Opus
 
 ## Overview
 
-ALTool is a command-line utility delivered in the AL Development Tools package, a cross-platform NuGet package. It is used to compile and package AL extensions and to retrieve manifests, and it is meant to be used in CI/CD pipelines as well as locally.
+ALTool is a command-line utility delivered in the AL Development Tools package, a cross-platform NuGet package. It is used to compile and package AL extensions and to retrieve manifests, and it is designed for integration into CI/CD pipelines.
 
 The section has two pages. The package page explains what the AL Development Tools package provides and how ALTool is part of it. The command-line reference lists the ALTool commands: compilation, workspace management, test execution, call graph analysis, and detection of symbol-only packages. It also covers LSP and MCP servers, including MCP proxies for performance profiling and snapshot debugging that connect AI agents to running Business Central environments.
 
-Start with the package page to understand what is installed and how it is obtained, then use the command-line reference to find the specific command for your build or analysis task.
+Start with the package page to understand what the package contains and that it is distributed through NuGet. Then use the command-line reference to find the specific command for your build or analysis task.
 
 ## Key points
 
