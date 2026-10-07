@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9569",
+  "number": 9569,
+  "title": "Enforce permissions when reviewing orphaned extension data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Permission checks now consistently apply when marking orphaned extension data as reviewed through both notification and page actions.",
+  "key_points": [
+    "Added CheckPermissions() call to notification action for marking data as reviewed",
+    "Refactored shared implementation between notification and page entry points",
+    "Stricter permission enforcement on page open",
+    "No behavioral changes for users with proper permissions",
+    "Fixes inconsistent permission validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Ensure marking orphaned extension data as reviewed consistently calls CheckPermissions() from both the notification and page actions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003295,
+    "changes_in_call": 1
+  }
+}

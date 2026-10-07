@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9466",
+  "number": 9466,
+  "title": "[Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The OnCheckExpirationDateOnBeforeAssignExpirationDate event gains three new parameters (GlobalItemTrackingCode, ItemJnlLine2, SignFactor) to allow subscribers to access the data needed for expiration date assignment logic.",
+  "key_points": [
+    "Event now exposes the item tracking code, journal line, and sign factor",
+    "Enables subscribers to replicate expiration-date assignment logic using the IsHandled pattern",
+    "Change applied consistently across W1 and all country-specific layers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003629,
+    "changes_in_call": 1
+  }
+}

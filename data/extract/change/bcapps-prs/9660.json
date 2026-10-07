@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9660",
+  "number": 9660,
+  "title": "[Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production order component line pages now properly link component consumption quantities to their originating production order when a firm planned order contains components with the same item number.",
+  "key_points": [
+    "Fixes incorrect consumption quantity references for components in firm planned orders",
+    "Clarifies which production order a component's quantities point to when duplicate items exist",
+    "Updates both the Component Line List page and the Components page",
+    "Includes test coverage for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003121,
+    "changes_in_call": 1
+  }
+}

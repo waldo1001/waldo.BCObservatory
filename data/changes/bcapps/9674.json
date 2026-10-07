@@ -1,0 +1,55 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9674,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9674",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T16:50:51Z",
+  "merge_commit_sha": "9095a2aa624a21f0838a314e523c32dcf2f232d8",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix missing table permissions on Stale Check action in Check Management Subscriber",
+  "body_hash": "d2565336553923c2f25bd9823a13c3af2557a2d1983754516ffadf6ae188f44c",
+  "fixes_issues": [],
+  "work_items": [
+    643293
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INVoucherInterface/app/src/codeunit/CheckManagementSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INVoucherInterface/app/src/codeunit/CheckManagementSubscriber.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

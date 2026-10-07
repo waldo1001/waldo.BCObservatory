@@ -6,7 +6,7 @@
   "title": "Genericize freddyk references in docs examples",
   "url": "https://github.com/microsoft/AL-Go/pull/2326",
   "published_at": "2026-07-23T12:11:24Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "genericize freddyk references in docs examples"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:30.134Z",
+  "retry_after": null
 }

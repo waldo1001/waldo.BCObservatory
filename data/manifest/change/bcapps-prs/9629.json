@@ -6,7 +6,7 @@
   "title": "Fix #9256: set dev container memory limit from AL-Go settings",
   "url": "https://github.com/microsoft/BCApps/pull/9629",
   "published_at": "2026-07-23T09:52:57Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -33,5 +33,8 @@
     ],
     "community_contribution": true,
     "title_key": "fix 9256 set dev container memory limit from al go settings"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:32.231Z",
+  "retry_after": null
 }

@@ -6,7 +6,7 @@
   "title": "[master][NAV] Track failed BCApps validation (AUTODETECTED) - tests updated",
   "url": "https://github.com/microsoft/BCApps/pull/9373",
   "published_at": "2026-07-23T12:55:21Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "master nav track failed bcapps validation autodetected tests updated"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:29.125Z",
+  "retry_after": null
 }

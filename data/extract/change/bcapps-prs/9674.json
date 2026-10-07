@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9674",
+  "number": 9674,
+  "title": "Fix missing table permissions on Stale Check action in Check Management Subscriber",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Added missing table permissions to the Check Management Subscriber codeunit to allow the Stale Check action to properly modify bank account and customer/vendor ledger entries without permission errors.",
+  "key_points": [
+    "Stale Check action was failing due to missing Modify permissions on ledger tables",
+    "Added Permissions property to Check Management Subscriber codeunit",
+    "Grants read-modify permissions on Bank Account Ledger Entry, Check Ledger Entry, Customer Ledger Entry, and Vendor Ledger Entry",
+    "Resolves license permission errors during stale check operations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003417,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[main] bug 642743 - Change behavior of OnValidate trigger of \"EU 3-Party Intermed. Role CZL\" field",
   "url": "https://github.com/microsoft/BCApps/pull/9645",
   "published_at": "2026-07-23T18:46:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:22.235Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:26.961Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003546
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:27.160Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:27.166Z",
+      "path": "content/changes/bcapps/9645.md"
     }
   },
   "input_hash": "74e9100d13e552721eea25a6bf21937d1e7d74dd:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642743 change behavior of onvalidate trigger of eu 3 party intermed role czl field"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7cad07830d10ca2f9fdd7b2dc6d41faa0d376b630be916d2694e6bd1b50bc2c7"
 }

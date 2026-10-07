@@ -6,10 +6,35 @@
   "title": "Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes",
   "url": "https://github.com/microsoft/BCApps/pull/9206",
   "published_at": "2026-07-23T13:39:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:24.617Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:29.958Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003816
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:30.124Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:30.131Z",
+      "path": "content/changes/bcapps/9206.md"
     }
   },
   "input_hash": "03353c7be844879d426469961f0e7d5c53ea9919:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "added new privacy policy for bizchat depending on microsoft copilot 365 with eea environments behavior changes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b5ed1d6732c4b9ac5768ea2fc1c8f91b75c3cd0c1a28a7fa1a35760c874ec14"
 }

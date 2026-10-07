@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9605",
+  "number": 9605,
+  "title": "[Quality Management] UI actions to restore default shipped source configurations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Quality Management adds UI actions to restore, reset, or recreate default source configurations and makes the configuration card page editable to help resolve incomplete or damaged setup states.",
+  "key_points": [
+    "Card page becomes editable for direct configuration changes",
+    "Reset default configuration action on card page to discard customizations",
+    "Three new list page actions: recreate missing defaults, reset only defaults while preserving custom ones, and reset all configurations",
+    "Helps resolve environments stuck with incomplete or damaged source configurations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Adds options to unstuck environment from incomplete or damaged source configurations",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003457,
+    "changes_in_call": 1
+  }
+}

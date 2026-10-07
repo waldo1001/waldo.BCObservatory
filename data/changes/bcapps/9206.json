@@ -1,0 +1,181 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9206,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9206",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T13:39:18Z",
+  "merge_commit_sha": "03353c7be844879d426469961f0e7d5c53ea9919",
+  "author": "Kimi310",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes",
+  "body_hash": "5ac161584b128dd72142799935d273eb8dc40624c8abbba2bb5e1d7cbdc40000",
+  "fixes_issues": [],
+  "work_items": [
+    626609
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AI/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/CopilotCapabilityImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Copilot/CopilotCapabilityInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Navigation Bar Subscribers/src/NavigationBarSubImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Navigation Bar Subscribers/src/NavigationBarSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Privacy Notice/src/PrivacyNotice.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Privacy Notice/src/PrivacyNoticeImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Privacy Notice/src/SystemPrivacyNoticeReg.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 81,
+    "deletions": 2,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/AI/src/Copilot/CopilotCapabilityImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7774",
+        "type": "codeunit",
+        "id": 7774,
+        "name": "Copilot Capability Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7774"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Copilot/CopilotCapabilityInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7760",
+        "type": "codeunit",
+        "id": 7760,
+        "name": "Copilot Capability Install",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7760"
+      },
+      {
+        "path": "src/System Application/App/Navigation Bar Subscribers/src/NavigationBarSubImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1818",
+        "type": "codeunit",
+        "id": 1818,
+        "name": "Navigation Bar Sub. Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1818"
+      },
+      {
+        "path": "src/System Application/App/Navigation Bar Subscribers/src/NavigationBarSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/154",
+        "type": "codeunit",
+        "id": 154,
+        "name": "Navigation Bar Subscribers",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/154"
+      },
+      {
+        "path": "src/System Application/App/Privacy Notice/src/PrivacyNotice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1563",
+        "type": "codeunit",
+        "id": 1563,
+        "name": "Privacy Notice",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1563"
+      },
+      {
+        "path": "src/System Application/App/Privacy Notice/src/PrivacyNoticeImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1565",
+        "type": "codeunit",
+        "id": 1565,
+        "name": "Privacy Notice Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1565"
+      },
+      {
+        "path": "src/System Application/App/Privacy Notice/src/SystemPrivacyNoticeReg.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1566",
+        "type": "codeunit",
+        "id": 1566,
+        "name": "System Privacy Notice Reg.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1566"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "administration",
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

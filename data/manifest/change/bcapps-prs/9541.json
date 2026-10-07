@@ -6,10 +6,35 @@
   "title": "[SOA] Bound outbound reply retries",
   "url": "https://github.com/microsoft/BCApps/pull/9541",
   "published_at": "2026-07-23T10:22:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:31.995Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:39.011Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003709
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:39.235Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:39.241Z",
+      "path": "content/changes/bcapps/9541.md"
     }
   },
   "input_hash": "0e0cc043a9747f963ee9839c43aba7a4317fd891:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa bound outbound reply retries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6216f145a538481e629883ddae028b1b273b4bb9270ae9da200bc6604206dba"
 }

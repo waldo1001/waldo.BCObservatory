@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8999",
+  "number": 8999,
+  "title": "Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration",
+    "development"
+  ],
+  "summary": "Recommended Apps and Connectivity Apps now use the official Marketplace Catalog API with Azure Key Vault integration instead of the deprecated undocumented endpoint that was blocked by WAF.",
+  "key_points": [
+    "Migrated from blocked undocumented endpoint to official catalogapi.azure.com API",
+    "Integrated Azure Key Vault for secure API key management using SecretText",
+    "Updated JSON response parsing to read largeIconUri from top-level response",
+    "Removed User-Agent spoofing no longer needed with official API",
+    "Updated test assertions for new API error response format"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003986,
+    "changes_in_call": 1
+  }
+}

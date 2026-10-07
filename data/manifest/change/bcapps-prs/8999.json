@@ -6,10 +6,35 @@
   "title": "Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API",
   "url": "https://github.com/microsoft/BCApps/pull/8999",
   "published_at": "2026-07-23T17:25:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:23.482Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:29.201Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003986
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:29.360Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:29.370Z",
+      "path": "content/changes/bcapps/8999.md"
     }
   },
   "input_hash": "33729d271cc449488324ba8d0db0e7541e82d758:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "migrate recommended apps connectivity apps to official marketplace catalog api"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5dda4ffe42c12b5183ace408c9fdbc1fc79984b4c74d4da27c65b36a016cdc1"
 }

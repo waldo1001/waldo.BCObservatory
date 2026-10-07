@@ -6,10 +6,35 @@
   "title": " [Main]- \"Filter by Attribute\" action does not apply the filter under specific circumstances",
   "url": "https://github.com/microsoft/BCApps/pull/9631",
   "published_at": "2026-07-23T12:40:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:29.872Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 1,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:34.751Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003633
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:34.981Z",
+      "objects": 1,
+      "unjoined": 5,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:39.003Z",
+      "path": "content/changes/bcapps/9631.md"
     }
   },
   "input_hash": "2c9f2557b2cdb7565cf53e0dd03b5fca7598b35e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "main filter by attribute action does not apply the filter under specific circumstances"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e7c4fa952474854c77076049c537eeb01908baed8b7d42da23baf14979a251a4"
 }

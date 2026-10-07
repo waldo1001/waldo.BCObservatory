@@ -1,0 +1,158 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9687,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9687",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T21:50:08Z",
+  "merge_commit_sha": "59750d58b62a85608457e8377496666022e543a9",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling",
+  "body_hash": "b7ce06506a76c307d434302df09f8830744899e1c3df42ff11e33cfeb8b80775",
+  "fixes_issues": [],
+  "work_items": [
+    643230
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/FAGeneralReportCZF.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/test/Src/FixedAssetsCZF.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Fixed Asset/ERMFixedAssetsReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Fixed Asset/ERMFixedAssetsReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMFixedAssetsReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 281,
+    "deletions": 5,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/DACH/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5626"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAGeneralReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5626",
+        "type": "codeunit",
+        "id": 5626,
+        "name": "FA General Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5626"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/FAGeneralReportCZF.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "fixed-assets"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

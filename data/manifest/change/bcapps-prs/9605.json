@@ -6,10 +6,35 @@
   "title": "[Quality Management] UI actions to restore default shipped source configurations",
   "url": "https://github.com/microsoft/BCApps/pull/9605",
   "published_at": "2026-07-23T17:46:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:23.030Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:27.900Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003457
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:28.054Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:28.059Z",
+      "path": "content/changes/bcapps/9605.md"
     }
   },
   "input_hash": "384c007fcfcc15c4a8cd96e7fae1528fd20fa3f4:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management ui actions to restore default shipped source configurations"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83febbeb46309757e68d2070a891d43f409a89a74a6a4820c84f986e708f3c9e"
 }

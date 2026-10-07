@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9643",
+  "number": 9643,
+  "title": "Update SII subscribers SkipMissingPermissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "summary": "Spanish SII feature codeunits now use SkipMissingPermissions attribute on their subscriber methods to handle permission scenarios appropriately.",
+  "key_points": [
+    "SkipMissingPermissions attribute added to SII subscriber methods across multiple codeunits",
+    "Affects VAT, purchase, and sales document subscribers in the Spanish localization",
+    "Changes event subscription behavior when required permissions are absent",
+    "Localization-specific change for Spanish Intrastat Information System (SII) integration",
+    "Minimal code changes focused on attribute application"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003895,
+    "changes_in_call": 1
+  }
+}

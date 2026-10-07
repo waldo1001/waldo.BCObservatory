@@ -1,0 +1,346 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9200,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9200",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T08:59:55Z",
+  "merge_commit_sha": "7a0bc83b914aacbc0dc26df76882572f5777db5b",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Cloud Migration bug fixes (BC14 reimplementation, custom mapping, OnPrem dev companies)",
+  "body_hash": "6fc3914256c82039b656084d317676cfc6638e0dec280e75ba910baab891db11",
+  "fixes_issues": [],
+  "work_items": [
+    641643,
+    642621
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationErrorOverview.page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationFailureHandler.codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldGLEntryMigr.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14PostedSalesInvMigr.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14CompanyMigrationInfo.table.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14CompanyUpgradeStatus.page.al",
+      "status": "modified",
+      "additions": 126,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationOrchestrator.codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationRunner.codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationStatusMgr.codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Setup/BC14MigrationProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/framework/BC14E2EUpgradeTests.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 24,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/framework/BC14ErrorFailureTests.Codeunit.al",
+      "status": "modified",
+      "additions": 103,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/framework/BC14MigrationFlowTests.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/framework/BC14PageTests.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/TableMappings/AddCustomMigrationMapping.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/TableMappings/CustomMigrationMappingList.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/codeunits/HybridCloudManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/pages/CloudMigrationManagement.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/pages/IntelligentCloudManagement.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 560,
+    "deletions": 147,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationErrorOverview.page.al",
+        "status": "modified",
+        "key": "page/46863",
+        "type": "page",
+        "id": 46863,
+        "name": "BC14 Migration Error Overview",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "page/46863"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationFailureHandler.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46860",
+        "type": "codeunit",
+        "id": 46860,
+        "name": "BC14 Migration Failure Handler",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46860"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldGLEntryMigr.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46881",
+        "type": "codeunit",
+        "id": 46881,
+        "name": "BC14 Old G/L Entry Migr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46881"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14PostedSalesInvMigr.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46880",
+        "type": "codeunit",
+        "id": 46880,
+        "name": "BC14 Posted Sales Inv Migr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46880"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14CompanyMigrationInfo.table.al",
+        "status": "modified",
+        "key": "table/46855",
+        "type": "table",
+        "id": 46855,
+        "name": "BC14CompanyMigrationInfo",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46855"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14CompanyUpgradeStatus.page.al",
+        "status": "modified",
+        "key": "page/46859",
+        "type": "page",
+        "id": 46859,
+        "name": "BC14 Company Upgrade Status",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "page/46859"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationOrchestrator.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46862",
+        "type": "codeunit",
+        "id": 46862,
+        "name": "BC14 Migration Orchestrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46862"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationRunner.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46875",
+        "type": "codeunit",
+        "id": 46875,
+        "name": "BC14 Migration Runner",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46875"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationStatusMgr.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46858",
+        "type": "codeunit",
+        "id": 46858,
+        "name": "BC14 Migration Status Mgr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46858"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Setup/BC14MigrationProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46850",
+        "type": "codeunit",
+        "id": 46850,
+        "name": "BC14 Migration Provider",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46850"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/TableMappings/AddCustomMigrationMapping.Page.al",
+        "status": "modified",
+        "key": "page/40016",
+        "type": "page",
+        "id": 40016,
+        "name": "Add Custom Migration Mapping",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "page/40016"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/TableMappings/CustomMigrationMappingList.Page.al",
+        "status": "modified",
+        "key": "page/40017",
+        "type": "page",
+        "id": 40017,
+        "name": "Custom Migration Mapping List",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "page/40017"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/codeunits/HybridCloudManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4001",
+        "type": "codeunit",
+        "id": 4001,
+        "name": "Hybrid Cloud Management",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "codeunit/4001"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/pages/CloudMigrationManagement.Page.al",
+        "status": "modified",
+        "key": "page/40063",
+        "type": "page",
+        "id": 40063,
+        "name": "Cloud Migration Management",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "page/40063"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/pages/IntelligentCloudManagement.Page.al",
+        "status": "modified",
+        "key": "page/4003",
+        "type": "page",
+        "id": 4003,
+        "name": "Intelligent Cloud Management",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "page/4003"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "HybridBC14",
+    "HybridBaseDeployment"
+  ]
+}

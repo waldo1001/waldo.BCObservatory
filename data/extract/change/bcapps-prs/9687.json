@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9687",
+  "number": 9687,
+  "title": "[main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "Fixed a bug where the FA General Report procedures could clear the FA Posting Group or Tax Depreciation Group fields with blank values from depreciation book records instead of only updating with non-blank values. Added comprehensive unit tests for both scenarios.",
+  "key_points": [
+    "SetFAPostingGroup and SetFATaxDeprGroup now check that source values are non-blank before updating the fixed asset fields",
+    "Prevents silent data loss where running reports with Group Totals filters could erase posting group assignments",
+    "Guard condition added for blank value validation in both W1 and CZ localizations",
+    "New unit tests cover both the protective case (blank source) and the update case (different non-blank source)",
+    "No breaking changes or data migration required"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004545,
+    "changes_in_call": 1
+  }
+}

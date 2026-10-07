@@ -6,10 +6,35 @@
   "title": "[main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling",
   "url": "https://github.com/microsoft/BCApps/pull/9687",
   "published_at": "2026-07-23T21:50:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:21.027Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 5,
+      "objects": 4,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:26.474Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004545
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:26.673Z",
+      "objects": 4,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:26.678Z",
+      "path": "content/changes/bcapps/9687.md"
     }
   },
   "input_hash": "59750d58b62a85608457e8377496666022e543a9:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642230 enhance fa general report logic and add tests for tax deprec group and fa posting group handling"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f1a91cb9dad9148c471eecf7fd4e408d115a36a3200ac19266f57124168f51b7"
 }

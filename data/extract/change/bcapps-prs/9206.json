@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9206",
+  "number": 9206,
+  "title": "Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "administration",
+    "copilot"
+  ],
+  "summary": "New privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes disables chat by default for European users and enables a shortcut to AI capabilities.",
+  "key_points": [
+    "Added privacy policy for Copilot Chat V2 rollout",
+    "Chat functionality disabled by default for EEA environments, enabled elsewhere",
+    "New shortcut navigation to AI and agents capabilities page",
+    "Privacy notice registration and implementation updates",
+    "System Application changes across Copilot and Privacy Notice components"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003816,
+    "changes_in_call": 1
+  }
+}

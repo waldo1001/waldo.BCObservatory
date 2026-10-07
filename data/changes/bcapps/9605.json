@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9605,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9605",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T17:46:32Z",
+  "merge_commit_sha": "384c007fcfcc15c4a8cd96e7fae1528fd20fa3f4",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] UI actions to restore default shipped source configurations",
+  "body_hash": "8530b96213ae47334803fc4aa72b3028efcd4c64ddcf0f8d5f362003e9a6390b",
+  "fixes_issues": [],
+  "work_items": [
+    642625
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/QltyAutoConfigure.Codeunit.al",
+      "status": "modified",
+      "additions": 136,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyInsSourceConfigList.Page.al",
+      "status": "modified",
+      "additions": 112,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyInspectSourceConfig.Page.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsMoreTests.Codeunit.al",
+      "status": "modified",
+      "additions": 164,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 459,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/QltyAutoConfigure.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20402",
+        "type": "codeunit",
+        "id": 20402,
+        "name": "Qlty. Auto Configure",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20402"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyInsSourceConfigList.Page.al",
+        "status": "modified",
+        "key": "page/20412",
+        "type": "page",
+        "id": 20412,
+        "name": "Qlty. Ins. Source Config. List",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20412"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/SourceConfiguration/QltyInspectSourceConfig.Page.al",
+        "status": "modified",
+        "key": "page/20410",
+        "type": "page",
+        "id": 20410,
+        "name": "Qlty. Inspect. Source Config.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20410"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Setup/QltyManagementSetup.Page.al",
+        "status": "modified",
+        "key": "page/20400",
+        "type": "page",
+        "id": 20400,
+        "name": "Qlty. Management Setup",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9541",
+  "number": 9541,
+  "title": "[SOA] Bound outbound reply retries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Outbound replies in the Sales Order Agent now limit retry attempts to five per message, provide a manual retry action, and isolate failures to prevent blocking other messages.",
+  "key_points": [
+    "Capped failed outbound reply attempts at five per message to prevent infinite retries",
+    "Suppresses exhausted replies without recurring telemetry when retry limit is reached",
+    "Added a Retry sending action that resets the attempt count for manual retry",
+    "Isolated individual reply failures so remaining messages continue processing",
+    "Added new Reply Attempt table to track retry history"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration",
+    "copilot"
+  ],
+  "quote": "cap failed outbound reply attempts at five per message",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003709,
+    "changes_in_call": 1
+  }
+}

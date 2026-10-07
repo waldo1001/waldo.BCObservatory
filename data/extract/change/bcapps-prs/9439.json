@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9439",
+  "number": 9439,
+  "title": "[Extensibility Request] issue 30330: add OnCancelInvoiceOnBeforeConfirm event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "An integration event enables extensions to adjust the confirmation message shown when cancelling a posted sales invoice, ensuring the text matches any customized behavior for restoring quantities.",
+  "key_points": [
+    "New integration event OnCancelInvoiceOnBeforeConfirm in codeunit 1323",
+    "Confirmation text is now stored in a variable that subscribers can modify",
+    "Allows extensions to reflect customized order quantity behavior in the confirmation dialog",
+    "Integrates with existing extensibility for handling originating order quantities"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003253,
+    "changes_in_call": 1
+  }
+}

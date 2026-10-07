@@ -6,10 +6,35 @@
   "title": "Fix missing table permissions on Stale Check action in Check Management Subscriber",
   "url": "https://github.com/microsoft/BCApps/pull/9674",
   "published_at": "2026-07-23T16:50:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:24.249Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:29.374Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003417
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:29.538Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:29.542Z",
+      "path": "content/changes/bcapps/9674.md"
     }
   },
   "input_hash": "9095a2aa624a21f0838a314e523c32dcf2f232d8:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "fix missing table permissions on stale check action in check management subscriber"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "184bffefa41ed2ea7cd8cfd053de0f403ab1191b5b2af7618f643e4b96687a85"
 }

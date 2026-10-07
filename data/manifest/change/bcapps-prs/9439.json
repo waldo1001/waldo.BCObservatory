@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30330: add OnCancelInvoiceOnBeforeConfirm event",
   "url": "https://github.com/microsoft/BCApps/pull/9439",
   "published_at": "2026-07-24T13:35:17Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003253
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:20.641Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:20.646Z",
+      "path": "content/changes/bcapps/9439.md"
     }
   },
   "input_hash": "3d1e4b60b26df7310583f3ed4b732afb4abaf49d:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59c8e6a017b2bf67f159a1f015c283e975cc6e277483ce80523cc18c1d43c201"
+  "output_hash": "6844e275b3daec028c9ee3fb112ca2234ef03b9a62bbf7c8bf9173883dd1f704"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9631",
+  "number": 9631,
+  "title": " [Main]- \"Filter by Attribute\" action does not apply the filter under specific circumstances",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The 'Filter by Attribute' action on the Item List page now preserves user-applied filters instead of replacing them, fixing cases where filters were incorrectly lost during attribute filtering.",
+  "key_points": [
+    "Attribute filtering now uses a temporary record filtering flow consistently",
+    "User-applied filters (like Vendor No. conditions) are preserved and combined with attribute results",
+    "Page record context is no longer reset during attribute filtering",
+    "The fix applies across all regional versions of the Item List page",
+    "Added test coverage for attribute filtering scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Filter by Attributes action to always use the temp-record filtering flow and removed the reset of the page record context",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003633,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Update SII subscribers SkipMissingPermissions",
   "url": "https://github.com/microsoft/BCApps/pull/9643",
   "published_at": "2026-07-23T13:16:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:28.255Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:33.467Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003895
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:33.619Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:33.626Z",
+      "path": "content/changes/bcapps/9643.md"
     }
   },
   "input_hash": "2046e67986baf8b43694f1190f2fc195b478a6d0:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "update sii subscribers skipmissingpermissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e0e137537137032e395e9b27b74548a6d1e7b881c80a729a6462d06584a06eb"
 }

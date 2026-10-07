@@ -6,10 +6,35 @@
   "title": "Enforce permissions when reviewing orphaned extension data",
   "url": "https://github.com/microsoft/BCApps/pull/9569",
   "published_at": "2026-07-23T09:20:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:33.268Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:39.247Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003295
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:39.395Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:39.400Z",
+      "path": "content/changes/bcapps/9569.md"
     }
   },
   "input_hash": "44df0f82f6129a2ae4ea2ba2ff50c0e784a1cf83:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "enforce permissions when reviewing orphaned extension data"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9ebdcc4d7beee17682bbc1615832fe4a99226ec9ef22ebc2b47f9bb8399bd7e"
 }

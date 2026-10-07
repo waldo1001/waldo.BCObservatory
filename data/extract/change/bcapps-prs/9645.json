@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9645",
+  "number": 9645,
+  "title": "[main] bug 642743 - Change behavior of OnValidate trigger of \"EU 3-Party Intermed. Role CZL\" field",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "When the EU 3-Party Intermediary field is deactivated in sales or purchase document headers, the EU 3-Party Trade field is now also deactivated instead of remaining active.",
+  "key_points": [
+    "Fixed inconsistent validation behavior where setting EU 3-Party Intermediary to false did not clear the EU 3-Party Trade field",
+    "Ensures both fields stay synchronized during activation and deactivation",
+    "Applied to both Sales and Purchase document headers in the Czech localization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "purchasing",
+    "sales"
+  ],
+  "quote": "When the EU 3-Party - Intermediary field in the document header is deactivated, the system does not deactivate the EU 3-Party Trade field",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003546,
+    "changes_in_call": 1
+  }
+}

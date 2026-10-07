@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9645,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9645",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T18:46:23Z",
+  "merge_commit_sha": "74e9100d13e552721eea25a6bf21937d1e7d74dd",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 642743 - Change behavior of OnValidate trigger of \"EU 3-Party Intermed. Role CZL\" field",
+  "body_hash": "2d887df8b6f9eb56fe8638f8ea59422b4ee58358f481e4c84d45d1d4c7761bbf",
+  "fixes_issues": [],
+  "work_items": [
+    642743
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/PurchaseHeaderCZL.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/SalesHeaderCZL.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 2,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/PurchaseHeaderCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/SalesHeaderCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

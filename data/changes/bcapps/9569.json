@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9569,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9569",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T09:20:37Z",
+  "merge_commit_sha": "44df0f82f6129a2ae4ea2ba2ff50c0e784a1cf83",
+  "author": "jhejlsberg",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Enforce permissions when reviewing orphaned extension data",
+  "body_hash": "c11036076807730cb731fb6c5305479549ad555f53c8ac07c713d6b577933e0c",
+  "fixes_issues": [],
+  "work_items": [
+    633514
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Extension Management/src/DeleteOrphanedExtensionData.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionOperationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 9,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Extension Management/src/DeleteOrphanedExtensionData.Page.al",
+        "status": "modified",
+        "key": "page/2514",
+        "type": "page",
+        "id": 2514,
+        "name": "Delete Orphaned Extension Data",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2514"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionOperationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2503",
+        "type": "codeunit",
+        "id": 2503,
+        "name": "Extension Operation Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2503"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

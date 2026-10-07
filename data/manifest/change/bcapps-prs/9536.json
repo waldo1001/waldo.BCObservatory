@@ -6,7 +6,7 @@
   "title": "Handle flaky PR builds faster: real-time unstable-tests refresh + cross-PR detector",
   "url": "https://github.com/microsoft/BCApps/pull/9536",
   "published_at": "2026-07-23T12:56:22Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "handle flaky pr builds faster real time unstable tests refresh cross pr detector"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:28.811Z",
+  "retry_after": null
 }
