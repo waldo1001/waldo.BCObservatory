@@ -370,3 +370,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   later, nothing in between. Probing the obvious suspects locally cleared them — `loadObjectWorld` 184 MB,
   `renderCodePages` 501 MB, a full `refreshCodeDerived` recompute 30 MB, the topic linker's planning 39 MB — so the
   next run has to name the phase rather than be guessed at.
+- **D56 A model call's output is bounded like its duration.** Hunting the OOM of D55 cleared every deterministic
+  path by measurement — `loadObjectWorld` 184 MB, `renderCodePages` 501 MB, a full `refreshCodeDerived` recompute
+  30 MB, the topic-link planning 39 MB, the search index, objects index and graph 325 MB together — which left the
+  LLM transport, and there the reader did `stdout += d` with no limit while `claude -p --output-format stream-json`
+  emits a line per event. A stream that does not stop takes the heap with it, and `concurrency` of them in flight
+  takes the run: both OOMs grew from ~133 MB at the last checkpoint to 8 GB about six and three quarter minutes
+  later, with the V8 stack ending in a timer resolving an awaited async function. Output is now capped at 64 MB
+  (stderr at 4 MB): the accumulated string is dropped, the child is SIGKILLed and the call fails like a timeout, so
+  the cost is one call rather than the night. The biggest honest response in this pipeline is a few MB.
+  This is a bound, not a diagnosis: if the next run still dies, its `phase ...` lines (D55) name where.

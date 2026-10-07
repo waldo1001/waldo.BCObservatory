@@ -24,6 +24,7 @@ process.stdin.on("data", (d) => (stdin += d));
 process.stdin.on("end", () => {
   appendFileSync(logPath, JSON.stringify({ args: process.argv.slice(2), env: Object.keys(process.env), cwd: process.cwd(), stdin }) + "\\n");
   const r = scenario[Math.min(n, scenario.length - 1)];
+  if (r.flood) { const chunk = "x".repeat(64 * 1024); for (let i = 0; i < r.flood; i++) process.stdout.write(chunk); process.exit(0); }
   if (r.stderr) process.stderr.write(r.stderr);
   if (r.init !== null) process.stdout.write(JSON.stringify({ type: "system", subtype: "init", apiKeySource: "none", model: "claude-haiku-4-5", ...(r.init ?? {}) }) + "\\n");
   process.stdout.write(JSON.stringify({ type: "assistant", message: { content: [] } }) + "\\n");
@@ -60,6 +61,7 @@ beforeEach(() => {
   process.env.BCOBS_CLAUDE_BIN = bin;
   process.env.BCOBS_LLM_CACHE_DIR = join(dir, "cache");
   process.env.BCOBS_LLM_RETRY_MS = "0";
+  delete process.env.BCOBS_LLM_MAX_STDOUT;
   delete process.env.LLM_CACHE_ONLY;
   delete process.env.LLM_CACHE_DEBUG;
   delete process.env.LLM_MODEL_FACTS;
@@ -213,4 +215,16 @@ test("spend limit: retries stop once the allowance is gone; 0 blocks the first c
   setSpendLimit(0);
   await assert.rejects(complete(req({ prompt: "x" })), LlmBudgetExhausted);
   assert.equal(calls().length, 1);
+});
+
+test("a model stream that does not stop fails the call, not the run (D56)", async () => {
+  process.env.BCOBS_LLM_MAX_STDOUT = String(128 * 1024);
+  try {
+    scenario([{ flood: 8 }, { flood: 8 }, { flood: 8 }]); // 512 KB each, four times the cap
+    await assert.rejects(() => complete(req()), /model output exceeded .* MB: the model stream did not stop/);
+    // and nothing of the runaway output is cached
+    assert.deepEqual(cacheEntries(), []);
+  } finally {
+    delete process.env.BCOBS_LLM_MAX_STDOUT;
+  }
 });

@@ -377,15 +377,32 @@ function parseJsonLoose(text: string): unknown {
   throw new Error("no JSON object in model output");
 }
 
+/**
+ * A call's output is bounded like its duration (D56). stream-json emits a line per event, and the reader held the
+ * whole of it in one growing string with no limit: a stream that does not stop takes the heap with it, and with
+ * `concurrency` of them in flight the run dies instead of the call. The biggest honest response here is a few MB.
+ */
+export const MAX_STDOUT_BYTES = 64 * 2 ** 20;
+const MAX_STDERR_BYTES = 4 * 2 ** 20;
+/** Read at call time so a test can set a small cap instead of writing 64 MB. */
+const maxStdout = () => { const v = Number(process.env.BCOBS_LLM_MAX_STDOUT); return Number.isFinite(v) && v > 0 ? v : MAX_STDOUT_BYTES; };
+
 function run(cmd: string, args: string[], stdin: string, timeoutMs: number, cwd: string, env: NodeJS.ProcessEnv): Promise<{ stdout: string; stderr: string; code: number | null }> {
   return new Promise((resolvePromise, reject) => {
     const child = spawn(cmd, args, { cwd, stdio: ["pipe", "pipe", "pipe"], env });
-    let stdout = "", stderr = "";
+    let stdout = "", stderr = "", over = false;
     const timer = setTimeout(() => { child.kill("SIGKILL"); reject(new Error(`timeout after ${timeoutMs} ms`)); }, timeoutMs);
-    child.stdout.on("data", (d) => (stdout += d));
-    child.stderr.on("data", (d) => (stderr += d));
-    child.on("error", (e) => { clearTimeout(timer); reject(e); });
-    child.on("close", (code) => { clearTimeout(timer); resolvePromise({ stdout, stderr, code }); });
+    // the cap frees the string before killing the child, so the failure costs the call and not the run
+    const blew = (what: string, max: number) => {
+      over = true; stdout = ""; stderr = "";
+      clearTimeout(timer); child.kill("SIGKILL");
+      reject(new Error(`${what} exceeded ${Math.round(max / 2 ** 20)} MB: the model stream did not stop`));
+    };
+    const cap = maxStdout();
+    child.stdout.on("data", (d) => { if (over) return; stdout += d; if (stdout.length > cap) blew("model output", cap); });
+    child.stderr.on("data", (d) => { if (over) return; stderr += d; if (stderr.length > MAX_STDERR_BYTES) blew("model stderr", MAX_STDERR_BYTES); });
+    child.on("error", (e) => { if (over) return; clearTimeout(timer); reject(e); });
+    child.on("close", (code) => { if (over) return; clearTimeout(timer); resolvePromise({ stdout, stderr, code }); });
     child.stdin.on("error", () => { /* child exited before reading stdin; the close handler reports it */ });
     child.stdin.end(stdin);
   });
