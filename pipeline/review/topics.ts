@@ -65,12 +65,14 @@ export interface TopicReviewRun { candidates: number; calls: number; reviewed: n
  * is skipped, and its stale verdict falls away when the review is written.
  */
 export function gatherTopicLinks(links: TopicLinks, dataDir: string, contentDir: string): Map<string, TopicReviewLink[]> {
+  const m = new Map<string, TopicReviewLink[]>();
+  const linked = Object.values(links.units).filter((u) => u.matches.length);
+  if (!linked.length) return m; // nothing proposed yet: do not read 880 extractions to find that out
   const all = topicCandidates(contentDir);
   const text = new Map<string, string>();
   for (const p of listFiles(resolve(dataDir, "extract", "video"), ".json")) { const u = videoUnit(readJson<VideoExtraction>(p), all); if (u) text.set(u.key, u.text); }
   for (const p of listFiles(resolve(dataDir, "extract", "blog"), ".json")) { const u = postUnit(readJson<PostExtraction>(p), all); if (u) text.set(u.key, u.text); }
-  const m = new Map<string, TopicReviewLink[]>();
-  for (const u of Object.values(links.units)) {
+  for (const u of linked) {
     const t = text.get(u.key);
     if (!t) continue;
     for (const x of u.matches) m.set(x.topic, [...(m.get(x.topic) ?? []), { ref: "", key: u.key, hash: u.hash, kind: u.kind, title: u.title, source: u.source, text: t, quote: x.quote }]);
