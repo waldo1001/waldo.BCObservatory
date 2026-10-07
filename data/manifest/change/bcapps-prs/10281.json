@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30416: add purchase budget navigation events",
   "url": "https://github.com/microsoft/BCApps/pull/10281",
   "published_at": "2026-09-02T18:08:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:57.745Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:02.376Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003286
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:02.561Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:02.568Z",
+      "path": "content/changes/bcapps/10281.md"
     }
   },
   "input_hash": "4b10d9d8024407c5b8e0c29d2527337cdd3264f7:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30416 add purchase budget navigation events"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8141521907108c7a8e205b8536759781d5af71c231a9e67e9e1b46902f775232"
 }

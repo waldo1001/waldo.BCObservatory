@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/150",
+  "number": 150,
+  "title": "Simplify standalone AL code review skill",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The standalone AL code review skill is renamed from bcquality-al-review to al-code-review, with its SKILL.md simplified to a thin adapter that delegates to internal Entry and coordinator components. Plugin manifests and version are updated accordingly.",
+  "key_points": [
+    "Skill renamed from bcquality-al-review to al-code-review to avoid collision with BC-ALAgents al-review skill",
+    "Host-facing SKILL.md reduced to a thin adapter translating caller goals to Entry's task context",
+    "Plugin manifests point to canonical skills/ directory with version bumped to 0.2.0",
+    "New documentation clarifies the distinction between host adapter, Entry, internal coordinator, and domain leaves",
+    "Validator extended to enforce host-skill naming and required frontmatter"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004308,
+    "changes_in_call": 1
+  }
+}

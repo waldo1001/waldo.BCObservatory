@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10914,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10914",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T15:01:18Z",
+  "merge_commit_sha": "08a4b7d51cd35d6caa8305aeb622c049ed9c3c55",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Expense Agent] Fix setup API language permission",
+  "body_hash": "9d119595e61c7f4fbc08dfe5ce09ae79166d24706035500e19d321cbc2761ce0",
+  "fixes_issues": [],
+  "work_items": [
+    636056,
+    648611
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentDataDepen.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentDataDepen.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6955",
+        "type": "permissionset",
+        "id": 6955,
+        "name": "Expense Agent - Data Depen.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6955"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

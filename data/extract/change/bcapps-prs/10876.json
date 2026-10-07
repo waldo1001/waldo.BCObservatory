@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10876",
+  "number": 10876,
+  "title": "[29.x]When Intrastat line is added manually the \"Intrastat Country/Region Code\" is not automatically populated after adding the \"Country/Region Code\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "When users manually add an Intrastat report line and enter a Country/Region Code, the Intrastat Country/Region Code field is now automatically populated through an added validation trigger.",
+  "key_points": [
+    "Added OnValidate trigger to Country/Region Code field on Intrastat Report Line table",
+    "Automatically derives Intrastat Country/Region Code when user enters Country/Region Code",
+    "Fixes issue where manual line entry did not populate Intrastat code unlike the Suggest Lines path",
+    "Includes test coverage for the new behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Added an OnValidate trigger on Country/Region Code that sets Intrastat Country/Region Code.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003394,
+    "changes_in_call": 1
+  }
+}

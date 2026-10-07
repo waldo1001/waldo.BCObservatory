@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10345,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10345",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T04:32:43Z",
+  "merge_commit_sha": "fbefb234ba5255eb20bdf7ee5e0cdbb1be658d53",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The \"Invoiced to Date\" field does not resetInitial commit",
+  "body_hash": "d3c5a9c1c97d5bf4685aa3d93e343eded12e91b4c66a8d6fee65f751ecdb2d6c",
+  "fixes_issues": [],
+  "work_items": [
+    647165
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Ledger/ServiceLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServiceContractsII.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 9,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 135,
+    "deletions": 11,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+        "status": "modified",
+        "key": "table/5900",
+        "type": "table",
+        "id": 5900,
+        "name": "Service Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5900"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Ledger/ServiceLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5907",
+        "type": "table",
+        "id": 5907,
+        "name": "Service Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5907"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

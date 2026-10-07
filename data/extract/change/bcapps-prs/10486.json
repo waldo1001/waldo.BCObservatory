@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10486",
+  "number": 10486,
+  "title": "[Quality Management] Use Bin code selection for transfer disposition in workflow response",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Quality Management now uses selected bin codes when creating transfer orders for quality disposal workflows, improving the accuracy of goods disposition in warehouse operations.",
+  "key_points": [
+    "Bin code selection is now applied when transferring items through quality disposition workflows",
+    "Transfer order creation now respects the selected bin information",
+    "Workflow response options extended to support bin code handling",
+    "Test coverage expanded for workflow scenarios with bin selection"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": "Use selected bin in disposition via Transfer Order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003115,
+    "changes_in_call": 1
+  }
+}

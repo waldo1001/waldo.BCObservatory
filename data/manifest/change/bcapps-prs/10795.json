@@ -6,10 +6,35 @@
   "title": "[master] Discrepancy in inventory picks when the quantity exceeds the available inventory.",
   "url": "https://github.com/microsoft/BCApps/pull/10795",
   "published_at": "2026-09-03T06:21:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:53.065Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:58.557Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003493
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:58.723Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:58.730Z",
+      "path": "content/changes/bcapps/10795.md"
     }
   },
   "input_hash": "e7751a5b00b07fb0c8565675a87ba374b8a5f50d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master discrepancy in inventory picks when the quantity exceeds the available inventory"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87126b7c9e50b929de8e1d0ab48ce5718dacb08ff05871d8e9950972299deb06"
 }

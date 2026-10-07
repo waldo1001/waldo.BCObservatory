@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10570",
+  "number": 10570,
+  "title": "Expense Agent: add approval conversation to expense reports",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent now supports approval conversations by storing submitter comments, exposing them through the API, adding a pending-approval action with optional comments, and recording comments in activity events.",
+  "key_points": [
+    "Latest submitter comment stored in Expense Report Header",
+    "Comments exposed through Expense Reports API for approver visibility",
+    "Capability-backed pending-approval action with optional comment support",
+    "Comments recorded on Submitted, Resubmitted, and Rejected activity events",
+    "Historical comments bounded with ellipsis to preserve page extension point"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Add Business Central support for the Expense Agent approval conversation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004088,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "Avoid Public Event publisher",
   "url": "https://github.com/microsoft/BCQuality/pull/144",
   "published_at": "2026-09-02T14:07:18Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:03.579Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
     }
   },
   "input_hash": "82422f94c9f4307ef2b8d5f1d66ba70c4115ae52:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "avoid public event publisher"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81d406de3b824c75c391b4c22ce57f90bfe69c4a7ff4492f3dca39d7eb107cba"
 }

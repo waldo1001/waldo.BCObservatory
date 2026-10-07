@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10281",
+  "number": 10281,
+  "title": "[Extensibility Request] issue 30416: add purchase budget navigation events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The purchase budget overview matrix page now exposes before and after integration events around record navigation calls, allowing extensions to adjust Item Budget Name filters during navigation without replacing standard behavior.",
+  "key_points": [
+    "New before/after events added to OnFindRecord and OnNextRecord triggers",
+    "Events include an Item Budget Name parameter that extensions can modify",
+    "Enables filter adjustments during record navigation without replacing base functionality",
+    "Addresses extensibility need for purchase budget overview matrix navigation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Extensions need to adjust Item Budget Name filters while the purchase budget overview matrix navigates records.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003286,
+    "changes_in_call": 1
+  }
+}

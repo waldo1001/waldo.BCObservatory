@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10281,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10281",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T18:08:11Z",
+  "merge_commit_sha": "4b10d9d8024407c5b8e0c29d2527337cdd3264f7",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30416: add purchase budget navigation events",
+  "body_hash": "603c916d3db705c8ceb2bec9e8345ad58fd0a72c00ede5274f3b68fc57fc3df3",
+  "fixes_issues": [],
+  "work_items": [
+    646681
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Analysis/PurchBudgetOverviewMatrix.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 34,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Analysis/PurchBudgetOverviewMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9219",
+        "type": "page",
+        "id": 9219,
+        "name": "Purch. Budget Overview Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9219"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

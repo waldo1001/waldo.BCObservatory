@@ -6,10 +6,35 @@
   "title": "[29.x]When Intrastat line is added manually the \"Intrastat Country/Region Code\" is not automatically populated after adding the \"Country/Region Code\"",
   "url": "https://github.com/microsoft/BCApps/pull/10876",
   "published_at": "2026-09-02T16:35:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:00.512Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:07.542Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003394
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:07.826Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:07.831Z",
+      "path": "content/changes/bcapps/10876.md"
     }
   },
   "input_hash": "6ee72dd0db1499045c28d005404243f84cb71a33:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "when intrastat line is added manually the intrastat country region code is not automatically populated after adding the country region code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24837c54f1eea50b0d15c37987323bd49b4df1e294396d82cf5b013acce74db3"
 }

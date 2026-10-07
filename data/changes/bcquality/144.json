@@ -1,0 +1,121 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 144,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/144",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T14:07:18Z",
+  "merge_commit_sha": "82422f94c9f4307ef2b8d5f1d66ba70c4115ae52",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Avoid Public Event publisher",
+  "body_hash": "c77255ddd6fcdbb883cf865fcea49c826f83a2d6c2719a6d31418df5b8e23ac7",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/events/declare-event-publishers-local-or-internal.bad.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/events/declare-event-publishers-local-or-internal.good.al",
+      "status": "added",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/events/declare-event-publishers-local-or-internal.md",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.bad.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.bad.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 148,
+    "deletions": 4,
+    "al": 7
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/events/declare-event-publishers-local-or-internal.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/events/declare-event-publishers-local-or-internal.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/events/declare-event-publishers-local-or-internal.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

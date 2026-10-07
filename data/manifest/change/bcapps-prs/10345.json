@@ -6,10 +6,35 @@
   "title": "[Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The \"Invoiced to Date\" field does not resetInitial commit",
   "url": "https://github.com/microsoft/BCApps/pull/10345",
   "published_at": "2026-09-03T04:32:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:57.926Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:02.917Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00384
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:03.070Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:03.075Z",
+      "path": "content/changes/bcapps/10345.md"
     }
   },
   "input_hash": "fbefb234ba5255eb20bdf7ee5e0cdbb1be658d53:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e issues with service contract invoicing and retrospective billing when the second unposted service invoice is deleted the values on the service contract are no longer reset the invoiced to date field does not resetinitial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad91ad107389c16d7f051fa395c2ab39ea72da51f060844a96b7d7c6f22b61c9"
 }

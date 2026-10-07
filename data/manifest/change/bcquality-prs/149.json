@@ -6,10 +6,35 @@
   "title": "knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption",
   "url": "https://github.com/microsoft/BCQuality/pull/149",
   "published_at": "2026-09-02T14:26:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:01.379Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:07.534Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004697
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:07.535Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:05:07.539Z",
+      "path": "content/changes/bcquality/149.md"
     }
   },
   "input_hash": "2439d5c41243705d91e1a5e194abdcb142eb946d:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge web services under schema 2 0 an api enum field is a contract by member name under 1 0 by caption"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "72964ee0c63b03cb8b4cd95d37c50ad030bb65414170e2f1047ac99532c8f96e"
 }

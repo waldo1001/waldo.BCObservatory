@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10873",
+  "number": 10873,
+  "title": "[Master]-The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "The warehouse availability management now correctly excludes inventory in ship and receive bins when calculating available quantities in the pick worksheet.",
+  "key_points": [
+    "Fixed the Available to Take logic in warehouse availability calculations",
+    "Inventory in ship and receive bins is no longer incorrectly included",
+    "Changes affect the pick worksheet functionality",
+    "Test cases updated across multiple localization layers to validate the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00313,
+    "changes_in_call": 1
+  }
+}

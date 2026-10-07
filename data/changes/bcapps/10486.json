@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10486,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10486",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T11:14:06Z",
+  "merge_commit_sha": "7d88aea77c9b6b013a3602d42ca173d0c06fd55c",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Use Bin code selection for transfer disposition in workflow response",
+  "body_hash": "4140321c6bc3c1058678def3373d2c05b0c77d46275f60d81a149e5f1ea13d10",
+  "fixes_issues": [],
+  "work_items": [
+    624735
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/Test Library/src/QltyInspectionUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyDispTransfer.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowRespOptions.PageExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsWorkflows.Codeunit.al",
+      "status": "modified",
+      "additions": 104,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 127,
+    "deletions": 9,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyDispTransfer.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20444",
+        "type": "codeunit",
+        "id": 20444,
+        "name": "Qlty. Disp. Transfer",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20444"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowRespOptions.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20403",
+        "type": "pageextension",
+        "id": 20403,
+        "name": "Qlty. Workflow Resp. Options",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "pageextension/20403"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

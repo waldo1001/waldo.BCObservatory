@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10795",
+  "number": 10795,
+  "title": "[master] Discrepancy in inventory picks when the quantity exceeds the available inventory.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed a calculation error in inventory pick creation that was incorrectly dropping shortage lines when availability exceeded demand with the 'Always Create Pick Line' setting enabled.",
+  "key_points": [
+    "Corrected fallback formula that was subtracting too much, causing blank-bin quantity to become zero or negative",
+    "Applied Minimum() function to cap availability at the original remaining quantity to pick",
+    "Restores missing shortage lines for un-pickable remainders in production inventory picks",
+    "Does not affect normal cases where availability is less than demand",
+    "Added test coverage for the production warehouse handling scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": "Cap availability with Minimum(QtyAvailToPickBase, OriginalRemQtyToPickBase), restoring the shortage line without affecting the normal case.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003493,
+    "changes_in_call": 1
+  }
+}

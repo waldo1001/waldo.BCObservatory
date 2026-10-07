@@ -6,7 +6,7 @@
   "title": "[Bug 646558] Stabilize remittance advice test initialization",
   "url": "https://github.com/microsoft/BCApps/pull/10967",
   "published_at": "2026-09-03T12:30:24Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug 646558 stabilize remittance advice test initialization"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:51.034Z",
+  "retry_after": null
 }

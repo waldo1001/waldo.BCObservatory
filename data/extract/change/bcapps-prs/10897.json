@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10897",
+  "number": 10897,
+  "title": "BC IQ - Update data sensitivities for policy history",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Data sensitivities are updated to reflect recent changes to Business Skill policy history, including new fields for archived-by user and text version, and removal of obsolete change log field mappings.",
+  "key_points": [
+    "Business Skill Archived By field classified as Personal data",
+    "Business Skill Text Version Skill Text field classified as Company Confidential",
+    "Mappings removed for deleted Business Skill Change Log fields",
+    "Evaluation data synchronized with upstream change log replacement",
+    "Part of follow-up work on Business Skill data structure changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003321,
+    "changes_in_call": 1
+  }
+}

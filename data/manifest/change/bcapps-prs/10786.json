@@ -6,7 +6,7 @@
   "title": "[Shopify] Stabilize multiple-location shipping test",
   "url": "https://github.com/microsoft/BCApps/pull/10786",
   "published_at": "2026-09-03T00:37:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify stabilize multiple location shipping test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:56.600Z",
+  "retry_after": null
 }

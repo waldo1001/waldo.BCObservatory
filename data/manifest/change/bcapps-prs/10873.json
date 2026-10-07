@@ -6,10 +6,35 @@
   "title": "[Master]-The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory",
   "url": "https://github.com/microsoft/BCApps/pull/10873",
   "published_at": "2026-09-03T06:19:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:53.984Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:58.737Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00313
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:58.912Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:58.917Z",
+      "path": "content/changes/bcapps/10873.md"
     }
   },
   "input_hash": "9efa4433452be91cc193da355753dbbab9ecf5ed:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master the available to take logic is incorrect or inaccurate in the pick worksheet as it includes ship and receive bin inventory"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2621fca61a348321724e0ffa17be534495c8e74c44d6802c72b4c4a2b5873608"
 }

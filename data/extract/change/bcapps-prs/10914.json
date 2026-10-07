@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10914",
+  "number": 10914,
+  "title": "[Expense Agent] Fix setup API language permission",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent permission set now grants indirect read access to the Agent table, allowing the setup API to work correctly with the assigned role.",
+  "key_points": [
+    "Added indirect read permission on the Agent table to the Expense Agent data dependency permission set",
+    "Fixes a permission scenario in the Expense Agent setup API",
+    "Validated on test tenant and works with the setup API workflow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "grant the Expense Agent role indirect read access to the Agent table",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003087,
+    "changes_in_call": 1
+  }
+}

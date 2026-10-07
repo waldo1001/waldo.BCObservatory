@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10345",
+  "number": 10345,
+  "title": "[Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The \"Invoiced to Date\" field does not resetInitial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Fixed an issue where the Invoiced to Date field on service contracts failed to reset when a second unposted service invoice was deleted, by improving the logic to count only non-reversed ledger entries.",
+  "key_points": [
+    "Service contract invoicing no longer gets stuck when deleting multiple unposted invoices",
+    "The logic now ignores reversed ledger entries that remain after invoice deletion",
+    "Invoiced to Date correctly resets to zero on invoice deletion",
+    "Only original sale entries without corresponding reversals are counted as invoiced",
+    "Fixes blocking of new service invoices after deleting unposted invoices"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "Change CalcContractLineInvoicedToDate to count only real, non-reversed invoicing.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00384,
+    "changes_in_call": 1
+  }
+}

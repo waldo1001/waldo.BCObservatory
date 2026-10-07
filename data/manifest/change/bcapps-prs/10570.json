@@ -6,10 +6,35 @@
   "title": "Expense Agent: add approval conversation to expense reports",
   "url": "https://github.com/microsoft/BCApps/pull/10570",
   "published_at": "2026-09-02T18:05:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:59.089Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:03.733Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004088
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:03.878Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:03.884Z",
+      "path": "content/changes/bcapps/10570.md"
     }
   },
   "input_hash": "2534fa5a6cc335eaaad8f2738b4891dcf6d2d415:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent add approval conversation to expense reports"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e16648d6cc89d52cf61054c9154c14c186235f604b3549ca26263b297bc2a019"
 }

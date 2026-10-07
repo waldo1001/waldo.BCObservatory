@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10873,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10873",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T06:19:01Z",
+  "merge_commit_sha": "9efa4433452be91cc193da355753dbbab9ecf5ed",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory",
+  "body_hash": "c237d1b1e6f5ca303ec5bca0e49dc55568efddfbf69d612f81eaf09e2b32e72e",
+  "fixes_issues": [],
+  "work_items": [
+    647468
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/Tests/SCM/SCMInventoryMiscellaneous.Codeunit.al",
+      "status": "modified",
+      "additions": 444,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SCM/SCMInventoryMiscellaneous.Codeunit.al",
+      "status": "modified",
+      "additions": 444,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryMiscellaneous.Codeunit.al",
+      "status": "modified",
+      "additions": 444,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 1376,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7314",
+        "type": "codeunit",
+        "id": 7314,
+        "name": "Warehouse Availability Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7314"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

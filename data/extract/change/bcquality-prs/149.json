@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/149",
+  "number": 149,
+  "title": "knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A knowledge article clarifies how API enum fields are published: under schema 2.0 by member name with captions in entityDefinitions, under schema 1.0 by en-US caption as Edm.String. Good and bad code samples demonstrate the contract implications.",
+  "key_points": [
+    "Schema version determines how enum fields are published in custom APIs, not the ordinal",
+    "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata and responses",
+    "Schema 1.0 (legacy) uses Edm.String with en-US captions in responses",
+    "Renaming enum members breaks schema 2.0 APIs even if captions remain unchanged",
+    "Virtual tables match by External Name, a separate mechanism from API schema contracts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004697,
+    "changes_in_call": 1
+  }
+}
