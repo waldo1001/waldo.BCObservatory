@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,7 +310,68 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/projects-how-manage-budgets
     - https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets
     - https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip
-  objects: []
+  objects:
+    - object/page/88
+    - object/page/89
+    - object/page/92
+    - object/page/98
+    - object/page/200
+    - object/page/201
+    - object/page/206
+    - object/page/207
+    - object/page/271
+    - object/page/275
+    - object/page/276
+    - object/page/289
+    - object/page/290
+    - object/page/376
+    - object/page/462
+    - object/page/463
+    - object/page/493
+    - object/page/951
+    - object/page/973
+    - object/page/1001
+    - object/page/1002
+    - object/page/1003
+    - object/page/1004
+    - object/page/1005
+    - object/page/1006
+    - object/page/1007
+    - object/page/1010
+    - object/page/1020
+    - object/page/1029
+    - object/page/1615
+    - object/page/8904
+    - object/page/9014
+    - object/page/9015
+    - object/page/36951
+    - object/page/37033
+    - object/page/37034
+    - object/page/37035
+    - object/page/37036
+    - object/page/37037
+    - object/page/37038
+    - object/page/37039
+    - object/page/37062
+    - object/page/37106
+    - object/report/1005
+    - object/report/1006
+    - object/report/1007
+    - object/report/1008
+    - object/report/1009
+    - object/report/1010
+    - object/report/1011
+    - object/report/1012
+    - object/report/1013
+    - object/report/1014
+    - object/report/1015
+    - object/report/1016
+    - object/report/1017
+    - object/report/1101
+    - object/report/1103
+    - object/report/1105
+    - object/report/1106
+    - object/report/1107
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -339,7 +400,7 @@ children:
   - topic/business-central/business-functionality/project-management/project-management-analytics
 coverage:
   learn: 43
-  code: 0
+  code: 61
   video: 5
   blog: 0
   guideline: 0
@@ -465,6 +526,70 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 88, 89, 92, 98, 200, 201, 206, 207, 271, 275, 276, 289, 290, 376, 462, 463, 493, 950, 951, 973, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1020, 1029, 1101, 1103, 1105, 1106, 1107, 1615, 8904, 9014, 9015, 36951, 37033, 37034, 37035, 37036, 37037, 37038, 37039, 37062, 37106.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 88 "Job Card"](../../../objects/page/88.md) · captioned "Project Card" · on [Table 167 "Job"](../../../objects/table/167.md)
+- [Page 89 "Job List"](../../../objects/page/89.md) · captioned "Projects" · on [Table 167 "Job"](../../../objects/table/167.md)
+- [Page 98 "Purch. Cr. Memo Subform"](../../../objects/page/98.md) · captioned "Lines" · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
+- [Page 200 "Job Journal Templates"](../../../objects/page/200.md) · captioned "Project Journal Templates" · on [Table 209 "Job Journal Template"](../../../objects/table/209.md)
+- [Page 201 "Job Journal"](../../../objects/page/201.md) · captioned "Project Journals" · on [Table 210 "Job Journal Line"](../../../objects/table/210.md)
+- [Page 206 "Resource Journal Templates"](../../../objects/page/206.md) · on [Table 206 "Res. Journal Template"](../../../objects/table/206.md)
+- [Page 207 "Resource Journal"](../../../objects/page/207.md) · captioned "Resource Journals" · on [Table 207 "Res. Journal Line"](../../../objects/table/207.md)
+- [Page 271 "Res. Journal Template List"](../../../objects/page/271.md) · on [Table 206 "Res. Journal Template"](../../../objects/table/206.md)
+- [Page 275 "Job Journal Template List"](../../../objects/page/275.md) · captioned "Project Journal Template List" · on [Table 209 "Job Journal Template"](../../../objects/table/209.md)
+- [Page 276 "Job Journal Batches"](../../../objects/page/276.md) · captioned "Project Journal Batches" · on [Table 237 "Job Journal Batch"](../../../objects/table/237.md)
+- [Page 289 "Recurring Job Jnl."](../../../objects/page/289.md) · captioned "Recurring Project Journal" · on [Table 210 "Job Journal Line"](../../../objects/table/210.md)
+- [Page 290 "Recurring Resource Jnl."](../../../objects/page/290.md) · captioned "Recurring Resource Journal" · on [Table 207 "Res. Journal Line"](../../../objects/table/207.md)
+- [Page 376 "Job Journal Reconcile"](../../../objects/page/376.md) · captioned "Project Journal Reconcile" · on [Table 278 "Job Journal Quantity"](../../../objects/table/278.md)
+- [Page 462 "Resources Setup"](../../../objects/page/462.md) · on [Table 314 "Resources Setup"](../../../objects/table/314.md)
+- [Page 463 "Jobs Setup"](../../../objects/page/463.md) · captioned "Projects Setup" · on [Table 315 "Jobs Setup"](../../../objects/table/315.md)
+- [Page 493 "Resource Price Changes"](../../../objects/page/493.md) · on [Table 335 "Resource Price Change"](../../../objects/table/335.md)
+- [Page 951 "Time Sheet List"](../../../objects/page/951.md) · captioned "Time Sheets" · on [Table 950 "Time Sheet Header"](../../../objects/table/950.md)
+- [Page 973 "Time Sheet Card"](../../../objects/page/973.md) · captioned "Time Sheet" · on [Table 950 "Time Sheet Header"](../../../objects/table/950.md)
+- [Page 1001 "Job Task Lines Subform"](../../../objects/page/1001.md) · captioned "Project Task Lines Subform" · on [Table 1001 "Job Task"](../../../objects/table/1001.md)
+- [Page 1002 "Job Task Lines"](../../../objects/page/1002.md) · captioned "Project Task Lines" · on [Table 1001 "Job Task"](../../../objects/table/1001.md)
+- [Page 1003 "Job Task Card"](../../../objects/page/1003.md) · captioned "Project Task Card" · on [Table 1001 "Job Task"](../../../objects/table/1001.md)
+- [Page 1004 "Job Task List"](../../../objects/page/1004.md) · captioned "Project Task List" · on [Table 1001 "Job Task"](../../../objects/table/1001.md)
+- [Page 1005 "Job Task Dimensions"](../../../objects/page/1005.md) · captioned "Project Task Dimensions" · on [Table 1002 "Job Task Dimension"](../../../objects/table/1002.md)
+- [Page 1006 "Job Task Dimensions Multiple"](../../../objects/page/1006.md) · captioned "Project Task Dimensions Multiple" · on [Table 1002 "Job Task Dimension"](../../../objects/table/1002.md)
+- [Page 1007 "Job Planning Lines"](../../../objects/page/1007.md) · captioned "Project Planning Lines" · on [Table 1003 "Job Planning Line"](../../../objects/table/1003.md)
+- [Page 1010 "Job WIP Methods"](../../../objects/page/1010.md) · captioned "Project WIP Methods" · on [Table 1006 "Job WIP Method"](../../../objects/table/1006.md)
+- [Page 1020 "Job G/L Journal"](../../../objects/page/1020.md) · captioned "Project G/L Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 1029 "Job Invoices"](../../../objects/page/1029.md) · captioned "Project Invoices" · on [Table 1022 "Job Planning Line Invoice"](../../../objects/table/1022.md)
+- [Page 1615 "Office Job Journal"](../../../objects/page/1615.md) · captioned "Project Journal" · on [Table 1615 "Office Job Journal"](../../../objects/table/1615.md)
+- [Page 8904 "Project Manager Role Center"](../../../objects/page/8904.md)
+- [Page 9014 "Job Resource Manager RC"](../../../objects/page/9014.md) · captioned "Resource Manager"
+- [Page 9015 "Job Project Manager RC"](../../../objects/page/9015.md) · captioned "Project Manager"
+- [Page 37033 "Projects Overview"](../../../objects/page/37033.md) · captioned "Projects Overview (Power BI)"
+- [Page 37034 "Project Tasks"](../../../objects/page/37034.md) · captioned "Project Tasks (Power BI)"
+- [Page 37035 "Project Profitability"](../../../objects/page/37035.md) · captioned "Project Profitability (Power BI)"
+- [Page 37036 "Project Realization"](../../../objects/page/37036.md) · captioned "Project Realization (Power BI)"
+- [Page 37037 "Project Performance to Budget"](../../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)"
+- [Page 37038 "Project Invoiced Sales by Type"](../../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)"
+- [Page 37039 "Project Invd. Sales by Cust."](../../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)"
+- [Page 92 "Job Ledger Entries"](../../../objects/page/92.md) · captioned "Project Ledger Entries" · on [Table 169 "Job Ledger Entry"](../../../objects/table/169.md) · via [Project management analytics](project-management/project-management-analytics.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Project management analytics](project-management/project-management-analytics.md)
+- [Page 37062 "Projects Report"](../../../objects/page/37062.md) · captioned "Projects Report (Power BI)" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Page 37106 "Project Timeline"](../../../objects/page/37106.md) · captioned "Project Timeline (Power BI)" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1005 "Job Journal - Test"](../../../objects/report/1005.md) · captioned "Project Journal - Test" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1006 "Job - Planning Lines"](../../../objects/report/1006.md) · captioned "Project - Planning Lines" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1007 "Job - Transaction Detail"](../../../objects/report/1007.md) · captioned "Project Task - Transaction Detail" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1008 "Job Analysis"](../../../objects/report/1008.md) · captioned "Project Analysis" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1009 "Job Actual To Budget"](../../../objects/report/1009.md) · captioned "Project Actual To Budget" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1010 "Job WIP To G/L"](../../../objects/report/1010.md) · captioned "Project WIP To G/L" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1011 "Job Suggested Billing"](../../../objects/report/1011.md) · captioned "Project Suggested Billing" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1012 "Jobs per Customer"](../../../objects/report/1012.md) · captioned "Projects per Customer" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1013 "Items per Job"](../../../objects/report/1013.md) · captioned "Items per Project" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1014 "Jobs per Item"](../../../objects/report/1014.md) · captioned "Projects per Item" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1015 "Job Register"](../../../objects/report/1015.md) · captioned "Project Register" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1016 "Job Quote"](../../../objects/report/1016.md) · captioned "Project Quote" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1017 "Job Task Quote"](../../../objects/report/1017.md) · captioned "Project Task Quote" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1101 "Resource - List"](../../../objects/report/1101.md) · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1103 "Resource Register"](../../../objects/report/1103.md) · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1105 "Resource Statistics"](../../../objects/report/1105.md) · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1106 "Resource Usage"](../../../objects/report/1106.md) · captioned "Resource Utilization" · via [Project management analytics](project-management/project-management-analytics.md)
+- [Report 1107 "Resource - Cost Breakdown"](../../../objects/report/1107.md) · via [Project management analytics](project-management/project-management-analytics.md)
+
+Learn also names 1 object with no object page: page/950.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

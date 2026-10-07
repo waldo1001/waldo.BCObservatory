@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.771Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,8 @@ The Cartera pages describe handling of bills of exchange and promissory notes. A
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 10751, 10752, 10753, 10770, 10771, 35291, 35292, 35293, 35294, 35295, 35296, 35297, 35298, 35299, 35300, 35301, 35302, 35303, 35304, 35305, 35306, 35848, 35850, 700071, 700072, 7000003, 7000004, 7000005, 7000006, 7000007, 7000008, 7000009, 7000010, 7000011, 7000012, 7000014, 7000015, 7000016, 7000017, 7000018, 7000019, 7000020, 7000021, 7000022, 7000024, 7000025, 7000029, 7000030, 7000031, 7000032, 7000033, 7000034, 7000036, 7000037, 7000040, 7000041, 7000044, 7000045, 70000013.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 59 objects with no object page: page/10751, page/10752, page/10753, page/10770, page/10771, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35848, page/35850, page/700071, page/700072, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/70000013.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

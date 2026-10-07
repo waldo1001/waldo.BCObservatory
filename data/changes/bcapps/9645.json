@@ -45,21 +45,38 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/PurchaseHeaderCZL.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/11705",
+        "type": "tableextension",
+        "id": 11705,
+        "name": "Purchase Header CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/11705-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/SalesHeaderCZL.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/11703",
+        "type": "tableextension",
+        "id": 11703,
+        "name": "Sales Header CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/11703-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

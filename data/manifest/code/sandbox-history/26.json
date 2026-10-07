@@ -6,18 +6,40 @@
   "title": "StefanMaron/MSDyn365BC.Sandbox.Code.History w1-26 (BC26)",
   "url": "https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History/tree/w1-26",
   "published_at": null,
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T09:42:06.385Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T15:30:55.243Z",
+      "commit": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4",
+      "branch": "w1-26"
+    },
+    "extracted": {
+      "at": "2026-10-07T15:31:56.081Z",
+      "commit": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4",
+      "w1_objects": 8948,
+      "files": 8978,
+      "parse_errors": 0,
+      "diff_only": true
+    },
+    "linked": {
+      "at": "2026-10-07T15:31:56.087Z"
+    },
+    "published": {
+      "at": "2026-10-07T15:31:56.088Z"
     }
   },
-  "input_hash": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4:x3",
+  "input_hash": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4:x4",
   "attempts": 0,
   "flags": [],
   "meta": {
     "major": "26",
     "branch": "w1-26",
     "sha": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19f1bc40c010f19f5257c0c4951e92ce0f30afa4"
 }

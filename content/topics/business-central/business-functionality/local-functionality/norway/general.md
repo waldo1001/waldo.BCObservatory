@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:22.706Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recurring-orders
-  objects: []
+  objects:
+    - object/page/456
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/norway
@@ -102,7 +103,7 @@ parent: topic/business-central/business-functionality/local-functionality/norway
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -150,6 +151,8 @@ For payroll, the Payroll Data Definitions page describes the extension, and the 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 456.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 456 "No. Series"](../../../../../objects/page/456.md) · on [Table 308 "No. Series"](../../../../../objects/table/308.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

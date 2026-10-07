@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,18 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/references
     - https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/suppliers
     - https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions
-  objects: []
+  objects:
+    - object/page/8031
+    - object/page/8035
+    - object/page/8036
+    - object/page/8037
+    - object/page/8038
+    - object/page/8041
+    - object/page/8042
+    - object/page/8043
+    - object/page/8044
+    - object/page/8053
+    - object/page/8096
   features: []
   topics:
     - topic/business-central/business-functionality/sales/subscription-billing
@@ -118,7 +129,7 @@ parent: topic/business-central/business-functionality/sales/subscription-billing
 children: []
 coverage:
   learn: 10
-  code: 0
+  code: 11
   video: 0
   blog: 0
   guideline: 0
@@ -178,6 +189,18 @@ Start with the overview, then set up a data exchange definition and a supplier b
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8031, 8035, 8036, 8037, 8038, 8041, 8042, 8043, 8044, 8053, 8096.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8031 "Connect Subscription To SO"](../../../../../objects/page/8031.md) · captioned "Connect Supplier Subscription to Subscription" · on [Table 8016 "Usage Data Supp. Subscription"](../../../../../objects/table/8016.md)
+- [Page 8035 "Usage Data Billings"](../../../../../objects/page/8035.md) · on [Table 8006 "Usage Data Billing"](../../../../../objects/table/8006.md)
+- [Page 8036 "Usage Data Blobs"](../../../../../objects/page/8036.md) · on [Table 8011 "Usage Data Blob"](../../../../../objects/table/8011.md)
+- [Page 8037 "Usage Data Customers"](../../../../../objects/page/8037.md) · captioned "Usage Data Supp. Customers" · on [Table 8012 "Usage Data Supp. Customer"](../../../../../objects/table/8012.md)
+- [Page 8038 "Usage Data Generic Import"](../../../../../objects/page/8038.md) · on [Table 8018 "Usage Data Generic Import"](../../../../../objects/table/8018.md)
+- [Page 8041 "Usage Data Imports"](../../../../../objects/page/8041.md) · on [Table 8013 "Usage Data Import"](../../../../../objects/table/8013.md)
+- [Page 8042 "Usage Data Subscriptions"](../../../../../objects/page/8042.md) · on [Table 8016 "Usage Data Supp. Subscription"](../../../../../objects/table/8016.md)
+- [Page 8043 "Usage Data Supp. References"](../../../../../objects/page/8043.md) · captioned "Usage Data Supplier References" · on [Table 8015 "Usage Data Supplier Reference"](../../../../../objects/table/8015.md)
+- [Page 8044 "Usage Data Suppliers"](../../../../../objects/page/8044.md) · on [Table 8014 "Usage Data Supplier"](../../../../../objects/table/8014.md)
+- [Page 8053 "Customer Contracts"](../../../../../objects/page/8053.md) · captioned "Customer Subscription Contracts" · on [Table 8052 "Customer Subscription Contract"](../../../../../objects/table/8052.md)
+- [Page 8096 "Usage Data Billing Metadata"](../../../../../objects/page/8096.md) · on [Table 8021 "Usage Data Billing Metadata"](../../../../../objects/table/8021.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

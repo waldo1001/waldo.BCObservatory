@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,7 +148,27 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000789
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757
-  objects: []
+  objects:
+    - object/report/5802
+    - object/report/5871
+    - object/report/5872
+    - object/report/99000753
+    - object/report/99000756
+    - object/report/99000757
+    - object/report/99000758
+    - object/report/99000762
+    - object/report/99000763
+    - object/report/99000764
+    - object/report/99000767
+    - object/report/99000768
+    - object/report/99000769
+    - object/report/99000780
+    - object/report/99000783
+    - object/report/99000784
+    - object/report/99000787
+    - object/report/99000788
+    - object/report/99000789
+    - object/report/99000791
   features: []
   topics:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
@@ -172,7 +192,7 @@ parent: topic/business-central/business-functionality/manufacturing/manufacturin
 children: []
 coverage:
   learn: 16
-  code: 0
+  code: 20
   video: 3
   blog: 0
   guideline: 0
@@ -257,6 +277,27 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5802, 5871, 5872, 99000753, 99000756, 99000757, 99000758, 99000762, 99000763, 99000764, 99000767, 99000768, 99000769, 99000780, 99000783, 99000784, 99000787, 99000788, 99000789, 99000791.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 5802 "Inventory Valuation - WIP"](../../../../../objects/report/5802.md) · captioned "Production Order - WIP"
+- [Report 5871 "Item - Able to Make (Timeline)"](../../../../../objects/report/5871.md)
+- [Report 5872 "BOM Cost Share Distribution"](../../../../../objects/report/5872.md)
+- [Report 99000753 "Quantity Explosion of BOM"](../../../../../objects/report/99000753.md)
+- [Report 99000756 "Detailed Calculation"](../../../../../objects/report/99000756.md)
+- [Report 99000757 "Where-Used (Top Level)"](../../../../../objects/report/99000757.md)
+- [Report 99000758 "Compare List"](../../../../../objects/report/99000758.md) · captioned "Item BOM Compare List (Obsolete)"
+- [Report 99000762 "Prod. Order - Job Card"](../../../../../objects/report/99000762.md)
+- [Report 99000763 "Prod. Order - List"](../../../../../objects/report/99000763.md) · captioned "Production Order - List"
+- [Report 99000764 "Prod. Order - Precalc. Time"](../../../../../objects/report/99000764.md)
+- [Report 99000767 "Prod. Order - Calculation"](../../../../../objects/report/99000767.md) · captioned "Prod. Order - Calculation (Obsolete)"
+- [Report 99000768 "Prod. Order - Detailed Calc."](../../../../../objects/report/99000768.md)
+- [Report 99000769 "Output Item Label"](../../../../../objects/report/99000769.md) · captioned "Production Output Item Label"
+- [Report 99000780 "Capacity Task List"](../../../../../objects/report/99000780.md)
+- [Report 99000783 "Work Center Load"](../../../../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)"
+- [Report 99000784 "Machine Center Load"](../../../../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)"
+- [Report 99000787 "Routing Sheet"](../../../../../objects/report/99000787.md)
+- [Report 99000788 "Prod. Order - Shortage List"](../../../../../objects/report/99000788.md)
+- [Report 99000789 "Subcontractor - Dispatch List"](../../../../../objects/report/99000789.md)
+- [Report 99000791 "Production Order Statistics"](../../../../../objects/report/99000791.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

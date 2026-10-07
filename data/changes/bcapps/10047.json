@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/VIESDeclarationHeaderCZL.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/31075",
+        "type": "table",
+        "id": 31075,
+        "name": "VIES Declaration Header CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31075-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

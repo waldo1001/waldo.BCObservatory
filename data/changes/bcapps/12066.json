@@ -1061,8 +1061,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/ItemJnlPostLineHandlerCZA.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31305",
+        "type": "codeunit",
+        "id": 31305,
+        "name": "Item Jnl-Post Line Handler CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31305-cz"
+      },
       {
         "path": "src/Apps/W1/Subcontracting/App/src/General/SubcItemJnlPostLineExt.Codeunit.al",
         "status": "modified",
@@ -2529,11 +2540,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/ItemJnlPostLineHandlerCZA.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/APAC/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -2606,6 +2612,7 @@
     "sustainability"
   ],
   "apps": [
+    "AdvancedLocalizationPack",
     "Base Application",
     "Subcontracting",
     "Sustainability"

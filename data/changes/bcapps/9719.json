@@ -73,31 +73,59 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CustomerCZZ.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31045",
+        "type": "tableextension",
+        "id": 31045,
+        "name": "Customer CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "tableextension/31045-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/VendorCZZ.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31046",
+        "type": "tableextension",
+        "id": 31046,
+        "name": "Vendor CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "tableextension/31046-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Tables/PurchAdvLetterHeaderCZZ.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/31008",
+        "type": "table",
+        "id": 31008,
+        "name": "Purch. Adv. Letter Header CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "table/31008-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Tables/SalesAdvLetterHeaderCZZ.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/31004",
+        "type": "table",
+        "id": 31004,
+        "name": "Sales Adv. Letter Header CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "table/31004-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "AdvancePaymentsLocalization"
+  ]
 }

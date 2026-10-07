@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:17.872Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
-  objects: []
+  objects:
+    - object/page/4764
   features: []
   topics:
     - topic/business-central/get-started/learn/contoso-coffee-demo-data
@@ -69,7 +70,7 @@ parent: topic/business-central/get-started/learn/contoso-coffee-demo-data
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -112,6 +113,8 @@ Start with the introduction to see which location fits your scenario, then open 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4764.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4764 "Jobs Module Setup"](../../../../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../../../../objects/table/4771.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

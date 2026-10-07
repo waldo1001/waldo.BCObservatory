@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:11.597Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/quick-start-financial-information
     - https://learn.microsoft.com/dynamics365/business-central/quick-start-procurement
     - https://learn.microsoft.com/dynamics365/business-central/quick-start-sell-products-and-services
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/26
+    - object/page/27
+    - object/page/50
+    - object/page/56
   features: []
   topics:
     - topic/business-central/get-started
@@ -91,7 +96,7 @@ parent: topic/business-central/get-started
 children: []
 coverage:
   learn: 7
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -139,6 +144,12 @@ A sensible order is to begin with Company Information, then Financial Informatio
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 26, 27, 50, 56.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1 "Company Information"](../../../objects/page/1.md) · on [Table 79 "Company Information"](../../../objects/table/79.md)
+- [Page 26 "Vendor Card"](../../../objects/page/26.md) · on [Table 23 "Vendor"](../../../objects/table/23.md)
+- [Page 27 "Vendor List"](../../../objects/page/27.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../../objects/table/23.md)
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 56 "Purchase Orders"](../../../objects/page/56.md) · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

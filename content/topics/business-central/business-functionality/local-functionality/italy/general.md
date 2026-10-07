@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:37.467Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,6 +114,8 @@ The Italian Subcontracting page describes outsourcing component production throu
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 12119, 12132, 12140, 12152, 12153, 12154, 12155, 12156, 35490, 35491.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 10 objects with no object page: page/12119, page/12132, page/12140, page/12152, page/12153, page/12154, page/12155, page/12156, page/35490, page/35491.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

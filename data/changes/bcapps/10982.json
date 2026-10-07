@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/ReminderCZL.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/31182",
+        "type": "report",
+        "id": 31182,
+        "name": "Reminder CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "report/31182-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

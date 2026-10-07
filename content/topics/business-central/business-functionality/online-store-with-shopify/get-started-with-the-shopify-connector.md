@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,13 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account
     - https://learn.microsoft.com/dynamics365/business-central/shopify/get-started
-  objects: []
+  objects:
+    - object/page/30100
+    - object/page/30101
+    - object/page/30102
+    - object/page/30103
+    - object/page/30104
+    - object/page/30135
   features: []
   topics:
     - topic/business-central/business-functionality/online-store-with-shopify
@@ -64,7 +70,7 @@ parent: topic/business-central/business-functionality/online-store-with-shopify
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 6
   video: 0
   blog: 0
   guideline: 0
@@ -122,6 +128,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30100, 30101, 30102, 30103, 30104, 30135.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30100 "Shpfy Activities"](../../../../objects/page/30100.md) · captioned "Shopify Activities" · on [Table 30100 "Shpfy Cue"](../../../../objects/table/30100.md)
+- [Page 30101 "Shpfy Shop Card"](../../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../../objects/table/30102.md)
+- [Page 30102 "Shpfy Shops"](../../../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../../../objects/table/30102.md)
+- [Page 30103 "Shpfy Tag Factbox"](../../../../objects/page/30103.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../../objects/table/30104.md)
+- [Page 30104 "Shpfy Tags"](../../../../objects/page/30104.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../../objects/table/30104.md)
+- [Page 30135 "Shpfy Authentication"](../../../../objects/page/30135.md) · captioned "Waiting for a response - do not close this page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

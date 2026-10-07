@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:03.821Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -245,7 +245,11 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/france-local-functionality
-  objects: []
+  objects:
+    - object/page/16
+    - object/page/5610
+    - object/page/5611
+    - object/page/5612
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -272,7 +276,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/france/fixed-assets
 coverage:
   learn: 32
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -343,6 +347,13 @@ Start with the subtopic that matches your task. For year-end or ledger work, go 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 16, 5610, 5611, 5612, 10842, 10860, 10861, 10864, 10865, 10866, 10867, 10868, 10869, 10870, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10880, 10882.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 16 "Chart of Accounts"](../../../../objects/page/16.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md) · via [Core finance](france/core-finance.md)
+- [Page 5610 "Depreciation Book Card"](../../../../objects/page/5610.md) · on [Table 5611 "Depreciation Book"](../../../../objects/table/5611.md) · via [Fixed assets](france/fixed-assets.md)
+- [Page 5611 "Depreciation Book List"](../../../../objects/page/5611.md) · captioned "Depreciation Books" · on [Table 5611 "Depreciation Book"](../../../../objects/table/5611.md) · via [Fixed assets](france/fixed-assets.md)
+- [Page 5612 "FA Posting Group Card"](../../../../objects/page/5612.md) · on [Table 5606 "FA Posting Group"](../../../../objects/table/5606.md) · via [Fixed assets](france/fixed-assets.md)
+
+Learn also names 19 objects with no object page: page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

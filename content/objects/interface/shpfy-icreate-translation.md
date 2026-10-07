@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4d7a639f310aef30ffe0990d228acf50f6cb9c493343a5f55c8f2e103a6d258a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al
     title: src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,7 @@ relations:
 
 > Interface "Shpfy ICreate Translation" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -83,6 +83,13 @@ Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 1d24dd5e](http
 ## Procedures
 
 - `CreateTranslation(RecVariant: Variant; ShopifyLanguage: Record "Shpfy Language"; var TempTranslation: Record "Shpfy Translation" temporary; Digests: Dictionary of [Text, Text])`: Create a translation record for the given resource and language. Translation record is only created if the translation is not already present in the Shopify. These records are used to create the query for updating the translation in Shopify.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Shpfy ICreate Translation")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Shpfy ICreate Translation"`
 
 ## Across versions
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:06.520Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,8 @@ The pages are independent of each other and there are no subtopics. Pick the pag
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 11615, 28090, 28091, 28092, 28093.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 5 objects with no object page: page/11615, page/28090, page/28091, page/28092, page/28093.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

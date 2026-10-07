@@ -45,16 +45,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/GenerateFileFEC.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10826",
+        "type": "codeunit",
+        "id": 10826,
+        "name": "Generate File FEC",
+        "app": "FECAuditFile",
+        "cc": "fr",
+        "page": "codeunit/10826-fr"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "FECAuditFile"
+  ]
 }

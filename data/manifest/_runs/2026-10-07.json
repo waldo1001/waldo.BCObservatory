@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-07T12:54:54.417Z",
-  "finished_at": "2026-10-07T13:39:08.574Z",
+  "started_at": "2026-10-07T15:30:42.268Z",
+  "finished_at": "2026-10-07T15:54:37.019Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -22,54 +22,54 @@
   "ingest": {
     "sources": [
       {
-        "id": "bcapps-prs",
-        "kind": "github-pr",
+        "id": "bcapps",
+        "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 1139,
-          "changed": 0,
+          "new": 0,
+          "changed": 3,
           "updated": 0,
           "unchanged": 0,
           "removed": 0
         },
-        "note": "1435 merged in main, releases/29.x; 120 bots, 176 backports skipped; cursor 2026-10-07",
-        "duration_ms": 31625
+        "note": "3/3 branches",
+        "duration_ms": 814
       },
       {
-        "id": "al-go-prs",
-        "kind": "github-pr",
+        "id": "sandbox-history",
+        "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 36,
-          "changed": 0,
+          "new": 0,
+          "changed": 8,
           "updated": 0,
           "unchanged": 0,
           "removed": 0
         },
-        "note": "50 merged in main; 14 bots, 0 backports skipped; cursor 2026-10-06",
-        "duration_ms": 3518
+        "note": "8/8 branches",
+        "duration_ms": 760
       },
       {
-        "id": "bcquality-prs",
-        "kind": "github-pr",
+        "id": "onprem-history",
+        "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 98,
-          "changed": 0,
+          "new": 0,
+          "changed": 2,
           "updated": 0,
           "unchanged": 0,
           "removed": 0
         },
-        "note": "99 merged in main; 1 bots, 0 backports skipped; cursor 2026-10-06",
-        "duration_ms": 4178
+        "note": "2/2 branches",
+        "duration_ms": 727
       }
     ],
     "totals": {
       "sources": 3,
       "failed": 0,
       "deferred": 0,
-      "new": 1273,
-      "changed": 0,
+      "new": 0,
+      "changed": 13,
       "updated": 0,
       "unchanged": 0,
       "removed": 0
@@ -95,355 +95,140 @@
       "changes": 50000,
       "change_narrative": 50000
     },
-    "work": 1273,
-    "executed": 1273,
+    "work": 8,
+    "executed": 8,
     "skips": 0,
     "quota_use": {
-      "change_fetch": {
-        "selected": 1273,
-        "available": 1273,
+      "code_jobs": {
+        "selected": 8,
+        "available": 8,
         "limit": 100000
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 1308,
+    "calls": 2,
     "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 1261,
-      "claude-sonnet-5-5": 34,
-      "claude-opus-5-5": 13
+      "claude-sonnet-5-5": 2
     },
-    "cost_usd": 13.299183600000003,
+    "cost_usd": 0.13972179999999998,
     "tokens_by_model": {
-      "claude-haiku-4-5-20251001": {
-        "calls": 1261,
-        "input": 2619362,
-        "output": 394574,
-        "cache_read": 4906,
-        "cache_creation": 1784324,
-        "cost_usd": 8.161370599999996
-      },
       "claude-sonnet-5-5": {
-        "calls": 34,
-        "input": 76,
-        "output": 90645,
-        "cache_read": 151971,
-        "cache_creation": 863560,
-        "cost_usd": 4.3912362
-      },
-      "claude-opus-5-5": {
-        "calls": 13,
-        "input": 26,
-        "output": 16079,
-        "cache_read": 3504,
-        "cache_creation": 53024,
-        "cost_usd": 0.7465768
+        "calls": 2,
+        "input": 4,
+        "output": 1073,
+        "cache_read": 679,
+        "cache_creation": 32212,
+        "cost_usd": 0.13972179999999998
       }
     },
-    "day_cost_usd": 86.804791
+    "day_cost_usd": 86.944513
   },
   "spend": {
-    "today_usd": 73.505607,
+    "today_usd": 86.804791,
     "week_before_usd": 12.3225,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99914.171893,
+    "allowance_usd": 99900.872709,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 1273,
-  "errors": [
-    "change/bcapps-prs/11436 fetched: fetch failed"
-  ],
+  "items_changed": 13,
+  "errors": [],
   "captions_retried": 0,
-  "checkpoints": 85,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-07T18:29:00.000Z",
-    "items_touched": 1273,
+    "deadline": "2026-10-07T21:05:00.000Z",
+    "items_touched": 8,
     "stages_run": {
-      "change:fetched": 1272,
-      "change:extracted": 1074,
-      "change:linked": 1074,
-      "change:published": 1074
+      "code:fetched": 8,
+      "code:extracted": 8,
+      "code:linked": 8,
+      "code:published": 8
     },
-    "advanced": 4296,
-    "skipped": 198,
-    "failed_attempts": 1,
+    "advanced": 32,
+    "skipped": 0,
+    "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 1271,
+    "parked": 7,
     "quota_charged": {
-      "change_fetch": 1273,
-      "changes": 1074
+      "code_jobs": 8
     },
-    "regards": [
-      {
-        "at_calls": 25,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 50,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 75,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 100,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 125,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 150,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 175,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 200,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 225,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 250,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 275,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 300,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 325,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 350,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 375,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 400,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 425,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 450,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 475,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 500,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 525,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 550,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 575,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 600,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 625,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 650,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 675,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 700,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 725,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 750,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 775,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 800,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 825,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 850,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 875,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 900,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 925,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 950,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 975,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 1000,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 1025,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 1050,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      }
-    ],
-    "errors": [
-      "change/bcapps-prs/11436 fetched: fetch failed"
-    ],
+    "regards": [],
+    "errors": [],
     "parked_left": 0
   },
   "code": {
-    "version_diffs": 2,
+    "version_diffs": 7,
     "country_diffs": 46,
-    "timelines": 0,
+    "timelines": 19,
     "deprecations": 3,
-    "written": 0,
+    "written": 79,
     "relations": 3,
-    "matrix": false,
+    "matrix": true,
     "docs_objects": {
       "links": 5336,
       "missing": 113,
       "obsolete": 42,
-      "undocumented": 39,
-      "written": 0
+      "undocumented": 40,
+      "written": 2
     },
     "narratives": {
       "ready": 22,
-      "refreshed": 22,
+      "refreshed": 0,
       "failed": 0,
       "waiting": [],
       "stopped": "done"
     },
     "pages": {
-      "objects": 25632,
-      "written": 2815,
+      "objects": 25642,
+      "written": 25664,
       "removed": 0,
       "localizations": 22,
-      "own_objects": 9207
+      "own_objects": 9214
+    },
+    "related": {
+      "pages": 10070,
+      "rows": 33110,
+      "by_rank": {
+        "1": 983,
+        "2": 67,
+        "3": 20140,
+        "4": 1935,
+        "5": 2861,
+        "6": 6989,
+        "7": 135
+      },
+      "written": true
+    },
+    "apps": {
+      "apps": 96,
+      "written": 96,
+      "removed": 0
     }
   },
   "changes": {
-    "fetched": 1272,
-    "skipped_non_code": 198,
-    "held": 1,
+    "fetched": 0,
+    "skipped_non_code": 0,
+    "held": 0,
     "pages": 1074,
-    "relinked": 0,
-    "rerendered": 0,
-    "api_calls": 2660,
+    "relinked": 236,
+    "rerendered": 236,
+    "api_calls": 0,
     "narrated": 2
   },
   "previews": {
     "probed": 0,
     "refreshed": 0,
     "failed": 0,
-    "rerendered": 595,
+    "rerendered": 0,
     "flipped": [],
     "channels": 0
   },
@@ -473,56 +258,45 @@
   },
   "topic_links": {
     "units": 2278,
-    "stale": 1075,
-    "calls": 187,
-    "matched": 1045,
-    "rejected": 125,
+    "stale": 0,
+    "calls": 0,
+    "matched": 0,
+    "rejected": 0,
     "failed": 0,
-    "cost_usd": 3.493625999999997,
-    "rejections": [
-      "change/bcapps/10736 -> t52: not a candidate of this item",
-      "change/bcapps/10798 -> t52: not a candidate of this item",
-      "change/bcapps/11259 -> t443: not a candidate of this item",
-      "change/bcapps/11571 -> t345: not a candidate of this item",
-      "change/al-go/2380 -> t428: not a candidate of this item",
-      "change/bcapps/10348 -> t416: not a candidate of this item",
-      "change/al-go/2328 -> t407: not a candidate of this item",
-      "change/al-go/2340 -> t399: not a candidate of this item",
-      "change/al-go/2340 -> t298: not a candidate of this item",
-      "change/al-go/2355 -> t399: not a candidate of this item"
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 2,
-    "calls": 3,
-    "reviewed": 3,
-    "kept": 18,
-    "dropped": 16,
+    "candidates": 0,
+    "calls": 0,
+    "reviewed": 0,
+    "kept": 0,
+    "dropped": 0,
     "failed": 0,
-    "cost_usd": 0.24552000000000002,
+    "cost_usd": 0,
     "stopped": "done"
   },
   "hubs": {
     "topics": 605,
     "narrated": 556,
-    "refreshed": 10,
+    "refreshed": 0,
     "failed": 0,
     "backlog": 0,
     "stopped": "done",
-    "reviewed": 10,
-    "review_fixed": 6,
+    "reviewed": 0,
+    "review_fixed": 0,
     "review_rejected": 0,
     "review_backlog": 0
   },
   "content": {
-    "pages": 28661,
+    "pages": 28767,
     "errors": 0
   },
   "leak": {
     "vault": "scanned",
     "raw_docs": 679,
-    "files_scanned": 25587,
+    "files_scanned": 25797,
     "findings": 0,
     "blocked": false
   }

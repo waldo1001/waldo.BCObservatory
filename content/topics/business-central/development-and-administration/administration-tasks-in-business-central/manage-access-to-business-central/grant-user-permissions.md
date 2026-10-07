@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:30.673Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,28 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     - https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions
-  objects: []
+  objects:
+    - object/page/119
+    - object/page/774
+    - object/page/6300
+    - object/page/6301
+    - object/page/6302
+    - object/page/8930
+    - object/page/9061
+    - object/page/9062
+    - object/page/9069
+    - object/page/9800
+    - object/page/9802
+    - object/page/9807
+    - object/page/9808
+    - object/page/9816
+    - object/page/9818
+    - object/page/9855
+    - object/page/9862
+    - object/page/9865
+    - object/page/9874
+    - object/page/9878
+    - object/page/9883
   features: []
   topics:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
@@ -65,7 +86,7 @@ parent: topic/business-central/development-and-administration/administration-tas
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 21
   video: 1
   blog: 1
   guideline: 0
@@ -145,6 +166,30 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 119, 774, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800, 9802, 9807, 9808, 9816, 9818, 9830, 9831, 9838, 9855, 9862, 9865, 9874, 9878, 9883.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 119 "User Setup"](../../../../../objects/page/119.md) · on [Table 91 "User Setup"](../../../../../objects/table/91.md)
+- [Page 774 "User Details"](../../../../../objects/page/774.md) · captioned "Users" · on [Table 774 "User Details"](../../../../../objects/table/774.md)
+- [Page 6300 "Azure AD App Setup Wizard"](../../../../../objects/page/6300.md) · captioned "Set Up Microsoft Entra ID"
+- [Page 6301 "Azure AD App Setup Part"](../../../../../objects/page/6301.md) · captioned "<Microsoft Entra application Setup Part>" · on [Table 6300 "Azure AD App Setup"](../../../../../objects/table/6300.md)
+- [Page 6302 "Azure AD Access Dialog"](../../../../../objects/page/6302.md) · captioned "Microsoft Entra service permissions"
+- [Page 8930 "Email View Policy List"](../../../../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../../../../objects/table/8930.md)
+- [Page 9061 "Plan Configuration List"](../../../../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../../../../objects/table/9017.md)
+- [Page 9062 "User Security Activities"](../../../../../objects/page/9062.md) · on [Table 9062 "User Security Status"](../../../../../objects/table/9062.md)
+- [Page 9069 "Plan Configuration Card"](../../../../../objects/page/9069.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../../../../objects/table/9017.md)
+- [Page 9800 "Users"](../../../../../objects/page/9800.md)
+- [Page 9802 "Permission Sets"](../../../../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../../../../objects/table/9009.md)
+- [Page 9807 "User Card"](../../../../../objects/page/9807.md)
+- [Page 9808 "User Permission Sets"](../../../../../objects/page/9808.md)
+- [Page 9816 "Permission Set by User"](../../../../../objects/page/9816.md)
+- [Page 9818 "User Security Status List"](../../../../../objects/page/9818.md) · captioned "User Security Status" · on [Table 9062 "User Security Status"](../../../../../objects/table/9062.md)
+- [Page 9855 "Permission Set"](../../../../../objects/page/9855.md) · on [Table 9862 "PermissionSet Buffer"](../../../../../objects/table/9862.md)
+- [Page 9862 "Expanded Permissions"](../../../../../objects/page/9862.md)
+- [Page 9865 "Permission Lookup List"](../../../../../objects/page/9865.md) · on [Table 9865 "Permission Lookup Buffer"](../../../../../objects/table/9865.md)
+- [Page 9874 "Permission Set By Sec. Group"](../../../../../objects/page/9874.md) · captioned "Permission Set by Security Group"
+- [Page 9878 "Permission Set Lookup List"](../../../../../objects/page/9878.md) · captioned "Permission Set Lookup" · on [Table 9862 "PermissionSet Buffer"](../../../../../objects/table/9862.md)
+- [Page 9883 "Permissions Overview"](../../../../../objects/page/9883.md)
+
+Learn also names 4 objects with no object page: page/9173, page/9830, page/9831, page/9838.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

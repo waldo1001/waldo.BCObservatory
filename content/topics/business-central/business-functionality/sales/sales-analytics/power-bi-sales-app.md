@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:39.116Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,7 +212,30 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview
-  objects: []
+  objects:
+    - object/page/36951
+    - object/page/36983
+    - object/page/36998
+    - object/page/36999
+    - object/page/37000
+    - object/page/37001
+    - object/page/37002
+    - object/page/37003
+    - object/page/37004
+    - object/page/37005
+    - object/page/37006
+    - object/page/37007
+    - object/page/37008
+    - object/page/37066
+    - object/page/37100
+    - object/page/37101
+    - object/page/37102
+    - object/page/37103
+    - object/page/37104
+    - object/page/37105
+    - object/page/37109
+    - object/page/37114
+    - object/page/37119
   features: []
   topics:
     - topic/business-central/business-functionality/sales/sales-analytics
@@ -232,7 +255,7 @@ parent: topic/business-central/business-functionality/sales/sales-analytics
 children: []
 coverage:
   learn: 24
-  code: 0
+  code: 23
   video: 2
   blog: 0
   guideline: 0
@@ -325,6 +348,30 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951, 36983, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37066, 37100, 37101, 37102, 37103, 37104, 37105, 37109, 37114, 37119.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
+- [Page 36983 "Customer Retention Overview"](../../../../../objects/page/36983.md) · captioned "Customer Retention Overview (Power BI)"
+- [Page 36998 "Sales Overview"](../../../../../objects/page/36998.md) · captioned "Sales Overview (Power BI)"
+- [Page 36999 "Daily Sales"](../../../../../objects/page/36999.md) · captioned "Daily Sales (Power BI)"
+- [Page 37000 "Sales Moving Average"](../../../../../objects/page/37000.md) · captioned "Sales Moving Average (Power BI)"
+- [Page 37001 "Sales Moving Annual Total"](../../../../../objects/page/37001.md) · captioned "Sales Moving Annual Total (Power BI)"
+- [Page 37002 "Sales Period-Over-Period"](../../../../../objects/page/37002.md) · captioned "Sales Period-Over-Period (Power BI)"
+- [Page 37003 "Sales Month-To-Date"](../../../../../objects/page/37003.md) · captioned "Sales Month-To-Date (Power BI)"
+- [Page 37004 "Sales by Item"](../../../../../objects/page/37004.md) · captioned "Sales by Item (Power BI)"
+- [Page 37005 "Sales by Customer"](../../../../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)"
+- [Page 37006 "Sales by Salesperson"](../../../../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)"
+- [Page 37007 "Sales Actual vs. Budget Qty."](../../../../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)"
+- [Page 37008 "Sales Actual vs. Budget Amt."](../../../../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount"
+- [Page 37066 "Sales by Location"](../../../../../objects/page/37066.md) · captioned "Sales by Location (Power BI)"
+- [Page 37100 "Sales Demographics"](../../../../../objects/page/37100.md) · captioned "Sales Demographics (Power BI)"
+- [Page 37101 "Sales Decomposition"](../../../../../objects/page/37101.md) · captioned "Sales Decomposition (Power BI)"
+- [Page 37102 "Key Sales Influencers"](../../../../../objects/page/37102.md) · captioned "Key Sales Influencers (Power BI)"
+- [Page 37103 "Opportunity Overview"](../../../../../objects/page/37103.md) · captioned "Opportunity Overview (Power BI)"
+- [Page 37104 "Sales Quote Overview"](../../../../../objects/page/37104.md) · captioned "Sales Quote Overview (Power BI)"
+- [Page 37105 "Return Order Overview"](../../../../../objects/page/37105.md) · captioned "Return Order Overview (Power BI)"
+- [Page 37109 "Sales Forecasting"](../../../../../objects/page/37109.md) · captioned "Sales Forecasting (Power BI)"
+- [Page 37114 "Customer Retention History"](../../../../../objects/page/37114.md) · captioned "Customer Retention History (Power BI)"
+- [Page 37119 "Sales by Projects"](../../../../../objects/page/37119.md) · captioned "Sales by Projects (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

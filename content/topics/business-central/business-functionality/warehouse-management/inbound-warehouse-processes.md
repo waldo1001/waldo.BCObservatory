@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,19 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-receive-items
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing
-  objects: []
+  objects:
+    - object/page/15
+    - object/page/5703
+    - object/page/5768
+    - object/page/7302
+    - object/page/7330
+    - object/page/7332
+    - object/page/7333
+    - object/page/7342
+    - object/page/7363
+    - object/page/8510
+    - object/page/9000
+    - object/page/9008
   features: []
   topics:
     - topic/business-central/business-functionality/warehouse-management
@@ -104,7 +116,7 @@ parent: topic/business-central/business-functionality/warehouse-management
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 12
   video: 1
   blog: 0
   guideline: 0
@@ -168,6 +180,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 15, 5703, 5768, 7302, 7330, 7332, 7333, 7342, 7363, 8510, 9000, 9008.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 15 "Location List"](../../../../objects/page/15.md) · captioned "Locations" · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5703 "Location Card"](../../../../objects/page/5703.md) · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5768 "Warehouse Receipt"](../../../../objects/page/5768.md) · on [Table 7316 "Warehouse Receipt Header"](../../../../objects/table/7316.md)
+- [Page 7302 "Bins"](../../../../objects/page/7302.md) · on [Table 7354 "Bin"](../../../../objects/table/7354.md)
+- [Page 7330 "Posted Whse. Receipt"](../../../../objects/page/7330.md) · on [Table 7318 "Posted Whse. Receipt Header"](../../../../objects/table/7318.md)
+- [Page 7332 "Warehouse Receipts"](../../../../objects/page/7332.md) · on [Table 7316 "Warehouse Receipt Header"](../../../../objects/table/7316.md)
+- [Page 7333 "Posted Whse. Receipt List"](../../../../objects/page/7333.md) · captioned "Posted Warehouse Receipts" · on [Table 7318 "Posted Whse. Receipt Header"](../../../../objects/table/7318.md)
+- [Page 7342 "Whse. Receipt Lines"](../../../../objects/page/7342.md) · on [Table 7317 "Warehouse Receipt Line"](../../../../objects/table/7317.md)
+- [Page 7363 "Posted Whse. Receipt Lines"](../../../../objects/page/7363.md) · on [Table 7319 "Posted Whse. Receipt Line"](../../../../objects/table/7319.md)
+- [Page 8510 "Over-Receipt Codes"](../../../../objects/page/8510.md) · on [Table 8510 "Over-Receipt Code"](../../../../objects/table/8510.md)
+- [Page 9000 "Whse. WMS Role Center"](../../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9008 "Whse. Basic Role Center"](../../../../objects/page/9008.md) · captioned "Inventory Manager"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

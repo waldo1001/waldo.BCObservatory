@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CompensationLocalization/app/Src/Reports/CompensationCZC.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/31270",
+        "type": "report",
+        "id": 31270,
+        "name": "Compensation CZC",
+        "app": "CompensationLocalization",
+        "cc": "cz",
+        "page": "report/31270-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "CompensationLocalization"
+  ]
 }

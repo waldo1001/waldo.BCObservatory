@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.450Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,9 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/set-up-complex-application-areas-using-best-practices
     - https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-costing-method
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/31
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -83,7 +85,7 @@ children:
   - topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning
 coverage:
   learn: 6
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -129,6 +131,9 @@ The supply planning subtopic covers reordering policies, item-level planning par
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30, 31.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30 "Item Card"](../../../../objects/page/30.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 31 "Item List"](../../../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../../../objects/table/27.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

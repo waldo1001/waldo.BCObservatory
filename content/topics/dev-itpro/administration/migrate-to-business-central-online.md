@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -304,7 +304,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting
-  objects: []
+  objects:
+    - object/page/4003
   features: []
   topics:
     - topic/dev-itpro/administration
@@ -332,7 +333,7 @@ children:
   - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl
 coverage:
   learn: 47
-  code: 0
+  code: 1
   video: 4
   blog: 0
   guideline: 0
@@ -392,6 +393,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2502, 4003.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4003 "Intelligent Cloud Management"](../../../objects/page/4003.md) · captioned "Cloud Migration Management" · on [Table 4001 "Hybrid Replication Summary"](../../../objects/table/4001.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

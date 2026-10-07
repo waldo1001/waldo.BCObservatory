@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:03.562Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -363,6 +363,8 @@ The General subtopic holds company information setup, Intrastat journal template
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 12100, 12102, 12103, 12104, 12105, 12111, 12112, 12113, 12116, 12119, 12121, 12122, 12123, 12126, 12127, 12132, 12133, 12135, 12140, 12141, 12143, 12149, 12150, 12151, 12152, 12153, 12154, 12155, 12156, 12158, 12170, 12171, 12172, 12173, 12174, 12175, 12176, 12178, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12187, 12188, 12189, 12190, 12192, 12193, 12194, 12195, 12198, 12199, 12202, 12203, 12204, 35490, 35491.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 60 objects with no object page: page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/35490, page/35491.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

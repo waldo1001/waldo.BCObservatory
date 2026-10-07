@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,26 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-jobs
     - https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects
     - https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets
-  objects: []
+  objects:
+    - object/page/72
+    - object/page/76
+    - object/page/77
+    - object/page/203
+    - object/page/204
+    - object/page/211
+    - object/page/289
+    - object/page/290
+    - object/page/376
+    - object/page/462
+    - object/page/463
+    - object/page/946
+    - object/page/949
+    - object/page/977
+    - object/page/1012
+    - object/page/1029
+    - object/page/8904
+    - object/page/9014
+    - object/page/9015
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -69,7 +88,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 19
   video: 0
   blog: 0
   guideline: 0
@@ -129,6 +148,26 @@ Start with the page on resources, time sheets, and projects for an overview of t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 72, 76, 77, 203, 204, 211, 289, 290, 376, 462, 463, 946, 949, 977, 1012, 1029, 8904, 9014, 9015.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 72 "Resource Groups"](../../../../objects/page/72.md) · on [Table 152 "Resource Group"](../../../../objects/table/152.md)
+- [Page 76 "Resource Card"](../../../../objects/page/76.md) · on [Table 156 "Resource"](../../../../objects/table/156.md)
+- [Page 77 "Resource List"](../../../../objects/page/77.md) · captioned "Resources" · on [Table 156 "Resource"](../../../../objects/table/156.md)
+- [Page 203 "Resource Costs"](../../../../objects/page/203.md) · on [Table 202 "Resource Cost"](../../../../objects/table/202.md)
+- [Page 204 "Resource Prices"](../../../../objects/page/204.md) · on [Table 201 "Resource Price"](../../../../objects/table/201.md)
+- [Page 211 "Job Posting Groups"](../../../../objects/page/211.md) · captioned "Project Posting Groups" · on [Table 208 "Job Posting Group"](../../../../objects/table/208.md)
+- [Page 289 "Recurring Job Jnl."](../../../../objects/page/289.md) · captioned "Recurring Project Journal" · on [Table 210 "Job Journal Line"](../../../../objects/table/210.md)
+- [Page 290 "Recurring Resource Jnl."](../../../../objects/page/290.md) · captioned "Recurring Resource Journal" · on [Table 207 "Res. Journal Line"](../../../../objects/table/207.md)
+- [Page 376 "Job Journal Reconcile"](../../../../objects/page/376.md) · captioned "Project Journal Reconcile" · on [Table 278 "Job Journal Quantity"](../../../../objects/table/278.md)
+- [Page 462 "Resources Setup"](../../../../objects/page/462.md) · on [Table 314 "Resources Setup"](../../../../objects/table/314.md)
+- [Page 463 "Jobs Setup"](../../../../objects/page/463.md) · captioned "Projects Setup" · on [Table 315 "Jobs Setup"](../../../../objects/table/315.md)
+- [Page 946 "Time Sheet Line List"](../../../../objects/page/946.md) · captioned "Time Sheet Lines" · on [Table 951 "Time Sheet Line"](../../../../objects/table/951.md)
+- [Page 949 "Time Sheet Lines"](../../../../objects/page/949.md) · on [Table 951 "Time Sheet Line"](../../../../objects/table/951.md)
+- [Page 977 "Time Sheet Setup Wizard"](../../../../objects/page/977.md) · captioned "Set Up Time Sheets"
+- [Page 1012 "Job Item Prices"](../../../../objects/page/1012.md) · captioned "Project Item Prices" · on [Table 1013 "Job Item Price"](../../../../objects/table/1013.md)
+- [Page 1029 "Job Invoices"](../../../../objects/page/1029.md) · captioned "Project Invoices" · on [Table 1022 "Job Planning Line Invoice"](../../../../objects/table/1022.md)
+- [Page 8904 "Project Manager Role Center"](../../../../objects/page/8904.md)
+- [Page 9014 "Job Resource Manager RC"](../../../../objects/page/9014.md) · captioned "Resource Manager"
+- [Page 9015 "Job Project Manager RC"](../../../../objects/page/9015.md) · captioned "Project Manager"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:04.556Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,9 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts
     - https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
-  objects: []
+  objects:
+    - object/page/6316
+    - object/page/6317
   features: []
   topics:
     - topic/dev-itpro/development/extensibility
@@ -54,7 +56,7 @@ parent: topic/dev-itpro/development/extensibility
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 2
   video: 1
   blog: 0
   guideline: 0
@@ -102,6 +104,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 6316, 6317.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 6316 "Sustainability Report Power BI"](../../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)"
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

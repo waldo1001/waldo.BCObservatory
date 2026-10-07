@@ -46,23 +46,39 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/DK/C52012DataMigration/app/src/telemetry/C5Telemetry.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/1872",
+        "type": "codeunit",
+        "id": 1872,
+        "name": "C5 Telemetry",
+        "app": "C52012DataMigration",
+        "cc": "dk",
+        "page": "codeunit/1872-dk"
       },
       {
         "path": "src/Apps/DK/C52012DataMigration/app/src/upgrade/C5Upgrade.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/1873",
+        "type": "codeunit",
+        "id": 1873,
+        "name": "C5 Upgrade",
+        "app": "C52012DataMigration",
+        "cc": "dk",
+        "page": "codeunit/1873-dk"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": [],
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "C52012DataMigration"
+  ],
   "issues": [
     {
       "number": 12193,

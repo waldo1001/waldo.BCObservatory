@@ -2,15 +2,15 @@
 id: object/controladdin/powerbimanagement
 type: object
 title: Control add-in "PowerBIManagement"
-summary: Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Present since at least BC28, still in BC30.
+summary: Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25, BC26, BC28.
 tier: official
 language: en
 tags:
   - controladdin
   - system application
 versions:
-  introduced: null
-  last_changed: null
+  introduced: "24"
+  last_changed: "28"
   deprecated: null
 review:
   state: unreviewed
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7d491aaf02dd75dd0a88ab2cd791205d6e7aeec36eee1809e8746c715f156535
+  input_hash: 4f2bd322eab491ecda9e35073d2670aada7dcd425a1fd024abfe2c53e226eabf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,13 +45,20 @@ name: PowerBIManagement
 namespace: System.Integration.PowerBI
 app: System Application
 extends: null
-first_version: "28"
+first_version: "24"
 last_version: "30"
 present_in:
+  - "24"
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
-changed_in: []
+changed_in:
+  - "25"
+  - "26"
+  - "28"
 source_major: "29"
 obsolete: null
 countries: []
@@ -71,9 +78,9 @@ relations:
 
 # Control add-in "PowerBIManagement"
 
-> Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Present since at least BC28, still in BC30.
+> Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25, BC26, BC28.
 
-System Application · System.Integration.PowerBI · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
+System Application · System.Integration.PowerBI · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
 
 ## Procedures
 
@@ -96,10 +103,17 @@ System Application · System.Integration.PowerBI · BC28-30 · [source at 1d24dd
 - `AddBottomPadding(AddPadding: Boolean)`: Controls whether the addin includes a bottom padding that makes it look nicer in some embedded scenarios. Defaults to false.
 - `SetSettings(ShowBookmarkSelection: Boolean; ShowFilters: Boolean; ShowPageSelection: Boolean; ShowZoomBar: Boolean; ForceTransparentBackground: Boolean; ForceFitToPage: Boolean; AddBottomPadding: Boolean)` (obsolete 26.0: Use SetBookmarksVisible, SetFiltersVisible, AddBottomPadding, SetTransparentBackground, and SetPageSelectionVisible instead. The other options are no longer supported.): Sets the properties for the embed experience
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "controladdin", object_name: "PowerBIManagement")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node controladdin "PowerBIManagement"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
-- Changed (declaration) in: none
+- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Changed (declaration) in: BC25, BC26, BC28
 
 ## Deprecations
 

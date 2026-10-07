@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:06.401Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,7 +112,13 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/mexico-local-functionality
-  objects: []
+  objects:
+    - object/page/25
+    - object/page/132
+    - object/page/256
+    - object/page/1205
+    - object/page/1206
+    - object/page/1209
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -135,7 +141,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/mexico/general
 coverage:
   learn: 13
-  code: 0
+  code: 6
   video: 0
   blog: 0
   guideline: 0
@@ -217,6 +223,15 @@ The Mexico section documents functionality specific to the Mexican version of Bu
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 25, 132, 256, 1205, 1206, 1209, 10140, 10141, 10143, 10144, 10146, 10147, 10148, 10455, 10456, 10458, 10459, 10810, 10811, 27001, 27002, 27003, 27010, 27011, 27012, 27013, 27014, 27015, 27016, 27017, 27018, 27030, 27031, 27032, 27033, 27034, 27040, 27041, 27042, 27043, 27044, 36646.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md) · via [Electronic invoice](mexico/electronic-invoice.md)
+- [Page 132 "Posted Sales Invoice"](../../../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../../../objects/table/112.md) · via [Electronic invoice](mexico/electronic-invoice.md)
+- [Page 256 "Payment Journal"](../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md) · via [General](mexico/general.md)
+- [Page 1205 "Credit Transfer Registers"](../../../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../../../objects/table/1205.md) · via [General](mexico/general.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../../../objects/table/1206.md) · via [General](mexico/general.md)
+- [Page 1209 "Credit Trans Re-export History"](../../../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../../../objects/table/1209.md) · via [General](mexico/general.md)
+
+Learn also names 36 objects with no object page: page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10810, page/10811, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/36646.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

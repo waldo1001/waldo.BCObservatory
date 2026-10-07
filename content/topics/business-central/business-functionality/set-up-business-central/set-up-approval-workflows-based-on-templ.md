@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-set-up-workflows
     - https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications
     - https://learn.microsoft.com/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications
-  objects: []
+  objects:
+    - object/page/663
+    - object/page/1500
+    - object/page/1512
+    - object/page/1513
+    - object/page/1533
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -111,7 +116,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 5
   video: 0
   blog: 2
   guideline: 0
@@ -170,6 +175,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 663, 1500, 1512, 1513, 1533.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 663 "Approval User Setup"](../../../../objects/page/663.md) · on [Table 91 "User Setup"](../../../../objects/table/91.md)
+- [Page 1500 "Workflows"](../../../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../../../objects/table/1500.md)
+- [Page 1512 "Notification Setup"](../../../../objects/page/1512.md) · captioned "Workflow Notification Setup" · on [Table 1512 "Notification Setup"](../../../../objects/table/1512.md)
+- [Page 1513 "Notification Schedule"](../../../../objects/page/1513.md) · on [Table 1513 "Notification Schedule"](../../../../objects/table/1513.md)
+- [Page 1533 "Workflow User Groups"](../../../../objects/page/1533.md) · on [Table 1540 "Workflow User Group"](../../../../objects/table/1540.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:56.746Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -259,7 +259,51 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/resources-for-users
     - https://learn.microsoft.com/dynamics365/business-central/across-videos
-  objects: []
+  objects:
+    - object/page/103
+    - object/page/104
+    - object/page/108
+    - object/page/488
+    - object/page/489
+    - object/page/4764
+    - object/page/4765
+    - object/page/5194
+    - object/page/7335
+    - object/page/7337
+    - object/page/7339
+    - object/page/7340
+    - object/page/7341
+    - object/page/7362
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9008
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/20400
+    - object/page/20402
+    - object/page/20404
+    - object/page/20408
+    - object/page/20416
+    - object/page/30101
+    - object/page/30102
+    - object/page/30106
+    - object/page/30107
+    - object/page/30113
+    - object/page/30115
+    - object/page/30126
+    - object/page/30156
+    - object/page/30157
   features: []
   topics:
     - topic/business-central/get-started
@@ -279,7 +323,7 @@ children:
   - topic/business-central/get-started/learn/contoso-coffee-demo-data
 coverage:
   learn: 34
-  code: 0
+  code: 44
   video: 0
   blog: 0
   guideline: 0
@@ -367,6 +411,51 @@ Start with the video library or Resources for users for orientation. Then use th
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 103, 104, 108, 488, 489, 4764, 4765, 5194, 7335, 7337, 7339, 7340, 7341, 7362, 9000, 9004, 9005, 9006, 9007, 9008, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030, 20400, 20402, 20404, 20408, 20416, 30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9000 "Whse. WMS Role Center"](../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9020 "Small Business Owner RC"](../../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../objects/table/9054.md)
+- [Page 103 "Account Schedule Names"](../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../objects/table/84.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 104 "Account Schedule"](../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 108 "Financial Reports"](../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../objects/table/88.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 488 "Column Layout Names"](../../../objects/page/488.md) · captioned "(Financial Report) Column Definitions" · on [Table 333 "Column Layout Name"](../../../objects/table/333.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 489 "Column Layout"](../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../objects/table/334.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 4764 "Jobs Module Setup"](../../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../../objects/table/4771.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 4765 "Manufacturing Module Setup"](../../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../../objects/table/4766.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 5194 "Contoso Demo Tool"](../../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../../objects/table/5161.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 7335 "Warehouse Shipment"](../../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../../objects/table/7320.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 7337 "Posted Whse. Shipment"](../../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../../objects/table/7322.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 7339 "Warehouse Shipment List"](../../../objects/page/7339.md) · captioned "Warehouse Shipments" · on [Table 7320 "Warehouse Shipment Header"](../../../objects/table/7320.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 7340 "Posted Whse. Shipment List"](../../../objects/page/7340.md) · captioned "Posted Warehouse Shipments" · on [Table 7322 "Posted Whse. Shipment Header"](../../../objects/table/7322.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 7341 "Whse. Shipment Lines"](../../../objects/page/7341.md) · on [Table 7321 "Warehouse Shipment Line"](../../../objects/table/7321.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 7362 "Posted Whse. Shipment Lines"](../../../objects/page/7362.md) · on [Table 7323 "Posted Whse. Shipment Line"](../../../objects/table/7323.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 9008 "Whse. Basic Role Center"](../../../objects/page/9008.md) · captioned "Inventory Manager" · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 20400 "Qlty. Management Setup"](../../../objects/page/20400.md) · captioned "Quality Management Setup" · on [Table 20400 "Qlty. Management Setup"](../../../objects/table/20400.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20402 "Qlty. Inspection Template"](../../../objects/page/20402.md) · captioned "Quality Inspection Template" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../objects/table/20402.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20404 "Qlty. Inspection Template List"](../../../objects/page/20404.md) · captioned "Quality Inspection Templates" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../objects/table/20402.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20408 "Qlty. Inspection List"](../../../objects/page/20408.md) · captioned "Quality Inspections" · on [Table 20405 "Qlty. Inspection Header"](../../../objects/table/20405.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20416 "Qlty. Inspection Result List"](../../../objects/page/20416.md) · captioned "Quality Inspection Results" · on [Table 20411 "Qlty. Inspection Result"](../../../objects/table/20411.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 30101 "Shpfy Shop Card"](../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30102 "Shpfy Shops"](../../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30106 "Shpfy Customer Card"](../../../objects/page/30106.md) · captioned "Shopify Customer Card" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30107 "Shpfy Customers"](../../../objects/page/30107.md) · captioned "Shopify Customers" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30113 "Shpfy Order"](../../../objects/page/30113.md) · captioned "Shopify Order" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30115 "Shpfy Orders"](../../../objects/page/30115.md) · captioned "Shopify Orders" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30126 "Shpfy Products"](../../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../../objects/table/30127.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30156 "Shpfy Companies"](../../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 30157 "Shpfy Company Card"](../../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

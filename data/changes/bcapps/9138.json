@@ -124,8 +124,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/BE/ShopifyBE/App/src/ShpfyCompTaxIdMappingBE.EnumExt.al",
+        "status": "added",
+        "key": "enumextension/30461",
+        "type": "enumextension",
+        "id": 30461,
+        "name": "Shpfy Comp. Tax Id Mapping BE",
+        "app": "ShopifyBE",
+        "cc": "be",
+        "page": "enumextension/30461-be"
+      },
+      {
+        "path": "src/Apps/BE/ShopifyBE/App/src/ShpfyEnterpriseNoBE.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/30461",
+        "type": "codeunit",
+        "id": 30461,
+        "name": "Shpfy Enterprise No. BE",
+        "app": "ShopifyBE",
+        "cc": "be",
+        "page": "codeunit/30461-be"
+      },
       {
         "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyShopMgt.Codeunit.al",
         "status": "modified",
@@ -149,23 +171,13 @@
         "page": "page/30102"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/BE/ShopifyBE/App/src/ShpfyCompTaxIdMappingBE.EnumExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/BE/ShopifyBE/App/src/ShpfyEnterpriseNoBE.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "integration"
   ],
   "apps": [
-    "Shopify"
+    "Shopify",
+    "ShopifyBE"
   ]
 }

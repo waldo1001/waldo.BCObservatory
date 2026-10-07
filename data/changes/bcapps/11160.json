@@ -369,8 +369,41 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Install/DIOTInitialize.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/27020",
+        "type": "codeunit",
+        "id": 27020,
+        "name": "DIOT - Initialize",
+        "app": "MX_DIOT",
+        "cc": "ca",
+        "page": "codeunit/27020-ca"
+      },
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTDataManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/27021",
+        "type": "codeunit",
+        "id": 27021,
+        "name": "DIOT Data Management",
+        "app": "MX_DIOT",
+        "cc": "ca",
+        "page": "codeunit/27021-ca"
+      },
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/27022",
+        "type": "codeunit",
+        "id": 27022,
+        "name": "DIOT Subscribers",
+        "app": "MX_DIOT",
+        "cc": "ca",
+        "page": "codeunit/27022-ca"
+      },
       {
         "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/IntegrationMasterDataSynch.Codeunit.al",
         "status": "modified",
@@ -572,21 +605,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/NA/MX_DIOT/app/src/Install/DIOTInitialize.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTDataManagement.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTSubscribers.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/CH/BaseApp/Finance/Currency/MapCurrencyExchangeRate.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -610,6 +628,7 @@
   ],
   "apps": [
     "Base Application",
+    "MX_DIOT",
     "MasterDataManagement"
   ]
 }

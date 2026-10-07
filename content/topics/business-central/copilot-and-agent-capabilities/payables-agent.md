@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.692Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/payables-agent
     - https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup
     - https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks
-  objects: []
+  objects:
+    - object/page/3304
+    - object/page/3313
+    - object/page/4400
+    - object/page/4410
   features: []
   topics:
     - topic/business-central/copilot-and-agent-capabilities
@@ -86,7 +90,7 @@ parent: topic/business-central/copilot-and-agent-capabilities
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 4
   video: 4
   blog: 4
   guideline: 0
@@ -148,6 +152,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 3304, 3313, 4400, 4410.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 3304 "Payables Agent Setup"](../../../objects/page/3304.md) · captioned "Configure Payables Agent" · on [Table 3303 "Payables Agent Setup"](../../../objects/table/3303.md)
+- [Page 3313 "PA Known Senders"](../../../objects/page/3313.md) · captioned "Payables Agent Known Senders" · on [Table 3308 "PA Known Sender"](../../../objects/table/3308.md)
+- [Page 4400 "SOA Setup"](../../../objects/page/4400.md) · captioned "Configure Sales Order Agent" · on [Table 4325 "SOA Setup"](../../../objects/table/4325.md)
+- [Page 4410 "SOA Multi Items Availability"](../../../objects/page/4410.md) · captioned "Item Availability" · on [Table 27 "Item"](../../../objects/table/27.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -73,21 +73,38 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CashDocumentLineCZZ.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31028",
+        "type": "tableextension",
+        "id": 31028,
+        "name": "Cash Document Line CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "tableextension/31028-cz"
       },
       {
         "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/CashDocumentReleaseCZP.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11725",
+        "type": "codeunit",
+        "id": 11725,
+        "name": "Cash Document-Release CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "codeunit/11725-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "AdvancePaymentsLocalization",
+    "CashDeskLocalization"
+  ]
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.600Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
     - https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot
     - https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds
-  objects: []
+  objects:
+    - object/page/39
+    - object/page/165
+    - object/page/377
+    - object/page/378
+    - object/page/1284
+    - object/page/1290
+    - object/page/1291
+    - object/page/1293
+    - object/page/1294
+    - object/page/1690
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -90,7 +100,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 10
   video: 0
   blog: 1
   guideline: 0
@@ -162,6 +172,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 39, 165, 377, 378, 1284, 1290, 1291, 1293, 1294, 1690, 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 39 "General Journal"](../../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md)
+- [Page 165 "Bank Acc. Ledg. Entr. Preview"](../../../../objects/page/165.md) · on [Table 271 "Bank Account Ledger Entry"](../../../../objects/table/271.md)
+- [Page 377 "Bank Account Balance"](../../../../objects/page/377.md) · on [Table 270 "Bank Account"](../../../../objects/table/270.md)
+- [Page 378 "Bank Account Balance Lines"](../../../../objects/page/378.md) · captioned "Lines" · on [Table 929 "Bank Account Balance Buffer"](../../../../objects/table/929.md)
+- [Page 1284 "Outstanding Bank Transactions"](../../../../objects/page/1284.md) · on [Table 1284 "Outstanding Bank Transaction"](../../../../objects/table/1284.md)
+- [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../objects/table/274.md)
+- [Page 1291 "Pmt. Recon. Journal Overview"](../../../../objects/page/1291.md) · captioned "Payment Reconciliation Journal Overview" · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../objects/table/274.md)
+- [Page 1293 "Pmt. Rec. Journals Overview"](../../../../objects/page/1293.md) · captioned "Unprocessed Payments" · on [Table 273 "Bank Acc. Reconciliation"](../../../../objects/table/273.md)
+- [Page 1294 "Pmt. Reconciliation Journals"](../../../../objects/page/1294.md) · captioned "Payment Reconciliation Journals" · on [Table 273 "Bank Acc. Reconciliation"](../../../../objects/table/273.md)
+- [Page 1690 "Bank Deposit"](../../../../objects/page/1690.md) · on [Table 1690 "Bank Deposit Header"](../../../../objects/table/1690.md)
+
+Learn also names 8 objects with no object page: page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/36646.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

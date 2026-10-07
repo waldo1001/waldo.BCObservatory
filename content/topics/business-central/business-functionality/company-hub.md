@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company
     - https://learn.microsoft.com/dynamics365/business-central/company-hub
     - https://learn.microsoft.com/dynamics365/business-central/company-hub-troubleshooting
-  objects: []
+  objects:
+    - object/page/1151
+    - object/page/1154
+    - object/page/1155
+    - object/page/1165
+    - object/page/1166
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -60,7 +65,7 @@ parent: topic/business-central/business-functionality
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -104,6 +109,12 @@ The three pages follow a natural order. Start with "Add companies to your compan
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1151, 1154, 1155, 1165, 1166.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1151 "COHUB Role Center"](../../../objects/page/1151.md) · captioned "Company Hub"
+- [Page 1154 "COHUB My User Tasks"](../../../objects/page/1154.md) · captioned "My User Tasks" · on [Table 1154 "COHUB User Task"](../../../objects/table/1154.md)
+- [Page 1155 "COHUB Group List"](../../../objects/page/1155.md) · captioned "Groups" · on [Table 1155 "COHUB Group"](../../../objects/table/1155.md)
+- [Page 1165 "COHUB Enviroment Card"](../../../objects/page/1165.md) · captioned "Environment Link" · on [Table 1152 "COHUB Enviroment"](../../../objects/table/1152.md)
+- [Page 1166 "COHUB Enviroment List"](../../../objects/page/1166.md) · captioned "Environments" · on [Table 1152 "COHUB Enviroment"](../../../objects/table/1152.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

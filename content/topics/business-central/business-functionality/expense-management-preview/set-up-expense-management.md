@@ -11,7 +11,7 @@ review:
   at: "2026-10-06T15:20:30.221Z"
   flags: []
 generated:
-  at: "2026-10-06T15:20:40.673Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,27 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage
-  objects: []
+  objects:
+    - object/page/6900
+    - object/page/6901
+    - object/page/6920
+    - object/page/6930
+    - object/page/6937
+    - object/page/6939
+    - object/page/6945
+    - object/page/6946
+    - object/page/6949
+    - object/page/6951
+    - object/page/6952
+    - object/page/6973
+    - object/page/6974
+    - object/page/6976
+    - object/page/6988
+    - object/page/6990
+    - object/page/6996
+    - object/page/7127
+    - object/page/7128
+    - object/page/7130
   features: []
   topics:
     - topic/business-central/business-functionality/expense-management-preview
@@ -84,7 +104,7 @@ parent: topic/business-central/business-functionality/expense-management-preview
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 20
   video: 0
   blog: 0
   guideline: 0
@@ -149,6 +169,27 @@ Mileage rates and per diem allowances are only needed if employees claim travel 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 6900, 6901, 6920, 6930, 6937, 6939, 6945, 6946, 6949, 6951, 6952, 6973, 6974, 6976, 6988, 6990, 6996, 7127, 7128, 7130.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 6900 "Expense Management Rules"](../../../../objects/page/6900.md) · on [Table 6927 "Expense Rule Header"](../../../../objects/table/6927.md)
+- [Page 6901 "Expense Rule Card"](../../../../objects/page/6901.md) · on [Table 6927 "Expense Rule Header"](../../../../objects/table/6927.md)
+- [Page 6920 "Expense Location Card"](../../../../objects/page/6920.md) · on [Table 6925 "Expense Location"](../../../../objects/table/6925.md)
+- [Page 6930 "Expense Payment Methods"](../../../../objects/page/6930.md) · on [Table 6913 "Expense Payment Method"](../../../../objects/table/6913.md)
+- [Page 6937 "Expense Locations"](../../../../objects/page/6937.md) · on [Table 6925 "Expense Location"](../../../../objects/table/6925.md)
+- [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md) · on [Table 6932 "Expense Approval Setup"](../../../../objects/table/6932.md)
+- [Page 6945 "Expense Category Card"](../../../../objects/page/6945.md) · captioned "Expense Category" · on [Table 6921 "Expense Category"](../../../../objects/table/6921.md)
+- [Page 6946 "Expense Categories"](../../../../objects/page/6946.md) · on [Table 6921 "Expense Category"](../../../../objects/table/6921.md)
+- [Page 6949 "Expense User"](../../../../objects/page/6949.md) · on [Table 6923 "Expense User"](../../../../objects/table/6923.md)
+- [Page 6951 "Expense Users"](../../../../objects/page/6951.md) · on [Table 6923 "Expense User"](../../../../objects/table/6923.md)
+- [Page 6952 "Expense Groups"](../../../../objects/page/6952.md) · on [Table 6924 "Expense Group"](../../../../objects/table/6924.md)
+- [Page 6973 "Expense Subcategories"](../../../../objects/page/6973.md) · on [Table 6929 "Expense Subcategory"](../../../../objects/table/6929.md)
+- [Page 6974 "Per Diem Expenses"](../../../../objects/page/6974.md) · on [Table 6905 "Expense Per Diem"](../../../../objects/table/6905.md)
+- [Page 6976 "Expense Posting Groups"](../../../../objects/page/6976.md) · on [Table 6928 "Expense Posting Group"](../../../../objects/table/6928.md)
+- [Page 6988 "Expense"](../../../../objects/page/6988.md) · on [Table 6900 "Expense"](../../../../objects/table/6900.md)
+- [Page 6990 "Expense Teams"](../../../../objects/page/6990.md) · on [Table 6931 "Expense Team"](../../../../objects/table/6931.md)
+- [Page 6996 "Expense Agent Setup"](../../../../objects/page/6996.md) · captioned "Expense Management Setup" · on [Table 6930 "Expense Agent Setup"](../../../../objects/table/6930.md)
+- [Page 7127 "Expense Policies"](../../../../objects/page/7127.md) · on [Table 7092 "Expense Policy"](../../../../objects/table/7092.md)
+- [Page 7128 "Mileage Rate Setup"](../../../../objects/page/7128.md) · on [Table 6939 "Mileage Rate Setup"](../../../../objects/table/6939.md)
+- [Page 7130 "Expense Vehicle Types"](../../../../objects/page/7130.md) · captioned "Vehicle Types" · on [Table 7108 "Expense Vehicle Type"](../../../../objects/table/7108.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

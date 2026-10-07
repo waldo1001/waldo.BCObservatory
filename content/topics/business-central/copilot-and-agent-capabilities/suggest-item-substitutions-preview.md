@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.835Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,10 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot
     - https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/31
+    - object/page/5716
   features: []
   topics:
     - topic/business-central/copilot-and-agent-capabilities
@@ -53,7 +56,7 @@ parent: topic/business-central/copilot-and-agent-capabilities
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 3
   video: 1
   blog: 0
   guideline: 0
@@ -100,6 +103,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30, 31, 5716.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30 "Item Card"](../../../objects/page/30.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 31 "Item List"](../../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 5716 "Item Substitution Entry"](../../../objects/page/5716.md) · on [Table 5715 "Item Substitution"](../../../objects/table/5715.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:58.943Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types
-  objects: []
+  objects:
+    - object/page/310
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/belgium
@@ -118,7 +119,7 @@ parent: topic/business-central/business-functionality/local-functionality/belgiu
 children: []
 coverage:
   learn: 10
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -174,6 +175,10 @@ Start with the Belgian VAT and Belgian Intrastat Reporting overview pages. Then 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 310, 11300, 11301, 11303, 11306, 11307, 11308.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 310 "Tariff Numbers"](../../../../../objects/page/310.md) · on [Table 260 "Tariff Number"](../../../../../objects/table/260.md)
+
+Learn also names 6 objects with no object page: page/11300, page/11301, page/11303, page/11306, page/11307, page/11308.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

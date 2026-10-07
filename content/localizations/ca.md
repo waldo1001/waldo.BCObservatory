@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: ba5fb75d8e72e4d9c2b9abda6baecdae17e9f35e1b3b97508be01c42c9012887
+  input_hash: 6949c49d8b3d543aba57b7908c423c86cc6d113a012ce83c451a51db95c33132
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ca
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -1217,6 +1217,6 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Other versions
 
-- BC30: 642 objects differ from W1 (526 fields, 104 events added)
+- BC30: 759 objects differ from W1 (526 fields, 104 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

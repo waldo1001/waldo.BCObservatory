@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/GeneralLedgerSetupCZL.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/11713",
+        "type": "tableextension",
+        "id": 11713,
+        "name": "General Ledger Setup CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/11713-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

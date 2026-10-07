@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,93 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number
     - https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years
-  objects: []
+  objects:
+    - object/page/4
+    - object/page/5
+    - object/page/6
+    - object/page/10
+    - object/page/16
+    - object/page/17
+    - object/page/18
+    - object/page/21
+    - object/page/22
+    - object/page/25
+    - object/page/30
+    - object/page/100
+    - object/page/103
+    - object/page/104
+    - object/page/108
+    - object/page/118
+    - object/page/148
+    - object/page/195
+    - object/page/196
+    - object/page/197
+    - object/page/198
+    - object/page/249
+    - object/page/257
+    - object/page/259
+    - object/page/279
+    - object/page/283
+    - object/page/284
+    - object/page/308
+    - object/page/309
+    - object/page/310
+    - object/page/312
+    - object/page/313
+    - object/page/314
+    - object/page/386
+    - object/page/391
+    - object/page/395
+    - object/page/405
+    - object/page/406
+    - object/page/427
+    - object/page/431
+    - object/page/432
+    - object/page/436
+    - object/page/459
+    - object/page/460
+    - object/page/470
+    - object/page/471
+    - object/page/472
+    - object/page/473
+    - object/page/478
+    - object/page/483
+    - object/page/488
+    - object/page/489
+    - object/page/490
+    - object/page/494
+    - object/page/495
+    - object/page/572
+    - object/page/575
+    - object/page/734
+    - object/page/747
+    - object/page/748
+    - object/page/764
+    - object/page/765
+    - object/page/766
+    - object/page/846
+    - object/page/847
+    - object/page/849
+    - object/page/851
+    - object/page/855
+    - object/page/862
+    - object/page/869
+    - object/page/1279
+    - object/page/1818
+    - object/page/1877
+    - object/page/4810
+    - object/page/4811
+    - object/page/5200
+    - object/page/5600
+    - object/page/6285
+    - object/page/6784
+    - object/page/6786
+    - object/page/6789
+    - object/page/6790
+    - object/page/7414
+    - object/page/7416
+    - object/report/25
+    - object/report/86
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -250,7 +336,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 26
-  code: 0
+  code: 86
   video: 0
   blog: 0
   guideline: 0
@@ -415,6 +501,95 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4, 5, 6, 10, 16, 17, 18, 21, 22, 25, 30, 86, 100, 103, 104, 108, 118, 148, 195, 196, 197, 198, 249, 257, 259, 279, 283, 284, 308, 309, 310, 311, 312, 313, 314, 325, 326, 327, 328, 386, 391, 395, 405, 406, 427, 431, 432, 436, 459, 460, 470, 471, 472, 473, 478, 483, 488, 489, 490, 494, 495, 572, 575, 734, 747, 748, 764, 765, 766, 846, 847, 849, 851, 855, 862, 869, 1279, 1818, 1877, 4810, 4811, 5200, 5600, 6285, 6784, 6786, 6789, 6790, 7414, 7416, 8451, 12202, 31077.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4 "Payment Terms"](../../../../objects/page/4.md) · on [Table 3 "Payment Terms"](../../../../objects/table/3.md)
+- [Page 5 "Currencies"](../../../../objects/page/5.md) · on [Table 4 "Currency"](../../../../objects/table/4.md)
+- [Page 6 "Finance Charge Terms"](../../../../objects/page/6.md) · on [Table 5 "Finance Charge Terms"](../../../../objects/table/5.md)
+- [Page 10 "Countries/Regions"](../../../../objects/page/10.md) · on [Table 9 "Country/Region"](../../../../objects/table/9.md)
+- [Page 16 "Chart of Accounts"](../../../../objects/page/16.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 17 "G/L Account Card"](../../../../objects/page/17.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 18 "G/L Account List"](../../../../objects/page/18.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 21 "Customer Card"](../../../../objects/page/21.md) · on [Table 18 "Customer"](../../../../objects/table/18.md)
+- [Page 22 "Customer List"](../../../../objects/page/22.md) · captioned "Customers" · on [Table 18 "Customer"](../../../../objects/table/18.md)
+- [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md)
+- [Page 30 "Item Card"](../../../../objects/page/30.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 100 "Accounting Periods"](../../../../objects/page/100.md) · on [Table 50 "Accounting Period"](../../../../objects/table/50.md)
+- [Page 103 "Account Schedule Names"](../../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../../objects/table/84.md)
+- [Page 104 "Account Schedule"](../../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
+- [Page 108 "Financial Reports"](../../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../../objects/table/88.md)
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
+- [Page 148 "Customer Posting Group Card"](../../../../objects/page/148.md) · on [Table 92 "Customer Posting Group"](../../../../objects/table/92.md)
+- [Page 195 "Acc. Sched. KPI Web Srv. Setup"](../../../../objects/page/195.md) · captioned "Financial Report KPI Web Service Setup" · on [Table 135 "Acc. Sched. KPI Web Srv. Setup"](../../../../objects/table/135.md)
+- [Page 196 "Acc. Sched. KPI Web Srv. Lines"](../../../../objects/page/196.md) · captioned "Financial Report KPI Web Service Setup" · on [Table 136 "Acc. Sched. KPI Web Srv. Line"](../../../../objects/table/136.md)
+- [Page 197 "Acc. Sched. KPI Web Service"](../../../../objects/page/197.md) · captioned "Financial Report KPI Web Service" · on [Table 197 "Acc. Sched. KPI Buffer"](../../../../objects/table/197.md)
+- [Page 198 "Acc. Sched. KPI WS Dimensions"](../../../../objects/page/198.md) · captioned "Account Schedule KPI WS Dimensions" · on [Table 197 "Acc. Sched. KPI Buffer"](../../../../objects/table/197.md)
+- [Page 249 "VAT Registration Log"](../../../../objects/page/249.md) · on [Table 249 "VAT Registration Log"](../../../../objects/table/249.md)
+- [Page 257 "Source Codes"](../../../../objects/page/257.md) · on [Table 230 "Source Code"](../../../../objects/table/230.md)
+- [Page 259 "Reason Codes"](../../../../objects/page/259.md) · on [Table 231 "Reason Code"](../../../../objects/table/231.md)
+- [Page 279 "Source Code Setup"](../../../../objects/page/279.md) · on [Table 242 "Source Code Setup"](../../../../objects/table/242.md)
+- [Page 283 "Recurring General Journal"](../../../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md)
+- [Page 284 "Allocations"](../../../../objects/page/284.md) · on [Table 221 "Gen. Jnl. Allocation"](../../../../objects/table/221.md)
+- [Page 308 "Transaction Types"](../../../../objects/page/308.md) · on [Table 258 "Transaction Type"](../../../../objects/table/258.md)
+- [Page 309 "Transport Methods"](../../../../objects/page/309.md) · on [Table 259 "Transport Method"](../../../../objects/table/259.md)
+- [Page 310 "Tariff Numbers"](../../../../objects/page/310.md) · on [Table 260 "Tariff Number"](../../../../objects/table/260.md)
+- [Page 312 "Gen. Business Posting Groups"](../../../../objects/page/312.md) · on [Table 250 "Gen. Business Posting Group"](../../../../objects/table/250.md)
+- [Page 313 "Gen. Product Posting Groups"](../../../../objects/page/313.md) · captioned "General Product Posting Groups" · on [Table 251 "Gen. Product Posting Group"](../../../../objects/table/251.md)
+- [Page 314 "General Posting Setup"](../../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md)
+- [Page 386 "Extended Text"](../../../../objects/page/386.md) · on [Table 279 "Extended Text Header"](../../../../objects/table/279.md)
+- [Page 391 "Extended Text List"](../../../../objects/page/391.md) · on [Table 279 "Extended Text Header"](../../../../objects/table/279.md)
+- [Page 395 "General Posting Setup Card"](../../../../objects/page/395.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md)
+- [Page 405 "Areas"](../../../../objects/page/405.md) · on [Table 284 "Area"](../../../../objects/table/284.md)
+- [Page 406 "Transaction Specifications"](../../../../objects/page/406.md) · on [Table 285 "Transaction Specification"](../../../../objects/table/285.md)
+- [Page 427 "Payment Methods"](../../../../objects/page/427.md) · on [Table 289 "Payment Method"](../../../../objects/table/289.md)
+- [Page 431 "Reminder Terms"](../../../../objects/page/431.md) · on [Table 292 "Reminder Terms"](../../../../objects/table/292.md)
+- [Page 432 "Reminder Levels"](../../../../objects/page/432.md) · on [Table 293 "Reminder Level"](../../../../objects/table/293.md)
+- [Page 436 "Reminder List"](../../../../objects/page/436.md) · captioned "Reminders" · on [Table 295 "Reminder Header"](../../../../objects/table/295.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../objects/table/311.md)
+- [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../../objects/table/312.md)
+- [Page 470 "VAT Business Posting Groups"](../../../../objects/page/470.md) · on [Table 323 "VAT Business Posting Group"](../../../../objects/table/323.md)
+- [Page 471 "VAT Product Posting Groups"](../../../../objects/page/471.md) · on [Table 324 "VAT Product Posting Group"](../../../../objects/table/324.md)
+- [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../../objects/table/325.md)
+- [Page 473 "VAT Posting Setup Card"](../../../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../../../objects/table/325.md)
+- [Page 478 "Currencies for Reminder Level"](../../../../objects/page/478.md) · on [Table 329 "Currency for Reminder Level"](../../../../objects/table/329.md)
+- [Page 483 "Currency Exchange Rates"](../../../../objects/page/483.md) · on [Table 330 "Currency Exchange Rate"](../../../../objects/table/330.md)
+- [Page 488 "Column Layout Names"](../../../../objects/page/488.md) · captioned "(Financial Report) Column Definitions" · on [Table 333 "Column Layout Name"](../../../../objects/table/333.md)
+- [Page 489 "Column Layout"](../../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../../objects/table/334.md)
+- [Page 490 "Acc. Schedule Overview"](../../../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
+- [Page 494 "Finance Charge Terms Card"](../../../../objects/page/494.md) · on [Table 5 "Finance Charge Terms"](../../../../objects/table/5.md)
+- [Page 495 "Currency Card"](../../../../objects/page/495.md) · on [Table 4 "Currency"](../../../../objects/table/4.md)
+- [Page 572 "Finance Charge Interest Rates"](../../../../objects/page/572.md) · on [Table 572 "Finance Charge Interest Rate"](../../../../objects/table/572.md)
+- [Page 575 "VAT Registration No. Formats"](../../../../objects/page/575.md) · on [Table 381 "VAT Registration No. Format"](../../../../objects/table/381.md)
+- [Page 734 "VAT Clauses by Doc. Type"](../../../../objects/page/734.md) · captioned "VAT Clauses by Document Type" · on [Table 562 "VAT Clause by Doc. Type"](../../../../objects/table/562.md)
+- [Page 747 "VAT Clauses"](../../../../objects/page/747.md) · on [Table 560 "VAT Clause"](../../../../objects/table/560.md)
+- [Page 748 "VAT Clause Translations"](../../../../objects/page/748.md) · on [Table 561 "VAT Clause Translation"](../../../../objects/table/561.md)
+- [Page 764 "Acc. Sched. Chart Matrix"](../../../../objects/page/764.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../../../objects/table/763.md)
+- [Page 765 "Acc. Sched. Chart Line"](../../../../objects/page/765.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../../../objects/table/763.md)
+- [Page 766 "Acc. Sched. Chart SubPage"](../../../../objects/page/766.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../../../objects/table/763.md)
+- [Page 846 "Cash Flow Setup"](../../../../objects/page/846.md) · on [Table 843 "Cash Flow Setup"](../../../../objects/table/843.md)
+- [Page 847 "Cash Flow Forecast Card"](../../../../objects/page/847.md) · on [Table 840 "Cash Flow Forecast"](../../../../objects/table/840.md)
+- [Page 849 "Cash Flow Forecast List"](../../../../objects/page/849.md) · captioned "Cash Flow Forecasts" · on [Table 840 "Cash Flow Forecast"](../../../../objects/table/840.md)
+- [Page 851 "Chart of Cash Flow Accounts"](../../../../objects/page/851.md) · on [Table 841 "Cash Flow Account"](../../../../objects/table/841.md)
+- [Page 855 "Cash Flow Account List"](../../../../objects/page/855.md) · on [Table 841 "Cash Flow Account"](../../../../objects/table/841.md)
+- [Page 862 "Cash Flow Account Card"](../../../../objects/page/862.md) · on [Table 841 "Cash Flow Account"](../../../../objects/table/841.md)
+- [Page 869 "Cash Flow Forecast Chart"](../../../../objects/page/869.md) · captioned "Cash Flow Forecast" · on [Table 485 "Business Chart Buffer"](../../../../objects/table/485.md)
+- [Page 1279 "Service Connections"](../../../../objects/page/1279.md) · on [Table 1400 "Service Connection"](../../../../objects/table/1400.md)
+- [Page 1818 "Cash Flow Forecast Wizard"](../../../../objects/page/1818.md) · captioned "Set Up Cash Flow Forecast"
+- [Page 1877 "VAT Setup Wizard"](../../../../objects/page/1877.md) · captioned "VAT Setup"
+- [Page 4810 "Intrastat Report Setup"](../../../../objects/page/4810.md) · on [Table 4810 "Intrastat Report Setup"](../../../../objects/table/4810.md)
+- [Page 4811 "Intrastat Report List"](../../../../objects/page/4811.md) · on [Table 4811 "Intrastat Report Header"](../../../../objects/table/4811.md)
+- [Page 5200 "Employee Card"](../../../../objects/page/5200.md) · on [Table 5200 "Employee"](../../../../objects/table/5200.md)
+- [Page 5600 "Fixed Asset Card"](../../../../objects/page/5600.md) · on [Table 5600 "Fixed Asset"](../../../../objects/table/5600.md)
+- [Page 6285 "Sust. Excise Jnl. Templates"](../../../../objects/page/6285.md) · captioned "Excise Journal Templates" · on [Table 6238 "Sust. Excise Journal Template"](../../../../objects/table/6238.md)
+- [Page 6784 "Wthldg. Tax Bus. Post. Group"](../../../../objects/page/6784.md) · captioned "Withholding Tax Bus. Post. Group" · on [Table 6784 "Wthldg. Tax Bus. Post. Group"](../../../../objects/table/6784.md)
+- [Page 6786 "Withholding Tax Posting Setup"](../../../../objects/page/6786.md) · on [Table 6786 "Withholding Tax Posting Setup"](../../../../objects/table/6786.md)
+- [Page 6789 "Withholding Tax Groups"](../../../../objects/page/6789.md) · on [Table 6792 "Withholding Tax Group"](../../../../objects/table/6792.md)
+- [Page 6790 "Withholding Tax Group Card"](../../../../objects/page/6790.md) · on [Table 6792 "Withholding Tax Group"](../../../../objects/table/6792.md)
+- [Page 7414 "Excise Tax Types"](../../../../objects/page/7414.md) · on [Table 7412 "Excise Tax Type"](../../../../objects/table/7412.md)
+- [Page 7416 "Item Excise Taxes"](../../../../objects/page/7416.md) · captioned "Excise Taxes" · on [Table 7415 "Item Excise Tax"](../../../../objects/table/7415.md)
+- [Report 25 "Account Schedule"](../../../../objects/report/25.md) · captioned "Run Financial Report"
+- [Report 86 "Adjust Add. Reporting Currency"](../../../../objects/report/86.md)
+
+Learn also names 8 objects with no object page: page/311, page/325, page/326, page/327, page/328, page/8451, page/12202, page/31077.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

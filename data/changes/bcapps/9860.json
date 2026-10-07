@@ -184,8 +184,52 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocItemChargesDE.PageExt.al",
+        "status": "added",
+        "key": "pageextension/11036",
+        "type": "pageextension",
+        "id": 11036,
+        "name": "E-Doc Item Charges DE",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "pageextension/11036-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentDEHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11038",
+        "type": "codeunit",
+        "id": 11038,
+        "name": "E-Document DE Helper",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/11038-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13916",
+        "type": "codeunit",
+        "id": 13916,
+        "name": "Export XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13916-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13917",
+        "type": "codeunit",
+        "id": 13917,
+        "name": "Export ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13917-de"
+      },
       {
         "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
         "status": "modified",
@@ -288,27 +332,7 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DE/EDocumentDE/app/src/EDocItemChargesDE.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentDEHelper.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.PageExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
       }
@@ -319,7 +343,8 @@
     "inventory"
   ],
   "apps": [
-    "EDocument"
+    "EDocument",
+    "EDocumentDE"
   ],
   "issues": [
     {

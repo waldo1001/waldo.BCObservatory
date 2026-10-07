@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:00.683Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -175,7 +175,8 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview
-  objects: []
+  objects:
+    - object/page/7214
   features: []
   topics:
     - topic/dev-itpro/integration
@@ -209,7 +210,7 @@ children:
   - topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization
 coverage:
   learn: 22
-  code: 0
+  code: 1
   video: 5
   blog: 0
   guideline: 0
@@ -273,6 +274,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 7214.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 7214 "CDS Companies"](../../../objects/page/7214.md) · captioned "Dataverse Companies" · on [Table 5393 "CDS Company"](../../../objects/table/5393.md) · via [Data synchronization](integrating-with-microsoft-dataverse/data-synchronization.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

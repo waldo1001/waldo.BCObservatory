@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,7 +132,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports
-  objects: []
+  objects:
+    - object/page/472
+    - object/page/473
+    - object/page/747
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/spain
@@ -152,7 +155,7 @@ parent: topic/business-central/business-functionality/local-functionality/spain
 children: []
 coverage:
   learn: 14
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -227,6 +230,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 472, 473, 747, 10704, 10705, 10710, 10736, 10737, 10738, 10740, 10744, 10751, 10752, 10753, 10770, 10771.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
+- [Page 473 "VAT Posting Setup Card"](../../../../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
+- [Page 747 "VAT Clauses"](../../../../../objects/page/747.md) · on [Table 560 "VAT Clause"](../../../../../objects/table/560.md)
+
+Learn also names 13 objects with no object page: page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:50.308Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,20 @@ evidence:
     quote: null
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/393
+    - object/page/7315
+    - object/page/7349
+    - object/page/7351
+    - object/page/7382
+    - object/page/7384
+    - object/page/7386
+    - object/page/7387
+    - object/page/7399
+    - object/page/7400
+    - object/page/9314
+    - object/page/9330
+    - object/page/9345
   features: []
   topics:
     - topic/business-central/business-functionality/warehouse-management
@@ -128,7 +141,7 @@ children:
   - topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/warehouse-counting
 coverage:
   learn: 11
-  code: 0
+  code: 13
   video: 0
   blog: 0
   guideline: 0
@@ -194,6 +207,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 393, 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 393 "Item Reclass. Journal"](../../../../objects/page/393.md) · captioned "Item Reclassification Journals" · on [Table 83 "Item Journal Line"](../../../../objects/table/83.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7315 "Warehouse Movement"](../../../../objects/page/7315.md) · on [Table 5766 "Warehouse Activity Header"](../../../../objects/table/5766.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7349 "Registered Movement"](../../../../objects/page/7349.md) · on [Table 5772 "Registered Whse. Activity Hdr."](../../../../objects/table/5772.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7351 "Movement Worksheet"](../../../../objects/page/7351.md) · captioned "Movement Worksheets" · on [Table 7326 "Whse. Worksheet Line"](../../../../objects/table/7326.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7382 "Inventory Movement"](../../../../objects/page/7382.md) · on [Table 5766 "Warehouse Activity Header"](../../../../objects/table/5766.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7384 "Registered Invt. Movement"](../../../../objects/page/7384.md) · on [Table 7344 "Registered Invt. Movement Hdr."](../../../../objects/table/7344.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7386 "Registered Invt. Movement List"](../../../../objects/page/7386.md) · captioned "Registered Inventory Movements" · on [Table 7344 "Registered Invt. Movement Hdr."](../../../../objects/table/7344.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7387 "Reg. Invt. Movement Lines"](../../../../objects/page/7387.md) · on [Table 7345 "Registered Invt. Movement Line"](../../../../objects/table/7345.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7399 "Internal Movement"](../../../../objects/page/7399.md) · on [Table 7346 "Internal Movement Header"](../../../../objects/table/7346.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 7400 "Internal Movement List"](../../../../objects/page/7400.md) · captioned "Internal Movements" · on [Table 7346 "Internal Movement Header"](../../../../objects/table/7346.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 9314 "Warehouse Movements"](../../../../objects/page/9314.md) · on [Table 5766 "Warehouse Activity Header"](../../../../objects/table/5766.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 9330 "Inventory Movements"](../../../../objects/page/9330.md) · on [Table 5766 "Warehouse Activity Header"](../../../../objects/table/5766.md) · via [Move items](internal-warehouse-processes/move-items.md)
+- [Page 9345 "Registered Whse. Movements"](../../../../objects/page/9345.md) · captioned "Registered Warehouse Movement List" · on [Table 5772 "Registered Whse. Activity Hdr."](../../../../objects/table/5772.md) · via [Move items](internal-warehouse-processes/move-items.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,23 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/shopify/get-started
     - https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify
     - https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot
-  objects: []
+  objects:
+    - object/page/30100
+    - object/page/30101
+    - object/page/30102
+    - object/page/30103
+    - object/page/30104
+    - object/page/30106
+    - object/page/30107
+    - object/page/30113
+    - object/page/30115
+    - object/page/30118
+    - object/page/30119
+    - object/page/30120
+    - object/page/30126
+    - object/page/30135
+    - object/page/30156
+    - object/page/30157
   features: []
   topics:
     - topic/dev-itpro/integration
@@ -111,7 +127,7 @@ parent: topic/dev-itpro/integration
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 16
   video: 9
   blog: 0
   guideline: 0
@@ -217,6 +233,23 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30100, 30101, 30102, 30103, 30104, 30106, 30107, 30113, 30115, 30118, 30119, 30120, 30126, 30135, 30156, 30157.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30100 "Shpfy Activities"](../../../objects/page/30100.md) · captioned "Shopify Activities" · on [Table 30100 "Shpfy Cue"](../../../objects/table/30100.md)
+- [Page 30101 "Shpfy Shop Card"](../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md)
+- [Page 30102 "Shpfy Shops"](../../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md)
+- [Page 30103 "Shpfy Tag Factbox"](../../../objects/page/30103.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../objects/table/30104.md)
+- [Page 30104 "Shpfy Tags"](../../../objects/page/30104.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../objects/table/30104.md)
+- [Page 30106 "Shpfy Customer Card"](../../../objects/page/30106.md) · captioned "Shopify Customer Card" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md)
+- [Page 30107 "Shpfy Customers"](../../../objects/page/30107.md) · captioned "Shopify Customers" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md)
+- [Page 30113 "Shpfy Order"](../../../objects/page/30113.md) · captioned "Shopify Order" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md)
+- [Page 30115 "Shpfy Orders"](../../../objects/page/30115.md) · captioned "Shopify Orders" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md)
+- [Page 30118 "Shpfy Data Capture List"](../../../objects/page/30118.md) · captioned "Shopify Data Capture List" · on [Table 30114 "Shpfy Data Capture"](../../../objects/table/30114.md)
+- [Page 30119 "Shpfy Log Entries"](../../../objects/page/30119.md) · captioned "Shopify Log Entries" · on [Table 30115 "Shpfy Log Entry"](../../../objects/table/30115.md)
+- [Page 30120 "Shpfy Log Entry Card"](../../../objects/page/30120.md) · captioned "Shopify Log Entry" · on [Table 30115 "Shpfy Log Entry"](../../../objects/table/30115.md)
+- [Page 30126 "Shpfy Products"](../../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../../objects/table/30127.md)
+- [Page 30135 "Shpfy Authentication"](../../../objects/page/30135.md) · captioned "Waiting for a response - do not close this page"
+- [Page 30156 "Shpfy Companies"](../../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md)
+- [Page 30157 "Shpfy Company Card"](../../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

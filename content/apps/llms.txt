@@ -1,0 +1,104 @@
+# BC Observatory: first-party apps
+
+> Microsoft's first-party apps in BCApps (src/Apps/W1), one page each: their objects by type, the Learn hubs that document them,
+> the videos and posts that name their objects, roadmap features with the app's name in the title. Frontmatter:
+> schemas/frontmatter.app.json. Related pages per app: data/links/related.json.
+
+96 apps:
+
+- [AgentDesignExperience](agentdesignexperience.md): 58 objects, 0 Learn hubs, system copilot
+- [AgentSamples](agentsamples.md): 9 objects, 0 Learn hubs, system copilot
+- [AMCBanking365Fundamentals](amcbanking365fundamentals.md): 56 objects, 3 Learn hubs, system finance
+- [APIReportsFinance](apireportsfinance.md): 22 objects, 0 Learn hubs, system integration
+- [APIV1](apiv1.md): 89 objects, 0 Learn hubs, system integration
+- [APIV2](apiv2.md): 194 objects, 0 Learn hubs, system integration
+- [AuditFileExport](auditfileexport.md): 48 objects, 4 Learn hubs, system finance
+- [AutomaticAccountCodes](automaticaccountcodes.md): 46 objects, 0 Learn hubs, system finance
+- [BankAccRecWithAI](bankaccrecwithai.md): 12 objects, 0 Learn hubs, system finance
+- [BankDeposits](bankdeposits.md): 52 objects, 2 Learn hubs, system finance
+- [BasicExperience](basicexperience.md): 77 objects, 0 Learn hubs, system administration
+- [ClientAddIns](clientaddins.md): 1 objects, 0 Learn hubs, system administration
+- [CompanyHub](companyhub.md): 54 objects, 3 Learn hubs, system integration
+- [ConnectivityApps](connectivityapps.md): 28 objects, 4 Learn hubs, system development
+- [ContosoCoffeeDemoDataset](contosocoffeedemodataset.md): 359 objects, 5 Learn hubs, system platform
+- [CreateProductInformationWithCopilot](createproductinformationwithcopilot.md): 18 objects, 0 Learn hubs, system inventory
+- [CrossEnvironmentIntercompany](crossenvironmentintercompany.md): 21 objects, 0 Learn hubs, system finance
+- [DataArchive](dataarchive.md): 15 objects, 1 Learn hubs, system administration
+- [DataCorrectionFA](datacorrectionfa.md): 15 objects, 0 Learn hubs, system fixed-assets
+- [DataSearch](datasearch.md): 18 objects, 0 Learn hubs, system platform
+- [DynamicsGPHistoricalData](dynamicsgphistoricaldata.md): 65 objects, 0 Learn hubs, system administration
+- [DynamicsGPHistorySmartLists](dynamicsgphistorysmartlists.md): 12 objects, 0 Learn hubs, system administration
+- [DynamicsSLHistoricalData](dynamicsslhistoricaldata.md): 69 objects, 0 Learn hubs, system administration
+- [EDocument](edocument.md): 389 objects, 5 Learn hubs, system integration
+- [Email - Current User Connector](email-current-user-connector.md): 4 objects, 1 Learn hubs, system platform
+- [Email - Microsoft 365 Connector](email-microsoft-365-connector.md): 5 objects, 1 Learn hubs, system platform
+- [Email - Outlook REST API](email-outlook-rest-api.md): 18 objects, 1 Learn hubs, system platform
+- [Email - SMTP API](email-smtp-api.md): 16 objects, 0 Learn hubs, system platform
+- [Email - SMTP Connector](email-smtp-connector.md): 21 objects, 1 Learn hubs, system platform
+- [EmailLogging](emaillogging.md): 53 objects, 1 Learn hubs, system crm
+- [EnforcedDigitalVouchers](enforceddigitalvouchers.md): 39 objects, 1 Learn hubs, system integration
+- [ErrorMessagesWithRecommendations](errormessageswithrecommendations.md): 13 objects, 0 Learn hubs, system platform
+- [ESGStatisticalAccountsDemoTool](esgstatisticalaccountsdemotool.md): 7 objects, 0 Learn hubs, system development
+- [EssentialBusinessHeadlines](essentialbusinessheadlines.md): 27 objects, 1 Learn hubs, system platform
+- [EU3PartyTradePurchase](eu3partytradepurchase.md): 25 objects, 0 Learn hubs, system finance
+- [ExcelReports](excelreports.md): 70 objects, 8 Learn hubs, system finance
+- [ExciseTaxes](excisetaxes.md): 46 objects, 2 Learn hubs, system finance
+- [ExpenseAgent](expenseagent.md): 382 objects, 6 Learn hubs, system copilot
+- [ExpenseWithholdingTax](expensewithholdingtax.md): 11 objects, 0 Learn hubs, system development
+- [External File Storage - Azure Blob Service Connector](external-file-storage-azure-blob-service-connector.md): 13 objects, 0 Learn hubs, system platform
+- [External File Storage - Azure File Service Connector](external-file-storage-azure-file-service-connector.md): 12 objects, 0 Learn hubs, system platform
+- [External File Storage - SFTP Connector](external-file-storage-sftp-connector.md): 12 objects, 0 Learn hubs, system platform
+- [External File Storage - SharePoint Connector](external-file-storage-sharepoint-connector.md): 16 objects, 0 Learn hubs, system platform
+- [External Storage - Document Attachments](external-storage-document-attachments.md): 10 objects, 0 Learn hubs, system platform
+- [ExternalEvents](externalevents.md): 8 objects, 0 Learn hubs, system integration
+- [FieldServiceIntegration](fieldserviceintegration.md): 81 objects, 0 Learn hubs, system integration
+- [HybridAPI](hybridapi.md): 6 objects, 0 Learn hubs, system administration
+- [HybridBaseDeployment](hybridbasedeployment.md): 107 objects, 5 Learn hubs, system administration
+- [HybridBC](hybridbc.md): 2 objects, 0 Learn hubs, system administration
+- [HybridBC14](hybridbc14.md): 164 objects, 0 Learn hubs, system administration
+- [HybridBC14HistoricalData](hybridbc14historicaldata.md): 14 objects, 0 Learn hubs, system administration
+- [HybridBCLast](hybridbclast.md): 20 objects, 0 Learn hubs, system administration
+- [HybridGP](hybridgp.md): 146 objects, 1 Learn hubs, system administration
+- [HybridSL](hybridsl.md): 143 objects, 0 Learn hubs, system administration
+- [ImageAnalysis](imageanalysis.md): 22 objects, 1 Learn hubs, system administration
+- [INTaxEngine](intaxengine.md): 298 objects, 0 Learn hubs, system finance
+- [Intrastat](intrastat.md): 77 objects, 2 Learn hubs, system inventory
+- [LatePaymentPredictor](latepaymentpredictor.md): 31 objects, 3 Learn hubs, system finance
+- [LibraryNoTransactions](librarynotransactions.md): 1 objects, 0 Learn hubs, system development
+- [MasterDataManagement](masterdatamanagement.md): 55 objects, 1 Learn hubs, system integration
+- [MicrosoftFabricMirroring](microsoftfabricmirroring.md): 35 objects, 0 Learn hubs, system development
+- [MicrosoftUniversalPrint](microsoftuniversalprint.md): 24 objects, 5 Learn hubs, system platform
+- [OnboardingSignals](onboardingsignals.md): 6 objects, 0 Learn hubs, system development
+- [OnPrem Permissions](onprem-permissions.md): 162 objects, 0 Learn hubs, system development
+- [PayablesAgent](payablesagent.md): 75 objects, 1 Learn hubs, system copilot
+- [PaymentPractices](paymentpractices.md): 40 objects, 2 Learn hubs, system finance
+- [PayPalPaymentsStandard](paypalpaymentsstandard.md): 22 objects, 1 Learn hubs, system finance
+- [PEPPOL](peppol.md): 53 objects, 0 Learn hubs, system integration
+- [PlanConfiguration](planconfiguration.md): 2 objects, 0 Learn hubs, system development
+- [PowerBIReports](powerbireports.md): 293 objects, 23 Learn hubs, system reporting
+- [QBMigration](qbmigration.md): 41 objects, 1 Learn hubs, system development
+- [Quality Management](quality-management.md): 218 objects, 4 Learn hubs, system inventory
+- [QuickbooksPayrollFileImport](quickbookspayrollfileimport.md): 1 objects, 0 Learn hubs, system development
+- [RecommendedApps](recommendedapps.md): 9 objects, 2 Learn hubs, system administration
+- [ReviewGLEntries](reviewglentries.md): 29 objects, 1 Learn hubs, system finance
+- [SAF-T](saf-t.md): 54 objects, 0 Learn hubs, system finance
+- [SalesAndInventoryForecast](salesandinventoryforecast.md): 29 objects, 1 Learn hubs, system inventory
+- [SalesLinesSuggestions](saleslinessuggestions.md): 44 objects, 0 Learn hubs, system sales
+- [SalesOrderAgent](salesorderagent.md): 104 objects, 4 Learn hubs, system copilot
+- [SendToEmailPrinter](sendtoemailprinter.md): 18 objects, 5 Learn hubs, system development
+- [ServiceDeclaration](servicedeclaration.md): 97 objects, 1 Learn hubs, system service
+- [Shopify](shopify.md): 514 objects, 4 Learn hubs, system integration
+- [SimplifiedBankStatementImport](simplifiedbankstatementimport.md): 23 objects, 0 Learn hubs, system finance
+- [SmartList](smartlist.md): 47 objects, 0 Learn hubs, system development
+- [StatisticalAccounts](statisticalaccounts.md): 44 objects, 1 Learn hubs, system finance
+- [Subcontracting](subcontracting.md): 188 objects, 0 Learn hubs, system manufacturing
+- [Subscription Billing](subscription-billing.md): 372 objects, 5 Learn hubs, system sales
+- [Sustainability](sustainability.md): 454 objects, 12 Learn hubs, system sustainability
+- [SustainabilityContosoCoffeeDemoDataset](sustainabilitycontosocoffeedemodataset.md): 24 objects, 0 Learn hubs, system development
+- [SustainabilityCopilotSuggestion](sustainabilitycopilotsuggestion.md): 39 objects, 0 Learn hubs, system sustainability
+- [SyncBase](syncbase.md): 3 objects, 0 Learn hubs, system integration
+- [TransactionStorage](transactionstorage.md): 18 objects, 0 Learn hubs, system administration
+- [UKSendRemittanceAdvice](uksendremittanceadvice.md): 4 objects, 0 Learn hubs, system purchasing
+- [VATGroupManagement](vatgroupmanagement.md): 51 objects, 1 Learn hubs, system finance
+- [WithholdingTax](withholdingtax.md): 94 objects, 2 Learn hubs, system finance
+- [WorldPayPaymentsStandard](worldpaypaymentsstandard.md): 3 objects, 0 Learn hubs, system development

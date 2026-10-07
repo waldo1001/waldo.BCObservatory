@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -252,7 +252,34 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1302
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-6299
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-6298
-  objects: []
+  objects:
+    - object/report/107
+    - object/report/108
+    - object/report/111
+    - object/report/112
+    - object/report/113
+    - object/report/114
+    - object/report/115
+    - object/report/119
+    - object/report/121
+    - object/report/129
+    - object/report/209
+    - object/report/708
+    - object/report/713
+    - object/report/718
+    - object/report/813
+    - object/report/1302
+    - object/report/1303
+    - object/report/1304
+    - object/report/1305
+    - object/report/1306
+    - object/report/1307
+    - object/report/1308
+    - object/report/1309
+    - object/report/2501
+    - object/report/4402
+    - object/report/4409
+    - object/report/7313
   features: []
   topics:
     - topic/business-central/business-functionality/sales/sales-analytics
@@ -274,7 +301,7 @@ parent: topic/business-central/business-functionality/sales/sales-analytics
 children: []
 coverage:
   learn: 29
-  code: 0
+  code: 27
   video: 0
   blog: 0
   guideline: 0
@@ -379,6 +406,36 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 107, 108, 111, 112, 113, 114, 115, 119, 121, 129, 209, 708, 713, 718, 813, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 2501, 4402, 4409, 6166, 6168, 6298, 6299, 7313, 8008, 8010, 8011.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 107 "Customer - Order Summary"](../../../../../objects/report/107.md)
+- [Report 108 "Customer - Order Detail"](../../../../../objects/report/108.md)
+- [Report 111 "Customer - Top 10 List"](../../../../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)"
+- [Report 112 "Sales Statistics"](../../../../../objects/report/112.md)
+- [Report 113 "Customer/Item Sales"](../../../../../objects/report/113.md)
+- [Report 114 "Salesperson - Sales Statistics"](../../../../../objects/report/114.md)
+- [Report 115 "Salesperson - Commission"](../../../../../objects/report/115.md)
+- [Report 119 "Customer - Sales List"](../../../../../objects/report/119.md)
+- [Report 121 "Customer - Balance to Date"](../../../../../objects/report/121.md) · captioned "Customer Balance to Date"
+- [Report 129 "Customer - Trial Balance"](../../../../../objects/report/129.md)
+- [Report 209 "Sales Reservation Avail."](../../../../../objects/report/209.md)
+- [Report 708 "Inventory Order Details"](../../../../../objects/report/708.md)
+- [Report 713 "Inventory - Customer Sales"](../../../../../objects/report/713.md) · captioned "Inventory Customer Sales"
+- [Report 718 "Inventory - Sales Back Orders"](../../../../../objects/report/718.md)
+- [Report 813 "Inventory Picking List"](../../../../../objects/report/813.md)
+- [Report 1302 "Standard Sales - Pro Forma Inv"](../../../../../objects/report/1302.md) · captioned "Pro Forma Invoice"
+- [Report 1303 "Standard Sales - Draft Invoice"](../../../../../objects/report/1303.md) · captioned "Draft Invoice"
+- [Report 1304 "Standard Sales - Quote"](../../../../../objects/report/1304.md) · captioned "Sales - Quote"
+- [Report 1305 "Standard Sales - Order Conf."](../../../../../objects/report/1305.md) · captioned "Sales - Confirmation"
+- [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md) · captioned "Sales - Invoice"
+- [Report 1307 "Standard Sales - Credit Memo"](../../../../../objects/report/1307.md) · captioned "Sales - Credit Memo"
+- [Report 1308 "Standard Sales - Shipment"](../../../../../objects/report/1308.md) · captioned "Sales - Shipment"
+- [Report 1309 "Standard Sales - Return Rcpt."](../../../../../objects/report/1309.md) · captioned "Return Receipt"
+- [Report 2501 "Day Book Cust. Ledger Entry"](../../../../../objects/report/2501.md) · captioned "Day Book Customer Ledger Entry"
+- [Report 4402 "EXR Aged Accounts Rec Excel"](../../../../../objects/report/4402.md) · captioned "Aged Accounts Receivable (Excel)"
+- [Report 4409 "EXR Customer Top List"](../../../../../objects/report/4409.md) · captioned "Customer - Top List (Excel)"
+- [Report 7313 "Whse. Shipment Status"](../../../../../objects/report/7313.md) · captioned "Warehouse Shipment Status"
+
+Learn also names 7 objects with no object page: report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

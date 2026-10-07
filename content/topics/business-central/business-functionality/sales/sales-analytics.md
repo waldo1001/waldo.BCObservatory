@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:39.920Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -303,7 +303,71 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
     - https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports
     - https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview
-  objects: []
+  objects:
+    - object/page/516
+    - object/page/555
+    - object/page/556
+    - object/page/557
+    - object/page/558
+    - object/page/5119
+    - object/page/9300
+    - object/page/9301
+    - object/page/9305
+    - object/page/9370
+    - object/page/9371
+    - object/page/9372
+    - object/page/36951
+    - object/page/36983
+    - object/page/36997
+    - object/page/36998
+    - object/page/36999
+    - object/page/37000
+    - object/page/37001
+    - object/page/37002
+    - object/page/37003
+    - object/page/37004
+    - object/page/37005
+    - object/page/37006
+    - object/page/37007
+    - object/page/37008
+    - object/page/37066
+    - object/page/37100
+    - object/page/37101
+    - object/page/37102
+    - object/page/37103
+    - object/page/37104
+    - object/page/37105
+    - object/page/37109
+    - object/page/37114
+    - object/page/37119
+    - object/report/101
+    - object/report/107
+    - object/report/108
+    - object/report/111
+    - object/report/112
+    - object/report/113
+    - object/report/114
+    - object/report/115
+    - object/report/119
+    - object/report/121
+    - object/report/129
+    - object/report/209
+    - object/report/708
+    - object/report/713
+    - object/report/718
+    - object/report/813
+    - object/report/1302
+    - object/report/1303
+    - object/report/1304
+    - object/report/1305
+    - object/report/1306
+    - object/report/1307
+    - object/report/1308
+    - object/report/1309
+    - object/report/2501
+    - object/report/4402
+    - object/report/4409
+    - object/report/7313
   features: []
   topics:
     - topic/business-central/business-functionality/sales
@@ -327,7 +391,7 @@ children:
   - topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed
 coverage:
   learn: 61
-  code: 0
+  code: 64
   video: 1
   blog: 0
   guideline: 0
@@ -452,6 +516,73 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 101, 107, 108, 111, 112, 113, 114, 115, 119, 121, 129, 209, 516, 555, 556, 557, 558, 708, 713, 718, 813, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 2501, 4402, 4409, 5119, 6166, 6168, 6298, 6299, 7313, 8008, 8010, 8011, 9300, 9301, 9305, 9370, 9371, 9372, 36951, 36983, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37066, 37100, 37101, 37102, 37103, 37104, 37105, 37109, 37114, 37119.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 516 "Sales Lines"](../../../../objects/page/516.md) · on [Table 37 "Sales Line"](../../../../objects/table/37.md)
+- [Page 555 "Analysis View Card"](../../../../objects/page/555.md) · on [Table 363 "Analysis View"](../../../../objects/table/363.md)
+- [Page 556 "Analysis View List"](../../../../objects/page/556.md) · captioned "Analysis Views" · on [Table 363 "Analysis View"](../../../../objects/table/363.md)
+- [Page 557 "Analysis View Filter"](../../../../objects/page/557.md) · on [Table 364 "Analysis View Filter"](../../../../objects/table/364.md)
+- [Page 558 "Analysis View Entries"](../../../../objects/page/558.md) · on [Table 365 "Analysis View Entry"](../../../../objects/table/365.md)
+- [Page 5119 "Sales Cycles"](../../../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../../../objects/table/5090.md)
+- [Page 9300 "Sales Quotes"](../../../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9301 "Sales Invoice List"](../../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9305 "Sales Order List"](../../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9370 "Analysis View List Purchase"](../../../../objects/page/9370.md) · captioned "Purchase Analysis Views" · on [Table 7152 "Item Analysis View"](../../../../objects/table/7152.md)
+- [Page 9371 "Analysis View List Sales"](../../../../objects/page/9371.md) · captioned "Sales Analysis Views" · on [Table 7152 "Item Analysis View"](../../../../objects/table/7152.md)
+- [Page 9372 "Analysis View List Inventory"](../../../../objects/page/9372.md) · captioned "Inventory Analysis Views" · on [Table 7152 "Item Analysis View"](../../../../objects/table/7152.md)
+- [Page 36997 "Detailed Cust. Ledger Entries"](../../../../objects/page/36997.md) · captioned "Detailed Cust. Ledger Entries (Power BI)"
+- [Page 36998 "Sales Overview"](../../../../objects/page/36998.md) · captioned "Sales Overview (Power BI)"
+- [Page 36999 "Daily Sales"](../../../../objects/page/36999.md) · captioned "Daily Sales (Power BI)"
+- [Page 37000 "Sales Moving Average"](../../../../objects/page/37000.md) · captioned "Sales Moving Average (Power BI)"
+- [Page 37001 "Sales Moving Annual Total"](../../../../objects/page/37001.md) · captioned "Sales Moving Annual Total (Power BI)"
+- [Page 37002 "Sales Period-Over-Period"](../../../../objects/page/37002.md) · captioned "Sales Period-Over-Period (Power BI)"
+- [Page 37003 "Sales Month-To-Date"](../../../../objects/page/37003.md) · captioned "Sales Month-To-Date (Power BI)"
+- [Page 37004 "Sales by Item"](../../../../objects/page/37004.md) · captioned "Sales by Item (Power BI)"
+- [Page 37005 "Sales by Customer"](../../../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)"
+- [Page 37006 "Sales by Salesperson"](../../../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)"
+- [Page 37007 "Sales Actual vs. Budget Qty."](../../../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)"
+- [Page 37008 "Sales Actual vs. Budget Amt."](../../../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount"
+- [Report 107 "Customer - Order Summary"](../../../../objects/report/107.md)
+- [Report 108 "Customer - Order Detail"](../../../../objects/report/108.md)
+- [Report 111 "Customer - Top 10 List"](../../../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)"
+- [Report 112 "Sales Statistics"](../../../../objects/report/112.md)
+- [Report 113 "Customer/Item Sales"](../../../../objects/report/113.md)
+- [Report 119 "Customer - Sales List"](../../../../objects/report/119.md)
+- [Report 121 "Customer - Balance to Date"](../../../../objects/report/121.md) · captioned "Customer Balance to Date"
+- [Report 129 "Customer - Trial Balance"](../../../../objects/report/129.md)
+- [Report 209 "Sales Reservation Avail."](../../../../objects/report/209.md)
+- [Report 708 "Inventory Order Details"](../../../../objects/report/708.md)
+- [Report 713 "Inventory - Customer Sales"](../../../../objects/report/713.md) · captioned "Inventory Customer Sales"
+- [Report 718 "Inventory - Sales Back Orders"](../../../../objects/report/718.md)
+- [Report 813 "Inventory Picking List"](../../../../objects/report/813.md)
+- [Report 7313 "Whse. Shipment Status"](../../../../objects/report/7313.md) · captioned "Warehouse Shipment Status"
+- [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md) · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 36983 "Customer Retention Overview"](../../../../objects/page/36983.md) · captioned "Customer Retention Overview (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37066 "Sales by Location"](../../../../objects/page/37066.md) · captioned "Sales by Location (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37100 "Sales Demographics"](../../../../objects/page/37100.md) · captioned "Sales Demographics (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37101 "Sales Decomposition"](../../../../objects/page/37101.md) · captioned "Sales Decomposition (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37102 "Key Sales Influencers"](../../../../objects/page/37102.md) · captioned "Key Sales Influencers (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37103 "Opportunity Overview"](../../../../objects/page/37103.md) · captioned "Opportunity Overview (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37104 "Sales Quote Overview"](../../../../objects/page/37104.md) · captioned "Sales Quote Overview (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37105 "Return Order Overview"](../../../../objects/page/37105.md) · captioned "Return Order Overview (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37109 "Sales Forecasting"](../../../../objects/page/37109.md) · captioned "Sales Forecasting (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37114 "Customer Retention History"](../../../../objects/page/37114.md) · captioned "Customer Retention History (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Page 37119 "Sales by Projects"](../../../../objects/page/37119.md) · captioned "Sales by Projects (Power BI)" · via [Power BI Sales app](sales-analytics/power-bi-sales-app.md)
+- [Report 101 "Customer - List"](../../../../objects/report/101.md) · captioned "Customer List" · via [Legacy reports (will be removed)](sales-analytics/legacy-reports-will-be-removed.md)
+- [Report 114 "Salesperson - Sales Statistics"](../../../../objects/report/114.md) · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 115 "Salesperson - Commission"](../../../../objects/report/115.md) · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1302 "Standard Sales - Pro Forma Inv"](../../../../objects/report/1302.md) · captioned "Pro Forma Invoice" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1303 "Standard Sales - Draft Invoice"](../../../../objects/report/1303.md) · captioned "Draft Invoice" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1304 "Standard Sales - Quote"](../../../../objects/report/1304.md) · captioned "Sales - Quote" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1305 "Standard Sales - Order Conf."](../../../../objects/report/1305.md) · captioned "Sales - Confirmation" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1306 "Standard Sales - Invoice"](../../../../objects/report/1306.md) · captioned "Sales - Invoice" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1307 "Standard Sales - Credit Memo"](../../../../objects/report/1307.md) · captioned "Sales - Credit Memo" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1308 "Standard Sales - Shipment"](../../../../objects/report/1308.md) · captioned "Sales - Shipment" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 1309 "Standard Sales - Return Rcpt."](../../../../objects/report/1309.md) · captioned "Return Receipt" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 2501 "Day Book Cust. Ledger Entry"](../../../../objects/report/2501.md) · captioned "Day Book Customer Ledger Entry" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 4402 "EXR Aged Accounts Rec Excel"](../../../../objects/report/4402.md) · captioned "Aged Accounts Receivable (Excel)" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+- [Report 4409 "EXR Customer Top List"](../../../../objects/report/4409.md) · captioned "Customer - Top List (Excel)" · via [Built-in sales reports](sales-analytics/built-in-sales-reports.md)
+
+Learn also names 7 objects with no object page: report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

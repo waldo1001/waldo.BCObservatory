@@ -2,7 +2,7 @@
 id: object/interface/reten-pol-filtering
 type: object
 title: Interface "Reten. Pol. Filtering"
-summary: Interface "Reten. Pol. Filtering" in System Application (System.DataAdministration). 4 public procedures. Present since at least BC28, still in BC30.
+summary: Interface "Reten. Pol. Filtering" in System Application (System.DataAdministration). 4 public procedures. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d187bc9f227c378387c245b08589545069f5f7091fbc4655a9b73e2d66e1b9c0
+  input_hash: 29b57ca160ab8006ad9babd118a58f1651e459d7133f06195b766f13ed2a3e63
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al
     title: src/System Application/App/Retention Policy/src/Apply Retention Policy/RetenPolFiltering.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,9 +45,14 @@ name: Reten. Pol. Filtering
 namespace: System.DataAdministration
 app: System Application
 extends: null
-first_version: "28"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -71,9 +76,9 @@ relations:
 
 # Interface "Reten. Pol. Filtering"
 
-> Interface "Reten. Pol. Filtering" in System Application (System.DataAdministration). 4 public procedures. Present since at least BC28, still in BC30.
+> Interface "Reten. Pol. Filtering" in System Application (System.DataAdministration). 4 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.DataAdministration · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al) · facts from BC29
+System Application · System.DataAdministration · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -82,9 +87,16 @@ System Application · System.DataAdministration · BC28-30 · [source at 1d24dd5
 - `HasReadPermission(TableId: Integer): Boolean`: This method is used to determine whether the implementation has read permission to the table specified in TableId. The permissions depend on both the user and the implementation codeunit. If the combination of user and implementation codeunit do not have read permission to the table, the retention p...
 - `Count(RecordRef: RecordRef): Integer`: This method is to count the records in the table specified in the RecRef. The method is only called when the base code does not have read permission to the table.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Reten. Pol. Filtering")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Reten. Pol. Filtering"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

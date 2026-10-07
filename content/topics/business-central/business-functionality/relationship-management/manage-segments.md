@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.128Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment
     - https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
     - https://learn.microsoft.com/dynamics365/business-central/marketing-segments
-  objects: []
+  objects:
+    - object/page/5091
+    - object/page/5093
   features: []
   topics:
     - topic/business-central/business-functionality/relationship-management
@@ -71,7 +73,7 @@ parent: topic/business-central/business-functionality/relationship-management
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -120,6 +122,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5091, 5093.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5091 "Segment"](../../../../objects/page/5091.md) · on [Table 5076 "Segment Header"](../../../../objects/table/5076.md)
+- [Page 5093 "Segment List"](../../../../objects/page/5093.md) · captioned "Segments" · on [Table 5076 "Segment Header"](../../../../objects/table/5076.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

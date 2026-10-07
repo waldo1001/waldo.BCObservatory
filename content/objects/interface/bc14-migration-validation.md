@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c4afcdf27f3bd64b05f5ae9995662912b06d06a3b9e148c96731ece38bb47060
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al
     title: src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,13 +72,20 @@ relations:
 
 > Interface "BC14 Migration Validation" in HybridBC14 (Microsoft.DataMigration.BC14Reimplementation). 3 public procedures. Introduced in BC29, still in BC30.
 
-HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al) · facts from BC29
+HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `GetDisplayName(): Text[250]`
 - `IsEnabled(): Boolean`: Checks if the validation should run based on current settings.
 - `Execute()`: Executes the validation.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "BC14 Migration Validation")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "BC14 Migration Validation"`
 
 ## Across versions
 

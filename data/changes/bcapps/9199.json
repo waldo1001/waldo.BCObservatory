@@ -39,16 +39,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INTaxBase/app/src/codeunit/TaxBaseSubscribers.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18544",
+        "type": "codeunit",
+        "id": 18544,
+        "name": "Tax Base Subscribers",
+        "app": "INTaxBase",
+        "cc": "in",
+        "page": "codeunit/18544-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INTaxBase"
+  ]
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:04.589Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -314,7 +314,19 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/8900
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9666
+    - object/page/9882
   features: []
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language
@@ -358,7 +370,7 @@ children:
   - topic/dev-itpro/development/programming-in-the-al-language/developing-reports/al-language-reference-reports
 coverage:
   learn: 54
-  code: 0
+  code: 12
   video: 1
   blog: 1
   guideline: 0
@@ -451,6 +463,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 21, 2650, 2750, 2752, 2753, 2754, 8900, 9650, 9652, 9660, 9666, 9882.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 21 "Customer Card"](../../../../objects/page/21.md) · on [Table 18 "Customer"](../../../../objects/table/18.md) · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 2650 "Email Printer Settings"](../../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../../objects/table/2650.md) · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 2750 "Universal Printer Settings"](../../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../../objects/table/2751.md) · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../../../objects/page/2752.md) · captioned "Add Universal Print Printers" · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 2753 "Universal Print Shares List"](../../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../../objects/table/2752.md) · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 2754 "Universal Printer Tray List"](../../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../../objects/table/823.md) · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 8900 "Administrator Main Role Center"](../../../../objects/page/8900.md) · captioned "Administrator Role Center" · via [How users work with reports](developing-reports/how-users-work-with-reports.md)
+- [Page 9650 "Custom Report Layouts"](../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../objects/table/9650.md) · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../objects/table/9651.md) · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 9660 "Report Layouts"](../../../../objects/page/9660.md) · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 9882 "Report Res. Govern. Settings"](../../../../objects/page/9882.md) · captioned "Report Limits and Settings" · via [Formatting report data](developing-reports/formatting-report-data.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

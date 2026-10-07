@@ -59,26 +59,48 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/US/IRSForms/app/src/Printing/IRS1099FormStatementLine.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/10041",
+        "type": "table",
+        "id": 10041,
+        "name": "IRS 1099 Form Statement Line",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "table/10041-us"
       },
       {
         "path": "src/Apps/US/IRSForms/app/src/Setup/IRS1099Upgrade.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10058",
+        "type": "codeunit",
+        "id": 10058,
+        "name": "IRS 1099 Upgrade",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "codeunit/10058-us"
       },
       {
         "path": "src/Apps/US/IRSForms/app/src/Setup/IRSFormsData.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10039",
+        "type": "codeunit",
+        "id": 10039,
+        "name": "IRS Forms Data",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "codeunit/10039-us"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "IRSForms"
+  ]
 }

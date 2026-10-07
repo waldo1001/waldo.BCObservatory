@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:25.430Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-mdx
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-trial
-  objects: []
+  objects:
+    - object/page/2500
+    - object/page/20350
   features: []
   topics:
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
@@ -70,7 +72,7 @@ parent: topic/dev-itpro/administration/understand-business-central-online/enviro
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -116,6 +118,11 @@ A further page covers enhancements to demo environments, such as adding Contoso 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2500, 2502, 20350.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2500 "Extension Management"](../../../../../objects/page/2500.md)
+- [Page 20350 "Connectivity Apps"](../../../../../objects/page/20350.md) · on [Table 20350 "Connectivity App"](../../../../../objects/table/20350.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

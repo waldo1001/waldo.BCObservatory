@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:54.518Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -300,7 +300,10 @@ evidence:
     quote: null
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/8350
+    - object/page/8351
+    - object/page/8359
   features: []
   topics:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c
@@ -326,7 +329,7 @@ children:
   - topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview
 coverage:
   learn: 56
-  code: 0
+  code: 3
   video: 1
   blog: 1
   guideline: 0
@@ -379,6 +382,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8350, 8351, 8359.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8350 "MCP Config List"](../../objects/page/8350.md) · captioned "Model Context Protocol (MCP) Server Configurations" · via [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md)
+- [Page 8351 "MCP Config Card"](../../objects/page/8351.md) · captioned "Model Context Protocol (MCP) Server Configuration" · via [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md)
+- [Page 8359 "MCP Config Warning List"](../../objects/page/8359.md) · captioned "MCP Configuration Warnings" · on [Table 8352 "MCP Config Warning"](../../objects/table/8352.md) · via [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

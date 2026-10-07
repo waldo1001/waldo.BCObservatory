@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:29.578Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities
     - https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging
     - https://learn.microsoft.com/dynamics365/business-central/marketing-how-setup-opportunity-sales-cycles-stages
-  objects: []
+  objects:
+    - object/page/1680
+    - object/page/5076
   features: []
   topics:
     - topic/business-central/business-functionality/relationship-management
@@ -77,7 +79,7 @@ parent: topic/business-central/business-functionality/relationship-management
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -124,6 +126,11 @@ Day-to-day work is described in the pages on creating and processing opportuniti
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1680, 1811, 5076.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1680 "Email Logging Setup"](../../../../objects/page/1680.md) · captioned "Email Logging" · on [Table 1680 "Email Logging Setup"](../../../../objects/table/1680.md)
+- [Page 5076 "Interaction Log Entries"](../../../../objects/page/5076.md) · on [Table 5065 "Interaction Log Entry"](../../../../objects/table/5065.md)
+
+Learn also names 1 object with no object page: page/1811.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:36.159Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -303,7 +303,84 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/al-go/algo-overview
-  objects: []
+  objects:
+    - object/page/16
+    - object/page/21
+    - object/page/22
+    - object/page/25
+    - object/page/26
+    - object/page/27
+    - object/page/31
+    - object/page/119
+    - object/page/143
+    - object/page/144
+    - object/page/456
+    - object/page/457
+    - object/page/458
+    - object/page/459
+    - object/page/460
+    - object/page/461
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/4500
+    - object/page/4503
+    - object/page/4504
+    - object/page/4511
+    - object/page/4512
+    - object/page/6103
+    - object/page/6133
+    - object/page/6316
+    - object/page/6317
+    - object/page/8700
+    - object/page/8705
+    - object/page/8900
+    - object/page/8930
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/9171
+    - object/page/9300
+    - object/page/9301
+    - object/page/9303
+    - object/page/9304
+    - object/page/9305
+    - object/page/9306
+    - object/page/9307
+    - object/page/9309
+    - object/page/9310
+    - object/page/9311
+    - object/page/9511
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9666
+    - object/page/9800
+    - object/page/9802
+    - object/page/9807
+    - object/page/9808
+    - object/page/9816
+    - object/page/9855
+    - object/page/9862
+    - object/page/9865
+    - object/page/9874
+    - object/page/9878
+    - object/page/9882
+    - object/page/9883
   features: []
   topics:
     - topic/dev-itpro/development/get-started
@@ -345,7 +422,7 @@ children:
   - topic/dev-itpro/development/troubleshooting
 coverage:
   learn: 523
-  code: 0
+  code: 77
   video: 1
   blog: 0
   guideline: 0
@@ -500,6 +577,86 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 16, 21, 22, 25, 26, 27, 31, 119, 143, 144, 456, 457, 458, 459, 460, 461, 2650, 2750, 2752, 2753, 2754, 4500, 4503, 4504, 4511, 4512, 6103, 6133, 6316, 6317, 8700, 8705, 8900, 8930, 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030, 9171, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311, 9511, 9650, 9652, 9660, 9666, 9800, 9802, 9807, 9808, 9816, 9830, 9831, 9855, 9862, 9865, 9874, 9878, 9882, 9883, 149000, 149001, 149003, 149004, 149005, 149006, 149007, 149008, 149009.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 16 "Chart of Accounts"](../../objects/page/16.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 21 "Customer Card"](../../objects/page/21.md) · on [Table 18 "Customer"](../../objects/table/18.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 22 "Customer List"](../../objects/page/22.md) · captioned "Customers" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 25 "Customer Ledger Entries"](../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../objects/table/21.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 26 "Vendor Card"](../../objects/page/26.md) · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 27 "Vendor List"](../../objects/page/27.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 31 "Item List"](../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../objects/table/27.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 119 "User Setup"](../../objects/page/119.md) · on [Table 91 "User Setup"](../../objects/table/91.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 143 "Posted Sales Invoices"](../../objects/page/143.md) · on [Table 112 "Sales Invoice Header"](../../objects/table/112.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 144 "Posted Sales Credit Memos"](../../objects/page/144.md) · on [Table 114 "Sales Cr.Memo Header"](../../objects/table/114.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 456 "No. Series"](../../objects/page/456.md) · on [Table 308 "No. Series"](../../objects/table/308.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 457 "No. Series Lines"](../../objects/page/457.md) · on [Table 309 "No. Series Line"](../../objects/table/309.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 458 "No. Series Relationships"](../../objects/page/458.md) · on [Table 310 "No. Series Relationship"](../../objects/table/310.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 459 "Sales & Receivables Setup"](../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../objects/table/311.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 460 "Purchases & Payables Setup"](../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../objects/table/312.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 461 "Inventory Setup"](../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../objects/table/313.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 2650 "Email Printer Settings"](../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../objects/table/2650.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 2750 "Universal Printer Settings"](../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../objects/table/2751.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../objects/page/2752.md) · captioned "Add Universal Print Printers" · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 2753 "Universal Print Shares List"](../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../objects/table/2752.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 2754 "Universal Printer Tray List"](../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../objects/table/823.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 4500 "Current User Email Account"](../../objects/page/4500.md) · on [Table 4508 "Email - Outlook Account"](../../objects/table/4508.md) · via [Extensibility](development/extensibility.md)
+- [Page 4503 "Microsoft 365 Email Account"](../../objects/page/4503.md) · on [Table 4508 "Email - Outlook Account"](../../objects/table/4508.md) · via [Extensibility](development/extensibility.md)
+- [Page 4504 "Microsoft 365 Email Wizard"](../../objects/page/4504.md) · captioned "Set up Microsoft 365 email account" · on [Table 4508 "Email - Outlook Account"](../../objects/table/4508.md) · via [Extensibility](development/extensibility.md)
+- [Page 4511 "SMTP Account Wizard"](../../objects/page/4511.md) · captioned "Set up SMTP Account" · on [Table 4511 "SMTP Account"](../../objects/table/4511.md) · via [Extensibility](development/extensibility.md)
+- [Page 4512 "SMTP Account"](../../objects/page/4512.md) · on [Table 4511 "SMTP Account"](../../objects/table/4511.md) · via [Extensibility](development/extensibility.md)
+- [Page 6103 "E-Document Services"](../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../objects/table/6103.md) · via [Extensibility](development/extensibility.md)
+- [Page 6133 "E-Document Service"](../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../objects/table/6103.md) · via [Extensibility](development/extensibility.md)
+- [Page 6316 "Sustainability Report Power BI"](../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Data analytics and reporting](development/data-analytics-and-reporting.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Data analytics and reporting](development/data-analytics-and-reporting.md)
+- [Page 8700 "Table Information"](../../objects/page/8700.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 8705 "Table Information Card"](../../objects/page/8705.md) · captioned "Index Management" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 8900 "Administrator Main Role Center"](../../objects/page/8900.md) · captioned "Administrator Role Center" · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 8930 "Email View Policy List"](../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../objects/table/8930.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9000 "Whse. WMS Role Center"](../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9004 "Bookkeeper Role Center"](../../objects/page/9004.md) · captioned "Bookkeeper" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9005 "Sales Manager Role Center"](../../objects/page/9005.md) · captioned "Sales Manager" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9006 "Order Processor Role Center"](../../objects/page/9006.md) · captioned "Sales Order Processor" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9007 "Purchasing Agent Role Center"](../../objects/page/9007.md) · captioned "Purchasing Agent" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9009 "Whse. Worker WMS Role Center"](../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9010 "Production Planner Role Center"](../../objects/page/9010.md) · captioned "Manufacturing Manager" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9016 "Service Dispatcher Role Center"](../../objects/page/9016.md) · captioned "Service Manager" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9017 "Service Technician Role Center"](../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9020 "Small Business Owner RC"](../../objects/page/9020.md) · captioned "President - Small Business" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9022 "Business Manager Role Center"](../../objects/page/9022.md) · captioned "Business Manager" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9024 "Security Admin Role Center"](../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../objects/page/9026.md) · captioned "Sales and Relationship Manager" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9027 "Accountant Role Center"](../../objects/page/9027.md) · captioned "Accountant" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9030 "Account Manager Activities"](../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../objects/table/9054.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9171 "Profile List"](../../objects/page/9171.md) · captioned "Profiles (Roles)" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9300 "Sales Quotes"](../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9301 "Sales Invoice List"](../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9303 "Blanket Sales Orders"](../../objects/page/9303.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9304 "Sales Return Order List"](../../objects/page/9304.md) · captioned "Sales Return Orders" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9305 "Sales Order List"](../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9306 "Purchase Quotes"](../../objects/page/9306.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9307 "Purchase Order List"](../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9309 "Purchase Credit Memos"](../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9310 "Blanket Purchase Orders"](../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9311 "Purchase Return Order List"](../../objects/page/9311.md) · captioned "Purchase Return Orders" · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9511 "Database Locks"](../../objects/page/9511.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9800 "Users"](../../objects/page/9800.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9802 "Permission Sets"](../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../objects/table/9009.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9807 "User Card"](../../objects/page/9807.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9808 "User Permission Sets"](../../objects/page/9808.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9816 "Permission Set by User"](../../objects/page/9816.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9855 "Permission Set"](../../objects/page/9855.md) · on [Table 9862 "PermissionSet Buffer"](../../objects/table/9862.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9862 "Expanded Permissions"](../../objects/page/9862.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9865 "Permission Lookup List"](../../objects/page/9865.md) · on [Table 9865 "Permission Lookup Buffer"](../../objects/table/9865.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9874 "Permission Set By Sec. Group"](../../objects/page/9874.md) · captioned "Permission Set by Security Group" · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9878 "Permission Set Lookup List"](../../objects/page/9878.md) · captioned "Permission Set Lookup" · on [Table 9862 "PermissionSet Buffer"](../../objects/table/9862.md) · via [Troubleshooting](development/troubleshooting.md)
+- [Page 9882 "Report Res. Govern. Settings"](../../objects/page/9882.md) · captioned "Report Limits and Settings" · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9883 "Permissions Overview"](../../objects/page/9883.md) · via [Troubleshooting](development/troubleshooting.md)
+
+Learn also names 11 objects with no object page: page/9830, page/9831, page/149000, page/149001, page/149003, page/149004, page/149005, page/149006, page/149007, page/149008, page/149009.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,9 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/finance-currencies
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies
-  objects: []
+  objects:
+    - object/page/5
+    - object/page/118
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -72,7 +74,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 2
   video: 1
   blog: 1
   guideline: 0
@@ -135,6 +137,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5, 118.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5 "Currencies"](../../../../objects/page/5.md) · on [Table 4 "Currency"](../../../../objects/table/4.md)
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

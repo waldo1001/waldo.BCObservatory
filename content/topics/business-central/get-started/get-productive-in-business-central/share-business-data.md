@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:15.382Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
     - https://learn.microsoft.com/dynamics365/business-central/across-share-data-features
     - https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
-  objects: []
+  objects:
+    - object/page/1480
   features: []
   topics:
     - topic/business-central/get-started/get-productive-in-business-central
@@ -68,7 +69,7 @@ parent: topic/business-central/get-started/get-productive-in-business-central
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -111,6 +112,8 @@ The Teams page covers interactive cards and direct page links. The OneDrive page
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1480.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../../objects/table/1480.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

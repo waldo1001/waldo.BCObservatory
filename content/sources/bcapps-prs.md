@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T15:30:42.268Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 21c99c31857d8ddfeb58a61b87f5dbc911c05d2577e71b1d0b5712fbbb861b55
@@ -1002,17 +1002,17 @@ item_count: 957
 footprint:
   systems:
     - id: development
-      weight: 591
+      weight: 573
     - id: finance
-      weight: 367
+      weight: 370
     - id: integration
-      weight: 304
-    - id: manufacturing
-      weight: 160
+      weight: 319
     - id: inventory
-      weight: 158
+      weight: 162
+    - id: manufacturing
+      weight: 159
     - id: sales
-      weight: 133
+      weight: 139
   topics:
     - id: bc30
       weight: 905
@@ -1074,12 +1074,12 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (591) | bc30 (905) | codeunit Gen. Jnl.-Post Line (23) |
-| finance (367) | main (905) | table Expense Report Header (16) |
-| integration (304) | fix (547) | codeunit Item Jnl.-Post Line (13) |
-| manufacturing (160) | feature (320) | page Expense Agent Setup Wizard (13) |
-| inventory (158) | bc29 (52) | table Purchase Line (13) |
-| sales (133) | releases/29.x (52) | codeunit Expense Report Approval Mgmt (11) |
+| development (573) | bc30 (905) | codeunit Gen. Jnl.-Post Line (23) |
+| finance (370) | main (905) | table Expense Report Header (16) |
+| integration (319) | fix (547) | codeunit Item Jnl.-Post Line (13) |
+| inventory (162) | feature (320) | page Expense Agent Setup Wizard (13) |
+| manufacturing (159) | bc29 (52) | table Purchase Line (13) |
+| sales (139) | releases/29.x (52) | codeunit Expense Report Approval Mgmt (11) |
 |  | refactor (42) | page Expense Agent Setup (11) |
 |  | performance (28) | page Expense Report (11) |
 |  | codeunit gen. jnl.-post line (20) | permissionset Expense Agent - Objects (11) |

@@ -2,14 +2,14 @@
 id: object/interface/job-queue-report-runner
 type: object
 title: Interface "Job Queue Report Runner"
-summary: Interface "Job Queue Report Runner" in Base Application (System.Threading). 1 public procedures. Present since at least BC28, still in BC30.
+summary: Interface "Job Queue Report Runner" in Base Application (System.Threading). 1 public procedures. Introduced in BC27, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: null
+  introduced: "27"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bb79a786e75ccb5e82e6fc75c01a448e591e6a6f97ad78edf890367218c59b0e
+  input_hash: bd32f352d3c6d8990f94da40c228af8ae04b2855dfb061b1122b351b5f1d7fc3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueReportRunner.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueReportRunner.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueReportRunner.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,9 +45,10 @@ name: Job Queue Report Runner
 namespace: System.Threading
 app: Base Application
 extends: null
-first_version: "28"
+first_version: "27"
 last_version: "30"
 present_in:
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -71,17 +72,24 @@ relations:
 
 # Interface "Job Queue Report Runner"
 
-> Interface "Job Queue Report Runner" in Base Application (System.Threading). 1 public procedures. Present since at least BC28, still in BC30.
+> Interface "Job Queue Report Runner" in Base Application (System.Threading). 1 public procedures. Introduced in BC27, still in BC30.
 
-Base Application · System.Threading · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueReportRunner.Interface.al) · facts from BC29
+Base Application · System.Threading · BC27-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueReportRunner.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `RunReport(ReportID: Integer; var JobQueueEntry: Record "Job Queue Entry")`
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Job Queue Report Runner")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Job Queue Report Runner"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

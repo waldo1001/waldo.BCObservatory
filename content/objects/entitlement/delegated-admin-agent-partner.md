@@ -2,7 +2,7 @@
 id: object/entitlement/delegated-admin-agent-partner
 type: object
 title: Entitlement "Delegated Admin agent - Partner"
-summary: Entitlement "Delegated Admin agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC28, still in BC30.
+summary: Entitlement "Delegated Admin agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC25, BC26.
 tier: official
 language: en
 tags:
@@ -10,7 +10,7 @@ tags:
   - system application
 versions:
   introduced: null
-  last_changed: null
+  last_changed: "26"
   deprecated: null
 review:
   state: unreviewed
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0a2cffdcc4b8c5426f11ef9dbb97dfdd28ef02d16cec0ca0b7bd864cd566fab4
+  input_hash: 6426d4f61a54fbcd2ebd1473895e6d8bf0767300a4463b5e8b9fefd31a71cb87
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Entitlements/DelegatedAdminagentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Entitlements/DelegatedAdminagentPartner.Entitlement.al
     title: src/System Application/App/Entitlements/DelegatedAdminagentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,13 +45,20 @@ name: Delegated Admin agent - Partner
 namespace: System.Security.AccessControl
 app: System Application
 extends: null
-first_version: "28"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
-changed_in: []
+changed_in:
+  - "25"
+  - "26"
 source_major: "29"
 obsolete: null
 countries: []
@@ -71,13 +78,20 @@ relations:
 
 # Entitlement "Delegated Admin agent - Partner"
 
-> Entitlement "Delegated Admin agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC28, still in BC30.
+> Entitlement "Delegated Admin agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC25, BC26.
 
-System Application · System.Security.AccessControl · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Entitlements/DelegatedAdminagentPartner.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Entitlements/DelegatedAdminagentPartner.Entitlement.al) · facts from BC29
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "entitlement", object_name: "Delegated Admin agent - Partner")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node entitlement "Delegated Admin agent - Partner"`
 
 ## Across versions
 
-- Present in: BC28, BC29, BC30
-- Changed (declaration) in: none
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Changed (declaration) in: BC25, BC26
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

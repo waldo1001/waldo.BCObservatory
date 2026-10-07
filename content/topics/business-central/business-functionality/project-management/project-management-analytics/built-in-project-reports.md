@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:23.066Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,7 +172,25 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1103
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1105
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1106
-  objects: []
+  objects:
+    - object/report/1005
+    - object/report/1006
+    - object/report/1007
+    - object/report/1008
+    - object/report/1009
+    - object/report/1010
+    - object/report/1011
+    - object/report/1012
+    - object/report/1013
+    - object/report/1014
+    - object/report/1015
+    - object/report/1016
+    - object/report/1017
+    - object/report/1101
+    - object/report/1103
+    - object/report/1105
+    - object/report/1106
+    - object/report/1107
   features: []
   topics:
     - topic/business-central/business-functionality/project-management/project-management-analytics
@@ -192,7 +210,7 @@ parent: topic/business-central/business-functionality/project-management/project
 children: []
 coverage:
   learn: 19
-  code: 0
+  code: 18
   video: 0
   blog: 0
   guideline: 0
@@ -274,6 +292,25 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1101, 1103, 1105, 1106, 1107.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 1005 "Job Journal - Test"](../../../../../objects/report/1005.md) · captioned "Project Journal - Test"
+- [Report 1006 "Job - Planning Lines"](../../../../../objects/report/1006.md) · captioned "Project - Planning Lines"
+- [Report 1007 "Job - Transaction Detail"](../../../../../objects/report/1007.md) · captioned "Project Task - Transaction Detail"
+- [Report 1008 "Job Analysis"](../../../../../objects/report/1008.md) · captioned "Project Analysis"
+- [Report 1009 "Job Actual To Budget"](../../../../../objects/report/1009.md) · captioned "Project Actual To Budget"
+- [Report 1010 "Job WIP To G/L"](../../../../../objects/report/1010.md) · captioned "Project WIP To G/L"
+- [Report 1011 "Job Suggested Billing"](../../../../../objects/report/1011.md) · captioned "Project Suggested Billing"
+- [Report 1012 "Jobs per Customer"](../../../../../objects/report/1012.md) · captioned "Projects per Customer"
+- [Report 1013 "Items per Job"](../../../../../objects/report/1013.md) · captioned "Items per Project"
+- [Report 1014 "Jobs per Item"](../../../../../objects/report/1014.md) · captioned "Projects per Item"
+- [Report 1015 "Job Register"](../../../../../objects/report/1015.md) · captioned "Project Register"
+- [Report 1016 "Job Quote"](../../../../../objects/report/1016.md) · captioned "Project Quote"
+- [Report 1017 "Job Task Quote"](../../../../../objects/report/1017.md) · captioned "Project Task Quote"
+- [Report 1101 "Resource - List"](../../../../../objects/report/1101.md)
+- [Report 1103 "Resource Register"](../../../../../objects/report/1103.md)
+- [Report 1105 "Resource Statistics"](../../../../../objects/report/1105.md)
+- [Report 1106 "Resource Usage"](../../../../../objects/report/1106.md) · captioned "Resource Utilization"
+- [Report 1107 "Resource - Cost Breakdown"](../../../../../objects/report/1107.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

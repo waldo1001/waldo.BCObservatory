@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:26.785Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,6 +182,8 @@ Start with the landing page to see the scope, then go to the subtopic that match
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 11207, 11208, 32000000, 32000001, 32000002, 32000004, 32000005, 32000006.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 8 objects with no object page: page/11207, page/11208, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:51.886Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,7 +43,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge
-  objects: []
+  objects:
+    - object/page/9660
+    - object/page/9666
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
@@ -60,7 +62,7 @@ parent: topic/business-central/integrate-with-other-applications/microsoft-offic
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -103,6 +105,9 @@ Start with the add-in page for layout design. Move to the XML mapping page if yo
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9660, 9666.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

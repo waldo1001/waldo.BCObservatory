@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process
     - https://learn.microsoft.com/dynamics365/business-central/sales-order-agent
     - https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup
-  objects: []
+  objects:
+    - object/page/4400
+    - object/page/4410
   features: []
   topics:
     - topic/business-central/copilot-and-agent-capabilities
@@ -82,7 +84,7 @@ parent: topic/business-central/copilot-and-agent-capabilities
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 11
   blog: 1
   guideline: 0
@@ -145,6 +147,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4400, 4410.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4400 "SOA Setup"](../../../objects/page/4400.md) · captioned "Configure Sales Order Agent" · on [Table 4325 "SOA Setup"](../../../objects/table/4325.md)
+- [Page 4410 "SOA Multi Items Availability"](../../../objects/page/4410.md) · captioned "Item Availability" · on [Table 27 "Item"](../../../objects/table/27.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

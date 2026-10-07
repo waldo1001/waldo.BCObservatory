@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:18.438Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon
-  objects: []
+  objects:
+    - object/page/256
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/belgium
@@ -62,7 +63,7 @@ parent: topic/business-central/business-functionality/local-functionality/belgiu
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -111,6 +112,10 @@ Start with the page that matches your task. For bank statement processing, begin
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+
+Learn also names 7 objects with no object page: page/11300, page/2000000, page/2000001, page/2000003, page/2000020, page/2000021, page/2000022.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

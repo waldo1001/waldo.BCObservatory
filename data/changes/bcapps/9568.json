@@ -52,26 +52,48 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Reports/CalculateDepreciationCZF.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/31240",
+        "type": "report",
+        "id": 31240,
+        "name": "Calculate Depreciation CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "report/31240-cz"
       },
       {
         "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FADepreciationBookCZF.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31247",
+        "type": "tableextension",
+        "id": 31247,
+        "name": "FA Depreciation Book CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "tableextension/31247-cz"
       },
       {
         "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FASetupCZF.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31249",
+        "type": "tableextension",
+        "id": 31249,
+        "name": "FA Setup CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "tableextension/31249-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "fixed-assets"
+  ],
+  "apps": [
+    "FixedAssetLocalization"
+  ]
 }

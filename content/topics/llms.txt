@@ -1,7 +1,9 @@
 # BC Observatory: topics
 
 > Topic hubs seeded from the Microsoft Learn TOCs: each hub lists what Learn documents in that section, with links out to Learn.
-> Hub narratives (from member summaries) and cross-links to videos, code and blogs are being added.
+> Hub narratives (from member summaries) and cross-links to videos and blogs are being added. `links.objects` names the AL
+> object pages (content/objects/) whose pages and reports the hub's Learn pages name, by exact id (data/index/docs-objects.json).
+> Related hubs, objects and apps per hub, each with a reason from a closed set: data/links/related.json (`why` lists the set).
 
 605 topics. Roots and their direct subtopics:
 

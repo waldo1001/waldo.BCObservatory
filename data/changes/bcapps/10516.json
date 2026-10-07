@@ -285,8 +285,195 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlBatchCZL.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31025",
+        "type": "tableextension",
+        "id": 31025,
+        "name": "Intrastat Jnl. Batch CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/31025-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlLineCZL.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31026",
+        "type": "tableextension",
+        "id": 31026,
+        "name": "Intrastat Jnl. Line CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/31026-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/InvoicePostBufferCZL.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/11722",
+        "type": "tableextension",
+        "id": 11722,
+        "name": "Invoice Post. Buffer CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/11722-cz"
+      },
+      {
+        "path": "src/Apps/DK/FIK/app/src/Tables/PaymentBuffer.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13621",
+        "type": "tableextension",
+        "id": 13621,
+        "name": "PaymentBuffer",
+        "app": "FIK",
+        "cc": "dk",
+        "page": "tableextension/13621-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/FinanceChargeMemo/OIOUBLIssuedFinChrgMemoHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13643",
+        "type": "tableextension",
+        "id": 13643,
+        "name": "OIOUBL-IssuedFinChrgMemoHeader",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13643-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/Reminder/OIOUBLIssuedReminderHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13638",
+        "type": "tableextension",
+        "id": 13638,
+        "name": "OIOUBL-Issued Reminder Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13638-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesCreditMemo/OIOUBLSalesCrMemoHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13632",
+        "type": "tableextension",
+        "id": 13632,
+        "name": "OIOUBL-Sales Cr.Memo Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13632-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13646",
+        "type": "tableextension",
+        "id": 13646,
+        "name": "OIOUBL-Sales Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13646-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeaderArchive.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13649",
+        "type": "tableextension",
+        "id": 13649,
+        "name": "OIOUBL-Sales Header Archive",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13649-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesInvoiceHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13630",
+        "type": "tableextension",
+        "id": 13630,
+        "name": "OIOUBL-Sales Invoice Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13630-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/ServiceCreditMemo/OIOUBLServiceCrMemoHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13657",
+        "type": "tableextension",
+        "id": 13657,
+        "name": "OIOUBL-Service Cr.Memo Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13657-dk"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/ServiceInvoice/OIOUBLServiceInvoiceHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13655",
+        "type": "tableextension",
+        "id": 13655,
+        "name": "OIOUBL-Service Invoice Header",
+        "app": "OIOUBL",
+        "cc": "dk",
+        "page": "tableextension/13655-dk"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/tableextension/GSTInvoicePosBuffer.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/18244",
+        "type": "tableextension",
+        "id": 18244,
+        "name": "GST Invoice Pos Buffer",
+        "app": "INGST",
+        "cc": "in",
+        "page": "tableextension/18244-in"
+      },
+      {
+        "path": "src/Apps/IT/ServiceDeclarationIT/app/src/ServiceDeclLineIT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/12216",
+        "type": "tableextension",
+        "id": 12216,
+        "name": "Service Decl. Line IT",
+        "app": "ServiceDeclarationIT",
+        "cc": "it",
+        "page": "tableextension/12216-it"
+      },
+      {
+        "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeServiceMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1450",
+        "type": "codeunit",
+        "id": 1450,
+        "name": "MS - Yodlee Service Mgt.",
+        "app": "EnvestnetYodleeBankFeeds",
+        "cc": "ca",
+        "page": "codeunit/1450-ca"
+      },
+      {
+        "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Setup/ElecVATCode.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10687",
+        "type": "tableextension",
+        "id": 10687,
+        "name": "Elec. VAT Code",
+        "app": "ElectronicVATSubmission",
+        "cc": "no",
+        "page": "tableextension/10687-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Master Data Mapping/SAFTVATCode.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10675",
+        "type": "tableextension",
+        "id": 10675,
+        "name": "SAF-T VAT Code",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "tableextension/10675-no"
+      },
       {
         "path": "src/Apps/W1/AutomaticAccountCodes/app/src/Tables/AutoAccInvoicePostBuffer.TableExt.al",
         "status": "modified",
@@ -475,106 +662,31 @@
         "page": "page/1316"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlBatchCZL.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlLineCZL.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/InvoicePostBufferCZL.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/FIK/app/src/Tables/PaymentBuffer.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/FinanceChargeMemo/OIOUBLIssuedFinChrgMemoHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/Reminder/OIOUBLIssuedReminderHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/SalesCreditMemo/OIOUBLSalesCrMemoHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeaderArchive.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesInvoiceHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/ServiceCreditMemo/OIOUBLServiceCrMemoHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/OIOUBL/app/src/ServiceInvoice/OIOUBLServiceInvoiceHeader.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTPayments/src/tableextension/GSTInvoicePosBuffer.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IT/ServiceDeclarationIT/app/src/ServiceDeclLineIT.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeServiceMgt.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Setup/ElecVATCode.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NO/NorwegianSAFT/app/src/Master Data Mapping/SAFTVATCode.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "finance",
-    "development",
+    "sales",
     "integration",
-    "purchasing",
-    "sales"
+    "service",
+    "development",
+    "inventory",
+    "platform",
+    "purchasing"
   ],
   "apps": [
     "AutomaticAccountCodes",
     "Base Application",
     "BasicExperience",
+    "CoreLocalizationPack",
+    "ElectronicVATSubmission",
+    "EnvestnetYodleeBankFeeds",
+    "FIK",
+    "INGST",
     "INTaxEngine",
-    "ImageAnalysis"
+    "ImageAnalysis",
+    "NorwegianSAFT",
+    "OIOUBL",
+    "ServiceDeclarationIT"
   ]
 }

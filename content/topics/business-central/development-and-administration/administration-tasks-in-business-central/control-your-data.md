@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,24 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data
     - https://learn.microsoft.com/dynamics365/business-central/admin-archive-data
     - https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
-  objects: []
+  objects:
+    - object/page/107
+    - object/page/592
+    - object/page/593
+    - object/page/594
+    - object/page/595
+    - object/page/630
+    - object/page/710
+    - object/page/1366
+    - object/page/1367
+    - object/page/1368
+    - object/page/1369
+    - object/page/1752
+    - object/page/3901
+    - object/page/3903
+    - object/page/9035
+    - object/page/9040
+    - object/page/9511
   features: []
   topics:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central
@@ -107,7 +124,7 @@ parent: topic/business-central/development-and-administration/administration-tas
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 17
   video: 2
   blog: 2
   guideline: 0
@@ -181,6 +198,24 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 107, 592, 593, 594, 595, 630, 710, 1366, 1367, 1368, 1369, 1752, 3901, 3903, 9035, 9040, 9511.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 107 "Date Compr. Registers"](../../../../objects/page/107.md) · on [Table 87 "Date Compr. Register"](../../../../objects/table/87.md)
+- [Page 592 "Change Log Setup"](../../../../objects/page/592.md) · on [Table 402 "Change Log Setup"](../../../../objects/table/402.md)
+- [Page 593 "Change Log Setup (Table) List"](../../../../objects/page/593.md)
+- [Page 594 "Change Log Setup (Field) List"](../../../../objects/page/594.md)
+- [Page 595 "Change Log Entries"](../../../../objects/page/595.md) · on [Table 405 "Change Log Entry"](../../../../objects/table/405.md)
+- [Page 630 "Data Archive List"](../../../../objects/page/630.md) · on [Table 600 "Data Archive"](../../../../objects/table/600.md)
+- [Page 710 "Activity Log"](../../../../objects/page/710.md) · on [Table 710 "Activity Log"](../../../../objects/table/710.md)
+- [Page 1366 "Field Monitoring Setup"](../../../../objects/page/1366.md) · on [Table 1366 "Field Monitoring Setup"](../../../../objects/table/1366.md)
+- [Page 1367 "Monitored Field Log Entries"](../../../../objects/page/1367.md) · on [Table 405 "Change Log Entry"](../../../../objects/table/405.md)
+- [Page 1368 "Monitor Field Setup Wizard"](../../../../objects/page/1368.md) · captioned "Field Monitoring Assisted Setup Guide"
+- [Page 1369 "Monitored Fields Worksheet"](../../../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../../../objects/table/404.md)
+- [Page 1752 "Data Classification Wizard"](../../../../objects/page/1752.md) · captioned "Data Classification Assisted Setup Guide" · on [Table 1180 "Data Privacy Entities"](../../../../objects/table/1180.md)
+- [Page 3901 "Retention Policy Setup Card"](../../../../objects/page/3901.md) · captioned "Retention Policy" · on [Table 3901 "Retention Policy Setup"](../../../../objects/table/3901.md)
+- [Page 3903 "Retention Policy Setup List"](../../../../objects/page/3903.md) · captioned "Retention Policies" · on [Table 3901 "Retention Policy Setup"](../../../../objects/table/3901.md)
+- [Page 9035 "Data Administration"](../../../../objects/page/9035.md)
+- [Page 9040 "Data Administration Guide"](../../../../objects/page/9040.md)
+- [Page 9511 "Database Locks"](../../../../objects/page/9511.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

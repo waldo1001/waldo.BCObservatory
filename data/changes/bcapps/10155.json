@@ -186,8 +186,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6914",
+        "type": "codeunit",
+        "id": 6914,
+        "name": "Expense Event Subscriber AT",
+        "app": "ExpenseAgent_AT",
+        "cc": "at",
+        "page": "codeunit/6914-at"
+      },
       {
         "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpAttachBufferHandler.Codeunit.al",
         "status": "modified",
@@ -343,18 +354,13 @@
         "page": "page/6991"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
-    "development"
+    "copilot"
   ],
   "apps": [
-    "ExpenseAgent"
+    "ExpenseAgent",
+    "ExpenseAgent_AT"
   ]
 }

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:55.708Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email
     - https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print
     - https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
-  objects: []
+  objects:
+    - object/page/2616
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/8900
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -68,7 +75,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 7
   video: 0
   blog: 0
   guideline: 0
@@ -113,6 +120,14 @@ Printing in Business Central can go through Universal Print cloud printers, emai
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2616, 2650, 2750, 2752, 2753, 2754, 8900.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2616 "Printer Management"](../../../../objects/page/2616.md)
+- [Page 2650 "Email Printer Settings"](../../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../../objects/table/2650.md)
+- [Page 2750 "Universal Printer Settings"](../../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../../objects/table/2751.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../../../objects/page/2752.md) · captioned "Add Universal Print Printers"
+- [Page 2753 "Universal Print Shares List"](../../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../../objects/table/2752.md)
+- [Page 2754 "Universal Printer Tray List"](../../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../../objects/table/823.md)
+- [Page 8900 "Administrator Main Role Center"](../../../../objects/page/8900.md) · captioned "Administrator Role Center"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -102,7 +102,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
       {
         "path": "src/System Application/App/MCP/Permissions/MCPObjects.PermissionSet.al",
@@ -171,6 +171,17 @@
         "page": "enum/8351"
       },
       {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPBillingConfirmation.Page.al",
+        "status": "added",
+        "key": "page/8377",
+        "type": "page",
+        "id": 8377,
+        "name": "MCP Billing Confirmation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8377"
+      },
+      {
         "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureList.Page.al",
         "status": "modified",
         "key": "page/8368",
@@ -182,13 +193,7 @@
         "page": "page/8368"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPBillingConfirmation.Page.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "development"

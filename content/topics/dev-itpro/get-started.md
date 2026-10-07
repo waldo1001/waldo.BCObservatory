@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:14:33.845Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -299,7 +299,30 @@ evidence:
     quote: null
 links:
   learn: []
-  objects: []
+  objects:
+    - object/page/2500
+    - object/page/5194
+    - object/page/8610
+    - object/page/8613
+    - object/page/8614
+    - object/page/8615
+    - object/page/8620
+    - object/page/8632
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
   features: []
   topics:
     - topic/dev-itpro/get-started/learn
@@ -323,7 +346,7 @@ children:
   - topic/dev-itpro/get-started/help-and-support
 coverage:
   learn: 65
-  code: 0
+  code: 23
   video: 0
   blog: 0
   guideline: 0
@@ -390,6 +413,32 @@ Frequently asked questions collects practical answers on AppSource publishing, A
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2500, 2502, 5194, 8610, 8613, 8614, 8615, 8620, 8632, 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2500 "Extension Management"](../../objects/page/2500.md) · via [Sell](get-started/sell.md)
+- [Page 5194 "Contoso Demo Tool"](../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../objects/table/5161.md) · via [Learn](get-started/learn.md)
+- [Page 8610 "Config. Questionnaire"](../../objects/page/8610.md) · captioned "Configuration Questionnaire" · on [Table 8610 "Config. Questionnaire"](../../objects/table/8610.md) · via [Sell](get-started/sell.md)
+- [Page 8613 "Config. Question Areas"](../../objects/page/8613.md) · on [Table 8611 "Config. Question Area"](../../objects/table/8611.md) · via [Sell](get-started/sell.md)
+- [Page 8614 "Config. Package Card"](../../objects/page/8614.md) · on [Table 8623 "Config. Package"](../../objects/table/8623.md) · via [Sell](get-started/sell.md)
+- [Page 8615 "Config. Packages"](../../objects/page/8615.md) · captioned "Configuration Packages" · on [Table 8623 "Config. Package"](../../objects/table/8623.md) · via [Sell](get-started/sell.md)
+- [Page 8620 "Config. Template List"](../../objects/page/8620.md) · captioned "Configuration Templates" · on [Table 8618 "Config. Template Header"](../../objects/table/8618.md) · via [Sell](get-started/sell.md)
+- [Page 8632 "Config. Worksheet"](../../objects/page/8632.md) · captioned "Configuration Worksheet" · on [Table 8622 "Config. Line"](../../objects/table/8622.md) · via [Sell](get-started/sell.md)
+- [Page 9000 "Whse. WMS Role Center"](../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System" · via [Learn](get-started/learn.md)
+- [Page 9004 "Bookkeeper Role Center"](../../objects/page/9004.md) · captioned "Bookkeeper" · via [Learn](get-started/learn.md)
+- [Page 9005 "Sales Manager Role Center"](../../objects/page/9005.md) · captioned "Sales Manager" · via [Learn](get-started/learn.md)
+- [Page 9006 "Order Processor Role Center"](../../objects/page/9006.md) · captioned "Sales Order Processor" · via [Learn](get-started/learn.md)
+- [Page 9007 "Purchasing Agent Role Center"](../../objects/page/9007.md) · captioned "Purchasing Agent" · via [Learn](get-started/learn.md)
+- [Page 9009 "Whse. Worker WMS Role Center"](../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System" · via [Learn](get-started/learn.md)
+- [Page 9010 "Production Planner Role Center"](../../objects/page/9010.md) · captioned "Manufacturing Manager" · via [Learn](get-started/learn.md)
+- [Page 9016 "Service Dispatcher Role Center"](../../objects/page/9016.md) · captioned "Service Manager" · via [Learn](get-started/learn.md)
+- [Page 9017 "Service Technician Role Center"](../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service" · via [Learn](get-started/learn.md)
+- [Page 9020 "Small Business Owner RC"](../../objects/page/9020.md) · captioned "President - Small Business" · via [Learn](get-started/learn.md)
+- [Page 9022 "Business Manager Role Center"](../../objects/page/9022.md) · captioned "Business Manager" · via [Learn](get-started/learn.md)
+- [Page 9024 "Security Admin Role Center"](../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions" · via [Learn](get-started/learn.md)
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../objects/page/9026.md) · captioned "Sales and Relationship Manager" · via [Learn](get-started/learn.md)
+- [Page 9027 "Accountant Role Center"](../../objects/page/9027.md) · captioned "Accountant" · via [Learn](get-started/learn.md)
+- [Page 9030 "Account Manager Activities"](../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../objects/table/9054.md) · via [Learn](get-started/learn.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

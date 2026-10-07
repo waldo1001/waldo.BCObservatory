@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:34.712Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview
     - https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps
     - https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi
-  objects: []
+  objects:
+    - object/page/6316
+    - object/page/6317
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
@@ -101,7 +104,7 @@ parent: topic/business-central/integrate-with-other-applications/microsoft-power
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -151,6 +154,10 @@ For everyday use, one page explains the Business Central apps in Power BI for CR
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 6316, 6317, 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 6316 "Sustainability Report Power BI"](../../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)"
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)"
+- [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

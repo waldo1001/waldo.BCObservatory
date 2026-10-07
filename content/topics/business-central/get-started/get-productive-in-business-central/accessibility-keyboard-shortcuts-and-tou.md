@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:11.552Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,22 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet
     - https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts
     - https://learn.microsoft.com/dynamics365/business-central/touch-gestures
-  objects: []
+  objects:
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
   features: []
   topics:
     - topic/business-central/get-started/get-productive-in-business-central
@@ -68,7 +83,7 @@ parent: topic/business-central/get-started/get-productive-in-business-central
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 15
   video: 0
   blog: 0
   guideline: 0
@@ -123,6 +138,22 @@ Start with Assistive features for an overview of keyboard shortcuts, tab navigat
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9000 "Whse. WMS Role Center"](../../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9020 "Small Business Owner RC"](../../../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../../objects/table/9054.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

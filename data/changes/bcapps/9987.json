@@ -80,46 +80,95 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/FeaturePaymentMgtFR.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10831",
+        "type": "codeunit",
+        "id": 10831,
+        "name": "Feature - PaymentMgt FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10831-fr"
       },
       {
         "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentDataMigrationFR.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10844",
+        "type": "codeunit",
+        "id": 10844,
+        "name": "Payment Data Migration FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10844-fr"
       },
       {
         "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgTagPaymentManagementFR.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10841",
+        "type": "codeunit",
+        "id": 10841,
+        "name": "Upg. Tag Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10841-fr"
       },
       {
         "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgradePaymentManagementFR.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10840",
+        "type": "codeunit",
+        "id": 10840,
+        "name": "Upgrade Payment Management FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "codeunit/10840-fr"
       },
       {
         "path": "src/Apps/GB/GovTalk/app/src/Codeunits/FeatureGovTalk.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10526",
+        "type": "codeunit",
+        "id": 10526,
+        "name": "Feature - GovTalk",
+        "app": "GovTalk",
+        "cc": "gb",
+        "page": "codeunit/10526-gb"
       },
       {
         "path": "src/Apps/GB/ReportsGB/app/src/Codeunits/FeatureReportsGB.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10580",
+        "type": "codeunit",
+        "id": 10580,
+        "name": "Feature - Reports GB",
+        "app": "ReportsGB",
+        "cc": "gb",
+        "page": "codeunit/10580-gb"
       },
       {
         "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/FeatureReverseChargeVAT.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10553",
+        "type": "codeunit",
+        "id": 10553,
+        "name": "Feature - Reverse Charge VAT",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "codeunit/10553-gb"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "GovTalk",
+    "PaymentManagementFR",
+    "ReportsGB",
+    "ReverseChargeVAT"
+  ]
 }

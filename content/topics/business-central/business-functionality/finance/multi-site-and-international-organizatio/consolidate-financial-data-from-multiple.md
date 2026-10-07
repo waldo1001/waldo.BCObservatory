@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,13 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting
     - https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting-setup
-  objects: []
+  objects:
+    - object/page/240
+    - object/page/1827
+    - object/report/16
+    - object/report/17
+    - object/report/18
+    - object/report/4410
   features: []
   topics:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
@@ -56,7 +62,7 @@ parent: topic/business-central/business-functionality/finance/multi-site-and-int
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 6
   video: 2
   blog: 0
   guideline: 0
@@ -110,6 +116,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 16, 17, 18, 240, 1826, 1827, 4410.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 240 "Business Unit List"](../../../../../objects/page/240.md) · captioned "Business Units" · on [Table 220 "Business Unit"](../../../../../objects/table/220.md)
+- [Page 1827 "Business Units Setup Subform"](../../../../../objects/page/1827.md) · on [Table 1827 "Business Unit Setup"](../../../../../objects/table/1827.md)
+- [Report 16 "G/L Consolidation Eliminations"](../../../../../objects/report/16.md)
+- [Report 17 "Consolidated Trial Balance"](../../../../../objects/report/17.md)
+- [Report 18 "Consolidated Trial Balance (4)"](../../../../../objects/report/18.md)
+- [Report 4410 "EXR Consolidated Trial Balance"](../../../../../objects/report/4410.md) · captioned "Consolidated Trial Balance (Excel)"
+
+Learn also names 1 object with no object page: page/1826.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

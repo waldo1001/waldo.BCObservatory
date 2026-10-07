@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:33.077Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups
-  objects: []
+  objects:
+    - object/page/9001
+    - object/page/9027
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/sweden
@@ -70,7 +72,7 @@ parent: topic/business-central/business-functionality/local-functionality/sweden
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -119,6 +121,11 @@ Start with the automatic account codes page to understand the posting behavior a
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9001, 9027, 11206, 11207, 11208, 11212.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9001 "Accounting Manager Role Center"](../../../../../objects/page/9001.md) · captioned "Accounting Manager"
+- [Page 9027 "Accountant Role Center"](../../../../../objects/page/9027.md) · captioned "Accountant"
+
+Learn also names 4 objects with no object page: page/11206, page/11207, page/11208, page/11212.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

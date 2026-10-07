@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -306,7 +306,34 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/SRB/purchases
     - https://learn.microsoft.com/dynamics365/business-central/SRB/recurring-billing
     - https://learn.microsoft.com/dynamics365/business-central/SRB/welcome
-  objects: []
+  objects:
+    - object/page/314
+    - object/page/8004
+    - object/page/8005
+    - object/page/8014
+    - object/page/8015
+    - object/page/8025
+    - object/page/8031
+    - object/page/8035
+    - object/page/8036
+    - object/page/8037
+    - object/page/8038
+    - object/page/8041
+    - object/page/8042
+    - object/page/8043
+    - object/page/8044
+    - object/page/8052
+    - object/page/8053
+    - object/page/8057
+    - object/page/8059
+    - object/page/8060
+    - object/page/8067
+    - object/page/8070
+    - object/page/8071
+    - object/page/8079
+    - object/page/8084
+    - object/page/8096
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/business-functionality/sales
@@ -333,7 +360,7 @@ children:
   - topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage
 coverage:
   learn: 47
-  code: 0
+  code: 27
   video: 2
   blog: 0
   guideline: 0
@@ -419,6 +446,34 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 314, 8004, 8005, 8014, 8015, 8025, 8031, 8035, 8036, 8037, 8038, 8041, 8042, 8043, 8044, 8052, 8053, 8057, 8059, 8060, 8067, 8070, 8071, 8079, 8084, 8096, 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8004 "Planned Service Commitments"](../../../../objects/page/8004.md) · captioned "Planned Subscription Lines" · on [Table 8002 "Planned Subscription Line"](../../../../objects/table/8002.md)
+- [Page 8014 "Service Commitments List"](../../../../objects/page/8014.md) · captioned "Subscription Lines" · on [Table 8059 "Subscription Line"](../../../../objects/table/8059.md)
+- [Page 8015 "Sales Service Commitments List"](../../../../objects/page/8015.md) · captioned "Sales Subscription Lines" · on [Table 8068 "Sales Subscription Line"](../../../../objects/table/8068.md)
+- [Page 8053 "Customer Contracts"](../../../../objects/page/8053.md) · captioned "Customer Subscription Contracts" · on [Table 8052 "Customer Subscription Contract"](../../../../objects/table/8052.md)
+- [Page 8057 "Service Commitment Packages"](../../../../objects/page/8057.md) · captioned "Subscription Packages" · on [Table 8055 "Subscription Package"](../../../../objects/table/8055.md)
+- [Page 8067 "Recurring Billing"](../../../../objects/page/8067.md) · on [Table 8061 "Billing Line"](../../../../objects/table/8061.md)
+- [Page 8071 "Vendor Contracts"](../../../../objects/page/8071.md) · captioned "Vendor Subscription Contracts" · on [Table 8063 "Vendor Subscription Contract"](../../../../objects/table/8063.md)
+- [Page 8084 "Sub. Billing Role Center"](../../../../objects/page/8084.md) · captioned "Subscription Billing"
+- [Page 314 "General Posting Setup"](../../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8005 "Contract Renewal"](../../../../objects/page/8005.md) · captioned "Subscription Contract Renewal" · on [Table 8001 "Sub. Contract Renewal Line"](../../../../objects/table/8001.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8025 "Contract Price Update"](../../../../objects/page/8025.md) · captioned "Subscription Contract Price Update" · on [Table 8004 "Sub. Contr. Price Update Line"](../../../../objects/table/8004.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8031 "Connect Subscription To SO"](../../../../objects/page/8031.md) · captioned "Connect Supplier Subscription to Subscription" · on [Table 8016 "Usage Data Supp. Subscription"](../../../../objects/table/8016.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8035 "Usage Data Billings"](../../../../objects/page/8035.md) · on [Table 8006 "Usage Data Billing"](../../../../objects/table/8006.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8036 "Usage Data Blobs"](../../../../objects/page/8036.md) · on [Table 8011 "Usage Data Blob"](../../../../objects/table/8011.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8037 "Usage Data Customers"](../../../../objects/page/8037.md) · captioned "Usage Data Supp. Customers" · on [Table 8012 "Usage Data Supp. Customer"](../../../../objects/table/8012.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8038 "Usage Data Generic Import"](../../../../objects/page/8038.md) · on [Table 8018 "Usage Data Generic Import"](../../../../objects/table/8018.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8041 "Usage Data Imports"](../../../../objects/page/8041.md) · on [Table 8013 "Usage Data Import"](../../../../objects/table/8013.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8042 "Usage Data Subscriptions"](../../../../objects/page/8042.md) · on [Table 8016 "Usage Data Supp. Subscription"](../../../../objects/table/8016.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8043 "Usage Data Supp. References"](../../../../objects/page/8043.md) · captioned "Usage Data Supplier References" · on [Table 8015 "Usage Data Supplier Reference"](../../../../objects/table/8015.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8044 "Usage Data Suppliers"](../../../../objects/page/8044.md) · on [Table 8014 "Usage Data Supplier"](../../../../objects/table/8014.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 8052 "Customer Contract"](../../../../objects/page/8052.md) · captioned "Customer Subscription Contract" · on [Table 8052 "Customer Subscription Contract"](../../../../objects/table/8052.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8059 "Service Objects"](../../../../objects/page/8059.md) · captioned "Subscriptions" · on [Table 8057 "Subscription Header"](../../../../objects/table/8057.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8060 "Service Object"](../../../../objects/page/8060.md) · captioned "Subscription" · on [Table 8057 "Subscription Header"](../../../../objects/table/8057.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8070 "Vendor Contract"](../../../../objects/page/8070.md) · captioned "Vendor Subscription Contract" · on [Table 8063 "Vendor Subscription Contract"](../../../../objects/table/8063.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8079 "Customer Contract Deferrals"](../../../../objects/page/8079.md) · captioned "Customer Subscription Contract Deferrals" · on [Table 8066 "Cust. Sub. Contract Deferral"](../../../../objects/table/8066.md) · via [Contracts](subscription-billing/contracts.md)
+- [Page 8096 "Usage Data Billing Metadata"](../../../../objects/page/8096.md) · on [Table 8021 "Usage Data Billing Metadata"](../../../../objects/table/8021.md) · via [Bill subscriptions based on usage](subscription-billing/bill-subscriptions-based-on-usage.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md) · via [Subscription billing analytics](subscription-billing/subscription-billing-analytics.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

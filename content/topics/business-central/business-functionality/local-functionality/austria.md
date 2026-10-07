@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:05.121Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,7 +113,12 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/austria-local-functionality
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports
-  objects: []
+  objects:
+    - object/page/5260
+    - object/page/5264
+    - object/page/5266
+    - object/page/5267
+    - object/page/5270
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -136,7 +141,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/austria/general
 coverage:
   learn: 13
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -196,6 +201,14 @@ Start with the subtopic that matches your task. For delivery reminders, set up t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5260, 5261, 5264, 5266, 5267, 5270, 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5260 "G/L Account Mapping"](../../../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../../../objects/table/5260.md) · via [General](austria/general.md)
+- [Page 5264 "Audit File Export Setup"](../../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../../objects/table/5264.md) · via [General](austria/general.md)
+- [Page 5266 "Audit File Export Documents"](../../../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md) · via [General](austria/general.md)
+- [Page 5267 "Audit File Export Doc. Card"](../../../../objects/page/5267.md) · captioned "Audit File Export Document" · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md) · via [General](austria/general.md)
+- [Page 5270 "Audit File Export Format Setup"](../../../../objects/page/5270.md) · on [Table 5268 "Audit File Export Format Setup"](../../../../objects/table/5268.md) · via [General](austria/general.md)
+
+Learn also names 8 objects with no object page: page/5261, page/5005270, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005280.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

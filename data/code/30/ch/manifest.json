@@ -6,14 +6,17 @@
   "country": "ch",
   "layer": "overlay",
   "branch": "main",
-  "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
   "build": "30.0.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "Onprem Permissions DACH",
+    "HybridBCLast_CH",
+    "SwissQRBill"
   ],
-  "files": 428,
+  "files": 485,
   "parse_errors": 0,
-  "added": 223,
+  "added": 279,
   "replaced": 118,
   "absent": [],
   "chain": [
@@ -21,20 +24,20 @@
     "dach",
     "ch"
   ],
-  "extractor": "2",
+  "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 341,
+  "objects": 397,
   "by_type": {
-    "codeunit": 52,
-    "enum": 4,
+    "codeunit": 61,
+    "enum": 10,
     "enumextension": 2,
-    "page": 59,
-    "pageextension": 10,
-    "permissionset": 4,
-    "permissionsetextension": 2,
-    "report": 87,
-    "table": 107,
-    "tableextension": 9,
+    "page": 69,
+    "pageextension": 19,
+    "permissionset": 5,
+    "permissionsetextension": 10,
+    "report": 88,
+    "table": 113,
+    "tableextension": 15,
     "xmlport": 5
   },
   "shards": [

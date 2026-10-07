@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.861Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/SRB/sales/dealing-with-currencies
     - https://learn.microsoft.com/dynamics365/business-central/SRB/sales/price-calculation
     - https://learn.microsoft.com/dynamics365/business-central/SRB/sales/sales-service-commitments
-  objects: []
+  objects:
+    - object/page/8059
   features: []
   topics:
     - topic/business-central/business-functionality/sales/subscription-billing
@@ -70,7 +71,7 @@ parent: topic/business-central/business-functionality/sales/subscription-billing
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -114,6 +115,8 @@ Start with "Sales with subscription lines" to understand the main flow. Then rea
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8059.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8059 "Service Objects"](../../../../../objects/page/8059.md) · captioned "Subscriptions" · on [Table 8057 "Subscription Header"](../../../../../objects/table/8057.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

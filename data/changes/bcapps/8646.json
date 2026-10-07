@@ -120,33 +120,61 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/SE/PeppolSE/App/src/Install/PEPPOL30SEInitialize.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/37453",
+        "type": "codeunit",
+        "id": 37453,
+        "name": "PEPPOL30 SE Initialize",
+        "app": "PeppolSE",
+        "cc": "se",
+        "page": "codeunit/37453-se"
       },
       {
         "path": "src/Apps/SE/PeppolSE/App/src/PEPPOL30FormatSE.EnumExt.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "enumextension/37450",
+        "type": "enumextension",
+        "id": 37450,
+        "name": "PEPPOL 3.0 Format SE",
+        "app": "PeppolSE",
+        "cc": "se",
+        "page": "enumextension/37450-se"
       },
       {
         "path": "src/Apps/SE/PeppolSE/App/src/PEPPOL30SEPartyInfo.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/37451",
+        "type": "codeunit",
+        "id": 37451,
+        "name": "PEPPOL30 SE Party Info",
+        "app": "PeppolSE",
+        "cc": "se",
+        "page": "codeunit/37451-se"
       },
       {
         "path": "src/Apps/SE/PeppolSE/App/src/PEPPOL30SESubscribers.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/37452",
+        "type": "codeunit",
+        "id": 37452,
+        "name": "PEPPOL30 SE Subscribers",
+        "app": "PeppolSE",
+        "cc": "se",
+        "page": "codeunit/37452-se"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": [],
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "PeppolSE"
+  ],
   "issues": [
     {
       "number": 7723,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:09.606Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license
     - https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup
     - https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow
-  objects: []
+  objects:
+    - object/page/1978
+    - object/page/9061
   features: []
   topics:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
@@ -70,7 +72,7 @@ parent: topic/business-central/development-and-administration/administration-tas
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -113,6 +115,9 @@ Start with the overview page, then follow the setup page to configure the enviro
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1978, 9061.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1978 "MS 365 License Setup Wizard"](../../../../../objects/page/1978.md) · captioned "Set up access with Microsoft 365 licenses"
+- [Page 9061 "Plan Configuration List"](../../../../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../../../../objects/table/9017.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

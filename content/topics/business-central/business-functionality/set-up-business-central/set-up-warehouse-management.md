@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:16.682Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,48 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-put-away-templates
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees
-  objects: []
+  objects:
+    - object/page/15
+    - object/page/5703
+    - object/page/5775
+    - object/page/6774
+    - object/page/6775
+    - object/page/6776
+    - object/page/7300
+    - object/page/7301
+    - object/page/7302
+    - object/page/7303
+    - object/page/7304
+    - object/page/7305
+    - object/page/7306
+    - object/page/7307
+    - object/page/7308
+    - object/page/7312
+    - object/page/7313
+    - object/page/7314
+    - object/page/7321
+    - object/page/7322
+    - object/page/7323
+    - object/page/7325
+    - object/page/7328
+    - object/page/7329
+    - object/page/7344
+    - object/page/7346
+    - object/page/7347
+    - object/page/7348
+    - object/page/7352
+    - object/page/7353
+    - object/page/7366
+    - object/page/7367
+    - object/page/7368
+    - object/page/7369
+    - object/page/7370
+    - object/page/7371
+    - object/page/7372
+    - object/page/7373
+    - object/page/7374
+    - object/page/9813
+    - object/page/9814
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -161,7 +202,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 15
-  code: 0
+  code: 41
   video: 1
   blog: 1
   guideline: 0
@@ -265,6 +306,50 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 15, 5703, 5775, 6774, 6775, 6776, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7312, 7313, 7314, 7321, 7322, 7323, 7325, 7328, 7329, 7344, 7346, 7347, 7348, 7352, 7353, 7366, 7367, 7368, 7369, 7370, 7371, 7372, 7373, 7374, 7379, 9813, 9814.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 15 "Location List"](../../../../objects/page/15.md) · captioned "Locations" · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5703 "Location Card"](../../../../objects/page/5703.md) · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5775 "Warehouse Setup"](../../../../objects/page/5775.md) · on [Table 5769 "Warehouse Setup"](../../../../objects/table/5769.md)
+- [Page 6774 "Invt. Document Lines"](../../../../objects/page/6774.md) · on [Table 5851 "Invt. Document Line"](../../../../objects/table/5851.md)
+- [Page 6775 "Invt. Document List"](../../../../objects/page/6775.md) · on [Table 5850 "Invt. Document Header"](../../../../objects/table/5850.md)
+- [Page 6776 "Invt. Document Statistics"](../../../../objects/page/6776.md) · captioned "Item Document Statistics" · on [Table 5850 "Invt. Document Header"](../../../../objects/table/5850.md)
+- [Page 7300 "Zones"](../../../../objects/page/7300.md) · on [Table 7300 "Zone"](../../../../objects/table/7300.md)
+- [Page 7301 "Zone List"](../../../../objects/page/7301.md) · on [Table 7300 "Zone"](../../../../objects/table/7300.md)
+- [Page 7302 "Bins"](../../../../objects/page/7302.md) · on [Table 7354 "Bin"](../../../../objects/table/7354.md)
+- [Page 7303 "Bin List"](../../../../objects/page/7303.md) · on [Table 7354 "Bin"](../../../../objects/table/7354.md)
+- [Page 7304 "Bin Content"](../../../../objects/page/7304.md) · on [Table 7302 "Bin Content"](../../../../objects/table/7302.md)
+- [Page 7305 "Bin Contents List"](../../../../objects/page/7305.md) · on [Table 7302 "Bin Content"](../../../../objects/table/7302.md)
+- [Page 7306 "Bin Types"](../../../../objects/page/7306.md) · on [Table 7303 "Bin Type"](../../../../objects/table/7303.md)
+- [Page 7307 "Bin Type List"](../../../../objects/page/7307.md) · on [Table 7303 "Bin Type"](../../../../objects/table/7303.md)
+- [Page 7308 "Warehouse Classes"](../../../../objects/page/7308.md) · on [Table 7304 "Warehouse Class"](../../../../objects/table/7304.md)
+- [Page 7312 "Put-away Template"](../../../../objects/page/7312.md) · on [Table 7307 "Put-away Template Header"](../../../../objects/table/7307.md)
+- [Page 7313 "Put-away Template Subform"](../../../../objects/page/7313.md) · captioned "Lines" · on [Table 7308 "Put-away Template Line"](../../../../objects/table/7308.md)
+- [Page 7314 "Put-away Template List"](../../../../objects/page/7314.md) · captioned "Put-away Templates" · on [Table 7307 "Put-away Template Header"](../../../../objects/table/7307.md)
+- [Page 7321 "Whse. Journal Templates"](../../../../objects/page/7321.md) · captioned "Warehouse Journal Templates" · on [Table 7309 "Warehouse Journal Template"](../../../../objects/table/7309.md)
+- [Page 7322 "Whse. Journal Template List"](../../../../objects/page/7322.md) · on [Table 7309 "Warehouse Journal Template"](../../../../objects/table/7309.md)
+- [Page 7323 "Whse. Journal Batches"](../../../../objects/page/7323.md) · on [Table 7310 "Warehouse Journal Batch"](../../../../objects/table/7310.md)
+- [Page 7325 "Warehouse Registers"](../../../../objects/page/7325.md) · on [Table 7313 "Warehouse Register"](../../../../objects/table/7313.md)
+- [Page 7328 "Warehouse Employees"](../../../../objects/page/7328.md) · on [Table 7301 "Warehouse Employee"](../../../../objects/table/7301.md)
+- [Page 7329 "Whse. Journal Batches List"](../../../../objects/page/7329.md) · on [Table 7310 "Warehouse Journal Batch"](../../../../objects/table/7310.md)
+- [Page 7344 "Whse. Worksheet Names"](../../../../objects/page/7344.md) · on [Table 7327 "Whse. Worksheet Name"](../../../../objects/table/7327.md)
+- [Page 7346 "Worksheet Names List"](../../../../objects/page/7346.md) · on [Table 7327 "Whse. Worksheet Name"](../../../../objects/table/7327.md)
+- [Page 7347 "Locations with Warehouse List"](../../../../objects/page/7347.md) · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 7348 "Warehouse Employee List"](../../../../objects/page/7348.md) · on [Table 7301 "Warehouse Employee"](../../../../objects/table/7301.md)
+- [Page 7352 "Put-away Worksheet"](../../../../objects/page/7352.md) · captioned "Put-away Worksheets" · on [Table 7326 "Whse. Worksheet Line"](../../../../objects/table/7326.md)
+- [Page 7353 "Whse. Worksheet Templates"](../../../../objects/page/7353.md) · captioned "Warehouse Worksheet Templates" · on [Table 7328 "Whse. Worksheet Template"](../../../../objects/table/7328.md)
+- [Page 7366 "Whse. Worksheet Template List"](../../../../objects/page/7366.md) · on [Table 7328 "Whse. Worksheet Template"](../../../../objects/table/7328.md)
+- [Page 7367 "Bin Templates"](../../../../objects/page/7367.md) · on [Table 7335 "Bin Template"](../../../../objects/table/7335.md)
+- [Page 7368 "Bin Creation Wksh. Templ. List"](../../../../objects/page/7368.md) · on [Table 7336 "Bin Creation Wksh. Template"](../../../../objects/table/7336.md)
+- [Page 7369 "Bin Creation Wksh. Names"](../../../../objects/page/7369.md) · on [Table 7337 "Bin Creation Wksh. Name"](../../../../objects/table/7337.md)
+- [Page 7370 "Bin Creation Wksh. Templates"](../../../../objects/page/7370.md) · captioned "Bin Creation Worksheet Templates" · on [Table 7336 "Bin Creation Wksh. Template"](../../../../objects/table/7336.md)
+- [Page 7371 "Bin Content Creation Worksheet"](../../../../objects/page/7371.md) · on [Table 7338 "Bin Creation Worksheet Line"](../../../../objects/table/7338.md)
+- [Page 7372 "Bin Creation Worksheet"](../../../../objects/page/7372.md) · on [Table 7338 "Bin Creation Worksheet Line"](../../../../objects/table/7338.md)
+- [Page 7373 "Bin Creation Wksh. Name List"](../../../../objects/page/7373.md) · on [Table 7337 "Bin Creation Wksh. Name"](../../../../objects/table/7337.md)
+- [Page 7374 "Bin Contents"](../../../../objects/page/7374.md) · on [Table 7302 "Bin Content"](../../../../objects/table/7302.md)
+- [Page 9813 "Devices"](../../../../objects/page/9813.md)
+- [Page 9814 "Device Card"](../../../../objects/page/9814.md)
+
+Learn also names 1 object with no object page: page/7379.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

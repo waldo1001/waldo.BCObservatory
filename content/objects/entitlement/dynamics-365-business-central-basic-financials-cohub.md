@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2647ad084cdf605bca96f74d56f384df9e594676c0737b548208b8c08cab355d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al
     title: src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,14 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Basic Financials COHUB" in CompanyHub (Mirosoft.Integration.CompanyHub). Introduced in BC29, still in BC30.
 
-CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al) · facts from BC29
+CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al) · facts from BC29
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "entitlement", object_name: "Dynamics 365 Business Central Basic Financials COHUB")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node entitlement "Dynamics 365 Business Central Basic Financials COHUB"`
 
 ## Across versions
 

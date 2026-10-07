@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:49.452Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-restrict-backdated-cost-postings
     - https://learn.microsoft.com/dynamics365/business-central/finance-adjust-reconcile-inventory-cost-job-queue
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-work-with-inventory-periods
-  objects: []
+  objects:
+    - object/page/461
+    - object/page/5828
+    - object/page/9297
   features: []
   topics:
     - topic/business-central/business-functionality/finance/manage-inventory-costs
@@ -78,7 +81,7 @@ parent: topic/business-central/business-functionality/finance/manage-inventory-c
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -123,6 +126,10 @@ To start, read "Reconcile inventory costs with the general ledger" for the core 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 461, 5828, 9297.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 461 "Inventory Setup"](../../../../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../../../../objects/table/313.md)
+- [Page 5828 "Inventory Periods"](../../../../../objects/page/5828.md) · on [Table 5814 "Inventory Period"](../../../../../objects/table/5814.md)
+- [Page 9297 "Inventory - G/L Recon Matrix"](../../../../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../../../../objects/table/367.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

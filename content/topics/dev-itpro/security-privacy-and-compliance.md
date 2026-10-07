@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:33.251Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -196,7 +196,31 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/PrivacyFAQ
-  objects: []
+  objects:
+    - object/page/119
+    - object/page/592
+    - object/page/593
+    - object/page/594
+    - object/page/595
+    - object/page/710
+    - object/page/774
+    - object/page/1366
+    - object/page/1367
+    - object/page/1368
+    - object/page/1369
+    - object/page/6300
+    - object/page/6301
+    - object/page/6302
+    - object/page/8930
+    - object/page/9061
+    - object/page/9062
+    - object/page/9069
+    - object/page/9800
+    - object/page/9807
+    - object/page/9808
+    - object/page/9816
+    - object/page/9818
+    - object/page/9874
   features: []
   topics:
     - topic/dev-itpro/security-privacy-and-compliance/security
@@ -216,7 +240,7 @@ children:
   - topic/dev-itpro/security-privacy-and-compliance/auditing
 coverage:
   learn: 25
-  code: 0
+  code: 24
   video: 0
   blog: 0
   guideline: 0
@@ -290,6 +314,33 @@ Start with the Compliance Overview for an index of compliance topics such as cer
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 119, 592, 593, 594, 595, 710, 774, 1366, 1367, 1368, 1369, 6300, 6301, 6302, 8930, 9061, 9062, 9069, 9173, 9800, 9807, 9808, 9816, 9818, 9830, 9831, 9838, 9874.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 119 "User Setup"](../../objects/page/119.md) · on [Table 91 "User Setup"](../../objects/table/91.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 592 "Change Log Setup"](../../objects/page/592.md) · on [Table 402 "Change Log Setup"](../../objects/table/402.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 593 "Change Log Setup (Table) List"](../../objects/page/593.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 594 "Change Log Setup (Field) List"](../../objects/page/594.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 595 "Change Log Entries"](../../objects/page/595.md) · on [Table 405 "Change Log Entry"](../../objects/table/405.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 710 "Activity Log"](../../objects/page/710.md) · on [Table 710 "Activity Log"](../../objects/table/710.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 774 "User Details"](../../objects/page/774.md) · captioned "Users" · on [Table 774 "User Details"](../../objects/table/774.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 1366 "Field Monitoring Setup"](../../objects/page/1366.md) · on [Table 1366 "Field Monitoring Setup"](../../objects/table/1366.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 1367 "Monitored Field Log Entries"](../../objects/page/1367.md) · on [Table 405 "Change Log Entry"](../../objects/table/405.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 1368 "Monitor Field Setup Wizard"](../../objects/page/1368.md) · captioned "Field Monitoring Assisted Setup Guide" · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 1369 "Monitored Fields Worksheet"](../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../objects/table/404.md) · via [Auditing](security-privacy-and-compliance/auditing.md)
+- [Page 6300 "Azure AD App Setup Wizard"](../../objects/page/6300.md) · captioned "Set Up Microsoft Entra ID" · via [Security](security-privacy-and-compliance/security.md)
+- [Page 6301 "Azure AD App Setup Part"](../../objects/page/6301.md) · captioned "<Microsoft Entra application Setup Part>" · on [Table 6300 "Azure AD App Setup"](../../objects/table/6300.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 6302 "Azure AD Access Dialog"](../../objects/page/6302.md) · captioned "Microsoft Entra service permissions" · via [Security](security-privacy-and-compliance/security.md)
+- [Page 8930 "Email View Policy List"](../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../objects/table/8930.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9061 "Plan Configuration List"](../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../objects/table/9017.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9062 "User Security Activities"](../../objects/page/9062.md) · on [Table 9062 "User Security Status"](../../objects/table/9062.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9069 "Plan Configuration Card"](../../objects/page/9069.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../objects/table/9017.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9800 "Users"](../../objects/page/9800.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9807 "User Card"](../../objects/page/9807.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9808 "User Permission Sets"](../../objects/page/9808.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9816 "Permission Set by User"](../../objects/page/9816.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9818 "User Security Status List"](../../objects/page/9818.md) · captioned "User Security Status" · on [Table 9062 "User Security Status"](../../objects/table/9062.md) · via [Security](security-privacy-and-compliance/security.md)
+- [Page 9874 "Permission Set By Sec. Group"](../../objects/page/9874.md) · captioned "Permission Set by Security Group" · via [Security](security-privacy-and-compliance/security.md)
+
+Learn also names 4 objects with no object page: page/9173, page/9830, page/9831, page/9838.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     - https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts
     - https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
-  objects: []
+  objects:
+    - object/page/5109
+    - object/page/5110
   features: []
   topics:
     - topic/business-central/business-functionality/relationship-management
@@ -91,7 +93,7 @@ parent: topic/business-central/business-functionality/relationship-management
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -145,6 +147,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5109, 5110.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5109 "Profile Questionnaires"](../../../../objects/page/5109.md) · captioned "Questionnaire Setup" · on [Table 5087 "Profile Questionnaire Header"](../../../../objects/table/5087.md)
+- [Page 5110 "Profile Questionnaire Setup"](../../../../objects/page/5110.md) · on [Table 5088 "Profile Questionnaire Line"](../../../../objects/table/5088.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

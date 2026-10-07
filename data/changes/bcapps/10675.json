@@ -360,8 +360,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13915",
+        "type": "tableextension",
+        "id": 13915,
+        "name": "E-Document Service DE",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "tableextension/13915-de"
+      },
       {
         "path": "src/Apps/W1/EDocument/App/src/Logging/EDocumentLog.Table.al",
         "status": "modified",
@@ -860,11 +871,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.TableExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/NA/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -872,15 +878,18 @@
     ]
   },
   "systems": [
-    "development",
     "sales",
     "purchasing",
     "integration",
+    "finance",
+    "copilot",
+    "development",
     "sustainability"
   ],
   "apps": [
     "Base Application",
     "EDocument",
+    "EDocumentDE",
     "ExpenseAgent",
     "SalesOrderAgent",
     "Shopify",

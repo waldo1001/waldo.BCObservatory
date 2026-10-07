@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:44.116Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits
     - https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts
-  objects: []
+  objects:
+    - object/page/256
+    - object/page/389
+    - object/page/1205
+    - object/page/1206
+    - object/page/1209
+    - object/page/1692
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/united-states
@@ -62,7 +68,7 @@ parent: topic/business-central/business-functionality/local-functionality/united
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 6
   video: 0
   blog: 0
   guideline: 0
@@ -128,6 +134,15 @@ This section collects three pages on banking tasks under the United States local
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256, 389, 1205, 1206, 1209, 1692, 10120, 10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130, 10131, 10133, 10134, 10140, 10141, 10143, 10144, 10146, 10147, 10148, 10810, 10811, 36646.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 389 "Bank Account Statement List"](../../../../../objects/page/389.md) · on [Table 275 "Bank Account Statement"](../../../../../objects/table/275.md)
+- [Page 1205 "Credit Transfer Registers"](../../../../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../../../../objects/table/1205.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../../../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../../../../objects/table/1206.md)
+- [Page 1209 "Credit Trans Re-export History"](../../../../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../../../../objects/table/1209.md)
+- [Page 1692 "Bank Deposits"](../../../../../objects/page/1692.md) · on [Table 1690 "Bank Deposit Header"](../../../../../objects/table/1690.md)
+
+Learn also names 24 objects with no object page: page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10810, page/10811, page/36646.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

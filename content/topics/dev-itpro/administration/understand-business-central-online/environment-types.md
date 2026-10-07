@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,7 +72,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/test-environment
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
-  objects: []
+  objects:
+    - object/page/2500
+    - object/page/20350
   features: []
   topics:
     - topic/dev-itpro/administration/understand-business-central-online
@@ -91,7 +93,7 @@ children:
   - topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments
 coverage:
   learn: 7
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -140,6 +142,11 @@ The Demo environments subtopic goes further on demos. It compares an MDX demo en
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2500, 2502, 20350.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2500 "Extension Management"](../../../../objects/page/2500.md) · via [Demo environments](environment-types/demo-environments.md)
+- [Page 20350 "Connectivity Apps"](../../../../objects/page/20350.md) · on [Table 20350 "Connectivity App"](../../../../objects/table/20350.md) · via [Demo environments](environment-types/demo-environments.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

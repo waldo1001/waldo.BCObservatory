@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,106 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations
     - https://learn.microsoft.com/dynamics365/business-central/inventory-how-use-item-cross-refs
     - https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-BOMs
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/31
+    - object/page/32
+    - object/page/35
+    - object/page/157
+    - object/page/342
+    - object/page/346
+    - object/page/353
+    - object/page/491
+    - object/page/492
+    - object/page/499
+    - object/page/500
+    - object/page/501
+    - object/page/504
+    - object/page/515
+    - object/page/516
+    - object/page/908
+    - object/page/909
+    - object/page/925
+    - object/page/926
+    - object/page/1378
+    - object/page/1383
+    - object/page/1384
+    - object/page/1872
+    - object/page/1873
+    - object/page/5119
+    - object/page/5401
+    - object/page/5404
+    - object/page/5414
+    - object/page/5415
+    - object/page/5416
+    - object/page/5417
+    - object/page/5530
+    - object/page/5716
+    - object/page/5717
+    - object/page/5718
+    - object/page/5719
+    - object/page/5720
+    - object/page/5730
+    - object/page/5733
+    - object/page/5839
+    - object/page/5871
+    - object/page/9091
+    - object/page/9231
+    - object/page/9300
+    - object/page/9301
+    - object/page/9305
+    - object/page/36951
+    - object/page/37022
+    - object/page/37023
+    - object/page/37024
+    - object/page/37025
+    - object/page/37026
+    - object/page/37027
+    - object/page/37028
+    - object/page/37029
+    - object/page/37030
+    - object/page/37031
+    - object/page/37032
+    - object/page/37056
+    - object/page/37057
+    - object/page/37058
+    - object/page/37064
+    - object/page/37065
+    - object/page/37110
+    - object/page/37111
+    - object/page/99000896
+    - object/page/99000902
+    - object/report/704
+    - object/report/705
+    - object/report/706
+    - object/report/707
+    - object/report/708
+    - object/report/709
+    - object/report/711
+    - object/report/713
+    - object/report/714
+    - object/report/716
+    - object/report/718
+    - object/report/719
+    - object/report/720
+    - object/report/723
+    - object/report/813
+    - object/report/1001
+    - object/report/5701
+    - object/report/5806
+    - object/report/5807
+    - object/report/5808
+    - object/report/5809
+    - object/report/6625
+    - object/report/6626
+    - object/report/6627
+    - object/report/6628
+    - object/report/7150
+    - object/report/7151
+    - object/report/7313
+    - object/report/7319
+    - object/report/7320
+    - object/report/99001048
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -348,7 +447,7 @@ children:
   - topic/business-central/business-functionality/inventory/inventory-analytics
 coverage:
   learn: 75
-  code: 0
+  code: 99
   video: 1
   blog: 2
   guideline: 0
@@ -527,6 +626,108 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30, 31, 32, 35, 157, 342, 346, 353, 491, 492, 499, 500, 501, 504, 515, 516, 704, 705, 706, 707, 708, 709, 711, 713, 714, 716, 718, 719, 720, 723, 813, 908, 909, 925, 926, 1001, 1378, 1383, 1384, 1872, 1873, 5119, 5390, 5401, 5404, 5414, 5415, 5416, 5417, 5530, 5540, 5701, 5716, 5717, 5718, 5719, 5720, 5730, 5733, 5806, 5807, 5808, 5809, 5839, 5871, 6625, 6626, 6627, 6628, 7150, 7151, 7313, 7319, 7320, 9091, 9231, 9300, 9301, 9305, 36951, 37022, 37023, 37024, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37056, 37057, 37058, 37064, 37065, 37110, 37111, 99000896, 99000902, 99001048, 990003804.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30 "Item Card"](../../../objects/page/30.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 31 "Item List"](../../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 32 "Item Lookup"](../../../objects/page/32.md) · captioned "Items" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 35 "Item Translations"](../../../objects/page/35.md) · on [Table 30 "Item Translation"](../../../objects/table/30.md)
+- [Page 157 "Item Availability by Periods"](../../../objects/page/157.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 342 "Check Availability"](../../../objects/page/342.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 346 "Item Picture"](../../../objects/page/346.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 353 "Item Availability Lines"](../../../objects/page/353.md) · captioned "Lines" · on [Table 925 "Item Availability Buffer"](../../../objects/table/925.md)
+- [Page 491 "Items by Location"](../../../objects/page/491.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 492 "Item Availability by Location"](../../../objects/page/492.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 499 "Available - Sales Lines"](../../../objects/page/499.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md)
+- [Page 500 "Available - Requisition Lines"](../../../objects/page/500.md) · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 501 "Available - Purchase Lines"](../../../objects/page/501.md) · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
+- [Page 504 "Available - Item Ledg. Entries"](../../../objects/page/504.md) · on [Table 32 "Item Ledger Entry"](../../../objects/table/32.md)
+- [Page 515 "Item Avail. by Location Lines"](../../../objects/page/515.md) · captioned "Lines" · on [Table 14 "Location"](../../../objects/table/14.md)
+- [Page 908 "Assembly Availability"](../../../objects/page/908.md) · on [Table 900 "Assembly Header"](../../../objects/table/900.md)
+- [Page 909 "Assembly Line Avail."](../../../objects/page/909.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../../objects/table/901.md)
+- [Page 925 "Available - Assembly Headers"](../../../objects/page/925.md) · on [Table 900 "Assembly Header"](../../../objects/table/900.md)
+- [Page 926 "Available - Assembly Lines"](../../../objects/page/926.md) · on [Table 901 "Assembly Line"](../../../objects/table/901.md)
+- [Page 1378 "Select Item Templ. List"](../../../objects/page/1378.md) · captioned "Select a template for a new item" · on [Table 1382 "Item Templ."](../../../objects/table/1382.md)
+- [Page 1383 "Item Templ. List"](../../../objects/page/1383.md) · captioned "Item Templates" · on [Table 1382 "Item Templ."](../../../objects/table/1382.md)
+- [Page 1384 "Item Templ. Card"](../../../objects/page/1384.md) · captioned "Item Template" · on [Table 1382 "Item Templ."](../../../objects/table/1382.md)
+- [Page 1872 "Item Availability Check"](../../../objects/page/1872.md) · captioned "Availability Check" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 1873 "Item Availability Check Det."](../../../objects/page/1873.md) · captioned "Details" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 5401 "Item Variants"](../../../objects/page/5401.md) · on [Table 5401 "Item Variant"](../../../objects/table/5401.md)
+- [Page 5404 "Item Units of Measure"](../../../objects/page/5404.md) · on [Table 5404 "Item Unit of Measure"](../../../objects/table/5404.md)
+- [Page 5414 "Item Availability by Variant"](../../../objects/page/5414.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 5415 "Item Avail. by Variant Lines"](../../../objects/page/5415.md) · captioned "Lines" · on [Table 5401 "Item Variant"](../../../objects/table/5401.md)
+- [Page 5416 "Item Availability by UOM"](../../../objects/page/5416.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 5417 "Item Avail. by UOM Lines"](../../../objects/page/5417.md) · captioned "Lines" · on [Table 5404 "Item Unit of Measure"](../../../objects/table/5404.md)
+- [Page 5530 "Item Availability by Event"](../../../objects/page/5530.md) · on [Table 5531 "Inventory Page Data"](../../../objects/table/5531.md)
+- [Page 5716 "Item Substitution Entry"](../../../objects/page/5716.md) · on [Table 5715 "Item Substitution"](../../../objects/table/5715.md)
+- [Page 5717 "Condition Entry"](../../../objects/page/5717.md) · captioned "Condition" · on [Table 5716 "Substitution Condition"](../../../objects/table/5716.md)
+- [Page 5718 "Item Substitution Entries"](../../../objects/page/5718.md) · on [Table 5715 "Item Substitution"](../../../objects/table/5715.md)
+- [Page 5719 "Sub. Conditions"](../../../objects/page/5719.md) · on [Table 5716 "Substitution Condition"](../../../objects/table/5716.md)
+- [Page 5720 "Item Substitutions"](../../../objects/page/5720.md) · on [Table 5715 "Item Substitution"](../../../objects/table/5715.md)
+- [Page 5730 "Item Categories"](../../../objects/page/5730.md) · on [Table 5722 "Item Category"](../../../objects/table/5722.md)
+- [Page 5733 "Item Category Card"](../../../objects/page/5733.md) · on [Table 5722 "Item Category"](../../../objects/table/5722.md)
+- [Page 5839 "Modify Marketing Text"](../../../objects/page/5839.md) · captioned "Edit Marketing Text"
+- [Page 5871 "Item Availability by BOM Level"](../../../objects/page/5871.md) · on [Table 5870 "BOM Buffer"](../../../objects/table/5870.md)
+- [Page 9091 "Item Planning FactBox"](../../../objects/page/9091.md) · captioned "Item Details - Planning" · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 9231 "Items by Location Matrix"](../../../objects/page/9231.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 99000896 "Available - Transfer Lines"](../../../objects/page/99000896.md) · on [Table 5741 "Transfer Line"](../../../objects/table/5741.md)
+- [Page 99000902 "Item Availability Line List"](../../../objects/page/99000902.md) · on [Table 99000832 "Item Availability Line"](../../../objects/table/99000832.md)
+- [Page 516 "Sales Lines"](../../../objects/page/516.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 5119 "Sales Cycles"](../../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../../objects/table/5090.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 9300 "Sales Quotes"](../../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 9301 "Sales Invoice List"](../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 9305 "Sales Order List"](../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37022 "Inventory Overview"](../../../objects/page/37022.md) · captioned "Inventory Overview (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37023 "Inventory by Item"](../../../objects/page/37023.md) · captioned "Inventory by Item (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37024 "Inventory by Location"](../../../objects/page/37024.md) · captioned "Inventory by Location (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37025 "Purchase and Sales Quantity"](../../../objects/page/37025.md) · captioned "Purchase and Sales Quantity (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37026 "Item Availability"](../../../objects/page/37026.md) · captioned "Item Availability (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37027 "Gross Requirement"](../../../objects/page/37027.md) · captioned "Gross Requirement (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37028 "Scheduled Receipt"](../../../objects/page/37028.md) · captioned "Scheduled Receipt (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37029 "Inventory by Lot"](../../../objects/page/37029.md) · captioned "Inventory by Lot (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37030 "Inventory by Serial No."](../../../objects/page/37030.md) · captioned "Inventory by Serial No. (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37031 "PowerBI Bin Contents"](../../../objects/page/37031.md) · captioned "Bin Contents (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37032 "Bin Contents by Item Tracking"](../../../objects/page/37032.md) · captioned "Bin Contents by Item Tracking (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37056 "Inventory Valuation Overview"](../../../objects/page/37056.md) · captioned "Inventory Valuation Overview (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37057 "Inventory Valuation by Item"](../../../objects/page/37057.md) · captioned "Inventory Valuation by Item (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37058 "Inventory Valuation by Loc."](../../../objects/page/37058.md) · captioned "Inventory Valuation by Location (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37064 "Inventory Report"](../../../objects/page/37064.md) · captioned "Inventory Report (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37065 "Inventory Valuation Report"](../../../objects/page/37065.md) · captioned "Inventory Valuation Report (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37110 "Inventory Forecasting"](../../../objects/page/37110.md) · captioned "Inventory Forecasting (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Page 37111 "PowerBI ABC Analysis"](../../../objects/page/37111.md) · captioned "ABC Analysis (Power BI)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 704 "Inventory - Transaction Detail"](../../../objects/report/704.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 705 "Inventory Availability"](../../../objects/report/705.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 706 "Status"](../../../objects/report/706.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 707 "Inventory - Availability Plan"](../../../objects/report/707.md) · captioned "Inventory - Availability Plan (Obsolete)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 708 "Inventory Order Details"](../../../objects/report/708.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 709 "Inventory Purchase Orders"](../../../objects/report/709.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 711 "Inventory - Top 10 List"](../../../objects/report/711.md) · captioned "Inventory Top 10 List" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 713 "Inventory - Customer Sales"](../../../objects/report/713.md) · captioned "Inventory Customer Sales" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 714 "Inventory - Vendor Purchases"](../../../objects/report/714.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 716 "Inventory Cost and Price List"](../../../objects/report/716.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 718 "Inventory - Sales Back Orders"](../../../objects/report/718.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 719 "Inv. Availability Plan"](../../../objects/report/719.md) · captioned "Inventory - Availability Plan (Excel)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 720 "Item/Vendor Catalog"](../../../objects/report/720.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 723 "Item - ABC Analysis"](../../../objects/report/723.md) · captioned "Item - ABC Analysis (Excel)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 813 "Inventory Picking List"](../../../objects/report/813.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 1001 "Inventory Valuation"](../../../objects/report/1001.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 5701 "Item Substitutions"](../../../objects/report/5701.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 5806 "Item Charges - Specification"](../../../objects/report/5806.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 5807 "Item Age Composition - Qty."](../../../objects/report/5807.md) · captioned "Item Age Composition - Quantity (Obsolete)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 5808 "Item Age Composition - Value"](../../../objects/report/5808.md) · captioned "Item Age Composition by Quantity and Value" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 5809 "Item Expiration - Quantity"](../../../objects/report/5809.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 6625 "Item GTIN Label"](../../../objects/report/6625.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 6626 "Reference No Label"](../../../objects/report/6626.md) · captioned "Reference No. Label" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 6627 "SN Label"](../../../objects/report/6627.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 6628 "Lot No Label"](../../../objects/report/6628.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 7150 "Item Dimensions - Detail"](../../../objects/report/7150.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 7151 "Item Dimensions - Total"](../../../objects/report/7151.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 7313 "Whse. Shipment Status"](../../../objects/report/7313.md) · captioned "Warehouse Shipment Status" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 7319 "Warehouse Bin List"](../../../objects/report/7319.md) · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 7320 "Whse. Adjustment Bin"](../../../objects/report/7320.md) · captioned "Warehouse Adjustment Bin" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 99001048 "Planning Availability"](../../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Inventory analytics](inventory/inventory-analytics.md)
+
+Learn also names 3 objects with no object page: page/5390, page/5540, report/990003804.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

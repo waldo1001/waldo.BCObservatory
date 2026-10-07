@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:27.247Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
     - https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-  objects: []
+  objects:
+    - object/page/256
+    - object/page/1205
+    - object/page/1206
+    - object/page/1209
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/mexico
@@ -70,7 +74,7 @@ parent: topic/business-central/business-functionality/local-functionality/mexico
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -123,6 +127,13 @@ Start with the electronic accounting page if you need to report to the Mexican T
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256, 1205, 1206, 1209, 10140, 10141, 10143, 10144, 10146, 10147, 10148, 10810, 10811, 36646.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 1205 "Credit Transfer Registers"](../../../../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../../../../objects/table/1205.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../../../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../../../../objects/table/1206.md)
+- [Page 1209 "Credit Trans Re-export History"](../../../../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../../../../objects/table/1209.md)
+
+Learn also names 10 objects with no object page: page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10810, page/10811, page/36646.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

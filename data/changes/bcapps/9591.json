@@ -39,16 +39,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Codeunits/RelPurchAdvLetterDocCZZ.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31018",
+        "type": "codeunit",
+        "id": 31018,
+        "name": "Rel. Purch.Adv.Letter Doc. CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "codeunit/31018-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "AdvancePaymentsLocalization"
+  ]
 }

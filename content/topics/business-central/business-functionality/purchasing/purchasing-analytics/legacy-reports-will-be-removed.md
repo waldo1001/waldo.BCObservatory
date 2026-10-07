@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:36.422Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-319
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-301
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-311
-  objects: []
+  objects:
+    - object/report/301
+    - object/report/311
+    - object/report/319
+    - object/report/322
   features: []
   topics:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
@@ -70,7 +74,7 @@ parent: topic/business-central/business-functionality/purchasing/purchasing-anal
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -114,6 +118,11 @@ The pages are independent of each other. Aged Accounts Payable and Payments on H
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 301, 311, 319, 322.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 301 "Vendor - List"](../../../../../objects/report/301.md) · captioned "Vendor List (Obsolete)"
+- [Report 311 "Vendor - Top 10 List"](../../../../../objects/report/311.md) · captioned "Vendor - Top 10 List (Obsolete)"
+- [Report 319 "Payments on Hold"](../../../../../objects/report/319.md) · captioned "Payments on Hold (Obsolete)"
+- [Report 322 "Aged Accounts Payable"](../../../../../objects/report/322.md) · captioned "Aged Accounts Payable (Obsolete)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:26.790Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,6 +135,8 @@ Start with the overview page on vendor payments and customer bills to see the fo
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 12102, 12170, 12171, 12172, 12173, 12174, 12175, 12176, 12178, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12188, 12190, 12192, 12193, 12194, 12195, 12203, 12204.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 24 objects with no object page: page/12102, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12188, page/12190, page/12192, page/12193, page/12194, page/12195, page/12203, page/12204.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

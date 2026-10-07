@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:09.813Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,7 +124,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis
-  objects: []
+  objects:
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics
@@ -145,7 +146,7 @@ parent: topic/business-central/business-functionality/sustainability-management/
 children: []
 coverage:
   learn: 13
-  code: 0
+  code: 1
   video: 1
   blog: 0
   guideline: 0
@@ -205,6 +206,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

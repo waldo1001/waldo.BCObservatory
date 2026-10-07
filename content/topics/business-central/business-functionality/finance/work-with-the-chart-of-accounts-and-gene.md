@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,66 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger
     - https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-reverse-journal-posting
-  objects: []
+  objects:
+    - object/page/18
+    - object/page/20
+    - object/page/37
+    - object/page/39
+    - object/page/65
+    - object/page/99
+    - object/page/113
+    - object/page/116
+    - object/page/118
+    - object/page/120
+    - object/page/121
+    - object/page/154
+    - object/page/251
+    - object/page/283
+    - object/page/312
+    - object/page/313
+    - object/page/314
+    - object/page/350
+    - object/page/395
+    - object/page/422
+    - object/page/552
+    - object/page/569
+    - object/page/570
+    - object/page/634
+    - object/page/790
+    - object/page/791
+    - object/page/1158
+    - object/page/1700
+    - object/page/1701
+    - object/page/1702
+    - object/page/1703
+    - object/page/1704
+    - object/page/1705
+    - object/page/1706
+    - object/page/1707
+    - object/page/2670
+    - object/page/2673
+    - object/page/2674
+    - object/page/5260
+    - object/page/5264
+    - object/page/5266
+    - object/page/5267
+    - object/page/5270
+    - object/page/5629
+    - object/page/7132
+    - object/page/7133
+    - object/page/7138
+    - object/page/7139
+    - object/page/9203
+    - object/page/9219
+    - object/page/9239
+    - object/page/9373
+    - object/page/9374
+    - object/page/22207
+    - object/report/1
+    - object/report/3
+    - object/report/1700
+    - object/report/1701
+    - object/report/1702
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -161,7 +220,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 12
-  code: 0
+  code: 59
   video: 9
   blog: 3
   guideline: 0
@@ -301,6 +360,68 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 3, 18, 20, 37, 39, 65, 99, 113, 116, 118, 120, 121, 154, 251, 283, 312, 313, 314, 350, 395, 422, 552, 569, 570, 634, 790, 791, 1158, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 2670, 2673, 2674, 5260, 5261, 5264, 5266, 5267, 5270, 5629, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374, 22207.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 18 "G/L Account List"](../../../../objects/page/18.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 20 "General Ledger Entries"](../../../../objects/page/20.md) · on [Table 17 "G/L Entry"](../../../../objects/table/17.md)
+- [Page 37 "Where-Used List"](../../../../objects/page/37.md) · on [Table 90 "BOM Component"](../../../../objects/table/90.md)
+- [Page 39 "General Journal"](../../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md)
+- [Page 65 "Rounding Methods"](../../../../objects/page/65.md) · on [Table 42 "Rounding Method"](../../../../objects/table/42.md)
+- [Page 99 "G/L Account Where-Used List"](../../../../objects/page/99.md) · on [Table 180 "G/L Account Where-Used"](../../../../objects/table/180.md)
+- [Page 113 "Budget"](../../../../objects/page/113.md)
+- [Page 116 "G/L Registers"](../../../../objects/page/116.md) · on [Table 45 "G/L Register"](../../../../objects/table/45.md)
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
+- [Page 120 "G/L Budget Entries"](../../../../objects/page/120.md) · on [Table 96 "G/L Budget Entry"](../../../../objects/table/96.md)
+- [Page 121 "G/L Budget Names"](../../../../objects/page/121.md) · captioned "G/L Budgets" · on [Table 95 "G/L Budget Name"](../../../../objects/table/95.md)
+- [Page 154 "G/L Account Balance/Budget"](../../../../objects/page/154.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 251 "General Journal Batches"](../../../../objects/page/251.md) · on [Table 232 "Gen. Journal Batch"](../../../../objects/table/232.md)
+- [Page 283 "Recurring General Journal"](../../../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md)
+- [Page 312 "Gen. Business Posting Groups"](../../../../objects/page/312.md) · on [Table 250 "Gen. Business Posting Group"](../../../../objects/table/250.md)
+- [Page 313 "Gen. Product Posting Groups"](../../../../objects/page/313.md) · captioned "General Product Posting Groups" · on [Table 251 "Gen. Product Posting Group"](../../../../objects/table/251.md)
+- [Page 314 "General Posting Setup"](../../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md)
+- [Page 350 "G/L Acc. Balance/Budget Lines"](../../../../objects/page/350.md) · captioned "Lines" · on [Table 922 "G/L Acc. Balance/Budget Buffer"](../../../../objects/table/922.md)
+- [Page 395 "General Posting Setup Card"](../../../../objects/page/395.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md)
+- [Page 422 "G/L Balance/Budget"](../../../../objects/page/422.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 552 "Gen. Prod. Posting Group Conv."](../../../../objects/page/552.md) · on [Table 551 "VAT Rate Change Conversion"](../../../../objects/table/551.md)
+- [Page 569 "Chart of Accs. (Analysis View)"](../../../../objects/page/569.md) · on [Table 376 "G/L Account (Analysis View)"](../../../../objects/table/376.md)
+- [Page 570 "Chart of Accounts (G/L)"](../../../../objects/page/570.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 634 "Chart of Accounts Overview"](../../../../objects/page/634.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 790 "G/L Account Categories"](../../../../objects/page/790.md) · on [Table 570 "G/L Account Category"](../../../../objects/table/570.md)
+- [Page 791 "G/L Accounts ListPart"](../../../../objects/page/791.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 1158 "Cash Account Balances"](../../../../objects/page/1158.md) · on [Table 15 "G/L Account"](../../../../objects/table/15.md)
+- [Page 1700 "Deferral Template Card"](../../../../objects/page/1700.md) · on [Table 1700 "Deferral Template"](../../../../objects/table/1700.md)
+- [Page 1701 "Deferral Template List"](../../../../objects/page/1701.md) · captioned "Deferral Templates" · on [Table 1700 "Deferral Template"](../../../../objects/table/1700.md)
+- [Page 1702 "Deferral Schedule"](../../../../objects/page/1702.md) · on [Table 1701 "Deferral Header"](../../../../objects/table/1701.md)
+- [Page 1703 "Deferral Schedule Subform"](../../../../objects/page/1703.md) · captioned "Deferral Schedule Detail" · on [Table 1702 "Deferral Line"](../../../../objects/table/1702.md)
+- [Page 1704 "Deferral Schedule View"](../../../../objects/page/1704.md) · on [Table 1704 "Posted Deferral Header"](../../../../objects/table/1704.md)
+- [Page 1705 "Deferral Schedule View Subform"](../../../../objects/page/1705.md) · captioned "Deferral Schedule Detail" · on [Table 1705 "Posted Deferral Line"](../../../../objects/table/1705.md)
+- [Page 1706 "Deferral Schedule Archive"](../../../../objects/page/1706.md) · on [Table 5127 "Deferral Header Archive"](../../../../objects/table/5127.md)
+- [Page 1707 "Deferral Sched. Arch. Subform"](../../../../objects/page/1707.md) · captioned "Deferral Schedule Detail" · on [Table 5128 "Deferral Line Archive"](../../../../objects/table/5128.md)
+- [Page 2670 "Allocation Account"](../../../../objects/page/2670.md) · on [Table 2670 "Allocation Account"](../../../../objects/table/2670.md)
+- [Page 2673 "Allocation Account List"](../../../../objects/page/2673.md) · captioned "Allocation Accounts" · on [Table 2670 "Allocation Account"](../../../../objects/table/2670.md)
+- [Page 2674 "Allocation Account Preview"](../../../../objects/page/2674.md) · on [Table 2672 "Allocation Line"](../../../../objects/table/2672.md)
+- [Page 5260 "G/L Account Mapping"](../../../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../../../objects/table/5260.md)
+- [Page 5264 "Audit File Export Setup"](../../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../../objects/table/5264.md)
+- [Page 5266 "Audit File Export Documents"](../../../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md)
+- [Page 5267 "Audit File Export Doc. Card"](../../../../objects/page/5267.md) · captioned "Audit File Export Document" · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md)
+- [Page 5270 "Audit File Export Format Setup"](../../../../objects/page/5270.md) · on [Table 5268 "Audit File Export Format Setup"](../../../../objects/table/5268.md)
+- [Page 5629 "Fixed Asset Journal"](../../../../objects/page/5629.md) · captioned "Fixed Asset Journals" · on [Table 5621 "FA Journal Line"](../../../../objects/table/5621.md)
+- [Page 7132 "Item Budget Names"](../../../../objects/page/7132.md) · on [Table 7132 "Item Budget Name"](../../../../objects/table/7132.md)
+- [Page 7133 "Item Budget Entries"](../../../../objects/page/7133.md) · on [Table 7134 "Item Budget Entry"](../../../../objects/table/7134.md)
+- [Page 7138 "Purchase Budget Overview"](../../../../objects/page/7138.md)
+- [Page 7139 "Sales Budget Overview"](../../../../objects/page/7139.md)
+- [Page 9203 "Budget Matrix"](../../../../objects/page/9203.md) · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
+- [Page 9219 "Purch. Budget Overview Matrix"](../../../../objects/page/9219.md) · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
+- [Page 9239 "Sales Budget Overview Matrix"](../../../../objects/page/9239.md) · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
+- [Page 9373 "Budget Names Purchase"](../../../../objects/page/9373.md) · captioned "Purchase Budgets" · on [Table 7132 "Item Budget Name"](../../../../objects/table/7132.md)
+- [Page 9374 "Budget Names Sales"](../../../../objects/page/9374.md) · captioned "Sales Budgets" · on [Table 7132 "Item Budget Name"](../../../../objects/table/7132.md)
+- [Page 22207 "Review G/L Entries"](../../../../objects/page/22207.md) · on [Table 17 "G/L Entry"](../../../../objects/table/17.md)
+- [Report 1 "Chart of Accounts"](../../../../objects/report/1.md)
+- [Report 3 "G/L Register"](../../../../objects/report/3.md)
+- [Report 1700 "Deferral Summary - G/L"](../../../../objects/report/1700.md)
+- [Report 1701 "Deferral Summary - Sales"](../../../../objects/report/1701.md)
+- [Report 1702 "Deferral Summary - Purchasing"](../../../../objects/report/1702.md)
+
+Learn also names 1 object with no object page: page/5261.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

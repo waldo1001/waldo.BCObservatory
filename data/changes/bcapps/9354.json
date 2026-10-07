@@ -53,26 +53,48 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/codeunit/GSTSettlement.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18318",
+        "type": "codeunit",
+        "id": 18318,
+        "name": "GST Settlement",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18318-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/page/PayGSTCalculationDetails.page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/18324",
+        "type": "page",
+        "id": 18324,
+        "name": "Pay GST Calculation Details",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18324-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTPaymentBufferDetails.table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/18322",
+        "type": "table",
+        "id": 18322,
+        "name": "GST Payment Buffer Details",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18322-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
 }

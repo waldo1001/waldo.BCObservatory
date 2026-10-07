@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:58.226Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,6 +201,8 @@ Start with the Australian Tax overview page, which maps the topics. For WHT, rea
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 11600, 11601, 11602, 11603, 11604, 11605, 11606, 11607, 11608, 11609, 11610, 11611, 11612, 11613, 11614, 28040, 28041, 28042, 28043, 28044, 28071, 28072, 28073, 28074, 28075, 28076, 28077, 28078, 28079, 28080, 28081, 28082, 28164, 28165, 28166, 28167.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 36 objects with no object page: page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28164, page/28165, page/28166, page/28167.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

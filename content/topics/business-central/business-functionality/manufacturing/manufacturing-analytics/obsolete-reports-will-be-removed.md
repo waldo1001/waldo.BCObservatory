@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.379Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785
-  objects: []
+  objects:
+    - object/report/99000754
+    - object/report/99000755
+    - object/report/99000756
+    - object/report/99000758
+    - object/report/99000759
+    - object/report/99000760
+    - object/report/99000767
+    - object/report/99000783
+    - object/report/99000784
+    - object/report/99000786
   features: []
   topics:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
@@ -126,7 +136,7 @@ parent: topic/business-central/business-functionality/manufacturing/manufacturin
 children: []
 coverage:
   learn: 11
-  code: 0
+  code: 10
   video: 0
   blog: 0
   guideline: 0
@@ -187,6 +197,19 @@ Start here if you rely on one of these reports and need to know what it covers, 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 99000754, 99000755, 99000756, 99000758, 99000759, 99000760, 99000767, 99000783, 99000784, 99000786, 990000785.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 99000754 "Rolled-up Cost Shares"](../../../../../objects/report/99000754.md)
+- [Report 99000755 "Single-level Cost Shares"](../../../../../objects/report/99000755.md)
+- [Report 99000756 "Detailed Calculation"](../../../../../objects/report/99000756.md)
+- [Report 99000758 "Compare List"](../../../../../objects/report/99000758.md) · captioned "Item BOM Compare List (Obsolete)"
+- [Report 99000759 "Work Center List"](../../../../../objects/report/99000759.md)
+- [Report 99000760 "Machine Center List"](../../../../../objects/report/99000760.md)
+- [Report 99000767 "Prod. Order - Calculation"](../../../../../objects/report/99000767.md) · captioned "Prod. Order - Calculation (Obsolete)"
+- [Report 99000783 "Work Center Load"](../../../../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)"
+- [Report 99000784 "Machine Center Load"](../../../../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)"
+- [Report 99000786 "Machine Center Load/Bar"](../../../../../objects/report/99000786.md) · captioned "Machine Center Load/Bar (obsolete)"
+
+Learn also names 1 object with no object page: report/990000785.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,18 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts
-  objects: []
+  objects:
+    - object/page/26
+    - object/page/29
+    - object/page/50
+    - object/page/51
+    - object/page/132
+    - object/page/315
+    - object/page/466
+    - object/page/467
+    - object/page/468
+    - object/page/469
+    - object/page/485
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/united-states
@@ -128,7 +139,7 @@ parent: topic/business-central/business-functionality/local-functionality/united
 children: []
 coverage:
   learn: 11
-  code: 0
+  code: 11
   video: 2
   blog: 0
   guideline: 0
@@ -215,6 +226,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 26, 29, 50, 51, 132, 315, 466, 467, 468, 469, 485, 10015, 10016, 10018, 10019, 10020, 10021, 10030, 10031, 10033, 10034, 10036, 10037, 10048, 10049, 10050, 10051, 10101, 10900, 100136.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 26 "Vendor Card"](../../../../../objects/page/26.md) · on [Table 23 "Vendor"](../../../../../objects/table/23.md)
+- [Page 29 "Vendor Ledger Entries"](../../../../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md)
+- [Page 50 "Purchase Order"](../../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../../objects/table/38.md)
+- [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../../../objects/table/38.md)
+- [Page 132 "Posted Sales Invoice"](../../../../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../../../../objects/table/112.md)
+- [Page 315 "VAT Entries"](../../../../../objects/page/315.md) · on [Table 254 "VAT Entry"](../../../../../objects/table/254.md)
+- [Page 466 "Tax Jurisdictions"](../../../../../objects/page/466.md) · on [Table 320 "Tax Jurisdiction"](../../../../../objects/table/320.md)
+- [Page 467 "Tax Groups"](../../../../../objects/page/467.md) · on [Table 321 "Tax Group"](../../../../../objects/table/321.md)
+- [Page 468 "Tax Details"](../../../../../objects/page/468.md) · on [Table 322 "Tax Detail"](../../../../../objects/table/322.md)
+- [Page 469 "Tax Area List"](../../../../../objects/page/469.md) · captioned "Tax Areas" · on [Table 318 "Tax Area"](../../../../../objects/table/318.md)
+- [Page 485 "Tax Setup"](../../../../../objects/page/485.md) · on [Table 326 "Tax Setup"](../../../../../objects/table/326.md)
+
+Learn also names 19 objects with no object page: page/10015, page/10016, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10900, page/100136.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

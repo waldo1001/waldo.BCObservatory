@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.693Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq
     - https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     - https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links
-  objects: []
+  objects:
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
@@ -104,7 +105,7 @@ parent: topic/business-central/analytics-business-intelligence-and-repo/kpis-das
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 1
   video: 2
   blog: 1
   guideline: 0
@@ -160,6 +161,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

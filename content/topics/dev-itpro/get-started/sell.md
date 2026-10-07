@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:04.817Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-experiences
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sell-apps-appsource
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages
-  objects: []
+  objects:
+    - object/page/2500
+    - object/page/8610
+    - object/page/8613
+    - object/page/8614
+    - object/page/8615
+    - object/page/8620
+    - object/page/8632
   features: []
   topics:
     - topic/dev-itpro/get-started
@@ -75,7 +82,7 @@ parent: topic/dev-itpro/get-started
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 7
   video: 0
   blog: 0
   guideline: 0
@@ -124,6 +131,16 @@ The pages fit together along the sales path. Start with the reseller guide for p
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2500, 2502, 8610, 8613, 8614, 8615, 8620, 8632.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2500 "Extension Management"](../../../objects/page/2500.md)
+- [Page 8610 "Config. Questionnaire"](../../../objects/page/8610.md) · captioned "Configuration Questionnaire" · on [Table 8610 "Config. Questionnaire"](../../../objects/table/8610.md)
+- [Page 8613 "Config. Question Areas"](../../../objects/page/8613.md) · on [Table 8611 "Config. Question Area"](../../../objects/table/8611.md)
+- [Page 8614 "Config. Package Card"](../../../objects/page/8614.md) · on [Table 8623 "Config. Package"](../../../objects/table/8623.md)
+- [Page 8615 "Config. Packages"](../../../objects/page/8615.md) · captioned "Configuration Packages" · on [Table 8623 "Config. Package"](../../../objects/table/8623.md)
+- [Page 8620 "Config. Template List"](../../../objects/page/8620.md) · captioned "Configuration Templates" · on [Table 8618 "Config. Template Header"](../../../objects/table/8618.md)
+- [Page 8632 "Config. Worksheet"](../../../objects/page/8632.md) · captioned "Configuration Worksheet" · on [Table 8622 "Config. Line"](../../../objects/table/8622.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

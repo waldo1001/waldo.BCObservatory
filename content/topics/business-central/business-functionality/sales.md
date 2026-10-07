@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -325,7 +325,146 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign
     - https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders
     - https://learn.microsoft.com/dynamics365/business-central/finance-recurring-invoicing
-  objects: []
+  objects:
+    - object/page/7
+    - object/page/21
+    - object/page/22
+    - object/page/33
+    - object/page/41
+    - object/page/42
+    - object/page/43
+    - object/page/44
+    - object/page/48
+    - object/page/130
+    - object/page/134
+    - object/page/142
+    - object/page/143
+    - object/page/144
+    - object/page/172
+    - object/page/253
+    - object/page/283
+    - object/page/314
+    - object/page/367
+    - object/page/368
+    - object/page/369
+    - object/page/461
+    - object/page/507
+    - object/page/509
+    - object/page/512
+    - object/page/516
+    - object/page/555
+    - object/page/556
+    - object/page/557
+    - object/page/558
+    - object/page/785
+    - object/page/800
+    - object/page/806
+    - object/page/1330
+    - object/page/1350
+    - object/page/1380
+    - object/page/1381
+    - object/page/1382
+    - object/page/1627
+    - object/page/5119
+    - object/page/6620
+    - object/page/6622
+    - object/page/6623
+    - object/page/6629
+    - object/page/6630
+    - object/page/6633
+    - object/page/6662
+    - object/page/7177
+    - object/page/8004
+    - object/page/8005
+    - object/page/8014
+    - object/page/8015
+    - object/page/8025
+    - object/page/8031
+    - object/page/8035
+    - object/page/8036
+    - object/page/8037
+    - object/page/8038
+    - object/page/8041
+    - object/page/8042
+    - object/page/8043
+    - object/page/8044
+    - object/page/8052
+    - object/page/8053
+    - object/page/8057
+    - object/page/8059
+    - object/page/8060
+    - object/page/8067
+    - object/page/8070
+    - object/page/8071
+    - object/page/8079
+    - object/page/8084
+    - object/page/8096
+    - object/page/9080
+    - object/page/9081
+    - object/page/9084
+    - object/page/9300
+    - object/page/9301
+    - object/page/9302
+    - object/page/9303
+    - object/page/9304
+    - object/page/9305
+    - object/page/9310
+    - object/page/9370
+    - object/page/9371
+    - object/page/9372
+    - object/page/36951
+    - object/page/36983
+    - object/page/36997
+    - object/page/36998
+    - object/page/36999
+    - object/page/37000
+    - object/page/37001
+    - object/page/37002
+    - object/page/37003
+    - object/page/37004
+    - object/page/37005
+    - object/page/37006
+    - object/page/37007
+    - object/page/37008
+    - object/page/37066
+    - object/page/37100
+    - object/page/37101
+    - object/page/37102
+    - object/page/37103
+    - object/page/37104
+    - object/page/37105
+    - object/page/37109
+    - object/page/37114
+    - object/page/37119
+    - object/report/101
+    - object/report/107
+    - object/report/108
+    - object/report/111
+    - object/report/112
+    - object/report/113
+    - object/report/114
+    - object/report/115
+    - object/report/119
+    - object/report/121
+    - object/report/129
+    - object/report/209
+    - object/report/708
+    - object/report/713
+    - object/report/718
+    - object/report/813
+    - object/report/1302
+    - object/report/1303
+    - object/report/1304
+    - object/report/1305
+    - object/report/1306
+    - object/report/1307
+    - object/report/1308
+    - object/report/1309
+    - object/report/2501
+    - object/report/4402
+    - object/report/4409
+    - object/report/6646
+    - object/report/7313
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -380,7 +519,7 @@ children:
   - topic/business-central/business-functionality/sales/subscription-billing
 coverage:
   learn: 133
-  code: 0
+  code: 139
   video: 1
   blog: 3
   guideline: 0
@@ -631,6 +770,148 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 7, 21, 22, 33, 41, 42, 43, 44, 48, 101, 107, 108, 111, 112, 113, 114, 115, 119, 121, 129, 130, 134, 142, 143, 144, 172, 209, 253, 283, 314, 367, 368, 369, 461, 507, 509, 512, 516, 555, 556, 557, 558, 708, 713, 718, 785, 800, 806, 813, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1330, 1350, 1380, 1381, 1382, 1627, 2107, 2501, 4402, 4409, 5119, 6166, 6168, 6298, 6299, 6620, 6622, 6623, 6629, 6630, 6633, 6646, 6662, 7177, 7313, 8004, 8005, 8008, 8010, 8011, 8014, 8015, 8025, 8031, 8035, 8036, 8037, 8038, 8041, 8042, 8043, 8044, 8052, 8053, 8057, 8059, 8060, 8067, 8070, 8071, 8079, 8084, 8096, 9080, 9081, 9084, 9300, 9301, 9302, 9303, 9304, 9305, 9310, 9370, 9371, 9372, 36951, 36983, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37066, 37100, 37101, 37102, 37103, 37104, 37105, 37109, 37114, 37119.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 7 "Customer Price Groups"](../../../objects/page/7.md) · on [Table 6 "Customer Price Group"](../../../objects/table/6.md)
+- [Page 21 "Customer Card"](../../../objects/page/21.md) · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 22 "Customer List"](../../../objects/page/22.md) · captioned "Customers" · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 33 "Customer Lookup"](../../../objects/page/33.md) · captioned "Customers" · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 41 "Sales Quote"](../../../objects/page/41.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 42 "Sales Order"](../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 43 "Sales Invoice"](../../../objects/page/43.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 44 "Sales Credit Memo"](../../../objects/page/44.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 48 "Sales Orders"](../../../objects/page/48.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md)
+- [Page 130 "Posted Sales Shipment"](../../../objects/page/130.md) · on [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
+- [Page 134 "Posted Sales Credit Memo"](../../../objects/page/134.md) · on [Table 114 "Sales Cr.Memo Header"](../../../objects/table/114.md)
+- [Page 142 "Posted Sales Shipments"](../../../objects/page/142.md) · on [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
+- [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md) · on [Table 112 "Sales Invoice Header"](../../../objects/table/112.md)
+- [Page 144 "Posted Sales Credit Memos"](../../../objects/page/144.md) · on [Table 114 "Sales Cr.Memo Header"](../../../objects/table/114.md)
+- [Page 172 "Standard Sales Codes"](../../../objects/page/172.md) · captioned "Recurring Sales Lines" · on [Table 170 "Standard Sales Code"](../../../objects/table/170.md)
+- [Page 253 "Sales Journal"](../../../objects/page/253.md) · captioned "Sales Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 283 "Recurring General Journal"](../../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 367 "Post Codes"](../../../objects/page/367.md) · on [Table 225 "Post Code"](../../../objects/table/225.md)
+- [Page 368 "Order Address"](../../../objects/page/368.md) · on [Table 224 "Order Address"](../../../objects/table/224.md)
+- [Page 369 "Order Address List"](../../../objects/page/369.md) · on [Table 224 "Order Address"](../../../objects/table/224.md)
+- [Page 461 "Inventory Setup"](../../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../../objects/table/313.md)
+- [Page 507 "Blanket Sales Order"](../../../objects/page/507.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 509 "Blanket Purchase Order"](../../../objects/page/509.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 512 "Customer Disc. Groups"](../../../objects/page/512.md) · on [Table 340 "Customer Discount Group"](../../../objects/table/340.md)
+- [Page 785 "Customer Picture"](../../../objects/page/785.md) · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 800 "Online Map Setup"](../../../objects/page/800.md) · on [Table 800 "Online Map Setup"](../../../objects/table/800.md)
+- [Page 806 "Online Map Location"](../../../objects/page/806.md)
+- [Page 1330 "Update Address"](../../../objects/page/1330.md) · captioned "Do you want to update the address?"
+- [Page 1350 "Posted Sales Shipment - Update"](../../../objects/page/1350.md) · on [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
+- [Page 1380 "Select Customer Templ. List"](../../../objects/page/1380.md) · captioned "Select a template for a new customer" · on [Table 1381 "Customer Templ."](../../../objects/table/1381.md)
+- [Page 1381 "Customer Templ. List"](../../../objects/page/1381.md) · captioned "Customer Templates" · on [Table 1381 "Customer Templ."](../../../objects/table/1381.md)
+- [Page 1382 "Customer Templ. Card"](../../../objects/page/1382.md) · captioned "Customer Template" · on [Table 1381 "Customer Templ."](../../../objects/table/1381.md)
+- [Page 1627 "Office No Customer Dlg"](../../../objects/page/1627.md) · captioned "Create customer record?" · on [Table 5050 "Contact"](../../../objects/table/5050.md)
+- [Page 6620 "Blanket Sales Order Archive"](../../../objects/page/6620.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6622 "Blanket Sales Order Archives"](../../../objects/page/6622.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6623 "Blanket Purchase Order Archive"](../../../objects/page/6623.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 6629 "Sales Return List Archive"](../../../objects/page/6629.md) · captioned "Sales Return Orders Archive" · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6630 "Sales Return Order"](../../../objects/page/6630.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 6633 "Sales Return Orders"](../../../objects/page/6633.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md)
+- [Page 6662 "Posted Return Receipts"](../../../objects/page/6662.md) · captioned "Posted Return Receipt" · on [Table 6660 "Return Receipt Header"](../../../objects/table/6660.md)
+- [Page 7177 "Available Credit"](../../../objects/page/7177.md) · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 9080 "Sales Hist. Sell-to FactBox"](../../../objects/page/9080.md) · captioned "Sell-to Customer Sales History" · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 9081 "Sales Hist. Bill-to FactBox"](../../../objects/page/9081.md) · captioned "Bill-to Customer Sales History" · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 9084 "Customer Details FactBox"](../../../objects/page/9084.md) · captioned "Customer Details" · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 9300 "Sales Quotes"](../../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9301 "Sales Invoice List"](../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9302 "Sales Credit Memos"](../../../objects/page/9302.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9303 "Blanket Sales Orders"](../../../objects/page/9303.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9304 "Sales Return Order List"](../../../objects/page/9304.md) · captioned "Sales Return Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9305 "Sales Order List"](../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9310 "Blanket Purchase Orders"](../../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Report 6646 "Sales - Return Receipt"](../../../objects/report/6646.md)
+- [Page 314 "General Posting Setup"](../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../objects/table/252.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 516 "Sales Lines"](../../../objects/page/516.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 555 "Analysis View Card"](../../../objects/page/555.md) · on [Table 363 "Analysis View"](../../../objects/table/363.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 556 "Analysis View List"](../../../objects/page/556.md) · captioned "Analysis Views" · on [Table 363 "Analysis View"](../../../objects/table/363.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 557 "Analysis View Filter"](../../../objects/page/557.md) · on [Table 364 "Analysis View Filter"](../../../objects/table/364.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 558 "Analysis View Entries"](../../../objects/page/558.md) · on [Table 365 "Analysis View Entry"](../../../objects/table/365.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 5119 "Sales Cycles"](../../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../../objects/table/5090.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 8004 "Planned Service Commitments"](../../../objects/page/8004.md) · captioned "Planned Subscription Lines" · on [Table 8002 "Planned Subscription Line"](../../../objects/table/8002.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8005 "Contract Renewal"](../../../objects/page/8005.md) · captioned "Subscription Contract Renewal" · on [Table 8001 "Sub. Contract Renewal Line"](../../../objects/table/8001.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8014 "Service Commitments List"](../../../objects/page/8014.md) · captioned "Subscription Lines" · on [Table 8059 "Subscription Line"](../../../objects/table/8059.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8015 "Sales Service Commitments List"](../../../objects/page/8015.md) · captioned "Sales Subscription Lines" · on [Table 8068 "Sales Subscription Line"](../../../objects/table/8068.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8025 "Contract Price Update"](../../../objects/page/8025.md) · captioned "Subscription Contract Price Update" · on [Table 8004 "Sub. Contr. Price Update Line"](../../../objects/table/8004.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8031 "Connect Subscription To SO"](../../../objects/page/8031.md) · captioned "Connect Supplier Subscription to Subscription" · on [Table 8016 "Usage Data Supp. Subscription"](../../../objects/table/8016.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8035 "Usage Data Billings"](../../../objects/page/8035.md) · on [Table 8006 "Usage Data Billing"](../../../objects/table/8006.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8036 "Usage Data Blobs"](../../../objects/page/8036.md) · on [Table 8011 "Usage Data Blob"](../../../objects/table/8011.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8037 "Usage Data Customers"](../../../objects/page/8037.md) · captioned "Usage Data Supp. Customers" · on [Table 8012 "Usage Data Supp. Customer"](../../../objects/table/8012.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8038 "Usage Data Generic Import"](../../../objects/page/8038.md) · on [Table 8018 "Usage Data Generic Import"](../../../objects/table/8018.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8041 "Usage Data Imports"](../../../objects/page/8041.md) · on [Table 8013 "Usage Data Import"](../../../objects/table/8013.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8042 "Usage Data Subscriptions"](../../../objects/page/8042.md) · on [Table 8016 "Usage Data Supp. Subscription"](../../../objects/table/8016.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8043 "Usage Data Supp. References"](../../../objects/page/8043.md) · captioned "Usage Data Supplier References" · on [Table 8015 "Usage Data Supplier Reference"](../../../objects/table/8015.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8044 "Usage Data Suppliers"](../../../objects/page/8044.md) · on [Table 8014 "Usage Data Supplier"](../../../objects/table/8014.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8052 "Customer Contract"](../../../objects/page/8052.md) · captioned "Customer Subscription Contract" · on [Table 8052 "Customer Subscription Contract"](../../../objects/table/8052.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8053 "Customer Contracts"](../../../objects/page/8053.md) · captioned "Customer Subscription Contracts" · on [Table 8052 "Customer Subscription Contract"](../../../objects/table/8052.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8057 "Service Commitment Packages"](../../../objects/page/8057.md) · captioned "Subscription Packages" · on [Table 8055 "Subscription Package"](../../../objects/table/8055.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8059 "Service Objects"](../../../objects/page/8059.md) · captioned "Subscriptions" · on [Table 8057 "Subscription Header"](../../../objects/table/8057.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8060 "Service Object"](../../../objects/page/8060.md) · captioned "Subscription" · on [Table 8057 "Subscription Header"](../../../objects/table/8057.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8067 "Recurring Billing"](../../../objects/page/8067.md) · on [Table 8061 "Billing Line"](../../../objects/table/8061.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8070 "Vendor Contract"](../../../objects/page/8070.md) · captioned "Vendor Subscription Contract" · on [Table 8063 "Vendor Subscription Contract"](../../../objects/table/8063.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8071 "Vendor Contracts"](../../../objects/page/8071.md) · captioned "Vendor Subscription Contracts" · on [Table 8063 "Vendor Subscription Contract"](../../../objects/table/8063.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8079 "Customer Contract Deferrals"](../../../objects/page/8079.md) · captioned "Customer Subscription Contract Deferrals" · on [Table 8066 "Cust. Sub. Contract Deferral"](../../../objects/table/8066.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8084 "Sub. Billing Role Center"](../../../objects/page/8084.md) · captioned "Subscription Billing" · via [Subscription billing](sales/subscription-billing.md)
+- [Page 8096 "Usage Data Billing Metadata"](../../../objects/page/8096.md) · on [Table 8021 "Usage Data Billing Metadata"](../../../objects/table/8021.md) · via [Subscription billing](sales/subscription-billing.md)
+- [Page 9370 "Analysis View List Purchase"](../../../objects/page/9370.md) · captioned "Purchase Analysis Views" · on [Table 7152 "Item Analysis View"](../../../objects/table/7152.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 9371 "Analysis View List Sales"](../../../objects/page/9371.md) · captioned "Sales Analysis Views" · on [Table 7152 "Item Analysis View"](../../../objects/table/7152.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 9372 "Analysis View List Inventory"](../../../objects/page/9372.md) · captioned "Inventory Analysis Views" · on [Table 7152 "Item Analysis View"](../../../objects/table/7152.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Page 36983 "Customer Retention Overview"](../../../objects/page/36983.md) · captioned "Customer Retention Overview (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 36997 "Detailed Cust. Ledger Entries"](../../../objects/page/36997.md) · captioned "Detailed Cust. Ledger Entries (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 36998 "Sales Overview"](../../../objects/page/36998.md) · captioned "Sales Overview (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 36999 "Daily Sales"](../../../objects/page/36999.md) · captioned "Daily Sales (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37000 "Sales Moving Average"](../../../objects/page/37000.md) · captioned "Sales Moving Average (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37001 "Sales Moving Annual Total"](../../../objects/page/37001.md) · captioned "Sales Moving Annual Total (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37002 "Sales Period-Over-Period"](../../../objects/page/37002.md) · captioned "Sales Period-Over-Period (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37003 "Sales Month-To-Date"](../../../objects/page/37003.md) · captioned "Sales Month-To-Date (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37004 "Sales by Item"](../../../objects/page/37004.md) · captioned "Sales by Item (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37005 "Sales by Customer"](../../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37006 "Sales by Salesperson"](../../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37007 "Sales Actual vs. Budget Qty."](../../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37008 "Sales Actual vs. Budget Amt."](../../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37066 "Sales by Location"](../../../objects/page/37066.md) · captioned "Sales by Location (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37100 "Sales Demographics"](../../../objects/page/37100.md) · captioned "Sales Demographics (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37101 "Sales Decomposition"](../../../objects/page/37101.md) · captioned "Sales Decomposition (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37102 "Key Sales Influencers"](../../../objects/page/37102.md) · captioned "Key Sales Influencers (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37103 "Opportunity Overview"](../../../objects/page/37103.md) · captioned "Opportunity Overview (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37104 "Sales Quote Overview"](../../../objects/page/37104.md) · captioned "Sales Quote Overview (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37105 "Return Order Overview"](../../../objects/page/37105.md) · captioned "Return Order Overview (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37109 "Sales Forecasting"](../../../objects/page/37109.md) · captioned "Sales Forecasting (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37114 "Customer Retention History"](../../../objects/page/37114.md) · captioned "Customer Retention History (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Page 37119 "Sales by Projects"](../../../objects/page/37119.md) · captioned "Sales by Projects (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 101 "Customer - List"](../../../objects/report/101.md) · captioned "Customer List" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 107 "Customer - Order Summary"](../../../objects/report/107.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 108 "Customer - Order Detail"](../../../objects/report/108.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 111 "Customer - Top 10 List"](../../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 112 "Sales Statistics"](../../../objects/report/112.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 113 "Customer/Item Sales"](../../../objects/report/113.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 114 "Salesperson - Sales Statistics"](../../../objects/report/114.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 115 "Salesperson - Commission"](../../../objects/report/115.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 119 "Customer - Sales List"](../../../objects/report/119.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 121 "Customer - Balance to Date"](../../../objects/report/121.md) · captioned "Customer Balance to Date" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 129 "Customer - Trial Balance"](../../../objects/report/129.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 209 "Sales Reservation Avail."](../../../objects/report/209.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 708 "Inventory Order Details"](../../../objects/report/708.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 713 "Inventory - Customer Sales"](../../../objects/report/713.md) · captioned "Inventory Customer Sales" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 718 "Inventory - Sales Back Orders"](../../../objects/report/718.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 813 "Inventory Picking List"](../../../objects/report/813.md) · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1302 "Standard Sales - Pro Forma Inv"](../../../objects/report/1302.md) · captioned "Pro Forma Invoice" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1303 "Standard Sales - Draft Invoice"](../../../objects/report/1303.md) · captioned "Draft Invoice" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1304 "Standard Sales - Quote"](../../../objects/report/1304.md) · captioned "Sales - Quote" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1305 "Standard Sales - Order Conf."](../../../objects/report/1305.md) · captioned "Sales - Confirmation" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1306 "Standard Sales - Invoice"](../../../objects/report/1306.md) · captioned "Sales - Invoice" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1307 "Standard Sales - Credit Memo"](../../../objects/report/1307.md) · captioned "Sales - Credit Memo" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1308 "Standard Sales - Shipment"](../../../objects/report/1308.md) · captioned "Sales - Shipment" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 1309 "Standard Sales - Return Rcpt."](../../../objects/report/1309.md) · captioned "Return Receipt" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 2501 "Day Book Cust. Ledger Entry"](../../../objects/report/2501.md) · captioned "Day Book Customer Ledger Entry" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 4402 "EXR Aged Accounts Rec Excel"](../../../objects/report/4402.md) · captioned "Aged Accounts Receivable (Excel)" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 4409 "EXR Customer Top List"](../../../objects/report/4409.md) · captioned "Customer - Top List (Excel)" · via [Sales analytics](sales/sales-analytics.md)
+- [Report 7313 "Whse. Shipment Status"](../../../objects/report/7313.md) · captioned "Warehouse Shipment Status" · via [Sales analytics](sales/sales-analytics.md)
+
+Learn also names 8 objects with no object page: page/2107, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

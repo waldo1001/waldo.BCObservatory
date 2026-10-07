@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services
-  objects: []
+  objects:
+    - object/page/25
+    - object/page/132
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/mexico
@@ -81,7 +83,7 @@ parent: topic/business-central/business-functionality/local-functionality/mexico
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -155,6 +157,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 25, 132, 10455, 10456, 10458, 10459, 27001, 27002, 27003, 27010, 27011, 27012, 27013, 27014, 27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md)
+- [Page 132 "Posted Sales Invoice"](../../../../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../../../../objects/table/112.md)
+
+Learn also names 21 objects with no object page: page/10455, page/10456, page/10458, page/10459, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27040, page/27041, page/27042, page/27043, page/27044.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

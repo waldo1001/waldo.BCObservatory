@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 21d10134189eb5db7cacefd797124a138f3c6e7db3272da61f054ed8bb116560
+  input_hash: f33adeed497e01c7e6df70e7bfae1bac27f117b62e61e2a48ebfad6d0473574e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-in
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -1514,6 +1514,6 @@ Objects: [permissionsetextension/18661 "D365 BASIC - India TDS"](../objects/perm
 
 ## Other versions
 
-- BC30: 0 objects differ from W1 (0 fields, 0 events added)
+- BC30: 1262 objects differ from W1 (0 fields, 0 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

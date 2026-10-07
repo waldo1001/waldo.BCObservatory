@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:54.665Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,7 +204,32 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5630
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5634
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5635
-  objects: []
+  objects:
+    - object/report/4411
+    - object/report/4412
+    - object/report/4413
+    - object/report/5600
+    - object/report/5601
+    - object/report/5602
+    - object/report/5603
+    - object/report/5604
+    - object/report/5605
+    - object/report/5606
+    - object/report/5607
+    - object/report/5608
+    - object/report/5610
+    - object/report/5611
+    - object/report/5620
+    - object/report/5621
+    - object/report/5622
+    - object/report/5623
+    - object/report/5624
+    - object/report/5625
+    - object/report/5626
+    - object/report/5630
+    - object/report/5634
+    - object/report/5635
+    - object/report/5636
   features: []
   topics:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
@@ -222,7 +247,7 @@ parent: topic/business-central/business-functionality/fixed-assets/fixed-assets-
 children: []
 coverage:
   learn: 23
-  code: 0
+  code: 25
   video: 0
   blog: 0
   guideline: 0
@@ -309,6 +334,32 @@ Insurance reports show policies, coverage, over- or under-insured status and uni
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4411, 4412, 4413, 5600, 5601, 5602, 5603, 5604, 5605, 5606, 5607, 5608, 5610, 5611, 5620, 5621, 5622, 5623, 5624, 5625, 5626, 5630, 5634, 5635, 5636.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 4411 "EXR Fixed Asset Details Excel"](../../../../../objects/report/4411.md) · captioned "Fixed Asset Details (Excel)"
+- [Report 4412 "EXR Fixed Asset Analysis Excel"](../../../../../objects/report/4412.md) · captioned "Fixed Asset Analysis (Excel)"
+- [Report 4413 "EXR Fixed Asset Projected"](../../../../../objects/report/4413.md) · captioned "Fixed Asset Projected Value (Excel)"
+- [Report 5600 "Fixed Asset - Analysis"](../../../../../objects/report/5600.md) · captioned "Fixed Asset Analysis (Obsolete)"
+- [Report 5601 "Fixed Asset - List"](../../../../../objects/report/5601.md) · captioned "Fixed Asset List"
+- [Report 5602 "Fixed Asset Journal - Test"](../../../../../objects/report/5602.md)
+- [Report 5603 "Fixed Asset Register"](../../../../../objects/report/5603.md)
+- [Report 5604 "Fixed Asset - Details"](../../../../../objects/report/5604.md) · captioned "Fixed Asset Details (Obsolete)"
+- [Report 5605 "Fixed Asset - Book Value 01"](../../../../../objects/report/5605.md) · captioned "Fixed Asset Book Value 01"
+- [Report 5606 "Fixed Asset - Book Value 02"](../../../../../objects/report/5606.md) · captioned "Fixed Asset Book Value 02"
+- [Report 5607 "Fixed Asset - Projected Value"](../../../../../objects/report/5607.md) · captioned "Fixed Asset Projected Value (Obsolete)"
+- [Report 5608 "Fixed Asset - Acquisition List"](../../../../../objects/report/5608.md) · captioned "Fixed Asset Acquisition List"
+- [Report 5610 "Fixed Asset - G/L Analysis"](../../../../../objects/report/5610.md) · captioned "Fixed Asset G/L Analysis"
+- [Report 5611 "FA Posting Group - Net Change"](../../../../../objects/report/5611.md)
+- [Report 5620 "Insurance - Analysis"](../../../../../objects/report/5620.md) · captioned "Fixed Asset Insurance Analysis"
+- [Report 5621 "Insurance - List"](../../../../../objects/report/5621.md) · captioned "Fixed Asset Insurance List"
+- [Report 5622 "Insurance Journal - Test"](../../../../../objects/report/5622.md)
+- [Report 5623 "Insurance Register"](../../../../../objects/report/5623.md)
+- [Report 5624 "Insurance - Coverage Details"](../../../../../objects/report/5624.md) · captioned "Fixed Asset Insurance Coverage Details"
+- [Report 5625 "Insurance - Tot. Value Insured"](../../../../../objects/report/5625.md) · captioned "Fixed Asset Total Value Insured"
+- [Report 5626 "Insurance - Uninsured FAs"](../../../../../objects/report/5626.md) · captioned "Uninsured Fixed Assets"
+- [Report 5630 "Maintenance - Analysis"](../../../../../objects/report/5630.md) · captioned "Fixed Asset Maintenance Analysis"
+- [Report 5634 "Maintenance - Details"](../../../../../objects/report/5634.md) · captioned "Fixed Asset Maintenance Details"
+- [Report 5635 "Maintenance - Next Service"](../../../../../objects/report/5635.md) · captioned "Fixed Asset Maintenance Next Service"
+- [Report 5636 "Fixed Asset Document Nos."](../../../../../objects/report/5636.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

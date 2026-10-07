@@ -59,31 +59,59 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18466",
+        "type": "codeunit",
+        "id": 18466,
+        "name": "Subcontracting Post",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18466-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/AppliedDeliveryChallan.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/18466",
+        "type": "table",
+        "id": 18466,
+        "name": "Applied Delivery Challan",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18466-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/DeliveryChallanLine.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/18469",
+        "type": "table",
+        "id": 18469,
+        "name": "Delivery Challan Line",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18469-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubOrderCompListVend.Table.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "table/18478",
+        "type": "table",
+        "id": 18478,
+        "name": "Sub Order Comp. List Vend",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18478-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
 }

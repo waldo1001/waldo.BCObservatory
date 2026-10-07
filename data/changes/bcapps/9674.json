@@ -40,16 +40,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INVoucherInterface/app/src/codeunit/CheckManagementSubscriber.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18970",
+        "type": "codeunit",
+        "id": 18970,
+        "name": "Check Management Subscriber",
+        "app": "INVoucherInterface",
+        "cc": "in",
+        "page": "codeunit/18970-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INVoucherInterface"
+  ]
 }

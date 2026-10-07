@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:32.124Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,13 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data
     - https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync
-  objects: []
+  objects:
+    - object/page/672
+    - object/page/5338
+    - object/page/7230
+    - object/page/7233
+    - object/page/7234
+    - object/page/7236
   features: []
   topics:
     - topic/business-central/development-and-administration
@@ -53,7 +59,7 @@ parent: topic/business-central/development-and-administration
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 6
   video: 1
   blog: 0
   guideline: 0
@@ -106,6 +112,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 672, 5338, 7230, 7233, 7234, 7236.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 672 "Job Queue Entries"](../../../objects/page/672.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md)
+- [Page 5338 "Integration Synch. Job List"](../../../objects/page/5338.md) · captioned "Integration Synchronization Jobs" · on [Table 5338 "Integration Synch. Job"](../../../objects/table/5338.md)
+- [Page 7230 "Master Data Management Setup"](../../../objects/page/7230.md) · on [Table 7230 "Master Data Management Setup"](../../../objects/table/7230.md)
+- [Page 7233 "Master Data Synch. Tables"](../../../objects/page/7233.md) · captioned "Synchronization Tables" · on [Table 5335 "Integration Table Mapping"](../../../objects/table/5335.md)
+- [Page 7234 "Master Data Full Synch. Review"](../../../objects/page/7234.md) · captioned "Master Data Initial Synchronization" · on [Table 7233 "Master Data Full Synch. R. Ln."](../../../objects/table/7233.md)
+- [Page 7236 "Master Data Synch. Fields"](../../../objects/page/7236.md) · captioned "Synchronization Fields" · on [Table 5336 "Integration Field Mapping"](../../../objects/table/5336.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

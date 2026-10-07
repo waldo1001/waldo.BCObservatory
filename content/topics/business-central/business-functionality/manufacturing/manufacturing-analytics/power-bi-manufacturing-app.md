@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:13.898Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,7 +188,27 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-load
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics
-  objects: []
+  objects:
+    - object/page/36951
+    - object/page/37040
+    - object/page/37041
+    - object/page/37042
+    - object/page/37043
+    - object/page/37044
+    - object/page/37045
+    - object/page/37046
+    - object/page/37047
+    - object/page/37048
+    - object/page/37049
+    - object/page/37055
+    - object/page/37063
+    - object/page/37094
+    - object/page/37095
+    - object/page/37096
+    - object/page/37097
+    - object/page/37098
+    - object/page/37099
+    - object/page/37107
   features: []
   topics:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
@@ -208,7 +228,7 @@ parent: topic/business-central/business-functionality/manufacturing/manufacturin
 children: []
 coverage:
   learn: 21
-  code: 0
+  code: 20
   video: 2
   blog: 0
   guideline: 0
@@ -295,6 +315,27 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37063, 37094, 37095, 37096, 37097, 37098, 37099, 37107.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
+- [Page 37040 "Current Utilization"](../../../../../objects/page/37040.md)
+- [Page 37041 "Historical Utilization"](../../../../../objects/page/37041.md)
+- [Page 37042 "PowerBI Work Center Load"](../../../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
+- [Page 37043 "Allocated Hours"](../../../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
+- [Page 37044 "Expected Capacity Need"](../../../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"
+- [Page 37045 "Finished Prod. Order Breakdown"](../../../../../objects/page/37045.md) · captioned "Finished Production Order Breakdown (Power BI)"
+- [Page 37046 "Consumption Variance"](../../../../../objects/page/37046.md) · captioned "Consumption Variance (Power BI)"
+- [Page 37047 "Capacity Variance"](../../../../../objects/page/37047.md) · captioned "Capacity Variance (Power BI)"
+- [Page 37048 "Average Productions Times"](../../../../../objects/page/37048.md) · captioned "Average Productions Times (Power BI)"
+- [Page 37049 "PowerBI Released Prod. Orders"](../../../../../objects/page/37049.md) · captioned "Released Production Orders (Power BI)"
+- [Page 37055 "Production Scrap"](../../../../../objects/page/37055.md) · captioned "Production Scrap (Power BI)"
+- [Page 37063 "Manufacturing Report"](../../../../../objects/page/37063.md) · captioned "Manufacturing Report (Power BI)"
+- [Page 37094 "PBI Work Center Statistics"](../../../../../objects/page/37094.md) · captioned "Work Center Statistics (Power BI)"
+- [Page 37095 "PBI Machine Center Statistics"](../../../../../objects/page/37095.md) · captioned "Machine Center Statistics (Power BI)"
+- [Page 37096 "PBI Machine Center Load"](../../../../../objects/page/37096.md) · captioned "Machine Center Load (Power BI)"
+- [Page 37097 "Prod. Order - List"](../../../../../objects/page/37097.md) · captioned "Production Order - List (Power BI)"
+- [Page 37098 "Production Order Overview"](../../../../../objects/page/37098.md) · captioned "Production Order Overview (Power BI)"
+- [Page 37099 "Prod. Order Routings Gantt"](../../../../../objects/page/37099.md) · captioned "Production Order Routings Gantt (Power BI)"
+- [Page 37107 "Production Order WIP"](../../../../../objects/page/37107.md) · captioned "Production Order WIP (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

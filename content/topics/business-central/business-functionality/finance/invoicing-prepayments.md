@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:18.409Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,18 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices
     - https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments
     - https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments
-  objects: []
+  objects:
+    - object/page/42
+    - object/page/44
+    - object/page/48
+    - object/page/50
+    - object/page/52
+    - object/page/314
+    - object/page/459
+    - object/page/460
+    - object/page/664
+    - object/page/9305
+    - object/page/9307
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -74,7 +85,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 11
   video: 0
   blog: 0
   guideline: 0
@@ -137,6 +148,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 42, 44, 48, 50, 52, 314, 459, 460, 664, 9305, 9307.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 42 "Sales Order"](../../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 44 "Sales Credit Memo"](../../../../objects/page/44.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 48 "Sales Orders"](../../../../objects/page/48.md) · on [Table 37 "Sales Line"](../../../../objects/table/37.md)
+- [Page 50 "Purchase Order"](../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 52 "Purchase Credit Memo"](../../../../objects/page/52.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 314 "General Posting Setup"](../../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../../objects/table/252.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../objects/table/311.md)
+- [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../../objects/table/312.md)
+- [Page 664 "Sales Prepayment Percentages"](../../../../objects/page/664.md) · on [Table 459 "Sales Prepayment %"](../../../../objects/table/459.md)
+- [Page 9305 "Sales Order List"](../../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9307 "Purchase Order List"](../../../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

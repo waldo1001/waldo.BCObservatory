@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:02.126Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory
-  objects: []
+  objects:
+    - object/page/279
+    - object/page/1700
+    - object/page/1701
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/belgium
@@ -78,7 +81,7 @@ parent: topic/business-central/business-functionality/local-functionality/belgiu
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -124,6 +127,10 @@ Start with the posting period and journal template pages if you are setting up a
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 279, 1700, 1701.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 279 "Source Code Setup"](../../../../../objects/page/279.md) · on [Table 242 "Source Code Setup"](../../../../../objects/table/242.md)
+- [Page 1700 "Deferral Template Card"](../../../../../objects/page/1700.md) · on [Table 1700 "Deferral Template"](../../../../../objects/table/1700.md)
+- [Page 1701 "Deferral Template List"](../../../../../objects/page/1701.md) · captioned "Deferral Templates" · on [Table 1700 "Deferral Template"](../../../../../objects/table/1700.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

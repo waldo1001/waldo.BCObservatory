@@ -126,7 +126,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
       {
         "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Page.al",
@@ -160,6 +160,17 @@
         "app": "External File Storage - SharePoint Connector",
         "cc": "w1",
         "page": "page/4581"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointPathFormat.Enum.al",
+        "status": "added",
+        "key": "enum/4580",
+        "type": "enum",
+        "id": 4580,
+        "name": "Ext. SharePoint Path Format",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "enum/4580"
       },
       {
         "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointRestHelper.Codeunit.al",
@@ -206,16 +217,10 @@
         "page": "codeunit/9110"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointPathFormat.Enum.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
-    "development",
+    "platform",
     "integration"
   ],
   "apps": [

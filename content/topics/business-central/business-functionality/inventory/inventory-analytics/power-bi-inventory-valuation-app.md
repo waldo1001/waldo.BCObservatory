@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:04.115Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
-  objects: []
+  objects:
+    - object/page/37056
+    - object/page/37057
+    - object/page/37058
+    - object/page/37065
   features: []
   topics:
     - topic/business-central/business-functionality/inventory/inventory-analytics
@@ -78,7 +82,7 @@ parent: topic/business-central/business-functionality/inventory/inventory-analyt
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -125,6 +129,11 @@ Start with the landing page for the scope of the app, then open the report page 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 37056, 37057, 37058, 37065.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 37056 "Inventory Valuation Overview"](../../../../../objects/page/37056.md) · captioned "Inventory Valuation Overview (Power BI)"
+- [Page 37057 "Inventory Valuation by Item"](../../../../../objects/page/37057.md) · captioned "Inventory Valuation by Item (Power BI)"
+- [Page 37058 "Inventory Valuation by Loc."](../../../../../objects/page/37058.md) · captioned "Inventory Valuation by Location (Power BI)"
+- [Page 37065 "Inventory Valuation Report"](../../../../../objects/page/37065.md) · captioned "Inventory Valuation Report (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

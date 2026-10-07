@@ -145,8 +145,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Codeunit/eInvoiceManagementforSer.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18161",
+        "type": "codeunit",
+        "id": 18161,
+        "name": "e-Invoice Management for Ser.",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18161-in"
+      },
       {
         "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItem.TableExt.al",
         "status": "modified",
@@ -258,18 +269,14 @@
         "page": "table/6217"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/IN/INGST/app/GSTService/src/Codeunit/eInvoiceManagementforSer.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
-    "sustainability"
+    "sustainability",
+    "finance"
   ],
   "apps": [
+    "INGST",
     "Sustainability"
   ]
 }

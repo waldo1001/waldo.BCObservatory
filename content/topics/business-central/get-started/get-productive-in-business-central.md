@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:55.378Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,45 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot
     - https://learn.microsoft.com/dynamics365/business-central/product-error-messages
     - https://learn.microsoft.com/dynamics365/business-central/ui-work-product
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/21
+    - object/page/31
+    - object/page/672
+    - object/page/676
+    - object/page/682
+    - object/page/1480
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/3563
+    - object/page/4010
+    - object/page/8896
+    - object/page/8900
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9019
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9663
+    - object/page/9666
+    - object/page/9670
   features: []
   topics:
     - topic/business-central/get-started
@@ -347,7 +385,7 @@ children:
   - topic/business-central/get-started/get-productive-in-business-central/accessibility-keyboard-shortcuts-and-tou
 coverage:
   learn: 55
-  code: 0
+  code: 38
   video: 0
   blog: 0
   guideline: 0
@@ -453,6 +491,45 @@ Start with Working with Business Central and Finding Pages with Tell Me for gene
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 21, 31, 672, 676, 682, 1480, 2650, 2750, 2752, 2753, 2754, 3563, 4010, 8896, 8900, 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9019, 9020, 9022, 9024, 9026, 9027, 9030, 9650, 9652, 9660, 9663, 9666, 9670.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1 "Company Information"](../../../objects/page/1.md) · on [Table 79 "Company Information"](../../../objects/table/79.md)
+- [Page 3563 "Allowed Languages"](../../../objects/page/3563.md) · on [Table 3563 "Allowed Language"](../../../objects/table/3563.md)
+- [Page 4010 "Intelligent Cloud"](../../../objects/page/4010.md)
+- [Page 8896 "Email Choose Scenario Attach"](../../../objects/page/8896.md) · captioned "Additional Attachments from Scenarios" · on [Table 8911 "Email Scenario Attachments"](../../../objects/table/8911.md)
+- [Page 9000 "Whse. WMS Role Center"](../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9019 "CEO and President Role Center"](../../../objects/page/9019.md) · captioned "President"
+- [Page 9020 "Small Business Owner RC"](../../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../objects/table/9054.md)
+- [Page 21 "Customer Card"](../../../objects/page/21.md) · on [Table 18 "Customer"](../../../objects/table/18.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 31 "Item List"](../../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../../objects/table/27.md) · via [Personalize Business Central](get-productive-in-business-central/personalize-business-central.md)
+- [Page 672 "Job Queue Entries"](../../../objects/page/672.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 676 "Schedule a Job"](../../../objects/page/676.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 682 "Schedule a Report"](../../../objects/page/682.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../objects/table/1480.md) · via [Get the most out of Microsoft 365 apps](get-productive-in-business-central/get-the-most-out-of-microsoft-365-apps.md)
+- [Page 2650 "Email Printer Settings"](../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../objects/table/2650.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 2750 "Universal Printer Settings"](../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../objects/table/2751.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../../objects/page/2752.md) · captioned "Add Universal Print Printers" · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 2753 "Universal Print Shares List"](../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../objects/table/2752.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 2754 "Universal Printer Tray List"](../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../objects/table/823.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 8900 "Administrator Main Role Center"](../../../objects/page/8900.md) · captioned "Administrator Role Center" · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
+- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9663 "Tenant Report Layout Cfg"](../../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9670 "Layout Theme and Header/Footer"](../../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

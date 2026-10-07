@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.651Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-archive-extension
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
-  objects: []
+  objects:
+    - object/page/4500
+    - object/page/4503
+    - object/page/4504
+    - object/page/4511
+    - object/page/4512
+    - object/page/6103
+    - object/page/6133
   features: []
   topics:
     - topic/dev-itpro/development/extensibility/extending-the-base-application
@@ -134,7 +141,7 @@ parent: topic/dev-itpro/development/extensibility/extending-the-base-application
 children: []
 coverage:
   learn: 12
-  code: 0
+  code: 7
   video: 0
   blog: 0
   guideline: 0
@@ -192,6 +199,14 @@ Start with the page that matches your area. Some pages center on implementing in
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4500, 4503, 4504, 4511, 4512, 6103, 6133.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4500 "Current User Email Account"](../../../../../objects/page/4500.md) · on [Table 4508 "Email - Outlook Account"](../../../../../objects/table/4508.md)
+- [Page 4503 "Microsoft 365 Email Account"](../../../../../objects/page/4503.md) · on [Table 4508 "Email - Outlook Account"](../../../../../objects/table/4508.md)
+- [Page 4504 "Microsoft 365 Email Wizard"](../../../../../objects/page/4504.md) · captioned "Set up Microsoft 365 email account" · on [Table 4508 "Email - Outlook Account"](../../../../../objects/table/4508.md)
+- [Page 4511 "SMTP Account Wizard"](../../../../../objects/page/4511.md) · captioned "Set up SMTP Account" · on [Table 4511 "SMTP Account"](../../../../../objects/table/4511.md)
+- [Page 4512 "SMTP Account"](../../../../../objects/page/4512.md) · on [Table 4511 "SMTP Account"](../../../../../objects/table/4511.md)
+- [Page 6103 "E-Document Services"](../../../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../../../objects/table/6103.md)
+- [Page 6133 "E-Document Service"](../../../../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../../../../objects/table/6103.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

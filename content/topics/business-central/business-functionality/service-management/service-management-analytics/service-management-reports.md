@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:51.300Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,7 +316,42 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5938
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5902
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5904
-  objects: []
+  objects:
+    - object/report/5900
+    - object/report/5901
+    - object/report/5902
+    - object/report/5904
+    - object/report/5908
+    - object/report/5909
+    - object/report/5910
+    - object/report/5911
+    - object/report/5912
+    - object/report/5913
+    - object/report/5915
+    - object/report/5935
+    - object/report/5936
+    - object/report/5937
+    - object/report/5938
+    - object/report/5939
+    - object/report/5955
+    - object/report/5956
+    - object/report/5970
+    - object/report/5971
+    - object/report/5972
+    - object/report/5973
+    - object/report/5974
+    - object/report/5976
+    - object/report/5977
+    - object/report/5978
+    - object/report/5980
+    - object/report/5981
+    - object/report/5982
+    - object/report/5983
+    - object/report/5984
+    - object/report/5985
+    - object/report/5987
+    - object/report/5988
+    - object/report/6080
   features: []
   topics:
     - topic/business-central/business-functionality/service-management/service-management-analytics
@@ -334,7 +369,7 @@ parent: topic/business-central/business-functionality/service-management/service
 children: []
 coverage:
   learn: 37
-  code: 0
+  code: 35
   video: 0
   blog: 0
   guideline: 0
@@ -442,6 +477,44 @@ This section lists the individual reports used to analyze and document service m
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5900, 5901, 5902, 5904, 5908, 5909, 5910, 5911, 5912, 5913, 5915, 5935, 5936, 5937, 5938, 5939, 5955, 5956, 5970, 5971, 5972, 5973, 5974, 5976, 5977, 5978, 5980, 5981, 5982, 5983, 5984, 5985, 5987, 5988, 6080, 6086.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 5900 "Service Order"](../../../../../objects/report/5900.md)
+- [Report 5901 "Service Item Line Labels"](../../../../../objects/report/5901.md)
+- [Report 5902 "Service Quote"](../../../../../objects/report/5902.md)
+- [Report 5904 "Service Tasks"](../../../../../objects/report/5904.md)
+- [Report 5908 "Service Order - Response Time"](../../../../../objects/report/5908.md)
+- [Report 5909 "Service Profit (Resp. Centers)"](../../../../../objects/report/5909.md)
+- [Report 5910 "Service Profit (Serv. Orders)"](../../../../../objects/report/5910.md)
+- [Report 5911 "Service - Invoice"](../../../../../objects/report/5911.md)
+- [Report 5912 "Service - Credit Memo"](../../../../../objects/report/5912.md)
+- [Report 5913 "Service - Shipment"](../../../../../objects/report/5913.md)
+- [Report 5915 "Service Document - Test"](../../../../../objects/report/5915.md)
+- [Report 5935 "Service Items"](../../../../../objects/report/5935.md)
+- [Report 5936 "Service Item Worksheet"](../../../../../objects/report/5936.md)
+- [Report 5937 "Service Items Out of Warranty"](../../../../../objects/report/5937.md)
+- [Report 5938 "Service Profit (Service Items)"](../../../../../objects/report/5938.md)
+- [Report 5939 "Service Item - Resource Usage"](../../../../../objects/report/5939.md)
+- [Report 5955 "Dispatch Board"](../../../../../objects/report/5955.md)
+- [Report 5956 "Service Load Level"](../../../../../objects/report/5956.md)
+- [Report 5970 "Service Contract"](../../../../../objects/report/5970.md)
+- [Report 5971 "Service Contract-Detail"](../../../../../objects/report/5971.md)
+- [Report 5972 "Service Contract Quote"](../../../../../objects/report/5972.md)
+- [Report 5973 "Service Contract Quote-Detail"](../../../../../objects/report/5973.md)
+- [Report 5974 "Contract Quotes to Be Signed"](../../../../../objects/report/5974.md)
+- [Report 5976 "Service Profit (Contracts)"](../../../../../objects/report/5976.md)
+- [Report 5977 "Service Contract - Customer"](../../../../../objects/report/5977.md)
+- [Report 5978 "Serv. Contract - Salesperson"](../../../../../objects/report/5978.md)
+- [Report 5980 "Maintenance Visit - Planning"](../../../../../objects/report/5980.md)
+- [Report 5981 "Contr. Gain/Loss - Resp. Ctr."](../../../../../objects/report/5981.md)
+- [Report 5982 "Maintenance Performance"](../../../../../objects/report/5982.md)
+- [Report 5983 "Contract Gain/Loss Entries"](../../../../../objects/report/5983.md)
+- [Report 5984 "Contract Invoicing"](../../../../../objects/report/5984.md) · captioned "Contract Invoicing - Test"
+- [Report 5985 "Contract Price Update - Test"](../../../../../objects/report/5985.md)
+- [Report 5987 "Expired Contract Lines - Test"](../../../../../objects/report/5987.md)
+- [Report 5988 "Contr. Serv. Orders - Test"](../../../../../objects/report/5988.md)
+- [Report 6080 "Serv. Pricing Profitability"](../../../../../objects/report/6080.md) · captioned "Service Pricing Profitability"
+
+Learn also names 1 object with no object page: report/6086.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

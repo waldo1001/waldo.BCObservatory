@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 9faa11a5a383042dbf67201e391d3ff074bb3c63d7e6afb95c33c01f43886990
+  input_hash: 195a7795aff9aea963a2ed526d8a21835c55f48a93d3145ff82a0dfb4114bbc6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-at
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -473,6 +473,6 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 
 ## Other versions
 
-- BC30: 172 objects differ from W1 (58 fields, 3 events added)
+- BC30: 179 objects differ from W1 (58 fields, 3 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

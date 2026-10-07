@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T13:37:16.092Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -300,7 +300,1578 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/across-business-functionality
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/4
+    - object/page/5
+    - object/page/6
+    - object/page/7
+    - object/page/10
+    - object/page/11
+    - object/page/14
+    - object/page/15
+    - object/page/16
+    - object/page/17
+    - object/page/18
+    - object/page/20
+    - object/page/21
+    - object/page/22
+    - object/page/25
+    - object/page/26
+    - object/page/27
+    - object/page/29
+    - object/page/30
+    - object/page/31
+    - object/page/32
+    - object/page/33
+    - object/page/34
+    - object/page/35
+    - object/page/36
+    - object/page/37
+    - object/page/39
+    - object/page/40
+    - object/page/41
+    - object/page/42
+    - object/page/43
+    - object/page/44
+    - object/page/48
+    - object/page/49
+    - object/page/50
+    - object/page/51
+    - object/page/52
+    - object/page/53
+    - object/page/56
+    - object/page/62
+    - object/page/63
+    - object/page/65
+    - object/page/72
+    - object/page/76
+    - object/page/77
+    - object/page/88
+    - object/page/89
+    - object/page/92
+    - object/page/97
+    - object/page/98
+    - object/page/99
+    - object/page/100
+    - object/page/101
+    - object/page/102
+    - object/page/103
+    - object/page/104
+    - object/page/108
+    - object/page/113
+    - object/page/116
+    - object/page/118
+    - object/page/120
+    - object/page/121
+    - object/page/124
+    - object/page/130
+    - object/page/132
+    - object/page/134
+    - object/page/136
+    - object/page/138
+    - object/page/140
+    - object/page/142
+    - object/page/143
+    - object/page/144
+    - object/page/145
+    - object/page/146
+    - object/page/147
+    - object/page/148
+    - object/page/154
+    - object/page/157
+    - object/page/161
+    - object/page/165
+    - object/page/170
+    - object/page/172
+    - object/page/175
+    - object/page/176
+    - object/page/177
+    - object/page/178
+    - object/page/182
+    - object/page/184
+    - object/page/185
+    - object/page/187
+    - object/page/189
+    - object/page/190
+    - object/page/191
+    - object/page/195
+    - object/page/196
+    - object/page/197
+    - object/page/198
+    - object/page/200
+    - object/page/201
+    - object/page/203
+    - object/page/204
+    - object/page/206
+    - object/page/207
+    - object/page/211
+    - object/page/212
+    - object/page/233
+    - object/page/234
+    - object/page/240
+    - object/page/249
+    - object/page/250
+    - object/page/251
+    - object/page/253
+    - object/page/254
+    - object/page/255
+    - object/page/256
+    - object/page/257
+    - object/page/259
+    - object/page/261
+    - object/page/262
+    - object/page/271
+    - object/page/275
+    - object/page/276
+    - object/page/279
+    - object/page/283
+    - object/page/284
+    - object/page/289
+    - object/page/290
+    - object/page/291
+    - object/page/292
+    - object/page/293
+    - object/page/295
+    - object/page/300
+    - object/page/301
+    - object/page/306
+    - object/page/307
+    - object/page/308
+    - object/page/309
+    - object/page/310
+    - object/page/312
+    - object/page/313
+    - object/page/314
+    - object/page/315
+    - object/page/317
+    - object/page/318
+    - object/page/320
+    - object/page/321
+    - object/page/322
+    - object/page/323
+    - object/page/342
+    - object/page/344
+    - object/page/346
+    - object/page/347
+    - object/page/350
+    - object/page/353
+    - object/page/359
+    - object/page/360
+    - object/page/367
+    - object/page/368
+    - object/page/369
+    - object/page/370
+    - object/page/371
+    - object/page/372
+    - object/page/373
+    - object/page/374
+    - object/page/375
+    - object/page/376
+    - object/page/377
+    - object/page/378
+    - object/page/385
+    - object/page/386
+    - object/page/389
+    - object/page/391
+    - object/page/393
+    - object/page/395
+    - object/page/403
+    - object/page/404
+    - object/page/405
+    - object/page/406
+    - object/page/408
+    - object/page/422
+    - object/page/423
+    - object/page/424
+    - object/page/425
+    - object/page/426
+    - object/page/427
+    - object/page/428
+    - object/page/431
+    - object/page/432
+    - object/page/434
+    - object/page/436
+    - object/page/437
+    - object/page/440
+    - object/page/442
+    - object/page/443
+    - object/page/448
+    - object/page/452
+    - object/page/456
+    - object/page/457
+    - object/page/458
+    - object/page/459
+    - object/page/460
+    - object/page/461
+    - object/page/462
+    - object/page/463
+    - object/page/466
+    - object/page/467
+    - object/page/468
+    - object/page/469
+    - object/page/470
+    - object/page/471
+    - object/page/472
+    - object/page/473
+    - object/page/474
+    - object/page/475
+    - object/page/478
+    - object/page/479
+    - object/page/480
+    - object/page/481
+    - object/page/483
+    - object/page/484
+    - object/page/485
+    - object/page/488
+    - object/page/489
+    - object/page/490
+    - object/page/491
+    - object/page/492
+    - object/page/493
+    - object/page/494
+    - object/page/495
+    - object/page/499
+    - object/page/500
+    - object/page/501
+    - object/page/504
+    - object/page/506
+    - object/page/507
+    - object/page/509
+    - object/page/512
+    - object/page/515
+    - object/page/516
+    - object/page/517
+    - object/page/518
+    - object/page/519
+    - object/page/521
+    - object/page/522
+    - object/page/524
+    - object/page/525
+    - object/page/536
+    - object/page/537
+    - object/page/538
+    - object/page/539
+    - object/page/540
+    - object/page/541
+    - object/page/542
+    - object/page/543
+    - object/page/544
+    - object/page/545
+    - object/page/548
+    - object/page/550
+    - object/page/552
+    - object/page/555
+    - object/page/556
+    - object/page/557
+    - object/page/558
+    - object/page/560
+    - object/page/562
+    - object/page/564
+    - object/page/567
+    - object/page/568
+    - object/page/569
+    - object/page/570
+    - object/page/572
+    - object/page/574
+    - object/page/575
+    - object/page/577
+    - object/page/578
+    - object/page/580
+    - object/page/599
+    - object/page/600
+    - object/page/601
+    - object/page/602
+    - object/page/603
+    - object/page/605
+    - object/page/606
+    - object/page/607
+    - object/page/608
+    - object/page/609
+    - object/page/610
+    - object/page/611
+    - object/page/612
+    - object/page/613
+    - object/page/614
+    - object/page/615
+    - object/page/616
+    - object/page/617
+    - object/page/618
+    - object/page/619
+    - object/page/620
+    - object/page/621
+    - object/page/623
+    - object/page/624
+    - object/page/625
+    - object/page/634
+    - object/page/636
+    - object/page/637
+    - object/page/638
+    - object/page/639
+    - object/page/640
+    - object/page/641
+    - object/page/642
+    - object/page/643
+    - object/page/644
+    - object/page/645
+    - object/page/646
+    - object/page/647
+    - object/page/648
+    - object/page/649
+    - object/page/650
+    - object/page/651
+    - object/page/652
+    - object/page/653
+    - object/page/654
+    - object/page/662
+    - object/page/663
+    - object/page/664
+    - object/page/666
+    - object/page/671
+    - object/page/672
+    - object/page/673
+    - object/page/674
+    - object/page/686
+    - object/page/687
+    - object/page/689
+    - object/page/699
+    - object/page/734
+    - object/page/737
+    - object/page/738
+    - object/page/739
+    - object/page/740
+    - object/page/741
+    - object/page/742
+    - object/page/743
+    - object/page/744
+    - object/page/745
+    - object/page/746
+    - object/page/747
+    - object/page/748
+    - object/page/750
+    - object/page/751
+    - object/page/752
+    - object/page/753
+    - object/page/754
+    - object/page/755
+    - object/page/762
+    - object/page/764
+    - object/page/765
+    - object/page/766
+    - object/page/785
+    - object/page/786
+    - object/page/790
+    - object/page/791
+    - object/page/800
+    - object/page/804
+    - object/page/806
+    - object/page/840
+    - object/page/841
+    - object/page/846
+    - object/page/847
+    - object/page/848
+    - object/page/849
+    - object/page/850
+    - object/page/851
+    - object/page/855
+    - object/page/857
+    - object/page/858
+    - object/page/859
+    - object/page/860
+    - object/page/862
+    - object/page/863
+    - object/page/865
+    - object/page/866
+    - object/page/867
+    - object/page/868
+    - object/page/869
+    - object/page/900
+    - object/page/901
+    - object/page/902
+    - object/page/903
+    - object/page/904
+    - object/page/905
+    - object/page/907
+    - object/page/908
+    - object/page/909
+    - object/page/910
+    - object/page/911
+    - object/page/912
+    - object/page/914
+    - object/page/915
+    - object/page/916
+    - object/page/917
+    - object/page/920
+    - object/page/921
+    - object/page/922
+    - object/page/923
+    - object/page/925
+    - object/page/926
+    - object/page/930
+    - object/page/931
+    - object/page/932
+    - object/page/940
+    - object/page/941
+    - object/page/942
+    - object/page/946
+    - object/page/949
+    - object/page/951
+    - object/page/973
+    - object/page/977
+    - object/page/981
+    - object/page/1001
+    - object/page/1002
+    - object/page/1003
+    - object/page/1004
+    - object/page/1005
+    - object/page/1006
+    - object/page/1007
+    - object/page/1010
+    - object/page/1012
+    - object/page/1020
+    - object/page/1029
+    - object/page/1100
+    - object/page/1101
+    - object/page/1102
+    - object/page/1103
+    - object/page/1104
+    - object/page/1105
+    - object/page/1106
+    - object/page/1107
+    - object/page/1108
+    - object/page/1109
+    - object/page/1111
+    - object/page/1112
+    - object/page/1113
+    - object/page/1114
+    - object/page/1115
+    - object/page/1116
+    - object/page/1117
+    - object/page/1118
+    - object/page/1119
+    - object/page/1120
+    - object/page/1121
+    - object/page/1122
+    - object/page/1123
+    - object/page/1124
+    - object/page/1131
+    - object/page/1132
+    - object/page/1133
+    - object/page/1135
+    - object/page/1151
+    - object/page/1154
+    - object/page/1155
+    - object/page/1156
+    - object/page/1157
+    - object/page/1158
+    - object/page/1164
+    - object/page/1165
+    - object/page/1166
+    - object/page/1170
+    - object/page/1171
+    - object/page/1172
+    - object/page/1175
+    - object/page/1176
+    - object/page/1177
+    - object/page/1190
+    - object/page/1191
+    - object/page/1200
+    - object/page/1205
+    - object/page/1206
+    - object/page/1207
+    - object/page/1208
+    - object/page/1209
+    - object/page/1210
+    - object/page/1211
+    - object/page/1213
+    - object/page/1214
+    - object/page/1215
+    - object/page/1216
+    - object/page/1217
+    - object/page/1227
+    - object/page/1228
+    - object/page/1229
+    - object/page/1230
+    - object/page/1231
+    - object/page/1232
+    - object/page/1233
+    - object/page/1234
+    - object/page/1240
+    - object/page/1262
+    - object/page/1263
+    - object/page/1279
+    - object/page/1280
+    - object/page/1284
+    - object/page/1287
+    - object/page/1290
+    - object/page/1291
+    - object/page/1293
+    - object/page/1294
+    - object/page/1314
+    - object/page/1315
+    - object/page/1316
+    - object/page/1330
+    - object/page/1343
+    - object/page/1346
+    - object/page/1350
+    - object/page/1378
+    - object/page/1379
+    - object/page/1380
+    - object/page/1381
+    - object/page/1382
+    - object/page/1383
+    - object/page/1384
+    - object/page/1385
+    - object/page/1386
+    - object/page/1393
+    - object/page/1394
+    - object/page/1401
+    - object/page/1500
+    - object/page/1501
+    - object/page/1503
+    - object/page/1504
+    - object/page/1505
+    - object/page/1512
+    - object/page/1513
+    - object/page/1530
+    - object/page/1533
+    - object/page/1615
+    - object/page/1627
+    - object/page/1628
+    - object/page/1660
+    - object/page/1661
+    - object/page/1680
+    - object/page/1690
+    - object/page/1692
+    - object/page/1700
+    - object/page/1701
+    - object/page/1702
+    - object/page/1703
+    - object/page/1704
+    - object/page/1705
+    - object/page/1706
+    - object/page/1707
+    - object/page/1808
+    - object/page/1818
+    - object/page/1827
+    - object/page/1831
+    - object/page/1832
+    - object/page/1872
+    - object/page/1873
+    - object/page/1877
+    - object/page/1950
+    - object/page/1951
+    - object/page/2580
+    - object/page/2581
+    - object/page/2582
+    - object/page/2583
+    - object/page/2584
+    - object/page/2585
+    - object/page/2586
+    - object/page/2587
+    - object/page/2588
+    - object/page/2590
+    - object/page/2591
+    - object/page/2592
+    - object/page/2593
+    - object/page/2616
+    - object/page/2623
+    - object/page/2631
+    - object/page/2632
+    - object/page/2633
+    - object/page/2634
+    - object/page/2650
+    - object/page/2670
+    - object/page/2673
+    - object/page/2674
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/4400
+    - object/page/4410
+    - object/page/4810
+    - object/page/4811
+    - object/page/5050
+    - object/page/5052
+    - object/page/5076
+    - object/page/5091
+    - object/page/5093
+    - object/page/5109
+    - object/page/5110
+    - object/page/5116
+    - object/page/5119
+    - object/page/5159
+    - object/page/5162
+    - object/page/5164
+    - object/page/5167
+    - object/page/5200
+    - object/page/5201
+    - object/page/5204
+    - object/page/5206
+    - object/page/5208
+    - object/page/5209
+    - object/page/5211
+    - object/page/5212
+    - object/page/5221
+    - object/page/5224
+    - object/page/5228
+    - object/page/5237
+    - object/page/5238
+    - object/page/5239
+    - object/page/5240
+    - object/page/5260
+    - object/page/5264
+    - object/page/5266
+    - object/page/5267
+    - object/page/5270
+    - object/page/5401
+    - object/page/5404
+    - object/page/5406
+    - object/page/5407
+    - object/page/5414
+    - object/page/5415
+    - object/page/5416
+    - object/page/5417
+    - object/page/5430
+    - object/page/5510
+    - object/page/5522
+    - object/page/5524
+    - object/page/5526
+    - object/page/5530
+    - object/page/5551
+    - object/page/5579
+    - object/page/5582
+    - object/page/5587
+    - object/page/5600
+    - object/page/5601
+    - object/page/5602
+    - object/page/5603
+    - object/page/5604
+    - object/page/5605
+    - object/page/5606
+    - object/page/5607
+    - object/page/5608
+    - object/page/5609
+    - object/page/5610
+    - object/page/5611
+    - object/page/5612
+    - object/page/5613
+    - object/page/5615
+    - object/page/5616
+    - object/page/5617
+    - object/page/5619
+    - object/page/5620
+    - object/page/5622
+    - object/page/5623
+    - object/page/5625
+    - object/page/5627
+    - object/page/5628
+    - object/page/5629
+    - object/page/5630
+    - object/page/5631
+    - object/page/5633
+    - object/page/5634
+    - object/page/5635
+    - object/page/5636
+    - object/page/5637
+    - object/page/5638
+    - object/page/5640
+    - object/page/5641
+    - object/page/5642
+    - object/page/5644
+    - object/page/5645
+    - object/page/5646
+    - object/page/5647
+    - object/page/5648
+    - object/page/5649
+    - object/page/5650
+    - object/page/5651
+    - object/page/5652
+    - object/page/5653
+    - object/page/5655
+    - object/page/5656
+    - object/page/5658
+    - object/page/5659
+    - object/page/5660
+    - object/page/5661
+    - object/page/5662
+    - object/page/5663
+    - object/page/5664
+    - object/page/5666
+    - object/page/5671
+    - object/page/5703
+    - object/page/5709
+    - object/page/5716
+    - object/page/5717
+    - object/page/5718
+    - object/page/5719
+    - object/page/5720
+    - object/page/5727
+    - object/page/5728
+    - object/page/5729
+    - object/page/5730
+    - object/page/5733
+    - object/page/5740
+    - object/page/5768
+    - object/page/5775
+    - object/page/5800
+    - object/page/5805
+    - object/page/5814
+    - object/page/5828
+    - object/page/5830
+    - object/page/5832
+    - object/page/5839
+    - object/page/5841
+    - object/page/5845
+    - object/page/5870
+    - object/page/5871
+    - object/page/5872
+    - object/page/5874
+    - object/page/5900
+    - object/page/5902
+    - object/page/5905
+    - object/page/5914
+    - object/page/5919
+    - object/page/5932
+    - object/page/5933
+    - object/page/5934
+    - object/page/5935
+    - object/page/5936
+    - object/page/5952
+    - object/page/5964
+    - object/page/5966
+    - object/page/5972
+    - object/page/5973
+    - object/page/5975
+    - object/page/5976
+    - object/page/5978
+    - object/page/5979
+    - object/page/6030
+    - object/page/6033
+    - object/page/6034
+    - object/page/6103
+    - object/page/6121
+    - object/page/6133
+    - object/page/6167
+    - object/page/6210
+    - object/page/6213
+    - object/page/6214
+    - object/page/6216
+    - object/page/6219
+    - object/page/6220
+    - object/page/6221
+    - object/page/6235
+    - object/page/6245
+    - object/page/6250
+    - object/page/6285
+    - object/page/6287
+    - object/page/6560
+    - object/page/6620
+    - object/page/6622
+    - object/page/6623
+    - object/page/6627
+    - object/page/6629
+    - object/page/6630
+    - object/page/6633
+    - object/page/6640
+    - object/page/6643
+    - object/page/6644
+    - object/page/6650
+    - object/page/6652
+    - object/page/6660
+    - object/page/6662
+    - object/page/6774
+    - object/page/6775
+    - object/page/6776
+    - object/page/6784
+    - object/page/6786
+    - object/page/6788
+    - object/page/6789
+    - object/page/6790
+    - object/page/6900
+    - object/page/6901
+    - object/page/6903
+    - object/page/6910
+    - object/page/6911
+    - object/page/6920
+    - object/page/6930
+    - object/page/6933
+    - object/page/6937
+    - object/page/6939
+    - object/page/6945
+    - object/page/6946
+    - object/page/6949
+    - object/page/6951
+    - object/page/6952
+    - object/page/6953
+    - object/page/6960
+    - object/page/6973
+    - object/page/6974
+    - object/page/6975
+    - object/page/6976
+    - object/page/6979
+    - object/page/6980
+    - object/page/6981
+    - object/page/6987
+    - object/page/6988
+    - object/page/6989
+    - object/page/6990
+    - object/page/6992
+    - object/page/6996
+    - object/page/6997
+    - object/page/6998
+    - object/page/7001
+    - object/page/7011
+    - object/page/7012
+    - object/page/7014
+    - object/page/7015
+    - object/page/7016
+    - object/page/7017
+    - object/page/7018
+    - object/page/7022
+    - object/page/7024
+    - object/page/7101
+    - object/page/7127
+    - object/page/7128
+    - object/page/7129
+    - object/page/7130
+    - object/page/7132
+    - object/page/7133
+    - object/page/7136
+    - object/page/7137
+    - object/page/7138
+    - object/page/7139
+    - object/page/7177
+    - object/page/7189
+    - object/page/7190
+    - object/page/7300
+    - object/page/7301
+    - object/page/7302
+    - object/page/7303
+    - object/page/7304
+    - object/page/7305
+    - object/page/7306
+    - object/page/7307
+    - object/page/7308
+    - object/page/7312
+    - object/page/7313
+    - object/page/7314
+    - object/page/7315
+    - object/page/7321
+    - object/page/7322
+    - object/page/7323
+    - object/page/7325
+    - object/page/7328
+    - object/page/7329
+    - object/page/7330
+    - object/page/7332
+    - object/page/7333
+    - object/page/7335
+    - object/page/7337
+    - object/page/7339
+    - object/page/7340
+    - object/page/7341
+    - object/page/7342
+    - object/page/7344
+    - object/page/7346
+    - object/page/7347
+    - object/page/7348
+    - object/page/7349
+    - object/page/7351
+    - object/page/7352
+    - object/page/7353
+    - object/page/7355
+    - object/page/7362
+    - object/page/7363
+    - object/page/7366
+    - object/page/7367
+    - object/page/7368
+    - object/page/7369
+    - object/page/7370
+    - object/page/7371
+    - object/page/7372
+    - object/page/7373
+    - object/page/7374
+    - object/page/7382
+    - object/page/7384
+    - object/page/7386
+    - object/page/7387
+    - object/page/7399
+    - object/page/7400
+    - object/page/7401
+    - object/page/7414
+    - object/page/7416
+    - object/page/7600
+    - object/page/7601
+    - object/page/7602
+    - object/page/8004
+    - object/page/8005
+    - object/page/8008
+    - object/page/8009
+    - object/page/8013
+    - object/page/8014
+    - object/page/8015
+    - object/page/8025
+    - object/page/8031
+    - object/page/8035
+    - object/page/8036
+    - object/page/8037
+    - object/page/8038
+    - object/page/8041
+    - object/page/8042
+    - object/page/8043
+    - object/page/8044
+    - object/page/8051
+    - object/page/8052
+    - object/page/8053
+    - object/page/8054
+    - object/page/8057
+    - object/page/8059
+    - object/page/8060
+    - object/page/8061
+    - object/page/8067
+    - object/page/8070
+    - object/page/8071
+    - object/page/8079
+    - object/page/8084
+    - object/page/8096
+    - object/page/8364
+    - object/page/8510
+    - object/page/8645
+    - object/page/8893
+    - object/page/8897
+    - object/page/8898
+    - object/page/8900
+    - object/page/8903
+    - object/page/8904
+    - object/page/9000
+    - object/page/9001
+    - object/page/9002
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9008
+    - object/page/9009
+    - object/page/9010
+    - object/page/9011
+    - object/page/9012
+    - object/page/9013
+    - object/page/9014
+    - object/page/9015
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/9038
+    - object/page/9041
+    - object/page/9044
+    - object/page/9047
+    - object/page/9080
+    - object/page/9081
+    - object/page/9083
+    - object/page/9084
+    - object/page/9091
+    - object/page/9101
+    - object/page/9125
+    - object/page/9203
+    - object/page/9219
+    - object/page/9231
+    - object/page/9233
+    - object/page/9239
+    - object/page/9251
+    - object/page/9252
+    - object/page/9253
+    - object/page/9275
+    - object/page/9277
+    - object/page/9287
+    - object/page/9291
+    - object/page/9293
+    - object/page/9295
+    - object/page/9297
+    - object/page/9300
+    - object/page/9301
+    - object/page/9302
+    - object/page/9303
+    - object/page/9304
+    - object/page/9305
+    - object/page/9306
+    - object/page/9307
+    - object/page/9308
+    - object/page/9309
+    - object/page/9310
+    - object/page/9314
+    - object/page/9323
+    - object/page/9324
+    - object/page/9325
+    - object/page/9326
+    - object/page/9327
+    - object/page/9330
+    - object/page/9345
+    - object/page/9346
+    - object/page/9347
+    - object/page/9348
+    - object/page/9349
+    - object/page/9370
+    - object/page/9371
+    - object/page/9372
+    - object/page/9373
+    - object/page/9374
+    - object/page/9401
+    - object/page/9813
+    - object/page/9814
+    - object/page/9901
+    - object/page/20100
+    - object/page/20101
+    - object/page/20102
+    - object/page/20105
+    - object/page/20106
+    - object/page/20107
+    - object/page/20109
+    - object/page/20353
+    - object/page/20400
+    - object/page/20402
+    - object/page/20404
+    - object/page/20406
+    - object/page/20407
+    - object/page/20408
+    - object/page/20416
+    - object/page/22207
+    - object/page/30100
+    - object/page/30101
+    - object/page/30102
+    - object/page/30103
+    - object/page/30104
+    - object/page/30105
+    - object/page/30106
+    - object/page/30107
+    - object/page/30108
+    - object/page/30109
+    - object/page/30110
+    - object/page/30111
+    - object/page/30112
+    - object/page/30113
+    - object/page/30114
+    - object/page/30115
+    - object/page/30116
+    - object/page/30117
+    - object/page/30118
+    - object/page/30119
+    - object/page/30120
+    - object/page/30121
+    - object/page/30122
+    - object/page/30123
+    - object/page/30124
+    - object/page/30125
+    - object/page/30126
+    - object/page/30127
+    - object/page/30128
+    - object/page/30129
+    - object/page/30130
+    - object/page/30131
+    - object/page/30132
+    - object/page/30133
+    - object/page/30134
+    - object/page/30135
+    - object/page/30145
+    - object/page/30147
+    - object/page/30150
+    - object/page/30151
+    - object/page/30156
+    - object/page/30157
+    - object/page/30159
+    - object/page/30167
+    - object/page/30168
+    - object/page/30174
+    - object/page/36951
+    - object/page/36961
+    - object/page/36983
+    - object/page/36984
+    - object/page/36985
+    - object/page/36986
+    - object/page/36987
+    - object/page/36988
+    - object/page/36989
+    - object/page/36990
+    - object/page/36991
+    - object/page/36992
+    - object/page/36993
+    - object/page/36994
+    - object/page/36995
+    - object/page/36996
+    - object/page/36997
+    - object/page/36998
+    - object/page/36999
+    - object/page/37000
+    - object/page/37001
+    - object/page/37002
+    - object/page/37003
+    - object/page/37004
+    - object/page/37005
+    - object/page/37006
+    - object/page/37007
+    - object/page/37008
+    - object/page/37009
+    - object/page/37010
+    - object/page/37011
+    - object/page/37012
+    - object/page/37013
+    - object/page/37014
+    - object/page/37015
+    - object/page/37016
+    - object/page/37017
+    - object/page/37018
+    - object/page/37019
+    - object/page/37020
+    - object/page/37021
+    - object/page/37022
+    - object/page/37023
+    - object/page/37024
+    - object/page/37025
+    - object/page/37026
+    - object/page/37027
+    - object/page/37028
+    - object/page/37029
+    - object/page/37030
+    - object/page/37031
+    - object/page/37032
+    - object/page/37033
+    - object/page/37034
+    - object/page/37035
+    - object/page/37036
+    - object/page/37037
+    - object/page/37038
+    - object/page/37039
+    - object/page/37040
+    - object/page/37041
+    - object/page/37042
+    - object/page/37043
+    - object/page/37044
+    - object/page/37045
+    - object/page/37046
+    - object/page/37047
+    - object/page/37048
+    - object/page/37049
+    - object/page/37055
+    - object/page/37056
+    - object/page/37057
+    - object/page/37058
+    - object/page/37059
+    - object/page/37061
+    - object/page/37062
+    - object/page/37063
+    - object/page/37064
+    - object/page/37065
+    - object/page/37066
+    - object/page/37094
+    - object/page/37095
+    - object/page/37096
+    - object/page/37097
+    - object/page/37098
+    - object/page/37099
+    - object/page/37100
+    - object/page/37101
+    - object/page/37102
+    - object/page/37103
+    - object/page/37104
+    - object/page/37105
+    - object/page/37106
+    - object/page/37107
+    - object/page/37109
+    - object/page/37110
+    - object/page/37111
+    - object/page/37112
+    - object/page/37113
+    - object/page/37114
+    - object/page/37115
+    - object/page/37116
+    - object/page/37117
+    - object/page/37118
+    - object/page/37119
+    - object/page/99000750
+    - object/page/99000751
+    - object/page/99000752
+    - object/page/99000753
+    - object/page/99000754
+    - object/page/99000755
+    - object/page/99000756
+    - object/page/99000758
+    - object/page/99000759
+    - object/page/99000760
+    - object/page/99000761
+    - object/page/99000762
+    - object/page/99000764
+    - object/page/99000765
+    - object/page/99000766
+    - object/page/99000767
+    - object/page/99000768
+    - object/page/99000769
+    - object/page/99000770
+    - object/page/99000771
+    - object/page/99000772
+    - object/page/99000773
+    - object/page/99000778
+    - object/page/99000779
+    - object/page/99000780
+    - object/page/99000784
+    - object/page/99000785
+    - object/page/99000786
+    - object/page/99000787
+    - object/page/99000788
+    - object/page/99000789
+    - object/page/99000790
+    - object/page/99000791
+    - object/page/99000792
+    - object/page/99000793
+    - object/page/99000794
+    - object/page/99000795
+    - object/page/99000796
+    - object/page/99000797
+    - object/page/99000798
+    - object/page/99000799
+    - object/page/99000800
+    - object/page/99000802
+    - object/page/99000803
+    - object/page/99000804
+    - object/page/99000805
+    - object/page/99000806
+    - object/page/99000807
+    - object/page/99000808
+    - object/page/99000809
+    - object/page/99000810
+    - object/page/99000811
+    - object/page/99000812
+    - object/page/99000813
+    - object/page/99000814
+    - object/page/99000815
+    - object/page/99000816
+    - object/page/99000817
+    - object/page/99000818
+    - object/page/99000820
+    - object/page/99000822
+    - object/page/99000823
+    - object/page/99000827
+    - object/page/99000829
+    - object/page/99000830
+    - object/page/99000831
+    - object/page/99000832
+    - object/page/99000833
+    - object/page/99000834
+    - object/page/99000835
+    - object/page/99000836
+    - object/page/99000837
+    - object/page/99000838
+    - object/page/99000839
+    - object/page/99000840
+    - object/page/99000841
+    - object/page/99000842
+    - object/page/99000843
+    - object/page/99000844
+    - object/page/99000845
+    - object/page/99000846
+    - object/page/99000850
+    - object/page/99000852
+    - object/page/99000855
+    - object/page/99000860
+    - object/page/99000861
+    - object/page/99000862
+    - object/page/99000863
+    - object/page/99000866
+    - object/page/99000867
+    - object/page/99000868
+    - object/page/99000882
+    - object/page/99000883
+    - object/page/99000884
+    - object/page/99000886
+    - object/page/99000887
+    - object/page/99000888
+    - object/page/99000889
+    - object/page/99000890
+    - object/page/99000891
+    - object/page/99000892
+    - object/page/99000896
+    - object/page/99000897
+    - object/page/99000898
+    - object/page/99000900
+    - object/page/99000902
+    - object/page/99000912
+    - object/page/99000913
+    - object/page/99000914
+    - object/page/99000915
+    - object/page/99000916
+    - object/page/99000917
+    - object/page/99000920
+    - object/page/99000921
+    - object/page/99000922
+    - object/query/123
+    - object/report/1
+    - object/report/3
+    - object/report/4
+    - object/report/5
+    - object/report/6
+    - object/report/7
+    - object/report/9
+    - object/report/10
+    - object/report/11
+    - object/report/12
+    - object/report/13
+    - object/report/16
+    - object/report/17
+    - object/report/18
+    - object/report/19
+    - object/report/20
+    - object/report/25
+    - object/report/27
+    - object/report/28
+    - object/report/30
+    - object/report/31
+    - object/report/32
+    - object/report/33
+    - object/report/36
+    - object/report/37
+    - object/report/38
+    - object/report/86
+    - object/report/101
+    - object/report/104
+    - object/report/107
+    - object/report/108
+    - object/report/109
+    - object/report/111
+    - object/report/112
+    - object/report/113
+    - object/report/114
+    - object/report/115
+    - object/report/117
+    - object/report/119
+    - object/report/120
+    - object/report/121
+    - object/report/129
+    - object/report/151
+    - object/report/154
+    - object/report/155
+    - object/report/156
+    - object/report/209
+    - object/report/211
+    - object/report/301
+    - object/report/304
+    - object/report/305
+    - object/report/307
+    - object/report/308
+    - object/report/311
+    - object/report/312
+    - object/report/313
+    - object/report/317
+    - object/report/319
+    - object/report/320
+    - object/report/321
+    - object/report/322
+    - object/report/329
+    - object/report/330
+    - object/report/409
+    - object/report/503
+    - object/report/512
+    - object/report/704
+    - object/report/705
+    - object/report/706
+    - object/report/707
+    - object/report/708
+    - object/report/709
+    - object/report/711
+    - object/report/713
+    - object/report/714
+    - object/report/716
+    - object/report/718
+    - object/report/719
+    - object/report/720
+    - object/report/723
+    - object/report/743
+    - object/report/801
+    - object/report/809
+    - object/report/810
+    - object/report/811
+    - object/report/812
+    - object/report/813
+    - object/report/915
+    - object/report/1001
+    - object/report/1005
+    - object/report/1006
+    - object/report/1007
+    - object/report/1008
+    - object/report/1009
+    - object/report/1010
+    - object/report/1011
+    - object/report/1012
+    - object/report/1013
+    - object/report/1014
+    - object/report/1015
+    - object/report/1016
+    - object/report/1017
+    - object/report/1101
+    - object/report/1103
+    - object/report/1105
+    - object/report/1106
+    - object/report/1107
+    - object/report/1123
+    - object/report/1125
+    - object/report/1126
+    - object/report/1127
+    - object/report/1128
+    - object/report/1129
+    - object/report/1133
+    - object/report/1138
+    - object/report/1302
+    - object/report/1303
+    - object/report/1304
+    - object/report/1305
+    - object/report/1306
+    - object/report/1307
+    - object/report/1308
+    - object/report/1309
+    - object/report/1316
+    - object/report/1322
+    - object/report/1404
+    - object/report/1700
+    - object/report/1701
+    - object/report/1702
+    - object/report/2500
+    - object/report/2501
+    - object/report/2502
+    - object/report/4402
+    - object/report/4403
+    - object/report/4404
+    - object/report/4405
+    - object/report/4406
+    - object/report/4409
+    - object/report/4410
+    - object/report/4411
+    - object/report/4412
+    - object/report/4413
+    - object/report/5050
+    - object/report/5051
+    - object/report/5053
+    - object/report/5055
+    - object/report/5056
+    - object/report/5058
+    - object/report/5060
+    - object/report/5061
+    - object/report/5062
+    - object/report/5063
+    - object/report/5064
+    - object/report/5065
+    - object/report/5066
+    - object/report/5067
+    - object/report/5068
+    - object/report/5084
+    - object/report/5085
+    - object/report/5600
+    - object/report/5601
+    - object/report/5602
+    - object/report/5603
+    - object/report/5604
+    - object/report/5605
+    - object/report/5606
+    - object/report/5607
+    - object/report/5608
+    - object/report/5610
+    - object/report/5611
+    - object/report/5620
+    - object/report/5621
+    - object/report/5622
+    - object/report/5623
+    - object/report/5624
+    - object/report/5625
+    - object/report/5626
+    - object/report/5630
+    - object/report/5634
+    - object/report/5635
+    - object/report/5636
+    - object/report/5692
+    - object/report/5701
+    - object/report/5802
+    - object/report/5806
+    - object/report/5807
+    - object/report/5808
+    - object/report/5809
+    - object/report/5871
+    - object/report/5872
+    - object/report/5900
+    - object/report/5901
+    - object/report/5902
+    - object/report/5904
+    - object/report/5908
+    - object/report/5909
+    - object/report/5910
+    - object/report/5911
+    - object/report/5912
+    - object/report/5913
+    - object/report/5915
+    - object/report/5935
+    - object/report/5936
+    - object/report/5937
+    - object/report/5938
+    - object/report/5939
+    - object/report/5955
+    - object/report/5956
+    - object/report/5970
+    - object/report/5971
+    - object/report/5972
+    - object/report/5973
+    - object/report/5974
+    - object/report/5976
+    - object/report/5977
+    - object/report/5978
+    - object/report/5980
+    - object/report/5981
+    - object/report/5982
+    - object/report/5983
+    - object/report/5984
+    - object/report/5985
+    - object/report/5987
+    - object/report/5988
+    - object/report/6080
+    - object/report/6102
+    - object/report/6210
+    - object/report/6211
+    - object/report/6212
+    - object/report/6221
+    - object/report/6625
+    - object/report/6626
+    - object/report/6627
+    - object/report/6628
+    - object/report/6646
+    - object/report/7150
+    - object/report/7151
+    - object/report/7313
+    - object/report/7319
+    - object/report/7320
+    - object/report/99000753
+    - object/report/99000754
+    - object/report/99000755
+    - object/report/99000756
+    - object/report/99000757
+    - object/report/99000758
+    - object/report/99000759
+    - object/report/99000760
+    - object/report/99000762
+    - object/report/99000763
+    - object/report/99000764
+    - object/report/99000767
+    - object/report/99000768
+    - object/report/99000769
+    - object/report/99000780
+    - object/report/99000783
+    - object/report/99000784
+    - object/report/99000786
+    - object/report/99000787
+    - object/report/99000788
+    - object/report/99000789
+    - object/report/99000791
+    - object/report/99001048
   features: []
   topics:
     - topic/business-central/business-functionality/general-business-functionality
@@ -358,7 +1929,7 @@ children:
   - topic/business-central/business-functionality/design-details
 coverage:
   learn: 1717
-  code: 0
+  code: 1571
   video: 0
   blog: 0
   guideline: 0
@@ -2312,6 +3883,1580 @@ Three subtopics support the rest. Local functionality holds country-specific con
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 49, 50, 51, 52, 53, 56, 62, 63, 65, 72, 76, 77, 86, 88, 89, 92, 97, 98, 99, 100, 101, 102, 103, 104, 107, 108, 109, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 123, 124, 129, 130, 132, 134, 136, 138, 140, 142, 143, 144, 145, 146, 147, 148, 151, 154, 155, 156, 157, 161, 165, 170, 172, 175, 176, 177, 178, 182, 184, 185, 187, 189, 190, 191, 195, 196, 197, 198, 200, 201, 203, 204, 206, 207, 209, 211, 212, 233, 234, 240, 249, 250, 251, 253, 254, 255, 256, 257, 259, 261, 262, 271, 275, 276, 279, 283, 284, 289, 290, 291, 292, 293, 295, 300, 301, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 317, 318, 319, 320, 321, 322, 323, 325, 326, 327, 328, 329, 330, 342, 344, 346, 347, 350, 353, 359, 360, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 385, 386, 389, 391, 393, 395, 403, 404, 405, 406, 408, 409, 422, 423, 424, 425, 426, 427, 428, 431, 432, 434, 436, 437, 440, 442, 443, 448, 452, 456, 457, 458, 459, 460, 461, 462, 463, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 478, 479, 480, 481, 483, 484, 485, 488, 489, 490, 491, 492, 493, 494, 495, 499, 500, 501, 503, 504, 506, 507, 509, 512, 515, 516, 517, 518, 519, 521, 522, 524, 525, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 550, 552, 555, 556, 557, 558, 560, 562, 564, 567, 568, 569, 570, 572, 574, 575, 577, 578, 580, 599, 600, 601, 602, 603, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 623, 624, 625, 634, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 662, 663, 664, 666, 671, 672, 673, 674, 686, 687, 689, 699, 704, 705, 706, 707, 708, 709, 711, 713, 714, 716, 718, 719, 720, 723, 734, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 750, 751, 752, 753, 754, 755, 762, 764, 765, 766, 785, 786, 790, 791, 800, 801, 804, 806, 809, 810, 811, 812, 813, 840, 841, 846, 847, 848, 849, 850, 851, 855, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 900, 901, 902, 903, 904, 905, 907, 908, 909, 910, 911, 912, 914, 915, 916, 917, 920, 921, 922, 923, 925, 926, 930, 931, 932, 940, 941, 942, 946, 949, 950, 951, 973, 977, 981, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1020, 1029, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1131, 1132, 1133, 1135, 1138, 1151, 1154, 1155, 1156, 1157, 1158, 1164, 1165, 1166, 1170, 1171, 1172, 1175, 1176, 1177, 1190, 1191, 1200, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1213, 1214, 1215, 1216, 1217, 1227, 1228, 1229, 1230, 1231, 1232, 1233, 1234, 1240, 1262, 1263, 1279, 1280, 1284, 1287, 1290, 1291, 1293, 1294, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1314, 1315, 1316, 1322, 1330, 1343, 1346, 1350, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1393, 1394, 1401, 1404, 1500, 1501, 1503, 1504, 1505, 1512, 1513, 1530, 1533, 1615, 1627, 1628, 1660, 1661, 1680, 1690, 1692, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 1805, 1808, 1811, 1818, 1826, 1827, 1831, 1832, 1872, 1873, 1877, 1950, 1951, 2107, 2500, 2501, 2502, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 2616, 2623, 2631, 2632, 2633, 2634, 2650, 2670, 2673, 2674, 2750, 2752, 2753, 2754, 4400, 4402, 4403, 4404, 4405, 4406, 4409, 4410, 4411, 4412, 4413, 4810, 4811, 5050, 5051, 5052, 5053, 5055, 5056, 5058, 5060, 5061, 5062, 5063, 5064, 5065, 5066, 5067, 5068, 5076, 5084, 5085, 5091, 5093, 5109, 5110, 5116, 5119, 5159, 5162, 5164, 5167, 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5224, 5228, 5237, 5238, 5239, 5240, 5260, 5261, 5264, 5266, 5267, 5270, 5390, 5401, 5404, 5406, 5407, 5414, 5415, 5416, 5417, 5430, 5510, 5522, 5524, 5526, 5530, 5540, 5551, 5579, 5582, 5587, 5600, 5601, 5602, 5603, 5604, 5605, 5606, 5607, 5608, 5609, 5610, 5611, 5612, 5613, 5615, 5616, 5617, 5619, 5620, 5621, 5622, 5623, 5624, 5625, 5626, 5627, 5628, 5629, 5630, 5631, 5633, 5634, 5635, 5636, 5637, 5638, 5640, 5641, 5642, 5644, 5645, 5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653, 5655, 5656, 5658, 5659, 5660, 5661, 5662, 5663, 5664, 5666, 5671, 5692, 5701, 5703, 5709, 5716, 5717, 5718, 5719, 5720, 5727, 5728, 5729, 5730, 5733, 5740, 5768, 5775, 5800, 5802, 5805, 5806, 5807, 5808, 5809, 5814, 5828, 5830, 5832, 5839, 5841, 5845, 5870, 5871, 5872, 5874, 5900, 5901, 5902, 5904, 5905, 5908, 5909, 5910, 5911, 5912, 5913, 5914, 5915, 5919, 5932, 5933, 5934, 5935, 5936, 5937, 5938, 5939, 5952, 5955, 5956, 5964, 5966, 5970, 5971, 5972, 5973, 5974, 5975, 5976, 5977, 5978, 5979, 5980, 5981, 5982, 5983, 5984, 5985, 5987, 5988, 6030, 6033, 6034, 6080, 6086, 6102, 6103, 6121, 6133, 6166, 6167, 6168, 6210, 6211, 6212, 6213, 6214, 6216, 6219, 6220, 6221, 6235, 6245, 6250, 6285, 6287, 6298, 6299, 6560, 6620, 6622, 6623, 6625, 6626, 6627, 6628, 6629, 6630, 6633, 6640, 6643, 6644, 6646, 6650, 6652, 6660, 6662, 6774, 6775, 6776, 6784, 6786, 6788, 6789, 6790, 6900, 6901, 6903, 6910, 6911, 6920, 6930, 6933, 6937, 6939, 6945, 6946, 6949, 6951, 6952, 6953, 6960, 6973, 6974, 6975, 6976, 6979, 6980, 6981, 6987, 6988, 6989, 6990, 6992, 6996, 6997, 6998, 7001, 7011, 7012, 7014, 7015, 7016, 7017, 7018, 7022, 7024, 7101, 7127, 7128, 7129, 7130, 7132, 7133, 7136, 7137, 7138, 7139, 7150, 7151, 7177, 7189, 7190, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7312, 7313, 7314, 7315, 7319, 7320, 7321, 7322, 7323, 7325, 7328, 7329, 7330, 7332, 7333, 7335, 7337, 7339, 7340, 7341, 7342, 7344, 7346, 7347, 7348, 7349, 7351, 7352, 7353, 7355, 7362, 7363, 7366, 7367, 7368, 7369, 7370, 7371, 7372, 7373, 7374, 7379, 7382, 7384, 7386, 7387, 7399, 7400, 7401, 7414, 7416, 7600, 7601, 7602, 8004, 8005, 8008, 8009, 8010, 8011, 8013, 8014, 8015, 8025, 8031, 8035, 8036, 8037, 8038, 8041, 8042, 8043, 8044, 8051, 8052, 8053, 8054, 8057, 8059, 8060, 8061, 8067, 8070, 8071, 8079, 8084, 8096, 8364, 8451, 8510, 8645, 8893, 8897, 8898, 8900, 8903, 8904, 9000, 9001, 9002, 9004, 9005, 9006, 9007, 9008, 9009, 9010, 9011, 9012, 9013, 9014, 9015, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030, 9038, 9041, 9044, 9047, 9080, 9081, 9083, 9084, 9091, 9101, 9125, 9142, 9203, 9219, 9231, 9233, 9239, 9245, 9251, 9252, 9253, 9275, 9277, 9287, 9291, 9293, 9295, 9297, 9300, 9301, 9302, 9303, 9304, 9305, 9306, 9307, 9308, 9309, 9310, 9314, 9323, 9324, 9325, 9326, 9327, 9330, 9345, 9346, 9347, 9348, 9349, 9370, 9371, 9372, 9373, 9374, 9401, 9813, 9814, 9901, 10007, 10008, 10015, 10016, 10017, 10018, 10019, 10020, 10021, 10030, 10031, 10033, 10034, 10036, 10037, 10048, 10049, 10050, 10051, 10101, 10120, 10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130, 10131, 10133, 10134, 10140, 10141, 10143, 10144, 10146, 10147, 10148, 10455, 10456, 10458, 10459, 10530, 10531, 10532, 10537, 10538, 10539, 10601, 10602, 10604, 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 10692, 10696, 10697, 10698, 10704, 10705, 10710, 10736, 10737, 10738, 10740, 10744, 10751, 10752, 10753, 10770, 10771, 10810, 10811, 10842, 10860, 10861, 10864, 10865, 10866, 10867, 10868, 10869, 10870, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10880, 10882, 10900, 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11016, 11017, 11019, 11023, 11024, 11025, 11026, 11027, 11028, 11206, 11207, 11208, 11212, 11300, 11301, 11303, 11306, 11307, 11308, 11400, 11402, 11403, 11405, 11500, 11501, 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518, 11600, 11601, 11602, 11603, 11604, 11605, 11606, 11607, 11608, 11609, 11610, 11611, 11612, 11613, 11614, 11615, 12100, 12102, 12103, 12104, 12105, 12111, 12112, 12113, 12116, 12119, 12121, 12122, 12123, 12126, 12127, 12132, 12133, 12135, 12140, 12141, 12143, 12149, 12150, 12151, 12152, 12153, 12154, 12155, 12156, 12158, 12170, 12171, 12172, 12173, 12174, 12175, 12176, 12178, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12187, 12188, 12189, 12190, 12192, 12193, 12194, 12195, 12198, 12199, 12202, 12203, 12204, 12409, 12410, 12411, 13640, 13645, 13646, 13647, 17101, 20100, 20101, 20102, 20105, 20106, 20107, 20109, 20353, 20400, 20402, 20404, 20406, 20407, 20408, 20416, 22207, 26100, 26101, 27001, 27002, 27003, 27010, 27011, 27012, 27013, 27014, 27015, 27016, 27017, 27018, 27030, 27031, 27032, 27033, 27034, 27040, 27041, 27042, 27043, 27044, 28040, 28041, 28042, 28043, 28044, 28071, 28072, 28073, 28074, 28075, 28076, 28077, 28078, 28079, 28080, 28081, 28082, 28090, 28091, 28092, 28093, 28164, 28165, 28166, 28167, 30100, 30101, 30102, 30103, 30104, 30105, 30106, 30107, 30108, 30109, 30110, 30111, 30112, 30113, 30114, 30115, 30116, 30117, 30118, 30119, 30120, 30121, 30122, 30123, 30124, 30125, 30126, 30127, 30128, 30129, 30130, 30131, 30132, 30133, 30134, 30135, 30145, 30147, 30150, 30151, 30156, 30157, 30159, 30167, 30168, 30174, 31077, 35291, 35292, 35293, 35294, 35295, 35296, 35297, 35298, 35299, 35300, 35301, 35302, 35303, 35304, 35305, 35306, 35490, 35491, 35561, 35562, 35563, 35848, 35850, 36601, 36646, 36951, 36961, 36983, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, 36996, 36997, 36998, 36999, 37000, 37001, 37002, 37003, 37004, 37005, 37006, 37007, 37008, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37022, 37023, 37024, 37025, 37026, 37027, 37028, 37029, 37030, 37031, 37032, 37033, 37034, 37035, 37036, 37037, 37038, 37039, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37056, 37057, 37058, 37059, 37061, 37062, 37063, 37064, 37065, 37066, 37094, 37095, 37096, 37097, 37098, 37099, 37100, 37101, 37102, 37103, 37104, 37105, 37106, 37107, 37109, 37110, 37111, 37112, 37113, 37114, 37115, 37116, 37117, 37118, 37119, 100136, 700071, 700072, 2000000, 2000001, 2000003, 2000005, 2000006, 2000020, 2000021, 2000022, 2000040, 2000041, 2000042, 2000043, 2000045, 3010531, 3010532, 3010541, 3010542, 3010543, 3010830, 3010831, 3010832, 3010834, 3010835, 5005270, 5005271, 5005272, 5005273, 5005274, 5005275, 5005276, 5005279, 5005280, 5005281, 5005282, 5005283, 7000003, 7000004, 7000005, 7000006, 7000007, 7000008, 7000009, 7000010, 7000011, 7000012, 7000014, 7000015, 7000016, 7000017, 7000018, 7000019, 7000020, 7000021, 7000022, 7000024, 7000025, 7000029, 7000030, 7000031, 7000032, 7000033, 7000034, 7000036, 7000037, 7000040, 7000041, 7000044, 7000045, 7000048, 9900083, 15000000, 15000002, 15000004, 15000006, 15000007, 15000010, 15000100, 32000000, 32000001, 32000002, 32000004, 32000005, 32000006, 50585058, 70000013, 99000750, 99000751, 99000752, 99000753, 99000754, 99000755, 99000756, 99000757, 99000758, 99000759, 99000760, 99000761, 99000762, 99000763, 99000764, 99000765, 99000766, 99000767, 99000768, 99000769, 99000770, 99000771, 99000772, 99000773, 99000778, 99000779, 99000780, 99000783, 99000784, 99000785, 99000786, 99000787, 99000788, 99000789, 99000790, 99000791, 99000792, 99000793, 99000794, 99000795, 99000796, 99000797, 99000798, 99000799, 99000800, 99000802, 99000803, 99000804, 99000805, 99000806, 99000807, 99000808, 99000809, 99000810, 99000811, 99000812, 99000813, 99000814, 99000815, 99000816, 99000817, 99000818, 99000820, 99000822, 99000823, 99000827, 99000829, 99000830, 99000831, 99000832, 99000833, 99000834, 99000835, 99000836, 99000837, 99000838, 99000839, 99000840, 99000841, 99000842, 99000843, 99000844, 99000845, 99000846, 99000850, 99000852, 99000855, 99000860, 99000861, 99000862, 99000863, 99000866, 99000867, 99000868, 99000882, 99000883, 99000884, 99000886, 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000896, 99000897, 99000898, 99000900, 99000902, 99000912, 99000913, 99000914, 99000915, 99000916, 99000917, 99000919, 99000920, 99000921, 99000922, 99001048, 99001500, 99001503, 99001504, 99001560, 99001561, 990000785, 990003804.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9000 "Whse. WMS Role Center"](../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9020 "Small Business Owner RC"](../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../objects/table/9054.md)
+- [Page 1 "Company Information"](../../objects/page/1.md) · on [Table 79 "Company Information"](../../objects/table/79.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 4 "Payment Terms"](../../objects/page/4.md) · on [Table 3 "Payment Terms"](../../objects/table/3.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5 "Currencies"](../../objects/page/5.md) · on [Table 4 "Currency"](../../objects/table/4.md) · via [Finance](business-functionality/finance.md)
+- [Page 6 "Finance Charge Terms"](../../objects/page/6.md) · on [Table 5 "Finance Charge Terms"](../../objects/table/5.md) · via [Finance](business-functionality/finance.md)
+- [Page 7 "Customer Price Groups"](../../objects/page/7.md) · on [Table 6 "Customer Price Group"](../../objects/table/6.md) · via [Finance](business-functionality/finance.md)
+- [Page 10 "Countries/Regions"](../../objects/page/10.md) · on [Table 9 "Country/Region"](../../objects/table/9.md) · via [Finance](business-functionality/finance.md)
+- [Page 11 "Shipment Methods"](../../objects/page/11.md) · on [Table 10 "Shipment Method"](../../objects/table/10.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 14 "Salespersons/Purchasers"](../../objects/page/14.md) · captioned "Salespeople/Purchasers" · on [Table 13 "Salesperson/Purchaser"](../../objects/table/13.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 15 "Location List"](../../objects/page/15.md) · captioned "Locations" · on [Table 14 "Location"](../../objects/table/14.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 16 "Chart of Accounts"](../../objects/page/16.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 17 "G/L Account Card"](../../objects/page/17.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 18 "G/L Account List"](../../objects/page/18.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 20 "General Ledger Entries"](../../objects/page/20.md) · on [Table 17 "G/L Entry"](../../objects/table/17.md) · via [Finance](business-functionality/finance.md)
+- [Page 21 "Customer Card"](../../objects/page/21.md) · on [Table 18 "Customer"](../../objects/table/18.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 22 "Customer List"](../../objects/page/22.md) · captioned "Customers" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 25 "Customer Ledger Entries"](../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../objects/table/21.md) · via [Finance](business-functionality/finance.md)
+- [Page 26 "Vendor Card"](../../objects/page/26.md) · on [Table 23 "Vendor"](../../objects/table/23.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 27 "Vendor List"](../../objects/page/27.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Finance](business-functionality/finance.md)
+- [Page 29 "Vendor Ledger Entries"](../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../objects/table/25.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 30 "Item Card"](../../objects/page/30.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 31 "Item List"](../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 32 "Item Lookup"](../../objects/page/32.md) · captioned "Items" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 33 "Customer Lookup"](../../objects/page/33.md) · captioned "Customers" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 34 "Vendor Lookup"](../../objects/page/34.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 35 "Item Translations"](../../objects/page/35.md) · on [Table 30 "Item Translation"](../../objects/table/30.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 36 "Assembly BOM"](../../objects/page/36.md) · on [Table 90 "BOM Component"](../../objects/table/90.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 37 "Where-Used List"](../../objects/page/37.md) · on [Table 90 "BOM Component"](../../objects/table/90.md) · via [Finance](business-functionality/finance.md)
+- [Page 39 "General Journal"](../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 40 "Item Journal"](../../objects/page/40.md) · captioned "Item Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Finance](business-functionality/finance.md)
+- [Page 41 "Sales Quote"](../../objects/page/41.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 42 "Sales Order"](../../objects/page/42.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 43 "Sales Invoice"](../../objects/page/43.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
+- [Page 44 "Sales Credit Memo"](../../objects/page/44.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
+- [Page 48 "Sales Orders"](../../objects/page/48.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Finance](business-functionality/finance.md)
+- [Page 49 "Purchase Quote"](../../objects/page/49.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 50 "Purchase Order"](../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 51 "Purchase Invoice"](../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 52 "Purchase Credit Memo"](../../objects/page/52.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 53 "Purchase List"](../../objects/page/53.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 56 "Purchase Orders"](../../objects/page/56.md) · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 62 "Applied Vendor Entries"](../../objects/page/62.md) · on [Table 25 "Vendor Ledger Entry"](../../objects/table/25.md) · via [Finance](business-functionality/finance.md)
+- [Page 63 "Applied Employee Entries"](../../objects/page/63.md) · on [Table 5222 "Employee Ledger Entry"](../../objects/table/5222.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 65 "Rounding Methods"](../../objects/page/65.md) · on [Table 42 "Rounding Method"](../../objects/table/42.md) · via [Finance](business-functionality/finance.md)
+- [Page 72 "Resource Groups"](../../objects/page/72.md) · on [Table 152 "Resource Group"](../../objects/table/152.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 76 "Resource Card"](../../objects/page/76.md) · on [Table 156 "Resource"](../../objects/table/156.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 77 "Resource List"](../../objects/page/77.md) · captioned "Resources" · on [Table 156 "Resource"](../../objects/table/156.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 88 "Job Card"](../../objects/page/88.md) · captioned "Project Card" · on [Table 167 "Job"](../../objects/table/167.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 89 "Job List"](../../objects/page/89.md) · captioned "Projects" · on [Table 167 "Job"](../../objects/table/167.md) · via [Project management](business-functionality/project-management.md)
+- [Page 92 "Job Ledger Entries"](../../objects/page/92.md) · captioned "Project Ledger Entries" · on [Table 169 "Job Ledger Entry"](../../objects/table/169.md) · via [Project management](business-functionality/project-management.md)
+- [Page 97 "Purchase Quote Subform"](../../objects/page/97.md) · captioned "Lines" · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 98 "Purch. Cr. Memo Subform"](../../objects/page/98.md) · captioned "Lines" · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Project management](business-functionality/project-management.md)
+- [Page 99 "G/L Account Where-Used List"](../../objects/page/99.md) · on [Table 180 "G/L Account Where-Used"](../../objects/table/180.md) · via [Finance](business-functionality/finance.md)
+- [Page 100 "Accounting Periods"](../../objects/page/100.md) · on [Table 50 "Accounting Period"](../../objects/table/50.md) · via [Finance](business-functionality/finance.md)
+- [Page 101 "General Journal Templates"](../../objects/page/101.md) · on [Table 80 "Gen. Journal Template"](../../objects/table/80.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 102 "Item Journal Templates"](../../objects/page/102.md) · on [Table 82 "Item Journal Template"](../../objects/table/82.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 103 "Account Schedule Names"](../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../objects/table/84.md) · via [Finance](business-functionality/finance.md)
+- [Page 104 "Account Schedule"](../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../objects/table/85.md) · via [Finance](business-functionality/finance.md)
+- [Page 108 "Financial Reports"](../../objects/page/108.md) · on [Table 88 "Financial Report"](../../objects/table/88.md) · via [Finance](business-functionality/finance.md)
+- [Page 113 "Budget"](../../objects/page/113.md) · via [Finance](business-functionality/finance.md)
+- [Page 116 "G/L Registers"](../../objects/page/116.md) · on [Table 45 "G/L Register"](../../objects/table/45.md) · via [Finance](business-functionality/finance.md)
+- [Page 118 "General Ledger Setup"](../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../objects/table/98.md) · via [Finance](business-functionality/finance.md)
+- [Page 120 "G/L Budget Entries"](../../objects/page/120.md) · on [Table 96 "G/L Budget Entry"](../../objects/table/96.md) · via [Finance](business-functionality/finance.md)
+- [Page 121 "G/L Budget Names"](../../objects/page/121.md) · captioned "G/L Budgets" · on [Table 95 "G/L Budget Name"](../../objects/table/95.md) · via [Finance](business-functionality/finance.md)
+- [Page 124 "Comment Sheet"](../../objects/page/124.md) · on [Table 97 "Comment Line"](../../objects/table/97.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 130 "Posted Sales Shipment"](../../objects/page/130.md) · on [Table 110 "Sales Shipment Header"](../../objects/table/110.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 132 "Posted Sales Invoice"](../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../objects/table/112.md) · via [Finance](business-functionality/finance.md)
+- [Page 134 "Posted Sales Credit Memo"](../../objects/page/134.md) · on [Table 114 "Sales Cr.Memo Header"](../../objects/table/114.md) · via [Sales](business-functionality/sales.md)
+- [Page 136 "Posted Purchase Receipt"](../../objects/page/136.md) · on [Table 120 "Purch. Rcpt. Header"](../../objects/table/120.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 138 "Posted Purchase Invoice"](../../objects/page/138.md) · on [Table 122 "Purch. Inv. Header"](../../objects/table/122.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 140 "Posted Purchase Credit Memo"](../../objects/page/140.md) · on [Table 124 "Purch. Cr. Memo Hdr."](../../objects/table/124.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 142 "Posted Sales Shipments"](../../objects/page/142.md) · on [Table 110 "Sales Shipment Header"](../../objects/table/110.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 143 "Posted Sales Invoices"](../../objects/page/143.md) · on [Table 112 "Sales Invoice Header"](../../objects/table/112.md) · via [Sales](business-functionality/sales.md)
+- [Page 144 "Posted Sales Credit Memos"](../../objects/page/144.md) · on [Table 114 "Sales Cr.Memo Header"](../../objects/table/114.md) · via [Sales](business-functionality/sales.md)
+- [Page 145 "Posted Purchase Receipts"](../../objects/page/145.md) · on [Table 120 "Purch. Rcpt. Header"](../../objects/table/120.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 146 "Posted Purchase Invoices"](../../objects/page/146.md) · on [Table 122 "Purch. Inv. Header"](../../objects/table/122.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 147 "Posted Purchase Credit Memos"](../../objects/page/147.md) · on [Table 124 "Purch. Cr. Memo Hdr."](../../objects/table/124.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 148 "Customer Posting Group Card"](../../objects/page/148.md) · on [Table 92 "Customer Posting Group"](../../objects/table/92.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 154 "G/L Account Balance/Budget"](../../objects/page/154.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 157 "Item Availability by Periods"](../../objects/page/157.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 161 "Purchase Statistics"](../../objects/page/161.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 165 "Bank Acc. Ledg. Entr. Preview"](../../objects/page/165.md) · on [Table 271 "Bank Account Ledger Entry"](../../objects/table/271.md) · via [Finance](business-functionality/finance.md)
+- [Page 170 "Standard Sales Code Card"](../../objects/page/170.md) · captioned "Standard Sales Lines Card" · on [Table 170 "Standard Sales Code"](../../objects/table/170.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 172 "Standard Sales Codes"](../../objects/page/172.md) · captioned "Recurring Sales Lines" · on [Table 170 "Standard Sales Code"](../../objects/table/170.md) · via [Sales](business-functionality/sales.md)
+- [Page 175 "Standard Purchase Code Card"](../../objects/page/175.md) · on [Table 173 "Standard Purchase Code"](../../objects/table/173.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 176 "Standard Purchase Code Subform"](../../objects/page/176.md) · captioned "Lines" · on [Table 174 "Standard Purchase Line"](../../objects/table/174.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 177 "Standard Purchase Codes"](../../objects/page/177.md) · captioned "Recurring Purchase Lines" · on [Table 173 "Standard Purchase Code"](../../objects/table/173.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 178 "Standard Vendor Purchase Codes"](../../objects/page/178.md) · captioned "Recurring Purchase Lines" · on [Table 175 "Standard Vendor Purchase Code"](../../objects/table/175.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 182 "Posted General Journal"](../../objects/page/182.md) · on [Table 181 "Posted Gen. Journal Line"](../../objects/table/181.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 184 "Copy Gen. Journal Parameters"](../../objects/page/184.md) · on [Table 183 "Copy Gen. Journal Parameters"](../../objects/table/183.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 185 "Posted General Journal Batch"](../../objects/page/185.md) · on [Table 182 "Posted Gen. Journal Batch"](../../objects/table/182.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 187 "VAT Setup"](../../objects/page/187.md) · on [Table 189 "VAT Setup"](../../objects/table/189.md) · via [Finance](business-functionality/finance.md)
+- [Page 189 "Incoming Document"](../../objects/page/189.md) · on [Table 130 "Incoming Document"](../../objects/table/130.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 190 "Incoming Documents"](../../objects/page/190.md) · on [Table 130 "Incoming Document"](../../objects/table/130.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 191 "Incoming Documents Setup"](../../objects/page/191.md) · on [Table 131 "Incoming Documents Setup"](../../objects/table/131.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 195 "Acc. Sched. KPI Web Srv. Setup"](../../objects/page/195.md) · captioned "Financial Report KPI Web Service Setup" · on [Table 135 "Acc. Sched. KPI Web Srv. Setup"](../../objects/table/135.md) · via [Finance](business-functionality/finance.md)
+- [Page 196 "Acc. Sched. KPI Web Srv. Lines"](../../objects/page/196.md) · captioned "Financial Report KPI Web Service Setup" · on [Table 136 "Acc. Sched. KPI Web Srv. Line"](../../objects/table/136.md) · via [Finance](business-functionality/finance.md)
+- [Page 197 "Acc. Sched. KPI Web Service"](../../objects/page/197.md) · captioned "Financial Report KPI Web Service" · on [Table 197 "Acc. Sched. KPI Buffer"](../../objects/table/197.md) · via [Finance](business-functionality/finance.md)
+- [Page 198 "Acc. Sched. KPI WS Dimensions"](../../objects/page/198.md) · captioned "Account Schedule KPI WS Dimensions" · on [Table 197 "Acc. Sched. KPI Buffer"](../../objects/table/197.md) · via [Finance](business-functionality/finance.md)
+- [Page 200 "Job Journal Templates"](../../objects/page/200.md) · captioned "Project Journal Templates" · on [Table 209 "Job Journal Template"](../../objects/table/209.md) · via [Project management](business-functionality/project-management.md)
+- [Page 201 "Job Journal"](../../objects/page/201.md) · captioned "Project Journals" · on [Table 210 "Job Journal Line"](../../objects/table/210.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 203 "Resource Costs"](../../objects/page/203.md) · on [Table 202 "Resource Cost"](../../objects/table/202.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 204 "Resource Prices"](../../objects/page/204.md) · on [Table 201 "Resource Price"](../../objects/table/201.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 206 "Resource Journal Templates"](../../objects/page/206.md) · on [Table 206 "Res. Journal Template"](../../objects/table/206.md) · via [Project management](business-functionality/project-management.md)
+- [Page 207 "Resource Journal"](../../objects/page/207.md) · captioned "Resource Journals" · on [Table 207 "Res. Journal Line"](../../objects/table/207.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 211 "Job Posting Groups"](../../objects/page/211.md) · captioned "Project Posting Groups" · on [Table 208 "Job Posting Group"](../../objects/table/208.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 212 "Alt. Cust. VAT Reg."](../../objects/page/212.md) · captioned "Alternative Customer VAT Registration" · on [Table 213 "Alt. Cust. VAT Reg."](../../objects/table/213.md) · via [Finance](business-functionality/finance.md)
+- [Page 233 "Apply Vendor Entries"](../../objects/page/233.md) · on [Table 25 "Vendor Ledger Entry"](../../objects/table/25.md) · via [Finance](business-functionality/finance.md)
+- [Page 234 "Apply Employee Entries"](../../objects/page/234.md) · on [Table 5222 "Employee Ledger Entry"](../../objects/table/5222.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 240 "Business Unit List"](../../objects/page/240.md) · captioned "Business Units" · on [Table 220 "Business Unit"](../../objects/table/220.md) · via [Finance](business-functionality/finance.md)
+- [Page 249 "VAT Registration Log"](../../objects/page/249.md) · on [Table 249 "VAT Registration Log"](../../objects/table/249.md) · via [Finance](business-functionality/finance.md)
+- [Page 250 "General Journal Template List"](../../objects/page/250.md) · on [Table 80 "Gen. Journal Template"](../../objects/table/80.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 251 "General Journal Batches"](../../objects/page/251.md) · on [Table 232 "Gen. Journal Batch"](../../objects/table/232.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 253 "Sales Journal"](../../objects/page/253.md) · captioned "Sales Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 254 "Purchase Journal"](../../objects/page/254.md) · captioned "Purchase Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Finance](business-functionality/finance.md)
+- [Page 255 "Cash Receipt Journal"](../../objects/page/255.md) · captioned "Cash Receipt Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 256 "Payment Journal"](../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 257 "Source Codes"](../../objects/page/257.md) · on [Table 230 "Source Code"](../../objects/table/230.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 259 "Reason Codes"](../../objects/page/259.md) · on [Table 231 "Reason Code"](../../objects/table/231.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 261 "Item Journal Template List"](../../objects/page/261.md) · on [Table 82 "Item Journal Template"](../../objects/table/82.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 262 "Item Journal Batches"](../../objects/page/262.md) · on [Table 233 "Item Journal Batch"](../../objects/table/233.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 271 "Res. Journal Template List"](../../objects/page/271.md) · on [Table 206 "Res. Journal Template"](../../objects/table/206.md) · via [Project management](business-functionality/project-management.md)
+- [Page 275 "Job Journal Template List"](../../objects/page/275.md) · captioned "Project Journal Template List" · on [Table 209 "Job Journal Template"](../../objects/table/209.md) · via [Project management](business-functionality/project-management.md)
+- [Page 276 "Job Journal Batches"](../../objects/page/276.md) · captioned "Project Journal Batches" · on [Table 237 "Job Journal Batch"](../../objects/table/237.md) · via [Project management](business-functionality/project-management.md)
+- [Page 279 "Source Code Setup"](../../objects/page/279.md) · on [Table 242 "Source Code Setup"](../../objects/table/242.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 283 "Recurring General Journal"](../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 284 "Allocations"](../../objects/page/284.md) · on [Table 221 "Gen. Jnl. Allocation"](../../objects/table/221.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 289 "Recurring Job Jnl."](../../objects/page/289.md) · captioned "Recurring Project Journal" · on [Table 210 "Job Journal Line"](../../objects/table/210.md) · via [Project management](business-functionality/project-management.md)
+- [Page 290 "Recurring Resource Jnl."](../../objects/page/290.md) · captioned "Recurring Resource Journal" · on [Table 207 "Res. Journal Line"](../../objects/table/207.md) · via [Project management](business-functionality/project-management.md)
+- [Page 291 "Req. Worksheet"](../../objects/page/291.md) · captioned "Requisition Worksheets" · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 292 "Req. Worksheet Template List"](../../objects/page/292.md) · on [Table 244 "Req. Wksh. Template"](../../objects/table/244.md) · via [Planning](business-functionality/planning.md)
+- [Page 293 "Req. Worksheet Templates"](../../objects/page/293.md) · captioned "Requisition Worksheet Templates" · on [Table 244 "Req. Wksh. Template"](../../objects/table/244.md) · via [Planning](business-functionality/planning.md)
+- [Page 295 "Req. Wksh. Names"](../../objects/page/295.md) · on [Table 245 "Requisition Wksh. Name"](../../objects/table/245.md) · via [Planning](business-functionality/planning.md)
+- [Page 300 "Ship-to Address"](../../objects/page/300.md) · on [Table 222 "Ship-to Address"](../../objects/table/222.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 301 "Ship-to Address List"](../../objects/page/301.md) · on [Table 222 "Ship-to Address"](../../objects/table/222.md) · via [Finance](business-functionality/finance.md)
+- [Page 306 "Report Selection - Sales"](../../objects/page/306.md) · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 307 "Report Selection - Job"](../../objects/page/307.md) · captioned "Report Selection - Project" · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 308 "Transaction Types"](../../objects/page/308.md) · on [Table 258 "Transaction Type"](../../objects/table/258.md) · via [Finance](business-functionality/finance.md)
+- [Page 309 "Transport Methods"](../../objects/page/309.md) · on [Table 259 "Transport Method"](../../objects/table/259.md) · via [Finance](business-functionality/finance.md)
+- [Page 310 "Tariff Numbers"](../../objects/page/310.md) · on [Table 260 "Tariff Number"](../../objects/table/260.md) · via [Finance](business-functionality/finance.md)
+- [Page 312 "Gen. Business Posting Groups"](../../objects/page/312.md) · on [Table 250 "Gen. Business Posting Group"](../../objects/table/250.md) · via [Finance](business-functionality/finance.md)
+- [Page 313 "Gen. Product Posting Groups"](../../objects/page/313.md) · captioned "General Product Posting Groups" · on [Table 251 "Gen. Product Posting Group"](../../objects/table/251.md) · via [Finance](business-functionality/finance.md)
+- [Page 314 "General Posting Setup"](../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../objects/table/252.md) · via [Finance](business-functionality/finance.md)
+- [Page 315 "VAT Entries"](../../objects/page/315.md) · on [Table 254 "VAT Entry"](../../objects/table/254.md) · via [Finance](business-functionality/finance.md)
+- [Page 317 "VAT Statement"](../../objects/page/317.md) · captioned "VAT Statements" · on [Table 256 "VAT Statement Line"](../../objects/table/256.md) · via [Finance](business-functionality/finance.md)
+- [Page 318 "VAT Statement Templates"](../../objects/page/318.md) · on [Table 255 "VAT Statement Template"](../../objects/table/255.md) · via [Finance](business-functionality/finance.md)
+- [Page 320 "VAT Statement Names"](../../objects/page/320.md) · on [Table 257 "VAT Statement Name"](../../objects/table/257.md) · via [Finance](business-functionality/finance.md)
+- [Page 321 "ECSL Report"](../../objects/page/321.md) · captioned "EC Sales List Report" · on [Table 740 "VAT Report Header"](../../objects/table/740.md) · via [Finance](business-functionality/finance.md)
+- [Page 322 "ECSL Report Subform"](../../objects/page/322.md) · captioned "Lines" · on [Table 362 "ECSL VAT Report Line"](../../objects/table/362.md) · via [Finance](business-functionality/finance.md)
+- [Page 323 "EC Sales List Reports"](../../objects/page/323.md) · on [Table 740 "VAT Report Header"](../../objects/table/740.md) · via [Finance](business-functionality/finance.md)
+- [Page 342 "Check Availability"](../../objects/page/342.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 344 "Navigate"](../../objects/page/344.md) · captioned "Find entries" · on [Table 265 "Document Entry"](../../objects/table/265.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 346 "Item Picture"](../../objects/page/346.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 347 "Report Selection - Purchase"](../../objects/page/347.md) · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Finance](business-functionality/finance.md)
+- [Page 350 "G/L Acc. Balance/Budget Lines"](../../objects/page/350.md) · captioned "Lines" · on [Table 922 "G/L Acc. Balance/Budget Buffer"](../../objects/table/922.md) · via [Finance](business-functionality/finance.md)
+- [Page 353 "Item Availability Lines"](../../objects/page/353.md) · captioned "Lines" · on [Table 925 "Item Availability Buffer"](../../objects/table/925.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 359 "Document Sending Profiles"](../../objects/page/359.md) · on [Table 60 "Document Sending Profile"](../../objects/table/60.md) · via [Finance](business-functionality/finance.md)
+- [Page 360 "Document Sending Profile"](../../objects/page/360.md) · on [Table 60 "Document Sending Profile"](../../objects/table/60.md) · via [Finance](business-functionality/finance.md)
+- [Page 367 "Post Codes"](../../objects/page/367.md) · on [Table 225 "Post Code"](../../objects/table/225.md) · via [Sales](business-functionality/sales.md)
+- [Page 368 "Order Address"](../../objects/page/368.md) · on [Table 224 "Order Address"](../../objects/table/224.md) · via [Sales](business-functionality/sales.md)
+- [Page 369 "Order Address List"](../../objects/page/369.md) · on [Table 224 "Order Address"](../../objects/table/224.md) · via [Sales](business-functionality/sales.md)
+- [Page 370 "Bank Account Card"](../../objects/page/370.md) · on [Table 270 "Bank Account"](../../objects/table/270.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 371 "Bank Account List"](../../objects/page/371.md) · captioned "Bank Accounts" · on [Table 270 "Bank Account"](../../objects/table/270.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 372 "Bank Account Ledger Entries"](../../objects/page/372.md) · on [Table 271 "Bank Account Ledger Entry"](../../objects/table/271.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 373 "Bank Account Posting Groups"](../../objects/page/373.md) · on [Table 277 "Bank Account Posting Group"](../../objects/table/277.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 374 "Check Ledger Entries"](../../objects/page/374.md) · on [Table 272 "Check Ledger Entry"](../../objects/table/272.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 375 "Bank Account Statistics"](../../objects/page/375.md) · on [Table 270 "Bank Account"](../../objects/table/270.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 376 "Job Journal Reconcile"](../../objects/page/376.md) · captioned "Project Journal Reconcile" · on [Table 278 "Job Journal Quantity"](../../objects/table/278.md) · via [Project management](business-functionality/project-management.md)
+- [Page 377 "Bank Account Balance"](../../objects/page/377.md) · on [Table 270 "Bank Account"](../../objects/table/270.md) · via [Finance](business-functionality/finance.md)
+- [Page 378 "Bank Account Balance Lines"](../../objects/page/378.md) · captioned "Lines" · on [Table 929 "Bank Account Balance Buffer"](../../objects/table/929.md) · via [Finance](business-functionality/finance.md)
+- [Page 385 "Report Selection - Bank Acc."](../../objects/page/385.md) · captioned "Report Selection - Bank Account" · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 386 "Extended Text"](../../objects/page/386.md) · on [Table 279 "Extended Text Header"](../../objects/table/279.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 389 "Bank Account Statement List"](../../objects/page/389.md) · on [Table 275 "Bank Account Statement"](../../objects/table/275.md) · via [Finance](business-functionality/finance.md)
+- [Page 391 "Extended Text List"](../../objects/page/391.md) · on [Table 279 "Extended Text Header"](../../objects/table/279.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 393 "Item Reclass. Journal"](../../objects/page/393.md) · captioned "Item Reclassification Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 395 "General Posting Setup Card"](../../objects/page/395.md) · on [Table 252 "General Posting Setup"](../../objects/table/252.md) · via [Finance](business-functionality/finance.md)
+- [Page 403 "Purchase Order Statistics"](../../objects/page/403.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 404 "Check Preview"](../../objects/page/404.md) · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Finance](business-functionality/finance.md)
+- [Page 405 "Areas"](../../objects/page/405.md) · on [Table 284 "Area"](../../objects/table/284.md) · via [Finance](business-functionality/finance.md)
+- [Page 406 "Transaction Specifications"](../../objects/page/406.md) · on [Table 285 "Transaction Specification"](../../objects/table/285.md) · via [Finance](business-functionality/finance.md)
+- [Page 408 "G/L Balance by Dimension"](../../objects/page/408.md) · on [Table 361 "Analysis by Dim. Parameters"](../../objects/table/361.md) · via [Finance](business-functionality/finance.md)
+- [Page 422 "G/L Balance/Budget"](../../objects/page/422.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 423 "Customer Bank Account Card"](../../objects/page/423.md) · on [Table 287 "Customer Bank Account"](../../objects/table/287.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 424 "Customer Bank Account List"](../../objects/page/424.md) · on [Table 287 "Customer Bank Account"](../../objects/table/287.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 425 "Vendor Bank Account Card"](../../objects/page/425.md) · on [Table 288 "Vendor Bank Account"](../../objects/table/288.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 426 "Vendor Bank Account List"](../../objects/page/426.md) · on [Table 288 "Vendor Bank Account"](../../objects/table/288.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 427 "Payment Methods"](../../objects/page/427.md) · on [Table 289 "Payment Method"](../../objects/table/289.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 428 "Shipping Agents"](../../objects/page/428.md) · on [Table 291 "Shipping Agent"](../../objects/table/291.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 431 "Reminder Terms"](../../objects/page/431.md) · on [Table 292 "Reminder Terms"](../../objects/table/292.md) · via [Finance](business-functionality/finance.md)
+- [Page 432 "Reminder Levels"](../../objects/page/432.md) · on [Table 293 "Reminder Level"](../../objects/table/293.md) · via [Finance](business-functionality/finance.md)
+- [Page 434 "Reminder"](../../objects/page/434.md) · on [Table 295 "Reminder Header"](../../objects/table/295.md) · via [Finance](business-functionality/finance.md)
+- [Page 436 "Reminder List"](../../objects/page/436.md) · captioned "Reminders" · on [Table 295 "Reminder Header"](../../objects/table/295.md) · via [Finance](business-functionality/finance.md)
+- [Page 437 "Reminder Statistics"](../../objects/page/437.md) · on [Table 295 "Reminder Header"](../../objects/table/295.md) · via [Finance](business-functionality/finance.md)
+- [Page 440 "Issued Reminder List"](../../objects/page/440.md) · captioned "Issued Reminders" · on [Table 297 "Issued Reminder Header"](../../objects/table/297.md) · via [Finance](business-functionality/finance.md)
+- [Page 442 "Reminder Comment Sheet"](../../objects/page/442.md) · captioned "Comment Sheet" · on [Table 299 "Reminder Comment Line"](../../objects/table/299.md) · via [Finance](business-functionality/finance.md)
+- [Page 443 "Reminder Comment List"](../../objects/page/443.md) · captioned "Comment List" · on [Table 299 "Reminder Comment Line"](../../objects/table/299.md) · via [Finance](business-functionality/finance.md)
+- [Page 448 "Finance Charge Memo List"](../../objects/page/448.md) · captioned "Finance Charge Memos" · on [Table 302 "Finance Charge Memo Header"](../../objects/table/302.md) · via [Finance](business-functionality/finance.md)
+- [Page 452 "Issued Fin. Charge Memo List"](../../objects/page/452.md) · captioned "Issued Finance Charge Memos" · on [Table 304 "Issued Fin. Charge Memo Header"](../../objects/table/304.md) · via [Finance](business-functionality/finance.md)
+- [Page 456 "No. Series"](../../objects/page/456.md) · on [Table 308 "No. Series"](../../objects/table/308.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 457 "No. Series Lines"](../../objects/page/457.md) · on [Table 309 "No. Series Line"](../../objects/table/309.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 458 "No. Series Relationships"](../../objects/page/458.md) · on [Table 310 "No. Series Relationship"](../../objects/table/310.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 459 "Sales & Receivables Setup"](../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../objects/table/311.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 460 "Purchases & Payables Setup"](../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../objects/table/312.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 461 "Inventory Setup"](../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../objects/table/313.md) · via [Finance](business-functionality/finance.md)
+- [Page 462 "Resources Setup"](../../objects/page/462.md) · on [Table 314 "Resources Setup"](../../objects/table/314.md) · via [Project management](business-functionality/project-management.md)
+- [Page 463 "Jobs Setup"](../../objects/page/463.md) · captioned "Projects Setup" · on [Table 315 "Jobs Setup"](../../objects/table/315.md) · via [Project management](business-functionality/project-management.md)
+- [Page 466 "Tax Jurisdictions"](../../objects/page/466.md) · on [Table 320 "Tax Jurisdiction"](../../objects/table/320.md) · via [Finance](business-functionality/finance.md)
+- [Page 467 "Tax Groups"](../../objects/page/467.md) · on [Table 321 "Tax Group"](../../objects/table/321.md) · via [Finance](business-functionality/finance.md)
+- [Page 468 "Tax Details"](../../objects/page/468.md) · on [Table 322 "Tax Detail"](../../objects/table/322.md) · via [Finance](business-functionality/finance.md)
+- [Page 469 "Tax Area List"](../../objects/page/469.md) · captioned "Tax Areas" · on [Table 318 "Tax Area"](../../objects/table/318.md) · via [Finance](business-functionality/finance.md)
+- [Page 470 "VAT Business Posting Groups"](../../objects/page/470.md) · on [Table 323 "VAT Business Posting Group"](../../objects/table/323.md) · via [Finance](business-functionality/finance.md)
+- [Page 471 "VAT Product Posting Groups"](../../objects/page/471.md) · on [Table 324 "VAT Product Posting Group"](../../objects/table/324.md) · via [Finance](business-functionality/finance.md)
+- [Page 472 "VAT Posting Setup"](../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../objects/table/325.md) · via [Finance](business-functionality/finance.md)
+- [Page 473 "VAT Posting Setup Card"](../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../objects/table/325.md) · via [Finance](business-functionality/finance.md)
+- [Page 474 "VAT Statement Preview"](../../objects/page/474.md) · on [Table 257 "VAT Statement Name"](../../objects/table/257.md) · via [Finance](business-functionality/finance.md)
+- [Page 475 "VAT Statement Preview Line"](../../objects/page/475.md) · captioned "Lines" · on [Table 256 "VAT Statement Line"](../../objects/table/256.md) · via [Finance](business-functionality/finance.md)
+- [Page 478 "Currencies for Reminder Level"](../../objects/page/478.md) · on [Table 329 "Currency for Reminder Level"](../../objects/table/329.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 479 "Dimension Set Entries"](../../objects/page/479.md) · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)
+- [Page 480 "Edit Dimension Set Entries"](../../objects/page/480.md) · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)
+- [Page 481 "Dimension Set ID Filter"](../../objects/page/481.md) · captioned "Dimension Filter" · on [Table 348 "Dimension"](../../objects/table/348.md) · via [Finance](business-functionality/finance.md)
+- [Page 483 "Currency Exchange Rates"](../../objects/page/483.md) · on [Table 330 "Currency Exchange Rate"](../../objects/table/330.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 484 "Edit Reclas. Dimensions"](../../objects/page/484.md) · on [Table 482 "Reclas. Dimension Set Buffer"](../../objects/table/482.md) · via [Finance](business-functionality/finance.md)
+- [Page 485 "Tax Setup"](../../objects/page/485.md) · on [Table 326 "Tax Setup"](../../objects/table/326.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 488 "Column Layout Names"](../../objects/page/488.md) · captioned "(Financial Report) Column Definitions" · on [Table 333 "Column Layout Name"](../../objects/table/333.md) · via [Finance](business-functionality/finance.md)
+- [Page 489 "Column Layout"](../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../objects/table/334.md) · via [Finance](business-functionality/finance.md)
+- [Page 490 "Acc. Schedule Overview"](../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../objects/table/85.md) · via [Finance](business-functionality/finance.md)
+- [Page 491 "Items by Location"](../../objects/page/491.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 492 "Item Availability by Location"](../../objects/page/492.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 493 "Resource Price Changes"](../../objects/page/493.md) · on [Table 335 "Resource Price Change"](../../objects/table/335.md) · via [Project management](business-functionality/project-management.md)
+- [Page 494 "Finance Charge Terms Card"](../../objects/page/494.md) · on [Table 5 "Finance Charge Terms"](../../objects/table/5.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 495 "Currency Card"](../../objects/page/495.md) · on [Table 4 "Currency"](../../objects/table/4.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 499 "Available - Sales Lines"](../../objects/page/499.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 500 "Available - Requisition Lines"](../../objects/page/500.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 501 "Available - Purchase Lines"](../../objects/page/501.md) · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 504 "Available - Item Ledg. Entries"](../../objects/page/504.md) · on [Table 32 "Item Ledger Entry"](../../objects/table/32.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 506 "Item Application Entries"](../../objects/page/506.md) · on [Table 339 "Item Application Entry"](../../objects/table/339.md) · via [Finance](business-functionality/finance.md)
+- [Page 507 "Blanket Sales Order"](../../objects/page/507.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 509 "Blanket Purchase Order"](../../objects/page/509.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 512 "Customer Disc. Groups"](../../objects/page/512.md) · on [Table 340 "Customer Discount Group"](../../objects/table/340.md) · via [Sales](business-functionality/sales.md)
+- [Page 515 "Item Avail. by Location Lines"](../../objects/page/515.md) · captioned "Lines" · on [Table 14 "Location"](../../objects/table/14.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 516 "Sales Lines"](../../objects/page/516.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Finance](business-functionality/finance.md)
+- [Page 517 "Requisition Lines"](../../objects/page/517.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 518 "Purchase Lines"](../../objects/page/518.md) · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 519 "Item Journal Lines"](../../objects/page/519.md) · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 521 "Application Worksheet"](../../objects/page/521.md) · on [Table 32 "Item Ledger Entry"](../../objects/table/32.md) · via [Finance](business-functionality/finance.md)
+- [Page 522 "View Applied Entries"](../../objects/page/522.md) · on [Table 32 "Item Ledger Entry"](../../objects/table/32.md) · via [Finance](business-functionality/finance.md)
+- [Page 524 "Report Selection - Reminder"](../../objects/page/524.md) · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 525 "Posted Sales Shipment Lines"](../../objects/page/525.md) · on [Table 111 "Sales Shipment Line"](../../objects/table/111.md) · via [Finance](business-functionality/finance.md)
+- [Page 536 "Dimensions"](../../objects/page/536.md) · on [Table 348 "Dimension"](../../objects/table/348.md) · via [Finance](business-functionality/finance.md)
+- [Page 537 "Dimension Values"](../../objects/page/537.md) · on [Table 349 "Dimension Value"](../../objects/table/349.md) · via [Finance](business-functionality/finance.md)
+- [Page 538 "Dimension Combinations"](../../objects/page/538.md) · on [Table 348 "Dimension"](../../objects/table/348.md) · via [Finance](business-functionality/finance.md)
+- [Page 539 "Dimension Value Combinations"](../../objects/page/539.md) · on [Table 349 "Dimension Value"](../../objects/table/349.md) · via [Finance](business-functionality/finance.md)
+- [Page 540 "Default Dimensions"](../../objects/page/540.md) · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 541 "Account Type Default Dim."](../../objects/page/541.md) · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 542 "Default Dimensions-Multiple"](../../objects/page/542.md) · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 543 "Default Dimension Priorities"](../../objects/page/543.md) · on [Table 354 "Default Dimension Priority"](../../objects/table/354.md) · via [Finance](business-functionality/finance.md)
+- [Page 544 "Default Dimension Where-Used"](../../objects/page/544.md) · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 545 "Dim. Values per Account"](../../objects/page/545.md) · captioned "Dimension Values per Account" · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 548 "Dimension List"](../../objects/page/548.md) · on [Table 348 "Dimension"](../../objects/table/348.md) · via [Finance](business-functionality/finance.md)
+- [Page 550 "VAT Rate Change Setup"](../../objects/page/550.md) · on [Table 550 "VAT Rate Change Setup"](../../objects/table/550.md) · via [Finance](business-functionality/finance.md)
+- [Page 552 "Gen. Prod. Posting Group Conv."](../../objects/page/552.md) · on [Table 551 "VAT Rate Change Conversion"](../../objects/table/551.md) · via [Finance](business-functionality/finance.md)
+- [Page 555 "Analysis View Card"](../../objects/page/555.md) · on [Table 363 "Analysis View"](../../objects/table/363.md) · via [Finance](business-functionality/finance.md)
+- [Page 556 "Analysis View List"](../../objects/page/556.md) · captioned "Analysis Views" · on [Table 363 "Analysis View"](../../objects/table/363.md) · via [Finance](business-functionality/finance.md)
+- [Page 557 "Analysis View Filter"](../../objects/page/557.md) · on [Table 364 "Analysis View Filter"](../../objects/table/364.md) · via [Finance](business-functionality/finance.md)
+- [Page 558 "Analysis View Entries"](../../objects/page/558.md) · on [Table 365 "Analysis View Entry"](../../objects/table/365.md) · via [Finance](business-functionality/finance.md)
+- [Page 560 "Dimension Value List"](../../objects/page/560.md) · on [Table 349 "Dimension Value"](../../objects/table/349.md) · via [Finance](business-functionality/finance.md)
+- [Page 562 "Dimension Selection-Multiple"](../../objects/page/562.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../objects/table/368.md) · via [Finance](business-functionality/finance.md)
+- [Page 564 "Dimension Selection-Level"](../../objects/page/564.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../objects/table/368.md) · via [Finance](business-functionality/finance.md)
+- [Page 567 "Dimension Selection-Change"](../../objects/page/567.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../objects/table/368.md) · via [Finance](business-functionality/finance.md)
+- [Page 568 "Dimension Selection"](../../objects/page/568.md) · on [Table 368 "Dimension Selection Buffer"](../../objects/table/368.md) · via [Finance](business-functionality/finance.md)
+- [Page 569 "Chart of Accs. (Analysis View)"](../../objects/page/569.md) · on [Table 376 "G/L Account (Analysis View)"](../../objects/table/376.md) · via [Finance](business-functionality/finance.md)
+- [Page 570 "Chart of Accounts (G/L)"](../../objects/page/570.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 572 "Finance Charge Interest Rates"](../../objects/page/572.md) · on [Table 572 "Finance Charge Interest Rate"](../../objects/table/572.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 574 "Detailed Vendor Ledg. Entries"](../../objects/page/574.md) · captioned "Detailed Vendor Ledger Entries" · on [Table 380 "Detailed Vendor Ledg. Entry"](../../objects/table/380.md) · via [Finance](business-functionality/finance.md)
+- [Page 575 "VAT Registration No. Formats"](../../objects/page/575.md) · on [Table 381 "VAT Registration No. Format"](../../objects/table/381.md) · via [Finance](business-functionality/finance.md)
+- [Page 577 "Change Global Dimensions"](../../objects/page/577.md) · on [Table 484 "Change Global Dim. Header"](../../objects/table/484.md) · via [Finance](business-functionality/finance.md)
+- [Page 578 "Change Global Dim. Log Entries"](../../objects/page/578.md) · captioned "Log Entries" · on [Table 483 "Change Global Dim. Log Entry"](../../objects/table/483.md) · via [Finance](business-functionality/finance.md)
+- [Page 580 "Dimension Translations"](../../objects/page/580.md) · on [Table 388 "Dimension Translation"](../../objects/table/388.md) · via [Finance](business-functionality/finance.md)
+- [Page 599 "Payment Disc Tolerance Warning"](../../objects/page/599.md) · captioned "Payment Discount Tolerance Warning" · via [Finance](business-functionality/finance.md)
+- [Page 600 "IC Dimensions"](../../objects/page/600.md) · captioned "Intercompany Dimensions" · on [Table 411 "IC Dimension"](../../objects/table/411.md) · via [Finance](business-functionality/finance.md)
+- [Page 601 "IC Dimension Values"](../../objects/page/601.md) · captioned "Intercompany Dimension Values" · on [Table 412 "IC Dimension Value"](../../objects/table/412.md) · via [Finance](business-functionality/finance.md)
+- [Page 602 "IC Dimension List"](../../objects/page/602.md) · captioned "Intercompany Dimension List" · on [Table 411 "IC Dimension"](../../objects/table/411.md) · via [Finance](business-functionality/finance.md)
+- [Page 603 "IC Dimension Value List"](../../objects/page/603.md) · captioned "Intercompany Dimension Value List" · on [Table 412 "IC Dimension Value"](../../objects/table/412.md) · via [Finance](business-functionality/finance.md)
+- [Page 605 "IC Chart of Accounts"](../../objects/page/605.md) · captioned "Intercompany Chart of Accounts" · on [Table 410 "IC G/L Account"](../../objects/table/410.md) · via [Finance](business-functionality/finance.md)
+- [Page 606 "IC G/L Account Card"](../../objects/page/606.md) · captioned "Intercompany G/L Account Card" · on [Table 410 "IC G/L Account"](../../objects/table/410.md) · via [Finance](business-functionality/finance.md)
+- [Page 607 "IC G/L Account List"](../../objects/page/607.md) · captioned "Intercompany G/L Account List" · on [Table 410 "IC G/L Account"](../../objects/table/410.md) · via [Finance](business-functionality/finance.md)
+- [Page 608 "IC Partner List"](../../objects/page/608.md) · captioned "Intercompany Partners" · on [Table 413 "IC Partner"](../../objects/table/413.md) · via [Finance](business-functionality/finance.md)
+- [Page 609 "IC Partner Card"](../../objects/page/609.md) · captioned "Intercompany Partner" · on [Table 413 "IC Partner"](../../objects/table/413.md) · via [Finance](business-functionality/finance.md)
+- [Page 610 "IC General Journal"](../../objects/page/610.md) · captioned "Intercompany General Journal" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Finance](business-functionality/finance.md)
+- [Page 611 "IC Outbox Transactions"](../../objects/page/611.md) · captioned "Intercompany Outbox Transactions" · on [Table 414 "IC Outbox Transaction"](../../objects/table/414.md) · via [Finance](business-functionality/finance.md)
+- [Page 612 "IC Outbox Jnl. Lines"](../../objects/page/612.md) · on [Table 415 "IC Outbox Jnl. Line"](../../objects/table/415.md) · via [Finance](business-functionality/finance.md)
+- [Page 613 "Handled IC Outbox Transactions"](../../objects/page/613.md) · captioned "Handled Intercompany Outbox Transactions" · on [Table 416 "Handled IC Outbox Trans."](../../objects/table/416.md) · via [Finance](business-functionality/finance.md)
+- [Page 614 "Handled IC Outbox Jnl. Lines"](../../objects/page/614.md) · on [Table 417 "Handled IC Outbox Jnl. Line"](../../objects/table/417.md) · via [Finance](business-functionality/finance.md)
+- [Page 615 "IC Inbox Transactions"](../../objects/page/615.md) · captioned "Intercompany Inbox Transactions" · on [Table 418 "IC Inbox Transaction"](../../objects/table/418.md) · via [Finance](business-functionality/finance.md)
+- [Page 616 "IC Inbox Jnl. Lines"](../../objects/page/616.md) · on [Table 419 "IC Inbox Jnl. Line"](../../objects/table/419.md) · via [Finance](business-functionality/finance.md)
+- [Page 617 "Handled IC Inbox Transactions"](../../objects/page/617.md) · captioned "Handled Intercompany Inbox Transactions" · on [Table 420 "Handled IC Inbox Trans."](../../objects/table/420.md) · via [Finance](business-functionality/finance.md)
+- [Page 618 "Handled IC Inbox Jnl. Lines"](../../objects/page/618.md) · on [Table 421 "Handled IC Inbox Jnl. Line"](../../objects/table/421.md) · via [Finance](business-functionality/finance.md)
+- [Page 619 "IC Inbox/Outbox Jnl. Line Dim."](../../objects/page/619.md) · captioned "Intercompany Inbox/Outbox Jnl. Line Dim." · on [Table 423 "IC Inbox/Outbox Jnl. Line Dim."](../../objects/table/423.md) · via [Finance](business-functionality/finance.md)
+- [Page 620 "IC Comment Sheet"](../../objects/page/620.md) · on [Table 424 "IC Comment Line"](../../objects/table/424.md) · via [Finance](business-functionality/finance.md)
+- [Page 621 "IC API Log Entries"](../../objects/page/621.md) · on [Table 444 "IC API Log"](../../objects/table/444.md) · via [Finance](business-functionality/finance.md)
+- [Page 623 "Unapply Customer Entries"](../../objects/page/623.md) · on [Table 379 "Detailed Cust. Ledg. Entry"](../../objects/table/379.md) · via [Finance](business-functionality/finance.md)
+- [Page 624 "Unapply Vendor Entries"](../../objects/page/624.md) · on [Table 380 "Detailed Vendor Ledg. Entry"](../../objects/table/380.md) · via [Finance](business-functionality/finance.md)
+- [Page 625 "Unapply Employee Entries"](../../objects/page/625.md) · on [Table 5223 "Detailed Employee Ledger Entry"](../../objects/table/5223.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 634 "Chart of Accounts Overview"](../../objects/page/634.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 636 "IC Outbox Sales Doc."](../../objects/page/636.md) · on [Table 426 "IC Outbox Sales Header"](../../objects/table/426.md) · via [Finance](business-functionality/finance.md)
+- [Page 637 "IC Outbox Sales Lines"](../../objects/page/637.md) · captioned "Lines" · on [Table 427 "IC Outbox Sales Line"](../../objects/table/427.md) · via [Finance](business-functionality/finance.md)
+- [Page 638 "IC Outbox Purchase Doc."](../../objects/page/638.md) · on [Table 428 "IC Outbox Purchase Header"](../../objects/table/428.md) · via [Finance](business-functionality/finance.md)
+- [Page 639 "IC Outbox Purchase Lines"](../../objects/page/639.md) · captioned "Lines" · on [Table 429 "IC Outbox Purchase Line"](../../objects/table/429.md) · via [Finance](business-functionality/finance.md)
+- [Page 640 "Handled IC Outbox Sales Doc."](../../objects/page/640.md) · on [Table 430 "Handled IC Outbox Sales Header"](../../objects/table/430.md) · via [Finance](business-functionality/finance.md)
+- [Page 641 "Handled IC Outbox Sales Lines"](../../objects/page/641.md) · captioned "Lines" · on [Table 431 "Handled IC Outbox Sales Line"](../../objects/table/431.md) · via [Finance](business-functionality/finance.md)
+- [Page 642 "Handled IC Outbox Purch. Doc."](../../objects/page/642.md) · on [Table 432 "Handled IC Outbox Purch. Hdr"](../../objects/table/432.md) · via [Finance](business-functionality/finance.md)
+- [Page 643 "Handled IC Outbox Purch. Lines"](../../objects/page/643.md) · captioned "Lines" · on [Table 433 "Handled IC Outbox Purch. Line"](../../objects/table/433.md) · via [Finance](business-functionality/finance.md)
+- [Page 644 "IC Inbox Sales Doc."](../../objects/page/644.md) · on [Table 434 "IC Inbox Sales Header"](../../objects/table/434.md) · via [Finance](business-functionality/finance.md)
+- [Page 645 "IC Inbox Sales Lines"](../../objects/page/645.md) · captioned "Lines" · on [Table 435 "IC Inbox Sales Line"](../../objects/table/435.md) · via [Finance](business-functionality/finance.md)
+- [Page 646 "IC Inbox Purchase Doc."](../../objects/page/646.md) · on [Table 436 "IC Inbox Purchase Header"](../../objects/table/436.md) · via [Finance](business-functionality/finance.md)
+- [Page 647 "IC Inbox Purchase Lines"](../../objects/page/647.md) · captioned "Lines" · on [Table 437 "IC Inbox Purchase Line"](../../objects/table/437.md) · via [Finance](business-functionality/finance.md)
+- [Page 648 "Handled IC Inbox Sales Doc."](../../objects/page/648.md) · on [Table 438 "Handled IC Inbox Sales Header"](../../objects/table/438.md) · via [Finance](business-functionality/finance.md)
+- [Page 649 "Handled IC Inbox Sales Lines"](../../objects/page/649.md) · captioned "Lines" · on [Table 439 "Handled IC Inbox Sales Line"](../../objects/table/439.md) · via [Finance](business-functionality/finance.md)
+- [Page 650 "Handled IC Inbox Purch. Doc."](../../objects/page/650.md) · on [Table 440 "Handled IC Inbox Purch. Header"](../../objects/table/440.md) · via [Finance](business-functionality/finance.md)
+- [Page 651 "Handled IC Inbox Purch. Lines"](../../objects/page/651.md) · captioned "Lines" · on [Table 441 "Handled IC Inbox Purch. Line"](../../objects/table/441.md) · via [Finance](business-functionality/finance.md)
+- [Page 652 "IC Document Dimensions"](../../objects/page/652.md) · captioned "Intercompany Document Dimensions" · on [Table 442 "IC Document Dimension"](../../objects/table/442.md) · via [Finance](business-functionality/finance.md)
+- [Page 653 "Intercompany Setup"](../../objects/page/653.md) · on [Table 443 "IC Setup"](../../objects/table/443.md) · via [Finance](business-functionality/finance.md)
+- [Page 654 "Requests to Approve"](../../objects/page/654.md) · on [Table 454 "Approval Entry"](../../objects/table/454.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 662 "Approval Request Entries"](../../objects/page/662.md) · on [Table 454 "Approval Entry"](../../objects/table/454.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 663 "Approval User Setup"](../../objects/page/663.md) · on [Table 91 "User Setup"](../../objects/table/91.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 664 "Sales Prepayment Percentages"](../../objects/page/664.md) · on [Table 459 "Sales Prepayment %"](../../objects/table/459.md) · via [Finance](business-functionality/finance.md)
+- [Page 666 "Overdue Approval Entries"](../../objects/page/666.md) · on [Table 458 "Overdue Approval Entry"](../../objects/table/458.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 671 "Job Queue Category List"](../../objects/page/671.md) · captioned "Job Queue Categories" · on [Table 471 "Job Queue Category"](../../objects/table/471.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 672 "Job Queue Entries"](../../objects/page/672.md) · on [Table 472 "Job Queue Entry"](../../objects/table/472.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 673 "Job Queue Entry Card"](../../objects/page/673.md) · on [Table 472 "Job Queue Entry"](../../objects/table/472.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 674 "Job Queue Log Entries"](../../objects/page/674.md) · on [Table 474 "Job Queue Log Entry"](../../objects/table/474.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 686 "Payment Practice Data List"](../../objects/page/686.md) · on [Table 686 "Payment Practice Data"](../../objects/table/686.md) · via [Finance](business-functionality/finance.md)
+- [Page 687 "Payment Practice Card"](../../objects/page/687.md) · captioned "Payment Practice" · on [Table 687 "Payment Practice Header"](../../objects/table/687.md) · via [Finance](business-functionality/finance.md)
+- [Page 689 "Payment Practice List"](../../objects/page/689.md) · captioned "Payment Practices" · on [Table 687 "Payment Practice Header"](../../objects/table/687.md) · via [Finance](business-functionality/finance.md)
+- [Page 699 "Dimension Set Entries FactBox"](../../objects/page/699.md) · captioned "Dimensions" · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)
+- [Page 734 "VAT Clauses by Doc. Type"](../../objects/page/734.md) · captioned "VAT Clauses by Document Type" · on [Table 562 "VAT Clause by Doc. Type"](../../objects/table/562.md) · via [Finance](business-functionality/finance.md)
+- [Page 737 "VAT Return Period List"](../../objects/page/737.md) · captioned "VAT Return Periods" · on [Table 737 "VAT Return Period"](../../objects/table/737.md) · via [Finance](business-functionality/finance.md)
+- [Page 738 "VAT Return Period Card"](../../objects/page/738.md) · captioned "VAT Return Period" · on [Table 737 "VAT Return Period"](../../objects/table/737.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 739 "VAT Report Log"](../../objects/page/739.md) · on [Table 747 "VAT Report Archive"](../../objects/table/747.md) · via [Finance](business-functionality/finance.md)
+- [Page 740 "VAT Report"](../../objects/page/740.md) · captioned "VAT Return" · on [Table 740 "VAT Report Header"](../../objects/table/740.md) · via [Finance](business-functionality/finance.md)
+- [Page 741 "VAT Report Subform"](../../objects/page/741.md) · captioned "Lines" · on [Table 741 "VAT Report Line"](../../objects/table/741.md) · via [Finance](business-functionality/finance.md)
+- [Page 742 "VAT Report Statement Subform"](../../objects/page/742.md) · on [Table 742 "VAT Statement Report Line"](../../objects/table/742.md) · via [Finance](business-functionality/finance.md)
+- [Page 743 "VAT Report Setup"](../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../objects/table/743.md) · via [Finance](business-functionality/finance.md)
+- [Page 744 "VAT Report List"](../../objects/page/744.md) · captioned "VAT Returns" · on [Table 740 "VAT Report Header"](../../objects/table/740.md) · via [Finance](business-functionality/finance.md)
+- [Page 745 "VAT Report Error Log"](../../objects/page/745.md) · on [Table 745 "VAT Report Error Log"](../../objects/table/745.md) · via [Finance](business-functionality/finance.md)
+- [Page 746 "VAT Reports Configuration"](../../objects/page/746.md) · on [Table 746 "VAT Reports Configuration"](../../objects/table/746.md) · via [Finance](business-functionality/finance.md)
+- [Page 747 "VAT Clauses"](../../objects/page/747.md) · on [Table 560 "VAT Clause"](../../objects/table/560.md) · via [Finance](business-functionality/finance.md)
+- [Page 748 "VAT Clause Translations"](../../objects/page/748.md) · on [Table 561 "VAT Clause Translation"](../../objects/table/561.md) · via [Finance](business-functionality/finance.md)
+- [Page 750 "Standard General Journals"](../../objects/page/750.md) · on [Table 750 "Standard General Journal"](../../objects/table/750.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 751 "Standard General Journal"](../../objects/page/751.md) · on [Table 750 "Standard General Journal"](../../objects/table/750.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 752 "Standard Gen. Journal Subform"](../../objects/page/752.md) · captioned "Lines" · on [Table 751 "Standard General Journal Line"](../../objects/table/751.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 753 "Standard Item Journals"](../../objects/page/753.md) · on [Table 752 "Standard Item Journal"](../../objects/table/752.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 754 "Standard Item Journal"](../../objects/page/754.md) · on [Table 752 "Standard Item Journal"](../../objects/table/752.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 755 "Standard Item Journal Subform"](../../objects/page/755.md) · captioned "Lines" · on [Table 753 "Standard Item Journal Line"](../../objects/table/753.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 762 "Finance Performance"](../../objects/page/762.md) · on [Table 485 "Business Chart Buffer"](../../objects/table/485.md) · via [Finance](business-functionality/finance.md)
+- [Page 764 "Acc. Sched. Chart Matrix"](../../objects/page/764.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../objects/table/763.md) · via [Finance](business-functionality/finance.md)
+- [Page 765 "Acc. Sched. Chart Line"](../../objects/page/765.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../objects/table/763.md) · via [Finance](business-functionality/finance.md)
+- [Page 766 "Acc. Sched. Chart SubPage"](../../objects/page/766.md) · on [Table 763 "Acc. Sched. Chart Setup Line"](../../objects/table/763.md) · via [Finance](business-functionality/finance.md)
+- [Page 785 "Customer Picture"](../../objects/page/785.md) · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 786 "Vendor Picture"](../../objects/page/786.md) · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 790 "G/L Account Categories"](../../objects/page/790.md) · on [Table 570 "G/L Account Category"](../../objects/table/570.md) · via [Finance](business-functionality/finance.md)
+- [Page 791 "G/L Accounts ListPart"](../../objects/page/791.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 800 "Online Map Setup"](../../objects/page/800.md) · on [Table 800 "Online Map Setup"](../../objects/table/800.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 804 "Online Map Parameter Setup"](../../objects/page/804.md) · on [Table 801 "Online Map Parameter Setup"](../../objects/table/801.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 806 "Online Map Location"](../../objects/page/806.md) · via [Sales](business-functionality/sales.md)
+- [Page 840 "CF Forecast Statistics FactBox"](../../objects/page/840.md) · captioned "Cash Flow Forecast Statistic" · on [Table 840 "Cash Flow Forecast"](../../objects/table/840.md) · via [Finance](business-functionality/finance.md)
+- [Page 841 "Cash Flow Worksheet"](../../objects/page/841.md) · on [Table 846 "Cash Flow Worksheet Line"](../../objects/table/846.md) · via [Finance](business-functionality/finance.md)
+- [Page 846 "Cash Flow Setup"](../../objects/page/846.md) · on [Table 843 "Cash Flow Setup"](../../objects/table/843.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 847 "Cash Flow Forecast Card"](../../objects/page/847.md) · on [Table 840 "Cash Flow Forecast"](../../objects/table/840.md) · via [Finance](business-functionality/finance.md)
+- [Page 848 "Cash Flow Comment"](../../objects/page/848.md) · on [Table 842 "Cash Flow Account Comment"](../../objects/table/842.md) · via [Finance](business-functionality/finance.md)
+- [Page 849 "Cash Flow Forecast List"](../../objects/page/849.md) · captioned "Cash Flow Forecasts" · on [Table 840 "Cash Flow Forecast"](../../objects/table/840.md) · via [Finance](business-functionality/finance.md)
+- [Page 850 "Cash Flow Forecast Entries"](../../objects/page/850.md) · captioned "Cash Flow Ledger Entries" · on [Table 847 "Cash Flow Forecast Entry"](../../objects/table/847.md) · via [Finance](business-functionality/finance.md)
+- [Page 851 "Chart of Cash Flow Accounts"](../../objects/page/851.md) · on [Table 841 "Cash Flow Account"](../../objects/table/841.md) · via [Finance](business-functionality/finance.md)
+- [Page 855 "Cash Flow Account List"](../../objects/page/855.md) · on [Table 841 "Cash Flow Account"](../../objects/table/841.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 857 "Cash Flow Manual Revenues"](../../objects/page/857.md) · on [Table 849 "Cash Flow Manual Revenue"](../../objects/table/849.md) · via [Finance](business-functionality/finance.md)
+- [Page 858 "Cash Flow Comment List"](../../objects/page/858.md) · on [Table 842 "Cash Flow Account Comment"](../../objects/table/842.md) · via [Finance](business-functionality/finance.md)
+- [Page 859 "Cash Flow Manual Expenses"](../../objects/page/859.md) · on [Table 850 "Cash Flow Manual Expense"](../../objects/table/850.md) · via [Finance](business-functionality/finance.md)
+- [Page 860 "CF Entries Dim. Overview"](../../objects/page/860.md) · captioned "CF Forcst. Entries Dimension Overview" · on [Table 847 "Cash Flow Forecast Entry"](../../objects/table/847.md) · via [Finance](business-functionality/finance.md)
+- [Page 862 "Cash Flow Account Card"](../../objects/page/862.md) · on [Table 841 "Cash Flow Account"](../../objects/table/841.md) · via [Finance](business-functionality/finance.md)
+- [Page 863 "CF Entries Dim. Matrix"](../../objects/page/863.md) · captioned "CF Forcst. Entries Dim. Overv. M." · on [Table 847 "Cash Flow Forecast Entry"](../../objects/table/847.md) · via [Finance](business-functionality/finance.md)
+- [Page 865 "Report Selection - Cash Flow"](../../objects/page/865.md) · on [Table 856 "Cash Flow Report Selection"](../../objects/table/856.md) · via [Finance](business-functionality/finance.md)
+- [Page 866 "Cash Flow Availability Lines"](../../objects/page/866.md) · captioned "Lines" · on [Table 930 "Cash Flow Availability Buffer"](../../objects/table/930.md) · via [Finance](business-functionality/finance.md)
+- [Page 867 "CF Availability by Periods"](../../objects/page/867.md) · on [Table 840 "Cash Flow Forecast"](../../objects/table/840.md) · via [Finance](business-functionality/finance.md)
+- [Page 868 "Cash Flow Forecast Statistics"](../../objects/page/868.md) · on [Table 840 "Cash Flow Forecast"](../../objects/table/840.md) · via [Finance](business-functionality/finance.md)
+- [Page 869 "Cash Flow Forecast Chart"](../../objects/page/869.md) · captioned "Cash Flow Forecast" · on [Table 485 "Business Chart Buffer"](../../objects/table/485.md) · via [Finance](business-functionality/finance.md)
+- [Page 900 "Assembly Order"](../../objects/page/900.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 901 "Assembly Order Subform"](../../objects/page/901.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 902 "Assembly Orders"](../../objects/page/902.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 903 "Assembly Lines"](../../objects/page/903.md) · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 904 "Assembly List"](../../objects/page/904.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 905 "Assembly Setup"](../../objects/page/905.md) · on [Table 905 "Assembly Setup"](../../objects/table/905.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 907 "Assembly Comment Sheet"](../../objects/page/907.md) · on [Table 906 "Assembly Comment Line"](../../objects/table/906.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 908 "Assembly Availability"](../../objects/page/908.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 909 "Assembly Line Avail."](../../objects/page/909.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 910 "Assembly Item - Details"](../../objects/page/910.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 911 "Component - Item Details"](../../objects/page/911.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 912 "Component - Resource Details"](../../objects/page/912.md) · on [Table 156 "Resource"](../../objects/table/156.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 914 "Assemble-to-Order Lines"](../../objects/page/914.md) · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 915 "Asm.-to-Order Whse. Shpt. Line"](../../objects/page/915.md) · on [Table 7321 "Warehouse Shipment Line"](../../objects/table/7321.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 916 "Assembly Order Statistics"](../../objects/page/916.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 917 "Component - Item FactBox"](../../objects/page/917.md) · captioned "Component - Item" · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 920 "Posted Assembly Order"](../../objects/page/920.md) · on [Table 910 "Posted Assembly Header"](../../objects/table/910.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 921 "Posted Assembly Order Subform"](../../objects/page/921.md) · captioned "Lines" · on [Table 911 "Posted Assembly Line"](../../objects/table/911.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 922 "Posted Assembly Orders"](../../objects/page/922.md) · on [Table 910 "Posted Assembly Header"](../../objects/table/910.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 923 "Posted Asm. Order Statistics"](../../objects/page/923.md) · on [Table 910 "Posted Assembly Header"](../../objects/table/910.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 925 "Available - Assembly Headers"](../../objects/page/925.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 926 "Available - Assembly Lines"](../../objects/page/926.md) · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 930 "Assembly Quote"](../../objects/page/930.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 931 "Assembly Quote Subform"](../../objects/page/931.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 932 "Assembly Quotes"](../../objects/page/932.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 940 "Blanket Assembly Order"](../../objects/page/940.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 941 "Blanket Assembly Order Subform"](../../objects/page/941.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../objects/table/901.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 942 "Blanket Assembly Orders"](../../objects/page/942.md) · on [Table 900 "Assembly Header"](../../objects/table/900.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 946 "Time Sheet Line List"](../../objects/page/946.md) · captioned "Time Sheet Lines" · on [Table 951 "Time Sheet Line"](../../objects/table/951.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 949 "Time Sheet Lines"](../../objects/page/949.md) · on [Table 951 "Time Sheet Line"](../../objects/table/951.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 951 "Time Sheet List"](../../objects/page/951.md) · captioned "Time Sheets" · on [Table 950 "Time Sheet Header"](../../objects/table/950.md) · via [Project management](business-functionality/project-management.md)
+- [Page 973 "Time Sheet Card"](../../objects/page/973.md) · captioned "Time Sheet" · on [Table 950 "Time Sheet Header"](../../objects/table/950.md) · via [Project management](business-functionality/project-management.md)
+- [Page 977 "Time Sheet Setup Wizard"](../../objects/page/977.md) · captioned "Set Up Time Sheets" · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 981 "Payment Registration"](../../objects/page/981.md) · captioned "Register Customer Payments" · on [Table 981 "Payment Registration Buffer"](../../objects/table/981.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1001 "Job Task Lines Subform"](../../objects/page/1001.md) · captioned "Project Task Lines Subform" · on [Table 1001 "Job Task"](../../objects/table/1001.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1002 "Job Task Lines"](../../objects/page/1002.md) · captioned "Project Task Lines" · on [Table 1001 "Job Task"](../../objects/table/1001.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1003 "Job Task Card"](../../objects/page/1003.md) · captioned "Project Task Card" · on [Table 1001 "Job Task"](../../objects/table/1001.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1004 "Job Task List"](../../objects/page/1004.md) · captioned "Project Task List" · on [Table 1001 "Job Task"](../../objects/table/1001.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1005 "Job Task Dimensions"](../../objects/page/1005.md) · captioned "Project Task Dimensions" · on [Table 1002 "Job Task Dimension"](../../objects/table/1002.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1006 "Job Task Dimensions Multiple"](../../objects/page/1006.md) · captioned "Project Task Dimensions Multiple" · on [Table 1002 "Job Task Dimension"](../../objects/table/1002.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1007 "Job Planning Lines"](../../objects/page/1007.md) · captioned "Project Planning Lines" · on [Table 1003 "Job Planning Line"](../../objects/table/1003.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1010 "Job WIP Methods"](../../objects/page/1010.md) · captioned "Project WIP Methods" · on [Table 1006 "Job WIP Method"](../../objects/table/1006.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1012 "Job Item Prices"](../../objects/page/1012.md) · captioned "Project Item Prices" · on [Table 1013 "Job Item Price"](../../objects/table/1013.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1020 "Job G/L Journal"](../../objects/page/1020.md) · captioned "Project G/L Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1029 "Job Invoices"](../../objects/page/1029.md) · captioned "Project Invoices" · on [Table 1022 "Job Planning Line Invoice"](../../objects/table/1022.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1100 "Chart of Cost Types"](../../objects/page/1100.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1101 "Cost Type Card"](../../objects/page/1101.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1102 "Cost Allocation Sources"](../../objects/page/1102.md) · captioned "Cost Allocations" · on [Table 1106 "Cost Allocation Source"](../../objects/table/1106.md) · via [Finance](business-functionality/finance.md)
+- [Page 1103 "Cost Entries"](../../objects/page/1103.md) · on [Table 1104 "Cost Entry"](../../objects/table/1104.md) · via [Finance](business-functionality/finance.md)
+- [Page 1104 "Cost Registers"](../../objects/page/1104.md) · on [Table 1105 "Cost Register"](../../objects/table/1105.md) · via [Finance](business-functionality/finance.md)
+- [Page 1105 "Cost Allocation"](../../objects/page/1105.md) · on [Table 1106 "Cost Allocation Source"](../../objects/table/1106.md) · via [Finance](business-functionality/finance.md)
+- [Page 1106 "Cost Allocation Target"](../../objects/page/1106.md) · captioned "Lines" · on [Table 1107 "Cost Allocation Target"](../../objects/table/1107.md) · via [Finance](business-functionality/finance.md)
+- [Page 1107 "Cost Journal Templates"](../../objects/page/1107.md) · on [Table 1100 "Cost Journal Template"](../../objects/table/1100.md) · via [Finance](business-functionality/finance.md)
+- [Page 1108 "Cost Journal"](../../objects/page/1108.md) · captioned "Cost Journals" · on [Table 1101 "Cost Journal Line"](../../objects/table/1101.md) · via [Finance](business-functionality/finance.md)
+- [Page 1109 "Cost Allocation Target Card"](../../objects/page/1109.md) · on [Table 1107 "Cost Allocation Target"](../../objects/table/1107.md) · via [Finance](business-functionality/finance.md)
+- [Page 1111 "Cost Center Card"](../../objects/page/1111.md) · on [Table 1112 "Cost Center"](../../objects/table/1112.md) · via [Finance](business-functionality/finance.md)
+- [Page 1112 "Cost Object Card"](../../objects/page/1112.md) · on [Table 1113 "Cost Object"](../../objects/table/1113.md) · via [Finance](business-functionality/finance.md)
+- [Page 1113 "Cost Accounting Setup"](../../objects/page/1113.md) · on [Table 1108 "Cost Accounting Setup"](../../objects/table/1108.md) · via [Finance](business-functionality/finance.md)
+- [Page 1114 "Cost Allocation Target List"](../../objects/page/1114.md) · on [Table 1107 "Cost Allocation Target"](../../objects/table/1107.md) · via [Finance](business-functionality/finance.md)
+- [Page 1115 "Cost Budget Entries"](../../objects/page/1115.md) · on [Table 1109 "Cost Budget Entry"](../../objects/table/1109.md) · via [Finance](business-functionality/finance.md)
+- [Page 1116 "Cost Budget Names"](../../objects/page/1116.md) · captioned "Cost Budgets" · on [Table 1110 "Cost Budget Name"](../../objects/table/1110.md) · via [Finance](business-functionality/finance.md)
+- [Page 1117 "Cost Budget per Period"](../../objects/page/1117.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1118 "Cost Budget by Cost Center"](../../objects/page/1118.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1119 "Cost Budget by Cost Object"](../../objects/page/1119.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1120 "Cost Type Balance/Budget"](../../objects/page/1120.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1121 "Cost Budget Registers"](../../objects/page/1121.md) · on [Table 1111 "Cost Budget Register"](../../objects/table/1111.md) · via [Finance](business-functionality/finance.md)
+- [Page 1122 "Chart of Cost Centers"](../../objects/page/1122.md) · on [Table 1112 "Cost Center"](../../objects/table/1112.md) · via [Finance](business-functionality/finance.md)
+- [Page 1123 "Chart of Cost Objects"](../../objects/page/1123.md) · on [Table 1113 "Cost Object"](../../objects/table/1113.md) · via [Finance](business-functionality/finance.md)
+- [Page 1124 "Cost Type List"](../../objects/page/1124.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1131 "Cost Budget per Period Matrix"](../../objects/page/1131.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1132 "Cost Bdgt. per Center Matrix"](../../objects/page/1132.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1133 "Cost Bdgt. per Object Matrix"](../../objects/page/1133.md) · on [Table 1103 "Cost Type"](../../objects/table/1103.md) · via [Finance](business-functionality/finance.md)
+- [Page 1135 "Cost Journal Batches"](../../objects/page/1135.md) · on [Table 1102 "Cost Journal Batch"](../../objects/table/1102.md) · via [Finance](business-functionality/finance.md)
+- [Page 1151 "COHUB Role Center"](../../objects/page/1151.md) · captioned "Company Hub" · via [Finance](business-functionality/finance.md)
+- [Page 1154 "COHUB My User Tasks"](../../objects/page/1154.md) · captioned "My User Tasks" · on [Table 1154 "COHUB User Task"](../../objects/table/1154.md) · via [Company hub](business-functionality/company-hub.md)
+- [Page 1155 "COHUB Group List"](../../objects/page/1155.md) · captioned "Groups" · on [Table 1155 "COHUB Group"](../../objects/table/1155.md) · via [Company hub](business-functionality/company-hub.md)
+- [Page 1156 "Company Detail"](../../objects/page/1156.md) · captioned "Company Details" · via [Finance](business-functionality/finance.md)
+- [Page 1157 "Client Detail Cash Flow Chart"](../../objects/page/1157.md) · captioned "Cash Flow Forecast" · on [Table 485 "Business Chart Buffer"](../../objects/table/485.md) · via [Finance](business-functionality/finance.md)
+- [Page 1158 "Cash Account Balances"](../../objects/page/1158.md) · on [Table 15 "G/L Account"](../../objects/table/15.md) · via [Finance](business-functionality/finance.md)
+- [Page 1164 "User Task List Part"](../../objects/page/1164.md) · on [Table 1170 "User Task"](../../objects/table/1170.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1165 "COHUB Enviroment Card"](../../objects/page/1165.md) · captioned "Environment Link" · on [Table 1152 "COHUB Enviroment"](../../objects/table/1152.md) · via [Company hub](business-functionality/company-hub.md)
+- [Page 1166 "COHUB Enviroment List"](../../objects/page/1166.md) · captioned "Environments" · on [Table 1152 "COHUB Enviroment"](../../objects/table/1152.md) · via [Finance](business-functionality/finance.md)
+- [Page 1170 "User Task List"](../../objects/page/1170.md) · captioned "User Tasks" · on [Table 1170 "User Task"](../../objects/table/1170.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1171 "User Task Card"](../../objects/page/1171.md) · captioned "User Task" · on [Table 1170 "User Task"](../../objects/table/1170.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1172 "User Task Recurrence"](../../objects/page/1172.md) · captioned "Schedule recurring task" · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1175 "User Task Group"](../../objects/page/1175.md) · on [Table 1175 "User Task Group"](../../objects/table/1175.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1176 "User Task Group Members"](../../objects/page/1176.md) · on [Table 1176 "User Task Group Member"](../../objects/table/1176.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1177 "User Task Groups"](../../objects/page/1177.md) · on [Table 1175 "User Task Group"](../../objects/table/1175.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1190 "Create Payment"](../../objects/page/1190.md) · via [Finance](business-functionality/finance.md)
+- [Page 1191 "Create Employee Payment"](../../objects/page/1191.md) · via [Finance](business-functionality/finance.md)
+- [Page 1200 "Bank Export/Import Setup"](../../objects/page/1200.md) · on [Table 1200 "Bank Export/Import Setup"](../../objects/table/1200.md) · via [Finance](business-functionality/finance.md)
+- [Page 1205 "Credit Transfer Registers"](../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../objects/table/1205.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../objects/table/1206.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1207 "Direct Debit Collections"](../../objects/page/1207.md) · on [Table 1207 "Direct Debit Collection"](../../objects/table/1207.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1208 "Direct Debit Collect. Entries"](../../objects/page/1208.md) · on [Table 1208 "Direct Debit Collection Entry"](../../objects/table/1208.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1209 "Credit Trans Re-export History"](../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../objects/table/1209.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1210 "Data Exch Def Card"](../../objects/page/1210.md) · captioned "Data Exchange Definition" · on [Table 1222 "Data Exch. Def"](../../objects/table/1222.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1211 "Data Exch Def List"](../../objects/page/1211.md) · captioned "Data Exchange Definitions" · on [Table 1222 "Data Exch. Def"](../../objects/table/1222.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1213 "Data Exchange Types"](../../objects/page/1213.md) · on [Table 1213 "Data Exchange Type"](../../objects/table/1213.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1214 "Data Exch Mapping Card"](../../objects/page/1214.md) · captioned "Field Mapping" · on [Table 1224 "Data Exch. Mapping"](../../objects/table/1224.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1215 "Data Exch Line Def Part"](../../objects/page/1215.md) · captioned "Line Definitions" · on [Table 1227 "Data Exch. Line Def"](../../objects/table/1227.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1216 "Data Exch Col Def Part"](../../objects/page/1216.md) · captioned "Column Definitions" · on [Table 1223 "Data Exch. Column Def"](../../objects/table/1223.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1217 "Data Exch Field Mapping Part"](../../objects/page/1217.md) · captioned "Data Exchange Field Mapping" · on [Table 1225 "Data Exch. Field Mapping"](../../objects/table/1225.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1227 "Pmt. Export Line Definitions"](../../objects/page/1227.md) · on [Table 1227 "Data Exch. Line Def"](../../objects/table/1227.md) · via [Finance](business-functionality/finance.md)
+- [Page 1228 "Payment Journal Errors Part"](../../objects/page/1228.md) · on [Table 1228 "Payment Jnl. Export Error Text"](../../objects/table/1228.md) · via [Finance](business-functionality/finance.md)
+- [Page 1229 "Payment File Error Details"](../../objects/page/1229.md) · on [Table 1228 "Payment Jnl. Export Error Text"](../../objects/table/1228.md) · via [Finance](business-functionality/finance.md)
+- [Page 1230 "SEPA Direct Debit Mandates"](../../objects/page/1230.md) · captioned "Direct Debit Mandates" · on [Table 1230 "SEPA Direct Debit Mandate"](../../objects/table/1230.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1231 "Positive Pay Entries"](../../objects/page/1231.md) · on [Table 1231 "Positive Pay Entry"](../../objects/table/1231.md) · via [Finance](business-functionality/finance.md)
+- [Page 1232 "Positive Pay Entry Details"](../../objects/page/1232.md) · on [Table 1232 "Positive Pay Entry Detail"](../../objects/table/1232.md) · via [Finance](business-functionality/finance.md)
+- [Page 1233 "Positive Pay Export"](../../objects/page/1233.md) · on [Table 270 "Bank Account"](../../objects/table/270.md) · via [Finance](business-functionality/finance.md)
+- [Page 1234 "Positive Pay Export Detail"](../../objects/page/1234.md) · on [Table 272 "Check Ledger Entry"](../../objects/table/272.md) · via [Finance](business-functionality/finance.md)
+- [Page 1240 "SWIFT Codes"](../../objects/page/1240.md) · on [Table 1210 "SWIFT Code"](../../objects/table/1210.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1262 "Certificate List"](../../objects/page/1262.md) · captioned "Certificates" · on [Table 1262 "Isolated Certificate"](../../objects/table/1262.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1263 "Certificate"](../../objects/page/1263.md) · on [Table 1262 "Isolated Certificate"](../../objects/table/1262.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1279 "Service Connections"](../../objects/page/1279.md) · on [Table 1400 "Service Connection"](../../objects/table/1400.md) · via [Finance](business-functionality/finance.md)
+- [Page 1280 "Bank Clearing Standards"](../../objects/page/1280.md) · on [Table 1280 "Bank Clearing Standard"](../../objects/table/1280.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1284 "Outstanding Bank Transactions"](../../objects/page/1284.md) · on [Table 1284 "Outstanding Bank Transaction"](../../objects/table/1284.md) · via [Finance](business-functionality/finance.md)
+- [Page 1287 "Payment Application Review"](../../objects/page/1287.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../objects/table/274.md) · via [Finance](business-functionality/finance.md)
+- [Page 1290 "Payment Reconciliation Journal"](../../objects/page/1290.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../objects/table/274.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1291 "Pmt. Recon. Journal Overview"](../../objects/page/1291.md) · captioned "Payment Reconciliation Journal Overview" · on [Table 274 "Bank Acc. Reconciliation Line"](../../objects/table/274.md) · via [Finance](business-functionality/finance.md)
+- [Page 1293 "Pmt. Rec. Journals Overview"](../../objects/page/1293.md) · captioned "Unprocessed Payments" · on [Table 273 "Bank Acc. Reconciliation"](../../objects/table/273.md) · via [Finance](business-functionality/finance.md)
+- [Page 1294 "Pmt. Reconciliation Journals"](../../objects/page/1294.md) · captioned "Payment Reconciliation Journals" · on [Table 273 "Bank Acc. Reconciliation"](../../objects/table/273.md) · via [Finance](business-functionality/finance.md)
+- [Page 1314 "AccountantPortal Activity Cues"](../../objects/page/1314.md) · on [Table 1313 "Activities Cue"](../../objects/table/1313.md) · via [Finance](business-functionality/finance.md)
+- [Page 1315 "Accountant Portal Finance Cues"](../../objects/page/1315.md) · on [Table 9054 "Finance Cue"](../../objects/table/9054.md) · via [Finance](business-functionality/finance.md)
+- [Page 1316 "Accountant Portal User Tasks"](../../objects/page/1316.md) · on [Table 1170 "User Task"](../../objects/table/1170.md) · via [Finance](business-functionality/finance.md)
+- [Page 1330 "Update Address"](../../objects/page/1330.md) · captioned "Do you want to update the address?" · via [Sales](business-functionality/sales.md)
+- [Page 1343 "Dimensions Template List"](../../objects/page/1343.md) · captioned "Dimension Templates" · on [Table 1302 "Dimensions Template"](../../objects/table/1302.md) · via [Finance](business-functionality/finance.md)
+- [Page 1346 "Purchases Price and Line Disc."](../../objects/page/1346.md) · captioned "Purchase Prices" · on [Table 1315 "Purch. Price Line Disc. Buff."](../../objects/table/1315.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1350 "Posted Sales Shipment - Update"](../../objects/page/1350.md) · on [Table 110 "Sales Shipment Header"](../../objects/table/110.md) · via [Sales](business-functionality/sales.md)
+- [Page 1378 "Select Item Templ. List"](../../objects/page/1378.md) · captioned "Select a template for a new item" · on [Table 1382 "Item Templ."](../../objects/table/1382.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 1379 "Select Vendor Templ. List"](../../objects/page/1379.md) · captioned "Select a template for a new vendor" · on [Table 1383 "Vendor Templ."](../../objects/table/1383.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1380 "Select Customer Templ. List"](../../objects/page/1380.md) · captioned "Select a template for a new customer" · on [Table 1381 "Customer Templ."](../../objects/table/1381.md) · via [Sales](business-functionality/sales.md)
+- [Page 1381 "Customer Templ. List"](../../objects/page/1381.md) · captioned "Customer Templates" · on [Table 1381 "Customer Templ."](../../objects/table/1381.md) · via [Sales](business-functionality/sales.md)
+- [Page 1382 "Customer Templ. Card"](../../objects/page/1382.md) · captioned "Customer Template" · on [Table 1381 "Customer Templ."](../../objects/table/1381.md) · via [Sales](business-functionality/sales.md)
+- [Page 1383 "Item Templ. List"](../../objects/page/1383.md) · captioned "Item Templates" · on [Table 1382 "Item Templ."](../../objects/table/1382.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 1384 "Item Templ. Card"](../../objects/page/1384.md) · captioned "Item Template" · on [Table 1382 "Item Templ."](../../objects/table/1382.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 1385 "Vendor Templ. List"](../../objects/page/1385.md) · captioned "Vendor Templates" · on [Table 1383 "Vendor Templ."](../../objects/table/1383.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1386 "Vendor Templ. Card"](../../objects/page/1386.md) · captioned "Vendor Template" · on [Table 1383 "Vendor Templ."](../../objects/table/1383.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1393 "Trial Balance"](../../objects/page/1393.md) · via [Finance](business-functionality/finance.md)
+- [Page 1394 "Trial Balance Setup"](../../objects/page/1394.md) · on [Table 1312 "Trial Balance Setup"](../../objects/table/1312.md) · via [Finance](business-functionality/finance.md)
+- [Page 1401 "Sales No. Series Setup"](../../objects/page/1401.md) · on [Table 311 "Sales & Receivables Setup"](../../objects/table/311.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1500 "Workflows"](../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../objects/table/1500.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1501 "Workflow"](../../objects/page/1501.md) · on [Table 1501 "Workflow"](../../objects/table/1501.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1503 "Workflow Steps"](../../objects/page/1503.md) · on [Table 1507 "Workflow Step Buffer"](../../objects/table/1507.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1504 "Workflow Step Instances"](../../objects/page/1504.md) · on [Table 1504 "Workflow Step Instance"](../../objects/table/1504.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1505 "Workflow Templates"](../../objects/page/1505.md) · on [Table 1500 "Workflow Buffer"](../../objects/table/1500.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1512 "Notification Setup"](../../objects/page/1512.md) · captioned "Workflow Notification Setup" · on [Table 1512 "Notification Setup"](../../objects/table/1512.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1513 "Notification Schedule"](../../objects/page/1513.md) · on [Table 1513 "Notification Schedule"](../../objects/table/1513.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1530 "Archived WF Step Instances"](../../objects/page/1530.md) · captioned "Archived Workflow Step Instances" · on [Table 1530 "Workflow Step Instance Archive"](../../objects/table/1530.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 1533 "Workflow User Groups"](../../objects/page/1533.md) · on [Table 1540 "Workflow User Group"](../../objects/table/1540.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1615 "Office Job Journal"](../../objects/page/1615.md) · captioned "Project Journal" · on [Table 1615 "Office Job Journal"](../../objects/table/1615.md) · via [Project management](business-functionality/project-management.md)
+- [Page 1627 "Office No Customer Dlg"](../../objects/page/1627.md) · captioned "Create customer record?" · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [Sales](business-functionality/sales.md)
+- [Page 1628 "Office No Vendor Dlg"](../../objects/page/1628.md) · captioned "Create vendor record?" · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1660 "Payroll Setup"](../../objects/page/1660.md) · on [Table 1660 "Payroll Setup"](../../objects/table/1660.md) · via [Finance](business-functionality/finance.md)
+- [Page 1661 "Payroll Import Transactions"](../../objects/page/1661.md) · captioned "Import Payroll Transactions" · on [Table 1661 "Import G/L Transaction"](../../objects/table/1661.md) · via [Finance](business-functionality/finance.md)
+- [Page 1680 "Email Logging Setup"](../../objects/page/1680.md) · captioned "Email Logging" · on [Table 1680 "Email Logging Setup"](../../objects/table/1680.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 1690 "Bank Deposit"](../../objects/page/1690.md) · on [Table 1690 "Bank Deposit Header"](../../objects/table/1690.md) · via [Finance](business-functionality/finance.md)
+- [Page 1692 "Bank Deposits"](../../objects/page/1692.md) · on [Table 1690 "Bank Deposit Header"](../../objects/table/1690.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 1700 "Deferral Template Card"](../../objects/page/1700.md) · on [Table 1700 "Deferral Template"](../../objects/table/1700.md) · via [Finance](business-functionality/finance.md)
+- [Page 1701 "Deferral Template List"](../../objects/page/1701.md) · captioned "Deferral Templates" · on [Table 1700 "Deferral Template"](../../objects/table/1700.md) · via [Finance](business-functionality/finance.md)
+- [Page 1702 "Deferral Schedule"](../../objects/page/1702.md) · on [Table 1701 "Deferral Header"](../../objects/table/1701.md) · via [Finance](business-functionality/finance.md)
+- [Page 1703 "Deferral Schedule Subform"](../../objects/page/1703.md) · captioned "Deferral Schedule Detail" · on [Table 1702 "Deferral Line"](../../objects/table/1702.md) · via [Finance](business-functionality/finance.md)
+- [Page 1704 "Deferral Schedule View"](../../objects/page/1704.md) · on [Table 1704 "Posted Deferral Header"](../../objects/table/1704.md) · via [Finance](business-functionality/finance.md)
+- [Page 1705 "Deferral Schedule View Subform"](../../objects/page/1705.md) · captioned "Deferral Schedule Detail" · on [Table 1705 "Posted Deferral Line"](../../objects/table/1705.md) · via [Finance](business-functionality/finance.md)
+- [Page 1706 "Deferral Schedule Archive"](../../objects/page/1706.md) · on [Table 5127 "Deferral Header Archive"](../../objects/table/5127.md) · via [Finance](business-functionality/finance.md)
+- [Page 1707 "Deferral Sched. Arch. Subform"](../../objects/page/1707.md) · captioned "Deferral Schedule Detail" · on [Table 5128 "Deferral Line Archive"](../../objects/table/5128.md) · via [Finance](business-functionality/finance.md)
+- [Page 1808 "Data Migration Wizard"](../../objects/page/1808.md) · captioned "Data Migration" · on [Table 1800 "Data Migrator Registration"](../../objects/table/1800.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1818 "Cash Flow Forecast Wizard"](../../objects/page/1818.md) · captioned "Set Up Cash Flow Forecast" · via [Finance](business-functionality/finance.md)
+- [Page 1827 "Business Units Setup Subform"](../../objects/page/1827.md) · on [Table 1827 "Business Unit Setup"](../../objects/table/1827.md) · via [Finance](business-functionality/finance.md)
+- [Page 1831 "Outlook Centralized Deployment"](../../objects/page/1831.md) · captioned "Outlook Add-in Centralized Deployment" · on [Table 1610 "Office Add-in"](../../objects/table/1610.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1832 "Outlook Individual Deployment"](../../objects/page/1832.md) · captioned "Get the Outlook Add-in" · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 1872 "Item Availability Check"](../../objects/page/1872.md) · captioned "Availability Check" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 1873 "Item Availability Check Det."](../../objects/page/1873.md) · captioned "Details" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 1877 "VAT Setup Wizard"](../../objects/page/1877.md) · captioned "VAT Setup" · via [Finance](business-functionality/finance.md)
+- [Page 1950 "LP Machine Learning Setup"](../../objects/page/1950.md) · captioned "Late Payment Prediction Setup" · on [Table 1950 "LP Machine Learning Setup"](../../objects/table/1950.md) · via [Finance](business-functionality/finance.md)
+- [Page 1951 "LP Prediction FactBox"](../../objects/page/1951.md) · on [Table 21 "Cust. Ledger Entry"](../../objects/table/21.md) · via [Finance](business-functionality/finance.md)
+- [Page 2580 "Dim Correction Blocked Setup"](../../objects/page/2580.md) · captioned "Dimensions Blocked for Correction" · on [Table 2580 "Dim Correction Blocked Setup"](../../objects/table/2580.md) · via [Finance](business-functionality/finance.md)
+- [Page 2581 "Dim Correction Changes Posted"](../../objects/page/2581.md) · on [Table 2581 "Dim Correction Change"](../../objects/table/2581.md) · via [Finance](business-functionality/finance.md)
+- [Page 2582 "Dim Correction Settings"](../../objects/page/2582.md) · captioned "Dimension Correction Settings" · via [Finance](business-functionality/finance.md)
+- [Page 2583 "Dim. Correct Ledger Entries"](../../objects/page/2583.md) · on [Table 17 "G/L Entry"](../../objects/table/17.md) · via [Finance](business-functionality/finance.md)
+- [Page 2584 "Dim Correct Posted Ledg Entr"](../../objects/page/2584.md) · on [Table 17 "G/L Entry"](../../objects/table/17.md) · via [Finance](business-functionality/finance.md)
+- [Page 2585 "Dim Correct Selection Criteria"](../../objects/page/2585.md) · captioned "Entry selection criteria" · on [Table 2585 "Dim Correct Selection Criteria"](../../objects/table/2585.md) · via [Finance](business-functionality/finance.md)
+- [Page 2586 "Dim Corr Find by Dimension"](../../objects/page/2586.md) · captioned "Find by Dimension" · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)
+- [Page 2587 "Dim Corr Values Overview"](../../objects/page/2587.md) · captioned "Dimension Values" · on [Table 349 "Dimension Value"](../../objects/table/349.md) · via [Finance](business-functionality/finance.md)
+- [Page 2588 "Dimension Correction"](../../objects/page/2588.md) · on [Table 2582 "Dimension Correction"](../../objects/table/2582.md) · via [Finance](business-functionality/finance.md)
+- [Page 2590 "Dimension Correction Changes"](../../objects/page/2590.md) · on [Table 2581 "Dim Correction Change"](../../objects/table/2581.md) · via [Finance](business-functionality/finance.md)
+- [Page 2591 "Dimension Correction Draft"](../../objects/page/2591.md) · captioned "Draft Dimension Correction" · on [Table 2582 "Dimension Correction"](../../objects/table/2582.md) · via [Finance](business-functionality/finance.md)
+- [Page 2592 "Dimension Corrections"](../../objects/page/2592.md) · on [Table 2582 "Dimension Correction"](../../objects/table/2582.md) · via [Finance](business-functionality/finance.md)
+- [Page 2593 "Dim Correction Schedule"](../../objects/page/2593.md) · captioned "Run Dimension Correction" · on [Table 472 "Job Queue Entry"](../../objects/table/472.md) · via [Finance](business-functionality/finance.md)
+- [Page 2616 "Printer Management"](../../objects/page/2616.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 2623 "Stat. Account Balance"](../../objects/page/2623.md) · captioned "Statistical Account Balance" · on [Table 2632 "Statistical Account"](../../objects/table/2632.md) · via [Finance](business-functionality/finance.md)
+- [Page 2631 "Statistical Account Card"](../../objects/page/2631.md) · captioned "Statistical account" · on [Table 2632 "Statistical Account"](../../objects/table/2632.md) · via [Finance](business-functionality/finance.md)
+- [Page 2632 "Statistical Account List"](../../objects/page/2632.md) · captioned "Statistical Accounts" · on [Table 2632 "Statistical Account"](../../objects/table/2632.md) · via [Finance](business-functionality/finance.md)
+- [Page 2633 "Statistical Accounts Journal"](../../objects/page/2633.md) · captioned "Statistical Account Journal" · on [Table 2631 "Statistical Acc. Journal Line"](../../objects/table/2631.md) · via [Finance](business-functionality/finance.md)
+- [Page 2634 "Statistical Ledger Entry List"](../../objects/page/2634.md) · captioned "Statistical Account Ledger Entries" · on [Table 2633 "Statistical Ledger Entry"](../../objects/table/2633.md) · via [Finance](business-functionality/finance.md)
+- [Page 2650 "Email Printer Settings"](../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../objects/table/2650.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 2670 "Allocation Account"](../../objects/page/2670.md) · on [Table 2670 "Allocation Account"](../../objects/table/2670.md) · via [Finance](business-functionality/finance.md)
+- [Page 2673 "Allocation Account List"](../../objects/page/2673.md) · captioned "Allocation Accounts" · on [Table 2670 "Allocation Account"](../../objects/table/2670.md) · via [Finance](business-functionality/finance.md)
+- [Page 2674 "Allocation Account Preview"](../../objects/page/2674.md) · on [Table 2672 "Allocation Line"](../../objects/table/2672.md) · via [Finance](business-functionality/finance.md)
+- [Page 2750 "Universal Printer Settings"](../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../objects/table/2751.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../objects/page/2752.md) · captioned "Add Universal Print Printers" · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 2753 "Universal Print Shares List"](../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../objects/table/2752.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 2754 "Universal Printer Tray List"](../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../objects/table/823.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 4400 "SOA Setup"](../../objects/page/4400.md) · captioned "Configure Sales Order Agent" · on [Table 4325 "SOA Setup"](../../objects/table/4325.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 4410 "SOA Multi Items Availability"](../../objects/page/4410.md) · captioned "Item Availability" · on [Table 27 "Item"](../../objects/table/27.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 4810 "Intrastat Report Setup"](../../objects/page/4810.md) · on [Table 4810 "Intrastat Report Setup"](../../objects/table/4810.md) · via [Finance](business-functionality/finance.md)
+- [Page 4811 "Intrastat Report List"](../../objects/page/4811.md) · on [Table 4811 "Intrastat Report Header"](../../objects/table/4811.md) · via [Finance](business-functionality/finance.md)
+- [Page 5050 "Contact Card"](../../objects/page/5050.md) · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5052 "Contact List"](../../objects/page/5052.md) · captioned "Contacts" · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [Finance](business-functionality/finance.md)
+- [Page 5076 "Interaction Log Entries"](../../objects/page/5076.md) · on [Table 5065 "Interaction Log Entry"](../../objects/table/5065.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 5091 "Segment"](../../objects/page/5091.md) · on [Table 5076 "Segment Header"](../../objects/table/5076.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 5093 "Segment List"](../../objects/page/5093.md) · captioned "Segments" · on [Table 5076 "Segment Header"](../../objects/table/5076.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 5109 "Profile Questionnaires"](../../objects/page/5109.md) · captioned "Questionnaire Setup" · on [Table 5087 "Profile Questionnaire Header"](../../objects/table/5087.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 5110 "Profile Questionnaire Setup"](../../objects/page/5110.md) · on [Table 5088 "Profile Questionnaire Line"](../../objects/table/5088.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 5116 "Salesperson/Purchaser Card"](../../objects/page/5116.md) · on [Table 13 "Salesperson/Purchaser"](../../objects/table/13.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5119 "Sales Cycles"](../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../objects/table/5090.md) · via [Finance](business-functionality/finance.md)
+- [Page 5159 "Sales Order Archive"](../../objects/page/5159.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5162 "Sales Quote Archive"](../../objects/page/5162.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5164 "Purchase Quote Archive"](../../objects/page/5164.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5167 "Purchase Order Archive"](../../objects/page/5167.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5200 "Employee Card"](../../objects/page/5200.md) · on [Table 5200 "Employee"](../../objects/table/5200.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5201 "Employee List"](../../objects/page/5201.md) · captioned "Employees" · on [Table 5200 "Employee"](../../objects/table/5200.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5204 "Alternative Address List"](../../objects/page/5204.md) · captioned "Alternate Address List" · on [Table 5201 "Alternative Address"](../../objects/table/5201.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5206 "Employee Qualifications"](../../objects/page/5206.md) · on [Table 5203 "Employee Qualification"](../../objects/table/5203.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5208 "Relatives"](../../objects/page/5208.md) · on [Table 5204 "Relative"](../../objects/table/5204.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5209 "Employee Relatives"](../../objects/page/5209.md) · on [Table 5205 "Employee Relative"](../../objects/table/5205.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5211 "Employee Absences"](../../objects/page/5211.md) · on [Table 5207 "Employee Absence"](../../objects/table/5207.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5212 "Absence Registration"](../../objects/page/5212.md) · on [Table 5207 "Employee Absence"](../../objects/table/5207.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5221 "Confidential Information"](../../objects/page/5221.md) · on [Table 5216 "Confidential Information"](../../objects/table/5216.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5224 "Employee Posting Groups"](../../objects/page/5224.md) · on [Table 5221 "Employee Posting Group"](../../objects/table/5221.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 5228 "Misc. Articles Overview"](../../objects/page/5228.md) · on [Table 5200 "Employee"](../../objects/table/5200.md) · via [Human resources](business-functionality/human-resources.md)
+- [Page 5237 "Employee Ledger Entries"](../../objects/page/5237.md) · on [Table 5222 "Employee Ledger Entry"](../../objects/table/5222.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 5238 "Detailed Empl. Ledger Entries"](../../objects/page/5238.md) · captioned "Detailed Employee Ledger Entries" · on [Table 5223 "Detailed Employee Ledger Entry"](../../objects/table/5223.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 5239 "Empl. Ledger Entries Preview"](../../objects/page/5239.md) · captioned "Employee Entries Preview" · on [Table 5222 "Employee Ledger Entry"](../../objects/table/5222.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 5240 "Detailed Empl. Entries Preview"](../../objects/page/5240.md) · on [Table 5223 "Detailed Employee Ledger Entry"](../../objects/table/5223.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 5260 "G/L Account Mapping"](../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../objects/table/5260.md) · via [Finance](business-functionality/finance.md)
+- [Page 5264 "Audit File Export Setup"](../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../objects/table/5264.md) · via [Finance](business-functionality/finance.md)
+- [Page 5266 "Audit File Export Documents"](../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../objects/table/5265.md) · via [Finance](business-functionality/finance.md)
+- [Page 5267 "Audit File Export Doc. Card"](../../objects/page/5267.md) · captioned "Audit File Export Document" · on [Table 5265 "Audit File Export Header"](../../objects/table/5265.md) · via [Finance](business-functionality/finance.md)
+- [Page 5270 "Audit File Export Format Setup"](../../objects/page/5270.md) · on [Table 5268 "Audit File Export Format Setup"](../../objects/table/5268.md) · via [Finance](business-functionality/finance.md)
+- [Page 5401 "Item Variants"](../../objects/page/5401.md) · on [Table 5401 "Item Variant"](../../objects/table/5401.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5404 "Item Units of Measure"](../../objects/page/5404.md) · on [Table 5404 "Item Unit of Measure"](../../objects/table/5404.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5406 "Prod. Order Line List"](../../objects/page/5406.md) · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 5407 "Prod. Order Comp. Line List"](../../objects/page/5407.md) · captioned "Prod. Order Comp. Lines" · on [Table 5407 "Prod. Order Component"](../../objects/table/5407.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 5414 "Item Availability by Variant"](../../objects/page/5414.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5415 "Item Avail. by Variant Lines"](../../objects/page/5415.md) · captioned "Lines" · on [Table 5401 "Item Variant"](../../objects/table/5401.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5416 "Item Availability by UOM"](../../objects/page/5416.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5417 "Item Avail. by UOM Lines"](../../objects/page/5417.md) · captioned "Lines" · on [Table 5404 "Item Unit of Measure"](../../objects/table/5404.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5430 "Planning Error Log"](../../objects/page/5430.md) · on [Table 5430 "Planning Error Log"](../../objects/table/5430.md) · via [Planning](business-functionality/planning.md)
+- [Page 5510 "Production Journal"](../../objects/page/5510.md) · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 5522 "Order Planning"](../../objects/page/5522.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 5524 "Get Alternative Supply"](../../objects/page/5524.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 5526 "Make Supply Orders"](../../objects/page/5526.md) · on [Table 5525 "Manufacturing User Template"](../../objects/table/5525.md) · via [Planning](business-functionality/planning.md)
+- [Page 5530 "Item Availability by Event"](../../objects/page/5530.md) · on [Table 5531 "Inventory Page Data"](../../objects/table/5531.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5551 "Fixed Asset Acquisition Wizard"](../../objects/page/5551.md) · captioned "Fixed Asset Acquisition" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5579 "Digital Voucher Entry Setup"](../../objects/page/5579.md) · on [Table 5579 "Digital Voucher Entry Setup"](../../objects/table/5579.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5582 "Voucher Entry Source Codes"](../../objects/page/5582.md) · on [Table 5580 "Voucher Entry Source Code"](../../objects/table/5580.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5587 "Digital Voucher Setup"](../../objects/page/5587.md) · on [Table 5581 "Digital Voucher Setup"](../../objects/table/5581.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5600 "Fixed Asset Card"](../../objects/page/5600.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5601 "Fixed Asset List"](../../objects/page/5601.md) · captioned "Fixed Assets" · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5602 "Fixed Asset Statistics"](../../objects/page/5602.md) · on [Table 5612 "FA Depreciation Book"](../../objects/table/5612.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5603 "Main Asset Statistics"](../../objects/page/5603.md) · on [Table 5612 "FA Depreciation Book"](../../objects/table/5612.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5604 "FA Ledger Entries"](../../objects/page/5604.md) · on [Table 5601 "FA Ledger Entry"](../../objects/table/5601.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5605 "FA Error Ledger Entries"](../../objects/page/5605.md) · on [Table 5601 "FA Ledger Entry"](../../objects/table/5601.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5606 "FA Ledger Entries Preview"](../../objects/page/5606.md) · on [Table 5601 "FA Ledger Entry"](../../objects/table/5601.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5607 "Fixed Asset Setup"](../../objects/page/5607.md) · on [Table 5603 "FA Setup"](../../objects/table/5603.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5608 "FA Posting Type Setup"](../../objects/page/5608.md) · on [Table 5604 "FA Posting Type Setup"](../../objects/table/5604.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5609 "FA Journal Setup"](../../objects/page/5609.md) · on [Table 5605 "FA Journal Setup"](../../objects/table/5605.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5610 "Depreciation Book Card"](../../objects/page/5610.md) · on [Table 5611 "Depreciation Book"](../../objects/table/5611.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5611 "Depreciation Book List"](../../objects/page/5611.md) · captioned "Depreciation Books" · on [Table 5611 "Depreciation Book"](../../objects/table/5611.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5612 "FA Posting Group Card"](../../objects/page/5612.md) · on [Table 5606 "FA Posting Group"](../../objects/table/5606.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 5613 "FA Posting Groups"](../../objects/page/5613.md) · on [Table 5606 "FA Posting Group"](../../objects/table/5606.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5615 "FA Classes"](../../objects/page/5615.md) · on [Table 5607 "FA Class"](../../objects/table/5607.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5616 "FA Subclasses"](../../objects/page/5616.md) · on [Table 5608 "FA Subclass"](../../objects/table/5608.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5617 "FA Locations"](../../objects/page/5617.md) · on [Table 5609 "FA Location"](../../objects/table/5609.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5619 "FA Depreciation Books"](../../objects/page/5619.md) · on [Table 5612 "FA Depreciation Book"](../../objects/table/5612.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5620 "Fixed Asset Picture"](../../objects/page/5620.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5622 "Total Value Insured per FA"](../../objects/page/5622.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5623 "FA Allocations"](../../objects/page/5623.md) · on [Table 5615 "FA Allocation"](../../objects/table/5615.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5625 "Maintenance Registration"](../../objects/page/5625.md) · on [Table 5616 "Maintenance Registration"](../../objects/table/5616.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5627 "FA Registers"](../../objects/page/5627.md) · on [Table 5617 "FA Register"](../../objects/table/5617.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5628 "Fixed Asset G/L Journal"](../../objects/page/5628.md) · captioned "Fixed Asset G/L Journals" · on [Table 81 "Gen. Journal Line"](../../objects/table/81.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5629 "Fixed Asset Journal"](../../objects/page/5629.md) · captioned "Fixed Asset Journals" · on [Table 5621 "FA Journal Line"](../../objects/table/5621.md) · via [Finance](business-functionality/finance.md)
+- [Page 5630 "FA Journal Templates"](../../objects/page/5630.md) · on [Table 5619 "FA Journal Template"](../../objects/table/5619.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5631 "FA Journal Template List"](../../objects/page/5631.md) · on [Table 5619 "FA Journal Template"](../../objects/table/5619.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5633 "FA Journal Batches"](../../objects/page/5633.md) · on [Table 5620 "FA Journal Batch"](../../objects/table/5620.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5634 "Recurring Fixed Asset Journal"](../../objects/page/5634.md) · captioned "Recurring Fixed Asset Journals" · on [Table 5621 "FA Journal Line"](../../objects/table/5621.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5635 "FA Posting Types"](../../objects/page/5635.md) · on [Table 5644 "FA Posting Type"](../../objects/table/5644.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5636 "FA Reclass. Journal"](../../objects/page/5636.md) · captioned "Fixed Asset Reclassification Journals" · on [Table 5624 "FA Reclass. Journal Line"](../../objects/table/5624.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5637 "FA Reclass. Journal Templates"](../../objects/page/5637.md) · captioned "Fixed Asset Reclassification Journal Templates" · on [Table 5622 "FA Reclass. Journal Template"](../../objects/table/5622.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5638 "FA Reclass. Jnl. Template List"](../../objects/page/5638.md) · on [Table 5622 "FA Reclass. Journal Template"](../../objects/table/5622.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5640 "FA Reclass. Journal Batches"](../../objects/page/5640.md) · on [Table 5623 "FA Reclass. Journal Batch"](../../objects/table/5623.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5641 "Maintenance Ledger Entries"](../../objects/page/5641.md) · on [Table 5625 "Maintenance Ledger Entry"](../../objects/table/5625.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5642 "Maintenance"](../../objects/page/5642.md) · on [Table 5626 "Maintenance"](../../objects/table/5626.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5644 "Insurance Card"](../../objects/page/5644.md) · on [Table 5628 "Insurance"](../../objects/table/5628.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5645 "Insurance List"](../../objects/page/5645.md) · captioned "Insurance Policies" · on [Table 5628 "Insurance"](../../objects/table/5628.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5646 "Insurance Statistics"](../../objects/page/5646.md) · on [Table 5628 "Insurance"](../../objects/table/5628.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5647 "Ins. Coverage Ledger Entries"](../../objects/page/5647.md) · captioned "Insurance Coverage Ledger Entries" · on [Table 5629 "Ins. Coverage Ledger Entry"](../../objects/table/5629.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5648 "Insurance Types"](../../objects/page/5648.md) · on [Table 5630 "Insurance Type"](../../objects/table/5630.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5649 "Total Value Insured"](../../objects/page/5649.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5650 "Total Value Insured Subform"](../../objects/page/5650.md) · captioned "Lines" · on [Table 5650 "Total Value Insured"](../../objects/table/5650.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5651 "Insurance Journal"](../../objects/page/5651.md) · captioned "Fixed Asset Insurance Journals" · on [Table 5635 "Insurance Journal Line"](../../objects/table/5635.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5652 "Insurance Journal Templates"](../../objects/page/5652.md) · on [Table 5633 "Insurance Journal Template"](../../objects/table/5633.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5653 "Insurance Jnl. Template List"](../../objects/page/5653.md) · on [Table 5633 "Insurance Journal Template"](../../objects/table/5633.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5655 "Insurance Journal Batches"](../../objects/page/5655.md) · on [Table 5634 "Insurance Journal Batch"](../../objects/table/5634.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5656 "Insurance Registers"](../../objects/page/5656.md) · on [Table 5636 "Insurance Register"](../../objects/table/5636.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5658 "Main Asset Components"](../../objects/page/5658.md) · on [Table 5640 "Main Asset Component"](../../objects/table/5640.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5659 "Depreciation Table Card"](../../objects/page/5659.md) · on [Table 5642 "Depreciation Table Header"](../../objects/table/5642.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5660 "Depreciation Table Lines"](../../objects/page/5660.md) · captioned "Lines" · on [Table 5643 "Depreciation Table Line"](../../objects/table/5643.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5661 "FA Date Types"](../../objects/page/5661.md) · on [Table 5645 "FA Date Type"](../../objects/table/5645.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5662 "FA Posting Types Overview"](../../objects/page/5662.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5663 "Depreciation Table List"](../../objects/page/5663.md) · captioned "Depreciation Tables" · on [Table 5642 "Depreciation Table Header"](../../objects/table/5642.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5664 "FA Matrix Posting Types"](../../objects/page/5664.md) · captioned "FA Posting Types" · on [Table 5647 "FA Matrix Posting Type"](../../objects/table/5647.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5666 "FA Depreciation Books Subform"](../../objects/page/5666.md) · captioned "Lines" · on [Table 5612 "FA Depreciation Book"](../../objects/table/5612.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5671 "Maint. Ledg. Entries Preview"](../../objects/page/5671.md) · on [Table 5625 "Maintenance Ledger Entry"](../../objects/table/5625.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 5703 "Location Card"](../../objects/page/5703.md) · on [Table 14 "Location"](../../objects/table/14.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 5709 "Get Receipt Lines"](../../objects/page/5709.md) · on [Table 121 "Purch. Rcpt. Line"](../../objects/table/121.md) · via [Finance](business-functionality/finance.md)
+- [Page 5716 "Item Substitution Entry"](../../objects/page/5716.md) · on [Table 5715 "Item Substitution"](../../objects/table/5715.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5717 "Condition Entry"](../../objects/page/5717.md) · captioned "Condition" · on [Table 5716 "Substitution Condition"](../../objects/table/5716.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5718 "Item Substitution Entries"](../../objects/page/5718.md) · on [Table 5715 "Item Substitution"](../../objects/table/5715.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5719 "Sub. Conditions"](../../objects/page/5719.md) · on [Table 5716 "Substitution Condition"](../../objects/table/5716.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5720 "Item Substitutions"](../../objects/page/5720.md) · on [Table 5715 "Item Substitution"](../../objects/table/5715.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5727 "Purchasing Codes"](../../objects/page/5727.md) · on [Table 5721 "Purchasing"](../../objects/table/5721.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5728 "Manufacturers"](../../objects/page/5728.md) · on [Table 5720 "Manufacturer"](../../objects/table/5720.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 5729 "Purchasing Code List"](../../objects/page/5729.md) · on [Table 5721 "Purchasing"](../../objects/table/5721.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5730 "Item Categories"](../../objects/page/5730.md) · on [Table 5722 "Item Category"](../../objects/table/5722.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5733 "Item Category Card"](../../objects/page/5733.md) · on [Table 5722 "Item Category"](../../objects/table/5722.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5740 "Transfer Order"](../../objects/page/5740.md) · on [Table 5740 "Transfer Header"](../../objects/table/5740.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5768 "Warehouse Receipt"](../../objects/page/5768.md) · on [Table 7316 "Warehouse Receipt Header"](../../objects/table/7316.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 5775 "Warehouse Setup"](../../objects/page/5775.md) · on [Table 5769 "Warehouse Setup"](../../objects/table/5769.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5800 "Item Charges"](../../objects/page/5800.md) · on [Table 5800 "Item Charge"](../../objects/table/5800.md) · via [Finance](business-functionality/finance.md)
+- [Page 5805 "Item Charge Assignment (Purch)"](../../objects/page/5805.md) · on [Table 5805 "Item Charge Assignment (Purch)"](../../objects/table/5805.md) · via [Finance](business-functionality/finance.md)
+- [Page 5814 "Item Charge Assignment (Sales)"](../../objects/page/5814.md) · on [Table 5809 "Item Charge Assignment (Sales)"](../../objects/table/5809.md) · via [Finance](business-functionality/finance.md)
+- [Page 5828 "Inventory Periods"](../../objects/page/5828.md) · on [Table 5814 "Inventory Period"](../../objects/table/5814.md) · via [Finance](business-functionality/finance.md)
+- [Page 5830 "Demand Overview"](../../objects/page/5830.md) · on [Table 5830 "Availability Calc. Overview"](../../objects/table/5830.md) · via [Planning](business-functionality/planning.md)
+- [Page 5832 "Capacity Ledger Entries"](../../objects/page/5832.md) · on [Table 5832 "Capacity Ledger Entry"](../../objects/table/5832.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 5839 "Modify Marketing Text"](../../objects/page/5839.md) · captioned "Edit Marketing Text" · via [Inventory](business-functionality/inventory.md)
+- [Page 5841 "Standard Cost Worksheet"](../../objects/page/5841.md) · on [Table 5841 "Standard Cost Worksheet"](../../objects/table/5841.md) · via [Finance](business-functionality/finance.md)
+- [Page 5845 "Inventory - G/L Reconciliation"](../../objects/page/5845.md) · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5870 "BOM Structure"](../../objects/page/5870.md) · on [Table 5870 "BOM Buffer"](../../objects/table/5870.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 5871 "Item Availability by BOM Level"](../../objects/page/5871.md) · on [Table 5870 "BOM Buffer"](../../objects/table/5870.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 5872 "BOM Cost Shares"](../../objects/page/5872.md) · on [Table 5870 "BOM Buffer"](../../objects/table/5870.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 5874 "BOM Warning Log"](../../objects/page/5874.md) · on [Table 5874 "BOM Warning Log"](../../objects/table/5874.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Page 5900 "Service Order"](../../objects/page/5900.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5902 "Service Order Subform"](../../objects/page/5902.md) · captioned "Lines" · on [Table 5901 "Service Item Line"](../../objects/table/5901.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5905 "Service Lines"](../../objects/page/5905.md) · on [Table 5902 "Service Line"](../../objects/table/5902.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5914 "Service Order Statistics"](../../objects/page/5914.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5919 "Service Mgt. Setup"](../../objects/page/5919.md) · captioned "Service Management Setup" · on [Table 5911 "Service Mgt. Setup"](../../objects/table/5911.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 5932 "Report Selection - Service"](../../objects/page/5932.md) · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 5933 "Service Invoice"](../../objects/page/5933.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5934 "Service Invoice Subform"](../../objects/page/5934.md) · captioned "Lines" · on [Table 5902 "Service Line"](../../objects/table/5902.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5935 "Service Credit Memo"](../../objects/page/5935.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5936 "Service Credit Memo Subform"](../../objects/page/5936.md) · captioned "Lines" · on [Table 5902 "Service Line"](../../objects/table/5902.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5952 "Posted Service Cr. Memo Lines"](../../objects/page/5952.md) · on [Table 5995 "Service Cr.Memo Line"](../../objects/table/5995.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5964 "Service Quote"](../../objects/page/5964.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5966 "Service Quote Lines"](../../objects/page/5966.md) · on [Table 5902 "Service Line"](../../objects/table/5902.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5972 "Posted Service Credit Memo"](../../objects/page/5972.md) · on [Table 5994 "Service Cr.Memo Header"](../../objects/table/5994.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5973 "Posted Serv. Cr. Memo Subform"](../../objects/page/5973.md) · captioned "Lines" · on [Table 5995 "Service Cr.Memo Line"](../../objects/table/5995.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5975 "Posted Service Shipment"](../../objects/page/5975.md) · on [Table 5990 "Service Shipment Header"](../../objects/table/5990.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5976 "Posted Service Shpt. Subform"](../../objects/page/5976.md) · captioned "Lines" · on [Table 5989 "Service Shipment Item Line"](../../objects/table/5989.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5978 "Posted Service Invoice"](../../objects/page/5978.md) · on [Table 5992 "Service Invoice Header"](../../objects/table/5992.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 5979 "Posted Service Invoice Subform"](../../objects/page/5979.md) · captioned "Lines" · on [Table 5993 "Service Invoice Line"](../../objects/table/5993.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6030 "Service Statistics"](../../objects/page/6030.md) · on [Table 5900 "Service Header"](../../objects/table/5900.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6033 "Service Invoice Statistics"](../../objects/page/6033.md) · on [Table 5992 "Service Invoice Header"](../../objects/table/5992.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6034 "Service Credit Memo Statistics"](../../objects/page/6034.md) · on [Table 5994 "Service Cr.Memo Header"](../../objects/table/5994.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6103 "E-Document Services"](../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../objects/table/6103.md) · via [Finance](business-functionality/finance.md)
+- [Page 6121 "E-Document"](../../objects/page/6121.md) · on [Table 6121 "E-Document"](../../objects/table/6121.md) · via [Finance](business-functionality/finance.md)
+- [Page 6133 "E-Document Service"](../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../objects/table/6103.md) · via [Finance](business-functionality/finance.md)
+- [Page 6167 "E-Doc. Order Line Matching"](../../objects/page/6167.md) · captioned "Purchase Order Matching" · on [Table 6121 "E-Document"](../../objects/table/6121.md) · via [Finance](business-functionality/finance.md)
+- [Page 6210 "Chart of Sustain. Accounts"](../../objects/page/6210.md) · captioned "Chart of Sustainability Accounts" · on [Table 6210 "Sustainability Account"](../../objects/table/6210.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6213 "Sustain. Account Categories"](../../objects/page/6213.md) · captioned "Sustainability Account Categories" · on [Table 6211 "Sustain. Account Category"](../../objects/table/6211.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6214 "Sustain. Account Subcategories"](../../objects/page/6214.md) · captioned "Sustainability Account Subcategories" · on [Table 6212 "Sustain. Account Subcategory"](../../objects/table/6212.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6216 "Sustainability Jnl. Batches"](../../objects/page/6216.md) · captioned "Sustainability Journal Batches" · on [Table 6213 "Sustainability Jnl. Batch"](../../objects/table/6213.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6219 "Sustainability Journal"](../../objects/page/6219.md) · on [Table 6214 "Sustainability Jnl. Line"](../../objects/table/6214.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6220 "Sustainability Ledger Entries"](../../objects/page/6220.md) · on [Table 6216 "Sustainability Ledger Entry"](../../objects/table/6216.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6221 "Sustainability Setup"](../../objects/page/6221.md) · on [Table 6217 "Sustainability Setup"](../../objects/table/6217.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6235 "Sustainability Manager RC"](../../objects/page/6235.md) · captioned "Sustainability Manager" · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6245 "Emission Fees"](../../objects/page/6245.md) · on [Table 6226 "Emission Fee"](../../objects/table/6226.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 6250 "Data Sync Status"](../../objects/page/6250.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Page 6285 "Sust. Excise Jnl. Templates"](../../objects/page/6285.md) · captioned "Excise Journal Templates" · on [Table 6238 "Sust. Excise Journal Template"](../../objects/table/6238.md) · via [Finance](business-functionality/finance.md)
+- [Page 6287 "Sustainability Excise Journal"](../../objects/page/6287.md) · captioned "Excise Journal" · on [Table 6240 "Sust. Excise Jnl. Line"](../../objects/table/6240.md) · via [Finance](business-functionality/finance.md)
+- [Page 6560 "Document Line Tracking"](../../objects/page/6560.md) · on [Table 265 "Document Entry"](../../objects/table/265.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6620 "Blanket Sales Order Archive"](../../objects/page/6620.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)
+- [Page 6622 "Blanket Sales Order Archives"](../../objects/page/6622.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)
+- [Page 6623 "Blanket Purchase Order Archive"](../../objects/page/6623.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [Sales](business-functionality/sales.md)
+- [Page 6627 "Sales Return Order Archive"](../../objects/page/6627.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6629 "Sales Return List Archive"](../../objects/page/6629.md) · captioned "Sales Return Orders Archive" · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)
+- [Page 6630 "Sales Return Order"](../../objects/page/6630.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6633 "Sales Return Orders"](../../objects/page/6633.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Sales](business-functionality/sales.md)
+- [Page 6640 "Purchase Return Order"](../../objects/page/6640.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 6643 "Purchase Return Orders"](../../objects/page/6643.md) · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 6644 "Purchase Return Order Archive"](../../objects/page/6644.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6650 "Posted Return Shipment"](../../objects/page/6650.md) · on [Table 6650 "Return Shipment Header"](../../objects/table/6650.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6652 "Posted Return Shipments"](../../objects/page/6652.md) · captioned "Posted Purchase Return Shipments" · on [Table 6650 "Return Shipment Header"](../../objects/table/6650.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6660 "Posted Return Receipt"](../../objects/page/6660.md) · on [Table 6660 "Return Receipt Header"](../../objects/table/6660.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6662 "Posted Return Receipts"](../../objects/page/6662.md) · captioned "Posted Return Receipt" · on [Table 6660 "Return Receipt Header"](../../objects/table/6660.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 6774 "Invt. Document Lines"](../../objects/page/6774.md) · on [Table 5851 "Invt. Document Line"](../../objects/table/5851.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 6775 "Invt. Document List"](../../objects/page/6775.md) · on [Table 5850 "Invt. Document Header"](../../objects/table/5850.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 6776 "Invt. Document Statistics"](../../objects/page/6776.md) · captioned "Item Document Statistics" · on [Table 5850 "Invt. Document Header"](../../objects/table/5850.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 6784 "Wthldg. Tax Bus. Post. Group"](../../objects/page/6784.md) · captioned "Withholding Tax Bus. Post. Group" · on [Table 6784 "Wthldg. Tax Bus. Post. Group"](../../objects/table/6784.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 6786 "Withholding Tax Posting Setup"](../../objects/page/6786.md) · on [Table 6786 "Withholding Tax Posting Setup"](../../objects/table/6786.md) · via [Finance](business-functionality/finance.md)
+- [Page 6788 "Withholding Tax Entries"](../../objects/page/6788.md) · on [Table 6788 "Withholding Tax Entry"](../../objects/table/6788.md) · via [Finance](business-functionality/finance.md)
+- [Page 6789 "Withholding Tax Groups"](../../objects/page/6789.md) · on [Table 6792 "Withholding Tax Group"](../../objects/table/6792.md) · via [Finance](business-functionality/finance.md)
+- [Page 6790 "Withholding Tax Group Card"](../../objects/page/6790.md) · on [Table 6792 "Withholding Tax Group"](../../objects/table/6792.md) · via [Finance](business-functionality/finance.md)
+- [Page 6900 "Expense Management Rules"](../../objects/page/6900.md) · on [Table 6927 "Expense Rule Header"](../../objects/table/6927.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6901 "Expense Rule Card"](../../objects/page/6901.md) · on [Table 6927 "Expense Rule Header"](../../objects/table/6927.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6903 "Expense Ledger Entries"](../../objects/page/6903.md) · on [Table 6912 "Expense Ledger Entry"](../../objects/table/6912.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6910 "Expense Report"](../../objects/page/6910.md) · on [Table 6906 "Expense Report Header"](../../objects/table/6906.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6911 "Expense Report Lines"](../../objects/page/6911.md) · on [Table 6907 "Expense Report Line"](../../objects/table/6907.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6920 "Expense Location Card"](../../objects/page/6920.md) · on [Table 6925 "Expense Location"](../../objects/table/6925.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6930 "Expense Payment Methods"](../../objects/page/6930.md) · on [Table 6913 "Expense Payment Method"](../../objects/table/6913.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6933 "Expense Management Role Center"](../../objects/page/6933.md) · captioned "Expense Management" · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6937 "Expense Locations"](../../objects/page/6937.md) · on [Table 6925 "Expense Location"](../../objects/table/6925.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6939 "Expense Approval Setup"](../../objects/page/6939.md) · on [Table 6932 "Expense Approval Setup"](../../objects/table/6932.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6945 "Expense Category Card"](../../objects/page/6945.md) · captioned "Expense Category" · on [Table 6921 "Expense Category"](../../objects/table/6921.md) · via [Finance](business-functionality/finance.md)
+- [Page 6946 "Expense Categories"](../../objects/page/6946.md) · on [Table 6921 "Expense Category"](../../objects/table/6921.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6949 "Expense User"](../../objects/page/6949.md) · on [Table 6923 "Expense User"](../../objects/table/6923.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6951 "Expense Users"](../../objects/page/6951.md) · on [Table 6923 "Expense User"](../../objects/table/6923.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6952 "Expense Groups"](../../objects/page/6952.md) · on [Table 6924 "Expense Group"](../../objects/table/6924.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6953 "Posted Expense Report Lines"](../../objects/page/6953.md) · on [Table 6916 "Posted Expense Report Line"](../../objects/table/6916.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6960 "Add Expenses To Expense Report"](../../objects/page/6960.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6973 "Expense Subcategories"](../../objects/page/6973.md) · on [Table 6929 "Expense Subcategory"](../../objects/table/6929.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6974 "Per Diem Expenses"](../../objects/page/6974.md) · on [Table 6905 "Expense Per Diem"](../../objects/table/6905.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6975 "Expense Itemizations"](../../objects/page/6975.md) · on [Table 6902 "Expense Itemization"](../../objects/table/6902.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6976 "Expense Posting Groups"](../../objects/page/6976.md) · on [Table 6928 "Expense Posting Group"](../../objects/table/6928.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6979 "Expense Report List"](../../objects/page/6979.md) · on [Table 6906 "Expense Report Header"](../../objects/table/6906.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6980 "Manager Expense Report"](../../objects/page/6980.md) · on [Table 6906 "Expense Report Header"](../../objects/table/6906.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6981 "Manager Expense Reports"](../../objects/page/6981.md) · on [Table 6906 "Expense Report Header"](../../objects/table/6906.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6987 "Posted Expense Reports"](../../objects/page/6987.md) · on [Table 6915 "Posted Expense Report Header"](../../objects/table/6915.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6988 "Expense"](../../objects/page/6988.md) · on [Table 6900 "Expense"](../../objects/table/6900.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6989 "Expenses"](../../objects/page/6989.md) · on [Table 6900 "Expense"](../../objects/table/6900.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6990 "Expense Teams"](../../objects/page/6990.md) · on [Table 6931 "Expense Team"](../../objects/table/6931.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6992 "Expense Participants"](../../objects/page/6992.md) · on [Table 6904 "Expense Participant"](../../objects/table/6904.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6996 "Expense Agent Setup"](../../objects/page/6996.md) · captioned "Expense Management Setup" · on [Table 6930 "Expense Agent Setup"](../../objects/table/6930.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6997 "Expense Reports"](../../objects/page/6997.md) · on [Table 6906 "Expense Report Header"](../../objects/table/6906.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 6998 "Posted Expense Report"](../../objects/page/6998.md) · on [Table 6915 "Posted Expense Report Header"](../../objects/table/6915.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7001 "Price List Lines"](../../objects/page/7001.md) · captioned "Lines" · on [Table 7001 "Price List Line"](../../objects/table/7001.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7011 "Purchase Price List Lines"](../../objects/page/7011.md) · captioned "Lines" · on [Table 7001 "Price List Line"](../../objects/table/7001.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7012 "Purchase Prices"](../../objects/page/7012.md) · on [Table 7012 "Purchase Price"](../../objects/table/7012.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7014 "Purchase Line Discounts"](../../objects/page/7014.md) · on [Table 7014 "Purchase Line Discount"](../../objects/table/7014.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7015 "Sales Price Lists"](../../objects/page/7015.md) · on [Table 7000 "Price List Header"](../../objects/table/7000.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7016 "Sales Price List"](../../objects/page/7016.md) · on [Table 7000 "Price List Header"](../../objects/table/7000.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7017 "Purchase Price Lists"](../../objects/page/7017.md) · on [Table 7000 "Price List Header"](../../objects/table/7000.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7018 "Purchase Price List"](../../objects/page/7018.md) · on [Table 7000 "Price List Header"](../../objects/table/7000.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7022 "Price Worksheet"](../../objects/page/7022.md) · on [Table 7022 "Price Worksheet Line"](../../objects/table/7022.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7024 "Prices Overview"](../../objects/page/7024.md) · on [Table 7001 "Price List Line"](../../objects/table/7001.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7101 "Travelers"](../../objects/page/7101.md) · on [Table 6938 "Traveler"](../../objects/table/6938.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7127 "Expense Policies"](../../objects/page/7127.md) · on [Table 7092 "Expense Policy"](../../objects/table/7092.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7128 "Mileage Rate Setup"](../../objects/page/7128.md) · on [Table 6939 "Mileage Rate Setup"](../../objects/table/6939.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7129 "Travel Request Card"](../../objects/page/7129.md) · captioned "Travel Request" · on [Table 6840 "Spend Request"](../../objects/table/6840.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7130 "Expense Vehicle Types"](../../objects/page/7130.md) · captioned "Vehicle Types" · on [Table 7108 "Expense Vehicle Type"](../../objects/table/7108.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7132 "Item Budget Names"](../../objects/page/7132.md) · on [Table 7132 "Item Budget Name"](../../objects/table/7132.md) · via [Finance](business-functionality/finance.md)
+- [Page 7133 "Item Budget Entries"](../../objects/page/7133.md) · on [Table 7134 "Item Budget Entry"](../../objects/table/7134.md) · via [Finance](business-functionality/finance.md)
+- [Page 7136 "Travel Request List"](../../objects/page/7136.md) · captioned "Travel Requests" · on [Table 6840 "Spend Request"](../../objects/table/6840.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7137 "Travel Request Subform"](../../objects/page/7137.md) · captioned "Lines" · on [Table 6841 "Spend Request Detail"](../../objects/table/6841.md) · via [Expense management (preview)](business-functionality/expense-management-preview.md)
+- [Page 7138 "Purchase Budget Overview"](../../objects/page/7138.md) · via [Finance](business-functionality/finance.md)
+- [Page 7139 "Sales Budget Overview"](../../objects/page/7139.md) · via [Finance](business-functionality/finance.md)
+- [Page 7177 "Available Credit"](../../objects/page/7177.md) · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 7189 "Get Purchase Line Disc."](../../objects/page/7189.md) · on [Table 7014 "Purchase Line Discount"](../../objects/table/7014.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7190 "Get Purchase Price"](../../objects/page/7190.md) · on [Table 7012 "Purchase Price"](../../objects/table/7012.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7300 "Zones"](../../objects/page/7300.md) · on [Table 7300 "Zone"](../../objects/table/7300.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7301 "Zone List"](../../objects/page/7301.md) · on [Table 7300 "Zone"](../../objects/table/7300.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7302 "Bins"](../../objects/page/7302.md) · on [Table 7354 "Bin"](../../objects/table/7354.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7303 "Bin List"](../../objects/page/7303.md) · on [Table 7354 "Bin"](../../objects/table/7354.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7304 "Bin Content"](../../objects/page/7304.md) · on [Table 7302 "Bin Content"](../../objects/table/7302.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7305 "Bin Contents List"](../../objects/page/7305.md) · on [Table 7302 "Bin Content"](../../objects/table/7302.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7306 "Bin Types"](../../objects/page/7306.md) · on [Table 7303 "Bin Type"](../../objects/table/7303.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7307 "Bin Type List"](../../objects/page/7307.md) · on [Table 7303 "Bin Type"](../../objects/table/7303.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7308 "Warehouse Classes"](../../objects/page/7308.md) · on [Table 7304 "Warehouse Class"](../../objects/table/7304.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7312 "Put-away Template"](../../objects/page/7312.md) · on [Table 7307 "Put-away Template Header"](../../objects/table/7307.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7313 "Put-away Template Subform"](../../objects/page/7313.md) · captioned "Lines" · on [Table 7308 "Put-away Template Line"](../../objects/table/7308.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7314 "Put-away Template List"](../../objects/page/7314.md) · captioned "Put-away Templates" · on [Table 7307 "Put-away Template Header"](../../objects/table/7307.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7315 "Warehouse Movement"](../../objects/page/7315.md) · on [Table 5766 "Warehouse Activity Header"](../../objects/table/5766.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7321 "Whse. Journal Templates"](../../objects/page/7321.md) · captioned "Warehouse Journal Templates" · on [Table 7309 "Warehouse Journal Template"](../../objects/table/7309.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7322 "Whse. Journal Template List"](../../objects/page/7322.md) · on [Table 7309 "Warehouse Journal Template"](../../objects/table/7309.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7323 "Whse. Journal Batches"](../../objects/page/7323.md) · on [Table 7310 "Warehouse Journal Batch"](../../objects/table/7310.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7325 "Warehouse Registers"](../../objects/page/7325.md) · on [Table 7313 "Warehouse Register"](../../objects/table/7313.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7328 "Warehouse Employees"](../../objects/page/7328.md) · on [Table 7301 "Warehouse Employee"](../../objects/table/7301.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7329 "Whse. Journal Batches List"](../../objects/page/7329.md) · on [Table 7310 "Warehouse Journal Batch"](../../objects/table/7310.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7330 "Posted Whse. Receipt"](../../objects/page/7330.md) · on [Table 7318 "Posted Whse. Receipt Header"](../../objects/table/7318.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7332 "Warehouse Receipts"](../../objects/page/7332.md) · on [Table 7316 "Warehouse Receipt Header"](../../objects/table/7316.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7333 "Posted Whse. Receipt List"](../../objects/page/7333.md) · captioned "Posted Warehouse Receipts" · on [Table 7318 "Posted Whse. Receipt Header"](../../objects/table/7318.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7335 "Warehouse Shipment"](../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../objects/table/7320.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7337 "Posted Whse. Shipment"](../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../objects/table/7322.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7339 "Warehouse Shipment List"](../../objects/page/7339.md) · captioned "Warehouse Shipments" · on [Table 7320 "Warehouse Shipment Header"](../../objects/table/7320.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7340 "Posted Whse. Shipment List"](../../objects/page/7340.md) · captioned "Posted Warehouse Shipments" · on [Table 7322 "Posted Whse. Shipment Header"](../../objects/table/7322.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7341 "Whse. Shipment Lines"](../../objects/page/7341.md) · on [Table 7321 "Warehouse Shipment Line"](../../objects/table/7321.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7342 "Whse. Receipt Lines"](../../objects/page/7342.md) · on [Table 7317 "Warehouse Receipt Line"](../../objects/table/7317.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7344 "Whse. Worksheet Names"](../../objects/page/7344.md) · on [Table 7327 "Whse. Worksheet Name"](../../objects/table/7327.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7346 "Worksheet Names List"](../../objects/page/7346.md) · on [Table 7327 "Whse. Worksheet Name"](../../objects/table/7327.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7347 "Locations with Warehouse List"](../../objects/page/7347.md) · on [Table 14 "Location"](../../objects/table/14.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7348 "Warehouse Employee List"](../../objects/page/7348.md) · on [Table 7301 "Warehouse Employee"](../../objects/table/7301.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7349 "Registered Movement"](../../objects/page/7349.md) · on [Table 5772 "Registered Whse. Activity Hdr."](../../objects/table/5772.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7351 "Movement Worksheet"](../../objects/page/7351.md) · captioned "Movement Worksheets" · on [Table 7326 "Whse. Worksheet Line"](../../objects/table/7326.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7352 "Put-away Worksheet"](../../objects/page/7352.md) · captioned "Put-away Worksheets" · on [Table 7326 "Whse. Worksheet Line"](../../objects/table/7326.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7353 "Whse. Worksheet Templates"](../../objects/page/7353.md) · captioned "Warehouse Worksheet Templates" · on [Table 7328 "Whse. Worksheet Template"](../../objects/table/7328.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7355 "Internal Put-away Subform"](../../objects/page/7355.md) · captioned "Lines" · on [Table 7332 "Whse. Internal Put-away Line"](../../objects/table/7332.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7362 "Posted Whse. Shipment Lines"](../../objects/page/7362.md) · on [Table 7323 "Posted Whse. Shipment Line"](../../objects/table/7323.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7363 "Posted Whse. Receipt Lines"](../../objects/page/7363.md) · on [Table 7319 "Posted Whse. Receipt Line"](../../objects/table/7319.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7366 "Whse. Worksheet Template List"](../../objects/page/7366.md) · on [Table 7328 "Whse. Worksheet Template"](../../objects/table/7328.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7367 "Bin Templates"](../../objects/page/7367.md) · on [Table 7335 "Bin Template"](../../objects/table/7335.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7368 "Bin Creation Wksh. Templ. List"](../../objects/page/7368.md) · on [Table 7336 "Bin Creation Wksh. Template"](../../objects/table/7336.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7369 "Bin Creation Wksh. Names"](../../objects/page/7369.md) · on [Table 7337 "Bin Creation Wksh. Name"](../../objects/table/7337.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7370 "Bin Creation Wksh. Templates"](../../objects/page/7370.md) · captioned "Bin Creation Worksheet Templates" · on [Table 7336 "Bin Creation Wksh. Template"](../../objects/table/7336.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7371 "Bin Content Creation Worksheet"](../../objects/page/7371.md) · on [Table 7338 "Bin Creation Worksheet Line"](../../objects/table/7338.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7372 "Bin Creation Worksheet"](../../objects/page/7372.md) · on [Table 7338 "Bin Creation Worksheet Line"](../../objects/table/7338.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7373 "Bin Creation Wksh. Name List"](../../objects/page/7373.md) · on [Table 7337 "Bin Creation Wksh. Name"](../../objects/table/7337.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7374 "Bin Contents"](../../objects/page/7374.md) · on [Table 7302 "Bin Content"](../../objects/table/7302.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7382 "Inventory Movement"](../../objects/page/7382.md) · on [Table 5766 "Warehouse Activity Header"](../../objects/table/5766.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7384 "Registered Invt. Movement"](../../objects/page/7384.md) · on [Table 7344 "Registered Invt. Movement Hdr."](../../objects/table/7344.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7386 "Registered Invt. Movement List"](../../objects/page/7386.md) · captioned "Registered Inventory Movements" · on [Table 7344 "Registered Invt. Movement Hdr."](../../objects/table/7344.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7387 "Reg. Invt. Movement Lines"](../../objects/page/7387.md) · on [Table 7345 "Registered Invt. Movement Line"](../../objects/table/7345.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7399 "Internal Movement"](../../objects/page/7399.md) · on [Table 7346 "Internal Movement Header"](../../objects/table/7346.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7400 "Internal Movement List"](../../objects/page/7400.md) · captioned "Internal Movements" · on [Table 7346 "Internal Movement Header"](../../objects/table/7346.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 7401 "Report Selection - Warehouse"](../../objects/page/7401.md) · on [Table 7355 "Report Selection Warehouse"](../../objects/table/7355.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7414 "Excise Tax Types"](../../objects/page/7414.md) · on [Table 7412 "Excise Tax Type"](../../objects/table/7412.md) · via [Finance](business-functionality/finance.md)
+- [Page 7416 "Item Excise Taxes"](../../objects/page/7416.md) · captioned "Excise Taxes" · on [Table 7415 "Item Excise Tax"](../../objects/table/7415.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7600 "Base Calendar Card"](../../objects/page/7600.md) · on [Table 7600 "Base Calendar"](../../objects/table/7600.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7601 "Base Calendar List"](../../objects/page/7601.md) · captioned "Base Calendars" · on [Table 7600 "Base Calendar"](../../objects/table/7600.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 7602 "Base Calendar Changes"](../../objects/page/7602.md) · on [Table 7601 "Base Calendar Change"](../../objects/table/7601.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8004 "Planned Service Commitments"](../../objects/page/8004.md) · captioned "Planned Subscription Lines" · on [Table 8002 "Planned Subscription Line"](../../objects/table/8002.md) · via [Sales](business-functionality/sales.md)
+- [Page 8005 "Contract Renewal"](../../objects/page/8005.md) · captioned "Subscription Contract Renewal" · on [Table 8001 "Sub. Contract Renewal Line"](../../objects/table/8001.md) · via [Sales](business-functionality/sales.md)
+- [Page 8008 "Imported Service Objects"](../../objects/page/8008.md) · captioned "Imported Subscriptions" · on [Table 8008 "Imported Subscription Header"](../../objects/table/8008.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8009 "Imported Service Commitments"](../../objects/page/8009.md) · captioned "Imported Subscription Lines" · on [Table 8009 "Imported Subscription Line"](../../objects/table/8009.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8013 "Imported Customer Contracts"](../../objects/page/8013.md) · captioned "Imported Customer Subscription Contracts" · on [Table 8010 "Imported Cust. Sub. Contract"](../../objects/table/8010.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8014 "Service Commitments List"](../../objects/page/8014.md) · captioned "Subscription Lines" · on [Table 8059 "Subscription Line"](../../objects/table/8059.md) · via [Sales](business-functionality/sales.md)
+- [Page 8015 "Sales Service Commitments List"](../../objects/page/8015.md) · captioned "Sales Subscription Lines" · on [Table 8068 "Sales Subscription Line"](../../objects/table/8068.md) · via [Sales](business-functionality/sales.md)
+- [Page 8025 "Contract Price Update"](../../objects/page/8025.md) · captioned "Subscription Contract Price Update" · on [Table 8004 "Sub. Contr. Price Update Line"](../../objects/table/8004.md) · via [Sales](business-functionality/sales.md)
+- [Page 8031 "Connect Subscription To SO"](../../objects/page/8031.md) · captioned "Connect Supplier Subscription to Subscription" · on [Table 8016 "Usage Data Supp. Subscription"](../../objects/table/8016.md) · via [Sales](business-functionality/sales.md)
+- [Page 8035 "Usage Data Billings"](../../objects/page/8035.md) · on [Table 8006 "Usage Data Billing"](../../objects/table/8006.md) · via [Sales](business-functionality/sales.md)
+- [Page 8036 "Usage Data Blobs"](../../objects/page/8036.md) · on [Table 8011 "Usage Data Blob"](../../objects/table/8011.md) · via [Sales](business-functionality/sales.md)
+- [Page 8037 "Usage Data Customers"](../../objects/page/8037.md) · captioned "Usage Data Supp. Customers" · on [Table 8012 "Usage Data Supp. Customer"](../../objects/table/8012.md) · via [Sales](business-functionality/sales.md)
+- [Page 8038 "Usage Data Generic Import"](../../objects/page/8038.md) · on [Table 8018 "Usage Data Generic Import"](../../objects/table/8018.md) · via [Sales](business-functionality/sales.md)
+- [Page 8041 "Usage Data Imports"](../../objects/page/8041.md) · on [Table 8013 "Usage Data Import"](../../objects/table/8013.md) · via [Sales](business-functionality/sales.md)
+- [Page 8042 "Usage Data Subscriptions"](../../objects/page/8042.md) · on [Table 8016 "Usage Data Supp. Subscription"](../../objects/table/8016.md) · via [Sales](business-functionality/sales.md)
+- [Page 8043 "Usage Data Supp. References"](../../objects/page/8043.md) · captioned "Usage Data Supplier References" · on [Table 8015 "Usage Data Supplier Reference"](../../objects/table/8015.md) · via [Sales](business-functionality/sales.md)
+- [Page 8044 "Usage Data Suppliers"](../../objects/page/8044.md) · on [Table 8014 "Usage Data Supplier"](../../objects/table/8014.md) · via [Sales](business-functionality/sales.md)
+- [Page 8051 "Service Contract Setup"](../../objects/page/8051.md) · captioned "Subscription Contract Setup" · on [Table 8051 "Subscription Contract Setup"](../../objects/table/8051.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8052 "Customer Contract"](../../objects/page/8052.md) · captioned "Customer Subscription Contract" · on [Table 8052 "Customer Subscription Contract"](../../objects/table/8052.md) · via [Sales](business-functionality/sales.md)
+- [Page 8053 "Customer Contracts"](../../objects/page/8053.md) · captioned "Customer Subscription Contracts" · on [Table 8052 "Customer Subscription Contract"](../../objects/table/8052.md) · via [Sales](business-functionality/sales.md)
+- [Page 8054 "Contract Types"](../../objects/page/8054.md) · captioned "Subscription Contract Types" · on [Table 8053 "Subscription Contract Type"](../../objects/table/8053.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8057 "Service Commitment Packages"](../../objects/page/8057.md) · captioned "Subscription Packages" · on [Table 8055 "Subscription Package"](../../objects/table/8055.md) · via [Sales](business-functionality/sales.md)
+- [Page 8059 "Service Objects"](../../objects/page/8059.md) · captioned "Subscriptions" · on [Table 8057 "Subscription Header"](../../objects/table/8057.md) · via [Sales](business-functionality/sales.md)
+- [Page 8060 "Service Object"](../../objects/page/8060.md) · captioned "Subscription" · on [Table 8057 "Subscription Header"](../../objects/table/8057.md) · via [Sales](business-functionality/sales.md)
+- [Page 8061 "Item Serv. Commitment Packages"](../../objects/page/8061.md) · captioned "Item Subscription Packages" · on [Table 8058 "Item Subscription Package"](../../objects/table/8058.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8067 "Recurring Billing"](../../objects/page/8067.md) · on [Table 8061 "Billing Line"](../../objects/table/8061.md) · via [Sales](business-functionality/sales.md)
+- [Page 8070 "Vendor Contract"](../../objects/page/8070.md) · captioned "Vendor Subscription Contract" · on [Table 8063 "Vendor Subscription Contract"](../../objects/table/8063.md) · via [Sales](business-functionality/sales.md)
+- [Page 8071 "Vendor Contracts"](../../objects/page/8071.md) · captioned "Vendor Subscription Contracts" · on [Table 8063 "Vendor Subscription Contract"](../../objects/table/8063.md) · via [Sales](business-functionality/sales.md)
+- [Page 8079 "Customer Contract Deferrals"](../../objects/page/8079.md) · captioned "Customer Subscription Contract Deferrals" · on [Table 8066 "Cust. Sub. Contract Deferral"](../../objects/table/8066.md) · via [Sales](business-functionality/sales.md)
+- [Page 8084 "Sub. Billing Role Center"](../../objects/page/8084.md) · captioned "Subscription Billing" · via [Sales](business-functionality/sales.md)
+- [Page 8096 "Usage Data Billing Metadata"](../../objects/page/8096.md) · on [Table 8021 "Usage Data Billing Metadata"](../../objects/table/8021.md) · via [Sales](business-functionality/sales.md)
+- [Page 8364 "Dimension Perspectives"](../../objects/page/8364.md) · captioned "Financial Report Dimension Perspectives" · on [Table 8363 "Dimension Perspective Name"](../../objects/table/8363.md) · via [Finance](business-functionality/finance.md)
+- [Page 8510 "Over-Receipt Codes"](../../objects/page/8510.md) · on [Table 8510 "Over-Receipt Code"](../../objects/table/8510.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 8645 "Costing Method Configuration"](../../objects/page/8645.md) · on [Table 313 "Inventory Setup"](../../objects/table/313.md) · via [Finance](business-functionality/finance.md)
+- [Page 8893 "Email Scenario Setup"](../../objects/page/8893.md) · captioned "Email Scenario Assignment" · on [Table 8907 "Email Account Scenario"](../../objects/table/8907.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8897 "Email Scenario Attach Setup"](../../objects/page/8897.md) · captioned "Email Scenario Attachments" · on [Table 8913 "Email Attachments"](../../objects/table/8913.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8898 "Email Rate Limit Wizard"](../../objects/page/8898.md) · captioned "Set Email Rate Limit per Minute" · on [Table 8912 "Email Rate Limit"](../../objects/table/8912.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8900 "Administrator Main Role Center"](../../objects/page/8900.md) · captioned "Administrator Role Center" · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 8903 "Manufacturing Manager RC"](../../objects/page/8903.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 8904 "Project Manager Role Center"](../../objects/page/8904.md) · via [Project management](business-functionality/project-management.md)
+- [Page 9001 "Accounting Manager Role Center"](../../objects/page/9001.md) · captioned "Accounting Manager" · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 9002 "Acc. Payables Coordinator RC"](../../objects/page/9002.md) · captioned "Accounts Payable Coordinator" · via [Finance](business-functionality/finance.md)
+- [Page 9008 "Whse. Basic Role Center"](../../objects/page/9008.md) · captioned "Inventory Manager" · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 9011 "Shop Supervisor Mfg Foundation"](../../objects/page/9011.md) · captioned "Shop Supervisor - Manufacturing Foundation" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9012 "Shop Supervisor Role Center"](../../objects/page/9012.md) · captioned "Shop Supervisor - Manufacturing Comprehensive" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9013 "Machine Operator Role Center"](../../objects/page/9013.md) · captioned "Machine Operator - Manufacturing Comprehensive" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9014 "Job Resource Manager RC"](../../objects/page/9014.md) · captioned "Resource Manager" · via [Project management](business-functionality/project-management.md)
+- [Page 9015 "Job Project Manager RC"](../../objects/page/9015.md) · captioned "Project Manager" · via [Project management](business-functionality/project-management.md)
+- [Page 9038 "Production Planner Activities"](../../objects/page/9038.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../objects/table/9056.md) · via [Planning](business-functionality/planning.md)
+- [Page 9041 "Shop Supervisor Activities"](../../objects/page/9041.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../objects/table/9056.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9044 "Shop Super. basic Activities"](../../objects/page/9044.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../objects/table/9056.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9047 "Machine Operator Activities"](../../objects/page/9047.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../objects/table/9056.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9080 "Sales Hist. Sell-to FactBox"](../../objects/page/9080.md) · captioned "Sell-to Customer Sales History" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 9081 "Sales Hist. Bill-to FactBox"](../../objects/page/9081.md) · captioned "Bill-to Customer Sales History" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 9083 "Dimensions FactBox"](../../objects/page/9083.md) · captioned "Dimensions" · on [Table 352 "Default Dimension"](../../objects/table/352.md) · via [Finance](business-functionality/finance.md)
+- [Page 9084 "Customer Details FactBox"](../../objects/page/9084.md) · captioned "Customer Details" · on [Table 18 "Customer"](../../objects/table/18.md) · via [Sales](business-functionality/sales.md)
+- [Page 9091 "Item Planning FactBox"](../../objects/page/9091.md) · captioned "Item Details - Planning" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 9101 "Untracked Plng. Elements Part"](../../objects/page/9101.md) · captioned "Untracked Planning Elements" · on [Table 99000855 "Untracked Planning Element"](../../objects/table/99000855.md) · via [Planning](business-functionality/planning.md)
+- [Page 9125 "Item Application FactBox"](../../objects/page/9125.md) · captioned "Item Application" · on [Table 32 "Item Ledger Entry"](../../objects/table/32.md) · via [Finance](business-functionality/finance.md)
+- [Page 9203 "Budget Matrix"](../../objects/page/9203.md) · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
+- [Page 9219 "Purch. Budget Overview Matrix"](../../objects/page/9219.md) · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
+- [Page 9231 "Items by Location Matrix"](../../objects/page/9231.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 9233 "G/L Balance by Dim. Matrix"](../../objects/page/9233.md) · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
+- [Page 9239 "Sales Budget Overview Matrix"](../../objects/page/9239.md) · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
+- [Page 9251 "Dimension Combinations Matrix"](../../objects/page/9251.md) · on [Table 348 "Dimension"](../../objects/table/348.md) · via [Finance](business-functionality/finance.md)
+- [Page 9252 "MyDim Value Combinations"](../../objects/page/9252.md) · captioned "Dimension Value Combinations" · via [Finance](business-functionality/finance.md)
+- [Page 9253 "Dim. Value Combinations Matrix"](../../objects/page/9253.md) · captioned "Dimension Value Combinations Matrix" · on [Table 349 "Dimension Value"](../../objects/table/349.md) · via [Finance](business-functionality/finance.md)
+- [Page 9275 "T. Value Insured per FA Matrix"](../../objects/page/9275.md) · on [Table 5600 "Fixed Asset"](../../objects/table/5600.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Page 9277 "FA Posting Types Overv. Matrix"](../../objects/page/9277.md) · on [Table 5612 "FA Depreciation Book"](../../objects/table/5612.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9287 "Prod. BOM Mat. per Ver. Matrix"](../../objects/page/9287.md) · captioned "Prod. BOM Matrix per Version Matrix" · on [Table 99000788 "Production Matrix BOM Line"](../../objects/table/99000788.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9291 "Work Center Calendar Matrix"](../../objects/page/9291.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9293 "Machine Center Calendar Matrix"](../../objects/page/9293.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9295 "Work Ctr. Grp. Calendar Matrix"](../../objects/page/9295.md) · on [Table 99000756 "Work Center Group"](../../objects/table/99000756.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9297 "Inventory - G/L Recon Matrix"](../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
+- [Page 9300 "Sales Quotes"](../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
+- [Page 9301 "Sales Invoice List"](../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
+- [Page 9302 "Sales Credit Memos"](../../objects/page/9302.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
+- [Page 9303 "Blanket Sales Orders"](../../objects/page/9303.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
+- [Page 9304 "Sales Return Order List"](../../objects/page/9304.md) · captioned "Sales Return Orders" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
+- [Page 9305 "Sales Order List"](../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9306 "Purchase Quotes"](../../objects/page/9306.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9307 "Purchase Order List"](../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 9308 "Purchase Invoices"](../../objects/page/9308.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Finance](business-functionality/finance.md)
+- [Page 9309 "Purchase Credit Memos"](../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 9310 "Blanket Purchase Orders"](../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Sales](business-functionality/sales.md)
+- [Page 9314 "Warehouse Movements"](../../objects/page/9314.md) · on [Table 5766 "Warehouse Activity Header"](../../objects/table/5766.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 9323 "Simulated Production Orders"](../../objects/page/9323.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9324 "Planned Production Orders"](../../objects/page/9324.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9325 "Firm Planned Prod. Orders"](../../objects/page/9325.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9326 "Released Production Orders"](../../objects/page/9326.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9327 "Finished Production Orders"](../../objects/page/9327.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 9330 "Inventory Movements"](../../objects/page/9330.md) · on [Table 5766 "Warehouse Activity Header"](../../objects/table/5766.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 9345 "Registered Whse. Movements"](../../objects/page/9345.md) · captioned "Registered Warehouse Movement List" · on [Table 5772 "Registered Whse. Activity Hdr."](../../objects/table/5772.md) · via [Warehouse management](business-functionality/warehouse-management.md)
+- [Page 9346 "Purchase Quote Archives"](../../objects/page/9346.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9347 "Purchase Order Archives"](../../objects/page/9347.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9348 "Sales Quote Archives"](../../objects/page/9348.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9349 "Sales Order Archives"](../../objects/page/9349.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 9370 "Analysis View List Purchase"](../../objects/page/9370.md) · captioned "Purchase Analysis Views" · on [Table 7152 "Item Analysis View"](../../objects/table/7152.md) · via [Finance](business-functionality/finance.md)
+- [Page 9371 "Analysis View List Sales"](../../objects/page/9371.md) · captioned "Sales Analysis Views" · on [Table 7152 "Item Analysis View"](../../objects/table/7152.md) · via [Finance](business-functionality/finance.md)
+- [Page 9372 "Analysis View List Inventory"](../../objects/page/9372.md) · captioned "Inventory Analysis Views" · on [Table 7152 "Item Analysis View"](../../objects/table/7152.md) · via [Finance](business-functionality/finance.md)
+- [Page 9373 "Budget Names Purchase"](../../objects/page/9373.md) · captioned "Purchase Budgets" · on [Table 7132 "Item Budget Name"](../../objects/table/7132.md) · via [Finance](business-functionality/finance.md)
+- [Page 9374 "Budget Names Sales"](../../objects/page/9374.md) · captioned "Sales Budgets" · on [Table 7132 "Item Budget Name"](../../objects/table/7132.md) · via [Finance](business-functionality/finance.md)
+- [Page 9401 "VAT Amount Lines"](../../objects/page/9401.md) · on [Table 290 "VAT Amount Line"](../../objects/table/290.md) · via [Finance](business-functionality/finance.md)
+- [Page 9813 "Devices"](../../objects/page/9813.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9814 "Device Card"](../../objects/page/9814.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 9901 "Export Data"](../../objects/page/9901.md) · captioned "Export to a Data File" · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20100 "AMC Bank Bank Name List"](../../objects/page/20100.md) · captioned "AMC Banking Bank Name List" · on [Table 20100 "AMC Bank Banks"](../../objects/table/20100.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20101 "AMC Banking Setup"](../../objects/page/20101.md) · on [Table 20101 "AMC Banking Setup"](../../objects/table/20101.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20102 "AMC Bank Pmt. Types"](../../objects/page/20102.md) · captioned "AMC Banking Payment Types" · on [Table 20102 "AMC Bank Pmt. Type"](../../objects/table/20102.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20105 "AMC Bank Assisted Setup"](../../objects/page/20105.md) · captioned "AMC Banking 365 Fundamentals Assisted Setup" · on [Table 20101 "AMC Banking Setup"](../../objects/table/20101.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20106 "AMC Bank Assist Bank Account"](../../objects/page/20106.md) · on [Table 777 "Online Bank Acc. Link"](../../objects/table/777.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20107 "AMC Bank Webcall Log"](../../objects/page/20107.md) · captioned "AMC Banking 365 Webservice Log" · on [Table 710 "Activity Log"](../../objects/table/710.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20109 "AMC Bank Signup to Service"](../../objects/page/20109.md) · captioned "AMC Banking Signup webservice" · on [Table 79 "Company Information"](../../objects/table/79.md) · via [General business functionality](business-functionality/general-business-functionality.md)
+- [Page 20353 "Banking Apps"](../../objects/page/20353.md) · on [Table 20350 "Connectivity App"](../../objects/table/20350.md) · via [Finance](business-functionality/finance.md)
+- [Page 20400 "Qlty. Management Setup"](../../objects/page/20400.md) · captioned "Quality Management Setup" · on [Table 20400 "Qlty. Management Setup"](../../objects/table/20400.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20402 "Qlty. Inspection Template"](../../objects/page/20402.md) · captioned "Quality Inspection Template" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../objects/table/20402.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20404 "Qlty. Inspection Template List"](../../objects/page/20404.md) · captioned "Quality Inspection Templates" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../objects/table/20402.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20406 "Qlty. Inspection"](../../objects/page/20406.md) · captioned "Quality Inspection" · on [Table 20405 "Qlty. Inspection Header"](../../objects/table/20405.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20407 "Qlty. Inspection Subform"](../../objects/page/20407.md) · captioned "Quality Inspection Subform" · on [Table 20406 "Qlty. Inspection Line"](../../objects/table/20406.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20408 "Qlty. Inspection List"](../../objects/page/20408.md) · captioned "Quality Inspections" · on [Table 20405 "Qlty. Inspection Header"](../../objects/table/20405.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 20416 "Qlty. Inspection Result List"](../../objects/page/20416.md) · captioned "Quality Inspection Results" · on [Table 20411 "Qlty. Inspection Result"](../../objects/table/20411.md) · via [Quality management](business-functionality/quality-management.md)
+- [Page 22207 "Review G/L Entries"](../../objects/page/22207.md) · on [Table 17 "G/L Entry"](../../objects/table/17.md) · via [Finance](business-functionality/finance.md)
+- [Page 30100 "Shpfy Activities"](../../objects/page/30100.md) · captioned "Shopify Activities" · on [Table 30100 "Shpfy Cue"](../../objects/table/30100.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30101 "Shpfy Shop Card"](../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../objects/table/30102.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30102 "Shpfy Shops"](../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../objects/table/30102.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30103 "Shpfy Tag Factbox"](../../objects/page/30103.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../objects/table/30104.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30104 "Shpfy Tags"](../../objects/page/30104.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../objects/table/30104.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30105 "Shpfy Customer Adresses"](../../objects/page/30105.md) · captioned "Addresses" · on [Table 30106 "Shpfy Customer Address"](../../objects/table/30106.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30106 "Shpfy Customer Card"](../../objects/page/30106.md) · captioned "Shopify Customer Card" · on [Table 30105 "Shpfy Customer"](../../objects/table/30105.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30107 "Shpfy Customers"](../../objects/page/30107.md) · captioned "Shopify Customers" · on [Table 30105 "Shpfy Customer"](../../objects/table/30105.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30108 "Shpfy Customer Templates"](../../objects/page/30108.md) · captioned "Shopify Customer Setup by Country/Region" · on [Table 30107 "Shpfy Customer Template"](../../objects/table/30107.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30109 "Shpfy Tax Areas"](../../objects/page/30109.md) · captioned "Shopify Tax Areas" · on [Table 30109 "Shpfy Tax Area"](../../objects/table/30109.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30110 "Shpfy Gift Cards"](../../objects/page/30110.md) · captioned "Shopify Gift Cards" · on [Table 30110 "Shpfy Gift Card"](../../objects/table/30110.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30111 "Shpfy Gift Card Transactions"](../../objects/page/30111.md) · captioned "Shopify Gift Card Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../objects/table/30133.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30112 "Shpfy Order Fulfillments"](../../objects/page/30112.md) · captioned "Shopify Completed Fulfillments" · on [Table 30111 "Shpfy Order Fulfillment"](../../objects/table/30111.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30113 "Shpfy Order"](../../objects/page/30113.md) · captioned "Shopify Order" · on [Table 30118 "Shpfy Order Header"](../../objects/table/30118.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30114 "Shpfy Order Attributes"](../../objects/page/30114.md) · captioned "Shopify Order Attributes" · on [Table 30116 "Shpfy Order Attribute"](../../objects/table/30116.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30115 "Shpfy Orders"](../../objects/page/30115.md) · captioned "Shopify Orders" · on [Table 30118 "Shpfy Order Header"](../../objects/table/30118.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30116 "Shpfy Inventory FactBox"](../../objects/page/30116.md) · captioned "Shopify Inventory Factbox" · on [Table 30112 "Shpfy Shop Inventory"](../../objects/table/30112.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30117 "Shpfy Shop Locations Mapping"](../../objects/page/30117.md) · captioned "Shopify Shop Locations" · on [Table 30113 "Shpfy Shop Location"](../../objects/table/30113.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30118 "Shpfy Data Capture List"](../../objects/page/30118.md) · captioned "Shopify Data Capture List" · on [Table 30114 "Shpfy Data Capture"](../../objects/table/30114.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30119 "Shpfy Log Entries"](../../objects/page/30119.md) · captioned "Shopify Log Entries" · on [Table 30115 "Shpfy Log Entry"](../../objects/table/30115.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30120 "Shpfy Log Entry Card"](../../objects/page/30120.md) · captioned "Shopify Log Entry" · on [Table 30115 "Shpfy Log Entry"](../../objects/table/30115.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30121 "Shpfy Orders to Import"](../../objects/page/30121.md) · captioned "Shopify Orders to Import" · on [Table 30121 "Shpfy Orders to Import"](../../objects/table/30121.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30122 "Shpfy Order Subform"](../../objects/page/30122.md) · captioned "Shopify Order Lines" · on [Table 30119 "Shpfy Order Line"](../../objects/table/30119.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30123 "Shpfy Order Risks"](../../objects/page/30123.md) · captioned "Shopify Order Risks" · on [Table 30123 "Shpfy Order Risk"](../../objects/table/30123.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30124 "Shpfy Payment Transactions"](../../objects/page/30124.md) · captioned "Shopify Payment Transactions" · on [Table 30124 "Shpfy Payment Transaction"](../../objects/table/30124.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30125 "Shpfy Payouts"](../../objects/page/30125.md) · captioned "Shopify Payouts" · on [Table 30125 "Shpfy Payout"](../../objects/table/30125.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30126 "Shpfy Products"](../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../objects/table/30127.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30127 "Shpfy Variants"](../../objects/page/30127.md) · captioned "Shopify Variants" · on [Table 30129 "Shpfy Variant"](../../objects/table/30129.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30128 "Shpfy Order Shipping Charges"](../../objects/page/30128.md) · captioned "Shopify Order Shipping Charges" · on [Table 30130 "Shpfy Order Shipping Charges"](../../objects/table/30130.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30129 "Shpfy Shipment Methods Mapping"](../../objects/page/30129.md) · captioned "Shopify Shipment Methods" · on [Table 30131 "Shpfy Shipment Method Mapping"](../../objects/table/30131.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30130 "Shpfy Credit Card Companies"](../../objects/page/30130.md) · captioned "Shopify Credit Card Companies" · on [Table 30132 "Shpfy Credit Card Company"](../../objects/table/30132.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30131 "Shpfy Order Transactions"](../../objects/page/30131.md) · captioned "Shopify Order Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../objects/table/30133.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30132 "Shpfy Payment Methods Mapping"](../../objects/page/30132.md) · captioned "Shopify Payment Methods Mapping" · on [Table 30134 "Shpfy Payment Method Mapping"](../../objects/table/30134.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30133 "Shpfy Transaction Gateways"](../../objects/page/30133.md) · captioned "Shopify Transaction Gateways" · on [Table 30135 "Shpfy Transaction Gateway"](../../objects/table/30135.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30134 "Shpfy Transactions"](../../objects/page/30134.md) · captioned "Shopify Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../objects/table/30133.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30135 "Shpfy Authentication"](../../objects/page/30135.md) · captioned "Waiting for a response - do not close this page" · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30145 "Shpfy Refund"](../../objects/page/30145.md) · captioned "Shopify Refund" · on [Table 30142 "Shpfy Refund Header"](../../objects/table/30142.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30147 "Shpfy Refunds"](../../objects/page/30147.md) · captioned "Shopify Refunds" · on [Table 30142 "Shpfy Refund Header"](../../objects/table/30142.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30150 "Shpfy Returns"](../../objects/page/30150.md) · captioned "Shopify Returns" · on [Table 30147 "Shpfy Return Header"](../../objects/table/30147.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30151 "Shpfy Return"](../../objects/page/30151.md) · captioned "Shopify Return" · on [Table 30147 "Shpfy Return Header"](../../objects/table/30147.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30156 "Shpfy Companies"](../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../objects/table/30150.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30157 "Shpfy Company Card"](../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../objects/table/30150.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30159 "Shpfy Catalogs"](../../objects/page/30159.md) · captioned "Shopify B2B Catalogs" · on [Table 30152 "Shpfy Catalog"](../../objects/table/30152.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30167 "Shpfy Sales Channels"](../../objects/page/30167.md) · captioned "Shopify Sales Channels" · on [Table 30160 "Shpfy Sales Channel"](../../objects/table/30160.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30168 "Shpfy Order Tax Lines"](../../objects/page/30168.md) · captioned "Shopify Order Tax Lines" · on [Table 30122 "Shpfy Order Tax Line"](../../objects/table/30122.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 30174 "Shpfy Market Catalogs"](../../objects/page/30174.md) · captioned "Shopify Market Catalogs" · on [Table 30152 "Shpfy Catalog"](../../objects/table/30152.md) · via [Online store with Shopify](business-functionality/online-store-with-shopify.md)
+- [Page 36951 "PowerBI Reports Setup"](../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../objects/table/36951.md) · via [Sales](business-functionality/sales.md)
+- [Page 36961 "Account Categories"](../../objects/page/36961.md) · captioned "Power BI Account Categories" · on [Table 36953 "Account Category"](../../objects/table/36953.md) · via [Finance](business-functionality/finance.md)
+- [Page 36983 "Customer Retention Overview"](../../objects/page/36983.md) · captioned "Customer Retention Overview (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 36984 "Financial Overview"](../../objects/page/36984.md) · captioned "Financial Overview (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36985 "Income Statement by Month"](../../objects/page/36985.md) · captioned "Income Statement by Month (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36986 "Balance Sheet by Month"](../../objects/page/36986.md) · captioned "Balance Sheet by Month (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36987 "Budget Comparison"](../../objects/page/36987.md) · captioned "Budget Comparison (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36988 "Liquidity KPIs"](../../objects/page/36988.md) · captioned "Liquidity KPIs (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36989 "Profitability"](../../objects/page/36989.md) · captioned "Profitability (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36990 "Liabilities"](../../objects/page/36990.md) · captioned "Liabilities (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36991 "EBITDA"](../../objects/page/36991.md) · captioned "EBITDA (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36992 "Average Collection Period"](../../objects/page/36992.md) · captioned "Average Collection Period (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36993 "Aged Receivables (Back Dating)"](../../objects/page/36993.md) · captioned "Aged Receivables (Back Dating) (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36994 "Aged Payables (Back Dating)"](../../objects/page/36994.md) · captioned "Aged Payables (Back Dating) (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36995 "PowerBI General Ledg. Entries"](../../objects/page/36995.md) · captioned "General Ledger Entries (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36996 "Detailed Vendor Ledger Entries"](../../objects/page/36996.md) · captioned "Detailed Vendor Ledger Entries (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36997 "Detailed Cust. Ledger Entries"](../../objects/page/36997.md) · captioned "Detailed Cust. Ledger Entries (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 36998 "Sales Overview"](../../objects/page/36998.md) · captioned "Sales Overview (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 36999 "Daily Sales"](../../objects/page/36999.md) · captioned "Daily Sales (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37000 "Sales Moving Average"](../../objects/page/37000.md) · captioned "Sales Moving Average (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37001 "Sales Moving Annual Total"](../../objects/page/37001.md) · captioned "Sales Moving Annual Total (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37002 "Sales Period-Over-Period"](../../objects/page/37002.md) · captioned "Sales Period-Over-Period (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37003 "Sales Month-To-Date"](../../objects/page/37003.md) · captioned "Sales Month-To-Date (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37004 "Sales by Item"](../../objects/page/37004.md) · captioned "Sales by Item (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37005 "Sales by Customer"](../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37006 "Sales by Salesperson"](../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37007 "Sales Actual vs. Budget Qty."](../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37008 "Sales Actual vs. Budget Amt."](../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount" · via [Sales](business-functionality/sales.md)
+- [Page 37009 "Purchases Overview"](../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37010 "Purchases Decomposition"](../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37011 "Daily Purchases"](../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37012 "Purchases Moving Averages"](../../objects/page/37012.md) · captioned "Purchases Moving Averages (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37013 "Purchases Moving Annual Total"](../../objects/page/37013.md) · captioned "Purchases Moving Annual Total (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37014 "Purchases Period-Over-Period"](../../objects/page/37014.md) · captioned "Purchases Period-Over-Period (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37015 "Purchases Year-Over-Year"](../../objects/page/37015.md) · captioned "Purchases Year-Over-Year (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37016 "Purchases by Item"](../../objects/page/37016.md) · captioned "Purchases by Item (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37017 "Purchases by Purchaser"](../../objects/page/37017.md) · captioned "Purchases by Purchaser (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37018 "Purchases by Vendor"](../../objects/page/37018.md) · captioned "Purchases by Vendor (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37019 "Purchases by Location"](../../objects/page/37019.md) · captioned "Purchases by Location (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37020 "Purch. Actual vs. Budget Qty."](../../objects/page/37020.md) · captioned "Purchase Actual vs. Budget Quantity (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37021 "Purch. Actual vs. Budget Amt."](../../objects/page/37021.md) · captioned "Purchases Actual vs. Budget Amount (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37022 "Inventory Overview"](../../objects/page/37022.md) · captioned "Inventory Overview (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37023 "Inventory by Item"](../../objects/page/37023.md) · captioned "Inventory by Item (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37024 "Inventory by Location"](../../objects/page/37024.md) · captioned "Inventory by Location (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37025 "Purchase and Sales Quantity"](../../objects/page/37025.md) · captioned "Purchase and Sales Quantity (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37026 "Item Availability"](../../objects/page/37026.md) · captioned "Item Availability (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37027 "Gross Requirement"](../../objects/page/37027.md) · captioned "Gross Requirement (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37028 "Scheduled Receipt"](../../objects/page/37028.md) · captioned "Scheduled Receipt (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37029 "Inventory by Lot"](../../objects/page/37029.md) · captioned "Inventory by Lot (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37030 "Inventory by Serial No."](../../objects/page/37030.md) · captioned "Inventory by Serial No. (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37031 "PowerBI Bin Contents"](../../objects/page/37031.md) · captioned "Bin Contents (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37032 "Bin Contents by Item Tracking"](../../objects/page/37032.md) · captioned "Bin Contents by Item Tracking (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37033 "Projects Overview"](../../objects/page/37033.md) · captioned "Projects Overview (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37034 "Project Tasks"](../../objects/page/37034.md) · captioned "Project Tasks (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37035 "Project Profitability"](../../objects/page/37035.md) · captioned "Project Profitability (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37036 "Project Realization"](../../objects/page/37036.md) · captioned "Project Realization (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37037 "Project Performance to Budget"](../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37038 "Project Invoiced Sales by Type"](../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37039 "Project Invd. Sales by Cust."](../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37040 "Current Utilization"](../../objects/page/37040.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37041 "Historical Utilization"](../../objects/page/37041.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37042 "PowerBI Work Center Load"](../../objects/page/37042.md) · captioned "Work Center Load (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37043 "Allocated Hours"](../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37044 "Expected Capacity Need"](../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37045 "Finished Prod. Order Breakdown"](../../objects/page/37045.md) · captioned "Finished Production Order Breakdown (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37046 "Consumption Variance"](../../objects/page/37046.md) · captioned "Consumption Variance (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37047 "Capacity Variance"](../../objects/page/37047.md) · captioned "Capacity Variance (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37048 "Average Productions Times"](../../objects/page/37048.md) · captioned "Average Productions Times (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37049 "PowerBI Released Prod. Orders"](../../objects/page/37049.md) · captioned "Released Production Orders (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37055 "Production Scrap"](../../objects/page/37055.md) · captioned "Production Scrap (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37056 "Inventory Valuation Overview"](../../objects/page/37056.md) · captioned "Inventory Valuation Overview (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37057 "Inventory Valuation by Item"](../../objects/page/37057.md) · captioned "Inventory Valuation by Item (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37058 "Inventory Valuation by Loc."](../../objects/page/37058.md) · captioned "Inventory Valuation by Location (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37059 "Finance Report"](../../objects/page/37059.md) · captioned "Finance Report (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 37061 "Purchases Report"](../../objects/page/37061.md) · captioned "Purchases Report (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37062 "Projects Report"](../../objects/page/37062.md) · captioned "Projects Report (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37063 "Manufacturing Report"](../../objects/page/37063.md) · captioned "Manufacturing Report (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37064 "Inventory Report"](../../objects/page/37064.md) · captioned "Inventory Report (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37065 "Inventory Valuation Report"](../../objects/page/37065.md) · captioned "Inventory Valuation Report (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37066 "Sales by Location"](../../objects/page/37066.md) · captioned "Sales by Location (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37094 "PBI Work Center Statistics"](../../objects/page/37094.md) · captioned "Work Center Statistics (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37095 "PBI Machine Center Statistics"](../../objects/page/37095.md) · captioned "Machine Center Statistics (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37096 "PBI Machine Center Load"](../../objects/page/37096.md) · captioned "Machine Center Load (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37097 "Prod. Order - List"](../../objects/page/37097.md) · captioned "Production Order - List (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37098 "Production Order Overview"](../../objects/page/37098.md) · captioned "Production Order Overview (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37099 "Prod. Order Routings Gantt"](../../objects/page/37099.md) · captioned "Production Order Routings Gantt (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37100 "Sales Demographics"](../../objects/page/37100.md) · captioned "Sales Demographics (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37101 "Sales Decomposition"](../../objects/page/37101.md) · captioned "Sales Decomposition (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37102 "Key Sales Influencers"](../../objects/page/37102.md) · captioned "Key Sales Influencers (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37103 "Opportunity Overview"](../../objects/page/37103.md) · captioned "Opportunity Overview (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37104 "Sales Quote Overview"](../../objects/page/37104.md) · captioned "Sales Quote Overview (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37105 "Return Order Overview"](../../objects/page/37105.md) · captioned "Return Order Overview (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37106 "Project Timeline"](../../objects/page/37106.md) · captioned "Project Timeline (Power BI)" · via [Project management](business-functionality/project-management.md)
+- [Page 37107 "Production Order WIP"](../../objects/page/37107.md) · captioned "Production Order WIP (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 37109 "Sales Forecasting"](../../objects/page/37109.md) · captioned "Sales Forecasting (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37110 "Inventory Forecasting"](../../objects/page/37110.md) · captioned "Inventory Forecasting (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37111 "PowerBI ABC Analysis"](../../objects/page/37111.md) · captioned "ABC Analysis (Power BI)" · via [Inventory](business-functionality/inventory.md)
+- [Page 37112 "Purchase Forecasting"](../../objects/page/37112.md) · captioned "Purchase Forecasting (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37113 "Late Payments (Receivables)"](../../objects/page/37113.md) · captioned "Late Payments (Receivables) (Power BI)" · via [Finance](business-functionality/finance.md)
+- [Page 37114 "Customer Retention History"](../../objects/page/37114.md) · captioned "Customer Retention History (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 37115 "Vendor Quality Analysis"](../../objects/page/37115.md) · captioned "Vendor Quality Analysis (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37116 "Purchase Return Overview"](../../objects/page/37116.md) · captioned "Purchase Return Overview (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37117 "Key Purchase Influencers"](../../objects/page/37117.md) · captioned "Key Purchase Influencers (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37118 "Purchase Quote Overview"](../../objects/page/37118.md) · captioned "Purchase Quote Overview (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
+- [Page 37119 "Sales by Projects"](../../objects/page/37119.md) · captioned "Sales by Projects (Power BI)" · via [Sales](business-functionality/sales.md)
+- [Page 99000750 "Work Shifts"](../../objects/page/99000750.md) · on [Table 99000750 "Work Shift"](../../objects/table/99000750.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000751 "Shop Calendars"](../../objects/page/99000751.md) · on [Table 99000751 "Shop Calendar"](../../objects/table/99000751.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000752 "Shop Calendar Working Days"](../../objects/page/99000752.md) · on [Table 99000752 "Shop Calendar Working Days"](../../objects/table/99000752.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000753 "Shop Calendar Holidays"](../../objects/page/99000753.md) · on [Table 99000753 "Shop Calendar Holiday"](../../objects/table/99000753.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000754 "Work Center Card"](../../objects/page/99000754.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 99000755 "Work Center List"](../../objects/page/99000755.md) · captioned "Work Centers" · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000756 "Work Center Statistics"](../../objects/page/99000756.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000758 "Work Center Groups"](../../objects/page/99000758.md) · on [Table 99000756 "Work Center Group"](../../objects/table/99000756.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000759 "Calendar Entries"](../../objects/page/99000759.md) · on [Table 99000757 "Calendar Entry"](../../objects/table/99000757.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000760 "Machine Center Card"](../../objects/page/99000760.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 99000761 "Machine Center List"](../../objects/page/99000761.md) · captioned "Machine Centers" · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000762 "Machine Center Statistics"](../../objects/page/99000762.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000764 "Routing List"](../../objects/page/99000764.md) · captioned "Routings" · on [Table 99000763 "Routing Header"](../../objects/table/99000763.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000765 "Routing Lines"](../../objects/page/99000765.md) · captioned "Lines" · on [Table 99000764 "Routing Line"](../../objects/table/99000764.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000766 "Routing"](../../objects/page/99000766.md) · on [Table 99000763 "Routing Header"](../../objects/table/99000763.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 99000767 "Routing Version Lines"](../../objects/page/99000767.md) · captioned "Lines" · on [Table 99000764 "Routing Line"](../../objects/table/99000764.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000768 "Manufacturing Setup"](../../objects/page/99000768.md) · on [Table 99000765 "Manufacturing Setup"](../../objects/table/99000765.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000769 "Work Center Calendar"](../../objects/page/99000769.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000770 "Machine Center Calendar"](../../objects/page/99000770.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000771 "Work Ctr. Group Calendar"](../../objects/page/99000771.md) · on [Table 99000756 "Work Center Group"](../../objects/table/99000756.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000772 "Capacity Absence"](../../objects/page/99000772.md) · on [Table 99000760 "Calendar Absence Entry"](../../objects/table/99000760.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000773 "Capacity Journal"](../../objects/page/99000773.md) · captioned "Capacity Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000778 "Recurring Capacity Journal"](../../objects/page/99000778.md) · captioned "Recurring Capacity Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000779 "Stop Codes"](../../objects/page/99000779.md) · on [Table 99000761 "Stop"](../../objects/table/99000761.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000780 "Scrap Codes"](../../objects/page/99000780.md) · on [Table 99000762 "Scrap"](../../objects/table/99000762.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000784 "Manufacturing Comment Sheet"](../../objects/page/99000784.md) · captioned "Comment Sheet" · on [Table 99000770 "Manufacturing Comment Line"](../../objects/table/99000770.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000785 "Manufacturing Comment List"](../../objects/page/99000785.md) · captioned "Comment List" · on [Table 99000770 "Manufacturing Comment Line"](../../objects/table/99000770.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000786 "Production BOM"](../../objects/page/99000786.md) · on [Table 99000771 "Production BOM Header"](../../objects/table/99000771.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 99000787 "Production BOM List"](../../objects/page/99000787.md) · captioned "Production BOMs" · on [Table 99000771 "Production BOM Header"](../../objects/table/99000771.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000788 "Production BOM Lines"](../../objects/page/99000788.md) · captioned "Lines" · on [Table 99000772 "Production BOM Line"](../../objects/table/99000772.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000789 "Production BOM Version Lines"](../../objects/page/99000789.md) · captioned "Lines" · on [Table 99000772 "Production BOM Line"](../../objects/table/99000772.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000790 "Family"](../../objects/page/99000790.md) · on [Table 99000773 "Family"](../../objects/table/99000773.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000791 "Family List"](../../objects/page/99000791.md) · captioned "Families" · on [Table 99000773 "Family"](../../objects/table/99000773.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000792 "Family Lines"](../../objects/page/99000792.md) · captioned "Lines" · on [Table 99000774 "Family Line"](../../objects/table/99000774.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000793 "Family Line List"](../../objects/page/99000793.md) · on [Table 99000774 "Family Line"](../../objects/table/99000774.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000794 "Routing Comment Sheet"](../../objects/page/99000794.md) · captioned "Comment Sheet" · on [Table 99000775 "Routing Comment Line"](../../objects/table/99000775.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000795 "Prod. Order BOM Cmt. Sheet"](../../objects/page/99000795.md) · captioned "Comment Sheet" · on [Table 99000776 "Production BOM Comment Line"](../../objects/table/99000776.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000796 "Routing Comment List"](../../objects/page/99000796.md) · captioned "Comment List" · on [Table 99000775 "Routing Comment Line"](../../objects/table/99000775.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000797 "Prod. BOM Comment List"](../../objects/page/99000797.md) · captioned "Comment List" · on [Table 99000776 "Production BOM Comment Line"](../../objects/table/99000776.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000798 "Routing Links"](../../objects/page/99000798.md) · on [Table 99000777 "Routing Link"](../../objects/table/99000777.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000799 "Standard Tasks"](../../objects/page/99000799.md) · on [Table 99000778 "Standard Task"](../../objects/table/99000778.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000800 "Prod. BOM Version List"](../../objects/page/99000800.md) · on [Table 99000779 "Production BOM Version"](../../objects/table/99000779.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000802 "Capacity Units of Measure"](../../objects/page/99000802.md) · on [Table 99000780 "Capacity Unit of Measure"](../../objects/table/99000780.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000803 "Standard Task Tools"](../../objects/page/99000803.md) · on [Table 99000781 "Standard Task Tool"](../../objects/table/99000781.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000804 "Standard Task Personnel"](../../objects/page/99000804.md) · on [Table 99000782 "Standard Task Personnel"](../../objects/table/99000782.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000805 "Standard Task Qlty Measures"](../../objects/page/99000805.md) · on [Table 99000784 "Standard Task Quality Measure"](../../objects/table/99000784.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000806 "Quality Measures"](../../objects/page/99000806.md) · on [Table 99000785 "Quality Measure"](../../objects/table/99000785.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000807 "Standard Task Descript. Sheet"](../../objects/page/99000807.md) · on [Table 99000783 "Standard Task Description"](../../objects/table/99000783.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000808 "Routing Version List"](../../objects/page/99000808.md) · on [Table 99000786 "Routing Version"](../../objects/table/99000786.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000809 "Production BOM Version"](../../objects/page/99000809.md) · on [Table 99000779 "Production BOM Version"](../../objects/table/99000779.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000810 "Routing Version"](../../objects/page/99000810.md) · on [Table 99000786 "Routing Version"](../../objects/table/99000786.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000811 "Prod. BOM Where-Used"](../../objects/page/99000811.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000812 "Prod. BOM Matrix per Version"](../../objects/page/99000812.md) · on [Table 99000788 "Production Matrix BOM Line"](../../objects/table/99000788.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000813 "Planned Production Order"](../../objects/page/99000813.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000814 "Planned Prod. Order Lines"](../../objects/page/99000814.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000815 "Production Order List"](../../objects/page/99000815.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000816 "Production Order Statistics"](../../objects/page/99000816.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000817 "Prod. Order Routing"](../../objects/page/99000817.md) · on [Table 5409 "Prod. Order Routing Line"](../../objects/table/5409.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Page 99000818 "Prod. Order Components"](../../objects/page/99000818.md) · on [Table 5407 "Prod. Order Component"](../../objects/table/5407.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000820 "Prod. Order Capacity Need"](../../objects/page/99000820.md) · on [Table 5410 "Prod. Order Capacity Need"](../../objects/table/5410.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000822 "Order Tracking"](../../objects/page/99000822.md) · on [Table 99000799 "Order Tracking Entry"](../../objects/table/99000799.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000823 "Output Journal"](../../objects/page/99000823.md) · captioned "Output Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000827 "Recurring Output Journal"](../../objects/page/99000827.md) · captioned "Recurring Output Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000829 "Firm Planned Prod. Order"](../../objects/page/99000829.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000830 "Firm Planned Prod. Order Lines"](../../objects/page/99000830.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000831 "Released Production Order"](../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000832 "Released Prod. Order Lines"](../../objects/page/99000832.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000833 "Check Prod. Order Status"](../../objects/page/99000833.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000834 "Prod. Order Rtng Qlty Meas."](../../objects/page/99000834.md) · on [Table 5413 "Prod. Order Rtng Qlty Meas."](../../objects/table/5413.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000835 "Routing Tools"](../../objects/page/99000835.md) · on [Table 99000802 "Routing Tool"](../../objects/table/99000802.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000836 "Routing Personnel"](../../objects/page/99000836.md) · on [Table 99000803 "Routing Personnel"](../../objects/table/99000803.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000837 "Routing Quality Measures"](../../objects/page/99000837.md) · on [Table 99000805 "Routing Quality Measure"](../../objects/table/99000805.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000838 "Prod. Order Comment Sheet"](../../objects/page/99000838.md) · captioned "Comment Sheet" · on [Table 5414 "Prod. Order Comment Line"](../../objects/table/5414.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000839 "Prod. Order Comment List"](../../objects/page/99000839.md) · captioned "Comment List" · on [Table 5414 "Prod. Order Comment Line"](../../objects/table/5414.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000840 "Prod. Order Rtng. Cmt. Sh."](../../objects/page/99000840.md) · captioned "Comment Sheet" · on [Table 5415 "Prod. Order Rtng Comment Line"](../../objects/table/5415.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000841 "Prod. Order Rtng. Cmt. List"](../../objects/page/99000841.md) · captioned "Comment List" · on [Table 5415 "Prod. Order Rtng Comment Line"](../../objects/table/5415.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000842 "Prod. Order Comp. Cmt. Sheet"](../../objects/page/99000842.md) · captioned "Comment List" · on [Table 5416 "Prod. Order Comp. Cmt Line"](../../objects/table/5416.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000843 "Prod. Order BOM Cmt List"](../../objects/page/99000843.md) · captioned "Comment List" · on [Table 5416 "Prod. Order Comp. Cmt Line"](../../objects/table/5416.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000844 "Prod. Order Routing Tools"](../../objects/page/99000844.md) · on [Table 5411 "Prod. Order Routing Tool"](../../objects/table/5411.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000845 "Prod. Order Routing Personnel"](../../objects/page/99000845.md) · on [Table 5412 "Prod. Order Routing Personnel"](../../objects/table/5412.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000846 "Consumption Journal"](../../objects/page/99000846.md) · captioned "Consumption Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000850 "Recurring Consumption Journal"](../../objects/page/99000850.md) · captioned "Recurring Consumption Journals" · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000852 "Planning Worksheet"](../../objects/page/99000852.md) · captioned "Planning Worksheets" · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000855 "Untracked Planning Elements"](../../objects/page/99000855.md) · on [Table 99000855 "Untracked Planning Element"](../../objects/table/99000855.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000860 "Planning Worksheet Line List"](../../objects/page/99000860.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000861 "Planning Component List"](../../objects/page/99000861.md) · on [Table 99000829 "Planning Component"](../../objects/table/99000829.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000862 "Planning Components"](../../objects/page/99000862.md) · on [Table 99000829 "Planning Component"](../../objects/table/99000829.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000863 "Planning Routing"](../../objects/page/99000863.md) · on [Table 99000830 "Planning Routing Line"](../../objects/table/99000830.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000866 "Capacity Constrained Resources"](../../objects/page/99000866.md) · on [Table 99000866 "Capacity Constrained Resource"](../../objects/table/99000866.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000867 "Finished Production Order"](../../objects/page/99000867.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000868 "Finished Prod. Order Lines"](../../objects/page/99000868.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000882 "Change Status on Prod. Order"](../../objects/page/99000882.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000883 "Sales Order Planning"](../../objects/page/99000883.md) · on [Table 99000800 "Sales Planning Line"](../../objects/table/99000800.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000884 "Create Order From Sales"](../../objects/page/99000884.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000886 "Subcontracting Worksheet"](../../objects/page/99000886.md) · captioned "Subcontracting Worksheets (Obsolete)" · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000887 "Work Center Load"](../../objects/page/99000887.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000888 "Work Center Load Lines"](../../objects/page/99000888.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../objects/table/933.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000889 "Machine Center Load"](../../objects/page/99000889.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000890 "Machine Center Load Lines"](../../objects/page/99000890.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../objects/table/933.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000891 "Work Center Group Load"](../../objects/page/99000891.md) · on [Table 99000756 "Work Center Group"](../../objects/table/99000756.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000892 "Work Center Group Load Lines"](../../objects/page/99000892.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../objects/table/933.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000896 "Available - Transfer Lines"](../../objects/page/99000896.md) · on [Table 5741 "Transfer Line"](../../objects/table/5741.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 99000897 "Available - Prod. Order Lines"](../../objects/page/99000897.md) · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000898 "Available - Prod. Order Comp."](../../objects/page/99000898.md) · on [Table 5407 "Prod. Order Component"](../../objects/table/5407.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000900 "Avail. - Planning Components"](../../objects/page/99000900.md) · on [Table 99000829 "Planning Component"](../../objects/table/99000829.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000902 "Item Availability Line List"](../../objects/page/99000902.md) · on [Table 99000832 "Item Availability Line"](../../objects/table/99000832.md) · via [Inventory](business-functionality/inventory.md)
+- [Page 99000912 "Simulated Production Order"](../../objects/page/99000912.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000913 "Simulated Prod. Order Lines"](../../objects/page/99000913.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../objects/table/5406.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000914 "Change Production Order Status"](../../objects/page/99000914.md) · on [Table 5405 "Production Order"](../../objects/table/5405.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000915 "Work Center Task List"](../../objects/page/99000915.md) · on [Table 5409 "Prod. Order Routing Line"](../../objects/table/5409.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000916 "Machine Center Task List"](../../objects/page/99000916.md) · on [Table 5409 "Prod. Order Routing Line"](../../objects/table/5409.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000917 "Report Selection - Prod. Order"](../../objects/page/99000917.md) · captioned "Report Selection - Production" · on [Table 77 "Report Selections"](../../objects/table/77.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Page 99000920 "Registered Absences"](../../objects/page/99000920.md) · on [Table 99000848 "Registered Absence"](../../objects/table/99000848.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Page 99000921 "Demand Forecast Names"](../../objects/page/99000921.md) · captioned "Demand Forecasts" · on [Table 99000851 "Production Forecast Name"](../../objects/table/99000851.md) · via [Planning](business-functionality/planning.md)
+- [Page 99000922 "Demand Forecast Entries"](../../objects/page/99000922.md) · on [Table 99000852 "Production Forecast Entry"](../../objects/table/99000852.md) · via [Planning](business-functionality/planning.md)
+- [Query 123 "Fixed Assets Analysis"](../../objects/query/123.md) · captioned "Fixed Assets Ad-hoc Analysis" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 1 "Chart of Accounts"](../../objects/report/1.md) · via [Finance](business-functionality/finance.md)
+- [Report 3 "G/L Register"](../../objects/report/3.md) · via [Finance](business-functionality/finance.md)
+- [Report 4 "Detail Trial Balance"](../../objects/report/4.md) · via [Finance](business-functionality/finance.md)
+- [Report 5 "Receivables-Payables"](../../objects/report/5.md) · via [Finance](business-functionality/finance.md)
+- [Report 6 "Trial Balance"](../../objects/report/6.md) · captioned "Trial Balance (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 7 "Trial Balance/Previous Year"](../../objects/report/7.md) · via [Finance](business-functionality/finance.md)
+- [Report 9 "Trial Balance/Budget"](../../objects/report/9.md) · captioned "Trial Balance/Budget (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 10 "Closing Trial Balance"](../../objects/report/10.md) · via [Finance](business-functionality/finance.md)
+- [Report 11 "G/L - VAT Reconciliation"](../../objects/report/11.md) · via [Finance](business-functionality/finance.md)
+- [Report 12 "VAT Statement"](../../objects/report/12.md) · via [Finance](business-functionality/finance.md)
+- [Report 13 "VAT Register"](../../objects/report/13.md) · via [Finance](business-functionality/finance.md)
+- [Report 16 "G/L Consolidation Eliminations"](../../objects/report/16.md) · via [Finance](business-functionality/finance.md)
+- [Report 17 "Consolidated Trial Balance"](../../objects/report/17.md) · via [Finance](business-functionality/finance.md)
+- [Report 18 "Consolidated Trial Balance (4)"](../../objects/report/18.md) · via [Finance](business-functionality/finance.md)
+- [Report 19 "VAT- VIES Declaration Tax Auth"](../../objects/report/19.md) · via [Finance](business-functionality/finance.md)
+- [Report 20 "Calc. and Post VAT Settlement"](../../objects/report/20.md) · captioned "Calculate and Post VAT Settlement" · via [Finance](business-functionality/finance.md)
+- [Report 25 "Account Schedule"](../../objects/report/25.md) · captioned "Run Financial Report" · via [Finance](business-functionality/finance.md)
+- [Report 27 "Dimensions - Total"](../../objects/report/27.md) · via [Finance](business-functionality/finance.md)
+- [Report 28 "Dimensions - Detail"](../../objects/report/28.md) · via [Finance](business-functionality/finance.md)
+- [Report 30 "Check Value Posting"](../../objects/report/30.md) · captioned "Dimension Check Value Posting" · via [Finance](business-functionality/finance.md)
+- [Report 31 "VAT Exceptions"](../../objects/report/31.md) · via [Finance](business-functionality/finance.md)
+- [Report 32 "VAT Registration No. Check"](../../objects/report/32.md) · captioned "Batch VAT Registration No. Check" · via [Finance](business-functionality/finance.md)
+- [Report 33 "Reconcile Cust. and Vend. Accs"](../../objects/report/33.md) · captioned "Reconcile Customer and Vendor Accounts" · via [Finance](business-functionality/finance.md)
+- [Report 36 "Fiscal Year Balance"](../../objects/report/36.md) · via [Finance](business-functionality/finance.md)
+- [Report 37 "Balance Comp. - Prev. Year"](../../objects/report/37.md) · via [Finance](business-functionality/finance.md)
+- [Report 38 "Trial Balance by Period"](../../objects/report/38.md) · via [Finance](business-functionality/finance.md)
+- [Report 86 "Adjust Add. Reporting Currency"](../../objects/report/86.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
+- [Report 101 "Customer - List"](../../objects/report/101.md) · captioned "Customer List" · via [Finance](business-functionality/finance.md)
+- [Report 104 "Customer - Detail Trial Bal."](../../objects/report/104.md) · via [Finance](business-functionality/finance.md)
+- [Report 107 "Customer - Order Summary"](../../objects/report/107.md) · via [Finance](business-functionality/finance.md)
+- [Report 108 "Customer - Order Detail"](../../objects/report/108.md) · via [Finance](business-functionality/finance.md)
+- [Report 109 "Customer - Summary Aging Simp."](../../objects/report/109.md) · via [Finance](business-functionality/finance.md)
+- [Report 111 "Customer - Top 10 List"](../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 112 "Sales Statistics"](../../objects/report/112.md) · via [Finance](business-functionality/finance.md)
+- [Report 113 "Customer/Item Sales"](../../objects/report/113.md) · via [Finance](business-functionality/finance.md)
+- [Report 114 "Salesperson - Sales Statistics"](../../objects/report/114.md) · via [Sales](business-functionality/sales.md)
+- [Report 115 "Salesperson - Commission"](../../objects/report/115.md) · via [Sales](business-functionality/sales.md)
+- [Report 117 "Reminder"](../../objects/report/117.md) · via [Finance](business-functionality/finance.md)
+- [Report 119 "Customer - Sales List"](../../objects/report/119.md) · via [Sales](business-functionality/sales.md)
+- [Report 120 "Aged Accounts Receivable"](../../objects/report/120.md) · captioned "Aged Accounts Receivable (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 121 "Customer - Balance to Date"](../../objects/report/121.md) · captioned "Customer Balance to Date" · via [Finance](business-functionality/finance.md)
+- [Report 129 "Customer - Trial Balance"](../../objects/report/129.md) · via [Finance](business-functionality/finance.md)
+- [Report 151 "Balance Sheet"](../../objects/report/151.md) · via [Finance](business-functionality/finance.md)
+- [Report 154 "Income Statement"](../../objects/report/154.md) · via [Finance](business-functionality/finance.md)
+- [Report 155 "Statement of Cashflows"](../../objects/report/155.md) · via [Finance](business-functionality/finance.md)
+- [Report 156 "Retained Earnings Statement"](../../objects/report/156.md) · via [Finance](business-functionality/finance.md)
+- [Report 209 "Sales Reservation Avail."](../../objects/report/209.md) · via [Sales](business-functionality/sales.md)
+- [Report 211 "Customer - Payment Receipt"](../../objects/report/211.md) · via [Finance](business-functionality/finance.md)
+- [Report 301 "Vendor - List"](../../objects/report/301.md) · captioned "Vendor List (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 304 "Vendor - Detail Trial Balance"](../../objects/report/304.md) · via [Finance](business-functionality/finance.md)
+- [Report 305 "Vendor - Summary Aging"](../../objects/report/305.md) · captioned "Vendor - Summary Aging (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 307 "Vendor - Order Summary"](../../objects/report/307.md) · via [Finance](business-functionality/finance.md)
+- [Report 308 "Vendor - Order Detail"](../../objects/report/308.md) · via [Finance](business-functionality/finance.md)
+- [Report 311 "Vendor - Top 10 List"](../../objects/report/311.md) · captioned "Vendor - Top 10 List (Obsolete)" · via [Purchasing](business-functionality/purchasing.md)
+- [Report 312 "Purchase Statistics"](../../objects/report/312.md) · via [Finance](business-functionality/finance.md)
+- [Report 313 "Vendor/Item Purchases"](../../objects/report/313.md) · via [Finance](business-functionality/finance.md)
+- [Report 317 "Vendor Pre-Payment Journal"](../../objects/report/317.md) · via [Finance](business-functionality/finance.md)
+- [Report 319 "Payments on Hold"](../../objects/report/319.md) · captioned "Payments on Hold (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 320 "Vendor Item Catalog"](../../objects/report/320.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 321 "Vendor - Balance to Date"](../../objects/report/321.md) · via [Finance](business-functionality/finance.md)
+- [Report 322 "Aged Accounts Payable"](../../objects/report/322.md) · captioned "Aged Accounts Payable (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 329 "Vendor - Trial Balance"](../../objects/report/329.md) · via [Finance](business-functionality/finance.md)
+- [Report 330 "Audit Trail"](../../objects/report/330.md) · via [Finance](business-functionality/finance.md)
+- [Report 409 "Purchase Reservation Avail."](../../objects/report/409.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 503 "Foreign Currency Balance"](../../objects/report/503.md) · via [Finance](business-functionality/finance.md)
+- [Report 512 "IC Transactions"](../../objects/report/512.md) · captioned "Intercompany Transactions" · via [Finance](business-functionality/finance.md)
+- [Report 704 "Inventory - Transaction Detail"](../../objects/report/704.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 705 "Inventory Availability"](../../objects/report/705.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 706 "Status"](../../objects/report/706.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 707 "Inventory - Availability Plan"](../../objects/report/707.md) · captioned "Inventory - Availability Plan (Obsolete)" · via [Purchasing](business-functionality/purchasing.md)
+- [Report 708 "Inventory Order Details"](../../objects/report/708.md) · via [Sales](business-functionality/sales.md)
+- [Report 709 "Inventory Purchase Orders"](../../objects/report/709.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 711 "Inventory - Top 10 List"](../../objects/report/711.md) · captioned "Inventory Top 10 List" · via [Inventory](business-functionality/inventory.md)
+- [Report 713 "Inventory - Customer Sales"](../../objects/report/713.md) · captioned "Inventory Customer Sales" · via [Sales](business-functionality/sales.md)
+- [Report 714 "Inventory - Vendor Purchases"](../../objects/report/714.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 716 "Inventory Cost and Price List"](../../objects/report/716.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 718 "Inventory - Sales Back Orders"](../../objects/report/718.md) · via [Sales](business-functionality/sales.md)
+- [Report 719 "Inv. Availability Plan"](../../objects/report/719.md) · captioned "Inventory - Availability Plan (Excel)" · via [Inventory](business-functionality/inventory.md)
+- [Report 720 "Item/Vendor Catalog"](../../objects/report/720.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 723 "Item - ABC Analysis"](../../objects/report/723.md) · captioned "Item - ABC Analysis (Excel)" · via [Inventory](business-functionality/inventory.md)
+- [Report 743 "VAT Reconciliation Report"](../../objects/report/743.md) · via [Finance](business-functionality/finance.md)
+- [Report 801 "Assembly BOMs"](../../objects/report/801.md) · captioned "BOMs" · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 809 "Where-Used List"](../../objects/report/809.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 810 "Assembly BOM - Raw Materials"](../../objects/report/810.md) · captioned "BOM - Raw Materials" · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 811 "Assembly BOM - Subassemblies"](../../objects/report/811.md) · captioned "BOM - Sub-Assemblies" · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 812 "Assembly BOM - End Items"](../../objects/report/812.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 813 "Inventory Picking List"](../../objects/report/813.md) · via [Sales](business-functionality/sales.md)
+- [Report 915 "Assemble to Order - Sales"](../../objects/report/915.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 1001 "Inventory Valuation"](../../objects/report/1001.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 1005 "Job Journal - Test"](../../objects/report/1005.md) · captioned "Project Journal - Test" · via [Project management](business-functionality/project-management.md)
+- [Report 1006 "Job - Planning Lines"](../../objects/report/1006.md) · captioned "Project - Planning Lines" · via [Project management](business-functionality/project-management.md)
+- [Report 1007 "Job - Transaction Detail"](../../objects/report/1007.md) · captioned "Project Task - Transaction Detail" · via [Project management](business-functionality/project-management.md)
+- [Report 1008 "Job Analysis"](../../objects/report/1008.md) · captioned "Project Analysis" · via [Project management](business-functionality/project-management.md)
+- [Report 1009 "Job Actual To Budget"](../../objects/report/1009.md) · captioned "Project Actual To Budget" · via [Project management](business-functionality/project-management.md)
+- [Report 1010 "Job WIP To G/L"](../../objects/report/1010.md) · captioned "Project WIP To G/L" · via [Project management](business-functionality/project-management.md)
+- [Report 1011 "Job Suggested Billing"](../../objects/report/1011.md) · captioned "Project Suggested Billing" · via [Project management](business-functionality/project-management.md)
+- [Report 1012 "Jobs per Customer"](../../objects/report/1012.md) · captioned "Projects per Customer" · via [Project management](business-functionality/project-management.md)
+- [Report 1013 "Items per Job"](../../objects/report/1013.md) · captioned "Items per Project" · via [Project management](business-functionality/project-management.md)
+- [Report 1014 "Jobs per Item"](../../objects/report/1014.md) · captioned "Projects per Item" · via [Project management](business-functionality/project-management.md)
+- [Report 1015 "Job Register"](../../objects/report/1015.md) · captioned "Project Register" · via [Project management](business-functionality/project-management.md)
+- [Report 1016 "Job Quote"](../../objects/report/1016.md) · captioned "Project Quote" · via [Project management](business-functionality/project-management.md)
+- [Report 1017 "Job Task Quote"](../../objects/report/1017.md) · captioned "Project Task Quote" · via [Project management](business-functionality/project-management.md)
+- [Report 1101 "Resource - List"](../../objects/report/1101.md) · via [Project management](business-functionality/project-management.md)
+- [Report 1103 "Resource Register"](../../objects/report/1103.md) · via [Project management](business-functionality/project-management.md)
+- [Report 1105 "Resource Statistics"](../../objects/report/1105.md) · via [Project management](business-functionality/project-management.md)
+- [Report 1106 "Resource Usage"](../../objects/report/1106.md) · captioned "Resource Utilization" · via [Project management](business-functionality/project-management.md)
+- [Report 1107 "Resource - Cost Breakdown"](../../objects/report/1107.md) · via [Project management](business-functionality/project-management.md)
+- [Report 1123 "Cost Acctg. Stmt. per Period"](../../objects/report/1123.md) · via [Finance](business-functionality/finance.md)
+- [Report 1125 "Cost Types Details"](../../objects/report/1125.md) · via [Finance](business-functionality/finance.md)
+- [Report 1126 "Cost Acctg. Statement"](../../objects/report/1126.md) · via [Finance](business-functionality/finance.md)
+- [Report 1127 "Cost Acctg. Analysis"](../../objects/report/1127.md) · via [Finance](business-functionality/finance.md)
+- [Report 1128 "Cost Acctg. Journal"](../../objects/report/1128.md) · via [Finance](business-functionality/finance.md)
+- [Report 1129 "Cost Allocations"](../../objects/report/1129.md) · via [Finance](business-functionality/finance.md)
+- [Report 1133 "Cost Acctg. Statement/Budget"](../../objects/report/1133.md) · via [Finance](business-functionality/finance.md)
+- [Report 1138 "Cost Acctg. Balance/Budget"](../../objects/report/1138.md) · via [Finance](business-functionality/finance.md)
+- [Report 1302 "Standard Sales - Pro Forma Inv"](../../objects/report/1302.md) · captioned "Pro Forma Invoice" · via [Sales](business-functionality/sales.md)
+- [Report 1303 "Standard Sales - Draft Invoice"](../../objects/report/1303.md) · captioned "Draft Invoice" · via [Sales](business-functionality/sales.md)
+- [Report 1304 "Standard Sales - Quote"](../../objects/report/1304.md) · captioned "Sales - Quote" · via [Sales](business-functionality/sales.md)
+- [Report 1305 "Standard Sales - Order Conf."](../../objects/report/1305.md) · captioned "Sales - Confirmation" · via [Sales](business-functionality/sales.md)
+- [Report 1306 "Standard Sales - Invoice"](../../objects/report/1306.md) · captioned "Sales - Invoice" · via [Sales](business-functionality/sales.md)
+- [Report 1307 "Standard Sales - Credit Memo"](../../objects/report/1307.md) · captioned "Sales - Credit Memo" · via [Sales](business-functionality/sales.md)
+- [Report 1308 "Standard Sales - Shipment"](../../objects/report/1308.md) · captioned "Sales - Shipment" · via [Sales](business-functionality/sales.md)
+- [Report 1309 "Standard Sales - Return Rcpt."](../../objects/report/1309.md) · captioned "Return Receipt" · via [Sales](business-functionality/sales.md)
+- [Report 1316 "Standard Statement"](../../objects/report/1316.md) · captioned "Customer Statement" · via [Finance](business-functionality/finance.md)
+- [Report 1322 "Standard Purchase - Order"](../../objects/report/1322.md) · captioned "Purchase - Order" · via [Purchasing](business-functionality/purchasing.md)
+- [Report 1404 "Bank Acc. - Detail Trial Bal."](../../objects/report/1404.md) · captioned "Bank Accounts - Detail Trial Balance" · via [Finance](business-functionality/finance.md)
+- [Report 1700 "Deferral Summary - G/L"](../../objects/report/1700.md) · via [Finance](business-functionality/finance.md)
+- [Report 1701 "Deferral Summary - Sales"](../../objects/report/1701.md) · via [Finance](business-functionality/finance.md)
+- [Report 1702 "Deferral Summary - Purchasing"](../../objects/report/1702.md) · via [Finance](business-functionality/finance.md)
+- [Report 2500 "Day Book VAT Entry"](../../objects/report/2500.md) · via [Finance](business-functionality/finance.md)
+- [Report 2501 "Day Book Cust. Ledger Entry"](../../objects/report/2501.md) · captioned "Day Book Customer Ledger Entry" · via [Finance](business-functionality/finance.md)
+- [Report 2502 "Day Book Vendor Ledger Entry"](../../objects/report/2502.md) · via [Finance](business-functionality/finance.md)
+- [Report 4402 "EXR Aged Accounts Rec Excel"](../../objects/report/4402.md) · captioned "Aged Accounts Receivable (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4403 "EXR Aged Acc Payable Excel"](../../objects/report/4403.md) · captioned "Aged Accounts Payable (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4404 "EXR Vendor Top List"](../../objects/report/4404.md) · captioned "Vendor - Top List (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4405 "EXR Trial Balance Excel"](../../objects/report/4405.md) · captioned "Trial Balance (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4406 "EXR Trial BalanceBudgetExcel"](../../objects/report/4406.md) · captioned "Trial Balance/Budget (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4409 "EXR Customer Top List"](../../objects/report/4409.md) · captioned "Customer - Top List (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4410 "EXR Consolidated Trial Balance"](../../objects/report/4410.md) · captioned "Consolidated Trial Balance (Excel)" · via [Finance](business-functionality/finance.md)
+- [Report 4411 "EXR Fixed Asset Details Excel"](../../objects/report/4411.md) · captioned "Fixed Asset Details (Excel)" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 4412 "EXR Fixed Asset Analysis Excel"](../../objects/report/4412.md) · captioned "Fixed Asset Analysis (Excel)" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 4413 "EXR Fixed Asset Projected"](../../objects/report/4413.md) · captioned "Fixed Asset Projected Value (Excel)" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5050 "Contact - List"](../../objects/report/5050.md) · captioned "Contact List" · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5051 "Contact - Company Summary"](../../objects/report/5051.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5053 "Contact - Person Summary"](../../objects/report/5053.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5055 "Contact - Cover Sheet"](../../objects/report/5055.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5056 "Contact - Labels"](../../objects/report/5056.md) · captioned "Contact Labels" · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5058 "Salesperson - Opportunities"](../../objects/report/5058.md) · captioned "Salesperson Opportunities" · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5060 "Campaign - Details"](../../objects/report/5060.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5061 "Opportunity - List"](../../objects/report/5061.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5062 "Sales Cycle - Analysis"](../../objects/report/5062.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5063 "Segment - Contacts"](../../objects/report/5063.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5064 "Segment - Cover Sheet"](../../objects/report/5064.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5065 "Segment - Labels"](../../objects/report/5065.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5066 "Questionnaire - Handouts"](../../objects/report/5066.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5067 "Questionnaire - Test"](../../objects/report/5067.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5068 "Opportunity - Details"](../../objects/report/5068.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5084 "Email Merge"](../../objects/report/5084.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5085 "Contact Cover Sheet"](../../objects/report/5085.md) · via [Relationship management](business-functionality/relationship-management.md)
+- [Report 5600 "Fixed Asset - Analysis"](../../objects/report/5600.md) · captioned "Fixed Asset Analysis (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 5601 "Fixed Asset - List"](../../objects/report/5601.md) · captioned "Fixed Asset List" · via [Finance](business-functionality/finance.md)
+- [Report 5602 "Fixed Asset Journal - Test"](../../objects/report/5602.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5603 "Fixed Asset Register"](../../objects/report/5603.md) · via [Finance](business-functionality/finance.md)
+- [Report 5604 "Fixed Asset - Details"](../../objects/report/5604.md) · captioned "Fixed Asset Details (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 5605 "Fixed Asset - Book Value 01"](../../objects/report/5605.md) · captioned "Fixed Asset Book Value 01" · via [Finance](business-functionality/finance.md)
+- [Report 5606 "Fixed Asset - Book Value 02"](../../objects/report/5606.md) · captioned "Fixed Asset Book Value 02" · via [Finance](business-functionality/finance.md)
+- [Report 5607 "Fixed Asset - Projected Value"](../../objects/report/5607.md) · captioned "Fixed Asset Projected Value (Obsolete)" · via [Finance](business-functionality/finance.md)
+- [Report 5608 "Fixed Asset - Acquisition List"](../../objects/report/5608.md) · captioned "Fixed Asset Acquisition List" · via [Finance](business-functionality/finance.md)
+- [Report 5610 "Fixed Asset - G/L Analysis"](../../objects/report/5610.md) · captioned "Fixed Asset G/L Analysis" · via [Finance](business-functionality/finance.md)
+- [Report 5611 "FA Posting Group - Net Change"](../../objects/report/5611.md) · via [Finance](business-functionality/finance.md)
+- [Report 5620 "Insurance - Analysis"](../../objects/report/5620.md) · captioned "Fixed Asset Insurance Analysis" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5621 "Insurance - List"](../../objects/report/5621.md) · captioned "Fixed Asset Insurance List" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5622 "Insurance Journal - Test"](../../objects/report/5622.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5623 "Insurance Register"](../../objects/report/5623.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5624 "Insurance - Coverage Details"](../../objects/report/5624.md) · captioned "Fixed Asset Insurance Coverage Details" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5625 "Insurance - Tot. Value Insured"](../../objects/report/5625.md) · captioned "Fixed Asset Total Value Insured" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5626 "Insurance - Uninsured FAs"](../../objects/report/5626.md) · captioned "Uninsured Fixed Assets" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5630 "Maintenance - Analysis"](../../objects/report/5630.md) · captioned "Fixed Asset Maintenance Analysis" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5634 "Maintenance - Details"](../../objects/report/5634.md) · captioned "Fixed Asset Maintenance Details" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5635 "Maintenance - Next Service"](../../objects/report/5635.md) · captioned "Fixed Asset Maintenance Next Service" · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5636 "Fixed Asset Document Nos."](../../objects/report/5636.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5692 "Calculate Depreciation"](../../objects/report/5692.md) · via [Fixed assets](business-functionality/fixed-assets.md)
+- [Report 5701 "Item Substitutions"](../../objects/report/5701.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 5802 "Inventory Valuation - WIP"](../../objects/report/5802.md) · captioned "Production Order - WIP" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 5806 "Item Charges - Specification"](../../objects/report/5806.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 5807 "Item Age Composition - Qty."](../../objects/report/5807.md) · captioned "Item Age Composition - Quantity (Obsolete)" · via [Inventory](business-functionality/inventory.md)
+- [Report 5808 "Item Age Composition - Value"](../../objects/report/5808.md) · captioned "Item Age Composition by Quantity and Value" · via [Inventory](business-functionality/inventory.md)
+- [Report 5809 "Item Expiration - Quantity"](../../objects/report/5809.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 5871 "Item - Able to Make (Timeline)"](../../objects/report/5871.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 5872 "BOM Cost Share Distribution"](../../objects/report/5872.md) · via [Assembly management](business-functionality/assembly-management.md)
+- [Report 5900 "Service Order"](../../objects/report/5900.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5901 "Service Item Line Labels"](../../objects/report/5901.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5902 "Service Quote"](../../objects/report/5902.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5904 "Service Tasks"](../../objects/report/5904.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5908 "Service Order - Response Time"](../../objects/report/5908.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5909 "Service Profit (Resp. Centers)"](../../objects/report/5909.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5910 "Service Profit (Serv. Orders)"](../../objects/report/5910.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5911 "Service - Invoice"](../../objects/report/5911.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5912 "Service - Credit Memo"](../../objects/report/5912.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5913 "Service - Shipment"](../../objects/report/5913.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5915 "Service Document - Test"](../../objects/report/5915.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5935 "Service Items"](../../objects/report/5935.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5936 "Service Item Worksheet"](../../objects/report/5936.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5937 "Service Items Out of Warranty"](../../objects/report/5937.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5938 "Service Profit (Service Items)"](../../objects/report/5938.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5939 "Service Item - Resource Usage"](../../objects/report/5939.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5955 "Dispatch Board"](../../objects/report/5955.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5956 "Service Load Level"](../../objects/report/5956.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5970 "Service Contract"](../../objects/report/5970.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5971 "Service Contract-Detail"](../../objects/report/5971.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5972 "Service Contract Quote"](../../objects/report/5972.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5973 "Service Contract Quote-Detail"](../../objects/report/5973.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5974 "Contract Quotes to Be Signed"](../../objects/report/5974.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5976 "Service Profit (Contracts)"](../../objects/report/5976.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5977 "Service Contract - Customer"](../../objects/report/5977.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5978 "Serv. Contract - Salesperson"](../../objects/report/5978.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5980 "Maintenance Visit - Planning"](../../objects/report/5980.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5981 "Contr. Gain/Loss - Resp. Ctr."](../../objects/report/5981.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5982 "Maintenance Performance"](../../objects/report/5982.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5983 "Contract Gain/Loss Entries"](../../objects/report/5983.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5984 "Contract Invoicing"](../../objects/report/5984.md) · captioned "Contract Invoicing - Test" · via [Service management](business-functionality/service-management.md)
+- [Report 5985 "Contract Price Update - Test"](../../objects/report/5985.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5987 "Expired Contract Lines - Test"](../../objects/report/5987.md) · via [Service management](business-functionality/service-management.md)
+- [Report 5988 "Contr. Serv. Orders - Test"](../../objects/report/5988.md) · via [Service management](business-functionality/service-management.md)
+- [Report 6080 "Serv. Pricing Profitability"](../../objects/report/6080.md) · captioned "Service Pricing Profitability" · via [Service management](business-functionality/service-management.md)
+- [Report 6102 "E-Doc Sample Purchase Invoice"](../../objects/report/6102.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Report 6210 "Emission By Category"](../../objects/report/6210.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Report 6211 "Emission Per Facility"](../../objects/report/6211.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Report 6212 "Total Emissions"](../../objects/report/6212.md) · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Report 6221 "Sust. Adjust Emissions"](../../objects/report/6221.md) · captioned "Adjust Emissions" · via [Sustainability management](business-functionality/sustainability-management.md)
+- [Report 6625 "Item GTIN Label"](../../objects/report/6625.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 6626 "Reference No Label"](../../objects/report/6626.md) · captioned "Reference No. Label" · via [Inventory](business-functionality/inventory.md)
+- [Report 6627 "SN Label"](../../objects/report/6627.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 6628 "Lot No Label"](../../objects/report/6628.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 6646 "Sales - Return Receipt"](../../objects/report/6646.md) · via [Sales](business-functionality/sales.md)
+- [Report 7150 "Item Dimensions - Detail"](../../objects/report/7150.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 7151 "Item Dimensions - Total"](../../objects/report/7151.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 7313 "Whse. Shipment Status"](../../objects/report/7313.md) · captioned "Warehouse Shipment Status" · via [Sales](business-functionality/sales.md)
+- [Report 7319 "Warehouse Bin List"](../../objects/report/7319.md) · via [Inventory](business-functionality/inventory.md)
+- [Report 7320 "Whse. Adjustment Bin"](../../objects/report/7320.md) · captioned "Warehouse Adjustment Bin" · via [Inventory](business-functionality/inventory.md)
+- [Report 99000753 "Quantity Explosion of BOM"](../../objects/report/99000753.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000754 "Rolled-up Cost Shares"](../../objects/report/99000754.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000755 "Single-level Cost Shares"](../../objects/report/99000755.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000756 "Detailed Calculation"](../../objects/report/99000756.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000757 "Where-Used (Top Level)"](../../objects/report/99000757.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000758 "Compare List"](../../objects/report/99000758.md) · captioned "Item BOM Compare List (Obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000759 "Work Center List"](../../objects/report/99000759.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000760 "Machine Center List"](../../objects/report/99000760.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000762 "Prod. Order - Job Card"](../../objects/report/99000762.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000763 "Prod. Order - List"](../../objects/report/99000763.md) · captioned "Production Order - List" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000764 "Prod. Order - Precalc. Time"](../../objects/report/99000764.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000767 "Prod. Order - Calculation"](../../objects/report/99000767.md) · captioned "Prod. Order - Calculation (Obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000768 "Prod. Order - Detailed Calc."](../../objects/report/99000768.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000769 "Output Item Label"](../../objects/report/99000769.md) · captioned "Production Output Item Label" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000780 "Capacity Task List"](../../objects/report/99000780.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000783 "Work Center Load"](../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000784 "Machine Center Load"](../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000786 "Machine Center Load/Bar"](../../objects/report/99000786.md) · captioned "Machine Center Load/Bar (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000787 "Routing Sheet"](../../objects/report/99000787.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000788 "Prod. Order - Shortage List"](../../objects/report/99000788.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000789 "Subcontractor - Dispatch List"](../../objects/report/99000789.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000791 "Production Order Statistics"](../../objects/report/99000791.md) · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99001048 "Planning Availability"](../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Inventory](business-functionality/inventory.md)
+
+Learn also names 431 objects with no object page: page/86, page/311, page/325, page/326, page/327, page/328, page/950, page/1805, page/1811, page/1826, page/2107, page/5261, page/5390, page/5540, page/7379, page/8451, page/9142, page/9245, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11206, page/11207, page/11208, page/11212, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11400, page/11402, page/11403, page/11405, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/12409, page/12410, page/12411, page/13640, page/13645, page/13646, page/13647, page/17101, page/26100, page/26101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/31077, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36601, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/9900083, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013, page/99000919, page/99001500, page/99001503, page/99001504, page/99001560, page/99001561, report/6086, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011, report/10007, report/10008, report/50585058, report/990000785, report/990003804.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

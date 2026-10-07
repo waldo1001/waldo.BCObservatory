@@ -54,8 +54,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Reports/InventoryValuationWIPCZA.Report.al",
+        "status": "modified",
+        "key": "report/31133",
+        "type": "report",
+        "id": 31133,
+        "name": "Inventory Valuation - WIP CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "report/31133-cz"
+      },
       {
         "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
         "status": "modified",
@@ -68,18 +79,13 @@
         "page": "report/5802"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Reports/InventoryValuationWIPCZA.Report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "inventory"
   ],
   "apps": [
+    "AdvancedLocalizationPack",
     "Base Application"
   ]
 }

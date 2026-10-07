@@ -73,41 +73,83 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/BankingDocumentsLocalization/app/Src/Codeunits/IssuePaymentOrderCZB.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31353",
+        "type": "codeunit",
+        "id": 31353,
+        "name": "Issue Payment Order CZB",
+        "app": "BankingDocumentsLocalization",
+        "cc": "cz",
+        "page": "codeunit/31353-cz"
       },
       {
         "path": "src/Apps/CZ/BankingDocumentsLocalization/app/Src/Pages/IssPaymentOrderCZB.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/31266",
+        "type": "page",
+        "id": 31266,
+        "name": "Iss. Payment Order CZB",
+        "app": "BankingDocumentsLocalization",
+        "cc": "cz",
+        "page": "page/31266-cz"
       },
       {
         "path": "src/Apps/CZ/BankingDocumentsLocalization/app/Src/Pages/IssPaymentOrdersCZB.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/31265",
+        "type": "page",
+        "id": 31265,
+        "name": "Iss. Payment Orders CZB",
+        "app": "BankingDocumentsLocalization",
+        "cc": "cz",
+        "page": "page/31265-cz"
       },
       {
         "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/CashDocumentPostCZP.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11729",
+        "type": "codeunit",
+        "id": 11729,
+        "name": "Cash Document-Post CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "codeunit/11729-cz"
       },
       {
         "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/PostedCashDocumentCZP.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/31165",
+        "type": "page",
+        "id": 31165,
+        "name": "Posted Cash Document CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31165-cz"
       },
       {
         "path": "src/Apps/CZ/CompensationLocalization/app/Src/Codeunits/CompensationPostCZC.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31269",
+        "type": "codeunit",
+        "id": 31269,
+        "name": "Compensation - Post CZC",
+        "app": "CompensationLocalization",
+        "cc": "cz",
+        "page": "codeunit/31269-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "BankingDocumentsLocalization",
+    "CashDeskLocalization",
+    "CompensationLocalization"
+  ]
 }

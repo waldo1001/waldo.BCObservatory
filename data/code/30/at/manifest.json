@@ -6,14 +6,18 @@
   "country": "at",
   "layer": "overlay",
   "branch": "main",
-  "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
   "build": "30.0.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "Onprem Permissions DACH",
+    "ExpenseAgent_AT",
+    "HybridBCLast_AT",
+    "IntrastatAT"
   ],
-  "files": 212,
+  "files": 220,
   "parse_errors": 0,
-  "added": 125,
+  "added": 132,
   "replaced": 47,
   "absent": [],
   "chain": [
@@ -21,20 +25,20 @@
     "dach",
     "at"
   ],
-  "extractor": "2",
+  "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 172,
+  "objects": 179,
   "by_type": {
-    "codeunit": 24,
+    "codeunit": 27,
     "enum": 2,
     "enumextension": 2,
     "page": 29,
-    "pageextension": 9,
-    "permissionset": 2,
-    "permissionsetextension": 2,
+    "pageextension": 10,
+    "permissionset": 3,
+    "permissionsetextension": 3,
     "report": 27,
     "table": 68,
-    "tableextension": 5,
+    "tableextension": 6,
     "xmlport": 2
   },
   "shards": [

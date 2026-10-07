@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,52 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly
     - https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments
     - https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals
-  objects: []
+  objects:
+    - object/page/39
+    - object/page/51
+    - object/page/101
+    - object/page/102
+    - object/page/182
+    - object/page/184
+    - object/page/185
+    - object/page/201
+    - object/page/207
+    - object/page/233
+    - object/page/250
+    - object/page/251
+    - object/page/253
+    - object/page/254
+    - object/page/255
+    - object/page/256
+    - object/page/261
+    - object/page/262
+    - object/page/283
+    - object/page/370
+    - object/page/404
+    - object/page/519
+    - object/page/624
+    - object/page/750
+    - object/page/751
+    - object/page/752
+    - object/page/753
+    - object/page/754
+    - object/page/755
+    - object/page/1190
+    - object/page/1191
+    - object/page/1200
+    - object/page/1205
+    - object/page/1206
+    - object/page/1209
+    - object/page/1227
+    - object/page/1228
+    - object/page/1229
+    - object/page/1231
+    - object/page/1232
+    - object/page/1233
+    - object/page/1234
+    - object/page/1290
+    - object/page/9308
+    - object/page/20353
   features: []
   topics:
     - topic/business-central/business-functionality/finance/manage-payables
@@ -122,7 +167,7 @@ parent: topic/business-central/business-functionality/finance/manage-payables
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 45
   video: 2
   blog: 0
   guideline: 0
@@ -248,6 +293,54 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 39, 51, 101, 102, 182, 184, 185, 201, 207, 233, 250, 251, 253, 254, 255, 256, 261, 262, 283, 370, 404, 519, 624, 750, 751, 752, 753, 754, 755, 1190, 1191, 1200, 1205, 1206, 1209, 1227, 1228, 1229, 1231, 1232, 1233, 1234, 1290, 9308, 10101, 10810, 10811, 11300, 11400, 11402, 11403, 11405, 12409, 12410, 12411, 20353, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 39 "General Journal"](../../../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../../../objects/table/38.md)
+- [Page 101 "General Journal Templates"](../../../../../objects/page/101.md) · on [Table 80 "Gen. Journal Template"](../../../../../objects/table/80.md)
+- [Page 102 "Item Journal Templates"](../../../../../objects/page/102.md) · on [Table 82 "Item Journal Template"](../../../../../objects/table/82.md)
+- [Page 182 "Posted General Journal"](../../../../../objects/page/182.md) · on [Table 181 "Posted Gen. Journal Line"](../../../../../objects/table/181.md)
+- [Page 184 "Copy Gen. Journal Parameters"](../../../../../objects/page/184.md) · on [Table 183 "Copy Gen. Journal Parameters"](../../../../../objects/table/183.md)
+- [Page 185 "Posted General Journal Batch"](../../../../../objects/page/185.md) · on [Table 182 "Posted Gen. Journal Batch"](../../../../../objects/table/182.md)
+- [Page 201 "Job Journal"](../../../../../objects/page/201.md) · captioned "Project Journals" · on [Table 210 "Job Journal Line"](../../../../../objects/table/210.md)
+- [Page 207 "Resource Journal"](../../../../../objects/page/207.md) · captioned "Resource Journals" · on [Table 207 "Res. Journal Line"](../../../../../objects/table/207.md)
+- [Page 233 "Apply Vendor Entries"](../../../../../objects/page/233.md) · on [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md)
+- [Page 250 "General Journal Template List"](../../../../../objects/page/250.md) · on [Table 80 "Gen. Journal Template"](../../../../../objects/table/80.md)
+- [Page 251 "General Journal Batches"](../../../../../objects/page/251.md) · on [Table 232 "Gen. Journal Batch"](../../../../../objects/table/232.md)
+- [Page 253 "Sales Journal"](../../../../../objects/page/253.md) · captioned "Sales Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 254 "Purchase Journal"](../../../../../objects/page/254.md) · captioned "Purchase Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 255 "Cash Receipt Journal"](../../../../../objects/page/255.md) · captioned "Cash Receipt Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 261 "Item Journal Template List"](../../../../../objects/page/261.md) · on [Table 82 "Item Journal Template"](../../../../../objects/table/82.md)
+- [Page 262 "Item Journal Batches"](../../../../../objects/page/262.md) · on [Table 233 "Item Journal Batch"](../../../../../objects/table/233.md)
+- [Page 283 "Recurring General Journal"](../../../../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 370 "Bank Account Card"](../../../../../objects/page/370.md) · on [Table 270 "Bank Account"](../../../../../objects/table/270.md)
+- [Page 404 "Check Preview"](../../../../../objects/page/404.md) · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 519 "Item Journal Lines"](../../../../../objects/page/519.md) · on [Table 83 "Item Journal Line"](../../../../../objects/table/83.md)
+- [Page 624 "Unapply Vendor Entries"](../../../../../objects/page/624.md) · on [Table 380 "Detailed Vendor Ledg. Entry"](../../../../../objects/table/380.md)
+- [Page 750 "Standard General Journals"](../../../../../objects/page/750.md) · on [Table 750 "Standard General Journal"](../../../../../objects/table/750.md)
+- [Page 751 "Standard General Journal"](../../../../../objects/page/751.md) · on [Table 750 "Standard General Journal"](../../../../../objects/table/750.md)
+- [Page 752 "Standard Gen. Journal Subform"](../../../../../objects/page/752.md) · captioned "Lines" · on [Table 751 "Standard General Journal Line"](../../../../../objects/table/751.md)
+- [Page 753 "Standard Item Journals"](../../../../../objects/page/753.md) · on [Table 752 "Standard Item Journal"](../../../../../objects/table/752.md)
+- [Page 754 "Standard Item Journal"](../../../../../objects/page/754.md) · on [Table 752 "Standard Item Journal"](../../../../../objects/table/752.md)
+- [Page 755 "Standard Item Journal Subform"](../../../../../objects/page/755.md) · captioned "Lines" · on [Table 753 "Standard Item Journal Line"](../../../../../objects/table/753.md)
+- [Page 1190 "Create Payment"](../../../../../objects/page/1190.md)
+- [Page 1191 "Create Employee Payment"](../../../../../objects/page/1191.md)
+- [Page 1200 "Bank Export/Import Setup"](../../../../../objects/page/1200.md) · on [Table 1200 "Bank Export/Import Setup"](../../../../../objects/table/1200.md)
+- [Page 1205 "Credit Transfer Registers"](../../../../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../../../../objects/table/1205.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../../../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../../../../objects/table/1206.md)
+- [Page 1209 "Credit Trans Re-export History"](../../../../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../../../../objects/table/1209.md)
+- [Page 1227 "Pmt. Export Line Definitions"](../../../../../objects/page/1227.md) · on [Table 1227 "Data Exch. Line Def"](../../../../../objects/table/1227.md)
+- [Page 1228 "Payment Journal Errors Part"](../../../../../objects/page/1228.md) · on [Table 1228 "Payment Jnl. Export Error Text"](../../../../../objects/table/1228.md)
+- [Page 1229 "Payment File Error Details"](../../../../../objects/page/1229.md) · on [Table 1228 "Payment Jnl. Export Error Text"](../../../../../objects/table/1228.md)
+- [Page 1231 "Positive Pay Entries"](../../../../../objects/page/1231.md) · on [Table 1231 "Positive Pay Entry"](../../../../../objects/table/1231.md)
+- [Page 1232 "Positive Pay Entry Details"](../../../../../objects/page/1232.md) · on [Table 1232 "Positive Pay Entry Detail"](../../../../../objects/table/1232.md)
+- [Page 1233 "Positive Pay Export"](../../../../../objects/page/1233.md) · on [Table 270 "Bank Account"](../../../../../objects/table/270.md)
+- [Page 1234 "Positive Pay Export Detail"](../../../../../objects/page/1234.md) · on [Table 272 "Check Ledger Entry"](../../../../../objects/table/272.md)
+- [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
+- [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md) · on [Table 38 "Purchase Header"](../../../../../objects/table/38.md)
+- [Page 20353 "Banking Apps"](../../../../../objects/page/20353.md) · on [Table 20350 "Connectivity App"](../../../../../objects/table/20350.md)
+
+Learn also names 17 objects with no object page: page/10101, page/10810, page/10811, page/11300, page/11400, page/11402, page/11403, page/11405, page/12409, page/12410, page/12411, page/2000000, page/2000001, page/2000003, page/2000020, page/2000021, page/2000022.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

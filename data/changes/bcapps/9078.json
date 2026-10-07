@@ -59,21 +59,37 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportDEUpgrade.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11034",
+        "type": "codeunit",
+        "id": 11034,
+        "name": "IntrastatReportDEUpgrade",
+        "app": "IntrastatDE",
+        "cc": "de",
+        "page": "codeunit/11034-de"
       },
       {
         "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportManagementDE.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11029",
+        "type": "codeunit",
+        "id": 11029,
+        "name": "IntrastatReportManagementDE",
+        "app": "IntrastatDE",
+        "cc": "de",
+        "page": "codeunit/11029-de"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "IntrastatDE"
+  ]
 }

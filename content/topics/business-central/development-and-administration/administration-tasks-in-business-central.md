@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -274,7 +274,100 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
     - https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages
     - https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/107
+    - object/page/119
+    - object/page/592
+    - object/page/593
+    - object/page/594
+    - object/page/595
+    - object/page/630
+    - object/page/671
+    - object/page/672
+    - object/page/673
+    - object/page/674
+    - object/page/710
+    - object/page/774
+    - object/page/810
+    - object/page/1366
+    - object/page/1367
+    - object/page/1368
+    - object/page/1369
+    - object/page/1565
+    - object/page/1752
+    - object/page/1801
+    - object/page/1803
+    - object/page/1978
+    - object/page/1990
+    - object/page/1992
+    - object/page/1993
+    - object/page/1994
+    - object/page/1995
+    - object/page/1997
+    - object/page/2610
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/3901
+    - object/page/3903
+    - object/page/5469
+    - object/page/6300
+    - object/page/6301
+    - object/page/6302
+    - object/page/8700
+    - object/page/8705
+    - object/page/8900
+    - object/page/8930
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/9035
+    - object/page/9040
+    - object/page/9061
+    - object/page/9062
+    - object/page/9069
+    - object/page/9171
+    - object/page/9200
+    - object/page/9202
+    - object/page/9204
+    - object/page/9234
+    - object/page/9235
+    - object/page/9511
+    - object/page/9521
+    - object/page/9800
+    - object/page/9802
+    - object/page/9807
+    - object/page/9808
+    - object/page/9816
+    - object/page/9818
+    - object/page/9855
+    - object/page/9862
+    - object/page/9865
+    - object/page/9868
+    - object/page/9869
+    - object/page/9871
+    - object/page/9872
+    - object/page/9873
+    - object/page/9874
+    - object/page/9875
+    - object/page/9877
+    - object/page/9878
+    - object/page/9883
   features: []
   topics:
     - topic/business-central/development-and-administration
@@ -299,7 +392,7 @@ children:
   - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
 coverage:
   learn: 34
-  code: 0
+  code: 93
   video: 0
   blog: 1
   guideline: 0
@@ -464,6 +557,102 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 107, 119, 592, 593, 594, 595, 630, 671, 672, 673, 674, 710, 774, 810, 1366, 1367, 1368, 1369, 1565, 1752, 1801, 1803, 1978, 1990, 1992, 1993, 1994, 1995, 1997, 2610, 2650, 2750, 2752, 2753, 2754, 3901, 3903, 5469, 6300, 6301, 6302, 8700, 8705, 8900, 8930, 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030, 9035, 9040, 9061, 9062, 9069, 9171, 9173, 9200, 9202, 9204, 9234, 9235, 9511, 9521, 9800, 9802, 9807, 9808, 9816, 9818, 9830, 9831, 9838, 9855, 9862, 9865, 9868, 9869, 9871, 9872, 9873, 9874, 9875, 9877, 9878, 9883.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 671 "Job Queue Category List"](../../../objects/page/671.md) · captioned "Job Queue Categories" · on [Table 471 "Job Queue Category"](../../../objects/table/471.md)
+- [Page 672 "Job Queue Entries"](../../../objects/page/672.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md)
+- [Page 673 "Job Queue Entry Card"](../../../objects/page/673.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md)
+- [Page 674 "Job Queue Log Entries"](../../../objects/page/674.md) · on [Table 474 "Job Queue Log Entry"](../../../objects/table/474.md)
+- [Page 810 "Web Services"](../../../objects/page/810.md) · on [Table 9900 "Web Service Aggregate"](../../../objects/table/9900.md)
+- [Page 1565 "Privacy Notices"](../../../objects/page/1565.md) · captioned "Privacy Notices Status"
+- [Page 1801 "Assisted Setup"](../../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md)
+- [Page 1803 "Assisted Company Setup Wizard"](../../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../../objects/table/8627.md)
+- [Page 1990 "Checklist Banner"](../../../objects/page/1990.md) · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
+- [Page 1992 "Checklist Administration"](../../../objects/page/1992.md) · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
+- [Page 1993 "Checklist"](../../../objects/page/1993.md) · captioned "Checklist Administration" · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
+- [Page 1994 "Checklist Item Roles"](../../../objects/page/1994.md) · on [Table 1992 "Checklist Item Role"](../../../objects/table/1992.md)
+- [Page 1995 "Checklist Item Users"](../../../objects/page/1995.md) · captioned "Checklist Users" · on [Table 1993 "Checklist Item User"](../../../objects/table/1993.md)
+- [Page 1997 "Checklist Resurfacing"](../../../objects/page/1997.md) · captioned "Show the checklist"
+- [Page 2610 "Feature Management"](../../../objects/page/2610.md)
+- [Page 2650 "Email Printer Settings"](../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../objects/table/2650.md)
+- [Page 2750 "Universal Printer Settings"](../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../objects/table/2751.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../../objects/page/2752.md) · captioned "Add Universal Print Printers"
+- [Page 2753 "Universal Print Shares List"](../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../objects/table/2752.md)
+- [Page 2754 "Universal Printer Tray List"](../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../objects/table/823.md)
+- [Page 5469 "API Setup"](../../../objects/page/5469.md) · on [Table 8620 "Config. Tmpl. Selection Rules"](../../../objects/table/8620.md)
+- [Page 8700 "Table Information"](../../../objects/page/8700.md)
+- [Page 8705 "Table Information Card"](../../../objects/page/8705.md) · captioned "Index Management"
+- [Page 8900 "Administrator Main Role Center"](../../../objects/page/8900.md) · captioned "Administrator Role Center"
+- [Page 9000 "Whse. WMS Role Center"](../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9020 "Small Business Owner RC"](../../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../objects/table/9054.md)
+- [Page 9202 "Advanced Settings"](../../../objects/page/9202.md)
+- [Page 9234 "Text Search Language Setup"](../../../objects/page/9234.md) · captioned "Text Search Language Optimizer"
+- [Page 9235 "Text Search Language Lookup"](../../../objects/page/9235.md) · captioned "Select Text Search Language"
+- [Page 9521 "Database Missing Indexes"](../../../objects/page/9521.md)
+- [Page 1 "Company Information"](../../../objects/page/1.md) · on [Table 79 "Company Information"](../../../objects/table/79.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 107 "Date Compr. Registers"](../../../objects/page/107.md) · on [Table 87 "Date Compr. Register"](../../../objects/table/87.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 119 "User Setup"](../../../objects/page/119.md) · on [Table 91 "User Setup"](../../../objects/table/91.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 592 "Change Log Setup"](../../../objects/page/592.md) · on [Table 402 "Change Log Setup"](../../../objects/table/402.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 593 "Change Log Setup (Table) List"](../../../objects/page/593.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 594 "Change Log Setup (Field) List"](../../../objects/page/594.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 595 "Change Log Entries"](../../../objects/page/595.md) · on [Table 405 "Change Log Entry"](../../../objects/table/405.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 630 "Data Archive List"](../../../objects/page/630.md) · on [Table 600 "Data Archive"](../../../objects/table/600.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 710 "Activity Log"](../../../objects/page/710.md) · on [Table 710 "Activity Log"](../../../objects/table/710.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 774 "User Details"](../../../objects/page/774.md) · captioned "Users" · on [Table 774 "User Details"](../../../objects/table/774.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 1366 "Field Monitoring Setup"](../../../objects/page/1366.md) · on [Table 1366 "Field Monitoring Setup"](../../../objects/table/1366.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 1367 "Monitored Field Log Entries"](../../../objects/page/1367.md) · on [Table 405 "Change Log Entry"](../../../objects/table/405.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 1368 "Monitor Field Setup Wizard"](../../../objects/page/1368.md) · captioned "Field Monitoring Assisted Setup Guide" · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 1369 "Monitored Fields Worksheet"](../../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../../objects/table/404.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 1752 "Data Classification Wizard"](../../../objects/page/1752.md) · captioned "Data Classification Assisted Setup Guide" · on [Table 1180 "Data Privacy Entities"](../../../objects/table/1180.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 1978 "MS 365 License Setup Wizard"](../../../objects/page/1978.md) · captioned "Set up access with Microsoft 365 licenses" · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 3901 "Retention Policy Setup Card"](../../../objects/page/3901.md) · captioned "Retention Policy" · on [Table 3901 "Retention Policy Setup"](../../../objects/table/3901.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 3903 "Retention Policy Setup List"](../../../objects/page/3903.md) · captioned "Retention Policies" · on [Table 3901 "Retention Policy Setup"](../../../objects/table/3901.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 6300 "Azure AD App Setup Wizard"](../../../objects/page/6300.md) · captioned "Set Up Microsoft Entra ID" · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 6301 "Azure AD App Setup Part"](../../../objects/page/6301.md) · captioned "<Microsoft Entra application Setup Part>" · on [Table 6300 "Azure AD App Setup"](../../../objects/table/6300.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 6302 "Azure AD Access Dialog"](../../../objects/page/6302.md) · captioned "Microsoft Entra service permissions" · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 8930 "Email View Policy List"](../../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../../objects/table/8930.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9035 "Data Administration"](../../../objects/page/9035.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 9040 "Data Administration Guide"](../../../objects/page/9040.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 9061 "Plan Configuration List"](../../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../../objects/table/9017.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9062 "User Security Activities"](../../../objects/page/9062.md) · on [Table 9062 "User Security Status"](../../../objects/table/9062.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9069 "Plan Configuration Card"](../../../objects/page/9069.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../../objects/table/9017.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9171 "Profile List"](../../../objects/page/9171.md) · captioned "Profiles (Roles)" · via [Manage user settings](administration-tasks-in-business-central/manage-user-settings.md)
+- [Page 9200 "Personalized Pages"](../../../objects/page/9200.md) · via [Manage user settings](administration-tasks-in-business-central/manage-user-settings.md)
+- [Page 9204 "User Settings"](../../../objects/page/9204.md) · captioned "My Settings" · on [Table 9172 "User Settings"](../../../objects/table/9172.md) · via [Manage user settings](administration-tasks-in-business-central/manage-user-settings.md)
+- [Page 9511 "Database Locks"](../../../objects/page/9511.md) · via [Control your data](administration-tasks-in-business-central/control-your-data.md)
+- [Page 9800 "Users"](../../../objects/page/9800.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9802 "Permission Sets"](../../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../../objects/table/9009.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9807 "User Card"](../../../objects/page/9807.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9808 "User Permission Sets"](../../../objects/page/9808.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9816 "Permission Set by User"](../../../objects/page/9816.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9818 "User Security Status List"](../../../objects/page/9818.md) · captioned "User Security Status" · on [Table 9062 "User Security Status"](../../../objects/table/9062.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9855 "Permission Set"](../../../objects/page/9855.md) · on [Table 9862 "PermissionSet Buffer"](../../../objects/table/9862.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9862 "Expanded Permissions"](../../../objects/page/9862.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9865 "Permission Lookup List"](../../../objects/page/9865.md) · on [Table 9865 "Permission Lookup Buffer"](../../../objects/table/9865.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9868 "Security Group Permission Sets"](../../../objects/page/9868.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9869 "Security Group Members"](../../../objects/page/9869.md) · on [Table 9021 "Security Group Member Buffer"](../../../objects/table/9021.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9871 "Security Groups"](../../../objects/page/9871.md) · on [Table 9022 "Security Group Buffer"](../../../objects/table/9022.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9872 "New Security Group"](../../../objects/page/9872.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9873 "Copy Security Group"](../../../objects/page/9873.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9874 "Permission Set By Sec. Group"](../../../objects/page/9874.md) · captioned "Permission Set by Security Group" · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9875 "Permission Set Assignments"](../../../objects/page/9875.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9877 "Security Group Lookup"](../../../objects/page/9877.md) · captioned "Available Security Groups" · on [Table 9022 "Security Group Buffer"](../../../objects/table/9022.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9878 "Permission Set Lookup List"](../../../objects/page/9878.md) · captioned "Permission Set Lookup" · on [Table 9862 "PermissionSet Buffer"](../../../objects/table/9862.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+- [Page 9883 "Permissions Overview"](../../../objects/page/9883.md) · via [Manage access to Business Central](administration-tasks-in-business-central/manage-access-to-business-central.md)
+
+Learn also names 4 objects with no object page: page/9173, page/9830, page/9831, page/9838.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

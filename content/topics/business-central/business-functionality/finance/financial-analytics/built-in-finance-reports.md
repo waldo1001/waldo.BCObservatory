@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,7 +383,102 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-317
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-313
     - https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel
-  objects: []
+  objects:
+    - object/page/347
+    - object/page/9027
+    - object/page/36992
+    - object/page/36993
+    - object/report/1
+    - object/report/3
+    - object/report/4
+    - object/report/5
+    - object/report/6
+    - object/report/7
+    - object/report/9
+    - object/report/10
+    - object/report/11
+    - object/report/12
+    - object/report/13
+    - object/report/16
+    - object/report/17
+    - object/report/18
+    - object/report/19
+    - object/report/20
+    - object/report/25
+    - object/report/27
+    - object/report/28
+    - object/report/30
+    - object/report/31
+    - object/report/32
+    - object/report/33
+    - object/report/36
+    - object/report/37
+    - object/report/38
+    - object/report/101
+    - object/report/104
+    - object/report/107
+    - object/report/108
+    - object/report/109
+    - object/report/111
+    - object/report/112
+    - object/report/113
+    - object/report/117
+    - object/report/120
+    - object/report/121
+    - object/report/129
+    - object/report/151
+    - object/report/154
+    - object/report/155
+    - object/report/156
+    - object/report/211
+    - object/report/301
+    - object/report/304
+    - object/report/305
+    - object/report/307
+    - object/report/308
+    - object/report/312
+    - object/report/313
+    - object/report/317
+    - object/report/319
+    - object/report/321
+    - object/report/322
+    - object/report/329
+    - object/report/330
+    - object/report/503
+    - object/report/512
+    - object/report/743
+    - object/report/1123
+    - object/report/1125
+    - object/report/1126
+    - object/report/1127
+    - object/report/1128
+    - object/report/1129
+    - object/report/1133
+    - object/report/1138
+    - object/report/1316
+    - object/report/1700
+    - object/report/1701
+    - object/report/1702
+    - object/report/2500
+    - object/report/2501
+    - object/report/2502
+    - object/report/4402
+    - object/report/4403
+    - object/report/4404
+    - object/report/4405
+    - object/report/4406
+    - object/report/4409
+    - object/report/4410
+    - object/report/5600
+    - object/report/5601
+    - object/report/5603
+    - object/report/5604
+    - object/report/5605
+    - object/report/5606
+    - object/report/5607
+    - object/report/5608
+    - object/report/5610
+    - object/report/5611
   features: []
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
@@ -415,7 +510,7 @@ parent: topic/business-central/business-functionality/finance/financial-analytic
 children: []
 coverage:
   learn: 83
-  code: 0
+  code: 95
   video: 3
   blog: 0
   guideline: 0
@@ -652,6 +747,104 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 25, 27, 28, 30, 31, 32, 33, 36, 37, 38, 101, 104, 107, 108, 109, 111, 112, 113, 117, 120, 121, 129, 151, 154, 155, 156, 211, 301, 304, 305, 307, 308, 312, 313, 317, 319, 321, 322, 329, 330, 347, 503, 512, 743, 1123, 1125, 1126, 1127, 1128, 1129, 1133, 1138, 1316, 1700, 1701, 1702, 2500, 2501, 2502, 4402, 4403, 4404, 4405, 4406, 4409, 4410, 5600, 5601, 5603, 5604, 5605, 5606, 5607, 5608, 5610, 5611, 9027, 10007, 10008, 36992, 36993.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 347 "Report Selection - Purchase"](../../../../../objects/page/347.md) · on [Table 77 "Report Selections"](../../../../../objects/table/77.md)
+- [Page 9027 "Accountant Role Center"](../../../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 36992 "Average Collection Period"](../../../../../objects/page/36992.md) · captioned "Average Collection Period (Power BI)"
+- [Page 36993 "Aged Receivables (Back Dating)"](../../../../../objects/page/36993.md) · captioned "Aged Receivables (Back Dating) (Power BI)"
+- [Report 1 "Chart of Accounts"](../../../../../objects/report/1.md)
+- [Report 3 "G/L Register"](../../../../../objects/report/3.md)
+- [Report 4 "Detail Trial Balance"](../../../../../objects/report/4.md)
+- [Report 5 "Receivables-Payables"](../../../../../objects/report/5.md)
+- [Report 6 "Trial Balance"](../../../../../objects/report/6.md) · captioned "Trial Balance (Obsolete)"
+- [Report 7 "Trial Balance/Previous Year"](../../../../../objects/report/7.md)
+- [Report 9 "Trial Balance/Budget"](../../../../../objects/report/9.md) · captioned "Trial Balance/Budget (Obsolete)"
+- [Report 10 "Closing Trial Balance"](../../../../../objects/report/10.md)
+- [Report 11 "G/L - VAT Reconciliation"](../../../../../objects/report/11.md)
+- [Report 12 "VAT Statement"](../../../../../objects/report/12.md)
+- [Report 13 "VAT Register"](../../../../../objects/report/13.md)
+- [Report 16 "G/L Consolidation Eliminations"](../../../../../objects/report/16.md)
+- [Report 17 "Consolidated Trial Balance"](../../../../../objects/report/17.md)
+- [Report 18 "Consolidated Trial Balance (4)"](../../../../../objects/report/18.md)
+- [Report 19 "VAT- VIES Declaration Tax Auth"](../../../../../objects/report/19.md)
+- [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md) · captioned "Calculate and Post VAT Settlement"
+- [Report 25 "Account Schedule"](../../../../../objects/report/25.md) · captioned "Run Financial Report"
+- [Report 27 "Dimensions - Total"](../../../../../objects/report/27.md)
+- [Report 28 "Dimensions - Detail"](../../../../../objects/report/28.md)
+- [Report 30 "Check Value Posting"](../../../../../objects/report/30.md) · captioned "Dimension Check Value Posting"
+- [Report 31 "VAT Exceptions"](../../../../../objects/report/31.md)
+- [Report 32 "VAT Registration No. Check"](../../../../../objects/report/32.md) · captioned "Batch VAT Registration No. Check"
+- [Report 33 "Reconcile Cust. and Vend. Accs"](../../../../../objects/report/33.md) · captioned "Reconcile Customer and Vendor Accounts"
+- [Report 36 "Fiscal Year Balance"](../../../../../objects/report/36.md)
+- [Report 37 "Balance Comp. - Prev. Year"](../../../../../objects/report/37.md)
+- [Report 38 "Trial Balance by Period"](../../../../../objects/report/38.md)
+- [Report 101 "Customer - List"](../../../../../objects/report/101.md) · captioned "Customer List"
+- [Report 104 "Customer - Detail Trial Bal."](../../../../../objects/report/104.md)
+- [Report 107 "Customer - Order Summary"](../../../../../objects/report/107.md)
+- [Report 108 "Customer - Order Detail"](../../../../../objects/report/108.md)
+- [Report 109 "Customer - Summary Aging Simp."](../../../../../objects/report/109.md)
+- [Report 111 "Customer - Top 10 List"](../../../../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)"
+- [Report 112 "Sales Statistics"](../../../../../objects/report/112.md)
+- [Report 113 "Customer/Item Sales"](../../../../../objects/report/113.md)
+- [Report 117 "Reminder"](../../../../../objects/report/117.md)
+- [Report 120 "Aged Accounts Receivable"](../../../../../objects/report/120.md) · captioned "Aged Accounts Receivable (Obsolete)"
+- [Report 121 "Customer - Balance to Date"](../../../../../objects/report/121.md) · captioned "Customer Balance to Date"
+- [Report 129 "Customer - Trial Balance"](../../../../../objects/report/129.md)
+- [Report 151 "Balance Sheet"](../../../../../objects/report/151.md)
+- [Report 154 "Income Statement"](../../../../../objects/report/154.md)
+- [Report 155 "Statement of Cashflows"](../../../../../objects/report/155.md)
+- [Report 156 "Retained Earnings Statement"](../../../../../objects/report/156.md)
+- [Report 211 "Customer - Payment Receipt"](../../../../../objects/report/211.md)
+- [Report 301 "Vendor - List"](../../../../../objects/report/301.md) · captioned "Vendor List (Obsolete)"
+- [Report 304 "Vendor - Detail Trial Balance"](../../../../../objects/report/304.md)
+- [Report 305 "Vendor - Summary Aging"](../../../../../objects/report/305.md) · captioned "Vendor - Summary Aging (Obsolete)"
+- [Report 307 "Vendor - Order Summary"](../../../../../objects/report/307.md)
+- [Report 308 "Vendor - Order Detail"](../../../../../objects/report/308.md)
+- [Report 312 "Purchase Statistics"](../../../../../objects/report/312.md)
+- [Report 313 "Vendor/Item Purchases"](../../../../../objects/report/313.md)
+- [Report 317 "Vendor Pre-Payment Journal"](../../../../../objects/report/317.md)
+- [Report 319 "Payments on Hold"](../../../../../objects/report/319.md) · captioned "Payments on Hold (Obsolete)"
+- [Report 321 "Vendor - Balance to Date"](../../../../../objects/report/321.md)
+- [Report 322 "Aged Accounts Payable"](../../../../../objects/report/322.md) · captioned "Aged Accounts Payable (Obsolete)"
+- [Report 329 "Vendor - Trial Balance"](../../../../../objects/report/329.md)
+- [Report 330 "Audit Trail"](../../../../../objects/report/330.md)
+- [Report 503 "Foreign Currency Balance"](../../../../../objects/report/503.md)
+- [Report 512 "IC Transactions"](../../../../../objects/report/512.md) · captioned "Intercompany Transactions"
+- [Report 743 "VAT Reconciliation Report"](../../../../../objects/report/743.md)
+- [Report 1123 "Cost Acctg. Stmt. per Period"](../../../../../objects/report/1123.md)
+- [Report 1125 "Cost Types Details"](../../../../../objects/report/1125.md)
+- [Report 1126 "Cost Acctg. Statement"](../../../../../objects/report/1126.md)
+- [Report 1127 "Cost Acctg. Analysis"](../../../../../objects/report/1127.md)
+- [Report 1128 "Cost Acctg. Journal"](../../../../../objects/report/1128.md)
+- [Report 1129 "Cost Allocations"](../../../../../objects/report/1129.md)
+- [Report 1133 "Cost Acctg. Statement/Budget"](../../../../../objects/report/1133.md)
+- [Report 1138 "Cost Acctg. Balance/Budget"](../../../../../objects/report/1138.md)
+- [Report 1316 "Standard Statement"](../../../../../objects/report/1316.md) · captioned "Customer Statement"
+- [Report 1700 "Deferral Summary - G/L"](../../../../../objects/report/1700.md)
+- [Report 1701 "Deferral Summary - Sales"](../../../../../objects/report/1701.md)
+- [Report 1702 "Deferral Summary - Purchasing"](../../../../../objects/report/1702.md)
+- [Report 2500 "Day Book VAT Entry"](../../../../../objects/report/2500.md)
+- [Report 2501 "Day Book Cust. Ledger Entry"](../../../../../objects/report/2501.md) · captioned "Day Book Customer Ledger Entry"
+- [Report 2502 "Day Book Vendor Ledger Entry"](../../../../../objects/report/2502.md)
+- [Report 4402 "EXR Aged Accounts Rec Excel"](../../../../../objects/report/4402.md) · captioned "Aged Accounts Receivable (Excel)"
+- [Report 4403 "EXR Aged Acc Payable Excel"](../../../../../objects/report/4403.md) · captioned "Aged Accounts Payable (Excel)"
+- [Report 4404 "EXR Vendor Top List"](../../../../../objects/report/4404.md) · captioned "Vendor - Top List (Excel)"
+- [Report 4405 "EXR Trial Balance Excel"](../../../../../objects/report/4405.md) · captioned "Trial Balance (Excel)"
+- [Report 4406 "EXR Trial BalanceBudgetExcel"](../../../../../objects/report/4406.md) · captioned "Trial Balance/Budget (Excel)"
+- [Report 4409 "EXR Customer Top List"](../../../../../objects/report/4409.md) · captioned "Customer - Top List (Excel)"
+- [Report 4410 "EXR Consolidated Trial Balance"](../../../../../objects/report/4410.md) · captioned "Consolidated Trial Balance (Excel)"
+- [Report 5600 "Fixed Asset - Analysis"](../../../../../objects/report/5600.md) · captioned "Fixed Asset Analysis (Obsolete)"
+- [Report 5601 "Fixed Asset - List"](../../../../../objects/report/5601.md) · captioned "Fixed Asset List"
+- [Report 5603 "Fixed Asset Register"](../../../../../objects/report/5603.md)
+- [Report 5604 "Fixed Asset - Details"](../../../../../objects/report/5604.md) · captioned "Fixed Asset Details (Obsolete)"
+- [Report 5605 "Fixed Asset - Book Value 01"](../../../../../objects/report/5605.md) · captioned "Fixed Asset Book Value 01"
+- [Report 5606 "Fixed Asset - Book Value 02"](../../../../../objects/report/5606.md) · captioned "Fixed Asset Book Value 02"
+- [Report 5607 "Fixed Asset - Projected Value"](../../../../../objects/report/5607.md) · captioned "Fixed Asset Projected Value (Obsolete)"
+- [Report 5608 "Fixed Asset - Acquisition List"](../../../../../objects/report/5608.md) · captioned "Fixed Asset Acquisition List"
+- [Report 5610 "Fixed Asset - G/L Analysis"](../../../../../objects/report/5610.md) · captioned "Fixed Asset G/L Analysis"
+- [Report 5611 "FA Posting Group - Net Change"](../../../../../objects/report/5611.md)
+
+Learn also names 2 objects with no object page: report/10007, report/10008.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

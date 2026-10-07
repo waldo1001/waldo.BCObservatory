@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:58.763Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -252,7 +252,12 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality
-  objects: []
+  objects:
+    - object/page/256
+    - object/page/279
+    - object/page/310
+    - object/page/1700
+    - object/page/1701
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -277,7 +282,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/belgium/general
 coverage:
   learn: 33
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -348,6 +353,14 @@ Start with General for basic setup such as posting period limits and journal tem
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256, 279, 310, 1700, 1701, 11300, 11301, 11303, 11306, 11307, 11308, 2000000, 2000001, 2000003, 2000005, 2000006, 2000020, 2000021, 2000022, 2000040, 2000041, 2000042, 2000043, 2000045.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md) · via [Banking & payments](belgium/banking-and-payments.md)
+- [Page 279 "Source Code Setup"](../../../../objects/page/279.md) · on [Table 242 "Source Code Setup"](../../../../objects/table/242.md) · via [General](belgium/general.md)
+- [Page 310 "Tariff Numbers"](../../../../objects/page/310.md) · on [Table 260 "Tariff Number"](../../../../objects/table/260.md) · via [VAT](belgium/vat.md)
+- [Page 1700 "Deferral Template Card"](../../../../objects/page/1700.md) · on [Table 1700 "Deferral Template"](../../../../objects/table/1700.md) · via [General](belgium/general.md)
+- [Page 1701 "Deferral Template List"](../../../../objects/page/1701.md) · captioned "Deferral Templates" · on [Table 1700 "Deferral Template"](../../../../objects/table/1700.md) · via [General](belgium/general.md)
+
+Learn also names 19 objects with no object page: page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

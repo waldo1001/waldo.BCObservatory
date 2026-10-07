@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:35.537Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,7 +132,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments
-  objects: []
+  objects:
+    - object/page/256
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/belgium
@@ -150,7 +151,7 @@ parent: topic/business-central/business-functionality/local-functionality/belgiu
 children: []
 coverage:
   learn: 14
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -219,6 +220,10 @@ For bank statements, start with the Belgian CODA overview, then import the CODA 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256, 11300, 11308, 2000000, 2000001, 2000003, 2000005, 2000006, 2000020, 2000021, 2000022, 2000040, 2000041, 2000042, 2000043, 2000045.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+
+Learn also names 15 objects with no object page: page/11300, page/11308, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

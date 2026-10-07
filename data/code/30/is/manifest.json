@@ -6,31 +6,48 @@
   "country": "is",
   "layer": "overlay",
   "branch": "main",
-  "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
   "build": "30.0.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "ISCore"
   ],
-  "files": 31,
+  "files": 79,
   "parse_errors": 0,
-  "added": 7,
+  "added": 55,
   "replaced": 6,
   "absent": [],
   "chain": [
     "w1",
     "is"
   ],
-  "extractor": "2",
+  "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 13,
+  "objects": 61,
   "by_type": {
-    "permissionset": 2,
-    "report": 3,
-    "table": 8
+    "codeunit": 5,
+    "enum": 2,
+    "enumextension": 1,
+    "page": 3,
+    "pageextension": 13,
+    "permissionset": 5,
+    "permissionsetextension": 6,
+    "report": 8,
+    "reportextension": 4,
+    "table": 11,
+    "tableextension": 3
   },
   "shards": [
+    "objects-codeunit-1.jsonl",
+    "objects-enum-1.jsonl",
+    "objects-enumextension-1.jsonl",
+    "objects-page-1.jsonl",
+    "objects-pageextension-1.jsonl",
     "objects-permissionset-1.jsonl",
+    "objects-permissionsetextension-1.jsonl",
     "objects-report-1.jsonl",
-    "objects-table-1.jsonl"
+    "objects-reportextension-1.jsonl",
+    "objects-table-1.jsonl",
+    "objects-tableextension-1.jsonl"
   ]
 }

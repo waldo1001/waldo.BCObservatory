@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:09.160Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,6 +159,8 @@ Start with the "Delivery Reminders [DE]" overview, then work through setup, vend
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5005270, 5005271, 5005272, 5005273, 5005274, 5005275, 5005276, 5005279, 5005280, 5005281, 5005282, 5005283.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 12 objects with no object page: page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

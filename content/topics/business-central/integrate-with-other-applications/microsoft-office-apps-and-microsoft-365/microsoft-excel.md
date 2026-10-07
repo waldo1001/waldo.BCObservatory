@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:23.617Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
     - https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
     - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-  objects: []
+  objects:
+    - object/page/1480
+    - object/page/9650
+    - object/page/9652
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
@@ -72,7 +75,7 @@ parent: topic/business-central/integrate-with-other-applications/microsoft-offic
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 3
   video: 3
   blog: 0
   guideline: 0
@@ -123,6 +126,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1480, 9650, 9652.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../../objects/table/1480.md)
+- [Page 9650 "Custom Report Layouts"](../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../objects/table/9651.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

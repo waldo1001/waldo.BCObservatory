@@ -5,13 +5,14 @@ title: Quality management
 summary: "Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking."
 tier: official
 language: en
+system: inventory
 review:
   state: reviewed
   by: opus
   at: "2026-10-07T02:26:12.303Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +52,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-warehouse
     - https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-simple
     - https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data
-  objects: []
+  objects:
+    - object/page/5194
+    - object/page/20400
+    - object/page/20402
+    - object/page/20404
+    - object/page/20408
+    - object/page/20416
   features: []
   topics:
     - topic/business-central/get-started/learn/contoso-coffee-demo-data
@@ -69,7 +76,7 @@ parent: topic/business-central/get-started/learn/contoso-coffee-demo-data
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 6
   video: 0
   blog: 0
   guideline: 0
@@ -88,7 +95,7 @@ narrative: generated
 
 > Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system inventory · narrative reviewed by Opus
 
 ## Overview
 
@@ -114,6 +121,13 @@ Start with the setup page, which explains how to install and generate the Contos
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5194, 20400, 20402, 20404, 20408, 20416.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../../../../objects/table/5161.md)
+- [Page 20400 "Qlty. Management Setup"](../../../../../objects/page/20400.md) · captioned "Quality Management Setup" · on [Table 20400 "Qlty. Management Setup"](../../../../../objects/table/20400.md)
+- [Page 20402 "Qlty. Inspection Template"](../../../../../objects/page/20402.md) · captioned "Quality Inspection Template" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../../../objects/table/20402.md)
+- [Page 20404 "Qlty. Inspection Template List"](../../../../../objects/page/20404.md) · captioned "Quality Inspection Templates" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../../../objects/table/20402.md)
+- [Page 20408 "Qlty. Inspection List"](../../../../../objects/page/20408.md) · captioned "Quality Inspections" · on [Table 20405 "Qlty. Inspection Header"](../../../../../objects/table/20405.md)
+- [Page 20416 "Qlty. Inspection Result List"](../../../../../objects/page/20416.md) · captioned "Quality Inspection Results" · on [Table 20411 "Qlty. Inspection Result"](../../../../../objects/table/20411.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

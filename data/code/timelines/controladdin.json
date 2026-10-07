@@ -1,5 +1,10 @@
 {
   "versions": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
     "28",
     "29",
     "30"
@@ -8,11 +13,15 @@
     "barcodescannerprovideraddin": {
       "name": "BarcodeScannerProviderAddIn",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -20,39 +29,59 @@
     "businesschart": {
       "name": "BusinessChart",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "camerabarcodescannerprovideraddin": {
       "name": "CameraBarcodeScannerProviderAddIn",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "customerexperiencesurvey": {
       "name": "CustomerExperienceSurvey",
       "versions": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24",
+        "27"
+      ],
       "obsoleted": [
         {
-          "version": "28",
+          "version": "27",
           "state": "Pending",
           "tag": "27.0"
         }
@@ -71,26 +100,229 @@
       "obsoleted": [],
       "removed": null
     },
+    "flowintegration": {
+      "name": "FlowIntegration",
+      "versions": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "introduced": "24",
+      "changed": [
+        "25",
+        "26"
+      ],
+      "obsoleted": [
+        {
+          "version": "25",
+          "state": "Pending",
+          "tag": "25.0"
+        }
+      ],
+      "removed": "28"
+    },
+    "microsoft.dynamics.nav.client.businesschart": {
+      "name": "Microsoft.Dynamics.Nav.Client.BusinessChart",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.flowintegration": {
+      "name": "Microsoft.Dynamics.Nav.Client.FlowIntegration",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.oauthintegration": {
+      "name": "Microsoft.Dynamics.Nav.Client.OAuthIntegration",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.pageready": {
+      "name": "Microsoft.Dynamics.Nav.Client.PageReady",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.powerbimanagement": {
+      "name": "Microsoft.Dynamics.Nav.Client.PowerBIManagement",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.rolecenterselector": {
+      "name": "Microsoft.Dynamics.Nav.Client.RoleCenterSelector",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.videoplayer": {
+      "name": "Microsoft.Dynamics.Nav.Client.VideoPlayer",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.webpageviewer": {
+      "name": "Microsoft.Dynamics.Nav.Client.WebPageViewer",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
+    "microsoft.dynamics.nav.client.welcomewizard": {
+      "name": "Microsoft.Dynamics.Nav.Client.WelcomeWizard",
+      "versions": [
+        "24",
+        "25",
+        "26"
+      ],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
+      "obsoleted": [
+        {
+          "version": "24",
+          "state": "Pending",
+          "tag": "24.0"
+        }
+      ],
+      "removed": "27"
+    },
     "oauthcontroladdin": {
       "name": "OAuthControlAddIn",
       "versions": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "oauthintegration": {
       "name": "OAuthIntegration",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -98,11 +330,15 @@
     "pageready": {
       "name": "PageReady",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -110,35 +346,53 @@
     "powerbimanagement": {
       "name": "PowerBIManagement",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "25",
+        "26",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "rolecenterselector": {
       "name": "RoleCenterSelector",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "satisfactionsurvey": {
       "name": "SatisfactionSurvey",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -146,12 +400,20 @@
     "satisfactionsurveyasync": {
       "name": "SatisfactionSurveyAsync",
       "versions": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24",
+        "28"
+      ],
       "obsoleted": [
         {
           "version": "28",
@@ -164,11 +426,15 @@
     "videoplayer": {
       "name": "VideoPlayer",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -176,23 +442,34 @@
     "waitspinner": {
       "name": "WaitSpinner",
       "versions": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "webpageviewer": {
       "name": "WebPageViewer",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -200,12 +477,18 @@
     "welcomewizard": {
       "name": "WelcomeWizard",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "26"
+      ],
       "obsoleted": [],
       "removed": null
     }

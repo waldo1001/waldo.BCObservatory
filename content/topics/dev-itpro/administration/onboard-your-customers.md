@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/recommend-apps
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-teaching-tips-tours
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/customer-signup
-  objects: []
+  objects:
+    - object/page/4750
+    - object/page/4751
   features: []
   topics:
     - topic/dev-itpro/administration
@@ -102,7 +104,7 @@ parent: topic/dev-itpro/administration
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 2
   video: 2
   blog: 0
   guideline: 0
@@ -157,6 +159,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4750, 4751.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4750 "Recommended Apps List"](../../../objects/page/4750.md) · captioned "Recommended Apps" · on [Table 4750 "Recommended Apps"](../../../objects/table/4750.md)
+- [Page 4751 "Recommended App Card"](../../../objects/page/4751.md) · on [Table 4750 "Recommended Apps"](../../../objects/table/4750.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

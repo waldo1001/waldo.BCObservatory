@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,68 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/76
+    - object/page/1070
+    - object/page/1071
+    - object/page/1073
+    - object/page/1074
+    - object/page/1151
+    - object/page/1152
+    - object/page/1153
+    - object/page/1154
+    - object/page/1155
+    - object/page/1165
+    - object/page/1166
+    - object/page/1167
+    - object/page/1439
+    - object/page/1830
+    - object/page/1850
+    - object/page/1851
+    - object/page/1853
+    - object/page/1911
+    - object/page/1912
+    - object/page/1913
+    - object/page/1914
+    - object/page/1915
+    - object/page/1916
+    - object/page/1918
+    - object/page/1919
+    - object/page/1950
+    - object/page/1951
+    - object/page/2026
+    - object/page/2027
+    - object/page/2029
+    - object/page/2500
+    - object/page/2514
+    - object/page/2515
+    - object/page/4021
+    - object/page/4031
+    - object/page/4700
+    - object/page/4701
+    - object/page/4703
+    - object/page/4704
+    - object/page/4705
+    - object/page/4706
+    - object/page/4707
+    - object/page/4708
+    - object/page/4709
+    - object/page/5010
+    - object/page/5022
+    - object/page/5023
+    - object/page/5024
+    - object/page/5800
+    - object/page/20100
+    - object/page/20101
+    - object/page/20102
+    - object/page/20105
+    - object/page/20106
+    - object/page/20107
+    - object/page/20109
+    - object/page/20350
+    - object/page/20353
+    - object/page/40027
   features: []
   topics:
     - topic/business-central/development-and-administration/customize-business-central
@@ -249,7 +310,7 @@ parent: topic/business-central/development-and-administration/customize-business
 children: []
 coverage:
   learn: 26
-  code: 0
+  code: 61
   video: 0
   blog: 2
   guideline: 0
@@ -440,6 +501,70 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30, 76, 1070, 1071, 1073, 1074, 1080, 1081, 1083, 1085, 1087, 1089, 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167, 1360, 1361, 1364, 1439, 1450, 1451, 1452, 1453, 1454, 1458, 1460, 1665, 1830, 1850, 1851, 1853, 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906, 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919, 1950, 1951, 2026, 2027, 2029, 2500, 2502, 2514, 2515, 4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097, 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 5010, 5022, 5023, 5024, 5800, 9142, 20100, 20101, 20102, 20105, 20106, 20107, 20109, 20350, 20353, 40027.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30 "Item Card"](../../../../objects/page/30.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 76 "Resource Card"](../../../../objects/page/76.md) · on [Table 156 "Resource"](../../../../objects/table/156.md)
+- [Page 1070 "MS - PayPal Standard Setup"](../../../../objects/page/1070.md) · captioned "PayPal Payments Standard Setup" · on [Table 1070 "MS - PayPal Standard Account"](../../../../objects/table/1070.md)
+- [Page 1071 "MS - PayPal Standard Template"](../../../../objects/page/1071.md) · captioned "PayPal Payments Standard Template" · on [Table 1071 "MS - PayPal Standard Template"](../../../../objects/table/1071.md)
+- [Page 1073 "MS - PayPal Standard Accounts"](../../../../objects/page/1073.md) · captioned "PayPal Payments Standard Accounts" · on [Table 1070 "MS - PayPal Standard Account"](../../../../objects/table/1070.md)
+- [Page 1074 "MS - PayPal Standard Settings"](../../../../objects/page/1074.md) · captioned "PayPal" · on [Table 1070 "MS - PayPal Standard Account"](../../../../objects/table/1070.md)
+- [Page 1151 "COHUB Role Center"](../../../../objects/page/1151.md) · captioned "Company Hub"
+- [Page 1152 "COHUB Company Summary"](../../../../objects/page/1152.md) · captioned "Summary" · on [Table 1156 "COHUB Group Company Summary"](../../../../objects/table/1156.md)
+- [Page 1153 "COHUB Company Short Summary"](../../../../objects/page/1153.md) · captioned "Company Hub" · on [Table 1156 "COHUB Group Company Summary"](../../../../objects/table/1156.md)
+- [Page 1154 "COHUB My User Tasks"](../../../../objects/page/1154.md) · captioned "My User Tasks" · on [Table 1154 "COHUB User Task"](../../../../objects/table/1154.md)
+- [Page 1155 "COHUB Group List"](../../../../objects/page/1155.md) · captioned "Groups" · on [Table 1155 "COHUB Group"](../../../../objects/table/1155.md)
+- [Page 1165 "COHUB Enviroment Card"](../../../../objects/page/1165.md) · captioned "Environment Link" · on [Table 1152 "COHUB Enviroment"](../../../../objects/table/1152.md)
+- [Page 1166 "COHUB Enviroment List"](../../../../objects/page/1166.md) · captioned "Environments" · on [Table 1152 "COHUB Enviroment"](../../../../objects/table/1152.md)
+- [Page 1167 "COHUB Companies Overview"](../../../../objects/page/1167.md) · captioned "Company Hub"
+- [Page 1439 "Headline Details"](../../../../objects/page/1439.md) · on [Table 1437 "Headline Details Per User"](../../../../objects/table/1437.md)
+- [Page 1830 "MS - QBO Data Migration"](../../../../objects/page/1830.md) · captioned "QuickBooks Online Migration Setup"
+- [Page 1850 "Sales Forecast"](../../../../objects/page/1850.md) · captioned "Forecast" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 1851 "Sales Forecast No Chart"](../../../../objects/page/1851.md) · captioned "Forecast" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 1853 "Sales Forecast Setup Card"](../../../../objects/page/1853.md) · captioned "Sales and Inventory Forecast Setup" · on [Table 1853 "MS - Sales Forecast Setup"](../../../../objects/table/1853.md)
+- [Page 1911 "MigrationQB AccountTable"](../../../../objects/page/1911.md) · captioned "Account Table" · on [Table 1911 "MigrationQB Account"](../../../../objects/table/1911.md)
+- [Page 1912 "MigrationQB CustomerTable"](../../../../objects/page/1912.md) · captioned "Customer Table" · on [Table 1912 "MigrationQB Customer"](../../../../objects/table/1912.md)
+- [Page 1913 "MigrationQB CustomerTrans"](../../../../objects/page/1913.md) · captioned "Customer Transactions" · on [Table 1913 "MigrationQB CustomerTrans"](../../../../objects/table/1913.md)
+- [Page 1914 "MigrationQB VendorTable"](../../../../objects/page/1914.md) · captioned "Vendor Table" · on [Table 1914 "MigrationQB Vendor"](../../../../objects/table/1914.md)
+- [Page 1915 "MigrationQB VendorTrans"](../../../../objects/page/1915.md) · captioned "Vendor Transactions" · on [Table 1915 "MigrationQB VendorTrans"](../../../../objects/table/1915.md)
+- [Page 1916 "MigrationQB ItemTable"](../../../../objects/page/1916.md) · captioned "Item Table" · on [Table 1916 "MigrationQB Item"](../../../../objects/table/1916.md)
+- [Page 1918 "MigrationQB Posting Accounts"](../../../../objects/page/1918.md) · captioned "Posting Accounts" · on [Table 1918 "MigrationQB Account Setup"](../../../../objects/table/1918.md)
+- [Page 1919 "MigrationQB Default Accounts"](../../../../objects/page/1919.md) · captioned "QuickBooks Migration Setup"
+- [Page 1950 "LP Machine Learning Setup"](../../../../objects/page/1950.md) · captioned "Late Payment Prediction Setup" · on [Table 1950 "LP Machine Learning Setup"](../../../../objects/table/1950.md)
+- [Page 1951 "LP Prediction FactBox"](../../../../objects/page/1951.md) · on [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md)
+- [Page 2026 "Image Analysis Tags"](../../../../objects/page/2026.md) · captioned "Image Analyzer Attributes" · on [Table 2028 "MS - Image Analyzer Tags"](../../../../objects/table/2028.md)
+- [Page 2027 "Image Analysis Blacklist"](../../../../objects/page/2027.md) · captioned "Image Analyzer Blocked Attributes" · on [Table 2029 "MS - Img. Analyzer Blacklist"](../../../../objects/table/2029.md)
+- [Page 2029 "Image Analyzer Wizard"](../../../../objects/page/2029.md) · captioned "Image Analyzer assisted setup guide"
+- [Page 2500 "Extension Management"](../../../../objects/page/2500.md)
+- [Page 2514 "Delete Orphaned Extension Data"](../../../../objects/page/2514.md)
+- [Page 2515 "AppSource Product List"](../../../../objects/page/2515.md) · captioned "Microsoft AppSource apps" · on [Table 2515 "AppSource Product"](../../../../objects/table/2515.md)
+- [Page 4021 "GP Migration Settings List"](../../../../objects/page/4021.md) · captioned "Select company settings for data migration" · on [Table 4044 "GP Company Migration Settings"](../../../../objects/table/4044.md)
+- [Page 4031 "Hybrid GP Errors Factbox"](../../../../objects/page/4031.md) · captioned "GP Synchronization Errors" · on [Table 4015 "GP Migration Errors"](../../../../objects/table/4015.md)
+- [Page 4700 "VAT Group Submission Lines"](../../../../objects/page/4700.md) · on [Table 4703 "VAT Group Submission Line"](../../../../objects/table/4703.md)
+- [Page 4701 "VAT Group Submissions"](../../../../objects/page/4701.md) · on [Table 4702 "VAT Group Submission Header"](../../../../objects/table/4702.md)
+- [Page 4703 "VAT Group Approved Member List"](../../../../objects/page/4703.md) · captioned "VAT Group Approved Members" · on [Table 4700 "VAT Group Approved Member"](../../../../objects/table/4700.md)
+- [Page 4704 "VAT Group Member Calculation"](../../../../objects/page/4704.md) · on [Table 4701 "VAT Group Calculation"](../../../../objects/table/4701.md)
+- [Page 4705 "VAT Group Setup Guide"](../../../../objects/page/4705.md) · captioned "VAT Group Management"
+- [Page 4706 "VAT Group Sub. Lines Subform"](../../../../objects/page/4706.md) · captioned "VAT Group Submission Lines" · on [Table 4703 "VAT Group Submission Line"](../../../../objects/table/4703.md)
+- [Page 4707 "VAT Group Submission"](../../../../objects/page/4707.md) · on [Table 4702 "VAT Group Submission Header"](../../../../objects/table/4702.md)
+- [Page 4708 "VAT Group Submission List"](../../../../objects/page/4708.md) · captioned "VAT Group Submissions" · on [Table 4702 "VAT Group Submission Header"](../../../../objects/table/4702.md)
+- [Page 4709 "VAT Reports Configuration Part"](../../../../objects/page/4709.md) · captioned "VAT Reports Configuration" · on [Table 746 "VAT Reports Configuration"](../../../../objects/table/746.md)
+- [Page 5010 "Service Declaration Setup"](../../../../objects/page/5010.md) · on [Table 5010 "Service Declaration Setup"](../../../../objects/table/5010.md)
+- [Page 5022 "Service Declarations"](../../../../objects/page/5022.md) · on [Table 5023 "Service Declaration Header"](../../../../objects/table/5023.md)
+- [Page 5023 "Service Declaration"](../../../../objects/page/5023.md) · on [Table 5023 "Service Declaration Header"](../../../../objects/table/5023.md)
+- [Page 5024 "Service Declaration Subform"](../../../../objects/page/5024.md) · captioned "Lines" · on [Table 5024 "Service Declaration Line"](../../../../objects/table/5024.md)
+- [Page 5800 "Item Charges"](../../../../objects/page/5800.md) · on [Table 5800 "Item Charge"](../../../../objects/table/5800.md)
+- [Page 20100 "AMC Bank Bank Name List"](../../../../objects/page/20100.md) · captioned "AMC Banking Bank Name List" · on [Table 20100 "AMC Bank Banks"](../../../../objects/table/20100.md)
+- [Page 20101 "AMC Banking Setup"](../../../../objects/page/20101.md) · on [Table 20101 "AMC Banking Setup"](../../../../objects/table/20101.md)
+- [Page 20102 "AMC Bank Pmt. Types"](../../../../objects/page/20102.md) · captioned "AMC Banking Payment Types" · on [Table 20102 "AMC Bank Pmt. Type"](../../../../objects/table/20102.md)
+- [Page 20105 "AMC Bank Assisted Setup"](../../../../objects/page/20105.md) · captioned "AMC Banking 365 Fundamentals Assisted Setup" · on [Table 20101 "AMC Banking Setup"](../../../../objects/table/20101.md)
+- [Page 20106 "AMC Bank Assist Bank Account"](../../../../objects/page/20106.md) · on [Table 777 "Online Bank Acc. Link"](../../../../objects/table/777.md)
+- [Page 20107 "AMC Bank Webcall Log"](../../../../objects/page/20107.md) · captioned "AMC Banking 365 Webservice Log" · on [Table 710 "Activity Log"](../../../../objects/table/710.md)
+- [Page 20109 "AMC Bank Signup to Service"](../../../../objects/page/20109.md) · captioned "AMC Banking Signup webservice" · on [Table 79 "Company Information"](../../../../objects/table/79.md)
+- [Page 20350 "Connectivity Apps"](../../../../objects/page/20350.md) · on [Table 20350 "Connectivity App"](../../../../objects/table/20350.md)
+- [Page 20353 "Banking Apps"](../../../../objects/page/20353.md) · on [Table 20350 "Connectivity App"](../../../../objects/table/20350.md)
+- [Page 40027 "Hybrid DA Approval"](../../../../objects/page/40027.md) · captioned "Delegated admin consent for cloud migration" · on [Table 40028 "Hybrid DA Approval"](../../../../objects/table/40028.md)
+
+Learn also names 57 objects with no object page: page/1080, page/1081, page/1083, page/1085, page/1087, page/1089, page/1360, page/1361, page/1364, page/1450, page/1451, page/1452, page/1453, page/1454, page/1458, page/1460, page/1665, page/1860, page/1861, page/1862, page/1863, page/1864, page/1867, page/1868, page/1869, page/1874, page/1882, page/1883, page/1884, page/1885, page/1886, page/1888, page/1890, page/1891, page/1892, page/1893, page/1894, page/1898, page/1899, page/1900, page/1901, page/1902, page/1903, page/1904, page/1905, page/1906, page/2502, page/4026, page/4090, page/4091, page/4092, page/4093, page/4094, page/4095, page/4096, page/4097, page/9142.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

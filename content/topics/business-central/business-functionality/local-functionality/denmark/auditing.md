@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.066Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa
-  objects: []
+  objects:
+    - object/page/5264
+    - object/page/5266
+    - object/page/5267
+    - object/page/5270
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/denmark
@@ -62,7 +66,7 @@ parent: topic/business-central/business-functionality/local-functionality/denmar
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -103,6 +107,11 @@ This section describes the Danish audit and reporting tools in Business Central.
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5264, 5266, 5267, 5270.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5264 "Audit File Export Setup"](../../../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../../../objects/table/5264.md)
+- [Page 5266 "Audit File Export Documents"](../../../../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../../../../objects/table/5265.md)
+- [Page 5267 "Audit File Export Doc. Card"](../../../../../objects/page/5267.md) · captioned "Audit File Export Document" · on [Table 5265 "Audit File Export Header"](../../../../../objects/table/5265.md)
+- [Page 5270 "Audit File Export Format Setup"](../../../../../objects/page/5270.md) · on [Table 5268 "Audit File Export Format Setup"](../../../../../objects/table/5268.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

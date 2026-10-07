@@ -6,14 +6,16 @@
   "country": "nz",
   "layer": "overlay",
   "branch": "main",
-  "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
   "build": "30.0.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "ExpenseAgent_NZ",
+    "HybridBCLast_NZ"
   ],
-  "files": 425,
+  "files": 426,
   "parse_errors": 0,
-  "added": 169,
+  "added": 170,
   "replaced": 109,
   "absent": [],
   "chain": [
@@ -21,11 +23,11 @@
     "apac",
     "nz"
   ],
-  "extractor": "2",
+  "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 278,
+  "objects": 279,
   "by_type": {
-    "codeunit": 47,
+    "codeunit": 48,
     "enum": 4,
     "page": 53,
     "pageextension": 2,

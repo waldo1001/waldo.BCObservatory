@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,7 +122,39 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog
     - https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
     - https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-  objects: []
+  objects:
+    - object/page/119
+    - object/page/8700
+    - object/page/8705
+    - object/page/8930
+    - object/page/9000
+    - object/page/9004
+    - object/page/9005
+    - object/page/9006
+    - object/page/9007
+    - object/page/9009
+    - object/page/9010
+    - object/page/9016
+    - object/page/9017
+    - object/page/9020
+    - object/page/9022
+    - object/page/9024
+    - object/page/9026
+    - object/page/9027
+    - object/page/9030
+    - object/page/9171
+    - object/page/9511
+    - object/page/9800
+    - object/page/9802
+    - object/page/9807
+    - object/page/9808
+    - object/page/9816
+    - object/page/9855
+    - object/page/9862
+    - object/page/9865
+    - object/page/9874
+    - object/page/9878
+    - object/page/9883
   features: []
   topics:
     - topic/dev-itpro/development/troubleshooting
@@ -141,7 +173,7 @@ children:
   - topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler
 coverage:
   learn: 13
-  code: 0
+  code: 32
   video: 0
   blog: 0
   guideline: 0
@@ -225,6 +257,41 @@ This section collects tools and pages that help developers, administrators, and 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 119, 8700, 8705, 8930, 9000, 9004, 9005, 9006, 9007, 9009, 9010, 9016, 9017, 9020, 9022, 9024, 9026, 9027, 9030, 9171, 9511, 9800, 9802, 9807, 9808, 9816, 9830, 9831, 9855, 9862, 9865, 9874, 9878, 9883.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 119 "User Setup"](../../../../objects/page/119.md) · on [Table 91 "User Setup"](../../../../objects/table/91.md)
+- [Page 8700 "Table Information"](../../../../objects/page/8700.md)
+- [Page 8705 "Table Information Card"](../../../../objects/page/8705.md) · captioned "Index Management"
+- [Page 8930 "Email View Policy List"](../../../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../../../objects/table/8930.md)
+- [Page 9000 "Whse. WMS Role Center"](../../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9004 "Bookkeeper Role Center"](../../../../objects/page/9004.md) · captioned "Bookkeeper"
+- [Page 9005 "Sales Manager Role Center"](../../../../objects/page/9005.md) · captioned "Sales Manager"
+- [Page 9006 "Order Processor Role Center"](../../../../objects/page/9006.md) · captioned "Sales Order Processor"
+- [Page 9007 "Purchasing Agent Role Center"](../../../../objects/page/9007.md) · captioned "Purchasing Agent"
+- [Page 9009 "Whse. Worker WMS Role Center"](../../../../objects/page/9009.md) · captioned "Warehouse Worker - Warehouse Management System"
+- [Page 9010 "Production Planner Role Center"](../../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9016 "Service Dispatcher Role Center"](../../../../objects/page/9016.md) · captioned "Service Manager"
+- [Page 9017 "Service Technician Role Center"](../../../../objects/page/9017.md) · captioned "Outbound Technician - Customer Service"
+- [Page 9020 "Small Business Owner RC"](../../../../objects/page/9020.md) · captioned "President - Small Business"
+- [Page 9022 "Business Manager Role Center"](../../../../objects/page/9022.md) · captioned "Business Manager"
+- [Page 9024 "Security Admin Role Center"](../../../../objects/page/9024.md) · captioned "Administration of users, security groups and permissions"
+- [Page 9026 "Sales & Relationship Mgr. RC"](../../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
+- [Page 9027 "Accountant Role Center"](../../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 9030 "Account Manager Activities"](../../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../../objects/table/9054.md)
+- [Page 9171 "Profile List"](../../../../objects/page/9171.md) · captioned "Profiles (Roles)"
+- [Page 9511 "Database Locks"](../../../../objects/page/9511.md)
+- [Page 9800 "Users"](../../../../objects/page/9800.md)
+- [Page 9802 "Permission Sets"](../../../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../../../objects/table/9009.md)
+- [Page 9807 "User Card"](../../../../objects/page/9807.md)
+- [Page 9808 "User Permission Sets"](../../../../objects/page/9808.md)
+- [Page 9816 "Permission Set by User"](../../../../objects/page/9816.md)
+- [Page 9855 "Permission Set"](../../../../objects/page/9855.md) · on [Table 9862 "PermissionSet Buffer"](../../../../objects/table/9862.md)
+- [Page 9862 "Expanded Permissions"](../../../../objects/page/9862.md)
+- [Page 9865 "Permission Lookup List"](../../../../objects/page/9865.md) · on [Table 9865 "Permission Lookup Buffer"](../../../../objects/table/9865.md)
+- [Page 9874 "Permission Set By Sec. Group"](../../../../objects/page/9874.md) · captioned "Permission Set by Security Group"
+- [Page 9878 "Permission Set Lookup List"](../../../../objects/page/9878.md) · captioned "Permission Set Lookup" · on [Table 9862 "PermissionSet Buffer"](../../../../objects/table/9862.md)
+- [Page 9883 "Permissions Overview"](../../../../objects/page/9883.md)
+
+Learn also names 2 objects with no object page: page/9830, page/9831.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

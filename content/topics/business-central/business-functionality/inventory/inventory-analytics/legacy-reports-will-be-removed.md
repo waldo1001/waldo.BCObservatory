@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.768Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,9 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-707
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5807
-  objects: []
+  objects:
+    - object/report/707
+    - object/report/5807
   features: []
   topics:
     - topic/business-central/business-functionality/inventory/inventory-analytics
@@ -54,7 +56,7 @@ parent: topic/business-central/business-functionality/inventory/inventory-analyt
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -97,6 +99,9 @@ Start here if you still use either report and need to know what it does. Both re
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 707, 5807.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 707 "Inventory - Availability Plan"](../../../../../objects/report/707.md) · captioned "Inventory - Availability Plan (Obsolete)"
+- [Report 5807 "Item Age Composition - Qty."](../../../../../objects/report/5807.md) · captioned "Item Age Composition - Quantity (Obsolete)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

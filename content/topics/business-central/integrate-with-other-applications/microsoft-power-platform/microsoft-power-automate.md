@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
     - https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot
     - https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow
-  objects: []
+  objects:
+    - object/page/1500
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
@@ -61,7 +62,7 @@ parent: topic/business-central/integrate-with-other-applications/microsoft-power
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -103,6 +104,8 @@ Start with the overview to understand the flow types, then read the usage page b
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1500.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1500 "Workflows"](../../../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../../../objects/table/1500.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

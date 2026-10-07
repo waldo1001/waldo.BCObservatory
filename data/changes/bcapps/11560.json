@@ -125,7 +125,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
       {
         "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
@@ -236,19 +236,23 @@
         "app": "PEPPOL",
         "cc": "w1",
         "page": "codeunit/37201"
-      }
-    ],
-    "unjoined": [
+      },
       {
         "path": "src/Apps/W1/PEPPOL/App/src/Purchases/ExportSelfBilledPEPPOL30.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/37230",
+        "type": "codeunit",
+        "id": 37230,
+        "name": "Export Self-Billed PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37230"
       }
-    ]
+    ],
+    "unjoined": []
   },
   "systems": [
     "integration",
-    "development",
     "purchasing"
   ],
   "apps": [

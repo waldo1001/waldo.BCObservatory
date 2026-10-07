@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,55 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-import-payroll-transactions
     - https://learn.microsoft.com/dynamics365/business-central/finance-troubleshooting-correcting-dimensions
     - https://learn.microsoft.com/dynamics365/business-central/finance-dimensions
-  objects: []
+  objects:
+    - object/page/116
+    - object/page/118
+    - object/page/408
+    - object/page/479
+    - object/page/480
+    - object/page/481
+    - object/page/484
+    - object/page/536
+    - object/page/537
+    - object/page/538
+    - object/page/539
+    - object/page/540
+    - object/page/541
+    - object/page/542
+    - object/page/543
+    - object/page/544
+    - object/page/545
+    - object/page/548
+    - object/page/560
+    - object/page/562
+    - object/page/564
+    - object/page/567
+    - object/page/568
+    - object/page/577
+    - object/page/578
+    - object/page/580
+    - object/page/699
+    - object/page/1343
+    - object/page/1660
+    - object/page/1661
+    - object/page/2580
+    - object/page/2581
+    - object/page/2582
+    - object/page/2583
+    - object/page/2584
+    - object/page/2585
+    - object/page/2586
+    - object/page/2587
+    - object/page/2588
+    - object/page/2590
+    - object/page/2591
+    - object/page/2592
+    - object/page/2593
+    - object/page/9083
+    - object/page/9233
+    - object/page/9251
+    - object/page/9252
+    - object/page/9253
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -72,7 +120,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 48
   video: 5
   blog: 2
   guideline: 0
@@ -178,6 +226,57 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 116, 118, 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 1660, 1661, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253, 36601.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 116 "G/L Registers"](../../../../objects/page/116.md) · on [Table 45 "G/L Register"](../../../../objects/table/45.md)
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
+- [Page 408 "G/L Balance by Dimension"](../../../../objects/page/408.md) · on [Table 361 "Analysis by Dim. Parameters"](../../../../objects/table/361.md)
+- [Page 479 "Dimension Set Entries"](../../../../objects/page/479.md) · on [Table 480 "Dimension Set Entry"](../../../../objects/table/480.md)
+- [Page 480 "Edit Dimension Set Entries"](../../../../objects/page/480.md) · on [Table 480 "Dimension Set Entry"](../../../../objects/table/480.md)
+- [Page 481 "Dimension Set ID Filter"](../../../../objects/page/481.md) · captioned "Dimension Filter" · on [Table 348 "Dimension"](../../../../objects/table/348.md)
+- [Page 484 "Edit Reclas. Dimensions"](../../../../objects/page/484.md) · on [Table 482 "Reclas. Dimension Set Buffer"](../../../../objects/table/482.md)
+- [Page 536 "Dimensions"](../../../../objects/page/536.md) · on [Table 348 "Dimension"](../../../../objects/table/348.md)
+- [Page 537 "Dimension Values"](../../../../objects/page/537.md) · on [Table 349 "Dimension Value"](../../../../objects/table/349.md)
+- [Page 538 "Dimension Combinations"](../../../../objects/page/538.md) · on [Table 348 "Dimension"](../../../../objects/table/348.md)
+- [Page 539 "Dimension Value Combinations"](../../../../objects/page/539.md) · on [Table 349 "Dimension Value"](../../../../objects/table/349.md)
+- [Page 540 "Default Dimensions"](../../../../objects/page/540.md) · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 541 "Account Type Default Dim."](../../../../objects/page/541.md) · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 542 "Default Dimensions-Multiple"](../../../../objects/page/542.md) · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 543 "Default Dimension Priorities"](../../../../objects/page/543.md) · on [Table 354 "Default Dimension Priority"](../../../../objects/table/354.md)
+- [Page 544 "Default Dimension Where-Used"](../../../../objects/page/544.md) · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 545 "Dim. Values per Account"](../../../../objects/page/545.md) · captioned "Dimension Values per Account" · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 548 "Dimension List"](../../../../objects/page/548.md) · on [Table 348 "Dimension"](../../../../objects/table/348.md)
+- [Page 560 "Dimension Value List"](../../../../objects/page/560.md) · on [Table 349 "Dimension Value"](../../../../objects/table/349.md)
+- [Page 562 "Dimension Selection-Multiple"](../../../../objects/page/562.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../../../objects/table/368.md)
+- [Page 564 "Dimension Selection-Level"](../../../../objects/page/564.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../../../objects/table/368.md)
+- [Page 567 "Dimension Selection-Change"](../../../../objects/page/567.md) · captioned "Dimension Selection" · on [Table 368 "Dimension Selection Buffer"](../../../../objects/table/368.md)
+- [Page 568 "Dimension Selection"](../../../../objects/page/568.md) · on [Table 368 "Dimension Selection Buffer"](../../../../objects/table/368.md)
+- [Page 577 "Change Global Dimensions"](../../../../objects/page/577.md) · on [Table 484 "Change Global Dim. Header"](../../../../objects/table/484.md)
+- [Page 578 "Change Global Dim. Log Entries"](../../../../objects/page/578.md) · captioned "Log Entries" · on [Table 483 "Change Global Dim. Log Entry"](../../../../objects/table/483.md)
+- [Page 580 "Dimension Translations"](../../../../objects/page/580.md) · on [Table 388 "Dimension Translation"](../../../../objects/table/388.md)
+- [Page 699 "Dimension Set Entries FactBox"](../../../../objects/page/699.md) · captioned "Dimensions" · on [Table 480 "Dimension Set Entry"](../../../../objects/table/480.md)
+- [Page 1343 "Dimensions Template List"](../../../../objects/page/1343.md) · captioned "Dimension Templates" · on [Table 1302 "Dimensions Template"](../../../../objects/table/1302.md)
+- [Page 1660 "Payroll Setup"](../../../../objects/page/1660.md) · on [Table 1660 "Payroll Setup"](../../../../objects/table/1660.md)
+- [Page 1661 "Payroll Import Transactions"](../../../../objects/page/1661.md) · captioned "Import Payroll Transactions" · on [Table 1661 "Import G/L Transaction"](../../../../objects/table/1661.md)
+- [Page 2580 "Dim Correction Blocked Setup"](../../../../objects/page/2580.md) · captioned "Dimensions Blocked for Correction" · on [Table 2580 "Dim Correction Blocked Setup"](../../../../objects/table/2580.md)
+- [Page 2581 "Dim Correction Changes Posted"](../../../../objects/page/2581.md) · on [Table 2581 "Dim Correction Change"](../../../../objects/table/2581.md)
+- [Page 2582 "Dim Correction Settings"](../../../../objects/page/2582.md) · captioned "Dimension Correction Settings"
+- [Page 2583 "Dim. Correct Ledger Entries"](../../../../objects/page/2583.md) · on [Table 17 "G/L Entry"](../../../../objects/table/17.md)
+- [Page 2584 "Dim Correct Posted Ledg Entr"](../../../../objects/page/2584.md) · on [Table 17 "G/L Entry"](../../../../objects/table/17.md)
+- [Page 2585 "Dim Correct Selection Criteria"](../../../../objects/page/2585.md) · captioned "Entry selection criteria" · on [Table 2585 "Dim Correct Selection Criteria"](../../../../objects/table/2585.md)
+- [Page 2586 "Dim Corr Find by Dimension"](../../../../objects/page/2586.md) · captioned "Find by Dimension" · on [Table 480 "Dimension Set Entry"](../../../../objects/table/480.md)
+- [Page 2587 "Dim Corr Values Overview"](../../../../objects/page/2587.md) · captioned "Dimension Values" · on [Table 349 "Dimension Value"](../../../../objects/table/349.md)
+- [Page 2588 "Dimension Correction"](../../../../objects/page/2588.md) · on [Table 2582 "Dimension Correction"](../../../../objects/table/2582.md)
+- [Page 2590 "Dimension Correction Changes"](../../../../objects/page/2590.md) · on [Table 2581 "Dim Correction Change"](../../../../objects/table/2581.md)
+- [Page 2591 "Dimension Correction Draft"](../../../../objects/page/2591.md) · captioned "Draft Dimension Correction" · on [Table 2582 "Dimension Correction"](../../../../objects/table/2582.md)
+- [Page 2592 "Dimension Corrections"](../../../../objects/page/2592.md) · on [Table 2582 "Dimension Correction"](../../../../objects/table/2582.md)
+- [Page 2593 "Dim Correction Schedule"](../../../../objects/page/2593.md) · captioned "Run Dimension Correction" · on [Table 472 "Job Queue Entry"](../../../../objects/table/472.md)
+- [Page 9083 "Dimensions FactBox"](../../../../objects/page/9083.md) · captioned "Dimensions" · on [Table 352 "Default Dimension"](../../../../objects/table/352.md)
+- [Page 9233 "G/L Balance by Dim. Matrix"](../../../../objects/page/9233.md) · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
+- [Page 9251 "Dimension Combinations Matrix"](../../../../objects/page/9251.md) · on [Table 348 "Dimension"](../../../../objects/table/348.md)
+- [Page 9252 "MyDim Value Combinations"](../../../../objects/page/9252.md) · captioned "Dimension Value Combinations"
+- [Page 9253 "Dim. Value Combinations Matrix"](../../../../objects/page/9253.md) · captioned "Dimension Value Combinations Matrix" · on [Table 349 "Dimension Value"](../../../../objects/table/349.md)
+
+Learn also names 1 object with no object page: page/36601.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: d59412e8a7b3368a4d3bd1bf7982106dd957b5ca96dd3bfcdc5c2df70d2b81a2
+  input_hash: 4c25f261dce5749c096f9f94d2e26e68e2672f65214261d53d2748cf39e36647
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-gb
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -671,6 +671,6 @@ Objects: [pageextension/10548 "VAT Statement"](../objects/pageextension/10548-gb
 
 ## Other versions
 
-- BC30: 104 objects differ from W1 (49 fields, 12 events added)
+- BC30: 318 objects differ from W1 (49 fields, 12 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

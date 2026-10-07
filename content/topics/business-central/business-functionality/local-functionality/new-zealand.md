@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:52.700Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -176,7 +176,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -201,7 +202,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/new-zealand/general
 coverage:
   learn: 22
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -264,6 +265,10 @@ Start with the overview page to find your area. For tax setup go to Tax. For ele
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 118, 11600, 11615, 28040, 28041, 28042, 28043, 28044, 28090, 28091, 28092, 28093, 28164, 28165, 28166, 28167.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md) · via [Tax](new-zealand/tax.md)
+
+Learn also names 15 objects with no object page: page/11600, page/11615, page/28040, page/28041, page/28042, page/28043, page/28044, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

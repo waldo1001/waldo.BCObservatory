@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:44.484Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,7 +296,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
-  objects: []
+  objects:
+    - object/page/8700
+    - object/page/8705
+    - object/page/9521
   features: []
   topics:
     - topic/dev-itpro/business-central-on-premises
@@ -324,7 +327,7 @@ children:
   - topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
 coverage:
   learn: 38
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -383,6 +386,10 @@ Integration pages cover the Excel add-in, Outlook add-ins, App Key Vaults and pr
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8700, 8705, 9521.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8700 "Table Information"](../../../objects/page/8700.md) · via [Configuring Business Central database](administration/configuring-business-central-database.md)
+- [Page 8705 "Table Information Card"](../../../objects/page/8705.md) · captioned "Index Management" · via [Configuring Business Central database](administration/configuring-business-central-database.md)
+- [Page 9521 "Database Missing Indexes"](../../../objects/page/9521.md) · via [Configuring Business Central database](administration/configuring-business-central-database.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,18 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/39
+    - object/page/256
+    - object/page/317
+    - object/page/320
+    - object/page/459
+    - object/page/460
+    - object/page/743
+    - object/page/5610
+    - object/page/5611
+    - object/page/5619
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -145,7 +156,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/united-kingdom/general
 coverage:
   learn: 14
-  code: 0
+  code: 11
   video: 0
   blog: 0
   guideline: 0
@@ -214,6 +225,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 39, 256, 317, 320, 459, 460, 743, 5610, 5611, 5619, 9142, 10530, 10531, 10532, 10537, 10538, 10539.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5610 "Depreciation Book Card"](../../../../objects/page/5610.md) · on [Table 5611 "Depreciation Book"](../../../../objects/table/5611.md)
+- [Page 5611 "Depreciation Book List"](../../../../objects/page/5611.md) · captioned "Depreciation Books" · on [Table 5611 "Depreciation Book"](../../../../objects/table/5611.md)
+- [Page 5619 "FA Depreciation Books"](../../../../objects/page/5619.md) · on [Table 5612 "FA Depreciation Book"](../../../../objects/table/5612.md)
+- [Page 1 "Company Information"](../../../../objects/page/1.md) · on [Table 79 "Company Information"](../../../../objects/table/79.md) · via [General](united-kingdom/general.md)
+- [Page 39 "General Journal"](../../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md) · via [VAT](united-kingdom/vat.md)
+- [Page 256 "Payment Journal"](../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../objects/table/81.md) · via [Banking and payments](united-kingdom/banking-and-payments.md)
+- [Page 317 "VAT Statement"](../../../../objects/page/317.md) · captioned "VAT Statements" · on [Table 256 "VAT Statement Line"](../../../../objects/table/256.md) · via [VAT](united-kingdom/vat.md)
+- [Page 320 "VAT Statement Names"](../../../../objects/page/320.md) · on [Table 257 "VAT Statement Name"](../../../../objects/table/257.md) · via [VAT](united-kingdom/vat.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../objects/table/311.md) · via [General](united-kingdom/general.md)
+- [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../../objects/table/312.md) · via [General](united-kingdom/general.md)
+- [Page 743 "VAT Report Setup"](../../../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../../../objects/table/743.md) · via [VAT](united-kingdom/vat.md)
+
+Learn also names 7 objects with no object page: page/9142, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

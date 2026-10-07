@@ -2,14 +2,14 @@
 id: object/interface/power-bi-service-provider
 type: object
 title: Interface "Power BI Service Provider"
-summary: Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Present since at least BC28, still in BC30, changed in BC29.
+summary: Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Introduced in BC25, still in BC30, changed in BC28, BC29.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: null
+  introduced: "25"
   last_changed: "29"
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c09526fde985c171be591d41d672470e4838fe2a4181b9013c1996cc67243bf8
+  input_hash: e2bea9c57cb7bb53a0b154df5d4886d2be064780f0a22af85ccd30679acbcb53
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -48,13 +48,17 @@ name: Power BI Service Provider
 namespace: System.Integration.PowerBI
 app: Base Application
 extends: null
-first_version: "28"
+first_version: "25"
 last_version: "30"
 present_in:
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
 changed_in:
+  - "28"
   - "29"
 source_major: "29"
 obsolete: null
@@ -75,9 +79,9 @@ relations:
 
 # Interface "Power BI Service Provider"
 
-> Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Present since at least BC28, still in BC30, changed in BC29.
+> Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Introduced in BC25, still in BC30, changed in BC28, BC29.
 
-Base Application · System.Integration.PowerBI · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -104,9 +108,16 @@ Base Application · System.Integration.PowerBI · BC28-30 · [source at 1d24dd5e
 - 2026-10-05 [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../changes/bcapps/12242.md) (releases/29.x, BC29, feature)
 - 2026-09-10 [#10348 Adding a Power BI workspace to Company Information to be used when deploying reports](../../changes/bcapps/10348.md) (main, BC30, feature)
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Power BI Service Provider")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Power BI Service Provider"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
-- Changed (declaration) in: BC29
+- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Changed (declaration) in: BC28, BC29
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

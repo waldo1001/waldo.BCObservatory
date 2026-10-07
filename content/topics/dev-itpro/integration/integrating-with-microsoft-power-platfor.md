@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.119Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -169,7 +169,12 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplatform-integration-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview
-  objects: []
+  objects:
+    - object/page/6316
+    - object/page/6317
+    - object/page/8350
+    - object/page/8351
+    - object/page/8359
   features: []
   topics:
     - topic/dev-itpro/integration
@@ -195,7 +200,7 @@ children:
   - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
 coverage:
   learn: 21
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -253,6 +258,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 6316, 6317, 8350, 8351, 8359.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Integrating with Microsoft Power BI](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Integrating with Microsoft Power BI](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md)
+- [Page 8350 "MCP Config List"](../../../objects/page/8350.md) · captioned "Model Context Protocol (MCP) Server Configurations" · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
+- [Page 8351 "MCP Config Card"](../../../objects/page/8351.md) · captioned "Model Context Protocol (MCP) Server Configuration" · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
+- [Page 8359 "MCP Config Warning List"](../../../objects/page/8359.md) · captioned "MCP Configuration Warnings" · on [Table 8352 "MCP Config Warning"](../../../objects/table/8352.md) · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

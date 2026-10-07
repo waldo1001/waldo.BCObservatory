@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:10.804Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,15 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals
-  objects: []
+  objects:
+    - object/page/315
+    - object/page/317
+    - object/page/471
+    - object/page/472
+    - object/page/473
+    - object/page/737
+    - object/page/738
+    - object/page/743
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/norway
@@ -94,7 +102,7 @@ parent: topic/business-central/business-functionality/local-functionality/norway
 children: []
 coverage:
   learn: 7
-  code: 0
+  code: 8
   video: 0
   blog: 0
   guideline: 0
@@ -171,6 +179,17 @@ Start with the VAT codes page if you are setting up VAT or using single-code jou
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 315, 317, 471, 472, 473, 737, 738, 743, 10601, 10602, 10604, 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 10692, 10696, 10697, 10698.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 315 "VAT Entries"](../../../../../objects/page/315.md) · on [Table 254 "VAT Entry"](../../../../../objects/table/254.md)
+- [Page 317 "VAT Statement"](../../../../../objects/page/317.md) · captioned "VAT Statements" · on [Table 256 "VAT Statement Line"](../../../../../objects/table/256.md)
+- [Page 471 "VAT Product Posting Groups"](../../../../../objects/page/471.md) · on [Table 324 "VAT Product Posting Group"](../../../../../objects/table/324.md)
+- [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
+- [Page 473 "VAT Posting Setup Card"](../../../../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
+- [Page 737 "VAT Return Period List"](../../../../../objects/page/737.md) · captioned "VAT Return Periods" · on [Table 737 "VAT Return Period"](../../../../../objects/table/737.md)
+- [Page 738 "VAT Return Period Card"](../../../../../objects/page/738.md) · captioned "VAT Return Period" · on [Table 737 "VAT Return Period"](../../../../../objects/table/737.md)
+- [Page 743 "VAT Report Setup"](../../../../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../../../../objects/table/743.md)
+
+Learn also names 24 objects with no object page: page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

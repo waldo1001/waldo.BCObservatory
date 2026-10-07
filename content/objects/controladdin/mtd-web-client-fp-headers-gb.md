@@ -2,7 +2,7 @@
 id: object/controladdin/mtd-web-client-fp-headers-gb
 type: object
 title: Control add-in "MTD Web Client FP Headers" (GB)
-summary: Control add-in "MTD Web Client FP Headers" (GB) in the GB country layer. 2 public procedures. Introduced in BC29, gone after BC29.
+summary: Control add-in "MTD Web Client FP Headers" (GB) in the GB country layer. 2 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a081ce25bcbb2742c04282a713074afe07ee88fc1ba0367d63bd5225a2f2625a
+  input_hash: 833b75c32c0d1b95cbee698afb1cd6f9cc90ec15f59d9e799c75afba6101d881
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al
     title: src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -47,9 +47,10 @@ namespace: null
 app: UKMakingTaxDigital
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -71,9 +72,9 @@ relations:
 
 # Control add-in "MTD Web Client FP Headers" (GB)
 
-> Control add-in "MTD Web Client FP Headers" (GB) in the GB country layer. 2 public procedures. Introduced in BC29, gone after BC29.
+> Control add-in "MTD Web Client FP Headers" (GB) in the GB country layer. 2 public procedures. Introduced in BC29, still in BC30.
 
-GB country layer · BC29 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al) · facts from BC29
+GB country layer · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al) · facts from BC29
 
 An object of the [GB localization](../../localizations/gb.md), not part of W1.
 
@@ -82,9 +83,18 @@ An object of the [GB localization](../../localizations/gb.md), not part of W1.
 - `Run(PublicIPServiceURL: Text)`
 - `TestExternalPublicIPService(PublicIPServiceURL: Text)`
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "controladdin", object_name: "MTD Web Client FP Headers")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node controladdin "MTD Web Client FP Headers"`
+
+A GB country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

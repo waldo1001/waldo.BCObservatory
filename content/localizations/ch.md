@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: c495179c6b61cbdb9afee2b67e2f42953372f477318b67cc1f0e29e40ff465ac
+  input_hash: 2325b9fd97fe166c77727b7ab66cbd8ae320fbd502a8df3d2771bf10876b1f04
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ch
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -784,6 +784,6 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 
 ## Other versions
 
-- BC30: 341 objects differ from W1 (196 fields, 10 events added)
+- BC30: 397 objects differ from W1 (196 fields, 10 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

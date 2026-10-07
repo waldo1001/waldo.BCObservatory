@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:22:09.914Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -35,7 +35,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition
     - https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
-  objects: []
+  objects:
+    - object/page/1808
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -52,7 +53,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -93,6 +94,8 @@ For other sources, the Excel page explains how to import data using Excel files 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1808.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1808 "Data Migration Wizard"](../../../../objects/page/1808.md) · captioned "Data Migration" · on [Table 1800 "Data Migrator Registration"](../../../../objects/table/1800.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

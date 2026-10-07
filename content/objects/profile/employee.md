@@ -2,14 +2,14 @@
 id: object/profile/employee
 type: object
 title: Profile "EMPLOYEE"
-summary: Profile "EMPLOYEE" in Base Application (Microsoft.HumanResources.RoleCenters). Present since at least BC28, still in BC30.
+summary: Profile "EMPLOYEE" in Base Application (Microsoft.HumanResources.RoleCenters). Introduced in BC25, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: null
+  introduced: "25"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ea275783fd836e051fc9ecf83be7fbfb7a60cbf00a78a1cd0b95fdc76a7bc6b7
+  input_hash: 6ef752c2a9f9345c74cdd10e226d87b62eeb7f3bb9d075e7f3edb6440cdadbd2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al
     title: src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -42,12 +42,16 @@ links:
 object_type: profile
 object_id: null
 name: EMPLOYEE
+caption: Employee
 namespace: Microsoft.HumanResources.RoleCenters
 app: Base Application
 extends: null
-first_version: "28"
+first_version: "25"
 last_version: "30"
 present_in:
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -71,9 +75,9 @@ relations:
 
 # Profile "EMPLOYEE"
 
-> Profile "EMPLOYEE" in Base Application (Microsoft.HumanResources.RoleCenters). Present since at least BC28, still in BC30.
+> Profile "EMPLOYEE" in Base Application (Microsoft.HumanResources.RoleCenters). Introduced in BC25, still in BC30.
 
-Base Application · Microsoft.HumanResources.RoleCenters · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al) · facts from BC29
+Base Application · Microsoft.HumanResources.RoleCenters · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -81,9 +85,16 @@ Base Application · Microsoft.HumanResources.RoleCenters · BC28-30 · [source a
 |---|---|
 | Caption | Employee |
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "profile", object_name: "EMPLOYEE")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node profile "EMPLOYEE"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

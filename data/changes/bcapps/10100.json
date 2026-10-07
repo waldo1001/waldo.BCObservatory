@@ -59,31 +59,59 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INReports/app/src/enum/GSTR1HSNGSTAmt.Query.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "query/18028",
+        "type": "query",
+        "id": 18028,
+        "name": "GSTR1HSNGSTAmt",
+        "app": "INReports",
+        "cc": "in",
+        "page": "query/18028-in"
       },
       {
         "path": "src/Apps/IN/INReports/app/src/enum/GSTR1HSNQty.Query.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "query/18029",
+        "type": "query",
+        "id": 18029,
+        "name": "GSTR1HSNQty",
+        "app": "INReports",
+        "cc": "in",
+        "page": "query/18029-in"
       },
       {
         "path": "src/Apps/IN/INReports/app/src/enum/GSTR1HSNQuery.Query.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "query/18030",
+        "type": "query",
+        "id": 18030,
+        "name": "GSTR1HSNQuery",
+        "app": "INReports",
+        "cc": "in",
+        "page": "query/18030-in"
       },
       {
         "path": "src/Apps/IN/INReports/app/src/report/GSTR1FileFormat.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/18049",
+        "type": "report",
+        "id": 18049,
+        "name": "GSTR-1 File Format",
+        "app": "INReports",
+        "cc": "in",
+        "page": "report/18049-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INReports"
+  ]
 }

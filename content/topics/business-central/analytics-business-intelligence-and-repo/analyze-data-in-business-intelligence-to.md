@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:40.443Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
     - https://learn.microsoft.com/dynamics365/business-central/admin-fabric
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
-  objects: []
+  objects:
+    - object/page/4010
+    - object/page/6316
+    - object/page/6317
   features: []
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
@@ -78,7 +81,7 @@ parent: topic/business-central/analytics-business-intelligence-and-repo
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 3
   video: 0
   blog: 2
   guideline: 0
@@ -131,6 +134,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4010, 6316, 6317.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4010 "Intelligent Cloud"](../../../objects/page/4010.md)
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)"
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

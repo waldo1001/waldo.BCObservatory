@@ -2,14 +2,14 @@
 id: object/interface/email-connector-v2
 type: object
 title: Interface "Email Connector v2"
-summary: Interface "Email Connector v2" in System Application (System.Email). 3 public procedures. Present since at least BC28, still in BC30. Obsolete (Pending since 26.0).
+summary: Interface "Email Connector v2" in System Application (System.Email). 3 public procedures. Introduced in BC25, still in BC30. Obsolete (Pending since 26.0).
 tier: official
 language: en
 tags:
   - interface
   - system application
 versions:
-  introduced: null
+  introduced: "25"
   last_changed: null
   deprecated: "26.0"
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 19eaa750097e7b352d2df1c2a757993879b155eb90b5c3be5662e74c3e287d67
+  input_hash: b34a88e40ce4af7b1bfc56e89892c44eee6dbd1151ab572b7c4feb4cb063f2c2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Email/src/Connector/EmailConnectorv2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Email/src/Connector/EmailConnectorv2.Interface.al
     title: src/System Application/App/Email/src/Connector/EmailConnectorv2.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,9 +45,12 @@ name: Email Connector v2
 namespace: System.Email
 app: System Application
 extends: null
-first_version: "28"
+first_version: "25"
 last_version: "30"
 present_in:
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -74,9 +77,9 @@ relations:
 
 # Interface "Email Connector v2"
 
-> Interface "Email Connector v2" in System Application (System.Email). 3 public procedures. Present since at least BC28, still in BC30. Obsolete (Pending since 26.0).
+> Interface "Email Connector v2" in System Application (System.Email). 3 public procedures. Introduced in BC25, still in BC30. Obsolete (Pending since 26.0).
 
-System Application · System.Email · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/Email/src/Connector/EmailConnectorv2.Interface.al) · facts from BC29
+System Application · System.Email · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/Email/src/Connector/EmailConnectorv2.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -92,9 +95,16 @@ System Application · System.Email · BC28-30 · [source at 1d24dd5e](https://gi
 - `RetrieveEmails(AccountId: Guid; var EmailInbox: Record "Email Inbox")`: Read e-mails from the provided account.
 - `MarkAsRead(AccountId: Guid; ExternalId: Text)`: Mark an e-mail as read in the provided account.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Email Connector v2")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Email Connector v2"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 - Obsolete: Pending since 26.0, "Replaced by "Email Connector v3" which adds filtering capability for retrieval of emails"
 

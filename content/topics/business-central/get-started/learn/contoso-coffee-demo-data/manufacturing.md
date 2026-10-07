@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.659Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
-  objects: []
+  objects:
+    - object/page/4765
   features: []
   topics:
     - topic/business-central/get-started/learn/contoso-coffee-demo-data
@@ -132,7 +133,7 @@ parent: topic/business-central/get-started/learn/contoso-coffee-demo-data
 children: []
 coverage:
   learn: 11
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -193,6 +194,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4765.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4765 "Manufacturing Module Setup"](../../../../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../../../../objects/table/4766.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

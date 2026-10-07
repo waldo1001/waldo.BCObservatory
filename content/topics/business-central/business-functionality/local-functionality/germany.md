@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:19.698Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -337,6 +337,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11016, 11017, 11019, 11025, 11026, 11027, 11028, 26100, 26101, 5005270, 5005271, 5005272, 5005273, 5005274, 5005275, 5005276, 5005279, 5005280, 5005281, 5005282, 5005283.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 28 objects with no object page: page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11025, page/11026, page/11027, page/11028, page/26100, page/26101, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

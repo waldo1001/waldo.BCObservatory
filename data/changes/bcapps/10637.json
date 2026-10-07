@@ -343,8 +343,118 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6914",
+        "type": "codeunit",
+        "id": 6914,
+        "name": "Expense Event Subscriber AT",
+        "app": "ExpenseAgent_AT",
+        "cc": "at",
+        "page": "codeunit/6914-at"
+      },
+      {
+        "path": "src/Apps/AU/ExpenseAgent_AU/app/src/ExpenseEventSubscriberAU.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6915",
+        "type": "codeunit",
+        "id": 6915,
+        "name": "Expense Event Subscriber AU",
+        "app": "ExpenseAgent_AU",
+        "cc": "au",
+        "page": "codeunit/6915-au"
+      },
+      {
+        "path": "src/Apps/CA/ExpenseAgent_CA/app/src/ExpenseEventSubscriberCA.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6916",
+        "type": "codeunit",
+        "id": 6916,
+        "name": "Expense Event Subscriber CA",
+        "app": "ExpenseAgent_CA",
+        "cc": "ca",
+        "page": "codeunit/6916-ca"
+      },
+      {
+        "path": "src/Apps/DE/ExpenseAgent_DE/app/src/ExpenseEventSubscriberDE.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6917",
+        "type": "codeunit",
+        "id": 6917,
+        "name": "Expense Event Subscriber DE",
+        "app": "ExpenseAgent_DE",
+        "cc": "de",
+        "page": "codeunit/6917-de"
+      },
+      {
+        "path": "src/Apps/DK/ExpenseAgent_DK/app/src/ExpenseEventSubscriberDK.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6918",
+        "type": "codeunit",
+        "id": 6918,
+        "name": "Expense Event Subscriber DK",
+        "app": "ExpenseAgent_DK",
+        "cc": "dk",
+        "page": "codeunit/6918-dk"
+      },
+      {
+        "path": "src/Apps/ES/ExpenseAgent_ES/app/src/ExpenseEventSubscriberES.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6919",
+        "type": "codeunit",
+        "id": 6919,
+        "name": "Expense Event Subscriber ES",
+        "app": "ExpenseAgent_ES",
+        "cc": "es",
+        "page": "codeunit/6919-es"
+      },
+      {
+        "path": "src/Apps/FR/ExpenseAgent_FR/app/src/ExpenseEventSubscriberFR.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6920",
+        "type": "codeunit",
+        "id": 6920,
+        "name": "Expense Event Subscriber FR",
+        "app": "ExpenseAgent_FR",
+        "cc": "fr",
+        "page": "codeunit/6920-fr"
+      },
+      {
+        "path": "src/Apps/GB/ExpenseAgent_GB/app/src/ExpenseEventSubscriberGB.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6921",
+        "type": "codeunit",
+        "id": 6921,
+        "name": "Expense Event Subscriber GB",
+        "app": "ExpenseAgent_GB",
+        "cc": "gb",
+        "page": "codeunit/6921-gb"
+      },
+      {
+        "path": "src/Apps/NZ/ExpenseAgent_NZ/app/src/ExpenseEventSubscriberNZ.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6977",
+        "type": "codeunit",
+        "id": 6977,
+        "name": "Expense Event Subscriber NZ",
+        "app": "ExpenseAgent_NZ",
+        "cc": "nz",
+        "page": "codeunit/6977-nz"
+      },
+      {
+        "path": "src/Apps/US/ExpenseAgent_US/app/src/ExpenseEventSubscriberUS.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6913",
+        "type": "codeunit",
+        "id": 6913,
+        "name": "Expense Event Subscriber US",
+        "app": "ExpenseAgent_US",
+        "cc": "us",
+        "page": "codeunit/6913-us"
+      },
       {
         "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
         "status": "modified",
@@ -379,63 +489,22 @@
         "page": "codeunit/6971"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/AU/ExpenseAgent_AU/app/src/ExpenseEventSubscriberAU.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CA/ExpenseAgent_CA/app/src/ExpenseEventSubscriberCA.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/ExpenseAgent_DE/app/src/ExpenseEventSubscriberDE.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/ExpenseAgent_DK/app/src/ExpenseEventSubscriberDK.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/ES/ExpenseAgent_ES/app/src/ExpenseEventSubscriberES.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FR/ExpenseAgent_FR/app/src/ExpenseEventSubscriberFR.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/ExpenseAgent_GB/app/src/ExpenseEventSubscriberGB.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/NZ/ExpenseAgent_NZ/app/src/ExpenseEventSubscriberNZ.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/US/ExpenseAgent_US/app/src/ExpenseEventSubscriberUS.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
-    "development"
+    "copilot"
   ],
   "apps": [
-    "ExpenseAgent"
+    "ExpenseAgent",
+    "ExpenseAgent_AT",
+    "ExpenseAgent_AU",
+    "ExpenseAgent_CA",
+    "ExpenseAgent_DE",
+    "ExpenseAgent_DK",
+    "ExpenseAgent_ES",
+    "ExpenseAgent_FR",
+    "ExpenseAgent_GB",
+    "ExpenseAgent_NZ",
+    "ExpenseAgent_US"
   ]
 }

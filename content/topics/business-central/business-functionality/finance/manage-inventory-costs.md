@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,20 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries
     - https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs
     - https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges
-  objects: []
+  objects:
+    - object/page/40
+    - object/page/461
+    - object/page/506
+    - object/page/521
+    - object/page/5709
+    - object/page/5800
+    - object/page/5805
+    - object/page/5814
+    - object/page/5828
+    - object/page/5841
+    - object/page/8645
+    - object/page/9125
+    - object/page/9297
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -157,7 +170,7 @@ children:
   - topic/business-central/business-functionality/finance/manage-inventory-costs/report-inventory-costs-and-reconcile-wit
 coverage:
   learn: 14
-  code: 0
+  code: 13
   video: 3
   blog: 2
   guideline: 0
@@ -237,6 +250,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 40, 461, 506, 521, 5709, 5800, 5805, 5814, 5828, 5841, 8645, 9125, 9297.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 40 "Item Journal"](../../../../objects/page/40.md) · captioned "Item Journals" · on [Table 83 "Item Journal Line"](../../../../objects/table/83.md)
+- [Page 506 "Item Application Entries"](../../../../objects/page/506.md) · on [Table 339 "Item Application Entry"](../../../../objects/table/339.md)
+- [Page 521 "Application Worksheet"](../../../../objects/page/521.md) · on [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md)
+- [Page 5709 "Get Receipt Lines"](../../../../objects/page/5709.md) · on [Table 121 "Purch. Rcpt. Line"](../../../../objects/table/121.md)
+- [Page 5800 "Item Charges"](../../../../objects/page/5800.md) · on [Table 5800 "Item Charge"](../../../../objects/table/5800.md)
+- [Page 5805 "Item Charge Assignment (Purch)"](../../../../objects/page/5805.md) · on [Table 5805 "Item Charge Assignment (Purch)"](../../../../objects/table/5805.md)
+- [Page 5814 "Item Charge Assignment (Sales)"](../../../../objects/page/5814.md) · on [Table 5809 "Item Charge Assignment (Sales)"](../../../../objects/table/5809.md)
+- [Page 5841 "Standard Cost Worksheet"](../../../../objects/page/5841.md) · on [Table 5841 "Standard Cost Worksheet"](../../../../objects/table/5841.md)
+- [Page 8645 "Costing Method Configuration"](../../../../objects/page/8645.md) · on [Table 313 "Inventory Setup"](../../../../objects/table/313.md)
+- [Page 9125 "Item Application FactBox"](../../../../objects/page/9125.md) · captioned "Item Application" · on [Table 32 "Item Ledger Entry"](../../../../objects/table/32.md)
+- [Page 461 "Inventory Setup"](../../../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../../../objects/table/313.md) · via [Report inventory costs and reconcile with the general ledger](manage-inventory-costs/report-inventory-costs-and-reconcile-wit.md)
+- [Page 5828 "Inventory Periods"](../../../../objects/page/5828.md) · on [Table 5814 "Inventory Period"](../../../../objects/table/5814.md) · via [Report inventory costs and reconcile with the general ledger](manage-inventory-costs/report-inventory-costs-and-reconcile-wit.md)
+- [Page 9297 "Inventory - G/L Recon Matrix"](../../../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md) · via [Report inventory costs and reconcile with the general ledger](manage-inventory-costs/report-inventory-costs-and-reconcile-wit.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

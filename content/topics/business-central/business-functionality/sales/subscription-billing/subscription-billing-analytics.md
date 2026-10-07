@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.775Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis
     - https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year
     - https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-vendor-deferrals
-  objects: []
+  objects:
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/business-functionality/sales/subscription-billing
@@ -182,7 +183,7 @@ parent: topic/business-central/business-functionality/sales/subscription-billing
 children: []
 coverage:
   learn: 18
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -240,6 +241,8 @@ The report pages fall into groups. Overview and year-over-year reports give a hi
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

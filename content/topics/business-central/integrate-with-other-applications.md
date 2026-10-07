@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T13:37:17.677Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -302,7 +302,21 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration
     - https://learn.microsoft.com/dynamics365/business-central/integration-overview
     - https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview
-  objects: []
+  objects:
+    - object/page/1480
+    - object/page/1500
+    - object/page/1831
+    - object/page/1832
+    - object/page/2718
+    - object/page/6316
+    - object/page/6317
+    - object/page/7214
+    - object/page/9553
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9666
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
@@ -324,7 +338,7 @@ children:
   - topic/business-central/integrate-with-other-applications/dynamics-365-field-service
 coverage:
   learn: 55
-  code: 0
+  code: 14
   video: 0
   blog: 0
   guideline: 0
@@ -387,6 +401,21 @@ The Sales integration runs through Dataverse. The Dataverse subtopic covers conn
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1480, 1500, 1831, 1832, 2718, 6316, 6317, 7214, 9553, 9650, 9652, 9660, 9666, 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../objects/table/1480.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 1500 "Workflows"](../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../objects/table/1500.md) · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
+- [Page 1831 "Outlook Centralized Deployment"](../../objects/page/1831.md) · captioned "Outlook Add-in Centralized Deployment" · on [Table 1610 "Office Add-in"](../../objects/table/1610.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 1832 "Outlook Individual Deployment"](../../objects/page/1832.md) · captioned "Get the Outlook Add-in" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 2718 "Page Summary Settings"](../../objects/page/2718.md) · captioned "Card Settings" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 6316 "Sustainability Report Power BI"](../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
+- [Page 7214 "CDS Companies"](../../objects/page/7214.md) · captioned "Dataverse Companies" · on [Table 5393 "CDS Company"](../../objects/table/5393.md) · via [Microsoft Dataverse](integrate-with-other-applications/microsoft-dataverse.md)
+- [Page 9553 "Document Service Setup"](../../objects/page/9553.md) · captioned "OneDrive Setup" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 36951 "PowerBI Reports Setup"](../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../objects/table/36951.md) · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

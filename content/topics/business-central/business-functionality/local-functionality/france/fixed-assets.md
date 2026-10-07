@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:31.109Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation
-  objects: []
+  objects:
+    - object/page/5610
+    - object/page/5611
+    - object/page/5612
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/france
@@ -62,7 +65,7 @@ parent: topic/business-central/business-functionality/local-functionality/france
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -107,6 +110,10 @@ Start with the Accelerated Depreciation page for the concepts. Then follow the s
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5610, 5611, 5612.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5610 "Depreciation Book Card"](../../../../../objects/page/5610.md) · on [Table 5611 "Depreciation Book"](../../../../../objects/table/5611.md)
+- [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md) · captioned "Depreciation Books" · on [Table 5611 "Depreciation Book"](../../../../../objects/table/5611.md)
+- [Page 5612 "FA Posting Group Card"](../../../../../objects/page/5612.md) · on [Table 5606 "FA Posting Group"](../../../../../objects/table/5606.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

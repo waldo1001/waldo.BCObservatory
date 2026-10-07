@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/enable-ai
     - https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement
     - https://learn.microsoft.com/dynamics365/business-central/ai-copilot-troubleshooting
-  objects: []
+  objects:
+    - object/page/7771
+    - object/page/7772
+    - object/page/7775
   features: []
   topics:
     - topic/business-central/copilot-and-agent-capabilities
@@ -83,7 +86,7 @@ parent: topic/business-central/copilot-and-agent-capabilities
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 3
   video: 4
   blog: 3
   guideline: 0
@@ -141,6 +144,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 7771, 7772, 7775.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 7771 "Copilot Not Available"](../../../objects/page/7771.md)
+- [Page 7772 "Copilot Deactivate Capability"](../../../objects/page/7772.md)
+- [Page 7775 "Copilot AI Capabilities"](../../../objects/page/7775.md) · captioned "Copilot & agent capabilities"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

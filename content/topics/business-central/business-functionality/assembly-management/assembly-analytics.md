@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:22.627Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,36 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-809
-  objects: []
+  objects:
+    - object/page/900
+    - object/page/901
+    - object/page/902
+    - object/page/903
+    - object/page/904
+    - object/page/905
+    - object/page/907
+    - object/page/910
+    - object/page/914
+    - object/page/915
+    - object/page/916
+    - object/page/920
+    - object/page/921
+    - object/page/922
+    - object/page/923
+    - object/page/930
+    - object/page/931
+    - object/page/932
+    - object/page/940
+    - object/page/941
+    - object/page/942
+    - object/report/801
+    - object/report/809
+    - object/report/810
+    - object/report/811
+    - object/report/812
+    - object/report/915
+    - object/report/5871
+    - object/report/5872
   features: []
   topics:
     - topic/business-central/business-functionality/assembly-management
@@ -109,7 +138,7 @@ parent: topic/business-central/business-functionality/assembly-management
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 29
   video: 0
   blog: 0
   guideline: 0
@@ -185,6 +214,36 @@ Start with "Assembly Reports and Analytics in Business Central" for the overview
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 801, 809, 810, 811, 812, 900, 901, 902, 903, 904, 905, 907, 910, 914, 915, 916, 920, 921, 922, 923, 930, 931, 932, 940, 941, 942, 5871, 5872.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 900 "Assembly Order"](../../../../objects/page/900.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 901 "Assembly Order Subform"](../../../../objects/page/901.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../../../objects/table/901.md)
+- [Page 902 "Assembly Orders"](../../../../objects/page/902.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 903 "Assembly Lines"](../../../../objects/page/903.md) · on [Table 901 "Assembly Line"](../../../../objects/table/901.md)
+- [Page 904 "Assembly List"](../../../../objects/page/904.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 905 "Assembly Setup"](../../../../objects/page/905.md) · on [Table 905 "Assembly Setup"](../../../../objects/table/905.md)
+- [Page 907 "Assembly Comment Sheet"](../../../../objects/page/907.md) · on [Table 906 "Assembly Comment Line"](../../../../objects/table/906.md)
+- [Page 910 "Assembly Item - Details"](../../../../objects/page/910.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 914 "Assemble-to-Order Lines"](../../../../objects/page/914.md) · on [Table 901 "Assembly Line"](../../../../objects/table/901.md)
+- [Page 915 "Asm.-to-Order Whse. Shpt. Line"](../../../../objects/page/915.md) · on [Table 7321 "Warehouse Shipment Line"](../../../../objects/table/7321.md)
+- [Page 916 "Assembly Order Statistics"](../../../../objects/page/916.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 920 "Posted Assembly Order"](../../../../objects/page/920.md) · on [Table 910 "Posted Assembly Header"](../../../../objects/table/910.md)
+- [Page 921 "Posted Assembly Order Subform"](../../../../objects/page/921.md) · captioned "Lines" · on [Table 911 "Posted Assembly Line"](../../../../objects/table/911.md)
+- [Page 922 "Posted Assembly Orders"](../../../../objects/page/922.md) · on [Table 910 "Posted Assembly Header"](../../../../objects/table/910.md)
+- [Page 923 "Posted Asm. Order Statistics"](../../../../objects/page/923.md) · on [Table 910 "Posted Assembly Header"](../../../../objects/table/910.md)
+- [Page 930 "Assembly Quote"](../../../../objects/page/930.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 931 "Assembly Quote Subform"](../../../../objects/page/931.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../../../objects/table/901.md)
+- [Page 932 "Assembly Quotes"](../../../../objects/page/932.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 940 "Blanket Assembly Order"](../../../../objects/page/940.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Page 941 "Blanket Assembly Order Subform"](../../../../objects/page/941.md) · captioned "Lines" · on [Table 901 "Assembly Line"](../../../../objects/table/901.md)
+- [Page 942 "Blanket Assembly Orders"](../../../../objects/page/942.md) · on [Table 900 "Assembly Header"](../../../../objects/table/900.md)
+- [Report 801 "Assembly BOMs"](../../../../objects/report/801.md) · captioned "BOMs"
+- [Report 809 "Where-Used List"](../../../../objects/report/809.md)
+- [Report 810 "Assembly BOM - Raw Materials"](../../../../objects/report/810.md) · captioned "BOM - Raw Materials"
+- [Report 811 "Assembly BOM - Subassemblies"](../../../../objects/report/811.md) · captioned "BOM - Sub-Assemblies"
+- [Report 812 "Assembly BOM - End Items"](../../../../objects/report/812.md)
+- [Report 915 "Assemble to Order - Sales"](../../../../objects/report/915.md)
+- [Report 5871 "Item - Able to Make (Timeline)"](../../../../objects/report/5871.md)
+- [Report 5872 "BOM Cost Share Distribution"](../../../../objects/report/5872.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

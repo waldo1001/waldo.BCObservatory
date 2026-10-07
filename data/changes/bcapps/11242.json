@@ -66,31 +66,61 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/InstallApplicationCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11748",
+        "type": "codeunit",
+        "id": 11748,
+        "name": "Install Application CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11748-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31017",
+        "type": "codeunit",
+        "id": 31017,
+        "name": "Upgrade Application CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31017-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31016",
+        "type": "codeunit",
+        "id": 31016,
+        "name": "Upgrade Tag Definitions CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31016-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "reportextension/11708",
+        "type": "reportextension",
+        "id": 11708,
+        "name": "Std. Sales - Pro Forma Inv CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "reportextension/11708-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "platform",
+    "development",
+    "sales"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

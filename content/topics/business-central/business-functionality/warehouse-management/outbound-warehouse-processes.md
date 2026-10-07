@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,20 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing
     - https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items
-  objects: []
+  objects:
+    - object/page/15
+    - object/page/5703
+    - object/page/5768
+    - object/page/7302
+    - object/page/7332
+    - object/page/7335
+    - object/page/7337
+    - object/page/7339
+    - object/page/7340
+    - object/page/7341
+    - object/page/7362
+    - object/page/9000
+    - object/page/9008
   features: []
   topics:
     - topic/business-central/business-functionality/warehouse-management
@@ -102,7 +115,7 @@ parent: topic/business-central/business-functionality/warehouse-management
 children: []
 coverage:
   learn: 7
-  code: 0
+  code: 13
   video: 0
   blog: 0
   guideline: 0
@@ -174,6 +187,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 15, 5703, 5768, 7302, 7332, 7335, 7337, 7339, 7340, 7341, 7362, 9000, 9008.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 15 "Location List"](../../../../objects/page/15.md) · captioned "Locations" · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5703 "Location Card"](../../../../objects/page/5703.md) · on [Table 14 "Location"](../../../../objects/table/14.md)
+- [Page 5768 "Warehouse Receipt"](../../../../objects/page/5768.md) · on [Table 7316 "Warehouse Receipt Header"](../../../../objects/table/7316.md)
+- [Page 7302 "Bins"](../../../../objects/page/7302.md) · on [Table 7354 "Bin"](../../../../objects/table/7354.md)
+- [Page 7332 "Warehouse Receipts"](../../../../objects/page/7332.md) · on [Table 7316 "Warehouse Receipt Header"](../../../../objects/table/7316.md)
+- [Page 7335 "Warehouse Shipment"](../../../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../../../objects/table/7320.md)
+- [Page 7337 "Posted Whse. Shipment"](../../../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../../../objects/table/7322.md)
+- [Page 7339 "Warehouse Shipment List"](../../../../objects/page/7339.md) · captioned "Warehouse Shipments" · on [Table 7320 "Warehouse Shipment Header"](../../../../objects/table/7320.md)
+- [Page 7340 "Posted Whse. Shipment List"](../../../../objects/page/7340.md) · captioned "Posted Warehouse Shipments" · on [Table 7322 "Posted Whse. Shipment Header"](../../../../objects/table/7322.md)
+- [Page 7341 "Whse. Shipment Lines"](../../../../objects/page/7341.md) · on [Table 7321 "Warehouse Shipment Line"](../../../../objects/table/7321.md)
+- [Page 7362 "Posted Whse. Shipment Lines"](../../../../objects/page/7362.md) · on [Table 7323 "Posted Whse. Shipment Line"](../../../../objects/table/7323.md)
+- [Page 9000 "Whse. WMS Role Center"](../../../../objects/page/9000.md) · captioned "Shipping and Receiving - Warehouse Management System"
+- [Page 9008 "Whse. Basic Role Center"](../../../../objects/page/9008.md) · captioned "Inventory Manager"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

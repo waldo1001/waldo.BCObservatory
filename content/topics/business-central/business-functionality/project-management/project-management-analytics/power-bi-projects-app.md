@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks
     - https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline
     - https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis
-  objects: []
+  objects:
+    - object/page/36951
+    - object/page/37033
+    - object/page/37034
+    - object/page/37035
+    - object/page/37036
+    - object/page/37037
+    - object/page/37038
+    - object/page/37039
+    - object/page/37062
+    - object/page/37106
   features: []
   topics:
     - topic/business-central/business-functionality/project-management/project-management-analytics
@@ -129,7 +139,7 @@ parent: topic/business-central/business-functionality/project-management/project
 children: []
 coverage:
   learn: 11
-  code: 0
+  code: 10
   video: 1
   blog: 0
   guideline: 0
@@ -196,6 +206,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951, 37033, 37034, 37035, 37036, 37037, 37038, 37039, 37062, 37106.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
+- [Page 37033 "Projects Overview"](../../../../../objects/page/37033.md) · captioned "Projects Overview (Power BI)"
+- [Page 37034 "Project Tasks"](../../../../../objects/page/37034.md) · captioned "Project Tasks (Power BI)"
+- [Page 37035 "Project Profitability"](../../../../../objects/page/37035.md) · captioned "Project Profitability (Power BI)"
+- [Page 37036 "Project Realization"](../../../../../objects/page/37036.md) · captioned "Project Realization (Power BI)"
+- [Page 37037 "Project Performance to Budget"](../../../../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)"
+- [Page 37038 "Project Invoiced Sales by Type"](../../../../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)"
+- [Page 37039 "Project Invd. Sales by Cust."](../../../../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)"
+- [Page 37062 "Projects Report"](../../../../../objects/page/37062.md) · captioned "Projects Report (Power BI)"
+- [Page 37106 "Project Timeline"](../../../../../objects/page/37106.md) · captioned "Project Timeline (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 75b008e98e72d7d8ff379a040aa05a63a6fe12adb9ed170210b77cc62c1f6db2
+  input_hash: bc0041ae0d8090f9eaa22aa8ffc014c85c05206baf09b41d5faf7ca8b49b37eb
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-nz
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -678,6 +678,6 @@ Objects: [page/28001 "CodeUnit Selection"](../objects/page/28001-nz.md) (own).
 
 ## Other versions
 
-- BC30: 278 objects differ from W1 (459 fields, 21 events added)
+- BC30: 279 objects differ from W1 (459 fields, 21 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

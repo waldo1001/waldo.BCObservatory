@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:47.065Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,28 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-calculating-work-in-process-for-a-job
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-managing-projects-with-jobs
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign
-  objects: []
+  objects:
+    - object/page/103
+    - object/page/104
+    - object/page/108
+    - object/page/488
+    - object/page/489
+    - object/page/7335
+    - object/page/7337
+    - object/page/7339
+    - object/page/7340
+    - object/page/7341
+    - object/page/7362
+    - object/page/9008
+    - object/page/30101
+    - object/page/30102
+    - object/page/30106
+    - object/page/30107
+    - object/page/30113
+    - object/page/30115
+    - object/page/30126
+    - object/page/30156
+    - object/page/30157
   features: []
   topics:
     - topic/business-central/get-started/learn
@@ -108,7 +129,7 @@ parent: topic/business-central/get-started/learn
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 21
   video: 0
   blog: 0
   guideline: 0
@@ -177,6 +198,28 @@ Start with the introductory page to find the scenario closest to your task, then
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 103, 104, 108, 488, 489, 7335, 7337, 7339, 7340, 7341, 7362, 9008, 30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 103 "Account Schedule Names"](../../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../../objects/table/84.md)
+- [Page 104 "Account Schedule"](../../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
+- [Page 108 "Financial Reports"](../../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../../objects/table/88.md)
+- [Page 488 "Column Layout Names"](../../../../objects/page/488.md) · captioned "(Financial Report) Column Definitions" · on [Table 333 "Column Layout Name"](../../../../objects/table/333.md)
+- [Page 489 "Column Layout"](../../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../../objects/table/334.md)
+- [Page 7335 "Warehouse Shipment"](../../../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../../../objects/table/7320.md)
+- [Page 7337 "Posted Whse. Shipment"](../../../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../../../objects/table/7322.md)
+- [Page 7339 "Warehouse Shipment List"](../../../../objects/page/7339.md) · captioned "Warehouse Shipments" · on [Table 7320 "Warehouse Shipment Header"](../../../../objects/table/7320.md)
+- [Page 7340 "Posted Whse. Shipment List"](../../../../objects/page/7340.md) · captioned "Posted Warehouse Shipments" · on [Table 7322 "Posted Whse. Shipment Header"](../../../../objects/table/7322.md)
+- [Page 7341 "Whse. Shipment Lines"](../../../../objects/page/7341.md) · on [Table 7321 "Warehouse Shipment Line"](../../../../objects/table/7321.md)
+- [Page 7362 "Posted Whse. Shipment Lines"](../../../../objects/page/7362.md) · on [Table 7323 "Posted Whse. Shipment Line"](../../../../objects/table/7323.md)
+- [Page 9008 "Whse. Basic Role Center"](../../../../objects/page/9008.md) · captioned "Inventory Manager"
+- [Page 30101 "Shpfy Shop Card"](../../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../../objects/table/30102.md)
+- [Page 30102 "Shpfy Shops"](../../../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../../../objects/table/30102.md)
+- [Page 30106 "Shpfy Customer Card"](../../../../objects/page/30106.md) · captioned "Shopify Customer Card" · on [Table 30105 "Shpfy Customer"](../../../../objects/table/30105.md)
+- [Page 30107 "Shpfy Customers"](../../../../objects/page/30107.md) · captioned "Shopify Customers" · on [Table 30105 "Shpfy Customer"](../../../../objects/table/30105.md)
+- [Page 30113 "Shpfy Order"](../../../../objects/page/30113.md) · captioned "Shopify Order" · on [Table 30118 "Shpfy Order Header"](../../../../objects/table/30118.md)
+- [Page 30115 "Shpfy Orders"](../../../../objects/page/30115.md) · captioned "Shopify Orders" · on [Table 30118 "Shpfy Order Header"](../../../../objects/table/30118.md)
+- [Page 30126 "Shpfy Products"](../../../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../../../objects/table/30127.md)
+- [Page 30156 "Shpfy Companies"](../../../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../../../objects/table/30150.md)
+- [Page 30157 "Shpfy Company Card"](../../../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../../../objects/table/30150.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

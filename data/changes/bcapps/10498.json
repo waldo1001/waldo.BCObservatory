@@ -200,8 +200,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DK/FIK/app/src/codeunits/FIKMatchBankRecLines.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13651",
+        "type": "codeunit",
+        "id": 13651,
+        "name": "FIK_MatchBankRecLines",
+        "app": "FIK",
+        "cc": "dk",
+        "page": "codeunit/13651-dk"
+      },
       {
         "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
         "status": "modified",
@@ -392,11 +403,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DK/FIK/app/src/codeunits/FIKMatchBankRecLines.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/CH/BaseApp/Bank/Reconciliation/MatchBankPayments.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -414,6 +420,7 @@
     "hr"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "FIK"
   ]
 }

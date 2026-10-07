@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:09.791Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -301,7 +301,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/design-details-application-design
     - https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat
-  objects: []
+  objects:
+    - object/page/8645
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -329,7 +330,7 @@ children:
   - topic/business-central/business-functionality/design-details/design-details-dimension-set-entries
 coverage:
   learn: 50
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -379,6 +380,8 @@ Start with the index page to find the area, then go to the matching subtopic. In
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8645.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8645 "Costing Method Configuration"](../../../objects/page/8645.md) · on [Table 313 "Inventory Setup"](../../../objects/table/313.md) · via [Design details: Inventory costing](design-details/design-details-inventory-costing.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

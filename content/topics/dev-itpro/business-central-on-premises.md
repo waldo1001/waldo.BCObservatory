@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:34.902Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -300,7 +300,10 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/migrate-help
-  objects: []
+  objects:
+    - object/page/8700
+    - object/page/8705
+    - object/page/9521
   features: []
   topics:
     - topic/dev-itpro/business-central-on-premises/deployment
@@ -320,7 +323,7 @@ children:
   - topic/dev-itpro/business-central-on-premises/upgrade
 coverage:
   learn: 211
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -369,6 +372,12 @@ For a new environment, start with Deployment to plan and install, then move to A
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8700, 8705, 9521, 19010.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8700 "Table Information"](../../objects/page/8700.md) · via [Administration](business-central-on-premises/administration.md)
+- [Page 8705 "Table Information Card"](../../objects/page/8705.md) · captioned "Index Management" · via [Administration](business-central-on-premises/administration.md)
+- [Page 9521 "Database Missing Indexes"](../../objects/page/9521.md) · via [Administration](business-central-on-premises/administration.md)
+
+Learn also names 1 object with no object page: page/19010.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression
-  objects: []
+  objects:
+    - object/page/8700
+    - object/page/8705
+    - object/page/9521
   features: []
   topics:
     - topic/dev-itpro/business-central-on-premises/administration
@@ -85,7 +88,7 @@ parent: topic/dev-itpro/business-central-on-premises/administration
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -132,6 +135,10 @@ A good starting point is the installation considerations page, then the compatib
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8700, 8705, 9521.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8700 "Table Information"](../../../../objects/page/8700.md)
+- [Page 8705 "Table Information Card"](../../../../objects/page/8705.md) · captioned "Index Management"
+- [Page 9521 "Database Missing Indexes"](../../../../objects/page/9521.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:40.238Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -220,7 +220,15 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/255
+    - object/page/359
+    - object/page/360
+    - object/page/459
+    - object/page/5919
+    - object/page/6103
+    - object/page/6133
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/norway
@@ -238,7 +246,7 @@ parent: topic/business-central/business-functionality/local-functionality/norway
 children: []
 coverage:
   learn: 25
-  code: 0
+  code: 8
   video: 0
   blog: 0
   guideline: 0
@@ -313,6 +321,17 @@ This section covers three connected areas for the Norwegian version. The first i
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 21, 255, 359, 360, 459, 5919, 6103, 6133, 15000000, 15000002, 15000004, 15000006, 15000007, 15000010, 15000100.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 21 "Customer Card"](../../../../../objects/page/21.md) · on [Table 18 "Customer"](../../../../../objects/table/18.md)
+- [Page 255 "Cash Receipt Journal"](../../../../../objects/page/255.md) · captioned "Cash Receipt Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 359 "Document Sending Profiles"](../../../../../objects/page/359.md) · on [Table 60 "Document Sending Profile"](../../../../../objects/table/60.md)
+- [Page 360 "Document Sending Profile"](../../../../../objects/page/360.md) · on [Table 60 "Document Sending Profile"](../../../../../objects/table/60.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../../objects/table/311.md)
+- [Page 5919 "Service Mgt. Setup"](../../../../../objects/page/5919.md) · captioned "Service Management Setup" · on [Table 5911 "Service Mgt. Setup"](../../../../../objects/table/5911.md)
+- [Page 6103 "E-Document Services"](../../../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../../../objects/table/6103.md)
+- [Page 6133 "E-Document Service"](../../../../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../../../../objects/table/6103.md)
+
+Learn also names 7 objects with no object page: page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

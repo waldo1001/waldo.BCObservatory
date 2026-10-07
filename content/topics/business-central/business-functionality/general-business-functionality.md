@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:07.205Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,135 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-online-maps
     - https://learn.microsoft.com/dynamics365/business-central/ui-across-business-areas
     - https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/26
+    - object/page/30
+    - object/page/39
+    - object/page/41
+    - object/page/42
+    - object/page/49
+    - object/page/50
+    - object/page/76
+    - object/page/88
+    - object/page/101
+    - object/page/102
+    - object/page/124
+    - object/page/130
+    - object/page/138
+    - object/page/142
+    - object/page/146
+    - object/page/182
+    - object/page/184
+    - object/page/185
+    - object/page/189
+    - object/page/190
+    - object/page/191
+    - object/page/201
+    - object/page/207
+    - object/page/250
+    - object/page/251
+    - object/page/253
+    - object/page/255
+    - object/page/256
+    - object/page/261
+    - object/page/262
+    - object/page/283
+    - object/page/300
+    - object/page/344
+    - object/page/370
+    - object/page/371
+    - object/page/372
+    - object/page/373
+    - object/page/375
+    - object/page/391
+    - object/page/423
+    - object/page/424
+    - object/page/425
+    - object/page/426
+    - object/page/427
+    - object/page/459
+    - object/page/460
+    - object/page/507
+    - object/page/509
+    - object/page/519
+    - object/page/654
+    - object/page/662
+    - object/page/666
+    - object/page/671
+    - object/page/672
+    - object/page/673
+    - object/page/674
+    - object/page/750
+    - object/page/751
+    - object/page/752
+    - object/page/753
+    - object/page/754
+    - object/page/755
+    - object/page/800
+    - object/page/804
+    - object/page/981
+    - object/page/1164
+    - object/page/1170
+    - object/page/1171
+    - object/page/1172
+    - object/page/1175
+    - object/page/1176
+    - object/page/1177
+    - object/page/1205
+    - object/page/1206
+    - object/page/1207
+    - object/page/1208
+    - object/page/1209
+    - object/page/1210
+    - object/page/1211
+    - object/page/1213
+    - object/page/1214
+    - object/page/1215
+    - object/page/1216
+    - object/page/1217
+    - object/page/1230
+    - object/page/1240
+    - object/page/1280
+    - object/page/1290
+    - object/page/1500
+    - object/page/1501
+    - object/page/1503
+    - object/page/1504
+    - object/page/1505
+    - object/page/1530
+    - object/page/5050
+    - object/page/5159
+    - object/page/5162
+    - object/page/5164
+    - object/page/5167
+    - object/page/5200
+    - object/page/5579
+    - object/page/5582
+    - object/page/5587
+    - object/page/5703
+    - object/page/6560
+    - object/page/6627
+    - object/page/6630
+    - object/page/6644
+    - object/page/6650
+    - object/page/6652
+    - object/page/6660
+    - object/page/6662
+    - object/page/9305
+    - object/page/9306
+    - object/page/9346
+    - object/page/9347
+    - object/page/9348
+    - object/page/9349
+    - object/page/9901
+    - object/page/20100
+    - object/page/20101
+    - object/page/20102
+    - object/page/20105
+    - object/page/20106
+    - object/page/20107
+    - object/page/20109
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -341,7 +469,7 @@ children:
   - topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically
 coverage:
   learn: 52
-  code: 0
+  code: 128
   video: 0
   blog: 0
   guideline: 0
@@ -548,6 +676,137 @@ This area collects cross-area features that are not tied to one module. Own page
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 21, 26, 30, 39, 41, 42, 49, 50, 76, 86, 88, 101, 102, 124, 130, 138, 142, 146, 182, 184, 185, 189, 190, 191, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 300, 344, 370, 371, 372, 373, 375, 391, 423, 424, 425, 426, 427, 459, 460, 507, 509, 519, 654, 662, 666, 671, 672, 673, 674, 750, 751, 752, 753, 754, 755, 800, 804, 981, 1164, 1170, 1171, 1172, 1175, 1176, 1177, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1213, 1214, 1215, 1216, 1217, 1230, 1240, 1280, 1290, 1500, 1501, 1503, 1504, 1505, 1530, 5050, 5159, 5162, 5164, 5167, 5200, 5579, 5582, 5587, 5703, 6560, 6627, 6630, 6644, 6650, 6652, 6660, 6662, 9305, 9306, 9346, 9347, 9348, 9349, 9901, 10101, 10810, 10811, 11300, 11400, 11402, 11403, 11405, 12409, 12410, 12411, 20100, 20101, 20102, 20105, 20106, 20107, 20109, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 21 "Customer Card"](../../../objects/page/21.md) · on [Table 18 "Customer"](../../../objects/table/18.md)
+- [Page 26 "Vendor Card"](../../../objects/page/26.md) · on [Table 23 "Vendor"](../../../objects/table/23.md)
+- [Page 30 "Item Card"](../../../objects/page/30.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 39 "General Journal"](../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 41 "Sales Quote"](../../../objects/page/41.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 42 "Sales Order"](../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 49 "Purchase Quote"](../../../objects/page/49.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 76 "Resource Card"](../../../objects/page/76.md) · on [Table 156 "Resource"](../../../objects/table/156.md)
+- [Page 88 "Job Card"](../../../objects/page/88.md) · captioned "Project Card" · on [Table 167 "Job"](../../../objects/table/167.md)
+- [Page 101 "General Journal Templates"](../../../objects/page/101.md) · on [Table 80 "Gen. Journal Template"](../../../objects/table/80.md)
+- [Page 102 "Item Journal Templates"](../../../objects/page/102.md) · on [Table 82 "Item Journal Template"](../../../objects/table/82.md)
+- [Page 124 "Comment Sheet"](../../../objects/page/124.md) · on [Table 97 "Comment Line"](../../../objects/table/97.md)
+- [Page 130 "Posted Sales Shipment"](../../../objects/page/130.md) · on [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
+- [Page 138 "Posted Purchase Invoice"](../../../objects/page/138.md) · on [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md)
+- [Page 142 "Posted Sales Shipments"](../../../objects/page/142.md) · on [Table 110 "Sales Shipment Header"](../../../objects/table/110.md)
+- [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md) · on [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md)
+- [Page 182 "Posted General Journal"](../../../objects/page/182.md) · on [Table 181 "Posted Gen. Journal Line"](../../../objects/table/181.md)
+- [Page 184 "Copy Gen. Journal Parameters"](../../../objects/page/184.md) · on [Table 183 "Copy Gen. Journal Parameters"](../../../objects/table/183.md)
+- [Page 185 "Posted General Journal Batch"](../../../objects/page/185.md) · on [Table 182 "Posted Gen. Journal Batch"](../../../objects/table/182.md)
+- [Page 201 "Job Journal"](../../../objects/page/201.md) · captioned "Project Journals" · on [Table 210 "Job Journal Line"](../../../objects/table/210.md)
+- [Page 207 "Resource Journal"](../../../objects/page/207.md) · captioned "Resource Journals" · on [Table 207 "Res. Journal Line"](../../../objects/table/207.md)
+- [Page 250 "General Journal Template List"](../../../objects/page/250.md) · on [Table 80 "Gen. Journal Template"](../../../objects/table/80.md)
+- [Page 251 "General Journal Batches"](../../../objects/page/251.md) · on [Table 232 "Gen. Journal Batch"](../../../objects/table/232.md)
+- [Page 253 "Sales Journal"](../../../objects/page/253.md) · captioned "Sales Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 255 "Cash Receipt Journal"](../../../objects/page/255.md) · captioned "Cash Receipt Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 256 "Payment Journal"](../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 261 "Item Journal Template List"](../../../objects/page/261.md) · on [Table 82 "Item Journal Template"](../../../objects/table/82.md)
+- [Page 262 "Item Journal Batches"](../../../objects/page/262.md) · on [Table 233 "Item Journal Batch"](../../../objects/table/233.md)
+- [Page 283 "Recurring General Journal"](../../../objects/page/283.md) · captioned "Recurring General Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md)
+- [Page 300 "Ship-to Address"](../../../objects/page/300.md) · on [Table 222 "Ship-to Address"](../../../objects/table/222.md)
+- [Page 344 "Navigate"](../../../objects/page/344.md) · captioned "Find entries" · on [Table 265 "Document Entry"](../../../objects/table/265.md)
+- [Page 370 "Bank Account Card"](../../../objects/page/370.md) · on [Table 270 "Bank Account"](../../../objects/table/270.md)
+- [Page 391 "Extended Text List"](../../../objects/page/391.md) · on [Table 279 "Extended Text Header"](../../../objects/table/279.md)
+- [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../objects/table/311.md)
+- [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../objects/table/312.md)
+- [Page 507 "Blanket Sales Order"](../../../objects/page/507.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 509 "Blanket Purchase Order"](../../../objects/page/509.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 519 "Item Journal Lines"](../../../objects/page/519.md) · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 671 "Job Queue Category List"](../../../objects/page/671.md) · captioned "Job Queue Categories" · on [Table 471 "Job Queue Category"](../../../objects/table/471.md)
+- [Page 672 "Job Queue Entries"](../../../objects/page/672.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md)
+- [Page 673 "Job Queue Entry Card"](../../../objects/page/673.md) · on [Table 472 "Job Queue Entry"](../../../objects/table/472.md)
+- [Page 674 "Job Queue Log Entries"](../../../objects/page/674.md) · on [Table 474 "Job Queue Log Entry"](../../../objects/table/474.md)
+- [Page 750 "Standard General Journals"](../../../objects/page/750.md) · on [Table 750 "Standard General Journal"](../../../objects/table/750.md)
+- [Page 751 "Standard General Journal"](../../../objects/page/751.md) · on [Table 750 "Standard General Journal"](../../../objects/table/750.md)
+- [Page 752 "Standard Gen. Journal Subform"](../../../objects/page/752.md) · captioned "Lines" · on [Table 751 "Standard General Journal Line"](../../../objects/table/751.md)
+- [Page 753 "Standard Item Journals"](../../../objects/page/753.md) · on [Table 752 "Standard Item Journal"](../../../objects/table/752.md)
+- [Page 754 "Standard Item Journal"](../../../objects/page/754.md) · on [Table 752 "Standard Item Journal"](../../../objects/table/752.md)
+- [Page 755 "Standard Item Journal Subform"](../../../objects/page/755.md) · captioned "Lines" · on [Table 753 "Standard Item Journal Line"](../../../objects/table/753.md)
+- [Page 800 "Online Map Setup"](../../../objects/page/800.md) · on [Table 800 "Online Map Setup"](../../../objects/table/800.md)
+- [Page 804 "Online Map Parameter Setup"](../../../objects/page/804.md) · on [Table 801 "Online Map Parameter Setup"](../../../objects/table/801.md)
+- [Page 981 "Payment Registration"](../../../objects/page/981.md) · captioned "Register Customer Payments" · on [Table 981 "Payment Registration Buffer"](../../../objects/table/981.md)
+- [Page 1164 "User Task List Part"](../../../objects/page/1164.md) · on [Table 1170 "User Task"](../../../objects/table/1170.md)
+- [Page 1170 "User Task List"](../../../objects/page/1170.md) · captioned "User Tasks" · on [Table 1170 "User Task"](../../../objects/table/1170.md)
+- [Page 1171 "User Task Card"](../../../objects/page/1171.md) · captioned "User Task" · on [Table 1170 "User Task"](../../../objects/table/1170.md)
+- [Page 1172 "User Task Recurrence"](../../../objects/page/1172.md) · captioned "Schedule recurring task"
+- [Page 1175 "User Task Group"](../../../objects/page/1175.md) · on [Table 1175 "User Task Group"](../../../objects/table/1175.md)
+- [Page 1176 "User Task Group Members"](../../../objects/page/1176.md) · on [Table 1176 "User Task Group Member"](../../../objects/table/1176.md)
+- [Page 1177 "User Task Groups"](../../../objects/page/1177.md) · on [Table 1175 "User Task Group"](../../../objects/table/1175.md)
+- [Page 1290 "Payment Reconciliation Journal"](../../../objects/page/1290.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../../objects/table/274.md)
+- [Page 5050 "Contact Card"](../../../objects/page/5050.md) · on [Table 5050 "Contact"](../../../objects/table/5050.md)
+- [Page 5159 "Sales Order Archive"](../../../objects/page/5159.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 5162 "Sales Quote Archive"](../../../objects/page/5162.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 5164 "Purchase Quote Archive"](../../../objects/page/5164.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 5167 "Purchase Order Archive"](../../../objects/page/5167.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 5200 "Employee Card"](../../../objects/page/5200.md) · on [Table 5200 "Employee"](../../../objects/table/5200.md)
+- [Page 5579 "Digital Voucher Entry Setup"](../../../objects/page/5579.md) · on [Table 5579 "Digital Voucher Entry Setup"](../../../objects/table/5579.md)
+- [Page 5582 "Voucher Entry Source Codes"](../../../objects/page/5582.md) · on [Table 5580 "Voucher Entry Source Code"](../../../objects/table/5580.md)
+- [Page 5587 "Digital Voucher Setup"](../../../objects/page/5587.md) · on [Table 5581 "Digital Voucher Setup"](../../../objects/table/5581.md)
+- [Page 5703 "Location Card"](../../../objects/page/5703.md) · on [Table 14 "Location"](../../../objects/table/14.md)
+- [Page 6560 "Document Line Tracking"](../../../objects/page/6560.md) · on [Table 265 "Document Entry"](../../../objects/table/265.md)
+- [Page 6627 "Sales Return Order Archive"](../../../objects/page/6627.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6630 "Sales Return Order"](../../../objects/page/6630.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 6644 "Purchase Return Order Archive"](../../../objects/page/6644.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 6650 "Posted Return Shipment"](../../../objects/page/6650.md) · on [Table 6650 "Return Shipment Header"](../../../objects/table/6650.md)
+- [Page 6652 "Posted Return Shipments"](../../../objects/page/6652.md) · captioned "Posted Purchase Return Shipments" · on [Table 6650 "Return Shipment Header"](../../../objects/table/6650.md)
+- [Page 6660 "Posted Return Receipt"](../../../objects/page/6660.md) · on [Table 6660 "Return Receipt Header"](../../../objects/table/6660.md)
+- [Page 6662 "Posted Return Receipts"](../../../objects/page/6662.md) · captioned "Posted Return Receipt" · on [Table 6660 "Return Receipt Header"](../../../objects/table/6660.md)
+- [Page 9305 "Sales Order List"](../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9306 "Purchase Quotes"](../../../objects/page/9306.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9346 "Purchase Quote Archives"](../../../objects/page/9346.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 9347 "Purchase Order Archives"](../../../objects/page/9347.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 9348 "Sales Quote Archives"](../../../objects/page/9348.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 9349 "Sales Order Archives"](../../../objects/page/9349.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 9901 "Export Data"](../../../objects/page/9901.md) · captioned "Export to a Data File"
+- [Page 189 "Incoming Document"](../../../objects/page/189.md) · on [Table 130 "Incoming Document"](../../../objects/table/130.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 190 "Incoming Documents"](../../../objects/page/190.md) · on [Table 130 "Incoming Document"](../../../objects/table/130.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 191 "Incoming Documents Setup"](../../../objects/page/191.md) · on [Table 131 "Incoming Documents Setup"](../../../objects/table/131.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 371 "Bank Account List"](../../../objects/page/371.md) · captioned "Bank Accounts" · on [Table 270 "Bank Account"](../../../objects/table/270.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 372 "Bank Account Ledger Entries"](../../../objects/page/372.md) · on [Table 271 "Bank Account Ledger Entry"](../../../objects/table/271.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 373 "Bank Account Posting Groups"](../../../objects/page/373.md) · on [Table 277 "Bank Account Posting Group"](../../../objects/table/277.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 375 "Bank Account Statistics"](../../../objects/page/375.md) · on [Table 270 "Bank Account"](../../../objects/table/270.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 423 "Customer Bank Account Card"](../../../objects/page/423.md) · on [Table 287 "Customer Bank Account"](../../../objects/table/287.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 424 "Customer Bank Account List"](../../../objects/page/424.md) · on [Table 287 "Customer Bank Account"](../../../objects/table/287.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 425 "Vendor Bank Account Card"](../../../objects/page/425.md) · on [Table 288 "Vendor Bank Account"](../../../objects/table/288.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 426 "Vendor Bank Account List"](../../../objects/page/426.md) · on [Table 288 "Vendor Bank Account"](../../../objects/table/288.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 427 "Payment Methods"](../../../objects/page/427.md) · on [Table 289 "Payment Method"](../../../objects/table/289.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 654 "Requests to Approve"](../../../objects/page/654.md) · on [Table 454 "Approval Entry"](../../../objects/table/454.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 662 "Approval Request Entries"](../../../objects/page/662.md) · on [Table 454 "Approval Entry"](../../../objects/table/454.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 666 "Overdue Approval Entries"](../../../objects/page/666.md) · on [Table 458 "Overdue Approval Entry"](../../../objects/table/458.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1205 "Credit Transfer Registers"](../../../objects/page/1205.md) · on [Table 1205 "Credit Transfer Register"](../../../objects/table/1205.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1206 "Credit Transfer Reg. Entries"](../../../objects/page/1206.md) · on [Table 1206 "Credit Transfer Entry"](../../../objects/table/1206.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1207 "Direct Debit Collections"](../../../objects/page/1207.md) · on [Table 1207 "Direct Debit Collection"](../../../objects/table/1207.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1208 "Direct Debit Collect. Entries"](../../../objects/page/1208.md) · on [Table 1208 "Direct Debit Collection Entry"](../../../objects/table/1208.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1209 "Credit Trans Re-export History"](../../../objects/page/1209.md) · on [Table 1209 "Credit Trans Re-export History"](../../../objects/table/1209.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1210 "Data Exch Def Card"](../../../objects/page/1210.md) · captioned "Data Exchange Definition" · on [Table 1222 "Data Exch. Def"](../../../objects/table/1222.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1211 "Data Exch Def List"](../../../objects/page/1211.md) · captioned "Data Exchange Definitions" · on [Table 1222 "Data Exch. Def"](../../../objects/table/1222.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1213 "Data Exchange Types"](../../../objects/page/1213.md) · on [Table 1213 "Data Exchange Type"](../../../objects/table/1213.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1214 "Data Exch Mapping Card"](../../../objects/page/1214.md) · captioned "Field Mapping" · on [Table 1224 "Data Exch. Mapping"](../../../objects/table/1224.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1215 "Data Exch Line Def Part"](../../../objects/page/1215.md) · captioned "Line Definitions" · on [Table 1227 "Data Exch. Line Def"](../../../objects/table/1227.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1216 "Data Exch Col Def Part"](../../../objects/page/1216.md) · captioned "Column Definitions" · on [Table 1223 "Data Exch. Column Def"](../../../objects/table/1223.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1217 "Data Exch Field Mapping Part"](../../../objects/page/1217.md) · captioned "Data Exchange Field Mapping" · on [Table 1225 "Data Exch. Field Mapping"](../../../objects/table/1225.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1230 "SEPA Direct Debit Mandates"](../../../objects/page/1230.md) · captioned "Direct Debit Mandates" · on [Table 1230 "SEPA Direct Debit Mandate"](../../../objects/table/1230.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1240 "SWIFT Codes"](../../../objects/page/1240.md) · on [Table 1210 "SWIFT Code"](../../../objects/table/1210.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1280 "Bank Clearing Standards"](../../../objects/page/1280.md) · on [Table 1280 "Bank Clearing Standard"](../../../objects/table/1280.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 1500 "Workflows"](../../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../../objects/table/1500.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1501 "Workflow"](../../../objects/page/1501.md) · on [Table 1501 "Workflow"](../../../objects/table/1501.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1503 "Workflow Steps"](../../../objects/page/1503.md) · on [Table 1507 "Workflow Step Buffer"](../../../objects/table/1507.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1504 "Workflow Step Instances"](../../../objects/page/1504.md) · on [Table 1504 "Workflow Step Instance"](../../../objects/table/1504.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1505 "Workflow Templates"](../../../objects/page/1505.md) · on [Table 1500 "Workflow Buffer"](../../../objects/table/1500.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 1530 "Archived WF Step Instances"](../../../objects/page/1530.md) · captioned "Archived Workflow Step Instances" · on [Table 1530 "Workflow Step Instance Archive"](../../../objects/table/1530.md) · via [Workflows](general-business-functionality/workflows.md)
+- [Page 20100 "AMC Bank Bank Name List"](../../../objects/page/20100.md) · captioned "AMC Banking Bank Name List" · on [Table 20100 "AMC Bank Banks"](../../../objects/table/20100.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20101 "AMC Banking Setup"](../../../objects/page/20101.md) · on [Table 20101 "AMC Banking Setup"](../../../objects/table/20101.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20102 "AMC Bank Pmt. Types"](../../../objects/page/20102.md) · captioned "AMC Banking Payment Types" · on [Table 20102 "AMC Bank Pmt. Type"](../../../objects/table/20102.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20105 "AMC Bank Assisted Setup"](../../../objects/page/20105.md) · captioned "AMC Banking 365 Fundamentals Assisted Setup" · on [Table 20101 "AMC Banking Setup"](../../../objects/table/20101.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20106 "AMC Bank Assist Bank Account"](../../../objects/page/20106.md) · on [Table 777 "Online Bank Acc. Link"](../../../objects/table/777.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20107 "AMC Bank Webcall Log"](../../../objects/page/20107.md) · captioned "AMC Banking 365 Webservice Log" · on [Table 710 "Activity Log"](../../../objects/table/710.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+- [Page 20109 "AMC Bank Signup to Service"](../../../objects/page/20109.md) · captioned "AMC Banking Signup webservice" · on [Table 79 "Company Information"](../../../objects/table/79.md) · via [Exchange data electronically](general-business-functionality/exchange-data-electronically.md)
+
+Learn also names 18 objects with no object page: page/86, page/10101, page/10810, page/10811, page/11300, page/11400, page/11402, page/11403, page/11405, page/12409, page/12410, page/12411, page/2000000, page/2000001, page/2000003, page/2000020, page/2000021, page/2000022.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

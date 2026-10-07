@@ -754,8 +754,74 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/DEPaymentMeansHelper.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/11043",
+        "type": "codeunit",
+        "id": 11043,
+        "name": "DE Payment Means Helper",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/11043-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/DEXMLDocumentValidator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/11044",
+        "type": "codeunit",
+        "id": 11044,
+        "name": "DE XML Document Validator",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/11044-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13916",
+        "type": "codeunit",
+        "id": 13916,
+        "name": "Export XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13916-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungFormat.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13914",
+        "type": "codeunit",
+        "id": 13914,
+        "name": "XRechnung Format",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13914-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13917",
+        "type": "codeunit",
+        "id": 13917,
+        "name": "Export ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13917-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ZUGFeRDFormat.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13920",
+        "type": "codeunit",
+        "id": 13920,
+        "name": "ZUGFeRD Format",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13920-de"
+      },
       {
         "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethod.Table.al",
         "status": "modified",
@@ -814,36 +880,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DE/EDocumentDE/app/src/DEPaymentMeansHelper.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/DEXMLDocumentValidator.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/XRechnungFormat.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ZUGFeRDFormat.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/ES/BaseApp/Bank/BankAccount/PaymentMethods.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -861,9 +897,11 @@
     ]
   },
   "systems": [
+    "integration",
     "finance"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "EDocumentDE"
   ]
 }

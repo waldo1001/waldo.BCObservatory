@@ -6,38 +6,44 @@
   "country": "fi",
   "layer": "overlay",
   "branch": "main",
-  "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
   "build": "30.0.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "FICore",
+    "IntrastatFI"
   ],
-  "files": 149,
+  "files": 163,
   "parse_errors": 0,
-  "added": 42,
+  "added": 56,
   "replaced": 50,
   "absent": [],
   "chain": [
     "w1",
     "fi"
   ],
-  "extractor": "2",
+  "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 92,
+  "objects": 106,
   "by_type": {
-    "codeunit": 10,
+    "codeunit": 16,
     "page": 9,
-    "pageextension": 2,
+    "pageextension": 6,
     "permissionset": 2,
+    "permissionsetextension": 1,
     "report": 17,
+    "reportextension": 1,
     "table": 50,
-    "tableextension": 2
+    "tableextension": 4
   },
   "shards": [
     "objects-codeunit-1.jsonl",
     "objects-page-1.jsonl",
     "objects-pageextension-1.jsonl",
     "objects-permissionset-1.jsonl",
+    "objects-permissionsetextension-1.jsonl",
     "objects-report-1.jsonl",
+    "objects-reportextension-1.jsonl",
     "objects-table-1.jsonl",
     "objects-tableextension-1.jsonl"
   ]

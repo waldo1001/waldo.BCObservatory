@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:21:32.875Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration
     - https://learn.microsoft.com/dynamics365/business-central/across-search-contacts-teams
     - https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
-  objects: []
+  objects:
+    - object/page/2718
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
@@ -100,7 +101,7 @@ parent: topic/business-central/integrate-with-other-applications/microsoft-offic
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -148,6 +149,8 @@ Administrators have two pages. One covers managing the integration: licensing, p
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2718.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 2718 "Page Summary Settings"](../../../../objects/page/2718.md) · captioned "Card Settings"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

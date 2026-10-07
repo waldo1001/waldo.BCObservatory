@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/UpgradeReverseChargeVAT.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/10554",
+        "type": "codeunit",
+        "id": 10554,
+        "name": "Upgrade Reverse Charge VAT",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "codeunit/10554-gb"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ReverseChargeVAT"
+  ]
 }

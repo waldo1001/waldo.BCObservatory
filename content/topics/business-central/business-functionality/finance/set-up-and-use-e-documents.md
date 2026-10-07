@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,23 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments-external
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase
-  objects: []
+  objects:
+    - object/page/42
+    - object/page/43
+    - object/page/50
+    - object/page/51
+    - object/page/132
+    - object/page/138
+    - object/page/359
+    - object/page/360
+    - object/page/6103
+    - object/page/6121
+    - object/page/6133
+    - object/page/6167
+    - object/page/9301
+    - object/page/9305
+    - object/page/9307
+    - object/page/9308
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -117,7 +133,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 16
   video: 6
   blog: 0
   guideline: 0
@@ -199,6 +215,23 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 42, 43, 50, 51, 132, 138, 359, 360, 6103, 6121, 6133, 6167, 9301, 9305, 9307, 9308.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 42 "Sales Order"](../../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 43 "Sales Invoice"](../../../../objects/page/43.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 50 "Purchase Order"](../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 51 "Purchase Invoice"](../../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 132 "Posted Sales Invoice"](../../../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../../../objects/table/112.md)
+- [Page 138 "Posted Purchase Invoice"](../../../../objects/page/138.md) · on [Table 122 "Purch. Inv. Header"](../../../../objects/table/122.md)
+- [Page 359 "Document Sending Profiles"](../../../../objects/page/359.md) · on [Table 60 "Document Sending Profile"](../../../../objects/table/60.md)
+- [Page 360 "Document Sending Profile"](../../../../objects/page/360.md) · on [Table 60 "Document Sending Profile"](../../../../objects/table/60.md)
+- [Page 6103 "E-Document Services"](../../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../../objects/table/6103.md)
+- [Page 6121 "E-Document"](../../../../objects/page/6121.md) · on [Table 6121 "E-Document"](../../../../objects/table/6121.md)
+- [Page 6133 "E-Document Service"](../../../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../../../objects/table/6103.md)
+- [Page 6167 "E-Doc. Order Line Matching"](../../../../objects/page/6167.md) · captioned "Purchase Order Matching" · on [Table 6121 "E-Document"](../../../../objects/table/6121.md)
+- [Page 9301 "Sales Invoice List"](../../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9305 "Sales Order List"](../../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
+- [Page 9307 "Purchase Order List"](../../../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

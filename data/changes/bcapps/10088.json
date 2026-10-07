@@ -123,8 +123,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportManagementDE.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11029",
+        "type": "codeunit",
+        "id": 11029,
+        "name": "IntrastatReportManagementDE",
+        "app": "IntrastatDE",
+        "cc": "de",
+        "page": "codeunit/11029-de"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Page/SubcontractingOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/18493",
+        "type": "page",
+        "id": 18493,
+        "name": "Subcontracting Order Subform",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18493-in"
+      },
       {
         "path": "src/Layers/GB/BaseApp/Bank/Check/Check.Report.al",
         "status": "modified",
@@ -172,16 +194,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportManagementDE.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Page/SubcontractingOrderSubform.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/NA/BaseApp/Sales/Document/SalesInvoice.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -195,9 +207,12 @@
   },
   "systems": [
     "finance",
-    "integration"
+    "integration",
+    "inventory"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "INGST",
+    "IntrastatDE"
   ]
 }

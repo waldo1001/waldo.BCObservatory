@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:12.298Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,7 +180,27 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-return-overview
     - https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-vendor-quality-analysis
     - https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year
-  objects: []
+  objects:
+    - object/page/36951
+    - object/page/37009
+    - object/page/37010
+    - object/page/37011
+    - object/page/37012
+    - object/page/37013
+    - object/page/37014
+    - object/page/37015
+    - object/page/37016
+    - object/page/37017
+    - object/page/37018
+    - object/page/37019
+    - object/page/37020
+    - object/page/37021
+    - object/page/37061
+    - object/page/37112
+    - object/page/37115
+    - object/page/37116
+    - object/page/37117
+    - object/page/37118
   features: []
   topics:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
@@ -198,7 +218,7 @@ parent: topic/business-central/business-functionality/purchasing/purchasing-anal
 children: []
 coverage:
   learn: 20
-  code: 0
+  code: 20
   video: 0
   blog: 0
   guideline: 0
@@ -277,6 +297,27 @@ Two reference pages sit behind the reports. The semantic model page describes th
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37061, 37112, 37115, 37116, 37117, 37118.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
+- [Page 37009 "Purchases Overview"](../../../../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)"
+- [Page 37010 "Purchases Decomposition"](../../../../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)"
+- [Page 37011 "Daily Purchases"](../../../../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)"
+- [Page 37012 "Purchases Moving Averages"](../../../../../objects/page/37012.md) · captioned "Purchases Moving Averages (Power BI)"
+- [Page 37013 "Purchases Moving Annual Total"](../../../../../objects/page/37013.md) · captioned "Purchases Moving Annual Total (Power BI)"
+- [Page 37014 "Purchases Period-Over-Period"](../../../../../objects/page/37014.md) · captioned "Purchases Period-Over-Period (Power BI)"
+- [Page 37015 "Purchases Year-Over-Year"](../../../../../objects/page/37015.md) · captioned "Purchases Year-Over-Year (Power BI)"
+- [Page 37016 "Purchases by Item"](../../../../../objects/page/37016.md) · captioned "Purchases by Item (Power BI)"
+- [Page 37017 "Purchases by Purchaser"](../../../../../objects/page/37017.md) · captioned "Purchases by Purchaser (Power BI)"
+- [Page 37018 "Purchases by Vendor"](../../../../../objects/page/37018.md) · captioned "Purchases by Vendor (Power BI)"
+- [Page 37019 "Purchases by Location"](../../../../../objects/page/37019.md) · captioned "Purchases by Location (Power BI)"
+- [Page 37020 "Purch. Actual vs. Budget Qty."](../../../../../objects/page/37020.md) · captioned "Purchase Actual vs. Budget Quantity (Power BI)"
+- [Page 37021 "Purch. Actual vs. Budget Amt."](../../../../../objects/page/37021.md) · captioned "Purchases Actual vs. Budget Amount (Power BI)"
+- [Page 37061 "Purchases Report"](../../../../../objects/page/37061.md) · captioned "Purchases Report (Power BI)"
+- [Page 37112 "Purchase Forecasting"](../../../../../objects/page/37112.md) · captioned "Purchase Forecasting (Power BI)"
+- [Page 37115 "Vendor Quality Analysis"](../../../../../objects/page/37115.md) · captioned "Vendor Quality Analysis (Power BI)"
+- [Page 37116 "Purchase Return Overview"](../../../../../objects/page/37116.md) · captioned "Purchase Return Overview (Power BI)"
+- [Page 37117 "Key Purchase Influencers"](../../../../../objects/page/37117.md) · captioned "Key Purchase Influencers (Power BI)"
+- [Page 37118 "Purchase Quote Overview"](../../../../../objects/page/37118.md) · captioned "Purchase Quote Overview (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

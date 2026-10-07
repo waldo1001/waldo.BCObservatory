@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types
     - https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items
     - https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments
-  objects: []
+  objects:
+    - object/page/8008
+    - object/page/8009
+    - object/page/8013
+    - object/page/8051
+    - object/page/8054
+    - object/page/8059
+    - object/page/8061
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales
@@ -94,7 +101,7 @@ parent: topic/business-central/business-functionality/set-up-business-central/se
 children: []
 coverage:
   learn: 7
-  code: 0
+  code: 7
   video: 0
   blog: 0
   guideline: 0
@@ -146,6 +153,14 @@ A sensible order is general setup first, then contract types, packages and lines
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8008, 8009, 8013, 8051, 8054, 8059, 8061.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 8008 "Imported Service Objects"](../../../../../objects/page/8008.md) · captioned "Imported Subscriptions" · on [Table 8008 "Imported Subscription Header"](../../../../../objects/table/8008.md)
+- [Page 8009 "Imported Service Commitments"](../../../../../objects/page/8009.md) · captioned "Imported Subscription Lines" · on [Table 8009 "Imported Subscription Line"](../../../../../objects/table/8009.md)
+- [Page 8013 "Imported Customer Contracts"](../../../../../objects/page/8013.md) · captioned "Imported Customer Subscription Contracts" · on [Table 8010 "Imported Cust. Sub. Contract"](../../../../../objects/table/8010.md)
+- [Page 8051 "Service Contract Setup"](../../../../../objects/page/8051.md) · captioned "Subscription Contract Setup" · on [Table 8051 "Subscription Contract Setup"](../../../../../objects/table/8051.md)
+- [Page 8054 "Contract Types"](../../../../../objects/page/8054.md) · captioned "Subscription Contract Types" · on [Table 8053 "Subscription Contract Type"](../../../../../objects/table/8053.md)
+- [Page 8059 "Service Objects"](../../../../../objects/page/8059.md) · captioned "Subscriptions" · on [Table 8057 "Subscription Header"](../../../../../objects/table/8057.md)
+- [Page 8061 "Item Serv. Commitment Packages"](../../../../../objects/page/8061.md) · captioned "Item Subscription Packages" · on [Table 8058 "Item Subscription Package"](../../../../../objects/table/8058.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -54,21 +54,37 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BETaxInfo.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/37315",
+        "type": "codeunit",
+        "id": 37315,
+        "name": "PEPPOL30 BE Tax Info",
+        "app": "PeppolBE",
+        "cc": "be",
+        "page": "codeunit/37315-be"
       },
       {
         "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30FormatBE.EnumExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "enumextension/37310",
+        "type": "enumextension",
+        "id": 37310,
+        "name": "PEPPOL 3.0 Format BE",
+        "app": "PeppolBE",
+        "cc": "be",
+        "page": "enumextension/37310-be"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "PeppolBE"
+  ]
 }

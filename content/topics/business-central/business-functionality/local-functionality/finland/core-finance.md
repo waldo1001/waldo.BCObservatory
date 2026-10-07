@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.653Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,6 +105,8 @@ The depreciation page is separate. It describes calculating and posting to the g
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 11207, 11208.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 2 objects with no object page: page/11207, page/11208.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

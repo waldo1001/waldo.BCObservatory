@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 30db3bfc5f43026769c4627830d447e6583a3df8b6a215bd5e0a0a0ef3226264
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al
     title: src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,7 @@ relations:
 
 > Interface "ICustomAgentSample" in AgentDesignExperience (System.Agents.Designer.CustomAgent). 3 public procedures. Introduced in BC29, still in BC30.
 
-AgentDesignExperience · System.Agents.Designer.CustomAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al) · facts from BC29
+AgentDesignExperience · System.Agents.Designer.CustomAgent · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/AgentDesignExperience/app/CustomAgent/Samples/ICustomAgentSample.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -85,6 +85,13 @@ AgentDesignExperience · System.Agents.Designer.CustomAgent · BC29-30 · [sourc
 - `GetAgentCode(): Code[10]`: Gets the unique code that identifies this sample agent.
 - `GetAgentDefinition(var AgentOutStream: OutStream)`: Writes the sample agent definition XML to the provided stream. The XML must conform to the agent import format and include agent metadata, profile, access controls, and instructions. The XML must contain exactly one agent definition. If the XML contains multiple agent definitions, an error will be t...
 - `GetAgentLearnMoreUrl(): Text[2048]`: Gets the URL for documentation or learning resources about this agent.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "ICustomAgentSample")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "ICustomAgentSample"`
 
 ## Across versions
 

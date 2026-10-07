@@ -140,8 +140,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/EDocumentZUGFeRDHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11041",
+        "type": "codeunit",
+        "id": 11041,
+        "name": "E-Document ZUGFeRD Handler",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/11041-de"
+      },
+      {
+        "path": "src/Apps/DK/EDocumentFormatOIOUBL/app/src/EDocumentOIOUBLHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13913",
+        "type": "codeunit",
+        "id": 13913,
+        "name": "E-Document OIOUBL Handler",
+        "app": "EDocumentFormatOIOUBL",
+        "cc": "dk",
+        "page": "codeunit/13913-dk"
+      },
       {
         "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FinishDraft/EDocCreatePurchCrMemo.Codeunit.al",
         "status": "modified",
@@ -187,23 +209,14 @@
         "page": "codeunit/6173"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/EDocumentZUGFeRDHandler.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DK/EDocumentFormatOIOUBL/app/src/EDocumentOIOUBLHandler.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "integration"
   ],
   "apps": [
-    "EDocument"
+    "EDocument",
+    "EDocumentDE",
+    "EDocumentFormatOIOUBL"
   ]
 }

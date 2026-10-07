@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e554e0389ce2edde5f86c09e23d33511f7c33f8e3ecee27ce296e9218523ca55
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al (main)
     date: null
-    commit: ecbc028c25dbe83b61313bc566e6c1d41184bb1c
+    commit: a4406cfa9e57437fedc49c53c327a199a854491e
     t: null
     quote: null
 links:
@@ -73,7 +73,7 @@ relations:
 
 > Interface "PEPPOL PO Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC30.
 
-PEPPOL · Microsoft.Peppol · BC30 · [source at ecbc028c](https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al) · facts from BC30
+PEPPOL · Microsoft.Peppol · BC30 · [source at a4406cfa](https://github.com/microsoft/BCApps/blob/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al) · facts from BC30
 
 ## Procedures
 
@@ -82,6 +82,13 @@ PEPPOL · Microsoft.Peppol · BC30 · [source at ecbc028c](https://github.com/mi
 ## Recent changes
 
 - 2026-09-24 [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../changes/bcapps/11563.md) (main, BC30, feature, added)
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "PEPPOL PO Delivery Period")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "PEPPOL PO Delivery Period"`
 
 ## Across versions
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance
-  objects: []
+  objects:
+    - object/page/4400
+    - object/page/4410
+    - object/page/6996
   features: []
   topics:
     - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
@@ -78,7 +81,7 @@ parent: topic/business-central/copilot-and-agent-capabilities/expense-agent-prev
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 3
   video: 7
   blog: 0
   guideline: 0
@@ -137,6 +140,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4400, 4410, 6996.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4400 "SOA Setup"](../../../../objects/page/4400.md) · captioned "Configure Sales Order Agent" · on [Table 4325 "SOA Setup"](../../../../objects/table/4325.md)
+- [Page 4410 "SOA Multi Items Availability"](../../../../objects/page/4410.md) · captioned "Item Availability" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 6996 "Expense Agent Setup"](../../../../objects/page/6996.md) · captioned "Expense Management Setup" · on [Table 6930 "Expense Agent Setup"](../../../../objects/table/6930.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

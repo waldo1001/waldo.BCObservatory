@@ -2,7 +2,7 @@
 id: object/interface/eet-cash-register-czl-cz
 type: object
 title: Interface "EET Cash Register CZL" (CZ)
-summary: Interface "EET Cash Register CZL" (CZ) in the CZ country layer (Microsoft.Finance). 3 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "EET Cash Register CZL" (CZ) in the CZ country layer (Microsoft.Finance). 3 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 925548c9b6e3b2101cbff7cb96aef859a538bf4b8bc44fb6921d89341fc8aad1
+  input_hash: 0deb49c95807e1311e479b83ecb320e5b21390435ac15e78956525fc8afd2bff
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al
     title: src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -47,9 +47,10 @@ namespace: Microsoft.Finance
 app: CoreLocalizationPack
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -71,9 +72,9 @@ relations:
 
 # Interface "EET Cash Register CZL" (CZ)
 
-> Interface "EET Cash Register CZL" (CZ) in the CZ country layer (Microsoft.Finance). 3 public procedures. Introduced in BC29, gone after BC29.
+> Interface "EET Cash Register CZL" (CZ) in the CZ country layer (Microsoft.Finance). 3 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance · BC29 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Finance · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 
@@ -83,9 +84,18 @@ An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 - `LookupCashRegisterNo(var CashRegisterNo: Code[20]): Boolean`: Show the lookup page of cash registers for cash register no. field.
 - `ShowDocument(CashRegisterNo: Code[20]; DocumentNo: Code[20])`: Show the page of document of cash register.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "EET Cash Register CZL")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "EET Cash Register CZL"`
+
+A CZ country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

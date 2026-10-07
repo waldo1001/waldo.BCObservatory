@@ -1,5 +1,10 @@
 {
   "versions": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
     "28",
     "29",
     "30"
@@ -8,23 +13,32 @@
     "60": {
       "name": "Auto Format Ext",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "327": {
       "name": "No. Series Copilot Cap.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -32,11 +46,12 @@
     "482": {
       "name": "JQ Report Output Type Ext",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -44,11 +59,13 @@
     "900": {
       "name": "Asm. Whse. Req. Source Doc.",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -56,11 +73,13 @@
     "901": {
       "name": "Asm. Whse. Reference Doc. Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -68,11 +87,13 @@
     "902": {
       "name": "Asm. Whse. Act. Source Doc.",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -80,11 +101,12 @@
     "903": {
       "name": "Asm. Replenishment System",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -92,23 +114,37 @@
     "904": {
       "name": "Asm. Item Replenishment System",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "910": {
+      "name": "Asm. Inventory Order Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
     "1814": {
       "name": "Assisted Setup Group- BaseApp",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -116,11 +152,14 @@
     "1876": {
       "name": "Manual Setup Category Ext",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -128,24 +167,37 @@
     "2015": {
       "name": "Entity Text Capability",
       "versions": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "2611": {
       "name": "Feature To Update - BaseApp",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [
+        "26",
+        "27",
+        "28",
         "29"
       ],
       "obsoleted": [],
@@ -154,11 +206,14 @@
     "3711": {
       "name": "Video Category - BaseApp",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -166,11 +221,14 @@
     "3996": {
       "name": "Retention Policy Log Category Schedule",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -178,11 +236,14 @@
     "3999": {
       "name": "Reten. Pol. Doc. Archive Fltrng.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -250,11 +311,14 @@
     "5825": {
       "name": "Marketing Text Scenario",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -262,23 +326,38 @@
     "5900": {
       "name": "Serv.Cust.ReportSelectionSales",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "5909": {
+      "name": "Serv. Inventory Order Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
     "6450": {
       "name": "Serv. Report Selection Usage",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -286,11 +365,14 @@
     "6451": {
       "name": "Serv. Reservation Summary Type",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -298,11 +380,14 @@
     "6452": {
       "name": "Serv. Supply Document Type",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -310,11 +395,14 @@
     "6457": {
       "name": "Serv. Unplanned Demand Type",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -322,11 +410,14 @@
     "6458": {
       "name": "Serv. Order. Prom. Source Type",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -334,11 +425,14 @@
     "6460": {
       "name": "Serv. Whse. Jnl. Source Doc.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -346,11 +440,14 @@
     "6461": {
       "name": "Serv. Whse. Req. Source Doc.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -358,11 +455,14 @@
     "6462": {
       "name": "Serv. Whse. Act. Source Doc.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -370,11 +470,14 @@
     "6464": {
       "name": "Serv. Electr.Doc.Format Usage",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -382,11 +485,14 @@
     "7014": {
       "name": "Serv. Price Asset Type",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -406,11 +512,14 @@
     "8891": {
       "name": "Base Email Scenario",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -418,11 +527,14 @@
     "8892": {
       "name": "Serv. Email Scenario",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -430,23 +542,118 @@
     "8900": {
       "name": "Email Address Entity",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "130045": {
+      "name": "SignupContextTestValue",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "132584": {
+      "name": "AutoFormatTest",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "132586": {
+      "name": "Assisted Setup Test Group",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "132683": {
+      "name": "Azure OpenAI Capability",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "134684": {
+      "name": "Test Email Connector",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "134685": {
+      "name": "Test Email Scenario",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "135055": {
+      "name": "Unsupported Symbology",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "135056": {
+      "name": "Unsupported Symbology 2D",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
     "99000750": {
       "name": "Mfg. Report Selection Usage",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -454,11 +661,13 @@
     "99000770": {
       "name": "Mfg. Whse. Req. Source Doc.",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -466,11 +675,13 @@
     "99000771": {
       "name": "Mfg. Whse. Reference Doc. Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -478,23 +689,47 @@
     "99000772": {
       "name": "Mfg. Whse. Destination Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "99000773": {
+      "name": "Mfg. Whse. Activity Doc. Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
+    "99000774": {
+      "name": "Mfg. Whse. Act. Source Doc.",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
     "99000775": {
       "name": "Mfg. Whse. Pick Document Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -502,23 +737,47 @@
     "99000776": {
       "name": "Mfg. Whse. Pick Rqst. Doc. Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "99000777": {
+      "name": "Mfg. Whse. Jnl. Document Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
+    "99000778": {
+      "name": "Mfg. Whse. Worksheet Doc. Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
     "99000780": {
       "name": "Mfg. Whse. PutAway Rqst. Doc. Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -526,23 +785,36 @@
     "99000783": {
       "name": "Mfg. Item Journal Templ. Type",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "99000800": {
+      "name": "Mfg. Inventory Order Type",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
+    },
     "99000801": {
       "name": "Mfg. Attachment Document Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -550,11 +822,13 @@
     "99000802": {
       "name": "Mfg. Standard Cost Source Type",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null

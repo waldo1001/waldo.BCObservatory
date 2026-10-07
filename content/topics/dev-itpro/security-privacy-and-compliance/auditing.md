@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:02.608Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/audit-events-in-purview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/auditing-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing
-  objects: []
+  objects:
+    - object/page/592
+    - object/page/593
+    - object/page/594
+    - object/page/595
+    - object/page/710
+    - object/page/1366
+    - object/page/1367
+    - object/page/1368
+    - object/page/1369
   features: []
   topics:
     - topic/dev-itpro/security-privacy-and-compliance
@@ -67,7 +76,7 @@ parent: topic/dev-itpro/security-privacy-and-compliance
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 9
   video: 0
   blog: 0
   guideline: 0
@@ -118,6 +127,16 @@ A fourth page documents the events Business Central emits automatically to Micro
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 592 "Change Log Setup"](../../../objects/page/592.md) · on [Table 402 "Change Log Setup"](../../../objects/table/402.md)
+- [Page 593 "Change Log Setup (Table) List"](../../../objects/page/593.md)
+- [Page 594 "Change Log Setup (Field) List"](../../../objects/page/594.md)
+- [Page 595 "Change Log Entries"](../../../objects/page/595.md) · on [Table 405 "Change Log Entry"](../../../objects/table/405.md)
+- [Page 710 "Activity Log"](../../../objects/page/710.md) · on [Table 710 "Activity Log"](../../../objects/table/710.md)
+- [Page 1366 "Field Monitoring Setup"](../../../objects/page/1366.md) · on [Table 1366 "Field Monitoring Setup"](../../../objects/table/1366.md)
+- [Page 1367 "Monitored Field Log Entries"](../../../objects/page/1367.md) · on [Table 405 "Change Log Entry"](../../../objects/table/405.md)
+- [Page 1368 "Monitor Field Setup Wizard"](../../../objects/page/1368.md) · captioned "Field Monitoring Assisted Setup Guide"
+- [Page 1369 "Monitored Fields Worksheet"](../../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../../objects/table/404.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

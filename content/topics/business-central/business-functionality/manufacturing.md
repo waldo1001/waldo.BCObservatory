@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,7 +310,117 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-scrap
     - https://learn.microsoft.com/dynamics365/business-central/production-how-to-register-consumption-and-output
     - https://learn.microsoft.com/dynamics365/business-central/production-cancel-production-orders-that-have-consumption
-  objects: []
+  objects:
+    - object/page/50
+    - object/page/5406
+    - object/page/5407
+    - object/page/5510
+    - object/page/5728
+    - object/page/5805
+    - object/page/5832
+    - object/page/8903
+    - object/page/9011
+    - object/page/9012
+    - object/page/9013
+    - object/page/9041
+    - object/page/9044
+    - object/page/9047
+    - object/page/9323
+    - object/page/9324
+    - object/page/9325
+    - object/page/9326
+    - object/page/9327
+    - object/page/36951
+    - object/page/37040
+    - object/page/37041
+    - object/page/37042
+    - object/page/37043
+    - object/page/37044
+    - object/page/37045
+    - object/page/37046
+    - object/page/37047
+    - object/page/37048
+    - object/page/37049
+    - object/page/37055
+    - object/page/37063
+    - object/page/37094
+    - object/page/37095
+    - object/page/37096
+    - object/page/37097
+    - object/page/37098
+    - object/page/37099
+    - object/page/37107
+    - object/page/99000768
+    - object/page/99000773
+    - object/page/99000778
+    - object/page/99000779
+    - object/page/99000780
+    - object/page/99000784
+    - object/page/99000785
+    - object/page/99000788
+    - object/page/99000802
+    - object/page/99000813
+    - object/page/99000814
+    - object/page/99000815
+    - object/page/99000816
+    - object/page/99000818
+    - object/page/99000820
+    - object/page/99000823
+    - object/page/99000827
+    - object/page/99000829
+    - object/page/99000830
+    - object/page/99000831
+    - object/page/99000832
+    - object/page/99000833
+    - object/page/99000838
+    - object/page/99000839
+    - object/page/99000846
+    - object/page/99000850
+    - object/page/99000866
+    - object/page/99000867
+    - object/page/99000868
+    - object/page/99000882
+    - object/page/99000886
+    - object/page/99000887
+    - object/page/99000888
+    - object/page/99000889
+    - object/page/99000890
+    - object/page/99000891
+    - object/page/99000892
+    - object/page/99000897
+    - object/page/99000898
+    - object/page/99000900
+    - object/page/99000912
+    - object/page/99000913
+    - object/page/99000914
+    - object/page/99000915
+    - object/page/99000916
+    - object/page/99000917
+    - object/report/5802
+    - object/report/5871
+    - object/report/5872
+    - object/report/99000753
+    - object/report/99000754
+    - object/report/99000755
+    - object/report/99000756
+    - object/report/99000757
+    - object/report/99000758
+    - object/report/99000759
+    - object/report/99000760
+    - object/report/99000762
+    - object/report/99000763
+    - object/report/99000764
+    - object/report/99000767
+    - object/report/99000768
+    - object/report/99000769
+    - object/report/99000780
+    - object/report/99000783
+    - object/report/99000784
+    - object/report/99000786
+    - object/report/99000787
+    - object/report/99000788
+    - object/report/99000789
+    - object/report/99000791
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -361,7 +471,7 @@ children:
   - topic/business-central/business-functionality/manufacturing/subcontracting
 coverage:
   learn: 65
-  code: 0
+  code: 110
   video: 10
   blog: 1
   guideline: 0
@@ -562,6 +672,119 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 50, 5406, 5407, 5510, 5728, 5802, 5805, 5832, 5871, 5872, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 36951, 37040, 37041, 37042, 37043, 37044, 37045, 37046, 37047, 37048, 37049, 37055, 37063, 37094, 37095, 37096, 37097, 37098, 37099, 37107, 9900083, 99000753, 99000754, 99000755, 99000756, 99000757, 99000758, 99000759, 99000760, 99000762, 99000763, 99000764, 99000767, 99000768, 99000769, 99000773, 99000778, 99000779, 99000780, 99000783, 99000784, 99000785, 99000786, 99000787, 99000788, 99000789, 99000791, 99000802, 99000813, 99000814, 99000815, 99000816, 99000818, 99000820, 99000823, 99000827, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000846, 99000850, 99000866, 99000867, 99000868, 99000882, 99000886, 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000915, 99000916, 99000917, 99001503, 99001504, 99001560, 99001561, 990000785.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5406 "Prod. Order Line List"](../../../objects/page/5406.md) · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 5407 "Prod. Order Comp. Line List"](../../../objects/page/5407.md) · captioned "Prod. Order Comp. Lines" · on [Table 5407 "Prod. Order Component"](../../../objects/table/5407.md)
+- [Page 5510 "Production Journal"](../../../objects/page/5510.md) · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 5728 "Manufacturers"](../../../objects/page/5728.md) · on [Table 5720 "Manufacturer"](../../../objects/table/5720.md)
+- [Page 5832 "Capacity Ledger Entries"](../../../objects/page/5832.md) · on [Table 5832 "Capacity Ledger Entry"](../../../objects/table/5832.md)
+- [Page 8903 "Manufacturing Manager RC"](../../../objects/page/8903.md)
+- [Page 9011 "Shop Supervisor Mfg Foundation"](../../../objects/page/9011.md) · captioned "Shop Supervisor - Manufacturing Foundation"
+- [Page 9012 "Shop Supervisor Role Center"](../../../objects/page/9012.md) · captioned "Shop Supervisor - Manufacturing Comprehensive"
+- [Page 9013 "Machine Operator Role Center"](../../../objects/page/9013.md) · captioned "Machine Operator - Manufacturing Comprehensive"
+- [Page 9041 "Shop Supervisor Activities"](../../../objects/page/9041.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../../objects/table/9056.md)
+- [Page 9044 "Shop Super. basic Activities"](../../../objects/page/9044.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../../objects/table/9056.md)
+- [Page 9047 "Machine Operator Activities"](../../../objects/page/9047.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../../objects/table/9056.md)
+- [Page 9323 "Simulated Production Orders"](../../../objects/page/9323.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 9324 "Planned Production Orders"](../../../objects/page/9324.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 9325 "Firm Planned Prod. Orders"](../../../objects/page/9325.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 9326 "Released Production Orders"](../../../objects/page/9326.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 9327 "Finished Production Orders"](../../../objects/page/9327.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 37040 "Current Utilization"](../../../objects/page/37040.md)
+- [Page 37041 "Historical Utilization"](../../../objects/page/37041.md)
+- [Page 37042 "PowerBI Work Center Load"](../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
+- [Page 37043 "Allocated Hours"](../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
+- [Page 37044 "Expected Capacity Need"](../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"
+- [Page 37045 "Finished Prod. Order Breakdown"](../../../objects/page/37045.md) · captioned "Finished Production Order Breakdown (Power BI)"
+- [Page 37046 "Consumption Variance"](../../../objects/page/37046.md) · captioned "Consumption Variance (Power BI)"
+- [Page 37047 "Capacity Variance"](../../../objects/page/37047.md) · captioned "Capacity Variance (Power BI)"
+- [Page 37048 "Average Productions Times"](../../../objects/page/37048.md) · captioned "Average Productions Times (Power BI)"
+- [Page 37049 "PowerBI Released Prod. Orders"](../../../objects/page/37049.md) · captioned "Released Production Orders (Power BI)"
+- [Page 37055 "Production Scrap"](../../../objects/page/37055.md) · captioned "Production Scrap (Power BI)"
+- [Page 99000768 "Manufacturing Setup"](../../../objects/page/99000768.md) · on [Table 99000765 "Manufacturing Setup"](../../../objects/table/99000765.md)
+- [Page 99000773 "Capacity Journal"](../../../objects/page/99000773.md) · captioned "Capacity Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000778 "Recurring Capacity Journal"](../../../objects/page/99000778.md) · captioned "Recurring Capacity Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000779 "Stop Codes"](../../../objects/page/99000779.md) · on [Table 99000761 "Stop"](../../../objects/table/99000761.md)
+- [Page 99000780 "Scrap Codes"](../../../objects/page/99000780.md) · on [Table 99000762 "Scrap"](../../../objects/table/99000762.md)
+- [Page 99000784 "Manufacturing Comment Sheet"](../../../objects/page/99000784.md) · captioned "Comment Sheet" · on [Table 99000770 "Manufacturing Comment Line"](../../../objects/table/99000770.md)
+- [Page 99000785 "Manufacturing Comment List"](../../../objects/page/99000785.md) · captioned "Comment List" · on [Table 99000770 "Manufacturing Comment Line"](../../../objects/table/99000770.md)
+- [Page 99000802 "Capacity Units of Measure"](../../../objects/page/99000802.md) · on [Table 99000780 "Capacity Unit of Measure"](../../../objects/table/99000780.md)
+- [Page 99000813 "Planned Production Order"](../../../objects/page/99000813.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000814 "Planned Prod. Order Lines"](../../../objects/page/99000814.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000815 "Production Order List"](../../../objects/page/99000815.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000816 "Production Order Statistics"](../../../objects/page/99000816.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000820 "Prod. Order Capacity Need"](../../../objects/page/99000820.md) · on [Table 5410 "Prod. Order Capacity Need"](../../../objects/table/5410.md)
+- [Page 99000823 "Output Journal"](../../../objects/page/99000823.md) · captioned "Output Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000827 "Recurring Output Journal"](../../../objects/page/99000827.md) · captioned "Recurring Output Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000829 "Firm Planned Prod. Order"](../../../objects/page/99000829.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000830 "Firm Planned Prod. Order Lines"](../../../objects/page/99000830.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000831 "Released Production Order"](../../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000832 "Released Prod. Order Lines"](../../../objects/page/99000832.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000833 "Check Prod. Order Status"](../../../objects/page/99000833.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 99000838 "Prod. Order Comment Sheet"](../../../objects/page/99000838.md) · captioned "Comment Sheet" · on [Table 5414 "Prod. Order Comment Line"](../../../objects/table/5414.md)
+- [Page 99000839 "Prod. Order Comment List"](../../../objects/page/99000839.md) · captioned "Comment List" · on [Table 5414 "Prod. Order Comment Line"](../../../objects/table/5414.md)
+- [Page 99000846 "Consumption Journal"](../../../objects/page/99000846.md) · captioned "Consumption Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000850 "Recurring Consumption Journal"](../../../objects/page/99000850.md) · captioned "Recurring Consumption Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md)
+- [Page 99000866 "Capacity Constrained Resources"](../../../objects/page/99000866.md) · on [Table 99000866 "Capacity Constrained Resource"](../../../objects/table/99000866.md)
+- [Page 99000867 "Finished Production Order"](../../../objects/page/99000867.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000868 "Finished Prod. Order Lines"](../../../objects/page/99000868.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000882 "Change Status on Prod. Order"](../../../objects/page/99000882.md)
+- [Page 99000897 "Available - Prod. Order Lines"](../../../objects/page/99000897.md) · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000898 "Available - Prod. Order Comp."](../../../objects/page/99000898.md) · on [Table 5407 "Prod. Order Component"](../../../objects/table/5407.md)
+- [Page 99000900 "Avail. - Planning Components"](../../../objects/page/99000900.md) · on [Table 99000829 "Planning Component"](../../../objects/table/99000829.md)
+- [Page 99000912 "Simulated Production Order"](../../../objects/page/99000912.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000913 "Simulated Prod. Order Lines"](../../../objects/page/99000913.md) · captioned "Lines" · on [Table 5406 "Prod. Order Line"](../../../objects/table/5406.md)
+- [Page 99000914 "Change Production Order Status"](../../../objects/page/99000914.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
+- [Page 99000917 "Report Selection - Prod. Order"](../../../objects/page/99000917.md) · captioned "Report Selection - Production" · on [Table 77 "Report Selections"](../../../objects/table/77.md)
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Subcontracting](manufacturing/subcontracting.md)
+- [Page 5805 "Item Charge Assignment (Purch)"](../../../objects/page/5805.md) · on [Table 5805 "Item Charge Assignment (Purch)"](../../../objects/table/5805.md) · via [Subcontracting](manufacturing/subcontracting.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37063 "Manufacturing Report"](../../../objects/page/37063.md) · captioned "Manufacturing Report (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37094 "PBI Work Center Statistics"](../../../objects/page/37094.md) · captioned "Work Center Statistics (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37095 "PBI Machine Center Statistics"](../../../objects/page/37095.md) · captioned "Machine Center Statistics (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37096 "PBI Machine Center Load"](../../../objects/page/37096.md) · captioned "Machine Center Load (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37097 "Prod. Order - List"](../../../objects/page/37097.md) · captioned "Production Order - List (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37098 "Production Order Overview"](../../../objects/page/37098.md) · captioned "Production Order Overview (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37099 "Prod. Order Routings Gantt"](../../../objects/page/37099.md) · captioned "Production Order Routings Gantt (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 37107 "Production Order WIP"](../../../objects/page/37107.md) · captioned "Production Order WIP (Power BI)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000788 "Production BOM Lines"](../../../objects/page/99000788.md) · captioned "Lines" · on [Table 99000772 "Production BOM Line"](../../../objects/table/99000772.md) · via [Subcontracting](manufacturing/subcontracting.md)
+- [Page 99000818 "Prod. Order Components"](../../../objects/page/99000818.md) · on [Table 5407 "Prod. Order Component"](../../../objects/table/5407.md) · via [Subcontracting](manufacturing/subcontracting.md)
+- [Page 99000886 "Subcontracting Worksheet"](../../../objects/page/99000886.md) · captioned "Subcontracting Worksheets (Obsolete)" · on [Table 246 "Requisition Line"](../../../objects/table/246.md) · via [Subcontracting](manufacturing/subcontracting.md)
+- [Page 99000887 "Work Center Load"](../../../objects/page/99000887.md) · on [Table 99000754 "Work Center"](../../../objects/table/99000754.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000888 "Work Center Load Lines"](../../../objects/page/99000888.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../../objects/table/933.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000889 "Machine Center Load"](../../../objects/page/99000889.md) · on [Table 99000758 "Machine Center"](../../../objects/table/99000758.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000890 "Machine Center Load Lines"](../../../objects/page/99000890.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../../objects/table/933.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000891 "Work Center Group Load"](../../../objects/page/99000891.md) · on [Table 99000756 "Work Center Group"](../../../objects/table/99000756.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000892 "Work Center Group Load Lines"](../../../objects/page/99000892.md) · captioned "Lines" · on [Table 933 "Load Buffer"](../../../objects/table/933.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000915 "Work Center Task List"](../../../objects/page/99000915.md) · on [Table 5409 "Prod. Order Routing Line"](../../../objects/table/5409.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Page 99000916 "Machine Center Task List"](../../../objects/page/99000916.md) · on [Table 5409 "Prod. Order Routing Line"](../../../objects/table/5409.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 5802 "Inventory Valuation - WIP"](../../../objects/report/5802.md) · captioned "Production Order - WIP" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 5871 "Item - Able to Make (Timeline)"](../../../objects/report/5871.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 5872 "BOM Cost Share Distribution"](../../../objects/report/5872.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000753 "Quantity Explosion of BOM"](../../../objects/report/99000753.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000754 "Rolled-up Cost Shares"](../../../objects/report/99000754.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000755 "Single-level Cost Shares"](../../../objects/report/99000755.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000756 "Detailed Calculation"](../../../objects/report/99000756.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000757 "Where-Used (Top Level)"](../../../objects/report/99000757.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000758 "Compare List"](../../../objects/report/99000758.md) · captioned "Item BOM Compare List (Obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000759 "Work Center List"](../../../objects/report/99000759.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000760 "Machine Center List"](../../../objects/report/99000760.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000762 "Prod. Order - Job Card"](../../../objects/report/99000762.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000763 "Prod. Order - List"](../../../objects/report/99000763.md) · captioned "Production Order - List" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000764 "Prod. Order - Precalc. Time"](../../../objects/report/99000764.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000767 "Prod. Order - Calculation"](../../../objects/report/99000767.md) · captioned "Prod. Order - Calculation (Obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000768 "Prod. Order - Detailed Calc."](../../../objects/report/99000768.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000769 "Output Item Label"](../../../objects/report/99000769.md) · captioned "Production Output Item Label" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000780 "Capacity Task List"](../../../objects/report/99000780.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000783 "Work Center Load"](../../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000784 "Machine Center Load"](../../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000786 "Machine Center Load/Bar"](../../../objects/report/99000786.md) · captioned "Machine Center Load/Bar (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000787 "Routing Sheet"](../../../objects/report/99000787.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000788 "Prod. Order - Shortage List"](../../../objects/report/99000788.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000789 "Subcontractor - Dispatch List"](../../../objects/report/99000789.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000791 "Production Order Statistics"](../../../objects/report/99000791.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+
+Learn also names 6 objects with no object page: page/9900083, page/99001503, page/99001504, page/99001560, page/99001561, report/990000785.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

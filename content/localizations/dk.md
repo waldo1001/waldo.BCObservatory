@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 9611cbe1471a979fc1133090e5a0a540cb83c80ded5b7525c7412d37b59ffccf
+  input_hash: 5fa3cbe89a94e8ce7b0a4b0bbd6819f05f9876df1fe84b0e766bc06a576baa1d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-dk
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -661,6 +661,6 @@ Objects: [tableextension/13661 "OIOUBL-Record Export Buffer"](../objects/tableex
 
 ## Other versions
 
-- BC30: 0 objects differ from W1 (0 fields, 0 events added)
+- BC30: 432 objects differ from W1 (0 fields, 0 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

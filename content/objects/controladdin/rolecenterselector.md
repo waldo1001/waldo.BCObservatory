@@ -2,15 +2,15 @@
 id: object/controladdin/rolecenterselector
 type: object
 title: Control add-in "RoleCenterSelector"
-summary: Control add-in "RoleCenterSelector" in System Application (System.Environment). 3 public procedures. Present since at least BC28, still in BC30.
+summary: Control add-in "RoleCenterSelector" in System Application (System.Environment). 3 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 tier: official
 language: en
 tags:
   - controladdin
   - system application
 versions:
-  introduced: null
-  last_changed: null
+  introduced: "24"
+  last_changed: "26"
   deprecated: null
 review:
   state: unreviewed
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: af88e9dff9235ef76b0d9bbae3d2b869beb180e43b48a295b24185da196e398d
+  input_hash: 50156bed5a2db7ab59b7af72c050d38cec2e5082c797bc847d31d1a3745c6ba8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -45,13 +45,18 @@ name: RoleCenterSelector
 namespace: System.Environment
 app: System Application
 extends: null
-first_version: "28"
+first_version: "24"
 last_version: "30"
 present_in:
+  - "24"
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
-changed_in: []
+changed_in:
+  - "26"
 source_major: "29"
 obsolete: null
 countries: []
@@ -71,9 +76,9 @@ relations:
 
 # Control add-in "RoleCenterSelector"
 
-> Control add-in "RoleCenterSelector" in System Application (System.Environment). 3 public procedures. Present since at least BC28, still in BC30.
+> Control add-in "RoleCenterSelector" in System Application (System.Environment). 3 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-System Application · System.Environment · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al) · facts from BC29
+System Application · System.Environment · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/System%20Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al) · facts from BC29
 
 ## Procedures
 
@@ -81,9 +86,16 @@ System Application · System.Environment · BC28-30 · [source at 1d24dd5e](http
 - `LoadPageDataFromJson(Json: Text)`
 - `SetCurrentProfileId(ProfileId: Text)`
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "controladdin", object_name: "RoleCenterSelector")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node controladdin "RoleCenterSelector"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
-- Changed (declaration) in: none
+- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Changed (declaration) in: BC26
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

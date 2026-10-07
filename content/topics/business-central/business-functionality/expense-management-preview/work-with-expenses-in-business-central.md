@@ -11,7 +11,7 @@ review:
   at: "2026-10-06T15:20:22.971Z"
   flags: []
 generated:
-  at: "2026-10-06T15:20:40.673Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,36 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-record-reimburse-employee-expenses
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports
-  objects: []
+  objects:
+    - object/page/63
+    - object/page/234
+    - object/page/625
+    - object/page/5224
+    - object/page/5237
+    - object/page/5238
+    - object/page/5239
+    - object/page/5240
+    - object/page/6903
+    - object/page/6910
+    - object/page/6911
+    - object/page/6939
+    - object/page/6953
+    - object/page/6960
+    - object/page/6974
+    - object/page/6975
+    - object/page/6979
+    - object/page/6980
+    - object/page/6981
+    - object/page/6987
+    - object/page/6988
+    - object/page/6989
+    - object/page/6992
+    - object/page/6997
+    - object/page/6998
+    - object/page/7101
+    - object/page/7129
+    - object/page/7136
+    - object/page/7137
   features: []
   topics:
     - topic/business-central/business-functionality/expense-management-preview
@@ -84,7 +113,7 @@ parent: topic/business-central/business-functionality/expense-management-preview
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 29
   video: 0
   blog: 0
   guideline: 0
@@ -157,6 +186,36 @@ Start with the page on creating and managing expenses if you are setting up the 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 63, 234, 625, 5224, 5237, 5238, 5239, 5240, 6903, 6910, 6911, 6939, 6953, 6960, 6974, 6975, 6979, 6980, 6981, 6987, 6988, 6989, 6992, 6997, 6998, 7101, 7129, 7136, 7137.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 63 "Applied Employee Entries"](../../../../objects/page/63.md) · on [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md)
+- [Page 234 "Apply Employee Entries"](../../../../objects/page/234.md) · on [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md)
+- [Page 625 "Unapply Employee Entries"](../../../../objects/page/625.md) · on [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md)
+- [Page 5224 "Employee Posting Groups"](../../../../objects/page/5224.md) · on [Table 5221 "Employee Posting Group"](../../../../objects/table/5221.md)
+- [Page 5237 "Employee Ledger Entries"](../../../../objects/page/5237.md) · on [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md)
+- [Page 5238 "Detailed Empl. Ledger Entries"](../../../../objects/page/5238.md) · captioned "Detailed Employee Ledger Entries" · on [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md)
+- [Page 5239 "Empl. Ledger Entries Preview"](../../../../objects/page/5239.md) · captioned "Employee Entries Preview" · on [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md)
+- [Page 5240 "Detailed Empl. Entries Preview"](../../../../objects/page/5240.md) · on [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md)
+- [Page 6903 "Expense Ledger Entries"](../../../../objects/page/6903.md) · on [Table 6912 "Expense Ledger Entry"](../../../../objects/table/6912.md)
+- [Page 6910 "Expense Report"](../../../../objects/page/6910.md) · on [Table 6906 "Expense Report Header"](../../../../objects/table/6906.md)
+- [Page 6911 "Expense Report Lines"](../../../../objects/page/6911.md) · on [Table 6907 "Expense Report Line"](../../../../objects/table/6907.md)
+- [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md) · on [Table 6932 "Expense Approval Setup"](../../../../objects/table/6932.md)
+- [Page 6953 "Posted Expense Report Lines"](../../../../objects/page/6953.md) · on [Table 6916 "Posted Expense Report Line"](../../../../objects/table/6916.md)
+- [Page 6960 "Add Expenses To Expense Report"](../../../../objects/page/6960.md)
+- [Page 6974 "Per Diem Expenses"](../../../../objects/page/6974.md) · on [Table 6905 "Expense Per Diem"](../../../../objects/table/6905.md)
+- [Page 6975 "Expense Itemizations"](../../../../objects/page/6975.md) · on [Table 6902 "Expense Itemization"](../../../../objects/table/6902.md)
+- [Page 6979 "Expense Report List"](../../../../objects/page/6979.md) · on [Table 6906 "Expense Report Header"](../../../../objects/table/6906.md)
+- [Page 6980 "Manager Expense Report"](../../../../objects/page/6980.md) · on [Table 6906 "Expense Report Header"](../../../../objects/table/6906.md)
+- [Page 6981 "Manager Expense Reports"](../../../../objects/page/6981.md) · on [Table 6906 "Expense Report Header"](../../../../objects/table/6906.md)
+- [Page 6987 "Posted Expense Reports"](../../../../objects/page/6987.md) · on [Table 6915 "Posted Expense Report Header"](../../../../objects/table/6915.md)
+- [Page 6988 "Expense"](../../../../objects/page/6988.md) · on [Table 6900 "Expense"](../../../../objects/table/6900.md)
+- [Page 6989 "Expenses"](../../../../objects/page/6989.md) · on [Table 6900 "Expense"](../../../../objects/table/6900.md)
+- [Page 6992 "Expense Participants"](../../../../objects/page/6992.md) · on [Table 6904 "Expense Participant"](../../../../objects/table/6904.md)
+- [Page 6997 "Expense Reports"](../../../../objects/page/6997.md) · on [Table 6906 "Expense Report Header"](../../../../objects/table/6906.md)
+- [Page 6998 "Posted Expense Report"](../../../../objects/page/6998.md) · on [Table 6915 "Posted Expense Report Header"](../../../../objects/table/6915.md)
+- [Page 7101 "Travelers"](../../../../objects/page/7101.md) · on [Table 6938 "Traveler"](../../../../objects/table/6938.md)
+- [Page 7129 "Travel Request Card"](../../../../objects/page/7129.md) · captioned "Travel Request" · on [Table 6840 "Spend Request"](../../../../objects/table/6840.md)
+- [Page 7136 "Travel Request List"](../../../../objects/page/7136.md) · captioned "Travel Requests" · on [Table 6840 "Spend Request"](../../../../objects/table/6840.md)
+- [Page 7137 "Travel Request Subform"](../../../../objects/page/7137.md) · captioned "Lines" · on [Table 6841 "Spend Request Detail"](../../../../objects/table/6841.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

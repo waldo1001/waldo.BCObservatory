@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:30.197Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,6 +170,8 @@ This section covers the Italian localization of VAT. A general page on Italian V
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 12100, 12104, 12105, 12111, 12112, 12113, 12116, 12121, 12122, 12123, 12126, 12127, 12133, 12135, 12141, 12143, 12149, 12150, 12151, 12158, 12187, 12189, 12198, 12199, 12202.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 25 objects with no object page: page/12100, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12121, page/12122, page/12123, page/12126, page/12127, page/12133, page/12135, page/12141, page/12143, page/12149, page/12150, page/12151, page/12158, page/12187, page/12189, page/12198, page/12199, page/12202.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

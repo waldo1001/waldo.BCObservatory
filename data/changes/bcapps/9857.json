@@ -94,56 +94,111 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11710",
+        "type": "codeunit",
+        "id": 11710,
+        "name": "Data Class. Eval. Handler CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11710-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EPOAPIMgtCZL.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EPOAPISubmissionCZL.Codeunit.al",
-        "status": "removed",
-        "reason": "removed"
+        "key": "codeunit/31175",
+        "type": "codeunit",
+        "id": 31175,
+        "name": "EPO API Mgt. CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31175-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATReportSubmitCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31170",
+        "type": "codeunit",
+        "id": 31170,
+        "name": "VAT Report Submit CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31170-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EPOServiceSetupCZL.Page.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "page/11705",
+        "type": "page",
+        "id": 11705,
+        "name": "EPO Service Setup CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/11705-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackEditCZL.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11731",
+        "type": "permissionset",
+        "id": 11731,
+        "name": "CZ Core Pack - Edit CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11731-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11732",
+        "type": "permissionset",
+        "id": 11732,
+        "name": "CZ Core Pack - Objects CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11732-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackReadCZL.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11730",
+        "type": "permissionset",
+        "id": 11730,
+        "name": "CZ Core Pack - Read CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11730-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EPOServiceSetupCZL.Table.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "table/11724",
+        "type": "table",
+        "id": 11724,
+        "name": "EPO Service Setup CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/11724-cz"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EPOAPISubmissionCZL.Codeunit.al",
+        "status": "removed",
+        "reason": "removed"
       }
     ]
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance",
+    "development",
+    "platform"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

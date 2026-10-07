@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -320,7 +320,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/transition-to-api-v2.0
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering
-  objects: []
+  objects:
+    - object/page/812
   features: []
   topics:
     - topic/dev-itpro/integration/web-services
@@ -352,7 +353,7 @@ children:
   - topic/dev-itpro/integration/web-services/apis/finance-reports-api
 coverage:
   learn: 261
-  code: 0
+  code: 1
   video: 1
   blog: 6
   guideline: 0
@@ -414,6 +415,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 812.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 812 "API Overview"](../../../../objects/page/812.md) · on [Table 812 "API Overview Buffer"](../../../../objects/table/812.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

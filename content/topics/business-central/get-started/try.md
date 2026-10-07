@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:13.761Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/trials-subscriptions
     - https://learn.microsoft.com/dynamics365/business-central/ui-troubleshoot-self-signup
     - https://learn.microsoft.com/dynamics365/business-central/admin-cancel
-  objects: []
+  objects:
+    - object/page/1801
+    - object/page/1803
   features: []
   topics:
     - topic/business-central/get-started
@@ -91,7 +93,7 @@ parent: topic/business-central/get-started
 children: []
 coverage:
   learn: 7
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -138,6 +140,9 @@ Start with "Sign up for a free trial". Use the Trial FAQ for quick answers, and 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1801, 1803.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1801 "Assisted Setup"](../../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md)
+- [Page 1803 "Assisted Company Setup Wizard"](../../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../../objects/table/8627.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

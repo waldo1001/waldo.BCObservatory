@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a0521d5e056e856f7487f0dc5a6978f01a0e152ceabe0eade25f3bb50b474feb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,7 @@ relations:
 
 > Interface "PEPPOL Purchase Party Info Provider" in PEPPOL (Microsoft.Peppol). 8 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -84,6 +84,13 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at 1d24dd5e](https://github.com
 - `GetSellerSupplierPartyContact(PurchaseHeader: Record "Purchase Header"; var ContactName: Text; var ContactPhone: Text; var ContactTelefax: Text; var ContactEmail: Text)`: Gets seller supplier (vendor) party contact information from the purchase header.
 - `GetBuyerCustomerPartyPostalAddr(PurchaseHeader: Record "Purchase Header"; var StreetName: Text; var BuyerCustomerAdditionalStreetName: Text; var CityName: Text; var PostalZone: Text; var CountrySubentity: Text; var IdentificationCode: Text; var ListID: Text)`: Gets buyer customer party postal address information from the purchase header.
 - `GetBuyerCustomerPartyContact(PurchaseHeader: Record "Purchase Header"; var BuyerCustomerPartyContactName: Text; var BuyerCustomerPartyContactPhone: Text; var BuyerCustomerPartyContactEmail: Text)`: Gets buyer customer party contact information from the purchase header.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "PEPPOL Purchase Party Info Provider")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "PEPPOL Purchase Party Info Provider"`
 
 ## Across versions
 

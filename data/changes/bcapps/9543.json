@@ -82,31 +82,59 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/ElecVATDeclAzKeyVault.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/13668",
+        "type": "codeunit",
+        "id": 13668,
+        "name": "Elec. VAT Decl. Az. Key Vault",
+        "app": "ElectronicVATDeclarationDK",
+        "cc": "dk",
+        "page": "codeunit/13668-dk"
       },
       {
         "path": "src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/VATReportFramework/ElecVATDeclGetPeriods.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/13610",
+        "type": "codeunit",
+        "id": 13610,
+        "name": "Elec. VAT Decl. Get Periods",
+        "app": "ElectronicVATDeclarationDK",
+        "cc": "dk",
+        "page": "codeunit/13610-dk"
       },
       {
         "path": "src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/VATReportFramework/ElecVATDeclRepFrequency.Enum.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "enum/13605",
+        "type": "enum",
+        "id": 13605,
+        "name": "Elec. VAT Decl. Rep. Frequency",
+        "app": "ElectronicVATDeclarationDK",
+        "cc": "dk",
+        "page": "enum/13605-dk"
       },
       {
         "path": "src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/XML/ElecVATDeclXml.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/13618",
+        "type": "codeunit",
+        "id": 13618,
+        "name": "Elec. VAT Decl. Xml",
+        "app": "ElectronicVATDeclarationDK",
+        "cc": "dk",
+        "page": "codeunit/13618-dk"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ElectronicVATDeclarationDK"
+  ]
 }

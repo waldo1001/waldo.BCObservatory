@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,7 +146,53 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/shopify/transactions-and-payouts
     - https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot
     - https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos
-  objects: []
+  objects:
+    - object/page/30100
+    - object/page/30101
+    - object/page/30102
+    - object/page/30103
+    - object/page/30104
+    - object/page/30105
+    - object/page/30106
+    - object/page/30107
+    - object/page/30108
+    - object/page/30109
+    - object/page/30110
+    - object/page/30111
+    - object/page/30112
+    - object/page/30113
+    - object/page/30114
+    - object/page/30115
+    - object/page/30116
+    - object/page/30117
+    - object/page/30118
+    - object/page/30119
+    - object/page/30120
+    - object/page/30121
+    - object/page/30122
+    - object/page/30123
+    - object/page/30124
+    - object/page/30125
+    - object/page/30126
+    - object/page/30127
+    - object/page/30128
+    - object/page/30129
+    - object/page/30130
+    - object/page/30131
+    - object/page/30132
+    - object/page/30133
+    - object/page/30134
+    - object/page/30135
+    - object/page/30145
+    - object/page/30147
+    - object/page/30150
+    - object/page/30151
+    - object/page/30156
+    - object/page/30157
+    - object/page/30159
+    - object/page/30167
+    - object/page/30168
+    - object/page/30174
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -185,7 +231,7 @@ children:
   - topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
 coverage:
   learn: 16
-  code: 0
+  code: 46
   video: 7
   blog: 0
   guideline: 0
@@ -313,6 +359,53 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30100, 30101, 30102, 30103, 30104, 30105, 30106, 30107, 30108, 30109, 30110, 30111, 30112, 30113, 30114, 30115, 30116, 30117, 30118, 30119, 30120, 30121, 30122, 30123, 30124, 30125, 30126, 30127, 30128, 30129, 30130, 30131, 30132, 30133, 30134, 30135, 30145, 30147, 30150, 30151, 30156, 30157, 30159, 30167, 30168, 30174.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30100 "Shpfy Activities"](../../../objects/page/30100.md) · captioned "Shopify Activities" · on [Table 30100 "Shpfy Cue"](../../../objects/table/30100.md)
+- [Page 30101 "Shpfy Shop Card"](../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md)
+- [Page 30102 "Shpfy Shops"](../../../objects/page/30102.md) · captioned "Shopify Shops" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md)
+- [Page 30105 "Shpfy Customer Adresses"](../../../objects/page/30105.md) · captioned "Addresses" · on [Table 30106 "Shpfy Customer Address"](../../../objects/table/30106.md)
+- [Page 30106 "Shpfy Customer Card"](../../../objects/page/30106.md) · captioned "Shopify Customer Card" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md)
+- [Page 30107 "Shpfy Customers"](../../../objects/page/30107.md) · captioned "Shopify Customers" · on [Table 30105 "Shpfy Customer"](../../../objects/table/30105.md)
+- [Page 30108 "Shpfy Customer Templates"](../../../objects/page/30108.md) · captioned "Shopify Customer Setup by Country/Region" · on [Table 30107 "Shpfy Customer Template"](../../../objects/table/30107.md)
+- [Page 30109 "Shpfy Tax Areas"](../../../objects/page/30109.md) · captioned "Shopify Tax Areas" · on [Table 30109 "Shpfy Tax Area"](../../../objects/table/30109.md)
+- [Page 30110 "Shpfy Gift Cards"](../../../objects/page/30110.md) · captioned "Shopify Gift Cards" · on [Table 30110 "Shpfy Gift Card"](../../../objects/table/30110.md)
+- [Page 30111 "Shpfy Gift Card Transactions"](../../../objects/page/30111.md) · captioned "Shopify Gift Card Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../../objects/table/30133.md)
+- [Page 30112 "Shpfy Order Fulfillments"](../../../objects/page/30112.md) · captioned "Shopify Completed Fulfillments" · on [Table 30111 "Shpfy Order Fulfillment"](../../../objects/table/30111.md)
+- [Page 30113 "Shpfy Order"](../../../objects/page/30113.md) · captioned "Shopify Order" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md)
+- [Page 30114 "Shpfy Order Attributes"](../../../objects/page/30114.md) · captioned "Shopify Order Attributes" · on [Table 30116 "Shpfy Order Attribute"](../../../objects/table/30116.md)
+- [Page 30115 "Shpfy Orders"](../../../objects/page/30115.md) · captioned "Shopify Orders" · on [Table 30118 "Shpfy Order Header"](../../../objects/table/30118.md)
+- [Page 30116 "Shpfy Inventory FactBox"](../../../objects/page/30116.md) · captioned "Shopify Inventory Factbox" · on [Table 30112 "Shpfy Shop Inventory"](../../../objects/table/30112.md)
+- [Page 30117 "Shpfy Shop Locations Mapping"](../../../objects/page/30117.md) · captioned "Shopify Shop Locations" · on [Table 30113 "Shpfy Shop Location"](../../../objects/table/30113.md)
+- [Page 30118 "Shpfy Data Capture List"](../../../objects/page/30118.md) · captioned "Shopify Data Capture List" · on [Table 30114 "Shpfy Data Capture"](../../../objects/table/30114.md)
+- [Page 30119 "Shpfy Log Entries"](../../../objects/page/30119.md) · captioned "Shopify Log Entries" · on [Table 30115 "Shpfy Log Entry"](../../../objects/table/30115.md)
+- [Page 30120 "Shpfy Log Entry Card"](../../../objects/page/30120.md) · captioned "Shopify Log Entry" · on [Table 30115 "Shpfy Log Entry"](../../../objects/table/30115.md)
+- [Page 30121 "Shpfy Orders to Import"](../../../objects/page/30121.md) · captioned "Shopify Orders to Import" · on [Table 30121 "Shpfy Orders to Import"](../../../objects/table/30121.md)
+- [Page 30122 "Shpfy Order Subform"](../../../objects/page/30122.md) · captioned "Shopify Order Lines" · on [Table 30119 "Shpfy Order Line"](../../../objects/table/30119.md)
+- [Page 30123 "Shpfy Order Risks"](../../../objects/page/30123.md) · captioned "Shopify Order Risks" · on [Table 30123 "Shpfy Order Risk"](../../../objects/table/30123.md)
+- [Page 30124 "Shpfy Payment Transactions"](../../../objects/page/30124.md) · captioned "Shopify Payment Transactions" · on [Table 30124 "Shpfy Payment Transaction"](../../../objects/table/30124.md)
+- [Page 30125 "Shpfy Payouts"](../../../objects/page/30125.md) · captioned "Shopify Payouts" · on [Table 30125 "Shpfy Payout"](../../../objects/table/30125.md)
+- [Page 30126 "Shpfy Products"](../../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../../objects/table/30127.md)
+- [Page 30127 "Shpfy Variants"](../../../objects/page/30127.md) · captioned "Shopify Variants" · on [Table 30129 "Shpfy Variant"](../../../objects/table/30129.md)
+- [Page 30128 "Shpfy Order Shipping Charges"](../../../objects/page/30128.md) · captioned "Shopify Order Shipping Charges" · on [Table 30130 "Shpfy Order Shipping Charges"](../../../objects/table/30130.md)
+- [Page 30129 "Shpfy Shipment Methods Mapping"](../../../objects/page/30129.md) · captioned "Shopify Shipment Methods" · on [Table 30131 "Shpfy Shipment Method Mapping"](../../../objects/table/30131.md)
+- [Page 30130 "Shpfy Credit Card Companies"](../../../objects/page/30130.md) · captioned "Shopify Credit Card Companies" · on [Table 30132 "Shpfy Credit Card Company"](../../../objects/table/30132.md)
+- [Page 30131 "Shpfy Order Transactions"](../../../objects/page/30131.md) · captioned "Shopify Order Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../../objects/table/30133.md)
+- [Page 30132 "Shpfy Payment Methods Mapping"](../../../objects/page/30132.md) · captioned "Shopify Payment Methods Mapping" · on [Table 30134 "Shpfy Payment Method Mapping"](../../../objects/table/30134.md)
+- [Page 30133 "Shpfy Transaction Gateways"](../../../objects/page/30133.md) · captioned "Shopify Transaction Gateways" · on [Table 30135 "Shpfy Transaction Gateway"](../../../objects/table/30135.md)
+- [Page 30134 "Shpfy Transactions"](../../../objects/page/30134.md) · captioned "Shopify Transactions" · on [Table 30133 "Shpfy Order Transaction"](../../../objects/table/30133.md)
+- [Page 30145 "Shpfy Refund"](../../../objects/page/30145.md) · captioned "Shopify Refund" · on [Table 30142 "Shpfy Refund Header"](../../../objects/table/30142.md)
+- [Page 30147 "Shpfy Refunds"](../../../objects/page/30147.md) · captioned "Shopify Refunds" · on [Table 30142 "Shpfy Refund Header"](../../../objects/table/30142.md)
+- [Page 30150 "Shpfy Returns"](../../../objects/page/30150.md) · captioned "Shopify Returns" · on [Table 30147 "Shpfy Return Header"](../../../objects/table/30147.md)
+- [Page 30151 "Shpfy Return"](../../../objects/page/30151.md) · captioned "Shopify Return" · on [Table 30147 "Shpfy Return Header"](../../../objects/table/30147.md)
+- [Page 30156 "Shpfy Companies"](../../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md)
+- [Page 30157 "Shpfy Company Card"](../../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md)
+- [Page 30159 "Shpfy Catalogs"](../../../objects/page/30159.md) · captioned "Shopify B2B Catalogs" · on [Table 30152 "Shpfy Catalog"](../../../objects/table/30152.md)
+- [Page 30167 "Shpfy Sales Channels"](../../../objects/page/30167.md) · captioned "Shopify Sales Channels" · on [Table 30160 "Shpfy Sales Channel"](../../../objects/table/30160.md)
+- [Page 30168 "Shpfy Order Tax Lines"](../../../objects/page/30168.md) · captioned "Shopify Order Tax Lines" · on [Table 30122 "Shpfy Order Tax Line"](../../../objects/table/30122.md)
+- [Page 30174 "Shpfy Market Catalogs"](../../../objects/page/30174.md) · captioned "Shopify Market Catalogs" · on [Table 30152 "Shpfy Catalog"](../../../objects/table/30152.md)
+- [Page 30103 "Shpfy Tag Factbox"](../../../objects/page/30103.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../objects/table/30104.md) · via [Get started with the Shopify connector](online-store-with-shopify/get-started-with-the-shopify-connector.md)
+- [Page 30104 "Shpfy Tags"](../../../objects/page/30104.md) · captioned "Shopify Tags" · on [Table 30104 "Shpfy Tag"](../../../objects/table/30104.md) · via [Get started with the Shopify connector](online-store-with-shopify/get-started-with-the-shopify-connector.md)
+- [Page 30135 "Shpfy Authentication"](../../../objects/page/30135.md) · captioned "Waiting for a response - do not close this page" · via [Get started with the Shopify connector](online-store-with-shopify/get-started-with-the-shopify-connector.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

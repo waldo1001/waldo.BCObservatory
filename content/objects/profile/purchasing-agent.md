@@ -2,14 +2,14 @@
 id: object/profile/purchasing-agent
 type: object
 title: Profile "PURCHASING AGENT"
-summary: Profile "PURCHASING AGENT" in Base Application (Microsoft.Purchases.RoleCenters). Present since at least BC28, still in BC30.
+summary: Profile "PURCHASING AGENT" in Base Application (Microsoft.Purchases.RoleCenters). Introduced in BC25, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: null
+  introduced: "25"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e7a3a91d0c93b9f71dcaee9e3c8318edea94e05fd546e5b7c4822af0266be46e
+  input_hash: 5bab53d0c3d8cb2d135d4716f306482a60c75e87edf6680692dd1a1a37037d42
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al
     title: src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -42,12 +42,16 @@ links:
 object_type: profile
 object_id: null
 name: PURCHASING AGENT
+caption: Purchasing Agent
 namespace: Microsoft.Purchases.RoleCenters
 app: Base Application
 extends: null
-first_version: "28"
+first_version: "25"
 last_version: "30"
 present_in:
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -71,9 +75,9 @@ relations:
 
 # Profile "PURCHASING AGENT"
 
-> Profile "PURCHASING AGENT" in Base Application (Microsoft.Purchases.RoleCenters). Present since at least BC28, still in BC30.
+> Profile "PURCHASING AGENT" in Base Application (Microsoft.Purchases.RoleCenters). Introduced in BC25, still in BC30.
 
-Base Application · Microsoft.Purchases.RoleCenters · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al) · facts from BC29
+Base Application · Microsoft.Purchases.RoleCenters · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -81,9 +85,16 @@ Base Application · Microsoft.Purchases.RoleCenters · BC28-30 · [source at 1d2
 |---|---|
 | Caption | Purchasing Agent |
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "profile", object_name: "PURCHASING AGENT")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node profile "PURCHASING AGENT"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

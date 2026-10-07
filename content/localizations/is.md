@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 4813de6241d390033bc0745dde2b04ca42bc9fc7591b37dc0709edc100581d9d
+  input_hash: a107fbbe75e19c3f0018871ee2f9f578f9b9bdbc9caf5f750b2a6e75d55a7c83
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-is
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -246,6 +246,6 @@ Objects: [pageextension/14608 "IS Company Info"](../objects/pageextension/14608-
 
 ## Other versions
 
-- BC30: 13 objects differ from W1 (6 fields, 0 events added)
+- BC30: 61 objects differ from W1 (6 fields, 0 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

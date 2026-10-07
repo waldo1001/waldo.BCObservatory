@@ -59,31 +59,60 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalcEventsCZL.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11775",
+        "type": "codeunit",
+        "id": 11775,
+        "name": "VAT Statement Calc. Events CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11775-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalculationCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/11723",
+        "type": "codeunit",
+        "id": 11723,
+        "name": "VAT Statement Calculation CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11723-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/VATStatementPreviewLineCZL.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/31136",
+        "type": "page",
+        "id": 31136,
+        "name": "VAT Statement Preview Line CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31136-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11732",
+        "type": "permissionset",
+        "id": 11732,
+        "name": "CZ Core Pack - Objects CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11732-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

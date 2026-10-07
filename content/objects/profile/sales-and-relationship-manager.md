@@ -2,14 +2,14 @@
 id: object/profile/sales-and-relationship-manager
 type: object
 title: Profile "SALES AND RELATIONSHIP MANAGER"
-summary: Profile "SALES AND RELATIONSHIP MANAGER" in Base Application (Microsoft.CRM.RoleCenters). Present since at least BC28, still in BC30.
+summary: Profile "SALES AND RELATIONSHIP MANAGER" in Base Application (Microsoft.CRM.RoleCenters). Introduced in BC25, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: null
+  introduced: "25"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: aa59a654189c4f5226c26bb94a8ab931d7999f978fa0dca55b79d5d38b4b4c8e
+  input_hash: 4c63db95134f616664cce534aa54c0c038429be151750a0c22815d50947e92a7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al
     title: src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -42,12 +42,16 @@ links:
 object_type: profile
 object_id: null
 name: SALES AND RELATIONSHIP MANAGER
+caption: Sales and Relationship Manager
 namespace: Microsoft.CRM.RoleCenters
 app: Base Application
 extends: null
-first_version: "28"
+first_version: "25"
 last_version: "30"
 present_in:
+  - "25"
+  - "26"
+  - "27"
   - "28"
   - "29"
   - "30"
@@ -71,9 +75,9 @@ relations:
 
 # Profile "SALES AND RELATIONSHIP MANAGER"
 
-> Profile "SALES AND RELATIONSHIP MANAGER" in Base Application (Microsoft.CRM.RoleCenters). Present since at least BC28, still in BC30.
+> Profile "SALES AND RELATIONSHIP MANAGER" in Base Application (Microsoft.CRM.RoleCenters). Introduced in BC25, still in BC30.
 
-Base Application · Microsoft.CRM.RoleCenters · BC28-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al) · facts from BC29
+Base Application · Microsoft.CRM.RoleCenters · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -81,9 +85,16 @@ Base Application · Microsoft.CRM.RoleCenters · BC28-30 · [source at 1d24dd5e]
 |---|---|
 | Caption | Sales and Relationship Manager |
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "profile", object_name: "SALES AND RELATIONSHIP MANAGER")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node profile "SALES AND RELATIONSHIP MANAGER"`
+
 ## Across versions
 
-- Present in: BC28, BC29, BC30
+- Present in: BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

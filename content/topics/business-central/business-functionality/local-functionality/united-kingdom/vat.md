@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat
-  objects: []
+  objects:
+    - object/page/39
+    - object/page/317
+    - object/page/320
+    - object/page/743
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/united-kingdom
@@ -78,7 +82,7 @@ parent: topic/business-central/business-functionality/local-functionality/united
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -130,6 +134,13 @@ The pages are independent task guides. Start with Making Tax Digital - Submittin
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 39, 317, 320, 743, 10530, 10531, 10532, 10537, 10538, 10539.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 39 "General Journal"](../../../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 317 "VAT Statement"](../../../../../objects/page/317.md) · captioned "VAT Statements" · on [Table 256 "VAT Statement Line"](../../../../../objects/table/256.md)
+- [Page 320 "VAT Statement Names"](../../../../../objects/page/320.md) · on [Table 257 "VAT Statement Name"](../../../../../objects/table/257.md)
+- [Page 743 "VAT Report Setup"](../../../../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../../../../objects/table/743.md)
+
+Learn also names 6 objects with no object page: page/10530, page/10531, page/10532, page/10537, page/10538, page/10539.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 151823d25234f5f2f1969d95278a7616fbd2e2873de498c1ba67794d8122a58a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al
     title: src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,7 @@ relations:
 
 > Interface "XmlDataHandlingSAFT" in SAF-T. 8 public procedures. Introduced in BC29, still in BC30.
 
-SAF-T · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al) · facts from BC29
+SAF-T · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -84,6 +84,13 @@ SAF-T · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blo
 - `GetChildNodesToAdd(RecRef: RecordRef; XPath: Text; NamespaceUri: Text; var Params: Dictionary of [Text, Text]): XmlNodeList`: Returns the list of the nodes which should be added as child nodes of the selected node.
 - `SetCurrXmlElementNameValue(var Name: Text; var Content: Text; var EmptyContentAllowed: Boolean; RecRef: RecordRef; XPath: Text; var Params: Dictionary of [Text, Text])`: Returns updated name and value of the selected node.
 - `RemoveCurrentXmlElement(RecRef: RecordRef; XPath: Text; var Params: Dictionary of [Text, Text]): Boolean`: Defines if the selected node should not be added.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "XmlDataHandlingSAFT")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "XmlDataHandlingSAFT"`
 
 ## Across versions
 

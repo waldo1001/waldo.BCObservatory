@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 7b486b02dbb9f0591004f7f0ee583e08ab48f760300bacbc596549fcc0271ca6
+  input_hash: 736f882f005526c0c63b3986f3c6e505327860e23f24b3d20e0704dd37fdaafe
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ru
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -1346,6 +1346,6 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 
 ## Other versions
 
-- BC30: 853 objects differ from W1 (1145 fields, 6 events added)
+- BC30: 879 objects differ from W1 (1145 fields, 6 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

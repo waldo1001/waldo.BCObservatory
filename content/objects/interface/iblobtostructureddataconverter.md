@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b6fd767844a5f87d4a8215acf0056c7214681e77c4d16beaed42e8f735dc984b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Interface "IBlobToStructuredDataConverter" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 26.0).
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -88,6 +88,13 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 ## Procedures
 
 - `Convert(EDocument: Record "E-Document"; FromTempblob: Codeunit "Temp Blob"; FromType: Integer; var ConvertedType: Integer): Text`: Converts a given blob of data into a structured format (e.g., XML or JSON). This procedure handles the actual conversion logic based on the provided blob and its type.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "IBlobToStructuredDataConverter")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "IBlobToStructuredDataConverter"`
 
 ## Across versions
 

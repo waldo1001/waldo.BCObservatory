@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/subcontract-order
     - https://learn.microsoft.com/dynamics365/business-central/production-how-to-subcontract-manufacturing
     - https://learn.microsoft.com/dynamics365/business-central/subcontract-wip-transfers
-  objects: []
+  objects:
+    - object/page/50
+    - object/page/5805
+    - object/page/99000788
+    - object/page/99000818
+    - object/page/99000831
+    - object/page/99000886
   features: []
   topics:
     - topic/business-central/business-functionality/manufacturing
@@ -125,7 +131,7 @@ parent: topic/business-central/business-functionality/manufacturing
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 6
   video: 1
   blog: 0
   guideline: 0
@@ -229,6 +235,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 50, 5805, 99000788, 99000818, 99000831, 99000886, 99001503, 99001504, 99001560, 99001561.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 50 "Purchase Order"](../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 5805 "Item Charge Assignment (Purch)"](../../../../objects/page/5805.md) · on [Table 5805 "Item Charge Assignment (Purch)"](../../../../objects/table/5805.md)
+- [Page 99000788 "Production BOM Lines"](../../../../objects/page/99000788.md) · captioned "Lines" · on [Table 99000772 "Production BOM Line"](../../../../objects/table/99000772.md)
+- [Page 99000818 "Prod. Order Components"](../../../../objects/page/99000818.md) · on [Table 5407 "Prod. Order Component"](../../../../objects/table/5407.md)
+- [Page 99000831 "Released Production Order"](../../../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../../../objects/table/5405.md)
+- [Page 99000886 "Subcontracting Worksheet"](../../../../objects/page/99000886.md) · captioned "Subcontracting Worksheets (Obsolete)" · on [Table 246 "Requisition Line"](../../../../objects/table/246.md)
+
+Learn also names 4 objects with no object page: page/99001503, page/99001504, page/99001560, page/99001561.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

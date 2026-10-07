@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox
     - https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports-use-reports
-  objects: []
+  objects:
+    - object/page/680
+    - object/page/2650
+    - object/page/2750
+    - object/page/2752
+    - object/page/2753
+    - object/page/2754
+    - object/page/8900
+    - object/page/9650
+    - object/page/9652
   features: []
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
@@ -100,7 +109,7 @@ parent: topic/business-central/analytics-business-intelligence-and-repo
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 9
   video: 0
   blog: 0
   guideline: 0
@@ -156,6 +165,16 @@ Start with the landing page, then go to "Run and print reports" for the basic wo
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 680, 2650, 2750, 2752, 2753, 2754, 8900, 9650, 9652.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 680 "Report Inbox"](../../../objects/page/680.md) · on [Table 477 "Report Inbox"](../../../objects/table/477.md)
+- [Page 2650 "Email Printer Settings"](../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../objects/table/2650.md)
+- [Page 2750 "Universal Printer Settings"](../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../objects/table/2751.md)
+- [Page 2752 "Add Universal Printers Wizard"](../../../objects/page/2752.md) · captioned "Add Universal Print Printers"
+- [Page 2753 "Universal Print Shares List"](../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../objects/table/2752.md)
+- [Page 2754 "Universal Printer Tray List"](../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../objects/table/823.md)
+- [Page 8900 "Administrator Main Role Center"](../../../objects/page/8900.md) · captioned "Administrator Role Center"
+- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

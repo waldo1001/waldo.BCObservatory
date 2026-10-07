@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:20.864Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -301,7 +301,28 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-administration
-  objects: []
+  objects:
+    - object/page/9
+    - object/page/1340
+    - object/page/1480
+    - object/page/1799
+    - object/page/1800
+    - object/page/1801
+    - object/page/1803
+    - object/page/1807
+    - object/page/2500
+    - object/page/3563
+    - object/page/4003
+    - object/page/4750
+    - object/page/4751
+    - object/page/8610
+    - object/page/8613
+    - object/page/8614
+    - object/page/8615
+    - object/page/8620
+    - object/page/8632
+    - object/page/9882
+    - object/page/20350
   features: []
   topics:
     - topic/dev-itpro/administration/understand-business-central-online
@@ -335,7 +356,7 @@ children:
   - topic/dev-itpro/administration/migrate-to-business-central-online
 coverage:
   learn: 274
-  code: 0
+  code: 21
   video: 0
   blog: 0
   guideline: 0
@@ -410,6 +431,30 @@ Start with "Understand Business Central online" if the service is new to you, th
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9, 1340, 1480, 1799, 1800, 1801, 1803, 1807, 2500, 2502, 3563, 4003, 4750, 4751, 8610, 8613, 8614, 8615, 8620, 8632, 9882, 20350.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9 "Languages"](../../objects/page/9.md) · on [Table 8 "Language"](../../objects/table/8.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 1340 "Config Templates"](../../objects/page/1340.md) · captioned "Templates" · on [Table 8618 "Config. Template Header"](../../objects/table/8618.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../objects/table/1480.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 1799 "Data Migration Overview"](../../objects/page/1799.md) · on [Table 1799 "Data Migration Status"](../../objects/table/1799.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 1800 "Configuration Package Files"](../../objects/page/1800.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 1801 "Assisted Setup"](../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../objects/table/1990.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 1803 "Assisted Company Setup Wizard"](../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../objects/table/8627.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 1807 "Data Migration Settings"](../../objects/page/1807.md) · on [Table 1806 "Data Migration Setup"](../../objects/table/1806.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 2500 "Extension Management"](../../objects/page/2500.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 3563 "Allowed Languages"](../../objects/page/3563.md) · on [Table 3563 "Allowed Language"](../../objects/table/3563.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 4003 "Intelligent Cloud Management"](../../objects/page/4003.md) · captioned "Cloud Migration Management" · on [Table 4001 "Hybrid Replication Summary"](../../objects/table/4001.md) · via [Migrate to Business Central online](administration/migrate-to-business-central-online.md)
+- [Page 4750 "Recommended Apps List"](../../objects/page/4750.md) · captioned "Recommended Apps" · on [Table 4750 "Recommended Apps"](../../objects/table/4750.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 4751 "Recommended App Card"](../../objects/page/4751.md) · on [Table 4750 "Recommended Apps"](../../objects/table/4750.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8610 "Config. Questionnaire"](../../objects/page/8610.md) · captioned "Configuration Questionnaire" · on [Table 8610 "Config. Questionnaire"](../../objects/table/8610.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8613 "Config. Question Areas"](../../objects/page/8613.md) · on [Table 8611 "Config. Question Area"](../../objects/table/8611.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8614 "Config. Package Card"](../../objects/page/8614.md) · on [Table 8623 "Config. Package"](../../objects/table/8623.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8615 "Config. Packages"](../../objects/page/8615.md) · captioned "Configuration Packages" · on [Table 8623 "Config. Package"](../../objects/table/8623.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8620 "Config. Template List"](../../objects/page/8620.md) · captioned "Configuration Templates" · on [Table 8618 "Config. Template Header"](../../objects/table/8618.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 8632 "Config. Worksheet"](../../objects/page/8632.md) · captioned "Configuration Worksheet" · on [Table 8622 "Config. Line"](../../objects/table/8622.md) · via [Prepare Business Central](administration/prepare-business-central.md)
+- [Page 9882 "Report Res. Govern. Settings"](../../objects/page/9882.md) · captioned "Report Limits and Settings" · via [Understand Business Central online](administration/understand-business-central-online.md)
+- [Page 20350 "Connectivity Apps"](../../objects/page/20350.md) · on [Table 20350 "Connectivity App"](../../objects/table/20350.md) · via [Understand Business Central online](administration/understand-business-central-online.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

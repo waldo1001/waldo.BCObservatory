@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:59.580Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,16 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/admin-how-setup-email
     - https://learn.microsoft.com/dynamics365/business-central/admin-multi-tenant-smtp
-  objects: []
+  objects:
+    - object/page/1262
+    - object/page/1263
+    - object/page/1831
+    - object/page/1832
+    - object/page/8893
+    - object/page/8897
+    - object/page/8898
+    - object/page/9813
+    - object/page/9814
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -82,7 +91,7 @@ children:
   - topic/business-central/business-functionality/set-up-business-central/set-up-email/set-up-your-business-inbox-in-microsoft
 coverage:
   learn: 6
-  code: 0
+  code: 9
   video: 0
   blog: 0
   guideline: 0
@@ -135,6 +144,18 @@ The subtopic on the business inbox in Outlook covers the Business Central add-in
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1262, 1263, 1805, 1831, 1832, 8893, 8897, 8898, 9813, 9814.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1262 "Certificate List"](../../../../objects/page/1262.md) · captioned "Certificates" · on [Table 1262 "Isolated Certificate"](../../../../objects/table/1262.md)
+- [Page 1263 "Certificate"](../../../../objects/page/1263.md) · on [Table 1262 "Isolated Certificate"](../../../../objects/table/1262.md)
+- [Page 8893 "Email Scenario Setup"](../../../../objects/page/8893.md) · captioned "Email Scenario Assignment" · on [Table 8907 "Email Account Scenario"](../../../../objects/table/8907.md)
+- [Page 8897 "Email Scenario Attach Setup"](../../../../objects/page/8897.md) · captioned "Email Scenario Attachments" · on [Table 8913 "Email Attachments"](../../../../objects/table/8913.md)
+- [Page 8898 "Email Rate Limit Wizard"](../../../../objects/page/8898.md) · captioned "Set Email Rate Limit per Minute" · on [Table 8912 "Email Rate Limit"](../../../../objects/table/8912.md)
+- [Page 9813 "Devices"](../../../../objects/page/9813.md)
+- [Page 9814 "Device Card"](../../../../objects/page/9814.md)
+- [Page 1831 "Outlook Centralized Deployment"](../../../../objects/page/1831.md) · captioned "Outlook Add-in Centralized Deployment" · on [Table 1610 "Office Add-in"](../../../../objects/table/1610.md) · via [Set up your business inbox in Microsoft Outlook](set-up-email/set-up-your-business-inbox-in-microsoft.md)
+- [Page 1832 "Outlook Individual Deployment"](../../../../objects/page/1832.md) · captioned "Get the Outlook Add-in" · via [Set up your business inbox in Microsoft Outlook](set-up-email/set-up-your-business-inbox-in-microsoft.md)
+
+Learn also names 1 object with no object page: page/1805.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

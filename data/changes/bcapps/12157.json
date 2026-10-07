@@ -290,14 +290,219 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/GetAddressioConfig.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "page/9142",
+        "type": "page",
+        "id": 9142,
+        "name": "GetAddress.io Config",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "page/9142-gb"
       },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/23252",
+        "type": "permissionsetextension",
+        "id": 23252,
+        "name": "D365 BASIC - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/23252-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicisvgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22056",
+        "type": "permissionsetextension",
+        "id": 22056,
+        "name": "D365 BASIC ISV - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/22056-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365busfullaccessgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/20193",
+        "type": "permissionsetextension",
+        "id": 20193,
+        "name": "D365 BUS FULL ACCESS - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/20193-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365buspremiumgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/30556",
+        "type": "permissionsetextension",
+        "id": 30556,
+        "name": "D365 BUS PREMIUM - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/30556-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365fullaccessgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/47413",
+        "type": "permissionsetextension",
+        "id": 47413,
+        "name": "D365 FULL ACCESS - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/47413-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365readgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/11107",
+        "type": "permissionsetextension",
+        "id": 11107,
+        "name": "D365 READ - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/11107-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365teammembergetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/49708",
+        "type": "permissionsetextension",
+        "id": 49708,
+        "name": "D365 TEAM MEMBER - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/49708-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocal.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/10501",
+        "type": "permissionsetextension",
+        "id": 10501,
+        "name": "GetAddress.io UK Postcodes Local",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/10501-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocalread.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/10502",
+        "type": "permissionsetextension",
+        "id": 10502,
+        "name": "GetAddress.io UK Postcodes Local Read",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/10502-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/intelligentcloudgetaddressioukpostcodes.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/36928",
+        "type": "permissionsetextension",
+        "id": 36928,
+        "name": "INTELLIGENT CLOUD - GetAddress.io UK Postcodes",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "permissionsetextension/36928-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeBusinessLogicGB.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9099",
+        "type": "codeunit",
+        "id": 9099,
+        "name": "Postcode Business Logic GB",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "codeunit/9099-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeConfigurationPageGB.Page.al",
+        "status": "modified",
+        "key": "page/10503",
+        "type": "page",
+        "id": 10503,
+        "name": "Postcode Configuration Page GB",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "page/10503-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioConfig.Table.al",
+        "status": "modified",
+        "key": "table/9092",
+        "type": "table",
+        "id": 9092,
+        "name": "Postcode GetAddress.io Config",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "table/9092-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9093",
+        "type": "codeunit",
+        "id": 9093,
+        "name": "Postcode GetAddress.io Upgrade",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "codeunit/9093-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeNotifMemory.Table.al",
+        "status": "modified",
+        "key": "table/10500",
+        "type": "table",
+        "id": 10500,
+        "name": "Postcode Notif. Memory",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "table/10500-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeSearchGB.Page.al",
+        "status": "modified",
+        "key": "page/10505",
+        "type": "page",
+        "id": 10505,
+        "name": "Postcode Search GB",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "page/10505-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeServiceGetAddressio.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9092",
+        "type": "codeunit",
+        "id": 9092,
+        "name": "Postcode Service GetAddress.io",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "codeunit/9092-gb"
+      },
+      {
+        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/UKPostcodeInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9094",
+        "type": "codeunit",
+        "id": 9094,
+        "name": "UK Postcode Install",
+        "app": "UKPostcodeGetAddressIO",
+        "cc": "gb",
+        "page": "codeunit/9094-gb"
+      }
+    ],
+    "unjoined": [
       {
         "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/AdministratorMainRoleCenter.PageExt.al",
         "status": "removed",
@@ -357,99 +562,13 @@
         "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PageExt/VendorCard.PageExt.al",
         "status": "removed",
         "reason": "removed"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365basicisvgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365busfullaccessgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365buspremiumgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365fullaccessgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365readgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/d365teammembergetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocal.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/getaddressioukpostcodeslocalread.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/Permissions/intelligentcloudgetaddressioukpostcodes.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeBusinessLogicGB.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeConfigurationPageGB.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioConfig.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeGetAddressioUpgrade.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeNotifMemory.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeSearchGB.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/PostcodeServiceGetAddressio.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKPostcodeGetAddressIO/app/src/UKPostcodeInstall.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
       }
     ]
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "UKPostcodeGetAddressIO"
+  ]
 }

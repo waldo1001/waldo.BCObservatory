@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:13.743Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     - https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
-  objects: []
+  objects:
+    - object/page/9650
+    - object/page/9652
   features: []
   topics:
     - topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc
@@ -70,7 +72,7 @@ parent: topic/business-central/get-started/get-productive-in-business-central/ch
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
@@ -115,6 +117,9 @@ Start with the page on creating and modifying custom layouts for the basic conce
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9650, 9652.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

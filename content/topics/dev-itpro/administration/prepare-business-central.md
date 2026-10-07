@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:10.225Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,7 +124,20 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-appsource-app-in-prod
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-pte-merge-conflict
-  objects: []
+  objects:
+    - object/page/1340
+    - object/page/1480
+    - object/page/1799
+    - object/page/1800
+    - object/page/1807
+    - object/page/4750
+    - object/page/4751
+    - object/page/8610
+    - object/page/8613
+    - object/page/8614
+    - object/page/8615
+    - object/page/8620
+    - object/page/8632
   features: []
   topics:
     - topic/dev-itpro/administration
@@ -145,7 +158,7 @@ parent: topic/dev-itpro/administration
 children: []
 coverage:
   learn: 13
-  code: 0
+  code: 13
   video: 4
   blog: 1
   guideline: 0
@@ -216,6 +229,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1340, 1480, 1799, 1800, 1807, 4750, 4751, 8610, 8613, 8614, 8615, 8620, 8632.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1340 "Config Templates"](../../../objects/page/1340.md) · captioned "Templates" · on [Table 8618 "Config. Template Header"](../../../objects/table/8618.md)
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../objects/table/1480.md)
+- [Page 1799 "Data Migration Overview"](../../../objects/page/1799.md) · on [Table 1799 "Data Migration Status"](../../../objects/table/1799.md)
+- [Page 1800 "Configuration Package Files"](../../../objects/page/1800.md)
+- [Page 1807 "Data Migration Settings"](../../../objects/page/1807.md) · on [Table 1806 "Data Migration Setup"](../../../objects/table/1806.md)
+- [Page 4750 "Recommended Apps List"](../../../objects/page/4750.md) · captioned "Recommended Apps" · on [Table 4750 "Recommended Apps"](../../../objects/table/4750.md)
+- [Page 4751 "Recommended App Card"](../../../objects/page/4751.md) · on [Table 4750 "Recommended Apps"](../../../objects/table/4750.md)
+- [Page 8610 "Config. Questionnaire"](../../../objects/page/8610.md) · captioned "Configuration Questionnaire" · on [Table 8610 "Config. Questionnaire"](../../../objects/table/8610.md)
+- [Page 8613 "Config. Question Areas"](../../../objects/page/8613.md) · on [Table 8611 "Config. Question Area"](../../../objects/table/8611.md)
+- [Page 8614 "Config. Package Card"](../../../objects/page/8614.md) · on [Table 8623 "Config. Package"](../../../objects/table/8623.md)
+- [Page 8615 "Config. Packages"](../../../objects/page/8615.md) · captioned "Configuration Packages" · on [Table 8623 "Config. Package"](../../../objects/table/8623.md)
+- [Page 8620 "Config. Template List"](../../../objects/page/8620.md) · captioned "Configuration Templates" · on [Table 8618 "Config. Template Header"](../../../objects/table/8618.md)
+- [Page 8632 "Config. Worksheet"](../../../objects/page/8632.md) · captioned "Configuration Worksheet" · on [Table 8622 "Config. Line"](../../../objects/table/8622.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

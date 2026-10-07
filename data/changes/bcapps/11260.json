@@ -1721,8 +1721,184 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/ElecVATDeclOverview.Page.al",
+        "status": "modified",
+        "key": "page/11028",
+        "type": "page",
+        "id": 11028,
+        "name": "Elec. VAT Decl. Overview",
+        "app": "Elster",
+        "cc": "de",
+        "page": "page/11028-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/ElectronicVATDeclSetup.Page.al",
+        "status": "modified",
+        "key": "page/11019",
+        "type": "page",
+        "id": 11019,
+        "name": "Electronic VAT Decl. Setup",
+        "app": "Elster",
+        "cc": "de",
+        "page": "page/11019-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifCard.Page.al",
+        "status": "modified",
+        "key": "page/11016",
+        "type": "page",
+        "id": 11016,
+        "name": "Sales VAT Adv. Notif. Card",
+        "app": "Elster",
+        "cc": "de",
+        "page": "page/11016-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifList.Page.al",
+        "status": "modified",
+        "key": "page/11017",
+        "type": "page",
+        "id": 11017,
+        "name": "Sales VAT Adv. Notif. List",
+        "app": "Elster",
+        "cc": "de",
+        "page": "page/11017-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/46539",
+        "type": "permissionsetextension",
+        "id": 46539,
+        "name": "D365 BASIC - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/46539-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicisvelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/45801",
+        "type": "permissionsetextension",
+        "id": 45801,
+        "name": "D365 BASIC ISV - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/45801-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365busfullaccesselstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/8697",
+        "type": "permissionsetextension",
+        "id": 8697,
+        "name": "D365 BUS FULL ACCESS - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/8697-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365buspremiumelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/16295",
+        "type": "permissionsetextension",
+        "id": 16295,
+        "name": "D365 BUS PREMIUM - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/16295-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365fullaccesselstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/14181",
+        "type": "permissionsetextension",
+        "id": 14181,
+        "name": "D365 FULL ACCESS - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/14181-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365readelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/9615",
+        "type": "permissionsetextension",
+        "id": 9615,
+        "name": "D365 READ - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/9615-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365teammemberelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/32689",
+        "type": "permissionsetextension",
+        "id": 32689,
+        "name": "D365 TEAM MEMBER - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/32689-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/intelligentcloudelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/21993",
+        "type": "permissionsetextension",
+        "id": 21993,
+        "name": "INTELLIGENT CLOUD - ELSTER VAT Localization for Germany",
+        "app": "Elster",
+        "cc": "de",
+        "page": "permissionsetextension/21993-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Reports/CreateXMLFileVATAdvNotif.Report.al",
+        "status": "modified",
+        "key": "report/11016",
+        "type": "report",
+        "id": 11016,
+        "name": "Create XML-File VAT Adv.Notif.",
+        "app": "Elster",
+        "cc": "de",
+        "page": "report/11016-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclBuffer.Table.al",
+        "status": "modified",
+        "key": "table/11027",
+        "type": "table",
+        "id": 11027,
+        "name": "Elec. VAT Decl. Buffer",
+        "app": "Elster",
+        "cc": "de",
+        "page": "table/11027-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclSetup.Table.al",
+        "status": "modified",
+        "key": "table/11023",
+        "type": "table",
+        "id": 11023,
+        "name": "Elec. VAT Decl. Setup",
+        "app": "Elster",
+        "cc": "de",
+        "page": "table/11023-de"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/SalesVATAdvanceNotif.Table.al",
+        "status": "modified",
+        "key": "table/11021",
+        "type": "table",
+        "id": 11021,
+        "name": "Sales VAT Advance Notif.",
+        "app": "Elster",
+        "cc": "de",
+        "page": "table/11021-de"
+      },
       {
         "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365BasicExt.PermissionSetExt.al",
         "status": "modified",
@@ -2177,86 +2353,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/DE/Elster/app/src/Pages/ElecVATDeclOverview.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Pages/ElectronicVATDeclSetup.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifCard.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifList.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicisvelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365busfullaccesselstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365buspremiumelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365fullaccesselstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365readelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/d365teammemberelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Permissions/intelligentcloudelstervatlocalizationforgermany.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Reports/CreateXMLFileVATAdvNotif.Report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclBuffer.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclSetup.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/Elster/app/src/Tables/SalesVATAdvanceNotif.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -2279,6 +2375,7 @@
   "apps": [
     "Base Application",
     "DynamicsSLHistoricalData",
+    "Elster",
     "HybridSL",
     "QBMigration"
   ]

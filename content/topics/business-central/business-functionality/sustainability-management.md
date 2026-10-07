@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -288,7 +288,71 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-scorecards-goals
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-cbam-epr-calculations
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit
-  objects: []
+  objects:
+    - object/page/16
+    - object/page/30
+    - object/page/42
+    - object/page/43
+    - object/page/50
+    - object/page/51
+    - object/page/52
+    - object/page/76
+    - object/page/104
+    - object/page/108
+    - object/page/138
+    - object/page/140
+    - object/page/490
+    - object/page/900
+    - object/page/5510
+    - object/page/5600
+    - object/page/5604
+    - object/page/5628
+    - object/page/5629
+    - object/page/5636
+    - object/page/5740
+    - object/page/5800
+    - object/page/5900
+    - object/page/5902
+    - object/page/5905
+    - object/page/5914
+    - object/page/5933
+    - object/page/5934
+    - object/page/5935
+    - object/page/5936
+    - object/page/5952
+    - object/page/5964
+    - object/page/5966
+    - object/page/5972
+    - object/page/5973
+    - object/page/5975
+    - object/page/5976
+    - object/page/5978
+    - object/page/5979
+    - object/page/6030
+    - object/page/6033
+    - object/page/6034
+    - object/page/6210
+    - object/page/6213
+    - object/page/6214
+    - object/page/6216
+    - object/page/6219
+    - object/page/6220
+    - object/page/6221
+    - object/page/6235
+    - object/page/6245
+    - object/page/6640
+    - object/page/36951
+    - object/page/99000754
+    - object/page/99000760
+    - object/page/99000766
+    - object/page/99000786
+    - object/page/99000817
+    - object/page/99000818
+    - object/page/99000831
+    - object/report/6210
+    - object/report/6211
+    - object/report/6212
+    - object/report/6221
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -332,7 +396,7 @@ children:
   - topic/business-central/business-functionality/sustainability-management/sustainability-value-chain
 coverage:
   learn: 37
-  code: 0
+  code: 64
   video: 16
   blog: 0
   guideline: 0
@@ -475,6 +539,71 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 16, 30, 42, 43, 50, 51, 52, 76, 104, 108, 138, 140, 490, 900, 5510, 5600, 5604, 5628, 5629, 5636, 5740, 5800, 5900, 5902, 5905, 5914, 5933, 5934, 5935, 5936, 5952, 5964, 5966, 5972, 5973, 5975, 5976, 5978, 5979, 6030, 6033, 6034, 6210, 6211, 6212, 6213, 6214, 6216, 6219, 6220, 6221, 6235, 6245, 6640, 36951, 99000754, 99000760, 99000766, 99000786, 99000817, 99000818, 99000831.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 51 "Purchase Invoice"](../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 52 "Purchase Credit Memo"](../../../objects/page/52.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 138 "Posted Purchase Invoice"](../../../objects/page/138.md) · on [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md)
+- [Page 140 "Posted Purchase Credit Memo"](../../../objects/page/140.md) · on [Table 124 "Purch. Cr. Memo Hdr."](../../../objects/table/124.md)
+- [Page 6210 "Chart of Sustain. Accounts"](../../../objects/page/6210.md) · captioned "Chart of Sustainability Accounts" · on [Table 6210 "Sustainability Account"](../../../objects/table/6210.md)
+- [Page 6213 "Sustain. Account Categories"](../../../objects/page/6213.md) · captioned "Sustainability Account Categories" · on [Table 6211 "Sustain. Account Category"](../../../objects/table/6211.md)
+- [Page 6214 "Sustain. Account Subcategories"](../../../objects/page/6214.md) · captioned "Sustainability Account Subcategories" · on [Table 6212 "Sustain. Account Subcategory"](../../../objects/table/6212.md)
+- [Page 6216 "Sustainability Jnl. Batches"](../../../objects/page/6216.md) · captioned "Sustainability Journal Batches" · on [Table 6213 "Sustainability Jnl. Batch"](../../../objects/table/6213.md)
+- [Page 6219 "Sustainability Journal"](../../../objects/page/6219.md) · on [Table 6214 "Sustainability Jnl. Line"](../../../objects/table/6214.md)
+- [Page 6220 "Sustainability Ledger Entries"](../../../objects/page/6220.md) · on [Table 6216 "Sustainability Ledger Entry"](../../../objects/table/6216.md)
+- [Page 6221 "Sustainability Setup"](../../../objects/page/6221.md) · on [Table 6217 "Sustainability Setup"](../../../objects/table/6217.md)
+- [Page 6235 "Sustainability Manager RC"](../../../objects/page/6235.md) · captioned "Sustainability Manager"
+- [Page 6245 "Emission Fees"](../../../objects/page/6245.md) · on [Table 6226 "Emission Fee"](../../../objects/table/6226.md)
+- [Page 6640 "Purchase Return Order"](../../../objects/page/6640.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 16 "Chart of Accounts"](../../../objects/page/16.md) · on [Table 15 "G/L Account"](../../../objects/table/15.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 30 "Item Card"](../../../objects/page/30.md) · on [Table 27 "Item"](../../../objects/table/27.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 42 "Sales Order"](../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 43 "Sales Invoice"](../../../objects/page/43.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 76 "Resource Card"](../../../objects/page/76.md) · on [Table 156 "Resource"](../../../objects/table/156.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 104 "Account Schedule"](../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Page 108 "Financial Reports"](../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../objects/table/88.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Page 490 "Acc. Schedule Overview"](../../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Page 900 "Assembly Order"](../../../objects/page/900.md) · on [Table 900 "Assembly Header"](../../../objects/table/900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5510 "Production Journal"](../../../objects/page/5510.md) · on [Table 83 "Item Journal Line"](../../../objects/table/83.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5600 "Fixed Asset Card"](../../../objects/page/5600.md) · on [Table 5600 "Fixed Asset"](../../../objects/table/5600.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5604 "FA Ledger Entries"](../../../objects/page/5604.md) · on [Table 5601 "FA Ledger Entry"](../../../objects/table/5601.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5628 "Fixed Asset G/L Journal"](../../../objects/page/5628.md) · captioned "Fixed Asset G/L Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5629 "Fixed Asset Journal"](../../../objects/page/5629.md) · captioned "Fixed Asset Journals" · on [Table 5621 "FA Journal Line"](../../../objects/table/5621.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5636 "FA Reclass. Journal"](../../../objects/page/5636.md) · captioned "Fixed Asset Reclassification Journals" · on [Table 5624 "FA Reclass. Journal Line"](../../../objects/table/5624.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5740 "Transfer Order"](../../../objects/page/5740.md) · on [Table 5740 "Transfer Header"](../../../objects/table/5740.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5800 "Item Charges"](../../../objects/page/5800.md) · on [Table 5800 "Item Charge"](../../../objects/table/5800.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5900 "Service Order"](../../../objects/page/5900.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5902 "Service Order Subform"](../../../objects/page/5902.md) · captioned "Lines" · on [Table 5901 "Service Item Line"](../../../objects/table/5901.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5905 "Service Lines"](../../../objects/page/5905.md) · on [Table 5902 "Service Line"](../../../objects/table/5902.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5914 "Service Order Statistics"](../../../objects/page/5914.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5933 "Service Invoice"](../../../objects/page/5933.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5934 "Service Invoice Subform"](../../../objects/page/5934.md) · captioned "Lines" · on [Table 5902 "Service Line"](../../../objects/table/5902.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5935 "Service Credit Memo"](../../../objects/page/5935.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5936 "Service Credit Memo Subform"](../../../objects/page/5936.md) · captioned "Lines" · on [Table 5902 "Service Line"](../../../objects/table/5902.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5952 "Posted Service Cr. Memo Lines"](../../../objects/page/5952.md) · on [Table 5995 "Service Cr.Memo Line"](../../../objects/table/5995.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5964 "Service Quote"](../../../objects/page/5964.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5966 "Service Quote Lines"](../../../objects/page/5966.md) · on [Table 5902 "Service Line"](../../../objects/table/5902.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5972 "Posted Service Credit Memo"](../../../objects/page/5972.md) · on [Table 5994 "Service Cr.Memo Header"](../../../objects/table/5994.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5973 "Posted Serv. Cr. Memo Subform"](../../../objects/page/5973.md) · captioned "Lines" · on [Table 5995 "Service Cr.Memo Line"](../../../objects/table/5995.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5975 "Posted Service Shipment"](../../../objects/page/5975.md) · on [Table 5990 "Service Shipment Header"](../../../objects/table/5990.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5976 "Posted Service Shpt. Subform"](../../../objects/page/5976.md) · captioned "Lines" · on [Table 5989 "Service Shipment Item Line"](../../../objects/table/5989.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5978 "Posted Service Invoice"](../../../objects/page/5978.md) · on [Table 5992 "Service Invoice Header"](../../../objects/table/5992.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 5979 "Posted Service Invoice Subform"](../../../objects/page/5979.md) · captioned "Lines" · on [Table 5993 "Service Invoice Line"](../../../objects/table/5993.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 6030 "Service Statistics"](../../../objects/page/6030.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 6033 "Service Invoice Statistics"](../../../objects/page/6033.md) · on [Table 5992 "Service Invoice Header"](../../../objects/table/5992.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 6034 "Service Credit Memo Statistics"](../../../objects/page/6034.md) · on [Table 5994 "Service Cr.Memo Header"](../../../objects/table/5994.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Page 99000754 "Work Center Card"](../../../objects/page/99000754.md) · on [Table 99000754 "Work Center"](../../../objects/table/99000754.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000760 "Machine Center Card"](../../../objects/page/99000760.md) · on [Table 99000758 "Machine Center"](../../../objects/table/99000758.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000766 "Routing"](../../../objects/page/99000766.md) · on [Table 99000763 "Routing Header"](../../../objects/table/99000763.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000786 "Production BOM"](../../../objects/page/99000786.md) · on [Table 99000771 "Production BOM Header"](../../../objects/table/99000771.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000817 "Prod. Order Routing"](../../../objects/page/99000817.md) · on [Table 5409 "Prod. Order Routing Line"](../../../objects/table/5409.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000818 "Prod. Order Components"](../../../objects/page/99000818.md) · on [Table 5407 "Prod. Order Component"](../../../objects/table/5407.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Page 99000831 "Released Production Order"](../../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
+- [Report 6210 "Emission By Category"](../../../objects/report/6210.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Report 6211 "Emission Per Facility"](../../../objects/report/6211.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Report 6212 "Total Emissions"](../../../objects/report/6212.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Report 6221 "Sust. Adjust Emissions"](../../../objects/report/6221.md) · captioned "Adjust Emissions" · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

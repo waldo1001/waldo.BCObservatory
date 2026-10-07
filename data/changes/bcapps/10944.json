@@ -59,26 +59,48 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreatePurchAdvLetterCZZ.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/31029",
+        "type": "report",
+        "id": 31029,
+        "name": "Create Purch. Adv. Letter CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "report/31029-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreateSalesAdvLetterCZZ.Report.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "report/31012",
+        "type": "report",
+        "id": 31012,
+        "name": "Create Sales Adv. Letter CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "report/31012-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CustomerCZZ.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31045",
+        "type": "tableextension",
+        "id": 31045,
+        "name": "Customer CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "tableextension/31045-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "AdvancePaymentsLocalization"
+  ]
 }

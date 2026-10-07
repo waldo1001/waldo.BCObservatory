@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:30.848Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,11 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/powerplatform-integration-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview
-  objects: []
+  objects:
+    - object/page/1500
+    - object/page/6316
+    - object/page/6317
+    - object/page/36951
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications
@@ -151,7 +155,7 @@ children:
   - topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
 coverage:
   learn: 15
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -207,6 +211,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1500, 6316, 6317, 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1500 "Workflows"](../../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../../objects/table/1500.md) · via [Microsoft Power Automate](microsoft-power-platform/microsoft-power-automate.md)
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Microsoft Power BI](microsoft-power-platform/microsoft-power-bi.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Microsoft Power BI](microsoft-power-platform/microsoft-power-bi.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Microsoft Power BI](microsoft-power-platform/microsoft-power-bi.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

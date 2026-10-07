@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,7 +141,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/version-numbers
-  objects: []
+  objects:
+    - object/page/9
+    - object/page/1801
+    - object/page/1803
+    - object/page/2500
+    - object/page/3563
+    - object/page/9882
+    - object/page/20350
   features: []
   topics:
     - topic/dev-itpro/administration
@@ -162,7 +169,7 @@ children:
   - topic/dev-itpro/administration/understand-business-central-online/environment-types
 coverage:
   learn: 16
-  code: 0
+  code: 7
   video: 1
   blog: 2
   guideline: 0
@@ -230,6 +237,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9, 1801, 1803, 2500, 2502, 3563, 9882, 20350.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9 "Languages"](../../../objects/page/9.md) · on [Table 8 "Language"](../../../objects/table/8.md)
+- [Page 1801 "Assisted Setup"](../../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md)
+- [Page 1803 "Assisted Company Setup Wizard"](../../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../../objects/table/8627.md)
+- [Page 2500 "Extension Management"](../../../objects/page/2500.md)
+- [Page 3563 "Allowed Languages"](../../../objects/page/3563.md) · on [Table 3563 "Allowed Language"](../../../objects/table/3563.md)
+- [Page 9882 "Report Res. Govern. Settings"](../../../objects/page/9882.md) · captioned "Report Limits and Settings"
+- [Page 20350 "Connectivity Apps"](../../../objects/page/20350.md) · on [Table 20350 "Connectivity App"](../../../objects/table/20350.md) · via [Environment types](understand-business-central-online/environment-types.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

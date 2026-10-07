@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.418Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,47 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting
     - https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting
     - https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries
-  objects: []
+  objects:
+    - object/page/1100
+    - object/page/1101
+    - object/page/1102
+    - object/page/1103
+    - object/page/1104
+    - object/page/1105
+    - object/page/1106
+    - object/page/1107
+    - object/page/1108
+    - object/page/1109
+    - object/page/1111
+    - object/page/1112
+    - object/page/1113
+    - object/page/1114
+    - object/page/1115
+    - object/page/1116
+    - object/page/1117
+    - object/page/1118
+    - object/page/1119
+    - object/page/1120
+    - object/page/1121
+    - object/page/1122
+    - object/page/1123
+    - object/page/1124
+    - object/page/1131
+    - object/page/1132
+    - object/page/1133
+    - object/page/1135
+    - object/report/1123
+    - object/report/1125
+    - object/report/1126
+    - object/report/1127
+    - object/report/1128
+    - object/report/1129
+    - object/report/1133
+    - object/report/1138
+    - object/report/1700
+    - object/report/1701
+    - object/report/1702
+    - object/report/4405
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -116,7 +156,7 @@ parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 40
   video: 2
   blog: 1
   guideline: 0
@@ -212,6 +252,49 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1131, 1132, 1133, 1135, 1138, 1700, 1701, 1702, 4405, 10007, 10008.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1100 "Chart of Cost Types"](../../../../objects/page/1100.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1101 "Cost Type Card"](../../../../objects/page/1101.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1102 "Cost Allocation Sources"](../../../../objects/page/1102.md) · captioned "Cost Allocations" · on [Table 1106 "Cost Allocation Source"](../../../../objects/table/1106.md)
+- [Page 1103 "Cost Entries"](../../../../objects/page/1103.md) · on [Table 1104 "Cost Entry"](../../../../objects/table/1104.md)
+- [Page 1104 "Cost Registers"](../../../../objects/page/1104.md) · on [Table 1105 "Cost Register"](../../../../objects/table/1105.md)
+- [Page 1105 "Cost Allocation"](../../../../objects/page/1105.md) · on [Table 1106 "Cost Allocation Source"](../../../../objects/table/1106.md)
+- [Page 1106 "Cost Allocation Target"](../../../../objects/page/1106.md) · captioned "Lines" · on [Table 1107 "Cost Allocation Target"](../../../../objects/table/1107.md)
+- [Page 1107 "Cost Journal Templates"](../../../../objects/page/1107.md) · on [Table 1100 "Cost Journal Template"](../../../../objects/table/1100.md)
+- [Page 1108 "Cost Journal"](../../../../objects/page/1108.md) · captioned "Cost Journals" · on [Table 1101 "Cost Journal Line"](../../../../objects/table/1101.md)
+- [Page 1109 "Cost Allocation Target Card"](../../../../objects/page/1109.md) · on [Table 1107 "Cost Allocation Target"](../../../../objects/table/1107.md)
+- [Page 1111 "Cost Center Card"](../../../../objects/page/1111.md) · on [Table 1112 "Cost Center"](../../../../objects/table/1112.md)
+- [Page 1112 "Cost Object Card"](../../../../objects/page/1112.md) · on [Table 1113 "Cost Object"](../../../../objects/table/1113.md)
+- [Page 1113 "Cost Accounting Setup"](../../../../objects/page/1113.md) · on [Table 1108 "Cost Accounting Setup"](../../../../objects/table/1108.md)
+- [Page 1114 "Cost Allocation Target List"](../../../../objects/page/1114.md) · on [Table 1107 "Cost Allocation Target"](../../../../objects/table/1107.md)
+- [Page 1115 "Cost Budget Entries"](../../../../objects/page/1115.md) · on [Table 1109 "Cost Budget Entry"](../../../../objects/table/1109.md)
+- [Page 1116 "Cost Budget Names"](../../../../objects/page/1116.md) · captioned "Cost Budgets" · on [Table 1110 "Cost Budget Name"](../../../../objects/table/1110.md)
+- [Page 1117 "Cost Budget per Period"](../../../../objects/page/1117.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1118 "Cost Budget by Cost Center"](../../../../objects/page/1118.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1119 "Cost Budget by Cost Object"](../../../../objects/page/1119.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1120 "Cost Type Balance/Budget"](../../../../objects/page/1120.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1121 "Cost Budget Registers"](../../../../objects/page/1121.md) · on [Table 1111 "Cost Budget Register"](../../../../objects/table/1111.md)
+- [Page 1122 "Chart of Cost Centers"](../../../../objects/page/1122.md) · on [Table 1112 "Cost Center"](../../../../objects/table/1112.md)
+- [Page 1123 "Chart of Cost Objects"](../../../../objects/page/1123.md) · on [Table 1113 "Cost Object"](../../../../objects/table/1113.md)
+- [Page 1124 "Cost Type List"](../../../../objects/page/1124.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1131 "Cost Budget per Period Matrix"](../../../../objects/page/1131.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1132 "Cost Bdgt. per Center Matrix"](../../../../objects/page/1132.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1133 "Cost Bdgt. per Object Matrix"](../../../../objects/page/1133.md) · on [Table 1103 "Cost Type"](../../../../objects/table/1103.md)
+- [Page 1135 "Cost Journal Batches"](../../../../objects/page/1135.md) · on [Table 1102 "Cost Journal Batch"](../../../../objects/table/1102.md)
+- [Report 1123 "Cost Acctg. Stmt. per Period"](../../../../objects/report/1123.md)
+- [Report 1125 "Cost Types Details"](../../../../objects/report/1125.md)
+- [Report 1126 "Cost Acctg. Statement"](../../../../objects/report/1126.md)
+- [Report 1127 "Cost Acctg. Analysis"](../../../../objects/report/1127.md)
+- [Report 1128 "Cost Acctg. Journal"](../../../../objects/report/1128.md)
+- [Report 1129 "Cost Allocations"](../../../../objects/report/1129.md)
+- [Report 1133 "Cost Acctg. Statement/Budget"](../../../../objects/report/1133.md)
+- [Report 1138 "Cost Acctg. Balance/Budget"](../../../../objects/report/1138.md)
+- [Report 1700 "Deferral Summary - G/L"](../../../../objects/report/1700.md)
+- [Report 1701 "Deferral Summary - Sales"](../../../../objects/report/1701.md)
+- [Report 1702 "Deferral Summary - Purchasing"](../../../../objects/report/1702.md)
+- [Report 4405 "EXR Trial Balance Excel"](../../../../objects/report/4405.md) · captioned "Trial Balance (Excel)"
+
+Learn also names 2 objects with no object page: report/10007, report/10008.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

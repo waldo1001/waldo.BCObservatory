@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,50 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow
     - https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices
     - https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger
-  objects: []
+  objects:
+    - object/page/18
+    - object/page/20
+    - object/page/37
+    - object/page/65
+    - object/page/99
+    - object/page/118
+    - object/page/120
+    - object/page/121
+    - object/page/312
+    - object/page/313
+    - object/page/314
+    - object/page/395
+    - object/page/422
+    - object/page/552
+    - object/page/569
+    - object/page/570
+    - object/page/634
+    - object/page/686
+    - object/page/687
+    - object/page/689
+    - object/page/762
+    - object/page/790
+    - object/page/791
+    - object/page/840
+    - object/page/841
+    - object/page/847
+    - object/page/848
+    - object/page/849
+    - object/page/850
+    - object/page/851
+    - object/page/857
+    - object/page/858
+    - object/page/859
+    - object/page/860
+    - object/page/862
+    - object/page/863
+    - object/page/865
+    - object/page/866
+    - object/page/867
+    - object/page/868
+    - object/page/869
+    - object/page/1158
+    - object/page/1818
   features: []
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
@@ -74,7 +117,7 @@ parent: topic/business-central/business-functionality/finance/financial-analytic
 children: []
 coverage:
   learn: 4
-  code: 0
+  code: 43
   video: 0
   blog: 0
   guideline: 0
@@ -164,6 +207,50 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 18, 20, 37, 65, 99, 118, 120, 121, 312, 313, 314, 395, 422, 552, 569, 570, 634, 686, 687, 689, 762, 790, 791, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1158, 1818.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 18 "G/L Account List"](../../../../../objects/page/18.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 20 "General Ledger Entries"](../../../../../objects/page/20.md) · on [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
+- [Page 37 "Where-Used List"](../../../../../objects/page/37.md) · on [Table 90 "BOM Component"](../../../../../objects/table/90.md)
+- [Page 65 "Rounding Methods"](../../../../../objects/page/65.md) · on [Table 42 "Rounding Method"](../../../../../objects/table/42.md)
+- [Page 99 "G/L Account Where-Used List"](../../../../../objects/page/99.md) · on [Table 180 "G/L Account Where-Used"](../../../../../objects/table/180.md)
+- [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
+- [Page 120 "G/L Budget Entries"](../../../../../objects/page/120.md) · on [Table 96 "G/L Budget Entry"](../../../../../objects/table/96.md)
+- [Page 121 "G/L Budget Names"](../../../../../objects/page/121.md) · captioned "G/L Budgets" · on [Table 95 "G/L Budget Name"](../../../../../objects/table/95.md)
+- [Page 312 "Gen. Business Posting Groups"](../../../../../objects/page/312.md) · on [Table 250 "Gen. Business Posting Group"](../../../../../objects/table/250.md)
+- [Page 313 "Gen. Product Posting Groups"](../../../../../objects/page/313.md) · captioned "General Product Posting Groups" · on [Table 251 "Gen. Product Posting Group"](../../../../../objects/table/251.md)
+- [Page 314 "General Posting Setup"](../../../../../objects/page/314.md) · on [Table 252 "General Posting Setup"](../../../../../objects/table/252.md)
+- [Page 395 "General Posting Setup Card"](../../../../../objects/page/395.md) · on [Table 252 "General Posting Setup"](../../../../../objects/table/252.md)
+- [Page 422 "G/L Balance/Budget"](../../../../../objects/page/422.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 552 "Gen. Prod. Posting Group Conv."](../../../../../objects/page/552.md) · on [Table 551 "VAT Rate Change Conversion"](../../../../../objects/table/551.md)
+- [Page 569 "Chart of Accs. (Analysis View)"](../../../../../objects/page/569.md) · on [Table 376 "G/L Account (Analysis View)"](../../../../../objects/table/376.md)
+- [Page 570 "Chart of Accounts (G/L)"](../../../../../objects/page/570.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 634 "Chart of Accounts Overview"](../../../../../objects/page/634.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 686 "Payment Practice Data List"](../../../../../objects/page/686.md) · on [Table 686 "Payment Practice Data"](../../../../../objects/table/686.md)
+- [Page 687 "Payment Practice Card"](../../../../../objects/page/687.md) · captioned "Payment Practice" · on [Table 687 "Payment Practice Header"](../../../../../objects/table/687.md)
+- [Page 689 "Payment Practice List"](../../../../../objects/page/689.md) · captioned "Payment Practices" · on [Table 687 "Payment Practice Header"](../../../../../objects/table/687.md)
+- [Page 762 "Finance Performance"](../../../../../objects/page/762.md) · on [Table 485 "Business Chart Buffer"](../../../../../objects/table/485.md)
+- [Page 790 "G/L Account Categories"](../../../../../objects/page/790.md) · on [Table 570 "G/L Account Category"](../../../../../objects/table/570.md)
+- [Page 791 "G/L Accounts ListPart"](../../../../../objects/page/791.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 840 "CF Forecast Statistics FactBox"](../../../../../objects/page/840.md) · captioned "Cash Flow Forecast Statistic" · on [Table 840 "Cash Flow Forecast"](../../../../../objects/table/840.md)
+- [Page 841 "Cash Flow Worksheet"](../../../../../objects/page/841.md) · on [Table 846 "Cash Flow Worksheet Line"](../../../../../objects/table/846.md)
+- [Page 847 "Cash Flow Forecast Card"](../../../../../objects/page/847.md) · on [Table 840 "Cash Flow Forecast"](../../../../../objects/table/840.md)
+- [Page 848 "Cash Flow Comment"](../../../../../objects/page/848.md) · on [Table 842 "Cash Flow Account Comment"](../../../../../objects/table/842.md)
+- [Page 849 "Cash Flow Forecast List"](../../../../../objects/page/849.md) · captioned "Cash Flow Forecasts" · on [Table 840 "Cash Flow Forecast"](../../../../../objects/table/840.md)
+- [Page 850 "Cash Flow Forecast Entries"](../../../../../objects/page/850.md) · captioned "Cash Flow Ledger Entries" · on [Table 847 "Cash Flow Forecast Entry"](../../../../../objects/table/847.md)
+- [Page 851 "Chart of Cash Flow Accounts"](../../../../../objects/page/851.md) · on [Table 841 "Cash Flow Account"](../../../../../objects/table/841.md)
+- [Page 857 "Cash Flow Manual Revenues"](../../../../../objects/page/857.md) · on [Table 849 "Cash Flow Manual Revenue"](../../../../../objects/table/849.md)
+- [Page 858 "Cash Flow Comment List"](../../../../../objects/page/858.md) · on [Table 842 "Cash Flow Account Comment"](../../../../../objects/table/842.md)
+- [Page 859 "Cash Flow Manual Expenses"](../../../../../objects/page/859.md) · on [Table 850 "Cash Flow Manual Expense"](../../../../../objects/table/850.md)
+- [Page 860 "CF Entries Dim. Overview"](../../../../../objects/page/860.md) · captioned "CF Forcst. Entries Dimension Overview" · on [Table 847 "Cash Flow Forecast Entry"](../../../../../objects/table/847.md)
+- [Page 862 "Cash Flow Account Card"](../../../../../objects/page/862.md) · on [Table 841 "Cash Flow Account"](../../../../../objects/table/841.md)
+- [Page 863 "CF Entries Dim. Matrix"](../../../../../objects/page/863.md) · captioned "CF Forcst. Entries Dim. Overv. M." · on [Table 847 "Cash Flow Forecast Entry"](../../../../../objects/table/847.md)
+- [Page 865 "Report Selection - Cash Flow"](../../../../../objects/page/865.md) · on [Table 856 "Cash Flow Report Selection"](../../../../../objects/table/856.md)
+- [Page 866 "Cash Flow Availability Lines"](../../../../../objects/page/866.md) · captioned "Lines" · on [Table 930 "Cash Flow Availability Buffer"](../../../../../objects/table/930.md)
+- [Page 867 "CF Availability by Periods"](../../../../../objects/page/867.md) · on [Table 840 "Cash Flow Forecast"](../../../../../objects/table/840.md)
+- [Page 868 "Cash Flow Forecast Statistics"](../../../../../objects/page/868.md) · on [Table 840 "Cash Flow Forecast"](../../../../../objects/table/840.md)
+- [Page 869 "Cash Flow Forecast Chart"](../../../../../objects/page/869.md) · captioned "Cash Flow Forecast" · on [Table 485 "Business Chart Buffer"](../../../../../objects/table/485.md)
+- [Page 1158 "Cash Account Balances"](../../../../../objects/page/1158.md) · on [Table 15 "G/L Account"](../../../../../objects/table/15.md)
+- [Page 1818 "Cash Flow Forecast Wizard"](../../../../../objects/page/1818.md) · captioned "Set Up Cash Flow Forecast"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

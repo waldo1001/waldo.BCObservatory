@@ -1,5 +1,10 @@
 {
   "versions": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
     "28",
     "29",
     "30"
@@ -8,11 +13,14 @@
     "649": {
       "name": "Reten. Pol. Admin - BaseApp",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -20,11 +28,14 @@
     "2529": {
       "name": "Service Receivables Doc.- Post",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -32,11 +43,12 @@
     "5900": {
       "name": "SERV D365 ACCOUNTANTS",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -44,11 +56,12 @@
     "5901": {
       "name": "SERV D365 AUTOMATION",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -56,11 +69,12 @@
     "5902": {
       "name": "SERV D365 Basic - Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -68,11 +82,12 @@
     "5903": {
       "name": "SERV D365 Basic Read",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -80,11 +95,12 @@
     "5905": {
       "name": "SERV D365 BASIC ISV",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -92,23 +108,27 @@
     "5906": {
       "name": "SERV D365 BUS FULL ACCESS",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "27",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5907": {
       "name": "SERV D365 CUSTOMER, EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -116,11 +136,12 @@
     "5908": {
       "name": "SERV D365 CUSTOMER VIEW",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -128,11 +149,12 @@
     "5909": {
       "name": "SERV D365 ITEM AVAIL CALC",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -140,11 +162,12 @@
     "5910": {
       "name": "SERV D365 ITEM EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -152,11 +175,12 @@
     "5911": {
       "name": "SERV D365 SETUP",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -164,11 +188,12 @@
     "5912": {
       "name": "SERV D365 READ",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -176,23 +201,27 @@
     "5913": {
       "name": "SERV D365 TEAM MEMBER",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "27",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5914": {
       "name": "SERV D365 VENDOR, EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -200,11 +229,12 @@
     "5915": {
       "name": "SERV D365 INTELLIGENT CLOUD",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -212,11 +242,12 @@
     "5917": {
       "name": "SERV D365PREM SMG EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -224,11 +255,12 @@
     "5918": {
       "name": "SERV D365PREM SMG VIEW",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -236,11 +268,12 @@
     "5919": {
       "name": "SERV D365PREM SMG SETUP",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -248,11 +281,14 @@
     "6465": {
       "name": "Service G/L Accounts - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -260,11 +296,14 @@
     "6466": {
       "name": "Service Foundation UI",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -272,11 +311,14 @@
     "6467": {
       "name": "Service G/L Accounts - View",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -284,11 +326,14 @@
     "6468": {
       "name": "Service Inventory - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -296,11 +341,14 @@
     "6469": {
       "name": "Service Jobs - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -308,11 +356,14 @@
     "6470": {
       "name": "Service Vendor - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -320,11 +371,14 @@
     "6471": {
       "name": "Service Contact - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -332,11 +386,14 @@
     "6472": {
       "name": "Service Resources - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -344,11 +401,14 @@
     "6473": {
       "name": "Service Customer - Edit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -356,11 +416,14 @@
     "6474": {
       "name": "Service Customer - View",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -368,23 +431,49 @@
     "7372": {
       "name": "Security Ext",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "138700": {
+      "name": "Reten Pol Admin",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
+    "138701": {
+      "name": "Reten Pol View",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "25"
+    },
     "99000750": {
       "name": "MFG D365 AUTOMATION",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -392,11 +481,12 @@
     "99000751": {
       "name": "MFG D365 Basic - Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -404,11 +494,12 @@
     "99000752": {
       "name": "MFG D365 Basic - Read",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -416,11 +507,12 @@
     "99000753": {
       "name": "MFG D365 BASIC ISV",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -428,11 +520,12 @@
     "99000754": {
       "name": "MFG D365 BUS FULL ACCESS",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -440,11 +533,12 @@
     "99000755": {
       "name": "MFG D365 ITEM AVAIL CALC",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -452,11 +546,12 @@
     "99000756": {
       "name": "MFG D365 ITEM, EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -464,11 +559,12 @@
     "99000757": {
       "name": "MFG D365 READ",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -476,11 +572,12 @@
     "99000758": {
       "name": "MFG D365 SETUP",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -488,11 +585,12 @@
     "99000759": {
       "name": "MFG D365 TEAM MEMBER",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -500,11 +598,12 @@
     "99000760": {
       "name": "MFG D365 VENDOR, EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -512,11 +611,12 @@
     "99000761": {
       "name": "MFG D365 INTELLIGENT CLOUD",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -524,11 +624,12 @@
     "99000765": {
       "name": "MFG D365 PREM VIEW",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -536,11 +637,12 @@
     "99000766": {
       "name": "MFG D365 PREM EDIT",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -548,11 +650,12 @@
     "99000770": {
       "name": "Mfg. Foundation UI",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -560,11 +663,12 @@
     "99000771": {
       "name": "Mfg. Inventory - Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -572,11 +676,12 @@
     "99000772": {
       "name": "Mfg. Inventory - View",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -584,11 +689,12 @@
     "99000773": {
       "name": "Mfg. Item Journals - Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -596,11 +702,12 @@
     "99000774": {
       "name": "Mfg. Item Journals - Post",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -608,11 +715,12 @@
     "99000775": {
       "name": "Mfg. Payables Documents Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -620,11 +728,12 @@
     "99000776": {
       "name": "Mfg. Payables Documents Post",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -632,11 +741,12 @@
     "99000777": {
       "name": "Mfg. Vendor - Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -644,11 +754,12 @@
     "99000778": {
       "name": "Mfg Receivables Documents Edit",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -656,11 +767,12 @@
     "99000779": {
       "name": "Mfg. Receivables Documents Post",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null

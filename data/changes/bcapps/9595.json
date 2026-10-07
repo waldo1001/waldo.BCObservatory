@@ -144,86 +144,183 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/CopyFixedAssetHandlerCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31474",
+        "type": "codeunit",
+        "id": 31474,
+        "name": "Copy Fixed Asset Handler CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31474-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31252",
+        "type": "codeunit",
+        "id": 31252,
+        "name": "Data Class. Eval. Handler CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31252-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DefaultDimensionHandlerCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31392",
+        "type": "codeunit",
+        "id": 31392,
+        "name": "Default Dimension Handler CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31392-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoCreateMgtCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31394",
+        "type": "codeunit",
+        "id": 31394,
+        "name": "Dimension Auto.Create Mgt. CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31394-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/DimensionAutoUpdateMgtCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31395",
+        "type": "codeunit",
+        "id": 31395,
+        "name": "Dimension Auto.Update Mgt. CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31395-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31251",
+        "type": "codeunit",
+        "id": 31251,
+        "name": "Upgrade Application CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31251-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZA.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31261",
+        "type": "codeunit",
+        "id": 31261,
+        "name": "Upgrade Tag Definitions CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31261-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/AccountTypeDefaultDimCZA.PageExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "pageextension/31261",
+        "type": "pageextension",
+        "id": 31261,
+        "name": "Account Type Default Dim. CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "pageextension/31261-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/PageExtensions/DimensionsCZA.PageExt.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "pageextension/31292",
+        "type": "pageextension",
+        "id": 31292,
+        "name": "Dimensions CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "pageextension/31292-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Pages/AutoCreateDefaultDimCZA.Page.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "page/31292",
+        "type": "page",
+        "id": 31292,
+        "name": "Auto. Create Default Dim. CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "page/31292-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackEditCZA.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11741",
+        "type": "permissionset",
+        "id": 11741,
+        "name": "CZ Advance Pack - Edit CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11741-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackObjectsCZA.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11742",
+        "type": "permissionset",
+        "id": 11742,
+        "name": "CZ Advance Pack - Objects CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11742-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Permissions/CZAdvancePackReadCZA.PermissionSet.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/11740",
+        "type": "permissionset",
+        "id": 11740,
+        "name": "CZ Advance Pack - Read CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11740-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/TableExtensions/DefaultDimensionCZA.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/31266",
+        "type": "tableextension",
+        "id": 31266,
+        "name": "Default Dimension CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/31266-cz"
       },
       {
         "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Tables/AutoCreateDefaultDimCZA.Table.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "table/31284",
+        "type": "table",
+        "id": 31284,
+        "name": "Auto. Create Default Dim. CZA",
+        "app": "AdvancedLocalizationPack",
+        "cc": "cz",
+        "page": "table/31284-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance",
+    "development",
+    "platform",
+    "fixed-assets"
+  ],
+  "apps": [
+    "AdvancedLocalizationPack"
+  ]
 }

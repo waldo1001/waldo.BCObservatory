@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,29 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-locations
     - https://learn.microsoft.com/dynamics365/business-central/inventory-setup-inventory
     - https://learn.microsoft.com/dynamics365/business-central/inventory-about-item-types
-  objects: []
+  objects:
+    - object/page/30
+    - object/page/31
+    - object/page/32
+    - object/page/35
+    - object/page/346
+    - object/page/456
+    - object/page/461
+    - object/page/1378
+    - object/page/1383
+    - object/page/1384
+    - object/page/5401
+    - object/page/5404
+    - object/page/5716
+    - object/page/5717
+    - object/page/5718
+    - object/page/5719
+    - object/page/5720
+    - object/page/5730
+    - object/page/5733
+    - object/page/5845
+    - object/page/9091
+    - object/page/9297
   features: []
   topics:
     - topic/business-central/business-functionality/set-up-business-central
@@ -137,7 +159,7 @@ parent: topic/business-central/business-functionality/set-up-business-central
 children: []
 coverage:
   learn: 11
-  code: 0
+  code: 22
   video: 1
   blog: 2
   guideline: 0
@@ -225,6 +247,29 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 30, 31, 32, 35, 346, 456, 461, 1378, 1383, 1384, 5401, 5404, 5716, 5717, 5718, 5719, 5720, 5730, 5733, 5845, 9091, 9297.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 30 "Item Card"](../../../../objects/page/30.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 31 "Item List"](../../../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 32 "Item Lookup"](../../../../objects/page/32.md) · captioned "Items" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 35 "Item Translations"](../../../../objects/page/35.md) · on [Table 30 "Item Translation"](../../../../objects/table/30.md)
+- [Page 346 "Item Picture"](../../../../objects/page/346.md) · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 456 "No. Series"](../../../../objects/page/456.md) · on [Table 308 "No. Series"](../../../../objects/table/308.md)
+- [Page 461 "Inventory Setup"](../../../../objects/page/461.md) · on [Table 313 "Inventory Setup"](../../../../objects/table/313.md)
+- [Page 1378 "Select Item Templ. List"](../../../../objects/page/1378.md) · captioned "Select a template for a new item" · on [Table 1382 "Item Templ."](../../../../objects/table/1382.md)
+- [Page 1383 "Item Templ. List"](../../../../objects/page/1383.md) · captioned "Item Templates" · on [Table 1382 "Item Templ."](../../../../objects/table/1382.md)
+- [Page 1384 "Item Templ. Card"](../../../../objects/page/1384.md) · captioned "Item Template" · on [Table 1382 "Item Templ."](../../../../objects/table/1382.md)
+- [Page 5401 "Item Variants"](../../../../objects/page/5401.md) · on [Table 5401 "Item Variant"](../../../../objects/table/5401.md)
+- [Page 5404 "Item Units of Measure"](../../../../objects/page/5404.md) · on [Table 5404 "Item Unit of Measure"](../../../../objects/table/5404.md)
+- [Page 5716 "Item Substitution Entry"](../../../../objects/page/5716.md) · on [Table 5715 "Item Substitution"](../../../../objects/table/5715.md)
+- [Page 5717 "Condition Entry"](../../../../objects/page/5717.md) · captioned "Condition" · on [Table 5716 "Substitution Condition"](../../../../objects/table/5716.md)
+- [Page 5718 "Item Substitution Entries"](../../../../objects/page/5718.md) · on [Table 5715 "Item Substitution"](../../../../objects/table/5715.md)
+- [Page 5719 "Sub. Conditions"](../../../../objects/page/5719.md) · on [Table 5716 "Substitution Condition"](../../../../objects/table/5716.md)
+- [Page 5720 "Item Substitutions"](../../../../objects/page/5720.md) · on [Table 5715 "Item Substitution"](../../../../objects/table/5715.md)
+- [Page 5730 "Item Categories"](../../../../objects/page/5730.md) · on [Table 5722 "Item Category"](../../../../objects/table/5722.md)
+- [Page 5733 "Item Category Card"](../../../../objects/page/5733.md) · on [Table 5722 "Item Category"](../../../../objects/table/5722.md)
+- [Page 5845 "Inventory - G/L Reconciliation"](../../../../objects/page/5845.md) · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
+- [Page 9091 "Item Planning FactBox"](../../../../objects/page/9091.md) · captioned "Item Details - Planning" · on [Table 27 "Item"](../../../../objects/table/27.md)
+- [Page 9297 "Inventory - G/L Recon Matrix"](../../../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../../../objects/table/367.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

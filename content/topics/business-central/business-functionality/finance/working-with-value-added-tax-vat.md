@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,7 +135,67 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number
     - https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat
-  objects: []
+  objects:
+    - object/page/7
+    - object/page/10
+    - object/page/50
+    - object/page/51
+    - object/page/52
+    - object/page/118
+    - object/page/130
+    - object/page/142
+    - object/page/161
+    - object/page/187
+    - object/page/212
+    - object/page/249
+    - object/page/301
+    - object/page/312
+    - object/page/313
+    - object/page/315
+    - object/page/317
+    - object/page/318
+    - object/page/320
+    - object/page/321
+    - object/page/322
+    - object/page/323
+    - object/page/391
+    - object/page/403
+    - object/page/459
+    - object/page/460
+    - object/page/470
+    - object/page/471
+    - object/page/472
+    - object/page/473
+    - object/page/474
+    - object/page/475
+    - object/page/525
+    - object/page/550
+    - object/page/575
+    - object/page/734
+    - object/page/737
+    - object/page/739
+    - object/page/740
+    - object/page/741
+    - object/page/742
+    - object/page/743
+    - object/page/744
+    - object/page/745
+    - object/page/746
+    - object/page/747
+    - object/page/748
+    - object/page/1279
+    - object/page/1877
+    - object/page/6640
+    - object/page/9401
+    - object/report/11
+    - object/report/12
+    - object/report/13
+    - object/report/19
+    - object/report/20
+    - object/report/31
+    - object/report/32
+    - object/report/743
+    - object/report/2500
   features: []
   topics:
     - topic/business-central/business-functionality/finance
@@ -187,7 +247,7 @@ children:
   - topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat
 coverage:
   learn: 15
-  code: 0
+  code: 60
   video: 2
   blog: 2
   guideline: 0
@@ -332,6 +392,67 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 7, 10, 11, 12, 13, 19, 20, 31, 32, 50, 51, 52, 118, 130, 142, 161, 187, 212, 249, 301, 312, 313, 315, 317, 318, 320, 321, 322, 323, 391, 403, 459, 460, 470, 471, 472, 473, 474, 475, 525, 550, 575, 734, 737, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 1279, 1877, 2500, 6640, 9401.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 7 "Customer Price Groups"](../../../../objects/page/7.md) · on [Table 6 "Customer Price Group"](../../../../objects/table/6.md)
+- [Page 50 "Purchase Order"](../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 51 "Purchase Invoice"](../../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 52 "Purchase Credit Memo"](../../../../objects/page/52.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 118 "General Ledger Setup"](../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
+- [Page 130 "Posted Sales Shipment"](../../../../objects/page/130.md) · on [Table 110 "Sales Shipment Header"](../../../../objects/table/110.md)
+- [Page 142 "Posted Sales Shipments"](../../../../objects/page/142.md) · on [Table 110 "Sales Shipment Header"](../../../../objects/table/110.md)
+- [Page 161 "Purchase Statistics"](../../../../objects/page/161.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 187 "VAT Setup"](../../../../objects/page/187.md) · on [Table 189 "VAT Setup"](../../../../objects/table/189.md)
+- [Page 212 "Alt. Cust. VAT Reg."](../../../../objects/page/212.md) · captioned "Alternative Customer VAT Registration" · on [Table 213 "Alt. Cust. VAT Reg."](../../../../objects/table/213.md)
+- [Page 249 "VAT Registration Log"](../../../../objects/page/249.md) · on [Table 249 "VAT Registration Log"](../../../../objects/table/249.md)
+- [Page 301 "Ship-to Address List"](../../../../objects/page/301.md) · on [Table 222 "Ship-to Address"](../../../../objects/table/222.md)
+- [Page 315 "VAT Entries"](../../../../objects/page/315.md) · on [Table 254 "VAT Entry"](../../../../objects/table/254.md)
+- [Page 317 "VAT Statement"](../../../../objects/page/317.md) · captioned "VAT Statements" · on [Table 256 "VAT Statement Line"](../../../../objects/table/256.md)
+- [Page 321 "ECSL Report"](../../../../objects/page/321.md) · captioned "EC Sales List Report" · on [Table 740 "VAT Report Header"](../../../../objects/table/740.md)
+- [Page 322 "ECSL Report Subform"](../../../../objects/page/322.md) · captioned "Lines" · on [Table 362 "ECSL VAT Report Line"](../../../../objects/table/362.md)
+- [Page 323 "EC Sales List Reports"](../../../../objects/page/323.md) · on [Table 740 "VAT Report Header"](../../../../objects/table/740.md)
+- [Page 403 "Purchase Order Statistics"](../../../../objects/page/403.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../objects/table/311.md)
+- [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../../objects/table/312.md)
+- [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../../objects/table/325.md)
+- [Page 474 "VAT Statement Preview"](../../../../objects/page/474.md) · on [Table 257 "VAT Statement Name"](../../../../objects/table/257.md)
+- [Page 475 "VAT Statement Preview Line"](../../../../objects/page/475.md) · captioned "Lines" · on [Table 256 "VAT Statement Line"](../../../../objects/table/256.md)
+- [Page 525 "Posted Sales Shipment Lines"](../../../../objects/page/525.md) · on [Table 111 "Sales Shipment Line"](../../../../objects/table/111.md)
+- [Page 550 "VAT Rate Change Setup"](../../../../objects/page/550.md) · on [Table 550 "VAT Rate Change Setup"](../../../../objects/table/550.md)
+- [Page 575 "VAT Registration No. Formats"](../../../../objects/page/575.md) · on [Table 381 "VAT Registration No. Format"](../../../../objects/table/381.md)
+- [Page 737 "VAT Return Period List"](../../../../objects/page/737.md) · captioned "VAT Return Periods" · on [Table 737 "VAT Return Period"](../../../../objects/table/737.md)
+- [Page 739 "VAT Report Log"](../../../../objects/page/739.md) · on [Table 747 "VAT Report Archive"](../../../../objects/table/747.md)
+- [Page 740 "VAT Report"](../../../../objects/page/740.md) · captioned "VAT Return" · on [Table 740 "VAT Report Header"](../../../../objects/table/740.md)
+- [Page 741 "VAT Report Subform"](../../../../objects/page/741.md) · captioned "Lines" · on [Table 741 "VAT Report Line"](../../../../objects/table/741.md)
+- [Page 742 "VAT Report Statement Subform"](../../../../objects/page/742.md) · on [Table 742 "VAT Statement Report Line"](../../../../objects/table/742.md)
+- [Page 743 "VAT Report Setup"](../../../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../../../objects/table/743.md)
+- [Page 744 "VAT Report List"](../../../../objects/page/744.md) · captioned "VAT Returns" · on [Table 740 "VAT Report Header"](../../../../objects/table/740.md)
+- [Page 745 "VAT Report Error Log"](../../../../objects/page/745.md) · on [Table 745 "VAT Report Error Log"](../../../../objects/table/745.md)
+- [Page 746 "VAT Reports Configuration"](../../../../objects/page/746.md) · on [Table 746 "VAT Reports Configuration"](../../../../objects/table/746.md)
+- [Page 747 "VAT Clauses"](../../../../objects/page/747.md) · on [Table 560 "VAT Clause"](../../../../objects/table/560.md)
+- [Page 748 "VAT Clause Translations"](../../../../objects/page/748.md) · on [Table 561 "VAT Clause Translation"](../../../../objects/table/561.md)
+- [Page 1279 "Service Connections"](../../../../objects/page/1279.md) · on [Table 1400 "Service Connection"](../../../../objects/table/1400.md)
+- [Page 6640 "Purchase Return Order"](../../../../objects/page/6640.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 9401 "VAT Amount Lines"](../../../../objects/page/9401.md) · on [Table 290 "VAT Amount Line"](../../../../objects/table/290.md)
+- [Report 11 "G/L - VAT Reconciliation"](../../../../objects/report/11.md)
+- [Report 12 "VAT Statement"](../../../../objects/report/12.md)
+- [Report 13 "VAT Register"](../../../../objects/report/13.md)
+- [Report 19 "VAT- VIES Declaration Tax Auth"](../../../../objects/report/19.md)
+- [Report 20 "Calc. and Post VAT Settlement"](../../../../objects/report/20.md) · captioned "Calculate and Post VAT Settlement"
+- [Report 31 "VAT Exceptions"](../../../../objects/report/31.md)
+- [Report 32 "VAT Registration No. Check"](../../../../objects/report/32.md) · captioned "Batch VAT Registration No. Check"
+- [Report 743 "VAT Reconciliation Report"](../../../../objects/report/743.md)
+- [Report 2500 "Day Book VAT Entry"](../../../../objects/report/2500.md)
+- [Page 10 "Countries/Regions"](../../../../objects/page/10.md) · on [Table 9 "Country/Region"](../../../../objects/table/9.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 312 "Gen. Business Posting Groups"](../../../../objects/page/312.md) · on [Table 250 "Gen. Business Posting Group"](../../../../objects/table/250.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 313 "Gen. Product Posting Groups"](../../../../objects/page/313.md) · captioned "General Product Posting Groups" · on [Table 251 "Gen. Product Posting Group"](../../../../objects/table/251.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 318 "VAT Statement Templates"](../../../../objects/page/318.md) · on [Table 255 "VAT Statement Template"](../../../../objects/table/255.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 320 "VAT Statement Names"](../../../../objects/page/320.md) · on [Table 257 "VAT Statement Name"](../../../../objects/table/257.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 391 "Extended Text List"](../../../../objects/page/391.md) · on [Table 279 "Extended Text Header"](../../../../objects/table/279.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 470 "VAT Business Posting Groups"](../../../../objects/page/470.md) · on [Table 323 "VAT Business Posting Group"](../../../../objects/table/323.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 471 "VAT Product Posting Groups"](../../../../objects/page/471.md) · on [Table 324 "VAT Product Posting Group"](../../../../objects/table/324.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 473 "VAT Posting Setup Card"](../../../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../../../objects/table/325.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 734 "VAT Clauses by Doc. Type"](../../../../objects/page/734.md) · captioned "VAT Clauses by Document Type" · on [Table 562 "VAT Clause by Doc. Type"](../../../../objects/table/562.md) · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
+- [Page 1877 "VAT Setup Wizard"](../../../../objects/page/1877.md) · captioned "VAT Setup" · via [Set up VAT](working-with-value-added-tax-vat/set-up-vat.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -87,8 +87,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/CurrencyExchRateImport.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/13415",
+        "type": "codeunit",
+        "id": 13415,
+        "name": "Currency Exch. Rate Import",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "codeunit/13415-fi"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/PageExtensions/CurrenciesFI.PageExt.al",
+        "status": "added",
+        "key": "pageextension/13414",
+        "type": "pageextension",
+        "id": 13414,
+        "name": "Currencies FI",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "pageextension/13414-fi"
+      },
       {
         "path": "src/Layers/FI/BaseApp/Local/FinancialMgt/Currency/CurrencyExchangeRate.Codeunit.al",
         "status": "modified",
@@ -103,16 +125,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/FI/FICore/app/src/Codeunits/CurrencyExchRateImport.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FI/FICore/app/src/PageExtensions/CurrenciesFI.PageExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/FI/BaseApp/Finance/Currency/Currencies.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -123,6 +135,7 @@
     "finance"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "FICore"
   ]
 }

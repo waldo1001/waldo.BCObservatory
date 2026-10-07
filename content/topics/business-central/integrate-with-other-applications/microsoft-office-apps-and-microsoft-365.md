@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:41.871Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,7 +188,16 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview
-  objects: []
+  objects:
+    - object/page/1480
+    - object/page/1831
+    - object/page/1832
+    - object/page/2718
+    - object/page/9553
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9666
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications
@@ -214,7 +223,7 @@ children:
   - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-word
 coverage:
   learn: 24
-  code: 0
+  code: 9
   video: 0
   blog: 0
   guideline: 0
@@ -271,6 +280,16 @@ Start with the introductory page to find the right app, then open that app's sub
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1480, 1831, 1832, 2718, 9553, 9650, 9652, 9660, 9666.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1480 "Excel Centralized Depl. Wizard"](../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../objects/table/1480.md) · via [Microsoft Excel](microsoft-office-apps-and-microsoft-365/microsoft-excel.md)
+- [Page 1831 "Outlook Centralized Deployment"](../../../objects/page/1831.md) · captioned "Outlook Add-in Centralized Deployment" · on [Table 1610 "Office Add-in"](../../../objects/table/1610.md) · via [Microsoft Outlook](microsoft-office-apps-and-microsoft-365/microsoft-outlook.md)
+- [Page 1832 "Outlook Individual Deployment"](../../../objects/page/1832.md) · captioned "Get the Outlook Add-in" · via [Microsoft Outlook](microsoft-office-apps-and-microsoft-365/microsoft-outlook.md)
+- [Page 2718 "Page Summary Settings"](../../../objects/page/2718.md) · captioned "Card Settings" · via [Microsoft Teams](microsoft-office-apps-and-microsoft-365/microsoft-teams.md)
+- [Page 9553 "Document Service Setup"](../../../objects/page/9553.md) · captioned "OneDrive Setup" · via [Microsoft OneDrive](microsoft-office-apps-and-microsoft-365/microsoft-onedrive.md)
+- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Microsoft Excel](microsoft-office-apps-and-microsoft-365/microsoft-excel.md)
+- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Microsoft Excel](microsoft-office-apps-and-microsoft-365/microsoft-excel.md)
+- [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Microsoft Word](microsoft-office-apps-and-microsoft-365/microsoft-word.md)
+- [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Microsoft Word](microsoft-office-apps-and-microsoft-365/microsoft-word.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

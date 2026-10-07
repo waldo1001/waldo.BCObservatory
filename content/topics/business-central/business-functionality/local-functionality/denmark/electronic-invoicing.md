@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:00.433Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,6 +131,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 13645, 13646, 13647.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+Learn also names 3 objects with no object page: page/13645, page/13646, page/13647.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

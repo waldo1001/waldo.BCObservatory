@@ -2,7 +2,7 @@
 id: object/interface/http-response-msg-nemhandel-dk
 type: object
 title: Interface "Http Response Msg Nemhandel" (DK)
-summary: Interface "Http Response Msg Nemhandel" (DK) in the DK country layer (Microsoft.EServices). 6 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "Http Response Msg Nemhandel" (DK) in the DK country layer (Microsoft.EServices). 6 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f3dcd22859a12f8364f08bce08e8879e57132ea08e64dff2334e95dc7843bb56
+  input_hash: 881dd395ab6355a7ba85dd857dafa39b5b71dcea7cff85902dfdde554e73055a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al
     title: src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -47,9 +47,10 @@ namespace: Microsoft.EServices
 app: NemhandelNotification
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -71,9 +72,9 @@ relations:
 
 # Interface "Http Response Msg Nemhandel" (DK)
 
-> Interface "Http Response Msg Nemhandel" (DK) in the DK country layer (Microsoft.EServices). 6 public procedures. Introduced in BC29, gone after BC29.
+> Interface "Http Response Msg Nemhandel" (DK) in the DK country layer (Microsoft.EServices). 6 public procedures. Introduced in BC29, still in BC30.
 
-DK country layer · Microsoft.EServices · BC29 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al) · facts from BC29
+DK country layer · Microsoft.EServices · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al) · facts from BC29
 
 An object of the [DK localization](../../localizations/dk.md), not part of W1.
 
@@ -86,9 +87,18 @@ An object of the [DK localization](../../localizations/dk.md), not part of W1.
 - `GetResponseBody(): JsonObject`: Returns the contents of the HTTP response as a Json object.
 - `GetResponseBodyAsText(): Text`: Returns the contents of the HTTP response as text.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Http Response Msg Nemhandel")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Http Response Msg Nemhandel"`
+
+A DK country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

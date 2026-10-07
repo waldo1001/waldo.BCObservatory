@@ -2,7 +2,7 @@
 id: object/interface/irs-1099-iris-configuration-us
 type: object
 title: Interface "IRS 1099 IRIS Configuration" (US)
-summary: Interface "IRS 1099 IRIS Configuration" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 5 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "IRS 1099 IRIS Configuration" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 5 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 99acd1e8a4b14b6baf4b92cfe73c49e92bda8a581c518274510b76682c8fe9f1
+  input_hash: 52b83ede1b3ca523840899b87f8d9be84487382c4faff5ef3ea99edca47182e8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISConfiguration.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISConfiguration.Interface.al
     title: src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISConfiguration.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -47,9 +47,10 @@ namespace: Microsoft.Finance.VAT.Reporting
 app: IRSForms
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -71,9 +72,9 @@ relations:
 
 # Interface "IRS 1099 IRIS Configuration" (US)
 
-> Interface "IRS 1099 IRIS Configuration" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 5 public procedures. Introduced in BC29, gone after BC29.
+> Interface "IRS 1099 IRIS Configuration" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 5 public procedures. Introduced in BC29, still in BC30.
 
-US country layer · Microsoft.Finance.VAT.Reporting · BC29 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISConfiguration.Interface.al) · facts from BC29
+US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISConfiguration.Interface.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 
@@ -85,9 +86,18 @@ An object of the [US localization](../../localizations/us.md), not part of W1.
 - `GetContactInfo(var ContactName: Text; var ContactEmail: Text; var ContactPhone: Text)`: Gets the contact information.
 - `TestMode(): Boolean`: Determines if the system is running in test mode.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "IRS 1099 IRIS Configuration")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "IRS 1099 IRIS Configuration"`
+
+A US country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

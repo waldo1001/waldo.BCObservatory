@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.620Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,30 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/fa-how-maintain
     - https://learn.microsoft.com/dynamics365/business-central/fa-how-manage-budgets
     - https://learn.microsoft.com/dynamics365/business-central/fa-how-trans-split-combine
-  objects: []
+  objects:
+    - object/page/5610
+    - object/page/5611
+    - object/page/5625
+    - object/page/5628
+    - object/page/5629
+    - object/page/5633
+    - object/page/5636
+    - object/page/5637
+    - object/page/5638
+    - object/page/5640
+    - object/page/5642
+    - object/page/5644
+    - object/page/5645
+    - object/page/5646
+    - object/page/5647
+    - object/page/5648
+    - object/page/5651
+    - object/page/5652
+    - object/page/5653
+    - object/page/5655
+    - object/page/5656
+    - object/page/9275
+    - object/report/5606
   features: []
   topics:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
@@ -78,7 +101,7 @@ parent: topic/business-central/business-functionality/fixed-assets/fixed-assets-
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 23
   video: 0
   blog: 0
   guideline: 0
@@ -144,6 +167,30 @@ Start with the page that matches the task. For the asset lifecycle, read the bud
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5606, 5610, 5611, 5625, 5628, 5629, 5633, 5636, 5637, 5638, 5640, 5642, 5644, 5645, 5646, 5647, 5648, 5651, 5652, 5653, 5655, 5656, 9275.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5610 "Depreciation Book Card"](../../../../../objects/page/5610.md) · on [Table 5611 "Depreciation Book"](../../../../../objects/table/5611.md)
+- [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md) · captioned "Depreciation Books" · on [Table 5611 "Depreciation Book"](../../../../../objects/table/5611.md)
+- [Page 5625 "Maintenance Registration"](../../../../../objects/page/5625.md) · on [Table 5616 "Maintenance Registration"](../../../../../objects/table/5616.md)
+- [Page 5628 "Fixed Asset G/L Journal"](../../../../../objects/page/5628.md) · captioned "Fixed Asset G/L Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 5629 "Fixed Asset Journal"](../../../../../objects/page/5629.md) · captioned "Fixed Asset Journals" · on [Table 5621 "FA Journal Line"](../../../../../objects/table/5621.md)
+- [Page 5633 "FA Journal Batches"](../../../../../objects/page/5633.md) · on [Table 5620 "FA Journal Batch"](../../../../../objects/table/5620.md)
+- [Page 5636 "FA Reclass. Journal"](../../../../../objects/page/5636.md) · captioned "Fixed Asset Reclassification Journals" · on [Table 5624 "FA Reclass. Journal Line"](../../../../../objects/table/5624.md)
+- [Page 5637 "FA Reclass. Journal Templates"](../../../../../objects/page/5637.md) · captioned "Fixed Asset Reclassification Journal Templates" · on [Table 5622 "FA Reclass. Journal Template"](../../../../../objects/table/5622.md)
+- [Page 5638 "FA Reclass. Jnl. Template List"](../../../../../objects/page/5638.md) · on [Table 5622 "FA Reclass. Journal Template"](../../../../../objects/table/5622.md)
+- [Page 5640 "FA Reclass. Journal Batches"](../../../../../objects/page/5640.md) · on [Table 5623 "FA Reclass. Journal Batch"](../../../../../objects/table/5623.md)
+- [Page 5642 "Maintenance"](../../../../../objects/page/5642.md) · on [Table 5626 "Maintenance"](../../../../../objects/table/5626.md)
+- [Page 5644 "Insurance Card"](../../../../../objects/page/5644.md) · on [Table 5628 "Insurance"](../../../../../objects/table/5628.md)
+- [Page 5645 "Insurance List"](../../../../../objects/page/5645.md) · captioned "Insurance Policies" · on [Table 5628 "Insurance"](../../../../../objects/table/5628.md)
+- [Page 5646 "Insurance Statistics"](../../../../../objects/page/5646.md) · on [Table 5628 "Insurance"](../../../../../objects/table/5628.md)
+- [Page 5647 "Ins. Coverage Ledger Entries"](../../../../../objects/page/5647.md) · captioned "Insurance Coverage Ledger Entries" · on [Table 5629 "Ins. Coverage Ledger Entry"](../../../../../objects/table/5629.md)
+- [Page 5648 "Insurance Types"](../../../../../objects/page/5648.md) · on [Table 5630 "Insurance Type"](../../../../../objects/table/5630.md)
+- [Page 5651 "Insurance Journal"](../../../../../objects/page/5651.md) · captioned "Fixed Asset Insurance Journals" · on [Table 5635 "Insurance Journal Line"](../../../../../objects/table/5635.md)
+- [Page 5652 "Insurance Journal Templates"](../../../../../objects/page/5652.md) · on [Table 5633 "Insurance Journal Template"](../../../../../objects/table/5633.md)
+- [Page 5653 "Insurance Jnl. Template List"](../../../../../objects/page/5653.md) · on [Table 5633 "Insurance Journal Template"](../../../../../objects/table/5633.md)
+- [Page 5655 "Insurance Journal Batches"](../../../../../objects/page/5655.md) · on [Table 5634 "Insurance Journal Batch"](../../../../../objects/table/5634.md)
+- [Page 5656 "Insurance Registers"](../../../../../objects/page/5656.md) · on [Table 5636 "Insurance Register"](../../../../../objects/table/5636.md)
+- [Page 9275 "T. Value Insured per FA Matrix"](../../../../../objects/page/9275.md) · on [Table 5600 "Fixed Asset"](../../../../../objects/table/5600.md)
+- [Report 5606 "Fixed Asset - Book Value 02"](../../../../../objects/report/5606.md) · captioned "Fixed Asset Book Value 02"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

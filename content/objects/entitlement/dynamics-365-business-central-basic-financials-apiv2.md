@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b9ff87c63ebdf868586dbf007ec5bfb3b5b7a77f64d8afe5a67952c9c8d97d54
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralBasicFinancialsAPIV2.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralBasicFinancialsAPIV2.Entitlement.al
     title: src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralBasicFinancialsAPIV2.Entitlement.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,14 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Basic Financials APIV2" in APIV2 (Microsoft.API.V2). Introduced in BC29, still in BC30.
 
-APIV2 · Microsoft.API.V2 · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralBasicFinancialsAPIV2.Entitlement.al) · facts from BC29
+APIV2 · Microsoft.API.V2 · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralBasicFinancialsAPIV2.Entitlement.al) · facts from BC29
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "entitlement", object_name: "Dynamics 365 Business Central Basic Financials APIV2")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node entitlement "Dynamics 365 Business Central Basic Financials APIV2"`
 
 ## Across versions
 

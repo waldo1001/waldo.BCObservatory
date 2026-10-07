@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:30:58.709Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 03a4a596a7878e4b7ce4944d476054d1932f77c28ed7a4ba9fded1d611e8a4dd
+  input_hash: b78d16f60578954fdc896d01e68cf510c9673129e11d5b6b900fe40987c902cb
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-se
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -332,6 +332,6 @@ Objects: [reportextension/11220 "SE Contact - Cover Sheet"](../objects/reportext
 
 ## Other versions
 
-- BC30: 29 objects differ from W1 (32 fields, 0 events added)
+- BC30: 107 objects differ from W1 (32 fields, 0 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

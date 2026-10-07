@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.865Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-101
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-209
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-112
-  objects: []
+  objects:
+    - object/report/101
+    - object/report/111
+    - object/report/112
+    - object/report/119
+    - object/report/209
   features: []
   topics:
     - topic/business-central/business-functionality/sales/sales-analytics
@@ -78,7 +83,7 @@ parent: topic/business-central/business-functionality/sales/sales-analytics
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 5
   video: 0
   blog: 0
   guideline: 0
@@ -127,6 +132,12 @@ There are no subtopics. Each page describes one report, so start with the page t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 101, 111, 112, 119, 209.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 101 "Customer - List"](../../../../../objects/report/101.md) · captioned "Customer List"
+- [Report 111 "Customer - Top 10 List"](../../../../../objects/report/111.md) · captioned "Customer - Top 10 List (Obsolete)"
+- [Report 112 "Sales Statistics"](../../../../../objects/report/112.md)
+- [Report 119 "Customer - Sales List"](../../../../../objects/report/119.md)
+- [Report 209 "Sales Reservation Avail."](../../../../../objects/report/209.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

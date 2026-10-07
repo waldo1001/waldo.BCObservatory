@@ -147,7 +147,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
       {
         "path": "src/Apps/W1/Email - SMTP API/app/src/SMTPMessage.Codeunit.al",
@@ -301,8 +301,9 @@
     ]
   },
   "systems": [
-    "development",
     "platform",
+    "development",
+    "finance",
     "integration"
   ],
   "apps": [

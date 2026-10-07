@@ -305,8 +305,63 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/CH/SwissQRBill/app/src/core/SwissQRBillPaymentReferenceType.Enum.al",
+        "status": "modified",
+        "key": "enum/11512",
+        "type": "enum",
+        "id": 11512,
+        "name": "Swiss QR-Bill Payment Reference Type",
+        "app": "SwissQRBill",
+        "cc": "ch",
+        "page": "enum/11512-ch"
+      },
+      {
+        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatSubmissionChannelDE.Enum.al",
+        "status": "modified",
+        "key": "enum/11035",
+        "type": "enum",
+        "id": 11035,
+        "name": "Intrastat Submission Channel DE",
+        "app": "IntrastatDE",
+        "cc": "de",
+        "page": "enum/11035-de"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTJournalTemplate.table.al",
+        "status": "modified",
+        "key": "table/18323",
+        "type": "table",
+        "id": 18323,
+        "name": "GST Journal Template",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18323-in"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSReturnAndSettlement/src/TCS-Journal/table/TCSJournalTemplate.table.al",
+        "status": "modified",
+        "key": "table/18871",
+        "type": "table",
+        "id": 18871,
+        "name": "TCS Journal Template",
+        "app": "INTCS",
+        "cc": "in",
+        "page": "table/18871-in"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/TDS-Journal/TDSJournalTemplate.table.al",
+        "status": "modified",
+        "key": "table/18748",
+        "type": "table",
+        "id": 18748,
+        "name": "TDS Journal Template",
+        "app": "INTDS",
+        "cc": "in",
+        "page": "table/18748-in"
+      },
       {
         "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/DomiciliationJournalTemplate.Table.al",
         "status": "modified",
@@ -660,33 +715,7 @@
         "page": "enumextension/3999"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/CH/SwissQRBill/app/src/core/SwissQRBillPaymentReferenceType.Enum.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatSubmissionChannelDE.Enum.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTJournalTemplate.table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INTCS/app/TCSReturnAndSettlement/src/TCS-Journal/table/TCSJournalTemplate.table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/TDS-Journal/TDSJournalTemplate.table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "finance",
@@ -695,9 +724,16 @@
     "platform",
     "purchasing",
     "warehouse",
+    "administration",
+    "inventory",
     "sales"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "INGST",
+    "INTCS",
+    "INTDS",
+    "IntrastatDE",
+    "SwissQRBill"
   ]
 }

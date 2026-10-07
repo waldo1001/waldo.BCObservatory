@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,7 +172,24 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-semantic-model
     - https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability
     - https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup
-  objects: []
+  objects:
+    - object/page/36961
+    - object/page/36984
+    - object/page/36985
+    - object/page/36986
+    - object/page/36987
+    - object/page/36988
+    - object/page/36989
+    - object/page/36990
+    - object/page/36991
+    - object/page/36992
+    - object/page/36993
+    - object/page/36994
+    - object/page/36995
+    - object/page/36996
+    - object/page/36997
+    - object/page/37059
+    - object/page/37113
   features: []
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
@@ -193,7 +210,7 @@ parent: topic/business-central/business-functionality/finance/financial-analytic
 children: []
 coverage:
   learn: 19
-  code: 0
+  code: 17
   video: 1
   blog: 0
   guideline: 0
@@ -275,6 +292,24 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36961, 36984, 36985, 36986, 36987, 36988, 36989, 36990, 36991, 36992, 36993, 36994, 36995, 36996, 36997, 37059, 37113.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 36961 "Account Categories"](../../../../../objects/page/36961.md) · captioned "Power BI Account Categories" · on [Table 36953 "Account Category"](../../../../../objects/table/36953.md)
+- [Page 36984 "Financial Overview"](../../../../../objects/page/36984.md) · captioned "Financial Overview (Power BI)"
+- [Page 36985 "Income Statement by Month"](../../../../../objects/page/36985.md) · captioned "Income Statement by Month (Power BI)"
+- [Page 36986 "Balance Sheet by Month"](../../../../../objects/page/36986.md) · captioned "Balance Sheet by Month (Power BI)"
+- [Page 36987 "Budget Comparison"](../../../../../objects/page/36987.md) · captioned "Budget Comparison (Power BI)"
+- [Page 36988 "Liquidity KPIs"](../../../../../objects/page/36988.md) · captioned "Liquidity KPIs (Power BI)"
+- [Page 36989 "Profitability"](../../../../../objects/page/36989.md) · captioned "Profitability (Power BI)"
+- [Page 36990 "Liabilities"](../../../../../objects/page/36990.md) · captioned "Liabilities (Power BI)"
+- [Page 36991 "EBITDA"](../../../../../objects/page/36991.md) · captioned "EBITDA (Power BI)"
+- [Page 36992 "Average Collection Period"](../../../../../objects/page/36992.md) · captioned "Average Collection Period (Power BI)"
+- [Page 36993 "Aged Receivables (Back Dating)"](../../../../../objects/page/36993.md) · captioned "Aged Receivables (Back Dating) (Power BI)"
+- [Page 36994 "Aged Payables (Back Dating)"](../../../../../objects/page/36994.md) · captioned "Aged Payables (Back Dating) (Power BI)"
+- [Page 36995 "PowerBI General Ledg. Entries"](../../../../../objects/page/36995.md) · captioned "General Ledger Entries (Power BI)"
+- [Page 36996 "Detailed Vendor Ledger Entries"](../../../../../objects/page/36996.md) · captioned "Detailed Vendor Ledger Entries (Power BI)"
+- [Page 36997 "Detailed Cust. Ledger Entries"](../../../../../objects/page/36997.md) · captioned "Detailed Cust. Ledger Entries (Power BI)"
+- [Page 37059 "Finance Report"](../../../../../objects/page/37059.md) · captioned "Finance Report (Power BI)"
+- [Page 37113 "Late Payments (Receivables)"](../../../../../objects/page/37113.md) · captioned "Late Payments (Receivables) (Power BI)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

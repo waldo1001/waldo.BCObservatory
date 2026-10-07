@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9507277fab89bdc820579e63c7ab15049c92519f27f579aa39576a365abfef6f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeSchemeHandler.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeSchemeHandler.Interface.al
     title: src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeSchemeHandler.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -72,7 +72,7 @@ relations:
 
 > Interface "PaymentPracticeSchemeHandler" in PaymentPractices (Microsoft.Finance.Analysis). 4 public procedures. Introduced in BC29, still in BC30.
 
-PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeSchemeHandler.Interface.al) · facts from BC29
+PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeSchemeHandler.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -80,6 +80,13 @@ PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 1d24dd5e
 - `UpdatePaymentPracData(var PaymentPracticeData: Record "Payment Practice Data"): Boolean`: Enriches or filters a Payment Practice Data row before insertion. Returns true to include the row, false to skip it.
 - `CalculateHeaderTotals(var PaymentPracticeHeader: Record "Payment Practice Header"; var PaymentPracticeData: Record "Payment Practice Data")`: Calculates scheme-specific header totals after standard totals are generated.
 - `CalculateLineTotals(var PaymentPracticeLine: Record "Payment Practice Line"; var PaymentPracticeData: Record "Payment Practice Data")`: Calculates scheme-specific line totals for the currently visible slice of data. The caller is responsible for applying any filters (period, company size, etc.) on PaymentPracticeData before invoking this method, and for restoring them afterwards.
+
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "PaymentPracticeSchemeHandler")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "PaymentPracticeSchemeHandler"`
 
 ## Across versions
 

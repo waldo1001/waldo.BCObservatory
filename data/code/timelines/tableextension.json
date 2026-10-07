@@ -1,5 +1,10 @@
 {
   "versions": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
     "28",
     "29",
     "30"
@@ -8,11 +13,12 @@
     "60": {
       "name": "ShowCurrencyGenLedgSetup",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [
         "30"
       ],
@@ -22,35 +28,50 @@
     "230": {
       "name": "ObsoleteSourceCodeExt",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "242": {
       "name": "ObsoleteSourceCodeSetupExt",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "243": {
       "name": "SourceCodeSetupExt",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -58,35 +79,48 @@
     "308": {
       "name": "NoSeriesObsolete",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "309": {
       "name": "NoSeriesLineObsolete",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "472": {
       "name": "Job Queue Entry Ext.",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -94,11 +128,13 @@
     "705": {
       "name": "Error Message Extension",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -106,11 +142,15 @@
     "774": {
       "name": "Plan User Details",
       "versions": [
+        "24",
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -118,11 +158,13 @@
     "903": {
       "name": "Asm. Warehouse Request",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -130,11 +172,13 @@
     "904": {
       "name": "Asm. Whse. Pick Request",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -142,23 +186,30 @@
     "905": {
       "name": "Asm. Item",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "906": {
       "name": "Asm. Requisition Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -166,11 +217,13 @@
     "907": {
       "name": "Asm. Item Journal Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -178,11 +231,13 @@
     "910": {
       "name": "Asm. Item Tracking Code",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -190,11 +245,12 @@
     "958": {
       "name": "Asm. BOM Buffer",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -202,11 +258,12 @@
     "979": {
       "name": "Asm. Whse. Worksheet Line",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -214,23 +271,30 @@
     "990": {
       "name": "Asm. Inventory Adjmt. Entry",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "3999": {
       "name": "Reten. Pol. Setup Line Ext.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -238,11 +302,14 @@
     "5825": {
       "name": "Serv. UndoSalesShptLineParams",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -250,11 +317,13 @@
     "5840": {
       "name": "Cost Adjmt. Inventory Setup",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -262,11 +331,14 @@
     "6408": {
       "name": "Serv. Sales Line Archive",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -274,47 +346,66 @@
     "6450": {
       "name": "Serv. Customer",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6451": {
       "name": "Serv. Customer Templ.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "26"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6452": {
       "name": "Serv. Item",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6453": {
       "name": "Serv. Item Templ.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -322,59 +413,82 @@
     "6454": {
       "name": "Serv. Stockkeeping Unit",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6455": {
       "name": "Serv. Responsibility Center",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6456": {
       "name": "Serv. Resource",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6457": {
       "name": "Serv. Resource Group",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6458": {
       "name": "Serv. Job Journal Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -382,11 +496,14 @@
     "6459": {
       "name": "Serv. Job Ledger Entry",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -394,11 +511,14 @@
     "6460": {
       "name": "Serv. Job Planning Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -406,11 +526,14 @@
     "6461": {
       "name": "Serv. Job Planning Line Arch.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -418,11 +541,14 @@
     "6462": {
       "name": "Serv. Time Sheet Detail",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -430,11 +556,14 @@
     "6463": {
       "name": "Serv. Time Sheet Detail Arch.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -442,11 +571,14 @@
     "6464": {
       "name": "Serv. Time Sheet Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -454,11 +586,14 @@
     "6465": {
       "name": "Serv. Time Sheet Line Arch.",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -466,11 +601,14 @@
     "6466": {
       "name": "Serv. Ship-To Address",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -478,11 +616,14 @@
     "6467": {
       "name": "Serv. Source Code Setup",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -490,11 +631,14 @@
     "6468": {
       "name": "Serv. Extended Text Header",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -502,23 +646,31 @@
     "6469": {
       "name": "Serv. Reason Code",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6470": {
       "name": "Serv. Cash Flow Forecast Entry",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -526,11 +678,14 @@
     "6471": {
       "name": "Serv. Cash Flow Setup",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -538,11 +693,14 @@
     "6472": {
       "name": "Serv. Cash Flow Worksheet Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -550,11 +708,14 @@
     "6473": {
       "name": "Serv. Dtld. Price Calc. Setup",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -562,22 +723,30 @@
     "6474": {
       "name": "Serv. Price List Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "27"
+      ],
       "obsoleted": [],
       "removed": "30"
     },
     "6475": {
       "name": "Serv. Price Worksheet Line",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -585,11 +754,14 @@
     "6476": {
       "name": "Serv. Error Handl. Parameters",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -597,11 +769,14 @@
     "6477": {
       "name": "Serv. Certificate of Supply",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -609,11 +784,14 @@
     "6478": {
       "name": "Serv. VAT Rate Change Setup",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -621,11 +799,14 @@
     "6479": {
       "name": "Serv. Warehouse Source Filter",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -633,11 +814,12 @@
     "6484": {
       "name": "Serv. PriceList Line Ext.",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -645,23 +827,31 @@
     "6635": {
       "name": "ObsoleteReturnReasonExt",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "25",
+      "changed": [
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6637": {
       "name": "ReturnReasonExt",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -669,11 +859,14 @@
     "7049": {
       "name": "Feature Price Calc. Parameters",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -681,11 +874,14 @@
     "8900": {
       "name": "Email Address Lookup",
       "versions": [
+        "25",
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "25",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -693,11 +889,12 @@
     "9900": {
       "name": "Email Item Attach Document",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -705,12 +902,16 @@
     "99000750": {
       "name": "Mfg. Item",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [
+        "27",
+        "28",
         "30"
       ],
       "obsoleted": [],
@@ -719,23 +920,29 @@
     "99000751": {
       "name": "Mfg. Purchase Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000752": {
       "name": "Mfg. Purchase Line Archive",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -743,11 +950,13 @@
     "99000753": {
       "name": "Mfg. Item Variant",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -755,11 +964,13 @@
     "99000754": {
       "name": "Mfg. Purch. Invoice Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -767,11 +978,13 @@
     "99000755": {
       "name": "Mfg. Purch. Receipt Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -779,11 +992,12 @@
     "99000756": {
       "name": "Mfg. Purch. Cr. Memo Line",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -791,59 +1005,90 @@
     "99000757": {
       "name": "Mfg. Item Templ.",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000758": {
       "name": "Mfg. Item Journal Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000759": {
       "name": "Mfg. Stockkeeping Unit",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
+    },
+    "99000760": {
+      "name": "Mfg. Inventory Posting Setup",
+      "versions": [
+        "26"
+      ],
+      "introduced": "26",
+      "changed": [],
+      "obsoleted": [],
+      "removed": "27"
     },
     "99000761": {
       "name": "Mfg. Location",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000762": {
       "name": "Mfg. Reg. Whse. Activity Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -851,11 +1096,12 @@
     "99000763": {
       "name": "Mfg. Return Shipment Line",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -863,11 +1109,13 @@
     "99000768": {
       "name": "Mfg. Std. Item Journal Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -875,11 +1123,13 @@
     "99000770": {
       "name": "Mfg. Warehouse Activity Header",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -887,11 +1137,13 @@
     "99000771": {
       "name": "Mfg. Warehouse Activity Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -899,11 +1151,13 @@
     "99000773": {
       "name": "Mfg. Posted Invt. Pick Header",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -911,11 +1165,13 @@
     "99000774": {
       "name": "Mfg. Posted Invt. Pick Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -923,11 +1179,13 @@
     "99000775": {
       "name": "Mfg. Posted InvtPutaway Header",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -935,11 +1193,13 @@
     "99000776": {
       "name": "Mfg. Posted Invt Putaway Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -947,11 +1207,13 @@
     "99000777": {
       "name": "Mfg. Reg Invt Movement Hdr",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -959,11 +1221,13 @@
     "99000778": {
       "name": "Mfg. Reg. Invt. Movement Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -971,11 +1235,13 @@
     "99000779": {
       "name": "Mfg. Whse. Worksheet Line",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -983,11 +1249,13 @@
     "99000780": {
       "name": "Mfg. Warehouse Request",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -995,11 +1263,13 @@
     "99000781": {
       "name": "Mfg. Warehouse Source Filter",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1007,11 +1277,13 @@
     "99000782": {
       "name": "Mfg. Whse. Pick Request",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1019,11 +1291,13 @@
     "99000785": {
       "name": "Mfg. VAT Rate Change Setup",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1031,11 +1305,13 @@
     "99000787": {
       "name": "Mfg. Item Ledger Entry",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1043,11 +1319,13 @@
     "99000788": {
       "name": "Mfg. Value Entry",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1055,11 +1333,13 @@
     "99000800": {
       "name": "Mfg. Inventory Adjmt. Entry",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1067,35 +1347,44 @@
     "99000801": {
       "name": "Mfg. Capacity Ledger Entry",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000802": {
       "name": "Mfg. Standard Cost Worksheet",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000820": {
       "name": "Mfg. BOM Buffer",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1103,11 +1392,12 @@
     "99000821": {
       "name": "Mfg. Compare Cost Shares Buf",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "27",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1115,23 +1405,30 @@
     "99000829": {
       "name": "Mfg. Planning Component",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "26",
+      "changed": [
+        "27",
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000850": {
       "name": "Mfg. Planning Assignment",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1139,23 +1436,28 @@
     "99000860": {
       "name": "Mfg. Requisition Line",
       "versions": [
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
-      "changed": [],
+      "introduced": "27",
+      "changed": [
+        "28"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "99000900": {
       "name": "Mfg. Item Tracking Code",
       "versions": [
+        "26",
+        "27",
         "28",
         "29",
         "30"
       ],
-      "introduced": "28",
+      "introduced": "26",
       "changed": [],
       "obsoleted": [],
       "removed": null

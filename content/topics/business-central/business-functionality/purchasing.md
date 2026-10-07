@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,89 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow
     - https://learn.microsoft.com/dynamics365/business-central/purchasing-how-work-recurring-purchase-lines
     - https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders
-  objects: []
+  objects:
+    - object/page/29
+    - object/page/49
+    - object/page/50
+    - object/page/51
+    - object/page/53
+    - object/page/56
+    - object/page/97
+    - object/page/136
+    - object/page/138
+    - object/page/140
+    - object/page/145
+    - object/page/146
+    - object/page/147
+    - object/page/177
+    - object/page/189
+    - object/page/190
+    - object/page/191
+    - object/page/460
+    - object/page/507
+    - object/page/509
+    - object/page/518
+    - object/page/686
+    - object/page/687
+    - object/page/689
+    - object/page/6103
+    - object/page/6620
+    - object/page/6622
+    - object/page/6623
+    - object/page/6640
+    - object/page/6643
+    - object/page/6652
+    - object/page/9303
+    - object/page/9306
+    - object/page/9307
+    - object/page/9308
+    - object/page/9309
+    - object/page/9310
+    - object/page/9346
+    - object/page/36951
+    - object/page/36996
+    - object/page/37009
+    - object/page/37010
+    - object/page/37011
+    - object/page/37012
+    - object/page/37013
+    - object/page/37014
+    - object/page/37015
+    - object/page/37016
+    - object/page/37017
+    - object/page/37018
+    - object/page/37019
+    - object/page/37020
+    - object/page/37021
+    - object/page/37025
+    - object/page/37061
+    - object/page/37112
+    - object/page/37115
+    - object/page/37116
+    - object/page/37117
+    - object/page/37118
+    - object/report/301
+    - object/report/304
+    - object/report/307
+    - object/report/308
+    - object/report/311
+    - object/report/312
+    - object/report/313
+    - object/report/319
+    - object/report/320
+    - object/report/322
+    - object/report/329
+    - object/report/409
+    - object/report/707
+    - object/report/709
+    - object/report/714
+    - object/report/716
+    - object/report/720
+    - object/report/1322
+    - object/report/2502
+    - object/report/4403
+    - object/report/4404
+    - object/report/6102
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -375,7 +457,7 @@ children:
   - topic/business-central/business-functionality/purchasing/purchasing-analytics
 coverage:
   learn: 62
-  code: 0
+  code: 82
   video: 2
   blog: 2
   guideline: 0
@@ -561,6 +643,89 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 29, 49, 50, 51, 53, 56, 97, 136, 138, 140, 145, 146, 147, 177, 189, 190, 191, 301, 304, 307, 308, 311, 312, 313, 319, 320, 322, 329, 409, 460, 507, 509, 518, 686, 687, 689, 707, 709, 714, 716, 720, 1322, 2502, 4403, 4404, 6102, 6103, 6620, 6622, 6623, 6640, 6643, 6652, 9303, 9306, 9307, 9308, 9309, 9310, 9346, 36951, 36996, 37009, 37010, 37011, 37012, 37013, 37014, 37015, 37016, 37017, 37018, 37019, 37020, 37021, 37025, 37061, 37112, 37115, 37116, 37117, 37118.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 49 "Purchase Quote"](../../../objects/page/49.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 51 "Purchase Invoice"](../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 53 "Purchase List"](../../../objects/page/53.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 56 "Purchase Orders"](../../../objects/page/56.md) · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
+- [Page 97 "Purchase Quote Subform"](../../../objects/page/97.md) · captioned "Lines" · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
+- [Page 136 "Posted Purchase Receipt"](../../../objects/page/136.md) · on [Table 120 "Purch. Rcpt. Header"](../../../objects/table/120.md)
+- [Page 138 "Posted Purchase Invoice"](../../../objects/page/138.md) · on [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md)
+- [Page 140 "Posted Purchase Credit Memo"](../../../objects/page/140.md) · on [Table 124 "Purch. Cr. Memo Hdr."](../../../objects/table/124.md)
+- [Page 145 "Posted Purchase Receipts"](../../../objects/page/145.md) · on [Table 120 "Purch. Rcpt. Header"](../../../objects/table/120.md)
+- [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md) · on [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md)
+- [Page 147 "Posted Purchase Credit Memos"](../../../objects/page/147.md) · on [Table 124 "Purch. Cr. Memo Hdr."](../../../objects/table/124.md)
+- [Page 177 "Standard Purchase Codes"](../../../objects/page/177.md) · captioned "Recurring Purchase Lines" · on [Table 173 "Standard Purchase Code"](../../../objects/table/173.md)
+- [Page 189 "Incoming Document"](../../../objects/page/189.md) · on [Table 130 "Incoming Document"](../../../objects/table/130.md)
+- [Page 190 "Incoming Documents"](../../../objects/page/190.md) · on [Table 130 "Incoming Document"](../../../objects/table/130.md)
+- [Page 191 "Incoming Documents Setup"](../../../objects/page/191.md) · on [Table 131 "Incoming Documents Setup"](../../../objects/table/131.md)
+- [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../objects/table/312.md)
+- [Page 507 "Blanket Sales Order"](../../../objects/page/507.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 509 "Blanket Purchase Order"](../../../objects/page/509.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 686 "Payment Practice Data List"](../../../objects/page/686.md) · on [Table 686 "Payment Practice Data"](../../../objects/table/686.md)
+- [Page 687 "Payment Practice Card"](../../../objects/page/687.md) · captioned "Payment Practice" · on [Table 687 "Payment Practice Header"](../../../objects/table/687.md)
+- [Page 689 "Payment Practice List"](../../../objects/page/689.md) · captioned "Payment Practices" · on [Table 687 "Payment Practice Header"](../../../objects/table/687.md)
+- [Page 6103 "E-Document Services"](../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../objects/table/6103.md)
+- [Page 6620 "Blanket Sales Order Archive"](../../../objects/page/6620.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6622 "Blanket Sales Order Archives"](../../../objects/page/6622.md) · on [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md)
+- [Page 6623 "Blanket Purchase Order Archive"](../../../objects/page/6623.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 6640 "Purchase Return Order"](../../../objects/page/6640.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 6643 "Purchase Return Orders"](../../../objects/page/6643.md) · on [Table 39 "Purchase Line"](../../../objects/table/39.md)
+- [Page 6652 "Posted Return Shipments"](../../../objects/page/6652.md) · captioned "Posted Purchase Return Shipments" · on [Table 6650 "Return Shipment Header"](../../../objects/table/6650.md)
+- [Page 9303 "Blanket Sales Orders"](../../../objects/page/9303.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md)
+- [Page 9306 "Purchase Quotes"](../../../objects/page/9306.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9307 "Purchase Order List"](../../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9309 "Purchase Credit Memos"](../../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9310 "Blanket Purchase Orders"](../../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
+- [Page 9346 "Purchase Quote Archives"](../../../objects/page/9346.md) · on [Table 5109 "Purchase Header Archive"](../../../objects/table/5109.md)
+- [Page 29 "Vendor Ledger Entries"](../../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../../objects/table/25.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 518 "Purchase Lines"](../../../objects/page/518.md) · on [Table 39 "Purchase Line"](../../../objects/table/39.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 36996 "Detailed Vendor Ledger Entries"](../../../objects/page/36996.md) · captioned "Detailed Vendor Ledger Entries (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37009 "Purchases Overview"](../../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37010 "Purchases Decomposition"](../../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37011 "Daily Purchases"](../../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37012 "Purchases Moving Averages"](../../../objects/page/37012.md) · captioned "Purchases Moving Averages (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37013 "Purchases Moving Annual Total"](../../../objects/page/37013.md) · captioned "Purchases Moving Annual Total (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37014 "Purchases Period-Over-Period"](../../../objects/page/37014.md) · captioned "Purchases Period-Over-Period (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37015 "Purchases Year-Over-Year"](../../../objects/page/37015.md) · captioned "Purchases Year-Over-Year (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37016 "Purchases by Item"](../../../objects/page/37016.md) · captioned "Purchases by Item (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37017 "Purchases by Purchaser"](../../../objects/page/37017.md) · captioned "Purchases by Purchaser (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37018 "Purchases by Vendor"](../../../objects/page/37018.md) · captioned "Purchases by Vendor (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37019 "Purchases by Location"](../../../objects/page/37019.md) · captioned "Purchases by Location (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37020 "Purch. Actual vs. Budget Qty."](../../../objects/page/37020.md) · captioned "Purchase Actual vs. Budget Quantity (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37021 "Purch. Actual vs. Budget Amt."](../../../objects/page/37021.md) · captioned "Purchases Actual vs. Budget Amount (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37025 "Purchase and Sales Quantity"](../../../objects/page/37025.md) · captioned "Purchase and Sales Quantity (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37061 "Purchases Report"](../../../objects/page/37061.md) · captioned "Purchases Report (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37112 "Purchase Forecasting"](../../../objects/page/37112.md) · captioned "Purchase Forecasting (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37115 "Vendor Quality Analysis"](../../../objects/page/37115.md) · captioned "Vendor Quality Analysis (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37116 "Purchase Return Overview"](../../../objects/page/37116.md) · captioned "Purchase Return Overview (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37117 "Key Purchase Influencers"](../../../objects/page/37117.md) · captioned "Key Purchase Influencers (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Page 37118 "Purchase Quote Overview"](../../../objects/page/37118.md) · captioned "Purchase Quote Overview (Power BI)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 301 "Vendor - List"](../../../objects/report/301.md) · captioned "Vendor List (Obsolete)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 304 "Vendor - Detail Trial Balance"](../../../objects/report/304.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 307 "Vendor - Order Summary"](../../../objects/report/307.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 308 "Vendor - Order Detail"](../../../objects/report/308.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 311 "Vendor - Top 10 List"](../../../objects/report/311.md) · captioned "Vendor - Top 10 List (Obsolete)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 312 "Purchase Statistics"](../../../objects/report/312.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 313 "Vendor/Item Purchases"](../../../objects/report/313.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 319 "Payments on Hold"](../../../objects/report/319.md) · captioned "Payments on Hold (Obsolete)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 320 "Vendor Item Catalog"](../../../objects/report/320.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 322 "Aged Accounts Payable"](../../../objects/report/322.md) · captioned "Aged Accounts Payable (Obsolete)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 329 "Vendor - Trial Balance"](../../../objects/report/329.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 409 "Purchase Reservation Avail."](../../../objects/report/409.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 707 "Inventory - Availability Plan"](../../../objects/report/707.md) · captioned "Inventory - Availability Plan (Obsolete)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 709 "Inventory Purchase Orders"](../../../objects/report/709.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 714 "Inventory - Vendor Purchases"](../../../objects/report/714.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 716 "Inventory Cost and Price List"](../../../objects/report/716.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 720 "Item/Vendor Catalog"](../../../objects/report/720.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 1322 "Standard Purchase - Order"](../../../objects/report/1322.md) · captioned "Purchase - Order" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 2502 "Day Book Vendor Ledger Entry"](../../../objects/report/2502.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 4403 "EXR Aged Acc Payable Excel"](../../../objects/report/4403.md) · captioned "Aged Accounts Payable (Excel)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 4404 "EXR Vendor Top List"](../../../objects/report/4404.md) · captioned "Vendor - Top List (Excel)" · via [Purchasing analytics](purchasing/purchasing-analytics.md)
+- [Report 6102 "E-Doc Sample Purchase Invoice"](../../../objects/report/6102.md) · via [Purchasing analytics](purchasing/purchasing-analytics.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

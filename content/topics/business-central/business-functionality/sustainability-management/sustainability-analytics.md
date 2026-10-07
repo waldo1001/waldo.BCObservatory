@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,7 +143,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting
     - https://learn.microsoft.com/dynamics365/business-central/sustainability-reports
-  objects: []
+  objects:
+    - object/page/104
+    - object/page/108
+    - object/page/490
+    - object/page/6220
+    - object/page/36951
+    - object/report/6210
+    - object/report/6211
+    - object/report/6212
+    - object/report/6221
   features: []
   topics:
     - topic/business-central/business-functionality/sustainability-management
@@ -162,7 +171,7 @@ children:
   - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
 coverage:
   learn: 17
-  code: 0
+  code: 9
   video: 0
   blog: 0
   guideline: 0
@@ -217,6 +226,16 @@ To start, pick the page that matches the task. For quick exploration, use ad-hoc
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 104, 108, 490, 6210, 6211, 6212, 6220, 6221, 36951.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 104 "Account Schedule"](../../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
+- [Page 108 "Financial Reports"](../../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../../objects/table/88.md)
+- [Page 490 "Acc. Schedule Overview"](../../../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
+- [Page 6220 "Sustainability Ledger Entries"](../../../../objects/page/6220.md) · on [Table 6216 "Sustainability Ledger Entry"](../../../../objects/table/6216.md)
+- [Report 6210 "Emission By Category"](../../../../objects/report/6210.md)
+- [Report 6211 "Emission Per Facility"](../../../../objects/report/6211.md)
+- [Report 6212 "Total Emissions"](../../../../objects/report/6212.md)
+- [Report 6221 "Sust. Adjust Emissions"](../../../../objects/report/6221.md) · captioned "Adjust Emissions"
+- [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md) · via [Power BI sustainability app](sustainability-analytics/power-bi-sustainability-app.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

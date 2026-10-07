@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
     - https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation
     - https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto
-  objects: []
+  objects:
+    - object/page/389
+    - object/page/1287
+    - object/page/1290
+    - object/page/1291
+    - object/page/1293
+    - object/page/1294
   features: []
   topics:
     - topic/business-central/business-functionality/finance/manage-payables
@@ -86,7 +92,7 @@ parent: topic/business-central/business-functionality/finance/manage-payables
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 6
   video: 0
   blog: 1
   guideline: 0
@@ -145,6 +151,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 389, 1287, 1290, 1291, 1293, 1294.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 389 "Bank Account Statement List"](../../../../../objects/page/389.md) · on [Table 275 "Bank Account Statement"](../../../../../objects/table/275.md)
+- [Page 1287 "Payment Application Review"](../../../../../objects/page/1287.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
+- [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md) · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
+- [Page 1291 "Pmt. Recon. Journal Overview"](../../../../../objects/page/1291.md) · captioned "Payment Reconciliation Journal Overview" · on [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
+- [Page 1293 "Pmt. Rec. Journals Overview"](../../../../../objects/page/1293.md) · captioned "Unprocessed Payments" · on [Table 273 "Bank Acc. Reconciliation"](../../../../../objects/table/273.md)
+- [Page 1294 "Pmt. Reconciliation Journals"](../../../../../objects/page/1294.md) · captioned "Payment Reconciliation Journals" · on [Table 273 "Bank Acc. Reconciliation"](../../../../../objects/table/273.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

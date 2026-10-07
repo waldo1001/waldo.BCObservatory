@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.235Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice
-  objects: []
+  objects:
+    - object/page/256
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/united-kingdom
@@ -54,7 +55,7 @@ parent: topic/business-central/business-functionality/local-functionality/united
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -95,6 +96,8 @@ Start with the check page if you need to print checks from a payment journal. Us
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 256.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 256 "Payment Journal"](../../../../../objects/page/256.md) · captioned "Payment Journals" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

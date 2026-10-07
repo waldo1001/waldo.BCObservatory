@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -36,7 +36,10 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences
     - https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles
-  objects: []
+  objects:
+    - object/page/9171
+    - object/page/9200
+    - object/page/9204
   features: []
   topics:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central
@@ -58,7 +61,7 @@ parent: topic/business-central/development-and-administration/administration-tas
 children: []
 coverage:
   learn: 2
-  code: 0
+  code: 3
   video: 1
   blog: 0
   guideline: 0
@@ -110,6 +113,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 9171, 9200, 9204.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 9171 "Profile List"](../../../../objects/page/9171.md) · captioned "Profiles (Roles)"
+- [Page 9200 "Personalized Pages"](../../../../objects/page/9200.md)
+- [Page 9204 "User Settings"](../../../../objects/page/9204.md) · captioned "My Settings" · on [Table 9172 "User Settings"](../../../../objects/table/9172.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

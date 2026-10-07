@@ -2,14 +2,14 @@
   "inputs": [
     6,
     [
-      "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-      "2"
+      "a4406cfa9e57437fedc49c53c327a199a854491e",
+      "4"
     ]
   ],
   "major": "30",
-  "count": 676,
+  "count": 678,
   "by_tag": {
-    "untagged": 98,
+    "untagged": 100,
     "23.0": 1,
     "24.0": 8,
     "25.0": 162,
@@ -767,6 +767,32 @@
       "key": "codeunit/7774",
       "object": "Copilot Capability Impl",
       "member": "RegisterCapability",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "codeunit/8356",
+      "object": "MCP Upgrade",
+      "member": "DisableDataQueryToolsOnExistingConfigurations",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "codeunit/8356",
+      "object": "MCP Upgrade",
+      "member": "GetMCPDisableDataQueryToolsUpgradeTag",
       "kind": "procedure",
       "state": null,
       "tag": null,

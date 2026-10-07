@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.205Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax
-  objects: []
+  objects:
+    - object/page/118
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/new-zealand
@@ -102,7 +103,7 @@ parent: topic/business-central/business-functionality/local-functionality/new-ze
 children: []
 coverage:
   learn: 8
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -160,6 +161,10 @@ For WHT, start with the conceptual page on withholding tax in the New Zealand ve
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 118, 11600, 28040, 28041, 28042, 28043, 28044, 28164, 28165, 28166, 28167.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
+
+Learn also names 10 objects with no object page: page/11600, page/28040, page/28041, page/28042, page/28043, page/28044, page/28164, page/28165, page/28166, page/28167.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

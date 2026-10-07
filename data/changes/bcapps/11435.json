@@ -122,8 +122,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/DK/NemhandelNotification/app/src/NemhandelStatusPageBckgrnd.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13608",
+        "type": "codeunit",
+        "id": 13608,
+        "name": "Nemhandel Status Page Bckgrnd",
+        "app": "NemhandelNotification",
+        "cc": "dk",
+        "page": "codeunit/13608-dk"
+      },
+      {
+        "path": "src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDFraudPreventionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10541",
+        "type": "codeunit",
+        "id": 10541,
+        "name": "MTD Fraud Prevention Mgt.",
+        "app": "UKMakingTaxDigital",
+        "cc": "gb",
+        "page": "codeunit/10541-gb"
+      },
       {
         "path": "src/Layers/W1/BaseApp/Finance/Currency/UpdateCurrencyExchangeRates.Codeunit.al",
         "status": "modified",
@@ -158,23 +180,16 @@
         "page": "codeunit/249"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/DK/NemhandelNotification/app/src/NemhandelStatusPageBckgrnd.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDFraudPreventionMgt.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
-    "finance"
+    "finance",
+    "development",
+    "integration"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "NemhandelNotification",
+    "UKMakingTaxDigital"
   ]
 }

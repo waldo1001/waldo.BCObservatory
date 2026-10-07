@@ -38,16 +38,26 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INGST/app/GSTPayments/src/Codeunit/GSTPurchaseNonAvailment.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18251",
+        "type": "codeunit",
+        "id": 18251,
+        "name": "GST Purchase Non Availment",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18251-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
 }

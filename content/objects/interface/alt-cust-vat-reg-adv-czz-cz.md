@@ -2,7 +2,7 @@
 id: object/interface/alt-cust-vat-reg-adv-czz-cz
 type: object
 title: Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ)
-summary: Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ) in the CZ country layer (Microsoft.Finance.AdvancePayments). 3 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ) in the CZ country layer (Microsoft.Finance.AdvancePayments). 3 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T15:47:18.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fd86463bde5cac01c57d186e855cd756c3804fba6686f657ff7a2b1834d959bc
+  input_hash: a42a463f6f75033dda85556f2f0f6d0cabd981fcef76a86b631dfabb1a57cfa2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al
     title: src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al (releases/29.x)
     date: null
-    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
+    commit: 030de38360c4aa828a650300faf93cd09fa139e1
     t: null
     quote: null
 links:
@@ -47,9 +47,10 @@ namespace: Microsoft.Finance.AdvancePayments
 app: AdvancePaymentsLocalization
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -71,9 +72,9 @@ relations:
 
 # Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ)
 
-> Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ) in the CZ country layer (Microsoft.Finance.AdvancePayments). 3 public procedures. Introduced in BC29, gone after BC29.
+> Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ) in the CZ country layer (Microsoft.Finance.AdvancePayments). 3 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance.AdvancePayments · BC29 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Finance.AdvancePayments · BC29-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 
@@ -89,9 +90,18 @@ An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 - `CopyFromCustomer(var SalesAdvLetterHeaderCZZ: Record "Sales Adv. Letter Header CZZ"; xSalesAdvLetterHeaderCZZ: Record "Sales Adv. Letter Header CZZ")`: Copies the VAT registration data from the customer to the sales advance letter header.
 - `UpdateSetupOnVATCountryChangeInSalesAdvLetterHeader(var SalesAdvLetterHeaderCZZ: Record "Sales Adv. Letter Header CZZ"; xSalesAdvLetterHeaderCZZ: Record "Sales Adv. Letter Header CZZ")`: Updates the VAT registration data when the VAT Country/Region Code is changed in the sales advance letter header.
 
+## Ask your agent
+
+Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
+
+- `bcatlas_resolve_node(object_type: "interface", object_name: "Alt. Cust. VAT Reg. Adv. CZZ")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
+- CLI: `node bc-code-atlas.js resolve-node interface "Alt. Cust. VAT Reg. Adv. CZZ"`
+
+A CZ country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

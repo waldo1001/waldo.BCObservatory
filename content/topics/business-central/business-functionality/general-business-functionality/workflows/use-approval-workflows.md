@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record
     - https://learn.microsoft.com/dynamics365/business-central/across-how-to-view-archived-workflow-step-instances
     - https://learn.microsoft.com/dynamics365/business-central/across-use-workflows
-  objects: []
+  objects:
+    - object/page/654
+    - object/page/662
+    - object/page/666
+    - object/page/1500
+    - object/page/1501
+    - object/page/1503
+    - object/page/1504
+    - object/page/1505
+    - object/page/1530
   features: []
   topics:
     - topic/business-central/business-functionality/general-business-functionality/workflows
@@ -87,7 +96,7 @@ parent: topic/business-central/business-functionality/general-business-functiona
 children: []
 coverage:
   learn: 6
-  code: 0
+  code: 9
   video: 0
   blog: 1
   guideline: 0
@@ -147,6 +156,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 654, 662, 666, 1500, 1501, 1503, 1504, 1505, 1530.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 654 "Requests to Approve"](../../../../../objects/page/654.md) · on [Table 454 "Approval Entry"](../../../../../objects/table/454.md)
+- [Page 662 "Approval Request Entries"](../../../../../objects/page/662.md) · on [Table 454 "Approval Entry"](../../../../../objects/table/454.md)
+- [Page 666 "Overdue Approval Entries"](../../../../../objects/page/666.md) · on [Table 458 "Overdue Approval Entry"](../../../../../objects/table/458.md)
+- [Page 1500 "Workflows"](../../../../../objects/page/1500.md) · on [Table 1500 "Workflow Buffer"](../../../../../objects/table/1500.md)
+- [Page 1501 "Workflow"](../../../../../objects/page/1501.md) · on [Table 1501 "Workflow"](../../../../../objects/table/1501.md)
+- [Page 1503 "Workflow Steps"](../../../../../objects/page/1503.md) · on [Table 1507 "Workflow Step Buffer"](../../../../../objects/table/1507.md)
+- [Page 1504 "Workflow Step Instances"](../../../../../objects/page/1504.md) · on [Table 1504 "Workflow Step Instance"](../../../../../objects/table/1504.md)
+- [Page 1505 "Workflow Templates"](../../../../../objects/page/1505.md) · on [Table 1500 "Workflow Buffer"](../../../../../objects/table/1500.md)
+- [Page 1530 "Archived WF Step Instances"](../../../../../objects/page/1530.md) · captioned "Archived Workflow Step Instances" · on [Table 1530 "Workflow Step Instance Archive"](../../../../../objects/table/1530.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

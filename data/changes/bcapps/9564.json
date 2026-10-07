@@ -81,26 +81,44 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/PurchaseQuoteCZL.Report.al",
+        "status": "modified",
+        "key": "report/31184",
+        "type": "report",
+        "id": 31184,
+        "name": "Purchase Quote CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "report/31184-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/SalesShipmentCZL.Report.al",
+        "status": "modified",
+        "key": "report/31191",
+        "type": "report",
+        "id": 31191,
+        "name": "Sales Shipment CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "report/31191-cz"
+      }
+    ],
     "unjoined": [
       {
         "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/Foundation/1. Setup Data/CreateCustomReportLayoutCZ.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/PurchaseQuoteCZL.Report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/SalesShipmentCZL.Report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
       }
     ]
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

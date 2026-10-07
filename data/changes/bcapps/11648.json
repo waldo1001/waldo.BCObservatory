@@ -52,21 +52,37 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/IN/INGST/app/GSTBase/src/TaxEngineSetup/GSTTaxConfiguration.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/18017",
+        "type": "codeunit",
+        "id": 18017,
+        "name": "GST Tax Configuration",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18017-in"
       },
       {
         "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankReceiptVoucherExt.PageExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "pageextension/18244",
+        "type": "pageextension",
+        "id": 18244,
+        "name": "GST Bank Receipt Voucher Ext",
+        "app": "INGST",
+        "cc": "in",
+        "page": "pageextension/18244-in"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
 }

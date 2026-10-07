@@ -151,8 +151,52 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreInitReportSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13411",
+        "type": "codeunit",
+        "id": 13411,
+        "name": "FICore InitReport Subscribers",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "codeunit/13411-fi"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreVIESDeclFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/13420",
+        "type": "codeunit",
+        "id": 13420,
+        "name": "FICore VIES Decl. Feature",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "codeunit/13420-fi"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/ReportExtensions/FIVATVIESDeclTaxAuth.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/13412",
+        "type": "reportextension",
+        "id": 13412,
+        "name": "FI VAT VIES Decl. Tax Auth",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "reportextension/13412-fi"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/TableExtensions/VATEntryFI.TableExt.al",
+        "status": "added",
+        "key": "tableextension/13413",
+        "type": "tableextension",
+        "id": 13413,
+        "name": "VAT Entry FI",
+        "app": "FICore",
+        "cc": "fi",
+        "page": "tableextension/13413-fi"
+      },
       {
         "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
         "status": "modified",
@@ -166,26 +210,6 @@
       }
     ],
     "unjoined": [
-      {
-        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreInitReportSubscribers.Codeunit.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreVIESDeclFeature.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FI/FICore/app/src/ReportExtensions/FIVATVIESDeclTaxAuth.ReportExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/FI/FICore/app/src/TableExtensions/VATEntryFI.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
       {
         "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
         "status": "modified",
@@ -207,6 +231,7 @@
     "finance"
   ],
   "apps": [
-    "Base Application"
+    "Base Application",
+    "FICore"
   ]
 }

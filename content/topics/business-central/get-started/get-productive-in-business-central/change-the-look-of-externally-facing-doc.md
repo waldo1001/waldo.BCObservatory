@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:47.888Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts
-  objects: []
+  objects:
+    - object/page/21
+    - object/page/9650
+    - object/page/9652
+    - object/page/9660
+    - object/page/9663
+    - object/page/9666
+    - object/page/9670
   features: []
   topics:
     - topic/business-central/get-started/get-productive-in-business-central
@@ -146,7 +153,7 @@ children:
   - topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features
 coverage:
   learn: 14
-  code: 0
+  code: 7
   video: 0
   blog: 0
   guideline: 0
@@ -206,6 +213,14 @@ For design work, separate pages cover Word layouts (the Business Central add-in 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 21, 9650, 9652, 9660, 9663, 9666, 9670.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 21 "Customer Card"](../../../../objects/page/21.md) · on [Table 18 "Customer"](../../../../objects/table/18.md)
+- [Page 9650 "Custom Report Layouts"](../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../objects/table/9651.md)
+- [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
+- [Page 9663 "Tenant Report Layout Cfg"](../../../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer"
+- [Page 9666 "Report Theme and Header/Footer"](../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts"
+- [Page 9670 "Layout Theme and Header/Footer"](../../../../objects/page/9670.md) · captioned "Theme and header-footer per layout"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

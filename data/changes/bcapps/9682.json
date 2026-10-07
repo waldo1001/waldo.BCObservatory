@@ -95,21 +95,37 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/DK/EDocumentFormatOIOUBL/app/src/EDocumentOIOUBLHandler.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/13913",
+        "type": "codeunit",
+        "id": 13913,
+        "name": "E-Document OIOUBL Handler",
+        "app": "EDocumentFormatOIOUBL",
+        "cc": "dk",
+        "page": "codeunit/13913-dk"
       },
       {
         "path": "src/Apps/DK/EDocumentFormatOIOUBL/app/src/OIOUBLEDocReadIntoDraft.EnumExt.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "enumextension/13911",
+        "type": "enumextension",
+        "id": 13911,
+        "name": "OIOUBL EDoc Read into Draft",
+        "app": "EDocumentFormatOIOUBL",
+        "cc": "dk",
+        "page": "enumextension/13911-dk"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocumentFormatOIOUBL"
+  ]
 }

@@ -397,8 +397,30 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+        "status": "modified",
+        "key": "report/18468",
+        "type": "report",
+        "id": 18468,
+        "name": "Stock Register for Job Work",
+        "app": "INGST",
+        "cc": "in",
+        "page": "report/18468-in"
+      },
+      {
+        "path": "src/Apps/IN/INVoucherInterface/app/src/report/VoucherRegister.report.al",
+        "status": "modified",
+        "key": "report/18933",
+        "type": "report",
+        "id": 18933,
+        "name": "Voucher Register",
+        "app": "INVoucherInterface",
+        "cc": "in",
+        "page": "report/18933-in"
+      },
       {
         "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationErrorOverview.page.al",
         "status": "modified",
@@ -798,16 +820,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INVoucherInterface/app/src/report/VoucherRegister.report.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -876,11 +888,14 @@
     "purchasing",
     "sales",
     "hr",
+    "administration",
     "integration",
     "manufacturing"
   ],
   "apps": [
     "Base Application",
-    "HybridBC14"
+    "HybridBC14",
+    "INGST",
+    "INVoucherInterface"
   ]
 }

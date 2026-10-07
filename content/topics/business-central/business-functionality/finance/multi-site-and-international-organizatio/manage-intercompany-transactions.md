@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:51.359Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,47 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox
     - https://learn.microsoft.com/dynamics365/business-central/intercompany-how-work-documents-journals
     - https://learn.microsoft.com/dynamics365/business-central/intercompany-how-setup
-  objects: []
+  objects:
+    - object/page/600
+    - object/page/601
+    - object/page/602
+    - object/page/603
+    - object/page/605
+    - object/page/606
+    - object/page/607
+    - object/page/608
+    - object/page/609
+    - object/page/610
+    - object/page/611
+    - object/page/612
+    - object/page/613
+    - object/page/614
+    - object/page/615
+    - object/page/616
+    - object/page/617
+    - object/page/618
+    - object/page/619
+    - object/page/620
+    - object/page/621
+    - object/page/636
+    - object/page/637
+    - object/page/638
+    - object/page/639
+    - object/page/640
+    - object/page/641
+    - object/page/642
+    - object/page/643
+    - object/page/644
+    - object/page/645
+    - object/page/646
+    - object/page/647
+    - object/page/648
+    - object/page/649
+    - object/page/650
+    - object/page/651
+    - object/page/652
+    - object/page/653
+    - object/report/512
   features: []
   topics:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
@@ -79,7 +119,7 @@ parent: topic/business-central/business-functionality/finance/multi-site-and-int
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 40
   video: 1
   blog: 0
   guideline: 0
@@ -169,6 +209,47 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 512, 600, 601, 602, 603, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 600 "IC Dimensions"](../../../../../objects/page/600.md) · captioned "Intercompany Dimensions" · on [Table 411 "IC Dimension"](../../../../../objects/table/411.md)
+- [Page 601 "IC Dimension Values"](../../../../../objects/page/601.md) · captioned "Intercompany Dimension Values" · on [Table 412 "IC Dimension Value"](../../../../../objects/table/412.md)
+- [Page 602 "IC Dimension List"](../../../../../objects/page/602.md) · captioned "Intercompany Dimension List" · on [Table 411 "IC Dimension"](../../../../../objects/table/411.md)
+- [Page 603 "IC Dimension Value List"](../../../../../objects/page/603.md) · captioned "Intercompany Dimension Value List" · on [Table 412 "IC Dimension Value"](../../../../../objects/table/412.md)
+- [Page 605 "IC Chart of Accounts"](../../../../../objects/page/605.md) · captioned "Intercompany Chart of Accounts" · on [Table 410 "IC G/L Account"](../../../../../objects/table/410.md)
+- [Page 606 "IC G/L Account Card"](../../../../../objects/page/606.md) · captioned "Intercompany G/L Account Card" · on [Table 410 "IC G/L Account"](../../../../../objects/table/410.md)
+- [Page 607 "IC G/L Account List"](../../../../../objects/page/607.md) · captioned "Intercompany G/L Account List" · on [Table 410 "IC G/L Account"](../../../../../objects/table/410.md)
+- [Page 608 "IC Partner List"](../../../../../objects/page/608.md) · captioned "Intercompany Partners" · on [Table 413 "IC Partner"](../../../../../objects/table/413.md)
+- [Page 609 "IC Partner Card"](../../../../../objects/page/609.md) · captioned "Intercompany Partner" · on [Table 413 "IC Partner"](../../../../../objects/table/413.md)
+- [Page 610 "IC General Journal"](../../../../../objects/page/610.md) · captioned "Intercompany General Journal" · on [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+- [Page 611 "IC Outbox Transactions"](../../../../../objects/page/611.md) · captioned "Intercompany Outbox Transactions" · on [Table 414 "IC Outbox Transaction"](../../../../../objects/table/414.md)
+- [Page 612 "IC Outbox Jnl. Lines"](../../../../../objects/page/612.md) · on [Table 415 "IC Outbox Jnl. Line"](../../../../../objects/table/415.md)
+- [Page 613 "Handled IC Outbox Transactions"](../../../../../objects/page/613.md) · captioned "Handled Intercompany Outbox Transactions" · on [Table 416 "Handled IC Outbox Trans."](../../../../../objects/table/416.md)
+- [Page 614 "Handled IC Outbox Jnl. Lines"](../../../../../objects/page/614.md) · on [Table 417 "Handled IC Outbox Jnl. Line"](../../../../../objects/table/417.md)
+- [Page 615 "IC Inbox Transactions"](../../../../../objects/page/615.md) · captioned "Intercompany Inbox Transactions" · on [Table 418 "IC Inbox Transaction"](../../../../../objects/table/418.md)
+- [Page 616 "IC Inbox Jnl. Lines"](../../../../../objects/page/616.md) · on [Table 419 "IC Inbox Jnl. Line"](../../../../../objects/table/419.md)
+- [Page 617 "Handled IC Inbox Transactions"](../../../../../objects/page/617.md) · captioned "Handled Intercompany Inbox Transactions" · on [Table 420 "Handled IC Inbox Trans."](../../../../../objects/table/420.md)
+- [Page 618 "Handled IC Inbox Jnl. Lines"](../../../../../objects/page/618.md) · on [Table 421 "Handled IC Inbox Jnl. Line"](../../../../../objects/table/421.md)
+- [Page 619 "IC Inbox/Outbox Jnl. Line Dim."](../../../../../objects/page/619.md) · captioned "Intercompany Inbox/Outbox Jnl. Line Dim." · on [Table 423 "IC Inbox/Outbox Jnl. Line Dim."](../../../../../objects/table/423.md)
+- [Page 620 "IC Comment Sheet"](../../../../../objects/page/620.md) · on [Table 424 "IC Comment Line"](../../../../../objects/table/424.md)
+- [Page 621 "IC API Log Entries"](../../../../../objects/page/621.md) · on [Table 444 "IC API Log"](../../../../../objects/table/444.md)
+- [Page 636 "IC Outbox Sales Doc."](../../../../../objects/page/636.md) · on [Table 426 "IC Outbox Sales Header"](../../../../../objects/table/426.md)
+- [Page 637 "IC Outbox Sales Lines"](../../../../../objects/page/637.md) · captioned "Lines" · on [Table 427 "IC Outbox Sales Line"](../../../../../objects/table/427.md)
+- [Page 638 "IC Outbox Purchase Doc."](../../../../../objects/page/638.md) · on [Table 428 "IC Outbox Purchase Header"](../../../../../objects/table/428.md)
+- [Page 639 "IC Outbox Purchase Lines"](../../../../../objects/page/639.md) · captioned "Lines" · on [Table 429 "IC Outbox Purchase Line"](../../../../../objects/table/429.md)
+- [Page 640 "Handled IC Outbox Sales Doc."](../../../../../objects/page/640.md) · on [Table 430 "Handled IC Outbox Sales Header"](../../../../../objects/table/430.md)
+- [Page 641 "Handled IC Outbox Sales Lines"](../../../../../objects/page/641.md) · captioned "Lines" · on [Table 431 "Handled IC Outbox Sales Line"](../../../../../objects/table/431.md)
+- [Page 642 "Handled IC Outbox Purch. Doc."](../../../../../objects/page/642.md) · on [Table 432 "Handled IC Outbox Purch. Hdr"](../../../../../objects/table/432.md)
+- [Page 643 "Handled IC Outbox Purch. Lines"](../../../../../objects/page/643.md) · captioned "Lines" · on [Table 433 "Handled IC Outbox Purch. Line"](../../../../../objects/table/433.md)
+- [Page 644 "IC Inbox Sales Doc."](../../../../../objects/page/644.md) · on [Table 434 "IC Inbox Sales Header"](../../../../../objects/table/434.md)
+- [Page 645 "IC Inbox Sales Lines"](../../../../../objects/page/645.md) · captioned "Lines" · on [Table 435 "IC Inbox Sales Line"](../../../../../objects/table/435.md)
+- [Page 646 "IC Inbox Purchase Doc."](../../../../../objects/page/646.md) · on [Table 436 "IC Inbox Purchase Header"](../../../../../objects/table/436.md)
+- [Page 647 "IC Inbox Purchase Lines"](../../../../../objects/page/647.md) · captioned "Lines" · on [Table 437 "IC Inbox Purchase Line"](../../../../../objects/table/437.md)
+- [Page 648 "Handled IC Inbox Sales Doc."](../../../../../objects/page/648.md) · on [Table 438 "Handled IC Inbox Sales Header"](../../../../../objects/table/438.md)
+- [Page 649 "Handled IC Inbox Sales Lines"](../../../../../objects/page/649.md) · captioned "Lines" · on [Table 439 "Handled IC Inbox Sales Line"](../../../../../objects/table/439.md)
+- [Page 650 "Handled IC Inbox Purch. Doc."](../../../../../objects/page/650.md) · on [Table 440 "Handled IC Inbox Purch. Header"](../../../../../objects/table/440.md)
+- [Page 651 "Handled IC Inbox Purch. Lines"](../../../../../objects/page/651.md) · captioned "Lines" · on [Table 441 "Handled IC Inbox Purch. Line"](../../../../../objects/table/441.md)
+- [Page 652 "IC Document Dimensions"](../../../../../objects/page/652.md) · captioned "Intercompany Document Dimensions" · on [Table 442 "IC Document Dimension"](../../../../../objects/table/442.md)
+- [Page 653 "Intercompany Setup"](../../../../../objects/page/653.md) · on [Table 443 "IC Setup"](../../../../../objects/table/443.md)
+- [Report 512 "IC Transactions"](../../../../../objects/report/512.md) · captioned "Intercompany Transactions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

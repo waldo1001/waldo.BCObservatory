@@ -59,31 +59,59 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/FormatAddressHandlerCZL.Codeunit.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/31144",
+        "type": "codeunit",
+        "id": 31144,
+        "name": "Format Address Handler CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31144-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Enums/ReportAddressSourceCZL.Enum.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "enum/11704",
+        "type": "enum",
+        "id": 11704,
+        "name": "Report Address Source CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "enum/11704-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/PageExtensions/CompanyInformationCZL.PageExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "pageextension/11700",
+        "type": "pageextension",
+        "id": 11700,
+        "name": "Company Information CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "pageextension/11700-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/CompanyInformationCZL.TableExt.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
+        "key": "tableextension/11747",
+        "type": "tableextension",
+        "id": 11747,
+        "name": "Company Information CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "tableextension/11747-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

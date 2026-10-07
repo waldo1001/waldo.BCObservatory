@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,24 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5063
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5064
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5065
-  objects: []
+  objects:
+    - object/report/5050
+    - object/report/5051
+    - object/report/5053
+    - object/report/5055
+    - object/report/5056
+    - object/report/5058
+    - object/report/5060
+    - object/report/5061
+    - object/report/5062
+    - object/report/5063
+    - object/report/5064
+    - object/report/5065
+    - object/report/5066
+    - object/report/5067
+    - object/report/5068
+    - object/report/5084
+    - object/report/5085
   features: []
   topics:
     - topic/business-central/business-functionality/relationship-management
@@ -183,7 +200,7 @@ parent: topic/business-central/business-functionality/relationship-management
 children: []
 coverage:
   learn: 18
-  code: 0
+  code: 17
   video: 0
   blog: 0
   guideline: 0
@@ -264,6 +281,26 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5050, 5051, 5053, 5055, 5056, 5058, 5060, 5061, 5062, 5063, 5064, 5065, 5066, 5067, 5068, 5084, 5085, 50585058.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 5050 "Contact - List"](../../../../objects/report/5050.md) · captioned "Contact List"
+- [Report 5051 "Contact - Company Summary"](../../../../objects/report/5051.md)
+- [Report 5053 "Contact - Person Summary"](../../../../objects/report/5053.md)
+- [Report 5055 "Contact - Cover Sheet"](../../../../objects/report/5055.md)
+- [Report 5056 "Contact - Labels"](../../../../objects/report/5056.md) · captioned "Contact Labels"
+- [Report 5058 "Salesperson - Opportunities"](../../../../objects/report/5058.md) · captioned "Salesperson Opportunities"
+- [Report 5060 "Campaign - Details"](../../../../objects/report/5060.md)
+- [Report 5061 "Opportunity - List"](../../../../objects/report/5061.md)
+- [Report 5062 "Sales Cycle - Analysis"](../../../../objects/report/5062.md)
+- [Report 5063 "Segment - Contacts"](../../../../objects/report/5063.md)
+- [Report 5064 "Segment - Cover Sheet"](../../../../objects/report/5064.md)
+- [Report 5065 "Segment - Labels"](../../../../objects/report/5065.md)
+- [Report 5066 "Questionnaire - Handouts"](../../../../objects/report/5066.md)
+- [Report 5067 "Questionnaire - Test"](../../../../objects/report/5067.md)
+- [Report 5068 "Opportunity - Details"](../../../../objects/report/5068.md)
+- [Report 5084 "Email Merge"](../../../../objects/report/5084.md)
+- [Report 5085 "Contact Cover Sheet"](../../../../objects/report/5085.md)
+
+Learn also names 1 object with no object page: report/50585058.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

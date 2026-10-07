@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:17.864Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
-  objects: []
+  objects:
+    - object/report/5600
+    - object/report/5604
+    - object/report/5607
   features: []
   topics:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
@@ -62,7 +65,7 @@ parent: topic/business-central/business-functionality/fixed-assets/fixed-assets-
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 3
   video: 0
   blog: 0
   guideline: 0
@@ -106,6 +109,10 @@ Start with the page that matches your task: Analysis for reconciliation, checks 
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5600, 5604, 5607.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 5600 "Fixed Asset - Analysis"](../../../../../objects/report/5600.md) · captioned "Fixed Asset Analysis (Obsolete)"
+- [Report 5604 "Fixed Asset - Details"](../../../../../objects/report/5604.md) · captioned "Fixed Asset Details (Obsolete)"
+- [Report 5607 "Fixed Asset - Projected Value"](../../../../../objects/report/5607.md) · captioned "Fixed Asset Projected Value (Obsolete)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

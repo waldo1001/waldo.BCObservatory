@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,33 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp
     - https://learn.microsoft.com/dynamics365/business-central/production-planning
     - https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply
-  objects: []
+  objects:
+    - object/page/291
+    - object/page/292
+    - object/page/293
+    - object/page/295
+    - object/page/517
+    - object/page/5430
+    - object/page/5522
+    - object/page/5524
+    - object/page/5526
+    - object/page/5830
+    - object/page/9010
+    - object/page/9038
+    - object/page/9101
+    - object/page/99000822
+    - object/page/99000842
+    - object/page/99000843
+    - object/page/99000852
+    - object/page/99000855
+    - object/page/99000860
+    - object/page/99000861
+    - object/page/99000862
+    - object/page/99000863
+    - object/page/99000883
+    - object/page/99000884
+    - object/page/99000921
+    - object/page/99000922
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -117,7 +143,7 @@ parent: topic/business-central/business-functionality
 children: []
 coverage:
   learn: 9
-  code: 0
+  code: 26
   video: 0
   blog: 3
   guideline: 0
@@ -206,6 +232,35 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 291, 292, 293, 295, 517, 5430, 5522, 5524, 5526, 5830, 9010, 9038, 9101, 9245, 99000822, 99000842, 99000843, 99000852, 99000855, 99000860, 99000861, 99000862, 99000863, 99000883, 99000884, 99000919, 99000921, 99000922.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 291 "Req. Worksheet"](../../../objects/page/291.md) · captioned "Requisition Worksheets" · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 292 "Req. Worksheet Template List"](../../../objects/page/292.md) · on [Table 244 "Req. Wksh. Template"](../../../objects/table/244.md)
+- [Page 293 "Req. Worksheet Templates"](../../../objects/page/293.md) · captioned "Requisition Worksheet Templates" · on [Table 244 "Req. Wksh. Template"](../../../objects/table/244.md)
+- [Page 295 "Req. Wksh. Names"](../../../objects/page/295.md) · on [Table 245 "Requisition Wksh. Name"](../../../objects/table/245.md)
+- [Page 517 "Requisition Lines"](../../../objects/page/517.md) · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 5430 "Planning Error Log"](../../../objects/page/5430.md) · on [Table 5430 "Planning Error Log"](../../../objects/table/5430.md)
+- [Page 5522 "Order Planning"](../../../objects/page/5522.md) · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 5524 "Get Alternative Supply"](../../../objects/page/5524.md) · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 5526 "Make Supply Orders"](../../../objects/page/5526.md) · on [Table 5525 "Manufacturing User Template"](../../../objects/table/5525.md)
+- [Page 5830 "Demand Overview"](../../../objects/page/5830.md) · on [Table 5830 "Availability Calc. Overview"](../../../objects/table/5830.md)
+- [Page 9010 "Production Planner Role Center"](../../../objects/page/9010.md) · captioned "Manufacturing Manager"
+- [Page 9038 "Production Planner Activities"](../../../objects/page/9038.md) · captioned "Activities" · on [Table 9056 "Manufacturing Cue"](../../../objects/table/9056.md)
+- [Page 9101 "Untracked Plng. Elements Part"](../../../objects/page/9101.md) · captioned "Untracked Planning Elements" · on [Table 99000855 "Untracked Planning Element"](../../../objects/table/99000855.md)
+- [Page 99000822 "Order Tracking"](../../../objects/page/99000822.md) · on [Table 99000799 "Order Tracking Entry"](../../../objects/table/99000799.md)
+- [Page 99000842 "Prod. Order Comp. Cmt. Sheet"](../../../objects/page/99000842.md) · captioned "Comment List" · on [Table 5416 "Prod. Order Comp. Cmt Line"](../../../objects/table/5416.md)
+- [Page 99000843 "Prod. Order BOM Cmt List"](../../../objects/page/99000843.md) · captioned "Comment List" · on [Table 5416 "Prod. Order Comp. Cmt Line"](../../../objects/table/5416.md)
+- [Page 99000852 "Planning Worksheet"](../../../objects/page/99000852.md) · captioned "Planning Worksheets" · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 99000855 "Untracked Planning Elements"](../../../objects/page/99000855.md) · on [Table 99000855 "Untracked Planning Element"](../../../objects/table/99000855.md)
+- [Page 99000860 "Planning Worksheet Line List"](../../../objects/page/99000860.md) · on [Table 246 "Requisition Line"](../../../objects/table/246.md)
+- [Page 99000861 "Planning Component List"](../../../objects/page/99000861.md) · on [Table 99000829 "Planning Component"](../../../objects/table/99000829.md)
+- [Page 99000862 "Planning Components"](../../../objects/page/99000862.md) · on [Table 99000829 "Planning Component"](../../../objects/table/99000829.md)
+- [Page 99000863 "Planning Routing"](../../../objects/page/99000863.md) · on [Table 99000830 "Planning Routing Line"](../../../objects/table/99000830.md)
+- [Page 99000883 "Sales Order Planning"](../../../objects/page/99000883.md) · on [Table 99000800 "Sales Planning Line"](../../../objects/table/99000800.md)
+- [Page 99000884 "Create Order From Sales"](../../../objects/page/99000884.md) · on [Table 27 "Item"](../../../objects/table/27.md)
+- [Page 99000921 "Demand Forecast Names"](../../../objects/page/99000921.md) · captioned "Demand Forecasts" · on [Table 99000851 "Production Forecast Name"](../../../objects/table/99000851.md)
+- [Page 99000922 "Demand Forecast Entries"](../../../objects/page/99000922.md) · on [Table 99000852 "Production Forecast Entry"](../../../objects/table/99000852.md)
+
+Learn also names 2 objects with no object page: page/9245, page/99000919.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

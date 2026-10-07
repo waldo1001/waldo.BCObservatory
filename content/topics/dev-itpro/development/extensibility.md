@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -303,7 +303,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-object-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started
-  objects: []
+  objects:
+    - object/page/4500
+    - object/page/4503
+    - object/page/4504
+    - object/page/4511
+    - object/page/4512
+    - object/page/6103
+    - object/page/6133
+    - object/page/6316
+    - object/page/6317
   features: []
   topics:
     - topic/dev-itpro/development
@@ -341,7 +350,7 @@ children:
   - topic/dev-itpro/development/extensibility/embedding-power-bi
 coverage:
   learn: 42
-  code: 0
+  code: 9
   video: 2
   blog: 1
   guideline: 0
@@ -414,6 +423,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 4500, 4503, 4504, 4511, 4512, 6103, 6133, 6316, 6317.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4500 "Current User Email Account"](../../../objects/page/4500.md) · on [Table 4508 "Email - Outlook Account"](../../../objects/table/4508.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 4503 "Microsoft 365 Email Account"](../../../objects/page/4503.md) · on [Table 4508 "Email - Outlook Account"](../../../objects/table/4508.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 4504 "Microsoft 365 Email Wizard"](../../../objects/page/4504.md) · captioned "Set up Microsoft 365 email account" · on [Table 4508 "Email - Outlook Account"](../../../objects/table/4508.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 4511 "SMTP Account Wizard"](../../../objects/page/4511.md) · captioned "Set up SMTP Account" · on [Table 4511 "SMTP Account"](../../../objects/table/4511.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 4512 "SMTP Account"](../../../objects/page/4512.md) · on [Table 4511 "SMTP Account"](../../../objects/table/4511.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 6103 "E-Document Services"](../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../objects/table/6103.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 6133 "E-Document Service"](../../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../../objects/table/6103.md) · via [Extending the base application](extensibility/extending-the-base-application.md)
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Embedding Power BI](extensibility/embedding-power-bi.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Embedding Power BI](extensibility/embedding-power-bi.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

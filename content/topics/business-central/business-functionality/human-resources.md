@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:19.132Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/hr-how-manage-absence
     - https://learn.microsoft.com/dynamics365/business-central/hr-manage-human-resources
     - https://learn.microsoft.com/dynamics365/business-central/hr-how-register-employees
-  objects: []
+  objects:
+    - object/page/5200
+    - object/page/5201
+    - object/page/5204
+    - object/page/5206
+    - object/page/5208
+    - object/page/5209
+    - object/page/5211
+    - object/page/5212
+    - object/page/5221
+    - object/page/5228
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -64,7 +74,7 @@ parent: topic/business-central/business-functionality
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 10
   video: 0
   blog: 1
   guideline: 0
@@ -121,6 +131,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 5200 "Employee Card"](../../../objects/page/5200.md) · on [Table 5200 "Employee"](../../../objects/table/5200.md)
+- [Page 5201 "Employee List"](../../../objects/page/5201.md) · captioned "Employees" · on [Table 5200 "Employee"](../../../objects/table/5200.md)
+- [Page 5204 "Alternative Address List"](../../../objects/page/5204.md) · captioned "Alternate Address List" · on [Table 5201 "Alternative Address"](../../../objects/table/5201.md)
+- [Page 5206 "Employee Qualifications"](../../../objects/page/5206.md) · on [Table 5203 "Employee Qualification"](../../../objects/table/5203.md)
+- [Page 5208 "Relatives"](../../../objects/page/5208.md) · on [Table 5204 "Relative"](../../../objects/table/5204.md)
+- [Page 5209 "Employee Relatives"](../../../objects/page/5209.md) · on [Table 5205 "Employee Relative"](../../../objects/table/5205.md)
+- [Page 5211 "Employee Absences"](../../../objects/page/5211.md) · on [Table 5207 "Employee Absence"](../../../objects/table/5207.md)
+- [Page 5212 "Absence Registration"](../../../objects/page/5212.md) · on [Table 5207 "Employee Absence"](../../../objects/table/5207.md)
+- [Page 5221 "Confidential Information"](../../../objects/page/5221.md) · on [Table 5216 "Confidential Information"](../../../objects/table/5216.md)
+- [Page 5228 "Misc. Articles Overview"](../../../objects/page/5228.md) · on [Table 5200 "Employee"](../../../objects/table/5200.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

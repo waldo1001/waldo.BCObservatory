@@ -66,21 +66,37 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
-    "objects": [],
-    "unjoined": [
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "objects": [
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesDraftInvoiceCZL.ReportExt.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "reportextension/11707",
+        "type": "reportextension",
+        "id": 11707,
+        "name": "Std. Sales - Draft Invoice CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "reportextension/11707-cz"
       },
       {
         "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "reportextension/11708",
+        "type": "reportextension",
+        "id": 11708,
+        "name": "Std. Sales - Pro Forma Inv CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "reportextension/11708-cz"
       }
-    ]
+    ],
+    "unjoined": []
   },
-  "systems": [],
-  "apps": []
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "CoreLocalizationPack"
+  ]
 }

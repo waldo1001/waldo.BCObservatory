@@ -481,8 +481,162 @@
   },
   "join": {
     "major": "30",
-    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "commit": "a4406cfa9e57437fedc49c53c327a199a854491e",
     "objects": [
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicISVIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31303",
+        "type": "permissionsetextension",
+        "id": 31303,
+        "name": "D365 BASIC ISV - Intrastat CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31303-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31302",
+        "type": "permissionsetextension",
+        "id": 31302,
+        "name": "D365 BASIC - Intrastat CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31302-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365ReadIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31304",
+        "type": "permissionsetextension",
+        "id": 31304,
+        "name": "D365 READ - Intrastat CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31304-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365TeamMemberIntrCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31305",
+        "type": "permissionsetextension",
+        "id": 31305,
+        "name": "D365 TEAM MEMBER - Intr. CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31305-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntelligentCloudIntrCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31306",
+        "type": "permissionsetextension",
+        "id": 31306,
+        "name": "INTELLIGENT CLOUD - Intr. CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31306-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/LocalIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31301",
+        "type": "permissionsetextension",
+        "id": 31301,
+        "name": "LOCAL - Intrastat CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31301-cz"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesCrMemoQRCode.page.al",
+        "status": "modified",
+        "key": "page/18143",
+        "type": "page",
+        "id": 18143,
+        "name": "Sales Cr Memo QR Code",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18143-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesInvoiceQRCode.page.al",
+        "status": "modified",
+        "key": "page/18142",
+        "type": "page",
+        "id": 18142,
+        "name": "Sales Invoice QR Code",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18142-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceCrMemoQRCode.page.al",
+        "status": "modified",
+        "key": "page/18165",
+        "type": "page",
+        "id": 18165,
+        "name": "Service Cr Memo QR Code",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18165-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceInvoiceQRCode.page.al",
+        "status": "modified",
+        "key": "page/18162",
+        "type": "page",
+        "id": 18162,
+        "name": "Service Invoice QR Code",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18162-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTStockTransfer/src/page/TransferShipmentQRCode.Page.al",
+        "status": "modified",
+        "key": "page/18013",
+        "type": "page",
+        "id": 18013,
+        "name": "Transfer Shipment QR Code",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18013-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubCompRcptLine.Table.al",
+        "status": "modified",
+        "key": "table/18475",
+        "type": "table",
+        "id": 18475,
+        "name": "Sub. Comp. Rcpt. Line",
+        "app": "INGST",
+        "cc": "in",
+        "page": "table/18475-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/Permissions/d365readindiagst.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/18355",
+        "type": "permissionsetextension",
+        "id": 18355,
+        "name": "D365 READ - India GST",
+        "app": "INGST",
+        "cc": "in",
+        "page": "permissionsetextension/18355-in"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/enumextension/VoucherEnum.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/18548",
+        "type": "enumextension",
+        "id": 18548,
+        "name": "Voucher Enum",
+        "app": "INTaxBase",
+        "cc": "in",
+        "page": "enumextension/18548-in"
+      },
       {
         "path": "src/Apps/W1/APIV1/app/src/permissions/d365automationapiv1.permissionsetext.al",
         "status": "modified",
@@ -827,76 +981,6 @@
     ],
     "unjoined": [
       {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicISVIntrastatCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicIntrastatCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365ReadIntrastatCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365TeamMemberIntrCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntelligentCloudIntrCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/LocalIntrastatCZ.PermissionsetExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesCrMemoQRCode.page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesInvoiceQRCode.page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceCrMemoQRCode.page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceInvoiceQRCode.page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTStockTransfer/src/page/TransferShipmentQRCode.Page.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubCompRcptLine.Table.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INGST/app/Permissions/d365readindiagst.permissionsetext.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/IN/INTaxBase/app/src/enumextension/VoucherEnum.EnumExt.al",
-        "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
         "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
         "status": "modified",
         "reason": "not-in-snapshot"
@@ -991,8 +1075,8 @@
   "systems": [
     "finance",
     "integration",
-    "platform",
     "development",
+    "platform",
     "administration",
     "inventory"
   ],
@@ -1001,6 +1085,9 @@
     "APIV2",
     "Base Application",
     "HybridBC14",
+    "INGST",
+    "INTaxBase",
+    "IntrastatCZ",
     "MasterDataManagement",
     "PayPalPaymentsStandard",
     "ReviewGLEntries"

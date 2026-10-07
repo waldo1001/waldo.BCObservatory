@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:41.840Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,7 +156,26 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-329
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-320
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-313
-  objects: []
+  objects:
+    - object/report/304
+    - object/report/307
+    - object/report/308
+    - object/report/311
+    - object/report/312
+    - object/report/313
+    - object/report/320
+    - object/report/329
+    - object/report/409
+    - object/report/707
+    - object/report/709
+    - object/report/714
+    - object/report/716
+    - object/report/720
+    - object/report/1322
+    - object/report/2502
+    - object/report/4403
+    - object/report/4404
+    - object/report/6102
   features: []
   topics:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
@@ -177,7 +196,7 @@ parent: topic/business-central/business-functionality/purchasing/purchasing-anal
 children: []
 coverage:
   learn: 17
-  code: 0
+  code: 19
   video: 0
   blog: 0
   guideline: 0
@@ -255,6 +274,26 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 304, 307, 308, 311, 312, 313, 320, 329, 409, 707, 709, 714, 716, 720, 1322, 2502, 4403, 4404, 6102.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Report 304 "Vendor - Detail Trial Balance"](../../../../../objects/report/304.md)
+- [Report 307 "Vendor - Order Summary"](../../../../../objects/report/307.md)
+- [Report 308 "Vendor - Order Detail"](../../../../../objects/report/308.md)
+- [Report 311 "Vendor - Top 10 List"](../../../../../objects/report/311.md) · captioned "Vendor - Top 10 List (Obsolete)"
+- [Report 312 "Purchase Statistics"](../../../../../objects/report/312.md)
+- [Report 313 "Vendor/Item Purchases"](../../../../../objects/report/313.md)
+- [Report 320 "Vendor Item Catalog"](../../../../../objects/report/320.md)
+- [Report 329 "Vendor - Trial Balance"](../../../../../objects/report/329.md)
+- [Report 409 "Purchase Reservation Avail."](../../../../../objects/report/409.md)
+- [Report 707 "Inventory - Availability Plan"](../../../../../objects/report/707.md) · captioned "Inventory - Availability Plan (Obsolete)"
+- [Report 709 "Inventory Purchase Orders"](../../../../../objects/report/709.md)
+- [Report 714 "Inventory - Vendor Purchases"](../../../../../objects/report/714.md)
+- [Report 716 "Inventory Cost and Price List"](../../../../../objects/report/716.md)
+- [Report 720 "Item/Vendor Catalog"](../../../../../objects/report/720.md)
+- [Report 1322 "Standard Purchase - Order"](../../../../../objects/report/1322.md) · captioned "Purchase - Order"
+- [Report 2502 "Day Book Vendor Ledger Entry"](../../../../../objects/report/2502.md)
+- [Report 4403 "EXR Aged Acc Payable Excel"](../../../../../objects/report/4403.md) · captioned "Aged Accounts Payable (Excel)"
+- [Report 4404 "EXR Vendor Top List"](../../../../../objects/report/4404.md) · captioned "Vendor - Top List (Excel)"
+- [Report 6102 "E-Doc Sample Purchase Invoice"](../../../../../objects/report/6102.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

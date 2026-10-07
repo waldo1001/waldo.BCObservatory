@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:16.616Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service
-  objects: []
+  objects:
+    - object/page/1
+    - object/page/459
+    - object/page/460
+    - object/page/743
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/united-kingdom
@@ -78,7 +82,7 @@ parent: topic/business-central/business-functionality/local-functionality/united
 children: []
 coverage:
   learn: 5
-  code: 0
+  code: 4
   video: 0
   blog: 0
   guideline: 0
@@ -125,6 +129,13 @@ For company setup, start with the statutory information page, which describes th
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 1, 459, 460, 743, 9142, 10539.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 1 "Company Information"](../../../../../objects/page/1.md) · on [Table 79 "Company Information"](../../../../../objects/table/79.md)
+- [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md) · on [Table 311 "Sales & Receivables Setup"](../../../../../objects/table/311.md)
+- [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md) · on [Table 312 "Purchases & Payables Setup"](../../../../../objects/table/312.md)
+- [Page 743 "VAT Report Setup"](../../../../../objects/page/743.md) · on [Table 743 "VAT Report Setup"](../../../../../objects/table/743.md)
+
+Learn also names 2 objects with no object page: page/9142, page/10539.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

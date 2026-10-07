@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:06.493Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T15:52:42.721Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,7 +113,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl
-  objects: []
+  objects:
+    - object/page/4003
   features: []
   topics:
     - topic/dev-itpro/administration/migrate-to-business-central-online
@@ -138,7 +139,7 @@ children:
   - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data
 coverage:
   learn: 13
-  code: 0
+  code: 1
   video: 0
   blog: 0
   guideline: 0
@@ -187,6 +188,10 @@ The section's own pages cover the last two steps. One runs the data upgrade, whi
 
 ## Business Central pages and reports
 
-Learn's ms.search.form names these object ids (not yet joined to the code pillar): 2502, 4003.
+The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
+
+- [Page 4003 "Intelligent Cloud Management"](../../../../objects/page/4003.md) · captioned "Cloud Migration Management" · on [Table 4001 "Hybrid Replication Summary"](../../../../objects/table/4001.md) · via [Overview](migrate-from-dynamics-sl/overview.md)
+
+Learn also names 1 object with no object page: page/2502.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
