@@ -11,7 +11,8 @@
  *   symbol, so a guard naming a version at or below the snapshot's own is cleanup still pending, not a removal date
  * Member detail compares by stable identity: fields and enum values by id, keys by name, procedures by name plus
  * parameter types (overloads). Outputs record the snapshot commits they came from and are rewritten only when
- * those change.
+ * those change. Page controls and actions (extractor 4, D65) are not part of any diff: the object hash leaves them
+ * out, so a page re-extracted with them pairs with its older record unchanged, and they are dropped on reading.
  */
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
@@ -44,6 +45,13 @@ export interface ObjectDiff {
 export interface Ref { version: string; country: string; commit: string | null }
 export interface AlDiff { schema: "al-diff@1"; kind: "version" | "country"; from: Ref; to: Ref; summary: Record<string, unknown>; objects: ObjectDiff[] }
 
+/** An object without its page controls and actions: what the diffs and the radar read (a quarter of a W1 snapshot's bytes from extractor 4 on). */
+export const withoutLayout = (o: AlObject): AlObject => {
+  if (!o.controls && !o.actions) return o;
+  const { controls: _c, actions: _a, ...rest } = o;
+  return rest;
+};
+const lean = (objs: AlObject[]) => objs.map(withoutLayout);
 const procId = (p: AlProcedure) => `${p.name.toLowerCase()}(${p.params.map((x) => x.type.toLowerCase()).join(",")})`;
 const same = (a: unknown, b: unknown) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
 
@@ -266,14 +274,14 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
   // memory: at most two W1 snapshots at a time (a version diff); everything else streams
   const cache = new Map<string, AlObject[]>();
   const w1 = (m: string) => {
-    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, readSnapshot(dataDir, m, "w1")); }
+    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, lean(readSnapshot(dataDir, m, "w1"))); }
     return cache.get(m)!;
   };
   /** The full W1 objects of a major: from data/ for a full one, from the runner's cache for a skeleton, else null. */
   const fullW1 = (m: string): AlObject[] | null => {
     if (!isSkeleton(dataDir, m)) return w1(m);
     if (!o.cacheDir || !manifestOf(fullSnapshotRoot(o.cacheDir), m, "w1")) return null;
-    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, readSnapshot(fullSnapshotRoot(o.cacheDir), m, "w1")); }
+    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, lean(readSnapshot(fullSnapshotRoot(o.cacheDir), m, "w1"))); }
     return cache.get(m)!;
   };
   const root = resolve(dataDir, "code");
@@ -296,7 +304,7 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
     for (const cc of countriesOf(dataDir, m)) {
       const mc = manifestOf(dataDir, m, cc)!;
       run.country_diffs++;
-      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), readSnapshot(dataDir, m, cc), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)), "by-object")) run.written++;
+      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), lean(readSnapshot(dataDir, m, cc)), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)), "by-object")) run.written++;
     }
     run.deprecations++;
     if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor], () => {

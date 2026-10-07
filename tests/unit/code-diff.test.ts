@@ -5,7 +5,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { validate } from "../../pipeline/lib/schema.js";
 import { EXTRACTOR_VERSION, extractSource, loadParser, type AlObject } from "../../pipeline/code/extract.js";
-import { byObject, changedMember, countryDiff, DERIVED_VERSION, deprecations, refreshCodeDerived, timelines, versionDiff } from "../../pipeline/code/diff.js";
+import { byObject, changedMember, countryDiff, DERIVED_VERSION, deprecations, objectDiff, refreshCodeDerived, timelines, versionDiff, withoutLayout } from "../../pipeline/code/diff.js";
 import { fullSnapshotRoot, isSkeleton, readSnapshot, skeletonOf, writeSnapshot } from "../../pipeline/code/job.js";
 
 async function objs(src: string, version: string, country = "w1"): Promise<AlObject[]> {
@@ -160,4 +160,20 @@ test("a diff is written as one JSON document with one object per line (D62)", ()
   assert.deepEqual(JSON.parse(text), { inputs: [1], schema: "al-diff@1", objects: [{ key: "table/18" }, { key: "table/23" }] });
   assert.deepEqual(text.trim().split("\n"), ['{"inputs":[1],"schema":"al-diff@1","objects":[', '{"key":"table/18"},', '{"key":"table/23"}', "]}"]);
   assert.deepEqual(JSON.parse(byObject({ objects: [] })), { objects: [] });
+});
+
+test("page controls and actions (extractor 4) change no version or country diff (D65)", async () => {
+  const page = (tip: string, caption: string) => `page 21 "Customer Card"\n{\n    Caption = '${caption}';\n    SourceTable = Customer;\n    layout { area(Content) { group(General) { field("No."; Rec."No.") { ToolTip = '${tip}'; } } } }\n    actions { area(Processing) { action(Post) { RunObject = Report 6; } } }\n}\n`;
+  const [a] = await objs(page("a", "Customer"), "29"), [b] = await objs(page("b", "Customer"), "30");
+  const v3 = withoutLayout(a);
+  assert.ok(a.controls?.length && !("controls" in v3), "a v3-shaped record has no controls");
+  assert.equal(v3.hash, b.hash);
+  const from = { version: "29", country: "w1", commit: "1" }, to = { version: "30", country: "w1", commit: "2" };
+  assert.deepEqual(versionDiff([v3], [b], from, to).objects, [], "a record without controls pairs with one that has them");
+  assert.deepEqual(versionDiff([a], [b], from, to).objects, [], "a layout-only change is not a change");
+  assert.deepEqual(countryDiff([v3], [{ ...b, country: "be", layer: "overlay" }], [], from, { ...to, country: "be" }).objects.map((o) => o.change), ["replaced"]);
+  const [c] = await objs(page("b", "Customer Card"), "30");
+  const d = objectDiff(a, c, "changed");
+  assert.equal(JSON.stringify(d), JSON.stringify(objectDiff(v3, withoutLayout(c), "changed")), "byte-identical with or without controls");
+  assert.deepEqual(Object.keys(d), ["key", "name", "change", "ns", "properties"]);
 });
