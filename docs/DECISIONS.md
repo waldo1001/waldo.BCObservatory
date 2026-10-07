@@ -621,3 +621,15 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   versus stars). The chip keeps the star count, like every other lens chip; the panel heading bridges the two
   ("74 videos and posts landed"). The pill now renders on every page except the home page (`section="home"`),
   where the chip is the one control. Spec: `docs/specs/this-week-lens.md`.
+- **D72 One version pill in the lens bar.** The galaxy offers the version lens as one control: a pill for the
+  remembered major (newest by default; a deep link, the menu or a question entry sets it; memory only, no
+  `localStorage`) and a menu of every major the graph has changes for, with the count each would light, labelled
+  from `config/versions.json` (`data-majors`, built from `majors()`; `versionMenu` in `galaxy-core.ts`). One version
+  at a time, same lens ids and deep links. The menu's `details` is rendered in `Galaxy.astro`, so the layout's
+  `details.ask` wiring (Esc, outside click) covers it unchanged. The Objects atlas derives its `changed:<v>` lenses
+  (every major after the oldest, where nothing "changes") and its "Introduced" filter from the same config; old
+  `?lens=changed29` links map to `changed:29`. Version lists are printed as collapsed runs ("BC24-26, BC28") by one
+  helper, `pipeline/lib/versions.ts` `versionRanges`, in pages, panel, list view and markdown; a gap is never
+  bridged. Rejected: a segmented control (still seven targets), two pills plus the select (hides four majors),
+  "since" ranges or unions (changes the one-lens model; later), `localStorage` (a different home page per reader).
+  Spec: `docs/specs/version-lens.md`.

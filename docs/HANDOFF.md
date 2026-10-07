@@ -20,16 +20,14 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   manual control run used the same checkout, so compare `data/code/graph/30/manifest.json` with BC29's (15,711 edges,
   1,350 unresolved) and, if it looks off, delete `graphify-out` under the BC30 checkout and bump `CALLGRAPH_VERSION`.
 
-- **One version pill in the galaxy lens bar**: `docs/specs/version-lens.md`, decision D72 (reserved, not appended),
-  PLAN milestone M10. Status: proposed 2026-10-07, nothing implemented. Where to start: phase 1, the pure
-  `versionRanges` helper in `pipeline/lib/versions.ts` with its tests, then the nine call sites (spec section 2.3), shipped
-  alone because it rewrites every object page once; phase 2 is the pill with the version menu (`galaxy-core.ts`
-  `versionMenu`, `Galaxy.astro`, `galaxy.ts`) and the Objects atlas picker from config. Until it lands the home page shows
-  one pill per major (seven today, one more per wave) and `/objects/` hard-codes BC29 and BC30.
-
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **One version pill in the galaxy lens bar, D72** (`docs/specs/version-lens.md`, M10): both phases on `dev/next`.
+  The seven "changed in BC<v>" pills are one pill for the remembered major plus a version menu with counts, labels
+  from `config/versions.json`; the Objects atlas takes its majors from config; every printed version list goes
+  through `versionRanges` ("BC24-26, BC28"). The next nightly rewrites about 25,400 object pages once (text only, no
+  LLM): ship it on a night with no other content change. Section 12 of the spec records the deviations.
 - **BC23 and BC24 history layout fix** (`pipeline/code/job.ts` `resolveApps`, `config/versions.json`): the first
   D62 backfill (run 37644205533) extracted those two majors without their base app, 1,406 objects instead of about
   9,000, because w1-23 and w1-24 keep it under `BaseApp/Source/Base Application` and a missing folder was only a

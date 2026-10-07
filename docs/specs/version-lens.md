@@ -1,6 +1,7 @@
 # One version pill: the galaxy's "changed in" lens as a single control
 
-Status: proposed, 2026-10-07. Decision: D72 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-07 (phase 1 `5c2e51635`, phase 2 `d9b3c64ac`; deviations in section 12). Decision: D72
+(appended to `docs/DECISIONS.md`). Owner: waldo.
 Scope: the galaxy lens bar on the home page, the Objects atlas lens picker, and every place a list of BC majors is
 printed as text (object markdown, app pages, the galaxy panel and list view). Every claim below was verified against
 the tree at `573ac6ae5` on 2026-10-07. Not in scope: new lens semantics (ranges, unions), the member-level
@@ -321,10 +322,42 @@ Phase 2: `site/src/scripts/galaxy-core.ts`, `tests/unit/galaxy-core.test.ts`, `s
   (`grep -rn 'map((v) => \`BC' pipeline site/src` finds nothing).
 - D72 appended, PLAN M10 row marked shipped, HANDOFF entry moved, galaxy-views spec cross-references this file.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-- `docs/DECISIONS.md`: the D72 paragraph of section 3, verbatim.
-- `docs/PLAN.md`: the M10 row (added with this spec; marked shipped at the end of phase 2).
-- `docs/HANDOFF.md`: the "Open specs" entry (added with this spec; moved to "Shipped" at the end of phase 2).
-- `docs/specs/galaxy-views.md:118`: "(the per-version pills grew to seven with D62; superseded by
-  `docs/specs/version-lens.md`, D72: one pill with a version menu)".
+Built on `dev/next`, 2026-10-07, in two commits as section 6 orders them, then the docs commit. The edits this
+section proposed before (D72 in `docs/DECISIONS.md`, the PLAN M10 row, the HANDOFF entry, the note at the
+version-pills bullet of `docs/specs/galaxy-views.md`) are applied.
+
+Measured:
+
+- `versionRanges` gives the table of 2.3 exactly (`tests/unit/versions-ranges.test.ts`).
+- A local render of the object pages from the committed `data/` (discarded afterwards): 25,423 of 25,644 object
+  pages change text through the new renderer alone (old renderer versus new on the same data). Nearly every object
+  is present in a run of majors, so "Present in: BC23, BC24, ..., BC30" becomes "BC23-30"; 2,292 summary sentences
+  change their "changed in" clause. App pages: none change (every app is in a contiguous run already rendered
+  first-last). This is the one-time churn section 6.4 and 9 announce.
+- Built site, headless Chromium at 1280 px: the bar reads Questions, `changed in BC30` + caret, `this week`,
+  `more lenses`, `list view` on one row (32 px) with the panel closed, two rows with it open. The menu lists
+  `BC30 vNext 27`, `BC29 97`, `BC28 113`, `BC27 115`, `BC26 97`, `BC25 92`, `BC24 129`, the counts of section 7.
+  `#lens=version:27` lights 115 stars, the pill reads `changed in BC27 115`, the crumb `changed in BC27`; Esc and an
+  outside click close the menu, Esc refocuses the caret; picking BC29 then clicking the pill clears the lens and
+  the pill keeps `changed in BC29`. At 700 px the bar is one non-wrapping row and the menu is the fixed bottom
+  sheet; the caret is 44 px under touch.
+
+Deviations:
+
+- `Base.astro` is not changed. Of the two options 2.1 and 4.3 allow, the `details` is rendered in `Galaxy.astro`
+  (`div.g-vlens[hidden] > button[data-g-vpill] + details.ask.g-ask.g-vmenu > summary + ul`) and the script fills the
+  `ul` and unhides the group; the layout's existing wiring handles Esc and outside clicks.
+- The remembered major is set in `setLens` for any version lens, not only in `fromHash`: a deep link, the menu and a
+  question entry all pass through it, so the pill always names the last version lens chosen.
+- The atlas offers `changed:<v>` for every major after the oldest (BC24 to BC30 today), not for the oldest: nothing
+  "changes" in it, and the galaxy has no BC23 entry either. Its "introduced" lens label follows config too
+  (`introduced in BC24+`, legend `introduced in BC24 or later`; it read BC29 before). An old `?lens=changed29` URL
+  maps to `changed:29`; an unknown value falls back to `system`.
+- `majors()` (`site/src/lib/versions.ts`) also returns `vnext`, so `Galaxy.astro` and the atlas need no second
+  config read.
+- `app.ts` exports `versionsLabel` so `app-page.test.ts` tests it directly. No mentions test covered
+  `coveredMajors`, so none was changed; it reads config and still returns `BC28-30`.
+- Not run here, by the brief: `npm run nightly -- --dry-run` and `validate:content` on regenerated content
+  (the object-pages tests validate rendered pages, including the new sentences).
