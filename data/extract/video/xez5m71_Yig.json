@@ -64,42 +64,6 @@
         "partner engagement"
       ],
       "system": "hr"
-    },
-    {
-      "name": "Partner Engagement and Skilling",
-      "description": "Program enabling 233 partner engagements globally with 74 in North America, reducing time from onboarding to billable work to 10 weeks.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 46.6,
-      "t_end": 87.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "partner engagement",
-        "onboarding",
-        "time-to-value"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Talent Retention and Diversity",
-      "description": "BC Talent program achieving 93 percent retention rate and 41 percent of new hires are women, building a more diverse ecosystem.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 67,
-      "t_end": 87.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "retention",
-        "diversity",
-        "women in tech"
-      ],
-      "system": "hr"
     }
   ],
   "objects": [],
@@ -126,6 +90,12 @@
       "t": 46.6,
       "text": "VC talent is a full force skilling and coaching machine and the results they speak loud and clear.",
       "why_it_matters": "Introduces the BC Talent program and emphasizes it is operational with measurable results.",
+      "check": "exact"
+    },
+    {
+      "t": 46.6,
+      "text": "just over one year in and we're proud to share that 233 partner engagements have kicked off",
+      "why_it_matters": "Gives how long the program has been running and how many partners have used it.",
       "check": "exact"
     },
     {

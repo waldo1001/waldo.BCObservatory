@@ -2,7 +2,7 @@
 id: video/4IumfDNN8GU
 type: video
 title: How to Use Posting Groups in Business Central (2025)
-summary: Posting groups in Business Central link customers, vendors and items to general ledger accounts. The 2025 video covers general, subledger-specific and VAT posting groups, VAT posting setup, a sales invoice demo with posting preview, and direct posting to GL accounts.
+summary: Posting groups in Business Central link customers, vendors, items and VAT or sales tax to general ledger accounts. The video covers general (business and product), subledger-specific (customer, vendor, inventory) and VAT posting groups and how they combine in posting setups. It also includes a sales invoice demo with posting preview and shows how to post directly to GL accounts.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - accounting setup
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:21.264Z"
   flags: []
 generated:
-  at: "2026-10-06T18:34:00.137Z"
+  at: "2026-10-07T22:56:21.297Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 199
     quote: Posting groups keep subleddgers in sync with the general ledger.
+  - kind: video
+    url: https://www.youtube.com/watch?v=4IumfDNN8GU&t=199s
+    title: How to Use Posting Groups in Business Central (2025)
+    date: "2025-05-22T16:19:38.000Z"
+    commit: null
+    t: 199
+    quote: If we don't use subleddgers and post directly to a GL account, we can enable direct posting for the account.
 links:
   learn: []
   objects: []
@@ -163,13 +170,16 @@ quotes:
   - t: 199
     text: Posting groups keep subleddgers in sync with the general ledger.
     check: exact
+  - t: 199
+    text: If we don't use subleddgers and post directly to a GL account, we can enable direct posting for the account.
+    check: exact
 ---
 
 # How to Use Posting Groups in Business Central (2025)
 
-> Posting groups in Business Central link customers, vendors and items to general ledger accounts. The 2025 video covers general, subledger-specific and VAT posting groups, VAT posting setup, a sales invoice demo with posting preview, and direct posting to GL accounts.
+> Posting groups in Business Central link customers, vendors, items and VAT or sales tax to general ledger accounts. The video covers general (business and product), subledger-specific (customer, vendor, inventory) and VAT posting groups and how they combine in posting setups. It also includes a sales invoice demo with posting preview and shows how to post directly to GL accounts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4IumfDNN8GU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 3:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4IumfDNN8GU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 3:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,10 +192,10 @@ A sales invoice demo shows customer and inventory posting groups, VAT posting se
 - Three main kinds of posting groups: general (business and product), subledger-specific (customer, vendor, inventory), and VAT/tax.
 - Business posting groups classify who you trade with (for example domestic or foreign); product posting groups classify what you buy or sell (for example resale, manufacture, retail).
 - Business and product posting groups are combined in posting setups. Example: a retail item sold to a domestic customer can point to sales revenue and COGS accounts.
+- Posting groups can be assigned to customers, vendors and items, or inherited from templates.
 - Customer posting groups hold the receivable accounts; inventory posting groups hold the inventory accounts for items.
-- VAT posting setup determines the VAT accounts used for different VAT rates and shows VAT rate and base amounts.
+- VAT posting setup determines the VAT accounts used, for example the sales VAT account for the standard VAT rate with a domestic customer; VAT entries show VAT rate and base amounts.
 - Posting preview shows the subledger and general ledger entries that will be created before you post a document.
-- You can choose GL accounts directly on journal and document lines, but direct posting must be enabled on the GL account. The Where Used list shows which posting groups use an account.
 
 ## Chapters
 
@@ -200,17 +210,17 @@ A sales invoice demo shows customer and inventory posting groups, VAT posting se
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Posting Groups | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=4IumfDNN8GU&t=0s) |  |
-| Business Posting Groups | status not stated | [0:28](https://www.youtube.com/watch?v=4IumfDNN8GU&t=28s) |  |
-| Product Posting Groups | status not stated | [0:38](https://www.youtube.com/watch?v=4IumfDNN8GU&t=38s) |  |
-| Customer Posting Groups | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=4IumfDNN8GU&t=80s) |  |
-| Inventory Posting Groups | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=4IumfDNN8GU&t=101s) |  |
-| VAT Posting Setup | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=4IumfDNN8GU&t=53s) |  |
-| Posting Preview | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=4IumfDNN8GU&t=135s) |  |
-| Direct GL Posting | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=4IumfDNN8GU&t=188s) |  |
-| Where Used List | status not stated | [3:30](https://www.youtube.com/watch?v=4IumfDNN8GU&t=210s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Posting Groups | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=4IumfDNN8GU&t=0s) |
+| Business Posting Groups | status not stated | [0:28](https://www.youtube.com/watch?v=4IumfDNN8GU&t=28s) |
+| Product Posting Groups | status not stated | [0:38](https://www.youtube.com/watch?v=4IumfDNN8GU&t=38s) |
+| Customer Posting Groups | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=4IumfDNN8GU&t=80s) |
+| Inventory Posting Groups | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=4IumfDNN8GU&t=101s) |
+| VAT Posting Setup | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=4IumfDNN8GU&t=53s) |
+| Posting Preview | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=4IumfDNN8GU&t=135s) |
+| Direct GL Posting | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=4IumfDNN8GU&t=188s) |
+| Where Used List | status not stated | [3:30](https://www.youtube.com/watch?v=4IumfDNN8GU&t=210s) |
 
 ## Quotes
 
@@ -219,3 +229,4 @@ A sales invoice demo shows customer and inventory posting groups, VAT posting se
 - [0:53](https://www.youtube.com/watch?v=4IumfDNN8GU&t=53s) "when we sell a retail item to a domestic customer, the posting setup might point to the sales revenue and COGS accounts"
 - [3:08](https://www.youtube.com/watch?v=4IumfDNN8GU&t=188s) "We can choose GL accounts only on lines on journals and documents. This allows subleddgers like the customer or inventory to exist alongside the"
 - [3:19](https://www.youtube.com/watch?v=4IumfDNN8GU&t=199s) "Posting groups keep subleddgers in sync with the general ledger."
+- [3:19](https://www.youtube.com/watch?v=4IumfDNN8GU&t=199s) "If we don't use subleddgers and post directly to a GL account, we can enable direct posting for the account."

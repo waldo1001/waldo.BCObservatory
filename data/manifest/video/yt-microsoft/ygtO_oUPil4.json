@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=ygtO_oUPil4",
   "published_at": "2025-08-04T15:18:43.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T18:32:34.204Z",
+      "at": "2026-10-07T22:56:05.556Z",
       "path": "content/videos/ygtO_oUPil4.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:56:05.518Z",
+      "path": "data/review/video/ygtO_oUPil4.json",
+      "verdict": "fix",
+      "applied": 5,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.038437
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5cc7153db73537b82623ca4239a9c0cecf3ed6d97d423867bf4cf9ccc2870758"
+  "output_hash": "4d9ba2c97e845c099172dfc534eea36e1fc9bd15e8eb3c479ffc70aaee32a196",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:56:05.514Z"
+  }
 }

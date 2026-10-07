@@ -253,6 +253,12 @@
       "text": "Posting groups keep subleddgers in sync with the general ledger.",
       "why_it_matters": "Defines the critical accounting control function that posting groups provide for data integrity.",
       "check": "exact"
+    },
+    {
+      "t": 199.4,
+      "text": "If we don't use subleddgers and post directly to a GL account, we can enable direct posting for the account.",
+      "why_it_matters": "States how direct posting to GL accounts is enabled.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

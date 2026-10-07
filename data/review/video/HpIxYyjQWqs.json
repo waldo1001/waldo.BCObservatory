@@ -1,0 +1,28 @@
+{
+  "video_id": "HpIxYyjQWqs",
+  "item_id": "video/yt-microsoft/HpIxYyjQWqs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript at the stated t values.",
+    "The summary and key points match the transcript. Feature statuses are all 'unclear', which fits because the video never says whether anything is in preview or generally available.",
+    "Added a quote and a key point saying that journals need no saving, which the page did not cover (t=141.4).",
+    "Added a quote on finding entries through GL registers and the reverse register action, because the existing reversal quote does not name the action.",
+    "Minor: the 'Reversing entries and conclusion' chapter starts at 114, but the text at 114 also covers the test report and posting."
+  ],
+  "input_hash": "c9cdde00ee5f09354d2dd548f3fd5997c778486b215ae223823851a5984ae6a5",
+  "by": "opus",
+  "at": "2026-10-07T22:56:22.254Z",
+  "applied": [
+    "quote at 128s",
+    "quote at 141s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049713
+  }
+}

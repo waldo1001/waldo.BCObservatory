@@ -2,7 +2,7 @@
 id: video/UGmL665HtzE
 type: video
 title: AL-Go for Github June Office Hour
-summary: "AL-Go for GitHub June 2025 office hour: version 7.2 shipped, and three features in preview (telemetry starter dashboard, custom template repositories, custom jobs) are expected in 7.3. Also warns that AL-Go versions lower than 5.0 will break soon."
+summary: "AL-Go for GitHub June office hour: features previewed last month have now shipped in version 7.2. Three new preview features are expected in 7.3: a starter Azure Data Explorer dashboard for AL-Go telemetry, custom template repositories and custom jobs. The session also warns that AL-Go versions lower than 5.0 will break very soon."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - application insights
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:14.385Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:14.426Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,19 +37,19 @@ evidence:
     t: 82
     quote: they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that.
   - kind: video
-    url: https://www.youtube.com/watch?v=UGmL665HtzE&t=82s
+    url: https://www.youtube.com/watch?v=UGmL665HtzE&t=426s
     title: "Custom Template Repositories: preview"
     date: "2025-07-10T11:21:35.000Z"
     commit: null
-    t: 82
-    quote: they're all in preview
+    t: 426
+    quote: They're all in preview, like I said, so you won't be able to find them in version 7.2.
   - kind: video
-    url: https://www.youtube.com/watch?v=UGmL665HtzE&t=82s
+    url: https://www.youtube.com/watch?v=UGmL665HtzE&t=426s
     title: "Custom Jobs in AL-Go Workflows: preview"
     date: "2025-07-10T11:21:35.000Z"
     commit: null
-    t: 82
-    quote: they're all in preview
+    t: 426
+    quote: They're all in preview, like I said, so you won't be able to find them in version 7.2.
   - kind: video
     url: https://www.youtube.com/watch?v=UGmL665HtzE&t=53s
     title: AL-Go for Github June Office Hour
@@ -188,9 +188,9 @@ quotes:
 
 # AL-Go for Github June Office Hour
 
-> AL-Go for GitHub June 2025 office hour: version 7.2 shipped, and three features in preview (telemetry starter dashboard, custom template repositories, custom jobs) are expected in 7.3. Also warns that AL-Go versions lower than 5.0 will break soon.
+> AL-Go for GitHub June office hour: features previewed last month have now shipped in version 7.2. Three new preview features are expected in 7.3: a starter Azure Data Explorer dashboard for AL-Go telemetry, custom template repositories and custom jobs. The session also warns that AL-Go versions lower than 5.0 will break very soon.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UGmL665HtzE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-07-10 · 15:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UGmL665HtzE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-07-10 · 15:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,12 +200,12 @@ The preview features are a starter Azure Data Explorer dashboard for AL-Go telem
 
 ## Key points
 
-- AL-Go 7.2 has been shipped and includes features that were earlier in preview, with improvements to workflows and system file management.
-- The starter telemetry dashboard is in preview. It is an Azure Data Explorer report showing running workflows, failures, runner usage, AL-Go versions and deprecated settings. You download a JSON file from the repository and fill in the configuration.
-- Custom template repositories are in preview. They let you put your own template repository in the middle, to spawn repositories with custom scripts or workflows, like AL-Go PTE or AL-Go AppSource. Changes sync when you run update AL-Go system files.
-- Custom jobs are in preview. You add them to AL-Go workflow YAML files by prefixing the job name with custom-job-.
-- Custom jobs should be used carefully. Job names or YAML files may change in future versions and break customizations, so review changes when updating system files.
-- The three preview features are not in 7.2 but are expected in 7.3.
+- AL-Go 7.2 has shipped and includes the features that were in preview last month. See the AL-Go release notes for details.
+- The starter telemetry dashboard is in preview. It is a plug-and-play Azure Data Explorer report that connects to Application Insights and shows running workflows, failures, minutes on GitHub-hosted versus self-hosted runners, AL-Go versions per repo and deprecated settings. You download a JSON file from the AL-Go repository and fill in a couple of things.
+- Custom template repositories are in preview. You can put your own template repository between AL-Go PTE or AppSource and your repos, so custom scripts and workflows propagate when you run update AL-Go system files.
+- Custom jobs are in preview. You add them to the AL-Go workflow YAML files by prefixing the job name with custom-job-.
+- Use custom jobs carefully. AL-Go may rename jobs or change its YAML files and break customizations, so review the changes whenever you update system files.
+- The three preview features are not in 7.2 but are expected in 7.3. To use them now, upgrade to preview.
 - If you run an AL-Go version lower than 5.0, upgrade, because it will break very soon.
 
 ## Chapters
@@ -224,8 +224,8 @@ The preview features are a starter Azure Data Explorer dashboard for AL-Go telem
 |---|---|---|---|
 | AL-Go Version 7.2 | status not stated | [0:37](https://www.youtube.com/watch?v=UGmL665HtzE&t=37s) |  |
 | Starter Dashboard for AL-Go Telemetry | preview, demoed | [1:36](https://www.youtube.com/watch?v=UGmL665HtzE&t=96s) | "they're all in preview. Uh so yeah, not available in 7.2. Uh but they will be available in 7.3 when we release that." ([1:22](https://www.youtube.com/watch?v=UGmL665HtzE&t=82s)) |
-| Custom Template Repositories | preview, demoed | [3:54](https://www.youtube.com/watch?v=UGmL665HtzE&t=234s) | "they're all in preview" ([1:22](https://www.youtube.com/watch?v=UGmL665HtzE&t=82s)) |
-| Custom Jobs in AL-Go Workflows | preview, demoed | [5:45](https://www.youtube.com/watch?v=UGmL665HtzE&t=345s) | "they're all in preview" ([1:22](https://www.youtube.com/watch?v=UGmL665HtzE&t=82s)) |
+| Custom Template Repositories | preview, demoed | [3:54](https://www.youtube.com/watch?v=UGmL665HtzE&t=234s) | "They're all in preview, like I said, so you won't be able to find them in version 7.2." ([7:06](https://www.youtube.com/watch?v=UGmL665HtzE&t=426s)) |
+| Custom Jobs in AL-Go Workflows | preview, demoed | [5:45](https://www.youtube.com/watch?v=UGmL665HtzE&t=345s) | "They're all in preview, like I said, so you won't be able to find them in version 7.2." ([7:06](https://www.youtube.com/watch?v=UGmL665HtzE&t=426s)) |
 | AL-Go Version 5.0 End of Support | status not stated | [7:20](https://www.youtube.com/watch?v=UGmL665HtzE&t=440s) |  |
 
 ## AL objects mentioned

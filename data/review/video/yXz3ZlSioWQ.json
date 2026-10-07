@@ -1,0 +1,28 @@
+{
+  "video_id": "yXz3ZlSioWQ",
+  "item_id": "video/yt-microsoft/yXz3ZlSioWQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript; the ones that cross a segment boundary (t=71.8, 171) are still valid.",
+    "No feature gets a preview or GA statement in the transcript, so leaving every status as unclear is correct.",
+    "The hover key point was a bit off. Hovering shows either an information icon or an open-in-new-window icon, and you have to choose the information icon to see the title and description. The information icon only shows up when a teaching tip is defined.",
+    "The Tell Me / role center key point was imprecise. The role explorer route goes through explore more roles and then reports and analysis.",
+    "The teaching tip on the request page works for many reports, not all of them, so that key point now says so.",
+    "Added the Ctrl+select tip, which opens links from the documentation in a new window. The page did not mention it."
+  ],
+  "input_hash": "f761681923da076fd0746e3c6a788c0ca9c2b2bded23b0c1ad92eccd1d89c0e1",
+  "by": "opus",
+  "at": "2026-10-07T22:57:04.819Z",
+  "applied": [
+    "quote at 320s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07233300000000001
+  }
+}

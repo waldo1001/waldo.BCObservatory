@@ -4,13 +4,13 @@
   "summary": "Report discovery in Business Central 2025 release wave 1: the Report Explorer, Microsoft Learn report documentation reached through aka.ms links, and teaching tips on request pages and in the help pane. Shows how these link together for finding and understanding reports.",
   "overview": "The video shows three ways to discover and explore reports in Business Central 2025 release wave 1. The first is the Report Explorer, which lists reports by topic and departmental role. It can be reached through Tell Me, the role center symbol, or the all reports link on role centers.\nThe second is Microsoft Learn, where aka.ms links lead to a report overview table by functional area, with scenario descriptions, links that open reports in Business Central, and articles per report. The third is teaching tips on report request pages and in the help pane, which link back to the documentation. The video also shows information icons on report links and opening reports in a new window.",
   "key_points": [
-    "Open the Report Explorer through Tell Me search, the role center symbol, or the all reports link on role centers.",
-    "The Report Explorer groups reports by topic and departmental role; expanding all categories gives an overview of the reporting capabilities.",
-    "Hovering over a report link shows an information icon with the full title and description, but only if a teaching tip is defined on the report object.",
-    "In wave 1, reports opened from the Report Explorer can open in a new window, so the explorer stays open while you look at several reports.",
-    "Aka.ms links lead to a Microsoft Learn overview table of reports by functional area, with scenarios, links to open reports, and per-report articles for different personas.",
-    "On a request page, clicking the report title or caption opens its teaching tip, even if teaching tips are disabled by default.",
-    "The help pane shows the teaching tip text when one is defined on the report object and links to the matching Microsoft Learn documentation."
+    "You can open the Report Explorer in three ways: from Tell Me search, from the role explorer (explore more roles, then reports and analysis), or from the all reports link at the top of role centers.",
+    "The Report Explorer lists departmental role centers. Expand one, such as finance, and choose the ellipses to expand all its topics for an overview of the reporting capabilities.",
+    "When you hover over a report link, you see either an information icon or an open-in-new-window icon. The information icon shows the report's full title and description without opening the report, and it only appears if a teaching tip is defined on the report object.",
+    "New in wave 1: reports opened from the Report Explorer open in a new window, so the explorer stays open while you explore several reports.",
+    "The aka.ms BC analytics link leads to the Microsoft Learn report overview, which lists reports by functional area. Each report has a scenario description, a link that opens it in Business Central, and an article with use cases for different personas.",
+    "If you Ctrl+select a link in the documentation, it opens in a new window and the documentation page stays open.",
+    "For many reports, choosing the title or caption on the request page opens a teaching tip. This works even if teaching tips are turned off by default."
   ],
   "audience": [
     "end user",

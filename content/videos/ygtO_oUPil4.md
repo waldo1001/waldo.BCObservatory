@@ -2,7 +2,7 @@
 id: video/ygtO_oUPil4
 type: video
 title: Copilot Managing Complaints by Trimit
-summary: "Copilot Complaint Management from Trimit, demonstrated in Business Central: a user uploads a customer email, Copilot extracts key elements and keywords, and a complaint order is generated from the customer feedback. The video is a short demo of this flow."
+summary: "Trimit demo of a Copilot feature for Business Central complaint handling: the user uploads a customer email, Copilot reads the text, finds the keywords and key elements, and shows them so the user can create a complaint order. The feature is pitched as a way to speed up complaint handling and save time."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - customer service
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:05.514Z"
   flags: []
 generated:
-  at: "2026-10-06T18:32:34.201Z"
+  at: "2026-10-07T22:56:05.552Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,7 +33,7 @@ evidence:
     date: "2025-08-04T15:18:43.000Z"
     commit: null
     t: 2
-    quote: We've created a new feature in uh Business Central which allows the users to upload an email into the system and then copilot will
+    quote: copilot will look through this email and find keywords that it can then use to create a complaint in the system.
   - kind: video
     url: https://www.youtube.com/watch?v=ygtO_oUPil4&t=28s
     title: Copilot Managing Complaints by Trimit
@@ -93,7 +93,7 @@ features:
 objects_mentioned: []
 quotes:
   - t: 2
-    text: We've created a new feature in uh Business Central which allows the users to upload an email into the system and then copilot will
+    text: copilot will look through this email and find keywords that it can then use to create a complaint in the system.
     check: exact
   - t: 28
     text: Two of these items were ordered and there was some paint peeling off and another one got damaged during shipment.
@@ -108,9 +108,9 @@ quotes:
 
 # Copilot Managing Complaints by Trimit
 
-> Copilot Complaint Management from Trimit, demonstrated in Business Central: a user uploads a customer email, Copilot extracts key elements and keywords, and a complaint order is generated from the customer feedback. The video is a short demo of this flow.
+> Trimit demo of a Copilot feature for Business Central complaint handling: the user uploads a customer email, Copilot reads the text, finds the keywords and key elements, and shows them so the user can create a complaint order. The feature is pitched as a way to speed up complaint handling and save time.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ygtO_oUPil4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ygtO_oUPil4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -120,12 +120,11 @@ In the demo, the example email describes two ordered items, one with paint peeli
 
 ## Key points
 
-- Users upload a customer email into Business Central as the starting point.
-- Copilot analyzes the email text and extracts key elements and keywords.
-- Pressing generate presents the extracted elements to the user.
-- A complaint order is generated automatically from the customer feedback.
-- The demo email covered two issues: paint peeling on ordered items and damage during shipment.
-- The feature is positioned as a time saver for complaint handling.
+- Users upload a customer email into Business Central, which loads the full email text into the Copilot prompt.
+- Copilot looks through the email and finds keywords and key elements.
+- Pressing generate shows the extracted elements so the user can create a complaint order.
+- The demo email referenced an order number and reported paint peeling on two items and another item damaged during shipment.
+- The feature is pitched as streamlining complaint creation and saving time on an area customers want to spend little time on.
 
 ## Chapters
 
@@ -136,13 +135,13 @@ In the demo, the example email describes two ordered items, one with paint peeli
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Complaint Management | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=ygtO_oUPil4&t=2s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Complaint Management | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=ygtO_oUPil4&t=2s) |
 
 ## Quotes
 
-- [0:02](https://www.youtube.com/watch?v=ygtO_oUPil4&t=2s) "We've created a new feature in uh Business Central which allows the users to upload an email into the system and then copilot will"
+- [0:02](https://www.youtube.com/watch?v=ygtO_oUPil4&t=2s) "copilot will look through this email and find keywords that it can then use to create a complaint in the system."
 - [0:28](https://www.youtube.com/watch?v=ygtO_oUPil4&t=28s) "Two of these items were ordered and there was some paint peeling off and another one got damaged during shipment."
 - [0:41](https://www.youtube.com/watch?v=ygtO_oUPil4&t=41s) "When I press generate, Copilot is going to find all the key elements in this mail and present them to us so we can"
 - [0:57](https://www.youtube.com/watch?v=ygtO_oUPil4&t=57s) "This is an area that our customers usually want to spend the least amount of time on."

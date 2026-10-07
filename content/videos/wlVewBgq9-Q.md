@@ -2,7 +2,7 @@
 id: video/wlVewBgq9-Q
 type: video
 title: How to Create Projects in Business Central (2025)
-summary: "Creating a project in Business Central from the project manager role center: project card, tasks, planning lines with budget and billable data, posting groups, and copying tasks from an existing project with the create new project assisted setup guide. A 3-minute walkthrough published 2025-05-22."
+summary: "Creating a project in Business Central from the project manager role center: the project card, tasks, planning lines with budget and billable data, and posting groups. It also covers copying tasks from an existing project with the create new project assisted setup guide. A walkthrough of about 3 minutes."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - project manager role center
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:31.363Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:31.404Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -204,9 +204,9 @@ quotes:
 
 # How to Create Projects in Business Central (2025)
 
-> Creating a project in Business Central from the project manager role center: project card, tasks, planning lines with budget and billable data, posting groups, and copying tasks from an existing project with the create new project assisted setup guide. A 3-minute walkthrough published 2025-05-22.
+> Creating a project in Business Central from the project manager role center: the project card, tasks, planning lines with budget and billable data, and posting groups. It also covers copying tasks from an existing project with the create new project assisted setup guide. A walkthrough of about 3 minutes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=wlVewBgq9-Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=wlVewBgq9-Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -218,7 +218,7 @@ It then adds project tasks, and planning lines with resources and items. Cost an
 
 - The project number is assigned automatically by Business Central when a new project is created; the user enters a description and selects a customer.
 - The project manager assigned on the project controls whether it shows in that person's role center.
-- Project task numbers are typically part of a number sequence defined in setup, and the numbering can be customized.
+- Project task numbers are typically part of a number sequence that you define; the demo uses simple numbers like 100, 200.
 - Planning line type can be budget, billable, or both, depending on line cost and how the customer is billed.
 - Cost and price on planning lines come from the assigned resource or item.
 - Project posting groups can be chosen per project or set in the project setup window.
@@ -237,19 +237,19 @@ It then adds project tasks, and planning lines with resources and items. Cost an
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Project list in role center | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s) |  |
-| Project card creation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=12s) |  |
-| Project manager assignment | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=23s) |  |
-| Project task numbering | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=33s) |  |
-| Project task types | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=44s) |  |
-| Project planning lines | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=59s) |  |
-| Resource and item allocation | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=72s) |  |
-| Project details pane | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=85s) |  |
-| Project posting groups | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s) |  |
-| Copy project tasks feature | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s) |  |
-| Copy dimensions and quantities on apply tab | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=132s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Project list in role center | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s) |
+| Project card creation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=12s) |
+| Project manager assignment | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=23s) |
+| Project task numbering | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=33s) |
+| Project task types | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=44s) |
+| Project planning lines | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=59s) |
+| Resource and item allocation | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=72s) |
+| Project details pane | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=85s) |
+| Project posting groups | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s) |
+| Copy project tasks feature | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s) |
+| Copy dimensions and quantities on apply tab | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=132s) |
 
 ## AL objects mentioned
 

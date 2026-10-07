@@ -15,12 +15,12 @@ tags:
   - gl registers
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:22.254Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:22.288Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,20 @@ evidence:
     commit: null
     t: 114
     quote: If you make a mistake, you can always reverse journal entries.
+  - kind: video
+    url: https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s
+    title: How to Work With General Journals in Business Central (2025)
+    date: "2025-05-22T16:16:38.000Z"
+    commit: null
+    t: 127
+    quote: Find the entry usually by searching the GL registers. Then use the reverse register action.
+  - kind: video
+    url: https://www.youtube.com/watch?v=HpIxYyjQWqs&t=141s
+    title: How to Work With General Journals in Business Central (2025)
+    date: "2025-05-22T16:16:38.000Z"
+    commit: null
+    t: 141
+    quote: You can always leave and come back to a journal. No need to save your work.
 links:
   learn: []
   objects: []
@@ -166,13 +180,19 @@ quotes:
   - t: 114
     text: If you make a mistake, you can always reverse journal entries.
     check: exact
+  - t: 127
+    text: Find the entry usually by searching the GL registers. Then use the reverse register action.
+    check: exact
+  - t: 141
+    text: You can always leave and come back to a journal. No need to save your work.
+    check: exact
 ---
 
 # How to Work With General Journals in Business Central (2025)
 
 > General journals in Business Central finance: where to find them, how journal templates work, the two ways to fill in lines (with or without balancing accounts), checking with the test action before posting, and reversing entries through GL registers.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HpIxYyjQWqs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HpIxYyjQWqs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -202,14 +222,14 @@ It then compares two ways of entering lines, with and without balancing accounts
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| General journals | status not stated | [0:16](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=16s) |  |
-| Journal templates | status not stated | [0:39](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=39s) |  |
-| Journal entry without balancing accounts | status not stated | [1:04](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=64s) |  |
-| Journal entry with balancing accounts | status not stated | [1:25](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=85s) |  |
-| General journal test action | status not stated | [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) |  |
-| Reverse register action | status not stated | [2:07](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s) |  |
+| Feature | Status | At |
+|---|---|---|
+| General journals | status not stated | [0:16](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=16s) |
+| Journal templates | status not stated | [0:39](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=39s) |
+| Journal entry without balancing accounts | status not stated | [1:04](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=64s) |
+| Journal entry with balancing accounts | status not stated | [1:25](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=85s) |
+| General journal test action | status not stated | [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) |
+| Reverse register action | status not stated | [2:07](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s) |
 
 ## AL objects mentioned
 
@@ -226,3 +246,5 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) "This way reduces the number of lines you must fill in, making journal entry faster."
 - [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) "You can always check before you post the journal by using the general journal test action."
 - [1:54](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=114s) "If you make a mistake, you can always reverse journal entries."
+- [2:07](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s) "Find the entry usually by searching the GL registers. Then use the reverse register action."
+- [2:21](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=141s) "You can always leave and come back to a journal. No need to save your work."

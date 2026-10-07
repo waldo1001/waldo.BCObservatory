@@ -1,0 +1,23 @@
+{
+  "video_id": "NPhOSQTheXw",
+  "item_id": "video/yt-microsoft/NPhOSQTheXw",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes appear word for word in the transcript, and the summary and key points are supported by it.",
+    "The quote at t=77 stops partway through a sentence (it ends at 'this tax rate'). It is still word for word, so it is kept.",
+    "The description of the 'Tax area codes with jurisdiction filtering' feature says filters cover city, county and state. The transcript only shows a city filter, though it does say sales taxes combine city, county and state. This is a small overstatement and is not worth an edit.",
+    "All features are left as 'unclear' because the transcript never says whether anything is in preview or generally available."
+  ],
+  "input_hash": "b1809ab1d9165da5d23ffcfeb85125e946e13e2f5c72f1bab8f01a90bfac6285",
+  "by": "opus",
+  "at": "2026-10-07T22:56:25.089Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044677
+  }
+}

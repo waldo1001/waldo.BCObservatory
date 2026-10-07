@@ -18,12 +18,12 @@ tags:
   - item data
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:42.866Z"
   flags: []
 generated:
-  at: "2026-10-06T18:35:07.609Z"
+  at: "2026-10-07T22:56:42.906Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 51
     quote: You can import your company data from Excel files.
+  - kind: video
+    url: https://www.youtube.com/watch?v=lRiED3AUfps&t=66s
+    title: Getting Started with Business Central (2025)
+    date: "2025-05-22T16:01:57.000Z"
+    commit: null
+    t: 66
+    quote: Once you're ready to use Business Central on your own, you can turn off the teaching tips in my settings.
 links:
   learn: []
   objects: []
@@ -136,13 +143,16 @@ quotes:
   - t: 51
     text: You can import your company data from Excel files.
     check: exact
+  - t: 66
+    text: Once you're ready to use Business Central on your own, you can turn off the teaching tips in my settings.
+    check: exact
 ---
 
 # Getting Started with Business Central (2025)
 
 > Getting started with Business Central (2025 video, about 1 minute): the Cronis sample company, the setup guide for new companies, and the data migration guide for importing customers, vendors and items from other accounting systems or Excel files.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lRiED3AUfps) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 1:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lRiED3AUfps) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 1:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,12 +181,12 @@ It then covers creating your own company. The setup guide walks through steps sp
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sample Company Cronis | status not stated | [0:01](https://www.youtube.com/watch?v=lRiED3AUfps&t=1s) |  |
-| Setup Guide | status not stated | [0:25](https://www.youtube.com/watch?v=lRiED3AUfps&t=25s) |  |
-| Data Migration Guide | status not stated | [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) |  |
-| Teaching Tips Toggle | status not stated | [1:06](https://www.youtube.com/watch?v=lRiED3AUfps&t=66s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sample Company Cronis | status not stated | [0:01](https://www.youtube.com/watch?v=lRiED3AUfps&t=1s) |
+| Setup Guide | status not stated | [0:25](https://www.youtube.com/watch?v=lRiED3AUfps&t=25s) |
+| Data Migration Guide | status not stated | [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) |
+| Teaching Tips Toggle | status not stated | [1:06](https://www.youtube.com/watch?v=lRiED3AUfps&t=66s) |
 
 ## Quotes
 
@@ -185,3 +195,4 @@ It then covers creating your own company. The setup guide walks through steps sp
 - [0:25](https://www.youtube.com/watch?v=lRiED3AUfps&t=25s) "The setup guide helps you through the steps that are unique to your business."
 - [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) "The data migration guide makes it easy to import data such as customers, vendors, and items from other accounting systems."
 - [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) "You can import your company data from Excel files."
+- [1:06](https://www.youtube.com/watch?v=lRiED3AUfps&t=66s) "Once you're ready to use Business Central on your own, you can turn off the teaching tips in my settings."

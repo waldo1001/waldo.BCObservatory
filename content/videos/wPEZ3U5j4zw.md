@@ -18,12 +18,12 @@ tags:
   - api changes
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:19.872Z"
   flags: []
 generated:
-  at: "2026-10-06T18:37:18.801Z"
+  at: "2026-10-07T22:57:19.918Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -44,13 +44,6 @@ evidence:
     commit: null
     t: 293
     quote: the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally
-  - kind: video
-    url: https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s
-    title: "Automatic scheduling upon release for unreleased versions: generally available"
-    date: "2025-04-01T15:01:26.000Z"
-    commit: null
-    t: 537
-    quote: the update will automatically be scheduled after within 14 days um since the since this specific version is released
   - kind: video
     url: https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=6s
     title: "What's New: Flexible Update Management (2025 release wave 1)"
@@ -93,6 +86,13 @@ evidence:
     commit: null
     t: 293
     quote: the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally
+  - kind: video
+    url: https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=313s
+    title: "What's New: Flexible Update Management (2025 release wave 1)"
+    date: "2025-04-01T15:01:26.000Z"
+    commit: null
+    t: 313
+    quote: will continue to work uh but it will not support any of the new flexibility that we're introducing here
   - kind: video
     url: https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s
     title: "What's New: Flexible Update Management (2025 release wave 1)"
@@ -194,9 +194,9 @@ features:
     verified: false
     status_source: video
   - name: Automatic scheduling upon release for unreleased versions
-    status: ga
+    status: unclear
     t: 537
-    verified: true
+    verified: false
     status_source: video
   - name: New API endpoints for flexible update management
     status: unclear
@@ -223,6 +223,9 @@ quotes:
   - t: 293
     text: the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally
     check: exact
+  - t: 313
+    text: will continue to work uh but it will not support any of the new flexibility that we're introducing here
+    check: exact
   - t: 537
     text: the update will automatically be scheduled after within 14 days um since the since this specific version is released
     check: exact
@@ -232,7 +235,7 @@ quotes:
 
 > Flexible update management in Business Central, generally available with 2025 release wave 1 and available globally. Covers the five-month update period, grace and enforced update periods, skipping minor updates, target version selection in the admin center, and new API endpoints.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=wPEZ3U5j4zw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=wPEZ3U5j4zw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -277,7 +280,7 @@ It walks through the major update cycle: a five calendar month update period wit
 | Global availability for flexible update management | generally available | [4:53](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=293s) | "the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally" ([4:53](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=293s)) |
 | Admin center update settings panel | status not stated, demoed | [5:53](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=353s) |  |
 | Target version selection in admin center UI | status not stated, demoed | [7:35](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=455s) |  |
-| Automatic scheduling upon release for unreleased versions | generally available, demoed | [8:57](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s) | "the update will automatically be scheduled after within 14 days um since the since this specific version is released" ([8:57](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s)) |
+| Automatic scheduling upon release for unreleased versions | status not stated, demoed | [8:57](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s) |  |
 | New API endpoints for flexible update management | status not stated | [5:13](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=313s) |  |
 
 ## Quotes
@@ -288,6 +291,7 @@ It walks through the major update cycle: a five calendar month update period wit
 - [2:21](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=141s) "we will uninstall the app but we will not delete the data so if you later on install compatible version of this app the"
 - [3:20](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=200s) "you can select a Target version for an update so if you're on let's say version 25.3 today you can choose to update uh"
 - [4:53](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=293s) "the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally"
+- [5:13](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=313s) "will continue to work uh but it will not support any of the new flexibility that we're introducing here"
 - [8:57](https://www.youtube.com/watch?v=wPEZ3U5j4zw&t=537s) "the update will automatically be scheduled after within 14 days um since the since this specific version is released"
 
 Presenters (as heard): Y, Ricardo.

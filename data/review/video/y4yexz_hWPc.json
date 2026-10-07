@@ -1,0 +1,31 @@
+{
+  "video_id": "y4yexz_hWPc",
+  "item_id": "video/yt-microsoft/y4yexz_hWPc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 says the partner joined 'when it launched' in Australia; the transcript only says that when they heard it was available in Australia they jumped on the opportunity. Reworded.",
+    "The feature 'BC Talent program enablement strategy' is the speaker's future vision, not a separate feature. It duplicates 'BC Talent program', so I dropped it.",
+    "The 'BC Talent program' feature description says the program 'launched' in Australia. The transcript only says it was 'available' there. The status stays unclear because the transcript gives no preview or GA signal.",
+    "The systems tags 'administration' and 'development' have no support in the transcript, which is a partner testimonial about recruiting talent. There is no edit field for systems.",
+    "All kept quotes are verbatim. The 6.2 quote runs on into the 14.1 segment, and the 58.2 quote differs only in case. Both are acceptable.",
+    "I added a quote about reducing pressure on the existing team, which the page was missing."
+  ],
+  "input_hash": "614ca950c3eaceb86a794613e29b106635f581d25bb2305dea89e078ab6f39f2",
+  "by": "opus",
+  "at": "2026-10-07T22:56:47.329Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "BC Talent program: status unclear",
+    "quote at 48s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04634100000000001
+  }
+}

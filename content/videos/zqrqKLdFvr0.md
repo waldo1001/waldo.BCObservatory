@@ -16,12 +16,12 @@ tags:
   - role centers
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:37.966Z"
   flags: []
 generated:
-  at: "2026-10-06T18:35:24.453Z"
+  at: "2026-10-07T22:56:38.004Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,7 +177,7 @@ quotes:
 
 > Introduction to navigating Business Central (2025): role-based home pages, activity KPIs, quick access to lists, performance charts, the navigation bar, page and report search, and guided tours for new users. A 2-minute orientation video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zqrqKLdFvr0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 1:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zqrqKLdFvr0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 1:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,17 +207,17 @@ It then walks through the parts of the home page: an activities section with ope
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Role-based home pages | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=0s) |  |
-| Activity overview with operational KPIs | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=21s) |  |
-| Fast access to common lists | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=21s) |  |
-| Guided tours | status not stated | [0:31](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=31s) |  |
-| Document creation and transaction processing | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=45s) |  |
-| Performance charts and metrics | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=45s) |  |
-| Navigation bar for department features | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=58s) |  |
-| Page and report search | status not stated | [1:13](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=73s) |  |
-| Getting started resources | status not stated | [1:23](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=83s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Role-based home pages | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=0s) |
+| Activity overview with operational KPIs | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=21s) |
+| Fast access to common lists | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=21s) |
+| Guided tours | status not stated | [0:31](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=31s) |
+| Document creation and transaction processing | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=45s) |
+| Performance charts and metrics | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=45s) |
+| Navigation bar for department features | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=58s) |
+| Page and report search | status not stated | [1:13](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=73s) |
+| Getting started resources | status not stated | [1:23](https://www.youtube.com/watch?v=zqrqKLdFvr0&t=83s) |
 
 ## Quotes
 

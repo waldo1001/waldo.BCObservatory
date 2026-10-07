@@ -62,28 +62,6 @@
         "apac"
       ],
       "system": "administration"
-    },
-    {
-      "name": "BC Talent program enablement strategy",
-      "description": "A strategic approach where the BC Talent program serves as a critical component of partner enablement strategies, addressing upskilling, reskilling, and recruitment needs.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 58.2,
-      "t_end": 73.8,
-      "is_demoed": false,
-      "caveats": [
-        "Represents a future vision rather than current universal implementation"
-      ],
-      "tags": [
-        "enablement",
-        "strategy",
-        "partner programs",
-        "upskilling",
-        "reskilling"
-      ],
-      "system": "administration"
     }
   ],
   "objects": [],
@@ -120,6 +98,12 @@
       "t": 36.6,
       "text": "It enables us to get consultants that have industry experience and also are trained up in business central.",
       "why_it_matters": "Describes the unique value proposition of finding experienced consultants with BC skills.",
+      "check": "exact"
+    },
+    {
+      "t": 47.8,
+      "text": "It brings consultants up to speed really quickly. It also helps taking the pressure off the existing team",
+      "why_it_matters": "This is the main operational benefit for partners: new consultants get up to speed fast and the existing team has less to carry.",
       "check": "exact"
     },
     {

@@ -20,12 +20,12 @@ tags:
   - statistical models
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:28.226Z"
   flags: []
 generated:
-  at: "2026-10-06T18:37:27.503Z"
+  at: "2026-10-07T22:57:28.271Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,28 +38,7 @@ evidence:
     date: "2025-04-01T15:01:30.000Z"
     commit: null
     t: 1100
-    quote: we ship in version 26.1
-  - kind: video
-    url: https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s
-    title: "Sales Decomposition Report with AI-Assisted Analysis: generally available"
-    date: "2025-04-01T15:01:30.000Z"
-    commit: null
-    t: 1100
-    quote: we ship in version 26.1
-  - kind: video
-    url: https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s
-    title: "Key Sales Influencers Report: generally available"
-    date: "2025-04-01T15:01:30.000Z"
-    commit: null
-    t: 1100
-    quote: we ship in version 26.1
-  - kind: video
-    url: https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s
-    title: "Sales Segmentation Report: generally available"
-    date: "2025-04-01T15:01:30.000Z"
-    commit: null
-    t: 1100
-    quote: we ship in version 26.1
+    quote: the enhanced powerbi app for sales that we ship in version 26.1 as you can see we have seven new reports coming
   - kind: video
     url: https://www.youtube.com/watch?v=zXoSeH1cmaE&t=5s
     title: "What's New: Power BI (for Sales) (2025 release wave 1)"
@@ -228,19 +207,19 @@ features:
     verified: false
     status_source: video
   - name: Sales Decomposition Report with AI-Assisted Analysis
-    status: ga
+    status: unclear
     t: 760
-    verified: true
+    verified: false
     status_source: video
   - name: Key Sales Influencers Report
-    status: ga
+    status: unclear
     t: 876
-    verified: true
+    verified: false
     status_source: video
   - name: Sales Segmentation Report
-    status: ga
+    status: unclear
     t: 1003
-    verified: true
+    verified: false
     status_source: video
   - name: Sales Analytics Documentation and Guidance
     status: unclear
@@ -288,7 +267,7 @@ quotes:
 
 > The Power BI sales app update in Business Central version 26.1 (2025 release wave 1) adds seven new reports. They cover the sales lifecycle, profitability, demographics and AI-assisted analysis. The video demos each report, including the decomposition, key influencers and segmentation reports.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zXoSeH1cmaE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 20:36 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zXoSeH1cmaE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 20:36 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -299,10 +278,10 @@ The presenter demos reports for opportunities, quotes, return orders, profitabil
 ## Key points
 
 - Version 26.1 ships seven new reports in the Power BI sales app, plus updates to existing ones.
-- Opportunity Overview, Sales Quote Overview and Return Order Overview extend analysis earlier in the sales lifecycle than the previous focus on orders and invoices.
+- The app now goes beyond the previous focus on sales orders and invoices. It covers opportunities (CRM) and sales quotes on one side, and return orders and credit memos (sales quality) on the other.
 - Profitability views include a Pareto analysis by customer, a bubble chart by item and by salesperson, and item category sales over time to spot seasonality.
 - Sales Demographics and Sales by Location use maps to show customer count, sales and profit by geography, item category and customer posting group.
-- Sales Decomposition, Key Sales Influencers and Sales Segmentation provide AI-assisted analysis based on statistical data mining, not generative AI.
+- Sales Decomposition, Key Sales Influencers and Sales Segmentation provide AI-assisted analysis based on proven statistical data mining techniques, not generative AI.
 - Key Sales Influencers shows likelihood multipliers, for example a 1.6 times higher likelihood of a sale when a given salesperson is involved.
 - Documentation covers Power BI KPIs, ad hoc analysis with data analysis on lists and queries, and legacy and new Excel sales reports.
 
@@ -322,7 +301,7 @@ The presenter demos reports for opportunities, quotes, return orders, profitabil
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Enhanced Power BI Sales App | generally available, demoed | [0:05](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=5s) | "we ship in version 26.1" ([18:20](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s)) |
+| Enhanced Power BI Sales App | generally available, demoed | [0:05](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=5s) | "the enhanced powerbi app for sales that we ship in version 26.1 as you can see we have seven new reports coming" ([18:20](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s)) |
 | Opportunity Overview Report | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=105s) |  |
 | Sales Quote Overview Report | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=187s) |  |
 | Return Order Overview Report | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=248s) |  |
@@ -332,9 +311,9 @@ The presenter demos reports for opportunities, quotes, return orders, profitabil
 | Sales Overview Page with Breakdown Visualization | status not stated, demoed | [9:41](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=581s) |  |
 | Sales by Location Report with Map | status not stated, demoed | [11:03](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=663s) |  |
 | Sales Demographics Report | status not stated, demoed | [11:43](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=703s) |  |
-| Sales Decomposition Report with AI-Assisted Analysis | generally available, demoed | [12:40](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=760s) | "we ship in version 26.1" ([18:20](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s)) |
-| Key Sales Influencers Report | generally available, demoed | [14:36](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=876s) | "we ship in version 26.1" ([18:20](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s)) |
-| Sales Segmentation Report | generally available, demoed | [16:43](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1003s) | "we ship in version 26.1" ([18:20](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1100s)) |
+| Sales Decomposition Report with AI-Assisted Analysis | status not stated, demoed | [12:40](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=760s) |  |
+| Key Sales Influencers Report | status not stated, demoed | [14:36](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=876s) |  |
+| Sales Segmentation Report | status not stated, demoed | [16:43](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1003s) |  |
 | Sales Analytics Documentation and Guidance | status not stated, demoed | [18:59](https://www.youtube.com/watch?v=zXoSeH1cmaE&t=1139s) |  |
 
 ## Quotes

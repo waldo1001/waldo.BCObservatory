@@ -17,12 +17,12 @@ tags:
   - calendar appointments
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:53.910Z"
   flags: []
 generated:
-  at: "2026-10-06T18:32:35.468Z"
+  at: "2026-10-07T22:55:53.968Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -139,7 +139,7 @@ quotes:
 
 > Pryme Global's Copilot feature for its Prime Time app completes time sheets by suggesting entries to fill gaps, using Microsoft Graph data such as calendar appointments, Teams calls, to-dos and emails. The demo shows the calendar view, the suggestions and their explanations.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QK-Qsh_6YL4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QK-Qsh_6YL4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,12 +166,12 @@ The demo covers the time sheet and calendar view, which shows completed entries 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot time sheet completion | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=2s) |  |
-| Calendar view for time sheets | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=16s) |  |
-| Microsoft Graph integration for time sheet data | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=39s) |  |
-| Time sheet entry explanations | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=53s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot time sheet completion | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=2s) |
+| Calendar view for time sheets | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=16s) |
+| Microsoft Graph integration for time sheet data | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=39s) |
+| Time sheet entry explanations | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=53s) |
 
 ## Quotes
 

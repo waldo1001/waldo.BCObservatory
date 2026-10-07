@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=UgagVZVKCso",
   "published_at": "2025-08-04T15:18:39.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T18:32:54.171Z",
+      "at": "2026-10-07T22:56:05.813Z",
       "path": "content/videos/UgagVZVKCso.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:56:05.774Z",
+      "path": "data/review/video/UgagVZVKCso.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.044900999999999996
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "270c9ceccc048510ef9ad2301ee67838741206970056f0a9f4e557583c878af7"
+  "output_hash": "f1b94ff95da20eff3ed6398310807cdd67ed916658b307d5e6e7f4168947ab91",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:56:05.770Z"
+  }
 }

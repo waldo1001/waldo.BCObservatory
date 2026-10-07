@@ -1,0 +1,26 @@
+{
+  "video_id": "lRiED3AUfps",
+  "item_id": "video/yt-microsoft/lRiED3AUfps",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes are verbatim; three run across segment boundaries, which is acceptable.",
+    "Feature statuses are all unclear, which is correct since the transcript states no release status.",
+    "Teaching Tips Toggle feature and key point had no supporting quote; added one.",
+    "Data Migration Guide description folds Excel import into the guide; transcript states Excel import as a separate sentence. Minor.",
+    "Teaching tips description says 'experienced users'; transcript says 'once you're ready to use Business Central on your own'. Minor paraphrase."
+  ],
+  "input_hash": "02b8ccaab288375083534ee9785366f9fb5a0269dca93378acbc0123f5896476",
+  "by": "opus",
+  "at": "2026-10-07T22:56:42.866Z",
+  "applied": [
+    "quote at 66s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046845
+  }
+}

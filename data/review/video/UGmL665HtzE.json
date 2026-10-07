@@ -1,0 +1,33 @@
+{
+  "video_id": "UGmL665HtzE",
+  "item_id": "video/yt-microsoft/UGmL665HtzE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'June 2025', but the transcript never gives a year. Removed it.",
+    "Key point 1 and the AL-Go 7.2 feature description say 7.2 includes 'improvements to workflows and system file management'. The transcript does not support this. It only says the features shown last month shipped in 7.2 and points viewers to the release notes.",
+    "The evidence quote 'they're all in preview' for custom templates and custom jobs is only 4 words. Replaced it with a longer verbatim span at t 426.1.",
+    "The starter dashboard evidence_t was 96.3, but the quote starts at t 82. Corrected it.",
+    "AL-Go 7.2 is stated as shipped, so its status is now ga with evidence at t 53. The version 5.0 warning is an explicit announcement, so its status is now announced."
+  ],
+  "input_hash": "d3567aa5ad23a788fb2e0e1e266681fce0a713a0d46e82a3041b4e305c5b5a3b",
+  "by": "opus",
+  "at": "2026-10-07T22:56:14.385Z",
+  "applied": [
+    "Starter Dashboard for AL-Go Telemetry: status preview",
+    "Custom Template Repositories: status preview",
+    "Custom Jobs in AL-Go Workflows: status preview",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status AL-Go Version 7.2 -> ga: evidence not verbatim or does not state the status",
+    "status AL-Go Version 5.0 End of Support -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.095293
+  }
+}

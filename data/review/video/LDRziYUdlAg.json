@@ -1,0 +1,42 @@
+{
+  "video_id": "LDRziYUdlAg",
+  "item_id": "video/yt-microsoft/LDRziYUdlAg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'April 2025', but the transcript never gives a year. The summary also merged the 6.1 breakage notice into the retirement announcement. Rewrote it.",
+    "The page scripting visualizer evidence quote was only 5 words. Replaced it with a span of the right length starting at 11.4.",
+    "Deploy to sandbox from a pull request shipped in v7.0 and was previously in preview, so the status is now ga.",
+    "The last AL-Go version already supports build modes with preprocessor symbols, so the status is now ga.",
+    "Runtime package generation, the local-dev PowerShell module, shipping DevOps modules inside AL-Go, and BC Container Helper retirement are all stated plans. Set them to announced with evidence.",
+    "One key point said the runtime package work depends on the modern dev team compiler. The transcript says they will build it without that compiler and optimize later. Corrected.",
+    "The quote at 851 appears twice, differing only by a trailing period. It is left in place because dropping by t would remove both copies.",
+    "Dropped the quote at 1893.3 because it is filler with no information.",
+    "NG Get integration overlaps with the Nougat/runtime package feature. Its description wrongly ties it to community voting."
+  ],
+  "input_hash": "eeed3be743491676d0b5421caf984b05b6386df2119cebaccbe3680c957f936f",
+  "by": "opus",
+  "at": "2026-10-07T22:57:24.228Z",
+  "applied": [
+    "Page scripting visualizer: status preview",
+    "Deploy to sandbox from pull request: status ga",
+    "dropped 1 quote(s)",
+    "quote at 117s",
+    "quote at 319s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Build modes with preprocessor symbols -> ga: evidence not verbatim or does not state the status",
+    "status Runtime package generation and integration -> announced: evidence not verbatim or does not state the status",
+    "status BC Container Helper retirement -> announced: evidence not verbatim or does not state the status",
+    "status AL-Go PowerShell module for local development -> announced: evidence not verbatim or does not state the status",
+    "status AL-Go modules within AL-Go shipping -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.195397
+  }
+}

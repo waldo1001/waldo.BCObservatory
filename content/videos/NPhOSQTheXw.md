@@ -16,12 +16,12 @@ tags:
   - posting groups
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:25.089Z"
   flags: []
 generated:
-  at: "2026-10-06T18:34:35.041Z"
+  at: "2026-10-07T22:56:25.129Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,7 +155,7 @@ quotes:
 
 > Setting up sales tax in Business Central with the assisted setup guide: tax groups, tax area codes with jurisdiction filters, assigning codes to customers and vendors, and automatic tax calculation on sales and purchase documents. Example uses Fargo (2%), Cass County and North Dakota state tax (5%).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NPhOSQTheXw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NPhOSQTheXw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -184,13 +184,13 @@ The example uses the city of Fargo at 2% in Cass County and a North Dakota state
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Assisted setup guide for sales tax | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |  |
-| Tax group assignment to items | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |  |
-| Tax area codes with jurisdiction filtering | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=NPhOSQTheXw&t=62s) |  |
-| Apply tax area codes to customers and vendors | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=NPhOSQTheXw&t=77s) |  |
-| Automatic sales tax calculation on documents | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=NPhOSQTheXw&t=88s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Assisted setup guide for sales tax | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
+| Tax group assignment to items | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
+| Tax area codes with jurisdiction filtering | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=NPhOSQTheXw&t=62s) |
+| Apply tax area codes to customers and vendors | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=NPhOSQTheXw&t=77s) |
+| Automatic sales tax calculation on documents | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=NPhOSQTheXw&t=88s) |
 
 ## Quotes
 

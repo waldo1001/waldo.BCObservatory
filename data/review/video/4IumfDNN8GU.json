@@ -1,0 +1,28 @@
+{
+  "video_id": "4IumfDNN8GU",
+  "item_id": "video/yt-microsoft/4IumfDNN8GU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 7 says direct posting 'must' be enabled on the GL account; the transcript only says 'we can enable direct posting for the account'. Reworded.",
+    "The summary said posting groups link customers, vendors and items to GL accounts. The intro actually says customers, vendors, and VAT or sales tax. Items do get posting groups later in the video. Summary reworded to match the transcript.",
+    "Quotes are verbatim. The 188.6 quote is cut off mid-sentence but is still a valid span.",
+    "All feature statuses are unclear. That fits, because the video is a how-to and gives no release or preview status.",
+    "The topics list repeats the caption misspelling 'subleddgers'. This is cosmetic only."
+  ],
+  "input_hash": "5e598f10a574f98aaa93d3749d406246088b90430bf278b3fe67c0d5467cd863",
+  "by": "opus",
+  "at": "2026-10-07T22:56:21.264Z",
+  "applied": [
+    "quote at 199s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06502100000000001
+  }
+}

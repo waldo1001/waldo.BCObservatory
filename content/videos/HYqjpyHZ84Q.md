@@ -20,12 +20,12 @@ tags:
   - code-signing
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:17.465Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:17.530Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,19 +33,26 @@ generated:
   input_hash: 109350f65357a29aa37a634f89831afd570d9c5e627f9977785d17f5a3791d9a
 evidence:
   - kind: video
+    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s
+    title: "BC container settings from variables: preview"
+    date: "2025-05-01T16:08:21.000Z"
+    commit: null
+    t: 163
+    quote: So those things are in preview right now and will also be included in version seven of Elgo for GitHub.
+  - kind: video
+    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s
+    title: "Publish apps from pull requests: preview"
+    date: "2025-05-01T16:08:21.000Z"
+    commit: null
+    t: 163
+    quote: So those things are in preview right now and will also be included in version seven of Elgo for GitHub.
+  - kind: video
     url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=854s
     title: "Incremental builds: generally available"
     date: "2025-05-01T16:08:21.000Z"
     commit: null
     t: 854
     quote: so I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds.
-  - kind: video
-    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1283s
-    title: "Auto-uninstall old app versions: generally available"
-    date: "2025-05-01T16:08:21.000Z"
-    commit: null
-    t: 1283
-    quote: the ability to uninstall or unpublish actually an an old app um was not available. That is available now
   - kind: video
     url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=77s
     title: AL-Go for Github March Office Hour
@@ -60,6 +67,13 @@ evidence:
     commit: null
     t: 93
     quote: right now we we just launched um version 6.4 a week ago.
+  - kind: video
+    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s
+    title: AL-Go for Github March Office Hour
+    date: "2025-05-01T16:08:21.000Z"
+    commit: null
+    t: 163
+    quote: So those things are in preview right now and will also be included in version seven of Elgo for GitHub.
   - kind: video
     url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=225s
     title: AL-Go for Github March Office Hour
@@ -96,13 +110,6 @@ evidence:
     t: 854
     quote: I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds
   - kind: video
-    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=868s
-    title: AL-Go for Github March Office Hour
-    date: "2025-05-01T16:08:21.000Z"
-    commit: null
-    t: 868
-    quote: you can now set up incremental builds on on push. Um meaning that whenever you you push some modifications to the repo, it will
-  - kind: video
     url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=880s
     title: AL-Go for Github March Office Hour
     date: "2025-05-01T16:08:21.000Z"
@@ -130,6 +137,13 @@ evidence:
     commit: null
     t: 1283
     quote: the ability to uninstall or unpublish actually an an old app um was not available. That is available now
+  - kind: video
+    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1302s
+    title: AL-Go for Github March Office Hour
+    date: "2025-05-01T16:08:21.000Z"
+    commit: null
+    t: 1302
+    quote: So, we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app
   - kind: video
     url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1389s
     title: AL-Go for Github March Office Hour
@@ -228,13 +242,6 @@ evidence:
     commit: null
     t: 3167
     quote: I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for
-  - kind: video
-    url: https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3231s
-    title: AL-Go for Github March Office Hour
-    date: "2025-05-01T16:08:21.000Z"
-    commit: null
-    t: 3231
-    quote: I think majority of people have voted left and uh I don't think there are any more questions.
 links:
   learn: []
   objects: []
@@ -320,14 +327,14 @@ features:
     verified: false
     status_source: video
   - name: BC container settings from variables
-    status: unclear
+    status: preview
     t: 306
-    verified: false
+    verified: true
     status_source: video
   - name: Publish apps from pull requests
-    status: unclear
+    status: preview
     t: 342
-    verified: false
+    verified: true
     status_source: video
   - name: GitHub Packages for internal dependencies
     status: unclear
@@ -354,15 +361,10 @@ features:
     t: 1005
     verified: false
     status_source: video
-  - name: GitHub NuGet package resolution
-    status: unclear
-    t: 1068
-    verified: false
-    status_source: video
   - name: Auto-uninstall old app versions
-    status: ga
+    status: unclear
     t: 1263
-    verified: true
+    verified: false
     status_source: video
   - name: Multiple organizational variables
     status: unclear
@@ -424,11 +426,6 @@ features:
     t: 3093
     verified: false
     status_source: video
-  - name: GitHub discussions as alternative to issues
-    status: unclear
-    t: 3167
-    verified: false
-    status_source: video
 objects_mentioned:
   - other Business Central
   - other code sign certificate URL
@@ -440,6 +437,9 @@ quotes:
     check: exact
   - t: 93
     text: right now we we just launched um version 6.4 a week ago.
+    check: exact
+  - t: 163
+    text: So those things are in preview right now and will also be included in version seven of Elgo for GitHub.
     check: exact
   - t: 225
     text: You can also run it on a schedule which is highly recommended. So you can you can set up this workflow schedule and say
@@ -456,9 +456,6 @@ quotes:
   - t: 854
     text: I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds
     check: exact
-  - t: 868
-    text: you can now set up incremental builds on on push. Um meaning that whenever you you push some modifications to the repo, it will
-    check: exact
   - t: 880
     text: whenever you you push some modifications to the repo, it will only build the apps that you actually modified in that uh push
     check: exact
@@ -470,6 +467,9 @@ quotes:
     check: exact
   - t: 1283
     text: the ability to uninstall or unpublish actually an an old app um was not available. That is available now
+    check: exact
+  - t: 1302
+    text: So, we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app
     check: exact
   - t: 1389
     text: Well, it's it's currently not possible. I have thought about adding like a setting to allow you to point to a different variable
@@ -513,16 +513,13 @@ quotes:
   - t: 3167
     text: I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for
     check: snapped
-  - t: 3231
-    text: I think majority of people have voted left and uh I don't think there are any more questions.
-    check: exact
 ---
 
 # AL-Go for Github March Office Hour
 
 > AL-Go for GitHub March office hour covering the 6.4 release and version 7 plans: incremental builds, NuGet feed select mode, multi-branch system file updates, publishing from pull requests, code signing options, and Q&A on migrating from Azure DevOps.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HYqjpyHZ84Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-01 · 54:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HYqjpyHZ84Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-01 · 54:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -575,15 +572,14 @@ The second half is Q&A. It covers dependency resolution with GitHub Packages, mi
 |---|---|---|---|
 | Update AL-Go system files on multiple branches | status not stated | [3:00](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=180s) |  |
 | NuGet feed select mode | status not stated | [4:06](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=246s) |  |
-| BC container settings from variables | status not stated | [5:06](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=306s) |  |
-| Publish apps from pull requests | status not stated | [5:42](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=342s) |  |
+| BC container settings from variables | preview | [5:06](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=306s) | "So those things are in preview right now and will also be included in version seven of Elgo for GitHub." ([2:43](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s)) |
+| Publish apps from pull requests | preview | [5:42](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=342s) | "So those things are in preview right now and will also be included in version seven of Elgo for GitHub." ([2:43](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s)) |
 | GitHub Packages for internal dependencies | status not stated | [10:01](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=601s) |  |
 | Incremental builds | generally available, demoed | [14:14](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=854s) | "so I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds." ([14:14](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=854s)) |
 | Runtime packages for AppSource apps | status not stated | [13:21](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=801s) |  |
 | AL-Go workshop for migration | status not stated | [15:19](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=919s) |  |
 | AL-Go settings reference | status not stated | [16:45](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1005s) |  |
-| GitHub NuGet package resolution | status not stated | [17:48](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1068s) |  |
-| Auto-uninstall old app versions | generally available | [21:03](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1263s) | "the ability to uninstall or unpublish actually an an old app um was not available. That is available now" ([21:23](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1283s)) |
+| Auto-uninstall old app versions | status not stated | [21:03](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1263s) |  |
 | Multiple organizational variables | status not stated | [22:53](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1373s) |  |
 | Azure Boards GitHub integration | status not stated | [24:11](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1451s) |  |
 | Smart rebuild on settings changes | status not stated | [26:57](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1617s) |  |
@@ -596,7 +592,6 @@ The second half is Q&A. It covers dependency resolution with GitHub Packages, mi
 | Code signing via Azure Key Vault and net sign | status not stated | [43:54](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=2634s) |  |
 | Create release action | status not stated | [49:42](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=2982s) |  |
 | GitHub discussions for community Q&A | status not stated | [51:33](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3093s) |  |
-| GitHub discussions as alternative to issues | status not stated | [52:47](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3167s) |  |
 
 ## AL objects mentioned
 
@@ -611,16 +606,17 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [1:17](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=77s) "by the way, we also just recorded the launch event video, so in a few days you will be able to see what's new"
 - [1:33](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=93s) "right now we we just launched um version 6.4 a week ago."
+- [2:43](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=163s) "So those things are in preview right now and will also be included in version seven of Elgo for GitHub."
 - [3:45](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=225s) "You can also run it on a schedule which is highly recommended. So you can you can set up this workflow schedule and say"
 - [4:28](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=268s) "The difference between earliest and earliest matching is that the earliest matching is also taking dependencies into consideration."
 - [11:57](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=717s) "We do not have resources to to create algo for GitHub to or ago for Azure DevOps. Um so algo go for GitHub is"
 - [13:21](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=801s) "What we hope is that more and more partners will start um publishing their appsource apps as runtime packages and sharing those with partners"
 - [14:14](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=854s) "I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds"
-- [14:28](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=868s) "you can now set up incremental builds on on push. Um meaning that whenever you you push some modifications to the repo, it will"
 - [14:40](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=880s) "whenever you you push some modifications to the repo, it will only build the apps that you actually modified in that uh push"
 - [14:52](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=892s) "it will also then only deploy that app uh to your environment when it deploys. It'll it'll find the last known good built and"
 - [16:30](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=990s) "probably you'll find that the majority of things that you're already doing is is somehow available in in algo for GitHub as well. Um"
 - [21:23](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1283s) "the ability to uninstall or unpublish actually an an old app um was not available. That is available now"
+- [21:42](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1302s) "So, we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app"
 - [23:09](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1389s) "Well, it's it's currently not possible. I have thought about adding like a setting to allow you to point to a different variable"
 - [26:12](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1572s) "when you have a an incremental build, then it will actually copy the artifacts from the last known good build"
 - [26:57](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=1617s) "we right now we are selecting a full build whenever you make any changes to settings"
@@ -635,7 +631,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [51:53](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3113s) "we've been contemplating using the Q&A section in the descript discussions but haven't really done anything"
 - [52:47](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3167s) "And maybe we should remove the the question template from the issues and point to discussions instead."
 - [52:47](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3167s) "I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for"
-- [53:51](https://www.youtube.com/watch?v=HYqjpyHZ84Q&t=3231s) "I think majority of people have voted left and uh I don't think there are any more questions."
 
 ## Disclaimers in the video
 

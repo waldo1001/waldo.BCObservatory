@@ -142,10 +142,10 @@
     {
       "name": "Input Validation for Workflows",
       "description": "Enhanced input validation in AL-Go workflows, specifically for create release and increment version number workflows. The system now fails early if invalid parameters are provided instead of failing at the end of execution.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 247.5,
+      "status_evidence_quote": "So those were the three things we've added to ALGO in the last month. Right now it's in preview.",
+      "status_evidence_verified": true,
       "t_start": 60,
       "t_end": 101.4,
       "is_demoed": false,
@@ -227,26 +227,6 @@
         "deprecation",
         "local development",
         "devops pipelines"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "AL-Go Version Support Update",
-      "description": "Announcement that AL-Go system file versions 5.0 and lower will stop working. Version 5.0 is approximately one year old.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 303.6,
-      "t_end": 326.2,
-      "is_demoed": false,
-      "caveats": [
-        "Version 5.0 is about one year old",
-        "Users should update system files regularly"
-      ],
-      "tags": [
-        "version support",
-        "maintenance"
       ],
       "system": "platform"
     },
@@ -459,44 +439,6 @@
         "devops pipelines"
       ],
       "system": "platform"
-    },
-    {
-      "name": "AL-Go GitHub Project Ongoing Support",
-      "description": "Microsoft team will continue working on AL-Go with consistent resource allocation despite staffing changes. Sebastian has been added to the team to maintain project momentum.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2470.1,
-      "t_end": 2560.5,
-      "is_demoed": false,
-      "caveats": [
-        "Resource allocation details not publicly disclosed"
-      ],
-      "tags": [
-        "al-go",
-        "devops",
-        "community support"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Engineering Systems Team Oversight",
-      "description": "AL-Go project falls under the engineering systems team. Yonas is the Microsoft manager with responsibility for the project, supported by team members Maria and others.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2714.1,
-      "t_end": 2758,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "al-go",
-        "team structure",
-        "management"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -616,6 +558,12 @@
       "t": 303.6,
       "text": "please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon",
       "why_it_matters": "Critical maintenance guidance about version support cutoffs for AL-Go system files.",
+      "check": "exact"
+    },
+    {
+      "t": 316.2,
+      "text": "5.0 and lower sorry 5.0 will work lower than 5.0 will not work. Uh for reference 5.0 is about a year old now.",
+      "why_it_matters": "States the actual version cutoff: AL-Go versions below 5.0 will stop working.",
       "check": "exact"
     },
     {

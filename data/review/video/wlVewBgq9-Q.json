@@ -1,0 +1,25 @@
+{
+  "video_id": "wlVewBgq9-Q",
+  "item_id": "video/yt-microsoft/wlVewBgq9-Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary included a publish date (2025-05-22) that the transcript does not support; removed it.",
+    "Key point 3 said task numbers are 'defined in setup' and the numbering 'can be customized'. The transcript only says the number sequence is one 'that we define', and the demo uses 100, 200. Reworded to match.",
+    "All quotes are verbatim and useful. Feature statuses are correctly left as unclear because the transcript does not mention preview or GA."
+  ],
+  "input_hash": "f7cc0c6bcffb76820e3ac5f8b7b0eff639d3e526eaef6d1458840b3d747e41a0",
+  "by": "opus",
+  "at": "2026-10-07T22:56:31.363Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04914500000000001
+  }
+}

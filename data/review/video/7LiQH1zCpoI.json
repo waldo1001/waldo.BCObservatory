@@ -1,0 +1,29 @@
+{
+  "video_id": "7LiQH1zCpoI",
+  "item_id": "video/yt-microsoft/7LiQH1zCpoI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript. 'no digital' and 'no' are caption errors for Node4.",
+    "A key point said the business focuses on cloud, AI and security. The transcript says its specialism is Microsoft services, particularly ERP, cloud, AI and security, so I corrected that key point.",
+    "Missing facts: the initial request was to hire about seven people, and pre-vetted candidates were in interviews within two weeks. I added both as key points and quotes.",
+    "The systems tags 'crm', 'sales' and 'development' are not supported by the transcript, which only discusses recruiting Business Central and ERP consultants. These fields cannot be edited here.",
+    "No product features are discussed, so the empty features list is correct."
+  ],
+  "input_hash": "99a02a6da83f2e00fc157f66386803f464f5e6500dcd69a4abebf391e24d60f2",
+  "by": "opus",
+  "at": "2026-10-07T22:56:10.277Z",
+  "applied": [
+    "quote at 25s",
+    "quote at 35s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05457700000000001
+  }
+}

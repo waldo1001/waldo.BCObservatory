@@ -1,15 +1,15 @@
 {
   "video_id": "PeI-Jv4KVn8",
   "item_id": "video/yt-microsoft/PeI-Jv4KVn8",
-  "summary": "Copilot-based maintenance intake by Zig, shown in a short demo. A user describes an issue in natural language, with an image, or both, and Copilot analyzes the input and creates a maintenance request with possible fixes. The video is evidence for image-based intake and the stored attachment with an AI explanation.",
+  "summary": "Short demo by Zig of a Copilot solution for maintenance intake: from a real estate unit looked up by address, a user starts the intake with an image, text, or both, and Copilot analyzes it and proposes tasks. The user reviews the explanation for the chosen task and confirms it, which creates the maintenance request. The attachments then hold the source image and the AI's explanation of what it sees.",
   "overview": "The video presents a Copilot solution for maintenance intake, motivated by a tenant reporting an issue in a house. Intake can start from natural language, an image, or a combination of both.\n\nIn the demo, the intake starts with an image. Copilot analyzes it, works out the problem, and generates tasks and possible solutions in a maintenance request. In the request's attachments, the image is stored together with an explanation of what the AI sees in it. The video is about one minute long.",
   "key_points": [
-    "The Copilot solution handles maintenance intake from natural language, an image, or both together.",
-    "Copilot analyzes the input and creates a maintenance request with possible solutions for the fix.",
-    "The demo starts the intake with an image of the issue.",
-    "Copilot looks at the image and suggests possible solutions and generates tasks.",
-    "The maintenance request attachments hold the image and an AI explanation of what it sees in the image.",
-    "The example scenario is a tenant reporting an issue around the house."
+    "The scenario is a tenant reporting an issue around the house. The old wizard-based intake was described as technical and knowledge-heavy.",
+    "The Copilot solution does the intake from natural language, an image, or both, and proposes a possible solution for the fix.",
+    "The intake starts from a real estate unit that the user looks up by address.",
+    "In the demo, an image of a broken door is used; after Generate, Copilot analyzes the image and suggests possible solutions.",
+    "The user can check the explanation of why a task was chosen and confirm it, which creates the maintenance request.",
+    "The request's attachments show the source image and an AI explanation of what it sees in the image."
   ],
   "audience": [
     "functional consultant",

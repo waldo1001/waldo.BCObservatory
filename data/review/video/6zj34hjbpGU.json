@@ -1,0 +1,26 @@
+{
+  "video_id": "6zj34hjbpGU",
+  "item_id": "video/yt-microsoft/6zj34hjbpGU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gave a publication date (2025-05-22) that the transcript does not contain, so I removed it.",
+    "All 6 quotes match the transcript word for word.",
+    "All 7 features are supported by the transcript. None of them has a status statement, so 'unclear' is correct for each.",
+    "Small inconsistency in the video itself: the narration says it will update the document sending profile, but the demo updates the location code. The page does not depend on either one, so no change was needed.",
+    "The key point calls Customer Ledger Entries a 'table'. That is a slight inference, but the narration does name customer ledger entries as the data source, so I kept it."
+  ],
+  "input_hash": "a927b869220abf064737c3251a095dd21c8319b56a18429a98fb88333e6db22a",
+  "by": "opus",
+  "at": "2026-10-07T22:56:32.778Z",
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043901
+  }
+}

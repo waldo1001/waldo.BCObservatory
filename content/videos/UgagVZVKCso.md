@@ -2,7 +2,7 @@
 id: video/UgagVZVKCso
 type: video
 title: Business Central Partner Learnings from the Red Carpet Copilot Program
-summary: "Partner learnings from the Red Carpet Copilot Program for building Business Central copilots: defining use cases is the hard first step, prompt engineering and continuous testing take the most time, and the work needs a focused team effort."
+summary: "Partner learnings from the Red Carpet Copilot Program: the hardest step is getting started and defining use cases. Prompt engineering and continuous testing were the biggest learnings and challenges, and the speakers recommend automated tests. Building copilot should be a focused team effort that starts small and grows."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - use cases
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:05.770Z"
   flags: []
 generated:
-  at: "2026-10-06T18:32:54.168Z"
+  at: "2026-10-07T22:56:05.808Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 46
     quote: It requires continuous testing to make sure that you have the best prompt for co-pilot to deliver the best answers for your customers.
+  - kind: video
+    url: https://www.youtube.com/watch?v=UgagVZVKCso&t=59s
+    title: Business Central Partner Learnings from the Red Carpet Copilot Program
+    date: "2025-08-04T15:18:39.000Z"
+    commit: null
+    t: 59
+    quote: It's also important to have automated test in place to ensure that in the future your co-pilot function works just as you envisioned it
   - kind: video
     url: https://www.youtube.com/watch?v=UgagVZVKCso&t=70s
     title: Business Central Partner Learnings from the Red Carpet Copilot Program
@@ -134,6 +141,9 @@ quotes:
   - t: 46
     text: It requires continuous testing to make sure that you have the best prompt for co-pilot to deliver the best answers for your customers.
     check: exact
+  - t: 59
+    text: It's also important to have automated test in place to ensure that in the future your co-pilot function works just as you envisioned it
+    check: exact
   - t: 70
     text: Most important thing to consider when building co-pilot is working together as a team and really make it a focused effort for your organization.
     check: exact
@@ -141,9 +151,9 @@ quotes:
 
 # Business Central Partner Learnings from the Red Carpet Copilot Program
 
-> Partner learnings from the Red Carpet Copilot Program for building Business Central copilots: defining use cases is the hard first step, prompt engineering and continuous testing take the most time, and the work needs a focused team effort.
+> Partner learnings from the Red Carpet Copilot Program: the hardest step is getting started and defining use cases. Prompt engineering and continuous testing were the biggest learnings and challenges, and the speakers recommend automated tests. Building copilot should be a focused team effort that starts small and grows.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UgagVZVKCso) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UgagVZVKCso) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-04 · 1:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -153,13 +163,13 @@ The partner says the main effort in building a copilot function is prompt engine
 
 ## Key points
 
-- The Red Carpet Copilot Program helps partners turn concepts and ideas into AI-powered solutions for clients.
+- The Red Carpet Copilot Program helps partners turn concepts and ideas into solutions their clients can actually use.
 - Getting started is the biggest challenge, and partners struggle with defining use cases.
 - The speaker says the difficulty is envisioning how to approach problems with AI, not the technical side.
-- Prompt engineering is time-consuming and was one of the biggest learnings.
-- Continuous testing is needed to find the best prompt so copilot gives the best answers to customers.
-- Automated tests are used to confirm copilot functions keep working as envisioned over time.
-- Build copilots as a team and make it a focused effort for the whole organization.
+- Prompt engineering, and the time it takes, was one of the biggest learnings.
+- Testing is called the biggest challenge in building an effective copilot function. Continuous testing is needed to find the best prompt.
+- Speakers recommend having automated tests in place so the copilot function keeps working as originally envisioned.
+- Build copilots as a team, make it a focused effort for the organization, start with small steps and then grow.
 
 ## Chapters
 
@@ -171,11 +181,11 @@ The partner says the main effort in building a copilot function is prompt engine
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Red Carpet Copilot Program | status not stated | [0:02](https://www.youtube.com/watch?v=UgagVZVKCso&t=2s) |  |
-| Copilot Function with Prompt Engineering | status not stated | [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) |  |
-| Automated Testing for Copilot | status not stated | [0:59](https://www.youtube.com/watch?v=UgagVZVKCso&t=59s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Red Carpet Copilot Program | status not stated | [0:02](https://www.youtube.com/watch?v=UgagVZVKCso&t=2s) |
+| Copilot Function with Prompt Engineering | status not stated | [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) |
+| Automated Testing for Copilot | status not stated | [0:59](https://www.youtube.com/watch?v=UgagVZVKCso&t=59s) |
 
 ## Quotes
 
@@ -184,6 +194,7 @@ The partner says the main effort in building a copilot function is prompt engine
 - [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) "We can now approach problems with AI. It's not the technical thing, it's the envisioning."
 - [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) "So our biggest learnings so far have been really the prompt engineering and the time that it takes to do that as well as"
 - [0:46](https://www.youtube.com/watch?v=UgagVZVKCso&t=46s) "It requires continuous testing to make sure that you have the best prompt for co-pilot to deliver the best answers for your customers."
+- [0:59](https://www.youtube.com/watch?v=UgagVZVKCso&t=59s) "It's also important to have automated test in place to ensure that in the future your co-pilot function works just as you envisioned it"
 - [1:10](https://www.youtube.com/watch?v=UgagVZVKCso&t=70s) "Most important thing to consider when building co-pilot is working together as a team and really make it a focused effort for your organization."
 
 Presenters (as heard): Partner 1, Partner 2.

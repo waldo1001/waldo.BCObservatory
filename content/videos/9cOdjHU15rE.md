@@ -2,7 +2,7 @@
 id: video/9cOdjHU15rE
 type: video
 title: "#BCTalent and AI: A Learner’s Guide"
-summary: "AI career guidance for Business Central consultants and developers, from the #BCTalent program talk with Dona Sarkar (published 2025-08-19). It covers Copilot item description generation, the BC Sales Agent, Copilot Studio connectivity, and an announced adaptive UX, plus the skills to build."
+summary: "AI career guidance for Business Central consultants and developers: a #BCTalent program conversation between Sam Cook and Dona Sarkar. It touches on Copilot item copy generation, the BC Sales Agent, Copilot Studio connectivity and an expected shift to adaptive UX. It also covers skills to build: prompting, connecting dots, knowing the SMB customer, and going one level deeper in the stack."
 tier: official
 language: en
 tags:
@@ -18,25 +18,18 @@ tags:
   - adaptive ux
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:51.543Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:51.587Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d220ed235f1dd97895e0f5c1d45be4cbc82b393932774a9ccc4950bb70d7a5f0
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s
-    title: "Adaptive UX based on AI interaction: announced"
-    date: "2025-08-19T12:41:34.000Z"
-    commit: null
-    t: 741
-    quote: the UX will be adjusted based on the interaction that you're having. So, uploading an item will be a different experience than showing someone
   - kind: video
     url: https://www.youtube.com/watch?v=9cOdjHU15rE&t=227s
     title: "#BCTalent and AI: A Learner’s Guide"
@@ -144,9 +137,9 @@ features:
     verified: false
     status_source: video
   - name: Adaptive UX based on AI interaction
-    status: announced
+    status: unclear
     t: 741
-    verified: true
+    verified: false
     status_source: video
   - name: Multiple AI copilot features throughout BC
     status: unclear
@@ -183,9 +176,9 @@ quotes:
 
 # #BCTalent and AI: A Learner’s Guide
 
-> AI career guidance for Business Central consultants and developers, from the #BCTalent program talk with Dona Sarkar (published 2025-08-19). It covers Copilot item description generation, the BC Sales Agent, Copilot Studio connectivity, and an announced adaptive UX, plus the skills to build.
+> AI career guidance for Business Central consultants and developers: a #BCTalent program conversation between Sam Cook and Dona Sarkar. It touches on Copilot item copy generation, the BC Sales Agent, Copilot Studio connectivity and an expected shift to adaptive UX. It also covers skills to build: prompting, connecting dots, knowing the SMB customer, and going one level deeper in the stack.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9cOdjHU15rE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-19 · 16:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9cOdjHU15rE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-19 · 16:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -195,12 +188,12 @@ The talk shows the BC copilot generating item descriptions from copy already wri
 
 ## Key points
 
-- The BC copilot generates item copy and descriptions for new inventory based on existing copy already in the system; this was demoed.
-- BC was described as one of the first places in the BizApps world to get inbox AI and copilots integrated, including the BC Sales Agent.
+- The BC copilot generates item copy for new inventory based on copy already written; the speaker describes this from using BC for her own retail business.
+- BC was described as one of the first places in the BizApps world to get inbox AI and copilots integrated, with the BC Sales Agent named as an example.
 - Business Central can connect with Copilot Studio to run website chatbots that pull data from BC; security and guardrails are named as concerns.
-- Adaptive UX is announced as a future direction: the experience adjusts to the interaction, for example a different starting point for uploading an item than for showing one.
+- Adaptive UX is described as an expected future direction for apps, including BC: the experience adjusts to the interaction, for example a different starting point for uploading an item than for showing one.
 - New AI and copilot features keep being added throughout Business Central, and users may not know about all of them.
-- Skills named for careers: prompting, connecting dots across systems, and moving one level deeper in the stack.
+- Skills named for careers: prompting, connecting dots across systems, knowing the SMB customer, and moving one level deeper in the stack.
 - The speaker describes the AI industry as early, comparing it to the Nokia flip phone era.
 
 ## Chapters
@@ -218,13 +211,13 @@ The talk shows the BC copilot generating item descriptions from copy already wri
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Copilot for item description generation | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=9cOdjHU15rE&t=407s) |  |
-| BC Sales Agent | status not stated | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |  |
-| Copilot Studio integration | status not stated | [14:00](https://www.youtube.com/watch?v=9cOdjHU15rE&t=840s) |  |
-| Adaptive UX based on AI interaction | announced | [12:21](https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s) | "the UX will be adjusted based on the interaction that you're having. So, uploading an item will be a different experience than showing someone" ([12:21](https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s)) |
-| Multiple AI copilot features throughout BC | status not stated | [7:28](https://www.youtube.com/watch?v=9cOdjHU15rE&t=448s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Copilot for item description generation | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=9cOdjHU15rE&t=407s) |
+| BC Sales Agent | status not stated | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |
+| Copilot Studio integration | status not stated | [14:00](https://www.youtube.com/watch?v=9cOdjHU15rE&t=840s) |
+| Adaptive UX based on AI interaction | status not stated | [12:21](https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s) |
+| Multiple AI copilot features throughout BC | status not stated | [7:28](https://www.youtube.com/watch?v=9cOdjHU15rE&t=448s) |
 
 ## AL objects mentioned
 

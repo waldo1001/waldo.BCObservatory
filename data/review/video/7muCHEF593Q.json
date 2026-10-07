@@ -1,0 +1,28 @@
+{
+  "video_id": "7muCHEF593Q",
+  "item_id": "video/yt-microsoft/7muCHEF593Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'May 2025', but the transcript does not support that date. Only the title mentions 2025. I removed it from the summary.",
+    "The key point and the Keyboard Shortcuts feature description say Alt-J-S opens sales quotes. The transcript says J and S open sales, then S again opens sales quotes. I corrected the key point and added a quote. The feature description still has the old wording and needs a manual fix.",
+    "The chapter 'Accountant and Sales/Relationships Homepages' (28 to 49.2) ends where the sales homepage begins (49.2), so the title is slightly misaligned. Chapters cannot be edited here.",
+    "All the existing quotes are verbatim, allowing for caption spans that run into the next segment. 'Account and homepage' is a caption error for 'accountant homepage', but it is verbatim.",
+    "All features are marked unclear, which is correct because the transcript makes no preview or GA statements."
+  ],
+  "input_hash": "d968f1b95d777f61d071d8cffa0aebcb94720685ab087784b89d2c6100e2075c",
+  "by": "opus",
+  "at": "2026-10-07T22:56:39.674Z",
+  "applied": [
+    "quote at 131s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05944100000000001
+  }
+}

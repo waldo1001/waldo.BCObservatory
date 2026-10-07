@@ -1,15 +1,15 @@
 {
   "video_id": "UGmL665HtzE",
   "item_id": "video/yt-microsoft/UGmL665HtzE",
-  "summary": "AL-Go for GitHub June 2025 office hour: version 7.2 shipped, and three features in preview (telemetry starter dashboard, custom template repositories, custom jobs) are expected in 7.3. Also warns that AL-Go versions lower than 5.0 will break soon.",
+  "summary": "AL-Go for GitHub June office hour: features previewed last month have now shipped in version 7.2. Three new preview features are expected in 7.3: a starter Azure Data Explorer dashboard for AL-Go telemetry, custom template repositories and custom jobs. The session also warns that AL-Go versions lower than 5.0 will break very soon.",
   "overview": "The session covers AL-Go for GitHub version 7.2, which contains features that were previously in preview. It then walks through three features that are in preview and not part of 7.2, with the speakers saying they will be available in 7.3.\n\nThe preview features are a starter Azure Data Explorer dashboard for AL-Go telemetry, custom template repositories, and custom jobs in AL-Go workflows. All three were demoed. The session ends with a notice that AL-Go versions lower than 5.0 will break very soon, followed by Q&A.",
   "key_points": [
-    "AL-Go 7.2 has been shipped and includes features that were earlier in preview, with improvements to workflows and system file management.",
-    "The starter telemetry dashboard is in preview. It is an Azure Data Explorer report showing running workflows, failures, runner usage, AL-Go versions and deprecated settings. You download a JSON file from the repository and fill in the configuration.",
-    "Custom template repositories are in preview. They let you put your own template repository in the middle, to spawn repositories with custom scripts or workflows, like AL-Go PTE or AL-Go AppSource. Changes sync when you run update AL-Go system files.",
-    "Custom jobs are in preview. You add them to AL-Go workflow YAML files by prefixing the job name with custom-job-.",
-    "Custom jobs should be used carefully. Job names or YAML files may change in future versions and break customizations, so review changes when updating system files.",
-    "The three preview features are not in 7.2 but are expected in 7.3.",
+    "AL-Go 7.2 has shipped and includes the features that were in preview last month. See the AL-Go release notes for details.",
+    "The starter telemetry dashboard is in preview. It is a plug-and-play Azure Data Explorer report that connects to Application Insights and shows running workflows, failures, minutes on GitHub-hosted versus self-hosted runners, AL-Go versions per repo and deprecated settings. You download a JSON file from the AL-Go repository and fill in a couple of things.",
+    "Custom template repositories are in preview. You can put your own template repository between AL-Go PTE or AppSource and your repos, so custom scripts and workflows propagate when you run update AL-Go system files.",
+    "Custom jobs are in preview. You add them to the AL-Go workflow YAML files by prefixing the job name with custom-job-.",
+    "Use custom jobs carefully. AL-Go may rename jobs or change its YAML files and break customizations, so review the changes whenever you update system files.",
+    "The three preview features are not in 7.2 but are expected in 7.3. To use them now, upgrade to preview.",
     "If you run an AL-Go version lower than 5.0, upgrade, because it will break very soon."
   ],
   "audience": [

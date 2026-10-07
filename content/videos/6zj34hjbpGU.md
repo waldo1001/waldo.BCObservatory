@@ -2,7 +2,7 @@
 id: video/6zj34hjbpGU
 type: video
 title: How Business Central Integrates with Microsoft Excel (2025)
-summary: "Business Central's Excel integration: exporting list page data, opening or editing it in Excel, building pivot tables and charts on refreshable data, and publishing bulk edits back through the Excel add-in pane. Demoed in a 3-minute video published 2025-05-22."
+summary: "Business Central's Excel integration: exporting list page data, opening or editing it in Excel (web or Windows app), building pivot tables and charts on data that can be refreshed, and publishing bulk edits back through the Excel add-in pane. Demoed in a 3-minute walkthrough using customer ledger entries and the customer list."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - financial data
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:32.778Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:32.816Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -166,9 +166,9 @@ quotes:
 
 # How Business Central Integrates with Microsoft Excel (2025)
 
-> Business Central's Excel integration: exporting list page data, opening or editing it in Excel, building pivot tables and charts on refreshable data, and publishing bulk edits back through the Excel add-in pane. Demoed in a 3-minute video published 2025-05-22.
+> Business Central's Excel integration: exporting list page data, opening or editing it in Excel (web or Windows app), building pivot tables and charts on data that can be refreshed, and publishing bulk edits back through the Excel add-in pane. Demoed in a 3-minute walkthrough using customer ledger entries and the customer list.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6zj34hjbpGU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:57 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6zj34hjbpGU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:57 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,15 +196,15 @@ The demo builds a pivot table of quarterly sales by customer and adds a pivot ch
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Export data to Excel | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=6zj34hjbpGU&t=0s) |  |
-| Open or Edit in Excel option | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=6zj34hjbpGU&t=31s) |  |
-| Pivot table creation | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=6zj34hjbpGU&t=57s) |  |
-| Pivot chart visualization | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6zj34hjbpGU&t=78s) |  |
-| Data connection refresh | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=6zj34hjbpGU&t=90s) |  |
-| Bulk update in Excel | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s) |  |
-| Excel addin pane | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=6zj34hjbpGU&t=124s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Export data to Excel | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=6zj34hjbpGU&t=0s) |
+| Open or Edit in Excel option | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=6zj34hjbpGU&t=31s) |
+| Pivot table creation | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=6zj34hjbpGU&t=57s) |
+| Pivot chart visualization | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6zj34hjbpGU&t=78s) |
+| Data connection refresh | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=6zj34hjbpGU&t=90s) |
+| Bulk update in Excel | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s) |
+| Excel addin pane | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=6zj34hjbpGU&t=124s) |
 
 ## AL objects mentioned
 

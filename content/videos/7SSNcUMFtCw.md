@@ -20,18 +20,32 @@ tags:
   - responsible ai
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:08.282Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:08.326Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 1a40c6a2793d2e6ec1d053429fa3e91ac5a1becd1d823c2a0fefb9df2c6dbe4b
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=7SSNcUMFtCw&t=39s
+    title: "Business Central AI Resources: preview"
+    date: "2025-06-06T10:00:12.000Z"
+    commit: null
+    t: 39
+    quote: we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview
+  - kind: video
+    url: https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1026s
+    title: "Consumption-based billing for AI resource use: announced"
+    date: "2025-06-06T10:00:12.000Z"
+    commit: null
+    t: 1026
+    quote: So this will be a consumptionbased uh approach where the customers will build directly from Microsoft.
   - kind: video
     url: https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s
     title: "Embeddings support: announced"
@@ -193,14 +207,14 @@ chapters:
     title: Resources and Closing
 features:
   - name: Business Central AI Resources
-    status: unclear
+    status: preview
     t: 6
-    verified: false
+    verified: true
     status_source: video
   - name: Consumption-based billing for AI resource use
-    status: unclear
+    status: announced
     t: 56
-    verified: false
+    verified: true
     status_source: video
   - name: Content safety with blocking policy
     status: unclear
@@ -317,7 +331,7 @@ quotes:
 
 > Business Central AI Resources in 2025 release wave 1: Microsoft-managed Azure OpenAI (GPT-4o, GPT-4o mini) for publishers in SaaS production, moving from private to public preview, with consumption-based direct billing being added. Covers content safety, data privacy, bring-your-own subscription, AL patterns and model deprecation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7SSNcUMFtCw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-06-06 · 22:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=7SSNcUMFtCw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-06-06 · 22:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -354,8 +368,8 @@ It then covers how developers use them. The set managed resource authorization f
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Business Central AI Resources | status not stated | [0:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=6s) |  |
-| Consumption-based billing for AI resource use | status not stated | [0:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=56s) |  |
+| Business Central AI Resources | preview | [0:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=6s) | "we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview" ([0:39](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=39s)) |
+| Consumption-based billing for AI resource use | announced | [0:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=56s) | "So this will be a consumptionbased uh approach where the customers will build directly from Microsoft." ([17:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1026s)) |
 | Content safety with blocking policy | status not stated | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
 | Set managed resource authorization function | status not stated, demoed | [8:09](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=489s) |  |
 | Bring your own Azure OpenAI subscription | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=83s) |  |

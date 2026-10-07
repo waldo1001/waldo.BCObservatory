@@ -1,0 +1,29 @@
+{
+  "video_id": "X3xygXmgRqU",
+  "item_id": "video/yt-microsoft/X3xygXmgRqU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary gives a publication date (2025-05-22) that the transcript doesn't contain, and calls a 155-second video '3-minute'. Rewrote the summary.",
+    "Two features were marked 'ga' with quotes that only describe what the feature does and don't state a release status. Set both to unclear.",
+    "Some key points went beyond the transcript. 'Automatically' for the default customer location is not stated. The posting group's purpose is inferred. The transcript says the ship-from location is set on the item card, not on sales documents. Rewrote these points.",
+    "Key points left out the out-of-stock notification and the availability check in other locations. Added both, plus a quote for the notification."
+  ],
+  "input_hash": "46a9c6b33a2ce23fd1ef7b4c65447832ffa9ba9e7f57d027d26ce79425868f71",
+  "by": "opus",
+  "at": "2026-10-07T22:56:28.112Z",
+  "applied": [
+    "Location Specification in Sales Documents: status unclear",
+    "Default Location on Customer Card: status unclear",
+    "quote at 123s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.060137
+  }
+}

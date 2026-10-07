@@ -2,7 +2,7 @@
 id: video/y4yexz_hWPc
 type: video
 title: "#BCTalent in APAC: Bridging the Talent Gap Together"
-summary: "The BC Talent program in Australia, as described by a Business Central partner: it helps partners recruit and train consultants who have industry experience and Business Central skills. The video is a short partner testimonial on scaling teams and the program's role in enablement strategy."
+summary: A Business Central partner in Australia gives a short testimonial on the BC Talent program. The program helps partners get consultants who have industry experience and Business Central training, brings them up to speed quickly and takes pressure off existing teams. The speaker hopes it will become a key part of every partner's enablement strategy for upskilling, reskilling and recruiting.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - business central skills
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:47.329Z"
   flags: []
 generated:
-  at: "2026-10-06T18:35:26.172Z"
+  at: "2026-10-07T22:56:47.372Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     commit: null
     t: 36
     quote: It enables us to get consultants that have industry experience and also are trained up in business central.
+  - kind: video
+    url: https://www.youtube.com/watch?v=y4yexz_hWPc&t=47s
+    title: "#BCTalent in APAC: Bridging the Talent Gap Together"
+    date: "2025-05-08T02:20:03.000Z"
+    commit: null
+    t: 47
+    quote: It brings consultants up to speed really quickly. It also helps taking the pressure off the existing team
   - kind: video
     url: https://www.youtube.com/watch?v=y4yexz_hWPc&t=58s
     title: "#BCTalent in APAC: Bridging the Talent Gap Together"
@@ -98,11 +105,6 @@ features:
     t: 6
     verified: false
     status_source: video
-  - name: BC Talent program enablement strategy
-    status: unclear
-    t: 58
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 6
@@ -117,6 +119,9 @@ quotes:
   - t: 36
     text: It enables us to get consultants that have industry experience and also are trained up in business central.
     check: exact
+  - t: 47
+    text: It brings consultants up to speed really quickly. It also helps taking the pressure off the existing team
+    check: exact
   - t: 58
     text: I see a future where the BC Talent program is a critical component of the enablement strategy of all business central partners.
     check: exact
@@ -124,9 +129,9 @@ quotes:
 
 # #BCTalent in APAC: Bridging the Talent Gap Together
 
-> The BC Talent program in Australia, as described by a Business Central partner: it helps partners recruit and train consultants who have industry experience and Business Central skills. The video is a short partner testimonial on scaling teams and the program's role in enablement strategy.
+> A Business Central partner in Australia gives a short testimonial on the BC Talent program. The program helps partners get consultants who have industry experience and Business Central training, brings them up to speed quickly and takes pressure off existing teams. The speaker hopes it will become a key part of every partner's enablement strategy for upskilling, reskilling and recruiting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=y4yexz_hWPc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-08 · 1:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=y4yexz_hWPc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-08 · 1:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -136,12 +141,13 @@ The speaker says the program is changing how they construct their Business Centr
 
 ## Key points
 
-- BC Talent program is available in Australia, and the partner in the video joined when it launched there.
-- The program helps partners recruit and train consultants who have industry experience and Business Central skills.
-- It brings candidates up to speed quickly and supports both recruitment and reskilling.
-- The speaker says it is changing how their Business Central teams are constructed and onboarded.
-- The speaker's stated problem was competing for the same resources, which made scaling almost impossible.
-- The speaker sees it as a critical part of all partners' enablement strategy in future. This is a vision, not current universal practice.
+- The speaker's problem was that partners kept competing for the same resources, which made scaling their team almost impossible.
+- When the partner heard the BC Talent program was available in Australia, they joined right away.
+- Within a few weeks, their candidate was successfully supporting customers and projects. The first two people through the program were a great success.
+- The program gives partners consultants who have industry experience and Business Central training, and it brings them up to speed quickly.
+- The program's structure supports new hires and gives them good education, which takes pressure off the existing team.
+- The speaker says it is changing how they build their Business Central teams.
+- The speaker hopes it becomes a critical part of every partner's enablement strategy, whether for upskilling, reskilling or recruiting. This is a vision, not current practice.
 
 ## Chapters
 
@@ -153,10 +159,9 @@ The speaker says the program is changing how they construct their Business Centr
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Talent program | status not stated | [0:06](https://www.youtube.com/watch?v=y4yexz_hWPc&t=6s) |  |
-| BC Talent program enablement strategy | status not stated | [0:58](https://www.youtube.com/watch?v=y4yexz_hWPc&t=58s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Talent program | status not stated | [0:06](https://www.youtube.com/watch?v=y4yexz_hWPc&t=6s) |
 
 ## Quotes
 
@@ -164,6 +169,7 @@ The speaker says the program is changing how they construct their Business Centr
 - [0:14](https://www.youtube.com/watch?v=y4yexz_hWPc&t=14s) "When we first heard it was available in Australia, we had to jump on the opportunity."
 - [0:28](https://www.youtube.com/watch?v=y4yexz_hWPc&t=28s) "This program is changing the way that we construct our business central teams."
 - [0:36](https://www.youtube.com/watch?v=y4yexz_hWPc&t=36s) "It enables us to get consultants that have industry experience and also are trained up in business central."
+- [0:47](https://www.youtube.com/watch?v=y4yexz_hWPc&t=47s) "It brings consultants up to speed really quickly. It also helps taking the pressure off the existing team"
 - [0:58](https://www.youtube.com/watch?v=y4yexz_hWPc&t=58s) "I see a future where the BC Talent program is a critical component of the enablement strategy of all business central partners."
 
 Presenters (as heard): Unknown speaker 1, Unknown speaker 2.

@@ -1,0 +1,23 @@
+{
+  "video_id": "QK-Qsh_6YL4",
+  "item_id": "video/yt-microsoft/QK-Qsh_6YL4",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim spans of the transcript.",
+    "Summary and key points match the transcript. The phrase 'manually review and adjust' slightly paraphrases 'review and adjust' but does not misstate it.",
+    "All features are marked unclear, which is correct: the video never says whether they are preview or GA.",
+    "The app name 'Prime Time' comes from the captions; the vendor spelling is Pryme, so the app may actually be spelled differently."
+  ],
+  "input_hash": "520ea2bece130f309badeea64b9545e1a3d7877fb06a43391c80911ab5f6d953",
+  "by": "opus",
+  "at": "2026-10-07T22:55:53.910Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029804999999999998
+  }
+}

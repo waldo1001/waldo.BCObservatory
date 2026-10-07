@@ -216,6 +216,18 @@
       "text": "If you make a mistake, you can always reverse journal entries.",
       "why_it_matters": "Demonstrates flexibility in error correction for posted entries",
       "check": "exact"
+    },
+    {
+      "t": 127.8,
+      "text": "Find the entry usually by searching the GL registers. Then use the reverse register action.",
+      "why_it_matters": "Names the steps for reversing posted journal entries.",
+      "check": "exact"
+    },
+    {
+      "t": 141.4,
+      "text": "You can always leave and come back to a journal. No need to save your work.",
+      "why_it_matters": "Shows that journal lines persist without an explicit save, which is useful usage guidance.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

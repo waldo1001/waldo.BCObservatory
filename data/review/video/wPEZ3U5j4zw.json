@@ -1,0 +1,28 @@
+{
+  "video_id": "wPEZ3U5j4zw",
+  "item_id": "video/yt-microsoft/wPEZ3U5j4zw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The feature 'Automatic scheduling upon release for unreleased versions' was marked ga, but its evidence quote only describes the 14-day automatic scheduling and says nothing about release status. I changed it to unclear.",
+    "The GA claim for flexible update management (t=6.5) and the global availability claim (t=293.2) are both stated directly in the transcript.",
+    "The key points and summary match the transcript.",
+    "The quote at t=141.2 ends mid-sentence but is verbatim, so I kept it.",
+    "The chapter title '2025 update calendar and global availability' starts at 215.5, which is actually where the any-version environment creation is discussed. This is a minor mismatch.",
+    "I added a quote about the legacy API, which the page was missing."
+  ],
+  "input_hash": "fa66e0a4db744ff1fb8b152ac9404930b9113c443f398c761cf0862384a5bcc9",
+  "by": "opus",
+  "at": "2026-10-07T22:57:19.872Z",
+  "applied": [
+    "Automatic scheduling upon release for unreleased versions: status unclear",
+    "quote at 313s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.084961
+  }
+}

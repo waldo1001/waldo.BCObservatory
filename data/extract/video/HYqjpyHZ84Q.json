@@ -198,10 +198,10 @@
     {
       "name": "BC container settings from variables",
       "description": "BC container helper settings can now be read from settings variables (org settings and repo settings), including global settings like memory limits, in addition to repository settings files.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 163,
+      "status_evidence_quote": "So those things are in preview right now and will also be included in version seven of Elgo for GitHub.",
+      "status_evidence_verified": true,
       "t_start": 306.4,
       "t_end": 326.3,
       "is_demoed": false,
@@ -216,10 +216,10 @@
     {
       "name": "Publish apps from pull requests",
       "description": "Ability to publish artifacts from a pull request to an environment for manual testing and code review before approving. Uses PR_[number] syntax in publish to environment workflow, with default artifact retention of one day.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 163,
+      "status_evidence_quote": "So those things are in preview right now and will also be included in version seven of Elgo for GitHub.",
+      "status_evidence_verified": true,
       "t_start": 342.7,
       "t_end": 417.1,
       "is_demoed": false,
@@ -339,34 +339,12 @@
       "system": "platform"
     },
     {
-      "name": "GitHub NuGet package resolution",
-      "description": "Method to obtain partner apps individually via GitHub NuGet, addressing issues with dependency resolution for indirect dependencies that cause searches to abort.",
+      "name": "Auto-uninstall old app versions",
+      "description": "Automatically unpublish old app versions when deploying, preventing multiple versions of the same app from being published to the environment.",
       "status": "unclear",
       "status_evidence_t": null,
       "status_evidence_quote": null,
       "status_evidence_verified": false,
-      "t_start": 1068,
-      "t_end": 1117.5,
-      "is_demoed": false,
-      "caveats": [
-        "Indirect dependency resolution issues",
-        "Performance problems with long search times"
-      ],
-      "tags": [
-        "dependencies",
-        "github",
-        "nuget",
-        "runtime-packages"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Auto-uninstall old app versions",
-      "description": "Automatically unpublish old app versions when deploying, preventing multiple versions of the same app from being published to the environment.",
-      "status": "ga",
-      "status_evidence_t": 1283.6,
-      "status_evidence_quote": "the ability to uninstall or unpublish actually an an old app um was not available. That is available now",
-      "status_evidence_verified": true,
       "t_start": 1263.4,
       "t_end": 1329,
       "is_demoed": false,
@@ -632,26 +610,6 @@
         "q&a"
       ],
       "system": "platform"
-    },
-    {
-      "name": "GitHub discussions as alternative to issues",
-      "description": "Proposal to remove question template from issues and point users to discussions instead for better community engagement and faster response times.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3167.8,
-      "t_end": 3204.2,
-      "is_demoed": false,
-      "caveats": [
-        "Requires more active monitoring of discussions by maintainers"
-      ],
-      "tags": [
-        "github",
-        "community",
-        "issue-management"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -736,6 +694,12 @@
       "check": "exact"
     },
     {
+      "t": 163,
+      "text": "So those things are in preview right now and will also be included in version seven of Elgo for GitHub.",
+      "why_it_matters": "States that BC container settings from variables and publishing from a pull request are in preview and will be included in version 7.",
+      "check": "exact"
+    },
+    {
       "t": 225.8,
       "text": "You can also run it on a schedule which is highly recommended. So you can you can set up this workflow schedule and say",
       "why_it_matters": "Provides practical guidance on recommended usage pattern for multi-branch updates",
@@ -766,12 +730,6 @@
       "check": "exact"
     },
     {
-      "t": 868,
-      "text": "you can now set up incremental builds on on push. Um meaning that whenever you you push some modifications to the repo, it will",
-      "why_it_matters": "Describes key efficiency improvement for multi-app repositories",
-      "check": "exact"
-    },
-    {
       "t": 880.9,
       "text": "whenever you you push some modifications to the repo, it will only build the apps that you actually modified in that uh push",
       "why_it_matters": "Describes the core behavior of incremental builds - selective compilation based on actual changes.",
@@ -793,6 +751,12 @@
       "t": 1283.6,
       "text": "the ability to uninstall or unpublish actually an an old app um was not available. That is available now",
       "why_it_matters": "Marks the availability of the uninstall capability in Business Central as a recent prerequisite for AL-Go implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1302,
+      "text": "So, we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app",
+      "why_it_matters": "Shows that auto-unpublishing old apps is a possible future AL-Go change, not a shipped feature.",
       "check": "exact"
     },
     {
@@ -878,12 +842,6 @@
       "text": "I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for",
       "why_it_matters": "Acknowledges that maintainer responsiveness affects where users ask questions.",
       "check": "snapped"
-    },
-    {
-      "t": 3231.8,
-      "text": "I think majority of people have voted left and uh I don't think there are any more questions.",
-      "why_it_matters": "Indicates conclusion of voting or poll on a decision affecting the community.",
-      "check": "exact"
     }
   ],
   "disclaimers": [

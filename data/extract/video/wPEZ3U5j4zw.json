@@ -251,10 +251,10 @@
     {
       "name": "Automatic scheduling upon release for unreleased versions",
       "description": "When targeting an unreleased version, Microsoft internally schedules the update within 14 days of release. Tenant administrators can still reschedule the update to any other date after it becomes available.",
-      "status": "ga",
-      "status_evidence_t": 537,
-      "status_evidence_quote": "the update will automatically be scheduled after within 14 days um since the since this specific version is released",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 537,
       "t_end": 578,
       "is_demoed": true,
@@ -331,6 +331,12 @@
       "t": 293.2,
       "text": "the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally",
       "why_it_matters": "Expands the feature's availability from Microsoft-localized environments only to global support.",
+      "check": "exact"
+    },
+    {
+      "t": 313.4,
+      "text": "will continue to work uh but it will not support any of the new flexibility that we're introducing here",
+      "why_it_matters": "Confirms that the legacy environment update API still works but does not support the new flexible scheduling, so automations need the new endpoints.",
       "check": "exact"
     },
     {

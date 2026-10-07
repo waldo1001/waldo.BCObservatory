@@ -94,8 +94,8 @@
       "name": "Page scripting visualizer",
       "description": "A new feature that visualizes test results in CI/CD runs, showing failing, passing, and skipped tests along with overall run time.",
       "status": "preview",
-      "status_evidence_t": 26.9,
-      "status_evidence_quote": "uh in preview. Right now",
+      "status_evidence_t": 11.4,
+      "status_evidence_quote": "and also the new page scripting visualizer uh in preview",
       "status_evidence_verified": true,
       "t_start": 11.4,
       "t_end": 79,
@@ -113,10 +113,10 @@
     {
       "name": "Deploy to sandbox from pull request",
       "description": "Support for deploying to sandbox environments from a pull request, which was previously in preview and is now included in v7.0.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 11.4,
+      "status_evidence_quote": "we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request",
+      "status_evidence_verified": true,
       "t_start": 11.4,
       "t_end": 26.9,
       "is_demoed": false,
@@ -478,6 +478,12 @@
       "check": "exact"
     },
     {
+      "t": 116.6,
+      "text": "it's worth noting that repositories that run any version of a go for GitHub will not be affected",
+      "why_it_matters": "Says the BC Container Helper 6.1 breakage does not affect AL-Go users.",
+      "check": "exact"
+    },
+    {
       "t": 151.2,
       "text": "it is one of the two big topics that that we're going to work on I'm going to work on at least in this",
       "why_it_matters": "Signals runtime package generation is a major priority for upcoming AL-Go development",
@@ -494,6 +500,12 @@
       "text": "october 1st is the best date but it's probably going to be before that",
       "why_it_matters": "Sets timeline expectation for runtime package generation feature completion",
       "check": "fuzzy"
+    },
+    {
+      "t": 319,
+      "text": "runo pipeline when it creates the new container it'll look for a script with a specific name",
+      "why_it_matters": "Describes the script override workaround for passing extra New-BcContainer parameters from localDevEnv.",
+      "check": "exact"
     },
     {
       "t": 571.7,
@@ -572,12 +584,6 @@
       "text": "on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind",
       "why_it_matters": "Explains GitHub's branch update requirement feature that prevents merging stale branches.",
       "check": "exact"
-    },
-    {
-      "t": 1893.3,
-      "text": "azure devops alex do you know anything that uh but maybe i'm wrong",
-      "why_it_matters": "Confirms that Azure DevOps lacks GitHub's branch update requirement feature for pull requests.",
-      "check": "fuzzy"
     },
     {
       "t": 2050.7,

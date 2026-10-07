@@ -144,10 +144,10 @@
     {
       "name": "Location Specification in Sales Documents",
       "description": "When selling items, users can choose the location from which to ship items by specifying the location code in the sales document.",
-      "status": "ga",
-      "status_evidence_t": 51.1,
-      "status_evidence_quote": "When we sell items, we can choose the location where we ship the items from.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 51.1,
       "t_end": 63.8,
       "is_demoed": true,
@@ -162,10 +162,10 @@
     {
       "name": "Default Location on Customer Card",
       "description": "Users can specify a default location on the customer card to automatically ship items from that location for each customer.",
-      "status": "ga",
-      "status_evidence_t": 63.8,
-      "status_evidence_quote": "On the customer card, we can specify a default location to ship from for each customer.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 63.8,
       "t_end": 74.7,
       "is_demoed": true,
@@ -326,6 +326,12 @@
       "t": 110.6,
       "text": "To avoid selecting the intransit code every time, we can set up transfer routes where the location is already chosen.",
       "why_it_matters": "Highlights a setup optimization feature that reduces repetitive manual entry in transfer processes.",
+      "check": "exact"
+    },
+    {
+      "t": 122.8,
+      "text": "Business Central can let us know when we're selling an item that is out of stock at a specific location.",
+      "why_it_matters": "This is the only statement of the out-of-stock notification behavior.",
       "check": "exact"
     }
   ],

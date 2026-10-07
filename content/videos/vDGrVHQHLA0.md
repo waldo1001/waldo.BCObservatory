@@ -2,7 +2,7 @@
 id: video/vDGrVHQHLA0
 type: video
 title: AL-Go for Github May Office Hour
-summary: "AL-Go for GitHub May 2025 office hour: earlier input validation for create release and increment version number workflows, a settings schema and fail-on-new-warnings option (both in preview, 7.2), BC Container Helper deprecation, artifact URL changes by end of June, and team changes."
+summary: "AL-Go for GitHub May 2025 office hour: three preview items shipping with 7.2 (early input validation for create release and increment version number, a settings schema property, and failing PRs on new warnings), plus notes on BC Container Helper deprecation, AL-Go versions below 5.0 stopping, and artifact storage URLs moving to front door by end of June. Also covers Freddy leaving Microsoft, with the engineering systems team taking over, and Q&A on unsupported scenarios."
 tier: official
 language: en
 tags:
@@ -20,18 +20,25 @@ tags:
   - release notes
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:46.089Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:56:46.145Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 13b5cef9a93ee756e3904c0db1b4f840559a2eb06f86dd91f4f79f3cf601d118
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=247s
+    title: "Input Validation for Workflows: preview"
+    date: "2025-05-27T11:19:23.000Z"
+    commit: null
+    t: 247
+    quote: So those were the three things we've added to ALGO in the last month. Right now it's in preview.
   - kind: video
     url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=118s
     title: "AL-Go Settings Schema Property: preview"
@@ -81,6 +88,13 @@ evidence:
     commit: null
     t: 303
     quote: please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon
+  - kind: video
+    url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=316s
+    title: AL-Go for Github May Office Hour
+    date: "2025-05-27T11:19:23.000Z"
+    commit: null
+    t: 316
+    quote: 5.0 and lower sorry 5.0 will work lower than 5.0 will not work. Uh for reference 5.0 is about a year old now.
   - kind: video
     url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=373s
     title: AL-Go for Github May Office Hour
@@ -228,20 +242,6 @@ evidence:
     commit: null
     t: 2638
     quote: I'm going to start my own business and figure out how I can I can manage life, work, and whatever experiences I want to
-  - kind: video
-    url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2714s
-    title: AL-Go for Github May Office Hour
-    date: "2025-05-27T11:19:23.000Z"
-    commit: null
-    t: 2714
-    quote: Elgo will fall under and I mean has fallen under the engineering systems team which is the team I work on Maria work on
-  - kind: video
-    url: https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2742s
-    title: AL-Go for Github May Office Hour
-    date: "2025-05-27T11:19:23.000Z"
-    commit: null
-    t: 2742
-    quote: it's been under it's been under our team for a couple of years, but Fred has still been the one coming up with a
 links:
   learn: []
   objects: []
@@ -311,9 +311,9 @@ chapters:
     title: Closing Remarks and Logistics
 features:
   - name: Input Validation for Workflows
-    status: unclear
+    status: preview
     t: 60
-    verified: false
+    verified: true
     status_source: video
   - name: AL-Go Settings Schema Property
     status: preview
@@ -328,11 +328,6 @@ features:
   - name: BC Container Helper Deprecation Notice
     status: unclear
     t: 266
-    verified: false
-    status_source: video
-  - name: AL-Go Version Support Update
-    status: unclear
-    t: 303
     verified: false
     status_source: video
   - name: Page Scripting Tests on SaaS Environments
@@ -385,16 +380,6 @@ features:
     t: 2176
     verified: false
     status_source: video
-  - name: AL-Go GitHub Project Ongoing Support
-    status: unclear
-    t: 2470
-    verified: false
-    status_source: video
-  - name: Engineering Systems Team Oversight
-    status: unclear
-    t: 2714
-    verified: false
-    status_source: video
 objects_mentioned:
   - other create release workflow
   - other increment version number workflow
@@ -419,6 +404,9 @@ quotes:
     check: exact
   - t: 303
     text: please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon
+    check: exact
+  - t: 316
+    text: 5.0 and lower sorry 5.0 will work lower than 5.0 will not work. Uh for reference 5.0 is about a year old now.
     check: exact
   - t: 373
     text: I am no longer with Microsoft or I'm still here uh at least for for for some time being. Um but I'm like no
@@ -496,9 +484,9 @@ quotes:
 
 # AL-Go for Github May Office Hour
 
-> AL-Go for GitHub May 2025 office hour: earlier input validation for create release and increment version number workflows, a settings schema and fail-on-new-warnings option (both in preview, 7.2), BC Container Helper deprecation, artifact URL changes by end of June, and team changes.
+> AL-Go for GitHub May 2025 office hour: three preview items shipping with 7.2 (early input validation for create release and increment version number, a settings schema property, and failing PRs on new warnings), plus notes on BC Container Helper deprecation, AL-Go versions below 5.0 stopping, and artifact storage URLs moving to front door by end of June. Also covers Freddy leaving Microsoft, with the engineering systems team taking over, and Q&A on unsupported scenarios.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vDGrVHQHLA0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-27 · 49:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vDGrVHQHLA0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-27 · 49:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -508,13 +496,13 @@ The team also announced that BC Container Helper versions before 6.1 no longer w
 
 ## Key points
 
-- Create release and increment version number workflows now validate inputs and fail early instead of at the end; more workflows will follow.
-- The AL-Go settings schema property gives VS Code suggestions and validates settings. It is in preview, and 7.2 is mentioned as the release for those not on preview.
-- Failing pull requests on new warnings is in preview. It only counts new warnings, can be switched on or off by settings, does not change CI/CD behavior, and has no configurable threshold.
-- BC Container Helper versions earlier than 6.1 no longer work. AL-Go repositories are not affected. Container Helper deprecation is scheduled in about two years, and AL-Go still needs work to become independent of it.
-- AL-Go system file versions 5.0 and lower will stop working, so run Update AL-Go System Files regularly.
-- Direct storage account access for artifact URLs stops at the end of June. Old blob storage URLs will not work, and new front door URLs must be used.
-- Not supported or not yet effective: data-driven testing in AL-Go, building runtime packages, Copilot code review for AL, and page scripting tests on SaaS (blocked by 2FA/MFA).
+- Create release and increment version number workflows now validate inputs and fail early instead of at the end; more workflows will follow. This is in the latest preview.
+- The AL-Go settings schema property gives VS Code suggestions and validates settings, showing a warning on mismatch. It is in preview; 7.2 is mentioned as the release for those not on preview.
+- Failing pull requests on new warnings is in preview. It only counts new warnings, can be switched on or off by a setting, does not change CI/CD behavior, and has no configurable threshold.
+- BC Container Helper versions earlier than 6.1 no longer work; AL-Go repositories are not affected. Container Helper deprecation is scheduled in about two years, and AL-Go still needs work to become independent of it.
+- AL-Go 5.0 still works but versions lower than 5.0 will soon stop working, so run Update AL-Go System Files regularly.
+- Direct storage account access for artifact URLs stops at the end of June as part of a Microsoft security push; old blob storage URLs will not work and traffic goes through front door.
+- Not supported or not yet effective: data-driven testing in AL-Go, building runtime packages, Copilot code review for AL, auto translation, and page scripting tests on SaaS (blocked by 2FA/MFA, being worked on).
 
 ## Chapters
 
@@ -546,11 +534,10 @@ The team also announced that BC Container Helper versions before 6.1 no longer w
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Input Validation for Workflows | status not stated | [1:00](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=60s) |  |
+| Input Validation for Workflows | preview | [1:00](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=60s) | "So those were the three things we've added to ALGO in the last month. Right now it's in preview." ([4:07](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=247s)) |
 | AL-Go Settings Schema Property | preview | [1:58](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=118s) | "If you're on preview, you might already see it. Otherwise, you'll have to wait for the 7.2" ([1:58](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=118s)) |
 | Fail Pull Requests on New Warnings | preview | [3:10](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=190s) | "Right now it's in preview. Uh I don't know if we have any. We'll ship 7.2 soon" ([4:07](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=247s)) |
 | BC Container Helper Deprecation Notice | status not stated | [4:26](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=266s) |  |
-| AL-Go Version Support Update | status not stated | [5:03](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=303s) |  |
 | Page Scripting Tests on SaaS Environments | status not stated | [12:55](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=775s) |  |
 | Azure DevOps and GitHub Integration | status not stated | [19:14](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=1154s) |  |
 | Data-Driven Testing Support | status not stated | [22:52](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=1372s) |  |
@@ -561,8 +548,6 @@ The team also announced that BC Container Helper versions before 6.1 no longer w
 | GitHub Discussions Ideas Tab | status not stated | [30:44](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=1844s) |  |
 | Artifact URL Migration to Front Door | status not stated | [34:33](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2073s) |  |
 | AL-Go Independence from BC Container Helper | status not stated | [36:16](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2176s) |  |
-| AL-Go GitHub Project Ongoing Support | status not stated | [41:10](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2470s) |  |
-| Engineering Systems Team Oversight | status not stated | [45:14](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=2714s) |  |
 
 ## AL objects mentioned
 
@@ -584,6 +569,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:37](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=217s) "So, this new feature failing pull requests on your warnings. Um, so it won't change the behavior of your CI/CD workflows. Uh, that'll still"
 - [4:26](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=266s) "PC container helper versions earlier than se 6.1 uh, basically don't really work anymore. Um, algo repositories are not affected"
 - [5:03](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=303s) "please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon"
+- [5:16](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=316s) "5.0 and lower sorry 5.0 will work lower than 5.0 will not work. Uh for reference 5.0 is about a year old now."
 - [6:13](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=373s) "I am no longer with Microsoft or I'm still here uh at least for for for some time being. Um but I'm like no"
 - [9:09](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=549s) "so busy container upper is not deprecated yet. It's deprecated in about two years time I believe is scheduled. um and and it is"
 - [13:08](https://www.youtube.com/watch?v=vDGrVHQHLA0&t=788s) "We're not running we are unable to run page scripting tests on SAS environments due to the to the 2FA or MFA requirement of"

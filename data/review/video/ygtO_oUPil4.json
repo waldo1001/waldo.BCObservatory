@@ -1,0 +1,29 @@
+{
+  "video_id": "ygtO_oUPil4",
+  "item_id": "video/yt-microsoft/ygtO_oUPil4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The page says the complaint order is generated automatically. In the transcript, Copilot finds the key elements and shows them 'so we can create a complaint order', so the user creates the order from what Copilot extracted. I softened the summary and key points to match.",
+    "The quote at 2.2 stops mid-sentence at 'copilot will'. I replaced it with the rest of that sentence, which says what Copilot actually does.",
+    "Status 'unclear' is correct. The video only calls it 'a new feature' and never says preview or GA.",
+    "The systems 'crm' and 'sales' are loosely supported: the video is about customer complaints about an order and never names CRM directly."
+  ],
+  "input_hash": "91c8b49309350dcafacc67d0c17cb934693dd66bfe7291c5a009285c8b2aa595",
+  "by": "opus",
+  "at": "2026-10-07T22:56:05.514Z",
+  "applied": [
+    "Copilot Complaint Management: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 2s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.038437
+  }
+}

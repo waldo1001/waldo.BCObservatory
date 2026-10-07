@@ -1,0 +1,29 @@
+{
+  "video_id": "UgagVZVKCso",
+  "item_id": "video/yt-microsoft/UgagVZVKCso",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and well placed.",
+    "Key point on automated tests said they are already used. The speaker only says it is important to have them in place, so it now reads as a recommendation.",
+    "The summary said prompt engineering and testing 'take the most time'. The transcript calls them the biggest learnings and the biggest challenge, so the summary now uses that wording.",
+    "Added a quote for the automated testing advice, and a key point for the closing advice to start small.",
+    "All feature statuses are unclear because the transcript says nothing about release status. That is correct.",
+    "The transcript never names Business Central. Only the video title links it to BC."
+  ],
+  "input_hash": "b390773d5f47f83a438ddc751a99f03650aee069ed1e08613d2e38808f55391d",
+  "by": "opus",
+  "at": "2026-10-07T22:56:05.770Z",
+  "applied": [
+    "quote at 59s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044900999999999996
+  }
+}

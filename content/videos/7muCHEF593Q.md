@@ -2,7 +2,7 @@
 id: video/7muCHEF593Q
 type: video
 title: How to Access All Features in Business Central (2025)
-summary: "Business Central role-based homepages (business manager, accountant, sales and relationships, project manager) and the ways to reach all features: the menu header, the search bar and Alt-key shortcuts. A 2-minute demo from May 2025."
+summary: "Business Central role-based homepages (business manager, accountant, sales and relationships, project manager) share one layout of activity tiles and charts. The video also covers ways to reach all features: the menu header (including explore more roles), the search bar and Alt-key shortcuts. A short 2-minute demo."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - menu access
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:56:39.674Z"
   flags: []
 generated:
-  at: "2026-10-06T18:35:17.546Z"
+  at: "2026-10-07T22:56:39.720Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,6 +77,13 @@ evidence:
     commit: null
     t: 116
     quote: Clicking the alt key on the keyboard will trigger the shortcut keys. Then we can, for example, click the J and S keys to
+  - kind: video
+    url: https://www.youtube.com/watch?v=7muCHEF593Q&t=130s
+    title: How to Access All Features in Business Central (2025)
+    date: "2025-05-22T16:08:35.000Z"
+    commit: null
+    t: 130
+    quote: click the J and S keys to open sales and then again the S key to open sales quotes
 links:
   learn: []
   objects: []
@@ -186,13 +193,16 @@ quotes:
   - t: 116
     text: Clicking the alt key on the keyboard will trigger the shortcut keys. Then we can, for example, click the J and S keys to
     check: exact
+  - t: 130
+    text: click the J and S keys to open sales and then again the S key to open sales quotes
+    check: exact
 ---
 
 # How to Access All Features in Business Central (2025)
 
-> Business Central role-based homepages (business manager, accountant, sales and relationships, project manager) and the ways to reach all features: the menu header, the search bar and Alt-key shortcuts. A 2-minute demo from May 2025.
+> Business Central role-based homepages (business manager, accountant, sales and relationships, project manager) share one layout of activity tiles and charts. The video also covers ways to reach all features: the menu header (including explore more roles), the search bar and Alt-key shortcuts. A short 2-minute demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7muCHEF593Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=7muCHEF593Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-22 · 2:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,7 +218,7 @@ All homepages share one layout. Activity tiles lead to daily tasks, and charts c
 - Role and homepage configuration are changed in the user's settings.
 - Clicking the menu header opens all features; expanding the explore more roles section shows additional roles.
 - The search bar finds specific pages.
-- Pressing Alt triggers keyboard shortcuts; for example, Alt-J-S opens sales quotes.
+- Pressing Alt triggers shortcut keys; for example, J and S open sales, then S again opens sales quotes.
 
 ## Chapters
 
@@ -222,18 +232,18 @@ All homepages share one layout. Activity tiles lead to daily tasks, and charts c
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Role-based Homepages | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |  |
-| Business Manager Homepage | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |  |
-| Accountant Homepage | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=7muCHEF593Q&t=28s) |  |
-| Sales and Relationships Homepage | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=7muCHEF593Q&t=49s) |  |
-| Project Manager Homepage | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=7muCHEF593Q&t=66s) |  |
-| Homepage Activity Tiles | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |  |
-| Homepage Charts | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |  |
-| Menu Header Feature Access | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=7muCHEF593Q&t=105s) |  |
-| Search Bar for Page Discovery | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |  |
-| Keyboard Shortcuts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Role-based Homepages | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
+| Business Manager Homepage | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
+| Accountant Homepage | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=7muCHEF593Q&t=28s) |
+| Sales and Relationships Homepage | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=7muCHEF593Q&t=49s) |
+| Project Manager Homepage | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=7muCHEF593Q&t=66s) |
+| Homepage Activity Tiles | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
+| Homepage Charts | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
+| Menu Header Feature Access | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=7muCHEF593Q&t=105s) |
+| Search Bar for Page Discovery | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
+| Keyboard Shortcuts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
 
 ## Quotes
 
@@ -244,3 +254,4 @@ All homepages share one layout. Activity tiles lead to daily tasks, and charts c
 - [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) "All homepages have the same layout. The tiles in the activity section go to daily tasks like processing orders or invoices."
 - [1:45](https://www.youtube.com/watch?v=7muCHEF593Q&t=105s) "Clicking the menu header will open all features. And we can even explore more roles there by expanding the explore more roles section."
 - [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) "Clicking the alt key on the keyboard will trigger the shortcut keys. Then we can, for example, click the J and S keys to"
+- [2:10](https://www.youtube.com/watch?v=7muCHEF593Q&t=130s) "click the J and S keys to open sales and then again the S key to open sales quotes"

@@ -16,12 +16,12 @@ tags:
   - departmental roles
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:04.819Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:04.856Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 248
     quote: the the easiest way I find the report documentation is through an AKA link let me show you what that is
+  - kind: video
+    url: https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=320s
+    title: "Introducing: Discover and Explore Reports (2025 release wave 1)"
+    date: "2025-04-01T15:01:30.000Z"
+    commit: null
+    t: 320
+    quote: if you use this little tip of Control Plus selects when you when you select the link it will open up in a new
   - kind: video
     url: https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=462s
     title: "Introducing: Discover and Explore Reports (2025 release wave 1)"
@@ -175,6 +182,9 @@ quotes:
   - t: 248
     text: the the easiest way I find the report documentation is through an AKA link let me show you what that is
     check: snapped
+  - t: 320
+    text: if you use this little tip of Control Plus selects when you when you select the link it will open up in a new
+    check: exact
   - t: 462
     text: that's how how the exploration and discoverability of reports come hand in hand both in the business Central role Explorer in the request page
     check: exact
@@ -184,7 +194,7 @@ quotes:
 
 > Report discovery in Business Central 2025 release wave 1: the Report Explorer, Microsoft Learn report documentation reached through aka.ms links, and teaching tips on request pages and in the help pane. Shows how these link together for finding and understanding reports.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=yXz3ZlSioWQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=yXz3ZlSioWQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -193,13 +203,13 @@ The second is Microsoft Learn, where aka.ms links lead to a report overview tabl
 
 ## Key points
 
-- Open the Report Explorer through Tell Me search, the role center symbol, or the all reports link on role centers.
-- The Report Explorer groups reports by topic and departmental role; expanding all categories gives an overview of the reporting capabilities.
-- Hovering over a report link shows an information icon with the full title and description, but only if a teaching tip is defined on the report object.
-- In wave 1, reports opened from the Report Explorer can open in a new window, so the explorer stays open while you look at several reports.
-- Aka.ms links lead to a Microsoft Learn overview table of reports by functional area, with scenarios, links to open reports, and per-report articles for different personas.
-- On a request page, clicking the report title or caption opens its teaching tip, even if teaching tips are disabled by default.
-- The help pane shows the teaching tip text when one is defined on the report object and links to the matching Microsoft Learn documentation.
+- You can open the Report Explorer in three ways: from Tell Me search, from the role explorer (explore more roles, then reports and analysis), or from the all reports link at the top of role centers.
+- The Report Explorer lists departmental role centers. Expand one, such as finance, and choose the ellipses to expand all its topics for an overview of the reporting capabilities.
+- When you hover over a report link, you see either an information icon or an open-in-new-window icon. The information icon shows the report's full title and description without opening the report, and it only appears if a teaching tip is defined on the report object.
+- New in wave 1: reports opened from the Report Explorer open in a new window, so the explorer stays open while you explore several reports.
+- The aka.ms BC analytics link leads to the Microsoft Learn report overview, which lists reports by functional area. Each report has a scenario description, a link that opens it in Business Central, and an article with use cases for different personas.
+- If you Ctrl+select a link in the documentation, it opens in a new window and the documentation page stays open.
+- For many reports, choosing the title or caption on the request page opens a teaching tip. This works even if teaching tips are turned off by default.
 
 ## Chapters
 
@@ -214,15 +224,15 @@ The second is Microsoft Learn, where aka.ms links lead to a report overview tabl
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Report Explorer | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=7s) |  |
-| Information Icons on Report Links | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=132s) |  |
-| Open Report in New Window | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) |  |
-| AKA Links for Report Documentation | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=248s) |  |
-| Report Overview Table in Microsoft Learn | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=282s) |  |
-| Teaching Tips on Report Request Pages | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=401s) |  |
-| Help Pane Integration with Documentation Links | status not stated, demoed | [7:01](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=421s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Report Explorer | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=7s) |
+| Information Icons on Report Links | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=132s) |
+| Open Report in New Window | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) |
+| AKA Links for Report Documentation | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=248s) |
+| Report Overview Table in Microsoft Learn | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=282s) |
+| Teaching Tips on Report Request Pages | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=401s) |
+| Help Pane Integration with Documentation Links | status not stated, demoed | [7:01](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=421s) |
 
 ## AL objects mentioned
 
@@ -243,6 +253,7 @@ Not found in BC28-30: report "Fixed Asset Posting Group Net Change", report "Cus
 - [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) "a new thing here in the in the business Central as in in wave one is that this opens up in a new window"
 - [3:31](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=211s) "the difference like why would this have one and this one would not that's just a matter of whether there's a teaching tiip defined"
 - [4:08](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=248s) "the the easiest way I find the report documentation is through an AKA link let me show you what that is"
+- [5:20](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=320s) "if you use this little tip of Control Plus selects when you when you select the link it will open up in a new"
 - [7:42](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=462s) "that's how how the exploration and discoverability of reports come hand in hand both in the business Central role Explorer in the request page"
 
 ## Disclaimers in the video

@@ -1,0 +1,28 @@
+{
+  "video_id": "PeI-Jv4KVn8",
+  "item_id": "video/yt-microsoft/PeI-Jv4KVn8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts and quotes are verbatim and supported by the transcript. All feature statuses are unclear, which is correct because the demo never says whether the feature is preview or GA.",
+    "The summary and key points say Copilot creates the maintenance request directly. In the transcript, the user reviews the explanation for the chosen task and confirms it, and that confirmation creates the request. Rewritten to match.",
+    "The page left out how the intake starts: the user looks up a real estate unit by its address. Added to the summary and key points.",
+    "The 'service' and 'fixed-assets' system tags are not supported. The transcript only mentions a real estate unit ('realy unit'). They cannot be edited through these fields, so this is flagged for attention.",
+    "The captions are a bit garbled ('sick operations', 'realy unit'), but the meaning is still usable."
+  ],
+  "input_hash": "3ec146ae3680cf262cef58a4d4c113d93864e578241f47c13e1ab20b4a919e4a",
+  "by": "opus",
+  "at": "2026-10-07T22:55:52.719Z",
+  "applied": [
+    "quote at 47s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047457
+  }
+}

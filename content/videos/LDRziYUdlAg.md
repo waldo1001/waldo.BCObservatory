@@ -2,7 +2,7 @@
 id: video/LDRziYUdlAg
 type: video
 title: AL-Go for Github April Office Hour
-summary: "AL-Go for GitHub April 2025 office hour: v7.0 release with the page scripting visualizer (in preview), runtime package generation plans, BC Container Helper retirement (versions before 6.1 break after May 1st), new AL-Go modules, and the move to GitHub Discussions."
+summary: "AL-Go for GitHub April office hour: v7.0 shipped with deploy to sandbox from a pull request and the page scripting visualizer in preview. BC Container Helper versions before 6.1 may break after May 1st, though AL-Go repos are not affected. BC Container Helper is slated for retirement in two to three years: DevOps parts move into AL-Go modules, and a slim local-dev module goes to the PowerShell gallery. Runtime package and Nougat generation is targeted before October 1st, and ideas move to GitHub Discussions with voting."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - devops
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:57:24.228Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:57:24.289Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,19 @@ generated:
   input_hash: e2303d5ce444ca7c85056c23525dd043b0c16762e652b2381b846c5a64bf6476
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=26s
+    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s
     title: "Page scripting visualizer: preview"
     date: "2025-05-01T16:08:46.000Z"
     commit: null
-    t: 26
-    quote: uh in preview. Right now
+    t: 11
+    quote: and also the new page scripting visualizer uh in preview
+  - kind: video
+    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s
+    title: "Deploy to sandbox from pull request: generally available"
+    date: "2025-05-01T16:08:46.000Z"
+    commit: null
+    t: 11
+    quote: we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request
   - kind: video
     url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=91s
     title: "BC container helper v6.1 breaking changes: announced"
@@ -61,6 +68,13 @@ evidence:
     t: 91
     quote: all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken
   - kind: video
+    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=116s
+    title: AL-Go for Github April Office Hour
+    date: "2025-05-01T16:08:46.000Z"
+    commit: null
+    t: 116
+    quote: it's worth noting that repositories that run any version of a go for GitHub will not be affected
+  - kind: video
     url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=151s
     title: AL-Go for Github April Office Hour
     date: "2025-05-01T16:08:46.000Z"
@@ -81,6 +95,13 @@ evidence:
     commit: null
     t: 217
     quote: october 1st is the best date but it's probably going to be before that
+  - kind: video
+    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=319s
+    title: AL-Go for Github April Office Hour
+    date: "2025-05-01T16:08:46.000Z"
+    commit: null
+    t: 319
+    quote: runo pipeline when it creates the new container it'll look for a script with a specific name
   - kind: video
     url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=571s
     title: AL-Go for Github April Office Hour
@@ -173,13 +194,6 @@ evidence:
     t: 1861
     quote: on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind
   - kind: video
-    url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=1893s
-    title: AL-Go for Github April Office Hour
-    date: "2025-05-01T16:08:46.000Z"
-    commit: null
-    t: 1893
-    quote: azure devops alex do you know anything that uh but maybe i'm wrong
-  - kind: video
     url: https://www.youtube.com/watch?v=LDRziYUdlAg&t=2050s
     title: AL-Go for Github April Office Hour
     date: "2025-05-01T16:08:46.000Z"
@@ -240,9 +254,9 @@ features:
     verified: true
     status_source: video
   - name: Deploy to sandbox from pull request
-    status: unclear
+    status: ga
     t: 11
-    verified: false
+    verified: true
     status_source: video
   - name: Runtime package generation and integration
     status: unclear
@@ -320,6 +334,9 @@ quotes:
   - t: 91
     text: all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken
     check: exact
+  - t: 116
+    text: it's worth noting that repositories that run any version of a go for GitHub will not be affected
+    check: exact
   - t: 151
     text: it is one of the two big topics that that we're going to work on I'm going to work on at least in this
     check: exact
@@ -329,6 +346,9 @@ quotes:
   - t: 217
     text: october 1st is the best date but it's probably going to be before that
     check: fuzzy
+  - t: 319
+    text: runo pipeline when it creates the new container it'll look for a script with a specific name
+    check: exact
   - t: 571
     text: the latest edition in the last version where you can now do build modes and you can do pre processor symbols in
     check: fuzzy
@@ -368,9 +388,6 @@ quotes:
   - t: 1861
     text: on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind
     check: exact
-  - t: 1893
-    text: azure devops alex do you know anything that uh but maybe i'm wrong
-    check: fuzzy
   - t: 2050
     text: we're looking forward to next month where the office hour will be a morning one. I think that's what we agreed on.
     check: exact
@@ -378,9 +395,9 @@ quotes:
 
 # AL-Go for Github April Office Hour
 
-> AL-Go for GitHub April 2025 office hour: v7.0 release with the page scripting visualizer (in preview), runtime package generation plans, BC Container Helper retirement (versions before 6.1 break after May 1st), new AL-Go modules, and the move to GitHub Discussions.
+> AL-Go for GitHub April office hour: v7.0 shipped with deploy to sandbox from a pull request and the page scripting visualizer in preview. BC Container Helper versions before 6.1 may break after May 1st, though AL-Go repos are not affected. BC Container Helper is slated for retirement in two to three years: DevOps parts move into AL-Go modules, and a slim local-dev module goes to the PowerShell gallery. Runtime package and Nougat generation is targeted before October 1st, and ideas move to GitHub Discussions with voting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LDRziYUdlAg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-01 · 34:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LDRziYUdlAg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-05-01 · 34:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -390,13 +407,13 @@ The team announced that BC Container Helper versions before 6.1 will have major 
 
 ## Key points
 
-- AL-Go v7.0 shipped with deploy to sandbox from a pull request, which was previously in preview.
-- The page scripting visualizer is in preview. It shows failing, passing and skipped tests and the overall run time in CI/CD runs. Only the visualizing part is new.
-- BC Container Helper versions before 6.1 may not work after May 1st because of security work. Repositories using AL-Go for GitHub are not affected.
-- BC Container Helper is slated for retirement in two to three years. Expect functionality gaps, because it will not be moved as is.
-- A slim local-development PowerShell module of roughly five to ten commands is planned for the PowerShell gallery. Details are not final.
-- Build modes and preprocessor symbols let one source produce app and on-prem variants. The runtime package and Nougat work depends on a compiler from the modern dev team, with a goal of before October 1st.
-- AL-Go is moving from GitHub Issues to Discussions. The most voted ideas move to the backlog, with no guarantee of implementation.
+- AL-Go v7.0 shipped with deploy to sandbox from a pull request, which was previously in preview, and the new page scripting visualizer in preview.
+- The page scripting visualizer shows failing, passing and skipped tests and the overall test run time in CI/CD runs. Page scripting itself is not new; only the visualizing part is.
+- BC Container Helper versions before 6.1 may not work after May 1st because of security work. Repositories running any version of AL-Go for GitHub are not affected.
+- BC Container Helper is slated for retirement in two to three years. DevOps functionality moves into modules shipped inside AL-Go. A slim PowerShell gallery module of maybe five to ten commands will cover local tasks. Expect functionality gaps, because it will not be moved as is.
+- To pass parameters such as useSSL to New-BcContainer from localDevEnv, use a script override that Run-AlPipeline picks up.
+- Build modes with preprocessor symbols, added in the last version, let one source build AppSource and on-prem variants. Runtime package and Nougat generation is targeted before October 1st. It will be built without waiting for a container-free compiler from the modern dev team.
+- AL-Go is moving from GitHub Issues to Discussions. The most voted ideas move to the project backlog, but implementation is not promised.
 
 ## Chapters
 
@@ -418,8 +435,8 @@ The team announced that BC Container Helper versions before 6.1 will have major 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Page scripting visualizer | preview, demoed | [0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s) | "uh in preview. Right now" ([0:26](https://www.youtube.com/watch?v=LDRziYUdlAg&t=26s)) |
-| Deploy to sandbox from pull request | status not stated | [0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s) |  |
+| Page scripting visualizer | preview, demoed | [0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s) | "and also the new page scripting visualizer uh in preview" ([0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s)) |
+| Deploy to sandbox from pull request | generally available | [0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s) | "we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request" ([0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s)) |
 | Runtime package generation and integration | status not stated | [2:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=151s) |  |
 | Build modes with preprocessor symbols | status not stated | [9:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=571s) |  |
 | BC container helper v6.1 breaking changes | announced | [1:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=91s) | "all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken" ([1:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=91s)) |
@@ -446,9 +463,11 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=11s) "we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request that was previously in preview"
 - [1:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=91s) "all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken"
+- [1:56](https://www.youtube.com/watch?v=LDRziYUdlAg&t=116s) "it's worth noting that repositories that run any version of a go for GitHub will not be affected"
 - [2:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=151s) "it is one of the two big topics that that we're going to work on I'm going to work on at least in this"
 - [3:06](https://www.youtube.com/watch?v=LDRziYUdlAg&t=186s) "The the issue that we've been waiting for was the modern dev team to create a compiler that could generate runtime packages without us"
 - [3:37](https://www.youtube.com/watch?v=LDRziYUdlAg&t=217s) "october 1st is the best date but it's probably going to be before that"
+- [5:19](https://www.youtube.com/watch?v=LDRziYUdlAg&t=319s) "runo pipeline when it creates the new container it'll look for a script with a specific name"
 - [9:31](https://www.youtube.com/watch?v=LDRziYUdlAg&t=571s) "the latest edition in the last version where you can now do build modes and you can do pre processor symbols in"
 - [13:17](https://www.youtube.com/watch?v=LDRziYUdlAg&t=797s) "busy container helper slated for retirement in the next two three years"
 - [14:11](https://www.youtube.com/watch?v=LDRziYUdlAg&t=851s) "there's definitely going to be some gaps in the functionality. We're not going to just take new BC container and move it as is"
@@ -462,7 +481,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [26:37](https://www.youtube.com/watch?v=LDRziYUdlAg&t=1597s) "if you feel that that way you manage to ship a stable code and you manage to kind of quickly revert if something uh"
 - [28:00](https://www.youtube.com/watch?v=LDRziYUdlAg&t=1680s) "one of the things I like to do and I actually learned that from Maria is to open a pull request early because that"
 - [31:01](https://www.youtube.com/watch?v=LDRziYUdlAg&t=1861s) "on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind"
-- [31:33](https://www.youtube.com/watch?v=LDRziYUdlAg&t=1893s) "azure devops alex do you know anything that uh but maybe i'm wrong"
 - [34:10](https://www.youtube.com/watch?v=LDRziYUdlAg&t=2050s) "we're looking forward to next month where the office hour will be a morning one. I think that's what we agreed on."
 
 ## Disclaimers in the video

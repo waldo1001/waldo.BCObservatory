@@ -1,16 +1,16 @@
 {
   "video_id": "vDGrVHQHLA0",
   "item_id": "video/yt-microsoft/vDGrVHQHLA0",
-  "summary": "AL-Go for GitHub May 2025 office hour: earlier input validation for create release and increment version number workflows, a settings schema and fail-on-new-warnings option (both in preview, 7.2), BC Container Helper deprecation, artifact URL changes by end of June, and team changes.",
+  "summary": "AL-Go for GitHub May 2025 office hour: three preview items shipping with 7.2 (early input validation for create release and increment version number, a settings schema property, and failing PRs on new warnings), plus notes on BC Container Helper deprecation, AL-Go versions below 5.0 stopping, and artifact storage URLs moving to front door by end of June. Also covers Freddy leaving Microsoft, with the engineering systems team taking over, and Q&A on unsupported scenarios.",
   "overview": "The May 2025 AL-Go for GitHub office hour covers recent changes and announcements. Workflows for create release and increment version number now fail early on invalid inputs. A schema property in the AL-Go settings file gives VS Code suggestions and validation, and pull requests can be failed on new warnings only. Both are in preview, with 7.2 mentioned as the release to wait for.\n\nThe team also announced that BC Container Helper versions before 6.1 no longer work (AL-Go repositories are not affected), that AL-Go system file versions 5.0 and lower will stop working, and that artifact URLs move behind a front door at the end of June. The Q&A covers Azure DevOps and GitHub integration, data-driven testing, Copilot code review for AL, runtime packages, auto translation, and incremental builds. It also covers Freddy's departure and how the project continues under the engineering systems team.",
   "key_points": [
-    "Create release and increment version number workflows now validate inputs and fail early instead of at the end; more workflows will follow.",
-    "The AL-Go settings schema property gives VS Code suggestions and validates settings. It is in preview, and 7.2 is mentioned as the release for those not on preview.",
-    "Failing pull requests on new warnings is in preview. It only counts new warnings, can be switched on or off by settings, does not change CI/CD behavior, and has no configurable threshold.",
-    "BC Container Helper versions earlier than 6.1 no longer work. AL-Go repositories are not affected. Container Helper deprecation is scheduled in about two years, and AL-Go still needs work to become independent of it.",
-    "AL-Go system file versions 5.0 and lower will stop working, so run Update AL-Go System Files regularly.",
-    "Direct storage account access for artifact URLs stops at the end of June. Old blob storage URLs will not work, and new front door URLs must be used.",
-    "Not supported or not yet effective: data-driven testing in AL-Go, building runtime packages, Copilot code review for AL, and page scripting tests on SaaS (blocked by 2FA/MFA)."
+    "Create release and increment version number workflows now validate inputs and fail early instead of at the end; more workflows will follow. This is in the latest preview.",
+    "The AL-Go settings schema property gives VS Code suggestions and validates settings, showing a warning on mismatch. It is in preview; 7.2 is mentioned as the release for those not on preview.",
+    "Failing pull requests on new warnings is in preview. It only counts new warnings, can be switched on or off by a setting, does not change CI/CD behavior, and has no configurable threshold.",
+    "BC Container Helper versions earlier than 6.1 no longer work; AL-Go repositories are not affected. Container Helper deprecation is scheduled in about two years, and AL-Go still needs work to become independent of it.",
+    "AL-Go 5.0 still works but versions lower than 5.0 will soon stop working, so run Update AL-Go System Files regularly.",
+    "Direct storage account access for artifact URLs stops at the end of June as part of a Microsoft security push; old blob storage URLs will not work and traffic goes through front door.",
+    "Not supported or not yet effective: data-driven testing in AL-Go, building runtime packages, Copilot code review for AL, auto translation, and page scripting tests on SaaS (blocked by 2FA/MFA, being worked on)."
   ],
   "audience": [
     "developer",

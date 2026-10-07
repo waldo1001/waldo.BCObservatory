@@ -1,0 +1,28 @@
+{
+  "video_id": "7SSNcUMFtCw",
+  "item_id": "video/yt-microsoft/7SSNcUMFtCw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports every fact, key point and the summary.",
+    "Business Central AI Resources was marked unclear, but the transcript says it moves from private preview to public preview in this release. Set it to preview with evidence at 39.3.",
+    "Consumption-based billing was marked unclear. The transcript describes it as a planned approach whose details were not ready at recording time, so it is now announced, with evidence at 1026.6.",
+    "The embeddings status (announced) and its evidence are verified.",
+    "The quotes are verbatim apart from case and punctuation. None were dropped."
+  ],
+  "input_hash": "376e7c7480ab9bfc999ef218b6bb8170f021ba19d4a15de458ebdbb397ae8c9a",
+  "by": "opus",
+  "at": "2026-10-07T22:56:08.282Z",
+  "applied": [
+    "Business Central AI Resources: status preview",
+    "Consumption-based billing for AI resource use: status announced",
+    "Embeddings support: status announced"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12146099999999999
+  }
+}

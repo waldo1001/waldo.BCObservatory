@@ -1,0 +1,34 @@
+{
+  "video_id": "vDGrVHQHLA0",
+  "item_id": "video/yt-microsoft/vDGrVHQHLA0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Version support misstated: the transcript says 5.0 still works and only versions lower than 5.0 will stop working (t 316.2). Fixed the key point and dropped the feature whose description says 5.0 and lower stop working.",
+    "Fail PR on new warnings: the preview evidence quote starts at t 247.5, not 190.2.",
+    "Input validation is also part of the preview ('enhanced that in the latest preview', and 'those were the three things... Right now it's in preview'). Set to preview.",
+    "'Engineering Systems Team Oversight' and 'AL-Go GitHub Project Ongoing Support' are staffing and management statements, not product features. Dropped them.",
+    "Not fixed: the Artifact URL Migration description says AL-Go is migrating the URLs. In the transcript it is a Microsoft security change to artifact storage access.",
+    "Not fixed: duplicate quotes at t 788.5 and t 1664.5. Left them because dropping by t would remove both copies.",
+    "All other quotes checked as verbatim."
+  ],
+  "input_hash": "201a03ae6db39285722cfb10ba88113d3d6a180869bab717235e0777745198d7",
+  "by": "opus",
+  "at": "2026-10-07T22:56:46.089Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "Input Validation for Workflows: status preview",
+    "AL-Go Settings Schema Property: status preview",
+    "Fail Pull Requests on New Warnings: status preview",
+    "quote at 316s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.24039699999999997
+  }
+}
