@@ -180,8 +180,10 @@ Deliberate deviations from PLAN, all small:
 - **Catch-up ended after 2026-10-06** (D58): the backlogs were drained and the day had cost $68.75.
 - **Older majors as diffs, BC23-27 (D62)**, from the sandbox history, kept as a skeleton plus a cached full copy;
   diffs are now compact (a changed member is a delta). At code_jobs 1 a night the history lands over ~8 nights.
-- **Hybrid search in the MCP package (D63)**, package 0.2.0 on main. **Not published yet:** releasing it to npm is
-  the owner's call (bump is done; dispatch `publish-mcp`).
+- **Hybrid search in the MCP package (D63)**: `bc-observatory@0.2.0` published 2026-10-07 by the owner's go (run
+  37585872702, signed provenance) and checked from the registry: a real MCP client on `npx -y bc-observatory@0.2.0`
+  downloaded the pinned model, passed the SHA-256 checks and answered "who is allowed to see what" with the
+  permission sets as keyword + semantic, in 3 s including the download.
 - **Evidence chips (D64)** on feature pages; the flagged review badge no longer reads "unreviewed".
 - **2-hop neighbourhood (D59)** on object pages, from per-type shards built at site build time.
 - **yzhums.com** is in `sources.yaml` as `yzhums-com` with `enabled: false`: nothing is ingested and no page exists.
