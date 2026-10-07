@@ -2,21 +2,25 @@
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
 import { NS_SYSTEM } from "../../../../pipeline/lib/systems";
+import { majors as majorsOf } from "../../lib/versions";
 const all = await getCollection("objects");
 // D65: the first-party apps facet links each app page
 const apps = (await getCollection("apps")).sort((a, b) => Number(b.data.counts?.objects ?? 0) - Number(a.data.counts?.objects ?? 0) || String(a.data.title).localeCompare(String(b.data.title)));
 const counts = new Map<string, number>();
 for (const e of all) counts.set(e.data.object_type, (counts.get(e.data.object_type) ?? 0) + 1);
 const base = import.meta.env.BASE_URL;
-const majors = ["28", "29", "30"];
+// D72: every major with W1 data, oldest first, from config/versions.json (the galaxy's version menu uses the same);
+// nothing "changes" in the oldest, so its changed lens is left out, as the galaxy has none
+const ms = majorsOf();
+const majors = ms.map((m) => m.version);
 ---
 <List section="objects" title="AL objects · BC Observatory" description="Every W1 and first-party app object of Business Central, extracted from the code: a zoomable atlas by namespace.">
   <p class="eyebrow">AL objects</p>
   <h1>{all.length.toLocaleString("en")} objects</h1>
   <p class="lede">Extracted from the code (names, ids, signatures, properties; no code bodies): fields, keys, procedures, events, subscriptions, relations, obsolete state, versions, countries that replace them and the Learn pages that name them. Agents: <a href={`${base}objects/llms.txt`}>llms.txt</a>, <a href={`${base}index/objects.json`}>objects.json</a>. Press <kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere to jump to an object. See also the <a href={`${base}code/versions/`}>version lens</a>, the <a href={`${base}code/deprecations/`}>deprecation radar</a> and the <a href={`${base}events/`}>event explorer</a>.</p>
-  <section class="atlas" data-base={base} data-systems={JSON.stringify(NS_SYSTEM)} aria-label="Codebase atlas">
+  <section class="atlas" data-base={base} data-systems={JSON.stringify(NS_SYSTEM)} data-majors={JSON.stringify(majors)} aria-label="Codebase atlas">
     <form class="atlas-bar" onsubmit="return false">
-      <label>Lens <select name="lens"><option value="system">galaxy system</option><option value="changed29">changed in BC29</option><option value="changed30">changed in BC30 (vNext)</option><option value="introduced">introduced in BC29+</option><option value="obsolete">obsolete share</option><option value="learn">documented on Learn</option><option value="countries">replaced by countries</option></select></label>
+      <label>Lens <select name="lens"><option value="system">galaxy system</option>{ms.slice(1).reverse().map((m) => <option value={`changed:${m.version}`}>changed in BC{m.version}{m.vnext ? " (vNext)" : ""}</option>)}<option value="introduced">introduced in BC{majors[1] ?? majors[0]}+</option><option value="obsolete">obsolete share</option><option value="learn">documented on Learn</option><option value="countries">replaced by countries</option></select></label>
       <label>Type <select name="type"><option value="">all</option></select></label>
       <label>App <select name="app"><option value="">all</option></select></label>
       <label>Introduced <select name="intro"><option value="">any</option><option value="old">before BC{majors[0]}</option>{majors.slice(1).map((m) => <option value={m}>BC{m}</option>)}</select></label>

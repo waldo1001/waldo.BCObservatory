@@ -11,7 +11,7 @@
  *   and pulse = landed this week, while the this-week lens is on (D71); accent frame = changed in the lens version; hollow dashed square = obsolete.
  * - A focused star draws its edges: solid inside its system, dashed to a port per target system (max 6). Ports are
  *   buttons; the panel lists the same crossings, so the ports are never the only way.
- * - Lenses, one at a time: changed in a version, this week, then type, tier, localization, source, no evidence, and
+ * - Lenses, one at a time: changed in a version (one pill for the remembered major plus a version menu, D72), this week, then type, tier, localization, source, no evidence, and
  *   search. Matching stars keep their brightness and get the lens mark, the rest dims to 0.3.
  * - Panel: the current scope as lists; the star panel carries the exit dock (real links to the instruments).
  * - List view: the system in view as a sortable table instead of the canvas. Below 480 px the galaxy is a static
@@ -51,7 +51,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { landedRingsOn, parseHash, portSpot, sortRows, type SortKey } from "./galaxy-core.js";
+import { landedRingsOn, parseHash, portSpot, sortRows, versionMenu, type MajorMeta, type SortKey } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -178,16 +178,43 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     for (const l of lenses.filter((x) => x.group === grp && !barLenses.includes(x))) { const o = document.createElement("option"); o.value = l.id; o.textContent = l.label; og.append(o); }
     lensSel.append(og);
   }
-  const lensButtons = barLenses.map((l) => {
-    const b = document.createElement("button");
-    b.type = "button"; b.className = "g-lens"; b.dataset.lens = l.id; b.setAttribute("aria-pressed", "false");
-    b.innerHTML = `<span>${esc(l.label)}</span> <span class="g-lens-n"></span>`;
-    b.addEventListener("click", () => setLens(lens?.id === l.id ? "" : l.id, true));
-    return b;
-  });
-  // the home page's questions menu (D70) stays first, top left
-  const ask = lensBar.querySelector(".g-ask");
-  if (ask) ask.after(...lensButtons); else lensBar.prepend(...lensButtons);
+  // D72: the version lenses are one pill for the remembered major (newest by default) plus a menu of every major the
+  // graph has changes for, with the count each would light (computed once). Labels and vNext come from config
+  // (`data-majors`), never from the graph. The remembered major lives in memory only: the deep link is the memory.
+  const majorsMeta: Record<string, MajorMeta> = (() => { try { return JSON.parse(root.dataset.majors ?? "{}"); } catch { return {}; } })();
+  const vCounts = new Map(versions.map((v) => [v, g.nodes.filter(lensById.get(`version:${v}`)!.match).length]));
+  let vRemembered = versionMenu(versions, vCounts, majorsMeta, null).remembered;
+  const vGroup = lensBar.querySelector<HTMLElement>(".g-vlens");
+  const vPill = vGroup?.querySelector<HTMLButtonElement>("[data-g-vpill]") ?? null;
+  const vMenu = vGroup?.querySelector<HTMLDetailsElement>(".g-vmenu") ?? null;
+  const vEntries: HTMLButtonElement[] = [];
+  const lensButtons: HTMLButtonElement[] = [];
+  if (vGroup && vPill && vMenu && vRemembered) {
+    vPill.dataset.lens = `version:${vRemembered}`;
+    lensButtons.push(vPill);
+    vMenu.querySelector("ul")!.innerHTML = versionMenu(versions, vCounts, majorsMeta, null).entries
+      .map((e) => `<li><button type="button" data-pick="${esc(e.id)}" title="${esc(e.title)}"><span>${esc(e.label)}</span><span class="mono-meta">${e.count}</span></button></li>`).join("");
+    for (const b of vMenu.querySelectorAll<HTMLButtonElement>("[data-pick]")) {
+      vEntries.push(b);
+      b.addEventListener("click", () => {
+        const id = b.dataset.pick!;
+        vMenu.open = false;
+        // picking the active major clears the lens, as a pressed pill does; the remembered major stays
+        if (lens?.id === id) setLens("", true); else setLens(id, true);
+        vPill.focus();
+      });
+    }
+    vGroup.hidden = false;
+  }
+  const landedLens = barLenses.find((l) => l.id === "landed")!;
+  const landedBtn = document.createElement("button");
+  landedBtn.type = "button"; landedBtn.className = "g-lens"; landedBtn.dataset.lens = landedLens.id; landedBtn.setAttribute("aria-pressed", "false");
+  landedBtn.innerHTML = `<span>${esc(landedLens.label)}</span> <span class="g-lens-n"></span>`;
+  lensButtons.push(landedBtn);
+  for (const b of lensButtons) b.addEventListener("click", () => setLens(lens?.id === b.dataset.lens ? "" : b.dataset.lens!, true));
+  // the home page's questions menu (D70) stays first, top left, then the version pill, then "this week"
+  const ask = lensBar.querySelector(".g-ask:not(.g-vmenu)");
+  if (vGroup && !vGroup.hidden) vGroup.after(landedBtn); else if (ask) ask.after(landedBtn); else lensBar.prepend(landedBtn);
 
   const reduce = matchMedia("(prefers-reduced-motion: reduce)");
   let colors: Record<string, string> = {};
@@ -799,6 +826,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   function setLens(id: string, keepScope = false) {
     leaveSearch();
     lens = lensById.get(id) ?? null;
+    if (lens?.version) vRemembered = lens.version; // D72: a deep link, the menu or a question entry sets the pill
     lensSet = new Set(lens ? g.nodes.filter(lens.match).map((n) => n.id) : []);
     lensLines = [];
     if (lens?.lines) {
@@ -1055,6 +1083,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     levelEl.textContent = ["", "galaxy", "system", "star"][level];
     prevBtn.hidden = nextBtn.hidden = level !== 2;
     root.dataset.level = String(level);
+    if (vPill && vRemembered) {
+      vPill.dataset.lens = `version:${vRemembered}`;
+      vPill.querySelector("span")!.textContent = `changed in BC${vRemembered}`;
+      vPill.title = majorsMeta[vRemembered]?.label ?? `BC${vRemembered}`;
+      for (const b of vEntries) { if (lens?.id === b.dataset.pick) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); }
+    }
     for (const b of lensButtons) {
       const on = lens?.id === b.dataset.lens;
       b.setAttribute("aria-pressed", String(on)); b.classList.toggle("on", on);

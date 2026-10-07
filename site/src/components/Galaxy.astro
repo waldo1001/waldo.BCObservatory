@@ -2,16 +2,20 @@
 /**
  * The galaxy (HANDOFF 5, PLAN 4.7, D66 "galaxy, honest"). The canvas, ports and panel are driven by
  * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
- * Lens bar: changed in a version, this week, more lenses (type, tier, coverage, localization, source), list view, and
+ * Lens bar: changed in a version (one pill for the remembered major plus a menu of every major, D72), this week, more
+ * lenses (type, tier, coverage, localization, source), list view, and
  * at system level the Tilt control (A): the same system as four planes, from graph/layers/<system>.json.
  * Tools: zoom, panel, full screen. With `questions` (the home page, D70), a "Questions" menu opens the lens bar.
  */
 import type { Question } from "../lib/questions";
+import { majors } from "../lib/versions";
 interface Props { height?: string; label?: string; questions?: Question[] }
 const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central", questions = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
+// D72: labels and the vNext flag of every major come from config, never from the graph
+const majorsMeta = Object.fromEntries(majors().map((m) => [m.version, m.vnext ? { label: m.label, vnext: true } : { label: m.label }]));
 ---
-<section class="galaxy" data-base={base} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
+<section class="galaxy" data-base={base} data-majors={JSON.stringify(majorsMeta)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
   <canvas aria-hidden="true"></canvas>
   <div class="g-labels"></div>
   <div class="g-ports" role="group" aria-label="Where the focused star crosses into other systems"></div>
@@ -26,6 +30,13 @@ const base = import.meta.env.BASE_URL;
         </ul>
       </details>
     )}
+    <div class="g-vlens" hidden>
+      <button type="button" class="g-lens" data-g-vpill aria-pressed="false"><span></span> <span class="g-lens-n"></span></button>
+      <details class="ask g-ask g-vmenu">
+        <summary aria-label="Other versions" title="Other versions"></summary>
+        <ul></ul>
+      </details>
+    </div>
     <label class="skip" for="g-lens">More lenses</label>
     <select id="g-lens" data-g-lens><option value="">more lenses</option></select>
     <button type="button" class="g-lens" data-g-view aria-pressed="false">list view</button>
@@ -98,6 +109,17 @@ const base = import.meta.env.BASE_URL;
   .g-ask summary:hover, .g-ask[open] summary { color: var(--accent); border-color: var(--accent); }
   .g-ask ul { z-index: 3; max-height: calc(var(--g-h) - 100px); }
   @media (pointer: coarse) { .g-ask summary { min-height: 44px; } }
+  /* D72: one version pill fused with its caret; the menu lists every major the graph has changes for */
+  .g-vlens { position: relative; display: inline-flex; align-items: stretch; }
+  .g-vlens > :global(.g-lens) { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+  .g-vmenu { position: static; }
+  .g-vmenu summary { min-width: 32px; height: 100%; justify-content: center; padding: 0 8px; margin-left: -1px; font: 400 12px var(--font-mono); color: var(--text-2); border-color: var(--line-strong); border-top-left-radius: 0; border-bottom-left-radius: 0; }
+  .g-vmenu summary:hover, .g-vmenu[open] summary { color: var(--text); border-color: var(--text-2); }
+  .g-vmenu ul { width: min(240px, calc(100vw - 32px)); }
+  .g-vmenu :global(button) { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 32px; padding: 6px 10px; background: none; border: 0; border-radius: var(--r-card); color: var(--text); font: 500 13px var(--font-mono); text-align: left; cursor: pointer; }
+  .g-vmenu :global(button:hover), .g-vmenu :global(button:focus-visible) { background: var(--surface-raised); }
+  .g-vmenu :global(button[aria-current="true"]) { color: var(--accent); background: var(--accent-surface); }
+  @media (pointer: coarse) { .g-vmenu summary, .g-vmenu :global(button) { min-height: 44px; } }
   .g-lensbar :global(.g-lens[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
   .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
   @media (pointer: coarse) { .g-lensbar :global(.g-lens), .g-lensbar select { min-height: 44px; } }
@@ -206,6 +228,7 @@ const base = import.meta.env.BASE_URL;
     .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 32px); top: 90px; flex-wrap: nowrap; overflow-x: auto; }
     .g-tools { top: 44px; }
     .g-ask ul { position: fixed; top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 70vh; }
+    .g-vlens { flex: none; }
     .g-legend { display: none; }
     .g-table, .galaxy:global(.g-panel-open) .g-table { inset: 136px 0 56px 0; right: 0; }
   }

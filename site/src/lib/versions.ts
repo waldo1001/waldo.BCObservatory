@@ -7,7 +7,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const DIR = resolve(process.cwd(), "..", "data", "code", "diffs", "version");
-const VERSIONS = JSON.parse(readFileSync(resolve(process.cwd(), "..", "config", "versions.json"), "utf8")) as { snapshot: string[]; majors: Record<string, { label: string }> };
+const VERSIONS = JSON.parse(readFileSync(resolve(process.cwd(), "..", "config", "versions.json"), "utf8")) as { snapshot: string[]; majors: Record<string, { label: string; vnext?: boolean }> };
 
 export type Change = "added" | "changed" | "removed";
 export interface MemberChange { version: string; change: Change }
@@ -50,11 +50,11 @@ export function objectHistory(key: string): ObjectHistory | null {
   return cache.get(key) ?? null;
 }
 
-/** Every major with W1 data, full or a skeleton kept for its history (D62), oldest first: the timeline's columns. */
+/** Every major with W1 data, full or a skeleton kept for its history (D62), oldest first: the timeline's columns, the galaxy's version menu and the atlas lens (D72). */
 export const majors = () => Object.keys(VERSIONS.majors)
   .filter((v) => VERSIONS.snapshot.includes(v) || existsSync(resolve(process.cwd(), "..", "data", "code", v, "w1", "manifest.json")))
   .sort((a, b) => Number(a) - Number(b))
-  .map((v) => ({ version: v, label: VERSIONS.majors[v]?.label ?? `BC${v}` }));
+  .map((v) => ({ version: v, label: VERSIONS.majors[v]?.label ?? `BC${v}`, vnext: !!VERSIONS.majors[v]?.vnext }));
 
 const pill = (c: MemberChange[]) => c.map((x) => `<span class="pill" title="${x.change} in BC${x.version}">${x.change === "added" ? "+" : x.change === "removed" ? "−" : "Δ"} BC${x.version}</span>`).join(" ");
 

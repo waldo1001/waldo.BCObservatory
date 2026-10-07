@@ -116,7 +116,8 @@ Canvas 2D and DOM, no new runtime library, no WebGL. `site/src/scripts/galaxy.ts
   panel. A port flies to the target system; when the target object is a star, it focuses that star, otherwise it
   lands at system level with the object listed (and linked to its page) in the panel. See conflict 3.4.
 - One **lens bar** replacing the `<select>`: "changed in BC29", "changed in BC30 (vNext)", "this week" first, then
-  type, tier, localization, source (the last two keep a picker), "list view". The search lens stays as it is.
+  type, tier, localization, source (the last two keep a picker), "list view". The search lens stays as it is. (The per-version pills grew to seven with D62;
+  superseded by `docs/specs/version-lens.md`, D72: one pill with a version menu.)
 - **Exit dock** in the star panel, real links only. Objects: Neighbourhood (object page `#neighbourhood` until phase
   3, then C), Versions (`/code/versions/<pair>/`), Events (`/events/?q=<object name>`, number = `ec`), Country diff
   (`/localizations/<cc>/` for the first replacing country; number = country count), Atlas (`/objects/?ns=<namespace>`).

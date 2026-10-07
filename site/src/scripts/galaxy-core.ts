@@ -45,3 +45,21 @@ export function sortRows<T extends Sortable>(rows: T[], key: SortKey): T[] {
 
 /** D71: the landed-this-week rings and pulse draw only while the this-week lens is the active lens. */
 export const landedRingsOn = (lensId: string | null | undefined): boolean => lensId === "landed";
+
+/** A major's labels from config/versions.json, passed to the galaxy as `data-majors` (D72). */
+export interface MajorMeta { label: string; vnext?: boolean }
+export interface VersionEntry { id: string; version: string; label: string; title: string; count: number; active: boolean }
+/**
+ * D72, the version menu: every major the graph has changes for, newest first; `remembered` = active ?? newest. A major
+ * config does not list falls back to `BC<v>`; a major config lists but no star changed in gets no entry.
+ */
+export function versionMenu(
+  versions: readonly string[], counts: ReadonlyMap<string, number>, majors: Record<string, MajorMeta>, active: string | null,
+): { remembered: string | null; entries: VersionEntry[] } {
+  const vs = [...new Set(versions)].sort((a, b) => Number(b) - Number(a));
+  const entries = vs.map((v) => ({
+    id: `version:${v}`, version: v, label: `BC${v}${majors[v]?.vnext ? " vNext" : ""}`, title: majors[v]?.label ?? `BC${v}`,
+    count: counts.get(v) ?? 0, active: v === active,
+  }));
+  return { remembered: active && vs.includes(active) ? active : vs[0] ?? null, entries };
+}

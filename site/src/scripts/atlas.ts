@@ -7,8 +7,12 @@
 import { buildTree as buildTreeOf, descendants, nsSegments, squarify, type TreeNode } from "../../../pipeline/lib/treemap";
 type Row = [string, string, number | null, string, string | null, string | null, string | null, string | null, string, number, number];
 type Node = TreeNode<Row>;
-type Lens = "system" | "changed29" | "changed30" | "introduced" | "obsolete" | "learn" | "countries";
-const LENS_LABEL: Record<Lens, string> = { system: "galaxy system", changed29: "changed in BC29", changed30: "changed in BC30 (vNext)", introduced: "introduced in BC29 or later", obsolete: "obsolete share", learn: "documented on Learn", countries: "replaced by countries" };
+/** D72: one `changed:<major>` lens per major the page renders (config/versions.json), the rest fixed. */
+type Lens = "system" | `changed:${string}` | "introduced" | "obsolete" | "learn" | "countries";
+const LENS_FIXED: Record<string, string> = { system: "galaxy system", obsolete: "obsolete share", learn: "documented on Learn", countries: "replaced by countries" };
+/** The legend's wording of a lens; `introFrom` is the first major an object can be introduced in (the second snapshot). */
+export const lensLabel = (lens: Lens, introFrom: string | undefined): string =>
+  lens.startsWith("changed:") ? `changed in BC${lens.slice(8)}` : lens === "introduced" ? `introduced in BC${introFrom ?? "?"} or later` : LENS_FIXED[lens] ?? lens;
 const LABEL: Record<string, string> = { table: "Table", tableextension: "Table ext.", page: "Page", pageextension: "Page ext.", codeunit: "Codeunit", report: "Report", reportextension: "Report ext.", query: "Query", xmlport: "XMLport", enum: "Enum", enumextension: "Enum ext.", interface: "Interface", permissionset: "Permission set", permissionsetextension: "Perm. set ext.", entitlement: "Entitlement", profile: "Profile", controladdin: "Control add-in", pagecustomization: "Page cust.", dotnet: "DotNet" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
@@ -25,15 +29,16 @@ export function mountAtlas(root: HTMLElement): void {
   const lensSel = root.querySelector<HTMLSelectElement>("[name=lens]")!, typeSel = root.querySelector<HTMLSelectElement>("[name=type]")!, appSel = root.querySelector<HTMLSelectElement>("[name=app]")!;
   const introSel = root.querySelector<HTMLSelectElement>("[name=intro]")!, obsChk = root.querySelector<HTMLInputElement>("[name=obsolete]")!, nameIn = root.querySelector<HTMLInputElement>("[name=name]")!;
   const tip = root.querySelector<HTMLElement>(".atlas-tip")!;
+  const majors: string[] = (() => { try { return JSON.parse(root.dataset.majors ?? "[]"); } catch { return []; } })();
+  const introFrom = majors[1] ?? majors[0];
   let all: Row[] = [], filtered: Row[] = [], tree: Node, view: Node, hover: Node | null = null, shown = 200;
   const css = getComputedStyle(document.documentElement), v = (k: string) => css.getPropertyValue(`--${k}`).trim();
   const sysOf = (path: string) => (root.dataset.systems ? (JSON.parse(root.dataset.systems) as Record<string, string>)[path.split(".")[0].toLowerCase()] : undefined);
   const metric = (rows: Row[], lens: Lens): number => {
     if (!rows.length) return 0;
     const share = (f: (r: Row) => boolean) => rows.filter(f).length / rows.length;
+    if (lens.startsWith("changed:")) { const m = lens.slice(8); return share((r) => r[8].split(" ").includes(m)); }
     switch (lens) {
-      case "changed29": return share((r) => r[8].split(" ").includes("29"));
-      case "changed30": return share((r) => r[8].split(" ").includes("30"));
       case "introduced": return share((r) => r[7] !== null);
       case "obsolete": return share((r) => !!r[6] && r[6] !== "No");
       case "learn": return share((r) => r[9] > 0);
@@ -85,7 +90,7 @@ export function mountAtlas(root: HTMLElement): void {
     (view as Node & { kids?: Node[] }).kids = kids;
     crumbs.innerHTML = [`<button type="button" data-ns="">All objects</button>`, ...view.path.split(".").filter(Boolean).map((seg, i, a) => `<button type="button" data-ns="${esc(a.slice(0, i + 1).join("."))}">${esc(seg)}</button>`)].join('<span aria-hidden="true"> / </span>');
     for (const b of crumbs.querySelectorAll<HTMLButtonElement>("button")) b.addEventListener("click", () => zoomTo(b.dataset.ns ?? ""));
-    legend.textContent = lens === "system" ? "Size = objects. Colour = the galaxy system of the namespace. Click a block to zoom in; the table lists what you see." : `Size = objects. Brightness = share ${LENS_LABEL[lens]} (${Math.round(metric(descendants(view), lens) * 100)}% of the ${descendants(view).length} objects in view).`;
+    legend.textContent = lens === "system" ? "Size = objects. Colour = the galaxy system of the namespace. Click a block to zoom in; the table lists what you see." : `Size = objects. Brightness = share ${lensLabel(lens, introFrom)} (${Math.round(metric(descendants(view), lens) * 100)}% of the ${descendants(view).length} objects in view).`;
   }
   const zoomTo = (path: string) => { let n: Node | undefined = tree; for (const seg of path.split(".").filter(Boolean)) n = n?.children.get(seg); view = n ?? tree; hover = null; shown = 200; draw(); table(); const url = new URL(location.href); if (view.path) url.searchParams.set("ns", view.path); else url.searchParams.delete("ns"); history.replaceState(null, "", url); };
   const kidAt = (mx: number, my: number) => ((view as Node & { kids?: Node[] }).kids ?? []).find((k) => mx >= k.x && mx <= k.x + k.w && my >= k.y && my <= k.y + k.h) ?? null;
@@ -111,7 +116,7 @@ export function mountAtlas(root: HTMLElement): void {
       for (const val of vals) { const o = document.createElement("option"); o.value = val; o.textContent = name === "type" ? (LABEL[val] ?? val) : val; sel.append(o); }
     }
     const p = new URLSearchParams(location.search);
-    lensSel.value = p.get("lens") ?? "system"; typeSel.value = p.get("type") ?? ""; appSel.value = p.get("app") ?? ""; introSel.value = p.get("intro") ?? ""; obsChk.checked = p.get("obs") === "1"; nameIn.value = p.get("q") ?? "";
+    lensSel.value = (p.get("lens") ?? "system").replace(/^changed(\d+)$/, "changed:$1"); if (!lensSel.value) lensSel.value = "system"; typeSel.value = p.get("type") ?? ""; appSel.value = p.get("app") ?? ""; introSel.value = p.get("intro") ?? ""; obsChk.checked = p.get("obs") === "1"; nameIn.value = p.get("q") ?? "";
     view = { name: "", path: p.get("ns") ?? "", children: new Map(), rows: [], count: 0, x: 0, y: 0, w: 0, h: 0 } as Node;
     apply();
   }).catch(() => { legend.textContent = "The objects index is not available."; });
