@@ -48,13 +48,15 @@ free number across origin, your tree and every other worktree:
 
 ```bash
 git fetch -q origin
-{ git show origin/main:docs/DECISIONS.md origin/main:docs/PLAN.md origin/main:docs/HANDOFF.md
-  for w in $(git worktree list --porcelain | awk '/^worktree /{print $2}'); do
-    cat "$w"/docs/DECISIONS.md "$w"/docs/PLAN.md "$w"/docs/HANDOFF.md "$w"/docs/specs/*.md 2>/dev/null
-  done; } | grep -oE '\b[DM][0-9]{2,3}\b' | sort -u | sort -t' ' -k1.1,1.1 -k1.2n | tail -6
+{ for f in DECISIONS.md PLAN.md HANDOFF.md; do git show origin/main:docs/$f; done
+  git worktree list --porcelain | awk '/^worktree /{print $2"/docs"}' |
+    xargs -I@ find @ -maxdepth 2 -name '*.md' -exec cat {} + 2>/dev/null
+} | grep -oE '\b(D[0-9]{2,3}|M[0-9]{1,2})\b' | sort -u |
+  awk '{t=substr($0,1,1); n=substr($0,2)+0; if (n>m[t]) m[t]=n} END {print "highest D" m["D"] ", highest M" m["M"]}'
 ```
 
-Take one above the highest D and the highest M, write them into the spec header as "reserved", and push soon
+Take one above each (on 2026-10-07 the output was D73 and M11, held by the media-rows spec session, so the next
+spec takes D74 and M12), write them into the spec header as "reserved", and push soon
 (section 8): the push is what claims them.
 
 ## 6. The spec file
