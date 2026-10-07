@@ -1,0 +1,191 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10903,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10903",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T13:37:53Z",
+  "merge_commit_sha": "56b3295ffb3870580c12fe4cd4b9c00f49ed8e6a",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "SCM",
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30442: allow filtering item units during weight updates",
+  "body_hash": "b30d905f730adf17445e8dc64d04a46fcee4bf44d01fb457feaf06d1c3af90f6",
+  "fixes_issues": [],
+  "work_items": [
+    648438
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/Item.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 48,
+    "deletions": 0,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/27"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/Item.Table.al",
+        "status": "modified",
+        "key": "table/27",
+        "type": "table",
+        "id": 27,
+        "name": "Item",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/27"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 145,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/145",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T12:58:59Z",
+  "merge_commit_sha": "7a41d25bbd2df541d38ec2ab84a8fc0c8f06a3b2",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Process Context via manual event subscriber pattern",
+  "body_hash": "9f2a9c84dcb6bb4fbf1d5b981cf947b052a7dc6b83b22e75f00e45cb75a0e8b5",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.bad.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.good.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.md",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 182,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/events/expose-process-context-via-manually-bound-flag.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

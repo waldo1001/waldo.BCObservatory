@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 147,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/147",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T13:21:07Z",
+  "merge_commit_sha": "182180913e6c90b62e6c2a65f13371e53c7adb5e",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "ShowMandatory + OnQueryClosePage Check",
+  "body_hash": "8e4cf126b33da179032502a6c6dd6b12830dfe9a326df8e36e0c18fad9f75c03",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.bad.al",
+      "status": "added",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.good.al",
+      "status": "added",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.bad.al",
+      "status": "added",
+      "additions": 96,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.good.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 342,
+    "deletions": 0,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/ui/showmandatory-on-code-required-page-fields.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

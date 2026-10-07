@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10902",
+  "number": 10902,
+  "title": "[Extensibility Request] issue 30424: add prepayment update event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A handled integration event was added to allow extensions to control prepayment amount updates when correcting posted sales invoices.",
+  "key_points": [
+    "New `UpdateSalesOrderLinePrepmtAmount` event fires before prepayment amounts are updated",
+    "Subscribers can mark the event as handled to prevent standard prepayment updates",
+    "Event added across W1, APAC, and ES layers in Correct Posted Sales Invoice codeunit",
+    "Provides extensibility for custom prepayment handling logic",
+    "Enables subscribers to skip automatic prepayment restoration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "Extensions need a supported way to prevent sales order prepayment amounts from being restored when correcting a posted sales invoice.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003351,
+    "changes_in_call": 1
+  }
+}

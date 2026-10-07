@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/136",
+  "number": 136,
+  "title": "Add community knowledge: AL boolean operators do not short-circuit",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two community knowledge articles explain AL's lack of short-circuit evaluation for boolean operators and recommend using case statements as alternatives for complex condition chains.",
+  "key_points": [
+    "AL boolean operators (and, or, xor) do not guarantee short-circuit evaluation, meaning all operands are evaluated regardless of the left operand's result",
+    "Demonstrates how this can cause silent bugs like accessing uninitialized records or array out-of-bounds conditions",
+    "Provides pattern for or conditions using early exit (if A then exit(true); exit(B);) instead of nested if rewrite",
+    "Recommends case true/false of statements as flatter alternative for condition chains longer than three nested if statements",
+    "Includes good and bad code examples for both boolean operator patterns and case statement usage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "AL gives no short-circuit (lazy) evaluation guarantee for `and`, `or`, or `xor`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004704,
+    "changes_in_call": 1
+  }
+}

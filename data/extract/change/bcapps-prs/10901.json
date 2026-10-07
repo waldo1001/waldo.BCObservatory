@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10901",
+  "number": 10901,
+  "title": "[Extensibility Request] issue 30428: add sales order line update event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A new event OnBeforeUpdateSalesOrderLineIfExist allows extensions to intercept and override the default sales order line update logic during sales return order posting, enabling custom handling of prepayment amounts.",
+  "key_points": [
+    "New OnBeforeUpdateSalesOrderLineIfExist event added to Sales-Post codeunit",
+    "Event includes an initialized IsHandled parameter for overriding standard behavior",
+    "Enables extensions to prevent automatic prepayment amount restoration to open orders",
+    "Added across all localization layers (W1, APAC, BE, CH, ES, FI, FR, GB, IT, NA, NO, RU)",
+    "Allows subscribers to implement custom update logic that fits their business requirements"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Extensions need to bypass the standard sales order line update when posting sales return orders",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004096,
+    "changes_in_call": 1
+  }
+}

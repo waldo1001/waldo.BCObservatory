@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10638",
+  "number": 10638,
+  "title": "[Master] [Expense Agent] Bug 639921 Confirm before closing Expense User Card without Employee No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense User card now prompts for confirmation when closing without selecting an employee, preventing accidental creation of unlinked expense user records.",
+  "key_points": [
+    "Added OnQueryClosePage trigger to validate Employee No. field before closing",
+    "User receives confirmation dialog when trying to close with blank Employee No.",
+    "Prevents silent creation of expense users not linked to an employee",
+    "Tests updated with handler functions to manage confirmation dialogs"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003345,
+    "changes_in_call": 1
+  }
+}

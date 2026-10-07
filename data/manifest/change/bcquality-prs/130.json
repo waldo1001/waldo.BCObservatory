@@ -6,10 +6,18 @@
   "title": "knowledge(performance): align SetLoadFields placement with AL Guidelines",
   "url": "https://github.com/microsoft/BCQuality/pull/130",
   "published_at": "2026-09-02T12:44:09Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:17.343Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
     }
   },
   "input_hash": "3e848d1ec2a25a36249015673911827cfefd036f:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge performance align setloadfields placement with al guidelines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2137f03b56fb8c458af98209661f969b9cac163146704bfb1f031de88bc57f6b"
 }

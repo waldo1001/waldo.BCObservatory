@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10775",
+  "number": 10775,
+  "title": "[Shopify] Optimize unmapped cue counts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify cue counts for unmapped items now use stored SystemId fields and a new key to enable efficient SQL queries instead of materializing tables row by row during Role Center refresh.",
+  "key_points": [
+    "Changed cue calculations to count empty Customer and Item SystemId fields instead of using lookup FlowFields",
+    "SQL can now execute direct COUNT(*) queries instead of materializing source tables",
+    "Added a new key led by Item SystemId for efficient global unmapped-product seeking",
+    "Records with deleted Customer or Item references are no longer included in counts"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003482,
+    "changes_in_call": 1
+  }
+}

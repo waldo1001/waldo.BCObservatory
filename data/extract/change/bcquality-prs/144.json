@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/144",
+  "number": 144,
+  "title": "Avoid Public Event publisher",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new knowledge article explains that event publishers should be declared local or internal rather than public, since the access modifier controls who can raise the event (not who can subscribe), and public publishers create immutable caller contracts after release. Four existing Microsoft-layer publishers had their unnecessary public access modifiers removed.",
+  "key_points": [
+    "Event publisher access modifiers govern who may raise the event, not who may subscribe to it",
+    "Making a publisher public creates a permanent caller contract that cannot be narrowed after release",
+    "Publishers should be local (when raised only by their declaring object) or internal (behind a public facade)",
+    "A new community knowledge article documents this design principle with code samples",
+    "Four existing Microsoft publishers were corrected to remove incidental public modifiers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "the access modifier governs who may *raise* the event, not who may subscribe",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003525,
+    "changes_in_call": 1
+  }
+}

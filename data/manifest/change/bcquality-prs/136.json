@@ -6,10 +6,35 @@
   "title": "Add community knowledge: AL boolean operators do not short-circuit",
   "url": "https://github.com/microsoft/BCQuality/pull/136",
   "published_at": "2026-09-02T12:48:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:15.482Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:21.335Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004704
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:24.820Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:05:24.825Z",
+      "path": "content/changes/bcquality/136.md"
     }
   },
   "input_hash": "c39f723caedbdf622c9da6cdcb664b28f3ee2f10:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add community knowledge al boolean operators do not short circuit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ed4459ad9ddd675c18ec42fc5fc83cd17d9b4e477476820abcc15e17864f8aff"
 }

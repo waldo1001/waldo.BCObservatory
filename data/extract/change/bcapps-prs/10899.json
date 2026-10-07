@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10899",
+  "number": 10899,
+  "title": "[Extensibility Request] issue 30433: expose consolidated calendar entry before insert",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A new integration event exposes consolidated work center calendar entries and their source data before insertion, allowing extensions to preserve metadata and adjust records.",
+  "key_points": [
+    "New integration event fires before consolidated calendar entries are inserted",
+    "Event provides access to filtered source calendar entries and the generated entry",
+    "Subscribers can transfer metadata or derive values from source entries",
+    "Non-handled event preserves standard insertion logic",
+    "Addresses extensibility gap when generating consolidated work center calendars"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "adds an integration event immediately before insertion so subscribers can inspect all contributing entries and modify the consolidated entry",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003357,
+    "changes_in_call": 1
+  }
+}

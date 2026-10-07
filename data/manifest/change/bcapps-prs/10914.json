@@ -6,7 +6,7 @@
   "title": "[Expense Agent] Fix setup API language permission",
   "url": "https://github.com/microsoft/BCApps/pull/10914",
   "published_at": "2026-09-02T15:01:18Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003087
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:07.990Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:07.995Z",
+      "path": "content/changes/bcapps/10914.md"
     }
   },
   "input_hash": "08a4b7d51cd35d6caa8305aeb622c049ed9c3c55:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e578679550efc69fa8f0ebe3848967012a4f20c23b9f9083702fb1acc292765d"
+  "output_hash": "836ff18bd8c90c93b6e7ef65cae191c4777ccf8cd8611cffb913eab95fc5b5f0"
 }

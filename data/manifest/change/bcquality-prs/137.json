@@ -6,10 +6,35 @@
   "title": "Add community guidance and review support for Business Central agents",
   "url": "https://github.com/microsoft/BCQuality/pull/137",
   "published_at": "2026-09-02T14:06:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:08.904Z",
+      "change_class": "code",
+      "files": 65,
+      "al": 61,
+      "objects": 0,
+      "unjoined": 61
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:14.024Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005086
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:14.026Z",
+      "objects": 0,
+      "unjoined": 61,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:05:14.033Z",
+      "path": "content/changes/bcquality/137.md"
     }
   },
   "input_hash": "53e2cf2fa4e582191efdc3effa6a935af864c08f:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add community guidance and review support for business central agents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "292b80cd50d54c4c395d1bed8fe846b1d6efa583f500ba5143a66c0bf43ce462"
 }

@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30424: add prepayment update event",
   "url": "https://github.com/microsoft/BCApps/pull/10902",
   "published_at": "2026-09-02T13:26:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:11.216Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:15.825Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003351
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:16.035Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:16.040Z",
+      "path": "content/changes/bcapps/10902.md"
     }
   },
   "input_hash": "ff1f74284638bfb293973bd2019382665b3df4c7:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30424 add prepayment update event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ae872d39a1f53d0fbc6ce4ada22e1b9b8513c94b0b2fb08de7f0f617753f2fe"
 }

@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 136,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/136",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T12:48:33Z",
+  "merge_commit_sha": "c39f723caedbdf622c9da6cdcb664b28f3ee2f10",
+  "author": "aacnsilva",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add community knowledge: AL boolean operators do not short-circuit",
+  "body_hash": "d9bfcbf808f9c190e74b56df37b8ef44b574788b20f3ac56642c7a66354d62f8",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.bad.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.good.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.bad.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.good.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 215,
+    "deletions": 0,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/boolean-operators-do-not-short-circuit.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/case-true-of-for-long-condition-chains.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10638,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10638",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T14:20:53Z",
+  "merge_commit_sha": "dcf753455d8c4a6dbc3afc511a78cefbe3ce00b0",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] [Expense Agent] Bug 639921 Confirm before closing Expense User Card without Employee No.",
+  "body_hash": "b74e9aa3d89e32211b2af496d07f4f705682b2afdb16f6d8e1a9af8bda4f95f5",
+  "fixes_issues": [],
+  "work_items": [
+    639921
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseUser.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTestII.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 13,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseUser.Page.al",
+        "status": "modified",
+        "key": "page/6949",
+        "type": "page",
+        "id": 6949,
+        "name": "Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6949"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

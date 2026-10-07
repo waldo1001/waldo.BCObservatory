@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/137",
+  "number": 137,
+  "title": "Add community guidance and review support for Business Central agents",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Business Central agent developers gain 20 community-authored guidance rules covering agent registration, permissions, profiles, instructions, session handling, and lifecycle management, with good and bad code examples for each rule.",
+  "key_points": [
+    "20 new community guidance rules for agent SDK implementations",
+    "Each rule includes documentation and contrasting AL code examples",
+    "Coverage spans registration, permissions, profiles, setup persistence, instructions, session behavior, and API design",
+    "New standalone al-agents-review action skill for automated review",
+    "Rules address least-privilege access, secure storage, lifecycle management, and input validation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": "Adds a new community knowledge domain for reviewing Business Central Agent SDK implementations.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005086,
+    "changes_in_call": 1
+  }
+}

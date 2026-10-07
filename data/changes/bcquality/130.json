@@ -1,0 +1,130 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 130,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/130",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T12:44:09Z",
+  "merge_commit_sha": "3e848d1ec2a25a36249015673911827cfefd036f",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(performance): align SetLoadFields placement with AL Guidelines",
+  "body_hash": "c9a3ab8c519611eed9f91dc48516f37fa221fad48b74959ee73418906612eb1c",
+  "fixes_issues": [
+    120
+  ],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.bad.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/load-only-primary-key-fields-for-reference-work.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.bad.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setloadfields-for-partial-records.good.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setloadfields-for-partial-records.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 11,
+    "deletions": 9,
+    "al": 7
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/load-only-primary-key-fields-for-reference-work.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setloadfields-for-partial-records.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setloadfields-for-partial-records.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 120,
+      "title": "Clarify the correct order of Filtering and SetLoadFields",
+      "state": "closed"
+    }
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "ShowMandatory + OnQueryClosePage Check",
   "url": "https://github.com/microsoft/BCQuality/pull/147",
   "published_at": "2026-09-02T13:21:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:15.570Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:21.199Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003853
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:21.201Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:05:21.204Z",
+      "path": "content/changes/bcquality/147.md"
     }
   },
   "input_hash": "182180913e6c90b62e6c2a65f13371e53c7adb5e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "showmandatory onqueryclosepage check"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ee5cd0995d7ddddc912a21aa11c58ee1b9e5ca32ac7dbf77f2aded5903aa698"
 }

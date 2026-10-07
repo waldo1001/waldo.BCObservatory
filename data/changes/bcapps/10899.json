@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10899,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10899",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T13:50:59Z",
+  "merge_commit_sha": "f738788d1bc3ac974fcc714a1658625dc66bf74a",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "SCM",
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30433: expose consolidated calendar entry before insert",
+  "body_hash": "6245d1f60ffa7cbcd148af5b72a106b8ad81ae8fb2bc37aa253efb8bbff41664",
+  "fixes_issues": [],
+  "work_items": [
+    648439
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/CalculateWorkCenterCalendar.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/CalculateWorkCenterCalendar.Report.al",
+        "status": "modified",
+        "key": "report/99001046",
+        "type": "report",
+        "id": 99001046,
+        "name": "Calculate Work Center Calendar",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001046"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

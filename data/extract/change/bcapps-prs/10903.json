@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10903",
+  "number": 10903,
+  "title": "[Extensibility Request] issue 30442: allow filtering item units during weight updates",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Extensions can now filter item units of measure during weight recalculation by subscribing to a new integration event that fires before the calculation begins.",
+  "key_points": [
+    "New integration event OnUpdateItemUnitOfMeasureWeightOnBeforeCalcWeight added to Item table",
+    "Event fires before weight recalculation to allow subscribers to adjust the item-unit filter",
+    "Enables exclusion of selected units including the base unit from weight updates",
+    "Event propagated across all regional layers (W1, NA, GB, CH, ES, IT, APAC, RU)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Extensions need to exclude selected item units of measure, including the base unit, when recalculating weights from the item's net weight.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00367,
+    "changes_in_call": 1
+  }
+}

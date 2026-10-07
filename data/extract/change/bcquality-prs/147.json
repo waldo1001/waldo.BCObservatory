@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/147",
+  "number": 147,
+  "title": "ShowMandatory + OnQueryClosePage Check",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new UI community knowledge articles with code examples demonstrate best practices for marking required fields and validating request page input to prevent common defects like fields appearing optional or losing user input on validation errors.",
+  "key_points": [
+    "ShowMandatory property draws an asterisk but doesn't enforce requirements; use TestField or NotBlank to enforce and show the field is required",
+    "OnPreReport runs after the request page closes, so validation errors there lose user input; validate in OnQueryClosePage instead",
+    "Guard OnQueryClosePage validation with CloseAction to avoid errors when users cancel",
+    "Keep OnPreReport validation for reports with no request page",
+    "Articles include bad and good AL code examples to illustrate the defects and correct approaches"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003853,
+    "changes_in_call": 1
+  }
+}

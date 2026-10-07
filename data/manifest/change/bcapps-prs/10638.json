@@ -6,10 +6,35 @@
   "title": "[Master] [Expense Agent] Bug 639921 Confirm before closing Expense User Card without Employee No.",
   "url": "https://github.com/microsoft/BCApps/pull/10638",
   "published_at": "2026-09-02T14:20:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:08.142Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:12.798Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003345
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:12.945Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:12.951Z",
+      "path": "content/changes/bcapps/10638.md"
     }
   },
   "input_hash": "dcf753455d8c4a6dbc3afc511a78cefbe3ce00b0:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master expense agent bug 639921 confirm before closing expense user card without employee no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3efbe2c4c76a8a8dc3d5000b0f37a58587c278778a5f981f3858c00aac694f70"
 }
