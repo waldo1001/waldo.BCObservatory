@@ -171,12 +171,6 @@ Deliberate deviations from PLAN, all small:
   made it actually parallel: incremental checkpoint leak gate (D26) and workers that stay until the plan is drained
   (D33). After it ends, the scheduled 01:00 nightly runs with normal caps.
 
-- Discovery spec written 2026-10-07 (`docs/specs/discovery.md`, reserves D61): render the extracted field ToolTips,
-  join hubs to their pages/reports/tables through `docs-objects.json`, rank hubs by size and review state with grouped
-  search results, a deterministic Related block on every page, one page per first-party app, first-party apps placed
-  in their business system (`NS_SYSTEM`), and page layout/actions extraction with ToolTips projected onto table fields.
-  Four tranches, all zero-LLM; phases and exit criteria in the spec, section 8.
-
 ## Execution notes (2026-10-06)
 
 - The executor runs `concurrency` items at once (`config/budget.json`, default 3; `--concurrency N`). yt-dlp
