@@ -130,7 +130,7 @@ test("published page, object page section, reverse index, digest, search record 
   assert.ok(r.written >= 1);
   const obj = matter(readFileSync(join(w.contentDir, "objects/table/3.md"), "utf8"));
   assert.deepEqual(obj.data.links.changes, ["change/bcapps/101"]);
-  assert.match(obj.content, /## Recent changes\n\n- 2026-10-05 \[#101 Payment terms: due date calculation\]\(\.\.\/\.\.\/changes\/bcapps\/101\.md\) \(main, BC30, feature\)\n\n## Ask your agent\n/);
+  assert.match(obj.content, /## Recent changes\n\n- 2026-10-05 \[#101 Payment terms: due date calculation\]\(\.\.\/\.\.\/changes\/bcapps\/101\.md\) \(main, BC30, feature\)\n\n## Across versions\n/);
   assert.equal(renderCodePages(w.dataDir, w.contentDir, now).written, 0, "nothing moved: no rewrite");
   assert.deepEqual(validateContent(w.contentDir, now).errors, []);
   // digest

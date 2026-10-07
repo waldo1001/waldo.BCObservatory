@@ -253,11 +253,17 @@ test("call graph sections (D67): Calls, Called by, Implements, Implemented by wi
   assert.match(content, /## Called by\n\n(- codeunit\/9\d{3} \(1 call: `Run → PostSalesDoc`\)\n){50}- and 2 more: data\/code\/graph\/29\/calls\.json\n/);
   assert.ok(content.indexOf("## Called by") < content.indexOf("## Ask your agent"), "the sections come before the atlas block");
   assert.ok(content.includes('`bcatlas_resolve_node(object_type: "codeunit", object_name: "Sales-Post")`'));
+  // D75: the block is the last section and says the call sections above come from this page's major
+  const lastHeading = (c: string) => c.match(/^## .+$/gm)!.at(-1);
+  assert.equal(lastHeading(content), "## Ask your agent");
+  assert.match(content.slice(content.indexOf("## Ask your agent")), /^## Ask your agent\n\nProcedure bodies are not stored here \(D10\)\. The call sections above are our own, per object, from the BC29 call graph\. [^\n]+\n$/);
   const v16 = matter(readFileSync(join(contentDir, "objects/codeunit/7002.md"), "utf8"));
   assert.match(v16.content, /## Implements\n\n- \[Interface "Price Calculation"\]\(\.\.\/interface\/price-calculation\.md\)\n/);
   const iface = matter(readFileSync(join(contentDir, "objects/interface/price-calculation.md"), "utf8"));
   assert.equal(iface.data.relations.implemented_by, 1);
   assert.match(iface.content, /## Implemented by\n\n- \[Codeunit 7002 "Price Calculation - V16"\]/);
+  assert.match(iface.content, /The call sections above are our own/, "Implemented by counts as a call section");
+  assert.equal(lastHeading(iface.content), "## Ask your agent");
   assert.deepEqual(validateContent(contentDir).errors, []);
   // no call graph for the page's major: the atlas block, no sections, no counts
   const { rmSync } = await import("node:fs");
@@ -266,6 +272,7 @@ test("call graph sections (D67): Calls, Called by, Implements, Implemented by wi
   renderCodePages(dataDir, bare, new Date("2026-10-07T00:00:00Z"));
   const plain = matter(readFileSync(join(bare, "objects/codeunit/80.md"), "utf8"));
   assert.doesNotMatch(plain.content, /## Calls|## Called by|## Implements/);
-  assert.match(plain.content, /## Ask your agent/);
+  assert.equal(lastHeading(plain.content), "## Ask your agent", "without calls the block is still last");
+  assert.doesNotMatch(plain.content, /call sections above/);
   assert.equal(plain.data.relations.calls, undefined);
 });

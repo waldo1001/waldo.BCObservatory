@@ -6,11 +6,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Open specs, not yet implemented
 
-- **Atlas on pages** (`docs/specs/atlas-on-pages.md`, D75, M13). Status: proposed 2026-10-07, nothing implemented.
-  Start with phase 0 task 1: count `## Calls` on `origin/main` object pages after the next finished nightly (the
-  committed BC28/29 graphs render 5,582 Calls and 2,808 Called by sections; today 0 pages show them). Then phase 1:
-  `askYourAgent` in `pipeline/render/object.ts` becomes one closing paragraph. Until it lands readers see no call
-  sections and an atlas block that says the call graph is not stored here.
 - **Site size** (`docs/specs/site-size.md`, D76, M14). Status: proposed 2026-10-07, nothing implemented. Start with
   phase 1 (`scripts/site-size.ts` and its tests, then the `pages.yml` step); phase 2 is three component style blocks.
   Until it lands the Pages check counts disk blocks (12% over the real size) and the next growth fails a deploy with
@@ -31,6 +26,11 @@ questions in its section 12).
   wraps with `break-word`, markdown tables sit in `.table-scroll` and fill the width, pills never wrap; on
   `objects/table/32/` at 1280 Name/Type went from 89/76 to 136/99 px. The next nightly rewrites the 429 video pages
   with no verified evidence to a three-column Features table (no LLM). Deviations in the spec's section 12.
+- **Atlas on pages, D75** (`docs/specs/atlas-on-pages.md`, M13): "Ask your agent" is one closing paragraph that
+  names our call sections and sends agents to the atlas only for bodies and per-procedure edges; `bc-grounding`
+  routes object-level callers to the observatory (plugin 0.2.1). The next nightly rewrites every object page once
+  (text only, no LLM). Recount `git grep -l '^## Calls' origin/main -- content/objects` after it: expected 5,582
+  (2,808 Called by); spec section 12.
 - **One version pill in the galaxy lens bar, D72** (`docs/specs/version-lens.md`, M10): both phases on `dev/next`.
   The seven "changed in BC<v>" pills are one pill for the remembered major plus a version menu with counts, labels
   from `config/versions.json`; the Objects atlas takes its majors from config; every printed version list goes

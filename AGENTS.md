@@ -24,8 +24,9 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
    exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. Procedure
-   bodies and the full call graph are not here by policy; the plugin also connects bc-code-atlas (Stefan Maron) for
-   those, and every object page says how to ask it.
+   bodies are not here by policy; object pages list calls and callers per object (`data/code/graph/<major>/`, D67); the
+   plugin also connects bc-code-atlas (Stefan Maron) for bodies and per-procedure edges, and every object page says how
+   to ask it (D75).
 
 ## If you are an agent (or human) changing this repository
 
