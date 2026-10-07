@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10458",
+  "number": 10458,
+  "title": "SOA Setup page tooltips improvement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The SOA Setup page received improved tooltips to provide better guidance to users configuring the Sales Order Agent feature.",
+  "key_points": [
+    "Updated tooltips on the SOA Setup page for clarity",
+    "Affects the Sales Order Agent configuration page",
+    "Minimal change with 2 line additions and 2 removals",
+    "Improves user experience during setup"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003005,
+    "changes_in_call": 1
+  }
+}

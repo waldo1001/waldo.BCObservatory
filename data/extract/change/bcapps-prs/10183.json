@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10183",
+  "number": 10183,
+  "title": "Bug 646432: [master] [Sustainability] Line does not indicate/enforce which Calculation Foundation is in use; all formula input fields are editable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Sustainability Journal and Purchase Order lines now enforce field editability based on the selected account category's Calculation Foundation and Emission Scope, preventing users from editing formula inputs that are not supported by the chosen calculation method.",
+  "key_points": [
+    "Formula input fields are now editable only when used by the selected Emission Scope and Calculation Foundation",
+    "Manual Input field changes, account selection changes, and unsupported combinations trigger automatic state refresh",
+    "Shared editability rules applied consistently across both Sustainability Journal and Purchase Order subform pages",
+    "Comprehensive test coverage added for Journal and Purchase Order combinations, fallback setup, and account changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "purchasing"
+  ],
+  "quote": "Only formula inputs used by the selected scope and calculation foundation are editable.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003745,
+    "changes_in_call": 1
+  }
+}

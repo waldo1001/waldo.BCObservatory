@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10370",
+  "number": 10370,
+  "title": "[Master]-Bug 647018: Withholding tax for Employees and GL Accounts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Withholding tax for employees now inherits the WHT product posting group from GL accounts when used as balance accounts in general journal lines, enabling support for various employee payment scenarios beyond expense management.",
+  "key_points": [
+    "WHT product posting group can now be inherited from GL account to general journal line",
+    "Supports diverse employee payment types including dividends, stock compensation, and professional services",
+    "GL accounts can function as balance accounts for WHT inheritance",
+    "Extends WHT functionality beyond expense management use cases"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "quote": "WHT product posting group inherited from GL account to the General Journal line when used GL as a balance account.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003393,
+    "changes_in_call": 1
+  }
+}

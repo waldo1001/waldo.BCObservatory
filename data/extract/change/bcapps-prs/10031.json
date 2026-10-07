@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10031",
+  "number": 10031,
+  "title": "Add AI-assisted policy evaluation backend to Expense Agent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent now supports AI-assisted policy evaluation, storing immutable evaluation results for each policy and expense report subject, with new tables, pages, and APIs to track compliance status and enable policy validation at approval.",
+  "key_points": [
+    "Added Expense Policy Evaluation table to record immutable results including policy snapshot, compliance verdict, and timestamp",
+    "Expense report lines now expose policy status (No Policies, Not Evaluated, Needs Recheck, Flagged, or Cleared) with lazy currency tracking",
+    "New APIs for expense policies, policy evaluations, and policies awaiting evaluation with atomic completion and stale-buffer protection",
+    "API renames: expensePolicyFlag to expensePolicyEvaluation, expensePolicyFlags to expensePolicyEvaluations, and similar for posted records",
+    "UI improvements showing policy status on expense lines with green for compliant and yellow for non-compliant results"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Expense Agent needs a backend contract for AI-assisted policy evaluation that records both compliant and non-compliant results.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013974,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9362,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9362",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T17:31:09Z",
+  "merge_commit_sha": "a31d921d644d13e8c571c944858a86e1a2d87a58",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FI] Delocalize FI VAT-VIES Declaration report into FI Core",
+  "body_hash": "d00efe2d740eac137082bd126293c9b3a499d5e9af5a892b2798cd022c3e4194",
+  "fixes_issues": [],
+  "work_items": [
+    622873
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FI/FICore/app/app.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreInitReportSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreVIESDeclFeature.Codeunit.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/ReportExtensions/FIVATVIESDeclTaxAuth.ReportExt.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/ReportExtensions/Layouts/VATVIESDeclarationTaxAuth.rdlc",
+      "status": "renamed",
+      "additions": 4,
+      "deletions": 15,
+      "class": "other",
+      "previous_filename": "src/Layers/FI/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.rdlc"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/TableExtensions/VATEntryFI.TableExt.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/test/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/FICore/test/src/FICompanyFieldReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 964,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FI/FICore/test/src/FIVIESFeatureHandler.Codeunit.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.rdlc",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 1414,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 361,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/CompanyFieldReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.rdlc",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.rdlc",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 17,
+    "additions": 1224,
+    "deletions": 1804,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+        "status": "modified",
+        "key": "report/19",
+        "type": "report",
+        "id": 19,
+        "name": "VAT- VIES Declaration Tax Auth",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/19"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreInitReportSubscribers.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/FICoreVIESDeclFeature.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/ReportExtensions/FIVATVIESDeclTaxAuth.ReportExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/TableExtensions/VATEntryFI.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Reporting/VATVIESDeclarationTaxAuth.Report.al",
+        "status": "removed",
+        "reason": "removed"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

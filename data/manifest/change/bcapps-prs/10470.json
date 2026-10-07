@@ -6,7 +6,7 @@
   "title": "Restore AL0424 to Warning in the base ruleset",
   "url": "https://github.com/microsoft/BCApps/pull/10470",
   "published_at": "2026-08-21T07:01:41Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "restore al0424 to warning in the base ruleset"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:08:34.799Z",
+  "retry_after": null
 }

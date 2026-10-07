@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 29643: enable split transfer demand profiles",
   "url": "https://github.com/microsoft/BCApps/pull/10166",
   "published_at": "2026-08-20T21:44:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:35.888Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:40.864Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003449
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:41.005Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:41.012Z",
+      "path": "content/changes/bcapps/10166.md"
     }
   },
   "input_hash": "5c3a015ac0b45d5fe5a894286a8d9f46467030d8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 29643 enable split transfer demand profiles"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "41ff256b3f055c9cce4da51732274cb529f1fd598a218bb7a64871737c175c50"
 }

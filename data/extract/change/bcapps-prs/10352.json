@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10352",
+  "number": 10352,
+  "title": "[Master]-Bug 646964: Withholding Tax Prod. Posting Group is missing o…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Withholding Tax Product Posting Group field is now added to the general and payment journal pages, allowing users to set and validate withholding tax posting groups for transactions.",
+  "key_points": [
+    "Withholding Tax Product Posting Group field added to General Journal page",
+    "Withholding Tax Product Posting Group field added to Payment Journal page",
+    "Validation logic updated in Withholding Tax Management codeunit",
+    "Ensures consistency between journal types for withholding tax setup"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003185,
+    "changes_in_call": 1
+  }
+}

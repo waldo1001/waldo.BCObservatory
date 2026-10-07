@@ -6,10 +6,35 @@
   "title": "Create released production orders from planning worksheet",
   "url": "https://github.com/microsoft/BCApps/pull/10364",
   "published_at": "2026-08-21T10:24:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:30.568Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:35.540Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003882
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:35.715Z",
+      "objects": 3,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:35.720Z",
+      "path": "content/changes/bcapps/10364.md"
     }
   },
   "input_hash": "34c01c9e745d2e8d53359cb7fce128ef6a3f35c4:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "create released production orders from planning worksheet"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aed5b46819ba3eb9b6aecf5d5b86fc5fd8bff17923af4cb935447828eaaf11ed"
 }

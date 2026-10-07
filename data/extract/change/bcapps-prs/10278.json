@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10278",
+  "number": 10278,
+  "title": "Subcontracting Operation Notes ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "platform"
+  ],
+  "summary": "Subcontracting operations now support dedicated comments at the standard task, routing line, and production order routing line levels, which flow to subcontracting purchase orders as attached blank lines while production-order attachments flow to related purchase lines.",
+  "key_points": [
+    "New comment tables and pages for standard tasks, routing lines, and production order routing lines",
+    "Comments and attachments flow to subcontracting purchase orders as blank lines",
+    "Comments are restricted to subcontracting operations only",
+    "Production-order comments are scoped by output line to prevent mixing vendor instructions in Family orders",
+    "Document Attachment Details integration event updated with PurchaseDocumentFlow parameter"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Adds dedicated subcontracting comments at the Standard Task, Routing Line, and Production Order Routing Line levels.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005496,
+    "changes_in_call": 1
+  }
+}

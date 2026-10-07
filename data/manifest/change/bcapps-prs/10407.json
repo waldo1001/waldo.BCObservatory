@@ -6,10 +6,18 @@
   "title": "Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)",
   "url": "https://github.com/microsoft/BCApps/pull/10407",
   "published_at": "2026-08-20T16:01:01Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:40.190Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
     }
   },
   "input_hash": "ec7ec56b180c14f6acd0d28e66b2dd02fc486f7d:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify connector persist order tax area code tax liable and tax exempt stack 1 3"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a377834981bfac01a2e1580c29bc725d062b013d5e6f326b44f8b844836d7e0"
 }

@@ -6,10 +6,35 @@
   "title": "Subcontracting Operation Notes ",
   "url": "https://github.com/microsoft/BCApps/pull/10278",
   "published_at": "2026-08-21T09:40:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:33.716Z",
+      "change_class": "code",
+      "files": 32,
+      "al": 23,
+      "objects": 23,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:38.839Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005496
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:39.049Z",
+      "objects": 23,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:39.060Z",
+      "path": "content/changes/bcapps/10278.md"
     }
   },
   "input_hash": "cf0e1a510706fb372bb7ecb56524cffcb531b913:c1",
@@ -35,5 +60,8 @@
     ],
     "community_contribution": true,
     "title_key": "subcontracting operation notes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ddbf48e60e9678c5c0fe599881861f02341019d9edc9ca789399e8c624785c73"
 }

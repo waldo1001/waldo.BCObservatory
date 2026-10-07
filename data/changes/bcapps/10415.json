@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10415,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10415",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T09:44:07Z",
+  "merge_commit_sha": "cf093b1531cc5a28142563e0b16aa1dad244f25f",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote AS0052 (manifest url) from Warning to Error",
+  "body_hash": "95b46162402834f825f5be53e589a4345adf3096adbdda3db7280b514fbef132",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 69,
+    "additions": 70,
+    "deletions": 25,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

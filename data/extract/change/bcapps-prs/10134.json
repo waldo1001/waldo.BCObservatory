@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10134",
+  "number": 10134,
+  "title": "[Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "development"
+  ],
+  "summary": "Multiple bugs in composite layout management are fixed, including focus handling, multi-select deletion, configuration key conflicts, and layout subtype restrictions. UI labels are clarified and a Details FactBox replaces the Theme and Header/Footer Box.",
+  "key_points": [
+    "Focus now moves to newly created theme or header/footer parts",
+    "Multi-select delete and configuration row creation no longer cause data loss or invalid states",
+    "Theme and header/footer can only be assigned to body layouts, enforced at UI and save level",
+    "Details FactBox replaces Theme and Header/Footer Box with better layout of information",
+    "Configuration row scopes are displayed as human-readable text instead of wildcard conventions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": "focus not moved to the newly created part.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00469,
+    "changes_in_call": 1
+  }
+}

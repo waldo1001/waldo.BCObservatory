@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10458,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10458",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T09:44:07Z",
+  "merge_commit_sha": "acc83ca96b84d85f1730111978c70f2c21bf0d80",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "SOA Setup page tooltips improvement",
+  "body_hash": "38f16892a1fc518c6350fa9c4c5e503b92922c75a46b8c6ea5ef66e2db897fb9",
+  "fixes_issues": [],
+  "work_items": [
+    641704
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+        "status": "modified",
+        "key": "page/4400",
+        "type": "page",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

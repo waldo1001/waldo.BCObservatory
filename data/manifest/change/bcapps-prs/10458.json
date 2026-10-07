@@ -6,10 +6,35 @@
   "title": "SOA Setup page tooltips improvement",
   "url": "https://github.com/microsoft/BCApps/pull/10458",
   "published_at": "2026-08-21T09:44:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:31.717Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:36.089Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003005
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:36.233Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:36.238Z",
+      "path": "content/changes/bcapps/10458.md"
     }
   },
   "input_hash": "acc83ca96b84d85f1730111978c70f2c21bf0d80:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa setup page tooltips improvement"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a78561686f236b50055400bb2f459f7f8a97e88a09de956a99e58e101ef2d421"
 }

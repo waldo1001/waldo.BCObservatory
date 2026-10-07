@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10277",
+  "number": 10277,
+  "title": "Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "summary": "Inventory put-away and pick functionality is now supported for subcontracting purchase lines and WIP item transfers, with proper handling of quantities, item tracking, bin propagation, and partial posting scenarios.",
+  "key_points": [
+    "Enables warehouse put-away/pick operations for subcontracting purchase orders and WIP transfers",
+    "Preserves correct base quantities and production-order item tracking for last-operation lines",
+    "Non-last-operation and WIP movements bypass physical inventory posting and synchronize WIP ledger entries",
+    "Supports lot tracking, partial posting, direct transfers, blank-bin locations, and posted activity metadata",
+    "Adds extension points via new base warehouse events"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "purchasing"
+  ],
+  "quote": "Adds inventory put-away/pick support for subcontracting purchase lines and WIP item transfers.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010253,
+    "changes_in_call": 1
+  }
+}

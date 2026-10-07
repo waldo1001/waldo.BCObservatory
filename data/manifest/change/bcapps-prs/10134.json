@@ -6,10 +6,35 @@
   "title": "[Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI",
   "url": "https://github.com/microsoft/BCApps/pull/10134",
   "published_at": "2026-08-21T09:33:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:32.866Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 9,
+      "objects": 8,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:38.520Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00469
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:38.688Z",
+      "objects": 8,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:38.697Z",
+      "path": "content/changes/bcapps/10134.md"
     }
   },
   "input_hash": "28e273ddbd161a8d9ff56884f0604876585aa8a6:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 646487 composite layout focus fix body layout gating and setup ui"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb03b1dbaece28ce97c0f1af4bd87d3eb52207ef4f73d25830d53ceebf63fd21"
 }

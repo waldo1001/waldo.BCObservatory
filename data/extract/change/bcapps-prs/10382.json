@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10382",
+  "number": 10382,
+  "title": "[Expense Agent] Fix administrative recall history access",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Report recall authorization is now restricted to the submitter or users with Unlimited Expense Approval, and non-submitter recalls are recorded as administrative activity outside the approval history.",
+  "key_points": [
+    "Only the expense report submitter or users with Unlimited Expense Approval permission can recall pending expense reports",
+    "Non-submitter recalls are recorded as BC User activity with Administrator role",
+    "Administrative activity is kept separate from submitter and approver history participation",
+    "Covers genuine submitter, mapped and unmapped administrator, and unauthorized recall scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "authorize pending expense report recall only for the captured submitter or a user with Unlimited Expense Approval",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003316,
+    "changes_in_call": 1
+  }
+}

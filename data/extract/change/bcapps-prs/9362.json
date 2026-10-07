@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9362",
+  "number": 9362,
+  "title": "[FI] Delocalize FI VAT-VIES Declaration report into FI Core",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Finnish VAT-VIES Declaration report is moved from a localized FI BaseApp override into FI Core as a report extension, with shared dataset columns added to the base report and Finnish-specific rendering handled through FI Core's extension layer.",
+  "key_points": [
+    "Report 19 VAT-VIES Declaration is delocalised: the FI BaseApp override is removed and functionality is reimplemented via FI Core extension",
+    "Shared W1/BE base report gains dataset columns for Business Identity Code, Registered Home City, and localized captions to support Finnish requirements",
+    "FI Core adds a report extension with Finnish RDLC layout and a feature key FIVATVIESDeclaration to gate Finnish-specific fields and captions",
+    "VAT Entry table's FI-specific EU Service key is moved from FI BaseApp override to FI Core table extension",
+    "Tests verify both enabled and disabled feature states and ensure standard report behavior is preserved"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005132,
+    "changes_in_call": 1
+  }
+}

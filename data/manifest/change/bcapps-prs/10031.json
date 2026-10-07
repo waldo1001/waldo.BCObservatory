@@ -6,7 +6,7 @@
   "title": "Add AI-assisted policy evaluation backend to Expense Agent",
   "url": "https://github.com/microsoft/BCApps/pull/10031",
   "published_at": "2026-08-21T12:28:51Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 46,
       "objects": 46,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:29.409Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.013974
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:29.609Z",
+      "objects": 46,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:29.622Z",
+      "path": "content/changes/bcapps/10031.md"
     }
   },
   "input_hash": "3c2cb4ca91a01cdb15a729758c619db54176f09e:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca6225dc863b52b7a1708f1923c61a7bbd10eabf46c9d29c7c24f1e09db18ccb"
+  "output_hash": "d6229de742d6bebe999646ad689eac35a97eca59dfccba93c8118b211932bf2b"
 }

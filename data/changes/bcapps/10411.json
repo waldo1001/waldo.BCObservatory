@@ -1,0 +1,136 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10411,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10411",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T16:58:21Z",
+  "merge_commit_sha": "66eaeaf9afd9215ba3792bf3b56dcec59a7b05f4",
+  "author": "tomasevicst",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Allow changing or clearing manually selected contacts",
+  "body_hash": "2b11aacb7012a64dd1b19f8345b526ee0f5646f42b8a4c71eab21df7d5d4ddaa",
+  "fixes_issues": [],
+  "work_items": [
+    640656
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAContactLookup.Page.al",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Permissions/SOAObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 120,
+      "deletions": 22,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 238,
+    "deletions": 41,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAContactLookup.Page.al",
+        "status": "added",
+        "key": "page/4412",
+        "type": "page",
+        "id": 4412,
+        "name": "SOA Contact Lookup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4412"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+        "status": "modified",
+        "key": "page/4404",
+        "type": "page",
+        "id": 4404,
+        "name": "SOA Email Message",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4404"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+        "status": "modified",
+        "key": "table/4588",
+        "type": "table",
+        "id": 4588,
+        "name": "SOA Task Contact Override",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "table/4588"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Permissions/SOAObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/4406",
+        "type": "permissionset",
+        "id": 4406,
+        "name": "SOA - Objects",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "permissionset/4406"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4305",
+        "type": "codeunit",
+        "id": 4305,
+        "name": "SOA Filters Impl.",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

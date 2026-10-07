@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10461",
+  "number": 10461,
+  "title": "[SOA] Uptake Agent Task Message Failed status for outbound replies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget, leveraging a new terminal Failed status from the Agent Runtime instead of application-side state. This prevents failed messages from being re-processed on subsequent agent runs.",
+  "key_points": [
+    "New Failed status transition for output messages in Agent Runtime, replacing the workaround that kept failed replies in Reviewed state",
+    "Added SetStatusToFailed() and SetStatusToReviewed() methods to Agent Message codeunits for managing terminal transitions",
+    "Failed replies are excluded from send processing and no longer generate recurring telemetry",
+    "Retry sending action on SOA Email Message page now performs Failed -> Reviewed transition instead of deleting private table rows",
+    "Terminal failure check runs before send loop to avoid transaction handling issues from trapped errors after COMMIT"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00502,
+    "changes_in_call": 1
+  }
+}

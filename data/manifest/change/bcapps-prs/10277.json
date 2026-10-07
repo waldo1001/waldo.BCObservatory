@@ -6,10 +6,35 @@
   "title": "Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers",
   "url": "https://github.com/microsoft/BCApps/pull/10277",
   "published_at": "2026-08-20T15:53:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:40.441Z",
+      "change_class": "code",
+      "files": 39,
+      "al": 19,
+      "objects": 19,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:45.373Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010253
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:45.649Z",
+      "objects": 19,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:45.662Z",
+      "path": "content/changes/bcapps/10277.md"
     }
   },
   "input_hash": "34f4497a135cf6ed97ed261d17e89c188a7b6d3a:c1",
@@ -35,5 +60,8 @@
     ],
     "community_contribution": true,
     "title_key": "slice 554749 inventory put away pick support for subcontracting purchase lines and wip item transfers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b94d3c5c28f119c90fdbae6fa32603e3a7ebd84e906b6bbcdb7ef1d62cdeab78"
 }

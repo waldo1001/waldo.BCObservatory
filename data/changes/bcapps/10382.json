@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10382,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10382",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T20:02:00Z",
+  "merge_commit_sha": "e0342c5b6d9c18401862ae2a18eb81164b6cc368",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Expense Agent] Fix administrative recall history access",
+  "body_hash": "3733a109300f1ca7537526b8e63af4005d28328441fb332a982dc1dab8550a92",
+  "fixes_issues": [],
+  "work_items": [
+    647041
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Enums/ExpenseActivityActorRole.Enum.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ActivityLog/ExpenseActivityLogTest.Codeunit.al",
+      "status": "modified",
+      "additions": 174,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 214,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Enums/ExpenseActivityActorRole.Enum.al",
+        "status": "modified",
+        "key": "enum/6924",
+        "type": "enum",
+        "id": 6924,
+        "name": "Expense Activity Actor Role",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6924"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6901",
+        "type": "codeunit",
+        "id": 6901,
+        "name": "Expense Report Approval Mgmt",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6901"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

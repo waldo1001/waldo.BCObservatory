@@ -6,7 +6,7 @@
   "title": "Bug 646432: [master] [Sustainability] Line does not indicate/enforce which Calculation Foundation is in use; all formula input fields are editable",
   "url": "https://github.com/microsoft/BCApps/pull/10183",
   "published_at": "2026-08-21T12:28:51Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:33.727Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003745
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:33.895Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:33.904Z",
+      "path": "content/changes/bcapps/10183.md"
     }
   },
   "input_hash": "a6cba404f10ab9ca97b896450c4e6c11ebe0892f:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d3c8bb9cd5157a41e96510b03e83aa6417cfe83ceb9eb4dea43f0e83e0e4388"
+  "output_hash": "a4e8b13ee0e46dbe67f6aa346ec78be7bfbde353bafa1bf6a0cf17b3522be5e2"
 }

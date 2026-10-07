@@ -1,0 +1,536 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10277,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10277",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T15:53:58Z",
+  "merge_commit_sha": "34f4497a135cf6ed97ed261d17e89c188a7b6d3a",
+  "author": "stevengrossGOB",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Manual",
+    "Ownership: Needs Review",
+    "Subcontracting",
+    "Team: Other",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers",
+  "body_hash": "d89619c0387366cb42b98a5dcef6f99c67df1f9d38381f2a9b803e06b03dec65",
+  "fixes_issues": [],
+  "work_items": [
+    554749
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPurchPostExt.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcApplicationAreaSetup.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/WIPItem/SubcTransferWIPPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcInvtPickExt.Codeunit.al",
+      "status": "added",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcInvtPutAwayExt.Codeunit.al",
+      "status": "added",
+      "additions": 241,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcItemTrackingExt.Codeunit.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPostedInvtPickLine.TableExt.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPostedInvtPutaway.TableExt.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPstdInvtPick.PageExt.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPstdInvtPutaway.PageExt.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWarehouseActivityLine.TableExt.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWhsePostReceiptExt.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcManagementLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcSetupLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcWarehouseLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 544,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcInvtPutAwayE2EEdge.Codeunit.al",
+      "status": "added",
+      "additions": 1403,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcInvtPutAwayE2EPurch.Codeunit.al",
+      "status": "added",
+      "additions": 1591,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcInvtPutAwayE2EWIP.Codeunit.al",
+      "status": "added",
+      "additions": 2113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcInvtPutAwayTest.Codeunit.al",
+      "status": "added",
+      "additions": 974,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcItemChargePostingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 42,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcPurchSubcontTest.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 29,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 26,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPTransCreateTest.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhseCombinedScenarios.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhseDataIntegrity.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhseItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 138,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhsePartialLastOp.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhsePutAwayLastOp.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhsePutAwayWorksheet.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhseReceiptLastOp.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPickMovement.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPutaway.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 39,
+    "additions": 7698,
+    "deletions": 163,
+    "al": 19
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+        "status": "modified",
+        "key": "report/20502",
+        "type": "report",
+        "id": 20502,
+        "name": "Subc. Create SubCReturnOrder",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20502"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPurchPostExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20535",
+        "type": "codeunit",
+        "id": 20535,
+        "name": "Subc. Purch. Post Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20535"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Setup/SubcApplicationAreaSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/20571",
+        "type": "tableextension",
+        "id": 20571,
+        "name": "Subc. Application Area Setup",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20571"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20504",
+        "type": "codeunit",
+        "id": 20504,
+        "name": "Subc. Transfer Management",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20504"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/WIPItem/SubcTransferWIPPosting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20541",
+        "type": "codeunit",
+        "id": 20541,
+        "name": "Subc. Transfer WIP Posting",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20541"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcInvtPickExt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/20573",
+        "type": "codeunit",
+        "id": 20573,
+        "name": "Subc. Invt. Pick Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20573"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcInvtPutAwayExt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/20575",
+        "type": "codeunit",
+        "id": 20575,
+        "name": "Subc. Invt. Put-away Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20575"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcItemTrackingExt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/20574",
+        "type": "codeunit",
+        "id": 20574,
+        "name": "Subc. Item Tracking Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20574"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPostedInvtPickLine.TableExt.al",
+        "status": "added",
+        "key": "tableextension/20574",
+        "type": "tableextension",
+        "id": 20574,
+        "name": "Subc. Posted Invt. Pick Line",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20574"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPostedInvtPutaway.TableExt.al",
+        "status": "added",
+        "key": "tableextension/20575",
+        "type": "tableextension",
+        "id": 20575,
+        "name": "Subc. Posted Invt. Put-away",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20575"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPstdInvtPick.PageExt.al",
+        "status": "added",
+        "key": "pageextension/20576",
+        "type": "pageextension",
+        "id": 20576,
+        "name": "Subc. Pstd. Invt. Pick",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20576"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcPstdInvtPutaway.PageExt.al",
+        "status": "added",
+        "key": "pageextension/20577",
+        "type": "pageextension",
+        "id": 20577,
+        "name": "Subc. Pstd. Invt. Putaway",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20577"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWarehouseActivityLine.TableExt.al",
+        "status": "added",
+        "key": "tableextension/20572",
+        "type": "tableextension",
+        "id": 20572,
+        "name": "Subc. Warehouse Activity Line",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20572"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWhsePostReceiptExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20551",
+        "type": "codeunit",
+        "id": 20551,
+        "name": "Subc. WhsePostReceipt Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20551"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+        "status": "modified",
+        "key": "table/5767",
+        "type": "table",
+        "id": 5767,
+        "name": "Warehouse Activity Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5767"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPickMovement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7322",
+        "type": "codeunit",
+        "id": 7322,
+        "name": "Create Inventory Pick/Movement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7322"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreateInventoryPutaway.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7321",
+        "type": "codeunit",
+        "id": 7321,
+        "name": "Create Inventory Put-away",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7321"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WarehouseActivityLine.Table.al",
+        "status": "modified",
+        "key": "table/5767",
+        "type": "table",
+        "id": 5767,
+        "name": "Warehouse Activity Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5767"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7324",
+        "type": "codeunit",
+        "id": 7324,
+        "name": "Whse.-Activity-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7324"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application",
+    "Subcontracting"
+  ]
+}

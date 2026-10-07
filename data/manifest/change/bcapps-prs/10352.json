@@ -6,7 +6,7 @@
   "title": "[Master]-Bug 646964: Withholding Tax Prod. Posting Group is missing o…",
   "url": "https://github.com/microsoft/BCApps/pull/10352",
   "published_at": "2026-08-21T12:28:51Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:28.987Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003185
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:29.149Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:29.159Z",
+      "path": "content/changes/bcapps/10352.md"
     }
   },
   "input_hash": "a390dcfa2fd46312fd3e405967dab0fceb20fafa:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "585fec3936df9b57ee91138934c2ec83a19d1aa46f0d5541ec09a49f9fc62189"
+  "output_hash": "842a76d75b08ff3efbebb0f6187d5c5af95ca7055d85331c086f0aac54929d3c"
 }

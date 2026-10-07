@@ -6,10 +6,35 @@
   "title": "[Master]-Bug 647018: Withholding tax for Employees and GL Accounts",
   "url": "https://github.com/microsoft/BCApps/pull/10370",
   "published_at": "2026-08-21T12:28:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:30.354Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:35.225Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003393
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:35.376Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:35.381Z",
+      "path": "content/changes/bcapps/10370.md"
     }
   },
   "input_hash": "6b10a5b9bd97efd928c5348db66e1b9ce569481b:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "master bug 647018 withholding tax for employees and gl accounts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84e7d6eb66cc06719c13367d32791fc659d6b37905e70cdd1d411c7f5ffcae43"
 }

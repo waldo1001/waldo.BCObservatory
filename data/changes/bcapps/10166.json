@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10166,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10166",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T21:44:43Z",
+  "merge_commit_sha": "5c3a015ac0b45d5fe5a894286a8d9f46467030d8",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 29643: enable split transfer demand profiles",
+  "body_hash": "0197f208d586347c989dfdbedf9b485d37e36ac2ffa3f32170b4ee8cd43e812a",
+  "fixes_issues": [],
+  "work_items": [
+    620193
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 21,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 30,
+    "deletions": 21,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000854",
+        "type": "codeunit",
+        "id": 99000854,
+        "name": "Inventory Profile Offsetting",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000854"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

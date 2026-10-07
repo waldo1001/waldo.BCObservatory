@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10166",
+  "number": 10166,
+  "title": "[Extensibility Request] issue 29643: enable split transfer demand profiles",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Transfer demand profile handling now supports an event that allows extensions to create multiple profiles for different planning contexts, such as preserving distinct cable and cut-length requirements instead of aggregating quantities.",
+  "key_points": [
+    "New pre-creation event added to MaintainPlanningLine for transfer demand profiles",
+    "Event provides requisition, supply profile, tracking reservation, line-number, and handled context",
+    "Enables downstream purchase suggestions to maintain separate length requirements",
+    "Standard behavior preserved when no subscriber handles the event",
+    "Extensions can now safely override default transfer planning flow"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "adds a take-over event with tracking context and shared line-number state so extensions can create multiple demand profiles",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003449,
+    "changes_in_call": 1
+  }
+}

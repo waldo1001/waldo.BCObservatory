@@ -6,10 +6,35 @@
   "title": "[Expense Agent] Fix administrative recall history access",
   "url": "https://github.com/microsoft/BCApps/pull/10382",
   "published_at": "2026-08-20T20:02:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:37.088Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:41.545Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003316
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:41.694Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:41.700Z",
+      "path": "content/changes/bcapps/10382.md"
     }
   },
   "input_hash": "e0342c5b6d9c18401862ae2a18eb81164b6cc368:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent fix administrative recall history access"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37e286258256670a2fa6c44f1855b6f41239177a84af6a584736a338bcb6497a"
 }
