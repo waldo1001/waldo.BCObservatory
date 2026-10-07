@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/",
+  "title": "BC Friday Tips #29 Gaps in Customer Ledger Entries",
+  "source": "thatnavguy-com",
+  "published_at": "2025-04-25T00:00:00.000Z",
+  "words": 79,
+  "summary": "Customer Ledger Entries in Business Central use General Ledger Entry numbers instead of sequential numbering, which explains gaps in entry numbers and was designed historically to improve performance. Vendor Ledger Entries follow the same design pattern.",
+  "key_points": [
+    "Gaps in Customer Ledger Entry numbers are intentional design, not a bug",
+    "Customer Ledger Entries reference General Ledger Entry numbers rather than using sequential numbers",
+    "This approach was chosen for historical performance reasons",
+    "Vendor Ledger Entries use the same numbering logic as Customer Ledger Entries"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "customer ledger entries",
+    "ledger entry numbering",
+    "general ledger",
+    "vendor ledger entries",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Entry"
+    }
+  ],
+  "features": [
+    "ledger entry numbering system"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Customer Ledger Entries use the General Ledger Entry No. instead of sequential numbers.",
+      "why_it_matters": "Explains the root cause of gaps in entry numbers that consultants observe"
+    },
+    {
+      "text": "This approach was historically adopted to improve performance.",
+      "why_it_matters": "Clarifies the business rationale behind the design choice"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

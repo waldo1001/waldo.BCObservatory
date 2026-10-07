@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/bertverbeek-nl/1143",
+  "url": "https://www.bertverbeek.nl/blog/2025/05/12/preview-bc2adls-and-fabric-open-mirroring/",
+  "title": "[Preview] bc2adls and Fabric Open Mirroring",
+  "source": "bertverbeek-nl",
+  "published_at": "2025-05-12T08:50:11.000Z",
+  "words": 630,
+  "summary": "BC2ADLS now supports Microsoft Fabric's Open Mirroring feature, allowing Business Central data to be exported to a Fabric Landing Zone in CSV or Parquet format without requiring manual notebook processing. Fabric automatically handles change data capture and replication, enabling faster data access from Business Central to Fabric.",
+  "key_points": [
+    "Open Mirroring requires a _metadata.json file describing the table schema with key columns and column data types",
+    "CSV files are now supported alongside Parquet format in Open Mirroring",
+    "The __rowMarker__ column indicates operation type: 0 for inserts, 1 for updates, 2 for deletes",
+    "File names must be in 20-digit continuous number format; resetting a table resets the number sequence",
+    "BC2ADLS v26.32 adds Open Mirroring support, currently in preview"
+  ],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "fabric",
+    "data export",
+    "open mirroring",
+    "cdc",
+    "csv",
+    "parquet",
+    "metadata"
+  ],
+  "objects": [],
+  "features": [
+    "Open Mirroring",
+    "CSV export",
+    "Parquet export",
+    "Landing Zone integration",
+    "Schema export",
+    "Change data capture"
+  ],
+  "versions": [
+    "26.32"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "So no need for running a notebook anymore. Fabric will do the CDC processing for you.",
+      "why_it_matters": "Explains the key benefit of Open Mirroring - automatic data processing without manual intervention"
+    },
+    {
+      "text": "The benefit is then that you can use the data faster!",
+      "why_it_matters": "Clarifies the performance advantage of using Open Mirroring over manual notebook processing"
+    },
+    {
+      "text": "Please mention that this feature is still in preview in bc2adls but also in Microsoft Fabric!",
+      "why_it_matters": "Important caveat about the maturity level of both the feature and the tool"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

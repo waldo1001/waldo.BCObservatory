@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/04/18/integrating-ai-in-business-central-a-step-by-step-guide/",
   "published_at": "2025-04-18T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:29.875Z",
+      "path": "vault:posts/aardvarklabs-blog/1609.md",
+      "words": 2686
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:29.890Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:29.891Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:29.892Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:29.902Z",
+      "path": "content/posts/aardvarklabs-blog/1609.md"
     }
   },
   "input_hash": "2026-02-17T01:31:09.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f24d067d2c978aaddb44bfa975d06e0f32c71a49e5bcd48ff4f220aa73831df"
 }

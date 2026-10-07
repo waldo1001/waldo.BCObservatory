@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1609",
+  "url": "https://aardvarklabs.blog/2025/04/18/integrating-ai-in-business-central-a-step-by-step-guide/",
+  "title": "Integrating AI in Business Central: A Step-by-Step Guide",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-04-18T12:00:00.000Z",
+  "words": 2686,
+  "summary": "Step-by-step guide to building a custom AI-powered Copilot agent in Business Central that automates customer address extraction from unstructured text using Azure OpenAI. Covers Azure setup, AL code development including isolated storage for secrets, prompt engineering with system and user prompts, and integration with the Customer card.",
+  "key_points": [
+    "Azure OpenAI resources and credentials (endpoint, deployment, API key) must be securely stored in Isolated Storage to protect sensitive authentication data",
+    "Copilot capabilities must be registered during extension installation and added to the Copilot & agent capabilities management page",
+    "System prompts define AI behavior and expected output format (JSON recommended), while user prompts provide the actual data to process",
+    "Chat completion parameters like max tokens, temperature (0 for deterministic results), and JSON mode control response quality and cost",
+    "Retry logic with up to 5 attempts handles cases where the AI may not respond successfully on the first try"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "ai integration",
+    "copilot agents",
+    "azure openai",
+    "al development",
+    "isolated storage",
+    "prompt engineering",
+    "customer management"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ARD_IsolatedStorageWrapper"
+    },
+    {
+      "type": "page",
+      "name": "ARD_CopilotSettings"
+    },
+    {
+      "type": "enum",
+      "name": "Copilot Capability"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CopilotSetup"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CopilotJob"
+    },
+    {
+      "type": "page",
+      "name": "ARD_AddressPrompt"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "Azure OpenAI integration",
+    "Copilot capability registration",
+    "Isolated storage for secrets management",
+    "Chat completion with JSON responses",
+    "Prompt dialog page type",
+    "Custom Copilot agents",
+    "Address extraction automation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central has something called Isolated Storage. This is storage that is only accessible to the extension that created it.",
+      "why_it_matters": "Explains the recommended secure storage mechanism for secrets and authentication credentials in Business Central extensions"
+    },
+    {
+      "text": "If we wanted to describe something, we would use a higher number to allow for more creative expressions. The max value is 2.",
+      "why_it_matters": "Clarifies how temperature parameter controls AI creativity and determinism, essential for tuning response quality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

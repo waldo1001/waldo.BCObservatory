@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/jpearson-blog/1425",
+  "url": "https://jpearson.blog/2025/04/24/tip-access-the-clipboard-with-business-central/",
+  "title": "Tip – Access the Clipboard with Business Central",
+  "source": "jpearson-blog",
+  "published_at": "2025-04-24T17:01:00.000Z",
+  "words": 489,
+  "summary": "This post explains how to use the WebPageViewer control add-in to implement a copy-to-clipboard feature for URLs and text in Business Central pages, including handling browser security restrictions on HTTP connections.",
+  "key_points": [
+    "WebPageViewer control add-in can display HTML and JavaScript for lightweight UI enhancements without building custom add-ins",
+    "Use JavaScript's navigator.clipboard.writeText() to copy text to clipboard and add event listeners for user feedback",
+    "HTTP connections block clipboard access by default; enable 'Insecure origins treated as secure' browser flag for local testing",
+    "HTTPS connections work without additional configuration for clipboard operations"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "webpageviewer",
+    "clipboard",
+    "javascript",
+    "add-in",
+    "html",
+    "control",
+    "browser security"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "WebPageViewer"
+    }
+  ],
+  "features": [
+    "WebPageViewer control add-in",
+    "Clipboard access",
+    "JavaScript integration",
+    "HTML rendering",
+    "Copy to clipboard button"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "That is because by default the clipboard is not available to sites which are served over http.",
+      "why_it_matters": "Explains the root cause of clipboard failures in local testing environments and why configuration is needed"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

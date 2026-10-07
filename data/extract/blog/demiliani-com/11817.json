@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/demiliani-com/11817",
+  "url": "https://demiliani.com/2025/05/08/azure-function-sql-trigger-how-to-use-it-and-why-it-can-be-useful-in-your-business-central-projects/",
+  "title": "Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)",
+  "source": "demiliani-com",
+  "published_at": "2025-05-08T08:37:45.000Z",
+  "words": 705,
+  "summary": "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central by automatically triggering a function when data changes occur in a SQL database. The post demonstrates setup, implementation, and testing of SQL change tracking to synchronize external application data with Business Central.",
+  "key_points": [
+    "Azure SQL Trigger Binding uses SQL change tracking to detect INSERT, UPDATE, and DELETE operations on monitored tables",
+    "Enable change tracking on the database and table using T-SQL before configuring the Azure Function trigger",
+    "Create an Azure Function using the SqlTriggerBindingIsolated template with .NET 8 Isolated runtime",
+    "The solution enables serverless, event-driven integrations where external systems can push data to Business Central automatically when changes occur"
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "azure functions",
+    "sql triggers",
+    "integrations",
+    "event-driven",
+    "serverless",
+    "change tracking"
+  ],
+  "objects": [],
+  "features": [
+    "Azure SQL Triggers for Azure Functions",
+    "SQL change tracking",
+    "event-driven applications",
+    "real-time data synchronization"
+  ],
+  "versions": [
+    ".NET 8 Isolated LTS",
+    "SQL Server 2016-2022"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://jpearson.blog/2025/05/07/another-look-at-app-integration-in-business-central-part-2/",
   "published_at": "2025-05-07T17:08:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.605Z",
+      "path": "vault:posts/jpearson-blog/1419.md",
+      "words": 1459
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.616Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.617Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.618Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.626Z",
+      "path": "content/posts/jpearson-blog/1419.md"
     }
   },
   "input_hash": "2025-05-07T17:08:28.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0613460cb81fce9f42085fcd53603895ecc01032ddf661d87f4af2c2535e4f33"
 }

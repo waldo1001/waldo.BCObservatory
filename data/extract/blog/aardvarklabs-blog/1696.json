@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1696",
+  "url": "https://aardvarklabs.blog/2025/04/25/understanding-totext-in-business-central-2025/",
+  "title": "Understanding ToText() in Business Central 2025",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-04-25T12:00:00.000Z",
+  "words": 1095,
+  "summary": "The ToText() method, new in Business Central 2025 Wave 1, converts various data types to text using default formatting without accepting additional parameters. The post demonstrates how ToText() outputs look for decimal, integer, byte, boolean, date, time, datetime, duration, GUID, and version types, comparing results to the Format method.",
+  "key_points": [
+    "ToText() is a new method in BC 2025 Wave 1 that quickly converts variable values to text strings with default formatting",
+    "Date and time types accept a boolean parameter that switches between locale and invariant formatting",
+    "ToText() maintains full decimal precision for decimals, unlike the default Decimal field display which restricts to two decimals",
+    "Special formatting behaviors include byte values showing ASCII integer values, GUID values omitting braces, and two-digit month/day/year expressions for dates"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "totext method",
+    "data type conversion",
+    "text formatting",
+    "al programming",
+    "business central 2025"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ARD_ToTextExample"
+    }
+  ],
+  "features": [
+    "ToText() method",
+    "decimal formatting",
+    "date formatting",
+    "time formatting",
+    "GUID formatting",
+    "boolean conversion",
+    "data type conversion"
+  ],
+  "versions": [
+    "2025 Wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This is not a replacement for the Format method but provides a quick way to format a value for display.",
+      "why_it_matters": "Establishes the purpose and scope of ToText() as a convenience method rather than a full replacement for existing formatting approaches"
+    },
+    {
+      "text": "The ToText() will function across the full precision of the value.",
+      "why_it_matters": "Highlights a key difference from default field display, showing ToText() preserves decimal precision rather than truncating it"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

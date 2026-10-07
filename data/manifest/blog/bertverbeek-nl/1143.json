@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2025/05/12/preview-bc2adls-and-fabric-open-mirroring/",
   "published_at": "2025-05-12T08:50:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:27.818Z",
+      "path": "vault:posts/bertverbeek-nl/1143.md",
+      "words": 630
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:27.825Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:27.826Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:27.827Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:27.833Z",
+      "path": "content/posts/bertverbeek-nl/1143.md"
     }
   },
   "input_hash": "2025-05-12T15:54:31.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be6b87d01057764cdfb45b4575ef0d1d085142696645154441588541af97953b"
 }

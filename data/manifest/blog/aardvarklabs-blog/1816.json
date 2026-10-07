@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/05/30/creating-data-driven-text-with-ai-in-business-central/",
   "published_at": "2025-05-30T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:26.407Z",
+      "path": "vault:posts/aardvarklabs-blog/1816.md",
+      "words": 1344
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:26.418Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:26.419Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:26.420Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:26.427Z",
+      "path": "content/posts/aardvarklabs-blog/1816.md"
     }
   },
   "input_hash": "2025-05-27T23:19:51.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "079f34123d90c789275e5d7b32651ffe34966c4de67dd626c94701cf4dce23d5"
 }

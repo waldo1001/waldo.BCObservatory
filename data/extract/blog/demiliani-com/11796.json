@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/demiliani-com/11796",
+  "url": "https://demiliani.com/2025/05/05/dynamics-365-business-central-using-secrets-in-jsonobjects/",
+  "title": "Dynamics 365 Business Central: using secrets in JsonObjects.",
+  "source": "demiliani-com",
+  "published_at": "2025-05-05T08:10:38.000Z",
+  "words": 330,
+  "summary": "Handling secrets securely in JSON objects for API integrations in Business Central requires using the new WriteWithSecretsTo method introduced in runtime 15.1 (version 26.1). This method replaces placeholder values with SecretText credentials before serializing the JSON, preventing secrets from being exposed during debugging.",
+  "key_points": [
+    "SecretText data type protects secrets from debugging exposure in AL code since version 23",
+    "Runtime 15.0 (version 26.0) does not support passing SecretText directly to JsonObject or JsonToken",
+    "WriteWithSecretsTo method in runtime 15.1 allows embedding secrets into JSON using placeholders and JPath format",
+    "Method takes a Dictionary mapping paths to SecretText values and produces a new SecretText containing the serialized JSON with secrets replaced"
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "secrets",
+    "security",
+    "json",
+    "api integrations",
+    "al development",
+    "data types"
+  ],
+  "objects": [],
+  "features": [
+    "SecretText data type",
+    "WriteWithSecretsTo method",
+    "JsonObject",
+    "JsonToken"
+  ],
+  "versions": [
+    "23",
+    "26.0",
+    "26.1",
+    "runtime 15.0",
+    "runtime 15.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Using the SecretText data type in AL is absolutely a best practice for security.",
+      "why_it_matters": "Establishes that SecretText is the recommended approach for handling credentials in Business Central development"
+    },
+    {
+      "text": "With runtime 15.1, Microsoft introduces the new WriteWithSecretsTo method to a JsonObject.",
+      "why_it_matters": "Announces the solution to the previously unsolvable problem of embedding secrets in JSON structures"
+    },
+    {
+      "text": "Your secrets will be unvisible and secured from debugging now…",
+      "why_it_matters": "Confirms the security benefit that secrets remain hidden during debugging operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/",
+  "title": "BC Friday Tips #31 Block Users using Security Group",
+  "source": "thatnavguy-com",
+  "published_at": "2025-05-09T00:00:00.000Z",
+  "words": 118,
+  "summary": "Environment-level security groups in Azure AD restrict access to Business Central instances by allowing only group members to sign in. This approach works for both production and sandbox environments.",
+  "key_points": [
+    "Create an Azure AD security group and add only authorized users to it",
+    "Assign the security group to the environment in BC Admin Center",
+    "Restart the environment to enforce access restrictions",
+    "Useful for blocking most users or restricting sandbox access to testers only"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "security",
+    "access control",
+    "azure ad",
+    "environments",
+    "admin center"
+  ],
+  "objects": [],
+  "features": [
+    "environment-level security groups",
+    "user access restriction",
+    "Azure AD integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Now, only members of the group can sign in.",
+      "why_it_matters": "This demonstrates the core benefit: environment access is effectively restricted to group members only."
+    },
+    {
+      "text": "This can also be used to restrict sandbox access to testers only.",
+      "why_it_matters": "Shows a practical use case for the feature beyond just blocking users."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

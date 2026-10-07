@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/",
   "published_at": "2025-04-25T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.750Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-29-gaps-in-customer-ledger-entries--5c5eaffeee.md",
+      "words": 79
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.755Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.756Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.757Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.760Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-29-gaps-in-customer-ledger-entries--5c5eaffeee.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40ddfa0300fbfbbc0fba158a2755b24c3245499645f5190f5e580ab5280a171b"
 }

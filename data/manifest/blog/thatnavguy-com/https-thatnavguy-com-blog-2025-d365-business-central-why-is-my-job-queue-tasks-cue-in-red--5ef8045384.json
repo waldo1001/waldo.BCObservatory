@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/",
   "published_at": "2025-05-05T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.402Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md",
+      "words": 131
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.409Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.411Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.412Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.418Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e7f26c58d6072e91236f87c1871b23a2dda5e4744610164f2ca2022f19614f4"
 }

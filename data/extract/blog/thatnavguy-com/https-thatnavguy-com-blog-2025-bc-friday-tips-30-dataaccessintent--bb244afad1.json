@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/",
+  "title": "BC Friday Tips #30 DataAccessIntent",
+  "source": "thatnavguy-com",
+  "published_at": "2025-05-02T00:00:00.000Z",
+  "words": 77,
+  "summary": "The DataAccessIntent property can be set to ReadOnly on API pages and reports to direct the server to use a replica database, reducing load on the primary database and improving overall performance.",
+  "key_points": [
+    "DataAccessIntent property signals the server to use a replica database when available",
+    "Set to ReadOnly for pages and reports that only perform read-only operations",
+    "Reduces load on the primary database for better performance",
+    "A single property setting can improve system efficiency"
+  ],
+  "systems": [
+    "platform",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "dataaccessintent",
+    "performance",
+    "database",
+    "api pages",
+    "read-only operations"
+  ],
+  "objects": [],
+  "features": [
+    "DataAccessIntent property",
+    "replica database routing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Set DataAccessIntent to ReadOnly when you only perform read-only data for API pages or reports.",
+      "why_it_matters": "This is the core usage guidance for when to apply the property."
+    },
+    {
+      "text": "It signals the server to use a replica database when available.",
+      "why_it_matters": "Explains the mechanism of how the property improves performance."
+    },
+    {
+      "text": "Using the replica lessens the load on the primary database, ensuring smoother operation for others.",
+      "why_it_matters": "Clarifies the benefit of using replica databases for read-only operations."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

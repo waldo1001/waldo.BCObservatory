@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/",
   "published_at": "2025-05-02T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.645Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md",
+      "words": 77
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.651Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.652Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.653Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.658Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51cde34a7184115485045a3bfb96da880bace89e67fa512117137abb2fddb2e1"
 }

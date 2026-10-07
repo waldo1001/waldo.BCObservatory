@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/05/08/azure-function-sql-trigger-how-to-use-it-and-why-it-can-be-useful-in-your-business-central-projects/",
   "published_at": "2025-05-08T08:37:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.227Z",
+      "path": "vault:posts/demiliani-com/11817.md",
+      "words": 705
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.237Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.238Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.239Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.247Z",
+      "path": "content/posts/demiliani-com/11817.md"
     }
   },
   "input_hash": "2025-05-08T08:37:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8ae3d35435246150565acca82db66f81d8e71a5aa6c51b56c7db0e2cb73eb0e"
 }

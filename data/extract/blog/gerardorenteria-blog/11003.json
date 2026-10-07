@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11003",
+  "url": "https://gerardorenteria.blog/2025/05/25/llms-training-cut-off-dates-%f0%9f%91%80mcp-server-context7-to-the-rescue-%f0%9f%a4%96/",
+  "title": "LLM’s training cut-off dates 👀MCP Server Context7 to the rescue. 🤖",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-05-25T17:20:11.000Z",
+  "words": 2247,
+  "summary": "LLMs have training cutoff dates that limit their knowledge to specific points in time, causing them to provide outdated information about APIs, frameworks, and tools. The post explains how MCP Context7, a protocol that connects AI agents to real-time documentation sources, helps mitigate this problem by providing current information from official documentation.",
+  "key_points": [
+    "LLM training cutoffs create knowledge limitations where models can only reference information up to their last training date, potentially providing obsolete advice about APIs and frameworks",
+    "Models may suggest outdated libraries, deprecated products, or incorrect security practices without awareness they are no longer valid",
+    "MCP (Model Context Protocol) is a standardized protocol that connects AI agents to external tools and data sources, functioning like USB-C for AI integrations",
+    "Context7 MCP server provides real-time access to up-to-date documentation through two tools: resolve-library-id and get-library-docs, enabling LLMs to answer accurately about current information"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "llm cutoff dates",
+    "mcp context protocol",
+    "outdated information",
+    "real-time documentation",
+    "visual studio code",
+    "ai agents"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central Admin Center API"
+    }
+  ],
+  "features": [
+    "MCP Context7 server",
+    "resolve-library-id tool",
+    "get-library-docs tool",
+    "Model Context Protocol integration",
+    "VS Code agent mode",
+    "real-time documentation fetching"
+  ],
+  "versions": [],
+  "language": "es",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

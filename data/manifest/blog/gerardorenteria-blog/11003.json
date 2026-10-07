@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/05/25/llms-training-cut-off-dates-%f0%9f%91%80mcp-server-context7-to-the-rescue-%f0%9f%a4%96/",
   "published_at": "2025-05-25T17:20:11.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:26.800Z",
+      "path": "vault:posts/gerardorenteria-blog/11003.md",
+      "words": 2247
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:26.813Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:26.814Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:26.815Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:26.823Z",
+      "path": "content/posts/gerardorenteria-blog/11003.md"
     }
   },
   "input_hash": "2025-05-25T17:20:11.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fad432a0d558f194bd3e2ff5edc9697e14789f970a903c0670932f0d6bcc6382"
 }

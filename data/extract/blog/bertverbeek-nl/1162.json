@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/bertverbeek-nl/1162",
+  "url": "https://www.bertverbeek.nl/blog/2025/05/23/document-amount-on-purchase-invoice-header/",
+  "title": "Document amount on Purchase Invoice Header",
+  "source": "bertverbeek-nl",
+  "published_at": "2025-05-23T10:26:17.000Z",
+  "words": 254,
+  "summary": "Business Central 2025 wave 1 adds a feature to compare document-level totals with line-level amounts on purchase invoices, preventing posting discrepancies and ensuring data accuracy. The feature requires setup in Purchases & Payables and validates that header amounts match line totals, including VAT considerations.",
+  "key_points": [
+    "Feature compares Doc. Amount Incl. Tax field against sum of tax amounts on purchase lines during posting",
+    "Must be enabled in Purchases & Payables Setup before fields appear on purchase invoices",
+    "Users enter total amount in Doc. Amount Incl. Tax field; Doc. Amount Tax auto-calculates from lines",
+    "Posting fails with error if amounts don't match, preventing incorrect document entries",
+    "VAT Difference allowance setting is factored into the validation logic"
+  ],
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "purchase invoices",
+    "data validation",
+    "vat",
+    "amount verification",
+    "posting control"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "Document Amount Comparison",
+    "Doc. Amount Incl. Tax Validation",
+    "Tax Amount Verification",
+    "Purchase Invoice Header Validation"
+  ],
+  "versions": [
+    "2025 wave 1"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

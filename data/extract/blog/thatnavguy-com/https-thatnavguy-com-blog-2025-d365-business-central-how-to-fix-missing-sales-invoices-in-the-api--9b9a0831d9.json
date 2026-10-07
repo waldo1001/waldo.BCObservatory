@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/",
+  "url": "https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/",
+  "title": "D365 Business Central: How to Fix Missing Sales Invoices in the API",
+  "source": "thatnavguy-com",
+  "published_at": "2025-05-20T00:00:00.000Z",
+  "words": 162,
+  "summary": "The Sales Invoices API in Business Central aggregates posted and unposted invoices from two source tables. When invoices are missing from the API results, running the API Data Upgrade process from the API Data Upgrade List page resolves the issue by synchronizing the underlying Sales Invoice Entity Aggregate table.",
+  "key_points": [
+    "The Sales Invoices API consolidates data from Sales Header (unposted) and Sales Invoice Header (posted) tables",
+    "Missing invoices indicate the Sales Invoice Entity Aggregate table is out of sync",
+    "The API Data Upgrade process must be scheduled and run as a job queue entry to restore missing data",
+    "Run the upgrade outside business hours for optimal performance"
+  ],
+  "systems": [
+    "integration",
+    "sales",
+    "platform"
+  ],
+  "topics": [
+    "api",
+    "sales invoices",
+    "data synchronization",
+    "troubleshooting",
+    "job queue"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Invoice Entity Aggregate"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "page",
+      "name": "API Data Upgrade List"
+    }
+  ],
+  "features": [
+    "Sales Invoices API",
+    "API Data Upgrade",
+    "Job Queue",
+    "Posted Sales Invoices",
+    "Unposted Sales Invoices"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The API for Sales Invoices is based on the table called Sales Invoice Entity Aggregate.",
+      "why_it_matters": "Identifies the underlying table structure that powers the Sales Invoices API"
+    },
+    {
+      "text": "If invoices are missing, the most likely cause is that the Sales Invoice Entity Aggregate table didn't update properly.",
+      "why_it_matters": "Pinpoints the root cause of missing invoices in API results"
+    },
+    {
+      "text": "Go to the API Data Upgrade List page in Business Central. Find the relevant record: SALES INVOICES, and click Schedule Upgrades.",
+      "why_it_matters": "Provides the specific steps to resolve the issue"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

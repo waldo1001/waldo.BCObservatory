@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/05/19/experience-at-dynamicscon-2025-friends-fun-and-learning/",
   "published_at": "2025-05-19T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:27.476Z",
+      "path": "vault:posts/aardvarklabs-blog/1800.md",
+      "words": 291
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:27.482Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:27.483Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:27.484Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:27.488Z",
+      "path": "content/posts/aardvarklabs-blog/1800.md"
     }
   },
   "input_hash": "2025-05-19T02:05:28.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "635b9a49c051d913f65b25f737da1c271ed8fdc5367ade42f305b1a1b26d6647"
 }

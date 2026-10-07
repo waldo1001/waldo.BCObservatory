@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/",
+  "url": "https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/",
+  "title": "D365 Business Central: Why is my Job Queue Tasks Cue in Red?",
+  "source": "thatnavguy-com",
+  "published_at": "2025-05-05T00:00:00.000Z",
+  "words": 131,
+  "summary": "The Job Queue Tasks cue turns red in Business Central when more than four tasks are queued or processing. You can adjust this threshold through the Cue Setup page or directly in the Cue Setup table using a configuration package.",
+  "key_points": [
+    "The red cue indicates more than four tasks by default, controlled by Threshold 2 and High Range Style settings",
+    "Changes from the page affect only the current user",
+    "The Cue Setup table (9701) can be modified via configuration packages exported to and reimported from Excel",
+    "Adjusting threshold values removes the red warning unless you prefer to keep it"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "job queue",
+    "cue setup",
+    "threshold",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Cue Setup"
+    }
+  ],
+  "features": [
+    "Cue Setup",
+    "Job Queue Tasks Cue",
+    "Threshold Configuration",
+    "Configuration Package"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The cue turns red when it displays more than four records.",
+      "why_it_matters": "Explains the default behavior triggering the red visual indicator in Business Central cues"
+    },
+    {
+      "text": "This is controlled by the Threshold 2 and the High Range Style setting in the Cue Setup.",
+      "why_it_matters": "Identifies the exact settings responsible for the red cue appearance that users can modify"
+    },
+    {
+      "text": "You can use a Configuration Package to update table 9701 Cue Setup.",
+      "why_it_matters": "Provides a systematic approach to make changes affecting all users or multiple instances"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

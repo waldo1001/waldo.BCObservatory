@@ -1,0 +1,105 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1816",
+  "url": "https://aardvarklabs.blog/2025/05/30/creating-data-driven-text-with-ai-in-business-central/",
+  "title": "Creating Data Driven Text with AI in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-05-30T12:00:00.000Z",
+  "words": 1344,
+  "summary": "This post shows how to build a Copilot in Business Central that generates personalized reminder text for overdue customer balances by combining user input with customer data from the database. It demonstrates passing customer name, balance due, last invoice date, and tone to an AI model to create natural-sounding collection letters.",
+  "key_points": [
+    "Create a new Copilot codeunit that accepts customer data as parameters alongside user input to build dynamic prompts",
+    "Use TextBuilder to combine customer information (name, balance due, invoice date, tone) into a structured user prompt sent to Azure OpenAI",
+    "Configure AI temperature setting (0.7 in this example) to control how creative the model's output should be",
+    "Retrieve customer and ledger entry data from Business Central tables to feed into the AI prompt",
+    "Add a button to the Customer Card to trigger the reminder generation process with a modal page for user input"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "copilot",
+    "ai integration",
+    "azure openai",
+    "customer reminders",
+    "al development",
+    "prompt engineering",
+    "data-driven content"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ARD_CopilotReminderGenerator"
+    },
+    {
+      "type": "codeunit",
+      "name": "Azure OpenAI"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Operation Response"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Completion Params"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Messages"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Deployments"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_IsolatedStorageWrapper"
+    },
+    {
+      "type": "codeunit",
+      "name": "Environment Information"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "page",
+      "name": "ARDReminderPrompt"
+    }
+  ],
+  "features": [
+    "Copilot prompt engineering with dynamic data",
+    "Azure OpenAI Chat Completion integration",
+    "Customer data lookup and filtering",
+    "Temperature control for AI creativity",
+    "User prompt builder with multiple parameters",
+    "Customer Card action for reminder generation",
+    "Modal page for user input and tone selection"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We are going to create a Copilot that generates reminder text for overdue balances.",
+      "why_it_matters": "Defines the specific use case that demonstrates how to combine BC data with AI for business automation"
+    },
+    {
+      "text": "Temperature is a value from 0.0 to 2.0 defining how creative we want to allow the GPT system to be.",
+      "why_it_matters": "Explains a key parameter for controlling AI output characteristics based on business requirements"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

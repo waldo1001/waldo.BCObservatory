@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/04/25/understanding-totext-in-business-central-2025/",
   "published_at": "2025-04-25T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:29.841Z",
+      "path": "vault:posts/aardvarklabs-blog/1696.md",
+      "words": 1095
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:29.852Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:29.853Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:29.853Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:29.859Z",
+      "path": "content/posts/aardvarklabs-blog/1696.md"
     }
   },
   "input_hash": "2026-02-18T03:23:50.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae794ddf4d453f272929afdce00c7c8534911b560f4c2f2b20086ed0dd2569ac"
 }

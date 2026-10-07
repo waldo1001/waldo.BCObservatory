@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/05/05/dynamics-365-business-central-using-secrets-in-jsonobjects/",
   "published_at": "2025-05-05T08:10:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:28.552Z",
+      "path": "vault:posts/demiliani-com/11796.md",
+      "words": 330
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:28.559Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:28.560Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:28.561Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:28.567Z",
+      "path": "content/posts/demiliani-com/11796.md"
     }
   },
   "input_hash": "2025-05-05T08:11:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "245de87985098becf9708ef205646fac040fe58f5ea568ee9fa3f8729ef1dc7e"
 }

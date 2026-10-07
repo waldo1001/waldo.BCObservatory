@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/",
   "published_at": "2025-06-02T05:38:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:26.318Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md",
+      "words": 529
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:26.328Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:26.330Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:26.331Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:26.336Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8253f7c85a1df887347bee9ad7c1e0f6f1002c32efed6fa1bc4a9bde1c3f81f6"
 }

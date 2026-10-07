@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/gerardorenteria-blog/10927",
+  "url": "https://gerardorenteria.blog/2025/05/08/new-application-ideas-of-dynamics-365-business-central-2025-apr/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2025 APR)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-05-08T08:03:37.000Z",
+  "words": 1132,
+  "summary": "A curated list of feature requests and improvement ideas for Dynamics 365 Business Central submitted by the community for 2025 April release. The post covers requested enhancements across data migration, development, financial management, inventory, manufacturing, sales, service, and administration areas.",
+  "key_points": [
+    "Community members proposed improvements for data migration tools, particularly for GP to BC migrations with serial/lot number history and posting account transfers",
+    "Development requests focus on API enhancements, debugger improvements, AppSource app management, and support for unbound actions as first-class citizens",
+    "Financial and operational areas include requests for exchange rate improvements, aging reports, permission previews, default column sorting, and localization features",
+    "Multiple requests aim to enhance user experience through navigation shortcuts, tab-based interfaces, quick access role centers, and intercompany transaction improvements",
+    "Some requests target specific localizations like Spanish payment orders, Dutch apply entries, and Indian inventory accounting standards"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "feature requests",
+    "data migration",
+    "api enhancements",
+    "user experience",
+    "localization",
+    "financial management",
+    "warehouse management"
+  ],
+  "objects": [],
+  "features": [
+    "Configuration Package",
+    "GP to BC Migration tool",
+    "OnLicenseCheck event",
+    "BCContainerHelper",
+    "Unbound Actions API",
+    "Exchange rate management",
+    "Permission sets",
+    "Power Automate workflows",
+    "Apply Entries functionality",
+    "Alternative Posting Groups"
+  ],
+  "versions": [
+    "2025 wave 1",
+    "2025 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Sets the purpose of the post as a compilation of community-suggested improvements across multiple areas of the product"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

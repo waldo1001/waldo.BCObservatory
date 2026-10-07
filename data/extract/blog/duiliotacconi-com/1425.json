@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/duiliotacconi-com/1425",
+  "url": "https://duiliotacconi.com/2025/05/30/optimized-locking-feature-vs-dynamics-365-business-central/",
+  "title": "Optimized Locking feature vs Dynamics 365 Business Central",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-05-30T14:53:28.000Z",
+  "words": 728,
+  "summary": "Optimized Locking in SQL Server 2025 requires ReadCommitted transaction isolation, but Dynamics 365 Business Central uses RepeatableRead by default, preventing the feature from working effectively. The post examines tri-state locking, RCSI, and transaction isolation levels in both online and on-premises deployments.",
+  "key_points": [
+    "Tri-state locking and ReadIsolation in BC apply only to in-transaction single reads, while the default isolation level remains RepeatableRead",
+    "Optimized Locking feature needs ReadCommitted isolation to function properly, but BC transactions typically use RepeatableRead (65536)",
+    "BC 2024 Wave 2 made tri-state locking with RCSI the default for all deployments",
+    "Web service and job queue sessions show different isolation levels like ReadUncommitted (256)",
+    "The product group should consider changing BC's default isolation level from RepeatableRead to ReadCommitted for better optimization"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "optimized locking",
+    "transaction isolation",
+    "concurrency",
+    "sql server 2025",
+    "azure sql",
+    "tri-state locking",
+    "rcsi"
+  ],
+  "objects": [],
+  "features": [
+    "Optimized Locking",
+    "Tri-state locking",
+    "Read Committed Snapshot Isolation (RCSI)",
+    "AL ReadIsolation statement",
+    "Transaction isolation levels"
+  ],
+  "versions": [
+    "2024 Wave 2",
+    "v25"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Optimized Locking feature needs ReadCommitted (4096) transaction isolation - or any row versioning-based isolation levels - to effectively work at its best",
+      "why_it_matters": "This explains the core incompatibility preventing BC from leveraging SQL Server 2025's new Optimized Locking capabilities"
+    },
+    {
+      "text": "Hence, sorry but Optimized Locking feature won't kick in its full potential with almost all the typical Dynamics 365 Business Central transactions.",
+      "why_it_matters": "This is the main conclusion showing that BC cannot fully benefit from the new feature without architectural changes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

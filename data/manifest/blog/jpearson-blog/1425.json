@@ -7,13 +7,39 @@
   "url": "https://jpearson.blog/2025/04/24/tip-access-the-clipboard-with-business-central/",
   "published_at": "2025-04-24T17:01:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:29.697Z",
+      "path": "vault:posts/jpearson-blog/1425.md",
+      "words": 489
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:29.704Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:29.705Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:29.705Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:29.711Z",
+      "path": "content/posts/jpearson-blog/1425.md"
     }
   },
   "input_hash": "2025-04-24T15:03:30.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "55f6d89cfb5e02ebce9999312a78782c6a9f1fcf18c44396c841b2f3be532dd5"
 }

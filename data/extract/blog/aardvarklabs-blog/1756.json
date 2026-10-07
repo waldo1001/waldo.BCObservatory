@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1756",
+  "url": "https://aardvarklabs.blog/2025/05/02/effortless-layout-editing-in-business-central/",
+  "title": "Effortless Layout Editing in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-05-02T12:00:00.000Z",
+  "words": 433,
+  "summary": "Business Central Designer Mode enables drag-and-drop field editing through Visual Studio Code by pressing F6 instead of F5, automatically generating AL code from the visual changes made to pages without requiring manual coding.",
+  "key_points": [
+    "Press F6 in VS Code to start Business Central in Designer Mode instead of Debugger Mode",
+    "Drag and drop fields onto pages, adjust properties, and show/hide actions through a visual interface",
+    "Designer Mode updates AL code automatically after you save changes by pressing Alt+F6",
+    "Designer Mode works for layouts and visual properties but not for triggers or advanced page logic",
+    "Enables collaborative work with end users to visualize layout changes in real time"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page layout editing",
+    "designer mode",
+    "visual studio code",
+    "drag and drop",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "other",
+      "name": "pageextension ARD_Customer"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "other",
+      "name": "tableextension ARD_Customer"
+    }
+  ],
+  "features": [
+    "Designer Mode",
+    "Drag-and-drop field editing",
+    "Field property editing",
+    "Action management",
+    "Auto code generation from visual changes",
+    "Page preview in design mode",
+    "Collaborative layout design"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With F6 the system starts in Designer Mode.",
+      "why_it_matters": "This is the key command to activate the visual layout editing feature in Business Central"
+    },
+    {
+      "text": "This also lets you work more collaboratively with an end user, allowing you to move and visualize the results in real time.",
+      "why_it_matters": "Shows the practical benefit of Designer Mode for non-technical stakeholders to participate in layout design"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

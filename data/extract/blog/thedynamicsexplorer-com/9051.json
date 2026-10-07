@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/9051",
+  "url": "https://thedynamicsexplorer.com/2025/05/23/dynamics-gp-to-business-central-how-to-easily-convert-your-gp-word-templates-to-bc-word-layouts/",
+  "title": "Dynamics GP to Business Central – How to easily convert your GP word templates to BC word layouts",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-05-23T09:00:00.000Z",
+  "words": 470,
+  "summary": "Converting Dynamics GP Word templates to Business Central Word layouts can be done efficiently by removing GP content controls, importing into Business Central's Report Layouts, updating and exporting to add BC data, then editing in Word to add BC fields. This approach helps during migration by preserving the original design without full recreation.",
+  "key_points": [
+    "Remove all content controls from GP Word layouts before importing to BC",
+    "Use Business Central's Report Layouts page to import and update the layout",
+    "Export the layout to receive the BC XML data set",
+    "Edit in Word by replacing GP fields with BC fields from the XML data, preserving original formatting",
+    "Keep a copy of the original GP template for reference during field mapping"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "dynamics gp migration",
+    "document layout conversion",
+    "template adaptation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Word layout design",
+    "Report Layouts page",
+    "Update and Export Layout",
+    "XML data set integration",
+    "Content control removal"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "you can methodically remove the text from the layout, and replace it with the relevant fields from the Business Central XML data set.",
+      "why_it_matters": "This describes the core approach that preserves design while adapting fields, making migration efficient instead of rebuilding from scratch"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

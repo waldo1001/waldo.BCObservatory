@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/",
+  "title": "BC Friday Tips #28 Math Codeunit",
+  "source": "thatnavguy-com",
+  "published_at": "2025-04-18T00:00:00.000Z",
+  "words": 85,
+  "summary": "Business Central includes a built-in Math codeunit that provides constants and static methods for mathematical functions like trigonometry, logarithms, and common operations. Developers can use it to avoid duplicating mathematical logic in their code.",
+  "key_points": [
+    "The Math codeunit is a built-in feature available to all Business Central developers",
+    "It includes constants like Pi and methods for trigonometric functions (Cos, Sin, Tan)",
+    "It provides utility functions including Log, Max, Min, Floor, Ceiling, Pow, and Sqrt",
+    "Using the built-in codeunit eliminates the need to create custom math implementations"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "math codeunit",
+    "al development",
+    "built-in functions",
+    "constants"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Math"
+    }
+  ],
+  "features": [
+    "Math codeunit",
+    "trigonometric functions",
+    "logarithmic functions",
+    "mathematical constants"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Math codeunit provides constants and static methods for trigonometric, logarithmic, and other common mathematical functions.",
+      "why_it_matters": "Summarizes the core capability and purpose of the built-in Math codeunit that developers should know about."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

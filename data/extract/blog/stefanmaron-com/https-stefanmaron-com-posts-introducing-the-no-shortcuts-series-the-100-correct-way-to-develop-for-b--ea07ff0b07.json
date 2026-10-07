@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/",
+  "url": "https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/",
+  "title": "Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central",
+  "source": "stefanmaron-com",
+  "published_at": "2025-06-02T05:38:54.000Z",
+  "words": 529,
+  "summary": "A series introduction on best practices for Business Central AL development that prioritizes maintainability, upgrade safety, and AppSource readiness over shortcuts. It targets experienced developers seeking to reduce technical debt and build sustainable, future-proof extensions.",
+  "key_points": [
+    "Shortcuts in development today create technical debt and upgrade problems tomorrow, making best practices essential for long-term sustainability",
+    "The series assumes AL development experience and focuses on the correct approach for specific tasks like setting up projects, creating objects and fields, and designing pages",
+    "Following best practices applies to all project sizes and types, from internal apps to AppSource-certified extensions",
+    "Developers should understand how things should be done properly, then adapt their approach to fit specific project situations"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "best practices",
+    "al development",
+    "code quality",
+    "extensions",
+    "maintainability",
+    "appsource certification",
+    "technical debt"
+  ],
+  "objects": [],
+  "features": [
+    "AL code development",
+    "extension development",
+    "project setup",
+    "object creation",
+    "field creation",
+    "error messages",
+    "page design"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every shortcut you take today becomes a problem tomorrow.",
+      "why_it_matters": "Captures the core philosophy that prioritizes long-term code quality over immediate delivery speed"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

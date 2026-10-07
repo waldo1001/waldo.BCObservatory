@@ -1,0 +1,84 @@
+{
+  "item_id": "blog/jpearson-blog/1419",
+  "url": "https://jpearson.blog/2025/05/07/another-look-at-app-integration-in-business-central-part-2/",
+  "title": "Another Look at App Integration in Business Central – Part 2",
+  "source": "jpearson-blog",
+  "published_at": "2025-05-07T17:08:28.000Z",
+  "words": 1459,
+  "summary": "This post demonstrates how to integrate two independent Business Central apps without creating a direct dependency between them by using interfaces and a shared app integration layer. The approach allows apps to register and discover each other's functionality at runtime using enums, dictionaries, and version management.",
+  "key_points": [
+    "Apps can integrate without direct dependencies by implementing interfaces defined in a shared app integration layer",
+    "An App Integration codeunit uses a dictionary to store and manage implementations of interfaces from different apps",
+    "Version numbers in interface names enable future contract changes while preventing breaking changes",
+    "Consuming apps check for interface implementation before calling external app functionality, with fallback logic if unavailable",
+    "The pattern separates concerns with each app owning specific responsibilities through single responsibility principle"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "app integration",
+    "interfaces",
+    "dependency management",
+    "architecture",
+    "design patterns",
+    "runtime registration"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "IShippingAgentIntegration1.0"
+    },
+    {
+      "type": "interface",
+      "name": "IApp"
+    },
+    {
+      "type": "enum",
+      "name": "App"
+    },
+    {
+      "type": "codeunit",
+      "name": "App Integration"
+    },
+    {
+      "type": "codeunit",
+      "name": "Shipping Agent Integration"
+    },
+    {
+      "type": "codeunit",
+      "name": "Calc. Shipping Charges"
+    }
+  ],
+  "features": [
+    "Interface-based app integration",
+    "Runtime implementation registration",
+    "Version management for interfaces",
+    "Dictionary-based implementation storage",
+    "Implementation discovery and casting",
+    "Event-based initialization",
+    "Fallback logic for missing implementations"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The challenge that we are trying to solve is to allow Business Central apps to call each other's functionality without creating a dependency.",
+      "why_it_matters": "This defines the core problem the solution addresses - enabling optional app integration without tight coupling"
+    },
+    {
+      "text": "Each app should have a clear set of responsibilities which does not overlap with the responsibilities of another app.",
+      "why_it_matters": "Explains the architectural principle driving the design - separation of concerns ensures maintainability and independent deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

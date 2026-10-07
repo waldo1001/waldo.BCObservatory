@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/",
+  "title": "BC Friday Tips #32 Unit of Measure Management Codeunit",
+  "source": "thatnavguy-com",
+  "published_at": "2025-05-23T00:00:00.000Z",
+  "words": 69,
+  "summary": "The Unit of Measure Management codeunit provides built-in functions for handling unit of measure conversions and quantity calculations in Business Central. Developers should use it instead of creating custom solutions to ensure consistency and save development time.",
+  "key_points": [
+    "Codeunit includes functions like GetQtyPerUnitOfMeasure, GetResQtyPerUnitOfMeasure, GetQtyRoundingPrecision, RoundQty, CalcBaseQty, and CalcQtyFromBase",
+    "Using the built-in codeunit eliminates the need to recreate unit of measure conversion logic",
+    "Provides consistency across applications by leveraging standard Microsoft functionality"
+  ],
+  "systems": [
+    "development",
+    "inventory"
+  ],
+  "topics": [
+    "unit of measure",
+    "quantity conversion",
+    "codeunit",
+    "best practices",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Unit of Measure Management"
+    }
+  ],
+  "features": [
+    "GetQtyPerUnitOfMeasure",
+    "GetResQtyPerUnitOfMeasure",
+    "GetQtyRoundingPrecision",
+    "RoundQty",
+    "CalcBaseQty",
+    "CalcQtyFromBase"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Use it next time you are dealing with Unit of Measure conversions.",
+      "why_it_matters": "Recommends leveraging the standard codeunit as a development best practice for UoM handling"
+    },
+    {
+      "text": "No need to reinvent the wheel.",
+      "why_it_matters": "Emphasizes the importance of using built-in functionality instead of custom solutions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/05/23/dynamics-gp-to-business-central-how-to-easily-convert-your-gp-word-templates-to-bc-word-layouts/",
   "published_at": "2025-05-23T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:47:27.010Z",
+      "path": "vault:posts/thedynamicsexplorer-com/9051.md",
+      "words": 470
+    },
+    "extracted": {
+      "at": "2026-10-07T01:47:27.017Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:47:27.018Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:47:27.019Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:47:27.024Z",
+      "path": "content/posts/thedynamicsexplorer-com/9051.md"
     }
   },
   "input_hash": "2026-04-30T16:06:59.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb6ffe366a4159dd532c5415a4da6bb516772c7e6a08c751456d8bec0a1c29ca"
 }
