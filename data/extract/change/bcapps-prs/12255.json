@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12255",
+  "number": 12255,
+  "title": "Fix overwrite import of exported system permission sets",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "System permission set imports with overwrite option now correctly delete permissions and relations that differ from the imported file, instead of merging silently. The fix handles both system and tenant format files, with tenant format now using exact role ID matching.",
+  "key_points": [
+    "System-format overwrite now correctly filters on empty App ID when deleting existing permissions",
+    "Tenant-format overwrite uses SetRange to prevent role IDs with filter characters from matching wrong records",
+    "Overwrite behavior now matches the imported file contents instead of falling back to merge",
+    "Added test to verify permission removal, relation changes and file accuracy after overwrite import",
+    "Addresses silent data loss where removed or lowered permissions were not applied on import"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004158,
+    "changes_in_call": 1
+  }
+}

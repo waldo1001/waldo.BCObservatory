@@ -6,10 +6,35 @@
   "title": "[Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.",
   "url": "https://github.com/microsoft/BCApps/pull/12059",
   "published_at": "2026-10-05T19:03:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:10.048Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:14.248Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002976
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:14.393Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:14.398Z",
+      "path": "content/changes/bcapps/12059.md"
     }
   },
   "input_hash": "4515e4848d5c6becad687d2526f4e52beb6ca978:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master reverse production entry fails when production output is posted using a non base unit of measure"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "130acff30f86eec853ee8b70d5676ad0b82a793db55e27c59dc0a30997c65a85"
 }

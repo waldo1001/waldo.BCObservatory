@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12255,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12255",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T14:18:31Z",
+  "merge_commit_sha": "63ae02a0d5088110d7b6ea8599cf45b8ac1555c8",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix overwrite import of exported system permission sets",
+  "body_hash": "87f6e85d11ef82ab48be852e98f26dae2fccfe38a341c8aad62f5455f0b6f8b2",
+  "fixes_issues": [],
+  "work_items": [
+    631431,
+    639487
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Permission Sets/src/xmlports/ImportPermissionSets.xmlport.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Permission Sets/src/PermissionImportExportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 78,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Permission Sets/src/xmlports/ImportPermissionSets.xmlport.al",
+        "status": "modified",
+        "key": "xmlport/9864",
+        "type": "xmlport",
+        "id": 9864,
+        "name": "Import Permission Sets",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "xmlport/9864"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

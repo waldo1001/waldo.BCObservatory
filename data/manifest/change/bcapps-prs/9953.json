@@ -6,10 +6,35 @@
   "title": "Rename AppSource UI text to Marketplace",
   "url": "https://github.com/microsoft/BCApps/pull/9953",
   "published_at": "2026-10-05T14:21:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:18.107Z",
+      "change_class": "code",
+      "files": 26,
+      "al": 23,
+      "objects": 23,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:23.522Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004591
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:23.724Z",
+      "objects": 23,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:23.733Z",
+      "path": "content/changes/bcapps/9953.md"
     }
   },
   "input_hash": "d99152ee35f0ca8cfec43ba6334b7247a0ee6b17:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "rename appsource ui text to marketplace"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76557d6b0c29d5443dd283e0156729e76c69d9472000a99212fc463e62db1298"
 }

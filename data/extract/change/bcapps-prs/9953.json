@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9953",
+  "number": 9953,
+  "title": "Rename AppSource UI text to Marketplace",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "summary": "User-facing text that references AppSource has been updated to use Marketplace terminology throughout the application and system components.",
+  "key_points": [
+    "AppSource UI text, captions, tooltips, and labels changed to Marketplace terminology",
+    "Updates applied across connectivity apps, e-documents, CRM/Dataverse setup, and extension management",
+    "Technical identifiers, object names, and configuration references remain unchanged",
+    "Affects 24+ pages, codeunits, and tables in multiple modules",
+    "Coordinated with dynamics SMB NAV PR for consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "quote": "Update additional user-facing captions, tooltips, labels, instructional text, and visible metadata.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004591,
+    "changes_in_call": 1
+  }
+}

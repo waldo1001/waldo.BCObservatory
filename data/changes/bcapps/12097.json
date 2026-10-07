@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12097,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12097",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-05T13:01:20Z",
+  "merge_commit_sha": "bd29abeb2914f2758dd6a369c010d7640da3cb12",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-[Quality Management] Workflow events are not localized",
+  "body_hash": "409bd281c8eccebd8847e608c84cf0628ae206cfccb0968dbe1cde7b72ae5a8a",
+  "fixes_issues": [],
+  "work_items": [
+    652226
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 22,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 22,
+    "deletions": 22,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20423",
+        "type": "codeunit",
+        "id": 20423,
+        "name": "Qlty. Workflow Setup",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20423"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

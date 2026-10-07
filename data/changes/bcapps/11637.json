@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11637,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11637",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T15:58:49Z",
+  "merge_commit_sha": "4e9368ec942fe667fde6764f1906c5e930d9081c",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists",
+  "body_hash": "cd1723c9acf1c230c71c2d44e9d03a0fcba65e569c47eea11703c8bba3899ec3",
+  "fixes_issues": [],
+  "work_items": [
+    651084
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 144,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 146,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8060",
+        "type": "codeunit",
+        "id": 8060,
+        "name": "Create Billing Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8060"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

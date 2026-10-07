@@ -6,10 +6,35 @@
   "title": "Fix overwrite import of exported system permission sets",
   "url": "https://github.com/microsoft/BCApps/pull/12255",
   "published_at": "2026-10-05T14:18:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:19.132Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:27.414Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004158
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:27.616Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:27.631Z",
+      "path": "content/changes/bcapps/12255.md"
     }
   },
   "input_hash": "63ae02a0d5088110d7b6ea8599cf45b8ac1555c8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix overwrite import of exported system permission sets"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4dc8495634d2648bb9246a1fae37e07ce9e2f014dc97d202f01f961a7a8a504c"
 }

@@ -6,10 +6,35 @@
   "title": "[Payables Agent] Exclude agent accounts from eligible users",
   "url": "https://github.com/microsoft/BCApps/pull/12256",
   "published_at": "2026-10-05T15:55:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:16.983Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:23.737Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003287
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:23.901Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:27.408Z",
+      "path": "content/changes/bcapps/12256.md"
     }
   },
   "input_hash": "a161cd6bf795c9a5631ff2993f51622f04338eb3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "payables agent exclude agent accounts from eligible users"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4588090a49fc02ec97b921c2f0854c6d9e40c680a6fa7feb215ca26283bde64b"
 }

@@ -1,0 +1,490 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9953,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9953",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T14:21:45Z",
+  "merge_commit_sha": "d99152ee35f0ca8cfec43ba6334b7247a0ee6b17",
+  "author": "SBalslev",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Rename AppSource UI text to Marketplace",
+  "body_hash": "e5c2e8932a1ed6dc8edc59ecd45f03cf686c7a1b27e66f3f67913717a08c81e0",
+  "fixes_issues": [],
+  "work_items": [
+    617940
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ConnectivityApps/app/src/Codeunits/ConnectivityAppsLogoMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ConnectivityApps/app/src/Pages/BankingApp.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ConnectivityApps/app/src/Pages/ConnectivityApp.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ConnectivityApps/app/src/Tables/ConnectivityAppLogo.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentServices.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Pages/FSConnectionSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Setup/SetupGuide/QltyDemoDataMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/RecommendedApps/app/src/Codeunits/RecommendedAppsImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/RecommendedApps/app/src/Pages/RecommendedAppCard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/RecommendedApps/test/src/RecommendedAppsTests.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMConnectionSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMConnectionSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSConnectionSetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSConnectionSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSIntegrationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWSReportSelection.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/app.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceExtensionManagement.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductDetails.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductList.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductManager.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Edit in Excel/src/ExcelCentralizedDeplWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Email/src/Account/EmailAccountWizard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/MarketplaceExtnDeployment.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/External File Storage/src/Account/FileAccountWizard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/AppSource Gallery/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 26,
+    "additions": 59,
+    "deletions": 62,
+    "al": 23
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ConnectivityApps/app/src/Codeunits/ConnectivityAppsLogoMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20353",
+        "type": "codeunit",
+        "id": 20353,
+        "name": "Connectivity Apps Logo Mgt.",
+        "app": "ConnectivityApps",
+        "cc": "w1",
+        "page": "codeunit/20353"
+      },
+      {
+        "path": "src/Apps/W1/ConnectivityApps/app/src/Pages/BankingApp.Page.al",
+        "status": "modified",
+        "key": "page/20352",
+        "type": "page",
+        "id": 20352,
+        "name": "Banking App",
+        "app": "ConnectivityApps",
+        "cc": "w1",
+        "page": "page/20352"
+      },
+      {
+        "path": "src/Apps/W1/ConnectivityApps/app/src/Pages/ConnectivityApp.Page.al",
+        "status": "modified",
+        "key": "page/20351",
+        "type": "page",
+        "id": 20351,
+        "name": "Connectivity App",
+        "app": "ConnectivityApps",
+        "cc": "w1",
+        "page": "page/20351"
+      },
+      {
+        "path": "src/Apps/W1/ConnectivityApps/app/src/Tables/ConnectivityAppLogo.Table.al",
+        "status": "modified",
+        "key": "table/20352",
+        "type": "table",
+        "id": 20352,
+        "name": "Connectivity App Logo",
+        "app": "ConnectivityApps",
+        "cc": "w1",
+        "page": "table/20352"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentServices.Page.al",
+        "status": "modified",
+        "key": "page/6103",
+        "type": "page",
+        "id": 6103,
+        "name": "E-Document Services",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6103"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Pages/FSConnectionSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6613",
+        "type": "page",
+        "id": 6613,
+        "name": "FS Connection Setup Wizard",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "page/6613"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Setup/SetupGuide/QltyDemoDataMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20422",
+        "type": "codeunit",
+        "id": 20422,
+        "name": "Qlty. Demo Data Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20422"
+      },
+      {
+        "path": "src/Apps/W1/RecommendedApps/app/src/Codeunits/RecommendedAppsImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4751",
+        "type": "codeunit",
+        "id": 4751,
+        "name": "Recommended Apps Impl.",
+        "app": "RecommendedApps",
+        "cc": "w1",
+        "page": "codeunit/4751"
+      },
+      {
+        "path": "src/Apps/W1/RecommendedApps/app/src/Pages/RecommendedAppCard.Page.al",
+        "status": "modified",
+        "key": "page/4751",
+        "type": "page",
+        "id": 4751,
+        "name": "Recommended App Card",
+        "app": "RecommendedApps",
+        "cc": "w1",
+        "page": "page/4751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMConnectionSetup.Page.al",
+        "status": "modified",
+        "key": "page/5330",
+        "type": "page",
+        "id": 5330,
+        "name": "CRM Connection Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5330"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMConnectionSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1817",
+        "type": "page",
+        "id": 1817,
+        "name": "CRM Connection Setup Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1817"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSConnectionSetup.Page.al",
+        "status": "modified",
+        "key": "page/7200",
+        "type": "page",
+        "id": 7200,
+        "name": "CDS Connection Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/7200"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSConnectionSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/7201",
+        "type": "page",
+        "id": 7201,
+        "name": "CDS Connection Setup Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/7201"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSIntegrationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7201",
+        "type": "codeunit",
+        "id": 7201,
+        "name": "CDS Integration Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7201"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWSReportSelection.Page.al",
+        "status": "modified",
+        "key": "page/6322",
+        "type": "page",
+        "id": 6322,
+        "name": "Power BI WS Report Selection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6322"
+      },
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceExtensionManagement.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/2515",
+        "type": "pageextension",
+        "id": 2515,
+        "name": "AppSourceExtensionManagement",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "pageextension/2515"
+      },
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductDetails.Page.al",
+        "status": "modified",
+        "key": "page/2516",
+        "type": "page",
+        "id": 2516,
+        "name": "AppSource Product Details",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2516"
+      },
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductList.Page.al",
+        "status": "modified",
+        "key": "page/2515",
+        "type": "page",
+        "id": 2515,
+        "name": "AppSource Product List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2515"
+      },
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductManager.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2515",
+        "type": "codeunit",
+        "id": 2515,
+        "name": "AppSource Product Manager",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2515"
+      },
+      {
+        "path": "src/System Application/App/Edit in Excel/src/ExcelCentralizedDeplWizard.Page.al",
+        "status": "modified",
+        "key": "page/1480",
+        "type": "page",
+        "id": 1480,
+        "name": "Excel Centralized Depl. Wizard",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/1480"
+      },
+      {
+        "path": "src/System Application/App/Email/src/Account/EmailAccountWizard.Page.al",
+        "status": "modified",
+        "key": "page/8886",
+        "type": "page",
+        "id": 8886,
+        "name": "Email Account Wizard",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8886"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/MarketplaceExtnDeployment.Page.al",
+        "status": "modified",
+        "key": "page/2510",
+        "type": "page",
+        "id": 2510,
+        "name": "Marketplace Extn Deployment",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2510"
+      },
+      {
+        "path": "src/System Application/App/External File Storage/src/Account/FileAccountWizard.Page.al",
+        "status": "modified",
+        "key": "page/9451",
+        "type": "page",
+        "id": 9451,
+        "name": "File Account Wizard",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/9451"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "apps": [
+    "Base Application",
+    "ConnectivityApps",
+    "EDocument",
+    "FieldServiceIntegration",
+    "Quality Management",
+    "RecommendedApps",
+    "System Application"
+  ]
+}

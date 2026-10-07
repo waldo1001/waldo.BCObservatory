@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12307",
+  "number": 12307,
+  "title": "Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations instead of row-by-row processing to backfill ParentId fields in Default Dimension records, significantly reducing upgrade runtime on large tables.",
+  "key_points": [
+    "Replaces per-row Get and Modify operations with four set-based DataTransfer joins (Item, Customer, Vendor, Employee)",
+    "Scopes destination rows by Table ID and blank ParentId to prevent cross-matching between entity types",
+    "Preserves existing behavior while reducing SQL round-trips from millions to a single set-based operation",
+    "Applied consistently across all localization layers (W1, AT, BE, CH, IT, NL, NO, RU)",
+    "Audit fields are intentionally not restamped, consistent with other upgrade DataTransfer operations"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": "Replace the loop with four set-based DataTransfer joins (Item, Customer, Vendor, Employee), consistent with the Parent Type / DimensionId steps in the same method.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004748,
+    "changes_in_call": 1
+  }
+}

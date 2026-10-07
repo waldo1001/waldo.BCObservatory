@@ -6,7 +6,7 @@
   "title": "Fix Retention Policy record-limit tests without SUPER",
   "url": "https://github.com/microsoft/BCApps/pull/11902",
   "published_at": "2026-10-05T14:21:45Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix retention policy record limit tests without super"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:56:17.205Z",
+  "retry_after": null
 }

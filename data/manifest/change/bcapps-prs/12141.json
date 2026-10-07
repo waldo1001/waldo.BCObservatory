@@ -6,10 +6,35 @@
   "title": "[Master]-Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project",
   "url": "https://github.com/microsoft/BCApps/pull/12141",
   "published_at": "2026-10-05T15:55:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:14.865Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:19.432Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003346
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:19.605Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:19.611Z",
+      "path": "content/changes/bcapps/12141.md"
     }
   },
   "input_hash": "0c8dcb37e160f30abb240395f3733368531f1976:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master incorrect project ledger costs when non deductible vat is posted to a foreign currency project"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdb8425215b33cad3845c74e9790cf58345898c9d8495b0b031cde892f36a4e0"
 }

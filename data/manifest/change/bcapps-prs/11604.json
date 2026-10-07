@@ -6,10 +6,35 @@
   "title": "fix: capture Shopify fulfillment deliveredAt timestamp",
   "url": "https://github.com/microsoft/BCApps/pull/11604",
   "published_at": "2026-10-05T19:17:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:09.498Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:14.490Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004245
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:14.670Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:14.678Z",
+      "path": "content/changes/bcapps/11604.md"
     }
   },
   "input_hash": "7484a1621bf4dbc93c2c2dcd24f89520757df5a8:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "fix capture shopify fulfillment deliveredat timestamp"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60deae308bda6ff39b4d415ce2bcff696494eea8115f0498a8628038534df55d"
 }

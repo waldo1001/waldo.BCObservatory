@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11994,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11994",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T15:57:22Z",
+  "merge_commit_sha": "9a4edccbcbacd6da2023233c4f70d19cdbaa60b2",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing",
+  "body_hash": "a84eb7e36a308f500b40201b3d8a3b33b41d14bc2bd6ba18b5a626a65c6b4ad1",
+  "fixes_issues": [],
+  "work_items": [
+    649803
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMPlanReqWksht.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 123,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+        "status": "modified",
+        "key": "report/99001020",
+        "type": "report",
+        "id": 99001020,
+        "name": "Carry Out Action Msg. - Plan.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001020"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

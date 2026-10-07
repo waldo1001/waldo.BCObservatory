@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12141",
+  "number": 12141,
+  "title": "[Master]-Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed incorrect project ledger costs when posting non-deductible VAT to a foreign-currency project by correcting currency conversions in the non-deductible VAT implementation.",
+  "key_points": [
+    "Non-deductible VAT now uses the correct LCY amount for local currency costs",
+    "Project currency amounts are properly converted from the source VAT amount",
+    "Corrects currency path handling without expanding scope of the fix",
+    "Affects job journal line processing for multi-currency scenarios",
+    "Resolves AB#652321"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "projects"
+  ],
+  "quote": "The current code adds a project-currency amount to LCY cost and an LCY amount to project cost.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003346,
+    "changes_in_call": 1
+  }
+}

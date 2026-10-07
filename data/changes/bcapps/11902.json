@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11902,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11902",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T14:21:45Z",
+  "merge_commit_sha": "cd17e1ecc9ca605cb015950c332d9af7fda4cfec",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Retention Policy record-limit tests without SUPER",
+  "body_hash": "5f771b2465330a14ec7bba71ae5f4abb93bfd6b0bfec8029ed5e2a66bcf7fd8f",
+  "fixes_issues": [],
+  "work_items": [
+    651072
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 6,
+    "deletions": 22,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

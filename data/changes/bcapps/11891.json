@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11891,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11891",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T14:21:45Z",
+  "merge_commit_sha": "37fef448ca85a1d90d101a2bdb30825c931685ea",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Provision credentials and clean-tenant workflow infrastructure",
+  "body_hash": "e3677e2528196a854129ea2ef4aaff35dc45217736b9753226e3c0828b31dab7",
+  "fixes_issues": [],
+  "work_items": [
+    646383
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 33,
+    "additions": 2498,
+    "deletions": 87,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

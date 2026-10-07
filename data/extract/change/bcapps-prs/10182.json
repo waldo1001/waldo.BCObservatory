@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10182",
+  "number": 10182,
+  "title": "[Bug]: [Subscription Billing] Payment discount on contract invoices comes from the customer, not from the contract's payment terms",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payment discount percentages on subscription billing invoices now correctly use the contract's payment terms instead of the customer or vendor's payment terms.",
+  "key_points": [
+    "Fixed invoice payment discount calculation to respect contract payment terms rather than customer/vendor payment terms",
+    "Added validation of Payment Terms Code after document date is set to trigger recalculation",
+    "Handles sales and purchase invoices differently based on how their payment terms validation works",
+    "Added four new tests covering scenarios where contract terms grant discounts the customer/vendor do not, and vice versa",
+    "Resolves issue where invoice discount percentage could be 0% or higher than contract allows"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004384,
+    "changes_in_call": 1
+  }
+}

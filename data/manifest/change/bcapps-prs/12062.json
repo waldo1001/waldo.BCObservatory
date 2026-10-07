@@ -6,10 +6,35 @@
   "title": "[Master]-[Quality Management] Workflow events are not localized",
   "url": "https://github.com/microsoft/BCApps/pull/12062",
   "published_at": "2026-10-05T15:58:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:11.060Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:17.648Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.006415
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:17.801Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:17.806Z",
+      "path": "content/changes/bcapps/12062.md"
     }
   },
   "input_hash": "8d8b26a98a8c608b2aea068b1a086b721b1422d3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master quality management workflow events are not localized"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "186d579fdd4dfa747237186305f187d44924a75f490330329628eb7f381084c8"
 }

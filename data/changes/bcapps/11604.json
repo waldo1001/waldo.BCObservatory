@@ -1,0 +1,143 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11604,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11604",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T19:17:24Z",
+  "merge_commit_sha": "7484a1621bf4dbc93c2c2dcd24f89520757df5a8",
+  "author": "abame",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "fix: capture Shopify fulfillment deliveredAt timestamp",
+  "body_hash": "57d47205f04b4054f4ca4d96889cd8e2af76ea9e940c986e0eedb7298d3b341b",
+  "fixes_issues": [
+    10362
+  ],
+  "work_items": [
+    652742
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/.resources/graphql/Orders/GetOrderFulfillment.graphql",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Codeunits/ShpfyOrderFulfillments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillment.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillments.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyOrderFulfillment.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Fulfillments/ShpfyOrderFulfillmentsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 86,
+    "deletions": 5,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Codeunits/ShpfyOrderFulfillments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30160",
+        "type": "codeunit",
+        "id": 30160,
+        "name": "Shpfy Order Fulfillments",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30160"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillment.Page.al",
+        "status": "modified",
+        "key": "page/30153",
+        "type": "page",
+        "id": 30153,
+        "name": "Shpfy Order Fulfillment",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30153"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillments.Page.al",
+        "status": "modified",
+        "key": "page/30112",
+        "type": "page",
+        "id": 30112,
+        "name": "Shpfy Order Fulfillments",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30112"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyOrderFulfillment.Table.al",
+        "status": "modified",
+        "key": "table/30111",
+        "type": "table",
+        "id": 30111,
+        "name": "Shpfy Order Fulfillment",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30111"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ],
+  "issues": [
+    {
+      "number": 10362,
+      "title": "[Bug]: Shopify Connector – Fulfillment \"Delivered At\" timestamp is not imported",
+      "state": "closed"
+    }
+  ]
+}

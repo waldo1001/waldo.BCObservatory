@@ -6,7 +6,7 @@
   "title": "[API tests] Provision credentials and clean-tenant workflow infrastructure",
   "url": "https://github.com/microsoft/BCApps/pull/11891",
   "published_at": "2026-10-05T14:21:45Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "api tests provision credentials and clean tenant workflow infrastructure"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:56:16.326Z",
+  "retry_after": null
 }

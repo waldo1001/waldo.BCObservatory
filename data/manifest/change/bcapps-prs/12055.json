@@ -6,10 +6,35 @@
   "title": "[E-Documents Core] Show error for unmatched inbound Order Response",
   "url": "https://github.com/microsoft/BCApps/pull/12055",
   "published_at": "2026-10-05T19:17:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:08.825Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:13.942Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003806
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:14.120Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:14.126Z",
+      "path": "content/changes/bcapps/12055.md"
     }
   },
   "input_hash": "b508209e1a382ff442093c8c0d23703369b294f9:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "e documents core show error for unmatched inbound order response"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78b510b18ebbe095d8f694a573bd66b56de38e2b54e5cee455c1000ca1e6cc39"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11994",
+  "number": 11994,
+  "title": "[Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed a bug where the Carry Out Action Message - Planning report failed to copy production orders to requisition worksheets due to missing destination fields being populated.",
+  "key_points": [
+    "Report was unable to complete production order copy operations to requisition worksheets",
+    "Missing field mappings prevented data transfer between source and destination records",
+    "Added field population logic to the Carry Out Action Msg. - Plan. report",
+    "Test coverage added to verify the fix works correctly",
+    "Supply chain management planning operations now function as intended"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003052,
+    "changes_in_call": 1
+  }
+}

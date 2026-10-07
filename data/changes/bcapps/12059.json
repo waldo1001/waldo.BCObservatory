@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12059,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12059",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T19:03:34Z",
+  "merge_commit_sha": "4515e4848d5c6becad687d2526f4e52beb6ca978",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.",
+  "body_hash": "e29bf322502378addf552b6bac893eec94ea40f8ce1fe3adc45888868ce739f5",
+  "fixes_issues": [],
+  "work_items": [
+    652999
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/UndoProdPostingMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProductionOrdersII.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 65,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/UndoProdPostingMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000843",
+        "type": "codeunit",
+        "id": 99000843,
+        "name": "Undo Prod. Posting Mgmt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000843"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists",
   "url": "https://github.com/microsoft/BCApps/pull/11637",
   "published_at": "2026-10-05T15:58:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:11.746Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:16.462Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003257
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:16.662Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:16.668Z",
+      "path": "content/changes/bcapps/11637.md"
     }
   },
   "input_hash": "4e9368ec942fe667fde6764f1906c5e930d9081c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master create documents on recurring billing ignores the partner filter and fails when a vendor billing proposal exists"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f758628954faa889479efa3c951aa8de87f034f6ed404c6cf30369928fc86998"
 }

@@ -6,7 +6,7 @@
   "title": "Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)",
   "url": "https://github.com/microsoft/BCApps/pull/12307",
   "published_at": "2026-10-05T20:34:50Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 8,
       "objects": 8,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:13.662Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.004748
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:13.816Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:13.822Z",
+      "path": "content/changes/bcapps/12307.md"
     }
   },
   "input_hash": "a3a378ee9b95155b3add7a8a14f7690aff4c2cd3:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02a45f5334a981efc9d6c19e1df09b1763ef2ffb35bdd9bb4f0e90c9e1266b9f"
+  "output_hash": "dec0a6d88134b4058b59d12bcf9ef42214cf10e15cb771576a5140e0b69cf95d"
 }

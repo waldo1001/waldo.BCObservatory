@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11604",
+  "number": 11604,
+  "title": "fix: capture Shopify fulfillment deliveredAt timestamp",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now captures and displays the fulfillment delivery timestamp from Shopify, enabling users to see when shipments were actually delivered. A new field stores the deliveredAt value, the GraphQL query requests it, and the import logic parses it across both order fetches and shipment exports.",
+  "key_points": [
+    "Added deliveredAt field to Shpfy Order Fulfillment table",
+    "Updated GraphQL query to request deliveredAt timestamp from Shopify",
+    "Import logic now parses and stores the delivered timestamp",
+    "Delivered At value displayed on Order Fulfillment pages",
+    "Handles both null values and re-import scenarios with timestamp updates"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004245,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12055",
+  "number": 12055,
+  "title": "[E-Documents Core] Show error for unmatched inbound Order Response",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Unmatched inbound PEPPOL Order Responses now produce a descriptive error and remain visible in the E-Document list instead of being silently deleted.",
+  "key_points": [
+    "Inbound E-Documents with unmatched order references are retained with Error status instead of being deleted",
+    "Users receive a clear error message indicating which order reference could not be found",
+    "Error is logged in the import pipeline for better visibility and troubleshooting",
+    "Matched Order Responses continue to work as before",
+    "New test case covers the unmatched scenario with a sample XML file"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003806,
+    "changes_in_call": 1
+  }
+}
