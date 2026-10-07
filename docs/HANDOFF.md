@@ -12,6 +12,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   lands readers see short columns crushed to one character (timestamps, field types, the "Δ BC28" pill) on object
   and video pages, and an empty Evidence column on 429 of 611 video pages.
 
+- **Atlas on pages** (`docs/specs/atlas-on-pages.md`, D75, M13). Status: proposed 2026-10-07, nothing implemented.
+  Start with phase 0 task 1: count `## Calls` on `origin/main` object pages after the next finished nightly (the
+  committed BC28/29 graphs render 5,582 Calls and 2,808 Called by sections; today 0 pages show them). Then phase 1:
+  `askYourAgent` in `pipeline/render/object.ts` becomes one closing paragraph. Until it lands readers see no call
+  sections and an atlas block that says the call graph is not stored here.
+
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
