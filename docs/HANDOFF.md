@@ -11,6 +11,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   and section 5 (tests first). The answer to "does the observatory observe BCApps pull requests?" is no until this
   lands.
 
+- **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
+  PLAN milestone M7. Status: proposed, spec complete, no code written. Four zero-LLM tranches with exit criteria in
+  section 8; start with tranche 1 (render the extracted field ToolTips, join hubs to their objects through
+  `docs-objects.json`, place first-party apps in their system). Until it lands, a table page shows no field
+  explanations and search ranks a 47-page hub below any codeunit that mentions the word.
+
 ## Where things stand
 
 **M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
@@ -170,6 +176,7 @@ Deliberate deviations from PLAN, all small:
 - 2026-10-06 evening: unlimited nightly on the Mini, concurrency 6, batch commits every 50 item stages. Two fixes
   made it actually parallel: incremental checkpoint leak gate (D26) and workers that stay until the plan is drained
   (D33). After it ends, the scheduled 01:00 nightly runs with normal caps.
+
 
 ## Execution notes (2026-10-06)
 
