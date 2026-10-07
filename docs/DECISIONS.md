@@ -423,3 +423,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   cached work, then went silent for about 6.5 minutes inside stages the heap guard cannot interrupt. So the item
   loop now samples every 5 s and logs, every 30 s and whenever the heap crosses a gigabyte, the heap and each item
   in flight with its stage and how long it has been in it: the climb itself will name the stage.
+- **D61 Merged BCApps pull requests are observed as changes (spec `docs/specs/bcapps-pull-requests.md`, not yet
+  implemented).** D28 fixed the code pillar at one snapshot per major, so the observatory knows what differs between
+  BC29 and BC30 but not what moved in BCApps this week or which objects a merge touched. A new pillar `change`
+  (source kind `github-pr`, source `bcapps-prs`) discovers merged pull requests on the tracked branches through the
+  GitHub REST list endpoint with an ETag and a per-branch cursor, one item per pull request keyed by its number,
+  `input_hash` the merge commit (not `updated_at`, which moves on every later comment). Bots and backports are
+  filtered from the list payload; build-, test-, translation- and docs-only pull requests are skipped at fetch;
+  only pull requests that touch AL under the app folders get a Haiku facts pass (six per call) and a page under
+  `content/changes/<repo>/<n>.md`. Changed files join to object pages by exact path against the base branch's
+  snapshot (`data/code/<major>/files.json`), never by name; systems come from the joined objects' namespaces; a
+  reverse index puts a "Recent changes" section on object pages; the digest, search index, graph and MCP
+  `whats_new` carry the pages. The pull-request body is read for extraction and never stored: the public tree holds
+  title, file paths and counts, a derived summary and at most one quote under 25 words (CONTENT-NOTICE, metadata
+  only, D10). The nightly authenticates with the workflow token as step env (no new secret, D14); manual and
+  backfill runs may set `BCOBS_GITHUB_TOKEN` from the Mini env file; a rate limit holds items and leaves the cursor
+  instead of failing. Backfill three months. Open pull requests, issues, releases and other repositories are later
+  phases of the same spec.

@@ -4,6 +4,13 @@ Written at the end of the planning session so a fresh Claude Code session in thi
 without the original conversation. Read in this order: `AGENTS.md` → this file → `docs/PLAN.md` →
 `docs/DECISIONS.md` → `docs/research/2026-10-06-research-findings.md`.
 
+## Open specs, not yet implemented (2026-10-07)
+
+- **Merged BCApps pull requests as observed changes**: `docs/specs/bcapps-pull-requests.md`, decision D61, PLAN
+  milestone M6. Status: proposed, spec complete, no code written. Start at the spec's section 6 (tasks, in order)
+  and section 5 (tests first). The answer to "does the observatory observe BCApps pull requests?" is no until this
+  lands.
+
 ## Where things stand
 
 **M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
@@ -163,6 +170,12 @@ Deliberate deviations from PLAN, all small:
 - 2026-10-06 evening: unlimited nightly on the Mini, concurrency 6, batch commits every 50 item stages. Two fixes
   made it actually parallel: incremental checkpoint leak gate (D26) and workers that stay until the plan is drained
   (D33). After it ends, the scheduled 01:00 nightly runs with normal caps.
+
+- Discovery spec written 2026-10-07 (`docs/specs/discovery.md`, reserves D61): render the extracted field ToolTips,
+  join hubs to their pages/reports/tables through `docs-objects.json`, rank hubs by size and review state with grouped
+  search results, a deterministic Related block on every page, one page per first-party app, first-party apps placed
+  in their business system (`NS_SYSTEM`), and page layout/actions extraction with ToolTips projected onto table fields.
+  Four tranches, all zero-LLM; phases and exit criteria in the spec, section 8.
 
 ## Execution notes (2026-10-06)
 

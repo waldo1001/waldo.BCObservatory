@@ -409,6 +409,7 @@ blogs; all videos newest-first.
 | **M2 code pillar** | extractor + queries, 28/29 W1 snapshots, 26 country overlays, BE + NL localization hubs with diff views, timelines, deprecation radar, docs↔object links, object pages | 2 weeks | low: deterministic; Sonnet for ~60 localization/object-family narratives |
 | **M3 blogs + galaxy + design** | 24 blogs backfilled (REST/RSS/scrape), language tagging, footprints, graph + baked layout, coverage heatmap, design brief generated, Claude Design pass, Astro UI implemented | 2–3 weeks | medium: ~3–4k posts × (1 Haiku + 1 Sonnet) at 40/night → ~3 months of background backfill; UI is token-free |
 | **M4 change radar + MCP = v0.1** | weekly digest + RSS, drift report, roadmap tracker, MCP package published, plugin, GitMCP/DeepWiki badges, AGENTS.md, announcement | 1–2 weeks | low |
+| **M6 code changes** | merged BCApps pull requests as observed changes (`docs/specs/bcapps-pull-requests.md`, D61): pillar `change`, pages for AL-touching merges joined by exact file path to object pages, "Recent changes" on object pages, digest section, search, graph, `whats_new`; three-month backfill | 1–2 weeks | low: one Haiku batch call per 6 pull requests, about 2 calls a night |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification
