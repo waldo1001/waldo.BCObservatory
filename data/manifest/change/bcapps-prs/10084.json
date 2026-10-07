@@ -6,10 +6,35 @@
   "title": "Let the agent update invoice due dates on user instructions",
   "url": "https://github.com/microsoft/BCApps/pull/10084",
   "published_at": "2026-09-01T19:39:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:33.042Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:37.897Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00343
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:38.064Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:38.069Z",
+      "path": "content/changes/bcapps/10084.md"
     }
   },
   "input_hash": "9dac2f9b0636f27f23f3d85d3926b4000f152937:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "let the agent update invoice due dates on user instructions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "448dc0efd653eb869d082e1ad85f3d31dc5b41e3e3e3bb566e3debc786be033b"
 }

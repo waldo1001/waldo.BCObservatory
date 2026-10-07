@@ -6,10 +6,35 @@
   "title": "knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break",
   "url": "https://github.com/microsoft/BCQuality/pull/139",
   "published_at": "2026-09-02T07:24:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:27.798Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:33.056Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003772
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:33.058Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:05:33.062Z",
+      "path": "content/changes/bcquality/139.md"
     }
   },
   "input_hash": "00c9307483c2ba394863b624f429bdb7feb19280:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge breaking changes adding a parameter to an event publisher is not a signature break"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "782aa4bc0c76107b737c47bf6771a10f9651ffe8677aa0616a89b8b7fac50aa6"
 }

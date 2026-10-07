@@ -6,10 +6,35 @@
   "title": "Bug 648568: [29.x] Incorrect currency conversion rates for new currencies",
   "url": "https://github.com/microsoft/BCApps/pull/10893",
   "published_at": "2026-09-02T07:30:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:28.135Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:32.477Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002947
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:32.686Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:32.690Z",
+      "path": "content/changes/bcapps/10893.md"
     }
   },
   "input_hash": "b167b2089de45675b8a10a11c8874a65aa0b7173:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648568 29 x incorrect currency conversion rates for new currencies"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c5ef1e5aea99abe88bdf098d82a33e1bab04329e3382fd567925d26d218c12a1"
 }

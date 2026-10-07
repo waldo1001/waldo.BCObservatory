@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9778",
+  "number": 9778,
+  "title": "[Extensibility Request] issue 30362: add OnPostDocumentLinesOnBeforeInsertPostedHeaders event to Service-Post",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "A new integration event OnPostDocumentLinesOnBeforeInsertPostedHeaders enables extensions to control which posted service document is created during service posting, matching the extensibility available in Sales-Post.",
+  "key_points": [
+    "New IsHandled integration event added to Service-Post codeunit",
+    "Raised in PostDocumentLines before posted service invoice or credit memo header creation",
+    "Allows extensions to replace the standard decision on which posted document type to create",
+    "Brings Service-Post extensibility feature parity with Sales-Post",
+    "Change propagated across W1, NA, and IT layers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003607,
+    "changes_in_call": 1
+  }
+}

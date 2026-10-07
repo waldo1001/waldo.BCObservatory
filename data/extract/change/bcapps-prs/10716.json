@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10716",
+  "number": 10716,
+  "title": "[Main] [ALL-E] \"Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line\" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "sales"
+  ],
+  "summary": "Fixes an error that occurred when creating a purchase order from a sales order with drop shipment, where item tracking validation was preventing requisition line operations.",
+  "key_points": [
+    "Resolves incorrect item tracking validation error when processing drop shipments",
+    "Corrects logic in Order Planning Management to handle requisition lines properly",
+    "Updates related sales line planning code to prevent unwanted item tracking checks",
+    "Includes test coverage for the drop shipment scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003373,
+    "changes_in_call": 1
+  }
+}

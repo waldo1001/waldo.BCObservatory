@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10538",
+  "number": 10538,
+  "title": "[Master]-Slice 425446: Payment Journal Batch Total",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment Journal now displays a batch total showing the cumulative amount selected for payment without requiring posting first.",
+  "key_points": [
+    "Adds batch total functionality to Payment Journal page across all localization layers",
+    "Shows cumulative payment amounts for the selected batch",
+    "Reduces need to post journal to preview batch payment totals",
+    "Includes test coverage in ERMGeneralJournalUT codeunit",
+    "Affects multiple localization layers and GenJnlManagement codeunit"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Would be nice to have a Batch Total for Payment Journal.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003948,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/130",
+  "number": 130,
+  "title": "knowledge(performance): align SetLoadFields placement with AL Guidelines",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality aligned SetLoadFields code examples with AL Guidelines by placing filters before SetLoadFields, clarifying that this order is a readability convention rather than a performance requirement.",
+  "key_points": [
+    "Reordered SetLoadFields to appear after SetRange/SetFilter in six AL code samples to match AL Guidelines convention",
+    "Documented that the order does not affect query projection, as filtered fields are always loaded regardless",
+    "Added explicit guidance that readability placement is not a performance defect to prevent false-positive review warnings",
+    "Updated documentation to clarify the distinction between readability and behavioral requirements"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "The order is a readability convention, not a behavioural one.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003977,
+    "changes_in_call": 1
+  }
+}

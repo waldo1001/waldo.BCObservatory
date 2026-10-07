@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10332",
+  "number": 10332,
+  "title": "[Main]]No Employee posting group for AT when new employee is created",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "An Austrian localization issue where new employees created from templates lacked an employee posting group assignment has been fixed by applying the EMPLEXP posting group to employee templates.",
+  "key_points": [
+    "ADMINISTRATION and IT employee templates now have an employee posting group assigned",
+    "The Austrian localization subscriber previously cleared the field, now it assigns EMPLEXP",
+    "Demo employees generated from these templates now receive the correct posting group",
+    "Tests added to verify posting groups on templates and generated demo employees"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "hr",
+    "localization"
+  ],
+  "quote": "No Employee posting group for AT when new employee is created",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003352,
+    "changes_in_call": 1
+  }
+}

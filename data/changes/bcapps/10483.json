@@ -1,0 +1,86 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10483,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10483",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T15:00:07Z",
+  "merge_commit_sha": "70938a74d3cc9f6c3196322e0c8b0f69c5f4ddf0",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 647210 & 647791: Enable IT migration in production and keep Legacy Subcontracting on when app install is declined",
+  "body_hash": "9e3f967d82d9f14057c38e78a5e8d9dd9cb9f73f8b99594e4e3cdafa9440d3cc",
+  "fixes_issues": [],
+  "work_items": [
+    647210,
+    647791
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/SCMLegacySubcontracting.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 49,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 95,
+    "deletions": 66,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Manufacturing/Document/LegacySubcFeatureHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99008501",
+        "type": "codeunit",
+        "id": 99008501,
+        "name": "Legacy Subc. Feature Handler",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/99008501-it"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10893",
+  "number": 10893,
+  "title": "Bug 648568: [29.x] Incorrect currency conversion rates for new currencies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Currency exchange rates in the demo dataset have been corrected to resolve inaccurate conversion values for new currencies.",
+  "key_points": [
+    "Fixed incorrect exchange rate values in the Create Currency Exchange Rate codeunit",
+    "Updated CurrencyData.TXT resource files with corrected rates",
+    "Changes affect demo data initialization in Finance module"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Correct new currency exchange rates",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002947,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/139",
+  "number": 139,
+  "title": "knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The breaking-changes knowledge article now clarifies that adding a parameter to an event publisher is not a breaking change, since event subscribers bind by parameter name, not position. This aligns the article with the existing events knowledge and removes a false positive report.",
+  "key_points": [
+    "Event subscribers bind to publishers by parameter name, not by position",
+    "Adding a parameter to an event publisher does not break existing subscribers",
+    "Removed the false positive detection that reported parameter additions to events as breaking",
+    "Clarified the distinction between caller procedures and event publisher binding",
+    "Added keywords and cross-references to related event guidance articles"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "AL binds an event subscriber to its publisher by parameter name, not by position.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003772,
+    "changes_in_call": 1
+  }
+}

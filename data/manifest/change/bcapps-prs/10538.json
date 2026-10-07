@@ -6,10 +6,35 @@
   "title": "[Master]-Slice 425446: Payment Journal Batch Total",
   "url": "https://github.com/microsoft/BCApps/pull/10538",
   "published_at": "2026-09-02T05:45:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:29.934Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 14,
+      "objects": 7,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:34.700Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003948
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:34.937Z",
+      "objects": 7,
+      "unjoined": 7,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:34.943Z",
+      "path": "content/changes/bcapps/10538.md"
     }
   },
   "input_hash": "14d95892263cff82a36460594d11a33410b6f193:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master slice 425446 payment journal batch total"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3275f7073f3be4aec2924807f2917c62c63893e148ea21364276b63bbcf7e47"
 }

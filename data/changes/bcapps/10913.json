@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10913,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10913",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-02T07:44:12Z",
+  "merge_commit_sha": "5b2da97784eb613b531e73d29d0ae482267fac0f",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Fix ExtRequest feedback comment detection",
+  "body_hash": "714381bebc49fe8e259248ce930f4586566bcc2863da37fbb596852dc232ca07",
+  "fixes_issues": [],
+  "work_items": [
+    646910
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 4,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

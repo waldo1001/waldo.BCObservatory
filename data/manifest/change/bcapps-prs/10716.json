@@ -6,7 +6,7 @@
   "title": "[Main] [ALL-E] \"Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line\" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358",
   "url": "https://github.com/microsoft/BCApps/pull/10716",
   "published_at": "2026-09-02T12:19:04Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:25.302Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003373
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:25.447Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:25.452Z",
+      "path": "content/changes/bcapps/10716.md"
     }
   },
   "input_hash": "101ca85f5e03200251c89df05fdf6f66eb6380a8:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87195e7dca153fea4093883ccdd627b98b8f3d755ed22a6161312df87b9d2391"
+  "output_hash": "b1ff497e7f5b1ab0915786a0416a191aa17a70b4411fc5dd7f7a9ffb20cbc949"
 }

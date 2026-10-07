@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 139,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/139",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T07:24:54Z",
+  "merge_commit_sha": "00c9307483c2ba394863b624f429bdb7feb19280",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break",
+  "body_hash": "cc8fb02fae33e538269ae70c1c9b10ecf3d3765c9858b6c451cec89abd473653",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

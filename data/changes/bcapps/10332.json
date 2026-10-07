@@ -1,0 +1,56 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10332,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10332",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T14:26:46Z",
+  "merge_commit_sha": "72db0d3c596fdbbf1a50b5f601d28ecdd3ed75ce",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Ownership: Needs Review",
+    "Team: Integrations",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]]No Employee posting group for AT when new employee is created",
+  "body_hash": "a7e501a988085ad84391704c30d4df8c33aa5f889798ab8f0098ba96cafc894a",
+  "fixes_issues": [],
+  "work_items": [
+    647129
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/HumanResources/2. Master Data/CreateEmployeeTemplateAT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/HumanResources/2. Master Data/CreateEmployeeTemplateAT.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

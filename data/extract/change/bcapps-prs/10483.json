@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10483",
+  "number": 10483,
+  "title": "[Subcontracting] Bug 647210 & 647791: Enable IT migration in production and keep Legacy Subcontracting on when app install is declined",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Legacy Subcontracting to Subcontracting app migration now works in production environments, and declining the app installation prompt no longer incorrectly disables the legacy feature.",
+  "key_points": [
+    "Removed sandbox-only restriction preventing production environments from migrating to Subcontracting app",
+    "Fixed issue where declining app installation still disabled Legacy Subcontracting, leaving data stranded",
+    "CheckCanDisableLegacySubcontracting now returns Boolean to properly control whether disabling proceeds",
+    "Removed unused System.Environment import and sandbox-related error label",
+    "Added test case to verify legacy feature stays enabled when app installation is declined"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Disabling Legacy Subcontracting is now permitted in production when migration prerequisites are met.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004654,
+    "changes_in_call": 1
+  }
+}

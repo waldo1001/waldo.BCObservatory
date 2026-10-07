@@ -6,10 +6,35 @@
   "title": "[Main]]No Employee posting group for AT when new employee is created",
   "url": "https://github.com/microsoft/BCApps/pull/10332",
   "published_at": "2026-09-01T14:26:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:35.223Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:41.649Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003352
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:41.891Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:41.895Z",
+      "path": "content/changes/bcapps/10332.md"
     }
   },
   "input_hash": "72db0d3c596fdbbf1a50b5f601d28ecdd3ed75ce:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "no employee posting group for at when new employee is created"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fa463d41edbbd94d4b07ade0b56312ca9f2840987b6e131c267f07774f4a0803"
 }

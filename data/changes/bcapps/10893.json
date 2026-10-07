@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10893,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10893",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-02T07:30:51Z",
+  "merge_commit_sha": "b167b2089de45675b8a10a11c8874a65aa0b7173",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648568: [29.x] Incorrect currency conversion rates for new currencies",
+  "body_hash": "b089cbfec99d96b3bfa5dc4188ca0f799dd1dd6f316ebb69d04ca227212e9fcd",
+  "fixes_issues": [],
+  "work_items": [
+    648568
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/.resources/CurrencyData.TXT",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 112,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/2.Master data/CreateCurrencyExchangeRate.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 117,
+      "class": "al-src"
+    },
+    {
+      "path": "src/DemoTool/Pictures/CurrencyData.TXT",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 110,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 337,
+    "deletions": 339,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/2.Master data/CreateCurrencyExchangeRate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5438",
+        "type": "codeunit",
+        "id": 5438,
+        "name": "Create Currency Exchange Rate",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5438"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ContosoCoffeeDemoDataset"
+  ]
+}

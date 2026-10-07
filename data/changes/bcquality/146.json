@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 146,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/146",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-02T09:25:20Z",
+  "merge_commit_sha": "35a7e72f124d6ab6d32003b1381397928ac9b050",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346",
+  "body_hash": "32aac1ff6df6bab5278a05c5eaddde5630aa04a9ad2ebc56cb123c628010b02f",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/insert-only-transfer-may-rely-on-caller-cleanup.md",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 34,
+    "deletions": 6,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/insert-only-transfer-may-rely-on-caller-cleanup.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

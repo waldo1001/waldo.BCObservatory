@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/146",
+  "number": 146,
+  "title": "knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Quality rules were refined to eliminate false positives about missing cleanups in insert-only transfers, mandatory affixes in non-AppSource apps, and permission context lowering in tests. Three knowledge articles were added or updated with better preconditions to keep genuine defects reportable.",
+  "key_points": [
+    "New article clarifies that insert-only transfers are safe when the caller's OnValidate trigger cleans up the target range first",
+    "AppSource affix requirement now correctly scoped to apps with AppSourceCop enabled and configured with mandatory affix",
+    "Permission test guidance refined to recognize effective permission context through role composition, not just direct permission set assignment",
+    "All three false positives were verified against actual BCApps code before writing the rules",
+    "Genuine defects remain reportable: missing cleanup with different filters or reachable paths without cleanup"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Three false-positive guards adjudicated from self-improvement runs on BCApps PR 10277, 10278 and 10346.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004693,
+    "changes_in_call": 1
+  }
+}

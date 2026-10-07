@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30362: add OnPostDocumentLinesOnBeforeInsertPostedHeaders event to Service-Post",
   "url": "https://github.com/microsoft/BCApps/pull/9778",
   "published_at": "2026-09-01T21:48:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:32.877Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:37.695Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003607
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:37.887Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:37.892Z",
+      "path": "content/changes/bcapps/9778.md"
     }
   },
   "input_hash": "f75f2389b60448e4d97bd579f49e9addc3130569:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30362 add onpostdocumentlinesonbeforeinsertpostedheaders event to service post"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdc432df14177d75c3e649064d5c31033224ff3631608f786896e0d564339eac"
 }

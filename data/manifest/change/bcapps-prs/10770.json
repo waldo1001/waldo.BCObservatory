@@ -6,7 +6,7 @@
   "title": "[Bug Fix] #290: Add explicit BEANS inspection template result conditions",
   "url": "https://github.com/microsoft/BCApps/pull/10770",
   "published_at": "2026-09-01T19:41:41Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 290 add explicit beans inspection template result conditions"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:05:31.995Z",
+  "retry_after": null
 }

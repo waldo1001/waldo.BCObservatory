@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10084",
+  "number": 10084,
+  "title": "Let the agent update invoice due dates on user instructions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent can now update due dates on purchase invoices when requested by users during draft review by making the Due Date field visible in the agent's page customization.",
+  "key_points": [
+    "Due Date field is now visible to the Payables Agent profile",
+    "Agent can apply due date corrections during draft review without finalizing",
+    "Existing field behavior and data model remain unchanged",
+    "Low-risk change that only adjusts field visibility",
+    "Resolves issue where agent reported field unavailable for editing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00343,
+    "changes_in_call": 1
+  }
+}

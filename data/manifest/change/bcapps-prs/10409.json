@@ -6,10 +6,18 @@
   "title": "Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)",
   "url": "https://github.com/microsoft/BCApps/pull/10409",
   "published_at": "2026-09-01T16:14:38Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:34.319Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 8,
+      "objects": 0,
+      "unjoined": 8
     }
   },
   "input_hash": "7a9a38073f0dcc4f52284caad8d12cb13676e4ae:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify copilot tax matching agent human in the loop review tests stack 3 3"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76500f9ff143ace7c8baedf0dd973863dfdf7c2c54a10525cd785718f4efe542"
 }

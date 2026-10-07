@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/128",
+  "number": 128,
+  "title": "knowledge: improve review precision from BCApps PR 10080 feedback",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality knowledge articles improve precision based on feedback from BCApps code review runs, refining guidance on object affixes and error handling patterns.",
+  "key_points": [
+    "Knowledge base updated with feedback from maintainer reviews",
+    "Articles on object affixes and fielderror vs testfield refined",
+    "Changes based on explicit BCApps pull request discussion comments",
+    "Quality guidance sharpened through real-world code review experience",
+    "Validated for frontmatter and article structure"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Improves BCQuality knowledge based on maintainer thumbs-down feedback from explicit BCApps PR review runs.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003106,
+    "changes_in_call": 1
+  }
+}
