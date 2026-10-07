@@ -1,0 +1,27 @@
+{
+  "video_id": "rWZcmEwwVHg",
+  "item_id": "video/yt-microsoft/rWZcmEwwVHg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Modernized Search evidence_t was 108.5 but the evidence quote starts in segment 234.8; corrected.",
+    "Page Layout Control Parameter evidence_t was 330.6 but the quote starts at the end of segment 350.7; corrected.",
+    "Quotes, summary and key points are supported by the transcript.",
+    "Chapter 'Column Resizing and Page Layout Controls' starts at 234.8 while column resizing begins around 255; minor.",
+    "System tag 'finance' is weakly supported; not editable here."
+  ],
+  "input_hash": "a872c217e933d67c16d3c276221fa367fe8388b176b667bd34f558cfb4ffdb14",
+  "by": "opus",
+  "at": "2026-10-07T23:03:42.945Z",
+  "applied": [
+    "Modernized Search with Full-Text Index: status announced",
+    "Page Layout Control Parameter: status announced"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08026900000000001
+  }
+}

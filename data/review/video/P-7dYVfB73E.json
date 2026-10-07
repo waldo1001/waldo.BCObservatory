@@ -1,0 +1,42 @@
+{
+  "video_id": "P-7dYVfB73E",
+  "item_id": "video/yt-microsoft/P-7dYVfB73E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary states a publish date (2024-11-25) that is not in the transcript; removed.",
+    "Key point claiming obsoleted fields are kept at least 2.5 years overstates a hesitant remark; rephrased to what is said (cleanup every fifth release, fields not deleted in the next release).",
+    "Event Cleanup Initiative marked announced, but transcript frames it as a possibility ('we could choose to remove those'); set to unclear. Its evidence_t was also wrong (846.3 vs 886.5).",
+    "Selective module installation marked announced, but it is a speculative future vision; set to unclear.",
+    "Integration Events (2016 Version 9), Business Foundation (version 24) and namespaces are described as shipped; set to ga with evidence.",
+    "Clean schema symbol and fifth-release schema cleanup are stated as being introduced / done in version 26; set to announced.",
+    "Quote at 967.9 is truncated and uninformative; replaced with full span.",
+    "Duplicate quotes at t 2372.4; dropped and re-added once.",
+    "Several 'features' are really statistics (event scale, telemetry, distribution, density) but are transcript-supported, so kept."
+  ],
+  "input_hash": "d53809a4989ed50c43f9f5d4025315bf838255c7baf0d7045561723a85562fbf",
+  "by": "opus",
+  "at": "2026-10-07T23:03:23.160Z",
+  "applied": [
+    "Event Cleanup Initiative: status unclear",
+    "Selective module installation: status unclear",
+    "Business Foundation layer: status ga",
+    "Scheduled SQL schema cleanup every fifth release: status announced",
+    "dropped 3 quote(s)",
+    "quote at 968s",
+    "quote at 2372s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Integration Events -> ga: evidence not verbatim or does not state the status",
+    "status Source Code Organization with Namespaces -> ga: evidence not verbatim or does not state the status",
+    "status Clean schema preprocessor symbol -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.242253
+  }
+}

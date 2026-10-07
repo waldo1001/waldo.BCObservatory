@@ -1,16 +1,16 @@
 {
   "video_id": "P-7dYVfB73E",
   "item_id": "video/yt-microsoft/P-7dYVfB73E",
-  "summary": "Business Central Under the Hood episode 6 (published 2024-11-25) explains why Business Central has about 22,500 events in version 25, what cloud telemetry says about their use, and why Microsoft is moving toward interfaces, componentization, and cleaner obsolescence and schema handling.",
+  "summary": "Business Central Under the Hood episode 6 explains why Business Central has about 22,500 events in version 25, what cloud usage telemetry shows about how few are widely used, and why Microsoft is moving toward interfaces, componentization (System Application, Business Foundation), namespaces, and automated obsolescence and SQL schema cleanup.",
   "overview": "The episode traces extensibility from code customization, through the introduction of events, to the current event volume. Version 25 has about 22,500 events, and over 90% of them were requested by partners through GitHub. Cloud telemetry shows about 3,400 unused events and 53% used in fewer than 100 environments. Some objects, such as the sales posting codeunit, hold over 600 events, which makes bug fixes and refactoring risky.\n\nThe second half covers the response. Newer and refactored areas use interfaces and extensible enums, and refactoring has produced about 10 times fewer events. The System Application and the Business Foundation layer (introduced in version 24) are built as modules. Namespaces, an obsolescence scheme with a 12 to 18 month uptake period, preprocessor symbols, a clean schema symbol, and an SQL schema cleanup every fifth release are described. Replaceable components and selective module installation are future ideas.",
   "key_points": [
     "Version 25 has about 22,500 events. Growth has been linear since version 15, and over 90% of events were partner-requested through GitHub.",
-    "Cloud telemetry (not on-premise) shows 3,400 unused events, 5,600 single-environment events, and 53% (about 11,000) used in fewer than 100 environments.",
-    "Events are concentrated in a few objects. The sales posting codeunit has over 600 events, and density can reach one event per five lines of code, which makes bug fixes and refactoring risky.",
-    "Handled events work like code customization, which events were meant to avoid. Interfaces and extensible enums give a clearer and more controlled contract.",
-    "Removing unused events is a proposal, not yet done. Partners would be told in advance.",
+    "Cloud usage telemetry shows about 3,400 unused events, 5,600 used by a single environment, and 53% (about 11,000) used in fewer than 100 environments.",
+    "Events are concentrated in a few objects. The sales posting codeunit has around 600 events, and density can reach one event per five lines of code, which makes bug fixes and refactoring risky.",
+    "Handled events work like code customization, which events were meant to avoid. Extensible enums with interfaces give a clearer and more controlled contract; refactored areas show about 10 times fewer events.",
+    "Removing unused events is discussed as a possibility, not a done decision. Partners would be told in advance.",
     "Obsolete code is kept for 12 to 18 months so partners get recompile warnings. Preprocessor symbols and automated removal support a zero debt principle.",
-    "A clean schema preprocessor symbol is introduced. The SQL schema will be cleaned every fifth release, and obsoleted fields are kept at least 2.5 years."
+    "A clean schema preprocessor symbol is being introduced. The SQL schema will be cleaned every fifth release, starting with version 26, and fields obsoleted in one release are not deleted in the next."
   ],
   "audience": [
     "developer",

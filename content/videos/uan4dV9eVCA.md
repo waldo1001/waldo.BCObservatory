@@ -2,7 +2,7 @@
 id: video/uan4dV9eVCA
 type: video
 title: End To End Sustainability Tracking and Reporting for SMBs
-summary: "Business Central sustainability tracking for SMBs: a 19-minute demo (Nov 2024) of the Sustainability Role Center, chart of accounts, scorecards, journals, purchase invoice emissions, built-in reports, the financial reporting tool for ESG, and ERP posting integration. It covers all three emission scopes."
+summary: "Business Central sustainability tracking for SMBs: a 19-minute Microsoft Cloud for Sustainability Technical Summit 2024 demo covering the Sustainability Role Center, chart of sustainability accounts, scorecards and goals, sustainability journals, emissions on purchase invoices, built-in emissions reports, the no-code financial reporting tool for ESG, and ERP posting integration. It covers all three emission scopes. Water and waste management features are announced for a later release."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - regulatory compliance
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:58.584Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:58.633Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -217,9 +217,9 @@ quotes:
 
 # End To End Sustainability Tracking and Reporting for SMBs
 
-> Business Central sustainability tracking for SMBs: a 19-minute demo (Nov 2024) of the Sustainability Role Center, chart of accounts, scorecards, journals, purchase invoice emissions, built-in reports, the financial reporting tool for ESG, and ERP posting integration. It covers all three emission scopes.
+> Business Central sustainability tracking for SMBs: a 19-minute Microsoft Cloud for Sustainability Technical Summit 2024 demo covering the Sustainability Role Center, chart of sustainability accounts, scorecards and goals, sustainability journals, emissions on purchase invoices, built-in emissions reports, the no-code financial reporting tool for ESG, and ERP posting integration. It covers all three emission scopes. Water and waste management features are announced for a later release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uan4dV9eVCA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-28 · 19:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uan4dV9eVCA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-28 · 19:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -230,12 +230,12 @@ The demo walks through the Sustainability Role Center, scorecards and goals, the
 ## Key points
 
 - The solution covers all three emission scopes, tracks gases such as methane and nitrous oxide, and includes carbon equivalent calculations.
-- Pricing quoted in the video: 70 per user per month for access to all sustainability features.
-- The sustainability chart of accounts catalogs emissions by scope or other groupings; scorecards track goals with baseline periods, reporting periods and target values, and one scorecard is set as the main goal.
-- Emissions can be calculated by formulas (fuel consumption, distance, kWh and similar inputs), and partners can add specialized formulas. Emission factors are configured by category and can be marked as renewable energy related.
-- Emissions can be recorded in the sustainability journal, which validates against incomplete entries, or directly on purchase invoices linked to sustainability accounts, so data is not entered twice.
-- The built-in financial reporting tool is no-code and can combine sustainability, financial and social data, for example emissions per dollar earned or carbon fees in profit.
-- Previewing posting shows sustainability entries together with general ledger, vendor and tax entries. Water and waste management features are stated as coming in the next releases.
+- Pricing quoted in the video: $70 per user per month for access to all sustainability features and the full ERP solution if needed.
+- The sustainability chart of accounts catalogs emissions by scope or other groupings; scorecards track goals with baseline periods, reporting periods and target values, and one goal is set as the main goal used in Role Center KPIs.
+- Emissions can be calculated by formulas (fuel, distance, kWh and similar inputs), and partners can add specialized formulas. Emission factors are configured in account subcategories and can be marked as renewable energy related.
+- Emissions can be recorded in the sustainability journal, which validates against incomplete entries, or directly on purchase invoices or orders linked to sustainability accounts, so data is not entered twice.
+- The built-in financial reporting tool is no-code and can combine sustainability, financial and social data, for example emissions per dollar earned or internal carbon fees in profit calculations.
+- Previewing posting shows sustainability entries together with general ledger, vendor and tax entries. Water and waste management features are announced for a future release.
 
 ## Chapters
 
@@ -253,20 +253,20 @@ The demo walks through the Sustainability Role Center, scorecards and goals, the
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sustainability Role Center | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=uan4dV9eVCA&t=252s) |  |
-| Sustainability Chart of Accounts | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=uan4dV9eVCA&t=206s) |  |
-| Three Emission Scopes Coverage | status not stated | [1:39](https://www.youtube.com/watch?v=uan4dV9eVCA&t=99s) |  |
-| Water and Waste Management Features | status not stated | [2:03](https://www.youtube.com/watch?v=uan4dV9eVCA&t=123s) |  |
-| Emissions Formulas | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=uan4dV9eVCA&t=219s) |  |
-| Scorecards and Goal Tracking | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=uan4dV9eVCA&t=335s) |  |
-| Sustainability Journal | status not stated, demoed | [14:09](https://www.youtube.com/watch?v=uan4dV9eVCA&t=849s) |  |
-| Emissions Recording via Purchase Invoices | status not stated, demoed | [15:08](https://www.youtube.com/watch?v=uan4dV9eVCA&t=908s) |  |
-| Financial Reporting Tool for ESG | status not stated, demoed | [12:02](https://www.youtube.com/watch?v=uan4dV9eVCA&t=722s) |  |
-| Built-in Emissions Reports | status not stated, demoed | [10:33](https://www.youtube.com/watch?v=uan4dV9eVCA&t=633s) |  |
-| ERP Integration for Sustainability | status not stated, demoed | [16:02](https://www.youtube.com/watch?v=uan4dV9eVCA&t=962s) |  |
-| Emission Factor Configuration | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=uan4dV9eVCA&t=605s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sustainability Role Center | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=uan4dV9eVCA&t=252s) |
+| Sustainability Chart of Accounts | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=uan4dV9eVCA&t=206s) |
+| Three Emission Scopes Coverage | status not stated | [1:39](https://www.youtube.com/watch?v=uan4dV9eVCA&t=99s) |
+| Water and Waste Management Features | status not stated | [2:03](https://www.youtube.com/watch?v=uan4dV9eVCA&t=123s) |
+| Emissions Formulas | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=uan4dV9eVCA&t=219s) |
+| Scorecards and Goal Tracking | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=uan4dV9eVCA&t=335s) |
+| Sustainability Journal | status not stated, demoed | [14:09](https://www.youtube.com/watch?v=uan4dV9eVCA&t=849s) |
+| Emissions Recording via Purchase Invoices | status not stated, demoed | [15:08](https://www.youtube.com/watch?v=uan4dV9eVCA&t=908s) |
+| Financial Reporting Tool for ESG | status not stated, demoed | [12:02](https://www.youtube.com/watch?v=uan4dV9eVCA&t=722s) |
+| Built-in Emissions Reports | status not stated, demoed | [10:33](https://www.youtube.com/watch?v=uan4dV9eVCA&t=633s) |
+| ERP Integration for Sustainability | status not stated, demoed | [16:02](https://www.youtube.com/watch?v=uan4dV9eVCA&t=962s) |
+| Emission Factor Configuration | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=uan4dV9eVCA&t=605s) |
 
 ## AL objects mentioned
 

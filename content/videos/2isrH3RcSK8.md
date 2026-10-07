@@ -2,7 +2,7 @@
 id: video/2isrH3RcSK8
 type: video
 title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
-summary: "Business Central 2024 release wave 2 launch event opening (recorded 2024-10-09): an overview of Copilot, finance, subscription billing, sustainability, Power Platform, search, admin, developer, AI-building and performance changes in that release."
+summary: "Opening session of the Business Central 2024 release wave 2 launch event. It gives an overview of the release: Copilot (default on, chat in 20 more languages, item substitutions, number series), subscription billing, Power BI and financial reports, sustainability, Shopify, Field Service, modern search (preview), and flexible update management (preview). It also covers admin features (partner environment access, audit logging), AL-Go and AL improvements, AI toolkit and testing, managed AI resources (private preview), performance and page scripting."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - word reporting
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:35.451Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,13 +68,6 @@ evidence:
     t: 1884
     quote: we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely
   - kind: video
-    url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=87s
-    title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
-    date: "2024-10-09T13:38:09.000Z"
-    commit: null
-    t: 87
-    quote: we have accommodated this in this release so we will both have the short bsize one which will both go with detail what is
-  - kind: video
     url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=187s
     title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
     date: "2024-10-09T13:38:09.000Z"
@@ -116,6 +109,13 @@ evidence:
     commit: null
     t: 796
     quote: we actually in this release making it much easier to work with them embedded inside business Central so you don't in many cases need
+  - kind: video
+    url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=857s
+    title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
+    date: "2024-10-09T13:38:09.000Z"
+    commit: null
+    t: 857
+    quote: here we have French now access keys are available in all the languages on this slide in this release
   - kind: video
     url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=877s
     title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
@@ -173,13 +173,6 @@ evidence:
     t: 1501
     quote: we wanted to make it much easier for you to navigate from the beautiful fantastic AI uh sorry AI as well and UI of
   - kind: video
-    url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=1579s
-    title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
-    date: "2024-10-09T13:38:09.000Z"
-    commit: null
-    t: 1579
-    quote: Microsoft uh is not the only one who is excited which is excited about AI all of you Partners jumped in and wanted to
-  - kind: video
     url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=1681s
     title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
     date: "2024-10-09T13:38:09.000Z"
@@ -214,6 +207,13 @@ evidence:
     commit: null
     t: 2080
     quote: the first job that comes in that is the job that is going to be uh processed the moment that the service has resources
+  - kind: video
+    url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=2080s
+    title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
+    date: "2024-10-09T13:38:09.000Z"
+    commit: null
+    t: 2080
+    quote: that also enabled the opportunity to inject the priority into job Q category so for instance some jobs may have higher
   - kind: video
     url: https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s
     title: Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
@@ -504,9 +504,6 @@ objects_mentioned:
   - other query object
   - table Warehouse Ledger Entry
 quotes:
-  - t: 87
-    text: we have accommodated this in this release so we will both have the short bsize one which will both go with detail what is
-    check: exact
   - t: 187
     text: you can now start using co-pilot without having to set up anything that basically means it's default on
     check: exact
@@ -524,6 +521,9 @@ quotes:
     check: exact
   - t: 796
     text: we actually in this release making it much easier to work with them embedded inside business Central so you don't in many cases need
+    check: exact
+  - t: 857
+    text: here we have French now access keys are available in all the languages on this slide in this release
     check: exact
   - t: 877
     text: it's in preview uh right now in this month it will come out uh in next month
@@ -549,9 +549,6 @@ quotes:
   - t: 1501
     text: we wanted to make it much easier for you to navigate from the beautiful fantastic AI uh sorry AI as well and UI of
     check: exact
-  - t: 1579
-    text: Microsoft uh is not the only one who is excited which is excited about AI all of you Partners jumped in and wanted to
-    check: exact
   - t: 1681
     text: there's absolutely no customer data emitted with this Telemetry so it is a pure metadata uh pure knowledge about you know which actions were
     check: exact
@@ -567,6 +564,9 @@ quotes:
   - t: 2080
     text: the first job that comes in that is the job that is going to be uh processed the moment that the service has resources
     check: exact
+  - t: 2080
+    text: that also enabled the opportunity to inject the priority into job Q category so for instance some jobs may have higher
+    check: exact
   - t: 2100
     text: we refactored the process of posting into warehouse ledger entry which is an amazing story
     check: fuzzy
@@ -574,9 +574,9 @@ quotes:
 
 # Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening
 
-> Business Central 2024 release wave 2 launch event opening (recorded 2024-10-09): an overview of Copilot, finance, subscription billing, sustainability, Power Platform, search, admin, developer, AI-building and performance changes in that release.
+> Opening session of the Business Central 2024 release wave 2 launch event. It gives an overview of the release: Copilot (default on, chat in 20 more languages, item substitutions, number series), subscription billing, Power BI and financial reports, sustainability, Shopify, Field Service, modern search (preview), and flexible update management (preview). It also covers admin features (partner environment access, audit logging), AL-Go and AL improvements, AI toolkit and testing, managed AI resources (private preview), performance and page scripting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2isrH3RcSK8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 39:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2isrH3RcSK8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 39:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -680,13 +680,13 @@ Not found in BC28-30: table "Warehouse Ledger Entry".
 
 ## Quotes
 
-- [1:27](https://www.youtube.com/watch?v=2isrH3RcSK8&t=87s) "we have accommodated this in this release so we will both have the short bsize one which will both go with detail what is"
 - [3:07](https://www.youtube.com/watch?v=2isrH3RcSK8&t=187s) "you can now start using co-pilot without having to set up anything that basically means it's default on"
 - [5:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=343s) "adding 20 languages with this release it's now available in all these languages"
 - [8:36](https://www.youtube.com/watch?v=2isrH3RcSK8&t=516s) "subscription billing it's quite interesting I mean both you customers out there but also Partners listening in"
 - [9:36](https://www.youtube.com/watch?v=2isrH3RcSK8&t=576s) "it is expected that when you open business Central that you can see the generic like you know income what's my turnover what's my"
 - [11:15](https://www.youtube.com/watch?v=2isrH3RcSK8&t=675s) "we built a rich sustainability tracking module inside business Central with row center with scorecards with goals uh recording greenhouse gases both carbon credits"
 - [13:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=796s) "we actually in this release making it much easier to work with them embedded inside business Central so you don't in many cases need"
+- [14:17](https://www.youtube.com/watch?v=2isrH3RcSK8&t=857s) "here we have French now access keys are available in all the languages on this slide in this release"
 - [14:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=877s) "it's in preview uh right now in this month it will come out uh in next month"
 - [14:37](https://www.youtube.com/watch?v=2isrH3RcSK8&t=877s) "search it's in preview uh right now in this month it will come out uh in next month but that's basically the possibility to"
 - [16:18](https://www.youtube.com/watch?v=2isrH3RcSK8&t=978s) "there's are actually 156 Community uh contribut tions in this release so thank you again to everybody out there that has contributed through GitHub"
@@ -695,12 +695,12 @@ Not found in BC28-30: table "Warehouse Ledger Entry".
 - [20:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1220s) "you can assign the partner of record the delegated admin to a specific environment and they will only have access to that specific environment"
 - [21:59](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1319s) "we also added a fantastic capability for you to easily test your Solutions uh for compatibility with all of the isv apps which you"
 - [25:01](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1501s) "we wanted to make it much easier for you to navigate from the beautiful fantastic AI uh sorry AI as well and UI of"
-- [26:19](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1579s) "Microsoft uh is not the only one who is excited which is excited about AI all of you Partners jumped in and wanted to"
 - [28:01](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1681s) "there's absolutely no customer data emitted with this Telemetry so it is a pure metadata uh pure knowledge about you know which actions were"
 - [30:03](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1803s) "please take a look at the preview which we published at aka.ms BC ups"
 - [31:24](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1884s) "we are gradually coming to the place where we would like to expand this private preview into the public preview"
 - [34:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2040s) "many of you are working with hundreds of thousands of items in your inventory and search was not performing uh in those circumstances"
 - [34:40](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2080s) "the first job that comes in that is the job that is going to be uh processed the moment that the service has resources"
+- [34:40](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2080s) "that also enabled the opportunity to inject the priority into job Q category so for instance some jobs may have higher"
 - [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) "we refactored the process of posting into warehouse ledger entry which is an amazing story"
 
 ## Disclaimers in the video

@@ -1,0 +1,27 @@
+{
+  "video_id": "gKmkjTT-KhA",
+  "item_id": "video/yt-microsoft/gKmkjTT-KhA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on Directions misstates the audience. The transcript says it is the hottest ticket for anyone in the organization that works on business applications in SMB, not for people in the Business Central space.",
+    "The summary's 'from the product channel' is not supported by the transcript, so it was removed.",
+    "The transcript never names Business Central. The systems tags 'crm' and 'integration' have no support in the transcript.",
+    "All six quotes are verbatim, allowing for differences in case and punctuation. No features were extracted, which is correct."
+  ],
+  "input_hash": "625ca590626b48684785ac501bba8af6456b04c72278cc18c25ea02c5aa2b3a2",
+  "by": "opus",
+  "at": "2026-10-07T23:02:43.496Z",
+  "applied": [
+    "quote at 39s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035141
+  }
+}

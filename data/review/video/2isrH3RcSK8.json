@@ -1,0 +1,36 @@
+{
+  "video_id": "2isrH3RcSK8",
+  "item_id": "video/yt-microsoft/2isrH3RcSK8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says the event was recorded on 2024-10-09. The transcript never gives that date, so I removed it.",
+    "The evidence quote for the AI testing toolkit starts in segment 1803.7, not at the feature's t_start of 1741.5. I corrected evidence_t.",
+    "The evidence quote for managed AI resources starts in segment 1884.8, not 1844. I corrected evidence_t.",
+    "The keyboard access keys description misreads the transcript. The speaker says access keys are now available in all the languages on the slide, with French as an example. It does not say French access keys are available in all languages.",
+    "The Power BI reports description says the 70+ reports include a manufacturing expansion. The transcript only says Microsoft is exploring adding manufacturing going forward.",
+    "The quote at t=87 is about the video format and adds nothing about Business Central, so I dropped it. The quote at t=1579.2 is filler, so I dropped it too.",
+    "Two quotes start at t=877.5 and overlap. I left both, because dropping by t would remove both of them."
+  ],
+  "input_hash": "e0d864c9d0aad69a0bed76d50050428ca2881dba01200357f616aa2d7757dc01",
+  "by": "opus",
+  "at": "2026-10-07T23:03:35.392Z",
+  "applied": [
+    "Copilot Chat multilingual support: status ga",
+    "Modern search in preview: status preview",
+    "Flexible update management: status preview",
+    "AI testing toolkit for copilot solutions: status preview",
+    "Managed AI resources private preview: status preview",
+    "dropped 2 quote(s)",
+    "quote at 857s",
+    "quote at 2080s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.20568899999999998
+  }
+}

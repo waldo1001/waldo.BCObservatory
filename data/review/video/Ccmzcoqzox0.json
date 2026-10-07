@@ -1,0 +1,28 @@
+{
+  "video_id": "Ccmzcoqzox0",
+  "item_id": "video/yt-microsoft/Ccmzcoqzox0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a publish date (2024-10-30) that the transcript does not contain, so I removed it.",
+    "The system tag 'crm' is not supported. The transcript only mentions sales as an area to explore, not CRM functionality.",
+    "The chapter boundaries are off. The 0-13.3 segment is only 'the SP yeah', and the talent programs content starts at 13.3.",
+    "All five quotes are verbatim. The t=33.6 'explore so many areas' quote runs on into the next segment, which is allowed.",
+    "All three features are correctly marked 'unclear'. They are career themes, not product features with a release status."
+  ],
+  "input_hash": "e4f8b9d64ff16f36ae55e40a5271f785ba8b9d47a03d7f77f4fd63ea89066b1c",
+  "by": "opus",
+  "at": "2026-10-07T23:02:56.074Z",
+  "applied": [
+    "quote at 54s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040453
+  }
+}

@@ -33,27 +33,7 @@
       "t_end": 99
     }
   ],
-  "features": [
-    {
-      "name": "Talent development program",
-      "description": "A structured approach to developing talent through training, coaching, and community participation to build expertise in Business Central.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 9.8,
-      "t_end": 99,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "talent",
-        "development",
-        "community",
-        "training"
-      ],
-      "system": "hr"
-    }
-  ],
+  "features": [],
   "objects": [],
   "presenters": [],
   "quotes": [
@@ -67,6 +47,12 @@
       "t": 48.9,
       "text": "expert coached to get better skilled to be great together",
       "why_it_matters": "Highlights that expertise is achieved through coaching and collaborative development.",
+      "check": "exact"
+    },
+    {
+      "t": 71.5,
+      "text": "as a community as Champions where you contribute to business centrals success",
+      "why_it_matters": "This states the community and contribution theme. Without it, the page did not cover that part of the message.",
       "check": "exact"
     },
     {

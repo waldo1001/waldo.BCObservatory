@@ -1007,12 +1007,6 @@
   ],
   "quotes": [
     {
-      "t": 87,
-      "text": "we have accommodated this in this release so we will both have the short bsize one which will both go with detail what is",
-      "why_it_matters": "Indicates the release has been structured with both bite-sized and detailed video content to meet different learning preferences.",
-      "check": "exact"
-    },
-    {
       "t": 187.9,
       "text": "you can now start using co-pilot without having to set up anything that basically means it's default on",
       "why_it_matters": "Shows copilot is now enabled by default, a major accessibility improvement for users.",
@@ -1046,6 +1040,12 @@
       "t": 796.4,
       "text": "we actually in this release making it much easier to work with them embedded inside business Central so you don't in many cases need",
       "why_it_matters": "Demonstrates a key usability improvement where Power BI reports are now embedded directly in Business Central, reducing the need to switch applications.",
+      "check": "exact"
+    },
+    {
+      "t": 857.4,
+      "text": "here we have French now access keys are available in all the languages on this slide in this release",
+      "why_it_matters": "Shows that access keys now cover more languages, with French as an example. This corrects the reading that French access keys are available in all languages.",
       "check": "exact"
     },
     {
@@ -1097,12 +1097,6 @@
       "check": "exact"
     },
     {
-      "t": 1579.2,
-      "text": "Microsoft uh is not the only one who is excited which is excited about AI all of you Partners jumped in and wanted to",
-      "why_it_matters": "Explains the motivation for the AI Toolkit - partners were already building AI solutions and needed tools to do so effectively.",
-      "check": "exact"
-    },
-    {
       "t": 1681,
       "text": "there's absolutely no customer data emitted with this Telemetry so it is a pure metadata uh pure knowledge about you know which actions were",
       "why_it_matters": "Critical privacy statement about AI telemetry - reassures ISVs and customers that no sensitive data is shared.",
@@ -1130,6 +1124,12 @@
       "t": 2080.3,
       "text": "the first job that comes in that is the job that is going to be uh processed the moment that the service has resources",
       "why_it_matters": "Clarifies the new FIFO guarantee for job queue execution in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 2080.3,
+      "text": "that also enabled the opportunity to inject the priority into job Q category so for instance some jobs may have higher",
+      "why_it_matters": "Supports the claim that job queue priority can be set through job queue categories.",
       "check": "exact"
     },
     {

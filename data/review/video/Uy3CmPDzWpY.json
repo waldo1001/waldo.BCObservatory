@@ -1,0 +1,27 @@
+{
+  "video_id": "Uy3CmPDzWpY",
+  "item_id": "video/yt-microsoft/Uy3CmPDzWpY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes match the transcript word for word.",
+    "Systems lists sales and purchasing, but the transcript only mentions finance and supply chain modules. The systems field cannot be edited here, so this is a flag for a later fix.",
+    "The key point and the Professional skills feature description say 'press activities', which comes from the garbled caption 'prees activities'. The meaning is unclear, so I removed it from the key points.",
+    "The summary called Triangle a Spanish partner. The transcript only says Triangle serves Spanish SMBs, so I reworded it.",
+    "All feature statuses stay unclear, which fits: this is a customer story with no release status for anything."
+  ],
+  "input_hash": "ae98b1d8031bc70dee6bc83a1d16d645cfa843191c7525ba5043a8563c4602fa",
+  "by": "opus",
+  "at": "2026-10-07T23:02:58.082Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.051869
+  }
+}

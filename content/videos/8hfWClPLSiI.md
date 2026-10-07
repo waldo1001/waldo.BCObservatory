@@ -2,7 +2,7 @@
 id: video/8hfWClPLSiI
 type: video
 title: "#BCTalent: Because talent is not bought - it's made"
-summary: "#BCTalent is a 2-minute Business Central channel video from November 2024 about building talent through training, coaching and community. It is evidence for the message that expertise is developed step by step, not hired in, and has no product feature content."
+summary: "#BCTalent is a 99-second motivational video for the Business Central community. Its message is that expertise is built through training, coaching and community contribution, not hired in: \"Talent is not bought it's made\". It has no product feature, object or release content."
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - expertise
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:01.684Z"
   flags: []
 generated:
-  at: "2026-10-06T19:03:46.211Z"
+  at: "2026-10-07T23:03:01.725Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,6 +40,13 @@ evidence:
     commit: null
     t: 48
     quote: expert coached to get better skilled to be great together
+  - kind: video
+    url: https://www.youtube.com/watch?v=8hfWClPLSiI&t=71s
+    title: "#BCTalent: Because talent is not bought - it's made"
+    date: "2024-11-12T11:48:07.000Z"
+    commit: null
+    t: 71
+    quote: as a community as Champions where you contribute to business centrals success
   - kind: video
     url: https://www.youtube.com/watch?v=8hfWClPLSiI&t=86s
     title: "#BCTalent: Because talent is not bought - it's made"
@@ -75,12 +82,7 @@ chapters:
     title: Becoming an expert
   - t: 60
     title: Community and contribution
-features:
-  - name: Talent development program
-    status: unclear
-    t: 9
-    verified: false
-    status_source: video
+features: []
 objects_mentioned: []
 quotes:
   - t: 17
@@ -89,6 +91,9 @@ quotes:
   - t: 48
     text: expert coached to get better skilled to be great together
     check: exact
+  - t: 71
+    text: as a community as Champions where you contribute to business centrals success
+    check: exact
   - t: 86
     text: because Talent is not bought it's made
     check: exact
@@ -96,9 +101,9 @@ quotes:
 
 # #BCTalent: Because talent is not bought - it's made
 
-> #BCTalent is a 2-minute Business Central channel video from November 2024 about building talent through training, coaching and community. It is evidence for the message that expertise is developed step by step, not hired in, and has no product feature content.
+> #BCTalent is a 99-second motivational video for the Business Central community. Its message is that expertise is built through training, coaching and community contribution, not hired in: "Talent is not bought it's made". It has no product feature, object or release content.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8hfWClPLSiI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-12 · 1:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8hfWClPLSiI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-12 · 1:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -108,11 +113,12 @@ It is organized around three themes: training and learning, becoming an expert, 
 
 ## Key points
 
-- The video was published on 2024-11-12 and runs about 2 minutes.
+- The video runs about 99 seconds and is a motivational message, not a product demo.
 - Its theme is that talent is developed, not bought: "because Talent is not bought it's made".
-- It covers three themes: training and learning, becoming an expert, and community and contribution.
-- It describes learning "day by day step by step" as a way to raise the bar.
-- It stresses being expert coached to get better skilled and "to be great together".
+- It moves through three themes: training and learning, becoming an expert, and community and contribution.
+- It describes how to "raise the bar to learn day by day step by step".
+- It stresses being "expert coached to get better skilled to be great together".
+- It frames the community as Champions who contribute to Business Central's success, and it ends with "Let's Bridge the talent Gap together".
 - It names no specific Business Central objects, features or release details.
 
 ## Chapters
@@ -121,14 +127,9 @@ It is organized around three themes: training and learning, becoming an expert, 
 - [0:30](https://www.youtube.com/watch?v=8hfWClPLSiI&t=30s) Becoming an expert
 - [1:00](https://www.youtube.com/watch?v=8hfWClPLSiI&t=60s) Community and contribution
 
-## Features
-
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Talent development program | status not stated | [0:09](https://www.youtube.com/watch?v=8hfWClPLSiI&t=9s) |  |
-
 ## Quotes
 
 - [0:17](https://www.youtube.com/watch?v=8hfWClPLSiI&t=17s) "raise the bar to learn day by day step by step"
 - [0:48](https://www.youtube.com/watch?v=8hfWClPLSiI&t=48s) "expert coached to get better skilled to be great together"
+- [1:11](https://www.youtube.com/watch?v=8hfWClPLSiI&t=71s) "as a community as Champions where you contribute to business centrals success"
 - [1:26](https://www.youtube.com/watch?v=8hfWClPLSiI&t=86s) "because Talent is not bought it's made"

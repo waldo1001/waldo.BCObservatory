@@ -1,0 +1,27 @@
+{
+  "video_id": "eA7CENx7se0",
+  "item_id": "video/yt-microsoft/eA7CENx7se0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The Copilot Test Toolkit was marked unclear, but the transcript says it is introduced in preview at t=506. Set it to preview with verbatim evidence.",
+    "A key point said the toolkit 'needs AL developer knowledge'. The transcript only describes it 'from an AL developer perspective' and never states this as a requirement, so the claim was removed.",
+    "A key point used the identifier 'next_turn', which does not appear in the transcript. The transcript says 'the API next turn on the AI test context', so the wording was changed to match.",
+    "All quotes are verbatim, some running into the next caption segment. The summary is supported by the transcript.",
+    "The other features (testing concepts, the example features and the roadmap items) correctly stay unclear because the transcript gives no separate release status for them."
+  ],
+  "input_hash": "c3f579c2f5a3e543f8a46a29f3beede178ef1af4b08df0159f87576788540307",
+  "by": "opus",
+  "at": "2026-10-07T23:03:25.869Z",
+  "applied": [
+    "Copilot Test Toolkit: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.128521
+  }
+}

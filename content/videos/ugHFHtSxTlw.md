@@ -20,12 +20,12 @@ tags:
   - discoverability
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:44.074Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:44.123Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -39,13 +39,6 @@ evidence:
     commit: null
     t: 112
     quote: serving up the data and allowing users to work with business central but to have a good user experience
-  - kind: video
-    url: https://www.youtube.com/watch?v=ugHFHtSxTlw&t=292s
-    title: "Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code"
-    date: "2025-01-03T13:01:12.000Z"
-    commit: null
-    t: 292
-    quote: with with sort of the key investments so we can do our sort of due
   - kind: video
     url: https://www.youtube.com/watch?v=ugHFHtSxTlw&t=516s
     title: "Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code"
@@ -158,6 +151,13 @@ evidence:
     commit: null
     t: 2152
     quote: as opposed maybe to other type of programming when when our partners develop their features they don't have that level
+  - kind: video
+    url: https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2348s
+    title: "Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code"
+    date: "2025-01-03T13:01:12.000Z"
+    commit: null
+    t: 2348
+    quote: the tradeoff when you're building for business Central is that you you trade off some flexibility uh but you get a lot of behaviors
 links:
   learn: []
   objects: []
@@ -267,9 +267,6 @@ quotes:
   - t: 112
     text: serving up the data and allowing users to work with business central but to have a good user experience
     check: fuzzy
-  - t: 292
-    text: with with sort of the key investments so we can do our sort of due
-    check: fuzzy
   - t: 516
     text: we are adhering to what is known as the fluent design language which is microsoft sort of official
     check: fuzzy
@@ -318,13 +315,16 @@ quotes:
   - t: 2152
     text: as opposed maybe to other type of programming when when our partners develop their features they don't have that level
     check: fuzzy
+  - t: 2348
+    text: the tradeoff when you're building for business Central is that you you trade off some flexibility uh but you get a lot of behaviors
+    check: exact
 ---
 
 # Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code
 
 > Business Central UI design process, from concept and Figma mockups to shipped code, in episode 7 of Under the Hood. It uses examples (company switcher, onboarding, analysis mode, prompt dialogue) to show how research changed designs, and why partners have limited UI control.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ugHFHtSxTlw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-03 · 40:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ugHFHtSxTlw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-01-03 · 40:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -362,18 +362,18 @@ Examples include the company switcher, which grew into an environment and compan
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Fluent Design Language | status not stated | [8:16](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=496s) |  |
-| Figma for UI Design | status not stated | [10:38](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=638s) |  |
-| Company Switcher | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=252s) |  |
-| Onboarding Project | status not stated, demoed | [3:51](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=231s) |  |
-| Analysis mode | status not stated, demoed | [23:36](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1416s) |  |
-| Prompt dialogue for Copilot features | status not stated | [17:23](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1043s) |  |
-| Design Specification with Red Lines | status not stated, demoed | [33:11](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1991s) |  |
-| Component Flexibility for Localization | status not stated | [34:32](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2072s) |  |
-| Partner UI Limitations and Standardization | status not stated | [35:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2152s) |  |
-| Power Apps Integration for Customization | status not stated | [38:48](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2328s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Fluent Design Language | status not stated | [8:16](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=496s) |
+| Figma for UI Design | status not stated | [10:38](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=638s) |
+| Company Switcher | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=252s) |
+| Onboarding Project | status not stated, demoed | [3:51](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=231s) |
+| Analysis mode | status not stated, demoed | [23:36](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1416s) |
+| Prompt dialogue for Copilot features | status not stated | [17:23](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1043s) |
+| Design Specification with Red Lines | status not stated, demoed | [33:11](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=1991s) |
+| Component Flexibility for Localization | status not stated | [34:32](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2072s) |
+| Partner UI Limitations and Standardization | status not stated | [35:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2152s) |
+| Power Apps Integration for Customization | status not stated | [38:48](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2328s) |
 
 ## AL objects mentioned
 
@@ -384,7 +384,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Quotes
 
 - [1:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=112s) "serving up the data and allowing users to work with business central but to have a good user experience"
-- [4:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=292s) "with with sort of the key investments so we can do our sort of due"
 - [8:36](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=516s) "we are adhering to what is known as the fluent design language which is microsoft sort of official"
 - [9:37](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=577s) "it's important our user when they see the product they recognize it at business Central as well right they don't look when they don't"
 - [10:38](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=638s) "office is a huge inspiration for us in terms of how things should work and act"
@@ -401,5 +400,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [33:31](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2011s) "documenting uh at a at a very precise uh level of detail that is needed to actually go and implement this so it's all"
 - [34:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2092s) "we need to make sure that all the components we design are flexible in their sizing"
 - [35:52](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2152s) "as opposed maybe to other type of programming when when our partners develop their features they don't have that level"
+- [39:08](https://www.youtube.com/watch?v=ugHFHtSxTlw&t=2348s) "the tradeoff when you're building for business Central is that you you trade off some flexibility uh but you get a lot of behaviors"
 
 Presenters (as heard): Vincent, Yinda, Yob.

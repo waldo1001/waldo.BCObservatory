@@ -1,0 +1,29 @@
+{
+  "video_id": "uan4dV9eVCA",
+  "item_id": "video/yt-microsoft/uan4dV9eVCA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary says 'Nov 2024', but the transcript only mentions the 'technical Summit 2024'. The month comes from outside knowledge, so I removed it.",
+    "The pricing key point dropped the dollar sign. The transcript says '$70 per user per month'.",
+    "The transcript announces water and waste management features for a future release ('the next B we'll introduce'), so the status is set to announced.",
+    "The other features are shown in the demo but have no explicit status statement, so they stay unclear.",
+    "All quotes are verbatim or differ only in punctuation."
+  ],
+  "input_hash": "46b8ee28d8c3bac64184ce1a8358192305895b2b7cf46b0f4d3b4829b00c2c95",
+  "by": "opus",
+  "at": "2026-10-07T23:02:58.584Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Water and Waste Management Features -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.103081
+  }
+}

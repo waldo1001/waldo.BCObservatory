@@ -2,7 +2,7 @@
 id: video/Ccmzcoqzox0
 type: video
 title: "Mavericks of Business Central: Different career paths & opportunities"
-summary: Career paths in Business Central, from a short Mavericks video published 2024-10-30. It covers Microsoft talent programs, pairing theoretical with practical knowledge by working with experienced people, and the consultant, sales, finance, project manager and developer routes.
+summary: "A short Mavericks video about career paths in Business Central. It covers Microsoft talent programs, combining theoretical and practical knowledge by working with experienced people, and the routes open to newcomers: consultant, sales, finance, project manager or a technical developer role working in code."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - technical careers
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:56.074Z"
   flags: []
 generated:
-  at: "2026-10-06T19:04:43.696Z"
+  at: "2026-10-07T23:02:56.110Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 33
     quote: you can explore so many areas like sales Finance or something else but if you think oh this is nothing for me you can
+  - kind: video
+    url: https://www.youtube.com/watch?v=Ccmzcoqzox0&t=53s
+    title: "Mavericks of Business Central: Different career paths & opportunities"
+    date: "2024-10-30T08:39:38.000Z"
+    commit: null
+    t: 53
+    quote: you can do so many things that makes it exciting and you don't have to be know what you will be doing the next
   - kind: video
     url: https://www.youtube.com/watch?v=Ccmzcoqzox0&t=74s
     title: "Mavericks of Business Central: Different career paths & opportunities"
@@ -124,6 +131,9 @@ quotes:
   - t: 33
     text: you can explore so many areas like sales Finance or something else but if you think oh this is nothing for me you can
     check: exact
+  - t: 53
+    text: you can do so many things that makes it exciting and you don't have to be know what you will be doing the next
+    check: exact
   - t: 74
     text: for our developers in general we can be nerdy in business Central
     check: exact
@@ -131,9 +141,9 @@ quotes:
 
 # Mavericks of Business Central: Different career paths & opportunities
 
-> Career paths in Business Central, from a short Mavericks video published 2024-10-30. It covers Microsoft talent programs, pairing theoretical with practical knowledge by working with experienced people, and the consultant, sales, finance, project manager and developer routes.
+> A short Mavericks video about career paths in Business Central. It covers Microsoft talent programs, combining theoretical and practical knowledge by working with experienced people, and the routes open to newcomers: consultant, sales, finance, project manager or a technical developer role working in code.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ccmzcoqzox0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-30 · 1:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ccmzcoqzox0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-30 · 1:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -146,10 +156,10 @@ They stress that theoretical knowledge needs to be combined with practical exper
 - Microsoft has talent programs for building knowledge and a career in Business Central.
 - Implementing best practices is described as central to success, and the open question is how to learn what they are.
 - Theoretical and practical knowledge are both needed.
-- Beginning consultants and developers often lack practical knowledge without mentorship.
-- Working with experienced people is described as the best way to gain practical knowledge.
-- A start in Business Central opens several paths: consultant, sales, finance, project manager or technical developer.
-- Developers can go deep technically and work at code level in Business Central.
+- Beginning consultants and developers often lack practical knowledge.
+- Working with experienced people is described as the perfect combination for gaining practical knowledge.
+- A start in Business Central, for example as a consultant, opens several paths: sales, finance, project manager or a more technical developer job working in the code.
+- You do not need to know now what you will be doing for the next 10 years.
 
 ## Chapters
 
@@ -161,11 +171,11 @@ They stress that theoretical knowledge needs to be combined with practical exper
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft talent programs | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |  |
-| Combination of theoretical and practical knowledge | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |  |
-| Multiple career paths in Business Central | status not stated | [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft talent programs | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
+| Combination of theoretical and practical knowledge | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
+| Multiple career paths in Business Central | status not stated | [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) |
 
 ## Quotes
 
@@ -173,4 +183,5 @@ They stress that theoretical knowledge needs to be combined with practical exper
 - [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) "it's pretty much being able to implement the best practices the problem is how do you know the best practices and that is where"
 - [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) "if you can drive with experienced people then you have the perfect combination if you start in business Central you can start as a"
 - [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) "you can explore so many areas like sales Finance or something else but if you think oh this is nothing for me you can"
+- [0:53](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=53s) "you can do so many things that makes it exciting and you don't have to be know what you will be doing the next"
 - [1:14](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=74s) "for our developers in general we can be nerdy in business Central"

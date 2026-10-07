@@ -1,0 +1,30 @@
+{
+  "video_id": "8hfWClPLSiI",
+  "item_id": "video/yt-microsoft/8hfWClPLSiI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The publication date (November 2024 / 2024-11-12) does not appear in the transcript or the video metadata, so I removed it from the summary and key points.",
+    "The video is 99 seconds long. Calling it '2 minutes' rounds up, so I changed it to about 99 seconds.",
+    "The 'Talent development program' feature is not supported. The transcript is a motivational slogan and describes no structured program or product feature, so I dropped it.",
+    "The 'crm' tag in systems has no support in the transcript. The 'hr' and 'development' tags are weak at best. The edit fields cannot change systems.",
+    "All three quotes appear word for word in the transcript.",
+    "I added a quote about community contribution, because the page was missing that theme."
+  ],
+  "input_hash": "de2ff3302d7001c327a6e79364cae60a4f40bd248dda35c6b9afed3eda2e242c",
+  "by": "opus",
+  "at": "2026-10-07T23:03:01.684Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 72s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037989
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - no-code customization
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:41.893Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:02:41.931Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,7 +147,7 @@ quotes:
 
 > Themeable layouts in Business Central, added in 2024 release wave 2, shown by building a snowflake-themed Sales Quote Word layout with a custom picture watermark, uploading it on the Report Layouts page and setting it as a seasonal default, without a developer.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9ZmmQEpPyB4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-13 · 5:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9ZmmQEpPyB4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-13 · 5:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,12 +178,12 @@ The presenter then edits the layout in Word. This includes using the new Abts fo
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Themeable layouts | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=58s) |  |
-| Abts font in Office | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=159s) |  |
-| Word layout watermark support | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=180s) |  |
-| Seasonal layout switching | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=290s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Themeable layouts | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=58s) |
+| Abts font in Office | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=159s) |
+| Word layout watermark support | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=180s) |
+| Seasonal layout switching | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=290s) |
 
 ## AL objects mentioned
 

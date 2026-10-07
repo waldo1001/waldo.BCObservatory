@@ -20,18 +20,25 @@ tags:
   - multi-turn testing
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:25.870Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:25.916Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 37fe7268863bb4c9459987c2c302f5b3da90ad32a67b403fd4ed16efa201465f
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=eA7CENx7se0&t=506s
+    title: "Copilot Test Toolkit: preview"
+    date: "2024-10-09T13:47:41.000Z"
+    commit: null
+    t: 506
+    quote: in this release, we are introducing the Copilot Test Toolkit in preview that allows you to test Copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=eA7CENx7se0&t=57s
     title: "What's New: Testing Copilot in Business Central (2024 release wave 2)"
@@ -149,9 +156,9 @@ chapters:
     title: Best Practices and Future Roadmap
 features:
   - name: Copilot Test Toolkit
-    status: unclear
+    status: preview
     t: 506
-    verified: false
+    verified: true
     status_source: video
   - name: Sales Line Suggestion Feature
     status: unclear
@@ -245,7 +252,7 @@ quotes:
 
 > Copilot Test Toolkit in Business Central (2024 release wave 2), introduced in preview: an AL extension for testing Copilot features with data-driven tests, AI test context, Azure AI Studio external evaluation and multi-turn tests. Demonstrated on sales line suggestion and marketing text.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=eA7CENx7se0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 26:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=eA7CENx7se0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 26:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -255,12 +262,12 @@ The session covers the toolkit interface, test suites, the data set format, the 
 
 ## Key points
 
-- The Copilot Test Toolkit is an AL extension, installed in a sandbox, with source in the BC apps repo. It is introduced in preview and needs AL developer knowledge.
+- The Copilot Test Toolkit is an AL extension, installed in a sandbox, with source in the BC apps repo (aka.ms/bcapps, AI Test Toolkit folder). It is introduced in preview in this release.
 - Data-driven testing runs each test procedure once per entry in a data set, which covers LLM sensitivity to input variations.
 - The AI test context codeunit gives test procedures their inputs from the data set (question, answer, context, ground truth, expected data) and can set test output for external evaluation.
-- Test suites can be imported and exported as XML files. Results can be downloaded for external evaluation.
+- Data sets are uploaded in JSON lines format and can be marked as sensitive. Test suites can be imported and exported as XML files, and results can be downloaded for external evaluation.
 - Marketing text is evaluated through Azure AI Studio using built-in or custom evaluators. This is subject to separate billing, and different metrics need different input sets.
-- Multi-turn testing supports several inputs and outputs per test case for conversational scenarios. It is more complex and uses sequential calls through next_turn.
+- Multi-turn testing supports several inputs and outputs per test case for conversational scenarios. Calling the next turn API on the AI test context moves the test to the next question.
 - The demos mock responses, so no tokens are consumed. Use data sets with many entries, because small prompt changes can change results.
 
 ## Chapters
@@ -282,7 +289,7 @@ The session covers the toolkit interface, test suites, the data set format, the 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Copilot Test Toolkit | status not stated, demoed | [8:26](https://www.youtube.com/watch?v=eA7CENx7se0&t=506s) |  |
+| Copilot Test Toolkit | preview, demoed | [8:26](https://www.youtube.com/watch?v=eA7CENx7se0&t=506s) | "in this release, we are introducing the Copilot Test Toolkit in preview that allows you to test Copilot features" ([8:26](https://www.youtube.com/watch?v=eA7CENx7se0&t=506s)) |
 | Sales Line Suggestion Feature | status not stated, demoed | [14:11](https://www.youtube.com/watch?v=eA7CENx7se0&t=851s) |  |
 | Data-Driven Testing for Copilot | status not stated | [6:55](https://www.youtube.com/watch?v=eA7CENx7se0&t=415s) |  |
 | Accuracy Testing for Copilot | status not stated | [5:03](https://www.youtube.com/watch?v=eA7CENx7se0&t=303s) |  |

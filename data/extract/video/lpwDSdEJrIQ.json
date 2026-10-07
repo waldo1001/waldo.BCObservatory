@@ -348,27 +348,6 @@
       "system": "platform"
     },
     {
-      "name": "Inline Performance Profiler",
-      "description": "Tool that allows downloading profile files openable in Visual Studio Code to analyze function execution times and identify performance bottlenecks down to the function level.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1794.9,
-      "t_end": 1895.6,
-      "is_demoed": true,
-      "caveats": [
-        "Low usage despite availability",
-        "May require feature activation"
-      ],
-      "tags": [
-        "performance profiler",
-        "profiling",
-        "code analysis"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Number Sequences for Entry Number Generation",
       "description": "Replaces table locking patterns with non-locking number sequence generation for entry numbers, allowing concurrent transaction posting.",
       "status": "unclear",
@@ -559,6 +538,12 @@
       "text": "good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update",
       "why_it_matters": "Best practice for minimizing lock duration - complete calculations before acquiring locks.",
       "check": "snapped"
+    },
+    {
+      "t": 1357.8,
+      "text": "so just to be sure we take a semaphor lock if you will mhm basically locking the system out for anyone else",
+      "why_it_matters": "Explains why sales order posting serializes users, the main concurrency bottleneck discussed.",
+      "check": "exact"
     },
     {
       "t": 1377.8,

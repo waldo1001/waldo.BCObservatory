@@ -18,12 +18,12 @@ tags:
   - dataverse
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:33.322Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:33.370Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,6 +51,13 @@ evidence:
     commit: null
     t: 583
     quote: since the first minor update you will actually have access to some new apps in preview which contain a lot more than 60 actually
+  - kind: video
+    url: https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=741s
+    title: "Power BI Multilanguage Support: announced"
+    date: "2024-10-09T13:42:36.000Z"
+    commit: null
+    t: 741
+    quote: now not all of the labels are translated we are still working on this so that's why it's upcoming for a minor release
   - kind: video
     url: https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=69s
     title: "What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)"
@@ -208,9 +215,9 @@ features:
     verified: false
     status_source: video
   - name: Power BI Multilanguage Support
-    status: unclear
+    status: announced
     t: 720
-    verified: false
+    verified: true
     status_source: video
   - name: Power BI Add-in in System Application
     status: unclear
@@ -264,7 +271,7 @@ quotes:
 
 > Business Central 2024 release wave 2 integration with Power Platform: Power Automate (linked environments, Find One Record and Find Records actions, job queue event, new designer), Copilot Studio connector with a demo, and Power BI (preview apps with 60+ report pages, embedding, multilanguage, connector options).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6Zb7VAvLVm4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 15:46 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6Zb7VAvLVm4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-09 · 15:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -310,7 +317,7 @@ On Power Automate, linked environments from the tenant admin center are now hono
 | Power BI Embedded Reports with Full Capabilities | status not stated, demoed | [10:04](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=604s) |  |
 | Power BI Report Page Bookmarking | status not stated, demoed | [11:19](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=679s) |  |
 | Power BI Report Page Search | status not stated, demoed | [11:40](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=700s) |  |
-| Power BI Multilanguage Support | status not stated, demoed | [12:00](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=720s) |  |
+| Power BI Multilanguage Support | announced, demoed | [12:00](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=720s) | "now not all of the labels are translated we are still working on this so that's why it's upcoming for a minor release" ([12:21](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=741s)) |
 | Power BI Add-in in System Application | status not stated | [13:21](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=801s) |  |
 | Power BI Code Generator | status not stated | [13:53](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=833s) |  |
 | Power BI Connector Refresh Options | status not stated | [14:46](https://www.youtube.com/watch?v=6Zb7VAvLVm4&t=886s) |  |

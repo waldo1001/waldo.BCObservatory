@@ -20,12 +20,12 @@ tags:
   - full table scan
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:24.702Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:24.769Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,6 +123,13 @@ evidence:
     commit: null
     t: 1256
     quote: good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update
+  - kind: video
+    url: https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1357s
+    title: "Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast"
+    date: "2024-10-24T14:45:04.000Z"
+    commit: null
+    t: 1357
+    quote: so just to be sure we take a semaphor lock if you will mhm basically locking the system out for anyone else
   - kind: video
     url: https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1377s
     title: "Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast"
@@ -299,11 +306,6 @@ features:
     t: 1749
     verified: false
     status_source: video
-  - name: Inline Performance Profiler
-    status: unclear
-    t: 1794
-    verified: false
-    status_source: video
   - name: Number Sequences for Entry Number Generation
     status: unclear
     t: 2002
@@ -367,6 +369,9 @@ quotes:
   - t: 1256
     text: good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update
     check: snapped
+  - t: 1357
+    text: so just to be sure we take a semaphor lock if you will mhm basically locking the system out for anyone else
+    check: exact
   - t: 1377
     text: we're saying now we we are alone in this big room nobody else can come in here everybody we close the door nobody this
     check: exact
@@ -400,7 +405,7 @@ quotes:
 
 > AL code performance in Business Central, centred on reducing database calls. Covers query telemetry (750 ms logging threshold), flow fields, SetLoadFields, caching, indexing, page search, locking, and diagnostic tools such as the Performance Toolkit and the in-client profiler.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lpwDSdEJrIQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-24 · 37:42 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lpwDSdEJrIQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-24 · 37:42 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -415,8 +420,8 @@ The second half covers indexing, why page search can cause full table scans, and
 - Use flow fields so SQL does sums and lookups, and use SetLoadFields to load only the fields you need instead of whole records.
 - Data cached at company session level is shared by all users of that company; the first users in the morning pay the cost of filling the cache.
 - Page search covers all visible columns except numbers and booleans, which can lead to full table scans. SQL full text indexing is planned, hoped for BC25.
-- For locking, do the expensive work first and the update at the end. Read isolation helps concurrency but needs developer uptake.
-- The in-client profiler lets you record an action and download a profile to open in Visual Studio Code; the speakers say it is underused. The Performance Toolkit compares timings and SQL statement counts between code versions.
+- For locking, do the expensive work first and the update at the end. Sales order posting currently takes a semaphore-style lock, so concurrent posters queue up. Read isolation helps concurrency but needs developer uptake.
+- For BC25 (October release) warehouse entries use non-locking entry number assignment (number sequences), allowing concurrent warehouse posting; other entry tables are to follow, with parallel bulk posting as the longer-term goal.
 
 ## Chapters
 
@@ -436,26 +441,25 @@ The second half covers indexing, why page search can cause full table scans, and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Performance Toolkit | status not stated | [2:54](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=174s) |  |
-| Telemetry monitoring for long-running queries | status not stated | [4:55](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=295s) |  |
-| Flow fields | status not stated | [8:21](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=501s) |  |
-| Set load fields function | status not stated | [9:34](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=574s) |  |
-| AL to SQL code generation | status not stated | [11:17](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=677s) |  |
-| Session caching strategy | status not stated | [12:49](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=769s) |  |
-| Index seek optimization | status not stated | [14:05](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=845s) |  |
-| Read isolation feature | status not stated | [26:14](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1574s) |  |
-| Database locks page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |  |
-| Missing indexes page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |  |
-| In-client profiler | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |  |
-| Application Insights | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |  |
-| Cross-System Index Recommendations Dashboard | status not stated | [29:09](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1749s) |  |
-| Inline Performance Profiler | status not stated, demoed | [29:54](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1794s) |  |
-| Number Sequences for Entry Number Generation | status not stated | [33:22](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2002s) |  |
-| Concurrent Warehouse Entry Posting | status not stated | [34:12](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2052s) |  |
-| SQL Full Text Indexing for Page Search | status not stated | [35:45](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2145s) |  |
-| Concurrency and Parallelization for Bulk Operations | status not stated | [36:26](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2186s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Performance Toolkit | status not stated | [2:54](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=174s) |
+| Telemetry monitoring for long-running queries | status not stated | [4:55](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=295s) |
+| Flow fields | status not stated | [8:21](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=501s) |
+| Set load fields function | status not stated | [9:34](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=574s) |
+| AL to SQL code generation | status not stated | [11:17](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=677s) |
+| Session caching strategy | status not stated | [12:49](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=769s) |
+| Index seek optimization | status not stated | [14:05](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=845s) |
+| Read isolation feature | status not stated | [26:14](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1574s) |
+| Database locks page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Missing indexes page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| In-client profiler | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Application Insights | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Cross-System Index Recommendations Dashboard | status not stated | [29:09](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1749s) |
+| Number Sequences for Entry Number Generation | status not stated | [33:22](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2002s) |
+| Concurrent Warehouse Entry Posting | status not stated | [34:12](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2052s) |
+| SQL Full Text Indexing for Page Search | status not stated | [35:45](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2145s) |
+| Concurrency and Parallelization for Bulk Operations | status not stated | [36:26](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2186s) |
 
 ## AL objects mentioned
 
@@ -481,6 +485,7 @@ Not found in BC28-30: page "database locks page", page "missing indexes page".
 - [17:01](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1021s) "the Page search actually searches on all visible columns okay except for numbers and booleans and stuff like that"
 - [19:14](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1154s) "locking is a good thing as such it's a good feature that sequel as invented why why it doesn't sound good like why would"
 - [20:56](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1256s) "good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update"
+- [22:37](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1357s) "so just to be sure we take a semaphor lock if you will mhm basically locking the system out for anyone else"
 - [22:57](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1377s) "we're saying now we we are alone in this big room nobody else can come in here everybody we close the door nobody this"
 - [23:17](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1397s) "90% of the time is you know what we call the po actual posting where we lock everybody else out and this may not"
 - [26:34](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1594s) "we introduced already a while ago yeah it's it was in 202 maybe"

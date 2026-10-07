@@ -2,7 +2,7 @@
 id: video/AR2FiD64wbw
 type: video
 title: "What's New: Shopify Connector (2024 release wave 2) in 2 minutes"
-summary: "Shopify connector changes in Business Central 2024 release wave 2: meta fields import/export, language translation sync, company catalog pricing and discounts, shipping fee mapping, payment method reconciliation, and posted sales invoice sync to Shopify. A 2-minute overview published 2024-12-17."
+summary: "Shopify connector changes in Business Central 2024 release wave 2: meta fields import/export for custom mappings, language translation sync, company catalog pricing and discounts, more flexible shipping fee mapping, reconciliation of gift card and credit card payments, and posted sales invoice sync to Shopify. A 2-minute overview video."
 tier: official
 language: en
 tags:
@@ -18,32 +18,18 @@ tags:
   - sales invoices
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:43.657Z"
   flags: []
 generated:
-  at: "2026-10-06T19:02:26.948Z"
+  at: "2026-10-07T23:02:43.713Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d7d0f0452beb092abbf3f5e16f2f22a0f8a8c123120a0b23d079ff656980a28e
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s
-    title: "Enhanced Shipping Fee Mapping: generally available"
-    date: "2024-12-17T12:49:31.000Z"
-    commit: null
-    t: 62
-    quote: you can now map shipping fee information from Shopify to business Central more accurately and with more flexibility
-  - kind: video
-    url: https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s
-    title: "Shipping Methods in Sales Orders: generally available"
-    date: "2024-12-17T12:49:31.000Z"
-    commit: null
-    t: 82
-    quote: you can then make sales orders with business Central and see see the shipping charges and shipment methods
   - kind: video
     url: https://www.youtube.com/watch?v=AR2FiD64wbw&t=1s
     title: "What's New: Shopify Connector (2024 release wave 2) in 2 minutes"
@@ -141,14 +127,14 @@ features:
     verified: false
     status_source: video
   - name: Enhanced Shipping Fee Mapping
-    status: ga
+    status: unclear
     t: 62
-    verified: true
+    verified: false
     status_source: video
   - name: Shipping Methods in Sales Orders
-    status: ga
+    status: unclear
     t: 82
-    verified: true
+    verified: false
     status_source: video
   - name: Payment Method Reconciliation
     status: unclear
@@ -184,9 +170,9 @@ quotes:
 
 # What's New: Shopify Connector (2024 release wave 2) in 2 minutes
 
-> Shopify connector changes in Business Central 2024 release wave 2: meta fields import/export, language translation sync, company catalog pricing and discounts, shipping fee mapping, payment method reconciliation, and posted sales invoice sync to Shopify. A 2-minute overview published 2024-12-17.
+> Shopify connector changes in Business Central 2024 release wave 2: meta fields import/export for custom mappings, language translation sync, company catalog pricing and discounts, more flexible shipping fee mapping, reconciliation of gift card and credit card payments, and posted sales invoice sync to Shopify. A 2-minute overview video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=AR2FiD64wbw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-17 · 2:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=AR2FiD64wbw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-17 · 2:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,7 +186,7 @@ It covers meta fields linked to products or variants, translations through a new
 - A new languages action imports languages from Shopify so they can be added to items in Business Central, letting the Shopify store show product descriptions in different languages.
 - Company catalogs in Business Central synchronize company-specific prices and discounts, so each company sees its negotiated prices when logging into the Shopify store.
 - Individual customers can be given specific discounts in Business Central, and customer-specific orders with personalized pricing can be created in Shopify.
-- Shipping fee mapping from Shopify lets you choose the charge type, such as item charge or order charge, and specify shipping agent and service. Charges and shipment methods appear in sales documents.
+- Shipping fee mapping from Shopify lets you choose from different types of shipping charges, such as item charge, and specify shipping agent and shipping agent service. Charges and shipment methods appear in sales documents.
 - Transactions paid by methods such as gift cards and credit cards can be reconciled by posting receipt journals and reconciling in Business Central.
 - Posted sales invoices can be synced to Shopify using filters for specific customers and companies, showing orders with payment and fulfillment status.
 
@@ -215,16 +201,16 @@ It covers meta fields linked to products or variants, translations through a new
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Meta Fields Import/Export | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |  |
-| Language Translation Synchronization | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |  |
-| Company Catalogs Pricing Sync | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |  |
-| Customer-Specific Discounts and Orders | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |  |
-| Enhanced Shipping Fee Mapping | generally available | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) | "you can now map shipping fee information from Shopify to business Central more accurately and with more flexibility" ([1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s)) |
-| Shipping Methods in Sales Orders | generally available | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) | "you can then make sales orders with business Central and see see the shipping charges and shipment methods" ([1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s)) |
-| Payment Method Reconciliation | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |  |
-| Posted Sales Invoice Synchronization | status not stated | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Meta Fields Import/Export | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Language Translation Synchronization | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Company Catalogs Pricing Sync | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Customer-Specific Discounts and Orders | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Enhanced Shipping Fee Mapping | status not stated | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) |
+| Shipping Methods in Sales Orders | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Payment Method Reconciliation | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Posted Sales Invoice Synchronization | status not stated | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |
 
 ## Quotes
 

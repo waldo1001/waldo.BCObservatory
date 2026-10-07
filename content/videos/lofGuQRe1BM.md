@@ -18,12 +18,12 @@ tags:
   - code analysis
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:46.836Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:46.884Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -254,7 +254,7 @@ quotes:
 
 > AL language changes in Business Central 2024 release wave 2: new table field property for text search, profile extensions, extendable interfaces, date and time properties, self reference (this), PATCH on HttpClient, and the ternary operator. Also covers page customization clear properties and query tool tips.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lofGuQRe1BM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lofGuQRe1BM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -287,26 +287,26 @@ Some items are marked as not usable yet. The configuration dialogue page type is
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Optimized for Text Search Property | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=lofGuQRe1BM&t=40s) |  |
-| Configuration Dialogue Page Type | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=lofGuQRe1BM&t=68s) |  |
-| Prompting Actions on Pages | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=lofGuQRe1BM&t=100s) |  |
-| Page Style Enum | status not stated, demoed | [2:03](https://www.youtube.com/watch?v=lofGuQRe1BM&t=123s) |  |
-| Profile Extensions | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=lofGuQRe1BM&t=157s) |  |
-| Clear Layout, Clear Actions, and Clear Views Properties | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=lofGuQRe1BM&t=177s) |  |
-| Query Tool Tips | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=lofGuQRe1BM&t=233s) |  |
-| Query JSON Save Support | status not stated | [4:13](https://www.youtube.com/watch?v=lofGuQRe1BM&t=253s) |  |
-| Extendable Interfaces | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=lofGuQRe1BM&t=253s) |  |
-| New Interface Keywords (is and as) | status not stated | [4:34](https://www.youtube.com/watch?v=lofGuQRe1BM&t=274s) |  |
-| List of Code Units | status not stated, demoed | [4:53](https://www.youtube.com/watch?v=lofGuQRe1BM&t=293s) |  |
-| Date and Time Properties | status not stated, demoed | [5:31](https://www.youtube.com/watch?v=lofGuQRe1BM&t=331s) |  |
-| Self Reference (this) | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=lofGuQRe1BM&t=391s) |  |
-| Code Analyzer for Self Reference | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=lofGuQRe1BM&t=429s) |  |
-| NavApp Get Source Method | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=lofGuQRe1BM&t=471s) |  |
-| Session Information AI Tokens Used | status not stated, demoed | [8:11](https://www.youtube.com/watch?v=lofGuQRe1BM&t=491s) |  |
-| HTTP Client PATCH Method | status not stated, demoed | [8:45](https://www.youtube.com/watch?v=lofGuQRe1BM&t=525s) |  |
-| Ternary Operator | status not stated, demoed | [9:05](https://www.youtube.com/watch?v=lofGuQRe1BM&t=545s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Optimized for Text Search Property | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=lofGuQRe1BM&t=40s) |
+| Configuration Dialogue Page Type | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=lofGuQRe1BM&t=68s) |
+| Prompting Actions on Pages | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=lofGuQRe1BM&t=100s) |
+| Page Style Enum | status not stated, demoed | [2:03](https://www.youtube.com/watch?v=lofGuQRe1BM&t=123s) |
+| Profile Extensions | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=lofGuQRe1BM&t=157s) |
+| Clear Layout, Clear Actions, and Clear Views Properties | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=lofGuQRe1BM&t=177s) |
+| Query Tool Tips | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=lofGuQRe1BM&t=233s) |
+| Query JSON Save Support | status not stated | [4:13](https://www.youtube.com/watch?v=lofGuQRe1BM&t=253s) |
+| Extendable Interfaces | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=lofGuQRe1BM&t=253s) |
+| New Interface Keywords (is and as) | status not stated | [4:34](https://www.youtube.com/watch?v=lofGuQRe1BM&t=274s) |
+| List of Code Units | status not stated, demoed | [4:53](https://www.youtube.com/watch?v=lofGuQRe1BM&t=293s) |
+| Date and Time Properties | status not stated, demoed | [5:31](https://www.youtube.com/watch?v=lofGuQRe1BM&t=331s) |
+| Self Reference (this) | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=lofGuQRe1BM&t=391s) |
+| Code Analyzer for Self Reference | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=lofGuQRe1BM&t=429s) |
+| NavApp Get Source Method | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=lofGuQRe1BM&t=471s) |
+| Session Information AI Tokens Used | status not stated, demoed | [8:11](https://www.youtube.com/watch?v=lofGuQRe1BM&t=491s) |
+| HTTP Client PATCH Method | status not stated, demoed | [8:45](https://www.youtube.com/watch?v=lofGuQRe1BM&t=525s) |
+| Ternary Operator | status not stated, demoed | [9:05](https://www.youtube.com/watch?v=lofGuQRe1BM&t=545s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,27 @@
+{
+  "video_id": "lofGuQRe1BM",
+  "item_id": "video/yt-microsoft/lofGuQRe1BM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim transcript spans; the date/time quote at 331.8 crosses into the next segment, which is acceptable.",
+    "Summary and key points are supported by the transcript.",
+    "Configuration Dialogue page type and AI tokens used are explicitly described as under development / not ready for use; set them to announced with evidence.",
+    "Prompting actions description says 'list pages' but transcript says 'list plus pages'; minor wording issue, description cannot be edited here.",
+    "Other features are presented as changes in the 2024 wave 2 release without a per-feature status statement; left as unclear."
+  ],
+  "input_hash": "a6019af3f90001dac818e813459e7078127ca2a7f83caba062c5f5d84392b800",
+  "by": "opus",
+  "at": "2026-10-07T23:03:46.836Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Configuration Dialogue Page Type -> announced: evidence not verbatim or does not state the status",
+    "status Session Information AI Tokens Used -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.090945
+  }
+}

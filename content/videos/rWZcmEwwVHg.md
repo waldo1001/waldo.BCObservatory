@@ -18,12 +18,12 @@ tags:
   - analysis mode
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:42.945Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:42.984Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,7 +181,7 @@ quotes:
 
 > Business Central 2024 release wave 2 user experience changes: access keys in more languages, full-text search rolling out by table from October, faster column resizing, a page layout URL parameter planned for 25.1, and drag-and-drop multi-file and folder attachments.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rWZcmEwwVHg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 11:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=rWZcmEwwVHg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 11:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

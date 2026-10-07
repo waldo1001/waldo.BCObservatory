@@ -1,0 +1,24 @@
+{
+  "video_id": "mZNfMPpxovE",
+  "item_id": "video/yt-microsoft/mZNfMPpxovE",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim in the transcript.",
+    "Summary, key points and feature descriptions are supported by the transcript.",
+    "All feature statuses are unclear, which is correct: the transcript does not say whether the feature is in preview or generally available.",
+    "Chapter boundaries are a little off: customer content starts at 211.4, not 176.7, and items start at 312.4, not 292.4 (vendors run from 272.3 to 312.4). Chapters can't be edited here.",
+    "Minor gap: the page leaves out drilling back on quantity to see serial or lot number tracking (191.3)."
+  ],
+  "input_hash": "1621c34685ed0212219cd858378bd71022ba7a1e60932f54dadd082060c82e4d",
+  "by": "opus",
+  "at": "2026-10-07T23:03:13.733Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.059024999999999994
+  }
+}

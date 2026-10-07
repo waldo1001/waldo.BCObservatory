@@ -2,7 +2,7 @@
 id: video/P-7dYVfB73E
 type: video
 title: "Business Central Under the Hood episode 6: We Have Too Many Events!"
-summary: Business Central Under the Hood episode 6 (published 2024-11-25) explains why Business Central has about 22,500 events in version 25, what cloud telemetry says about their use, and why Microsoft is moving toward interfaces, componentization, and cleaner obsolescence and schema handling.
+summary: Business Central Under the Hood episode 6 explains why Business Central has about 22,500 events in version 25, what cloud usage telemetry shows about how few are widely used, and why Microsoft is moving toward interfaces, componentization (System Application, Business Foundation), namespaces, and automated obsolescence and SQL schema cleanup.
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - enums
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:23.160Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:23.228Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,19 +33,19 @@ generated:
   input_hash: 496b6210784db6f3a6ee5da36c73d1c9005d9852d1ab554473513765fc6c9e77
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=886s
-    title: "Event Cleanup Initiative: announced"
+    url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=1648s
+    title: "Business Foundation layer: generally available"
     date: "2024-11-25T15:00:25.000Z"
     commit: null
-    t: 886
-    quote: we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming
+    t: 1648
+    quote: recently we added the next layer so that that I think version 24 yeah Tre ship 6 months ago
   - kind: video
-    url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=2615s
-    title: "Selective module installation: announced"
+    url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=2469s
+    title: "Scheduled SQL schema cleanup every fifth release: announced"
     date: "2024-11-25T15:00:25.000Z"
     commit: null
-    t: 2615
-    quote: there's a future where we could um not install all these modules uh more lean apps so like if you specific installation at a
+    t: 2469
+    quote: so in version 26 now that we're working on right now we will do this cleanup
   - kind: video
     url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=150s
     title: "Business Central Under the Hood episode 6: We Have Too Many Events!"
@@ -115,7 +115,7 @@ evidence:
     date: "2024-11-25T15:00:25.000Z"
     commit: null
     t: 967
-    quote: quite a lot of code where the events are just
+    quote: uh quite a lot of code where the events are just U glorified code customization right
   - kind: video
     url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=1596s
     title: "Business Central Under the Hood episode 6: We Have Too Many Events!"
@@ -165,13 +165,6 @@ evidence:
     commit: null
     t: 2372
     quote: we operate on a zero debt principle so if you if you want to change some code today you have to make sure that
-  - kind: video
-    url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=2372s
-    title: "Business Central Under the Hood episode 6: We Have Too Many Events!"
-    date: "2024-11-25T15:00:25.000Z"
-    commit: null
-    t: 2372
-    quote: we operate on a zero debt principle so if you if you want to change some code today you have to make sure
   - kind: video
     url: https://www.youtube.com/watch?v=P-7dYVfB73E&t=2413s
     title: "Business Central Under the Hood episode 6: We Have Too Many Events!"
@@ -296,9 +289,9 @@ features:
     verified: false
     status_source: video
   - name: Event Cleanup Initiative
-    status: announced
+    status: unclear
     t: 846
-    verified: true
+    verified: false
     status_source: video
   - name: Extensibility objects
     status: unclear
@@ -331,9 +324,9 @@ features:
     verified: false
     status_source: video
   - name: Business Foundation layer
-    status: unclear
+    status: ga
     t: 1648
-    verified: false
+    verified: true
     status_source: video
   - name: Module Refactoring and Code Rewriting
     status: unclear
@@ -366,9 +359,9 @@ features:
     verified: false
     status_source: video
   - name: Scheduled SQL schema cleanup every fifth release
-    status: unclear
+    status: announced
     t: 2413
-    verified: false
+    verified: true
     status_source: video
   - name: Componentization architecture
     status: unclear
@@ -381,9 +374,9 @@ features:
     verified: false
     status_source: video
   - name: Selective module installation
-    status: announced
+    status: unclear
     t: 2615
-    verified: true
+    verified: false
     status_source: video
 objects_mentioned:
   - codeunit Sales Posting
@@ -421,8 +414,8 @@ quotes:
     text: 3 000 plus events that are not used in the cloud
     check: fuzzy
   - t: 967
-    text: quite a lot of code where the events are just
-    check: fuzzy
+    text: uh quite a lot of code where the events are just U glorified code customization right
+    check: exact
   - t: 1596
     text: the system app is just a physical packaging all just more convenient right to ship them together and version it potentially we could uh
     check: exact
@@ -444,9 +437,6 @@ quotes:
   - t: 2372
     text: we operate on a zero debt principle so if you if you want to change some code today you have to make sure that
     check: exact
-  - t: 2372
-    text: we operate on a zero debt principle so if you if you want to change some code today you have to make sure
-    check: fuzzy
   - t: 2413
     text: every fifth release we're going to clean up the SQL schema
     check: exact
@@ -466,9 +456,9 @@ quotes:
 
 # Business Central Under the Hood episode 6: We Have Too Many Events!
 
-> Business Central Under the Hood episode 6 (published 2024-11-25) explains why Business Central has about 22,500 events in version 25, what cloud telemetry says about their use, and why Microsoft is moving toward interfaces, componentization, and cleaner obsolescence and schema handling.
+> Business Central Under the Hood episode 6 explains why Business Central has about 22,500 events in version 25, what cloud usage telemetry shows about how few are widely used, and why Microsoft is moving toward interfaces, componentization (System Application, Business Foundation), namespaces, and automated obsolescence and SQL schema cleanup.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=P-7dYVfB73E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-25 · 45:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=P-7dYVfB73E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-25 · 45:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -479,12 +469,12 @@ The second half covers the response. Newer and refactored areas use interfaces a
 ## Key points
 
 - Version 25 has about 22,500 events. Growth has been linear since version 15, and over 90% of events were partner-requested through GitHub.
-- Cloud telemetry (not on-premise) shows 3,400 unused events, 5,600 single-environment events, and 53% (about 11,000) used in fewer than 100 environments.
-- Events are concentrated in a few objects. The sales posting codeunit has over 600 events, and density can reach one event per five lines of code, which makes bug fixes and refactoring risky.
-- Handled events work like code customization, which events were meant to avoid. Interfaces and extensible enums give a clearer and more controlled contract.
-- Removing unused events is a proposal, not yet done. Partners would be told in advance.
+- Cloud usage telemetry shows about 3,400 unused events, 5,600 used by a single environment, and 53% (about 11,000) used in fewer than 100 environments.
+- Events are concentrated in a few objects. The sales posting codeunit has around 600 events, and density can reach one event per five lines of code, which makes bug fixes and refactoring risky.
+- Handled events work like code customization, which events were meant to avoid. Extensible enums with interfaces give a clearer and more controlled contract; refactored areas show about 10 times fewer events.
+- Removing unused events is discussed as a possibility, not a done decision. Partners would be told in advance.
 - Obsolete code is kept for 12 to 18 months so partners get recompile warnings. Preprocessor symbols and automated removal support a zero debt principle.
-- A clean schema preprocessor symbol is introduced. The SQL schema will be cleaned every fifth release, and obsoleted fields are kept at least 2.5 years.
+- A clean schema preprocessor symbol is being introduced. The SQL schema will be cleaned every fifth release, starting with version 26, and fields obsoleted in one release are not deleted in the next.
 
 ## Chapters
 
@@ -515,24 +505,24 @@ The second half covers the response. Newer and refactored areas use interfaces a
 | Event Usage Telemetry | status not stated | [9:06](https://www.youtube.com/watch?v=P-7dYVfB73E&t=546s) |  |
 | Event Distribution Analysis | status not stated | [10:46](https://www.youtube.com/watch?v=P-7dYVfB73E&t=646s) |  |
 | High Event Density in Core Objects | status not stated | [11:44](https://www.youtube.com/watch?v=P-7dYVfB73E&t=704s) |  |
-| Event Cleanup Initiative | announced | [14:06](https://www.youtube.com/watch?v=P-7dYVfB73E&t=846s) | "we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming" ([14:46](https://www.youtube.com/watch?v=P-7dYVfB73E&t=886s)) |
+| Event Cleanup Initiative | status not stated | [14:06](https://www.youtube.com/watch?v=P-7dYVfB73E&t=846s) |  |
 | Extensibility objects | status not stated | [19:20](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1160s) |  |
 | Extensible enums | status not stated | [19:32](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1172s) |  |
 | Interfaces for extensibility | status not stated | [19:32](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1172s) |  |
 | Handled events | status not stated | [20:25](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1225s) |  |
 | Refactoring toward interfaces | status not stated | [20:59](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1259s) |  |
 | System Application | status not stated | [24:22](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1462s) |  |
-| Business Foundation layer | status not stated | [27:28](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1648s) |  |
+| Business Foundation layer | generally available | [27:28](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1648s) | "recently we added the next layer so that that I think version 24 yeah Tre ship 6 months ago" ([27:28](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1648s)) |
 | Module Refactoring and Code Rewriting | status not stated | [30:21](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1821s) |  |
 | Source Code Organization with Namespaces | status not stated | [34:18](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2058s) |  |
 | Obsolescence Scheme with Deprecation Period | status not stated | [36:19](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2179s) |  |
 | Pre-Processor Symbols for Obsolescence | status not stated | [37:57](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2277s) |  |
 | Automated code removal at compilation | status not stated | [39:12](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2352s) |  |
 | Clean schema preprocessor symbol | status not stated | [40:48](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2448s) |  |
-| Scheduled SQL schema cleanup every fifth release | status not stated | [40:13](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2413s) |  |
+| Scheduled SQL schema cleanup every fifth release | announced | [40:13](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2413s) | "so in version 26 now that we're working on right now we will do this cleanup" ([41:09](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2469s)) |
 | Componentization architecture | status not stated | [41:59](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2519s) |  |
 | Replaceable component modules | status not stated | [42:20](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2540s) |  |
-| Selective module installation | announced | [43:35](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2615s) | "there's a future where we could um not install all these modules uh more lean apps so like if you specific installation at a" ([43:35](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2615s)) |
+| Selective module installation | status not stated | [43:35](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2615s) |  |
 
 ## AL objects mentioned
 
@@ -558,7 +548,7 @@ Not found in BC28-30: codeunit "Sales Posting", codeunit "Purchase Posting", tab
 - [9:46](https://www.youtube.com/watch?v=P-7dYVfB73E&t=586s) "53% of events so that's 11,000 something events I think my math is right uh are used in less than 100 environments"
 - [12:44](https://www.youtube.com/watch?v=P-7dYVfB73E&t=764s) "when we want to make even something as simple as a bug fix right around where these events are or you want to refactor"
 - [14:46](https://www.youtube.com/watch?v=P-7dYVfB73E&t=886s) "3 000 plus events that are not used in the cloud"
-- [16:07](https://www.youtube.com/watch?v=P-7dYVfB73E&t=967s) "quite a lot of code where the events are just"
+- [16:07](https://www.youtube.com/watch?v=P-7dYVfB73E&t=967s) "uh quite a lot of code where the events are just U glorified code customization right"
 - [26:36](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1596s) "the system app is just a physical packaging all just more convenient right to ship them together and version it potentially we could uh"
 - [27:49](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1669s) "business foundation is meant to be the the foundational layer so the rule there is it"
 - [30:01](https://www.youtube.com/watch?v=P-7dYVfB73E&t=1801s) "when we build these modules we actually we rewrite most of the code um so we we"
@@ -566,7 +556,6 @@ Not found in BC28-30: codeunit "Sales Posting", codeunit "Purchase Posting", tab
 - [36:40](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2200s) "when we introduced the system application at same time we introduced an obso scheme MH so uh in the past a new version would"
 - [37:00](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2220s) "we obsolete code um we give Partners I think 12 to 18 months to to uptake so they get warnings so if they recompile"
 - [39:32](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2372s) "we operate on a zero debt principle so if you if you want to change some code today you have to make sure that"
-- [39:32](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2372s) "we operate on a zero debt principle so if you if you want to change some code today you have to make sure"
 - [40:13](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2413s) "every fifth release we're going to clean up the SQL schema"
 - [40:28](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2428s) "if we removed the a field in in this release we don't want to delete it the next release right so we we need"
 - [41:29](https://www.youtube.com/watch?v=P-7dYVfB73E&t=2489s) "Partners will know several releases ahead of time like hey you know this field that they stopped using it's actually going away in a"

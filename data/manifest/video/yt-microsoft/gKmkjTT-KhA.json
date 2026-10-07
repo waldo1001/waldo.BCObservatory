@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=gKmkjTT-KhA",
   "published_at": "2024-11-29T12:12:54.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T19:03:05.212Z",
+      "at": "2026-10-07T23:02:43.541Z",
       "path": "content/videos/gKmkjTT-KhA.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:02:43.501Z",
+      "path": "data/review/video/gKmkjTT-KhA.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.035141
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "188db56c84d4e1335d6ba93d51c2254f37ab23f77f03796da8a438db4d79b2c0"
+  "output_hash": "231da0ac05dfaca626783d33fd228521d482938608ee831e38e5792b41e16847",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:02:43.496Z"
+  }
 }

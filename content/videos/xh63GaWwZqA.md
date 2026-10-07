@@ -13,12 +13,12 @@ tags:
   - expense splitting
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:42.454Z"
   flags: []
 generated:
-  at: "2026-10-06T19:02:49.595Z"
+  at: "2026-10-07T23:02:42.493Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,7 +102,7 @@ quotes:
 
 > Allocation accounts in Business Central general journals: how to use Generate lines from allocation account to split an expense by the account definition and adjust the lines before posting. The demo uses an equal split across multiple G/L accounts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xh63GaWwZqA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-12 · 1:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xh63GaWwZqA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-12-12 · 1:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -125,10 +125,10 @@ This short video (published 2024-12-12) shows how allocation accounts split an e
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Generate lines from allocation account | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=xh63GaWwZqA&t=39s) |  |
-| Allocation accounts with equal split | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=xh63GaWwZqA&t=0s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Generate lines from allocation account | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=xh63GaWwZqA&t=39s) |
+| Allocation accounts with equal split | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=xh63GaWwZqA&t=0s) |
 
 ## Quotes
 

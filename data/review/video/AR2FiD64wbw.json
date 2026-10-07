@@ -1,0 +1,29 @@
+{
+  "video_id": "AR2FiD64wbw",
+  "item_id": "video/yt-microsoft/AR2FiD64wbw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary states a publication date (2024-12-17) that the transcript never mentions; removed.",
+    "Key point and the Enhanced Shipping Fee Mapping description mention 'order charge', but the caption only says 'such as item or item charge' (garbled). Key point reworded so it no longer claims an order charge type.",
+    "Shipping Methods in Sales Orders evidence ('you can then make sales orders...') does not state a release status; set to unclear.",
+    "Enhanced Shipping Fee Mapping 'you can now' does not separate GA from preview, and other 'now' features are already unclear; set to unclear for consistency.",
+    "Quotes are verbatim and useful; chapters and other key points are supported."
+  ],
+  "input_hash": "9a3558670c0409a3af3ac4e39eab4af101bfc161672601715263fda216296036",
+  "by": "opus",
+  "at": "2026-10-07T23:02:43.657Z",
+  "applied": [
+    "Enhanced Shipping Fee Mapping: status unclear",
+    "Shipping Methods in Sales Orders: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056481
+  }
+}

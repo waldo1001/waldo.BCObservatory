@@ -9,8 +9,8 @@
     "Use flow fields so SQL does sums and lookups, and use SetLoadFields to load only the fields you need instead of whole records.",
     "Data cached at company session level is shared by all users of that company; the first users in the morning pay the cost of filling the cache.",
     "Page search covers all visible columns except numbers and booleans, which can lead to full table scans. SQL full text indexing is planned, hoped for BC25.",
-    "For locking, do the expensive work first and the update at the end. Read isolation helps concurrency but needs developer uptake.",
-    "The in-client profiler lets you record an action and download a profile to open in Visual Studio Code; the speakers say it is underused. The Performance Toolkit compares timings and SQL statement counts between code versions."
+    "For locking, do the expensive work first and the update at the end. Sales order posting currently takes a semaphore-style lock, so concurrent posters queue up. Read isolation helps concurrency but needs developer uptake.",
+    "For BC25 (October release) warehouse entries use non-locking entry number assignment (number sequences), allowing concurrent warehouse posting; other entry tables are to follow, with parallel bulk posting as the longer-term goal."
   ],
   "audience": [
     "developer",

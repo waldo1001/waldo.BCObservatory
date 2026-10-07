@@ -2,7 +2,7 @@
 id: video/Uy3CmPDzWpY
 type: video
 title: "#BCTalent Stories: Triangle"
-summary: "Triangle, a Spanish Business Central partner focused on finance and supply chain for SMBs, describes how it uses the BC Reskill program to train its team. It is evidence for what the program includes: product training, soft skills, coaching and a community."
+summary: "Triangle, a partner implementing Business Central Cloud for Spanish SMBs with a focus on finance and supply chain, describes using the BC Reskill program to grow its team. The video shows what the program includes: product training (certification knowledge, then copilot and AI, advanced warehouse, telemetry), professional skills, one-to-one coaching and a community."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - hiring and retention
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:58.082Z"
   flags: []
 generated:
-  at: "2026-10-06T19:04:15.513Z"
+  at: "2026-10-07T23:02:58.114Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -158,9 +158,9 @@ quotes:
 
 # #BCTalent Stories: Triangle
 
-> Triangle, a Spanish Business Central partner focused on finance and supply chain for SMBs, describes how it uses the BC Reskill program to train its team. It is evidence for what the program includes: product training, soft skills, coaching and a community.
+> Triangle, a partner implementing Business Central Cloud for Spanish SMBs with a focus on finance and supply chain, describes using the BC Reskill program to grow its team. The video shows what the program includes: product training (certification knowledge, then copilot and AI, advanced warehouse, telemetry), professional skills, one-to-one coaching and a community.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Uy3CmPDzWpY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-12 · 2:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Uy3CmPDzWpY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-12 · 2:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,9 +174,9 @@ The speakers describe product training aimed at Business Central certification, 
 - The BC Reskill program combines product training, professional skills development and one-to-one coaching.
 - Product training first covers the knowledge needed for Business Central certification, then goes deeper.
 - Advanced topics named are copilot and AI, advanced warehouse functionality and telemetry.
-- Professional skills training covers presentation, communication, press activities and negotiation, to prepare consultants to work directly with customers.
-- The reskill community offers webinars, workshops and training from Microsoft trainers, and helps participants build peer relationships.
-- Triangle says the program helps it bring new, diverse people into the community.
+- Professional skills training covers presentation, communication and negotiation skills, to help put consultants in front of customers quickly.
+- Seniors save time because junior team members gain the product knowledge and confidence to resolve client issues themselves.
+- The reskill community offers webinars, workshops and training from Microsoft, and helps participants build peer relationships.
 
 ## Chapters
 
@@ -191,13 +191,13 @@ The speakers describe product training aimed at Business Central certification, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Reskill Program | status not stated | [0:02](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=2s) |  |
-| Product training for Business Central certification | status not stated | [0:22](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=22s) |  |
-| Professional skills training | status not stated | [1:03](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=63s) |  |
-| One-to-one coaching sessions | status not stated | [1:23](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=83s) |  |
-| Reskill community | status not stated | [1:43](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=103s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Reskill Program | status not stated | [0:02](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=2s) |
+| Product training for Business Central certification | status not stated | [0:22](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=22s) |
+| Professional skills training | status not stated | [1:03](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=63s) |
+| One-to-one coaching sessions | status not stated | [1:23](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=83s) |
+| Reskill community | status not stated | [1:43](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=103s) |
 
 ## Quotes
 

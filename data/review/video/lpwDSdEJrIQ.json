@@ -1,0 +1,37 @@
+{
+  "video_id": "lpwDSdEJrIQ",
+  "item_id": "video/yt-microsoft/lpwDSdEJrIQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Inline Performance Profiler' duplicates 'In-client profiler' (same tool, mis-captioned as 'incline'); dropped the duplicate.",
+    "Several feature statuses were left unclear although the transcript states them: read isolation already introduced, warehouse entries concurrency done for BC25 October release, full text indexing for page search planned, long-term parallelization intent, and diagnostic tools described as existing.",
+    "Key points omitted the sales order posting semaphore lock and the BC25 move to non-locking entry numbers for warehouse entries; added them.",
+    "Quotes are verbatim or only differ in punctuation; kept all.",
+    "Summary is supported; kept."
+  ],
+  "input_hash": "a9e2067708a88926bb3989362f0a40eefda8cc368c2ebe17a5c1a7b1233fb55a",
+  "by": "opus",
+  "at": "2026-10-07T23:03:24.702Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 1358s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Read isolation feature -> ga: evidence not verbatim or does not state the status",
+    "status Concurrent Warehouse Entry Posting -> ga: evidence not verbatim or does not state the status",
+    "status SQL Full Text Indexing for Page Search -> announced: evidence not verbatim or does not state the status",
+    "status Concurrency and Parallelization for Bulk Operations -> announced: evidence not verbatim or does not state the status",
+    "status Database locks page -> ga: evidence not verbatim or does not state the status",
+    "status Missing indexes page -> ga: evidence not verbatim or does not state the status",
+    "status In-client profiler -> ga: evidence not verbatim or does not state the status",
+    "status Performance Toolkit -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.18501299999999998
+  }
+}

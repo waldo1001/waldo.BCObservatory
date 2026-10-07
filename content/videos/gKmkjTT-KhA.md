@@ -2,7 +2,7 @@
 id: video/gKmkjTT-KhA
 type: video
 title: The Energized Business Central Community
-summary: "The Business Central partner community, as described in a one-minute video from the product channel: over 3,200 partners in one place, positive community energy, and a Directions event with local-language sessions where partners share best practices."
+summary: This short video is about the partner community at the Directions event. Speakers mention over 3,200 partners in one place and very positive community energy. Partners who compete with each other share best practices there, and 10 area sessions, mostly in local language, let partners meet their local Microsoft team.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - business applications
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:02:43.496Z"
   flags: []
 generated:
-  at: "2026-10-06T19:03:05.203Z"
+  at: "2026-10-07T23:02:43.536Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -61,6 +61,13 @@ evidence:
     commit: null
     t: 38
     quote: we have 10 different area sessions um most of which are in local language
+  - kind: video
+    url: https://www.youtube.com/watch?v=gKmkjTT-KhA&t=38s
+    title: The Energized Business Central Community
+    date: "2024-11-29T12:12:54.000Z"
+    commit: null
+    t: 38
+    quote: it's a great opportunity for partners to meet with their local Microsoft team
   - kind: video
     url: https://www.youtube.com/watch?v=gKmkjTT-KhA&t=63s
     title: The Energized Business Central Community
@@ -114,6 +121,9 @@ quotes:
   - t: 38
     text: we have 10 different area sessions um most of which are in local language
     check: exact
+  - t: 38
+    text: it's a great opportunity for partners to meet with their local Microsoft team
+    check: exact
   - t: 63
     text: how can we help Partners be that extension of our team to our customers
     check: exact
@@ -121,9 +131,9 @@ quotes:
 
 # The Energized Business Central Community
 
-> The Business Central partner community, as described in a one-minute video from the product channel: over 3,200 partners in one place, positive community energy, and a Directions event with local-language sessions where partners share best practices.
+> This short video is about the partner community at the Directions event. Speakers mention over 3,200 partners in one place and very positive community energy. Partners who compete with each other share best practices there, and 10 area sessions, mostly in local language, let partners meet their local Microsoft team.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gKmkjTT-KhA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-29 · 1:21 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gKmkjTT-KhA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-11-29 · 1:21 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -134,11 +144,11 @@ It also covers the Directions event, where partners who compete with each other 
 ## Key points
 
 - The video cites over 3,200 partners in one place.
-- Speakers describe the community's energy as very positive.
+- Speakers describe the community's energy as super positive.
 - Partners who compete with each other attend the event and share best practices.
-- Directions is described as the hottest ticket in town for people in the Business Central space.
-- There are 10 different area sessions, most of them in local language.
-- A stated focus is how to help partners be an extension of Microsoft's team to customers.
+- Directions is called the hottest ticket in town for anyone in the organization working on business applications in SMB.
+- There are 10 different area sessions, most of them in local language, where partners can meet their local Microsoft team.
+- A stated focus is how to help partners be an extension of the speaker's team to customers.
 
 ## Chapters
 
@@ -154,6 +164,7 @@ It also covers the Directions event, where partners who compete with each other 
 - [0:27](https://www.youtube.com/watch?v=gKmkjTT-KhA&t=27s) "working hard against each other and they come to this event they share best practices"
 - [0:38](https://www.youtube.com/watch?v=gKmkjTT-KhA&t=38s) "directions is quite literally the hottest ticket in town for anyone in the"
 - [0:38](https://www.youtube.com/watch?v=gKmkjTT-KhA&t=38s) "we have 10 different area sessions um most of which are in local language"
+- [0:38](https://www.youtube.com/watch?v=gKmkjTT-KhA&t=38s) "it's a great opportunity for partners to meet with their local Microsoft team"
 - [1:03](https://www.youtube.com/watch?v=gKmkjTT-KhA&t=63s) "how can we help Partners be that extension of our team to our customers"
 
 Presenters (as heard): Unknown Speaker.

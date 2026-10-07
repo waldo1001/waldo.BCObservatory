@@ -354,12 +354,6 @@
       "check": "fuzzy"
     },
     {
-      "t": 292.7,
-      "text": "with with sort of the key investments so we can do our sort of due",
-      "why_it_matters": "Describes the design team's involvement in early-stage feature planning before implementation.",
-      "check": "fuzzy"
-    },
-    {
       "t": 516.6,
       "text": "we are adhering to what is known as the fluent design language which is microsoft sort of official",
       "why_it_matters": "Confirms Business Central uses Fluent Design Language for consistency with other Microsoft products.",
@@ -454,6 +448,12 @@
       "text": "as opposed maybe to other type of programming when when our partners develop their features they don't have that level",
       "why_it_matters": "Establishes the fundamental constraint for partner developers - limited UI control to ensure consistency",
       "check": "fuzzy"
+    },
+    {
+      "t": 2348.8,
+      "text": "the tradeoff when you're building for business Central is that you you trade off some flexibility uh but you get a lot of behaviors",
+      "why_it_matters": "States the core tradeoff partners accept: less UI control in exchange for built-in behaviors, translations and security.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

@@ -15,12 +15,12 @@ tags:
   - list pages
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:13.733Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:13.772Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -195,7 +195,7 @@ quotes:
 
 > GP Historical Snapshot in Business Central: configuring and running a migration of GP transactional data into extension tables, then viewing it in list pages for GL, customers, vendors and items. Covers the GP Company Migration Configuration page, module and date range selection, and monitoring progress.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mZNfMPpxovE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-18 · 5:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mZNfMPpxovE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-18 · 5:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -225,17 +225,17 @@ After the cloud migration completes, the snapshot runs automatically and its pro
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GP Snapshot feature | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=mZNfMPpxovE&t=0s) |  |
-| GP Company Migration Configuration page | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=mZNfMPpxovE&t=20s) |  |
-| Historical Snapshot module selection | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=36s) |  |
-| Automatic snapshot processing | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=mZNfMPpxovE&t=77s) |  |
-| GP Detail Snapshot for GL accounts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s) |  |
-| GL snapshot data export and filtering | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=156s) |  |
-| Customer GP Detail Snapshot | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s) |  |
-| Vendor GP Detail Snapshot | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=mZNfMPpxovE&t=272s) |  |
-| Item GP Detail Snapshot | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=mZNfMPpxovE&t=312s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GP Snapshot feature | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=mZNfMPpxovE&t=0s) |
+| GP Company Migration Configuration page | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=mZNfMPpxovE&t=20s) |
+| Historical Snapshot module selection | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=36s) |
+| Automatic snapshot processing | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=mZNfMPpxovE&t=77s) |
+| GP Detail Snapshot for GL accounts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s) |
+| GL snapshot data export and filtering | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=156s) |
+| Customer GP Detail Snapshot | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s) |
+| Vendor GP Detail Snapshot | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=mZNfMPpxovE&t=272s) |
+| Item GP Detail Snapshot | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=mZNfMPpxovE&t=312s) |
 
 ## AL objects mentioned
 
