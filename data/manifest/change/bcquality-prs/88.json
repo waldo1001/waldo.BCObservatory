@@ -6,7 +6,7 @@
   "title": "Add monthly manual versioning (major.minor VERSION + release workflow)",
   "url": "https://github.com/microsoft/BCQuality/pull/88",
   "published_at": "2026-07-13T10:56:52Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add monthly manual versioning major minor version release workflow"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:00.840Z",
+  "retry_after": null
 }

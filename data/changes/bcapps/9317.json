@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9317,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9317",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T10:44:58Z",
+  "merge_commit_sha": "f7f34ab8b52abac48c1ec844fc7676c101bad4b9",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Add Companies to Shopify navigation menu",
+  "body_hash": "0d3ca102ce6a73862a146da252de4fd2db991158c3a7bb93b628dde9498096ab",
+  "fixes_issues": [],
+  "work_items": [
+    642036
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfyBusinessManagerRC.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfyOrderProcessorRC.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfySalesRelMgrRC.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 27,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfyBusinessManagerRC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/30101",
+        "type": "pageextension",
+        "id": 30101,
+        "name": "Shpfy Business Manager RC",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "pageextension/30101"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfyOrderProcessorRC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/30102",
+        "type": "pageextension",
+        "id": 30102,
+        "name": "Shpfy Order Processor RC",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "pageextension/30102"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Page Extensions/ShpfySalesRelMgrRC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/30104",
+        "type": "pageextension",
+        "id": 30104,
+        "name": "Shpfy Sales & Rel. Mgr. RC",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "pageextension/30104"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

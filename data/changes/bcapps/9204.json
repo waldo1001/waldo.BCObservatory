@@ -1,0 +1,232 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9204,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9204",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T14:39:05Z",
+  "merge_commit_sha": "fe8ce68741415b9912fec0ba5f4f674af207bcad",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master]-Vendor Order No. exceeds 20-character limit causing error in Intercompany Purchase Invoice",
+  "body_hash": "2d1dc8e602fcf0b0838f683a9f9b0b58b1a8ad726f9da0f7ecbc621bc8b86d0d",
+  "fixes_issues": [],
+  "work_items": [
+    641567
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 15,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 15,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 15,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMIntercompanyIII.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 15,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 379,
+    "deletions": 137,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/51"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "key": "page/51",
+        "type": "page",
+        "id": 51,
+        "name": "Purchase Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/51"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

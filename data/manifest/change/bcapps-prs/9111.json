@@ -6,7 +6,7 @@
   "title": "Aligining Library Assert and Assert library",
   "url": "https://github.com/microsoft/BCApps/pull/9111",
   "published_at": "2026-07-10T13:04:57Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "aligining library assert and assert library"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:12.852Z",
+  "retry_after": null
 }

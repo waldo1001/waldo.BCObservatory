@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9317",
+  "number": 9317,
+  "title": "[Shopify] Add Companies to Shopify navigation menu",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Companies list is now accessible from the Shopify navigation group in the Business Manager, Order Processor, and Sales & Relationship Manager role centers, with a new Companies action placed after Customers.",
+  "key_points": [
+    "Companies action added to Shopify navigation menu in three role centers",
+    "Action opens the Shopify Companies page using the Company icon",
+    "Companies are now directly accessible alongside Customers, Products, and Orders",
+    "Tooltips updated to mention companies",
+    "Fixes missing Companies entry in Shopify menu"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "crm"
+  ],
+  "quote": "Shopify Companies was missing from the Shopify navigation menu, forcing users to search for it manually.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00355,
+    "changes_in_call": 1
+  }
+}

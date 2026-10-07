@@ -6,10 +6,35 @@
   "title": "Add data-modeling and appsource knowledge articles (MICROSOFT layer)",
   "url": "https://github.com/microsoft/BCQuality/pull/65",
   "published_at": "2026-07-13T08:35:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:04.201Z",
+      "change_class": "code",
+      "files": 21,
+      "al": 21,
+      "objects": 0,
+      "unjoined": 21
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:10.338Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005136
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:10.341Z",
+      "objects": 0,
+      "unjoined": 21,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:20:10.346Z",
+      "path": "content/changes/bcquality/65.md"
     }
   },
   "input_hash": "766046b85deff8f3e94d6364c573b4df99a9c8a4:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add data modeling and appsource knowledge articles microsoft layer"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6577d95ed9a853d4d4f2af96e9fe4ffa2d8c562062099349de1f5c03c8839507"
 }

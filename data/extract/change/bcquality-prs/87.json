@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/87",
+  "number": 87,
+  "title": "Fix knowledge corpus integrity issues",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality knowledge articles and skill documentation were corrected to fix broken references, mismatched examples, and scope constraints without changing the underlying knowledge or findings.",
+  "key_points": [
+    "Dead knowledge and sample references in skill documentation were replaced with canonical current articles",
+    "Articles for DataTransfer, teaching-tips, and this keyword guidance were scoped to Business Central versions that support these features",
+    "Missing title was restored on SetSelectionFilter article and root-entry guard updated to recognize .claude-plugin/",
+    "Content validator confirms no errors or warnings remain",
+    "All internal references now resolve and JSON examples parse successfully"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Broken references and mismatched examples made BCQuality's own skill documentation cite rules that do not exist",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00376,
+    "changes_in_call": 1
+  }
+}

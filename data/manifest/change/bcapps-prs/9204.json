@@ -6,10 +6,25 @@
   "title": "[Master]-Vendor Order No. exceeds 20-character limit causing error in Intercompany Purchase Invoice",
   "url": "https://github.com/microsoft/BCApps/pull/9204",
   "published_at": "2026-07-10T14:39:05Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:10.009Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 11,
+      "objects": 4,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:17.693Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003815
     }
   },
   "input_hash": "fe8ce68741415b9912fec0ba5f4f674af207bcad:c1",
@@ -30,5 +45,8 @@
     ],
     "community_contribution": true,
     "title_key": "master vendor order no exceeds 20 character limit causing error in intercompany purchase invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6cc3abeb0784decbe2be2f7b08b14b998b483af7597ff7bd2415e40ca2b424e6"
 }

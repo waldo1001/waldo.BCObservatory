@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9062,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9062",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T15:59:53Z",
+  "merge_commit_sha": "67a822d2b81477a2cd681a33170c9dfc7d2140fa",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master]-Production Order - WIP shows incorrect consumption amount.",
+  "body_hash": "667aee97ad9364bba81c0b81e41e3df079c2c1bd7297033468b7686096c49d61",
+  "fixes_issues": [],
+  "work_items": [
+    641358
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Reports/InventoryValuationWIPCZA.Report.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturingReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 57,
+    "deletions": 14,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+        "status": "modified",
+        "key": "report/5802",
+        "type": "report",
+        "id": 5802,
+        "name": "Inventory Valuation - WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5802"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancedLocalizationPack/app/Src/Reports/InventoryValuationWIPCZA.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

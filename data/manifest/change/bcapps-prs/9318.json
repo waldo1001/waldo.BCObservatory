@@ -6,10 +6,35 @@
   "title": "[Shopify] Fix Get Catalogs tooltip to explain company dependency",
   "url": "https://github.com/microsoft/BCApps/pull/9318",
   "published_at": "2026-07-13T09:25:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:03.426Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:08.125Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003122
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:08.322Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:08.327Z",
+      "path": "content/changes/bcapps/9318.md"
     }
   },
   "input_hash": "5bd43e78cf684f50e504eb232b34e59610833d36:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix get catalogs tooltip to explain company dependency"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe7a8ca26bbfdf77516e3307294de1af4066964d001b6c92cc9b09b7ecd1e7e3"
 }

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9318,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9318",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T09:25:41Z",
+  "merge_commit_sha": "5bd43e78cf684f50e504eb232b34e59610833d36",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix Get Catalogs tooltip to explain company dependency",
+  "body_hash": "14c33e88c205601f813bddd5821b371afb31fb1c13f8892b343b08c7d88b8254",
+  "fixes_issues": [],
+  "work_items": [
+    642040
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Catalogs/Pages/ShpfyCatalogs.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Catalogs/Pages/ShpfyCatalogs.Page.al",
+        "status": "modified",
+        "key": "page/30159",
+        "type": "page",
+        "id": 30159,
+        "name": "Shpfy Catalogs",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30159"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

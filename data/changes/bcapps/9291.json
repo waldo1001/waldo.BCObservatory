@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9291,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9291",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T13:04:57Z",
+  "merge_commit_sha": "b52c0c13e7557a808db140f68ec0dce12680dd78",
+  "author": "PooyaKharamesh",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application"
+  ],
+  "community_contribution": false,
+  "title": "Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures",
+  "body_hash": "8789463927fcd8dd0771d5828ff335e0c86e30377533b14a0583fc884535e522",
+  "fixes_issues": [],
+  "work_items": [
+    641977
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Cryptography Management/src/CryptographyManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Cryptography Management/src/CryptographyManagementImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 4,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Cryptography Management/src/CryptographyManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1266",
+        "type": "codeunit",
+        "id": 1266,
+        "name": "Cryptography Management",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1266"
+      },
+      {
+        "path": "src/System Application/App/Cryptography Management/src/CryptographyManagementImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1279",
+        "type": "codeunit",
+        "id": 1279,
+        "name": "Cryptography Management Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1279"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

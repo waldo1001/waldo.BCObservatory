@@ -6,10 +6,35 @@
   "title": "[Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp",
   "url": "https://github.com/microsoft/BCApps/pull/9313",
   "published_at": "2026-07-13T09:25:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:03.219Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:08.627Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004137
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:08.845Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:08.851Z",
+      "path": "content/changes/bcapps/9313.md"
     }
   },
   "input_hash": "210794a77602ec9ebc13cee12097d3c68f6c4871:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix product sync deleting mapped variants on stale updated at timestamp"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9b5ca01154c838aeb81527ea8ce5ba869f51e085822fa9d723f68d47a7e94da"
 }

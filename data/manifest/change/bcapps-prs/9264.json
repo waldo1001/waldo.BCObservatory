@@ -6,10 +6,35 @@
   "title": "[master] Bin Capacity Policy \"Prohibit More Than Max. Cap.\" fails and allows more than the maximum Capacity, when you split lines on Inventory Movement",
   "url": "https://github.com/microsoft/BCApps/pull/9264",
   "published_at": "2026-07-13T10:44:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:01.214Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:06.977Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003967
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:07.124Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:07.128Z",
+      "path": "content/changes/bcapps/9264.md"
     }
   },
   "input_hash": "79aa73e6b7e9910ae9d25bdf7c50caf6e4eeed58:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master bin capacity policy prohibit more than max cap fails and allows more than the maximum capacity when you split lines on inventory movement"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20e7a311b9cb837ab6a1f2a2aa4c7d2a18e5874f136f5384f91c9cf72bac24c6"
 }

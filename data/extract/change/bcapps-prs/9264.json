@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9264",
+  "number": 9264,
+  "title": "[master] Bin Capacity Policy \"Prohibit More Than Max. Cap.\" fails and allows more than the maximum Capacity, when you split lines on Inventory Movement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed bin capacity enforcement in non-directed warehouses so that registering partial inventory movements now correctly prevents bins from exceeding maximum capacity limits.",
+  "key_points": [
+    "Bin Capacity Policy 'Prohibit More Than Max. Cap.' was incorrectly allowing overflow when splitting inventory movement lines in basic warehouses",
+    "Root cause: cubage and weight calculations were only performed for directed locations, leaving zero values in basic warehouse entries",
+    "Solution adds cubage/weight calculation via WMSMgt.CalcCubageAndWeight for non-directed warehouse movements",
+    "Warehouse entries now properly carry cubage data so capacity checks can validate against maximum limits",
+    "Includes test coverage for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003967,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2314",
+  "number": 2314,
+  "title": "Retry current-build dependency artifact download up to 3 times",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The Download Project Dependencies action now retries failed artifact downloads up to 3 times with 30-second delays between attempts to handle transient network errors from GitHub's Actions Results service.",
+  "key_points": [
+    "Failed downloads trigger automatic retries instead of immediate failure",
+    "3 sequential attempts with 30-second waits between failures",
+    "Only the final attempt can fail the job; earlier attempts continue on error",
+    "Addresses intermittent ETIMEDOUT errors in the dependency download step",
+    "Happy path adds no time overhead since successful downloads skip remaining attempts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003581,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2314,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2314",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-10T22:15:43Z",
+  "merge_commit_sha": "93bb8356940f97cef1ffc71323f5d2a3e32708c4",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Retry current-build dependency artifact download up to 3 times",
+  "body_hash": "d7437f0d1121755a11de3b50ac5ab393a6655148e635890a8f25dfcdc5a8976c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/DownloadProjectDependencies/action.yaml",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 38,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/DownloadProjectDependencies/action.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

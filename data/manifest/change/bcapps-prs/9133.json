@@ -6,10 +6,35 @@
   "title": "[Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry",
   "url": "https://github.com/microsoft/BCApps/pull/9133",
   "published_at": "2026-07-10T15:17:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:10.995Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:17.451Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003822
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:17.685Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:17.690Z",
+      "path": "content/changes/bcapps/9133.md"
     }
   },
   "input_hash": "849aef14d2f0c3a265ae2c552a53072f6ec3ec90:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master project consumption partial invoicing of non inventory items posts negative adjustment value entry to wrong item ledger entry"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78aeac086469c8a9753daf1bb3a5ee63e16da21293ae25a12ddacc2190f50324"
 }

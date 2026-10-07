@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9071",
+  "number": 9071,
+  "title": "Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixes an issue in the General Journal posting logic that caused incorrect G/L entry inconsistencies across multiple localization layers by correcting the source currency handling in transactions.",
+  "key_points": [
+    "Corrects source currency validation in Gen. Jnl.-Post Line codeunit",
+    "Updates localization layers (APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, W1) consistently",
+    "Adds test coverage for source currency scenarios in multiple localization test suites",
+    "Prevents transaction failures related to G/L entry table consistency",
+    "Addresses bug AB#638132"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004304,
+    "changes_in_call": 1
+  }
+}

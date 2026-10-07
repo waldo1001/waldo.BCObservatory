@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9313",
+  "number": 9313,
+  "title": "[Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify variant sync now correctly distinguishes between variants that have stale local timestamps (should be kept) and variants deleted on Shopify (should be removed), preventing incorrect deletion of mapped variants during asynchronous bulk operations.",
+  "key_points": [
+    "RetrieveShopifyVariant now returns true when the Shopify variant exists regardless of timestamp comparison, and false only when the variant is genuinely absent",
+    "UpdateShopifyVariantFields no longer returns a Boolean since the timestamp guard skip is no longer interpreted as a deletion signal",
+    "Fixed a logic conflict where skipping a field update due to a stale local timestamp was incorrectly treated as evidence the variant was deleted on Shopify",
+    "Added comprehensive unit tests using HttpClientHandler mocking to verify correct behavior for both stale timestamps and actual deletions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004137,
+    "changes_in_call": 1
+  }
+}

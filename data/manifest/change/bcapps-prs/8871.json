@@ -6,10 +6,18 @@
   "title": "Issue#7867: Removed the access restriction for procedures in the confirmation window.",
   "url": "https://github.com/microsoft/BCApps/pull/8871",
   "published_at": "2026-07-10T14:13:36Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:12.028Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "aba239d59ca9bb80032970a9851cef6d0ee485c8:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "issue 7867 removed the access restriction for procedures in the confirmation window"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7357dda64c66312c1d96105cc6807e86e00d37bcfc31dff764f3537c7d223448"
 }

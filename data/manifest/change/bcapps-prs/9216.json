@@ -6,7 +6,7 @@
   "title": "Removing the allowed environment types from published apps",
   "url": "https://github.com/microsoft/BCApps/pull/9216",
   "published_at": "2026-07-10T12:57:31Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "removing the allowed environment types from published apps"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:13.667Z",
+  "retry_after": null
 }

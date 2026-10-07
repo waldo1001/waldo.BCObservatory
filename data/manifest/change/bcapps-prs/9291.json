@@ -6,10 +6,18 @@
   "title": "Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures",
   "url": "https://github.com/microsoft/BCApps/pull/9291",
   "published_at": "2026-07-10T13:04:57Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:13.842Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "b52c0c13e7557a808db140f68ec0dce12680dd78:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "add nondebuggable to cryptography management encrypt decrypt procedures"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a591149952d8c6993e1707b56d4be1dc33113dd16c39c6062eb16525b98fdfac"
 }

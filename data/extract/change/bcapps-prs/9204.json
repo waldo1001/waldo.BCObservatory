@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9204",
+  "number": 9204,
+  "title": "[Master]-Vendor Order No. exceeds 20-character limit causing error in Intercompany Purchase Invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Vendor Order No. field is extended beyond 20-character limit to prevent errors in Intercompany Purchase Invoice operations across all regional versions.",
+  "key_points": [
+    "Increased vendor order number field length beyond 20 characters",
+    "Fixes intercompany purchase invoice errors caused by truncated vendor order numbers",
+    "Changes applied consistently across all localization layers (W1, BE, CH, ES, FI, IT, NA, NL, NO, RU, APAC)",
+    "Test cases updated to validate the extended field length",
+    "Affects Purchase Invoice page and intercompany testing logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Vendor Order No. exceeds 20-character limit causing error in Intercompany Purchase Invoice",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003815,
+    "changes_in_call": 1
+  }
+}

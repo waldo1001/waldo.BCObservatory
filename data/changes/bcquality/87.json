@@ -1,0 +1,212 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 87,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/87",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-13T08:34:23Z",
+  "merge_commit_sha": "34c931e1c1a3b90e814a567dadd316aafb321d83",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix knowledge corpus integrity issues",
+  "body_hash": "0bcdc483490f54c041c7d0535859e91cb042759ee53c3f45fea27488c8d5a005",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/workflows/flag-new-top-level.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": "community/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement.md",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/abouttitle-abouttext-teaching-tips.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/this-keyword-in-codeunits.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/set-selection-filter-list-scope.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-performance-review.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-privacy-review.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-security-review.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-ui-review.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-upgrade-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/read.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 58,
+    "deletions": 65,
+    "al": 14
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/abouttitle-abouttext-teaching-tips.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/this-keyword-in-codeunits.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/set-selection-filter-list-scope.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-performance-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-privacy-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-security-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-ui-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-upgrade-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/read.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "[Master]-Production Order - WIP shows incorrect consumption amount.",
   "url": "https://github.com/microsoft/BCApps/pull/9062",
   "published_at": "2026-07-10T15:59:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:08.116Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:12.477Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003043
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:12.667Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:12.672Z",
+      "path": "content/changes/bcapps/9062.md"
     }
   },
   "input_hash": "67a822d2b81477a2cd681a33170c9dfc7d2140fa:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master production order wip shows incorrect consumption amount"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b748280858b18b8517d229ea3f4ebdda2340196e91e94d174d5173d7b69a06f"
 }

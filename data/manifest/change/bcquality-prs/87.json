@@ -6,10 +6,35 @@
   "title": "Fix knowledge corpus integrity issues",
   "url": "https://github.com/microsoft/BCQuality/pull/87",
   "published_at": "2026-07-13T08:34:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:04.306Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 14,
+      "objects": 0,
+      "unjoined": 14
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:09.260Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00376
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:09.261Z",
+      "objects": 0,
+      "unjoined": 14,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:20:09.268Z",
+      "path": "content/changes/bcquality/87.md"
     }
   },
   "input_hash": "34c931e1c1a3b90e814a567dadd316aafb321d83:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix knowledge corpus integrity issues"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "48c50cdc1200b77fc4679d3dfaf6f4948728f99039712a71632741009a3b5a6e"
 }

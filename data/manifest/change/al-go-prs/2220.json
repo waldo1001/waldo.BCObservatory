@@ -6,7 +6,7 @@
   "title": "Docs: clarify that versioningStrategy 0 uses the workflow run number",
   "url": "https://github.com/microsoft/AL-Go/pull/2220",
   "published_at": "2026-07-13T12:12:02Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "docs clarify that versioningstrategy 0 uses the workflow run number"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:19:59.905Z",
+  "retry_after": null
 }

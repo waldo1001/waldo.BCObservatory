@@ -1,0 +1,289 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 65,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/65",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-13T08:35:32Z",
+  "merge_commit_sha": "766046b85deff8f3e94d6364c573b4df99a9c8a4",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add data-modeling and appsource knowledge articles (MICROSOFT layer)",
+  "body_hash": "dc2bc12cdec8f9a15d326ab374d52773d669a1b5eee939d6a925f6d0e5a15a76",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.bad.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.good.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.bad.al",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.good.al",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.bad.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.good.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.bad.al",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.good.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.bad.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.good.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.bad.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.good.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.bad.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.good.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 21,
+    "additions": 885,
+    "deletions": 0,
+    "al": 21
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/check-blocked-in-referencing-code-not-in-master.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/use-no-series-codeunit-not-noseriesmanagement.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

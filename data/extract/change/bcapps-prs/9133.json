@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9133",
+  "number": 9133,
+  "title": "[Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixed posting of negative adjustment value entries for partially invoiced non-inventory items in project consumption, which were incorrectly linked to the wrong item ledger entry.",
+  "key_points": [
+    "Corrects incorrect item ledger entry association when posting adjustments for partially invoiced project consumption items",
+    "Affects purchase order posting logic across all localized versions",
+    "Includes new test cases to verify proper adjustment value entry posting",
+    "Resolves issue with non-inventory item handling in project scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003822,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9316",
+  "number": 9316,
+  "title": "[Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed a Shopify Connector bug where manually set Sell-to Customer No. was overwritten when Bill-to Customer No. failed to map, and added fallback logic to derive Bill-to from Sell-to when unmapped.",
+  "key_points": [
+    "Prevent re-mapping Sell-to Customer No. when user manually set it",
+    "Add fallback to derive Bill-to Customer No. from Sell-to when Bill-to remains blank",
+    "Preserve user selections when customer mapping is incomplete",
+    "Non-B2B order imports remain unaffected",
+    "Test added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004026,
+    "changes_in_call": 1
+  }
+}

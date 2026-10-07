@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9305,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9305",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T09:26:19Z",
+  "merge_commit_sha": "f893df5df0be2f0c9beb3658c37ff569385bf5b9",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix unhandled duplicate-contact confirm in customer creation tests",
+  "body_hash": "02fb4d28cdad1cf82f58ad99a91d464a664b86069b5e36691569792fb91e1cb0",
+  "fixes_issues": [],
+  "work_items": [
+    641993
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 13,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

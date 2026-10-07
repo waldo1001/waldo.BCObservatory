@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9216,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9216",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T12:57:31Z",
+  "merge_commit_sha": "6f6a1ca32bd129d9ea2f0381a922177b0a5586a9",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs"
+  ],
+  "community_contribution": false,
+  "title": "Removing the allowed environment types from published apps",
+  "body_hash": "9f8b8f4308c9c7ca9b9a522f14698a9cad3aa8adf115ff7a040758cff14f57d7",
+  "fixes_issues": [],
+  "work_items": [
+    640801
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 16,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9062",
+  "number": 9062,
+  "title": "[Master]-Production Order - WIP shows incorrect consumption amount.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Inventory Valuation - WIP report now correctly displays consumption amounts for production orders by fixing a calculation issue.",
+  "key_points": [
+    "Fixed incorrect consumption amount calculation in the WIP report",
+    "Affects both base application and Czech localization versions",
+    "Added test case to verify the correction",
+    "Production order financial reporting is now more accurate"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "Production Order - WIP shows incorrect consumption amount.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003043,
+    "changes_in_call": 1
+  }
+}

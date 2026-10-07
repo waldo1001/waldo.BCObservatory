@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9318",
+  "number": 9318,
+  "title": "[Shopify] Fix Get Catalogs tooltip to explain company dependency",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Get Catalogs action on the Shopify Catalogs page now displays a clearer tooltip explaining that it only retrieves B2B catalogs for companies already imported into Business Central.",
+  "key_points": [
+    "Tooltip updated to clarify the Get Catalogs action's behavior",
+    "Users learn that the action depends on having synced companies",
+    "No catalogs are returned if no companies have been imported",
+    "Shopify integration provides better guidance to users",
+    "Minor text change to improve user experience"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003122,
+    "changes_in_call": 1
+  }
+}

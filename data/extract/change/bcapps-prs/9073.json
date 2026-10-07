@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9073",
+  "number": 9073,
+  "title": "Data Exchange Definition export performance improvement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Data Exchange Definition exports now use in-memory mapping with bulk saves and reuse FlowField calculations to significantly improve performance on large record sets, with no change to output format.",
+  "key_points": [
+    "Eliminates per-row database writes by building field values in memory first, then transferring to the persisted table in one bulk pass",
+    "Reuses pre-aggregated FlowField values from the grouping buffer instead of recalculating per line",
+    "Throttles progress dialog updates based on row count to reduce UI overhead on large exports"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Eliminate per-row database writes and redundant work during export.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003705,
+    "changes_in_call": 1
+  }
+}

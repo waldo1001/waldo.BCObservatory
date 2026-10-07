@@ -6,10 +6,35 @@
   "title": "[Shopify] Add Companies to Shopify navigation menu",
   "url": "https://github.com/microsoft/BCApps/pull/9317",
   "published_at": "2026-07-13T10:44:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:01.948Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:06.791Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00355
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:06.967Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:06.973Z",
+      "path": "content/changes/bcapps/9317.md"
     }
   },
   "input_hash": "f7f34ab8b52abac48c1ec844fc7676c101bad4b9:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify add companies to shopify navigation menu"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5115c8d12c2c49954350b5c9ead1df7518d962d627de6990c619558a0cbc456"
 }
