@@ -2,7 +2,7 @@
 id: video/fgWFOMPJd6U
 type: video
 title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
-summary: "Summarize with Copilot in Business Central: how the multi-prompt pipeline finds and ranks insights from page, related-page and fact box data, how role is used as user context, how the team tests AI features, and what developers can do for custom entities. Covers model choices (GPT-4o mini) and planned work."
+summary: How Summarize with Copilot in Business Central works. A multi-prompt pipeline finds, scores and summarizes insights from page fields, related statistics pages and fact boxes, using the user's role as context. The video also covers how the team tests AI features (harm, grounding, functional checks), the migration of the summarization prompts to GPT-4.1 mini, and how AL developers can improve summaries with metadata, fact boxes and tooltips.
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - grounding
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:16.435Z"
   flags: []
 generated:
-  at: "2026-10-06T18:24:20.970Z"
+  at: "2026-10-07T22:52:16.488Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,12 @@ generated:
   input_hash: cfaa1e67330f826474a92e78cc3014deacc03295c354817497b808e8c3c411ab
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=827s
+    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s
     title: "External Data Integration for Summarization: announced"
     date: "2025-10-16T14:01:04.000Z"
     commit: null
-    t: 827
-    quote: Right now all the sources that I mentioned are coming from the business central database itself but we could easily think of uh you
+    t: 814
+    quote: in future we do have plans of increasing both the tracks the user context track but also the data context
   - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=103s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
@@ -61,13 +61,6 @@ evidence:
     t: 232
     quote: The way we build summarization, it's pretty much a three-step process.
   - kind: video
-    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=372s
-    title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
-    date: "2025-10-16T14:01:04.000Z"
-    commit: null
-    t: 372
-    quote: a pipeline of i just did a major category of two but like the first prompt in itself uh we do run it
-  - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=476s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
     date: "2025-10-16T14:01:04.000Z"
@@ -87,21 +80,14 @@ evidence:
     date: "2025-10-16T14:01:04.000Z"
     commit: null
     t: 814
-    quote: Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of
+    quote: in future we do have plans of increasing both the tracks the user context track but also the data context.
   - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=857s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
     date: "2025-10-16T14:01:04.000Z"
     commit: null
     t: 857
-    quote: There's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.
-  - kind: video
-    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=857s
-    title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
-    date: "2025-10-16T14:01:04.000Z"
-    commit: null
-    t: 857
-    quote: So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show
+    quote: there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.
   - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=974s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
@@ -124,6 +110,13 @@ evidence:
     t: 1287
     quote: So we came up with some tremendous large test data set containing multiple roles and multiple scenarios with different entities. uh some for example
   - kind: video
+    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1519s
+    title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
+    date: "2025-10-16T14:01:04.000Z"
+    commit: null
+    t: 1519
+    quote: And now uh we have migrated all of them to 41 mini.
+  - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1556s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
     date: "2025-10-16T14:01:04.000Z"
@@ -143,14 +136,7 @@ evidence:
     date: "2025-10-16T14:01:04.000Z"
     commit: null
     t: 1627
-    quote: definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your
-  - kind: video
-    url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1627s
-    title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
-    date: "2025-10-16T14:01:04.000Z"
-    commit: null
-    t: 1627
-    quote: start with the one that meets the closest with your need of the feature and then yes still even if the you believe this
+    quote: do try it with other models do and that's why have a good set of test so you could easily switch between models
   - kind: video
     url: https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1647s
     title: "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot"
@@ -297,21 +283,6 @@ features:
     t: 1396
     verified: false
     status_source: video
-  - name: GPT-4o model usage for ground checks
-    status: unclear
-    t: 1499
-    verified: false
-    status_source: video
-  - name: GPT-4o mini model adoption
-    status: unclear
-    t: 1519
-    verified: false
-    status_source: video
-  - name: Model reasoning and selection strategy
-    status: unclear
-    t: 1556
-    verified: false
-    status_source: video
   - name: Small language model advantages and trade-offs
     status: unclear
     t: 1647
@@ -343,9 +314,6 @@ quotes:
   - t: 232
     text: The way we build summarization, it's pretty much a three-step process.
     check: exact
-  - t: 372
-    text: a pipeline of i just did a major category of two but like the first prompt in itself uh we do run it
-    check: fuzzy
   - t: 476
     text: we filter out only the pages that are named statistics because that's where the aggregated data exist and that's very good for summarization
     check: fuzzy
@@ -353,13 +321,10 @@ quotes:
     text: So we started with sending pretty much uh all the ledger entries and all and we soon realized uh it's not very performant cuz
     check: exact
   - t: 814
-    text: Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of
+    text: in future we do have plans of increasing both the tracks the user context track but also the data context.
     check: exact
   - t: 857
-    text: There's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.
-    check: exact
-  - t: 857
-    text: So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show
+    text: there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.
     check: exact
   - t: 974
     text: what I learned more is that tests are super super important especially because you change one line of prompt and the response could be
@@ -370,6 +335,9 @@ quotes:
   - t: 1287
     text: So we came up with some tremendous large test data set containing multiple roles and multiple scenarios with different entities. uh some for example
     check: exact
+  - t: 1519
+    text: And now uh we have migrated all of them to 41 mini.
+    check: exact
   - t: 1556
     text: Uh it depends on the need of the feature, right? Definitely. uh for for summarization specifically um we believe that 41 mini is enough
     check: exact
@@ -377,10 +345,7 @@ quotes:
     text: Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they
     check: exact
   - t: 1627
-    text: definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your
-    check: exact
-  - t: 1627
-    text: start with the one that meets the closest with your need of the feature and then yes still even if the you believe this
+    text: do try it with other models do and that's why have a good set of test so you could easily switch between models
     check: exact
   - t: 1647
     text: Another advantage of small language or small language mod is that they're also cheaper, right? Definitely. Yes. But you need to maintain them yourself.
@@ -401,9 +366,9 @@ quotes:
 
 # Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot
 
-> Summarize with Copilot in Business Central: how the multi-prompt pipeline finds and ranks insights from page, related-page and fact box data, how role is used as user context, how the team tests AI features, and what developers can do for custom entities. Covers model choices (GPT-4o mini) and planned work.
+> How Summarize with Copilot in Business Central works. A multi-prompt pipeline finds, scores and summarizes insights from page fields, related statistics pages and fact boxes, using the user's role as context. The video also covers how the team tests AI features (harm, grounding, functional checks), the migration of the summarization prompts to GPT-4.1 mini, and how AL developers can improve summaries with metadata, fact boxes and tooltips.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fgWFOMPJd6U) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-16 · 30:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fgWFOMPJd6U) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-16 · 30:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -413,13 +378,13 @@ The second half covers engineering practice: testing AI with AI, grounding and h
 
 ## Key points
 
-- Summarize with Copilot is available on single entity pages (card, document, list pages) and works with custom partner-created pages.
-- The pipeline has a find insights prompt (current page, related pages and fact boxes, run in parallel) followed by a summarize prompt that selects top insights and formats them.
-- Related pages are filtered to those named as statistics pages, because aggregated data performed better than sending raw ledger entries.
-- Role is the current user context signal used to prioritize insights; user intent from navigation patterns is planned and still being designed.
-- Insights must reference source data IDs via function calling, which supports grounding; testing also covers harm checks and functional checks with large role and scenario datasets.
-- Summarization uses GPT-4o mini; the scoring prompt might suit models with better reasoning, and the team is still experimenting.
-- Developers cannot yet add data sources or override summary text from AL; they can improve results with metadata, fact boxes, and clear captions and tooltips.
+- Summarize with Copilot is available on any single entity page (card, document, ListPlus), including custom partner pages, and appears in a summary fact box at the top of the fact box pane.
+- The pipeline has a find insights prompt (current page fields, related pages and fact boxes, run in parallel) followed by a summarize prompt that selects the top-scored insights and formats them in markdown.
+- Related pages are actions on the current page that lead to pages named statistics. Aggregated data performed better than sending raw ledger entries.
+- Role is the current user context signal used to prioritize insights. Inferring user intent from navigation patterns and frequently used pages is planned, as are more data sources.
+- Insights must reference source data IDs via function calling, which supports grounding. Testing also covers harm checks and functional checks with large role and scenario datasets, plus metrics like brevity and precision.
+- Summarization prompts moved from 4o and 4o mini to 4.1 mini for speed. The scoring prompt might benefit from reasoning models such as o1, and the team is still experimenting.
+- Developers cannot yet add data sources or override summary text from AL (work in progress). They can improve results with metadata, extra fact boxes, actions to statistics pages, and clear captions and tooltips.
 
 ## Chapters
 
@@ -450,15 +415,12 @@ The second half covers engineering practice: testing AI with AI, grounding and h
 | Statistics Page Integration for Summarization | status not stated | [7:31](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=451s) |  |
 | User Role-Based Filtering for Insights | status not stated | [4:48](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=288s) |  |
 | User Intent Detection for Future Summarization | status not stated | [12:03](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=723s) |  |
-| External Data Integration for Summarization | announced | [13:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s) | "Right now all the sources that I mentioned are coming from the business central database itself but we could easily think of uh you" ([13:47](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=827s)) |
+| External Data Integration for Summarization | announced | [13:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s) | "in future we do have plans of increasing both the tracks the user context track but also the data context" ([13:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s)) |
 | Harm testing for AI responses | status not stated | [17:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1054s) |  |
 | Accuracy and grounding testing | status not stated | [18:59](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1139s) |  |
 | Functional testing for summarization | status not stated | [20:39](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1239s) |  |
 | Summary quality metrics | status not stated | [22:04](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1324s) |  |
 | Experimentation framework for AI features | status not stated | [23:16](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1396s) |  |
-| GPT-4o model usage for ground checks | status not stated | [24:59](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1499s) |  |
-| GPT-4o mini model adoption | status not stated | [25:19](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1519s) |  |
-| Model reasoning and selection strategy | status not stated | [25:56](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1556s) |  |
 | Small language model advantages and trade-offs | status not stated | [27:27](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1647s) |  |
 | Summarization with multiple model support | status not stated | [26:16](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1576s) |  |
 | Summarization with custom entities | status not stated | [28:04](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1684s) |  |
@@ -469,19 +431,17 @@ The second half covers engineering practice: testing AI with AI, grounding and h
 - [1:43](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=103s) "So summarizing with copilot highlights what's most important and urgent for the user on almost every business central page."
 - [2:32](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=152s) "So summarization with copilot is available on any business central uh single entity pages like card documents or list plus."
 - [3:52](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=232s) "The way we build summarization, it's pretty much a three-step process."
-- [6:12](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=372s) "a pipeline of i just did a major category of two but like the first prompt in itself uh we do run it"
 - [7:56](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=476s) "we filter out only the pages that are named statistics because that's where the aggregated data exist and that's very good for summarization"
 - [8:51](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=531s) "So we started with sending pretty much uh all the ledger entries and all and we soon realized uh it's not very performant cuz"
-- [13:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s) "Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of"
-- [14:17](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=857s) "There's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more."
-- [14:17](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=857s) "So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show"
+- [13:34](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=814s) "in future we do have plans of increasing both the tracks the user context track but also the data context."
+- [14:17](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=857s) "there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more."
 - [16:14](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=974s) "what I learned more is that tests are super super important especially because you change one line of prompt and the response could be"
 - [18:49](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1129s) "Uh definitely one of the new things about uh testing with AI features is that you use AI to test AI features."
 - [21:27](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1287s) "So we came up with some tremendous large test data set containing multiple roles and multiple scenarios with different entities. uh some for example"
+- [25:19](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1519s) "And now uh we have migrated all of them to 41 mini."
 - [25:56](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1556s) "Uh it depends on the need of the feature, right? Definitely. uh for for summarization specifically um we believe that 41 mini is enough"
 - [26:30](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1590s) "Some of the prompts, for example, the scoring part could be probably better done with uh other models than 41 mini uh because they"
-- [27:07](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1627s) "definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your"
-- [27:07](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1627s) "start with the one that meets the closest with your need of the feature and then yes still even if the you believe this"
+- [27:07](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1627s) "do try it with other models do and that's why have a good set of test so you could easily switch between models"
 - [27:27](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1647s) "Another advantage of small language or small language mod is that they're also cheaper, right? Definitely. Yes. But you need to maintain them yourself."
 - [28:04](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1684s) "so the as i said summarization works ex out of the box with custom entities"
 - [28:17](https://www.youtube.com/watch?v=fgWFOMPJd6U&t=1697s) "Right now it is not directly extensible from AL in the sense that uh they they cannot provide for example more data sources or"

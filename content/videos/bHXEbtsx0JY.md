@@ -17,12 +17,12 @@ tags:
   - verification
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:52.507Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:52.545Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,7 +170,7 @@ quotes:
 
 > Sustainability Copilot in Business Central (2025 release wave 2): a new Calculate CO2 action in the Sustainability Journal uses Copilot to find emission factors from uploaded Excel files or public sources and calculate emissions, even with incomplete data. Demoed with the Emission Source Setup page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bHXEbtsx0JY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=bHXEbtsx0JY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -199,15 +199,15 @@ Demos show the Emission Source Setup page, where Excel files are uploaded per co
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Calculate CO2 in Sustainability Journal | status not stated, demoed | [4:21](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=261s) |  |
-| Emission Factor Lookup from Multiple Sources | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=103s) |  |
-| Emission Source Setup Page | status not stated, demoed | [2:22](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=142s) |  |
-| Date-based Emission Factor Versioning | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=225s) |  |
-| Calculation Explanation Details | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=334s) |  |
-| Keep Emission Factor Results | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=404s) |  |
-| Calculate Emissions Without Complete Data | status not stated | [0:18](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=18s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Calculate CO2 in Sustainability Journal | status not stated, demoed | [4:21](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=261s) |
+| Emission Factor Lookup from Multiple Sources | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=103s) |
+| Emission Source Setup Page | status not stated, demoed | [2:22](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=142s) |
+| Date-based Emission Factor Versioning | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=225s) |
+| Calculation Explanation Details | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=334s) |
+| Keep Emission Factor Results | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=404s) |
+| Calculate Emissions Without Complete Data | status not stated | [0:18](https://www.youtube.com/watch?v=bHXEbtsx0JY&t=18s) |
 
 ## AL objects mentioned
 

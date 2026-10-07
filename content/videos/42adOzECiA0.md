@@ -15,12 +15,12 @@ tags:
   - risk reduction
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:32.933Z"
   flags: []
 generated:
-  at: "2026-10-06T18:23:10.254Z"
+  at: "2026-10-07T22:52:32.966Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,7 +169,7 @@ quotes:
 
 > Upgrading a sandbox to the preview version (27.0) of the 2025 release wave 2 in the Business Central admin center. It covers copying production data into a sandbox, selecting the preview target version, scheduling the update, and how failed updates and the end of the preview period are handled.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=42adOzECiA0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 3:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=42adOzECiA0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 3:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -198,14 +198,14 @@ The video also explains how the preview period works. Failed updates are resched
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copy Production Data to Sandbox and Upgrade to Preview | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=42adOzECiA0&t=26s) |  |
-| Preview Version Selection in Admin Center | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=42adOzECiA0&t=62s) |  |
-| Scheduled Update Dates | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=42adOzECiA0&t=96s) |  |
-| Preview Terms and Learn More Links | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=42adOzECiA0&t=96s) |  |
-| Automatic Rescheduling of Failed Updates | status not stated | [2:04](https://www.youtube.com/watch?v=42adOzECiA0&t=124s) |  |
-| Automatic Update to Official Version After Preview | status not stated | [2:16](https://www.youtube.com/watch?v=42adOzECiA0&t=136s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copy Production Data to Sandbox and Upgrade to Preview | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=42adOzECiA0&t=26s) |
+| Preview Version Selection in Admin Center | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=42adOzECiA0&t=62s) |
+| Scheduled Update Dates | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=42adOzECiA0&t=96s) |
+| Preview Terms and Learn More Links | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=42adOzECiA0&t=96s) |
+| Automatic Rescheduling of Failed Updates | status not stated | [2:04](https://www.youtube.com/watch?v=42adOzECiA0&t=124s) |
+| Automatic Update to Official Version After Preview | status not stated | [2:16](https://www.youtube.com/watch?v=42adOzECiA0&t=136s) |
 
 ## Quotes
 

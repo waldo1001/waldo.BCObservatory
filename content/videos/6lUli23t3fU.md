@@ -16,12 +16,12 @@ tags:
   - reporting analytics
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:40.057Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:40.112Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,7 +159,7 @@ quotes:
 
 > Power BI updates for Business Central inventory and projects in 2025 release wave 2: a new Inventory Forecasting report using statistical machine learning with seasonality settings, and an open source Project Power BI app with more focus on project profitability, shown with demos of sales by type and by customer.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6lUli23t3fU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 10:52 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6lUli23t3fU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 10:52 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,15 +188,15 @@ For projects, the Project Power BI app is now open source and can be customized.
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Inventory Forecasting Report | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=17s) |  |
-| Seasonality Control in Forecasting | status not stated, demoed | [4:41](https://www.youtube.com/watch?v=6lUli23t3fU&t=281s) |  |
-| Project Power BI App Open Source | status not stated | [1:03](https://www.youtube.com/watch?v=6lUli23t3fU&t=63s) |  |
-| Project Profitability Analysis | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=77s) |  |
-| Project Invoice Sales by Type | status not stated, demoed | [6:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=377s) |  |
-| Project Invoice Sales by Customer | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=6lUli23t3fU&t=442s) |  |
-| Project and Inventory Analytics Landing Pages | status not stated | [8:19](https://www.youtube.com/watch?v=6lUli23t3fU&t=499s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Inventory Forecasting Report | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=17s) |
+| Seasonality Control in Forecasting | status not stated, demoed | [4:41](https://www.youtube.com/watch?v=6lUli23t3fU&t=281s) |
+| Project Power BI App Open Source | status not stated | [1:03](https://www.youtube.com/watch?v=6lUli23t3fU&t=63s) |
+| Project Profitability Analysis | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=77s) |
+| Project Invoice Sales by Type | status not stated, demoed | [6:17](https://www.youtube.com/watch?v=6lUli23t3fU&t=377s) |
+| Project Invoice Sales by Customer | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=6lUli23t3fU&t=442s) |
+| Project and Inventory Analytics Landing Pages | status not stated | [8:19](https://www.youtube.com/watch?v=6lUli23t3fU&t=499s) |
 
 ## AL objects mentioned
 

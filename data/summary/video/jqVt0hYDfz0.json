@@ -6,11 +6,11 @@
   "key_points": [
     "Analysis tabs built in the web client can be exported with Share and Export definition, which gives a JSON file.",
     "In AL, a page extension adds the analysis view through a definition_file property pointing to the JSON file.",
+    "Caption and tooltip properties in AL override the view's name and description, and visibility can be set from AL code.",
     "The export-to-extension capability and the definition property are announced for the next release.",
     "Analysis views from extensions show a lock icon and are read-only: they cannot be filtered, sorted or grouped.",
     "Users can duplicate a read-only view to get an editable copy with full filtering and pivoting.",
-    "Views can be hidden from a menu option, and shown or hidden again in personalization mode.",
-    "Page customizations with analysis views can be assigned to profiles or profile extensions, and views can carry descriptions."
+    "Views can be hidden from a menu option, and shown or hidden again in personalization mode."
   ],
   "audience": [
     "developer",

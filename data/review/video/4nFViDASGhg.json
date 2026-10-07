@@ -1,0 +1,28 @@
+{
+  "video_id": "4nFViDASGhg",
+  "item_id": "video/yt-microsoft/4nFViDASGhg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All quotes are verbatim, and the ones that cross segment boundaries are valid.",
+    "The summary and key points said the agent creates sales orders 'without a quote'. In the demo (1110.3) the agent still created the sales quote and converted it to an order. Unchecking the quote review only removes that review step. This applies to registered senders when the items are available (1026). The summary and key point are corrected.",
+    "The description of the 'Autonomous sales order creation' feature has the same inaccuracy ('skipping quote creation'). The edit fields cannot change descriptions, so this is noted here.",
+    "Feature statuses stay unclear. The only status wording is the general 'now available' (36.7), which does not say whether the features are in preview or GA.",
+    "Item availability checking with filters is shown as an existing page used in the demo, not presented as a new feature. Its description is still supported."
+  ],
+  "input_hash": "6a67aa844958ee64e58e9eace5906fdd0521094e5d122d66f09c6c44f8cba6f8",
+  "by": "opus",
+  "at": "2026-10-07T22:52:52.639Z",
+  "applied": [
+    "quote at 1110s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.135737
+  }
+}

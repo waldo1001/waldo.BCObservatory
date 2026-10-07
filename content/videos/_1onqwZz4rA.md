@@ -2,7 +2,7 @@
 id: video/_1onqwZz4rA
 type: video
 title: "What's New: Demo Data for Analytics (2025 release wave 2)"
-summary: Business Central 2025 release wave 2 adds an analytics demo data package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It is optional and must be selected when creating a company.
+summary: Business Central 2025 release wave 2 adds an optional 'analytics' package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It can be installed from the tool or is included when all demo data is chosen for a new company.
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - documentation
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:39.252Z"
   flags: []
 generated:
-  at: "2026-10-06T18:22:51.597Z"
+  at: "2026-10-07T22:52:39.294Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,6 +59,13 @@ evidence:
     t: 115
     quote: Um so for sales quotes, before or without this package, you you had two sales quotes. Now you have 18 for blanket sales orders.
   - kind: video
+    url: https://www.youtube.com/watch?v=_1onqwZz4rA&t=125s
+    title: "What's New: Demo Data for Analytics (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 125
+    quote: You have like 80 invoices posted more than what you used to have. Um for return orders you actually now have demo data.
+  - kind: video
     url: https://www.youtube.com/watch?v=_1onqwZz4rA&t=217s
     title: "What's New: Demo Data for Analytics (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
@@ -72,13 +79,6 @@ evidence:
     commit: null
     t: 245
     quote: Also um you don't have to install analytics and therefore it doesn't necessarily have to completely tie into the to the kind of the
-  - kind: video
-    url: https://www.youtube.com/watch?v=_1onqwZz4rA&t=304s
-    title: "What's New: Demo Data for Analytics (2025 release wave 2)"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 304
-    quote: Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the
 links:
   learn: []
   objects: []
@@ -154,22 +154,22 @@ quotes:
   - t: 115
     text: Um so for sales quotes, before or without this package, you you had two sales quotes. Now you have 18 for blanket sales orders.
     check: exact
+  - t: 125
+    text: You have like 80 invoices posted more than what you used to have. Um for return orders you actually now have demo data.
+    check: exact
   - t: 217
     text: There's a one small difference between the demo data for analytics and the like the normal transactional demo data is that we can be
     check: exact
   - t: 245
     text: Also um you don't have to install analytics and therefore it doesn't necessarily have to completely tie into the to the kind of the
     check: exact
-  - t: 304
-    text: Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the
-    check: exact
 ---
 
 # What's New: Demo Data for Analytics (2025 release wave 2)
 
-> Business Central 2025 release wave 2 adds an analytics demo data package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It is optional and must be selected when creating a company.
+> Business Central 2025 release wave 2 adds an optional 'analytics' package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It can be installed from the tool or is included when all demo data is chosen for a new company.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_1onqwZz4rA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_1onqwZz4rA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -179,13 +179,13 @@ It also explains how to get the data: select the package called "analytics", or 
 
 ## Key points
 
-- The analytics demo data is a package in the Contoso demo data tool, named 'analytics'.
-- It is also included automatically when a new company is created with all demo data selected.
-- It is optional and must be selected explicitly when installing a new company.
-- Sales quotes go from 2 to 18 records; 4 new blanket sales orders; return orders are newly available; posted sales invoices increase from 80.
-- Purchase orders and posted purchase orders double from 14 to 29 records.
+- The analytics demo data is a package in the Contoso demo data tool, named 'analytics', and can be installed from the tool itself.
+- It is also included when a new company is created with all demo data selected.
+- It is not part of the core setup: a new company with only the chart of accounts does not get this document demo data unless analytics is enabled.
+- Sales quotes go from 2 to 18; blanket sales orders go from none to 4; about 80 more posted sales invoices; return orders now have demo data.
+- Purchase orders double from 14 to 29; posted purchase orders also get new demo data.
 - The data varies across time, categories and salespeople, and does not have to tie completely into the core demo data.
-- The demo data tool is open source (Contoso Coffee), and the presenter says investment will continue next release wave with more entity types and more variation.
+- The demo data tool (Contoso Coffee) is open source and accepts contributions; the presenter says investment will continue next release wave with more entity types and more variation.
 
 ## Chapters
 
@@ -212,9 +212,9 @@ It also explains how to get the data: select the package called "analytics", or 
 - [0:32](https://www.youtube.com/watch?v=_1onqwZz4rA&t=32s) "to make it easier to demo reporting and analytics so that means there are types of demo data that is needed for"
 - [1:14](https://www.youtube.com/watch?v=_1onqwZz4rA&t=74s) "So what we have done in this release wave is adding new or new demo data for sales and for purchasing. So quotes, blankets,"
 - [1:55](https://www.youtube.com/watch?v=_1onqwZz4rA&t=115s) "Um so for sales quotes, before or without this package, you you had two sales quotes. Now you have 18 for blanket sales orders."
+- [2:05](https://www.youtube.com/watch?v=_1onqwZz4rA&t=125s) "You have like 80 invoices posted more than what you used to have. Um for return orders you actually now have demo data."
 - [3:37](https://www.youtube.com/watch?v=_1onqwZz4rA&t=217s) "There's a one small difference between the demo data for analytics and the like the normal transactional demo data is that we can be"
 - [4:05](https://www.youtube.com/watch?v=_1onqwZz4rA&t=245s) "Also um you don't have to install analytics and therefore it doesn't necessarily have to completely tie into the to the kind of the"
-- [5:04](https://www.youtube.com/watch?v=_1onqwZz4rA&t=304s) "Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the"
 
 ## Disclaimers in the video
 

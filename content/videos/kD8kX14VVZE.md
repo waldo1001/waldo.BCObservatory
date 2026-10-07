@@ -16,12 +16,12 @@ tags:
   - european union regulations
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:21.603Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:21.641Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 595
     quote: it doesn't apply to all item types. If this is packaging or electronics, so it depends what is about
+  - kind: video
+    url: https://www.youtube.com/watch?v=kD8kX14VVZE&t=789s
+    title: "What's New in Sustainability: Reporting for CBAM and EPR"
+    date: "2025-10-01T13:01:35.000Z"
+    commit: null
+    t: 789
+    quote: you need to have created batch for both CBM and EPR different batch. You can have more of them but minimum you need to
   - kind: video
     url: https://www.youtube.com/watch?v=kD8kX14VVZE&t=894s
     title: "What's New in Sustainability: Reporting for CBAM and EPR"
@@ -191,6 +198,9 @@ quotes:
   - t: 595
     text: it doesn't apply to all item types. If this is packaging or electronics, so it depends what is about
     check: exact
+  - t: 789
+    text: you need to have created batch for both CBM and EPR different batch. You can have more of them but minimum you need to
+    check: exact
   - t: 894
     text: this is something what is really mandatory by many regulations especially European Union. So this is good you can automate
     check: exact
@@ -200,7 +210,7 @@ quotes:
 
 > Business Central sustainability reporting for CBAM (applied to purchase documents) and EPR (applied to sales documents), built on a new excise taxes framework. Demonstrates carbon pricing setup, item sustainability configuration, material composition, excise journals and transaction logs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kD8kX14VVZE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 15:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kD8kX14VVZE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 15:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -212,11 +222,11 @@ For CBAM, the demo sets up a carbon pricing table, configures an item with carbo
 
 - CBAM applies to purchase documents and EPR applies to sales documents; both run on the new excise taxes framework.
 - CBAM needs a carbon pricing table set up per country, with start and end dates, unit of measure, price per unit and a threshold so small amounts are not reported.
-- Only items flagged as CBAM-compliant are calculated, and carbon emissions must be set on the item as the minimum requirement; emission verification status supports the audit trail.
-- CBAM and EPR each need a separately, manually created batch in the excise journal.
+- Only items marked as CBAM-compliant are calculated, and the item needs at least a carbon emission value. Whether the emission is verified is also recorded on the item.
+- For country of origin, the system first uses the country on the item card. If there is none, it falls back to the vendor's country.
+- The excise journal needs a separate batch for CBAM and for EPR, with at least one batch of each type.
 - EPR does not apply to all item types. The item needs an EPR category and a material composition, and the composition status must change from new to certified.
 - The EPR materials table holds material name, unit of measure, EPR fee and verification date. The item material composition page works like a bill of materials.
-- The excise transaction logs record CBAM and EPR calculations, including source type and compliance status, and can be exported for reporting.
 
 ## Chapters
 
@@ -233,17 +243,17 @@ For CBAM, the demo sets up a carbon pricing table, configures an item with carbo
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Carbon Border Adjustment Mechanism (CBAM) reporting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=kD8kX14VVZE&t=22s) |  |
-| Extended Producer Responsibility (EPR) reporting | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=kD8kX14VVZE&t=48s) |  |
-| Carbon pricing table | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s) |  |
-| EPR materials table | status not stated, demoed | [9:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=557s) |  |
-| Item material composition page | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=197s) |  |
-| Excise taxes framework for CBAM and EPR | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=kD8kX14VVZE&t=133s) |  |
-| Sustainability fast tab on item card | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=kD8kX14VVZE&t=335s) |  |
-| Excise transaction logs for CBAM and EPR | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=kD8kX14VVZE&t=531s) |  |
-| Emission verification and CBAM compliance flags | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=kD8kX14VVZE&t=366s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Carbon Border Adjustment Mechanism (CBAM) reporting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=kD8kX14VVZE&t=22s) |
+| Extended Producer Responsibility (EPR) reporting | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=kD8kX14VVZE&t=48s) |
+| Carbon pricing table | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s) |
+| EPR materials table | status not stated, demoed | [9:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=557s) |
+| Item material composition page | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=197s) |
+| Excise taxes framework for CBAM and EPR | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=kD8kX14VVZE&t=133s) |
+| Sustainability fast tab on item card | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=kD8kX14VVZE&t=335s) |
+| Excise transaction logs for CBAM and EPR | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=kD8kX14VVZE&t=531s) |
+| Emission verification and CBAM compliance flags | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=kD8kX14VVZE&t=366s) |
 
 ## AL objects mentioned
 
@@ -267,6 +277,7 @@ Not found in BC28-30: table "Carbon pricing table", page "Carbon pricing page", 
 - [3:45](https://www.youtube.com/watch?v=kD8kX14VVZE&t=225s) "CBM applies to purchase documents and on other side EPR applies to sales documents"
 - [8:27](https://www.youtube.com/watch?v=kD8kX14VVZE&t=507s) "system will first uh look if there is country of a region of item. If there is country of a region on item card"
 - [9:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=595s) "it doesn't apply to all item types. If this is packaging or electronics, so it depends what is about"
+- [13:09](https://www.youtube.com/watch?v=kD8kX14VVZE&t=789s) "you need to have created batch for both CBM and EPR different batch. You can have more of them but minimum you need to"
 - [14:54](https://www.youtube.com/watch?v=kD8kX14VVZE&t=894s) "this is something what is really mandatory by many regulations especially European Union. So this is good you can automate"
 
 Presenters (as heard): Unknown presenter.

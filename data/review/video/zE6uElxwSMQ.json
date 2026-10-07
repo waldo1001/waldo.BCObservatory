@@ -1,0 +1,31 @@
+{
+  "video_id": "zE6uElxwSMQ",
+  "item_id": "video/yt-microsoft/zE6uElxwSMQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and supported by the transcript.",
+    "The last key point overstates things: the transcript says on-prem data migration is 'only one part' and that connecting data is the 'game changer'. It does not say migration is required. The statement comes from the partner Cosmo, not Carglass.",
+    "'Data integration and smart connectivity' is a partner marketing statement, not a product feature, so it is dropped.",
+    "The 'Enhanced booking system performance' feature has t_start 82.1, but its evidence is in segment 95.",
+    "The page left out the customer satisfaction outcome and the reason for choosing Microsoft (existing Dynamics and Microsoft 365 use), so quotes and key points were added for both.",
+    "No feature status is stated explicitly, so 'unclear' stays."
+  ],
+  "input_hash": "3c580330a68da1ec8de026e6e96146e6291accebc6f2f3050c87817a52542bb7",
+  "by": "opus",
+  "at": "2026-10-07T22:52:14.223Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 95s",
+    "quote at 54s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052817
+  }
+}

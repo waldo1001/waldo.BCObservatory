@@ -5,12 +5,12 @@
   "overview": "The video addresses the pain of managing pipelines in a large repo with many AL projects. The example given is a repo with more than 200 app.json files, where each new major or minor version needs updates across all of them.\n\nThe first solution is directory.app.props.json, a file inspired by the MS build props file. It has a variables section and a properties section mapping to app.json properties. The second is installing the AL command line tools through dotnet tools, with an AL tool that exposes subcommands. Both are demoed, and the presenter says AL-Go for GitHub will pick them up later.",
   "key_points": [
     "directory.app.props.json centralizes settings across many AL projects, with a variables section for reusable values and a properties section that maps to app.json properties.",
-    "app.json files can use placeholders such as $(version), which are filled from the props file at build time. A missing value causes a build error.",
-    "An individual app.json can override a centralized property by including that property locally.",
+    "Variables in the props file can be overridden by environment variables, for example setting the revision in a pipeline before compiling.",
+    "app.json files can use placeholders such as $(version), which are resolved from the props file at build time instead of causing an invalid version error.",
+    "An individual app.json can override a centralized property by including that property locally; a props file property is used only when it is absent in app.json.",
+    "The props file is found by name, searching upward from the project toward the root and using the first match; both VS Code and ALC respect it.",
     "Properties are expanded during package creation, so generated packages are the same either way. Changes to the props file need a VS Code reload to take effect in the editor.",
-    "Only specific properties are supported for now, and more may be added.",
-    "The AL command line tool installs through dotnet tools and supports subcommands such as al compile, al help and al get-application-manifest. It currently requires the pre-release version.",
-    "dotnet tools allow only one alias, so the AL alias points to the AL tool with all toolchain commands. The naming (uppercase ALT) may change before release."
+    "Only specific properties are supported for now, and more may be added."
   ],
   "audience": [
     "developer",

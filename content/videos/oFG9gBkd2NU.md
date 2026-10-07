@@ -15,12 +15,12 @@ tags:
   - help content
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:11.548Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:11.589Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,13 @@ evidence:
     commit: null
     t: 380
     quote: The Bing service is in the US and the data is uh goes to there and is not stored for longer than a day.
+  - kind: video
+    url: https://www.youtube.com/watch?v=oFG9gBkd2NU&t=391s
+    title: "What's New: Enhancements to Chat with Copilot (2025 release wave 2)"
+    date: "2025-10-03T00:00:00Z"
+    commit: null
+    t: 391
+    quote: What is passed to Bing search is a curated search terms uh derived from the user query to our copilot chat.
   - kind: video
     url: https://www.youtube.com/watch?v=oFG9gBkd2NU&t=403s
     title: "What's New: Enhancements to Chat with Copilot (2025 release wave 2)"
@@ -171,6 +178,9 @@ quotes:
   - t: 380
     text: The Bing service is in the US and the data is uh goes to there and is not stored for longer than a day.
     check: exact
+  - t: 391
+    text: What is passed to Bing search is a curated search terms uh derived from the user query to our copilot chat.
+    check: exact
   - t: 403
     text: Using Bing Search within Copilot Chat does not cost more and you do not incur any one-time or service costs when using Bing Search
     check: exact
@@ -180,7 +190,7 @@ quotes:
 
 > Chat with Copilot in Business Central (2025 release wave 2) can answer questions from installed third-party and partner extension documentation once an administrator turns on Bing search. The video covers setup, demos, partner help content, data handling and cost.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oFG9gBkd2NU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-03 · 7:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=oFG9gBkd2NU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-03 · 7:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,13 +200,13 @@ The video demos enabling Bing search, getting answers about an extension, using 
 
 ## Key points
 
-- Administrators enable the Bing search switch on the copilot and agent capabilities page. This is the only setup step.
-- It works automatically for apps source extensions that have provided a link to their documentation.
-- For PTE extensions, the documentation must be provided within the help URL.
-- Partners can add targeted help content for commonly asked questions. It must be readable for users on the partner website, and Copilot picks it up from structured documentation.
+- Administrators turn on the enable Bing search switch on the copilot and agent capabilities page. This is the only setup step, and no extra configuration is needed.
+- Copilot Chat then automatically searches relevant partner extension documentation through the Bing index. Answers list the extension as a reference source and show 'powered by Bing'.
+- It works automatically for AppSource extensions that have provided a link to their documentation. For PTE extensions, the documentation must be provided within the help URL.
+- Partners can provide targeted help content, such as field reference pages, for commonly asked questions so Copilot can unblock users without a support call. Content can be formatted to be readable on the partner website and Copilot Chat can still pick it up.
+- Only curated search terms derived from the user query are passed to Bing search.
 - Data goes to the Bing service in the US and is not stored longer than a day. Copilot can connect to the web, but the web cannot connect to Copilot.
-- Inputs and outputs go through safety checks for security and to reduce AI harms.
-- Using Bing Search within Copilot Chat has no extra cost and no one-time or service costs.
+- Inputs and outputs go through safety checks for security and to reduce risks of AI harms.
 
 ## Chapters
 
@@ -210,13 +220,13 @@ The video demos enabling Bing search, getting answers about an extension, using 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Chat with Third-Party Documentation | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=19s) |  |
-| Bing Search Integration for Copilot | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=90s) |  |
-| Extension-Specific Help Content | status not stated, demoed | [2:40](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=160s) |  |
-| Copilot Safety and Data Handling | status not stated | [5:53](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=353s) |  |
-| Copilot with Bing Search - No Additional Cost | status not stated | [6:31](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=391s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Chat with Third-Party Documentation | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=19s) |
+| Bing Search Integration for Copilot | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=90s) |
+| Extension-Specific Help Content | status not stated, demoed | [2:40](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=160s) |
+| Copilot Safety and Data Handling | status not stated | [5:53](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=353s) |
+| Copilot with Bing Search - No Additional Cost | status not stated | [6:31](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=391s) |
 
 ## AL objects mentioned
 
@@ -235,6 +245,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [5:39](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=339s) "It will work for automatically for apps source extensions that had provided link to their documentation. And if you install a PTE extension, you"
 - [6:06](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=366s) "Copilot can connect to the web. However, the web cannot connect to the copilot."
 - [6:20](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=380s) "The Bing service is in the US and the data is uh goes to there and is not stored for longer than a day."
+- [6:31](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=391s) "What is passed to Bing search is a curated search terms uh derived from the user query to our copilot chat."
 - [6:43](https://www.youtube.com/watch?v=oFG9gBkd2NU&t=403s) "Using Bing Search within Copilot Chat does not cost more and you do not incur any one-time or service costs when using Bing Search"
 
 Presenters (as heard): Julia, Eritton.

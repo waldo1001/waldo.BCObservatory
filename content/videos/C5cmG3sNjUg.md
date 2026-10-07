@@ -20,12 +20,12 @@ tags:
   - mcp configurations
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:43.309Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:43.347Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,14 +38,7 @@ evidence:
     date: "2026-01-21T16:00:17.000Z"
     commit: null
     t: 45
-    quote: It's currently in public preview.
-  - kind: video
-    url: https://www.youtube.com/watch?v=C5cmG3sNjUg&t=897s
-    title: "MCP Proxy for Other Hosts: announced"
-    date: "2026-01-21T16:00:17.000Z"
-    commit: null
-    t: 897
-    quote: we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP
+    quote: It's currently in public preview. So go to um feature management and enable that.
   - kind: video
     url: https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s
     title: MCP Server for Business Central - Advanced Topics (Part 3)
@@ -67,6 +60,13 @@ evidence:
     commit: null
     t: 197
     quote: there is a limit to how many tools you can have which is why we have introduced the um dynamic tools system.
+  - kind: video
+    url: https://www.youtube.com/watch?v=C5cmG3sNjUg&t=421s
+    title: MCP Server for Business Central - Advanced Topics (Part 3)
+    date: "2026-01-21T16:00:17.000Z"
+    commit: null
+    t: 421
+    quote: This will allow any agent to reason better over what your APIs are able to do.
   - kind: video
     url: https://www.youtube.com/watch?v=C5cmG3sNjUg&t=585s
     title: MCP Server for Business Central - Advanced Topics (Part 3)
@@ -164,9 +164,9 @@ features:
     verified: false
     status_source: video
   - name: MCP Proxy for Other Hosts
-    status: announced
+    status: unclear
     t: 832
-    verified: true
+    verified: false
     status_source: video
   - name: Copilot Studio Support
     status: unclear
@@ -186,6 +186,9 @@ quotes:
   - t: 197
     text: there is a limit to how many tools you can have which is why we have introduced the um dynamic tools system.
     check: exact
+  - t: 421
+    text: This will allow any agent to reason better over what your APIs are able to do.
+    check: exact
   - t: 585
     text: right now when we record this video, Microsoft Copilot Studio is around 70 tools. That of course uh will likely change in the future.
     check: exact
@@ -201,7 +204,7 @@ quotes:
 
 > The Business Central MCP server (in public preview) is covered in depth: default vs named configurations, dynamic tools (search, describe, invoke), API page design with about text, tool limits (about 70 in Copilot Studio at recording), and the sample bcmcp proxy for other MCP hosts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=C5cmG3sNjUg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 18:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=C5cmG3sNjUg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 18:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,7 +220,7 @@ It also covers the dynamic tools system, how API pages are named and described f
 - Copilot Studio supported around 70 tools when the video was recorded. The limit will likely change.
 - API page tool names append the object type and ID to stay unique. Descriptions and the about text property help the model reason about what each API does.
 - The discover additional objects setting exposes more readonly API pages. It can raise the chance of model errors, use more context and reduce performance.
-- For hosts other than Copilot Studio, the bcmcp proxy sample is on BCTech samples. It is not production ready, not part of the product, and is expected to be replaced by a simpler setup.
+- For hosts other than Copilot Studio, the bcmcp proxy sample is on BCTech samples (aka.ms/bct). It is only a sample delivered as is and is not part of the product. An update is expected to make setup easier and remove the need for the proxy.
 
 ## Chapters
 
@@ -235,14 +238,14 @@ It also covers the dynamic tools system, how API pages are named and described f
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| MCP Server for Business Central | preview, demoed | [1:15](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s) | "It's currently in public preview." ([0:45](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=45s)) |
+| MCP Server for Business Central | preview, demoed | [1:15](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s) | "It's currently in public preview. So go to um feature management and enable that." ([0:45](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=45s)) |
 | Default Configuration Mode | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=124s) |  |
 | Named Configurations | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=156s) |  |
 | Dynamic Tools System with Semantic Search | status not stated, demoed | [3:41](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=221s) |  |
 | About Text for API Pages | status not stated | [6:13](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=373s) |  |
 | API Page Tool Naming Convention | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=298s) |  |
 | Discover Additional Objects Feature | status not stated | [8:06](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=486s) |  |
-| MCP Proxy for Other Hosts | announced | [13:52](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=832s) | "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP" ([14:57](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=897s)) |
+| MCP Proxy for Other Hosts | status not stated | [13:52](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=832s) |  |
 | Copilot Studio Support | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=124s) |  |
 
 ## AL objects mentioned
@@ -257,6 +260,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:15](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=75s) "currently the MCP server exposes all the built-in APIs for data. You can also add your custom APIs."
 - [1:42](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=102s) "We might open up for API queries in the future. So stay in tuned for that."
 - [3:17](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=197s) "there is a limit to how many tools you can have which is why we have introduced the um dynamic tools system."
+- [7:01](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=421s) "This will allow any agent to reason better over what your APIs are able to do."
 - [9:45](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=585s) "right now when we record this video, Microsoft Copilot Studio is around 70 tools. That of course uh will likely change in the future."
 - [14:57](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=897s) "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP"
 - [15:39](https://www.youtube.com/watch?v=C5cmG3sNjUg&t=939s) "Make all functionality available in business central functional available to AI and agents and of course do it in a secure reliable way."

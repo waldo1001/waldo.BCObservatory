@@ -215,6 +215,12 @@
       "check": "exact"
     },
     {
+      "t": 346,
+      "text": "On the business central side, you need to create an MCP server configuration where you allow modifications",
+      "why_it_matters": "This is the Business Central step needed before agents can write data through MCP.",
+      "check": "exact"
+    },
+    {
       "t": 371.4,
       "text": "it allows you to start with lowrisk readonly scenarios and then as you gain trust in the LLM's abilities you can open up for",
       "why_it_matters": "Describes the strategic design of MCP configurations to enable gradual adoption with risk management.",

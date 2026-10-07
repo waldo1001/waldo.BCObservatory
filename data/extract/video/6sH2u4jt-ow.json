@@ -244,6 +244,12 @@
       "check": "exact"
     },
     {
+      "t": 90.6,
+      "text": "After enabling this feature, it is important that we set also root folder for the storage.",
+      "why_it_matters": "States the root folder requirement directly from the transcript.",
+      "check": "exact"
+    },
+    {
       "t": 145,
       "text": "This option automatically offloads all your document attachments from your database by creating a job queue which will be run each night at 100",
       "why_it_matters": "Describes the automation mechanism and default timing for the scheduled upload feature, important for planning and operations.",

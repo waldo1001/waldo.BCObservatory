@@ -1,0 +1,29 @@
+{
+  "video_id": "C5cmG3sNjUg",
+  "item_id": "video/yt-microsoft/C5cmG3sNjUg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The MCP Server feature evidence quote was only 5 words and had the wrong t (75.5). The phrase is said at 45.9, so I extended the quote to 8 to 24 words and moved it to that segment.",
+    "The MCP Proxy feature was marked announced with evidence_t 832.4, but the quote starts at 897. The proxy is already shipped as sample code. Only the later update that removes it is announced, so I set the status to unclear.",
+    "The proxy key point said the sample is 'not production ready', which the transcript never says. It says the sample is delivered as is, is not part of the product and is not expected long term. I reworded the key point to match.",
+    "I added a quote about how about text helps agents reason over APIs.",
+    "The summary and the other quotes are supported by the transcript."
+  ],
+  "input_hash": "75631a2c06d57a33a139e66801bf78a9aac95e7f1ef6502ae9cc83327179b933",
+  "by": "opus",
+  "at": "2026-10-07T22:51:43.309Z",
+  "applied": [
+    "MCP Server for Business Central: status preview",
+    "MCP Proxy for Other Hosts: status unclear",
+    "quote at 421s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.098889
+  }
+}

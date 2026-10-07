@@ -242,6 +242,12 @@
       "check": "exact"
     },
     {
+      "t": 205.7,
+      "text": "I can also set properties for the caption or the tooltip, which will override the name and the description.",
+      "why_it_matters": "Shows that AL properties can override the exported view's name and description.",
+      "check": "exact"
+    },
+    {
       "t": 297.2,
       "text": "it contains a um a lock icon, which will indicate that it comes from the extension, and also indicate that this analysis view is",
       "why_it_matters": "Explains the visual indicator and behavior constraint for extension-provided analysis views.",

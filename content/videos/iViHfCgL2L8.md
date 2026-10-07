@@ -18,12 +18,12 @@ tags:
   - business central api
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:36.002Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:36.039Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 217
     quote: In October we announced the public preview for Business Central MCP server here in version 27.1.
+  - kind: video
+    url: https://www.youtube.com/watch?v=iViHfCgL2L8&t=263s
+    title: Introducing MCP Server for Business Central (Part 1)
+    date: "2026-01-21T16:01:07.000Z"
+    commit: null
+    t: 263
+    quote: we are targeting Copilot Studio as our prime client uh in this first iteration of the MCP server.
   - kind: video
     url: https://www.youtube.com/watch?v=iViHfCgL2L8&t=332s
     title: Introducing MCP Server for Business Central (Part 1)
@@ -181,6 +188,9 @@ quotes:
   - t: 217
     text: In October we announced the public preview for Business Central MCP server here in version 27.1.
     check: exact
+  - t: 263
+    text: we are targeting Copilot Studio as our prime client uh in this first iteration of the MCP server.
+    check: exact
   - t: 332
     text: You do have a default configuration if you don't specify anything there which is that you have read only access to all API pages
     check: exact
@@ -199,7 +209,7 @@ quotes:
 
 > Business Central MCP server, in public preview since version 27.1, exposes Business Central to AI agents through the Model Context Protocol. The video shows setup with Copilot Studio, the feature management switch, and the default read-only configuration with three capabilities.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=iViHfCgL2L8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 11:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=iViHfCgL2L8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 11:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -254,6 +264,7 @@ Not found in BC28-30: page "feature management page".
 - [0:30](https://www.youtube.com/watch?v=iViHfCgL2L8&t=30s) "It's a new protocol, model context protocol, which is an open protocol to standardize how applications can provide context to LLMs and and talk"
 - [1:58](https://www.youtube.com/watch?v=iViHfCgL2L8&t=118s) "The goal of this initiative is basically to take everything you can do in Business Central and make it available for our new primary"
 - [3:37](https://www.youtube.com/watch?v=iViHfCgL2L8&t=217s) "In October we announced the public preview for Business Central MCP server here in version 27.1."
+- [4:23](https://www.youtube.com/watch?v=iViHfCgL2L8&t=263s) "we are targeting Copilot Studio as our prime client uh in this first iteration of the MCP server."
 - [5:32](https://www.youtube.com/watch?v=iViHfCgL2L8&t=332s) "You do have a default configuration if you don't specify anything there which is that you have read only access to all API pages"
 - [7:23](https://www.youtube.com/watch?v=iViHfCgL2L8&t=443s) "Behind the scenes if you don't pick anything you will get a default configuration which effectively just has three things it can do. It"
 - [8:13](https://www.youtube.com/watch?v=iViHfCgL2L8&t=493s) "Our vision for MCP server is basically here on on line two. Make all functionality available to AI and agents. And of course, we"

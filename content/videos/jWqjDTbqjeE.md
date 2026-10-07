@@ -20,12 +20,12 @@ tags:
   - ai development toolkit
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:27.035Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:27.079Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -41,7 +41,7 @@ evidence:
     quote: we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of
   - kind: video
     url: https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s
-    title: "Agent Extension Deployment: announced"
+    title: "Agent Extension Deployment: preview"
     date: "2026-02-27T15:12:50.000Z"
     commit: null
     t: 794
@@ -183,7 +183,7 @@ features:
     verified: false
     status_source: video
   - name: Agent Extension Deployment
-    status: announced
+    status: preview
     t: 794
     verified: true
     status_source: video
@@ -228,7 +228,7 @@ quotes:
 
 > Business Central agents: how the Sales Order Agent and Payables Agent work, the agent framework with human-in-the-loop review, security and admin controls, and two ways to build agents. The Agent Designer in the web client is in preview and works in sandboxes. Agents can also be created in code with the AI development toolkit.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jWqjDTbqjeE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 18:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jWqjDTbqjeE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 18:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -238,7 +238,7 @@ From an administration standpoint, agents are treated like users, with permissio
 
 ## Key points
 
-- The Sales Order Agent processes requests for quotes and creates sales orders. The Payables Agent processes vendor invoices and matches them to purchase orders. Both were demoed.
+- The Sales Order Agent processes requests for quotes and creates sales orders. The Payables Agent processes vendor invoices and matches them to purchase orders. The Sales Order Agent was shown on a slide and the Payables Agent was demoed in the product.
 - Human-in-the-loop: new agent tasks appear in a prominent pane. Users can see the timeline of agent activity, reasoning tooltips and processed documents, and can navigate to verify decisions.
 - Agents are built like users for administration. You assign a profile and limit access with permissions, and explicit access controls define which tables and UI elements they can reach.
 - Agents are distributed as apps and enabled or disabled with the same mechanism administrators already know.
@@ -269,7 +269,7 @@ From an administration standpoint, agents are treated like users, with permissio
 | Agent App Distribution | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=414s) |  |
 | Agent Designer in Web Client | preview, demoed | [9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s) | "we are now launching in preview the ability for you especially consultants, product owners, domain specialists and and even makers to design proof of" ([9:21](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=561s)) |
 | AI Development Toolkit - Agent Code Creation | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=743s) |  |
-| Agent Extension Deployment | announced | [13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s) | "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions" ([13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s)) |
+| Agent Extension Deployment | preview | [13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s) | "In the preview, we support that you can deploy to sandboxes. Uh later you will of course be able to deploy uh these extensions" ([13:14](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=794s)) |
 | Agent Evaluation Framework | status not stated | [13:42](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=822s) |  |
 | Copilot Studio Agent Integration | announced | [17:06](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=1026s) | "in the future even call BC agents uh via MCP from within copilot studio" ([17:39](https://www.youtube.com/watch?v=jWqjDTbqjeE&t=1059s)) |
 

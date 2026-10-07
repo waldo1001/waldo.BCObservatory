@@ -1,16 +1,16 @@
 {
   "video_id": "1xdpUmeun-s",
   "item_id": "video/yt-microsoft/1xdpUmeun-s",
-  "summary": "AL runtime performance work in Business Central, explained by an AL runtime engineer: data transfer, set load fields, read isolation, tri-state locking, and the real behavior of lock table and set current key. Also covers early ideas for dynamic queries and bulk events.",
+  "summary": "An AL runtime engineer explains performance work in Business Central: data transfer, set load fields, read isolation and tri-state locking. He also explains what lock table and set current key actually do and how temporary tables are implemented. Future ideas (dynamic queries, bulk events, set-based operations) are at idea level only, with no ship dates.",
   "overview": "Episode 12 of Business Central Under the Hood, published 2025-12-05 (37 minutes). A member of the AL runtime team describes how AL runs on the NST through C# compilation, and how the team chooses performance investments, including where abstractions leak.\n\nThe episode goes through features that need code changes (data transfer, set load fields, read isolation) and changes that need none (many table extensions to one, tri-state locking now on by default). It clarifies that lock table and set current key do not do what their names suggest. It ends with early ideas: dynamic queries, a query builder pattern, bulk delete and modify events, and a move toward set-based operations. The speaker says none of these are in code and gives no ship dates.",
   "key_points": [
-    "Data transfer moves large datasets in bulk using SQL directly. It needs manual code changes, works only against SQL (not temporary tables or CRM), and matters mostly for large tables.",
-    "Set load fields loads only chosen fields. It is applied automatically for API calls on API pages, which was where the biggest gains were seen. Elsewhere it needs manual adoption. Its value dropped after many table extensions were consolidated into one.",
-    "Read isolation lets code choose read uncommitted, read committed, repeatable read or update lock. Tri-state locking adds a read committed state after a modification instead of update lock. It is now enabled by default and can be disabled with lock table.",
+    "Data transfer moves large datasets in bulk using SQL directly. It needs manual code changes and works only against SQL (not temporary tables or CRM). It matters mostly for large tables: one case with 17 million rows went from days to 40 minutes.",
+    "Set load fields (originally called partial records) loads only the chosen fields. It is applied automatically for API calls on API pages, which is where the biggest gains were seen. Elsewhere it needs manual adoption. Its value dropped after many table extensions were consolidated into one companion table.",
+    "Read isolation lets code choose read uncommitted, read committed, repeatable read or update lock. Tri-state locking adds a read committed state after a modification instead of update lock. It started as opt-in, is now used by everyone, and is disabled when code calls lock table.",
     "Lock table does not take a table lock in SQL at that moment. It makes later reads use update lock hints and affects the data cache.",
     "Set current key does not pick an index. It orders the result by the given fields, which can lead SQL to choose a different index or sort afterwards.",
-    "Temporary tables are in-memory AVL trees inside NST process memory, and memory grows with data volume. A dictionary gives constant-time lookup instead of logarithmic, but only suits lookup cases.",
-    "Bulk delete and modify events are announced. Today the runtime falls back to row-by-row when row triggers exist. Use the sampling profiler to find hot paths, for example upgrade codeunits running row by row."
+    "Temporary tables are in-memory AVL trees inside NST process memory, so memory grows with data volume. A dictionary gives constant-time lookup instead of logarithmic, but suits only simple lookup cases.",
+    "Dynamic queries, bulk delete and modify events, and a move toward set-based operations are ideas only, not in code. Today the runtime falls back to row-by-row processing when row triggers exist. Use the sampling profiler to find hot paths, such as upgrade codeunits that process row by row."
   ],
   "audience": [
     "developer",

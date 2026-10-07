@@ -1,0 +1,32 @@
+{
+  "video_id": "trjbhZvZTCY",
+  "item_id": "video/yt-microsoft/trjbhZvZTCY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes appear word for word in the transcript.",
+    "The 'Senior Staff Time Savings' feature is a program metric, not a feature. Its description also says 'training time', but the transcript only says '80% of their time'. Dropped it.",
+    "The last key point was wrong. The video ends with 'joining the movement' and 'Come and talk to us'. The line about hiring belongs to the Gen Z section.",
+    "The section on upskilling existing staff (t=65) had no quote, so I added one. The captions there are garbled: 'AI proving' probably means AI-proofing, and 'VC Talent' at t=40.4 should be BC Talent.",
+    "Feature statuses stay unclear. These are partner talent programs, not product features with a release status."
+  ],
+  "input_hash": "58b877a2143feac7e50324a1030d0e1dbb34b9bbe0beceb6bad4bf0b4c154380",
+  "by": "opus",
+  "at": "2026-10-07T22:51:56.073Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "BC Talent Program: status unclear",
+    "AI Skills Development for Business Central: status unclear",
+    "quote at 65s",
+    "quote at 29s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05452100000000001
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "iViHfCgL2L8",
+  "item_id": "video/yt-microsoft/iViHfCgL2L8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Evidence quote for 'MCP Server for Business Central' starts at segment 217.4, not 6.4; corrected evidence_t.",
+    "Evidence quote for 'Feature Management Switch for MCP Server' starts at segment 409.8, not 398.8; corrected evidence_t.",
+    "All seven quotes are verbatim (some run on into the next segment); summary and key points are supported.",
+    "Added a quote on Copilot Studio as the prime client in the first version."
+  ],
+  "input_hash": "e28850589f4b8fd9ee24e5877a0337aafc1904df0f457b967b33403e1d406ff3",
+  "by": "opus",
+  "at": "2026-10-07T22:51:36.002Z",
+  "applied": [
+    "MCP Server for Business Central: status preview",
+    "Feature Management Switch for MCP Server: status preview",
+    "quote at 263s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08515700000000001
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "video_id": "6lUli23t3fU",
+  "item_id": "video/yt-microsoft/6lUli23t3fU",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes appear word for word in the transcript. The quote at 17.8 runs on into the segment at 30.6, which is allowed.",
+    "The summary and key points are supported by the transcript, including that forecasting uses classic machine learning rather than generative AI, the seasonality settings, the open sourcing of the project app, and the aka.ms landing pages.",
+    "Minor: the t_start for Project Invoice Sales by Customer is 442.8, but that segment still covers the sales-by-type table. The customer report actually starts at 459.7 to 472.6.",
+    "Minor: the chapter boundary at 442.8 cuts the sales-by-type discussion short. This was not worth an edit.",
+    "All feature statuses are unclear. The video is a release launch demo and never states preview or GA explicitly."
+  ],
+  "input_hash": "5f6099abfa8af2024a5358ec80e029b61cfbe7ffee020f320be92078da35a9e9",
+  "by": "opus",
+  "at": "2026-10-07T22:52:40.057Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.066953
+  }
+}

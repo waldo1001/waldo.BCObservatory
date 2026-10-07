@@ -16,12 +16,12 @@ tags:
   - licensing
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:39.422Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:39.454Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,7 +147,7 @@ quotes:
 
 > Building an agent in Microsoft Copilot Studio that reads Business Central data through an MCP server, using the MCP Configurations page in Business Central. It covers publishing the agent to Teams and Microsoft 365 Copilot, and the credit-based Copilot Studio licensing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=EpDIrJE0HzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-12-03 · 6:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=EpDIrJE0HzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-12-03 · 6:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -175,13 +175,13 @@ The demo sets up data, configures MCP in Business Central, publishes the agent, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Studio agents for Business Central | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=12s) |  |
-| Model Context Protocol (MCP) server for Business Central | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=77s) |  |
-| MCP Configurations page in Business Central | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=172s) |  |
-| Agent publication to multiple channels | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=226s) |  |
-| Copilot Studio credit-based licensing | status not stated | [5:04](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=304s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Studio agents for Business Central | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=12s) |
+| Model Context Protocol (MCP) server for Business Central | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=77s) |
+| MCP Configurations page in Business Central | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=172s) |
+| Agent publication to multiple channels | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=226s) |
+| Copilot Studio credit-based licensing | status not stated | [5:04](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=304s) |
 
 ## AL objects mentioned
 

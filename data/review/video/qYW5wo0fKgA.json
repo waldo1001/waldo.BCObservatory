@@ -1,0 +1,28 @@
+{
+  "video_id": "qYW5wo0fKgA",
+  "item_id": "video/yt-microsoft/qYW5wo0fKgA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The feature 'Early Access Preview Sandbox Environments' was marked ga, but it is an early access preview, so the status should be preview. Its evidence quote only says that version 27.0 was released. I replaced it with a span that names the early access preview sandbox environments.",
+    "The summary phrase 'Evidence for the requirements' was awkward and not agent-facing. I rewrote the summary.",
+    "Quotes are verbatim and the remaining features are supported. 'USGB' and '280' appear as written in the captions and are kept.",
+    "The notification bar is shown working in the demo, but the transcript does not state its release status, so it stays unclear."
+  ],
+  "input_hash": "87a462c839713d516bd5d3ca4c8f5d6cf78620dd53f2824a43ed97f768061b94",
+  "by": "opus",
+  "at": "2026-10-07T22:52:07.302Z",
+  "applied": [
+    "Early Access Preview Sandbox Environments: status preview",
+    "EAP Environment Notification Bar: status unclear",
+    "Feature Discovery Capabilities: status announced",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047693
+  }
+}

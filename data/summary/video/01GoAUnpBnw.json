@@ -4,12 +4,12 @@
   "summary": "Migrating record links and notes from an on-premises database to Business Central online as part of cloud migration (2025 release wave 2). Covers the buffer table, the Migrate record links and notes action on the cloud migration management page, the warnings field, and the required order: replication, then migration, then user mapping.",
   "overview": "Record links and notes can hold customer insights, annotations and references. Previously they were not migrated from the on-premises database to the cloud, so partners had to bring them over manually. Now their migration is part of the cloud migration process.\n\nReplication puts the record links and notes into a buffer table so existing records in the cloud are not overwritten. After replication finishes, a user runs the migrate action on the cloud migration management page to move them from the buffer table to the actual table. A new warnings field shows when the record link table has not been migrated since the last replication. The demo shows the full flow.",
   "key_points": [
-    "Record links and notes migration is now part of the cloud migration process; before, they had to be brought over manually.",
+    "Record links and notes migration is now part of the cloud migration process. Before, partners spent a lot of time and effort bringing them over themselves.",
     "Replication moves record links and notes into a buffer table first, so existing records in the cloud are not overwritten.",
-    "Run the Migrate record links and notes action on the cloud migration management page after data replication completes.",
-    "Run the migration before user mapping, because user mapping changes the user references.",
-    "A new warnings field on the cloud migration management page flags that the record link table has not been migrated since the last replication.",
-    "The presenter says the action does not overwrite existing record links and notes, so it is safe to run."
+    "Run the Migrate record links and notes action on the cloud migration management page after data replication completes. It moves the records from the buffer table to the actual table.",
+    "Run the migration before user mapping, because user mapping changes the users on the record links and notes to the ones you map to.",
+    "A new warnings field on the cloud migration management page flags that the record link table has not been migrated since the last replication. The warning clears after the action runs.",
+    "The presenter says the action does not overwrite existing record links and notes, so it is safe to run and can be run multiple times."
   ],
   "audience": [
     "administrator",

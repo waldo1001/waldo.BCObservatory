@@ -94,24 +94,6 @@
         "team development"
       ],
       "system": "development"
-    },
-    {
-      "name": "Senior Staff Time Savings",
-      "description": "Senior staff can save up to 80% of their training time when not having to train junior professionals through the BC Talent program.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 15.9,
-      "t_end": 29,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "efficiency",
-        "training",
-        "time savings"
-      ],
-      "system": "hr"
     }
   ],
   "objects": [],
@@ -147,9 +129,21 @@
       "check": "exact"
     },
     {
+      "t": 29,
+      "text": "But don't worry, AI won't replace your people. But the right people with AI skills will.",
+      "why_it_matters": "This is the video's main point about why AI skills matter for Business Central teams.",
+      "check": "exact"
+    },
+    {
       "t": 51.4,
       "text": "To create autonomous AI agents, you need people who understand industry and business processes and can blend that with AI fluency.",
       "why_it_matters": "States the key requirement for AI agent development: combining domain expertise with AI skills.",
+      "check": "exact"
+    },
+    {
+      "t": 65,
+      "text": "And most importantly, you need to think about AI proving the people you already have",
+      "why_it_matters": "This covers the upskilling of existing staff, which the quotes missed.",
       "check": "exact"
     },
     {

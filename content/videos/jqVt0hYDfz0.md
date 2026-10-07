@@ -17,12 +17,12 @@ tags:
   - personalization
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:27.824Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:27.857Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,13 @@ evidence:
     commit: null
     t: 187
     quote: The only difference here is that I have the definition file property.
+  - kind: video
+    url: https://www.youtube.com/watch?v=jqVt0hYDfz0&t=205s
+    title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
+    date: "2026-01-28T16:01:09.000Z"
+    commit: null
+    t: 205
+    quote: I can also set properties for the caption or the tooltip, which will override the name and the description.
   - kind: video
     url: https://www.youtube.com/watch?v=jqVt0hYDfz0&t=297s
     title: "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions"
@@ -193,6 +200,9 @@ quotes:
   - t: 187
     text: The only difference here is that I have the definition file property.
     check: exact
+  - t: 205
+    text: I can also set properties for the caption or the tooltip, which will override the name and the description.
+    check: exact
   - t: 297
     text: it contains a um a lock icon, which will indicate that it comes from the extension, and also indicate that this analysis view is
     check: exact
@@ -205,7 +215,7 @@ quotes:
 
 > Analysis views defined in the Business Central web client can be exported as JSON and delivered in AL extensions through a definition_file property on a page extension. The video demos this on the sales order list. The feature is announced for the next release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jqVt0hYDfz0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-28 · 6:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jqVt0hYDfz0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-28 · 6:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,11 +227,11 @@ After the extension is deployed, the view appears for users with a lock icon sho
 
 - Analysis tabs built in the web client can be exported with Share and Export definition, which gives a JSON file.
 - In AL, a page extension adds the analysis view through a definition_file property pointing to the JSON file.
+- Caption and tooltip properties in AL override the view's name and description, and visibility can be set from AL code.
 - The export-to-extension capability and the definition property are announced for the next release.
 - Analysis views from extensions show a lock icon and are read-only: they cannot be filtered, sorted or grouped.
 - Users can duplicate a read-only view to get an editable copy with full filtering and pivoting.
 - Views can be hidden from a menu option, and shown or hidden again in personalization mode.
-- Page customizations with analysis views can be assigned to profiles or profile extensions, and views can carry descriptions.
 
 ## Chapters
 
@@ -259,6 +269,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:36](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=96s) "This is also something that we have added with this release."
 - [2:15](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=135s) "I can go into share and export definition. And here I will just get my analysis tab in the shape of a JSON file."
 - [3:07](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=187s) "The only difference here is that I have the definition file property."
+- [3:25](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=205s) "I can also set properties for the caption or the tooltip, which will override the name and the description."
 - [4:57](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=297s) "it contains a um a lock icon, which will indicate that it comes from the extension, and also indicate that this analysis view is"
 - [6:13](https://www.youtube.com/watch?v=jqVt0hYDfz0&t=373s) "I can always go into personalization mode, like we do with other controls, such as views."
 

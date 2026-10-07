@@ -1,0 +1,30 @@
+{
+  "video_id": "4mD9R50V134",
+  "item_id": "video/yt-microsoft/4mD9R50V134",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claiming a missing value causes a build error is not supported; transcript only says a $(version) placeholder would normally be invalid but is resolved from the props file.",
+    "Key point about 'uppercase ALT' naming reflects garbled captions; speaker says the uppercase command name will likely be lowercased before release.",
+    "AL command line tool via dotnet tools has explicit pre-release evidence at t=661; set to preview.",
+    "AL-Go integration has explicit planned statement at t=831.2; set to announced.",
+    "Added key points on environment variable overrides, upward file discovery, ALC support and cross-platform installs, all stated in transcript.",
+    "Quotes and summary are supported."
+  ],
+  "input_hash": "a0bac585966cc1d13d1884f00bf6c136b1ece84cb031a3780cf2fbdea4e38275",
+  "by": "opus",
+  "at": "2026-10-07T22:52:41.702Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status AL command line tool via dotnet tools -> preview: evidence not verbatim or does not state the status",
+    "status AL-Go integration planned -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.094241
+  }
+}

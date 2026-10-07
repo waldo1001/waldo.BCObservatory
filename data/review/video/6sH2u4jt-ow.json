@@ -1,0 +1,26 @@
+{
+  "video_id": "6sH2u4jt-ow",
+  "item_id": "video/yt-microsoft/6sH2u4jt-ow",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claimed the external storage will not work without a root folder; the transcript only says it is important to set the root folder.",
+    "Key point and the 'Delete External Files on Attachment Deletion' description say files remain when the option is disabled; the transcript literally says 'If you select this option, the file will remain on external storage'. The key point is rephrased to avoid the contradiction; the feature description still says 'when disabled' and should be checked by hand.",
+    "No feature status is stated in the transcript; all remain unclear.",
+    "Existing quotes are verbatim and useful."
+  ],
+  "input_hash": "e2caa0e870c8e95c17adb28a1615dda02b3d18ff4f490f6e2a4f49f5d55b0655",
+  "by": "opus",
+  "at": "2026-10-07T22:51:53.237Z",
+  "applied": [
+    "quote at 91s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.066453
+  }
+}

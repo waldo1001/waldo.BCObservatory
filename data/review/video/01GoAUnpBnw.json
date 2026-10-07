@@ -1,0 +1,26 @@
+{
+  "video_id": "01GoAUnpBnw",
+  "item_id": "video/yt-microsoft/01GoAUnpBnw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript verbatim.",
+    "Key point and feature description say record links and notes were brought over 'manually'. The transcript only says partners spent 'a lot of time and effort to bring them over', so I reworded the key point.",
+    "Added the missing point that the action can be run multiple times (t=154.8).",
+    "All feature statuses are correctly left as unclear. The transcript says 'now with new capabilities' but never says preview or generally available.",
+    "The summary is supported by the transcript. The release wave comes from the video title."
+  ],
+  "input_hash": "1babf61c9ba82248536c36cf0ec0018d48e129e66436000dfcdaafaeab550c1d",
+  "by": "opus",
+  "at": "2026-10-07T22:52:28.582Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045665
+  }
+}

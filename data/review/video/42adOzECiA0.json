@@ -1,0 +1,24 @@
+{
+  "video_id": "42adOzECiA0",
+  "item_id": "video/yt-microsoft/42adOzECiA0",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes match the transcript word for word, with their start times in the right segments.",
+    "The key points are supported, including the cleanup with the normal grace period (t=182.1 to 196.6) and the absence of email notifications (t=196.6).",
+    "Every feature status is left unclear. The transcript says 'you can now' and shows a demo, but it never states preview or GA status for the feature itself, so unclear is the safe choice.",
+    "Small gap, not worth an edit: the video also advises checking Application Insights telemetry because no emails are sent for preview updates (t=212.1).",
+    "The summary matches the video and stays within the length limit."
+  ],
+  "input_hash": "c25f93158d1aaa31c077415415913913ef459598d4818a030bc1cfca6709fe59",
+  "by": "opus",
+  "at": "2026-10-07T22:52:32.933Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049145
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "video_id": "bHXEbtsx0JY",
+  "item_id": "video/yt-microsoft/bHXEbtsx0JY",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 6 quotes match the transcript word for word (case differences only).",
+    "Every feature is marked 'unclear', which is right: the transcript only calls this the 2025 release wave 2 launch edition and never says preview or generally available.",
+    "The transcript supports the summary and key points, including the order of lookup (uploaded Excel files first, then public sources), the warning about large files, the start and end dates per period, the audit history, drilling into the calculation explanation, and keeping an emission factor.",
+    "Minor: the first chapter starts at 0 but the first segment starts at 5.5. That doesn't matter."
+  ],
+  "input_hash": "cdc8031f802bb34d8f8db92b58f1735c80ea76b50239908b836d46104ddbc13c",
+  "by": "opus",
+  "at": "2026-10-07T22:52:52.507Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05737300000000001
+  }
+}

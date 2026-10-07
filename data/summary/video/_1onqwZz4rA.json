@@ -1,16 +1,16 @@
 {
   "video_id": "_1onqwZz4rA",
   "item_id": "video/yt-microsoft/_1onqwZz4rA",
-  "summary": "Business Central 2025 release wave 2 adds an analytics demo data package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It is optional and must be selected when creating a company.",
+  "summary": "Business Central 2025 release wave 2 adds an optional 'analytics' package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It can be installed from the tool or is included when all demo data is chosen for a new company.",
   "overview": "The video covers new demo data in the Contoso demo data tool, built to make reporting and analytics demos easier. It adds more sales and purchasing documents, with variation across time, categories and salespeople.\n\nIt also explains how to get the data: select the package called \"analytics\", or choose all demo data when creating a new company. The tool is an open-source project (Contoso Coffee) that accepts community contributions, and further demo data investment is planned for the next release wave.",
   "key_points": [
-    "The analytics demo data is a package in the Contoso demo data tool, named 'analytics'.",
-    "It is also included automatically when a new company is created with all demo data selected.",
-    "It is optional and must be selected explicitly when installing a new company.",
-    "Sales quotes go from 2 to 18 records; 4 new blanket sales orders; return orders are newly available; posted sales invoices increase from 80.",
-    "Purchase orders and posted purchase orders double from 14 to 29 records.",
+    "The analytics demo data is a package in the Contoso demo data tool, named 'analytics', and can be installed from the tool itself.",
+    "It is also included when a new company is created with all demo data selected.",
+    "It is not part of the core setup: a new company with only the chart of accounts does not get this document demo data unless analytics is enabled.",
+    "Sales quotes go from 2 to 18; blanket sales orders go from none to 4; about 80 more posted sales invoices; return orders now have demo data.",
+    "Purchase orders double from 14 to 29; posted purchase orders also get new demo data.",
     "The data varies across time, categories and salespeople, and does not have to tie completely into the core demo data.",
-    "The demo data tool is open source (Contoso Coffee), and the presenter says investment will continue next release wave with more entity types and more variation."
+    "The demo data tool (Contoso Coffee) is open source and accepts contributions; the presenter says investment will continue next release wave with more entity types and more variation."
   ],
   "audience": [
     "functional consultant",

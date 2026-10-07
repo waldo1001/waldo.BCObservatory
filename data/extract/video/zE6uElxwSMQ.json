@@ -132,24 +132,6 @@
         "booking"
       ],
       "system": "sales"
-    },
-    {
-      "name": "Data integration and smart connectivity",
-      "description": "Connecting and making data smart through integration is identified as the key game changer beyond just migrating data from on-premises to cloud.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 82.1,
-      "t_end": 95,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "integration",
-        "data-connectivity",
-        "intelligent-systems"
-      ],
-      "system": "integration"
     }
   ],
   "objects": [],
@@ -189,6 +171,12 @@
       "check": "exact"
     },
     {
+      "t": 53.9,
+      "text": "Choosing Microsoft felt like a natural step since we use Dynamics now for several years",
+      "why_it_matters": "Explains why they chose Business Central: they were already invested in the Microsoft ecosystem.",
+      "check": "exact"
+    },
+    {
       "t": 82.1,
       "text": "Connecting data and making it smart, it's the actual game changer.",
       "why_it_matters": "Highlights that integration and data connectivity are critical beyond just migration.",
@@ -198,6 +186,12 @@
       "t": 95,
       "text": "The booking site and the booking board runs much faster and we get access to data in real time.",
       "why_it_matters": "Quantifies the performance and access improvements from cloud-based Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 95,
+      "text": "And what really stood out is the positive impact it had on customer satisfaction.",
+      "why_it_matters": "States the main business outcome Carglass reports after moving to Business Central online.",
       "check": "exact"
     }
   ],

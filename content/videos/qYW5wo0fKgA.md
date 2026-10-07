@@ -2,7 +2,7 @@
 id: video/qYW5wo0fKgA
 type: video
 title: "What's Cooking in Business Central: Early Access Preview"
-summary: "Early access preview (EAP) sandbox environments for Business Central version 28.0, created from the admin center. Evidence for the requirements: partner sandbox license, USGB and DE regions only, weekly updates, not for production, and may be deleted without notice."
+summary: This video shows how to create an early access preview (EAP) sandbox environment from the admin center. The environment runs Business Central version 28.0, while 27.0 is the latest released version. EAP environments need a partner sandbox license and can currently be created only in USGB and DE. They are updated to newer builds weekly and are not for production, because they may be deleted without notice.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - feature discovery
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:07.303Z"
   flags: []
 generated:
-  at: "2026-10-06T18:21:27.679Z"
+  at: "2026-10-07T22:52:07.339Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -29,11 +29,11 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=qYW5wo0fKgA&t=5s
-    title: "Early Access Preview Sandbox Environments: generally available"
+    title: "Early Access Preview Sandbox Environments: preview"
     date: "2025-10-10T07:34:23.000Z"
     commit: null
     t: 5
-    quote: we have just released version 27.0 of Business Central, but you can already get a look at version 280
+    quote: we're going to have a look at early access preview sandbox environments
   - kind: video
     url: https://www.youtube.com/watch?v=qYW5wo0fKgA&t=90s
     title: "Feature Discovery Capabilities: announced"
@@ -118,7 +118,7 @@ chapters:
     title: Important Considerations and Limitations
 features:
   - name: Early Access Preview Sandbox Environments
-    status: ga
+    status: preview
     t: 5
     verified: true
     status_source: video
@@ -156,9 +156,9 @@ quotes:
 
 # What's Cooking in Business Central: Early Access Preview
 
-> Early access preview (EAP) sandbox environments for Business Central version 28.0, created from the admin center. Evidence for the requirements: partner sandbox license, USGB and DE regions only, weekly updates, not for production, and may be deleted without notice.
+> This video shows how to create an early access preview (EAP) sandbox environment from the admin center. The environment runs Business Central version 28.0, while 27.0 is the latest released version. EAP environments need a partner sandbox license and can currently be created only in USGB and DE. They are updated to newer builds weekly and are not for production, because they may be deleted without notice.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qYW5wo0fKgA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-10 · 2:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qYW5wo0fKgA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-10 · 2:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -189,7 +189,7 @@ The video shows the creation and confirmation steps, including the message box w
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Early Access Preview Sandbox Environments | generally available, demoed | [0:05](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=5s) | "we have just released version 27.0 of Business Central, but you can already get a look at version 280" ([0:05](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=5s)) |
+| Early Access Preview Sandbox Environments | preview, demoed | [0:05](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=5s) | "we're going to have a look at early access preview sandbox environments" ([0:05](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=5s)) |
 | EAP Environment Notification Bar | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=79s) |  |
 | Feature Discovery Capabilities | announced | [1:30](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=90s) | "We are working on adding capabilities so that you can easily discover new features inside these environments" ([1:30](https://www.youtube.com/watch?v=qYW5wo0fKgA&t=90s)) |
 

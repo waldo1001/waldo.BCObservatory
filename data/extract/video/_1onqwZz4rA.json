@@ -193,6 +193,12 @@
       "check": "exact"
     },
     {
+      "t": 125.4,
+      "text": "You have like 80 invoices posted more than what you used to have. Um for return orders you actually now have demo data.",
+      "why_it_matters": "Gives the actual change in posted invoices and return orders, which the page had wrong.",
+      "check": "exact"
+    },
+    {
       "t": 217.6,
       "text": "There's a one small difference between the demo data for analytics and the like the normal transactional demo data is that we can be",
       "why_it_matters": "Clarifies the design philosophy that analytics demo data has different constraints than the transactional Contoso story.",
@@ -202,12 +208,6 @@
       "t": 245.7,
       "text": "Also um you don't have to install analytics and therefore it doesn't necessarily have to completely tie into the to the kind of the",
       "why_it_matters": "Important limitation note that analytics demo data is optional and not part of the default installation.",
-      "check": "exact"
-    },
-    {
-      "t": 304.1,
-      "text": "Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the",
-      "why_it_matters": "Introduces a new information channel for partners to learn about upcoming features early.",
       "check": "exact"
     }
   ],

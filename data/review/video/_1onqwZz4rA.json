@@ -1,0 +1,36 @@
+{
+  "video_id": "_1onqwZz4rA",
+  "item_id": "video/yt-microsoft/_1onqwZz4rA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Posted sales invoices: transcript says about 80 more invoices than before, not 'increase from 80'. The key point is corrected; the Sales Documents feature description still has the wrong wording and cannot be edited here.",
+    "Purchasing: transcript only says purchase orders double from 14 to 29; posted purchase orders get no count. The key point is corrected; the Purchasing feature description still overstates this.",
+    "Optional install: the package is included automatically when all demo data is chosen, so 'must be selected explicitly' was too strong. Summary and key point reworded.",
+    "Dropped the 304.1 quote about the under-the-hood YouTube series because it is not about demo data.",
+    "Feature statuses: the shipped release wave 2 features are set to ga with verbatim evidence."
+  ],
+  "input_hash": "eb6ef578ac95dd9d0760462b01cacc06b414b561f7414b83a538cf5489754055",
+  "by": "opus",
+  "at": "2026-10-07T22:52:39.252Z",
+  "applied": [
+    "Continued Demo Data Investment: status announced",
+    "Contoso Coffee Open-Source Project: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 125s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Enhanced Demo Data Tool for Analytics -> ga: evidence not verbatim or does not state the status",
+    "status Sales Documents Demo Data -> ga: evidence not verbatim or does not state the status",
+    "status Purchasing Documents Demo Data -> ga: evidence not verbatim or does not state the status",
+    "status Analytics Package Installation -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.093173
+  }
+}

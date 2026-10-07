@@ -15,12 +15,12 @@ tags:
   - security
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:39.735Z"
   flags: []
 generated:
-  at: "2026-10-06T18:17:55.366Z"
+  at: "2026-10-07T22:51:39.774Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,6 +69,13 @@ evidence:
     commit: null
     t: 308
     quote: it's not only CRUD operations but anything in your API page that is exposed as a bound action or a method can also be
+  - kind: video
+    url: https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=346s
+    title: Introducing MCP Server Configurations for Business Central (Part 2)
+    date: "2026-01-21T16:00:31.000Z"
+    commit: null
+    t: 346
+    quote: On the business central side, you need to create an MCP server configuration where you allow modifications
   - kind: video
     url: https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=371s
     title: Introducing MCP Server Configurations for Business Central (Part 2)
@@ -166,6 +173,9 @@ quotes:
   - t: 308
     text: it's not only CRUD operations but anything in your API page that is exposed as a bound action or a method can also be
     check: exact
+  - t: 346
+    text: On the business central side, you need to create an MCP server configuration where you allow modifications
+    check: exact
   - t: 371
     text: it allows you to start with lowrisk readonly scenarios and then as you gain trust in the LLM's abilities you can open up for
     check: exact
@@ -178,7 +188,7 @@ quotes:
 
 > MCP server configurations in Business Central, which are in preview. They control which API pages and actions an MCP client can use, and whether access is read-only or allows writes. Covers the permission model, dynamic tool mode, discovering additional objects and bound actions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GeT5E_f9A9Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 9:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GeT5E_f9A9Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-21 · 9:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,13 +198,13 @@ The video also covers dynamic tool mode, which discovers tools on demand through
 
 ## Key points
 
-- Prerequisite: the MCP server must be enabled in public preview. The feature is work in progress.
+- Prerequisite: the MCP server must be enabled in public preview, which sits under a feature management flag. The feature is work in progress.
 - The default configuration grants read access only, so agents cannot change data unless you configure it.
 - The default corresponds to no tools selected, with dynamic tool mode and discover additional objects both turned on.
 - MCP uses the same authentication and permission model as APIs, including entitlements and permissions.
+- A named configuration has a name, a description, and a list of available tools (API pages) with read or modify/delete access. It must be set to active. Unless the allow create, update, delete option is selected, everything stays read-only.
 - Copilot Studio supports up to 70 tools, so selecting from all API pages can exceed the limit. Dynamic tool mode discovers tools on demand, but they are not available from the start.
 - Methods and bound actions exposed on an API page can be called by the LLM or agent, not only CRUD operations.
-- Only API pages are supported for now. Start with low-risk read-only scenarios and open up write access as trust grows.
 
 ## Chapters
 
@@ -224,6 +234,7 @@ The video also covers dynamic tool mode, which discovers tools on demand through
 - [3:48](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=228s) "currently C-pilot Studio supports up to 70 tools. If you look at all the API pages in the system, you can easily extend to"
 - [4:20](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=260s) "the default configuration that you see actually corresponds to having no tools selected but both dynamic tool mode and discover additional objects set to"
 - [5:08](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=308s) "it's not only CRUD operations but anything in your API page that is exposed as a bound action or a method can also be"
+- [5:46](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=346s) "On the business central side, you need to create an MCP server configuration where you allow modifications"
 - [6:11](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=371s) "it allows you to start with lowrisk readonly scenarios and then as you gain trust in the LLM's abilities you can open up for"
 - [7:12](https://www.youtube.com/watch?v=GeT5E_f9A9Q&t=432s) "the MCP server is currently in preview this is work in progress and you saw make all functionality available we have started with API"
 

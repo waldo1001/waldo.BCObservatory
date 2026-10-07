@@ -1,0 +1,27 @@
+{
+  "video_id": "kD8kX14VVZE",
+  "item_id": "video/yt-microsoft/kD8kX14VVZE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on verification status said it 'supports the audit trail'; the transcript only says it is important information whether emission is verified. Reworded.",
+    "Key point said the batches are 'manually created'; the transcript only says you need a separate batch for CBAM and EPR, at least one each. Reworded.",
+    "All quotes are verbatim. The quote at 595.1 runs on into segment 607.6, which is fine.",
+    "All features stay unclear. The video is a 2025 release wave 2 what's-new session but never states preview or GA status explicitly.",
+    "Summary is accurate and kept."
+  ],
+  "input_hash": "33a6c60a40d19fc1f1a0c9523bbaae1a279a4b71baf6913c41ce2dcea992a0b1",
+  "by": "opus",
+  "at": "2026-10-07T22:52:21.603Z",
+  "applied": [
+    "quote at 790s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09071699999999999
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "video_id": "jWqjDTbqjeE",
+  "item_id": "video/yt-microsoft/jWqjDTbqjeE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Agent Extension Deployment was marked announced, but the transcript says it is in preview (deploy to sandboxes in the preview, production later). Changed to preview.",
+    "Agent Evaluation Framework had no evidence quote, but the transcript says 'we will also soon give you the means to actually go and evaluate the agents'. Set to announced with that quote at t=822.5.",
+    "The Copilot Studio Agent Integration quote starts in segment t=1059, not t=1026.2. Corrected the evidence_t.",
+    "The key point said both agents were demoed. Only the Payables Agent was demoed in the product. The Sales Order Agent was shown on a slide. Reworded.",
+    "All 7 quotes are verbatim and checked against the transcript. The summary is supported."
+  ],
+  "input_hash": "40a28f5c2f091de8a2b06533e5d8bb154727dac1af87db15319897ed0114e277",
+  "by": "opus",
+  "at": "2026-10-07T22:51:27.035Z",
+  "applied": [
+    "Agent Designer in Web Client: status preview",
+    "Agent Extension Deployment: status preview",
+    "Copilot Studio Agent Integration: status announced",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Agent Evaluation Framework -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12367700000000001
+  }
+}

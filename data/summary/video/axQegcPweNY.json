@@ -1,16 +1,16 @@
 {
   "video_id": "axQegcPweNY",
   "item_id": "video/yt-microsoft/axQegcPweNY",
-  "summary": "Draft page for electronic invoices in Business Central (2025 release wave 2), in preview: users review and edit incoming e-documents before posting. It covers line matching through item references, text-to-account mapping, historical lines and an AI fallback, and requires e-document service version 2.",
+  "summary": "Draft page for electronic invoices in Business Central (2025 release wave 2), coming in public preview in a minor release after October: users review and edit incoming e-documents before finalizing them into purchase invoices. Lines are matched by item references, text-to-account mapping, historical posted invoices for the same vendor and an AI fallback. To use it, set the e-document service import process to version 2.",
   "overview": "The video compares the old e-document workflow with a new draft page for electronic invoices. The draft page lets users review, refine and edit incoming documents before posting, including quantities, prices, units of measure, descriptions, type, number and vendor. It is similar to the draft page used by the payables agent.\n\nThe demo shows how lines are matched in order: item references, text-to-account mapping, then previously posted invoices from the same vendor. If those fail, AI suggests a general ledger account and explains why. The feature is in public preview and will not be available in October 2025. It is expected in a later minor release. The presenter advises testing in a sandbox first.",
   "key_points": [
-    "The draft page is in preview. It will not ship in October 2025 and is expected in a later minor release. Track the release plan for exact timing.",
-    "Only one setup can be used at a time. The old e-document processing and the new draft page cannot be used together. The new one uses e-document service version 2.",
+    "The draft page is a public preview. It will not ship in October 2025 and is expected in a later minor release. Track the release plan for exact timing and try it in a sandbox first.",
+    "Only one setup can be used at a time. The old version 1 processing and the new draft page cannot be used together. The new one is selected by setting the import process to version 2 on the e-document service.",
     "Draft lines are fully editable: quantity, price, unit of measure, description, type and number.",
-    "If the vendor is not identified from VAT number or name and address, the user can change the vendor on the draft.",
-    "Line matching uses item references first, with a link to the source item reference. Text-to-account mapping is another configured option.",
-    "Historical matching looks at previously posted invoices from the same vendor, so it only works if such invoices exist.",
-    "When other methods fail, AI suggests a general ledger account with an explanation. The suggestion needs user review. Test in a sandbox before production."
+    "If the vendor is not identified from VAT number or name and address, the user can choose the vendor with a lookup on the draft.",
+    "Line matching first tries configured item references or text-to-account mapping. Info icons show how a line was filled and link to the source item reference.",
+    "Historical matching looks at previously posted invoices from the same vendor, for example an exact description match on a recent purchase.",
+    "If no history is found, AI tries to identify a general ledger account and explains why it chose it."
   ],
   "audience": [
     "functional consultant",

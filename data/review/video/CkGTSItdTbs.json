@@ -1,0 +1,23 @@
+{
+  "video_id": "CkGTSItdTbs",
+  "item_id": "video/yt-microsoft/CkGTSItdTbs",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes match the transcript word for word, and the summary and key points are supported by it.",
+    "Feature statuses stay unclear. The video says the feature is 'available to all databases', but it never states whether it is in preview or generally available.",
+    "'Fixed asset global availability' overlaps with the main feature, but the transcript supports it, so it stays.",
+    "The 'inventory management' topic is a stretch because the video covers fixed assets, not inventory. This is minor and can't be edited."
+  ],
+  "input_hash": "4212b8fa6ca62f6d65fcb0f4d48242b3d04cce39d16ac0861a2ca4704e9b34e7",
+  "by": "opus",
+  "at": "2026-10-07T22:52:48.185Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040725
+  }
+}

@@ -10,7 +10,7 @@
     "Copilot Studio supported around 70 tools when the video was recorded. The limit will likely change.",
     "API page tool names append the object type and ID to stay unique. Descriptions and the about text property help the model reason about what each API does.",
     "The discover additional objects setting exposes more readonly API pages. It can raise the chance of model errors, use more context and reduce performance.",
-    "For hosts other than Copilot Studio, the bcmcp proxy sample is on BCTech samples. It is not production ready, not part of the product, and is expected to be replaced by a simpler setup."
+    "For hosts other than Copilot Studio, the bcmcp proxy sample is on BCTech samples (aka.ms/bct). It is only a sample delivered as is and is not part of the product. An update is expected to make setup easier and remove the need for the proxy."
   ],
   "audience": [
     "developer",

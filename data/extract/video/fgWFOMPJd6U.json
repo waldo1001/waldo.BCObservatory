@@ -232,8 +232,8 @@
       "name": "External Data Integration for Summarization",
       "description": "A planned future enhancement to integrate external data sources like LinkedIn or OneDrive alongside Business Central database data for enriched summarization context.",
       "status": "announced",
-      "status_evidence_t": 827,
-      "status_evidence_quote": "Right now all the sources that I mentioned are coming from the business central database itself but we could easily think of uh you",
+      "status_evidence_t": 814.6,
+      "status_evidence_quote": "in future we do have plans of increasing both the tracks the user context track but also the data context",
       "status_evidence_verified": true,
       "t_start": 814.6,
       "t_end": 857,
@@ -362,71 +362,6 @@
       "system": "platform"
     },
     {
-      "name": "GPT-4o model usage for ground checks",
-      "description": "Previous model used for summarization ground checks and related tasks before migration to newer models.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1499.3,
-      "t_end": 1519.3,
-      "is_demoed": false,
-      "caveats": [
-        "Being phased out in favor of GPT-4o mini"
-      ],
-      "tags": [
-        "model",
-        "gpt-4o",
-        "ground checks"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "GPT-4o mini model adoption",
-      "description": "Small language model that is performant and faster than larger models. Used for summarization feature to provide results in a couple of seconds. All ground checks and related prompts have been migrated from GPT-4o to GPT-4o mini.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1519.3,
-      "t_end": 1556,
-      "is_demoed": false,
-      "caveats": [
-        "Still relatively large models requiring significant hardware",
-        "Some prompts may benefit from larger models with better reasoning capabilities"
-      ],
-      "tags": [
-        "model selection",
-        "gpt-4o mini",
-        "performance",
-        "small language models"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Model reasoning and selection strategy",
-      "description": "Approach to selecting models based on feature needs. Acknowledges that scoring and reasoning parts of summarization might benefit from different models like GPT-4o1 with better reasoning capabilities, while maintaining flexibility to experiment.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1556,
-      "t_end": 1627,
-      "is_demoed": false,
-      "caveats": [
-        "No definitive right answer yet",
-        "Still experimenting with newer models",
-        "Trade-offs between different model capabilities"
-      ],
-      "tags": [
-        "model selection",
-        "reasoning",
-        "gpt-o1",
-        "experimentation"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Small language model advantages and trade-offs",
       "description": "Small language models offer cost advantages and performance benefits over larger models. However, they require maintenance and present trade-offs between using existing models versus maintaining custom models.",
       "status": "unclear",
@@ -546,12 +481,6 @@
       "check": "exact"
     },
     {
-      "t": 372.1,
-      "text": "a pipeline of i just did a major category of two but like the first prompt in itself uh we do run it",
-      "why_it_matters": "Explains the performance optimization strategy using parallel processing for multiple data sources.",
-      "check": "fuzzy"
-    },
-    {
       "t": 476.1,
       "text": "we filter out only the pages that are named statistics because that's where the aggregated data exist and that's very good for summarization",
       "why_it_matters": "Reveals a key design decision to use statistics pages specifically for better performance and effectiveness.",
@@ -565,20 +494,14 @@
     },
     {
       "t": 814.6,
-      "text": "Of we also want to stabilize uh more and more with the current version and and then in future we do have plans of",
-      "why_it_matters": "Indicates the feature is still in stabilization phase and has clear future expansion plans for user and data context tracking.",
+      "text": "in future we do have plans of increasing both the tracks the user context track but also the data context.",
+      "why_it_matters": "Planned direction for user context and data sources.",
       "check": "exact"
     },
     {
       "t": 857,
-      "text": "There's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.",
-      "why_it_matters": "Provides telemetry-based evidence that the default summary insights are sufficient for most users.",
-      "check": "exact"
-    },
-    {
-      "t": 857,
-      "text": "So, there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show",
-      "why_it_matters": "Demonstrates strong adoption of the summarize feature but lower engagement with expanded insights, suggesting the initial summary is sufficient for most users.",
+      "text": "there's definitely very good early adoption. We are seeing that. Um uh there's a little bit of lesser percentage of people clicking show more.",
+      "why_it_matters": "Telemetry signal on adoption and Show more usage.",
       "check": "exact"
     },
     {
@@ -600,6 +523,12 @@
       "check": "exact"
     },
     {
+      "t": 1519.3,
+      "text": "And now uh we have migrated all of them to 41 mini.",
+      "why_it_matters": "States the current model used for summarization prompts.",
+      "check": "exact"
+    },
+    {
       "t": 1556,
       "text": "Uh it depends on the need of the feature, right? Definitely. uh for for summarization specifically um we believe that 41 mini is enough",
       "why_it_matters": "Justifies model selection based on performance requirements and cost efficiency rather than always using largest models.",
@@ -613,14 +542,8 @@
     },
     {
       "t": 1627,
-      "text": "definitely read about them understand the differences between each of them and then uh start with the one that meets the closest with your",
-      "why_it_matters": "Provides developer guidance on model selection strategy emphasizing the need to experiment despite initial selection confidence.",
-      "check": "exact"
-    },
-    {
-      "t": 1627,
-      "text": "start with the one that meets the closest with your need of the feature and then yes still even if the you believe this",
-      "why_it_matters": "Provides clear guidance to partners on model selection strategy - start with best fit but always test alternatives.",
+      "text": "do try it with other models do and that's why have a good set of test so you could easily switch between models",
+      "why_it_matters": "Advice to partners on model selection and testing.",
       "check": "exact"
     },
     {

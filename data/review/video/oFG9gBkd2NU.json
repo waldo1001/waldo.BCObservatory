@@ -1,0 +1,28 @@
+{
+  "video_id": "oFG9gBkd2NU",
+  "item_id": "video/yt-microsoft/oFG9gBkd2NU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim in the transcript.",
+    "Key point on partner help content overstated the transcript: it says content 'can' be formatted to be readable on the partner website, not that it 'must' be. 'Structured documentation' is not stated. Rewrote the point.",
+    "Key points left out that only curated search terms derived from the user query are passed to Bing, and that answers show the extension as a reference source with 'powered by Bing'. Added both.",
+    "Feature statuses stay unclear: the transcript says 'starting this wave' and 'as of release wave 2' but never says preview or generally available.",
+    "Extension-Specific Help Content t_start 160.2 is early. The targeted help content statement is at 270.3.",
+    "The Safety and Cost features are FAQ answers more than features, but the transcript supports them, so they are kept."
+  ],
+  "input_hash": "e19f50712ea038e5aec1e957ed1761a0826dbee6968947bf6d88c5d210ecf223",
+  "by": "opus",
+  "at": "2026-10-07T22:52:11.548Z",
+  "applied": [
+    "quote at 392s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06948900000000001
+  }
+}

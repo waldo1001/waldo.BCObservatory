@@ -1,0 +1,39 @@
+{
+  "video_id": "fgWFOMPJd6U",
+  "item_id": "video/yt-microsoft/fgWFOMPJd6U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The page gets the model wrong. The transcript says prompts were on 4o and 4o mini and have since been migrated to 4.1 mini ('41 mini'). The page claims everything moved to GPT-4o mini.",
+    "The 'Model reasoning and selection strategy' feature refers to 'GPT-4o1'. The transcript says 'newer models like 01' and 4.1 mini.",
+    "Two features have names that encode the wrong model ('GPT-4o mini model adoption', 'GPT-4o model usage for ground checks'), so I dropped them. 'Summarization with multiple model support' covers the model topic correctly.",
+    "A key point listed 'list pages', but the transcript says ListPlus ('list plus') single entity pages.",
+    "The evidence quote for 'External Data Integration' starts at t 827, not 814.6, and it does not state a plan. I replaced it with the 'plans of increasing both the tracks' span.",
+    "Summarize with Copilot is described as available on all single entity pages and showing early adoption, so I set it to GA. User intent detection is stated as an intent, so I set it to announced.",
+    "There were duplicate overlapping quotes at t 857 and t 1627. I dropped both pairs and re-added one of each. The t 372.1 and t 814.6 fragments were not useful, so I dropped them."
+  ],
+  "input_hash": "5788cb16985faf6a22636b088c4b958e93f7587cf5fd8bfe29f1a6177f5f1011",
+  "by": "opus",
+  "at": "2026-10-07T22:52:16.435Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "External Data Integration for Summarization: status announced",
+    "dropped 6 quote(s)",
+    "quote at 857s",
+    "quote at 1627s",
+    "quote at 1519s",
+    "quote at 815s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Summarize with Copilot -> ga: evidence not verbatim or does not state the status",
+    "status User Intent Detection for Future Summarization -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.20185699999999998
+  }
+}

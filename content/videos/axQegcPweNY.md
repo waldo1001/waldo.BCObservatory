@@ -2,7 +2,7 @@
 id: video/axQegcPweNY
 type: video
 title: "What's New: Draft Page for Electronic Invoices (2025 release wave 2)"
-summary: "Draft page for electronic invoices in Business Central (2025 release wave 2), in preview: users review and edit incoming e-documents before posting. It covers line matching through item references, text-to-account mapping, historical lines and an AI fallback, and requires e-document service version 2."
+summary: "Draft page for electronic invoices in Business Central (2025 release wave 2), coming in public preview in a minor release after October: users review and edit incoming e-documents before finalizing them into purchase invoices. Lines are matched by item references, text-to-account mapping, historical posted invoices for the same vendor and an AI fallback. To use it, set the e-document service import process to version 2."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - item references
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:47.834Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:47.872Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,7 +34,7 @@ evidence:
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 539
-    quote: This functionality will be in a public preview.
+    quote: So just to explain this functionality will be in a public preview.
   - kind: video
     url: https://www.youtube.com/watch?v=axQegcPweNY&t=39s
     title: "What's New: Draft Page for Electronic Invoices (2025 release wave 2)"
@@ -184,9 +184,9 @@ quotes:
 
 # What's New: Draft Page for Electronic Invoices (2025 release wave 2)
 
-> Draft page for electronic invoices in Business Central (2025 release wave 2), in preview: users review and edit incoming e-documents before posting. It covers line matching through item references, text-to-account mapping, historical lines and an AI fallback, and requires e-document service version 2.
+> Draft page for electronic invoices in Business Central (2025 release wave 2), coming in public preview in a minor release after October: users review and edit incoming e-documents before finalizing them into purchase invoices. Lines are matched by item references, text-to-account mapping, historical posted invoices for the same vendor and an AI fallback. To use it, set the e-document service import process to version 2.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=axQegcPweNY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=axQegcPweNY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,13 +196,13 @@ The demo shows how lines are matched in order: item references, text-to-account 
 
 ## Key points
 
-- The draft page is in preview. It will not ship in October 2025 and is expected in a later minor release. Track the release plan for exact timing.
-- Only one setup can be used at a time. The old e-document processing and the new draft page cannot be used together. The new one uses e-document service version 2.
+- The draft page is a public preview. It will not ship in October 2025 and is expected in a later minor release. Track the release plan for exact timing and try it in a sandbox first.
+- Only one setup can be used at a time. The old version 1 processing and the new draft page cannot be used together. The new one is selected by setting the import process to version 2 on the e-document service.
 - Draft lines are fully editable: quantity, price, unit of measure, description, type and number.
-- If the vendor is not identified from VAT number or name and address, the user can change the vendor on the draft.
-- Line matching uses item references first, with a link to the source item reference. Text-to-account mapping is another configured option.
-- Historical matching looks at previously posted invoices from the same vendor, so it only works if such invoices exist.
-- When other methods fail, AI suggests a general ledger account with an explanation. The suggestion needs user review. Test in a sandbox before production.
+- If the vendor is not identified from VAT number or name and address, the user can choose the vendor with a lookup on the draft.
+- Line matching first tries configured item references or text-to-account mapping. Info icons show how a line was filled and link to the source item reference.
+- Historical matching looks at previously posted invoices from the same vendor, for example an exact description match on a recent purchase.
+- If no history is found, AI tries to identify a general ledger account and explains why it chose it.
 
 ## Chapters
 
@@ -219,7 +219,7 @@ The demo shows how lines are matched in order: item references, text-to-account 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Draft page for electronic invoices | preview, demoed | [0:06](https://www.youtube.com/watch?v=axQegcPweNY&t=6s) | "This functionality will be in a public preview." ([8:59](https://www.youtube.com/watch?v=axQegcPweNY&t=539s)) |
+| Draft page for electronic invoices | preview, demoed | [0:06](https://www.youtube.com/watch?v=axQegcPweNY&t=6s) | "So just to explain this functionality will be in a public preview." ([8:59](https://www.youtube.com/watch?v=axQegcPweNY&t=539s)) |
 | Item reference mapping | status not stated, demoed | [5:44](https://www.youtube.com/watch?v=axQegcPweNY&t=344s) |  |
 | Text to account mapping | status not stated | [6:29](https://www.youtube.com/watch?v=axQegcPweNY&t=389s) |  |
 | Historical line matching | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=axQegcPweNY&t=403s) |  |

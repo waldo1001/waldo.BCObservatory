@@ -2,7 +2,7 @@
 id: video/y8WfOiJYDPs
 type: video
 title: "#BCTalent Stories: GraVoc"
-summary: GraVoc, a Microsoft partner, describes using the Microsoft cross-skill program to move its Dynamics GP consultants to Business Central. The partner has 100 GP customers to migrate to BC in 4 years and calls the program essential to its growth.
+summary: GraVoc describes joining the cross-skill program to train its Dynamics GP consultants on Business Central, so they can guide clients from GP to BC as GP goes away. It has 100 GP customers to move in 4 years and calls the program essential to its growth. Its consultants took to the training quickly and are now asking to be involved.
 tier: official
 language: en
 tags:
@@ -14,18 +14,25 @@ tags:
   - customer migration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:27.874Z"
   flags: []
 generated:
-  at: "2026-10-06T18:16:50.533Z"
+  at: "2026-10-07T22:51:27.912Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: b4eb8e0f921706aa1d9c076384176acfc5b238f1091f36e67a98d1e2af8041d8
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=y8WfOiJYDPs&t=25s
+    title: "#BCTalent Stories: GraVoc"
+    date: "2026-01-22T23:01:18.000Z"
+    commit: null
+    t: 25
+    quote: The value of the cross-skill program to me was getting our team up to speed without pulling any of the rest of us out
   - kind: video
     url: https://www.youtube.com/watch?v=y8WfOiJYDPs&t=36s
     title: "#BCTalent Stories: GraVoc"
@@ -97,6 +104,9 @@ features:
     status_source: video
 objects_mentioned: []
 quotes:
+  - t: 25
+    text: The value of the cross-skill program to me was getting our team up to speed without pulling any of the rest of us out
+    check: exact
   - t: 36
     text: We have 100 GP customers to move in 4 years, so the cross-skill program is essential to our growth.
     check: exact
@@ -113,9 +123,9 @@ quotes:
 
 # #BCTalent Stories: GraVoc
 
-> GraVoc, a Microsoft partner, describes using the Microsoft cross-skill program to move its Dynamics GP consultants to Business Central. The partner has 100 GP customers to migrate to BC in 4 years and calls the program essential to its growth.
+> GraVoc describes joining the cross-skill program to train its Dynamics GP consultants on Business Central, so they can guide clients from GP to BC as GP goes away. It has 100 GP customers to move in 4 years and calls the program essential to its growth. Its consultants took to the training quickly and are now asking to be involved.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=y8WfOiJYDPs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-22 · 1:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=y8WfOiJYDPs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-01-22 · 1:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -125,12 +135,12 @@ The speaker says the partner has 100 GP customers to move in 4 years. They found
 
 ## Key points
 
-- The cross-skill program is a Microsoft program for moving partner consultants from Dynamics GP to Business Central.
-- Its purpose is to let partners support customer migrations from GP to BC.
+- The cross-skill program trains a partner's GP consultants on Business Central so they can take clients from GP to BC.
+- GraVoc valued getting its team up to speed without pulling the rest of the staff out of the loop.
 - GraVoc has 100 GP customers to move in 4 years and calls the program essential to its growth.
 - The speaker did not expect the program to be this easy.
-- Consultants who went through the training are volunteering for BC work.
-- The partner says it supports its consultants as they build skills across both platforms.
+- Consultants who went through the training are raising their hands to be involved.
+- The partner frames the training as benefiting the consultants as well as the company.
 
 ## Chapters
 
@@ -144,12 +154,13 @@ The speaker says the partner has 100 GP customers to move in 4 years. They found
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cross-skill program | status not stated | [0:25](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=25s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cross-skill program | status not stated | [0:25](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=25s) |
 
 ## Quotes
 
+- [0:25](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=25s) "The value of the cross-skill program to me was getting our team up to speed without pulling any of the rest of us out"
 - [0:36](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=36s) "We have 100 GP customers to move in 4 years, so the cross-skill program is essential to our growth."
 - [0:48](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=48s) "I did not think that the cross-skill program would be this easy. The people that went through the training are raising their hands."
 - [1:02](https://www.youtube.com/watch?v=y8WfOiJYDPs&t=62s) "they want to hit the ground running our people really feel like we're behind them and supporting them in telling them"

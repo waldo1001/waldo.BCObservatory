@@ -2,7 +2,7 @@
 id: video/trjbhZvZTCY
 type: video
 title: "#BCTalent in EMEA: Bridging The Talent Gap Together"
-summary: The BC Talent program in EMEA, launched three years ago, has onboarded over 700 new Business Central professionals with a 91% retention rate and billable staff in 10 weeks. The video also sets out a strategy for building AI skills in BC teams.
+summary: "The BC Talent program in EMEA, started three years ago, has onboarded more than 700 new Business Central professionals with a 91% retention rate, billable in 10 weeks. Senior staff can save up to 80% of their time by not having to train juniors. The video presents three ways to build AI-ready Business Central teams: combining business process knowledge with AI fluency, AI-proofing existing staff, and turning Gen Z's AI skills into Business Central expertise."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - business process expertise
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:56.073Z"
   flags: []
 generated:
-  at: "2026-10-06T18:20:30.920Z"
+  at: "2026-10-07T22:51:56.113Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,12 +57,26 @@ evidence:
     t: 29
     quote: AI is reshaping every product, experience, and profession, including ours. But don't worry, AI won't replace your people.
   - kind: video
+    url: https://www.youtube.com/watch?v=trjbhZvZTCY&t=29s
+    title: "#BCTalent in EMEA: Bridging The Talent Gap Together"
+    date: "2025-11-17T13:47:35.000Z"
+    commit: null
+    t: 29
+    quote: But don't worry, AI won't replace your people. But the right people with AI skills will.
+  - kind: video
     url: https://www.youtube.com/watch?v=trjbhZvZTCY&t=51s
     title: "#BCTalent in EMEA: Bridging The Talent Gap Together"
     date: "2025-11-17T13:47:35.000Z"
     commit: null
     t: 51
     quote: To create autonomous AI agents, you need people who understand industry and business processes and can blend that with AI fluency.
+  - kind: video
+    url: https://www.youtube.com/watch?v=trjbhZvZTCY&t=65s
+    title: "#BCTalent in EMEA: Bridging The Talent Gap Together"
+    date: "2025-11-17T13:47:35.000Z"
+    commit: null
+    t: 65
+    quote: And most importantly, you need to think about AI proving the people you already have
   - kind: video
     url: https://www.youtube.com/watch?v=trjbhZvZTCY&t=76s
     title: "#BCTalent in EMEA: Bridging The Talent Gap Together"
@@ -115,11 +129,6 @@ features:
     t: 40
     verified: false
     status_source: video
-  - name: Senior Staff Time Savings
-    status: unclear
-    t: 15
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 1
@@ -134,8 +143,14 @@ quotes:
   - t: 29
     text: AI is reshaping every product, experience, and profession, including ours. But don't worry, AI won't replace your people.
     check: exact
+  - t: 29
+    text: But don't worry, AI won't replace your people. But the right people with AI skills will.
+    check: exact
   - t: 51
     text: To create autonomous AI agents, you need people who understand industry and business processes and can blend that with AI fluency.
+    check: exact
+  - t: 65
+    text: And most importantly, you need to think about AI proving the people you already have
     check: exact
   - t: 76
     text: We can help them turn that knowledge into business central expertise. so you can hire them.
@@ -144,9 +159,9 @@ quotes:
 
 # #BCTalent in EMEA: Bridging The Talent Gap Together
 
-> The BC Talent program in EMEA, launched three years ago, has onboarded over 700 new Business Central professionals with a 91% retention rate and billable staff in 10 weeks. The video also sets out a strategy for building AI skills in BC teams.
+> The BC Talent program in EMEA, started three years ago, has onboarded more than 700 new Business Central professionals with a 91% retention rate, billable in 10 weeks. Senior staff can save up to 80% of their time by not having to train juniors. The video presents three ways to build AI-ready Business Central teams: combining business process knowledge with AI fluency, AI-proofing existing staff, and turning Gen Z's AI skills into Business Central expertise.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=trjbhZvZTCY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-17 · 1:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=trjbhZvZTCY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-17 · 1:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -156,13 +171,13 @@ The second part covers AI. It says AI will not replace people, and that building
 
 ## Key points
 
-- BC Talent started three years ago to address the Business Central talent shortage.
-- Reported results: over 700 new professionals onboarded and a 91% retention rate.
+- BC Talent started three years ago to respond to talent challenges and build the next generation of Business Central talent.
+- Reported results: more than 700 new professionals onboarded and a 91% retention rate.
 - New professionals are billable in 10 weeks.
 - Senior staff can save up to 80% of their time by not having to train juniors.
+- The message: AI won't replace people, but people with AI skills will.
 - Autonomous AI agents need people who combine industry and business process knowledge with AI fluency.
-- The AI strategy covers upskilling existing teams and recruiting Gen Z talent with native AI knowledge.
-- The video ends with a call to hire professionals the program has turned into Business Central experts.
+- The three-part approach also covers AI-proofing existing staff and turning Gen Z's AI knowledge into Business Central expertise so partners can hire them.
 
 ## Chapters
 
@@ -176,11 +191,10 @@ The second part covers AI. It says AI will not replace people, and that building
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Talent Program | status not stated | [0:01](https://www.youtube.com/watch?v=trjbhZvZTCY&t=1s) |  |
-| AI Skills Development for Business Central | status not stated | [0:40](https://www.youtube.com/watch?v=trjbhZvZTCY&t=40s) |  |
-| Senior Staff Time Savings | status not stated | [0:15](https://www.youtube.com/watch?v=trjbhZvZTCY&t=15s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Talent Program | status not stated | [0:01](https://www.youtube.com/watch?v=trjbhZvZTCY&t=1s) |
+| AI Skills Development for Business Central | status not stated | [0:40](https://www.youtube.com/watch?v=trjbhZvZTCY&t=40s) |
 
 ## Quotes
 
@@ -188,7 +202,9 @@ The second part covers AI. It says AI will not replace people, and that building
 - [0:15](https://www.youtube.com/watch?v=trjbhZvZTCY&t=15s) "We've onboarded more than 700 new professionals with a 91% retention rate billable in 10 weeks."
 - [0:15](https://www.youtube.com/watch?v=trjbhZvZTCY&t=15s) "senior staff can save up to 80% of their time not having to train juniors."
 - [0:29](https://www.youtube.com/watch?v=trjbhZvZTCY&t=29s) "AI is reshaping every product, experience, and profession, including ours. But don't worry, AI won't replace your people."
+- [0:29](https://www.youtube.com/watch?v=trjbhZvZTCY&t=29s) "But don't worry, AI won't replace your people. But the right people with AI skills will."
 - [0:51](https://www.youtube.com/watch?v=trjbhZvZTCY&t=51s) "To create autonomous AI agents, you need people who understand industry and business processes and can blend that with AI fluency."
+- [1:05](https://www.youtube.com/watch?v=trjbhZvZTCY&t=65s) "And most importantly, you need to think about AI proving the people you already have"
 - [1:16](https://www.youtube.com/watch?v=trjbhZvZTCY&t=76s) "We can help them turn that knowledge into business central expertise. so you can hire them."
 
 Presenters (as heard): VC Talent Representative.

@@ -1,0 +1,32 @@
+{
+  "video_id": "9g1vwaXmy2s",
+  "item_id": "video/yt-microsoft/9g1vwaXmy2s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All feature evidence quotes ('when it releases in the near future') are only 7 words, below the 8-word minimum.",
+    "evidence_t on most features pointed to segments that do not contain the evidence quote; the quote starts at t=187.9.",
+    "Replaced the evidence with longer verbatim spans at t=187.9 and t=6.2 that state the announced status.",
+    "Added a quote for the custom filters request page example (negative amount format). Summary and key points are supported."
+  ],
+  "input_hash": "74bbdf31322357a525275485eb1c7992ae6cdf792930bb058a5e3e4049acd6c6",
+  "by": "opus",
+  "at": "2026-10-07T22:52:17.570Z",
+  "applied": [
+    "Financial Report Scheduling: status announced",
+    "Export to Excel and PDF: status announced",
+    "Email Delivery to Recipients: status announced",
+    "Report Scheduling Controls: status announced",
+    "Report Inbox and Logs: status announced",
+    "Custom Filters for Schedules: status announced",
+    "Date Filter Formulas: status announced",
+    "quote at 156s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0792134
+  }
+}

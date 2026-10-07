@@ -16,12 +16,12 @@ tags:
   - inventory management
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:48.185Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:48.226Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,7 +149,7 @@ quotes:
 
 > Creating multiple fixed assets from one purchase order line in Business Central (2025 release wave 2). The demo buys 25 smartphones and posts to create 25 fixed asset cards with sequential numbers. The feature was previously part of Italian localization and is now available to all databases.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=CkGTSItdTbs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 4:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=CkGTSItdTbs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 4:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,11 +178,11 @@ In the demo, a first fixed asset is created and a purchase order is entered for 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Create multiple fixed assets from purchase order | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=CkGTSItdTbs&t=6s) |  |
-| Fixed asset global availability | status not stated | [0:17](https://www.youtube.com/watch?v=CkGTSItdTbs&t=17s) |  |
-| Automatic asset numbering with number series | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=CkGTSItdTbs&t=183s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Create multiple fixed assets from purchase order | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=CkGTSItdTbs&t=6s) |
+| Fixed asset global availability | status not stated | [0:17](https://www.youtube.com/watch?v=CkGTSItdTbs&t=17s) |
+| Automatic asset numbering with number series | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=CkGTSItdTbs&t=183s) |
 
 ## AL objects mentioned
 

@@ -2,7 +2,7 @@
 id: video/1xdpUmeun-s
 type: video
 title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
-summary: "AL runtime performance work in Business Central, explained by an AL runtime engineer: data transfer, set load fields, read isolation, tri-state locking, and the real behavior of lock table and set current key. Also covers early ideas for dynamic queries and bulk events."
+summary: "An AL runtime engineer explains performance work in Business Central: data transfer, set load fields, read isolation and tri-state locking. He also explains what lock table and set current key actually do and how temporary tables are implemented. Future ideas (dynamic queries, bulk events, set-based operations) are at idea level only, with no ship dates."
 tier: official
 language: en
 tags:
@@ -20,32 +20,18 @@ tags:
   - bulk events
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:00.017Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:00.071Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 07b47824140104780b4d25aed6aa6226a7356eae483dc15713e0e930e96bec78
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=1895s
-    title: "Bulk events for delete and modify: announced"
-    date: "2025-12-05T15:00:05.000Z"
-    commit: null
-    t: 1895
-    quote: this is not next release or the one after this is like
-  - kind: video
-    url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=22s
-    title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
-    date: "2025-12-05T15:00:05.000Z"
-    commit: null
-    t: 22
-    quote: I'm mess I work on the AL runtime in one of the server teams.
   - kind: video
     url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=341s
     title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
@@ -96,6 +82,13 @@ evidence:
     t: 954
     quote: They kind of wanted this in between which is generally recommitted. So we wanted to give them that ability and then we just also
   - kind: video
+    url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=1084s
+    title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
+    date: "2025-12-05T15:00:05.000Z"
+    commit: null
+    t: 1084
+    quote: for a long time we had tri-state as an opt-in feature
+  - kind: video
     url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=1265s
     title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
     date: "2025-12-05T15:00:05.000Z"
@@ -109,6 +102,13 @@ evidence:
     commit: null
     t: 1336
     quote: What we actually do is we say um you need to order the data like the resulting data in the order of whatever field
+  - kind: video
+    url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s
+    title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
+    date: "2025-12-05T15:00:05.000Z"
+    commit: null
+    t: 1539
+    quote: And I think that one is maybe even closer to being real. This is idea level like this is one step before.
   - kind: video
     url: https://www.youtube.com/watch?v=1xdpUmeun-s&t=1562s
     title: "Business Central Under the Hood episode 12: Evolving AL for Performance"
@@ -235,11 +235,6 @@ features:
     t: 1022
     verified: false
     status_source: video
-  - name: AL runtime performance investments
-    status: unclear
-    t: 341
-    verified: false
-    status_source: video
   - name: Many table extensions to one optimization
     status: unclear
     t: 1166
@@ -276,9 +271,9 @@ features:
     verified: false
     status_source: video
   - name: Bulk events for delete and modify
-    status: announced
+    status: unclear
     t: 1762
-    verified: true
+    verified: false
     status_source: video
   - name: Move towards set-based operations
     status: unclear
@@ -308,9 +303,6 @@ objects_mentioned:
   - other dictionary data type
   - other set load fields
 quotes:
-  - t: 22
-    text: I'm mess I work on the AL runtime in one of the server teams.
-    check: exact
   - t: 341
     text: So, so uh lately we have done a lot of investment in uh in to improve performance um and more specifically uh performance of
     check: exact
@@ -332,11 +324,17 @@ quotes:
   - t: 954
     text: They kind of wanted this in between which is generally recommitted. So we wanted to give them that ability and then we just also
     check: exact
+  - t: 1084
+    text: for a long time we had tri-state as an opt-in feature
+    check: exact
   - t: 1265
     text: Lock table first and foremost it doesn't actually do anything in the moment like it doesn't go to SQL and takes a big lock
     check: exact
   - t: 1336
     text: What we actually do is we say um you need to order the data like the resulting data in the order of whatever field
+    check: exact
+  - t: 1539
+    text: And I think that one is maybe even closer to being real. This is idea level like this is one step before.
     check: exact
   - t: 1562
     text: One of the problems with queries as they are right now is that you kind of have to write them as an AL object
@@ -366,9 +364,9 @@ quotes:
 
 # Business Central Under the Hood episode 12: Evolving AL for Performance
 
-> AL runtime performance work in Business Central, explained by an AL runtime engineer: data transfer, set load fields, read isolation, tri-state locking, and the real behavior of lock table and set current key. Also covers early ideas for dynamic queries and bulk events.
+> An AL runtime engineer explains performance work in Business Central: data transfer, set load fields, read isolation and tri-state locking. He also explains what lock table and set current key actually do and how temporary tables are implemented. Future ideas (dynamic queries, bulk events, set-based operations) are at idea level only, with no ship dates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1xdpUmeun-s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-12-05 · 36:30 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1xdpUmeun-s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-12-05 · 36:30 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -378,13 +376,13 @@ The episode goes through features that need code changes (data transfer, set loa
 
 ## Key points
 
-- Data transfer moves large datasets in bulk using SQL directly. It needs manual code changes, works only against SQL (not temporary tables or CRM), and matters mostly for large tables.
-- Set load fields loads only chosen fields. It is applied automatically for API calls on API pages, which was where the biggest gains were seen. Elsewhere it needs manual adoption. Its value dropped after many table extensions were consolidated into one.
-- Read isolation lets code choose read uncommitted, read committed, repeatable read or update lock. Tri-state locking adds a read committed state after a modification instead of update lock. It is now enabled by default and can be disabled with lock table.
+- Data transfer moves large datasets in bulk using SQL directly. It needs manual code changes and works only against SQL (not temporary tables or CRM). It matters mostly for large tables: one case with 17 million rows went from days to 40 minutes.
+- Set load fields (originally called partial records) loads only the chosen fields. It is applied automatically for API calls on API pages, which is where the biggest gains were seen. Elsewhere it needs manual adoption. Its value dropped after many table extensions were consolidated into one companion table.
+- Read isolation lets code choose read uncommitted, read committed, repeatable read or update lock. Tri-state locking adds a read committed state after a modification instead of update lock. It started as opt-in, is now used by everyone, and is disabled when code calls lock table.
 - Lock table does not take a table lock in SQL at that moment. It makes later reads use update lock hints and affects the data cache.
 - Set current key does not pick an index. It orders the result by the given fields, which can lead SQL to choose a different index or sort afterwards.
-- Temporary tables are in-memory AVL trees inside NST process memory, and memory grows with data volume. A dictionary gives constant-time lookup instead of logarithmic, but only suits lookup cases.
-- Bulk delete and modify events are announced. Today the runtime falls back to row-by-row when row triggers exist. Use the sampling profiler to find hot paths, for example upgrade codeunits running row by row.
+- Temporary tables are in-memory AVL trees inside NST process memory, so memory grows with data volume. A dictionary gives constant-time lookup instead of logarithmic, but suits only simple lookup cases.
+- Dynamic queries, bulk delete and modify events, and a move toward set-based operations are ideas only, not in code. Today the runtime falls back to row-by-row processing when row triggers exist. Use the sampling profiler to find hot paths, such as upgrade codeunits that process row by row.
 
 ## Chapters
 
@@ -405,24 +403,23 @@ The episode goes through features that need code changes (data transfer, set loa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Data transfer | status not stated | [8:09](https://www.youtube.com/watch?v=1xdpUmeun-s&t=489s) |  |
-| Set load fields (partial records) | status not stated | [11:30](https://www.youtube.com/watch?v=1xdpUmeun-s&t=690s) |  |
-| Read isolation | status not stated | [13:58](https://www.youtube.com/watch?v=1xdpUmeun-s&t=838s) |  |
-| Tri-state locking | status not stated | [17:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1022s) |  |
-| AL runtime performance investments | status not stated | [5:41](https://www.youtube.com/watch?v=1xdpUmeun-s&t=341s) |  |
-| Many table extensions to one optimization | status not stated | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |  |
-| Lock table function behavior | status not stated | [20:55](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1255s) |  |
-| Set current key function behavior | status not stated | [22:01](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1321s) |  |
-| Temporary tables | status not stated | [24:06](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1446s) |  |
-| Dynamic queries at runtime | status not stated | [25:39](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s) |  |
-| Query builder pattern for queries | status not stated | [27:21](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1641s) |  |
-| AI-powered query generation via MCP server | status not stated | [28:00](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1680s) |  |
-| Bulk events for delete and modify | announced | [29:22](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1762s) | "this is not next release or the one after this is like" ([31:35](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1895s)) |
-| Move towards set-based operations | status not stated | [30:17](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1817s) |  |
-| Sampling profiler tool | status not stated | [34:42](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2082s) |  |
-| Dictionary data type for optimization | status not stated | [35:15](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2115s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Data transfer | status not stated | [8:09](https://www.youtube.com/watch?v=1xdpUmeun-s&t=489s) |
+| Set load fields (partial records) | status not stated | [11:30](https://www.youtube.com/watch?v=1xdpUmeun-s&t=690s) |
+| Read isolation | status not stated | [13:58](https://www.youtube.com/watch?v=1xdpUmeun-s&t=838s) |
+| Tri-state locking | status not stated | [17:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1022s) |
+| Many table extensions to one optimization | status not stated | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |
+| Lock table function behavior | status not stated | [20:55](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1255s) |
+| Set current key function behavior | status not stated | [22:01](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1321s) |
+| Temporary tables | status not stated | [24:06](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1446s) |
+| Dynamic queries at runtime | status not stated | [25:39](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s) |
+| Query builder pattern for queries | status not stated | [27:21](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1641s) |
+| AI-powered query generation via MCP server | status not stated | [28:00](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1680s) |
+| Bulk events for delete and modify | status not stated | [29:22](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1762s) |
+| Move towards set-based operations | status not stated | [30:17](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1817s) |
+| Sampling profiler tool | status not stated | [34:42](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2082s) |
+| Dictionary data type for optimization | status not stated | [35:15](https://www.youtube.com/watch?v=1xdpUmeun-s&t=2115s) |
 
 ## AL objects mentioned
 
@@ -442,7 +439,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 ## Quotes
 
-- [0:22](https://www.youtube.com/watch?v=1xdpUmeun-s&t=22s) "I'm mess I work on the AL runtime in one of the server teams."
 - [5:41](https://www.youtube.com/watch?v=1xdpUmeun-s&t=341s) "So, so uh lately we have done a lot of investment in uh in to improve performance um and more specifically uh performance of"
 - [7:36](https://www.youtube.com/watch?v=1xdpUmeun-s&t=456s) "want to use like the super performant things you kind of begin saying like well the abstraction is this but if we"
 - [10:25](https://www.youtube.com/watch?v=1xdpUmeun-s&t=625s) "17 million rows which is a fairly large amount of data from a real customer"
@@ -450,8 +446,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [12:23](https://www.youtube.com/watch?v=1xdpUmeun-s&t=743s) "set load fields is automatically being applied if you do API calls on API pages and that was actually where we saw the biggest"
 - [13:21](https://www.youtube.com/watch?v=1xdpUmeun-s&t=801s) "Nowadays, I think you know removing one join is still great and removing an amount of fields, right?"
 - [15:54](https://www.youtube.com/watch?v=1xdpUmeun-s&t=954s) "They kind of wanted this in between which is generally recommitted. So we wanted to give them that ability and then we just also"
+- [18:04](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1084s) "for a long time we had tri-state as an opt-in feature"
 - [21:05](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1265s) "Lock table first and foremost it doesn't actually do anything in the moment like it doesn't go to SQL and takes a big lock"
 - [22:16](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1336s) "What we actually do is we say um you need to order the data like the resulting data in the order of whatever field"
+- [25:39](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1539s) "And I think that one is maybe even closer to being real. This is idea level like this is one step before."
 - [26:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1562s) "One of the problems with queries as they are right now is that you kind of have to write them as an AL object"
 - [26:20](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1580s) "It's a design time decision. You can't can't change them at one time."
 - [26:51](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1611s) "I want to read from this base table, join in this other table and then maybe join in a third table but I only"

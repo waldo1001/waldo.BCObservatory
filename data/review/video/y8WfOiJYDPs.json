@@ -1,0 +1,28 @@
+{
+  "video_id": "y8WfOiJYDPs",
+  "item_id": "video/yt-microsoft/y8WfOiJYDPs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary, key point 1 and the feature description call the cross-skill program a 'Microsoft program', but the transcript never says who runs it.",
+    "The captions spell the company 'Grayhawk' (t=77). That is a caption error for GraVoc, and the quote is still verbatim.",
+    "The 'development' system tag is weak. The video is about consultant training, not development.",
+    "All quotes are verbatim spans of the transcript. Leaving the feature status as unclear is right, because the transcript does not state a release status."
+  ],
+  "input_hash": "9eda219ccb3d3d3e55be05f56b6a04be811f5030b0e320fb806e11d2335c2134",
+  "by": "opus",
+  "at": "2026-10-07T22:51:27.874Z",
+  "applied": [
+    "Cross-skill program: status unclear",
+    "quote at 25s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.038280999999999996
+  }
+}

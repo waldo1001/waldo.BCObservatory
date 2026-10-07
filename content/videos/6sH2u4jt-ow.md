@@ -17,12 +17,12 @@ tags:
   - storage sync
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:53.237Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:53.284Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,6 +43,13 @@ evidence:
     commit: null
     t: 65
     quote: If files get deleted on external storage they will also not be available anymore for business central environment.
+  - kind: video
+    url: https://www.youtube.com/watch?v=6sH2u4jt-ow&t=90s
+    title: "What's Cooking in Business Central: Storing Document Attachments outside the Database"
+    date: "2025-11-27T16:00:17.000Z"
+    commit: null
+    t: 90
+    quote: After enabling this feature, it is important that we set also root folder for the storage.
   - kind: video
     url: https://www.youtube.com/watch?v=6sH2u4jt-ow&t=145s
     title: "What's Cooking in Business Central: Storing Document Attachments outside the Database"
@@ -144,6 +151,9 @@ quotes:
   - t: 65
     text: If files get deleted on external storage they will also not be available anymore for business central environment.
     check: exact
+  - t: 90
+    text: After enabling this feature, it is important that we set also root folder for the storage.
+    check: exact
   - t: 145
     text: This option automatically offloads all your document attachments from your database by creating a job queue which will be run each night at 100
     check: exact
@@ -156,7 +166,7 @@ quotes:
 
 > Offloading Business Central document attachments to external storage (blob storage, file share, SharePoint): setup with external file accounts and file scenarios, upload and delete policies, nightly job queue, and the backup risk the customer takes on.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6sH2u4jt-ow) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-27 · 4:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6sH2u4jt-ow) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-27 · 4:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -167,12 +177,12 @@ It then covers upload and delete policies: a job queue that runs at 1:00 a.m. by
 ## Key points
 
 - Setup uses the External File Accounts and File Scenarios pages, with the Document Attachments External Storage scenario assigned through Assign Scenarios.
-- A root folder must be configured or the external storage will not work.
-- The scheduled upload job queue runs each night at 1:00 a.m. by default and must be explicitly enabled in the additional scenario setup.
+- After enabling the feature in External Storage Setup (via Additional Scenario Setup), it is important to set a root folder for the storage.
+- Scheduled upload should be enabled; it creates a job queue that runs each night at 1:00 a.m. by default to offload document attachments.
 - Immediate delete after upload conflicts with delayed delete: enabling immediate delete makes the delayed delete option non-editable.
 - Delayed delete keeps files in Business Central for a period set by a date formula; the example shows 7 days.
-- If the option to delete external files is off, files stay on external storage after the attachment is deleted in Business Central.
-- Once files are offloaded, backups are the customer's responsibility, and files deleted on external storage are no longer available in Business Central.
+- An option controls whether external files are deleted when attachments are deleted, covering scenarios where you delete a file in Business Central but keep it on external storage.
+- Uploaded attachments can be verified from the Document Attachments action in Additional Scenario Setup, where Uploaded to External is set to true.
 
 ## Chapters
 
@@ -187,15 +197,15 @@ It then covers upload and delete policies: a job queue that runs at 1:00 a.m. by
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| External Storage for Document Attachments | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=5s) |  |
-| Scheduled Upload with Job Queue | status not stated | [2:08](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=128s) |  |
-| Immediate Delete After Upload Policy | status not stated | [1:53](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=113s) |  |
-| Delayed Delete with Date Formula | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=113s) |  |
-| Delete External Files on Attachment Deletion | status not stated | [2:41](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=161s) |  |
-| Storage Sync Feature | status not stated | [4:10](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=250s) |  |
-| Restore Attachments from External Storage | status not stated | [4:20](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=260s) |  |
+| Feature | Status | At |
+|---|---|---|
+| External Storage for Document Attachments | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=5s) |
+| Scheduled Upload with Job Queue | status not stated | [2:08](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=128s) |
+| Immediate Delete After Upload Policy | status not stated | [1:53](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=113s) |
+| Delayed Delete with Date Formula | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=113s) |
+| Delete External Files on Attachment Deletion | status not stated | [2:41](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=161s) |
+| Storage Sync Feature | status not stated | [4:10](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=250s) |
+| Restore Attachments from External Storage | status not stated | [4:20](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=260s) |
 
 ## AL objects mentioned
 
@@ -213,6 +223,7 @@ Not found in BC28-30: page "External File Accounts", page "File Scenarios", page
 
 - [0:45](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=45s) "you are using this feature as it is and on your own risk because once the files are offloaded it is your responsibility to"
 - [1:05](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=65s) "If files get deleted on external storage they will also not be available anymore for business central environment."
+- [1:30](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=90s) "After enabling this feature, it is important that we set also root folder for the storage."
 - [2:25](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=145s) "This option automatically offloads all your document attachments from your database by creating a job queue which will be run each night at 100"
 - [4:20](https://www.youtube.com/watch?v=6sH2u4jt-ow&t=260s) "you can also bring them back just select from external storage and the system will download all those document attachments back to Business Central"
 

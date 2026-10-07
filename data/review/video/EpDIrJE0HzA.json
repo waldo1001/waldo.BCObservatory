@@ -1,0 +1,24 @@
+{
+  "video_id": "EpDIrJE0HzA",
+  "item_id": "video/yt-microsoft/EpDIrJE0HzA",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim; the ones at t=321 and t=331.2 run on into the next segment, which is allowed.",
+    "Feature statuses correctly stay unclear: the transcript calls the MCP server and the MCP Configurations page 'new' but never states preview or GA.",
+    "Key points and summary are supported; the licensing point matches t=304.9 to t=331.2.",
+    "Minor: the 'inventory' system tag is weak because the demo items are non-inventory laptop items; left as is.",
+    "Minor: the transcript says the agent also uses internet data alongside Business Central (t=293.4); the page omits this, which is not an error."
+  ],
+  "input_hash": "fca89509426a9567ec4e505984b2c412d81137917218feee5a9585a1f9f73bec",
+  "by": "opus",
+  "at": "2026-10-07T22:51:39.422Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052921
+  }
+}

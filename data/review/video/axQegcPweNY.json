@@ -1,0 +1,27 @@
+{
+  "video_id": "axQegcPweNY",
+  "item_id": "video/yt-microsoft/axQegcPweNY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The evidence for the draft page feature pointed to t=6, but the public preview statement is at t=539.8. I corrected the timestamp and lengthened the quote.",
+    "The summary said 'e-document service version 2'. In the transcript, the import process is set to version two on the e-document service, so I reworded it.",
+    "One key point said the AI suggestion 'needs user review', which the transcript does not state. I reworded it to the supported claim that the AI gives an explanation, and added the finalize-draft step.",
+    "The quotes are verbatim, and the ones that run across caption segments are acceptable."
+  ],
+  "input_hash": "475572bf18a62bb26dc97d0c36fde2b20d60d03426d3ea68364c45fd075d3f07",
+  "by": "opus",
+  "at": "2026-10-07T22:52:47.834Z",
+  "applied": [
+    "Draft page for electronic invoices: status preview",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.075401
+  }
+}

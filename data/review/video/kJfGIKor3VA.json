@@ -1,0 +1,24 @@
+{
+  "video_id": "kJfGIKor3VA",
+  "item_id": "video/yt-microsoft/kJfGIKor3VA",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim spans of the transcript.",
+    "Key points are supported by the transcript, including global dimensions 1 to 3, the need to edit reports, and the schema and data refresh of dimension sets.",
+    "Feature statuses are correctly left unclear. The video says this is part of the 2025 release wave 2 launch edition and calls scroll-to-column 'a new feature here in 27', but it never states preview or GA.",
+    "The captions give two different numbers: 105,831 in the report and 105 835 in the analysis mode sum. This is probably a caption error and does not affect the page.",
+    "The 'Dimension sets table' feature overlaps with 'Dynamic dimension naming', but both are supported by the transcript."
+  ],
+  "input_hash": "e202a954b90092e82d417f35114ea436ba6e29928a0e837bc5539fd5a9ef87e0",
+  "by": "opus",
+  "at": "2026-10-07T22:52:21.929Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057701
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - business central integration
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:21.929Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:21.963Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,7 +163,7 @@ quotes:
 
 > Drill-back and dynamic dimension names in the Power BI apps for Business Central, as demonstrated in a 2025 video. Drill-back opens Business Central from a Power BI number to show the underlying transactions. Dimension names now load from Business Central, including shortcut dimensions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kJfGIKor3VA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kJfGIKor3VA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -192,12 +192,12 @@ The second part covers dynamic dimension naming. A new dimension sets table in P
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Drill-back from Power BI to Business Central | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=kJfGIKor3VA&t=29s) |  |
-| Dynamic dimension naming in Power BI apps | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kJfGIKor3VA&t=57s) |  |
-| Analysis mode scroll-to-column feature | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=kJfGIKor3VA&t=156s) |  |
-| Dimension sets table in Power BI | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=kJfGIKor3VA&t=224s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Drill-back from Power BI to Business Central | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=kJfGIKor3VA&t=29s) |
+| Dynamic dimension naming in Power BI apps | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kJfGIKor3VA&t=57s) |
+| Analysis mode scroll-to-column feature | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=kJfGIKor3VA&t=156s) |
+| Dimension sets table in Power BI | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=kJfGIKor3VA&t=224s) |
 
 ## AL objects mentioned
 

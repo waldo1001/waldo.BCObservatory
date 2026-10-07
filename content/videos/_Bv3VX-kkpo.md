@@ -18,12 +18,12 @@ tags:
   - sensitive fields
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:27.281Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:27.321Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -183,7 +183,7 @@ quotes:
 
 > Business Central 2025 release wave 2 user experience changes: factbox resizing, Advanced Tellme semantic search (preview), extra instructions for the sales order agent, week numbers in date pickers, and a data masking property for sensitive fields (preview).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_Bv3VX-kkpo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_Bv3VX-kkpo) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,28 @@
+{
+  "video_id": "_Bv3VX-kkpo",
+  "item_id": "video/yt-microsoft/_Bv3VX-kkpo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The Advanced Tellme evidence quote starts in segment 88.2, but the feature's t_start is 67.7. Setting evidence_t to 88.2.",
+    "The Data masking evidence quote starts in segment 269.6, but the feature's t_start is 239.4. Setting evidence_t to 269.6.",
+    "Factbox resize behavior can move from unclear to ga. The transcript says these improvements are now enabled by default (t 67.7), which means they are not in preview.",
+    "The transcript supports the other features, the quotes, the summary and the key points. 'weak numbers' is verbatim caption text and is kept."
+  ],
+  "input_hash": "7534e5e740ddd3c0e22ebfb637318bf47ce933c39f2f74b1cbeb69100cfb6853",
+  "by": "opus",
+  "at": "2026-10-07T22:52:27.281Z",
+  "applied": [
+    "Advanced Tellme: status preview",
+    "Data masking for sensitive fields: status preview"
+  ],
+  "rejected_edits": [
+    "status Factbox resize behavior -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05243300000000001
+  }
+}

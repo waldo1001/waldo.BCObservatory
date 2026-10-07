@@ -75,7 +75,7 @@
       "description": "An MCP server that exposes all built-in APIs for data and allows custom APIs to be added, enabling agents to interact with Business Central through an MCP connector.",
       "status": "preview",
       "status_evidence_t": 45.9,
-      "status_evidence_quote": "It's currently in public preview.",
+      "status_evidence_quote": "It's currently in public preview. So go to um feature management and enable that.",
       "status_evidence_verified": true,
       "t_start": 75.5,
       "t_end": 92.1,
@@ -218,10 +218,10 @@
     {
       "name": "MCP Proxy for Other Hosts",
       "description": "Sample code solution for routing requests and handling authentication when using MCP server with hosts other than Copilot Studio, available on BCTech samples as bcmcp proxy.",
-      "status": "announced",
-      "status_evidence_t": 897,
-      "status_evidence_quote": "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 832.4,
       "t_end": 897,
       "is_demoed": false,
@@ -298,6 +298,12 @@
       "t": 197.4,
       "text": "there is a limit to how many tools you can have which is why we have introduced the um dynamic tools system.",
       "why_it_matters": "Explains the key design decision behind dynamic tools in response to tool limits.",
+      "check": "exact"
+    },
+    {
+      "t": 421,
+      "text": "This will allow any agent to reason better over what your APIs are able to do.",
+      "why_it_matters": "Explains why adding about title and about text to custom API pages matters for agents.",
       "check": "exact"
     },
     {

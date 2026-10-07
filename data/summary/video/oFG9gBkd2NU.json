@@ -4,13 +4,13 @@
   "summary": "Chat with Copilot in Business Central (2025 release wave 2) can answer questions from installed third-party and partner extension documentation once an administrator turns on Bing search. The video covers setup, demos, partner help content, data handling and cost.",
   "overview": "As of release wave 2, Copilot chat can draw content from the Bing index, so its answers are no longer limited to Microsoft Learn. It can use documentation from installed third-party add-ons and partner extensions. Administrators enable it with one switch on the copilot and agent capabilities page, with no other configuration.\n\nThe video demos enabling Bing search, getting answers about an extension, using Copilot for task guidance, and field help with targeted content from extensions. It closes with setup steps and answers on safety, data location and cost.",
   "key_points": [
-    "Administrators enable the Bing search switch on the copilot and agent capabilities page. This is the only setup step.",
-    "It works automatically for apps source extensions that have provided a link to their documentation.",
-    "For PTE extensions, the documentation must be provided within the help URL.",
-    "Partners can add targeted help content for commonly asked questions. It must be readable for users on the partner website, and Copilot picks it up from structured documentation.",
+    "Administrators turn on the enable Bing search switch on the copilot and agent capabilities page. This is the only setup step, and no extra configuration is needed.",
+    "Copilot Chat then automatically searches relevant partner extension documentation through the Bing index. Answers list the extension as a reference source and show 'powered by Bing'.",
+    "It works automatically for AppSource extensions that have provided a link to their documentation. For PTE extensions, the documentation must be provided within the help URL.",
+    "Partners can provide targeted help content, such as field reference pages, for commonly asked questions so Copilot can unblock users without a support call. Content can be formatted to be readable on the partner website and Copilot Chat can still pick it up.",
+    "Only curated search terms derived from the user query are passed to Bing search.",
     "Data goes to the Bing service in the US and is not stored longer than a day. Copilot can connect to the web, but the web cannot connect to Copilot.",
-    "Inputs and outputs go through safety checks for security and to reduce AI harms.",
-    "Using Bing Search within Copilot Chat has no extra cost and no one-time or service costs."
+    "Inputs and outputs go through safety checks for security and to reduce risks of AI harms."
   ],
   "audience": [
     "administrator",

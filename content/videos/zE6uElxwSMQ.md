@@ -2,7 +2,7 @@
 id: video/zE6uElxwSMQ
 type: video
 title: Carglass Sweden
-summary: "Carglass Sweden customer story: moving from an on-premises ERP to cloud-based Business Central across more than a hundred repair branches. Evidence for the booking workflow changes (automatic technician reservation, real-time cross-branch visibility) and faster booking site and booking board performance."
+summary: "Carglass Sweden customer story (with partner Cosmo): moving from an on-premises ERP to cloud Business Central across more than a hundred repair branches. Covers booking workflow changes (next available slot at the closest branch, automatic technician reservation, instant overview), a faster booking site and booking board, real-time data, and a positive effect on customer satisfaction."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - scalability
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:14.223Z"
   flags: []
 generated:
-  at: "2026-10-06T18:20:09.969Z"
+  at: "2026-10-07T22:52:14.258Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     t: 53
     quote: The information is then instantly available in the dimeuler overview and this is a huge improvement compared to the previous way of working.
   - kind: video
+    url: https://www.youtube.com/watch?v=zE6uElxwSMQ&t=53s
+    title: Carglass Sweden
+    date: "2025-11-19T15:34:11.000Z"
+    commit: null
+    t: 53
+    quote: Choosing Microsoft felt like a natural step since we use Dynamics now for several years
+  - kind: video
     url: https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s
     title: Carglass Sweden
     date: "2025-11-19T15:34:11.000Z"
@@ -69,6 +76,13 @@ evidence:
     commit: null
     t: 95
     quote: The booking site and the booking board runs much faster and we get access to data in real time.
+  - kind: video
+    url: https://www.youtube.com/watch?v=zE6uElxwSMQ&t=95s
+    title: Carglass Sweden
+    date: "2025-11-19T15:34:11.000Z"
+    commit: null
+    t: 95
+    quote: And what really stood out is the positive impact it had on customer satisfaction.
 links:
   learn: []
   objects: []
@@ -125,11 +139,6 @@ features:
     t: 82
     verified: false
     status_source: video
-  - name: Data integration and smart connectivity
-    status: unclear
-    t: 82
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 15
@@ -144,19 +153,25 @@ quotes:
   - t: 53
     text: The information is then instantly available in the dimeuler overview and this is a huge improvement compared to the previous way of working.
     check: exact
+  - t: 53
+    text: Choosing Microsoft felt like a natural step since we use Dynamics now for several years
+    check: exact
   - t: 82
     text: Connecting data and making it smart, it's the actual game changer.
     check: exact
   - t: 95
     text: The booking site and the booking board runs much faster and we get access to data in real time.
     check: exact
+  - t: 95
+    text: And what really stood out is the positive impact it had on customer satisfaction.
+    check: exact
 ---
 
 # Carglass Sweden
 
-> Carglass Sweden customer story: moving from an on-premises ERP to cloud-based Business Central across more than a hundred repair branches. Evidence for the booking workflow changes (automatic technician reservation, real-time cross-branch visibility) and faster booking site and booking board performance.
+> Carglass Sweden customer story (with partner Cosmo): moving from an on-premises ERP to cloud Business Central across more than a hundred repair branches. Covers booking workflow changes (next available slot at the closest branch, automatic technician reservation, instant overview), a faster booking site and booking board, real-time data, and a positive effect on customer satisfaction.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zE6uElxwSMQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-19 · 1:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zE6uElxwSMQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-11-19 · 1:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -168,10 +183,11 @@ The video describes how booking and branch coordination changed. Customers are o
 
 - Carglass Sweden has over a hundred repair shops (branches) in Sweden.
 - Drivers for moving to cloud Business Central were scalability, data access and collaboration.
+- Before Business Central, coordinating bookings was a struggle.
 - Customers are shown the next available time slot at the closest branch, and a technician is reserved automatically when the booking is placed.
-- Booking information is available instantly in a unified overview across branches, described as a big improvement over the previous way of working.
-- The booking site and booking board run faster in the cloud, with real-time data access.
-- Migrating data from on-premises is required, and integration that makes data smart is named as the key success factor.
+- Booking information is instantly available in a scheduler overview, described as a huge improvement over the previous way of working.
+- Microsoft was chosen because Carglass already used Dynamics for several years and Microsoft 365 across the organization.
+- Partner Cosmo says migrating data from on-prem to cloud is only one part; connecting data and making it smart is the actual game changer.
 
 ## Chapters
 
@@ -185,13 +201,12 @@ The video describes how booking and branch coordination changed. Customers are o
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Automated technician scheduling with booking system | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |  |
-| Real-time booking visibility across branches | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |  |
-| Cloud-based Business Central ERP | status not stated | [0:15](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=15s) |  |
-| Enhanced booking system performance | status not stated | [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) |  |
-| Data integration and smart connectivity | status not stated | [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Automated technician scheduling with booking system | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
+| Real-time booking visibility across branches | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
+| Cloud-based Business Central ERP | status not stated | [0:15](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=15s) |
+| Enhanced booking system performance | status not stated | [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) |
 
 ## Quotes
 
@@ -199,7 +214,9 @@ The video describes how booking and branch coordination changed. Customers are o
 - [0:29](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=29s) "We have over a hundred of repair shops across Sweden or branches as we like to call them."
 - [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) "customers have suggested the next available time slot for the closest branch and a technician is automatically reserved when the booking is placed"
 - [0:53](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=53s) "The information is then instantly available in the dimeuler overview and this is a huge improvement compared to the previous way of working."
+- [0:53](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=53s) "Choosing Microsoft felt like a natural step since we use Dynamics now for several years"
 - [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) "Connecting data and making it smart, it's the actual game changer."
 - [1:35](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=95s) "The booking site and the booking board runs much faster and we get access to data in real time."
+- [1:35](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=95s) "And what really stood out is the positive impact it had on customer satisfaction."
 
 Presenters (as heard): Carl (Carglass representative), Cosmo representative.

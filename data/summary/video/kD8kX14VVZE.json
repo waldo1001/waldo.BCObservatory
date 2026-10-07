@@ -6,11 +6,11 @@
   "key_points": [
     "CBAM applies to purchase documents and EPR applies to sales documents; both run on the new excise taxes framework.",
     "CBAM needs a carbon pricing table set up per country, with start and end dates, unit of measure, price per unit and a threshold so small amounts are not reported.",
-    "Only items flagged as CBAM-compliant are calculated, and carbon emissions must be set on the item as the minimum requirement; emission verification status supports the audit trail.",
-    "CBAM and EPR each need a separately, manually created batch in the excise journal.",
+    "Only items marked as CBAM-compliant are calculated, and the item needs at least a carbon emission value. Whether the emission is verified is also recorded on the item.",
+    "For country of origin, the system first uses the country on the item card. If there is none, it falls back to the vendor's country.",
+    "The excise journal needs a separate batch for CBAM and for EPR, with at least one batch of each type.",
     "EPR does not apply to all item types. The item needs an EPR category and a material composition, and the composition status must change from new to certified.",
-    "The EPR materials table holds material name, unit of measure, EPR fee and verification date. The item material composition page works like a bill of materials.",
-    "The excise transaction logs record CBAM and EPR calculations, including source type and compliance status, and can be exported for reporting."
+    "The EPR materials table holds material name, unit of measure, EPR fee and verification date. The item material composition page works like a bill of materials."
   ],
   "audience": [
     "functional consultant",

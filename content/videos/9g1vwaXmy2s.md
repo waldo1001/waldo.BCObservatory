@@ -16,12 +16,12 @@ tags:
   - date filters
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:17.570Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:17.623Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -29,54 +29,54 @@ generated:
   input_hash: b71547ed65a0b3e62b02e5e3b4e55b073994ec4e00a849d6bf8081aecd240349
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
+    url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s
     title: "Financial Report Scheduling: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
-    t: 187
-    quote: when it releases in the near future
+    t: 6
+    quote: the developer behind the new financial report scheduling feature that's coming to Business Central
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Export to Excel and PDF: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Email Delivery to Recipients: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Report Scheduling Controls: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Report Inbox and Logs: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Custom Filters for Schedules: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "Date Filter Formulas: announced"
     date: "2025-10-02T14:28:52.000Z"
     commit: null
     t: 187
-    quote: when it releases in the near future
+    quote: I hope you go and give financial report scheduling a try when it releases in the near future.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s
     title: "What's Cooking in Business Central: Financial Report Scheduling"
@@ -112,6 +112,13 @@ evidence:
     commit: null
     t: 144
     quote: Additionally, you can set up reporting options and filters that are specific to each schedule using custom filters.
+  - kind: video
+    url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=155s
+    title: "What's Cooking in Business Central: Financial Report Scheduling"
+    date: "2025-10-02T14:28:52.000Z"
+    commit: null
+    t: 155
+    quote: This will open the familiar report request page. Here I will select a different negative amount format for this financial report schedule.
   - kind: video
     url: https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s
     title: "What's Cooking in Business Central: Financial Report Scheduling"
@@ -212,6 +219,9 @@ quotes:
   - t: 144
     text: Additionally, you can set up reporting options and filters that are specific to each schedule using custom filters.
     check: exact
+  - t: 155
+    text: This will open the familiar report request page. Here I will select a different negative amount format for this financial report schedule.
+    check: exact
   - t: 187
     text: I hope you go and give financial report scheduling a try when it releases in the near future.
     check: exact
@@ -221,7 +231,7 @@ quotes:
 
 > Financial report scheduling in Business Central, an announced feature, is demoed: financial reports are sent on a recurring schedule as Excel and PDF to the report inbox and by email to chosen recipients. Covers the Schedules action, run date controls, custom filters and date filter formulas.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9g1vwaXmy2s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-02 · 3:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9g1vwaXmy2s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-02 · 3:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -252,13 +262,13 @@ Each schedule has a next run date time and a recurrence run date formula. Report
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Financial Report Scheduling | announced, demoed | [0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Export to Excel and PDF | announced, demoed | [1:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=66s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Email Delivery to Recipients | announced, demoed | [1:17](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=77s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Report Scheduling Controls | announced, demoed | [1:27](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=87s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Report Inbox and Logs | announced, demoed | [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Custom Filters for Schedules | announced, demoed | [2:24](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=144s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Date Filter Formulas | announced, demoed | [2:53](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=173s) | "when it releases in the near future" ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Financial Report Scheduling | announced, demoed | [0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s) | "the developer behind the new financial report scheduling feature that's coming to Business Central" ([0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s)) |
+| Export to Excel and PDF | announced, demoed | [1:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=66s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Email Delivery to Recipients | announced, demoed | [1:17](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=77s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Report Scheduling Controls | announced, demoed | [1:27](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=87s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Report Inbox and Logs | announced, demoed | [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Custom Filters for Schedules | announced, demoed | [2:24](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=144s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Date Filter Formulas | announced, demoed | [2:53](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=173s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
 
 ## AL objects mentioned
 
@@ -276,6 +286,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:54](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=54s) "Here I have created a setup that will send out the cash flow report on a monthly basis."
 - [1:27](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=87s) "The next run date time field lets me select when the report will be first sent and the recurrence run date formula will determine"
 - [2:24](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=144s) "Additionally, you can set up reporting options and filters that are specific to each schedule using custom filters."
+- [2:35](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=155s) "This will open the familiar report request page. Here I will select a different negative amount format for this financial report schedule."
 - [3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s) "I hope you go and give financial report scheduling a try when it releases in the near future."
 
 ## Disclaimers in the video

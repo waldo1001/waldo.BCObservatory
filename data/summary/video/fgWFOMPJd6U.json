@@ -1,16 +1,16 @@
 {
   "video_id": "fgWFOMPJd6U",
   "item_id": "video/yt-microsoft/fgWFOMPJd6U",
-  "summary": "Summarize with Copilot in Business Central: how the multi-prompt pipeline finds and ranks insights from page, related-page and fact box data, how role is used as user context, how the team tests AI features, and what developers can do for custom entities. Covers model choices (GPT-4o mini) and planned work.",
+  "summary": "How Summarize with Copilot in Business Central works. A multi-prompt pipeline finds, scores and summarizes insights from page fields, related statistics pages and fact boxes, using the user's role as context. The video also covers how the team tests AI features (harm, grounding, functional checks), the migration of the summarization prompts to GPT-4.1 mini, and how AL developers can improve summaries with metadata, fact boxes and tooltips.",
   "overview": "Episode 11 of Business Central Under the Hood explains how Summarize with Copilot works. It runs on single entity pages such as card, document and list pages, and shows the top 2-3 insights in a summary fact box, with a Show more option that opens a chat experience. Behind it is a pipeline: a find insights prompt reads data from the current page, related pages and fact boxes in parallel, then a summarize prompt picks the top insights and applies formatting.\n\nThe second half covers engineering practice: testing AI with AI, grounding and harm checks, quality metrics, experimentation, model selection and migration to smaller models. It closes with guidance for partners and developers on custom entities, where summarization works out of the box but cannot yet be extended directly from AL.",
   "key_points": [
-    "Summarize with Copilot is available on single entity pages (card, document, list pages) and works with custom partner-created pages.",
-    "The pipeline has a find insights prompt (current page, related pages and fact boxes, run in parallel) followed by a summarize prompt that selects top insights and formats them.",
-    "Related pages are filtered to those named as statistics pages, because aggregated data performed better than sending raw ledger entries.",
-    "Role is the current user context signal used to prioritize insights; user intent from navigation patterns is planned and still being designed.",
-    "Insights must reference source data IDs via function calling, which supports grounding; testing also covers harm checks and functional checks with large role and scenario datasets.",
-    "Summarization uses GPT-4o mini; the scoring prompt might suit models with better reasoning, and the team is still experimenting.",
-    "Developers cannot yet add data sources or override summary text from AL; they can improve results with metadata, fact boxes, and clear captions and tooltips."
+    "Summarize with Copilot is available on any single entity page (card, document, ListPlus), including custom partner pages, and appears in a summary fact box at the top of the fact box pane.",
+    "The pipeline has a find insights prompt (current page fields, related pages and fact boxes, run in parallel) followed by a summarize prompt that selects the top-scored insights and formats them in markdown.",
+    "Related pages are actions on the current page that lead to pages named statistics. Aggregated data performed better than sending raw ledger entries.",
+    "Role is the current user context signal used to prioritize insights. Inferring user intent from navigation patterns and frequently used pages is planned, as are more data sources.",
+    "Insights must reference source data IDs via function calling, which supports grounding. Testing also covers harm checks and functional checks with large role and scenario datasets, plus metrics like brevity and precision.",
+    "Summarization prompts moved from 4o and 4o mini to 4.1 mini for speed. The scoring prompt might benefit from reasoning models such as o1, and the team is still experimenting.",
+    "Developers cannot yet add data sources or override summary text from AL (work in progress). They can improve results with metadata, extra fact boxes, actions to statistics pages, and clear captions and tooltips."
   ],
   "audience": [
     "developer",
