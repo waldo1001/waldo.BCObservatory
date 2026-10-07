@@ -1,0 +1,886 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10878,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10878",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T15:30:59Z",
+  "merge_commit_sha": "1e3872168af58518ac2a02e8cf5934cbc28eee32",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote five low-risk rules to Error",
+  "body_hash": "a37d9a2950087229669e5511539b45f7cf60753ff440fabe7c5be4c5dbc59f78",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INVoucherInterface/app/src/report/VoucherRegister.report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BankDeposits/test/src/UTPageBankDeposit.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationErrorOverview.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/BankMgt/Deposit/DepositSlip.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reports/CustomerLabels.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPA00100109Pmts.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPAPayments.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAFile.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentJournal.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentOrder.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/EZAGFile.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/EZAGPaymentOrder.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Finance/VAT/Reporting/Make347Declaration.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/Purchases/Reports/VendorJournal.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/Sales/Reports/CustomerJournal.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Bank/Deposit/PostedDepositSubform.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/SerialNumberStatusAging.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/HumanResources/Payables/EmployeeLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGPostingTest.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Local/Purchases/Payables/RemittanceTestReport.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/CustomerAccountingCard.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/CustomerReconciliationAct.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/NetCustVendBalancesMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/HumanResources/Payables/EmployeeLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Entity/PurchaseDocumentEntity.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/MoveNegativePurchaseLines.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/MoveNegativeSalesLines.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/System/ServWorkflowCustomerEntity.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowCustomerEntity.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowItemEntity.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowVendorEntity.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 23,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 52,
+    "additions": 280,
+    "deletions": 59,
+    "al": 50
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Errors/BC14MigrationErrorOverview.page.al",
+        "status": "modified",
+        "key": "page/46863",
+        "type": "page",
+        "id": 46863,
+        "name": "BC14 Migration Error Overview",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "page/46863"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/BankMgt/Deposit/DepositSlip.Report.al",
+        "status": "modified",
+        "key": "report/28023",
+        "type": "report",
+        "id": 28023,
+        "name": "Deposit Slip",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/28023-au"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPA00100109Pmts.Report.al",
+        "status": "modified",
+        "key": "report/2000007",
+        "type": "report",
+        "id": 2000007,
+        "name": "File SEPA 001.001.09 Pmts",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000007-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/FileSEPAPayments.Report.al",
+        "status": "modified",
+        "key": "report/2000005",
+        "type": "report",
+        "id": 2000005,
+        "name": "File SEPA Payments",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000005-be"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAFile.Report.al",
+        "status": "modified",
+        "key": "report/3010541",
+        "type": "report",
+        "id": 3010541,
+        "name": "DTA File",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010541-ch"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentJournal.Report.al",
+        "status": "modified",
+        "key": "report/3010545",
+        "type": "report",
+        "id": 3010545,
+        "name": "DTA Payment Journal",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010545-ch"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentOrder.Report.al",
+        "status": "modified",
+        "key": "report/3010543",
+        "type": "report",
+        "id": 3010543,
+        "name": "DTA Payment Order",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010543-ch"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/EZAGFile.Report.al",
+        "status": "modified",
+        "key": "report/3010542",
+        "type": "report",
+        "id": 3010542,
+        "name": "EZAG File",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010542-ch"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/EZAGPaymentOrder.Report.al",
+        "status": "modified",
+        "key": "report/3010544",
+        "type": "report",
+        "id": 3010544,
+        "name": "EZAG Payment Order",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010544-ch"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Finance/VAT/Reporting/Make347Declaration.Report.al",
+        "status": "modified",
+        "key": "report/10707",
+        "type": "report",
+        "id": 10707,
+        "name": "Make 347 Declaration",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/10707-es"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/Purchases/Reports/VendorJournal.Report.al",
+        "status": "modified",
+        "key": "report/10814",
+        "type": "report",
+        "id": 10814,
+        "name": "Vendor Journal",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/10814-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/Sales/Reports/CustomerJournal.Report.al",
+        "status": "modified",
+        "key": "report/10813",
+        "type": "report",
+        "id": 10813,
+        "name": "Customer Journal",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/10813-fr"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5708",
+        "type": "codeunit",
+        "id": 5708,
+        "name": "Release Transfer Document",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5708"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Bank/Deposit/PostedDepositSubform.Page.al",
+        "status": "modified",
+        "key": "page/10144",
+        "type": "page",
+        "id": 10144,
+        "name": "Posted Deposit Subform",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/10144-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/SerialNumberStatusAging.Report.al",
+        "status": "modified",
+        "key": "report/10161",
+        "type": "report",
+        "id": 10161,
+        "name": "Serial Number Status/Aging",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10161-ca"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/HumanResources/Payables/EmployeeLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5222",
+        "type": "table",
+        "id": 5222,
+        "name": "Employee Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/5222"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGPostingTest.Report.al",
+        "status": "modified",
+        "key": "report/11400",
+        "type": "report",
+        "id": 11400,
+        "name": "CBG Posting - Test",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "report/11400-nl"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Local/Purchases/Payables/RemittanceTestReport.Report.al",
+        "status": "modified",
+        "key": "report/15000002",
+        "type": "report",
+        "id": 15000002,
+        "name": "Remittance Test Report",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/15000002-no"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/CustomerAccountingCard.Report.al",
+        "status": "modified",
+        "key": "report/12441",
+        "type": "report",
+        "id": 12441,
+        "name": "Customer Accounting Card",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/12441-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/CustomerReconciliationAct.Report.al",
+        "status": "modified",
+        "key": "report/14910",
+        "type": "report",
+        "id": 14910,
+        "name": "Customer - Reconciliation Act",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/14910-ru"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransactions.Page.al",
+        "status": "modified",
+        "key": "page/615",
+        "type": "page",
+        "id": 615,
+        "name": "IC Inbox Transactions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/615"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/NetCustVendBalancesMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/108",
+        "type": "codeunit",
+        "id": 108,
+        "name": "Net Cust/Vend Balances Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/108"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/HumanResources/Payables/EmployeeLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5222",
+        "type": "table",
+        "id": 5222,
+        "name": "Employee Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5222"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Entity/PurchaseDocumentEntity.Page.al",
+        "status": "modified",
+        "key": "page/6404",
+        "type": "page",
+        "id": 6404,
+        "name": "Purchase Document Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6404"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5708",
+        "type": "codeunit",
+        "id": 5708,
+        "name": "Release Transfer Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5708"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+        "status": "modified",
+        "key": "table/5405",
+        "type": "table",
+        "id": 5405,
+        "name": "Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5405"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/MoveNegativePurchaseLines.Report.al",
+        "status": "modified",
+        "key": "report/6698",
+        "type": "report",
+        "id": 6698,
+        "name": "Move Negative Purchase Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6698"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+        "status": "modified",
+        "key": "report/412",
+        "type": "report",
+        "id": 412,
+        "name": "Purchase Prepmt. Doc. - Test",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/412"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/MoveNegativeSalesLines.Report.al",
+        "status": "modified",
+        "key": "report/6699",
+        "type": "report",
+        "id": 6699,
+        "name": "Move Negative Sales Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6699"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+        "status": "modified",
+        "key": "report/212",
+        "type": "report",
+        "id": 212,
+        "name": "Sales Prepmt. Document Test",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/212"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/System/ServWorkflowCustomerEntity.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6491",
+        "type": "pageextension",
+        "id": 6491,
+        "name": "Serv. Workflow Customer Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/6491"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowCustomerEntity.Page.al",
+        "status": "modified",
+        "key": "page/6408",
+        "type": "page",
+        "id": 6408,
+        "name": "Workflow - Customer Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6408"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowItemEntity.Page.al",
+        "status": "modified",
+        "key": "page/6409",
+        "type": "page",
+        "id": 6409,
+        "name": "Workflow - Item Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6409"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowVendorEntity.Page.al",
+        "status": "modified",
+        "key": "page/6410",
+        "type": "page",
+        "id": 6410,
+        "name": "Workflow - Vendor Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6410"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INVoucherInterface/app/src/report/VoucherRegister.report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reports/CustomerLabels.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Reports/PurchasePrepmtDocTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Reports/SalesPrepmtDocumentTest.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "development",
+    "inventory",
+    "purchasing",
+    "sales",
+    "hr",
+    "integration",
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application",
+    "HybridBC14"
+  ]
+}

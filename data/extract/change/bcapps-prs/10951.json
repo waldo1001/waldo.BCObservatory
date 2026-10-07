@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/10951",
+  "number": 10951,
+  "title": "[main] bug 648707 - Fix typo in Compensation CZC report paragraph label",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A typo in the Compensation CZC report paragraph label was corrected in the Czech localization.",
+  "key_points": [
+    "Fixed a typo in a paragraph label within the Compensation CZC report",
+    "Changes only localization text, no functional impact",
+    "Minimal one-line modification to improve report documentation quality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Fix typo in Compensation CZC report paragraph label",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003076,
+    "changes_in_call": 1
+  }
+}

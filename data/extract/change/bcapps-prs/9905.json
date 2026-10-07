@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9905",
+  "number": 9905,
+  "title": "[Bug][SubscriptionBilling] Contract lines of type G/L Account never post to the selected G/L account",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Contract lines of type G/L Account now post to the G/L account specified on the line instead of the default account from General Posting Setup, both for immediate posting and deferral release scenarios.",
+  "key_points": [
+    "G/L Account contract lines bypass the General Posting Setup account lookup and post to the line's selected account",
+    "A new G/L Account No. field on deferral tables stores the account reference from sales/purchase lines",
+    "Deferral release logic posts to the stored account, with fallback to General Posting Setup when not specified",
+    "Added comprehensive tests for both immediate-posting and deferral-release paths",
+    "Schema change is additive only; no breaking changes or upgrade code needed"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "contract lines of type \"G/L Account\" without deferrals now post to the G/L account selected on the line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004542,
+    "changes_in_call": 1
+  }
+}

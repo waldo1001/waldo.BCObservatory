@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10985,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10985",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-04T07:47:28Z",
+  "merge_commit_sha": "4af85f61f10cba9ad62635dfde452852dad07b51",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Rename ADO sync trigger label from \"Linked\" to \"ADO: Sync\"",
+  "body_hash": "2812cce8e9bab49cd5c62ecb383d14b3f390f17f8cbf9dd8d967efafc4c76f00",
+  "fixes_issues": [],
+  "work_items": [
+    648850
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

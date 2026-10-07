@@ -6,10 +6,35 @@
   "title": "[29.x][Expense Agent] Backport approval conversation from #10570",
   "url": "https://github.com/microsoft/BCApps/pull/10829",
   "published_at": "2026-09-03T15:00:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:40.840Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:46.261Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004482
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:46.470Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:46.478Z",
+      "path": "content/changes/bcapps/10829.md"
     }
   },
   "input_hash": "d462c911fa7f92d3860864fb5e3434ee497f3889:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent backport approval conversation from 10570"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90233df9d26316f423c2ae8be069a8fe0ac539bbef457d883cbae99ef0dc106c"
 }

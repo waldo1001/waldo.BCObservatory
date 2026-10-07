@@ -1,0 +1,1168 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 153,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/153",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-03T13:06:02Z",
+  "merge_commit_sha": "4f0a13a8013cd9264e46bfc09c0f3cbd90f09f09",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Promote knowledge for Microsoft-owned review skills",
+  "body_hash": "0953426f4d729cd0b38ff1e7429d7858d94887337cc970efdb5812504738ebed",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "docs"
+    },
+    {
+      "path": "agent-consumption.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.md"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.md"
+    },
+    {
+      "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/declare-event-publishers-local-or-internal.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/declare-event-publishers-local-or-internal.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/declare-event-publishers-local-or-internal.md"
+    },
+    {
+      "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/expose-process-context-via-manually-bound-flag.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/expose-process-context-via-manually-bound-flag.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/events/expose-process-context-via-manually-bound-flag.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/boolean-operators-do-not-short-circuit.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/boolean-operators-do-not-short-circuit.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/boolean-operators-do-not-short-circuit.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/case-true-of-for-long-condition-chains.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/case-true-of-for-long-condition-chains.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/case-true-of-for-long-condition-chains.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/changecompany-in-loop-drops-caches.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/changecompany-in-loop-drops-caches.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/changecompany-in-loop-drops-caches.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/page-background-tasks-for-expensive-cues.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/page-background-tasks-for-expensive-cues.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/page-background-tasks-for-expensive-cues.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/query-results-bypass-primary-key-cache.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/query-results-bypass-primary-key-cache.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/query-results-bypass-primary-key-cache.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/reset-clears-partial-record-selection.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/reset-clears-partial-record-selection.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/reset-clears-partial-record-selection.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md"
+    },
+    {
+      "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/validate-on-partial-record-forces-jit.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/validate-on-partial-record-forces-jit.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/performance/validate-on-partial-record-forces-jit.md"
+    },
+    {
+      "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/security/guard-bulk-operations-with-istemporary.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/security/guard-bulk-operations-with-istemporary.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/security/guard-bulk-operations-with-istemporary.md"
+    },
+    {
+      "path": "microsoft/knowledge/ui/factbox-design.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/factbox-design.md"
+    },
+    {
+      "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/showmandatory-on-code-required-page-fields.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/showmandatory-on-code-required-page-fields.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/showmandatory-on-code-required-page-fields.md"
+    },
+    {
+      "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.bad.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.bad.al"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.good.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.good.al"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "community/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md"
+    },
+    {
+      "path": "skills/write.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 88,
+    "additions": 11,
+    "deletions": 7,
+    "al": 86
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/owning-table-must-delete-dependents-in-ondelete.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/xrec-is-a-before-image-only-in-some-triggers.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/declare-event-publishers-local-or-internal.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/page-background-tasks-for-expensive-cues.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/query-results-bypass-primary-key-cache.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/validate-on-partial-record-forces-jit.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/factbox-design.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.bad.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.good.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/write.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

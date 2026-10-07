@@ -6,10 +6,35 @@
   "title": "[Main] Inconsistent Non-Deductible VAT calculations on Purchase & Sales Invoices containing lines with Full VAT calculation type",
   "url": "https://github.com/microsoft/BCApps/pull/10381",
   "published_at": "2026-09-03T12:50:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:44.001Z",
+      "change_class": "code",
+      "files": 23,
+      "al": 22,
+      "objects": 22,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:50.415Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004661
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:50.611Z",
+      "objects": 22,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:50.616Z",
+      "path": "content/changes/bcapps/10381.md"
     }
   },
   "input_hash": "5862dd8fb0c2cb85921c57cb7e4d21190dc86b57:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "inconsistent non deductible vat calculations on purchase sales invoices containing lines with full vat calculation type"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d62d25ad437d92b08533bc2c7bc3b1647b9edb0e87a7ca23e3dc47792df6425a"
 }

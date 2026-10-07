@@ -6,7 +6,7 @@
   "title": "[Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)",
   "url": "https://github.com/microsoft/BCApps/pull/9860",
   "published_at": "2026-09-05T18:48:10Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 14,
       "objects": 9,
       "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:32.898Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005604
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:33.080Z",
+      "objects": 9,
+      "unjoined": 5,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:33.086Z",
+      "path": "content/changes/bcapps/9860.md"
     }
   },
   "input_hash": "3170e9f6b457c4bf293b9de044547f09b31ebca9:c1",
@@ -43,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1aaa81d4444ffd48f5a86e52a46b3e74705f6564263a9247b74583ad1ce35c36"
+  "output_hash": "e3b7e50cff1a55336e1ad99817fdfdfdefabcb46c635d4af0fef2c26f13ff9d5"
 }

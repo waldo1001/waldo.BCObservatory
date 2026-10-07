@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11004,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11004",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-04T10:52:42Z",
+  "merge_commit_sha": "23952d0213b65c2e0a69499b6a8d39f98efb59b5",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Expense Report Reimbursement Currency Code",
+  "body_hash": "8c3d27f432b9f03362f493740806e798e446445549701b6772e2a75b5c147184",
+  "fixes_issues": [],
+  "work_items": [
+    647169
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTestII.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 40,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6983",
+        "type": "codeunit",
+        "id": 6983,
+        "name": "Create Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6983"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

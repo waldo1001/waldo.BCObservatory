@@ -6,7 +6,7 @@
   "title": "[Bug 647094] Re-enable the composite layout resolution tests on a real body layout",
   "url": "https://github.com/microsoft/BCApps/pull/10983",
   "published_at": "2026-09-04T11:38:43Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 647094 re enable the composite layout resolution tests on a real body layout"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:35.508Z",
+  "retry_after": null
 }

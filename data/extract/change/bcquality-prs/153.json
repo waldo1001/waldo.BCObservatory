@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/153",
+  "number": 153,
+  "title": "Promote knowledge for Microsoft-owned review skills",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Twenty-nine knowledge articles and fifty-six sample files were moved from the Community layer to the Microsoft layer in the quality rules repository to keep skill ownership aligned with knowledge authority.",
+  "key_points": [
+    "Knowledge articles for data modeling, events, performance, security, UI, and web services moved to Microsoft layer",
+    "Community layer no longer contains Microsoft-endorsed review skill knowledge",
+    "Files are pure renames with no content changes",
+    "Keeps canonical knowledge authority co-located with owned review skills",
+    "Agents corpus remains in Community alongside community-owned skills"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "promotes 29 knowledge articles and 56 companion samples from Community into the Microsoft layer",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005069,
+    "changes_in_call": 1
+  }
+}

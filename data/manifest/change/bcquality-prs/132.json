@@ -6,10 +6,35 @@
   "title": "Refine self-improvement review guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/132",
   "published_at": "2026-09-03T13:42:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:42.848Z",
+      "change_class": "code",
+      "files": 28,
+      "al": 27,
+      "objects": 0,
+      "unjoined": 27
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:50.619Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004445
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:50.620Z",
+      "objects": 0,
+      "unjoined": 27,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:04:50.625Z",
+      "path": "content/changes/bcquality/132.md"
     }
   },
   "input_hash": "1a5afdc0ebb6eb3fde1c3c69a13f235275cf4549:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "refine self improvement review guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "93618542fe36d0f9363a3a7a96d3487fb78435db7f1b848ef8b28814dae59de8"
 }

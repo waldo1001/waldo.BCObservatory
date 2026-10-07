@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/10960",
+  "number": 10960,
+  "title": "[main] bug 648733 - Add integration event for updating original document VAT date in General Ledger Setup CZL",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "An integration event was added to the UpdateOriginalDocumentVATDateCZL procedure in General Ledger Setup CZL to allow extensions to customize the behavior when the original document VAT date is updated.",
+  "key_points": [
+    "Integration event enables custom logic when source fields change (posting date, document date, VAT date)",
+    "Procedure sets Original Doc. VAT Date CZL field in Purchase Header based on Default Orig.Doc. VAT Date CZL setting",
+    "Resolves extensibility gap in the call chain from handlers through validation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "The integration event for updating original document VAT date in General Ledger Setup CZL has been added",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003348,
+    "changes_in_call": 1
+  }
+}

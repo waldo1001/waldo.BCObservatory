@@ -6,7 +6,7 @@
   "title": "Refresh country code test",
   "url": "https://github.com/microsoft/BCApps/pull/11003",
   "published_at": "2026-09-03T16:57:58Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "refresh country code test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:39.682Z",
+  "retry_after": null
 }

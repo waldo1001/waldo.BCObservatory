@@ -6,10 +6,35 @@
   "title": "Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes",
   "url": "https://github.com/microsoft/BCApps/pull/10404",
   "published_at": "2026-09-03T13:19:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:41.954Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:46.700Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003884
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:46.844Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:50.394Z",
+      "path": "content/changes/bcapps/10404.md"
     }
   },
   "input_hash": "2af2e64634f39b6039b7abf0c15fefbb98450f3c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "deliverable 638799 requisitions in base app add layout to report minor fixes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40cbbb5f93d1535626c88653e3dd27528b0795b8054e022c0c7e43ab450249f0"
 }

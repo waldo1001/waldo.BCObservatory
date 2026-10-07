@@ -6,10 +6,35 @@
   "title": "Fix Expense Agent VAT tests",
   "url": "https://github.com/microsoft/BCApps/pull/10965",
   "published_at": "2026-09-04T14:49:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:34.569Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:38.670Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.002987
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:38.837Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:38.842Z",
+      "path": "content/changes/bcapps/10965.md"
     }
   },
   "input_hash": "9c41addcfa73c040942f8d3725c820d8a14adcbb:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix expense agent vat tests"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c14e38f9365672a3bca1c40063d688144c427612acf39a7a12c6f806e58aac2"
 }

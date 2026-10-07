@@ -6,10 +6,35 @@
   "title": "Fix Expense Report Reimbursement Currency Code",
   "url": "https://github.com/microsoft/BCApps/pull/11004",
   "published_at": "2026-09-04T10:52:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:36.556Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:40.871Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00306
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:41.009Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:41.014Z",
+      "path": "content/changes/bcapps/11004.md"
     }
   },
   "input_hash": "23952d0213b65c2e0a69499b6a8d39f98efb59b5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix expense report reimbursement currency code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0712f6a5d49991703cc7dae04d9a05bcc85699325cb5b4e96a12731dcc6e41c"
 }

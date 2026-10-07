@@ -6,7 +6,7 @@
   "title": "Fix/miapp country regex",
   "url": "https://github.com/microsoft/BCApps/pull/10420",
   "published_at": "2026-09-04T08:58:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix miapp country regex"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:37.478Z",
+  "retry_after": null
 }

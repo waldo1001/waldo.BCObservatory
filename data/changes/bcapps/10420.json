@@ -1,0 +1,44 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10420,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10420",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-04T08:58:30Z",
+  "merge_commit_sha": "1133085151b29cc3f75534fea4a1956439f24396",
+  "author": "MSlenejennum",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Fix/miapp country regex",
+  "body_hash": "019d570a697b13d865f4890a1d646a7f39aa1ded405deda916c0c69190a599e5",
+  "fixes_issues": [
+    10419
+  ],
+  "work_items": [
+    648903
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

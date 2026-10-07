@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10965",
+  "number": 10965,
+  "title": "Fix Expense Agent VAT tests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "VAT specification tests for the Expense Agent are corrected to properly validate tax calculations and API behavior.",
+  "key_points": [
+    "Test cases for expense VAT specification API are fixed",
+    "Expense posting VAT tests are adjusted",
+    "Changes focus on test implementation rather than product functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002987,
+    "changes_in_call": 1
+  }
+}

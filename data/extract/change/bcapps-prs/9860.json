@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9860",
+  "number": 9860,
+  "title": "[Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "inventory"
+  ],
+  "summary": "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents instead of fabricated invoice lines, with configurable mapping strategies to comply with EN 16931 validation rules.",
+  "key_points": [
+    "Item charges can be classified as document-level or line-level allowances/charges, or as regular lines with unit codes via new Item Charge E-Invoice Mapping enum",
+    "Per-item-charge override configuration added to store mapping type, reason text, reason code, and fallback unit code",
+    "Codeunit resolves export structure automatically based on charge assignment matching, with integration events for customization",
+    "Document and line totals recalculated to maintain monetary accuracy after charges leave the line set",
+    "XRechnung and ZUGFeRD exporters updated to emit charges in appropriate cac:AllowanceCharge or ram:SpecifiedTradeAllowanceCharge structures"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005604,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10956",
+  "number": 10956,
+  "title": "[ExpenseAgent] Refactor agent setup for policies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent administrators can now disallow users from running policy checks, adding a configuration option to the Expense Agent setup wizard and pages.",
+  "key_points": [
+    "Added ability for admins to control whether users can run policy checks",
+    "Modified Expense Agent Setup table to support the new configuration option",
+    "Updated setup wizard and API pages to reflect the new policy control settings",
+    "Refactored agent setup flow to include policy restriction management"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Expense Agent admins should be able to disallow user-run policy check",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003331,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10986,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10986",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-04T13:28:39Z",
+  "merge_commit_sha": "50fa060cac0dad9359f4b9be6f8e8f3f1c1fbcdf",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29x] Fix Expense Agent VAT tests",
+  "body_hash": "e10ece7762d630d28bd719e28f39a8b397ada485544ffedf8009833e44cc854e",
+  "fixes_issues": [],
+  "work_items": [
+    648609
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVATSpecAPI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseVATSpecAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePostingVATTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 14,
+    "deletions": 15,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVATSpecAPI.Page.al",
+        "status": "modified",
+        "key": "page/7085",
+        "type": "page",
+        "id": 7085,
+        "name": "Expense VAT Spec. API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7085"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

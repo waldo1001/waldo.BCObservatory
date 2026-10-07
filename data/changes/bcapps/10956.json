@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10956,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10956",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-04T08:37:18Z",
+  "merge_commit_sha": "f2e5a7d158a42c42474173966a2a481ca14faaad",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[ExpenseAgent] Refactor agent setup for policies",
+  "body_hash": "64516f368086bb853205a8030250689a733586d05acec776e78a8d9535460b2f",
+  "fixes_issues": [],
+  "work_items": [
+    648726
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseAgentSetupAPI.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 69,
+    "deletions": 27,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseAgentSetupAPI.Page.al",
+        "status": "modified",
+        "key": "page/6942",
+        "type": "page",
+        "id": 6942,
+        "name": "Expense Agent Setup API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6942"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/6996",
+        "type": "page",
+        "id": 6996,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6996"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

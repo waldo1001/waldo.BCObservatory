@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10404",
+  "number": 10404,
+  "title": "Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development",
+    "platform"
+  ],
+  "summary": "A Word layout was added to the Spend Request Document report, and several fixes were applied to the Spend Request feature based on manual testing feedback.",
+  "key_points": [
+    "Word document layout added to Spend Request Document report",
+    "Minor fixes applied to Spend Request feature following manual testing",
+    "Updates to Spend Request table, card page, and list page logic",
+    "Test cases updated to reflect changes",
+    "Platform workaround noted for layout merging issues"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Added Word layout to report \"Spend Request Document\".",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003884,
+    "changes_in_call": 1
+  }
+}

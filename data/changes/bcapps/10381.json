@@ -1,0 +1,449 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10381,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10381",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T12:50:31Z",
+  "merge_commit_sha": "5862dd8fb0c2cb85921c57cb7e4d21190dc86b57",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] Inconsistent Non-Deductible VAT calculations on Purchase & Sales Invoices containing lines with Full VAT calculation type",
+  "body_hash": "f3ba6fd29ceeb5c8961d594a1f2b3c046135971943952528b240159af304ee21",
+  "fixes_issues": [],
+  "work_items": [
+    647271
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATPostBasic.Codeunit.al",
+      "status": "modified",
+      "additions": 157,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 23,
+    "additions": 257,
+    "deletions": 0,
+    "al": 22
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10846,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10846",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-03T16:14:41Z",
+  "merge_commit_sha": "cac991b97235960568385dd9996e524eac36e309",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Add Expense Agent E2E test setup API",
+  "body_hash": "2f4f30702f45f191ecfb667345eb77b7491e592791c5830095f43ea75c84da63",
+  "fixes_issues": [],
+  "work_items": [
+    636054,
+    636056
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 120,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

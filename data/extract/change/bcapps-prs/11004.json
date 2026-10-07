@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11004",
+  "number": 11004,
+  "title": "Fix Expense Report Reimbursement Currency Code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The expense report reimbursement process now correctly uses the employee's currency code instead of a potentially incorrect value, fixing an issue where currency mismatches could occur.",
+  "key_points": [
+    "Corrected currency code assignment in expense report reimbursement logic",
+    "Applied fix to the Create Expense Report codeunit",
+    "Added test coverage for the corrected behavior",
+    "Prevents currency-related errors in expense processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00306,
+    "changes_in_call": 1
+  }
+}

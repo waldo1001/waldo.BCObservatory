@@ -6,7 +6,7 @@
   "title": "Add Expense Agent E2E test setup API",
   "url": "https://github.com/microsoft/BCApps/pull/10846",
   "published_at": "2026-09-03T16:14:41Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "add expense agent e2e test setup api"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:39.340Z",
+  "retry_after": null
 }

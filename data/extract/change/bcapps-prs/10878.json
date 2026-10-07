@@ -1,0 +1,40 @@
+{
+  "item_id": "change/bcapps-prs/10878",
+  "number": 10878,
+  "title": "Ruleset hardening: promote five low-risk rules to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development",
+    "inventory",
+    "purchasing",
+    "sales",
+    "hr",
+    "integration",
+    "manufacturing"
+  ],
+  "summary": "Five diagnostic rules are promoted from Warning to Error level in the ruleset by removing global overrides and fixing the underlying issues in affected application objects across multiple localization layers.",
+  "key_points": [
+    "Five rules (AL0254, AL0523, AA0242, AA0224, AW0007) are promoted from Warning to Error in the base ruleset",
+    "Developers must fix or suppress actionable findings in 52 affected application files",
+    "Real fixes added for recursion, option-model/caption, partial-record, and missing-key issues",
+    "Global warning overrides reduced from 81 to 76 in base.ruleset.json",
+    "Tightly scoped ID-qualified suppressions retained for accepted pre-existing behavior"
+  ],
+  "change_kind": "breaking",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011569,
+    "changes_in_call": 1
+  }
+}

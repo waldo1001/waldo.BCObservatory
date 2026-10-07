@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10829",
+  "number": 10829,
+  "title": "[29.x][Expense Agent] Backport approval conversation from #10570",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent now supports approval conversations, allowing submitters to add comments when resubmitting reports and exposing the latest approver and submitter comments through the API and report page.",
+  "key_points": [
+    "Submitters can add comments when resubmitting expense reports",
+    "Latest approver and submitter comments are exposed via the API and Expense Report page",
+    "Comment snapshots are recorded in activity history as immutable records",
+    "New approvalConversation capability is advertised",
+    "The releaseAndMarkPendingApprovalExpenseReport action is marked obsolete"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Adds submitter comments for resubmission, exposes the latest approver and submitter comments through the API and Expense Report page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004482,
+    "changes_in_call": 1
+  }
+}

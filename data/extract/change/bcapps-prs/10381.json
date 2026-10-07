@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10381",
+  "number": 10381,
+  "title": "[Main] Inconsistent Non-Deductible VAT calculations on Purchase & Sales Invoices containing lines with Full VAT calculation type",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "finance"
+  ],
+  "summary": "Non-deductible VAT calculations on purchase and sales invoices are corrected for lines with full VAT calculation type to ensure consistency across all localization layers.",
+  "key_points": [
+    "Fixes inconsistent non-deductible VAT calculations on invoices with full VAT calculation type",
+    "Updates VAT Amount Line table to correct calculation logic",
+    "Updates Purchase Line table to apply consistent rules",
+    "Changes applied across all localization layers (APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE, W1)",
+    "Includes test coverage for non-deductible VAT post basic functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Inconsistent Non-Deductible VAT calculations on Purchase & Sales Invoices containing lines with Full VAT calculation type",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004661,
+    "changes_in_call": 1
+  }
+}

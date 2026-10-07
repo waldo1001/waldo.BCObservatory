@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/132",
+  "number": 132,
+  "title": "Refine self-improvement review guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality guidance refined to reduce false positives in event handling, UI testing, performance analysis, and label scope rules by narrowing criteria to match documented platform behavior and actual code semantics.",
+  "key_points": [
+    "IsHandled reset rules refined to consider loop-carried state and values that can actually become true",
+    "Local Label scope removed as a correctness rule since labels are supported in extension translation",
+    "UI handler tests allowed to use semantic capture/reset/assert patterns with queues reserved for interaction contracts",
+    "Performance guidance for ModifyAll and DeleteAll aligned with documented fallback conditions",
+    "Persisted checkpoint and bounded retrieval requirements clarified as separate concerns"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "narrow `IsHandled` reset findings to values that can actually carry `true`, including loop-carried state",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004445,
+    "changes_in_call": 1
+  }
+}
