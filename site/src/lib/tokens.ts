@@ -29,6 +29,8 @@ const FILL = {
     "review-flagged": "#FFD27A",
   },
   light: {
+    // D66: undrawn in light by the designer; proposals that pass AA on #F4F5F8
+    "g-port-bg": "#FFFFFF", "g-port-text": "#131722", "nb-direction": "#566074",
     "surface-raised": "#ECEEF4", "accent-surface": "#FBF1DE",
     "tier-official-border": "#2447B8", "tier-official-text": "#2447B8",
     "tier-mixed-border": "#5B3FA8", "tier-mixed-text": "#4B3290",
@@ -47,6 +49,7 @@ const FILL = {
 function theme(name: "dark" | "light"): Record<string, string> {
   const t = c[name];
   const side = (o: any) => (o && typeof o === "object" ? o[name] : undefined);
+  const g = t.galaxy, nb = t.neighbourhood, ly = t.layers;
   const out: Record<string, string | undefined> = {
     bg: v(t.background), surface: v(t.surface), "surface-raised": v(t.surfaceRaised ?? t.surfaceSunken),
     line: v(t.line), "line-strong": v(t.lineStrong), text: v(t.text), "text-2": v(t.textSecondary), muted: v(t.muted),
@@ -61,6 +64,18 @@ function theme(name: "dark" | "light"): Record<string, string> {
     "ev-learn-bg": v(side(c.evidenceKind.learn)?.background), "ev-learn-text": v(side(c.evidenceKind.learn)?.text),
     "ev-code-bg": v(side(c.evidenceKind.code)?.background), "ev-code-text": v(side(c.evidenceKind.code)?.text),
     "diff-added-bg": v(side(c.diff)?.addedBackground), "diff-added-text": v(side(c.diff)?.addedText),
+    // D66: galaxy, honest (D), neighbourhood explorer (C), layered tilt (A)
+    "g-edge-cross": v(g?.edgeCross), "g-tree": v(g?.treeGuide), "g-plot-border": v(g?.namespacePlot?.border), "g-plot-label": v(g?.namespacePlot?.label),
+    "g-media": v(g?.mediaBody), "g-media-new": v(g?.mediaBodyNew), "g-community": v(g?.communityRing), "g-version": v(g?.versionFrame),
+    "g-obsolete": v(g?.obsolete), "g-port-bg": v(g?.port?.background), "g-port-text": v(g?.port?.text),
+    "nb-ring": v(nb?.ringGuide), "nb-edge": v(nb?.edge), "nb-edge-active": v(nb?.edgeActive), "nb-centre": v(nb?.centre),
+    "nb-selected-ring": v(nb?.nodeSelected?.ring), "nb-event": v(nb?.eventNode), "nb-event-rest": v(nb?.eventNodeRest),
+    "nb-pill-bg": v(nb?.groupPill?.background), "nb-pill-border": v(nb?.groupPill?.border), "nb-pill-text": v(nb?.groupPill?.text),
+    "nb-pill-open-bg": v(nb?.groupPillOpen?.background), "nb-pill-open-border": v(nb?.groupPillOpen?.border), "nb-pill-open-text": v(nb?.groupPillOpen?.text),
+    "nb-direction": v(nb?.directionLabel),
+    "ly-plane": v(ly?.plane?.fill), "ly-plane-border": v(ly?.plane?.border), "ly-plane-active": v(ly?.planeActive?.border), "ly-plane-label": v(ly?.planeLabel),
+    "ly-divider": v(ly?.namespaceDivider), "ly-line": v(ly?.line), "ly-core": v(ly?.coreSample), "ly-relation": v(ly?.relationInPlane),
+    "ly-no-line": v(ly?.noLineUp), "ly-no-line-lens": v(ly?.noLineUpLens),
   };
   for (const [k, val] of Object.entries(FILL[name])) if (!out[k]) out[k] = val;
   for (const [id, hue] of Object.entries(c.system.hues as Record<string, number>)) out[`sys-${id}`] = String(c.system[name]).replace("{hue}", String(hue));
@@ -88,4 +103,6 @@ export function tokenCss(): string {
 }
 
 export const galaxyTokens = tokens.galaxy as { zoom: { galaxy: number; system: number; star: number } };
+/** Plane fill opacity of the layered view (A), per theme. */
+export const planeOpacity = { dark: Number(c.dark.layers?.plane?.fillOpacity ?? 0.7), light: Number(c.light.layers?.plane?.fillOpacity ?? 0.8) };
 export const systemHues = c.system.hues as Record<string, number>;
