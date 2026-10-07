@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/10/06/%f0%9f%93%8d-navigation-history-quick-access-to-recently-visited-pages-in-bc-%f0%9f%a7%ad/",
   "published_at": "2025-10-06T07:06:09.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:24.287Z",
+      "path": "vault:posts/gerardorenteria-blog/12412.md",
+      "words": 575
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:24.295Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:24.296Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:24.297Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:24.303Z",
+      "path": "content/posts/gerardorenteria-blog/12412.md"
     }
   },
   "input_hash": "2025-10-06T07:06:09.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a48c04af0b0012569442ea133dfe817307838ceeea6923d5c8efed3a3207b3b"
 }

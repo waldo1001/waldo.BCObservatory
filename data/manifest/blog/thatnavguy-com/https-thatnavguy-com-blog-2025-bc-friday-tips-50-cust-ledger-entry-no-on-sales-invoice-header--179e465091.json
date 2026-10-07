@@ -7,13 +7,23 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-50-cust-ledger-entry-no-on-sales-invoice-header/",
   "published_at": "2025-10-03T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:24.662Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-50-cust-ledger-entry-no-on-sales-invoice-header--179e465091.md",
+      "words": 78
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb6acaa8fa2ee16f3f66efc621aabd8842551c172040811f8ec1b355b0bb3579",
+  "skip": "leak",
+  "skipped_at": "2026-10-07T01:31:24.668Z"
 }

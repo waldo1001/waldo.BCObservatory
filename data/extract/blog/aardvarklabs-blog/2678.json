@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2678",
+  "url": "https://aardvarklabs.blog/2025/10/03/understanding-al-development-the-type-helper-code-unit/",
+  "title": "Understanding AL Development: The Type Helper Code Unit",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-10-03T12:00:00.000Z",
+  "words": 1144,
+  "summary": "The Type Helper code unit is a utility in Business Central's System.Reflection namespace containing 74 procedures for data formatting, localization, type conversion, and math functions commonly used in API handling and advanced AL development scenarios.",
+  "key_points": [
+    "Type Helper is a modular helper code unit that encapsulates reusable logic for common tasks like formatting, validation, and calculations",
+    "It contains 74 active procedures organized into categories covering dates, times, options, encoding, formatting, and bitwise operations",
+    "Procedures include Evaluate for type conversion, various FormatDate/FormatDateTime methods for localization, and encoding functions like UrlEncode, HtmlEncode, and JavaScriptStringEncode",
+    "The code unit provides timezone handling, UTC datetime operations, currency formatting, and utility functions like TextDistance and SortRecordRef",
+    "AL code compiles to .NET, and Type Helper mirrors .NET Reflection functionality while being tailored for Business Central's needs"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "type helper",
+    "helper code unit",
+    "data formatting",
+    "type conversion",
+    "localization",
+    "api handling",
+    "system.reflection"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Type Helper"
+    }
+  ],
+  "features": [
+    "Data formatting and localization",
+    "Type conversion and evaluation",
+    "DateTime and timezone handling",
+    "URL and HTML encoding",
+    "Bitwise operations",
+    "Currency formatting",
+    "Record and field operations",
+    "String utilities"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/10/05/whats-new-and-planned-business-central-2025-wave-2-v27%f0%9f%94%94/",
   "published_at": "2025-10-05T16:35:30.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:24.315Z",
+      "path": "vault:posts/gerardorenteria-blog/11616.md",
+      "words": 1560
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:24.326Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:24.327Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:24.328Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:24.337Z",
+      "path": "content/posts/gerardorenteria-blog/11616.md"
     }
   },
   "input_hash": "2025-10-05T17:24:48.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2a3ed914dee680d98716d2b1a0222d0b0477a92311acb6f1572276626c185f6"
 }

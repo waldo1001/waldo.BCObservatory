@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12412",
+  "url": "https://gerardorenteria.blog/2025/10/06/%f0%9f%93%8d-navigation-history-quick-access-to-recently-visited-pages-in-bc-%f0%9f%a7%ad/",
+  "title": "📍 Navigation History: Quick Access to Recently Visited Pages in BC 🧭",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-10-06T07:06:09.000Z",
+  "words": 575,
+  "summary": "Navigation History is a feature that automatically tracks every page and record you visit in Business Central, letting you quickly reopen them, view your complete chronological history, and manage entries with cleanup actions. It uses four AL objects (enum, table, page, codeunit) with event subscribers to log visits with minimal performance impact.",
+  "key_points": [
+    "Automatically records all page visits and record opens with date/time ordering for quick access",
+    "Distinguishes between list page visits and individual card record opens with visual identification",
+    "Supports reopening any historical entry with a single click and includes cleanup actions like delete entries older than 30 days",
+    "Implemented using event subscribers on page events (OnOpenPageEvent for lists, OnAfterGetCurrRecordEvent for cards)"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "navigation",
+    "user experience",
+    "event subscribers",
+    "history tracking",
+    "al objects"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "GDRGNavHistoryType"
+    },
+    {
+      "type": "table",
+      "name": "GDRGNavigationHistory"
+    },
+    {
+      "type": "page",
+      "name": "GDRGNavigationHistory"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGNavigationHistoryMgt"
+    }
+  ],
+  "features": [
+    "navigation history tracking",
+    "quick record reopening",
+    "chronological history view",
+    "page type identification",
+    "history cleanup",
+    "automatic page visit logging",
+    "event subscriber pattern"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Automatically recording each navigation adds additional time, although without much impact on performance.",
+      "why_it_matters": "Important caveat showing the solution has minimal performance overhead despite tracking all page visits"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/10/03/understanding-al-development-the-type-helper-code-unit/",
   "published_at": "2025-10-03T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:24.587Z",
+      "path": "vault:posts/aardvarklabs-blog/2678.md",
+      "words": 1144
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:24.598Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:24.599Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:24.599Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:24.606Z",
+      "path": "content/posts/aardvarklabs-blog/2678.md"
     }
   },
   "input_hash": "2025-10-01T00:50:57.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d06568fe11403024e3ef9cded569904f4858e61d9801bff7f30240e535abb4c"
 }

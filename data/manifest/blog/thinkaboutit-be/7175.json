@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/10/quick-tip-companial-brings-the-heat-to-directions-emea-2025-are-you-in/",
   "published_at": "2025-10-03T07:32:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:24.525Z",
+      "path": "vault:posts/thinkaboutit-be/7175.md",
+      "words": 173
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:24.532Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:24.533Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:24.534Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:24.539Z",
+      "path": "content/posts/thinkaboutit-be/7175.md"
     }
   },
   "input_hash": "2025-10-03T07:32:46.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59f317a2fe8341e84b61cde61025c5f48364489d7d05929e018f04495fe0a5a5"
 }
