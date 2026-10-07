@@ -1,25 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/directives/devenv-directives-in-al.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al",
-  "title": "Preprocessor directives in AL",
-  "blob": "5fda1a2196eb04c860a3c1cf373df04b94569c8a",
-  "summary": "Preprocessor directives in AL enable conditional compilation, code organization with regions, and pragmas to suppress warnings or control code behavior based on defined symbols.",
+  "title": "AL Preprocessor Directives Overview",
+  "blob": "073da009e13a9fdc3d09f230b8dd9600198b6a31",
+  "summary": "AL Preprocessor Directives enable conditional compilation, warning suppression, and code organization through conditional directives, regions, and pragmas. Use them to compile code conditionally based on defined symbols and create collapsible code regions.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "al language",
-    "preprocessing",
+    "preprocessor directives",
     "conditional compilation",
-    "code organization"
+    "symbols",
+    "app.json configuration"
   ],
   "objects": [],
   "features": [
     "Conditional directives (#if, #else, #elif, #endif)",
-    "Symbol definition in app.json and code",
+    "Symbol definition (#define, #undef)",
     "Logical operators (and, or, not)",
-    "Region directives",
-    "Pragma directives"
+    "Region directives (#region, #endregion)",
+    "Pragma directives (#pragma)",
+    "Global symbols in app.json",
+    "File-scoped symbols"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004408,
-      "pages_in_call": 8
+      "cost_usd": 0.004807,
+      "pages_in_call": 1
     }
   ]
 }

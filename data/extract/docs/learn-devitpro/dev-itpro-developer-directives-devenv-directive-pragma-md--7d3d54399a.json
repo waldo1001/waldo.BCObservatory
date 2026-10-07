@@ -1,25 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/directives/devenv-directive-pragma.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma",
-  "title": "Pragma directive in AL",
-  "blob": "0792bd3675a8cf2242fe99e2424e6481f9b6c51c",
-  "summary": "The pragma directive in AL gives the compiler special instructions, supporting disable, restore, and enable actions with pragma ImplicitWith and pragma Warning instructions.",
+  "title": "Pragma Directives in AL Overview",
+  "blob": "53aa93278f6105c0f819d66d7e98523caf352c0b",
+  "summary": "Pragma directives are compiler instructions in AL that control compilation behavior. Use this page to understand #pragma warning (for disabling/restoring warnings) and #pragma implicitwith (for managing with statement handling).",
   "systems": [
     "development"
   ],
   "topics": [
+    "pragma directives",
+    "compiler instructions",
     "al language",
-    "directives",
-    "compiler",
-    "pragma"
+    "pragma warning",
+    "pragma implicitwith"
   ],
   "objects": [],
   "features": [
-    "pragma disable",
-    "pragma restore",
-    "pragma enable",
-    "pragma warning",
-    "pragma implicitwith"
+    "#pragma warning directive",
+    "#pragma implicitwith directive",
+    "disable action",
+    "restore action",
+    "enable action"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003046,
-      "pages_in_call": 8
+      "cost_usd": 0.002841,
+      "pages_in_call": 1
     }
   ]
 }

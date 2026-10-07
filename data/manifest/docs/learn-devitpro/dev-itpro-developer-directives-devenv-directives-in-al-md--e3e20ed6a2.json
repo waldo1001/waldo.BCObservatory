@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Preprocessor directives in AL",
+  "title": "AL Preprocessor Directives Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al",
   "published_at": "2026-10-07T07:28:32.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.026Z",
-      "blob": "5fda1a2196eb04c860a3c1cf373df04b94569c8a",
-      "words": 678,
+      "at": "2026-10-07T18:14:03.885Z",
+      "blob": "073da009e13a9fdc3d09f230b8dd9600198b6a31",
+      "words": 625,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:34.391Z",
+      "at": "2026-10-07T18:14:09.670Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004408
+      "cost_usd": 0.004807
     },
     "summarized": {
-      "at": "2026-10-06T18:56:34.411Z",
+      "at": "2026-10-07T18:14:09.671Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:34.412Z",
+      "at": "2026-10-07T18:14:09.672Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:34.413Z",
+      "at": "2026-10-07T18:14:09.673Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/directives/devenv-directives-in-al.md",
-    "description": "The different types of preprocessor directives in AL; conditional, regions, and pragmas and preprocessorSymbols setting.",
-    "ms_date": "2025-11-17",
+    "description": "Learn how to use conditional, region, and pragma preprocessor directives and define symbols in AL for Microsoft Dynamics 365 Business Central extensions.",
+    "ms_date": "2026-10-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 678
+    "words": 625
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23c0f56c9d94c36fcb4dceed33882c30b6e4605bf0013862a0a0f1eb83ac94e8"
+  "output_hash": "27c6cd0fe38328bf1efbca49b0abd4ed7e3f862fc16619dfc88825c587f8876d"
 }

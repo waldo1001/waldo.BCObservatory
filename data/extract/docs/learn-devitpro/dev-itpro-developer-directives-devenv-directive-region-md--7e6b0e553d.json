@@ -1,24 +1,24 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/directives/devenv-directive-region.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-region",
-  "title": "Region directive in AL",
-  "blob": "76e98bbff219d7c7786f8f80262408e48715f724",
-  "summary": "The region directive in AL marks collapsible code blocks for better readability and code organization, using #region and #endregion syntax.",
+  "title": "Region Directives for Organizing AL Code",
+  "blob": "45ddedc7387d48ee93dcc72cdc8317de55d349f8",
+  "summary": "Region directives (#region and #endregion) organize AL code into collapsible blocks to improve readability and focus in large files. Use them to mark and document sections of code.",
   "systems": [
     "development"
   ],
   "topics": [
-    "al language",
-    "directives",
+    "al development",
     "code organization",
+    "directives",
     "readability"
   ],
   "objects": [],
   "features": [
-    "region directive",
-    "endregion directive",
+    "#region directive",
+    "#endregion directive",
     "code collapsing",
-    "nested regions"
+    "code nesting"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003046,
-      "pages_in_call": 8
+      "cost_usd": 0.002917,
+      "pages_in_call": 1
     }
   ]
 }
