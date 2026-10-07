@@ -104,8 +104,13 @@ test("refresh writes diffs, timelines and radar once, and again only when a snap
   const r1 = refreshCodeDerived(dataDir, ["28", "29", "30"]);
   assert.deepEqual([r1.version_diffs, r1.country_diffs, r1.deprecations, r1.timelines], [1, 1, 2, 2]);
   const diff = JSON.parse(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"));
-  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [DERIVED_VERSION, ["c28", "c29", EXTRACTOR_VERSION, EXTRACTOR_VERSION]]]);
+  const n = (m: string) => JSON.parse(readFileSync(join(dataDir, `code/${m}/w1/manifest.json`), "utf8")).objects as number;
+  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [DERIVED_VERSION, ["c28", "c29", EXTRACTOR_VERSION, EXTRACTOR_VERSION, n("28"), n("29")]]]);
   assert.equal(refreshCodeDerived(dataDir, ["28", "29"]).written, 0, "unchanged inputs: nothing rewritten");
+  // the same commit re-extracted with a different object set (a folder the first extraction missed) re-derives everything
+  writeSnapshot(dataDir, (await objs(V29, "29")).slice(0, 1), man("29", "w1", "c29"));
+  const r3 = refreshCodeDerived(dataDir, ["28", "29"]);
+  assert.ok(r3.written >= 3 && r3.timelines > 0, `same commit, fewer objects: rewritten (${r3.written} files)`);
 });
 
 test("an older major kept as a diff: skeleton in data, full copy in the cache, history reaching back (D62)", async () => {

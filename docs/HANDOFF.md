@@ -37,6 +37,9 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   9,000, because w1-23 and w1-24 keep it under `BaseApp/Source/Base Application` and a missing folder was only a
   warning. Configured paths are now candidate lists, a missing base app fails the item, and the code config is part
   of the code items' input hash, so the fix re-ran every code job through one `pillars=code unlimited=true` dispatch.
+  The second run then kept the stale 23→24 and 24→25 diffs: derived files were keyed on commit and extractor only,
+  which had not changed. `DERIVED_VERSION` 7 adds the object count to every derived input (`pipeline/code/diff.ts`),
+  and a third dispatch rewrote them.
 - **Source stage, D60** (`docs/specs/source-embed.md`, M5): phases 1 and 2 on main. Video pages play click-to-load
   with chapter seeking, post pages frame the blog when the nightly probe allows it (else a source card), evidence chips
   open the player at their second, list posters, mini-player, WordPress cards. Sections 13 and 14 of the spec record
