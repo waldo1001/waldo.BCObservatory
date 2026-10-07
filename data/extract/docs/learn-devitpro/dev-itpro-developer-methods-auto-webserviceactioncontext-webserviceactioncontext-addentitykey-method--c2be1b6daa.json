@@ -2,27 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/methods-auto/webserviceactioncontext/webserviceactioncontext-addentitykey-method.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/webserviceactioncontext/webserviceactioncontext-addentitykey-method",
   "title": "WebServiceActionContext.AddEntityKey(Integer, Any) Method",
-  "blob": "94b34b75a1ad293f6694089273b362aab37782f9",
-  "summary": "AL method documentation for WebServiceActionContext.AddEntityKey that adds fieldId and value pairs to entity keys for OData bound actions.",
+  "blob": "a466465bc548dd63e435b40f648970a3d78cf9a9",
+  "summary": "The WebServiceActionContext.AddEntityKey method adds a field ID and value pair to the entity keys collection for OData V4 bound actions, returning true on success or false on failure.",
   "systems": [
-    "development",
-    "integration"
+    "integration",
+    "development"
   ],
   "topics": [
-    "al method",
-    "web service",
     "odata",
-    "bound action"
+    "web services",
+    "bound actions",
+    "api development"
   ],
   "objects": [
     {
       "type": "other",
-      "name": "WebServiceActionContext.AddEntityKey"
+      "name": "WebServiceActionContext"
     }
   ],
   "features": [
+    "AddEntityKey method",
     "entity key management",
-    "odata v4 bound action"
+    "field ID binding",
+    "OData V4 support"
   ],
   "versions": [
     "runtime version 2.0"
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002917,
-      "pages_in_call": 8
+      "cost_usd": 0.003373,
+      "pages_in_call": 1
     }
   ]
 }
