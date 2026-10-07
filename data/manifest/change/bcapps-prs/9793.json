@@ -6,7 +6,7 @@
   "title": "Bug 644120: Report Layout tables have ReplicateData = false (app test update)",
   "url": "https://github.com/microsoft/BCApps/pull/9793",
   "published_at": "2026-07-30T08:16:07Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 644120 report layout tables have replicatedata false app test update"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:44.926Z",
+  "retry_after": null
 }

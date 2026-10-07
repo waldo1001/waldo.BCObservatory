@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/123",
+  "number": 123,
+  "title": "Fix bridge skill manifest references after #122 root move",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The documentation for the bcquality-al-review bridge skill was updated to reflect the plugin manifest relocation from `.claude-plugin/plugin.json` to the repository root `plugin.json` after PR #122.",
+  "key_points": [
+    "Plugin root detection now anchors on the root `plugin.json` instead of the deleted `.claude-plugin/plugin.json`",
+    "Manifest location notes updated to correctly identify root `plugin.json` as canonical",
+    "Marketplace entry location corrected to `.claude-plugin/marketplace.json`",
+    "Documentation-only fix with no runtime behavior changes",
+    "Fallback anchor and prose wording aligned with actual plugin structure"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "The bridge `SKILL.md` prose was not updated to match, so it still pointed at the now-deleted `.claude-plugin/plugin.json`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003713,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9481,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9481",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T12:11:29Z",
+  "merge_commit_sha": "9a0e2de64db8bbfec9ee7bd6bc898cd79fcc8620",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Withholding Tax] FCY documents get wrongly rounded to LCY precision …",
+  "body_hash": "9c57c5f3de1f8c5f541b2b33ed068777d5579b5dd10a8602cdac582661831f58",
+  "fixes_issues": [],
+  "work_items": [
+    641864
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/WithholdingTax/Test/src/ERMWithholdingTaxTestsI.Codeunit.al",
+      "status": "modified",
+      "additions": 118,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 134,
+    "deletions": 10,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6785",
+        "type": "codeunit",
+        "id": 6785,
+        "name": "Withholding Tax Mgmt.",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6785"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "WithholdingTax"
+  ]
+}

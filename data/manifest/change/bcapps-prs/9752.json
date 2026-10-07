@@ -6,7 +6,7 @@
   "title": "Add App Finance CODEOWNERS entries for owned apps",
   "url": "https://github.com/microsoft/BCApps/pull/9752",
   "published_at": "2026-07-29T10:18:16Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "add app finance codeowners entries for owned apps"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:54.830Z",
+  "retry_after": null
 }

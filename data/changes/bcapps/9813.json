@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9813,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9813",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T22:05:33Z",
+  "merge_commit_sha": "9b8e025798adb2e890cbc60c9a5e75aeaa186958",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[E-Document][Pagero] Disable VAT reporting date so integration tests pass on CZ",
+  "body_hash": "96d4bc3c2e668372207e65208ee8766f8028664bf7bf8c4808288eee8e629ff0",
+  "fixes_issues": [],
+  "work_items": [
+    644596
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 16,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

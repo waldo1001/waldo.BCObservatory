@@ -6,7 +6,7 @@
   "title": "Fix language resolution for culture-neutral AI test datasets",
   "url": "https://github.com/microsoft/BCApps/pull/9801",
   "published_at": "2026-07-29T09:37:56Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix language resolution for culture neutral ai test datasets"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:56.856Z",
+  "retry_after": null
 }

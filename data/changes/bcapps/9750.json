@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9750,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9750",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T10:03:17Z",
+  "merge_commit_sha": "0026f4de1fe8091c9a621c66a8869a2e68d388c2",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 642535: Add mixed receive-only warehouse receipt test",
+  "body_hash": "1d3b4daeebbcf9beae76019ed19fd8836d858816dd7ebb956cb220221f7da2ea",
+  "fixes_issues": [],
+  "work_items": [
+    642535
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 157,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

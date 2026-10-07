@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
   "url": "https://github.com/microsoft/BCApps/pull/9777",
   "published_at": "2026-07-30T08:53:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:44.919Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:50.327Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00389
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:50.490Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:50.495Z",
+      "path": "content/changes/bcapps/9777.md"
     }
   },
   "input_hash": "19409cc67b63b76bcbd23392808e407e2c36def5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30377 add onbeforeprintonlyifsalescheck event in item sales statistics report"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "881e21d4158ca86866179953b1ba248dabc949de15041d911889e6d36cde5b05"
 }

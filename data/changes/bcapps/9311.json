@@ -1,0 +1,858 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9311,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9311",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T10:53:12Z",
+  "merge_commit_sha": "734886bde7025172e6a8ef230b3953e8cf009ff3",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Withholding Tax for Employee",
+  "body_hash": "b8345ba61da98f96364eab62e8e3c7a09d2c717868c24a02136667f64d3b5537",
+  "fixes_issues": [],
+  "work_items": [
+    580268
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/app.json",
+      "status": "added",
+      "additions": 46,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategories.PageExt.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryExt.TableExt.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+      "status": "added",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTTaxPostingSetup.PageExt.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTTaxPostingSetupExt.TableExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTThresholdAccumulatorExt.TableExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WithholdingSelectionMode.Enum.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTEmplLedgerEntryExt.TableExt.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTThresholdAccumulator.Table.al",
+      "status": "added",
+      "additions": 85,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Master/WHTEmployeeCard.PageExt.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Master/WHTEmployeeExt.TableExt.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WHTGroupLinesSubform.Page.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WHTThresholdPeriodType.Enum.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingCalculationBase.Enum.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingCalculationMethod.Enum.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingPartyType.Enum.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroup.Table.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroupCard.Page.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroupLine.Table.al",
+      "status": "added",
+      "additions": 165,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroups.Page.al",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingThresholdBase.Enum.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WHTEmployeeCalculation.Codeunit.al",
+      "status": "added",
+      "additions": 625,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WthldgTaxEmplSubscribers.Codeunit.al",
+      "status": "added",
+      "additions": 187,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntries.Page.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntry.Table.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTAdmin.permissionset.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTEdit.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTObjects.permissionset.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTRead.permissionset.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Table.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WthldgTaxBusPostGroup.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WthldgTaxBusPostGroup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 46,
+    "additions": 2178,
+    "deletions": 6,
+    "al": 44
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategories.PageExt.al",
+        "status": "added",
+        "key": "pageextension/7055",
+        "type": "pageextension",
+        "id": 7055,
+        "name": "WHT Expense Categories",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/7055"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7055",
+        "type": "tableextension",
+        "id": 7055,
+        "name": "WHT Expense Category Ext",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/7055"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7056",
+        "type": "codeunit",
+        "id": 7056,
+        "name": "WHT Expense Category Mgt.",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/7056"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTTaxPostingSetup.PageExt.al",
+        "status": "added",
+        "key": "pageextension/7056",
+        "type": "pageextension",
+        "id": 7056,
+        "name": "WHT Tax Posting Setup",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/7056"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTTaxPostingSetupExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7056",
+        "type": "tableextension",
+        "id": 7056,
+        "name": "WHT Tax Posting Setup Ext",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/7056"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTThresholdAccumulatorExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/7057",
+        "type": "tableextension",
+        "id": 7057,
+        "name": "WHT Threshold Accumulator Ext",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/7057"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WithholdingSelectionMode.Enum.al",
+        "status": "added",
+        "key": "enum/7055",
+        "type": "enum",
+        "id": 7055,
+        "name": "Withholding Selection Mode",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "enum/7055"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTEmplLedgerEntryExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6810",
+        "type": "tableextension",
+        "id": 6810,
+        "name": "WHT Empl. Ledger Entry Ext",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/6810"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTThresholdAccumulator.Table.al",
+        "status": "added",
+        "key": "table/6794",
+        "type": "table",
+        "id": 6794,
+        "name": "WHT Threshold Accumulator",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6794"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Master/WHTEmployeeCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6801",
+        "type": "pageextension",
+        "id": 6801,
+        "name": "WHT Employee Card",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/6801"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Master/WHTEmployeeExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6809",
+        "type": "tableextension",
+        "id": 6809,
+        "name": "WHT Employee Ext",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/6809"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WHTGroupLinesSubform.Page.al",
+        "status": "added",
+        "key": "page/6791",
+        "type": "page",
+        "id": 6791,
+        "name": "WHT Group Lines Subform",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6791"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WHTThresholdPeriodType.Enum.al",
+        "status": "added",
+        "key": "enum/6788",
+        "type": "enum",
+        "id": 6788,
+        "name": "WHT Threshold Period Type",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "enum/6788"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingCalculationBase.Enum.al",
+        "status": "added",
+        "key": "enum/6785",
+        "type": "enum",
+        "id": 6785,
+        "name": "Withholding Calculation Base",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "enum/6785"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingCalculationMethod.Enum.al",
+        "status": "added",
+        "key": "enum/6786",
+        "type": "enum",
+        "id": 6786,
+        "name": "Withholding Calculation Method",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "enum/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingPartyType.Enum.al",
+        "status": "added",
+        "key": "enum/6784",
+        "type": "enum",
+        "id": 6784,
+        "name": "Withholding Party Type",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "enum/6784"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroup.Table.al",
+        "status": "added",
+        "key": "table/6792",
+        "type": "table",
+        "id": 6792,
+        "name": "Withholding Tax Group",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6792"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroupCard.Page.al",
+        "status": "added",
+        "key": "page/6790",
+        "type": "page",
+        "id": 6790,
+        "name": "Withholding Tax Group Card",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6790"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroupLine.Table.al",
+        "status": "added",
+        "key": "table/6793",
+        "type": "table",
+        "id": 6793,
+        "name": "Withholding Tax Group Line",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6793"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingTaxGroups.Page.al",
+        "status": "added",
+        "key": "page/6789",
+        "type": "page",
+        "id": 6789,
+        "name": "Withholding Tax Groups",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6789"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Setup/WithholdingThresholdBase.Enum.al",
+        "status": "added",
+        "key": "enum/6787",
+        "type": "enum",
+        "id": 6787,
+        "name": "Withholding Threshold Base",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "enum/6787"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WHTEmployeeCalculation.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6790",
+        "type": "codeunit",
+        "id": 6790,
+        "name": "WHT Employee Calculation",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6790"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WthldgTaxEmplSubscribers.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6791",
+        "type": "codeunit",
+        "id": 6791,
+        "name": "Wthldg Tax Empl. Subscribers",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6791"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntries.Page.al",
+        "status": "modified",
+        "key": "page/6788",
+        "type": "page",
+        "id": 6788,
+        "name": "Withholding Tax Entries",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6788"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntry.Table.al",
+        "status": "modified",
+        "key": "table/6788",
+        "type": "table",
+        "id": 6788,
+        "name": "Withholding Tax Entry",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6788"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTAdmin.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6784",
+        "type": "permissionset",
+        "id": 6784,
+        "name": "WHT - Admin",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "permissionset/6784"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTEdit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6787",
+        "type": "permissionset",
+        "id": 6787,
+        "name": "WHT - Edit",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "permissionset/6787"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6786",
+        "type": "permissionset",
+        "id": 6786,
+        "name": "WHT - Objects",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "permissionset/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Permissions/WHTRead.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6785",
+        "type": "permissionset",
+        "id": 6785,
+        "name": "WHT - Read",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "permissionset/6785"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Page.al",
+        "status": "modified",
+        "key": "page/6786",
+        "type": "page",
+        "id": 6786,
+        "name": "Withholding Tax Posting Setup",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Table.al",
+        "status": "modified",
+        "key": "table/6786",
+        "type": "table",
+        "id": 6786,
+        "name": "Withholding Tax Posting Setup",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WthldgTaxBusPostGroup.Page.al",
+        "status": "modified",
+        "key": "page/6784",
+        "type": "page",
+        "id": 6784,
+        "name": "Wthldg. Tax Bus. Post. Group",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "page/6784"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WthldgTaxBusPostGroup.Table.al",
+        "status": "modified",
+        "key": "table/6784",
+        "type": "table",
+        "id": 6784,
+        "name": "Wthldg. Tax Bus. Post. Group",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6784"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "ExpenseWithholdingTax",
+    "WithholdingTax"
+  ]
+}

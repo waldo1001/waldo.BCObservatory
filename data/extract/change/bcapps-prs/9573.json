@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9573",
+  "number": 9573,
+  "title": "[Subcontracting] Fixed purchase order not opening the list of transfer orders when > 1 were created",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed subcontracting purchase orders to display all created transfer orders in a list instead of opening only the last one when multiple transfer orders are created from different source locations.",
+  "key_points": [
+    "Corrected navigation logic to filter transfer orders by purchase order number instead of individual purchase lines",
+    "Multiple transfer orders now open in a filtered list view; single transfer order still opens in card view",
+    "Updated transfer order creation report to reference purchase header instead of last processed line",
+    "Added regression test for purchase orders with multiple production orders at different locations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Added purchase-order-level transfer order navigation filtered by purchase order number and return status.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003561,
+    "changes_in_call": 1
+  }
+}

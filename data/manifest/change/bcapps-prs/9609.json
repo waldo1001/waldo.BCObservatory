@@ -6,10 +6,18 @@
   "title": "Bug 642555: [master] [NL] SEPA Direct Debit Export (Report 11000015 – pain.008.001.08) exports unstructured address instead of structured",
   "url": "https://github.com/microsoft/BCApps/pull/9609",
   "published_at": "2026-07-29T09:33:48Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:58.505Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "d1160e3148755dae3684861aae8e863b6a0ed344:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642555 master nl sepa direct debit export report 11000015 pain 008 001 08 exports unstructured address instead of structured"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4a4c3dc179abd4071fa3eb019718a9a0a0cc70009ac8d09a044a3f2614c549b"
 }

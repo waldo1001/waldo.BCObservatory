@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9744",
+  "number": 9744,
+  "title": "[Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Email - Outlook REST API connector now skips attachments without contentBytes instead of failing the entire batch, allowing emails with non-file attachments to be imported successfully.",
+  "key_points": [
+    "Attachments without contentBytes (item and reference attachments) are now skipped instead of causing batch failure",
+    "File attachments with contentBytes continue to work unchanged",
+    "Unhandled JSON parsing errors that rolled back entire email batches are eliminated",
+    "Regression test added with test payload for non-file attachments"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

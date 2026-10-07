@@ -6,7 +6,7 @@
   "title": "Move plugin.json to plugin root; declare skills for CLI/marketplace compliance",
   "url": "https://github.com/microsoft/BCQuality/pull/122",
   "published_at": "2026-07-30T07:45:07Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "move plugin json to plugin root declare skills for cli marketplace compliance"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:45.790Z",
+  "retry_after": null
 }

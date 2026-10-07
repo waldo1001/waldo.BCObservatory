@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9777,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9777",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T08:53:03Z",
+  "merge_commit_sha": "19409cc67b63b76bcbd23392808e407e2c36def5",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "body_hash": "ce76e720aca92a3a5146fe84b3a887f7011374173027a3ed32044c6a78bd2605",
+  "fixes_issues": [],
+  "work_items": [
+    644155
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/ItemSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 10,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/ItemSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/10135",
+        "type": "report",
+        "id": 10135,
+        "name": "Item Sales Statistics",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10135-ca"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0",
   "url": "https://github.com/microsoft/BCApps/pull/9748",
   "published_at": "2026-07-29T10:57:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:53.734Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:58.753Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003879
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:02.632Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:02.637Z",
+      "path": "content/changes/bcapps/9748.md"
     }
   },
   "input_hash": "f986ec414bd4f45cb2f7c8152c54bb4e6f4ad27f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "image analyzer use computer vision v3 2 instead of retiring v1 0"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94704438991881ebb5ecd2c721a2f2027bdb18d913ae22bedd2d819a0524e837"
 }

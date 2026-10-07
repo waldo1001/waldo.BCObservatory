@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9792",
+  "number": 9792,
+  "title": "Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "German ZUGFeRD and PEPPOL BIS 3.0 DE formats and French Factur-X and PEPPOL BIS 3.0 FR formats are now migrated to the V2 draft import pipeline, enabling the draft-based workflow and Copilot-assisted matching previously unavailable for these localized e-document formats.",
+  "key_points": [
+    "ZUGFeRD and Factur-X handlers implement both CII XML parsing and PDF/A-3 container extraction",
+    "PEPPOL BIS 3.0 handlers for both countries reuse existing UBL readers adapted for their regional specifications",
+    "French SIRET identifiers and German Leitweg-ID values are preserved during round-trip import-export cycles",
+    "New enum extension values added for Read into Draft and Structure Received workflows",
+    "German table extension field stores buyer reference data on E-Document Purchase Header"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010301,
+    "changes_in_call": 1
+  }
+}

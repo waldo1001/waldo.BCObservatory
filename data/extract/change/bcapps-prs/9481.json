@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9481",
+  "number": 9481,
+  "title": "[Withholding Tax] FCY documents get wrongly rounded to LCY precision …",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Foreign currency withholding tax documents no longer incorrectly round amounts to local currency precision, fixing a calculation issue in withholding tax management.",
+  "key_points": [
+    "Withholding tax amounts in foreign currency documents were being rounded using local currency precision instead of the correct currency's precision",
+    "Corrected the rounding logic in the withholding tax management codeunit",
+    "Added test cases to verify correct rounding behavior for foreign currency transactions",
+    "Addresses issue AB#641864"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003304,
+    "changes_in_call": 1
+  }
+}

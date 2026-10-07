@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Fixed purchase order not opening the list of transfer orders when > 1 were created",
   "url": "https://github.com/microsoft/BCApps/pull/9573",
   "published_at": "2026-07-30T08:51:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:44.004Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:48.933Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003561
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:49.156Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:49.162Z",
+      "path": "content/changes/bcapps/9573.md"
     }
   },
   "input_hash": "eb3e031c79d249a372ee0e83d977cba69f68db71:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting fixed purchase order not opening the list of transfer orders when 1 were created"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "089b6fafb53cc74dd3c5ccd735e23a59a73bf372b4bc3de7c536b2922e829304"
 }

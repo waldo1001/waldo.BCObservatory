@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9748",
+  "number": 9748,
+  "title": "Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API to prevent failures after the v1.0 retirement date of September 2026.",
+  "key_points": [
+    "Addresses Azure Computer Vision v1.0 API retirement scheduled for 2026-09-13",
+    "Switches to already-shipped v3.2 provider with same OAuth2 authentication and response structure",
+    "No functional changes since the app only reads image tags which remain compatible",
+    "Mirrors existing implementation in ItemFromPicture codeunit",
+    "Low risk change that removes near-term API retirement exposure"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": "Azure Computer Vision v1.0 Analyze API is retired on 2026-09-13.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003879,
+    "changes_in_call": 1
+  }
+}

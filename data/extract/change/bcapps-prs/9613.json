@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9613",
+  "number": 9613,
+  "title": "[Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Sustainability module fixes for carbon tracking with item charges, value chain posting, and setup validations. Corrects proportional CO2e distribution across split item ledger entries, adds missing value entries for undo operations, and improves field visibility and defaults.",
+  "key_points": [
+    "Item charge CO2e now distributed proportionally across split item ledger entries and tracking specifications",
+    "Undo purchase receipt and service documents now properly reverse and recreate sustainability value entries",
+    "Added validation warning when specific carbon tracking method is enabled without corresponding item tracking setup",
+    "CO2e per Unit field added to Item Journal page for better visibility and editability",
+    "Installation Multiplier default value set to 1 for distance-based Scope 3 emissions in purchase documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "finance"
+  ],
+  "quote": "Item Charge CO2e not distributed across received/applied quantity",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00532,
+    "changes_in_call": 1
+  }
+}

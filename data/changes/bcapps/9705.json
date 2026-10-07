@@ -1,0 +1,119 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9705,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9705",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T15:29:33Z",
+  "merge_commit_sha": "dc32dbad8f35f2fd58bd417aedbf1d00bed0418b",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types",
+  "body_hash": "3bb52b46eb420579d604f22f8ce16e8299340d6244fe39eed5cfae780a28b600",
+  "fixes_issues": [],
+  "work_items": [
+    643376
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMTransferReservation.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 13,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 133,
+    "deletions": 25,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+        "status": "modified",
+        "key": "table/5741",
+        "type": "table",
+        "id": 5741,
+        "name": "Transfer Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5741"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+        "status": "modified",
+        "key": "table/5741",
+        "type": "table",
+        "id": 5741,
+        "name": "Transfer Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5741"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+        "status": "modified",
+        "key": "table/5741",
+        "type": "table",
+        "id": 5741,
+        "name": "Transfer Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5741"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Transfer/TransferLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

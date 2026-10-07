@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9609,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9609",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T09:33:48Z",
+  "merge_commit_sha": "d1160e3148755dae3684861aae8e863b6a0ed344",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 642555: [master] [NL] SEPA Direct Debit Export (Report 11000015 – pain.008.001.08) exports unstructured address instead of structured",
+  "body_hash": "c7f44f3fd67e3f6ee3b5d5feb543efb2b2251def9c349906b27d8202dde67fd9",
+  "fixes_issues": [],
+  "work_items": [
+    642555
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/DirectDebit/SEPAISO20022Pain00800108.Report.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/DirectDebit/SEPAISO20022Pain010109.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/Payment/ReportChecksum.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/TestSEPAPAIN00800108.Codeunit.al",
+      "status": "modified",
+      "additions": 143,
+      "deletions": 98,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 273,
+    "deletions": 127,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/DirectDebit/SEPAISO20022Pain00800108.Report.al",
+        "status": "modified",
+        "key": "report/11000015",
+        "type": "report",
+        "id": 11000015,
+        "name": "SEPA ISO20022 Pain 008.001.08",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "report/11000015-nl"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/DirectDebit/SEPAISO20022Pain010109.Report.al",
+        "status": "modified",
+        "key": "report/11000014",
+        "type": "report",
+        "id": 11000014,
+        "name": "SEPA ISO20022 Pain 01.01.09",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "report/11000014-nl"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/Payment/ReportChecksum.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11000012",
+        "type": "codeunit",
+        "id": 11000012,
+        "name": "Report Checksum",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/11000012-nl"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,18 @@
   "title": "Fix internal admin losing SUPER during customized plan provisioning",
   "url": "https://github.com/microsoft/BCApps/pull/9717",
   "published_at": "2026-07-29T09:36:28Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:57.897Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "ea113f8d0292fb0fff643dea78d859e7c0ef24b5:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix internal admin losing super during customized plan provisioning"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "18843e10dcc6091891c965057e2dc59a9d01b186208be0c3f91eb66506090ccb"
 }

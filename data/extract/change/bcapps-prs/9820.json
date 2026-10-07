@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9820",
+  "number": 9820,
+  "title": "Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Job Queue Entry GetXmlContent method now uses ReadCommitted isolation when reading the XML parameter BLOB to prevent unnecessary locking and blocking in concurrent scenarios.",
+  "key_points": [
+    "Adds explicit ReadIsolation(IsolationLevel::ReadCommitted) to CalcFields(XML) call in GetXmlContent",
+    "Prevents locking on job queue entry records during XML parameter reads",
+    "Removes implicit isolation escalation when caller is in an updating transaction",
+    "No signature or behavior changes to the procedure or related events",
+    "Low risk change with same effective isolation as default read behavior"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003873,
+    "changes_in_call": 1
+  }
+}

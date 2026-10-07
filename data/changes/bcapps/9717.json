@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9717,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9717",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T09:36:28Z",
+  "merge_commit_sha": "ea113f8d0292fb0fff643dea78d859e7c0ef24b5",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix internal admin losing SUPER during customized plan provisioning",
+  "body_hash": "abd0951ff29e7c662957e63b67e21427f6ee40b81d82c0e10ca851cb6e30f4ab",
+  "fixes_issues": [],
+  "work_items": [
+    643970
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PlanConfiguration/test/src/AzureADPlanModuleTest.codeunit.al",
+      "status": "modified",
+      "additions": 276,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Azure AD Plan/src/AzureADPlanImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 297,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Azure AD Plan/src/AzureADPlanImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9018",
+        "type": "codeunit",
+        "id": 9018,
+        "name": "Azure AD Plan Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9018"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

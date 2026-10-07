@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9744,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9744",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T12:18:05Z",
+  "merge_commit_sha": "eeb62962c2a8cbaa8fa9f66c8ae44c102b2e3ee6",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails",
+  "body_hash": "29a8de6bb76e9064ce1527221b26c8f8f1d8c53ac8c5ca69fd41ef8bd14b9885",
+  "fixes_issues": [],
+  "work_items": [
+    644147
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/HttpResponseFiles/RetrieveEmailWithNonFileAttachments.txt",
+      "status": "added",
+      "additions": 46,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/OutlookAPIHelperTests.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 119,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4509",
+        "type": "codeunit",
+        "id": 4509,
+        "name": "Email - Outlook API Helper",
+        "app": "Email - Outlook REST API",
+        "cc": "w1",
+        "page": "codeunit/4509"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Email - Outlook REST API"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9814,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9814",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T21:49:08Z",
+  "merge_commit_sha": "95f453d5738d8599d97b2d2fac5f150d0af3fd70",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Revert \"Expose AppService location and EUDB membership on Environment Information for internal consumption (#9716)\"",
+  "body_hash": "c5eaa20a9f49276c9c7408f8f0558941aa5cb5a7f5cd05f05d92a7b5fe6624fb",
+  "fixes_issues": [],
+  "work_items": [
+    643989
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Environment Information/src/EnvironmentInformationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Partner Test/Environment Information/src/EnvironmentInfoTestPartner.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 47,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/Environment Information/src/EnvironmentInformationTest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 28,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 0,
+    "deletions": 126,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/457",
+        "type": "codeunit",
+        "id": 457,
+        "name": "Environment Information",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/457"
+      },
+      {
+        "path": "src/System Application/App/Environment Information/src/EnvironmentInformationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3702",
+        "type": "codeunit",
+        "id": 3702,
+        "name": "Environment Information Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3702"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

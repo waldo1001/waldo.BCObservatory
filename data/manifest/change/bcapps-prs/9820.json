@@ -6,10 +6,35 @@
   "title": "Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent",
   "url": "https://github.com/microsoft/BCApps/pull/9820",
   "published_at": "2026-07-30T07:54:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:46.057Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:51.131Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003873
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:51.297Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:51.302Z",
+      "path": "content/changes/bcapps/9820.md"
     }
   },
   "input_hash": "a68863f272afb06048e4921f60a73edca446a9ea:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "use readcommitted isolation for calcfields in job queue entry getxmlcontent"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e83f58970f792e7fe5e80d8970c052cc9a9040103121fc76cc830c5eee161e05"
 }

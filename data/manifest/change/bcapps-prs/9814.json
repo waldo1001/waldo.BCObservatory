@@ -6,10 +6,35 @@
   "title": "Revert \"Expose AppService location and EUDB membership on Environment Information for internal consumption (#9716)\"",
   "url": "https://github.com/microsoft/BCApps/pull/9814",
   "published_at": "2026-07-29T21:49:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:47.254Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:52.556Z",
+      "prompt": "extract-change@1",
+      "kind": "breaking",
+      "behavior": true,
+      "cost_usd": 0.003955
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:52.709Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:52.715Z",
+      "path": "content/changes/bcapps/9814.md"
     }
   },
   "input_hash": "95f453d5738d8599d97b2d2fac5f150d0af3fd70:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "revert expose appservice location and eudb membership on environment information for internal consumption 9716"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b8d642b76153e3490929adcb5cf929fe9d3c01c0b8681b1567b445c0fb74e3a"
 }

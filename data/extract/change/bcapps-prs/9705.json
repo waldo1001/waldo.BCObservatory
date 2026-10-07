@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9705",
+  "number": 9705,
+  "title": "[master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Transfer order header deletion is now allowed when reserved quantities exist, making the behavior consistent with deleting individual transfer lines and other document types.",
+  "key_points": [
+    "Transfer order headers can now be deleted despite having reserved quantities",
+    "Aligns header deletion behavior with line deletion behavior",
+    "Matches deletion logic used in other document types",
+    "Transfer Line table modified across multiple localization layers",
+    "Test coverage added for transfer order reservation scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "Transfer Order header deletion blocked by reserved quantity - inconsistent with line deletion and all other document types",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003238,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "Withholding Tax for Employee",
   "url": "https://github.com/microsoft/BCApps/pull/9311",
   "published_at": "2026-07-29T10:53:12Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:57.375Z",
+      "change_class": "code",
+      "files": 46,
+      "al": 44,
+      "objects": 44,
+      "unjoined": 0
     }
   },
   "input_hash": "734886bde7025172e6a8ef230b3953e8cf009ff3:c1",
@@ -32,5 +40,8 @@
     ],
     "community_contribution": true,
     "title_key": "withholding tax for employee"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b5115a8001a2db1355db8e3b4891160ff6e319e9ae76beb2b8f03493197bc68"
 }

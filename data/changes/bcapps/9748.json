@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9748,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9748",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T10:57:11Z",
+  "merge_commit_sha": "f986ec414bd4f45cb2f7c8152c54bb4e6f4ad27f",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0",
+  "body_hash": "6ef8e647e5419012ba626b0c942e80b595562a10b92d91d9bafe10da632461f4",
+  "fixes_issues": [],
+  "work_items": [
+    644272
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ImageAnalysis/app/src/codeunits/ImageAnalyzerExtMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ImageAnalysis/app/src/codeunits/ImageAnalyzerExtMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2027",
+        "type": "codeunit",
+        "id": 2027,
+        "name": "Image Analyzer Ext. Mgt.",
+        "app": "ImageAnalysis",
+        "cc": "w1",
+        "page": "codeunit/2027"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ImageAnalysis"
+  ]
+}

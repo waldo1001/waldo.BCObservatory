@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9777",
+  "number": 9777,
+  "title": "[Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item Sales Statistics report now exposes an integration event that allows extensions to override the skip decision for items based on sales quantity before printing, enabling custom logic for alternate UOM scenarios.",
+  "key_points": [
+    "New integration event OnAfterGetRecordItemOnBeforePrintOnlyIfSalesCheck allows subscribers to override the skip record decision",
+    "Event fires after CalcFields calculates sales quantity but before CurrReport.Skip() executes",
+    "Extensions can now influence whether items appear in the report output based on alternate-UOM sales figures",
+    "Behavior remains unchanged when no subscribers are present",
+    "Skip logic refactored from inline check into SkipRecord boolean variable"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 1
+  }
+}

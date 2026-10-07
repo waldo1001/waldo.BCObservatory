@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9820,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9820",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-30T07:54:38Z",
+  "merge_commit_sha": "a68863f272afb06048e4921f60a73edca446a9ea",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent",
+  "body_hash": "42db7db9793dd1011797ac426980705a60d201368f370e703649831b4543cb44",
+  "fixes_issues": [],
+  "work_items": [
+    644633
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+        "status": "modified",
+        "key": "table/472",
+        "type": "table",
+        "id": 472,
+        "name": "Job Queue Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/472"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

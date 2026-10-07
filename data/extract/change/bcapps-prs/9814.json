@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9814",
+  "number": 9814,
+  "title": "Revert \"Expose AppService location and EUDB membership on Environment Information for internal consumption (#9716)\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Removed Microsoft-only methods from the public Environment Information codeunit to avoid exposing internal functionality that third-party extensions cannot use.",
+  "key_points": [
+    "Reverted addition of GetApplicationServiceLocation() and IsApplicationServiceInEUDB() methods",
+    "These methods were restricted to Microsoft-published callers via NavApp.GetCallerModuleInfo",
+    "Removed companion test codeunit for partner testing",
+    "Eliminates anti-pattern of public API advertising functionality unavailable to third parties"
+  ],
+  "change_kind": "breaking",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": "Exposing Microsoft-only functionality on a public System Application codeunit is an anti-pattern we want to avoid.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003955,
+    "changes_in_call": 1
+  }
+}

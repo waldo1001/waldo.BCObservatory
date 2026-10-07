@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9779",
+  "number": 9779,
+  "title": "[Extensibility Request] issue 30361: add OnAutoArchiveJobOnCaseElse event to Job Archive Management",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "A new integration event OnAutoArchiveJobOnCaseElse is added to Job Archive Management so extensions can handle custom archive modes beyond the standard options.",
+  "key_points": [
+    "Event fires in the else branch of the archive jobs case when a non-standard archive mode is set",
+    "Extensions receive the Job and Jobs Setup records as parameters",
+    "Allows custom archive handling logic to be plugged in without modifying core code",
+    "Addresses gap where unhandled archive modes silently did nothing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003421,
+    "changes_in_call": 1
+  }
+}

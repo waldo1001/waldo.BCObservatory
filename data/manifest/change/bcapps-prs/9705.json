@@ -6,10 +6,35 @@
   "title": "[master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types",
   "url": "https://github.com/microsoft/BCApps/pull/9705",
   "published_at": "2026-07-29T15:29:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:48.872Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:53.746Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003238
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:53.939Z",
+      "objects": 3,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:53.953Z",
+      "path": "content/changes/bcapps/9705.md"
     }
   },
   "input_hash": "dc32dbad8f35f2fd58bd417aedbf1d00bed0418b:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master transfer order header deletion blocked by reserved quantity inconsistent with line deletion and all other document types"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af295d0f597d7d2b776a3bf2b3715b01c4a6b48abffdbfd516b512e89583dc2b"
 }

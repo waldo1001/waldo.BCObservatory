@@ -6,10 +6,35 @@
   "title": "Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline",
   "url": "https://github.com/microsoft/BCApps/pull/9792",
   "published_at": "2026-07-29T16:55:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:14:48.564Z",
+      "change_class": "code",
+      "files": 24,
+      "al": 9,
+      "objects": 0,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T13:14:54.998Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010301
+    },
+    "linked": {
+      "at": "2026-10-07T13:14:55.175Z",
+      "objects": 0,
+      "unjoined": 9,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:14:55.181Z",
+      "path": "content/changes/bcapps/9792.md"
     }
   },
   "input_hash": "f512fb7ede8aca2a7590284476ee8ae187986e67:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "migrate zugferd peppol bis 3 0 de factur x fr and peppol bis 3 0 fr to the v2 draft import pipeline"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0b8cdf61b68edb8cd507bd00834bb83ddc58cfc5d21972c54a21b44ab9e88ad8"
 }

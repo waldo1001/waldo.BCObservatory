@@ -6,7 +6,7 @@
   "title": "[E-Document][Pagero] Disable VAT reporting date so integration tests pass on CZ",
   "url": "https://github.com/microsoft/BCApps/pull/9813",
   "published_at": "2026-07-29T22:05:33Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document pagero disable vat reporting date so integration tests pass on cz"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:46.612Z",
+  "retry_after": null
 }

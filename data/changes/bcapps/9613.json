@@ -1,0 +1,275 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9613,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9613",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T11:23:49Z",
+  "merge_commit_sha": "e0cae90ed8e409266713dab03912f6ab10a0d07f",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)",
+  "body_hash": "cf8101f8f3af8796b098f41e2f79d3930a768bcf34863fd2c96b59383a419c66",
+  "fixes_issues": [],
+  "work_items": [
+    641049,
+    641051,
+    641055,
+    641222,
+    641224,
+    641289,
+    641309,
+    641486,
+    641487
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTService/src/Codeunit/eInvoiceManagementforSer.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItem.TableExt.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Journal/SustItemJournal.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustItemPostSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 183,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustainabilityPurchLine.TableExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Service/SustServiceSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Setup/SustainabilitySetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Setup/SustainabilitySetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustItemChrgAssignTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1379,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustValueChainFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustValueEntryTest.Codeunit.al",
+      "status": "modified",
+      "additions": 861,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityServiceTests.Codeunit.al",
+      "status": "modified",
+      "additions": 412,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 3073,
+    "deletions": 32,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItem.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6220",
+        "type": "tableextension",
+        "id": 6220,
+        "name": "Sust. Item",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6220"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Journal/SustItemJournal.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6288",
+        "type": "pageextension",
+        "id": 6288,
+        "name": "Sust. Item Journal",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6288"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustItemPostSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6256",
+        "type": "codeunit",
+        "id": 6256,
+        "name": "Sust. Item Post Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6256"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6212",
+        "type": "codeunit",
+        "id": 6212,
+        "name": "Sustainability Post Mgt",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6212"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6225",
+        "type": "codeunit",
+        "id": 6225,
+        "name": "Sust. Purchase Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6225"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustainabilityPurchLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6211",
+        "type": "tableextension",
+        "id": 6211,
+        "name": "Sustainability Purch. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6211"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6253",
+        "type": "codeunit",
+        "id": 6253,
+        "name": "Sust. Sales Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6253"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Service/SustServiceSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6285",
+        "type": "codeunit",
+        "id": 6285,
+        "name": "Sust. Service Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6285"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Setup/SustainabilitySetup.Page.al",
+        "status": "modified",
+        "key": "page/6221",
+        "type": "page",
+        "id": 6221,
+        "name": "Sustainability Setup",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6221"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Setup/SustainabilitySetup.Table.al",
+        "status": "modified",
+        "key": "table/6217",
+        "type": "table",
+        "id": 6217,
+        "name": "Sustainability Setup",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6217"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Codeunit/eInvoiceManagementforSer.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

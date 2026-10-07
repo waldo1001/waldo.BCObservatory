@@ -6,7 +6,7 @@
   "title": "[Shopify] Fix Price List header defaults in dated discount test helper",
   "url": "https://github.com/microsoft/BCApps/pull/9804",
   "published_at": "2026-07-29T11:40:00Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix price list header defaults in dated discount test helper"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:14:52.266Z",
+  "retry_after": null
 }

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9801,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9801",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T09:37:56Z",
+  "merge_commit_sha": "978dd41773d3a4985c8c0d634361b38a4eea3b89",
+  "author": "Jose-agg",
+  "author_type": "User",
+  "labels": [
+    "AL: Tools",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix language resolution for culture-neutral AI test datasets",
+  "body_hash": "1d28447561d0bf06c4dc1229e23f6072ba6e5e2e928ea7b8454f91061550954f",
+  "fixes_issues": [],
+  "work_items": [
+    644244
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
