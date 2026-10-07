@@ -67,7 +67,8 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
     if (tags.length && !r.tags) r.tags = tags.slice(0, 8);
     const c = fm.coverage ?? {};
     r.members = n(c.learn) + n(c.code) + n(c.video) + n(c.blog);
-    r.narrative = fm.narrative && fm.narrative !== "none" ? (fm.review?.state === "reviewed" ? "reviewed" : "unreviewed") : "none";
+    // D77: a derived hub has no narrative, so it ranks as "none"; a flagged one has its narrative withheld, also "none"
+    r.narrative = fm.narrative && fm.narrative !== "none" && fm.review?.state !== "derived" ? (fm.review?.state === "reviewed" ? "reviewed" : "unreviewed") : "none";
     r.stats = [plural(n(c.learn), "Learn page"), n(c.code) ? plural(n(c.code), "object") : "", n(c.video) ? plural(n(c.video), "video") : "",
       n(c.blog) ? plural(n(c.blog), "post") : "", r.narrative === "none" ? "no narrative" : r.narrative].filter(Boolean).join(" · ");
   }

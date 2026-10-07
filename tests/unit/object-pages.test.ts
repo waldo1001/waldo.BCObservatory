@@ -30,6 +30,7 @@ test("object and localization pages: valid frontmatter, cross-links that resolve
   const r = renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
   assert.deepEqual([r.objects, r.localizations, r.own_objects], [7, 1, 1], "table 18, codeunit 99 (gone in 29), tableextension 50, page 21, table 36, codeunit 80, BE's own table 11300; BE");
   const t = matter(readFileSync(join(contentDir, "objects/table/18.md"), "utf8"));
+  assert.deepEqual(t.data.review, { state: "derived", by: null, at: null, flags: [] }, "D77: an object page holds no model text");
   assert.deepEqual([t.data.present_in, t.data.changed_in, t.data.versions.introduced, t.data.countries, t.data.links.localizations], [["28", "29"], ["29"], null, ["be"], ["localization/be"]]);
   assert.match(t.content, /\| 2 \| Email \| Text\[80\] \| — \| obsolete Pending 29.0 \|/);
   assert.match(t.content, /OnAfterX\(\)` \(integration\)\n  - subscribers: \[Codeunit 80 "Sales-Post"\]\(\.\.\/codeunit\/80\.md\) OnX/);

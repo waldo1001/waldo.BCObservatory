@@ -36,6 +36,7 @@ test("topic pages: valid frontmatter, Learn links with descriptions, subtopics, 
   const v = validate("frontmatter.topic", data);
   assert.ok(v.ok, v.errors.join("; "));
   assert.deepEqual([data.coverage.learn, data.bc_forms, data.narrative, data.children], [3, [312, 6627], "none", ["topic/bc/finance/gl"]]);
+  assert.equal(data.review.state, "derived", "D77: a hub without a narrative holds no model text");
   assert.ok(content.includes("- [gl](finance/gl.md) (1 pages)"));
   assert.ok(content.includes("- [Page a \\| x](https://learn.microsoft.com/dynamics365/business-central/a): About a."));
   assert.ok(!content.includes("/c):"), "pages of a subtopic are listed there, not twice");

@@ -34,6 +34,7 @@ import { loadDocsObjects, type DocRef, type DocsObjects } from "../code/docs-obj
 import { PIPELINE_VERSION } from "../version.js";
 import { changesByObjectPath, type ChangeRef } from "./change.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const TYPE_LABEL: Record<string, string> = {
   table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report",
@@ -228,7 +229,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     id: `object/${pageKey}`, type: "object", title, summary, tier: "official", language: "en",
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: reviewOf(false),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}${callSig ? `|calls:${callSig}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
@@ -538,12 +539,14 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
   const added = d.objects.filter((o) => o.change === "added"), replaced = d.objects.filter((o) => o.change === "replaced"), removed = d.objects.filter((o) => o.change === "removed");
   const fieldsAdded = Number(d.summary.fields_added ?? 0), eventsAdded = Number(d.summary.events_added ?? 0);
   const facts = `${name} (${cc.toUpperCase()}) localization of Business Central in BC${d.to.version}: ${added.length} objects of its own, ${replaced.length} W1 objects changed (${fieldsAdded} fields and ${eventsAdded} events added)${removed.length ? `, ${removed.length} W1 objects dropped` : ""}. From the code; country apps outside the Base Application are not included yet.`;
-  // a narrative only for the version it was written from
-  const n = narrative && narrative.version === d.to.version ? narrative : null;
+  // a narrative only for the version it was written from; one Opus rejected is withheld, the page says so (D21, D77)
+  const n0 = narrative && narrative.version === d.to.version ? narrative : null;
+  const rv = n0?.review && n0.review.input_hash === n0.input_hash ? n0.review : null;
+  const n = rv?.state === "flagged" ? null : n0;
   const summary = n?.summary ?? facts;
   const fm = {
     id: `localization/${cc}`, type: "localization", title: `${name} (${cc.toUpperCase()})`, summary, tier: "official", language: "en", tags: ["localization", cc],
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: rv?.state === "flagged" ? { state: "flagged", by: rv.by, at: rv.at, flags: ["narrative-rejected"] } : reviewOf(!!n, rv),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: n ? { [LOC_STAGE]: LOC_V } : {}, input_hash: sha256(JSON.stringify([d.from, d.to, d.summary, n?.input_hash ?? null])) },
     evidence: [{ kind: "code", url: `https://github.com/microsoft/BCApps`, title: `country diff ${d.to.version}-${cc}`, date: null, commit: d.to.commit, t: null, quote: null }],
     links: { learn: [], objects: replaced.map((o) => hasObjectPage(o.key)).filter((x): x is string => !!x).map((p) => `object/${p}`), features: [], topics: topic ? [topic] : [], localizations: [], videos: [], posts: [], guidelines: [] },
@@ -552,7 +555,7 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
   };
   validateOrThrow("frontmatter.localization", fm, `localization page ${cc}`);
   const lines = [`# ${name} (${cc.toUpperCase()})`, "", `> ${summary}`, "",
-    `BC${d.to.version} · country layer against W1 · ${topic ? `Learn: [local functionality](../topics/${topic.replace(/^topic\//, "")}.md)` : "no Learn local functionality hub found"}${n ? " · narrative **unreviewed** (machine-written)" : ""}`, ""];
+    `BC${d.to.version} · country layer against W1 · ${topic ? `Learn: [local functionality](../topics/${topic.replace(/^topic\//, "")}.md)` : "no Learn local functionality hub found"}${n ? ` · narrative ${reviewWords(rv?.state === "reviewed" ? "reviewed" : "unreviewed")}` : rv?.state === "flagged" ? " · **flagged**: narrative withheld after review" : ""}`, ""];
   if (n) lines.push("## Overview", "", n.overview, "", "## Key points", "", ...n.key_points.map((k) => `- ${k}`), "",
     `Narrative written by Sonnet from the code diff and ${n.learn_pages_used} Learn page summaries. In numbers: ${facts}`, "");
   const byArea = new Map<string, { replaced: number; added: number; fields: number }>();

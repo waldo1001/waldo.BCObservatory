@@ -13,15 +13,15 @@ import { relationMajors } from "../../lib/relations";
 import { TYPE_LABEL } from "../../scripts/explorer-core";
 const base = import.meta.env.BASE_URL;
 const majors = relationMajors();
-// tier and review per object: the common pair once, the exceptions by key (today every object page is official, unreviewed)
+// tier and review per object: the common pair once, the exceptions by key (today every object page is official, derived: D77)
 const pairs = new Map<string, number>(), byKey: Record<string, string> = {};
 for (const e of await getCollection("objects")) {
   if (e.data.country) continue;
-  const pair = `${e.data.tier ?? "official"}|${e.data.review?.state ?? "unreviewed"}`;
+  const pair = `${e.data.tier ?? "official"}|${e.data.review?.state ?? "derived"}`;
   pairs.set(pair, (pairs.get(pair) ?? 0) + 1);
   byKey[`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`] = pair;
 }
-const common = [...pairs].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "official|unreviewed";
+const common = [...pairs].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "official|derived";
 const exceptions = Object.fromEntries(Object.entries(byKey).filter(([, p]) => p !== common));
 const labels = Object.fromEntries(systems().map((s) => [s.id, s.label]));
 const types = ["table", "page", "codeunit", "report", "query", "xmlport", "enum", "interface", "tableextension", "pageextension", "enumextension", "reportextension"];

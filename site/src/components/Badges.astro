@@ -1,11 +1,12 @@
 ---
-/** Tier and review badges (HANDOFF 4): plain wording, review dashed while unreviewed, never red, never an icon. */
+/** Tier and review badges (HANDOFF 4): plain wording, review dashed while unreviewed, never red, never an icon. D77: derived = no model text. */
 interface Props { tier?: string; review?: string | null; status?: string | null }
 const { tier, review, status } = Astro.props;
 const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
 const STATUS: Record<string, string> = { ga: "generally available", preview: "in preview", announced: "announced - not shipped yet", unclear: "status unclear" };
 // flagged = a review found a problem with this page (D64); like the other badges, plain words, never red, never an icon
-const REVIEW: Record<string, string> = { reviewed: "reviewed - checked by Opus", flagged: "flagged - a review found a problem", unreviewed: "unreviewed - machine-generated" };
+// derived = the page holds no model text, only facts placed by deterministic code (D77): neutral, solid, never a warning
+const REVIEW: Record<string, string> = { derived: "derived - from the source, no model text", reviewed: "reviewed - checked by Opus", flagged: "flagged - a review found a problem", unreviewed: "unreviewed - model text not yet checked" };
 ---
 {tier && <span class={`badge ${tier}`}>{TIER[tier] ?? tier}</span>}
 {review && <span class={`badge ${review in REVIEW ? review : "unreviewed"}`}>{REVIEW[review] ?? REVIEW.unreviewed}</span>}

@@ -93,6 +93,10 @@ test("published: a valid post page and the index", async () => {
   const page = renderPostPage(item({ stages: { fetched: { at: "x", output_hash: "h" } } }), x as any, { name: "Kauffmann", author: { name: "Arend-Jan Kauffmann", mvp: true } }, new Date());
   const fm = matter(page);
   assert.deepEqual([fm.data.id, fm.data.type, fm.data.author, fm.data.quotes.length, fm.data.code_objects_mentioned], ["post/kauffmann-nl/1234", "post", "Arend-Jan Kauffmann", 1, ["page Sales Order"]]);
+  assert.equal(fm.data.review.state, "unreviewed", "D77: model text, no review yet");
+  const rv = matter(renderPostPage(item({ stages: { fetched: { at: "x", output_hash: "h" } }, review: { state: "reviewed", by: "opus", at: "2026-10-08T01:00:00Z" } }), x as any, { name: "Kauffmann" }, new Date()));
+  assert.deepEqual([rv.data.review.state, rv.data.review.by], ["reviewed", "opus"], "the post review sets item.review; the page follows it");
+  assert.match(rv.content, /· reviewed \(checked by Opus\)/);
   mkdirSync(join(root, "content/posts/kauffmann-nl"), { recursive: true });
   writeFileSync(join(root, "content/posts/kauffmann-nl/1234.md"), page);
   assert.equal(renderPostIndex(join(root, "content")), 1);

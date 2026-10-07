@@ -21,6 +21,7 @@ import { readChangeExtraction, type ChangeExtraction } from "../extract/change.j
 import { activityPath, backportsPath, repoSlug, type Activity, type Backport } from "../ingest/github-prs.js";
 import { loadSources } from "../lib/config.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? "" : "s"}`;
@@ -54,7 +55,8 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
     id: `change/${pk}`, type: "change", title: `#${rec.number} ${rec.title}`, summary, tier: "official", language: "en",
     tags: [...new Set([x.change_kind, rec.base, ...(rec.major ? [`bc${rec.major}`] : []), ...objects.slice(0, 6).map((o) => `${o.type} ${o.name}`.toLowerCase())])].slice(0, 10),
     ...(systems[0] ? { system: systems[0] } : {}),
-    review: { state: item.review?.state ?? "unreviewed", by: item.review?.by ?? null, at: item.review?.at ?? null, flags: item.flags ?? [] },
+    // D77: always model text; the review passes set item.review (reviewed or flagged), the first pass sets item.flags
+    review: { ...reviewOf(true, item.review), flags: item.flags ?? [] },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { "extract-change": x.prompt_version }, input_hash: rec.merge_commit_sha ?? null },
     evidence: [{ kind: "code", url: rec.url, title: `${rec.repo}#${rec.number}: ${rec.title}`, date: day, commit: rec.merge_commit_sha, t: null, quote: x.quote }],
     links: { learn: [], objects: linked.map((o) => `object/${o.page}`), features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [], changes: [] },
@@ -72,7 +74,7 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
   const issueOf = new Map((rec.issues ?? []).map((i) => [i.number, i]));
   const ghIssue = (n: number) => { const i = issueOf.get(n); return `[#${n}${i ? ` ${cell(i.title)}` : ""}](https://github.com/${rec.repo}/issues/${n})${i ? ` (${i.state})` : ""}`; };
   const lines = [`# #${rec.number} ${rec.title}`, "", `> ${summary}`, "",
-    `[Pull request](${rec.url}) · merged into \`${rec.base}\`${rec.major ? ` (BC${rec.major})` : ""} on ${day}${rec.author ? ` by ${rec.author}${rec.community_contribution ? " (community contribution)" : ""}` : ""} · ${plural(rec.totals.files, "file")} (+${rec.totals.additions} -${rec.totals.deletions}), ${rec.totals.al} AL · ${x.change_kind} · tier official · **unreviewed** (machine-generated)`, ""];
+    `[Pull request](${rec.url}) · merged into \`${rec.base}\`${rec.major ? ` (BC${rec.major})` : ""} on ${day}${rec.author ? ` by ${rec.author}${rec.community_contribution ? " (community contribution)" : ""}` : ""} · ${plural(rec.totals.files, "file")} (+${rec.totals.additions} -${rec.totals.deletions}), ${rec.totals.al} AL · ${x.change_kind} · tier official · ${reviewWords(reviewOf(true, item.review).state)}`, ""];
   lines.push("## What changed", "", ...x.key_points.map((k) => `- ${k}`));
   if (x.breaking) lines.push("- Breaking: existing extensions can stop compiling or working.");
   else if (x.behavior_change) lines.push("- Behaviour changes for users or extensions.");

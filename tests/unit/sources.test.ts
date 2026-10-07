@@ -22,6 +22,7 @@ test("source footprint pages and the system x pillar coverage", () => {
   const r = renderSourcesAndCoverage(contentDir, dataDir, new Date("2026-10-07T00:00:00Z"));
   assert.equal(r.sources, 1);
   const s = matter(readFileSync(join(contentDir, "sources/kauffmann-nl.md"), "utf8"));
+  assert.equal(s.data.review.state, "derived", "D77: a source page holds no model text");
   assert.deepEqual([s.data.item_count, s.data.first_item, s.data.last_item, s.data.footprint.systems[0]], [2, "2026-03-13", "2026-09-01", { id: "copilot", weight: 3 }]);
   assert.deepEqual(s.data.links.posts, ["post/kauffmann-nl/1", "post/kauffmann-nl/2"]);
   assert.match(s.content, /2026-Q1: \* 1[\s\S]*2026-Q3: \* 1/);

@@ -22,6 +22,7 @@ import { coverageByFeature, loadLinks, loadReview, type FeatureCoverage } from "
 import type { Manifest } from "../lib/manifest.js";
 import type { StageContext, StageHandler } from "../orchestrator/execute.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { reviewOf } from "../lib/review.js";
 
 const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -76,7 +77,7 @@ export function renderFeaturePage(item: ManifestItem, e: RoadmapEntry, now: Date
   const fm = {
     id: `feature/${e.id}`, type: "feature", title: e.title, summary, tier: "official", language: "en",
     ...(system ? { system } : {}), tags: e.area ? [e.area.toLowerCase()] : [],
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: reviewOf(false),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: item.input_hash ?? null },
     evidence: [
       { kind: "roadmap", url: item.url, title: `Microsoft 365 roadmap ${e.id}`, date: e.modified?.slice(0, 10) ?? null, commit: null, t: null, quote: null },

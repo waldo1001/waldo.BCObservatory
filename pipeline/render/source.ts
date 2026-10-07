@@ -16,6 +16,7 @@ import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
 import { objectSystem } from "../link/graph.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { reviewOf } from "../lib/review.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
@@ -41,7 +42,7 @@ export function renderSourcePage(src: SourceDef, items: Item[], now: Date): stri
   const summary = `${src.name}${src.author?.name && src.author.name !== src.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : src.author?.mvp ? " (MVP)" : ""}: ${items.length} ${src.kind === "youtube" ? "videos" : src.kind === "github-pr" ? "code changes" : "posts"} in the knowledge base${first ? `, ${String(first).slice(0, 10)} to ${String(last).slice(0, 10)}` : ""}, mostly about ${sysTop.slice(0, 3).map((s) => s.id).join(", ") || "Business Central"}.`;
   const fm = {
     id: `source/${src.id}`, type: "source", title: src.name, summary, tier: src.tier === "official" ? "official" : "community", language: src.language ?? "en", tags: [kindLabel],
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: reviewOf(false),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify(sorted.map((i) => i.path))) },
     evidence: [{ kind: src.kind === "youtube" ? "video" : src.kind === "github-pr" ? "code" : "blog", url: src.url, title: src.name, date: null, commit: null, t: null, quote: null }],
     links: { learn: [], objects: [], features: [...features.keys()].sort(), topics: [], localizations: [], videos: sorted.filter((i) => i.fm.type === "video").map((i) => i.fm.id), posts: sorted.filter((i) => i.fm.type === "post").map((i) => i.fm.id), guidelines: [],

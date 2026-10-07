@@ -48,7 +48,7 @@ export function mountExplorer(el: HTMLElement): void {
   const majors = (el.dataset.majors ?? "").split(" ").filter(Boolean);
   const labels = JSON.parse(el.dataset.labels ?? "{}") as Record<string, string>;
   const exceptions = JSON.parse(el.dataset.exceptions ?? "{}") as Record<string, string>;
-  const common = el.dataset.common ?? "official|unreviewed";
+  const common = el.dataset.common ?? "official|derived";
   const $ = <T extends Element>(s: string) => el.querySelector<T>(s)!;
   const form = $<HTMLFormElement>(".xp-start"), grid = $<HTMLElement>(".xp-grid"), status = $<HTMLElement>(".xp-status");
   const svg = $<SVGSVGElement>(".xp-svg"), pic = $<HTMLElement>(".xp-pic"), list = $<HTMLElement>(".xp-list"), panel = $<HTMLElement>(".xp-panel");

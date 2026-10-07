@@ -20,6 +20,7 @@ import { loadTopicLinks, loadTopicReview, mediaByTopic } from "../link/topics.js
 import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js";
 import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const MAX_EVIDENCE = 40;
 export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
@@ -61,7 +62,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   const fm = {
     id: hub.id, type: "topic", title: hub.title, summary: summary.slice(0, 600), tier: "official", language: "en",
     ...(hub.system ? { system: hub.system } : {}),
-    review: review ? { state: review.state, by: review.by, at: review.at, flags: review.state === "flagged" ? ["narrative-rejected"] : [] } : { state: "unreviewed", by: null, at: null, flags: [] },
+    review: review ? { state: review.state, by: review.by, at: review.at, flags: review.state === "flagged" ? ["narrative-rejected"] : [] } : reviewOf(!!narrative),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: narrative ? { [HUB_STAGE]: HUB_V } : {}, input_hash: narrative?.input_hash ?? hub.member_hash },
     evidence: members.slice(0, MAX_EVIDENCE).map((m) => ({ kind: "learn", url: m.url, title: m.title, date: (m.meta?.ms_date as string | undefined) ?? m.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null })),
     // own pages only: descendants are linked from their own subtopic page
@@ -79,7 +80,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   const lines = [
     `# ${hub.title}`, "",
     `> ${summary}`, "",
-    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? (review?.state === "reviewed" ? "narrative reviewed by Opus" : "**unreviewed** (machine-generated narrative)") : review?.state === "flagged" ? "**flagged**: narrative withheld after review" : "no narrative yet"}`, "",
+    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? `narrative ${reviewWords(review?.state === "reviewed" ? "reviewed" : "unreviewed")}` : review?.state === "flagged" ? "**flagged**: narrative withheld after review" : "no narrative yet"}`, "",
   ];
   if (narrative) lines.push("## Overview", "", narrative.overview, "", "## Key points", "", ...narrative.key_points.map((k) => `- ${k}`), "");
   if (hub.children.length) {

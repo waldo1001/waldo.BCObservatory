@@ -141,6 +141,26 @@
         "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" }
       }
     },
+    "narrative_reviews": {
+      "description": "D77: Opus reviews of the localization and digest narratives (quota opus_reviews, shared with the hub reviews)",
+      "type": "object",
+      "properties": {
+        "localization": {
+          "type": "object", "required": ["candidates", "reviewed", "fixed", "rejected", "calls", "stopped"],
+          "properties": {
+            "candidates": { "type": "integer" }, "reviewed": { "type": "integer" }, "fixed": { "type": "integer" }, "rejected": { "type": "integer" },
+            "calls": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" }
+          }
+        },
+        "digest": {
+          "type": "object", "required": ["candidates", "reviewed", "fixed", "rejected", "calls", "stopped"],
+          "properties": {
+            "candidates": { "type": "integer" }, "reviewed": { "type": "integer" }, "fixed": { "type": "integer" }, "rejected": { "type": "integer" },
+            "calls": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" }
+          }
+        }
+      }
+    },
     "hubs": {
       "type": "object",
       "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],

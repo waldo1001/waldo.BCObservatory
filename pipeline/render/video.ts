@@ -27,6 +27,7 @@ import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.j
 import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
+import { reviewOf, reviewWords } from "../lib/review.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -70,7 +71,9 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   const rm = x.features.map((_, i) => roadmapStatusOf(roadmap, i, now));
   const statusOf = (i: number) => rm[i].status ?? x.features[i].status;
   const flags = item.flags ?? [];
-  const reviewState = item.review?.state ?? (flags.length ? "flagged" : "unreviewed");
+  // D77: always model text; item.review comes from the video review, a first-pass flag without one reads flagged
+  const review = { ...reviewOf(true, item.review ?? (flags.length ? { state: "flagged" } : null)), flags };
+  const reviewState = review.state;
   const evidence = [
     ...x.features.filter((f) => f.status_evidence_verified && f.status_evidence_quote).map((f) => ({ kind: "video", url: at(id, f.status_evidence_t!), title: `${f.name}: ${STATUS_LABEL[f.status]}`, date: item.published_at ?? null, commit: null, t: Math.floor(f.status_evidence_t!), quote: f.status_evidence_quote })),
     ...x.quotes.map((q) => ({ kind: "video", url: at(id, q.t), title: x.title, date: item.published_at ?? null, commit: null, t: Math.floor(q.t), quote: q.text })),
@@ -78,7 +81,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   const fm = {
     id: `video/${id}`, type: "video", title: item.title, summary: s.summary, tier: item.tier, language: item.language ?? "en",
     tags: x.topics, system: x.systems[0],
-    review: { state: reviewState, by: item.review?.by ?? null, at: item.review?.at ?? null, flags },
+    review,
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { [EXTRACT_STAGE]: EXTRACT_V, [SUMMARY_STAGE]: SUMMARY_V }, input_hash: item.stages.captioned?.vtt_sha256 as string ?? null },
     evidence,
     links: { learn: [], objects: mentions.pageIds, features: [...new Set(rm.flatMap((r) => r.ids))].sort().map((f) => `feature/${f}`), topics: [], localizations: [], videos: [], posts: [], guidelines: [] },
@@ -99,7 +102,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   const lines: string[] = [
     `# ${item.title}`, "",
     `> ${s.summary}`, "",
-    `[Watch on YouTube](${item.url}) · ${source.name} · ${date} · ${hms(x.duration_s)} · tier ${item.tier} · ${reviewState === "reviewed" ? "reviewed" : `**${reviewState}** (machine-generated)`}`, "",
+    `[Watch on YouTube](${item.url}) · ${source.name} · ${date} · ${hms(x.duration_s)} · tier ${item.tier} · ${reviewWords(reviewState)}`, "",
     "## Overview", "", s.overview, "",
     "## Key points", "", ...s.key_points.map((p) => `- ${p}`), "",
   ];

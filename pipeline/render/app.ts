@@ -23,6 +23,7 @@ import { sha256 } from "../lib/text.js";
 import { mentionedObjects, objectByName } from "../link/mentions.js";
 import { frontmatterOf } from "../link/related.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { reviewOf } from "../lib/review.js";
 
 const LINK_CAP = 200;
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -88,7 +89,7 @@ export function renderAppPage(a: AppInput, now: Date): string {
   const fm = {
     id: `app/${slug}`, type: "app", title: a.name, summary: summary.slice(0, 600), tier: "official", language: "en",
     tags: ["first-party app", system], system,
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: reviewOf(false),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify(facts)) },
     evidence: a.source && srcUrl ? [{ kind: "code", url: srcUrl, title: `${a.source.folder} (${a.source.branch})`, date: null, commit: a.source.commit, t: null, quote: null }] : [],
     links: {

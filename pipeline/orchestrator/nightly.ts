@@ -74,6 +74,7 @@ import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
 import { reviewHubs } from "../review/hub.js";
+import { reviewDigestNarratives, reviewLocalizationNarratives, type NarrativeReviewRun } from "../review/narrative.js";
 import { channelAvatar, flatPlaylist } from "../caption/ytdlp.js";
 // D77 review coverage (part B): video backlog, post and change reviews
 import { restoreVideoBacklog, rewindVideoBacklog } from "../review/video.js";
@@ -141,6 +142,8 @@ export interface RunReport {
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   topic_links?: Omit<TopicLinkRun, "errors">;
   topic_reviews?: Omit<TopicReviewRun, "errors">;
+  /** D77: Opus reviews of the localization and digest narratives (quota opus_reviews, shared with the hubs). */
+  narrative_reviews?: { localization?: Omit<NarrativeReviewRun, "errors">; digest?: Omit<NarrativeReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
   code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors">; graph?: { runs: Omit<CallGraphRun, "key">[] } };
@@ -307,6 +310,8 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       log.warn(`phase ${name}: skipped, heap ${mbOf(process.memoryUsage().heapUsed)} MB is above the stop fraction`);
       return undefined;
     };
+    // D77: Opus calls the narrative reviews spent tonight; the hub reviews get opus_reviews minus these
+    let narrativeReviewsUsed = 0;
     try {
       const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
       // older majors are skeletons with their full copy in the cache (D62); the docs join reads full majors only
@@ -320,6 +325,13 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         const { errors: nErr, ...nRun } = await optionalPhase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) })) ?? { errors: [] as string[], ready: 0, refreshed: 0, failed: 0, waiting: [], stopped: "skipped" };
         errors.push(...nErr);
         report.code.narratives = nRun;
+      }
+      // D77: Opus reviews the localization narratives before code-pages renders them; opus_reviews is shared with the
+      // hub reviews, which get what is left (narrativeReviewsUsed)
+      if (execution.stop_reason === "done") {
+        const left = Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0) - narrativeReviewsUsed);
+        const lr = await optionalPhase("localization-reviews", () => reviewLocalizationNarratives(opts.dataDir, manifest.list("docs"), { quota: left, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) }));
+        if (lr) { const { errors: lErr, ...lRun } = lr; errors.push(...lErr); narrativeReviewsUsed += lRun.calls; report.narrative_reviews = { ...report.narrative_reviews, localization: lRun }; }
       }
       // change pages first (D61): the object pages read the reverse index they produce
       report.changes = await phase("changes-relink", () => {
@@ -401,6 +413,12 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     // the week in Microsoft's code, one Sonnet paragraph for the digest (D61 section 9); shed like every LLM phase
     const narrated = await optionalPhase("change-narrative", () => narrateChangeWeeks(contentDirOf(opts), opts.dataDir, now, { quota: linking ? quotas.change_narrative ?? 0 : 0 }));
     if (report.changes && narrated) Object.assign(report.changes, { narrated: narrated.written });
+    // D77: Opus reviews the week narratives the digest re-renders below (current and previous week); shares opus_reviews
+    if (execution.stop_reason === "done") {
+      const left = Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0) - narrativeReviewsUsed);
+      const dr = await optionalPhase("digest-reviews", () => reviewDigestNarratives(contentDirOf(opts), opts.dataDir, now, { quota: left, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) }));
+      if (dr) { const { errors: dErr, ...dRun } = dr; errors.push(...dErr); narrativeReviewsUsed += dRun.calls; report.narrative_reviews = { ...report.narrative_reviews, digest: dRun }; }
+    }
     await phase("indexes", () => {
       renderVideoIndex(contentDirOf(opts));
       renderPostIndex(contentDirOf(opts));
@@ -409,7 +427,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     report.hubs = await optionalPhase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
-      reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
+      reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0) - narrativeReviewsUsed) : 0,
     }));
     try {
       const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;

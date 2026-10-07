@@ -119,6 +119,7 @@ test("published page, object page section, reverse index, digest, search record 
   assert.match(String(pub.data?.path), /content\/changes\/bcapps\/101\.md$/);
   const fm = matter(readFileSync(page, "utf8"));
   assert.deepEqual([fm.data.id, fm.data.links.objects, fm.data.objects_touched.length, fm.data.backports[0].number, fm.data.change_kind], ["change/bcapps/101", ["object/table/3"], 1, 150, "feature"], "W1 and BE copies: one object line");
+  assert.equal(fm.data.review.state, "unreviewed", "D77: a change page holds model text; reviewed only once item.review says so");
   assert.match(fm.content, /## Also merged into\n\n- \[#150\]/);
   assert.match(fm.content, /- \[Table 3 "Payment Terms"\]\(\.\.\/\.\.\/objects\/table\/3\.md\)/);
   assert.match(fm.content, /Fixes: \[#4321 Due date is wrong\]\(https:\/\/github\.com\/microsoft\/BCApps\/issues\/4321\) \(closed\)/);
