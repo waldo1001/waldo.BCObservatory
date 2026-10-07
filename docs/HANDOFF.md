@@ -27,6 +27,16 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   `docs-objects.json`, place first-party apps in their system). Until it lands, a table page shows no field
   explanations and search ranks a 47-page hub below any codeunit that mentions the word.
 
+- **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status:
+  proposed, spec complete, no code written, nothing installed. Stefan Maron's bc-code-atlas (hosted MCP: bodies,
+  call graph, semantic code search) becomes the companion the plan promised in D10: the plugin connects it, a
+  `bc-grounding` skill fixes who answers what, every object page names the `bcatlas_resolve_node` call that opens
+  it, and the nightly reproduces the call graph from our own checkouts with the pinned graphify-al fork (edges
+  only, EXTRACTED only, `data/code/graph/<major>/calls.json`). Phase 0 (section 6, tasks 1-3) needs no
+  infrastructure; the spike (task 4) must fill section 7 before phase 2; installs (Mini and Mac, graphify-al CLI
+  only, no atlas servers) are section 4.7. Until it lands, object pages have no Calls / Called by, and an agent
+  with the plugin has no sanctioned way to read a procedure body.
+
 ## Where things stand
 
 **M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
