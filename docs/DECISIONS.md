@@ -581,11 +581,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (3 to 5 GB resident for a graph nobody in the pipeline reads; a go/no-go rule is recorded) and tool-enabled model
   calls (D68 when a measured need exists). Bulk through the hosted MCP was ruled out on arithmetic: 16k objects at
   1 to 7 s a call is a night of someone else's CPU for a corpus that is not ours.
-  Still open at the time of appending: the spike numbers of section 7 (the first W1 run of BCApps 29 parsed 9,901 files in
-  about 30 s and built the graph at 1.5 GB RSS; the rows are filled by the owner on the Mini) and the first real run,
-  which also decides `callgraph.apps` in `config/versions.json`. A spike lesson: `launchctl submit` keeps a job alive,
-  so a detached spike run restarted itself and deleted its own output; one-shot runs on the Mini need a plain shell
-  session or a one-shot job.
+  Measured the same evening (spec section 7): BCApps 29 with apps, 14,343 files, graphify 32.2 min at 5.14 GB peak,
+  493 MB graph.json, 15,711 object edges kept; precision 30 of 31 Sales-Post call pairs confirmed by the hosted atlas.
+  Time is two minutes over the 30-minute rule, memory and precision pass, so `callgraph.apps` stays true. A spike
+  lesson: `launchctl submit` keeps a job alive, so a detached run restarted itself and deleted its own output; one-shot
+  work on the Mini runs in a plain session.
 - **D69 The item-loop leak: idle workers multiplied their own timers.** The nightlies of 2026-10-06 and 2026-10-07
   died on the heap with nothing between checkpoints to say why; run 37586529387 died seven times in a row. Its
   heartbeats (D59) showed one item in flight (`code/bcapps/29`, extracting) and the heap going from 70 MB to 8 GB in

@@ -1,6 +1,6 @@
 # BC Code Atlas as a grounding partner: call graph in the pages, the atlas one call away
 
-Status: implemented, phases 0 to 3, 2026-10-07 (sections 7.1 and 7.2 record what was built and where it differs); the spike rows of section 7 and the first real run are open. Decision: D67 (appended 2026-10-07). Owner: waldo.
+Status: implemented, phases 0 to 3, 2026-10-07 (sections 7.1 and 7.2 record what was built and where it differs); section 7 holds the measured spike (the first real run) and the precision check. Decision: D67 (appended 2026-10-07). Owner: waldo.
 Scope: the Claude Code plugin and its skills, object pages (markdown and site), the code pillar's post-loop, video
 and post pages, the Mini's tool set and the developer's Mac. Not in scope: hosting any part of bc-code-atlas,
 tool-enabled LLM calls (section 9, D68), storing source text.
@@ -365,15 +365,29 @@ Close:
 
 11. `docs/DECISIONS.md` D67, `docs/PLAN.md` 4.6 and section 5 row M9, `AGENTS.md`, `docs/HANDOFF.md`.
 
-## 7. Spike results (to be filled before phase 2 is approved)
+## 7. Spike results (measured 2026-10-07; the first real run was the spike)
 
-| Run | Files | Wall | Max RSS | graph.json | calls EXTRACTED / INFERRED | implements | Precision (20 callees) |
+| Run | Files | Wall | Max RSS | graph.json | nodes / links | EXTRACTED / INFERRED | Precision |
 |---|---|---|---|---|---|---|---|
-| bcapps-29 W1 only | | | | | | | |
-| bcapps-29 W1 + Apps/W1 | | | | | | | |
-| sandbox-history-28 W1 | | | | | | | |
+| bcapps-29 W1 only (undirected, manual) | 9,901 | about 4 min | 1.5 GB (sampled) | not kept | 258,161 / 414,888 | 92% / 8% (34,925 INFERRED) | - |
+| bcapps-30 W1 only (directed, manual) | about 9,900 | 3 min 21 s | 3.6 GB | 385 MB | - | - | - |
+| **bcapps-29 W1 + Apps/W1 (directed, the nightly's `linked` stage)** | 14,343 | **32.2 min** (graphify) / 32.4 min total | **5.14 GB** | **493 MB** | 328,301 / 525,744 | 91% / 9% (49,762 INFERRED) | **30 of 31** |
+| sandbox-history-28 W1 | runs in the same nightly; read `data/code/graph/28/manifest.json` | | | | | | |
 
-Go rule (decision 9): W1 + apps under 30 minutes and 6 GB RSS, precision at or above 18 of 20.
+Projected `calls.json` for BC29: 15,711 object edges, 1,350 unresolved. Precision: for twelve Sales-Post procedures, 31
+(procedure, callee object, callee procedure) pairs in our file, 30 confirmed by `bcatlas_get_neighbors` on the hosted
+w1-28; the one miss (`FinalizePosting → Codeunit 5063 AutoArchiveSalesDocument`) is BC29 code the w1-28 atlas does not
+have. The atlas lists six pairs we do not: a test codeunit (139756, excluded by scope), four `SetParameters` calls that
+are interface fan-out (dropped by decision), and one hidden by the five-`via` cap. The first probe (`PostICGenJnl`)
+matched exactly and showed the fork tags cross-object calls INFERRED, which is why the kept set is `al_calls`, not
+EXTRACTED (7.2).
+
+Go rule (decision 9): W1 + apps under 30 minutes and 6 GB RSS, precision at or above 18 of 20. Memory and precision
+pass; time is two minutes over. Decision: `callgraph.apps` stays `true`: the app callers (Shopify into Sales-Post) are
+the edges W1 alone cannot show, and the cpu lane runs one graph at a time beside the rest of the night. Directed mode
+is not the cost (row 2); the apps are, superlinearly (community detection on a graph a quarter larger takes eight times
+longer). Mechanics learned: `launchctl submit` keeps a job alive and re-ran the manual spike, deleting its output;
+one-shot work on the Mini runs in a plain session.
 
 ### 7.1 Phase 3 built (2026-10-07, on main), deviations
 

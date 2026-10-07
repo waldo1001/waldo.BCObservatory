@@ -12,15 +12,13 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   the next full nightly the live site still shows the old hubs, no Related block and no app pages.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67 (appended), PLAN milestone M9.
-  Status: phases 0 to 3 on main (2026-10-07 evening): the plugin connects bc-code-atlas with the `bc-grounding` skill,
-  object pages carry "Ask your agent", video and post pages join the objects they name, graphify-al is pinned in
-  `config/tooling.json` (installed on the developer Mac, not yet on the Mini), and the `linked` stage of a code item runs
-  the call graph into `data/code/graph/<major>/calls.json` with Calls / Called by / Implements on object pages. Owner's
-  steps, in order: `infra/mini/35-tools.sh --yes` on the Mini, the `mini-selfcheck` dispatch, the spike rows of spec
-  section 7 (run 1 W1 preserved under `/Users/bcobs/observatory/spike/keep-run1/`, runs 2 and 3 scripted there as
-  `spike-run.sh` with `ign-w1apps` and `ign-sandbox28` once copied), set `callgraph.apps` in `config/versions.json`
-  from them, then `gh workflow run nightly -f pillars=code` and the checks of spec section 8. The message to Stefan
-  (decision 12) is also still owed.
+  Status: done, 2026-10-07 evening. The plugin (0.2.0, installed on waldo's Mac) connects bc-code-atlas with the
+  `bc-grounding` skill; object pages carry "Ask your agent" and, once the code-pages phase of the first graph night
+  has run, Calls / Called by / Implements; video and post pages join the objects they name; graphify-al is pinned and
+  installed for `bcobs` (selfcheck green); the first call graph (BC29, W1 + apps) landed in run 37664505302 and passed
+  the precision check (spec section 7). Open: the message to Stefan (decision 12); BC30's graph was built while a
+  manual control run used the same checkout, so compare `data/code/graph/30/manifest.json` with BC29's (15,711 edges,
+  1,350 unresolved) and, if it looks off, delete `graphify-out` under the BC30 checkout and bump `CALLGRAPH_VERSION`.
 
 ## Where things stand
 
