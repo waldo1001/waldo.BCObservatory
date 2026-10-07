@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11812,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11812",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T09:15:34Z",
+  "merge_commit_sha": "bb5aaa098a23ced15fcefb0a1b540a5ec519cda9",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Fix TestObjectIdsAndManifests failing on branches without src/Layers",
+  "body_hash": "c7d7c395394a2a93463d9bc31a7fd4ff61ea08f25a860470cad31078fe949763",
+  "fixes_issues": [],
+  "work_items": [
+    646360
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 3,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

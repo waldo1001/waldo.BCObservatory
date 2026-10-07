@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11832",
+  "number": 11832,
+  "title": "[Master] - Bug 651133: [Expense Agent][BugBash] Mileage setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Mileage setup was added to the Expense Agent Setup Wizard to enable users to configure mileage-related settings during initial agent configuration.",
+  "key_points": [
+    "Mileage setup is now available in the Expense Agent Setup Wizard",
+    "Users can configure mileage settings during agent setup",
+    "Changes affect the expense agent configuration page",
+    "Small code addition with 4 lines added"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002929,
+    "changes_in_call": 1
+  }
+}

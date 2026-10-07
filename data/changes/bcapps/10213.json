@@ -1,0 +1,143 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10213,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10213",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T15:40:27Z",
+  "merge_commit_sha": "1fb16fe5c873f97d90e7b7108e7a97b75d14d186",
+  "author": "Dan-Karlsson",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Bug 8845 Old Prices Calculated in Req. Worksheet",
+  "body_hash": "92e5a20ae005b62244898b2e43a8c4bc2ad0241bebde83528f144898e85c5ae8",
+  "fixes_issues": [
+    8845
+  ],
+  "work_items": [
+    634061
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Planning/SCMSupplyPlanningIV.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningIII.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMPlanReqWksht.Codeunit.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMSupplyPlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 19,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMSupplyPlanningIV.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 158,
+    "deletions": 62,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "key": "table/246",
+        "type": "table",
+        "id": 246,
+        "name": "Requisition Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/246"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 8845,
+      "title": "[Bug]: Old Prices Calculated in Req. Worksheet",
+      "state": "closed"
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11483,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11483",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T08:47:51Z",
+  "merge_commit_sha": "00a80460f3e9d9adf895535c860cc57fd952df23",
+  "author": "GediminasGaubys",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[E-Documents Core] - Linkage & Traceability",
+  "body_hash": "9309a1bf0e63345e1bd1b35985e03b5f39d61d33d1f4bf50f33c223b135846ba",
+  "fixes_issues": [],
+  "work_items": [
+    650309
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocStatusFactBox.Page.al",
+      "status": "added",
+      "additions": 170,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCustLedgerEntries.PageExt.al",
+      "status": "added",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocFinChargeMemo.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocIssuedFinChargeMemo.PageExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocIssuedReminder.PageExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocNavigateHandler.Codeunit.al",
+      "status": "added",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPaymentRegistration.PageExt.al",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchCrMemo.PageExt.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInv.PageExt.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInvoices.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesCrMemo.PageExt.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesInv.PageExt.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesShipment.PageExt.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedServiceCrMemo.PageExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedServiceInv.PageExt.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedTransferShpmnt.PageExt.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseInvoices.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseOrder.PageExt.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseOrderList.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocReminder.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesOrder.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceOrder.PageExt.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocVendorLedgerEntries.PageExt.al",
+      "status": "added",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocPaymentJournal.PageExt.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Extensions/EDocLinkageTest.Codeunit.al",
+      "status": "added",
+      "additions": 719,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 34,
+    "additions": 2137,
+    "deletions": 58,
+    "al": 33
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocStatusFactBox.Page.al",
+        "status": "added",
+        "key": "page/6187",
+        "type": "page",
+        "id": 6187,
+        "name": "E-Doc. Status FactBox",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6187"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCustLedgerEntries.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6111",
+        "type": "pageextension",
+        "id": 6111,
+        "name": "E-Doc. Cust. Ledger Entries",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6111"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocFinChargeMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6140",
+        "type": "pageextension",
+        "id": 6140,
+        "name": "E-Doc. Fin. Charge Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6140"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocIssuedFinChargeMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6149",
+        "type": "pageextension",
+        "id": 6149,
+        "name": "E-Doc. Issued Fin. Charge Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6149"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocIssuedReminder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6148",
+        "type": "pageextension",
+        "id": 6148,
+        "name": "E-Doc. Issued Reminder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6148"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocNavigateHandler.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6247",
+        "type": "codeunit",
+        "id": 6247,
+        "name": "E-Doc. Navigate Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6247"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPaymentRegistration.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6113",
+        "type": "pageextension",
+        "id": 6113,
+        "name": "E-Doc. Payment Registration",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6113"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchCrMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6147",
+        "type": "pageextension",
+        "id": 6147,
+        "name": "E-Doc. Posted Purch. Cr. Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6147"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInv.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6146",
+        "type": "pageextension",
+        "id": 6146,
+        "name": "E-Doc. Posted Purch. Inv.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6146"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInvoices.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6109",
+        "type": "pageextension",
+        "id": 6109,
+        "name": "E-Doc. Posted Purch. Invoices",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6109"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesCrMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6145",
+        "type": "pageextension",
+        "id": 6145,
+        "name": "E-Doc. Posted Sales Cr. Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6145"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesInv.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6144",
+        "type": "pageextension",
+        "id": 6144,
+        "name": "E-Doc. Posted Sales Inv.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6144"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedSalesShipment.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6103",
+        "type": "pageextension",
+        "id": 6103,
+        "name": "E-Doc. Posted Sales Shipment",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedServiceCrMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6143",
+        "type": "pageextension",
+        "id": 6143,
+        "name": "E-Doc. Posted Service Cr. Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6143"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedServiceInv.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6142",
+        "type": "pageextension",
+        "id": 6142,
+        "name": "E-Doc. Posted Service Inv.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6142"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedTransferShpmnt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6106",
+        "type": "pageextension",
+        "id": 6106,
+        "name": "E-Doc. Posted Transfer Shpmnt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6106"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6138",
+        "type": "pageextension",
+        "id": 6138,
+        "name": "E-Doc. Purchase Credit Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6138"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6129",
+        "type": "pageextension",
+        "id": 6129,
+        "name": "E-Doc. Purchase Invoice",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6129"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseInvoices.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6100",
+        "type": "pageextension",
+        "id": 6100,
+        "name": "E-Doc. Purchase Invoices",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6132",
+        "type": "pageextension",
+        "id": 6132,
+        "name": "E-Doc. Purchase Order",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6132"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPurchaseOrderList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6137",
+        "type": "pageextension",
+        "id": 6137,
+        "name": "E-Doc. Purchase Order List",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6137"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocReminder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6141",
+        "type": "pageextension",
+        "id": 6141,
+        "name": "E-Doc. Reminder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6141"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6133",
+        "type": "pageextension",
+        "id": 6133,
+        "name": "E-Doc. Sales Credit Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6133"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6128",
+        "type": "pageextension",
+        "id": 6128,
+        "name": "E-Doc. Sales Invoice",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6128"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocSalesOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6131",
+        "type": "pageextension",
+        "id": 6131,
+        "name": "E-Doc. Sales Order",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6131"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6135",
+        "type": "pageextension",
+        "id": 6135,
+        "name": "E-Doc. Service Credit Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6135"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6130",
+        "type": "pageextension",
+        "id": 6130,
+        "name": "E-Doc. Service Invoice",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6130"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocServiceOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6136",
+        "type": "pageextension",
+        "id": 6136,
+        "name": "E-Doc. Service Order",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6136"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocVendorLedgerEntries.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6112",
+        "type": "pageextension",
+        "id": 6112,
+        "name": "E-Doc. Vendor Ledger Entries",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6112"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocumentMessagesFactBox.Page.al",
+        "status": "modified",
+        "key": "page/6434",
+        "type": "page",
+        "id": 6434,
+        "name": "E-Document Messages FactBox",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6434"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocPaymentJournal.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6110",
+        "type": "pageextension",
+        "id": 6110,
+        "name": "E-Doc. Payment Journal",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6110"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales",
+    "purchasing",
+    "integration",
+    "service",
+    "finance",
+    "inventory"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

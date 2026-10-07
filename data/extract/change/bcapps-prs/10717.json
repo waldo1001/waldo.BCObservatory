@@ -1,0 +1,39 @@
+{
+  "item_id": "change/bcapps-prs/10717",
+  "number": 10717,
+  "title": "Enable amount formatting with currency symbols",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "finance"
+  ],
+  "summary": "Amount formatting now supports displaying currency symbols or ISO codes before or after values using AL format-string tokens, with a new Default position option that defers to General Ledger Setup settings.",
+  "key_points": [
+    "Currency Symbol Position enum gains Default value with IDs re-mapped",
+    "Amount formatting uses AL `<S,...>` tokens to embed currency text as part of formatting",
+    "Foreign currencies can now inherit position settings from General Ledger Setup when their position is Default",
+    "Upgrade code preserves existing configuration across all country layers",
+    "Tests split into session-isolated codeunits covering symbol/code combinations and positions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "Currency Symbol Position",
+      "member": null,
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "finance"
+  ],
+  "quote": "enables amount and unit-amount controls to display configured currency symbols or ISO currency codes before or after the formatted value",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005097,
+    "changes_in_call": 1
+  }
+}

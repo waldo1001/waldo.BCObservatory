@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10213",
+  "number": 10213,
+  "title": "Bug 8845 Old Prices Calculated in Req. Worksheet",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Requisition Line table now validates the Order Date correctly to prevent it from being set to dates earlier than the work date, ensuring accurate price calculations in the requisition planning process.",
+  "key_points": [
+    "Order Date validation prevents dates older than work date in Requisition Line",
+    "Starting Date is updated only when it passes validation",
+    "Fixes price calculation issues in Calculate Plan workflow",
+    "Related Starting Date-Time field remains synchronized only when proper validation occurs",
+    "Unit tests added and existing tests updated to reflect corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "projects"
+  ],
+  "quote": "Does not set Order Date in Requisition Line to an older date than workdate when validating other fields, to make the price calculations correct.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003856,
+    "changes_in_call": 1
+  }
+}

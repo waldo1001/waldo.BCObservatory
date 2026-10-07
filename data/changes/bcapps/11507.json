@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11507,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11507",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-23T19:51:23Z",
+  "merge_commit_sha": "5c5cdeff91ad7f92761bf219e29aaae010b3ed57",
+  "author": "haoranpb",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Master] Fix Unix timestamp timezone conversion",
+  "body_hash": "bcb59c7c1d08ba31720577c6672c26bee163da66b258714b9d42993932dcb243",
+  "fixes_issues": [],
+  "work_items": [
+    650271
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TypeHelperUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 52,
+    "deletions": 16,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10",
+        "type": "codeunit",
+        "id": 10,
+        "name": "Type Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/10"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

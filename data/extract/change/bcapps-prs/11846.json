@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11846",
+  "number": 11846,
+  "title": "Fix View file on outgoing E-Documents to open the exported file",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Opening the View file action on outgoing E-Documents now retrieves and downloads the exported file from the document log instead of failing, with appropriate user messages for XML files that cannot be previewed and cases where no exported file exists.",
+  "key_points": [
+    "View file on outgoing E-Documents retrieves the exported file from the document log",
+    "Downloaded XML files trigger a message explaining they cannot be previewed inline",
+    "Missing exported files show a clear message instead of a record-not-found error",
+    "Incoming E-Document behavior remains unchanged",
+    "New internal helper and label strings added to support the functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Now it finds the exported file from the document log and downloads it, so users don't have to dig through the logs.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003508,
+    "changes_in_call": 1
+  }
+}

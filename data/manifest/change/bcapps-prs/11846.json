@@ -6,10 +6,35 @@
   "title": "Fix View file on outgoing E-Documents to open the exported file",
   "url": "https://github.com/microsoft/BCApps/pull/11846",
   "published_at": "2026-09-25T10:25:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:31.475Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:36.452Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003508
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:36.649Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:36.655Z",
+      "path": "content/changes/bcapps/11846.md"
     }
   },
   "input_hash": "77bfd99a7efcb800c895a9120ee6adf881f87b20:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix view file on outgoing e documents to open the exported file"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4e36e1ad66770331a95d960bcba1e4204e398bfbc188b28caafb263ec290b3a"
 }

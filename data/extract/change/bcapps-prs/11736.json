@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11736",
+  "number": 11736,
+  "title": "[29.x][VIES Integration] Per-environment daily request rate-limit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A per-environment daily request rate-limit was added to VAT Registration Number lookups against the EU VIES service to prevent single tenants from flooding the shared outbound IP and causing service unavailability for co-located tenants in Business Central online.",
+  "key_points": [
+    "New quota mechanism enforces a 2000-lookups-per-day limit on VIES validation calls per tenant",
+    "Quota counter resets daily and blocks further requests when the cap is reached; blocked calls emit security audit and telemetry",
+    "Online (SaaS) only; on-premises installations are unaffected since they own their own outbound IP",
+    "Quota is checked before the SOAP request in codeunit 248 and covers all code paths including interactive, background, API, and field validation",
+    "Counter lives in a new internal Base Application table that stores per-environment quota state"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004829,
+    "changes_in_call": 1
+  }
+}

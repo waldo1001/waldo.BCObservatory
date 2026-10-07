@@ -6,10 +6,35 @@
   "title": "[E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)",
   "url": "https://github.com/microsoft/BCApps/pull/11563",
   "published_at": "2026-09-24T09:12:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:41.306Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:46.680Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00418
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:46.874Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:50.595Z",
+      "path": "content/changes/bcapps/11563.md"
     }
   },
   "input_hash": "488da0ca0314901f3ab8c0817d3e6376bc791624:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "e documents core peppol add peppol requested delivery period support header line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ca93bef538eef1cb3ee6d04039e33af669c31d80b18c440d689880f90df8ef6"
 }

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11832,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11832",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T11:44:00Z",
+  "merge_commit_sha": "a18b1b3ba31d97e77dd39ed9a15dc427e6e737b3",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 651133: [Expense Agent][BugBash] Mileage setup",
+  "body_hash": "da811b19f62f55a19cdcc940cffece30c739c2f5132247a187a16c3e328bc94d",
+  "fixes_issues": [],
+  "work_items": [
+    651133
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

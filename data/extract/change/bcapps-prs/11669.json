@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11669",
+  "number": 11669,
+  "title": "Fix reserved-lot re-picking after warehouse reclassification",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Reserved lot re-picking is now possible after warehouse reclassification by correcting the calculation of reserved quantity on inventory to account for registered shipment quantities before adding outstanding pick calculations.",
+  "key_points": [
+    "Fixed issue where reserved lots could not be re-picked after warehouse reclassification and shipment deletion",
+    "Modified Warehouse Availability Mgt.CalcLineReservedQtyOnInvt to apply shipment-bin guard to registered quantities",
+    "Guard remains item-wide to prevent duplicate global credit calculations",
+    "Added seven comprehensive tests covering re-pick/lot-validation/registration flows and protective controls",
+    "No breaking changes to public interfaces or existing helper functions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004356,
+    "changes_in_call": 1
+  }
+}

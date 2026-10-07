@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11815",
+  "number": 11815,
+  "title": "Improvements to E-Documents PO matching (E2E findings)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "inventory"
+  ],
+  "summary": "E-Documents PO matching now correctly handles draft page warnings based on receipt status, prevents match state cleanup issues when resetting drafts, and shows finalized matches in the draft view for better visibility.",
+  "key_points": [
+    "Draft page warnings update dynamically when draft changes through OnAfterGetCurrRecord",
+    "Exceeded Quantity Received warning no longer appears for lines with Receipt on Invoice enabled",
+    "DeleteAll trigger properly executes when resetting drafts to clean up PO matching state",
+    "New finalized PO match table stores completed matches for informational display in draft without affecting matching logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "The warning for \"Exceeded Quantity Received\" shouldn't show when matching against a line that has set \"Receipt on Invoice\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004114,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Bug 8845 Old Prices Calculated in Req. Worksheet",
   "url": "https://github.com/microsoft/BCApps/pull/10213",
   "published_at": "2026-09-24T15:40:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:34.971Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:39.888Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003856
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:40.099Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:40.112Z",
+      "path": "content/changes/bcapps/10213.md"
     }
   },
   "input_hash": "1fb16fe5c873f97d90e7b7108e7a97b75d14d186:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug 8845 old prices calculated in req worksheet"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3cc1250f3d42c343f0f6eee8378e23e756e8e8513f335497dcc7b564a48782f5"
 }

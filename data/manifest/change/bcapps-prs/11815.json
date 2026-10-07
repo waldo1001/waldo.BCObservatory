@@ -6,10 +6,35 @@
   "title": "Improvements to E-Documents PO matching (E2E findings)",
   "url": "https://github.com/microsoft/BCApps/pull/11815",
   "published_at": "2026-09-24T12:54:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:36.104Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:41.316Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004114
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:41.517Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:41.523Z",
+      "path": "content/changes/bcapps/11815.md"
     }
   },
   "input_hash": "dfdd1acecc4c3aef7595e5de7596bc858beb3549:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "improvements to e documents po matching e2e findings"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f05328263e4c1fc0ac5d595ffbc9735c3d8fc4da56e05268d84f4512026fa15"
 }

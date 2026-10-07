@@ -6,7 +6,7 @@
   "title": "[Main]- RSPackContentEvaluation",
   "url": "https://github.com/microsoft/BCApps/pull/11369",
   "published_at": "2026-09-24T16:52:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "rspackcontentevaluation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:59:32.503Z",
+  "retry_after": null
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9293",
+  "number": 9293,
+  "title": "[Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Process Usage Data Billing now excludes lines marked with Processing Status Error, preventing recalculation of erroneous data and consolidating filtering logic into a single helper method. Processing Status is now properly maintained throughout the billing workflow and users can manually close or reopen usage data imports.",
+  "key_points": [
+    "Lines with Processing Status Error are now excluded from sums and lookups in the billing process",
+    "Three duplicate CalcSums procedures consolidated into one CalculateSumsFromUsageDataBilling method",
+    "Processing Status transitions now route through Validate to consistently stamp Processing Date",
+    "Manual Close/Reopen actions added to Usage Data Imports page with multi-select support",
+    "Six new tests added covering the corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004579,
+    "changes_in_call": 1
+  }
+}

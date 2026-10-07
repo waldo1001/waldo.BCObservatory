@@ -6,10 +6,35 @@
   "title": "[main] Bug 650733 External Doc No. now mandatory on Service Invoice",
   "url": "https://github.com/microsoft/BCApps/pull/11798",
   "published_at": "2026-09-25T11:57:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:31.265Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:36.119Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003244
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:36.320Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:36.326Z",
+      "path": "content/changes/bcapps/11798.md"
     }
   },
   "input_hash": "e6ac1d25279a6bc3e4feecf62c34664e78b3f2cd:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650733 external doc no now mandatory on service invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b0def43da228997526617fbc08531cf72f926277f06c4e914e059dcf94d4b45"
 }

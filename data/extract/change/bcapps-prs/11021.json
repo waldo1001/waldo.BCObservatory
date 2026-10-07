@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11021",
+  "number": 11021,
+  "title": "Expense Agent: align legacy submit cleanup with 29.0",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent's legacy submit action cleanup lifecycle on main is aligned with the 29.0 release by updating the preprocessor guard and obsolete tag from version 30 to 29.",
+  "key_points": [
+    "Preprocessor guard changed from CLEAN30 to CLEAN29",
+    "Obsolete tag updated from 30.0 to 29.0",
+    "Compatibility action and its forwarding behavior remain unchanged",
+    "Aligns main branch with 29.x and 29.0 release branches"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003471,
+    "changes_in_call": 1
+  }
+}

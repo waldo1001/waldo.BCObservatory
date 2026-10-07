@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/11483",
+  "number": 11483,
+  "title": "[E-Documents Core] - Linkage & Traceability",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "purchasing",
+    "integration",
+    "service",
+    "finance",
+    "inventory"
+  ],
+  "summary": "The E-Documents module now provides linkage and traceability by adding lookup functions to navigate from posted and ledger documents back to their associated E-Documents, with status and message FactBoxes displayed across all relevant sales, purchase, and service document pages.",
+  "key_points": [
+    "New table methods enable finding E-Documents by document identity (number, posting date, partner, direction, type) with fallback logic for related document types",
+    "Status FactBox displays linked E-Document status and aggregated service delivery status across all transmission channels",
+    "Messages FactBox shows E-Document message history with ability to download raw XML payloads",
+    "Open E-Document action wired into 30+ document list and card pages across sales, purchase, service, and other modules",
+    "Comprehensive test coverage added for the new lookup and linkage procedures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010598,
+    "changes_in_call": 1
+  }
+}

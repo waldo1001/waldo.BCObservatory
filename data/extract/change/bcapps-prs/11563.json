@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11563",
+  "number": 11563,
+  "title": "[E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "Added support for PEPPOL Requested Delivery Period at both header and line level in purchase order export, and fixed import to properly copy line-level requested delivery dates instead of silently dropping them.",
+  "key_points": [
+    "New interfaces expose purchase header and line requested receipt dates for PEPPOL export",
+    "Export writes requested delivery period as XML elements at header and line level only when dates are set",
+    "Import now correctly validates and copies requested delivery date from staged sales line data",
+    "Fixed issue where line-level delivery dates from PEPPOL orders were being silently dropped",
+    "Changes covered by new test validating header and line dates are preserved independently"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00418,
+    "changes_in_call": 1
+  }
+}

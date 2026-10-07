@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11734,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11734",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T07:29:00Z",
+  "merge_commit_sha": "e854bf074e5014012fa99f5c1c6305813beb7595",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[VIES Integration] Per-environment daily request rate-limit",
+  "body_hash": "9eefc740750a657a1eb1a5538eba088ef73f6707313b66f1e995bc7b4e7acf7b",
+  "fixes_issues": [],
+  "work_items": [
+    651007
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATLookupExtDataHndl.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATLookupQuotaMgt.Codeunit.al",
+      "status": "added",
+      "additions": 147,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATRegNoLookupQuota.Table.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/ERMVATVIESLookupUT.Codeunit.al",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 306,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATLookupExtDataHndl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/248",
+        "type": "codeunit",
+        "id": 248,
+        "name": "VAT Lookup Ext. Data Hndl",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/248"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATLookupQuotaMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/247",
+        "type": "codeunit",
+        "id": 247,
+        "name": "VAT Lookup Quota Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/247"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Registration/VATRegNoLookupQuota.Table.al",
+        "status": "added",
+        "key": "table/243",
+        "type": "table",
+        "id": 243,
+        "name": "VAT Reg. No. Lookup Quota",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/243"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

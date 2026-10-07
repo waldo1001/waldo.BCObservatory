@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 651133: [Expense Agent][BugBash] Mileage setup",
   "url": "https://github.com/microsoft/BCApps/pull/11832",
   "published_at": "2026-09-24T11:44:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:39.183Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:43.886Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.002929
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:44.059Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:44.065Z",
+      "path": "content/changes/bcapps/11832.md"
     }
   },
   "input_hash": "a18b1b3ba31d97e77dd39ed9a15dc427e6e737b3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 651133 expense agent bugbash mileage setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fa0e9489405eda74ba7112f6e3a9b7c48a38b08bf51ac43078c93ab9be84e22f"
 }

@@ -6,10 +6,35 @@
   "title": "Enable amount formatting with currency symbols",
   "url": "https://github.com/microsoft/BCApps/pull/10717",
   "published_at": "2026-09-25T08:32:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:32.492Z",
+      "change_class": "code",
+      "files": 31,
+      "al": 20,
+      "objects": 19,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:37.853Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005097
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:38.047Z",
+      "objects": 19,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:38.053Z",
+      "path": "content/changes/bcapps/10717.md"
     }
   },
   "input_hash": "0a602a2481c93ebfe7b1d27d6016fb9926c42111:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "enable amount formatting with currency symbols"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dcbb5ac0d1d0d758d8648db2b3288abe34d3e28002587c809de2de0cba0b5154"
 }

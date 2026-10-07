@@ -6,7 +6,7 @@
   "title": "Fix AutoAccept IC journal test isolation",
   "url": "https://github.com/microsoft/BCApps/pull/11810",
   "published_at": "2026-09-24T15:13:47Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix autoaccept ic journal test isolation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:59:34.608Z",
+  "retry_after": null
 }

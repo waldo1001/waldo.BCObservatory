@@ -6,7 +6,7 @@
   "title": "Fix TestObjectIdsAndManifests failing on branches without src/Layers",
   "url": "https://github.com/microsoft/BCApps/pull/11812",
   "published_at": "2026-09-24T09:15:34Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix testobjectidsandmanifests failing on branches without src layers"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:59:40.116Z",
+  "retry_after": null
 }

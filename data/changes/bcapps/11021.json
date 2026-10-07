@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11021,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11021",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-24T11:35:53Z",
+  "merge_commit_sha": "8c34173df3ce22c13baee63e28eed20809020b48",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Expense Agent: align legacy submit cleanup with 29.0",
+  "body_hash": "66b2ee29ddf6a2ec4c48d79f697fffda6ef970d7bd15241626bce156bed98ce7",
+  "fixes_issues": [],
+  "work_items": [
+    633685
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+        "status": "modified",
+        "key": "page/6928",
+        "type": "page",
+        "id": 6928,
+        "name": "Expense Reports API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6928"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

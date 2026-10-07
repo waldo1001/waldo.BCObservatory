@@ -6,10 +6,35 @@
   "title": "[29.x][VIES Integration] Per-environment daily request rate-limit",
   "url": "https://github.com/microsoft/BCApps/pull/11736",
   "published_at": "2026-09-24T08:18:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:43.503Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:50.602Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004829
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:50.905Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:50.910Z",
+      "path": "content/changes/bcapps/11736.md"
     }
   },
   "input_hash": "fd1ca8314e13433d18d153a8ec341e20f7789959:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "vies integration per environment daily request rate limit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2cb99c332f0deb938ff3ff45aae67b166627a91b9783483f789e1ae7349eb63c"
 }
