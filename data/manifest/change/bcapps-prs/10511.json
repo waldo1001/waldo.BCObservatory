@@ -6,10 +6,35 @@
   "title": "[NL][Telebank] Payment History export crashes when combining entries",
   "url": "https://github.com/microsoft/BCApps/pull/10511",
   "published_at": "2026-08-24T19:39:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:42.102Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:46.969Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003423
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:47.114Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:47.120Z",
+      "path": "content/changes/bcapps/10511.md"
     }
   },
   "input_hash": "20809155cb4d6f1ee0eef002dcff64b96b4958db:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "nl telebank payment history export crashes when combining entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5e525003a80a48bfd903115118a4148d246531e4c58aa47405618161ee56976"
 }

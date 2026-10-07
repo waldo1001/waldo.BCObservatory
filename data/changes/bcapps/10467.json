@@ -1,0 +1,103 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10467,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10467",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T15:44:26Z",
+  "merge_commit_sha": "11884afa0af50217fb0e76c0a7e904aaac4647a2",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning",
+  "body_hash": "58214a686e4bf787b1910ff6d0467f53be3353da4468240d710295906973a770",
+  "fixes_issues": [],
+  "work_items": [
+    647369
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/CLAUDE.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/docs/business-logic.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundTest.Codeunit.al",
+      "status": "modified",
+      "additions": 154,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 224,
+    "deletions": 35,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30246",
+        "type": "codeunit",
+        "id": 30246,
+        "name": "Shpfy Create Sales Doc. Refund",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30246"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30161",
+        "type": "codeunit",
+        "id": 30161,
+        "name": "Shpfy Import Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30161"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

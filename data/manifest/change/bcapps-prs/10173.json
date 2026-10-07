@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30129: expose manufacturing cost calculation events",
   "url": "https://github.com/microsoft/BCApps/pull/10173",
   "published_at": "2026-08-24T16:47:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:44.594Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:49.367Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003453
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:49.544Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:53.182Z",
+      "path": "content/changes/bcapps/10173.md"
     }
   },
   "input_hash": "73284c8c017be6baf15c5c8ee80aa00e0d5d25dc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30129 expose manufacturing cost calculation events"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "297509d7877415171d82de8c95063fad0a6fddbde6faf61046bd2cbfe32e13bd"
 }

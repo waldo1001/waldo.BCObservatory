@@ -6,10 +6,35 @@
   "title": "[Main][ALL-E] Sales Price from customer card and Purcase Price from vendor card is showing \"All Customers/All Vendors\" as header instead of the specific customer/vendor informationInitial  commit",
   "url": "https://github.com/microsoft/BCApps/pull/10377",
   "published_at": "2026-08-25T05:11:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:35.723Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:40.706Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003455
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:40.834Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:40.838Z",
+      "path": "content/changes/bcapps/10377.md"
     }
   },
   "input_hash": "e696d30ce828768b1b47b9a31a62bd091480d415:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e sales price from customer card and purcase price from vendor card is showing all customers all vendors as header instead of the specific customer vendor informationinitial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1859dffa0d6afda1d4564bf1adadf718523ec1097fbfc06e8049f9ac50207456"
 }

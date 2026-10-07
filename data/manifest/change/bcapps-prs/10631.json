@@ -6,10 +6,35 @@
   "title": "Integration/main to releases 29.x 31a860b5",
   "url": "https://github.com/microsoft/BCApps/pull/10631",
   "published_at": "2026-08-26T07:23:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:34.581Z",
+      "change_class": "code",
+      "files": 263,
+      "al": 176,
+      "objects": 171,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:40.267Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.016887
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:40.540Z",
+      "objects": 171,
+      "unjoined": 5,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:40.573Z",
+      "path": "content/changes/bcapps/10631.md"
     }
   },
   "input_hash": "202b98770ce601716f20cf99439483fc6171628a:c1",
@@ -34,5 +59,8 @@
     ],
     "community_contribution": false,
     "title_key": "integration main to releases 29 x 31a860b5"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36e352fc8c697b2dc14c101bafd1c0d542acf640adcf65134bbfbb649f9f59cd"
 }

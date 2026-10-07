@@ -1,0 +1,3826 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10631,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10631",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-08-26T07:23:17Z",
+  "merge_commit_sha": "202b98770ce601716f20cf99439483fc6171628a",
+  "author": "mirouhl",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: Business Foundation",
+    "AL: System Application",
+    "AL: Tools",
+    "Build: Automation",
+    "Build: scripts & configs",
+    "needs-approval"
+  ],
+  "community_contribution": false,
+  "title": "Integration/main to releases 29.x 31a860b5",
+  "body_hash": "e085bd97a2e116b1b8fc539163df851d3e3b8dcee4b43aaa67d8ee9c61dcb73d",
+  "fixes_issues": [],
+  "work_items": [
+    646616
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/AL-Go-Settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/CICD.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/PowerShell.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/PullRequestHandler.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": ".github/workflows/scorecard-analysis.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": "CODEOWNERS",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 365,
+      "class": "other"
+    },
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 22,
+      "class": "build"
+    },
+    {
+      "path": "build/scripts/ParallelTestExecution.psm1",
+      "status": "modified",
+      "additions": 230,
+      "deletions": 63,
+      "class": "build"
+    },
+    {
+      "path": "build/scripts/RunTestsInBcContainer.ps1",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/scripts/tests/ParallelTestExecution.Test.ps1",
+      "status": "modified",
+      "additions": 358,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "docs/process/ReviewRouting.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 196,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ImportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ImportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/EDocDEStructImportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/PEPPOLBISXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungStructuredTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ZUGFeRDXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/PEPPOLDE/app/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DEPartyInfo.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DESalesValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/CIIXMLBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 218,
+      "deletions": 97,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/EDocHelpers.Codeunit.al",
+      "status": "modified",
+      "additions": 275,
+      "deletions": 9,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/ElectronicAddressScheme.Enum.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Core/FRRegulatoryCommentType.Enum.al",
+      "status": "added",
+      "additions": 115,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingCustomer.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingCustomerCard.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/EReportingEDocuments.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FRSalesCommentLine.TableExt.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FRSalesCommentSheet.PageExt.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FRServiceParticipant.TableExt.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Extensions/FRServiceParticipants.PageExt.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/PEPPOL/PEPPOL30FRSalesValidation.Codeunit.al",
+      "status": "added",
+      "additions": 172,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/PEPPOL/PEPPOL30FRServiceValidation.Codeunit.al",
+      "status": "added",
+      "additions": 128,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/PEPPOL/PEPPOL30FormatFR.EnumExt.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/PEPPOL/PeppolBIS30FRFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 469,
+      "deletions": 45,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/ExportEReportingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/FacturXCIIXMLTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1210,
+      "deletions": 85,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/IdentificationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 29,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/test/src/PEPPOLBIS30XMLTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1208,
+      "deletions": 153,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/US/IRSForms/app/src/VendorFormBox/IRS1099FormBoxCalcImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/AgentCard.PageExt.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/AgentList.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentInstructionsLog.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentInstructionEditor.Page.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/test/Integration/CustomAgentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/AgentSamples/test/.resources/configuration/SV-AS-ACC.xml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/BankAccRecWithAI/test/.resources/TestSuites/Accuracy.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCompanyInformation.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCompanyInformation.TableExt.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocVendorPage.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocumentVendor.TableExt.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Helpers/EDocumentImportHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocActivityLogSession.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocPreparePurchDraft.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocProviders.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/AITestSuite/TestSuite/PurchaseOrder-Accuracy.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocProcessTest.Codeunit.al",
+      "status": "modified",
+      "additions": 139,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Receive/EDocHelperTest.Codeunit.al",
+      "status": "modified",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgingReportBuffer.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 37,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/AgedAccountsExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 207,
+      "deletions": 33,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpReportLineParticipAPI.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpReportLinePerDiemAPI.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensePoliciesAPI.Page.al",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensePolicyEvaluationsAPI.Page.al",
+      "status": "added",
+      "additions": 125,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLineItemAPI.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPoliciesToEvalAPI.Page.al",
+      "status": "added",
+      "additions": 104,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPoliciesToEvalBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 139,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPolicyToEvalBuffer.Table.al",
+      "status": "added",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpReportLinesAPI.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedPolicyEvaluationsAPI.Page.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapabilitiesProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePolicyStatus.Enum.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePolicySubject.Enum.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpensePolicyEvaluationCard.Page.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpensePolicyEvaluations.Page.al",
+      "status": "added",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/PostedExpPolicyEvaluations.Page.al",
+      "status": "added",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/PostedPolicyEvaluationCard.Page.al",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpensePolicyEvaluation.Table.al",
+      "status": "added",
+      "additions": 142,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/PostedExpPolicyEvaluation.Table.al",
+      "status": "added",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CancelPostedExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 188,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineParticip.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLinePerDiem.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseCategoryCard.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePolicy.Table.al",
+      "status": "added",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseCapabilitiesAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/PoliciesToEvaluateAPITest.Codeunit.al",
+      "status": "added",
+      "additions": 191,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/PolicyEvaluationsAPITest.Codeunit.al",
+      "status": "added",
+      "additions": 192,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/CancelPostedExpReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePolicyEvaluationTest.Codeunit.al",
+      "status": "added",
+      "additions": 1256,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportPostingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 392,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Extensions/PAPurchaseInvoiceList.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/TestSuites/SLS-AccuracyTests.xml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/TestSuites/SLS-AttachmentAccuracyTests.xml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/.resources/Prompts/SalesOrderAgent-AgentInstructions.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 25,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTask.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAReplyRetryMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOASendReplies.Codeunit.al",
+      "status": "modified",
+      "additions": 108,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOASetReplyFailed.Codeunit.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAItemExt.TableExt.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/CLAUDE.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/docs/business-logic.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundTest.Codeunit.al",
+      "status": "modified",
+      "additions": 284,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundsHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Calculation/SustainabilityCalcMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Journal/SustainabilityJournal.Page.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchOrderSubform.PageExt.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityFormulasTest.Codeunit.al",
+      "status": "modified",
+      "additions": 219,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityJournalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 258,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SustainabilityCopilotSuggestion/test/.resources/datasets/Testsuite.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/Test/src/ERMWithholdingTaxTestsII.Codeunit.al",
+      "status": "modified",
+      "additions": 139,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Table.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingGeneralJournal.PageExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingPaymentJournal.PageExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Business Foundation/Test/NoSeriesCopilot/.resources/test_suites/NOSERIES-ACCURACY.xml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/DisabledTests/Tests-Report/Tests-Report.DisabledTest.json",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/VAT/NonDedVATCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SCM-Costing/SCMWIPCostingAddnlCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 314,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIXMLCreator.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/SIIDocumentsNoTaxable.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/SCM/SCMOrdersVI.Codeunit.al",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/CRM/Contact/Contact.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Marketing/MarketingContacts.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 37,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Bank/DirectDebit/SEPACTPrepareSource.Codeunit.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/UTTABTelebank.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Prepayment/ERMPrepayment.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchangeAPI.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostCalculationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 43,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.rdlc",
+      "status": "modified",
+      "additions": 292,
+      "deletions": 32,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.xlsx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/ImplementStandardCostChange.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspection.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionExtensions.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 49,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionVSCodeHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/PageInspection.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Pricing/PriceList/PriceUXManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobArchiveOption.Enum.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServOrderManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompaniesAPI.Page.al",
+      "status": "added",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompanyBuffer.Table.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxContentAPI.Page.al",
+      "status": "added",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileAPI.Page.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileBuffer.Table.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemBuffer.Table.al",
+      "status": "added",
+      "additions": 88,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemsAPI.Page.al",
+      "status": "added",
+      "additions": 225,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Bank/TestBankPaymentApplication.Codeunit.al",
+      "status": "modified",
+      "additions": 462,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/PriceListsUI.Codeunit.al",
+      "status": "modified",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Prepayment/ERMPrepayment.Codeunit.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/ReportInboxAPIE2E.Codeunit.al",
+      "status": "added",
+      "additions": 624,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Costing/SCMCostingBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 168,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Costing/SCMWIPCostingAddnlCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 314,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturingReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 323,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMOrdersVI.Codeunit.al",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDedVATCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/AgentMessage.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentMessageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Setup/AgentImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/AgentTaskContextPart.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/VS Code Integration/Permissions/VSCIntgrAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Agent/src/SDK/AgentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/src/TestSuite/AITTestSuiteImportExport.XmlPort.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 263,
+    "additions": 16755,
+    "deletions": 1826,
+    "al": 176
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13916",
+        "type": "codeunit",
+        "id": 13916,
+        "name": "Export XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13916-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ImportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13915",
+        "type": "codeunit",
+        "id": 13915,
+        "name": "Import XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13915-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13917",
+        "type": "codeunit",
+        "id": 13917,
+        "name": "Export ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13917-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ImportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13919",
+        "type": "codeunit",
+        "id": 13919,
+        "name": "Import ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13919-de"
+      },
+      {
+        "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DEPartyInfo.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37403",
+        "type": "codeunit",
+        "id": 37403,
+        "name": "PEPPOL30 DE Party Info",
+        "app": "PEPPOLDE",
+        "cc": "de",
+        "page": "codeunit/37403-de"
+      },
+      {
+        "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DESalesValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37400",
+        "type": "codeunit",
+        "id": 37400,
+        "name": "PEPPOL30 DE Sales Validation",
+        "app": "PEPPOLDE",
+        "cc": "de",
+        "page": "codeunit/37400-de"
+      },
+      {
+        "path": "src/Apps/US/IRSForms/app/src/VendorFormBox/IRS1099FormBoxCalcImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10041",
+        "type": "codeunit",
+        "id": 10041,
+        "name": "IRS 1099 Form Box Calc. Impl.",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "codeunit/10041-us"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/AgentCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/4353",
+        "type": "pageextension",
+        "id": 4353,
+        "name": "Agent Card",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "pageextension/4353"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/AgentList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/4354",
+        "type": "pageextension",
+        "id": 4354,
+        "name": "Agent List",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "pageextension/4354"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4350",
+        "type": "codeunit",
+        "id": 4350,
+        "name": "Custom Agent Setup",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "codeunit/4350"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/4350",
+        "type": "page",
+        "id": 4350,
+        "name": "Custom Agent Setup",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4350"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentInstructionsLog.Page.al",
+        "status": "modified",
+        "key": "page/4352",
+        "type": "page",
+        "id": 4352,
+        "name": "Cust. Agent Instructions Log",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4352"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentInstructionEditor.Page.al",
+        "status": "modified",
+        "key": "page/4363",
+        "type": "page",
+        "id": 4363,
+        "name": "Agent Instruction Editor",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4363"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+        "status": "modified",
+        "key": "page/6105",
+        "type": "page",
+        "id": 6105,
+        "name": "Inbound E-Documents",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6105"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCompanyInformation.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6165",
+        "type": "pageextension",
+        "id": 6165,
+        "name": "E-Doc. Company Information",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6165"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCompanyInformation.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6173",
+        "type": "tableextension",
+        "id": 6173,
+        "name": "E-Doc. Company Information",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "tableextension/6173"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocVendorPage.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6161",
+        "type": "pageextension",
+        "id": 6161,
+        "name": "E-Doc. Vendor Page",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6161"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocumentVendor.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6165",
+        "type": "tableextension",
+        "id": 6165,
+        "name": "E-Document Vendor",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "tableextension/6165"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Helpers/EDocumentImportHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6109",
+        "type": "codeunit",
+        "id": 6109,
+        "name": "E-Document Import Helper",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6109"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocActivityLogSession.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6175",
+        "type": "codeunit",
+        "id": 6175,
+        "name": "E-Doc. Activity Log Session",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6175"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocPreparePurchDraft.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6406",
+        "type": "codeunit",
+        "id": 6406,
+        "name": "EDoc Prepare Purch. Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6406"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocProviders.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6124",
+        "type": "codeunit",
+        "id": 6124,
+        "name": "E-Doc. Providers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6124"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+        "status": "modified",
+        "key": "report/4403",
+        "type": "report",
+        "id": 4403,
+        "name": "EXR Aged Acc Payable Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4403"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+        "status": "modified",
+        "key": "report/4402",
+        "type": "report",
+        "id": 4402,
+        "name": "EXR Aged Accounts Rec Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4402"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgingReportBuffer.Table.al",
+        "status": "modified",
+        "key": "table/4401",
+        "type": "table",
+        "id": 4401,
+        "name": "EXR Aging Report Buffer",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "table/4401"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpReportLineParticipAPI.Page.al",
+        "status": "modified",
+        "key": "page/6909",
+        "type": "page",
+        "id": 6909,
+        "name": "Exp. Report Line Particip. API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6909"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpReportLinePerDiemAPI.Page.al",
+        "status": "modified",
+        "key": "page/6915",
+        "type": "page",
+        "id": 6915,
+        "name": "Exp. Report Line Per Diem API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6915"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensePoliciesAPI.Page.al",
+        "status": "added",
+        "key": "page/7104",
+        "type": "page",
+        "id": 7104,
+        "name": "Expense Policies API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7104"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensePolicyEvaluationsAPI.Page.al",
+        "status": "added",
+        "key": "page/7126",
+        "type": "page",
+        "id": 7126,
+        "name": "Expense Policy Evaluations API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7126"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLineItemAPI.Page.al",
+        "status": "modified",
+        "key": "page/6905",
+        "type": "page",
+        "id": 6905,
+        "name": "Expense Report Line Item API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6929",
+        "type": "page",
+        "id": 6929,
+        "name": "Expense Report Lines API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6929"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportsAPI.Page.al",
+        "status": "modified",
+        "key": "page/6928",
+        "type": "page",
+        "id": 6928,
+        "name": "Expense Reports API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6928"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPoliciesToEvalAPI.Page.al",
+        "status": "added",
+        "key": "page/7108",
+        "type": "page",
+        "id": 7108,
+        "name": "Exp. Policies To Eval API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7108"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPoliciesToEvalBuilder.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7107",
+        "type": "codeunit",
+        "id": 7107,
+        "name": "Exp. Policies To Eval Builder",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7107"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PoliciesToEvaluate/ExpPolicyToEvalBuffer.Table.al",
+        "status": "added",
+        "key": "table/7106",
+        "type": "table",
+        "id": 7106,
+        "name": "Exp. Policy To Eval Buffer",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7106"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpReportLinesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6913",
+        "type": "page",
+        "id": 6913,
+        "name": "Posted Exp. Report Lines API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6913"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedPolicyEvaluationsAPI.Page.al",
+        "status": "added",
+        "key": "page/7105",
+        "type": "page",
+        "id": 7105,
+        "name": "Posted Policy Evaluations API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7105"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6901",
+        "type": "codeunit",
+        "id": 6901,
+        "name": "Expense Report Approval Mgmt",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapabilitiesProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6906",
+        "type": "codeunit",
+        "id": 6906,
+        "name": "Expense Capabilities Provider",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+        "status": "modified",
+        "key": "enum/6984",
+        "type": "enum",
+        "id": 6984,
+        "name": "Expense Capability",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePolicyStatus.Enum.al",
+        "status": "added",
+        "key": "enum/6989",
+        "type": "enum",
+        "id": 6989,
+        "name": "Expense Policy Status",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6989"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePolicySubject.Enum.al",
+        "status": "added",
+        "key": "enum/6990",
+        "type": "enum",
+        "id": 6990,
+        "name": "Expense Policy Subject",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6990"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpensePolicyEvaluationCard.Page.al",
+        "status": "added",
+        "key": "page/7125",
+        "type": "page",
+        "id": 7125,
+        "name": "Expense Policy Evaluation Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7125"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/ExpensePolicyEvaluations.Page.al",
+        "status": "added",
+        "key": "page/7124",
+        "type": "page",
+        "id": 7124,
+        "name": "Expense Policy Evaluations",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7124"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/PostedExpPolicyEvaluations.Page.al",
+        "status": "added",
+        "key": "page/7109",
+        "type": "page",
+        "id": 7109,
+        "name": "Posted Exp. Policy Evaluations",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7109"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/PostedPolicyEvaluationCard.Page.al",
+        "status": "added",
+        "key": "page/7106",
+        "type": "page",
+        "id": 7106,
+        "name": "Posted Policy Evaluation Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7106"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpensePolicyEvaluation.Table.al",
+        "status": "added",
+        "key": "table/7096",
+        "type": "table",
+        "id": 7096,
+        "name": "Expense Policy Evaluation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7096"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/PostedExpPolicyEvaluation.Table.al",
+        "status": "added",
+        "key": "table/7105",
+        "type": "table",
+        "id": 7105,
+        "name": "Posted Exp. Policy Evaluation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7105"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CancelPostedExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6974",
+        "type": "codeunit",
+        "id": 6974,
+        "name": "Cancel Posted Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6974"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6984",
+        "type": "codeunit",
+        "id": 6984,
+        "name": "Release Exp. Report Document",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+        "status": "modified",
+        "key": "page/6999",
+        "type": "page",
+        "id": 6999,
+        "name": "Expense Report SubPage",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6999"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+        "status": "modified",
+        "key": "page/6993",
+        "type": "page",
+        "id": 6993,
+        "name": "Posted Expense Report SubP.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6993"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+        "status": "modified",
+        "key": "table/6911",
+        "type": "table",
+        "id": 6911,
+        "name": "Expense Report Line Item",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6911"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineParticip.Table.al",
+        "status": "modified",
+        "key": "table/6908",
+        "type": "table",
+        "id": 6908,
+        "name": "Expense Report Line Particip.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLinePerDiem.Table.al",
+        "status": "modified",
+        "key": "table/6909",
+        "type": "table",
+        "id": 6909,
+        "name": "Expense Report Line Per Diem",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6909"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseCategoryCard.Page.al",
+        "status": "modified",
+        "key": "page/6945",
+        "type": "page",
+        "id": 6945,
+        "name": "Expense Category Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6945"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+        "status": "added",
+        "key": "page/7127",
+        "type": "page",
+        "id": 7127,
+        "name": "Expense Policies",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7127"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePolicy.Table.al",
+        "status": "added",
+        "key": "table/7092",
+        "type": "table",
+        "id": 7092,
+        "name": "Expense Policy",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7092"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6953",
+        "type": "permissionset",
+        "id": 6953,
+        "name": "Expense Agent - Data",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6953"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6952",
+        "type": "permissionset",
+        "id": 6952,
+        "name": "Expense Agent - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6905",
+        "type": "permissionset",
+        "id": 6905,
+        "name": "Expense Mgmt. Admin",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6906",
+        "type": "permissionset",
+        "id": 6906,
+        "name": "Expense Mgmt. Edit",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6907",
+        "type": "permissionset",
+        "id": 6907,
+        "name": "Expense Mgmt. Read",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6950",
+        "type": "codeunit",
+        "id": 6950,
+        "name": "Expense Agent Privacy Subs.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6950"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6978",
+        "type": "codeunit",
+        "id": 6978,
+        "name": "Upgrade Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6978"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/6996",
+        "type": "page",
+        "id": 6996,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6996"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7056",
+        "type": "codeunit",
+        "id": 7056,
+        "name": "WHT Expense Category Mgt.",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/7056"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Extensions/PAPurchaseInvoiceList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/3309",
+        "type": "pageextension",
+        "id": 3309,
+        "name": "PA Purchase Invoice List",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pageextension/3309"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTask.Page.al",
+        "status": "modified",
+        "key": "page/4409",
+        "type": "page",
+        "id": 4409,
+        "name": "SOA Create Task",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4409"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4415",
+        "type": "codeunit",
+        "id": 4415,
+        "name": "SOA Create Task Impl",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4415"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+        "status": "modified",
+        "key": "page/4404",
+        "type": "page",
+        "id": 4404,
+        "name": "SOA Email Message",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4404"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAReplyRetryMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4418",
+        "type": "codeunit",
+        "id": 4418,
+        "name": "SOA Reply Retry Mgt.",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4418"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOASendReplies.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4581",
+        "type": "codeunit",
+        "id": 4581,
+        "name": "SOA Send Replies",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4581"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOASetReplyFailed.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/4408",
+        "type": "codeunit",
+        "id": 4408,
+        "name": "SOA Set Reply Failed",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4408"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+        "status": "modified",
+        "key": "table/4588",
+        "type": "table",
+        "id": 4588,
+        "name": "SOA Task Contact Override",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "table/4588"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4589",
+        "type": "codeunit",
+        "id": 4589,
+        "name": "SOA Upgrade",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4589"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAItemExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/4412",
+        "type": "tableextension",
+        "id": 4412,
+        "name": "SOA Item Ext",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "tableextension/4412"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+        "status": "modified",
+        "key": "page/4410",
+        "type": "page",
+        "id": 4410,
+        "name": "SOA Multi Items Availability",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4410"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4591",
+        "type": "codeunit",
+        "id": 4591,
+        "name": "SOA Item Search",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4591"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+        "status": "modified",
+        "key": "page/4400",
+        "type": "page",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4400"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4306",
+        "type": "codeunit",
+        "id": 4306,
+        "name": "SOA Session Filter",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4306"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30103",
+        "type": "codeunit",
+        "id": 30103,
+        "name": "Shpfy Communication Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30103"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30246",
+        "type": "codeunit",
+        "id": 30246,
+        "name": "Shpfy Create Sales Doc. Refund",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30246"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30161",
+        "type": "codeunit",
+        "id": 30161,
+        "name": "Shpfy Import Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30161"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Calculation/SustainabilityCalcMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6218",
+        "type": "codeunit",
+        "id": 6218,
+        "name": "Sustainability Calc. Mgt.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6218"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Journal/SustainabilityJournal.Page.al",
+        "status": "modified",
+        "key": "page/6219",
+        "type": "page",
+        "id": 6219,
+        "name": "Sustainability Journal",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6219"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchOrderSubform.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6211",
+        "type": "pageextension",
+        "id": 6211,
+        "name": "Sust. Purch. Order Subform",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6211"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Setup/WithholdingTaxPostingSetup.Table.al",
+        "status": "modified",
+        "key": "table/6786",
+        "type": "table",
+        "id": 6786,
+        "name": "Withholding Tax Posting Setup",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingGeneralJournal.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6799",
+        "type": "pageextension",
+        "id": 6799,
+        "name": "Withholding General Journal",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/6799"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingPaymentJournal.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6800",
+        "type": "pageextension",
+        "id": 6800,
+        "name": "Withholding Payment Journal",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/6800"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6785",
+        "type": "codeunit",
+        "id": 6785,
+        "name": "Withholding Tax Mgmt.",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6785"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIXMLCreator.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10750",
+        "type": "codeunit",
+        "id": 10750,
+        "name": "SII XML Creator",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10750-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/CRM/Contact/Contact.Table.al",
+        "status": "modified",
+        "key": "table/5050",
+        "type": "table",
+        "id": 5050,
+        "name": "Contact",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5050"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5812"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Bank/DirectDebit/SEPACTPrepareSource.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1222",
+        "type": "codeunit",
+        "id": 1222,
+        "name": "SEPA CT-Prepare Source",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/1222"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocation.Report.al",
+        "status": "modified",
+        "key": "report/1131",
+        "type": "report",
+        "id": 1131,
+        "name": "Cost Allocation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1131"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchangeAPI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/561",
+        "type": "codeunit",
+        "id": 561,
+        "name": "IC Data Exchange API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/561"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/22",
+        "type": "codeunit",
+        "id": 22,
+        "name": "Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/22"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostCalculationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000758",
+        "type": "codeunit",
+        "id": 99000758,
+        "name": "Mfg. Cost Calculation Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000758"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+        "status": "modified",
+        "key": "report/5802",
+        "type": "report",
+        "id": 5802,
+        "name": "Inventory Valuation - WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5802"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/ImplementStandardCostChange.Report.al",
+        "status": "modified",
+        "key": "report/5855",
+        "type": "report",
+        "id": 5855,
+        "name": "Implement Standard Cost Change",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5855"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspection.Page.al",
+        "status": "modified",
+        "key": "page/9631",
+        "type": "page",
+        "id": 9631,
+        "name": "Page Inspection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9631"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionExtensions.Page.al",
+        "status": "modified",
+        "key": "page/9633",
+        "type": "page",
+        "id": 9633,
+        "name": "Page Inspection Extensions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9633"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionVSCodeHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5378",
+        "type": "codeunit",
+        "id": 5378,
+        "name": "Page Inspection VS Code Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5378"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/PageInspection.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5377",
+        "type": "permissionset",
+        "id": 5377,
+        "name": "Page Inspection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5377"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/209",
+        "type": "permissionset",
+        "id": 209,
+        "name": "D365 Basic - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/209"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Pricing/PriceList/PriceUXManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7018",
+        "type": "codeunit",
+        "id": 7018,
+        "name": "Price UX Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobArchiveOption.Enum.al",
+        "status": "added",
+        "key": "enum/1005",
+        "type": "enum",
+        "id": 1005,
+        "name": "Job Archive Option",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/1005"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetup.Table.al",
+        "status": "modified",
+        "key": "table/315",
+        "type": "table",
+        "id": 315,
+        "name": "Jobs Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/315"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServOrderManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5900",
+        "type": "codeunit",
+        "id": 5900,
+        "name": "ServOrderManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5900"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+        "status": "modified",
+        "key": "report/7305",
+        "type": "report",
+        "id": 7305,
+        "name": "Whse.-Source - Create Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7305"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompaniesAPI.Page.al",
+        "status": "added",
+        "key": "page/694",
+        "type": "page",
+        "id": 694,
+        "name": "Report Inbox Companies API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/694"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompanyBuffer.Table.al",
+        "status": "added",
+        "key": "table/478",
+        "type": "table",
+        "id": 478,
+        "name": "Report Inbox Company Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/478"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxContentAPI.Page.al",
+        "status": "added",
+        "key": "page/691",
+        "type": "page",
+        "id": 691,
+        "name": "Report Inbox Content API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/691"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileAPI.Page.al",
+        "status": "added",
+        "key": "page/692",
+        "type": "page",
+        "id": 692,
+        "name": "Report Inbox File API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/692"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileBuffer.Table.al",
+        "status": "added",
+        "key": "table/476",
+        "type": "table",
+        "id": 476,
+        "name": "Report Inbox File Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/476"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemBuffer.Table.al",
+        "status": "added",
+        "key": "table/473",
+        "type": "table",
+        "id": 473,
+        "name": "Report Inbox Item Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/473"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemsAPI.Page.al",
+        "status": "added",
+        "key": "page/690",
+        "type": "page",
+        "id": 690,
+        "name": "Report Inbox Items API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/690"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/AgentMessage.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4307",
+        "type": "codeunit",
+        "id": 4307,
+        "name": "Agent Message",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4307"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentMessageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4308",
+        "type": "codeunit",
+        "id": 4308,
+        "name": "Agent Message Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4308"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4300",
+        "type": "codeunit",
+        "id": 4300,
+        "name": "Agent Task Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskList.Page.al",
+        "status": "modified",
+        "key": "page/4300",
+        "type": "page",
+        "id": 4300,
+        "name": "Agent Task List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Setup/AgentImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4301",
+        "type": "codeunit",
+        "id": 4301,
+        "name": "Agent Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4301"
+      },
+      {
+        "path": "src/System Application/App/Agent/Troubleshooting/AgentTaskContextPart.Page.al",
+        "status": "modified",
+        "key": "page/4343",
+        "type": "page",
+        "id": 4343,
+        "name": "Agent Task Context Part",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4343"
+      },
+      {
+        "path": "src/System Application/App/VS Code Integration/Permissions/VSCIntgrAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8335",
+        "type": "permissionset",
+        "id": 8335,
+        "name": "VSC Intgr. - Admin",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/8335"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Posting/ItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "integration",
+    "finance",
+    "purchasing",
+    "copilot",
+    "sales",
+    "inventory",
+    "manufacturing",
+    "sustainability",
+    "projects",
+    "administration",
+    "crm",
+    "service",
+    "warehouse"
+  ],
+  "apps": [
+    "AgentDesignExperience",
+    "Base Application",
+    "EDocument",
+    "EDocumentDE",
+    "ExcelReports",
+    "ExpenseAgent",
+    "ExpenseWithholdingTax",
+    "IRSForms",
+    "PEPPOLDE",
+    "PayablesAgent",
+    "SalesOrderAgent",
+    "Shopify",
+    "Sustainability",
+    "System Application",
+    "WithholdingTax"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10298,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10298",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-25T05:39:41Z",
+  "merge_commit_sha": "507566aabd10dc2779ba0726507ca89a18a70c7b",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.",
+  "body_hash": "8fc70470abad986de3ab537dad49057ea23683773fd6c3449e168de16e9e5ef8",
+  "fixes_issues": [],
+  "work_items": [
+    604329
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.rdlc",
+      "status": "modified",
+      "additions": 292,
+      "deletions": 32,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.xlsx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturingReportsII.Codeunit.al",
+      "status": "modified",
+      "additions": 323,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 697,
+    "deletions": 33,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/InventoryValuationWIP.Report.al",
+        "status": "modified",
+        "key": "report/5802",
+        "type": "report",
+        "id": 5802,
+        "name": "Inventory Valuation - WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5802"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10173,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10173",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T16:47:49Z",
+  "merge_commit_sha": "73284c8c017be6baf15c5c8ee80aa00e0d5d25dc",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30129: expose manufacturing cost calculation events",
+  "body_hash": "89412d12099a301c05de55a6d2400fbf5e2abc93957a50c91eb2e6dfe3ab984d",
+  "fixes_issues": [],
+  "work_items": [
+    636806
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostCalculationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 43,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 88,
+    "deletions": 51,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostCalculationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000758",
+        "type": "codeunit",
+        "id": 99000758,
+        "name": "Mfg. Cost Calculation Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000758"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/CalculateStandardCost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5812",
+        "type": "codeunit",
+        "id": 5812,
+        "name": "Calculate Standard Cost",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5812"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

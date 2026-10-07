@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10017",
+  "number": 10017,
+  "title": "[Master] - Bug 644751 Moving an expense report line to another report wrongly reports a duplicate",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed incorrect duplicate detection when moving an expense report line between open reports by excluding the source line from the validation check.",
+  "key_points": [
+    "Duplicate validation now excludes the originating line when a line is moved to another report",
+    "Prevents false duplicate warnings when relocating expense report lines",
+    "True duplicates within or across reports are still detected correctly",
+    "Updated tests to cover the move scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003323,
+    "changes_in_call": 1
+  }
+}

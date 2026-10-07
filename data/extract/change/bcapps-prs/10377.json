@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10377",
+  "number": 10377,
+  "title": "[Main][ALL-E] Sales Price from customer card and Purcase Price from vendor card is showing \"All Customers/All Vendors\" as header instead of the specific customer/vendor informationInitial  commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Price List Lines page now displays the correct customer or vendor name in its caption when opened from a customer or vendor card, instead of showing 'All Customers' or 'All Vendors'.",
+  "key_points": [
+    "Fixed caption display to show specific customer/vendor instead of universal price source",
+    "Reordered price source list to place universal source before specific sources",
+    "Preserved filtering behavior for universal price lines",
+    "Added regression tests for customer and vendor price list captions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003455,
+    "changes_in_call": 1
+  }
+}

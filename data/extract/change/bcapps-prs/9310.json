@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9310",
+  "number": 9310,
+  "title": "SOA: Open Item Availability from Agent panel",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now opens the item availability page with filters set from the agent context, allowing users to see filtered inventory data when checking availability from the agent panel.",
+  "key_points": [
+    "Added table extension to store item availability data from agent",
+    "Enhanced multi-items availability page to display filtered results",
+    "Updated item search logic to work with agent context",
+    "Simplified session filter validation logic",
+    "Modified agent instructions to support filtered availability queries"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "inventory",
+    "copilot"
+  ],
+  "quote": "Open Item Availability page with filters from agent",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003434,
+    "changes_in_call": 1
+  }
+}

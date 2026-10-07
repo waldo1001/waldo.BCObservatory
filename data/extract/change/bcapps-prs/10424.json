@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10424",
+  "number": 10424,
+  "title": "[Extensibility Request] issue 30421: allow custom travel cost lookup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "A handled event is added to the travel cost lookup process in service order management, enabling extensions to customize how travel fees are determined without breaking existing implementations.",
+  "key_points": [
+    "Handled event added to ServOrderManagement.InsertServCost",
+    "Allows custom logic for determining travel costs without Service Zone Codes",
+    "Standard behavior preserved when event is unhandled",
+    "Extensions can provide alternative Service Cost records",
+    "Maintains backward compatibility for existing implementations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003099,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Bug 647233] Fix User Confirmed copied into Canceled when posting expense report lines",
   "url": "https://github.com/microsoft/BCApps/pull/10451",
   "published_at": "2026-08-24T19:56:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:36.939Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:42.973Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004468
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:43.130Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:43.139Z",
+      "path": "content/changes/bcapps/10451.md"
     }
   },
   "input_hash": "34769a41b641034a23f3d0751251933b58bc691c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 647233 fix user confirmed copied into canceled when posting expense report lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6568755a92d7e8c8a3d20c0efb369b12d2cfb61448e3b03f935f6b40b0524c8b"
 }

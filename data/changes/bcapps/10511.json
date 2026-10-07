@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10511,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10511",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T19:39:27Z",
+  "merge_commit_sha": "20809155cb4d6f1ee0eef002dcff64b96b4958db",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[NL][Telebank] Payment History export crashes when combining entries",
+  "body_hash": "b8af109990f9eea74e6c4e8db5b7242d4076db61078dfb1b5b3c94a8da80a6a1",
+  "fixes_issues": [],
+  "work_items": [
+    647493
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NL/BaseApp/Bank/DirectDebit/SEPACTPrepareSource.Codeunit.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/UTTABTelebank.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 128,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NL/BaseApp/Bank/DirectDebit/SEPACTPrepareSource.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1222",
+        "type": "codeunit",
+        "id": 1222,
+        "name": "SEPA CT-Prepare Source",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/1222"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

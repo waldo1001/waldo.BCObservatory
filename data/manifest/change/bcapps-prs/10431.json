@@ -6,10 +6,35 @@
   "title": "[Agent Archiving] Fix broken reference links to archived agents and their tasks",
   "url": "https://github.com/microsoft/BCApps/pull/10431",
   "published_at": "2026-08-24T17:12:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:43.528Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:49.144Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004112
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:49.354Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:49.361Z",
+      "path": "content/changes/bcapps/10431.md"
     }
   },
   "input_hash": "8aa66bb8038c53dc707b5ce1056902798a1da14e:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "agent archiving fix broken reference links to archived agents and their tasks"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76b2ea8ef4dadad61fd4bdf0940d85584c89abee8edeecf97270c8e7348e3f8b"
 }

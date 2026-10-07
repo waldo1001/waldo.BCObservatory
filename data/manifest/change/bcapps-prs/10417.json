@@ -6,10 +6,35 @@
   "title": "[Shopify] Pace raw-text GraphQL calls to prevent excessive throttling",
   "url": "https://github.com/microsoft/BCApps/pull/10417",
   "published_at": "2026-08-24T16:51:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:44.273Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:53.185Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003777
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:53.442Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:53.447Z",
+      "path": "content/changes/bcapps/10417.md"
     }
   },
   "input_hash": "19796c4e75f222945f88f9f517ba440ed7605bfc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify pace raw text graphql calls to prevent excessive throttling"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "99552b7282f6cffb0623723fad0c7349f60668feb0f93513debc9cfba18b1d17"
 }

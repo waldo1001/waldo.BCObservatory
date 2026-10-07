@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9310,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9310",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T19:56:21Z",
+  "merge_commit_sha": "a5a72ac7a0bb41af62bbbfe83e1ed92b156bae21",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "SOA: Open Item Availability from Agent panel",
+  "body_hash": "c051d199c711754fb4d45364ba5e260c467c19cd4e866374f8de5dbb3ff04b8d",
+  "fixes_issues": [],
+  "work_items": [
+    569539
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/.resources/Prompts/SalesOrderAgent-AgentInstructions.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 25,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAItemExt.TableExt.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 170,
+    "deletions": 39,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAItemExt.TableExt.al",
+        "status": "added",
+        "key": "tableextension/4412",
+        "type": "tableextension",
+        "id": 4412,
+        "name": "SOA Item Ext",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "tableextension/4412"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+        "status": "modified",
+        "key": "page/4410",
+        "type": "page",
+        "id": 4410,
+        "name": "SOA Multi Items Availability",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4410"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemSearch/SOAItemSearch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4591",
+        "type": "codeunit",
+        "id": 4591,
+        "name": "SOA Item Search",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4591"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOASessionFilter.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4306",
+        "type": "codeunit",
+        "id": 4306,
+        "name": "SOA Session Filter",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4306"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

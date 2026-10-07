@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30421: allow custom travel cost lookup",
   "url": "https://github.com/microsoft/BCApps/pull/10424",
   "published_at": "2026-08-24T20:01:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:36.339Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:40.577Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003099
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:40.702Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:40.704Z",
+      "path": "content/changes/bcapps/10424.md"
     }
   },
   "input_hash": "16d19e2418ffbae8a3922368b3fb82a9e1b5463a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30421 allow custom travel cost lookup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9edd313c8af79d874415d074f2b025ab6702bf464dc2e07e2ed347f145cff975"
 }

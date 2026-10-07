@@ -6,7 +6,7 @@
   "title": "Add FeatureName attribute to AIT test suites and toolkit schema",
   "url": "https://github.com/microsoft/BCApps/pull/10555",
   "published_at": "2026-08-24T15:52:32Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "add featurename attribute to ait test suites and toolkit schema"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:07:47.229Z",
+  "retry_after": null
 }

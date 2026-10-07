@@ -6,10 +6,35 @@
   "title": "SOA: Open Item Availability from Agent panel",
   "url": "https://github.com/microsoft/BCApps/pull/9310",
   "published_at": "2026-08-24T19:56:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:37.362Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:42.251Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003434
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:42.405Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:42.411Z",
+      "path": "content/changes/bcapps/9310.md"
     }
   },
   "input_hash": "a5a72ac7a0bb41af62bbbfe83e1ed92b156bae21:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa open item availability from agent panel"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e871dea1c1cb86b3f5d53b651979715b0189a3b768d97995c0f9655f26ad7282"
 }

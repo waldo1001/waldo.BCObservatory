@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30392: make Archive Jobs extensible",
   "url": "https://github.com/microsoft/BCApps/pull/9964",
   "published_at": "2026-08-24T17:34:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:42.770Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:47.958Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003389
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:48.098Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:48.103Z",
+      "path": "content/changes/bcapps/9964.md"
     }
   },
   "input_hash": "96521e7eb7a703db70032ad53bc6e203ec3b53d5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30392 make archive jobs extensible"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aa7965b88beba7551499f40b2801127154c61b6a18939ec3b4f7313a5b6018b4"
 }

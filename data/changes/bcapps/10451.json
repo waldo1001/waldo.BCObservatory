@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10451,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10451",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T19:56:21Z",
+  "merge_commit_sha": "34769a41b641034a23f3d0751251933b58bc691c",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 647233] Fix User Confirmed copied into Canceled when posting expense report lines",
+  "body_hash": "10052da8c1e5e58bd63470cb9fad905e2b8be9edce66b76b93b994cb8bdd5d54",
+  "fixes_issues": [],
+  "work_items": [
+    647233
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CancelPostedExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/CancelPostedExpReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 119,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CancelPostedExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6974",
+        "type": "codeunit",
+        "id": 6974,
+        "name": "Cancel Posted Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6974"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6978",
+        "type": "codeunit",
+        "id": 6978,
+        "name": "Upgrade Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6978"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

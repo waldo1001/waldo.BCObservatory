@@ -1,0 +1,47 @@
+{
+  "item_id": "change/bcapps-prs/10631",
+  "number": 10631,
+  "title": "Integration/main to releases 29.x 31a860b5",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "finance",
+    "purchasing",
+    "copilot",
+    "sales",
+    "inventory",
+    "manufacturing",
+    "sustainability",
+    "projects",
+    "administration",
+    "crm",
+    "service",
+    "warehouse"
+  ],
+  "summary": "Integration of 46 commits from main into the BC29 release branch includes enhancements to e-document processing, expense report policy evaluations, agent features, and various localization and financial modules.",
+  "key_points": [
+    "E-document import helpers and providers updated to support additional validation scenarios",
+    "New expense policy evaluation framework with dedicated tables, pages, and APIs for policy assessment",
+    "Agent design experience expanded with instruction editor and setup capabilities",
+    "Excel reports aging calculations refactored for improved performance and accuracy",
+    "Multiple localization modules (Germany, USA) and base application components updated for consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Final integration from main into releases/29.x, including all changes through commit 31a860b527f0dc72c7a44a255d7e7d403cfa4789.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016887,
+    "changes_in_call": 1
+  }
+}

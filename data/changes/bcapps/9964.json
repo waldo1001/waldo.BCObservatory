@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9964,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9964",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T17:34:39Z",
+  "merge_commit_sha": "96521e7eb7a703db70032ad53bc6e203ec3b53d5",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "enum-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30392: make Archive Jobs extensible",
+  "body_hash": "04116b030be865450b9f797fc2c5e6751e94fc34f11b6e7bddeac5f3d3e4b089",
+  "fixes_issues": [],
+  "work_items": [
+    644931
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobArchiveOption.Enum.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 16,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobArchiveOption.Enum.al",
+        "status": "added",
+        "key": "enum/1005",
+        "type": "enum",
+        "id": 1005,
+        "name": "Job Archive Option",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/1005"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetup.Table.al",
+        "status": "modified",
+        "key": "table/315",
+        "type": "table",
+        "id": 315,
+        "name": "Jobs Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/315"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

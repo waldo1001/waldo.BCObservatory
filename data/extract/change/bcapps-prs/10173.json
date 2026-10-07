@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10173",
+  "number": 10173,
+  "title": "[Extensibility Request] issue 30129: expose manufacturing cost calculation events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "inventory"
+  ],
+  "summary": "Manufacturing extensions can now separate setup and runtime costs during standard cost calculation by subscribing to new routing, cost-time, direct unit cost, and production order cost events in Calculate Standard Cost and Manufacturing Cost Calculation Management codeunits.",
+  "key_points": [
+    "Added IsHandled routing-line event for SKU calculations in Calculate Standard Cost",
+    "Exposed direct unit cost data on post-calculation events",
+    "Added IsHandled entry point for expected production-order line costs",
+    "Enabled extensions to implement cost-split logic without replacing base objects",
+    "Covered both base layer and Italian localization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Manufacturing extensions need separate control over setup and runtime costs so fixed setup costs are not incorrectly spread across varying lot sizes.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003453,
+    "changes_in_call": 1
+  }
+}

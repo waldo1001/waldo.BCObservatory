@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9964",
+  "number": 9964,
+  "title": "[Extensibility Request] issue 30392: make Archive Jobs extensible",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "The Archive Jobs setting in Jobs Setup is now extensible through an enum, allowing third-party solutions to add custom archival options while maintaining backward compatibility with existing values.",
+  "key_points": [
+    "Archive Jobs field replaced with an extensible enum",
+    "Existing option values preserved for backward compatibility",
+    "Assignment-compatible enum maintains current behavior",
+    "Enables partners to extend archival options without modifying base application",
+    "Extensibility request from partner scenario"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "Replaces the option field with an extensible, assignment-compatible enum while preserving the existing value ordinals and behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003389,
+    "changes_in_call": 1
+  }
+}

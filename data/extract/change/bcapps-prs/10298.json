@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10298",
+  "number": 10298,
+  "title": "[main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 5802 now displays a new Expensed WIP column to correctly show work-in-progress that was written off when production orders are finished without output, resolving a reconciliation issue with the general ledger.",
+  "key_points": [
+    "Added Expensed WIP column to Report 5802 to display WIP written off for production orders finished without output",
+    "Created IsFinishedWithoutOutput helper to detect finished orders with no Output Item Ledger Entry",
+    "WIP amounts are reclassified from ending balance to Expensed WIP column when orders lack output",
+    "Report layout updated in RDLC, Word, and Excel formats to include the new column",
+    "New test verifies Expensed WIP equals written-off cost and ending WIP shows zero"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "quote": "Added a dedicated \"Expensed WIP\" column to Report 5802 to represent the written-off WIP for production orders finished without output.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004285,
+    "changes_in_call": 1
+  }
+}

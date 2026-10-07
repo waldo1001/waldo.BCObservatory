@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10431",
+  "number": 10431,
+  "title": "[Agent Archiving] Fix broken reference links to archived agents and their tasks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "summary": "Reference links to archived agents and their tasks now open the Agent Card and Agent Task Log Entries respectively instead of failing or showing unrelated agents, while non-archived agents follow the same navigation paths as before.",
+  "key_points": [
+    "Archived agents are now reachable for auditing through proper navigation surfaces",
+    "Agent task references on Inbound E-Documents and agent drill-downs now route to appropriate pages when agents are archived",
+    "Two internal helper methods route navigation based on agent substate to either task pane or card/log views",
+    "Non-archived agents experience no behavior change",
+    "External apps can replicate the logic using existing public APIs without waiting for client-side changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Reference links to an archived agent or to an archived agent's task are broken.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004112,
+    "changes_in_call": 1
+  }
+}

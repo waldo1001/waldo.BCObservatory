@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10417",
+  "number": 10417,
+  "title": "[Shopify] Pace raw-text GraphQL calls to prevent excessive throttling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now paces GraphQL requests issued through the raw-text overload to prevent excessive throttling, by using an estimated cost value instead of zero.",
+  "key_points": [
+    "The single-argument ExecuteGraphQL(Text) overload previously hard-coded ExpectedCost to 0, causing no pacing between requests",
+    "This resulted in rapid bucket depletion and retry loops with no back-off on shops with small GraphQL cost buckets",
+    "The fix sets ExpectedCost to 10 (the average Shopify mutation cost) to restore pre-request and inter-retry pacing",
+    "The retry loop now benefits from pacing without requiring changes to its logic",
+    "Data integrity is not affected; sync throughput is improved by reducing throttling events"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003777,
+    "changes_in_call": 1
+  }
+}

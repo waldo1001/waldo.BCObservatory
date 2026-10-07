@@ -6,10 +6,35 @@
   "title": "[main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.",
   "url": "https://github.com/microsoft/BCApps/pull/10298",
   "published_at": "2026-08-25T05:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:35.254Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:40.842Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004285
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:40.967Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:40.971Z",
+      "path": "content/changes/bcapps/10298.md"
     }
   },
   "input_hash": "507566aabd10dc2779ba0726507ca89a18a70c7b:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "a wip balance is presented incorrectly on the production order wip report 5802 after finishing production order without output item ledger entry posted with new manufacturing setup option for no output required"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6b29a48d6937b5b5a1d2a51fa87d7076806178a31983f8946b9b3cb22668b1e"
 }

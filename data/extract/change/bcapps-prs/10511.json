@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10511",
+  "number": 10511,
+  "title": "[NL][Telebank] Payment History export crashes when combining entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment history export in Dutch telebank functionality no longer crashes when combining entries that exceed the 140-character limit for SEPA CT remittance text.",
+  "key_points": [
+    "Adds a string-length cap to prevent overflow when saving combined remittance text to SEPA CT ustrd field",
+    "Implements a 140-character limit for the combined text element",
+    "Extends test coverage with automated test for the string-length cap functionality",
+    "Resolves crash that occurred during payment history export with multiple combined entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Introducing a standard string-length cap when saving the combined remittance text to the 140-character SEPA CT ustrd text element.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003423,
+    "changes_in_call": 1
+  }
+}
