@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -216,7 +216,7 @@ links:
     - video/8KMcu4B_eTk
     - video/sVlPlmok5U8
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -329,7 +329,7 @@ The reports and analytics page covers statistics on current and past inventory a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404.md) (community post): "direct transfers; warehouse configuration; outbound warehouse handling; posting methods"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "direct transfers; warehouse configuration; outbound warehouse handling; posting methods"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking; directed pick and put-away"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "warehouse receipt; put-away; project purchases; warehouse processes"
 

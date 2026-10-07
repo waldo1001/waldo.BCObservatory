@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:55.736Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,7 +284,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -457,7 +457,7 @@ Start with the page "Administrative tasks in Business Central" for the full list
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #39 Troubleshoot Connectivity](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/.md) (community post): "The Troubleshooting Connectivity page helps diagnose connection issues"
+- [BC Friday Tips #39 Troubleshoot Connectivity](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba.md) (community post): "The Troubleshooting Connectivity page helps diagnose connection issues"
 
 ## Business Central pages and reports
 

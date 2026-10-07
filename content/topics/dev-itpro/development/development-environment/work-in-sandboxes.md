@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,7 +52,7 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12613
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b
   guidelines: []
 learn_toc_path:
   - Development
@@ -106,6 +106,6 @@ A third page explains how to set up a development sandbox with different user pl
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
-- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

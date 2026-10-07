@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -235,8 +235,8 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -432,8 +432,8 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "per-tenant extensions support full lifecycle management"
-- [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/.md) (community post): "check the last updated date before installing. Apps without recent updates"
+- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions support full lifecycle management"
+- [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "check the last updated date before installing. Apps without recent updates"
 
 ## Business Central pages and reports
 

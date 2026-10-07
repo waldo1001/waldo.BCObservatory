@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -135,7 +135,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
 learn_toc_path:
   - Development
@@ -183,7 +183,7 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/.md) (community post): "developers to add it as a dependency when extending these objects"
+- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "developers to add it as a dependency when extending these objects"
 
 ## Business Central pages and reports
 

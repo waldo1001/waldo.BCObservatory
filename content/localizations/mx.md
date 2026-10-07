@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 74d7e01375ea3760d72634c4d0175cf8dbfc041092dc9fde649b6eae3cc3f91d
+  input_hash: 2793ccf04ac43d74fb04925ec33c5522170f0db07af24d51fa4d490710ccd85c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-mx
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -187,7 +187,7 @@ links:
 country: MX
 version: "29"
 w1_version: "29"
-added_objects: 495
+added_objects: 610
 replaced_objects: 147
 removed_objects: 0
 added_fields: 526
@@ -220,28 +220,41 @@ The layer also carries a large North American base: a sales tax engine (tax area
 - EFT payment export codeunits for ACH, RB, Cecoban and IAT formats, with MX mapping codeunits and bank account export format fields.
 - Sales tax engine with External Tax Engine interface and many OnBefore/OnAfter events in Sales-Post, Purch.-Post and service posting.
 
-Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Mexico (MX) localization of Business Central in BC29: 495 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Mexico (MX) localization of Business Central in BC29: 610 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
+| [Finance](#finance) | 28 | 104 | 84 |
 | [eServices](#eservices) | 0 | 124 | 0 |
+| [Bank](#bank) | 14 | 108 | 22 |
 | [Sales](#sales) | 35 | 74 | 237 |
-| [Finance](#finance) | 28 | 73 | 84 |
-| [Bank](#bank) | 14 | 80 | 22 |
-| [Purchases](#purchases) | 24 | 35 | 66 |
+| [Purchases](#purchases) | 24 | 42 | 66 |
 | [Inventory](#inventory) | 10 | 31 | 75 |
 | [Service](#service) | 8 | 31 | 0 |
+| Integration | 0 | 23 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 22 | 0 |
 | [Projects](#projects) | 2 | 15 | 4 |
 | [Foundation](#foundation) | 10 | 6 | 26 |
-| [(no namespace)](#no-namespace) | 0 | 15 | 0 |
+| Payroll | 0 | 14 | 0 |
 | [Utilities](#utilities) | 6 | 5 | 0 |
+| Peppol | 0 | 5 | 0 |
 | [IO](#io) | 4 | 0 | 1 |
 | Microsoft | 0 | 4 | 0 |
 | [Security](#security) | 4 | 0 | 0 |
 | [HumanResources](#humanresources) | 1 | 2 | 2 |
 | [FixedAssets](#fixedassets) | 1 | 0 | 9 |
+
+### Finance
+
+Sales tax calculation with tax areas, jurisdictions and an external tax engine interface, plus SAT fields on G/L Account, VAT Posting Setup and General Ledger Setup (certificate, PAC, CFDI enabled). Gen. Jnl.-Post Line handles unrealized VAT and realized gain/loss for VAT recalculation.
+
+Why: Learn explains VAT recalculation on foreign currency payments and SAT account codes for electronic accounting.
+
+Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/318 "Tax Area"](../objects/table/318.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-mx.md) (own).
+
+[All 132 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### eServices
 
@@ -253,6 +266,16 @@ Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-mx.md) (own
 
 [All 124 objects of eServices in the diff](?ns=eServices#country-diff)
 
+### Bank
+
+EFT export codeunits and Data Exchange mappings (ACH, RB, Cecoban, IAT, with MX variants), bank account export fields, bank reconciliation worksheets, deposits and check handling.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md) (own), [codeunit/10333 "Exp. Mapping Head EFT MX"](../objects/codeunit/10333-mx.md) (own), [codeunit/10335 "Exp. Mapping Det EFT MX"](../objects/codeunit/10335-mx.md) (own), [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-mx.md) (own), [page/370 "Bank Account Card"](../objects/page/370.md), [table/272 "Check Ledger Entry"](../objects/table/272.md).
+
+[All 122 objects of Bank in the diff](?ns=Bank#country-diff)
+
 ### Sales
 
 Adds CFDI and digital stamp fields to posted sales headers and customer ledger entries, with ExportEDocument, RequestStampEDocument and CancelEDocument procedures. Customers get RFC, CURP and CFDI fields, sales headers get Carta de Porte transport fields, and Sales-Post gets sales tax events. Many NA sales pages and reports are added.
@@ -263,26 +286,6 @@ Objects: [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114
 
 [All 109 objects of Sales in the diff](?ns=Sales#country-diff)
 
-### Finance
-
-Sales tax calculation with tax areas, jurisdictions and an external tax engine interface, plus SAT fields on G/L Account, VAT Posting Setup and General Ledger Setup (certificate, PAC, CFDI enabled). Gen. Jnl.-Post Line handles unrealized VAT and realized gain/loss for VAT recalculation.
-
-Why: Learn explains VAT recalculation on foreign currency payments and SAT account codes for electronic accounting.
-
-Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/318 "Tax Area"](../objects/table/318.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-mx.md) (own).
-
-[All 101 objects of Finance in the diff](?ns=Finance#country-diff)
-
-### Bank
-
-EFT export codeunits and Data Exchange mappings (ACH, RB, Cecoban, IAT, with MX variants), bank account export fields, bank reconciliation worksheets, deposits and check handling.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md) (own), [codeunit/10333 "Exp. Mapping Head EFT MX"](../objects/codeunit/10333-mx.md) (own), [codeunit/10335 "Exp. Mapping Det EFT MX"](../objects/codeunit/10335-mx.md) (own), [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-mx.md) (own), [page/370 "Bank Account Card"](../objects/page/370.md), [table/272 "Check Ledger Entry"](../objects/table/272.md).
-
-[All 94 objects of Bank in the diff](?ns=Bank#country-diff)
-
 ### Purchases
 
 Adds RFC, CURP and tax identification fields to vendors, tax and IRS 1099 style fields on purchase documents, sales tax posting in Purch.-Post and prepayments, plus NA purchase reports and statistics pages.
@@ -291,7 +294,7 @@ Why: Learn documents tax identification types and DIOT, which relies on vendor R
 
 Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/23 "Vendor"](../objects/table/23.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md).
 
-[All 59 objects of Purchases in the diff](?ns=Purchases#country-diff)
+[All 66 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Inventory
 
@@ -313,6 +316,16 @@ Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [co
 
 [All 39 objects of Service in the diff](?ns=Service#country-diff)
 
+### (no namespace)
+
+Holds upgrade codeunits for CFDI, EFT, sales tax and RFC, the CFDI Subject to Tax table, page and XML port, the Bank Reconciliation report, and role profiles.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md) (own), [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-mx.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-mx.md) (own), [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-mx.md) (own), [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-mx.md) (own).
+
+[All 22 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
 ### Projects
 
 NA job and resource reports, plus extra budget fields on the Job Difference Buffer.
@@ -332,16 +345,6 @@ Why: Learn describes company information setup for electronic invoicing.
 Objects: [table/79 "Company Information"](../objects/table/79.md), [table/204 "Unit of Measure"](../objects/table/204.md), [table/9 "Country/Region"](../objects/table/9.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/242 "Source Code Setup"](../objects/table/242.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [page/344 "Navigate"](../objects/page/344.md).
 
 [All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
-
-### (no namespace)
-
-Holds upgrade codeunits for CFDI, EFT, sales tax and RFC, the CFDI Subject to Tax table, page and XML port, the Bank Reconciliation report, and role profiles.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md) (own), [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-mx.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-mx.md) (own), [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-mx.md) (own), [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-mx.md) (own).
-
-[All 15 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Utilities
 
@@ -547,9 +550,19 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Objects of its own
 
-495 objects only this country has.
+610 objects only this country has.
 
 - [codeunit/400 "ExternalTaxEngineDefault"](../objects/codeunit/400-mx.md)
+- [codeunit/1267 "Password Helper"](../objects/codeunit/1267-mx.md)
+- [codeunit/1450 "MS - Yodlee Service Mgt."](../objects/codeunit/1450-mx.md)
+- [codeunit/1451 "MS - Yodlee Import Bank Feed"](../objects/codeunit/1451-mx.md)
+- [codeunit/1452 "MS - Yodlee Service Upgrade"](../objects/codeunit/1452-mx.md)
+- [codeunit/1453 "MS - Yodlee Account Cleanup"](../objects/codeunit/1453-mx.md)
+- [codeunit/1454 "Yodlee Install"](../objects/codeunit/1454-mx.md)
+- [codeunit/1458 "Yodlee API Strings"](../objects/codeunit/1458-mx.md)
+- [codeunit/1666 "MS Ceridian Payroll import"](../objects/codeunit/1666-mx.md)
+- [codeunit/1667 "Ceridian Install"](../objects/codeunit/1667-mx.md)
+- [codeunit/1668 "MS Ceridian Payroll Mgt."](../objects/codeunit/1668-mx.md)
 - [codeunit/5968 "Serv. Sales Tax Calculate"](../objects/codeunit/5968-mx.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-mx.md)
 - [codeunit/10001 "Shipment Line - Edit"](../objects/codeunit/10001-mx.md)
@@ -584,6 +597,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/10150 "O365 Tax Settings Management"](../objects/codeunit/10150-mx.md)
 - [codeunit/10151 "E-Invoice Cancel Request Batch"](../objects/codeunit/10151-mx.md)
 - [codeunit/10152 "Serv.EInv.Cancel Request Batch"](../objects/codeunit/10152-mx.md)
+- [codeunit/10154 "Bank Recon. - Test Subscribers"](../objects/codeunit/10154-mx.md)
 - [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-mx.md)
 - [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-mx.md)
 - [codeunit/10200 "EFT Recipient Bank Account Mgt"](../objects/codeunit/10200-mx.md)
@@ -617,11 +631,28 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-mx.md)
 - [codeunit/27001 "Export Accounts Xml Helper"](../objects/codeunit/27001-mx.md)
 - [codeunit/27006 "Service E-Invoice Mgt."](../objects/codeunit/27006-mx.md)
+- [codeunit/27020 "DIOT - Initialize"](../objects/codeunit/27020-mx.md)
+- [codeunit/27021 "DIOT Data Management"](../objects/codeunit/27021-mx.md)
+- [codeunit/27022 "DIOT Subscribers"](../objects/codeunit/27022-mx.md)
 - [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-mx.md)
 - [codeunit/27031 "Update SAT Payment Catalogs"](../objects/codeunit/27031-mx.md)
 - [codeunit/27032 "Update CFDI Fields Sales Doc"](../objects/codeunit/27032-mx.md)
+- [codeunit/27033 "Upgrade DIOT"](../objects/codeunit/27033-mx.md)
 - [codeunit/27090 "Serv. Export Accounts"](../objects/codeunit/27090-mx.md)
 - [codeunit/27091 "Update CFDI Fields Serv. Doc"](../objects/codeunit/27091-mx.md)
+- [codeunit/30470 "Shpfy TMA Register"](../objects/codeunit/30470-mx.md)
+- [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-mx.md)
+- [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-mx.md)
+- [codeunit/30473 "Shpfy TMA Events"](../objects/codeunit/30473-mx.md)
+- [codeunit/30474 "Shpfy Tax Match Function"](../objects/codeunit/30474-mx.md)
+- [codeunit/30475 "Shpfy TMA Install"](../objects/codeunit/30475-mx.md)
+- [codeunit/30476 "Shpfy TMA Notify"](../objects/codeunit/30476-mx.md)
+- [codeunit/30477 "Shpfy TMA Activity Log"](../objects/codeunit/30477-mx.md)
+- [codeunit/30478 "Shpfy TMA Upgrade"](../objects/codeunit/30478-mx.md)
+- [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-mx.md)
+- [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-mx.md)
+- [codeunit/37352 "PEPPOL30 NA Upgrade"](../objects/codeunit/37352-mx.md)
+- [codeunit/37353 "PEPPOL30 NA Subscribers"](../objects/codeunit/37353-mx.md)
 - [codeunit/104151 "UPG. MX CFDI"](../objects/codeunit/104151-mx.md)
 - [codeunit/104152 "UPG. Data Exchange Definition"](../objects/codeunit/104152-mx.md)
 - [codeunit/104153 "Upgrade - EFT"](../objects/codeunit/104153-mx.md)
@@ -632,8 +663,20 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [enum/399 "External Tax Engine"](../objects/enum/399-mx.md)
 - [enum/10012 "Sales Tax Document Area"](../objects/enum/10012-mx.md)
 - [enum/10025 "GST HST Tax Type"](../objects/enum/10025-mx.md)
+- [enum/27030 "DIOT Type of Operation"](../objects/enum/27030-mx.md)
+- [enum/30471 "Shpfy Tax Match Review Mode"](../objects/enum/30471-mx.md)
+- [enumextension/30470 "Shpfy TMA Cap."](../objects/enumextension/30470-mx.md)
+- [enumextension/37350 "PEPPOL 3.0 Format NA"](../objects/enumextension/37350-mx.md)
 - [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-mx.md)
 - [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-mx.md)
+- [page/1450 "MS - Yodlee Bank Service Setup"](../objects/page/1450-mx.md)
+- [page/1451 "MS - Yodlee Account Linking"](../objects/page/1451-mx.md)
+- [page/1452 "MS - Yodlee Get Latest Stmt"](../objects/page/1452-mx.md)
+- [page/1453 "MS - Yodlee NonLinked Accounts"](../objects/page/1453-mx.md)
+- [page/1454 "MS - Yodlee Terms of use"](../objects/page/1454-mx.md)
+- [page/1458 "MS - Yodlee Access Consent"](../objects/page/1458-mx.md)
+- [page/1460 "MS - Yodlee Edit Account"](../objects/page/1460-mx.md)
+- [page/1665 "MS - Ceridian Payroll Setup"](../objects/page/1665-mx.md)
 - [page/10000 "Import Budget Information"](../objects/page/10000-mx.md)
 - [page/10007 "Customer Credit Information"](../objects/page/10007-mx.md)
 - [page/10009 "Customer Order Header Status"](../objects/page/10009-mx.md)
@@ -720,6 +763,11 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/27027 "SAT Municipalities"](../objects/page/27027-mx.md)
 - [page/27028 "SAT Localities"](../objects/page/27028-mx.md)
 - [page/27029 "SAT Suburb List"](../objects/page/27029-mx.md)
+- [page/27030 "DIOT Concepts"](../objects/page/27030-mx.md)
+- [page/27031 "DIOT Concept Links"](../objects/page/27031-mx.md)
+- [page/27032 "DIOT Setup Wizard"](../objects/page/27032-mx.md)
+- [page/27033 "DIOT Country/Region Data"](../objects/page/27033-mx.md)
+- [page/27034 "Setup Vendor DIOT Type"](../objects/page/27034-mx.md)
 - [page/27038 "SAT Transfer Reasons"](../objects/page/27038-mx.md)
 - [page/27039 "SAT Material Types"](../objects/page/27039-mx.md)
 - [page/27040 "SAT Classifications"](../objects/page/27040-mx.md)
@@ -731,6 +779,8 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/27046 "SAT Custom Units"](../objects/page/27046-mx.md)
 - [page/27047 "SAT Customs Regimes"](../objects/page/27047-mx.md)
 - [page/27048 "SAT Customs Document Types"](../objects/page/27048-mx.md)
+- [page/30471 "Shpfy TMA Review"](../objects/page/30471-mx.md)
+- [page/30479 "Shpfy TMA Order Tax Lines Part"](../objects/page/30479-mx.md)
 - [page/36600 "Human Resources Role Center"](../objects/page/36600-mx.md)
 - [page/36601 "Payroll Role Center"](../objects/page/36601-mx.md)
 - [page/36603 "Credit & Collections Mgr. RC"](../objects/page/36603-mx.md)
@@ -762,6 +812,49 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [pageextension/10027 "Service Quotes NA"](../objects/pageextension/10027-mx.md)
 - [pageextension/10028 "Service Invoice Subform NA"](../objects/pageextension/10028-mx.md)
 - [pageextension/10029 "ReservationWkshFactBoxNA"](../objects/pageextension/10029-mx.md)
+- [pageextension/27030 "DIOT Purch. & Payables Setup"](../objects/pageextension/27030-mx.md)
+- [pageextension/27031 "DIOT Vendor Card"](../objects/pageextension/27031-mx.md)
+- [pageextension/27032 "DIOT General Journal"](../objects/pageextension/27032-mx.md)
+- [pageextension/27033 "DIOT Purchase Invoice"](../objects/pageextension/27033-mx.md)
+- [pageextension/27035 "DIOT Purchase Journal"](../objects/pageextension/27035-mx.md)
+- [pageextension/27036 "DIOT Payment Journal"](../objects/pageextension/27036-mx.md)
+- [pageextension/27037 "DIOT VAT Entries"](../objects/pageextension/27037-mx.md)
+- [pageextension/27038 "DIOT VAT Posting Setup"](../objects/pageextension/27038-mx.md)
+- [pageextension/30470 "Shpfy TMA Shop Card"](../objects/pageextension/30470-mx.md)
+- [pageextension/30476 "Shpfy TMA Sales Order"](../objects/pageextension/30476-mx.md)
+- [pageextension/30478 "Shpfy TMA Order Tax Lines"](../objects/pageextension/30478-mx.md)
+- [pageextension/30479 "Shpfy TMA Order"](../objects/pageextension/30479-mx.md)
+- [permissionset/27000 "BANKDEC-EDIT"](../objects/permissionset/27000-mx.md)
+- [permissionset/27001 "BANKDEPOSIT-EDIT"](../objects/permissionset/27001-mx.md)
+- [permissionset/27002 "BANKDEPOSIT-POST"](../objects/permissionset/27002-mx.md)
+- [permissionset/27003 "BANKDEPOSIT-POSTED"](../objects/permissionset/27003-mx.md)
+- [permissionset/27004 "BANKREC-POST"](../objects/permissionset/27004-mx.md)
+- [permissionset/27005 "BANKREC-POSTED"](../objects/permissionset/27005-mx.md)
+- [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-mx.md)
+- [permissionsetextension/6959 "INTELLIGENT CLOUD - Ceridian Payroll"](../objects/permissionsetextension/6959-mx.md)
+- [permissionsetextension/8332 "D365 BUS PREMIUM - Ceridian Payroll"](../objects/permissionsetextension/8332-mx.md)
+- [permissionsetextension/12900 "D365 BUS PREMIUM - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/12900-mx.md)
+- [permissionsetextension/14538 "D365 BUS FULL ACCESS - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/14538-mx.md)
+- [permissionsetextension/14867 "D365 FULL ACCESS - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/14867-mx.md)
+- [permissionsetextension/15360 "D365 TEAM MEMBER - Ceridian Payroll"](../objects/permissionsetextension/15360-mx.md)
+- [permissionsetextension/16465 "D365 READ - Ceridian Payroll"](../objects/permissionsetextension/16465-mx.md)
+- [permissionsetextension/19183 "D365 TEAM MEMBER - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/19183-mx.md)
+- [permissionsetextension/21619 "INTELLIGENT CLOUD - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/21619-mx.md)
+- [permissionsetextension/27030 "D365 BASIC - DIOT - Localization for Mexico"](../objects/permissionsetextension/27030-mx.md)
+- [permissionsetextension/27031 "D365 BASIC ISV - DIOT - Localization for Mexico"](../objects/permissionsetextension/27031-mx.md)
+- [permissionsetextension/27032 "D365 BUS FULL ACCESS - DIOT - Localization for Mexico"](../objects/permissionsetextension/27032-mx.md)
+- [permissionsetextension/27033 "D365 BUS PREMIUM - DIOT - Localization for Mexico"](../objects/permissionsetextension/27033-mx.md)
+- [permissionsetextension/27034 "D365 FULL ACCESS - DIOT - Localization for Mexico"](../objects/permissionsetextension/27034-mx.md)
+- [permissionsetextension/27035 "D365 READ - DIOT - Localization for Mexico"](../objects/permissionsetextension/27035-mx.md)
+- [permissionsetextension/27036 "D365 TEAM MEMBER - DIOT - Localization for Mexico"](../objects/permissionsetextension/27036-mx.md)
+- [permissionsetextension/27037 "INTELLIGENT CLOUD - DIOT - Localization for Mexico"](../objects/permissionsetextension/27037-mx.md)
+- [permissionsetextension/30000 "D365 BASIC ISV - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/30000-mx.md)
+- [permissionsetextension/33090 "D365 FULL ACCESS - Ceridian Payroll"](../objects/permissionsetextension/33090-mx.md)
+- [permissionsetextension/39041 "D365 READ - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/39041-mx.md)
+- [permissionsetextension/41638 "D365 BASIC ISV - Ceridian Payroll"](../objects/permissionsetextension/41638-mx.md)
+- [permissionsetextension/45740 "D365 BUS FULL ACCESS - Ceridian Payroll"](../objects/permissionsetextension/45740-mx.md)
+- [permissionsetextension/48543 "D365 BASIC - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/48543-mx.md)
+- [permissionsetextension/49679 "D365 BASIC - Ceridian Payroll"](../objects/permissionsetextension/49679-mx.md)
 - [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-mx.md)
 - [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-mx.md)
 - [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-mx.md)
@@ -940,6 +1033,12 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [report/14022 "Declaration 347 Labels"](../objects/report/14022-mx.md)
 - [report/14023 "Declaration 349 Labels"](../objects/report/14023-mx.md)
 - [report/14030 "Official journal ledger Summ."](../objects/report/14030-mx.md)
+- [report/27030 "Create DIOT Report"](../objects/report/27030-mx.md)
+- [table/1450 "MS - Yodlee Bank Service Setup"](../objects/table/1450-mx.md)
+- [table/1451 "MS - Yodlee Bank Acc. Link"](../objects/table/1451-mx.md)
+- [table/1452 "MS - Yodlee Data Exchange Def"](../objects/table/1452-mx.md)
+- [table/1453 "MS - Yodlee Bank Session"](../objects/table/1453-mx.md)
+- [table/1665 "MS Ceridian Payroll Setup"](../objects/table/1665-mx.md)
 - [table/10000 "PAC Web Service"](../objects/table/10000-mx.md)
 - [table/10001 "PAC Web Service Detail"](../objects/table/10001-mx.md)
 - [table/10002 "Document Header"](../objects/table/10002-mx.md)
@@ -1000,8 +1099,13 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [table/27027 "SAT Municipality"](../objects/table/27027-mx.md)
 - [table/27028 "SAT Locality"](../objects/table/27028-mx.md)
 - [table/27029 "SAT Suburb"](../objects/table/27029-mx.md)
+- [table/27030 "DIOT Concept"](../objects/table/27030-mx.md)
+- [table/27031 "DIOT Concept Link"](../objects/table/27031-mx.md)
+- [table/27032 "DIOT Report Buffer"](../objects/table/27032-mx.md)
+- [table/27033 "DIOT Report Vendor Buffer"](../objects/table/27033-mx.md)
 - [table/27037 "SAT Material Type"](../objects/table/27037-mx.md)
 - [table/27038 "SAT Transfer Reason"](../objects/table/27038-mx.md)
+- [table/27039 "DIOT Country/Region Data"](../objects/table/27039-mx.md)
 - [table/27045 "SAT International Trade Term"](../objects/table/27045-mx.md)
 - [table/27046 "SAT Customs Unit"](../objects/table/27046-mx.md)
 - [table/27047 "SAT Customs Regime"](../objects/table/27047-mx.md)
@@ -1017,6 +1121,20 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [tableextension/10016 "Serv. G/L Account"](../objects/tableextension/10016-mx.md)
 - [tableextension/10019 "Serv. Sales Tax Amount Diff."](../objects/tableextension/10019-mx.md)
 - [tableextension/10027 "Mfg. Item NA"](../objects/tableextension/10027-mx.md)
+- [tableextension/10154 "Oustanding Bank Transaction"](../objects/tableextension/10154-mx.md)
+- [tableextension/27030 "DIOT Purch. & Payables Setup"](../objects/tableextension/27030-mx.md)
+- [tableextension/27031 "DIOT Vendor"](../objects/tableextension/27031-mx.md)
+- [tableextension/27032 "DIOT Gen. Journal Line"](../objects/tableextension/27032-mx.md)
+- [tableextension/27033 "DIOT Purchase Header"](../objects/tableextension/27033-mx.md)
+- [tableextension/27034 "DIOT Purch. Inv. Header"](../objects/tableextension/27034-mx.md)
+- [tableextension/27036 "DIOT VAT Entry"](../objects/tableextension/27036-mx.md)
+- [tableextension/27037 "DIOT VAT Posting Setup"](../objects/tableextension/27037-mx.md)
+- [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-mx.md)
+- [tableextension/30476 "Shpfy TMA Order Header"](../objects/tableextension/30476-mx.md)
+- [tableextension/30477 "Shpfy TMA Sales Header"](../objects/tableextension/30477-mx.md)
+- [tableextension/30480 "Shpfy TMA Order Tax Line"](../objects/tableextension/30480-mx.md)
+- [tableextension/30481 "Shpfy TMA Tax Jurisdiction"](../objects/tableextension/30481-mx.md)
+- [xmlport/1661 "Import Ceridian Payroll"](../objects/xmlport/1661-mx.md)
 - [xmlport/27003 "CFDI Cancellation Reason"](../objects/xmlport/27003-mx.md)
 - [xmlport/27004 "CFDI Export Code"](../objects/xmlport/27004-mx.md)
 - [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md)

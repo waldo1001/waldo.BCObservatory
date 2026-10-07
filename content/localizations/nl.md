@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 914c469a0f0ffbffc826f9d2af6745bf177b0455b34c5717a1a3ec9dd5c5804d
+  input_hash: 95803e937ee2734d138a24eea1d8089afd78a15e6dd9c2f92296646beed9aa11
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-nl
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -90,7 +90,7 @@ links:
 country: NL
 version: "29"
 w1_version: "29"
-added_objects: 144
+added_objects: 154
 replaced_objects: 50
 removed_objects: 0
 added_fields: 81
@@ -123,20 +123,20 @@ Other additions are CMR note reports for sales, transfer and return shipments, p
 - CMR note reports for sales shipments, transfer shipments and purchase returns.
 - Dutch post code import and update with Post Code Range tables; G/L entry apply and unapply fields on G/L Entry.
 
-Narrative written by Sonnet from the code diff and 27 Learn page summaries. In numbers: Netherlands (NL) localization of Business Central in BC29: 144 objects of its own, 50 W1 objects changed (81 fields and 9 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 27 Learn page summaries. In numbers: Netherlands (NL) localization of Business Central in BC29: 154 objects of its own, 50 W1 objects changed (81 fields and 9 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
 | [Bank](#bank) | 9 | 74 | 9 |
-| [Finance](#finance) | 13 | 33 | 15 |
+| [Finance](#finance) | 13 | 39 | 15 |
 | [Service](#service) | 0 | 18 | 0 |
 | [Foundation](#foundation) | 3 | 11 | 4 |
 | [Purchases](#purchases) | 9 | 1 | 21 |
 | [Sales](#sales) | 8 | 1 | 22 |
+| [Inventory](#inventory) | 2 | 5 | 2 |
 | (no namespace) | 0 | 4 | 0 |
-| [Inventory](#inventory) | 2 | 1 | 2 |
 | [HumanResources](#humanresources) | 2 | 0 | 8 |
 | [Security](#security) | 2 | 0 | 0 |
 | [IO](#io) | 1 | 0 | 0 |
@@ -161,7 +161,7 @@ Why: Learn explains that electronic VAT and ICP declarations are submitted as XB
 
 Objects: [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md) (own), [codeunit/11000054 "Digipoort Communication"](../objects/codeunit/11000054-nl.md) (own), [interface/digipoort communication "DigiPoort Communication"](../objects/interface/digipoort-communication-nl.md) (own), [report/11403 "Create Elec. VAT Declaration"](../objects/report/11403-nl.md) (own), [report/11404 "Create Elec. ICP Declaration"](../objects/report/11404-nl.md) (own), [report/11412 "Tax Authority - Audit File"](../objects/report/11412-nl.md) (own), [table/17 "G/L Entry"](../objects/table/17.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
 
-[All 46 objects of Finance in the diff](?ns=Finance#country-diff)
+[All 52 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Service
 
@@ -211,7 +211,7 @@ Why: Learn describes CMR notes for transfer shipments.
 
 Objects: [report/11402 "CMR - Transfer Shipment"](../objects/report/11402-nl.md) (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
 
-[All 3 objects of Inventory in the diff](?ns=Inventory#country-diff)
+[All 7 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### HumanResources
 
@@ -310,7 +310,7 @@ Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-n
 
 ## Objects of its own
 
-144 objects only this country has.
+154 objects only this country has.
 
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-nl.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-nl.md)
@@ -325,6 +325,14 @@ Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-n
 - [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md)
 - [codeunit/11411 "Serv. Post Code Mgt."](../objects/codeunit/11411-nl.md)
 - [codeunit/11412 "Serv. Document Mgt. NL"](../objects/codeunit/11412-nl.md)
+- [codeunit/11420 "Validate Elec. Tax Declaration"](../objects/codeunit/11420-nl.md)
+- [codeunit/11421 "Create Elec. Tax Declaration"](../objects/codeunit/11421-nl.md)
+- [codeunit/11422 "Submit Elec. Tax Declaration"](../objects/codeunit/11422-nl.md)
+- [codeunit/11423 "Digital Tax. Decl. Mgt."](../objects/codeunit/11423-nl.md)
+- [codeunit/11424 "Receive Elec. Tax Declaration"](../objects/codeunit/11424-nl.md)
+- [codeunit/11425 "Digital Tax Decl. Install"](../objects/codeunit/11425-nl.md)
+- [codeunit/11426 "Intrastat Report Management NL"](../objects/codeunit/11426-nl.md)
+- [codeunit/11427 "Intrastat Report Exp. Ext. NL"](../objects/codeunit/11427-nl.md)
 - [codeunit/104170 "UPG SEPA NL"](../objects/codeunit/104170-nl.md)
 - [codeunit/104171 "Elec. Tax. Decl. Upgrade"](../objects/codeunit/104171-nl.md)
 - [codeunit/11000000 "Process Proposal Lines"](../objects/codeunit/11000000-nl.md)
@@ -381,6 +389,7 @@ Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-n
 - [page/11000016 "Import Protocol List"](../objects/page/11000016-nl.md)
 - [page/11000017 "AL Objects (Telebanking)"](../objects/page/11000017-nl.md)
 - [pageextension/11400 "SourceCodeSetupNL"](../objects/pageextension/11400-nl.md)
+- [pageextension/11426 "Intrastat Report Subform NL"](../objects/pageextension/11426-nl.md)
 - [pageextension/11450 "Service Contract NL"](../objects/pageextension/11450-nl.md)
 - [pageextension/11451 "Service Contract Quote NL"](../objects/pageextension/11451-nl.md)
 - [pageextension/11452 "Service Credit Memo NL"](../objects/pageextension/11452-nl.md)
@@ -392,6 +401,7 @@ Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-n
 - [pageextension/11458 "Filed Service Contract NL"](../objects/pageextension/11458-nl.md)
 - [pageextension/11460 "Service Quote Archive NL"](../objects/pageextension/11460-nl.md)
 - [pageextension/11461 "Service Order Archive NL"](../objects/pageextension/11461-nl.md)
+- [permissionsetextension/11426 "Intrastat NL - Objects"](../objects/permissionsetextension/11426-nl.md)
 - [query/11400 "Data Exch. Find Column No."](../objects/query/11400-nl.md)
 - [query/11401 "CountPartnerTypes"](../objects/query/11401-nl.md)
 - [report/11400 "CBG Posting - Test"](../objects/report/11400-nl.md)

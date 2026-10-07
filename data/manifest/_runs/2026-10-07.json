@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-07T05:17:08.437Z",
-  "finished_at": "2026-10-07T05:25:13.995Z",
+  "started_at": "2026-10-07T09:42:06.385Z",
+  "finished_at": "2026-10-07T09:51:23.596Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 12996
+        "duration_ms": 10010
       },
       {
         "id": "learn-devitpro",
@@ -47,7 +47,7 @@
           "removed": 0
         },
         "note": "5893 pages at cb233a9a87b9",
-        "duration_ms": 11360
+        "duration_ms": 13466
       },
       {
         "id": "m365-roadmap",
@@ -61,7 +61,7 @@
           "removed": 0
         },
         "note": "80 Business Central items of 1900; snapshot unchanged",
-        "duration_ms": 544
+        "duration_ms": 736
       },
       {
         "id": "bcquality",
@@ -75,7 +75,7 @@
           "removed": 0
         },
         "note": "435 pages at 86d809b5252a",
-        "duration_ms": 1053
+        "duration_ms": 1143
       },
       {
         "id": "alguidelines",
@@ -89,7 +89,7 @@
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 997
+        "duration_ms": 1099
       },
       {
         "id": "bcapps",
@@ -97,27 +97,27 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 0,
+          "changed": 3,
           "updated": 0,
-          "unchanged": 3,
+          "unchanged": 0,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 882
+        "duration_ms": 986
       },
       {
         "id": "sandbox-history",
         "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 0,
-          "changed": 1,
+          "new": 5,
+          "changed": 3,
           "updated": 0,
-          "unchanged": 2,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "3/3 branches",
-        "duration_ms": 1189
+        "note": "8/8 branches",
+        "duration_ms": 1006
       },
       {
         "id": "onprem-history",
@@ -125,13 +125,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 0,
+          "changed": 2,
           "updated": 0,
-          "unchanged": 2,
+          "unchanged": 0,
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 845
+        "duration_ms": 669
       },
       {
         "id": "yt-microsoft",
@@ -145,7 +145,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 204
+        "duration_ms": 290
       },
       {
         "id": "yt-hougaard",
@@ -159,7 +159,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 153
+        "duration_ms": 242
       },
       {
         "id": "yt-saurav",
@@ -173,7 +173,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 270
+        "duration_ms": 282
       },
       {
         "id": "yt-areopa",
@@ -187,7 +187,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 258
+        "duration_ms": 271
       },
       {
         "id": "yt-mibuso",
@@ -201,7 +201,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 109
+        "duration_ms": 96
       },
       {
         "id": "yt-stefanmaron",
@@ -215,7 +215,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 173
+        "duration_ms": 218
       },
       {
         "id": "yt-bcmusings",
@@ -229,7 +229,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 158
+        "duration_ms": 522
       },
       {
         "id": "yt-dynamicscorner",
@@ -243,7 +243,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 144
+        "duration_ms": 396
       },
       {
         "id": "waldo-be",
@@ -257,7 +257,7 @@
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 368
+        "duration_ms": 377
       },
       {
         "id": "stefanmaron-com",
@@ -271,7 +271,7 @@
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 350
+        "duration_ms": 540
       },
       {
         "id": "kauffmann-nl",
@@ -285,7 +285,7 @@
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 490
+        "duration_ms": 839
       },
       {
         "id": "demiliani-com",
@@ -299,7 +299,7 @@
           "removed": 0
         },
         "note": "89 posts via WordPress REST",
-        "duration_ms": 925
+        "duration_ms": 545
       },
       {
         "id": "freddysblog",
@@ -313,7 +313,7 @@
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 191
+        "duration_ms": 336
       },
       {
         "id": "jpearson-blog",
@@ -327,7 +327,7 @@
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 414
+        "duration_ms": 333
       },
       {
         "id": "katson-com",
@@ -341,21 +341,21 @@
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 881
+        "duration_ms": 934
       },
       {
         "id": "sauravdhyani-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 0,
+          "new": 1,
           "changed": 0,
           "updated": 0,
-          "unchanged": 25,
+          "unchanged": 24,
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 309
+        "duration_ms": 674
       },
       {
         "id": "gerardorenteria-blog",
@@ -369,7 +369,7 @@
           "removed": 0
         },
         "note": "79 posts via WordPress REST",
-        "duration_ms": 664
+        "duration_ms": 438
       },
       {
         "id": "bertverbeek-nl",
@@ -383,7 +383,7 @@
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 738
+        "duration_ms": 714
       },
       {
         "id": "kine-cz",
@@ -397,7 +397,7 @@
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 259
+        "duration_ms": 237
       },
       {
         "id": "keytogoodcode-com",
@@ -426,7 +426,7 @@
           "removed": 0
         },
         "note": "10 posts via WordPress REST",
-        "duration_ms": 827
+        "duration_ms": 803
       },
       {
         "id": "mohana-blog",
@@ -440,7 +440,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 432
+        "duration_ms": 424
       },
       {
         "id": "duiliotacconi-com",
@@ -454,7 +454,7 @@
           "removed": 0
         },
         "note": "20 posts via WordPress REST",
-        "duration_ms": 490
+        "duration_ms": 372
       },
       {
         "id": "thinkaboutit-be",
@@ -468,7 +468,7 @@
           "removed": 0
         },
         "note": "61 posts via WordPress REST",
-        "duration_ms": 305
+        "duration_ms": 259
       },
       {
         "id": "thatnavguy-com",
@@ -482,7 +482,7 @@
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 239
+        "duration_ms": 212
       },
       {
         "id": "dvlprlife-com",
@@ -496,7 +496,7 @@
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 322
+        "duration_ms": 324
       },
       {
         "id": "tine-staric-net",
@@ -510,7 +510,7 @@
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 380
+        "duration_ms": 256
       },
       {
         "id": "aardvarklabs-blog",
@@ -524,7 +524,7 @@
           "removed": 0
         },
         "note": "81 posts via WordPress REST",
-        "duration_ms": 464
+        "duration_ms": 378
       },
       {
         "id": "vondervoort-be",
@@ -538,7 +538,7 @@
           "removed": 0
         },
         "note": "6 posts via WordPress REST",
-        "duration_ms": 3472
+        "duration_ms": 1665
       },
       {
         "id": "thedynamicsexplorer-com",
@@ -552,7 +552,7 @@
           "removed": 0
         },
         "note": "19 posts via WordPress REST",
-        "duration_ms": 3243
+        "duration_ms": 1366
       },
       {
         "id": "vld-bc-com",
@@ -586,12 +586,6 @@
             "count": 5,
             "sample_title": "The BC Analytics Question Nobody Will Need to Ask Anymore",
             "sample_url": "https://www.linkedin.com/pulse/bc-analytics-question-nobody-need-ask-anymore-ammolh-saallvi-odore"
-          },
-          {
-            "host": "yzhums.com",
-            "count": 5,
-            "sample_title": "Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item",
-            "sample_url": "https://yzhums.com/76445/"
           },
           {
             "host": "javiarmesto.substack.com",
@@ -636,183 +630,143 @@
             "sample_url": "https://ssosic.com/ai-claude-and-copilot/using-ai-to-enrich-web-shop-items-in-business-central/"
           }
         ],
-        "note": "50 digest entries, 9 unregistered hosts",
-        "duration_ms": 2559
+        "note": "50 digest entries, 8 unregistered hosts",
+        "duration_ms": 4446
       }
     ],
     "totals": {
       "sources": 40,
       "failed": 0,
       "deferred": 2,
-      "new": 0,
-      "changed": 1,
+      "new": 6,
+      "changed": 8,
       "updated": 0,
-      "unchanged": 9525,
+      "unchanged": 9517,
       "removed": 0
     }
   },
   "plan": {
     "quotas": {
-      "captions": 100000,
-      "video_extract": 50000,
-      "docs": 50000,
-      "posts": 50000,
-      "guidelines": 50000,
-      "code_jobs": 100000,
-      "hub_refresh": 50000,
-      "roadmap_links": 50000,
-      "topic_links": 50000,
-      "topic_reviews": 50000,
-      "coverage_reviews": 50000,
-      "opus_reviews": 50000,
-      "llm_calls_max": 50000
+      "captions": 60,
+      "video_extract": 20,
+      "docs": 200,
+      "posts": 20,
+      "guidelines": 10,
+      "code_jobs": 1,
+      "hub_refresh": 30,
+      "roadmap_links": 20,
+      "topic_links": 20,
+      "topic_reviews": 7,
+      "coverage_reviews": 10,
+      "opus_reviews": 5,
+      "llm_calls_max": 225
     },
-    "work": 15,
-    "executed": 15,
+    "work": 3,
+    "executed": 3,
     "skips": 0,
     "quota_use": {
+      "unlimited": {
+        "selected": 1,
+        "available": 1,
+        "limit": null
+      },
       "posts": {
-        "selected": 15,
-        "available": 15,
-        "limit": 50000
+        "selected": 1,
+        "available": 1,
+        "limit": 20
+      },
+      "code_jobs": {
+        "selected": 1,
+        "available": 8,
+        "limit": 1
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 146,
-    "cache_hits": 9,
+    "calls": 0,
+    "cache_hits": 1,
     "failures": 0,
-    "by_model": {
-      "claude-haiku-4-5-20251001": 9,
-      "claude-opus-5-5": 119,
-      "claude-sonnet-5-5": 18
-    },
-    "cost_usd": 4.756355399999998,
-    "tokens_by_model": {
-      "claude-haiku-4-5-20251001": {
-        "calls": 9,
-        "input": 8498,
-        "output": 4758,
-        "cache_read": 0,
-        "cache_creation": 46214,
-        "cost_usd": 0.12471600000000001
-      },
-      "claude-opus-5-5": {
-        "calls": 119,
-        "input": 238,
-        "output": 117671,
-        "cache_read": 89352,
-        "cache_creation": 242528,
-        "cost_usd": 4.312466399999997
-      },
-      "claude-sonnet-5-5": {
-        "calls": 18,
-        "input": 36,
-        "output": 15607,
-        "cache_read": 10595,
-        "cache_creation": 40228,
-        "cost_usd": 0.31917300000000004
-      }
-    },
+    "by_model": {},
+    "cost_usd": 0,
+    "tokens_by_model": {},
     "day_cost_usd": 73.505607
   },
   "spend": {
-    "today_usd": 68.749252,
+    "today_usd": 73.505607,
     "week_before_usd": 12.3225,
-    "night_cap_usd": 100000,
-    "week_cap_usd": 100000,
-    "allowance_usd": 99918.928248,
-    "binding": "week",
-    "exhausted": false,
-    "override": true
+    "night_cap_usd": 10,
+    "week_cap_usd": 50,
+    "allowance_usd": 0,
+    "binding": "night",
+    "exhausted": true
   },
-  "items_changed": 1,
+  "items_changed": 14,
   "errors": [
-    "localization dk narrative: enum must have non-empty array",
-    "localization in narrative: enum must have non-empty array",
-    "blog/aardvarklabs-blog/3469 extracted: model returned no entry for this post",
-    "blog/aardvarklabs-blog/3207 extracted: model returned no entry for this post",
-    "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790, which has no page",
-    "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790.md",
-    "content: topics/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/, which has no page",
-    "content: topics/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene.md: broken link ../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/.md",
-    "content: topics/business-central/business-functionality/finance/working-with-currencies.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885, which has no page",
-    "content: topics/business-central/business-functionality/finance/working-with-currencies.md: broken link ../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885.md",
-    "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/, which has no page",
-    "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: broken link ../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md",
-    "content: topics/business-central/business-functionality/inventory.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129, which has no page",
-    "content: topics/business-central/business-functionality/inventory.md: broken link ../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md",
-    "content: topics/business-central/business-functionality/planning.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
-    "content: topics/business-central/business-functionality/planning.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
-    "content: topics/business-central/business-functionality/purchasing.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190, which has no page",
-    "content: topics/business-central/business-functionality/purchasing.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
-    "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190.md",
-    "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
-    "content: topics/business-central/business-functionality/sales.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
-    "content: topics/business-central/business-functionality/sales.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/, which has no page",
-    "content: topics/business-central/business-functionality/sales.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
-    "content: topics/business-central/business-functionality/sales.md: broken link ../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/.md"
+    "video/yt-microsoft/dlJYM5ruvUc linked: ENOENT: no such file or directory, open '/Users/bcobs/actions-runner/_work/waldo.BCObservatory/waldo.BCObservatory/data/extract/video/dlJYM5ruvUc.json'"
   ],
-  "catch_up": "2026-10-10",
   "captions_retried": 0,
-  "checkpoints": 1,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-07T10:52:00.000Z",
-    "items_touched": 15,
+    "deadline": "2026-10-07T15:17:00.000Z",
+    "items_touched": 3,
     "stages_run": {
-      "blog:fetched": 9,
-      "blog:extracted": 13,
-      "blog:summarized": 13,
-      "blog:linked": 13,
-      "blog:published": 13
+      "blog:fetched": 1,
+      "blog:extracted": 1,
+      "blog:summarized": 1,
+      "blog:linked": 1,
+      "blog:published": 1,
+      "code:fetched": 1,
+      "code:extracted": 1,
+      "code:linked": 1,
+      "code:published": 1
     },
-    "advanced": 61,
+    "advanced": 9,
     "skipped": 0,
-    "failed_attempts": 2,
+    "failed_attempts": 1,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 6,
+    "parked": 0,
     "quota_charged": {
-      "posts": 15
+      "posts": 1,
+      "code_jobs": 1
     },
     "regards": [],
     "errors": [
-      "blog/aardvarklabs-blog/3469 extracted: model returned no entry for this post",
-      "blog/aardvarklabs-blog/3207 extracted: model returned no entry for this post"
+      "video/yt-microsoft/dlJYM5ruvUc linked: ENOENT: no such file or directory, open '/Users/bcobs/actions-runner/_work/waldo.BCObservatory/waldo.BCObservatory/data/extract/video/dlJYM5ruvUc.json'"
     ],
     "parked_left": 0
   },
   "code": {
     "version_diffs": 2,
     "country_diffs": 46,
-    "timelines": 0,
+    "timelines": 19,
     "deprecations": 3,
-    "written": 0,
+    "written": 74,
     "relations": 3,
-    "matrix": false,
+    "matrix": true,
     "docs_objects": {
       "links": 5336,
-      "missing": 213,
+      "missing": 113,
       "obsolete": 42,
       "undocumented": 39,
-      "written": 0
+      "written": 2
     },
     "narratives": {
-      "ready": 22,
+      "ready": 1,
       "refreshed": 0,
-      "failed": 2,
+      "failed": 0,
       "waiting": [],
-      "stopped": "done"
+      "stopped": "spend-cap"
     },
     "pages": {
-      "objects": 20744,
-      "written": 0,
+      "objects": 25632,
+      "written": 25487,
       "removed": 0,
       "localizations": 22,
-      "own_objects": 4319
+      "own_objects": 9207
     }
   },
   "roadmap_links": {
@@ -840,49 +794,46 @@
     }
   },
   "topic_links": {
-    "units": 1203,
-    "stale": 10,
-    "calls": 6,
-    "matched": 11,
-    "rejected": 2,
+    "units": 1204,
+    "stale": 1,
+    "calls": 1,
+    "matched": 0,
+    "rejected": 0,
     "failed": 0,
-    "cost_usd": 0.097956,
-    "rejections": [
-      "post/jpearson-blog/1590 -> t387: not a candidate of this item",
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826 -> topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data: quote not verbatim: \"Record.IsDirty() is a new API in Business Central 29 that lets AL code check whe\""
-    ],
-    "stopped": "done"
+    "cost_usd": 0,
+    "rejections": [],
+    "stopped": "spend-cap"
   },
   "topic_reviews": {
-    "candidates": 12,
-    "calls": 11,
-    "reviewed": 12,
-    "kept": 49,
-    "dropped": 88,
+    "candidates": 0,
+    "calls": 0,
+    "reviewed": 0,
+    "kept": 0,
+    "dropped": 0,
     "failed": 0,
-    "cost_usd": 0.885892,
+    "cost_usd": 0,
     "stopped": "done"
   },
   "hubs": {
     "topics": 605,
     "narrated": 556,
-    "refreshed": 18,
+    "refreshed": 0,
     "failed": 0,
-    "backlog": 0,
-    "stopped": "done",
-    "reviewed": 108,
-    "review_fixed": 31,
+    "backlog": 5,
+    "stopped": "spend-cap",
+    "reviewed": 0,
+    "review_fixed": 0,
     "review_rejected": 0,
     "review_backlog": 0
   },
   "content": {
-    "pages": 22695,
-    "errors": 134
+    "pages": 27584,
+    "errors": 0
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 678,
-    "files_scanned": 20164,
+    "raw_docs": 679,
+    "files_scanned": 20243,
     "findings": 0,
     "blocked": false
   }

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: f9d675f185139346148449807a3340aff4df3c1f85e51936091088633d9eff7d
+  input_hash: 4c89becb789ddc41e3d76fac32918c212a12dcaebf03255fc71423340d939427
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ru
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -260,7 +260,7 @@ links:
 country: RU
 version: "29"
 w1_version: "29"
-added_objects: 633
+added_objects: 659
 replaced_objects: 220
 removed_objects: 0
 added_fields: 1145
@@ -293,13 +293,13 @@ Learn documents these under "Russia local functionality" with pages on VAT, prep
 - Documents: corrective documents, agreements, letters of attorney, customs declaration numbers, red storno in inventory.
 - Reporting: Excel-based regulated forms (Factura, TORG-12, M-15, INV-17, FA-1 and more) and statutory financial reports via account schedule extensions.
 
-Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Russia (RU) localization of Business Central in BC29: 633 objects of its own, 220 W1 objects changed (1145 fields and 6 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Russia (RU) localization of Business Central in BC29: 659 objects of its own, 220 W1 objects changed (1145 fields and 6 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
-| [(no namespace)](#no-namespace) | 0 | 628 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 654 | 0 |
 | [Finance](#finance) | 51 | 0 | 296 |
 | [FixedAssets](#fixedassets) | 35 | 0 | 168 |
 | [Purchases](#purchases) | 33 | 0 | 194 |
@@ -323,7 +323,7 @@ Why: Learn documents these as the Russian VAT ledgers, tax registers, tax differ
 
 Objects: [codeunit/12411 "VAT Settlement Management"](../objects/codeunit/12411-ru.md) (own), [codeunit/12423 "VAT Ledger Management"](../objects/codeunit/12423-ru.md) (own), [codeunit/12412 "PrepmtDiffManagement"](../objects/codeunit/12412-ru.md) (own), [codeunit/12404 "G/L Corresp. Management"](../objects/codeunit/12404-ru.md) (own), [codeunit/12417 "VAT Allocation-Post"](../objects/codeunit/12417-ru.md) (own), [codeunit/12418 "VAT Reinstatement Management"](../objects/codeunit/12418-ru.md) (own), [codeunit/17201 "Tax Register Mgt."](../objects/codeunit/17201-ru.md) (own), [codeunit/17301 "Tax Diff.-Post Jnl. Line"](../objects/codeunit/17301-ru.md) (own).
 
-[All 628 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+[All 654 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Finance
 
@@ -682,7 +682,7 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 
 ## Objects of its own
 
-633 objects only this country has.
+659 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-ru.md)
 - [codeunit/12400 "Localisation Management"](../objects/codeunit/12400-ru.md)
@@ -709,6 +709,9 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 - [codeunit/12470 "FA Document-Post (Yes/No)"](../objects/codeunit/12470-ru.md)
 - [codeunit/12471 "FA Document-Post"](../objects/codeunit/12471-ru.md)
 - [codeunit/12472 "Copy FA Document Mgt."](../objects/codeunit/12472-ru.md)
+- [codeunit/14100 "CD Item Tracking Mgt."](../objects/codeunit/14100-ru.md)
+- [codeunit/14101 "CD Report Management"](../objects/codeunit/14101-ru.md)
+- [codeunit/14109 "CD Extension Install"](../objects/codeunit/14109-ru.md)
 - [codeunit/14930 "Excel Report Builder Manager"](../objects/codeunit/14930-ru.md)
 - [codeunit/14931 "Factura-Invoice Report Helper"](../objects/codeunit/14931-ru.md)
 - [codeunit/14932 "Corr. Factura-Invoice Helper"](../objects/codeunit/14932-ru.md)
@@ -825,6 +828,12 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 - [page/12496 "Posted FA Comments"](../objects/page/12496-ru.md)
 - [page/12497 "FA Sheet"](../objects/page/12497-ru.md)
 - [page/12499 "FA G/L Turnover"](../objects/page/12499-ru.md)
+- [page/14100 "CD Location Setup"](../objects/page/14100-ru.md)
+- [page/14101 "CD Number Formats"](../objects/page/14101-ru.md)
+- [page/14102 "CD FA Information List"](../objects/page/14102-ru.md)
+- [page/14103 "Customs Declaration"](../objects/page/14103-ru.md)
+- [page/14104 "Customs Declarations"](../objects/page/14104-ru.md)
+- [page/14105 "Customs Declaration Subform"](../objects/page/14105-ru.md)
 - [page/14900 "Customer Agreements"](../objects/page/14900-ru.md)
 - [page/14901 "Customer Agreement Card"](../objects/page/14901-ru.md)
 - [page/14902 "Vendor Agreement Card"](../objects/page/14902-ru.md)
@@ -1019,6 +1028,15 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 - [page/36848 "Sales Corrective Credit Memos"](../objects/page/36848-ru.md)
 - [pageextension/12400 "SourceCodeSetupRU"](../objects/pageextension/12400-ru.md)
 - [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageextension/12420-ru.md)
+- [pageextension/14110 "FixedAssetCardExt"](../objects/pageextension/14110-ru.md)
+- [pageextension/14111 "ItemTrackingCodeCardExt"](../objects/pageextension/14111-ru.md)
+- [pageextension/14112 "ItemTrackingCodesExt"](../objects/pageextension/14112-ru.md)
+- [pageextension/14113 "WarehouseManagerRCExt"](../objects/pageextension/14113-ru.md)
+- [pageextension/14114 "FinanceManagerRCExt"](../objects/pageextension/14114-ru.md)
+- [pageextension/14115 "InventorySetupExt"](../objects/pageextension/14115-ru.md)
+- [permissionset/17301 "Tax Difference - Post"](../objects/permissionset/17301-ru.md)
+- [permissionset/17302 "Tax Register - Periodic"](../objects/permissionset/17302-ru.md)
+- [permissionsetextension/14100 "LOCAL - Customs Declaration Tracking"](../objects/permissionsetextension/14100-ru.md)
 - [query/12400 "Value Entry Item Tariff No."](../objects/query/12400-ru.md)
 - [report/12400 "Bank Payment Order"](../objects/report/12400-ru.md)
 - [report/12402 "Cash Outgoing Order"](../objects/report/12402-ru.md)
@@ -1201,6 +1219,10 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 - [table/12477 "FA Document Line"](../objects/table/12477-ru.md)
 - [table/12478 "FA Comment"](../objects/table/12478-ru.md)
 - [table/12479 "Posted FA Comment"](../objects/table/12479-ru.md)
+- [table/14100 "CD Location Setup"](../objects/table/14100-ru.md)
+- [table/14101 "CD Number Format"](../objects/table/14101-ru.md)
+- [table/14102 "CD FA Information"](../objects/table/14102-ru.md)
+- [table/14104 "CD Number Header"](../objects/table/14104-ru.md)
 - [table/14901 "Vendor Agreement"](../objects/table/14901-ru.md)
 - [table/14902 "Customer Agreement"](../objects/table/14902-ru.md)
 - [table/14903 "Agreement Group"](../objects/table/14903-ru.md)
@@ -1309,6 +1331,10 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 - [table/26587 "Stat. Report Table Mapping"](../objects/table/26587-ru.md)
 - [tableextension/12401 "SourceCodeSetupRU"](../objects/tableextension/12401-ru.md)
 - [tableextension/12410 "Location RU"](../objects/tableextension/12410-ru.md)
+- [tableextension/14110 "FixedAssetExt"](../objects/tableextension/14110-ru.md)
+- [tableextension/14111 "ItemTrackingCodeExt"](../objects/tableextension/14111-ru.md)
+- [tableextension/14112 "PackageNoInformationExt"](../objects/tableextension/14112-ru.md)
+- [tableextension/14115 "InventorySetupExt"](../objects/tableextension/14115-ru.md)
 - [tableextension/14958 "Package No. Information RU"](../objects/tableextension/14958-ru.md)
 - [xmlport/12427 "OKATO"](../objects/xmlport/12427-ru.md)
 - [xmlport/17200 "Tax Register Setup"](../objects/xmlport/17200-ru.md)

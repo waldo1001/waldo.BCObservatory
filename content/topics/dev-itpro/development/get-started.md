@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.041Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -251,7 +251,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/
+    - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
   guidelines: []
 learn_toc_path:
   - Development
@@ -329,6 +329,6 @@ Other pages cover release tasks: context-sensitive help links, XLIFF translation
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/.md) (community post): "Start projects from structured templates like AL-Go for GitHub"
+- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "Start projects from structured templates like AL-Go for GitHub"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

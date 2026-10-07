@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:37.084Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -113,6 +113,6 @@ Start with the overview page, which explains the required upgrade paths, interme
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087.md) (community post): "Business Central 2026 Release Wave 1 (BC28) installation requires Windows 11 or Windows Server"
+- [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md) (community post): "Business Central 2026 Release Wave 1 (BC28) installation requires Windows 11 or Windows Server"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

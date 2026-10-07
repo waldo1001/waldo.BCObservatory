@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ links:
     - video/b-ixzwDS41c
   posts:
     - post/duiliotacconi-com/1601
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -172,7 +172,7 @@ Start with Auditing changes or Classifying data sensitivity for compliance needs
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [When Auditing meets Telemetry: a practical example.](../../../../posts/duiliotacconi-com/1601.md) (community post): "Change Log records what changed (user, date, deletion event) but not always why"
-- [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/.md) (community post): "Enable deletion logging on only one field in the primary key"
+- [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 

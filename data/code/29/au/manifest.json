@@ -6,14 +6,17 @@
   "country": "au",
   "layer": "overlay",
   "branch": "releases/29.x",
-  "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+  "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
   "build": "29.1.0.0",
   "apps": [
-    "Base Application"
+    "Base Application",
+    "ExpenseAgent_AU",
+    "HybridBCLast_AU",
+    "Onprem Permissions AU"
   ],
-  "files": 440,
+  "files": 442,
   "parse_errors": 0,
-  "added": 169,
+  "added": 171,
   "replaced": 121,
   "absent": [],
   "chain": [
@@ -21,15 +24,15 @@
     "apac",
     "au"
   ],
-  "extractor": "2",
+  "extractor": "3",
   "grammar": "4.4.1",
-  "objects": 290,
+  "objects": 292,
   "by_type": {
-    "codeunit": 48,
+    "codeunit": 49,
     "enum": 5,
     "page": 58,
     "pageextension": 2,
-    "permissionset": 2,
+    "permissionset": 3,
     "report": 68,
     "table": 102,
     "tableextension": 4,

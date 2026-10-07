@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,7 +145,7 @@ links:
     - video/fdzTWZyT6mI
     - video/MWXwtRr6-Wk
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
     - post/thedynamicsexplorer-com/9815
   guidelines: []
 learn_toc_path:
@@ -268,7 +268,7 @@ This section covers the full VAT workflow in Business Central. It starts with VA
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md) (community post): "VAT Product Posting Group changes; Prices Incl. VAT; vat; pricing"
+- [Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825.md) (community post): "VAT Product Posting Group changes; Prices Incl. VAT; vat; pricing"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../../../../posts/thedynamicsexplorer-com/9815.md) (community post): "Set Max. VAT Difference Allowed in General Ledger Setup to permit changes"
 - [Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)](../../../../videos/fdzTWZyT6mI.md) (video): "Multiple VAT Numbers for Customers (2024 release wave 2). Topics: multiple vat numbers; customers; vat registration"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date in Business Central; VAT Date field; VAT setup"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:48.858Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,7 +155,7 @@ links:
   videos:
     - video/JI5KlMxrtoA
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
     - post/thinkaboutit-be/8132
   guidelines: []
 learn_toc_path:
@@ -224,7 +224,7 @@ Start with AL code best practices for the baseline conventions. Then read testin
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/.md) (community post): "Always validate fields to ensure all business logic executes properly"
+- [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Always validate fields to ensure all business logic executes properly"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality catches subtle AL mistakes that pass compilation but violate best practices"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "ISO 5055 code quality assessment; ISO 5055 Quality Scoring System"
 

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: b9d04bc90e3291f4c7354fc8109e49b8b36d946f52acbba856ece42be2142d4c
+  input_hash: 0398ff6c037376c9215a632e78fa70968b9c522af33907766e281168bf89c858
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-it
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -236,7 +236,7 @@ links:
 country: IT
 version: "29"
 w1_version: "29"
-added_objects: 327
+added_objects: 355
 replaced_objects: 196
 removed_objects: 0
 added_fields: 829
@@ -269,7 +269,7 @@ The Italian subcontracting objects are legacy. Learn says they are deprecated an
 - Fixed assets: compress depreciation, anticipated and accelerated/reduced depreciation tables, and the Depreciation Book report.
 - Fiscal printing: G/L Book and VAT Register with progressive page numbers and reprint, plus Italian Intrastat journal fields and a fiscal denial list of countries and vendors.
 
-Narrative written by Sonnet from the code diff and 33 Learn page summaries. In numbers: Italy (IT) localization of Business Central in BC29: 327 objects of its own, 196 W1 objects changed (829 fields and 92 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 33 Learn page summaries. In numbers: Italy (IT) localization of Business Central in BC29: 355 objects of its own, 196 W1 objects changed (829 fields and 92 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -277,11 +277,11 @@ Narrative written by Sonnet from the code diff and 33 Learn page summaries. In n
 |---|---|---|---|
 | [Finance](#finance) | 46 | 93 | 196 |
 | [Bank](#bank) | 7 | 74 | 10 |
-| [Inventory](#inventory) | 25 | 24 | 129 |
-| [Service](#service) | 5 | 44 | 0 |
+| [Service](#service) | 5 | 58 | 0 |
+| [Inventory](#inventory) | 25 | 36 | 129 |
 | [Sales](#sales) | 39 | 5 | 200 |
 | [Purchases](#purchases) | 33 | 6 | 230 |
-| [Manufacturing](#manufacturing) | 12 | 17 | 13 |
+| [Manufacturing](#manufacturing) | 12 | 19 | 13 |
 | [Foundation](#foundation) | 8 | 20 | 41 |
 | [EServices](#eservices) | 0 | 19 | 0 |
 | [FixedAssets](#fixedassets) | 10 | 2 | 7 |
@@ -316,16 +316,6 @@ Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Paymen
 
 [All 81 objects of Bank in the diff](?ns=Bank#country-diff)
 
-### Inventory
-
-Adds fiscal inventory valuation (LIFO categories and bands, item cost history, before-start item costs, costing setup) and Italian reports. Transfer orders get transport document data such as transport reason, goods appearance and third-party loader, plus WIP fields for subcontracting. Intrastat journal tables get Italian fields.
-
-Why: Learn documents fiscal inventory valuation with year average, weighted average, FIFO, LIFO and discrete LIFO costs, and Italian Intrastat with periodicity and corrective entries.
-
-Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/12131 "Item Cost History"](../objects/table/12131-it.md) (own), [table/12129 "Lifo Category"](../objects/table/12129-it.md) (own), [report/12135 "Fiscal Inventory Valuation"](../objects/report/12135-it.md) (own), [report/12137 "LIFO Valuation"](../objects/report/12137-it.md) (own).
-
-[All 49 objects of Inventory in the diff](?ns=Inventory#country-diff)
-
 ### Service
 
 Italian extensions for service documents, archives and contracts: operation type and date, payment lines and FatturaPA support. Own codeunits edit posted service headers and initialize the Italian service data.
@@ -334,7 +324,17 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [codeunit/12109 "Serv. Local Integration IT"](../objects/codeunit/12109-it.md) (own), [codeunit/12140 "Serv. Document Mgt. IT"](../objects/codeunit/12140-it.md) (own), [tableextension/12152 "Service Header IT"](../objects/tableextension/12152-it.md) (own), [tableextension/12153 "Service Line IT"](../objects/tableextension/12153-it.md) (own), [codeunit/12197 "Service Company Initialize IT"](../objects/codeunit/12197-it.md) (own), [codeunit/12192 "Serv. Payment Lines Mgt."](../objects/codeunit/12192-it.md) (own), [pageextension/12460 "Service Mgt. Setup IT"](../objects/pageextension/12460-it.md) (own), [codeunit/12189 "Serv. Fattura Subscribers"](../objects/codeunit/12189-it.md) (own).
 
-[All 49 objects of Service in the diff](?ns=Service#country-diff)
+[All 63 objects of Service in the diff](?ns=Service#country-diff)
+
+### Inventory
+
+Adds fiscal inventory valuation (LIFO categories and bands, item cost history, before-start item costs, costing setup) and Italian reports. Transfer orders get transport document data such as transport reason, goods appearance and third-party loader, plus WIP fields for subcontracting. Intrastat journal tables get Italian fields.
+
+Why: Learn documents fiscal inventory valuation with year average, weighted average, FIFO, LIFO and discrete LIFO costs, and Italian Intrastat with periodicity and corrective entries.
+
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/12131 "Item Cost History"](../objects/table/12131-it.md) (own), [table/12129 "Lifo Category"](../objects/table/12129-it.md) (own), [report/12135 "Fiscal Inventory Valuation"](../objects/report/12135-it.md) (own), [report/12137 "LIFO Valuation"](../objects/report/12137-it.md) (own).
+
+[All 61 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Sales
 
@@ -364,7 +364,7 @@ Why: Learn states this legacy subcontracting is deprecated and replaced by the S
 
 Objects: [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md) (own), [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md) (own), [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md) (own), [page/12152 "Subcontracting Order"](../objects/page/12152-it.md) (own), [page/12154 "Subcontr. Transfer Order"](../objects/page/12154-it.md) (own), [report/12152 "Create Subcontr.Transf. Order"](../objects/report/12152-it.md) (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [table/99000765 "Manufacturing Setup"](../objects/table/99000765.md).
 
-[All 29 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
+[All 31 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
 ### Foundation
 
@@ -689,7 +689,7 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 
 ## Objects of its own
 
-327 objects only this country has.
+355 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-it.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-it.md)
@@ -735,9 +735,17 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [codeunit/12195 "Periodic VAT Settlement"](../objects/codeunit/12195-it.md)
 - [codeunit/12196 "Company Initialize IT"](../objects/codeunit/12196-it.md)
 - [codeunit/12197 "Service Company Initialize IT"](../objects/codeunit/12197-it.md)
+- [codeunit/12214 "Serv. Decl. Exp. Ext. IT"](../objects/codeunit/12214-it.md)
+- [codeunit/12215 "Serv. Decl. Get Totals IT"](../objects/codeunit/12215-it.md)
+- [codeunit/12216 "Service Declaration Mgt. IT"](../objects/codeunit/12216-it.md)
+- [codeunit/12225 "ServDeclITUpgrade"](../objects/codeunit/12225-it.md)
 - [codeunit/12261 "Service History Subscr. IT"](../objects/codeunit/12261-it.md)
 - [codeunit/104151 "UPG.IT Detailed Ledger Entries"](../objects/codeunit/104151-it.md)
 - [codeunit/104153 "UPG Per. VAT Settl. Entry IT"](../objects/codeunit/104153-it.md)
+- [codeunit/148121 "Intrastat Report Management IT"](../objects/codeunit/148121-it.md)
+- [codeunit/148122 "Intrastat Report Exp. Ext. IT"](../objects/codeunit/148122-it.md)
+- [codeunit/148123 "Intrastat Report Get Totals"](../objects/codeunit/148123-it.md)
+- [codeunit/149951 "IT Subc. Migration"](../objects/codeunit/149951-it.md)
 - [codeunit/99008501 "Legacy Subc. Feature Handler"](../objects/codeunit/99008501-it.md)
 - [codeunit/99008502 "Legacy Subc. Upgrade"](../objects/codeunit/99008502-it.md)
 - [codeunit/99008503 "Legacy Subc. Install"](../objects/codeunit/99008503-it.md)
@@ -748,6 +756,8 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [enum/12192 "Period Source Type"](../objects/enum/12192-it.md)
 - [enum/12198 "Fattura Code Type"](../objects/enum/12198-it.md)
 - [enum/12200 "Fattura Entry Type"](../objects/enum/12200-it.md)
+- [enum/12214 "Serv. Decl. Periodicity IT"](../objects/enum/12214-it.md)
+- [enum/12215 "Serv. Decl. Report Type IT"](../objects/enum/12215-it.md)
 - [enum/13115 "Non-Taxable Income Type"](../objects/enum/13115-it.md)
 - [enumextension/12136 "FeatureUpd VATSettl Act. Code"](../objects/enumextension/12136-it.md)
 - [page/12100 "VAT Exemptions"](../objects/page/12100-it.md)
@@ -845,6 +855,7 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [page/12211 "Posted Sales Invoice - Update"](../objects/page/12211-it.md)
 - [page/12212 "Posted Serv. Invoice - Update"](../objects/page/12212-it.md)
 - [page/12213 "Posted Serv. Cr. Memo - Update"](../objects/page/12213-it.md)
+- [page/12214 "Serv. Decl. Lines IT"](../objects/page/12214-it.md)
 - [page/12215 "Periodic VAT Settl. Card"](../objects/page/12215-it.md)
 - [page/12216 "Periodic VAT Settl. List"](../objects/page/12216-it.md)
 - [page/12217 "Periodic VAT Split"](../objects/page/12217-it.md)
@@ -864,6 +875,10 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [pageextension/12150 "Filed Service Contract IT"](../objects/pageextension/12150-it.md)
 - [pageextension/12168 "Posted Service Ship. Update IT"](../objects/pageextension/12168-it.md)
 - [pageextension/12212 "Posted Service Inv. Update IT"](../objects/pageextension/12212-it.md)
+- [pageextension/12214 "Serv. Decl. Setup IT"](../objects/pageextension/12214-it.md)
+- [pageextension/12215 "Serv. Decl. Setup Wizard IT"](../objects/pageextension/12215-it.md)
+- [pageextension/12216 "Service Decl. IT"](../objects/pageextension/12216-it.md)
+- [pageextension/12217 "Service Decl. Subform IT"](../objects/pageextension/12217-it.md)
 - [pageextension/12444 "Service Credit Memo IT"](../objects/pageextension/12444-it.md)
 - [pageextension/12445 "Service Credit Memo Subform IT"](../objects/pageextension/12445-it.md)
 - [pageextension/12446 "Service Invoice IT"](../objects/pageextension/12446-it.md)
@@ -879,6 +894,13 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [pageextension/12458 "Posted Service Inv. Subf. IT"](../objects/pageextension/12458-it.md)
 - [pageextension/12460 "Service Mgt. Setup IT"](../objects/pageextension/12460-it.md)
 - [pageextension/12462 "Posted Service Shipment IT"](../objects/pageextension/12462-it.md)
+- [pageextension/148121 "Intrastat Report IT"](../objects/pageextension/148121-it.md)
+- [pageextension/148122 "Intrastat Report Subform IT"](../objects/pageextension/148122-it.md)
+- [pageextension/148123 "Intrastat Report Setup IT"](../objects/pageextension/148123-it.md)
+- [pageextension/148124 "Intrastat Report Setup Wzrd IT"](../objects/pageextension/148124-it.md)
+- [permissionset/149951 "ITSubcMigration-Objs"](../objects/permissionset/149951-it.md)
+- [permissionsetextension/12214 "Serv. Decl. IT - Objects"](../objects/permissionsetextension/12214-it.md)
+- [permissionsetextension/148121 "Intrastat IT - Objects"](../objects/permissionsetextension/148121-it.md)
 - [report/12101 "Withholding Taxes"](../objects/report/12101-it.md)
 - [report/12102 "Contribution"](../objects/report/12102-it.md)
 - [report/12103 "Summary Withholding Payment"](../objects/report/12103-it.md)
@@ -1011,12 +1033,18 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [tableextension/12151 "Service Contract Header IT"](../objects/tableextension/12151-it.md)
 - [tableextension/12152 "Service Header IT"](../objects/tableextension/12152-it.md)
 - [tableextension/12153 "Service Line IT"](../objects/tableextension/12153-it.md)
+- [tableextension/12214 "Serv. Decl. Setup IT"](../objects/tableextension/12214-it.md)
+- [tableextension/12215 "Service Decl. Header IT"](../objects/tableextension/12215-it.md)
+- [tableextension/12216 "Service Decl. Line IT"](../objects/tableextension/12216-it.md)
 - [tableextension/12454 "Service Cr.Memo Header IT"](../objects/tableextension/12454-it.md)
 - [tableextension/12455 "Service Cr.Memo Line IT"](../objects/tableextension/12455-it.md)
 - [tableextension/12456 "Service Invoice Header IT"](../objects/tableextension/12456-it.md)
 - [tableextension/12457 "Service Invoice Line IT"](../objects/tableextension/12457-it.md)
 - [tableextension/12458 "Service Shipment Header IT"](../objects/tableextension/12458-it.md)
 - [tableextension/12460 "Service Mgt. Setup IT"](../objects/tableextension/12460-it.md)
+- [tableextension/148121 "Intrastat Report Header IT"](../objects/tableextension/148121-it.md)
+- [tableextension/148122 "Intrastat Report Line IT"](../objects/tableextension/148122-it.md)
+- [tableextension/148123 "Intrastat Report Setup IT"](../objects/tableextension/148123-it.md)
 - [xmlport/12100 "CBI Payment Request.00.04.00"](../objects/xmlport/12100-it.md)
 
 ## Other versions

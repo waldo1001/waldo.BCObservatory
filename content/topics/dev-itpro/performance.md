@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -86,8 +86,8 @@ links:
     - post/demiliani-com/13096
     - post/duiliotacconi-com/1983
     - post/duiliotacconi-com/2001
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
     - post/waldo-be/318461
   guidelines: []
 learn_toc_path:
@@ -129,8 +129,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../posts/duiliotacconi-com/1983.md) (community post): "ability to enable or disable database indexes directly in the UI"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
-- [Manage Database Index Usage in Business Central.](../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126.md) (community post): "Disabling indexes reduces storage usage and improves insert/update/delete performance"
-- [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/.md) (community post): "reducing load on the primary database and improving overall performance"
+- [Manage Database Index Usage in Business Central.](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Disabling indexes reduces storage usage and improves insert/update/delete performance"
+- [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "reducing load on the primary database and improving overall performance"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../posts/waldo-be/318461.md) (community post): "Performance improved dramatically after the fix: query count dropped from 19,946 to 18"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "Load Balancing; VM scaling; Automatic VM Scale-Out; Database Scaling and Monitoring"
 - [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "performance testing before go-live with performance toolkit concurrency testing"

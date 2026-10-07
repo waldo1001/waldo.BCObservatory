@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 3165e939f997d6af71aac289bd3a9bf2fb42c86f6a597e6e37c6eb28281c76df
+  input_hash: 6f76dc339f3467e51b7d89cf56f55b2e283d1ae9d70c3e7b35a26f9c8eb7b13d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ch
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -158,7 +158,7 @@ links:
 country: CH
 version: "29"
 w1_version: "29"
-added_objects: 223
+added_objects: 279
 replaced_objects: 118
 removed_objects: 0
 added_fields: 196
@@ -191,19 +191,19 @@ Learn documents this under "Switzerland local functionality". It has pages for S
 - Quote management: quote status, probability and variants on Sales Header and Sales Line, subtotals and titles on lines, plus quote analysis.
 - Provisional G/L balance and foreign currency balance fields on G/L Account and G/L Entry, plus Swiss post code import and physical inventory orders.
 
-Narrative written by Sonnet from the code diff and 34 Learn page summaries. In numbers: Switzerland (CH) localization of Business Central in BC29: 223 objects of its own, 118 W1 objects changed (196 fields and 10 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 34 Learn page summaries. In numbers: Switzerland (CH) localization of Business Central in BC29: 279 objects of its own, 118 W1 objects changed (196 fields and 10 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
-| [Finance](#finance) | 25 | 51 | 45 |
-| [Purchases](#purchases) | 24 | 51 | 32 |
-| [Bank](#bank) | 9 | 54 | 4 |
+| [Bank](#bank) | 9 | 106 | 4 |
+| [Finance](#finance) | 25 | 52 | 45 |
+| [Purchases](#purchases) | 24 | 52 | 32 |
 | [Sales](#sales) | 27 | 11 | 63 |
 | [Inventory](#inventory) | 9 | 25 | 22 |
-| [Foundation](#foundation) | 10 | 11 | 27 |
-| [(no namespace)](#no-namespace) | 0 | 7 | 0 |
+| [Foundation](#foundation) | 10 | 12 | 27 |
+| [(no namespace)](#no-namespace) | 0 | 8 | 0 |
 | [FixedAssets](#fixedassets) | 4 | 2 | 3 |
 | [Security](#security) | 4 | 2 | 0 |
 | [Service](#service) | 0 | 4 | 0 |
@@ -215,6 +215,16 @@ Narrative written by Sonnet from the code diff and 34 Learn page summaries. In n
 | [IO](#io) | 1 | 0 | 0 |
 | [Manufacturing](#manufacturing) | 0 | 1 | 0 |
 
+### Bank
+
+Adds Swiss electronic payment support: ESR, DTA/EZAG, LSV+ and Swiss SEPA credit transfer and direct debit export, CAMT 053/054 import, and a Bank Directory. Payment Export Data and SEPA check and fill codeunits get Swiss payment type logic. ESR invoice, coupon and payment order reports are included.
+
+Why: Learn describes ESR, LSV+ and SEPA credit transfer as the Swiss electronic payment methods, and Bank Directory import from SIX clearing files.
+
+Objects: [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md) (own), [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md) (own), [codeunit/3010541 "DtaMgt"](../objects/codeunit/3010541-ch.md) (own), [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md) (own), [codeunit/11530 "Swiss SEPA DD-Export File"](../objects/codeunit/11530-ch.md) (own), [table/1226 "Payment Export Data"](../objects/table/1226.md), [page/3010831 "LSV Setup"](../objects/page/3010831-ch.md) (own), [page/11501 "Bank Directory"](../objects/page/11501-ch.md) (own).
+
+[All 115 objects of Bank in the diff](?ns=Bank#country-diff)
+
 ### Finance
 
 Adds Swiss VAT statement handling with cipher setup, VAT Entry foreign currency fields, and a VAT exchange rate adjustment inside the exchange rate adjustment run (valuation method, VAT entry adjustment). G/L Account gets foreign currency balance fields and a provisional balance page. Gen. Journal Line gets ESR fields. It also carries shared DACH Data Export objects and total-balance reports.
@@ -223,7 +233,7 @@ Why: Learn says Swiss VAT uses official Federal Tax Administration exchange rate
 
 Objects: [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/597 "Exch. Rate Adjmt. Subscribers"](../objects/codeunit/597.md), [report/596 "Exch. Rate Adjustment"](../objects/report/596.md), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [page/11023 "VAT Cipher Codes"](../objects/page/11023-ch.md) (own), [page/11024 "VAT Cipher Setup"](../objects/page/11024-ch.md) (own), [page/11500 "G/L Acc. Provisional Balance"](../objects/page/11500-ch.md) (own).
 
-[All 76 objects of Finance in the diff](?ns=Finance#country-diff)
+[All 77 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
@@ -233,17 +243,7 @@ Why: Learn documents delivery reminders to vendors (setup, creation, issue) and 
 
 Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md), [table/475 "Vendor Payment Buffer"](../objects/table/475.md), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-ch.md) (own), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-ch.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-ch.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md) (own).
 
-[All 75 objects of Purchases in the diff](?ns=Purchases#country-diff)
-
-### Bank
-
-Adds Swiss electronic payment support: ESR, DTA/EZAG, LSV+ and Swiss SEPA credit transfer and direct debit export, CAMT 053/054 import, and a Bank Directory. Payment Export Data and SEPA check and fill codeunits get Swiss payment type logic. ESR invoice, coupon and payment order reports are included.
-
-Why: Learn describes ESR, LSV+ and SEPA credit transfer as the Swiss electronic payment methods, and Bank Directory import from SIX clearing files.
-
-Objects: [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md) (own), [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md) (own), [codeunit/3010541 "DtaMgt"](../objects/codeunit/3010541-ch.md) (own), [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md) (own), [codeunit/11530 "Swiss SEPA DD-Export File"](../objects/codeunit/11530-ch.md) (own), [table/1226 "Payment Export Data"](../objects/table/1226.md), [page/3010831 "LSV Setup"](../objects/page/3010831-ch.md) (own), [page/11501 "Bank Directory"](../objects/page/11501-ch.md) (own).
-
-[All 63 objects of Bank in the diff](?ns=Bank#country-diff)
+[All 76 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Sales
 
@@ -273,7 +273,7 @@ Why: Learn documents importing the Swiss post code file from Swiss Post.
 
 Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md) (own), [report/11502 "Import Post Codes"](../objects/report/11502-ch.md) (own), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/225 "Post Code"](../objects/table/225.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md).
 
-[All 21 objects of Foundation in the diff](?ns=Foundation#country-diff)
+[All 22 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### (no namespace)
 
@@ -283,7 +283,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [xmlport/11501 "SEPA DD pain.008.001.02.ch03"](../objects/xmlport/11501-ch.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-ch.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md) (own).
 
-[All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+[All 8 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### FixedAssets
 
@@ -500,7 +500,7 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 
 ## Objects of its own
 
-223 objects only this country has.
+279 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-ch.md)
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-ch.md)
@@ -510,8 +510,17 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [codeunit/11110 "Update VAT-AT"](../objects/codeunit/11110-ch.md)
 - [codeunit/11500 "BankMgt"](../objects/codeunit/11500-ch.md)
 - [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-ch.md)
+- [codeunit/11502 "Swiss QR-Bill Purchases"](../objects/codeunit/11502-ch.md)
 - [codeunit/11503 "CHMgt"](../objects/codeunit/11503-ch.md)
+- [codeunit/11504 "Swiss QR - Setup Mgt."](../objects/codeunit/11504-ch.md)
+- [codeunit/11512 "Swiss QR-Bill Decode"](../objects/codeunit/11512-ch.md)
+- [codeunit/11513 "Swiss QR-Bill Encode"](../objects/codeunit/11513-ch.md)
+- [codeunit/11514 "Swiss QR-Bill Image Mgt."](../objects/codeunit/11514-ch.md)
 - [codeunit/11515 "CH Report Management"](../objects/codeunit/11515-ch.md)
+- [codeunit/11516 "Swiss QR-Bill Incoming Doc"](../objects/codeunit/11516-ch.md)
+- [codeunit/11517 "Swiss QR-Bill Install"](../objects/codeunit/11517-ch.md)
+- [codeunit/11518 "Swiss QR-Bill Mgt."](../objects/codeunit/11518-ch.md)
+- [codeunit/11519 "Swiss QR-Bill Billing Info"](../objects/codeunit/11519-ch.md)
 - [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md)
 - [codeunit/11521 "SEPA CAMT 053 Bank Rec. Lines"](../objects/codeunit/11521-ch.md)
 - [codeunit/11522 "SEPA CAMT 054 Bank Rec. Lines"](../objects/codeunit/11522-ch.md)
@@ -535,6 +544,12 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [codeunit/5005397 "Format Adress Comfort"](../objects/codeunit/5005397-ch.md)
 - [enum/11003 "Data Export File Encoding"](../objects/enum/11003-ch.md)
 - [enum/11503 "SEPA CT Batch Booking"](../objects/enum/11503-ch.md)
+- [enum/11510 "Swiss QR-Bill Address Type"](../objects/enum/11510-ch.md)
+- [enum/11511 "Swiss QR-Bill IBAN Type"](../objects/enum/11511-ch.md)
+- [enum/11512 "Swiss QR-Bill Payment Reference Type"](../objects/enum/11512-ch.md)
+- [enum/11513 "Swiss QR-Bill Umlaut Encoding"](../objects/enum/11513-ch.md)
+- [enum/11515 "Swiss QR-Bill Reports"](../objects/enum/11515-ch.md)
+- [enum/11516 "Swiss QR-Bill Billing Detail"](../objects/enum/11516-ch.md)
 - [enum/5005272 "Delivery Reminder Date Type"](../objects/enum/5005272-ch.md)
 - [enumextension/26101 "Report Selection Usage Del. Rem."](../objects/enumextension/26101-ch.md)
 - [enumextension/26102 "Report Sel. Usage Purch. DACH"](../objects/enumextension/26102-ch.md)
@@ -553,6 +568,16 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [page/11027 "Data Export Record Fields"](../objects/page/11027-ch.md)
 - [page/11500 "G/L Acc. Provisional Balance"](../objects/page/11500-ch.md)
 - [page/11501 "Bank Directory"](../objects/page/11501-ch.md)
+- [page/11502 "Swiss QR-Bill Create Vend Bank"](../objects/page/11502-ch.md)
+- [page/11510 "Swiss QR-Bill Scan"](../objects/page/11510-ch.md)
+- [page/11511 "Swiss QR-Bill Manual Print"](../objects/page/11511-ch.md)
+- [page/11512 "Swiss QR-Bill Print Select Doc"](../objects/page/11512-ch.md)
+- [page/11513 "Swiss QR-Bill Billing Info"](../objects/page/11513-ch.md)
+- [page/11514 "Swiss QR-Bill Setup"](../objects/page/11514-ch.md)
+- [page/11515 "Swiss QR-Bill Layout"](../objects/page/11515-ch.md)
+- [page/11516 "Swiss QR-Bill Setup Wizard"](../objects/page/11516-ch.md)
+- [page/11517 "Swiss QR-Bill Reports"](../objects/page/11517-ch.md)
+- [page/11518 "Swiss QR-Bill Billing Details"](../objects/page/11518-ch.md)
 - [page/35516 "Cash Receipt Journal FactBox"](../objects/page/35516-ch.md)
 - [page/35517 "Payment Journal FactBox"](../objects/page/35517-ch.md)
 - [page/35561 "Modify Posting Day Input"](../objects/page/35561-ch.md)
@@ -582,6 +607,15 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [page/5005281 "Delivery Reminder Levels"](../objects/page/5005281-ch.md)
 - [page/5005283 "Delivery Reminder Text"](../objects/page/5005283-ch.md)
 - [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageextension/11010-ch.md)
+- [pageextension/11510 "Swiss QR-Bill Incoming Doc"](../objects/pageextension/11510-ch.md)
+- [pageextension/11511 "Swiss QR-Bill Incoming Docs"](../objects/pageextension/11511-ch.md)
+- [pageextension/11512 "Swiss QR-Bill Company Info."](../objects/pageextension/11512-ch.md)
+- [pageextension/11513 "Swiss QR-Bill Payment Method"](../objects/pageextension/11513-ch.md)
+- [pageextension/11514 "Swiss QR-Bill Vend.BankAccCard"](../objects/pageextension/11514-ch.md)
+- [pageextension/11515 "Swiss QR-Bill Purchase Journal"](../objects/pageextension/11515-ch.md)
+- [pageextension/11516 "Swiss QR-Bill Purchase Invoice"](../objects/pageextension/11516-ch.md)
+- [pageextension/11517 "Swiss QR-Bill Purchase Order"](../objects/pageextension/11517-ch.md)
+- [pageextension/11518 "Swiss QR-Bill Bank Account"](../objects/pageextension/11518-ch.md)
 - [pageextension/11553 "Bank Export/Import Setup CH"](../objects/pageextension/11553-ch.md)
 - [pageextension/5005270 "SourceCodeSetupDACH"](../objects/pageextension/5005270-ch.md)
 - [pageextension/5005271 "DRVendorTemplCard"](../objects/pageextension/5005271-ch.md)
@@ -591,6 +625,15 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [pageextension/5005275 "DRPurchAgentRoleCenter"](../objects/pageextension/5005275-ch.md)
 - [pageextension/5005276 "DRPurchaseOrder"](../objects/pageextension/5005276-ch.md)
 - [pageextension/5005277 "DRVendorCard"](../objects/pageextension/5005277-ch.md)
+- [permissionset/26001 "PURCHASE-DEL.REMIND."](../objects/permissionset/26001-ch.md)
+- [permissionsetextension/11501 "D365 BASIC ISV - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11501-ch.md)
+- [permissionsetextension/11502 "D365 BASIC - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11502-ch.md)
+- [permissionsetextension/11503 "D365 BUS FULL ACCESS - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11503-ch.md)
+- [permissionsetextension/11504 "D365 BUS PREMIUM - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11504-ch.md)
+- [permissionsetextension/11505 "D365 FULL ACCESS - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11505-ch.md)
+- [permissionsetextension/11506 "D365 READ - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11506-ch.md)
+- [permissionsetextension/11507 "D365 TEAM MEMBER - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11507-ch.md)
+- [permissionsetextension/11508 "INTELLIGENT CLOUD - QR-Bill Management for Switzerland"](../objects/permissionsetextension/11508-ch.md)
 - [permissionsetextension/5005270 "DR LOCAL"](../objects/permissionsetextension/5005270-ch.md)
 - [permissionsetextension/5005271 "DR LOCAL READ"](../objects/permissionsetextension/5005271-ch.md)
 - [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md)
@@ -617,6 +660,7 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [report/11506 "SR Item Acc Sheet Inv. Value"](../objects/report/11506-ch.md)
 - [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md)
 - [report/11509 "Vendor Payment Order"](../objects/report/11509-ch.md)
+- [report/11510 "Swiss QR-Bill Print"](../objects/report/11510-ch.md)
 - [report/11512 "Sales Picking List"](../objects/report/11512-ch.md)
 - [report/11514 "G/L Setup Information"](../objects/report/11514-ch.md)
 - [report/11517 "Inventory Value (Help Report)"](../objects/report/11517-ch.md)
@@ -686,6 +730,12 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [table/11018 "VAT Cipher Setup"](../objects/table/11018-ch.md)
 - [table/11500 "Bank Directory"](../objects/table/11500-ch.md)
 - [table/11501 "VAT Currency Adjustment Buffer"](../objects/table/11501-ch.md)
+- [table/11510 "Swiss QR-Bill Buffer"](../objects/table/11510-ch.md)
+- [table/11511 "Swiss QR-Bill Billing Info"](../objects/table/11511-ch.md)
+- [table/11512 "Swiss QR-Bill Setup"](../objects/table/11512-ch.md)
+- [table/11513 "Swiss QR-Bill Layout"](../objects/table/11513-ch.md)
+- [table/11514 "Swiss QR-Bill Reports"](../objects/table/11514-ch.md)
+- [table/11518 "Swiss QR-Bill Billing Detail"](../objects/table/11518-ch.md)
 - [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md)
 - [table/3010531 "ESR Setup"](../objects/table/3010531-ch.md)
 - [table/3010541 "DTA Setup"](../objects/table/3010541-ch.md)
@@ -715,6 +765,12 @@ Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageex
 - [table/5005361 "Expect. Phys. Inv. Track. Line"](../objects/table/5005361-ch.md)
 - [table/5005362 "Post. Exp. Ph. In. Track. Line"](../objects/table/5005362-ch.md)
 - [table/5005363 "Phys. Invt. Diff. List Buffer"](../objects/table/5005363-ch.md)
+- [tableextension/11510 "Swiss QR-Bill Incoming Doc"](../objects/tableextension/11510-ch.md)
+- [tableextension/11511 "Swiss QR-Bill Company Info."](../objects/tableextension/11511-ch.md)
+- [tableextension/11512 "Swiss QR-Bill Payment Method"](../objects/tableextension/11512-ch.md)
+- [tableextension/11513 "Swiss QR-Bill Purchase Header"](../objects/tableextension/11513-ch.md)
+- [tableextension/11514 "Swiss QR-Bill Gen Journal Line"](../objects/tableextension/11514-ch.md)
+- [tableextension/11515 "Swiss QR-Bill Bank Account"](../objects/tableextension/11515-ch.md)
 - [tableextension/11550 "Service Line CH"](../objects/tableextension/11550-ch.md)
 - [tableextension/11551 "Service Invoice Line CH"](../objects/tableextension/11551-ch.md)
 - [tableextension/11552 "Service Line Archive CH"](../objects/tableextension/11552-ch.md)

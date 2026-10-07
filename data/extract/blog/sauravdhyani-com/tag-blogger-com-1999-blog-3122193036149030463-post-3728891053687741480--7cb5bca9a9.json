@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480",
+  "url": "https://www.sauravdhyani.com/2026/09/business-central-2026-release-wave-2_01917375766.html",
+  "title": "Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-07T05:30:00.000Z",
+  "words": 1605,
+  "summary": "Starting with Business Central 2026 Release Wave 2, administrators can now turn SIFT (SumIndexField Technology) indexes on or off directly in the application through Table Information. This feature provides operational control over database performance by allowing targeted index management based on actual usage patterns without requiring developer changes or application modifications.",
+  "key_points": [
+    "SIFT indexes maintain pre-calculated aggregate information using SQL indexed views to speed up sum and count calculations on large tables",
+    "Enabling SIFT improves read performance for aggregations but creates maintenance overhead during insert, update, and delete operations",
+    "Administrators can now manage SIFT indexes per company in multi-company environments through the Table Information page and data-management view",
+    "Disabling SIFT should be based on evidence-driven analysis of workload and usage patterns, not automatic decisions based on low usage statistics",
+    "This feature creates better separation between developer data-model design, consultant workload analysis, and operational index management"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "database performance",
+    "sift indexes",
+    "index management",
+    "table information",
+    "aggregation performance",
+    "write performance",
+    "operational tuning"
+  ],
+  "objects": [],
+  "features": [
+    "SIFT index management",
+    "Table Information page",
+    "Index on/off toggle",
+    "Per-company index control",
+    "Index usage visibility",
+    "Data-management view"
+  ],
+  "versions": [
+    "2026 Release Wave 2",
+    "2026 Release Wave 1",
+    "Business Central 29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central administrators can now turn SIFT indexes on or off directly from the application.",
+      "why_it_matters": "This is the core new capability introduced in 2026 Wave 2, enabling operational control without developer involvement"
+    },
+    {
+      "text": "The goal is not to have fewer indexes. The goal is to have the right indexes for the workload.",
+      "why_it_matters": "Clarifies that index management should be evidence-based and workload-specific, not about blanket disabling"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

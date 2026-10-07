@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:51.727Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -321,8 +321,8 @@ links:
     - video/uCJ48biqLf8
   posts:
     - post/aardvarklabs-blog/2333
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7756402263170151476
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
   guidelines: []
 learn_toc_path:
   - Development
@@ -420,8 +420,8 @@ Start with Defining table structures if you are building new objects. Go to Read
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Essential Guides to Data Imports in Business Central](../../../../posts/aardvarklabs-blog/2333.md) (community post): "AL code patterns for handling JSON, delimited data, Excel files, and XML formats"
-- [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7756402263170151476.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
-- [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
+- [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
+- [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
 - [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "table extensions companion tables database joins schema redesign"
 - [What’s New: AL Runtime and Database (2024 release wave 1)](../../../../videos/OLN-2Ec2GMM.md) (video): "number sequence; change log cleanup; alter key; field tooltips; translatable texts"
 - [FieldExist() and Field() get a text overload](../../../../videos/uCJ48biqLf8.md) (video): "FieldExist() text overload; Field() text overload; Accessing table extension fields"

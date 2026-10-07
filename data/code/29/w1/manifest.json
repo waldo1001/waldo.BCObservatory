@@ -4,9 +4,8 @@
   "repo": "https://github.com/microsoft/BCApps",
   "major": "29",
   "country": "w1",
-  "layer": "base",
   "branch": "releases/29.x",
-  "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+  "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
   "build": "29.1.0.0",
   "apps": [
     "Base Application",
@@ -15,7 +14,8 @@
   ],
   "files": 9569,
   "parse_errors": 0,
-  "extractor": "2",
+  "layer": "base",
+  "extractor": "3",
   "grammar": "4.4.1",
   "objects": 9469,
   "by_type": {

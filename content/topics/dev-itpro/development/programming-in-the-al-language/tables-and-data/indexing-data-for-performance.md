@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,8 +101,8 @@ links:
     - video/IAacWsvav1E
   posts:
     - post/aardvarklabs-blog/3761
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951
-    - post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+    - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
   guidelines: []
 learn_toc_path:
@@ -162,8 +162,8 @@ This section deals with two ways to speed up sum calculations on large tables, w
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Optimizing Business Central Indexes for Performance with Copilot"
-- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
-- [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/.md) (community post): "Table indexes in Business Central speed up reads but slow down writes"
+- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
+- [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Table indexes in Business Central speed up reads but slow down writes"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added through development via AppSource apps"
 - [What's New: Enhanced Index Management (2026 release wave 1)](../../../../../videos/IAacWsvav1E.md) (video): "Enhanced Index Management database performance storage optimization index lifecycle"
 

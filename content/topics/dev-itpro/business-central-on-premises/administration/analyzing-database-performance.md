@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -103,6 +103,6 @@ Start with the pages on long-running queries. One explains how to set the SqlLon
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126.md) (community post): "manage database indexes directly from the client without SQL access"
+- [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "manage database indexes directly from the client without SQL access"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

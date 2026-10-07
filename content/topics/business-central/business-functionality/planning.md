@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
     - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
   guidelines: []
@@ -189,7 +189,7 @@ Supporting pages explain behavior that affects results. "Planning With or Withou
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
 - [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items"
 

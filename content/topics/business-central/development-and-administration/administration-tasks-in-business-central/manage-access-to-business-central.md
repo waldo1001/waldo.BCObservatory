@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:27.895Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -182,7 +182,7 @@ Start with the main page to see how licensing, accounts and permissions fit toge
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #31 Block Users using Security Group](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/.md) (community post): "Environment-level security groups in Azure AD restrict access to Business Central"
+- [BC Friday Tips #31 Block Users using Security Group](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be.md) (community post): "Environment-level security groups in Azure AD restrict access to Business Central"
 
 ## Business Central pages and reports
 

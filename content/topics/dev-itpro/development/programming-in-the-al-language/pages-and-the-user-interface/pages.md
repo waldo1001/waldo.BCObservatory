@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:02.405Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -294,7 +294,7 @@ links:
     - post/aardvarklabs-blog/1756
     - post/aardvarklabs-blog/2063
     - post/demiliani-com/12439
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
 learn_toc_path:
   - Development
@@ -383,6 +383,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Drag and drop fields onto pages, adjust properties, and show/hide actions"
 - [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
-- [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736.md) (community post): "ToolTip and ToolTipML can now be defined at the page object level in AL code"
+- [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML can now be defined at the page object level in AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

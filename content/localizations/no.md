@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 12e73606457c4bb81b7daac96ba238dfefb7809efbe28e6ef375244db82bb786
+  input_hash: c9c501e9763f180a9874dc54556dfbae97640e3a28ed7ebaa8dd39b11ed3603c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-no
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -115,7 +115,7 @@ links:
 country: "NO"
 version: "29"
 w1_version: "29"
-added_objects: 159
+added_objects: 278
 replaced_objects: 75
 removed_objects: 0
 added_fields: 240
@@ -148,44 +148,26 @@ For VAT, the layer adds VAT Code and VAT Number fields across ledger, journal an
 - SAF-T VAT code mapping on VAT Reporting Code, supported by SAF-T setup per Learn
 - Extensibility events: OnAfterGetPaymentMeansInfo, OnBeforeImportPayments, OnBeforeImportReturnData, OnBefore/OnAfterUpdateGenJnlFields
 
-Narrative written by Sonnet from the code diff and 42 Learn page summaries. In numbers: Norway (NO) localization of Business Central in BC29: 159 objects of its own, 75 W1 objects changed (240 fields and 5 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 42 Learn page summaries. In numbers: Norway (NO) localization of Business Central in BC29: 278 objects of its own, 75 W1 objects changed (240 fields and 5 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
-| [Purchases](#purchases) | 9 | 43 | 79 |
-| [Sales](#sales) | 33 | 14 | 59 |
-| [Finance](#finance) | 19 | 17 | 94 |
+| [Finance](#finance) | 19 | 108 | 94 |
+| [Purchases](#purchases) | 9 | 45 | 79 |
+| [Sales](#sales) | 33 | 16 | 59 |
 | [Service](#service) | 0 | 36 | 0 |
 | [EServices](#eservices) | 0 | 35 | 0 |
-| [Bank](#bank) | 5 | 8 | 5 |
-| [Foundation](#foundation) | 4 | 1 | 2 |
+| [Bank](#bank) | 5 | 9 | 5 |
+| Peppol | 0 | 12 | 0 |
+| [Foundation](#foundation) | 4 | 5 | 2 |
+| [Security](#security) | 3 | 2 | 1 |
+| Payroll | 0 | 4 | 0 |
 | Microsoft | 0 | 3 | 0 |
-| [Security](#security) | 3 | 0 | 1 |
+| (no namespace) | 0 | 2 | 0 |
 | [Utilities](#utilities) | 1 | 1 | 0 |
-| (no namespace) | 0 | 1 | 0 |
 | Upgrade | 1 | 0 | 0 |
-
-### Purchases
-
-Adds the remittance module for electronic vendor payments: agreements, accounts, payment orders, waiting journal, return files and error pages, with suggestion, test, export, import and delete reports. Vendor, Vendor Templ., Vendor Ledger Entry and Purchase Header get remittance, KID, recipient reference and payment type fields. Purchase invoice and credit memo lines get VAT Code and VAT Number.
-
-Why: Learn describes remittance for paying Norwegian and foreign vendors through bank formats such as Telepay and BBS, with settlement returns and error codes.
-
-Objects: [table/23 "Vendor"](../objects/table/23.md), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/15000002 "Remittance Tools"](../objects/codeunit/15000002-no.md) (own), [codeunit/15000031 "Export Remittance"](../objects/codeunit/15000031-no.md) (own), [page/15000002 "Remittance Payment Order"](../objects/page/15000002-no.md) (own), [report/15000001 "Suggest Remittance Payments"](../objects/report/15000001-no.md) (own).
-
-[All 52 objects of Purchases in the diff](?ns=Purchases#country-diff)
-
-### Sales
-
-Adds KID setup and EHF fields (GLN, Account Code, E-Invoice) to customers, sales documents, reminders and finance charge memos. Extends PEPPOL Management and Validation for reminders and finance charges. Adds recurring groups and the Create Recurring Orders batch job, plus local customer and vendor-style reports.
-
-Why: Learn documents EHF for public sector customers, KID numbers on sales documents, and recurring orders built from blanket orders.
-
-Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [codeunit/1620 "PEPPOL Validation"](../objects/codeunit/1620.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/15000300 "Recurring Group"](../objects/table/15000300-no.md) (own), [report/15000300 "Create Recurring Orders"](../objects/report/15000300-no.md) (own), [codeunit/15000300 "Repeating Order to Order"](../objects/codeunit/15000300-no.md) (own).
-
-[All 47 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Finance
 
@@ -195,7 +177,27 @@ Why: Learn covers Norwegian VAT codes, proportional VAT, electronic VAT returns,
 
 Objects: [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/344 "VAT Reporting Code"](../objects/table/344.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/10600 "Norwegian VAT Tools"](../objects/codeunit/10600-no.md) (own), [report/10618 "Trade Settlement 2017"](../objects/report/10618-no.md) (own), [xmlport/10618 "Trade Settlement 2017"](../objects/xmlport/10618-no.md) (own), [report/10630 "VAT Reconciliation"](../objects/report/10630-no.md) (own), [table/81 "Gen. Journal Line"](../objects/table/81.md).
 
-[All 36 objects of Finance in the diff](?ns=Finance#country-diff)
+[All 127 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Purchases
+
+Adds the remittance module for electronic vendor payments: agreements, accounts, payment orders, waiting journal, return files and error pages, with suggestion, test, export, import and delete reports. Vendor, Vendor Templ., Vendor Ledger Entry and Purchase Header get remittance, KID, recipient reference and payment type fields. Purchase invoice and credit memo lines get VAT Code and VAT Number.
+
+Why: Learn describes remittance for paying Norwegian and foreign vendors through bank formats such as Telepay and BBS, with settlement returns and error codes.
+
+Objects: [table/23 "Vendor"](../objects/table/23.md), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/15000002 "Remittance Tools"](../objects/codeunit/15000002-no.md) (own), [codeunit/15000031 "Export Remittance"](../objects/codeunit/15000031-no.md) (own), [page/15000002 "Remittance Payment Order"](../objects/page/15000002-no.md) (own), [report/15000001 "Suggest Remittance Payments"](../objects/report/15000001-no.md) (own).
+
+[All 54 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Sales
+
+Adds KID setup and EHF fields (GLN, Account Code, E-Invoice) to customers, sales documents, reminders and finance charge memos. Extends PEPPOL Management and Validation for reminders and finance charges. Adds recurring groups and the Create Recurring Orders batch job, plus local customer and vendor-style reports.
+
+Why: Learn documents EHF for public sector customers, KID numbers on sales documents, and recurring orders built from blanket orders.
+
+Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [codeunit/1620 "PEPPOL Validation"](../objects/codeunit/1620.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/15000300 "Recurring Group"](../objects/table/15000300-no.md) (own), [report/15000300 "Create Recurring Orders"](../objects/report/15000300-no.md) (own), [codeunit/15000300 "Repeating Order to Order"](../objects/codeunit/15000300-no.md) (own).
+
+[All 49 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Service
 
@@ -225,7 +227,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [table/1226 "Payment Export Data"](../objects/table/1226.md), [table/1200 "Bank Export/Import Setup"](../objects/table/1200.md), [codeunit/10636 "Import Pain002"](../objects/codeunit/10636-no.md) (own), [codeunit/10637 "Import CAMT054"](../objects/codeunit/10637-no.md) (own), [codeunit/10638 "Norge SEPA CC-Export File"](../objects/codeunit/10638-no.md) (own), [table/10607 "Regulatory Reporting Code"](../objects/table/10607-no.md) (own), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
 
-[All 13 objects of Bank in the diff](?ns=Bank#country-diff)
+[All 14 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Foundation
 
@@ -235,7 +237,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/10603 "Serv. Report Selection Mgt. NO"](../objects/codeunit/10603-no.md) (own), [enum/77 "Report Selection Usage"](../objects/enum/77.md).
 
-[All 5 objects of Foundation in the diff](?ns=Foundation#country-diff)
+[All 9 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Security
 
@@ -245,7 +247,7 @@ Why: Learn explains this setting allows applying entries outside the allowed pos
 
 Objects: [table/91 "User Setup"](../objects/table/91.md), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md).
 
-[All 3 objects of Security in the diff](?ns=Security#country-diff)
+[All 5 objects of Security in the diff](?ns=Security#country-diff)
 
 ### Utilities
 
@@ -339,13 +341,14 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 
 ## Objects of its own
 
-159 objects only this country has.
+278 objects only this country has.
 
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-no.md)
 - [codeunit/10600 "Norwegian VAT Tools"](../objects/codeunit/10600-no.md)
 - [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md)
 - [codeunit/10602 "Service Post Print NO"](../objects/codeunit/10602-no.md)
 - [codeunit/10603 "Serv. Report Selection Mgt. NO"](../objects/codeunit/10603-no.md)
+- [codeunit/10609 "Payroll Integration (NO)"](../objects/codeunit/10609-no.md)
 - [codeunit/10610 "E-Invoice Document Encode"](../objects/codeunit/10610-no.md)
 - [codeunit/10613 "E-Invoice Check Fin. Chrg.Memo"](../objects/codeunit/10613-no.md)
 - [codeunit/10614 "E-Invoice Check Reminder"](../objects/codeunit/10614-no.md)
@@ -371,6 +374,38 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [codeunit/10638 "Norge SEPA CC-Export File"](../objects/codeunit/10638-no.md)
 - [codeunit/10640 "Serv. Event Subscribers NO"](../objects/codeunit/10640-no.md)
 - [codeunit/10650 "Serv. Document Mgt. NO"](../objects/codeunit/10650-no.md)
+- [codeunit/10670 "SAF-T Installation"](../objects/codeunit/10670-no.md)
+- [codeunit/10671 "SAF-T XML Import"](../objects/codeunit/10671-no.md)
+- [codeunit/10672 "SAF-T Mapping Helper"](../objects/codeunit/10672-no.md)
+- [codeunit/10673 "Generate SAF-T File"](../objects/codeunit/10673-no.md)
+- [codeunit/10674 "SAF-T XML Helper"](../objects/codeunit/10674-no.md)
+- [codeunit/10675 "SAF-T Export Mgt."](../objects/codeunit/10675-no.md)
+- [codeunit/10676 "SAF-T Export Error Handler"](../objects/codeunit/10676-no.md)
+- [codeunit/10677 "SAF-T Export Check"](../objects/codeunit/10677-no.md)
+- [codeunit/10678 "SAF-T Upgrade"](../objects/codeunit/10678-no.md)
+- [codeunit/10679 "SAF-T Data Check"](../objects/codeunit/10679-no.md)
+- [codeunit/10680 "Elec. VAT OAuth Mgt."](../objects/codeunit/10680-no.md)
+- [codeunit/10681 "Electronic VAT Installation"](../objects/codeunit/10681-no.md)
+- [codeunit/10682 "SAF-T Subscribers"](../objects/codeunit/10682-no.md)
+- [codeunit/10683 "Elec. VAT Data Mgt."](../objects/codeunit/10683-no.md)
+- [codeunit/10684 "Elec. VAT Create Content"](../objects/codeunit/10684-no.md)
+- [codeunit/10685 "Elec. VAT Submit Return"](../objects/codeunit/10685-no.md)
+- [codeunit/10686 "Elec. VAT Validate Return"](../objects/codeunit/10686-no.md)
+- [codeunit/10687 "Elec. VAT Connection Mgt."](../objects/codeunit/10687-no.md)
+- [codeunit/10688 "Elec. VAT Logging Mgt."](../objects/codeunit/10688-no.md)
+- [codeunit/10689 "Elec. VAT XML Helper"](../objects/codeunit/10689-no.md)
+- [codeunit/10690 "Elec. VAT Get Response"](../objects/codeunit/10690-no.md)
+- [codeunit/10691 "Elec. VAT Upgrade"](../objects/codeunit/10691-no.md)
+- [codeunit/10692 "Generate SAF-T 1.3 File"](../objects/codeunit/10692-no.md)
+- [codeunit/37350 "PEPPOL30 NO Management"](../objects/codeunit/37350-no.md)
+- [codeunit/37351 "PEPPOL30 NO Subscribers"](../objects/codeunit/37351-no.md)
+- [codeunit/37352 "PEPPOL30 NO Install"](../objects/codeunit/37352-no.md)
+- [codeunit/37353 "PEPPOL30 NO Upgrade"](../objects/codeunit/37353-no.md)
+- [codeunit/37354 "PEPPOL30 NO Payment"](../objects/codeunit/37354-no.md)
+- [codeunit/37357 "Exp. Sales Inv. PEPPOL30 NO"](../objects/codeunit/37357-no.md)
+- [codeunit/37358 "Exp. Sales CrM. PEPPOL30 NO"](../objects/codeunit/37358-no.md)
+- [codeunit/37359 "Exp. Serv.Inv. PEPPOL30 NO"](../objects/codeunit/37359-no.md)
+- [codeunit/37360 "Exp. Serv.CrM. PEPPOL30 NO"](../objects/codeunit/37360-no.md)
 - [codeunit/15000000 "Reset Remittance Payment Order"](../objects/codeunit/15000000-no.md)
 - [codeunit/15000001 "Remitt. journal - Check line"](../objects/codeunit/15000001-no.md)
 - [codeunit/15000002 "Remittance Tools"](../objects/codeunit/15000002-no.md)
@@ -380,10 +415,35 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [codeunit/15000220 "TestEmpolyees50-199"](../objects/codeunit/15000220-no.md)
 - [codeunit/15000230 "TestEmpolyeesUnlimited"](../objects/codeunit/15000230-no.md)
 - [codeunit/15000300 "Repeating Order to Order"](../objects/codeunit/15000300-no.md)
+- [enum/10670 "SAF-T Mapping Type"](../objects/enum/10670-no.md)
+- [enum/10671 "SAF-T Mapping Range"](../objects/enum/10671-no.md)
+- [enum/10672 "SAF-T Mapping Source Type"](../objects/enum/10672-no.md)
+- [enum/10673 "SAF-T Data Check status"](../objects/enum/10673-no.md)
+- [enum/10674 "SAF-T Version"](../objects/enum/10674-no.md)
+- [enumextension/37350 "PEPPOL 3.0 Format NO"](../objects/enumextension/37350-no.md)
 - [page/10601 "Settled VAT Periods"](../objects/page/10601-no.md)
 - [page/10604 "VAT Periods"](../objects/page/10604-no.md)
 - [page/10607 "Regulatory Reporting Codes"](../objects/page/10607-no.md)
 - [page/10608 "Gen. Jnl. Line Reg. Rep. Codes"](../objects/page/10608-no.md)
+- [page/10670 "SAF-T Mapping Setup Card"](../objects/page/10670-no.md)
+- [page/10671 "SAF-T Std. Account Categories"](../objects/page/10671-no.md)
+- [page/10672 "SAF-T Grouping Categories"](../objects/page/10672-no.md)
+- [page/10673 "SAF-T Groupings"](../objects/page/10673-no.md)
+- [page/10674 "SAF-T Setup Wizard"](../objects/page/10674-no.md)
+- [page/10675 "SAF-T Standard Accounts"](../objects/page/10675-no.md)
+- [page/10677 "SAF-T G/L Mapping Subpage"](../objects/page/10677-no.md)
+- [page/10678 "SAF-T VAT Posting Setup"](../objects/page/10678-no.md)
+- [page/10679 "SAF-T Mapping Setup"](../objects/page/10679-no.md)
+- [page/10680 "SAF-T Mapping Source"](../objects/page/10680-no.md)
+- [page/10685 "SAF-T Source Codes"](../objects/page/10685-no.md)
+- [page/10686 "SAF-T Exports"](../objects/page/10686-no.md)
+- [page/10687 "SAF-T Export Card"](../objects/page/10687-no.md)
+- [page/10688 "SAF-T Export Subpage"](../objects/page/10688-no.md)
+- [page/10689 "SAF-T Data Check"](../objects/page/10689-no.md)
+- [page/10690 "SAF-T Setup"](../objects/page/10690-no.md)
+- [page/10691 "SAF-T Export Files"](../objects/page/10691-no.md)
+- [page/10692 "Electronic VAT Setup Card"](../objects/page/10692-no.md)
+- [page/10696 "Elec. VAT Submission Wizard"](../objects/page/10696-no.md)
 - [page/10697 "VAT Specifications"](../objects/page/10697-no.md)
 - [page/10698 "VAT Notes"](../objects/page/10698-no.md)
 - [page/15000000 "Remittance Info"](../objects/page/15000000-no.md)
@@ -416,6 +476,8 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [pageextension/10606 "Service List Archive NO"](../objects/pageextension/10606-no.md)
 - [pageextension/10607 "Service Credit Memo NO"](../objects/pageextension/10607-no.md)
 - [pageextension/10608 "Service Invoice NO"](../objects/pageextension/10608-no.md)
+- [pageextension/10609 "NO General Journal"](../objects/pageextension/10609-no.md)
+- [pageextension/10610 "NO General Journal Setup"](../objects/pageextension/10610-no.md)
 - [pageextension/10611 "Service Credit Memo Subform NO"](../objects/pageextension/10611-no.md)
 - [pageextension/10612 "Service Invoice Subform NO"](../objects/pageextension/10612-no.md)
 - [pageextension/10613 "ServiceItemWorksheet Subf. NO"](../objects/pageextension/10613-no.md)
@@ -428,6 +490,37 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [pageextension/10620 "Posted ServiceInvoice Subf. NO"](../objects/pageextension/10620-no.md)
 - [pageextension/10621 "Service Mgt. Setup NO"](../objects/pageextension/10621-no.md)
 - [pageextension/10622 "Service Order NO"](../objects/pageextension/10622-no.md)
+- [pageextension/10677 "SAF-T VAT Reporting Code"](../objects/pageextension/10677-no.md)
+- [pageextension/10681 "SAF-T Analysis"](../objects/pageextension/10681-no.md)
+- [pageextension/10682 "SAF-T Tax Setup List"](../objects/pageextension/10682-no.md)
+- [pageextension/10683 "SAF-T Tax Setup Card"](../objects/pageextension/10683-no.md)
+- [pageextension/10684 "SAF-T Source Codes"](../objects/pageextension/10684-no.md)
+- [pageextension/10686 "Elec. VAT Reporting Codes"](../objects/pageextension/10686-no.md)
+- [pageextension/10689 "SAF-T Company Contact"](../objects/pageextension/10689-no.md)
+- [pageextension/10691 "SAF-T Customer Card"](../objects/pageextension/10691-no.md)
+- [pageextension/10692 "SAF-T Vendor Card"](../objects/pageextension/10692-no.md)
+- [pageextension/10693 "SAF-T Bank Account Card"](../objects/pageextension/10693-no.md)
+- [pageextension/10694 "SAF-T Cust. Bank Account Card"](../objects/pageextension/10694-no.md)
+- [pageextension/10695 "SAF-T Vend. Bank Account Card"](../objects/pageextension/10695-no.md)
+- [pageextension/10697 "Elec. VAT Report"](../objects/pageextension/10697-no.md)
+- [pageextension/10698 "Electronic VAT OAuth 2.0 Setup"](../objects/pageextension/10698-no.md)
+- [permissionset/10681 "Elec. VAT - Read"](../objects/permissionset/10681-no.md)
+- [permissionset/10682 "Elec. VAT - Edit"](../objects/permissionset/10682-no.md)
+- [permissionsetextension/6342 "D365 FULL ACCESS - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/6342-no.md)
+- [permissionsetextension/10683 "D365 BASIC ISV - Electronic VAT Submission"](../objects/permissionsetextension/10683-no.md)
+- [permissionsetextension/10684 "D365 BASIC - Electronic VAT Submission"](../objects/permissionsetextension/10684-no.md)
+- [permissionsetextension/10685 "D365 READ - Electronic VAT Submission"](../objects/permissionsetextension/10685-no.md)
+- [permissionsetextension/10686 "D365 TEAM MEMBER - Electronic VAT Submission"](../objects/permissionsetextension/10686-no.md)
+- [permissionsetextension/10687 "INTELLIGENT CLOUD - Electronic VAT Submission"](../objects/permissionsetextension/10687-no.md)
+- [permissionsetextension/10688 "LOCAL - Electronic VAT Submission"](../objects/permissionsetextension/10688-no.md)
+- [permissionsetextension/16345 "D365 BASIC ISV - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/16345-no.md)
+- [permissionsetextension/17471 "INTELLIGENT CLOUD - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/17471-no.md)
+- [permissionsetextension/20604 "D365 TEAM MEMBER - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/20604-no.md)
+- [permissionsetextension/32369 "D365 BUS PREMIUM - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/32369-no.md)
+- [permissionsetextension/34688 "D365 BUS FULL ACCESS - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/34688-no.md)
+- [permissionsetextension/44314 "D365 READ - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/44314-no.md)
+- [permissionsetextension/49778 "D365 BASIC - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/49778-no.md)
+- [query/10670 "SAF-T G/L Entry By Trans."](../objects/query/10670-no.md)
 - [report/10601 "Trial Balance/Previous Period"](../objects/report/10601-no.md)
 - [report/10602 "Trade Settlement"](../objects/report/10602-no.md)
 - [report/10603 "G/L Register Customer/Vendor"](../objects/report/10603-no.md)
@@ -451,6 +544,7 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [report/10643 "Create Elec. Fin. Chrg. Memos"](../objects/report/10643-no.md)
 - [report/10644 "Create Elec. Service Invoices"](../objects/report/10644-no.md)
 - [report/10645 "Create Elec. Service Cr. Memos"](../objects/report/10645-no.md)
+- [report/10671 "SAF-T Copy Mapping"](../objects/report/10671-no.md)
 - [report/15000000 "Rem. paym. order - man. export"](../objects/report/15000000-no.md)
 - [report/15000001 "Suggest Remittance Payments"](../objects/report/15000001-no.md)
 - [report/15000002 "Remittance Test Report"](../objects/report/15000002-no.md)
@@ -475,6 +569,19 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [table/10606 "E-Invoice Transfer File"](../objects/table/10606-no.md)
 - [table/10607 "Regulatory Reporting Code"](../objects/table/10607-no.md)
 - [table/10608 "Gen. Jnl. Line Reg. Rep. Code"](../objects/table/10608-no.md)
+- [table/10670 "SAF-T Setup"](../objects/table/10670-no.md)
+- [table/10671 "SAF-T Mapping Category"](../objects/table/10671-no.md)
+- [table/10672 "SAF-T Mapping"](../objects/table/10672-no.md)
+- [table/10673 "SAF-T Export Setup"](../objects/table/10673-no.md)
+- [table/10674 "SAF-T G/L Account Mapping"](../objects/table/10674-no.md)
+- [table/10676 "SAF-T Mapping Range"](../objects/table/10676-no.md)
+- [table/10677 "SAF-T Mapping Source"](../objects/table/10677-no.md)
+- [table/10681 "SAF-T Source Code"](../objects/table/10681-no.md)
+- [table/10682 "SAF-T Export Header"](../objects/table/10682-no.md)
+- [table/10683 "SAF-T Export Line"](../objects/table/10683-no.md)
+- [table/10684 "SAF-T Missing Field"](../objects/table/10684-no.md)
+- [table/10685 "SAF-T Export File"](../objects/table/10685-no.md)
+- [table/10686 "Elec. VAT Setup"](../objects/table/10686-no.md)
 - [table/10687 "VAT Specification"](../objects/table/10687-no.md)
 - [table/10688 "VAT Note"](../objects/table/10688-no.md)
 - [table/15000000 "Remittance Agreement"](../objects/table/15000000-no.md)
@@ -495,11 +602,25 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [tableextension/10603 "Service Line NO"](../objects/tableextension/10603-no.md)
 - [tableextension/10607 "Service Cr.Memo Header NO"](../objects/tableextension/10607-no.md)
 - [tableextension/10608 "Service Cr.Memo Line NO"](../objects/tableextension/10608-no.md)
+- [tableextension/10609 "ImportDimCodes"](../objects/tableextension/10609-no.md)
 - [tableextension/10610 "Service Invoice Line NO"](../objects/tableextension/10610-no.md)
 - [tableextension/10611 "Service Mgt. Setup NO"](../objects/tableextension/10611-no.md)
 - [tableextension/10612 "Service Invoice Header NO"](../objects/tableextension/10612-no.md)
+- [tableextension/10675 "SAF-T VAT Code"](../objects/tableextension/10675-no.md)
+- [tableextension/10676 "SAF-T VAT Reporting Code"](../objects/tableextension/10676-no.md)
+- [tableextension/10678 "SAF-T Analysis"](../objects/tableextension/10678-no.md)
+- [tableextension/10679 "SAF-T Tax Setup"](../objects/tableextension/10679-no.md)
+- [tableextension/10680 "SAF-T Source Code"](../objects/tableextension/10680-no.md)
+- [tableextension/10684 "SAF-T Company Contact"](../objects/tableextension/10684-no.md)
+- [tableextension/10686 "Elec. VAT Reporting Code"](../objects/tableextension/10686-no.md)
+- [tableextension/10687 "Elec. VAT Code"](../objects/tableextension/10687-no.md)
+- [tableextension/10688 "Elec. VAT OAuth 2.0. Setup"](../objects/tableextension/10688-no.md)
+- [tableextension/10689 "Elec. VAT Posting Setup"](../objects/tableextension/10689-no.md)
+- [tableextension/10690 "Elec. VAT Report Header"](../objects/tableextension/10690-no.md)
 - [xmlport/10601 "EHF Reminder 3.0"](../objects/xmlport/10601-no.md)
 - [xmlport/10618 "Trade Settlement 2017"](../objects/xmlport/10618-no.md)
+- [xmlport/37355 "Sales Invoice - PEPPOL30 NO"](../objects/xmlport/37355-no.md)
+- [xmlport/37356 "Sales Cr.Memo - PEPPOL30 NO"](../objects/xmlport/37356-no.md)
 
 ## Other versions
 

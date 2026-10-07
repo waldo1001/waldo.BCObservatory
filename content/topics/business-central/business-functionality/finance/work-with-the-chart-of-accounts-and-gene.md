@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,7 +132,7 @@ links:
     - video/VIda0Ok1SSQ
     - video/zQhtuFbxJm4
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b
     - post/thedynamicsexplorer-com/10452
     - post/thedynamicsexplorer-com/37144
   guidelines: []
@@ -255,7 +255,7 @@ Two pages describe allocation. One covers allocating to multiple G/L accounts wi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/.md) (community post): "Keep Description field preserves the description text when switching between account types"
+- [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journals retain lines after posting with updated posting dates"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"

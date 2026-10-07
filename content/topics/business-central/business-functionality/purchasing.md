@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -329,8 +329,8 @@ links:
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -487,8 +487,8 @@ Start with the overview page, then go to "Record purchases with purchase invoice
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
-- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually"
+- [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually"
 - [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "Flexible Drop Shipment Operation Sequences; Get Order Lines Functionality; Multiple Purchase Document Creation Methods"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,9 +211,9 @@ links:
     - post/aardvarklabs-blog/2196
     - post/aardvarklabs-blog/2271
     - post/aardvarklabs-blog/3544
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e
     - post/thedynamicsexplorer-com/9051
     - post/thinkaboutit-be/7181
     - post/thinkaboutit-be/7266
@@ -301,9 +301,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
 - [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
-- [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619.md) (community post): "composite layouts where branding is split into three separate parts"
-- [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
-- [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
+- [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "composite layouts where branding is split into three separate parts"
+- [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
+- [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
 - [Dynamics GP to Business Central – How to easily convert your GP word templates to BC word layouts](../../../../../posts/thedynamicsexplorer-com/9051.md) (community post): "Converting Dynamics GP Word templates to Business Central Word layouts can be done efficiently"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../../posts/thinkaboutit-be/7181.md) (community post): "Select layout types based on purpose: Word for documents and email, RDLC"
 - [How Do I Fix: The EnableHyperlinks property has not been set for this report.](../../../../../posts/thinkaboutit-be/7266.md) (community post): "RDLC report layouts contain hyperlinks, the EnableHyperlinks property must be set"

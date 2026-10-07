@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:25.918Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/
+    - post/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7
   guidelines: []
 learn_toc_path:
   - Development
@@ -105,6 +105,6 @@ Start with the Format method page for general text conversion. Use the field for
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Format Cheatsheet](../../../../posts/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/.md) (community post): "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type"
+- [Format Cheatsheet](../../../../posts/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7.md) (community post): "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 92067b1b6942331fd6017398fc918b43f9497c0da6ea3cbfdde1af39091e8cfb
+  input_hash: 584f5854425ce36d3f6e58314c3715f4ebec8b5fa567cc8f0ef6157bab9d91f4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-be
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -120,7 +120,7 @@ links:
 country: BE
 version: "29"
 w1_version: "29"
-added_objects: 107
+added_objects: 129
 replaced_objects: 80
 removed_objects: 0
 added_fields: 101
@@ -153,7 +153,7 @@ Smaller changes cover Intrastat (tariff numbers with conversion factors, simplif
 - Local legal reports: General, Centralization and Financial ledgers, Sales and Purchase ledgers, Link to Accon.
 - Extensibility: events such as OnBeforeValidateEnterpriseNo, OnBeforeCalcColumnValue and OnBeforeDetermineCountry.
 
-Narrative written by Sonnet from the code diff and 38 Learn page summaries. In numbers: Belgium (BE) localization of Business Central in BC29: 107 objects of its own, 80 W1 objects changed (101 fields and 18 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 38 Learn page summaries. In numbers: Belgium (BE) localization of Business Central in BC29: 129 objects of its own, 80 W1 objects changed (101 fields and 18 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -161,14 +161,16 @@ Narrative written by Sonnet from the code diff and 38 Learn page summaries. In n
 |---|---|---|---|
 | [Bank](#bank) | 5 | 55 | 4 |
 | [Finance](#finance) | 21 | 27 | 38 |
+| [Inventory](#inventory) | 5 | 13 | 8 |
 | [Purchases](#purchases) | 17 | 1 | 16 |
 | [Sales](#sales) | 16 | 2 | 20 |
 | [Service](#service) | 0 | 11 | 0 |
-| [Inventory](#inventory) | 5 | 3 | 8 |
+| Peppol | 0 | 10 | 0 |
 | [Foundation](#foundation) | 4 | 3 | 13 |
 | [(no namespace)](#no-namespace) | 0 | 5 | 0 |
 | [CashFlow](#cashflow) | 3 | 0 | 1 |
 | Upgrade | 3 | 0 | 0 |
+| Integration | 0 | 2 | 0 |
 | [Security](#security) | 2 | 0 | 0 |
 | [CRM](#crm) | 1 | 0 | 1 |
 | [Text](#text) | 1 | 0 | 0 |
@@ -194,6 +196,16 @@ Why: Learn documents monthly or quarterly VAT declarations, annual listings, man
 Objects: [report/12 "VAT Statement"](../objects/report/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/15 "G/L Account"](../objects/table/15.md), [table/17 "G/L Entry"](../objects/table/17.md), [table/11301 "Manual VAT Correction"](../objects/table/11301-be.md) (own), [report/11307 "VAT - Form"](../objects/report/11307-be.md) (own), [report/11308 "VAT Annual Listing"](../objects/report/11308-be.md) (own).
 
 [All 48 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Inventory
+
+Supports Belgian Intrastat. Tariff Number and Intrastat Jnl. Line get conversion factor, unit of measure and supplementary units. Intrastat batches track reporting, and two reports import tariff numbers.
+
+Why: Learn describes simplified and extended declarations, tariff number setup and export to the OneGate portal.
+
+Objects: [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md) (own), [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md) (own), [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md) (own).
+
+[All 18 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Purchases
 
@@ -224,16 +236,6 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 Objects: [report/11321 "Service - Invoice (BE)"](../objects/report/11321-be.md) (own), [report/11322 "Service - Credit Memo (BE)"](../objects/report/11322-be.md) (own), [report/11323 "Service - Shipment (BE)"](../objects/report/11323-be.md) (own), [report/11325 "Service Document - Test (BE)"](../objects/report/11325-be.md) (own), [codeunit/11309 "Service Line Mgt. BE"](../objects/codeunit/11309-be.md) (own), [codeunit/11350 "Serv. Document Mgt. BE"](../objects/codeunit/11350-be.md) (own), [tableextension/11300 "Service Header BE"](../objects/tableextension/11300-be.md) (own).
 
 [All 11 objects of Service in the diff](?ns=Service#country-diff)
-
-### Inventory
-
-Supports Belgian Intrastat. Tariff Number and Intrastat Jnl. Line get conversion factor, unit of measure and supplementary units. Intrastat batches track reporting, and two reports import tariff numbers.
-
-Why: Learn describes simplified and extended declarations, tariff number setup and export to the OneGate portal.
-
-Objects: [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md) (own), [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md) (own), [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md) (own).
-
-[All 8 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Foundation
 
@@ -402,7 +404,7 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 
 ## Objects of its own
 
-107 objects only this country has.
+129 objects only this country has.
 
 - [codeunit/854 "Sales Post Invoice Events BE"](../objects/codeunit/854-be.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-be.md)
@@ -411,7 +413,18 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 - [codeunit/11309 "Service Line Mgt. BE"](../objects/codeunit/11309-be.md)
 - [codeunit/11310 "VAT Amount Line Mgt. BE"](../objects/codeunit/11310-be.md)
 - [codeunit/11311 "Serv. Report Selection Mgt. BE"](../objects/codeunit/11311-be.md)
+- [codeunit/11346 "IntrastatReportManagementBE"](../objects/codeunit/11346-be.md)
 - [codeunit/11350 "Serv. Document Mgt. BE"](../objects/codeunit/11350-be.md)
+- [codeunit/30461 "Shpfy Enterprise No. BE"](../objects/codeunit/30461-be.md)
+- [codeunit/37310 "PEPPOL30 BE Service Validation"](../objects/codeunit/37310-be.md)
+- [codeunit/37311 "PEPPOL30 BE Sales Validation"](../objects/codeunit/37311-be.md)
+- [codeunit/37312 "PEPPOL30 BE Initialize"](../objects/codeunit/37312-be.md)
+- [codeunit/37313 "PEPPOL30 BE Upgrade"](../objects/codeunit/37313-be.md)
+- [codeunit/37314 "PEPPOL30 BE Subscribers"](../objects/codeunit/37314-be.md)
+- [codeunit/37315 "PEPPOL30 BE Tax Info"](../objects/codeunit/37315-be.md)
+- [codeunit/37316 "PEPPOL30 BE Escompte"](../objects/codeunit/37316-be.md)
+- [codeunit/37317 "PEPPOL30 BE Payment Info"](../objects/codeunit/37317-be.md)
+- [codeunit/37318 "PEPPOL30 BE Monetary Info"](../objects/codeunit/37318-be.md)
 - [codeunit/104151 "ISO Code UPG.BE"](../objects/codeunit/104151-be.md)
 - [codeunit/104153 "Copy Inv. No. To Pmt. Ref"](../objects/codeunit/104153-be.md)
 - [codeunit/2000000 "PmtJrnlManagement"](../objects/codeunit/2000000-be.md)
@@ -426,6 +439,8 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 - [codeunit/2000041 "CODA Write Statements"](../objects/codeunit/2000041-be.md)
 - [codeunit/2000042 "Post Coded Bank Statement"](../objects/codeunit/2000042-be.md)
 - [enum/277 "VAT Stmt. Line Document Type"](../objects/enum/277-be.md)
+- [enumextension/30461 "Shpfy Comp. Tax Id Mapping BE"](../objects/enumextension/30461-be.md)
+- [enumextension/37310 "PEPPOL 3.0 Format BE"](../objects/enumextension/37310-be.md)
 - [page/11300 "Financial Journal"](../objects/page/11300-be.md)
 - [page/11301 "VAT VIES Correction"](../objects/page/11301-be.md)
 - [page/11303 "Manual VAT Correction List"](../objects/page/11303-be.md)
@@ -448,6 +463,12 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 - [page/2000045 "Transaction Coding"](../objects/page/2000045-be.md)
 - [pageextension/11307 "SourceCodeSetupBE"](../objects/pageextension/11307-be.md)
 - [pageextension/11310 "VAT Specification Subform BE"](../objects/pageextension/11310-be.md)
+- [pageextension/11346 "Intrastat Report BE"](../objects/pageextension/11346-be.md)
+- [pageextension/11347 "Intrastat Report Subform BE"](../objects/pageextension/11347-be.md)
+- [pageextension/11348 "Intrastat Report Item Card BE"](../objects/pageextension/11348-be.md)
+- [pageextension/11349 "Intrastat Report FA Card BE"](../objects/pageextension/11349-be.md)
+- [pageextension/11350 "Intrastat Report Tariff Ns. BE"](../objects/pageextension/11350-be.md)
+- [permissionsetextension/11346 "Intrastat BE - Objects"](../objects/permissionsetextension/11346-be.md)
 - [report/11300 "Sales Ledger"](../objects/report/11300-be.md)
 - [report/11301 "Purchase Ledger"](../objects/report/11301-be.md)
 - [report/11302 "General Ledger"](../objects/report/11302-be.md)
@@ -511,6 +532,9 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 - [tableextension/11307 "SourceCodeSetupBE"](../objects/tableextension/11307-be.md)
 - [tableextension/11308 "Service Header Archive BE"](../objects/tableextension/11308-be.md)
 - [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md)
+- [tableextension/11346 "Intrastat Report Header BE"](../objects/tableextension/11346-be.md)
+- [tableextension/11347 "Intrastat Report Line BE"](../objects/tableextension/11347-be.md)
+- [tableextension/11348 "Intrastat Report Tariff Nr. BE"](../objects/tableextension/11348-be.md)
 
 ## Other versions
 

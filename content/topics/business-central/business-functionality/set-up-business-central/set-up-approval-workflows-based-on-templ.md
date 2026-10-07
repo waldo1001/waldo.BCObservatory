@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
     - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
@@ -165,7 +165,7 @@ Start with "Set up approval workflows" for the overall picture. Then read "How t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
+- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
 - [Approval Workflows in Planning Worksheet](../../../../posts/olofsimren-com/3779.md) (community post): "Setup uses the same workflow framework as purchase orders and general journals"
 
 ## Business Central pages and reports

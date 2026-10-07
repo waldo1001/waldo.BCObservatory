@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,8 +116,8 @@ links:
   videos:
     - video/X3xygXmgRqU
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -202,8 +202,8 @@ Location-related pages cover locations with bins, zones and transfer routes, sto
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Define Item Attributes for Item Variants](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683.md) (community post): "Define Item Attributes for Item Variants. Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level"
-- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md) (community post): "Attributes can be defined at the variant level so each variant maintains distinct values"
+- [Define Item Attributes for Item Variants](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants. Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level"
+- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Attributes can be defined at the variant level so each variant maintains distinct values"
 - [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "Multiple Locations Setup; Intransit Locations; Transfer Routes"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.564Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,7 +43,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b
   guidelines: []
 learn_toc_path:
   - Administration
@@ -97,6 +97,6 @@ The customization guide covers the code side. It explains the C/AL to AL convers
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847.md) (community post): "Moving from Dynamics NAV to Business Central requires two separate projects: a technical upgrade through mandatory waypoints"
+- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md) (community post): "Moving from Dynamics NAV to Business Central requires two separate projects: a technical upgrade through mandatory waypoints"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

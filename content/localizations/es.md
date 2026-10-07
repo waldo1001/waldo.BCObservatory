@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: c54b6f28797c9b856dfaed2ee470b3135f5d0c0cc617c22c8fc74eda45ca9931
+  input_hash: cfe4dab1b9f54f73deabe2f10123f56149ef3868aec755e60f2abe550323b5a1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-es
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -185,7 +185,7 @@ links:
 country: ES
 version: "29"
 w1_version: "29"
-added_objects: 389
+added_objects: 402
 replaced_objects: 145
 removed_objects: 0
 added_fields: 314
@@ -218,7 +218,7 @@ Banking and master data changes include CCC bank code fields on company, bank, c
 - Corrected invoices, transaction numbers, Close Income Statement and Trial Balance changes, and the same external document number across fiscal years.
 - VERI*FACTU, Factura-E, and the G/L accounts equivalence tool for chart of accounts changes.
 
-Narrative written by Sonnet from the code diff and 46 Learn page summaries. In numbers: Spain (ES) localization of Business Central in BC29: 389 objects of its own, 145 W1 objects changed (314 fields and 64 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 46 Learn page summaries. In numbers: Spain (ES) localization of Business Central in BC29: 402 objects of its own, 145 W1 objects changed (314 fields and 64 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -229,17 +229,18 @@ Narrative written by Sonnet from the code diff and 46 Learn page summaries. In n
 | [Purchases](#purchases) | 28 | 57 | 64 |
 | [EServices](#eservices) | 0 | 83 | 0 |
 | [Service](#service) | 2 | 28 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 15 | 0 |
 | [Foundation](#foundation) | 9 | 4 | 15 |
 | [Bank](#bank) | 11 | 1 | 53 |
+| [Inventory](#inventory) | 7 | 4 | 10 |
 | [Microsoft](#microsoft) | 0 | 11 | 0 |
-| [(no namespace)](#no-namespace) | 0 | 7 | 0 |
-| [Inventory](#inventory) | 7 | 0 | 10 |
 | [Security](#security) | 5 | 2 | 0 |
 | [CashFlow](#cashflow) | 2 | 1 | 0 |
 | [Utilities](#utilities) | 1 | 2 | 0 |
 | [HumanResources](#humanresources) | 2 | 0 | 3 |
 | [RoleCenters](#rolecenters) | 1 | 1 | 4 |
 | [AccountantPortal](#accountantportal) | 0 | 1 | 0 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [Integration](#integration) | 1 | 0 | 0 |
 | [Projects](#projects) | 1 | 0 | 1 |
 
@@ -293,6 +294,16 @@ Objects: [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.m
 
 [All 30 objects of Service in the diff](?ns=Service#country-diff)
 
+### (no namespace)
+
+Holds the Post Payment Order report and SII activity cue extension. Other objects are upgrade and sandbox cleanup plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [report/7000080 "Post Payment Order"](../objects/report/7000080-es.md) (own), [pageextension/7000030 "SII O365 Activities"](../objects/pageextension/7000030-es.md) (own).
+
+[All 15 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
 ### Foundation
 
 Extends Payment Terms with due date limit fields, and Company Information with CNAE and CCC fields. Adds Post Code county code, Country/Region VAT number digits and Category Code. Navigate finds Cartera documents.
@@ -313,6 +324,16 @@ Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Paymen
 
 [All 12 objects of Bank in the diff](?ns=Bank#country-diff)
 
+### Inventory
+
+Adds shipment method fields on item journal and ledger entries, Intrastat fields, a cost regulation percentage on Item, and port/airport on Transport Method.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/27 "Item"](../objects/table/27.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/259 "Transport Method"](../objects/table/259.md), [table/284 "Area"](../objects/table/284.md), [table/1382 "Item Templ."](../objects/table/1382.md).
+
+[All 11 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
 ### Microsoft
 
 Adds the G/L accounts equivalence tool tables, historic account tables, buffers and import/export xmlports for chart of accounts changes and consolidation.
@@ -322,26 +343,6 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 Objects: [table/10720 "G/L Accounts Equivalence Tool"](../objects/table/10720-es.md) (own), [table/10721 "Historic G/L Account"](../objects/table/10721-es.md) (own), [table/10722 "New G/L Account"](../objects/table/10722-es.md) (own), [xmlport/10720 "G/L Importing Tool"](../objects/xmlport/10720-es.md) (own), [xmlport/10700 "Hist. Consolid. Import/Export"](../objects/xmlport/10700-es.md) (own), [table/10700 "Inc. Stmt. Clos. Buffer"](../objects/table/10700-es.md) (own), [table/10703 "Acc. Schedule Buffer"](../objects/table/10703-es.md) (own), [enum/10727 "ES Document Situation"](../objects/enum/10727-es.md) (own).
 
 [All 11 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
-
-### (no namespace)
-
-Holds the Post Payment Order report and SII activity cue extension. Other objects are upgrade and sandbox cleanup plumbing.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [report/7000080 "Post Payment Order"](../objects/report/7000080-es.md) (own), [pageextension/7000030 "SII O365 Activities"](../objects/pageextension/7000030-es.md) (own).
-
-[All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
-
-### Inventory
-
-Adds shipment method fields on item journal and ledger entries, Intrastat fields, a cost regulation percentage on Item, and port/airport on Transport Method.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/27 "Item"](../objects/table/27.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/259 "Transport Method"](../objects/table/259.md), [table/284 "Area"](../objects/table/284.md), [table/1382 "Item Templ."](../objects/table/1382.md).
-
-[All 7 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Security
 
@@ -575,9 +576,10 @@ Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
 
 ## Objects of its own
 
-389 objects only this country has.
+402 objects only this country has.
 
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-es.md)
+- [codeunit/6919 "Expense Event Subscriber ES"](../objects/codeunit/6919-es.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-es.md)
 - [codeunit/10700 "Due Date-Adjust"](../objects/codeunit/10700-es.md)
 - [codeunit/10701 "Elect. Pmts Management"](../objects/codeunit/10701-es.md)
@@ -604,6 +606,7 @@ Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
 - [codeunit/10769 "Service Cr. Memo Header - Edit"](../objects/codeunit/10769-es.md)
 - [codeunit/10788 "Sales Document Subscr. ES"](../objects/codeunit/10788-es.md)
 - [codeunit/10789 "Service Posting Subscr. ES"](../objects/codeunit/10789-es.md)
+- [codeunit/10790 "IntrastatReportManagementES"](../objects/codeunit/10790-es.md)
 - [codeunit/10791 "Serv. Report Selection Mgt. ES"](../objects/codeunit/10791-es.md)
 - [codeunit/10840 "No Taxable - Generate Entries"](../objects/codeunit/10840-es.md)
 - [codeunit/104100 "UPG SII"](../objects/codeunit/104100-es.md)
@@ -775,6 +778,8 @@ Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
 - [pageextension/10736 "Posted Service Inv. Update ES"](../objects/pageextension/10736-es.md)
 - [pageextension/10737 "Posted Service Invoices ES"](../objects/pageextension/10737-es.md)
 - [pageextension/10738 "Posted Service Invoice ES"](../objects/pageextension/10738-es.md)
+- [pageextension/10790 "Intrastat Report Subform ES"](../objects/pageextension/10790-es.md)
+- [pageextension/10791 "Intrastat Report Setup ES"](../objects/pageextension/10791-es.md)
 - [pageextension/7000000 "SII Purchase Credit Memo"](../objects/pageextension/7000000-es.md)
 - [pageextension/7000001 "SII Purchase Invoice"](../objects/pageextension/7000001-es.md)
 - [pageextension/7000002 "SII Purchase Order"](../objects/pageextension/7000002-es.md)
@@ -806,7 +811,16 @@ Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
 - [pageextension/7000048 "SII Pstd. Sales Cr.Memo Update"](../objects/pageextension/7000048-es.md)
 - [pageextension/7000049 "SII SO Processor Activities"](../objects/pageextension/7000049-es.md)
 - [pageextension/7000051 "SII Posted Purch.CrMemo Update"](../objects/pageextension/7000051-es.md)
+- [permissionset/10700 "CAR-BANK ACC"](../objects/permissionset/10700-es.md)
+- [permissionset/10701 "CAR-BANK ACC, EDIT"](../objects/permissionset/10701-es.md)
+- [permissionset/10702 "CAR-JOURNAL"](../objects/permissionset/10702-es.md)
+- [permissionset/10703 "CAR-JOURNAL, POST"](../objects/permissionset/10703-es.md)
+- [permissionset/10704 "CAR-PERIODIC"](../objects/permissionset/10704-es.md)
+- [permissionset/10705 "CAR-PMTORD, POST"](../objects/permissionset/10705-es.md)
+- [permissionset/10706 "CAR-REMESA, POST"](../objects/permissionset/10706-es.md)
+- [permissionset/10707 "CAR-SETUP"](../objects/permissionset/10707-es.md)
 - [permissionsetextension/1001 "SII LOCAL"](../objects/permissionsetextension/1001-es.md)
+- [permissionsetextension/10790 "Intrastat ES - Objects"](../objects/permissionsetextension/10790-es.md)
 - [permissionsetextension/7000002 "SII LOCAL READ"](../objects/permissionsetextension/7000002-es.md)
 - [report/10700 "Set Period Trans. Nos."](../objects/report/10700-es.md)
 - [report/10702 "Customer - Annual Declaration"](../objects/report/10702-es.md)

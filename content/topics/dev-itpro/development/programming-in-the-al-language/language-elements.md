@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -314,7 +314,7 @@ links:
     - video/lofGuQRe1BM
     - video/qlFEdXPjX6A
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f
   guidelines: []
 learn_toc_path:
   - Development
@@ -361,7 +361,7 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #47 Enum Display Order](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/.md) (community post): "Enum display order is determined by code sequence, not ordinal numbers"
+- [BC Friday Tips #47 Enum Display Order](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f.md) (community post): "Enum display order is determined by code sequence, not ordinal numbers"
 - [What's New: AL - Language (2024 release wave 2)](../../../../videos/lofGuQRe1BM.md) (video): "AL language; tables; pages; interfaces; queries; ternary operator"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AL Language (2025 release wave 2). Topics: al language; allowing customizations; mask type; extended data types"
 

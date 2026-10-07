@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ links:
     - video/JI9OpaBx0nk
     - video/Q-oazDEucLE
   posts:
-    - post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/
+    - post/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831
   guidelines: []
 learn_toc_path:
   - Development
@@ -162,7 +162,7 @@ For app-level questions, the FAQ covers what testing is expected, including vers
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
+- [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "deterministic testing; propagated dependencies; application test library"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents; Automated path coverage verification; Approval testing"

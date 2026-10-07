@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: b6d62f2e2cca38f9321e33ef2b01ef6bc078af0983f282cd542bad8fe2d7a060
+  input_hash: ea93dc8aff5de243056fb372e8dee8b5324f6a6b71ff3ff2d560ed267aad0e0b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-at
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -87,7 +87,7 @@ links:
 country: AT
 version: "29"
 w1_version: "29"
-added_objects: 125
+added_objects: 132
 replaced_objects: 47
 removed_objects: 0
 added_fields: 58
@@ -120,7 +120,7 @@ Other additions are physical inventory order tables, place of dispatcher and rec
 - Company Information gains tax office, authorization number, place of dispatcher and receiver fields.
 - Exchange rate adjustment gains a valuation method and period end date, plus fixed asset fields for premium depreciation.
 
-Narrative written by Sonnet from the code diff and 13 Learn page summaries. In numbers: Austria (AT) localization of Business Central in BC29: 125 objects of its own, 47 W1 objects changed (58 fields and 3 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 13 Learn page summaries. In numbers: Austria (AT) localization of Business Central in BC29: 132 objects of its own, 47 W1 objects changed (58 fields and 3 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -128,14 +128,15 @@ Narrative written by Sonnet from the code diff and 13 Learn page summaries. In n
 |---|---|---|---|
 | [Purchases](#purchases) | 9 | 46 | 11 |
 | [Finance](#finance) | 16 | 35 | 12 |
-| [Inventory](#inventory) | 5 | 21 | 5 |
+| [Inventory](#inventory) | 5 | 26 | 5 |
 | [Foundation](#foundation) | 7 | 9 | 27 |
+| [(no namespace)](#no-namespace) | 0 | 6 | 0 |
 | [FixedAssets](#fixedassets) | 4 | 2 | 3 |
-| [(no namespace)](#no-namespace) | 0 | 5 | 0 |
 | [Security](#security) | 2 | 2 | 0 |
 | [CRM](#crm) | 2 | 0 | 0 |
 | [Sales](#sales) | 1 | 1 | 0 |
 | [Bank](#bank) | 0 | 1 | 0 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [Manufacturing](#manufacturing) | 0 | 1 | 0 |
 | [Microsoft](#microsoft) | 0 | 1 | 0 |
 | Upgrade | 1 | 0 | 0 |
@@ -169,7 +170,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-at.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-at.md) (own), [table/313 "Inventory Setup"](../objects/table/313.md), [table/11000 "Place of Dispatcher"](../objects/table/11000-at.md) (own), [table/11001 "Place of Receiver"](../objects/table/11001-at.md) (own), [report/11111 "Crossborder Services"](../objects/report/11111-at.md) (own), [report/11503 "Item ABC Analysis"](../objects/report/11503-at.md) (own), [table/5821 "Item Statistics Buffer"](../objects/table/5821.md).
 
-[All 26 objects of Inventory in the diff](?ns=Inventory#country-diff)
+[All 31 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Foundation
 
@@ -181,6 +182,16 @@ Objects: [table/79 "Company Information"](../objects/table/79.md), [table/26100 
 
 [All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
+### (no namespace)
+
+Holds the Intrastat item list report and the data export setup table. Upgrade and sandbox cleanup codeunits are plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [report/11001 "Intrastat - Item List"](../objects/report/11001-at.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-at.md) (own).
+
+[All 6 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
 ### FixedAssets
 
 Adds Austrian fixed asset list and book value reports, and fields for premium depreciation on Fixed Asset. Adds a procedure in FA General Report.
@@ -190,16 +201,6 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 Objects: [report/11100 "Fixed Assets - List AT"](../objects/report/11100-at.md) (own), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-at.md) (own), [table/5600 "Fixed Asset"](../objects/table/5600.md), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
 
 [All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
-
-### (no namespace)
-
-Holds the Intrastat item list report and the data export setup table. Upgrade and sandbox cleanup codeunits are plumbing.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [report/11001 "Intrastat - Item List"](../objects/report/11001-at.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-at.md) (own).
-
-[All 5 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Security
 
@@ -325,15 +326,18 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 
 ## Objects of its own
 
-125 objects only this country has.
+132 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-at.md)
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-at.md)
+- [codeunit/6914 "Expense Event Subscriber AT"](../objects/codeunit/6914-at.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-at.md)
 - [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-at.md)
 - [codeunit/11004 "Report Sel. Purch. Subscribers"](../objects/codeunit/11004-at.md)
 - [codeunit/11100 "SEPA CT APC-Export File"](../objects/codeunit/11100-at.md)
 - [codeunit/11110 "Update VAT-AT"](../objects/codeunit/11110-at.md)
+- [codeunit/11150 "IntrastatReportManagementAT"](../objects/codeunit/11150-at.md)
+- [codeunit/11161 "IntrastatReportATUpgrade"](../objects/codeunit/11161-at.md)
 - [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md)
 - [codeunit/104100 "Upg Local Functionality"](../objects/codeunit/104100-at.md)
 - [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-at.md)
@@ -374,6 +378,7 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 - [page/5005281 "Delivery Reminder Levels"](../objects/page/5005281-at.md)
 - [page/5005283 "Delivery Reminder Text"](../objects/page/5005283-at.md)
 - [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageextension/11010-at.md)
+- [pageextension/11150 "Intrastat Report Subform AT"](../objects/pageextension/11150-at.md)
 - [pageextension/5005270 "SourceCodeSetupDACH"](../objects/pageextension/5005270-at.md)
 - [pageextension/5005271 "DRVendorTemplCard"](../objects/pageextension/5005271-at.md)
 - [pageextension/5005272 "DRPurchSetup"](../objects/pageextension/5005272-at.md)
@@ -382,6 +387,8 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 - [pageextension/5005275 "DRPurchAgentRoleCenter"](../objects/pageextension/5005275-at.md)
 - [pageextension/5005276 "DRPurchaseOrder"](../objects/pageextension/5005276-at.md)
 - [pageextension/5005277 "DRVendorCard"](../objects/pageextension/5005277-at.md)
+- [permissionset/26001 "PURCHASE-DEL.REMIND."](../objects/permissionset/26001-at.md)
+- [permissionsetextension/11150 "Intrastat AT - Objects"](../objects/permissionsetextension/11150-at.md)
 - [permissionsetextension/5005270 "DR LOCAL"](../objects/permissionsetextension/5005270-at.md)
 - [permissionsetextension/5005271 "DR LOCAL READ"](../objects/permissionsetextension/5005271-at.md)
 - [report/11001 "Intrastat - Item List"](../objects/report/11001-at.md)
@@ -447,6 +454,7 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 - [table/5005361 "Expect. Phys. Inv. Track. Line"](../objects/table/5005361-at.md)
 - [table/5005362 "Post. Exp. Ph. In. Track. Line"](../objects/table/5005362-at.md)
 - [table/5005363 "Phys. Invt. Diff. List Buffer"](../objects/table/5005363-at.md)
+- [tableextension/11150 "Intrastat Report Line AT"](../objects/tableextension/11150-at.md)
 - [tableextension/5005270 "SourceCodeSetupDACH"](../objects/tableextension/5005270-at.md)
 - [tableextension/5005280 "DRVendor"](../objects/tableextension/5005280-at.md)
 - [tableextension/5005281 "DRVendorTempl"](../objects/tableextension/5005281-at.md)

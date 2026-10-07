@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ links:
     - post/aardvarklabs-blog/3837
     - post/demiliani-com/13961
     - post/demiliani-com/14203
-    - post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
+    - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
   guidelines: []
 learn_toc_path:
   - Development
@@ -146,6 +146,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back"
-- [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/.md) (community post): "moving blocking work to the background instead of waiting for user input"
+- [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "moving blocking work to the background instead of waiting for user input"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

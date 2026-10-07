@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,7 @@ links:
     - video/SHOAw9GehdI
     - video/ZpzZ6El8GXY
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
     - post/thedynamicsexplorer-com/9995
     - post/thinkaboutit-be/7503
     - post/thinkaboutit-be/7537
@@ -177,7 +177,7 @@ Start with the overview page, then read the page on sorting, searching and filte
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Analysis Mode killed half the Excel exports on your client's shared drive](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790.md) (community post): "lets users group, filter, and pivot data on Business Central list pages"
+- [Analysis Mode killed half the Excel exports on your client's shared drive](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) (community post): "lets users group, filter, and pivot data on Business Central list pages"
 - [Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”](../../../posts/thedynamicsexplorer-com/9995.md) (community post): "Add fields from related tables in Analysis mode after activating it"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7503.md) (community post): "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7537.md) (community post): "Analysis Mode can replace many traditional reports for data exploration and ad-hoc questions"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.639Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,7 +187,7 @@ links:
   videos:
     - video/tDcT_51ktqo
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273
   guidelines: []
 learn_toc_path:
   - Development
@@ -249,7 +249,7 @@ Two own pages cover storing and handling sensitive values in code: Isolated Stor
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
+- [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

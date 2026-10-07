@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:30.097Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,7 +43,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604
   guidelines: []
 learn_toc_path:
   - Development
@@ -96,6 +96,6 @@ Start with the overview to pick the discovery paths that fit your report. Then u
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #54 Report Explorer](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/.md) (community post): "Report Explorer is a discovery tool in Business Central that helps users browse"
+- [BC Friday Tips #54 Report Explorer](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604.md) (community post): "Report Explorer is a discovery tool in Business Central that helps users browse"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,7 @@ links:
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2866
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
   guidelines: []
 learn_toc_path:
   - Development
@@ -143,6 +143,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "Data is parsed into separate staging tables before creating actual sales orders"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "Process headers first, then lines, using the stored keys to establish parent-child relationships"
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML files in Business Central using AL code without specialized XML codeunits"
-- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236.md) (community post): "export data from Business Central to CSV format using the CSV Buffer"
+- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "export data from Business Central to CSV format using the CSV Buffer"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

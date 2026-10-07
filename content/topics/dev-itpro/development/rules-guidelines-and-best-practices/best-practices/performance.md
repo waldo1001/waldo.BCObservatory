@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,9 +52,9 @@ links:
     - post/demiliani-com/14031
     - post/duiliotacconi-com/1850
     - post/duiliotacconi-com/2149
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951
-    - post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
-    - post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+    - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
+    - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
   guidelines: []
 learn_toc_path:
   - Development
@@ -114,9 +114,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "higher isolation levels bypassing the cache on every read"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "It works best when deleting 50-60% or more of a table's content"
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "SetLoadFields prevents NST caching for partial records, causing repeated SQL queries"
-- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
-- [If You Can't Make It Fast, Make It Feel Fast](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/.md) (community post): "User perception matters as much as actual performance"
-- [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/.md) (community post): "Every added index increases insert or update time by 10-20%"
+- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
+- [If You Can't Make It Fast, Make It Feel Fast](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "User perception matters as much as actual performance"
+- [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "performance optimization; data transfer; set load fields; read isolation"
 - [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "AL code performance; database optimization; sql queries; indexing; caching"

@@ -2,7 +2,7 @@
 id: source/sauravdhyani-com
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 25 posts in the knowledge base, 2025-09-04 to 2026-10-06, mostly about development, administration, platform."
+summary: "Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T09:42:06.385Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 165a0fc56380a77dc8cfeab287a35cae6926f80aae709ea2792f79644ff4e034
+  input_hash: 497263211a0617bf65e20447900470952eda94b05ab2cbdb41616236f539a730
 evidence:
   - kind: blog
     url: https://www.sauravdhyani.com
@@ -58,6 +58,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
   guidelines: []
 source_id: sauravdhyani-com
 kind: blog
@@ -65,15 +66,15 @@ url: https://www.sauravdhyani.com
 author: Saurav Dhyani
 mvp: true
 full_text: false
-item_count: 25
+item_count: 26
 footprint:
   systems:
     - id: development
       weight: 22
     - id: administration
-      weight: 17
+      weight: 18
     - id: platform
-      weight: 14
+      weight: 16
     - id: finance
       weight: 10
     - id: integration
@@ -95,11 +96,11 @@ footprint:
       weight: 2
     - id: configuration
       weight: 2
+    - id: database performance
+      weight: 2
     - id: date formulas
       weight: 2
     - id: general ledger
-      weight: 2
-    - id: performance
       weight: 2
   objects:
     - id: table General Journal Templates
@@ -128,12 +129,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-09-04"
-last_item: "2026-10-06"
+last_item: "2026-10-07"
 ---
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 25 posts in the knowledge base, 2025-09-04 to 2026-10-06, mostly about development, administration, platform.
+> Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, administration, platform.
 
 [https://www.sauravdhyani.com](https://www.sauravdhyani.com) · blog · tier community
 
@@ -142,15 +143,15 @@ last_item: "2026-10-06"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (22) | al development (10) | table General Journal Templates (2) |
-| administration (17) | automation (3) | table General Ledger Setup (2) |
-| platform (14) | business central 2026 (3) | table User Setup (2) |
+| administration (18) | automation (3) | table General Ledger Setup (2) |
+| platform (16) | business central 2026 (3) | table User Setup (2) |
 | finance (10) | extensions (3) | codeunit No. Series (1) |
 | integration (6) | github copilot (3) | codeunit No. Series - Impl. (1) |
 | copilot (5) | bc28 (2) | interface INotification (1) |
 |  | configuration (2) | other app.json (1) |
-|  | date formulas (2) | other copilot-instructions.md (1) |
-|  | general ledger (2) | other File.Download (1) |
-|  | performance (2) | other File.View (1) |
+|  | database performance (2) | other copilot-instructions.md (1) |
+|  | date formulas (2) | other File.Download (1) |
+|  | general ledger (2) | other File.View (1) |
 |  |  | other File.ViewFromStream (1) |
 |  |  | other General Setup (1) |
 
@@ -162,10 +163,11 @@ Items per quarter, oldest first:
 - 2026-Q1: * 1
 - 2026-Q2: ****** 6
 - 2026-Q3: ************ 12
-- 2026-Q4: ***** 5
+- 2026-Q4: ****** 6
 
 ## Most recent
 
+- [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (2026-10-07)
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (2026-10-06)
 - [Preview Images Directly in the Business Central Web Client](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738.md) (2026-10-05)
 - [New ModuleInfo Properties in Business Central 29](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md) (2026-10-02)
@@ -185,6 +187,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md) (2026-07-07)
 - [How User and AI Agent Avatars Improve Record Ownership in Business Central BC 28](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5.md) (2026-06-25)
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (2026-06-08)
-- [Automating Posting Periods in Business Central with Date Formulas](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) (2026-06-03)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

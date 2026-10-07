@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: f33f3de5514cc26fd6575d57a6e4e47099f2673e64c224f01acd09aa3424b5e5
+  input_hash: 7937ab81beb58d66668ef3db0fedba12c5d9b7e7826d1d99007049304c01e649
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-us
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -187,7 +187,7 @@ links:
 country: US
 version: "29"
 w1_version: "29"
-added_objects: 495
+added_objects: 824
 replaced_objects: 147
 removed_objects: 0
 added_fields: 526
@@ -220,28 +220,43 @@ The layer also holds many North American reports and a large set of Mexican obje
 - Mexican CFDI e-invoicing: SAT catalogs, PAC web services, stamp and cancel procedures on sales documents.
 - About 175 own reports for sales, purchasing, inventory, projects and resources, plus statistics pages.
 
-Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedStates (US) localization of Business Central in BC29: 495 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedStates (US) localization of Business Central in BC29: 824 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
+| [Finance](#finance) | 28 | 273 | 84 |
 | [eServices](#eservices) | 0 | 124 | 0 |
+| [Bank](#bank) | 14 | 108 | 22 |
 | [Sales](#sales) | 35 | 74 | 237 |
-| [Finance](#finance) | 28 | 73 | 84 |
-| [Bank](#bank) | 14 | 80 | 22 |
-| [Purchases](#purchases) | 24 | 35 | 66 |
+| [Purchases](#purchases) | 24 | 44 | 66 |
 | [Inventory](#inventory) | 10 | 31 | 75 |
 | [Service](#service) | 8 | 31 | 0 |
+| DataMigration | 0 | 33 | 0 |
+| Integration | 0 | 23 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 22 | 0 |
+| [Foundation](#foundation) | 10 | 8 | 26 |
 | [Projects](#projects) | 2 | 15 | 4 |
-| [Foundation](#foundation) | 10 | 6 | 26 |
-| [(no namespace)](#no-namespace) | 0 | 15 | 0 |
+| Payroll | 0 | 14 | 0 |
+| [Security](#security) | 4 | 7 | 0 |
 | [Utilities](#utilities) | 6 | 5 | 0 |
+| Peppol | 0 | 5 | 0 |
 | [IO](#io) | 4 | 0 | 1 |
 | [Microsoft](#microsoft) | 0 | 4 | 0 |
-| [Security](#security) | 4 | 0 | 0 |
 | [HumanResources](#humanresources) | 1 | 2 | 2 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [FixedAssets](#fixedassets) | 1 | 0 | 9 |
+
+### Finance
+
+Extends Sales Tax Calculate with external tax engine calls and events. Adds tax fields on journal lines, G/L accounts, VAT entries and tax setup tables, plus a Sales Tax Journal and GIFI codes. Includes IRS 1099 and EFT fields on general journal lines.
+
+Why: Learn describes basic tax setup, sales tax, use tax and unrealized sales tax as the US tax configuration.
+
+Objects: [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/318 "Tax Area"](../objects/table/318.md), [table/320 "Tax Jurisdiction"](../objects/table/320.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-us.md) (own), [page/10101 "Sales Tax Journal"](../objects/page/10101-us.md) (own).
+
+[All 301 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### eServices
 
@@ -253,6 +268,16 @@ Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-us.md) (own
 
 [All 124 objects of eServices in the diff](?ns=eServices#country-diff)
 
+### Bank
+
+Adds EFT and payment export codeunits (ACH, RB, Cecoban, IAT), bank reconciliation worksheets and posted reconciliations, deposits, and check printing helpers. Extends Bank Account with e-pay and export format fields.
+
+Why: Learn covers deposit creation and bank reconciliation, and notes that deprecated North American reconciliation features moved to the standard version in 2023 release wave 2.
+
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-us.md) (own), [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-us.md) (own), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-us.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-us.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-us.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
+
+[All 122 objects of Bank in the diff](?ns=Bank#country-diff)
+
 ### Sales
 
 Adds sales tax handling to sales documents and posting, with new events in Sales-Post and fields on headers, lines and customers. It also carries CFDI stamping fields and procedures on posted documents, UPS zone, tax exemption and retention fields, and US sales report totals.
@@ -263,26 +288,6 @@ Objects: [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/36 "Sales
 
 [All 109 objects of Sales in the diff](?ns=Sales#country-diff)
 
-### Finance
-
-Extends Sales Tax Calculate with external tax engine calls and events. Adds tax fields on journal lines, G/L accounts, VAT entries and tax setup tables, plus a Sales Tax Journal and GIFI codes. Includes IRS 1099 and EFT fields on general journal lines.
-
-Why: Learn describes basic tax setup, sales tax, use tax and unrealized sales tax as the US tax configuration.
-
-Objects: [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/318 "Tax Area"](../objects/table/318.md), [table/320 "Tax Jurisdiction"](../objects/table/320.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-us.md) (own), [page/10101 "Sales Tax Journal"](../objects/page/10101-us.md) (own).
-
-[All 101 objects of Finance in the diff](?ns=Finance#country-diff)
-
-### Bank
-
-Adds EFT and payment export codeunits (ACH, RB, Cecoban, IAT), bank reconciliation worksheets and posted reconciliations, deposits, and check printing helpers. Extends Bank Account with e-pay and export format fields.
-
-Why: Learn covers deposit creation and bank reconciliation, and notes that deprecated North American reconciliation features moved to the standard version in 2023 release wave 2.
-
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-us.md) (own), [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-us.md) (own), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-us.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-us.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-us.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
-
-[All 94 objects of Bank in the diff](?ns=Bank#country-diff)
-
 ### Purchases
 
 Adds sales and use tax, provincial tax and IRS 1099 fields to purchase documents, vendors and posted purchase headers. Adds events and procedures in Purch.-Post and prepayment posting, vendor reports and purchase statistics pages.
@@ -291,7 +296,7 @@ Why: Learn documents IRS 1099 tracking on purchase documents and use tax and pur
 
 Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [report/10085 "Aged Accounts Payable NA"](../objects/report/10085-us.md) (own).
 
-[All 59 objects of Purchases in the diff](?ns=Purchases#country-diff)
+[All 68 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Inventory
 
@@ -313,6 +318,26 @@ Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [co
 
 [All 39 objects of Service in the diff](?ns=Service#country-diff)
 
+### (no namespace)
+
+Holds upgrade codeunits for CFDI, EFT, sales tax and VAT setup, the CFDI Subject to Tax table, XMLport and page, the Bank Reconciliation report, and profiles for HR and credit roles.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-us.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-us.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-us.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-us.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-us.md) (own).
+
+[All 22 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Foundation
+
+Extends Company Information with US, Canadian and Mexican tax identifiers, and Unit of Measure, Payment Terms and Country/Region with SAT codes. Adds Source Code Setup entries for deposits and bank rec adjustments, plus extra No. Series Line fields.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/204 "Unit of Measure"](../objects/table/204.md), [page/344 "Navigate"](../objects/page/344.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md).
+
+[All 18 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
 ### Projects
 
 Adds job and resource reports (actual to budget, cost breakdown, job list and register, resource usage) and budget fields on the Job Difference Buffer.
@@ -323,25 +348,15 @@ Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report
 
 [All 17 objects of Projects in the diff](?ns=Projects#country-diff)
 
-### Foundation
+### Security
 
-Extends Company Information with US, Canadian and Mexican tax identifiers, and Unit of Measure, Payment Terms and Country/Region with SAT codes. Adds Source Code Setup entries for deposits and bank rec adjustments, plus extra No. Series Line fields.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/204 "Unit of Measure"](../objects/table/204.md), [page/344 "Navigate"](../objects/page/344.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md).
-
-[All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
-
-### (no namespace)
-
-Holds upgrade codeunits for CFDI, EFT, sales tax and VAT setup, the CFDI Subject to Tax table, XMLport and page, the Bank Reconciliation report, and profiles for HR and credit roles.
+Changes the LOCAL and LOCAL READ permission sets and the Payables Journals Post and Edit sets.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-us.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-us.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-us.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-us.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-us.md) (own).
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
 
-[All 15 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+[All 11 objects of Security in the diff](?ns=Security#country-diff)
 
 ### Utilities
 
@@ -372,16 +387,6 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 Objects: [table/10240 "B10 Adjustment"](../objects/table/10240-us.md) (own), [page/10240 "B10 Adjustments"](../objects/page/10240-us.md) (own), [report/14022 "Declaration 347 Labels"](../objects/report/14022-us.md) (own), [report/14023 "Declaration 349 Labels"](../objects/report/14023-us.md) (own).
 
 [All 4 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
-
-### Security
-
-Changes the LOCAL and LOCAL READ permission sets and the Payables Journals Post and Edit sets.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
-
-[All 4 objects of Security in the diff](?ns=Security#country-diff)
 
 ### HumanResources
 
@@ -557,18 +562,59 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Objects of its own
 
-495 objects only this country has.
+824 objects only this country has.
 
 - [codeunit/400 "ExternalTaxEngineDefault"](../objects/codeunit/400-us.md)
+- [codeunit/1267 "Password Helper"](../objects/codeunit/1267-us.md)
+- [codeunit/1450 "MS - Yodlee Service Mgt."](../objects/codeunit/1450-us.md)
+- [codeunit/1451 "MS - Yodlee Import Bank Feed"](../objects/codeunit/1451-us.md)
+- [codeunit/1452 "MS - Yodlee Service Upgrade"](../objects/codeunit/1452-us.md)
+- [codeunit/1453 "MS - Yodlee Account Cleanup"](../objects/codeunit/1453-us.md)
+- [codeunit/1454 "Yodlee Install"](../objects/codeunit/1454-us.md)
+- [codeunit/1458 "Yodlee API Strings"](../objects/codeunit/1458-us.md)
+- [codeunit/1666 "MS Ceridian Payroll import"](../objects/codeunit/1666-us.md)
+- [codeunit/1667 "Ceridian Install"](../objects/codeunit/1667-us.md)
+- [codeunit/1668 "MS Ceridian Payroll Mgt."](../objects/codeunit/1668-us.md)
 - [codeunit/5968 "Serv. Sales Tax Calculate"](../objects/codeunit/5968-us.md)
+- [codeunit/6913 "Expense Event Subscriber US"](../objects/codeunit/6913-us.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-us.md)
 - [codeunit/10001 "Shipment Line - Edit"](../objects/codeunit/10001-us.md)
 - [codeunit/10011 "Ship-Post (Yes/No)"](../objects/codeunit/10011-us.md)
 - [codeunit/10012 "Ship-Post + Print"](../objects/codeunit/10012-us.md)
+- [codeunit/10016 "IRS 1096 Form Mgt."](../objects/codeunit/10016-us.md)
+- [codeunit/10017 "IRS 1096 Installation"](../objects/codeunit/10017-us.md)
 - [codeunit/10021 "Invoice-Post (Yes/No)"](../objects/codeunit/10021-us.md)
 - [codeunit/10022 "Invoice-Post + Print"](../objects/codeunit/10022-us.md)
 - [codeunit/10025 "Paragraph Handling"](../objects/codeunit/10025-us.md)
+- [codeunit/10030 "IRS Forms Install"](../objects/codeunit/10030-us.md)
+- [codeunit/10031 "IRS 1099 Form Document"](../objects/codeunit/10031-us.md)
+- [codeunit/10032 "IRS 1099 BaseApp Subscribers"](../objects/codeunit/10032-us.md)
+- [codeunit/10033 "Generate Xml File IRIS"](../objects/codeunit/10033-us.md)
+- [codeunit/10034 "IRS Forms Orchestrator"](../objects/codeunit/10034-us.md)
+- [codeunit/10035 "Helper IRIS"](../objects/codeunit/10035-us.md)
+- [codeunit/10036 "IRS 1099 Form Docs Impl."](../objects/codeunit/10036-us.md)
+- [codeunit/10037 "IRS 1099 Vendor Form Box"](../objects/codeunit/10037-us.md)
+- [codeunit/10039 "IRS Forms Data"](../objects/codeunit/10039-us.md)
+- [codeunit/10041 "IRS 1099 Form Box Calc. Impl."](../objects/codeunit/10041-us.md)
+- [codeunit/10042 "IRS Reporting Period"](../objects/codeunit/10042-us.md)
+- [codeunit/10043 "IRS Forms External Events"](../objects/codeunit/10043-us.md)
+- [codeunit/10044 "Data Check IRIS"](../objects/codeunit/10044-us.md)
+- [codeunit/10045 "IRS 1099 IRIS Impl."](../objects/codeunit/10045-us.md)
+- [codeunit/10046 "OAuth Client IRIS"](../objects/codeunit/10046-us.md)
+- [codeunit/10047 "Process Response IRIS"](../objects/codeunit/10047-us.md)
+- [codeunit/10048 "Helper FIRE"](../objects/codeunit/10048-us.md)
+- [codeunit/10049 "IRS 1099 Printing Impl."](../objects/codeunit/10049-us.md)
+- [codeunit/10050 "IRS 1099 Vendor Email"](../objects/codeunit/10050-us.md)
+- [codeunit/10051 "IRS 1099 Send Email"](../objects/codeunit/10051-us.md)
+- [codeunit/10052 "IRS 1099 Process Email Queue"](../objects/codeunit/10052-us.md)
+- [codeunit/10054 "IRS Forms Facade"](../objects/codeunit/10054-us.md)
+- [codeunit/10055 "IRS 1099 Dataset"](../objects/codeunit/10055-us.md)
+- [codeunit/10056 "Process Transmission IRIS"](../objects/codeunit/10056-us.md)
+- [codeunit/10057 "Key Vault Client IRIS"](../objects/codeunit/10057-us.md)
+- [codeunit/10058 "IRS 1099 Upgrade"](../objects/codeunit/10058-us.md)
 - [codeunit/10059 "Serv. Event Subscribers NA"](../objects/codeunit/10059-us.md)
+- [codeunit/10060 "Generate Xml File IRIS Events"](../objects/codeunit/10060-us.md)
+- [codeunit/10061 "Process Trans. IRIS Events"](../objects/codeunit/10061-us.md)
 - [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-us.md)
 - [codeunit/10091 "Export Payments (RB)"](../objects/codeunit/10091-us.md)
 - [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-us.md)
@@ -594,6 +640,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/10150 "O365 Tax Settings Management"](../objects/codeunit/10150-us.md)
 - [codeunit/10151 "E-Invoice Cancel Request Batch"](../objects/codeunit/10151-us.md)
 - [codeunit/10152 "Serv.EInv.Cancel Request Batch"](../objects/codeunit/10152-us.md)
+- [codeunit/10154 "Bank Recon. - Test Subscribers"](../objects/codeunit/10154-us.md)
 - [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-us.md)
 - [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-us.md)
 - [codeunit/10200 "EFT Recipient Bank Account Mgt"](../objects/codeunit/10200-us.md)
@@ -627,11 +674,36 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-us.md)
 - [codeunit/27001 "Export Accounts Xml Helper"](../objects/codeunit/27001-us.md)
 - [codeunit/27006 "Service E-Invoice Mgt."](../objects/codeunit/27006-us.md)
+- [codeunit/27020 "DIOT - Initialize"](../objects/codeunit/27020-us.md)
+- [codeunit/27021 "DIOT Data Management"](../objects/codeunit/27021-us.md)
+- [codeunit/27022 "DIOT Subscribers"](../objects/codeunit/27022-us.md)
 - [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-us.md)
 - [codeunit/27031 "Update SAT Payment Catalogs"](../objects/codeunit/27031-us.md)
 - [codeunit/27032 "Update CFDI Fields Sales Doc"](../objects/codeunit/27032-us.md)
+- [codeunit/27033 "Upgrade DIOT"](../objects/codeunit/27033-us.md)
 - [codeunit/27090 "Serv. Export Accounts"](../objects/codeunit/27090-us.md)
 - [codeunit/27091 "Update CFDI Fields Serv. Doc"](../objects/codeunit/27091-us.md)
+- [codeunit/30470 "Shpfy TMA Register"](../objects/codeunit/30470-us.md)
+- [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-us.md)
+- [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-us.md)
+- [codeunit/30473 "Shpfy TMA Events"](../objects/codeunit/30473-us.md)
+- [codeunit/30474 "Shpfy Tax Match Function"](../objects/codeunit/30474-us.md)
+- [codeunit/30475 "Shpfy TMA Install"](../objects/codeunit/30475-us.md)
+- [codeunit/30476 "Shpfy TMA Notify"](../objects/codeunit/30476-us.md)
+- [codeunit/30477 "Shpfy TMA Activity Log"](../objects/codeunit/30477-us.md)
+- [codeunit/30478 "Shpfy TMA Upgrade"](../objects/codeunit/30478-us.md)
+- [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-us.md)
+- [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-us.md)
+- [codeunit/37352 "PEPPOL30 NA Upgrade"](../objects/codeunit/37352-us.md)
+- [codeunit/37353 "PEPPOL30 NA Subscribers"](../objects/codeunit/37353-us.md)
+- [codeunit/42002 "GP Vendor 1099 Mapping Helpers"](../objects/codeunit/42002-us.md)
+- [codeunit/42003 "GP Populate Vendor 1099 Data"](../objects/codeunit/42003-us.md)
+- [codeunit/42004 "GP Cloud Migration US"](../objects/codeunit/42004-us.md)
+- [codeunit/42005 "GP IRS Form Data"](../objects/codeunit/42005-us.md)
+- [codeunit/42006 "GP IRS1099 Migration Validator"](../objects/codeunit/42006-us.md)
+- [codeunit/47201 "SL Populate Vendor 1099 Data"](../objects/codeunit/47201-us.md)
+- [codeunit/47202 "SL Vendor 1099 Mapping Helpers"](../objects/codeunit/47202-us.md)
+- [codeunit/47203 "SL Cloud Migration US"](../objects/codeunit/47203-us.md)
 - [codeunit/104151 "UPG. MX CFDI"](../objects/codeunit/104151-us.md)
 - [codeunit/104152 "UPG. Data Exchange Definition"](../objects/codeunit/104152-us.md)
 - [codeunit/104153 "Upgrade - EFT"](../objects/codeunit/104153-us.md)
@@ -641,9 +713,43 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [enum/398 "Sales Tax Country"](../objects/enum/398-us.md)
 - [enum/399 "External Tax Engine"](../objects/enum/399-us.md)
 - [enum/10012 "Sales Tax Document Area"](../objects/enum/10012-us.md)
+- [enum/10016 "IRS 1096 Form Status"](../objects/enum/10016-us.md)
 - [enum/10025 "GST HST Tax Type"](../objects/enum/10025-us.md)
+- [enum/10030 "IRS 1099 Form Doc. Status"](../objects/enum/10030-us.md)
+- [enum/10031 "IRS Forms Implementation"](../objects/enum/10031-us.md)
+- [enum/10032 "IRS 1099 Print Value Type"](../objects/enum/10032-us.md)
+- [enum/10033 "IRS 1099 Form Report Type"](../objects/enum/10033-us.md)
+- [enum/10034 "IRS 1099 Email Report Type"](../objects/enum/10034-us.md)
+- [enum/10035 "IRS 1099 Form Box Buffer Type"](../objects/enum/10035-us.md)
+- [enum/10036 "IRS 1099 Protect TIN Type"](../objects/enum/10036-us.md)
+- [enum/10037 "Transmission Type IRIS"](../objects/enum/10037-us.md)
+- [enum/10038 "Address Type IRIS"](../objects/enum/10038-us.md)
+- [enum/10039 "State Type IRIS"](../objects/enum/10039-us.md)
+- [enum/10040 "Form Type IRIS"](../objects/enum/10040-us.md)
+- [enum/10041 "Transmission Status IRIS"](../objects/enum/10041-us.md)
+- [enum/10042 "IRS 1099 Form Doc. Line Action"](../objects/enum/10042-us.md)
+- [enum/10043 "Entity Type IRIS"](../objects/enum/10043-us.md)
+- [enum/10044 "Search Param Type IRIS"](../objects/enum/10044-us.md)
+- [enum/27030 "DIOT Type of Operation"](../objects/enum/27030-us.md)
+- [enum/30471 "Shpfy Tax Match Review Mode"](../objects/enum/30471-us.md)
+- [enumextension/30470 "Shpfy TMA Cap."](../objects/enumextension/30470-us.md)
+- [enumextension/37350 "PEPPOL 3.0 Format NA"](../objects/enumextension/37350-us.md)
 - [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-us.md)
 - [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-us.md)
+- [interface/irs 1099 create form docs "IRS 1099 Create Form Docs"](../objects/interface/irs-1099-create-form-docs-us.md)
+- [interface/irs 1099 form box calc. "IRS 1099 Form Box Calc."](../objects/interface/irs-1099-form-box-calc-us.md)
+- [interface/irs 1099 iris configuration "IRS 1099 IRIS Configuration"](../objects/interface/irs-1099-iris-configuration-us.md)
+- [interface/irs 1099 iris transmission "IRS 1099 IRIS Transmission"](../objects/interface/irs-1099-iris-transmission-us.md)
+- [interface/irs 1099 iris xml "IRS 1099 IRIS Xml"](../objects/interface/irs-1099-iris-xml-us.md)
+- [interface/irs 1099 printing "IRS 1099 Printing"](../objects/interface/irs-1099-printing-us.md)
+- [page/1450 "MS - Yodlee Bank Service Setup"](../objects/page/1450-us.md)
+- [page/1451 "MS - Yodlee Account Linking"](../objects/page/1451-us.md)
+- [page/1452 "MS - Yodlee Get Latest Stmt"](../objects/page/1452-us.md)
+- [page/1453 "MS - Yodlee NonLinked Accounts"](../objects/page/1453-us.md)
+- [page/1454 "MS - Yodlee Terms of use"](../objects/page/1454-us.md)
+- [page/1458 "MS - Yodlee Access Consent"](../objects/page/1458-us.md)
+- [page/1460 "MS - Yodlee Edit Account"](../objects/page/1460-us.md)
+- [page/1665 "MS - Ceridian Payroll Setup"](../objects/page/1665-us.md)
 - [page/10000 "Import Budget Information"](../objects/page/10000-us.md)
 - [page/10007 "Customer Credit Information"](../objects/page/10007-us.md)
 - [page/10009 "Customer Order Header Status"](../objects/page/10009-us.md)
@@ -652,11 +758,23 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/10012 "Customer Order Lines Part"](../objects/page/10012-us.md)
 - [page/10013 "Vendor Locations"](../objects/page/10013-us.md)
 - [page/10017 "GIFI Codes"](../objects/page/10017-us.md)
+- [page/10019 "IRS 1096 Forms"](../objects/page/10019-us.md)
+- [page/10020 "IRS 1096 Form Subform"](../objects/page/10020-us.md)
+- [page/10021 "IRS 1096 Form"](../objects/page/10021-us.md)
+- [page/10022 "IRS 1096 Setup Wizard"](../objects/page/10022-us.md)
 - [page/10025 "Customer Order Status"](../objects/page/10025-us.md)
 - [page/10026 "Sales Order Shipment"](../objects/page/10026-us.md)
 - [page/10027 "Sales Order Shipment Subform"](../objects/page/10027-us.md)
 - [page/10028 "Sales Order Invoice"](../objects/page/10028-us.md)
 - [page/10029 "Sales Order Invoice Subform"](../objects/page/10029-us.md)
+- [page/10030 "IRS Forms Setup"](../objects/page/10030-us.md)
+- [page/10031 "IRS Reporting Periods"](../objects/page/10031-us.md)
+- [page/10032 "IRS Forms Guide"](../objects/page/10032-us.md)
+- [page/10033 "IRS 1099 Forms"](../objects/page/10033-us.md)
+- [page/10034 "IRS 1099 Form Boxes"](../objects/page/10034-us.md)
+- [page/10035 "IRS 1099 Vendor Form Box Setup"](../objects/page/10035-us.md)
+- [page/10036 "IRS 1099 Form Documents"](../objects/page/10036-us.md)
+- [page/10037 "IRS 1099 Form Document"](../objects/page/10037-us.md)
 - [page/10038 "Sales Order Stats."](../objects/page/10038-us.md)
 - [page/10039 "Purchase Order Stats."](../objects/page/10039-us.md)
 - [page/10040 "Sales Tax Lines Subform"](../objects/page/10040-us.md)
@@ -666,11 +784,32 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/10044 "Sales Credit Memo Stats."](../objects/page/10044-us.md)
 - [page/10045 "Purchase Invoice Stats."](../objects/page/10045-us.md)
 - [page/10046 "Purch. Credit Memo Stats."](../objects/page/10046-us.md)
+- [page/10047 "IRS 1099 Form Doc. Subform"](../objects/page/10047-us.md)
+- [page/10048 "IRS 1099 Form Reports"](../objects/page/10048-us.md)
+- [page/10049 "IRS 1099 Form Doc Line Details"](../objects/page/10049-us.md)
+- [page/10050 "IRS 1099 Form Instructions"](../objects/page/10050-us.md)
+- [page/10051 "IRS 1099 Form Statement"](../objects/page/10051-us.md)
 - [page/10052 "Service Order Stats."](../objects/page/10052-us.md)
 - [page/10053 "Service Stats."](../objects/page/10053-us.md)
+- [page/10054 "IRS 1099 Vend. Form Box Adjmts"](../objects/page/10054-us.md)
+- [page/10055 "IRS 1099 Email Content Setup"](../objects/page/10055-us.md)
 - [page/10056 "Service Invoice Stats."](../objects/page/10056-us.md)
 - [page/10057 "Service Credit Memo Stats."](../objects/page/10057-us.md)
+- [page/10058 "Transmission IRIS"](../objects/page/10058-us.md)
+- [page/10059 "Transmission IRIS Subform"](../objects/page/10059-us.md)
 - [page/10060 "Sales Tax Lines Serv. Subform"](../objects/page/10060-us.md)
+- [page/10061 "Transmissions IRIS"](../objects/page/10061-us.md)
+- [page/10062 "IRS 1099 Documents API"](../objects/page/10062-us.md)
+- [page/10063 "IRS 1099 Doc. Line API"](../objects/page/10063-us.md)
+- [page/10064 "IRS 1099 Form Reports API"](../objects/page/10064-us.md)
+- [page/10065 "Transmission Logs IRIS"](../objects/page/10065-us.md)
+- [page/10066 "Transmission IRIS Update"](../objects/page/10066-us.md)
+- [page/10067 "IRS 1099 Form Doc. Update"](../objects/page/10067-us.md)
+- [page/10068 "Setup IRIS User ID"](../objects/page/10068-us.md)
+- [page/10069 "Transmission Log Lines IRIS"](../objects/page/10069-us.md)
+- [page/10070 "Error Information IRIS"](../objects/page/10070-us.md)
+- [page/10071 "IRS Forms Company Selector"](../objects/page/10071-us.md)
+- [page/10072 "IRS 1099 Vendor Overview"](../objects/page/10072-us.md)
 - [page/10100 "Account Identifiers"](../objects/page/10100-us.md)
 - [page/10101 "Sales Tax Journal"](../objects/page/10101-us.md)
 - [page/10125 "Posted Bank Rec. Worksheet"](../objects/page/10125-us.md)
@@ -730,6 +869,11 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/27027 "SAT Municipalities"](../objects/page/27027-us.md)
 - [page/27028 "SAT Localities"](../objects/page/27028-us.md)
 - [page/27029 "SAT Suburb List"](../objects/page/27029-us.md)
+- [page/27030 "DIOT Concepts"](../objects/page/27030-us.md)
+- [page/27031 "DIOT Concept Links"](../objects/page/27031-us.md)
+- [page/27032 "DIOT Setup Wizard"](../objects/page/27032-us.md)
+- [page/27033 "DIOT Country/Region Data"](../objects/page/27033-us.md)
+- [page/27034 "Setup Vendor DIOT Type"](../objects/page/27034-us.md)
 - [page/27038 "SAT Transfer Reasons"](../objects/page/27038-us.md)
 - [page/27039 "SAT Material Types"](../objects/page/27039-us.md)
 - [page/27040 "SAT Classifications"](../objects/page/27040-us.md)
@@ -741,6 +885,8 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/27046 "SAT Custom Units"](../objects/page/27046-us.md)
 - [page/27047 "SAT Customs Regimes"](../objects/page/27047-us.md)
 - [page/27048 "SAT Customs Document Types"](../objects/page/27048-us.md)
+- [page/30471 "Shpfy TMA Review"](../objects/page/30471-us.md)
+- [page/30479 "Shpfy TMA Order Tax Lines Part"](../objects/page/30479-us.md)
 - [page/36600 "Human Resources Role Center"](../objects/page/36600-us.md)
 - [page/36601 "Payroll Role Center"](../objects/page/36601-us.md)
 - [page/36603 "Credit & Collections Mgr. RC"](../objects/page/36603-us.md)
@@ -755,6 +901,9 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [page/36641 "Order Lines Status Factbox"](../objects/page/36641-us.md)
 - [page/36642 "Customer Credit FactBox"](../objects/page/36642-us.md)
 - [page/36740 "Sales Tax Lines Subform Dyn"](../objects/page/36740-us.md)
+- [page/41000 "GP 1099 Migration Log"](../objects/page/41000-us.md)
+- [page/41100 "GP 1099 Migration Log Factbox"](../objects/page/41100-us.md)
+- [page/47200 "SL 1099 Migration Log List"](../objects/page/47200-us.md)
 - [pageextension/10002 "SourceCodeSetupNA"](../objects/pageextension/10002-us.md)
 - [pageextension/10011 "Service Order Archive NA"](../objects/pageextension/10011-us.md)
 - [pageextension/10012 "Posted Service Credit Memo NA"](../objects/pageextension/10012-us.md)
@@ -762,6 +911,8 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [pageextension/10014 "Posted Service Invoice NA"](../objects/pageextension/10014-us.md)
 - [pageextension/10015 "Posted Service Invoices NA"](../objects/pageextension/10015-us.md)
 - [pageextension/10016 "Posted Service Inv.Update NA"](../objects/pageextension/10016-us.md)
+- [pageextension/10017 "IRS 1096 Purch. Setup"](../objects/pageextension/10017-us.md)
+- [pageextension/10018 "IRS 1096 Company Information"](../objects/pageextension/10018-us.md)
 - [pageextension/10020 "Service Credit Memo NA"](../objects/pageextension/10020-us.md)
 - [pageextension/10021 "Service Credit Memos NA"](../objects/pageextension/10021-us.md)
 - [pageextension/10022 "Service Invoice NA"](../objects/pageextension/10022-us.md)
@@ -772,6 +923,104 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [pageextension/10027 "Service Quotes NA"](../objects/pageextension/10027-us.md)
 - [pageextension/10028 "Service Invoice Subform NA"](../objects/pageextension/10028-us.md)
 - [pageextension/10029 "ReservationWkshFactBoxNA"](../objects/pageextension/10029-us.md)
+- [pageextension/10048 "IRS 1099 Vendor Ledger Entries"](../objects/pageextension/10048-us.md)
+- [pageextension/10050 "IRS 1099 Vendor List"](../objects/pageextension/10050-us.md)
+- [pageextension/10052 "IRS 1099 Purch. Inv."](../objects/pageextension/10052-us.md)
+- [pageextension/10053 "IRS 1099 Vendor Card"](../objects/pageextension/10053-us.md)
+- [pageextension/10055 "IRS 1099 Posted Purch. Inv."](../objects/pageextension/10055-us.md)
+- [pageextension/10058 "IRS 1099 Purch. Order"](../objects/pageextension/10058-us.md)
+- [pageextension/10059 "IRS 1099 Purch. Cr. Memo"](../objects/pageextension/10059-us.md)
+- [pageextension/10061 "IRS 1099 Posted Purch. Cr.Memo"](../objects/pageextension/10061-us.md)
+- [pageextension/10062 "IRS 1099 Purchase Journal"](../objects/pageextension/10062-us.md)
+- [pageextension/10063 "IRS 1099 General Journal"](../objects/pageextension/10063-us.md)
+- [pageextension/10064 "IRS 1099 Purch. Order Subform"](../objects/pageextension/10064-us.md)
+- [pageextension/10065 "IRS 1099 Purch. Inv. Subform"](../objects/pageextension/10065-us.md)
+- [pageextension/10066 "IRS 1099 Purch. Cr.Memo Sub."](../objects/pageextension/10066-us.md)
+- [pageextension/10067 "IRS 1099 Pstd. Purch.Inv. Sub."](../objects/pageextension/10067-us.md)
+- [pageextension/10068 "IRS 1099 Pstd. P. CrMemo Sub."](../objects/pageextension/10068-us.md)
+- [pageextension/10069 "IRS 1099 Purch. Ret.Order Sub."](../objects/pageextension/10069-us.md)
+- [pageextension/27030 "DIOT Purch. & Payables Setup"](../objects/pageextension/27030-us.md)
+- [pageextension/27031 "DIOT Vendor Card"](../objects/pageextension/27031-us.md)
+- [pageextension/27032 "DIOT General Journal"](../objects/pageextension/27032-us.md)
+- [pageextension/27033 "DIOT Purchase Invoice"](../objects/pageextension/27033-us.md)
+- [pageextension/27035 "DIOT Purchase Journal"](../objects/pageextension/27035-us.md)
+- [pageextension/27036 "DIOT Payment Journal"](../objects/pageextension/27036-us.md)
+- [pageextension/27037 "DIOT VAT Entries"](../objects/pageextension/27037-us.md)
+- [pageextension/27038 "DIOT VAT Posting Setup"](../objects/pageextension/27038-us.md)
+- [pageextension/30470 "Shpfy TMA Shop Card"](../objects/pageextension/30470-us.md)
+- [pageextension/30476 "Shpfy TMA Sales Order"](../objects/pageextension/30476-us.md)
+- [pageextension/30478 "Shpfy TMA Order Tax Lines"](../objects/pageextension/30478-us.md)
+- [pageextension/30479 "Shpfy TMA Order"](../objects/pageextension/30479-us.md)
+- [pageextension/41101 "Intelligent Cloud Ext."](../objects/pageextension/41101-us.md)
+- [pageextension/41102 "GP Company Add. Sett. List Ext"](../objects/pageextension/41102-us.md)
+- [pageextension/41103 "GP Migration Configuration Ext"](../objects/pageextension/41103-us.md)
+- [pageextension/41104 "GP Company Mig. Settings Ext"](../objects/pageextension/41104-us.md)
+- [pageextension/41105 "GP Upgrade Settings Ext"](../objects/pageextension/41105-us.md)
+- [pageextension/47200 "SL Migration Configuration Ext"](../objects/pageextension/47200-us.md)
+- [pageextension/47201 "SL Company Add. Sett. List Ext"](../objects/pageextension/47201-us.md)
+- [permissionset/4713 "HybridGPUS - Objects"](../objects/permissionset/4713-us.md)
+- [permissionset/4714 "HybridGPUS - Edit"](../objects/permissionset/4714-us.md)
+- [permissionset/4715 "HybridGPUS - Read"](../objects/permissionset/4715-us.md)
+- [permissionset/10020 "IRS 1096 - Edit"](../objects/permissionset/10020-us.md)
+- [permissionset/10021 "IRS 1096 - Read"](../objects/permissionset/10021-us.md)
+- [permissionset/10024 "IRS 1096 Objects"](../objects/permissionset/10024-us.md)
+- [permissionset/10030 "IRS Forms - Read"](../objects/permissionset/10030-us.md)
+- [permissionset/10031 "IRS Forms - Edit"](../objects/permissionset/10031-us.md)
+- [permissionset/10032 "IRS Forms - Objects"](../objects/permissionset/10032-us.md)
+- [permissionset/27000 "BANKDEC-EDIT"](../objects/permissionset/27000-us.md)
+- [permissionset/27001 "BANKDEPOSIT-EDIT"](../objects/permissionset/27001-us.md)
+- [permissionset/27002 "BANKDEPOSIT-POST"](../objects/permissionset/27002-us.md)
+- [permissionset/27003 "BANKDEPOSIT-POSTED"](../objects/permissionset/27003-us.md)
+- [permissionset/27004 "BANKREC-POST"](../objects/permissionset/27004-us.md)
+- [permissionset/27005 "BANKREC-POSTED"](../objects/permissionset/27005-us.md)
+- [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-us.md)
+- [permissionset/47200 "SL Migration US - Edit"](../objects/permissionset/47200-us.md)
+- [permissionset/47201 "SL Migration US - Read"](../objects/permissionset/47201-us.md)
+- [permissionset/47202 "SL Migration US - Objects"](../objects/permissionset/47202-us.md)
+- [permissionsetextension/4710 "D365 Basic Ext. - HGPUS"](../objects/permissionsetextension/4710-us.md)
+- [permissionsetextension/4711 "D365 BASIC ISV - HGPUS"](../objects/permissionsetextension/4711-us.md)
+- [permissionsetextension/4712 "D365 TEAM MEMBER - HGPUS"](../objects/permissionsetextension/4712-us.md)
+- [permissionsetextension/4713 "INTELLIGENT CLOUD - HGPUS"](../objects/permissionsetextension/4713-us.md)
+- [permissionsetextension/6959 "INTELLIGENT CLOUD - Ceridian Payroll"](../objects/permissionsetextension/6959-us.md)
+- [permissionsetextension/8332 "D365 BUS PREMIUM - Ceridian Payroll"](../objects/permissionsetextension/8332-us.md)
+- [permissionsetextension/10016 "D365 BASIC - IRS 1096"](../objects/permissionsetextension/10016-us.md)
+- [permissionsetextension/10017 "D365 BASIC ISV - IRS 1096"](../objects/permissionsetextension/10017-us.md)
+- [permissionsetextension/10018 "D365 READ - IRS 1096"](../objects/permissionsetextension/10018-us.md)
+- [permissionsetextension/10019 "D365 TEAM MEMBER - IRS 1096"](../objects/permissionsetextension/10019-us.md)
+- [permissionsetextension/10022 "INTELLIGENT CLOUD - IRS 1096"](../objects/permissionsetextension/10022-us.md)
+- [permissionsetextension/10023 "LOCAL - IRS 1096"](../objects/permissionsetextension/10023-us.md)
+- [permissionsetextension/10033 "D365 BASIC - IRS Forms"](../objects/permissionsetextension/10033-us.md)
+- [permissionsetextension/10034 "D365 BASIC ISV - IRS Forms"](../objects/permissionsetextension/10034-us.md)
+- [permissionsetextension/10035 "D365 READ - IRS Forms"](../objects/permissionsetextension/10035-us.md)
+- [permissionsetextension/10036 "D365 TEAM MEMBER - IRS Forms"](../objects/permissionsetextension/10036-us.md)
+- [permissionsetextension/10037 "INTELLIGENT CLOUD - IRS Forms"](../objects/permissionsetextension/10037-us.md)
+- [permissionsetextension/10038 "Local - IRS Forms"](../objects/permissionsetextension/10038-us.md)
+- [permissionsetextension/12900 "D365 BUS PREMIUM - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/12900-us.md)
+- [permissionsetextension/14538 "D365 BUS FULL ACCESS - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/14538-us.md)
+- [permissionsetextension/14867 "D365 FULL ACCESS - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/14867-us.md)
+- [permissionsetextension/15360 "D365 TEAM MEMBER - Ceridian Payroll"](../objects/permissionsetextension/15360-us.md)
+- [permissionsetextension/16465 "D365 READ - Ceridian Payroll"](../objects/permissionsetextension/16465-us.md)
+- [permissionsetextension/19183 "D365 TEAM MEMBER - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/19183-us.md)
+- [permissionsetextension/21619 "INTELLIGENT CLOUD - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/21619-us.md)
+- [permissionsetextension/27030 "D365 BASIC - DIOT - Localization for Mexico"](../objects/permissionsetextension/27030-us.md)
+- [permissionsetextension/27031 "D365 BASIC ISV - DIOT - Localization for Mexico"](../objects/permissionsetextension/27031-us.md)
+- [permissionsetextension/27032 "D365 BUS FULL ACCESS - DIOT - Localization for Mexico"](../objects/permissionsetextension/27032-us.md)
+- [permissionsetextension/27033 "D365 BUS PREMIUM - DIOT - Localization for Mexico"](../objects/permissionsetextension/27033-us.md)
+- [permissionsetextension/27034 "D365 FULL ACCESS - DIOT - Localization for Mexico"](../objects/permissionsetextension/27034-us.md)
+- [permissionsetextension/27035 "D365 READ - DIOT - Localization for Mexico"](../objects/permissionsetextension/27035-us.md)
+- [permissionsetextension/27036 "D365 TEAM MEMBER - DIOT - Localization for Mexico"](../objects/permissionsetextension/27036-us.md)
+- [permissionsetextension/27037 "INTELLIGENT CLOUD - DIOT - Localization for Mexico"](../objects/permissionsetextension/27037-us.md)
+- [permissionsetextension/30000 "D365 BASIC ISV - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/30000-us.md)
+- [permissionsetextension/33090 "D365 FULL ACCESS - Ceridian Payroll"](../objects/permissionsetextension/33090-us.md)
+- [permissionsetextension/39041 "D365 READ - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/39041-us.md)
+- [permissionsetextension/41638 "D365 BASIC ISV - Ceridian Payroll"](../objects/permissionsetextension/41638-us.md)
+- [permissionsetextension/45740 "D365 BUS FULL ACCESS - Ceridian Payroll"](../objects/permissionsetextension/45740-us.md)
+- [permissionsetextension/47200 "SLD365 Basic Ext. - HSLUS"](../objects/permissionsetextension/47200-us.md)
+- [permissionsetextension/47201 "SLD365 Basic ISV Ext. - HSLUS"](../objects/permissionsetextension/47201-us.md)
+- [permissionsetextension/47202 "SLD365 Team Member Ext. - HSLUS"](../objects/permissionsetextension/47202-us.md)
+- [permissionsetextension/47203 "SL Intelligent Cloud Ext. - HSLUS"](../objects/permissionsetextension/47203-us.md)
+- [permissionsetextension/48543 "D365 BASIC - Envestnet Yodlee Bank Feeds"](../objects/permissionsetextension/48543-us.md)
+- [permissionsetextension/49679 "D365 BASIC - Ceridian Payroll"](../objects/permissionsetextension/49679-us.md)
 - [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-us.md)
 - [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-us.md)
 - [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-us.md)
@@ -785,9 +1034,11 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [report/10008 "Consolidated Trial Balance (4)"](../objects/report/10008-us.md)
 - [report/10009 "Cross Reference by Account No."](../objects/report/10009-us.md)
 - [report/10010 "Cross Reference by Source"](../objects/report/10010-us.md)
+- [report/10016 "IRS 1096 Create Forms"](../objects/report/10016-us.md)
 - [report/10017 "Currency Balances - Rec./Pay."](../objects/report/10017-us.md)
 - [report/10018 "General Ledger Worksheet"](../objects/report/10018-us.md)
 - [report/10019 "G/L Register"](../objects/report/10019-us.md)
+- [report/10020 "IRS 1096 Form"](../objects/report/10020-us.md)
 - [report/10021 "Trial Balance Detail/Summary"](../objects/report/10021-us.md)
 - [report/10022 "Trial Balance"](../objects/report/10022-us.md)
 - [report/10023 "Trial Balance, per Global Dim."](../objects/report/10023-us.md)
@@ -795,6 +1046,14 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [report/10026 "Trial Balance, Spread Periods"](../objects/report/10026-us.md)
 - [report/10030 "Budget Amount by Period"](../objects/report/10030-us.md)
 - [report/10031 "Budget from History"](../objects/report/10031-us.md)
+- [report/10032 "IRS 1099 Print"](../objects/report/10032-us.md)
+- [report/10033 "IRS 1099 Send Email"](../objects/report/10033-us.md)
+- [report/10034 "Create Transmission IRIS"](../objects/report/10034-us.md)
+- [report/10035 "IRS 1099 Create Form Docs"](../objects/report/10035-us.md)
+- [report/10036 "IRS 1099 Suggest Vendors"](../objects/report/10036-us.md)
+- [report/10037 "IRS 1099 Copy Setup From"](../objects/report/10037-us.md)
+- [report/10038 "IRS 1099 Propagate Vend. Setup"](../objects/report/10038-us.md)
+- [report/10039 "IRS 1099 FIRE"](../objects/report/10039-us.md)
 - [report/10040 "Aged Accounts Receivable NA"](../objects/report/10040-us.md)
 - [report/10041 "Cash Applied"](../objects/report/10041-us.md)
 - [report/10042 "Customer Account Detail"](../objects/report/10042-us.md)
@@ -816,6 +1075,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [report/10059 "Salesperson Commissions"](../objects/report/10059-us.md)
 - [report/10060 "Salesperson Statistics by Inv."](../objects/report/10060-us.md)
 - [report/10061 "Ship-To Address Listing"](../objects/report/10061-us.md)
+- [report/10063 "Upgrade IRS 1099 Data"](../objects/report/10063-us.md)
 - [report/10069 "Sales Blanket Order"](../objects/report/10069-us.md)
 - [report/10070 "Sales Invoice (Pre-Printed)"](../objects/report/10070-us.md)
 - [report/10071 "Customer Stmt. (Pre-Printed)"](../objects/report/10071-us.md)
@@ -950,6 +1210,12 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [report/14022 "Declaration 347 Labels"](../objects/report/14022-us.md)
 - [report/14023 "Declaration 349 Labels"](../objects/report/14023-us.md)
 - [report/14030 "Official journal ledger Summ."](../objects/report/14030-us.md)
+- [report/27030 "Create DIOT Report"](../objects/report/27030-us.md)
+- [table/1450 "MS - Yodlee Bank Service Setup"](../objects/table/1450-us.md)
+- [table/1451 "MS - Yodlee Bank Acc. Link"](../objects/table/1451-us.md)
+- [table/1452 "MS - Yodlee Data Exchange Def"](../objects/table/1452-us.md)
+- [table/1453 "MS - Yodlee Bank Session"](../objects/table/1453-us.md)
+- [table/1665 "MS Ceridian Payroll Setup"](../objects/table/1665-us.md)
 - [table/10000 "PAC Web Service"](../objects/table/10000-us.md)
 - [table/10001 "PAC Web Service Detail"](../objects/table/10001-us.md)
 - [table/10002 "Document Header"](../objects/table/10002-us.md)
@@ -961,7 +1227,33 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [table/10013 "Vendor Location"](../objects/table/10013-us.md)
 - [table/10015 "GIFI Code"](../objects/table/10015-us.md)
 - [table/10016 "IRS 1099 Adjustment"](../objects/table/10016-us.md)
+- [table/10018 "IRS 1096 Form Header"](../objects/table/10018-us.md)
+- [table/10019 "IRS 1096 Form Line"](../objects/table/10019-us.md)
+- [table/10020 "IRS 1096 Form Line Relation"](../objects/table/10020-us.md)
+- [table/10030 "IRS Forms Setup"](../objects/table/10030-us.md)
+- [table/10031 "IRS Reporting Period"](../objects/table/10031-us.md)
+- [table/10032 "IRS 1099 Form"](../objects/table/10032-us.md)
+- [table/10033 "IRS 1099 Form Box"](../objects/table/10033-us.md)
+- [table/10034 "IRS 1099 Vendor Form Box Setup"](../objects/table/10034-us.md)
+- [table/10035 "IRS 1099 Form Doc. Header"](../objects/table/10035-us.md)
+- [table/10036 "IRS 1099 Form Doc. Line"](../objects/table/10036-us.md)
+- [table/10037 "IRS 1099 Calc. Params"](../objects/table/10037-us.md)
+- [table/10038 "IRS 1099 Form Doc. Line Detail"](../objects/table/10038-us.md)
+- [table/10039 "IRS 1099 Report Line"](../objects/table/10039-us.md)
 - [table/10040 "Data Dictionary Info"](../objects/table/10040-us.md)
+- [table/10041 "IRS 1099 Form Statement Line"](../objects/table/10041-us.md)
+- [table/10042 "IRS 1099 Form Instruction"](../objects/table/10042-us.md)
+- [table/10043 "IRS 1099 Form Report"](../objects/table/10043-us.md)
+- [table/10044 "IRS 1099 Vend. Form Box Buffer"](../objects/table/10044-us.md)
+- [table/10045 "IRS 1099 Vendor Form Box Adj."](../objects/table/10045-us.md)
+- [table/10046 "IRS 1099 Email Queue"](../objects/table/10046-us.md)
+- [table/10047 "Transmission Log IRIS"](../objects/table/10047-us.md)
+- [table/10048 "IRS 1099 Print Params"](../objects/table/10048-us.md)
+- [table/10049 "IRS 1099 Vend. Entry Buffer"](../objects/table/10049-us.md)
+- [table/10050 "Transmission IRIS"](../objects/table/10050-us.md)
+- [table/10051 "User Params IRIS"](../objects/table/10051-us.md)
+- [table/10052 "Error Information IRIS"](../objects/table/10052-us.md)
+- [table/10053 "Transmission Log Line IRIS"](../objects/table/10053-us.md)
 - [table/10100 "Account Identifier"](../objects/table/10100-us.md)
 - [table/10122 "Bank Comment Line"](../objects/table/10122-us.md)
 - [table/10123 "Posted Bank Rec. Header"](../objects/table/10123-us.md)
@@ -1010,13 +1302,24 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [table/27027 "SAT Municipality"](../objects/table/27027-us.md)
 - [table/27028 "SAT Locality"](../objects/table/27028-us.md)
 - [table/27029 "SAT Suburb"](../objects/table/27029-us.md)
+- [table/27030 "DIOT Concept"](../objects/table/27030-us.md)
+- [table/27031 "DIOT Concept Link"](../objects/table/27031-us.md)
+- [table/27032 "DIOT Report Buffer"](../objects/table/27032-us.md)
+- [table/27033 "DIOT Report Vendor Buffer"](../objects/table/27033-us.md)
 - [table/27037 "SAT Material Type"](../objects/table/27037-us.md)
 - [table/27038 "SAT Transfer Reason"](../objects/table/27038-us.md)
+- [table/27039 "DIOT Country/Region Data"](../objects/table/27039-us.md)
 - [table/27045 "SAT International Trade Term"](../objects/table/27045-us.md)
 - [table/27046 "SAT Customs Unit"](../objects/table/27046-us.md)
 - [table/27047 "SAT Customs Regime"](../objects/table/27047-us.md)
 - [table/27048 "SAT Customs Document Type"](../objects/table/27048-us.md)
 - [table/36623 "Credit Manager Cue"](../objects/table/36623-us.md)
+- [table/41100 "Supported Tax Year"](../objects/table/41100-us.md)
+- [table/41101 "GP 1099 Box Mapping"](../objects/table/41101-us.md)
+- [table/41102 "GP 1099 Migration Log"](../objects/table/41102-us.md)
+- [table/47200 "SL Supported Tax Year"](../objects/table/47200-us.md)
+- [table/47201 "SL 1099 Box Mapping"](../objects/table/47201-us.md)
+- [table/47203 "SL 1099 Migration Log"](../objects/table/47203-us.md)
 - [tableextension/10002 "SourceCodeSetupNA"](../objects/tableextension/10002-us.md)
 - [tableextension/10010 "Service Header Archive NA"](../objects/tableextension/10010-us.md)
 - [tableextension/10011 "Service Header NA"](../objects/tableextension/10011-us.md)
@@ -1025,8 +1328,39 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [tableextension/10014 "Service Line NA"](../objects/tableextension/10014-us.md)
 - [tableextension/10015 "Location NA"](../objects/tableextension/10015-us.md)
 - [tableextension/10016 "Serv. G/L Account"](../objects/tableextension/10016-us.md)
+- [tableextension/10017 "IRS 1096 Purch. Setup"](../objects/tableextension/10017-us.md)
+- [tableextension/10018 "IRS 1096 Company Information"](../objects/tableextension/10018-us.md)
 - [tableextension/10019 "Serv. Sales Tax Amount Diff."](../objects/tableextension/10019-us.md)
 - [tableextension/10027 "Mfg. Item NA"](../objects/tableextension/10027-us.md)
+- [tableextension/10030 "Country/Region IRS"](../objects/tableextension/10030-us.md)
+- [tableextension/10035 "IRS 1099 Vendor Ledger Entry"](../objects/tableextension/10035-us.md)
+- [tableextension/10036 "IRS 1099 Purch. Header"](../objects/tableextension/10036-us.md)
+- [tableextension/10040 "IRS 1099 Gen. Jnl. Line"](../objects/tableextension/10040-us.md)
+- [tableextension/10042 "IRS 1099 Vendor"](../objects/tableextension/10042-us.md)
+- [tableextension/10046 "IRS 1099 Purch. Inv. Header"](../objects/tableextension/10046-us.md)
+- [tableextension/10047 "IRS 1099 Purch. Cr.Memo Header"](../objects/tableextension/10047-us.md)
+- [tableextension/10049 "IRS 1099 Purch. Header Archive"](../objects/tableextension/10049-us.md)
+- [tableextension/10050 "IRS 1099 Posted Gen. Jnl. Line"](../objects/tableextension/10050-us.md)
+- [tableextension/10055 "IRS 1099 Purch. Line"](../objects/tableextension/10055-us.md)
+- [tableextension/10056 "IRS 1099 Purch. Inv. Line"](../objects/tableextension/10056-us.md)
+- [tableextension/10057 "IRS 1099 Purch. Cr.Memo Line"](../objects/tableextension/10057-us.md)
+- [tableextension/10059 "IRS 1099 Purch. Line Arch."](../objects/tableextension/10059-us.md)
+- [tableextension/10154 "Oustanding Bank Transaction"](../objects/tableextension/10154-us.md)
+- [tableextension/27030 "DIOT Purch. & Payables Setup"](../objects/tableextension/27030-us.md)
+- [tableextension/27031 "DIOT Vendor"](../objects/tableextension/27031-us.md)
+- [tableextension/27032 "DIOT Gen. Journal Line"](../objects/tableextension/27032-us.md)
+- [tableextension/27033 "DIOT Purchase Header"](../objects/tableextension/27033-us.md)
+- [tableextension/27034 "DIOT Purch. Inv. Header"](../objects/tableextension/27034-us.md)
+- [tableextension/27036 "DIOT VAT Entry"](../objects/tableextension/27036-us.md)
+- [tableextension/27037 "DIOT VAT Posting Setup"](../objects/tableextension/27037-us.md)
+- [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-us.md)
+- [tableextension/30476 "Shpfy TMA Order Header"](../objects/tableextension/30476-us.md)
+- [tableextension/30477 "Shpfy TMA Sales Header"](../objects/tableextension/30477-us.md)
+- [tableextension/30480 "Shpfy TMA Order Tax Line"](../objects/tableextension/30480-us.md)
+- [tableextension/30481 "Shpfy TMA Tax Jurisdiction"](../objects/tableextension/30481-us.md)
+- [tableextension/41103 "GP Company Add. Settings Ext."](../objects/tableextension/41103-us.md)
+- [tableextension/47200 "SL Company Add. Settings Ext."](../objects/tableextension/47200-us.md)
+- [xmlport/1661 "Import Ceridian Payroll"](../objects/xmlport/1661-us.md)
 - [xmlport/27003 "CFDI Cancellation Reason"](../objects/xmlport/27003-us.md)
 - [xmlport/27004 "CFDI Export Code"](../objects/xmlport/27004-us.md)
 - [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-us.md)

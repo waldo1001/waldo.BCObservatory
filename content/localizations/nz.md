@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 5d2b88320398adea22b29ae37ccea540d87a1524b19dbb76da314b6df4642224
+  input_hash: 5d29bb1a82d963ca4ca82739c8413d8cc4ed56ea1b9e60140eea3a3b37026db8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-nz
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -149,7 +149,7 @@ links:
 country: NZ
 version: "29"
 w1_version: "29"
-added_objects: 169
+added_objects: 170
 replaced_objects: 109
 removed_objects: 0
 added_fields: 459
@@ -182,7 +182,7 @@ Learn documents these under "New Zealand local functionality": GST posting, WHT 
 - Cost-plus pricing fields (Published Price, Cost, Cost-plus %, Discount Amount) on price list, sales price and price worksheet lines.
 - Address handling for multiple cities per postal code, DPID, AMAS software and barcodes. E-invoicing uses Peppol PINT A-NZ via E-Documents.
 
-Narrative written by Sonnet from the code diff and 26 Learn page summaries. In numbers: NewZealand (NZ) localization of Business Central in BC29: 169 objects of its own, 109 W1 objects changed (459 fields and 21 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 26 Learn page summaries. In numbers: NewZealand (NZ) localization of Business Central in BC29: 170 objects of its own, 109 W1 objects changed (459 fields and 21 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -200,6 +200,7 @@ Narrative written by Sonnet from the code diff and 26 Learn page summaries. In n
 | [Service](#service) | 0 | 2 | 0 |
 | [(no namespace)](#no-namespace) | 0 | 1 | 0 |
 | [CRM](#crm) | 1 | 0 | 4 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [FixedAssets](#fixedassets) | 1 | 0 | 1 |
 | [Integration](#integration) | 1 | 0 | 0 |
 | [IO](#io) | 1 | 0 | 0 |
@@ -492,9 +493,10 @@ Objects: [page/28001 "CodeUnit Selection"](../objects/page/28001-nz.md) (own).
 
 ## Objects of its own
 
-169 objects only this country has.
+170 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-nz.md)
+- [codeunit/6977 "Expense Event Subscriber NZ"](../objects/codeunit/6977-nz.md)
 - [codeunit/11600 "ABN Management"](../objects/codeunit/11600-nz.md)
 - [codeunit/11601 "BAS Management"](../objects/codeunit/11601-nz.md)
 - [codeunit/11602 "Import Subsidiary"](../objects/codeunit/11602-nz.md)

@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 454b9b2b9e0d9cf8941540e30256e5b60100e677ae159438041d3846a46318c2
+  input_hash: ad03df2cb1430c8fae96eababf93707ab531ad7698cc545010094fb6ced821b8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-au
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -161,7 +161,7 @@ links:
 country: AU
 version: "29"
 w1_version: "29"
-added_objects: 169
+added_objects: 171
 replaced_objects: 121
 removed_objects: 0
 added_fields: 468
@@ -194,7 +194,7 @@ Microsoft Learn documents these in pages on the Australian tax overview, Withhol
 - EFT and checks: EFT Register, Create EFT File, Transfer EFT Register, plus post-dated checks, check installments and PDC acknowledgement receipt.
 - Pricing: cost-plus percentage fields on price list lines, sales prices and worksheet lines, updated through ItemCostManagement.
 
-Narrative written by Sonnet from the code diff and 29 Learn page summaries. In numbers: Australia (AU) localization of Business Central in BC29: 169 objects of its own, 121 W1 objects changed (468 fields and 22 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 29 Learn page summaries. In numbers: Australia (AU) localization of Business Central in BC29: 171 objects of its own, 121 W1 objects changed (468 fields and 22 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -206,12 +206,13 @@ Narrative written by Sonnet from the code diff and 29 Learn page summaries. In n
 | [Foundation](#foundation) | 10 | 9 | 10 |
 | [Bank](#bank) | 5 | 10 | 9 |
 | [Inventory](#inventory) | 6 | 2 | 4 |
+| [(no namespace)](#no-namespace) | 0 | 3 | 0 |
 | [Text](#text) | 0 | 3 | 0 |
-| [(no namespace)](#no-namespace) | 0 | 2 | 0 |
 | [Pricing](#pricing) | 2 | 0 | 8 |
 | [Security](#security) | 2 | 0 | 0 |
 | [Service](#service) | 0 | 2 | 0 |
 | [CRM](#crm) | 1 | 0 | 4 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [FixedAssets](#fixedassets) | 1 | 0 | 1 |
 | [Integration](#integration) | 1 | 0 | 0 |
 | [IO](#io) | 1 | 0 | 0 |
@@ -278,6 +279,16 @@ Objects: [codeunit/5804 "ItemCostManagement"](../objects/codeunit/5804.md), [tab
 
 [All 8 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
+### (no namespace)
+
+Adds the BAS Export codeunit and a source code table extension for the APAC layer.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/11604 "BAS Export"](../objects/codeunit/11604-au.md) (own), [tableextension/28160 "SourcecodeAPAC"](../objects/tableextension/28160-au.md) (own).
+
+[All 3 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
 ### Text
 
 Adds barcode management with a barcode checking report and a barcode batch job, which support barcode printing on addresses.
@@ -287,16 +298,6 @@ Why: Learn lists barcode printing and delivery point identifier among the addres
 Objects: [codeunit/28001 "BarCode Management"](../objects/codeunit/28001-au.md) (own), [report/28000 "BarCode Checking"](../objects/report/28000-au.md) (own), [report/28001 "BarCode Batch Job"](../objects/report/28001-au.md) (own).
 
 [All 3 objects of Text in the diff](?ns=Text#country-diff)
-
-### (no namespace)
-
-Adds the BAS Export codeunit and a source code table extension for the APAC layer.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [codeunit/11604 "BAS Export"](../objects/codeunit/11604-au.md) (own), [tableextension/28160 "SourcecodeAPAC"](../objects/tableextension/28160-au.md) (own).
-
-[All 2 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Pricing
 
@@ -516,9 +517,10 @@ Objects: [page/28001 "CodeUnit Selection"](../objects/page/28001-au.md) (own).
 
 ## Objects of its own
 
-169 objects only this country has.
+171 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-au.md)
+- [codeunit/6915 "Expense Event Subscriber AU"](../objects/codeunit/6915-au.md)
 - [codeunit/11600 "ABN Management"](../objects/codeunit/11600-au.md)
 - [codeunit/11601 "BAS Management"](../objects/codeunit/11601-au.md)
 - [codeunit/11602 "Import Subsidiary"](../objects/codeunit/11602-au.md)
@@ -587,6 +589,7 @@ Objects: [page/28001 "CodeUnit Selection"](../objects/page/28001-au.md) (own).
 - [page/28167 "GST Sales Entries Preview"](../objects/page/28167-au.md)
 - [pageextension/28040 "SourceCodeSetupAPAC"](../objects/pageextension/28040-au.md)
 - [pageextension/28041 "Serv.ServiceMgrRoleCenter APAC"](../objects/pageextension/28041-au.md)
+- [permissionset/11600 "G/L-BAS"](../objects/permissionset/11600-au.md)
 - [report/11600 "Withholding Summary"](../objects/report/11600-au.md)
 - [report/11603 "Calculate GST Settlement"](../objects/report/11603-au.md)
 - [report/11604 "BAS-Update"](../objects/report/11604-au.md)

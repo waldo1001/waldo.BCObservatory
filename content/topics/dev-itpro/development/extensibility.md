@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,7 +318,7 @@ links:
     - video/QGIr_XPp8lk
     - video/uxYuoJP-uH8
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
 learn_toc_path:
   - Development
@@ -395,7 +395,7 @@ Start with the Extensibility overview, then the extension objects overview. Move
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
+- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
 - [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../videos/QGIr_XPp8lk.md) (video): "Extending E-Documents with New Interface; interfaces; api design"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 

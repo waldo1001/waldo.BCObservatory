@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:34.553Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,8 +88,8 @@ links:
   posts:
     - post/aardvarklabs-blog/2827
     - post/demiliani-com/12623
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
   guidelines: []
 learn_toc_path:
   - Development
@@ -148,8 +148,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../../posts/demiliani-com/12623.md) (community post): "Allows rendering PDF files and images in FactBox elements"
-- [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
-- [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/.md) (community post): "The InitValue property sets a default value for new table fields"
+- [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
+- [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes; data modeling"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"

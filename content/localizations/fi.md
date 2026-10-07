@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 8f287c72312847cbbffa88cfd2de0004423311968aab2de24b972bae5253ef10
+  input_hash: 8fc16d499ffb5f5a6113bb3d8360e945dfa1a409380fac03602ea202986157ce
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-fi
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -89,7 +89,7 @@ links:
 country: FI
 version: "29"
 w1_version: "29"
-added_objects: 42
+added_objects: 56
 replaced_objects: 49
 removed_objects: 0
 added_fields: 79
@@ -122,20 +122,20 @@ Learn documents these under Finland Local Functionality, with pages on electroni
 - Disregard payment discount at full payment flag on Payment Terms and Cust. Ledger Entry.
 - Finnish service reports and document handling, plus Intrastat file setup and Business Identity Code on company and vendor.
 
-Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Finland (FI) localization of Business Central in BC29: 42 objects of its own, 49 W1 objects changed (79 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Finland (FI) localization of Business Central in BC29: 56 objects of its own, 49 W1 objects changed (79 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
 | [Bank](#bank) | 0 | 24 | 0 |
+| [Finance](#finance) | 9 | 10 | 17 |
 | [Purchases](#purchases) | 15 | 0 | 32 |
 | [Sales](#sales) | 14 | 0 | 17 |
-| [Finance](#finance) | 9 | 4 | 17 |
+| [Inventory](#inventory) | 2 | 8 | 4 |
 | [Service](#service) | 0 | 8 | 0 |
 | [Foundation](#foundation) | 4 | 3 | 6 |
 | [FixedAssets](#fixedassets) | 2 | 2 | 3 |
-| [Inventory](#inventory) | 2 | 0 | 4 |
 | [Security](#security) | 2 | 0 | 0 |
 | [(no namespace)](#no-namespace) | 0 | 1 | 0 |
 | [HumanResources](#humanresources) | 1 | 0 | 0 |
@@ -149,6 +149,16 @@ Why: Learn describes electronic banking with LM03 and LUM2 formats, linking cust
 Objects: [table/32000000 "Reference File Setup"](../objects/table/32000000-fi.md) (own), [codeunit/32000000 "Ref. Payment Management"](../objects/codeunit/32000000-fi.md) (own), [report/32000000 "Import Ref. Payment"](../objects/report/32000000-fi.md) (own), [report/32000004 "Export Ref. Payment - LUM"](../objects/report/32000004-fi.md) (own), [report/32000006 "Export Ref. Payment - LMP"](../objects/report/32000006-fi.md) (own), [codeunit/13413 "Exp. SEPA CT pain.001.001.09"](../objects/codeunit/13413-fi.md) (own), [report/13413 "Exp. SEPA CT pain.001.001.09"](../objects/report/13413-fi.md) (own), [table/32000001 "Ref. Payment - Imported"](../objects/table/32000001-fi.md) (own).
 
 [All 24 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Finance
+
+Adds automatic account headers and lines, Auto. Acc. Group on G/L accounts, journal lines and posting buffers, and reference and message fields on journal lines. Gen. Jnl.-Post Line gains procedures to update imported and exported reference payments. Adds a Print on Invoice flag on VAT posting groups, report G/L Register FI and a currency exchange rate codeunit.
+
+Why: Learn documents automatic account codes and posting groups, and printing VAT information per line on invoices.
+
+Objects: [table/11203 "Automatic Acc. Header"](../objects/table/11203-fi.md) (own), [table/11204 "Automatic Acc. Line"](../objects/table/11204-fi.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/323 "VAT Business Posting Group"](../objects/table/323.md), [table/324 "VAT Product Posting Group"](../objects/table/324.md).
+
+[All 19 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
@@ -170,15 +180,15 @@ Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [tabl
 
 [All 14 objects of Sales in the diff](?ns=Sales#country-diff)
 
-### Finance
+### Inventory
 
-Adds automatic account headers and lines, Auto. Acc. Group on G/L accounts, journal lines and posting buffers, and reference and message fields on journal lines. Gen. Jnl.-Post Line gains procedures to update imported and exported reference payments. Adds a Print on Invoice flag on VAT posting groups, report G/L Register FI and a currency exchange rate codeunit.
+Adds Finnish Intrastat fields: reported receipt and shipment flags on journal batches, and Unit of Measure and Quantity 2 on journal lines.
 
-Why: Learn documents automatic account codes and posting groups, and printing VAT information per line on invoices.
+Why: Learn explains that EU companies must report trade with other EU countries to the Intrastat authorities.
 
-Objects: [table/11203 "Automatic Acc. Header"](../objects/table/11203-fi.md) (own), [table/11204 "Automatic Acc. Line"](../objects/table/11204-fi.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/323 "VAT Business Posting Group"](../objects/table/323.md), [table/324 "VAT Product Posting Group"](../objects/table/324.md).
+Objects: [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
 
-[All 13 objects of Finance in the diff](?ns=Finance#country-diff)
+[All 10 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Service
 
@@ -209,16 +219,6 @@ Why: Learn states Finnish tax law requires posting the difference between straig
 Objects: [report/13402 "Calc. and Post Depr. Diff."](../objects/report/13402-fi.md) (own), [table/13401 "Depr. Diff. Posting Buffer"](../objects/table/13401-fi.md) (own), [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5601 "FA Ledger Entry"](../objects/table/5601.md).
 
 [All 4 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
-
-### Inventory
-
-Adds Finnish Intrastat fields: reported receipt and shipment flags on journal batches, and Unit of Measure and Quantity 2 on journal lines.
-
-Why: Learn explains that EU companies must report trade with other EU countries to the Intrastat authorities.
-
-Objects: [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
-
-[All 2 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Security
 
@@ -306,11 +306,17 @@ Objects: [report/394 "Suggest Employee Payments"](../objects/report/394.md).
 
 ## Objects of its own
 
-42 objects only this country has.
+56 objects only this country has.
 
 - [codeunit/13403 "Export SEPA Payment File"](../objects/codeunit/13403-fi.md)
+- [codeunit/13406 "Intrastat Report Management FI"](../objects/codeunit/13406-fi.md)
+- [codeunit/13407 "Intrastat Report Exp. Ext. FI"](../objects/codeunit/13407-fi.md)
+- [codeunit/13408 "Intrastat Report Get Totals"](../objects/codeunit/13408-fi.md)
 - [codeunit/13410 "Serv. Document Mgt. FI"](../objects/codeunit/13410-fi.md)
+- [codeunit/13411 "FICore InitReport Subscribers"](../objects/codeunit/13411-fi.md)
 - [codeunit/13413 "Exp. SEPA CT pain.001.001.09"](../objects/codeunit/13413-fi.md)
+- [codeunit/13415 "Currency Exch. Rate Import"](../objects/codeunit/13415-fi.md)
+- [codeunit/13420 "FICore VIES Decl. Feature"](../objects/codeunit/13420-fi.md)
 - [codeunit/13461 "Serv. Report Selection Mgt. FI"](../objects/codeunit/13461-fi.md)
 - [codeunit/32000000 "Ref. Payment Management"](../objects/codeunit/32000000-fi.md)
 - [codeunit/32000001 "Currency Exchange Rate"](../objects/codeunit/32000001-fi.md)
@@ -323,7 +329,12 @@ Objects: [report/394 "Suggest Employee Payments"](../objects/report/394.md).
 - [page/32000006 "Bank Payments to send"](../objects/page/32000006-fi.md)
 - [page/32000007 "Input Dialog"](../objects/page/32000007-fi.md)
 - [pageextension/13400 "SourceCodeSetupFI"](../objects/pageextension/13400-fi.md)
+- [pageextension/13406 "Intrastat Report Setup Wzrd FI"](../objects/pageextension/13406-fi.md)
+- [pageextension/13407 "Intrastat Report Setup FI"](../objects/pageextension/13407-fi.md)
+- [pageextension/13408 "Intrastat Report FI"](../objects/pageextension/13408-fi.md)
 - [pageextension/13410 "Posted Service Invoice FI"](../objects/pageextension/13410-fi.md)
+- [pageextension/13414 "Currencies FI"](../objects/pageextension/13414-fi.md)
+- [permissionsetextension/13406 "Intrastat FI - Objects"](../objects/permissionsetextension/13406-fi.md)
 - [report/13400 "G/L Register FI"](../objects/report/13400-fi.md)
 - [report/13402 "Calc. and Post Depr. Diff."](../objects/report/13402-fi.md)
 - [report/13403 "Export SEPA Payment File"](../objects/report/13403-fi.md)
@@ -339,6 +350,7 @@ Objects: [report/394 "Suggest Employee Payments"](../objects/report/394.md).
 - [report/32000004 "Export Ref. Payment - LUM"](../objects/report/32000004-fi.md)
 - [report/32000005 "Payment"](../objects/report/32000005-fi.md)
 - [report/32000006 "Export Ref. Payment - LMP"](../objects/report/32000006-fi.md)
+- [reportextension/13412 "FI VAT VIES Decl. Tax Auth"](../objects/reportextension/13412-fi.md)
 - [table/11203 "Automatic Acc. Header"](../objects/table/11203-fi.md)
 - [table/11204 "Automatic Acc. Line"](../objects/table/11204-fi.md)
 - [table/13400 "Intrastat - File Setup"](../objects/table/13400-fi.md)
@@ -349,7 +361,9 @@ Objects: [report/394 "Suggest Employee Payments"](../objects/report/394.md).
 - [table/32000003 "Foreign Payment Types"](../objects/table/32000003-fi.md)
 - [table/32000004 "Ref. Payment - Exported Buffer"](../objects/table/32000004-fi.md)
 - [tableextension/13400 "SourceCodeSetupFI"](../objects/tableextension/13400-fi.md)
+- [tableextension/13406 "Intrastat Report Setup FI"](../objects/tableextension/13406-fi.md)
 - [tableextension/13410 "Service Invoice Header FI"](../objects/tableextension/13410-fi.md)
+- [tableextension/13413 "VAT Entry FI"](../objects/tableextension/13413-fi.md)
 
 ## Other versions
 

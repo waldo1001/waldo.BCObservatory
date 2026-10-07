@@ -14,17 +14,17 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T09:46:58.909Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 127e4229dc49312b2e71055741324a6ba57cd80323de25ef1595471f069f3f7a
+  input_hash: ee0c2c3407be6db5172ef7e69dacee5691ac8a9de6802c5f18a7929bd566aee6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-de
     date: null
-    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    commit: 1d24dd5ee2a734510f0556ccc69342d0e616db2f
     t: null
     quote: null
 links:
@@ -103,7 +103,7 @@ links:
 country: DE
 version: "29"
 w1_version: "29"
-added_objects: 128
+added_objects: 217
 replaced_objects: 63
 removed_objects: 1
 added_fields: 92
@@ -136,7 +136,7 @@ W1 changes include Registration No. on vendor and purchase documents, tax office
 - Physical inventory orders, recordings and posted versions are added as new tables with number series on Inventory Setup.
 - Company Information gains tax office, authorized number and place of dispatcher/receiver fields; vendors and purchase documents gain Registration No.
 
-Narrative written by Sonnet from the code diff and 30 Learn page summaries. In numbers: Germany (DE) localization of Business Central in BC29: 128 objects of its own, 63 W1 objects changed (92 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 30 Learn page summaries. In numbers: Germany (DE) localization of Business Central in BC29: 217 objects of its own, 63 W1 objects changed (92 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -144,13 +144,16 @@ Narrative written by Sonnet from the code diff and 30 Learn page summaries. In n
 |---|---|---|---|
 | [Finance](#finance) | 33 | 37 | 49 |
 | [Purchases](#purchases) | 9 | 46 | 11 |
-| [Inventory](#inventory) | 5 | 21 | 5 |
+| eServices | 0 | 45 | 0 |
+| [Inventory](#inventory) | 5 | 34 | 5 |
+| [(no namespace)](#no-namespace) | 0 | 30 | 0 |
 | [Foundation](#foundation) | 6 | 9 | 24 |
-| [(no namespace)](#no-namespace) | 0 | 7 | 0 |
+| Peppol | 0 | 7 | 0 |
 | [FixedAssets](#fixedassets) | 4 | 2 | 3 |
 | [Security](#security) | 2 | 2 | 0 |
 | [CRM](#crm) | 2 | 0 | 0 |
 | [Sales](#sales) | 1 | 1 | 0 |
+| ExpenseAgent | 0 | 1 | 0 |
 | [Manufacturing](#manufacturing) | 0 | 1 | 0 |
 | [Microsoft](#microsoft) | 0 | 1 | 0 |
 | [Service](#service) | 1 | 0 | 0 |
@@ -184,7 +187,17 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-de.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-de.md) (own), [table/5005352 "Phys. Invt. Recording Header"](../objects/table/5005352-de.md) (own), [table/313 "Inventory Setup"](../objects/table/313.md), [table/11000 "Place of Dispatcher"](../objects/table/11000-de.md) (own), [table/11001 "Place of Receiver"](../objects/table/11001-de.md) (own), [report/11503 "Item ABC Analysis"](../objects/report/11503-de.md) (own), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
 
-[All 26 objects of Inventory in the diff](?ns=Inventory#country-diff)
+[All 39 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### (no namespace)
+
+Holds the VAT Report Lines page, the Data Export Setup table, the Intrastat item list report, and upgrade and sandbox cleanup plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [page/784 "VAT Report Lines"](../objects/page/784-de.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-de.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-de.md) (own).
+
+[All 30 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Foundation
 
@@ -195,16 +208,6 @@ Why: Learn notes company registration numbers on reports come from Company Infor
 Objects: [table/79 "Company Information"](../objects/table/79.md), [table/26100 "DACH Report Selections"](../objects/table/26100-de.md) (own), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/242 "Source Code Setup"](../objects/table/242.md), [enumextension/26101 "Report Selection Usage Del. Rem."](../objects/enumextension/26101-de.md) (own), [enumextension/26102 "Report Sel. Usage Purch. DACH"](../objects/enumextension/26102-de.md) (own).
 
 [All 15 objects of Foundation in the diff](?ns=Foundation#country-diff)
-
-### (no namespace)
-
-Holds the VAT Report Lines page, the Data Export Setup table, the Intrastat item list report, and upgrade and sandbox cleanup plumbing.
-
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
-
-Objects: [page/784 "VAT Report Lines"](../objects/page/784-de.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-de.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-de.md) (own).
-
-[All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### FixedAssets
 
@@ -356,17 +359,45 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 
 ## Objects of its own
 
-128 objects only this country has.
+217 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-de.md)
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-de.md)
+- [codeunit/6917 "Expense Event Subscriber DE"](../objects/codeunit/6917-de.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-de.md)
 - [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-de.md)
 - [codeunit/11001 "VIES ELMA Xml"](../objects/codeunit/11001-de.md)
 - [codeunit/11004 "Report Sel. Purch. Subscribers"](../objects/codeunit/11004-de.md)
+- [codeunit/11021 "Elster - Initialize"](../objects/codeunit/11021-de.md)
+- [codeunit/11023 "Elster Management"](../objects/codeunit/11023-de.md)
+- [codeunit/11029 "IntrastatReportManagementDE"](../objects/codeunit/11029-de.md)
+- [codeunit/11031 "Intrastat Report Filter Rcpt."](../objects/codeunit/11031-de.md)
+- [codeunit/11032 "Intrastat Report Filter Shpt."](../objects/codeunit/11032-de.md)
+- [codeunit/11033 "Intrastat Report Reset Filter"](../objects/codeunit/11033-de.md)
+- [codeunit/11034 "IntrastatReportDEUpgrade"](../objects/codeunit/11034-de.md)
+- [codeunit/11035 "EDoc PEPPOL BIS 3.0 DE"](../objects/codeunit/11035-de.md)
+- [codeunit/11036 "ZUGFeRD Report Integration"](../objects/codeunit/11036-de.md)
+- [codeunit/11037 "E-Document Header Handler DE"](../objects/codeunit/11037-de.md)
+- [codeunit/11038 "E-Document DE Helper"](../objects/codeunit/11038-de.md)
+- [codeunit/11039 "E-Document XRechnung Handler"](../objects/codeunit/11039-de.md)
+- [codeunit/11040 "E-Doc. PEPPOL BIS 3.0 DE Hdlr"](../objects/codeunit/11040-de.md)
+- [codeunit/11041 "E-Document ZUGFeRD Handler"](../objects/codeunit/11041-de.md)
 - [codeunit/11110 "Update VAT-AT"](../objects/codeunit/11110-de.md)
 - [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md)
+- [codeunit/13914 "XRechnung Format"](../objects/codeunit/13914-de.md)
+- [codeunit/13915 "Import XRechnung Document"](../objects/codeunit/13915-de.md)
+- [codeunit/13916 "Export XRechnung Document"](../objects/codeunit/13916-de.md)
+- [codeunit/13917 "Export ZUGFeRD Document"](../objects/codeunit/13917-de.md)
+- [codeunit/13919 "Import ZUGFeRD Document"](../objects/codeunit/13919-de.md)
+- [codeunit/13920 "ZUGFeRD Format"](../objects/codeunit/13920-de.md)
+- [codeunit/13921 "EDoc PEPPOL Validation DE"](../objects/codeunit/13921-de.md)
 - [codeunit/14060 "UPG Data Out Of Geo. Apps"](../objects/codeunit/14060-de.md)
+- [codeunit/37400 "PEPPOL30 DE Sales Validation"](../objects/codeunit/37400-de.md)
+- [codeunit/37401 "PEPPOL30 DE Service Validation"](../objects/codeunit/37401-de.md)
+- [codeunit/37402 "PEPPOL30 DE Doc Info"](../objects/codeunit/37402-de.md)
+- [codeunit/37403 "PEPPOL30 DE Party Info"](../objects/codeunit/37403-de.md)
+- [codeunit/37404 "PEPPOL30 DE Context"](../objects/codeunit/37404-de.md)
+- [codeunit/37405 "PEPPOL30 DE Subscribers"](../objects/codeunit/37405-de.md)
 - [codeunit/104100 "Upg Local Functionality"](../objects/codeunit/104100-de.md)
 - [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-de.md)
 - [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-de.md)
@@ -376,9 +407,17 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [codeunit/5005396 "Print Document Comfort"](../objects/codeunit/5005396-de.md)
 - [codeunit/5005397 "Format Adress Comfort"](../objects/codeunit/5005397-de.md)
 - [enum/11003 "Data Export File Encoding"](../objects/enum/11003-de.md)
+- [enum/11035 "Intrastat Submission Channel DE"](../objects/enum/11035-de.md)
+- [enum/13914 "E-Document Buyer Reference"](../objects/enum/13914-de.md)
 - [enum/5005272 "Delivery Reminder Date Type"](../objects/enum/5005272-de.md)
+- [enumextension/13914 "E-Document Format DE"](../objects/enumextension/13914-de.md)
+- [enumextension/13915 "PEPPOL BIS 3.0 DE Read Draft"](../objects/enumextension/13915-de.md)
+- [enumextension/13916 "ZUGFeRD EDoc Read into Draft"](../objects/enumextension/13916-de.md)
+- [enumextension/13917 "XRechnung EDoc Read into Draft"](../objects/enumextension/13917-de.md)
+- [enumextension/13919 "ZUGFeRD Structure Received"](../objects/enumextension/13919-de.md)
 - [enumextension/26101 "Report Selection Usage Del. Rem."](../objects/enumextension/26101-de.md)
 - [enumextension/26102 "Report Sel. Usage Purch. DACH"](../objects/enumextension/26102-de.md)
+- [enumextension/37400 "PEPPOL 3.0 Format DE"](../objects/enumextension/37400-de.md)
 - [page/784 "VAT Report Lines"](../objects/page/784-de.md)
 - [page/11000 "Place of Dispatchers"](../objects/page/11000-de.md)
 - [page/11001 "Place of Receivers"](../objects/page/11001-de.md)
@@ -389,8 +428,12 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [page/11008 "Data Export Table Relation Sub"](../objects/page/11008-de.md)
 - [page/11009 "Data Export Field List"](../objects/page/11009-de.md)
 - [page/11014 "Data Export Record Types"](../objects/page/11014-de.md)
+- [page/11016 "Sales VAT Adv. Notif. Card"](../objects/page/11016-de.md)
+- [page/11017 "Sales VAT Adv. Notif. List"](../objects/page/11017-de.md)
+- [page/11019 "Electronic VAT Decl. Setup"](../objects/page/11019-de.md)
 - [page/11026 "Data Export Table Keys"](../objects/page/11026-de.md)
 - [page/11027 "Data Export Record Fields"](../objects/page/11027-de.md)
+- [page/11028 "Elec. VAT Decl. Overview"](../objects/page/11028-de.md)
 - [page/35516 "Cash Receipt Journal FactBox"](../objects/page/35516-de.md)
 - [page/35517 "Payment Journal FactBox"](../objects/page/35517-de.md)
 - [page/5005270 "Delivery Reminder"](../objects/page/5005270-de.md)
@@ -407,6 +450,24 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [page/5005281 "Delivery Reminder Levels"](../objects/page/5005281-de.md)
 - [page/5005283 "Delivery Reminder Text"](../objects/page/5005283-de.md)
 - [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageextension/11010-de.md)
+- [pageextension/11025 "Elster Small Bus. Owner RC"](../objects/pageextension/11025-de.md)
+- [pageextension/11026 "Elster Acc. Mgr Role Center"](../objects/pageextension/11026-de.md)
+- [pageextension/11027 "Elster VAT Statement Names"](../objects/pageextension/11027-de.md)
+- [pageextension/11029 "Intrastat Report Subform DE"](../objects/pageextension/11029-de.md)
+- [pageextension/11030 "Intrastat Report DE"](../objects/pageextension/11030-de.md)
+- [pageextension/11031 "Intrastat Report Setup DE"](../objects/pageextension/11031-de.md)
+- [pageextension/11035 "E-Doc Pstd Svc Cr.Memo DE"](../objects/pageextension/11035-de.md)
+- [pageextension/11036 "E-Doc Item Charges DE"](../objects/pageextension/11036-de.md)
+- [pageextension/11040 "E-Doc Sales Invoice DE"](../objects/pageextension/11040-de.md)
+- [pageextension/11041 "E-Doc Sales Credit Memo DE"](../objects/pageextension/11041-de.md)
+- [pageextension/11042 "E-Doc Sales Order DE"](../objects/pageextension/11042-de.md)
+- [pageextension/13914 "E-Document Customer Card DE"](../objects/pageextension/13914-de.md)
+- [pageextension/13916 "E-Doc Pstd Sales Invoice DE"](../objects/pageextension/13916-de.md)
+- [pageextension/13917 "E-Doc Pstd Sales Cr.Memo DE"](../objects/pageextension/13917-de.md)
+- [pageextension/13918 "E-Doc Service Invoice DE"](../objects/pageextension/13918-de.md)
+- [pageextension/13919 "E-Doc Service Credit Memo DE"](../objects/pageextension/13919-de.md)
+- [pageextension/13920 "E-Doc Service Order DE"](../objects/pageextension/13920-de.md)
+- [pageextension/13921 "E-Doc Pstd Svc Invoice DE"](../objects/pageextension/13921-de.md)
 - [pageextension/5005270 "SourceCodeSetupDACH"](../objects/pageextension/5005270-de.md)
 - [pageextension/5005271 "DRVendorTemplCard"](../objects/pageextension/5005271-de.md)
 - [pageextension/5005272 "DRPurchSetup"](../objects/pageextension/5005272-de.md)
@@ -415,6 +476,16 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [pageextension/5005275 "DRPurchAgentRoleCenter"](../objects/pageextension/5005275-de.md)
 - [pageextension/5005276 "DRPurchaseOrder"](../objects/pageextension/5005276-de.md)
 - [pageextension/5005277 "DRVendorCard"](../objects/pageextension/5005277-de.md)
+- [permissionset/26001 "PURCHASE-DEL.REMIND."](../objects/permissionset/26001-de.md)
+- [permissionsetextension/8697 "D365 BUS FULL ACCESS - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/8697-de.md)
+- [permissionsetextension/9615 "D365 READ - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/9615-de.md)
+- [permissionsetextension/11029 "Intrastat DE - Objects"](../objects/permissionsetextension/11029-de.md)
+- [permissionsetextension/14181 "D365 FULL ACCESS - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/14181-de.md)
+- [permissionsetextension/16295 "D365 BUS PREMIUM - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/16295-de.md)
+- [permissionsetextension/21993 "INTELLIGENT CLOUD - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/21993-de.md)
+- [permissionsetextension/32689 "D365 TEAM MEMBER - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/32689-de.md)
+- [permissionsetextension/45801 "D365 BASIC ISV - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/45801-de.md)
+- [permissionsetextension/46539 "D365 BASIC - ELSTER VAT Localization for Germany"](../objects/permissionsetextension/46539-de.md)
 - [permissionsetextension/5005270 "DR LOCAL"](../objects/permissionsetextension/5005270-de.md)
 - [permissionsetextension/5005271 "DR LOCAL READ"](../objects/permissionsetextension/5005271-de.md)
 - [report/11001 "Intrastat - Item List"](../objects/report/11001-de.md)
@@ -428,6 +499,7 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [report/11010 "VAT Statement Schedule"](../objects/report/11010-de.md)
 - [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-de.md)
 - [report/11015 "Export Business Data"](../objects/report/11015-de.md)
+- [report/11016 "Create XML-File VAT Adv.Notif."](../objects/report/11016-de.md)
 - [report/11100 "Fixed Assets - List AT"](../objects/report/11100-de.md)
 - [report/11108 "VAT - VIES Declaration XML"](../objects/report/11108-de.md)
 - [report/11109 "Paragraph 131 Export"](../objects/report/11109-de.md)
@@ -443,6 +515,10 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [report/5005273 "Issued Delivery Reminder"](../objects/report/5005273-de.md)
 - [report/5005340 "Create Delivery Reminder"](../objects/report/5005340-de.md)
 - [report/5005341 "Issue Delivery Reminder"](../objects/report/5005341-de.md)
+- [reportextension/13918 "Posted Sales Invoice"](../objects/reportextension/13918-de.md)
+- [reportextension/13919 "Posted Sales Cr.Memo"](../objects/reportextension/13919-de.md)
+- [reportextension/13920 "Posted Service Invoice"](../objects/reportextension/13920-de.md)
+- [reportextension/13921 "Posted Service Cr. Memo"](../objects/reportextension/13921-de.md)
 - [table/11000 "Place of Dispatcher"](../objects/table/11000-de.md)
 - [table/11001 "Place of Receiver"](../objects/table/11001-de.md)
 - [table/11002 "Data Export"](../objects/table/11002-de.md)
@@ -457,6 +533,9 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [table/11014 "Certificate"](../objects/table/11014-de.md)
 - [table/11015 "Key Buffer"](../objects/table/11015-de.md)
 - [table/11016 "Number Series Buffer"](../objects/table/11016-de.md)
+- [table/11021 "Sales VAT Advance Notif."](../objects/table/11021-de.md)
+- [table/11023 "Elec. VAT Decl. Setup"](../objects/table/11023-de.md)
+- [table/11027 "Elec. VAT Decl. Buffer"](../objects/table/11027-de.md)
 - [table/26100 "DACH Report Selections"](../objects/table/26100-de.md)
 - [table/5005270 "Delivery Reminder Header"](../objects/table/5005270-de.md)
 - [table/5005271 "Delivery Reminder Line"](../objects/table/5005271-de.md)
@@ -481,6 +560,19 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [table/5005361 "Expect. Phys. Inv. Track. Line"](../objects/table/5005361-de.md)
 - [table/5005362 "Post. Exp. Ph. In. Track. Line"](../objects/table/5005362-de.md)
 - [table/5005363 "Phys. Invt. Diff. List Buffer"](../objects/table/5005363-de.md)
+- [tableextension/11026 "Elster VAT Statement Name"](../objects/tableextension/11026-de.md)
+- [tableextension/11029 "Intrastat Report Line DE"](../objects/tableextension/11029-de.md)
+- [tableextension/11030 "Intrastat Report Header DE"](../objects/tableextension/11030-de.md)
+- [tableextension/11031 "Intrastat Report Setup DE"](../objects/tableextension/11031-de.md)
+- [tableextension/11036 "E-Doc Sales Header DE"](../objects/tableextension/11036-de.md)
+- [tableextension/11037 "E-Doc Sales Invoice Header DE"](../objects/tableextension/11037-de.md)
+- [tableextension/11038 "E-Doc Sales CrMemo Header DE"](../objects/tableextension/11038-de.md)
+- [tableextension/11039 "E-Doc Service Header DE"](../objects/tableextension/11039-de.md)
+- [tableextension/11040 "E-Doc Service Invoice Hdr DE"](../objects/tableextension/11040-de.md)
+- [tableextension/11041 "E-Doc Service CrMemo Hdr DE"](../objects/tableextension/11041-de.md)
+- [tableextension/11042 "E-Doc. Purchase Header DE"](../objects/tableextension/11042-de.md)
+- [tableextension/13914 "E-Document Customer DE"](../objects/tableextension/13914-de.md)
+- [tableextension/13915 "E-Document Service DE"](../objects/tableextension/13915-de.md)
 - [tableextension/5005270 "SourceCodeSetupDACH"](../objects/tableextension/5005270-de.md)
 - [tableextension/5005280 "DRVendor"](../objects/tableextension/5005280-de.md)
 - [tableextension/5005281 "DRVendorTempl"](../objects/tableextension/5005281-de.md)

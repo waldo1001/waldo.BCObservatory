@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T09:49:55.895Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -99,7 +99,7 @@ links:
   videos: []
   posts:
     - post/demiliani-com/12142
-    - post/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/
+    - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
   guidelines: []
 learn_toc_path:
   - Development
@@ -142,6 +142,6 @@ Path: [Development](../../development.md) > [Development environment](../develop
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings enable breaking change validation on these previously excluded symbols"
-- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/.md) (community post): "Enable multiple code analyzers with custom rulesets to catch issues early"
+- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "Enable multiple code analyzers with custom rulesets to catch issues early"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
