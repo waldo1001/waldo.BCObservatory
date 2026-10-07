@@ -95,27 +95,6 @@
         "field names"
       ],
       "system": "development"
-    },
-    {
-      "name": "Accessing table extension fields via text parameters",
-      "description": "Use case for the new overloads enabling developers to access fields from third-party table extensions without knowing field IDs, using field names instead.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 154.3,
-      "t_end": 373.7,
-      "is_demoed": true,
-      "caveats": [
-        "Requires knowing the field name as a string"
-      ],
-      "tags": [
-        "table extensions",
-        "third-party fields",
-        "field access",
-        "developers"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -138,6 +117,12 @@
   ],
   "quotes": [
     {
+      "t": 47,
+      "text": "related to two new functions that will appear in the latest AL compiler.",
+      "why_it_matters": "States when the overloads arrive (AL compiler release).",
+      "check": "exact"
+    },
+    {
       "t": 59.5,
       "text": "in fact existing functions but microsoft created overloaded versions of these functions",
       "why_it_matters": "Clarifies that FieldExist and Field are not new functions but new overloads of existing functions, important for developer understanding of the feature.",
@@ -147,6 +132,12 @@
       "t": 167.7,
       "text": "how can we get the value of a field that's not in the base application, but it's a field that belongs to a table",
       "why_it_matters": "Defines the key use case that motivated these new overloads - accessing third-party extension fields without knowing numeric IDs.",
+      "check": "exact"
+    },
+    {
+      "t": 343.9,
+      "text": "open up the page inspection in uh in the client and try to locate that binary stream or insight works",
+      "why_it_matters": "Shows the old way of finding field IDs, which the text overloads replace.",
       "check": "exact"
     },
     {

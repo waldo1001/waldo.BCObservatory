@@ -2,7 +2,7 @@
 id: video/VoiUhPb6HQ0
 type: video
 title: "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences"
-summary: Manufacturing report changes in Business Central version 27 (2025 Wave 2), and how to find code differences between versions using Stefan Maron's BC code history repository on GitHub with the GitLens extension in Visual Studio Code. Demonstrates the Where Used and Quantity Explosion of BOM reports, where RDLC layout is obsoleted and Excel becomes the default.
+summary: Covers the manufacturing report changes in Business Central version 27 (2025 Wave 2) and shows how to find code differences between versions using Stefan Maron's BC code history repository on GitHub with the GitLens extension in Visual Studio Code. In the Where Used Top Level report, the RDLC layout is obsolete and Excel is now the default. In Quantity Explosion of BOM, RDLC is obsolete and the default layout is Word, with Word and Excel as the main layouts.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - manufacturing analytics
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:18.230Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:18.275Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,19 +54,19 @@ evidence:
     t: 81
     quote: developers mostly developers uh can figure out what's been changed between uh a previous version and the current version
   - kind: video
-    url: https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=242s
-    title: "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences"
-    date: "2025-12-01T02:58:01.000Z"
-    commit: null
-    t: 242
-    quote: It's uh less than 15 minutes. Uh it's actually less than 10 minutes. um and it will give you a good um overview of
-  - kind: video
     url: https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=495s
     title: "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences"
     date: "2025-12-01T02:58:01.000Z"
     commit: null
     t: 495
     quote: we have code repository branches for code repository for versions from 15 all the way to 27
+  - kind: video
+    url: https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=788s
+    title: "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences"
+    date: "2025-12-01T02:58:01.000Z"
+    commit: null
+    t: 788
+    quote: Microsoft removed the default layout RDLC and they made now the default layout the Excel layout
 links:
   learn: []
   objects:
@@ -189,19 +189,19 @@ quotes:
   - t: 81
     text: developers mostly developers uh can figure out what's been changed between uh a previous version and the current version
     check: exact
-  - t: 242
-    text: It's uh less than 15 minutes. Uh it's actually less than 10 minutes. um and it will give you a good um overview of
-    check: exact
   - t: 495
     text: we have code repository branches for code repository for versions from 15 all the way to 27
+    check: exact
+  - t: 788
+    text: Microsoft removed the default layout RDLC and they made now the default layout the Excel layout
     check: exact
 ---
 
 # Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences
 
-> Manufacturing report changes in Business Central version 27 (2025 Wave 2), and how to find code differences between versions using Stefan Maron's BC code history repository on GitHub with the GitLens extension in Visual Studio Code. Demonstrates the Where Used and Quantity Explosion of BOM reports, where RDLC layout is obsoleted and Excel becomes the default.
+> Covers the manufacturing report changes in Business Central version 27 (2025 Wave 2) and shows how to find code differences between versions using Stefan Maron's BC code history repository on GitHub with the GitLens extension in Visual Studio Code. In the Where Used Top Level report, the RDLC layout is obsolete and Excel is now the default. In Quantity Explosion of BOM, RDLC is obsolete and the default layout is Word, with Word and Excel as the main layouts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VoiUhPb6HQ0) · Business Central Musings · 2025-12-01 · 23:27 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VoiUhPb6HQ0) · Business Central Musings · 2025-12-01 · 23:27 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -211,13 +211,13 @@ The presenter then runs the Where Used report and reviews code changes in it and
 
 ## Key points
 
-- Stefan Maron's GitHub BC code history repository has branches for versions 15 through 27, per country and for W1.
-- GitLens in Visual Studio Code gives file history and diffs, so you can compare version 26 and 27 of a report file.
-- In version 27 the default RDLC layout was removed from the reports shown and Excel is the default; the RDLC layout is marked obsolete and new labels support the Excel layout.
-- The browser report viewer is no longer available by default, so only a download appears; RDLC may still show if the installation is not clean.
-- Send To lets you get only the data set of a report without layout rendering.
-- Reports covered include Where Used, Where Used Top Level, Quantity Explosion of BOM, Production Order Work in Progress, Production Order Statistics and Production Order List.
-- Ad hoc analysis can be turned on for ledger list pages such as item ledger entries, and list pages can be opened in Excel.
+- Stefan Maron's GitHub BC code history repository has branches per country and for W1, covering versions 15 through 27.
+- GitLens in Visual Studio Code adds file history and diffs, so you can compare versions 26 and 27 of a report file.
+- In version 27 the Where Used Top Level report dropped its default RDLC layout and now defaults to Excel. The RDLC layout is marked obsolete, and new labels support the Excel layout.
+- Quantity Explosion of BOM now defaults to the Word layout. Its RDLC layout is obsolete, a new indent level column was added, and Word and Excel are now the main layouts.
+- When the Where Used Top Level report runs, only Download appears, so there is no in-browser report viewer. The RDLC layout may still appear if the installation is not clean.
+- Send To lets you get only the report's data set, without layout rendering.
+- Reports covered include Where Used Top Level, Quantity Explosion of BOM, Production Order Work in Progress, Production Order Statistics, and the new Production Order List.
 
 ## Chapters
 
@@ -237,19 +237,19 @@ The presenter then runs the Where Used report and reviews code changes in it and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Manufacturing reporting changes in BC 2025 Wave 2 | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=24s) |  |
-| Production Order Work in Progress report | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=333s) |  |
-| Production Order Statistics report | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=348s) |  |
-| Production Order List report | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=360s) |  |
-| Stefan Maron BC code history repository | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=404s) |  |
-| GitLens Visual Studio Code extension | status not stated, demoed | [1:34](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=94s) |  |
-| RDLC layout removal and Excel layout default | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=755s) |  |
-| Report data export to data set only | status not stated | [14:49](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=889s) |  |
-| Manufacturing analytics site | status not stated | [20:42](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1242s) |  |
-| Ad hoc analysis on manufacturing ledger pages | status not stated, demoed | [21:27](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1287s) |  |
-| Open in Excel from list pages | status not stated, demoed | [22:23](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1343s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Manufacturing reporting changes in BC 2025 Wave 2 | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=24s) |
+| Production Order Work in Progress report | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=333s) |
+| Production Order Statistics report | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=348s) |
+| Production Order List report | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=360s) |
+| Stefan Maron BC code history repository | status not stated, demoed | [6:44](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=404s) |
+| GitLens Visual Studio Code extension | status not stated, demoed | [1:34](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=94s) |
+| RDLC layout removal and Excel layout default | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=755s) |
+| Report data export to data set only | status not stated | [14:49](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=889s) |
+| Manufacturing analytics site | status not stated | [20:42](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1242s) |
+| Ad hoc analysis on manufacturing ledger pages | status not stated, demoed | [21:27](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1287s) |
+| Open in Excel from list pages | status not stated, demoed | [22:23](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1343s) |
 
 ## AL objects mentioned
 
@@ -269,8 +269,8 @@ Not found in BC28-30: report "Production Order Work in Progress", report "Produc
 - [0:02](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=2s) "we continue today with what's new in Business Central 2025 wave 2 uh also known as version 27"
 - [0:12](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=12s) "the changes uh that uh have affected uh manufacturing module and those changes are uh quite significant in terms of uh uh the reports"
 - [1:21](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=81s) "developers mostly developers uh can figure out what's been changed between uh a previous version and the current version"
-- [4:02](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=242s) "It's uh less than 15 minutes. Uh it's actually less than 10 minutes. um and it will give you a good um overview of"
 - [8:15](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=495s) "we have code repository branches for code repository for versions from 15 all the way to 27"
+- [13:08](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=788s) "Microsoft removed the default layout RDLC and they made now the default layout the Excel layout"
 
 ## Disclaimers in the video
 

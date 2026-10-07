@@ -2,7 +2,7 @@
 id: video/jfvUkNa4gyg
 type: video
 title: AL Development using Claude Code - The Business Central Coding Stream
-summary: Stefan Maron's coding stream shows an agent-based AL development workflow in Claude Code (named "Cloud Code" in the facts), with planning, developer, code review and diagnostics agents, approval gates, and file-based context. It includes a real session that refactored a customer project for testability, with caveats about work in progress and as-is config.
+summary: This coding stream shows a personal agent-based AL development workflow in Claude Code (captions say "Cloud Code"). It uses plan, develop, code review and diagnostics agents, approval gates, and markdown files that keep the context clean. It also shows an open source AL compile wrapper and a real one-hour session that refactored a customer extension for testability using interface wrappers. The presenter says the config is provided as is and is still a work in progress.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - interface patterns
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:15.378Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:15.421Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -264,9 +264,9 @@ quotes:
 
 # AL Development using Claude Code - The Business Central Coding Stream
 
-> Stefan Maron's coding stream shows an agent-based AL development workflow in Claude Code (named "Cloud Code" in the facts), with planning, developer, code review and diagnostics agents, approval gates, and file-based context. It includes a real session that refactored a customer project for testability, with caveats about work in progress and as-is config.
+> This coding stream shows a personal agent-based AL development workflow in Claude Code (captions say "Cloud Code"). It uses plan, develop, code review and diagnostics agents, approval gates, and markdown files that keep the context clean. It also shows an open source AL compile wrapper and a real one-hour session that refactored a customer extension for testability using interface wrappers. The presenter says the config is provided as is and is still a work in progress.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jfvUkNa4gyg) · Stefan Maron · 2026-01-28 · 46:25 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jfvUkNa4gyg) · Stefan Maron · 2026-01-28 · 46:25 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -279,7 +279,7 @@ In a real customer project session, he had the agents analyze existing code for 
 - Agents write detailed findings to files and return only a short summary to the main session. This kept context at 69% (started at 20%) during a run of over one hour.
 - The planning phase runs a requirements engineer and then a solution planner, with manual approval between them. The solution plan was about 700 lines and still contained some AL code despite instructions to avoid it.
 - The requirements engineer run took about 3 minutes and used more than 50,000 tokens to produce a large requirements document.
-- The developer agent ran six phases in sequence, with code review and diagnostics. It took 1 hour 1 minute, touched 42 files and wrote about 8,000 lines. Access modifiers had to change from local to internal to support the test app.
+- The developer agent ran six phases in sequence, followed by code review and diagnostics. It took 1 hour 1 minute, touched 42 files, wrote about 8,000 lines and deleted 14,000 lines. Access modifiers had to change from local to internal so the test app could call them.
 - The AL compile wrapper detects the VS Code extension folder, reuses the compiler and finds the package caches and analyzers. It must be run from a project directory.
 - The AL compiler can write diagnostics to JSON in a folder, which Claude Code can process more easily. It requires compiler settings and currently produces many info-level items.
 - For testability, he used an interface wrapper (for example around posting) so it can be mocked, instead of single instance codeunits. The agents cannot easily execute tests.
@@ -303,31 +303,31 @@ In a real customer project session, he had the agents analyze existing code for 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cloud Code | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=79s) |  |
-| Cloud Code plugins marketplace | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=320s) |  |
-| Agent-based development workflow | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=220s) |  |
-| Planning agent with requirements and solution planning | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=467s) |  |
-| Develop agent with code review and diagnostics | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=484s) |  |
-| Document-driven development approach | status not stated, demoed | [11:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=694s) |  |
-| Agent-based orchestration for Cloud Code | status not stated, demoed | [13:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=785s) |  |
-| AL Compile Wrapper Tool | status not stated, demoed | [16:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=965s) |  |
-| Requirements Engineer Agent | status not stated, demoed | [14:35](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=875s) |  |
-| Code Review Agent | status not stated, demoed | [17:42](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1062s) |  |
-| Diagnostics Fixer Agent | status not stated, demoed | [18:36](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1116s) |  |
-| Interface wrapper pattern for testability | status not stated, demoed | [22:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1344s) |  |
-| Iterative refactoring with context preservation | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1488s) |  |
-| Solution planning agent | status not stated, demoed | [27:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1654s) |  |
-| Multi-phase developer agent | status not stated, demoed | [29:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1787s) |  |
-| AL compiler JSON output | generally available (roadmap [573351](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |  |
-| Interface parameters with dependency injection | status not stated, demoed | [36:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2197s) |  |
-| Unpolluted context with agent architecture | status not stated, demoed | [40:16](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2416s) |  |
-| Cloud Profiles for AI Agent Configuration | status not stated | [39:01](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2341s) |  |
-| Agent Context Isolation | status not stated, demoed | [40:27](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2427s) |  |
-| Agent File-Based Output Strategy | status not stated, demoed | [41:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2484s) |  |
-| Extended Agent Session Runtime | status not stated, demoed | [41:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2465s) |  |
-| Agent-Driven Development Orchestration | status not stated, demoed | [42:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2557s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cloud Code | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=79s) |
+| Cloud Code plugins marketplace | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=320s) |
+| Agent-based development workflow | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=220s) |
+| Planning agent with requirements and solution planning | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=467s) |
+| Develop agent with code review and diagnostics | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=484s) |
+| Document-driven development approach | status not stated, demoed | [11:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=694s) |
+| Agent-based orchestration for Cloud Code | status not stated, demoed | [13:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=785s) |
+| AL Compile Wrapper Tool | status not stated, demoed | [16:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=965s) |
+| Requirements Engineer Agent | status not stated, demoed | [14:35](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=875s) |
+| Code Review Agent | status not stated, demoed | [17:42](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1062s) |
+| Diagnostics Fixer Agent | status not stated, demoed | [18:36](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1116s) |
+| Interface wrapper pattern for testability | status not stated, demoed | [22:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1344s) |
+| Iterative refactoring with context preservation | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1488s) |
+| Solution planning agent | status not stated, demoed | [27:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1654s) |
+| Multi-phase developer agent | status not stated, demoed | [29:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1787s) |
+| AL compiler JSON output | generally available (roadmap [573351](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |
+| Interface parameters with dependency injection | status not stated, demoed | [36:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2197s) |
+| Unpolluted context with agent architecture | status not stated, demoed | [40:16](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2416s) |
+| Cloud Profiles for AI Agent Configuration | status not stated | [39:01](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2341s) |
+| Agent Context Isolation | status not stated, demoed | [40:27](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2427s) |
+| Agent File-Based Output Strategy | status not stated, demoed | [41:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2484s) |
+| Extended Agent Session Runtime | status not stated, demoed | [41:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2465s) |
+| Agent-Driven Development Orchestration | status not stated, demoed | [42:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2557s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

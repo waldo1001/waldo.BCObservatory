@@ -20,12 +20,12 @@ tags:
   - component design
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:58.823Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:58.878Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -221,7 +221,7 @@ quotes:
 
 > Applying the C4 model (software system, container, component, code levels) to visualize AL architecture in Business Central, using a bridge app and interface/enum integration provider example. Also covers Structurizr DSL and Copilot checks against SOLID principles.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=reUoIdQZaNM) · Areopa webinars · 2026-02-12 · 51:16 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=reUoIdQZaNM) · Areopa webinars · 2026-02-12 · 51:16 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -232,12 +232,12 @@ He applies this to a solution hub PTE with an EROC connector bridge app and a pr
 ## Key points
 
 - The C4 model uses four levels: software system, container, component and code. C4 containers are not Docker containers.
-- Mapping used in the session: PTEs and extensions as containers, and folder or namespace structure as the code level.
-- Enum-based integration provider pattern: an enum defines providers and interfaces supply the implementations, so new providers can be added without changing existing code.
-- The bridge app pattern lets external systems connect through interchangeable connector apps. The presenter found it hard to implement, and it needs careful API design and consistent data models.
+- Mapping used in the session: Business Central as the software system, PTEs and AppSource apps as containers, namespaces inside extensions as components, and AL files grouped in folders or namespaces as the code level.
+- Enum-based integration provider pattern: an enum defines providers and interfaces supply the implementations, so new providers can be added without changing existing code. A test app can mock a provider.
+- The bridge app pattern lets external systems connect through interchangeable connector apps, so a connector can be removed while the data stays in Business Central. The presenter found the architectural work not easy.
 - Write design decisions into diagrams, for example whether systems exchange JSON or XML.
 - Use system context and container views for business executives, and deeper levels for developers.
-- Structurizr DSL captures C4 diagrams as code, but you must learn the syntax, create the DSL file manually from existing diagrams, and still export to update diagrams.
+- Structurizr DSL keeps the model and its views in one file, so a model change updates every view, though diagrams must be exported again. Copilot generated a DSL file from a draw.io diagram screenshot, and it can be rendered in the Structurizr web playground.
 
 ## Chapters
 
@@ -259,22 +259,22 @@ He applies this to a solution hub PTE with an EROC connector bridge app and a pr
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| C4 Model for Architecture Visualization | status not stated, demoed | [12:33](https://www.youtube.com/watch?v=reUoIdQZaNM&t=753s) |  |
-| Bridge App Pattern for System Integration | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=reUoIdQZaNM&t=407s) |  |
-| AL Interfaces | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=reUoIdQZaNM&t=348s) |  |
-| Architecture Diagram Documentation | status not stated, demoed | [22:08](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1328s) |  |
-| Code Architecture Reflection | status not stated | [23:15](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1395s) |  |
-| Stakeholder Architecture Communication | status not stated, demoed | [25:20](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1520s) |  |
-| Solution hub module | status not stated | [28:17](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1697s) |  |
-| EROC connector | status not stated, demoed | [30:32](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1832s) |  |
-| Projects integration module | status not stated, demoed | [31:28](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1888s) |  |
-| Enum-based integration provider pattern | status not stated, demoed | [33:16](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1996s) |  |
-| Architecture clarity improves AI prompts | status not stated | [34:30](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2070s) |  |
-| Structurizr DSL for architecture as code | status not stated, demoed | [37:41](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2261s) |  |
-| Copilot architecture validation | status not stated, demoed | [39:22](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2362s) |  |
-| Structurizer playground | status not stated, demoed | [41:37](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2497s) |  |
+| Feature | Status | At |
+|---|---|---|
+| C4 Model for Architecture Visualization | status not stated, demoed | [12:33](https://www.youtube.com/watch?v=reUoIdQZaNM&t=753s) |
+| Bridge App Pattern for System Integration | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=reUoIdQZaNM&t=407s) |
+| AL Interfaces | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=reUoIdQZaNM&t=348s) |
+| Architecture Diagram Documentation | status not stated, demoed | [22:08](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1328s) |
+| Code Architecture Reflection | status not stated | [23:15](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1395s) |
+| Stakeholder Architecture Communication | status not stated, demoed | [25:20](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1520s) |
+| Solution hub module | status not stated | [28:17](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1697s) |
+| EROC connector | status not stated, demoed | [30:32](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1832s) |
+| Projects integration module | status not stated, demoed | [31:28](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1888s) |
+| Enum-based integration provider pattern | status not stated, demoed | [33:16](https://www.youtube.com/watch?v=reUoIdQZaNM&t=1996s) |
+| Architecture clarity improves AI prompts | status not stated | [34:30](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2070s) |
+| Structurizr DSL for architecture as code | status not stated, demoed | [37:41](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2261s) |
+| Copilot architecture validation | status not stated, demoed | [39:22](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2362s) |
+| Structurizer playground | status not stated, demoed | [41:37](https://www.youtube.com/watch?v=reUoIdQZaNM&t=2497s) |
 
 ## AL objects mentioned
 

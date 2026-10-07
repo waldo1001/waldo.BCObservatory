@@ -1,0 +1,30 @@
+{
+  "video_id": "B8PLDeZ73Y4",
+  "item_id": "video/yt-bcmusings/B8PLDeZ73Y4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes check out as verbatim. Some run across segment boundaries, which is allowed.",
+    "The summary says the video demos both tools, but snapshot debugging is only described. The on-screen walkthrough covers the ALCPU profile file and the profiler pages.",
+    "Key point overstated: the speaker says the AL profiler is 'not necessarily for errors', but the page says it is 'not for debugging errors'.",
+    "Key point overstated: the transcript says the profile file 'can' be imported and analyzed in VS Code, but the page says it 'must'.",
+    "Quote at 20.8 is mostly filler, so I dropped it.",
+    "All feature statuses are unclear, which is correct: the transcript never says whether anything is in preview or generally available."
+  ],
+  "input_hash": "208bc94c6544ac61d368dd1a50359fabe811914f0be9df4001a44f32d9938f16",
+  "by": "opus",
+  "at": "2026-10-07T23:22:31.286Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 346s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.069729
+  }
+}

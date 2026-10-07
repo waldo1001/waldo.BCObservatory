@@ -1,0 +1,29 @@
+{
+  "video_id": "1ft4o9lQzsU",
+  "item_id": "video/yt-areopa/1ft4o9lQzsU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quotes at t=398 and t=1554.6 end with an inserted ellipsis and are not verbatim; dropped.",
+    "Quote at t=2422.7 appears twice (differs only by trailing period); duplicate noted, not dropped since drop-by-t would remove both.",
+    "Key point on permissions stated as fact, but the presenter hedged ('I think', 'something I haven't necessarily dove into'); reworded.",
+    "Key point on securing hidden sheets softened to reflect presenter's uncertainty.",
+    "All features correctly left as unclear; no GA or preview statements in transcript. Some features overlap (four-step process, existing data sets, analytical capabilities) but are supported."
+  ],
+  "input_hash": "777d223b2d583504039efecc8b6f8f74d832b8877c51ec05467b359c57b0597e",
+  "by": "opus",
+  "at": "2026-10-07T23:22:10.805Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 1900s",
+    "quote at 1403s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.233041
+  }
+}

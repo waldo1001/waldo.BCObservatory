@@ -16,12 +16,12 @@ tags:
   - custom tables
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:28.202Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:28.248Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,11 +122,6 @@ features:
     t: 457
     verified: false
     status_source: video
-  - name: Custom data copy solution
-    status: unclear
-    t: 483
-    verified: false
-    status_source: video
 objects_mentioned:
   - table test
   - table table 5100
@@ -154,7 +149,7 @@ quotes:
 
 > Two built-in ways to copy table data between companies in Business Central as of October 2025: Master Data Management Setup (pull strategy, generally available) and the Configuration Worksheet "Copy Data from Company" action. Covers setup, demos with a custom table and trade-offs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BlkW7VC52c0) · Business Central Musings · 2025-10-06 · 9:54 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BlkW7VC52c0) · Business Central Musings · 2025-10-06 · 9:54 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -189,7 +184,6 @@ The first is Master Data Management Setup, which pulls data from a source compan
 | Master Data Management Setup | generally available, demoed | [0:46](https://www.youtube.com/watch?v=BlkW7VC52c0&t=46s) | "we have right now available in Business Central in 2025 in October 2025" ([0:34](https://www.youtube.com/watch?v=BlkW7VC52c0&t=34s)) |
 | Configuration Worksheet | status not stated, demoed | [5:38](https://www.youtube.com/watch?v=BlkW7VC52c0&t=338s) |  |
 | Configuration Packages | status not stated | [7:37](https://www.youtube.com/watch?v=BlkW7VC52c0&t=457s) |  |
-| Custom data copy solution | status not stated | [8:03](https://www.youtube.com/watch?v=BlkW7VC52c0&t=483s) |  |
 
 ## AL objects mentioned
 

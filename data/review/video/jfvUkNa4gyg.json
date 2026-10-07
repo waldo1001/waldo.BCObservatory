@@ -1,0 +1,33 @@
+{
+  "video_id": "jfvUkNa4gyg",
+  "item_id": "video/yt-stefanmaron/jfvUkNa4gyg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter as Stefan Maron, but the transcript never says his name. That is outside knowledge, so the summary has been rewritten without it.",
+    "Two quotes (t 1577.6 and t 2048.9) end with an added '...', so they are not verbatim. t 1577.6 also appears twice. Both are dropped and clean verbatim versions are added back.",
+    "The quote at t 2437.4 appears twice, once short and once longer. It is dropped and only the longer version is added back.",
+    "The key points are supported by the transcript. One detail is added: the run also deleted 14,000 lines of code.",
+    "Some features overlap: 'Unpolluted context with agent architecture' with 'Agent Context Isolation', and 'Agent-based orchestration for Cloud Code' with 'Agent File-Based Output Strategy'. Both are supported, so all are kept.",
+    "'Cloud Code' and 'cloud profiles' are caption mishearings of Claude Code and Claude configs. The new summary says this.",
+    "All feature statuses are 'unclear'. That is right for a demo of personal tooling with no statement of preview or GA status."
+  ],
+  "input_hash": "2aa852dd786d776632df8dd5c9badab30d711ceac4beba088770d8efaffe1881",
+  "by": "opus",
+  "at": "2026-10-07T23:22:15.378Z",
+  "applied": [
+    "dropped 5 quote(s)",
+    "quote at 1578s",
+    "quote at 2049s",
+    "quote at 2437s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.220397
+  }
+}

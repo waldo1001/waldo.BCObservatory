@@ -373,12 +373,6 @@
       "check": "exact"
     },
     {
-      "t": 242.9,
-      "text": "It's uh less than 15 minutes. Uh it's actually less than 10 minutes. um and it will give you a good um overview of",
-      "why_it_matters": "References the manufacturing analytics video as a concise overview of reporting improvements",
-      "check": "exact"
-    },
-    {
       "t": 495.6,
       "text": "we have code repository branches for code repository for versions from 15 all the way to 27",
       "why_it_matters": "Shows the comprehensive version coverage available in Stefan's repository",
@@ -412,6 +406,12 @@
       "t": 1086.2,
       "text": "the RDLC layout is obsoleted and also we got a bunch of labels which are used in the Excel uh layout.",
       "why_it_matters": "Indicates obsolescence of RDLC support and new label system for Excel layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 1176.8,
+      "text": "So right now the default layout is worth and some of the columns have now a comment that uh the field is only used",
+      "why_it_matters": "Shows that Quantity Explosion of BOM now defaults to Word, not Excel.",
       "check": "exact"
     },
     {

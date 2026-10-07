@@ -1,0 +1,37 @@
+{
+  "video_id": "Fk6kWTe3f2Y",
+  "item_id": "video/yt-bcmusings/Fk6kWTe3f2Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Copilot for analysis view suggestions' (t 1038.5) gives Copilot credit for Claude's work: the transcript shows Claude for Excel getting that prompt and suggesting item profitability.",
+    "Features about the presenter's earlier videos (Copilot-generated tabs, queries, projects query) are only mentioned in the closing recap and are not shown in this video. 'Add related table fields to pages' repeats 'Cross-table analysis views'.",
+    "There are two quotes at t 1565 and the second contains an ellipsis, so it is not verbatim. Dropping by t removes both, so one exact quote is re-added.",
+    "The quotes at t 1609 and t 1635.4 only describe earlier videos and add nothing useful.",
+    "The summary and key points leave out Claude for Excel, which the demo uses.",
+    "The key point 'generated JSON should be reviewed' is not stated in the transcript. The publish error was framed as a caveat, but the presenter just uninstalled the earlier extension and published again.",
+    "The demo runs in a sandbox the presenter describes as 'version 28 preview', so the core features are marked as preview."
+  ],
+  "input_hash": "53803d64a4d46ad29a6a78bfbb2f7c914b3bf206fe82827f0a82e21c7955daae",
+  "by": "opus",
+  "at": "2026-10-07T23:21:45.136Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "Analysis views packaged in AL extensions: status preview",
+    "Analysis JSON export from web client: status preview",
+    "dropped 5 quote(s)",
+    "quote at 1565s",
+    "quote at 516s",
+    "quote at 895s",
+    "quote at 1419s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.176941
+  }
+}

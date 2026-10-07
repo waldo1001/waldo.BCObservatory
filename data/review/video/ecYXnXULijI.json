@@ -1,0 +1,38 @@
+{
+  "video_id": "ecYXnXULijI",
+  "item_id": "video/yt-stefanmaron/ecYXnXULijI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 3 lists three authentication approaches, but the transcript only names the first one (bind from host). The presenter only says he wants both folder binding and an API key supported.",
+    "Key point 7 says the Anthropic dev container is not used. The presenter actually says 'Then we'll use that one.' It also calls the AL compile, publish and test commands planned, but he says he has already built them and plans to bake them into the container.",
+    "Feature 'Dev container with Arch Linux base' is wrong: Omakhi (Arch Linux) is the presenter's host OS, not the container base. The container uses Ubuntu.",
+    "Feature 'Cloud Code transcription with imperfect speech-to-text' is wrong: Whisper belongs to the presenter's own voice shortcut, not to Claude Code.",
+    "Feature 'Anthropic dev container for AL development' wrongly says Anthropic's container is designed for AL. It also duplicates the Anthropic template feature.",
+    "Features 'Docker volume mounting for cloud authentication' and 'Multi-subscription dev container support' mention Azure, which the transcript never mentions. The subscriptions are Claude subscriptions.",
+    "Feature 'GitHub Copilot autonomous problem solving' credits Copilot with the autonomous fixes. The presenter is comparing the agent to Copilot ('never seen with GitHub Copilot').",
+    "Feature 'Cloud Code authentication binding approaches' claims three named approaches that the transcript does not support.",
+    "Quote 1663.1 duplicates 1668.9. Quotes 797.9 and 2551.9 carry no useful information.",
+    "The page is missing the outcome: authentication now persists, which counts as an MVP but still needs confirmation prompts. Quotes added for this."
+  ],
+  "input_hash": "7f036e2c52c282e48a3edf18ffe6a554c240ed3b56bf47fb0839c0c4f2310672",
+  "by": "opus",
+  "at": "2026-10-07T23:22:12.042Z",
+  "applied": [
+    "dropped 7 feature(s)",
+    "AL-specific directory mounting: status announced",
+    "dropped 3 quote(s)",
+    "quote at 1452s",
+    "quote at 3616s",
+    "quote at 4810s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.27069299999999996
+  }
+}

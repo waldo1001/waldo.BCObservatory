@@ -1,0 +1,27 @@
+{
+  "video_id": "2vUCR16b85o",
+  "item_id": "video/yt-bcmusings/2vUCR16b85o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim, including the ones that run across segment boundaries.",
+    "In the video, the presenter skips the SharePoint connector because he has no SharePoint server or web application of his own. The key point turned that into a general requirement, so I reworded it.",
+    "Added a key point on the wizard fields and the default storage toggle, which the demo shows.",
+    "All feature statuses stay unclear. The transcript only says Wave 1 was released on April 14, 2025, and never states a preview or GA status for a specific feature.",
+    "The Storage Browser feature description mentions file shares, but the demo only browsed a blob container. This is minor, so I left it."
+  ],
+  "input_hash": "1e73a1c138270ef1a20d679dd31ae30ac04e4cc9d0c88b97d986da791ca27fb5",
+  "by": "opus",
+  "at": "2026-10-07T23:22:37.806Z",
+  "applied": [
+    "quote at 585s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.081337
+  }
+}

@@ -20,25 +20,18 @@ tags:
   - conditional formatting
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:10.805Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:10.883Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 30c336495ee4bcbcaea6b2f90d6b4e3e7c79af79cb8abafe6983dc593aa127af
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=1ft4o9lQzsU&t=398s
-    title: "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting"
-    date: "2026-01-28T10:55:47.000Z"
-    commit: null
-    t: 398
-    quote: Excel report layouts use the built-in functionality of Business Central. So being able to not only leverage data sets that ...
   - kind: video
     url: https://www.youtube.com/watch?v=1ft4o9lQzsU&t=419s
     title: "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting"
@@ -67,6 +60,13 @@ evidence:
     commit: null
     t: 576
     quote: You can actually mix and match your data from multiple sources using Power Query. So this is kind of that refreshable Excel reports experience.
+  - kind: video
+    url: https://www.youtube.com/watch?v=1ft4o9lQzsU&t=648s
+    title: "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting"
+    date: "2026-01-28T10:55:47.000Z"
+    commit: null
+    t: 648
+    quote: The biggest thing about Excel reports is that it enables the end user to be involved in their layout creation and maintenance. So it's
 links:
   learn: []
   objects:
@@ -248,9 +248,6 @@ objects_mentioned:
   - api sales orders API
   - table item ledger entries
 quotes:
-  - t: 398
-    text: Excel report layouts use the built-in functionality of Business Central. So being able to not only leverage data sets that ...
-    check: exact
   - t: 419
     text: Excel reports don't require any coding experience. So everything that I'm kind of going through today, I didn't have to write any custom code.
     check: exact
@@ -263,13 +260,16 @@ quotes:
   - t: 576
     text: You can actually mix and match your data from multiple sources using Power Query. So this is kind of that refreshable Excel reports experience.
     check: exact
+  - t: 648
+    text: The biggest thing about Excel reports is that it enables the end user to be involved in their layout creation and maintenance. So it's
+    check: exact
 ---
 
 # 20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting
 
 > Excel report layouts in Business Central: a four-step process (get workbook with data contract, lay out data, import, test) and refreshable reports that use OData, Power Query and APIs. Covers data contract rules, hidden metadata sheets, OneDrive setup, permissions and password limits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1ft4o9lQzsU) · Areopa webinars · 2026-01-28 · 50:00 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1ft4o9lQzsU) · Areopa webinars · 2026-01-28 · 50:00 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -279,13 +279,13 @@ The second half covers refreshable Excel reports. These connect to Business Cent
 
 ## Key points
 
-- The data contract is the data sheet and table named data. It must start at cell A1, and end users must not change its column names.
-- Hidden system sheets hold report metadata, captions, translations and aggregated metadata (tenant, environment, company, language). They can be hidden but not secured from users.
+- The data contract is the data sheet and table named data. It must start at cell A1, needs at least one column, and end users should not change its column names; developers can add new columns from the report data set.
+- Hidden system sheets hold report metadata, captions, translations and aggregated metadata (tenant, environment, company, language). They can be re-hidden, but the presenter knows no way to stop users from unhiding them.
 - When importing a layout, the Excel file must not be password protected. The data worksheet must exist and be named correctly, and columns are validated against the data contract.
 - With OneDrive set up by an administrator through the OneDrive setup wizard, the workbook opens in the browser. Without it, the file downloads to the device. Popups must not be blocked, and SharePoint external sharing settings should be reviewed.
 - Refreshable reports connect through an OData feed in Power Query with an organizational account. API URL: API.Central.dynamics.com/2.0/[tenant-id]/[environment-name]/api/[publisher]/[group]/[API]. Publisher and group are needed only for custom APIs.
 - Power Query variables can read tenant ID, environment name and company ID from the aggregated metadata sheet, which makes switching between sandbox and production easier. Company ID may contain curly brackets that need cleanup.
-- Users of API-based reports need read permission on the tables used. Password protection is possible only for refreshable reports stored outside Business Central.
+- The presenter believes users of API-based reports need permissions on the tables used but had not verified it. Password protection is possible only for refreshable reports stored outside Business Central.
 
 ## Chapters
 
@@ -312,30 +312,30 @@ The second half covers refreshable Excel reports. These connect to Business Cent
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Excel report layouts | status not stated, demoed | [6:38](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=398s) |  |
-| Power Query integration for refreshable reports | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=442s) |  |
-| Data contract in Excel layouts | status not stated, demoed | [17:46](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1066s) |  |
-| System Excel sheets and metadata | status not stated, demoed | [20:34](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1234s) |  |
-| Named formulas for metadata access | status not stated, demoed | [24:34](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1474s) |  |
-| Excel native features in report layouts | status not stated, demoed | [25:21](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1521s) |  |
-| Copilot integration in Excel reports | status not stated | [25:54](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1554s) |  |
-| OneDrive integration for Excel reports | status not stated | [26:28](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1588s) |  |
-| Physical inventory Excel reports | status not stated, demoed | [12:46](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=766s) |  |
-| Multilingual Excel report layouts | status not stated, demoed | [23:23](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1403s) |  |
-| Office 365 collaboration for Excel reports | status not stated | [10:22](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=622s) |  |
-| Excel layout import and validation | status not stated, demoed | [28:09](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1689s) |  |
-| Excel report layout testing and execution | status not stated, demoed | [31:14](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1874s) |  |
-| Refreshable Excel report layouts | status not stated, demoed | [32:31](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1951s) |  |
-| Business Central API structure and authentication | status not stated, demoed | [33:27](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2007s) |  |
-| Dynamic API connection using environment variables | status not stated, demoed | [36:33](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2193s) |  |
-| Custom APIs for Excel reports | status not stated, demoed | [38:05](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2285s) |  |
-| Permissions and API access for Excel reports | status not stated | [40:03](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2403s) |  |
-| Sheet protection and password limitations | status not stated, demoed | [42:24](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2544s) |  |
-| Excel report layout four-step process | status not stated, demoed | [45:14](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2714s) |  |
-| Existing report data sets export to Excel | status not stated, demoed | [45:39](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2739s) |  |
-| Excel data analytical capabilities for reporting | status not stated, demoed | [46:10](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2770s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Excel report layouts | status not stated, demoed | [6:38](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=398s) |
+| Power Query integration for refreshable reports | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=442s) |
+| Data contract in Excel layouts | status not stated, demoed | [17:46](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1066s) |
+| System Excel sheets and metadata | status not stated, demoed | [20:34](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1234s) |
+| Named formulas for metadata access | status not stated, demoed | [24:34](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1474s) |
+| Excel native features in report layouts | status not stated, demoed | [25:21](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1521s) |
+| Copilot integration in Excel reports | status not stated | [25:54](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1554s) |
+| OneDrive integration for Excel reports | status not stated | [26:28](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1588s) |
+| Physical inventory Excel reports | status not stated, demoed | [12:46](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=766s) |
+| Multilingual Excel report layouts | status not stated, demoed | [23:23](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1403s) |
+| Office 365 collaboration for Excel reports | status not stated | [10:22](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=622s) |
+| Excel layout import and validation | status not stated, demoed | [28:09](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1689s) |
+| Excel report layout testing and execution | status not stated, demoed | [31:14](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1874s) |
+| Refreshable Excel report layouts | status not stated, demoed | [32:31](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=1951s) |
+| Business Central API structure and authentication | status not stated, demoed | [33:27](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2007s) |
+| Dynamic API connection using environment variables | status not stated, demoed | [36:33](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2193s) |
+| Custom APIs for Excel reports | status not stated, demoed | [38:05](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2285s) |
+| Permissions and API access for Excel reports | status not stated | [40:03](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2403s) |
+| Sheet protection and password limitations | status not stated, demoed | [42:24](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2544s) |
+| Excel report layout four-step process | status not stated, demoed | [45:14](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2714s) |
+| Existing report data sets export to Excel | status not stated, demoed | [45:39](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2739s) |
+| Excel data analytical capabilities for reporting | status not stated, demoed | [46:10](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=2770s) |
 
 ## AL objects mentioned
 
@@ -351,11 +351,11 @@ Not found in BC28-30: report "Physical inventory list", table "item ledger entri
 
 ## Quotes
 
-- [6:38](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=398s) "Excel report layouts use the built-in functionality of Business Central. So being able to not only leverage data sets that ..."
 - [6:59](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=419s) "Excel reports don't require any coding experience. So everything that I'm kind of going through today, I didn't have to write any custom code."
 - [7:56](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=476s) "Where we've kind of been limited with reporting in the past is your data is presented to you kind of in that like flat"
 - [8:09](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=489s) "When we give the data over to Excel, we're able to use pivot tables. were able to use really the whole, you know, experience"
 - [9:36](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=576s) "You can actually mix and match your data from multiple sources using Power Query. So this is kind of that refreshable Excel reports experience."
+- [10:48](https://www.youtube.com/watch?v=1ft4o9lQzsU&t=648s) "The biggest thing about Excel reports is that it enables the end user to be involved in their layout creation and maintenance. So it's"
 
 ## Disclaimers in the video
 

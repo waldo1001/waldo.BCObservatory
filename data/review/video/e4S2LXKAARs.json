@@ -1,0 +1,26 @@
+{
+  "video_id": "e4S2LXKAARs",
+  "item_id": "video/yt-areopa/e4S2LXKAARs",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "Quotes spot-checked (968.5, 1654.6, 2507, 3495.8); they cross segment boundaries but are verbatim, so they are fine.",
+    "All features are correctly left as unclear; they are practices and demos, not Microsoft product features with a release status.",
+    "The key point calling the VS Code extension 'still being planned' fits the transcript, where Tina's organization is 'looking at' it and she has already built a rough version.",
+    "The last chapter (1293.5 to 3643) lumps together the demos, the wrap-up (2935) and the Q&A (3132.8). It could be split, but chapters cannot be edited here.",
+    "Feature 'Centralized prompt management for teams' t_start 3025 is slightly early; the idea is actually discussed at 3069.8 to 3082.9.",
+    "Quote at 13.1 is only the webinar title; low value but harmless.",
+    "Summary says '4PS and a partner'; the transcript says Luke is QA lead at 4PS and Tina works at Companion. Acceptable."
+  ],
+  "input_hash": "2129c0e34bb34a96a86c6dd3f22099d981a652d14d2165c4a63f95167d4f1370",
+  "by": "opus",
+  "at": "2026-10-07T23:22:15.776Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.22302899999999998
+  }
+}

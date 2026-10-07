@@ -220,27 +220,6 @@
       "system": "development"
     },
     {
-      "name": "VS Code Web Server in Container",
-      "description": "Running a VS Code server in the background of the Docker container to allow browser-based access to the VS Code interface for managing the containerized Claude Code session.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 684.3,
-      "t_end": 782.8,
-      "is_demoed": false,
-      "caveats": [
-        "Not clear if always enabled or via parameter",
-        "Alternative approach of running VS Code on host side-by-side being considered"
-      ],
-      "tags": [
-        "vs code",
-        "web server",
-        "remote access"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Git Credential Protection via Pre-push Hook",
       "description": "Using a git pre-push hook to prevent Claude Code from pushing changes to the git remote, protecting credentials and repository integrity within the containerized environment.",
       "status": "unclear",
@@ -668,26 +647,6 @@
         "problem-framing"
       ],
       "system": "platform"
-    },
-    {
-      "name": "ALE development path",
-      "description": "Plan to continue building AL extension (ALE) development capabilities into the Claude Code Docker container, contingent on resolving any security issues.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 4008.6,
-      "t_end": 4023.3,
-      "is_demoed": false,
-      "caveats": [
-        "Depends on resolving container security issues first"
-      ],
-      "tags": [
-        "ale",
-        "extension-development",
-        "roadmap"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -738,6 +697,12 @@
       "t": 123.8,
       "text": "if that's in place, it's really hard to really have a clean way of trapping the uh the the cloud code inside the container",
       "why_it_matters": "Identifies the fundamental technical challenge - VS Code IPC connection creates an escape vector that Claude Code can reverse engineer from within the container.",
+      "check": "exact"
+    },
+    {
+      "t": 135.8,
+      "text": "because it can uh even reverse engineer um that bridge basically from with inside the container.",
+      "why_it_matters": "States the core dev container escape problem that motivates the standalone approach.",
       "check": "exact"
     },
     {
@@ -849,12 +814,6 @@
       "check": "exact"
     },
     {
-      "t": 2425.5,
-      "text": "I'm always thanking my cloud code if it's helping me.",
-      "why_it_matters": "Shows the Claude Code agent is being actively used and appreciated for assistance with coding tasks in the container environment.",
-      "check": "exact"
-    },
-    {
       "t": 2573.9,
       "text": "I still want to have the in container agent have the capability to commit to create new commits. I just want to prevent it",
       "why_it_matters": "Clarifies the security design goal: allow commits inside the container but prevent pushes to external repositories.",
@@ -903,6 +862,12 @@
       "check": "exact"
     },
     {
+      "t": 3515.5,
+      "text": "So the clot code can call home but there is no uh no GitHub allowed on within the container.",
+      "why_it_matters": "Explains the firewall design that blocks git pushes from inside the sandbox.",
+      "check": "exact"
+    },
+    {
       "t": 3533.1,
       "text": "when everything goes goes sideways and cloud code goes haywire it can destroy your entire GitHub repository but it cannot push those changes to",
       "why_it_matters": "Explains the security benefit of the firewall: limiting damage even if the container is compromised.",
@@ -921,15 +886,15 @@
       "check": "exact"
     },
     {
-      "t": 3879.7,
-      "text": "the knowledge that is combined inside an LLM like this and you have basically on the tip of your fingers, it's incredible",
-      "why_it_matters": "Expresses appreciation for LLM knowledge integration enabling complex infrastructure work.",
-      "check": "exact"
-    },
-    {
       "t": 3936.1,
       "text": "Need to find a way to have like have this kind of conversation. this kind of session run from the main session and then",
       "why_it_matters": "Describes the iterative conversation model needed to progressively resolve gaps in problem-solving within the sandbox.",
+      "check": "exact"
+    },
+    {
+      "t": 3954,
+      "text": "It cannot directly uh escape or do something vulnerably if that's the right word. I don't know.",
+      "why_it_matters": "States the lesson learned about how Claude Code behaves inside the sandbox.",
       "check": "exact"
     },
     {

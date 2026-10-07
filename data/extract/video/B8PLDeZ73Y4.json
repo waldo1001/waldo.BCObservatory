@@ -179,12 +179,6 @@
   "presenters": [],
   "quotes": [
     {
-      "t": 20.8,
-      "text": "with snapshot debugging. Um snapshot debugging is based on snapshots and um to uh generate a snapshot uh you need um you need a",
-      "why_it_matters": "Explains the fundamental requirement for snapshot debugging setup",
-      "check": "exact"
-    },
-    {
       "t": 84.2,
       "text": "you initialize a snapshot debugging with a key F7. Um then um then if you don't have a session ID or a user ID",
       "why_it_matters": "Documents the keyboard shortcut and configuration options for snapshot debugging",
@@ -200,6 +194,12 @@
       "t": 183.4,
       "text": "You generate the profile file. Uh the profile file is a file that has the extension ALCPU profile.",
       "why_it_matters": "Identifies the file format used by AL profiling tools",
+      "check": "exact"
+    },
+    {
+      "t": 345.9,
+      "text": "if you want to capture another user session uh you go to somewhere very close to where we've been.",
+      "why_it_matters": "Shows that the Scheduled Profiler is for capturing other users' sessions.",
       "check": "exact"
     },
     {

@@ -16,12 +16,12 @@ tags:
   - mb-800 exam
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:00.440Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:00.473Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,7 @@ quotes:
 
 > Extending ApplicationArea with custom areas in Business Central AL: extend the application area setup table, hook the new area to the premium or essential experience, enable it from an install codeunit, and use it on fields and groups in page extensions. Episode 19 of an MB-820 exam series.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uxYuoJP-uH8) · Business Central Musings · 2025-12-15 · 10:05 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uxYuoJP-uH8) · Business Central Musings · 2025-12-15 · 10:05 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -175,12 +175,12 @@ The demo then applies the custom area to fields and groups in a page extension a
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Application Area extension | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s) |  |
-| Enable custom area function | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=164s) |  |
-| Application area validation | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=224s) |  |
-| Application area usage in page extensions | status not stated, demoed | [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Application Area extension | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s) |
+| Enable custom area function | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=164s) |
+| Application area validation | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=224s) |
+| Application area usage in page extensions | status not stated, demoed | [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s) |
 
 ## AL objects mentioned
 

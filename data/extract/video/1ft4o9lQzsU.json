@@ -642,12 +642,6 @@
   ],
   "quotes": [
     {
-      "t": 398,
-      "text": "Excel report layouts use the built-in functionality of Business Central. So being able to not only leverage data sets that ...",
-      "why_it_matters": "Establishes that Excel reports are a native BC feature requiring no external add-ons, making them accessible and simple to implement.",
-      "check": "exact"
-    },
-    {
       "t": 419.1,
       "text": "Excel reports don't require any coding experience. So everything that I'm kind of going through today, I didn't have to write any custom code.",
       "why_it_matters": "Clarifies the no-code nature of Excel reports out of the box, lowering the barrier to entry for end users and non-developers.",
@@ -708,9 +702,9 @@
       "check": "exact"
     },
     {
-      "t": 1554.6,
-      "text": "now use like co-pilot within Excel. So you know asking co-pilot to help us analyze the data that we were ...",
-      "why_it_matters": "Shows integration of AI capabilities into Excel reporting for advanced data analysis and forecasting.",
+      "t": 1403,
+      "text": "So we have the translation data which uses the users language to translate strings that don't exist as captions in the report object.",
+      "why_it_matters": "Supports the multilingual Excel layout feature.",
       "check": "exact"
     },
     {
@@ -723,6 +717,12 @@
       "t": 1771.5,
       "text": "when you're importing your layout, you want to make sure that your Excel file is not password protected because Business Central is going to",
       "why_it_matters": "Critical requirement for successful Excel layout import that could prevent uploads if not followed.",
+      "check": "exact"
+    },
+    {
+      "t": 1900.2,
+      "text": "if your organization had configured one drive the the one the workbook is then like downloaded to one drive and opened in your browser",
+      "why_it_matters": "Explains where the workbook opens when running an Excel layout, depending on OneDrive setup.",
       "check": "exact"
     },
     {

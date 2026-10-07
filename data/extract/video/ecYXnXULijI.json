@@ -237,26 +237,6 @@
       "system": "copilot"
     },
     {
-      "name": "Cloud Code authentication binding approaches",
-      "description": "Three viable approaches for authentication: binding Cloud Code from host to share existing credentials, using API key environment variable, or combined approaches.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 535.5,
-      "t_end": 579.6,
-      "is_demoed": false,
-      "caveats": [
-        "Best approach still undecided"
-      ],
-      "tags": [
-        "authentication",
-        "cloud code",
-        "credentials"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Interactive Claude prompting within sessions",
       "description": "Claude can ask users interactive questions during task completion without interrupting the main session, allowing real-time refinement of requirements.",
       "status": "unclear",
@@ -336,28 +316,6 @@
       "system": "development"
     },
     {
-      "name": "GitHub Copilot autonomous problem solving",
-      "description": "GitHub Copilot in VS Code demonstrated autonomous capabilities including checking repository status, identifying issues in GitHub Actions workflows, committing and pushing changes, and automatically attempting to fix problems without explicit instructions for each step.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1482.5,
-      "t_end": 1679,
-      "is_demoed": true,
-      "caveats": [
-        "Issues may require manual intervention such as creating secrets or access tokens",
-        "Release action did not complete successfully on first attempt"
-      ],
-      "tags": [
-        "copilot",
-        "automation",
-        "github-integration",
-        "ai-assistance"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Dev Container CLI",
       "description": "A command-line interface tool for managing dev containers, discovered during the setup process for testing container configurations locally and with GitHub URLs.",
       "status": "unclear",
@@ -372,50 +330,6 @@
         "dev-container",
         "cli",
         "tooling"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Dev container with Arch Linux base",
-      "description": "Dev container setup using Arch Linux (Omakhi or Omakhali) as the base image for Business Central AL development, built on Arch Linux instead of traditional distributions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1703.8,
-      "t_end": 1870.9,
-      "is_demoed": true,
-      "caveats": [
-        "Dockerfile may not be needed when container is reused",
-        "Container reuse requires rebuild without cache"
-      ],
-      "tags": [
-        "dev containers",
-        "arch linux",
-        "docker",
-        "al development"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Cloud Code transcription with imperfect speech-to-text",
-      "description": "Cloud Code uses Whisper for speech-to-text transcription but does not accurately transcribe words; however it still understands intent and functions correctly despite transcription errors.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1925.6,
-      "t_end": 1937.1,
-      "is_demoed": true,
-      "caveats": [
-        "Transcription accuracy is imperfect",
-        "Only works if Cloud Code understands intent despite errors"
-      ],
-      "tags": [
-        "cloud code",
-        "speech-to-text",
-        "whisper",
-        "ai"
       ],
       "system": "development"
     },
@@ -591,50 +505,6 @@
       "system": "platform"
     },
     {
-      "name": "Docker volume mounting for cloud authentication",
-      "description": "A mechanism to persist Azure cloud code authentication credentials in Docker volumes that are created on first use, allowing developers to authenticate once and reuse credentials without passing authentication from the host machine.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3155,
-      "t_end": 3628.3,
-      "is_demoed": true,
-      "caveats": [
-        "Users still need to confirm some questions during authentication",
-        "Requires container to be running to inspect volume contents"
-      ],
-      "tags": [
-        "docker",
-        "volumes",
-        "authentication",
-        "credentials",
-        "mvp"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Multi-subscription dev container support",
-      "description": "Dev containers can use different Azure subscriptions than the host machine by naming mounts differently for different projects, allowing teams to separate and share project subscriptions independently.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3671.6,
-      "t_end": 3751.3,
-      "is_demoed": false,
-      "caveats": [
-        "Requires manual naming of mounts for different projects"
-      ],
-      "tags": [
-        "subscriptions",
-        "dev-containers",
-        "multi-tenant",
-        "configuration"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "AL-specific directory mounting",
       "description": "A planned enhancement to mount an AL-specific directory within the dev container that keeps cloud code configuration separate from general home directory files.",
       "status": "announced",
@@ -734,27 +604,6 @@
         "templates"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Anthropic dev container for AL development",
-      "description": "An Anthropic-published dev container designed specifically for AL development use cases that whitelists only Anthropic APIs and blocks everything else to encapsulate cloud code securely.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 4809.9,
-      "t_end": 4824.7,
-      "is_demoed": false,
-      "caveats": [
-        "Dev container is being published by Anthropic, not a Business Central feature"
-      ],
-      "tags": [
-        "dev container",
-        "docker",
-        "anthropic",
-        "al development"
-      ],
-      "system": "development"
     },
     {
       "name": "AL development commands in Docker container",
@@ -911,12 +760,6 @@
       "check": "exact"
     },
     {
-      "t": 797.9,
-      "text": "We have like six people on the stream watching me explain stuff while I prompt Cloud Code to do stuff.",
-      "why_it_matters": "Demonstrates live AI-assisted development workflow where multiple viewers observe the tool generating code and configurations.",
-      "check": "exact"
-    },
-    {
       "t": 932.3,
       "text": "The dev container feature. Uh Docker and Docker GitHub CLI etc. all distributed most composable.",
       "why_it_matters": "Identifies the recommended approach for dev container configuration using distributed, composable features.",
@@ -935,15 +778,15 @@
       "check": "exact"
     },
     {
-      "t": 1618.3,
-      "text": "This um level of autonomously I have never seen with uh with the GitHub Copilot in VS Code.",
-      "why_it_matters": "Expresses surprise at the autonomous capabilities of GitHub Copilot in fixing issues without explicit step-by-step instructions.",
+      "t": 1452,
+      "text": "But it doesn't it doesn't do the authentication. So, we need to iterate over this.",
+      "why_it_matters": "Shows the first container installed Claude Code but did not carry authentication.",
       "check": "exact"
     },
     {
-      "t": 1663.1,
-      "text": "It notices or it checks the runs on that repository, sees that there is an issue, and proceeds to fix that on its own.",
-      "why_it_matters": "Describes Copilot's autonomous debugging process: identifying workflow issues and attempting corrections without user direction.",
+      "t": 1618.3,
+      "text": "This um level of autonomously I have never seen with uh with the GitHub Copilot in VS Code.",
+      "why_it_matters": "Expresses surprise at the autonomous capabilities of GitHub Copilot in fixing issues without explicit step-by-step instructions.",
       "check": "exact"
     },
     {
@@ -1001,12 +844,6 @@
       "check": "exact"
     },
     {
-      "t": 2551.9,
-      "text": "if we also mount this one that might actually solution.",
-      "why_it_matters": "Proposes the shared folder mounting strategy as a potential solution to the authentication persistence problem.",
-      "check": "exact"
-    },
-    {
       "t": 2952.6,
       "text": "unfortunately, it still prompts me to unboard. So it's writing some files somewhere which are not in either of those two directory.",
       "why_it_matters": "Reveals that cloud code authentication state is not fully captured by the two mounted directories, indicating incomplete understanding of file locations.",
@@ -1028,6 +865,12 @@
       "t": 3213,
       "text": "the cloud trace JSON on the in the home directory itself doesn't contain uh the authentication information directly",
       "why_it_matters": "Clarifies that authentication data is stored separately from the cloud trace file, requiring a different mounting strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 3615.5,
+      "text": "It still asks some questions that I had to confirm, which would ideally be skipped as well. But, um yeah, authentication saved.",
+      "why_it_matters": "Confirms the volume approach persisted authentication, with remaining onboarding prompts.",
       "check": "exact"
     },
     {
@@ -1094,6 +937,12 @@
       "t": 4809.9,
       "text": "this is going to be the way Anthropic publish a dev container, which is exactly designed for this use case",
       "why_it_matters": "Explains the decision to use Anthropic's official dev container rather than a custom base, showing the strategic alignment with Anthropic's tooling.",
+      "check": "exact"
+    },
+    {
+      "t": 4809.9,
+      "text": "this is going to be the way Anthropic publish a dev container, which is exactly designed for this use case. Then we'll use that",
+      "why_it_matters": "Shows the decision to adopt Anthropic's dev container as the base going forward.",
       "check": "exact"
     },
     {

@@ -279,25 +279,6 @@
       "system": "platform"
     },
     {
-      "name": "GitHub rate limiting issue",
-      "description": "In May 2025, GitHub updated rate limits for unauthorized requests from 60,000 to 60 requests per hour per public IP, causing LinterCop DLL file downloads to fail in DevOps pipelines.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 236.8,
-      "t_end": 291.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "github",
-        "rate limits",
-        "devops",
-        "infrastructure"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "AL language version compatibility",
       "description": "LinterCop has issues supporting AL language 16.4 because the VS Code marketplace only has 16.3, and dev tools have 16.2. Business Central 27.4 requires AL 16.4.",
       "status": "unclear",
@@ -755,28 +736,6 @@
       "system": "development"
     },
     {
-      "name": "Transfer fields analyzer",
-      "description": "Custom analyzer that identifies transfer fields in AL code by parsing the base application and determining source and target tables. The analyzer creates JSON output mapping the source and target objects and their locations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3209.4,
-      "t_end": 3324.5,
-      "is_demoed": true,
-      "caveats": [
-        "Analyzer must handle cryptically named variables and implicit transfers",
-        "Initial implementation was a quick solution with room for improvements"
-      ],
-      "tags": [
-        "transfer fields",
-        "static analysis",
-        "custom analyzer",
-        "base application"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Transfer fields rule improvements",
       "description": "Enhanced transfer fields detection to support localization-specific fields, namespace handling, unidirectional coupling checks, and type-to-length analysis. Increased detected couplings from 200 to almost 400 across all versions and countries.",
       "status": "unclear",
@@ -1034,6 +993,12 @@
       "check": "exact"
     },
     {
+      "t": 269,
+      "text": "I think they uh get it back to like 60 requests per hour per public IP.",
+      "why_it_matters": "States the actual rate limit figure; no 60,000 figure appears in the transcript.",
+      "check": "exact"
+    },
+    {
       "t": 400.9,
       "text": "it felt it coming like a Swiss Army knife. This is central interop and you could pull everything out it",
       "why_it_matters": "Describes the core design problem ALCops aims to solve through modularization",
@@ -1067,6 +1032,12 @@
       "t": 902,
       "text": "the application cop that will look more at the coding standards more focused on business central and the platform cop is specific for the",
       "why_it_matters": "Explains the architectural separation between ApplicationCop and PlatformCop to create abstraction between AL language rules and Business Central-specific standards",
+      "check": "exact"
+    },
+    {
+      "t": 1029.2,
+      "text": "I don't really know what cops or what rules we would have for test automation >> um today. It's it's not really there yet.",
+      "why_it_matters": "Shows the test automation cop has no rules yet.",
       "check": "exact"
     },
     {

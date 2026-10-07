@@ -20,12 +20,12 @@ tags:
   - code generation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:39.768Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:39.818Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,7 +200,7 @@ quotes:
 
 > Learn AL with Claude is an interactive course in which students write AL code in VS Code alongside Claude as a tutor, with no videos or slides. The video demos the lesson flow, coding standards, a fictional equipment rental scenario and the markdown and JSON framework behind the course.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ir5BCNHgLm8) · Business Central Musings · 2026-02-23 · 24:47 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ir5BCNHgLm8) · Business Central Musings · 2026-02-23 · 24:47 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -237,19 +237,19 @@ The learning project is a Business Central extension for Nordic Outdoor Adventur
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Learn AL with Claude course | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=12s) |  |
-| Claude AI pair programming assistant | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=23s) |  |
-| Lesson command framework | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=385s) |  |
-| Company context and coding standards folder | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=71s) |  |
-| Equipment rental scenario for Nordic Outdoor Adventures | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=228s) |  |
-| Object creation with Claude file generation | status not stated, demoed | [12:43](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=763s) |  |
-| Interactive course with stopping points | status not stated, demoed | [16:12](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=972s) |  |
-| Lesson script framework | status not stated | [17:08](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1028s) |  |
-| Course configuration in JSON | status not stated | [22:00](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1320s) |  |
-| Reusable reference code library | status not stated | [18:46](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1126s) |  |
-| Starter extension template | status not stated | [19:11](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1151s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Learn AL with Claude course | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=12s) |
+| Claude AI pair programming assistant | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=23s) |
+| Lesson command framework | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=385s) |
+| Company context and coding standards folder | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=71s) |
+| Equipment rental scenario for Nordic Outdoor Adventures | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=228s) |
+| Object creation with Claude file generation | status not stated, demoed | [12:43](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=763s) |
+| Interactive course with stopping points | status not stated, demoed | [16:12](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=972s) |
+| Lesson script framework | status not stated | [17:08](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1028s) |
+| Course configuration in JSON | status not stated | [22:00](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1320s) |
+| Reusable reference code library | status not stated | [18:46](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1126s) |
+| Starter extension template | status not stated | [19:11](https://www.youtube.com/watch?v=Ir5BCNHgLm8&t=1151s) |
 
 ## AL objects mentioned
 

@@ -20,12 +20,12 @@ tags:
   - rule severity
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:54.732Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:54.822Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -61,12 +61,12 @@ evidence:
     t: 236
     quote: In May of 2025 um GitHub updated the rate limits for and uh important part unauthorized request
   - kind: video
-    url: https://www.youtube.com/watch?v=tMqCSibSRug&t=400s
+    url: https://www.youtube.com/watch?v=tMqCSibSRug&t=269s
     title: "ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)"
     date: "2026-02-28T04:21:36.000Z"
     commit: null
-    t: 400
-    quote: it felt it coming like a Swiss Army knife. This is central interop and you could pull everything out it
+    t: 269
+    quote: I think they uh get it back to like 60 requests per hour per public IP.
 links:
   learn: []
   objects: []
@@ -176,11 +176,6 @@ features:
   - name: Platform Cop
     status: unclear
     t: 826
-    verified: false
-    status_source: video
-  - name: GitHub rate limiting issue
-    status: unclear
-    t: 236
     verified: false
     status_source: video
   - name: AL language version compatibility
@@ -298,11 +293,6 @@ features:
     t: 3013
     verified: false
     status_source: video
-  - name: Transfer fields analyzer
-    status: unclear
-    t: 3209
-    verified: false
-    status_source: video
   - name: Transfer fields rule improvements
     status: unclear
     t: 3303
@@ -362,8 +352,8 @@ quotes:
   - t: 236
     text: In May of 2025 um GitHub updated the rate limits for and uh important part unauthorized request
     check: exact
-  - t: 400
-    text: it felt it coming like a Swiss Army knife. This is central interop and you could pull everything out it
+  - t: 269
+    text: I think they uh get it back to like 60 requests per hour per public IP.
     check: exact
 ---
 
@@ -371,7 +361,7 @@ quotes:
 
 > ALCops is the successor to LinterCop for AL code analysis in Business Central, split into six cops (including PlatformCop, ApplicationCop, Test Automation, Documentation, Formatting). The video covers why LinterCop is deprecated, migration, NuGet distribution, the VS Code extension and an early 0.1 alpha MCP server.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tMqCSibSRug) · Stefan Maron · 2026-02-28 · 1:16:06 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tMqCSibSRug) · Stefan Maron · 2026-02-28 · 1:16:06 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -381,13 +371,13 @@ The session shows the six-cop structure, expanded code fixes (about 30 rules), r
 
 ## Key points
 
-- LinterCop problems named: since May 2025 GitHub unauthenticated rate limits dropped from 60,000 to 60 requests per hour per IP, breaking DLL downloads in DevOps pipelines; AL 16.4 support was also an issue.
-- ALCops splits analysis into six cops; LinterCop is kept inside it but trimmed to code quality only.
+- LinterCop problems named: since around May 2025 GitHub limited unauthenticated requests to about 60 per hour per public IP, breaking DLL downloads in DevOps pipelines; missing AL 16.4 support (marketplace only had 16.3, dev tools NuGet 16.2) was also an issue.
+- ALCops splits analysis into six cops (LinterCop, PlatformCop, ApplicationCop, Test Automation, Documentation, Formatting); LinterCop is kept inside it but trimmed to code quality only.
+- The Test Automation cop exists as a separate cop, but test automation rules are not implemented yet and are on the backlog (e.g. validating confirm dialog content).
 - LinterCop and ALCops cannot run together in VS Code because they share diagnostic IDs; disable LinterCop to use ALCops.
-- Expect new warnings after migrating: ALCops analyzes deeper, and the migration guide covers about 95 percent of the rules.
-- Distribution is via NuGet with semantic versioning, so pipelines can pin a version. One package works across AL versions using reflection, and an AL-Go helper fetches the right feed.
-- Code fixes grew from about five or six to 30 rules. The MCP server is at 0.1 alpha, applies Microsoft quick fixes programmatically, and 1.0 is expected within a couple of weeks.
-- LinterCop repository is deprecated with no new rules; it is maintained for a few more months (through end of year), with no firm end date.
+- Expect new warnings after migrating: ALCops analyzes deeper, and the migration guide covers about 95 percent of the rules. Try it locally in VS Code before switching pipelines.
+- Distribution is via NuGet with semantic versioning, so pipelines can pin a version. One package works across AL versions sharing a .NET target using reflection, and an AL-Go helper fetches the right feed (defaults to .NET 8 for AL 16.0+).
+- Code fixes grew from about five or six to 30 rules. The MCP server is at 0.1 alpha and applies Microsoft quick fixes programmatically; a 1.0 may follow after a couple of weeks of fine tuning.
 
 ## Chapters
 
@@ -431,42 +421,40 @@ The session shows the six-cop structure, expanded code fixes (about 30 rules), r
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ALCops | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=tMqCSibSRug&t=120s) |  |
-| LinterCop | status not stated | [0:59](https://www.youtube.com/watch?v=tMqCSibSRug&t=59s) |  |
-| Platform Cop | status not stated, demoed | [13:46](https://www.youtube.com/watch?v=tMqCSibSRug&t=826s) |  |
-| GitHub rate limiting issue | status not stated | [3:56](https://www.youtube.com/watch?v=tMqCSibSRug&t=236s) |  |
-| AL language version compatibility | status not stated, demoed | [12:22](https://www.youtube.com/watch?v=tMqCSibSRug&t=742s) |  |
-| LinterCop trimmed down | status not stated, demoed | [14:07](https://www.youtube.com/watch?v=tMqCSibSRug&t=847s) |  |
-| Test Automation Cop | status not stated | [15:22](https://www.youtube.com/watch?v=tMqCSibSRug&t=922s) |  |
-| Test dialogue validation rules | status not stated | [17:31](https://www.youtube.com/watch?v=tMqCSibSRug&t=1051s) |  |
-| Documentation Cop | status not stated, demoed | [18:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1129s) |  |
-| Formatting Cop | status not stated, demoed | [18:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1129s) |  |
-| ApplicationCop | status not stated, demoed | [15:02](https://www.youtube.com/watch?v=tMqCSibSRug&t=902s) |  |
-| Comprehensive rule review and severity adjustment | status not stated | [22:09](https://www.youtube.com/watch?v=tMqCSibSRug&t=1329s) |  |
-| Expanded code fix implementation | status not stated, demoed | [23:58](https://www.youtube.com/watch?v=tMqCSibSRug&t=1438s) |  |
-| Improved rule descriptions for AI agents | status not stated | [25:20](https://www.youtube.com/watch?v=tMqCSibSRug&t=1520s) |  |
-| AI-assisted rule development approach | status not stated | [25:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1549s) |  |
-| LinterCop to ALCops migration documentation | status not stated, demoed | [27:28](https://www.youtube.com/watch?v=tMqCSibSRug&t=1648s) |  |
-| ALCops deeper rule analysis | status not stated, demoed | [29:17](https://www.youtube.com/watch?v=tMqCSibSRug&t=1757s) |  |
-| ALCops VS Code extension | status not stated, demoed | [31:17](https://www.youtube.com/watch?v=tMqCSibSRug&t=1877s) |  |
-| ALCops MCP server | status not stated, demoed | [32:35](https://www.youtube.com/watch?v=tMqCSibSRug&t=1955s) |  |
-| ALCops MCP quick fix automation | status not stated | [35:03](https://www.youtube.com/watch?v=tMqCSibSRug&t=2103s) |  |
-| ALCops NuGet package distribution | status not stated, demoed | [37:50](https://www.youtube.com/watch?v=tMqCSibSRug&t=2270s) |  |
-| ALCops semantic versioning | status not stated, demoed | [38:39](https://www.youtube.com/watch?v=tMqCSibSRug&t=2319s) |  |
-| Severity level configuration for new rules | status not stated | [39:11](https://www.youtube.com/watch?v=tMqCSibSRug&t=2351s) |  |
-| Single Nougat package for multiple AL versions | status not stated, demoed | [42:00](https://www.youtube.com/watch?v=tMqCSibSRug&t=2520s) |  |
-| AL language version as primary driver | status not stated, demoed | [43:08](https://www.youtube.com/watch?v=tMqCSibSRug&t=2588s) |  |
-| AL-Go helper for Nougat package installation | status not stated, demoed | [46:48](https://www.youtube.com/watch?v=tMqCSibSRug&t=2808s) |  |
-| Dynamic transfer fields rule detection | status not stated, demoed | [50:13](https://www.youtube.com/watch?v=tMqCSibSRug&t=3013s) |  |
-| Transfer fields analyzer | status not stated, demoed | [53:29](https://www.youtube.com/watch?v=tMqCSibSRug&t=3209s) |  |
-| Transfer fields rule improvements | status not stated, demoed | [55:03](https://www.youtube.com/watch?v=tMqCSibSRug&t=3303s) |  |
-| Try functions rule | status not stated | [58:23](https://www.youtube.com/watch?v=tMqCSibSRug&t=3503s) |  |
-| LinterCop deprecation | status not stated | [1:04:35](https://www.youtube.com/watch?v=tMqCSibSRug&t=3875s) |  |
-| Linter Cop Maintenance and Support Window | status not stated | [1:05:08](https://www.youtube.com/watch?v=tMqCSibSRug&t=3908s) |  |
-| AL Cops Implicit Conversion Validation Rule | status not stated, demoed | [1:09:18](https://www.youtube.com/watch?v=tMqCSibSRug&t=4158s) |  |
-| AL Cops Conversion Diagnostic for Error Prevention | status not stated, demoed | [1:10:39](https://www.youtube.com/watch?v=tMqCSibSRug&t=4239s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ALCops | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=tMqCSibSRug&t=120s) |
+| LinterCop | status not stated | [0:59](https://www.youtube.com/watch?v=tMqCSibSRug&t=59s) |
+| Platform Cop | status not stated, demoed | [13:46](https://www.youtube.com/watch?v=tMqCSibSRug&t=826s) |
+| AL language version compatibility | status not stated, demoed | [12:22](https://www.youtube.com/watch?v=tMqCSibSRug&t=742s) |
+| LinterCop trimmed down | status not stated, demoed | [14:07](https://www.youtube.com/watch?v=tMqCSibSRug&t=847s) |
+| Test Automation Cop | status not stated | [15:22](https://www.youtube.com/watch?v=tMqCSibSRug&t=922s) |
+| Test dialogue validation rules | status not stated | [17:31](https://www.youtube.com/watch?v=tMqCSibSRug&t=1051s) |
+| Documentation Cop | status not stated, demoed | [18:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1129s) |
+| Formatting Cop | status not stated, demoed | [18:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1129s) |
+| ApplicationCop | status not stated, demoed | [15:02](https://www.youtube.com/watch?v=tMqCSibSRug&t=902s) |
+| Comprehensive rule review and severity adjustment | status not stated | [22:09](https://www.youtube.com/watch?v=tMqCSibSRug&t=1329s) |
+| Expanded code fix implementation | status not stated, demoed | [23:58](https://www.youtube.com/watch?v=tMqCSibSRug&t=1438s) |
+| Improved rule descriptions for AI agents | status not stated | [25:20](https://www.youtube.com/watch?v=tMqCSibSRug&t=1520s) |
+| AI-assisted rule development approach | status not stated | [25:49](https://www.youtube.com/watch?v=tMqCSibSRug&t=1549s) |
+| LinterCop to ALCops migration documentation | status not stated, demoed | [27:28](https://www.youtube.com/watch?v=tMqCSibSRug&t=1648s) |
+| ALCops deeper rule analysis | status not stated, demoed | [29:17](https://www.youtube.com/watch?v=tMqCSibSRug&t=1757s) |
+| ALCops VS Code extension | status not stated, demoed | [31:17](https://www.youtube.com/watch?v=tMqCSibSRug&t=1877s) |
+| ALCops MCP server | status not stated, demoed | [32:35](https://www.youtube.com/watch?v=tMqCSibSRug&t=1955s) |
+| ALCops MCP quick fix automation | status not stated | [35:03](https://www.youtube.com/watch?v=tMqCSibSRug&t=2103s) |
+| ALCops NuGet package distribution | status not stated, demoed | [37:50](https://www.youtube.com/watch?v=tMqCSibSRug&t=2270s) |
+| ALCops semantic versioning | status not stated, demoed | [38:39](https://www.youtube.com/watch?v=tMqCSibSRug&t=2319s) |
+| Severity level configuration for new rules | status not stated | [39:11](https://www.youtube.com/watch?v=tMqCSibSRug&t=2351s) |
+| Single Nougat package for multiple AL versions | status not stated, demoed | [42:00](https://www.youtube.com/watch?v=tMqCSibSRug&t=2520s) |
+| AL language version as primary driver | status not stated, demoed | [43:08](https://www.youtube.com/watch?v=tMqCSibSRug&t=2588s) |
+| AL-Go helper for Nougat package installation | status not stated, demoed | [46:48](https://www.youtube.com/watch?v=tMqCSibSRug&t=2808s) |
+| Dynamic transfer fields rule detection | status not stated, demoed | [50:13](https://www.youtube.com/watch?v=tMqCSibSRug&t=3013s) |
+| Transfer fields rule improvements | status not stated, demoed | [55:03](https://www.youtube.com/watch?v=tMqCSibSRug&t=3303s) |
+| Try functions rule | status not stated | [58:23](https://www.youtube.com/watch?v=tMqCSibSRug&t=3503s) |
+| LinterCop deprecation | status not stated | [1:04:35](https://www.youtube.com/watch?v=tMqCSibSRug&t=3875s) |
+| Linter Cop Maintenance and Support Window | status not stated | [1:05:08](https://www.youtube.com/watch?v=tMqCSibSRug&t=3908s) |
+| AL Cops Implicit Conversion Validation Rule | status not stated, demoed | [1:09:18](https://www.youtube.com/watch?v=tMqCSibSRug&t=4158s) |
+| AL Cops Conversion Diagnostic for Error Prevention | status not stated, demoed | [1:10:39](https://www.youtube.com/watch?v=tMqCSibSRug&t=4239s) |
 
 ## AL objects mentioned
 
@@ -496,7 +484,7 @@ Not found in BC28-30: table "Object table".
 - [2:10](https://www.youtube.com/watch?v=tMqCSibSRug&t=130s) "that started around I think 3 months, four months agoish. um that I saw some some things I wanted to change and I saw"
 - [2:54](https://www.youtube.com/watch?v=tMqCSibSRug&t=174s) "that's called AL Cops. Um that's the the uh growing further from from the business central club you've started"
 - [3:56](https://www.youtube.com/watch?v=tMqCSibSRug&t=236s) "In May of 2025 um GitHub updated the rate limits for and uh important part unauthorized request"
-- [6:40](https://www.youtube.com/watch?v=tMqCSibSRug&t=400s) "it felt it coming like a Swiss Army knife. This is central interop and you could pull everything out it"
+- [4:29](https://www.youtube.com/watch?v=tMqCSibSRug&t=269s) "I think they uh get it back to like 60 requests per hour per public IP."
 
 ## Disclaimers in the video
 

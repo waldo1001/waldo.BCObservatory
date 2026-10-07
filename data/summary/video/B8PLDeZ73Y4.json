@@ -1,16 +1,16 @@
 {
   "video_id": "B8PLDeZ73Y4",
   "item_id": "video/yt-bcmusings/B8PLDeZ73Y4",
-  "summary": "Snapshot debugging versus the AL profiler in Business Central: snapshot debugging is for investigating errors, including in production, and the AL profiler is for finding performance bottlenecks. The video demos both, plus the Performance Profiler and the Scheduled Profiler for other users' sessions.",
+  "summary": "Compares snapshot debugging and the AL profiler in Business Central. Snapshot debugging (F7 to start, Alt F7 to finish) is used to find the cause of errors, and the speaker calls it very useful for production. The AL profiler is used to find performance bottlenecks through an ALCPU profile file whose function-call timings link to the code. The video walks through a profile file and shows Analyze Performance (the current user's session) and the Scheduled Profiler (another user's session).",
   "overview": "The video compares two developer tools in Business Central. Snapshot debugging captures a session so a developer can set snap points and step through code execution to analyze errors. It is started with F7 and finished with Alt F7, and it needs a configuration entry in launch.json.\n\nThe AL profiler targets performance rather than errors. It records function call timings and produces an ALCPU profile file that links back to source code, which is opened in VS Code. The video shows two ways to capture a profile: the Performance Profiler for your own session, and the Scheduled Profiler for another user's session within a set time window. It closes with a summary of when to use each tool.",
   "key_points": [
-    "Snapshot debugging is started with F7 and finished with Alt F7. A configuration entry in launch.json is required.",
-    "If no session ID or user ID is specified, snapshot debugging attaches to the first session that connects.",
-    "The speaker calls snapshot debugging very useful for production environments.",
-    "The AL profiler is for bottlenecks, not for debugging errors. It produces an ALCPU profile file with function call timings and links to the code.",
-    "The profile file must be downloaded and imported into VS Code for analysis.",
-    "The Performance Profiler (Analyze Performance) captures only the current user's session.",
-    "The Scheduled Profiler (Analyze Performance with Scheduled Profiler) profiles another user by username, start time and end time. The profile must be downloaded for analysis."
+    "Snapshot debugging is started with F7 and finished with Alt F7. It needs a configuration entry in launch.json.",
+    "If no session ID or user ID is configured, the snapshot is based on the first session that connects to the web client.",
+    "The speaker calls snapshot debugging very useful for production environments, for finding why an error occurred.",
+    "The AL profiler is not necessarily for errors. It is useful for bottlenecks and produces an ALCPU profile file with function call timings and links to the code.",
+    "Profile files can be imported or downloaded and analyzed in VS Code.",
+    "Analyze Performance (the Performance Profiler) is used when you are logged in and want to profile your own session.",
+    "The Scheduled Profiler (Analyze Performance with Scheduled Profiler) captures another user's session by username, start time and end time. The resulting profile can be downloaded and analyzed in VS Code."
   ],
   "audience": [
     "developer",

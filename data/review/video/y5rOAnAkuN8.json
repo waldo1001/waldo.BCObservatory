@@ -1,0 +1,35 @@
+{
+  "video_id": "y5rOAnAkuN8",
+  "item_id": "video/yt-stefanmaron/y5rOAnAkuN8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter (Stefan Maron), but the transcript never gives a name. Removed it.",
+    "The transcript is mostly about sandboxing Claude Code in Docker. It ties back to Business Central through the plans to add AL tooling and AL instruction files, so the page should not be rejected.",
+    "'VS Code Web Server in Container' was only proposed. The presenter then chose to run VS Code on the host side by side and use a plain remote shell, so this feature is dropped.",
+    "'ALE development path' is based on a caption error ('ale road', most likely 'AL road'). It invents the term 'AL extension (ALE)' and repeats the 'AL tooling integration' feature, so it is dropped.",
+    "The authentication key point said named volumes solve login persistence. The transcript only shows them proposed, then authentication failing to persist in testing, so the point is reworded.",
+    "Dropped two quotes that carry no information: thanking Claude Code (2425.5) and a general remark on LLM knowledge (3879.7).",
+    "Two kept quotes share t=3180.2 and overlap. Both are left because drop_quotes works by t and would remove both.",
+    "Every feature status stays unclear. These are features of a community project, and the transcript gives no preview or GA status."
+  ],
+  "input_hash": "42631250a64ff54f7868b613e344a6d7dadce25af9446c3fee05b38c4533fccb",
+  "by": "opus",
+  "at": "2026-10-07T23:21:41.512Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 2 quote(s)",
+    "quote at 136s",
+    "quote at 3516s",
+    "quote at 3954s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.237049
+  }
+}

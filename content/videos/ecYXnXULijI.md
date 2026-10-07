@@ -2,7 +2,7 @@
 id: video/ecYXnXULijI
 type: video
 title: Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream
-summary: Live coding stream on building a dev container for running Claude Code in AL development. It covers the Dockerfile and dev container JSON, the bypass-permission flag inside a container, and sharing Claude Code authentication through Docker volumes. It is work in progress, part one of at least two.
+summary: Live coding stream building a dev container to run Claude Code safely with the bypass-permissions flag for AL development. It covers the Ubuntu Dockerfile and dev container feature, persisting Claude Code login through shared Docker volumes, and attempts to strip git credentials. The result is a work-in-progress MVP published on GitHub, and the presenter plans to switch to Anthropic's own firewalled dev container in part two.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - github actions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:12.042Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:12.125Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -164,11 +164,6 @@ features:
     t: 454
     verified: false
     status_source: video
-  - name: Cloud Code authentication binding approaches
-    status: unclear
-    t: 535
-    verified: false
-    status_source: video
   - name: Interactive Claude prompting within sessions
     status: unclear
     t: 535
@@ -189,24 +184,9 @@ features:
     t: 916
     verified: false
     status_source: video
-  - name: GitHub Copilot autonomous problem solving
-    status: unclear
-    t: 1482
-    verified: false
-    status_source: video
   - name: Dev Container CLI
     status: unclear
     t: 1137
-    verified: false
-    status_source: video
-  - name: Dev container with Arch Linux base
-    status: unclear
-    t: 1703
-    verified: false
-    status_source: video
-  - name: Cloud Code transcription with imperfect speech-to-text
-    status: unclear
-    t: 1925
     verified: false
     status_source: video
   - name: Cloud Code authentication persistence in dev containers
@@ -249,16 +229,6 @@ features:
     t: 3155
     verified: false
     status_source: video
-  - name: Docker volume mounting for cloud authentication
-    status: unclear
-    t: 3155
-    verified: false
-    status_source: video
-  - name: Multi-subscription dev container support
-    status: unclear
-    t: 3671
-    verified: false
-    status_source: video
   - name: AL-specific directory mounting
     status: announced
     t: 3835
@@ -282,11 +252,6 @@ features:
   - name: Anthropic dev container template
     status: unclear
     t: 4736
-    verified: false
-    status_source: video
-  - name: Anthropic dev container for AL development
-    status: unclear
-    t: 4809
     verified: false
     status_source: video
   - name: AL development commands in Docker container
@@ -331,9 +296,9 @@ quotes:
 
 # Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream
 
-> Live coding stream on building a dev container for running Claude Code in AL development. It covers the Dockerfile and dev container JSON, the bypass-permission flag inside a container, and sharing Claude Code authentication through Docker volumes. It is work in progress, part one of at least two.
+> Live coding stream building a dev container to run Claude Code safely with the bypass-permissions flag for AL development. It covers the Ubuntu Dockerfile and dev container feature, persisting Claude Code login through shared Docker volumes, and attempts to strip git credentials. The result is a work-in-progress MVP published on GitHub, and the presenter plans to switch to Anthropic's own firewalled dev container in part two.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ecYXnXULijI) · Stefan Maron · 2026-02-20 · 1:23:02 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ecYXnXULijI) · Stefan Maron · 2026-02-20 · 1:23:02 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -344,12 +309,12 @@ Most of the stream deals with authentication. Login did not carry over from the 
 ## Key points
 
 - The bypass-permission flag removes manual approval of every command. It is dangerous outside a sandbox, so the presenter wants it used only inside a dev container.
-- Claude generated a Dockerfile based on Ubuntu that installs Claude Code, sets the path, writes dev container JSON and binds an environment key. It was checked as compatible with WSL on Windows.
-- Three authentication approaches were named: bind Claude Code from the host, use an API key environment variable, or combine them. Login did not carry through correctly with the Dockerfile approach.
+- Claude generated a Dockerfile based on Ubuntu that installs Claude Code, sets the path, writes dev container JSON with a home directory bind and an Anthropic environment variable. It was checked as compatible with WSL on Windows.
+- Claude reported three authentication approaches, the first being binding the Claude Code folder from the host. The presenter wanted both folder binding and an API key supported, but login did not carry through, and he doubted an API key works with a subscription.
 - Credentials did not persist across container rebuilds. Mounting the .local/share folder was not enough, because Claude Code still prompted for onboarding and writes files elsewhere.
-- Docker volumes created on first use hold the authentication, so users log in once and reuse it. Naming the mounts differently per project allows a different subscription per project.
-- Removing the git remote inside the container also removes it on the host, because the workspace is shared. Credential stripping was incomplete, since pull and push still worked.
-- Anthropic publishes a dev container that whitelists only Anthropic APIs. It is not used in this setup. An AL-specific config folder, and AL compile, publish and test commands, are planned for part two.
+- Docker volumes created on first use hold the authentication, so users log in once and reuse it. Naming the mounts differently per project allows a different subscription per project. Some confirmation prompts remain.
+- Removing the git remote inside the container also removes it on the host, because the workspace is shared. Credential stripping was incomplete: pull and push still worked, and pushing via VS Code worked because VS Code is authenticated to GitHub.
+- Anthropic publishes a dev container that whitelists only Anthropic APIs, and the presenter decided to use it as the base. He has built AL compile, publish and run tests commands and plans to bake them and his instructions into the container in a later part.
 
 ## Chapters
 
@@ -385,15 +350,11 @@ Most of the stream deals with authentication. Login did not carry over from the 
 | Bypass permission flag for Cloud Code | status not stated, demoed | [4:00](https://www.youtube.com/watch?v=ecYXnXULijI&t=240s) |  |
 | Claude agent sub-agent task delegation | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=ecYXnXULijI&t=312s) |  |
 | Opus configuration for thorough analysis | status not stated, demoed | [7:34](https://www.youtube.com/watch?v=ecYXnXULijI&t=454s) |  |
-| Cloud Code authentication binding approaches | status not stated | [8:55](https://www.youtube.com/watch?v=ecYXnXULijI&t=535s) |  |
 | Interactive Claude prompting within sessions | status not stated, demoed | [8:55](https://www.youtube.com/watch?v=ecYXnXULijI&t=535s) |  |
 | Dockerfile generation for dev containers | status not stated, demoed | [11:07](https://www.youtube.com/watch?v=ecYXnXULijI&t=667s) |  |
 | WSL Windows compatibility verification | status not stated, demoed | [12:18](https://www.youtube.com/watch?v=ecYXnXULijI&t=738s) |  |
 | Dev Container Feature | status not stated, demoed | [15:16](https://www.youtube.com/watch?v=ecYXnXULijI&t=916s) |  |
-| GitHub Copilot autonomous problem solving | status not stated, demoed | [24:42](https://www.youtube.com/watch?v=ecYXnXULijI&t=1482s) |  |
 | Dev Container CLI | status not stated | [18:57](https://www.youtube.com/watch?v=ecYXnXULijI&t=1137s) |  |
-| Dev container with Arch Linux base | status not stated, demoed | [28:23](https://www.youtube.com/watch?v=ecYXnXULijI&t=1703s) |  |
-| Cloud Code transcription with imperfect speech-to-text | status not stated, demoed | [32:05](https://www.youtube.com/watch?v=ecYXnXULijI&t=1925s) |  |
 | Cloud Code authentication persistence in dev containers | status not stated, demoed | [31:10](https://www.youtube.com/watch?v=ecYXnXULijI&t=1870s) |  |
 | Mounted docker volume for shared AL development configuration | status not stated | [35:05](https://www.youtube.com/watch?v=ecYXnXULijI&t=2105s) |  |
 | User-level AL development instructions in Cloud Code | status not stated | [40:31](https://www.youtube.com/watch?v=ecYXnXULijI&t=2431s) |  |
@@ -402,14 +363,11 @@ Most of the stream deals with authentication. Login did not carry over from the 
 | Cloud Code dev container configuration | status not stated, demoed | [42:50](https://www.youtube.com/watch?v=ecYXnXULijI&t=2570s) |  |
 | Cloud Code authorization callback | status not stated, demoed | [47:15](https://www.youtube.com/watch?v=ecYXnXULijI&t=2835s) |  |
 | Cloud trace JSON authentication storage | status not stated, demoed | [52:35](https://www.youtube.com/watch?v=ecYXnXULijI&t=3155s) |  |
-| Docker volume mounting for cloud authentication | status not stated, demoed | [52:35](https://www.youtube.com/watch?v=ecYXnXULijI&t=3155s) |  |
-| Multi-subscription dev container support | status not stated | [1:01:11](https://www.youtube.com/watch?v=ecYXnXULijI&t=3671s) |  |
 | AL-specific directory mounting | announced | [1:03:55](https://www.youtube.com/watch?v=ecYXnXULijI&t=3835s) | "cloud AL specific directory will be the next thing" ([1:03:55](https://www.youtube.com/watch?v=ecYXnXULijI&t=3835s)) |
 | Git remote sanitization for dev containers | status not stated | [1:04:11](https://www.youtube.com/watch?v=ecYXnXULijI&t=3851s) |  |
 | Git credential stripping in dev containers | status not stated, demoed | [1:07:00](https://www.youtube.com/watch?v=ecYXnXULijI&t=4020s) |  |
 | Sudo support in dev container post-start commands | status not stated | [1:10:47](https://www.youtube.com/watch?v=ecYXnXULijI&t=4247s) |  |
 | Anthropic dev container template | status not stated | [1:18:56](https://www.youtube.com/watch?v=ecYXnXULijI&t=4736s) |  |
-| Anthropic dev container for AL development | status not stated | [1:20:09](https://www.youtube.com/watch?v=ecYXnXULijI&t=4809s) |  |
 | AL development commands in Docker container | status not stated | [1:20:51](https://www.youtube.com/watch?v=ecYXnXULijI&t=4851s) |  |
 | Two-part dev container series | status not stated | [1:20:36](https://www.youtube.com/watch?v=ecYXnXULijI&t=4836s) |  |
 

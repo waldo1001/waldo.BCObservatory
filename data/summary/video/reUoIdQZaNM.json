@@ -5,12 +5,12 @@
   "overview": "A Business Central developer with a NAV background describes how interfaces and the bridge app pattern left him with unclear architecture, and how the C4 model gave him a way to organize it. He maps the four C4 levels to Business Central concepts: extensions, PTEs and AL namespaces.\n\nHe applies this to a solution hub PTE with an EROC connector bridge app and a projects integration module that uses an enum and interfaces to support different project providers. He then covers communicating at the right level to stakeholders, Structurizr DSL for architecture as code, and using Copilot to review diagrams against SOLID principles.",
   "key_points": [
     "The C4 model uses four levels: software system, container, component and code. C4 containers are not Docker containers.",
-    "Mapping used in the session: PTEs and extensions as containers, and folder or namespace structure as the code level.",
-    "Enum-based integration provider pattern: an enum defines providers and interfaces supply the implementations, so new providers can be added without changing existing code.",
-    "The bridge app pattern lets external systems connect through interchangeable connector apps. The presenter found it hard to implement, and it needs careful API design and consistent data models.",
+    "Mapping used in the session: Business Central as the software system, PTEs and AppSource apps as containers, namespaces inside extensions as components, and AL files grouped in folders or namespaces as the code level.",
+    "Enum-based integration provider pattern: an enum defines providers and interfaces supply the implementations, so new providers can be added without changing existing code. A test app can mock a provider.",
+    "The bridge app pattern lets external systems connect through interchangeable connector apps, so a connector can be removed while the data stays in Business Central. The presenter found the architectural work not easy.",
     "Write design decisions into diagrams, for example whether systems exchange JSON or XML.",
     "Use system context and container views for business executives, and deeper levels for developers.",
-    "Structurizr DSL captures C4 diagrams as code, but you must learn the syntax, create the DSL file manually from existing diagrams, and still export to update diagrams."
+    "Structurizr DSL keeps the model and its views in one file, so a model change updates every view, though diagrams must be exported again. Copilot generated a DSL file from a draw.io diagram screenshot, and it can be rendered in the Structurizr web playground."
   ],
   "audience": [
     "developer",

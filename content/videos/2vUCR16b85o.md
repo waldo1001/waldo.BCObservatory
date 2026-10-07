@@ -15,12 +15,12 @@ tags:
   - connectors
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:37.806Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:37.884Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -156,7 +156,7 @@ quotes:
 
 > External file storage in Business Central 2025 Wave 1: how to install the external file storage extensions, connect Azure Blob Service containers and Azure File Service file shares through external file accounts using shared keys, and browse files in the Storage Browser.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2vUCR16b85o) · Business Central Musings · 2025-08-03 · 14:54 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2vUCR16b85o) · Business Central Musings · 2025-08-03 · 14:54 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,13 +166,13 @@ The presenter installs the extensions from Extension Management, configures an A
 
 ## Key points
 
-- The External File Storage module offers a unified API for managing external files; it has extensions for Azure Blob Service, Azure File Service and SharePoint.
+- The External File Storage module offers a unified API for managing external files. Searching Extension Management for external file storage shows three extensions: Azure Blob Service, Azure File Service and SharePoint connector.
 - Containers are managed by the Azure Blob Service extension and file shares by the Azure File Service extension.
-- The external file storage extensions must be installed in Extension Management before accounts can be created.
-- Both Azure connectors need an Azure storage account and shared key authentication; the demo uses a storage account with two keys.
-- From the External File Accounts page, choose set up external file account to start a wizard that creates the connection.
-- The Storage Browser shows account contents, supports directory navigation, file upload and folder creation, and has no drag and drop (click to upload).
-- The SharePoint connector requires a SharePoint server or web application to be set up.
+- If External File Accounts or Set up External File Accounts are missing, the external file storage extensions are most likely not installed.
+- Both Azure connectors use the storage account's access keys (shared key), found in Azure under Security and networking; the demo storage account has two keys.
+- Choosing Set up external file account starts a wizard that asks for the account type, account name, storage account name, shared key and container or file share name. A toggle can make the account the default storage.
+- The Storage Browser shows the account contents and lets users navigate directories, create folders and upload files. It has no drag and drop, so users click Upload.
+- The presenter did not demo the SharePoint connector because he has no SharePoint server or web application of his own.
 
 ## Chapters
 
@@ -188,13 +188,13 @@ The presenter installs the extensions from Extension Management, configures an A
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| External File Storage Module | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2vUCR16b85o&t=50s) |  |
-| Azure Blob Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |  |
-| Azure File Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |  |
-| External File Accounts Setup | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=2vUCR16b85o&t=378s) |  |
-| Storage Browser Interface | status not stated, demoed | [9:45](https://www.youtube.com/watch?v=2vUCR16b85o&t=585s) |  |
+| Feature | Status | At |
+|---|---|---|
+| External File Storage Module | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2vUCR16b85o&t=50s) |
+| Azure Blob Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
+| Azure File Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
+| External File Accounts Setup | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=2vUCR16b85o&t=378s) |
+| Storage Browser Interface | status not stated, demoed | [9:45](https://www.youtube.com/watch?v=2vUCR16b85o&t=585s) |
 
 ## AL objects mentioned
 

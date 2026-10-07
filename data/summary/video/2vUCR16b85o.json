@@ -4,13 +4,13 @@
   "summary": "External file storage in Business Central 2025 Wave 1: how to install the external file storage extensions, connect Azure Blob Service containers and Azure File Service file shares through external file accounts using shared keys, and browse files in the Storage Browser.",
   "overview": "The video covers the External File Storage module in Business Central 2025 Wave 1, which manages external files through a unified API. It includes extensions for Azure Blob Service, Azure File Service and a SharePoint connector.\n\nThe presenter installs the extensions from Extension Management, configures an Azure storage account and its keys, and creates external file accounts with a setup wizard. A new blob storage account is then set up, and the Storage Browser is used to navigate directories, upload files and create folders. The video ends with use cases and future possibilities.",
   "key_points": [
-    "The External File Storage module offers a unified API for managing external files; it has extensions for Azure Blob Service, Azure File Service and SharePoint.",
+    "The External File Storage module offers a unified API for managing external files. Searching Extension Management for external file storage shows three extensions: Azure Blob Service, Azure File Service and SharePoint connector.",
     "Containers are managed by the Azure Blob Service extension and file shares by the Azure File Service extension.",
-    "The external file storage extensions must be installed in Extension Management before accounts can be created.",
-    "Both Azure connectors need an Azure storage account and shared key authentication; the demo uses a storage account with two keys.",
-    "From the External File Accounts page, choose set up external file account to start a wizard that creates the connection.",
-    "The Storage Browser shows account contents, supports directory navigation, file upload and folder creation, and has no drag and drop (click to upload).",
-    "The SharePoint connector requires a SharePoint server or web application to be set up."
+    "If External File Accounts or Set up External File Accounts are missing, the external file storage extensions are most likely not installed.",
+    "Both Azure connectors use the storage account's access keys (shared key), found in Azure under Security and networking; the demo storage account has two keys.",
+    "Choosing Set up external file account starts a wizard that asks for the account type, account name, storage account name, shared key and container or file share name. A toggle can make the account the default storage.",
+    "The Storage Browser shows the account contents and lets users navigate directories, create folders and upload files. It has no drag and drop, so users click Upload.",
+    "The presenter did not demo the SharePoint connector because he has no SharePoint server or web application of his own."
   ],
   "audience": [
     "administrator",

@@ -2,7 +2,7 @@
 id: video/Fk6kWTe3f2Y
 type: video
 title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
-summary: Deploying Business Central analysis views through AL extensions in 2026 wave 1 (version 28). Analysis views are exported from analysis mode as analysis.json files, added to a page's analysis views section, and appear as locked tabs. Copilot in Excel is used to design the views.
+summary: Business Central 2026 wave 1 (version 28, runtime 17) lets analysis views be exported from analysis mode as analysis.json files, referenced in a new analysis views section of an AL list page, and deployed through an extension as locked tabs that users can duplicate. The demo on item ledger entries uses Copilot and the Claude add-in in Excel to propose view designs and JSON, then publishes them via AL.
 tier: community
 language: en
 tags:
@@ -20,18 +20,32 @@ tags:
   - queries
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:45.136Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:45.190Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: c44b59e6f11e9a3e770a0b12960e22a0fc21fb46bbd77fbf0de8a031676e6b21
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=266s
+    title: "Analysis views packaged in AL extensions: preview"
+    date: "2026-03-05T04:14:52.000Z"
+    commit: null
+    t: 266
+    quote: I created yesterday one sandbox dev 28. And you can see here that we have version 28 preview here.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=266s
+    title: "Analysis JSON export from web client: preview"
+    date: "2026-03-05T04:14:52.000Z"
+    commit: null
+    t: 266
+    quote: I created yesterday one sandbox dev 28. And you can see here that we have version 28 preview here.
   - kind: video
     url: https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=12s
     title: Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
@@ -118,14 +132,14 @@ chapters:
     title: Related content and learning resources
 features:
   - name: Analysis views packaged in AL extensions
-    status: unclear
+    status: preview
     t: 12
-    verified: false
+    verified: true
     status_source: video
   - name: Analysis JSON export from web client
-    status: unclear
+    status: preview
     t: 144
-    verified: false
+    verified: true
     status_source: video
   - name: Locked analysis views
     status: unclear
@@ -157,11 +171,6 @@ features:
     t: 783
     verified: false
     status_source: video
-  - name: Copilot for analysis view suggestions
-    status: unclear
-    t: 1038
-    verified: false
-    status_source: video
   - name: Ad hoc analysis mode
     status: unclear
     t: 864
@@ -185,26 +194,6 @@ features:
   - name: Analysis view JSON file format
     status: unclear
     t: 1565
-    verified: false
-    status_source: video
-  - name: Copilot-generated analysis mode tabs
-    status: unclear
-    t: 1597
-    verified: false
-    status_source: video
-  - name: Analysis mode with queries
-    status: unclear
-    t: 1609
-    verified: false
-    status_source: video
-  - name: Microsoft query for projects
-    status: unclear
-    t: 1635
-    verified: false
-    status_source: video
-  - name: Add related table fields to pages
-    status: unclear
-    t: 1676
     verified: false
     status_source: video
 objects_mentioned:
@@ -235,9 +224,9 @@ quotes:
 
 # Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)
 
-> Deploying Business Central analysis views through AL extensions in 2026 wave 1 (version 28). Analysis views are exported from analysis mode as analysis.json files, added to a page's analysis views section, and appear as locked tabs. Copilot in Excel is used to design the views.
+> Business Central 2026 wave 1 (version 28, runtime 17) lets analysis views be exported from analysis mode as analysis.json files, referenced in a new analysis views section of an AL list page, and deployed through an extension as locked tabs that users can duplicate. The demo on item ledger entries uses Copilot and the Claude add-in in Excel to propose view designs and JSON, then publishes them via AL.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Fk6kWTe3f2Y) · Business Central Musings · 2026-03-05 · 29:27 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Fk6kWTe3f2Y) · Business Central Musings · 2026-03-05 · 29:27 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -247,13 +236,13 @@ The presenter also exports item ledger data to Excel and uses Copilot to suggest
 
 ## Key points
 
-- Export an analysis from analysis mode in the web client as JSON and include it in the AL extension package.
+- Export an analysis from analysis mode in the web client (Share > Export definition) as JSON and include it in the AL extension.
 - The definition file name must end with analysis.json, otherwise an error occurs.
-- AL pages get a new analysis views section where you define the name, file path and caption of each analysis view.
-- Views deployed this way show as locked tabs; end users cannot change the design but can duplicate them. A duplicate may lose its pivot configuration and need reconfiguring.
-- Copilot in Excel can suggest analysis designs and generate JSON from exported item ledger entries. It needs Python packages, and the generated JSON should be reviewed before deployment.
-- Publishing failed in the demo with the message that the extension is used in multiple apps; the caveat says to uninstall first.
-- Analysis views can add columns from related tables such as Customer, but the UI can be slow when loading related tables.
+- AL pages get a new analysis views section where each analysis view has a name, a path to the analysis JSON file and a caption. A snippet for analysis view exists in VS Code.
+- Views deployed this way show as locked tabs in analysis mode; users cannot change filters or layout but can duplicate them. In the demo a duplicate lost its pivot and had to be reconfigured.
+- Item ledger entries were exported to Excel; Copilot (which installed Python packages) and the Claude add-in for Excel suggested analysis designs and JSON definitions, such as monthly trends and item profitability by customer posting group.
+- In the demo, publishing first failed with 'used in multiple apps'; the presenter uninstalled the earlier extension and published again.
+- Analysis views can add columns from related tables such as Customer, though loading related tables was slow in the demo.
 
 ## Chapters
 
@@ -274,24 +263,19 @@ The presenter also exports item ledger data to Excel and uses Copilot to suggest
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Analysis views packaged in AL extensions | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=12s) |  |
-| Analysis JSON export from web client | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=144s) |  |
+| Analysis views packaged in AL extensions | preview, demoed | [0:12](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=12s) | "I created yesterday one sandbox dev 28. And you can see here that we have version 28 preview here." ([4:26](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=266s)) |
+| Analysis JSON export from web client | preview, demoed | [2:24](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=144s) | "I created yesterday one sandbox dev 28. And you can see here that we have version 28 preview here." ([4:26](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=266s)) |
 | Locked analysis views | status not stated, demoed | [6:33](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=393s) |  |
 | Copilot for Excel analysis design | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=500s) |  |
 | Data export to Excel for analysis | status not stated, demoed | [7:55](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=475s) |  |
 | Analysis view component in page AL syntax | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=158s) |  |
 | Multi-environment analysis view deployment | status not stated | [0:44](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=44s) |  |
 | Analysis views via AL code | status not stated, demoed | [13:03](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=783s) |  |
-| Copilot for analysis view suggestions | status not stated, demoed | [17:18](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1038s) |  |
 | Ad hoc analysis mode | status not stated, demoed | [14:24](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=864s) |  |
 | Analysis view dimensions and pivoting | status not stated, demoed | [21:00](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1260s) |  |
 | Analysis view export and import cycle | status not stated, demoed | [24:47](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1487s) |  |
 | Cross-table analysis views | status not stated, demoed | [24:01](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1441s) |  |
 | Analysis view JSON file format | status not stated | [26:05](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1565s) |  |
-| Copilot-generated analysis mode tabs | status not stated | [26:37](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1597s) |  |
-| Analysis mode with queries | status not stated | [26:49](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1609s) |  |
-| Microsoft query for projects | status not stated | [27:15](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1635s) |  |
-| Add related table fields to pages | status not stated, demoed | [27:56](https://www.youtube.com/watch?v=Fk6kWTe3f2Y&t=1676s) |  |
 
 ## AL objects mentioned
 

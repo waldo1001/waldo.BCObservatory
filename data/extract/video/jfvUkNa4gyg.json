@@ -702,14 +702,8 @@
     },
     {
       "t": 1577.6,
-      "text": "it started planning. It ran for 3 minute, burned more 50,000 tokens in the uh with the requirements engineer and ...",
-      "why_it_matters": "Provides concrete metrics on agent execution time and token consumption for multi-phase planning workflows.",
-      "check": "exact"
-    },
-    {
-      "t": 1577.6,
       "text": "It ran for 3 minute, burned more 50,000 tokens in the uh with the requirements engineer and it put out the requirements document",
-      "why_it_matters": "Quantifies the computational cost and time investment in AI-driven requirements engineering",
+      "why_it_matters": "Shows how long the requirements engineer agent ran and how many tokens it used.",
       "check": "exact"
     },
     {
@@ -727,7 +721,7 @@
     {
       "t": 2048.9,
       "text": "1 hour 1 minute to to do all those changes and it touched uh 42 files. It wrote 8,000 lines, ...",
-      "why_it_matters": "Quantifies the scale of refactoring performed automatically by the agent workflow",
+      "why_it_matters": "Gives the scale of the multi-phase developer agent run.",
       "check": "exact"
     },
     {
@@ -751,13 +745,7 @@
     {
       "t": 2437.4,
       "text": "the agent starts with a clean with clean context basically. So let's look at the developer. Um, it has it knows about MCP servers",
-      "why_it_matters": "Explains the key architectural benefit of agents - clean context separation preventing context pollution",
-      "check": "exact"
-    },
-    {
-      "t": 2437.4,
-      "text": "the agent starts with a clean with clean context basically. So let's look at the developer.",
-      "why_it_matters": "Describes a key architectural benefit of AI agents - isolated context prevents distraction and maintains focus.",
+      "why_it_matters": "Explains how each agent starts with an isolated context.",
       "check": "exact"
     },
     {

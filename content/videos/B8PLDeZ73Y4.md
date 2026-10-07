@@ -2,7 +2,7 @@
 id: video/B8PLDeZ73Y4
 type: video
 title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
-summary: "Snapshot debugging versus the AL profiler in Business Central: snapshot debugging is for investigating errors, including in production, and the AL profiler is for finding performance bottlenecks. The video demos both, plus the Performance Profiler and the Scheduled Profiler for other users' sessions."
+summary: Compares snapshot debugging and the AL profiler in Business Central. Snapshot debugging (F7 to start, Alt F7 to finish) is used to find the cause of errors, and the speaker calls it very useful for production. The AL profiler is used to find performance bottlenecks through an ALCPU profile file whose function-call timings link to the code. The video walks through a profile file and shows Analyze Performance (the current user's session) and the Scheduled Profiler (another user's session).
 tier: community
 language: en
 tags:
@@ -16,25 +16,18 @@ tags:
   - function calls
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:31.286Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:31.331Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 78b7f29338df356c9eacdfda9114fbe5ed9f17e6f15a77ac4c890262287101d1
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s
-    title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
-    date: "2025-09-15T01:09:20.000Z"
-    commit: null
-    t: 20
-    quote: with snapshot debugging. Um snapshot debugging is based on snapshots and um to uh generate a snapshot uh you need um you need a
   - kind: video
     url: https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=84s
     title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
@@ -56,6 +49,13 @@ evidence:
     commit: null
     t: 183
     quote: You generate the profile file. Uh the profile file is a file that has the extension ALCPU profile.
+  - kind: video
+    url: https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=345s
+    title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
+    date: "2025-09-15T01:09:20.000Z"
+    commit: null
+    t: 345
+    quote: if you want to capture another user session uh you go to somewhere very close to where we've been.
   - kind: video
     url: https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=386s
     title: Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
@@ -131,9 +131,6 @@ objects_mentioned:
   - page Customer List
   - page page extension
 quotes:
-  - t: 20
-    text: with snapshot debugging. Um snapshot debugging is based on snapshots and um to uh generate a snapshot uh you need um you need a
-    check: exact
   - t: 84
     text: you initialize a snapshot debugging with a key F7. Um then um then if you don't have a session ID or a user ID
     check: exact
@@ -143,6 +140,9 @@ quotes:
   - t: 183
     text: You generate the profile file. Uh the profile file is a file that has the extension ALCPU profile.
     check: exact
+  - t: 345
+    text: if you want to capture another user session uh you go to somewhere very close to where we've been.
+    check: exact
   - t: 386
     text: So snapshot debugging very useful for production environments. start um a snapshot um you run your process
     check: exact
@@ -150,9 +150,9 @@ quotes:
 
 # Snapshot Debugging vs AL Profiler in Business Central — When to Use Each
 
-> Snapshot debugging versus the AL profiler in Business Central: snapshot debugging is for investigating errors, including in production, and the AL profiler is for finding performance bottlenecks. The video demos both, plus the Performance Profiler and the Scheduled Profiler for other users' sessions.
+> Compares snapshot debugging and the AL profiler in Business Central. Snapshot debugging (F7 to start, Alt F7 to finish) is used to find the cause of errors, and the speaker calls it very useful for production. The AL profiler is used to find performance bottlenecks through an ALCPU profile file whose function-call timings link to the code. The video walks through a profile file and shows Analyze Performance (the current user's session) and the Scheduled Profiler (another user's session).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=B8PLDeZ73Y4) · Business Central Musings · 2025-09-15 · 8:12 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=B8PLDeZ73Y4) · Business Central Musings · 2025-09-15 · 8:12 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,13 +162,13 @@ The AL profiler targets performance rather than errors. It records function call
 
 ## Key points
 
-- Snapshot debugging is started with F7 and finished with Alt F7. A configuration entry in launch.json is required.
-- If no session ID or user ID is specified, snapshot debugging attaches to the first session that connects.
-- The speaker calls snapshot debugging very useful for production environments.
-- The AL profiler is for bottlenecks, not for debugging errors. It produces an ALCPU profile file with function call timings and links to the code.
-- The profile file must be downloaded and imported into VS Code for analysis.
-- The Performance Profiler (Analyze Performance) captures only the current user's session.
-- The Scheduled Profiler (Analyze Performance with Scheduled Profiler) profiles another user by username, start time and end time. The profile must be downloaded for analysis.
+- Snapshot debugging is started with F7 and finished with Alt F7. It needs a configuration entry in launch.json.
+- If no session ID or user ID is configured, the snapshot is based on the first session that connects to the web client.
+- The speaker calls snapshot debugging very useful for production environments, for finding why an error occurred.
+- The AL profiler is not necessarily for errors. It is useful for bottlenecks and produces an ALCPU profile file with function call timings and links to the code.
+- Profile files can be imported or downloaded and analyzed in VS Code.
+- Analyze Performance (the Performance Profiler) is used when you are logged in and want to profile your own session.
+- The Scheduled Profiler (Analyze Performance with Scheduled Profiler) captures another user's session by username, start time and end time. The resulting profile can be downloaded and analyzed in VS Code.
 
 ## Chapters
 
@@ -183,13 +183,13 @@ The AL profiler targets performance rather than errors. It records function call
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Snapshot Debugging | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s) |  |
-| AL Profiling | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=139s) |  |
-| AL CPU Profile File Format | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=183s) |  |
-| Performance Profiler | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=291s) |  |
-| Scheduled Profiler | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=356s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Snapshot Debugging | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s) |
+| AL Profiling | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=139s) |
+| AL CPU Profile File Format | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=183s) |
+| Performance Profiler | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=291s) |
+| Scheduled Profiler | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=356s) |
 
 ## AL objects mentioned
 
@@ -202,10 +202,10 @@ Not found in BC28-30: page "page extension".
 
 ## Quotes
 
-- [0:20](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s) "with snapshot debugging. Um snapshot debugging is based on snapshots and um to uh generate a snapshot uh you need um you need a"
 - [1:24](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=84s) "you initialize a snapshot debugging with a key F7. Um then um then if you don't have a session ID or a user ID"
 - [1:52](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=112s) "then you execute the code uh that you want to debug and after you execute the code you uh close the snapshot uh or"
 - [3:03](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=183s) "You generate the profile file. Uh the profile file is a file that has the extension ALCPU profile."
+- [5:45](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=345s) "if you want to capture another user session uh you go to somewhere very close to where we've been."
 - [6:26](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=386s) "So snapshot debugging very useful for production environments. start um a snapshot um you run your process"
 
 ## Disclaimers in the video

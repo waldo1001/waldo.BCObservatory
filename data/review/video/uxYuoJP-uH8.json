@@ -1,0 +1,23 @@
+{
+  "video_id": "uxYuoJP-uH8",
+  "item_id": "video/yt-bcmusings/uxYuoJP-uH8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes appear verbatim in the transcript. Some run across segment boundaries or differ only in punctuation, which is fine.",
+    "The summary and key points match the transcript: table extension on the application area setup table, install codeunit, enable custom area, the validation error, page extension usage and omitting spaces.",
+    "All feature statuses are unclear. That fits, because the video is a how-to and never says whether anything is in preview or generally available.",
+    "The captions say MB800, but the video title says MB-820. This is probably a captioning error. The summary uses MB-820 from the title, so no change is needed."
+  ],
+  "input_hash": "b78b57a22874d24ec9b8f8410cb25e1782a2a5021149a78e4199b1a8bb4ed043",
+  "by": "opus",
+  "at": "2026-10-07T23:22:00.440Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054488999999999996
+  }
+}

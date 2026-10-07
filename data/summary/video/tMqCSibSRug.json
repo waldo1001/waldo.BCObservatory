@@ -4,13 +4,13 @@
   "summary": "ALCops is the successor to LinterCop for AL code analysis in Business Central, split into six cops (including PlatformCop, ApplicationCop, Test Automation, Documentation, Formatting). The video covers why LinterCop is deprecated, migration, NuGet distribution, the VS Code extension and an early 0.1 alpha MCP server.",
   "overview": "Arthur van de Vondervoort explains why he moved from LinterCop to ALCops. The reasons given are GitHub rate limits that broke DLL downloads in pipelines since May 2025, AL 16.4 version compatibility problems, and a design that had grown into a \"Swiss Army knife\". LinterCop now only covers code quality, and its repository is deprecated with no new rules planned.\n\nThe session shows the six-cop structure, expanded code fixes (about 30 rules), rewritten rule descriptions aimed at AI agents, and a migration guide. It also covers NuGet distribution with semantic versioning, a single package for all AL versions, an AL-Go helper, a dynamic transfer fields analyzer, and the MCP server. The speaker states that ALCops was released that week and may contain bugs.",
   "key_points": [
-    "LinterCop problems named: since May 2025 GitHub unauthenticated rate limits dropped from 60,000 to 60 requests per hour per IP, breaking DLL downloads in DevOps pipelines; AL 16.4 support was also an issue.",
-    "ALCops splits analysis into six cops; LinterCop is kept inside it but trimmed to code quality only.",
+    "LinterCop problems named: since around May 2025 GitHub limited unauthenticated requests to about 60 per hour per public IP, breaking DLL downloads in DevOps pipelines; missing AL 16.4 support (marketplace only had 16.3, dev tools NuGet 16.2) was also an issue.",
+    "ALCops splits analysis into six cops (LinterCop, PlatformCop, ApplicationCop, Test Automation, Documentation, Formatting); LinterCop is kept inside it but trimmed to code quality only.",
+    "The Test Automation cop exists as a separate cop, but test automation rules are not implemented yet and are on the backlog (e.g. validating confirm dialog content).",
     "LinterCop and ALCops cannot run together in VS Code because they share diagnostic IDs; disable LinterCop to use ALCops.",
-    "Expect new warnings after migrating: ALCops analyzes deeper, and the migration guide covers about 95 percent of the rules.",
-    "Distribution is via NuGet with semantic versioning, so pipelines can pin a version. One package works across AL versions using reflection, and an AL-Go helper fetches the right feed.",
-    "Code fixes grew from about five or six to 30 rules. The MCP server is at 0.1 alpha, applies Microsoft quick fixes programmatically, and 1.0 is expected within a couple of weeks.",
-    "LinterCop repository is deprecated with no new rules; it is maintained for a few more months (through end of year), with no firm end date."
+    "Expect new warnings after migrating: ALCops analyzes deeper, and the migration guide covers about 95 percent of the rules. Try it locally in VS Code before switching pipelines.",
+    "Distribution is via NuGet with semantic versioning, so pipelines can pin a version. One package works across AL versions sharing a .NET target using reflection, and an AL-Go helper fetches the right feed (defaults to .NET 8 for AL 16.0+).",
+    "Code fixes grew from about five or six to 30 rules. The MCP server is at 0.1 alpha and applies Microsoft quick fixes programmatically; a 1.0 may follow after a couple of weeks of fine tuning."
   ],
   "audience": [
     "developer",

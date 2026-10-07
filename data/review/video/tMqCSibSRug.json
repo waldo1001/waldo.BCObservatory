@@ -1,0 +1,34 @@
+{
+  "video_id": "tMqCSibSRug",
+  "item_id": "video/yt-stefanmaron/tMqCSibSRug",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and the 'GitHub rate limiting issue' feature say limits dropped 'from 60,000 to 60'. The transcript only says 'like 60 requests per hour per public IP', and 60,000 is not stated.",
+    "The Test Automation Cop description says it includes an 'unnecessary assert true' rule. That rule was the host's own personal analyzer. Arthur says test automation rules are not there yet and are on his backlog.",
+    "Key point said MCP 1.0 is 'expected within a couple of weeks'. The speaker expects fine tuning over the next couple of weeks and then 'maybe' a 1.0. Softened.",
+    "End-of-year maintenance for LinterCop is hedged ('maybe even to the end of this year'). Wording softened.",
+    "'Transfer fields analyzer' duplicates 'Dynamic transfer fields rule detection', so it was dropped.",
+    "Two quotes share t=837.7 and one is a prefix of the other. Minor, left as is.",
+    "MCP server status set to preview based on the '0.1 alpha' statement.",
+    "Feature names and descriptions repeat caption errors ('Nougat', 'cloud code'). Minor."
+  ],
+  "input_hash": "179517ac7f921e6651dca5e7dc7c7c701d90df676e48ae06d294dcdbc9791a7c",
+  "by": "opus",
+  "at": "2026-10-07T23:21:54.732Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "quote at 269s",
+    "quote at 1029s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status ALCops MCP server -> preview: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.352077
+  }
+}

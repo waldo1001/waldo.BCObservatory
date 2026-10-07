@@ -1,16 +1,16 @@
 {
   "video_id": "Fk6kWTe3f2Y",
   "item_id": "video/yt-bcmusings/Fk6kWTe3f2Y",
-  "summary": "Deploying Business Central analysis views through AL extensions in 2026 wave 1 (version 28). Analysis views are exported from analysis mode as analysis.json files, added to a page's analysis views section, and appear as locked tabs. Copilot in Excel is used to design the views.",
+  "summary": "Business Central 2026 wave 1 (version 28, runtime 17) lets analysis views be exported from analysis mode as analysis.json files, referenced in a new analysis views section of an AL list page, and deployed through an extension as locked tabs that users can duplicate. The demo on item ledger entries uses Copilot and the Claude add-in in Excel to propose view designs and JSON, then publishes them via AL.",
   "overview": "The video shows how an analysis view built in analysis mode in the web client can be exported as a JSON file, added to an AL project and referenced from a page. The view is then deployed with the extension, so it can be version controlled and rolled out across environments and tenants without manual setup. The demo uses item ledger entries, with locked and unlocked views, pivot rows and columns, and dimensions from related tables.\n\nThe presenter also exports item ledger data to Excel and uses Copilot to suggest analysis designs, such as monthly trends and item profitability, and to generate JSON proposals. The video covers caveats on file naming, a publish error when the extension is used in multiple apps, and slow loading of related tables in the UI. It ends with pointers to Microsoft-provided queries for fixed assets and projects.",
   "key_points": [
-    "Export an analysis from analysis mode in the web client as JSON and include it in the AL extension package.",
+    "Export an analysis from analysis mode in the web client (Share > Export definition) as JSON and include it in the AL extension.",
     "The definition file name must end with analysis.json, otherwise an error occurs.",
-    "AL pages get a new analysis views section where you define the name, file path and caption of each analysis view.",
-    "Views deployed this way show as locked tabs; end users cannot change the design but can duplicate them. A duplicate may lose its pivot configuration and need reconfiguring.",
-    "Copilot in Excel can suggest analysis designs and generate JSON from exported item ledger entries. It needs Python packages, and the generated JSON should be reviewed before deployment.",
-    "Publishing failed in the demo with the message that the extension is used in multiple apps; the caveat says to uninstall first.",
-    "Analysis views can add columns from related tables such as Customer, but the UI can be slow when loading related tables."
+    "AL pages get a new analysis views section where each analysis view has a name, a path to the analysis JSON file and a caption. A snippet for analysis view exists in VS Code.",
+    "Views deployed this way show as locked tabs in analysis mode; users cannot change filters or layout but can duplicate them. In the demo a duplicate lost its pivot and had to be reconfigured.",
+    "Item ledger entries were exported to Excel; Copilot (which installed Python packages) and the Claude add-in for Excel suggested analysis designs and JSON definitions, such as monthly trends and item profitability by customer posting group.",
+    "In the demo, publishing first failed with 'used in multiple apps'; the presenter uninstalled the earlier extension and published again.",
+    "Analysis views can add columns from related tables such as Customer, though loading related tables was slow in the demo."
   ],
   "audience": [
     "developer",

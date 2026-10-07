@@ -15,12 +15,12 @@ tags:
   - analysis mode
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:13.830Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:13.866Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,7 @@ quotes:
 
 > AL namespace additions in Business Central 2025 wave 2 (BC27): a new AL namespace field on the All Objects with Captions table, Record ID formatting with format type 9 to show the namespace, and evaluating a Record ID against a fully qualified namespace. All three are demoed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KmuTVkodRXM) · Business Central Musings · 2025-10-20 · 10:37 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KmuTVkodRXM) · Business Central Musings · 2025-10-20 · 10:37 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -176,11 +176,11 @@ The second half covers Record ID. A Record ID can be formatted with format type 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AL namespace field in All Objects with Captions table | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=24s) |  |
-| Record ID formatting with AL namespace | status not stated, demoed | [6:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=384s) |  |
-| Record ID evaluation against fully qualified namespace | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=KmuTVkodRXM&t=478s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AL namespace field in All Objects with Captions table | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=24s) |
+| Record ID formatting with AL namespace | status not stated, demoed | [6:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=384s) |
+| Record ID evaluation against fully qualified namespace | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=KmuTVkodRXM&t=478s) |
 
 ## AL objects mentioned
 

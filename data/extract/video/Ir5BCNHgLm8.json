@@ -414,9 +414,9 @@
       "check": "exact"
     },
     {
-      "t": 1332.2,
-      "text": "Constructor.json. It's a it's a JSON object with uh with an object course and main code version output website uh ...",
-      "why_it_matters": "Documents the JSON configuration structure that defines the course organization and metadata.",
+      "t": 1345.9,
+      "text": "with modules which are it's an array. You can have many modules but each module is going to have an ID.",
+      "why_it_matters": "Describes how course.json organizes the course into modules, each with an ID, name, description and lesson array.",
       "check": "exact"
     },
     {

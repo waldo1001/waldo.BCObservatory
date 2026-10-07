@@ -1,0 +1,28 @@
+{
+  "video_id": "Ir5BCNHgLm8",
+  "item_id": "video/yt-bcmusings/Ir5BCNHgLm8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at t=1332.2 ends with an added '...' that is not in the transcript, and it says little about the course structure. I dropped it and added a verbatim quote about modules from t=1345.9.",
+    "All other quotes match the transcript, including those that run across caption segment boundaries.",
+    "Every feature is marked unclear. That is appropriate: this is the presenter's own course framework, not a Microsoft feature with a release status.",
+    "The summary and key points are supported by the transcript, including the six-week deadline, the 12 Scandinavian locations, the start 1.1 command and phase two not yet being included.",
+    "'Lesson command framework' and 'Lesson script framework' overlap a lot, but each is supported, so both are kept.",
+    "The 'copilot' system tag rests only on a passing remark at the end that Copilot could probably be used as well. That support is weak."
+  ],
+  "input_hash": "4267de2046960c7d1e4fb09888b63db9138f57e3c1a69f118f7fd46927bf0729",
+  "by": "opus",
+  "at": "2026-10-07T23:21:39.768Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 1346s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11877700000000001
+  }
+}

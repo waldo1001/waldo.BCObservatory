@@ -4,13 +4,13 @@
   "summary": "Excel report layouts in Business Central: a four-step process (get workbook with data contract, lay out data, import, test) and refreshable reports that use OData, Power Query and APIs. Covers data contract rules, hidden metadata sheets, OneDrive setup, permissions and password limits.",
   "overview": "Tanya Bickski presents how to build Excel report layouts from any existing report data set in Business Central without code. She walks through the four-step process: export a workbook with the data contract, lay out the data with Excel features such as pivot tables, conditional formatting and Copilot, import the file back, and test it. Use cases include physical inventory lists, certificates and tracking changes.\n\nThe second half covers refreshable Excel reports. These connect to Business Central through OData and Power Query, use the API URL structure, and build dynamic connections from variables read from the aggregated metadata sheet. The Q&A covers permissions, API configuration, and why sheets cannot be password protected when uploaded as layouts.",
   "key_points": [
-    "The data contract is the data sheet and table named data. It must start at cell A1, and end users must not change its column names.",
-    "Hidden system sheets hold report metadata, captions, translations and aggregated metadata (tenant, environment, company, language). They can be hidden but not secured from users.",
+    "The data contract is the data sheet and table named data. It must start at cell A1, needs at least one column, and end users should not change its column names; developers can add new columns from the report data set.",
+    "Hidden system sheets hold report metadata, captions, translations and aggregated metadata (tenant, environment, company, language). They can be re-hidden, but the presenter knows no way to stop users from unhiding them.",
     "When importing a layout, the Excel file must not be password protected. The data worksheet must exist and be named correctly, and columns are validated against the data contract.",
     "With OneDrive set up by an administrator through the OneDrive setup wizard, the workbook opens in the browser. Without it, the file downloads to the device. Popups must not be blocked, and SharePoint external sharing settings should be reviewed.",
     "Refreshable reports connect through an OData feed in Power Query with an organizational account. API URL: API.Central.dynamics.com/2.0/[tenant-id]/[environment-name]/api/[publisher]/[group]/[API]. Publisher and group are needed only for custom APIs.",
     "Power Query variables can read tenant ID, environment name and company ID from the aggregated metadata sheet, which makes switching between sandbox and production easier. Company ID may contain curly brackets that need cleanup.",
-    "Users of API-based reports need read permission on the tables used. Password protection is possible only for refreshable reports stored outside Business Central."
+    "The presenter believes users of API-based reports need permissions on the tables used but had not verified it. Password protection is possible only for refreshable reports stored outside Business Central."
   ],
   "audience": [
     "functional consultant",

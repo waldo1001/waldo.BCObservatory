@@ -1,0 +1,30 @@
+{
+  "video_id": "D7GxnNiGQ14",
+  "item_id": "video/yt-areopa/D7GxnNiGQ14",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary and key points match the transcript. Leaving every feature status as unclear is correct because the speakers never state preview or GA status for these tools.",
+    "Quote at 1007.8 is a garbled caption. It reads as if moving the work to the job queue made it slow, which is the opposite of the point the speaker makes. Dropped.",
+    "Quote at 3155.4 ('Yes that's correct...') makes no sense out of context. Dropped.",
+    "Dropped the 'Code Examples Repository' feature. It is a webinar resource on a speaker's GitHub, not a Business Central feature.",
+    "The Task Scheduler description says it 'adds data writing capability' over start session. The transcript says start session can already write data and task scheduler can 'still write data'. That is a minor inaccuracy, and the edit fields cannot change feature descriptions.",
+    "Two quotes share t=1628.2 and two share t=3133.7. All four are verbatim, so they were kept.",
+    "Added a quote saying that task scheduler is the first option that survives a server restart."
+  ],
+  "input_hash": "e6fae88ecb877da008ba4cb6ad25830ee100e9cd918494e96e80d8116e5fc692",
+  "by": "opus",
+  "at": "2026-10-07T23:21:48.530Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 2 quote(s)",
+    "quote at 1286s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.238933
+  }
+}

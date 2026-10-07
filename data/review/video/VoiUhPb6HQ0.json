@@ -1,0 +1,30 @@
+{
+  "video_id": "VoiUhPb6HQ0",
+  "item_id": "video/yt-bcmusings/VoiUhPb6HQ0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary and key points said Excel became the default layout for Quantity Explosion of BOM too. The transcript says that report now defaults to Word, with Word and Excel as the main layouts (t=1176.8, t=1225). Excel is the default only for Where Used Top Level.",
+    "The feature 'RDLC layout removal and Excel layout default' describes the change as general to version 27, but the transcript only shows it for the Where Used Top Level report.",
+    "Dropped the quote at t=242.9. It is filler about the length of another video.",
+    "The GitLens feature t_start of 94 is early. GitLens is first named at t=127.9. This is minor and was left as is.",
+    "All other quotes check out as verbatim spans. Some run across segment boundaries, which is fine.",
+    "Feature statuses are left as unclear because the transcript never states a preview or GA status explicitly."
+  ],
+  "input_hash": "9896dad0457327b0a3001b320deb9fd1bc6083cab808ff8852e2514378fa0294",
+  "by": "opus",
+  "at": "2026-10-07T23:22:18.230Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 1177s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11544100000000002
+  }
+}

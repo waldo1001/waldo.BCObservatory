@@ -494,24 +494,6 @@
         "read operations"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Code Examples Repository",
-      "description": "Code examples from the webinar presentation are available on Stefan's GitHub repository for attendees to access.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3123.1,
-      "t_end": 3403,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "code examples",
-        "github",
-        "resources"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -627,12 +609,6 @@
       "check": "exact"
     },
     {
-      "t": 1007.8,
-      "text": "they turned out to be slow when we moved it into a a job queue or uh we actually saw that each production order",
-      "why_it_matters": "Demonstrates that serial background job execution can be faster per task than parallel execution due to reduced resource contention and deadlocks.",
-      "check": "exact"
-    },
-    {
       "t": 1123.4,
       "text": "they basically encourage you to uh offload the execution from the uh UI to the background and basically don't let the user wait",
       "why_it_matters": "Cites official documentation guidance to always move long-running operations to background processing to avoid blocking the user.",
@@ -654,6 +630,12 @@
       "t": 1228.1,
       "text": "start session I think is the oldest one I would guess uh because it's the foundation for everything else",
       "why_it_matters": "Establishes the architectural hierarchy of background processing features in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1285.7,
+      "text": "So we have error handling again. And this is the first one which actually survives a uh server restart.",
+      "why_it_matters": "Says that task scheduler, unlike page background tasks and start session, survives a server restart.",
       "check": "exact"
     },
     {
@@ -756,12 +738,6 @@
       "t": 3133.7,
       "text": "Yes, they they are on Stefan's GitHub.",
       "why_it_matters": "Confirms that code examples from the presentation are publicly available for attendees and the community.",
-      "check": "exact"
-    },
-    {
-      "t": 3155.4,
-      "text": "Yes that's correct. Yeah indeed it was also mentioned on the conclusion slides.",
-      "why_it_matters": "Clarifies that autoscaling limitation to job queue and task scheduler was explicitly documented in the presentation.",
       "check": "exact"
     },
     {

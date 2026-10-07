@@ -20,12 +20,12 @@ tags:
   - asynchronous processing
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:48.530Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:48.595Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -213,11 +213,6 @@ features:
     t: 3246
     verified: false
     status_source: video
-  - name: Code Examples Repository
-    status: unclear
-    t: 3123
-    verified: false
-    status_source: video
 objects_mentioned:
   - other warehouse request
   - other warehouse activity
@@ -250,7 +245,7 @@ quotes:
 
 > Background processing options in Business Central (page background tasks, start session, task scheduler, job queue) and how to use them so users do not wait. Covers capabilities, limits, error handling, a production order and warehouse request case, and load balancing across NST nodes online.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=D7GxnNiGQ14) · Areopa webinars · 2026-02-24 · 56:47 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=D7GxnNiGQ14) · Areopa webinars · 2026-02-24 · 56:47 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -295,25 +290,24 @@ The presenters then compare four tools in order of capability: page background t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Page Background Tasks | status not stated, demoed | [22:49](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1369s) |  |
-| Start Session | status not stated, demoed | [20:28](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1228s) |  |
-| Task Scheduler | status not stated, demoed | [21:12](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1272s) |  |
-| Job Queue | status not stated | [22:15](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1335s) |  |
-| Job Queue Categories | status not stated, demoed | [40:01](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2401s) |  |
-| Job Queue Record ID and Parameter String | status not stated, demoed | [41:41](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2501s) |  |
-| Job Queue Error Handling | status not stated, demoed | [42:04](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2524s) |  |
-| Task Scheduler Failure Handler | status not stated, demoed | [31:39](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1899s) |  |
-| Multi-Level Job Queue Workflows | status not stated, demoed | [44:02](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2642s) |  |
-| Warehouse Request Architecture | status not stated, demoed | [14:02](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=842s) |  |
-| Production order asynchronous planning | status not stated | [15:17](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=917s) |  |
-| Business Central Online Compute Node Distribution | status not stated | [45:24](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2724s) |  |
-| Automatic NST Scaling | status not stated | [46:11](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2771s) |  |
-| Session Limit - Start Session | status not stated | [50:52](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3052s) |  |
-| Auto-Scaling Limited to Task Scheduler and Job Queue | status not stated | [52:13](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3133s) |  |
-| Page Background Tasks for API Calls | status not stated | [54:06](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3246s) |  |
-| Code Examples Repository | status not stated | [52:03](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3123s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Page Background Tasks | status not stated, demoed | [22:49](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1369s) |
+| Start Session | status not stated, demoed | [20:28](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1228s) |
+| Task Scheduler | status not stated, demoed | [21:12](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1272s) |
+| Job Queue | status not stated | [22:15](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1335s) |
+| Job Queue Categories | status not stated, demoed | [40:01](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2401s) |
+| Job Queue Record ID and Parameter String | status not stated, demoed | [41:41](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2501s) |
+| Job Queue Error Handling | status not stated, demoed | [42:04](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2524s) |
+| Task Scheduler Failure Handler | status not stated, demoed | [31:39](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=1899s) |
+| Multi-Level Job Queue Workflows | status not stated, demoed | [44:02](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2642s) |
+| Warehouse Request Architecture | status not stated, demoed | [14:02](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=842s) |
+| Production order asynchronous planning | status not stated | [15:17](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=917s) |
+| Business Central Online Compute Node Distribution | status not stated | [45:24](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2724s) |
+| Automatic NST Scaling | status not stated | [46:11](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=2771s) |
+| Session Limit - Start Session | status not stated | [50:52](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3052s) |
+| Auto-Scaling Limited to Task Scheduler and Job Queue | status not stated | [52:13](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3133s) |
+| Page Background Tasks for API Calls | status not stated | [54:06](https://www.youtube.com/watch?v=D7GxnNiGQ14&t=3246s) |
 
 ## AL objects mentioned
 

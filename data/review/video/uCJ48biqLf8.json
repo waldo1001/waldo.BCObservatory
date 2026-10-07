@@ -1,0 +1,30 @@
+{
+  "video_id": "uCJ48biqLf8",
+  "item_id": "video/yt-bcmusings/uCJ48biqLf8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary said the demo reads a table extension field by name. In fact the demo reads the base field No. (field ID 1) on Customer, both by ID and by name. Summary corrected.",
+    "The 'Accessing table extension fields via text parameters' feature is a use case, not a feature. It is already covered in key_points, so it was dropped.",
+    "Removed the key point saying you need the 'exact' field name. The transcript only says you pass the field name.",
+    "Feature statuses stay unclear. The transcript says the functions 'will appear in the latest AL compiler' but also 'with the latest release though we have', which do not clearly agree on whether the feature is released or upcoming.",
+    "Added quotes for the compiler timing and for using page inspection to find field IDs."
+  ],
+  "input_hash": "6d347b40ef8db46c81aba3d07ff92895e59800c5f93cdcc2023d3bcd27409025",
+  "by": "opus",
+  "at": "2026-10-07T23:22:25.208Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 47s",
+    "quote at 344s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.064565
+  }
+}

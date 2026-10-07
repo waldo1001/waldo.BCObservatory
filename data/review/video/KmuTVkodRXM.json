@@ -1,0 +1,23 @@
+{
+  "video_id": "KmuTVkodRXM",
+  "item_id": "video/yt-bcmusings/KmuTVkodRXM",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim in the transcript; the quote at 586.2 runs on into the next segment, which is allowed.",
+    "Summary and key points are supported: Text 500 AL namespace field, page 9174 lacks it but is extensible, System Reflection namespace, format type 9, evaluate against Microsoft Sales Customer.",
+    "The speaker says 'format 10,000' at 443.9 but the code at 458.5 uses format type 9; the key point uses 9, which matches the code.",
+    "No preview or GA language in the transcript, so all features correctly stay unclear."
+  ],
+  "input_hash": "1f80463bb0c55c47b87492b67aef83d58f4fd59a98d3874a08da3b16a6f9f3e9",
+  "by": "opus",
+  "at": "2026-10-07T23:22:13.830Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06156500000000001
+  }
+}

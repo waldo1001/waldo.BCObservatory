@@ -1,0 +1,28 @@
+{
+  "video_id": "reUoIdQZaNM",
+  "item_id": "video/yt-areopa/reUoIdQZaNM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on the bridge app pattern added claims the transcript does not make ('careful API design and consistent data models'). The presenter only says the architectural work was 'not that easy'.",
+    "Key point on Structurizr DSL is contradicted by the transcript: Copilot generated the DSL file from a screenshot of the draw.io diagram. The presenter did not create it by hand, and 'learn the syntax' is never stated. Only the need to export diagrams again is supported.",
+    "There are near-duplicate quotes at t=824.3 and t=2395 (one is a substring of the other). They were left in place because drop_quotes works by t and would remove both.",
+    "The Solution hub feature description expands PTE as 'partner-developed extension'. The transcript never expands the acronym, so this was noted but not changed.",
+    "All feature statuses are unclear, which fits: this is an architecture methodology talk with no release-status claims.",
+    "Solution hub, EROC connector and the Projects integration module are the presenter's own custom apps, not Business Central product features."
+  ],
+  "input_hash": "a24eb31f8c38adbcfde4893c3bbb249513a175c978b40e4203c6e0431ff306f3",
+  "by": "opus",
+  "at": "2026-10-07T23:21:58.823Z",
+  "applied": [
+    "quote at 2467s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.185137
+  }
+}

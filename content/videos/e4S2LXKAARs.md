@@ -20,12 +20,12 @@ tags:
   - iterative refinement
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:15.776Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:15.830Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,7 +215,7 @@ quotes:
 
 > AI-assisted test plan generation from requirements, shown by 4PS and a partner in an Areopa webinar. It covers the test plan method, structured system prompts, and VS Code with an Azure DevOps MCP server, and it says AI output is a draft that testers review.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=e4S2LXKAARs) · Areopa webinars · 2025-12-09 · 1:00:43 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=e4S2LXKAARs) · Areopa webinars · 2025-12-09 · 1:00:43 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -248,24 +248,24 @@ The presenters then show how AI can generate a first draft. They use a structure
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI-assisted test plan generation | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=e4S2LXKAARs&t=288s) |  |
-| Test plan methodology at 4PS | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=e4S2LXKAARs&t=445s) |  |
-| User scenario classification | status not stated | [11:23](https://www.youtube.com/watch?v=e4S2LXKAARs&t=683s) |  |
-| Structured system prompts for test planning | status not stated | [22:37](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1357s) |  |
-| MCP integration for test planning in Visual Studio Code | status not stated, demoed | [26:09](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1569s) |  |
-| System prompts in VS Code for structured test plan generation | status not stated, demoed | [30:44](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1844s) |  |
-| AI-assisted prompt generation and refinement | status not stated, demoed | [33:09](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1989s) |  |
-| AI-structured requirement analysis into test scenarios | status not stated, demoed | [35:56](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2156s) |  |
-| Expert feedback loop for test plan improvement | status not stated, demoed | [39:01](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2341s) |  |
-| Prompt-based slash commands for AI tasks | status not stated | [46:59](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2819s) |  |
-| Multi-use case AI prompts | status not stated | [46:44](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2804s) |  |
-| AI as junior developer paradigm | status not stated, demoed | [47:58](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2878s) |  |
-| AI reduces manual test planning effort | status not stated, demoed | [48:55](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2935s) |  |
-| Centralized prompt management for teams | status not stated | [50:25](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3025s) |  |
-| VS Code extension for prompt distribution | status not stated | [57:58](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3478s) |  |
-| Phased prompt deployment strategy | status not stated | [57:18](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3438s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI-assisted test plan generation | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=e4S2LXKAARs&t=288s) |
+| Test plan methodology at 4PS | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=e4S2LXKAARs&t=445s) |
+| User scenario classification | status not stated | [11:23](https://www.youtube.com/watch?v=e4S2LXKAARs&t=683s) |
+| Structured system prompts for test planning | status not stated | [22:37](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1357s) |
+| MCP integration for test planning in Visual Studio Code | status not stated, demoed | [26:09](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1569s) |
+| System prompts in VS Code for structured test plan generation | status not stated, demoed | [30:44](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1844s) |
+| AI-assisted prompt generation and refinement | status not stated, demoed | [33:09](https://www.youtube.com/watch?v=e4S2LXKAARs&t=1989s) |
+| AI-structured requirement analysis into test scenarios | status not stated, demoed | [35:56](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2156s) |
+| Expert feedback loop for test plan improvement | status not stated, demoed | [39:01](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2341s) |
+| Prompt-based slash commands for AI tasks | status not stated | [46:59](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2819s) |
+| Multi-use case AI prompts | status not stated | [46:44](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2804s) |
+| AI as junior developer paradigm | status not stated, demoed | [47:58](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2878s) |
+| AI reduces manual test planning effort | status not stated, demoed | [48:55](https://www.youtube.com/watch?v=e4S2LXKAARs&t=2935s) |
+| Centralized prompt management for teams | status not stated | [50:25](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3025s) |
+| VS Code extension for prompt distribution | status not stated | [57:58](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3478s) |
+| Phased prompt deployment strategy | status not stated | [57:18](https://www.youtube.com/watch?v=e4S2LXKAARs&t=3438s) |
 
 ## AL objects mentioned
 

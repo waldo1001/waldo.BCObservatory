@@ -121,28 +121,6 @@
         "stability issues"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Custom data copy solution",
-      "description": "A custom-built solution similar to Master Data Management Setup where developers can choose tables from a source company and copy them to a target company.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 483.5,
-      "t_end": 526.3,
-      "is_demoed": false,
-      "caveats": [
-        "Custom-built solution, not part of base application",
-        "Requires development effort",
-        "Speaker used this approach about 10 years ago"
-      ],
-      "tags": [
-        "custom solution",
-        "data copy",
-        "development"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -220,6 +198,12 @@
       "t": 526.3,
       "text": "why not use already what we already have uh in business central as of October 2025 um in the base application",
       "why_it_matters": "Emphasizes that the presented solutions are built-in, currently available features as of October 2025.",
+      "check": "exact"
+    },
+    {
+      "t": 548.9,
+      "text": "pulling data into the current company from a from a source company uh and was based on job cues",
+      "why_it_matters": "Shows that Master Data Management Setup pulls data into the current company and runs through job queues, unlike the Configuration Worksheet.",
       "check": "exact"
     }
   ],
