@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11154",
+  "number": 11154,
+  "title": "Fix AL0254 compile error in Stock Register for Job Work report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Stock Register for Job Work report in GST Subcontracting (IN) now compiles by suppressing AL0254 warnings on sort fields from a table extension that lack a covering key.",
+  "key_points": [
+    "AL0254 compiler rules tightened to validate sort fields from table extensions, not just base tables",
+    "Report failed to compile with two AL0254 errors on Prod. Order No. and Prod. Order Line No. sorting",
+    "Fix uses scoped pragma to suppress AL0254 warnings without adding a key to the shared base table",
+    "Pragma pattern matches existing suppression already in the same report",
+    "No functional or schema changes; compile-only fix with no runtime behavior impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "platform"
+  ],
+  "quote": "Recent AL compilers tightened AL0254 to also validate sort fields introduced by a table extension.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004381,
+    "changes_in_call": 1
+  }
+}

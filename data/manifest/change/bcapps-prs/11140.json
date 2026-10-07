@@ -6,7 +6,7 @@
   "title": "Bug 649158: [BcApps] Update word layouts with broken prefix mappings.",
   "url": "https://github.com/microsoft/BCApps/pull/11140",
   "published_at": "2026-09-08T09:00:18Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649158 bcapps update word layouts with broken prefix mappings"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:03:48.271Z",
+  "retry_after": null
 }

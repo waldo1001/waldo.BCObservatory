@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11154,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11154",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T12:39:04Z",
+  "merge_commit_sha": "0b5054d2b3b2496294e213411bdd742a81c0d7f8",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Fix AL0254 compile error in Stock Register for Job Work report",
+  "body_hash": "67c8dc3d5b7ce668e9f1d2e9dd6e3614c9f65c391647934f6049d93b159e27e2",
+  "fixes_issues": [],
+  "work_items": [
+    649216
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Reports/StockRegisterforJobWork.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

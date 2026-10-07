@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11027",
+  "number": 11027,
+  "title": "[Master]-Bug 648538: Add mileage setup to Expense Agent wizard",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent setup wizard now includes mileage configuration and alerts users when closing the Mileage Rate Setup page without configuring any rates.",
+  "key_points": [
+    "Added mileage setup link to the Expense Agent setup wizard",
+    "Users are warned if they close Mileage Rate Setup without configuring mileage rates",
+    "Changes only affect Expense Agent setup and Mileage Rate Setup pages"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Adds mileage configuration to the Expense Agent setup wizard and warns users when they close Mileage Rate Setup without configuring any mileage rates.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003369,
+    "changes_in_call": 1
+  }
+}

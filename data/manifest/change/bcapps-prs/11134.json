@@ -6,10 +6,35 @@
   "title": "[Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line",
   "url": "https://github.com/microsoft/BCApps/pull/11134",
   "published_at": "2026-09-08T12:39:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:41.065Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:46.135Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004106
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:46.298Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:46.305Z",
+      "path": "content/changes/bcapps/11134.md"
     }
   },
   "input_hash": "a3766339eecc0f98392aadd161f3d5fcadd9c48a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e repair item posted purchase invoice order no is blank when invoice rounding creates a generated line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9702337b986325b98718df2ce955b3b1abab113b1f49f74e79430195d6181d23"
 }

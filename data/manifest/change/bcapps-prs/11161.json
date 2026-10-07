@@ -6,10 +6,18 @@
   "title": "[29.x][BE][Purchase Ledger Report] Wrong VAT Amounts on the report",
   "url": "https://github.com/microsoft/BCApps/pull/11161",
   "published_at": "2026-09-08T08:49:35Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:52.413Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "0e09e287c0bcd42ba3f4db0ad565781b6496c03e:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "be purchase ledger report wrong vat amounts on the report"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63ced0390755e1c6e02f1bff0f271ee83e5d0e98e2244617b7a77ad12499783f"
 }

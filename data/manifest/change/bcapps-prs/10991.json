@@ -6,10 +6,18 @@
   "title": "[Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy",
   "url": "https://github.com/microsoft/BCApps/pull/10991",
   "published_at": "2026-09-08T08:52:55Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:49.541Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
     }
   },
   "input_hash": "98e14d825ac3bf67d2f19e1275ace76b5cf7cef2:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "cannot rename user due to financial report audit log permissions copy"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "116b630917f65bc7dd160775da583830a5e1c1531b8e9ceaf5d9da35d92d28c4"
 }

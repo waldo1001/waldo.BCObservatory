@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11158",
+  "number": 11158,
+  "title": "[Master]-\"The record in table Reminder Line already exists.\" error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed a duplicate record error in Reminder Communication when creating reminders for customers with all open entries on hold and no reminder free amount on the reminder terms.",
+  "key_points": [
+    "Resolves duplicate record existence error in Reminder Line table",
+    "Applies to reminders for customers with all open entries marked as on hold",
+    "Affects scenarios where reminder terms have no reminder free amount configured",
+    "Fixes issue in Reminder Communication codeunit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002963,
+    "changes_in_call": 1
+  }
+}

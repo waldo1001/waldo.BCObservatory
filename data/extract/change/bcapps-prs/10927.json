@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10927",
+  "number": 10927,
+  "title": "[Change Log] Preserve SystemId for unloaded record modifications",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Change Log Management now preserves the SystemId from persisted records when modifications are recorded without the record being loaded first, fixing incorrect null SystemId values in change entries.",
+  "key_points": [
+    "Uses already-loaded record data from Change Log instead of reading database when SystemId is null",
+    "Maintains existing public signatures and behavior without adding database queries",
+    "Adds test coverage for modifying records by primary key without pre-loading",
+    "Fixes SystemId on modification entries in change log",
+    "Resolves issue where failed insert attempts had separate platform trigger timing behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003372,
+    "changes_in_call": 1
+  }
+}

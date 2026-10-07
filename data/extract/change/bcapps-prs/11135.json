@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11135",
+  "number": 11135,
+  "title": "Fix dimensions not populated by \"Get Order Lines\" on Purchase Invoices",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The 'Get Order Lines' function on purchase invoices now copies dimension sets from order lines, fixing a bug where dimensions were reset to defaults during line validation.",
+  "key_points": [
+    "Dimensions from purchase order lines are now preserved when creating invoice lines via 'Get Order Lines'",
+    "The fix validates the Dimension Set ID from the order line to the invoice line",
+    "Added test case GetOrderLinesCopiesDimensionsToInvoiceLine to verify the behavior",
+    "Resolves issue where dimension validation would reset to item or account defaults"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Get Order Lines created invoice lines without the order line's dimensions",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003409,
+    "changes_in_call": 1
+  }
+}

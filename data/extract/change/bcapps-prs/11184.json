@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11184",
+  "number": 11184,
+  "title": "[29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "User Management now updates Financial Report Audit Log entries when a user is renamed, and the required permissions have been added to allow the renaming operation to succeed.",
+  "key_points": [
+    "Financial Report Audit Log table is now included in the user-renaming logic",
+    "Required modify and rename permissions were granted for the Financial Report Audit Log",
+    "Audit log entries are updated to reflect the new user name when a user is renamed",
+    "Both RU and W1 layers were updated with the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "Added the table to the user-renaming handler and granted the required modify/rename permissions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003305,
+    "changes_in_call": 1
+  }
+}

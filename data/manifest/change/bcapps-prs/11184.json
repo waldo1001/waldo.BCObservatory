@@ -6,10 +6,35 @@
   "title": "[29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions",
   "url": "https://github.com/microsoft/BCApps/pull/11184",
   "published_at": "2026-09-08T11:30:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:45.942Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:50.701Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003305
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:50.995Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:51.002Z",
+      "path": "content/changes/bcapps/11184.md"
     }
   },
   "input_hash": "86a0b558784051e0af468db82ce4984bebe83c6d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e fte saas cannot rename user due to financial report audit log permissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42f1ca3479189bfaf8aa6a1058ba234b25e89b5ef08c5064801c12924678362e"
 }

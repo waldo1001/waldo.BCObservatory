@@ -6,10 +6,18 @@
   "title": "[Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)",
   "url": "https://github.com/microsoft/BCApps/pull/10982",
   "published_at": "2026-09-08T08:43:50Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:52.174Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "96921483a259d06821649e7a649b15b63209c771:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "test disabled after bcapps uptake reminder automation tests testreminderautomationlogsinteractionwithissuedremindernumber fails cz"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20cfd5bf0b96c5c7492506a416122b794e363b38381af499d8fd038d0bb8768f"
 }

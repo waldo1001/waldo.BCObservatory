@@ -6,10 +6,35 @@
   "title": "Hardening subscription billing + drop shipment scenarios",
   "url": "https://github.com/microsoft/BCApps/pull/11059",
   "published_at": "2026-09-08T12:11:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:42.200Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:47.353Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003523
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:47.553Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:47.561Z",
+      "path": "content/changes/bcapps/11059.md"
     }
   },
   "input_hash": "db20744a1b489984ffa62f8a8edd0e8f53bbf0ab:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "hardening subscription billing drop shipment scenarios"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81d47288c46d746ddd788f8cbffad0148dd0ef02240c045fe3d8adabd33e2593"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10988",
+  "number": 10988,
+  "title": "[Event Request] Codeunit 730 \"Copy Item\": Add price-specific before event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new before event OnBeforeCopyItemPriceListLines2 is added to the Copy Item codeunit to allow subscribers to intercept price list line copying operations with access to price and amount type parameters.",
+  "key_points": [
+    "New event OnBeforeCopyItemPriceListLines2 fires before copying price list lines in the price-specific overload",
+    "Event exposes PriceType and AmountType parameters for subscriber customization",
+    "The 2 suffix distinguishes this event from the existing OnBeforeCopyItemPriceListLines for the dispatcher method",
+    "Enables extensions to control individual copy operations before filters and inserts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003457,
+    "changes_in_call": 1
+  }
+}

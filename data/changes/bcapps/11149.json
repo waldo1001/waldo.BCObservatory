@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11149,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11149",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T10:24:27Z",
+  "merge_commit_sha": "ee9f33a44d03dfacae13f63b45c4f6fbe9786050",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[BE][Purchase Ledger Report] Wrong VAT Amounts on the report",
+  "body_hash": "dd222f73751622c6f3dcfafaa3717675c92449f991d991b05d87f1471927ee01",
+  "fixes_issues": [],
+  "work_items": [
+    649309
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.Report.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.rdlc",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/LedgerReports.Codeunit.al",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 140,
+    "deletions": 28,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/Purchases/Reports/PurchaseLedger.Report.al",
+        "status": "modified",
+        "key": "report/11301",
+        "type": "report",
+        "id": 11301,
+        "name": "Purchase Ledger",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/11301-be"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

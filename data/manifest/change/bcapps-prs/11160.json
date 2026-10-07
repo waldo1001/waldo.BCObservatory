@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote three mechanical rules to Error",
   "url": "https://github.com/microsoft/BCApps/pull/11160",
   "published_at": "2026-09-09T09:34:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:38.752Z",
+      "change_class": "code",
+      "files": 48,
+      "al": 23,
+      "objects": 18,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:44.487Z",
+      "prompt": "extract-change@1",
+      "kind": "breaking",
+      "behavior": false,
+      "cost_usd": 0.011646
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:44.671Z",
+      "objects": 18,
+      "unjoined": 5,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:44.680Z",
+      "path": "content/changes/bcapps/11160.md"
     }
   },
   "input_hash": "56ccdb87d79571fae5ace4b08bf4f1a1f04c54e1:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote three mechanical rules to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b900382210539e8013e47b69486c962dc9173fadd2528dd3e5c9e4c352ee38e3"
 }

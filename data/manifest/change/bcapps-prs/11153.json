@@ -6,10 +6,35 @@
   "title": "Bug 649312: [29.x] Backport expense request report layout and dataclassification on userid field",
   "url": "https://github.com/microsoft/BCApps/pull/11153",
   "published_at": "2026-09-08T10:57:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:47.303Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:56.111Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003676
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:56.409Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:56.423Z",
+      "path": "content/changes/bcapps/11153.md"
     }
   },
   "input_hash": "c5e51b11f2f92af5da37507a0a22eb6f0d0c84a8:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649312 29 x backport expense request report layout and dataclassification on userid field"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b82d6db70f5ec962d394e6bf2982f327268ddeaafb0edef1501980d61c4f063"
 }

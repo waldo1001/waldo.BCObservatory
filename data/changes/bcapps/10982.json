@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10982,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10982",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T08:43:50Z",
+  "merge_commit_sha": "96921483a259d06821649e7a649b15b63209c771",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)",
+  "body_hash": "eb6e4e2fcecb88801d36d971901d9940db6e23059254a9e147f8bd78b3393de6",
+  "fixes_issues": [],
+  "work_items": [
+    642684
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/ReminderCZL.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/ReminderCZL.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

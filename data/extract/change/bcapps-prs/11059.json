@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11059",
+  "number": 11059,
+  "title": "Hardening subscription billing + drop shipment scenarios",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription billing now handles drop shipment scenarios and blank default quantity settings correctly by using serial quantity values and subscribing to drop shipment purchase order events.",
+  "key_points": [
+    "Falls back to serial quantity instead of relying on 'Qty. to ship' field when it is zero",
+    "Fixes issue where blank 'Default Quantity to Ship' setting caused subscription creation to fail",
+    "Adds subscription handling for sales orders closed by drop shipment purchase order receipts",
+    "Fake invoicing now correctly applied to sales orders released through drop shipment path",
+    "Tests added to verify both scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003523,
+    "changes_in_call": 1
+  }
+}

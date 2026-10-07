@@ -1,0 +1,615 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11160,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11160",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-09T09:34:20Z",
+  "merge_commit_sha": "56ccdb87d79571fae5ace4b08bf4f1a1f04c54e1",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote three mechanical rules to Error",
+  "body_hash": "4d173ae49bd606b02dda24da2079923f266532727e58b30e0e051e75f4234710",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/test/GSTPurchase/src/GSTOnPurchaseTests.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 17,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/IN/INGST/test/GSTService/GSTServiceInvoiceTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/IN/INGST/test/GSTService/GSTServiceShipToAddrTests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/app/src/Install/DIOTInitialize.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTDataManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 56,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/test/src/LibraryMXDIOT.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/test/src/MXDIOTUT.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 20,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/IntegrationMasterDataSynch.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSetupDefault.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/RecurringAmountDistribute.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustEntryEdit.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/Currency/MapCurrencyExchangeRate.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 132,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/CombineReturnReceipts.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/CombineShipments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Projects/Project/Reports/OpenPurchaseInvoicesbyJob.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/TestLibraries/NLXMLReadHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/GLAccountsConversion.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/Tests/TestLibraries/NOXMLReadHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/InterfaceRussianAccounting.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 132,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/MapCurrencyExchangeRate.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Notifications/NotificationSchedule.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryAssembly.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/CustVendItemEmplTemplates.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryCRMIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryJobQueue.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryPermissionsVerify.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryPostPrevHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXMLRead.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXMLReadOnServer.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXPathXMLReader.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/Referencedatafieldlist.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/TestProxyNotificationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/SnapTestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/TestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 48,
+    "additions": 506,
+    "deletions": 277,
+    "al": 23
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/IntegrationMasterDataSynch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7231",
+        "type": "codeunit",
+        "id": 7231,
+        "name": "Integration Master Data Synch.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7231"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSetupDefault.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7230",
+        "type": "codeunit",
+        "id": 7230,
+        "name": "Master Data Mgt. Setup Default",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7230"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/RecurringAmountDistribute.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17100",
+        "type": "codeunit",
+        "id": 17100,
+        "name": "Recurring Amount - Distribute",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/17100-au"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustEntryEdit.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/103",
+        "type": "codeunit",
+        "id": 103,
+        "name": "Cust. Entry-Edit",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/103"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Account/GLAccount.Table.al",
+        "status": "modified",
+        "key": "table/15",
+        "type": "table",
+        "id": 15,
+        "name": "G/L Account",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/15"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/CombineReturnReceipts.Report.al",
+        "status": "modified",
+        "key": "report/6653",
+        "type": "report",
+        "id": 6653,
+        "name": "Combine Return Receipts",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/6653"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Projects/Project/Reports/OpenPurchaseInvoicesbyJob.Report.al",
+        "status": "modified",
+        "key": "report/10092",
+        "type": "report",
+        "id": 10092,
+        "name": "Open Purchase Invoices by Job",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10092-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/815"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAGetJournal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5639",
+        "type": "codeunit",
+        "id": 5639,
+        "name": "FA Get Journal",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5639"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/MapCurrencyExchangeRate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1280",
+        "type": "codeunit",
+        "id": 1280,
+        "name": "Map Currency Exchange Rate",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1280"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+        "status": "modified",
+        "key": "table/472",
+        "type": "table",
+        "id": 472,
+        "name": "Job Queue Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/472"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Setup/JobsSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1824",
+        "type": "page",
+        "id": 1824,
+        "name": "Jobs Setup Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1824"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Notifications/NotificationSchedule.Table.al",
+        "status": "modified",
+        "key": "table/1513",
+        "type": "table",
+        "id": 1513,
+        "name": "Notification Schedule",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1513"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Utilities/TypeHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10",
+        "type": "codeunit",
+        "id": 10,
+        "name": "Type Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/10"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Install/DIOTInitialize.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTDataManagement.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/Processing/DIOTSubscribers.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/Currency/MapCurrencyExchangeRate.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/CombineShipments.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "sales",
+    "development",
+    "integration",
+    "projects",
+    "administration",
+    "fixed-assets",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application",
+    "MasterDataManagement"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11134,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11134",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T12:39:04Z",
+  "merge_commit_sha": "a3766339eecc0f98392aadd161f3d5fcadd9c48a",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line",
+  "body_hash": "77b2547dea013f33c0232a33b457a17aba6d0c75d46908b51fca70f33d692879",
+  "fixes_issues": [],
+  "work_items": [
+    647878
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 815,
+    "deletions": 50,
+    "al": 10
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/90"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

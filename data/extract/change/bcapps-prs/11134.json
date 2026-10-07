@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11134",
+  "number": 11134,
+  "title": "[Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Posted purchase invoice now correctly shows the Order No. from the source purchase order even when invoice rounding creates a system-generated line.",
+  "key_points": [
+    "System-generated invoice rounding lines are now excluded when checking if all lines belong to the same purchase order",
+    "Ensures Order No. is properly copied to posted purchase invoice headers",
+    "Other lines with blank or different Order No. values still prevent header population",
+    "Regression tests added for single-order, multiple-order, and manual-line scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Ignore valid system-generated invoice rounding lines when determining whether all posted purchase invoice lines belong to the same purchase order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004106,
+    "changes_in_call": 1
+  }
+}
