@@ -380,3 +380,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (stderr at 4 MB): the accumulated string is dropped, the child is SIGKILLed and the call fails like a timeout, so
   the cost is one call rather than the night. The biggest honest response in this pipeline is a few MB.
   This is a bound, not a diagnosis: if the next run still dies, its `phase ...` lines (D55) name where.
+- **D57 The post-loop phases can be shed under memory pressure.** The item loop has stopped gracefully on a full
+  heap since D26 (`memory_stop_fraction`), and after it there was no guard at all: a phase that grew simply killed
+  the process, and the run lost everything it had not checkpointed. That is how both 2026-10-07 runs ended. The
+  five LLM phases — localization narratives, roadmap links, topic links, topic reviews, hub narratives — are now
+  `optionalPhase`: when the heap is already above the stop fraction they are skipped with a warning and named in
+  the report's plan note. The deterministic renders (code pages, the three indexes, the search index, the objects
+  index, the graph) always run, because skipping one of those would leave the content inconsistent with the data,
+  and they are what the final commit needs. Catch-up picks up the shed work on the next run, which is what the
+  quotas already assume. This does not stop a phase that blows the heap on its own; it stops the *next* phase from
+  inheriting a heap that is already gone.

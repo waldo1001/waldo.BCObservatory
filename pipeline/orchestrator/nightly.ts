@@ -245,6 +245,12 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     // 2026-10-06 and 2026-10-07 OOMs both happened (heap 133 MB at the last checkpoint, 8 GB six minutes later,
     // with no line in between to say where). Each post-loop phase now reports what it cost (D55).
     const mbOf = (b: number) => Math.round(b / 2 ** 20);
+    // The item loop stops gracefully when the heap fills (memory_stop_fraction); after it there was no guard at
+    // all, so a phase that grew simply killed the process and the run lost everything it had not committed. The
+    // LLM phases are `optional`: they are skipped when the heap is already high, which leaves the deterministic
+    // renders to finish and the run to commit what it has. Catch-up picks the skipped work up next run (D57).
+    const heapHigh = deps.heapFull ?? heapAbove(cfg.memory_stop_fraction ?? 0.6);
+    const skippedPhases: string[] = [];
     const phase = async <T>(name: string, fn: () => T | Promise<T>): Promise<T> => {
       const t = Date.now();
       try {
@@ -254,12 +260,19 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         log.info(`phase ${name}: ${Date.now() - t} ms, heap ${mbOf(m.heapUsed)} MB, rss ${mbOf(m.rss)} MB`);
       }
     };
+    /** An LLM phase: shed when the heap is already high, so the deterministic renders still finish and commit. */
+    const optionalPhase = async <T>(name: string, fn: () => T | Promise<T>): Promise<T | undefined> => {
+      if (!heapHigh()) return phase(name, fn);
+      skippedPhases.push(name);
+      log.warn(`phase ${name}: skipped, heap ${mbOf(process.memoryUsage().heapUsed)} MB is above the stop fraction`);
+      return undefined;
+    };
     try {
       const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
       report.code = await phase("code-derived", () => ({ ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) }));
       // narratives also run after a clean memory stop (catch-up runs end that way)
       if (execution.stop_reason === "done" || execution.stop_reason === "memory") {
-        const { errors: nErr, ...nRun } = await phase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) }));
+        const { errors: nErr, ...nRun } = await optionalPhase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) })) ?? { errors: [] as string[], ready: 0, refreshed: 0, failed: 0, waiting: [], stopped: "skipped" };
         errors.push(...nErr);
         report.code.narratives = nRun;
       }
@@ -269,17 +282,17 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     }
     // links also run after a clean memory stop: catch-up runs end that way, and linking should keep pace with ingest
     const linking = execution.stop_reason === "done" || execution.stop_reason === "memory";
-    report.roadmap_links = await phase("roadmap-links", () => refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
+    report.roadmap_links = await optionalPhase("roadmap-links", () => refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
       quota: linking ? quotas.roadmap_links ?? 0 : 0,
       reviewQuota: linking ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
-    report.topic_links = await phase("topic-links", () => refreshTopicLinks(opts, errors, {
+    report.topic_links = await optionalPhase("topic-links", () => refreshTopicLinks(opts, errors, {
       quota: linking ? quotas.topic_links ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
     // after the linking, so a link made this run can be reviewed in the same run rather than waiting a night
-    report.topic_reviews = await phase("topic-reviews", () => refreshTopicReviews(opts, errors, {
+    report.topic_reviews = await optionalPhase("topic-reviews", () => refreshTopicReviews(opts, errors, {
       quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     }));
@@ -288,7 +301,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       renderPostIndex(contentDirOf(opts));
       renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     });
-    report.hubs = await phase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
+    report.hubs = await optionalPhase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
@@ -304,7 +317,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
-      note: `stopped: ${execution.stop_reason}`,
+      note: `stopped: ${execution.stop_reason}${skippedPhases.length ? `; phases skipped on memory: ${skippedPhases.join(", ")}` : ""}`,
     };
   } else {
     report.plan = { quotas: {}, work: 0, executed: 0, note: "ingest only" };
