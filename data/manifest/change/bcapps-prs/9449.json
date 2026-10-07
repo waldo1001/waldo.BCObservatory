@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order",
   "url": "https://github.com/microsoft/BCApps/pull/9449",
   "published_at": "2026-08-14T12:07:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:38.193Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:42.818Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003418
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:43.015Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:43.027Z",
+      "path": "content/changes/bcapps/9449.md"
     }
   },
   "input_hash": "ac3029091627ded5f614758c29884469ecddab97:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30334 fix onaftercarryouttoreqwksh record order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c88fc069cee74264e535f18376a1772c4df1966122244056b6470c81d5c68e2a"
 }

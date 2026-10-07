@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10227",
+  "number": 10227,
+  "title": "Fix regression introduced by Apply-to-Oldest optimization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Gen. Jnl.-Post Line codeunit was fixed to resolve a regression introduced by the Apply-to-Oldest optimization that affected application logic in general ledger posting.",
+  "key_points": [
+    "Fixes regression in Apply-to-Oldest optimization with detailed issue tracking",
+    "Changes applied across all localization layers (W1, NA, BE, CH, ES, FI, FR, IT, NO, RU, APAC)",
+    "Added 5 automated tests to cover the regression and validate performance optimization",
+    "Early-exit logic during summation preserved for performance",
+    "Low risk due to comprehensive test coverage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Fix regression introduced by Apply-to-Oldest optimization.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004584,
+    "changes_in_call": 1
+  }
+}

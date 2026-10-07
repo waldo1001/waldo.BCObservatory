@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9449",
+  "number": 9449,
+  "title": "[Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The OnAfterCarryOutToReqWksh integration event now passes the target requisition line as a modifiable var parameter, allowing subscribers to persist changes to the newly created line.",
+  "key_points": [
+    "Target requisition line is now the first var parameter of OnAfterCarryOutToReqWksh",
+    "Subscribers can now modify and persist changes to the target line",
+    "Restores the parameter order from before version 28.1",
+    "Fixes a regression that removed extensibility for target line modifications",
+    "Change applied to both W1 and NA layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003418,
+    "changes_in_call": 1
+  }
+}

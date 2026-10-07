@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10169,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10169",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T12:09:50Z",
+  "merge_commit_sha": "ad3d7637c4506793a0292ee03dbd5831353d5051",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30081: add VAT registration number override event",
+  "body_hash": "fbffdb18cddca0c3316577dbff065ff9fb84d03b1709cf10fcfcdba0f06eb3d3",
+  "fixes_issues": [],
+  "work_items": [
+    635857
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Intrastat/app/src/Processing/IntrastatReportManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Intrastat/app/src/Processing/IntrastatReportManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4810",
+        "type": "codeunit",
+        "id": 4810,
+        "name": "IntrastatReportManagement",
+        "app": "Intrastat",
+        "cc": "w1",
+        "page": "codeunit/4810"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Intrastat"
+  ]
+}

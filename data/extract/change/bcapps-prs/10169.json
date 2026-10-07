@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10169",
+  "number": 10169,
+  "title": "[Extensibility Request] issue 30081: add VAT registration number override event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "An integration event allows extensions to override VAT registration number formatting in Intrastat reports before standard concatenation logic runs.",
+  "key_points": [
+    "New OnBeforeGetVATRegNo integration event added to IntrastatReportManagement codeunit",
+    "Event enables subscribers to provide correct VAT ID and bypass standard formatting",
+    "Solves issue where stored VAT registration numbers including country prefix caused invalid partner VAT IDs",
+    "Includes IsHandled parameter for subscribers to skip standard logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003451,
+    "changes_in_call": 1
+  }
+}

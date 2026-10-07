@@ -6,10 +6,25 @@
   "title": "[Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation",
   "url": "https://github.com/microsoft/BCApps/pull/10029",
   "published_at": "2026-08-14T07:24:59Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:46.793Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:53.284Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003379
     }
   },
   "input_hash": "20031cfcfbb4ae9319b25506e881fbecab4df98e:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "import of e documents with format zugferd xrechnung fail with error message you cannot insert a purchase line without a purchase header in german localisation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19443bd795a05013573aac05dec2df69be3e7698d5b30b8390f9a14446b5f762"
 }

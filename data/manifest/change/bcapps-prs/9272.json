@@ -6,10 +6,35 @@
   "title": "Fix duplicate in-transit location in localized Contoso demo data",
   "url": "https://github.com/microsoft/BCApps/pull/9272",
   "published_at": "2026-08-14T10:31:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:39.444Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:45.472Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004047
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:45.629Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:45.637Z",
+      "path": "content/changes/bcapps/9272.md"
     }
   },
   "input_hash": "876733adc39ff869e23b8431949dcfa183ef1aa7:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix duplicate in transit location in localized contoso demo data"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a560b84f1868a5d2c25a9a191cd1ae17cd6bd8f7ae50d982f1b47baf5f368f3e"
 }

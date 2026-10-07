@@ -6,10 +6,18 @@
   "title": "[Quality Management] Make transaction blocked error more understandable and actionable",
   "url": "https://github.com/microsoft/BCApps/pull/10141",
   "published_at": "2026-08-14T08:58:29Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:44.979Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "45ab6f0b7dea6802b0c7a04c7502ec73084400a7:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management make transaction blocked error more understandable and actionable"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ce585136d8d0244d98e1a11ec06b31717d135b0bd9348e4ecd4f1557072edfc"
 }

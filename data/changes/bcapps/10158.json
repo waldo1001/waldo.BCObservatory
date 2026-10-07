@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10158,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10158",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-13T22:57:18Z",
+  "merge_commit_sha": "e749414167fe96fbbc9bb9d4538e21bc1881a740",
+  "author": "PredragMaricic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Add details to project sales tooltip",
+  "body_hash": "4bdf721b46e11904ddd98e83368925635895f6daf57897f5883d6cc0542baa0e",
+  "fixes_issues": [],
+  "work_items": [
+    602212
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/APIs/Jobs.Query.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Power BI Files/Sales app/Sales app.Report/definition/pages/3f3a8251c4943f8c8fb2/visuals/840174a7f81ce1ba180e/visual.json",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Power BI Files/Sales app/Sales app.SemanticModel/definition/tables/Project.tmdl",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Test/E2EPowerBIProjectTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 47,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/APIs/Jobs.Query.al",
+        "status": "modified",
+        "key": "query/36995",
+        "type": "query",
+        "id": 36995,
+        "name": "Jobs",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "query/36995"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "PowerBIReports"
+  ]
+}

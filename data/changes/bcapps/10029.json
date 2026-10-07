@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10029,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10029",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T07:24:59Z",
+  "merge_commit_sha": "20031cfcfbb4ae9319b25506e881fbecab4df98e",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation",
+  "body_hash": "bef916a8fee07086645576c5c07e852652347497c24cb13f57057700ca463da6",
+  "fixes_issues": [],
+  "work_items": [
+    636659
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ImportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ImportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 18,
+    "deletions": 18,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ImportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ImportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

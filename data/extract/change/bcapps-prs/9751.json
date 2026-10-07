@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9751",
+  "number": 9751,
+  "title": "Extract invoice date into Invoice Date field and recover due date fro…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Invoice Date is now extracted and populated in the purchase draft, and Due Date can be recovered from payment terms when not at the top level in electronic documents.",
+  "key_points": [
+    "Invoice Date field is mapped from extracted invoice date in both ADI and MLLM readers",
+    "Due Date fallback added to check payment_means.payment_due_date when top level due date is missing",
+    "MLLM schema extended with payment_due_date slot for the model",
+    "Document Date mapping remains unchanged, no downstream impact",
+    "Change is additive and low risk"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This maps the extracted date into Invoice Date too, in both the ADI and the MLLM readers, so it is no longer empty.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003619,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Pin all actions that are not currently pinned",
   "url": "https://github.com/microsoft/AL-Go/pull/2346",
   "published_at": "2026-08-14T11:06:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:39.053Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:44.079Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003226
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:44.081Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:10:44.084Z",
+      "path": "content/changes/al-go/2346.md"
     }
   },
   "input_hash": "992ee305e2c6d86d85d53e18c4fc88a5171a8cd4:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "pin all actions that are not currently pinned"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30c7d3334a673f5db3d709ee52af8ba6a87fa0a34207824ffead389d4daa0c82"
 }

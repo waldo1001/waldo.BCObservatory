@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10029",
+  "number": 10029,
+  "title": "[Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A previous fix for e-document imports in German localisation is reverted because purchase and sales line handling was modified elsewhere, resolving errors during ZUGfERD and XRECHNUNG document imports.",
+  "key_points": [
+    "Reverts a prior fix to e-document import logic in German localisation",
+    "Addresses incompatibility with changes to purchase and sales line tables",
+    "Fixes failed imports of ZUGfERD and XRECHNUNG formatted documents",
+    "Changes affect codeunits for both ZUGfERD and XRECHNUNG import processes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "This pull requested is created to revert back the previous fix as Purchase and Sales Line is modified",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003379,
+    "changes_in_call": 1
+  }
+}

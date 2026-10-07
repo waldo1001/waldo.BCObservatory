@@ -1,0 +1,28 @@
+{
+  "item_id": "change/al-go-prs/2346",
+  "number": 2346,
+  "title": "Pin all actions that are not currently pinned",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Pinned unpinned GitHub Actions to specific versions across Power Platform deployment workflows and updated the dependabot configuration to manage these pinned versions.",
+  "key_points": [
+    "BuildPowerPlatform, DeployPowerPlatform, and PullPowerPlatformChanges actions now use pinned versions",
+    "Dependabot configuration updated to handle version management for pinned actions",
+    "Improves supply chain security and consistency of action versions in workflows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "Pin all actions that are not currently pinned",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003226,
+    "changes_in_call": 1
+  }
+}

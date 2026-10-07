@@ -1,0 +1,120 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9278,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9278",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T09:26:28Z",
+  "merge_commit_sha": "f19b3feb3fe56ed950b50bbd06a43fa4e6f57ec6",
+  "author": "attilatoury",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data",
+  "body_hash": "761cfb0bb63ac6e25af1a8b7494260437779bacc29adb745ffd4e41ced7a1212",
+  "fixes_issues": [],
+  "work_items": [
+    638955
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgProdRouting.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgStandardTask.Codeunit.al",
+      "status": "added",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/ManufacturingModule.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 226,
+    "deletions": 13,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgProdRouting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4772",
+        "type": "codeunit",
+        "id": 4772,
+        "name": "Create Mfg Prod. Routing",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4772"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/2.Master Data/CreateMfgStandardTask.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/4786",
+        "type": "codeunit",
+        "id": 4786,
+        "name": "Create Mfg Standard Task",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4786"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Manufacturing/ManufacturingModule.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4783",
+        "type": "codeunit",
+        "id": 4783,
+        "name": "Manufacturing Module",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4783"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/Contoso Helpers/ContosoManufacturing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4763",
+        "type": "codeunit",
+        "id": 4763,
+        "name": "Contoso Manufacturing",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/4763"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "development"
+  ],
+  "apps": [
+    "ContosoCoffeeDemoDataset"
+  ]
+}

@@ -6,10 +6,18 @@
   "title": "Add details to project sales tooltip",
   "url": "https://github.com/microsoft/BCApps/pull/10158",
   "published_at": "2026-08-13T22:57:18Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:47.627Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "e749414167fe96fbbc9bb9d4538e21bc1881a740:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "add details to project sales tooltip"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d5de6b69473b76f126c4892e1229fff761ba24d731cb69693c742a8ea8374f04"
 }

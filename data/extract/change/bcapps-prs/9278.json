@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9278",
+  "number": 9278,
+  "title": "Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "development"
+  ],
+  "summary": "Contoso Coffee manufacturing demo data now includes Standard Task master records with work instructions linked to routing operations, enabling the Standard Tasks page and Subcontractor Price table to have usable data out of the box.",
+  "key_points": [
+    "New codeunit creates 8 Standard Tasks with work-instruction description lines",
+    "Added helper methods to insert Standard Tasks idempotently and assign them to routing operations",
+    "Routing lines now reference Standard Task Codes, matching operations to tasks like assembly, wiring, testing and packaging",
+    "Existing hardcoded operation descriptions are preserved while task codes are validated and assigned",
+    "Demo data setup remains idempotent and scoped to W1 only"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Adds Standard Task master data + work instructions to the Manufacturing demo module and links them to routing operations",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004577,
+    "changes_in_call": 1
+  }
+}

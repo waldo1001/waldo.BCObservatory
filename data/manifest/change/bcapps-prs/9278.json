@@ -6,10 +6,35 @@
   "title": "Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data",
   "url": "https://github.com/microsoft/BCApps/pull/9278",
   "published_at": "2026-08-14T09:26:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:42.793Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:48.011Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004577
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:48.174Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:48.180Z",
+      "path": "content/changes/bcapps/9278.md"
     }
   },
   "input_hash": "f19b3feb3fe56ed950b50bbd06a43fa4e6f57ec6:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "add standard tasks with work instructions to contoso coffee manufacturing demo data"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d1ab9ac3c5f4418a9f50e4c5542b483fd65068cc6614b68d5059021b324feda9"
 }

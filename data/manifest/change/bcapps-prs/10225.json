@@ -6,7 +6,7 @@
   "title": "[Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.",
   "url": "https://github.com/microsoft/BCApps/pull/10225",
   "published_at": "2026-08-14T15:48:59Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:35.052Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003104
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:35.205Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:35.209Z",
+      "path": "content/changes/bcapps/10225.md"
     }
   },
   "input_hash": "413dd23af1496b5171178d5d4db45d4e406831cc:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6d86d9792079aa6419fbfd37064ab358f14118937d09aad09c8904eeef9f31a"
+  "output_hash": "86bd01ea11ebdea9ff01533b3258f06804b6f01be92289a4c5582522dd311564"
 }

@@ -1,0 +1,108 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10209,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10209",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T12:07:31Z",
+  "merge_commit_sha": "c451f37e7dc95b5609942a77b1a47df7850d07ca",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Promote AA0471, AA0472 and AA0474 to Error in the base ruleset",
+  "body_hash": "b3eb47ae4d1a8bed98641764d0f576a3bf3a759ab14f90b5e2fdd89f4f62743c",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTEmplLedgerEntryExt.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTThresholdAccumulator.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntry.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 25,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 8,
+    "deletions": 25,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTEmplLedgerEntryExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6810",
+        "type": "tableextension",
+        "id": 6810,
+        "name": "WHT Empl. Ledger Entry Ext",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "tableextension/6810"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/History/WHTThresholdAccumulator.Table.al",
+        "status": "modified",
+        "key": "table/6794",
+        "type": "table",
+        "id": 6794,
+        "name": "WHT Threshold Accumulator",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6794"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/History/WithholdingTaxEntry.Table.al",
+        "status": "modified",
+        "key": "table/6788",
+        "type": "table",
+        "id": 6788,
+        "name": "Withholding Tax Entry",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "table/6788"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "WithholdingTax"
+  ]
+}

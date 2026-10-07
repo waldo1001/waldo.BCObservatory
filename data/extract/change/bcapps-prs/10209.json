@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10209",
+  "number": 10209,
+  "title": "Promote AA0471, AA0472 and AA0474 to Error in the base ruleset",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Three analyzer rules (AA0471, AA0472, AA0474) are promoted from None to Error in the base ruleset, with violations in the Withholding Tax app fixed by adding missing AutoFormatExpression attributes to amount fields.",
+  "key_points": [
+    "AA0472 had no violations and its override was removed",
+    "AA0471 and AA0474 had one and five violations respectively, all fixed by adding AutoFormatExpression currency specifications",
+    "Amount fields in Withholding Tax Entry and WHT Empl. Ledger Entry Ext now reference the Currency Code field for formatting",
+    "WHT Threshold Accumulator uses an empty AutoFormatExpression to indicate local currency only amounts",
+    "Ruleset hardening improves code quality enforcement across the base configuration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004376,
+    "changes_in_call": 1
+  }
+}

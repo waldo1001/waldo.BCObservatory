@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10123",
+  "number": 10123,
+  "title": "[Extensibility Request] issue 30401: add credit memo sales line filter event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "An integration event OnUpdateSalesDocumentOnBeforeFindSetCreditMemoSalesLine was added to the Sales-Post Prepayments codeunit, allowing extensions to filter credit memo sales lines during prepayment document processing.",
+  "key_points": [
+    "New integration event fires before credit memo lines are queried",
+    "Extensions can add custom filters while preserving existing prepayment logic",
+    "Event added to all localization layers (W1, BE, CH, ES, FI, IT, APAC, NA, NL)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "Extensions need to refine which credit memo sales lines are processed when a prepayment document updates the originating sales document.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003666,
+    "changes_in_call": 1
+  }
+}

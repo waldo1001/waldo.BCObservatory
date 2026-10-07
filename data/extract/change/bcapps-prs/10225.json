@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10225",
+  "number": 10225,
+  "title": "[Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Order Planning Worksheet now correctly ignores items from purchase orders that have already been received but not invoiced, preventing unnecessary supply suggestions when the worksheet is run by project.",
+  "key_points": [
+    "Fixed logic in Get Unplanned Demand codeunit to handle received-but-not-invoiced purchase order items correctly",
+    "Supply suggestions are no longer created for items already covered by existing purchase orders",
+    "Issue occurred regardless of updates to order and posting dates on purchase orders",
+    "Behavior aligns with expected project-based order planning workflow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003104,
+    "changes_in_call": 1
+  }
+}

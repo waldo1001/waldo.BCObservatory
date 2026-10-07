@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10141,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10141",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T08:58:29Z",
+  "merge_commit_sha": "45ab6f0b7dea6802b0c7a04c7502ec73084400a7",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Make transaction blocked error more understandable and actionable",
+  "body_hash": "111ca0dcd7c51bd17c2474d571f41dbc60185e1a385105aaa21ef1f17afe8612",
+  "fixes_issues": [],
+  "work_items": [
+    626132
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Tracking/QltyTrackingIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 114,
+      "deletions": 32,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsMisc.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 31,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 135,
+    "deletions": 63,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Integration/Inventory/Tracking/QltyTrackingIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20415",
+        "type": "codeunit",
+        "id": 20415,
+        "name": "Qlty. Tracking Integration",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20415"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

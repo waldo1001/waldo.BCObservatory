@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9711",
+  "number": 9711,
+  "title": "Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document purchase draft no longer silently overwrites the header Sub Total when lines are edited. Users are now notified when the header total diverges from the line totals beyond a rounding tolerance, with options to dismiss or ignore future warnings.",
+  "key_points": [
+    "Purchase draft header Sub Total is preserved from the incoming document instead of being recalculated",
+    "Added tolerance-based mismatch detection (rounding precision × line count) between header and line totals",
+    "Notifications appear on the purchase draft subform with Dismiss and Don't-show-again actions",
+    "Mismatch dismissal is persisted on the E-Document Purchase Header and re-arms when amounts are edited",
+    "Telemetry logging captures detected mismatches with totals, tolerance, and difference values"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The header total should be preserved, and the user should instead be warned when it diverges from the lines beyond a rounding tolerance.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00427,
+    "changes_in_call": 1
+  }
+}

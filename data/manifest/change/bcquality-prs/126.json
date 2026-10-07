@@ -6,7 +6,7 @@
   "title": "Pin GitHub Actions to full-length commit SHAs",
   "url": "https://github.com/microsoft/BCQuality/pull/126",
   "published_at": "2026-08-14T08:24:42Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "pin github actions to full length commit shas"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:10:45.823Z",
+  "retry_after": null
 }

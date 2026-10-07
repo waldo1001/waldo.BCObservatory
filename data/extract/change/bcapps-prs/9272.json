@@ -1,0 +1,39 @@
+{
+  "item_id": "change/bcapps-prs/9272",
+  "number": 9272,
+  "title": "Fix duplicate in-transit location in localized Contoso demo data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Contoso demo data now uses a single source for the in-transit location code across inventory and warehousing modules, eliminating duplicate location records in non-English locales.",
+  "key_points": [
+    "Replaced the warehousing module's independent in-transit location definition with a call to the existing inventory module procedure",
+    "Removed the redundant translatable label that could cause different abbreviations in non-English languages",
+    "The duplicate-guard check now works correctly because both modules reference the same location code",
+    "The fix only applies to new demo data; existing databases with duplicates are not cleaned up",
+    "Safe to apply regardless of module initialization order since the function returns a constant"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Create Whse Location",
+      "member": "TransitLocationTok",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004047,
+    "changes_in_call": 1
+  }
+}
