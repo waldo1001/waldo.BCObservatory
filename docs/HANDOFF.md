@@ -124,10 +124,30 @@ Deliberate deviations from PLAN, all small:
     call instead of the run. This is a bound, not a diagnosis.
   - **D55** instrumentation: every post-loop phase logs `phase <name>: <ms>, heap <n> MB, rss <n> MB`. Both OOMs
     grew from ~133 MB at the last checkpoint to 8 GB about 6m45s later with nothing logged in between.
-  The OOM is **not diagnosed**. Measured clean locally: loadObjectWorld 184 MB, renderCodePages 501 MB, a full
-  refreshCodeDerived recompute 30 MB, topic-link planning 39 MB, search index + objects index + graph 325 MB,
-  the localization prompts and schemas (biggest schema 12 KB). Read the `phase ...` lines of the next failing run
-  before looking anywhere else. Run 37554068906 was dispatched with all three fixes.
+  **Run 37554068906 then succeeded** (02:34Z) after 5 OOMs and all 6 process attempts, each restart recovering and
+  committing its work — which is the point of D55: the fault is now survivable. The `phase` lines located it:
+
+  - **The OOM is in the item loop, not the post-loop.** Every one of the 5 OOMs follows a `committed: ... checkpoint
+    N` line with no phase line in between. All the post-loop probing was in the wrong place.
+  - **The heap grows ~120 MB per checkpoint, and checkpoints were ~6 s apart** (catch-up advances 50 item stages
+    that fast): 654 → 775 → 905 MB in process 3, 703 → 813 → 935 MB in process 4, 704 → 830 MB in process 5. That
+    is ~20 MB per second of item-loop execution, and 390 s of it is 7.8 GB — which is exactly the gap between the
+    last logged checkpoint and the 8 GB OOM, every time.
+  - **D56 was the wrong guess.** The output cap never fired once (0 hits in the log), so the `claude -p` stream was
+    not the cause. The cap is still a sound bound; it is not the fix.
+  - Ruled out by measurement: every post-loop phase (peak 1444 MB heap / 1749 MB rss, and the heap *falls* after
+    roadmap-links), module-level caches in `validate/leak.ts` (there are none), and the id Sets in `execute.ts`
+    (`touched`, `ended`, `visited`, `inBatch` hold short strings).
+  - **Where to look next:** what `executePlan` retains per item while it runs — extraction payloads, LLM cache
+    entries, manifest copies. Something holds ~20 MB for every second of item processing. Reproduce with a
+    catch-up-sized plan and `--max-old-space-size` lowered so it fails in minutes, then take a heap snapshot
+    between two checkpoints and diff the retainers.
+
+  **Separate bug found in the same log:** a checkpoint push that loses the race does `git pull -q --rebase`, which
+  fails with "cannot pull with rebase: You have unstaged changes" because the item loop is still writing content.
+  One such retry burned 3.5 minutes (01:31:44 → 01:35:20). The checkpoint rebase needs to stash, or to rebase only
+  what it has already committed. This was provoked here by pushing to main during a live run, which is worth
+  avoiding on its own.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. Opus reviews them (D54, quota
   `topic_reviews` 15): `npm run review:topics -- --data <dir>` reviews a sample the linker wrote and prints every
